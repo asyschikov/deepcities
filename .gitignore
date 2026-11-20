@@ -7,4 +7,5 @@ dist
 *.log
 .DS_Store
 .tanstack
-.claude
+.claude/*
+!.claude/skills/
