@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // The deployed site. Local dev uses the same config with local (miniflare)
+  // storage; .dev.vars overrides the vars below for localhost.
+  // To add a staging environment later, add an "env": { "alpha": { ... } } block.
+  "name": "deep-cities",
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "nodejs_compat_populate_process_env"
+  ],
+  "main": "app/server.ts",
+  "workers_dev": true,
+  "observability": { "enabled": true },
+  "vars": {
+    "APP_ENV": "live",
+    "SITE_ORIGIN": "https://deep-cities.bookverse-app.workers.dev",
+    // Temporary: borrowing bookver.se (Cloudflare Email Service) until
+    // Deep Cities has its own domain.
+    "EMAIL_FROM_ADDRESS": "deepcities@bookver.se"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "deep-cities",
+      "database_id": "8dffda18-146a-453b-bbe6-394d5b6daa46",
+      "migrations_dir": "app/lib/db/migrations"
+    }
+  ],
+  "r2_buckets": [{ "binding": "R2", "bucket_name": "deep-cities" }],
+  "send_email": [{ "name": "EMAIL" }]
+}

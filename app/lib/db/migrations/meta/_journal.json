@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1795202370390,
+      "tag": "0000_smooth_dexter_bennett",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1795205246670,
+      "tag": "0001_cli_tokens_area_fields",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1795210807137,
+      "tag": "0002_custom_fields_sub_neighbourhood",
+      "breakpoints": true
+    }
+  ]
+}

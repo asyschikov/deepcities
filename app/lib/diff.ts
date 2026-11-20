@@ -1,0 +1,99 @@
+import { showAttribute } from "./fields";
+import type { PlaceDraft } from "./validation";
+
+export type DraftField =
+  | keyof Omit<PlaceDraft, "lat" | "lng" | "attributes">
+  | "location";
+
+export interface FieldChange {
+  /** A standard field, or "attribute" for a map's custom field `key`. */
+  field: DraftField | "attribute";
+  key?: string;
+  before: string;
+  after: string;
+}
+
+/** Great-circle distance in metres. */
+export const distanceMeters = (
+  a: { lat: number; lng: number },
+  b: { lat: number; lng: number },
+): number => {
+  const R = 6_371_000;
+  const rad = (d: number) => (d * Math.PI) / 180;
+  const dLat = rad(b.lat - a.lat);
+  const dLng = rad(b.lng - a.lng);
+  const h =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+};
+
+const show = (draft: PlaceDraft, field: DraftField): string => {
+  switch (field) {
+    case "location":
+      return `${draft.lat.toFixed(5)}, ${draft.lng.toFixed(5)}`;
+    case "links":
+      return draft.links.map((l) => `${l.label} — ${l.url}`).join("\n");
+    case "photoIds":
+      return draft.photoIds.join(",");
+    case "address":
+    case "municipality":
+    case "borough":
+    case "neighbourhood":
+    case "subNeighbourhood":
+      // Drafts stored before these fields existed lack them entirely.
+      return draft[field] ?? "";
+    default:
+      return draft[field];
+  }
+};
+
+const FIELDS: DraftField[] = [
+  "title",
+  "category",
+  "summary",
+  "body",
+  "address",
+  "municipality",
+  "borough",
+  "neighbourhood",
+  "subNeighbourhood",
+  "location",
+  "links",
+  "photoIds",
+];
+
+/** Custom-field values that differ (drafts may predate `attributes`). */
+const diffAttributes = (
+  before: PlaceDraft,
+  after: PlaceDraft,
+): FieldChange[] => {
+  const a = before.attributes ?? {};
+  const b = after.attributes ?? {};
+  const keys = [...new Set([...Object.keys(b), ...Object.keys(a)])];
+  return keys
+    .map((key) => ({
+      field: "attribute" as const,
+      key,
+      before: showAttribute(a[key]),
+      after: showAttribute(b[key]),
+    }))
+    .filter((c) => c.before !== c.after);
+};
+
+/** Fields that differ between the current place and a proposed draft. */
+export const diffDrafts = (
+  before: PlaceDraft,
+  after: PlaceDraft,
+): FieldChange[] => [
+  ...FIELDS.map((field) => ({
+    field,
+    before: show(before, field),
+    after: show(after, field),
+  })).filter((c) =>
+    c.field === "location"
+      ? distanceMeters(before, after) >= 1
+      : c.before !== c.after,
+  ),
+  ...diffAttributes(before, after),
+];

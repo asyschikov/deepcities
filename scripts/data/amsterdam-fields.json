@@ -1,0 +1,33 @@
+[
+  {
+    "key": "heritage_status",
+    "label": "Heritage status",
+    "type": "select",
+    "options": [
+      "National monument",
+      "Municipal monument",
+      "National + municipal monument"
+    ],
+    "help": "Official listing: rijksmonument (national) and/or gemeentelijk monument (municipal)."
+  },
+  {
+    "key": "monument_number",
+    "label": "Monument number",
+    "type": "text",
+    "help": "Register number(s), comma-separated."
+  },
+  {
+    "key": "built",
+    "label": "Built",
+    "type": "text",
+    "help": "Year or range, e.g. 1955–1956."
+  },
+  { "key": "architect", "label": "Architect", "type": "text" },
+  {
+    "key": "listed",
+    "label": "Listed in",
+    "type": "number",
+    "help": "Year it was designated a monument."
+  },
+  { "key": "original_use", "label": "Original use", "type": "text" }
+]

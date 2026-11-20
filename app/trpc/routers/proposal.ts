@@ -1,0 +1,299 @@
+import { createId } from "@paralleldrive/cuid2";
+import { TRPCError } from "@trpc/server";
+import { and, desc, eq, inArray, sql } from "drizzle-orm";
+import { z } from "zod/v4";
+import { PROPOSAL_STATUSES } from "~/lib/constants";
+import type { Database } from "~/lib/db";
+import { photo, place, proposal } from "~/lib/db/schema";
+import { attributeIssues, compactAttributes } from "~/lib/fields";
+import { idSchema, type PlaceDraft, placeDraftSchema } from "~/lib/validation";
+import { type Collection, requireCap } from "../access";
+import { authedProcedure, router } from "../init";
+
+type Proposal = typeof proposal.$inferSelect;
+
+/**
+ * Check a draft against the map (category, custom fields, photos) and
+ * return it normalised (empty custom-field values dropped).
+ */
+const fitDraft = async (
+  db: Database,
+  coll: Collection,
+  input: PlaceDraft,
+): Promise<PlaceDraft> => {
+  if (!coll.categories.some((c) => c.key === input.category)) {
+    throw new TRPCError({ code: "BAD_REQUEST", message: "Unknown category" });
+  }
+  const draft = { ...input, attributes: compactAttributes(input.attributes) };
+  const issues = attributeIssues(coll.fields, draft.attributes);
+  if (issues.length > 0) {
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `Invalid fields: ${issues.map((i) => `${i.key} ${i.message}`).join("; ")}`,
+    });
+  }
+  if (draft.photoIds.length === 0) return draft;
+  const photos = await db
+    .select({ id: photo.id })
+    .from(photo)
+    .where(
+      and(inArray(photo.id, draft.photoIds), eq(photo.collectionId, coll.id)),
+    );
+  if (photos.length !== new Set(draft.photoIds).size) {
+    throw new TRPCError({ code: "BAD_REQUEST", message: "Unknown photo" });
+  }
+  return draft;
+};
+
+/**
+ * Publish an approved proposal: write the draft onto `place` and mark the
+ * proposal approved, in one D1 batch so they can't diverge.
+ */
+const applyProposal = async (
+  db: Database,
+  p: Proposal,
+  reviewerId: string,
+  reviewNote: string | null,
+): Promise<string> => {
+  const now = new Date();
+  const placeId = p.placeId ?? createId();
+  const markApproved = db
+    .update(proposal)
+    .set({
+      status: "approved",
+      placeId,
+      reviewedBy: reviewerId,
+      reviewNote,
+      reviewedAt: now,
+    })
+    .where(eq(proposal.id, p.id));
+
+  if (p.kind === "create") {
+    if (!p.draft)
+      throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
+    await db.batch([
+      db.insert(place).values({
+        ...p.draft,
+        id: placeId,
+        collectionId: p.collectionId,
+        createdBy: p.proposedBy,
+        createdAt: now,
+        updatedAt: now,
+      }),
+      markApproved,
+    ]);
+    return placeId;
+  }
+
+  const current = await db.query.place.findFirst({
+    where: eq(place.id, placeId),
+  });
+  if (current?.status !== "published") {
+    throw new TRPCError({
+      code: "CONFLICT",
+      message: "This place has been removed from the map",
+    });
+  }
+  const changes =
+    p.kind === "archive"
+      ? { status: "archived" as const }
+      : p.draft
+        ? { ...p.draft }
+        : null;
+  if (!changes)
+    throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
+  await db.batch([
+    db
+      .update(place)
+      .set({ ...changes, revision: sql`${place.revision} + 1`, updatedAt: now })
+      .where(eq(place.id, placeId)),
+    markApproved,
+  ]);
+  return placeId;
+};
+
+const loadProposal = async (db: Database, id: string) => {
+  const found = await db.query.proposal.findFirst({
+    where: eq(proposal.id, id),
+  });
+  if (!found)
+    throw new TRPCError({ code: "NOT_FOUND", message: "Proposal not found" });
+  return found;
+};
+
+export const proposalRouter = router({
+  /**
+   * Suggest a new place, an edit, or a removal. Moderators and above skip
+   * the queue: their proposals are approved immediately (still recorded in
+   * history).
+   */
+  create: authedProcedure
+    .input(
+      z.discriminatedUnion("kind", [
+        z.object({
+          kind: z.literal("create"),
+          collectionId: idSchema,
+          draft: placeDraftSchema,
+          note: z.string().trim().max(1000).nullable(),
+        }),
+        z.object({
+          kind: z.literal("edit"),
+          placeId: idSchema,
+          draft: placeDraftSchema,
+          note: z.string().trim().max(1000).nullable(),
+        }),
+        z.object({
+          kind: z.literal("archive"),
+          placeId: idSchema,
+          note: z.string().trim().min(5).max(1000),
+        }),
+      ]),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const target =
+        input.kind === "create"
+          ? null
+          : await ctx.db.query.place.findFirst({
+              where: eq(place.id, input.placeId),
+            });
+      if (input.kind !== "create" && target?.status !== "published") {
+        throw new TRPCError({ code: "NOT_FOUND", message: "Place not found" });
+      }
+      const collectionId =
+        input.kind === "create"
+          ? input.collectionId
+          : (target?.collectionId ?? "");
+      const access = await requireCap(
+        ctx.db,
+        collectionId,
+        ctx.profile,
+        "propose",
+      );
+      const draft =
+        input.kind === "archive"
+          ? null
+          : await fitDraft(ctx.db, access.collection, input.draft);
+
+      const row: Proposal = {
+        id: createId(),
+        collectionId,
+        placeId: target?.id ?? null,
+        kind: input.kind,
+        status: "pending",
+        draft,
+        note: input.note,
+        baseRevision: target?.revision ?? null,
+        proposedBy: ctx.profile.id,
+        reviewedBy: null,
+        reviewNote: null,
+        createdAt: new Date(),
+        reviewedAt: null,
+      };
+      await ctx.db.insert(proposal).values(row);
+
+      if (access.can.review) {
+        const placeId = await applyProposal(ctx.db, row, ctx.profile.id, null);
+        return { id: row.id, status: "approved" as const, placeId };
+      }
+      return { id: row.id, status: "pending" as const, placeId: row.placeId };
+    }),
+
+  /** Moderation queue (or history) for a collection. */
+  queue: authedProcedure
+    .input(
+      z.object({
+        collectionId: idSchema,
+        statuses: z.array(z.enum(PROPOSAL_STATUSES)).min(1),
+      }),
+    )
+    .query(async ({ ctx, input }) => {
+      await requireCap(ctx.db, input.collectionId, ctx.profile, "review");
+      const pendingOnly =
+        input.statuses.length === 1 && input.statuses[0] === "pending";
+      return ctx.db.query.proposal.findMany({
+        where: and(
+          eq(proposal.collectionId, input.collectionId),
+          inArray(proposal.status, input.statuses),
+        ),
+        with: {
+          author: { columns: { id: true, name: true } },
+          reviewer: { columns: { id: true, name: true } },
+          place: true,
+        },
+        orderBy: pendingOnly
+          ? (p, { asc }) => asc(p.createdAt)
+          : desc(proposal.reviewedAt),
+        limit: 100,
+      });
+    }),
+
+  /** The viewer's own proposals on a collection, newest first. */
+  mine: authedProcedure
+    .input(z.object({ collectionId: idSchema }))
+    .query(({ ctx, input }) =>
+      ctx.db.query.proposal.findMany({
+        where: and(
+          eq(proposal.collectionId, input.collectionId),
+          eq(proposal.proposedBy, ctx.profile.id),
+        ),
+        with: {
+          place: { columns: { id: true, title: true } },
+          reviewer: { columns: { id: true, name: true } },
+        },
+        orderBy: desc(proposal.createdAt),
+        limit: 100,
+      }),
+    ),
+
+  review: authedProcedure
+    .input(
+      z.object({
+        proposalId: idSchema,
+        decision: z.enum(["approve", "reject"]),
+        note: z.string().trim().max(1000).nullable(),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const found = await loadProposal(ctx.db, input.proposalId);
+      await requireCap(ctx.db, found.collectionId, ctx.profile, "review");
+      if (found.status !== "pending") {
+        throw new TRPCError({ code: "CONFLICT", message: "Already reviewed" });
+      }
+      if (input.decision === "approve") {
+        const placeId = await applyProposal(
+          ctx.db,
+          found,
+          ctx.profile.id,
+          input.note,
+        );
+        return { status: "approved" as const, placeId };
+      }
+      await ctx.db
+        .update(proposal)
+        .set({
+          status: "rejected",
+          reviewedBy: ctx.profile.id,
+          reviewNote: input.note,
+          reviewedAt: new Date(),
+        })
+        .where(eq(proposal.id, found.id));
+      return { status: "rejected" as const, placeId: found.placeId };
+    }),
+
+  withdraw: authedProcedure
+    .input(z.object({ proposalId: idSchema }))
+    .mutation(async ({ ctx, input }) => {
+      const found = await loadProposal(ctx.db, input.proposalId);
+      if (found.proposedBy !== ctx.profile.id || found.status !== "pending") {
+        throw new TRPCError({
+          code: "FORBIDDEN",
+          message: "Can't withdraw this",
+        });
+      }
+      await ctx.db
+        .update(proposal)
+        .set({ status: "withdrawn" })
+        .where(eq(proposal.id, found.id));
+      return { ok: true };
+    }),
+});

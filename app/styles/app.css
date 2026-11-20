@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Instrument+Sans:wght@400..700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-brick: var(--brick);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+/* "Deep Cities": a field notebook laid over a city map. Warm paper, ink,
+   canal teal as the one brand colour, brick for marks and highlights. */
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.975 0.006 85);
+  --foreground: oklch(0.22 0.012 60);
+  --card: oklch(0.995 0.003 85);
+  --card-foreground: oklch(0.22 0.012 60);
+  --popover: oklch(0.995 0.003 85);
+  --popover-foreground: oklch(0.22 0.012 60);
+  --primary: oklch(0.38 0.06 190);
+  --primary-foreground: oklch(0.98 0.005 85);
+  --secondary: oklch(0.94 0.012 85);
+  --secondary-foreground: oklch(0.28 0.02 60);
+  --muted: oklch(0.945 0.01 85);
+  --muted-foreground: oklch(0.5 0.015 60);
+  --accent: oklch(0.93 0.02 190);
+  --accent-foreground: oklch(0.3 0.05 190);
+  --brick: oklch(0.55 0.15 35);
+  --success: oklch(0.5 0.11 150);
+  --warning: oklch(0.72 0.14 75);
+  --destructive: oklch(0.55 0.2 25);
+  --border: oklch(0.89 0.01 80);
+  --input: oklch(0.87 0.012 80);
+  --ring: oklch(0.38 0.06 190);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Map markers (plain DOM elements created in MapView). */
+.dc-marker {
+  width: 26px;
+  height: 26px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
+  cursor: pointer;
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease;
+}
+.dc-marker:hover,
+.dc-marker[data-active="true"] {
+  transform: rotate(-45deg) scale(1.25);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
+  z-index: 2;
+}
+.dc-marker[data-dimmed="true"] {
+  opacity: 0.35;
+}
+.dc-draft-marker {
+  width: 34px;
+  height: 34px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background: var(--brick);
+  border: 3px solid white;
+  box-shadow: 0 0 0 6px color-mix(in oklch, var(--brick) 25%, transparent);
+  cursor: grab;
+}
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
