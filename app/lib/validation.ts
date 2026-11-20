@@ -1,5 +1,6 @@
 import { z } from "zod/v4";
 import {
+  CONTENT_LANGUAGES,
   FIELD_TYPES,
   MAX_FIELDS_PER_MAP,
   MAX_LINKS_PER_PLACE,
@@ -9,6 +10,97 @@ import {
   MAX_VIA_PER_LEG,
   TRANSPORT_MODES,
 } from "./constants";
+
+// ─── Translations ───────────────────────────────────────────────────
+
+export const contentLangSchema = z.enum(CONTENT_LANGUAGES);
+
+/** An optional translated string; blank means "not translated" and is dropped. */
+const translatedText = (max: number) =>
+  z
+    .string()
+    .trim()
+    .max(max)
+    .optional()
+    .transform((v) => (v ? v : undefined))
+    .optional();
+
+/**
+ * Per-language versions of an object's text fields, e.g.
+ * `{ nl: { title: "…", summary: "…" } }`. Missing languages or fields fall
+ * back to the base text (in the map's own language). Empty entries are dropped.
+ */
+const translationsOf = <S extends z.ZodRawShape>(shape: S) =>
+  z
+    .partialRecord(contentLangSchema, z.object(shape))
+    .default({})
+    .transform(
+      (rec) =>
+        Object.fromEntries(
+          Object.entries(rec).flatMap(([lang, fields]) => {
+            const kept = Object.fromEntries(
+              Object.entries(fields ?? {}).filter(([, v]) => v !== undefined),
+            );
+            return Object.keys(kept).length > 0 ? [[lang, kept]] : [];
+          }),
+        ) as Partial<
+          Record<(typeof CONTENT_LANGUAGES)[number], z.infer<z.ZodObject<S>>>
+        >,
+    );
+
+const textTranslations = {
+  title: translatedText(100),
+  summary: translatedText(280),
+  body: translatedText(10_000),
+};
+export const placeTranslationsSchema = translationsOf({
+  ...textTranslations,
+  /** Values of text/longtext custom fields, by field key. */
+  attributes: z
+    .record(z.string().max(32), z.string().trim().max(4000))
+    .optional()
+    .transform((a) => {
+      const kept = Object.entries(a ?? {}).filter(([, v]) => v !== "");
+      return kept.length > 0 ? Object.fromEntries(kept) : undefined;
+    })
+    .optional(),
+});
+export type PlaceTranslations = z.infer<typeof placeTranslationsSchema>;
+
+export const routeTranslationsSchema = translationsOf(textTranslations);
+export const stopTranslationsSchema = translationsOf({
+  narration: translatedText(4000),
+});
+export const legTranslationsSchema = translationsOf({
+  directions: translatedText(2000),
+});
+
+/** Translations of a map's own texts and labels (set by its admins). */
+export const collectionTranslationsSchema = translationsOf({
+  title: translatedText(80),
+  tagline: translatedText(140),
+  description: translatedText(4000),
+  /** Category label by category key. */
+  categories: z
+    .record(z.string().max(32), z.string().trim().max(40))
+    .optional(),
+  /** Custom-field texts by field key; `options` maps base option → label. */
+  fields: z
+    .record(
+      z.string().max(32),
+      z.object({
+        label: translatedText(40),
+        help: translatedText(200),
+        options: z
+          .record(z.string().max(60), z.string().trim().max(60))
+          .optional(),
+      }),
+    )
+    .optional(),
+});
+export type CollectionTranslations = z.infer<
+  typeof collectionTranslationsSchema
+>;
 
 export const categoryDefSchema = z.object({
   key: z
@@ -95,6 +187,8 @@ export const placeDraftSchema = z.object({
   photoIds: z.array(z.string().min(1).max(40)).max(MAX_PHOTOS_PER_PLACE),
   /** Custom fields; checked against the map's field definitions. */
   attributes: attributesSchema,
+  /** Title/summary/body in other languages than the map's own. */
+  translations: placeTranslationsSchema,
 });
 export type PlaceDraft = z.infer<typeof placeDraftSchema>;
 
@@ -127,6 +221,7 @@ export const draftOfPlace = (
   links: p.links ?? [],
   photoIds: p.photoIds ?? [],
   attributes: p.attributes ?? {},
+  translations: p.translations ?? {},
 });
 
 // ─── Routes ─────────────────────────────────────────────────────────
@@ -150,6 +245,7 @@ export const routeStopSchema = z.object({
   lng: z.number().min(-180).max(180),
   /** Route-specific text for this stop (what to look at, from here). */
   narration: z.string().trim().max(4000).default(""),
+  translations: stopTranslationsSchema,
 });
 export type RouteStop = z.infer<typeof routeStopSchema>;
 
@@ -164,6 +260,7 @@ export const routeLegSchema = z.object({
   path: z.array(lngLatSchema).min(2).max(MAX_PATH_POINTS_PER_LEG),
   /** How to get there: "Cross the bridge and keep left…". */
   directions: z.string().trim().max(2000).default(""),
+  translations: legTranslationsSchema,
 });
 export type RouteLeg = z.infer<typeof routeLegSchema>;
 
@@ -180,6 +277,7 @@ export const routeDraftSchema = z
       .array(z.string().min(1).max(40))
       .max(MAX_PHOTOS_PER_PLACE)
       .default([]),
+    translations: routeTranslationsSchema,
   })
   .refine((r) => r.legs.length === r.stops.length - 1, {
     message: "A route needs exactly one leg between each pair of stops",
@@ -192,7 +290,9 @@ export const draftOfRoute = (r: RouteDraft): RouteDraft => ({
   title: r.title,
   summary: r.summary,
   body: r.body ?? "",
-  stops: r.stops,
-  legs: r.legs,
   photoIds: r.photoIds ?? [],
+  translations: r.translations ?? {},
+  // Stops and legs stored before translations existed lack the key.
+  stops: r.stops.map((s) => ({ ...s, translations: s.translations ?? {} })),
+  legs: r.legs.map((l) => ({ ...l, translations: l.translations ?? {} })),
 });

@@ -10,6 +10,7 @@ import {
 } from "drizzle-orm/sqlite-core";
 import {
   CONTRIBUTION_POLICIES,
+  type ContentLang,
   GLOBAL_ROLES,
   MEMBER_ROLES,
   PLACE_STATUSES,
@@ -21,8 +22,10 @@ import {
 import type {
   Attributes,
   CategoryDef,
+  CollectionTranslations,
   FieldDef,
   PlaceDraft,
+  PlaceTranslations,
   RouteDraft,
   RouteLeg,
   RouteStop,
@@ -116,6 +119,18 @@ export const collection = sqliteTable("collection", {
     .$type<FieldDef[]>()
     .notNull()
     .default([]),
+  /** The language the map's content is written in (the fallback). */
+  language: text("language").$type<ContentLang>().notNull().default("en"),
+  /** Further languages readers can switch the map's content to. */
+  languages: text("languages", { mode: "json" })
+    .$type<ContentLang[]>()
+    .notNull()
+    .default([]),
+  /** The map's own texts and labels in `languages`. */
+  translations: text("translations", { mode: "json" })
+    .$type<CollectionTranslations>()
+    .notNull()
+    .default({}),
   contributionPolicy: text("contribution_policy", {
     enum: CONTRIBUTION_POLICIES,
   })
@@ -187,6 +202,11 @@ export const place = sqliteTable(
       .$type<Attributes>()
       .notNull()
       .default({}),
+    /** Title/summary/body in other languages (`PlaceDraft.translations`). */
+    translations: text("translations", { mode: "json" })
+      .$type<PlaceTranslations>()
+      .notNull()
+      .default({}),
     createdBy: text("created_by").references(() => profile.id, {
       onDelete: "set null",
     }),
@@ -218,6 +238,10 @@ export const route = sqliteTable(
     stops: text("stops", { mode: "json" }).$type<RouteStop[]>().notNull(),
     legs: text("legs", { mode: "json" }).$type<RouteLeg[]>().notNull(),
     photoIds: text("photo_ids", { mode: "json" }).$type<string[]>().notNull(),
+    translations: text("translations", { mode: "json" })
+      .$type<RouteDraft["translations"]>()
+      .notNull()
+      .default({}),
     createdBy: text("created_by").references(() => profile.id, {
       onDelete: "set null",
     }),

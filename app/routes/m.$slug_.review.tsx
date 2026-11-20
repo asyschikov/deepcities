@@ -20,6 +20,7 @@ import { Button } from "~/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { Textarea } from "~/components/ui/textarea";
 import type { ProposalStatus } from "~/lib/constants";
+import { languageName } from "~/lib/content-lang";
 import { diffDrafts, distanceMeters, type FieldChange } from "~/lib/diff";
 import { loadCollection } from "~/lib/loaders";
 import { cn, photoUrl } from "~/lib/utils";
@@ -160,10 +161,13 @@ const EditDiff = ({
   fields: FieldDef[];
 }) => {
   const { t } = useTranslation();
-  const labelOf = (c: FieldChange) =>
-    c.field === "attribute"
-      ? (fields.find((f) => f.key === c.key)?.label ?? c.key)
-      : t(`field_${c.field}`);
+  const labelOf = (c: FieldChange) => {
+    const label =
+      c.field === "attribute"
+        ? (fields.find((f) => f.key === c.key)?.label ?? c.key)
+        : t(`field_${c.field}`);
+    return c.lang ? `${label} · ${languageName(c.lang)}` : label;
+  };
   const changes = diffDrafts(before, after);
   if (changes.length === 0)
     return (
@@ -172,7 +176,7 @@ const EditDiff = ({
   return (
     <dl className="space-y-3 text-sm">
       {changes.map((c) => (
-        <div key={c.key ? `attr:${c.key}` : c.field}>
+        <div key={`${c.lang ?? ""}:${c.field}:${c.key ?? ""}`}>
           <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">
             {labelOf(c)}
           </dt>

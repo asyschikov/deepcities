@@ -3,6 +3,7 @@ import { MapPin, Plus, Trash2 } from "lucide-react";
 import { type ReactNode, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { ContentLangTabs, OriginalText } from "~/components/ContentLangTabs";
 import { PhotoUploader } from "~/components/PhotoUploader";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
@@ -15,7 +16,7 @@ import {
   SelectValue,
 } from "~/components/ui/select";
 import { Textarea } from "~/components/ui/textarea";
-import { MAX_LINKS_PER_PLACE } from "~/lib/constants";
+import { type ContentLang, MAX_LINKS_PER_PLACE } from "~/lib/constants";
 import { attributeIssues, visibleFields } from "~/lib/fields";
 import { useMapPage } from "~/lib/map-page";
 import {
@@ -89,7 +90,11 @@ const emptyForm = (city: string, defs: FieldDef[]): FormState => ({
   links: [],
   photoIds: [],
   attributes: attributesToForm(defs, {}),
+  translations: {},
 });
+
+const TRANSLATED_TEXT = ["title", "summary", "body"] as const;
+type TranslatedText = (typeof TRANSLATED_TEXT)[number];
 
 const AttributeInput = ({
   def,
@@ -191,7 +196,13 @@ export const PlaceForm = ({
   const { t } = useTranslation();
   const trpc = useTRPC();
   const queryClient = useQueryClient();
-  const { view, draft, setDraft, setPicking } = useMapPage();
+  const { view, draft, setDraft, setPicking, baseLang, translateTo } =
+    useMapPage();
+  // Start in the language the reader is viewing, so "translate" lands there.
+  const [editLang, setEditLang] = useState<ContentLang>(
+    translateTo ?? baseLang,
+  );
+  const translating = editLang !== baseLang;
   const allDefs = view.collection.fields;
   const defs = visibleFields(allDefs);
   // Values of hidden fields aren't editable here; pass them through as-is.
@@ -207,6 +218,42 @@ export const PlaceForm = ({
   const [errors, setErrors] = useState<Record<string, string>>({});
   const set = <K extends keyof FormState>(key: K, value: FormState[K]) =>
     setForm((f) => ({ ...f, [key]: value }));
+  /** Title/summary/body in the language being edited. */
+  const textOf = (key: TranslatedText) =>
+    translating ? (form.translations[editLang]?.[key] ?? "") : form[key];
+  const setText = (key: TranslatedText, value: string) =>
+    translating
+      ? setForm((f) => ({
+          ...f,
+          translations: {
+            ...f.translations,
+            [editLang]: { ...f.translations[editLang], [key]: value },
+          },
+        }))
+      : set(key, value);
+  const attrOf = (key: string) =>
+    translating
+      ? (form.translations[editLang]?.attributes?.[key] ?? "")
+      : (form.attributes[key] ?? "");
+  const setAttr = (key: string, value: string) =>
+    translating
+      ? setForm((f) => ({
+          ...f,
+          translations: {
+            ...f.translations,
+            [editLang]: {
+              ...f.translations[editLang],
+              attributes: {
+                ...f.translations[editLang]?.attributes,
+                [key]: value,
+              },
+            },
+          },
+        }))
+      : set("attributes", { ...form.attributes, [key]: value });
+  const shownDefs = translating
+    ? defs.filter((d) => d.type === "text" || d.type === "longtext")
+    : defs;
 
   // Turn on pin-picking on the map while this form is open.
   useEffect(() => {
@@ -263,6 +310,8 @@ export const PlaceForm = ({
       t("form_error_attribute", { message: i.message }),
     ]);
     if (!parsed.success || attrErrors.length > 0) {
+      // Errors are about the original texts and shared fields.
+      setEditLang(baseLang);
       setErrors(
         Object.fromEntries([
           ...(parsed.success ? [] : parsed.error.issues).map((i) => [
@@ -315,46 +364,57 @@ export const PlaceForm = ({
         </div>
       </div>
 
+      <ContentLangTabs value={editLang} onChange={setEditLang} />
+
       <Field id="title" label={t("form_title")} error={errors.title}>
+        {translating && <OriginalText text={form.title} lang={baseLang} />}
         <Input
           id="title"
-          value={form.title}
-          onChange={(e) => set("title", e.target.value)}
+          lang={editLang}
+          value={textOf("title")}
+          onChange={(e) => setText("title", e.target.value)}
           placeholder={t("form_title_placeholder")}
           maxLength={100}
         />
       </Field>
 
-      <Field id="category" label={t("form_category")} error={errors.category}>
-        <Select value={form.category} onValueChange={(v) => set("category", v)}>
-          <SelectTrigger id="category" className="w-full">
-            <SelectValue placeholder={t("form_category_placeholder")} />
-          </SelectTrigger>
-          <SelectContent>
-            {view.collection.categories.map((c) => (
-              <SelectItem key={c.key} value={c.key}>
-                <span
-                  className="size-2.5 rounded-full"
-                  style={{ background: c.color }}
-                />
-                {c.label}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-      </Field>
+      {!translating && (
+        <Field id="category" label={t("form_category")} error={errors.category}>
+          <Select
+            value={form.category}
+            onValueChange={(v) => set("category", v)}
+          >
+            <SelectTrigger id="category" className="w-full">
+              <SelectValue placeholder={t("form_category_placeholder")} />
+            </SelectTrigger>
+            <SelectContent>
+              {view.collection.categories.map((c) => (
+                <SelectItem key={c.key} value={c.key}>
+                  <span
+                    className="size-2.5 rounded-full"
+                    style={{ background: c.color }}
+                  />
+                  {c.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </Field>
+      )}
 
       <Field
         id="summary"
         label={t("form_summary")}
-        hint={t("form_summary_hint", { n: 280 - form.summary.length })}
+        hint={t("form_summary_hint", { n: 280 - textOf("summary").length })}
         error={errors.summary}
       >
+        {translating && <OriginalText text={form.summary} lang={baseLang} />}
         <Textarea
           id="summary"
+          lang={editLang}
           rows={2}
-          value={form.summary}
-          onChange={(e) => set("summary", e.target.value)}
+          value={textOf("summary")}
+          onChange={(e) => setText("summary", e.target.value)}
           maxLength={280}
         />
       </Field>
@@ -365,134 +425,148 @@ export const PlaceForm = ({
         hint={t("form_body_hint")}
         error={errors.body}
       >
+        {translating && <OriginalText text={form.body} lang={baseLang} />}
         <Textarea
           id="body"
+          lang={editLang}
           rows={6}
-          value={form.body}
-          onChange={(e) => set("body", e.target.value)}
+          value={textOf("body")}
+          onChange={(e) => setText("body", e.target.value)}
         />
       </Field>
 
-      <Field id="address" label={t("form_address")} error={errors.address}>
-        <Input
-          id="address"
-          value={form.address}
-          onChange={(e) => set("address", e.target.value)}
-          placeholder={t("form_address_placeholder")}
-        />
-      </Field>
-
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {AREA_FIELDS.map((k) => (
-          <Field key={k} id={k} label={t(`form_${k}`)} error={errors[k]}>
+      {!translating && (
+        <>
+          <Field id="address" label={t("form_address")} error={errors.address}>
             <Input
-              id={k}
-              value={form[k]}
-              onChange={(e) => set(k, e.target.value)}
-              placeholder={t(`form_${k}_placeholder`)}
+              id="address"
+              value={form.address}
+              onChange={(e) => set("address", e.target.value)}
+              placeholder={t("form_address_placeholder")}
             />
           </Field>
-        ))}
-      </div>
 
-      {defs.length > 0 && (
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {AREA_FIELDS.map((k) => (
+              <Field key={k} id={k} label={t(`form_${k}`)} error={errors[k]}>
+                <Input
+                  id={k}
+                  value={form[k]}
+                  onChange={(e) => set(k, e.target.value)}
+                  placeholder={t(`form_${k}_placeholder`)}
+                />
+              </Field>
+            ))}
+          </div>
+        </>
+      )}
+
+      {shownDefs.length > 0 && (
         <fieldset className="space-y-3 rounded-lg border p-3">
           <legend className="px-1 text-sm font-medium">
             {t("form_details")}
           </legend>
-          {defs.map((d) => (
+          {shownDefs.map((d) => (
             <Field
               key={d.key}
               id={`attr-${d.key}`}
-              label={d.required ? `${d.label} *` : d.label}
+              label={d.required && !translating ? `${d.label} *` : d.label}
               hint={d.help}
               error={errors[`attr:${d.key}`]}
             >
+              {translating && (
+                <OriginalText
+                  text={form.attributes[d.key] ?? ""}
+                  lang={baseLang}
+                />
+              )}
               <AttributeInput
                 def={d}
-                value={form.attributes[d.key] ?? ""}
-                onChange={(v) =>
-                  set("attributes", { ...form.attributes, [d.key]: v })
-                }
+                value={attrOf(d.key)}
+                onChange={(v) => setAttr(d.key, v)}
               />
             </Field>
           ))}
         </fieldset>
       )}
 
-      <div className="space-y-1.5">
-        <Label>{t("form_photos")}</Label>
-        <PhotoUploader
-          collectionId={view.collection.id}
-          value={form.photoIds}
-          onChange={(ids) => set("photoIds", ids)}
-        />
-      </div>
-
-      <div className="space-y-2">
-        <Label>{t("form_links")}</Label>
-        {form.links.map((link, i) => (
-          // biome-ignore lint/suspicious/noArrayIndexKey: rows have no identity beyond position
-          <div key={i} className="flex gap-2">
-            <Input
-              aria-label={t("form_link_label")}
-              placeholder={t("form_link_label")}
-              value={link.label}
-              className="w-1/3"
-              onChange={(e) =>
-                set(
-                  "links",
-                  form.links.map((l, j) =>
-                    j === i ? { ...l, label: e.target.value } : l,
-                  ),
-                )
-              }
+      {!translating && (
+        <>
+          <div className="space-y-1.5">
+            <Label>{t("form_photos")}</Label>
+            <PhotoUploader
+              collectionId={view.collection.id}
+              value={form.photoIds}
+              onChange={(ids) => set("photoIds", ids)}
             />
-            <Input
-              aria-label={t("form_link_url")}
-              placeholder="https://"
-              value={link.url}
-              onChange={(e) =>
-                set(
-                  "links",
-                  form.links.map((l, j) =>
-                    j === i ? { ...l, url: e.target.value } : l,
-                  ),
-                )
-              }
-            />
-            <Button
-              type="button"
-              variant="ghost"
-              size="icon"
-              aria-label={t("form_link_remove")}
-              onClick={() =>
-                set(
-                  "links",
-                  form.links.filter((_, j) => j !== i),
-                )
-              }
-            >
-              <Trash2 />
-            </Button>
           </div>
-        ))}
-        {errors.links && (
-          <p className="text-xs text-destructive">{errors.links}</p>
-        )}
-        {form.links.length < MAX_LINKS_PER_PLACE && (
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            onClick={() =>
-              set("links", [...form.links, { label: "", url: "" }])
-            }
-          >
-            <Plus /> {t("form_link_add")}
-          </Button>
-        )}
-      </div>
+
+          <div className="space-y-2">
+            <Label>{t("form_links")}</Label>
+            {form.links.map((link, i) => (
+              // biome-ignore lint/suspicious/noArrayIndexKey: rows have no identity beyond position
+              <div key={i} className="flex gap-2">
+                <Input
+                  aria-label={t("form_link_label")}
+                  placeholder={t("form_link_label")}
+                  value={link.label}
+                  className="w-1/3"
+                  onChange={(e) =>
+                    set(
+                      "links",
+                      form.links.map((l, j) =>
+                        j === i ? { ...l, label: e.target.value } : l,
+                      ),
+                    )
+                  }
+                />
+                <Input
+                  aria-label={t("form_link_url")}
+                  placeholder="https://"
+                  value={link.url}
+                  onChange={(e) =>
+                    set(
+                      "links",
+                      form.links.map((l, j) =>
+                        j === i ? { ...l, url: e.target.value } : l,
+                      ),
+                    )
+                  }
+                />
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  aria-label={t("form_link_remove")}
+                  onClick={() =>
+                    set(
+                      "links",
+                      form.links.filter((_, j) => j !== i),
+                    )
+                  }
+                >
+                  <Trash2 />
+                </Button>
+              </div>
+            ))}
+            {errors.links && (
+              <p className="text-xs text-destructive">{errors.links}</p>
+            )}
+            {form.links.length < MAX_LINKS_PER_PLACE && (
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                  set("links", [...form.links, { label: "", url: "" }])
+                }
+              >
+                <Plus /> {t("form_link_add")}
+              </Button>
+            )}
+          </div>
+        </>
+      )}
 
       <Field
         id="note"

@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { legLines, ModeIcon } from "~/components/RouteParts";
 import { Button } from "~/components/ui/button";
+import { localize } from "~/lib/content-lang";
 import { type MapOverlay, useMapOverlay, useMapPage } from "~/lib/map-page";
 import { formatDistance, formatDuration } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
@@ -17,10 +18,14 @@ export const RoutesPanel = () => {
   const trpc = useTRPC();
   const navigate = useNavigate();
   const viewer = useViewer();
-  const { view } = useMapPage();
+  const { view, translateTo } = useMapPage();
   const slug = view.collection.slug;
-  const { data: routes = [], isPending } = useQuery(
+  const { data: rawRoutes, isPending } = useQuery(
     trpc.route.list.queryOptions({ collectionId: view.collection.id }),
+  );
+  const routes = useMemo(
+    () => (rawRoutes ?? []).map((r) => localize(r, translateTo)),
+    [rawRoutes, translateTo],
   );
 
   const overlay = useMemo<MapOverlay>(

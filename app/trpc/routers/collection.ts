@@ -14,6 +14,8 @@ import { removedFieldKeys } from "~/lib/fields";
 import { canAssignRole } from "~/lib/permissions";
 import {
   categoryDefSchema,
+  collectionTranslationsSchema,
+  contentLangSchema,
   emailSchema,
   fieldDefsSchema,
   idSchema,
@@ -40,6 +42,10 @@ const settingsSchema = z.object({
   contributionPolicy: z.enum(CONTRIBUTION_POLICIES),
   /** Custom place fields; omit to leave them unchanged. */
   fields: fieldDefsSchema.optional(),
+  /** Content languages; omit to leave them unchanged. */
+  language: contentLangSchema.optional(),
+  languages: z.array(contentLangSchema).max(12).optional(),
+  translations: collectionTranslationsSchema.optional(),
 });
 
 export const collectionRouter = router({
@@ -143,9 +149,21 @@ export const collectionRouter = router({
           message: `Categories still used by places: ${orphaned.map((o) => o.category).join(", ")}`,
         });
       }
+      const language = settings.language ?? access.collection.language;
+      const languages = settings.languages
+        ? [...new Set(settings.languages)].filter((l) => l !== language)
+        : undefined;
+      // The map's own language has no translations: its texts are the base.
+      const translations = settings.translations
+        ? Object.fromEntries(
+            Object.entries(settings.translations).filter(
+              ([l]) => l !== language,
+            ),
+          )
+        : undefined;
       await ctx.db
         .update(collection)
-        .set(settings)
+        .set({ ...settings, languages, translations })
         .where(eq(collection.id, access.collection.id));
       return { ok: true };
     }),

@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { CategoriesEditor } from "~/components/CategoriesEditor";
 import { FieldsEditor } from "~/components/FieldsEditor";
+import { MapLanguages } from "~/components/MapLanguages";
 import { PageShell } from "~/components/PageShell";
 import { Button } from "~/components/ui/button";
 import {
@@ -328,6 +329,7 @@ const ManagePage = () => {
         <>
           <Members view={view} />
           <Settings view={view} />
+          <MapLanguages c={view.collection} />
         </>
       ) : (
         <p className="rounded-md bg-muted p-4 text-sm">

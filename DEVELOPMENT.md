@@ -62,6 +62,21 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   profiles), only while editing. The resulting path is stored, so viewing needs no
   router. Distance/time are computed (`app/lib/routes.ts`). Routes are not drawn on
   the map until you open the Routes tab or a route.
+- **Content languages** (not UI i18n). `collection.language` is the language the
+  map's content is written in; `collection.languages` lists the other languages
+  readers can switch to (the switcher on the map, `?lang=nl`, kept on links by
+  `retainSearchParams`). Places, routes, route stops and legs carry `translations`
+  (`{ nl: { title?, summary?, body? } }`; place `attributes` for text fields;
+  `narration` / `directions` on stops / legs). Map texts and labels live in
+  `collection.translations` (title, tagline, description, category labels, field
+  labels, help and select-option labels; option *values* stay in the base
+  language). Anything untranslated falls back to the original, per field.
+  `app/lib/content-lang.ts` (`localize`, `localizePlace`, `localizeRoute`,
+  `localizeCollection`) resolves this on the client; the map layout provides
+  `lang` / `translateTo` via `useMapPage()`. Translations are part of drafts, so
+  they go through proposals, history and review diffs like any other edit. The
+  server drops translations into the base language, and rejects languages the map
+  doesn't offer unless the object already had them.
 - `proposal` — a suggested change (`create` / `edit` / `archive`) carrying a full
   draft snapshot (`subject` "place" → `placeId`/`draft`, "route" →
   `routeId`/`routeDraft`). Approving copies the draft onto `place` and bumps `place.revision`.
@@ -116,6 +131,10 @@ pnpm dc photo amsterdam-c-list ./photo.jpg --credit "Jane Doe" --license "CC BY 
 pnpm dc fields amsterdam-c-list scripts/data/amsterdam-fields.json   # map schema
 pnpm dc import amsterdam-c-list scripts/data/bos-en-lommer-monuments.json [--upsert]
 ```
+
+Languages: `dc languages <slug> langs.json` sets `language`, `languages` and the
+map's `translations`. Place and route drafts take `translations`; `dc update` and
+`route-update` merge them per language and field (`null` deletes).
 
 Routes: `dc routes`, `dc route`, `dc route-create <slug> route.json`,
 `dc route-update`, `dc route-archive`. Stops are given by place id or exact title;

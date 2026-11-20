@@ -70,7 +70,7 @@ export const attributeIssues = (
 };
 
 /** Fields shown to people (in the form and on the place page). */
-export const visibleFields = (defs: FieldDef[]): FieldDef[] =>
+export const visibleFields = <D extends FieldDef>(defs: D[]): D[] =>
   defs.filter((d) => !d.hidden);
 
 /** Keys of `before` missing from `after`: fields can be hidden, never deleted. */

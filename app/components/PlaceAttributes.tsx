@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
+import type { LocalFieldDef } from "~/lib/content-lang";
 import { showAttribute, visibleFields } from "~/lib/fields";
 import { cn } from "~/lib/utils";
-import type { Attributes, FieldDef } from "~/lib/validation";
+import type { Attributes } from "~/lib/validation";
 
 /** A place's custom-field values as a definition list, in schema order. */
 export const PlaceAttributes = ({
@@ -9,7 +10,7 @@ export const PlaceAttributes = ({
   attributes,
   className,
 }: {
-  fields: FieldDef[];
+  fields: LocalFieldDef[];
   attributes: Attributes | undefined;
   className?: string;
 }) => {
@@ -44,6 +45,8 @@ export const PlaceAttributes = ({
               >
                 {value.replace(/^https?:\/\//, "")}
               </a>
+            ) : f.type === "select" && typeof value === "string" ? (
+              (f.optionLabels?.[value] ?? value)
             ) : (
               showAttribute(value, t("value_yes"), t("value_no"))
             )}

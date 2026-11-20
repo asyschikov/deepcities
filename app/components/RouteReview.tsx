@@ -9,6 +9,7 @@ import {
   stopPins,
 } from "~/components/RouteParts";
 import { Button } from "~/components/ui/button";
+import { languageName } from "~/lib/content-lang";
 import {
   diffRoutes,
   formatDistance,
@@ -143,9 +144,10 @@ const RouteDiff = ({
   return (
     <dl className="space-y-3 text-sm">
       {changes.map((c) => (
-        <div key={c.field}>
+        <div key={c.lang ? `${c.lang}:${c.field}` : c.field}>
           <dt className="text-xs font-semibold tracking-wide text-muted-foreground uppercase">
             {t(`route_field_${c.field}`)}
+            {c.lang && ` · ${languageName(c.lang)}`}
           </dt>
           {c.field === "path" ? (
             <dd className="mt-1">

@@ -3,19 +3,25 @@ import {
   createFileRoute,
   notFound,
   Outlet,
+  retainSearchParams,
   useNavigate,
   useParams,
 } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
 import { useCallback, useMemo, useState } from "react";
+import { z } from "zod/v4";
+import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
 import { type LngLat, MapView } from "~/components/MapView";
+import type { ContentLang } from "~/lib/constants";
+import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
 import {
   type MapOverlay,
   MapPageContext,
   type MapPageState,
   type SidebarTab,
 } from "~/lib/map-page";
+import { contentLangSchema } from "~/lib/validation";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -43,15 +49,48 @@ const MapLayout = () => {
   const { slug } = Route.useParams();
   const initial = Route.useLoaderData();
   const { placeId } = useParams({ strict: false });
+  const urlSearch = Route.useSearch();
 
-  const { data: view } = useQuery({
+  const { data: rawView } = useQuery({
     ...trpc.collection.bySlug.queryOptions({ slug }),
     initialData: initial.view,
   });
-  const { data: places } = useQuery({
-    ...trpc.place.list.queryOptions({ collectionId: view.collection.id }),
+  const { data: rawPlaces } = useQuery({
+    ...trpc.place.list.queryOptions({ collectionId: rawView.collection.id }),
     initialData: initial.places,
   });
+
+  // Content language: the map's own unless the reader picked another it offers.
+  const baseLang = rawView.collection.language;
+  const languages = mapLanguages(rawView.collection);
+  const lang: ContentLang =
+    urlSearch.lang && languages.includes(urlSearch.lang)
+      ? urlSearch.lang
+      : baseLang;
+  const translateTo = lang === baseLang ? null : lang;
+  const setLang = useCallback(
+    (l: ContentLang) =>
+      navigate({
+        to: ".",
+        search: (prev: Record<string, unknown>) => ({
+          ...prev,
+          lang: l === baseLang ? undefined : l,
+        }),
+        replace: true,
+      }),
+    [navigate, baseLang],
+  );
+  const view = useMemo(
+    () => ({
+      ...rawView,
+      collection: localizeCollection(rawView.collection, translateTo),
+    }),
+    [rawView, translateTo],
+  );
+  const places = useMemo(
+    () => rawPlaces.map((p) => localize(p, translateTo)),
+    [rawPlaces, translateTo],
+  );
 
   const [category, setCategory] = useState<string | null>(null);
   const [search, setSearch] = useState("");
@@ -73,14 +112,15 @@ const MapLayout = () => {
 
   const visiblePlaces = useMemo(() => {
     const q = search.trim().toLowerCase();
+    const matches = (p: { title: string; summary: string }) =>
+      p.title.toLowerCase().includes(q) || p.summary.toLowerCase().includes(q);
+    // Search both the shown language and the original.
     return places.filter(
-      (p) =>
+      (p, i) =>
         (!category || p.category === category) &&
-        (!q ||
-          p.title.toLowerCase().includes(q) ||
-          p.summary.toLowerCase().includes(q)),
+        (!q || matches(p) || matches(rawPlaces[i] ?? p)),
     );
-  }, [places, category, search]);
+  }, [places, rawPlaces, category, search]);
 
   const visibleIds = useMemo(
     () => new Set(visiblePlaces.map((p) => p.id)),
@@ -138,6 +178,11 @@ const MapLayout = () => {
     setOverlay,
     tab,
     setTab,
+    lang,
+    baseLang,
+    translateTo,
+    languages,
+    setLang,
   };
 
   return (
@@ -147,6 +192,14 @@ const MapLayout = () => {
           <Outlet />
         </aside>
         <div className="relative h-[45dvh] md:h-auto md:flex-1">
+          {languages.length > 1 && (
+            <ContentLangSwitcher
+              className="absolute top-3 left-3 z-10"
+              value={lang}
+              languages={languages}
+              onChange={setLang}
+            />
+          )}
           <MapView
             center={{
               lat: view.collection.centerLat,
@@ -180,6 +233,9 @@ const MapLayout = () => {
 };
 
 export const Route = createFileRoute("/m/$slug")({
+  // `?lang=nl` picks the content language; links within the map keep it.
+  validateSearch: z.object({ lang: contentLangSchema.optional() }),
+  search: { middlewares: [retainSearchParams(["lang"])] },
   loader: async ({ params }) => {
     const data = await loadMap({ data: params.slug });
     if (!data) throw notFound();

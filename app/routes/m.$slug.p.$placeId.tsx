@@ -25,6 +25,7 @@ import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
 import { RatingBadge, RatingInput } from "~/components/RatingStars";
+import { UntranslatedNote } from "~/components/UntranslatedNote";
 import { Button } from "~/components/ui/button";
 import {
   Dialog,
@@ -36,6 +37,7 @@ import {
   DialogTrigger,
 } from "~/components/ui/dialog";
 import { Textarea } from "~/components/ui/textarea";
+import { localize, localizePlace, untranslated } from "~/lib/content-lang";
 import { useMapPage } from "~/lib/map-page";
 import { useViewer } from "~/lib/use-viewer";
 import { createCaller } from "~/trpc/caller";
@@ -116,7 +118,7 @@ const PlacePage = () => {
   const viewer = useViewer();
   const { slug, placeId } = Route.useParams();
   const initial = Route.useLoaderData();
-  const { view, categoryOf, focusOn } = useMapPage();
+  const { view, categoryOf, focusOn, translateTo } = useMapPage();
   const editing = useMatch({
     from: "/m/$slug/p/$placeId/edit",
     shouldThrow: false,
@@ -126,7 +128,11 @@ const PlacePage = () => {
     ...trpc.place.byId.queryOptions({ placeId }),
     initialData: initial,
   });
-  const { place, can, rating, history, myPending } = data;
+  const { can, rating, history, myPending } = data;
+  const place = localizePlace(data.place, translateTo);
+  const missing = translateTo
+    ? untranslated(data.place, translateTo, ["title", "summary", "body"])
+    : [];
   const { data: onRoutes = [] } = useQuery(
     trpc.route.throughPlace.queryOptions({ placeId }),
   );
@@ -177,6 +183,13 @@ const PlacePage = () => {
         <div className="rounded-md border border-warning bg-warning/10 p-3 text-sm">
           {t("place_archived")}
         </div>
+      )}
+
+      {missing.length > 0 && (
+        <UntranslatedNote
+          partly={missing.length < 3 && !missing.includes("title")}
+          edit={{ to: "/m/$slug/p/$placeId/edit", params: { slug, placeId } }}
+        />
       )}
 
       <Gallery
@@ -252,7 +265,8 @@ const PlacePage = () => {
                   params={{ slug, routeId: r.id }}
                   className="flex items-center gap-2 text-primary hover:underline"
                 >
-                  <RouteIcon className="size-4" /> {r.title}
+                  <RouteIcon className="size-4" />{" "}
+                  {localize(r, translateTo).title}
                   <span className="text-xs text-muted-foreground">
                     {t("place_route_stop", { n: r.stop, of: r.of })}
                   </span>

@@ -1,8 +1,16 @@
 import { createContext, useContext, useEffect } from "react";
 import type { LngLat, MapLine, MapPin } from "~/components/MapView";
 import type { RouterOutputs } from "~/trpc/router";
+import type { ContentLang } from "./constants";
+import type { LocalFieldDef } from "./content-lang";
 
-export type CollectionView = RouterOutputs["collection"]["bySlug"];
+type RawCollectionView = RouterOutputs["collection"]["bySlug"];
+/** The map with its texts and labels in the reader's content language. */
+export type CollectionView = Omit<RawCollectionView, "collection"> & {
+  collection: Omit<RawCollectionView["collection"], "fields"> & {
+    fields: LocalFieldDef[];
+  };
+};
 export type PlaceListItem = RouterOutputs["place"]["list"][number];
 export type RouteListItem = RouterOutputs["route"]["list"][number];
 
@@ -51,6 +59,15 @@ export interface MapPageState {
   tab: SidebarTab;
   setTab: (t: SidebarTab) => void;
   categoryOf: (key: string) => { label: string; color: string };
+  /** The content language being shown (the map's own unless picked). */
+  lang: ContentLang;
+  /** The language the map's content is written in. */
+  baseLang: ContentLang;
+  /** `lang` when it differs from `baseLang` (what to `localize()` to), else null. */
+  translateTo: ContentLang | null;
+  /** Languages the map offers, its own first. */
+  languages: ContentLang[];
+  setLang: (lang: ContentLang) => void;
 }
 
 export const MapPageContext = createContext<MapPageState | null>(null);

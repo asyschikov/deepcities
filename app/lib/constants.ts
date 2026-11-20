@@ -63,6 +63,41 @@ export const MAX_STOPS_PER_ROUTE = 30;
 export const MAX_VIA_PER_LEG = 25;
 export const MAX_PATH_POINTS_PER_LEG = 4000;
 
+/**
+ * Languages a map's content (places, routes, map texts) can be written in.
+ * Not the UI language: that is i18n via `t()`. Names are in the language itself.
+ */
+export const CONTENT_LANGUAGES = [
+  "en",
+  "nl",
+  "de",
+  "fr",
+  "es",
+  "it",
+  "pt",
+  "pl",
+  "uk",
+  "tr",
+  "zh",
+  "ja",
+] as const;
+export type ContentLang = (typeof CONTENT_LANGUAGES)[number];
+export const CONTENT_LANGUAGE_NAMES: Record<ContentLang, string> = {
+  en: "English",
+  nl: "Nederlands",
+  de: "Deutsch",
+  fr: "Français",
+  es: "Español",
+  it: "Italiano",
+  pt: "Português",
+  pl: "Polski",
+  uk: "Українська",
+  tr: "Türkçe",
+  zh: "中文",
+  ja: "日本語",
+};
+export const DEFAULT_CONTENT_LANGUAGE: ContentLang = "en";
+
 export const PROPOSAL_KINDS = ["create", "edit", "archive"] as const;
 export type ProposalKind = (typeof PROPOSAL_KINDS)[number];
 

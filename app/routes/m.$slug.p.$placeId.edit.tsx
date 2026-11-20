@@ -4,12 +4,15 @@ import { ArrowLeft } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { PlaceForm } from "~/components/PlaceForm";
+import { localize } from "~/lib/content-lang";
+import { useMapPage } from "~/lib/map-page";
 import { draftOfPlace, type PlaceDraft } from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
 
 const EditPlace = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
+  const { translateTo } = useMapPage();
   const navigate = useNavigate();
   const { slug, placeId } = Route.useParams();
   const { data } = useQuery(trpc.place.byId.queryOptions({ placeId }));
@@ -36,8 +39,10 @@ const EditPlace = () => {
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold">
           {data.can.review
-            ? t("edit_title_mod", { title: initial.title })
-            : t("edit_title", { title: initial.title })}
+            ? t("edit_title_mod", {
+                title: localize(initial, translateTo).title,
+              })
+            : t("edit_title", { title: localize(initial, translateTo).title })}
         </h1>
         <p className="text-sm text-muted-foreground">
           {data.can.review ? t("edit_intro_mod") : t("edit_intro")}

@@ -1,6 +1,7 @@
 import { TRPCError } from "@trpc/server";
 import { and, count, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
+import { listTranslations } from "~/lib/content-lang";
 import type { Database } from "~/lib/db";
 import { photo, place, proposal, rating } from "~/lib/db/schema";
 import { idSchema } from "~/lib/validation";
@@ -46,14 +47,16 @@ export const placeRouter = router({
             subNeighbourhood: true,
             attributes: true,
             photoIds: true,
+            translations: true,
             updatedAt: true,
           },
           orderBy: (p, { asc }) => asc(p.title),
         }),
         ratingSummaries(ctx.db, input.collectionId),
       ]);
-      return rows.map(({ photoIds, ...p }) => ({
+      return rows.map(({ photoIds, translations, ...p }) => ({
         ...p,
+        translations: listTranslations(translations),
         coverPhotoId: photoIds[0] ?? null,
         rating: ratings.get(p.id) ?? { avg: null, count: 0 },
       }));

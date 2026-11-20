@@ -9,8 +9,22 @@ import {
 } from "./routes";
 import { type RouteDraft, routeDraftSchema } from "./validation";
 
-const a = { placeId: "p1", name: "A", lat: 52.38, lng: 4.84, narration: "" };
-const b = { placeId: null, name: "B", lat: 52.38, lng: 4.85, narration: "" };
+const a = {
+  placeId: "p1",
+  name: "A",
+  lat: 52.38,
+  lng: 4.84,
+  narration: "",
+  translations: {},
+};
+const b = {
+  placeId: null,
+  name: "B",
+  lat: 52.38,
+  lng: 4.85,
+  narration: "",
+  translations: {},
+};
 const route: RouteDraft = {
   title: "Test walk",
   summary: "A walk for the tests.",
@@ -26,9 +40,11 @@ const route: RouteDraft = {
         [4.85, 52.38],
       ],
       directions: "",
+      translations: {},
     },
   ],
   photoIds: [],
+  translations: {},
 };
 
 describe("route geometry", () => {

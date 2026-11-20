@@ -1,6 +1,6 @@
 ---
 name: manage-content
-description: Research, add, update, review and archive places (POIs), routes (walks/rides through places), photos and custom fields on Deep Cities maps through the `pnpm dc` CLI. Use when asked to add places or sights to a map, research a neighbourhood, import a list (monuments, schools, churches…), create a walking or cycling route or tour, fix or enrich place data, upload or attribute photos, change a map's custom fields, or work through the moderation queue.
+description: Research, add, update, translate, review and archive places (POIs), routes (walks/rides through places), photos, custom fields and map content languages on Deep Cities maps through the `pnpm dc` CLI. Use when asked to add places or sights to a map, research a neighbourhood, import a list (monuments, schools, churches…), create a walking or cycling route or tour, fix or enrich place data, upload or attribute photos, change a map's custom fields, translate content into another language, or work through the moderation queue.
 ---
 
 # Managing Deep Cities content
@@ -118,6 +118,17 @@ map until someone opens the Routes tab or a route.
 - `dc route-update <id> patch.json` merges onto the route. `stops` and `legs` replace wholesale; legs between unchanged stops keep their paths, and changed ones are redrawn.
 - Output may include `warnings` when street routing failed and a leg fell back to straight lines. Retry later, or add waypoints.
 - Check the result on the map: a route that zig-zags or doubles back usually needs waypoints, or its stops reordered.
+
+## Translations (content languages)
+
+A map's content is written in its own language (`dc map` → `collection.language`, usually `en`). `collection.languages` lists the other languages readers can switch to. Anything not translated shows the original, field by field.
+
+- **Offer a language** (admins): `pnpm dc languages <slug> langs.json` with `{"languages": ["nl"], "translations": {"nl": {"title", "tagline", "description", "categories": {"<key>": "label"}, "fields": {"<key>": {"label", "help", "options": {"<base value>": "label"}}}}}}`. Select *values* stay in the base language; only their labels are translated.
+- **Places**: `"translations": {"nl": {"title", "summary", "body", "attributes": {"<text/longtext field key>": "…"}}}` in a draft or a `dc update` patch. Patches merge per language and field; `null` deletes a field, and `"nl": null` deletes the whole language.
+- **Routes**: `"translations": {"nl": {"title", "summary", "body"}}` on the route, `{"translations": {"nl": {"narration"}}}` on stops and `{"translations": {"nl": {"directions"}}}` on legs. Route-level translations merge on `route-update`; stops and legs replace wholesale, so resend their translations with them.
+- The server rejects languages the map doesn't offer. Translations into the map's own language are dropped.
+- **Writing translations**: translate meaning, not word for word. Keep proper names and Dutch terms as they are in the original. Write as a native would for a curious local reader. Keep markdown structure. Don't add facts that aren't in the original; if the original is wrong, fix it first.
+- Machine translation is fine as a draft. Tell the user it is machine-made, so a native speaker can review it.
 
 ## Custom fields (map schema)
 

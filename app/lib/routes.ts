@@ -1,4 +1,9 @@
-import { MODE_SPEED_KMH, type TransportMode } from "./constants";
+import {
+  CONTENT_LANGUAGES,
+  type ContentLang,
+  MODE_SPEED_KMH,
+  type TransportMode,
+} from "./constants";
 import { distanceMeters } from "./diff";
 import type {
   LngLatTuple,
@@ -104,6 +109,8 @@ export type RouteField =
 
 export interface RouteChange {
   field: RouteField;
+  /** Set when the change is to a translation into this language. */
+  lang?: ContentLang;
   before: string;
   after: string;
 }
@@ -134,6 +141,62 @@ const pathKey = (r: RouteDraft) =>
     r.legs.map((l) => l.path.map((p) => p.map((n) => n.toFixed(5)))),
   );
 
+/** Per-stop narration / per-leg directions in `lang` (translations only). */
+const showTranslated = (
+  items: {
+    translations?: Partial<Record<ContentLang, Record<string, unknown>>>;
+  }[],
+  lang: ContentLang,
+  key: string,
+  label: (i: number) => string,
+) =>
+  items
+    .flatMap((it, i) => {
+      const v = it.translations?.[lang]?.[key];
+      return typeof v === "string" && v ? [`${label(i)} ${v}`] : [];
+    })
+    .join("\n\n");
+
+/** Translations that changed, as per-language route changes. */
+const diffRouteTranslations = (
+  before: RouteDraft,
+  after: RouteDraft,
+): RouteChange[] =>
+  CONTENT_LANGUAGES.flatMap((lang) => {
+    const pairs: [RouteField, string, string][] = [
+      ...(["title", "summary", "body"] as const).map(
+        (f): [RouteField, string, string] => [
+          f,
+          before.translations?.[lang]?.[f] ?? "",
+          after.translations?.[lang]?.[f] ?? "",
+        ],
+      ),
+      [
+        "narration",
+        showTranslated(before.stops, lang, "narration", (i) => `${i + 1}.`),
+        showTranslated(after.stops, lang, "narration", (i) => `${i + 1}.`),
+      ],
+      [
+        "legs",
+        showTranslated(
+          before.legs,
+          lang,
+          "directions",
+          (i) => `${i + 1}→${i + 2}:`,
+        ),
+        showTranslated(
+          after.legs,
+          lang,
+          "directions",
+          (i) => `${i + 1}→${i + 2}:`,
+        ),
+      ],
+    ];
+    return pairs
+      .filter(([, a, b]) => a !== b)
+      .map(([field, a, b]) => ({ field, lang, before: a, after: b }));
+  });
+
 /** What changed between the current route and a proposed draft. */
 export const diffRoutes = (
   before: RouteDraft,
@@ -157,7 +220,10 @@ export const diffRoutes = (
     ],
     ["photoIds", before.photoIds.join(","), after.photoIds.join(",")],
   ];
-  return pairs
-    .filter(([, a, b]) => a !== b)
-    .map(([field, a, b]) => ({ field, before: a, after: b }));
+  return [
+    ...pairs
+      .filter(([, a, b]) => a !== b)
+      .map(([field, a, b]) => ({ field, before: a, after: b })),
+    ...diffRouteTranslations(before, after),
+  ];
 };

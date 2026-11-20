@@ -19,6 +19,49 @@ import { authedProcedure, router } from "../init";
 type Proposal = typeof proposal.$inferSelect;
 
 /**
+ * Translations may be in the languages the map offers, or in ones the object
+ * already has (kept when a map stops offering a language, so re-offering it
+ * brings them back).
+ */
+const assertLanguages = (
+  coll: Collection,
+  draftLangs: string[],
+  currentLangs: string[],
+) => {
+  const allowed = new Set<string>([
+    coll.language,
+    ...coll.languages,
+    ...currentLangs,
+  ]);
+  const bad = [...new Set(draftLangs.filter((l) => !allowed.has(l)))];
+  if (bad.length > 0) {
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `This map isn't offered in: ${bad.join(", ")} (its languages: ${[coll.language, ...coll.languages].join(", ")})`,
+    });
+  }
+};
+
+const langsOfRoute = (r: {
+  translations?: object;
+  stops: { translations?: object }[];
+  legs: { translations?: object }[];
+}): string[] => [
+  ...Object.keys(r.translations ?? {}),
+  ...r.stops.flatMap((s) => Object.keys(s.translations ?? {})),
+  ...r.legs.flatMap((l) => Object.keys(l.translations ?? {})),
+];
+
+/** Translations into the map's own language are meaningless: drop them. */
+const withoutBase = <T extends Partial<Record<string, unknown>>>(
+  translations: T | undefined,
+  base: string,
+): T =>
+  Object.fromEntries(
+    Object.entries(translations ?? {}).filter(([l]) => l !== base),
+  ) as T;
+
+/**
  * Check a draft against the map (category, custom fields, photos) and
  * return it normalised (empty custom-field values dropped).
  */
@@ -30,7 +73,25 @@ const fitDraft = async (
   if (!coll.categories.some((c) => c.key === input.category)) {
     throw new TRPCError({ code: "BAD_REQUEST", message: "Unknown category" });
   }
-  const draft = { ...input, attributes: compactAttributes(input.attributes) };
+  const draft = {
+    ...input,
+    attributes: compactAttributes(input.attributes),
+    translations: withoutBase(input.translations, coll.language),
+  };
+  const textKeys = new Set(
+    coll.fields
+      .filter((f) => f.type === "text" || f.type === "longtext")
+      .map((f) => f.key),
+  );
+  const badTranslated = Object.values(draft.translations).flatMap((tr) =>
+    Object.keys(tr?.attributes ?? {}).filter((k) => !textKeys.has(k)),
+  );
+  if (badTranslated.length > 0) {
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `Only text fields can be translated: ${[...new Set(badTranslated)].join(", ")}`,
+    });
+  }
   const issues = attributeIssues(coll.fields, draft.attributes);
   if (issues.length > 0) {
     throw new TRPCError({
@@ -93,7 +154,16 @@ const fitRouteDraft = async (
   await assertPhotos(db, coll, input.photoIds);
   return {
     ...input,
-    stops: input.stops.map((s) => {
+    translations: withoutBase(input.translations, coll.language),
+    legs: input.legs.map((l) => ({
+      ...l,
+      translations: withoutBase(l.translations, coll.language),
+    })),
+    stops: input.stops.map((input) => {
+      const s = {
+        ...input,
+        translations: withoutBase(input.translations, coll.language),
+      };
       const p = s.placeId ? byId.get(s.placeId) : undefined;
       // Archived places keep the snapshot the route already had.
       return p && p.status === "published"
@@ -313,6 +383,12 @@ export const proposalRouter = router({
         input.kind === "archive"
           ? null
           : await fitDraft(ctx.db, access.collection, input.draft);
+      if (draft)
+        assertLanguages(
+          access.collection,
+          Object.keys(draft.translations),
+          Object.keys(target?.translations ?? {}),
+        );
 
       const row: Proposal = {
         id: createId(),
@@ -378,8 +454,12 @@ export const proposalRouter = router({
                 collectionId: true,
                 status: true,
                 revision: true,
+                translations: true,
+                stops: true,
+                legs: true,
               },
             });
+      const currentRoute = target;
       if (input.kind !== "create" && target?.status !== "published") {
         throw new TRPCError({ code: "NOT_FOUND", message: "Route not found" });
       }
@@ -397,6 +477,12 @@ export const proposalRouter = router({
         input.kind === "archive"
           ? null
           : await fitRouteDraft(ctx.db, access.collection, input.draft);
+      if (routeDraft)
+        assertLanguages(
+          access.collection,
+          langsOfRoute(routeDraft),
+          currentRoute ? langsOfRoute(currentRoute) : [],
+        );
       const row: Proposal = {
         id: createId(),
         collectionId,

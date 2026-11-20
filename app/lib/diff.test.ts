@@ -17,6 +17,7 @@ const base: PlaceDraft = {
   links: [],
   photoIds: ["a"],
   attributes: { architect: "Michel de Klerk" },
+  translations: {},
 };
 
 describe("diffDrafts", () => {
@@ -57,5 +58,22 @@ describe("distanceMeters", () => {
     const d = distanceMeters(base, { lat: base.lat + 0.001, lng: base.lng });
     expect(d).toBeGreaterThan(110);
     expect(d).toBeLessThan(112);
+  });
+});
+
+describe("diffDrafts translations", () => {
+  it("reports translated texts per language", () => {
+    const after: PlaceDraft = {
+      ...base,
+      translations: {
+        nl: { title: "Het Schip", attributes: { architect: "M. de Klerk" } },
+      },
+    };
+    expect(
+      diffDrafts(base, after).map((c) => [c.field, c.lang, c.key, c.after]),
+    ).toEqual([
+      ["title", "nl", undefined, "Het Schip"],
+      ["attribute", "nl", "architect", "M. de Klerk"],
+    ]);
   });
 });

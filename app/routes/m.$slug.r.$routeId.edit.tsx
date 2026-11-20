@@ -4,12 +4,15 @@ import { ArrowLeft } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { RouteForm } from "~/components/RouteForm";
+import { localize } from "~/lib/content-lang";
+import { useMapPage } from "~/lib/map-page";
 import { draftOfRoute, type RouteDraft } from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
 
 const EditRoute = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
+  const { translateTo } = useMapPage();
   const navigate = useNavigate();
   const { slug, routeId } = Route.useParams();
   const { data } = useQuery(trpc.route.byId.queryOptions({ routeId }));
@@ -35,8 +38,10 @@ const EditRoute = () => {
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold">
           {data.can.review
-            ? t("edit_title_mod", { title: initial.title })
-            : t("edit_title", { title: initial.title })}
+            ? t("edit_title_mod", {
+                title: localize(initial, translateTo).title,
+              })
+            : t("edit_title", { title: localize(initial, translateTo).title })}
         </h1>
         <p className="text-sm text-muted-foreground">
           {data.can.review ? t("route_edit_intro_mod") : t("route_edit_intro")}

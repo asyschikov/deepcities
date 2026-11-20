@@ -345,5 +345,20 @@
   "route_field_legs": "Travel and directions",
   "route_field_path": "Path",
   "route_field_photoIds": "Photos",
-  "route_edit_intro": "Your changes are sent to the moderators."
+  "route_edit_intro": "Your changes are sent to the moderators.",
+  "content_lang_label": "Language of the map content",
+  "content_untranslated": "Not translated into {{lang}} yet, so this is shown in {{base}}.",
+  "content_partly_untranslated": "Parts of this aren’t translated into {{lang}} yet and are shown in {{base}}.",
+  "content_translate": "Add the {{lang}} translation",
+  "content_lang_editing": "Language you’re writing in",
+  "content_lang_original": "(original)",
+  "content_lang_translating_hint": "You’re translating: only texts are shown. Everything else is shared by all languages; switch to {{base}} to change it. Leave a field empty to show the {{base}} text.",
+  "manage_languages": "Languages",
+  "manage_languages_desc": "The language this map’s content is written in, and the languages readers can switch places, routes and map texts to. This is separate from the language of the site’s interface.",
+  "manage_lang_base": "Written in",
+  "manage_lang_base_hint": "The original language of places and routes. Anything not translated is shown in this language.",
+  "manage_lang_extra": "Also available in",
+  "manage_lang_extra_hint": "Readers can pick these on the map. Contributors can then add translations to places and routes.",
+  "manage_lang_texts": "Map texts in {{lang}}",
+  "manage_lang_help": "Help text"
 }

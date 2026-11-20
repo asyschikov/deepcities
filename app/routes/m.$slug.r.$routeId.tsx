@@ -22,6 +22,7 @@ import {
   STOP_COLOR,
   stopPins,
 } from "~/components/RouteParts";
+import { UntranslatedNote } from "~/components/UntranslatedNote";
 import { Button } from "~/components/ui/button";
 import {
   Dialog,
@@ -33,10 +34,16 @@ import {
   DialogTrigger,
 } from "~/components/ui/dialog";
 import { Textarea } from "~/components/ui/textarea";
+import {
+  localizeRoute,
+  routeHasUntranslated,
+  untranslated,
+} from "~/lib/content-lang";
 import { type MapOverlay, useMapOverlay, useMapPage } from "~/lib/map-page";
 import { formatDistance, formatDuration, legStats } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
+import { draftOfRoute } from "~/lib/validation";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -116,7 +123,7 @@ const RoutePage = () => {
   const viewer = useViewer();
   const { slug, routeId } = Route.useParams();
   const initial = Route.useLoaderData();
-  const { places, focusOn, setTab } = useMapPage();
+  const { places, focusOn, setTab, translateTo } = useMapPage();
   const editing = useMatch({
     from: "/m/$slug/r/$routeId/edit",
     shouldThrow: false,
@@ -125,14 +132,32 @@ const RoutePage = () => {
     ...trpc.route.byId.queryOptions({ routeId }),
     initialData: initial,
   });
-  const { route, stats, can, history, myPending } = data;
+  const { stats, can, history, myPending } = data;
+  const placeById = useMemo(
+    () => new Map(places.map((p) => [p.id, p])),
+    [places],
+  );
+  // Place stops show the place's (localized) current name.
+  const route = useMemo(() => {
+    const r = localizeRoute(draftOfRoute(data.route), translateTo);
+    return {
+      ...data.route,
+      ...r,
+      stops: r.stops.map((s) => {
+        const p = s.placeId ? placeById.get(s.placeId) : undefined;
+        return p ? { ...s, name: p.title } : s;
+      }),
+    };
+  }, [data.route, translateTo, placeById]);
+  const partlyUntranslated =
+    translateTo !== null &&
+    routeHasUntranslated(draftOfRoute(data.route), translateTo);
   const [activeStop, setActiveStop] = useState<number | null>(null);
   const [activeLeg, setActiveLeg] = useState<number | null>(null);
 
   // Coming back from a route lands on the Routes tab.
   useEffect(() => setTab("routes"), [setTab]);
 
-  const placeIds = useMemo(() => new Set(places.map((p) => p.id)), [places]);
   const bounds = useMemo(
     () => routeBounds(route.stops, route.legs),
     [route.stops, route.legs],
@@ -187,6 +212,13 @@ const RoutePage = () => {
         </div>
       )}
 
+      {partlyUntranslated && (
+        <UntranslatedNote
+          partly={untranslated(data.route, translateTo, ["title"]).length === 0}
+          edit={{ to: "/m/$slug/r/$routeId/edit", params: { slug, routeId } }}
+        />
+      )}
+
       <Gallery
         photoIds={route.photoIds}
         photos={data.photos}
@@ -219,7 +251,7 @@ const RoutePage = () => {
       <ol className="space-y-0">
         {route.stops.map((s, i) => {
           const leg = route.legs[i];
-          const onMap = s.placeId !== null && placeIds.has(s.placeId);
+          const onMap = s.placeId !== null && placeById.has(s.placeId);
           return (
             // biome-ignore lint/suspicious/noArrayIndexKey: stops are positional; the same place may appear twice
             <li key={`${i}-${s.name}`} id={`stop-${i}`}>

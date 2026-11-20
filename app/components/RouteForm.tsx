@@ -19,6 +19,7 @@ import {
 } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { ContentLangTabs, OriginalText } from "~/components/ContentLangTabs";
 import type { MapPin } from "~/components/MapView";
 import { PhotoUploader } from "~/components/PhotoUploader";
 import {
@@ -39,6 +40,7 @@ import {
 } from "~/components/ui/select";
 import { Textarea } from "~/components/ui/textarea";
 import {
+  type ContentLang,
   MAX_STOPS_PER_ROUTE,
   MAX_VIA_PER_LEG,
   SNAPPABLE_MODES,
@@ -105,6 +107,7 @@ const newLeg = (
     via: [],
     path: straightPath(stopPoint(from), [], stopPoint(to)),
     directions: "",
+    translations: {},
   };
   // A straight line is already right for non-snapped legs.
   return {
@@ -199,12 +202,35 @@ export const RouteForm = ({
   const { t } = useTranslation();
   const trpc = useTRPC();
   const queryClient = useQueryClient();
-  const { view, places, focusOn } = useMapPage();
+  const { view, places, focusOn, baseLang, translateTo } = useMapPage();
   const collectionId = view.collection.id;
 
   const [title, setTitle] = useState(initial?.title ?? "");
   const [summary, setSummary] = useState(initial?.summary ?? "");
   const [body, setBody] = useState(initial?.body ?? "");
+  const [translations, setTranslations] = useState<RouteDraft["translations"]>(
+    initial?.translations ?? {},
+  );
+  // Start in the language the reader is viewing, so "translate" lands there.
+  const [editLang, setEditLang] = useState<ContentLang>(
+    translateTo ?? baseLang,
+  );
+  const translating = editLang !== baseLang;
+  const base = { title, summary, body };
+  const baseSetters = { title: setTitle, summary: setSummary, body: setBody };
+  const textOf = (key: "title" | "summary" | "body") =>
+    translating ? (translations[editLang]?.[key] ?? "") : base[key];
+  const setText = (key: "title" | "summary" | "body", value: string) =>
+    translating
+      ? setTranslations((tr) => ({
+          ...tr,
+          [editLang]: { ...tr[editLang], [key]: value },
+        }))
+      : baseSetters[key](value);
+  const narrationOf = (s: EditorStop) =>
+    translating ? (s.translations?.[editLang]?.narration ?? "") : s.narration;
+  const directionsOf = (l: EditorLeg) =>
+    translating ? (l.translations?.[editLang]?.directions ?? "") : l.directions;
   const [photoIds, setPhotoIds] = useState<string[]>(initial?.photoIds ?? []);
   const [note, setNote] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -323,6 +349,7 @@ export const RouteForm = ({
                 lat: p.lat,
                 lng: p.lng,
                 narration: "",
+                translations: {},
               },
             ],
       );
@@ -344,6 +371,7 @@ export const RouteForm = ({
                 lat,
                 lng,
                 narration: "",
+                translations: {},
               },
             ],
       );
@@ -478,6 +506,7 @@ export const RouteForm = ({
       title,
       summary,
       body,
+      translations,
       photoIds,
       stops: stops.map(({ uid: _uid, ...s }) => s),
       legs: orderedLegs.map((l) => {
@@ -492,6 +521,8 @@ export const RouteForm = ({
       }),
     });
     if (!parsed.success) {
+      // Errors are about the original texts and the route itself.
+      setEditLang(baseLang);
       setErrors(
         Object.fromEntries(
           parsed.error.issues.map((i) => [
@@ -520,14 +551,17 @@ export const RouteForm = ({
 
   return (
     <form onSubmit={onSubmit} className="space-y-6" noValidate>
+      <ContentLangTabs value={editLang} onChange={setEditLang} />
       <div className="space-y-3">
         <div className="space-y-1.5">
           <Label htmlFor="route-title">{t("form_title")}</Label>
+          {translating && <OriginalText text={title} lang={baseLang} />}
           <Input
             id="route-title"
-            value={title}
+            lang={editLang}
+            value={textOf("title")}
             maxLength={100}
-            onChange={(e) => setTitle(e.target.value)}
+            onChange={(e) => setText("title", e.target.value)}
             placeholder={t("route_form_title_placeholder")}
           />
           {errors.title && (
@@ -536,28 +570,32 @@ export const RouteForm = ({
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="route-summary">{t("form_summary")}</Label>
+          {translating && <OriginalText text={summary} lang={baseLang} />}
           <Textarea
             id="route-summary"
+            lang={editLang}
             rows={2}
             maxLength={280}
-            value={summary}
-            onChange={(e) => setSummary(e.target.value)}
+            value={textOf("summary")}
+            onChange={(e) => setText("summary", e.target.value)}
           />
           {errors.summary ? (
             <p className="text-xs text-destructive">{errors.summary}</p>
           ) : (
             <p className="text-xs text-muted-foreground">
-              {t("form_summary_hint", { n: 280 - summary.length })}
+              {t("form_summary_hint", { n: 280 - textOf("summary").length })}
             </p>
           )}
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="route-body">{t("route_form_intro")}</Label>
+          {translating && <OriginalText text={body} lang={baseLang} />}
           <Textarea
             id="route-body"
+            lang={editLang}
             rows={4}
-            value={body}
-            onChange={(e) => setBody(e.target.value)}
+            value={textOf("body")}
+            onChange={(e) => setText("body", e.target.value)}
           />
           <p className="text-xs text-muted-foreground">{t("form_body_hint")}</p>
         </div>
@@ -634,13 +672,27 @@ export const RouteForm = ({
                       {t("route_form_point_hint")}
                     </p>
                   )}
+                  {translating && (
+                    <OriginalText text={s.narration} lang={baseLang} />
+                  )}
                   <Textarea
                     rows={2}
-                    value={s.narration}
+                    lang={editLang}
+                    value={narrationOf(s)}
                     placeholder={t("route_form_narration_placeholder")}
                     aria-label={t("route_form_narration")}
                     onChange={(e) =>
-                      patchStop(i, { narration: e.target.value })
+                      patchStop(
+                        i,
+                        translating
+                          ? {
+                              translations: {
+                                ...s.translations,
+                                [editLang]: { narration: e.target.value },
+                              },
+                            }
+                          : { narration: e.target.value },
+                      )
                     }
                   />
                 </div>
@@ -728,13 +780,27 @@ export const RouteForm = ({
                         {t("route_form_snap_failed", { message: leg.error })}
                       </p>
                     )}
+                    {translating && (
+                      <OriginalText text={leg.directions} lang={baseLang} />
+                    )}
                     <Textarea
                       rows={2}
-                      value={leg.directions}
+                      lang={editLang}
+                      value={directionsOf(leg)}
                       placeholder={t("route_form_directions_placeholder")}
                       aria-label={t("route_form_directions")}
                       onChange={(e) =>
-                        updateLeg(entry.key, { directions: e.target.value })
+                        updateLeg(
+                          entry.key,
+                          translating
+                            ? {
+                                translations: {
+                                  ...leg.translations,
+                                  [editLang]: { directions: e.target.value },
+                                },
+                              }
+                            : { directions: e.target.value },
+                        )
                       }
                     />
                   </div>

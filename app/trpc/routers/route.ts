@@ -2,6 +2,7 @@ import { TRPCError } from "@trpc/server";
 import { and, desc, eq, inArray, like } from "drizzle-orm";
 import { z } from "zod/v4";
 import { TRANSPORT_MODES } from "~/lib/constants";
+import { listTranslations } from "~/lib/content-lang";
 import { photo, proposal, route } from "~/lib/db/schema";
 import { routeStats } from "~/lib/routes";
 import { SnapError, snapPath } from "~/lib/routing.server";
@@ -29,12 +30,14 @@ export const routeRouter = router({
           stops: true,
           legs: true,
           photoIds: true,
+          translations: true,
           updatedAt: true,
         },
         orderBy: (r, { asc }) => asc(r.title),
       });
-      return rows.map(({ photoIds, legs, stops, ...r }) => ({
+      return rows.map(({ photoIds, legs, stops, translations, ...r }) => ({
         ...r,
+        translations: listTranslations(translations),
         coverPhotoId: photoIds[0] ?? null,
         stops: stops.map((s) => ({
           placeId: s.placeId,
@@ -124,13 +127,21 @@ export const routeRouter = router({
           eq(route.status, "published"),
           like(route.stops, `%"placeId":"${input.placeId}"%`),
         ),
-        columns: { id: true, title: true, stops: true },
+        columns: { id: true, title: true, stops: true, translations: true },
       });
       return rows.flatMap((r) => {
         const index = r.stops.findIndex((s) => s.placeId === input.placeId);
         return index < 0
           ? []
-          : [{ id: r.id, title: r.title, stop: index + 1, of: r.stops.length }];
+          : [
+              {
+                id: r.id,
+                title: r.title,
+                translations: listTranslations(r.translations),
+                stop: index + 1,
+                of: r.stops.length,
+              },
+            ];
       });
     }),
 

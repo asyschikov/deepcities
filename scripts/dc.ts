@@ -40,7 +40,8 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
   dc update <placeId> <patch> [--note TEXT]
                                            patch is merged onto the current place;
                                            arrays (links, photoIds) replace wholesale;
-                                           "attributes" merge per key (null deletes one)
+                                           "attributes" merge per key (null deletes one);
+                                           "translations" merge per language and field
   dc archive <placeId> --note TEXT         remove from the map (kept in history)
   dc import <slug> <file.json|-> [--note TEXT] [--dry-run] [--upsert]
                                            bulk create from a JSON array of drafts
@@ -58,6 +59,12 @@ MAP SCHEMA (map admins)
   dc fields <slug> <defs.json|->           replace the map's custom place fields with a
                                            JSON array of field definitions (see \`dc schema\`);
                                            existing keys must stay (hide, don't delete)
+  dc languages <slug> <json|->             content languages: {"language": "en",
+                                           "languages": ["nl"], "translations": {"nl":
+                                           {title, tagline, description, categories:
+                                           {key: label}, fields: {key: {label, help,
+                                           options: {value: label}}}}}}; translations
+                                           merge per language/field like place patches
 
 ROUTES  (same review rules as places)
   dc routes <slug>                         published routes (stats, stop names)
@@ -101,6 +108,8 @@ const SCHEMA = {
     photoIds: "array ≤8 of photo ids (from `dc photo`), first is the cover",
     attributes:
       'object of the map\'s custom fields, { key: value } (default {}); keys and types come from `dc map <slug>` → collection.fields. Omit or "" for no value.',
+    translations:
+      'optional, texts in the map\'s other content languages (`dc map` → collection.languages): {"nl": {"title", "summary", "body", "attributes": {<text/longtext field key>: "…"}}}. Every field is optional; missing ones show the original. The map\'s own language (collection.language) is the untranslated draft itself.',
     photos: "CLI-only convenience, see `dc help`",
   },
   fieldDefinition: {
@@ -123,6 +132,8 @@ const SCHEMA = {
     legs: 'optional array, one per gap between stops (missing ones default to {"mode":"walk"}): {"mode": "walk|bike|tram|bus|metro|ferry|train", "directions": "how to get to the next stop", "via": [[lng, lat] | {"lat","lng"}, …] waypoints the path must pass, "snap": true to follow streets (default for walk/bike)}. Paths are computed by the CLI (street router for snapped walk/bike legs, straight lines otherwise); pass "path": [[lng,lat],…] to set one explicitly',
     photos: "as for places",
     photoIds: "array ≤8 of photo ids",
+    translations:
+      'optional {"nl": {"title", "summary", "body"}}. Stops take {"translations": {"nl": {"narration"}}} and legs {"translations": {"nl": {"directions"}}}',
   },
   photoSources: [
     "./path/to/file.jpg (jpeg/png/webp; resized with macOS `sips` if large)",
@@ -539,6 +550,7 @@ const DRAFT_KEYS = [
   "links",
   "photoIds",
   "attributes",
+  "translations",
 ] as const;
 
 const EMPTY_DRAFT = {
@@ -550,6 +562,7 @@ const EMPTY_DRAFT = {
   subNeighbourhood: null,
   links: [],
   attributes: {},
+  translations: {},
 };
 
 type Attrs = Record<string, unknown>;
@@ -582,6 +595,40 @@ const mergeAttributes = (
   );
 };
 
+/**
+ * Merge translation patches per language and per field: `{"nl": {"title": "…"}}`
+ * sets one field, a null field deletes it, a null language deletes all of it.
+ * `attributes` inside a language merge per key like top-level attributes.
+ */
+const mergeTranslations = (base: unknown, patch: unknown): Obj => {
+  if (patch === undefined) return (base as Obj) ?? {};
+  if (typeof patch !== "object" || patch === null || Array.isArray(patch))
+    throw new CliError(
+      '"translations" must be an object: {"nl": {"title": "…"}}',
+      "BAD_JSON",
+    );
+  const b = (base as Record<string, Obj | undefined>) ?? {};
+  const langs = [...new Set([...Object.keys(b), ...Object.keys(patch)])];
+  return Object.fromEntries(
+    langs.flatMap((lang) => {
+      const p = (patch as Record<string, Obj | null | undefined>)[lang];
+      if (p === null) return [];
+      const cur = b[lang] ?? {};
+      if (p === undefined) return [[lang, cur]];
+      const merged: Obj = { ...cur, ...p };
+      if (p.attributes !== undefined || cur.attributes !== undefined)
+        merged.attributes = Object.fromEntries(
+          Object.entries({
+            ...((cur.attributes as Obj | undefined) ?? {}),
+            ...((p.attributes as Obj | null | undefined) ?? {}),
+          }).filter(([, v]) => v !== null),
+        );
+      const kept = Object.entries(merged).filter(([, v]) => v !== null);
+      return kept.length > 0 ? [[lang, Object.fromEntries(kept)]] : [];
+    }),
+  );
+};
+
 /** Propose an edit: `patch` merged onto the place's current state. */
 const editPlace = async (placeId: string, patch: Obj, note: string | null) => {
   const current = (await query("place.byId", { placeId })) as {
@@ -606,6 +653,10 @@ const editPlace = async (placeId: string, patch: Obj, note: string | null) => {
       current.place.attributes ?? {},
       patch.attributes,
       known,
+    ),
+    translations: mergeTranslations(
+      current.place.translations,
+      patch.translations,
     ),
     photoIds: [
       ...((patch.photoIds as string[] | undefined) ?? current.place.photoIds),
@@ -640,6 +691,7 @@ interface Stop {
   lat: number;
   lng: number;
   narration: string;
+  translations?: Obj;
 }
 interface Leg {
   mode: string;
@@ -647,6 +699,7 @@ interface Leg {
   via: Pt[];
   path: Pt[];
   directions: string;
+  translations?: Obj;
 }
 
 /** Accept [lng, lat] or {lat, lng}. */
@@ -675,6 +728,7 @@ const resolveStops = (
     const o = (r ?? {}) as Obj;
     const ref = (o.place ?? o.placeId) as string | null | undefined;
     const narration = typeof o.narration === "string" ? o.narration : "";
+    const translations = (o.translations as Obj | undefined) ?? {};
     if (ref) {
       const p = byId.get(ref) ?? byTitle.get(String(ref).toLowerCase());
       if (!p)
@@ -688,6 +742,7 @@ const resolveStops = (
         lat: p.lat,
         lng: p.lng,
         narration,
+        translations,
       };
     }
     if (typeof o.lat !== "number" || typeof o.lng !== "number" || !o.name)
@@ -701,6 +756,7 @@ const resolveStops = (
       lat: o.lat,
       lng: o.lng,
       narration,
+      translations,
     };
   });
 };
@@ -759,6 +815,8 @@ const buildLegs = async (
       ? (g.via as unknown[]).map((v, j) => toPt(v, `legs[${i}].via[${j}]`))
       : (old?.via ?? []);
     const directions = String(g?.directions ?? old?.directions ?? "");
+    const translations =
+      (g?.translations as Obj | undefined) ?? old?.translations ?? {};
     const points: Pt[] = [[from.lng, from.lat], ...via, [to.lng, to.lat]];
     let path: Pt[];
     if (Array.isArray(g?.path)) {
@@ -788,7 +846,7 @@ const buildLegs = async (
     } else {
       path = points;
     }
-    legs.push({ mode, snap, via, path, directions });
+    legs.push({ mode, snap, via, path, directions, translations });
   }
   return { legs, warnings };
 };
@@ -801,6 +859,7 @@ const ROUTE_KEYS = [
   "legs",
   "photos",
   "photoIds",
+  "translations",
 ] as const;
 const unknownRouteKeys = (o: Obj) =>
   Object.keys(o).filter((k) => !(ROUTE_KEYS as readonly string[]).includes(k));
@@ -955,6 +1014,49 @@ const commands: Record<
       fields,
     });
     return { ok: true, fields };
+  },
+
+  /** Set a map's content languages and translated map texts (admins). */
+  languages: async ([slug, arg]) => {
+    const input = readJsonArg(need(arg, "<languages.json>"));
+    const bad = Object.keys(input).filter(
+      (k) => !["language", "languages", "translations"].includes(k),
+    );
+    if (bad.length)
+      throw new CliError(
+        `Unknown keys: ${bad.join(", ")} (expected language, languages, translations)`,
+        "BAD_JSON",
+      );
+    const { collection: c } = (await query("collection.bySlug", {
+      slug: need(slug, "<slug>"),
+    })) as { collection: Obj & { id: string } };
+    await mutate("collection.updateSettings", {
+      collectionId: c.id,
+      title: c.title,
+      tagline: c.tagline,
+      description: c.description,
+      city: c.city,
+      centerLat: c.centerLat,
+      centerLng: c.centerLng,
+      zoom: c.zoom,
+      categories: c.categories,
+      contributionPolicy: c.contributionPolicy,
+      language: input.language ?? c.language,
+      languages: input.languages ?? c.languages,
+      translations:
+        input.translations === undefined
+          ? c.translations
+          : mergeTranslations(c.translations, input.translations),
+    });
+    const { collection: after } = (await query("collection.bySlug", {
+      slug,
+    })) as { collection: Obj };
+    return {
+      ok: true,
+      language: after.language,
+      languages: after.languages,
+      translations: after.translations,
+    };
   },
 
   archive: async ([placeId], flags) =>
@@ -1123,6 +1225,7 @@ const commands: Record<
         title: input.title,
         summary: input.summary,
         body: input.body ?? "",
+        translations: input.translations ?? {},
         stops,
         legs,
         photoIds: [
@@ -1168,6 +1271,10 @@ const commands: Record<
         title: patch.title ?? current.title,
         summary: patch.summary ?? current.summary,
         body: patch.body ?? current.body,
+        translations: mergeTranslations(
+          current.translations,
+          patch.translations,
+        ),
         stops,
         legs,
         photoIds: [
