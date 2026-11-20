@@ -4,9 +4,15 @@ import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { PROPOSAL_STATUSES } from "~/lib/constants";
 import type { Database } from "~/lib/db";
-import { photo, place, proposal } from "~/lib/db/schema";
+import { photo, place, proposal, route } from "~/lib/db/schema";
 import { attributeIssues, compactAttributes } from "~/lib/fields";
-import { idSchema, type PlaceDraft, placeDraftSchema } from "~/lib/validation";
+import {
+  idSchema,
+  type PlaceDraft,
+  placeDraftSchema,
+  type RouteDraft,
+  routeDraftSchema,
+} from "~/lib/validation";
 import { type Collection, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
 
@@ -32,17 +38,69 @@ const fitDraft = async (
       message: `Invalid fields: ${issues.map((i) => `${i.key} ${i.message}`).join("; ")}`,
     });
   }
-  if (draft.photoIds.length === 0) return draft;
+  await assertPhotos(db, coll, draft.photoIds);
+  return draft;
+};
+
+const assertPhotos = async (
+  db: Database,
+  coll: Collection,
+  photoIds: string[],
+) => {
+  if (photoIds.length === 0) return;
   const photos = await db
     .select({ id: photo.id })
     .from(photo)
-    .where(
-      and(inArray(photo.id, draft.photoIds), eq(photo.collectionId, coll.id)),
-    );
-  if (photos.length !== new Set(draft.photoIds).size) {
+    .where(and(inArray(photo.id, photoIds), eq(photo.collectionId, coll.id)));
+  if (photos.length !== new Set(photoIds).size) {
     throw new TRPCError({ code: "BAD_REQUEST", message: "Unknown photo" });
   }
-  return draft;
+};
+
+/**
+ * Check a route draft against the map: place stops must be places on this
+ * map, and their name/position snapshots are refreshed from the place.
+ */
+const fitRouteDraft = async (
+  db: Database,
+  coll: Collection,
+  input: RouteDraft,
+): Promise<RouteDraft> => {
+  const ids = [
+    ...new Set(input.stops.flatMap((s) => (s.placeId ? [s.placeId] : []))),
+  ];
+  const places =
+    ids.length > 0
+      ? await db.query.place.findMany({
+          where: and(inArray(place.id, ids), eq(place.collectionId, coll.id)),
+          columns: {
+            id: true,
+            title: true,
+            lat: true,
+            lng: true,
+            status: true,
+          },
+        })
+      : [];
+  const byId = new Map(places.map((p) => [p.id, p]));
+  const missing = ids.filter((id) => !byId.has(id));
+  if (missing.length > 0) {
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `Stops refer to places not on this map: ${missing.join(", ")}`,
+    });
+  }
+  await assertPhotos(db, coll, input.photoIds);
+  return {
+    ...input,
+    stops: input.stops.map((s) => {
+      const p = s.placeId ? byId.get(s.placeId) : undefined;
+      // Archived places keep the snapshot the route already had.
+      return p && p.status === "published"
+        ? { ...s, name: p.title, lat: p.lat, lng: p.lng }
+        : s;
+    }),
+  };
 };
 
 /**
@@ -112,6 +170,88 @@ const applyProposal = async (
   return placeId;
 };
 
+/** Publish an approved route proposal (create, edit or archive). */
+const applyRouteProposal = async (
+  db: Database,
+  p: Proposal,
+  reviewerId: string,
+  reviewNote: string | null,
+): Promise<string> => {
+  const now = new Date();
+  const routeId = p.routeId ?? createId();
+  const markApproved = db
+    .update(proposal)
+    .set({
+      status: "approved",
+      routeId,
+      reviewedBy: reviewerId,
+      reviewNote,
+      reviewedAt: now,
+    })
+    .where(eq(proposal.id, p.id));
+
+  if (p.kind === "create") {
+    if (!p.routeDraft)
+      throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
+    await db.batch([
+      db.insert(route).values({
+        ...p.routeDraft,
+        id: routeId,
+        collectionId: p.collectionId,
+        createdBy: p.proposedBy,
+        createdAt: now,
+        updatedAt: now,
+      }),
+      markApproved,
+    ]);
+    return routeId;
+  }
+
+  const current = await db.query.route.findFirst({
+    where: eq(route.id, routeId),
+    columns: { status: true },
+  });
+  if (current?.status !== "published") {
+    throw new TRPCError({
+      code: "CONFLICT",
+      message: "This route has been removed from the map",
+    });
+  }
+  const changes =
+    p.kind === "archive"
+      ? { status: "archived" as const }
+      : p.routeDraft
+        ? { ...p.routeDraft }
+        : null;
+  if (!changes)
+    throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
+  await db.batch([
+    db
+      .update(route)
+      .set({ ...changes, revision: sql`${route.revision} + 1`, updatedAt: now })
+      .where(eq(route.id, routeId)),
+    markApproved,
+  ]);
+  return routeId;
+};
+
+/** Apply any approved proposal; returns the place or route id it touched. */
+const applyAny = async (
+  db: Database,
+  p: Proposal,
+  reviewerId: string,
+  reviewNote: string | null,
+): Promise<{ placeId: string | null; routeId: string | null }> =>
+  p.subject === "route"
+    ? {
+        placeId: null,
+        routeId: await applyRouteProposal(db, p, reviewerId, reviewNote),
+      }
+    : {
+        placeId: await applyProposal(db, p, reviewerId, reviewNote),
+        routeId: null,
+      };
+
 const loadProposal = async (db: Database, id: string) => {
   const found = await db.query.proposal.findFirst({
     where: eq(proposal.id, id),
@@ -177,7 +317,10 @@ export const proposalRouter = router({
       const row: Proposal = {
         id: createId(),
         collectionId,
+        subject: "place",
         placeId: target?.id ?? null,
+        routeId: null,
+        routeDraft: null,
         kind: input.kind,
         status: "pending",
         draft,
@@ -196,6 +339,93 @@ export const proposalRouter = router({
         return { id: row.id, status: "approved" as const, placeId };
       }
       return { id: row.id, status: "pending" as const, placeId: row.placeId };
+    }),
+
+  /**
+   * Suggest a new route, an edit, or a removal. Same rules as places:
+   * moderators and above publish immediately.
+   */
+  createRoute: authedProcedure
+    .input(
+      z.discriminatedUnion("kind", [
+        z.object({
+          kind: z.literal("create"),
+          collectionId: idSchema,
+          draft: routeDraftSchema,
+          note: z.string().trim().max(1000).nullable(),
+        }),
+        z.object({
+          kind: z.literal("edit"),
+          routeId: idSchema,
+          draft: routeDraftSchema,
+          note: z.string().trim().max(1000).nullable(),
+        }),
+        z.object({
+          kind: z.literal("archive"),
+          routeId: idSchema,
+          note: z.string().trim().min(5).max(1000),
+        }),
+      ]),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const target =
+        input.kind === "create"
+          ? null
+          : await ctx.db.query.route.findFirst({
+              where: eq(route.id, input.routeId),
+              columns: {
+                id: true,
+                collectionId: true,
+                status: true,
+                revision: true,
+              },
+            });
+      if (input.kind !== "create" && target?.status !== "published") {
+        throw new TRPCError({ code: "NOT_FOUND", message: "Route not found" });
+      }
+      const collectionId =
+        input.kind === "create"
+          ? input.collectionId
+          : (target?.collectionId ?? "");
+      const access = await requireCap(
+        ctx.db,
+        collectionId,
+        ctx.profile,
+        "propose",
+      );
+      const routeDraft =
+        input.kind === "archive"
+          ? null
+          : await fitRouteDraft(ctx.db, access.collection, input.draft);
+      const row: Proposal = {
+        id: createId(),
+        collectionId,
+        subject: "route",
+        placeId: null,
+        routeId: target?.id ?? null,
+        kind: input.kind,
+        status: "pending",
+        draft: null,
+        routeDraft,
+        note: input.note,
+        baseRevision: target?.revision ?? null,
+        proposedBy: ctx.profile.id,
+        reviewedBy: null,
+        reviewNote: null,
+        createdAt: new Date(),
+        reviewedAt: null,
+      };
+      await ctx.db.insert(proposal).values(row);
+      if (access.can.review) {
+        const routeId = await applyRouteProposal(
+          ctx.db,
+          row,
+          ctx.profile.id,
+          null,
+        );
+        return { id: row.id, status: "approved" as const, routeId };
+      }
+      return { id: row.id, status: "pending" as const, routeId: row.routeId };
     }),
 
   /** Moderation queue (or history) for a collection. */
@@ -219,6 +449,7 @@ export const proposalRouter = router({
           author: { columns: { id: true, name: true } },
           reviewer: { columns: { id: true, name: true } },
           place: true,
+          route: true,
         },
         orderBy: pendingOnly
           ? (p, { asc }) => asc(p.createdAt)
@@ -238,6 +469,7 @@ export const proposalRouter = router({
         ),
         with: {
           place: { columns: { id: true, title: true } },
+          route: { columns: { id: true, title: true } },
           reviewer: { columns: { id: true, name: true } },
         },
         orderBy: desc(proposal.createdAt),
@@ -260,13 +492,8 @@ export const proposalRouter = router({
         throw new TRPCError({ code: "CONFLICT", message: "Already reviewed" });
       }
       if (input.decision === "approve") {
-        const placeId = await applyProposal(
-          ctx.db,
-          found,
-          ctx.profile.id,
-          input.note,
-        );
-        return { status: "approved" as const, placeId };
+        const ids = await applyAny(ctx.db, found, ctx.profile.id, input.note);
+        return { status: "approved" as const, ...ids };
       }
       await ctx.db
         .update(proposal)
@@ -277,7 +504,11 @@ export const proposalRouter = router({
           reviewedAt: new Date(),
         })
         .where(eq(proposal.id, found.id));
-      return { status: "rejected" as const, placeId: found.placeId };
+      return {
+        status: "rejected" as const,
+        placeId: found.placeId,
+        routeId: found.routeId,
+      };
     }),
 
   withdraw: authedProcedure

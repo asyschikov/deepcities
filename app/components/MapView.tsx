@@ -1,4 +1,4 @@
-import type { Marker, Map as MlMap } from "maplibre-gl";
+import type { LineLayerSpecification, Marker, Map as MlMap } from "maplibre-gl";
 // Emit the worker as an asset and point MapLibre at it explicitly; its own
 // import.meta.url lookup breaks once Vite bundles the library.
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
@@ -21,6 +21,33 @@ export interface LngLat {
   lng: number;
 }
 
+/** A polyline overlay (route legs). Coordinates are [lng, lat]. */
+export interface MapLine {
+  id: string;
+  coords: [number, number][];
+  color: string;
+  width?: number;
+  opacity?: number;
+  dashed?: boolean;
+}
+
+/** A route overlay pin: a numbered stop or a path waypoint. */
+export interface MapPin {
+  id: string;
+  lat: number;
+  lng: number;
+  kind: "stop" | "via";
+  color: string;
+  label?: string;
+  title?: string;
+  /** Stop that isn't a place on the map (drawn dashed). */
+  adhoc?: boolean;
+  active?: boolean;
+  draggable?: boolean;
+  onClick?: () => void;
+  onDragEnd?: (p: LngLat) => void;
+}
+
 interface MapViewProps {
   center: LngLat;
   zoom: number;
@@ -31,9 +58,32 @@ interface MapViewProps {
   draft?: { position: LngLat | null; onChange: (p: LngLat) => void } | null;
   /** Fly to this point when it changes (e.g. the selected place). */
   focus?: LngLat | null;
+  /** Route overlays, drawn above places. */
+  lines?: MapLine[];
+  pins?: MapPin[];
+  /** Fit the view to these points when the list changes identity. */
+  fitTo?: [number, number][] | null;
+  /** Map clicks (when no place pin is being placed). */
+  onMapClick?: (p: LngLat) => void;
   interactive?: boolean;
   className?: string;
 }
+
+const LINES_SOURCE = "dc-lines";
+const linesGeoJson = (lines: MapLine[]) => ({
+  type: "FeatureCollection" as const,
+  features: lines.map((l) => ({
+    type: "Feature" as const,
+    id: l.id,
+    properties: {
+      color: l.color,
+      width: l.width ?? 4,
+      opacity: l.opacity ?? 0.9,
+      dashed: Boolean(l.dashed),
+    },
+    geometry: { type: "LineString" as const, coordinates: l.coords },
+  })),
+});
 
 /**
  * MapLibre map with HTML markers. maplibre-gl touches `window`, so it is
@@ -47,6 +97,10 @@ export const MapView = ({
   onMarkerClick,
   draft,
   focus,
+  lines,
+  pins,
+  fitTo,
+  onMapClick,
   interactive = true,
   className,
 }: MapViewProps) => {
@@ -62,7 +116,14 @@ export const MapView = ({
   onMarkerClickRef.current = onMarkerClick;
   const draftRef = useRef(draft);
   draftRef.current = draft;
+  const onMapClickRef = useRef(onMapClick);
+  onMapClickRef.current = onMapClick;
+  const pinsRef = useRef(
+    new Map<string, { marker: Marker; el: HTMLElement }>(),
+  );
+  const pinPropsRef = useRef(new Map<string, MapPin>());
   const [ready, setReady] = useState(false);
+  const [styleReady, setStyleReady] = useState(false);
 
   // Create the map once.
   // biome-ignore lint/correctness/useExhaustiveDependencies: center/zoom are initial values; later moves go through `focus`
@@ -88,7 +149,39 @@ export const MapView = ({
         );
       }
       map.on("click", (e) => {
-        draftRef.current?.onChange({ lat: e.lngLat.lat, lng: e.lngLat.lng });
+        const p = { lat: e.lngLat.lat, lng: e.lngLat.lng };
+        if (draftRef.current) draftRef.current.onChange(p);
+        else onMapClickRef.current?.(p);
+      });
+      map.once("load", () => {
+        if (!map) return;
+        map.addSource(LINES_SOURCE, {
+          type: "geojson",
+          data: linesGeoJson([]),
+        });
+        const paint: LineLayerSpecification["paint"] = {
+          "line-color": ["get", "color"],
+          "line-width": ["get", "width"],
+          "line-opacity": ["get", "opacity"],
+        };
+        const layout = { "line-cap": "round", "line-join": "round" } as const;
+        map.addLayer({
+          id: "dc-lines-solid",
+          type: "line",
+          source: LINES_SOURCE,
+          filter: ["==", ["get", "dashed"], false],
+          layout,
+          paint,
+        });
+        map.addLayer({
+          id: "dc-lines-dashed",
+          type: "line",
+          source: LINES_SOURCE,
+          filter: ["==", ["get", "dashed"], true],
+          layout: { "line-join": "round" },
+          paint: { ...paint, "line-dasharray": [1.5, 1.5] },
+        });
+        setStyleReady(true);
       });
       mapRef.current = map;
       setReady(true);
@@ -98,6 +191,7 @@ export const MapView = ({
       map?.remove();
       mapRef.current = null;
       markersRef.current.clear();
+      pinsRef.current.clear();
       draftMarkerRef.current = null;
     };
   }, []);
@@ -137,6 +231,8 @@ export const MapView = ({
       entry.el.setAttribute("aria-label", m.title);
       entry.el.dataset.active = String(m.id === activeId);
       entry.el.dataset.dimmed = String(Boolean(m.dimmed));
+      // MapLibre manages the element's inline opacity, so dim through it.
+      entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
     }
   }, [ready, markers, activeId]);
 
@@ -171,6 +267,93 @@ export const MapView = ({
     }
     draftMarkerRef.current.setLngLat([draftPos.lng, draftPos.lat]);
   }, [ready, draftOn, draftPos?.lat, draftPos?.lng, draftPos]);
+
+  // Route lines.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!styleReady || !map) return;
+    const source = map.getSource(LINES_SOURCE);
+    if (source && "setData" in source) {
+      (source as { setData: (d: unknown) => void }).setData(
+        linesGeoJson(lines ?? []),
+      );
+    }
+  }, [styleReady, lines]);
+
+  // Route pins (stops and waypoints).
+  useEffect(() => {
+    const map = mapRef.current;
+    const lib = libRef.current;
+    if (!ready || !map || !lib) return;
+    const existing = pinsRef.current;
+    const next = pins ?? [];
+    const nextIds = new Set(next.map((p) => p.id));
+    for (const [id, { marker }] of existing) {
+      if (!nextIds.has(id)) {
+        marker.remove();
+        existing.delete(id);
+        pinPropsRef.current.delete(id);
+      }
+    }
+    for (const p of next) {
+      pinPropsRef.current.set(p.id, p);
+      let entry = existing.get(p.id);
+      if (entry && entry.marker.isDraggable() !== Boolean(p.draggable)) {
+        entry.marker.setDraggable(Boolean(p.draggable));
+      }
+      if (!entry) {
+        const el = document.createElement("div");
+        el.className = "dc-pin";
+        el.appendChild(document.createElement("span"));
+        el.addEventListener("click", (ev) => {
+          ev.stopPropagation();
+          pinPropsRef.current.get(p.id)?.onClick?.();
+        });
+        const marker = new lib.Marker({
+          element: el,
+          draggable: Boolean(p.draggable),
+        })
+          .setLngLat([p.lng, p.lat])
+          .addTo(map);
+        marker.on("dragend", () => {
+          const at = marker.getLngLat();
+          pinPropsRef.current
+            .get(p.id)
+            ?.onDragEnd?.({ lat: at.lat, lng: at.lng });
+        });
+        entry = { marker, el };
+        existing.set(p.id, entry);
+      }
+      entry.marker.setLngLat([p.lng, p.lat]);
+      const inner = entry.el.firstElementChild as HTMLElement | null;
+      if (inner) {
+        // Waypoints and ad-hoc stops are hollow; place stops are filled.
+        const hollow = p.kind === "via" || Boolean(p.adhoc);
+        inner.style.background = hollow ? "white" : p.color;
+        inner.style.color = hollow ? p.color : "white";
+        inner.style.borderColor = p.adhoc ? p.color : "";
+        inner.textContent = p.label ?? "";
+      }
+      entry.el.dataset.kind = p.kind;
+      entry.el.dataset.adhoc = String(Boolean(p.adhoc));
+      entry.el.dataset.active = String(Boolean(p.active));
+      entry.el.dataset.draggable = String(Boolean(p.draggable));
+      entry.el.style.zIndex = p.kind === "stop" ? "3" : "4";
+      entry.el.title = p.title ?? "";
+    }
+  }, [ready, pins]);
+
+  // Fit to a set of points (e.g. when a route opens).
+  useEffect(() => {
+    const map = mapRef.current;
+    const lib = libRef.current;
+    if (!ready || !map || !lib || !fitTo || fitTo.length === 0) return;
+    const bounds = fitTo.reduce(
+      (b, p) => b.extend(p),
+      new lib.LngLatBounds(fitTo[0], fitTo[0]),
+    );
+    map.fitBounds(bounds, { padding: 60, maxZoom: 16, duration: 600 });
+  }, [ready, fitTo]);
 
   const focusLat = focus?.lat;
   const focusLng = focus?.lng;

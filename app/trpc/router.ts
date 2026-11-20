@@ -7,11 +7,13 @@ import { photoRouter } from "./routers/photo";
 import { placeRouter } from "./routers/place";
 import { proposalRouter } from "./routers/proposal";
 import { ratingRouter } from "./routers/rating";
+import { routeRouter } from "./routers/route";
 
 export const appRouter = router({
   auth: authRouter,
   collection: collectionRouter,
   place: placeRouter,
+  route: routeRouter,
   proposal: proposalRouter,
   photo: photoRouter,
   rating: ratingRouter,

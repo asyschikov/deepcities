@@ -52,8 +52,19 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `select`, `boolean`), options, required, help, hidden. Admins edit them under
   Manage → Place fields or with `pnpm dc fields`. Keys are permanent and fields are
   never deleted, only hidden (values kept); the server rejects removals.
+- `route` — a walk or ride through the map, stored like a place (only written by
+  approving a proposal). `stops`: ordered places (`placeId`) or ad-hoc points
+  (`placeId: null`, allowed but discouraged in the UI); place stops keep a name/position
+  snapshot so a route survives a place being archived. `legs`: one per gap, with
+  `mode` (walk, bike, tram, bus, metro, ferry, train), `via` waypoints, the drawn
+  `path` (`[lng, lat]`), `snap` and `directions`. Walk/bike legs can follow streets:
+  `route.snap` proxies the FOSSGIS OSRM servers (routing.openstreetmap.de, foot/bike
+  profiles), only while editing. The resulting path is stored, so viewing needs no
+  router. Distance/time are computed (`app/lib/routes.ts`). Routes are not drawn on
+  the map until you open the Routes tab or a route.
 - `proposal` — a suggested change (`create` / `edit` / `archive`) carrying a full
-  draft snapshot. Approving copies the draft onto `place` and bumps `place.revision`.
+  draft snapshot (`subject` "place" → `placeId`/`draft`, "route" →
+  `routeId`/`routeDraft`). Approving copies the draft onto `place` and bumps `place.revision`.
   Approved proposals are the place's history. Proposals record `baseRevision`, so
   reviewers are warned when the place changed after an edit was suggested.
 - `photo`, `rating` (1–5, one per user per place), `collection_member` (role per map).
@@ -87,6 +98,9 @@ listed contributors are. Banned users are read-only.
 
 ## Content CLI (`pnpm dc`)
 
+Agents: the `manage-content` skill (`.claude/skills/manage-content/SKILL.md`) is the
+playbook for researching and importing content with this CLI.
+
 A JSON-in/JSON-out client for the public API, meant for scripts and LLM agents.
 `pnpm dc help` documents every command; `pnpm dc schema` prints the draft fields.
 It authenticates with a personal API token (`/me` → API tokens, or
@@ -102,6 +116,13 @@ pnpm dc photo amsterdam-c-list ./photo.jpg --credit "Jane Doe" --license "CC BY 
 pnpm dc fields amsterdam-c-list scripts/data/amsterdam-fields.json   # map schema
 pnpm dc import amsterdam-c-list scripts/data/bos-en-lommer-monuments.json [--upsert]
 ```
+
+Routes: `dc routes`, `dc route`, `dc route-create <slug> route.json`,
+`dc route-update`, `dc route-archive`. Stops are given by place id or exact title;
+the CLI computes leg paths (street routing for walk/bike).
+
+Pass drafts as files or stdin: `pnpm` re-parses inline arguments through a shell, so
+inline JSON with apostrophes or parentheses breaks.
 
 `import --upsert` updates places whose title already exists (no-op edits are skipped,
 so it is safe to re-run after editing the data file).
@@ -151,4 +172,5 @@ domain — change `EMAIL_FROM_ADDRESS` (and onboard the new domain) when it does
 - Rate limiting per IP on `auth.requestLink` (today: 5 links per email per hour).
 - Changing a custom field's type doesn't migrate existing values (they fail validation
   on the next edit until fixed). Truly deleting a field is not supported yet.
+- Routes: GPX export, audio narration, custom route fields, importing routes in bulk.
 - Orphaned photo cleanup (uploads never referenced by an approved proposal).

@@ -14,6 +14,7 @@ import { z } from "zod/v4";
 import { MapView } from "~/components/MapView";
 import { PageShell } from "~/components/PageShell";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
+import { RouteProposalBody } from "~/components/RouteReview";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
@@ -22,7 +23,12 @@ import type { ProposalStatus } from "~/lib/constants";
 import { diffDrafts, distanceMeters, type FieldChange } from "~/lib/diff";
 import { loadCollection } from "~/lib/loaders";
 import { cn, photoUrl } from "~/lib/utils";
-import { draftOfPlace, type FieldDef, type PlaceDraft } from "~/lib/validation";
+import {
+  draftOfPlace,
+  draftOfRoute,
+  type FieldDef,
+  type PlaceDraft,
+} from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
 import type { RouterOutputs } from "~/trpc/router";
 
@@ -247,19 +253,26 @@ const ProposalCard = ({
       onError: (err) => toast.error(err.message),
     }),
   );
+  const isRoute = item.subject === "route";
   const current = item.place ? placeAsDraft(item.place) : null;
+  const currentRoute = item.route ? draftOfRoute(item.route) : null;
+  const target = isRoute ? item.route : item.place;
   const stale =
     item.kind !== "create" &&
-    item.place &&
+    target &&
     item.baseRevision !== null &&
-    item.place.revision !== item.baseRevision;
+    target.revision !== item.baseRevision;
 
   return (
     <li className="space-y-4 rounded-xl border bg-card p-5">
       <div className="flex flex-wrap items-center gap-2">
-        <Badge variant="outline">{t(`kind_${item.kind}`)}</Badge>
+        <Badge variant="outline">
+          {t(isRoute ? `kind_route_${item.kind}` : `kind_${item.kind}`)}
+        </Badge>
         <span className="font-semibold">
-          {item.draft?.title ?? item.place?.title}
+          {isRoute
+            ? (item.routeDraft?.title ?? item.route?.title)
+            : (item.draft?.title ?? item.place?.title)}
         </span>
         <StatusBadge status={item.status} />
         <span className="ml-auto text-xs text-muted-foreground">
@@ -278,6 +291,13 @@ const ProposalCard = ({
         </div>
       )}
 
+      {isRoute && (
+        <RouteProposalBody
+          kind={item.kind}
+          draft={item.routeDraft}
+          current={currentRoute}
+        />
+      )}
       {item.kind === "create" && item.draft && (
         <DraftPreview draft={item.draft} view={view} />
       )}
@@ -293,7 +313,7 @@ const ProposalCard = ({
           {t("review_archive_explainer", { title: current.title })}
         </p>
       )}
-      {(item.draft ?? current) && (
+      {!isRoute && (item.draft ?? current) && (
         <LocationPreview
           draft={item.draft ?? (current as PlaceDraft)}
           before={item.kind === "edit" ? (current ?? undefined) : undefined}
@@ -377,8 +397,28 @@ const MineList = ({ view }: { view: CollectionView }) => {
       {data.map((p) => (
         <li key={p.id} className="space-y-1 p-4">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge variant="outline">{t(`kind_${p.kind}`)}</Badge>
-            {p.status === "approved" && p.place ? (
+            <Badge variant="outline">
+              {t(
+                p.subject === "route"
+                  ? `kind_route_${p.kind}`
+                  : `kind_${p.kind}`,
+              )}
+            </Badge>
+            {p.subject === "route" ? (
+              p.status === "approved" && p.route ? (
+                <Link
+                  to="/m/$slug/r/$routeId"
+                  params={{ slug: view.collection.slug, routeId: p.route.id }}
+                  className="font-medium hover:underline"
+                >
+                  {p.routeDraft?.title ?? p.route.title}
+                </Link>
+              ) : (
+                <span className="font-medium">
+                  {p.routeDraft?.title ?? p.route?.title}
+                </span>
+              )
+            ) : p.status === "approved" && p.place ? (
               <Link
                 to="/m/$slug/p/$placeId"
                 params={{ slug: view.collection.slug, placeId: p.place.id }}

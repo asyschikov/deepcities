@@ -96,9 +96,6 @@
   box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
   z-index: 2;
 }
-.dc-marker[data-dimmed="true"] {
-  opacity: 0.35;
-}
 .dc-draft-marker {
   width: 34px;
   height: 34px;
@@ -111,4 +108,39 @@
 }
 .maplibregl-ctrl-attrib {
   font-size: 10px;
+}
+/* Route overlays. MapLibre sets `transform` on the marker element itself, so
+   the visible shape lives on an inner span. */
+.dc-pin {
+  cursor: pointer;
+}
+.dc-pin > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
+  color: white;
+  font: 600 12px / 1 var(--font-sans, system-ui);
+}
+.dc-pin[data-kind="stop"] > span {
+  width: 26px;
+  height: 26px;
+}
+.dc-pin[data-kind="via"] > span {
+  width: 14px;
+  height: 14px;
+  border: 3px solid currentColor;
+}
+.dc-pin[data-draggable="true"] {
+  cursor: grab;
+}
+.dc-pin[data-active="true"] > span {
+  box-shadow:
+    0 0 0 4px color-mix(in oklch, var(--brick) 35%, transparent),
+    0 2px 6px rgb(0 0 0 / 0.3);
+}
+.dc-pin[data-kind="stop"][data-adhoc="true"] > span {
+  border-style: dashed;
 }

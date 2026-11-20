@@ -1,9 +1,31 @@
-import { createContext, useContext } from "react";
-import type { LngLat } from "~/components/MapView";
+import { createContext, useContext, useEffect } from "react";
+import type { LngLat, MapLine, MapPin } from "~/components/MapView";
 import type { RouterOutputs } from "~/trpc/router";
 
 export type CollectionView = RouterOutputs["collection"]["bySlug"];
 export type PlaceListItem = RouterOutputs["place"]["list"][number];
+export type RouteListItem = RouterOutputs["route"]["list"][number];
+
+/**
+ * What a side-panel page (route view/editor, routes list) draws on the map
+ * on top of the places. Routes are only drawn while one of those is open.
+ */
+export interface MapOverlay {
+  lines?: MapLine[];
+  pins?: MapPin[];
+  fitTo?: [number, number][] | null;
+  onMapClick?: (p: LngLat) => void;
+  /** Replaces "open the place" when a place marker is clicked. */
+  onPlaceClick?: (placeId: string) => void;
+  /** Fade places that aren't part of the overlay. */
+  dimPlaces?: boolean;
+  /** Places to keep bright while dimming. */
+  highlightPlaceIds?: string[];
+  /** Places not drawn at all (e.g. a route's stops, shown as numbered pins). */
+  hidePlaceIds?: string[];
+}
+
+export type SidebarTab = "places" | "routes";
 
 /**
  * Shared state between the map (right) and the routed side panel (left) on
@@ -23,6 +45,11 @@ export interface MapPageState {
   picking: boolean;
   setPicking: (on: boolean) => void;
   focusOn: (p: LngLat) => void;
+  overlay: MapOverlay | null;
+  setOverlay: (o: MapOverlay | null) => void;
+  /** Places | Routes switch on the map index (remembered while browsing). */
+  tab: SidebarTab;
+  setTab: (t: SidebarTab) => void;
   categoryOf: (key: string) => { label: string; color: string };
 }
 
@@ -32,4 +59,22 @@ export const useMapPage = (): MapPageState => {
   const ctx = useContext(MapPageContext);
   if (!ctx) throw new Error("useMapPage outside /m/$slug");
   return ctx;
+};
+
+/**
+ * Show `overlay` on the map while the calling component is mounted.
+ * Pass a memoised value (or null for none); it is re-applied whenever its
+ * identity changes.
+ */
+export const useMapOverlay = (overlay: MapOverlay | null) => {
+  const { setOverlay } = useMapPage();
+  // A null overlay leaves the map alone, so a parent page that steps aside
+  // (e.g. while its editor child is open) doesn't clear the child's overlay.
+  // React runs every cleanup before any new effect in a commit, so handing
+  // over between pages works in either order.
+  useEffect(() => {
+    if (!overlay) return;
+    setOverlay(overlay);
+    return () => setOverlay(null);
+  }, [overlay, setOverlay]);
 };

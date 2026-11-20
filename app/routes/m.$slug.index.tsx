@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { RatingBadge } from "~/components/RatingStars";
 import { RoleBadge } from "~/components/RoleBadge";
+import { RoutesPanel } from "~/components/RoutesPanel";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
@@ -23,6 +24,8 @@ const MapIndex = () => {
     search,
     setSearch,
     categoryOf,
+    tab,
+    setTab,
   } = useMapPage();
   const { collection, can, role, pendingCount } = view;
   const slug = collection.slug;
@@ -105,97 +108,128 @@ const MapIndex = () => {
         </div>
       </div>
 
-      <div className="sticky top-0 z-10 space-y-3 border-b bg-card/95 p-4 backdrop-blur">
-        <div className="relative">
-          <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
-          <Input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder={t("map_search_placeholder", { count: places.length })}
-            className="pl-8"
-            aria-label={t("map_search")}
-          />
-        </div>
-        <div className="flex flex-wrap gap-1.5">
-          {collection.categories.map((c) => {
-            const active = category === c.key;
-            return (
-              <button
-                key={c.key}
-                type="button"
-                aria-pressed={active}
-                onClick={() => setCategory(active ? null : c.key)}
-                className={cn(
-                  "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition",
-                  active
-                    ? "border-foreground bg-foreground text-background"
-                    : "hover:bg-muted",
-                )}
-              >
-                <span
-                  className="size-2 rounded-full"
-                  style={{ background: c.color }}
-                />
-                {c.label}
-              </button>
-            );
-          })}
-        </div>
+      <div className="flex border-b" role="tablist">
+        {(["places", "routes"] as const).map((key) => (
+          <button
+            key={key}
+            type="button"
+            role="tab"
+            aria-selected={tab === key}
+            onClick={() => setTab(key)}
+            className={cn(
+              "flex-1 border-b-2 px-4 py-2.5 text-sm font-medium transition",
+              tab === key
+                ? "border-brick text-foreground"
+                : "border-transparent text-muted-foreground hover:text-foreground",
+            )}
+          >
+            {t(`map_tab_${key}`)}
+          </button>
+        ))}
       </div>
 
-      <ul className="divide-y">
-        {visiblePlaces.map((p) => {
-          const cat = categoryOf(p.category);
-          return (
-            <li key={p.id}>
-              <Link
-                to="/m/$slug/p/$placeId"
-                params={{ slug, placeId: p.id }}
-                className="flex gap-3 p-4 transition hover:bg-muted/60"
-              >
-                <div
-                  className="size-16 shrink-0 overflow-hidden rounded-md"
-                  style={{ background: `${cat.color}22` }}
-                >
-                  {p.coverPhotoId ? (
-                    <img
-                      src={photoUrl(p.coverPhotoId)}
-                      alt=""
-                      loading="lazy"
-                      className="size-full object-cover"
+      {tab === "routes" ? (
+        <RoutesPanel />
+      ) : (
+        <>
+          <div className="sticky top-0 z-10 space-y-3 border-b bg-card/95 p-4 backdrop-blur">
+            <div className="relative">
+              <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
+              <Input
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder={t("map_search_placeholder", {
+                  count: places.length,
+                })}
+                className="pl-8"
+                aria-label={t("map_search")}
+              />
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {collection.categories.map((c) => {
+                const active = category === c.key;
+                return (
+                  <button
+                    key={c.key}
+                    type="button"
+                    aria-pressed={active}
+                    onClick={() => setCategory(active ? null : c.key)}
+                    className={cn(
+                      "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition",
+                      active
+                        ? "border-foreground bg-foreground text-background"
+                        : "hover:bg-muted",
+                    )}
+                  >
+                    <span
+                      className="size-2 rounded-full"
+                      style={{ background: c.color }}
                     />
-                  ) : (
-                    <div className="flex size-full items-center justify-center">
-                      <span
-                        className="size-3 rounded-full"
-                        style={{ background: cat.color }}
-                      />
+                    {c.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <ul className="divide-y">
+            {visiblePlaces.map((p) => {
+              const cat = categoryOf(p.category);
+              return (
+                <li key={p.id}>
+                  <Link
+                    to="/m/$slug/p/$placeId"
+                    params={{ slug, placeId: p.id }}
+                    className="flex gap-3 p-4 transition hover:bg-muted/60"
+                  >
+                    <div
+                      className="size-16 shrink-0 overflow-hidden rounded-md"
+                      style={{ background: `${cat.color}22` }}
+                    >
+                      {p.coverPhotoId ? (
+                        <img
+                          src={photoUrl(p.coverPhotoId)}
+                          alt=""
+                          loading="lazy"
+                          className="size-full object-cover"
+                        />
+                      ) : (
+                        <div className="flex size-full items-center justify-center">
+                          <span
+                            className="size-3 rounded-full"
+                            style={{ background: cat.color }}
+                          />
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-baseline justify-between gap-2">
-                    <h3 className="truncate font-sans text-base font-semibold">
-                      {p.title}
-                    </h3>
-                    <RatingBadge avg={p.rating.avg} count={p.rating.count} />
-                  </div>
-                  <div className="text-xs" style={{ color: cat.color }}>
-                    {cat.label}
-                  </div>
-                  <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
-                    {p.summary}
-                  </p>
-                </div>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-      {visiblePlaces.length === 0 && (
-        <p className="p-8 text-center text-sm text-muted-foreground">
-          {places.length === 0 ? t("map_empty") : t("map_no_matches")}
-        </p>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h3 className="truncate font-sans text-base font-semibold">
+                          {p.title}
+                        </h3>
+                        <RatingBadge
+                          avg={p.rating.avg}
+                          count={p.rating.count}
+                        />
+                      </div>
+                      <div className="text-xs" style={{ color: cat.color }}>
+                        {cat.label}
+                      </div>
+                      <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
+                        {p.summary}
+                      </p>
+                    </div>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+          {visiblePlaces.length === 0 && (
+            <p className="p-8 text-center text-sm text-muted-foreground">
+              {places.length === 0 ? t("map_empty") : t("map_no_matches")}
+            </p>
+          )}
+        </>
       )}
     </div>
   );

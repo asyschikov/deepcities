@@ -59,6 +59,17 @@ MAP SCHEMA (map admins)
                                            JSON array of field definitions (see \`dc schema\`);
                                            existing keys must stay (hide, don't delete)
 
+ROUTES  (same review rules as places)
+  dc routes <slug>                         published routes (stats, stop names)
+  dc route <routeId>                       full route: stops, legs (paths), history
+  dc route-create <slug> <route> [--note TEXT]
+                                           new route; see "route" in \`dc schema\`
+  dc route-update <routeId> <patch> [--note TEXT]
+                                           merged onto the current route; "stops" and
+                                           "legs" replace wholesale. Legs whose stops or
+                                           waypoints changed are redrawn
+  dc route-archive <routeId> --note TEXT   remove a route from the map
+
 REVIEW (moderators+)
   dc queue <slug> [--status pending|approved|rejected|withdrawn]
   dc approve <proposalId> [--note TEXT]
@@ -102,6 +113,16 @@ const SCHEMA = {
     help: "optional string ≤200, shown under the input",
     hidden:
       "optional boolean. Fields can't be deleted (the server rejects a list missing an existing key); set hidden: true to retire one, its values are kept",
+  },
+  route: {
+    title: "string, 2–100 chars (required)",
+    summary: "string, 10–280 chars (required)",
+    body: "markdown intro, ≤10000 chars",
+    stops:
+      'array of 2–30, in order. Each is a place on the map: {"place": "<placeId or exact title>", "narration": "markdown, what to look at here"}, or (discouraged; prefer adding a place) an ad-hoc point: {"name", "lat", "lng", "narration"}',
+    legs: 'optional array, one per gap between stops (missing ones default to {"mode":"walk"}): {"mode": "walk|bike|tram|bus|metro|ferry|train", "directions": "how to get to the next stop", "via": [[lng, lat] | {"lat","lng"}, …] waypoints the path must pass, "snap": true to follow streets (default for walk/bike)}. Paths are computed by the CLI (street router for snapped walk/bike legs, straight lines otherwise); pass "path": [[lng,lat],…] to set one explicitly',
+    photos: "as for places",
+    photoIds: "array ≤8 of photo ids",
   },
   photoSources: [
     "./path/to/file.jpg (jpeg/png/webp; resized with macOS `sips` if large)",
@@ -607,6 +628,191 @@ const unknownKeys = (o: Obj) =>
     (k) => !(DRAFT_KEYS as readonly string[]).includes(k) && k !== "photos",
   );
 
+// ─── routes ─────────────────────────────────────────────────────────
+
+const MODES = ["walk", "bike", "tram", "bus", "metro", "ferry", "train"];
+const SNAPPABLE = ["walk", "bike"];
+
+type Pt = [number, number];
+interface Stop {
+  placeId: string | null;
+  name: string;
+  lat: number;
+  lng: number;
+  narration: string;
+}
+interface Leg {
+  mode: string;
+  snap: boolean;
+  via: Pt[];
+  path: Pt[];
+  directions: string;
+}
+
+/** Accept [lng, lat] or {lat, lng}. */
+const toPt = (v: unknown, what: string): Pt => {
+  if (
+    Array.isArray(v) &&
+    v.length === 2 &&
+    v.every((n) => typeof n === "number")
+  )
+    return [v[0] as number, v[1] as number];
+  const o = v as { lat?: unknown; lng?: unknown } | null;
+  if (o && typeof o.lat === "number" && typeof o.lng === "number")
+    return [o.lng, o.lat];
+  throw new CliError(`${what} must be [lng, lat] or {"lat","lng"}`, "BAD_JSON");
+};
+
+const resolveStops = (
+  raw: unknown,
+  places: { id: string; title: string; lat: number; lng: number }[],
+): Stop[] => {
+  if (!Array.isArray(raw))
+    throw new CliError('"stops" must be an array', "BAD_JSON");
+  const byId = new Map(places.map((p) => [p.id, p]));
+  const byTitle = new Map(places.map((p) => [p.title.toLowerCase(), p]));
+  return raw.map((r, i) => {
+    const o = (r ?? {}) as Obj;
+    const ref = (o.place ?? o.placeId) as string | null | undefined;
+    const narration = typeof o.narration === "string" ? o.narration : "";
+    if (ref) {
+      const p = byId.get(ref) ?? byTitle.get(String(ref).toLowerCase());
+      if (!p)
+        throw new CliError(
+          `stops[${i}]: no place "${ref}" on this map (use an id or exact title from \`dc places\`)`,
+          "BAD_JSON",
+        );
+      return {
+        placeId: p.id,
+        name: p.title,
+        lat: p.lat,
+        lng: p.lng,
+        narration,
+      };
+    }
+    if (typeof o.lat !== "number" || typeof o.lng !== "number" || !o.name)
+      throw new CliError(
+        `stops[${i}]: give "place", or "name" + "lat" + "lng" for an ad-hoc point`,
+        "BAD_JSON",
+      );
+    return {
+      placeId: null,
+      name: String(o.name),
+      lat: o.lat,
+      lng: o.lng,
+      narration,
+    };
+  });
+};
+
+const stopIdentity = (s: Stop) =>
+  s.placeId ?? `${s.name}@${s.lat.toFixed(6)},${s.lng.toFixed(6)}`;
+
+/**
+ * Build legs for `stops`: explicit `rawLegs` win; otherwise reuse the
+ * previous leg between the same two stops; otherwise walk. Paths are
+ * recomputed unless still valid (same endpoints and waypoints).
+ */
+const buildLegs = async (
+  collectionId: string,
+  stops: Stop[],
+  rawLegs: unknown,
+  previous: { stops: Stop[]; legs: Leg[] } | null,
+): Promise<{ legs: Leg[]; warnings: string[] }> => {
+  if (rawLegs !== undefined && !Array.isArray(rawLegs))
+    throw new CliError('"legs" must be an array', "BAD_JSON");
+  const given = (rawLegs as Obj[] | undefined) ?? [];
+  if (given.length > stops.length - 1)
+    throw new CliError(
+      `${given.length} legs for ${stops.length} stops; there is one leg between each pair`,
+      "BAD_JSON",
+    );
+  const prevByPair = new Map(
+    (previous?.legs ?? []).flatMap((l, i) => {
+      const a = previous?.stops[i];
+      const b = previous?.stops[i + 1];
+      return a && b
+        ? [[`${stopIdentity(a)}>${stopIdentity(b)}`, l] as const]
+        : [];
+    }),
+  );
+  const warnings: string[] = [];
+  const legs: Leg[] = [];
+  for (let i = 0; i < stops.length - 1; i++) {
+    const from = stops[i] as Stop;
+    const to = stops[i + 1] as Stop;
+    const old = prevByPair.get(`${stopIdentity(from)}>${stopIdentity(to)}`);
+    const g = given[i];
+    const mode = String(g?.mode ?? old?.mode ?? "walk");
+    if (!MODES.includes(mode))
+      throw new CliError(
+        `legs[${i}].mode must be one of ${MODES.join(", ")}`,
+        "BAD_JSON",
+      );
+    const snap =
+      typeof g?.snap === "boolean"
+        ? g.snap
+        : g?.mode === undefined && old
+          ? old.snap
+          : SNAPPABLE.includes(mode);
+    const via = Array.isArray(g?.via)
+      ? (g.via as unknown[]).map((v, j) => toPt(v, `legs[${i}].via[${j}]`))
+      : (old?.via ?? []);
+    const directions = String(g?.directions ?? old?.directions ?? "");
+    const points: Pt[] = [[from.lng, from.lat], ...via, [to.lng, to.lat]];
+    let path: Pt[];
+    if (Array.isArray(g?.path)) {
+      path = (g.path as unknown[]).map((v, j) =>
+        toPt(v, `legs[${i}].path[${j}]`),
+      );
+    } else if (
+      old &&
+      old.mode === mode &&
+      old.snap === snap &&
+      JSON.stringify(old.via) === JSON.stringify(via)
+    ) {
+      path = old.path;
+    } else if (snap && SNAPPABLE.includes(mode)) {
+      try {
+        path = (
+          (await mutate("route.snap", { collectionId, mode, points })) as {
+            path: Pt[];
+          }
+        ).path;
+      } catch (err) {
+        warnings.push(
+          `leg ${i + 1} (${from.name} → ${to.name}): street routing failed, using straight lines: ${err instanceof Error ? err.message : String(err)}`,
+        );
+        path = points;
+      }
+    } else {
+      path = points;
+    }
+    legs.push({ mode, snap, via, path, directions });
+  }
+  return { legs, warnings };
+};
+
+const ROUTE_KEYS = [
+  "title",
+  "summary",
+  "body",
+  "stops",
+  "legs",
+  "photos",
+  "photoIds",
+] as const;
+const unknownRouteKeys = (o: Obj) =>
+  Object.keys(o).filter((k) => !(ROUTE_KEYS as readonly string[]).includes(k));
+
+const placesOf = async (collectionId: string) =>
+  (await query("place.list", { collectionId })) as {
+    id: string;
+    title: string;
+    lat: number;
+    lng: number;
+  }[];
+
 const commands: Record<
   string,
   (pos: string[], flags: Record<string, string>) => Promise<unknown>
@@ -882,6 +1088,105 @@ const commands: Record<
     };
   },
 
+  routes: async ([slug]) => {
+    const { collection } = await collectionOf(need(slug, "<slug>"));
+    const rows = (await query("route.list", {
+      collectionId: collection.id,
+    })) as (Obj & { stops: Obj[] })[];
+    return rows.map(({ legs: _legs, updatedAt: _u, stops, ...r }) => ({
+      ...r,
+      stops: stops.map((s) => s.name),
+    }));
+  },
+
+  route: ([routeId]) =>
+    query("route.byId", { routeId: need(routeId, "<routeId>") }),
+
+  "route-create": async ([slug, arg], flags) => {
+    const input = readJsonArg(need(arg, "<route>"));
+    const bad = unknownRouteKeys(input);
+    if (bad.length)
+      throw new CliError(`Unknown route fields: ${bad.join(", ")}`, "BAD_JSON");
+    const { collection } = await collectionOf(need(slug, "<slug>"));
+    const stops = resolveStops(input.stops, await placesOf(collection.id));
+    const { legs, warnings } = await buildLegs(
+      collection.id,
+      stops,
+      input.legs,
+      null,
+    );
+    const added = await uploadDraftPhotos(collection.id, input.photos);
+    const res = await mutate("proposal.createRoute", {
+      kind: "create",
+      collectionId: collection.id,
+      draft: {
+        title: input.title,
+        summary: input.summary,
+        body: input.body ?? "",
+        stops,
+        legs,
+        photoIds: [
+          ...((input.photoIds as string[] | undefined) ?? []),
+          ...added,
+        ],
+      },
+      note: flags.note ?? null,
+    });
+    return warnings.length ? { ...(res as Obj), warnings } : res;
+  },
+
+  "route-update": async ([routeId, arg], flags) => {
+    const patch = readJsonArg(need(arg, "<patch>"));
+    const bad = unknownRouteKeys(patch);
+    if (bad.length)
+      throw new CliError(`Unknown route fields: ${bad.join(", ")}`, "BAD_JSON");
+    const { route: current } = (await query("route.byId", {
+      routeId: need(routeId, "<routeId>"),
+    })) as {
+      route: Obj & {
+        collectionId: string;
+        stops: Stop[];
+        legs: Leg[];
+        photoIds: string[];
+      };
+    };
+    const stops =
+      patch.stops === undefined
+        ? current.stops
+        : resolveStops(patch.stops, await placesOf(current.collectionId));
+    const { legs, warnings } = await buildLegs(
+      current.collectionId,
+      stops,
+      patch.legs,
+      { stops: current.stops, legs: current.legs },
+    );
+    const added = await uploadDraftPhotos(current.collectionId, patch.photos);
+    const res = await mutate("proposal.createRoute", {
+      kind: "edit",
+      routeId,
+      draft: {
+        title: patch.title ?? current.title,
+        summary: patch.summary ?? current.summary,
+        body: patch.body ?? current.body,
+        stops,
+        legs,
+        photoIds: [
+          ...((patch.photoIds as string[] | undefined) ?? current.photoIds),
+          ...added,
+        ],
+      },
+      note: flags.note ?? null,
+    });
+    return warnings.length ? { ...(res as Obj), warnings } : res;
+  },
+
+  "route-archive": async ([routeId], flags) =>
+    mutate("proposal.createRoute", {
+      kind: "archive",
+      routeId: need(routeId, "<routeId>"),
+      note: need(flags.note, "--note"),
+    }),
+
   queue: async ([slug], flags) => {
     const { collection } = await collectionOf(need(slug, "<slug>"));
     const rows = (await query("proposal.queue", {
@@ -890,13 +1195,15 @@ const commands: Record<
     })) as Obj[];
     return rows.map((p) => ({
       id: p.id,
+      subject: p.subject,
       kind: p.kind,
       status: p.status,
       placeId: p.placeId,
+      routeId: p.routeId,
       note: p.note,
       author: (p.author as Obj | null)?.name ?? null,
       createdAt: p.createdAt,
-      draft: p.draft,
+      draft: p.subject === "route" ? p.routeDraft : p.draft,
     }));
   },
 

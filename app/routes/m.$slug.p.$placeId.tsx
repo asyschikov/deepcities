@@ -16,11 +16,13 @@ import {
   Flag,
   MapPin,
   Pencil,
+  Route as RouteIcon,
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { MarkdownView } from "~/components/MarkdownView";
+import { Gallery } from "~/components/PhotoGallery";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
 import { RatingBadge, RatingInput } from "~/components/RatingStars";
 import { Button } from "~/components/ui/button";
@@ -36,10 +38,8 @@ import {
 import { Textarea } from "~/components/ui/textarea";
 import { useMapPage } from "~/lib/map-page";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, photoUrl } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
-import type { RouterOutputs } from "~/trpc/router";
 
 const loadPlace = createServerFn({ method: "GET" })
   .validator((placeId: string) => placeId)
@@ -52,77 +52,6 @@ const loadPlace = createServerFn({ method: "GET" })
       throw err;
     }
   });
-
-type PhotoMeta = RouterOutputs["place"]["byId"]["photos"][number];
-
-const PhotoCredit = ({ photo }: { photo: PhotoMeta | undefined }) => {
-  const { t } = useTranslation();
-  if (!photo?.credit) return null;
-  const text = [photo.credit, photo.license].filter(Boolean).join(", ");
-  return (
-    <p className="text-[11px] text-muted-foreground">
-      {photo.sourceUrl ? (
-        <a
-          href={photo.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="hover:underline"
-        >
-          {t("photo_credit", { credit: text })}
-        </a>
-      ) : (
-        t("photo_credit", { credit: text })
-      )}
-    </p>
-  );
-};
-
-const Gallery = ({
-  photoIds,
-  photos,
-  title,
-}: {
-  photoIds: string[];
-  photos: PhotoMeta[];
-  title: string;
-}) => {
-  const [index, setIndex] = useState(0);
-  const current = photoIds[index] ?? photoIds[0];
-  if (!current) return null;
-  return (
-    <div className="space-y-2">
-      <img
-        src={photoUrl(current)}
-        alt={title}
-        className="aspect-[4/3] w-full rounded-lg bg-muted object-cover"
-      />
-      <PhotoCredit photo={photos.find((p) => p.id === current)} />
-      {photoIds.length > 1 && (
-        <div className="flex gap-1.5 overflow-x-auto">
-          {photoIds.map((id, i) => (
-            <button
-              key={id}
-              type="button"
-              onClick={() => setIndex(i)}
-              className={cn(
-                "size-14 shrink-0 overflow-hidden rounded border-2",
-                i === index
-                  ? "border-primary"
-                  : "border-transparent opacity-70",
-              )}
-            >
-              <img
-                src={photoUrl(id)}
-                alt=""
-                className="size-full object-cover"
-              />
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-};
 
 const SuggestRemoval = ({ placeId }: { placeId: string }) => {
   const { t } = useTranslation();
@@ -198,6 +127,9 @@ const PlacePage = () => {
     initialData: initial,
   });
   const { place, can, rating, history, myPending } = data;
+  const { data: onRoutes = [] } = useQuery(
+    trpc.route.throughPlace.queryOptions({ placeId }),
+  );
 
   useEffect(() => {
     focusOn({ lat: place.lat, lng: place.lng });
@@ -305,6 +237,30 @@ const PlacePage = () => {
             </a>
           ))}
         </div>
+      )}
+
+      {onRoutes.length > 0 && (
+        <section className="space-y-1.5 border-t pt-4">
+          <h2 className="font-sans text-sm font-semibold">
+            {t("place_on_routes")}
+          </h2>
+          <ul className="space-y-1 text-sm">
+            {onRoutes.map((r) => (
+              <li key={r.id}>
+                <Link
+                  to="/m/$slug/r/$routeId"
+                  params={{ slug, routeId: r.id }}
+                  className="flex items-center gap-2 text-primary hover:underline"
+                >
+                  <RouteIcon className="size-4" /> {r.title}
+                  <span className="text-xs text-muted-foreground">
+                    {t("place_route_stop", { n: r.stop, of: r.of })}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {!archived && (

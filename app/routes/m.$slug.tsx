@@ -10,7 +10,12 @@ import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
 import { useCallback, useMemo, useState } from "react";
 import { type LngLat, MapView } from "~/components/MapView";
-import { MapPageContext, type MapPageState } from "~/lib/map-page";
+import {
+  type MapOverlay,
+  MapPageContext,
+  type MapPageState,
+  type SidebarTab,
+} from "~/lib/map-page";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -53,6 +58,8 @@ const MapLayout = () => {
   const [draft, setDraft] = useState<LngLat | null>(null);
   const [picking, setPicking] = useState(false);
   const [focus, setFocus] = useState<LngLat | null>(null);
+  const [overlay, setOverlay] = useState<MapOverlay | null>(null);
+  const [tab, setTab] = useState<SidebarTab>("places");
 
   const categoryOf = useCallback(
     (key: string) => {
@@ -79,17 +86,38 @@ const MapLayout = () => {
     () => new Set(visiblePlaces.map((p) => p.id)),
     [visiblePlaces],
   );
+  const highlighted = useMemo(
+    () => new Set(overlay?.highlightPlaceIds ?? []),
+    [overlay?.highlightPlaceIds],
+  );
+  const hidden = useMemo(
+    () => new Set(overlay?.hidePlaceIds ?? []),
+    [overlay?.hidePlaceIds],
+  );
   const markers = useMemo(
     () =>
-      places.map((p) => ({
-        id: p.id,
-        lat: p.lat,
-        lng: p.lng,
-        title: p.title,
-        color: categoryOf(p.category).color,
-        dimmed: !visibleIds.has(p.id) || picking,
-      })),
-    [places, visibleIds, categoryOf, picking],
+      places
+        .filter((p) => !hidden.has(p.id))
+        .map((p) => ({
+          id: p.id,
+          lat: p.lat,
+          lng: p.lng,
+          title: p.title,
+          color: categoryOf(p.category).color,
+          dimmed:
+            !visibleIds.has(p.id) ||
+            picking ||
+            (Boolean(overlay?.dimPlaces) && !highlighted.has(p.id)),
+        })),
+    [
+      places,
+      visibleIds,
+      categoryOf,
+      picking,
+      overlay?.dimPlaces,
+      highlighted,
+      hidden,
+    ],
   );
 
   const state: MapPageState = {
@@ -106,6 +134,10 @@ const MapLayout = () => {
     setPicking,
     focusOn: setFocus,
     categoryOf,
+    overlay,
+    setOverlay,
+    tab,
+    setTab,
   };
 
   return (
@@ -124,8 +156,16 @@ const MapLayout = () => {
             markers={markers}
             activeId={placeId ?? null}
             focus={focus}
+            lines={overlay?.lines}
+            pins={overlay?.pins}
+            fitTo={overlay?.fitTo}
+            onMapClick={overlay?.onMapClick}
             onMarkerClick={(id) => {
               if (picking) return;
+              if (overlay?.onPlaceClick) {
+                overlay.onPlaceClick(id);
+                return;
+              }
               navigate({
                 to: "/m/$slug/p/$placeId",
                 params: { slug, placeId: id },

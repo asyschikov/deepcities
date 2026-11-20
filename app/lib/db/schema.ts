@@ -15,12 +15,17 @@ import {
   PLACE_STATUSES,
   PROPOSAL_KINDS,
   PROPOSAL_STATUSES,
+  PROPOSAL_SUBJECTS,
+  ROUTE_STATUSES,
 } from "~/lib/constants";
 import type {
   Attributes,
   CategoryDef,
   FieldDef,
   PlaceDraft,
+  RouteDraft,
+  RouteLeg,
+  RouteStop,
 } from "~/lib/validation";
 
 const createdAt = () => integer("created_at", { mode: "timestamp" }).notNull();
@@ -192,6 +197,37 @@ export const place = sqliteTable(
 );
 
 /**
+ * A route through the map: ordered stops (places or ad-hoc points) joined by
+ * legs (transport mode + drawn path + directions). Like places, only ever
+ * written by approving a `proposal`.
+ */
+export const route = sqliteTable(
+  "route",
+  {
+    id: text("id").primaryKey(),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    status: text("status", { enum: ROUTE_STATUSES })
+      .notNull()
+      .default("published"),
+    revision: integer("revision").notNull().default(1),
+    title: text("title").notNull(),
+    summary: text("summary").notNull(),
+    body: text("body").notNull().default(""),
+    stops: text("stops", { mode: "json" }).$type<RouteStop[]>().notNull(),
+    legs: text("legs", { mode: "json" }).$type<RouteLeg[]>().notNull(),
+    photoIds: text("photo_ids", { mode: "json" }).$type<string[]>().notNull(),
+    createdBy: text("created_by").references(() => profile.id, {
+      onDelete: "set null",
+    }),
+    createdAt: createdAt(),
+    updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
+  },
+  (t) => [index("route_collection_idx").on(t.collectionId, t.status)],
+);
+
+/**
  * A suggested change. Approved proposals double as the place's revision
  * history (ordered by `reviewedAt`), so there is no separate revision table.
  */
@@ -202,7 +238,14 @@ export const proposal = sqliteTable(
     collectionId: text("collection_id")
       .notNull()
       .references(() => collection.id, { onDelete: "cascade" }),
+    /** Place proposals use placeId/draft; route proposals routeId/routeDraft. */
+    subject: text("subject", { enum: PROPOSAL_SUBJECTS })
+      .notNull()
+      .default("place"),
     placeId: text("place_id").references(() => place.id, {
+      onDelete: "cascade",
+    }),
+    routeId: text("route_id").references(() => route.id, {
       onDelete: "cascade",
     }),
     kind: text("kind", { enum: PROPOSAL_KINDS }).notNull(),
@@ -211,6 +254,8 @@ export const proposal = sqliteTable(
       .default("pending"),
     /** Full snapshot of the proposed place (null for `archive`). */
     draft: text("draft", { mode: "json" }).$type<PlaceDraft>(),
+    /** Full snapshot of the proposed route (route proposals, not archive). */
+    routeDraft: text("route_draft", { mode: "json" }).$type<RouteDraft>(),
     /** Contributor's note to moderators ("why this change"). */
     note: text("note"),
     baseRevision: integer("base_revision"),
@@ -227,6 +272,7 @@ export const proposal = sqliteTable(
   (t) => [
     index("proposal_queue_idx").on(t.collectionId, t.status, t.createdAt),
     index("proposal_place_idx").on(t.placeId, t.status),
+    index("proposal_route_idx").on(t.routeId, t.status),
     index("proposal_author_idx").on(t.proposedBy, t.createdAt),
   ],
 );
@@ -271,6 +317,7 @@ export const rating = sqliteTable(
 export const collectionRelations = relations(collection, ({ many }) => ({
   members: many(collectionMember),
   places: many(place),
+  routes: many(route),
 }));
 
 export const collectionMemberRelations = relations(
@@ -296,8 +343,18 @@ export const placeRelations = relations(place, ({ one, many }) => ({
   proposals: many(proposal),
 }));
 
+export const routeRelations = relations(route, ({ one, many }) => ({
+  collection: one(collection, {
+    fields: [route.collectionId],
+    references: [collection.id],
+  }),
+  author: one(profile, { fields: [route.createdBy], references: [profile.id] }),
+  proposals: many(proposal),
+}));
+
 export const proposalRelations = relations(proposal, ({ one }) => ({
   place: one(place, { fields: [proposal.placeId], references: [place.id] }),
+  route: one(route, { fields: [proposal.routeId], references: [route.id] }),
   author: one(profile, {
     fields: [proposal.proposedBy],
     references: [profile.id],

@@ -1,9 +1,5 @@
 import { describe, expect, it } from "vitest";
-import {
-  attributeIssues,
-  compactAttributes,
-  removedFieldKeys,
-} from "./fields";
+import { attributeIssues, compactAttributes, removedFieldKeys } from "./fields";
 import type { FieldDef } from "./validation";
 
 const defs: FieldDef[] = [

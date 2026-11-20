@@ -20,7 +20,10 @@ import { Route as MSlugNewRouteImport } from './routes/m.$slug.new'
 import { Route as MSlugManageRouteImport } from './routes/m.$slug_.manage'
 import { Route as MSlugReviewRouteImport } from './routes/m.$slug_.review'
 import { Route as MSlugPPlaceIdRouteImport } from './routes/m.$slug.p.$placeId'
+import { Route as MSlugRRouteIdRouteImport } from './routes/m.$slug.r.$routeId'
+import { Route as MSlugRNewRouteImport } from './routes/m.$slug.r.new'
 import { Route as MSlugPPlaceIdEditRouteImport } from './routes/m.$slug.p.$placeId.edit'
+import { Route as MSlugRRouteIdEditRouteImport } from './routes/m.$slug.r.$routeId.edit'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -77,10 +80,25 @@ const MSlugPPlaceIdRoute = MSlugPPlaceIdRouteImport.update({
   path: '/p/$placeId',
   getParentRoute: () => MSlugRoute,
 } as any)
+const MSlugRRouteIdRoute = MSlugRRouteIdRouteImport.update({
+  id: '/r/$routeId',
+  path: '/r/$routeId',
+  getParentRoute: () => MSlugRoute,
+} as any)
+const MSlugRNewRoute = MSlugRNewRouteImport.update({
+  id: '/r/new',
+  path: '/r/new',
+  getParentRoute: () => MSlugRoute,
+} as any)
 const MSlugPPlaceIdEditRoute = MSlugPPlaceIdEditRouteImport.update({
   id: '/edit',
   path: '/edit',
   getParentRoute: () => MSlugPPlaceIdRoute,
+} as any)
+const MSlugRRouteIdEditRoute = MSlugRRouteIdEditRouteImport.update({
+  id: '/edit',
+  path: '/edit',
+  getParentRoute: () => MSlugRRouteIdRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -95,7 +113,10 @@ export interface FileRoutesByFullPath {
   '/m/$slug/review': typeof MSlugReviewRoute
   '/m/$slug/': typeof MSlugIndexRoute
   '/m/$slug/p/$placeId': typeof MSlugPPlaceIdRouteWithChildren
+  '/m/$slug/r/$routeId': typeof MSlugRRouteIdRouteWithChildren
+  '/m/$slug/r/new': typeof MSlugRNewRoute
   '/m/$slug/p/$placeId/edit': typeof MSlugPPlaceIdEditRoute
+  '/m/$slug/r/$routeId/edit': typeof MSlugRRouteIdEditRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -108,7 +129,10 @@ export interface FileRoutesByTo {
   '/m/$slug/review': typeof MSlugReviewRoute
   '/m/$slug': typeof MSlugIndexRoute
   '/m/$slug/p/$placeId': typeof MSlugPPlaceIdRouteWithChildren
+  '/m/$slug/r/$routeId': typeof MSlugRRouteIdRouteWithChildren
+  '/m/$slug/r/new': typeof MSlugRNewRoute
   '/m/$slug/p/$placeId/edit': typeof MSlugPPlaceIdEditRoute
+  '/m/$slug/r/$routeId/edit': typeof MSlugRRouteIdEditRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -123,7 +147,10 @@ export interface FileRoutesById {
   '/m/$slug_/review': typeof MSlugReviewRoute
   '/m/$slug/': typeof MSlugIndexRoute
   '/m/$slug/p/$placeId': typeof MSlugPPlaceIdRouteWithChildren
+  '/m/$slug/r/$routeId': typeof MSlugRRouteIdRouteWithChildren
+  '/m/$slug/r/new': typeof MSlugRNewRoute
   '/m/$slug/p/$placeId/edit': typeof MSlugPPlaceIdEditRoute
+  '/m/$slug/r/$routeId/edit': typeof MSlugRRouteIdEditRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -139,7 +166,10 @@ export interface FileRouteTypes {
     | '/m/$slug/review'
     | '/m/$slug/'
     | '/m/$slug/p/$placeId'
+    | '/m/$slug/r/$routeId'
+    | '/m/$slug/r/new'
     | '/m/$slug/p/$placeId/edit'
+    | '/m/$slug/r/$routeId/edit'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -152,7 +182,10 @@ export interface FileRouteTypes {
     | '/m/$slug/review'
     | '/m/$slug'
     | '/m/$slug/p/$placeId'
+    | '/m/$slug/r/$routeId'
+    | '/m/$slug/r/new'
     | '/m/$slug/p/$placeId/edit'
+    | '/m/$slug/r/$routeId/edit'
   id:
     | '__root__'
     | '/'
@@ -166,7 +199,10 @@ export interface FileRouteTypes {
     | '/m/$slug_/review'
     | '/m/$slug/'
     | '/m/$slug/p/$placeId'
+    | '/m/$slug/r/$routeId'
+    | '/m/$slug/r/new'
     | '/m/$slug/p/$placeId/edit'
+    | '/m/$slug/r/$routeId/edit'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -259,12 +295,33 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MSlugPPlaceIdRouteImport
       parentRoute: typeof MSlugRoute
     }
+    '/m/$slug/r/$routeId': {
+      id: '/m/$slug/r/$routeId'
+      path: '/r/$routeId'
+      fullPath: '/m/$slug/r/$routeId'
+      preLoaderRoute: typeof MSlugRRouteIdRouteImport
+      parentRoute: typeof MSlugRoute
+    }
+    '/m/$slug/r/new': {
+      id: '/m/$slug/r/new'
+      path: '/r/new'
+      fullPath: '/m/$slug/r/new'
+      preLoaderRoute: typeof MSlugRNewRouteImport
+      parentRoute: typeof MSlugRoute
+    }
     '/m/$slug/p/$placeId/edit': {
       id: '/m/$slug/p/$placeId/edit'
       path: '/edit'
       fullPath: '/m/$slug/p/$placeId/edit'
       preLoaderRoute: typeof MSlugPPlaceIdEditRouteImport
       parentRoute: typeof MSlugPPlaceIdRoute
+    }
+    '/m/$slug/r/$routeId/edit': {
+      id: '/m/$slug/r/$routeId/edit'
+      path: '/edit'
+      fullPath: '/m/$slug/r/$routeId/edit'
+      preLoaderRoute: typeof MSlugRRouteIdEditRouteImport
+      parentRoute: typeof MSlugRRouteIdRoute
     }
   }
 }
@@ -281,16 +338,32 @@ const MSlugPPlaceIdRouteWithChildren = MSlugPPlaceIdRoute._addFileChildren(
   MSlugPPlaceIdRouteChildren,
 )
 
+interface MSlugRRouteIdRouteChildren {
+  MSlugRRouteIdEditRoute: typeof MSlugRRouteIdEditRoute
+}
+
+const MSlugRRouteIdRouteChildren: MSlugRRouteIdRouteChildren = {
+  MSlugRRouteIdEditRoute: MSlugRRouteIdEditRoute,
+}
+
+const MSlugRRouteIdRouteWithChildren = MSlugRRouteIdRoute._addFileChildren(
+  MSlugRRouteIdRouteChildren,
+)
+
 interface MSlugRouteChildren {
   MSlugNewRoute: typeof MSlugNewRoute
   MSlugIndexRoute: typeof MSlugIndexRoute
   MSlugPPlaceIdRoute: typeof MSlugPPlaceIdRouteWithChildren
+  MSlugRRouteIdRoute: typeof MSlugRRouteIdRouteWithChildren
+  MSlugRNewRoute: typeof MSlugRNewRoute
 }
 
 const MSlugRouteChildren: MSlugRouteChildren = {
   MSlugNewRoute: MSlugNewRoute,
   MSlugIndexRoute: MSlugIndexRoute,
   MSlugPPlaceIdRoute: MSlugPPlaceIdRouteWithChildren,
+  MSlugRRouteIdRoute: MSlugRRouteIdRouteWithChildren,
+  MSlugRNewRoute: MSlugRNewRoute,
 }
 
 const MSlugRouteWithChildren = MSlugRoute._addFileChildren(MSlugRouteChildren)

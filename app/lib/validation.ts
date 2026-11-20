@@ -3,7 +3,11 @@ import {
   FIELD_TYPES,
   MAX_FIELDS_PER_MAP,
   MAX_LINKS_PER_PLACE,
+  MAX_PATH_POINTS_PER_LEG,
   MAX_PHOTOS_PER_PLACE,
+  MAX_STOPS_PER_ROUTE,
+  MAX_VIA_PER_LEG,
+  TRANSPORT_MODES,
 } from "./constants";
 
 export const categoryDefSchema = z.object({
@@ -123,4 +127,72 @@ export const draftOfPlace = (
   links: p.links ?? [],
   photoIds: p.photoIds ?? [],
   attributes: p.attributes ?? {},
+});
+
+// ─── Routes ─────────────────────────────────────────────────────────
+
+/** A point as GeoJSON orders it: [lng, lat]. */
+export const lngLatSchema = z.tuple([
+  z.number().min(-180).max(180),
+  z.number().min(-90).max(90),
+]);
+export type LngLatTuple = z.infer<typeof lngLatSchema>;
+
+/**
+ * Something you visit on a route: a place on the map (`placeId`), or an
+ * ad-hoc point (placeId null). For places, name and position are snapshots
+ * the server refreshes on save, so a route still draws if the place goes.
+ */
+export const routeStopSchema = z.object({
+  placeId: idSchema.nullable(),
+  name: z.string().trim().min(1).max(100),
+  lat: z.number().min(-90).max(90),
+  lng: z.number().min(-180).max(180),
+  /** Route-specific text for this stop (what to look at, from here). */
+  narration: z.string().trim().max(4000).default(""),
+});
+export type RouteStop = z.infer<typeof routeStopSchema>;
+
+/** The way from stop i to stop i+1. */
+export const routeLegSchema = z.object({
+  mode: z.enum(TRANSPORT_MODES),
+  /** Follow streets (walk/bike) instead of straight lines between `via`. */
+  snap: z.boolean().default(false),
+  /** Intermediate waypoints that shape the path, in order. */
+  via: z.array(lngLatSchema).max(MAX_VIA_PER_LEG).default([]),
+  /** The drawn line, stop to stop. Stored so viewing needs no router. */
+  path: z.array(lngLatSchema).min(2).max(MAX_PATH_POINTS_PER_LEG),
+  /** How to get there: "Cross the bridge and keep left…". */
+  directions: z.string().trim().max(2000).default(""),
+});
+export type RouteLeg = z.infer<typeof routeLegSchema>;
+
+/** A complete proposed state of a route. */
+export const routeDraftSchema = z
+  .object({
+    title: z.string().trim().min(2).max(100),
+    summary: z.string().trim().min(10).max(280),
+    /** Intro (markdown). */
+    body: z.string().trim().max(10_000).default(""),
+    stops: z.array(routeStopSchema).min(2).max(MAX_STOPS_PER_ROUTE),
+    legs: z.array(routeLegSchema),
+    photoIds: z
+      .array(z.string().min(1).max(40))
+      .max(MAX_PHOTOS_PER_PLACE)
+      .default([]),
+  })
+  .refine((r) => r.legs.length === r.stops.length - 1, {
+    message: "A route needs exactly one leg between each pair of stops",
+    path: ["legs"],
+  });
+export type RouteDraft = z.infer<typeof routeDraftSchema>;
+
+/** The draft-shaped subset of a stored route (for edits and diffs). */
+export const draftOfRoute = (r: RouteDraft): RouteDraft => ({
+  title: r.title,
+  summary: r.summary,
+  body: r.body ?? "",
+  stops: r.stops,
+  legs: r.legs,
+  photoIds: r.photoIds ?? [],
 });

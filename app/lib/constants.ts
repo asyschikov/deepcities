@@ -20,6 +20,49 @@ export type ContributionPolicy = (typeof CONTRIBUTION_POLICIES)[number];
 export const PLACE_STATUSES = ["published", "archived"] as const;
 export type PlaceStatus = (typeof PLACE_STATUSES)[number];
 
+/** What a proposal changes. */
+export const PROPOSAL_SUBJECTS = ["place", "route"] as const;
+export type ProposalSubject = (typeof PROPOSAL_SUBJECTS)[number];
+
+export const ROUTE_STATUSES = ["published", "archived"] as const;
+
+/** How you get from one route stop to the next. */
+export const TRANSPORT_MODES = [
+  "walk",
+  "bike",
+  "tram",
+  "bus",
+  "metro",
+  "ferry",
+  "train",
+] as const;
+export type TransportMode = (typeof TRANSPORT_MODES)[number];
+/** Modes the street router can snap to (OSM foot/bike profiles). */
+export const SNAPPABLE_MODES: readonly TransportMode[] = ["walk", "bike"];
+/** Rough average speeds (km/h) for time estimates, incl. waiting for transit. */
+export const MODE_SPEED_KMH: Record<TransportMode, number> = {
+  walk: 4.5,
+  bike: 14,
+  tram: 14,
+  bus: 16,
+  metro: 28,
+  ferry: 10,
+  train: 50,
+};
+/** Line colours per mode on the map. */
+export const MODE_COLORS: Record<TransportMode, string> = {
+  walk: "#c2410c",
+  bike: "#15803d",
+  tram: "#4338ca",
+  bus: "#0369a1",
+  metro: "#be123c",
+  ferry: "#0e7490",
+  train: "#57534e",
+};
+export const MAX_STOPS_PER_ROUTE = 30;
+export const MAX_VIA_PER_LEG = 25;
+export const MAX_PATH_POINTS_PER_LEG = 4000;
+
 export const PROPOSAL_KINDS = ["create", "edit", "archive"] as const;
 export type ProposalKind = (typeof PROPOSAL_KINDS)[number];
 
