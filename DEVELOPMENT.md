@@ -121,6 +121,14 @@ Wikipedia links) and the national register (monumentenregister.cultureelerfgoed.
 the `attributes` (status, numbers, build years, architect, year listed) come from the
 same monuments API. `scripts/data/amsterdam-fields.json` is the map's field schema.
 
+## Licences
+
+- **Code**: AGPL-3.0 ([LICENSE](LICENSE)).
+- **Content**: place text and data (titles, summaries, descriptions, attributes),
+  including `scripts/data/`, is CC BY-SA 4.0 ([LICENSE-CONTENT](LICENSE-CONTENT)).
+- **Photos** are not covered by either: each keeps its own credit and licence,
+  stored with the photo and shown under it.
+
 ## Deploying
 
 One environment: the live site, configured at the top level of `wrangler.jsonc`
