@@ -130,6 +130,23 @@ A map's content is written in its own language (`dc map` → `collection.languag
 - **Writing translations**: translate meaning, not word for word. Keep proper names and Dutch terms as they are in the original. Write as a native would for a curious local reader. Keep markdown structure. Don't add facts that aren't in the original; if the original is wrong, fix it first.
 - Machine translation is fine as a draft. Tell the user it is machine-made, so a native speaker can review it.
 
+## Documents (essays, biographies, guides)
+
+Documents are long-form Markdown with pictures that belong to a map. Each can be attached
+to the map's front panel ("Read about this map") and to places and routes ("Further
+reading"). Opening one highlights its places on the map. Only moderators+ write them.
+
+- Author them as files: `<dir>/NN-<slug>.md`, numbered so lists follow file order.
+  - Front matter: `title`, `summary` (≤400), `attach: {map: true, places: [exact titles], routes: [titles]}`, `photos` (cover first).
+  - Other languages go in `NN-<slug>.<lang>.md` next to it. Front matter holds only `title` and `summary`, and the body is written natively in that language.
+- Import with `pnpm dc doc-import <slug> <dir>` (`--dry-run` first). Titles are the key, and re-imports are no-ops when nothing changed.
+- Body dialect:
+  - `##`/`###` headings, bold/italic, lists, `>` quotes, `[text](https://…)`.
+  - `[text](place:Exact place title)`, where the target may contain spaces and brackets; an empty target means the link text is the title.
+  - `[text](doc:Exact document title)` links another document.
+  - Pictures go on their own line: `![Caption](commons:File:X.jpg)` (any `dc photo` source). No HTML, no tables.
+- `pnpm dc docs <slug> [--map|--place ID|--route ID]`, `dc doc <id>`, `dc doc-archive <id> --note`.
+
 ## Custom fields (map schema)
 
 - `pnpm dc fields <slug> <defs.json>` replaces the map's field list. Admin only. Keep the definitions in `scripts/data/<city>-fields.json`.

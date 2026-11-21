@@ -1,10 +1,14 @@
 import { z } from "zod/v4";
 import {
   CONTENT_LANGUAGES,
+  DOCUMENT_SUBJECTS,
   FIELD_TYPES,
+  MAX_ATTACHMENTS_PER_DOCUMENT,
+  MAX_DOCUMENT_BODY,
   MAX_FIELDS_PER_MAP,
   MAX_LINKS_PER_PLACE,
   MAX_PATH_POINTS_PER_LEG,
+  MAX_PHOTOS_PER_DOCUMENT,
   MAX_PHOTOS_PER_PLACE,
   MAX_STOPS_PER_ROUTE,
   MAX_VIA_PER_LEG,
@@ -296,3 +300,38 @@ export const draftOfRoute = (r: RouteDraft): RouteDraft => ({
   stops: r.stops.map((s) => ({ ...s, translations: s.translations ?? {} })),
   legs: r.legs.map((l) => ({ ...l, translations: l.translations ?? {} })),
 });
+
+// ─── Documents ──────────────────────────────────────────────────────
+
+export const documentAttachmentSchema = z.object({
+  subjectType: z.enum(DOCUMENT_SUBJECTS),
+  subjectId: idSchema,
+});
+export type DocumentAttachment = z.infer<typeof documentAttachmentSchema>;
+
+/** The editable state of a document. Every save stores one as a revision. */
+export const documentTranslationsSchema = translationsOf({
+  title: translatedText(120),
+  summary: translatedText(400),
+  body: translatedText(MAX_DOCUMENT_BODY),
+});
+export type DocumentTranslations = z.infer<typeof documentTranslationsSchema>;
+
+export const documentDraftSchema = z.object({
+  title: z.string().trim().min(2).max(120),
+  summary: z.string().trim().max(400).default(""),
+  /** Markdown. Inline pictures: `![caption](photo:<photoId>)`. */
+  body: z.string().trim().max(MAX_DOCUMENT_BODY),
+  /** All pictures the document uses (inline and gallery); first is the cover. */
+  photoIds: z
+    .array(z.string().min(1).max(40))
+    .max(MAX_PHOTOS_PER_DOCUMENT)
+    .default([]),
+  attachments: z
+    .array(documentAttachmentSchema)
+    .max(MAX_ATTACHMENTS_PER_DOCUMENT)
+    .default([]),
+  /** Title/summary/body in the map's other languages (pictures shared). */
+  translations: documentTranslationsSchema,
+});
+export type DocumentDraft = z.infer<typeof documentDraftSchema>;

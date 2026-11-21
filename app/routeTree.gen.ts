@@ -19,11 +19,14 @@ import { Route as MSlugIndexRouteImport } from './routes/m.$slug.index'
 import { Route as MSlugNewRouteImport } from './routes/m.$slug.new'
 import { Route as MSlugManageRouteImport } from './routes/m.$slug_.manage'
 import { Route as MSlugReviewRouteImport } from './routes/m.$slug_.review'
+import { Route as MSlugDDocIdRouteImport } from './routes/m.$slug.d.$docId'
 import { Route as MSlugPPlaceIdRouteImport } from './routes/m.$slug.p.$placeId'
 import { Route as MSlugRRouteIdRouteImport } from './routes/m.$slug.r.$routeId'
 import { Route as MSlugRNewRouteImport } from './routes/m.$slug.r.new'
+import { Route as MSlugDNewRouteImport } from './routes/m.$slug_.d.new'
 import { Route as MSlugPPlaceIdEditRouteImport } from './routes/m.$slug.p.$placeId.edit'
 import { Route as MSlugRRouteIdEditRouteImport } from './routes/m.$slug.r.$routeId.edit'
+import { Route as MSlugDDocIdEditRouteImport } from './routes/m.$slug_.d.$docId.edit'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -75,6 +78,11 @@ const MSlugReviewRoute = MSlugReviewRouteImport.update({
   path: '/m/$slug/review',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MSlugDDocIdRoute = MSlugDDocIdRouteImport.update({
+  id: '/d/$docId',
+  path: '/d/$docId',
+  getParentRoute: () => MSlugRoute,
+} as any)
 const MSlugPPlaceIdRoute = MSlugPPlaceIdRouteImport.update({
   id: '/p/$placeId',
   path: '/p/$placeId',
@@ -90,6 +98,11 @@ const MSlugRNewRoute = MSlugRNewRouteImport.update({
   path: '/r/new',
   getParentRoute: () => MSlugRoute,
 } as any)
+const MSlugDNewRoute = MSlugDNewRouteImport.update({
+  id: '/m/$slug_/d/new',
+  path: '/m/$slug/d/new',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MSlugPPlaceIdEditRoute = MSlugPPlaceIdEditRouteImport.update({
   id: '/edit',
   path: '/edit',
@@ -99,6 +112,11 @@ const MSlugRRouteIdEditRoute = MSlugRRouteIdEditRouteImport.update({
   id: '/edit',
   path: '/edit',
   getParentRoute: () => MSlugRRouteIdRoute,
+} as any)
+const MSlugDDocIdEditRoute = MSlugDDocIdEditRouteImport.update({
+  id: '/m/$slug_/d/$docId/edit',
+  path: '/m/$slug/d/$docId/edit',
+  getParentRoute: () => rootRouteImport,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -112,11 +130,14 @@ export interface FileRoutesByFullPath {
   '/m/$slug/manage': typeof MSlugManageRoute
   '/m/$slug/review': typeof MSlugReviewRoute
   '/m/$slug/': typeof MSlugIndexRoute
+  '/m/$slug/d/$docId': typeof MSlugDDocIdRoute
   '/m/$slug/p/$placeId': typeof MSlugPPlaceIdRouteWithChildren
   '/m/$slug/r/$routeId': typeof MSlugRRouteIdRouteWithChildren
   '/m/$slug/r/new': typeof MSlugRNewRoute
+  '/m/$slug/d/new': typeof MSlugDNewRoute
   '/m/$slug/p/$placeId/edit': typeof MSlugPPlaceIdEditRoute
   '/m/$slug/r/$routeId/edit': typeof MSlugRRouteIdEditRoute
+  '/m/$slug/d/$docId/edit': typeof MSlugDDocIdEditRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -128,11 +149,14 @@ export interface FileRoutesByTo {
   '/m/$slug/manage': typeof MSlugManageRoute
   '/m/$slug/review': typeof MSlugReviewRoute
   '/m/$slug': typeof MSlugIndexRoute
+  '/m/$slug/d/$docId': typeof MSlugDDocIdRoute
   '/m/$slug/p/$placeId': typeof MSlugPPlaceIdRouteWithChildren
   '/m/$slug/r/$routeId': typeof MSlugRRouteIdRouteWithChildren
   '/m/$slug/r/new': typeof MSlugRNewRoute
+  '/m/$slug/d/new': typeof MSlugDNewRoute
   '/m/$slug/p/$placeId/edit': typeof MSlugPPlaceIdEditRoute
   '/m/$slug/r/$routeId/edit': typeof MSlugRRouteIdEditRoute
+  '/m/$slug/d/$docId/edit': typeof MSlugDDocIdEditRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -146,11 +170,14 @@ export interface FileRoutesById {
   '/m/$slug_/manage': typeof MSlugManageRoute
   '/m/$slug_/review': typeof MSlugReviewRoute
   '/m/$slug/': typeof MSlugIndexRoute
+  '/m/$slug/d/$docId': typeof MSlugDDocIdRoute
   '/m/$slug/p/$placeId': typeof MSlugPPlaceIdRouteWithChildren
   '/m/$slug/r/$routeId': typeof MSlugRRouteIdRouteWithChildren
   '/m/$slug/r/new': typeof MSlugRNewRoute
+  '/m/$slug_/d/new': typeof MSlugDNewRoute
   '/m/$slug/p/$placeId/edit': typeof MSlugPPlaceIdEditRoute
   '/m/$slug/r/$routeId/edit': typeof MSlugRRouteIdEditRoute
+  '/m/$slug_/d/$docId/edit': typeof MSlugDDocIdEditRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -165,11 +192,14 @@ export interface FileRouteTypes {
     | '/m/$slug/manage'
     | '/m/$slug/review'
     | '/m/$slug/'
+    | '/m/$slug/d/$docId'
     | '/m/$slug/p/$placeId'
     | '/m/$slug/r/$routeId'
     | '/m/$slug/r/new'
+    | '/m/$slug/d/new'
     | '/m/$slug/p/$placeId/edit'
     | '/m/$slug/r/$routeId/edit'
+    | '/m/$slug/d/$docId/edit'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -181,11 +211,14 @@ export interface FileRouteTypes {
     | '/m/$slug/manage'
     | '/m/$slug/review'
     | '/m/$slug'
+    | '/m/$slug/d/$docId'
     | '/m/$slug/p/$placeId'
     | '/m/$slug/r/$routeId'
     | '/m/$slug/r/new'
+    | '/m/$slug/d/new'
     | '/m/$slug/p/$placeId/edit'
     | '/m/$slug/r/$routeId/edit'
+    | '/m/$slug/d/$docId/edit'
   id:
     | '__root__'
     | '/'
@@ -198,11 +231,14 @@ export interface FileRouteTypes {
     | '/m/$slug_/manage'
     | '/m/$slug_/review'
     | '/m/$slug/'
+    | '/m/$slug/d/$docId'
     | '/m/$slug/p/$placeId'
     | '/m/$slug/r/$routeId'
     | '/m/$slug/r/new'
+    | '/m/$slug_/d/new'
     | '/m/$slug/p/$placeId/edit'
     | '/m/$slug/r/$routeId/edit'
+    | '/m/$slug_/d/$docId/edit'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -214,6 +250,8 @@ export interface RootRouteChildren {
   ApiTrpcSplatRoute: typeof ApiTrpcSplatRoute
   MSlugManageRoute: typeof MSlugManageRoute
   MSlugReviewRoute: typeof MSlugReviewRoute
+  MSlugDNewRoute: typeof MSlugDNewRoute
+  MSlugDDocIdEditRoute: typeof MSlugDDocIdEditRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -288,6 +326,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MSlugReviewRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/m/$slug/d/$docId': {
+      id: '/m/$slug/d/$docId'
+      path: '/d/$docId'
+      fullPath: '/m/$slug/d/$docId'
+      preLoaderRoute: typeof MSlugDDocIdRouteImport
+      parentRoute: typeof MSlugRoute
+    }
     '/m/$slug/p/$placeId': {
       id: '/m/$slug/p/$placeId'
       path: '/p/$placeId'
@@ -309,6 +354,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MSlugRNewRouteImport
       parentRoute: typeof MSlugRoute
     }
+    '/m/$slug_/d/new': {
+      id: '/m/$slug_/d/new'
+      path: '/m/$slug/d/new'
+      fullPath: '/m/$slug/d/new'
+      preLoaderRoute: typeof MSlugDNewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/m/$slug/p/$placeId/edit': {
       id: '/m/$slug/p/$placeId/edit'
       path: '/edit'
@@ -322,6 +374,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/m/$slug/r/$routeId/edit'
       preLoaderRoute: typeof MSlugRRouteIdEditRouteImport
       parentRoute: typeof MSlugRRouteIdRoute
+    }
+    '/m/$slug_/d/$docId/edit': {
+      id: '/m/$slug_/d/$docId/edit'
+      path: '/m/$slug/d/$docId/edit'
+      fullPath: '/m/$slug/d/$docId/edit'
+      preLoaderRoute: typeof MSlugDDocIdEditRouteImport
+      parentRoute: typeof rootRouteImport
     }
   }
 }
@@ -353,6 +412,7 @@ const MSlugRRouteIdRouteWithChildren = MSlugRRouteIdRoute._addFileChildren(
 interface MSlugRouteChildren {
   MSlugNewRoute: typeof MSlugNewRoute
   MSlugIndexRoute: typeof MSlugIndexRoute
+  MSlugDDocIdRoute: typeof MSlugDDocIdRoute
   MSlugPPlaceIdRoute: typeof MSlugPPlaceIdRouteWithChildren
   MSlugRRouteIdRoute: typeof MSlugRRouteIdRouteWithChildren
   MSlugRNewRoute: typeof MSlugRNewRoute
@@ -361,6 +421,7 @@ interface MSlugRouteChildren {
 const MSlugRouteChildren: MSlugRouteChildren = {
   MSlugNewRoute: MSlugNewRoute,
   MSlugIndexRoute: MSlugIndexRoute,
+  MSlugDDocIdRoute: MSlugDDocIdRoute,
   MSlugPPlaceIdRoute: MSlugPPlaceIdRouteWithChildren,
   MSlugRRouteIdRoute: MSlugRRouteIdRouteWithChildren,
   MSlugRNewRoute: MSlugRNewRoute,
@@ -377,6 +438,8 @@ const rootRouteChildren: RootRouteChildren = {
   ApiTrpcSplatRoute: ApiTrpcSplatRoute,
   MSlugManageRoute: MSlugManageRoute,
   MSlugReviewRoute: MSlugReviewRoute,
+  MSlugDNewRoute: MSlugDNewRoute,
+  MSlugDDocIdEditRoute: MSlugDDocIdEditRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,7 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ClipboardCheck, Inbox, Plus, Search, Settings } from "lucide-react";
+import {
+  ClipboardCheck,
+  FilePlus,
+  Inbox,
+  Plus,
+  Search,
+  Settings,
+} from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { DocumentList } from "~/components/DocumentList";
 import { RatingBadge } from "~/components/RatingStars";
 import { RoleBadge } from "~/components/RoleBadge";
 import { RoutesPanel } from "~/components/RoutesPanel";
@@ -98,6 +106,13 @@ const MapIndex = () => {
               </Link>
             </Button>
           )}
+          {can.review && (
+            <Button asChild size="sm" variant="ghost">
+              <Link to="/m/$slug/d/new" params={{ slug }}>
+                <FilePlus /> {t("map_new_document")}
+              </Link>
+            </Button>
+          )}
           {can.manage && (
             <Button asChild size="sm" variant="ghost">
               <Link to="/m/$slug/manage" params={{ slug }}>
@@ -107,6 +122,15 @@ const MapIndex = () => {
           )}
         </div>
       </div>
+
+      <DocumentList
+        slug={slug}
+        collectionId={collection.id}
+        subjectType="collection"
+        subjectId={collection.id}
+        title={t("map_documents")}
+        className="border-b p-4"
+      />
 
       <div className="flex border-b" role="tablist">
         {(["places", "routes"] as const).map((key) => (

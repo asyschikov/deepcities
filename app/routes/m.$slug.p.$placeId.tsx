@@ -21,6 +21,7 @@ import {
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { DocumentList } from "~/components/DocumentList";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
@@ -222,9 +223,17 @@ const PlacePage = () => {
       />
       {place.body && (
         <div className="space-y-3 text-sm leading-relaxed text-foreground/85">
-          <MarkdownView content={place.body} />
+          <MarkdownView content={place.body} slug={slug} />
         </div>
       )}
+
+      <DocumentList
+        slug={slug}
+        collectionId={place.collectionId}
+        subjectType="place"
+        subjectId={place.id}
+        title={t("place_further_reading")}
+      />
 
       {(place.address || place.links.length > 0) && (
         <div className="space-y-2 rounded-lg bg-muted/60 p-3 text-sm">

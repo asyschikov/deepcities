@@ -69,7 +69,7 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   (`{ nl: { title?, summary?, body? } }`; place `attributes` for text fields;
   `narration` / `directions` on stops / legs). Map texts and labels live in
   `collection.translations` (title, tagline, description, category labels, field
-  labels, help and select-option labels; option *values* stay in the base
+  labels, help and select-option labels; option _values_ stay in the base
   language). Anything untranslated falls back to the original, per field.
   `app/lib/content-lang.ts` (`localize`, `localizePlace`, `localizeRoute`,
   `localizeCollection`) resolves this on the client; the map layout provides
@@ -83,6 +83,14 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   Approved proposals are the place's history. Proposals record `baseRevision`, so
   reviewers are warned when the place changed after an edit was suggested.
 - `photo`, `rating` (1–5, one per user per place), `collection_member` (role per map).
+- `document` — long-form markdown with pictures (essays, biographies, background) that
+  belongs to a map. `document_attachment` shows it on subjects: the map itself
+  (`collection`), places and routes (`subject_type` + `subject_id`, no foreign key, so
+  new subject types need no migration). Moderators+ write documents directly; every save
+  is a `document_revision` snapshot (the history). Pictures are ordinary `photo` rows:
+  inline as `![caption](photo:<id>)`, the rest of `photoIds` forms the cover and gallery.
+  Links inside any markdown may target `place:<id>` and `doc:<id>`. The dialect is
+  parsed in `app/lib/markdown.ts` (unit-tested) and rendered by `MarkdownView`.
 
 ## Roles
 
@@ -142,6 +150,22 @@ the CLI computes leg paths (street routing for walk/bike).
 
 Pass drafts as files or stdin: `pnpm` re-parses inline arguments through a shell, so
 inline JSON with apostrophes or parentheses breaks.
+
+Documents are Markdown files with YAML front matter (`title`, `summary`,
+`attach: {map, places, routes}`, `photos`), imported by title:
+
+```bash
+pnpm dc doc-import amsterdamse-school research/ams-school/documents/   # dir or files
+pnpm dc docs amsterdamse-school --map
+```
+
+Translations sit next to a file as `<name>.<lang>.md` (front matter: `title`, `summary`)
+and are stored as the document's `translations`. Files are created in file order,
+which is the order lists show, so number them (`01-introduction.md`).
+
+Picture lines in the body may use any photo source (`![c](commons:File:…)`, a URL or a
+local path) and `[text](place:)` / `[text](doc:)` links resolve by title; uploads are
+cached in `~/.config/deep-cities/photo-cache.json`, so re-imports are no-ops.
 
 `import --upsert` updates places whose title already exists (no-op edits are skipped,
 so it is safe to re-run after editing the data file).

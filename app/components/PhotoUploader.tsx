@@ -13,10 +13,13 @@ export const PhotoUploader = ({
   collectionId,
   value,
   onChange,
+  max = MAX_PHOTOS_PER_PLACE,
 }: {
   collectionId: string;
   value: string[];
   onChange: (ids: string[]) => void;
+  /** Most photos allowed (places: 8). */
+  max?: number;
 }) => {
   const { t } = useTranslation();
   const trpc = useTRPC();
@@ -26,10 +29,9 @@ export const PhotoUploader = ({
   const upload = useMutation(trpc.photo.upload.mutationOptions());
 
   const addFiles = async (files: File[]) => {
-    const room = MAX_PHOTOS_PER_PLACE - value.length;
+    const room = max - value.length;
     const picked = files.slice(0, room);
-    if (files.length > room)
-      toast.warning(t("photos_limit", { max: MAX_PHOTOS_PER_PLACE }));
+    if (files.length > room) toast.warning(t("photos_limit", { max }));
     setBusy((b) => b + picked.length);
     const ids = await Promise.all(
       picked.map(async (file) => {
@@ -111,7 +113,7 @@ export const PhotoUploader = ({
             <Loader2 className="size-5 animate-spin text-muted-foreground" />
           </div>
         ))}
-        {value.length + busy < MAX_PHOTOS_PER_PLACE && (
+        {value.length + busy < max && (
           <button
             type="button"
             onClick={() => inputRef.current?.click()}

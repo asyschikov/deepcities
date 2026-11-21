@@ -142,3 +142,21 @@ export const CATEGORY_COLORS = [
   "#0369a1",
   "#57534e",
 ] as const;
+
+// ─── Documents (long-form markdown + pictures attached to map objects) ─
+
+export const DOCUMENT_STATUSES = ["published", "archived"] as const;
+export type DocumentStatus = (typeof DOCUMENT_STATUSES)[number];
+
+/**
+ * What a document can be attached to. `collection` is the map as a whole
+ * (shown on the map's front panel); the subject id is then the collection id.
+ */
+export const DOCUMENT_SUBJECTS = ["collection", "place", "route"] as const;
+export type DocumentSubject = (typeof DOCUMENT_SUBJECTS)[number];
+
+export const MAX_DOCUMENT_BODY = 60_000;
+export const MAX_PHOTOS_PER_DOCUMENT = 40;
+export const MAX_ATTACHMENTS_PER_DOCUMENT = 200;
+export const DOCUMENT_ACTIONS = ["created", "edited", "archived"] as const;
+export type DocumentAction = (typeof DOCUMENT_ACTIONS)[number];

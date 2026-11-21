@@ -11,6 +11,9 @@ import {
 import {
   CONTRIBUTION_POLICIES,
   type ContentLang,
+  DOCUMENT_ACTIONS,
+  DOCUMENT_STATUSES,
+  DOCUMENT_SUBJECTS,
   GLOBAL_ROLES,
   MEMBER_ROLES,
   PLACE_STATUSES,
@@ -23,6 +26,7 @@ import type {
   Attributes,
   CategoryDef,
   CollectionTranslations,
+  DocumentDraft,
   FieldDef,
   PlaceDraft,
   PlaceTranslations,
@@ -390,3 +394,118 @@ export const proposalRelations = relations(proposal, ({ one }) => ({
     relationName: "proposal_reviewer",
   }),
 }));
+
+// ─── Documents ──────────────────────────────────────────────────────
+
+/**
+ * Long-form markdown with pictures (essays, biographies, background) that
+ * belongs to a map and can be attached to the map itself, its places and
+ * routes. Moderators+ edit documents directly; every save is kept in
+ * `document_revision`.
+ */
+export const document = sqliteTable(
+  "document",
+  {
+    id: text("id").primaryKey(),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    status: text("status", { enum: DOCUMENT_STATUSES })
+      .notNull()
+      .default("published"),
+    revision: integer("revision").notNull().default(1),
+    title: text("title").notNull(),
+    summary: text("summary").notNull().default(""),
+    body: text("body").notNull().default(""),
+    photoIds: text("photo_ids", { mode: "json" }).$type<string[]>().notNull(),
+    translations: text("translations", { mode: "json" })
+      .$type<DocumentDraft["translations"]>()
+      .notNull()
+      .default({}),
+    createdBy: text("created_by").references(() => profile.id, {
+      onDelete: "set null",
+    }),
+    updatedBy: text("updated_by").references(() => profile.id, {
+      onDelete: "set null",
+    }),
+    createdAt: createdAt(),
+    updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
+  },
+  (t) => [index("document_collection_idx").on(t.collectionId, t.status)],
+);
+
+/**
+ * Where a document is shown. Polymorphic (`subjectType` + `subjectId`), so
+ * there is no foreign key to the subject; deleting a subject leaves a dangling
+ * row that readers ignore.
+ */
+export const documentAttachment = sqliteTable(
+  "document_attachment",
+  {
+    documentId: text("document_id")
+      .notNull()
+      .references(() => document.id, { onDelete: "cascade" }),
+    subjectType: text("subject_type", { enum: DOCUMENT_SUBJECTS }).notNull(),
+    subjectId: text("subject_id").notNull(),
+    /** Order of the subject within the document's attachment list. */
+    position: integer("position").notNull().default(0),
+  },
+  (t) => [
+    primaryKey({ columns: [t.documentId, t.subjectType, t.subjectId] }),
+    index("document_attachment_subject_idx").on(t.subjectType, t.subjectId),
+  ],
+);
+
+/** Snapshot of a document after each save (its history). */
+export const documentRevision = sqliteTable(
+  "document_revision",
+  {
+    id: text("id").primaryKey(),
+    documentId: text("document_id")
+      .notNull()
+      .references(() => document.id, { onDelete: "cascade" }),
+    revision: integer("revision").notNull(),
+    /** What happened: created, edited or archived. */
+    action: text("action", { enum: DOCUMENT_ACTIONS }).notNull(),
+    draft: text("draft", { mode: "json" }).$type<DocumentDraft>().notNull(),
+    note: text("note"),
+    editedBy: text("edited_by").references(() => profile.id, {
+      onDelete: "set null",
+    }),
+    createdAt: createdAt(),
+  },
+  (t) => [index("document_revision_doc_idx").on(t.documentId, t.revision)],
+);
+
+export const documentRelations = relations(document, ({ one, many }) => ({
+  collection: one(collection, {
+    fields: [document.collectionId],
+    references: [collection.id],
+  }),
+  attachments: many(documentAttachment),
+  revisions: many(documentRevision),
+}));
+
+export const documentAttachmentRelations = relations(
+  documentAttachment,
+  ({ one }) => ({
+    document: one(document, {
+      fields: [documentAttachment.documentId],
+      references: [document.id],
+    }),
+  }),
+);
+
+export const documentRevisionRelations = relations(
+  documentRevision,
+  ({ one }) => ({
+    document: one(document, {
+      fields: [documentRevision.documentId],
+      references: [document.id],
+    }),
+    editor: one(profile, {
+      fields: [documentRevision.editedBy],
+      references: [profile.id],
+    }),
+  }),
+);

@@ -12,6 +12,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
+import { DOC_HELP, makeDocCommands } from "./dc-docs.ts";
 
 const DEFAULT_URL = "https://deep-cities.bookverse-app.workers.dev";
 const CONFIG_PATH = join(homedir(), ".config", "deep-cities", "config.json");
@@ -877,7 +878,7 @@ const commands: Record<
   (pos: string[], flags: Record<string, string>) => Promise<unknown>
 > = {
   help: async () => {
-    process.stdout.write(HELP);
+    process.stdout.write(HELP + DOC_HELP);
     return undefined;
   },
   schema: async () => SCHEMA,
@@ -1293,6 +1294,17 @@ const commands: Record<
       routeId: need(routeId, "<routeId>"),
       note: need(flags.note, "--note"),
     }),
+
+  ...makeDocCommands({
+    url: config.url,
+    query,
+    mutate,
+    collectionOf,
+    uploadPhoto,
+    fail: (message, code) => {
+      throw new CliError(message, code);
+    },
+  }),
 
   queue: async ([slug], flags) => {
     const { collection } = await collectionOf(need(slug, "<slug>"));

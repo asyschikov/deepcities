@@ -13,6 +13,7 @@ import { ArrowLeft, Clock, Flag, MapPin, Pencil } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { DocumentList } from "~/components/DocumentList";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
 import {
@@ -244,7 +245,7 @@ const RoutePage = () => {
       <p className="text-[15px] leading-relaxed">{route.summary}</p>
       {route.body && (
         <div className="space-y-3 text-sm leading-relaxed text-foreground/85">
-          <MarkdownView content={route.body} />
+          <MarkdownView content={route.body} slug={slug} />
         </div>
       )}
 
@@ -297,7 +298,7 @@ const RoutePage = () => {
                   )}
                   {s.narration && (
                     <div className="space-y-2 text-sm leading-relaxed text-foreground/85">
-                      <MarkdownView content={s.narration} />
+                      <MarkdownView content={s.narration} slug={slug} />
                     </div>
                   )}
                 </div>
@@ -369,6 +370,15 @@ const RoutePage = () => {
           )}
         </section>
       )}
+
+      <DocumentList
+        slug={slug}
+        collectionId={route.collectionId}
+        subjectType="route"
+        subjectId={route.id}
+        title={t("place_further_reading")}
+        className="border-t pt-4"
+      />
 
       <section className="space-y-2 border-t pt-4">
         <h2 className="font-sans text-sm font-semibold">
