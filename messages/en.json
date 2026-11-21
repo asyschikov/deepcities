@@ -402,5 +402,9 @@
   "doc_archive_title": "Archive this document?",
   "doc_archive_desc": "It disappears from the map and its places but stays in the history. Say why.",
   "doc_archived_toast": "Document archived",
-  "doc_on_routes": "Routes"
+  "doc_on_routes": "Routes",
+  "docs_show_all": "Show all {{count}}",
+  "docs_show_less": "Show fewer",
+  "doc_fullscreen": "Read full screen",
+  "doc_fullscreen_exit": "Exit full screen"
 }
