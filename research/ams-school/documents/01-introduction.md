@@ -2,6 +2,16 @@
 title: The Amsterdam School
 summary: An introduction to the Amsterdam School, the brick expressionism that reshaped Amsterdam between about 1911 and 1940. It covers where the style came from, how it got its name, the magazine Wendingen, the city as client, the phases this map uses, and why the style faded after Michel de Klerk's death in 1923.
 attach:
+  routes:
+    - "Het Schip and the Spaarndammerbuurt"
+    - "De Dageraad and the workers' palaces of Plan Zuid"
+    - "Piet Kramer's bridges in the canal ring"
+    - "The city builds: bathhouses, schools and pumping stations"
+    - "Plan West: Mercatorplein and the Baarsjes"
+    - "Villas and town houses of Oud-Zuid"
+    - "Across the IJ to the garden villages"
+    - "Watergraafsmeer bridges and Betondorp"
+    - "Shipping offices, shops and cinemas in the old centre"
   map: true
   places:
     - Scheepvaarthuis

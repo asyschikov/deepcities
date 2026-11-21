@@ -2,6 +2,9 @@
 title: Jewish Amsterdam in the Amsterdam School districts
 summary: Between the wars many Jewish Amsterdammers left the old Jewish quarter for new brick districts in Oost and Zuid. Jewish architects helped shape them. During the occupation the same streets became places of persecution and deportation. This document covers the move, the buildings and the people.
 attach:
+  routes:
+    - "De Dageraad and the workers' palaces of Plan Zuid"
+    - "The city builds: bathhouses, schools and pumping stations"
   map: true
   places:
     - Uilenburg housing block (Jo Mulder)

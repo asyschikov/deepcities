@@ -2,6 +2,9 @@
 title: Piet Kramer and the bridges of Amsterdam
 summary: From 1917 to 1952 Piet Kramer designed Amsterdam's bridges for the city's Public Works department, and some 220 were built. Hildo Krop carved their sculpture. The bridges run from the lavish 1920s showpieces to the plain post-war culverts.
 attach:
+  routes:
+    - "Piet Kramer's bridges in the canal ring"
+    - "Watergraafsmeer bridges and Betondorp"
   map: true
   places:
     - "Brug 283 (Waalseilandbrug)"

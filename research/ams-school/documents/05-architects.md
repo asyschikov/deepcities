@@ -2,6 +2,9 @@
 title: Architects of the Amsterdam School
 summary: Beyond De Klerk and Kramer, a whole generation built the Amsterdam School. This guide has short portraits of seventeen of them, from Jo van der Mey and Margaret Staal-Kropholler to the housing specialists Gulden & Geldmaker, with links to their buildings on the map.
 attach:
+  routes:
+    - "Villas and town houses of Oud-Zuid"
+    - "Shipping offices, shops and cinemas in the old centre"
   map: true
   places:
     - "Scheepvaarthuis"

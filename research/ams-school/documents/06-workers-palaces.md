@@ -2,6 +2,10 @@
 title: "Workers' palaces: housing associations and the Housing Act"
 summary: How a 1901 law, a crowd of housing associations and a socialist city council turned Amsterdam School brick into homes for working families, and who drew what behind the famous façades.
 attach:
+  routes:
+    - "Het Schip and the Spaarndammerbuurt"
+    - "De Dageraad and the workers' palaces of Plan Zuid"
+    - "Plan West: Mercatorplein and the Baarsjes"
   map: true
   places:
     - Het Schip

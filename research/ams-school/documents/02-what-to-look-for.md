@@ -2,6 +2,10 @@
 title: What to look for
 summary: A field guide to the Amsterdam School on the street. Learn to read the brick bonds and joints, undulating walls, towers, ladder windows, vertical roof tiles, lettering, sculpture, ironwork, glass and doors, tell the expressive phase from the sober one, and decode the labels used in the monument registers.
 attach:
+  routes:
+    - "Plan West: Mercatorplein and the Baarsjes"
+    - "Villas and town houses of Oud-Zuid"
+    - "Shipping offices, shops and cinemas in the old centre"
   map: true
   places:
     - Het Schip

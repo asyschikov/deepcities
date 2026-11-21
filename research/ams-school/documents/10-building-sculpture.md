@@ -2,6 +2,9 @@
 title: Hildo Krop and building sculpture
 summary: In the Amsterdam School, sculpture was carved into the building itself. This is the story of Hildo Krop, the baker's son who became Amsterdam's city sculptor, and of the workshop and fellow artists around him, from the Scheepvaarthuis to the Vierwindstrekenbrug.
 attach:
+  routes:
+    - "Piet Kramer's bridges in the canal ring"
+    - "De Dageraad and the workers' palaces of Plan Zuid"
   map: true
   places:
     - Scheepvaarthuis

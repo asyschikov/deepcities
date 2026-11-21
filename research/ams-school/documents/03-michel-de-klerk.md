@@ -2,6 +2,9 @@
 title: Michel de Klerk (1884–1923)
 summary: A diamond cutter's son from the Jewish quarter who became the most gifted designer of the Amsterdam School. He built Het Schip and, with Piet Kramer, De Dageraad, and he died at 39.
 attach:
+  routes:
+    - "Het Schip and the Spaarndammerbuurt"
+    - "De Dageraad and the workers' palaces of Plan Zuid"
   map: true
   places:
     - Het Schip

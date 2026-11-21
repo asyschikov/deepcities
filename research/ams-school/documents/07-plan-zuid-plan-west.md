@@ -2,6 +2,9 @@
 title: Plan Zuid and Plan West
 summary: Berlage's Plan Zuid and the committee-made Plan West gave the Amsterdam School its streets and squares. How the plans came about, how façades were controlled, and where to see the seams, from the Amstelkanaal bridges to the Surinameplein.
 attach:
+  routes:
+    - "De Dageraad and the workers' palaces of Plan Zuid"
+    - "Plan West: Mercatorplein and the Baarsjes"
   map: true
   places:
     - De Dageraad

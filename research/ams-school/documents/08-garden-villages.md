@@ -2,6 +2,9 @@
 title: Garden villages and Betondorp
 summary: Not every Amsterdam School home is a brick block. In Noord and the Watergraafsmeer the city built low garden villages for shipyard workers and others, with their own bathhouses, reading rooms and schools, and tested concrete when bricks ran short.
 attach:
+  routes:
+    - "Across the IJ to the garden villages"
+    - "Watergraafsmeer bridges and Betondorp"
   map: true
   places:
     - Tuindorp Oostzaan civic buildings

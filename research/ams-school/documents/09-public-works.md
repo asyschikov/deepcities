@@ -2,6 +2,9 @@
 title: "The city builds: Public Works schools, bathhouses and utilities"
 summary: Amsterdam's own Public Works department designed many of the city's Amsterdam School buildings, including schools, round public bathhouses, pumping stations, police posts, a labour exchange and a telephone exchange. This is the story of the department, its architects and the civic programme behind it.
 attach:
+  routes:
+    - "The city builds: bathhouses, schools and pumping stations"
+    - "Across the IJ to the garden villages"
   map: true
   places:
     - Arbeidsbeurs (Passeerdersgracht)
