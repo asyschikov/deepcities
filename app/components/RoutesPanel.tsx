@@ -30,7 +30,16 @@ export const RoutesPanel = () => {
 
   const overlay = useMemo<MapOverlay>(
     () => ({
-      lines: routes.flatMap((r) => legLines(r.id, r.legs, { opacity: 0.7 })),
+      lines: routes.flatMap((r) =>
+        legLines(r.id, r.legs, {
+          opacity: 0.7,
+          onClick: () =>
+            navigate({
+              to: "/m/$slug/r/$routeId",
+              params: { slug, routeId: r.id },
+            }),
+        }),
+      ),
       pins: routes.map((r) => {
         const first = r.stops[0];
         return {

@@ -46,10 +46,18 @@ export const STOP_COLOR = "#1c1917";
 export const legLines = (
   routeId: string,
   legs: Pick<RouteLeg, "mode" | "path">[],
-  opts: { opacity?: number; width?: number; activeLeg?: number | null } = {},
+  opts: {
+    opacity?: number;
+    width?: number;
+    activeLeg?: number | null;
+    /** Clicking any leg (e.g. open the route). */
+    onClick?: () => void;
+  } = {},
 ): MapLine[] =>
   legs.map((l, i) => ({
     id: `${routeId}:${i}`,
+    group: routeId,
+    onClick: opts.onClick,
     coords: l.path,
     color: MODE_COLORS[l.mode],
     width: opts.activeLeg === i ? 7 : (opts.width ?? 5),

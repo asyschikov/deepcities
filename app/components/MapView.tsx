@@ -1,4 +1,9 @@
-import type { LineLayerSpecification, Marker, Map as MlMap } from "maplibre-gl";
+import type {
+  ExpressionSpecification,
+  LineLayerSpecification,
+  Marker,
+  Map as MlMap,
+} from "maplibre-gl";
 // Emit the worker as an asset and point MapLibre at it explicitly; its own
 // import.meta.url lookup breaks once Vite bundles the library.
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
@@ -30,6 +35,13 @@ export interface MapLine {
   width?: number;
   opacity?: number;
   dashed?: boolean;
+  /**
+   * Lines sharing a group (e.g. one route's legs) highlight together on
+   * hover and share the click.
+   */
+  group?: string;
+  /** Makes the line clickable (with a wide, invisible hit area). */
+  onClick?: () => void;
 }
 
 /** A route overlay pin: a numbered stop or a path waypoint. */
@@ -115,12 +127,15 @@ const areaLabelsGeoJson = (areas: MapArea[]) => ({
 });
 
 const LINES_SOURCE = "dc-lines";
+const LINES_HIT_LAYER = "dc-lines-hit";
 const linesGeoJson = (lines: MapLine[]) => ({
   type: "FeatureCollection" as const,
   features: lines.map((l) => ({
     type: "Feature" as const,
-    id: l.id,
     properties: {
+      lineId: l.id,
+      group: l.group ?? l.id,
+      clickable: Boolean(l.onClick),
       color: l.color,
       width: l.width ?? 4,
       opacity: l.opacity ?? 0.9,
@@ -170,6 +185,10 @@ export const MapView = ({
   draftRef.current = draft;
   const onMapClickRef = useRef(onMapClick);
   onMapClickRef.current = onMapClick;
+  const linesRef = useRef(lines);
+  linesRef.current = lines;
+  /** The line group under the pointer, highlighted. */
+  const hoveredGroup = useRef<string | null>(null);
   const pinsRef = useRef(
     new Map<string, { marker: Marker; el: HTMLElement }>(),
   );
@@ -211,6 +230,18 @@ export const MapView = ({
         });
       });
       map.on("click", (e) => {
+        // A clickable route line takes the click (unless placing a pin).
+        if (map && !draftRef.current && map.getLayer(LINES_HIT_LAYER)) {
+          const hit = map.queryRenderedFeatures(e.point, {
+            layers: [LINES_HIT_LAYER],
+          })[0];
+          const id = hit?.properties?.lineId;
+          const line = linesRef.current?.find((l) => l.id === id);
+          if (line?.onClick) {
+            line.onClick();
+            return;
+          }
+        }
         const p = { lat: e.lngLat.lat, lng: e.lngLat.lng };
         if (draftRef.current) draftRef.current.onChange(p);
         else onMapClickRef.current?.(p);
@@ -270,11 +301,22 @@ export const MapView = ({
         map.addSource(LINES_SOURCE, {
           type: "geojson",
           data: linesGeoJson([]),
+          promoteId: "lineId",
         });
+        const hovered: ExpressionSpecification = [
+          "boolean",
+          ["feature-state", "hover"],
+          false,
+        ];
         const paint: LineLayerSpecification["paint"] = {
           "line-color": ["get", "color"],
-          "line-width": ["get", "width"],
-          "line-opacity": ["get", "opacity"],
+          "line-width": [
+            "case",
+            hovered,
+            ["+", ["get", "width"], 3],
+            ["get", "width"],
+          ],
+          "line-opacity": ["case", hovered, 1, ["get", "opacity"]],
         };
         const layout = { "line-cap": "round", "line-join": "round" } as const;
         map.addLayer({
@@ -292,6 +334,41 @@ export const MapView = ({
           filter: ["==", ["get", "dashed"], true],
           layout: { "line-join": "round" },
           paint: { ...paint, "line-dasharray": [1.5, 1.5] },
+        });
+        // Wide, nearly invisible copy of clickable lines: easy to hit,
+        // also with a finger. (Fully transparent features aren't queryable.)
+        map.addLayer({
+          id: LINES_HIT_LAYER,
+          type: "line",
+          source: LINES_SOURCE,
+          filter: ["==", ["get", "clickable"], true],
+          layout,
+          paint: { "line-width": 18, "line-opacity": 0.01 },
+        });
+        const m = map;
+        const setGroupHover = (group: string | null) => {
+          if (hoveredGroup.current === group) return;
+          for (const g of [hoveredGroup.current, group]) {
+            if (!g) continue;
+            for (const l of linesRef.current ?? []) {
+              if ((l.group ?? l.id) === g)
+                m.setFeatureState(
+                  { source: LINES_SOURCE, id: l.id },
+                  { hover: g === group },
+                );
+            }
+          }
+          hoveredGroup.current = group;
+        };
+        m.on("mousemove", LINES_HIT_LAYER, (e) => {
+          if (draftRef.current) return;
+          const group = e.features?.[0]?.properties?.group;
+          setGroupHover(typeof group === "string" ? group : null);
+          m.getCanvas().style.cursor = "pointer";
+        });
+        m.on("mouseleave", LINES_HIT_LAYER, () => {
+          setGroupHover(null);
+          if (!draftRef.current) m.getCanvas().style.cursor = "";
         });
         setStyleReady(true);
       });
@@ -451,6 +528,8 @@ export const MapView = ({
         linesGeoJson(lines ?? []),
       );
     }
+    // New data drops feature state; forget the stale hover.
+    hoveredGroup.current = null;
   }, [styleReady, lines]);
 
   // Route pins (stops and waypoints).
