@@ -102,6 +102,7 @@ def build(r, known):
             legs.append(leg)
     out = {
         "title": r["title"],
+        "mode": mode if mode in ("walk", "bike") else "walk",  # the route's main mode
         "summary": r["summary"].strip(),
         "body": r["body"].strip(),
         "stops": stops,
