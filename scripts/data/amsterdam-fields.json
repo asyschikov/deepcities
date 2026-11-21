@@ -22,12 +22,26 @@
     "type": "text",
     "help": "Year or range, e.g. 1955–1956."
   },
-  { "key": "architect", "label": "Architect", "type": "text" },
+  {
+    "key": "architect",
+    "label": "Architect",
+    "type": "text"
+  },
   {
     "key": "listed",
     "label": "Listed in",
     "type": "number",
     "help": "Year it was designated a monument."
   },
-  { "key": "original_use", "label": "Original use", "type": "text" }
+  {
+    "key": "original_use",
+    "label": "Original use",
+    "type": "text"
+  },
+  {
+    "key": "artist",
+    "label": "Artist",
+    "type": "text",
+    "help": "Who made the mural or artwork."
+  }
 ]

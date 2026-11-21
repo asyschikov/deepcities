@@ -60,6 +60,11 @@ MAP SCHEMA (map admins)
   dc fields <slug> <defs.json|->           replace the map's custom place fields with a
                                            JSON array of field definitions (see \`dc schema\`);
                                            existing keys must stay (hide, don't delete)
+  dc settings <slug> <json|->              change map settings: title, tagline,
+                                           description, city, centerLat, centerLng, zoom,
+                                           contributionPolicy, categories (full array of
+                                           {key, label, color}; keys used by places stay);
+                                           keys left out are kept
   dc languages <slug> <json|->             content languages: {"language": "en",
                                            "languages": ["nl"], "translations": {"nl":
                                            {title, tagline, description, categories:
@@ -1034,19 +1039,48 @@ const commands: Record<
       categories: c.categories,
       contributionPolicy: c.contributionPolicy,
       fields,
+      language: c.language,
+      languages: c.languages,
+      translations: c.translations,
     });
     return { ok: true, fields };
   },
 
-  areas: async ([city]) => query("area.tree", { city: need(city, "<city>") }),
-
-  "areas-import": async ([arg]) => {
-    const input = readJsonArg(need(arg, "<file.json>"));
-    return mutate("area.import", {
-      city: input.city,
-      source: input.source ?? null,
-      areas: input.areas,
+  /** Change a map's general settings (admins); keys left out are kept. */
+  settings: async ([slug, arg]) => {
+    const input = readJsonArg(need(arg, "<settings.json>"));
+    const keys = [
+      "title",
+      "tagline",
+      "description",
+      "city",
+      "centerLat",
+      "centerLng",
+      "zoom",
+      "categories",
+      "contributionPolicy",
+    ];
+    const bad = Object.keys(input).filter((k) => !keys.includes(k));
+    if (bad.length)
+      throw new CliError(
+        `Unknown keys: ${bad.join(", ")} (expected ${keys.join(", ")})`,
+        "BAD_JSON",
+      );
+    const { collection: c } = (await query("collection.bySlug", {
+      slug: need(slug, "<slug>"),
+    })) as { collection: Obj & { id: string } };
+    const settings = Object.fromEntries(
+      keys.map((k) => [k, k in input ? input[k] : c[k]]),
+    );
+    // Pass the language settings through: they are part of the same update.
+    await mutate("collection.updateSettings", {
+      collectionId: c.id,
+      ...settings,
+      language: c.language,
+      languages: c.languages,
+      translations: c.translations,
     });
+    return { ok: true, ...settings };
   },
 
   /** Set a map's content languages and translated map texts (admins). */

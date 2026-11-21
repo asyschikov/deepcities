@@ -1,0 +1,70 @@
+# C-list map settings (snapshot of the live map; categories and fields for drafts)
+slug: amsterdam-c-list
+categories:
+- key: religious
+  label: Churches
+  color: '#7c3aed'
+- key: schools
+  label: Schools
+  color: '#2563eb'
+- key: housing
+  label: Housing
+  color: '#b45309'
+- key: civic
+  label: Civic buildings
+  color: '#0f766e'
+- key: industrial
+  label: Industrial heritage
+  color: '#57534e'
+- key: infrastructure
+  label: Bridges & infrastructure
+  color: '#0369a1'
+- key: hidden-history
+  label: Hidden history
+  color: '#4338ca'
+- key: curiosities
+  label: Curiosities
+  color: '#be185d'
+- key: street-art
+  label: Murals & street art
+  color: '#ea580c'
+- key: odd-museums
+  label: Odd museums
+  color: '#a21caf'
+- key: food-drink
+  label: Food & drink
+  color: '#be123c'
+- key: green
+  label: Green escapes
+  color: '#15803d'
+fields:
+- key: heritage_status
+  label: Heritage status
+  type: select
+  options:
+  - National monument
+  - Municipal monument
+  - National + municipal monument
+  help: 'Official listing: rijksmonument (national) and/or gemeentelijk monument (municipal).'
+- key: monument_number
+  label: Monument number
+  type: text
+  help: Register number(s), comma-separated.
+- key: built
+  label: Built
+  type: text
+  help: Year or range, e.g. 1955–1956.
+- key: architect
+  label: Architect
+  type: text
+- key: listed
+  label: Listed in
+  type: number
+  help: Year it was designated a monument.
+- key: original_use
+  label: Original use
+  type: text
+- key: artist
+  label: Artist
+  type: text
+  help: Who made the mural or artwork.

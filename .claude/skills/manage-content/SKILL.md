@@ -78,7 +78,7 @@ a shell, so inline JSON with apostrophes or parentheses breaks.
 - **Area hierarchy**, coarse to fine. In Amsterdam this is gemeente / stadsdeel / gebied / wijk:
   - Derive it from official boundaries; don't guess.
   - The data file uses the long-established names. Check other places on the map with `dc places` and match their spelling exactly.
-- **Category**: one of the map's keys. If nothing fits, tell the user rather than misfiling. Adding categories is a map setting, done in the UI.
+- **Category**: one of the map's keys. If nothing fits, tell the user rather than misfiling. Categories are a map setting: change them in the UI or with `pnpm dc settings <slug> settings.json` (admins; send the full `categories` array).
 - **Attributes**: only keys from `dc map` → `fields`, with the right types (`number` must be a JSON number; `select` must exactly match an option). Leave a key out when the value is unknown.
 - **Links**: ≤6. Prefer official registers, then Wikipedia and Wikidata. Give each a distinct label; if two would share a label, add the number.
 - **Photos**: ≤8, the first is the cover.

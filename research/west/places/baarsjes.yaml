@@ -1,0 +1,1921 @@
+# De Baarsjes (Chassébuurt, Geuzenbuurt, Hoofdweg e.o., Van Galenbuurt, Westindische Buurt).
+# Part 1: 29 monument places (every monument in the slice, merged into ensembles; see notes/baarsjes.md).
+# Part 2: 12 non-monument C-list places. Dutch texts are spliced from the Dutch sources listed per place.
+
+# ================================================================ Part 1: monuments
+
+- title: Westerwijk
+  summary: Ferdinand Jantzen's first building, a 1926 Reformed community house with flats above, a library in the basement and a Frank Lloyd Wright-style hall hidden in the garden.
+  body: |
+    Three years before his Jeruzalemkerk, the young architect Ferdinand Jantzen designed this *wijkgebouw* (neighbourhood house) for the Dutch Reformed congregation of Sloterdijk, which had to serve the thousands of newcomers in the brand-new Baarsjes. The street block held a meeting hall, rooms for Sunday school and youth clubs, a doctor's room and a lending library in the basement, with flats on the upper floors. Jantzen lived at no. 152 himself.
+
+    Behind the front, half sunk into the garden, is an auditorium for about 350 people. The city register sees two architectures in one building: Amsterdam School on the street, and the low, horizontal manner of Frank Lloyd Wright in the garden hall. Original window frames, colourful leaded glass and an electric wall clock survive inside. A Christian community, still called Westerwijk, uses the building, and its halls are rented to neighbourhood groups such as the food bank.
+
+    Look for:
+    - the brown-brick front with a stepped-back middle section and taller side bays
+    - the dark stone base that meanders around the triple entrance
+    - WESTERWIJK in bronze-coloured wrought letters above the middle door
+  category: religious
+  lat: 52.37405
+  lng: 4.858979
+  address: Admiraal de Ruijterweg 148-152
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/ffe7a1ac-16ea-4dee-bece-cadb1256ee56" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Westerwijk_(Amsterdam)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q24073966" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200676"
+    built: 1925–1926
+    architect: F.B. Jantzen
+    listed: 2013
+    original_use: Church community centre with flats
+  photos:
+    - commons:File:Westerwijk, overzicht.jpg
+    - commons:File:Admiraal de Ruijterweg 148-152 (1).jpg
+  sources:
+    - city:200676 (register text)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Westerwijk)
+    - https://nl.wikipedia.org/wiki/Westerwijk_(Amsterdam)
+  nl:
+    title: Westerwijk
+    summary: Het wijkgebouw 'Westerwijk' van de Nederlands Hervormde Gemeente te Sloterdijk (1925-1926), een van de eerste ontwerpen van F.B. Jantzen, met bovenwoningen en een deels in de tuin verzonken gehoorzaal.
+    body: |
+      Het wijkgebouw 'Westerwijk' van de Nederlands Hervormde Gemeente te Sloterdijk met bovenwoningen is in 1925-1926 gebouwd naar ontwerp van architect F.B. Jantzen F.Gzn. Het complex bestaat uit een hoofdgebouw met verenigingsruimten en bovenwoningen dat zich qua bouwhoogte voegt in de straatwand, en een eenlaags, deels in de tuin verzonken achterbouw haaks daarop, waarin de gehoorzaal met ongeveer 350 zitplaatsen is ondergebracht. 'Westerwijk' omvatte onder andere een recreatiezaal voor wijkvergaderingen, ruimten voor het jeugdwerk en de zondagsschool, en een dokterskamer. In de kelder was een bibliotheek ondergebracht.
+
+      Dit is een van de eerste gebouwen van Ferdinand B. Jantzen (1895-1987), die zich ook in dit gebouw vestigde (op nr. 152). Het voorgebouw aan de straat toont een meer Amsterdamse Schoolachtige opbouw en vormgeving, terwijl de gehoorzaal in de tuin eerder beïnvloed is door het werk van Frank Lloyd Wright. In de woningen op de bovenverdiepingen huist een christelijke woongroep die tevens Westerwijk heet; de twee zalen worden ook verhuurd aan derden, waaronder de Voedselbank.
+
+      Let op:
+      - de voorgevel in bruine baksteen met een iets teruggezette middenpartij, geflankeerd door het hoger opgetrokken muurwerk van de zijtraveeën
+      - de donkergrijze natuurstenen pui (syeniet), die om de driedelige entree meandert
+      - de bronskleurige siersmeedletters 'Westerwijk' op de middelste latei
+    attributes:
+      original_use: Kerkelijk wijkgebouw met bovenwoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/ffe7a1ac-16ea-4dee-bece-cadb1256ee56
+      - https://nl.wikipedia.org/wiki/Westerwijk_(Amsterdam)
+
+- title: Geuzenhof
+  summary: A 1930s block of 580 flats around a shared garden that was Mien Ruys's very first design for a housing estate – with storage on the ground floor, a shower in every flat and a war-year plaque on the corner.
+  body: |
+    The builder-developer H. van Saane wanted good homes at fair rents and looked to Frankfurt and Vienna for ideas. On the Willem de Zwijgerlaan he built the Geuzenhof in two phases: the northern block by J. Dunnebier (1933–1935, 484 flats and four corner shops) and, after a pause for lack of money, the southern block by J.F. Berghoef with Dunnebier (1939–1940). It followed Cornelis van Eesteren's 1930 street plan for this corner of the city.
+
+    Van Saane experimented. The storerooms went to the ground floor instead of the attic, every flat had its own shower, and central heating came from one boiler house. A clever double staircase in each porch saved space. Behind the walls lies a communal garden, the first housing project by the landscape architect Mien Ruys (1935). It had lawns, rose beds, a pond, play areas and even an aviary. Wide galleries along the back gave children a dry place to play. The residents founded their own club, *Wonen en Werken* (Living and Working), with a monthly magazine.
+
+    Look for:
+    - Dunnebier's yellow-brick walls with chimneys set diagonally on the façade, and GEUZENHOF in bronze letters on the west side
+    - Berghoef's taller, more monumental southern part with white-framed bays and diamond-cut brackets under the cornice
+    - the plaque on the Admiraal de Ruijterweg corner: a mother nursing a child, sailing ships, an archer and "Gebouwd in het Oorlogsjaar 1940"
+    - the gates in the short ends, with a glimpse of the Ruys garden
+  category: housing
+  lat: 52.372563
+  lng: 4.864137
+  address: Willem de Zwijgerlaan, Adriaan van Bergenstraat 1-8, Admiraal de Ruijterweg 28-36, Korte Geuzenstraat 5-11
+  links:
+    - { label: Monumentenregister Amsterdam (200722), url: "https://data.amsterdam.nl/monumenten/4c8db1fa-ecb4-4405-8e91-e2624afa04ee" }
+    - { label: Monumentenregister Amsterdam (200723), url: "https://data.amsterdam.nl/monumenten/65f3c4a2-bd2b-4500-ac8f-55a2ca7500ca" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: 200722, 200723
+    built: 1933–1935, 1939–1940
+    architect: J. Dunnebier; J.F. Berghoef (southern part); garden by Mien Ruys
+    listed: 2014
+    original_use: Housing with shops and a residents' club house
+  photos:
+    - commons:File:Geuzenhof, Amsterdam, 2024.jpg
+    - commons:File:Geuzenhof, Amsterdam, 1935.jpg
+    - commons:File:Geuzenhof, Treppeneingang, 2024.jpg
+    - commons:File:Admiraal de Ruijterweg 28-36 (1).jpg
+  sources:
+    - city:200722, city:200723 (register texts)
+  nl:
+    title: Geuzenhof
+    summary: Wooncomplex uit 1933-1935 en 1939-1940 van J. Dunnebier en J.F. Berghoef voor aannemer-ontwikkelaar H. van Saane, rond een gemeenschappelijke tuin – het eerste woningbouwontwerp van Mien Ruys.
+    body: |
+      De 'Geuzenhof' is gebouwd in 1933-1935 en 1939-1940 als wooncomplex voor middenstanders en arbeiders, in opdracht van de particuliere aannemer-ontwikkelaar H. van Saane. Hij deed daarvoor inspiratie op in Frankfurt en Wenen. Het noordelijke deel naar ontwerp van J. Dunnebier bevat 484 etagewoningen en vier winkels. Nieuw voor die tijd was Van Saanes ingreep om de bergingen niet op zolder, maar op de begane grond onder te brengen. Elke woning kreeg een eigen douche; verwarming ontleenden de woningen aan een centrale installatie. Het deel dat als 'Landlust II' door Berghoef is ontworpen, bevat 96 etagewoningen en een verenigingsgebouw aan de Korte Geuzenstraat; het is architectonisch rijker en monumentaler uitgewerkt dan het eerder gerealiseerde deel van Dunnebier.
+
+      De tuin van de Geuzenhof is de eerste bemoeienis van Mien Ruys (1904-1999) met een woningbouwproject. De tuin is aangelegd in 1935 in architectonische stijl, met veel speelvoorzieningen voor kinderen, zitgelegenheid voor volwassenen, rozenperken, vijver en zelfs een volière. Ruys schreef: 'Deze gemeenschappelijke tuinen kunnen vooral in arbeiderswijken een grote sociale verbetering brengen.'
+
+      Let op:
+      - de gevels in gele baksteen met overhoeks geplaatste en vooruitstekende schoorstenen en flinke houten overstekken
+      - bij Berghoef de witte omkaderingen rond de erkers, de hoge, getoogde portieken en een daklijst met diamant gesneden klossen
+      - de plaquette op de hoek met de Admiraal de Ruyterweg: een vrouw die een kind zoogt, een 16e-eeuws zeilschip, een jonge boogschutter en de tekst 'Gebouwd in het Oorlogsjaar 1940'
+    attributes:
+      architect: J. Dunnebier; J.F. Berghoef (zuidelijk deel); tuin Mien Ruys
+      original_use: Etagewoningen met winkels en een verenigingsgebouw
+    sources:
+      - https://data.amsterdam.nl/monumenten/4c8db1fa-ecb4-4405-8e91-e2624afa04ee
+      - https://data.amsterdam.nl/monumenten/65f3c4a2-bd2b-4500-ac8f-55a2ca7500ca
+
+- title: Oranjehof
+  summary: An eight-storey block of small flats for single women, built in the middle of the war and named defiantly after the House of Orange, with "Dum spiro spero" – while I breathe, I hope – carved into the façade.
+  body: |
+    The developer H. van Saane, who had just finished the Geuzenhof next door, commissioned this tower for *alleenstaande vrouwen* (single working women) in 1941. It held 108 small one- and two-room flats plus 28 boarding rooms and guest rooms, with a dining room, a lounge, a shop, a laundry, a bicycle store, lifts, a rubbish chute and telephone and radio connections. Right after the war it was held up, also abroad, as a model for housing single women. Today it contains owner-occupied flats.
+
+    It was the first building by the architect couple Joop Pot and Koos Pot-Keegstra. She was the first woman to graduate from the Amsterdam architecture school (Hooger Bouwkunst Onderricht), and the pair went on to become important housing architects in post-war Amsterdam. The design joins the clear volumes of the Nieuwe Bouwen (Dutch modernism) to traditional brick and a little ornament. The name and the Latin mottos on the front and back – *Domum parvam sed meam* (a small house, but mine) and *Dum spiro spero* (while I breathe, I hope) – were a quiet statement under German occupation.
+
+    Look for:
+    - the tall, symmetrical slab of pale yellow brick in stack bond, with the top floor set back
+    - the low entrance building with ORANJEHOF in small bronze letters, an old lantern and the year 1942 in relief above the cornice
+    - access galleries on a visible concrete frame on the north-west side, with some original steel windows
+  category: housing
+  lat: 52.370581
+  lng: 4.864938
+  address: Korte Geuzenstraat 98-700, Admiraal de Ruijterweg 26
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c10c6d70-e7c0-42a4-acf0-90d10d467b2f" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200728"
+    built: 1941–1942
+    architect: J.W.H.C. Pot and J.F. Pot-Keegstra
+    listed: 2013
+    original_use: Flats and boarding rooms for single women
+  photos:
+    - commons:File:2022 Oranjehof, Asd.jpg
+    - commons:File:Admiraal de Ruijterweg 26 (1).jpg
+  sources:
+    - city:200728 (register text; text gives 1941–1942, register metadata 1943–1945)
+  nl:
+    title: Oranjehof
+    summary: Woongebouw voor alleenstaande vrouwen uit 1941-1942, het eerste werk van J.F. Pot-Keegstra en J.W.H.C. Pot, met in de gevel 'Dum spiro spero' (zolang ik leef, hoop ik).
+    body: |
+      De 'Oranjehof' is gebouwd in 1941-1942 als woongebouw voor alleenstaande vrouwen, in opdracht van de particuliere aannemer en ontwikkelaar H. van Saane. Het woongebouw omvatte oorspronkelijk 108 kleine comfortabele flats met één of twee kamers, logeerkamers voor gasten en 28 pensionkamers. Er was een eetzaal, een conversatiezaal, een winkel, een wasserij, een rijwielstalling, centrale vuilnisafvoer, telefoon- en radioaansluiting en liften. Direct na de oorlog gold het project, ook internationaal, als een voorbeeld van huisvesting voor alleenstaande vrouwen.
+
+      De naam van het project verwees naar de oorlogsjaren, evenals de inscripties in de achter- en voorgevel: Domum parvam sed meam (een klein huis, maar het mijne) en vooral Dum spiro spero (zolang ik leef, hoop ik). Ontwerpster J.F. Pot-Keegstra (1908) werd aan het Hooger Bouwkunst Onderricht de eerste vrouwelijke afgestudeerde architect. Het ontwerp verbindt de idealen van het Nieuwe Bouwen aan het gebruik van een historische woningtypologie en de toepassing van ornament.
+
+      Let op:
+      - het symmetrische hoofdvolume van acht bouwlagen in zeer lichtbruine tot gele baksteen in staand verband, met een verder teruggelegen bovenste laag
+      - het veel kleinere entree- en voorzieningengebouw van twee bouwlagen
+      - de galerijen aan de noordwestzijde, aan weerszijden van het vooruitstekende trappenhuis en lifthuis
+    attributes:
+      architect: J.F. Pot-Keegstra en J.W.H.C. Pot
+      original_use: Woongebouw voor alleenstaande vrouwen
+    sources:
+      - https://data.amsterdam.nl/monumenten/c10c6d70-e7c0-42a4-acf0-90d10d467b2f
+
+- title: Drukkerij Senefelder
+  summary: A 1910 printing works with a statue of Aloys Senefelder, the Bavarian who invented lithography, standing in a granite niche above the door – and the firm's name still cut out in iron on the roof.
+  body: |
+    In 1910 the Amsterdam printing firm Senefelder left its premises on the Looiersgracht because the new offset presses needed far more room than the old lithographic stones. The architects J.W.F. Hartkamp jr. and P.H. van Niftrik built it this factory on the Admiraal de Ruijterweg, then still in the municipality of Sloten. The firm was not named after its founder but after Aloys Senefelder, who invented lithography in Bavaria in 1796. The printing works stayed here until well into the second half of the 20th century and later merged into Henkes Senefelder in Purmerend.
+
+    Hartkamp was a pupil of Berlage, and it shows: plain brown brick, heavy granite lintels and sills, and a façade that looks symmetrical at first but follows the different rooms behind it. Small corner towers give the industrial building an almost medieval air. A supermarket now fills part of the ground floor, and people live in the rest.
+
+    Look for:
+    - the statue of Senefelder under a granite canopy above the arched main entrance, with ALOYS SENEFELDER beneath it
+    - the iron plates with the cut-out words DRUKKERIJ and SENEFELDER between the pinnacles on the south corner
+    - double bands of yellow brick and big wooden dormers in the steep slate roof
+  category: industrial
+  lat: 52.371224
+  lng: 4.862038
+  address: Admiraal de Ruijterweg 56
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/3f2b12a1-42cc-4855-b501-95dc0a4e967a" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200675"
+    built: "1910"
+    architect: J.W.F. Hartkamp jr. and P.H. van Niftrik
+    listed: 2013
+    original_use: Printing works with offices
+  photos:
+    - commons:File:Admiraal de Ruijterweg 56, Aloys Senefelder, Drukkerij pic1.JPG
+    - commons:File:Aloys Senefelder (beeld).jpg
+    - commons:File:Admiraal de Ruijterweg 56, Aloys Senefelder, Drukkerij pic3.JPG
+  sources:
+    - city:200675 (register text)
+  nl:
+    title: Drukkerij Senefelder
+    summary: Bedrijfsgebouw uit 1910 van J.W.F. Hartkamp jr. en P.H. van Niftrik voor Drukkerij Senefelder, met het beeld van Aloys Senefelder, de uitvinder van de steendruk, tegen de voorgevel.
+    body: |
+      Het pand is gebouwd in 1910 als bedrijfsgebouw voor Drukkerij Senefelder, naar ontwerp van de architecten J.W.F. Hartkamp jr. en P.H. van Niftrik. De drukkerij was oorspronkelijk gevestigd aan de Looiersgracht, maar moest door de invoering van een nieuwe druktechniek, waarbij de steendrukpers vervangen werd door de offsetpers, een groter onderkomen zoeken. Sinds een aantal jaren is op de begane grond in de noordwestelijke helft een supermarkt gevestigd, terwijl in het zuidoostelijke gedeelte gewoond wordt.
+
+      Drukkerij Senefelder is niet genoemd naar de oprichter van het bedrijf, maar naar Aloys Senefelder, een graficus uit Beieren, die in 1796 de lithografie of steendruk uitvond. Het is dan ook zijn beeld dat tegen de voorgevel staat. Hartkamp was een leerling van H.P. Berlage, en invloeden van diens architectuur zijn duidelijk terug te vinden: de door de ruimte-indeling bepaalde asymmetrische gevelcompositie en het gebruik van baksteen afgewisseld met forse granieten elementen.
+
+      Let op:
+      - het beeld van Senefelder boven de hoofdingang
+      - de uitgezaagde letters in twee ijzeren borden bovenop de zuidelijke hoek: 'DRUKKERIJ' 'SENEFELDER'
+      - de veelal dubbele horizontale banden in gele verblendsteen en de torenachtige bekroningen op de hoektraveeën
+    attributes:
+      original_use: Drukkerij met opslag- en kantoorruimtes
+    sources:
+      - https://data.amsterdam.nl/monumenten/3f2b12a1-42cc-4855-b501-95dc0a4e967a
+
+- title: Former police post and fire station, Baarsjesweg
+  summary: The little village police post of Sloten, with a cell, a constable's flat and a fire-engine shed – a step-gabled survivor from the days when the Baarsjes was a hamlet outside Amsterdam.
+  body: |
+    Until 1921 everything west of the Kostverlorenvaart belonged to the rural municipality of Sloten. Around 1910 Sloten's public works department built this combined police post and *brandspuitbergplaats* (fire-engine shed) for the hamlet of De Baarsjes, right on the border with Amsterdam. It had a cell on the ground floor and a flat for the *veldwachter* (village constable) upstairs. The fire engine left after the annexation, but the police stayed for some time. It is now a house.
+
+    The anonymous designer chose Dutch neo-Renaissance, a style that looked back to the Golden Age and was already old-fashioned by then. With the low workers' houses of the Slatuinenweg around the corner, it is one of the last traces of the old hamlet. Its twin in spirit is the tiny police post on the village square of Sloten, said to be the smallest in the Netherlands.
+
+    Look for:
+    - two step gables with stone copings and a brick pinnacle
+    - the large round-arched double door where the fire engine came out
+    - bars in front of the window on the garden side, a reminder of the cell
+    - an iron electricity cabinet from the 1920s or 1930s by the west door
+  category: civic
+  lat: 52.369155
+  lng: 4.863648
+  address: Baarsjesweg 136
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c8a47078-4267-4d0c-8365-de0a65bd5c7d" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/De_Baarsjes_(buurtschap)" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200678"
+    built: c. 1910
+    architect: Gemeentewerken Sloten
+    listed: 2013
+    original_use: Police post, constable's house and fire-engine shed
+  photos:
+    - commons:File:2022 Baarsjesweg 136, Asd (1).jpg
+    - commons:File:Baarsjesweg, hoek Slatuinenweg.JPG
+  sources:
+    - city:200678 (register text says c. 1910; register metadata gives 1928)
+    - https://nl.wikipedia.org/wiki/De_Baarsjes_(buurtschap)
+  nl:
+    title: Voormalige politiepost en brandspuitbergplaats Baarsjesweg
+    summary: Politiepost en brandspuitbergplaats van het buurtschap De Baarsjes in de gemeente Sloten (rond 1910), in Hollandse neorenaissance – een van de laatste overblijfselen van het oude buurtschap.
+    body: |
+      Het pand is rond 1910 gebouwd als politiepost en brandspuitbergplaats van het buurtschap De Baarsjes in de gemeente Sloten, naar ontwerp van de plaatselijke dienst Gemeentewerken. Het gebouw bevatte ook een cel en een veldwachterswoning op de verdieping. De functie van brandspuitbergplaats verviel met de annexatie, maar de functie van politiepost bleef nog een tijd gehandhaafd. Tegenwoordig is het pand in gebruik als woonhuis.
+
+      Het is uitgevoerd in de stijl van de Hollandse neorenaissance, die verwijst naar de bloeiperiode van de Republiek in de vroege zeventiende eeuw. Het gebouw getuigt van de zelfstandige status die de gemeente Sloten lange tijd had en vindt zijn tegenhanger in de kleinste politiepost van Nederland aan het dorpsplein in Sloten. Van de oude buurtschap zijn alleen nog een aantal oude arbeiderswoningen langs de Slatuinenweg overgebleven, alsmede het politieposthuis op de hoek van de Baarsjesweg en de Slatuinenweg.
+
+      Let op:
+      - de trapgevels met geprofileerde dekstukken van natuursteen en in de top een gemetselde pinakel op een console
+      - de tralies voor het venster in de noordwestgevel en de grote garagedeur in de oostgevel
+      - de gepleisterde speklagen en de aanzet- en sluitstenen boven de vensters
+    attributes:
+      architect: Gemeentewerken Sloten
+      original_use: Politiepost met veldwachterswoning en brandspuitbergplaats
+    sources:
+      - https://data.amsterdam.nl/monumenten/c8a47078-4267-4d0c-8365-de0a65bd5c7d
+      - https://nl.wikipedia.org/wiki/De_Baarsjes_(buurtschap)
+
+- title: Bethelkerk and Magalhaensplein
+  summary: A "little town" on the Magalhaensplein – a 1929 Reformed church with a steep tent roof, its church hall, a former police post and health centre, and a school – stepping up towards one roof turret.
+  body: |
+    Each denomination claimed its corner of Plan West: the Dutch Reformed built the Jeruzalemkerk, the Catholics the Chassékerk, and the stricter *Gereformeerden* (Reformed) this Bethelkerk. Architect E.A.C. Roest first built a church hall on the Cabotstraat (1925–1926) and then the church itself (1928–1929). Around it the city's Public Works department added a police post with an office of the GG&GD (municipal health service) on the Magalhaensplein (1928), and J.H. van der Veen a Christian school on the Willem Schoutenstraat (1931–1933).
+
+    The register calls the result a *klein stadje* (little town) or intimate *hofje*. Seen from the square, the one-storey gabled buildings step up to the two-storey church hall with its mansard roof and then to the church, whose steep tent roof and 12-metre turret are expressive in the manner of Michel de Klerk. The church is now used by an evangelical congregation.
+
+    Look for:
+    - the tent roof and roof turret rising above the red-tiled roofscape
+    - square dormers cutting through the church's eaves
+    - the symmetrical former police and health-centre front closing off the Magalhaensplein
+    - Van der Veen's school with projecting steel-framed upper windows
+  category: religious
+  lat: 52.367974
+  lng: 4.854867
+  address: Vasco da Gamastraat 35, Cabotstraat 33-37, Magalhaensplein 2, Willem Schoutenstraat 6-12
+  links:
+    - { label: Monumentenregister Amsterdam (200679), url: "https://data.amsterdam.nl/monumenten/baa97141-dc98-44fe-a5aa-9269db133df8" }
+    - { label: Monumentenregister Amsterdam (200680), url: "https://data.amsterdam.nl/monumenten/efcfa2f6-303b-42c7-bd7b-6a3b438f2f6f" }
+    - { label: Monumentenregister Amsterdam (200686), url: "https://data.amsterdam.nl/monumenten/e88b8cf4-d1f9-4dbb-8a46-93607575ff02" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q118170598" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: 200679, 200680, 200686
+    built: 1925–1933
+    architect: E.A.C. Roest (church, church hall); Dienst Publieke Werken (police post); J.H. van der Veen (school)
+    listed: 2013
+    original_use: Church, church hall, police post with health centre, school
+  photos:
+    - commons:File:Magalhaensplein (Asd-W).jpg
+    - commons:File:Beth-el (Maranatha).jpg
+  sources:
+    - city:200679, city:200680, city:200686 (register texts)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Bethelkerk and Magalhaensplein)
+  nl:
+    title: Bethelkerk en Magalhaensplein
+    summary: Een opmerkelijk 'klein stadje' aan het Magalhaensplein – gereformeerde kerk, kerkelijk vergadercentrum, politiepost met GG en GD en een school uit 1925-1933, trapsgewijs oplopend naar de kerk met dakruiter.
+    body: |
+      De Bethelkerk verving een noodkerkje aan de Haarlemmerweg en is de gereformeerde tegenhanger van de hervormde Jeruzalemkerk aan de Jan Maijenstraat en de katholieke Chassékerk aan de Chasséstraat. In 1928 werd de bouw naar ontwerp van architect E.A.C. Roest aanbesteed, in 1929 was de bouw voltooid. In overleg tussen de dienst Publieke Werken en Roest werd de kerkbouw onderdeel van een groter complex: Roest ontwierp het wijkgebouw aan de Cabotstraat (1925-1926), Publieke Werken het politiebureau annex een vestiging van de GG en GD (1927-1928) en J.H. van der Veen de school aan de Willem Schoutenstraat (1931-1933). De kerk wordt nog steeds door de Pinkstergemeente gebruikt, onder de naam Maranathakerk.
+
+      Het bouwblok is een opmerkelijk 'klein stadje' dat weliswaar uit diverse afzonderlijk ontworpen bouwdelen bestaat, maar die met elkaar een harmonieus en evenwichtig totaalbeeld vormen. Vanaf het Magalhaensplein vormt het blok welhaast een hofje dat culmineert in de boven de diverse gebouwen uitstekende kerk met dakruiter.
+
+      Let op:
+      - het verspringende daklandschap met rode pannen, met aan het plein slechts één bouwlaag onder zadeldaken
+      - het kerkelijk vergadercentrum met twee bouwlagen en een mansardekap
+      - bij de school de lage benedenramen en naar voren springende hoge bovenlichten met horizontaalroeden
+    attributes:
+      architect: E.A.C. Roest (kerk, wijkgebouw); Dienst Publieke Werken (politiepost); J.H. van der Veen (school)
+      original_use: Kerk, kerkelijk wijkgebouw, politiepost met GG en GD, school
+    sources:
+      - https://data.amsterdam.nl/monumenten/baa97141-dc98-44fe-a5aa-9269db133df8
+      - https://data.amsterdam.nl/monumenten/efcfa2f6-303b-42c7-bd7b-6a3b438f2f6f
+      - https://data.amsterdam.nl/monumenten/e88b8cf4-d1f9-4dbb-8a46-93607575ff02
+
+- title: Cabralschool
+  summary: A 1924 double school that runs right through a housing block from street to street, with blind brick ends and two square towers – the city calls the arrangement unique in Amsterdam.
+  body: |
+    The Public Works department designed this double *gangschool* (corridor school) in 1924 and placed it across a housing block, so that it links the Cabralstraat with the Marco Polostraat and opens up both ends of the block. Each school had its own entrance at one end, they shared a gym, and fire doors separated the two halves. The city register calls this way of piercing a block unique in Amsterdam.
+
+    The building later went to a Catholic parish and was split into several schools. After years of vacancy and squatting it was renovated from 2013 and now houses a business centre for creative firms called MidWest. Its style mixes Amsterdam School with cubist touches: red brick for the base and door surrounds, yellow brick above, and large, almost closed brick surfaces.
+
+    Look for:
+    - the two tall square towers at the west end, local landmarks
+    - ladder-shaped windows above the doors, between bulging brick panels
+    - small wavy piers on the corners of the south façade
+    - the original door on the Marco Polostraat side
+  category: schools
+  lat: 52.369672
+  lng: 4.854714
+  address: Cabralstraat 1, Marco Polostraat 191
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/2d0d009f-719a-4aac-b35d-c0c8e979ab8e" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Cabralstraat_1" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q29108161" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200681"
+    built: 1924–1926
+    architect: Dienst Publieke Werken
+    listed: 2013
+    original_use: Two elementary schools
+  photos:
+    - commons:File:Cabralstraat - De Wissel lagere school.jpg
+  sources:
+    - city:200681 (register text)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Cabralschool)
+  nl:
+    title: Cabralschool
+    summary: Dubbele school van Publieke Werken uit 1924, ingeklemd tussen de woonblokken van Cabralstraat en Marco Polostraat, met twee hoge torens en zoveel baksteen dat een krant in 1926 aan de Chinese Muur dacht.
+    body: |
+      Het schoolgebouw is in 1924 ontworpen door de dienst Publieke Werken als dubbele corridorschool met veertien lokalen, per school dus zeven schoollokalen met daarbij een gemeenschappelijke gymnastiekzaal. Aanvankelijk waren beide scholen van elkaar gescheiden door branddeuren. Slechts zelden werd bekend gemaakt welke architect het ontwerp gemaakt had, al doet het ontwerp de hand van P.L. Marnette vermoeden. Het unieke van dit schoolgebouw is dat de zijgevels als voorgevels dienen; de stedenbouwkundige invoeging waarbij de kopse kanten van het blok geopend worden is uniek voor Amsterdam.
+
+      Er is zodanig veel baksteen te zien, dat het Algemeen Handelsblad van 19 maart 1926 zich afvroeg of men de ramen vergeten was en het vergeleek met de Chinese Muur. In 1937 werd het gebouw verkocht aan het rooms-katholieke kerkbestuur van Sint-Augustinus. Aan het eind van de 20e eeuw kwam het leeg te staan en werd het getroffen door vandalisme en krakers; na een verbouwing werd het een bedrijfsverzamelgebouw onder de naam MidWest.
+
+      Let op:
+      - de twee hoge, rechthoekige torens aan de westzijde, belangrijke blikvangers
+      - de ladderramen boven de deuren, met bolvormige muurdelen aan weerszijden
+      - de kleine golfvormige, bol- en holrond gevormde muurdammen op de hoeken van de zuidgevel
+    attributes:
+      original_use: Twee lagere scholen
+    sources:
+      - https://data.amsterdam.nl/monumenten/2d0d009f-719a-4aac-b35d-c0c8e979ab8e
+      - https://nl.wikipedia.org/wiki/Cabralstraat_1
+
+- title: Columbusplein housing (Noorlander)
+  summary: The housing walls around the Columbusplein, designed by Willem Noorlander in 1923–1925 for Plan West and now being added to the city's monument list.
+  body: |
+    The Columbusplein is one of the small squares that break up the street grid of Plan West, named like its neighbours after explorers. The working-class housing around it was designed by Willem Noorlander and built in 1923–1925. Noorlander's varied Amsterdam work includes two villas on the Meeuwenlaan in Noord (1912), the Theater Ceintuurbaan (1921) and a housing complex for the Rochdale housing association in Oud-West (1913–1915), which the city's description of that monument links to this one.
+
+    The city has started the procedure to make the ensemble a municipal monument; at the time of writing it is "in procedure" and no official description has been published yet. The square is also the setting of the Visserschool by Commer de Geus and of the De Baarsjes 4 May memorial.
+
+    Look for:
+    - how the housing walls frame the square and lead the eye to the school on its north side
+    - the brick details of entrances and corner shops, typical of early Plan West
+  category: housing
+  lat: 52.365768
+  lng: 4.855848
+  address: Columbusplein 1-41 and surroundings
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/932cedff-6bf8-4907-a50f-1831828db318" }
+    - { label: Monumentenregister Amsterdam (Noorlander, Oud-West), url: "https://data.amsterdam.nl/monumenten/9bf25d7d-47e8-4a97-8c34-341392f8f53c" }
+  attributes:
+    built: 1923–1925
+    architect: W. Noorlander
+    original_use: Housing
+  photos: []
+  sources:
+    - city register record 932cedff (status "In procedure Gemeentelijk Monument", no text)
+    - city:224012 (register text of Noorlander's Oud-West complex, which names the Columbusplein complex, 1923–1925)
+  nl:
+    title: Woningbouw Columbusplein (Noorlander)
+    summary: Het complex arbeiderswoningen rond het Columbusplein uit 1923-1925 van architect W. Noorlander, in procedure om gemeentelijk monument te worden.
+    body: |
+      De gemeente heeft het complex aan het Columbusplein in procedure gebracht om het als gemeentelijk monument aan te wijzen; een redengevende omschrijving is nog niet gepubliceerd. In de omschrijving van Noorlanders complex in Oud-West schrijft de gemeente: 'Behalve het hier bedoelde woningbouwcomplex in Oud-West is van hem ook het voor de arbeidersklasse bestemde complex aan het Columbusplein e.o. in De Baarsjes bekend. Laatstgenoemd voorbeeld dateert uit 1923-1925.'
+
+      Architect Willem Noorlander is bekend van verschillende ontwerpen uit het eerste kwart van de twintigste eeuw, van villa's aan de Meeuwenlaan tot het Theater Ceintuurbaan. Noorlander toont niet alleen in typologisch opzicht een gevarieerd karakter maar ook in zijn stijlontwikkeling: rond 1920 zijn zijn ontwerpen meer expressief vormgegeven.
+
+      Let op:
+      - hoe de gevelwanden het plein omsluiten en de blik naar de Visserschool aan de noordzijde leiden
+      - de ingangen en hoekwinkels
+    attributes:
+      original_use: Arbeiderswoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/932cedff-6bf8-4907-a50f-1831828db318
+      - https://data.amsterdam.nl/monumenten/9bf25d7d-47e8-4a97-8c34-341392f8f53c
+
+- title: Visserschool (Columbusplein)
+  summary: Commer de Geus's 1927 Christian double school closing the north side of the Columbusplein – sober brick under wide eaves, parabolic porches, and inside the colourful tiled floors of its day.
+  body: |
+    Commer de Geus designed this double elementary school for Reformed (*gereformeerd*) education as one of his early works; it opened in 1927. It closes the end of a block whose other side forms the curved wall of the Magalhaensstraat, which makes it the focal point of the Columbusplein. It is still a primary school, now the ecumenical Visserschool, which also adopted the neighbourhood's 4 May memorial on the square in front.
+
+    The register describes a sober, businesslike design with Amsterdam School details. Red-brown brick sits under widely overhanging tiled eaves, and long rows of classroom windows with their original multi-pane top lights and granite sills give the front a strong horizontal line. Inside survive colourful tiled floors and granito wainscots with geometric patterns.
+
+    Look for:
+    - the parabolic entrance porches with doors in a ladder pattern
+    - the broad overhanging gutter and five brick chimneys on the ridge
+    - the projecting corner bay with its own gable and cross roof by the main entrance
+  category: schools
+  lat: 52.366808
+  lng: 4.855263
+  address: Columbusplein 34
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/3ec5bc91-e345-4a22-befd-19099100903b" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200682"
+    built: "1927"
+    architect: C. de Geus
+    listed: 2013
+    original_use: Christian (Reformed) elementary school
+  photos: []
+  sources:
+    - city:200682 (register text)
+    - https://www.onderwijsconsument.nl/scholenoverzicht/uploads/schoolgidsen/po/d1504-schoolgids--2019-2020--basisschool-de-visserschool.pdf (address)
+    - https://stadscuratorium.nl/en/?p=3504 (Visserschool adopted the memorial)
+  nl:
+    title: Visserschool (Columbusplein)
+    summary: Dubbele school voor gereformeerd lager onderwijs uit 1927 van Commer de Geus, een markante blikvanger aan de noordzijde van het Columbusplein.
+    body: |
+      Architect Commer de Geus leverde het ontwerp voor dit in 1927 gerealiseerde schoolgebouw, dat werd opgezet als een dubbele school voor gewoon lager onderwijs op gereformeerde grondslag. De school is genoemd naar Dr. J.Th. de Visser (1857-1932), hervormd predikant en minister van Onderwijs toen in 1917 de Schoolstrijd werd beëindigd. Over Commer de Geus (1889-1957) is vooralsnog slechts weinig bekend; hij wordt vooral geassocieerd met de naoorlogse projecten die hij met Jacob Ben Ingwersen realiseerde.
+
+      De stedenbouwkundige waarde van deze school ligt in de beëindiging van een bouwblok dat aan één zijde deel uitmaakt van een gebogen gevelwand (Magalhaensstraat). Het ontwerp is uitgewerkt in een sobere, zakelijke trant met invloed van de Amsterdamse School, zorgvuldig gemetseld in roodbruine baksteen in staand verband.
+
+      Let op:
+      - de markante breed overstekende bakgoot en de vijf bakstenen schoorstenen op de nok
+      - de vensterreeksen met oorspronkelijke ramen en veelruits bovenlichten, met granieten waterlijsten
+      - de hoofdingang met portiek naast een hoekrisaliet
+    attributes:
+      original_use: Dubbele lagere school op gereformeerde grondslag
+    sources:
+      - https://data.amsterdam.nl/monumenten/3ec5bc91-e345-4a22-befd-19099100903b
+
+- title: Corantijnschool
+  summary: One of the very first buildings of Plan West (1922–1923), a pale-brick double school with half-round bays and angled towers that the German army used as barracks during the war.
+  body: |
+    The municipality of Sloten had already planned a school here in 1921. After the annexation, Amsterdam's Public Works department designed a double elementary school, finished in 1923 and shared by the Corantijnschool and the Hoofdwegschool, each with its own side entrance. During the Second World War the German occupiers used it as barracks. It is still a school, OBS Corantijn.
+
+    The national register labels it *verstrakte* (streamlined) Amsterdam School, but as one of the earliest buildings in Plan West it is still quite sculptural. The walls are light yellow-brown brick on a dark base. Symmetrical fronts have half-round bays either side of the centre and tall, angled, tower-like corners that still dominate the corner of the Hoofdweg. Pupils added tiles with their own texts in 2013.
+
+    Look for:
+    - the recessed top floor with a balcony behind a concave parapet of vertical brickwork
+    - pairs of brick half-cylinders on the side walls
+    - the big nine-pane classroom windows
+  category: schools
+  lat: 52.362005
+  lng: 4.852575
+  address: Corantijnstraat 2
+  links:
+    - { label: Rijksmonumentenregister (527154), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527154" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/1da046c4-bc42-43d5-8b66-7302052a531e" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Corantijnschool" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q17292061" }
+  attributes:
+    heritage_status: National monument
+    monument_number: "527154"
+    built: 1922–1923
+    architect: Dienst Publieke Werken
+    listed: 2003
+    original_use: Two elementary schools
+  photos:
+    - commons:File:School Corantijnstraat.JPG
+    - commons:File:Corantijnschool, Hoofdweg pic1.JPG
+  sources:
+    - rce:527154 (register text)
+    - wd:Q17292061
+    - research/ams-school/places/oud-west-baarsjes.yaml (Corantijnschool)
+  nl:
+    title: Corantijnschool
+    summary: Dubbele school uit 1922-1923 van Publieke Werken in de stijl van de verstrakte Amsterdamse School, met halfronde uitbouwen en blikvangende torens; in de oorlog een kazerne.
+    body: |
+      In 1922-1923 tot stand gekomen schoolgebouw, in oorsprong voor twee scholen voor 'Gewoon Lager Onderwijs' op de hoek van de Corantijnstraat en de Hoofdweg, naar ontwerp van de Dienst Publieke Werken in de stijl van de verstrakte Amsterdamse School. Initiatiefnemer voor de school was de gemeente Sloten (1921), die vlak daarop werd opgeslokt door Amsterdam. In het gebouw kwamen de Corantijnschool en de Hoofdwegschool. In de Tweede Wereldoorlog werden de scholen als kazernes gebruikt; na de oorlog ging het onderwijs hier 'gewoon' verder. Simone Kleinsma bezocht de Corantijnschool, J. Bernlef en Joop Doderer de Hoofdwegschool.
+
+      Plastisch gemetselde gevels in lichte geelbruine baksteen op een deels hoger opgetrokken plint van donkere baksteen. Het Rijk waardeert het als representatief voorbeeld van de plastisch gedetailleerde schoolontwerpen in de stijl van de verstrakte Amsterdamse School door de architecten van Publieke Werken. In 2013 werden zogenoemde taaltegels aangebracht: teksten van leerlingen, in tegels vervat.
+
+      Let op:
+      - de brede middentravee met halfrond gemetselde uitbouwen aan weerszijden
+      - het teruggezette balkon met licht concave borstwering met acht kleine open gaten en een vlaggenmasthouder
+      - de hoger opgetrokken, schuingeplaatste en deels concaaf gemetselde opbouwen op de hoeken
+    attributes:
+      original_use: Twee lagere scholen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527154
+      - https://nl.wikipedia.org/wiki/Corantijnschool
+
+
+- title: Telefooncentrale West
+  summary: A 1927 telephone exchange disguised as a housing block, with staff flats at the front, a big switching hall hidden in the courtyard and a carved G and T above the porch – still full of cables today.
+  body: |
+    Amsterdam ran its own telephone service from 1896, after alderman M.W.F. Treub forced the private Bell company to hand back its concession; in 1922 the city opened the first automatic exchange in the Netherlands. As Plan West filled up, the Public Works department built this exchange for the new district (1926–1927). To the street it is simply part of the housing wall: offices on the ground floor and flats for live-in staff above. The real work happened in a large steel-framed hall in the middle of the block, reached through a round stair tower.
+
+    The German occupiers transferred the municipal telephone services to the state PTT, and the building now belongs to KPN. Because it never stopped being used for telecoms – today as a hub for fibre and internet cables – much of the original interior survives, including a spiral staircase with tiled and wrought-iron balustrades and beige tiled corridors.
+
+    Look for:
+    - the deep porch with a rounded window corner and the carved G and T (Gemeentelijke Telefoon) between two blocks with the St Andrew's crosses of the city arms
+    - original house numbers in Amsterdam School lettering
+    - the continuous concrete canopy and wide overhanging eaves that stress the horizontal
+    - the iron-clad vehicle gate on the Lodewijk Boisotstraat side
+  category: civic
+  lat: 52.369967
+  lng: 4.85825
+  address: Filips van Almondestraat 13-17, Lodewijk Boisotstraat 12
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/1db676d4-6fe0-452e-9aac-63a96eb321bb" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200721"
+    built: 1926–1927
+    architect: Dienst Publieke Werken
+    listed: 2014
+    original_use: Telephone exchange with staff flats
+  photos:
+    - commons:File:Telefooncentrale-Amsterdam-West.jpg
+    - commons:File:Telefooncentrale-Amsterdam-West-ingang.jpg
+    - commons:File:2020 Filips van Almondestraat 13-17 (1).jpg
+  sources:
+    - city:200721 (register text)
+  nl:
+    title: Telefooncentrale West
+    summary: Een telefooncentrale uit 1926-1927 die zich voegt in de gevelwand van een woonblok, met personeelswoningen aan de straat, een grote hal op het binnenterrein en de letters G en T in het beeldhouwwerk – nog altijd vol kabels.
+    body: |
+      De Dienst Publieke Werken leverde het ontwerp voor dit in 1926-1927 gebouwde complex dat werd opgezet als de Telefooncentrale West. Ook nu nog wordt het complex gebruikt voor communicatiedoeleinden (KPN). Het aan de Filips van Almondestraat gelegen bouwdeel kreeg op de begane grond de voor de centrale bestemde gebruiksruimtes; op de bovenverdiepingen kwamen woonruimtes voor het inwonende personeel. De belangrijkste gebruiksruimtes werden evenwel ondergebracht in de op het binnenterrein van het bouwblok gelegen grote hal.
+
+      De Telefooncentrale West maakte deel uit van de Gemeentelijke Telefoondienst die in 1896 op initiatief van wethouder M.W.F. Treub was opgericht. In Amsterdam is deze dienst vooral bekend geworden door de introductie in 1922 van de eerste automatische centrale in Nederland. Tijdens de Tweede Wereldoorlog bracht de bezetter de gemeentelijke telefoondiensten onder het beheer van de PTT. Vermoedelijk heeft de continuïteit in het gebruik als telefooncentrale en later als netwerkstation voor glasvezelkabels ervoor gezorgd dat het oorspronkelijk interieur goed bewaard is gebleven, met een in een vloeiende lijn opgaande spiraaltrap in de traptoren.
+
+      Let op:
+      - de diepe portiek met fraai beeldhouwwerk dat door de letters G en T naar de oorspronkelijke functie verwijst; de Andreaskruizen op de flankerende sierblokken zijn ontleend aan het stadswapen
+      - de oorspronkelijke adrescijfers in de portiek
+      - de ononderbroken doorlopende betonnen luifel en de breed overstekende goot
+      - de inrit aan de Lodewijk Boisotstraat met een dubbele houten deur met ijzerbeplating
+    attributes:
+      original_use: Telefooncentrale met personeelswoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/1db676d4-6fe0-452e-9aac-63a96eb321bb
+
+- title: Surinameplein housing by Roodenburgh
+  summary: Two quarter-circles of red brick that turn the Surinameplein into a gateway, with shop arcades, corner towers and tall brick fins – begun by Jordanus Roodenburgh in 1927 and only completed in 1956.
+  body: |
+    Jordanus Roodenburgh, a pupil of De Bazel and the architect of the old Ajax stadium, designed the blocks that enclose the Surinameplein at the southern end of the Hoofdweg. They went up in phases: the Hoofdweg front and the eastern quarter-circle in 1927, the opposite quarter-circle and the Sloterkade side in 1929, the Baarsjesweg part in 1928, and two links only after the war, in 1955 and 1956. The post-war parts follow the scheme but are noticeably plainer.
+
+    The half-round square was later absorbed into Cornelis van Eesteren's traffic plan for the Surinameplein, so the blocks mark a hinge between Berlage-style closed street walls and the modern General Extension Plan. Shop galleries line both sides of the Surinamestraat, and towers at the corners frame it like a gate.
+
+    Look for:
+    - tall brick fins set at right angles to the curved façades, marking where one block meets the next
+    - many-sided porches with angled reveals and three-sided bay windows under wide wooden gutters
+    - diamond-shaped openings into the shop arcades on the Surinamestraat
+    - the difference in detail between the 1920s and the 1950s towers
+  category: housing
+  lat: 52.359076
+  lng: 4.853688
+  address: Surinameplein, Hoofdweg 2-8, Surinamestraat, Baarsjesweg 310-313, Sloterkade
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/18e2dbe8-776a-4dfe-97f8-ee12ef88a282" }
+    - { label: Wikipedia (nl) Surinameplein, url: "https://nl.wikipedia.org/wiki/Surinameplein" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200724"
+    built: 1927–1956
+    architect: J. Roodenburgh
+    listed: 2013
+    original_use: Flats and shops
+  photos: []
+  sources:
+    - city:200724 (register text)
+    - https://nl.wikipedia.org/wiki/Surinameplein (names "Daan Roodenburgh"; the register says Jordanus Roodenburgh)
+  nl:
+    title: Bouwblokken Surinameplein (Roodenburgh)
+    summary: Halfcirkelvormige gevelwanden, winkelgaanderijen en hoektorens die het Surinameplein tot een poort maken – in 1927 begonnen naar ontwerp van Jordanus Roodenburgh en pas in 1956 voltooid.
+    body: |
+      Architect J. Roodenburgh leverde het ontwerp van de bouwblokken, die zijn ingevuld met etagewoningen en een aantal winkels. Ze zijn in fasen ontstaan, met zelfs nog enkele naoorlogse onderdelen. De oudste onderdelen dateren uit 1927 en bevinden zich langs de Hoofdweg, met een voortzetting in de kwartcirkel aan de oostzijde van het Surinameplein. In 1929 is de kwartcirkel aan de overzijde van het plein gerealiseerd. Het gedeelte langs de Baarsjesweg dateert uit 1928 en werd pas in 1955 aangetakt op de bebouwing langs de noordzijde van de Surinamestraat; in 1956 bouwde men het meest westelijk gelegen bouwdeel.
+
+      Jordanus Roodenburgh (1886-1972) werkte eerst bij de gebroeders Baanders en K.P.C. de Bazel; zijn eerste grote opdracht was het Ajaxstadion (1920). De bouwblokken markeren een scharnierpunt in de Amsterdamse stadsontwikkeling, omdat Van Eesteren de blokken als wanden van het verkeerscircuit opnam in zijn ontwerp voor het Surinameplein. De bijzondere opzet met halfcirkelvormige gevelwanden, winkelgaanderijen en een door hoektorens bepaald poortmotief maakt het complex tot een markante entree vanuit de Baarsjes.
+
+      Let op:
+      - de opmerkelijke sierwanden die het complex haaks doorbreken
+      - de veelzijdige portieken met schuine dagkanten en de driezijdige erkers onder breed overstekende houten bakgoten
+      - de diamantvormige toegangen tot de gaanderijen aan de Surinamestraat
+      - de soberder vormgegeven naoorlogse delen
+    attributes:
+      original_use: Etagewoningen en winkels
+    sources:
+      - https://data.amsterdam.nl/monumenten/18e2dbe8-776a-4dfe-97f8-ee12ef88a282
+      - https://nl.wikipedia.org/wiki/Surinameplein
+
+- title: Mercatorplein
+  summary: Berlage's square at the heart of Plan West – four matching brick walls, arcades of shops and a tall gateway tower – whose north side was demolished and rebuilt to the original design in the 1990s.
+  body: |
+    H.P. Berlage laid out the Mercatorplein as the centrepiece of Plan West and designed all four of its walls (1925–1927), though not the flats behind them. The square was named in 1924 after the cartographer Gerardus Mercator. The north and south walls are red brick, the east and west walls largely yellow-brown, all standing on rough-hewn natural stone. The Hoofdweg crosses the square with a sideways jog, and the side streets enter through gateway buildings.
+
+    Of the towers Berlage planned, the one on the north side was demolished in 1961 as unsafe. After years of decline the whole north wall was taken down from 1995 and rebuilt as faithfully as possible, tower included; the renewed square opened in 1998. In 1948 a dairy shop here became Amsterdam's first self-service store, the seed of the Dirk van den Broek supermarket chain. Since 2019 the lift shaft of the underground car park has carried a portrait of the late mayor Eberhard van der Laan.
+
+    Look for:
+    - the eight-storey tower over the gateway into the Van Spilbergenstraat, and its rebuilt twin to the north
+    - shop arcades on heavy brick piers with meander bands and figurative sculpture on the corners
+    - the colour change between the red and the yellow-brown walls
+  category: housing
+  lat: 52.368926
+  lng: 4.851121
+  address: Mercatorplein 1-121, Hoofdweg 303-319, Jan Evertsenstraat 133-144
+  links:
+    - { label: Rijksmonumentenregister (527135), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527135" }
+    - { label: Rijksmonumentenregister (527136), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527136" }
+    - { label: Rijksmonumentenregister (527137), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527137" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Mercatorplein_(Amsterdam)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q3001959" }
+  attributes:
+    heritage_status: National monument
+    monument_number: 527135, 527136, 527137
+    built: 1925–1927 (north wall rebuilt 1995–1998)
+    architect: H.P. Berlage
+    listed: 2003
+    original_use: Workers' housing and shops
+  photos:
+    - commons:File:Mercatorplein west.JPG
+    - commons:File:Aschool22.jpg
+    - commons:File:Mercatorplein 1-17 (2).jpg
+  sources:
+    - rce:527135, rce:527136, rce:527137 (register texts)
+    - wd:Q3001959
+    - https://nl.wikipedia.org/wiki/Mercatorplein_(Amsterdam)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Mercatorplein)
+  nl:
+    title: Mercatorplein
+    summary: Berlages plein in het hart van Plan West – vier pleinwanden met arbeiderswoningen, winkelgalerijen en een poortgebouw met hoge toren – waarvan de noordwand in de jaren negentig werd afgebroken en herbouwd.
+    body: |
+      Het Rijk beschermt de pleinwanden als het complex Mercatorplein: woonblokken met arbeiderswoningen en winkels naar een ontwerp van H.P. Berlage uit de jaren twintig van de twintigste eeuw. Aan de zuidwestzijde vormt het poortgebouw met hoge toren de verbinding tussen beide hoofdvleugels. De gevels zijn in rode baksteen gemetseld op een donker trasraam en een plint met ruw behakte blokken natuursteen; de oostwand heeft een hoger en terugliggend middendeel met gevels in bruingele baksteen. Aan het plein bevindt zich een galerij met zware gemetselde pijlers op natuurstenen basement, met meander en figuratief bouwbeeldhouwwerk op de hoeken.
+
+      Het plein kreeg zijn naam per raadsbesluit van 30 januari 1924, naar de cartograaf Gerardus Mercator. Van 1961 tot 1995 ontbrak de noordelijke toren in het straatbeeld; ze was in te bouwvallige staat om te renoveren. Bij de opknapbeurt midden jaren negentig werd het woonblok aan de noordelijke gevelwand in zijn geheel afgebroken en zoveel mogelijk met het oude uiterlijk weer herbouwd. De oorspronkelijke melkhandel van Dirk van den Broek opende in 1948 hier de eerste zelfbedieningswinkel van Amsterdam.
+
+      Let op:
+      - het poortgebouw met een hoge afgeknotte onderdoorgang, lagere voetgangerspoorten en de acht lagen hoge toren
+      - de galerijen met zware gemetselde pijlers en het bouwbeeldhouwwerk op de hoeken
+      - het verschil tussen de rode en de bruingele pleinwanden
+    attributes:
+      built: 1925–1927 (noordwand herbouwd 1995–1998)
+      original_use: Arbeiderswoningen en winkels
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527135
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527136
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527137
+      - https://nl.wikipedia.org/wiki/Mercatorplein_(Amsterdam)
+
+- title: Hoofdweg housing by Wijdeveld
+  summary: Hendrik Wijdeveld's long blocks north of the Mercatorplein – unbroken window bands, rounded cantilevered bays and a "city gate" of towers at the Jan van Galenstraat.
+  body: |
+    Hendrik Wijdeveld, editor of the Amsterdam School magazine *Wendingen*, designed the street walls on both sides of the Hoofdweg between the Mercatorplein and the Jan van Galenstraat (1925–1926). As everywhere in Plan West, the floor plans came from the office of Gulden & Geldmaker and the developer was Heere van der Schaar; Wijdeveld only drew the façades. He published the result in a 1927 *Wendingen* issue devoted to Plan West.
+
+    The four-storey walk-up blocks are emphatically horizontal. A continuous window band runs the full length of each block, the top floor is treated differently from those below, and the floor cantilevers out into a round bay at each end. At the Jan van Galenstraat the blocks rise into corner towers that form a *stadspoort* (city gate). The northern half of that gate lies across the street in Bos en Lommer and is on this map separately.
+
+    Look for:
+    - the unbroken window strips and the projecting vertical brick bands
+    - round, cantilevered bays at the block ends
+    - hoist beams poking just above the roofline
+  category: housing
+  lat: 52.371347
+  lng: 4.849305
+  address: Hoofdweg 308-386 and 321-403, Jan van Galenstraat 283-293
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/f084083e-7ad5-4ee0-9f30-dd260ec27f06" }
+    - { label: Wikipedia (nl) Hoofdweg, url: "https://nl.wikipedia.org/wiki/Hoofdweg_(Amsterdam)" }
+    - { label: Architectuur.org, url: "https://www.architectuur.org/bouwwerk/530/Woongebouwen.html" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q125678971" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200053"
+    built: 1925–1926
+    architect: H.Th. Wijdeveld (façades); Gulden & Geldmaker (plans)
+    listed: 1992
+    original_use: Workers' housing and shops
+  photos:
+    - commons:File:Wendingen1927-6-7-p17-PlanWestAmsterdam-Wijdeveld, Hoofdweg, kruising Jan van Galenstraat, 1927.jpg
+  sources:
+    - city:200053 (register metadata only, no text)
+    - https://www.architectuur.org/bouwwerk/530/Woongebouwen.html
+    - research/ams-school/places/oud-west-baarsjes.yaml (Hoofdweg housing by Wijdeveld)
+  nl:
+    title: Woongebouwen Hoofdweg (Wijdeveld)
+    summary: De woongebouwen van H.Th. Wijdeveld ten noorden van het Mercatorplein – doorlopende vensterstroken, uitkragende ronde erkers en een 'stadspoort' van torens bij de Jan van Galenstraat.
+    body: |
+      Dit project bestaat uit twee woongebouwen met portiekwoningen over vier lagen ten noorden van het Mercatorplein aan weerszijden van de Hoofdweg, ontworpen door H.Th. Wijdeveld met plattegronden van het bureau Gulden en Geldmaker, in opdracht van Heere van der Schaar. De gemeente wees de blokken in 1992 aan als gemeentelijk monument; een gepubliceerde redengevende omschrijving is er niet.
+
+      De bovenste laag wijkt af van de onderste verdiepingen. Het metselwerk heeft uitstekende verticale banden en de ramen lopen als een continue strook over de volledige lengte. Aan de uiteinden van het gebouw kraagt de verdieping uit, met een ronde erker (architectuur.org). Bij de Jan van Galenstraat lopen de blokken op tot torens; het noordelijke deel van deze 'stadspoort' ligt in Bos en Lommer.
+
+      Let op:
+      - de continue vensterstroken en de uitstekende verticale banden in het metselwerk
+      - de ronde erkers aan de blokeinden
+      - de voor Amsterdamse woningbouw kenmerkende hijsbalken, die net boven de dakrand steken
+    attributes:
+      architect: H.Th. Wijdeveld (gevels); Gulden en Geldmaker (plattegronden)
+      original_use: Arbeiderswoningen en winkels
+    sources:
+      - https://www.architectuur.org/bouwwerk/530/Woongebouwen.html
+      - https://data.amsterdam.nl/monumenten/f084083e-7ad5-4ee0-9f30-dd260ec27f06
+
+- title: Hoofdweg housing by Piet Kramer
+  summary: Piet Kramer's long street walls on the southern Hoofdweg, rising to six-storey gate blocks at the Postjesweg and punctuated by stairwell strips that end in wavy brick pylons.
+  body: |
+    Piet Kramer – co-author of the Scheepvaarthuis and of De Dageraad – designed the blocks on both sides of the southern Hoofdweg in 1923. They hold downstairs and upstairs flats for working-class tenants, with small shops on the corners and a cluster of shops at the Postjesweg crossing. Giving both sides of the street to one architect was deliberate: the Hoofdweg was meant to read as a single avenue leading to the Mercatorplein.
+
+    Kramer is more restrained here than in his Spaarndammerbuurt work. The register speaks of "seemingly endless rows of windows" in long, flat walls of red or brownish-grey brick. The sculpture is saved for the entrances, the projecting stairwell strips and the corners, where the walls rise and curve. Renovation took away much original detail, but the character is still clear.
+
+    Look for:
+    - the six-storey corner blocks at the Postjesweg, acting as a gateway
+    - doorways grouped under shared canopies between sculpted brick piers
+    - stairwell strips rising to pylon-like tops with wavy bands
+    - the kink in the façades where the road bends near the Davisstraat
+  category: housing
+  lat: 52.365613
+  lng: 4.853486
+  address: Hoofdweg 54-241, Davisstraat 54-171
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/37ce335d-2af4-49d5-b4cd-8f10bf2ebab7" }
+    - { label: Wikipedia (nl) Hoofdweg, url: "https://nl.wikipedia.org/wiki/Hoofdweg_(Amsterdam)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q125679265" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200725"
+    built: 1923–1925
+    architect: Piet Kramer
+    listed: 2013
+    original_use: Workers' housing and shops
+  photos:
+    - commons:File:P. Kramer Hoofdweg Amsterdam 1.jpg
+    - commons:File:Exterieur OVERZICHT, Hoofdweg 241 & 234 e.o. - Amsterdam - 20308456 - RCE.jpg
+  sources:
+    - city:200725 (register text)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Hoofdweg housing by Piet Kramer)
+  nl:
+    title: Woonblokken Hoofdweg (Piet Kramer)
+    summary: Piet Kramers gevelwanden aan de zuidelijke Hoofdweg, met zeslaagse poortblokken bij de Postjesweg en risalerende trappenhuisstroken met plastische siermotieven.
+    body: |
+      Architect P. Kramer leverde het ontwerp van dit uit 1923 daterende complex en zette het op met beneden- en bovenwoningen voor de arbeidersklasse. Waar de blokken aansluiten op de zijstraten zijn er buurtwinkeltjes; vooral op de kruising met de Postjesweg is er een concentratie van winkels. Door renovatie ging de oorspronkelijke detaillering grotendeels verloren, maar het authentieke karakter van het complex is goed herkenbaar gebleven.
+
+      De verschijningsvorm wordt aan beide zijden van de Hoofdweg in een eerste oogopslag gekenmerkt door een vrij massieve opzet met schier eindeloze vensterreeksen. Het horizontale lijnenspel vindt een tegenwicht in de risalerende gevelstroken die de trappenhuissecties en ingangspartijen markeren. Vanaf de Postjesweg vormen de woningblokken een poortgebouw langs de als een toegangslaan naar het Mercatorplein leidende Hoofdweg.
+
+      Let op:
+      - de zeslaagse blokken bij de Postjesweg
+      - de gekoppelde ingangspartijen van beneden- en bovenwoningen
+      - de verticale gevelstroken met plastische siermotieven
+      - de hoekpartijen met gebogen daklijsten en verspringende bouwlagen
+    attributes:
+      original_use: Arbeiderswoningen en winkels
+    sources:
+      - https://data.amsterdam.nl/monumenten/37ce335d-2af4-49d5-b4cd-8f10bf2ebab7
+
+- title: Hoofdweg housing by G.J. Rutgers
+  summary: Gerrit Jan Rutgers' blocks on the Hoofdweg between the Willem Schoutenstraat and the Mercatorplein, with white-painted piers on the top floor and rounded corner towers forming a gateway.
+  body: |
+    Between the Willem Schoutenstraat and the Mercatorplein the Hoofdweg is lined by two blocks of working-class flats with corner shops, built in 1924–1925 by the building company N.V. Bouwmij. "De Berk". Gulden & Geldmaker had made earlier designs, but G.J. Rutgers – one of the most productive housing architects of the interwar ring – delivered the final façades.
+
+    Like Kramer's blocks to the south, these are long, calm walls. White-painted piers between the top-floor windows make that floor read almost as a mezzanine and push the eye towards the Mercatorplein. Every third porch has a bay window above it, its corners hollowed into quarter-rounds and topped with decorative balls on the balcony. At the Willem Schoutenstraat the two blocks meet in a symmetrical gateway with rounded corners, towers and stepped-back upper floors.
+
+    Look for:
+    - the rounded corner towers and curved shopfronts at the Willem Schoutenstraat
+    - porches with small granito floors and touches of ornamental brickwork
+    - bay windows with quarter-round hollows where they meet the wall
+  category: housing
+  lat: 52.367234
+  lng: 4.852189
+  address: Hoofdweg 43-302 (part), Willem Schoutenstraat 20-32
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/759780db-c2b5-4d87-9185-58c27c80207b" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200726"
+    built: 1924–1925
+    architect: G.J. Rutgers
+    listed: 2013
+    original_use: Workers' housing and shops
+  photos:
+    - commons:File:Hoofdweg hoek Willem Schoutenstraat pic1.JPG
+  sources:
+    - city:200726 (register text)
+  nl:
+    title: Woonblokken Hoofdweg (G.J. Rutgers)
+    summary: De blokken van G.J. Rutgers aan de Hoofdweg tussen Willem Schoutenstraat en Mercatorplein, met witgeschilderde geveldammen in de vierde bouwlaag en afgeronde hoektorens als poortgebouw.
+    body: |
+      Alhoewel er eerder plannen waren gemaakt door Z.D.J.W. Gulden en M. Geldmaker, leverde architect G.J. Rutgers het definitieve ontwerp. De N.V. Bouwmij. 'De Berk' bouwde de woningblokken. Het in 1924-1925 gerealiseerde complex bestaat uit etagewoningen voor de arbeidersklasse, met (deels voormalige) buurtwinkeltjes waar de blokken aansluiten op de zijstraten.
+
+      Langs de Hoofdweg worden het horizontale lijnenspel en de 'voortstuwende werking' richting Mercatorplein versterkt door de witgeschilderde geveldammen tussen de vensters van de vierde bouwlaag. Deze bouwlaag vormt welhaast een mezzanino. Telkens twee portieken worden afgewisseld door een portiek die is gecombineerd met een hierboven gelegen erker. Vanaf de Willem Schoutenstraat vormen de woningblokken een poortgebouw langs de als een toegangslaan naar het Mercatorplein leidende Hoofdweg.
+
+      Let op:
+      - de symmetrische kopgevels en verspringende, afgeronde hoekpartijen aan de Willem Schoutenstraat
+      - de ingangsportieken met granitovloertjes en enig siermetselwerk
+      - de langs de oksels kwarthol afgeronde erkers met sierbollen langs de balkons
+    attributes:
+      original_use: Arbeiderswoningen en winkels
+    sources:
+      - https://data.amsterdam.nl/monumenten/759780db-c2b5-4d87-9185-58c27c80207b
+
+- title: Jan Evertsenstraat housing by J.F. Staal
+  summary: Jan Frederik Staal's shopping street – six long blocks with several hundred flats above more than 60 shops, flat concrete canopies, bands of glass blocks and a gateway over the Hudsonstraat.
+  body: |
+    J.F. Staal designed both sides of the Jan Evertsenstraat between the Admiralengracht and the Mercatorplein (1925–1926), one of the main axes of Plan West. The national register splits the complex into six blocks, A to F, each with dozens of flats over a row of shops. At the east end two matching blocks form the "visual entrance" to the street, and in the middle a gateway building over the Hudsonstraat joins two blocks into one long volume. The city had already protected the street walls in 1992; the state followed in 2003.
+
+    Staal gives the five-storey walls a strong rhythm with projecting brick piers. A flat concrete canopy runs above the shops, with four courses of glass blocks above it to bring daylight into the shop interiors. The top floor is almost blind, with hoist beams under the concrete roof edge. Rounded brick corner piers rise above the roofline at the side streets.
+
+    Look for:
+    - the tall gateway over the Hudsonstraat
+    - the bands of glass building blocks above the shop canopies
+    - small water spouts under the window sills
+    - original doors with only a narrow horizontal glass slit
+  category: housing
+  lat: 52.370641
+  lng: 4.856171
+  address: Jan Evertsenstraat 43-215 and 94-142, Mercatorplein 34
+  links:
+    - { label: Rijksmonumentenregister (527144), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527144" }
+    - { label: Rijksmonumentenregister (527146), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527146" }
+    - { label: Monumentenregister Amsterdam (200067), url: "https://data.amsterdam.nl/monumenten/4a88c5aa-8510-44a4-8835-7f7b6b525940" }
+    - { label: Monumentenregister Amsterdam (200068), url: "https://data.amsterdam.nl/monumenten/4bb94488-2216-4678-ae2d-7b88e834f466" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q125679093" }
+  attributes:
+    heritage_status: National + municipal monument
+    monument_number: 527144, 527145, 527146, 527147, 527148, 527149, 200067, 200068
+    built: 1925–1926
+    architect: J.F. Staal
+    listed: 1992
+    original_use: Flats and shops
+  photos:
+    - commons:File:Woningbouw - Housing Jan Evertsenstraat Amsterdam (6828948185).jpg
+    - commons:File:Jan Evertsenstraat 59-63.jpg
+  sources:
+    - rce:527144–527149 (register texts)
+    - city:200067, city:200068 (metadata only, listed 1992)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Jan Evertsenstraat housing by J.F. Staal)
+  nl:
+    title: Woningbouw Jan Evertsenstraat (J.F. Staal)
+    summary: J.F. Staals winkelstraat – zes bouwblokdelen met etagewoningen boven winkels, vlakke luifels, banden van glazen bouwstenen en een poortgebouw over de Hudsonstraat.
+    body: |
+      Het Rijk beschermt J.F. Staals woningbouwcomplex aan de Jan Evertsenstraat als zes complexonderdelen (blok A tot en met F), elk bestaande uit tientallen etagewoningen en winkels en gebouwd in 1925-1926 in de stijl van de verstrakte Amsterdamse School. Het noordoostelijke bouwblokdeel vormt samen met het tegenoverliggende de visuele entree van één van de hoofdassen in Plan-West. Het middelste deel van de noordelijke wand bestaat uit de kopse kanten van twee bouwblokken die door een poortgebouw onderling verbonden zijn tot één langgerekt volume.
+
+      Van de vijf in hoogte verspringende bouwlagen is de bovenste blind en wordt de onderste ingenomen door winkels onder een vlakke luifel. Het boven de luifel aansluitende gevelvlak is bezet met vier uitgemetselde lagen glazen bouwstenen. De blinde zolderverdieping heeft, onder de op klossen geplaatste betonnen dakrand, op regelmatige afstand geplaatste hijsbalken.
+
+      Let op:
+      - het poortgebouw over de Hudsonstraat
+      - de lagen glazen bouwstenen boven de winkelluifels
+      - de vensters met lekgoten met waterspuwertjes
+      - de houten voordeuren met alleen een horizontale lichtspleet
+    attributes:
+      original_use: Etagewoningen en winkels
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527144
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527146
+
+- title: Jan Evertsenstraat housing by Van der Mey
+  summary: Joan van der Mey's red-brick "twin brothers" at the Admiralengracht – corner towers that stand like gatekeepers at the Molenslootbrug, with shop arcades running down the Jan Evertsenstraat.
+  body: |
+    J.M. van der Mey, architect of the Scheepvaarthuis, designed the two blocks where the Jan Evertsenstraat crosses the Admiralengracht (1926–1927). The city register calls them *tweelingbroers* (twin brothers): symmetrical blocks of working-class flats in red brick, each with a shop gallery along the Jan Evertsenstraat, around 140 flats in total. Seen from the Molenslootbrug, the higher corner blocks act as gatekeepers, and the four-storey walls along the canal fan out from them like wings.
+
+    This is the late, more businesslike Amsterdam School: horizontal window strips under projecting lintels set against tower-like volumes. The floors in the corner towers sit higher than in the wings, which pushes the eye upward towards the street. The northern block was renovated with some loss of original material.
+
+    Look for:
+    - the stepped corner towers on both sides of the bridge
+    - the arcade under the corner block on the canal side
+    - shop galleries along the Jan Evertsenstraat
+    - the gateway into the Krommertstraat
+  category: housing
+  lat: 52.370718
+  lng: 4.85736
+  address: Jan Evertsenstraat 9-44, Krommertstraat 1-5, Admiralengracht
+  links:
+    - { label: Rijksmonumentenregister (527151), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527151" }
+    - { label: Rijksmonumentenregister (527152), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527152" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/b271be0d-fb4c-4be4-889a-bc802a80243d" }
+  attributes:
+    heritage_status: National + municipal monument
+    monument_number: 527151, 527152, 200727
+    built: 1926–1927
+    architect: J.M. van der Mey
+    original_use: Workers' housing and shops
+  photos:
+    - commons:File:2023 Jan Evertsenstraat 18-Krommertstraat, Asd (1).jpg
+    - commons:File:Jan Evertsenstraat, toegangspoort Krommertstraat.jpg
+  sources:
+    - rce:527151, rce:527152 (register texts)
+    - city:200727 (register text)
+  nl:
+    title: Woningbouw Jan Evertsenstraat (Van der Mey)
+    summary: De 'tweelingbroers' van J.M. van der Mey aan de Admiralengracht – hoekpartijen die als poortwachters bij de Molenslootbrug staan, met winkelgalerijen langs de Jan Evertsenstraat.
+    body: |
+      De bekende Amsterdamse architect J.M. van der Mey leverde het ontwerp voor de twee in 1926-1927 gerealiseerde blokken. Het complex bestaat uit etagewoningen voor de arbeidersklasse. Langs de Jan Evertsenstraat is de begane grondverdieping van beide blokken evenwel opgezet als een winkelgalerij.
+
+      Door hun symmetrische opzet met vergelijkbare kop- en zijgevels fungeren de twee in expressieve rode baksteen opgetrokken woningblokken als 'tweelingbroers'. Vanaf de monumentaal vormgegeven Molenslootbrug over de Admiralengracht presenteren de hoger doorgestoken hoekpartijen zich welhaast als poortwachters, met de hierop aansluitende vierlaags gevelwanden langs de gracht als 'uitwaaierende' vleugels. Weliswaar onderging het noordelijke blok enige ingrijpende renovatie, maar nog altijd vormt dit blok tezamen met het tweede blok een indrukwekkende monumentale eenheid.
+
+      Let op:
+      - de torenachtige hoekpartijen aan weerszijden van de brug
+      - het hoekblok aan de Admiralengracht, vanaf de verdieping uitgebouwd boven een arcade
+      - de horizontale vensterstroken onder uitkragende lateien
+      - de poort naar de Krommertstraat
+    attributes:
+      original_use: Arbeiderswoningen en winkels
+    sources:
+      - https://data.amsterdam.nl/monumenten/b271be0d-fb4c-4be4-889a-bc802a80243d
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527151
+
+- title: Vespuccistraat housing by Roodenburgh
+  summary: Jordanus Roodenburgh's four blocks on the Vespuccistraat, in orange-red brick on dark clinker, with parabolic six-sided porches and bands of ornamental brickwork.
+  body: |
+    The Vespuccistraat, between the Jan van Galenstraat and the Jan Maijenstraat, is lined by a housing complex of four blocks by Jordanus Roodenburgh (1924–1926), with flats above and shops on the corners. It is protected both by the city (since 1992) and by the state.
+
+    The façades are in orange-red brick in Norwegian bond on a base of dark clinker, with natural stone and ornamental brickwork for accents. At street level the six-sided parabolic porch entrances and small, deeply recessed windows read as one continuous band. Higher up, horizontal courses of ornamental brick link the top-floor windows, and above them the brickwork turns vertical. A short, stocky chimney sits above each porch.
+
+    Look for:
+    - the parabolic porches with jutting blocks of stone above them
+    - taller, almost blind sections opposite the side streets
+    - the corner shops at the Jan van Galenstraat
+  category: housing
+  lat: 52.370998
+  lng: 4.853715
+  address: Vespuccistraat 2-134, Jan Maijenstraat 1-9, Shackletonstraat 1-4
+  links:
+    - { label: Rijksmonumentenregister (527130), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527130" }
+    - { label: Rijksmonumentenregister (527132), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527132" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/755711e6-0a02-4337-a234-bc73fc885fcc" }
+  attributes:
+    heritage_status: National + municipal monument
+    monument_number: 527130, 527131, 527132, 527133, 200064
+    built: 1924–1926
+    architect: J. Roodenburgh
+    listed: 1992
+    original_use: Flats and shops
+  photos: []
+  sources:
+    - rce:527130–527133 (register texts)
+    - city:200064 (metadata only)
+  nl:
+    title: Woningbouw Vespuccistraat (Roodenburgh)
+    summary: Vier woonblokken van J. Roodenburgh aan de Vespuccistraat, in oranjerode baksteen op donkere klinker, met paraboolvormige zeszijdige portieken en banden siermetselwerk.
+    body: |
+      Het woningbouwcomplex van J. Roodenburgh aan de Vespuccistraat bestaat uit vier woonblokken met etagewoningen en winkels op de hoeken. Het oostelijke woonblok ligt op een langgerekte, vrijwel rechthoekige plattegrond met in- en uitspringende volumes aan de Vespuccistraat 44-134. Het bezit een begane grond en drie verdiepingen onder plat dak, met gemetselde gevels in oranje-rode baksteen in Noors verband, afgewisseld met decoratief gebruik van natuursteen en siermetselwerk, rustend op trasraam in donkere klinker.
+
+      Op de begane grond liggen paraboolvormige, zeszijdige toegangen tot portiek. De begane grond vormt met de portieken en relatief kleine vensters met diepe neggen en decoratief gebruik van donkere klinkers visueel een doorlopende eenheid. Bij de derde verdieping worden de vensters halverwege met elkaar verbonden door doorlopende horizontale lagen siermetselwerk, waarboven het metselwerk van de gevel een verticale structuur heeft.
+
+      Let op:
+      - de uitkragende blokken natuursteen boven de portieken
+      - de korte gedrongen gemetselde schoorstenen boven de portieken
+      - de winkels op de hoek met de Jan van Galenstraat
+    attributes:
+      original_use: Etagewoningen en winkels
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527130
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527132
+
+- title: Jan Maijenschool
+  summary: Four elementary schools in one 1926 building, with wavy brickwork, long window bands and yellow corner pavilions whose corners are rounded into half-cylinders – facing the Jeruzalemkerk across a small square.
+  body: |
+    J.W. Frantzen of the Public Works department designed this "quadruple" corridor school in 1926. It held four elementary schools – the Vespucci-, Mercator-, Jan Evertsen- and Jan Maijenschool – whose names eventually merged into the last. As in many Public Works schools, toilets and workrooms face the street and classrooms look out over the playground at the back. After the schools closed, the building was restored; the old playground behind it is now a public garden, the Tuin van Jan.
+
+    The front is a late Amsterdam School showpiece. A long, symmetrical centre of red-grey brick is held between yellow-brick corner pavilions. The outer corners of the pavilions are rounded into half-cylinders, and the inner ones repeat the shape, set back and turned 90 degrees. The yellow brick wraps around the ground-floor window band and over the crenellated parapet that links the two pavilions.
+
+    Look for:
+    - the half-cylindrical corners of the yellow pavilions
+    - the crenellated parapet between them
+    - the base of sintered brick, raised around the three porches
+  category: schools
+  lat: 52.370947
+  lng: 4.852291
+  address: Jan Maijenstraat 11-17
+  links:
+    - { label: Rijksmonumentenregister (527156), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527156" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/d24ad2d1-244c-4650-a3ed-22a92d918704" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Jan_Maijenstraat_11-17" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q17292067" }
+  attributes:
+    heritage_status: National monument
+    monument_number: "527156"
+    built: "1926"
+    architect: J.W. Frantzen (Dienst Publieke Werken)
+    listed: 2003
+    original_use: Four elementary schools
+  photos:
+    - commons:File:Jan Maijenschool (3).JPG
+    - commons:File:Jan Maijenschool.jpg
+  sources:
+    - rce:527156 (register text)
+    - wd:Q17292067
+    - https://nl.wikipedia.org/wiki/Jan_Maijenstraat_11-17
+  nl:
+    title: Jan Maijenschool
+    summary: Vier lagere scholen in één gebouw uit 1926, met golvende onderdelen, lange vensterstroken en gele hoekpartijen met half cilindervormige hoeken – tegenover de Jeruzalemkerk.
+    body: |
+      Vierdubbel schoolgebouw (gangtype), in 1926 ontworpen door architect J.W. Frantzen, werkzaam bij de Dienst Publieke Werken. De dubbele school was bestemd voor Gewoon Lager Onderwijs, respectievelijk voor Gewoon Lager Onderwijs met Kleuter Onderwijs. De oorspronkelijke namen Vespucci-, Mercator-, Jan Evertsen- en Jan Maijenschool zijn samengesmolten tot laatstgenoemde. Het gebouw is uitgevoerd in de stijl van de late Amsterdamse School. Karakteristiek zijn de plastische gevel met golvende onderdelen, de gevarieerde toepassing van siermetselwerk en de lange doorlopende vensterstroken. De toilet- en werkruimten liggen aan de voorzijde; de klaslokalen liggen aan het schoolplein.
+
+      De middenpartij is uitgevoerd in rood-grauwe bakstenen, de deels verzelfstandigde hoekpartijen in gele baksteen. De hoeken van de hoekpartijen zijn hoger opgetrokken, de buitenste half cilindervormig uitgemetseld, de binnenste met eenzelfde halve cilindervorm, maar teruggelegen en 90 graden naar binnen gedraaid.
+
+      Let op:
+      - de half cilindervormige hoeken van de gele hoekpartijen
+      - de gele baksteen in sierverband over de kantelen van de teruggelegen borstwering
+      - de plint van gesinterde baksteen, hoger opgetrokken rond de drie portieken
+    attributes:
+      architect: J.W. Frantzen (Dienst Publieke Werken)
+      original_use: Vier lagere scholen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527156
+      - https://nl.wikipedia.org/wiki/Jan_Maijenstraat_11-17
+
+- title: Jeruzalemkerk
+  summary: Ferdinand Jantzen's 1929 Reformed church, built into the flats around it and composed with number symbolism, temple-like terraces and his own stained glass of the seven days of Creation.
+  body: |
+    The Dutch Reformed congregation of Sloterdijk built this church for the new Plan West district in 1928–1929. Ferdinand Jantzen, who had designed the Westerwijk community house nearby, attached the church to seven flats and a consistory on its corners – church and housing form one design. He worked in the sober "streamlined" Amsterdam School with clear influences from Frank Lloyd Wright.
+
+    Almost everything is symbolic. The stepped, cubic volumes and terraces refer to temple architecture, the dimensions follow numerical schemes, and the stone colours, lamps, woodwork and railings all carry meaning. Inside, Jantzen's own stained-glass windows show the seven days of Creation, and the organ by Furtwängler & Hammer dates from 1930. It is still a Protestant church.
+
+    Look for:
+    - three identical doors in a base of purple clinker, under the name JERUZALEMKERK in metal letters
+    - three tall, narrow triple windows below a short, stocky bell tower
+    - orange-red and dark-brown brick with Bavarian granite accents
+    - the fence on a brick base that encloses the church on three sides
+  category: religious
+  lat: 52.371437
+  lng: 4.851956
+  address: Jan Maijenstraat 14, Torresstraat 2-4, James Cookstraat 1-3
+  links:
+    - { label: Rijksmonumentenregister (527155), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527155" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/6549e46e-0e87-47a9-8a19-e9fb638da0be" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Jeruzalemkerk_(Amsterdam)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q7476474" }
+  attributes:
+    heritage_status: National monument
+    monument_number: "527155"
+    built: 1928–1929
+    architect: F.B. Jantzen
+    listed: 2003
+    original_use: Church with flats and consistory
+  photos:
+    - commons:File:Jeruzalemkerk.jpg
+    - commons:File:Amsterdam, Jeruzalemkerk Exterior 8752.jpg
+  sources:
+    - rce:527155 (register text)
+    - wd:Q7476474
+    - https://nl.wikipedia.org/wiki/Jeruzalemkerk_(Amsterdam)
+  nl:
+    title: Jeruzalemkerk
+    summary: De hervormde kerk van F.B. Jantzen uit 1928-1929, één ontwerp met de woningen eromheen, gecomponeerd volgens getallensymboliek en met glas-in-loodramen van de architect zelf.
+    body: |
+      In 1928-1929 tot stand gekomen kerk, genaamd Jeruzalemkerk, met de voorgevel aan het plein aan de Jan Mayenstraat en met aangrenzende bebouwing met gezamenlijk zeven afzonderlijke etagewoningen en een inpandige consistorie. Kerk en woningen zijn onlosmakelijke onderdelen van één ontwerp. De kerk werd in opdracht van de Nederlands Hervormde gemeente van Sloterdijk gebouwd naar een ontwerp van de architect F.B. Jantzen – die ook het ontwerp voor de glas-in-loodramen heeft geleverd – in de stijl van de verstrakte Amsterdamse School met invloeden van Frank Lloyd Wright.
+
+      Bij het ontwerp is gebruik gemaakt van (getallen)symboliek. De hoofdvormen van het bouwvolume, de terrasvorming en de liturgische dispositie verwijzen naar de tempelbouw. De steensoorten hebben in materiaal en kleur verschillende symbolische betekenissen; ook de lampen, betimmeringen en leuningen dragen symbolische verwijzingen. Het orgel van Furtwängler & Hammer uit 1930 is gaaf bewaard gebleven.
+
+      Let op:
+      - de stoep met drie treden en drie gelijke toegangen in een sokkel van paarse klinkers
+      - de metalen letters JERUZALEMKERK, drie hoge en smalle drievoudige vensters en een korte, gedrongen klokkentoren
+      - oranjerode en donkerbruine baksteen in Noors verband met Beiers graniet
+      - het hek op gemetselde voeting dat de kerk aan drie zijden omgeeft
+    attributes:
+      original_use: Kerk met woningen en consistorie
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527155
+      - https://nl.wikipedia.org/wiki/Jeruzalemkerk_(Amsterdam)
+
+- title: Gijsbert Bakker hofje (Reinier Claeszenplein)
+  summary: A 1933 almshouse for the elderly, paid for by the charity of an 18th-century Catholic seed merchant – a "modern hofje" with floating galleries at the back, halfway between the old courtyard almshouse and the old people's flat.
+  body: |
+    Gijsbert Bakker (1755–1819) was a wealthy Catholic seed merchant who bought houses in the Jordaan for the poor, the so-called *Bakkershuisjes*. His capital went into a foundation for the care of the poor and elderly, which kept building long after his death. In 1933 the Stichting Gijsbert Bakker commissioned this U-shaped building from the architect H. Peters as a *modern hofje*: the 20th-century version of the charitable almshouses that Amsterdam had known since the 17th century. The foundation owned it until recently; the flats are now open to other residents too.
+
+    The register values it as a missing link in the history of housing for the elderly: a gallery block, reached from the inner court, between the traditional *hofje* and the post-war old people's flat. The galleries at the back hang free of the wall on steel beams and seem to float. The traditional, businesslike brick front closes off the north side of the square.
+
+    Look for:
+    - the name of the Stichting Gijsbert Bakker in iron letters above the entrance
+    - the stepped round arch and stepped reveals that draw you to the original front door, between granite strips and small leaded windows
+    - grey granite courses along the base and a band of black-tarred brick at the top
+    - the gables of the side wings, with small round-arched attic windows
+  category: housing
+  lat: 52.374151
+  lng: 4.861357
+  address: Reinier Claeszenplein 1-59, Lumeijstraat 54-62
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/d592b564-b6ac-4133-ba95-f61a42c5b675" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200685"
+    built: "1933"
+    architect: H. Peters
+    listed: 2013
+    original_use: Almshouse (hofje) for the elderly
+  photos:
+    - commons:File:R. Claeszenplein 1-61 (2).jpg
+  sources:
+    - city:200685 (register text; text says architect H. Peters, metadata says L. Peters)
+  nl:
+    title: Hofje Gijsbert Bakker (Reinier Claeszenplein)
+    summary: Een 'modern hofje' uit 1933 voor ouderen, gebouwd door de stichting van een katholieke zaadhandelaar uit de achttiende eeuw – met zwevende galerijen aan de achterkant, tussen hofjeswoning en bejaardenflat in.
+    body: |
+      Architect H. Peters bouwde in 1933 dit als een 'modern hofje' voor bejaardenhuisvesting opgezette bouwwerk. Dit gebeurde in opdracht van de Stichting Gijsbert Bakker. Tot voor kort was deze stichting nog steeds de eigenaar van het gebouw; na de verkoop zijn de appartementen ook geschikt gemaakt voor andere vormen van bewoning.
+
+      Gijsbert Bakker (1755-1819) was een welgestelde katholieke zaadhandelaar die veel aan liefdadigheid deed. In de Jordaan had hij een aantal huisjes gekocht voor de armenhuisvesting, de zogenaamde Bakkershuisjes of Bakkerhofjes. Zijn kapitaal werd ondergebracht in een stichting voor armen- en ouderenzorg. Het woningblok is typologisch van groot belang als stadium in de ontwikkeling van de bejaardenhuisvesting: als galerijbouw met ontsluiting via het binnenterrein vormt het een ijkpunt in de ontwikkeling tussen de hofjeswoning en de bejaardenflat. Opmerkelijk zijn de galerijen die door middel van stalen draagbalken vrij van de achtergevel worden gehouden, zodat ze een zwevende, lichte indruk wekken.
+
+      Let op:
+      - de vermelding van de Stichting Gijsbert Bakker in fraaie ijzeren letters boven de ingang
+      - de ingang onder een getrapte rondboog, tussen granieten gevelstroken met smalle vensters met glas-in-lood
+      - de grijsgranieten speklagen langs de plint en de strook in zwartgeteerde steen bovenaan
+      - de topgevels van de zijvleugels met zoldervensters onder rondbogen
+    attributes:
+      original_use: Hofje voor ouderen
+    sources:
+      - https://data.amsterdam.nl/monumenten/d592b564-b6ac-4133-ba95-f61a42c5b675
+
+- title: Pieter Oosterleeschool (Orteliusstraat)
+  summary: Cornelis Kruyswijk's 1931 Christian school, with one of the most colourful and best-preserved 1930s school interiors in Amsterdam behind a front of red brick striped with pale stone.
+  body: |
+    Cornelis Kruyswijk designed this school in 1930 for the Society for Christian Schools in Sloterdijk. It is named after Pieter Oosterlee (1863–1930), a teacher and writer who championed Christian education; after the "school struggle" ended in 1920, denominational schools received equal state funding and built in large numbers, mostly with private architects. Kruyswijk built 21 schools, 12 in Amsterdam, and the register counts this one and his Titiaanstraat school among his most refined. It now houses De Kleine Prins, a school for children with severe behavioural problems.
+
+    The front fits seamlessly into the street wall yet stands out through its materials, and it sits in the sightline of the Van Middellandtstraat. Inside, tiled floors in red-brown and grey, ochre wall tiles with blue-red block patterns, original cupboards and two large abstract leaded-glass windows over the stairs survive.
+
+    Look for:
+    - stripes of pale stone alternating with red brick in the broad base and around the gym windows
+    - the recessed entrance flanked by block-shaped sculptures, with a weathered inscription mentioning P. Oosterlee
+    - granite reliefs of a bird and a flower by the entrance
+    - the bay on the north end, once the head teacher's room
+  category: schools
+  lat: 52.365263
+  lng: 4.851464
+  address: Orteliusstraat 28
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c5f4b509-656b-40da-b25b-6a49297bf5cc" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200683"
+    built: 1930–1932
+    architect: C. Kruyswijk
+    listed: 2013
+    original_use: Christian elementary school
+  photos: []
+  sources:
+    - city:200683 (register text)
+  nl:
+    title: Pieter Oosterleeschool (Orteliusstraat)
+    summary: De christelijke school van Cornelis Kruyswijk uit 1930-1932, met achter een gevel van rode baksteen en lichte speklagen een van de kleurrijkste en gaafste schoolinterieurs uit de jaren dertig.
+    body: |
+      De school is in 1930 ontworpen door Cornelis Kruyswijk in opdracht van de Vereeniging tot Stichting en Instandhouding van Christelijke Scholen te Sloterdijk. Het is een gebouw met drie bouwlagen en een hoog schilddak en bevat zes klaslokalen met een gymzaal en een handenarbeidzolder. Tegenwoordig doet het gebouw dienst als school voor 'Zeer Moeilijk Opvoedbare Kinderen', De Kleine Prins genoemd. De pedagoog en schrijver Pieter Oosterlee was een groot voorvechter van het christelijk onderwijs.
+
+      De school aan de Orteliusstraat 28 behoort samen met de school aan de Titiaanstraat 24 tot de meest verfijnde en fraaie schoolgebouwen van Kruyswijk, die 21 schoolopdrachten kreeg, waarvan 12 in Amsterdam. Het interieur behoort tot de kleurrijkste en gaafst bewaarde interieurs van Amsterdamse schoolgebouwen uit de jaren dertig, met tegelvloeren van roodbruine en grijze tegels, okergele tegelvlakken met blauwrode blokpatronen en twee grote glas-in-loodramen bij de trap.
+
+      Let op:
+      - de stroken van lichte natuursteen afgewisseld met rode baksteen in de brede plint en in de dagkanten van de gymlokaalramen
+      - de verdiept liggende ingang met blokvormige sculpturen en een slecht leesbare tekst met DEO GLORIA en P. OOSTERLEE (1863-1930)
+      - de granieten reliëfstenen met een vogel en een bloem
+      - de erkertravee van de voormalige kamer van het schoolhoofd
+    attributes:
+      original_use: Christelijke lagere school
+    sources:
+      - https://data.amsterdam.nl/monumenten/c5f4b509-656b-40da-b25b-6a49297bf5cc
+
+- title: Paramaribostraat housing by Piet Kramer
+  summary: A 1924 Piet Kramer housing ensemble in the Westindische Buurt, south of the Postjesweg, listed in the city's first round of Amsterdam School designations in 1992.
+  body: |
+    In the southern part of Plan West, where the streets are named after places in Suriname and the Antilles, Piet Kramer designed the blocks along the Paramaribostraat and the Marowijnestraat (1924), at the same time as his long walls on the Hoofdweg a few streets away. The city listed the ensemble in 1992, in the same round as Wijdeveld's Hoofdweg blocks, Roodenburgh's Vespuccistraat and Staal's Jan Evertsenstraat.
+
+    The city has not published a description for this monument, so there is little written about it. It is worth comparing with Kramer's Hoofdweg blocks: the same working-class flats behind long brick walls, with the energy concentrated in the corners and entrances.
+
+    Look for:
+    - the corner of the Paramaribostraat and the Marowijnestraat, where the blocks turn
+    - grouped porch entrances between brick piers
+  category: housing
+  lat: 52.362102
+  lng: 4.854145
+  address: Paramaribostraat 40-133, Marowijnestraat 1-11
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/fafa011c-a917-46b2-a4bc-902d5811fa58" }
+    - { label: Wikipedia (nl) Surinameplein, url: "https://nl.wikipedia.org/wiki/Surinameplein" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200063"
+    built: "1924"
+    architect: Piet Kramer
+    listed: 1992
+    original_use: Housing
+  photos:
+    - commons:File:Paramaribostraat hoek Marowijnestraat pic1.JPG
+  sources:
+    - city:200063 (register metadata only, no text)
+  nl:
+    title: Woningbouw Paramaribostraat (Piet Kramer)
+    summary: Woningbouw van Piet Kramer uit 1924 in de Westindische buurt ten zuiden van de Postjesweg, in 1992 aangewezen in de eerste ronde gemeentelijke monumenten uit de Amsterdamse School.
+    body: |
+      De straten in de buurt ten noorden van het Surinameplein zijn genoemd naar geografische begrippen in Suriname en de (voormalige) Nederlandse Antillen; de buurt werd daarom door de gemeente de Westindische buurt genoemd, maar tegenwoordig staat dit gebied bekend als Postjesbuurt. Aan de Paramaribostraat en de Marowijnestraat staan woonblokken naar ontwerp van P.L. Kramer uit 1924. De gemeente wees ze in 1992 aan als gemeentelijk monument, samen met onder meer de blokken van Wijdeveld aan de Hoofdweg, Roodenburgh aan de Vespuccistraat en Staal aan de Jan Evertsenstraat.
+
+      Voor dit monument is geen redengevende omschrijving gepubliceerd. De blokken zijn goed te vergelijken met Kramers woonblokken aan de Hoofdweg uit dezelfde jaren.
+
+      Let op:
+      - de hoek van de Paramaribostraat en de Marowijnestraat
+      - de gekoppelde portiekingangen tussen gemetselde dammen
+    attributes:
+      original_use: Woningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/fafa011c-a917-46b2-a4bc-902d5811fa58
+      - https://nl.wikipedia.org/wiki/Surinameplein
+
+- title: Arminiuskerk
+  summary: The only post-war church the Remonstrants ever built in Amsterdam (1957), rising from the Postjeswetering with a concrete bell frame and walls of glass cast in a meander pattern – now a neighbourhood centre with a sports hall in the nave.
+  body: |
+    When the Remonstrants left their old church on the Keizersgracht – later the cultural venue De Rode Hoed – they built this new one in De Baarsjes: the first and only post-war Remonstrant church in Amsterdam. The first stone was laid on 13 May 1956 and it opened on 3 May 1957, at a cost of 400,000 guilders. The architect K.L. Sijmons was known for renewing Protestant church architecture; in Amsterdam he also built the Mennonite Olijftak and the Thomaskerk.
+
+    Sijmons wanted a balanced room rather than a conventional preaching church with a centre aisle. The side wall facing the water is a continuous wall of glass set in white concrete in a meander pattern; the street side is closed. For him that contrast expressed the relation between the human and the divine. A tall concrete bell frame rises over the junction of the low front building and the hall. The Postjeswetering was later widened, so the church now partly rises straight from the water. The Remonstrants left in the early 1980s; it became a neighbourhood centre and the nave a sports hall.
+
+    Look for:
+    - the meander-patterned concrete-and-glass wall along the water
+    - the open concrete tower above the hall's front wall
+    - rows of small square light slits in the brick front
+    - the pergola between the front building and the canal
+  category: religious
+  lat: 52.360104
+  lng: 4.849574
+  address: Postjeskade 200
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c198296a-a0ce-49d2-a12a-39662f6a701b" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200684"
+    built: 1956–1957
+    architect: K.L. Sijmons Dzn
+    listed: 2013
+    original_use: Remonstrant church with church hall
+  photos:
+    - commons:File:Arminiuskerk aan de Postjeskade te Amsterdam in gebruik genomen, Bestanddeelnr 908-5583.jpg
+  sources:
+    - city:200684 (register text)
+  nl:
+    title: Arminiuskerk
+    summary: De eerste en enige naoorlogse nieuwbouwkerk van de Remonstrantse Broederschap in Amsterdam (1957), met een betonnen klokkenstoel en glas-in-betonramen in meanderpatroon aan de Postjeswetering – nu een buurtcentrum.
+    body: |
+      De Arminiuskerk is de eerste en enige naoorlogse nieuwbouwkerk van de Remonstrantse Broederschap in Amsterdam. Het gebouw naar ontwerp van architect K.L. Sijmons Dzn markeert tevens een cesuur, omdat de opening ervan samenviel met de sluiting van de oude Remonstrantse Kerk aan de Keizersgracht, later bekend onder de naam De Rode Hoed. De eerste steen werd gelegd op 13 mei 1956, de ingebruikneming vond plaats op 3 mei 1957; de bouwkosten bedroegen f 400.000. Begin jaren tachtig werd het gebouw gesloten voor de remonstrantse eredienst en in gebruik genomen als buurtcentrum; de kerkzaal doet dienst als sportzaal.
+
+      Aanvankelijk stond het kerkgebouw in het plantsoen; later is de Postjeswetering uitgegraven tot een grotere breedte, waardoor het gebouw deels uit het water oprijst. De gevel aan de Postjeswetering is behandeld als een doorlopende glaswand, in beton gegoten in een meanderpatroon; de tegenoverliggende wand langs de straat is geheel gesloten. Uit deze tegenstelling zou, volgens Sijmons, de relatie tussen 'de wereld van het menselijke en het bovenmenselijke' tot uiting komen.
+
+      Let op:
+      - de meanderramen, waar het wit van het beton contrasteert met de donkere glasruimten
+      - de betonnen toren die zich als een klokkenstoel boven de voorgevel van de kerkzaal verheft
+      - de vierkante lichtspleten in rijen van vier boven elkaar in de voorgevel
+      - de pergola tussen de voorbouw en de gracht
+    attributes:
+      original_use: Remonstrantse kerk met nevenruimten
+    sources:
+      - https://data.amsterdam.nl/monumenten/c198296a-a0ce-49d2-a12a-39662f6a701b
+
+- title: Het Sieraad
+  summary: The former Fourth Trade School on its kite-shaped island at the Postjesweg, with Hildo Krop's sculpture of sea voyages and trades and the motto "zonder moeite niets" (nothing without effort).
+  body: |
+    The Public Works architect A.J. Westerman designed this school for the Vierde Ambachtsschool (Fourth Trade School), built in 1921–1923 on a five-sided plot almost surrounded by water. Classrooms ring an inner courtyard off a corridor that runs all the way round, and a former museum hall forms an extra storey at the front. Later it housed the vocational school for goldsmiths and watchmakers. After the school left in 2002 the building was restored, the courtyard got a glass roof, and it now holds an events venue, workspaces and a restaurant.
+
+    The national register calls it a richly executed municipal school for vocational education. Hildo Krop's tufa sculptures around the main door refer to the trades taught here and to the sea voyages of the admirals after whom the surrounding streets are named; a man and a woman hold the city arms and the motto *zonder moeite niets*.
+
+    Look for:
+    - Krop's sculpture around the entrance and the wrought-iron grilles with wave motifs
+    - half-round brick oriels on carved consoles above the side entrances
+    - the long horizontal window bands and the concave front
+  category: schools
+  lat: 52.364534
+  lng: 4.859298
+  address: Postjesweg 1
+  links:
+    - { label: Rijksmonumentenregister (527153), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527153" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/06e7f235-9317-4918-b513-0c642d9d6894" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Het_Sieraad" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q1996061" }
+  attributes:
+    heritage_status: National monument
+    monument_number: "527153"
+    built: 1921–1923
+    architect: A.J. Westerman (Dienst Publieke Werken)
+    listed: 2003
+    original_use: Trade school (ambachtsschool)
+    artist: Hildo Krop
+  photos:
+    - commons:File:Postjesweg 1 (2).JPG
+    - commons:File:Ambachtsschool, voorgevel - Amsterdam - 20015887 - RCE.jpg
+  sources:
+    - rce:527153 (register text)
+    - wd:Q1996061
+    - https://nl.wikipedia.org/wiki/Het_Sieraad
+  nl:
+    title: Het Sieraad
+    summary: De voormalige 4e ambachtsschool op een vliegervormig perceel aan de Postjesweg, met beeldhouwwerk van Hildo Krop over de vakken en de zeereizen van de admiraals, en de tekst 'zonder moeite niets'.
+    body: |
+      In 1921-1923 tot stand gekomen schoolgebouw voor de voormalige 4e ambachtsschool, gebouwd in opdracht van de Dienst Publieke Werken naar een ontwerp van de architect A.J. Westerman in de stijl van de Amsterdamse School, op een vliegervormig perceel aan de Postjesweg. De gevels zijn gedecoreerd met werken van de beeldhouwer Hildo Krop. De lokalen liggen rondom een (in oorsprong open) binnenplaats aan een omlopende gang; aan de voorzijde ligt een extra bouwlaag met de voormalige museumzaal. Later was hier de Vakschool voor Edelsmeden en Uurwerktechniek gevestigd.
+
+      Het Rijk noemt het een grotendeels gaaf bewaard voorbeeld van een gemeentelijk schoolgebouw voor beroepsonderwijs in een voor de bouwtijd kenmerkende, doch rijk uitgevoerde Amsterdamse Schooltrant. De gevels zijn met doorlopende vensterseries en gevellijsten sterk horizontaal geleed.
+
+      Let op:
+      - het beeldhouwwerk in tufsteen bij de hoofdingang, met verwijzingen naar de vakken van de ambachtsschool en de zeereizen van de admiralen, en een mannen- en vrouwenfiguur met het stadswapen en de tekst 'zonder moeite niets'
+      - de deur met smeedijzeren sierbeslag en traliewerk met golfslagmotieven
+      - de halfronde gemetselde erkers op gebeeldhouwde consoles boven de zij-ingangen
+    attributes:
+      architect: A.J. Westerman (Dienst Publieke Werken)
+      original_use: Ambachtsschool
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527153
+      - https://nl.wikipedia.org/wiki/Het_Sieraad
+
+- title: Former Apostolic church, Witte de Withstraat (now a mosque)
+  summary: A small Greek-cross church of 1920–1921 that looks like Frank Lloyd Wright came to De Baarsjes – built for an Apostolic congregation and since 1997 a mosque.
+  body: |
+    The plan for this "meeting hall with minister's house" was submitted to the municipality of Sloten, which still governed the area: the permit dates from April 1920 and the building was in use by May 1921. It was built for an Apostolic congregation, a movement that grew out of a 19th-century English revival and favoured the Greek cross for its churches. The design is signed by Th.W. Rueter, known for country houses in the Gooi, and H.F. Sijmons; the register suspects Sijmons, who had already built an Apostolic church on the Henri Polaklaan, set the tone.
+
+    In 1996–1997 the Stichting Moskee Nour converted the church into a mosque and community centre, digging a prayer room into the old foundations of brick arches on wooden piles. The cubic masses, strong horizontals and deep overhangs show the influence of Frank Lloyd Wright.
+
+    Look for:
+    - the raised square centre of the Greek cross above the lower arms
+    - the corner entrance, cut off at an angle, with two empty niches above it where statues once stood
+    - the stair tower on the Witte de Withstraat side, crowned with a cap
+    - the attached minister's house on the Van Kinsbergenstraat
+  category: religious
+  lat: 52.368524
+  lng: 4.859251
+  address: Witte de Withstraat 96, Van Kinsbergenstraat 55
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/bfbe8d93-986f-4efc-8cd0-d747efd67a18" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200687"
+    built: 1920–1921
+    architect: Th.W. Rueter and H.F. Sijmons
+    listed: 2013
+    original_use: Apostolic church with minister's house
+  photos:
+    - commons:File:Witte de Withstr 96, Amsterdam.jpg
+  sources:
+    - city:200687 (register text; text gives permit 1920 and use from 1921, metadata says 1923–1925; record is named "Nieuw Apostolische Kerk", text speaks of "Apostolische kerk" / Gemeente van Apostolische Christenen)
+  nl:
+    title: Voormalige Apostolische kerk Witte de Withstraat (nu moskee)
+    summary: Een kerkje op een Grieks-kruisplattegrond uit 1920-1921 met invloeden van Frank Lloyd Wright, gebouwd voor een Apostolische gemeente en sinds 1997 een moskee.
+    body: |
+      Het plan voor de nieuwe Apostolische kerk, 'een vergaderzaal met ambtswoning', werd ingediend bij de gemeente Sloten, die tot 1922 voor het desbetreffende gebied verantwoordelijk was. De bouwvergunning werd verleend op 28 april 1920; de vergunning tot ingebruikneming werd afgegeven op 31 mei 1921. In 1996 vroeg de Stichting Moskee Nour vergunning aan om het kerkgebouw in te richten tot moskee- en ontmoetingsruimte. Daarbij werd een kelderverdieping gebouwd binnen de bestaande fundering, die bestond uit gemetselde bogen op houten palen.
+
+      De ontwerptekeningen staan op naam van Th.W. Rueter en H.F. Sijmons; wellicht is de bemoeienis van Sijmons bepalend geweest. Het hoofdmoment in de compositie heeft een plattegrond in de vorm van een Grieks kruis, herkenbaar boven de lagere aanbouwen door het vierkant van de middenruimte. Het kubistische karakter van de bouwmassa's, het sterke horizontalisme, het overstek van de luifels en de uitkraging van de bouwmassa's tonen beïnvloeding van de architectuur van Frank Lloyd Wright.
+
+      Let op:
+      - het verhoogde vierkant met vier groepen van drie gekoppelde smalle vensters en pilonen op de hoeken
+      - de afgeschuinde hoofdingang op de hoek, met daarboven twee nissen die gevuld waren met beelden
+      - het torenachtige trappenhuis aan de Witte de Withstraat, bekroond door een helm
+      - het dienstgebouw aan de Van Kinsbergenstraat
+    attributes:
+      original_use: Apostolische kerk met ambtswoning
+    sources:
+      - https://data.amsterdam.nl/monumenten/bfbe8d93-986f-4efc-8cd0-d747efd67a18
+
+- title: De Klimop (Admiralengracht 301)
+  summary: A child-sized 1930 nursery school by Public Works, three red-roofed volumes and a low curved wing that wraps around the playground by the Admiralengracht.
+  body: |
+    The Public Works department built this school for *voorbereidend onderwijs* (nursery education) in 1928–1930, at a time when the city first took the building of good schools for young children seriously. From 1935 until the 1980s it was the Klimop (Ivy) nursery school. In 1994 it became a day-care centre for babies and toddlers, keeping the main layout.
+
+    The building shows its inside on the outside: two big playrooms under a cross gable at the west end, then six classrooms along a corridor, and a two-storey stair wing at the east end. A long, low wing under a flat roof, once a covered play area, encloses the playground on the canal side. The register praises it as a successful example of Public Works Amsterdam School architecture of the 1930s.
+
+    Look for:
+    - the three volumes under red pitched roofs of different heights
+    - the low wing along the playground
+    - the brick niches in the playground fence on the Vancouverstraat side (1996)
+  category: schools
+  lat: 52.373629
+  lng: 4.855284
+  address: Admiralengracht 301, Vancouverstraat
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/63648e7f-f55b-42f1-a631-63a426cbf52a" }
+  attributes:
+    heritage_status: Municipal monument
+    monument_number: "200677"
+    built: 1928–1930
+    architect: Dienst Publieke Werken
+    listed: 2013
+    original_use: Nursery school
+  photos: []
+  sources:
+    - city:200677 (register text)
+  nl:
+    title: De Klimop (Admiralengracht 301)
+    summary: Een kleuterschool van Publieke Werken uit 1928-1930, opgebouwd uit bouwdelen onder rode zadeldaken en een lage vleugel die het speelplein aan de Admiralengracht begrenst.
+    body: |
+      De school voor Voorbereidend Onderwijs (kleuterschool) naar ontwerp van de Dienst der Publieke Werken behoort tot het type corridorschool, met in het hoofdgebouw zes lokalen aan de pleinzijde van de gang. Op de westkop sluiten twee grote speellokalen dit bouwdeel af. Aan de oostzijde sluiten een korte tweelaagse vleugel met het trappenhuis en een langgerekte eenlaagse vleugel aan, die als overdekte speelplaats bestemd was en het speelplein aan de Admiralengracht begrenst. Vanaf 1935 tot de opheffing in de jaren 1980 werd De Klimop gebruikt als kleuterschool. In 1994 werd het herontwikkeld als kinderopvang voor baby's en peuters, waarbij de hoofdindeling is behouden.
+
+      De school is een geslaagd schoolvoorbeeld van de Amsterdamse Schoolarchitectuur van de Dienst der Publieke Werken in de jaren 1930, uit een tijd waarin de gemeente de bouw van gedegen scholen, ook voor kleuters, voor het eerst consciëntieus ter hand neemt.
+
+      Let op:
+      - de markante opbouw in verschillende bouwdelen met beeldbepalende zadeldaken
+      - de lage vleugel langs het speelplein
+      - het hekwerk met een serie gemetselde nissen aan de Vancouverstraat (1996)
+    attributes:
+      original_use: Kleuterschool
+    sources:
+      - https://data.amsterdam.nl/monumenten/63648e7f-f55b-42f1-a631-63a426cbf52a
+
+- title: Cabotstraat school island
+  summary: Three parallel Public Works schools of 1928, joined by a tall curving schoolyard wall – a rare "school island" laid out in strips between the Admiralengracht and the Cabotstraat.
+  body: |
+    In 1928 the Public Works department laid out three school buildings side by side in parallel strips, with playgrounds between them screened from the street by a high brick wall. From north to south they held the Admiralengrachtschool and Columbusschool, a middle school, and the southern school, each a long corridor building with classrooms facing the playground. The three schools and the wall are protected together as national monuments; the register calls the strip layout a rare arrangement.
+
+    The schools are three storeys high under red-tiled roofs, with blocky, stepped entrance wings at both ends and rows of small square windows above taller ones. The wall is architecture in its own right: it rises where it meets the end walls of the schools – with a quarter-round sweep at two of them – contains doors under brick arches, and continues along the Cabotstraat as a low parapet.
+
+    Look for:
+    - the high schoolyard wall with its quarter-round sweeps
+    - the long rows of identical small windows under the roof
+    - the stepped entrance blocks at the ends of each school
+  category: schools
+  lat: 52.369284
+  lng: 4.856364
+  address: Admiralengracht / Cabotstraat, between Jan Evertsenstraat and Willem Schoutenstraat
+  links:
+    - { label: Rijksmonumentenregister (527139), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527139" }
+    - { label: Rijksmonumentenregister (527140), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527140" }
+    - { label: Rijksmonumentenregister (527141), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527141" }
+    - { label: Rijksmonumentenregister (527142), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/527142" }
+  attributes:
+    heritage_status: National monument
+    monument_number: 527139, 527140, 527141, 527142
+    built: "1928"
+    architect: Dienst Publieke Werken
+    original_use: Elementary schools
+  photos: []
+  sources:
+    - rce:527139–527142 (register texts; not in the city slice, found via RCE linked data)
+  nl:
+    title: Scholencomplex Admiralengracht/Cabotstraat
+    summary: Drie parallelle scholen van Publieke Werken uit 1928, verbonden door een hoge schoolmuur – een zeldzaam 'school-eiland' in strokenbouw tussen Admiralengracht en Cabotstraat.
+    body: |
+      Het schoolgebouw (A) is een complexonderdeel van een ensemble van drie parallel gesitueerde en door een schoolmuur onderling verbonden scholen en van deze drie de meest noordelijk gelegen. De school van het gangtype (G.L.O. en K.O. Admiralengrachtschool en Columbusschool) is in 1928 ontworpen door de Dienst Publieke Werken in de stijl van de late Amsterdamse School. De lokalen bevinden zich aan de achterzijde, aan het schoolplein. De school is in baksteen opgetrokken met drie bouwlagen onder een rood pannen zadeldak; aan beide kopse kanten bevinden zich blokvormige, in hoogte verspringende uitbouwen met de ingangsportieken.
+
+      De hoog opgemetselde schoolmuur, eveneens uit 1928, is architectonisch met de scholen geïntegreerd, schermt de twee tussenliggende speelplaatsen af van de openbare weg en zet zich in de Cabotstraat als lage borstwering voort. Het Rijk noemt het geheel een zeldzame aanleg van een scholencomplex in strokenbouw en de muur de fysieke begrenzing van een 'school-eiland'.
+
+      Let op:
+      - de schoolmuur, verhoogd waar hij een deel van de eindgevels vormt, bij twee scholen met een kwartronde inzwenking
+      - de reeksen kleine vierkante vensters boven de staande tweeruits vensters
+      - de deuren onder een rollaag op hardstenen neuten
+    attributes:
+      original_use: Lagere scholen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527139
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/527142
+
+# ================================================================ Part 2: other C-list places
+
+- title: Slatuinenweg
+  summary: A narrow lane of one- and two-storey cottages that dips below the city around it – the last remnant of the hamlet of De Baarsjes and of a 1675 church path through the lettuce gardens.
+  body: |
+    Before Amsterdam spread west, this was the hamlet of De Baarsjes in the municipality of Sloten, named after an inn called De Drie Baarsjes (The Three Little Perch) by the toll bridge over the Kostverlorenvaart. From 1675 a church path, the Slatuinenpad, ran from here across the polder to the church in Sloterdijk, between market gardens growing lettuce (*sla*) and other greens. Into the 1920s it was a favourite walk for city dwellers.
+
+    The tram embankment of 1904 and then the new streets of the 1920s were built up on raised sand, but the path stayed at the old polder level. What is left is this short stretch between the Baarsjesweg and the Admiraal de Ruijterweg, renamed Slatuinenweg in 1924. It is still the width of a path, and coming from the Admiraal de Ruijterweg it seems to dive into a hollow. The Willem de Zwijgerlaan further north largely follows the old route.
+
+    Look for:
+    - the drop in level where the lane leaves the Admiraal de Ruijterweg
+    - the row of workers' cottages at nos. 29–39, with a foundation stone dated 4 September 1895 laid by three-and-a-half-year-old Hendrik Klomp
+    - the old Sloten police post on the sharp corner with the Baarsjesweg
+    - the gate to the Natuurtuin Slatuinen between the houses at no. 45
+  category: hidden-history
+  lat: 52.369873
+  lng: 4.863361
+  address: Slatuinenweg, between Baarsjesweg and Admiraal de Ruijterweg
+  links:
+    - { label: Wikipedia (nl) Slatuinenweg, url: "https://nl.wikipedia.org/wiki/Slatuinenweg" }
+    - { label: Wikipedia (nl) De Baarsjes (buurtschap), url: "https://nl.wikipedia.org/wiki/De_Baarsjes_(buurtschap)" }
+  photos:
+    - commons:File:Slatuinenweg.JPG
+    - commons:File:2022 Slatuinenweg 29-65, Asd.jpg
+    - commons:File:Slatuinenweg pic1.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Slatuinenweg
+    - https://nl.wikipedia.org/wiki/De_Baarsjes_(buurtschap)
+  nl:
+    title: Slatuinenweg
+    summary: Een smal weggetje met polderwoninkjes op het oude polderniveau – het laatste overblijfsel van de buurtschap De Baarsjes en van het kerkepad uit 1675 door de slatuinen.
+    body: |
+      De Baarsjes was een buurtschap in de voormalige gemeente Sloten. De naam verwijst naar een voormalige herberg genaamd De Drie Baarsjes, gelegen vlak bij de Tolbrug aan de westelijke zijde van de Kostverlorenvaart. Het Slatuinenpad verbond de buurtschap vanaf 1675 met de Haarlemmerweg en voerde dwars door de polder langs de Slatuinen. Het was aangelegd als kerkepad waarlangs de bewoners naar de Petruskerk in Sloterdijk konden wandelen. Tot in de jaren twintig van de 20e eeuw was het pad een geliefde wandelroute voor de stedelingen ten oosten van de Kostverlorenvaart.
+
+      De tram werd in 1904 aangelegd op een hoger zandlichaam, terwijl het pad op polderniveau lag. Wat overbleef is een kort restant tussen de Baarsjesweg en de Admiraal de Ruijterweg; de naam Slatuinenpad werd hier op 30 januari 1924 gewijzigd in Slatuinenweg. De inrichting van de straat, eigenlijk nog ter breedte van een pad, dateert nog uit de tijd van de gemeente Sloten. Vanaf de Admiraal de Ruijterweg duikt de straat als het ware de diepte in. De Slatuinenweg is nog een laatste overblijfsel van de buurtschap met haar karakteristieke lage huisjes.
+
+      Let op:
+      - de polderwoninkjes van één, hooguit twee bouwlagen
+      - de arbeiderswoninkjes uit 1895 op Slatuinenweg 29-39: 'eerste steen op 4 september 1895' (Hendrik Klomp, dan 3,5 jaar)
+      - het oude politieposthuis en brandweerpost op de scherpe hoek met de Baarsjesweg
+    sources:
+      - https://nl.wikipedia.org/wiki/Slatuinenweg
+      - https://nl.wikipedia.org/wiki/De_Baarsjes_(buurtschap)
+
+- title: Natuurtuin Slatuinen
+  summary: A hidden nature garden inside a 1920s housing block, reached through a narrow gate between the cottages of the Slatuinenweg – a former park and nursery that residents saved and have run since 1991.
+  body: |
+    The ground behind the Slatuinenweg cottages was never built on. It was polder land, then from 1912 a small park (first the Julianapark, later the Wilhelminapark), and from the 1930s until 1984 a plant nursery run by the Hendriksen family. Only when the Chassébuurt was built in the 1920s did it become an enclosed inner court.
+
+    After the nursery closed the plot ran wild, until the council felled the trees in 1986. Angry neighbours drew up a plan for a nature garden with a social and educational purpose, and since 1991 the Stichting Natuurtuin Slatuinen has managed it with volunteers. The idea is to let nature partly go its own way, with mainly native trees and plants, ponds and brush piles. The garden is open a few afternoons a week (check the foundation's website), and volunteers give advice on wild and native plants.
+
+    Look for:
+    - the gate between the houses at Slatuinenweg 45 and the path to the small garden building
+    - snake's head fritillaries (*wilde kievitsbloem*) in spring
+    - the backs of the 1920s blocks of the Chasséstraat and Jacob van Wassenaer Obdamstraat closing it in
+  category: green
+  lat: 52.370501
+  lng: 4.862278
+  address: Slatuinenweg 45
+  links:
+    - { label: Natuurtuin Slatuinen – visit, url: "https://www.natuurtuinslatuinen.nl/bezoek-contact" }
+    - { label: Natuurtuin Slatuinen – history, url: "https://www.natuurtuinslatuinen.nl/historie" }
+    - { label: Wikipedia (nl) Slatuinenweg, url: "https://nl.wikipedia.org/wiki/Slatuinenweg" }
+  photos:
+    - commons:File:Natuurtuin Slatuinen.jpg
+    - commons:File:Ingang Natuurtuin Slatuinen.JPG
+  sources:
+    - https://www.natuurtuinslatuinen.nl/historie
+    - https://www.natuurtuinslatuinen.nl/bezoek-contact
+    - https://nl.wikipedia.org/wiki/Slatuinenweg
+  nl:
+    title: Natuurtuin Slatuinen
+    summary: Een 'verborgen paradijsje' in een bouwblok uit de jaren twintig, bereikbaar via een poort tussen de huisjes van de Slatuinenweg – sinds 1991 een natuurtuin in zelfbeheer van bewoners.
+    body: |
+      Een 'verborgen paradijsje' wordt het wel genoemd: de Natuurtuin Slatuinen. Het terrein, omsloten door een huizenrij aan de Slatuinenweg en de woonblokken aan de Admiraal de Ruijterweg, Chasséstraat en Jacob van Wassenaar Obdamstraat, heeft altijd al een landelijke of groene bestemming gehad: lange tijd als polderland, vervolgens vanaf 1912 als Julianapark, het latere Wilhelminapark, dan vanaf de jaren dertig tot 1984 als kwekerij, om ten slotte vanaf 1991 een bestemming te krijgen als natuurtuin.
+
+      De ontwikkeling van het terrein tot natuurtuin is te danken aan een bewonersinitiatief. De ontstane wildernis bood een weelderige aanblik voor de omwonenden, maar daar kwam in 1986 een abrupt einde aan door drastische gemeentelijke houtkapwerkzaamheden. De bewoners dienden een plan in bij het stadsdeel voor een natuurtuin met een sociale en educatieve functie. Onder een natuurtuin verstaat de stichting een tuin waarin de natuur gedeeltelijk haar gang kan gaan; het gebruik van bomen en kruiden is voornamelijk inheems.
+
+      Let op:
+      - de poortdeur waardoor men via een pad tussen de huizen 'het platje' bij het gebouwtje bereikt
+      - de uitbundige bloei van de wilde kievitsbloem
+      - de vijvers en takkenrillen
+    sources:
+      - https://www.natuurtuinslatuinen.nl/historie
+      - https://www.natuurtuinslatuinen.nl/bezoek-contact
+
+- title: Chassékerk
+  summary: A 1926 Catholic church for 1,200 people under a huge mansard roof, saved from demolition by its neighbours, squatted for a few days in 2004 and now a dance centre.
+  body: |
+    The parish priest Johannes Huibers, later Bishop of Haarlem, set out to serve the Catholics moving into the new western districts. Karel Petrus Tholens designed the church and presbytery (1924–1926), and it was consecrated in November 1926 to Our Lady of Perpetual Help. It was part of a complex with a convent, a girls' school and a nursery school. A wide nave with narrow aisles and no pillars gave all 1,200 worshippers a clear view of the altar, which faces east.
+
+    Declining attendance closed the church in 1998. The parish wanted to demolish it and build housing; the district first put it on the municipal monument list in 2003, then withdrew the listing after the parish objected. Squatters took it in September 2004 and were evicted by riot police a few days later. Neighbours fought off a second demolition plan by the housing corporation Ymere, and in 2011 a businessman bought it and turned it into a cultural centre focused on dance.
+
+    Look for:
+    - the two surviving towers
+    - the vast mansard roof that covers the whole building
+    - sculpture by Kees Smout near the entrances and in the gable
+  category: religious
+  lat: 52.369783
+  lng: 4.861748
+  address: Chasséstraat 62
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Chass%C3%A9kerk" }
+  photos:
+    - commons:File:Amsterdam Chassékerk (01).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Chassékerk
+    - rce:527107 (RCE linked data marks it "geen rijksmonument")
+  nl:
+    title: Chassékerk
+    summary: De voormalige rooms-katholieke Kerk van Onze-Lieve-Vrouw van Altijddurende Bijstand (1924-1926) van K.P. Tholens, onder een groot mansardedak – door de buurt van sloop gered en nu een danscentrum.
+    body: |
+      De Chassékerk is de bijnaam van de voormalige rooms-katholieke Kerk van Onze-Lieve-Vrouw van Altijddurende Bijstand. De kerk en de pastorie werden in 1924-'26 door Karel Petrus Tholens ontworpen. Het initiatief voor de bouw kwam van bouwpastoor Johannes Petrus Huibers, de latere bisschop van Haarlem. De plattegrond met een breed middenschip en smalle zijbeuken weerspiegelt de liturgische vernieuwing van rond 1900; het geheel gaat schuil onder een mansardedak. De kerk bood plaats aan 1200 gelovigen, die vanuit overal goed zicht hadden door het ontbreken van pilaren.
+
+      In 1998 werd de kerk aan de eredienst onttrokken. Het parochiebestuur en het bisdom wilden de kerk slopen, maar op 23 september 2003 besloot het dagelijks bestuur van stadsdeel De Baarsjes de Chassékerk op de gemeentelijke monumentenlijst te plaatsen; na een bezwaarschrift van de parochie werd dat besluit ingetrokken. Op 19 september 2004 werd de kerk gekraakt en enkele dagen later met een grote ME-macht ontruimd. Begin 2011 verkocht Ymere de kerk aan zakenman Lenny Balkissoon, die er een cultureel centrum van maakte met een focus op dans.
+
+      Let op:
+      - de twee bewaard gebleven kerktorens
+      - het grote mansardedak
+      - het werk van Kees Smout nabij de ingangen en in de topgevel
+    sources:
+      - https://nl.wikipedia.org/wiki/Chassékerk
+
+- title: Westermoskee
+  summary: A Turkish mosque that took twenty years of fighting to build, designed by French architects to echo the Amsterdam School brickwork around it, with a 43-metre minaret and a square named after the Ottoman cartographer Piri Reis.
+  body: |
+    In 1994 the Turkish association Milli Görüş bought the derelict Riva industrial site by the Kostverlorenvaart to build a mosque. The district council found the plan too big and wanted it folded into its own renewal of the Chassébuurt, and years of bitter conflict followed. A deal in 2000 combined a smaller mosque with 111 homes, offices, community space and an underground car park, all by the French architect couple Breitman. Neighbours' objections over the demolition of older buildings and the height of the minaret delayed it another six years, and construction of the mosque itself only began in April 2013. It opened on 1 April 2016.
+
+    The Breitmans gave the housing and the mosque the brick, the rhythms and the rounded corners of the Amsterdam School, so that the Ottoman-style dome and minaret sit inside a recognisably Amsterdam ensemble. The mosque got a Dutch name, Westermoskee; its Turkish name is Ayasofya Camii.
+
+    Look for:
+    - Amsterdam School-style brick housing wrapped around the mosque
+    - the minaret, at the height an arbitration committee insisted on to keep the composition intact
+    - the Piri Reisplein in front, named after the 16th-century Ottoman admiral and mapmaker
+  category: religious
+  lat: 52.3663
+  lng: 4.860448
+  address: Piri Reisplein 101
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Westermoskee" }
+  photos:
+    - commons:File:Westermoskee - Amsterdam (26579109769).jpg
+    - commons:File:Westermoskee Aya Sofya (Amsterdam, The Netherlands 2017).jpg
+    - commons:File:Westermoskee in aanbouw.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Westermoskee
+  nl:
+    title: Westermoskee
+    summary: Een Turkse moskee op het voormalige Riva-terrein, na een woelige ontwikkelingsperiode in 2016 geopend, ingepast in een project met woningen van het architectenechtpaar Breitman in de geest van de Amsterdamse School.
+    body: |
+      In 1994 kocht de Turkse vereniging Milli Görüş het in onbruik geraakte Riva-terrein, met als doel om op deze locatie een moskee te bouwen. De plannen stuitten al snel op bezwaren van stadsdeel De Baarsjes, dat de moskee te groot vond en te zeer een inbreuk op het karakter van de buurt. Er volgde een jarenlange heftige strijd. In 2000 volgde een akkoord: een kleinere, maar gezichtsbepalende moskee met een minaret van 43 meter, en daarnaast 111 woningen, kantoor- en bedrijfsruimte, ruimte voor maatschappelijke voorzieningen en een parkeergarage. De gebouwen werden door het Franse architectenechtpaar Breitman zo ontworpen dat ze een relatie met de bestaande bouw in Amsterdamse Schoolstijl aangaan.
+
+      Na een woelige ontwikkelingsperiode is de bouw van de moskee in april 2013 gestart. Op 1 april 2016 werd de Westermoskee geopend. Het plein bij de moskee is vernoemd naar de Turkse ontdekkingsreiziger Piri Re'is; de moskee zelf kreeg een Nederlandse naam.
+
+      Let op:
+      - de woningbouw die in baksteen en vormentaal aansluit bij de Amsterdamse School
+      - de minaret, waarvan een arbitragecommissie oordeelde dat de oorspronkelijke hoogte gehandhaafd moest blijven om geen afbreuk te doen aan de compositie van het geheel
+      - het Piri Reisplein
+    sources:
+      - https://nl.wikipedia.org/wiki/Westermoskee
+
+- title: Machineslootbrug
+  summary: Piet Kramer's 1929–1930 bridge carrying the Postjesweg over the Admiralengracht, built after residents campaigned against the narrow emergency bridges – its railings end in sea anemones.
+  body: |
+    When Amsterdam annexed Sloten in 1921 and started building Plan West, it reached the new district over two narrow wooden emergency bridges (1923) at the Jan Evertsenstraat and the Postjesweg. With some 35,000 people moving into the Mercator area they could not cope, and shopkeepers and residents kept demanding proper bridges. When the council finally released 330,000 guilders in 1928, the neighbourhood held a festival week. Piet Kramer designed this bridge and its twin, the Molenslootbrug; both date from 1929–1930.
+
+    The bridge matches the Amsterdam School style of the former trade school, Het Sieraad, right next to it. Brick alternates with granite, which carries carving probably by Hildo Krop. The name refers to the Machinesloot, an old name for the waterway roughly where the Admiralengracht now runs; locals also called it the Ambachtsbrug, after the school. The water was much lower then, at the level of the Sloterpolder, and was only raised to canal level in 1952.
+
+    Look for:
+    - the wrought-iron railings that end at the abutments in the shape of a sea anemone
+    - carved granite blocks among the brickwork
+    - the railings broken into sections – on the twin bridge they run through
+  category: infrastructure
+  lat: 52.364739
+  lng: 4.858181
+  address: Postjesweg over the Admiralengracht (bridge 358)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Machineslootbrug" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q18434287" }
+  attributes:
+    built: 1929–1930
+    architect: Piet Kramer
+  photos:
+    - commons:File:2019 Brug 358, overzicht (1).jpg
+    - commons:File:Machineslootbrug1930.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Machineslootbrug
+    - research/ams-school/places/oud-west-baarsjes.yaml (Machineslootbrug)
+  nl:
+    title: Machineslootbrug (brug 358)
+    summary: De brug van Piet Kramer uit 1929-1930 in de Postjesweg over de Admiralengracht, gebouwd nadat de buurt jarenlang om vervanging van de smalle noodbruggen had gevraagd – met balustraden die eindigen in een zeeanemoon.
+    body: |
+      De Machineslootbrug (brug 358) is een vaste brug in de Postjesweg over de Admiralengracht. Om het nieuwe deel van de stad te kunnen bereiken werden ter plaatse van de Jan Evertsenstraat en de Postjesweg in 1923 twee houten noodbruggen aangelegd. Het werd drukker en drukker, want er woonden ongeveer 35.000 mensen in deze Mercatorbuurt. Winkeliers en bewoners bleven om nieuwe bruggen vragen. In het najaar van 1928 werd krediet aangevraagd van 330.000 gulden voor vervanging van de noodbruggen. Toen het besluit genomen was, organiseerde de buurt direct een feestweek.
+
+      De bruggen kwamen van de tekentafel van Piet Kramer. De brug is net als de oude Ambachtsschool gebouwd in de stijl van de Amsterdamse School. Baksteen wordt afgewisseld met natuursteen/graniet, er zijn bewerkingen (vermoedelijk door Hildo Krop) gemaakt in het graniet en siersmeedijzeren balustraden. De brug is genoemd naar de Machinesloot, een oude naam voor een waterweg die ongeveer het spoor volgde van de Admiralengracht. In de volksmond werd ook wel Ambachtbrug gebezigd, naar de school.
+
+      Let op:
+      - de balustraden die in de landhoofden eindigen in de vorm van een zeeanemoon
+      - de bewerkingen in het graniet
+      - de balustrades, die bij brug 358 onderbroken zijn en bij brug 359 doorlopen
+    sources:
+      - https://nl.wikipedia.org/wiki/Machineslootbrug
+
+- title: Molenslootbrug
+  summary: The twin of the Machineslootbrug, carrying the Jan Evertsenstraat over the Admiralengracht between Van der Mey's gatekeeper towers – with an unusual zebra crossing in the middle of the bridge.
+  body: |
+    The emergency bridge that stood here from 1923 let trams 7 and 17 reach the Mercatorplein in July 1927. It was narrow, on the north side of the street only, and traffic had to swerve right and then left to cross it. Piet Kramer's permanent bridge, built in 1929–1930 together with the Machineslootbrug, replaced it. It has the same mix of brick, granite with carving probably by Hildo Krop, and wrought-iron railings. The name comes from the Molensloot, an old name for this part of the Admiralengracht.
+
+    Unusually for Amsterdam, the zebra crossing lies in the middle of the bridge instead of on the quays. After the jeweller Fred Hund was shot dead in a robbery in 2010, residents made a mosaic *social sofa* bench in his memory at the south-west corner. Locals called the bridge the Hundbrug. The bench disappeared during works in 2022, and the bridge itself was renewed from 2021.
+
+    Look for:
+    - the railings ending in sea anemones at the abutments, running through without a break
+    - the zebra crossing on the bridge deck
+    - Van der Mey's corner towers framing the bridge on both sides
+  category: infrastructure
+  lat: 52.371122
+  lng: 4.856569
+  address: Jan Evertsenstraat over the Admiralengracht (bridge 359)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Molenslootbrug_(Amsterdam)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q15943544" }
+  attributes:
+    built: 1929–1930
+    architect: Piet Kramer
+  photos:
+    - commons:File:Molenslootbrug.jpg
+    - commons:File:2019 Brug 359, overzicht.jpg
+    - commons:File:2019 Brug 359, siersmeedwerk.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Molenslootbrug_(Amsterdam)
+    - research/ams-school/places/oud-west-baarsjes.yaml (Molenslootbrug)
+  nl:
+    title: Molenslootbrug (brug 359)
+    summary: Het zusje van de Machineslootbrug, in de Jan Evertsenstraat over de Admiralengracht, ontworpen door Piet Kramer – met een zebrapad midden op de brug.
+    body: |
+      De Molenslootbrug (brug 359) is een vaste brug in de Jan Evertsenstraat over de Admiralengracht. De brug is een zusje van de Machineslootbrug (brug 358); de bruggen dateren van 1929 en 1930. Door de noodbrug 359 konden tramlijnen 7 en 17 op 14 juli 1927 doorgetrokken worden naar het Mercatorplein. Het was een smalle brug, waarbij het verkeer vanuit de stad gezien met een bocht naar rechts ging en daarna weer met een bocht naar links. De bruggen kwamen van de tekentafel van Piet Kramer. Baksteen wordt afgewisseld met natuursteen/graniet, er zijn bewerkingen (vermoedelijk door Hildo Krop) gemaakt in het graniet en siersmeedijzeren balustraden.
+
+      De brug werd vernoemd naar de Molensloot, de oude naam voor een deel van de Admiralengracht. Een bijnaam was Hundbrug, naar de bij een overval in 2010 doodgeschoten juwelier Fred Hund. Ter nagedachtenis aan hem kwam er in 2011 aan de zuidwestzijde van de brug een zitbank met mozaïek, een zogenaamde Social sofa, gemaakt door buurtbewoners; de bank is in 2022 verdwenen door werkzaamheden.
+
+      Let op:
+      - de balustraden die in de landhoofden eindigen in de vorm van een zeeanemoon
+      - het zebrapad, dat in tegenstelling tot elders in de stad midden op de brug ligt in plaats van op de kades
+    sources:
+      - https://nl.wikipedia.org/wiki/Molenslootbrug_(Amsterdam)
+
+- title: 4 May memorial, Columbusplein (Nina Rave)
+  summary: The neighbourhood's war memorial since 2018 – a dark block balancing on a dented golden sphere, its surface cut with more than eighty fingerprints of local children and residents.
+  body: |
+    De Baarsjes holds its annual 4 May Remembrance Day ceremony here. For decades it gathered at a simple white cross in front of the Visserschool; in 2018 the artist Nina Rave replaced it with this memorial, made in close collaboration with the neighbourhood. The school adopted the work.
+
+    A large dark block, standing for evil, balances on a golden sphere that stands for resistance, hope, self-respect and humanity. The sphere is dented: those values are under pressure but do not give way. Children, young people and residents cut more than eighty fingerprints into the surface of the block. The sphere mirrors the square around it, and with it, as the city's public-art curators put it, the presence of those who are no longer there.
+
+    Look for:
+    - the fingerprints on the block
+    - your own reflection in the golden sphere
+    - the granite inscription on the base: "Wij gedenken hen die leden, hen die stierven, hen die streden" (we remember those who suffered, those who died, those who fought)
+  category: hidden-history
+  lat: 52.365358
+  lng: 4.855483
+  address: Columbusplein
+  links:
+    - { label: Stadscuratorium Amsterdam, url: "https://stadscuratorium.nl/?p=3504" }
+  attributes:
+    built: "2018"
+    artist: Nina Rave
+  photos:
+    - commons:File:Nieuw monument Columbusplein, onthulling april 2018.jpg
+    - commons:File:Monument Columbusplein, 2018, informatiebord.jpg
+  sources:
+    - https://stadscuratorium.nl/?p=3504
+    - OSM node at 52.365358,4.855483 (artist Nina Rave, war_memorial, 2018)
+  nl:
+    title: 4 mei-monument Columbusplein (Nina Rave)
+    summary: Sinds 2018 het 4 mei-monument van De Baarsjes – een groot donker blok dat balanceert op een gedeukte gouden bol, met ruim tachtig vingerafdrukken van kinderen en buurtbewoners.
+    body: |
+      Aan het Columbusplein in Amsterdam-West staat sinds 2018 het 4 mei-monument van kunstenaar Nina Rave. Het vervangt het oude witte kruisje voor de Visserschool. De jaarlijkse herdenking in De Baarsjes vindt hier plaats. Het monument kwam tot stand in nauwe samenwerking met de buurt; de Visserschool adopteerde het werk.
+
+      Het kunstwerk bestaat uit een groot donker blok, balancerend op een gouden bol. Het blok verbeeldt het kwaad. De bol staat voor verzet, hoop, eigenwaarde en menselijkheid. De gedeukte vorm laat zien dat deze waarden onder druk staan, maar niet bezwijken. De gouden bol weerkaatst de omgeving, en daarmee de aanwezigheid van wie er niet meer zijn.
+
+      Let op:
+      - de ruim tachtig vingerafdrukken in het oppervlak van het blok, uitgesneden door kinderen, jongeren en buurtbewoners
+      - de in graniet gegraveerde tekst op de sokkel: 'Wij gedenken hen die leden, hen die stierven, hen die streden.'
+    sources:
+      - https://stadscuratorium.nl/?p=3504
+
+- title: War memorial, Witte de Withstraat
+  summary: A small gravestone-like stone set into a house front in June 1945, for a chemist and a father and son from this street who were executed in reprisal just weeks before liberation.
+  body: |
+    In the spring of 1945 a resistance group from Langedijk blew up a German van near Den Helder, thinking it was an ammunition transport; five people died. In reprisal the Germans executed eight prisoners at Zijpersluis on 11 April 1945. Three of them came from this street and had been arrested earlier for resistance work: Jacob Miedema, who ran a chemist's shop at no. 80, and Dirk Bons and his son Ton (Antonie Pieter), who lived upstairs at no. 82.
+
+    On 25 June 1945, less than two months after liberation, Joke Bons – herself a resistance courier – unveiled this stone before a large crowd, though the press barely noticed. Flowers are still laid here every 4 May.
+
+    Look for:
+    - the stone in the façade between nos. 78 and 80
+    - the inscription "Zij vielen voor het vaderland" (they fell for the fatherland)
+  category: hidden-history
+  lat: 52.367832
+  lng: 4.859265
+  address: Witte de Withstraat 78-80
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Oorlogsmonument_Witte_de_Withstraat" }
+  attributes:
+    built: "1945"
+  photos:
+    - commons:File:2024 Oorlogsmonument Witte de Withstraat, Asd (A).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Oorlogsmonument_Witte_de_Withstraat
+    - https://nl.wikipedia.org/wiki/Witte_de_Withstraat_(Amsterdam)
+  nl:
+    title: Oorlogsmonument Witte de Withstraat
+    summary: Een gedenksteen in de gevel, op 25 juni 1945 onthuld ter herinnering aan drie bewoners van de straat die in het voorjaar van 1945 als represaille werden gefusilleerd.
+    body: |
+      Het Oorlogsmonument aan de Witte de Withstraat is een gedenkteken in de Witte de Withstraat in Amsterdam-West. Ter hoogte van huisnummer 78-80 is een steen in de gevel geplaatst ter herinnering aan drie oorlogsslachtoffers. Een plaatselijke verzetsgroep uit Langedijk had nabij Den Helder een Duits busje opgeblazen waarbij vijf personen om het leven kwamen. Als represaillemaatregel werden op 11 april 1945 acht personen in Zijpersluis gefusilleerd, waaronder drie Amsterdammers die eerder waren opgepakt vanwege verzetswerk: Jacob Miedema (1891-1945), Dirk Bons (1897-1945) en Antonie Pieter (Ton) Bons (1921-1945). Miedema had een drogisterij op huisnummer 80.
+
+      Het monumentje in de vorm van een soort grafsteen werd op 25 juni 1945 door Joke Bons (zelf koerier) met veel publiek onthuld; de pers schonk er weinig aandacht aan. Jaarlijks vindt er op 4 mei in de Witte de Withstraat een bloemlegging plaats.
+
+      Let op:
+      - de tekst: 'Deze steen werd 25 juni 1945 geplaatst ter nagedachtenis van Jacob Miedema, Dirk Bons, Antonie Pieter Bons die in het voorjaar 1945 door de Duitse overweldigers werden gefusilleerd. Zij vielen voor het vaderland'
+    sources:
+      - https://nl.wikipedia.org/wiki/Oorlogsmonument_Witte_de_Withstraat
+
+- title: Damsko Strijder (Eberhard van der Laan portrait)
+  summary: A portrait of the much-loved mayor Eberhard van der Laan on the car-park lift shaft of the Mercatorplein, with his farewell words "Take good care of our city and of each other".
+  body: |
+    Eberhard van der Laan, mayor of Amsterdam from 2010, wrote a farewell letter to the city shortly before he died of lung cancer in October 2017. It ended with *Zorg goed voor onze stad en voor elkaar* – take good care of our city and of each other – and the line became a motto for Amsterdam.
+
+    In February 2017, just after his illness became known, the graffiti collective Kamp Seedorf – known for Ajax-related pieces around the city – put up a portrait of him, *Damsko Strijder* (roughly "Amsterdam fighter"), on the Wibautstraat. A month later a GVB cleaner removed it. In a public vote for a memorial artwork in January 2019 the design won by far, with more than 4,000 votes out of 59 entries. It went onto the lift shaft of the underground car park at the Mercatorplein, long considered an eyesore, and Van der Laan's widow, Femke van der Laan, unveiled it on 1 July 2019.
+
+    Look for:
+    - the farewell sentence painted with the portrait
+    - the lift shaft's spot among Berlage's square walls
+  category: street-art
+  lat: 52.369428
+  lng: 4.851367
+  address: Mercatorplein
+  links:
+    - { label: Wikipedia (nl) Mercatorplein, url: "https://nl.wikipedia.org/wiki/Mercatorplein_(Amsterdam)" }
+    - { label: NH Nieuws, url: "https://www.nhnieuws.nl/nieuws/238021" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q111514256" }
+  attributes:
+    built: "2019"
+    artist: Kamp Seedorf
+  photos:
+    - commons:File:Van der Laan, Mercatorplein (1).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Mercatorplein_(Amsterdam)
+    - wd:Q111514256 (coordinates)
+    - https://www.nhnieuws.nl/nieuws/238021
+  nl:
+    title: Damsko Strijder (portret Eberhard van der Laan)
+    summary: Een portret van burgemeester Eberhard van der Laan op de liftschacht van de parkeergarage aan het Mercatorplein, met zijn tekst 'Zorg goed voor onze stad en voor elkaar'.
+    body: |
+      In februari van 2017, vlak nadat bekend werd dat Eberhard van der Laan aan longkanker leed, verscheen Damsko Strijder op de Wibautstraat. Een maand later werd de tekening verwijderd door een reiniger van het GVB. Kamp Seedorf bestaat al sinds 2011 en werd bekend van de vaak Ajax-gerelateerde graffiti die overal in de stad verschenen. In januari 2019 werd Damsko Strijder met meer dan 4000 stemmen het winnende ontwerp voor een kunstwerk voor de oud-burgemeester.
+
+      Een punt van lelijkheid bleef de liftschacht van de ondergrondse parkeergarage op het Mercatorplein. Deze werd in 2019 opgefleurd door Kamp Seedorf; Femke van der Laan, zijn weduwe, onthulde het op 1 juli 2019. Het draagt Eberhards tekst: 'Zorg goed voor onze stad en voor elkaar.' Dat is de zin waarmee Van der Laan vlak voor zijn dood een brief afsloot gericht aan alle Amsterdammers.
+
+      Let op:
+      - de tekst bij het portret
+      - de plek van de liftschacht tussen Berlages pleinwanden
+    sources:
+      - https://nl.wikipedia.org/wiki/Mercatorplein_(Amsterdam)
+      - https://www.nhnieuws.nl/nieuws/238021
+
+- title: Levensboom, Monument van Besef
+  summary: A tree-of-life sculpture on the Surinameplein where Amsterdam has marked the abolition of Dutch slavery every 30 June since 1993 – the community's own memorial, unveiled in 2003.
+  body: |
+    On 1 July 1863 slavery was abolished in Suriname and the Dutch Caribbean islands. From 1993 people have gathered on the Surinameplein every 30 June for the *Nationale Dag van Besef* (National Day of Awareness). The journalist and broadcaster Roy Ristie and the 30 June/1 July Committee were among the initiators, and modelled it on the 4 and 5 May remembrance: a day of reflection on 30 June, a day of celebration (Keti Koti) on 1 July.
+
+    When the national slavery monument was unveiled in the Oosterpark in 2002, the committee felt that location was wrong and pressed for a memorial on the square where the ceremony had already been held for ten years. Henry Renfurm's Levensboom (tree of life) was unveiled here on 30 June 2003. Its trunk stands for the ethnic diversity of the community, its foliage for the countries of the former Kingdom and their bond. The Sranan name is *Bon fu Gron Prakseri*.
+
+    Look for:
+    - the leaves and the countries they stand for
+    - wreaths from the 30 June ceremony, with two minutes of silence and speeches
+  category: hidden-history
+  lat: 52.358642
+  lng: 4.852373
+  address: Surinameplein
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Levensboom,_Monument_van_Besef" }
+    - { label: Wikipedia (nl) Surinameplein, url: "https://nl.wikipedia.org/wiki/Surinameplein" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q27139393" }
+  attributes:
+    built: "2003"
+    artist: Henry Renfurm
+  photos:
+    - commons:File:Monument van besef.JPG
+    - commons:File:Surinameplein, Monument van besef1.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Levensboom,_Monument_van_Besef
+    - wd:Q27139393
+  nl:
+    title: Levensboom, Monument van Besef
+    summary: Monument van Henry Renfurm op het Surinameplein ter herdenking van het slavernijverleden, onthuld op 30 juni 2003, waar sinds 1993 jaarlijks de Nationale Dag van Besef wordt gehouden.
+    body: |
+      De Levensboom, Monument van Besef (Bon Fu Gron Prakseri) is een monument op het Surinameplein ter herdenking van het slavernijverleden, de afschaffing van de Nederlandse slavernij en de lotsverbondenheid van de landen die tot het Koninkrijk der Nederlanden behoorden. Het monument is ontworpen door Henry Renfurm en werd onthuld op 30 juni 2003.
+
+      Op 1 juli 1863 werd met de Emancipatiewet de slavernij afgeschaft in Suriname en de Caribische eilanden. Ter nagedachtenis hiervan komen sinds 1993 op het Surinameplein jaarlijks mensen samen op 30 juni, de Nationale Dag van Besef. Het Comité 30 juni/1 juli Amsterdam vond de locatie van het nationaal monument in het Oosterpark niet geschikt en werkte daarom aan de realisatie van de Levensboom op het Surinameplein, waar de jaarlijkse herdenking al tien jaar lang plaatsvond. De levensboom verzinnebeeldt de wens om samen verder te gaan.
+
+      Let op:
+      - de stam, die de etnische diversiteit van de gemeenschap verbeeldt, en het gebladerte, dat de landen en hun onderlinge verbondenheid verbeeldt
+      - op de Dag van Besef: twee minuten stilte, speeches en kranslegging
+    sources:
+      - https://nl.wikipedia.org/wiki/Levensboom,_Monument_van_Besef
+
+- title: De Wending 666/999 (Hans van Houwelingen)
+  summary: A huge steel plate that seems to float above a small square, with a tree growing through it and a number that reads 666 or 999 depending on where you stand.
+  body: |
+    When the district cut a square into the long Witte de Withstraat in the Chassébuurt renewal, the artist Hans van Houwelingen was asked for an artwork – and ended up designing the whole Witte de Withplein (2012). He found the architect's sunny artist's impression a lie about a tough neighbourhood, photoshopped it to match reality, and to his surprise still got the commission. When the architect had his own design laid out anyway, Van Houwelingen insisted; it was torn up and the square rebuilt to his plan, keeping only the little tree.
+
+    The work is a stage that lifts a piece of everyday reality into theatre. Its title nods to *Wendingen*, the Amsterdam School magazine, and plays on turns and contrasts: heavy steel that floats, a tree locked in irons, and the former church opposite that became a mosque. A number taken from that building's address is engraved at the top. Read one way it is 666, the number of the devil; the other way 999, the ultimate beauty of metal.
+
+    Look for:
+    - the gap that lets the tree grow through the plate
+    - the 666/999 engraving at the top
+    - the former Apostolic church, now a mosque, across the street
+  category: curiosities
+  lat: 52.368859
+  lng: 4.858776
+  address: Witte de Withplein
+  links:
+    - { label: Public Art Amsterdam, url: "https://publicart.amsterdam/projecten/de-wending-666-999-2" }
+    - { label: Wikipedia (nl) Witte de Withstraat, url: "https://nl.wikipedia.org/wiki/Witte_de_Withstraat_(Amsterdam)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q116198724" }
+  attributes:
+    built: "2012"
+    artist: Hans van Houwelingen
+  photos:
+    - commons:File:Witte de Withplein, object.jpg
+  sources:
+    - https://publicart.amsterdam/projecten/de-wending-666-999-2
+    - wd:Q116198724
+  nl:
+    title: De Wending 666/999 (Hans van Houwelingen)
+    summary: Een enorme ijzeren plaat die boven een klein plein zweeft, met een boom die erdoorheen groeit en een getal dat 666 of 999 is, afhankelijk van hoe je ernaar kijkt.
+    body: |
+      Midden op een klein pleintje staat een enorme ijzeren plaat die boven de grond zweeft. In de plaat is een uitsparing gemaakt waar een boom doorheen groeit. Van Houwelingen heeft niet alleen het kunstwerk gemaakt, hij heeft ook het omringende Witte de Withplein ontworpen. Stadsdeel West had besloten dat de Witte de Withstraat te lang en te smal was; er moest een onderbreking komen in de vorm van een plein met bebouwing daaromheen en een kunstwerk.
+
+      Met het kunstwerk wilde Van Houwelingen een podium creëren om 'een stukje van de werkelijkheid op te tillen om van de realiteit theater te maken'. Hij liet zich leiden door de stijl van de Amsterdamse School en de titel van het tijdschrift Wendingen. De eerste wending is de zwaarte van het materiaal en de lichtheid waarmee het kunstwerk zweeft. Een andere wending heeft te maken met een voormalig kerkje tegenover het plein, nu een moskee; Van Houwelingen verwerkte het huisnummer van dit gebouw in zijn werk. '666 is het getal van de duivel en 999 is het getal van de ultieme schoonheid van het metaal.'
+
+      Let op:
+      - de boom, die Van Houwelingen 'in de boeien heeft geslagen' met het kunstwerk
+      - het gegraveerde 666 of 999 bovenin
+    sources:
+      - https://publicart.amsterdam/projecten/de-wending-666-999-2
+
+- title: Tuin van Jan
+  summary: A former schoolyard behind the 1926 Jan Maijenschool, turned by neighbours into a quiet garden with ponds that catch the rain from the school roof – one of the few green spots in this stony quarter.
+  body: |
+    The playground of the four schools in the Jan Maijenschool building lay hidden inside the block, overlooked by the backs of Staal's flats on the Jan Evertsenstraat. When the schools closed it stood empty. From 2011 the initiator Arnoud Hekkens, with the art and research collective FoAM and its Pop-Up Park festival, ran workshops with residents and experts – the urban ecologist Martin Melchers, garden designer Sanne Horn and others. Horn's final design was inspired by the riad, the Middle Eastern palace or paradise garden.
+
+    The garden opened in 2013 as a stiltetuin (garden of silence). It is named after both the Jan Maijenstraat and the Jan Evertsenstraat. Because this crowded area often floods in heavy rain, the ponds were designed as a buffer: water from the school roof runs straight into them. Neighbours maintain the garden.
+
+    Look for:
+    - the ponds fed by the school's roof
+    - the backs of the Jan Maijenschool and of the Jan Evertsenstraat housing
+    - the planting, chosen in workshops with residents
+  category: green
+  lat: 52.37079
+  lng: 4.852311
+  address: Behind Jan Maijenstraat 11-17
+  links:
+    - { label: Wikipedia (nl) Jan Maijenstraat 11-17, url: "https://nl.wikipedia.org/wiki/Jan_Maijenstraat_11-17" }
+    - { label: FoAM, url: "https://lib.fo.am/tuin_van_jan" }
+  photos: []
+  sources:
+    - https://nl.wikipedia.org/wiki/Jan_Maijenstraat_11-17
+    - https://lib.fo.am/tuin_van_jan
+  nl:
+    title: Tuin van Jan
+    summary: De voormalige binnenplaats van de Jan Maijenschool, door buurtbewoners omgevormd tot een stiltetuin met vijvers die het regenwater van het schooldak opvangen.
+    body: |
+      De binnenplaats van de school werd vanaf 2011, met medewerking van onder anderen stadsecoloog Martin Melchers, tuinarchitecte Sanne Horn en paviljoenarchitect Dick Overduin, omgevormd tot een 1600 m² grote stiltetuin, die in 2013 werd geopend met de naam Tuin van Jan. Jan verwijst hier naar zowel de Jan Maijenstraat (waar het aan ligt) als de Jan Evertsenstraat (de tuin kijkt uit op de achtergevels).
+
+      Bij de aanleg van de tuin, die in een buurt is gelegen waar door de verstening vaak wateroverlast is, werd ervoor gezorgd dat de tuin met vijvers een bufferfunctie heeft voor de opvang van regenwater. Zo stroomt regenwater dat op het dak van het schoolgebouw valt direct de vijver in. De tuin wordt onderhouden door buurtbewoners.
+
+      Let op:
+      - de vijvers die het regenwater van het schooldak opvangen
+      - de achtergevels van de Jan Maijenschool en van de woon- en winkelgalerij aan de Jan Evertsenstraat
+    sources:
+      - https://nl.wikipedia.org/wiki/Jan_Maijenstraat_11-17

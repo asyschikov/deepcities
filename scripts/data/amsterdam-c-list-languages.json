@@ -1,0 +1,53 @@
+{
+  "languages": ["nl"],
+  "translations": {
+    "nl": {
+      "title": "C-lijst bezienswaardigheden van Amsterdam",
+      "tagline": "De plekken die je reisgids niet haalt.",
+      "description": "Een gezamenlijke kaart van de over het hoofd geziene, eigenaardige en mooie plekken van Amsterdam. We beginnen in Amsterdam-West met de monumenten: naoorlogse kerken, scholen en woningbouw, negentiende-eeuwse buurten, en muurschilderingen die bijna geen bezoeker ziet. Iedereen die is ingelogd kan plekken voorstellen; moderatoren bekijken elke wijziging.",
+      "categories": {
+        "religious": "Kerken",
+        "schools": "Scholen",
+        "housing": "Woningbouw",
+        "civic": "Openbare gebouwen",
+        "industrial": "Industrieel erfgoed",
+        "infrastructure": "Bruggen en infrastructuur",
+        "hidden-history": "Verborgen geschiedenis",
+        "curiosities": "Curiosa",
+        "street-art": "Muurschilderingen en street art",
+        "odd-museums": "Bijzondere musea",
+        "food-drink": "Eten en drinken",
+        "green": "Groene plekken"
+      },
+      "fields": {
+        "heritage_status": {
+          "label": "Monumentstatus",
+          "help": "Officiële bescherming: rijksmonument en/of gemeentelijk monument.",
+          "options": {
+            "National monument": "Rijksmonument",
+            "Municipal monument": "Gemeentelijk monument",
+            "National + municipal monument": "Rijks- en gemeentelijk monument"
+          }
+        },
+        "monument_number": {
+          "label": "Monumentnummer",
+          "help": "Registernummer(s), gescheiden door komma's."
+        },
+        "built": {
+          "label": "Gebouwd",
+          "help": "Jaar of periode, bijv. 1955–1956."
+        },
+        "architect": { "label": "Architect" },
+        "listed": {
+          "label": "Beschermd sinds",
+          "help": "Jaar waarin het monument werd aangewezen."
+        },
+        "original_use": { "label": "Oorspronkelijke functie" },
+        "artist": {
+          "label": "Kunstenaar",
+          "help": "Wie de muurschildering of het kunstwerk maakte."
+        }
+      }
+    }
+  }
+}

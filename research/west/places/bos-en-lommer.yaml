@@ -1,0 +1,962 @@
+# Bos en Lommer (wijken De Kolenkit, Landlust, Erasmuspark) — Part 2 only: murals,
+# street art and other non-monument C-list sights. The 22 monument places already on
+# the map (scripts/data/bos-en-lommer-monuments.json) are not repeated here.
+
+# ---------------------------------------------------------------- Muren van West
+
+- title: Reinaert de Vos mural (Stefan Glerum)
+  summary: "A comic-strip fox in a modern-day forest, three storeys high above a butcher's shop: the 2020 mural that launched the Muren van West project and nods to the Reinaert de Vosstraat around the corner."
+  body: |
+    The post-war walk-up flats of Bos en Lommer were built with blank end walls, and by the 2000s those grey gables had come to stand for gloom and neglect. In 2019 stadsdeel West started *Muren van West* (Walls of West), a programme of murals that had to tell stories from the neighbourhood. This was the first one. It appeared on 12 May 2020, when the scaffolding came down above Slagerij Alif at Bos en Lommerweg 211, and residents flooded the local paper with messages about it.
+
+    The design is by the Amsterdam illustrator Stefan Glerum, known for a bold graphic style with a streak of humour; the sign company Iwaarden painted it, with Kallenbach Gallery as partner. It shows a future version of Reinaert the fox, hero of the medieval Dutch epic *Van den vos Reynaerde* and namesake of the Reinaert de Vosstraat just south of here. The wall belongs to a 1949 block by Louis Göbel and Gerardus den Hertog.
+
+    Look for:
+    - the rabbit and the raccoon among the trees: other forest animals sneaking into the scene;
+    - the greenery, a pun on the district's name (*bos* means wood);
+    - the second part of the work on the back of the same building, on the Reinaert de Vosstraat.
+  category: street-art
+  lat: 52.378906
+  lng: 4.852106
+  address: Bos en Lommerweg 211
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2688/vos-en-lommer" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Reinaert_de_vos_(Stefan_Glerum)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q104758989" }
+    - { label: De Westkrant (13 May 2020), url: "https://www.dewestkrant.nl/ineens-is-daar-die-muurschildering-aan-de-bos-en-lommerweg/" }
+    - { label: Iwaarden (execution), url: "https://www.iwaarden.nl/projecten/kunst-en-design/muurschildering-stefan-glerum/" }
+  attributes:
+    built: "2020"
+    artist: Stefan Glerum
+  photos:
+    - commons:File:2020 Reinaert de vos (Stefan Glerum) (1).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Reinaert_de_vos_(Stefan_Glerum)
+    - https://www.dewestkrant.nl/ineens-is-daar-die-muurschildering-aan-de-bos-en-lommerweg/
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2688
+    - https://www.iwaarden.nl/projecten/kunst-en-design/muurschildering-stefan-glerum/ (search snippet)
+  nl:
+    title: Reinaert de vos (Stefan Glerum)
+    summary: "De eerste muurschildering van Muren van West (2020): Stefan Glerum gaf een toekomstige versie van Reinaert de Vos weer op een flat aan de Bos en Lommerweg, met de indruk van een plaatje uit een stripboek."
+    body: |
+      Bij de bouw van de portiekwoningen in de Bos en Lommerbuurt werd gekozen voor blinde muren als afsluiting van de woningblokken. Deze grijze blinde gevels werden met name in de eerste jaren van de 21e eeuw gezien als tekenen van somberheid en verval. Rond 2019 werd daarom besloten een aantal van die gevels op te vrolijken door muurschilderingen onder de gezamenlijke titel "De muren van West". De gemeente Amsterdam en de Kallenbach Gallery ondersteunden het project.
+
+      De eerste muurschildering werd gezet door Stefan Glerum. Hij gaf een toekomstige versie van Reinaert de Vos weer op een flat aan de Egidiusstraat met een zijgevel aan de Bos en Lommerweg (huisnummer 211). Deze flat staat er sinds 1949 en is ontworpen door Louis Göbel en Gerardus den Hertog. De schildering verwijst niet alleen naar de literaire verhandeling, maar ook naar de Reinaert de Vosstraat die even ten zuiden van de Bos en Lommerweg loopt. De Westkrant schreef in mei 2020: "Ter hoogte van Slagerij Alif op nummer 211 aan de Bos en Lommerweg is sinds dinsdag een indrukwekkende en vrolijke muurschildering te zien."
+
+      Let op:
+      - "andere bosdieren, zoals een konijn en een wasbeer" (De Westkrant);
+      - het groen en de bomen, volgens Buitenkunst Amsterdam verwijzingen naar Bos en Lommer;
+      - het tweede deel van het werk aan de achterzijde, aan de Reinaert de Vosstraat.
+    sources:
+      - https://nl.wikipedia.org/wiki/Reinaert_de_vos_(Stefan_Glerum)
+      - https://www.dewestkrant.nl/ineens-is-daar-die-muurschildering-aan-de-bos-en-lommerweg/
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2688/vos-en-lommer
+
+- title: Tiger Mothers of the Kolenkit (Sidney Waerts)
+  summary: "Four tigers prowl a sepia cityscape on a Kolenkit gable: Sidney Waerts' tribute to the 'tiger mothers', four local women who keep an eye on the neighbourhood and run its initiatives."
+  body: |
+    In 2020 the Muren van West project moved to the Kolenkitbuurt, a 1940s–50s district of walk-up flats that was heavily renovated, partly demolished and rebuilt in the 2000s. Four artists were each given a 10 × 12 m end wall facing the Wiltzanghlaan; their designs grew out of residents' stories, with Kallenbach Gallery as the project's partner.
+
+    The Haarlem-based painter Sidney Waerts took his cue from the *Tijgermoeders van de Kolenkit*: a group of four neighbourhood women who describe themselves as the eyes and ears of the area and are key figures in its community work. He painted them as tigers moving through a partly urban landscape. The buildings behind them mirror the flat that stood across the street until it fell to the regeneration. As in much of Waerts' work, the palette is a nostalgic sepia.
+
+    Waerts later returned to Bos en Lommer to coach the two students who painted the women's-safety mural on the Admiraal de Ruijterweg in 2026.
+
+    Look for:
+    - the signature on the wall;
+    - the mirrored ghost of the demolished flat in the background.
+  category: street-art
+  lat: 52.382011
+  lng: 4.842381
+  address: Wiltzanghlaan, corner Ferdinand Huyckstraat
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2689/tijgers-van-de-kolenkit" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Tijgervrouwen" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q106879496" }
+    - { label: De Westkrant (4 Nov 2020), url: "https://www.dewestkrant.nl/heb-je-deze-tijgers-al-gezien/" }
+    - { label: Street Art Cities, url: "https://streetartcities.com/cities/amsterdam/markers/31494" }
+  attributes:
+    built: "2020"
+    artist: Sidney Waerts
+  photos:
+    - commons:File:2021 Wiltzanghlaan, Asd-Tijgervrouwen.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Tijgervrouwen
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2689
+    - https://www.dewestkrant.nl/heb-je-deze-tijgers-al-gezien/
+    - https://www.dewestkrant.nl/bos-en-lommer-muurschildering-vrouwenveiligheid-komt-tot-leven/
+  nl:
+    title: Tijgermoeders van de Kolenkit (Sidney Waerts)
+    summary: "Muurschildering van tien bij twaalf meter op de hoek Ferdinand Huyckstraat en Wiltzanghlaan, geïnspireerd op de 'Tijgermoeders van de Kolenkit': buurtvrouwen die zich onvermoeibaar inzetten voor verbinding in de buurt."
+    body: |
+      Vanaf 2019 werden diverse kunstenaars op het gebied van muurschilderingen gevraagd werk te leveren voor blinde gevels in de Kolenkitbuurt. Deze wijk, volgebouwd in de jaren veertig en vijftig, kent veel portieketageflats die steevast aan de kopse kant een blinde muur hebben. De wijk werd in de 21e eeuw grondig gesaneerd; er werd gerenoveerd en gesloopt/nieuwbouw gepleegd. Om de flats die bleven staan een vrolijker aanblik te geven werd het project Muren van West gestart. In 2020 werden vier muurschilderingen gezet op flats die een kopse kant hebben aan de Wiltzanghlaan.
+
+      Sidney Waerts haalde zijn inspiratie uit een viertal vrouwen in de wijk, die de buurt in de gaten houden ("wij de ogen en oren van de wijk") en die ook deelnemen in de organisatie van buurtinitiatieven. Buitenkunst Amsterdam noemt het werk "een ode aan een groep buurtvrouwen, sleutelfiguren in de community". De tijgers zijn afgebeeld in een deels stedelijke omgeving, die volgens Waerts verwijst naar de flat die aan de overzijde van de laan stond; ze is in de muurschildering gespiegeld. Die flat overleefde de saneringsslag niet.
+
+      Let op:
+      - de sepiaachtige kleuring, die volgens de traditie in Waerts' werk een nostalgisch aanzicht geeft;
+      - de signatuur: het kunstwerk is gesigneerd.
+    sources:
+      - https://nl.wikipedia.org/wiki/Tijgervrouwen
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2689/tijgers-van-de-kolenkit
+
+- title: Unity in Diversity (Saïd Kinos)
+  summary: "A typographic mural in a careful colour gradient on a Wiltzanghlaan gable, by the veteran Amsterdam muralist Saïd Kinos, about how many different people still make one close community."
+  body: |
+    One of the four Muren van West walls painted along the Wiltzanghlaan in 2020 (see *Tiger Mothers of the Kolenkit* for the project). Saïd Kinos is one of the most experienced muralists in the city, known for colourful walls built from letters and fonts rather than figures.
+
+    For the Kolenkitbuurt he worked from the sheer variety of its residents: in his words "a collection of very different individuals who, despite all their differences, form a close-knit community". The gradient of colour across the wall is meant to point at the many good things that happen below the surface of the neighbourhood.
+
+    Look for:
+    - the letterforms hidden in the abstract composition;
+    - how the colour gradient runs across the whole 10 × 12 m wall.
+  category: street-art
+  lat: 52.382006
+  lng: 4.841828
+  address: Wiltzanghlaan, corner Lauernessestraat
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2691/unity-in-diversity" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Eenheid_in_diversiteit" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q106897500" }
+    - { label: Street Art Cities, url: "https://streetartcities.com/cities/amsterdam/markers/31835" }
+  attributes:
+    built: "2020"
+    artist: Saïd Kinos
+  photos:
+    - commons:File:2021 Wiltzanghlaan, Asd-Eenheid in diversiteit.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Eenheid_in_diversiteit
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2691
+  nl:
+    title: Eenheid in diversiteit (Saïd Kinos)
+    summary: "Een van de vier muurschilderingen van Muren van West aan de Wiltzanghlaan (2020): Saïd Kinos liet zich inspireren door de grote verscheidenheid in de Kolenkitbuurt."
+    body: |
+      *Eenheid in diversiteit* is een muurschildering van tien bij twaalf meter op de hoek van de Lauernessestraat en de Wiltzanghlaan, een van de vier schilderingen die in 2020 in het kader van Muren van West op de kopse kanten van flats aan de Wiltzanghlaan werden gezet.
+
+      Saïd Kinos staat bekend vanwege zijn kleurige muurschilderingen met allerlei lettertypen (fonts). Volgens Buitenkunst Amsterdam is hij "een zeer ervaren muralist die vaker abstract en typografisch werkt" en liet hij zich inspireren door de grote verscheidenheid in de Kolenkitbuurt: "Een collectie van uiteenlopende individuen die ondanks alle verschillen een hechte samenleving vormen". Het zorgvuldig verkozen kleurverloop verwijst naar de vele mooie dingen die onder de oppervlakte plaatsvinden.
+
+      Let op:
+      - de letters die in de abstracte compositie verwerkt zijn;
+      - het kleurverloop over de hele gevel.
+    sources:
+      - https://nl.wikipedia.org/wiki/Eenheid_in_diversiteit
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2691/unity-in-diversity
+
+- title: Stamboom van de buurt (Floor van het Nederend)
+  summary: "A 'family tree' for the Kolenkit whose branches carry an Ajax shirt, a watering can, a tagine and an old coal scuttle – the object the whole neighbourhood is named after."
+  body: |
+    The third of the four 2020 Muren van West walls on the Wiltzanghlaan. Illustrator Floor van het Nederend (also behind the murals at the Olympiaplein skatepark) turned residents' personal stories into a *stamboom* (family tree) of objects.
+
+    Each object stands for someone's story: an Ajax shirt for the many footballers, a watering can for the vegetable planters in the courtyard garden, a tagine for the countless meals cooked in the flats, and an old-fashioned *kolenkit* (coal scuttle) – the nickname of the nearby Opstandingskerk tower that became the name of the whole district.
+
+    Look for:
+    - the coal scuttle, the neighbourhood's emblem;
+    - the microphone and headphones, and the basketball – there is a basketball court in front of the flat.
+  category: street-art
+  lat: 52.381992
+  lng: 4.841286
+  address: Wiltzanghlaan, corner Lauernessestraat
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2690/stamboom-van-de-buurt" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Stamboom_(muurschildering)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q106860872" }
+    - { label: De Westkrant (4 Nov 2020), url: "https://www.dewestkrant.nl/heb-je-deze-tijgers-al-gezien/" }
+    - { label: Street Art Cities, url: "https://streetartcities.com/cities/amsterdam/markers/31838" }
+  attributes:
+    built: "2020"
+    artist: Floor van het Nederend
+  photos:
+    - commons:File:2021 Wiltzanghlaan, Asd-Stamboom.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Stamboom_(muurschildering)
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2690
+    - https://www.dewestkrant.nl/heb-je-deze-tijgers-al-gezien/
+  nl:
+    title: Stamboom van de buurt (Floor van het Nederend)
+    summary: "Muurschildering aan de Wiltzanghlaan (2020) met persoonlijke verhalen van buurtbewoners: een Ajax-shirt, een gieter, een tajine en natuurlijk een ouderwetse kolenkit."
+    body: |
+      *Stamboom van de buurt* is een muurschildering van tien bij twaalf meter op de hoek van de Lauernessestraat en de Wiltzanghlaan, in 2020 gezet in het kader van Muren van West. Floor van het Nederend "tekende onder andere ook voor de muurschilderingen bij het skatepark bij het Olympiaplein" (De Westkrant).
+
+      Volgens Buitenkunst Amsterdam heeft hij in zijn 'Stamboom van de buurt' elementen verwerkt die persoonlijke verhalen van buurtbewoners verbeelden, "zoals een Ajax shirt voor de vele voetballers, een gieter voor de moestuinbakken in de tuin, natuurlijk een ouderwetse kolenkit waar de buurt naar is vernoemd en een tajine; symbolisch voor de vele maaltijden die worden bereid door bewoners."
+
+      Let op:
+      - de kolenkit, het embleem van de buurt;
+      - de microfoon met koptelefoon en de basketbal – er ligt een basketbalveldje voor de flat.
+    sources:
+      - https://nl.wikipedia.org/wiki/Stamboom_(muurschildering)
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2690/stamboom-van-de-buurt
+      - https://www.dewestkrant.nl/heb-je-deze-tijgers-al-gezien/
+
+- title: Four Peas in a Pod (Iriée Zamblé)
+  summary: "Four giant, colour-coded portraits of Kolenkit residents: the first public artwork – and first wall – by a young portrait painter who had just graduated with a 50 × 35 cm canvas."
+  body: |
+    The westernmost of the four 2020 Muren van West walls on the Wiltzanghlaan. Iriée Zamblé, who grew up on the other side of the city in Amsterdam-Oost, knew the Kolenkitbuurt mostly from negative news before she visited. Her design was picked from submissions by eight artists.
+
+    It was a leap in scale: she had just graduated with a work of 50 × 35 cm, and this was her first piece in public space. She composed four portraits into one image – a woman in a headscarf with a raised arm, a Black woman with her arm around a white man, and a boy wrapped in the Surinamese flag – and used colour to stand for the many backgrounds of the residents. Not feeling suited to painting at height, she left the execution to specialists. She wanted it to be a work for anyone who recognises themselves in it, not only for museum and gallery audiences.
+
+    Look for:
+    - the four faces and the strong flat colours that separate them;
+    - the Surinamese flag.
+  category: street-art
+  lat: 52.381986
+  lng: 4.840737
+  address: Wiltzanghlaan, corner Majoor Fransweg
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2692/four-peas-in-a-pod" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Four_peas_in_a_pod" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q106897514" }
+    - { label: De Westkrant (4 Nov 2020), url: "https://www.dewestkrant.nl/heb-je-deze-tijgers-al-gezien/" }
+  attributes:
+    built: "2020"
+    artist: Iriée Zamblé
+  photos:
+    - commons:File:2021 Wiltzanghlaan, Asd-Zonder titel.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Four_peas_in_a_pod
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2692
+    - OSM node 13254279475 (position)
+  nl:
+    title: Four Peas in a Pod (Iriée Zamblé)
+    summary: "Muurschildering op de hoek van de Majoor Fransweg en de Wiltzanghlaan (2020): Iriée Zamblé verbeeldde portretten van buurtbewoners uit de Kolenkitbuurt – haar eerste grote muurschildering ooit."
+    body: |
+      *Four peas in a pod* is een muurschildering van tien bij twaalf meter op de hoek van de Majoor Fransweg en de Wiltzanghlaan, een van de vier schilderingen die in 2020 in het kader van Muren van West aan de Wiltzanghlaan werden gezet.
+
+      Voor Iriée Zamblé was dit totaal nieuw werk: ze was zojuist afgestudeerd met een werk van 50 bij 35 cm, en dit was haar eerste werk in de openbare ruimte. Ze heeft vier portretten bij elkaar gephotoshopt: een vrouw met hoofddoek met opgeheven arm, een zwarte vrouw die haar arm om een witte man heeft geslagen en een jongen gehuld in de Surinaamse vlag. Volgens Buitenkunst Amsterdam vertegenwoordigt het kleurgebruik "de diversiteit in verschillende afkomsten; representatie die Zamblé zichtbaar wil maken."
+
+      Zamblé groeide op aan de andere kant van de stad (Amsterdam-Oost) en hoorde de negatieve berichtgeving aan. Ze maakte een werk voor iedereen die zich erin kan of wil herkennen, niet alleen voor museum- of galeriepubliek. Het werk kwam naar voren uit inzendingen van acht kunstenaars; het daadwerkelijk uitvoeren liet ze aan specialisten over.
+
+      Let op:
+      - de vier portretten en de vlakke kleuren die ze van elkaar scheiden;
+      - de Surinaamse vlag.
+    sources:
+      - https://nl.wikipedia.org/wiki/Four_peas_in_a_pod
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2692/four-peas-in-a-pod
+
+- title: Samen bij De Boeg (Richard Kofi)
+  summary: "A 24-metre wall of elderly neighbours, hatched like a pen drawing, watched over by an all-seeing eye – possibly the first mural in the Netherlands with a rollator in it."
+  body: |
+    Care home De Boeg went up around 1992 on the edge of the Bos en Lommerplein, with an almost blind north wall – apparently in expectation of a neighbour that was never attached to it. When the next block was built in 2009 it kept its distance, leaving an opening to the Bos en Lommerplantsoen and a bare gable in full view.
+
+    In 2022 Muren van West gave that wall to Richard Kofi, a former *Stadstekenaar* (city illustrator) of Amsterdam. He drew on the stories of De Boeg's residents and of the people who use the community centre in the same building, many of them older Amsterdammers. His aim was to give that generation the visibility it rarely gets in public art. The city's public-art curators think it may be the first mural in the Netherlands to feature a walker. Kofi, who is afraid of heights, left the painting itself to others; the mural was unveiled on 13 July 2022.
+
+    Look for:
+    - Kofi's trademark hatching in the people's clothes;
+    - the rollator;
+    - the "all-seeing eye" at the top, standing for residents' late relatives and friends who still keep an eye on things.
+  category: street-art
+  lat: 52.376539
+  lng: 4.846489
+  address: Hoofdweg 495
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2693/samen-bij-de-boeg" }
+    - { label: Stadscuratorium Amsterdam, url: "https://stadscuratorium.nl/en/collectie/samen-bij-de-boe/" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Samen_bij_De_Boeg" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q115120631" }
+    - { label: De Westkrant (4 Feb 2022), url: "https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/" }
+  attributes:
+    built: "2022"
+    artist: Richard Kofi
+  photos:
+    - commons:File:2022 Samen bij De Boeg, Asd (2).jpg
+    - commons:File:2022 Samen bij De Boeg, Asd (1).jpg
+  sources:
+    - https://stadscuratorium.nl/en/collectie/samen-bij-de-boe/
+    - https://nl.wikipedia.org/wiki/Samen_bij_De_Boeg
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2693/samen-bij-de-boeg
+    - https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/
+  nl:
+    title: Samen bij De Boeg (Richard Kofi)
+    summary: "Huizenhoge muurschildering op Hoofdweg 495 (2022) waarmee voormalig Stadstekenaar Richard Kofi de ouderen van woonzorgcentrum De Boeg zichtbaar maakt – wellicht de eerste muurschildering met een rollator."
+    body: |
+      Bij de bebouwing van het Bos en Lommerplein werd rond 1992 het verzorgingscentrum De Boeg gebouwd. Aan de noordelijke gevel kwam een bijna geheel blinde muur, vermoedelijk in afwachting van verdere bebouwing. Toen er in 2009 daadwerkelijk op die plek gebouwd ging worden, werd niet gebouwd tegen De Boeg aan, maar pas na een open ruimte die toegang biedt tot het Bos en Lommerplantsoen. Die blinde gevel werd in 2022 in het kader van Muren van West voorzien van een muurschildering.
+
+      Het werk van voormalig Stadstekenaar Richard Kofi is geïnspireerd op de verhalen van bewoners van woonzorgcentrum De Boeg en gebruikers van het Huis van de Buurt in hetzelfde pand; vaak Amsterdammers op leeftijd. Kofi wilde deze generatie zichtbaar maken en het podium geven dat zij verdienen: "Ouderen vormen een wezenlijk onderdeel van onze samenleving. Met dit werk wil ik hun aanwezigheid en nalatenschap vieren." Kofi kon zijn schildering niet zelf plaatsen; hij heeft last van hoogtevrees en de schildering loopt tot 24 meter hoogte op. De tekening werd 13 juli 2022 onthuld.
+
+      Let op:
+      - de arcering, kenmerkend voor het werk van Kofi, hier terug te vinden in de kleding van de afgebeelde mensen;
+      - de rollator;
+      - het "alziend oog" bovenaan, dat staat voor overleden familieleden of vrienden van de bewoners, die toch een oogje in het zeil houden.
+    sources:
+      - https://nl.wikipedia.org/wiki/Samen_bij_De_Boeg
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2693/samen-bij-de-boeg
+
+- title: Het Toverbos (Peim van der Sloot)
+  summary: "9,750 sponged dots on a blank gable at the end of the Rijpgracht make an 'enchanted forest' full of hidden animals – a mural designed to be veiled and revealed by the alder tree in front of it."
+  body: |
+    When the street numbers were handed out here, De Rijpstraat was meant to start at the Willem de Zwijgerlaan. Plans changed: the first stretch became the wider De Rijpgracht, the building line had to jump, and De Rijpstraat 125 was left with a tall, plastered blind wall looking straight down the canal. Residents asked for a mural on it, and in summer 2022 it became part of Muren van West.
+
+    Because an alder planted in 2005 hides much of the wall for half the year, the district and the city's art curators chose more abstract painters for this site. Peim van der Sloot, who had his studio around the corner, won with a pointillist collage of nature and animals – symbols for local heroes. In his words, the trees and canal give the spot an "oasis feeling" in the middle of the city: in summer it is all green, and the further the year goes, the more of the painting is revealed. He applied some 9,750 dots with sponges dipped in paint. Characters from the area – the cat lady, a resident called Vos, the man shuffling behind his rollator – hide in the yellow ground, alongside the *Bremen Town Musicians*.
+
+    Look for:
+    - the animals that appear in the dots when you stand back;
+    - the view of the wall from the Willem de Zwijgerlaan, straight along the Rijpgracht;
+    - the alder's changing shadow on the painting.
+  category: street-art
+  lat: 52.377142
+  lng: 4.859422
+  address: De Rijpstraat 125
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2695/het-toverbos-aan-de-rijpgracht" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Het_toverbos_aan_De_Rijpstraat" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q115161760" }
+    - { label: De Westkrant (4 Feb 2022), url: "https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/" }
+  attributes:
+    built: "2022"
+    artist: Peim van der Sloot
+  photos:
+    - commons:File:2022 Toverbos, Rijpstraat, Asd (5).jpg
+    - commons:File:2022 Toverbos, Rijpstraat, Asd (4).jpg
+    - commons:File:2022 Toverbos, Rijpstraat, Asd (3).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Het_toverbos_aan_De_Rijpstraat
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2695
+    - https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/
+  nl:
+    title: Het toverbos aan De Rijpstraat (Peim van der Sloot)
+    summary: "Huizenhoge pointillistische muurschildering (2022) op De Rijpstraat 125: Peim van der Sloot zette 9750 stippen voor een toverbos dat gedurende de seizoenen meer of minder zichtbaar wordt achter een els."
+    body: |
+      Bij het uitdelen van de huisnummers leefde nog het idee dat De Rijpstraat aan de Willem de Zwijgerlaan zou beginnen. Er kwam een nieuw inzicht; het eerste stuk werd De Rijpgracht, en de gracht met kades is breder uitgevoerd dan de straat. Daardoor ontstond bij De Rijpstraat 125 een metershoge blinde muur, die geheel gestuct was; een onaangenaam stuk grijs in de buurt vond men in de 21e eeuw. Op verzoek van de bewoners kwam er een muurschildering, "met een mooie zichtlijn vanuit de Willem de Zwijgerlaan" (De Westkrant).
+
+      Die gevelwand krijgt jaarlijks een seizoensgebonden natuurlijk kunstwerk in de vorm van de schaduw van een in 2005 geplante els. Aan Peim van der Sloot werd gevraagd een muurschildering te leveren die daarbij aansluit. Hij ontwierp in zijn kenmerkende pointillistische stijl een grafische collage van natuur en dieren – symbool voor lokale helden: "Voor deze muur staan grote bomen, die samen met de gracht bijdragen aan het 'oase gevoel' middenin de stad. In de zomer is het volop groen, naarmate het jaar vordert, wordt steeds meer onthuld." Volgens Het Parool zette hij 9750 stippen met in verf gedoopte sponzen. Van der Sloot had zijn atelier in de buurt, aan de De Roos van Dekamaweg.
+
+      Let op:
+      - de dieren die in de gele onderlaag opduiken: inspiratie uit de buurt (kattenvrouwtje, bewoner Vos, Het paard: een sjokkende man achter een rollator) en uit *De Bremer stadsmuzikanten*;
+      - de zichtlijn vanaf de Willem de Zwijgerlaan;
+      - het wisselende bladerdek van de els op de muur.
+    sources:
+      - https://nl.wikipedia.org/wiki/Het_toverbos_aan_De_Rijpstraat
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2695/het-toverbos-aan-de-rijpgracht
+      - https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/
+
+- title: Collectivism vs Individualism (Munir de Vries)
+  summary: "A see-through giant made of dozens of people working, playing and holding each other up – painted after an arson attack on rainbow flags across the street, when the local mosque took in the evacuated students."
+  body: |
+    The last of the Muren van West murals, unveiled on 12 November 2022 on the wall of the Lidl at the end of the Sara Burgerhartstraat, where two mismatched buildings leave a large blank gable.
+
+    The story behind it is specific. In summer 2021 rainbow flags were set on fire at the student flat across the street (Zaanstad, a listed building on this map) and the residents had to flee; mosque Badr, next door, took them in in the early morning. Students asked for a work that says everyone may be themselves. Munir de Vries, who has painted walls in Amsterdam-Zuidoost and Utrecht, answered with a giant, cut-away figure built up from people who live, work, play and play sport together and sometimes lean on each other – a collective being made of all of us. In the audio tour a woman from the mosque tells about that night.
+
+    The building has been mentioned for possible demolition, so the mural may not be permanent.
+
+    Look for:
+    - the side panel with signs that look like ancient Egyptian hieroglyphs, a hobby of the artist;
+    - the "L" of Bos en Lommer drawn as a lion (*leeuw*).
+  category: street-art
+  lat: 52.383786
+  lng: 4.846150
+  address: Sara Burgerhartstraat 80-82
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2694/collectivism-vs-individualism" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Individualiteit_tegenover_collectiviteit" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q120241462" }
+    - { label: De Westkrant (11 Nov 2022), url: "https://www.dewestkrant.nl/nieuwe-muurschildering-in-bos-en-lommer/" }
+    - { label: Munir de Vries, url: "https://munirdevries.com/Individualism-vs-Collectivism" }
+  attributes:
+    built: "2022"
+    artist: Munir de Vries
+  photos:
+    - commons:File:2023 Individualiteit tegenover collectiviteit, Asd (6).jpg
+    - commons:File:2023 Individualiteit tegenover collectiviteit, Asd (3).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Individualiteit_tegenover_collectiviteit
+    - https://www.dewestkrant.nl/nieuwe-muurschildering-in-bos-en-lommer/
+    - https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2694
+  nl:
+    title: Individualiteit tegenover collectiviteit (Munir de Vries)
+    summary: "De laatste schildering van Muren van West (2022), op de muur van de Lidl aan de Sara Burgerhartstraat: een groot opengewerkt persoon waarbinnen allerlei mensen samenwerken."
+    body: |
+      Aan het eind van de Sara Burgerhartstraat bevindt zich een losstaand gebouw, nr. 80-82, dat gekoppeld is aan de bebouwing van de Willem Leevendstraat. De bebouwing sluit daarbij niet geheel op elkaar aan (fysiek en stilistisch), waardoor een grote blinde muur ontstond. In het kader van Muren van West werd aan Munir de Vries een ontwerp gevraagd. De Vries kwam met de afbeelding van een groot opengewerkt persoon, waarbinnen allerlei mensen samenwerken. Buitenkunst Amsterdam: "Je ziet een collectief wezen, opgebouwd uit ons allen. We leven, werken, spelen en sporten samen."
+
+      "Afgelopen zomer zijn er regenboogvlaggen in brand gestoken bij de studentenflat aan de Krelis Louwenstraat", schreef De Westkrant begin 2022; de studenten wilden graag dat het kunstwerk tot uiting brengt dat iedereen zichzelf mag zijn. In de audiotour vertelt een vrouw die werkt bij moskee Badr over de brand: gevluchte bewoners werden 's ochtends in alle vroegte opgevangen in de moskee. De schildering werd op 12 november 2022 onthuld. In 2023 waren er sloopplannen voor dit gebouw; onbekend is of die worden uitgevoerd.
+
+      Let op:
+      - de beeltenissen die sterk lijken op Oud-Egyptische hiërogliefen, een hobby van de kunstenaar;
+      - de "L" van Bos en Lommer, afgebeeld als leeuw.
+    sources:
+      - https://nl.wikipedia.org/wiki/Individualiteit_tegenover_collectiviteit
+      - https://www.dewestkrant.nl/nieuwe-muurschildering-in-bos-en-lommer/
+      - https://www.dewestkrant.nl/bolo-krijgt-meer-regenboogkleuren-op-de-muren/
+
+# ---------------------------------------------------------------- other murals
+
+- title: Mural for Lisa, Admiraal de Ruijterweg
+  summary: "A woman cycling through the night with the moon in her arms, 14 metres up: painted in August 2026 by two 18-year-olds who turned a school project into a demand that women can cycle home safely."
+  body: |
+    The newest wall in Bos en Lommer, and one not commissioned by anyone. Lucy Beukeboom, who grew up a stone's throw from here, and her friend Layla Rademaker were both 17 when Lisa, a 17-year-old from Abcoude, was murdered in 2025 – a case that, in their words, showed it is absurd that women still can't cycle safely through the streets. They designed a mural about women's safety and made the question of whether a teenager can get one onto an Amsterdam wall the subject of their final-year school project.
+
+    The answer was "not in three months". They ignored warnings that permits would take years, collected a subsidy, approval from the city's art curators (Stadscuratorium) and from the owners' association, and a scaffold they could afford. They painted from 12 August 2026, with Sidney Waerts – the painter of the Kolenkit tigers – helping on the first two days. The opening was on 25 August 2026.
+
+    Look for:
+    - the woman on her bicycle, carrying the moon "with confidence – as it should be", in Lucy's words;
+    - the painting fills only the top of the wall; the lower part was painted plain white.
+  category: street-art
+  lat: 52.383375
+  lng: 4.849850
+  address: Admiraal De Ruijterweg 412
+  links:
+    - { label: NH Nieuws (16 Aug 2026), url: "https://www.nhnieuws.nl/nieuws/362527/muurschildering-moord-lisa-amsterdam" }
+    - { label: De Westkrant (14 Aug 2026), url: "https://www.dewestkrant.nl/bos-en-lommer-muurschildering-vrouwenveiligheid-komt-tot-leven/" }
+  attributes:
+    built: "2026"
+    artist: Lucy Beukeboom and Layla Rademaker
+  sources:
+    - https://www.nhnieuws.nl/nieuws/362527/muurschildering-moord-lisa-amsterdam
+    - https://www.dewestkrant.nl/bos-en-lommer-muurschildering-vrouwenveiligheid-komt-tot-leven/
+  nl:
+    title: Muurschildering vrouwenveiligheid, Admiraal de Ruijterweg
+    summary: "Muurschildering (2026) van Lucy Beukeboom en Layla Rademaker op de Admiraal de Ruijterweg 412: een nagedachtenis aan de moord op Lisa en een oproep dat vrouwen 's nachts veilig over straat moeten kunnen fietsen."
+    body: |
+      "Een muurschildering maken in de straat waar je bent opgegroeid. Voor Lucy Beukeboom (18) is het een droom die uitkomt", schreef NH Nieuws in augustus 2026. Samen met Layla Rademaker (18) maakte ze er haar profielwerkstuk in 6 vwo van. Het idee ontstond na de moord op de 17-jarige Lisa uit Abcoude. "Met het schilderij willen ze uitdragen dat iedere vrouw 's nachts veilig over straat zou moeten kunnen fietsen."
+
+      Drie maanden bleek te kort. "We kregen een mailtje van iemand van de gemeente met meerdere punten waarom het niet mogelijk was om een muurschildering te maken, maar dat mailtje hebben we gedeletet." De subsidie, de toestemming van het Stadscuratorium, groen licht van de VvE en een betaalbare steiger kwamen er uiteindelijk toch. Sinds 12 augustus stonden ze op de steigers op 14 meter hoogte; de eerste twee dagen hielp kunstenaar Sidney Waerts, bekend van de tijgers aan de Wiltzanghlaan, hen op weg (De Westkrant). De officiële opening was op 25 augustus 2026.
+
+      Let op:
+      - de fietsende vrouw: "De vrouw die we hier afbeelden, draagt de maan zelfverzekerd met zich mee", aldus Lucy;
+      - het kunstwerk beslaat alleen het bovenste deel van de muur; het onderste deel is wit gemaakt.
+    sources:
+      - https://www.nhnieuws.nl/nieuws/362527/muurschildering-moord-lisa-amsterdam
+      - https://www.dewestkrant.nl/bos-en-lommer-muurschildering-vrouwenveiligheid-komt-tot-leven/
+
+- title: Leonardo da Vinci mural, Nieuwpoortkade
+  summary: "A gable-high portrait of Leonardo da Vinci on the Leonardo Da Vinci business centre, a reworked Merkelbach & Karsten factory where an artists' collective now works – right next to the De Bloem windmill."
+  body: |
+    Nieuwpoortkade 1–2, at the corner with the Haarlemmerweg, is the Leonardo Da Vinci Bedrijvencentrum, a business centre in a building originally designed by Benjamin Merkelbach and Charles Karsten for the firm of Willem van Rijn. It has been altered many times, but the rectangular hand of the two Nieuwe Bouwen architects is still visible, including the bridge over the gateway to the inner yard.
+
+    The artists' collective Hellingproof is among the tenants, and one of its members, Miguel Visser, painted a gable-high portrait of the building's namesake on its corner around 2019. Since 2025 the sculpture group *Morgenster* by Arjen Lancel (1995), moved here from the Admiraal Helfrichstraat, stands right in front of it.
+
+    Look for:
+    - the portrait, visible from the Haarlemmerweg;
+    - the Morgenster group at the foot of the wall;
+    - the De Bloem windmill (on this map) a few steps away.
+  category: street-art
+  lat: 52.384831
+  lng: 4.859464
+  address: Nieuwpoortkade 1-2
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Nieuwpoortkade" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q135975326" }
+    - { label: OpenStreetMap, url: "https://www.openstreetmap.org/node/9083693361" }
+  attributes:
+    built: "2019"
+    artist: Miguel Visser
+  photos:
+    - commons:File:Nieuwpoortkade 1-2, Leonardo (1).jpg
+    - commons:File:Nieuwpoortkade 1-2, Leonardo (2).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Nieuwpoortkade
+    - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-West (row 2019, Leonardo da Vinci)
+    - Commons photos dated 15 Feb 2019; OSM start_date 2019
+  nl:
+    title: Leonardo da Vinci (Nieuwpoortkade)
+    summary: "Gevelhoge muurschildering van Miguel Visser met een portret van Leonardo da Vinci op het Leonardo Da Vinci Bedrijvencentrum, een basisontwerp van Merkelbach en Karsten, op de hoek van Nieuwpoortkade en Haarlemmerweg."
+    body: |
+      Nieuwpoortkade 1 en 2 is het Leonardo Da Vinci Bedrijvencentrum, een basisontwerp van Benjamin Merkelbach en Charles Karsten, gebouwd voor de "NV Maatschappij tot Voortzetting van de zaken der firma Willem van Rijn". Het werd in de loop van de jaren steeds aangepast, maar laat nog duidelijk de hand van de ontwerparchitecten zien (rechthoekig). Het gebouw heeft een binnenterrein; over de poort aan de Nieuwpoortkade is een luchtbrug gebouwd.
+
+      In het bedrijvencentrum is onder meer Hellingproof gevestigd, een kunstenaarscollectief, waarvan Miguel Visser een gevelhoge muurschildering heeft gemaakt met een portret van Leonardo da Vinci. Vanaf 2025 staat voor diens neus het ensemble *Morgenster* van Arjen Lancel.
+
+      Let op:
+      - het portret, goed zichtbaar vanaf de Haarlemmerweg;
+      - het beeldensemble *Morgenster* aan de voet van de gevel;
+      - molen De Bloem, het enige monument aan de kade, op een paar stappen afstand.
+    sources:
+      - https://nl.wikipedia.org/wiki/Nieuwpoortkade
+
+- title: De dames en de muze (A10 viaduct tiles)
+  summary: "Five hundred square metres of tiles turn the concrete supports of the A10 into a menagerie of birds of paradise, hares and thousands of gold and blue sparrows."
+  body: |
+    Where the Leeuwendalersweg passes under the A10 ring road, the artist duo Berkman en Janssens – Margot Berkman and Eline Janssens, who worked together from 2000 to 2010 – tiled the bridge abutments and piers in 2003, about 500 m² in all.
+
+    The abutments carry large birds of paradise and hares, a recurring motif in the duo's work, surrounded by a swarm of small golden and blue sparrows – "thousands", according to the artists. The piers between them got tiled patterns based on oriental ornament. It is one of a pair: in 2007 the same duo did a similar job, *Bloemenzee*, under the Rijswijkstraat viaduct further south on the A10, and in 2004 they tiled the shopping-centre entrance on the Gulden Winckelplantsoen (see *Les dames et la licorne*).
+
+    Look for:
+    - the single sparrows, one per tile, scattered between the big animals;
+    - the ornamental piers, best seen walking through rather than cycling.
+  category: street-art
+  lat: 52.379417
+  lng: 4.844444
+  address: Leeuwendalersweg, under the A10
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2657/de-dames-en-de-muze" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/De_dames_en_de_muze" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q104758965" }
+    - { label: Margot Berkman, url: "https://www.margotberkman.nl/portfolio_page/de-dames-en-de-muze-2003-bos-en-lommer/" }
+  attributes:
+    built: "2003"
+    artist: Margot Berkman and Eline Janssens (Berkman en Janssens)
+  photos:
+    - commons:File:2020 De dames en de muze (05).jpg
+    - commons:File:2020 De dames en de muze (10).jpg
+    - commons:File:2020 De dames en de muze (11).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/De_dames_en_de_muze
+  nl:
+    title: De dames en de muze
+    summary: "Tegelkunstwerk (2003) van Berkman en Janssens op de landhoofden en pijlers van de Leeuwendalerswegbrug in de A10: paradijsvogels, hazen en duizenden goudkleurige en blauwe mussen."
+    body: |
+      *De dames en de muze* is een creatie van Berkman en Janssens, bestaande uit Margot Berkman en Eline Janssens, destijds een kunstenaarsduo (2000-2010). Ze betegelden de landhoofden en brugpijlers van de Leeuwendalerswegbrug; er was een oppervlak van 500 m² te betegelen.
+
+      Het bestaat uit twee delen. De landhoofden kregen afbeeldingen van paradijsvogels (aldus Berkman) en hazen; die laatste komen vaker in het werk van de kunstenaars voor. Ze worden omringd door een flink aantal goudkleurige en blauwe mussen (het duo noemt duizenden). De tussen de landhoofden staande brugpijlers werden eveneens opgevrolijkt door tegelwerk, in dit geval een weergave van oosterse versiermotieven. In 2007 werd een soortgelijk werk onder de titel *Bloemenzee* aangebracht in de Rijswijkstraatbrug, die net als de Leeuwendalerswegbrug in de Rijksweg 10 ligt.
+
+      Let op:
+      - de mussen, één vogel per tegel, tussen de grote dieren;
+      - de pijlers met oosterse versiermotieven.
+    sources:
+      - https://nl.wikipedia.org/wiki/De_dames_en_de_muze
+
+- title: Les dames et la licorne (tiled entrance)
+  summary: "A 16 × 40 m tiled floor and walls under the Bos en Lommerplein parking deck, where deer, swans, hares and leaves run underfoot – Berkman en Janssens' companion to their A10 viaduct tiles."
+  body: |
+    In the early 2000s the Gulden Winckelplantsoen and the area around the old Bos en Lommerplein were almost entirely rebuilt, with a new complex of shops and a car park on top. For its covered entrance at street level, the duo Margot Berkman and Eline Janssens (*Berkman en Janssens*) designed a hard-wearing tiled floor that continues up the walls, along with the railings. The title nods to the medieval *Lady and the Unicorn* tapestries in Paris.
+
+    The motifs are the duo's familiar repertoire: leaves, swans, deer and hares spread over many tiles, and small birds that each occupy a single tile. The floor alone measures about 16 by 40 metres. For years a daily market ran on the roof above.
+
+    Look for:
+    - the deer surrounded by birds;
+    - the one-tile birds, the same trick as under the A10 viaduct (*De dames en de muze*);
+    - the railings, also by the artists.
+  category: street-art
+  lat: 52.378869
+  lng: 4.846531
+  address: Gulden Winckelplantsoen
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Les_dames_et_la_licorne" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q124536768" }
+    - { label: Margot Berkman, url: "https://www.margotberkman.nl/portfolio_page/les-dames-et-la-licorne-winkelcentrum-bos-en-lommer-amsterdam-2004/" }
+  attributes:
+    built: "2004"
+    artist: Margot Berkman and Eline Janssens (Berkman en Janssens)
+  photos:
+    - commons:File:2023 Les dames et la licorne, Asd (09).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Les_dames_et_la_licorne
+    - artist's portfolio URL (year 2004)
+  nl:
+    title: Les dames et la licorne
+    summary: "Tegelvloer en -wanden van 16 bij 40 meter (2004) van Margot Berkman en Eline Janssens in de overdekte entree onder de parkeergarage aan het Gulden Winckelplantsoen."
+    body: |
+      In het begin van de 21e eeuw ging het Gulden Winckelplantsoen en omgeving flink op de schop. Eigenlijk kwam het erop neer dat alles veranderd werd behalve de oostelijke strook bebouwing. In de plaats van de overige bebouwing werd een nieuwbouwcomplex neergezet, waaronder een parkeergarage en winkelruimten.
+
+      Margot Berkman en Eline Janssens maakten voor de overdekte entree op maaiveldniveau een vloer en lieten die inclusief de wanden betegelen met de voor hen bekende afbeeldingen van bladeren, zwanen, herten en hazen (verdeeld over meerdere tegels). Ook de kleine vogels (één vogel op één tegel) ontbreken niet. Het kunstwerk bevindt zich onder het dak van de parkeergarage, waarop lange tijd een dagmarkt zou draaien. Het meet (op de vloer) 16 bij 40 meter en is gemaakt van slijtvaste tegels.
+
+      Let op:
+      - de herten omringd door vogels;
+      - het hekwerk, dat de beide kunstenaars voor die plek ook ontwierpen.
+    sources:
+      - https://nl.wikipedia.org/wiki/Les_dames_et_la_licorne
+
+- title: Weefpatronen (tiled utility huts)
+  summary: "A sewage pump and a gas station dressed as black-and-white carpets: Barbara Broekman's tiles on the Gulden Winckelplantsoen hide a cow and a bicycle among Middle Eastern rug patterns."
+  body: |
+    In the middle of the busy Gulden Winckelplantsoen stand two utility buildings: a sewage pumping station and a gas distribution station. Around 2020 stadsdeel West asked Barbara Broekman to give them a new skin.
+
+    Broekman is best known for large textile works full of colour. Here she translated the centuries-old carpet traditions of the Middle East and Central Asia into a grid of 10 × 10 cm tiles, mixing classic rug patterns with clichéd images from Eastern and Western culture. Because the square is already so busy, she deliberately kept to white, grey and black to bring calm. The tiles were made by Winckelmans in Lomme, France.
+
+    Look for:
+    - the cow and the bicycle hidden in the seemingly abstract pattern;
+    - the "BB" signature;
+    - the information tile next to the work.
+  category: street-art
+  lat: 52.378761
+  lng: 4.847178
+  address: Gulden Winckelplantsoen
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2683/barbara-broekman-bekleding-huisjes" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Weefpatronen" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q124559098" }
+    - { label: Barbara Broekman, url: "https://www.barbarabroekman.nl/work-outside#/gulden-winckelmanplantsoen" }
+  attributes:
+    built: "2020"
+    artist: Barbara Broekman
+  photos:
+    - commons:File:2023 Gulden Winckelplantsoen, Asd-tegeltableau I (1).jpg
+    - commons:File:2023 Gulden Winckelplantsoen, Asd-tegeltableau II (2).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Weefpatronen
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2683
+  nl:
+    title: Weefpatronen (Barbara Broekman)
+    summary: "Zwart-wit-grijze tegelbekleding (ca. 2020) van een rioolgemaal en een gasverdeelstation op het Gulden Winckelplantsoen, geïnspireerd op de eeuwenoude tapijttraditie van het Midden-Oosten en Centraal-Azië."
+    body: |
+      Het werk bestaat uit de betegeling van een rioolgemaal en een gasverdeelstation op het Gulden Winckelplantsoen. Rond 2020 kreeg kunstenaar Barbara Broekman de opdracht deze gebouwtjes een leuker aanzien te geven. Broekman is gespecialiseerd in kunstwerken van textiel.
+
+      Volgens Buitenkunst Amsterdam is Broekmans inspiratiebron "de eeuwenoude tapijttraditie van het Midden Oosten en Centraal Azië". Voor haar ontwerp maakt ze gebruik van zowel de klassieke patronen van tapijten als clichébeelden uit de Oosterse en Westerse cultuur, die ze verbeeldt in een grid van tegels van tien bij tien centimeter. Omdat er op het plein toch al veel gebeurt, kiest Broekman voor een zwart-wit uiterlijk met grijstinten, "omdat dat rust geeft". De tegels zijn gefabriceerd bij de firma Winckelmans te Lomme, Frankrijk.
+
+      Let op:
+      - van een afstand lijken de tegelwerken abstract, maar er zitten minstens een koe en een fiets in verstopt;
+      - het werk is gesigneerd (BB).
+    sources:
+      - https://nl.wikipedia.org/wiki/Weefpatronen
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2683/barbara-broekman-bekleding-huisjes
+
+- title: Zuiver (fish on a pumping hut)
+  summary: "One fish wrapped around three walls of a grey utility hut on the Erasmusgracht: head on the north side, body on the west, tail on the south – only complete if you walk around it from the water."
+  body: |
+    A 28 m² concrete hut on the Joos Banckersweg, built in 1988 for the city's energy company and also housing a Waternet sewage pump, was one of the dullest objects on the Erasmusgracht. In 2020 neighbour and goldsmith Sandrine Diodati proposed brightening it up, and with money from the Bos en Lommer *buurtbudget* (neighbourhood budget) the hut got a mural in 2021, painted by the lettering firm Signpainters.
+
+    The trick is that the hut carries a single fish across three walls: the head on the north side, its flank on the west and the tail on the south. From the Joos Banckersweg you see almost nothing of it; it is meant to be seen from the banks of the Erasmusgracht and from the reed-bed water filter (*helofytenfilter*) in the canal right in front of it.
+
+    Look for:
+    - the fish's head, flank and tail as you walk round the hut along the water;
+    - the green doors with the old energy-company logo.
+  category: street-art
+  lat: 52.376794
+  lng: 4.856675
+  address: Joos Banckersweg 41 (Erasmusgracht side)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Zuiver_(muurschildering)" }
+    - { label: Buurtbudget Bos en Lommer, url: "https://buurtbudget.amsterdam.nl/bos-en-lommer/aanvraag/237" }
+    - { label: Signpainters & Co, url: "https://www.signpaintersandco.com/" }
+  attributes:
+    built: "2021"
+    artist: Signpainters & Co (idea by Sandrine Diodati)
+  photos:
+    - commons:File:2023 Zuiver, Erasmusgracht, Asd (4).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Zuiver_(muurschildering)
+  nl:
+    title: Zuiver (muurschildering Erasmusgracht)
+    summary: "Eén vis rondom een elektriciteits- en gemaalhuisje aan de Erasmusgracht (2021): de kop op de noordgevel, het zijaanzicht op de westgevel en de staart op de zuidgevel."
+    body: |
+      Joos Banckersweg 41 is een gebouw met een vloeroppervlak van 28 m² aan de noordkant van de Joos Banckersweg. Hier werd in 1988 een elektriciteitsgebouwtje neergezet door het GEB Amsterdam, met de gebruikelijke diepgroene deur met daarop het logo van het bedrijf. Het gebouwtje biedt ook onderdak aan een pompinstallatie van een rioolgemaal van Waternet.
+
+      In 2020 kwam buurtbewoonster en edelsmid Sandrine Diodati met het idee het gebouwtje op te fleuren, hetgeen uitmondde in een muurschildering rondom. Met een buurtbudget van Bos en Lommer werd het grauwe gebouwtje voorzien van één vis. Deze vis is echter niet te zien vanaf de Joos Banckersweg, maar wel vanaf de oevers van de Erasmusgracht en van het helofytenfilter dat vlak voor dit gebouwtje in die gracht ligt. Het bedrijf Signpainters, gespecialiseerd in reclamebelettering, bracht de beschilderingen aan.
+
+      Let op:
+      - de drie wanden geven samen het totale portret van de vis: de noordelijke zijde de kop, de westelijke gevel het zijaanzicht en het zuidelijk deel de staart;
+      - de diepgroene deur met het oude GEB-logo.
+    sources:
+      - https://nl.wikipedia.org/wiki/Zuiver_(muurschildering)
+
+- title: Colour Connection (Lidewijdepad tunnel)
+  summary: "A dark pedestrian tunnel under the A10 lit up with glowing mandalas drawn by some 150 neighbours, linking the Gulden Winckel and Kolenkit neighbourhoods."
+  body: |
+    The Lidewijdepad tunnel runs under the A10 ring road between the Jephtastraat and the Sinjeur Semeynsstraat. Its regular users found it dark and unsafe. When the tunnel was due to be widened, the city asked three artists for sketch designs, and the people who use the tunnel every day chose *Colour Connection* by artist and designer Nina Rave.
+
+    From June 2019 Rave ran a series of workshops in the neighbourhood in which about 150 residents, young and old, drew mandala-like designs – symmetrical round drawings with repeated motifs. Their drawings were built into the light work, which was finished in 2020. In the words of the city's art curators, it turned the underpass into an inviting, safe connection between the Gulden Winckelbuurt and the Kolenkitbuurt.
+
+    Look for:
+    - the individual residents' mandalas among the coloured light;
+    - the tunnel after dark, when the work is at its strongest.
+  category: street-art
+  lat: 52.380878
+  lng: 4.846658
+  address: Lidewijdepad, under the A10
+  links:
+    - { label: Stadscuratorium Amsterdam, url: "https://stadscuratorium.nl/en/collectie/colour-connection/" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/1040/colour-connection" }
+  attributes:
+    built: "2020"
+    artist: Nina Rave
+  sources:
+    - https://stadscuratorium.nl/en/collectie/colour-connection/
+    - Buitenkunst Amsterdam / Kunstwacht API, object 1040 (Dutch description, coordinates)
+  nl:
+    title: Colour Connection (Lidewijdepadtunnel)
+    summary: "Lichtkunstwerk (2020) van Nina Rave in de voetgangerstunnel onder de A10, met mandala's van buurtbewoners, dat de verbinding van de Gulden Winckelbuurt met de Kolenkitbuurt versterkt."
+    body: |
+      "Het lichtkunstwerk Colour Connection in de voetgangerstunnel onder de A10 versterkt de verbinding van de Gulden Winckelbuurt met de Kolenkitbuurt", aldus Buitenkunst Amsterdam. De Lidewijdepadtunnel tussen de Jephtastraat en de Sinjeur Semeynsstraat werd voorheen als onaangenaam ervaren door gebruikers: het was donker en maakte een onveilige indruk.
+
+      Naar aanleiding van de geplande verbreding van de tunnel kwam de wens naar voren om een kunstwerk in de tunnel te plaatsen waar de buurt in participatievorm een stem in kon hebben. In opdracht van de gemeente maakten drie kunstenaars schetsontwerpen; de gebruikers van de tunnel kozen het ontwerp van beeldend kunstenaar en ontwerpster Nina Rave als winnaar. Vanaf juni 2019 gaf Rave in de buurt een serie workshops, waarin ongeveer 150 omwonenden, jong en oud, tekeningen maakten geïnspireerd op mandala's. Die ontwerpen zijn in het kunstwerk opgenomen.
+
+      Let op:
+      - de mandala's van buurtbewoners in het licht;
+      - de tunnel in het donker, wanneer het werk het best tot zijn recht komt.
+    sources:
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/1040/colour-connection
+
+# ---------------------------------------------------------------- other C-list
+
+- title: Erasmuspark
+  summary: "A park that was never raised: while the city around it was built up on sand, Erasmuspark stayed at old polder level, 2.7 m below sea level, so from every side you walk down into it."
+  body: |
+    Until the 1920s this was farmland of the municipality of Sloten, a peat-meadow landscape of long ditches. Amsterdam annexed it in 1921 and drew a park with a central pond on its first plans. Because of the economic crisis only 4 hectares in the south were laid out in 1927, entered over a bridge from the Jan van Galenstraat designed by Piet Kramer. The park was named in 1939 after the humanist Erasmus; during the war little happened apart from people cutting trees for firewood.
+
+    The decisive point is that the park was never raised to the level of the surrounding streets. It is a small polder of its own inside a ring ditch, its water level kept by a pumping station, and today lies at about 2.70 m below NAP. In 1960–1961 the park got its present layout: straight paths at right angles around a large lawn, modelled on the paintings of Piet Mondrian. Three concrete bridges by Dick Slebos followed in 1970.
+
+    Look for:
+    - the drop as you enter from any side;
+    - the Mondrian grid of paths and lawns;
+    - sculptures including Han Rädecker's *Leda en de zwaan* (1970), Simona Vergani's marble bear *Orso* (1998) and *Monument voor een verzonken stad* by Berend Peter;
+    - *The Miracle Garden* in the south-east corner (separate place on this map).
+  category: green
+  lat: 52.375300
+  lng: 4.852400
+  address: Jan van Galenstraat / Mercatorstraat
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Erasmuspark" }
+  photos:
+    - commons:File:Erasmuspark2.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Erasmuspark
+    - Kunstwacht API (sculptures in the park, coordinates)
+  nl:
+    title: Erasmuspark
+    summary: "Stadspark dat nooit werd opgehoogd: een apart poldertje binnen een ringsloot op -2,70 NAP, in 1960-1961 heringericht naar model van de schilderijen van Piet Mondriaan."
+    body: |
+      Tot het begin van de 20e eeuw lag hier agrarisch gebied, dat tot de annexatie in 1921 onder de gemeente Sloten viel; het landschap werd gekenmerkt door lange sloten met rechthoekige percelen. Vanaf 1926 werden plannen uitgevoerd voor een park van circa 12 hectare, maar door de crisis werd in 1927 in eerste instantie in het zuiden slechts 4 hectare aangelegd, met een toegangsbrug vanaf de Jan van Galenstraat. In 1939 kreeg het park zijn naam, naar de humanistische schrijver Desiderius Erasmus. Verdere aanleg werd onmogelijk gemaakt door de Tweede Wereldoorlog; er gebeurde op houtroof na weinig in het park.
+
+      Bij de definitieve aanleg bleef het park een niet-opgehoogd groengebied binnen een ringsloot. Van welke kant het park benaderd wordt, men moet altijd de diepte in. In 2022 ligt het op -2,70 NAP. Door het laag gelegen maaiveld ten opzichte van de omringende woonwijken is het een apart poldertje; het waterpeil moet door een gemaal geregeld worden.
+
+      In 1960-1961 vond de herinrichting plaats: er kwamen velden en perken naar model van de schilderijen van Piet Mondriaan. Het park werd doorsneden met rechte paden met rechte hoeken, en een groot centraal grasveld werd omringd door boomaanplant. Als afronding werden er in 1970 drie bruggen gebouwd.
+
+      Let op:
+      - de afdaling bij elke ingang;
+      - de Desideriusbrug (1927) bij de Jan van Galenstraat, in Amsterdamse Schoolstijl naar ontwerp van Piet Kramer;
+      - beelden als *Leda en de zwaan* van Han Rädecker, *Orso* van Simona Vergani en *Monument voor een verzonken stad*;
+      - *The miracle garden* in de zuidoosthoek.
+    sources:
+      - https://nl.wikipedia.org/wiki/Erasmuspark
+
+- title: The Miracle Garden
+  summary: "An 800 m² flower garden that is also an artwork: photographer Elspeth Diederix grows strange, photogenic plants in a corner of Erasmuspark, tended by neighbours and open to all."
+  body: |
+    The project grew out of *The Studio Garden*, a blog in which the artist and photographer Elspeth Diederix used the garden of her studio as a living laboratory for gardening and flower photography – she even trained as a gardener for it. In 2017 she won a competition by the foundation Let it Grow that asked for an artwork bringing the world of flowers and plants closer to Amsterdammers.
+
+    The result is a garden of some 800 m² in the south-east corner of Erasmuspark, planted with the most remarkable flowers so that something is blooming all year round. It is the breeding ground for Diederix's *Miracle Series*, photographs that periodically appear on billboards in the city. A group of neighbours does the daily maintenance, and the diversity of plants has made it a haven for bees and butterflies. It was nominated for the Amsterdamprijs voor de Kunst in 2021.
+
+    Look for:
+    - whatever is flowering this week – the planting is designed not to have an off-season;
+    - insects: the beds are a refuge for bees and butterflies.
+  category: green
+  lat: 52.374836
+  lng: 4.852931
+  address: Erasmuspark (south-east corner)
+  links:
+    - { label: The Miracle Garden, url: "https://themiraclegarden.nl/the-miracle-garden/about/" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2770/the-miracle-garden" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/The_miracle_garden" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q115379904" }
+  attributes:
+    built: "2017"
+    artist: Elspeth Diederix
+  photos:
+    - commons:File:2022 The miracle garden, Erasmuspark, Asd (3).jpg
+    - commons:File:2022 The miracle garden, Erasmuspark, Asd (1).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/The_miracle_garden
+    - Buitenkunst Amsterdam / Kunstwacht API, object 2770
+  nl:
+    title: The miracle garden
+    summary: "Natuurlijk kunstwerk van Elspeth Diederix (2017) in de zuidoosthoek van het Erasmuspark: 800 m² bloembedden met fotogenieke bloemen en planten, het hele jaar door vrij toegankelijk."
+    body: |
+      Dit kunst- en natuurproject kwam voort uit een blog getiteld *The Studio Garden*: een project in de tuin bij het atelier van kunstenares Elspeth Diederix. Ze wilde kijken wat mogelijk was op het gebied van tuinieren in combinatie met fotografie, en volgde daarvoor een cursus tuinontwerp en een hoveniersopleiding. De stichting Let it Grow schreef een wedstrijd uit met de opdracht: "Ontwikkel voor Amsterdam een kunstwerk dat de wereld van bloemen en planten dichter bij de mensen brengt." Diederix won de prijsvraag.
+
+      Dit vertaalde zich in 2017 naar een aantal bloembedden met fotogenieke bloemen en planten ter grootte van 800 m² in de zuidoosthoek van het Erasmuspark. Volgens Buitenkunst Amsterdam bloeien er het hele jaar door "de meest wonderlijke bloemen" en is de tuin de broedplaats voor de zogenaamde *Miracle Series*: kunstwerken die op gezette tijden op billboards in de stad verschijnen. Een enthousiaste groep buurtbewoners zorgt voor het dagelijks onderhoud. In 2021 werd de tuin genomineerd voor de Amsterdamprijs voor de kunst.
+
+      Let op:
+      - wat er deze week bloeit; de tuin is niet seizoensgebonden;
+      - de insecten: door de grote diversiteit aan bloemen en planten werden de perken een toevluchtsoord voor bijen en vlinders.
+    sources:
+      - https://nl.wikipedia.org/wiki/The_miracle_garden
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2770/the-miracle-garden
+
+- title: Monument 1940–1945 (Zittende vrouw)
+  summary: "A pensive seated woman on a granite plinth quoting Jan Campert and the Wilhelmus: Bos en Lommer's war memorial, paid for by its own neighbourhood centres in 1957 and the scene of the local 4 May commemoration."
+  body: |
+    The neighbourhood centres of Landlust and Bos en Lommer raised the money for this memorial themselves, and on 4 May 1957 mayor Gijs van Hall unveiled it in a small green on the Hertspieghelweg; lines by the resistance poet Jan Campert were recited at the ceremony. In 1974 it moved some 75 metres south within the same green, to the north side of the Bos en Lommerweg.
+
+    The sculptor, Gerarda Rueter, had already shown her *Zittende vrouw* (seated woman) at the Sonsbeek sculpture exhibition of 1949: a pensive figure with her hands in her lap. The original was limestone; it weathered so badly that it was replaced by a bronze cast in 1976. In 1995 a tiled platform was added around it to make room for the annual 4 May gathering.
+
+    Look for:
+    - on the left of the plinth, Campert's lines from *Het lied der achttien doden* ("I knew the task that I began…");
+    - on the right, a verse of the Wilhelmus;
+    - the foundry name, Binder-Schmidt, in the base plate.
+  category: hidden-history
+  lat: 52.379667
+  lng: 4.852500
+  address: Bos en Lommerweg, opposite Gloriantstraat (Hertspiegelplantsoen)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Monument_1940-%2745_in_Bos_en_Lommer" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q91774299" }
+    - { label: 4 en 5 mei, url: "https://www.4en5mei.nl/oorlogsmonumenten/monumenten_zoeken/oorlogsmonument/1490" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2133/monument-4045" }
+  attributes:
+    built: 1957 (bronze recast 1976)
+    artist: Gerarda Rueter
+  photos:
+    - commons:File:BosEnLommerweg-Memorial-Amsterdam.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Monument_1940-%2745_in_Bos_en_Lommer
+    - https://4en5meiamsterdam.nl/en/agenda/herdenking-bos-en-lommer-5/ (local 4 May commemoration)
+  nl:
+    title: Monument 1940-1945 Bos en Lommer (Zittende vrouw)
+    summary: "Oorlogsmonument van Gerarda Rueter, op 4 mei 1957 onthuld door burgemeester Gijs van Hall: een zittende peinzende vrouw op een granieten voetstuk met teksten van Jan Campert en het Wilhelmus."
+    body: |
+      Het beeld/monument staat bekend onder vele benamingen, zoals *Zittende vrouw*, *Zittende figuur*, *Monument 1940-1945* en *Monument aan de Bos en Lommerweg*. Het beeld *Zittende vrouw* was overigens al eerder door Rueter tentoongesteld, tijdens de beeldententoonstelling in Sonsbeek van 1949.
+
+      Het voetstuk en beeld werden op 4 mei 1957 onthuld door burgemeester Gijs van Hall in een plantsoen aan de Hertspieghelweg bij de Leeuwendalersweg. Gelden hiervoor waren bijeengebracht door de buurtcentra van Landlust en Bos en Lommer. Bij de onthulling werden teksten van Jan Campert gedeclameerd. Het beeld staat sinds 1974 opgesteld 75 meter zuidelijker in hetzelfde plantsoen, aan de noordzijde van de Bos en Lommerweg. Gerarda Rueter ontwierp een zittende peinzende vrouw met handen in de schoot. Het beeld was eerder uitgevoerd in kalksteen, dat in de loop der jaren verweerde; in 1976 werd daarom een nieuwe versie neergezet, nu in brons. Rondom het voetstuk werd in 1995 een tegelplateau aangelegd om het beeld beter bereikbaar te maken tijdens de herdenkingsbijeenkomsten.
+
+      Let op:
+      - links op het voetstuk: "Ik wist de taak die ik begon; een taak van moeiten zwaar; maar 't hart dat het niet laten kon; schuwt nimmer het gevaar" (Jan Campert);
+      - rechts het Wilhelmus: "Dat ick toch vroom mach blijven; U dienaar taller stondt; die tyranny verdrijven; die mij mijn hert doorwondt";
+      - in de grondplaat de naam van de gieterij: Binder-Schmidt Bronsgieterij.
+    sources:
+      - https://nl.wikipedia.org/wiki/Monument_1940-%2745_in_Bos_en_Lommer
+
+- title: Liberty Tree, Bos en Lommerweg
+  summary: "A tree planted on 27 June 1945 by an RAF lieutenant 'to remind 5 May' – with its English-language stone still at its foot, signed by 'the local residents'."
+  body: |
+    Seven weeks after the liberation, on 27 June 1945, residents of this part of Bos en Lommer had a *vrijheidsboom* (liberty tree) planted at the eastern end of the Bos en Lommerweg. According to the inscription it was planted by an Allied serviceman, R. Saunders, a first lieutenant of the Royal Air Force – which is why the small memorial stone is in English.
+
+    It is registered as a war memorial and is easy to miss: a low stone among the street trees, a few hundred metres from the larger 1957 monument with the seated woman further west on the same street.
+
+    Look for:
+    - the inscription: "1940 – 1945 / Liberty tree / to remind 5 May / planted by R. Saunders / 1e Ltn. R.A.F. / on 27 June 1945 / The local residents";
+    - the mix of Dutch and English in "1e Ltn." – a Dutch abbreviation for an RAF rank.
+  category: hidden-history
+  lat: 52.382550
+  lng: 4.855850
+  address: Bos en Lommerweg (east end, near the Gibraltarstraat)
+  links:
+    - { label: TracesOfWar, url: "https://www.tracesofwar.com/sights/58758/Vrijheidsboom-Bos-en-Lommerweg.htm" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q116683994" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/1865/gedenkteken-4045" }
+  attributes:
+    built: "1945"
+  photos:
+    - commons:File:Vrijheidsboom, Geallieerde Militairen.jpg
+  sources:
+    - https://www.tracesofwar.com/sights/58758/Vrijheidsboom-Bos-en-Lommerweg.htm (inscription text)
+    - Wikidata Q116683994 (herdenkingsboom, oorlogsmonument, 1945)
+    - Kunstwacht API object 1865 "Gedenkteken 40/45", hardsteen, Bos en Lommerweg (same spot)
+  nl:
+    title: Vrijheidsboom Bos en Lommerweg
+    summary: "Op 27 juni 1945 geplante vrijheidsboom aan de Bos en Lommerweg, met een Engelstalige gedenksteen: geplant door R. Saunders, eerste luitenant van de RAF, namens 'the local residents'."
+    body: |
+      Aan het oostelijke eind van de Bos en Lommerweg staat een vrijheidsboom, een herdenkingsboom en oorlogsmonument uit 1945. Volgens de tekst bij de boom werd hij op 27 juni 1945 geplant door R. Saunders, eerste luitenant van de Royal Air Force, ter herinnering aan 5 mei. De hardstenen gedenksteen staat in het register van Buitenkunst Amsterdam als *Gedenkteken 40/45*.
+
+      Let op:
+      - het opschrift: "1940 - 1945 / Liberty tree / to remind / 5 May / planted by / R. Saunders / 1e Ltn. R.A.F. / on 27 June 1945 / The local residents";
+      - het grotere monument met de zittende vrouw (1957), verderop aan dezelfde weg.
+    sources:
+      - https://www.tracesofwar.com/sights/58758/Vrijheidsboom-Bos-en-Lommerweg.htm
+
+- title: Zeeslagenkaart (Solebayplein)
+  summary: "A carved wooden sea chart set into a round stone bench, mapping the naval battles that gave the Gibraltarbuurt its street names – complete with diving whales in 17th-century style."
+  body: |
+    The streets of the Gibraltarbuurt in Landlust are named after naval battles – Solebay, Gibraltar, Doggersbank, Kijkduin and more – fitting a district whose main roads honour admirals. The Solebaystraat itself was named in 1933 after the Battle of Solebay of 7 June 1672.
+
+    The small, officially unnamed square where the Solebaystraat and the Bos en Lommerweg meet the Haarlemmerweg used to be overgrown, and residents said they felt unsafe there. The city asked architect-artist Lobke Alkemade, who had already redesigned squares in Amsterdam-Oost, to rework it. She opened it up with benches and, at its centre, a large round stone seat with a map carved in wood that marks the sea battles behind the neighbourhood's street names, drawn like a 17th-century chart.
+
+    Look for:
+    - the battles you can then find on the street signs around you (Solebay, Gibraltar, Doggersbank, Kijkduin, Livorno);
+    - the diving whales, as on old sea charts;
+    - the 1934–35 Amsterdam School block by Gerrit Jan Rutgers (Haarlemmerweg 507–531) on the south side of the square.
+  category: curiosities
+  lat: 52.384767
+  lng: 4.855031
+  address: Solebayplein (Solebaystraat / Haarlemmerweg)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Solebayplein" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q135976058" }
+    - { label: Commons category, url: "https://commons.wikimedia.org/wiki/Category:Zeeslagenkaart" }
+    - { label: Lobke Alkemade, url: "http://www.lobkealkemade.nl/projecten/gemeente%20Amsterdam/gemeente%20Amsterdam.html" }
+  attributes:
+    artist: Lobke Alkemade
+  photos:
+    - commons:File:Zeeslagenkaart, overzicht (1).jpg
+    - commons:File:Zeeslagenkaart, Walvis.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Solebayplein
+    - Commons category Zeeslagenkaart (file names list Solebay, Gibraltar, Doggersbank, Kijkduin, Livorno)
+  nl:
+    title: Zeeslagenkaart (Solebayplein)
+    summary: "In een grote ronde stenen zitbank ligt een in hout uitgesneden kaart met de zeeslagen die de straten van deze buurt hun naam gaven, in de stijl van 17e-eeuwse kaarten – met wegduikende walvissen."
+    body: |
+      Solebayplein is een officieuze naam voor een plein in de wijk Landlust. Het ligt tussen de uiteinden van de Solebaystraat en de Bos en Lommerweg, daar waar zij aansluiten op de Haarlemmerweg.
+
+      Bij een algehele opknapbeurt van de omgeving klaagden de bewoners dat zij zich nogal onveilig voelden op het pleintje. Dit kwam doordat de bomen en struiken licht weghielden. De gemeente Amsterdam of stadsdeel West vroeg vervolgens aan architecte/kunstenares Lobke Alkemade het plein opnieuw in te richten. Zij richtte een open plein in met zitbankjes en een kunstwerk.
+
+      Op het plein ligt in een grote ronde stenen zitbank of verzamelplaats een in hout uitgesneden kaart waarop de zeeslagen staan aangegeven die de naamdragers zijn van de straten in deze buurt. De Solebaystraat werd in 1933 vernoemd naar de Slag bij Solebay van 7 juni 1672. De kaart is gemaakt in de stijl van 17e-eeuwse kaarten.
+
+      Let op:
+      - de wegduikende walvissen, zoals op 17e-eeuwse kaarten;
+      - de zeeslagen die je terugziet op de straatnaambordjes rondom;
+      - het woonblok Haarlemmerweg 507-531 aan de zuidkant, uit 1934/1935 in de stijl van de Amsterdamse School, ontworpen door Gerrit Jan Rutgers.
+    sources:
+      - https://nl.wikipedia.org/wiki/Solebayplein
+
+- title: Gemaal Mercatorstraat
+  summary: "A 1927 Amsterdam School pumping station and electricity hut at the corner of Erasmuspark, rescued by its neighbours in 2017 – it still pumps thousands of litres a day, and its roof is now a little garden."
+  body: |
+    The city's Public Works department built this squat brick-and-stone building in 1927 at the corner of the Jan van Galenstraat and the Mercatorstraat, on the south-western tip of Erasmuspark but separated from it by the park's ring ditch. It combines a sewage pumping station with an electricity substation – which explains the two heavy doors that still refer to the old municipal energy company.
+
+    By the 2010s it was neglected. In 2017 Waternet restored it in consultation with local residents, who had taken the initiative. The back wall was given six frames for posters, and the flat top of the pump cellar behind the building was turned into a small garden. According to Waternet the pumps still move thousands of litres of waste water every day to the treatment plant in Westpoort.
+
+    Look for:
+    - the three St Andrew's crosses of Amsterdam, done in Amsterdam School style;
+    - the energy-company doors on the front;
+    - the poster frames and the garden on the roof of the pump cellar at the back.
+  category: curiosities
+  lat: 52.373183
+  lng: 4.850025
+  address: Jan van Galenstraat / Mercatorstraat
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Gemaal_Mercatorstraat" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q39336788" }
+    - { label: Waternet (2017), url: "https://www.waternet.nl/nieuws/2017/2/bewoners-nemen-initiatief-bij-gemaal-mercatorstraat/" }
+    - { label: Het Parool (4 Feb 2017), url: "https://www.parool.nl/amsterdam/gemaal-mercatorstraat-opgeknapt-dankzij-betrokken-buurt~a4458190/" }
+  attributes:
+    built: "1927"
+    architect: Dienst der Publieke Werken
+    original_use: Sewage pumping station and electricity substation
+  photos:
+    - commons:File:Mercatorstraat, elektriciteitshuisje in de stijl van de Amsterdamse School foto 1.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Gemaal_Mercatorstraat
+  nl:
+    title: Gemaal Mercatorstraat
+    summary: "Gemaal annex elektriciteitshuisje in Amsterdamse Schoolstijl uit 1927, op de hoek van Jan van Galenstraat en Mercatorstraat, in 2017 in overleg met buurtbewoners gerestaureerd."
+    body: |
+      Het gemaal annex elektriciteitshuisje is geplaatst op de hoek van de Jan van Galenstraat en de Mercatorstraat. Het ligt daarbij op de zuidwestelijke punt van het Erasmuspark, maar is van het park gescheiden door een ringvaart om het park. Het is gebouwd in 1927 en is afkomstig van de Dienst der Publieke Werken.
+
+      Het uit bak- en natuurstenen legstenen opgetrokken gebouw staat er massief bij. Het is in 2017 in overleg met buurtbewoners gerestaureerd. Aan de voorzijde heeft het twee massieve deuren die nog verwijzen naar het Gemeentelijk Energie Bedrijf, tegenwoordig Liander; Waternet is verantwoordelijk voor het gemaal. De achtergevel bestaat geheel uit baksteen met zes ruimtes om posters op te hangen. Het achterliggende plateau (dak van de gemaalkelder) werd bij de renovatie omgebouwd tot tuintje. Het gemaal pompt nog iedere dag duizenden liters afwater naar de zuiveringsinstallatie van Westpoort, aldus Waternet.
+
+      Let op:
+      - de drie Andreaskruizen van Amsterdam in Amsterdamse Schoolstijl;
+      - de deuren van het oude energiebedrijf;
+      - de posterruimtes en het tuintje achter het gebouw.
+    attributes:
+      original_use: Rioolgemaal en elektriciteitshuisje
+    sources:
+      - https://nl.wikipedia.org/wiki/Gemaal_Mercatorstraat
+
+- title: Kostwinner (Constance Wibaut)
+  summary: "A stern 1950 sculpture of a breadwinner with his mother and daughter, hidden in a post-war courtyard – a monument to the male-breadwinner model that Amsterdam's own art academy now calls 'not very feminist'."
+  body: |
+    Between 1947 and 1950 the housing association De Dageraad built low walk-up flats with a shared inner garden here, between the Granidastraat and the Gulden Winckelstraat, to a design by Gerard Jan Rutgers. On the advice of professor Jan Bronner of the Rijksakademie, the association commissioned his former student Constance Wibaut to make a sculpture for the garden. Alderman De Roos unveiled it on 2 June 1950; architect Rutgers came by on 19 June to photograph his buildings and the statue.
+
+    *Kostwinner* (breadwinner), also called *Drie generaties* (three generations), shows a strong, upright man with his right hand on the shoulder of the grandmother and his daughter at his other side. In the 1940s and 50s that was the norm: the man went out to work, the woman stayed home, and a woman who married had to give up her job. Later generations found it dated; the Rijksakademie's 2020 survey of its alumni's public works described it as "not very feminist".
+
+    Look for:
+    - the statue through the opening on the south side of the block, along the Leeuwendalerspad – the courtyard itself is closed;
+    - how the man is literally placed above and in front of the two women.
+  category: curiosities
+  lat: 52.380131
+  lng: 4.847567
+  address: Leeuwendalerspad (courtyard between Granidastraat and Gulden Winckelstraat)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Kostwinner_(Constance_Wibaut)" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q104758951" }
+    - { label: Buitenbeeld in Beeld, url: "https://www.buitenbeeldinbeeld.nl/Amsterdam_W/Wibaut.htm" }
+    - { label: Beeldbank Amsterdam (1950), url: "https://archief.amsterdam/beeldbank/detail/029b426b-5989-866a-fa20-a8641cd1ddff" }
+  attributes:
+    built: 1949–1950
+    artist: Constance Wibaut
+  photos:
+    - commons:File:2020 Kostwinner (Constance Wibaut) (2).jpg
+    - commons:File:2020 Kostwinner (Constance Wibaut) (7).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Kostwinner_(Constance_Wibaut)
+  nl:
+    title: Kostwinner (Constance Wibaut)
+    summary: "Beeld van Constance Wibaut (1950) op een afgesloten binnenterrein van De Dageraad: een stoer rechtopstaande man met grootmoeder en dochter, door de Rijksakademie in 2020 'niet erg feministisch' genoemd."
+    body: |
+      *Kostwinner*, ook wel *Drie generaties*, staat op een (afgesloten) binnenterrein tussen twee flats met portiekwoningen aan de Granidastraat en de Gulden Winckelstraat. Het ooit doorlopende Leeuwendalerspad voert langs de opening aan de zuidzijde van het blok. Woningbouwvereniging De Dageraad bouwde hier tussen 1947 en 1950 een blok laagbouwflats met binnentuin naar een ontwerp van Gerard Jan Rutgers. De Dageraad won advies in bij professor Jan Bronner van de Rijksakademie van beeldende kunsten, en hij adviseerde Constance Wibaut, zijn leerlinge.
+
+      Zij kwam met een weergave van een stoer rechtopstaande man, die zijn rechterhand legt op de schouder van de grootmoeder. Aan de andere kant staat zijn dochter. Het beeld draagt een naar die tijd socialistische signatuur. In de jaren 40 en 50 was het gangbaar dat de man naar het werk ging en de vrouw thuisbleef; het zogenaamde kostwinnersmodel. Rijksakademie op de kaart benoemde het in 2020 als "niet erg feministisch". Vrijdag 2 juni 1950 werd het beeld onthuld door wethouder De Roos; op 19 juni 1950 kwam architect Rutgers zijn eigen werk fotograferen en legde zo ook het beeld vast.
+
+      Let op:
+      - het beeld door de opening aan de zuidzijde, langs het Leeuwendalerspad;
+      - hoe de man naar voren wordt geschoven ten opzichte van de twee vrouwen.
+    sources:
+      - https://nl.wikipedia.org/wiki/Kostwinner_(Constance_Wibaut)
