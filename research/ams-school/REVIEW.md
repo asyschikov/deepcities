@@ -13,10 +13,10 @@ map owner may overrule any of them.
 ## Inclusion calls
 Kept, with the reason written in the place text:
 - Telegraaf building (Late)
-- Olympic Stadium (Restrained)
-- Lloyd Hotel (no phase)
-- Citroen jeweller's at Kalverstraat 1 (Wijdeveld, Precursor)
-- De Nederlanden (Ouëndag, Precursor)
+- Olympic Stadium (Pared-down)
+- Lloyd Hotel (no style)
+- Citroen jeweller's at Kalverstraat 1 (Wijdeveld, Forerunner)
+- De Nederlanden (Ouëndag, Forerunner)
 - Brug 117
 - Pesthuysbrug
 - Van Lennepschool

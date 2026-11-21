@@ -55,11 +55,12 @@ fields:
     label: Sculptors & artists
     type: text
     help: Sculpture, stained glass, ironwork — e.g. Hildo Krop.
-  - key: style_phase
-    label: Phase
+  - key: style_phase  # key is permanent; the field is shown as "Style"
+    label: Style
     type: select
-    options: [Precursor, Expressive, Restrained, Late]
-    help: Precursor (before c. 1915); Expressive, the peak (c. 1915–1923); Restrained, the plainer "verstrakte" phase (c. 1923–1940); Late, 1930s and post-war echoes.
+    options: [Forerunner, Expressive, Pared-down, Modernist mix]
+    help: "How it looks: Forerunner (the rationalism it grew out of), Expressive (rippling walls, towers, sculpture), Pared-down (flat walls, little ornament), Modernist mix."
+    filter: true
   - key: original_use
     label: Original use
     type: text
@@ -120,13 +121,13 @@ translations:
         label: Beeldhouwers en kunstenaars
         help: Beeldhouwwerk, glas-in-lood, smeedwerk — bijvoorbeeld Hildo Krop.
       style_phase:
-        label: Fase
-        help: Voorloper (vóór ca. 1915), expressieve hoogtijdagen (ca. 1915–1923), verstrakte fase (ca. 1923–1940), late of naoorlogse navolging.
+        label: Stijl
+        help: "Hoe het eruitziet: Voorloper (het rationalisme waaruit de stijl groeide), Expressief (golvende gevels, torentjes, beeldhouwwerk), Verstrakt (vlakke wanden), Gemengd."
         options:
-          Precursor: Voorloper
+          Forerunner: Voorloper
           Expressive: Expressief
-          Restrained: Verstrakt
-          Late: Laat
+          Pared-down: Verstrakt
+          Modernist mix: Gemengd met het Nieuwe Bouwen
       original_use:
         label: Oorspronkelijke functie
       listed:

@@ -30,16 +30,16 @@ Ook de gemeente zelf bouwde in de stijl. Bij de Dienst der Publieke Werken, waar
 
 De schoonheidscommissie keurde de gevels. Gratama speelde er een centrale rol in en trok architecten van de Amsterdamse School voor. Vanaf 1924 oordeelde de commissie over alle bouwaanvragen in de binnenstad. In [Plan West](place:) (1922) tekende bureau Gulden & Geldmaker alle plattegronden. Architecten als Berlage, Kramer, Wijdeveld en Staal mochten alleen de gevels ontwerpen, en een schoonheidscommissie keurde het geheel. Zo ontstonden de lange, samenhangende straatwanden rond het [Mercatorplein](place:).
 
-## Fasen
+## Stijlen
 
-Elke plek op deze kaart heeft een fase. Dat is een grove indeling, geen wet:
+Elke plek op deze kaart heeft een stijl: een grove indeling naar hoe het gebouw eruitziet, geen wet en geen jaartal. In de tijd volgen de stijlen elkaar wel ruwweg op:
 
-- **Voorloper** (vóór ca. 1915): Berlages rationalisme en de eerste experimenten, zoals het [Hillehuis](place:) en het [eerste blok](place:Spaarndammerplantsoen, De Klerk's first block) aan het Spaarndammerplantsoen.
-- **Expressief** (ca. 1915–1923): de hoogtijdagen, met golvende gevels, torentjes en overdadig beeldhouwwerk. Het register noemt [De Dageraad](place:) een voorbeeld van de stijl 'in haar meest levendige irrationele fase'.
-- **Verstrakt** (ca. 1923–1940): strakkere wanden, kubische bouwmassa's en minder beeldhouwwerk, zoals in Plan West en, op het uiterste randje, het [koelhuis van de Heineken-brouwerij](place:Heineken brewery cold store (Heineken Experience)) aan de Stadhouderskade.
-- **Laat**: werk uit de jaren dertig dat de stijl mengt met het Nieuwe Bouwen of met Frank Lloyd Wright, zoals Staals [Wolkenkrabber](place:12-verdiepingenhuis (De Wolkenkrabber)), en naoorlogse naklanken als Kramers [Brug 604](place:) (1953–1955).
+- **Voorloper** (meestal vóór 1915): Berlages rationalisme en de eerste experimenten, zoals het [Hillehuis](place:) en het [eerste blok](place:Spaarndammerplantsoen, De Klerk's first block) aan het Spaarndammerplantsoen.
+- **Expressief** (meestal 1915–1923): de hoogtijdagen, met golvende gevels, torentjes en overdadig beeldhouwwerk. Het register noemt [De Dageraad](place:) een voorbeeld van de stijl 'in haar meest levendige irrationele fase'.
+- **Verstrakt** (meestal 1923–1940): strakkere wanden, kubische bouwmassa's en minder beeldhouwwerk, zoals in Plan West en, op het uiterste randje, het [koelhuis van de Heineken-brouwerij](place:Heineken brewery cold store (Heineken Experience)) aan de Stadhouderskade.
+- **Gemengd met het Nieuwe Bouwen**: werk uit de jaren dertig dat de stijl mengt met het Nieuwe Bouwen of met Frank Lloyd Wright, zoals Staals [Wolkenkrabber](place:12-verdiepingenhuis (De Wolkenkrabber)), en naoorlogse naklanken als Kramers [Brug 604](place:) (1953–1955).
 
-Het rijksregister hanteert een eigen nummering. Het noemt [Het Schip](place:) 'een der irrationeelste hoogtepunten van de tweede fase der Amsterdamse School'. De blokken van De Klerk aan de [noordzijde van de Vrijheidslaan](place:Vrijheidslaan north side (De Klerk)) vormen volgens het register 'in hun kubistische vormen al een overgang' naar de derde fase.
+Het rijksregister telt in plaats daarvan fasen. Het noemt [Het Schip](place:) 'een der irrationeelste hoogtepunten van de tweede fase der Amsterdamse School'. De blokken van De Klerk aan de [noordzijde van de Vrijheidslaan](place:Vrijheidslaan north side (De Klerk)) vormen volgens het register 'in hun kubistische vormen al een overgang' naar de derde fase.
 
 ![Het Schip van Michel de Klerk (1917–1920)](commons:File:Amsterdam Het Schip 006.JPG)
 

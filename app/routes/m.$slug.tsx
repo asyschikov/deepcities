@@ -93,6 +93,15 @@ const MapLayout = () => {
   );
 
   const [category, setCategory] = useState<string | null>(null);
+  const [fieldFilters, setFieldFilters] = useState<Record<string, string>>({});
+  const setFieldFilter = useCallback(
+    (key: string, value: string | null) =>
+      setFieldFilters((prev) => {
+        const { [key]: _, ...rest } = prev;
+        return value === null ? rest : { ...rest, [key]: value };
+      }),
+    [],
+  );
   const [search, setSearch] = useState("");
   const [draft, setDraft] = useState<LngLat | null>(null);
   const [picking, setPicking] = useState(false);
@@ -118,9 +127,12 @@ const MapLayout = () => {
     return places.filter(
       (p, i) =>
         (!category || p.category === category) &&
+        Object.entries(fieldFilters).every(
+          ([key, value]) => p.attributes?.[key] === value,
+        ) &&
         (!q || matches(p) || matches(rawPlaces[i] ?? p)),
     );
-  }, [places, rawPlaces, category, search]);
+  }, [places, rawPlaces, category, fieldFilters, search]);
 
   const visibleIds = useMemo(
     () => new Set(visiblePlaces.map((p) => p.id)),
@@ -166,6 +178,8 @@ const MapLayout = () => {
     visiblePlaces,
     category,
     setCategory,
+    fieldFilters,
+    setFieldFilter,
     search,
     setSearch,
     draft,

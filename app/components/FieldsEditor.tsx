@@ -126,6 +126,18 @@ export const FieldsEditor = ({
               />
               {t("manage_field_required")}
             </label>
+            {f.type === "select" && (
+              <label className="flex items-center gap-1.5 text-sm">
+                <input
+                  type="checkbox"
+                  checked={Boolean(f.filter)}
+                  onChange={(e) =>
+                    update(i, { filter: e.target.checked || undefined })
+                  }
+                />
+                {t("manage_field_filter")}
+              </label>
+            )}
             <div className="flex">
               <Button
                 type="button"

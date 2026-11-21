@@ -56,16 +56,16 @@ The city itself built in the style too. The Public Works department (*Dienst der
 
 In the big expansion plans many builders were private contractors who wanted standard flats. To keep up quality, the city put façades before an aesthetics or "beauty" committee (*schoonheidscommissie*). Jan Gratama was a leading member, and the committee favoured Amsterdam School architects. In [Plan West](place:) (1922) one firm drew all the floor plans and well-known architects designed only the fronts. That explains the long unified street walls of the [Hoofdweg](place:Hoofdweg housing by Wijdeveld) and Berlage's [Mercatorplein](place:).
 
-## Phases
+## Styles
 
-Each place on this map has a *phase*, a rough label, not a strict rule:
+Each place on this map has a *style*: a rough label for how the building looks, not a strict rule and not a date. The styles do follow each other loosely in time:
 
-- **Precursor** (before about 1915): Berlage's rationalism and the first experiments, such as the [Hillehuis](place:) and De Klerk's [first block](place:Spaarndammerplantsoen, De Klerk's first block) on the Spaarndammerplantsoen.
-- **Expressive** (about 1915–1923): the peak. It brought undulating walls, fantastic towers and lavish sculpture: [Het Schip](place:) and [De Dageraad](place:), which the national register describes as the style "in its most lively, irrational phase".
-- **Restrained** (about 1923–1940): the *verstrakte* ("tightened") phase, with flatter walls, cubic volumes and less sculpture. Examples are the Plan West blocks and, at the far end, the [Heineken cold store](place:Heineken brewery cold store (Heineken Experience)) of 1933–1934.
-- **Late**: 1930s works that mix the style with the Nieuwe Bouwen or Frank Lloyd Wright, such as Staal's [Wolkenkrabber](place:12-verdiepingenhuis (De Wolkenkrabber)), plus post-war echoes such as Kramer's [Brug 604](place:) of 1953–1955.
+- **Forerunner** (mostly before 1915): Berlage's rationalism and the first experiments, such as the [Hillehuis](place:) and De Klerk's [first block](place:Spaarndammerplantsoen, De Klerk's first block) on the Spaarndammerplantsoen.
+- **Expressive** (mostly 1915–1923): the peak. It brought undulating walls, fantastic towers and lavish sculpture: [Het Schip](place:) and [De Dageraad](place:), which the national register describes as the style "in its most lively, irrational phase".
+- **Pared-down** (mostly 1923–1940): the *verstrakte* ("tightened") style, with flatter walls, cubic volumes and less sculpture. Examples are the Plan West blocks and, at the far end, the [Heineken cold store](place:Heineken brewery cold store (Heineken Experience)) of 1933–1934.
+- **Modernist mix**: 1930s works that mix the style with the Nieuwe Bouwen or Frank Lloyd Wright, such as Staal's [Wolkenkrabber](place:12-verdiepingenhuis (De Wolkenkrabber)), plus post-war echoes such as Kramer's [Brug 604](place:) of 1953–1955.
 
-The national register uses its own numbering. It places Het Schip in the "second phase" and De Klerk's [Vrijheidslaan blocks](place:Vrijheidslaan north side (De Klerk)) at the transition to the "third".
+The national register counts phases instead. It places Het Schip in the "second phase" and De Klerk's [Vrijheidslaan blocks](place:Vrijheidslaan north side (De Klerk)) at the transition to the "third".
 
 ![De Dageraad in Plan Zuid, by De Klerk and Kramer](commons:File:Amsterdam De Dageraad 006.JPG)
 

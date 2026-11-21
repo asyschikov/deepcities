@@ -45,6 +45,9 @@ export interface MapPageState {
   visiblePlaces: PlaceListItem[];
   category: string | null;
   setCategory: (key: string | null) => void;
+  /** Chosen option per filter field (select fields with `filter`). */
+  fieldFilters: Record<string, string>;
+  setFieldFilter: (key: string, value: string | null) => void;
   search: string;
   setSearch: (q: string) => void;
   /** Non-null while a form wants the user to place a pin. */

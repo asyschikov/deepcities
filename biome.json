@@ -61,7 +61,8 @@
       "!**/dist",
       "!**/pnpm-lock.yaml",
       "!**/*.d.ts",
-      "!**/.claude/**"
+      "!**/.claude/**",
+      "!**/research/**"
     ]
   }
 }

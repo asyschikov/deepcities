@@ -102,9 +102,9 @@ The roof counts as much as the wall. Tiles are hung vertically on walls, wrapped
 
 ![Marnette's stair windows with ladder frames on the Vrijheidslaan (1922–1923)](commons:File:Vrijheidslaan 9-43 pic1.JPG)
 
-## Expressive or restrained?
+## Expressive or pared-down?
 
-In the **expressive** phase (about 1915–1923), walls ripple, roofs do no structural work, sculpture is everywhere and floor plans give way to the outside effect. Think of Het Schip and De Dageraad. In the **restrained** or *verstrakte* ("tightened") phase that followed De Klerk's death in 1923, budgets shrank and the forms straightened. Buildings became compositions of cubic brick blocks with long horizontal window strips set against vertical towers, and the sculpture was sparing or gone.
+In the **expressive** phase (about 1915–1923), walls ripple, roofs do no structural work, sculpture is everywhere and floor plans give way to the outside effect. Think of Het Schip and De Dageraad. In the **pared-down** or *verstrakte* ("tightened") phase that followed De Klerk's death in 1923, budgets shrank and the forms straightened. Buildings became compositions of cubic brick blocks with long horizontal window strips set against vertical towers, and the sculpture was sparing or gone.
 
 Compare De Dageraad with De Klerk's [Vrijheidslaan blocks](place:Vrijheidslaan north side (De Klerk)) a few streets away: same years, same architect, but the long walls there are already calm. Compare also Kramer's richly carved Barbiersbrug (1927–1928) with the bare [Pesthuysbrug](place:) of 1938.
 
@@ -113,7 +113,7 @@ Compare De Dageraad with De Klerk's [Vrijheidslaan blocks](place:Vrijheidslaan n
 Most places on this map were described by the national (RCE) or municipal monument registers, often decades ago. They use a vocabulary of their own:
 
 - **Amsterdamse School** or *Amsterdamsche School*: the style itself, sometimes qualified by phase. The register calls Het Schip one of the most "irrational" highlights of the "second phase".
-- **Zakelijk-expressionistisch** ("businesslike" or "matter-of-fact expressionist"): brick expressionism pared down to cubic volumes, close to the restrained phase. The register uses it for the [Heineken cold store](place:Heineken brewery cold store (Heineken Experience)), the [Wilhelmina Gasthuis surgical clinic](place:) and the [Olympic Stadium](place:), among others.
+- **Zakelijk-expressionistisch** ("businesslike" or "matter-of-fact expressionist"): brick expressionism pared down to cubic volumes, close to the pared-down style. The register uses it for the [Heineken cold store](place:Heineken brewery cold store (Heineken Experience)), the [Wilhelmina Gasthuis surgical clinic](place:) and the [Olympic Stadium](place:), among others.
 - **Kubistisch-expressionistisch** ("cubist expressionist"): blocky, stacked volumes, as on the [Candida office building](place:).
 - **Lineaire expressieve variant** ("linear expressive variant", a term of the city register): flat, closed fronts of strict geometry with little ornament, as on the [Public Works yard on Uilenburg](place:Werf Uilenburg (Public Works yard)).
 - **Duits georiënteerd** ("German-oriented") brick expressionism: the register's term for the [Lloyd Hotel and KHL office](place:), closer to German models than to De Klerk.

@@ -29,6 +29,8 @@ const MapIndex = () => {
     visiblePlaces,
     category,
     setCategory,
+    fieldFilters,
+    setFieldFilter,
     search,
     setSearch,
     categoryOf,
@@ -194,6 +196,43 @@ const MapIndex = () => {
                 );
               })}
             </div>
+            {collection.fields
+              .filter((f) => f.filter && f.type === "select" && !f.hidden)
+              .map((f) => (
+                <fieldset
+                  key={f.key}
+                  className="flex flex-wrap items-center gap-1.5"
+                >
+                  <legend className="sr-only">
+                    {t("map_filter_by", { field: f.label })}
+                  </legend>
+                  <span
+                    aria-hidden
+                    className="mr-1 text-xs text-muted-foreground"
+                  >
+                    {f.label}
+                  </span>
+                  {(f.options ?? []).map((o) => {
+                    const active = fieldFilters[f.key] === o;
+                    return (
+                      <button
+                        key={o}
+                        type="button"
+                        aria-pressed={active}
+                        onClick={() => setFieldFilter(f.key, active ? null : o)}
+                        className={cn(
+                          "rounded-full border px-2.5 py-1 text-xs transition",
+                          active
+                            ? "border-foreground bg-foreground text-background"
+                            : "hover:bg-muted",
+                        )}
+                      >
+                        {f.optionLabels?.[o] ?? o}
+                      </button>
+                    );
+                  })}
+                </fieldset>
+              ))}
           </div>
 
           <ul className="divide-y">

@@ -142,9 +142,14 @@ export const fieldDefSchema = z
      * Fields are never deleted, only hidden.
      */
     hidden: z.boolean().optional(),
+    /** Select fields only: offer the options as filter chips on the map. */
+    filter: z.boolean().optional(),
   })
   .refine((f) => f.type !== "select" || (f.options?.length ?? 0) > 0, {
     message: "A select field needs options",
+  })
+  .refine((f) => !f.filter || f.type === "select", {
+    message: "Only select fields can be filters",
   });
 export type FieldDef = z.infer<typeof fieldDefSchema>;
 
