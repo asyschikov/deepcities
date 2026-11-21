@@ -1,7 +1,7 @@
 /**
  * The Amsterdam "C-list sights" map, shared by the dev and live-site seeds.
  * Places are not seeded: they're imported with the CLI, e.g.
- *   pnpm dc import amsterdam-c-list scripts/data/bos-en-lommer-monuments.json
+ *   pnpm dc import sights scripts/data/bos-en-lommer-monuments.json
  */
 
 export const categories = [
@@ -24,7 +24,7 @@ export const categories = [
 
 export const amsterdam = {
   id: "c_ams_clist",
-  slug: "deep",
+  slug: "sights",
   title: "Deep Amsterdam",
   tagline: "Off the A-list: the places your guidebook skips.",
   description:

@@ -95,7 +95,7 @@ const CreateMap = () => {
               placeholder: "Deep Lisbon",
             })}
             {field("slug", t("admin_field_slug"), {
-              placeholder: "deep",
+              placeholder: "sights",
               pattern: "[a-z0-9-]+",
             })}
           </div>

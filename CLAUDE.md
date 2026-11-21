@@ -1,6 +1,6 @@
 # Deep Cities — Claude Code instructions
 
-Geo-wiki of collaborative city maps. First map: "Deep Amsterdam" (`/amsterdam/deep`), the city's off-the-A-list sights; it began as "C-list sights of Amsterdam".
+Geo-wiki of collaborative city maps. First map: "Deep Amsterdam" (`/amsterdam/sights`), the city's off-the-A-list sights; it began as "C-list sights of Amsterdam".
 Read [DEVELOPMENT.md](DEVELOPMENT.md) for setup, architecture, roles and conventions.
 
 Conventions are inherited from bookverse:

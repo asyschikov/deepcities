@@ -10,7 +10,7 @@ export const citySlug = (city: string): string =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 
-/** A map's path: `/amsterdam/deep`. */
+/** A map's path: `/amsterdam/sights`. */
 export const mapPath = (m: { city: string; slug: string }): string =>
   `/${citySlug(m.city)}/${m.slug}`;
 
@@ -19,10 +19,7 @@ export const mapPath = (m: { city: string; slug: string }): string =>
  * links redirect, the CLI resolves them). Map each straight to the current
  * slug: the lookup is not followed in a chain.
  */
-export const LEGACY_MAP_SLUGS: Record<string, string> = {
-  "amsterdam-c-list": "deep",
-  "c-list": "deep",
-};
+export const LEGACY_MAP_SLUGS: Record<string, string> = {};
 
 /** First path segments that are pages, never cities. */
 export const RESERVED_CITY_SLUGS = ["m", "api", "auth", "admin", "me"];

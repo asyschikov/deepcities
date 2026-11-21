@@ -1,7 +1,7 @@
 # Research brief: C-list sights of Amsterdam West (one slice per agent)
 
-You are researching one slice of Amsterdam-West for the map **C-list sights of
-Amsterdam** (slug `amsterdam-c-list`) on Deep Cities: "the places that don't make it
+You are researching one slice of Amsterdam-West for the map **Deep Amsterdam**
+(slug `sights`, formerly "C-list sights of Amsterdam") on Deep Cities: "the places that don't make it
 into your guidebook". Your output is a YAML file of place drafts plus a notes file.
 You do **not** write to the live site and you do **not** touch app code. Other agents
 work in this checkout at the same time: only create/edit **your own output files**.
