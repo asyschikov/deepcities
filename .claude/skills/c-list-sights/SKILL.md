@@ -1,6 +1,6 @@
 ---
 name: c-list-sights
-description: Scout, research and add sights to the "Deep Amsterdam" map (slug deep; formerly "C-list sights of Amsterdam") — the unusual, debatable, standing-out places that don't make the guidebook. Use when asked to find, gather, scout or add C-list sights, curiosities, murals, hidden history, odd museums or green escapes for a neighbourhood or district, to do another research round for an area, or to fix or refresh an existing C-list or Deep Amsterdam place.
+description: Scout, research and add sights to the "Deep Amsterdam" map (slug deep; formerly "C-list sights of Amsterdam"): the unusual, debatable, standing-out places that don't make the guidebook. Use when asked to find, gather, scout or add C-list sights, curiosities, murals, hidden history, odd museums or green escapes for a neighbourhood or district, to do another research round for an area, or to fix or refresh an existing C-list or Deep Amsterdam place.
 ---
 
 # Gathering C-list sights for Deep Amsterdam
@@ -77,7 +77,7 @@ header `User-Agent: deep-cities-research/0.1`. Review what comes back; don't tru
 - **Exact location.** Pin the object itself: the mural's wall, the statue, the entrance. Never a street centroid. Use 6 decimals.
 - **Rank.** Set `attributes.rank`: `Amazing` (worth going out of your way; rare, about 1 in 20), `Nice` (worth a stop if you're near), or `Okay` (a footnote for completists: plain listed fronts, small plaques, gone things without a strong story). Add new ranks to `scripts/data/amsterdam-c-list-ranks.json`.
 - **Visiting.** Say whether and how it can be seen: from the street, opening hours, seasonal (e.g. "on the pond mid-April to end October"), private.
-- **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list.
+- **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list. Never use em dashes (use a colon, comma or parentheses); tell research agents the same.
   - Never mention the research process ("our notes", "the coordinator", "this brief").
 - **Sources.** Every fact needs a source. Put the sources in `links` (up to 6, registers first, distinct labels) and `sources:` (for reviewers; stripped before import).
   - Sensitive history (WWII, persecution, stereotypes in art, contested urban renewal): be factual and neither sensational nor evasive.

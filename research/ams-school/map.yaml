@@ -4,7 +4,7 @@
 # term was coined (Jan Gratama, 1916). English: "Amsterdam School".
 slug: amsterdamse-school
 title: Amsterdamse School
-tagline: Brick expressionism in Amsterdam, 1911–1940 — housing palaces, bridges, schools and bathhouses.
+tagline: "Brick expressionism in Amsterdam, 1911–1940: housing palaces, bridges, schools and bathhouses."
 city: Amsterdam
 centerLat: 52.3600
 centerLng: 4.8900
@@ -35,7 +35,7 @@ fields:
     label: Heritage status
     type: select
     options: [National monument, Municipal monument, National + municipal monument, Not listed]
-    help: Official listing — rijksmonument (national) and/or gemeentelijk monument (municipal).
+    help: "Official listing: rijksmonument (national) and/or gemeentelijk monument (municipal)."
   - key: monument_number
     label: Monument number
     type: text
@@ -54,7 +54,7 @@ fields:
   - key: artists
     label: Sculptors & artists
     type: text
-    help: Sculpture, stained glass, ironwork — e.g. Hildo Krop.
+    help: Sculpture, stained glass, ironwork, e.g. Hildo Krop.
   - key: style_phase  # key is permanent; the field is shown as "Style"
     label: Style
     type: select
@@ -75,7 +75,7 @@ languages: [nl]
 translations:
   nl:
     title: Amsterdamse School
-    tagline: Baksteenexpressionisme in Amsterdam, 1911–1940 — arbeiderspaleizen, bruggen, scholen en badhuizen.
+    tagline: "Baksteenexpressionisme in Amsterdam, 1911–1940: arbeiderspaleizen, bruggen, scholen en badhuizen."
     description: >-
       Een kaart van de Amsterdamse School, in de spelling van toen de
       Amsterdamsche School: de expressieve baksteenarchitectuur die Amsterdam
@@ -119,7 +119,7 @@ translations:
         help: Bijvoorbeeld een woningbouwvereniging of de gemeente.
       artists:
         label: Beeldhouwers en kunstenaars
-        help: Beeldhouwwerk, glas-in-lood, smeedwerk — bijvoorbeeld Hildo Krop.
+        help: Beeldhouwwerk, glas-in-lood, smeedwerk, bijvoorbeeld Hildo Krop.
       style_phase:
         label: Stijl
         help: "Hoe het eruitziet: Voorloper (het rationalisme waaruit de stijl groeide), Expressief (golvende gevels, torentjes, beeldhouwwerk), Verstrakt (vlakke wanden), Gemengd."
