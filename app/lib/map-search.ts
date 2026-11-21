@@ -4,7 +4,7 @@
  */
 import { useNavigate, useSearch } from "@tanstack/react-router";
 import { z } from "zod/v4";
-import { AREA_LEVELS } from "./constants";
+import { AREA_LEVELS, TRANSPORT_MODES } from "./constants";
 import { contentLangSchema } from "./validation";
 
 /** Ignore a malformed param rather than failing the page. */
@@ -22,6 +22,8 @@ export const mapSearchSchema = z.object({
   q: opt(z.string().max(200)),
   cat: opt(z.string().max(60)),
   f: opt(z.record(z.string().max(60), z.string().max(200))),
+  /** Routes filter: only routes using this transport mode. */
+  mode: opt(z.enum(TRANSPORT_MODES)),
   /** Map position: `zoom/lat/lng`. */
   map: opt(z.string().max(40)),
   // Page-level (not carried between pages):
@@ -44,6 +46,7 @@ export const MAP_RETAINED_PARAMS = [
   "q",
   "cat",
   "f",
+  "mode",
   "map",
 ] as const satisfies readonly (keyof MapSearch)[];
 

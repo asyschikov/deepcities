@@ -109,8 +109,10 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   field filters, map position (`?map=zoom/lat/lng`), the selected route stop/leg, the
   gallery photo and expanded sections. Map-wide ones are kept across the map's pages
   (`MAP_RETAINED_PARAMS`). Form drafts, dialogs and hover are not.
-- **Changing a view replaces the history entry; going to another page pushes one.**
-  So Back returns to the previous page exactly as it was (filters, selected stop,
+- **Changing a view replaces the history entry; going to another page pushes one** —
+  except between peers: place → place (a map pin, a link in the text) or document →
+  document replaces too (`useIsPeerOf`), so Back skips the hops.
+  Back returns to the previous page exactly as it was (filters, selected stop,
   list scroll — the side panel is restored via `data-scroll-restoration-id`).
 - **Back links go back.** `<BackLink>` returns to the previous page of this visit and
   names it ("Back to Post-war schools and a mill"); its `fallback` parent link is used

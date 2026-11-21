@@ -32,6 +32,7 @@ import {
   mapSearchSchema,
   parseMapView,
 } from "~/lib/map-search";
+import { useIsPeerOf } from "~/lib/nav-history";
 import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
@@ -174,6 +175,7 @@ const MapLayout = () => {
     [patchSearch],
   );
   const [hoverPlaceId, setHoverPlaceId] = useState<string | null>(null);
+  const isPeerOf = useIsPeerOf();
   // Phones: a taller map for exploring (layout only, so not in the URL).
   const [bigMap, setBigMap] = useState(false);
 
@@ -387,9 +389,12 @@ const MapLayout = () => {
                 overlay.onPlaceClick(id);
                 return;
               }
+              // From one place to another: replace, so Back returns to
+              // where the reader came from rather than the previous place.
               navigate({
                 to: "/m/$slug/p/$placeId",
                 params: { slug, placeId: id },
+                replace: isPeerOf("place"),
               });
             }}
             draft={picking ? { position: draft, onChange: setDraft } : null}

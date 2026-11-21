@@ -63,3 +63,26 @@ export const useLeaveForm = () => {
     else go();
   };
 };
+
+/** The kinds of object page; moving between two of one kind is a "peer" move. */
+export type PageKind = "place" | "route" | "doc";
+
+const PAGE_KINDS: [PageKind, RegExp][] = [
+  ["place", /^\/m\/[^/]+\/p\/(?!new\/?$)[^/]+\/?$/],
+  ["route", /^\/m\/[^/]+\/r\/(?!new\/?$)[^/]+\/?$/],
+  ["doc", /^\/m\/[^/]+\/d\/(?!new\/?$)[^/]+\/?$/],
+];
+
+export const pageKindOf = (pathname: string): PageKind | null =>
+  PAGE_KINDS.find(([, re]) => re.test(pathname))?.[0] ?? null;
+
+/**
+ * Whether going to a `kind` page from here should replace the history entry:
+ * hopping between peers (place → place) doesn't stack, so Back returns to
+ * where the reader came from (the list, a route, a document…).
+ */
+export const useIsPeerOf = () => {
+  const pathname = useLocation({ select: (l) => l.pathname });
+  const current = pageKindOf(pathname);
+  return (kind: PageKind) => current === kind;
+};

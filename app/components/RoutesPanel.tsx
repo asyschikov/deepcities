@@ -1,15 +1,16 @@
 import { useQuery } from "@tanstack/react-query";
-import { Link, useNavigate } from "@tanstack/react-router";
+import { Link, useNavigate, useSearch } from "@tanstack/react-router";
 import { Plus } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { legLines, ModeIcon } from "~/components/RouteParts";
 import { Button } from "~/components/ui/button";
+import { TRANSPORT_MODES, type TransportMode } from "~/lib/constants";
 import { localize } from "~/lib/content-lang";
 import { type MapOverlay, useMapOverlay, useMapPage } from "~/lib/map-page";
 import { formatDistance, formatDuration } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
-import { photoUrl } from "~/lib/utils";
+import { cn, photoUrl } from "~/lib/utils";
 import { useTRPC } from "~/trpc/client";
 
 /** The Routes tab of the map index: list + all routes drawn faintly. */
@@ -23,9 +24,29 @@ export const RoutesPanel = () => {
   const { data: rawRoutes, isPending } = useQuery(
     trpc.route.list.queryOptions({ collectionId: view.collection.id }),
   );
-  const routes = useMemo(
+  const allRoutes = useMemo(
     () => (rawRoutes ?? []).map((r) => localize(r, translateTo)),
     [rawRoutes, translateTo],
+  );
+  // Transport filter (`?mode=bike`): offered for the modes routes use.
+  const { mode } = useSearch({ from: "/m/$slug" });
+  const setMode = (m: TransportMode | null) =>
+    navigate({
+      to: ".",
+      search: (prev: Record<string, unknown>) => ({
+        ...prev,
+        mode: m ?? undefined,
+      }),
+      replace: true,
+      resetScroll: false,
+    });
+  const modes = TRANSPORT_MODES.filter((m) =>
+    allRoutes.some((r) => r.stats.modes.includes(m)),
+  );
+  const routes = useMemo(
+    () =>
+      mode ? allRoutes.filter((r) => r.stats.modes.includes(mode)) : allRoutes,
+    [allRoutes, mode],
   );
 
   const overlay = useMemo<MapOverlay>(
@@ -82,6 +103,31 @@ export const RoutesPanel = () => {
           </Button>
         )}
       </div>
+      {modes.length > 1 && (
+        <fieldset className="flex flex-wrap items-center gap-1.5 border-b p-4">
+          <legend className="sr-only">{t("routes_filter_mode")}</legend>
+          {modes.map((m) => {
+            const active = mode === m;
+            return (
+              <button
+                key={m}
+                type="button"
+                aria-pressed={active}
+                onClick={() => setMode(active ? null : m)}
+                className={cn(
+                  "flex min-h-8 items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition",
+                  active
+                    ? "border-foreground bg-foreground text-background"
+                    : "hover:bg-muted",
+                )}
+              >
+                <ModeIcon mode={m} className="size-3.5" />
+                {t(`mode_${m}`)}
+              </button>
+            );
+          })}
+        </fieldset>
+      )}
       <ul className="divide-y">
         {routes.map((r) => (
           <li key={r.id}>
@@ -126,7 +172,7 @@ export const RoutesPanel = () => {
       </ul>
       {!isPending && routes.length === 0 && (
         <p className="p-8 text-center text-sm text-muted-foreground">
-          {t("routes_empty")}
+          {allRoutes.length > 0 ? t("routes_no_matches") : t("routes_empty")}
         </p>
       )}
     </div>

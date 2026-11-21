@@ -420,5 +420,7 @@
   "area_level_short_neighbourhood": "Areas",
   "area_level_short_subNeighbourhood": "Wijken",
   "back": "Back",
-  "back_to": "Back to {{name}}"
+  "back_to": "Back to {{name}}",
+  "routes_filter_mode": "Filter routes by transport",
+  "routes_no_matches": "No routes use this transport."
 }

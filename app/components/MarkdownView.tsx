@@ -7,6 +7,7 @@ import {
   parseBlocks,
   parseInline,
 } from "~/lib/markdown";
+import { type PageKind, useIsPeerOf } from "~/lib/nav-history";
 import { photoUrl } from "~/lib/utils";
 
 /**
@@ -17,12 +18,14 @@ import { photoUrl } from "~/lib/utils";
 interface Context {
   slug?: string;
   photos?: Map<string, PhotoMeta>;
+  /** Links to a page of the current page's kind replace it (no stacking). */
+  peer?: (kind: PageKind) => boolean;
 }
 
 const renderInline = (
   text: string,
   keyPrefix: string,
-  { slug }: Context,
+  { slug, peer }: Context,
 ): ReactNode[] =>
   parseInline(text).map((part: Inline, idx) => {
     const key = `${keyPrefix}-${idx}`;
@@ -54,6 +57,7 @@ const renderInline = (
             key={key}
             to="/m/$slug/p/$placeId"
             params={{ slug, placeId: target.id }}
+            replace={peer?.("place")}
             className={cls}
           >
             {part.text}
@@ -63,6 +67,7 @@ const renderInline = (
             key={key}
             to="/m/$slug/d/$docId"
             params={{ slug, docId: target.id }}
+            replace={peer?.("doc")}
             className={cls}
           >
             {part.text}
@@ -151,8 +156,10 @@ export const MarkdownView = ({
   slug?: string;
   photos?: PhotoMeta[];
 }) => {
+  const peer = useIsPeerOf();
   const ctx: Context = {
     slug,
+    peer,
     photos: photos ? new Map(photos.map((p) => [p.id, p])) : undefined,
   };
   return (
