@@ -1,0 +1,9 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+SELECT ?nr (SAMPLE(?wkt) as ?point) (GROUP_CONCAT(DISTINCT ?txt; separator=" ||| ") as ?desc) WHERE {
+  ?m ceo:rijksmonumentnummer ?nr ;
+     ceo:heeftLocatieAanduiding/ceo:locatienaam "Amsterdam" ;
+     ceo:heeftOmschrijving/ceo:omschrijving ?txt .
+  FILTER(CONTAINS(LCASE(?txt), "amsterdamse school") || CONTAINS(LCASE(?txt), "amsterdamsche school") || CONTAINS(LCASE(?txt), "amsterdamse-school"))
+  OPTIONAL { ?m ceo:heeftGeometrie/geo:asWKT ?wkt }
+} GROUP BY ?nr

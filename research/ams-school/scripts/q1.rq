@@ -1,0 +1,14 @@
+SELECT ?item ?itemLabel ?nlLabel ?coord ?image ?inception ?archLabel ?rm ?nlwiki ?enwiki ?instLabel WHERE {
+  ?item wdt:P149 wd:Q478742 .
+  ?item wdt:P625 ?coord .
+  FILTER(geof:latitude(?coord) > 52.27 && geof:latitude(?coord) < 52.44 && geof:longitude(?coord) > 4.72 && geof:longitude(?coord) < 5.08)
+  OPTIONAL { ?item wdt:P18 ?image }
+  OPTIONAL { ?item wdt:P571 ?inception }
+  OPTIONAL { ?item wdt:P84 ?arch }
+  OPTIONAL { ?item wdt:P359 ?rm }
+  OPTIONAL { ?item wdt:P31 ?inst }
+  OPTIONAL { ?item rdfs:label ?nlLabel FILTER(lang(?nlLabel)="nl") }
+  OPTIONAL { ?nlwiki schema:about ?item ; schema:isPartOf <https://nl.wikipedia.org/> }
+  OPTIONAL { ?enwiki schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,nl". }
+}
