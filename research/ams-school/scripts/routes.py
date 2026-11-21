@@ -60,7 +60,9 @@ def check_one(path, known):
     stops = r.get("stops") or []
     need(2 <= len(stops) <= MAX_STOPS, f"{len(stops)} stops (2–{MAX_STOPS})")
     titles = [s.get("place") for s in stops if s.get("place")]
-    need(len(titles) == len(set(titles)), "a place appears twice")
+    # A loop ends where it started: the first place may come back as the last stop.
+    loop = len(stops) > 2 and stops[0].get("place") and stops[0].get("place") == stops[-1].get("place")
+    need(len(titles) - bool(loop) == len(set(titles)), "a place appears twice (only a loop may repeat its start, as the last stop)")
     for i, s in enumerate(stops, 1):
         where = f"stop {i} ({s.get('place') or s.get('name')})"
         if s.get("place"):

@@ -65,16 +65,37 @@ export const legLines = (
     dashed: l.mode === "ferry",
   }));
 
+type StopPoint = Pick<RouteStop, "placeId" | "name" | "lat" | "lng">;
+
+/** A loop ends where it starts: the last stop is the first place again. */
+export const isLoop = (stops: StopPoint[]): boolean => {
+  const first = stops[0];
+  const last = stops[stops.length - 1];
+  if (stops.length < 3 || !first || !last) return false;
+  if (first.placeId || last.placeId) return first.placeId === last.placeId;
+  // Ad-hoc points: the same spot (within ~20 m).
+  return (
+    Math.abs(first.lat - last.lat) < 0.0002 &&
+    Math.abs(first.lng - last.lng) < 0.0003
+  );
+};
+
 export const stopPins = (
-  stops: Pick<RouteStop, "placeId" | "name" | "lat" | "lng">[],
+  stops: StopPoint[],
   opts: {
     activeStop?: number | null;
     draggableAdhoc?: boolean;
     onClick?: (i: number) => void;
     onDragEnd?: (i: number, p: { lat: number; lng: number }) => void;
   } = {},
-): MapPin[] =>
-  stops.map((s, i) => ({
+): MapPin[] => {
+  // A loop's finish is drawn as its start (one pin, not two stacked);
+  // the editor keeps both so an ad-hoc finish stays draggable.
+  const last = stops.length - 1;
+  const merged = !opts.draggableAdhoc && isLoop(stops);
+  const pinOf = (i: number) => (merged && i === last ? 0 : i);
+  const shown = merged ? stops.slice(0, last) : stops;
+  return shown.map((s, i) => ({
     // Index-based ids: a reorder just relabels the pins.
     id: `stop:${i}`,
     lat: s.lat,
@@ -84,11 +105,12 @@ export const stopPins = (
     label: String(i + 1),
     title: s.name,
     adhoc: s.placeId === null,
-    active: opts.activeStop === i,
+    active: opts.activeStop != null && pinOf(opts.activeStop) === i,
     draggable: Boolean(opts.draggableAdhoc && s.placeId === null),
     onClick: opts.onClick ? () => opts.onClick?.(i) : undefined,
     onDragEnd: opts.onDragEnd ? (p) => opts.onDragEnd?.(i, p) : undefined,
   }));
+};
 
 /** Every coordinate of a route, for fitting the map to it. */
 export const routeBounds = (
