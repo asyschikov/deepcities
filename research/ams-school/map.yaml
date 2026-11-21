@@ -28,7 +28,7 @@ categories:
   - { key: bridges, label: Bridges, color: "#0369a1" }
   - { key: religious, label: Churches & synagogues, color: "#7c3aed" }
   - { key: commercial, label: Offices & shops, color: "#be123c" }
-  - { key: culture, label: "Cinemas, theatres & sport", color: "#a21caf" }
+  - { key: culture, label: Culture & sport, color: "#a21caf" }
   - { key: ensembles, label: Squares & garden villages, color: "#15803d" }
 fields:
   - key: heritage_status
@@ -95,7 +95,7 @@ translations:
       bridges: Bruggen
       religious: Kerken en synagogen
       commercial: Kantoren en winkels
-      culture: Bioscopen, theaters en sport
+      culture: Cultuur en sport
       ensembles: Pleinen en tuindorpen
     fields:
       heritage_status:
