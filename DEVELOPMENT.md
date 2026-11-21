@@ -102,6 +102,22 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   from overlapping by MapLibre). Display only: places are not linked to or filtered by
   areas, and the place `borough`/`neighbourhood` text fields are separate.
 
+## URLs and navigation
+
+- **State lives in the URL.** Anything a reader can see or choose on a map page is a
+  search param (`app/lib/map-search.ts`): language, boundaries, tab, search, category,
+  field filters, map position (`?map=zoom/lat/lng`), the selected route stop/leg, the
+  gallery photo and expanded sections. Map-wide ones are kept across the map's pages
+  (`MAP_RETAINED_PARAMS`). Form drafts, dialogs and hover are not.
+- **Changing a view replaces the history entry; going to another page pushes one.**
+  So Back returns to the previous page exactly as it was (filters, selected stop,
+  list scroll — the side panel is restored via `data-scroll-restoration-id`).
+- **Back links go back.** `<BackLink>` returns to the previous page of this visit and
+  names it ("Back to Post-war schools and a mill"); its `fallback` parent link is used
+  only when there is no history (a shared link, a reload).
+- **Saving a form doesn't leave it in history:** `useLeaveForm` goes back to the page
+  it was opened from, or replaces the form's entry.
+
 ## Roles
 
 Resolved per map by `resolveRole()` in `app/lib/permissions.ts` (unit-tested):

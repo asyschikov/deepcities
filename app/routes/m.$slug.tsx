@@ -9,13 +9,15 @@ import {
 } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
-import { useCallback, useMemo, useState } from "react";
-import { z } from "zod/v4";
+import { Maximize2, Minimize2 } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
 import { type LngLat, type MapArea, MapView } from "~/components/MapView";
+import { Button } from "~/components/ui/button";
 import { areaColor, labelPoint } from "~/lib/areas";
-import { AREA_LEVELS, type AreaLevel, type ContentLang } from "~/lib/constants";
+import type { AreaLevel, ContentLang } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
 import {
   type MapOverlay,
@@ -23,7 +25,14 @@ import {
   type MapPageState,
   type SidebarTab,
 } from "~/lib/map-page";
-import { contentLangSchema } from "~/lib/validation";
+import {
+  formatMapView,
+  MAP_RETAINED_PARAMS,
+  type MapSearch,
+  mapSearchSchema,
+  parseMapView,
+} from "~/lib/map-search";
+import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -46,6 +55,7 @@ const loadMap = createServerFn({ method: "GET" })
 const FALLBACK_CATEGORY = { label: "", color: "#57534e" };
 
 const MapLayout = () => {
+  const { t } = useTranslation();
   const trpc = useTRPC();
   const navigate = useNavigate();
   const { slug } = Route.useParams();
@@ -94,23 +104,78 @@ const MapLayout = () => {
     [rawPlaces, translateTo],
   );
 
-  const [category, setCategory] = useState<string | null>(null);
-  const [fieldFilters, setFieldFilters] = useState<Record<string, string>>({});
-  const setFieldFilter = useCallback(
-    (key: string, value: string | null) =>
-      setFieldFilters((prev) => {
-        const { [key]: _, ...rest } = prev;
-        return value === null ? rest : { ...rest, [key]: value };
+  // View state lives in the URL (replaced, not pushed), so a refresh or a
+  // shared link lands in the same place. See `mapSearchSchema`.
+  const patchSearch = useCallback(
+    (patch: Partial<MapSearch>) =>
+      navigate({
+        to: ".",
+        search: (prev: Record<string, unknown>) => ({ ...prev, ...patch }),
+        replace: true,
+        resetScroll: false,
       }),
-    [],
+    [navigate],
   );
-  const [search, setSearch] = useState("");
+  const category = urlSearch.cat ?? null;
+  const setCategory = useCallback(
+    (c: string | null) => patchSearch({ cat: c ?? undefined }),
+    [patchSearch],
+  );
+  const fieldFilters = useMemo(() => urlSearch.f ?? {}, [urlSearch.f]);
+  const setFieldFilter = useCallback(
+    (key: string, value: string | null) => {
+      const { [key]: _, ...rest } = fieldFilters;
+      const next = value === null ? rest : { ...rest, [key]: value };
+      patchSearch({ f: Object.keys(next).length > 0 ? next : undefined });
+    },
+    [fieldFilters, patchSearch],
+  );
+  // The search box updates at typing speed; the URL follows shortly after.
+  const urlQ = urlSearch.q ?? "";
+  const [search, setSearch] = useState(urlQ);
+  const lastQ = useRef(urlQ);
+  useEffect(() => {
+    // Back/forward or a link changed the URL: show it.
+    if (urlQ !== lastQ.current) {
+      lastQ.current = urlQ;
+      setSearch(urlQ);
+    }
+  }, [urlQ]);
+  useEffect(() => {
+    if (search === lastQ.current) return;
+    const id = setTimeout(() => {
+      lastQ.current = search;
+      patchSearch({ q: search.trim() ? search : undefined });
+    }, 300);
+    return () => clearTimeout(id);
+  }, [search, patchSearch]);
   const [draft, setDraft] = useState<LngLat | null>(null);
   const [picking, setPicking] = useState(false);
   const [focus, setFocus] = useState<LngLat | null>(null);
   const [overlay, setOverlay] = useState<MapOverlay | null>(null);
-  const [tab, setTab] = useState<SidebarTab>("places");
+  const tab: SidebarTab = urlSearch.tab ?? "places";
+  const setTab = useCallback(
+    (next: SidebarTab) => {
+      if (next !== tab)
+        patchSearch({ tab: next === "places" ? undefined : next });
+    },
+    [tab, patchSearch],
+  );
+  // The map's position, as `?map=zoom/lat/lng`.
+  const [initialView] = useState(() => parseMapView(urlSearch.map));
+  const lastView = useRef(urlSearch.map);
+  const onViewChange = useCallback(
+    (v: { lat: number; lng: number; zoom: number }) => {
+      const next = formatMapView(v);
+      if (next === lastView.current) return;
+      lastView.current = next;
+      patchSearch({ map: next });
+    },
+    [patchSearch],
+  );
   const [hoverPlaceId, setHoverPlaceId] = useState<string | null>(null);
+  // Phones: a taller map for exploring (layout only, so not in the URL).
+  const [bigMap, setBigMap] = useState(false);
 
   // Official area boundaries (`?areas=borough`): a display layer only.
   const { data: areaLevels = [] } = useQuery(
@@ -255,10 +320,32 @@ const MapLayout = () => {
   return (
     <MapPageContext.Provider value={state}>
       <div className="flex flex-col-reverse md:h-[calc(100dvh-3.5rem)] md:flex-row md:overflow-hidden">
-        <aside className="w-full shrink-0 border-t bg-card md:w-[420px] md:overflow-y-auto md:border-t-0 md:border-r">
+        {/* Its own scroller on desktop: restored on Back, reset on new pages. */}
+        <aside
+          id="map-panel"
+          data-scroll-restoration-id="map-panel"
+          className="w-full shrink-0 border-t bg-card md:w-[420px] md:overflow-y-auto md:border-t-0 md:border-r"
+        >
           <Outlet />
         </aside>
-        <div className="relative h-[45dvh] md:h-auto md:flex-1">
+        {/* Phones: the map stays under the header while the panel scrolls. */}
+        <div
+          className={cn(
+            "sticky top-14 z-20 shadow-sm transition-[height] duration-200 md:relative md:top-0 md:h-auto md:flex-1 md:shadow-none",
+            bigMap ? "h-[70dvh]" : "h-[38dvh]",
+          )}
+        >
+          <Button
+            type="button"
+            size="icon"
+            variant="secondary"
+            onClick={() => setBigMap((b) => !b)}
+            aria-label={bigMap ? t("map_smaller") : t("map_bigger")}
+            title={bigMap ? t("map_smaller") : t("map_bigger")}
+            className="absolute bottom-8 left-3 z-10 size-9 rounded-full bg-card/95 shadow-md md:hidden"
+          >
+            {bigMap ? <Minimize2 /> : <Maximize2 />}
+          </Button>
           <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2">
             {languages.length > 1 && (
               <ContentLangSwitcher
@@ -276,11 +363,15 @@ const MapLayout = () => {
             )}
           </div>
           <MapView
-            center={{
-              lat: view.collection.centerLat,
-              lng: view.collection.centerLng,
-            }}
-            zoom={view.collection.zoom}
+            center={
+              initialView ?? {
+                lat: view.collection.centerLat,
+                lng: view.collection.centerLng,
+              }
+            }
+            zoom={initialView?.zoom ?? view.collection.zoom}
+            holdInitialView={initialView !== null}
+            onViewChange={onViewChange}
             markers={markers}
             activeId={placeId ?? null}
             hoverId={hoverPlaceId}
@@ -310,13 +401,10 @@ const MapLayout = () => {
 };
 
 export const Route = createFileRoute("/m/$slug")({
-  // `?lang=nl` picks the content language and `?areas=borough` the boundary
-  // layer; links within the map keep both.
-  validateSearch: z.object({
-    lang: contentLangSchema.optional(),
-    areas: z.enum(AREA_LEVELS).optional().catch(undefined),
-  }),
-  search: { middlewares: [retainSearchParams(["lang", "areas"])] },
+  validateSearch: mapSearchSchema,
+  search: {
+    middlewares: [retainSearchParams([...MAP_RETAINED_PARAMS])],
+  },
   loader: async ({ params }) => {
     const data = await loadMap({ data: params.slug });
     if (!data) throw notFound();

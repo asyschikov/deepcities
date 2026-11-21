@@ -38,7 +38,11 @@ const CreateMap = () => {
   const create = useMutation(
     trpc.collection.create.mutationOptions({
       onSuccess: (res) =>
-        navigate({ to: "/m/$slug/manage", params: { slug: res.slug } }),
+        navigate({
+          to: "/m/$slug/manage",
+          params: { slug: res.slug },
+          replace: true,
+        }),
       onError: (err) => toast.error(err.message),
     }),
   );

@@ -12,6 +12,7 @@ import superjson from "superjson";
 import { SiteHeader } from "~/components/SiteHeader";
 import { Toaster } from "~/components/ui/sonner";
 import { TooltipProvider } from "~/components/ui/tooltip";
+import { useTrackHistory } from "~/lib/nav-history";
 import "~/lib/i18n";
 import appCss from "~/styles/app.css?url";
 import { createCaller } from "~/trpc/caller";
@@ -24,6 +25,7 @@ const loadViewer = createServerFn({ method: "GET" }).handler(async () => {
 });
 
 const RootComponent = () => {
+  useTrackHistory();
   const [queryClient] = useState(
     () =>
       new QueryClient({

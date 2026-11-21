@@ -38,7 +38,13 @@ export const AreaLayerSwitcher = ({
         className={cn("bg-card/95 shadow-md backdrop-blur", className)}
       >
         <Layers className="size-4" />
-        <span>{value ? t(`area_level_${value}`) : t("area_layer_none")}</span>
+        <span className="max-sm:hidden">
+          {value ? t(`area_level_${value}`) : t("area_layer_none")}
+        </span>
+        {/* Phones: just the icon, or a short name when boundaries are on. */}
+        {value && (
+          <span className="sm:hidden">{t(`area_level_short_${value}`)}</span>
+        )}
       </SelectTrigger>
       <SelectContent>
         <SelectItem value={NONE}>{t("area_layer_none")}</SelectItem>

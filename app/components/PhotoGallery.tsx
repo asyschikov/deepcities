@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useNavigate, useSearch } from "@tanstack/react-router";
 import { PhotoCredit, type PhotoMeta } from "~/components/PhotoCredit";
 import { cn, photoUrl } from "~/lib/utils";
 
@@ -14,7 +14,19 @@ export const Gallery = ({
   photos: PhotoMeta[];
   title: string;
 }) => {
-  const [index, setIndex] = useState(0);
+  // The shown photo is in the URL (`?photo=2`), so links share it.
+  const { photo: index = 0 } = useSearch({ from: "/m/$slug" });
+  const navigate = useNavigate();
+  const setIndex = (i: number) =>
+    navigate({
+      to: ".",
+      search: (prev: Record<string, unknown>) => ({
+        ...prev,
+        photo: i === 0 ? undefined : i,
+      }),
+      replace: true,
+      resetScroll: false,
+    });
   const current = photoIds[index] ?? photoIds[0];
   if (!current) return null;
   return (

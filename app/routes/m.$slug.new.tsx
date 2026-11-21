@@ -1,6 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { PlaceForm } from "~/components/PlaceForm";
 import { useMapPage } from "~/lib/map-page";
 import { useViewer } from "~/lib/use-viewer";
@@ -14,13 +15,18 @@ const NewPlace = () => {
 
   return (
     <div className="space-y-5 p-5">
-      <Link
-        to="/m/$slug"
-        params={{ slug }}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> {t("place_back")}
-      </Link>
+      <BackLink
+        fallback={
+          <Link
+            to="/m/$slug"
+            params={{ slug }}
+            search={{ tab: undefined }}
+            className={BACK_LINK_CLASS}
+          >
+            <ArrowLeft className="size-4" /> {t("place_back")}
+          </Link>
+        }
+      />
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold">{t("new_title")}</h1>
         <p className="text-sm text-muted-foreground">{t("new_intro")}</p>
@@ -47,11 +53,13 @@ const NewPlace = () => {
               ? navigate({
                   to: "/m/$slug/p/$placeId",
                   params: { slug, placeId: res.placeId },
+                  replace: true,
                 })
               : navigate({
                   to: "/m/$slug/review",
                   params: { slug },
                   search: { tab: "mine" },
+                  replace: true,
                 })
           }
         />

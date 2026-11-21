@@ -7,7 +7,7 @@ import {
   Search,
   Settings,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
 import { RatingBadge } from "~/components/RatingStars";
@@ -17,6 +17,7 @@ import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { useMapPage } from "~/lib/map-page";
+import { useSearchFlag } from "~/lib/map-search";
 import { useViewer } from "~/lib/use-viewer";
 import { cn, photoUrl } from "~/lib/utils";
 
@@ -42,16 +43,16 @@ const MapIndex = () => {
   useEffect(() => () => setHoverPlaceId(null), [setHoverPlaceId]);
   const { collection, can, role, pendingCount } = view;
   const slug = collection.slug;
-  const [aboutOpen, setAboutOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useSearchFlag("about");
 
   return (
     <div className="flex flex-col">
-      <div className="space-y-3 border-b p-5">
+      <div className="space-y-3 border-b p-4 md:p-5">
         <div className="flex items-center gap-2 text-xs font-medium tracking-wide text-muted-foreground uppercase">
           {collection.city}
           {viewer && <RoleBadge role={role} />}
         </div>
-        <h1 className="text-3xl leading-tight font-semibold">
+        <h1 className="text-2xl leading-tight font-semibold md:text-3xl">
           {collection.title}
         </h1>
         {collection.tagline && (
@@ -70,7 +71,7 @@ const MapIndex = () => {
             <button
               type="button"
               className="text-xs font-medium text-primary hover:underline"
-              onClick={() => setAboutOpen((o) => !o)}
+              onClick={() => setAboutOpen(!aboutOpen)}
             >
               {aboutOpen ? t("map_about_less") : t("map_about_more")}
             </button>
@@ -161,7 +162,7 @@ const MapIndex = () => {
         <RoutesPanel />
       ) : (
         <>
-          <div className="sticky top-0 z-10 space-y-3 border-b bg-card/95 p-4 backdrop-blur">
+          <div className="space-y-3 border-b bg-card/95 p-4 backdrop-blur md:sticky md:top-0 md:z-10">
             <div className="relative">
               <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
               <Input

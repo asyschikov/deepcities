@@ -22,6 +22,7 @@ import { Label } from "~/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { Textarea } from "~/components/ui/textarea";
 import { MAX_PHOTOS_PER_DOCUMENT } from "~/lib/constants";
+import { useLeaveForm } from "~/lib/nav-history";
 import { photoUrl } from "~/lib/utils";
 import type { DocumentAttachment, DocumentDraft } from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
@@ -53,7 +54,7 @@ const ArchiveButton = ({
       onSuccess: async () => {
         await queryClient.invalidateQueries();
         toast.success(t("doc_archived_toast"));
-        await navigate({ to: "/m/$slug", params: { slug } });
+        await navigate({ to: "/m/$slug", params: { slug }, replace: true });
       },
       onError: (err) => toast.error(err.message),
     }),
@@ -100,6 +101,7 @@ export const DocumentEditor = ({
   const { t } = useTranslation();
   const trpc = useTRPC();
   const navigate = useNavigate();
+  const leaveForm = useLeaveForm();
   const queryClient = useQueryClient();
   const bodyRef = useRef<HTMLTextAreaElement>(null);
 
@@ -180,10 +182,14 @@ export const DocumentEditor = ({
       onSuccess: async (res) => {
         await queryClient.invalidateQueries();
         toast.success(t("doc_saved"));
-        await navigate({
-          to: "/m/$slug/d/$docId",
-          params: { slug, docId: res.id },
-        });
+        // Back to the document if we came from it, so Back skips the form.
+        leaveForm(`/m/${slug}/d/${res.id}`, () =>
+          navigate({
+            to: "/m/$slug/d/$docId",
+            params: { slug, docId: res.id },
+            replace: true,
+          }),
+        );
       },
       onError: (err) => toast.error(err.message),
     }),

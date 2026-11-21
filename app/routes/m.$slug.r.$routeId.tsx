@@ -5,14 +5,16 @@ import {
   notFound,
   Outlet,
   useMatch,
+  useNavigate,
 } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
 import { formatDistanceToNow } from "date-fns";
 import { ArrowLeft, Clock, Flag, MapPin, Pencil } from "lucide-react";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { DocumentList } from "~/components/DocumentList";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
@@ -153,8 +155,23 @@ const RoutePage = () => {
   const partlyUntranslated =
     translateTo !== null &&
     routeHasUntranslated(draftOfRoute(data.route), translateTo);
-  const [activeStop, setActiveStop] = useState<number | null>(null);
-  const [activeLeg, setActiveLeg] = useState<number | null>(null);
+  // The selected stop or leg is in the URL (`?stop=2`), so links share it.
+  const { stop: activeStop = null, leg: activeLeg = null } = Route.useSearch();
+  const navigate = useNavigate();
+  const select = useCallback(
+    (sel: { stop?: number; leg?: number }) =>
+      navigate({
+        to: ".",
+        search: (prev: Record<string, unknown>) => ({
+          ...prev,
+          stop: sel.stop,
+          leg: sel.leg,
+        }),
+        replace: true,
+        resetScroll: false,
+      }),
+    [navigate],
+  );
 
   // Coming back from a route lands on the Routes tab.
   useEffect(() => setTab("routes"), [setTab]);
@@ -166,16 +183,25 @@ const RoutePage = () => {
 
   const selectStop = useCallback(
     (i: number) => {
-      setActiveStop(i);
-      setActiveLeg(null);
+      select({ stop: i });
       const s = route.stops[i];
       if (s) focusOn({ lat: s.lat, lng: s.lng });
       document
         .getElementById(`stop-${i}`)
         ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     },
-    [route.stops, focusOn],
+    [route.stops, focusOn, select],
   );
+
+  // Opened with `?stop=n`: show that stop (once, on arrival).
+  const arrivedStop = useRef(activeStop);
+  useEffect(() => {
+    const i = arrivedStop.current;
+    const s = i === null ? undefined : route.stops[i];
+    if (i === null || !s) return;
+    focusOn({ lat: s.lat, lng: s.lng });
+    document.getElementById(`stop-${i}`)?.scrollIntoView({ block: "center" });
+  }, [route.stops, focusOn]);
 
   const overlay = useMemo<MapOverlay | null>(
     () =>
@@ -199,13 +225,18 @@ const RoutePage = () => {
 
   return (
     <article className="space-y-5 p-5">
-      <Link
-        to="/m/$slug"
-        params={{ slug }}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> {t("route_back")}
-      </Link>
+      <BackLink
+        fallback={
+          <Link
+            to="/m/$slug"
+            params={{ slug }}
+            search={{ tab: "routes" }}
+            className={BACK_LINK_CLASS}
+          >
+            <ArrowLeft className="size-4" /> {t("route_back")}
+          </Link>
+        }
+      />
 
       {archived && (
         <div className="rounded-md border border-warning bg-warning/10 p-3 text-sm">
@@ -307,8 +338,7 @@ const RoutePage = () => {
                 <button
                   type="button"
                   onClick={() => {
-                    setActiveLeg(i);
-                    setActiveStop(null);
+                    select({ leg: i });
                   }}
                   className={cn(
                     "ml-5 flex w-[calc(100%-1.25rem)] gap-3 border-l-2 border-dashed py-3 pl-5 text-left text-sm transition",

@@ -21,6 +21,7 @@ import {
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { DocumentList } from "~/components/DocumentList";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
@@ -172,13 +173,18 @@ const PlacePage = () => {
 
   return (
     <article className="space-y-5 p-5">
-      <Link
-        to="/m/$slug"
-        params={{ slug }}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> {t("place_back")}
-      </Link>
+      <BackLink
+        fallback={
+          <Link
+            to="/m/$slug"
+            params={{ slug }}
+            search={{ tab: undefined }}
+            className={BACK_LINK_CLASS}
+          >
+            <ArrowLeft className="size-4" /> {t("place_back")}
+          </Link>
+        }
+      />
 
       {archived && (
         <div className="rounded-md border border-warning bg-warning/10 p-3 text-sm">

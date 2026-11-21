@@ -38,7 +38,10 @@ export const ContentLangSwitcher = ({
         className={cn("bg-card/95 shadow-md backdrop-blur", className)}
       >
         <Languages className="size-4" />
-        <span lang={value}>{languageName(value)}</span>
+        <span lang={value} className="max-sm:hidden">
+          {languageName(value)}
+        </span>
+        <span className="font-medium uppercase sm:hidden">{value}</span>
       </SelectTrigger>
       <SelectContent>
         {languages.map((l) => (

@@ -5,6 +5,8 @@ export const getRouter = () =>
   createRouter({
     routeTree,
     scrollRestoration: true,
+    // The map pages' side panel scrolls on its own (desktop).
+    scrollToTopSelectors: ["#map-panel"],
   });
 
 declare module "@tanstack/react-router" {

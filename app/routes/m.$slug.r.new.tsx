@@ -2,6 +2,7 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { RouteForm } from "~/components/RouteForm";
 import { useMapPage } from "~/lib/map-page";
 import { useViewer } from "~/lib/use-viewer";
@@ -16,13 +17,18 @@ const NewRoute = () => {
 
   return (
     <div className="space-y-5 p-5">
-      <Link
-        to="/m/$slug"
-        params={{ slug }}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> {t("route_back")}
-      </Link>
+      <BackLink
+        fallback={
+          <Link
+            to="/m/$slug"
+            params={{ slug }}
+            search={{ tab: "routes" }}
+            className={BACK_LINK_CLASS}
+          >
+            <ArrowLeft className="size-4" /> {t("route_back")}
+          </Link>
+        }
+      />
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold">{t("route_new_title")}</h1>
         <p className="text-sm text-muted-foreground">{t("route_new_intro")}</p>
@@ -49,11 +55,13 @@ const NewRoute = () => {
               ? navigate({
                   to: "/m/$slug/r/$routeId",
                   params: { slug, routeId: res.routeId },
+                  replace: true,
                 })
               : navigate({
                   to: "/m/$slug/review",
                   params: { slug },
                   search: { tab: "mine" },
+                  replace: true,
                 })
           }
         />

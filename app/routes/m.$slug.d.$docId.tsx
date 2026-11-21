@@ -18,6 +18,7 @@ import {
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { z } from "zod/v4";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { MarkdownView } from "~/components/MarkdownView";
 import { PhotoCredit } from "~/components/PhotoCredit";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
@@ -133,13 +134,18 @@ const DocumentPage = () => {
           {full ? (
             <span />
           ) : (
-            <Link
-              to="/m/$slug"
-              params={{ slug }}
-              className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-            >
-              <ArrowLeft className="size-4" /> {t("doc_back")}
-            </Link>
+            <BackLink
+              fallback={
+                <Link
+                  to="/m/$slug"
+                  params={{ slug }}
+                  search={{ tab: undefined }}
+                  className={BACK_LINK_CLASS}
+                >
+                  <ArrowLeft className="size-4" /> {t("doc_back")}
+                </Link>
+              }
+            />
           )}
           <Button
             type="button"

@@ -3,9 +3,11 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { PlaceForm } from "~/components/PlaceForm";
 import { localize } from "~/lib/content-lang";
 import { useMapPage } from "~/lib/map-page";
+import { useLeaveForm } from "~/lib/nav-history";
 import { draftOfPlace, type PlaceDraft } from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
 
@@ -14,6 +16,7 @@ const EditPlace = () => {
   const trpc = useTRPC();
   const { translateTo } = useMapPage();
   const navigate = useNavigate();
+  const leaveForm = useLeaveForm();
   const { slug, placeId } = Route.useParams();
   const { data } = useQuery(trpc.place.byId.queryOptions({ placeId }));
 
@@ -29,13 +32,17 @@ const EditPlace = () => {
 
   return (
     <div className="space-y-5 p-5">
-      <Link
-        to="/m/$slug/p/$placeId"
-        params={{ slug, placeId }}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> {t("edit_back")}
-      </Link>
+      <BackLink
+        fallback={
+          <Link
+            to="/m/$slug/p/$placeId"
+            params={{ slug, placeId }}
+            className={BACK_LINK_CLASS}
+          >
+            <ArrowLeft className="size-4" /> {t("edit_back")}
+          </Link>
+        }
+      />
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold">
           {data.can.review
@@ -54,14 +61,18 @@ const EditPlace = () => {
           placeId={placeId}
           onDone={(res) =>
             res.status === "approved"
-              ? navigate({
-                  to: "/m/$slug/p/$placeId",
-                  params: { slug, placeId },
-                })
+              ? leaveForm(`/m/${slug}/p/${placeId}`, () =>
+                  navigate({
+                    to: "/m/$slug/p/$placeId",
+                    params: { slug, placeId },
+                    replace: true,
+                  }),
+                )
               : navigate({
                   to: "/m/$slug/review",
                   params: { slug },
                   search: { tab: "mine" },
+                  replace: true,
                 })
           }
         />

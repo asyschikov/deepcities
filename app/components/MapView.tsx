@@ -72,7 +72,17 @@ interface MapViewProps {
   onMapClick?: (p: LngLat) => void;
   interactive?: boolean;
   className?: string;
+  /**
+   * `center`/`zoom` came from the URL: keep them over the automatic `focus`
+   * and `fitTo` moves a page asks for while loading.
+   */
+  holdInitialView?: boolean;
+  /** After the map stops moving (pan, zoom, fly). */
+  onViewChange?: (v: { lat: number; lng: number; zoom: number }) => void;
 }
+
+/** How long after loading a restored view wins over automatic moves. */
+const HOLD_MS = 1500;
 
 /** An official area drawn as a boundary layer, named at `label`. */
 export interface MapArea {
@@ -140,7 +150,12 @@ export const MapView = ({
   onMapClick,
   interactive = true,
   className,
+  holdInitialView = false,
+  onViewChange,
 }: MapViewProps) => {
+  const onViewChangeRef = useRef(onViewChange);
+  onViewChangeRef.current = onViewChange;
+  const heldUntil = useRef(0);
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MlMap | null>(null);
   const libRef = useRef<typeof import("maplibre-gl") | null>(null);
@@ -179,12 +194,22 @@ export const MapView = ({
         interactive,
         attributionControl: { compact: true },
       });
-      if (interactive) {
+      // Touch screens pinch to zoom, so the buttons only take room there.
+      if (interactive && !window.matchMedia("(pointer: coarse)").matches) {
         map.addControl(
           new lib.NavigationControl({ showCompass: false }),
           "top-right",
         );
       }
+      map.on("moveend", () => {
+        if (!map) return;
+        const c = map.getCenter();
+        onViewChangeRef.current?.({
+          lat: c.lat,
+          lng: c.lng,
+          zoom: map.getZoom(),
+        });
+      });
       map.on("click", (e) => {
         const p = { lat: e.lngLat.lat, lng: e.lngLat.lng };
         if (draftRef.current) draftRef.current.onChange(p);
@@ -192,6 +217,12 @@ export const MapView = ({
       });
       map.once("load", () => {
         if (!map) return;
+        // Narrow screens: start the credits folded into their (i) button.
+        if (window.matchMedia("(max-width: 767px)").matches)
+          map
+            .getContainer()
+            .querySelector(".maplibregl-ctrl-attrib")
+            ?.classList.remove("maplibregl-compact-show");
         // Area boundaries go under routes; names avoid each other.
         map.addSource(AREAS_SOURCE, {
           type: "geojson",
@@ -265,6 +296,7 @@ export const MapView = ({
         setStyleReady(true);
       });
       mapRef.current = map;
+      if (holdInitialView) heldUntil.current = performance.now() + HOLD_MS;
       setReady(true);
     });
     return () => {
@@ -488,7 +520,15 @@ export const MapView = ({
   useEffect(() => {
     const map = mapRef.current;
     const lib = libRef.current;
-    if (!ready || !map || !lib || !fitTo || fitTo.length === 0) return;
+    if (
+      !ready ||
+      !map ||
+      !lib ||
+      !fitTo ||
+      fitTo.length === 0 ||
+      performance.now() < heldUntil.current
+    )
+      return;
     const bounds = fitTo.reduce(
       (b, p) => b.extend(p),
       new lib.LngLatBounds(fitTo[0], fitTo[0]),
@@ -500,7 +540,13 @@ export const MapView = ({
   const focusLng = focus?.lng;
   useEffect(() => {
     const map = mapRef.current;
-    if (!ready || !map || focusLat === undefined || focusLng === undefined)
+    if (
+      !ready ||
+      !map ||
+      focusLat === undefined ||
+      focusLng === undefined ||
+      performance.now() < heldUntil.current
+    )
       return;
     map.easeTo({
       center: [focusLng, focusLat],

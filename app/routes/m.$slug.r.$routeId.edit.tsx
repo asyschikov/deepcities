@@ -3,9 +3,11 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { RouteForm } from "~/components/RouteForm";
 import { localize } from "~/lib/content-lang";
 import { useMapPage } from "~/lib/map-page";
+import { useLeaveForm } from "~/lib/nav-history";
 import { draftOfRoute, type RouteDraft } from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
 
@@ -14,6 +16,7 @@ const EditRoute = () => {
   const trpc = useTRPC();
   const { translateTo } = useMapPage();
   const navigate = useNavigate();
+  const leaveForm = useLeaveForm();
   const { slug, routeId } = Route.useParams();
   const { data } = useQuery(trpc.route.byId.queryOptions({ routeId }));
 
@@ -28,13 +31,17 @@ const EditRoute = () => {
 
   return (
     <div className="space-y-5 p-5">
-      <Link
-        to="/m/$slug/r/$routeId"
-        params={{ slug, routeId }}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-      >
-        <ArrowLeft className="size-4" /> {t("route_edit_back")}
-      </Link>
+      <BackLink
+        fallback={
+          <Link
+            to="/m/$slug/r/$routeId"
+            params={{ slug, routeId }}
+            className={BACK_LINK_CLASS}
+          >
+            <ArrowLeft className="size-4" /> {t("route_edit_back")}
+          </Link>
+        }
+      />
       <div className="space-y-1">
         <h1 className="text-2xl font-semibold">
           {data.can.review
@@ -53,14 +60,18 @@ const EditRoute = () => {
           routeId={routeId}
           onDone={(res) =>
             res.status === "approved"
-              ? navigate({
-                  to: "/m/$slug/r/$routeId",
-                  params: { slug, routeId },
-                })
+              ? leaveForm(`/m/${slug}/r/${routeId}`, () =>
+                  navigate({
+                    to: "/m/$slug/r/$routeId",
+                    params: { slug, routeId },
+                    replace: true,
+                  }),
+                )
               : navigate({
                   to: "/m/$slug/review",
                   params: { slug },
                   search: { tab: "mine" },
+                  replace: true,
                 })
           }
         />

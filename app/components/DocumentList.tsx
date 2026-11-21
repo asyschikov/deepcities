@@ -1,16 +1,18 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "@tanstack/react-router";
 import { BookOpen, ChevronDown, ChevronUp } from "lucide-react";
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import type { DocumentSubject } from "~/lib/constants";
 import { localize } from "~/lib/content-lang";
 import { useMapPage } from "~/lib/map-page";
-import { photoUrl } from "~/lib/utils";
+import { useSearchFlag } from "~/lib/map-search";
+import { cn, photoUrl } from "~/lib/utils";
 import { useTRPC } from "~/trpc/client";
 
 /** How many documents show before "Show all". */
+/** Documents shown before "Show all": fewer on phones. */
 const PREVIEW = 5;
+const PREVIEW_PHONE = 3;
 
 /** Documents attached to one subject (the map, a place or a route). */
 export const DocumentList = ({
@@ -31,7 +33,7 @@ export const DocumentList = ({
   const { t } = useTranslation();
   const trpc = useTRPC();
   const { translateTo } = useMapPage();
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useSearchFlag("docs");
   const { data: rawDocs = [] } = useQuery(
     trpc.document.list.queryOptions({
       collectionId,
@@ -41,14 +43,18 @@ export const DocumentList = ({
   const docs = rawDocs.map((d) => localize(d, translateTo));
   if (docs.length === 0) return null;
   const shown = expanded ? docs : docs.slice(0, PREVIEW);
+  const toggle = docs.length > PREVIEW_PHONE;
   return (
     <section className={className}>
       <h2 className="mb-2 flex items-center gap-1.5 font-sans text-sm font-semibold">
         <BookOpen className="size-4" /> {title}
       </h2>
       <ul className="space-y-1.5">
-        {shown.map((d) => (
-          <li key={d.id}>
+        {shown.map((d, i) => (
+          <li
+            key={d.id}
+            className={cn(!expanded && i >= PREVIEW_PHONE && "max-md:hidden")}
+          >
             <Link
               to="/m/$slug/d/$docId"
               params={{ slug, docId: d.id }}
@@ -74,12 +80,16 @@ export const DocumentList = ({
           </li>
         ))}
       </ul>
-      {docs.length > PREVIEW && (
+      {toggle && (
         <button
           type="button"
-          onClick={() => setExpanded((e) => !e)}
+          onClick={() => setExpanded(!expanded)}
           aria-expanded={expanded}
-          className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+          className={cn(
+            "mt-2 inline-flex min-h-9 items-center gap-1 text-sm font-medium text-primary hover:underline",
+            // Only phones hide documents when there are just a few.
+            docs.length <= PREVIEW && "md:hidden",
+          )}
         >
           {expanded ? (
             <>
