@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link, useNavigate, useSearch } from "@tanstack/react-router";
 import { Plus, Repeat } from "lucide-react";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { legLines, ModeIcon } from "~/components/RouteParts";
 import { Button } from "~/components/ui/button";
@@ -61,18 +61,27 @@ export const RoutesPanel = () => {
     [allRoutes, mode, loop],
   );
 
+  // A route hovered (or focused) in the list: drawn bold and on top, the
+  // others faded.
+  const [hoverId, setHoverId] = useState<string | null>(null);
+  const hovered = routes.some((r) => r.id === hoverId) ? hoverId : null;
+
   const overlay = useMemo<MapOverlay>(
     () => ({
-      lines: routes.flatMap((r) =>
-        legLines(r.id, r.legs, {
-          opacity: 0.7,
-          onClick: () =>
-            navigate({
-              to: "/m/$slug/r/$routeId",
-              params: { slug, routeId: r.id },
-            }),
-        }),
-      ),
+      // The hovered route last, so it draws over the rest.
+      lines: [...routes]
+        .sort((a, b) => Number(a.id === hovered) - Number(b.id === hovered))
+        .flatMap((r) =>
+          legLines(r.id, r.legs, {
+            opacity: hovered === null ? 0.7 : r.id === hovered ? 1 : 0.15,
+            width: r.id === hovered ? 7 : undefined,
+            onClick: () =>
+              navigate({
+                to: "/m/$slug/r/$routeId",
+                params: { slug, routeId: r.id },
+              }),
+          }),
+        ),
       pins: routes.map((r) => {
         const first = r.stops[0];
         return {
@@ -83,6 +92,7 @@ export const RoutesPanel = () => {
           color: "#1c1917",
           label: "▶",
           title: r.title,
+          active: r.id === hovered,
           onClick: () =>
             navigate({
               to: "/m/$slug/r/$routeId",
@@ -92,7 +102,7 @@ export const RoutesPanel = () => {
       }),
       dimPlaces: routes.length > 0,
     }),
-    [routes, navigate, slug],
+    [routes, navigate, slug, hovered],
   );
   useMapOverlay(overlay);
 
@@ -158,7 +168,13 @@ export const RoutesPanel = () => {
       )}
       <ul className="divide-y">
         {routes.map((r) => (
-          <li key={r.id}>
+          <li
+            key={r.id}
+            onMouseEnter={() => setHoverId(r.id)}
+            onMouseLeave={() => setHoverId(null)}
+            onFocus={() => setHoverId(r.id)}
+            onBlur={() => setHoverId(null)}
+          >
             <Link
               to="/m/$slug/r/$routeId"
               params={{ slug, routeId: r.id }}
