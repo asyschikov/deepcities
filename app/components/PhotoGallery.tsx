@@ -15,7 +15,7 @@ export const Gallery = ({
   title: string;
 }) => {
   // The shown photo is in the URL (`?photo=2`), so links share it.
-  const { photo: index = 0 } = useSearch({ from: "/m/$slug" });
+  const { photo: index = 0 } = useSearch({ from: "/$city/$slug" });
   const navigate = useNavigate();
   const setIndex = (i: number) =>
     navigate({

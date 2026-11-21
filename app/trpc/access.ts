@@ -1,5 +1,6 @@
 import { TRPCError } from "@trpc/server";
 import { and, eq } from "drizzle-orm";
+import { citySlug } from "~/lib/cities";
 import type { Database } from "~/lib/db";
 import { collection, collectionMember } from "~/lib/db/schema";
 import {
@@ -13,7 +14,8 @@ import type { Profile } from "./init";
 export type Collection = typeof collection.$inferSelect;
 
 export interface CollectionAccess {
-  collection: Collection;
+  /** With `citySlug`, its URL's first segment. */
+  collection: Collection & { citySlug: string };
   role: EffectiveRole;
   can: Capabilities;
 }
@@ -42,7 +44,11 @@ export const getAccess = async (
     memberRole: member?.role ?? null,
     policy: found.contributionPolicy,
   });
-  return { collection: found, role, can: capabilitiesOf(role) };
+  return {
+    collection: { ...found, citySlug: citySlug(found.city) },
+    role,
+    can: capabilitiesOf(role),
+  };
 };
 
 /** Throws FORBIDDEN unless the viewer has capability `cap` in the collection. */

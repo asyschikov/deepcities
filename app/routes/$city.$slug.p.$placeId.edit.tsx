@@ -17,7 +17,7 @@ const EditPlace = () => {
   const { translateTo } = useMapPage();
   const navigate = useNavigate();
   const leaveForm = useLeaveForm();
-  const { slug, placeId } = Route.useParams();
+  const { city, slug, placeId } = Route.useParams();
   const { data } = useQuery(trpc.place.byId.queryOptions({ placeId }));
 
   // Snapshot once: refetches must not reset the form or the draft pin.
@@ -35,8 +35,8 @@ const EditPlace = () => {
       <BackLink
         fallback={
           <Link
-            to="/m/$slug/p/$placeId"
-            params={{ slug, placeId }}
+            to="/$city/$slug/p/$placeId"
+            params={{ city, slug, placeId }}
             className={BACK_LINK_CLASS}
           >
             <ArrowLeft className="size-4" /> {t("edit_back")}
@@ -61,16 +61,16 @@ const EditPlace = () => {
           placeId={placeId}
           onDone={(res) =>
             res.status === "approved"
-              ? leaveForm(`/m/${slug}/p/${placeId}`, () =>
+              ? leaveForm(`/${city}/${slug}/p/${placeId}`, () =>
                   navigate({
-                    to: "/m/$slug/p/$placeId",
-                    params: { slug, placeId },
+                    to: "/$city/$slug/p/$placeId",
+                    params: { city, slug, placeId },
                     replace: true,
                   }),
                 )
               : navigate({
-                  to: "/m/$slug/review",
-                  params: { slug },
+                  to: "/$city/$slug/review",
+                  params: { city, slug },
                   search: { tab: "mine" },
                   replace: true,
                 })
@@ -85,6 +85,6 @@ const EditPlace = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/p/$placeId/edit")({
+export const Route = createFileRoute("/$city/$slug/p/$placeId/edit")({
   component: EditPlace,
 });

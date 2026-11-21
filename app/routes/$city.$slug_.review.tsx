@@ -411,8 +411,12 @@ const MineList = ({ view }: { view: CollectionView }) => {
             {p.subject === "route" ? (
               p.status === "approved" && p.route ? (
                 <Link
-                  to="/m/$slug/r/$routeId"
-                  params={{ slug: view.collection.slug, routeId: p.route.id }}
+                  to="/$city/$slug/r/$routeId"
+                  params={{
+                    city: view.collection.citySlug,
+                    slug: view.collection.slug,
+                    routeId: p.route.id,
+                  }}
                   className="font-medium hover:underline"
                 >
                   {p.routeDraft?.title ?? p.route.title}
@@ -424,8 +428,12 @@ const MineList = ({ view }: { view: CollectionView }) => {
               )
             ) : p.status === "approved" && p.place ? (
               <Link
-                to="/m/$slug/p/$placeId"
-                params={{ slug: view.collection.slug, placeId: p.place.id }}
+                to="/$city/$slug/p/$placeId"
+                params={{
+                  city: view.collection.citySlug,
+                  slug: view.collection.slug,
+                  placeId: p.place.id,
+                }}
                 className="font-medium hover:underline"
               >
                 {p.draft?.title ?? p.place.title}
@@ -470,7 +478,7 @@ const ReviewPage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
   const navigate = useNavigate({ from: Route.fullPath });
-  const { slug } = Route.useParams();
+  const { city, slug } = Route.useParams();
   const { tab } = Route.useSearch();
   const initial = Route.useLoaderData();
   const { data: view } = useQuery({
@@ -491,7 +499,11 @@ const ReviewPage = () => {
 
   return (
     <PageShell
-      back={{ to: "/m/$slug", params: { slug }, label: view.collection.title }}
+      back={{
+        to: "/$city/$slug",
+        params: { city, slug },
+        label: view.collection.title,
+      }}
       title={canReview ? t("review_title") : t("review_mine_title")}
       subtitle={canReview ? t("review_subtitle") : t("review_mine_subtitle")}
     >
@@ -542,7 +554,7 @@ const ReviewPage = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug_/review")({
+export const Route = createFileRoute("/$city/$slug_/review")({
   validateSearch: z.object({ tab: z.enum(TABS).default("queue") }),
   loader: async ({ params }) => {
     const view = await loadCollection({ data: params.slug });

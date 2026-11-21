@@ -9,7 +9,7 @@ import { useTRPC } from "~/trpc/client";
 const NewDocumentPage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
-  const { slug } = Route.useParams();
+  const { city, slug } = Route.useParams();
   const initial = Route.useLoaderData();
   const { data: view } = useQuery({
     ...trpc.collection.bySlug.queryOptions({ slug }),
@@ -17,7 +17,11 @@ const NewDocumentPage = () => {
   });
   return (
     <PageShell
-      back={{ to: "/m/$slug", params: { slug }, label: view.collection.title }}
+      back={{
+        to: "/$city/$slug",
+        params: { city, slug },
+        label: view.collection.title,
+      }}
       title={t("doc_new")}
       subtitle={t("doc_new_desc")}
     >
@@ -43,7 +47,7 @@ const NewDocumentPage = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug_/d/new")({
+export const Route = createFileRoute("/$city/$slug_/d/new")({
   loader: async ({ params }) => {
     const view = await loadCollection({ data: params.slug });
     if (!view) throw notFound();

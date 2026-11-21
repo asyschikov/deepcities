@@ -1,43 +1,42 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
-import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
-import { RouteForm } from "~/components/RouteForm";
+import { PlaceForm } from "~/components/PlaceForm";
 import { useMapPage } from "~/lib/map-page";
 import { useViewer } from "~/lib/use-viewer";
 
-const NewRoute = () => {
+const NewPlace = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const viewer = useViewer();
-  const { view, setTab } = useMapPage();
+  const { view } = useMapPage();
   const slug = view.collection.slug;
-  useEffect(() => setTab("routes"), [setTab]);
+  const city = view.collection.citySlug;
 
   return (
     <div className="space-y-5 p-5">
       <BackLink
         fallback={
           <Link
-            to="/m/$slug"
-            params={{ slug }}
-            search={{ tab: "routes" }}
+            to="/$city/$slug"
+            params={{ city, slug }}
+            search={{ tab: undefined }}
             className={BACK_LINK_CLASS}
           >
-            <ArrowLeft className="size-4" /> {t("route_back")}
+            <ArrowLeft className="size-4" /> {t("place_back")}
           </Link>
         }
       />
       <div className="space-y-1">
-        <h1 className="text-2xl font-semibold">{t("route_new_title")}</h1>
-        <p className="text-sm text-muted-foreground">{t("route_new_intro")}</p>
+        <h1 className="text-2xl font-semibold">{t("new_title")}</h1>
+        <p className="text-sm text-muted-foreground">{t("new_intro")}</p>
       </div>
       {!viewer ? (
         <p className="text-sm">
           <Link
             to="/auth"
-            search={{ next: `/m/${slug}/r/new` }}
+            search={{ next: `/${city}/${slug}/new` }}
             className="text-primary underline"
           >
             {t("new_sign_in")}
@@ -48,18 +47,18 @@ const NewRoute = () => {
           {t("new_not_allowed")}
         </p>
       ) : (
-        <RouteForm
+        <PlaceForm
           initial={null}
           onDone={(res) =>
-            res.status === "approved" && res.routeId
+            res.status === "approved" && res.placeId
               ? navigate({
-                  to: "/m/$slug/r/$routeId",
-                  params: { slug, routeId: res.routeId },
+                  to: "/$city/$slug/p/$placeId",
+                  params: { city, slug, placeId: res.placeId },
                   replace: true,
                 })
               : navigate({
-                  to: "/m/$slug/review",
-                  params: { slug },
+                  to: "/$city/$slug/review",
+                  params: { city, slug },
                   search: { tab: "mine" },
                   replace: true,
                 })
@@ -70,4 +69,6 @@ const NewRoute = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/r/new")({ component: NewRoute });
+export const Route = createFileRoute("/$city/$slug/new")({
+  component: NewPlace,
+});

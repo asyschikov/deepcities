@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { useNavigate } from "@tanstack/react-router";
+import { useNavigate, useParams } from "@tanstack/react-router";
 import { Archive, ImageDown, Plus, Search, X } from "lucide-react";
 import { useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -44,6 +44,7 @@ const ArchiveButton = ({
   documentId: string;
   slug: string;
 }) => {
+  const { city = "" } = useParams({ strict: false });
   const { t } = useTranslation();
   const trpc = useTRPC();
   const navigate = useNavigate();
@@ -54,7 +55,11 @@ const ArchiveButton = ({
       onSuccess: async () => {
         await queryClient.invalidateQueries();
         toast.success(t("doc_archived_toast"));
-        await navigate({ to: "/m/$slug", params: { slug }, replace: true });
+        await navigate({
+          to: "/$city/$slug",
+          params: { city, slug },
+          replace: true,
+        });
       },
       onError: (err) => toast.error(err.message),
     }),
@@ -98,6 +103,7 @@ export const DocumentEditor = ({
   initial,
   photos,
 }: DocumentEditorProps) => {
+  const { city = "" } = useParams({ strict: false });
   const { t } = useTranslation();
   const trpc = useTRPC();
   const navigate = useNavigate();
@@ -183,10 +189,10 @@ export const DocumentEditor = ({
         await queryClient.invalidateQueries();
         toast.success(t("doc_saved"));
         // Back to the document if we came from it, so Back skips the form.
-        leaveForm(`/m/${slug}/d/${res.id}`, () =>
+        leaveForm(`/${city}/${slug}/d/${res.id}`, () =>
           navigate({
-            to: "/m/$slug/d/$docId",
-            params: { slug, docId: res.id },
+            to: "/$city/$slug/d/$docId",
+            params: { city, slug, docId: res.id },
             replace: true,
           }),
         );

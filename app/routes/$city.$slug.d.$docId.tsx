@@ -45,7 +45,7 @@ const loadDocument = createServerFn({ method: "GET" })
 const DocumentPage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
-  const { slug, docId } = Route.useParams();
+  const { city, slug, docId } = Route.useParams();
   const initial = Route.useLoaderData();
   const navigate = useNavigate();
   // Full-screen reading is in the URL, so Back leaves it and links can share it.
@@ -137,8 +137,8 @@ const DocumentPage = () => {
             <BackLink
               fallback={
                 <Link
-                  to="/m/$slug"
-                  params={{ slug }}
+                  to="/$city/$slug"
+                  params={{ city, slug }}
                   search={{ tab: undefined }}
                   className={BACK_LINK_CLASS}
                 >
@@ -245,8 +245,8 @@ const DocumentPage = () => {
                 return (
                   <li key={p.id}>
                     <Link
-                      to="/m/$slug/p/$placeId"
-                      params={{ slug, placeId: p.id }}
+                      to="/$city/$slug/p/$placeId"
+                      params={{ city, slug, placeId: p.id }}
                       className="flex items-center gap-3 p-2.5 transition hover:bg-muted/60"
                     >
                       <div
@@ -281,7 +281,10 @@ const DocumentPage = () => {
         {can.review && (
           <section className="border-t pt-4">
             <Button asChild size="sm" variant="outline">
-              <Link to="/m/$slug/d/$docId/edit" params={{ slug, docId }}>
+              <Link
+                to="/$city/$slug/d/$docId/edit"
+                params={{ city, slug, docId }}
+              >
                 <Pencil /> {t("doc_edit")}
               </Link>
             </Button>
@@ -314,7 +317,7 @@ const DocumentPage = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/d/$docId")({
+export const Route = createFileRoute("/$city/$slug/d/$docId")({
   validateSearch: z.object({ full: z.boolean().optional() }),
   loader: async ({ params }) => {
     const data = await loadDocument({ data: params.docId });

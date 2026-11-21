@@ -1,11 +1,11 @@
 ---
 name: c-list-sights
-description: Scout, research and add sights to the "C-list sights of Amsterdam" map (slug amsterdam-c-list) — the unusual, debatable, standing-out places that don't make the guidebook. Use when asked to find, gather, scout or add C-list sights, curiosities, murals, hidden history, odd museums or green escapes for a neighbourhood or district, to do another research round for an area, or to fix or refresh an existing C-list place.
+description: Scout, research and add sights to the "C-list sights of Amsterdam" map (slug c-list) — the unusual, debatable, standing-out places that don't make the guidebook. Use when asked to find, gather, scout or add C-list sights, curiosities, murals, hidden history, odd museums or green escapes for a neighbourhood or district, to do another research round for an area, or to fix or refresh an existing C-list place.
 ---
 
 # Gathering C-list sights
 
-The **C-list sights of Amsterdam** map (`amsterdam-c-list`) is for **a curious resident or
+The **C-list sights of Amsterdam** map (`c-list`) is for **a curious resident or
 an adventurous visitor**: the places that don't make it into the guidebook. Unusual,
 debatable, standing out, old or new. Listed monuments are the backbone. Beyond them:
 murals and public art, hidden history, curiosities, odd museums, green escapes, and food
@@ -26,7 +26,7 @@ Don't skip step 1. The user wants to choose before anything is written or import
 ## 1. Scout
 
 - **Check the map first.**
-  - `pnpm -s dc places amsterdam-c-list --q <word>` and `--sub-neighbourhood <wijk>`.
+  - `pnpm -s dc places c-list --q <word>` and `--sub-neighbourhood <wijk>`.
   - `research/*/places/*.yaml`.
   - Don't propose anything that is already there.
 - **Monuments.** For an area that isn't covered yet, every listed monument goes on the map, merged sensibly. Get them from the city register API, filtered to the area's wijken. See `research/west/scripts/prepare.py` for building candidate clusters, and "Sources" in manage-content.
@@ -48,7 +48,7 @@ Don't skip step 1. The user wants to choose before anything is written or import
 
 Work in `research/<area>/` (e.g. `research/west/`):
 
-- `map.yaml`: a snapshot of the live map's categories and fields. Refresh it from `pnpm -s dc map amsterdam-c-list`.
+- `map.yaml`: a snapshot of the live map's categories and fields. Refresh it from `pnpm -s dc map c-list`.
 - `scripts/`: copy `validate.py`, `assemble.py` and `areas.py` from `research/west/scripts/`. They resolve `map.yaml` and `places/` relative to themselves.
 - `places/<slice>.yaml`: the drafts. One file per slice or round, e.g. `extra-a.yaml`.
 - `notes/<slice>.md`: merges, conflicts, dropped items, missing photos and route ideas.
@@ -69,10 +69,11 @@ header `User-Agent: deep-cities-research/0.1`. Review what comes back; don't tru
   - Write the English natively. Gloss Dutch terms on first use.
   - The facts must agree between the two. The emphasis may differ.
 - **Current status, checked recently.** Art gets removed, shops close, horses leave balconies. For each item, find the latest news and say plainly whether it is still there.
-  - If it's gone but the story is good, pin the site and say clearly that it's gone. Put it in the title too, e.g. `(gone)`.
+  - If it's gone but the story is good, pin the site and say clearly that it's gone. Put it in the title too, e.g. `(gone)`, and **always set `attributes: {status: Gone}`** (the map's Status field; the user wants gone things marked there).
   - Never leave the reader guessing ("we could not confirm whether…"). Never invite readers to report things ("spot it and tell us").
   - If you can't settle it, leave the claim out and note it for the user.
 - **Exact location.** Pin the object itself: the mural's wall, the statue, the entrance. Never a street centroid. Use 6 decimals.
+- **Rank.** Set `attributes.rank`: `Amazing` (worth going out of your way; rare, about 1 in 20), `Nice` (worth a stop if you're near), or `Okay` (a footnote for completists: plain listed fronts, small plaques, gone things without a strong story). Add new ranks to `scripts/data/amsterdam-c-list-ranks.json`.
 - **Visiting.** Say whether and how it can be seen: from the street, opening hours, seasonal (e.g. "on the pond mid-April to end October"), private.
 - **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list.
   - Never mention the research process ("our notes", "the coordinator", "this brief").
@@ -82,13 +83,13 @@ header `User-Agent: deep-cities-research/0.1`. Review what comes back; don't tru
 
 ## 3. Import
 
-These steps write to the live site, https://deep-cities.bookverse-app.workers.dev. Say so before importing.
+These steps write to the live site, https://deepcities.org. Say so before importing.
 
 ```bash
 python3 -B research/<area>/scripts/validate.py research/<area>/places/<slice>.yaml   # until 0 errors
 AMS_RAW=<scratchpad>/raw python3 -B research/<area>/scripts/assemble.py > scripts/data/amsterdam-<area>-<round>.json
-pnpm -s dc import amsterdam-c-list scripts/data/amsterdam-<area>-<round>.json --dry-run
-pnpm -s dc import amsterdam-c-list scripts/data/amsterdam-<area>-<round>.json --upsert --note "Source: research/<area> (<round>)"
+pnpm -s dc import c-list scripts/data/amsterdam-<area>-<round>.json --dry-run
+pnpm -s dc import c-list scripts/data/amsterdam-<area>-<round>.json --upsert --note "Source: research/<area> (<round>)"
 ```
 
 - `assemble.py` does three things:

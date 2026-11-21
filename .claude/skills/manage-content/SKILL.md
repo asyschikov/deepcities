@@ -13,7 +13,7 @@ owner.
 ## Before you start
 
 1. `pnpm dc whoami` shows which site you are on (`url`) and as whom.
-   - The default site is **live** (https://deep-cities.bookverse-app.workers.dev).
+   - The default site is **live** (https://deepcities.org).
    - With a moderator/admin token, writes **publish immediately**.
    - To work locally: `pnpm dev`, then `DC_URL=http://localhost:5173 DC_TOKEN=$(pnpm -s mint-token superadmin@deepcities.local --name agent | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.parse(s).token))')`.
    - Not logged in: ask the user for a token from `<site>/me` → API tokens (`pnpm dc login <token>`), or mint one with `pnpm mint-token <email> --remote` if they ask you to.

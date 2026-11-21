@@ -58,7 +58,7 @@ export const MAP_RETAINED_PARAMS = [
 
 /** A boolean search param of the current map page, with its setter. */
 export const useSearchFlag = (key: "about" | "docs") => {
-  const search = useSearch({ from: "/m/$slug" });
+  const search = useSearch({ from: "/$city/$slug" });
   const navigate = useNavigate();
   const set = (on: boolean) =>
     navigate({

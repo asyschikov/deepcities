@@ -21,6 +21,7 @@ export const RoutesPanel = () => {
   const viewer = useViewer();
   const { view, translateTo } = useMapPage();
   const slug = view.collection.slug;
+  const city = view.collection.citySlug;
   const { data: rawRoutes, isPending } = useQuery(
     trpc.route.list.queryOptions({ collectionId: view.collection.id }),
   );
@@ -29,7 +30,7 @@ export const RoutesPanel = () => {
     [rawRoutes, translateTo],
   );
   // Walks or rides (`?mode=bike`), by each route's main mode.
-  const { mode } = useSearch({ from: "/m/$slug" });
+  const { mode } = useSearch({ from: "/$city/$slug" });
   const setMode = (m: RouteMode | null) =>
     navigate({
       to: ".",
@@ -40,7 +41,7 @@ export const RoutesPanel = () => {
       replace: true,
       resetScroll: false,
     });
-  const { loop } = useSearch({ from: "/m/$slug" });
+  const { loop } = useSearch({ from: "/$city/$slug" });
   const setLoop = (on: boolean) =>
     navigate({
       to: ".",
@@ -77,8 +78,8 @@ export const RoutesPanel = () => {
             width: r.id === hovered ? 7 : undefined,
             onClick: () =>
               navigate({
-                to: "/m/$slug/r/$routeId",
-                params: { slug, routeId: r.id },
+                to: "/$city/$slug/r/$routeId",
+                params: { city, slug, routeId: r.id },
               }),
           }),
         ),
@@ -95,14 +96,14 @@ export const RoutesPanel = () => {
           active: r.id === hovered,
           onClick: () =>
             navigate({
-              to: "/m/$slug/r/$routeId",
-              params: { slug, routeId: r.id },
+              to: "/$city/$slug/r/$routeId",
+              params: { city, slug, routeId: r.id },
             }),
         };
       }),
       dimPlaces: routes.length > 0,
     }),
-    [routes, navigate, slug, hovered],
+    [routes, navigate, city, slug, hovered],
   );
   useMapOverlay(overlay);
 
@@ -112,14 +113,14 @@ export const RoutesPanel = () => {
         <p className="text-sm text-muted-foreground">{t("routes_intro")}</p>
         {view.can.propose && (
           <Button asChild size="sm" variant="outline" className="shrink-0">
-            <Link to="/m/$slug/r/new" params={{ slug }}>
+            <Link to="/$city/$slug/r/new" params={{ city, slug }}>
               <Plus /> {t("routes_new")}
             </Link>
           </Button>
         )}
         {!viewer && (
           <Button asChild size="sm" variant="outline" className="shrink-0">
-            <Link to="/auth" search={{ next: `/m/${slug}/r/new` }}>
+            <Link to="/auth" search={{ next: `/${city}/${slug}/r/new` }}>
               <Plus /> {t("routes_new")}
             </Link>
           </Button>
@@ -176,8 +177,8 @@ export const RoutesPanel = () => {
             onBlur={() => setHoverId(null)}
           >
             <Link
-              to="/m/$slug/r/$routeId"
-              params={{ slug, routeId: r.id }}
+              to="/$city/$slug/r/$routeId"
+              params={{ city, slug, routeId: r.id }}
               className="flex gap-3 p-4 transition hover:bg-muted/60"
             >
               <div className="size-16 shrink-0 overflow-hidden rounded-md bg-muted">

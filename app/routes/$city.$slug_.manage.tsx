@@ -312,7 +312,7 @@ const Settings = ({ view }: { view: CollectionView }) => {
 const ManagePage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
-  const { slug } = Route.useParams();
+  const { city, slug } = Route.useParams();
   const initial = Route.useLoaderData();
   const { data: view } = useQuery({
     ...trpc.collection.bySlug.queryOptions({ slug }),
@@ -321,7 +321,11 @@ const ManagePage = () => {
 
   return (
     <PageShell
-      back={{ to: "/m/$slug", params: { slug }, label: view.collection.title }}
+      back={{
+        to: "/$city/$slug",
+        params: { city, slug },
+        label: view.collection.title,
+      }}
       title={t("manage_title")}
       subtitle={t("manage_subtitle")}
     >
@@ -340,7 +344,7 @@ const ManagePage = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug_/manage")({
+export const Route = createFileRoute("/$city/$slug_/manage")({
   loader: async ({ params }) => {
     const view = await loadCollection({ data: params.slug });
     if (!view) throw notFound();

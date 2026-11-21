@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { Link } from "@tanstack/react-router";
+import { Link, useParams } from "@tanstack/react-router";
 import { BookOpen, ChevronDown, ChevronUp } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import type { DocumentSubject } from "~/lib/constants";
@@ -30,6 +30,7 @@ export const DocumentList = ({
   title: string;
   className?: string;
 }) => {
+  const { city = "" } = useParams({ strict: false });
   const { t } = useTranslation();
   const trpc = useTRPC();
   const { translateTo } = useMapPage();
@@ -56,8 +57,8 @@ export const DocumentList = ({
             className={cn(!expanded && i >= PREVIEW_PHONE && "max-md:hidden")}
           >
             <Link
-              to="/m/$slug/d/$docId"
-              params={{ slug, docId: d.id }}
+              to="/$city/$slug/d/$docId"
+              params={{ city, slug, docId: d.id }}
               className="flex gap-3 rounded-md border p-2 transition hover:bg-muted/60"
             >
               {d.coverPhotoId && (

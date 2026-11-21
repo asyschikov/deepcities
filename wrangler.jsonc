@@ -14,11 +14,17 @@
   "observability": { "enabled": true },
   "vars": {
     "APP_ENV": "live",
-    "SITE_ORIGIN": "https://deep-cities.bookverse-app.workers.dev",
-    // Temporary: borrowing bookver.se (Cloudflare Email Service) until
-    // Deep Cities has its own domain.
-    "EMAIL_FROM_ADDRESS": "deepcities@bookver.se"
+    // The canonical origin: other hosts (workers.dev, www) redirect here,
+    // except /api/ and /media/ (see app/lib/redirects.server.ts).
+    "SITE_ORIGIN": "https://deepcities.org",
+    // Cloudflare Email Service sending is onboarded for deepcities.org;
+    // Email Routing forwards replies to hello@ to the owner.
+    "EMAIL_FROM_ADDRESS": "hello@deepcities.org"
   },
+  "routes": [
+    { "pattern": "deepcities.org", "custom_domain": true },
+    { "pattern": "www.deepcities.org", "custom_domain": true }
+  ],
   "d1_databases": [
     {
       "binding": "DB",

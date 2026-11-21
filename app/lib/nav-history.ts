@@ -68,9 +68,9 @@ export const useLeaveForm = () => {
 export type PageKind = "place" | "route" | "doc";
 
 const PAGE_KINDS: [PageKind, RegExp][] = [
-  ["place", /^\/m\/[^/]+\/p\/(?!new\/?$)[^/]+\/?$/],
-  ["route", /^\/m\/[^/]+\/r\/(?!new\/?$)[^/]+\/?$/],
-  ["doc", /^\/m\/[^/]+\/d\/(?!new\/?$)[^/]+\/?$/],
+  ["place", /^\/[^/]+\/[^/]+\/p\/(?!new\/?$)[^/]+\/?$/],
+  ["route", /^\/[^/]+\/[^/]+\/r\/(?!new\/?$)[^/]+\/?$/],
+  ["doc", /^\/[^/]+\/[^/]+\/d\/(?!new\/?$)[^/]+\/?$/],
 ];
 
 export const pageKindOf = (pathname: string): PageKind | null =>

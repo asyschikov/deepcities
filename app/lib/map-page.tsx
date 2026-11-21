@@ -37,7 +37,7 @@ export type SidebarTab = "places" | "routes";
 
 /**
  * Shared state between the map (right) and the routed side panel (left) on
- * /m/$slug/*: data, filters, and the draft pin used while proposing.
+ * /$city/$slug/*: data, filters, and the draft pin used while proposing.
  */
 export interface MapPageState {
   view: CollectionView;
@@ -80,7 +80,7 @@ export const MapPageContext = createContext<MapPageState | null>(null);
 
 export const useMapPage = (): MapPageState => {
   const ctx = useContext(MapPageContext);
-  if (!ctx) throw new Error("useMapPage outside /m/$slug");
+  if (!ctx) throw new Error("useMapPage outside /$city/$slug");
   return ctx;
 };
 

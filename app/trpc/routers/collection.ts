@@ -2,6 +2,7 @@ import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
 import { and, count, eq } from "drizzle-orm";
 import { z } from "zod/v4";
+import { citySlug, LEGACY_MAP_SLUGS } from "~/lib/cities";
 import { CONTRIBUTION_POLICIES, MEMBER_ROLES } from "~/lib/constants";
 import {
   collection,
@@ -64,6 +65,7 @@ export const collectionRouter = router({
     return rows.map((c) => ({
       id: c.id,
       slug: c.slug,
+      citySlug: citySlug(c.city),
       title: c.title,
       tagline: c.tagline,
       city: c.city,
@@ -73,13 +75,20 @@ export const collectionRouter = router({
 
   /** The map page header: collection, viewer's role/capabilities, queue size. */
   bySlug: publicProcedure
-    .input(z.object({ slug: z.string().max(60) }))
+    .input(
+      z.object({
+        slug: z.string().max(60),
+        /** The URL's city segment; a map in another city is not found. */
+        city: z.string().max(60).optional(),
+      }),
+    )
     .query(async ({ ctx, input }) => {
+      const slug = LEGACY_MAP_SLUGS[input.slug] ?? input.slug;
       const found = await ctx.db.query.collection.findFirst({
-        where: eq(collection.slug, input.slug),
-        columns: { id: true },
+        where: eq(collection.slug, slug),
+        columns: { id: true, city: true },
       });
-      if (!found)
+      if (!found || (input.city && citySlug(found.city) !== input.city))
         throw new TRPCError({ code: "NOT_FOUND", message: "Map not found" });
       const access = await getAccess(ctx.db, found.id, ctx.profile);
       const pendingCount = access.can.review
@@ -115,7 +124,7 @@ export const collectionRouter = router({
         createdBy: ctx.profile.id,
         createdAt: new Date(),
       });
-      return { id, slug: input.slug };
+      return { id, slug: input.slug, citySlug: citySlug(input.city) };
     }),
 
   updateSettings: publicProcedure

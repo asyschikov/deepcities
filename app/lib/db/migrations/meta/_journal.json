@@ -64,6 +64,13 @@
       "when": 1795272581210,
       "tag": "0008_route_loop",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1795299714948,
+      "tag": "0009_c_list_slug",
+      "breakpoints": true
     }
   ]
 }

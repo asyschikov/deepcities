@@ -3,6 +3,7 @@ import {
   createFileRoute,
   notFound,
   Outlet,
+  redirect,
   retainSearchParams,
   useNavigate,
   useParams,
@@ -39,11 +40,11 @@ import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
 const loadMap = createServerFn({ method: "GET" })
-  .validator((slug: string) => slug)
-  .handler(async ({ data: slug }) => {
+  .validator((p: { city: string; slug: string }) => p)
+  .handler(async ({ data: { city, slug } }) => {
     const caller = await createCaller();
     try {
-      const view = await caller.collection.bySlug({ slug });
+      const view = await caller.collection.bySlug({ city, slug });
       const places = await caller.place.list({
         collectionId: view.collection.id,
       });
@@ -60,7 +61,7 @@ const MapLayout = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
   const navigate = useNavigate();
-  const { slug } = Route.useParams();
+  const { city, slug } = Route.useParams();
   const initial = Route.useLoaderData();
   const { placeId } = useParams({ strict: false });
   const urlSearch = Route.useSearch();
@@ -410,8 +411,8 @@ const MapLayout = () => {
               // From one place to another: replace, so Back returns to
               // where the reader came from rather than the previous place.
               navigate({
-                to: "/m/$slug/p/$placeId",
-                params: { slug, placeId: id },
+                to: "/$city/$slug/p/$placeId",
+                params: { city, slug, placeId: id },
                 replace: isPeerOf("place"),
               });
             }}
@@ -423,14 +424,23 @@ const MapLayout = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug")({
+export const Route = createFileRoute("/$city/$slug")({
   validateSearch: mapSearchSchema,
   search: {
     middlewares: [retainSearchParams([...MAP_RETAINED_PARAMS])],
   },
-  loader: async ({ params }) => {
-    const data = await loadMap({ data: params.slug });
+  loader: async ({ params, location }) => {
+    const data = await loadMap({ data: params });
     if (!data) throw notFound();
+    // An old slug: move to the map's own address, keeping the rest.
+    const own = data.view.collection.slug;
+    if (own !== params.slug) {
+      const prefix = `/${params.city}/${params.slug}`;
+      throw redirect({
+        href: `/${params.city}/${own}${location.href.slice(prefix.length)}`,
+        statusCode: 301,
+      });
+    }
     return data;
   },
   head: ({ loaderData }) => ({

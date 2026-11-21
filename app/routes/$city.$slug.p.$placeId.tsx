@@ -118,11 +118,11 @@ const PlacePage = () => {
   const trpc = useTRPC();
   const queryClient = useQueryClient();
   const viewer = useViewer();
-  const { slug, placeId } = Route.useParams();
+  const { city, slug, placeId } = Route.useParams();
   const initial = Route.useLoaderData();
   const { view, categoryOf, focusOn, translateTo } = useMapPage();
   const editing = useMatch({
-    from: "/m/$slug/p/$placeId/edit",
+    from: "/$city/$slug/p/$placeId/edit",
     shouldThrow: false,
   });
 
@@ -176,8 +176,8 @@ const PlacePage = () => {
       <BackLink
         fallback={
           <Link
-            to="/m/$slug"
-            params={{ slug }}
+            to="/$city/$slug"
+            params={{ city, slug }}
             search={{ tab: undefined }}
             className={BACK_LINK_CLASS}
           >
@@ -195,7 +195,10 @@ const PlacePage = () => {
       {missing.length > 0 && (
         <UntranslatedNote
           partly={missing.length < 3 && !missing.includes("title")}
-          edit={{ to: "/m/$slug/p/$placeId/edit", params: { slug, placeId } }}
+          edit={{
+            to: "/$city/$slug/p/$placeId/edit",
+            params: { city, slug, placeId },
+          }}
         />
       )}
 
@@ -276,8 +279,8 @@ const PlacePage = () => {
             {onRoutes.map((r) => (
               <li key={r.id}>
                 <Link
-                  to="/m/$slug/r/$routeId"
-                  params={{ slug, routeId: r.id }}
+                  to="/$city/$slug/r/$routeId"
+                  params={{ city, slug, routeId: r.id }}
                   className="flex items-center gap-2 text-primary hover:underline"
                 >
                   <RouteIcon className="size-4" />{" "}
@@ -310,7 +313,7 @@ const PlacePage = () => {
               ) : (
                 <Link
                   to="/auth"
-                  search={{ next: `/m/${slug}/p/${placeId}` }}
+                  search={{ next: `/${city}/${slug}/p/${placeId}` }}
                   className="text-primary underline"
                 >
                   {t("rating_sign_in")}
@@ -326,7 +329,10 @@ const PlacePage = () => {
           {can.propose ? (
             <>
               <Button asChild size="sm" variant="outline">
-                <Link to="/m/$slug/p/$placeId/edit" params={{ slug, placeId }}>
+                <Link
+                  to="/$city/$slug/p/$placeId/edit"
+                  params={{ city, slug, placeId }}
+                >
                   <Pencil />{" "}
                   {can.review ? t("place_edit") : t("place_suggest_edit")}
                 </Link>
@@ -336,7 +342,7 @@ const PlacePage = () => {
           ) : !viewer ? (
             <Link
               to="/auth"
-              search={{ next: `/m/${slug}/p/${placeId}` }}
+              search={{ next: `/${city}/${slug}/p/${placeId}` }}
               className="text-sm text-primary underline"
             >
               {t("place_sign_in_to_edit")}
@@ -378,7 +384,7 @@ const PlacePage = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/p/$placeId")({
+export const Route = createFileRoute("/$city/$slug/p/$placeId")({
   loader: async ({ params }) => {
     const data = await loadPlace({ data: params.placeId });
     if (!data) throw notFound();

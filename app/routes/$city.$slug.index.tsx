@@ -43,6 +43,7 @@ const MapIndex = () => {
   useEffect(() => () => setHoverPlaceId(null), [setHoverPlaceId]);
   const { collection, can, role, pendingCount } = view;
   const slug = collection.slug;
+  const city = collection.citySlug;
   const [aboutOpen, setAboutOpen] = useSearchFlag("about");
 
   return (
@@ -80,18 +81,18 @@ const MapIndex = () => {
         <div className="flex flex-wrap gap-2 pt-1">
           <Button asChild size="sm">
             {viewer ? (
-              <Link to="/m/$slug/new" params={{ slug }}>
+              <Link to="/$city/$slug/new" params={{ city, slug }}>
                 <Plus /> {t("map_suggest_place")}
               </Link>
             ) : (
-              <Link to="/auth" search={{ next: `/m/${slug}/new` }}>
+              <Link to="/auth" search={{ next: `/${city}/${slug}/new` }}>
                 <Plus /> {t("map_suggest_place")}
               </Link>
             )}
           </Button>
           {can.review && (
             <Button asChild size="sm" variant="outline">
-              <Link to="/m/$slug/review" params={{ slug }}>
+              <Link to="/$city/$slug/review" params={{ city, slug }}>
                 <ClipboardCheck /> {t("map_review")}
                 {pendingCount > 0 && (
                   <Badge className="ml-1 h-5 bg-brick px-1.5">
@@ -104,8 +105,8 @@ const MapIndex = () => {
           {viewer && !can.review && (
             <Button asChild size="sm" variant="outline">
               <Link
-                to="/m/$slug/review"
-                params={{ slug }}
+                to="/$city/$slug/review"
+                params={{ city, slug }}
                 search={{ tab: "mine" }}
               >
                 <Inbox /> {t("map_my_suggestions")}
@@ -114,14 +115,14 @@ const MapIndex = () => {
           )}
           {can.review && (
             <Button asChild size="sm" variant="ghost">
-              <Link to="/m/$slug/d/new" params={{ slug }}>
+              <Link to="/$city/$slug/d/new" params={{ city, slug }}>
                 <FilePlus /> {t("map_new_document")}
               </Link>
             </Button>
           )}
           {can.manage && (
             <Button asChild size="sm" variant="ghost">
-              <Link to="/m/$slug/manage" params={{ slug }}>
+              <Link to="/$city/$slug/manage" params={{ city, slug }}>
                 <Settings /> {t("map_manage")}
               </Link>
             </Button>
@@ -251,8 +252,8 @@ const MapIndex = () => {
                   onBlur={() => setHoverPlaceId(null)}
                 >
                   <Link
-                    to="/m/$slug/p/$placeId"
-                    params={{ slug, placeId: p.id }}
+                    to="/$city/$slug/p/$placeId"
+                    params={{ city, slug, placeId: p.id }}
                     className="flex gap-3 p-4 transition hover:bg-muted/60"
                   >
                     <div
@@ -308,6 +309,6 @@ const MapIndex = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/")({
+export const Route = createFileRoute("/$city/$slug/")({
   component: MapIndex,
 });

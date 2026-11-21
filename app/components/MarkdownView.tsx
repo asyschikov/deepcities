@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useParams } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import { PhotoCredit, type PhotoMeta } from "~/components/PhotoCredit";
 import {
@@ -17,6 +17,7 @@ import { photoUrl } from "~/lib/utils";
  */
 interface Context {
   slug?: string;
+  city?: string;
   photos?: Map<string, PhotoMeta>;
   /** Links to a page of the current page's kind replace it (no stacking). */
   peer?: (kind: PageKind) => boolean;
@@ -25,7 +26,7 @@ interface Context {
 const renderInline = (
   text: string,
   keyPrefix: string,
-  { slug, peer }: Context,
+  { slug, city, peer }: Context,
 ): ReactNode[] =>
   parseInline(text).map((part: Inline, idx) => {
     const key = `${keyPrefix}-${idx}`;
@@ -51,12 +52,12 @@ const renderInline = (
               {part.text}
             </a>
           );
-        if (!slug) return <span key={key}>{part.text}</span>;
+        if (!slug || !city) return <span key={key}>{part.text}</span>;
         return target.kind === "place" ? (
           <Link
             key={key}
-            to="/m/$slug/p/$placeId"
-            params={{ slug, placeId: target.id }}
+            to="/$city/$slug/p/$placeId"
+            params={{ city, slug, placeId: target.id }}
             replace={peer?.("place")}
             className={cls}
           >
@@ -65,8 +66,8 @@ const renderInline = (
         ) : (
           <Link
             key={key}
-            to="/m/$slug/d/$docId"
-            params={{ slug, docId: target.id }}
+            to="/$city/$slug/d/$docId"
+            params={{ city, slug, docId: target.id }}
             replace={peer?.("doc")}
             className={cls}
           >
@@ -157,8 +158,11 @@ export const MarkdownView = ({
   photos?: PhotoMeta[];
 }) => {
   const peer = useIsPeerOf();
+  // Rendered under a map route: its city is in the URL.
+  const { city } = useParams({ strict: false });
   const ctx: Context = {
     slug,
+    city,
     peer,
     photos: photos ? new Map(photos.map((p) => [p.id, p])) : undefined,
   };

@@ -124,11 +124,11 @@ const RoutePage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
   const viewer = useViewer();
-  const { slug, routeId } = Route.useParams();
+  const { city, slug, routeId } = Route.useParams();
   const initial = Route.useLoaderData();
   const { places, focusOn, setTab, translateTo } = useMapPage();
   const editing = useMatch({
-    from: "/m/$slug/r/$routeId/edit",
+    from: "/$city/$slug/r/$routeId/edit",
     shouldThrow: false,
   });
   const { data } = useQuery({
@@ -228,8 +228,8 @@ const RoutePage = () => {
       <BackLink
         fallback={
           <Link
-            to="/m/$slug"
-            params={{ slug }}
+            to="/$city/$slug"
+            params={{ city, slug }}
             search={{ tab: "routes" }}
             className={BACK_LINK_CLASS}
           >
@@ -247,7 +247,10 @@ const RoutePage = () => {
       {partlyUntranslated && (
         <UntranslatedNote
           partly={untranslated(data.route, translateTo, ["title"]).length === 0}
-          edit={{ to: "/m/$slug/r/$routeId/edit", params: { slug, routeId } }}
+          edit={{
+            to: "/$city/$slug/r/$routeId/edit",
+            params: { city, slug, routeId },
+          }}
         />
       )}
 
@@ -321,8 +324,8 @@ const RoutePage = () => {
                   <div className="font-semibold">
                     {onMap && s.placeId ? (
                       <Link
-                        to="/m/$slug/p/$placeId"
-                        params={{ slug, placeId: s.placeId }}
+                        to="/$city/$slug/p/$placeId"
+                        params={{ city, slug, placeId: s.placeId }}
                         className="hover:underline"
                       >
                         {s.name}
@@ -385,7 +388,10 @@ const RoutePage = () => {
           {can.propose ? (
             <>
               <Button asChild size="sm" variant="outline">
-                <Link to="/m/$slug/r/$routeId/edit" params={{ slug, routeId }}>
+                <Link
+                  to="/$city/$slug/r/$routeId/edit"
+                  params={{ city, slug, routeId }}
+                >
                   <Pencil />{" "}
                   {can.review ? t("route_edit") : t("route_suggest_edit")}
                 </Link>
@@ -395,7 +401,7 @@ const RoutePage = () => {
           ) : !viewer ? (
             <Link
               to="/auth"
-              search={{ next: `/m/${slug}/r/${routeId}` }}
+              search={{ next: `/${city}/${slug}/r/${routeId}` }}
               className="text-sm text-primary underline"
             >
               {t("place_sign_in_to_edit")}
@@ -446,7 +452,7 @@ const RoutePage = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/r/$routeId")({
+export const Route = createFileRoute("/$city/$slug/r/$routeId")({
   loader: async ({ params }) => {
     const data = await loadRoute({ data: params.routeId });
     if (!data) throw notFound();

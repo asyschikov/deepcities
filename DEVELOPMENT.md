@@ -112,6 +112,13 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
 
 ## URLs and navigation
 
+- **Maps live under their city**: `/<city>/<map>` (`/amsterdam/c-list`), with places,
+  routes and documents below (`/amsterdam/c-list/p/<id>`). The city segment is derived
+  from `collection.city` (`citySlug`, `app/lib/cities.ts`); `/<city>` lists that city's
+  maps and `/` redirects to `/amsterdam` while there is one city. Map slugs are still
+  unique site-wide. Old `/m/<slug>/…` links and renamed slugs (`LEGACY_MAP_SLUGS`, e.g.
+  `amsterdam-c-list` → `c-list`) redirect; the API and CLI accept old slugs too.
+
 - **State lives in the URL.** Anything a reader can see or choose on a map page is a
   search param (`app/lib/map-search.ts`): language, boundaries, pin grouping, tab,
   search, category, field filters, route filters (`?mode=bike&loop=true`), map position (`?map=zoom/lat/lng`), the selected route stop/leg, the
@@ -168,12 +175,12 @@ changes go to review, moderator+ changes publish immediately and show in history
 
 ```bash
 pnpm dc login dc_… [--url http://localhost:5173]   # or env DC_TOKEN / DC_URL
-pnpm dc places amsterdam-c-list --sub-neighbourhood Landlust --field heritage_status="National monument"
-pnpm dc create amsterdam-c-list draft.json --note "why"
+pnpm dc places c-list --sub-neighbourhood Landlust --field heritage_status="National monument"
+pnpm dc create c-list draft.json --note "why"
 pnpm dc update <placeId> '{"summary":"…"}'
-pnpm dc photo amsterdam-c-list ./photo.jpg --credit "Jane Doe" --license "CC BY 4.0"
-pnpm dc fields amsterdam-c-list scripts/data/amsterdam-fields.json   # map schema
-pnpm dc import amsterdam-c-list scripts/data/bos-en-lommer-monuments.json [--upsert]
+pnpm dc photo c-list ./photo.jpg --credit "Jane Doe" --license "CC BY 4.0"
+pnpm dc fields c-list scripts/data/amsterdam-fields.json   # map schema
+pnpm dc import c-list scripts/data/bos-en-lommer-monuments.json [--upsert]
 ```
 
 Languages: `dc languages <slug> langs.json` sets `language`, `languages` and the
@@ -246,14 +253,18 @@ environment can be added later as `env.alpha`.
 pnpm ship        # build → apply D1 migrations (remote) → wrangler deploy
 ```
 
-Live: https://deep-cities.bookverse-app.workers.dev
+Live: https://deepcities.org (Cloudflare Registrar; the Worker serves it and
+www.deepcities.org as custom domains). The old https://deep-cities.bookverse-app.workers.dev
+and www redirect there (301), except `/api/` and `/media/`, so older CLI configs keep
+working (`app/lib/redirects.server.ts`).
 
-Temporary: emails are sent from `deepcities@bookver.se` until Deep Cities has its own
-domain — change `EMAIL_FROM_ADDRESS` (and onboard the new domain) when it does.
+Email: sign-in links are sent from `hello@deepcities.org` through Cloudflare Email
+Service (deepcities.org is onboarded under Email Sending, which added its SPF/DKIM/DMARC
+records). Email Routing forwards mail to hello@deepcities.org to the owner, so replies
+reach a person.
 
 ## Not done yet
 
-- Own domain (add a route/custom domain in `wrangler.jsonc`, update `SITE_ORIGIN`).
 - Rate limiting per IP on `auth.requestLink` (today: 5 links per email per hour).
 - Changing a custom field's type doesn't migrate existing values (they fail validation
   on the next edit until fixed). Truly deleting a field is not supported yet.

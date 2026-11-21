@@ -14,7 +14,7 @@ import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import { DOC_HELP, makeDocCommands } from "./dc-docs.ts";
 
-const DEFAULT_URL = "https://deep-cities.bookverse-app.workers.dev";
+const DEFAULT_URL = "https://deepcities.org";
 const CONFIG_PATH = join(homedir(), ".config", "deep-cities", "config.json");
 const MAX_PHOTO_BYTES = 4 * 1024 * 1024;
 const MAX_PHOTO_EDGE = 1600;

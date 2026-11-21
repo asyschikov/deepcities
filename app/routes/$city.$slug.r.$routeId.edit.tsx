@@ -17,7 +17,7 @@ const EditRoute = () => {
   const { translateTo } = useMapPage();
   const navigate = useNavigate();
   const leaveForm = useLeaveForm();
-  const { slug, routeId } = Route.useParams();
+  const { city, slug, routeId } = Route.useParams();
   const { data } = useQuery(trpc.route.byId.queryOptions({ routeId }));
 
   // Snapshot once: refetches must not reset the editor.
@@ -34,8 +34,8 @@ const EditRoute = () => {
       <BackLink
         fallback={
           <Link
-            to="/m/$slug/r/$routeId"
-            params={{ slug, routeId }}
+            to="/$city/$slug/r/$routeId"
+            params={{ city, slug, routeId }}
             className={BACK_LINK_CLASS}
           >
             <ArrowLeft className="size-4" /> {t("route_edit_back")}
@@ -60,16 +60,16 @@ const EditRoute = () => {
           routeId={routeId}
           onDone={(res) =>
             res.status === "approved"
-              ? leaveForm(`/m/${slug}/r/${routeId}`, () =>
+              ? leaveForm(`/${city}/${slug}/r/${routeId}`, () =>
                   navigate({
-                    to: "/m/$slug/r/$routeId",
-                    params: { slug, routeId },
+                    to: "/$city/$slug/r/$routeId",
+                    params: { city, slug, routeId },
                     replace: true,
                   }),
                 )
               : navigate({
-                  to: "/m/$slug/review",
-                  params: { slug },
+                  to: "/$city/$slug/review",
+                  params: { city, slug },
                   search: { tab: "mine" },
                   replace: true,
                 })
@@ -84,6 +84,6 @@ const EditRoute = () => {
   );
 };
 
-export const Route = createFileRoute("/m/$slug/r/$routeId/edit")({
+export const Route = createFileRoute("/$city/$slug/r/$routeId/edit")({
   component: EditRoute,
 });

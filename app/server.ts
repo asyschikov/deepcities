@@ -13,6 +13,7 @@ import {
 } from "./lib/auth.server";
 import { createDb } from "./lib/db";
 import { photo } from "./lib/db/schema";
+import { redirectFor } from "./lib/redirects.server";
 import type { ServerEnv } from "./lib/server-env";
 
 const escapeHtml = (s: string) =>
@@ -90,6 +91,9 @@ export default {
     ctx: ExecutionContext,
   ): Promise<Response> {
     const { pathname } = new URL(request.url);
+
+    const redirect = await redirectFor(request, env);
+    if (redirect) return redirect;
 
     if (pathname === "/auth/verify") return handleVerify(request, env);
     if (pathname === "/auth/signout" && request.method === "POST")
