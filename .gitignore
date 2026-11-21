@@ -9,3 +9,4 @@ dist
 .tanstack
 .claude/*
 !.claude/skills/
+__pycache__/
