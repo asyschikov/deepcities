@@ -13,6 +13,7 @@ export type CollectionView = Omit<RawCollectionView, "collection"> & {
 };
 export type PlaceListItem = RouterOutputs["place"]["list"][number];
 export type RouteListItem = RouterOutputs["route"]["list"][number];
+export type AreaItem = RouterOutputs["area"]["tree"][number];
 
 /**
  * What a side-panel page (route view/editor, routes list) draws on the map
@@ -71,6 +72,16 @@ export interface MapPageState {
   /** Languages the map offers, its own first. */
   languages: ContentLang[];
   setLang: (lang: ContentLang) => void;
+  /** The city's official areas (no geometry), for browsing. */
+  areas: AreaItem[];
+  /** The area places are filtered to (and outlined on the map), or null. */
+  area: AreaItem | null;
+  setAreaId: (id: string | null) => void;
+  /** Children of `area` (or of the city) with how many places each holds. */
+  subAreas: (AreaItem & { count: number })[];
+  /** A place hovered in a list, highlighted on the map. */
+  hoverPlaceId: string | null;
+  setHoverPlaceId: (id: string | null) => void;
 }
 
 export const MapPageContext = createContext<MapPageState | null>(null);

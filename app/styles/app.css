@@ -144,3 +144,56 @@
 .dc-pin[data-kind="stop"][data-adhoc="true"] > span {
   border-style: dashed;
 }
+
+/* The open or hovered place: a pulsing halo with its name. */
+.dc-hover-halo {
+  position: relative;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.dc-hover-ring {
+  position: absolute;
+  left: -28px;
+  top: -28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px;
+  border: 3px solid var(--halo);
+  background: color-mix(in oklch, var(--halo) 25%, transparent);
+  box-shadow: 0 0 0 2px white;
+  animation: dc-halo 1.4s ease-out infinite;
+}
+.dc-hover-label {
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 3px 9px;
+  border-radius: 9999px;
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.25);
+  border: 2px solid var(--halo);
+}
+@keyframes dc-halo {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.25);
+    opacity: 0.25;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dc-hover-ring {
+    animation: none;
+  }
+}

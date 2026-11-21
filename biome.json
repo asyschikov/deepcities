@@ -57,6 +57,7 @@
       "!**/.output",
       "!**/.wrangler",
       "!**/app/routeTree.gen.ts",
+      "!**/scripts/data/amsterdam-areas.json",
       "!**/app/lib/db/migrations/**",
       "!**/dist",
       "!**/pnpm-lock.yaml",

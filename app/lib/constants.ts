@@ -98,6 +98,18 @@ export const CONTENT_LANGUAGE_NAMES: Record<ContentLang, string> = {
 };
 export const DEFAULT_CONTENT_LANGUAGE: ContentLang = "en";
 
+/**
+ * Levels of a city's official area hierarchy, coarse to fine. Named like the
+ * place fields; in Amsterdam: gemeente / stadsdeel / gebied / wijk.
+ */
+export const AREA_LEVELS = [
+  "municipality",
+  "borough",
+  "neighbourhood",
+  "subNeighbourhood",
+] as const;
+export type AreaLevel = (typeof AREA_LEVELS)[number];
+
 export const PROPOSAL_KINDS = ["create", "edit", "archive"] as const;
 export type ProposalKind = (typeof PROPOSAL_KINDS)[number];
 

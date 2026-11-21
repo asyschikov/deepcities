@@ -67,6 +67,16 @@ MAP SCHEMA (map admins)
                                            options: {value: label}}}}}}; translations
                                            merge per language/field like place patches
 
+AREAS  (a city's official divisions, shared by all its maps)
+  dc areas <city>                          the hierarchy: [{id, level, code, name,
+                                           parentId, bbox}] (levels: municipality,
+                                           borough, neighbourhood, subNeighbourhood)
+  dc areas-import <file.json|->            super admins: replace a city's areas from
+                                           {"city", "source", "areas": [{level, code,
+                                           name, parent: {level, code} | null,
+                                           geometry: GeoJSON (Multi)Polygon | null}]};
+                                           Amsterdam: node scripts/fetch-amsterdam-areas.ts
+
 ROUTES  (same review rules as places)
   dc routes <slug>                         published routes (stats, stop names)
   dc route <routeId>                       full route: stops, legs (paths), history
@@ -1026,6 +1036,17 @@ const commands: Record<
       fields,
     });
     return { ok: true, fields };
+  },
+
+  areas: async ([city]) => query("area.tree", { city: need(city, "<city>") }),
+
+  "areas-import": async ([arg]) => {
+    const input = readJsonArg(need(arg, "<file.json>"));
+    return mutate("area.import", {
+      city: input.city,
+      source: input.source ?? null,
+      areas: input.areas,
+    });
   },
 
   /** Set a map's content languages and translated map texts (admins). */

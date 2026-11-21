@@ -91,6 +91,16 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   inline as `![caption](photo:<id>)`, the rest of `photoIds` forms the cover and gallery.
   Links inside any markdown may target `place:<id>` and `doc:<id>`. The dialect is
   parsed in `app/lib/markdown.ts` (unit-tested) and rendered by `MarkdownView`.
+- `area` — a city's official divisions, shared by every map whose `collection.city`
+  matches (case-insensitive). Hierarchical through `parent_id`; levels are
+  `municipality` → `borough` → `neighbourhood` → `subNeighbourhood` (Amsterdam:
+  gemeente → stadsdeel → gebied → wijk; a few wijken outside any gebied hang straight
+  under their stadsdeel). Reference data, not proposals: super admins replace it with
+  `pnpm dc areas-import`. Geometry is simplified (~2 m) on import. Places are **not**
+  linked to areas: the map computes membership with point-in-polygon
+  (`app/lib/areas.ts`), so the area picker filters places, outlines the chosen area and
+  its sub-areas, and zooms to it. The place `borough`/`neighbourhood` text fields are
+  separate and unchanged.
 
 ## Roles
 
@@ -184,6 +194,12 @@ Wikipedia links) and the national register (monumentenregister.cultureelerfgoed.
 `subNeighbourhood` is the wijk containing each point (`gebieden/wijken` geometry);
 the `attributes` (status, numbers, build years, architect, year listed) come from the
 same monuments API. `scripts/data/amsterdam-fields.json` is the map's field schema.
+
+`scripts/data/amsterdam-areas.json`: Amsterdam's stadsdelen, gebieden and wijken
+(current versions) from `api.data.amsterdam.nl/v1/gebieden/` (CC0). Refresh with
+`node scripts/fetch-amsterdam-areas.ts`, then
+`pnpm dc areas-import scripts/data/amsterdam-areas.json` (super admin; matched by
+level + code, so ids survive re-imports, and areas gone from the file are removed).
 
 ## Licences
 

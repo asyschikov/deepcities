@@ -154,6 +154,11 @@ reading"). Opening one highlights its places on the map. Only moderators+ write 
 - Changing a field's type doesn't convert stored values; check existing values first.
 - Values are stored and displayed in the language of the map (English).
 
+## Areas (official city divisions)
+
+- `pnpm dc areas <city>` lists a city's area hierarchy (`municipality` → `borough` → `neighbourhood` → `subNeighbourhood`; in Amsterdam stadsdeel → gebied → wijk). Use it to pick consistent `borough`/`neighbourhood`/`subNeighbourhood` field values.
+- Areas are shared reference data, not map content: only super admins change them, with `pnpm dc areas-import <file.json>`. For Amsterdam, run `node scripts/fetch-amsterdam-areas.ts` first. Places are matched to areas by their coordinates, so nothing needs assigning.
+
 ## Moderation queue
 
 - `pnpm dc queue <slug>` lists pending proposals with full drafts.

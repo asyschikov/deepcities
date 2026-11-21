@@ -7,8 +7,9 @@ import {
   Search,
   Settings,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { AreaPicker } from "~/components/AreaPicker";
 import { DocumentList } from "~/components/DocumentList";
 import { RatingBadge } from "~/components/RatingStars";
 import { RoleBadge } from "~/components/RoleBadge";
@@ -36,7 +37,10 @@ const MapIndex = () => {
     categoryOf,
     tab,
     setTab,
+    setHoverPlaceId,
   } = useMapPage();
+  // Leaving the list (e.g. opening a place) ends any hover highlight.
+  useEffect(() => () => setHoverPlaceId(null), [setHoverPlaceId]);
   const { collection, can, role, pendingCount } = view;
   const slug = collection.slug;
   const [aboutOpen, setAboutOpen] = useState(false);
@@ -171,6 +175,7 @@ const MapIndex = () => {
                 aria-label={t("map_search")}
               />
             </div>
+            <AreaPicker />
             <div className="flex flex-wrap gap-1.5">
               {collection.categories.map((c) => {
                 const active = category === c.key;
@@ -239,7 +244,13 @@ const MapIndex = () => {
             {visiblePlaces.map((p) => {
               const cat = categoryOf(p.category);
               return (
-                <li key={p.id}>
+                <li
+                  key={p.id}
+                  onMouseEnter={() => setHoverPlaceId(p.id)}
+                  onMouseLeave={() => setHoverPlaceId(null)}
+                  onFocus={() => setHoverPlaceId(p.id)}
+                  onBlur={() => setHoverPlaceId(null)}
+                >
                   <Link
                     to="/m/$slug/p/$placeId"
                     params={{ slug, placeId: p.id }}

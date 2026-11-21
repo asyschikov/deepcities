@@ -1,6 +1,7 @@
 import type { inferRouterOutputs } from "@trpc/server";
 import { router } from "./init";
 import { adminRouter } from "./routers/admin";
+import { areaRouter } from "./routers/area";
 import { authRouter } from "./routers/auth";
 import { collectionRouter } from "./routers/collection";
 import { documentRouter } from "./routers/document";
@@ -16,6 +17,7 @@ export const appRouter = router({
   place: placeRouter,
   route: routeRouter,
   document: documentRouter,
+  area: areaRouter,
   proposal: proposalRouter,
   photo: photoRouter,
   rating: ratingRouter,

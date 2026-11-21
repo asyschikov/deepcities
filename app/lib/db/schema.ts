@@ -9,6 +9,7 @@ import {
   uniqueIndex,
 } from "drizzle-orm/sqlite-core";
 import {
+  AREA_LEVELS,
   CONTRIBUTION_POLICIES,
   type ContentLang,
   DOCUMENT_ACTIONS,
@@ -162,6 +163,43 @@ export const collectionMember = sqliteTable(
     createdAt: createdAt(),
   },
   (t) => [primaryKey({ columns: [t.collectionId, t.profileId] })],
+);
+
+// ─── Areas (a city's official divisions, shared by its maps) ──────────
+
+/** GeoJSON (Multi)Polygon in WGS84, as [lng, lat]. */
+export type AreaGeometry =
+  | { type: "Polygon"; coordinates: [number, number][][] }
+  | { type: "MultiPolygon"; coordinates: [number, number][][][] };
+
+/**
+ * One official area, e.g. Amsterdam → West → Bos en Lommer → Landlust.
+ * Shared by every map whose `collection.city` matches; reference data that
+ * only super admins replace (`dc areas-import`), so not proposal-based.
+ */
+export const area = sqliteTable(
+  "area",
+  {
+    id: text("id").primaryKey(),
+    city: text("city").notNull(),
+    level: text("level", { enum: AREA_LEVELS }).notNull(),
+    /** The official code within the city and level (e.g. stadsdeel "E"). */
+    code: text("code").notNull(),
+    name: text("name").notNull(),
+    parentId: text("parent_id"),
+    /** Null for the root (the whole city). Simplified for display. */
+    geometry: text("geometry", { mode: "json" }).$type<AreaGeometry | null>(),
+    /** [minLng, minLat, maxLng, maxLat]. */
+    bbox: text("bbox", { mode: "json" }).$type<
+      [number, number, number, number] | null
+    >(),
+    source: text("source"),
+    updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
+  },
+  (t) => [
+    uniqueIndex("area_city_level_code_idx").on(t.city, t.level, t.code),
+    index("area_parent_idx").on(t.parentId),
+  ],
 );
 
 // ─── Places (POIs) ──────────────────────────────────────────────────

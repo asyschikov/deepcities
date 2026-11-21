@@ -123,7 +123,6 @@ const DocumentPage = () => {
           "fixed inset-0 z-50 overflow-y-auto bg-background md:text-[17px]",
       )}
       role={full ? "dialog" : undefined}
-      aria-modal={full || undefined}
       aria-label={full ? doc.title : undefined}
     >
       <article

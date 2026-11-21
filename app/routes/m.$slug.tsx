@@ -12,9 +12,11 @@ import { TRPCError } from "@trpc/server";
 import { useCallback, useMemo, useState } from "react";
 import { z } from "zod/v4";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
-import { type LngLat, MapView } from "~/components/MapView";
+import { type LngLat, type MapLine, MapView } from "~/components/MapView";
+import { containsPoint, outlineRings } from "~/lib/areas";
 import type { ContentLang } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
+import type { AreaGeometry } from "~/lib/db/schema";
 import {
   type MapOverlay,
   MapPageContext,
@@ -108,6 +110,39 @@ const MapLayout = () => {
   const [focus, setFocus] = useState<LngLat | null>(null);
   const [overlay, setOverlay] = useState<MapOverlay | null>(null);
   const [tab, setTab] = useState<SidebarTab>("places");
+  const [hoverPlaceId, setHoverPlaceId] = useState<string | null>(null);
+
+  // Official areas of the map's city: the selected one filters places and is
+  // outlined with its sub-areas.
+  const [areaId, setAreaId] = useState<string | null>(null);
+  const { data: areas = [] } = useQuery(
+    trpc.area.tree.queryOptions({ city: rawView.collection.city }),
+  );
+  const area = areas.find((a) => a.id === areaId) ?? null;
+  const rootId = areas.find((a) => a.parentId === null)?.id ?? null;
+  const children = useMemo(
+    () => areas.filter((a) => a.parentId === (area?.id ?? rootId)),
+    [areas, area?.id, rootId],
+  );
+  const shapeIds = useMemo(
+    () => [...(area ? [area.id] : []), ...children.map((c) => c.id)],
+    [area, children],
+  );
+  const { data: shapes = [] } = useQuery({
+    ...trpc.area.shapes.queryOptions({ ids: shapeIds }),
+    enabled: shapeIds.length > 0,
+    staleTime: Number.POSITIVE_INFINITY,
+  });
+  const shapeById = useMemo(
+    () => new Map(shapes.map((s) => [s.id, s.geometry])),
+    [shapes],
+  );
+  const areaShape = area ? shapeById.get(area.id) : undefined;
+  const inShape = useCallback(
+    (g: AreaGeometry | null | undefined, p: { lat: number; lng: number }) =>
+      !g || containsPoint(g, [p.lng, p.lat]),
+    [],
+  );
 
   const categoryOf = useCallback(
     (key: string) => {
@@ -130,9 +165,55 @@ const MapLayout = () => {
         Object.entries(fieldFilters).every(
           ([key, value]) => p.attributes?.[key] === value,
         ) &&
-        (!q || matches(p) || matches(rawPlaces[i] ?? p)),
+        (!q || matches(p) || matches(rawPlaces[i] ?? p)) &&
+        inShape(areaShape, p),
     );
-  }, [places, rawPlaces, category, fieldFilters, search]);
+  }, [places, rawPlaces, category, fieldFilters, search, areaShape, inShape]);
+
+  const subAreas = useMemo(
+    () =>
+      children.map((c) => {
+        const g = shapeById.get(c.id);
+        return {
+          ...c,
+          count: g
+            ? places.filter((p) => inShape(areaShape, p) && inShape(g, p))
+                .length
+            : 0,
+        };
+      }),
+    [children, shapeById, places, areaShape, inShape],
+  );
+
+  // Outlines: the selected area bold, its sub-areas thin.
+  const areaLines = useMemo<MapLine[]>(() => {
+    if (!area) return [];
+    const ring = (id: string, style: Omit<MapLine, "id" | "coords">) =>
+      outlineRings(
+        shapeById.get(id) ?? { type: "Polygon", coordinates: [] },
+      ).map((coords, i) => ({ id: `area:${id}:${i}`, coords, ...style }));
+    return [
+      ...children.flatMap((c) =>
+        ring(c.id, {
+          color: "#57534e",
+          width: 1.5,
+          opacity: 0.6,
+          dashed: true,
+        }),
+      ),
+      ...ring(area.id, { color: "#b4532a", width: 3, opacity: 0.9 }),
+    ];
+  }, [area, children, shapeById]);
+  const areaFit = useMemo<[number, number][] | null>(
+    () =>
+      area?.bbox
+        ? [
+            [area.bbox[0], area.bbox[1]],
+            [area.bbox[2], area.bbox[3]],
+          ]
+        : null,
+    [area?.bbox],
+  );
 
   const visibleIds = useMemo(
     () => new Set(visiblePlaces.map((p) => p.id)),
@@ -197,6 +278,12 @@ const MapLayout = () => {
     translateTo,
     languages,
     setLang,
+    hoverPlaceId,
+    setHoverPlaceId,
+    areas,
+    area,
+    setAreaId,
+    subAreas,
   };
 
   return (
@@ -222,10 +309,15 @@ const MapLayout = () => {
             zoom={view.collection.zoom}
             markers={markers}
             activeId={placeId ?? null}
+            hoverId={hoverPlaceId}
             focus={focus}
-            lines={overlay?.lines}
+            lines={
+              areaLines.length > 0
+                ? [...areaLines, ...(overlay?.lines ?? [])]
+                : overlay?.lines
+            }
             pins={overlay?.pins}
-            fitTo={overlay?.fitTo}
+            fitTo={overlay?.fitTo ?? areaFit}
             onMapClick={overlay?.onMapClick}
             onMarkerClick={(id) => {
               if (picking) return;

@@ -406,5 +406,11 @@
   "docs_show_all": "Show all {{count}}",
   "docs_show_less": "Show fewer",
   "doc_fullscreen": "Read full screen",
-  "doc_fullscreen_exit": "Exit full screen"
+  "doc_fullscreen_exit": "Exit full screen",
+  "area_all": "Everywhere",
+  "area_clear": "Show all areas",
+  "area_pick_municipality": "Choose a city",
+  "area_pick_borough": "Choose a district (stadsdeel)…",
+  "area_pick_neighbourhood": "Choose an area (gebied)…",
+  "area_pick_subNeighbourhood": "Choose a neighbourhood (wijk)…"
 }

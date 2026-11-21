@@ -53,6 +53,8 @@ interface MapViewProps {
   zoom: number;
   markers: MapMarker[];
   activeId?: string | null;
+  /** A place hovered in the list: drawn prominently with its name. */
+  hoverId?: string | null;
   onMarkerClick?: (id: string) => void;
   /** When set, clicking the map moves a draggable draft pin. */
   draft?: { position: LngLat | null; onChange: (p: LngLat) => void } | null;
@@ -94,6 +96,7 @@ export const MapView = ({
   zoom,
   markers,
   activeId,
+  hoverId = null,
   onMarkerClick,
   draft,
   focus,
@@ -235,6 +238,53 @@ export const MapView = ({
       entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
     }
   }, [ready, markers, activeId]);
+
+  // The open place, or one hovered in the list (which wins): a halo and its
+  // name on the map, with the pin brought to the front and undimmed.
+  const haloRef = useRef<{ marker: Marker; el: HTMLDivElement } | null>(null);
+  const highlightId = hoverId ?? activeId ?? null;
+  useEffect(() => {
+    const map = mapRef.current;
+    const lib = libRef.current;
+    if (!ready || !map || !lib) return;
+    const m = highlightId
+      ? markers.find((x) => x.id === highlightId)
+      : undefined;
+    const entry = highlightId ? markersRef.current.get(highlightId) : undefined;
+    if (!m || !entry) {
+      haloRef.current?.marker.remove();
+      return;
+    }
+    if (!haloRef.current) {
+      const el = document.createElement("div");
+      el.className = "dc-hover-halo";
+      el.innerHTML =
+        '<span class="dc-hover-ring"></span><span class="dc-hover-label"></span>';
+      haloRef.current = {
+        el,
+        // Centred on the pin's head, which sits up-right of its point.
+        marker: new lib.Marker({
+          element: el,
+          anchor: "center",
+          offset: [13, -13],
+        }),
+      };
+    }
+    const halo = haloRef.current;
+    halo.el.style.setProperty("--halo", m.color);
+    const label = halo.el.querySelector(".dc-hover-label");
+    if (label) label.textContent = m.title;
+    halo.marker.setLngLat([m.lng, m.lat]).addTo(map);
+    entry.el.dataset.hover = "true";
+    entry.el.style.zIndex = "5";
+    entry.marker.setOpacity("1");
+    return () => {
+      entry.el.dataset.hover = "false";
+      entry.el.style.zIndex = "";
+      entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
+      halo.marker.remove();
+    };
+  }, [ready, highlightId, markers]);
 
   // Draft pin (proposing a new place / moving one).
   const draftPos = draft?.position ?? null;
