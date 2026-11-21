@@ -1,11 +1,13 @@
 ---
 name: c-list-sights
-description: Scout, research and add sights to the "C-list sights of Amsterdam" map (slug c-list) — the unusual, debatable, standing-out places that don't make the guidebook. Use when asked to find, gather, scout or add C-list sights, curiosities, murals, hidden history, odd museums or green escapes for a neighbourhood or district, to do another research round for an area, or to fix or refresh an existing C-list place.
+description: Scout, research and add sights to the "Deep Amsterdam" map (slug deep; formerly "C-list sights of Amsterdam") — the unusual, debatable, standing-out places that don't make the guidebook. Use when asked to find, gather, scout or add C-list sights, curiosities, murals, hidden history, odd museums or green escapes for a neighbourhood or district, to do another research round for an area, or to fix or refresh an existing C-list or Deep Amsterdam place.
 ---
 
-# Gathering C-list sights
+# Gathering C-list sights for Deep Amsterdam
 
-The **C-list sights of Amsterdam** map (`c-list`) is for **a curious resident or
+The **Deep Amsterdam** map (`deep`, at deepcities.org/amsterdam/deep) is Amsterdam off the
+A-list. It began as "C-list sights of Amsterdam", and "C-list" lives on as the in-joke for
+what goes on it. It is for **a curious resident or
 an adventurous visitor**: the places that don't make it into the guidebook. Unusual,
 debatable, standing out, old or new. Listed monuments are the backbone. Beyond them:
 murals and public art, hidden history, curiosities, odd museums, green escapes, and food
@@ -26,7 +28,7 @@ Don't skip step 1. The user wants to choose before anything is written or import
 ## 1. Scout
 
 - **Check the map first.**
-  - `pnpm -s dc places c-list --q <word>` and `--sub-neighbourhood <wijk>`.
+  - `pnpm -s dc places deep --q <word>` and `--sub-neighbourhood <wijk>`.
   - `research/*/places/*.yaml`.
   - Don't propose anything that is already there.
 - **Monuments.** For an area that isn't covered yet, every listed monument goes on the map, merged sensibly. Get them from the city register API, filtered to the area's wijken. See `research/west/scripts/prepare.py` for building candidate clusters, and "Sources" in manage-content.
@@ -48,7 +50,7 @@ Don't skip step 1. The user wants to choose before anything is written or import
 
 Work in `research/<area>/` (e.g. `research/west/`):
 
-- `map.yaml`: a snapshot of the live map's categories and fields. Refresh it from `pnpm -s dc map c-list`.
+- `map.yaml`: a snapshot of the live map's categories and fields. Refresh it from `pnpm -s dc map deep`.
 - `scripts/`: copy `validate.py`, `assemble.py` and `areas.py` from `research/west/scripts/`. They resolve `map.yaml` and `places/` relative to themselves.
 - `places/<slice>.yaml`: the drafts. One file per slice or round, e.g. `extra-a.yaml`.
 - `notes/<slice>.md`: merges, conflicts, dropped items, missing photos and route ideas.
@@ -88,8 +90,8 @@ These steps write to the live site, https://deepcities.org. Say so before import
 ```bash
 python3 -B research/<area>/scripts/validate.py research/<area>/places/<slice>.yaml   # until 0 errors
 AMS_RAW=<scratchpad>/raw python3 -B research/<area>/scripts/assemble.py > scripts/data/amsterdam-<area>-<round>.json
-pnpm -s dc import c-list scripts/data/amsterdam-<area>-<round>.json --dry-run
-pnpm -s dc import c-list scripts/data/amsterdam-<area>-<round>.json --upsert --note "Source: research/<area> (<round>)"
+pnpm -s dc import deep scripts/data/amsterdam-<area>-<round>.json --dry-run
+pnpm -s dc import deep scripts/data/amsterdam-<area>-<round>.json --upsert --note "Source: research/<area> (<round>)"
 ```
 
 - `assemble.py` does three things:

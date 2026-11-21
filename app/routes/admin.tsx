@@ -92,10 +92,10 @@ const CreateMap = () => {
         >
           <div className="grid gap-3 sm:grid-cols-2">
             {field("title", t("manage_field_title"), {
-              placeholder: "C-list sights of Lisbon",
+              placeholder: "Deep Lisbon",
             })}
             {field("slug", t("admin_field_slug"), {
-              placeholder: "lisbon-c-list",
+              placeholder: "deep",
               pattern: "[a-z0-9-]+",
             })}
           </div>

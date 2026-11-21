@@ -24,9 +24,9 @@ export const categories = [
 
 export const amsterdam = {
   id: "c_ams_clist",
-  slug: "amsterdam-c-list",
-  title: "C-list sights of Amsterdam",
-  tagline: "The places that don't make it into your guidebook.",
+  slug: "deep",
+  title: "Deep Amsterdam",
+  tagline: "Off the A-list: the places your guidebook skips.",
   description:
     "A collaborative map of Amsterdam's overlooked, odd and lovely spots. We're starting in Bos en Lommer with its listed monuments: post-war churches, schools and housing that hardly any visitor sees. Anyone signed in can suggest places; moderators review every change.",
   city: "Amsterdam",

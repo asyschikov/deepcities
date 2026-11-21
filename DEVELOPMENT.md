@@ -112,12 +112,12 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
 
 ## URLs and navigation
 
-- **Maps live under their city**: `/<city>/<map>` (`/amsterdam/c-list`), with places,
-  routes and documents below (`/amsterdam/c-list/p/<id>`). The city segment is derived
+- **Maps live under their city**: `/<city>/<map>` (`/amsterdam/deep`), with places,
+  routes and documents below (`/amsterdam/deep/p/<id>`). The city segment is derived
   from `collection.city` (`citySlug`, `app/lib/cities.ts`); `/<city>` lists that city's
   maps and `/` redirects to `/amsterdam` while there is one city. Map slugs are still
   unique site-wide. Old `/m/<slug>/…` links and renamed slugs (`LEGACY_MAP_SLUGS`, e.g.
-  `amsterdam-c-list` → `c-list`) redirect; the API and CLI accept old slugs too.
+  `amsterdam-c-list` and `c-list` → `deep`) redirect; the API and CLI accept old slugs too.
 
 - **State lives in the URL.** Anything a reader can see or choose on a map page is a
   search param (`app/lib/map-search.ts`): language, boundaries, pin grouping, tab,
@@ -175,10 +175,10 @@ changes go to review, moderator+ changes publish immediately and show in history
 
 ```bash
 pnpm dc login dc_… [--url http://localhost:5173]   # or env DC_TOKEN / DC_URL
-pnpm dc places c-list --sub-neighbourhood Landlust --field heritage_status="National monument"
-pnpm dc create c-list draft.json --note "why"
+pnpm dc places deep --sub-neighbourhood Landlust --field heritage_status="National monument"
+pnpm dc create deep draft.json --note "why"
 pnpm dc update <placeId> '{"summary":"…"}'
-pnpm dc photo c-list ./photo.jpg --credit "Jane Doe" --license "CC BY 4.0"
+pnpm dc photo deep ./photo.jpg --credit "Jane Doe" --license "CC BY 4.0"
 pnpm dc fields c-list scripts/data/amsterdam-fields.json   # map schema
 pnpm dc import c-list scripts/data/bos-en-lommer-monuments.json [--upsert]
 ```

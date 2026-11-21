@@ -3,11 +3,7 @@
     "key": "rank",
     "label": "Rank",
     "type": "select",
-    "options": [
-      "Amazing",
-      "Nice",
-      "Okay"
-    ],
+    "options": ["Amazing", "Nice", "Okay"],
     "help": "How worth a detour it is: Amazing (go out of your way), Nice (worth a stop if you're near), Okay (a footnote, for completists).",
     "filter": true
   },
@@ -60,9 +56,7 @@
     "key": "status",
     "label": "Status",
     "type": "select",
-    "options": [
-      "Gone"
-    ],
+    "options": ["Gone"],
     "help": "Set when the thing no longer exists; the pin marks where it was."
   }
 ]

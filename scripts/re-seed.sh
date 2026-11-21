@@ -11,8 +11,8 @@ FIELDS=scripts/data/amsterdam-fields.json
 DATA=scripts/data/bos-en-lommer-monuments.json
 if [[ -f "$DATA" ]] && curl -sf -o /dev/null http://localhost:5173/; then
   TOKEN=$(pnpm -s mint-token superadmin@deepcities.local --name re-seed | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.parse(s).token))')
-  DC_URL=http://localhost:5173 DC_TOKEN="$TOKEN" pnpm -s dc fields amsterdam-c-list "$FIELDS" >/dev/null
-  DC_URL=http://localhost:5173 DC_TOKEN="$TOKEN" pnpm -s dc import amsterdam-c-list "$DATA" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.stringify(JSON.parse(s).summary)))'
+  DC_URL=http://localhost:5173 DC_TOKEN="$TOKEN" pnpm -s dc fields deep "$FIELDS" >/dev/null
+  DC_URL=http://localhost:5173 DC_TOKEN="$TOKEN" pnpm -s dc import deep "$DATA" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.stringify(JSON.parse(s).summary)))'
 else
   echo "Start \`pnpm dev\` and re-run to import $DATA."
 fi

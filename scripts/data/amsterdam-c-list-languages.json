@@ -2,9 +2,9 @@
   "languages": ["nl"],
   "translations": {
     "nl": {
-      "title": "C-lijst bezienswaardigheden van Amsterdam",
-      "tagline": "De plekken die je reisgids niet haalt.",
-      "description": "Een gezamenlijke kaart van de over het hoofd geziene, eigenaardige en mooie plekken van Amsterdam. We beginnen in Amsterdam-West met de monumenten: naoorlogse kerken, scholen en woningbouw, negentiende-eeuwse buurten, en muurschilderingen die bijna geen bezoeker ziet. Iedereen die is ingelogd kan plekken voorstellen; moderatoren bekijken elke wijziging.",
+      "title": "Deep Amsterdam",
+      "tagline": "Voorbij de A-lijst: de plekken die je reisgids overslaat.",
+      "description": "Amsterdam voorbij de A-lijst. Deze kaart begon als grap over C-lijst-bezienswaardigheden, en die C-lijst bleek het mooiste deel van de stad: naoorlogse kerken, arbeiderspaleizen, een zaagmolen uit 1631 die nog altijd zaagt, muurschilderingen die bijna geen bezoeker ziet en verhalen die gewoon in het zicht liggen. We begonnen in Amsterdam-West en werken van daaruit verder. Iedereen die is ingelogd kan plekken voorstellen; moderatoren bekijken elke wijziging.",
       "categories": {
         "religious": "Kerken",
         "schools": "Scholen",
@@ -37,12 +37,16 @@
           "label": "Gebouwd",
           "help": "Jaar of periode, bijv. 1955–1956."
         },
-        "architect": { "label": "Architect" },
+        "architect": {
+          "label": "Architect"
+        },
         "listed": {
           "label": "Beschermd sinds",
           "help": "Jaar waarin het monument werd aangewezen."
         },
-        "original_use": { "label": "Oorspronkelijke functie" },
+        "original_use": {
+          "label": "Oorspronkelijke functie"
+        },
         "artist": {
           "label": "Kunstenaar",
           "help": "Wie de muurschildering of het kunstwerk maakte."

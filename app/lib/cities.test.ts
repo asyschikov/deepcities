@@ -9,8 +9,8 @@ describe("citySlug", () => {
     expect(citySlug(" 's-Hertogenbosch ")).toBe("s-hertogenbosch");
   });
   it("builds a map's path", () => {
-    expect(mapPath({ city: "Amsterdam", slug: "c-list" })).toBe(
-      "/amsterdam/c-list",
+    expect(mapPath({ city: "Amsterdam", slug: "deep" })).toBe(
+      "/amsterdam/deep",
     );
   });
 });
