@@ -44,7 +44,7 @@ const show = (draft: PlaceDraft, field: DraftField): string => {
     case "borough":
     case "neighbourhood":
     case "subNeighbourhood":
-      // Drafts stored before these fields existed lack them entirely.
+      // Null when unknown.
       return draft[field] ?? "";
     default:
       return draft[field];

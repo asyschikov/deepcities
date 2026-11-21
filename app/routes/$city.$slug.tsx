@@ -3,7 +3,6 @@ import {
   createFileRoute,
   notFound,
   Outlet,
-  redirect,
   retainSearchParams,
   useNavigate,
   useParams,
@@ -429,18 +428,9 @@ export const Route = createFileRoute("/$city/$slug")({
   search: {
     middlewares: [retainSearchParams([...MAP_RETAINED_PARAMS])],
   },
-  loader: async ({ params, location }) => {
+  loader: async ({ params }) => {
     const data = await loadMap({ data: params });
     if (!data) throw notFound();
-    // An old slug: move to the map's own address, keeping the rest.
-    const own = data.view.collection.slug;
-    if (own !== params.slug) {
-      const prefix = `/${params.city}/${params.slug}`;
-      throw redirect({
-        href: `/${params.city}/${own}${location.href.slice(prefix.length)}`,
-        statusCode: 301,
-      });
-    }
     return data;
   },
   head: ({ loaderData }) => ({

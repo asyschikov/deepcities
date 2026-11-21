@@ -10,12 +10,12 @@
     "nodejs_compat_populate_process_env"
   ],
   "main": "app/server.ts",
-  "workers_dev": true,
+  // Only deepcities.org: no workers.dev address.
+  "workers_dev": false,
   "observability": { "enabled": true },
   "vars": {
     "APP_ENV": "live",
-    // The canonical origin: other hosts (workers.dev, www) redirect here,
-    // except /api/ and /media/ (see app/lib/redirects.server.ts).
+    // The one address; www redirects here (app/lib/redirects.server.ts).
     "SITE_ORIGIN": "https://deepcities.org",
     // Cloudflare Email Service sending is onboarded for deepcities.org;
     // Email Routing forwards replies to hello@ to the owner.
