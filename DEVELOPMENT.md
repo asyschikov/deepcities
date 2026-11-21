@@ -53,7 +53,11 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   Manage → Place fields or with `pnpm dc fields`. Keys are permanent and fields are
   never deleted, only hidden (values kept); the server rejects removals.
 - `route` — a walk or ride through the map, stored like a place (only written by
-  approving a proposal). `stops`: ordered places (`placeId`) or ad-hoc points
+  approving a proposal). `mode` is its main mode, `walk` or `bike` (what it is, what
+  the list shows and filters on; inferred from the legs when a draft leaves it out).
+  `loop` marks a route that ends where it starts (inferred when the last stop is the
+  first place or within 150 m of it; editors can override); a loop's finish counts
+  once in its stops. `stops`: ordered places (`placeId`) or ad-hoc points
   (`placeId: null`, allowed but discouraged in the UI); place stops keep a name/position
   snapshot so a route survives a place being archived. `legs`: one per gap, with
   `mode` (walk, bike, tram, bus, metro, ferry, train), `via` waypoints, the drawn
@@ -101,12 +105,16 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   area of one level with its name (`area.layer`; names placed by `labelPoint` and kept
   from overlapping by MapLibre). Display only: places are not linked to or filtered by
   areas, and the place `borough`/`neighbourhood` text fields are separate.
+- **Grouped pins** (`?cluster=true`, a dropdown next to boundaries): nearby place
+  pins merge into counted discs (`supercluster`, regrouped as you zoom; the ring shows
+  each category's share). Tapping a disc zooms in until it splits. Faded pins are left
+  out and the open or hovered place always shows on its own.
 
 ## URLs and navigation
 
 - **State lives in the URL.** Anything a reader can see or choose on a map page is a
-  search param (`app/lib/map-search.ts`): language, boundaries, tab, search, category,
-  field filters, map position (`?map=zoom/lat/lng`), the selected route stop/leg, the
+  search param (`app/lib/map-search.ts`): language, boundaries, pin grouping, tab,
+  search, category, field filters, route filters (`?mode=bike&loop=true`), map position (`?map=zoom/lat/lng`), the selected route stop/leg, the
   gallery photo and expanded sections. Map-wide ones are kept across the map's pages
   (`MAP_RETAINED_PARAMS`). Form drafts, dialogs and hover are not.
 - **Changing a view replaces the history entry; going to another page pushes one** —

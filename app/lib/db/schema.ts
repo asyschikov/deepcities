@@ -21,6 +21,7 @@ import {
   PROPOSAL_KINDS,
   PROPOSAL_STATUSES,
   PROPOSAL_SUBJECTS,
+  ROUTE_MODES,
   ROUTE_STATUSES,
 } from "~/lib/constants";
 import type {
@@ -274,6 +275,10 @@ export const route = sqliteTable(
       .notNull()
       .default("published"),
     revision: integer("revision").notNull().default(1),
+    /** Main mode: a walk or a ride (legs may use other transport). */
+    mode: text("mode", { enum: ROUTE_MODES }).notNull().default("walk"),
+    /** Ends where it starts. */
+    loop: integer("loop", { mode: "boolean" }).notNull().default(false),
     title: text("title").notNull(),
     summary: text("summary").notNull(),
     body: text("body").notNull().default(""),

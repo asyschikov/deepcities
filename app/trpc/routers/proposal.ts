@@ -7,6 +7,7 @@ import type { Database } from "~/lib/db";
 import { photo, place, proposal, route } from "~/lib/db/schema";
 import { attributeIssues, compactAttributes } from "~/lib/fields";
 import {
+  draftOfRoute,
   idSchema,
   type PlaceDraft,
   placeDraftSchema,
@@ -265,7 +266,7 @@ const applyRouteProposal = async (
       throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
     await db.batch([
       db.insert(route).values({
-        ...p.routeDraft,
+        ...draftOfRoute(p.routeDraft),
         id: routeId,
         collectionId: p.collectionId,
         createdBy: p.proposedBy,
@@ -291,7 +292,7 @@ const applyRouteProposal = async (
     p.kind === "archive"
       ? { status: "archived" as const }
       : p.routeDraft
-        ? { ...p.routeDraft }
+        ? draftOfRoute(p.routeDraft)
         : null;
   if (!changes)
     throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });

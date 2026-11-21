@@ -301,7 +301,7 @@
   "route_form_remove_stop": "Remove stop",
   "route_form_narration": "Narration",
   "route_form_narration_placeholder": "What to look at here, in the context of this route (optional, markdown)",
-  "route_form_mode": "How you travel",
+  "route_form_mode": "A walk or a ride?",
   "route_form_snap": "Follow streets",
   "route_form_path_edit": "Shape path",
   "route_form_path_done": "Done",
@@ -421,6 +421,17 @@
   "area_level_short_subNeighbourhood": "Wijken",
   "back": "Back",
   "back_to": "Back to {{name}}",
-  "routes_filter_mode": "Filter routes by transport",
-  "routes_no_matches": "No routes use this transport."
+  "routes_filter_mode": "Show walks or rides",
+  "routes_no_matches": "No routes of this kind yet.",
+  "route_field_mode": "Walk or ride",
+  "route_form_mode_help": "What the route is. Each leg can still use other transport, like a ferry crossing.",
+  "route_field_loop": "Loop",
+  "route_loop": "Loop",
+  "routes_filter_loop": "Loops only",
+  "route_form_loop": "It's a loop: it ends where it starts",
+  "route_form_loop_help": "Ticked for you when the last stop is the first one.",
+  "cluster_label": "Group nearby pins",
+  "cluster_off": "Every pin",
+  "cluster_on": "Grouped pins",
+  "cluster_count": "{{count}} places here: zoom in"
 }

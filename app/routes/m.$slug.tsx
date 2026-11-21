@@ -13,6 +13,7 @@ import { Maximize2, Minimize2 } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
+import { ClusterSwitcher } from "~/components/ClusterSwitcher";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
 import { type LngLat, type MapArea, MapView } from "~/components/MapView";
 import { Button } from "~/components/ui/button";
@@ -178,6 +179,21 @@ const MapLayout = () => {
   const isPeerOf = useIsPeerOf();
   // Phones: a taller map for exploring (layout only, so not in the URL).
   const [bigMap, setBigMap] = useState(false);
+
+  // Nearby pins grouped into clusters (`?cluster=true`).
+  const clusterPins = urlSearch.cluster === true;
+  const setClusterPins = useCallback(
+    (on: boolean) =>
+      navigate({
+        to: ".",
+        search: (prev: Record<string, unknown>) => ({
+          ...prev,
+          cluster: on || undefined,
+        }),
+        replace: true,
+      }),
+    [navigate],
+  );
 
   // Official area boundaries (`?areas=borough`): a display layer only.
   const { data: areaLevels = [] } = useQuery(
@@ -363,6 +379,7 @@ const MapLayout = () => {
                 onChange={setAreaLevel}
               />
             )}
+            <ClusterSwitcher value={clusterPins} onChange={setClusterPins} />
           </div>
           <MapView
             center={
@@ -375,6 +392,7 @@ const MapLayout = () => {
             holdInitialView={initialView !== null}
             onViewChange={onViewChange}
             markers={markers}
+            cluster={clusterPins}
             activeId={placeId ?? null}
             hoverId={hoverPlaceId}
             focus={focus}

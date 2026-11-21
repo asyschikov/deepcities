@@ -4,7 +4,7 @@
  */
 import { useNavigate, useSearch } from "@tanstack/react-router";
 import { z } from "zod/v4";
-import { AREA_LEVELS, TRANSPORT_MODES } from "./constants";
+import { AREA_LEVELS, ROUTE_MODES } from "./constants";
 import { contentLangSchema } from "./validation";
 
 /** Ignore a malformed param rather than failing the page. */
@@ -14,6 +14,8 @@ const opt = <T extends z.ZodType>(schema: T) =>
 export const mapSearchSchema = z.object({
   /** Content language (when not the map's own). */
   lang: opt(contentLangSchema),
+  /** Group nearby place pins into counted clusters (by zoom). */
+  cluster: opt(z.boolean()),
   /** Boundary layer: which level of official areas to draw. */
   areas: opt(z.enum(AREA_LEVELS)),
   /** Sidebar tab (places is the default). */
@@ -22,8 +24,10 @@ export const mapSearchSchema = z.object({
   q: opt(z.string().max(200)),
   cat: opt(z.string().max(60)),
   f: opt(z.record(z.string().max(60), z.string().max(200))),
-  /** Routes filter: only routes using this transport mode. */
-  mode: opt(z.enum(TRANSPORT_MODES)),
+  /** Routes filter: walks or rides (the route's main mode). */
+  mode: opt(z.enum(ROUTE_MODES)),
+  /** Routes filter: only loops (end where they start). */
+  loop: opt(z.boolean()),
   /** Map position: `zoom/lat/lng`. */
   map: opt(z.string().max(40)),
   // Page-level (not carried between pages):
@@ -42,11 +46,13 @@ export type MapSearch = z.infer<typeof mapSearchSchema>;
 export const MAP_RETAINED_PARAMS = [
   "lang",
   "areas",
+  "cluster",
   "tab",
   "q",
   "cat",
   "f",
   "mode",
+  "loop",
   "map",
 ] as const satisfies readonly (keyof MapSearch)[];
 

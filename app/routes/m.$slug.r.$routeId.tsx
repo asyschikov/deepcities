@@ -10,7 +10,7 @@ import {
 import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
 import { formatDistanceToNow } from "date-fns";
-import { ArrowLeft, Clock, Flag, MapPin, Pencil } from "lucide-react";
+import { ArrowLeft, Clock, Flag, MapPin, Pencil, Repeat } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -259,11 +259,20 @@ const RoutePage = () => {
 
       <header className="space-y-1.5">
         <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground uppercase">
-          <span className="flex gap-0.5">
-            {stats.modes.map((m) => (
-              <ModeIcon key={m} mode={m} className="size-3.5" />
-            ))}
+          <span className="flex items-center gap-1">
+            <ModeIcon mode={route.mode} className="size-3.5" />
+            {t(`mode_${route.mode}`)}
           </span>
+          {route.loop && (
+            <>
+              ·
+              <span className="flex items-center gap-1">
+                <Repeat className="size-3.5" />
+                {t("route_loop")}
+              </span>
+            </>
+          )}
+          ·
           {t("routes_stats", {
             stops: stats.stops,
             distance: formatDistance(stats.meters),

@@ -96,6 +96,32 @@
   box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
   z-index: 2;
 }
+.dc-marker[data-clustered="true"] {
+  display: none;
+}
+.dc-cluster {
+  width: var(--size);
+  height: var(--size);
+  padding: 4px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.3);
+  cursor: pointer;
+  transition: transform 120ms ease;
+}
+.dc-cluster:hover {
+  transform: scale(1.1);
+}
+.dc-cluster span {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: white;
+  color: oklch(0.25 0 0);
+  font: 600 12px / 1 var(--font-sans, system-ui);
+}
 .dc-draft-marker {
   width: 34px;
   height: 34px;

@@ -1,11 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link, useNavigate, useSearch } from "@tanstack/react-router";
-import { Plus } from "lucide-react";
+import { Plus, Repeat } from "lucide-react";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { legLines, ModeIcon } from "~/components/RouteParts";
 import { Button } from "~/components/ui/button";
-import { TRANSPORT_MODES, type TransportMode } from "~/lib/constants";
+import { ROUTE_MODES, type RouteMode } from "~/lib/constants";
 import { localize } from "~/lib/content-lang";
 import { type MapOverlay, useMapOverlay, useMapPage } from "~/lib/map-page";
 import { formatDistance, formatDuration } from "~/lib/routes";
@@ -28,9 +28,9 @@ export const RoutesPanel = () => {
     () => (rawRoutes ?? []).map((r) => localize(r, translateTo)),
     [rawRoutes, translateTo],
   );
-  // Transport filter (`?mode=bike`): offered for the modes routes use.
+  // Walks or rides (`?mode=bike`), by each route's main mode.
   const { mode } = useSearch({ from: "/m/$slug" });
-  const setMode = (m: TransportMode | null) =>
+  const setMode = (m: RouteMode | null) =>
     navigate({
       to: ".",
       search: (prev: Record<string, unknown>) => ({
@@ -40,13 +40,25 @@ export const RoutesPanel = () => {
       replace: true,
       resetScroll: false,
     });
-  const modes = TRANSPORT_MODES.filter((m) =>
-    allRoutes.some((r) => r.stats.modes.includes(m)),
-  );
+  const { loop } = useSearch({ from: "/m/$slug" });
+  const setLoop = (on: boolean) =>
+    navigate({
+      to: ".",
+      search: (prev: Record<string, unknown>) => ({
+        ...prev,
+        loop: on || undefined,
+      }),
+      replace: true,
+      resetScroll: false,
+    });
+  const modes = ROUTE_MODES.filter((m) => allRoutes.some((r) => r.mode === m));
+  // Offered when the map has loops and other routes to tell them from.
+  const hasLoops =
+    allRoutes.some((r) => r.loop) && allRoutes.some((r) => !r.loop);
   const routes = useMemo(
     () =>
-      mode ? allRoutes.filter((r) => r.stats.modes.includes(mode)) : allRoutes,
-    [allRoutes, mode],
+      allRoutes.filter((r) => (!mode || r.mode === mode) && (!loop || r.loop)),
+    [allRoutes, mode, loop],
   );
 
   const overlay = useMemo<MapOverlay>(
@@ -103,10 +115,10 @@ export const RoutesPanel = () => {
           </Button>
         )}
       </div>
-      {modes.length > 1 && (
+      {(modes.length > 1 || hasLoops) && (
         <fieldset className="flex flex-wrap items-center gap-1.5 border-b p-4">
           <legend className="sr-only">{t("routes_filter_mode")}</legend>
-          {modes.map((m) => {
+          {(modes.length > 1 ? modes : []).map((m) => {
             const active = mode === m;
             return (
               <button
@@ -126,6 +138,22 @@ export const RoutesPanel = () => {
               </button>
             );
           })}
+          {hasLoops && (
+            <button
+              type="button"
+              aria-pressed={!!loop}
+              onClick={() => setLoop(!loop)}
+              className={cn(
+                "flex min-h-8 items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition",
+                loop
+                  ? "border-foreground bg-foreground text-background"
+                  : "hover:bg-muted",
+              )}
+            >
+              <Repeat className="size-3.5" />
+              {t("routes_filter_loop")}
+            </button>
+          )}
         </fieldset>
       )}
       <ul className="divide-y">
@@ -151,11 +179,13 @@ export const RoutesPanel = () => {
                   {r.title}
                 </h3>
                 <div className="flex flex-wrap items-center gap-x-2 text-xs text-muted-foreground">
-                  <span className="flex gap-0.5">
-                    {r.stats.modes.map((m) => (
-                      <ModeIcon key={m} mode={m} className="size-3.5" />
-                    ))}
-                  </span>
+                  <ModeIcon mode={r.mode} className="size-3.5" />
+                  {r.loop && (
+                    <span className="flex items-center gap-0.5">
+                      <Repeat className="size-3.5" />
+                      {t("route_loop")}
+                    </span>
+                  )}
                   {t("routes_stats", {
                     stops: r.stats.stops,
                     distance: formatDistance(r.stats.meters),

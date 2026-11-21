@@ -8,6 +8,8 @@ import type {
 // import.meta.url lookup breaks once Vite bundles the library.
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+import Supercluster from "supercluster";
 import type { AreaGeometry } from "~/lib/db/schema";
 import { cn } from "~/lib/utils";
 
@@ -65,6 +67,12 @@ interface MapViewProps {
   center: LngLat;
   zoom: number;
   markers: MapMarker[];
+  /**
+   * Group nearby place pins into counted clusters, regrouped as the zoom
+   * changes. Faded (filtered-out) pins are left out; the open or hovered
+   * place always shows on its own.
+   */
+  cluster?: boolean;
   activeId?: string | null;
   /** A place hovered in the list: drawn prominently with its name. */
   hoverId?: string | null;
@@ -145,6 +153,19 @@ const linesGeoJson = (lines: MapLine[]) => ({
   })),
 });
 
+/** A cluster's ring: each category's colour by its share of the places. */
+const clusterGradient = (colors: Record<string, number>, count: number) => {
+  let at = 0;
+  const stops = Object.entries(colors)
+    .sort(([, a], [, b]) => b - a)
+    .map(([c, n]) => {
+      const from = at;
+      at += (n / count) * 360;
+      return `${c} ${from}deg ${at}deg`;
+    });
+  return `conic-gradient(${stops.join(", ")})`;
+};
+
 /**
  * MapLibre map with HTML markers. maplibre-gl touches `window`, so it is
  * imported lazily inside an effect and the map only exists on the client.
@@ -153,6 +174,7 @@ export const MapView = ({
   center,
   zoom,
   markers,
+  cluster = false,
   activeId,
   hoverId = null,
   onMarkerClick,
@@ -472,6 +494,114 @@ export const MapView = ({
       halo.marker.remove();
     };
   }, [ready, highlightId, markers]);
+
+  // Clusters: nearby bright pins merge into a counted disc, coloured by the
+  // share of each category in it; tapping one zooms in until it splits.
+  const { t } = useTranslation();
+  const clusterLabel = useRef(t);
+  clusterLabel.current = t;
+  useEffect(() => {
+    const map = mapRef.current;
+    const lib = libRef.current;
+    if (!ready || !map || !lib || !cluster) return;
+    const entries = markersRef.current;
+    const index = new Supercluster<
+      { id: string; color: string },
+      { colors: Record<string, number> }
+    >({
+      radius: 56,
+      maxZoom: 17,
+      map: (p) => ({ colors: { [p.color]: 1 } }),
+      reduce: (acc, p) => {
+        for (const [c, n] of Object.entries(p.colors))
+          acc.colors[c] = (acc.colors[c] ?? 0) + n;
+      },
+    });
+    index.load(
+      markers
+        .filter((m) => !m.dimmed && m.id !== highlightId)
+        .map((m) => ({
+          type: "Feature" as const,
+          properties: { id: m.id, color: m.color },
+          geometry: { type: "Point" as const, coordinates: [m.lng, m.lat] },
+        })),
+    );
+    const discs = new Map<number, Marker>();
+    const update = () => {
+      const b = map.getBounds();
+      const padLng = (b.getEast() - b.getWest()) * 0.25;
+      const padLat = (b.getNorth() - b.getSouth()) * 0.25;
+      const features = index.getClusters(
+        [
+          Math.max(-180, b.getWest() - padLng),
+          Math.max(-85, b.getSouth() - padLat),
+          Math.min(180, b.getEast() + padLng),
+          Math.min(85, b.getNorth() + padLat),
+        ],
+        Math.floor(map.getZoom()),
+      );
+      const single = new Set<string>();
+      const seen = new Set<number>();
+      for (const f of features) {
+        if (!("cluster" in f.properties)) {
+          single.add(f.properties.id);
+          continue;
+        }
+        const { cluster_id: id, point_count: count, colors } = f.properties;
+        seen.add(id);
+        if (discs.has(id)) continue;
+        const [lng = 0, lat = 0] = f.geometry.coordinates;
+        const el = document.createElement("button");
+        el.type = "button";
+        el.className = "dc-cluster";
+        el.style.setProperty(
+          "--size",
+          `${Math.round(30 + Math.sqrt(count) * 3)}px`,
+        );
+        el.style.background = clusterGradient(colors, count);
+        el.innerHTML = "<span></span>";
+        const label = el.querySelector("span");
+        if (label) label.textContent = String(count);
+        const name = clusterLabel.current("cluster_count", { count });
+        el.title = name;
+        el.setAttribute("aria-label", name);
+        el.addEventListener("click", (ev) => {
+          ev.stopPropagation();
+          map.easeTo({
+            center: [lng, lat],
+            zoom: Math.min(index.getClusterExpansionZoom(id), 18),
+          });
+        });
+        discs.set(
+          id,
+          new lib.Marker({ element: el, anchor: "center" })
+            .setLngLat([lng, lat])
+            .addTo(map),
+        );
+      }
+      for (const [id, disc] of discs) {
+        if (seen.has(id)) continue;
+        disc.remove();
+        discs.delete(id);
+      }
+      for (const [id, { el }] of entries) {
+        el.dataset.clustered = String(!single.has(id) && id !== highlightId);
+      }
+    };
+    let frame = 0;
+    const onMove = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(update);
+    };
+    update();
+    map.on("move", onMove);
+    return () => {
+      cancelAnimationFrame(frame);
+      map.off("move", onMove);
+      for (const disc of discs.values()) disc.remove();
+      for (const { el } of entries.values()) el.dataset.clustered = "false";
+    };
+  }, [ready, cluster, markers, highlightId]);
 
   // Draft pin (proposing a new place / moving one).
   const draftPos = draft?.position ?? null;

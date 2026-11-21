@@ -73,14 +73,15 @@ export interface RouteStats extends LegStats {
 
 /** Totals for a route; time is moving time only (no lingering at stops). */
 export const routeStats = (
-  r: Pick<RouteDraft, "legs" | "stops">,
+  r: Pick<RouteDraft, "legs" | "stops"> & { loop?: boolean },
 ): RouteStats => {
   const legs = r.legs.map(legStats);
   return {
     meters: legs.reduce((s, l) => s + l.meters, 0),
     minutes: legs.reduce((s, l) => s + l.minutes, 0),
     modes: [...new Set(r.legs.map((l) => l.mode))],
-    stops: r.stops.length,
+    // A loop's finish is its start: count it once.
+    stops: r.loop ? Math.max(1, r.stops.length - 1) : r.stops.length,
   };
 };
 
@@ -105,7 +106,9 @@ export type RouteField =
   | "narration"
   | "legs"
   | "path"
-  | "photoIds";
+  | "photoIds"
+  | "mode"
+  | "loop";
 
 export interface RouteChange {
   field: RouteField;
@@ -203,6 +206,8 @@ export const diffRoutes = (
   after: RouteDraft,
 ): RouteChange[] => {
   const pairs: [RouteField, string, string][] = [
+    ["mode", before.mode, after.mode],
+    ["loop", String(before.loop), String(after.loop)],
     ["title", before.title, after.title],
     ["summary", before.summary, after.summary],
     ["body", before.body ?? "", after.body ?? ""],

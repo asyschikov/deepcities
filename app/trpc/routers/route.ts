@@ -25,6 +25,8 @@ export const routeRouter = router({
         ),
         columns: {
           id: true,
+          mode: true,
+          loop: true,
           title: true,
           summary: true,
           stops: true,
@@ -46,7 +48,7 @@ export const routeRouter = router({
           lng: s.lng,
         })),
         legs: legs.map((l) => ({ mode: l.mode, path: l.path })),
-        stats: routeStats({ legs, stops }),
+        stats: routeStats({ legs, stops, loop: r.loop }),
       }));
     }),
 

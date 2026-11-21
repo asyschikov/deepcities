@@ -7,7 +7,11 @@ import {
   pathLength,
   routeStats,
 } from "./routes";
-import { type RouteDraft, routeDraftSchema } from "./validation";
+import {
+  inferRouteLoop,
+  type RouteDraft,
+  routeDraftSchema,
+} from "./validation";
 
 const a = {
   placeId: "p1",
@@ -26,6 +30,8 @@ const b = {
   translations: {},
 };
 const route: RouteDraft = {
+  mode: "walk",
+  loop: false,
   title: "Test walk",
   summary: "A walk for the tests.",
   body: "",
@@ -76,6 +82,45 @@ describe("route geometry", () => {
     expect(formatDistance(2520)).toBe("2.5 km");
     expect(formatDuration(13.7)).toBe("14 min");
     expect(formatDuration(125)).toBe("2 h 5 min");
+  });
+});
+
+describe("route main mode", () => {
+  const { mode: _m, ...noMode } = route;
+  const ride = (legMode: "bike" | "ferry") => ({
+    ...noMode,
+    legs: [{ ...route.legs[0], mode: legMode }],
+  });
+  it("defaults to a ride when a leg is ridden, else a walk", () => {
+    expect(routeDraftSchema.parse(noMode).mode).toBe("walk");
+    expect(routeDraftSchema.parse(ride("bike")).mode).toBe("bike");
+    expect(routeDraftSchema.parse(ride("ferry")).mode).toBe("walk");
+  });
+  it("keeps an explicit mode and rejects other transport", () => {
+    expect(
+      routeDraftSchema.parse({ ...ride("ferry"), mode: "bike" }).mode,
+    ).toBe("bike");
+    expect(
+      routeDraftSchema.safeParse({ ...noMode, mode: "ferry" }).success,
+    ).toBe(false);
+  });
+});
+
+describe("inferRouteLoop", () => {
+  const c = { ...a, placeId: null, lat: a.lat + 0.0005 }; // ~55 m away
+  it("is a loop when the last stop is the first place or close to it", () => {
+    expect(inferRouteLoop([a, b, a])).toBe(true);
+    expect(inferRouteLoop([a, b, { ...a, placeId: null }])).toBe(true);
+    expect(inferRouteLoop([a, b, c])).toBe(true);
+  });
+  it("is not a loop otherwise", () => {
+    expect(inferRouteLoop([a, b])).toBe(false);
+    expect(inferRouteLoop([a, b, { ...c, lat: a.lat + 0.01 }])).toBe(false);
+  });
+  it("counts a loop's finish once", () => {
+    expect(routeStats({ ...route, stops: [a, b, a], loop: true }).stops).toBe(
+      2,
+    );
   });
 });
 

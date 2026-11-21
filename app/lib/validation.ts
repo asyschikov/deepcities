@@ -12,7 +12,10 @@ import {
   MAX_PHOTOS_PER_PLACE,
   MAX_STOPS_PER_ROUTE,
   MAX_VIA_PER_LEG,
+  ROUTE_MODES,
+  type RouteMode,
   TRANSPORT_MODES,
+  type TransportMode,
 } from "./constants";
 
 // ─── Translations ───────────────────────────────────────────────────
@@ -274,8 +277,34 @@ export const routeLegSchema = z.object({
 export type RouteLeg = z.infer<typeof routeLegSchema>;
 
 /** A complete proposed state of a route. */
+/** A route's main mode when none is given: a ride if any leg is ridden. */
+export const inferRouteMode = (legs: { mode: TransportMode }[]): RouteMode =>
+  legs.some((l) => l.mode === "bike") ? "bike" : "walk";
+
+/** Within this of the start, a route's last stop closes a loop. */
+export const LOOP_CLOSE_METERS = 150;
+
+/** Whether a route comes back to where it began: the last stop is the first. */
+export const inferRouteLoop = (
+  stops: { placeId: string | null; lat: number; lng: number }[],
+): boolean => {
+  const first = stops[0];
+  const last = stops.at(-1);
+  if (!first || !last || stops.length < 3) return false;
+  if (first.placeId !== null && first.placeId === last.placeId) return true;
+  // Equirectangular is plenty at this scale.
+  const k = 111_320;
+  const dy = (last.lat - first.lat) * k;
+  const dx = (last.lng - first.lng) * k * Math.cos((first.lat * Math.PI) / 180);
+  return Math.hypot(dx, dy) <= LOOP_CLOSE_METERS;
+};
+
 export const routeDraftSchema = z
   .object({
+    /** Walk or bike; inferred from the legs when left out. */
+    mode: z.enum(ROUTE_MODES).optional(),
+    /** Ends where it starts; inferred from the stops when left out. */
+    loop: z.boolean().optional(),
     title: z.string().trim().min(2).max(100),
     summary: z.string().trim().min(10).max(280),
     /** Intro (markdown). */
@@ -291,11 +320,24 @@ export const routeDraftSchema = z
   .refine((r) => r.legs.length === r.stops.length - 1, {
     message: "A route needs exactly one leg between each pair of stops",
     path: ["legs"],
-  });
+  })
+  .transform((r) => ({
+    ...r,
+    mode: r.mode ?? inferRouteMode(r.legs),
+    loop: r.loop ?? inferRouteLoop(r.stops),
+  }));
 export type RouteDraft = z.infer<typeof routeDraftSchema>;
 
 /** The draft-shaped subset of a stored route (for edits and diffs). */
-export const draftOfRoute = (r: RouteDraft): RouteDraft => ({
+export const draftOfRoute = (
+  r: Omit<RouteDraft, "mode" | "loop"> & {
+    mode?: RouteMode | null;
+    loop?: boolean | null;
+  },
+): RouteDraft => ({
+  // Drafts saved before routes had a main mode or loop flag lack them.
+  mode: r.mode ?? inferRouteMode(r.legs),
+  loop: r.loop ?? inferRouteLoop(r.stops),
   title: r.title,
   summary: r.summary,
   body: r.body ?? "",

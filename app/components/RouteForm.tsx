@@ -43,6 +43,8 @@ import {
   type ContentLang,
   MAX_STOPS_PER_ROUTE,
   MAX_VIA_PER_LEG,
+  ROUTE_MODES,
+  type RouteMode,
   SNAPPABLE_MODES,
   TRANSPORT_MODES,
   type TransportMode,
@@ -56,7 +58,9 @@ import {
   stopPoint,
   straightPath,
 } from "~/lib/routes";
+import { cn } from "~/lib/utils";
 import {
+  inferRouteLoop,
   type LngLatTuple,
   type RouteDraft,
   type RouteLeg,
@@ -205,6 +209,14 @@ export const RouteForm = ({
   const { view, places, focusOn, baseLang, translateTo } = useMapPage();
   const collectionId = view.collection.id;
 
+  // The route's main mode; new legs start with it.
+  const [mode, setMode] = useState<RouteMode>(initial?.mode ?? "walk");
+  // Loop: follows the stops (last = first) unless set by hand.
+  const [loopChoice, setLoopChoice] = useState<boolean | null>(() =>
+    initial && initial.loop !== inferRouteLoop(initial.stops)
+      ? initial.loop
+      : null,
+  );
   const [title, setTitle] = useState(initial?.title ?? "");
   const [summary, setSummary] = useState(initial?.summary ?? "");
   const [body, setBody] = useState(initial?.body ?? "");
@@ -275,12 +287,12 @@ export const RouteForm = ({
           orderedLegs
             .slice(0, orderedLegs.indexOf(m))
             .reverse()
-            .find((l) => l.leg)?.leg?.mode ?? "walk";
+            .find((l) => l.leg)?.leg?.mode ?? mode;
         next.set(m.key, newLeg(m.from, m.to, prevMode));
       }
       return next;
     });
-  }, [orderedLegs]);
+  }, [orderedLegs, mode]);
 
   const updateLeg = useCallback(
     (key: string, patch: Partial<EditorLeg>) =>
@@ -503,6 +515,8 @@ export const RouteForm = ({
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const parsed = routeDraftSchema.safeParse({
+      mode,
+      loop: loopChoice ?? undefined,
       title,
       summary,
       body,
@@ -515,7 +529,7 @@ export const RouteForm = ({
           error: _err,
           ...leg
         } = l.leg ?? {
-          ...newLeg(l.from, l.to, "walk"),
+          ...newLeg(l.from, l.to, mode),
         };
         return leg;
       }),
@@ -552,6 +566,49 @@ export const RouteForm = ({
   return (
     <form onSubmit={onSubmit} className="space-y-6" noValidate>
       <ContentLangTabs value={editLang} onChange={setEditLang} />
+      {!translating && (
+        <fieldset className="space-y-1.5">
+          <legend className="text-sm font-medium">
+            {t("route_form_mode")}
+          </legend>
+          <div className="flex gap-2">
+            {ROUTE_MODES.map((m) => (
+              <button
+                key={m}
+                type="button"
+                aria-pressed={mode === m}
+                onClick={() => setMode(m)}
+                className={cn(
+                  "flex min-h-9 items-center gap-1.5 rounded-md border px-3 text-sm transition",
+                  mode === m
+                    ? "border-foreground bg-foreground text-background"
+                    : "hover:bg-muted",
+                )}
+              >
+                <ModeIcon mode={m} className="size-4" />
+                {t(`mode_${m}`)}
+              </button>
+            ))}
+          </div>
+          <p className="text-xs text-muted-foreground">
+            {t("route_form_mode_help")}
+          </p>
+          <label className="flex items-start gap-2 pt-2 text-sm">
+            <input
+              type="checkbox"
+              className="mt-1"
+              checked={loopChoice ?? inferRouteLoop(stops)}
+              onChange={(e) => setLoopChoice(e.target.checked)}
+            />
+            <span>
+              {t("route_form_loop")}
+              <span className="block text-xs text-muted-foreground">
+                {t("route_form_loop_help")}
+              </span>
+            </span>
+          </label>
+        </fieldset>
+      )}
       <div className="space-y-3">
         <div className="space-y-1.5">
           <Label htmlFor="route-title">{t("form_title")}</Label>

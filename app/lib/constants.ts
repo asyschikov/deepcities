@@ -37,6 +37,13 @@ export const TRANSPORT_MODES = [
   "train",
 ] as const;
 export type TransportMode = (typeof TRANSPORT_MODES)[number];
+/**
+ * A route's main mode: what it is (a walk or a ride). Its legs may still use
+ * other transport (a ferry across the IJ, a tram back).
+ */
+export const ROUTE_MODES = ["walk", "bike"] as const;
+export type RouteMode = (typeof ROUTE_MODES)[number];
+
 /** Modes the street router can snap to (OSM foot/bike profiles). */
 export const SNAPPABLE_MODES: readonly TransportMode[] = ["walk", "bike"];
 /** Rough average speeds (km/h) for time estimates, incl. waiting for transit. */

@@ -140,12 +140,14 @@ const SCHEMA = {
       "optional boolean. Fields can't be deleted (the server rejects a list missing an existing key); set hidden: true to retire one, its values are kept",
   },
   route: {
+    mode: '"walk" or "bike": the route\'s main mode — what it is, shown and filtered on. Defaults to "bike" if any leg is ridden, else "walk". Legs may still use other transport (a ferry crossing)',
+    loop: "true if the route ends where it starts. Defaults to true when the last stop is the first place (or within 150 m of it); a loop's finish is counted once and the map can filter on it",
     title: "string, 2–100 chars (required)",
     summary: "string, 10–280 chars (required)",
     body: "markdown intro, ≤10000 chars",
     stops:
       'array of 2–30, in order. Each is a place on the map: {"place": "<placeId or exact title>", "narration": "markdown, what to look at here"}, or (discouraged; prefer adding a place) an ad-hoc point: {"name", "lat", "lng", "narration"}',
-    legs: 'optional array, one per gap between stops (missing ones default to {"mode":"walk"}): {"mode": "walk|bike|tram|bus|metro|ferry|train", "directions": "how to get to the next stop", "via": [[lng, lat] | {"lat","lng"}, …] waypoints the path must pass, "snap": true to follow streets (default for walk/bike)}. Paths are computed by the CLI (street router for snapped walk/bike legs, straight lines otherwise); pass "path": [[lng,lat],…] to set one explicitly',
+    legs: 'optional array, one per gap between stops (missing ones default to the route\'s mode): {"mode": "walk|bike|tram|bus|metro|ferry|train", "directions": "how to get to the next stop", "via": [[lng, lat] | {"lat","lng"}, …] waypoints the path must pass, "snap": true to follow streets (default for walk/bike)}. Paths are computed by the CLI (street router for snapped walk/bike legs, straight lines otherwise); pass "path": [[lng,lat],…] to set one explicitly',
     photos: "as for places",
     photoIds: "array ≤8 of photo ids",
     translations:
@@ -801,6 +803,8 @@ const buildLegs = async (
   stops: Stop[],
   rawLegs: unknown,
   previous: { stops: Stop[]; legs: Leg[] } | null,
+  /** The route's main mode: what legs without a mode use. */
+  routeMode = "walk",
 ): Promise<{ legs: Leg[]; warnings: string[] }> => {
   if (rawLegs !== undefined && !Array.isArray(rawLegs))
     throw new CliError('"legs" must be an array', "BAD_JSON");
@@ -826,7 +830,7 @@ const buildLegs = async (
     const to = stops[i + 1] as Stop;
     const old = prevByPair.get(`${stopIdentity(from)}>${stopIdentity(to)}`);
     const g = given[i];
-    const mode = String(g?.mode ?? old?.mode ?? "walk");
+    const mode = String(g?.mode ?? old?.mode ?? routeMode);
     if (!MODES.includes(mode))
       throw new CliError(
         `legs[${i}].mode must be one of ${MODES.join(", ")}`,
@@ -879,6 +883,8 @@ const buildLegs = async (
 };
 
 const ROUTE_KEYS = [
+  "mode",
+  "loop",
   "title",
   "summary",
   "body",
@@ -888,6 +894,21 @@ const ROUTE_KEYS = [
   "photoIds",
   "translations",
 ] as const;
+/** A route's main mode from CLI input: "walk" or "bike" (else undefined). */
+const routeModeOf = (v: unknown): "walk" | "bike" | undefined => {
+  if (v === undefined || v === null) return undefined;
+  if (v === "walk" || v === "bike") return v;
+  throw new CliError(
+    `"mode" must be "walk" or "bike" (the route's main mode), not ${JSON.stringify(v)}`,
+    "BAD_JSON",
+  );
+};
+/** The route's loop flag from CLI input (left out → inferred). */
+const loopOf = (v: unknown): { loop?: boolean } => {
+  if (v === undefined || v === null) return {};
+  if (typeof v === "boolean") return { loop: v };
+  throw new CliError('"loop" must be true or false', "BAD_JSON");
+};
 const unknownRouteKeys = (o: Obj) =>
   Object.keys(o).filter((k) => !(ROUTE_KEYS as readonly string[]).includes(k));
 
@@ -1278,17 +1299,22 @@ const commands: Record<
       throw new CliError(`Unknown route fields: ${bad.join(", ")}`, "BAD_JSON");
     const { collection } = await collectionOf(need(slug, "<slug>"));
     const stops = resolveStops(input.stops, await placesOf(collection.id));
+    const mode = routeModeOf(input.mode);
     const { legs, warnings } = await buildLegs(
       collection.id,
       stops,
       input.legs,
       null,
+      mode ?? "walk",
     );
     const added = await uploadDraftPhotos(collection.id, input.photos);
     const res = await mutate("proposal.createRoute", {
       kind: "create",
       collectionId: collection.id,
       draft: {
+        // Left out: the server infers it from the legs.
+        ...(mode ? { mode } : {}),
+        ...loopOf(input.loop),
         title: input.title,
         summary: input.summary,
         body: input.body ?? "",
@@ -1324,17 +1350,24 @@ const commands: Record<
       patch.stops === undefined
         ? current.stops
         : resolveStops(patch.stops, await placesOf(current.collectionId));
+    const mode = routeModeOf(patch.mode) ?? routeModeOf(current.mode);
     const { legs, warnings } = await buildLegs(
       current.collectionId,
       stops,
       patch.legs,
       { stops: current.stops, legs: current.legs },
+      mode ?? "walk",
     );
     const added = await uploadDraftPhotos(current.collectionId, patch.photos);
     const res = await mutate("proposal.createRoute", {
       kind: "edit",
       routeId,
       draft: {
+        ...(mode ? { mode } : {}),
+        // Kept unless given; new stops re-infer it.
+        ...loopOf(
+          patch.loop ?? (patch.stops === undefined ? current.loop : undefined),
+        ),
         title: patch.title ?? current.title,
         summary: patch.summary ?? current.summary,
         body: patch.body ?? current.body,
