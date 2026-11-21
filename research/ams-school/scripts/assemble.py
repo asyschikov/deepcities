@@ -19,6 +19,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PLACES = os.path.join(HERE, "..", "places")
 
 
+def strip_text(v):
+    """Trim strings (YAML block scalars end with a newline; the server trims)."""
+    if isinstance(v, str):
+        return v.strip()
+    if isinstance(v, list):
+        return [strip_text(x) for x in v]
+    if isinstance(v, dict):
+        return {k: strip_text(x) for k, x in v.items()}
+    return v
+
+
 def dist(a, b):
     dy = (a["lat"] - b["lat"]) * 111320
     dx = (a["lng"] - b["lng"]) * 111320 * math.cos(math.radians(a["lat"]))
@@ -60,7 +71,7 @@ def main():
     for p in out:
         p.pop("_slice")
     warn(f"{len(out)} places;", dict(collections.Counter(p["category"] for p in out)))
-    json.dump(out, sys.stdout, ensure_ascii=False, indent=1)
+    json.dump(strip_text(out), sys.stdout, ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":

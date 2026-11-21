@@ -51,7 +51,7 @@ The neighbouring architects had to fit in around De Klerk. Next to the first blo
 
 In 1920 the socialist housing association De Dageraad (The Dawn) commissioned De Klerk and Piet Kramer to design 294 homes in Berlage's Plan Zuid, the city's southern extension. In [De Dageraad](place:De Dageraad), De Klerk is credited with the façades around the two small squares and Kramer with much of the street walls. The register calls it the Amsterdam School "in its most lively, irrational phase". De Klerk saw the first homes completed shortly before he died.
 
-Around the same time he designed the calmer [north side of the Vrijheidslaan](place:Vrijheidslaan north side (De Klerk)) (1921–1922), where long, flat brick walls already point to the more sober phase of the style. According to the Dutch Wikipedia article, the size and politics of Plan Zuid limited his freedom, and he turned increasingly to private clients. In 1923 he received the commission for the De Bijenkorf department store in The Hague.
+Around the same time he designed the calmer [north side of the Vrijheidslaan](place:Vrijheidslaan north side (De Klerk)) (1921–1922), where long, flat brick walls already point to the more restrained phase of the style. According to the Dutch Wikipedia article, the size and politics of Plan Zuid limited his freedom, and he turned increasingly to private clients. In 1923 he received the commission for the De Bijenkorf department store in The Hague.
 
 ![De Dageraad in Plan Zuid](commons:File:Amsterdam De Dageraad 006.JPG)
 

@@ -58,8 +58,8 @@ fields:
   - key: style_phase
     label: Phase
     type: select
-    options: [Precursor, Expressive, Sober, Late]
-    help: Precursor (before c. 1915), expressive peak (c. 1915–1923), sober "verstrakte" phase (c. 1923–1940), late/post-war echo.
+    options: [Precursor, Expressive, Restrained, Late]
+    help: Precursor (before c. 1915); Expressive, the peak (c. 1915–1923); Restrained, the plainer "verstrakte" phase (c. 1923–1940); Late, 1930s and post-war echoes.
   - key: original_use
     label: Original use
     type: text
@@ -125,7 +125,7 @@ translations:
         options:
           Precursor: Voorloper
           Expressive: Expressief
-          Sober: Verstrakt
+          Restrained: Verstrakt
           Late: Laat
       original_use:
         label: Oorspronkelijke functie

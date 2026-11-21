@@ -13,7 +13,7 @@ map owner may overrule any of them.
 ## Inclusion calls
 Kept, with the reason written in the place text:
 - Telegraaf building (Late)
-- Olympic Stadium (Sober)
+- Olympic Stadium (Restrained)
 - Lloyd Hotel (no phase)
 - Citroen jeweller's at Kalverstraat 1 (Wijdeveld, Precursor)
 - De Nederlanden (Ouëndag, Precursor)

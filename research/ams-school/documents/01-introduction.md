@@ -62,7 +62,7 @@ Each place on this map has a *phase*, a rough label, not a strict rule:
 
 - **Precursor** (before about 1915): Berlage's rationalism and the first experiments, such as the [Hillehuis](place:) and De Klerk's [first block](place:Spaarndammerplantsoen, De Klerk's first block) on the Spaarndammerplantsoen.
 - **Expressive** (about 1915–1923): the peak. It brought undulating walls, fantastic towers and lavish sculpture: [Het Schip](place:) and [De Dageraad](place:), which the national register describes as the style "in its most lively, irrational phase".
-- **Sober** (about 1923–1940): the *verstrakte* ("tightened") phase, with flatter walls, cubic volumes and less sculpture. Examples are the Plan West blocks and, at the far end, the [Heineken cold store](place:Heineken brewery cold store (Heineken Experience)) of 1933–1934.
+- **Restrained** (about 1923–1940): the *verstrakte* ("tightened") phase, with flatter walls, cubic volumes and less sculpture. Examples are the Plan West blocks and, at the far end, the [Heineken cold store](place:Heineken brewery cold store (Heineken Experience)) of 1933–1934.
 - **Late**: 1930s works that mix the style with the Nieuwe Bouwen or Frank Lloyd Wright, such as Staal's [Wolkenkrabber](place:12-verdiepingenhuis (De Wolkenkrabber)), plus post-war echoes such as Kramer's [Brug 604](place:) of 1953–1955.
 
 The national register uses its own numbering. It places Het Schip in the "second phase" and De Klerk's [Vrijheidslaan blocks](place:Vrijheidslaan north side (De Klerk)) at the transition to the "third".

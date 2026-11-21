@@ -665,10 +665,21 @@ const editPlace = async (placeId: string, patch: Obj, note: string | null) => {
     ],
   };
   const before = { ...EMPTY_DRAFT, ...pickDraft(current.place) };
-  if (stableJson(before) === stableJson(draft))
+  // The server trims text, so a file's trailing newline isn't a change.
+  if (stableJson(trimmed(before)) === stableJson(trimmed(draft)))
     return { status: "unchanged", placeId };
   return mutate("proposal.create", { kind: "edit", placeId, draft, note });
 };
+
+/** `v` with every string trimmed, for comparing drafts as the server stores them. */
+const trimmed = (v: unknown): unknown =>
+  typeof v === "string"
+    ? v.trim()
+    : Array.isArray(v)
+      ? v.map(trimmed)
+      : v && typeof v === "object"
+        ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, trimmed(x)]))
+        : v;
 
 const pickDraft = (o: Obj): Obj =>
   Object.fromEntries(
