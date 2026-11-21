@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { bboxOf, containsPoint, labelPoint, simplifyGeometry } from "./areas";
+import {
+  areaColor,
+  bboxOf,
+  containsPoint,
+  labelPoint,
+  simplifyGeometry,
+} from "./areas";
 import type { AreaGeometry } from "./db/schema";
 
 const square: AreaGeometry = {
@@ -85,5 +91,15 @@ describe("areas", () => {
       ],
     };
     expect(containsPoint(l, labelPoint(l))).toBe(true);
+  });
+
+  it("gives an area the same colour every time, and varies across areas", () => {
+    expect(areaColor("borough", "E")).toBe(areaColor("borough", "E"));
+    const colours = new Set(
+      ["A", "B", "E", "F", "K", "M", "N", "T"].map((c) =>
+        areaColor("borough", c),
+      ),
+    );
+    expect(colours.size).toBeGreaterThan(3);
   });
 });

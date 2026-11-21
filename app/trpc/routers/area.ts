@@ -53,7 +53,13 @@ export const areaRouter = router({
     )
     .query(({ ctx, input }) =>
       ctx.db
-        .select({ id: area.id, name: area.name, geometry: area.geometry })
+        .select({
+          id: area.id,
+          level: area.level,
+          code: area.code,
+          name: area.name,
+          geometry: area.geometry,
+        })
         .from(area)
         .where(
           and(

@@ -183,6 +183,32 @@ export const labelPoint = (g: AreaGeometry, steps = 16): Pt => {
   return best?.p ?? innerPoint(shape);
 };
 
+/** Dark enough to read as text on the light base map. */
+const AREA_PALETTE = [
+  "#b91c1c",
+  "#c2410c",
+  "#a16207",
+  "#4d7c0f",
+  "#047857",
+  "#0e7490",
+  "#1d4ed8",
+  "#6d28d9",
+  "#a21caf",
+  "#be185d",
+] as const;
+
+/**
+ * An area's colour: picked from the palette by a hash of its level and
+ * official code, so it is the same on every load, map and re-import.
+ */
+export const areaColor = (level: string, code: string): string => {
+  const hash = [...`${level}:${code}`].reduce(
+    (h, ch) => (Math.imul(h, 31) + (ch.codePointAt(0) ?? 0)) >>> 0,
+    2166136261,
+  );
+  return AREA_PALETTE[hash % AREA_PALETTE.length] ?? AREA_PALETTE[0];
+};
+
 /** Rings as lines, for drawing outlines on the map. */
 export const outlineRings = (g: AreaGeometry): Pt[][] => polygonsOf(g).flat();
 

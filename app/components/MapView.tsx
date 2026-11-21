@@ -78,19 +78,19 @@ interface MapViewProps {
 export interface MapArea {
   id: string;
   name: string;
+  color: string;
   geometry: AreaGeometry;
   label: [number, number];
 }
 
 const AREAS_SOURCE = "dc-areas";
 const AREA_LABELS_SOURCE = "dc-area-labels";
-const AREA_COLOR = "#9a3412";
 const areasGeoJson = (areas: MapArea[]) => ({
   type: "FeatureCollection" as const,
   features: areas.map((a) => ({
     type: "Feature" as const,
     id: a.id,
-    properties: { name: a.name },
+    properties: { name: a.name, color: a.color },
     geometry: a.geometry,
   })),
 });
@@ -99,7 +99,7 @@ const areaLabelsGeoJson = (areas: MapArea[]) => ({
   features: areas.map((a) => ({
     type: "Feature" as const,
     id: a.id,
-    properties: { name: a.name },
+    properties: { name: a.name, color: a.color },
     geometry: { type: "Point" as const, coordinates: a.label },
   })),
 });
@@ -205,7 +205,7 @@ export const MapView = ({
           id: "dc-areas-fill",
           type: "fill",
           source: AREAS_SOURCE,
-          paint: { "fill-color": AREA_COLOR, "fill-opacity": 0.035 },
+          paint: { "fill-color": ["get", "color"], "fill-opacity": 0.07 },
         });
         map.addLayer({
           id: "dc-areas-line",
@@ -213,7 +213,7 @@ export const MapView = ({
           source: AREAS_SOURCE,
           layout: { "line-join": "round" },
           paint: {
-            "line-color": AREA_COLOR,
+            "line-color": ["get", "color"],
             "line-width": ["interpolate", ["linear"], ["zoom"], 10, 1, 15, 2.5],
             "line-opacity": 0.75,
           },
@@ -231,7 +231,7 @@ export const MapView = ({
             "text-letter-spacing": 0.02,
           },
           paint: {
-            "text-color": AREA_COLOR,
+            "text-color": ["get", "color"],
             "text-halo-color": "rgba(255,255,255,0.95)",
             "text-halo-width": 2,
           },

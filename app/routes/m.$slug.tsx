@@ -14,7 +14,7 @@ import { z } from "zod/v4";
 import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
 import { type LngLat, type MapArea, MapView } from "~/components/MapView";
-import { labelPoint } from "~/lib/areas";
+import { areaColor, labelPoint } from "~/lib/areas";
 import { AREA_LEVELS, type AreaLevel, type ContentLang } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
 import {
@@ -149,6 +149,7 @@ const MapLayout = () => {
                   {
                     id: a.id,
                     name: a.name,
+                    color: areaColor(a.level, a.code),
                     geometry: a.geometry,
                     label: labelPoint(a.geometry),
                   },
