@@ -116,8 +116,8 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   routes and documents below (`/amsterdam/sights/p/<id>`). The city segment is derived
   from `collection.city` (`citySlug`, `app/lib/cities.ts`); `/<city>` lists that city's
   maps and `/` redirects to `/amsterdam` while there is one city. Map slugs are still
-  unique site-wide. Old `/m/<slug>/…` links redirect, and slugs listed in `LEGACY_MAP_SLUGS`
-  (empty for now) keep resolving after a rename.
+  unique site-wide. There are no old-address redirects or slug aliases: renaming a
+  map changes its address outright (fine while the site is unpublished).
 
 - **State lives in the URL.** Anything a reader can see or choose on a map page is a
   search param (`app/lib/map-search.ts`): language, boundaries, pin grouping, tab,
@@ -253,10 +253,14 @@ environment can be added later as `env.alpha`.
 pnpm ship        # build → apply D1 migrations (remote) → wrangler deploy
 ```
 
-Live: https://deepcities.org (Cloudflare Registrar; the Worker serves it and
-www.deepcities.org as custom domains). The old https://deep-cities.bookverse-app.workers.dev
-and www redirect there (301), except `/api/` and `/media/`, so older CLI configs keep
-working (`app/lib/redirects.server.ts`).
+Live: https://deepcities.org, the only address (Cloudflare Registrar; the Worker
+serves it and www.deepcities.org as custom domains, and www redirects to it,
+`app/lib/redirects.server.ts`). There is no workers.dev address (`workers_dev: false`);
+the CLI and API use https://deepcities.org too.
+
+Stored data has every field: when a field is added, a migration fills it in for
+existing rows and drafts (e.g. `0012_complete_drafts.sql`) rather than code defaulting
+it when reading.
 
 Email: sign-in links are sent from `hello@deepcities.org` through Cloudflare Email
 Service (deepcities.org is onboarded under Email Sending, which added its SPF/DKIM/DMARC

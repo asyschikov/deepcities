@@ -2,7 +2,7 @@ import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
 import { and, count, eq } from "drizzle-orm";
 import { z } from "zod/v4";
-import { citySlug, LEGACY_MAP_SLUGS } from "~/lib/cities";
+import { citySlug } from "~/lib/cities";
 import { CONTRIBUTION_POLICIES, MEMBER_ROLES } from "~/lib/constants";
 import {
   collection,
@@ -83,9 +83,8 @@ export const collectionRouter = router({
       }),
     )
     .query(async ({ ctx, input }) => {
-      const slug = LEGACY_MAP_SLUGS[input.slug] ?? input.slug;
       const found = await ctx.db.query.collection.findFirst({
-        where: eq(collection.slug, slug),
+        where: eq(collection.slug, input.slug),
         columns: { id: true, city: true },
       });
       if (!found || (input.city && citySlug(found.city) !== input.city))

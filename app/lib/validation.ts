@@ -179,7 +179,7 @@ export const linkSchema = z.object({
   url: z.url({ protocol: /^https?$/ }).max(500),
 });
 
-/** Optional admin-area name; older drafts lack it, so it defaults to null. */
+/** Optional admin-area name (null when unknown). */
 const areaName = z.string().trim().min(1).max(80).nullable().default(null);
 
 /** A complete proposed state of a place. Every proposal stores one. */
@@ -329,23 +329,16 @@ export const routeDraftSchema = z
 export type RouteDraft = z.infer<typeof routeDraftSchema>;
 
 /** The draft-shaped subset of a stored route (for edits and diffs). */
-export const draftOfRoute = (
-  r: Omit<RouteDraft, "mode" | "loop"> & {
-    mode?: RouteMode | null;
-    loop?: boolean | null;
-  },
-): RouteDraft => ({
-  // Drafts saved before routes had a main mode or loop flag lack them.
-  mode: r.mode ?? inferRouteMode(r.legs),
-  loop: r.loop ?? inferRouteLoop(r.stops),
+export const draftOfRoute = (r: RouteDraft): RouteDraft => ({
+  mode: r.mode,
+  loop: r.loop,
   title: r.title,
   summary: r.summary,
-  body: r.body ?? "",
-  photoIds: r.photoIds ?? [],
-  translations: r.translations ?? {},
-  // Stops and legs stored before translations existed lack the key.
-  stops: r.stops.map((s) => ({ ...s, translations: s.translations ?? {} })),
-  legs: r.legs.map((l) => ({ ...l, translations: l.translations ?? {} })),
+  body: r.body,
+  photoIds: r.photoIds,
+  translations: r.translations,
+  stops: r.stops,
+  legs: r.legs,
 });
 
 // ─── Documents ──────────────────────────────────────────────────────

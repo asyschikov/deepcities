@@ -18,7 +18,6 @@ import {
 } from "~/lib/routes";
 import { photoUrl } from "~/lib/utils";
 import type { RouteDraft } from "~/lib/validation";
-import { draftOfRoute } from "~/lib/validation";
 
 const RouteMap = ({
   draft,
@@ -65,15 +64,13 @@ const RouteMap = ({
 /** A new route as the reviewer sees it. */
 const RoutePreview = ({ draft }: { draft: RouteDraft }) => {
   const { t } = useTranslation();
-  // Drafts saved before routes had a main mode or loop flag lack them.
-  const full = draftOfRoute(draft);
-  const stats = routeStats(full);
+  const stats = routeStats(draft);
   return (
     <div className="space-y-2 text-sm">
       <div className="font-semibold">{draft.title}</div>
       <div className="flex items-center gap-2 text-xs text-muted-foreground">
-        <ModeIcon mode={full.mode} className="size-3.5" />
-        {full.loop && <Repeat className="size-3.5" />}
+        <ModeIcon mode={draft.mode} className="size-3.5" />
+        {draft.loop && <Repeat className="size-3.5" />}
         {t("routes_stats", {
           stops: stats.stops,
           distance: formatDistance(stats.meters),

@@ -92,7 +92,7 @@ export default {
   ): Promise<Response> {
     const { pathname } = new URL(request.url);
 
-    const redirect = await redirectFor(request, env);
+    const redirect = redirectFor(request, env);
     if (redirect) return redirect;
 
     if (pathname === "/auth/verify") return handleVerify(request, env);
