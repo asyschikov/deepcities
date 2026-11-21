@@ -96,11 +96,11 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `municipality` → `borough` → `neighbourhood` → `subNeighbourhood` (Amsterdam:
   gemeente → stadsdeel → gebied → wijk; a few wijken outside any gebied hang straight
   under their stadsdeel). Reference data, not proposals: super admins replace it with
-  `pnpm dc areas-import`. Geometry is simplified (~2 m) on import. Places are **not**
-  linked to areas: the map computes membership with point-in-polygon
-  (`app/lib/areas.ts`), so the area picker filters places, outlines the chosen area and
-  its sub-areas, and zooms to it. The place `borough`/`neighbourhood` text fields are
-  separate and unchanged.
+  `pnpm dc areas-import`. Geometry is simplified (~2 m) on import. On the map, the
+  "boundaries" dropdown (`?areas=<level>`, kept across the map's pages) draws every
+  area of one level with its name (`area.layer`; names placed by `labelPoint` and kept
+  from overlapping by MapLibre). Display only: places are not linked to or filtered by
+  areas, and the place `borough`/`neighbourhood` text fields are separate.
 
 ## Roles
 

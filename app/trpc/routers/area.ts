@@ -1,10 +1,10 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
-import { and, eq, inArray, notInArray, sql } from "drizzle-orm";
+import { and, eq, inArray, isNotNull, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { areaImportSchema, bboxOf, simplifyGeometry } from "~/lib/areas";
+import { AREA_LEVELS } from "~/lib/constants";
 import { area } from "~/lib/db/schema";
-import { idSchema } from "~/lib/validation";
 import { publicProcedure, router, superAdminProcedure } from "../init";
 
 const sameCity = (city: string) =>
@@ -32,16 +32,36 @@ export const areaRouter = router({
         .orderBy(area.name),
     ),
 
-  /** Boundaries of some areas (for outlines and filtering places). */
-  shapes: publicProcedure
-    .input(z.object({ ids: z.array(idSchema).max(200) }))
+  /** Which levels a city has areas for (to offer them as map layers). */
+  levels: publicProcedure
+    .input(z.object({ city: z.string().trim().min(1).max(80) }))
+    .query(async ({ ctx, input }) => {
+      const rows = await ctx.db
+        .selectDistinct({ level: area.level })
+        .from(area)
+        .where(and(sameCity(input.city), isNotNull(area.geometry)));
+      return AREA_LEVELS.filter((l) => rows.some((r) => r.level === l));
+    }),
+
+  /** Every area of one level with its boundary, for drawing on the map. */
+  layer: publicProcedure
+    .input(
+      z.object({
+        city: z.string().trim().min(1).max(80),
+        level: z.enum(AREA_LEVELS),
+      }),
+    )
     .query(({ ctx, input }) =>
-      input.ids.length === 0
-        ? []
-        : ctx.db
-            .select({ id: area.id, geometry: area.geometry })
-            .from(area)
-            .where(inArray(area.id, input.ids)),
+      ctx.db
+        .select({ id: area.id, name: area.name, geometry: area.geometry })
+        .from(area)
+        .where(
+          and(
+            sameCity(input.city),
+            eq(area.level, input.level),
+            isNotNull(area.geometry),
+          ),
+        ),
     ),
 
   /**

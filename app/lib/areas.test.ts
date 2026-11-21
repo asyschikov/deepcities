@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { bboxOf, containsPoint, simplifyGeometry } from "./areas";
+import { bboxOf, containsPoint, labelPoint, simplifyGeometry } from "./areas";
 import type { AreaGeometry } from "./db/schema";
 
 const square: AreaGeometry = {
@@ -65,5 +65,25 @@ describe("areas", () => {
     const s = simplifyGeometry(g);
     expect(s.type === "Polygon" && s.coordinates[0]?.length).toBe(5);
     expect(containsPoint(s, [9, 9])).toBe(true);
+  });
+
+  it("puts the label inside, away from holes", () => {
+    const p = labelPoint(square);
+    expect(containsPoint(square, p)).toBe(true);
+    const l: AreaGeometry = {
+      type: "Polygon",
+      coordinates: [
+        [
+          [0, 0],
+          [10, 0],
+          [10, 2],
+          [2, 2],
+          [2, 10],
+          [0, 10],
+          [0, 0],
+        ],
+      ],
+    };
+    expect(containsPoint(l, labelPoint(l))).toBe(true);
   });
 });

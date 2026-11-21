@@ -9,7 +9,6 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { AreaPicker } from "~/components/AreaPicker";
 import { DocumentList } from "~/components/DocumentList";
 import { RatingBadge } from "~/components/RatingStars";
 import { RoleBadge } from "~/components/RoleBadge";
@@ -175,7 +174,6 @@ const MapIndex = () => {
                 aria-label={t("map_search")}
               />
             </div>
-            <AreaPicker />
             <div className="flex flex-wrap gap-1.5">
               {collection.categories.map((c) => {
                 const active = category === c.key;

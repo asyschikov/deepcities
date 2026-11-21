@@ -11,12 +11,12 @@ import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
 import { useCallback, useMemo, useState } from "react";
 import { z } from "zod/v4";
+import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
-import { type LngLat, type MapLine, MapView } from "~/components/MapView";
-import { containsPoint, outlineRings } from "~/lib/areas";
-import type { ContentLang } from "~/lib/constants";
+import { type LngLat, type MapArea, MapView } from "~/components/MapView";
+import { labelPoint } from "~/lib/areas";
+import { AREA_LEVELS, type AreaLevel, type ContentLang } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
-import type { AreaGeometry } from "~/lib/db/schema";
 import {
   type MapOverlay,
   MapPageContext,
@@ -112,36 +112,51 @@ const MapLayout = () => {
   const [tab, setTab] = useState<SidebarTab>("places");
   const [hoverPlaceId, setHoverPlaceId] = useState<string | null>(null);
 
-  // Official areas of the map's city: the selected one filters places and is
-  // outlined with its sub-areas.
-  const [areaId, setAreaId] = useState<string | null>(null);
-  const { data: areas = [] } = useQuery(
-    trpc.area.tree.queryOptions({ city: rawView.collection.city }),
+  // Official area boundaries (`?areas=borough`): a display layer only.
+  const { data: areaLevels = [] } = useQuery(
+    trpc.area.levels.queryOptions({ city: rawView.collection.city }),
   );
-  const area = areas.find((a) => a.id === areaId) ?? null;
-  const rootId = areas.find((a) => a.parentId === null)?.id ?? null;
-  const children = useMemo(
-    () => areas.filter((a) => a.parentId === (area?.id ?? rootId)),
-    [areas, area?.id, rootId],
+  const areaLevel =
+    urlSearch.areas && areaLevels.includes(urlSearch.areas)
+      ? urlSearch.areas
+      : null;
+  const setAreaLevel = useCallback(
+    (level: AreaLevel | null) =>
+      navigate({
+        to: ".",
+        search: (prev: Record<string, unknown>) => ({
+          ...prev,
+          areas: level ?? undefined,
+        }),
+        replace: true,
+      }),
+    [navigate],
   );
-  const shapeIds = useMemo(
-    () => [...(area ? [area.id] : []), ...children.map((c) => c.id)],
-    [area, children],
-  );
-  const { data: shapes = [] } = useQuery({
-    ...trpc.area.shapes.queryOptions({ ids: shapeIds }),
-    enabled: shapeIds.length > 0,
+  const { data: areaLayer } = useQuery({
+    ...trpc.area.layer.queryOptions({
+      city: rawView.collection.city,
+      level: areaLevel ?? "borough",
+    }),
+    enabled: areaLevel !== null,
     staleTime: Number.POSITIVE_INFINITY,
   });
-  const shapeById = useMemo(
-    () => new Map(shapes.map((s) => [s.id, s.geometry])),
-    [shapes],
-  );
-  const areaShape = area ? shapeById.get(area.id) : undefined;
-  const inShape = useCallback(
-    (g: AreaGeometry | null | undefined, p: { lat: number; lng: number }) =>
-      !g || containsPoint(g, [p.lng, p.lat]),
-    [],
+  const mapAreas = useMemo<MapArea[]>(
+    () =>
+      areaLevel && areaLayer
+        ? areaLayer.flatMap((a) =>
+            a.geometry
+              ? [
+                  {
+                    id: a.id,
+                    name: a.name,
+                    geometry: a.geometry,
+                    label: labelPoint(a.geometry),
+                  },
+                ]
+              : [],
+          )
+        : [],
+    [areaLevel, areaLayer],
   );
 
   const categoryOf = useCallback(
@@ -165,55 +180,9 @@ const MapLayout = () => {
         Object.entries(fieldFilters).every(
           ([key, value]) => p.attributes?.[key] === value,
         ) &&
-        (!q || matches(p) || matches(rawPlaces[i] ?? p)) &&
-        inShape(areaShape, p),
+        (!q || matches(p) || matches(rawPlaces[i] ?? p)),
     );
-  }, [places, rawPlaces, category, fieldFilters, search, areaShape, inShape]);
-
-  const subAreas = useMemo(
-    () =>
-      children.map((c) => {
-        const g = shapeById.get(c.id);
-        return {
-          ...c,
-          count: g
-            ? places.filter((p) => inShape(areaShape, p) && inShape(g, p))
-                .length
-            : 0,
-        };
-      }),
-    [children, shapeById, places, areaShape, inShape],
-  );
-
-  // Outlines: the selected area bold, its sub-areas thin.
-  const areaLines = useMemo<MapLine[]>(() => {
-    if (!area) return [];
-    const ring = (id: string, style: Omit<MapLine, "id" | "coords">) =>
-      outlineRings(
-        shapeById.get(id) ?? { type: "Polygon", coordinates: [] },
-      ).map((coords, i) => ({ id: `area:${id}:${i}`, coords, ...style }));
-    return [
-      ...children.flatMap((c) =>
-        ring(c.id, {
-          color: "#57534e",
-          width: 1.5,
-          opacity: 0.6,
-          dashed: true,
-        }),
-      ),
-      ...ring(area.id, { color: "#b4532a", width: 3, opacity: 0.9 }),
-    ];
-  }, [area, children, shapeById]);
-  const areaFit = useMemo<[number, number][] | null>(
-    () =>
-      area?.bbox
-        ? [
-            [area.bbox[0], area.bbox[1]],
-            [area.bbox[2], area.bbox[3]],
-          ]
-        : null,
-    [area?.bbox],
-  );
+  }, [places, rawPlaces, category, fieldFilters, search]);
 
   const visibleIds = useMemo(
     () => new Set(visiblePlaces.map((p) => p.id)),
@@ -280,10 +249,6 @@ const MapLayout = () => {
     setLang,
     hoverPlaceId,
     setHoverPlaceId,
-    areas,
-    area,
-    setAreaId,
-    subAreas,
   };
 
   return (
@@ -293,14 +258,22 @@ const MapLayout = () => {
           <Outlet />
         </aside>
         <div className="relative h-[45dvh] md:h-auto md:flex-1">
-          {languages.length > 1 && (
-            <ContentLangSwitcher
-              className="absolute top-3 left-3 z-10"
-              value={lang}
-              languages={languages}
-              onChange={setLang}
-            />
-          )}
+          <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2">
+            {languages.length > 1 && (
+              <ContentLangSwitcher
+                value={lang}
+                languages={languages}
+                onChange={setLang}
+              />
+            )}
+            {areaLevels.length > 0 && (
+              <AreaLayerSwitcher
+                value={areaLevel}
+                levels={areaLevels}
+                onChange={setAreaLevel}
+              />
+            )}
+          </div>
           <MapView
             center={{
               lat: view.collection.centerLat,
@@ -311,13 +284,10 @@ const MapLayout = () => {
             activeId={placeId ?? null}
             hoverId={hoverPlaceId}
             focus={focus}
-            lines={
-              areaLines.length > 0
-                ? [...areaLines, ...(overlay?.lines ?? [])]
-                : overlay?.lines
-            }
+            areas={mapAreas}
+            lines={overlay?.lines}
             pins={overlay?.pins}
-            fitTo={overlay?.fitTo ?? areaFit}
+            fitTo={overlay?.fitTo}
             onMapClick={overlay?.onMapClick}
             onMarkerClick={(id) => {
               if (picking) return;
@@ -339,9 +309,13 @@ const MapLayout = () => {
 };
 
 export const Route = createFileRoute("/m/$slug")({
-  // `?lang=nl` picks the content language; links within the map keep it.
-  validateSearch: z.object({ lang: contentLangSchema.optional() }),
-  search: { middlewares: [retainSearchParams(["lang"])] },
+  // `?lang=nl` picks the content language and `?areas=borough` the boundary
+  // layer; links within the map keep both.
+  validateSearch: z.object({
+    lang: contentLangSchema.optional(),
+    areas: z.enum(AREA_LEVELS).optional().catch(undefined),
+  }),
+  search: { middlewares: [retainSearchParams(["lang", "areas"])] },
   loader: async ({ params }) => {
     const data = await loadMap({ data: params.slug });
     if (!data) throw notFound();

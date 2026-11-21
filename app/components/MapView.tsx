@@ -3,6 +3,7 @@ import type { LineLayerSpecification, Marker, Map as MlMap } from "maplibre-gl";
 // import.meta.url lookup breaks once Vite bundles the library.
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import { useEffect, useRef, useState } from "react";
+import type { AreaGeometry } from "~/lib/db/schema";
 import { cn } from "~/lib/utils";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
@@ -60,6 +61,8 @@ interface MapViewProps {
   draft?: { position: LngLat | null; onChange: (p: LngLat) => void } | null;
   /** Fly to this point when it changes (e.g. the selected place). */
   focus?: LngLat | null;
+  /** Official area boundaries with their names (under everything else). */
+  areas?: MapArea[];
   /** Route overlays, drawn above places. */
   lines?: MapLine[];
   pins?: MapPin[];
@@ -70,6 +73,36 @@ interface MapViewProps {
   interactive?: boolean;
   className?: string;
 }
+
+/** An official area drawn as a boundary layer, named at `label`. */
+export interface MapArea {
+  id: string;
+  name: string;
+  geometry: AreaGeometry;
+  label: [number, number];
+}
+
+const AREAS_SOURCE = "dc-areas";
+const AREA_LABELS_SOURCE = "dc-area-labels";
+const AREA_COLOR = "#9a3412";
+const areasGeoJson = (areas: MapArea[]) => ({
+  type: "FeatureCollection" as const,
+  features: areas.map((a) => ({
+    type: "Feature" as const,
+    id: a.id,
+    properties: { name: a.name },
+    geometry: a.geometry,
+  })),
+});
+const areaLabelsGeoJson = (areas: MapArea[]) => ({
+  type: "FeatureCollection" as const,
+  features: areas.map((a) => ({
+    type: "Feature" as const,
+    id: a.id,
+    properties: { name: a.name },
+    geometry: { type: "Point" as const, coordinates: a.label },
+  })),
+});
 
 const LINES_SOURCE = "dc-lines";
 const linesGeoJson = (lines: MapLine[]) => ({
@@ -100,6 +133,7 @@ export const MapView = ({
   onMarkerClick,
   draft,
   focus,
+  areas,
   lines,
   pins,
   fitTo,
@@ -158,6 +192,50 @@ export const MapView = ({
       });
       map.once("load", () => {
         if (!map) return;
+        // Area boundaries go under routes; names avoid each other.
+        map.addSource(AREAS_SOURCE, {
+          type: "geojson",
+          data: areasGeoJson([]),
+        });
+        map.addSource(AREA_LABELS_SOURCE, {
+          type: "geojson",
+          data: areaLabelsGeoJson([]),
+        });
+        map.addLayer({
+          id: "dc-areas-fill",
+          type: "fill",
+          source: AREAS_SOURCE,
+          paint: { "fill-color": AREA_COLOR, "fill-opacity": 0.035 },
+        });
+        map.addLayer({
+          id: "dc-areas-line",
+          type: "line",
+          source: AREAS_SOURCE,
+          layout: { "line-join": "round" },
+          paint: {
+            "line-color": AREA_COLOR,
+            "line-width": ["interpolate", ["linear"], ["zoom"], 10, 1, 15, 2.5],
+            "line-opacity": 0.75,
+          },
+        });
+        map.addLayer({
+          id: "dc-areas-label",
+          type: "symbol",
+          source: AREA_LABELS_SOURCE,
+          layout: {
+            "text-field": ["get", "name"],
+            "text-font": ["Noto Sans Bold"],
+            "text-size": ["interpolate", ["linear"], ["zoom"], 10, 11, 15, 15],
+            "text-max-width": 8,
+            "text-padding": 6,
+            "text-letter-spacing": 0.02,
+          },
+          paint: {
+            "text-color": AREA_COLOR,
+            "text-halo-color": "rgba(255,255,255,0.95)",
+            "text-halo-width": 2,
+          },
+        });
         map.addSource(LINES_SOURCE, {
           type: "geojson",
           data: linesGeoJson([]),
@@ -317,6 +395,19 @@ export const MapView = ({
     }
     draftMarkerRef.current.setLngLat([draftPos.lng, draftPos.lat]);
   }, [ready, draftOn, draftPos?.lat, draftPos?.lng, draftPos]);
+
+  // Area boundaries and names.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!styleReady || !map) return;
+    const set = (id: string, data: unknown) => {
+      const source = map.getSource(id);
+      if (source && "setData" in source)
+        (source as { setData: (d: unknown) => void }).setData(data);
+    };
+    set(AREAS_SOURCE, areasGeoJson(areas ?? []));
+    set(AREA_LABELS_SOURCE, areaLabelsGeoJson(areas ?? []));
+  }, [styleReady, areas]);
 
   // Route lines.
   useEffect(() => {

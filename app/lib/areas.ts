@@ -142,6 +142,47 @@ export const innerPoint = (g: AreaGeometry): Pt => {
   return nudged ?? centre;
 };
 
+/** Distance (degrees) from p to the nearest edge of the polygon's rings. */
+const edgeDist = (p: Pt, rings: Pt[][]): number =>
+  Math.sqrt(
+    Math.min(
+      ...rings.flatMap((r) =>
+        r.slice(1).map((b, i) => segDist2(p, r[i] ?? b, b)),
+      ),
+    ),
+  );
+
+/**
+ * Where to put an area's name: the sampled point of its largest polygon
+ * that lies furthest from any edge (so names sit well inside odd shapes).
+ */
+export const labelPoint = (g: AreaGeometry, steps = 16): Pt => {
+  const polys = polygonsOf(g);
+  const sizeOf = (poly: Pt[][]) => {
+    const [a, b, c, d] = bboxOf({ type: "Polygon", coordinates: poly });
+    return (c - a) * (d - b);
+  };
+  const largest = polys.reduce<Pt[][] | undefined>(
+    (best, p) => (!best || sizeOf(p) > sizeOf(best) ? p : best),
+    undefined,
+  );
+  if (!largest) return [0, 0];
+  const shape: AreaGeometry = { type: "Polygon", coordinates: largest };
+  const [a, b, c, d] = bboxOf(shape);
+  const samples = Array.from(
+    { length: steps * steps },
+    (_, k): Pt => [
+      a + ((c - a) * ((k % steps) + 0.5)) / steps,
+      b + ((d - b) * (Math.floor(k / steps) + 0.5)) / steps,
+    ],
+  ).filter((p) => containsPoint(shape, p));
+  const best = samples.reduce<{ p: Pt; d: number } | null>((acc, p) => {
+    const dist = edgeDist(p, largest);
+    return !acc || dist > acc.d ? { p, d: dist } : acc;
+  }, null);
+  return best?.p ?? innerPoint(shape);
+};
+
 /** Rings as lines, for drawing outlines on the map. */
 export const outlineRings = (g: AreaGeometry): Pt[][] => polygonsOf(g).flat();
 
