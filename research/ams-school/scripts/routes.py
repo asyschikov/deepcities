@@ -140,11 +140,17 @@ def main():
         return
     if cmd == "import":
         dry = "--dry-run" in sys.argv
-        existing = {x["title"]: x["id"] for x in dc("routes", "amsterdamse-school")}
+        listed = dc("routes", "amsterdamse-school")
+        existing = {x["title"]: x["id"] for x in listed}
+        # The CLI appends photos on update, so only send them to routes without a cover.
+        has_cover = {x["title"] for x in listed if x.get("coverPhotoId")}
         tmp = tempfile.mkdtemp()
         for f, r in routes:
             path = os.path.join(tmp, os.path.basename(f) + ".json")
-            json.dump(build(r, known), open(path, "w"), ensure_ascii=False)
+            data = build(r, known)
+            if r["title"] in has_cover:
+                data.pop("photos", None)
+            json.dump(data, open(path, "w"), ensure_ascii=False)
             rid = existing.get(r["title"])
             action = "update" if rid else "create"
             if dry:
