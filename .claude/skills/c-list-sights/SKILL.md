@@ -18,6 +18,10 @@ A-list sights.
 famous dish or "the oldest X restaurant" is not enough: those wait for a possible separate
 restaurants map. When in doubt, leave it out.
 
+**Exception: Amsterdam-Noord.** Noord has a different vibe, so there the bar is "an iconic local
+place that is part of the neighbourhood's fabric, almost a cultural establishment" (e.g. De Ceuvel).
+Ordinary good restaurants still don't qualify.
+
 This skill covers the C-list workflow. The general rules for `pnpm dc`, draft conventions,
 photos and areas are in [manage-content](../manage-content/SKILL.md). Read that first.
 
@@ -78,6 +82,7 @@ your own when you're done. Review what comes back; don't trust it blindly.
   - Write the English natively. Gloss Dutch terms on first use.
   - The facts must agree between the two. The emphasis may differ.
 - **Current status, checked recently.** Art gets removed, shops close, horses leave balconies. For each item, find the latest news and say plainly whether it is still there.
+  - **Gone things: high bar.** This is a guide, not a history textbook. A gone thing goes on (or stays) only if at least one holds: something related to it is there today (a memorial, a trace, a successor, a name); the current state gives context for what happened; or it had a lasting impact. A gone bridge, artwork or factory with only a good story doesn't count. Otherwise fold one sentence into a nearby place or leave it out.
   - If it's gone but the story is good, pin the site and say clearly that it's gone. Put it in the title too, e.g. `(gone)`, and **always set `attributes: {status: Gone}`** (the map's Status field; the user wants gone things marked there).
   - Never leave the reader guessing ("we could not confirm whether…"). Never invite readers to report things ("spot it and tell us").
   - If you can't settle it, leave the claim out and note it for the user.
