@@ -34,3 +34,8 @@ Things to check or update later. Each line: place title (area): what to do.
 - Rona Batho (Zuidoost): was the face stolen in 2023 replaced?
 - Big Bang sculpture in Gaasperpark (Zuidoost): survived the 2026 renovation?
 - Laurentiuskerk genever still (Weesp): left out; add if still running.
+
+## Coverage plan
+
+- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost. In progress: Noord. Still open: Oost, Zuid, Centrum.
+- After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.
