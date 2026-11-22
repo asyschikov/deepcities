@@ -15,6 +15,11 @@ Things to check or update later. Each line: place title (area): what to do.
 - Graphic Surgery lines on the ACTA building (Nieuw-West): RADION's last season is 2026–2027; mark Gone if the building goes.
 - Airey houses of Slotermeer, Dekeukeleire double house (Nieuw-West): municipal listing in procedure; add heritage status when decided.
 - Achtergracht 48 / Singelstraat 2 (Weesp): city register says mostly demolished in 2020; check what stands.
+- Vogeldorp (Noord): De Key choosing renovation vs demolition and rebuilding; update when decided.
+- De Ceuvel (Noord): must leave early 2028; Skatecafé agreements until March 2028; Pllek permit status after 2025 unknown.
+- Sint-Augustinuskerk, Nieuwendam (Noord): empty since 2014, apartment plan stuck; update.
+- Witte Kerkje, Holysloot (Noord): renovation Nov 2026 to Mar 2027; drop the note afterwards.
+- Durgerdam (Noord): dike repair deferred to a 2032 check; update if the water board decides earlier.
 
 ## Pins to check on site or on aerial imagery
 
@@ -25,6 +30,7 @@ Things to check or update later. Each line: place title (area): what to do.
 - Graphic Surgery lines (Nieuw-West): could be about 40 m off.
 - Marbon chemical plant (Westpoort): approximate site.
 - 1918 Weesp train disaster site (Weesp): approximate.
+- Mosveld floodlights, Players and Supporters, Volewijck gallows field, Fokker bombing memorial, NDSM Giants (Noord): approximate.
 
 ## Status to confirm
 
@@ -36,5 +42,5 @@ Things to check or update later. Each line: place title (area): what to do.
 
 ## Coverage plan
 
-- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost. In progress: Noord. Still open: Oost, Zuid, Centrum.
+- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord. Noord done. Still open: Oost, Zuid, Centrum.
 - After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.
