@@ -77,43 +77,67 @@
   }
 }
 
-/* Map markers (plain DOM elements created in MapView). */
+/* Map markers (plain DOM elements created in MapView). MapLibre moves a
+   marker by setting `transform` on its element every frame, so that element
+   must carry no transform or transition of its own (a transition makes the
+   pins trail the map). The visible shape lives on an inner span. */
 .dc-marker {
   /* --pin: set on the map by its pin size (26px large, 18px, 12px). */
+  display: block;
   width: var(--pin, 18px);
   height: var(--pin, 18px);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.dc-marker-shape {
+  display: block;
+  width: 100%;
+  height: 100%;
   border-radius: 50% 50% 50% 0;
-  transform: rotate(-45deg);
   border: clamp(1.5px, calc(var(--pin, 18px) / 13), 2px) solid white;
   box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
-  cursor: pointer;
+  transform-origin: bottom left;
   transition:
     transform 120ms ease,
     box-shadow 120ms ease;
 }
 .dc-marker:hover,
 .dc-marker[data-active="true"] {
-  transform: rotate(-45deg) scale(1.25);
-  box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
   z-index: 2;
+}
+.dc-marker:hover .dc-marker-shape,
+.dc-marker[data-active="true"] .dc-marker-shape {
+  transform: scale(1.25);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
 }
 .dc-marker[data-clustered="true"] {
   display: none;
 }
 .dc-cluster {
+  display: block;
   width: var(--size);
   height: var(--size);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.dc-cluster-disc {
+  display: block;
+  width: 100%;
+  height: 100%;
   padding: 4px;
   border-radius: 50%;
   border: 2px solid white;
   box-shadow: 0 2px 8px rgb(0 0 0 / 0.3);
-  cursor: pointer;
   transition: transform 120ms ease;
 }
-.dc-cluster:hover {
+.dc-cluster:hover .dc-cluster-disc {
   transform: scale(1.1);
 }
-.dc-cluster span {
+.dc-cluster-count {
   display: grid;
   place-items: center;
   width: 100%;

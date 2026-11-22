@@ -431,6 +431,9 @@ export const MapView = ({
         const el = document.createElement("button");
         el.type = "button";
         el.className = "dc-marker";
+        const shape = document.createElement("span");
+        shape.className = "dc-marker-shape";
+        el.appendChild(shape);
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
           onMarkerClickRef.current?.(m.id);
@@ -442,7 +445,8 @@ export const MapView = ({
         existing.set(m.id, entry);
       }
       entry.marker.setLngLat([m.lng, m.lat]);
-      entry.el.style.background = m.color;
+      const shape = entry.el.firstElementChild as HTMLElement | null;
+      if (shape) shape.style.background = m.color;
       entry.el.title = m.title;
       entry.el.setAttribute("aria-label", m.title);
       entry.el.dataset.active = String(m.id === activeId);
@@ -560,9 +564,11 @@ export const MapView = ({
           "--size",
           `${Math.round(30 + Math.sqrt(count) * 3)}px`,
         );
-        el.style.background = clusterGradient(colors, count);
-        el.innerHTML = "<span></span>";
-        const label = el.querySelector("span");
+        el.innerHTML =
+          '<span class="dc-cluster-disc"><span class="dc-cluster-count"></span></span>';
+        const disc = el.firstElementChild as HTMLElement | null;
+        if (disc) disc.style.background = clusterGradient(colors, count);
+        const label = el.querySelector(".dc-cluster-count");
         if (label) label.textContent = String(count);
         const name = clusterLabel.current("cluster_count", { count });
         el.title = name;
@@ -688,7 +694,9 @@ export const MapView = ({
       if (!entry) {
         const el = document.createElement("div");
         el.className = "dc-pin";
-        el.appendChild(document.createElement("span"));
+        const shape = document.createElement("span");
+        shape.className = "dc-marker-shape";
+        el.appendChild(shape);
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
           pinPropsRef.current.get(p.id)?.onClick?.();
