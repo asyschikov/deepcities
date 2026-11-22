@@ -23,8 +23,7 @@ Things to check or update later. Each line: place title (area): what to do.
 - Nelson Mandelapark and Kwaku (Zuidoost): park centre.
 - Tenerife monument (Nieuw-West): pinned at the cemetery buildings, not the monument.
 - Graphic Surgery lines (Nieuw-West): could be about 40 m off.
-- Marbon chemical plant, Ford assembly plant, Vrijstaat Groenoord (Westpoort): approximate sites.
-- De Valk margarine factory chimney (Weesp): Nijverheidslaan 3a is a best guess.
+- Marbon chemical plant (Westpoort): approximate site.
 - 1918 Weesp train disaster site (Weesp): approximate.
 
 ## Status to confirm
