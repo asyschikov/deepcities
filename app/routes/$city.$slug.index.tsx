@@ -49,15 +49,12 @@ const MapIndex = () => {
   return (
     <div className="flex flex-col">
       <div className="space-y-3 border-b p-4 md:p-5">
-        <div className="flex items-center gap-2 text-xs font-medium tracking-wide text-muted-foreground uppercase">
-          {collection.city}
-          {viewer && <RoleBadge role={role} />}
-        </div>
-        <h1 className="text-2xl leading-tight font-semibold md:text-3xl">
-          {collection.title}
-        </h1>
+        {/* The city and map are named in the header's breadcrumbs. */}
+        <h1 className="sr-only">{collection.title}</h1>
         {collection.tagline && (
-          <p className="text-muted-foreground">{collection.tagline}</p>
+          <p className="text-lg leading-snug font-medium">
+            {collection.tagline}
+          </p>
         )}
         {collection.description && (
           <div className="text-sm">
@@ -126,6 +123,11 @@ const MapIndex = () => {
                 <Settings /> {t("map_manage")}
               </Link>
             </Button>
+          )}
+          {viewer && (
+            <span className="flex items-center">
+              <RoleBadge role={role} />
+            </span>
           )}
         </div>
       </div>
