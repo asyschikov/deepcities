@@ -10,8 +10,13 @@ A-list. It began as "C-list sights of Amsterdam", and "C-list" lives on as the i
 what goes on it. It is for **a curious resident or
 an adventurous visitor**: the places that don't make it into the guidebook. Unusual,
 debatable, standing out, old or new. Listed monuments are the backbone. Beyond them:
-murals and public art, hidden history, curiosities, odd museums, green escapes, and food
-and drink institutions with a history. Leave out ordinary cafés and A-list sights.
+murals and public art, hidden history, curiosities, odd museums and green escapes. Leave out
+A-list sights.
+
+**Food and drink: the bar is very high.** Only places of real historic or cultural significance
+(a legend, an institution that shaped the city). Good food, a nice story, a young brewery, a
+famous dish or "the oldest X restaurant" is not enough: those wait for a possible separate
+restaurants map. When in doubt, leave it out.
 
 This skill covers the C-list workflow. The general rules for `pnpm dc`, draft conventions,
 photos and areas are in [manage-content](../manage-content/SKILL.md). Read that first.

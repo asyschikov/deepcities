@@ -59,3 +59,7 @@ All Dutch is spliced from Dutch sources: nl.wikipedia, PC Uitvaart, Dodenakkers,
 1. **Sloten edge** (walk, about 3 km): Natuurpark Vrije Geer → (Sloten village square, from the `sloten` slice) → Molen van Sloten → Brouwerij De 7 Deugden.
 2. **Fights for the last green** (bike, about 15 km): De Oeverlanden → Natuurpark Vrije Geer → Tenerife monument (Westgaarde) → Lutkemeerpolder. Theme: places residents saved, or are still trying to save, from building.
 3. **Wild edges of Nieuw-West** (bike): Lange Bretten → Heemtuin Sloterpark and Het Ruige Riet → De Oeverlanden.
+
+## Archived after import
+
+- Brouwerij De 7 Deugden: archived 2026-11-22. Below the food-and-drink bar (needs high historic or cultural significance).
