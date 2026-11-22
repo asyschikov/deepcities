@@ -1,0 +1,828 @@
+# Noord waterland-south: Ransdorp, Schellingwoude, Durgerdam (and one Zunderdorp school).
+# All monument records (Durgerdam houses moved to durgerdam.yaml) in slices/waterland-south.json are used exactly once
+# (see notes/waterland-south.md), plus the scouted Schellingwouderbrug, Finse school,
+# Kinselmeer, De Durgerdam inn and Vuurtoreneiland.
+# Dutch texts are spliced from the city register texts (redengevende omschrijvingen),
+# the national register and nl.wikipedia.
+
+# ================================================================ Ransdorp
+
+- title: Ransdorp tower and church
+  summary: A 32-metre late-Gothic tower that was never finished, standing over a village of wooden houses. Ransdorp ran out of money in 1542 and the spire was never built; the flat-topped stump has been the landmark of Waterland ever since.
+  body: |
+    Ransdorp was the most central and probably the oldest of the six main villages of Waterland, and in the 15th century its ships sailed to the Baltic. That wealth paid for a tower far too big for the village: designed by Jan Poyt and built between about 1502 and 1542, it was meant to carry a spire. In 1542 the money was gone, and the soft peat had already made the foundations expensive, so the tower stopped at 32 metres with a flat top. Locals call it the *stompe toren* (the blunt tower). It is the only thing left of the old Ransdorp: in the Eighty Years' War the village was ruined by Spanish troops and by the Geuzen (the Protestant rebels), and in November 1572 Franciscan friars were tortured and hanged here, remembered as the Martyrs of Ransdorp.
+
+    The church against the tower is much younger. A pastor is first mentioned in 1324; the medieval church burned after a lightning strike in 1715 and was replaced in 1719. In 1936 the hall church was rebuilt on its old foundations by J.C. Hoogendorp, reusing beams dated 1719, with a new link block that lets the tower stand more freely. Inside is a fine set of 17th-century Waterland church furniture. During the Second World War the Germans used the tower as a lookout. Stadsherstel Amsterdam restored the church in 2006. The tower opens on occasional days such as Amsterdam's Open Toren Dag; the roof gives a view over the whole of Landelijk Noord.
+
+    Look for:
+    - the rich late-Gothic detailing on a tower with no spire
+    - the bell by H. Meurs, 1620, in the bell frame
+    - in the porch, a tombstone of 1639 carved with a ship under full sail
+    - the pulpit with the Waterland swan, and a chandelier dated 1644
+    - the churchyard, the trees and the drawbridge over the Weersloot
+  category: religious
+  lat: 52.392947
+  lng: 4.993489
+  address: Dorpsweg Ransdorp 55-57
+  links:
+    - { label: Rijksmonumentenregister (6741), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6741" }
+    - { label: Monumentenregister Amsterdam (church), url: "https://data.amsterdam.nl/monumenten/41bd849c-6ec4-4b36-a32e-3c1374e7efc2" }
+    - { label: Wikipedia (nl) Toren van Ransdorp, url: "https://nl.wikipedia.org/wiki/Toren_van_Ransdorp" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+  attributes:
+    rank: Amazing
+    heritage_status: National + municipal monument
+    monument_number: 6741, 200463
+    built: about 1502–1542 (tower); 1719, rebuilt 1936 (church)
+    architect: Jan Poyt (tower); J.C. Hoogendorp (1936 church)
+    original_use: Church tower and Reformed church
+  photos:
+    - commons:File:Ransdorp tower.jpg
+    - commons:File:Ransdorp tower 2.jpg
+    - commons:File:Kerk van Ransdorp.jpg
+  sources:
+    - rce:6741 (register description)
+    - city:200463 (register text)
+    - https://nl.wikipedia.org/wiki/Toren_van_Ransdorp
+    - https://nl.wikipedia.org/wiki/Ransdorp
+    - https://www.laagholland.com/en/locations/4034660067/ransdorper-tower (facts only)
+    - https://www.amsterdamsights.com/events/open-toren-dag.html (facts only)
+  nl:
+    title: Toren en kerk van Ransdorp
+    summary: Een monumentale, onvoltooide, rijk gedetailleerde laatgotische toren van 32 meter. In 1542 was het geld op, zodat de torenspits nooit werd gebouwd. De 'stompe toren' herinnert aan de bloeiende scheepvaart en handel van Ransdorp in de vijftiende eeuw.
+    body: |
+      Ransdorp is het meest centraal gelegen en naar wordt aangenomen het oudste van de zes hoofddorpen van Waterland. Het kent door de met name in de vijftiende eeuw bloeiende scheepvaart, handel en bedrijvigheid een roemrijk verleden, waaraan de 'stompe toren' herinnert. De toren werd gebouwd tussen 1502 en 1542 in gotische stijl naar een ontwerp van Jan Poyt. In 1542 was het geld op, zodat het niet meer mogelijk was om de torenspits te bouwen. Ook de slappe veengrond zorgde voor hoge (funderings)kosten. Tijdens de Tachtigjarige Oorlog werd Ransdorp verwoest door zowel de Spanjaarden als de Geuzen; in november 1572 werden hier de Martelaren van Ransdorp, franciscaner broeders, na marteling opgehangen. Van het oude Ransdorp is slechts de kerktoren overgebleven.
+
+      De kerk is nog altijd verbonden met de toren; de vroegste sporen gaan terug tot 1324, toen melding is gemaakt van een pastoor. De middeleeuwse kerk ging in 1715 verloren door brand na een blikseminslag en werd in 1719 vervangen. In 1936 is de kerk herbouwd onder leiding van de architect J.C. Hoogendorp, op de bestaande fundering en met hergebruik van achttiende-eeuwse balken (op één balk staat het jaartal 1719). Door een tussenlid is de toren meer vrij komen te staan. Het interieur herbergt een belangrijke collectie zeventiende-eeuws Waterlands kerkmeubilair. De toren deed tijdens de Tweede Wereldoorlog dienst als uitkijkpost voor de Duitsers. Het kerkgebouw werd in 2006 door Stadsherstel Amsterdam gerestaureerd. Vanaf de platte bovenkant van de toren is er uitzicht over het weidse polderland van Landelijk Noord.
+
+      Let op:
+      - de rijk gedetailleerde laatgotische toren zonder spits
+      - de klokkenstoel met klok van H. Meurs, 1620
+      - tussen portaal en voorportaal een grafzerk met een schip met volle zeilen, gedateerd 1639
+      - de kansel met vruchtbaarheidssymbolen en de Waterlandse Zwaan, en een kroonluchter met het jaartal 1644
+      - het kerkhof, de bomen en de ophaalbrug over de Weersloot
+    attributes:
+      built: ca. 1502–1542 (toren); 1719, herbouwd 1936 (kerk)
+      architect: Jan Poyt (toren); J.C. Hoogendorp (kerk 1936)
+      original_use: Kerktoren en Nederlands Hervormde kerk
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6741
+      - https://data.amsterdam.nl/monumenten/41bd849c-6ec4-4b36-a32e-3c1374e7efc2
+      - https://nl.wikipedia.org/wiki/Toren_van_Ransdorp
+      - https://nl.wikipedia.org/wiki/Ransdorp
+
+- title: Former town hall of Ransdorp
+  summary: A stone house in a wooden village. Built in 1652 as the meeting place of the Waterlandse Unie, six Waterland villages that ran their common affairs here until 1811, with Doric pilasters and a high double stoop.
+  body: |
+    Opposite the tower stands the only grand stone building in Ransdorp. From 1619 to 1811 Ransdorp was the meeting place of the *Waterlandse Unie* (Waterland Union), a league of six villages: Broek in Waterland, Ilpendam, Ransdorp, Schellingwoude, Zuiderwoude and Zunderdorp. In 1652 they built this *raadhuis* (town hall) as their meeting house. It is a *dwarshuis*, a house set broadside to the street, unlike the gable-on wooden houses around it: one storey over a raised basement, a steep saddle roof parallel to the road, and the main floor reached by a high double stoop between pilasters. The design is attributed to Pieter Pietersz van Saerdam.
+
+    The Union ended in 1811, when Ransdorp became a municipality of its own, later also covering Holysloot, Durgerdam and Schellingwoude. Before the village school of 1868 was built across the road, lessons were said to have been given in the town hall's cellar. The new municipality's council meetings were often chaotic, because the villages had opposite interests, and in 1918 the council voted unanimously to be annexed by Amsterdam; that happened on 1 January 1921.
+
+    Look for:
+    - the high double stoop up to the main floor
+    - the pilasters dividing the front
+    - the gable stones and date stones, one carved with the Waterland swan
+    - the wooden barn (kaakberg) south of the building, which belongs to Dorpsweg 63
+  category: civic
+  lat: 52.392955
+  lng: 4.993136
+  address: Dorpsweg Ransdorp 59
+  links:
+    - { label: Rijksmonumentenregister (6742), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6742" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+    - { label: Monumentenregister Amsterdam (Ransdorp church), url: "https://data.amsterdam.nl/monumenten/41bd849c-6ec4-4b36-a32e-3c1374e7efc2" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "6742"
+    built: "1652"
+    architect: Pieter Pietersz van Saerdam (attributed)
+    original_use: Meeting house of the Waterlandse Unie, town hall
+  photos:
+    - commons:File:Ransdorp, raadhuis, 2018.jpg
+    - commons:File:Ransdorp town hall.jpg
+    - commons:File:Gevelsteen Ransdorp.JPG
+  sources:
+    - rce:6742 (register description)
+    - city:200463 (register text: context of the village core, names the architect)
+    - city:200702 (lessons in the town hall cellar)
+    - city:200476 (annexation decision 1918)
+    - https://nl.wikipedia.org/wiki/Ransdorp
+    - https://www.ensie.nl/betekenis/the-former-council-house-in-ransdorp (facts only)
+  nl:
+    title: Voormalig raadhuis van Ransdorp
+    summary: Een stenen pand in een houten dorp. Dwarshuis uit 1652 met pilasters tegen de via een hoge dubbele stoep te bereiken hoofdverdieping, gebouwd als vergaderplaats van de Waterlandse Unie.
+    body: |
+      Tussen 1619 en 1811 was Ransdorp de vergaderplaats van de Waterlandse Unie, waarin zes dorpen waren verenigd: Broek in Waterland, Ilpendam, Ransdorp, Schellingwoude, Zuiderwoude en Zunderdorp. Het voormalige raadhuis werd in 1652 gebouwd als vergaderplaats van de unie. Rondom de kerk bestaat de bebouwing uit vrijstaande en voornamelijk houten huisjes met de topgevel naar de weg. Een uitzondering hierop vormt het tegenover de toren staande voormalige raadhuis van Pieter Pieterszoon van Saerdam: een stenen pand met een verdieping en een steil zadeldak met een nokrichting evenwijdig aan de rooilijn. Het is een dwarshuis met pilasters tegen de via een hoge dubbele stoep te bereiken hoofdverdieping, met gevel- en jaartalstenen.
+
+      Vanaf 1811 was Ransdorp een zelfstandige gemeente, met ook Holysloot, vanaf 1818 Durgerdam en vanaf 1857 Schellingwoude. Voordat de dorpsschool van 1868 werd gebouwd, zou er les zijn gegeven in de kelder van het raadhuis. De raadsvergaderingen verliepen meer dan eens chaotisch omdat de verschillende dorpen vaak tegengestelde belangen hadden. In 1918 besloot de raad unaniem dat de eigen gemeente kon worden ingelijfd door het grotere Amsterdam; de annexatie vond plaats per 1 januari 1921.
+
+      Let op:
+      - de hoge dubbele stoep naar de hoofdverdieping
+      - de pilasters in de gevel
+      - de gevel- en jaartalstenen, waaronder een steen met de Waterlandse zwaan
+      - de kaakberg met aanbouwen ten zuiden van het raadhuis, die vermoedelijk bij Dorpsweg 63 hoort
+    attributes:
+      architect: Pieter Pieterszoon van Saerdam (toegeschreven)
+      original_use: Vergaderplaats van de Waterlandse Unie, raadhuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6742
+      - https://data.amsterdam.nl/monumenten/41bd849c-6ec4-4b36-a32e-3c1374e7efc2
+      - https://data.amsterdam.nl/monumenten/17a56a17-5837-4c8b-8ba0-1556bf0e56f9
+      - https://nl.wikipedia.org/wiki/Ransdorp
+
+- title: Village school of 1868, Ransdorp
+  summary: One classroom for six classes, built in 1868 to a textbook model, with the teacher's house attached. The ceiling was five metres high because 19th-century doctors believed coughed-up germs would rise out of reach.
+  body: |
+    Across the road from the church stands Ransdorp's public primary school, designed in 1868 by the municipality's own public works department together with the teacher's house next door. School and house form an L: the classroom parallel to the road, the house at right angles with its gable to the Dorpsweg and its front door on the church square. The building follows the model designs for small schools of 50 pupils published in the early 19th century, after the first Dutch primary-education laws. One room took all six classes, children from six to twelve.
+
+    The date shows in the windows: big and low-silled, where older models put windows high up so pupils would not be distracted. The room was once five metres high. In the 19th century schools were rightly seen as breeding grounds of disease, and Amsterdam doctors argued that germs from coughing children would rise into a high room and lose their danger. The city calls it a rare survivor: a village school of this age is special for Amsterdam, matched only by the one in Holysloot. The interior has been altered, but the building is still easy to read.
+
+    Look for:
+    - the gable stone with the name and the year of the first stone, 1868
+    - the ornamented wall anchors under the eaves
+    - the porch under a flat canopy
+    - the flagpole brackets between the classroom windows
+    - the chimney stack that marks where the stove stood
+  category: schools
+  lat: 52.392734
+  lng: 4.994299
+  address: Dorpsweg Ransdorp 35-37
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/17a56a17-5837-4c8b-8ba0-1556bf0e56f9" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200702"
+    built: "1868"
+    architect: Publieke Werken, gemeente Ransdorp
+    listed: 2013
+    original_use: Public primary school with teacher's house
+  photos: []
+  sources:
+    - city:200702 (register text)
+  nl:
+    title: Dorpsschool uit 1868, Ransdorp
+    summary: Openbare lagere school met onderwijzerswoning uit 1868, opgezet volgens een traditioneel model voor een school voor 50 leerlingen. Eén lokaal voor zes klassen, oorspronkelijk vijf meter hoog, uit hygiënische overwegingen.
+    body: |
+      De Openbare Lagere School met onderwijzerswoning staat dicht bij de kerk in het centrum van het dorp. De dorpsschool is in 1868 ontworpen door de Dienst der Publieke Werken van de Gemeente Ransdorp, oorspronkelijk als een geheel met de belendende onderwijzerswoning. Samen maken school en woning een L-vormige plattegrond waarbij de school evenwijdig aan de weg is gelegen en de woning haaks op de weg staat. De school is opgezet volgens de modelvoorbeelden van kleine schoolgebouwen die al in het begin van de negentiende eeuw werden gepubliceerd. Zij bestaat uit één schoollokaal; hier werd lesgegeven aan zes klassen met leerlingen variërend in de leeftijd van zes tot twaalf jaar.
+
+      Dat deze school in 1868 is gebouwd, wordt mede duidelijk door de grootte van de ramen en de lage borstwering. Bij de oude schoolmodellen werden de ramen immers hoog in de muur geplaatst om de kinderen niet onnodig af te leiden. Het schoollokaal was aanvankelijk vijf meter hoog. De scholen werden terecht gezien als besmettingshaarden van ziekten. Men was ervan overtuigd dat de ziektekiemen, verspreid door hoestende kinderen, zouden opstijgen en in een hoge ruimte geen besmettingsgevaar meer zouden opleveren. De lagere school van Ransdorp is als dorpsschool voor de stad Amsterdam bijzonder en samen met de dorpsschool uit Holysloot zeldzaam.
+
+      Let op:
+      - de gevelsteen met de naam en het jaartal van de eerste steenlegging: 1868
+      - de geornamenteerde muurankers onder de dakrand
+      - het voorportaal onder een luifel
+      - de vlaggenstok tussen de vensters van het lokaal
+      - de schoorsteen die herinnert aan de verwarming tegen de westmuur
+    attributes:
+      original_use: Openbare lagere school met onderwijzerswoning
+    sources:
+      - https://data.amsterdam.nl/monumenten/17a56a17-5837-4c8b-8ba0-1556bf0e56f9
+
+- title: De Wegwijzer school, Ransdorp
+  summary: A wooden teacher's house of 1897 with a painted rising sun in its gable, and the brick Christian school of 1922 behind it. A little ensemble of village pride on the Dorpsweg.
+  body: |
+    Ransdorp had two schools within a hundred metres. Next to the public school of 1868 the Christian school society built its own: first, in 1897, a wooden teacher's house with a low classroom block behind it; then, in 1921 and 1922, a brick extension with two classrooms for the *Vereeniging voor Christelijk Schoolonderwijs op Gereformeerden Grondslag*, built by J. Kaker of Zaandam. The old classrooms in the middle were replaced in 1985 and 1986; the listing protects the teacher's house (no. 21) and the 1922 school (no. 19).
+
+    The teacher's house is the eye-catcher. Its boards are painted in alternating wide white and narrow light-green bands. Above a two-light window with the plaque *Chr. Nat. School De Wegwijzer* the gable carries rays of a rising sun painted red and orange, a carved finial with a diamond eye, and shutters with the red-and-white hourglass pattern typical of Waterland.
+
+    Look for:
+    - the red and orange sun rays in the gable of no. 21
+    - the plaque Chr. Nat. School De Wegwijzer
+    - the hourglass shutters and the serrated lath frieze under the eaves
+    - the tall classroom windows and the chimney of the 1922 school (no. 19)
+  category: schools
+  lat: 52.391818
+  lng: 4.994425
+  address: Dorpsweg Ransdorp 19-21
+  links:
+    - { label: Rijksmonumentenregister (508433), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/508433" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "508433"
+    built: 1897; 1921–1922
+    original_use: Christian village school with teacher's house
+  photos:
+    - commons:File:Ransdorp, Dorpsweg 19.jpg
+  sources:
+    - rce:508433 (register description)
+    - city:200476 and city:200702 (context; the latter dates the school 1915)
+  nl:
+    title: Schooltje De Wegwijzer, Ransdorp
+    summary: In twee fasen (1897; 1921-1922) gebouwde dorpsschool met onderwijzerswoning, genaamd De Wegwijzer, in ambachtelijk-traditionele bouwtrant. De houten onderwijzerswoning heeft een voorschot met geschilderde zonnestralen.
+    body: |
+      In twee fasen (1897; 1921-1922) gebouwde dorpsschool met onderwijzerswoning, genaamd De Wegwijzer, in ambachtelijk-traditionele bouwtrant. De oorspronkelijke school uit 1897 bestond uit de nu nog bestaande dienstwoning en een daar onmiddellijk achtergelegen lager gebouw met twee klaslokalen. Op 28 november 1921 werd aan De Vereeniging voor Christelijk Schoolonderwijs op Gereformeerden Grondslag vergunning verleend tot uitbreiding; op 16 oktober 1922 was de bouw gereed. Aannemer was Fa. J. Kaker uit Zaandam. In 1985/1986 werd het middendeel, de oude leslokalen, vervangen door nieuwbouw. De bescherming richt zich op de onderwijzerswoning uit 1897 (nr. 21) met opmerkelijke detaillering en de schooluitbreiding van 1922 (nr. 19).
+
+      De houten onderwijzerswoning heeft gevels met liggend beschot met afwisselend wit en smallere lichtgroen geschilderde delen. De kapverdieping bevat in het midden een tweelicht met een plaquette met tekst 'Chr. Nat. School De Wegwijzer'. Hierboven een driehoekig voorschot met in rood-oranje geschilderde zonnestralen, bekroond door een gesneden topmakelaar met ruitvormig oog. Aan weerszijden luiken met roodwitte zandloper met knoop.
+
+      Let op:
+      - de rood-oranje zonnestralen in het voorschot van nr. 21
+      - de plaquette 'Chr. Nat. School De Wegwijzer'
+      - de zandloperluiken en het gekartelde lattenfries onder de gootlijst
+      - de hoge schoolvensters en de gemetselde schoorsteen van de school uit 1922 (nr. 19)
+    attributes:
+      original_use: Christelijke dorpsschool met onderwijzerswoning
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/508433
+
+- title: Ransdorp bandstand
+  summary: An octagonal wooden bandstand on the village green, built around 1920 by unemployed shipbuilders in a job-creation scheme. One of three survivors of a set of four in the Waterland villages.
+  body: |
+    On a strip of grass parallel to the Dorpsweg stands a small eight-sided *muziektent* (bandstand), built entirely of wood: clapboarded parapet, posts on the parapet, a shallow eight-sided roof and a little projecting entrance with a gate and flagpole on the north side. It was put up around 1920 by unemployed shipbuilders as a work-relief project.
+
+    It had three identical siblings, in Durgerdam, Schellingwoude and Zunderdorp. The Zunderdorp one was pulled down; the other three are the only bandstands of this type left in Amsterdam. They are a simpler, smaller cousin of the ornate older bandstands in the Vondelpark and Oosterpark, built in the same timber-frame tradition as Waterland's houses and farms. The concerts have largely gone, but the bandstand still marks the green.
+
+    Look for:
+    - the geometric boarding under the roof
+    - the clapboarded parapet with the posts set on top
+    - the entrance porch with its wooden gate and flagpole
+  category: curiosities
+  lat: 52.394491
+  lng: 4.994346
+  address: Dorpsweg Ransdorp, village green by no. 113
+  links:
+    - { label: Rijksmonumentenregister (508435), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/508435" }
+    - { label: Monumentenregister Amsterdam (Schellingwoude bandstand), url: "https://data.amsterdam.nl/monumenten/c8640b17-b04a-4d0d-b861-b2ad7c42461f" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "508435"
+    built: about 1920
+    original_use: Bandstand
+  photos:
+    - commons:File:Ransdorp, Muziekkoepel.jpg
+    - commons:File:Dorpsweg 111to Ransdorp mon508435.jpg
+  sources:
+    - rce:508435 (register description)
+    - city:200509 (the set of four bandstands)
+  nl:
+    title: Muziektent Ransdorp
+    summary: Op een grasveld parallel aan de Dorpsweg omstreeks 1920 in traditioneel-ambachtelijke bouwtrant opgetrokken muziektent, gebouwd door werkloze scheepsbouwers in het kader van een werkgelegenheidsproject.
+    body: |
+      Op een parallel aan de Dorpsweg Ransdorp gelegen grasveld staat een omstreeks 1920 in traditioneel-ambachtelijke bouwtrant opgetrokken muziektent. De muziektent is gebouwd door werkloze scheepsbouwers in het kader van een werkgelegenheidsproject. Op een achtzijdige plattegrond, met uitgebouwde trappartij, geheel in hout opgetrokken muziektent onder een achtzijdig koepeldak. De houten borstwering is gepotdekseld. De ingang bevindt zich in een kleine uitbouw op het noorden en bevat een houten hekje en een vlaggenmast.
+
+      De koepel is identiek aan de gelijktijdig gebouwde exemplaren in Durgerdam, Schellingwoude en Zunderdorp, waarvan de laatste is afgebroken. In wezen zijn ze een kleinere variant op de meer bewerkte, oudere muziekkoepels, zoals die in Amsterdam in het Vondel- en Oosterpark voorkomen. De functie van deze koepels, een openbare gelegenheid voor muziekuitvoeringen, is de afgelopen decennia sterk aan slijtage onderhevig geraakt. Behalve de drie genoemde koepels zijn van dit type in Amsterdam geen exemplaren overgebleven.
+
+      Let op:
+      - het geometrisch in de achthoek geschikte beschot onder de kap
+      - de gepotdekselde borstwering met de kolommen erop
+      - de uitbouw met het houten hekje en de vlaggenmast
+    attributes:
+      original_use: Muziektent
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/508435
+      - https://data.amsterdam.nl/monumenten/c8640b17-b04a-4d0d-b861-b2ad7c42461f
+
+- title: Dorpsweg Ransdorp, around the church (nos. 17–66)
+  summary: Low wooden houses with pointed gables to the road, lined up along the old ditch by the churchyard. Almost every one is a national monument, and the mayor's brick villa of 1907 stands among them.
+  body: |
+    The Dorpsweg was once the border between two reclamations and linked the Bloemendalergouw and the Liergouw (a *gouw* is a road along a ditch). Around 1300 to 1600 the scattered farms of Waterland gathered here around the church. Because the houses stay so low, the tower dominates every view. They are mostly detached wooden houses of one storey under a roof, with a pointed timber gable (*puntvormig voorschot*) to the road; many look 19th-century but hide older frames. Behind several stand tall *kaakbergen*, Waterland hay barns. Ransdorp has been a protected village view since 1976. Opposite the churchyard, nos. 54 to 62 form the classic picture with the drawbridge. This ensemble is pinned on no. 66, a wooden house thought to date from the 17th or 18th century, with a good front.
+
+    No. 17 breaks the pattern. In 1907 Amsterdam architects J. de Meijer and C.P. Messer built a brick villa for mayor J. Kastelein, reportedly paid for by his father-in-law and costing 4,000 guilders, with red glazed tiles, leaded windows and red-and-white hourglass shutters. The previous mayor had refused to live in the official house. The farm at Durgerdammergouw 2A, on the road out to Durgerdam, closes the stretch.
+
+    Look for:
+    - no. 17: the mayor's villa of 1907, its hourglass shutters and pleached limes
+    - no. 23: a broadside wooden house with nine-pane windows
+    - no. 24: a wooden house with a side aisle and pointed gable
+    - nos. 39 and 51: wooden houses with side aisles, older frames behind 19th-century fronts
+    - nos. 54–62: the row facing the churchyard
+    - no. 60-62: a tall hay barn behind the house
+    - no. 63: an L-shaped wooden house of the 18th century or older
+    - no. 64: a two-aisled wooden house
+    - no. 66: the pinned house, a good front
+    - Durgerdammergouw 2A: a stolp farm with partly wooden walls
+  category: housing
+  lat: 52.393381
+  lng: 4.994279
+  address: Dorpsweg Ransdorp 17-66 and Durgerdammergouw 2A
+  links:
+    - { label: Rijksmonumentenregister (6757), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6757" }
+    - { label: Monumentenregister Amsterdam (no. 17), url: "https://data.amsterdam.nl/monumenten/8b55b62c-57be-44ae-84ae-e2b706257d2f" }
+    - { label: Monumentenregister Amsterdam (church), url: "https://data.amsterdam.nl/monumenten/41bd849c-6ec4-4b36-a32e-3c1374e7efc2" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+    - { label: Wikipedia (nl) rijksmonumenten Ransdorp, url: "https://nl.wikipedia.org/wiki/Lijst_van_rijksmonumenten_in_Ransdorp" }
+  attributes:
+    rank: Okay
+    heritage_status: National + municipal monument
+    monument_number: 200476, 6735, 6749, 6750, 6736, 6737, 6738, 6751, 6739, 6740, 6752, 6753, 6754, 6755, 6743, 6756, 6757, 6766
+    built: 17th–19th century; 1907 (no. 17)
+    original_use: Houses, hay barns, farm, mayor's residence
+  photos:
+    - commons:File:Dorpsweg 66 Ransdorp mon6757.jpg
+    - commons:File:Ransdorp - panoramio (3).jpg
+    - commons:File:Dorpsweg 43 Ransdorp mon6737.jpg
+  sources:
+    - rce:6735, 6736, 6737, 6738, 6739, 6740, 6743, 6749, 6750, 6751, 6752, 6753, 6754, 6755, 6756, 6757, 6766 (register descriptions)
+    - city:200476, 200463, 200702 (register texts)
+    - https://nl.wikipedia.org/wiki/Ransdorp
+  nl:
+    title: Dorpsweg Ransdorp, rond de kerk (17–66)
+    summary: Vrijstaande, voornamelijk houten huisjes van één woonlaag met een topgevel naar de weg, langs het kerkhof. Bijna allemaal rijksmonument, met daartussen de burgemeesterswoning uit 1907.
+    body: |
+      De Dorpsweg was van oorsprong de grens van twee ontginningsgebieden en de verbinding tussen de Bloemendalergouw en de Liergouw (een gouw is een weg langs een sloot). Tussen 1300 en 1600 werd de verspreide bebouwing steeds meer geconcentreerd rond de kerk van Ransdorp. De dominantie van de kerktoren in het silhouet van Ransdorp wordt versterkt door de laagte van de bebouwing. Rondom de kerk bestaat deze uit vrijstaande en voornamelijk houten huisjes van één woonlaag en een kap. Deze eenvoudige huisjes hebben aan de voorzijde een topgevel waarop de nokrichting loodrecht aansluit. Tezamen vormen de bebouwing, het kerkhof, de aanwezige bomen en de ophaalbrug over de Weersloot een historisch en bijzonder gaaf geheel. Ransdorp werd in 1976 aangewezen als beschermd dorpsgezicht. De speld staat bij nummer 66: houten huis (XVIII of XVII?) met puntvormig voorschot en een goede pui.
+
+      Nummer 17 is een uitzondering: het vrijstaande woonhuis werd in 1907 ontworpen voor de burgemeester van Ransdorp, J. Kastelein, door de Amsterdamse architecten J. de Meijer en C.P. Messer. Naar verluid werd het pand gefinancierd door de schoonvader van de burgemeester; de bouwkosten bedroegen volgens overlevering fl. 4.000. Het is een voorbeeld van stadse traditionele bouw tussen de historisch gegroeide bebouwing, verwant aan het werk van Berlage en De Bazel, met rode geglazuurde pannen, glas-in-lood en luiken met een rood-wit zandlopermotief. Zijn voorganger Wttewaall van Stoetwegen wilde niet in de ambtswoning wonen. De stolphoeve aan de Durgerdammergouw 2A sluit de reeks af.
+
+      Let op:
+      - nr. 17: de burgemeesterswoning uit 1907, met zandloperluiken, leilinden en ligusterhaag
+      - nr. 23: houten dwarshuis met 9-ruits vensters
+      - nr. 24: dwars geplaatst houten huis met aangebouwde zijbeuk en puntvormig voorschot
+      - nrs. 39 en 51: houten huizen met aangebouwde zijbeuk, constructie waarschijnlijk ouder
+      - nrs. 54–62: de huizenrij tegenover het kerkhof
+      - nr. 60-62: aansluitend achteraan een hoge kaakberg
+      - nr. 63: houten huis van L-vormige plattegrond (achttiende eeuw of ouder)
+      - nr. 64: tweebeukig houten huis
+      - nr. 66: houten huis met goede pui
+      - Durgerdammergouw 2A: stolphoeve met ten dele houten wanden
+    attributes:
+      built: 17e–19e eeuw; 1907 (nr. 17)
+      original_use: Woonhuizen, kaakbergen, boerderij, burgemeesterswoning
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6757
+      - https://data.amsterdam.nl/monumenten/8b55b62c-57be-44ae-84ae-e2b706257d2f
+      - https://data.amsterdam.nl/monumenten/41bd849c-6ec4-4b36-a32e-3c1374e7efc2
+      - https://nl.wikipedia.org/wiki/Ransdorp
+
+- title: Dorpsweg Ransdorp, north end (nos. 70–121)
+  summary: Where the village thins out into farms. Wooden houses with pointed gables, a double hay barn and long wooden farmhouses that may be 18th-century or older, with the dairy meadows of Waterland behind them.
+  body: |
+    North of the church the Dorpsweg turns rural. For centuries dairy farming was Ransdorp's living: until well into the 20th century fresh milk went by *melkschuit* (milk boat) straight to Amsterdam and was sold door to door. This end of the street shows that world: wooden houses with pointed gables, a tall double *kaakberg* (hay barn) at no. 78, and at the far end long wooden farms. No. 113-115, on which this ensemble is pinned, is a long wooden farmhouse with a hay barn built on at the back, its frame probably 18th-century or older. No. 121 is a *stolp*, the pyramid-roofed farm type of North Holland, with a short ridge, dated around 1840.
+
+    Look for:
+    - no. 70: a wooden house that may date from the 17th or 18th century
+    - nos. 74 and 76: wooden houses with pointed gables, no. 74 with a good front
+    - no. 78: the high double hay barn
+    - no. 91: a 19th-century face on a much older frame
+    - no. 98: a broad wooden house
+    - no. 113-115: the long wooden farmhouse and its hay barn
+    - nos. 117 and 119: two wooden houses that form one whole
+    - no. 121: the stolp farm with a short ridge
+  category: housing
+  lat: 52.394682
+  lng: 4.993768
+  address: Dorpsweg Ransdorp 70-121
+  links:
+    - { label: Rijksmonumentenregister (6745), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6745" }
+    - { label: Rijksmonumentenregister (6748), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6748" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+    - { label: Wikipedia (nl) rijksmonumenten Ransdorp, url: "https://nl.wikipedia.org/wiki/Lijst_van_rijksmonumenten_in_Ransdorp" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 6759, 6760, 6761, 6762, 6744, 6765, 6745, 6746, 6747, 6748
+    built: 18th–19th century
+    original_use: Houses, farms, hay barn
+  photos:
+    - commons:File:Ransdorp, Dorpsweg 113.jpeg
+    - commons:File:Ransdorp, Dorpsweg 121.jpeg
+    - commons:File:Dorpsweg 70 Ransdorp mon6759.jpg
+  sources:
+    - rce:6744, 6745, 6746, 6747, 6748, 6759, 6760, 6761, 6762, 6765 (register descriptions)
+    - https://nl.wikipedia.org/wiki/Ransdorp
+  nl:
+    title: Dorpsweg Ransdorp, noordelijk deel (70–121)
+    summary: Waar het dorp overgaat in boerenland. Houten huizen met puntvormig voorschot, een hoge dubbele kaakberg en langgerekte houten boerderijen, achttiende-eeuws of ouder.
+    body: |
+      Al eeuwenlang is melkveehouderij de belangrijkste activiteit van Ransdorp. Tot in de 20e eeuw ging de verse melk met melkschuiten rechtstreeks naar Amsterdam om daar huis-aan-huis verkocht te worden. Ten noorden van de kerk wordt de Dorpsweg landelijk: houten huizen met puntvormig voorschot, een hoge dubbele kaakberg en aan het eind boerderijen. De speld staat bij nummer 113-115: een langgerekte houten boerderij met achter aangebouwde kaakberg, constructie vermoedelijk achttiende-eeuws of ouder. Nummer 121 is een stolphoeve met korte nok, uitwendig voorkomen laat 19e-eeuws.
+
+      Let op:
+      - nr. 70: houten huis met puntvormig voorschot (XVIII of XVII?)
+      - nrs. 74 en 76: houten huizen met puntvormig voorschot, nr. 74 met een goede pui
+      - nr. 78: hoge dubbele kaakberg (achttiende eeuw of ouder?)
+      - nr. 91: uitwendig voorkomen negentiende-eeuws, constructie waarschijnlijk veel ouder
+      - nr. 98: breed houten huis met puntvormig voorschot
+      - nr. 113-115: langgerekte houten boerderij met kaakberg
+      - nrs. 117 en 119: houten huizen die een geheel vormen
+      - nr. 121: stolphoeve met korte nok
+    attributes:
+      built: 18e–19e eeuw
+      original_use: Woonhuizen, boerderijen, kaakberg
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6745
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6748
+      - https://nl.wikipedia.org/wiki/Ransdorp
+
+# ================================================================ Zunderdorp
+
+- title: School met den Bijbel, Zunderdorp
+  summary: A two-classroom village school of 1925 that looks like Frank Lloyd Wright moved to a Dutch polder, with deep overhanging hipped roofs and a stack of flat roofs at the back.
+  body: |
+    Until 1925 Zunderdorp had only one school, on the Kerklaan, and nothing for families who wanted their children taught with the Bible. The local Protestant society *De School met den Bijbel* then had this building put up at the bend of the Termietergouw, the old road that already appears on Boonacker's map of 1624. It is a village school of the plainest kind: two classrooms for all six classes, one teacher per room, a corridor along the north side, no gym.
+
+    Its architect, Schuitemaker, about whom little else is known, gave it a remarkable shape. Red brick below and yellow brick above, deep overhanging eaves, a hipped roof over the classrooms and, at the back, five blocks under six flat roofs, all at different heights. The city register compares it to Frank Lloyd Wright, made Dutch by combining his flat roofs with hipped ones that sit better in the landscape. The school closed in 1995 and became a children's day care. The teacher's house at no. 5 completes the pair.
+
+    Look for:
+    - the stepped flat roofs at the back
+    - the deep eaves over the classroom windows
+    - the entrance with rounded wing walls on the east side
+    - next to it, the coloured glass panel with a deer, a bird and a flower, given by former pupils in 1965 for the school's 40th birthday
+  category: schools
+  lat: 52.4094
+  lng: 4.961304
+  address: Termietergouw 4-5, Zunderdorp
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9e70ab66-884b-4df9-b65d-8e3718b76825" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200705"
+    built: "1925"
+    architect: Schuitemaker
+    listed: 2013
+    original_use: Protestant primary school with teacher's house
+  photos: []
+  sources:
+    - city:200705 (register text)
+  nl:
+    title: School met den Bijbel, Zunderdorp
+    summary: Dorpsschool met twee lokalen uit 1925, met vele dakoverstekken die sterk doen denken aan de architectuur van Frank Lloyd Wright, in een typisch Hollandse variant met schilddaken en platte daken.
+    body: |
+      Voordat deze school gebouwd werd, was er alleen de Zunderdorpschool in de Kerklaan 25. Voor de leerlingen die thuis opgevoed werden met de bijbel was geen voorziening getroffen. De Protestantse Vereniging De School met den Bijbel in Zunderdorp heeft toen dit schoolgebouw laten bouwen, aan de Termietergouw, die volgens de kaart van Boonacker (1624) leidde naar een gehucht dat Der Mied genaamd was. De school is in 1925 ontworpen door architect Schuitemaker. Zij bestaat uit twee schoollokalen, maar heeft geen gymnastieklokaal. In deze twee lokalen werden alle zes klassen van de lagere school ondergebracht; per lokaal was slechts één onderwijzer.
+
+      De school is een bijzonder ontwerp met vele dakoverstekken, waarvan vooral de achterzijde sterk doet denken aan de architectuur van de Amerikaanse architect Frank Lloyd Wright. Terwijl Wright vaker met platte daken werkt, heeft Schuitemaker een typisch Hollandse variant gemaakt van platte daken met schilddaken, waardoor het beter in het Nederlandse landschap past. De onderste helft van het gebouw is opgetrokken in rode baksteen, daarboven in gele baksteen. De school is in 1995 gesloten en daarna verbouwd om als kinderopvang dienst te doen. Samen met de onderwijzerswoning op nummer 5 vormt het een ensemble aan de rand van het dorp.
+
+      Let op:
+      - de achterzijde met vijf bouwblokken en zes platte daken van verschillende hoogte
+      - het overstekende schilddak boven de lokalen
+      - de entree met half afgeronde muurwangen aan de oostzijde
+      - het glas-appliquéraam met een hert, een vogel en een bloem: '1-12-1965 aangeboden door oud leerlingen t.g.v. het 40 jarig bestaan van de school'
+    attributes:
+      original_use: Protestants-christelijke lagere school met onderwijzerswoning
+    sources:
+      - https://data.amsterdam.nl/monumenten/9e70ab66-884b-4df9-b65d-8e3718b76825
+
+# ================================================================ Schellingwoude
+
+- title: Schellingwouderkerk and bandstand
+  summary: A white church on a terp below the dike, where churches have stood since the 14th century. In the 1916 flood farmers kept their cattle dry inside it. Its little wooden bandstand sits on the green in front.
+  body: |
+    Schellingwoude was once an important village with its own government and a seat in the Waterlandse Unie, but it shrank: in 1572 Spanish troops burned it, and by 1857 it had only 25 houses left and was merged into Ransdorp. The church stands not on the dike but just below it, on a *terp* (a raised mound) at the Wijkergouw. Excavations showed churches here from the early 14th century. The present building is 17th-century at heart, restored in 1835 and given its current look in 1866, as a stone by the door says: a white plastered hall church with a slim slate spire, obelisk ornaments on the tower corners and windows with Saint Andrew's crosses. During the 1916 flood it served as a stable to keep the farmers' cattle dry.
+
+    The church went out of use in the late 1980s; Stadsherstel Amsterdam has owned it since 1998, restored it in 2000 and rents it out for weddings and events. Inside are a pulpit of 1619 and a church chest painted with a text of 1659 boasting that Schellingwoude fought for fifty years against six villages and two towns over the cost of the sea dike, and won. In front stands a wooden octagonal bandstand, one of four built around 1910 to 1925 by unemployed shipbuilders for the Waterland villages. Church, bandstand and once the school made up the whole village centre.
+
+    Look for:
+    - the dated stone of 1866 beside the entrance
+    - the gilded clock faces and the weathercock
+    - the bandstand's spider-web floor and ceiling boarding
+    - the 1659 dike text on the church chest, if the church is open
+  category: religious
+  lat: 52.383557
+  lng: 4.965357
+  address: Wijkergouw 6
+  links:
+    - { label: Rijksmonumentenregister (508538), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/508538" }
+    - { label: Monumentenregister Amsterdam (bandstand), url: "https://data.amsterdam.nl/monumenten/c8640b17-b04a-4d0d-b861-b2ad7c42461f" }
+    - { label: Wikipedia (nl) Schellingwouderkerk, url: "https://nl.wikipedia.org/wiki/Schellingwouderkerk" }
+    - { label: Wikipedia (nl) Schellingwoude, url: "https://nl.wikipedia.org/wiki/Schellingwoude" }
+  attributes:
+    rank: Nice
+    heritage_status: National + municipal monument
+    monument_number: 508538, 200509
+    built: 17th century, restored 1835, present look 1866; bandstand about 1910–1925
+    listed: 1997
+    original_use: Dutch Reformed church; bandstand
+  photos:
+    - commons:File:Schellingwouderkerk, 1866, Amsterdam-Noord.jpg
+    - commons:File:Schellingwoude church with music dome at day - panoramio.jpg
+    - commons:File:Schellingwoude, Kerk, Steenlegging.jpg
+  sources:
+    - rce:508538 (register description)
+    - city:200509 (register text)
+    - https://nl.wikipedia.org/wiki/Schellingwouderkerk
+    - https://nl.wikipedia.org/wiki/Schellingwoude
+  nl:
+    title: Schellingwouderkerk en muziekkoepel
+    summary: Witgepleisterde zaalkerk op een terp onderaan de dijk, waar sinds het begin van de 14e eeuw kerken hebben gestaan. Tijdens de watersnood van 1916 diende de kerk als stal. Kerk en koepel vormen samen het hart van het dorp.
+    body: |
+      Ooit was Schellingwoude een belangrijk dorp met een eigen bestuur. Het was onderdeel van de Waterlandse Unie. In 1572 werd Schellingwoude platgebrand door Spaanse troepen, en in 1857 werd het dorp met nog maar 25 huizen bij de gemeente Ransdorp gevoegd. De kerk staat binnendijks, onderaan het talud van de Schellingwouderdijk, aan de Wijkergouw. Uit historisch onderzoek bleek dat er sinds het begin van de 14e eeuw verschillende kerken op de terp hebben gestaan. Het is een oorspronkelijk uit de 17de eeuw stammende en in 1835 gerestaureerde zaalkerk waarvan het huidige aanzicht, volgens de tekst op een ingemetselde steen naast de ingang, dateert van 1866. Tijdens de watersnood in 1916 werd de kerk als stal gebruikt om het vee van de boeren uit de buurt droog te houden.
+
+      Vanaf het eind van de jaren 80 is het pand buiten gebruik als kerk. Sinds 1998 is de kerk in handen van Stadsherstel Amsterdam, dat het gebouw in 2000 heeft gerestaureerd; tegenwoordig is het een multifunctionele ruimte en trouwzaal. In de kerk staan een renaissance preekstoel uit 1619 en een kerkekist met een tekst uit 1659: 'Schellinghwoud heeft over vijftigh jaer gestreden. Tegen ses dorpen en twee steden.' De muziekkoepel is geheel vrijgelegen in de kleine onderdijkse dorpskern, in een groene omgeving die gedomineerd wordt door de dorpskerk. De vier identieke koepels zijn gebouwd als werkverschaffingsproject voor werkloze scheepsbouwers. Oorspronkelijk stond hier ook een schoolgebouw, waardoor religie, onderwijs en ontspanning samengebald waren in één kleine, centrale, openbare ruimte.
+
+      Let op:
+      - de ingemetselde steen met het jaartal 1866 naast de ingang
+      - de wijzerplaten met vergulde cijfers en wijzers, en de windhaan
+      - de vloer en het plafond van de koepel in een spinnenwebmotief
+      - de kerkekist met de dijktekst van 1659, als de kerk open is
+    attributes:
+      built: 17e eeuw, gerestaureerd 1835, huidig aanzicht 1866; koepel ca. 1910–1925
+      original_use: Nederlands Hervormde kerk; muziekkoepel
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/508538
+      - https://data.amsterdam.nl/monumenten/c8640b17-b04a-4d0d-b861-b2ad7c42461f
+      - https://nl.wikipedia.org/wiki/Schellingwouderkerk
+      - https://nl.wikipedia.org/wiki/Schellingwoude
+
+- title: Wijkergouw, Schellingwoude
+  summary: The last rural corner of Schellingwoude, wedged between motorways. The all-wooden farm Zeldenrust with its big hay barn, and a wooden parish hall of 1937 built in Waterland style next to the church.
+  body: |
+    Schellingwoude lost most of its old core: in 1943 the German occupiers had fifteen houses on the dike demolished to clear a field of fire for their anti-aircraft guns, and later the Zuiderzeeweg (1957) and the A10 (1990) were laid across its land. On the Wijkergouw the rural village survives, with ditches at right angles to the road that date from the reclamation of the 11th century.
+
+    The farm *Zeldenrust* ("seldom rest") at no. 3, on which this place is pinned, is a *stolphoeve* built entirely of wood, joined by a link to a large hay barn; its looks are mid-19th century. Next to the church, the *wijkgebouw* (parish hall) at no. 12, from 1937, is a simple wooden building in Waterland style, with a canopy, round windows and double doors. It served both church and neighbourhood. In 1938 J. Verkerk built an almost identical one in Holysloot.
+
+    Look for:
+    - Zeldenrust's wooden walls and the link to its hay barn
+    - the round windows and the canopy of the parish hall
+    - the side doors with fanlights on the parish hall
+    - the old ditches crossing the Wijkergouw
+  category: housing
+  lat: 52.383662
+  lng: 4.96468
+  address: Wijkergouw 3 and 12
+  links:
+    - { label: Rijksmonumentenregister (6767), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6767" }
+    - { label: Monumentenregister Amsterdam (no. 12), url: "https://data.amsterdam.nl/monumenten/36becd41-6472-460b-9efc-c326e48308fd" }
+    - { label: Wikipedia (nl) Schellingwoude, url: "https://nl.wikipedia.org/wiki/Schellingwoude" }
+  attributes:
+    rank: Okay
+    heritage_status: National + municipal monument
+    monument_number: 6767, 200976
+    built: mid-19th century (farm); 1937 (parish hall)
+    original_use: Farm; church and neighbourhood hall
+  photos:
+    - commons:File:Dorpshuis Wijkergouw 12 Schellingwoude Amsterdam.JPG
+  sources:
+    - rce:6767 (register description)
+    - city:200976 (register text)
+    - https://nl.wikipedia.org/wiki/Schellingwoude
+  nl:
+    title: Wijkergouw, Schellingwoude
+    summary: Het landelijke hart van Schellingwoude. De geheel houten stolphoeve Zeldenrust met grote kaakberg en het houten wijkgebouw uit 1937 in Waterlandse stijl naast de kerk.
+    body: |
+      In 1943 zijn vijftien huizen van het dorp (Schellingwouderdijk 217 tot 247) gesloopt zodat het afweergeschut van het Duitse bezettingsleger vrij schootsveld had. De historische kern van Schellingwoude is hiermee verdwenen. Over het grondgebied zijn de Zuiderzeeweg (1957) en de A10 (1990) aangelegd. Ondanks dat is het landelijk karakter nog goed te zien op de Wijkergouw, met de monumentale houten stolpboerderij en enkele sloten dwars op de Wijkergouw, nog daterend van de ontginningstijd.
+
+      Boerderij Zeldenrust (nr. 3), waar de speld staat, is een geheel houten stelphoeve, door een tussenlid verbonden met een grote kaakberg, met uiterlijke vormen van het midden van de 19e eeuw. Het wijkgebouw (nr. 12) is ontworpen in 'Waterlandse stijl' en sluit door zijn opzet, schaal en vormgeving aan bij het historisch beeld van het dorp. Het heeft van meet af aan een belangrijke sociaal-maatschappelijke rol vervuld, niet alleen voor activiteiten van de Schellingwouderkerk, maar ook voor de buurt. In navolging van Wijkergouw 12 ontwierp J. Verkerk in 1938 voor de Hervormde Gemeente van Holysloot een vrijwel identiek gebouwtje.
+
+      Let op:
+      - de houten wanden van Zeldenrust en het tussenlid naar de kaakberg
+      - de luifel en de ronde venstertjes van het wijkgebouw
+      - de openslaande deuren met bovenlichten in de zijgevel van het wijkgebouw
+      - de sloten dwars op de Wijkergouw
+    attributes:
+      built: midden 19e eeuw (boerderij); 1937 (wijkgebouw)
+      original_use: Boerderij; kerkelijk en buurtgebouw
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6767
+      - https://data.amsterdam.nl/monumenten/36becd41-6472-460b-9efc-c326e48308fd
+      - https://nl.wikipedia.org/wiki/Schellingwoude
+
+- title: Schellingwouderbrug
+  summary: The 1957 arch-and-bascule bridge that gave Amsterdam-Noord its first fixed road link to the rest of the city. The steel arch over the Buiten-IJ is a landmark of the city's eastern edge.
+  body: |
+    For centuries Noord was reached by ferry. The first fixed crossing came only in 1957, and not in the city centre but out east by the village of Schellingwoude: the Schellingwouderbrug over the Buiten-IJ, carrying the Zuiderzeeweg from Zeeburgereiland to Noord. It was designed by the bridge department of Rijkswaterstaat and consists of two concrete approach viaducts, a steel arch bridge and a double bascule span that opens for shipping, operated from the control post of the neighbouring Oranjesluizen. Its 660 prestressed concrete beams were cast by the contractor Werkspoor in a temporary field factory near the site.
+
+    Between 2011 and 2014 Rijkswaterstaat renovated it with a new deck, a new arch and new moving parts, and widened the cycle and footpaths. It remains a key cycle route between Noord and Oost: when the bascule jammed open for half an hour, cyclists found Noord briefly cut off.
+
+    Look for:
+    - the arch from the Schellingwouderdijk or the Oranjesluizen
+    - the bascule leaves opening for a ship
+    - the view west over the locks and the IJ from the cycle path
+  category: infrastructure
+  lat: 52.378697
+  lng: 4.967229
+  address: Zuiderzeeweg, between Schellingwoude and Zeeburgereiland
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Schellingwouderbrug" }
+    - { label: Bruggenstichting (Bruggenmagazine), url: "https://www.bruggenstichting.nl/images/bruggen2014/Schellingwouderbrug.pdf" }
+    - { label: Wikipedia (nl) Oranjesluizen, url: "https://nl.wikipedia.org/wiki/Oranjesluizen" }
+    - { label: NH Nieuws (bridge fault), url: "https://www.nhnieuws.nl/nieuws/363279/storing-met-schellingwouderbrug-zorgde-halfuur-lang-dat-noord-onbereikbaar-was-voor-fietsers" }
+  attributes:
+    rank: Okay
+    built: "1957"
+    architect: Rijkswaterstaat, Directie Bruggen
+    original_use: Road bridge
+  photos:
+    - commons:File:Schellingwouderbrug Oranjesluizen.jpg
+    - commons:File:Nieuwe boogconstructie Schellingwouderbrug.jpg
+    - commons:File:Brug bij Schellingwoude, Bestanddeelnr 908-7335.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Schellingwouderbrug
+    - https://www.bruggenstichting.nl/images/bruggen2014/Schellingwouderbrug.pdf
+    - https://nl.wikipedia.org/wiki/Oranjesluizen
+    - https://www.nhnieuws.nl/nieuws/363279/storing-met-schellingwouderbrug-zorgde-halfuur-lang-dat-noord-onbereikbaar-was-voor-fietsers (facts only)
+  nl:
+    title: Schellingwouderbrug
+    summary: De brug werd geopend in 1957 en was de eerste vaste oeververbinding tussen Amsterdam-Noord en de rest van de stad. Een boogbrug en een dubbele basculebrug over het Buiten IJ.
+    body: |
+      De Schellingwouderbrug is een verkeersbrug over het Buiten IJ. De brug verbindt het Zeeburgereiland (Amsterdam-Oost) en Amsterdam-Noord met elkaar en ligt iets ten oosten van het dorp Schellingwoude, waaraan hij zijn naam ontleent. De brug werd geopend in 1957 en was de eerste vaste oeververbinding tussen Amsterdam-Noord en de rest van de stad. In opdracht van het Ministerie van Verkeer en Waterstaat ontwierp de toenmalige Directie Bruggen deze overbrugging. Het geheel bestaat uit twee betonnen opritten (de aanbruggen Zuid en Noord), een boogbrug en een dubbele basculebrug. De benodigde 660 balken van voorgespannen beton werden door de aannemer Werkspoor Amsterdam in een zogeheten veldfabriek gemaakt. De brug wordt geopend en gesloten vanuit de bedienpost van de Oranjesluizen.
+
+      Tussen 2011 en 2014 werd de brug door Rijkswaterstaat gerenoveerd. De brug werd toen voorzien van een nieuw brugdek en een nieuwe boogconstructie. Om de brug veiliger te maken, werden de fiets- en voetpaden verbreed.
+
+      Let op:
+      - de boog, gezien vanaf de Schellingwouderdijk of de Oranjesluizen
+      - de basculedelen die opengaan voor de scheepvaart
+      - het uitzicht over de sluizen en het IJ vanaf het fietspad
+    attributes:
+      architect: Rijkswaterstaat, Directie Bruggen
+      original_use: Verkeersbrug
+    sources:
+      - https://nl.wikipedia.org/wiki/Schellingwouderbrug
+      - https://www.bruggenstichting.nl/images/bruggen2014/Schellingwouderbrug.pdf
+      - https://nl.wikipedia.org/wiki/Oranjesluizen
+
+# ================================================================ Durgerdam
+
+- title: Finse school, Durgerdam
+  summary: A wooden four-classroom school of 1949, one of more than a hundred prefabricated schools the Netherlands imported from Finland after the war. Now homes, it still looks the part.
+  body: |
+    Right after the Second World War the Netherlands was short of everything, including schools, and Finland had timber and factories for prefabricated wooden buildings. Between 1948 and 1950 more than a hundred prefab schools were shipped from Finland to the Netherlands. They looked so alike that *Finse school* (Finnish school) became a Dutch term for the type that is still in use.
+
+    Durgerdam got one in 1949: a wooden building with four classrooms on the dike, opposite the village's earlier two-classroom public school of about 1910 at no. 67. It no longer serves as a school; the wooden building has been divided up and is lived in, with its characteristic features kept. It is not a listed monument.
+
+    Look for:
+    - the long, low timber building with its rows of classroom windows
+    - the older brick school across the dike at no. 67
+  category: schools
+  lat: 52.377612
+  lng: 4.988189
+  address: Durgerdammerdijk 68
+  links:
+    - { label: Monumenten in Nederland (DBNL), url: "https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0059.php" }
+    - { label: Archinfo Finland (Finnish exports), url: "https://www.archinfo.fi/en/articles/suomesta-vietiin-maailmalle-valtavat-maarat-puutaloja" }
+    - { label: Open Beelden (Finnish schools film), url: "https://openbeelden.nl/media/10402" }
+  attributes:
+    rank: Okay
+    built: "1949"
+    original_use: Primary school
+  photos:
+    - commons:File:Overzicht houten schoolgebouw - Durgerdam - 20409498 - RCE.jpg
+    - commons:File:Overzicht ingang van houten schoolgebouw - Durgerdam - 20409499 - RCE.jpg
+  sources:
+    - https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0059.php (facts only)
+    - https://www.archinfo.fi/en/articles/suomesta-vietiin-maailmalle-valtavat-maarat-puutaloja (facts only)
+    - https://openbeelden.nl/media/10402
+    - https://www.funda.nl/en/detail/koop/amsterdam/huis-durgerdammerdijk-68-b/43336141/ (conversion into a family home)
+  nl:
+    title: Finse school, Durgerdam
+    summary: Een vierklassig houten schoolgebouw uit 1949, een zogeheten Finse school. Tussen 1948 en 1950 werden ruim honderd geprefabriceerde scholen uit Finland naar Nederland gehaald. Nu wordt er gewoond.
+    body: |
+      Na de Tweede Wereldoorlog was er in Nederland gebrek aan schoolgebouwen, terwijl Finland hout had en fabrieken voor geprefabriceerde houten gebouwen. Tussen 1948 en 1950 werden er meer dan honderd geprefabriceerde scholen vanuit Finland naar Nederland geëxporteerd. Door hun herkenbare uiterlijk ontstond het begrip 'Finse school', dat nog steeds gangbaar is.
+
+      In Durgerdam staat zo'n Finse school: een vierklassig houten gebouw uit 1949, tegenover de voormalige openbare lagere school (Durgerdammerdijk 67), een tweeklassig schoolgebouw uit circa 1910. Het gebouw is geen school meer; het houten gebouw is met behoud van karakteristieke elementen verbouwd tot woningen. Het is geen beschermd monument.
+
+      Let op:
+      - het lange, lage houten gebouw met de rijen lokaalramen
+      - de oudere stenen school aan de overkant, nummer 67
+    attributes:
+      original_use: Lagere school
+    sources:
+      - https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0059.php
+    # Dutch written from the facts: no reusable Dutch source text (DBNL is copyrighted).
+
+- title: De Durgerdam, inn since 1664
+  summary: There has been an inn on this spot on the dike since 1664. Long called the Prins te Paard, it was the ferry stop to Amsterdam and a haunt of Prince Hendrik; it is now a small hotel with a restaurant.
+  body: |
+    For a village of fishermen and skippers on the Zuiderzee, the inn was the meeting point with the outside world. The owners date an inn at this spot to 1664, which makes it older than every house in Durgerdam: the village burned in 1687. From the early 18th century it was called *Prins te Paard* (Prince on Horseback), and for a long time it was the stop for the ferry to and from Amsterdam. Prince Hendrik, husband of Queen Wilhelmina, is said to have been a regular.
+
+    It stayed a café and restaurant into the 21st century, last as Zuyderziel. From 2018 the listed building was taken apart and rebuilt on new foundations; it reopened in 2023 as De Durgerdam, a hotel of 14 rooms with the restaurant De Mark. Walkers and cyclists on the dike can still stop for a drink with a view over the IJmeer.
+
+    Look for:
+    - the inn's broad front facing the water side of the dike
+    - the wooden house on a 17th-century frame, its front half raised by a storey in the 19th century, under a pointed gable
+    - the view from the dike toward the Vuurtoreneiland and IJburg
+  category: food-drink
+  lat: 52.377559
+  lng: 4.988498
+  address: Durgerdammerdijk 72–73
+  links:
+    - { label: Rijksmonumentenregister (6635), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6635" }
+    - { label: Aedes (history of no. 73), url: "https://aedesrealestate.netlify.app/en/our-places/durgerdammerdijk-73" }
+    - { label: Michelin Guide, url: "https://guide.michelin.com/en/hotels-stays/amsterdam/de-durgerdam-13133" }
+    - { label: Dezeen (2023), url: "https://www.dezeen.com/2023/12/11/de-durgerdam-hotel-aedes-buro-belen/" }
+    - { label: Wikipedia (nl) Durgerdam, url: "https://nl.wikipedia.org/wiki/Durgerdam" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "6635"
+    built: 17th century (inn since 1664)
+    listed: 1970
+    original_use: Inn and ferry house
+  photos:
+    - commons:File:Durgerdammerdijk 72.JPG
+  sources:
+    - rce:6635 (register description: Durgerdammerdijk 72, 73 and 73A)
+    - https://aedesrealestate.netlify.app/en/our-places/durgerdammerdijk-73 (facts only)
+    - https://guide.michelin.com/en/hotels-stays/amsterdam/de-durgerdam-13133 (facts only)
+    - https://www.dezeen.com/2023/12/11/de-durgerdam-hotel-aedes-buro-belen/ (facts only)
+  nl:
+    title: De Durgerdam, herberg sinds 1664
+    summary: Sinds 1664 staat er een herberg op deze plek aan de dijk. Lang heette hij de Prins te Paard en was hij de halte van het veer naar Amsterdam; nu is het een klein hotel met restaurant.
+    body: |
+      Voor een dorp van vissers en schippers aan de Zuiderzee was de herberg het contactpunt met de buitenwereld. Volgens de eigenaar staat hier sinds 1664 een herberg, ouder dan alle huizen in Durgerdam: het dorp brandde in 1687 af. Vanaf het begin van de 18e eeuw heette de herberg Prins te Paard, en lange tijd was het de aanlegplaats van het veer van en naar Amsterdam. Prins Hendrik, de echtgenoot van koningin Wilhelmina, zou er vaste gast zijn geweest.
+
+      Het pand bleef tot in de 21e eeuw een café-restaurant, het laatst als Zuyderziel. Vanaf 2018 werd het monumentale pand gedemonteerd en op een nieuwe fundering hersteld; in 2023 ging het open als De Durgerdam, een hotel met 14 kamers en restaurant De Mark. Wandelaars en fietsers op de dijk kunnen er nog altijd iets drinken met uitzicht over het IJmeer.
+
+      Let op:
+      - de brede gevel aan de dijk
+      - het houten huis met 17e-eeuws houtskelet, waarvan de voorste helft in de 19e eeuw met een verdieping is verhoogd, met puntvormig voorschot
+      - het uitzicht vanaf de dijk op het Vuurtoreneiland en IJburg
+    attributes:
+      original_use: Herberg en veerhuis
+    sources:
+      - https://aedesrealestate.netlify.app/en/our-places/durgerdammerdijk-73
+    # Dutch written from the facts: the sources are English-language.
+
+- title: Kinselmeer and the Durgerdam dike
+  summary: A lake behind the old Waterland sea dike, with meadow-bird reserve all around and the IJmeer on the other side. Amsterdammers who couldn't afford a holiday joked they went to "Lago di Kinsel".
+  body: |
+    North of Durgerdam the *Uitdammerdijk*, part of the old Waterlandse Zeedijk, runs between two waters: the IJmeer (once the Zuiderzee) on one side and the Kinselmeer on the other. The lake is named after two hamlets that once lay nearby, Grote and Kleine Keynsel, abandoned as the farms of Waterland gathered into the villages. In the storm flood of 1825 the defensive dike work called the *Stenen Beer* disappeared into the Zuiderzee here, and the lake grew much bigger, swallowing part of the Bloemendalergouw, the road from Ransdorp to the dike.
+
+    Before the 1921 annexation there were plans to fill the lake with dredgings from Amsterdam's canals and city rubbish to make 125 hectares of market gardens. It stayed water. Generations of Amsterdammers who could not afford to go away spent their free days at "Lago di Kinsel en Dimant" (the Kinselmeer and Diemen); in the early 20th century a bathing place called De Badhoeve stood where a campsite of that name is now. Today nature groups and Staatsbosbeheer own the land around it as a protected meadow-bird area, and boats can sail from here via Ransdorp, Holysloot and Broek in Waterland to Monnickendam. In long hot spells blue-green algae sometimes make the water unfit for swimming.
+
+    Look for:
+    - the dike road with water on both sides
+    - godwits and lapwings in the meadows in spring
+    - the Ransdorp tower on the skyline to the west
+  category: green
+  lat: 52.391166
+  lng: 5.018806
+  address: Uitdammerdijk, north of Durgerdam
+  links:
+    - { label: Wikipedia (nl) Kinselmeer, url: "https://nl.wikipedia.org/wiki/Kinselmeer" }
+    - { label: Staatsbosbeheer (Waterland-Oost), url: "https://www.staatsbosbeheer.nl/-/media/waterland/brochure-natuurherstel-waterland-oost-240722.pdf" }
+    - { label: Wikipedia (nl) Ransdorp, url: "https://nl.wikipedia.org/wiki/Ransdorp" }
+  attributes:
+    rank: Nice
+  photos:
+    - commons:File:Kinselmeer.jpg
+    - commons:File:Kinselmeer-APR2018.jpg
+    - commons:File:Vakantiegangers zoeken verkoeling in Kinselmeer, Bestanddeelnr 926-5206.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Kinselmeer
+    - https://nl.wikipedia.org/wiki/Ransdorp
+    - https://www.staatsbosbeheer.nl/-/media/waterland/brochure-natuurherstel-waterland-oost-240722.pdf (facts only)
+  nl:
+    title: Kinselmeer en de Durgerdammerdijk
+    summary: Een meer achter de oude Waterlandse Zeedijk, met een beschermd weidevogelgebied eromheen en het IJmeer aan de andere kant. Amsterdammers zonder geld voor vakantie gingen naar 'Lago di Kinsel en Dimant'.
+    body: |
+      Het Kinselmeer ligt ten noorden van Durgerdam en ten oosten van Ransdorp, aan de Uitdammerdijk langs het IJmeer tussen Durgerdam en Uitdam. De naam is ontleend aan twee dorpjes die hier vroeger in de buurt lagen, Grote en Kleine Keynsel. Bij de dijkdoorbraak van 1825 werd het Kinselmeer sterk vergroot, toen tijdens een zware storm het in de Waterlandse Zeedijk gelegen verdedigingswerk de Stenen Beer in de Zuiderzee verdween. Een deel van de Bloemendalergouw, de verbindingsweg van Ransdorp naar de Waterlandse Zeedijk, verdween in het Kinselmeer.
+
+      Voor de annexatie van 1921 werd gedacht aan demping van het Kinselmeer met bagger uit de Amsterdamse grachten en afval uit de stad, wat ruim 125 hectare goede tuinbouwgrond zou kunnen opleveren. Vroeger gingen veel Amsterdammers niet op vakantie vanwege geldgebrek. Als werd gevraagd waar ze hun vrije tijd doorbrachten, gingen ze steevast naar 'Lago di Kinsel en Dimant' (Kinselmeer en Diemen). Aan het begin van de 20e eeuw was er een zwembad genaamd De Badhoeve, op de plek waar later Camping De Badhoeve werd gevestigd. Rondom het Kinselmeer ligt een beschermd weidevogelgebied. Vanaf het Kinselmeer is het mogelijk met de boot via Ransdorp, Holysloot, Broek in Waterland en Monnickendam het IJsselmeer op te varen. Het water is in de zomermaanden door blauwalg na langdurige warme perioden soms niet geschikt als zwemwater.
+
+      Let op:
+      - de dijk met aan beide kanten water
+      - grutto's en kieviten in de weilanden in het voorjaar
+      - de toren van Ransdorp aan de horizon in het westen
+    sources:
+      - https://nl.wikipedia.org/wiki/Kinselmeer
+      - https://nl.wikipedia.org/wiki/Ransdorp
+
+- title: Vuurtoreneiland
+  summary: Amsterdam's only lighthouse, on a fort island in the IJmeer that was part of the Stelling van Amsterdam. Since 2013 a seasonal restaurant has brought guests out by boat to a glasshouse and the old barracks.
+  body: |
+    The island was made in 1701 to carry a light, the *Hoek van 't IJ*, marking the way into the IJ for ships from the Zuiderzee. The first lighthouse was a square stone building; in 1893 it was replaced by the present octagonal open tower of cast iron and steel, the lighthouse *De IJdoorn*, probably designed by A.C. van Loo: 14.75 metres tall, five storeys, with a copper-domed lantern ringed by a gallery. It has been a national monument since 1981. In 1809 a military post was set up here as one of Krayenhoff's defence posts, expanded in 1844 into a real fort, enlarged in 1885 as a coastal battery and taken into the Stelling van Amsterdam, the ring of forts now on the UNESCO World Heritage list. With Fort Pampus and Fort Diemerdam it was to guard Amsterdam against attack from the Zuiderzee.
+
+    The light went out in 2003 when the last keeper retired, burned again from 2005 and has been dark since the end of 2016. The island belongs to the state and is managed by Staatsbosbeheer. Since 2013 a restaurant has given the island new use: dinners in a glass house in summer and in the old barracks in winter, reached only by the historic ferry IJveer XIII from the Veemkade by the Lloyd Hotel. In 2026 chef Benny Blisto of Restaurant Bak took over the kitchen. A narrow bridge from 1996 links the island to the mainland but is not open to the public.
+
+    Look for:
+    - the cast-iron lighthouse of 1893 from the Durgerdam dike
+    - the earthworks and barracks of the fort
+    - the keeper's house of 1951
+  category: food-drink
+  lat: 52.371813
+  lng: 5.014077
+  address: Vuurtoreneiland, IJmeer off Durgerdam
+  links:
+    - { label: Rijksmonumentenregister (6788), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6788" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Vuurtoreneiland" }
+    - { label: Vuurtoreneiland (restaurant), url: "https://vuurtoreneiland.nl/" }
+    - { label: Amsterdam Now (2026 chef), url: "https://www.amsterdamnow.com/en/?p=80088" }
+    - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Vuurtoreneiland" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "6788"
+    built: 1701 (island); 1893 (lighthouse); 1844 (fort)
+    architect: A.C. van Loo (lighthouse, probably)
+    listed: 1981
+    original_use: Lighthouse island and fort
+  photos:
+    - commons:File:Vuurtorentje Durgerdam.jpg
+  sources:
+    - rce:6788 (register description: the lighthouse, "bij Vuurtoreneiland 1")
+    - https://nl.wikipedia.org/wiki/Vuurtoreneiland
+    - https://vuurtoreneiland.nl/ (facts only)
+    - https://www.amsterdamnow.com/en/?p=80088 (facts only)
+    - https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0059.php (lighthouse name De Ydoorn)
+  nl:
+    title: Vuurtoreneiland
+    summary: Het eilandje in het IJmeer bij Durgerdam werd in 1701 aangelegd voor een lichtbaken en werd later een fort in de Stelling van Amsterdam. Sinds 2013 is er een seizoensrestaurant, alleen per boot bereikbaar.
+    body: |
+      Het Vuurtoreneiland is een eilandje in het IJmeer net uit de kust van de polder IJdoorn bij Durgerdam. Het is in 1701 aangelegd om een lichtbaken te kunnen plaatsen, Hoek van 't IJ. Aanvankelijk was de vuurtoren een vierkant, stenen gebouw. Dit is in 1893 vervangen door een achtkantige, conische, opengewerkte toren van gietijzer en profielstaal, waarschijnlijk naar ontwerp van A.C. van Loo. De toren is 14,75 m hoog en telt vijf etages, waarvan de bovenste gesloten is. Rond het lichthuis met koperen koepel bevindt zich een omloop rustend op consoles en voorzien van balustrade. De vuurtoren is sinds 1981 een rijksmonument. In 1809 werd op het eiland een militaire post (onder de naam Werk aan het IJ) gevestigd, als onderdeel van de Posten van Krayenhoff, die in 1844 werd uitgebouwd tot een heus vestingwerk. Dat werd in 1883 opgenomen in de Stelling van Amsterdam, waarin het met Fort Pampus en Fort Diemerdam Amsterdam moest verdedigen tegen aanvallen vanuit de Zuiderzee. In 1885 werd het eiland vergroot voor de Kustbatterij bij Durgerdam.
+
+      Het licht in de vuurtoren werd in 2003 gedoofd, na de pensionering van de laatste vuurtorenwachter. Van 2005 tot eind 2016 was het licht weer in bedrijf. Het eiland is staatseigendom en wordt beheerd door Staatsbosbeheer. Vanaf 2013 is er via een herbestemmingsproject een restaurant gevestigd, 's zomers in een glazen huis en 's winters in de voormalige kazerne. Gasten varen erheen met het historische IJveer XIII vanaf de Veemkade bij het Lloyd Hotel. Sinds de zomer van 2026 staat chef Benny Blisto van Restaurant Bak in de keuken. Het eiland is in 1996 met een smalle brug aan het vasteland verbonden, maar die is niet vrij toegankelijk.
+
+      Let op:
+      - de gietijzeren vuurtoren uit 1893, te zien vanaf de dijk bij Durgerdam
+      - de wallen en de kazerne van het fort
+      - de lichtwachterswoning uit 1951
+    attributes:
+      built: 1701 (eiland); 1893 (vuurtoren); 1844 (fort)
+      original_use: Vuurtoreneiland en fort
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6788
+      - https://nl.wikipedia.org/wiki/Vuurtoreneiland
+      - https://vuurtoreneiland.nl/
