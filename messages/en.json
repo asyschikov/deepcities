@@ -433,5 +433,6 @@
   "cluster_label": "Group nearby pins",
   "cluster_off": "Every pin",
   "cluster_on": "Grouped pins",
-  "cluster_count": "{{count}} places here: zoom in"
+  "cluster_count": "{{count}} places here: zoom in",
+  "header_breadcrumbs": "You are here"
 }

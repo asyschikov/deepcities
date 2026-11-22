@@ -114,6 +114,13 @@ export const collection = sqliteTable("collection", {
   tagline: text("tagline"),
   description: text("description"),
   city: text("city").notNull(),
+  /**
+   * The city's own map ("Deep Amsterdam"): breadcrumbs stop at the city,
+   * and the city page lists it first.
+   */
+  cityDefault: integer("city_default", { mode: "boolean" })
+    .notNull()
+    .default(false),
   centerLat: real("center_lat").notNull(),
   centerLng: real("center_lng").notNull(),
   zoom: real("zoom").notNull().default(13),

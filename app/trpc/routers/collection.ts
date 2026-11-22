@@ -53,7 +53,8 @@ export const collectionRouter = router({
   list: publicProcedure.query(async ({ ctx }) => {
     const [rows, counts] = await Promise.all([
       ctx.db.query.collection.findMany({
-        orderBy: (c, { asc }) => asc(c.createdAt),
+        // A city's own map first.
+        orderBy: (c, { asc, desc }) => [desc(c.cityDefault), asc(c.createdAt)],
       }),
       ctx.db
         .select({ collectionId: place.collectionId, n: count() })
@@ -66,6 +67,7 @@ export const collectionRouter = router({
       id: c.id,
       slug: c.slug,
       citySlug: citySlug(c.city),
+      cityDefault: c.cityDefault,
       title: c.title,
       tagline: c.tagline,
       city: c.city,

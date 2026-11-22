@@ -116,7 +116,9 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   routes and documents below (`/amsterdam/sights/p/<id>`). The city segment is derived
   from `collection.city` (`citySlug`, `app/lib/cities.ts`); `/<city>` lists that city's
   maps and `/` redirects to `/amsterdam` while there is one city. Map slugs are still
-  unique site-wide. There are no old-address redirects or slug aliases: renaming a
+  unique site-wide. The header shows where you are: `Deep Cities / Amsterdam / <map>`,
+  without the map segment for the city's own map (`collection.cityDefault`, e.g. Deep
+  Amsterdam), which the city page also lists first. There are no old-address redirects or slug aliases: renaming a
   map changes its address outright (fine while the site is unpublished).
 
 - **State lives in the URL.** Anything a reader can see or choose on a map page is a
