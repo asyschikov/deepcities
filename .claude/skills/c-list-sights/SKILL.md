@@ -68,7 +68,9 @@ with their lead sources, split into slices.
 **Many items** (more than about 8): split them into slices of 8–10 and give each slice to an
 agent. Use the brief, and tell each agent to write only its own files and never write to
 the live site. Use the BrowserOS neo browser for web pages and curl for APIs, with the
-header `User-Agent: deep-cities-research/0.1`. Review what comes back; don't trust it blindly.
+header `User-Agent: deep-cities-research/0.1`. Tell each agent to **close every tab it opened
+before it reports back** (the user doesn't want hundreds of research tabs left open), and close
+your own when you're done. Review what comes back; don't trust it blindly.
 
 ### Rules that matter most
 

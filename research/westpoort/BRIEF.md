@@ -31,7 +31,7 @@ Never write to the live site, never touch app code, never commit.
 - Raw downloads go to
   `/private/tmp/claude-501/-Users-andrey--paradev-worktrees-deepcities-5f7b6710-everything-from-here-current-b8db62f6/7a116976-676c-45d3-a727-63149166d721/scratchpad/wp-$SLICE/`.
 - Web: BrowserOS neo browser (load `mcp__browseros-neo__*` via ToolSearch, open your own tab)
-  for pages; `curl -H "User-Agent: deep-cities-research/0.1"` for APIs. Commons: at most
+  for pages, and **close every tab you opened before you report back**; `curl -H "User-Agent: deep-cities-research/0.1"` for APIs. Commons: at most
   1 request per second, back off on 429.
 
 ## Slices
