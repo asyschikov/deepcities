@@ -1,0 +1,75 @@
+# Airey houses of Slotermeer: one place for two register records (both "in procedure"),
+# see notes/airey.md. Dutch text spliced from nl.wikipedia (Airey-woningen), Gebouwd in
+# Amsterdam, Architectenweb, Strackee and the TU Delft Nemavo-Airey report; facts only
+# and short quotes from the non-wiki sources.
+
+- title: Airey houses of Slotermeer
+  summary: "Grey prefab blocks meant as a stopgap in 1953, built without scaffolding from British-designed concrete posts and panels. The landlord wanted them gone in 2011; residents fought back, and the restored strip is now the heart of the Van Eesteren open-air museum."
+  body: |
+    After the war the Netherlands had too few bricks, bricklayers and money for the houses it needed, so it experimented with building systems. One came from Leeds, where the engineer Sir Edwin Airey (1879–1955) had designed a kit of precast concrete posts and thin concrete panels. An Amsterdam company, Nemavo (Nederlandse Maatschappij voor Volkshuisvesting), was set up in 1947 to adapt it, and of the almost 10,000 Airey homes built in the Netherlands up to 1965, more than half went up in Amsterdam. Because every part of the shell was prefabricated, the blocks rose without scaffolding: the facade panels could be fixed from the inside.
+
+    In Slotermeer, the first new district outside the railway embankment, the architect Jo Berghoef laid out 221 Airey homes and five business units along the Burgemeester De Vlugtlaan in 1952–1953. Thirteen three-storey blocks of upper and lower flats stand partly at right angles and partly at a slant to the avenue, enclosing green courts. Across the avenue, either side of the Burgemeester Fockstraat, four taller blocks of five storeys on a brick ground floor belong to the same scheme. Berghoef himself thought the flat grey fronts looked "cut out of cardboard", and counted on staggered building lines, hedges and trees to bring them to life.
+
+    Meant to last a few decades, the homes were long neglected. In 2011 the housing corporation Eigen Haard decided to demolish the strip; after years of protest by residents, heritage groups and the city it chose renovation instead in 2015. Hooyschuur architects stripped and insulated the blocks from the inside (2016–2018), cleaned the concrete panels rather than painting them, and fitted slim aluminium frames close to the originals. De Alliantie and Rochdale did the same on the Fockstraat blocks; Rochdale's 112 homes were finished in 2021. Both parts are now in the procedure to become municipal monuments, on top of the protected townscape they already sit in.
+
+    Look for:
+    - the small grid of grey concrete panels, each about 60 by 40 cm, with fine joints
+    - blocks set square and at an angle to the avenue, with lawns and hedges between them
+    - the chimney stacks on the end walls and the recessed front doors
+    - the bigger five-storey blocks on the Burgemeester Fockstraat, with their brick ground floor
+  category: housing
+  lat: 52.380595
+  lng: 4.829881
+  address: Burgemeester De Vlugtlaan e.o.; Burgemeester Fockstraat 21-48, Speelmanstraat 1-27, Reina Prinsen Geerligsstraat 2-28
+  links:
+    - { label: Monumentenregister Amsterdam (De Vlugtlaan), url: "https://data.amsterdam.nl/monumenten/d1637f3b-eb79-43c0-a5e8-f78b0fb89239" }
+    - { label: Monumentenregister Amsterdam (Fockstraat), url: "https://data.amsterdam.nl/monumenten/c6f89546-d434-4d02-8812-0e38cf94657a" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Airey-woningen" }
+    - { label: Gebouwd in Amsterdam (De Vlugtlaan), url: "https://gebouwdin.amsterdam.nl/projectdetail/1659" }
+    - { label: Gebouwd in Amsterdam (Fockstraat), url: "https://gebouwdin.amsterdam.nl/projectdetail/3602" }
+    - { label: TU Delft report on Nemavo-Airey (2017), url: "https://research.tudelft.nl/en/publications/nemavo-airey-kernkwaliteiten-amp-transformatiemogelijkheden" }
+  attributes:
+    rank: Nice
+    built: 1952–1953
+    architect: J.F. Berghoef
+    original_use: Social housing with a few shop units
+  photos:
+    - commons:File:Aireywoningen Burgemeester de Vlugtlaan.jpg
+    - commons:File:Uitbreiding woningbouw Slotermeer West, Bestanddeelnr 905-2613.jpg
+  sources:
+    - city:c6f89546-d434-4d02-8812-0e38cf94657a (register record, no text)
+    - city:d1637f3b-eb79-43c0-a5e8-f78b0fb89239 (register record, no text)
+    - https://nl.wikipedia.org/wiki/Airey-woningen
+    - https://architectenweb.nl/nieuws/artikel.aspx?id=36422
+    - https://gebouwdin.amsterdam.nl/projectdetail/1659
+    - https://gebouwdin.amsterdam.nl/projectdetail/3602
+    - https://www.hooyschuur.nl/projecten/burgemeester-de-vlugtlaan
+    - https://www.hooyschuur.nl/projecten/berghoefblokken
+    - https://denijs.nl/projecten/airey-woningen-alliantie-amsterdam/
+    - https://strackee.nl/wp-content/uploads/2018/12/2016_strackee_renovatie-airey-woningen-slotermeer.pdf
+    - https://pure.tudelft.nl/ws/portalfiles/portal/105253401/170628_eindrapport_airey_totaal.pdf
+    - https://www.rochdale.nl/renovatie-sloop-nieuwbouw/dobbebuurt-en-burgemeester-fockstraat/
+  nl:
+    title: Airey-woningen Slotermeer
+    summary: "Grijze systeembouwwoningen van J.F. Berghoef uit 1953, bedoeld als tijdelijke oplossing voor de woningnood. Eigen Haard wilde ze in 2011 slopen; na fel protest van bewoners en erfgoedorganisaties werden ze gerenoveerd en vormen ze nu het hart van het Van Eesteren Buitenmuseum."
+    body: |
+      In de wederopbouwperiode na de Tweede Wereldoorlog werd vanwege de schaarste aan materiële en financiële middelen geëxperimenteerd met nieuwe, industriële bouwwijzen. Naast diverse nieuw ontwikkelde Nederlandse prefab-bouwsystemen bestond er het al langer beproefde Engelse Airey-systeem, genoemd naar de ontwerper, Sir Edwin Airey (1879-1955), ingenieur en directeur van W. Airey and Sons in Leeds. Om dat voor Nederland aan te passen werd in 1947 de Nemavo opgericht. Het Nemavo-Airey-systeem bestond uit een skelet van beton en staal met buiten- en binnenbekleding van beton- en houtvezelplaat. In Nederland zijn tussen 1949 en 1965 bijna tienduizend (9.975) Airey-woningen gebouwd, waarvan ruim de helft (5.393) in Amsterdam, de thuishaven van het systeem. Door de volledige prefabricage van de bovenbouw konden de woningen volledig zonder steigers worden gebouwd; de gevelpanelen werden van binnenuit aangebracht.
+
+      Langs de Burgemeester De Vlugtlaan in Slotermeer werden in 1953 naar ontwerp van J.F. Berghoef 221 Aireywoningen en 5 bedrijfsruimtes gebouwd. De Airey-strook bestaat uit dertien woonblokken van drie bouwlagen, met boven- en benedenwoningen. Door de situering, deels haaks en deels schuin op de Burgemeester de Vlugtlaan, zijn bijzondere groene buitenruimtes gecreëerd. Aan de overkant van de laan, links en rechts van de Burgemeester Fockstraat, staan vier blokken van vijf bouwlagen, waarvan de begane grond is opgetrokken uit metselwerk. Berghoef vond de gevels zelf te vlak: "Een moeilijk punt is dat de gevels zo vlak zijn en het geheel daardoor als uit karton gesneden lijkt." Sprongen in de rooilijn en heggen, heesters en bomen moesten dat goedmaken.
+
+      Na jaren van verwaarlozing besloot woningbouwcorporatie Eigen Haard in 2011 tot sloop. In 2015 werd, na een felle actie door bewoners en erfgoedorganisaties, alsnog besloten tot behoud van het complex. Hooyschuur architecten renoveerde vanaf mei 2016 de eerste 138 woningen: met een volledig geïsoleerd inbouwpakket, nieuwe plattegronden en nieuwe installaties zijn deze naoorlogse systeembouwwoningen voor de toekomst veilig gesteld. De karakteristieke betonnen gevelplaten werden gereinigd en gerestaureerd, niet geschilderd, en speciaal ontwikkelde aluminium kozijnprofielen brengen het oorspronkelijke gevelbeeld terug. Rochdale en de Alliantie renoveerden daarna op dezelfde manier de blokken aan de Burgemeester Fockstraat. De Aireywoningen maken deel uit van het gemeentelijke beschermd stadsgezicht Slotermeer, en beide delen zijn in procedure als gemeentelijk monument.
+
+      Let op:
+      - de betonnen gevelplaten van ongeveer 60 bij 40 centimeter, met een wigvormige stootvoeg
+      - de blokken haaks en schuin op de laan, met gras, heggen en bomen ertussen
+      - de uitgebouwde schoorsteen aan de eindwand en de terugliggende voordeur
+      - de hogere blokken aan de Burgemeester Fockstraat met hun gemetselde begane grond
+    attributes:
+      original_use: Sociale woningbouw met enkele bedrijfsruimtes
+    sources:
+      - https://nl.wikipedia.org/wiki/Airey-woningen
+      - https://architectenweb.nl/nieuws/artikel.aspx?id=36422
+      - https://gebouwdin.amsterdam.nl/projectdetail/1659
+      - https://strackee.nl/wp-content/uploads/2018/12/2016_strackee_renovatie-airey-woningen-slotermeer.pdf
+      - https://pure.tudelft.nl/ws/portalfiles/portal/105253401/170628_eindrapport_airey_totaal.pdf
+      - https://www.rochdale.nl/renovatie-sloop-nieuwbouw/dobbebuurt-en-burgemeester-fockstraat/
