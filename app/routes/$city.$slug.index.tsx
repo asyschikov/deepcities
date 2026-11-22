@@ -165,7 +165,7 @@ const MapIndex = () => {
         <RoutesPanel />
       ) : (
         <>
-          <div className="space-y-3 border-b bg-card/95 p-4 backdrop-blur md:sticky md:top-0 md:z-10">
+          <div className="space-y-3 border-b bg-card/95 p-4 backdrop-blur sticky top-0 z-10">
             <div className="relative">
               <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
               <Input

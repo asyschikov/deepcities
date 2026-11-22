@@ -105,6 +105,9 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   area of one level with its name (`area.layer`; names placed by `labelPoint` and kept
   from overlapping by MapLibre). Display only: places are not linked to or filtered by
   areas, and the place `borough`/`neighbourhood` text fields are separate.
+- **Phones**: the map fills the screen; the panel (`#map-panel`) is a full-screen sheet
+  over it, toggled by a floating List/Details ⇄ Map button. Opening a place, route or form
+  shows it; picking a spot on the map hides it. Open/closed is layout, not URL state.
 - **Pin size** (`?pins=large|small`, a dropdown next to grouped pins; medium when absent):
   `PIN_PX` sets `--pin` on the map, and pins, their borders and the highlight scale with it.
 - **Grouped pins** (`?cluster=true`, a dropdown next to boundaries): nearby place

@@ -413,8 +413,6 @@
   "area_level_borough": "Districts (stadsdelen)",
   "area_level_neighbourhood": "Areas (gebieden)",
   "area_level_subNeighbourhood": "Neighbourhoods (wijken)",
-  "map_bigger": "Bigger map",
-  "map_smaller": "Smaller map",
   "area_level_short_municipality": "City",
   "area_level_short_borough": "Districts",
   "area_level_short_neighbourhood": "Areas",
@@ -438,5 +436,8 @@
   "pin_size_label": "Pin size",
   "pin_size_large": "Large pins",
   "pin_size_medium": "Medium pins",
-  "pin_size_small": "Small pins"
+  "pin_size_small": "Small pins",
+  "map_show_map": "Map",
+  "map_show_list": "List",
+  "map_show_details": "Details"
 }
