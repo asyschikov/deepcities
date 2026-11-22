@@ -109,6 +109,16 @@ export const DEFAULT_CONTENT_LANGUAGE: ContentLang = "en";
  * Levels of a city's official area hierarchy, coarse to fine. Named like the
  * place fields; in Amsterdam: gemeente / stadsdeel / gebied / wijk.
  */
+/** Place pin sizes on the map; large is the default. */
+export const PIN_SIZES = ["large", "medium", "small"] as const;
+export type PinSize = (typeof PIN_SIZES)[number];
+/** Pin width in px for each size. */
+export const PIN_PX: Record<PinSize, number> = {
+  large: 26,
+  medium: 18,
+  small: 12,
+};
+
 export const AREA_LEVELS = [
   "municipality",
   "borough",

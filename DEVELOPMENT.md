@@ -105,6 +105,8 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   area of one level with its name (`area.layer`; names placed by `labelPoint` and kept
   from overlapping by MapLibre). Display only: places are not linked to or filtered by
   areas, and the place `borough`/`neighbourhood` text fields are separate.
+- **Pin size** (`?pins=medium|small`, a dropdown next to grouped pins; large when absent):
+  `PIN_PX` sets `--pin` on the map, and pins, their borders and the highlight scale with it.
 - **Grouped pins** (`?cluster=true`, a dropdown next to boundaries): nearby place
   pins merge into counted discs (`supercluster`, regrouped as you zoom; the ring shows
   each category's share). Tapping a disc zooms in until it splits. Faded pins are left

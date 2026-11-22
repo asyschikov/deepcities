@@ -16,9 +16,10 @@ import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
 import { ClusterSwitcher } from "~/components/ClusterSwitcher";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
 import { type LngLat, type MapArea, MapView } from "~/components/MapView";
+import { PinSizeSwitcher } from "~/components/PinSizeSwitcher";
 import { Button } from "~/components/ui/button";
 import { areaColor, labelPoint } from "~/lib/areas";
-import type { AreaLevel, ContentLang } from "~/lib/constants";
+import type { AreaLevel, ContentLang, PinSize } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
 import {
   type MapOverlay,
@@ -179,6 +180,21 @@ const MapLayout = () => {
   const isPeerOf = useIsPeerOf();
   // Phones: a taller map for exploring (layout only, so not in the URL).
   const [bigMap, setBigMap] = useState(false);
+
+  // Place pin size (`?pins=small`; large when absent).
+  const pinSize: PinSize = urlSearch.pins ?? "large";
+  const setPinSize = useCallback(
+    (size: PinSize) =>
+      navigate({
+        to: ".",
+        search: (prev: Record<string, unknown>) => ({
+          ...prev,
+          pins: size === "large" ? undefined : size,
+        }),
+        replace: true,
+      }),
+    [navigate],
+  );
 
   // Nearby pins grouped into clusters (`?cluster=true`).
   const clusterPins = urlSearch.cluster === true;
@@ -380,6 +396,7 @@ const MapLayout = () => {
               />
             )}
             <ClusterSwitcher value={clusterPins} onChange={setClusterPins} />
+            <PinSizeSwitcher value={pinSize} onChange={setPinSize} />
           </div>
           <MapView
             center={
@@ -393,6 +410,7 @@ const MapLayout = () => {
             onViewChange={onViewChange}
             markers={markers}
             cluster={clusterPins}
+            pinSize={pinSize}
             activeId={placeId ?? null}
             hoverId={hoverPlaceId}
             focus={focus}

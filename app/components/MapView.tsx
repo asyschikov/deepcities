@@ -10,6 +10,7 @@ import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Supercluster from "supercluster";
+import { PIN_PX, type PinSize } from "~/lib/constants";
 import type { AreaGeometry } from "~/lib/db/schema";
 import { cn } from "~/lib/utils";
 
@@ -73,6 +74,8 @@ interface MapViewProps {
    * place always shows on its own.
    */
   cluster?: boolean;
+  /** Place pin size. */
+  pinSize?: PinSize;
   activeId?: string | null;
   /** A place hovered in the list: drawn prominently with its name. */
   hoverId?: string | null;
@@ -175,6 +178,7 @@ export const MapView = ({
   zoom,
   markers,
   cluster = false,
+  pinSize = "large",
   activeId,
   hoverId = null,
   onMarkerClick,
@@ -472,14 +476,12 @@ export const MapView = ({
       haloRef.current = {
         el,
         // Centred on the pin's head, which sits up-right of its point.
-        marker: new lib.Marker({
-          element: el,
-          anchor: "center",
-          offset: [13, -13],
-        }),
+        marker: new lib.Marker({ element: el, anchor: "center" }),
       };
     }
     const halo = haloRef.current;
+    const head = PIN_PX[pinSize] / 2;
+    halo.marker.setOffset([head, -head]);
     halo.el.style.setProperty("--halo", m.color);
     const label = halo.el.querySelector(".dc-hover-label");
     if (label) label.textContent = m.title;
@@ -493,7 +495,7 @@ export const MapView = ({
       entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
       halo.marker.remove();
     };
-  }, [ready, highlightId, markers]);
+  }, [ready, highlightId, markers, pinSize]);
 
   // Clusters: nearby bright pins merge into a counted disc, coloured by the
   // share of each category in it; tapping one zooms in until it splits.
@@ -766,6 +768,8 @@ export const MapView = ({
   return (
     <div
       ref={containerRef}
+      // Pins, their borders and the highlight ring scale with this.
+      style={{ "--pin": `${PIN_PX[pinSize]}px` } as React.CSSProperties}
       className={cn("h-full w-full bg-muted", className)}
     />
   );
