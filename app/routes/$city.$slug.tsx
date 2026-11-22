@@ -19,7 +19,12 @@ import { type LngLat, type MapArea, MapView } from "~/components/MapView";
 import { PinSizeSwitcher } from "~/components/PinSizeSwitcher";
 import { Button } from "~/components/ui/button";
 import { areaColor, labelPoint } from "~/lib/areas";
-import type { AreaLevel, ContentLang, PinSize } from "~/lib/constants";
+import {
+  type AreaLevel,
+  type ContentLang,
+  DEFAULT_PIN_SIZE,
+  type PinSize,
+} from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
 import {
   type MapOverlay,
@@ -181,15 +186,15 @@ const MapLayout = () => {
   // Phones: a taller map for exploring (layout only, so not in the URL).
   const [bigMap, setBigMap] = useState(false);
 
-  // Place pin size (`?pins=small`; large when absent).
-  const pinSize: PinSize = urlSearch.pins ?? "large";
+  // Place pin size (`?pins=large|small`; medium when absent).
+  const pinSize: PinSize = urlSearch.pins ?? DEFAULT_PIN_SIZE;
   const setPinSize = useCallback(
     (size: PinSize) =>
       navigate({
         to: ".",
         search: (prev: Record<string, unknown>) => ({
           ...prev,
-          pins: size === "large" ? undefined : size,
+          pins: size === "medium" ? undefined : size,
         }),
         replace: true,
       }),

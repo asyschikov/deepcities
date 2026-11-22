@@ -6,10 +6,10 @@ import {
   SelectItem,
   SelectTrigger,
 } from "~/components/ui/select";
-import { PIN_SIZES, type PinSize } from "~/lib/constants";
+import { DEFAULT_PIN_SIZE, PIN_SIZES, type PinSize } from "~/lib/constants";
 import { cn } from "~/lib/utils";
 
-/** How big place pins are drawn: large (default), medium or small. */
+/** How big place pins are drawn: large, medium (default) or small. */
 export const PinSizeSwitcher = ({
   value,
   onChange,
@@ -23,7 +23,9 @@ export const PinSizeSwitcher = ({
   return (
     <Select
       value={value}
-      onValueChange={(v) => onChange(PIN_SIZES.find((s) => s === v) ?? "large")}
+      onValueChange={(v) =>
+        onChange(PIN_SIZES.find((s) => s === v) ?? DEFAULT_PIN_SIZE)
+      }
     >
       <SelectTrigger
         size="sm"
