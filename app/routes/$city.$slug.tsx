@@ -6,10 +6,11 @@ import {
   retainSearchParams,
   useNavigate,
   useParams,
+  useRouterState,
 } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
-import { Maximize2, Minimize2 } from "lucide-react";
+import { List, Map as MapIcon } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
@@ -183,8 +184,16 @@ const MapLayout = () => {
   );
   const [hoverPlaceId, setHoverPlaceId] = useState<string | null>(null);
   const isPeerOf = useIsPeerOf();
-  // Phones: a taller map for exploring (layout only, so not in the URL).
-  const [bigMap, setBigMap] = useState(false);
+  // Phones: the map fills the screen and the panel opens over it. Opening a
+  // place, route or form shows the panel; the map's own page keeps whatever
+  // the reader last chose (layout only, so not in the URL).
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const onMapHome = pathname.replace(/\/$/, "") === `/${city}/${slug}`;
+  const [panelOpen, setPanelOpen] = useState(!onMapHome);
+  // biome-ignore lint/correctness/useExhaustiveDependencies: each new page (pathname) opens the panel
+  useEffect(() => {
+    if (!onMapHome) setPanelOpen(true);
+  }, [onMapHome, pathname]);
 
   // Place pin size (`?pins=large|small`; medium when absent).
   const pinSize: PinSize = urlSearch.pins ?? DEFAULT_PIN_SIZE;
@@ -358,33 +367,41 @@ const MapLayout = () => {
 
   return (
     <MapPageContext.Provider value={state}>
-      <div className="flex flex-col-reverse md:h-[calc(100dvh-3.5rem)] md:flex-row md:overflow-hidden">
-        {/* Its own scroller on desktop: restored on Back, reset on new pages. */}
+      <div className="relative flex h-[calc(100dvh-3.5rem)] overflow-hidden">
+        {/* Its own scroller: restored on Back, reset on new pages. Phones:
+            a full-screen sheet over the map, kept mounted (and scrolled)
+            while hidden; picking a spot on the map hides it. */}
         <aside
           id="map-panel"
           data-scroll-restoration-id="map-panel"
-          className="w-full shrink-0 border-t bg-card md:w-[420px] md:overflow-y-auto md:border-t-0 md:border-r"
+          className={cn(
+            "z-20 overflow-y-auto bg-card max-md:absolute max-md:inset-0 max-md:pb-20 md:w-[420px] md:shrink-0 md:border-r",
+            (!panelOpen || picking) && "max-md:invisible",
+          )}
         >
           <Outlet />
         </aside>
-        {/* Phones: the map stays under the header while the panel scrolls. */}
-        <div
-          className={cn(
-            "sticky top-14 z-20 shadow-sm transition-[height] duration-200 md:relative md:top-0 md:h-auto md:flex-1 md:shadow-none",
-            bigMap ? "h-[70dvh]" : "h-[38dvh]",
-          )}
-        >
+        {!picking && (
           <Button
             type="button"
-            size="icon"
-            variant="secondary"
-            onClick={() => setBigMap((b) => !b)}
-            aria-label={bigMap ? t("map_smaller") : t("map_bigger")}
-            title={bigMap ? t("map_smaller") : t("map_bigger")}
-            className="absolute bottom-8 left-3 z-10 size-9 rounded-full bg-card/95 shadow-md md:hidden"
+            onClick={() => setPanelOpen((o) => !o)}
+            aria-controls="map-panel"
+            aria-expanded={panelOpen}
+            className="absolute bottom-8 left-1/2 z-30 -translate-x-1/2 rounded-full shadow-lg md:hidden"
           >
-            {bigMap ? <Minimize2 /> : <Maximize2 />}
+            {panelOpen ? (
+              <>
+                <MapIcon /> {t("map_show_map")}
+              </>
+            ) : (
+              <>
+                <List />{" "}
+                {onMapHome ? t("map_show_list") : t("map_show_details")}
+              </>
+            )}
           </Button>
+        )}
+        <div className="relative min-w-0 flex-1">
           <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-2">
             {languages.length > 1 && (
               <ContentLangSwitcher
