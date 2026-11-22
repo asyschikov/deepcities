@@ -14,6 +14,8 @@ const opt = <T extends z.ZodType>(schema: T) =>
 export const mapSearchSchema = z.object({
   /** Content language (when not the map's own). */
   lang: opt(contentLangSchema),
+  /** Place pin size (large when absent). */
+  pins: opt(z.enum(["medium", "small"])),
   /** Group nearby place pins into counted clusters (by zoom). */
   cluster: opt(z.boolean()),
   /** Boundary layer: which level of official areas to draw. */
@@ -47,6 +49,7 @@ export const MAP_RETAINED_PARAMS = [
   "lang",
   "areas",
   "cluster",
+  "pins",
   "tab",
   "q",
   "cat",

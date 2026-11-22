@@ -434,5 +434,9 @@
   "cluster_off": "Every pin",
   "cluster_on": "Grouped pins",
   "cluster_count": "{{count}} places here: zoom in",
-  "header_breadcrumbs": "You are here"
+  "header_breadcrumbs": "You are here",
+  "pin_size_label": "Pin size",
+  "pin_size_large": "Large pins",
+  "pin_size_medium": "Medium pins",
+  "pin_size_small": "Small pins"
 }
