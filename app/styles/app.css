@@ -80,11 +80,11 @@
 /* Map markers (plain DOM elements created in MapView). */
 .dc-marker {
   /* --pin: set on the map by its pin size (26px large, 18px, 12px). */
-  width: var(--pin, 26px);
-  height: var(--pin, 26px);
+  width: var(--pin, 18px);
+  height: var(--pin, 18px);
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
-  border: clamp(1.5px, calc(var(--pin, 26px) / 13), 2px) solid white;
+  border: clamp(1.5px, calc(var(--pin, 18px) / 13), 2px) solid white;
   box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
   cursor: pointer;
   transition:
@@ -180,7 +180,7 @@
   pointer-events: none;
 }
 .dc-hover-ring {
-  --ring: calc(var(--pin, 26px) * 2.15);
+  --ring: calc(var(--pin, 18px) * 2.15);
   position: absolute;
   left: calc(var(--ring) / -2);
   top: calc(var(--ring) / -2);
@@ -195,7 +195,7 @@
 .dc-hover-label {
   position: absolute;
   left: 50%;
-  bottom: calc(var(--pin, 26px) + 6px);
+  bottom: calc(var(--pin, 18px) + 6px);
   transform: translateX(-50%);
   white-space: nowrap;
   max-width: 260px;

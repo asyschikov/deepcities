@@ -10,7 +10,7 @@ import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Supercluster from "supercluster";
-import { PIN_PX, type PinSize } from "~/lib/constants";
+import { DEFAULT_PIN_SIZE, PIN_PX, type PinSize } from "~/lib/constants";
 import type { AreaGeometry } from "~/lib/db/schema";
 import { cn } from "~/lib/utils";
 
@@ -178,7 +178,7 @@ export const MapView = ({
   zoom,
   markers,
   cluster = false,
-  pinSize = "large",
+  pinSize = DEFAULT_PIN_SIZE,
   activeId,
   hoverId = null,
   onMarkerClick,
