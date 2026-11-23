@@ -1,0 +1,459 @@
+# Noord round A, slice "volewijck": public art and war memory in Volewijck, the Vogelbuurt
+# and the Noorderpark. Scout items (SCOUT-2.md): 103+136 Noorderpark station, 104 Noorderklankpark,
+# 107 arms with shopping bags, 111 Frieling's light cabinets, 113 Van Gerwen's word plates,
+# 134 Spanjemonument, 135 Friendly Fire (with 140 as a Look for line), 139 Gerben Wagenaar plaque.
+# Merges (108, 109, 112, 114, 115, 138, 141, 146) are in volewijck.yaml and ndsm.yaml.
+# Dutch texts are written from Dutch sources: 4en5mei.nl, nl.wikipedia, Kunstwacht
+# (buitenkunstamsterdam.nl), the city's wall-art register, HCAN and friendly-fire-amsterdam.nl.
+
+# ================================================================ War and memory
+
+- title: Friendly Fire manhole covers
+  summary: Eleven cast-iron manhole covers, and a twelfth added later, mark the streets of Noord where Allied bombs meant for the Fokker works fell in July 1943. The names of the dead run round their rims. A memorial you walk over.
+  body: |
+    In July 1943 Allied bombers tried three times to knock out the Fokker aircraft works on the Papaverweg, which had to build for the German air force. Almost every bomb fell on the homes around it, in the Van der Pekbuurt, the Vogelbuurt and the Gentiaanbuurt. In all 206 people died, 41 of them younger than seventeen. Because the bombs were "ours", the grief stayed quiet for decades: the only memorial, of 2003, stands at the cemetery, and the streets that were hit had nothing.
+
+    For the 75th anniversary the borough asked artist Hester Oerlemans for a memorial in those streets. Her answer is *Friendly Fire*: eleven big manhole covers, set in squares where bombs fell, spread out like the raid itself, and on squares so that people can gather there. Each tells a piece of the story in a few images: a B-17 Flying Fortress, the British Mitchells of 25 July, the French Bostons of 28 July, a young pilot's cockpit dials, the 227-kilo bombs, a war pigeon, a map of the craters drawn in 1943 by a man who cycled to every hit, and the word BANG! (in Dutch also "afraid"). Round the rims run the names of the dead. The first were unveiled on 17 July 2018. Relatives then pointed out missing names and spelling mistakes, so in 2021 a twelfth cover followed, designed with drawings by local schoolchildren.
+
+    The round takes about 45 minutes, in any order. On the way, look at the facades: original houses have Van der Pek's yellow brick bands, houses rebuilt after the bombing do not.
+
+    Look for:
+    - War Pigeon, Van der Pekplein (here)
+    - the Rita church cover, Hagedoornplein: a bomb hit the church during a children's mass
+    - B-17, Kraaienplein; the 1943 map, Hagedoornweg; Mitchell, Meidoornplein
+    - Pilot, Heimansweg at the Jac. P. Thijsseplein; Bombs, Ranonkelkade; BANG!, Lupineplein
+    - Fokker, Distelplein; FRIENDLY FIRE, Mosveld; Boston, Mosplein
+    - the twelfth cover at the corner of Fazantenweg and Meeuwenlaan, where a direct hit on a GP's house and surgery killed 29; at Fazantenweg 14-16 a stone of 1946: "Gebombardeerd 17 juli 1943, herbouwd 1946"
+  category: hidden-history
+  lat: 52.386841
+  lng: 4.907784
+  address: Van der Pekplein (and ten other squares in the Van der Pekbuurt and Vogelbuurt)
+  links:
+    - { label: Friendly Fire Amsterdam, url: "https://friendly-fire-amsterdam.nl/locaties/" }
+    - { label: "HCAN, het putdekselmonument", url: "https://hcan.nl/geschiedenis/een-monument-van-elf-putdeksels/" }
+    - { label: "HCAN, the twelfth cover", url: "https://hcan.nl/geschiedenis/het-kunstwerk-friendly-fire-1943-2018/" }
+    - { label: "4 en 5 mei, Fazantenweg stone", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3095/amsterdam-gevelsteen-aan-de-fazantenweg" }
+    - { label: Wikipedia (nl) Bombardementen op Amsterdam-Noord, url: "https://nl.wikipedia.org/wiki/Bombardementen_op_Amsterdam-Noord" }
+    - { label: "Het Parool, Blikvangers (2026)", url: "https://www.parool.nl/kunst-media/putdeksels-friendly-fire-markeren-plekken-waar-in-juli-1943-bommen-vielen-op-amsterdam-noord~b7d7ea4e/" }
+  attributes:
+    rank: Amazing
+    built: 2018; twelfth cover 2021
+    artist: Hester Oerlemans
+    check: Location
+    check_note: "Pinned on the Van der Pekplein, where the War Pigeon cover lies; the exact spot on the square, and the new spots of the Mosveld and Ranonkelkade covers (moved in 2021), are not mapped."
+  photos:
+    - commons:File:2023 van der Pekplein,Asd-putdeksel (1).jpg
+    - commons:File:2024 Distelplein, Asd-Friendly fire.jpg
+    - commons:File:2020 Kraaienplein, putdeksel.jpg
+    - commons:File:Fazantenweg 14-16.JPG
+  sources:
+    - https://friendly-fire-amsterdam.nl/info/ (commission by the borough end 2016, Wiseguys Urban Art Projects, no memorial in the hardest-hit streets, squares chosen for remembrance)
+    - https://friendly-fire-amsterdam.nl/locaties/ (the eleven locations, 45-minute walk, yellow brick bands on original houses only)
+    - https://friendly-fire-amsterdam.nl/ subpages rita-kerk, flying-fortress-b-17, plattegrond, mitchell-b-25, war-pigeon, piloot, bommen, bang, fokker, vliegtuigen-b-25 (images and their stories; 227-kilo bombs; cyclist's crater map)
+    - https://hcan.nl/geschiedenis/een-monument-van-elf-putdeksels/ (first unveiled 17 July 2018 on the Van der Pekplein; 41 victims under 17; six covers in the Van der Pekbuurt, two near the Mosplein, two at the Rita church and Hagedoornplein, one on the Kraaienplein)
+    - https://hcan.nl/geschiedenis/het-kunstwerk-friendly-fire-1943-2018/ (names in the rims; twelfth cover with corrections, 2021, pupils' drawings)
+    - https://hcan.nl/publicaties/wandelkaart-oorlogsmonumenten-noord-vergeet-niet-het-putdekselmonument/ (twelfth cover unveiled 17 July 2021; 29 killed by a direct hit on Dr Van Haga's practice; Mosveld and Ranonkelkade covers moved in May/June 2021)
+    - https://hcan.nl/monument/putdeksel-mosveld/ (Mosveld cover damaged by street sweepers; first official remembrance 2003)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3095/amsterdam-gevelsteen-aan-de-fazantenweg (text of the 1946 stone)
+    - https://www.parool.nl/kunst-media/putdeksels-friendly-fire-markeren-plekken-waar-in-juli-1943-bommen-vielen-op-amsterdam-noord~b7d7ea4e/ (6 July 2026, covers still in place; paywalled, headline and lead only)
+    - https://makersaanhetij.nl/projecten/mooimakers/geschiedenisroute/ (Van der Pek's yellow brick bands, rebuilt houses without them)
+    - Commons photos of the covers dated 2020, 2023 and 2024; Nominatim for the Van der Pekplein (pin)
+  nl:
+    title: Friendly Fire-putdeksels
+    summary: Elf gietijzeren putdeksels, en later een twaalfde, liggen in de straten van Noord waar in juli 1943 geallieerde bommen voor de Fokkerfabriek vielen. In de randen staan de namen van de doden. Een monument waar je overheen loopt.
+    body: |
+      In juli 1943 probeerden geallieerde bommenwerpers drie keer de Fokkerfabriek aan de Papaverweg uit te schakelen, die voor de Duitse luchtmacht moest werken. Vrijwel alle bommen kwamen op de woonwijken eromheen terecht: de Van der Pekbuurt, de Vogelbuurt en de Gentiaanbuurt. Er vielen 206 doden, onder wie 41 jongens en meisjes jonger dan zeventien. Omdat het 'onze vrienden' waren die de bommen gooiden, was er weinig ruimte voor rouw. Pas in 2003 kwam er een monument, op de begraafplaats; in de getroffen buurt zelf herinnerde niets aan wat er gebeurd was.
+
+      Voor de 75e herdenking vroeg het stadsdeel kunstenares Hester Oerlemans om een kunstwerk in die buurt. Zij maakte *Friendly Fire*: elf grote putdeksels op pleinen waar bommen vielen, verspreid door de wijk zoals het bombardement zelf, en bewust op pleinen zodat er ook herdacht kan worden. Elk deksel vertelt een stukje van het verhaal: een B-17 Flying Fortress, de Engelse Mitchells van 25 juli, de Franse Bostons van 28 juli, het dashboard van een jonge piloot, de bommen van 227 kilo, een oorlogsduif, een kaart met bominslagen die een Amsterdammer in 1943 per fiets bijhield, en het woord BANG!, het geluid van de inslag en het gevoel daarna. In de randen staan de namen van de slachtoffers. Op 17 juli 2018 werden de eerste onthuld. Nabestaanden wezen daarna op ontbrekende namen en spelfouten; in 2021 kwam er een twaalfde deksel bij, met tekeningen van leerlingen uit groep 7 en 8.
+
+      De hele route duurt zo'n drie kwartier, in elke gewenste volgorde. Kijk onderweg naar de gevels: de oorspronkelijke huizen hebben de gele banden van Van der Pek, de na het bombardement herbouwde huizen niet.
+
+      Let op:
+      - War Pigeon, Van der Pekplein (hier)
+      - het deksel bij de Ritakerk, Hagedoornplein: een bom trof de kerk tijdens een kindermis
+      - B-17, Kraaienplein; de kaart van 1943, Hagedoornweg; Mitchell, Meidoornplein
+      - Piloot, Heimansweg hoek Jac. P. Thijsseplein; Bommen, Ranonkelkade; BANG!, Lupineplein
+      - Fokker, Distelplein; FRIENDLY FIRE, Mosveld; Boston, Mosplein
+      - het twaalfde deksel op de hoek Fazantenweg en Meeuwenlaan, waar een voltreffer op huis en praktijk van een huisarts 29 doden eiste; op Fazantenweg 14-16 een gevelsteen uit 1946: 'Gebombardeerd 17 juli 1943, herbouwd 1946'
+    attributes:
+      built: 2018; twaalfde deksel 2021
+      check_note: "Geprikt op het Van der Pekplein, waar het deksel War Pigeon ligt; de precieze plek op het plein en de nieuwe plekken van de deksels op het Mosveld en de Ranonkelkade (in 2021 verlegd) zijn niet bekend."
+    sources:
+      - https://friendly-fire-amsterdam.nl/info/
+      - https://friendly-fire-amsterdam.nl/locaties/
+      - https://hcan.nl/geschiedenis/een-monument-van-elf-putdeksels/
+      - https://hcan.nl/geschiedenis/het-kunstwerk-friendly-fire-1943-2018/
+      - https://hcan.nl/publicaties/wandelkaart-oorlogsmonumenten-noord-vergeet-niet-het-putdekselmonument/
+      - https://hcan.nl/monument/putdeksel-mosveld/
+
+- title: Noorderpark station
+  summary: A metro station with two stories. Trains glide through seven brick gates that seem to be crumbling into computer graphics, and on the platform a plaque recalls a bomber crew who lay under the park for twenty years.
+  body: |
+    Coming up from the IJ tunnel, the metro runs through seven brick gateways at the south end of the platform: *De 7 Poorten* by the artist duo Persijn Broersen and Margit Lukács. They look like the remains of some Amsterdam School building, dark brick with pale keystones, being overgrown by crystal-shaped polygons straight out of a computer game, on a bed of sedum. Pass through and you see growth, bloom and decay in a few seconds. Building began in 2015, then stopped for over a year while the city checked that the steel skeleton would survive thirty years of trains braking and pulling away; it was finished in 2017. In 2021 the national HAVO exam asked pupils to explain why it is not a ruin.
+
+    On the north wall of the platform, under the viaduct, a plaque drawn by comics artist Marvano marks a crash. On 20 December 1942 the Lancaster R5512, returning from a raid on Duisburg, was hit by German flak over Noord and came down in the Volewijkspark, about 30 metres from here. One crewman jumped from the burning plane and was killed on a dormer on the Adelaarsweg; he and two others were buried at De Nieuwe Ooster. The other four sank with the wreck into the soft ground and lay there, listed as missing, for twenty years, until work on the IJ tunnel's approach roads uncovered them in 1962. They are buried at the Canadian War Cemetery in Groesbeek. Local resident Jos de Groot traced the seven men, English and Canadian and aged 19 to 26, and their families; relatives unveiled the plaque on 20 December 2022, eighty years to the day.
+
+    The gates can be seen from every train; the plaque is on the platform, so you need to check in.
+
+    Look for:
+    - the seven gates from the front of a northbound train, just before it stops
+    - the odd bricklaying, partly the master bricklayer's own
+    - the crew's names on the Lancaster plaque
+  category: hidden-history
+  lat: 52.388990
+  lng: 4.919100
+  address: Metrostation Noorderpark, Nieuwe Leeuwarderweg
+  links:
+    - { label: "4 en 5 mei, Gedenkteken Lancaster", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4505/amsterdam-gedenkteken-lancaster" }
+    - { label: Wikipedia (nl) Gedenkteken Lancaster, url: "https://nl.wikipedia.org/wiki/Gedenkteken_Lancaster" }
+    - { label: Wikipedia (nl) Poorten van Noord, url: "https://nl.wikipedia.org/wiki/Poorten_van_Noord" }
+    - { label: "Kunstwacht, De 7 Poorten", url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1166" }
+    - { label: "HCAN, Lancaster monument", url: "https://hcan.nl/geschiedenis/bemanning-neergestorte-bommenwerper-kreeg-na-80-jaar-monument/" }
+    - { label: Stichting Lancaster R5512, url: "https://stichtinglancaster-r5512.nl/" }
+  attributes:
+    rank: Nice
+    built: 2015–2017 (gates); 2022 (plaque)
+    artist: Persijn Broersen and Margit Lukács (gates); Marvano (Lancaster plaque)
+  photos:
+    - commons:File:De Poorten van Noord.jpg
+    - commons:File:1904 Amsterdam NZ-lijn 232 Noorderpark en gedeelte kunstwerk De Poorten van Noord met metro.jpg
+    - commons:File:Gedenkteken Lancaster.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1166 (growth, bloom and decay; Amsterdam School brickwork; game polygons; sedum)
+    - https://nl.wikipedia.org/wiki/Poorten_van_Noord (built from summer 2015, halted for safety recalculation, resumed January 2017, finished late summer 2017; 30-year guarantee; master bricklayer Cor de Vries; HAVO exam 2021)
+    - https://nl.wikipedia.org/wiki/Noorderpark_(metrostation) (gates at the south end of the platform, chosen May 2013; plaque under the viaduct on the north wall)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4505/amsterdam-gedenkteken-lancaster (Duisburg raid, three buried the next day at De Nieuwe Ooster, four found in 1962, Groesbeek, names, unveiling with relatives 20 December 2022)
+    - https://nl.wikipedia.org/wiki/Gedenkteken_Lancaster (flak, Adelaarsweg dormer, Jos de Groot, Marvano, about 30 m from the crash site)
+    - https://hcan.nl/geschiedenis/bemanning-neergestorte-bommenwerper-kreeg-na-80-jaar-monument/ (English and Canadian crew aged 19 to 26)
+    - https://over.gvb.nl/nieuws/gedenkplaat-station-noorderpark-voor-bemanning-britse-bommenwerper/ (22 December 2022, Jos de Groot)
+    - commons:File:Gedenkteken Lancaster.jpg (camera position, used for the pin)
+  nl:
+    title: Metrostation Noorderpark
+    summary: Een metrostation met twee verhalen. De metro rijdt door zeven bakstenen poorten die lijken te verbrokkelen tot computergraphics, en op het perron herinnert een plaquette aan een bemanning die twintig jaar onder het park lag.
+    body: |
+      Nog voor de metro uit de IJtunnel het perron bereikt, rijdt hij door zeven bakstenen poorten aan de zuidkant van het perron: *De 7 Poorten* van het kunstenaarsduo Persijn Broersen en Margit Lukács. Het metselwerk doet denken aan de Amsterdamse School, donkere baksteen met lichte sluitstenen, maar de poorten worden overwoekerd door kristalvormige polygonen die zo uit een computerspel lijken te komen. Eromheen ligt een veld sedum. Wie erdoorheen rijdt, ziet in een oogwenk groei, bloei en verval voorbij trekken. De bouw begon in 2015 en lag daarna ruim een jaar stil, omdat de gemeente zeker wilde weten dat het stalen skelet dertig jaar lang remmende en optrekkende metro's zou doorstaan. In 2017 was het af. In 2021 vroeg het havo-examen leerlingen waarom dit geen ruïne is.
+
+      Aan de noordwand van het perron, onder het viaduct, hangt een gedenkteken getekend door striptekenaar Marvano. Op 20 december 1942 werd de Lancaster R5512, op de terugweg van een bombardement op Duisburg, boven Noord geraakt door Duits afweergeschut. Het toestel stortte neer in het Volewijkspark, zo'n dertig meter hiervandaan. Eén bemanningslid sprong uit het brandende vliegtuig en kwam om op een dakkapel aan de Adelaarsweg; hij en twee anderen werden begraven op De Nieuwe Ooster. De andere vier zakten met het wrak weg in de drassige grond en bleven twintig jaar vermist, tot ze in 1962 bij de aanleg van de toevoerwegen naar de IJtunnel werden gevonden. Ze liggen op de Canadese oorlogsbegraafplaats in Groesbeek. Noorderling Jos de Groot zocht de zeven Engelse en Canadese mannen, tussen 19 en 26 jaar oud, en hun families op. Nabestaanden onthulden het gedenkteken op 20 december 2022, precies tachtig jaar na de crash.
+
+      De poorten zie je vanuit elke metro; voor het gedenkteken op het perron moet je inchecken.
+
+      Let op:
+      - de zeven poorten, vanuit het voorste rijtuig van een metro uit de stad, vlak voor het station
+      - het hier en daar afwijkende metselverband, deels het werk van meestermetselaar Cor de Vries
+      - de namen van de bemanning op de Lancasterplaquette
+    attributes:
+      built: 2015–2017 (poorten); 2022 (plaquette)
+      artist: Persijn Broersen en Margit Lukács (poorten); Marvano (Lancasterplaquette)
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1166
+      - https://nl.wikipedia.org/wiki/Poorten_van_Noord
+      - https://nl.wikipedia.org/wiki/Gedenkteken_Lancaster
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4505/amsterdam-gedenkteken-lancaster
+      - https://hcan.nl/geschiedenis/bemanning-neergestorte-bommenwerper-kreeg-na-80-jaar-monument/
+
+- title: Spanjemonument
+  summary: Two bronze women embrace in mid-air on a steel spiral, for the Dutch volunteers who fought Franco in Spain, many of whom came home to find they had lost their Dutch citizenship. "No pasarán" on the walls.
+  body: |
+    Hundreds of Dutch men and women went to fight Franco in the Spanish Civil War (1936–1939), most in the International Brigades, many as nurses. Those who came back were stripped of their Dutch citizenship for serving in a foreign army, and many had to wait until the 1970s to get it back, longer than some Dutch volunteers in the German army after the next war.
+
+    In 1984 Eddy Roos won a national competition held by the Amsterdam arts council for a monument to them. Not a lover of statues of heroes, he made two women, one Dutch and one Spanish, floating horizontally about five metres up, holding each other by hands and mouths; a stainless-steel spiral, inspired by Tatlin's Monument to the Third International, carries them so that they seem to turn. Harm van Weerden laid concentric circles in the paving, originally in red, yellow and purple, the colours of the Spanish Republic. The plan was to put it on the market square of the Buikslotermeerplein, but that was too busy and the ground too soft, so the two artists went looking themselves and found a nameless car park beside the IJ-tunnel road. On 28 May 1986 veteran Piet Laros unveiled it with mayor Ed van Thijn, and that part of the Hagedoornplein was named Plein Spanje '36-'39. The surviving volunteers needed some time to get used to it.
+
+    Look for:
+    - the two women, best seen from below
+    - the three brick posts with the text in Dutch and Spanish, ending in "No pasarán"
+    - the rings in the paving
+  category: hidden-history
+  lat: 52.387459
+  lng: 4.913860
+  address: Plein Spanje '36-'39
+  links:
+    - { label: "4 en 5 mei, Spanjemonument", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/401/amsterdam-spanjemonument" }
+    - { label: Wikipedia (nl) Spanjemonument, url: "https://nl.wikipedia.org/wiki/Spanjemonument" }
+    - { label: "Wikipedia (nl) Plein Spanje '36-'39", url: "https://nl.wikipedia.org/wiki/Plein_Spanje_'36-'39" }
+    - { label: Wikipedia (nl) Internationale Brigades, url: "https://nl.wikipedia.org/wiki/Internationale_Brigades" }
+    - { label: "Kunstwacht, Spanje monument", url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/335" }
+  attributes:
+    rank: Nice
+    built: "1986"
+    artist: Eddy Roos (sculpture); Harm van Weerden (paving)
+  photos:
+    - commons:File:2021 Spanjemonument-beeld (1).jpg
+    - commons:File:2021 Spanjemonument-plaquette (1).jpg
+    - commons:File:Spanjemonument Eddy Roos Plein Spanje36-39 Amsterdam.JPG
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/401/amsterdam-spanjemonument (granite base, stainless spiral, two bronze figures, inscription)
+    - https://nl.wikipedia.org/wiki/Spanjemonument (1984 competition, Tatlin, Marcos Ana, colours of the paving, Buikslotermeerplein rejected, unveiled 28 May 1986 by Piet Laros with Ed van Thijn, veterans' reaction)
+    - https://nl.wikipedia.org/wiki/Internationale_Brigades (about 700 Dutch volunteers, many nurses; loss of citizenship; restored only in the 1970s, later than for Dutch volunteers in the German army)
+    - https://nl.wikipedia.org/wiki/Plein_Spanje_'36-'39 (named 8 October 1986 by the borough; part of the Hagedoornplein)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/335 (a Dutch and a Spanish woman)
+    - OSM node of the sculpture (pin); Commons photos July 2021
+  nl:
+    title: Spanjemonument
+    summary: Twee bronzen vrouwen omhelzen elkaar zwevend op een stalen spiraal, voor de Nederlanders die in Spanje tegen Franco vochten en bij terugkeer hun Nederlanderschap kwijt waren. 'No pasarán' op de muurtjes.
+    body: |
+      Honderden Nederlanders trokken naar Spanje om in de Spaanse Burgeroorlog (1936-1939) tegen Franco te vechten, de meesten in de Internationale Brigades en veel vrouwen als verpleegster. Wie terugkwam, verloor het Nederlanderschap, omdat hij in dienst was geweest van een vreemde krijgsmacht. Veel Spanjestrijders kregen het pas in de jaren zeventig terug, later dan sommige Nederlanders die in de oorlog daarna vrijwillig in het Duitse leger hadden gediend.
+
+      In 1984 won Eddy Roos een landelijke wedstrijd van de Amsterdamse Kunstraad voor een monument. Roos hield niet van heldenbeelden en bedacht twee vrouwen, een Nederlandse en een Spaanse, die op vijf meter hoogte horizontaal zweven en elkaar met handen en monden vasthouden. Een spiraal van roestvast staal, geïnspireerd op Tatlins Monument voor de Derde Internationale, draagt ze, zodat ze lijken te draaien. Harm van Weerden legde er concentrische cirkels omheen in de bestrating, oorspronkelijk rood, geel en paars, de kleuren van de Spaanse Republiek. Het beeld zou op het marktplein van het Buikslotermeerplein komen, maar dat was te druk en de bodem te drassig. De kunstenaars zochten zelf een nieuwe plek en vonden een naamloze parkeerplaats naast het IJtunneltracé. Op 28 mei 1986 onthulde oud-Spanjestrijder Piet Laros het monument, in het bijzijn van burgemeester Ed van Thijn, en kreeg dit deel van het Hagedoornplein de naam Plein Spanje '36-'39. De overlevende Spanjestrijders moesten aan het beeld wennen.
+
+      Let op:
+      - de twee vrouwen, het mooist van onderaf
+      - de drie gemetselde zuilen met de tekst in het Nederlands en het Spaans, met 'No pasarán'
+      - de kringen in de bestrating
+    attributes:
+      artist: Eddy Roos (beeld); Harm van Weerden (bestrating)
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/401/amsterdam-spanjemonument
+      - https://nl.wikipedia.org/wiki/Spanjemonument
+      - https://nl.wikipedia.org/wiki/Internationale_Brigades
+      - https://nl.wikipedia.org/wiki/Plein_Spanje_'36-'39
+
+- title: Gerben Wagenaar plaque, Gerben Wagenaarbrug
+  summary: A plaque on the IJ-tunnel bridge at the Kraaienplein for a Noord meter reader who helped organise the February Strike, led armed resistance as "blonde Freek", and was later thrown out of the Communist Party he led in parliament.
+  body: |
+    Gerben Wagenaar (1912–1993) grew up in Noord and was reading meters for the city's energy company when the war began. Already in 1936 he had called for a boycott of the Berlin Olympics. As a communist he helped organise the February Strike of 1941 against the raids on Jewish Amsterdammers, and from 1941 to 1943, under the alias "blonde Freek", he led the Militair Contact, an armed communist resistance group. He then joined the Raad van Verzet, in charge of sabotage and of weapons dropped from England, and at the end chaired it.
+
+    After the war he led the CPN group in parliament. In 1958 he and a few others tried to reform the party; the leadership expelled them, and a party booklet even branded him a British agent. In 1982 the CPN withdrew it and offered to have him back. His reply: "Ze doen maar" (let them). He was also a member of football club De Volewijckers for sixty years.
+
+    The bridge, a concrete bascule bridge of 1965 that carries the Havikslaan over the Noordhollandsch Kanaal and the IJ-tunnel road, was named after him in 1996. His widow Ada van Randwijk unveiled the plaque on 15 February 1996.
+
+    Look for:
+    - the name plate and the plaque on the bridge, Kraaienplein side
+    - the bridge-keeper's tower in Amsterdam School style, now a place to stay (Kraaienplein 1)
+    - the Friendly Fire manhole cover on the Kraaienplein
+  category: hidden-history
+  lat: 52.386306
+  lng: 4.914810
+  address: Gerben Wagenaarbrug, Kraaienplein
+  links:
+    - { label: "4 en 5 mei, plaquette Gerben Wagenaarbrug", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3096/amsterdam-plaquette-op-de-gerben-wagenaarbrug" }
+    - { label: Wikipedia (nl) Gerben Wagenaar, url: "https://nl.wikipedia.org/wiki/Gerben_Wagenaar" }
+    - { label: Wikipedia (nl) Gerben Wagenaarbrug, url: "https://nl.wikipedia.org/wiki/Gerben_Wagenaarbrug" }
+  attributes:
+    rank: Okay
+    built: "1996"
+  photos:
+    - commons:File:2020 Brug 357, naamplaat.jpg
+    - commons:File:2020 Brug 357, overzicht (1).jpg
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3096/amsterdam-plaquette-op-de-gerben-wagenaarbrug (plaque text, Olympic boycott call 1936, Gemeentelijk Energiebedrijf, February Strike, RVV sabotage and weapons drops, unveiled 15 February 1996 by Ada van Randwijk; position)
+    - https://nl.wikipedia.org/wiki/Gerben_Wagenaar (meter reader, "blonde Freek", Militair Contact 1941–1943, chair of the RVV, CPN parliamentary leader, expelled 1958, booklet and 1982 rehabilitation, "Ze doen maar", De Volewijckers)
+    - https://nl.wikipedia.org/wiki/Gerben_Wagenaarbrug (bridge 357, 1965 by Enrico Hartsuyker, named 1996, bridge-keeper's house Kraaienplein 1)
+    - https://friendly-fire-amsterdam.nl/locaties/ (B-17 cover on the Kraaienplein)
+  nl:
+    title: Plaquette Gerben Wagenaar, Gerben Wagenaarbrug
+    summary: Een plaquette op de brug bij het Kraaienplein voor een meteropnemer uit Noord die de Februaristaking mee organiseerde, als 'blonde Freek' het gewapend verzet leidde en later uit de CPN werd gezet die hij in de Kamer aanvoerde.
+    body: |
+      Gerben Wagenaar (1912-1993) groeide op in Amsterdam-Noord en was meteropnemer bij het Gemeentelijk Energiebedrijf toen de oorlog uitbrak. In 1936 riep hij al op de Olympische Spelen in Berlijn te boycotten. Als lid van de CPN hielp hij de Februaristaking van 1941 organiseren, het protest tegen de razzia's op Joodse Amsterdammers. Van 1941 tot 1943 leidde hij onder de schuilnaam 'blonde Freek' het Militair Contact, een communistische gewapende verzetsgroep. Daarna zat hij in de Raad van Verzet, waar hij de sabotage en de wapendroppings uit Engeland regelde; de laatste maanden was hij er voorzitter van.
+
+      Na de oorlog was hij fractievoorzitter van de CPN in de Tweede Kamer. In 1958 probeerde hij met een paar anderen de partij te vernieuwen; de partijtop zette hen eruit, en in een partijboekje werd hij er zelfs van beschuldigd een Britse agent te zijn geweest. In 1982 trok de CPN dat boekje in en bood eerherstel. Wagenaar reageerde laconiek: 'Ze doen maar.' Hij was ook zestig jaar lid van De Volewijckers.
+
+      De betonnen basculebrug uit 1965, die de Havikslaan over het Noordhollandsch Kanaal en de toevoerweg naar de IJtunnel voert, kreeg in 1996 zijn naam. Zijn weduwe Ada van Randwijk onthulde de plaquette op 15 februari 1996.
+
+      Let op:
+      - het naambord en de plaquette op de brug, aan de kant van het Kraaienplein
+      - het brugwachtershuis in Amsterdamse Schoolstijl, nu logies (Kraaienplein 1)
+      - het Friendly Fire-putdeksel op het Kraaienplein
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3096/amsterdam-plaquette-op-de-gerben-wagenaarbrug
+      - https://nl.wikipedia.org/wiki/Gerben_Wagenaar
+      - https://nl.wikipedia.org/wiki/Gerben_Wagenaarbrug
+
+# ================================================================ Public art
+
+- title: Noorderklankpark
+  summary: A set of corten-steel instruments in the Noorderpark that anyone can play with a pair of bats, laid out like a piano keyboard. The artist admits the xylophone's high notes are a little out of tune.
+  body: |
+    Hans van Dorp, an artist who works with sound and form, put a small open-air orchestra in the park around 2010. Two of the instruments are what he calls tube drums: rows of open pipes that you strike with flat bats, so the air inside starts to ring, somewhere between organ pipes and a percussion instrument. The pipes stand in the same pattern as the black and white keys of a piano. The third is a steel xylophone, and Van Dorp freely admits its high notes sound slightly off. Everything is in corten, steel that rusts to a protective brown, including a small sign.
+
+    It came about on the initiative of Stichting Samenscholers and was paid for by housing corporation Ymere and the borough. In 2014 the Volewijkspark and the Florapark were joined into the Noorderpark. The instruments now stand in the shadow of the ramp of the Eva Schalkbrug, and by 2018 the sign along the canal was overgrown.
+
+    Look for:
+    - the rows of pipes, set out like piano keys
+    - the corten xylophone
+    - the little rusty sign along the canal
+  category: curiosities
+  lat: 52.393992
+  lng: 4.921925
+  address: Noorderpark, by the Eva Schalkbrug
+  links:
+    - { label: Wikipedia (nl) Noorderklankpark, url: "https://nl.wikipedia.org/wiki/Noorderklankpark" }
+    - { label: "Hans van Dorp, video (2011)", url: "https://www.youtube.com/watch?v=EHCWyj8xeVo" }
+  attributes:
+    rank: Okay
+    built: about 2010
+    artist: Hans van Dorp
+    check: Still there?
+    check_note: "Latest dated photos are from 2018 (sign overgrown); check that the instruments are all still there and playable."
+  photos:
+    - commons:File:Noorderpark, kunst1.jpg
+    - commons:File:Noorderpark, kunst2.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Noorderklankpark (tube drums, piano-key layout, xylophone out of tune, corten sign, Ymere and borough, Eva Schalkbrug ramp)
+    - https://www.youtube.com/watch?v=EHCWyj8xeVo (title "Noorderklankpark mei 2011", description names Stichting Samenscholers; snippet only)
+    - OSM node 1053721064 (start_date 2010, position)
+    - https://nl.wikipedia.org/wiki/Volewijkspark (merged with the Florapark in 2014)
+    - commons:File:Noorderpark, kunst4.jpg (July 2018, sign overgrown)
+    - https://pavlovpubliceert.nl/wp-content/uploads/2025/06/Mijn-jarige-stad.pdf (children's book, June 2025, still recommends it)
+  nl:
+    title: Noorderklankpark
+    summary: Cortenstalen muziekinstrumenten in het Noorderpark die iedereen met een paar batjes kan bespelen, opgesteld als de toetsen van een piano. De kunstenaar geeft toe dat de hoge tonen van de xylofoon wat vals klinken.
+    body: |
+      Hans van Dorp, kunstenaar in klank en vorm, zette rond 2010 een klein openluchtorkest in het park. Twee instrumenten noemt hij buisdrums: rijen open buizen waar je met platte batjes op slaat, zodat de lucht erin gaat trillen. Ze houden het midden tussen orgelpijpen en slagwerk. De buizen staan in dezelfde verhouding als de witte en zwarte toetsen van een piano. Het derde is een xylofoon van cortenstaal, waarvan Van Dorp zelf toegeeft dat de hoge tonen wat ontstemd klinken. Ook het aanwijsbordje is van cortenstaal.
+
+      Het Noorderklankpark kwam er op initiatief van Stichting Samenscholers, met geld van Ymere en stadsdeel Noord. In 2014 werden het Volewijkspark en het Florapark samengevoegd tot het Noorderpark. De instrumenten staan nu in de schaduw van het talud van de Eva Schalkbrug, en in 2018 was het bordje langs het kanaal helemaal overwoekerd.
+
+      Let op:
+      - de rijen buizen, opgesteld als pianotoetsen
+      - de cortenstalen xylofoon
+      - het roestbruine bordje langs het kanaal
+    attributes:
+      built: rond 2010
+      check_note: "De laatste gedateerde foto's zijn uit 2018 (bordje overwoekerd); nagaan of alle instrumenten er nog staan en bespeelbaar zijn."
+    sources:
+      - https://nl.wikipedia.org/wiki/Noorderklankpark
+      - https://nl.wikipedia.org/wiki/Volewijkspark
+
+- title: Arms with shopping bags, Van der Pekstraat
+  summary: Nine copper-coloured arms reach out of the facades of the Van der Pekstraat, each hand holding a shopping bag with a line of text. "Mag het iets meer zijn? / vriendschap weegt niet."
+  body: |
+    The Van der Pekstraat is the shopping and market street of the Van der Pekbuurt, one of Noord's early garden villages, planned by architect J.E. van der Pek with civil servant Arie Keppler to rehouse workers from the Jordaan slums. When the neighbourhood and its street were being renewed, nine copper-coloured arms appeared on the facades of houses and shops in 2011. Each sticks out into the street and holds a shopping bag.
+
+    The arms and hands are by Ellen Klijzing. The idea, and the texts on the bags, are Sylvia Fennis's. They borrow the language of the shop counter: one bag asks the shopkeeper's question "mag het iets meer zijn?" (anything else?) and answers "vriendschap weegt niet" (friendship weighs nothing); another reads "kijk naar verschillen / en zie geen overeenkomst" (look at differences / and see no likeness). Nine small pieces of poetry, carried down the street by nobody.
+
+    Look for:
+    - the arms high on the facades, between the shop signs
+    - the texts on each bag (read them all, they differ)
+    - Van der Pek's yellow brick bands on the original houses
+    - Café Keppler on the Van der Pekplein, named after the neighbourhood's initiator
+  category: street-art
+  lat: 52.388846
+  lng: 4.909530
+  address: Van der Pekstraat
+  links:
+    - { label: Wikipedia (nl) Lijst van beelden in Noord, url: "https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Noord" }
+    - { label: "Museum Amsterdam Noord, Leo leest", url: "https://museumamsterdamnoord.nl/blog-leo-leest-5-pieter-roemer/" }
+    - { label: "Makers aan het IJ, geschiedenisroute", url: "https://makersaanhetij.nl/projecten/mooimakers/geschiedenisroute/" }
+  attributes:
+    rank: Okay
+    built: "2011"
+    artist: Ellen Klijzing (arms); Sylvia Fennis (texts and concept)
+    check: Location
+    check_note: "Pinned mid-street; the nine arms are spread along the Van der Pekstraat and their exact positions are not mapped."
+  photos:
+    - commons:File:Armen met boodschappentassen.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Noord (nine arms, Klijzing arms and hands, Fennis bags with texts and concept, 2011)
+    - https://museumamsterdamnoord.nl/blog-leo-leest-5-pieter-roemer/ (copper-coloured arms, two bag texts quoted)
+    - https://makersaanhetij.nl/projecten/mooimakers/geschiedenisroute/ (Van der Pek and Keppler, yellow bands, renewal, shop and market street with its own signs, Café Keppler)
+    - https://pavlovpubliceert.nl/wp-content/uploads/2025/06/Mijn-jarige-stad.pdf (June 2025: nine arms still to be seen)
+    - commons:File:Armen met boodschappentassen.JPG (2014)
+    - Nominatim, Van der Pekstraat (pin at the middle of the street)
+  nl:
+    title: Armen met boodschappentassen, Van der Pekstraat
+    summary: Negen koperkleurige armen steken uit de gevels van de Van der Pekstraat, elke hand met een boodschappentas met een tekst erop. 'Mag het iets meer zijn? / vriendschap weegt niet.'
+    body: |
+      De Van der Pekstraat is de winkel- en marktstraat van de Van der Pekbuurt, een van de vroege tuindorpen van Noord. Architect J.E. van der Pek bedacht de buurt samen met ambtenaar Arie Keppler, om arbeiders uit de verkrotte Jordaan een goed huis te geven. Toen de buurt en de straat werden opgeknapt, verschenen in 2011 negen koperkleurige armen aan de gevels van huizen en winkels. Elke arm steekt de straat in en houdt een boodschappentas vast.
+
+      De armen en handen zijn van Ellen Klijzing; het idee en de teksten op de tassen komen van Sylvia Fennis. Die spelen met de taal van de winkel: op de ene tas staat de vraag van achter de toonbank, 'mag het iets meer zijn?', met als antwoord 'vriendschap weegt niet'. Een andere zegt 'kijk naar verschillen / en zie geen overeenkomst'. Negen kleine gedichten, door niemand de straat in gedragen.
+
+      Let op:
+      - de armen hoog aan de gevels, tussen de uithangborden
+      - de teksten op de tassen, ze zijn allemaal anders
+      - de gele banden van Van der Pek in de oorspronkelijke gevels
+      - Café Keppler aan het Van der Pekplein, genoemd naar de initiatiefnemer van de buurt
+    attributes:
+      artist: Ellen Klijzing (armen); Sylvia Fennis (teksten en concept)
+      check_note: "Geprikt halverwege de straat; de negen armen hangen verspreid langs de Van der Pekstraat en hun precieze plekken zijn niet bekend."
+    sources:
+      - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Noord
+      - https://museumamsterdamnoord.nl/blog-leo-leest-5-pieter-roemer/
+      - https://makersaanhetij.nl/projecten/mooimakers/geschiedenisroute/
+
+- title: Gijs Frieling's light cabinets, De Albatros
+  summary: Nine glass cabinets flank the doors of De Albatros, painted inside with flowers and plants and lit at night so the colours seem to move. The youth centre that stood here was demolished, and its prized concrete relief went into storage.
+  body: |
+    De Albatros, on the corner of the Johan van Hasseltweg and the Meeuwenlaan, is a 2006 block of owner-occupied flats, social housing and business space. On the ground floor, nine display cabinets by painter Gijs Frieling flank the entrance doors. Their back and side walls are painted with flowers and plants, and after dark a light design by Rob and Brenda Clemens shines on them so that the colours appear to shift. By day they are still-lifes; by night they keep changing.
+
+    The name comes from what stood here before: Jeugdcentrum Albatros, a youth centre by Frank van Klingeren. It was demolished together with its interior art. Pierre van Soest's colourless concrete relief of 1964, which looked like a lumpy rock face and which the city rates "Top", the highest grade in its register of wall art, was saved. It is in storage, still waiting for a new wall.
+
+    Look for:
+    - the painted cabinets beside the doors
+    - the cabinets after dark, when the light comes on
+  category: street-art
+  lat: 52.387649
+  lng: 4.923757
+  address: Meeuwenlaan, corner of Johan van Hasseltweg
+  links:
+    - { label: "Kunstwacht, Kunstkasten Albatros", url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/430" }
+    - { label: "Wandkunst Amsterdam, Meeuwenlaan 267", url: "https://maps.amsterdam.nl/wandkunst/" }
+    - { label: FreelingWaters, url: "https://freelingwaters.com/info" }
+  attributes:
+    rank: Okay
+    artist: Gijs Frieling; lighting Rob and Brenda Clemens
+    check: Still there?
+    check_note: "The Kunstwacht text is undated and no recent photo was found; check that the cabinets are still painted and lit."
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/430 (nine cabinets, flowers and plants, light design by Rob and Brenda Clemens, changing at night; position)
+    - wall-art register (maps.amsterdam.nl/wandkunst), Meeuwenlaan 267, Pierre van Soest 1964, rated Top (youth centre by Frank van Klingeren demolished with its interior art; relief in storage awaiting re-placement)
+    - https://archief.amsterdam/archives/pdf/31127.ead.pdf (NUL20 archive: the Albatros building, owner-occupied and social rented flats and business space, completed 2006)
+    - https://freelingwaters.com/info (Gijs Frieling, painter)
+  nl:
+    title: Lichtkasten van Gijs Frieling, De Albatros
+    summary: Negen vitrinekasten naast de deuren van De Albatros, van binnen beschilderd met bloemen en planten en 's avonds zo verlicht dat de kleuren lijken te bewegen. Het jeugdcentrum dat hier stond werd gesloopt; het betonreliëf ging in opslag.
+    body: |
+      De Albatros, op de hoek van de Johan van Hasseltweg en de Meeuwenlaan, is een gebouw uit 2006 met koopappartementen, sociale huurwoningen en bedrijfsruimten. Op de begane grond staan aan weerszijden van de entreedeuren negen vitrinekasten van schilder Gijs Frieling. De achter- en zijwanden zijn beschilderd met bloemen en planten. 's Avonds valt er licht op volgens een ontwerp van Rob en Brenda Clemens, waardoor de kleuren gaan bewegen; overdag een stilleven, 's nachts steeds een ander beeld.
+
+      De naam verwijst naar wat hier eerder stond: Jeugdcentrum Albatros van Frank van Klingeren. Dat werd met interieurschilderingen en al gesloopt. Het kleurloze betonreliëf van Pierre van Soest uit 1964, dat op een klonterige rotswand leek en door de gemeente als 'top' wordt gewaardeerd, het hoogste oordeel in het register van wandkunst, bleef bewaard. Het staat in opslag en wacht nog altijd op herplaatsing.
+
+      Let op:
+      - de beschilderde kasten naast de deuren
+      - de kasten na zonsondergang, als het licht aangaat
+    attributes:
+      artist: Gijs Frieling; lichtontwerp Rob en Brenda Clemens
+      check_note: "De tekst van Kunstwacht is niet gedateerd en er is geen recente foto gevonden; nagaan of de kasten nog beschilderd en verlicht zijn."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/430
+      - https://maps.amsterdam.nl/wandkunst/ (Meeuwenlaan 267)
+
+- title: Berry van Gerwen's word plates, Varenweg
+  summary: By the door of a former primary school, seven enamel plates take words apart and put them back wrong. "Zeemeermin" (mermaid) becomes "landminderplus", "komkommersla" becomes "kwamkwammersloeg".
+  body: |
+    On both sides of the entrance at Varenweg 6 hang seven brightly coloured plates of enamelled steel by Berry van Gerwen, a graphic designer by training. They were made for school De Klimop and play with letters, words and shapes the way children do when they are learning to read. The best plate breaks compound words into their parts and swaps each part for its opposite or another tense: *zeemeermin* (mermaid: sea, more, less) turns into *landminderplus* (land, less, plus), and *komkommersla* (cucumber salad) into *kwamkwammersloeg*, as if the cucumber were a verb in the past tense. It is a small lesson in how Dutch glues words together, and a nudge that you are allowed to name things yourself, which is where poetry starts.
+
+    De Klimop moved to the Papaverweg in the Buiksloterham in August 2022 and became Blijhaven. The building on the Varenweg is now used by Montessorischool Azalea.
+
+    Look for:
+    - the plate with zeemeermin and komkommersla
+    - the other six, with images as well as words
+  category: street-art
+  lat: 52.389999
+  lng: 4.915720
+  address: Varenweg 6
+  links:
+    - { label: "Kunstwacht, Emaille platen", url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/349" }
+    - { label: "Schoolwijzer, De Klimop", url: "https://schoolwijzer.amsterdam.nl/nl/po/vestiging/klimop/" }
+  attributes:
+    rank: Okay
+    artist: Berry van Gerwen
+    check: Still there?
+    check_note: "The plates were made for school De Klimop, which left the building in 2022; check that they still hang by the door."
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/349 (seven enamel plates, Van Gerwen a graphic designer, word examples, link to poetry; position)
+    - https://schoolwijzer.amsterdam.nl/nl/po/vestiging/klimop/ (move to the Papaverweg as Blijhaven from August 2022)
+    - https://www.montessori-azalea.nl/dl-33128-1-103431/download/schoolplan_2024-2028.pdf (Montessorischool Azalea at Varenweg 6; search snippet only)
+  nl:
+    title: Woordplaten van Berry van Gerwen, Varenweg
+    summary: Bij de deur van een voormalige basisschool halen zeven emaille platen woorden uit elkaar en zetten ze verkeerd weer in elkaar. 'Zeemeermin' wordt 'landminderplus', 'komkommersla' wordt 'kwamkwammersloeg'.
+    body: |
+      Aan weerskanten van de ingang van Varenweg 6 hangen zeven kleurige platen van emaillestaal van Berry van Gerwen, van huis uit grafisch ontwerper. Hij maakte ze voor basisschool De Klimop. Ze spelen met letters, woorden en vormen zoals kinderen dat doen als ze leren lezen. De mooiste plaat knipt samengestelde woorden in stukjes en vervangt elk stukje door zijn tegendeel of een andere tijd: 'zeemeermin' wordt 'landminderplus', 'komkommersla' wordt 'kwamkwammersloeg'. Een lesje in hoe het Nederlands woorden aan elkaar plakt, en een duwtje om dingen zelf een naam te geven, waar de poëzie begint.
+
+      De Klimop verhuisde in augustus 2022 naar de Papaverweg in de Buiksloterham en heet daar Blijhaven. In het gebouw aan de Varenweg zit nu Montessorischool Azalea.
+
+      Let op:
+      - de plaat met zeemeermin en komkommersla
+      - de andere zes, met beeld en tekst
+    attributes:
+      check_note: "De platen zijn gemaakt voor De Klimop, die in 2022 vertrok; nagaan of ze nog bij de deur hangen."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/349
+      - https://schoolwijzer.amsterdam.nl/nl/po/vestiging/klimop/

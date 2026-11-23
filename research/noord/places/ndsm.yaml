@@ -5,11 +5,14 @@
 
     Squatters and artists moved into the empty yard. In 2000 they set up Stichting Kinetisch Noord, which got the hall, the open ground and the slipways in 2006 and now owns and runs the hall. Since 2007 about a third of its roughly 20,000 m² has been the *Kunststad* (art city): some 80 studios stacked like a small town, where more than 250 artists, designers and craftspeople work. The rest hosts film shoots, festivals and the IJ-Hallen flea market. Nearly 1,400 solar panels cover the roof.
 
+    West of the hall stands the Naald van Goedkoop (officially the Zuil van Goedkoop), a tufa column with a bronze portrait of Daniël Goedkoop, who founded the NSM in 1894. The staff gave it to him on 25 August 1944, in the middle of the occupation, for the yard's fiftieth birthday and his farewell as director. The medallion was the first commission of sculptor Carel Kneulman, who had worked at the yard until September 1941 and left because it was working for the occupier. After the 1984 bankruptcy the column briefly disappeared; it came back in 1987 and has been moved several times since, last in 2011 and 2017. The lamp on top was lost along the way, and in 2017 a replica of the medallion was made in case the original is ever lost too.
+
     Look for:
     - the faded painted ship and company names along the top of the facade facing the IJ
     - the tall blue doors in the steel-framed brick walls
     - inside, the riveted lattice columns and crane girders
     - the stacked studios of the Kunststad
+    - west of the hall, the Naald van Goedkoop with Kneulman's portrait of the founder
   category: industrial
   lat: 52.401146
   lng: 4.895200
@@ -19,6 +22,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/fb949041-5eca-431f-a786-238eb1223465" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/NDSM-werf" }
     - { label: NDSM Loods, url: "https://www.ndsmloods.nl/over/" }
+    - { label: Wikipedia (nl) Naald van Goedkoop, url: "https://nl.wikipedia.org/wiki/Naald_van_Goedkoop" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -29,6 +33,7 @@
     original_use: Shipbuilding hall
   photos:
     - commons:File:NDSMwerf.JPG
+    - commons:File:2022 Naald van Goedkoop, Asd (1).jpg
   sources:
     - rce:528251 (register text, part of complex 528250)
     - https://nl.wikipedia.org/wiki/NDSM-werf
@@ -36,6 +41,9 @@
     - https://www.ndsmloods.nl/over/
     - https://www.ndsmloods.nl/geschiedenis/
     - https://www.ndsmloods.nl/bezoek/ndsm-loods/
+    - https://nl.wikipedia.org/wiki/Naald_van_Goedkoop (gift of 25 August 1944, NSM 50 years, Goedkoop's farewell, Kneulman medallion and his resignation in 1941, gone after 1984, back 1987, moves in 2011 and 2017, lamp lost, replica 2017)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/364 (founded 1894; bronze and tufa; artist not named there, Kneulman per nl.wikipedia, which cites his signature on the medallion)
+    - OSM node 'Daniël Goedkoop' (52.400547, 4.892964); Commons photos 2022
   nl:
     title: NDSM Loods (Scheepsbouwloods)
     summary: "De voormalige scheepsbouwloods van 1919–1920 is zo groot dat kunstenaars er een hele kunststad van ateliers in bouwden. Onder de geklonken vakwerkspanten werden ooit scheepsrompen in elkaar gezet."
@@ -44,11 +52,14 @@
 
       Na de sluiting van de werf in 1984 werden de leegstaande gebouwen gekraakt. De Stichting Kinetisch Noord is in 2000 opgericht om de voormalige scheepsbouwloods te herontwikkelen tot een centrum voor kunst, cultuur en ambachten; in 2006 werden de loods, het buitenterrein en de hellingen aan de stichting overgedragen. De kunststad, een culturele broedplaats met ca. 80 ateliers, beslaat grofweg een derde van de immense oppervlakte. Meer dan 250 kunstenaars, designers, creatieven en ambachtslieden hebben hier een werkplek. Met bijna 1.400 zonnepanelen heeft de loods een van de grootste zonnedaken van Amsterdam.
 
+      Ten westen van de loods staat de Naald van Goedkoop, officieel de Zuil van Goedkoop: een zuil van tufsteen met een bronzen portret van Daniël Goedkoop, die de NSM in 1894 oprichtte. Midden in de oorlog, op 25 augustus 1944, schonk het personeel hem de zuil bij het vijftigjarig bestaan van de werf en zijn afscheid als directeur. Het medaillon was de eerste opdracht van beeldhouwer Carel Kneulman, die tot september 1941 op de werf werkte en opstapte omdat het bedrijf voor de bezetter werkte. Na het faillissement van 1984 was de zuil even zoek; in 1987 kwam hij terug en daarna is hij nog een paar keer verplaatst, het laatst in 2011 en 2017. De lamp bovenop raakte bij al die verhuizingen kwijt. In 2017 werd een replica van het medaillon gemaakt, voor het geval het origineel ooit verloren gaat.
+
       Let op:
       - de vele resten van geschilderde naamsaanduidingen aan de bovenrand van de gevel aan de IJ-zijde
       - de hoge blauwe deuren in de bakstenen gevels met stalen raamwerk
       - binnen de vakwerkkolommen met geklonken verbindingen en de kraanbaanliggers
       - de gestapelde ateliers van de kunststad
+      - ten westen van de loods de Naald van Goedkoop, met het portret van de oprichter door Kneulman
     attributes:
       built: 1919–1920
       original_use: Scheepsbouwloods
@@ -57,19 +68,22 @@
       - https://nl.wikipedia.org/wiki/NDSM-werf
       - https://www.ndsmloods.nl/over/
       - https://www.ndsmloods.nl/geschiedenis/
+      - https://nl.wikipedia.org/wiki/Naald_van_Goedkoop
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/364
 
 - title: Lasloods (STRAAT Museum)
   summary: "The NDSM's 1952 welding hall, with huge blue doors and a two-aisle steel 'cathedral' inside, was where the last ships of the yard were welded. Today it holds STRAAT, a museum of street art."
   body: |
     The welding shed (*lasloods*) was built in 1952 to a design by the architects J.D. and A.E.G. Postma, at the height of the NDSM's post-war boom. Welding had replaced riveting, and ship sections were now welded together under cover before going to the slipways. The building is closed and severe outside: plain brick walls, very large blue doors, square cross windows and shuttered openings above, with a band of glass under the roof edge. Four low saddle roofs running across the flat roof let in daylight.
 
-    Inside, a forest of built-up steel columns splits the hall into two aisles and carries the crane rails, with smaller columns on top holding the roof. The register praises "the beauty of the industrial design of the interior". The shipbuilder Aarding was the last to build here. Since the early 2020s the hall has been home to STRAAT, a museum of street art and graffiti with large works made for the space. Eduardo Kobra's Anne Frank mural is painted on the outside of its doors.
+    Inside, a forest of built-up steel columns splits the hall into two aisles and carries the crane rails, with smaller columns on top holding the roof. The register praises "the beauty of the industrial design of the interior". The shipbuilder Aarding was the last to build here. Since the early 2020s the hall has been home to STRAAT, a museum of street art and graffiti with large works made for the space. Eduardo Kobra's Anne Frank mural is painted on the outside of its doors, and the walls around the square carry more murals, many curated by STRAAT; they change from year to year.
 
     Look for:
     - the blue doors and the strip of windows under the roof edge
     - the four cross-roofs that act as skylights
     - the original office annex on the short side facing the IJ
     - inside, the two rows of riveted and bolted steel columns with the crane girders
+    - murals around the square: Leon Keer's 3D "Shards of Memories" on STRAAT's own wall, Telmo Miel's portrait of mayor Eberhard van der Laan (T.T. Neveritaweg 9), Karski's Johan Cruyff between the Dutch and Catalan flags, with Amsterdam's three crosses (Scheepsbouwkade 72), and Accept's Kurt Cobain (NDSM-plein 90)
   category: industrial
   lat: 52.402019
   lng: 4.893621
@@ -79,6 +93,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/a6db3b86-d773-4dec-a25d-5ca799f5b573" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/NDSM-werf" }
     - { label: STRAAT Museum, url: "https://www.straatmuseum.com/" }
+    - { label: "Street Art Cities, Johan Cruyff", url: "https://streetartcities.com/cities/amsterdam/markers/9aa42581-a951-47bc-a60a-96eda53a0367" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -94,19 +109,21 @@
     - rce:528252 (register text)
     - https://nl.wikipedia.org/wiki/NDSM-werf
     - https://www.straatmuseum.com/en/collection/let-me-be-myself
+    - Street Art Cities marker feed for Amsterdam, read 23 November 2026, all four murals marked active: markers f86346b4 (Leon Keer, Shards of Memories, NDSM-plein 1), 6688 (Telmo Miel, Eberhard van der Laan, Tt. Neveritaweg 9), 9aa42581 (Karski, Johan Cruyff, Scheepsbouwkade 72, flags and three crosses per the marker text), b1c9c6a8 (Accept, Kurt Cobain, NDSM-plein 90)
   nl:
     title: Lasloods (STRAAT Museum)
     summary: "De lasloods uit 1952 met zijn grote blauwe deuren en tweebeukige stalen hal staat voor de naoorlogse bloei van de NDSM. Tegenwoordig zit er STRAAT, een museum voor straatkunst en graffiti."
     body: |
       Voormalige lasloods, gebouwd in 1952 naar ontwerp van J.D. en A.E.G. Postma, als onderdeel van het complex Nederlandsche Dok en Scheepsbouw Maatschappij, oorspronkelijk vrijstaand, gelegen op de noordelijke punt van het terrein. Het is een rechthoekige, hoge industriële hal, die aan de buitenzijde bepaald wordt door gesloten bakstenen gevels met zeer grote blauwe deuren, vierkante kruisvensters en op de verdieping openingen met luiken. Het vlakke dak wordt verlevendigd door vier afgeplatte zadeldaken in de breedterichting die dienst doen als lichtstraten.
 
-      In de hal is sprake van twee beuken, veroorzaakt door een imposante staalconstructie met gelaste constructiedelen. De kraanbanen worden ondersteund door samengestelde volwandige kolommen, waarboven kleinere kolommen zijn geplaatst ter ondersteuning van de dakconstructie. Het register roemt "de schoonheid van het industriële ontwerp van het interieur". Het bedrijf Aarding was de laatste scheepsbouwer in de hal. Nu is hier STRAAT gevestigd, een museum voor straatkunst en graffiti; op de deuren van de loods staat de Anne Frank-muurschildering van Eduardo Kobra.
+      In de hal is sprake van twee beuken, veroorzaakt door een imposante staalconstructie met gelaste constructiedelen. De kraanbanen worden ondersteund door samengestelde volwandige kolommen, waarboven kleinere kolommen zijn geplaatst ter ondersteuning van de dakconstructie. Het register roemt "de schoonheid van het industriële ontwerp van het interieur". Het bedrijf Aarding was de laatste scheepsbouwer in de hal. Nu is hier STRAAT gevestigd, een museum voor straatkunst en graffiti; op de deuren van de loods staat de Anne Frank-muurschildering van Eduardo Kobra. Ook de muren rond het plein hangen vol muurschilderingen, veel ervan door STRAAT gecureerd; ze wisselen van jaar tot jaar.
 
       Let op:
       - de blauwe deuren en de liggende vensterpartij onder de dakrand
       - de vier dwarse zadeldaken die als lichtstraat dienen
       - de oorspronkelijke kantooraanbouw aan de kopse kant richting IJ
       - binnen de colonnades van geprononceerde stalen kolommen
+      - muurschilderingen rond het plein: de 3D-schildering 'Shards of Memories' van Leon Keer op de muur van STRAAT, het portret van burgemeester Eberhard van der Laan door Telmo Miel (T.T. Neveritaweg 9), Johan Cruijff van Karski tussen de Nederlandse en de Catalaanse vlag, met de drie Andreaskruisen (Scheepsbouwkade 72), en Kurt Cobain van Accept (NDSM-plein 90)
     attributes:
       original_use: Lasloods van de NDSM-werf
     sources:

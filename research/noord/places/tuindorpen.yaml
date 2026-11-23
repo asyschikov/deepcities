@@ -257,10 +257,14 @@
 
     The plan won the Amsterdam housing prize of 1984 after a split jury. When the North-South line brought new roads, heritage society Heemschut argued for keeping the ensemble as a face of 1980s urban renewal, and on 17 December 2020 the neighbourhood became a municipal protected cityscape. The IJplein ferry leaves from the little Pontplein at its tip.
 
+    The yard is remembered on the square Het Dok, the ADM's nickname. In October 1988, with ADM pensioners looking on, Egon Schrama unveiled a 7-metre monument: cast-iron supports he found on the old yard carrying ship's frames of azobé wood, together shaped like a dock crane, which the guide Public Art called "a kind of chapel of lost pride". Beside it lies a copy of the plaque for the yard's centenary (1877–1977); the original is in the Scheepvaartmuseum. Between the new blocks and the older streets stands Alfred Eikelenboom's De Muur (1987), a rounded wall full of portholes made as a protest against boxy flats; neighbours called it the Klaagmuur (wailing wall), Rode Matras and Roze Ligakoek. When it crumbled the city had it remade in plastic in December 2020, for 210,000 euros, to fresh grumbling.
+
     Look for:
     - the Motorwal block and its roofline
     - the city villas on the IJplein
     - the view along the blocks to the IJ
+    - Schrama's ADM monument and the centenary plaque on Het Dok
+    - De Muur on the lawn by the Gedempte Insteekhaven
   category: housing
   lat: 52.382453
   lng: 4.915019
@@ -268,6 +272,8 @@
   links:
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/IJplein" }
     - { label: Architectuurgids, url: "https://www.architectureguide.nl/project/item/prj_id/382" }
+    - { label: Wikipedia (nl) ADM-Monument, url: "https://nl.wikipedia.org/wiki/ADM-Monument" }
+    - { label: Wikipedia (nl) De Muur, url: "https://nl.wikipedia.org/wiki/De_Muur_(kunstwerk)" }
   attributes:
     rank: Nice
     built: 1980–1987
@@ -275,9 +281,15 @@
     original_use: Social housing
   photos:
     - commons:File:Motorwal pic1.JPG
+    - commons:File:2022 ADM-Monument van Schrama (1).jpg
+    - commons:File:2022 De muur van Eikelenboom, Asd (1).jpg
   sources:
     - https://nl.wikipedia.org/wiki/IJplein
     - https://www.architectureguide.nl/project/item/prj_id/382 (facts only)
+    - https://nl.wikipedia.org/wiki/ADM-Monument (October 1988, 7 m, cast iron found on the yard, azobé, crane shape, "kerkje van de verloren trots", copy of the 1877–1977 plaque, original in the Scheepvaartmuseum)
+    - https://nl.wikipedia.org/wiki/De_Muur_(kunstwerk) (1984–1986, placed 1987, Utopische Modellen, nicknames, plastic replacement December 2020, 210,000 euros)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/379, /380, /355 (ADM monument, plaque, De Muur)
+    - Commons photos of 6 May 2022 (both in place)
   nl:
     title: IJplein
     summary: Het eerste gebouwde plan van OMA, op het terrein van de in 1980 vertrokken scheepswerf ADM. Woonblokken dwars op het IJ, afgesloten door Koolhaas' 'drakenrug' aan de Motorwal. Sinds 2020 beschermd stadsgezicht.
@@ -288,15 +300,21 @@
 
       Het IJplein werd onderscheiden met de Amsterdamse Woningbouwprijs 1984, na een verdeelde jury. Erfgoedvereniging Heemschut was van mening dat het ensemble behouden moest worden als gezicht van de Amsterdamse stadsvernieuwing van de jaren tachtig. Op 17 december 2020 werd de buurt, zonder Sixhaven en Willem III-sluis, aangewezen tot gemeentelijk beschermd stadsgezicht.
 
+      Aan de werf herinnert het plein Het Dok, de bijnaam van de ADM. In oktober 1988 werd daar, met oud-werknemers erbij, het ADM-monument van Egon Schrama onthuld: zeven meter hoog, met gietijzeren steunen die de kunstenaar op het oude werfterrein vond en houten spanten van azobé, samen in de vorm van een dokkraan. De gids Public Art noemde het 'een soort kerkje van de verloren trots'. Ernaast ligt een kopie van de gedenkplaat voor honderd jaar ADM (1877-1977); het origineel is in Het Scheepvaartmuseum. Tussen de nieuwbouw en de oudere straten staat De Muur (1987) van Alfred Eikelenboom, een afgeronde wand vol patrijspoorten, bedoeld als aanval op de blokkendoos-architectuur. Buurtbewoners noemden hem Klaagmuur, Rode Matras en Roze Ligakoek. Toen hij afbrokkelde liet de gemeente hem in december 2020 in kunststof opnieuw maken, voor 210.000 euro, tot nieuw gemopper in de buurt.
+
       Let op:
       - het gebouw met de drakenrug aan de Motorwal
       - de stadsvilla's aan het IJplein
       - de doorkijkjes tussen de blokken naar het IJ
+      - het ADM-monument van Schrama en de gedenkplaat op Het Dok
+      - De Muur op het grasveld aan de Gedempte Insteekhaven
     attributes:
       architect: OMA (Rem Koolhaas, Jan Voorberg), stedenbouwkundig plan
       original_use: Sociale woningbouw
     sources:
       - https://nl.wikipedia.org/wiki/IJplein
+      - https://nl.wikipedia.org/wiki/ADM-Monument
+      - https://nl.wikipedia.org/wiki/De_Muur_(kunstwerk)
 
 - title: Villa De Volewijck, Meeuwenlaan
   summary: A detached villa of 1916 by G.J. Rutgers, built for Jan Teewis Duyvis, co-founder of the Draka cable works. One of the directors' villas on the Meeuwenlaan from before the garden villages.
@@ -502,17 +520,17 @@
       - https://museumamsterdamnoord.nl/plan/
 
 - title: Bethlehemkerk, Zwanenplein
-  summary: An Amsterdam School church of 1923–1924, kept low so as not to tower over the workers' houses around it. Queen Wilhelmina came to the opening and gave a pulpit Bible.
+  summary: A low Amsterdam School church of 1924 on the Zwanenplein lawn, opened in the presence of Queen Wilhelmina, who had less than an hour to spare. Since 2017 it has been Studio 150, a recording studio that also hosts concerts.
   body: |
-    The Reformed church came to the Vogelbuurt in 1924, replacing services held in a gym on the Havikslaan. The client, a society for Reformed interests north of the IJ, hired Adriaan Moen in 1919, and he had to keep the building's height in line with the surrounding housing. The answer is a small, free-standing brick church in the middle of the Zwanenplein lawn, with a tall central roof between two lower wings. Locally it was first called the Zwanenkerk; the name Bethlehemkerk was fixed only in April 1924.
+    The Reformed church came to the Vogelbuurt in 1924, replacing services in a gym on the Havikslaan. Adriaan Moen had to keep it low so that it would not tower over the workers' houses around it, so he set a tall central roof between two lower wings, free-standing in the middle of the Zwanenplein lawn. Locally it was first called the Zwanenkerk; that was thought too ordinary, and the name Bethlehemkerk was fixed in April 1924.
 
-    Queen Wilhelmina attended the opening on 13 September 1924 (squeezed into a tour of the harbour, with a fire brigade demonstration waiting) and presented a pulpit Bible. Two large stained-glass windows by H.J. Winkelman show the Annunciation to the Shepherds and the Magi. The bell cote on the roof ridge is drawn in horizontal lines, unusual in this style, and the east gable carries a stone plaque with a pentagram, Alpha, Omega and the Chi-Rho.
+    Queen Wilhelmina came to the opening on 13 September 1924, though not specially: it was squeezed into a tour of the harbour, with less than an hour set aside before a fire brigade demonstration. She left a pulpit Bible. Inside, under a parabolic roof, two large stained-glass windows by Winkelman show the Annunciation to the Shepherds and the Magi.
 
-    The church closed as a Reformed church in 1993; a Full Gospel congregation and later a Hindustani-Surinamese community used it, and it lost its church function in 2015.
+    The Reformed congregation left in 1993, other churches followed, and in 2015 the building stopped being a church. In 2017 it was bought and renovated by Studio 150, a recording studio founded in 1979 at Lauriergracht 150. Musicians record here, and there are regular concerts, often streamed live: a concert is the way to see the inside.
 
     Look for:
-    - the bell cote with its horizontal bands
-    - the plaque with Alpha, Omega and Chi-Rho in the east gable
+    - the bell cote with its horizontal bands, unusual in this style
+    - the plaque with a pentagram, Alpha, Omega and the Chi-Rho high in the east gable
     - the memorial stone in the west front
   category: religious
   lat: 52.387146
@@ -522,34 +540,38 @@
     - { label: Rijksmonumentenregister (508434), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/508434" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Bethlehemkerk_(Amsterdam)" }
     - { label: Reliwiki, url: "https://reliwiki.nl/index.php/Amsterdam,_Zwanenplein_34_-_Bethlehemkerk" }
+    - { label: Studio 150, url: "https://www.studio150.nl/" }
   attributes:
     rank: Nice
     heritage_status: National monument
     monument_number: "508434"
-    built: 1923–1924
+    built: "1923–1924"
     architect: Adriaan Moen
+    listed: 1997
     original_use: Dutch Reformed church
   photos:
     - commons:File:Bethlehemkerk (Amsterdam).jpg
     - commons:File:Bethlehemkerk, Zwanenplein 34 pic1.JPG
     - commons:File:Koekoeksstraat met Bethlehemkerk Vogelbuurt Amsterdam.jpg
   sources:
-    - rce:508434 (register description)
-    - https://nl.wikipedia.org/wiki/Bethlehemkerk_(Amsterdam)
+    - rce:508434 (register description; inscribed 28 Jan 1998; city API gives designation 21 Oct 1997)
+    - https://nl.wikipedia.org/wiki/Bethlehemkerk_(Amsterdam) (Zwanenkerk 'te gewoontjes', name April 1924; Wilhelmina's harbour tour and 'nog geen uur'; parabolic interior; closed 1993; church function ended 2015; bought by Studio 150 in 2017, renovated, recording studio and regular live concerts streamed on YouTube)
+    - https://www.studio150.nl/ (recording studio since 1979, at Lauriergracht 150 until 2015, concerts and livestreams with Amarte and Keep an Eye Foundation, events listed for 26 and 27 Nov 2026)
     - https://reliwiki.nl/index.php/Amsterdam,_Zwanenplein_34_-_Bethlehemkerk (facts only)
+    - "Window designer: RCE says J.W. Winkelman, nl.wikipedia H.J. Winkelman; the text gives only the surname"
   nl:
     title: Bethlehemkerk, Zwanenplein
-    summary: Kerk in de stijl van de Amsterdamse School uit 1923-1924, laag gehouden om niet boven de arbeiderswoningen uit te steken. Koningin Wilhelmina was bij de opening en schonk een kanselbijbel.
+    summary: Een lage kerk in de stijl van de Amsterdamse School uit 1924, midden op het grasveld van het Zwanenplein, geopend in bijzijn van koningin Wilhelmina, die er nog geen uur voor had. Sinds 2017 is het Studio 150, een opnamestudio met concerten.
     body: |
-      Een in 1923-1924 tot stand gekomen kerkgebouw met westelijk aangebouwde kosterij, gebouwd voor de Nederlands Hervormde Gemeente: de zogenaamde Bethlehemkerk. De opdrachtgever, de in 1916 opgerichte 'Vereeniging voor Hervormde Wijkbelangen benoorden het IJ', trok in januari 1919 de architect A. Moen aan. De kerk werd gebouwd in de stijl van de Amsterdamse School. Moen diende bij de bouwhoogte rekening te houden met de omringende woningbouw. De kerk kwam in de plaats van een gebedsruimte in een gymnastieklokaal aan de Havikslaan; ter plaatse werd ze eerst Zwanenkerk genoemd.
+      In 1924 kreeg de Vogelbuurt een eigen hervormde kerk; tot dan kerkte men in een gymnastieklokaal aan de Havikslaan. Adriaan Moen moest de kerk laag houden, zodat ze niet boven de arbeiderswoningen eromheen uitstak. Hij zette een hoog middendak tussen twee lagere vleugels, vrijstaand midden op het grasveld van het Zwanenplein. In de buurt heette ze eerst de Zwanenkerk, maar dat vond men te gewoontjes; in april 1924 werd de naam Bethlehemkerk vastgelegd.
 
-      Op 13 september 1924 werd de kerk geopend in aanwezigheid van koningin Wilhelmina, die de kerk een kanselbijbel schonk. De twee grote glas-in-loodramen zijn ontworpen door H.J. Winkelman en geven De verkondiging aan de herders en De wijzen uit het oosten weer. Opvallend binnen de bouwstijl is de klokkenstoel, uitgevoerd met horizontale lijnen. In de top van de oostelijke puntgevel een natuurstenen plaquette met pentagram waarin de letters alpha en omega en het Chi-Rho-teken. Gedenksteen in de westelijke gevel.
+      Koningin Wilhelmina was bij de inwijding op 13 september 1924, al kwam ze niet speciaal: het bezoek was ingepast in een rondrit door het havengebied, en er was nog geen uur voor uitgetrokken, want daarna wachtte een brandweerdemonstratie. Ze schonk een kanselbijbel. Binnen, onder een paraboolvormige kap, tonen twee grote glas-in-loodramen van Winkelman de verkondiging aan de herders en de wijzen uit het oosten.
 
-      In 1993 raakte de kerk buiten gebruik als Nederlands Hervormde kerk; later was er de Volle Evangelie Gemeente De Bazuin en een Hindoestaans-Surinaamse geloofsgemeenschap. In 2015 verloor het gebouw zijn functie als kerk.
+      In 1993 vertrok de hervormde gemeente, daarna kwamen andere geloofsgemeenschappen, en in 2015 was het gebouw geen kerk meer. In 2017 kocht en verbouwde Studio 150 het, een opnamestudio die in 1979 begon aan de Lauriergracht 150. Er wordt muziek opgenomen en er zijn geregeld concerten, vaak live uitgezonden: een concert is de manier om binnen te kijken.
 
       Let op:
-      - de klokkenstoel met horizontale accenten
-      - de plaquette met alpha, omega en Chi-Rho in de oostgevel
+      - de klokkenstoel met horizontale banden, ongewoon in deze stijl
+      - de plaquette met pentagram, alfa, omega en het Chi-Rho-teken hoog in de oostgevel
       - de gedenksteen in de westgevel
     attributes:
       architect: A. Moen
@@ -557,7 +579,7 @@
     sources:
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/508434
       - https://nl.wikipedia.org/wiki/Bethlehemkerk_(Amsterdam)
-      - https://reliwiki.nl/index.php/Amsterdam,_Zwanenplein_34_-_Bethlehemkerk
+      - https://www.studio150.nl/
 
 - title: Zwanenplein (Patrimonium housing)
   summary: A castle-like workers' estate of 1919–1920 by Kuipers & Ingwersen for the Protestant housing society Patrimonium, with raised centre blocks, bird reliefs and plaques carrying war poems by David Ingwersen.
@@ -566,11 +588,14 @@
 
     The Protestant and political signature of the client shows in plaques in the Putterstraat with poems about the war by David Ingwersen, and in relief panels of birds. The estate mixed many house types, including early maisonette-like homes, an experiment typical of Noord at the time; there were small shops on the corners of the Ganzenweg and the Zwanenplein. Verandas were added at the back in 1939, and the interiors and windows were renewed in 1979. The Bethlehemkerk stands on the lawn in the middle (its own place). Pinned on the register point on the Zwanenplein.
 
+    The most charming relief is on the south side, at the corner of the Koekoekstraat and the Spechtstraat: Driekus Jansen van Galen's sandstone pair of parakeets bent over a nest of chicks, with a monkey on the next pier. They were here about a century before parakeets became Amsterdam's most argued-about birds and Noord gave one a 7-metre statue at Overhoeks.
+
     Look for:
     - the raised three-storey blocks at the ends of the sight lines
     - the poem plaques in the Putterstraat
     - the bird reliefs and the Patrimonium stone at Zwanenplein 41
     - the gable stone "In de vogelwijkslanden" at Zwanenplein 91-97
+    - the parakeets with their chicks, and the monkey, on the corner of the Koekoekstraat and Spechtstraat
   category: housing
   lat: 52.386445
   lng: 4.918486
@@ -589,8 +614,11 @@
     - commons:File:2022 Zwanenplein 23-43, Asd (3).jpg
     - commons:File:Zwanenplein 41 gevelsteen Woningstichting Patrimonium.JPG
     - commons:File:Zwanenplein 91-97 gevelsteen In de vogelwijkslanden (1).jpg
+    - commons:File:2022 Zwanenplein-Koekoeksstraat, Asd-parkieten.jpg
   sources:
     - city:200712 (register text)
+    - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Noord (Twee parkieten op een nest kuikens, Driekus Jansen van Galen, sandstone, Zwanenplein / Koekoekstraat; the list dates it 1923, a Commons file name says 1918, so no year in the text)
+    - Commons "2022 Zwanenplein-Koekoeksstraat, Asd-parkieten.jpg" and "-aapjes.jpg" (July 2022, parakeets and monkey, corner Koekoekstraat and Spechtstraat)
   nl:
     title: Zwanenplein (Patrimonium)
     summary: Kasteelachtig arbeiderscomplex uit 1919-1920 van Kuipers & Ingwersen voor de protestantse woningbouwvereniging Patrimonium, met verhoogde middenpartijen, vogelreliëfs en plaquettes met oorlogsgedichten van David Ingwersen.
@@ -599,16 +627,20 @@
 
       De sociaal-protestantse en tevens politieke signatuur komt tot uitdrukking in een aantal plaquettes (Putterstraat) met verwijzingen naar de oorlog in dichtvorm door David Ingwersen en reliëftableaus met vogelvoorstellingen. Het complex bevatte een groot aantal verschillende woningtypen, waaronder maisonnette-achtige types waarmee in die tijd in Noord veel geëxperimenteerd werd. Op de hoeken aan de Ganzenweg en het Zwanenplein zijn een paar kleine winkels ondergebracht. In 1939 zijn aan de achterzijden veranda's aangebracht; in 1979 zijn de plattegronden gewijzigd en de ramen vervangen. De speld staat op het registerpunt aan het Zwanenplein.
 
+      Het leukste reliëf zit aan de zuidkant, op de hoek van de Koekoekstraat en de Spechtstraat: twee zandstenen parkieten van Driekus Jansen van Galen, gebogen over een nest kuikens, met een aapje op de volgende penant. Ze zaten hier al zo'n eeuw voordat de halsbandparkiet de omstreden vogel van Amsterdam werd en Noord er bij Overhoeks een beeld van zeven meter voor neerzette.
+
       Let op:
       - de verhoogde blokken in de as van de zichtlijnen
       - de plaquettes met gedichten in de Putterstraat
       - de vogelreliëfs en de gevelsteen van Patrimonium (Zwanenplein 41)
       - de gevelsteen 'In de vogelwijkslanden' (Zwanenplein 91-97)
+      - de parkieten met hun kuikens en het aapje, hoek Koekoekstraat en Spechtstraat
     attributes:
       architect: Tj. Kuipers en D. Ingwersen
       original_use: Arbeiderswoningen en winkels
     sources:
       - https://data.amsterdam.nl/monumenten/0dc0556f-1d30-4e34-be43-3c4f29e51e52
+      - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Noord
 
 - title: Three hidden schools, Havikslaan
   summary: Three school buildings of 1914, 1915 and 1916 stand side by side in a closed inner court of the Vogelbuurt, reached through two narrow passages and invisible from the surrounding streets.
@@ -784,12 +816,17 @@
 
     Facing the gatehouse, on the axis of the Zonneweg, stands the society building that opened on 29 October 1932, later known as 't Zonnehuis, designed by J.H. Mulder in a sober Amsterdam School style. A tall centre block with a pointed gable sits between two low wings; three double doors stand between brick pilasters, the middle one replacing the original ticket office, and iron letters spell 't ZONNEHUIS. Football and athletics clubs, drama and choirs, brass bands and film shows all found a home here. The interior was changed after the flood of January 1960, when the whole village stood under water.
 
-    Today 't Zonnehuis programmes concerts, theatre and musicals in the large hall and dance afternoons in the small one, and a green market is held on the square.
+    Today 't Zonnehuis programmes concerts, theatre and musicals in the large hall and dance afternoons in the small one, and a green market is held on the square. The 1960 flood has its own monument on the square (its own place).
+
+    The village's other memorials are a short walk away. On the Aldebaranplein stands a bronze bust (1999) of Arie Keppler, first director of the municipal Housing Department (1915–1937), who drove the building of Tuindorp Oostzaan and some 30,000 working-class homes across the city. Former pupils of a local school commissioned it from Constance Wibaut, granddaughter of alderman Wibaut, who was Keppler's brother-in-law; Keppler's son Jan unveiled it. Further south, in a little park on the Meteorensingel, a bronze bird with spread wings tops a concrete column with a falling man in relief: the war memorial by Jan Havermans, paid for by a collection among residents and unveiled on 4 May 1950. The village still gathers there every 4 May after a silent walk. About a kilometre west, in the newer courts named after constellations, a poem by Toon Tellegen (2006) runs across eight house fronts, its letters set high as if fallen from the sky; it starts on the Sagittahof at the Meteorenweg.
 
     Look for:
     - the iron letters 't ZONNEHUIS over the entrance
     - the gatehouse opposite, at the end of the Zonneweg
     - the shopfronts below the set-back upper floors
+    - Keppler's bust on the Aldebaranplein, monogrammed CW99
+    - the bird and the falling man of the war memorial on the Meteorensingel
+    - Tellegen's line "Nietsvermoedend en in het donker" on the Sagittahof corner
   category: civic
   lat: 52.413423
   lng: 4.891289
@@ -799,6 +836,8 @@
     - { label: Monumentenregister Amsterdam (200030), url: "https://data.amsterdam.nl/monumenten/579f6e1a-c32e-442f-8e0e-b5a7917990ba" }
     - { label: Wikipedia (nl) Tuindorp Oostzaan, url: "https://nl.wikipedia.org/wiki/Tuindorp_Oostzaan" }
     - { label: Het Zonnehuis, url: "https://zonnehuis.amsterdam" }
+    - { label: 4en5mei (oorlogsgedenkteken Tuindorp Oostzaan), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1481/amsterdam-oorlogsgedenkteken-tuindorp-oostzaan" }
+    - { label: Wikipedia (nl) Borstbeeld Arie Keppler, url: "https://nl.wikipedia.org/wiki/Borstbeeld_Arie_Keppler" }
   attributes:
     rank: Nice
     heritage_status: National + municipal monument
@@ -810,11 +849,19 @@
     - commons:File:Zonnehuis Zonneplein Amsterdam.jpg
     - commons:File:'t Zonnehuis, opening op 29 oktober 1932.jpg
     - commons:File:2023 Zonneplein 1-11, Asd.jpg
+    - commons:File:2023 Arie Keppler door Constance Wibaut, Asd (1).jpg
+    - commons:File:Jan Havermans.jpg
+    - commons:File:Straatpoëzie Tuindorp Oostzaan.jpg
   sources:
     - rce:508539 (register description)
     - city:200030 (register text)
     - https://nl.wikipedia.org/wiki/Tuindorp_Oostzaan
     - https://zonnehuis.amsterdam (current use)
+    - https://nl.wikipedia.org/wiki/Borstbeeld_Arie_Keppler (1999, reunion committee of a local school, brothers-in-law, CW99, unveiled 19 November 1999 by Jan Keppler)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/356 (Keppler director 1915–1937, over 30,000 homes); Commons photos September 2023 (in place)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1481/amsterdam-oorlogsgedenkteken-tuindorp-oostzaan (Havermans, bird, falling man, residents' collection, 4 May 1950, Meteorensingel; 4 May 2026 commemoration after a silent walk from the Bethelkerk)
+    - https://nl.wikipedia.org/wiki/Straatpo%C3%ABzie_Tuindorp_Oostzaan (Ymere, poem over eight facades, letters high, Sagittahof corner Meteorenweg, Frank Beekers)
+    - https://www.historischarchief-toz.nl/kunst-in-de-wijk (2006, the courts); Commons photos September 2018 (poems in place)
   nl:
     title: "'t Zonnehuis en het Zonneplein"
     summary: Het hart van Tuindorp Oostzaan, een besloten dorpsplein met winkels en bovenwoningen (1922-1924), en in de as daarvan verenigingsgebouw 't Zonnehuis uit 1932, nog altijd een podium voor concerten, toneel en dansmiddagen.
@@ -823,12 +870,17 @@
 
       Recht tegenover het poortgebouw in de as van het plein staat het verenigingsgebouw 'Tuindorp Oostzaan', later bekend onder de naam 't Zonnehuis, naar een ontwerp uit 1932 van J.H. Mulder in verstrakte Amsterdamse School-trant. Een hoog centraal bouwvolume wordt geflankeerd door twee lagere zijvleugels. De drie houten dubbele toegangsdeuren zijn geplaatst tussen gemetselde pilasters; de middelste ingang is in de plaats gekomen van een oorspronkelijk 'bureau voor plaatskaarten'. In ijzeren letters staat er ''t ZONNEHUIS'. Het Zonnehuis speelde een belangrijke rol in het verenigingsleven: voetbal-, atletiek-, toneel- en zangverenigingen, harmonieën en bioscoopvoorstellingen. Het interieur is gewijzigd na de overstroming in 1960.
 
-      Tegenwoordig zijn er in 't Zonnehuis concerten, theatervoorstellingen en musicals in de grote zaal en dansmiddagen in de kleine zaal. Op het plein wordt een groenmarkt gehouden.
+      Tegenwoordig zijn er in 't Zonnehuis concerten, theatervoorstellingen en musicals in de grote zaal en dansmiddagen in de kleine zaal. Op het plein wordt een groenmarkt gehouden. De watersnood van 1960 heeft een eigen monument op het plein (een eigen plek).
+
+      De andere gedenktekens van het dorp liggen op loopafstand. Op het Aldebaranplein staat een bronzen borstbeeld (1999) van Arie Keppler, de eerste directeur van de Gemeentelijke Woningdienst (1915-1937), de drijvende kracht achter Tuindorp Oostzaan en ruim 30.000 arbeiderswoningen in de hele stad. Reünisten van een school in de buurt bestelden het bij Constance Wibaut, kleindochter van wethouder Wibaut, die Kepplers zwager was; zoon Jan Keppler onthulde het. Verder naar het zuiden, in een parkje aan de Meteorensingel, staat het oorlogsmonument van Jan Havermans: een bronzen vogel met gespreide vleugels op een betonnen zuil met een vallende man in reliëf, betaald uit een inzameling onder de bewoners en onthuld op 4 mei 1950. Het dorp komt er elk jaar op 4 mei samen na een stille tocht. Zo'n kilometer westelijker, in de nieuwere hofjes met namen van sterrenbeelden, loopt sinds 2006 een gedicht van Toon Tellegen over acht gevels, met de letters hoog geplaatst alsof ze uit de lucht zijn gevallen; het begint aan het Sagittahof bij de Meteorenweg.
 
       Let op:
       - de ijzeren letters 't ZONNEHUIS boven de ingang
       - het poortgebouw aan de overzijde, aan het eind van de Zonneweg
       - de winkelpuien onder de terugliggende verdieping
+      - het borstbeeld van Keppler op het Aldebaranplein, met het monogram CW99
+      - de vogel en de vallende man van het oorlogsmonument aan de Meteorensingel
+      - Tellegens regel 'Nietsvermoedend en in het donker' op de hoek van het Sagittahof
     attributes:
       built: 1922–1924 (plein), 1932 (Zonnehuis)
       architect: B.T. Boeyinga (plein), J.H. Mulder (Zonnehuis)
@@ -838,6 +890,9 @@
       - https://data.amsterdam.nl/monumenten/579f6e1a-c32e-442f-8e0e-b5a7917990ba
       - https://nl.wikipedia.org/wiki/Tuindorp_Oostzaan
       - https://zonnehuis.amsterdam
+      - https://nl.wikipedia.org/wiki/Borstbeeld_Arie_Keppler
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1481/amsterdam-oorlogsgedenkteken-tuindorp-oostzaan
+      - https://nl.wikipedia.org/wiki/Straatpo%C3%ABzie_Tuindorp_Oostzaan
 
 - title: Concrete test houses, Castorplein
   summary: Twenty experimental concrete houses of 1920–1921 by J.H. Mulder, built from an English block system called Winget and a German one, years before Betondorp. Plastered white, they look like any garden-village row.
@@ -1190,19 +1245,21 @@
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/508541
 
 - title: Former bathhouse, Meteorenweg
-  summary: The 1927 public bathhouse of Tuindorp Oostzaan, with separate wings for adults and children and the entrance for mothers on the quiet garden side. It closed in 1985; blue tiles and the old ventilation survive.
+  summary: Tuindorp Oostzaan's 1927 bathhouse. From the Meteorenweg it looks like two little farmhouses; oversized caps on its tall roofs still cover the bath halls' ventilation. Now private homes.
   body: |
-    Houses in the garden village had no bathroom, so in 1927 Public Works built a bathhouse on the corner of the Meteorenweg and the Maanstraat, a typologically rare building that the register describes as quite intact. Two wings form a hook around a former little park. One wing held the bath hall for men and women: waiting rooms, a cash desk, a boiler room and a corridor with five shower cubicles on each side and a room with a tub. The other was a separate children's bathhouse, with front rooms, changing rooms and a children's bath. Mothers and children came in from the sheltered park side, not from the busy road.
+    Until a bathroom came with every new home after the war, Amsterdammers washed at the municipal bathhouse. The city built a string of them from the early 20th century, starting with school baths where children showered under a strict regime: boys had 20 minutes to undress, wash and dress again, girls 30, hence the name *commandobaden* (baths by command). This one, built by Public Works in 1927, served adults and children. The council decided to close the city's bathhouses in 1984, and this one shut on 1 June 1985.
 
-    The steep roofs over the bath halls hid ventilation systems that are still there and partly still work. The style mixes the Amsterdam School with rural touches, as usual in the Noord garden villages, and the building marks the point where the Meteorenweg narrows. After the council decided in 1984 to close the municipal bathhouses, this one shut on 1 June 1985. The building was split into two business premises; the cobalt-blue wall tiles at the front, the pale yellow tiling of the bath hall and the heavy steel boiler-room door survive inside.
+    How it worked still shows outside. Two wings form a hook around a former little park: one held the men's and women's baths, the other a separate children's bath. Mothers and children went in at the sheltered corner by the park, away from the busy road. Along the Meteorenweg the two wings look like two separate North Holland farmhouses. The tall roofs over the bath halls end in big rectangular windows, and their oversized ridge caps cover the ventilation outlets; in the former men's and women's bath the ventilation still works.
+
+    Both halves are homes now (the old children's bath partly business space), and the former park is a private garden behind a fence, so look from the street.
 
     Look for:
-    - the two tall roofs over the former bath halls
-    - the hook-shaped plan around the garden
-    - the narrowing of the Meteorenweg at the corner
+    - the big gable window of the children's bath, facing the Maanstraat
+    - the oversized ridge caps on the two tall roofs
+    - the boiler-room chimney, two offset brick blocks with a nod to Frank Lloyd Wright
   category: civic
   lat: 52.412372
-  lng: 4.88695
+  lng: 4.886950
   address: Meteorenweg 158-160
   links:
     - { label: Monumentenregister Amsterdam (200896), url: "https://data.amsterdam.nl/monumenten/a87d9ad8-d0f3-4b7d-a9c8-25f56e0d668f" }
@@ -1217,21 +1274,22 @@
   photos:
     - commons:File:Meteorenweg 158-160, Amsterdam.jpg
   sources:
-    - city:200896 (register text)
+    - "city:200896 (register text: cultuurhistorische context on bathhouses and commandobaden; plan; closure 28 Nov 1984 / 1 June 1985; 'Gebruiks- en wijzigingsgeschiedenis': no. 160 has a residential use, no. 158 home with business space on the ground floor, former park now a private garden behind a fence; ventilation still working in the men's and women's bath; 'Architectonische uitwerking': farmhouse look, big gable windows, oversized ridge caps, Wright-like chimney)"
+    - "Interior tiles and steel door dropped from the text: inside private homes"
   nl:
     title: Voormalig badhuis, Meteorenweg
-    summary: Het badhuis van Tuindorp Oostzaan uit 1927, met een mannen- en vrouwenbad en een apart kinderbadhuis, de ingang voor moeders aan de beschutte plantsoenzijde. Gesloten in 1985; blauwe tegels en ventilatie zijn bewaard.
+    summary: Het badhuis van Tuindorp Oostzaan uit 1927. Vanaf de Meteorenweg lijkt het op twee boerderijtjes; de uitvergrote nokken op de hoge kappen dekken nog de ventilatie van de badzalen af. Nu woningen.
     body: |
-      Het voormalige badhuis aan de Meteorenweg is een bijzonder en typologisch zeldzaam gebouw dat nog in behoorlijk gave staat verkeert. In de vormentaal zijn karakteristieken van de Amsterdamse School gecombineerd met landelijke elementen, hetgeen in de tuindorpen van Noord gebruikelijk was. Het badhuisgebouw is een herinnering aan een inmiddels verdwenen sociaal en cultuurhistorisch fenomeen en een inherent onderdeel van de tuindorpstructuur.
+      Tot na de oorlog elke nieuwe woning een badkamer kreeg, ging je in Amsterdam naar het badhuis. De gemeente bouwde er vanaf het begin van de twintigste eeuw een hele reeks, te beginnen met schoolbadhuizen waar kinderen onder strak regime douchten: jongens hadden twintig minuten om zich uit te kleden, te wassen en weer aan te kleden, meisjes dertig. Dat heette niet voor niets 'commandobaden'. Dit badhuis van Publieke Werken uit 1927 was voor volwassenen en kinderen. In 1984 besloot de gemeenteraad de badhuizen te sluiten; dat aan de Meteorenweg ging op 1 juni 1985 dicht.
 
-      Twee bouwvolumes vormen samen een haak die het voormalige plantsoen aan twee zijden omsluit. Het ene volume deed oorspronkelijk dienst als het mannen- en vrouwenbadgedeelte, met entrees, wachtkamers, verwarmingsruimte en een badzaal met aan weerszijden van de gang een vijftal doucheruimtes en een ruimte met kuipbad. Het andere was het kinderbadhuis. Het lag voor de hand dat juist bij het beschut gelegen plantsoen de entree voor vrouwen en kinderen gelegen was en niet bij de drukke Meteorenweg. Boven de badzalen zijn ventilatiesystemen in de hoge kappen verwerkt, die nog aanwezig zijn.
+      Hoe het werkte, zie je nog aan de buitenkant. Twee vleugels vormen een haak om het voormalige plantsoen: in de ene zat het mannen- en vrouwenbad, in de andere een apart kinderbadhuis. Moeders en kinderen gingen naar binnen in de beschutte hoek bij het plantsoen, niet aan de drukke weg. Langs de Meteorenweg lijken de twee vleugels op twee Noord-Hollandse boerderijtjes. De hoge kappen boven de badzalen hebben grote rechthoekige ramen in de kopgevels en uitvergrote nokken die de uitgangen van de ventilatie afdekken; in het voormalige mannen- en vrouwenbad werkt die ventilatie nog.
 
-      De gemeenteraad besloot op 28 november 1984 tot de geleidelijke sluiting van de gemeentelijke badhuizen; het badhuis aan de Meteorenweg is op 1 juni 1985 definitief gesloten. Zeer bijzonder is dat de oude kobaltblauwe betegeling van de wanden in de voorste helft nog intact is, evenals de zachtgele betegeling in de badzaal en de zware stalen deur van de verwarmingsruimte.
+      Beide helften zijn nu woningen (het oude kinderbad deels bedrijfsruimte) en het plantsoen is een privétuin achter een schutting. Kijk dus vanaf de straat.
 
       Let op:
-      - de twee hoge kappen boven de voormalige badzalen
-      - de haakvormige opzet rond de tuin
-      - de versmalling van de Meteorenweg bij de kruising
+      - het grote raam in de kopgevel van het kinderbad aan de Maanstraat
+      - de uitvergrote nokken op de twee hoge kappen
+      - de schoorsteen van de stookruimte: twee verspringende blokken, met een knipoog naar Frank Lloyd Wright
     attributes:
       original_use: Openbaar badhuis
     sources:
@@ -1485,12 +1543,15 @@
 
     Three listed houses remain along it. Zuideinde 428-430 is an 18th-century house of two aisles under saddle roofs that end in pointed gables at the front, built partly in stone and partly in wood; this ensemble is pinned on it. Zuideinde 286 is a wooden farmhouse with three aisles, perhaps early 19th century or older, with a square cowshed under a high tiled saddle roof behind the living part. Zuideinde 335 was listed because of a smuiger inside, an old open hearth with a smoke hood.
 
+    The dike road also sheltered refugees. Between 1933 and 1939 about 75 Jews who had fled Germany, Poland and Eastern Europe found a temporary home in this neighbourhood and in Oostzaan, thirty of them at Zuideinde 443. Some left the country in time; 46 survived the war. Fajga Rozenszajn and her son Leo, born in Duisburg in 1935, hid in the house; Leo was murdered in Auschwitz on 7 July 1944, and when and where his mother died is not known. A bronze plaque on the side wall, at the corner of the Jacob Honigstraat, was unveiled on 28 April 2005.
+
     These are private homes; look from the road.
 
     Look for:
     - Zuideinde 428-430: the twin pointed gables, half stone, half wood
     - Zuideinde 286: the high tiled roof of the cowshed behind the wooden house
     - Zuideinde 335: the house itself (the smoke hood is inside)
+    - Zuideinde 443: the plaque for the refugees on the side wall, by the Jacob Honigstraat
   category: housing
   lat: 52.416787
   lng: 4.896043
@@ -1500,6 +1561,7 @@
     - { label: Rijksmonumentenregister (6575), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6575" }
     - { label: Rijksmonumentenregister (6731), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6731" }
     - { label: Wikipedia (nl) Oostzanerwerf, url: "https://nl.wikipedia.org/wiki/Oostzanerwerf" }
+    - { label: 4en5mei (plaquette Zuideinde 443), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2673/amsterdam-plaquette-aan-woonhuis-zuideinde" }
   attributes:
     rank: Okay
     heritage_status: National monument
@@ -1513,6 +1575,7 @@
   sources:
     - rce:6576, 6575, 6731 (register descriptions)
     - https://nl.wikipedia.org/wiki/Oostzanerwerf
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2673/amsterdam-plaquette-aan-woonhuis-zuideinde (plaque text, 75 refugees, 30 at no. 443, 46 survived, Fajga and Leo Rozenszajn, 28 April 2005, side wall at the Jacob Honigstraat)
   nl:
     title: Zuideinde, Oostzanerwerf
     summary: "Drie oude huizen aan de dijkweg van de vroegere Oostzaner Overtoom, ooit een walvisvaarthaven: een houten driebeukige boerderij, een 18e-eeuws huis van hout en steen, en een huis dat beschermd is om de smuiger binnen."
@@ -1521,12 +1584,15 @@
 
       Aan het Zuideinde staan drie rijksmonumenten. Zuideinde 428-430 is een tweebeukig 18e-eeuws huis onder zadeldaken, die aan de voorzijde worden afgesloten door puntgevels; het huis is gedeeltelijk van steen, gedeeltelijk van hout opgetrokken. Op dit huis staat de speld. Zuideinde 286 is een driebeukige houten boerderij, wellicht begin 19e eeuw of ouder, met achter het woonhuis een vierkante stal met hoog pannen zadeldak. Zuideinde 335 is beschermd vanwege een smuiger in het inwendige.
 
+      Aan de dijkweg vonden ook vluchtelingen onderdak. Tussen 1933 en 1939 kwamen zo'n 75 Joden die Duitsland, Polen en Oost-Europa waren ontvlucht tijdelijk in deze buurt en in Oostzaan terecht, dertig van hen op Zuideinde 443. Sommigen konden het land nog op tijd verlaten; 46 overleefden de oorlog. Fajga Rozenszajn en haar zoontje Leo, in 1935 in Duisburg geboren, zaten in het huis ondergedoken. Leo werd op 7 juli 1944 in Auschwitz vermoord; wanneer en waar zijn moeder omkwam is niet bekend. Een bronzen plaquette op de zijgevel, op de hoek van de Jacob Honigstraat, werd op 28 april 2005 onthuld.
+
       Het zijn woonhuizen; bekijk ze vanaf de weg.
 
       Let op:
       - Zuideinde 428-430: de twee puntgevels, deels steen, deels hout
       - Zuideinde 286: het hoge pannendak van de stal achter het houten woonhuis
       - Zuideinde 335: het huis zelf (de smuiger zit binnen)
+      - Zuideinde 443: de plaquette voor de vluchtelingen op de zijgevel, bij de Jacob Honigstraat
     attributes:
       built: 18e–19e eeuw
       original_use: Woonhuizen en boerderij
@@ -1535,6 +1601,7 @@
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/6575
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/6731
       - https://nl.wikipedia.org/wiki/Oostzanerwerf
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2673/amsterdam-plaquette-aan-woonhuis-zuideinde
 
 - title: Kadoelen stolp farms
   summary: Two pyramid-roofed stolp farmhouses of 1908 facing each other across the Kadoelenweg, one with its hay barrack and barn still beside it, in a last scrap of polder inside the ring road. "As if the farmer stopped work yesterday."
@@ -1701,17 +1768,27 @@
       - https://reliwiki.nl/index.php?title=Amsterdam,_Savelsbos_1_-_Salvator
 
 - title: Former kindergarten, Mariëndaal
-  summary: The best-kept of five identical pavilion kindergartens of 1968 by Evers and Sarlemijn in the Buikslotermeer, a classroom wing and a hall on a schoolyard, built when "the child at the centre" was the new idea. Three of the others face demolition.
+  summary: One of five identical kindergartens built in 1968 for the new Buikslotermeer, and the best kept. Three of its siblings are due to be demolished, so this low pavilion may soon be one of only two left.
   body: |
-    The new post-war neighbourhoods of Noord got schools as part of the plan. In the Buikslotermeer, Adriaan Evers and Geert Sarlemijn designed a series of five kindergartens, identical except for a straight or an L-shaped plan, each with a classroom wing and a school hall on a schoolyard. Mariëndaal 13 dates from 1968. It is simple but carefully set out, with clear lines and a well-balanced front, and its functionalist look is unusual in the work of the two architects, who are better known for traditional churches.
+    When the Buikslotermeer went up in the 1960s as one of Noord's post-war garden-city estates, its schools were part of the plan. For a Catholic school foundation, the architects Adriaan Evers and Geert Sarlemijn designed five kindergartens to one layout: a classroom wing and a school hall on a schoolyard, either in a straight line or in an L. Mariëndaal 13 was finished in 1968.
 
-    The building reflects the ideas of its time about education, with more attention to the child, and about the neighbourhood: the school hall was also used for local activities. Its sheltered, pavilion-like spot at the edge of the estate, among greenery, is typical of the garden-city character of this part of Noord. Of the five, Mariëndaal 13 is the most intact, outside and inside. Demolition was decided for three others (Botterstraat 185, Volendammerweg 51 and IJdoornlaan 34), and the fourth was altered, so this may become the only one left. It was listed in 2020 and is now a children's day-care centre.
+    Its rarity is part of why the city listed it in 2020. Demolition has been decided for three of the others (Botterstraat 185, Volendammerweg 51 and IJdoornlaan 34), and the fourth, Spelderholt 167, was rebuilt by its owner. So this one, the least altered inside and out, is to stay, possibly together with the altered Spelderholt building.
+
+    It is a modest pavilion, but carefully drawn: clean lines, a balanced front and a functionalist look that stands out in the two architects' work. It also shows the thinking of its day. Teaching put the child at the centre, and the school hall doubled as a room for neighbourhood activities. Its sheltered spot in the greenery at the edge of the estate is the garden-city idea on a small scale.
+
+    It is a day-care centre now, so look from the street.
+
+    Look for:
+    - the classroom wing and the school hall, set on the schoolyard
+    - the crisp, functionalist fronts
+    - the green setting at the edge of the estate
   category: schools
   lat: 52.402583
   lng: 4.941994
   address: Mariëndaal 13
   links:
     - { label: Monumentenregister Amsterdam (200926), url: "https://data.amsterdam.nl/monumenten/376f0dd9-3708-4b92-a942-12dc9d531c9d" }
+    - { label: Kinderdagverblijf Fesa (Kiddie), url: "https://www.kiddie.nl/locatie/kinderdagverblijf-fesa-mariendaal/" }
   attributes:
     rank: Okay
     heritage_status: Municipal monument
@@ -1721,17 +1798,24 @@
     listed: 2020
     original_use: Kindergarten
   sources:
-    - city:200926 (register text)
+    - city:200926 (register text, incl. client Stichting Rooms Katholiek Onderwijs in Amsterdam-Noord and the 'Gaafheid en zeldzaamheid' section)
     - https://www.kiddie.nl/locatie/kinderdagverblijf-fesa-mariendaal/ (current use)
   nl:
     title: Voormalige kleuterschool, Mariëndaal
-    summary: "De gaafste van vijf identieke paviljoenkleuterscholen uit 1968 van Evers en Sarlemijn in de Buikslotermeer: een lesvleugel en een schoolzaal aan een schoolplein, uit de tijd dat het kind centraal kwam te staan."
+    summary: Een van vijf identieke kleuterscholen uit 1968 in de nieuwe Buikslotermeer, en de best bewaarde. Drie zusjes gaan tegen de vlakte, dus dit lage paviljoen is straks een van de laatste twee.
     body: |
-      Mariëndaal 13 is van hoge architectuurhistorische waarde vanwege de periodekarakteristieke vormgeving, de kwaliteit van het ontwerp en de bijzondere typologie. Het is een eenvoudig gebouw dat uitgekiend is opgezet, met een heldere vormgeving, een krachtige belijning en een zorgvuldige gevelcompositie. De oorspronkelijke opzet (een lesvleugel met schoolzaal aan een schoolplein) is nog gaaf intact en goed afleesbaar. Vanwege de afwijkende, functionalistische vormgeving neemt het ontwerp binnen het oeuvre van Evers en Sarlemijn een bijzondere plaats in.
+      Toen in de jaren zestig de Buikslotermeer werd gebouwd, een van de naoorlogse tuinsteden van Noord, hoorden de scholen bij het plan. Voor de Stichting Rooms Katholiek Onderwijs in Amsterdam-Noord ontwierpen Adriaan Evers en Geert Sarlemijn vijf kleuterschooltjes volgens één opzet: een lesvleugel en een schoolzaal aan een schoolplein, in een rechte lijn of in een L. Mariëndaal 13 kwam in 1968 klaar.
 
-      De beschutte ligging van het paviljoenachtige schoolgebouw aan de rand van de wijk en het groen rondom zijn kenmerkend voor het tuinstedelijke karakter van de wijk. Het gebouw is van cultuurhistorische waarde als onderdeel van het scholencluster in de Buikslotermeer en vanwege de toenmalige ideeën over onderwijs, waarbij het kind meer centraal gesteld werd. Het gebruik van de schoolzaal voor activiteiten uit de buurt paste in de wijkgedachte uit die tijd.
+      Dat het in 2020 gemeentelijk monument werd, heeft ook met de andere vier te maken. Voor drie ervan (Botterstraat 185, Volendammerweg 51 en IJdoornlaan 34) is een sloopbesluit genomen, en Spelderholt 167 is door de eigenaar verbouwd. Mariëndaal 13, binnen en buiten het minst veranderd, blijft dus behouden, mogelijk samen met het verbouwde Spelderholt 167.
 
-      Mariëndaal 13 maakt deel uit van een serie van vijf in oorsprong identieke schoolgebouwen, waarvan het het meest gaaf bewaard is gebleven. Voor drie van de vijf kleuterschooltjes (Botterstraat 185, Volendammerweg 51 en IJdoornlaan 34) ligt er een sloopbesluit; de vierde, Spelderholt 167, is verbouwd. Mariëndaal 13 zal op termijn dus mogelijk als enige behouden blijven. Het gebouw is nu een kinderdagverblijf.
+      Het is een bescheiden paviljoen, maar zorgvuldig getekend: strakke lijnen, een evenwichtige gevel en een functionalistische vorm die in het werk van de twee architecten opvalt. Het laat ook het denken van die tijd zien. In het onderwijs kwam het kind centraal te staan, en de schoolzaal was ook bedoeld voor activiteiten uit de buurt. De beschutte plek in het groen aan de rand van de wijk is het tuinstadidee in het klein.
+
+      Er zit nu een kinderdagverblijf in; bekijk het dus vanaf de straat.
+
+      Let op:
+      - de lesvleugel en de schoolzaal aan het schoolplein
+      - de strak belijnde, functionalistische gevels
+      - de groene ligging aan de rand van de wijk
     attributes:
       architect: A. Evers en G.J.M. Sarlemijn
       original_use: Kleuterschool
