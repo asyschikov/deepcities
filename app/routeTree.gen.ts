@@ -15,6 +15,7 @@ import { Route as AuthRouteImport } from './routes/auth'
 import { Route as MeRouteImport } from './routes/me'
 import { Route as CityIndexRouteImport } from './routes/$city.index'
 import { Route as CitySlugRouteImport } from './routes/$city.$slug'
+import { Route as MeVisitsRouteImport } from './routes/me_.visits'
 import { Route as CitySlugIndexRouteImport } from './routes/$city.$slug.index'
 import { Route as CitySlugNewRouteImport } from './routes/$city.$slug.new'
 import { Route as CitySlugManageRouteImport } from './routes/$city.$slug_.manage'
@@ -57,6 +58,11 @@ const CityIndexRoute = CityIndexRouteImport.update({
 const CitySlugRoute = CitySlugRouteImport.update({
   id: '/$city/$slug',
   path: '/$city/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MeVisitsRoute = MeVisitsRouteImport.update({
+  id: '/me_/visits',
+  path: '/me/visits',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CitySlugIndexRoute = CitySlugIndexRouteImport.update({
@@ -131,6 +137,7 @@ export interface FileRoutesByFullPath {
   '/auth': typeof AuthRoute
   '/me': typeof MeRoute
   '/$city/$slug': typeof CitySlugRouteWithChildren
+  '/me/visits': typeof MeVisitsRoute
   '/$city/': typeof CityIndexRoute
   '/$city/$slug/new': typeof CitySlugNewRoute
   '/$city/$slug/manage': typeof CitySlugManageRoute
@@ -151,6 +158,7 @@ export interface FileRoutesByTo {
   '/admin': typeof AdminRoute
   '/auth': typeof AuthRoute
   '/me': typeof MeRoute
+  '/me/visits': typeof MeVisitsRoute
   '/$city': typeof CityIndexRoute
   '/$city/$slug/new': typeof CitySlugNewRoute
   '/$city/$slug/manage': typeof CitySlugManageRoute
@@ -173,6 +181,7 @@ export interface FileRoutesById {
   '/auth': typeof AuthRoute
   '/me': typeof MeRoute
   '/$city/$slug': typeof CitySlugRouteWithChildren
+  '/me_/visits': typeof MeVisitsRoute
   '/$city/': typeof CityIndexRoute
   '/$city/$slug/new': typeof CitySlugNewRoute
   '/$city/$slug_/manage': typeof CitySlugManageRoute
@@ -196,6 +205,7 @@ export interface FileRouteTypes {
     | '/auth'
     | '/me'
     | '/$city/$slug'
+    | '/me/visits'
     | '/$city/'
     | '/$city/$slug/new'
     | '/$city/$slug/manage'
@@ -216,6 +226,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/auth'
     | '/me'
+    | '/me/visits'
     | '/$city'
     | '/$city/$slug/new'
     | '/$city/$slug/manage'
@@ -237,6 +248,7 @@ export interface FileRouteTypes {
     | '/auth'
     | '/me'
     | '/$city/$slug'
+    | '/me_/visits'
     | '/$city/'
     | '/$city/$slug/new'
     | '/$city/$slug_/manage'
@@ -259,6 +271,7 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRoute
   MeRoute: typeof MeRoute
   CitySlugRoute: typeof CitySlugRouteWithChildren
+  MeVisitsRoute: typeof MeVisitsRoute
   CityIndexRoute: typeof CityIndexRoute
   CitySlugManageRoute: typeof CitySlugManageRoute
   CitySlugReviewRoute: typeof CitySlugReviewRoute
@@ -309,6 +322,13 @@ declare module '@tanstack/react-router' {
       path: '/$city/$slug'
       fullPath: '/$city/$slug'
       preLoaderRoute: typeof CitySlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/me_/visits': {
+      id: '/me_/visits'
+      path: '/me/visits'
+      fullPath: '/me/visits'
+      preLoaderRoute: typeof MeVisitsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$city/$slug/': {
@@ -455,6 +475,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRoute,
   MeRoute: MeRoute,
   CitySlugRoute: CitySlugRouteWithChildren,
+  MeVisitsRoute: MeVisitsRoute,
   CityIndexRoute: CityIndexRoute,
   CitySlugManageRoute: CitySlugManageRoute,
   CitySlugReviewRoute: CitySlugReviewRoute,

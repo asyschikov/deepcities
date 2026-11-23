@@ -14,3 +14,4 @@ export const getInitials = (name: string): string => {
 
 /** Public URL of an uploaded photo (served by the worker from R2). */
 export const photoUrl = (photoId: string): string => `/media/photos/${photoId}`;
+export const checkinPhotoUrl = (id: string): string => `/media/checkins/${id}`;

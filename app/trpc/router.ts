@@ -3,12 +3,12 @@ import { router } from "./init";
 import { adminRouter } from "./routers/admin";
 import { areaRouter } from "./routers/area";
 import { authRouter } from "./routers/auth";
+import { checkinRouter } from "./routers/checkin";
 import { collectionRouter } from "./routers/collection";
 import { documentRouter } from "./routers/document";
 import { photoRouter } from "./routers/photo";
 import { placeRouter } from "./routers/place";
 import { proposalRouter } from "./routers/proposal";
-import { ratingRouter } from "./routers/rating";
 import { routeRouter } from "./routers/route";
 
 export const appRouter = router({
@@ -20,7 +20,7 @@ export const appRouter = router({
   area: areaRouter,
   proposal: proposalRouter,
   photo: photoRouter,
-  rating: ratingRouter,
+  checkin: checkinRouter,
   admin: adminRouter,
 });
 

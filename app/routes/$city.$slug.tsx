@@ -44,6 +44,7 @@ import {
   parseMapView,
 } from "~/lib/map-search";
 import { useIsPeerOf } from "~/lib/nav-history";
+import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
@@ -198,6 +199,16 @@ const MapLayout = () => {
     if (!onMapHome) setPanelOpen(true);
   }, [onMapHome, pathname]);
 
+  // Places the reader has checked in to (ticked on the map and in lists).
+  const viewer = useViewer();
+  const { data: visitedList } = useQuery({
+    ...trpc.checkin.visited.queryOptions({
+      collectionId: rawView.collection.id,
+    }),
+    enabled: viewer !== null,
+  });
+  const visitedIds = useMemo(() => new Set(visitedList ?? []), [visitedList]);
+
   // The reader's position, shared by the map, the list and route following.
   const geo = useGeolocation();
   const [following, setFollowing] = useState(false);
@@ -342,6 +353,7 @@ const MapLayout = () => {
           lng: p.lng,
           title: p.title,
           color: categoryOf(p.category).color,
+          visited: visitedIds.has(p.id),
           dimmed:
             !visibleIds.has(p.id) ||
             picking ||
@@ -355,6 +367,7 @@ const MapLayout = () => {
       overlay?.dimPlaces,
       highlighted,
       hidden,
+      visitedIds,
     ],
   );
 
@@ -389,6 +402,7 @@ const MapLayout = () => {
     following,
     setFollowing,
     showMap,
+    visitedIds,
   };
 
   return (

@@ -15,6 +15,7 @@ import {
   ExternalLink,
   Flag,
   MapPin,
+  Navigation,
   Pencil,
   Route as RouteIcon,
 } from "lucide-react";
@@ -22,11 +23,11 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
+import { VisitPanel } from "~/components/CheckIn";
 import { DocumentList } from "~/components/DocumentList";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
-import { RatingBadge, RatingInput } from "~/components/RatingStars";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
 import { Button } from "~/components/ui/button";
 import {
@@ -39,8 +40,12 @@ import {
   DialogTrigger,
 } from "~/components/ui/dialog";
 import { Textarea } from "~/components/ui/textarea";
+import { VerdictSummary } from "~/components/Verdict";
+import { useAppMode } from "~/lib/app-mode";
 import { localize, localizePlace, untranslated } from "~/lib/content-lang";
+import { distanceMeters } from "~/lib/diff";
 import { useMapPage } from "~/lib/map-page";
+import { formatDistance } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
@@ -116,11 +121,11 @@ const SuggestRemoval = ({ placeId }: { placeId: string }) => {
 const PlacePage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
-  const queryClient = useQueryClient();
   const viewer = useViewer();
+  const mode = useAppMode();
   const { city, slug, placeId } = Route.useParams();
   const initial = Route.useLoaderData();
-  const { view, categoryOf, focusOn, translateTo } = useMapPage();
+  const { view, categoryOf, focusOn, translateTo, geo } = useMapPage();
   const editing = useMatch({
     from: "/$city/$slug/p/$placeId/edit",
     shouldThrow: false,
@@ -130,7 +135,7 @@ const PlacePage = () => {
     ...trpc.place.byId.queryOptions({ placeId }),
     initialData: initial,
   });
-  const { can, rating, history, myPending } = data;
+  const { can, verdicts, history, myPending } = data;
   const place = localizePlace(data.place, translateTo);
   const missing = translateTo
     ? untranslated(data.place, translateTo, ["title", "summary", "body"])
@@ -142,21 +147,6 @@ const PlacePage = () => {
   useEffect(() => {
     focusOn({ lat: place.lat, lng: place.lng });
   }, [place.lat, place.lng, focusOn]);
-
-  const rate = useMutation(
-    trpc.rating.set.mutationOptions({
-      onSuccess: () =>
-        Promise.all([
-          queryClient.invalidateQueries({
-            queryKey: trpc.place.byId.queryKey({ placeId }),
-          }),
-          queryClient.invalidateQueries({
-            queryKey: trpc.place.list.queryKey(),
-          }),
-        ]),
-      onError: (err) => toast.error(err.message),
-    }),
-  );
 
   if (editing) return <Outlet />;
 
@@ -170,6 +160,17 @@ const PlacePage = () => {
     .filter(Boolean)
     .join(", ");
   const archived = place.status === "archived";
+  const exploring = mode === "explore";
+  const away = geo.fix ? distanceMeters(geo.fix, place) : null;
+  const visit = !archived && (
+    <VisitPanel
+      placeId={placeId}
+      placeTitle={place.title}
+      lat={place.lat}
+      lng={place.lng}
+      canVisit={can.visit}
+    />
+  );
 
   return (
     <article className="space-y-5 p-5">
@@ -221,8 +222,17 @@ const PlacePage = () => {
         </div>
         <h1 className="text-2xl leading-tight font-semibold">{place.title}</h1>
         {area && <p className="text-sm text-muted-foreground">{area}</p>}
-        <RatingBadge avg={rating.avg} count={rating.count} />
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+          <VerdictSummary counts={verdicts} />
+          {away !== null && (
+            <span className="text-xs text-[#2563eb]">
+              {t("place_away", { distance: formatDistance(away) })}
+            </span>
+          )}
+        </div>
       </header>
+
+      {exploring && visit}
 
       <p className="text-[15px] leading-relaxed">{place.summary}</p>
       <PlaceAttributes
@@ -244,31 +254,37 @@ const PlacePage = () => {
         title={t("place_further_reading")}
       />
 
-      {(place.address || place.links.length > 0) && (
-        <div className="space-y-2 rounded-lg bg-muted/60 p-3 text-sm">
-          {place.address && (
-            <a
-              className="flex items-center gap-2 hover:underline"
-              href={`https://www.openstreetmap.org/?mlat=${place.lat}&mlon=${place.lng}#map=18/${place.lat}/${place.lng}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <MapPin className="size-4 text-brick" /> {place.address}
-            </a>
-          )}
-          {place.links.map((l) => (
-            <a
-              key={l.url}
-              href={l.url}
-              target="_blank"
-              rel="noreferrer nofollow ugc"
-              className="flex items-center gap-2 text-primary hover:underline"
-            >
-              <ExternalLink className="size-4" /> {l.label}
-            </a>
-          ))}
-        </div>
-      )}
+      <div className="space-y-2 rounded-lg bg-muted/60 p-3 text-sm">
+        <a
+          className="flex items-center gap-2 text-primary hover:underline"
+          href={`https://www.google.com/maps/dir/?api=1&destination=${place.lat},${place.lng}&travelmode=walking`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Navigation className="size-4" /> {t("place_directions")}
+        </a>
+        {place.address && (
+          <a
+            className="flex items-center gap-2 hover:underline"
+            href={`https://www.openstreetmap.org/?mlat=${place.lat}&mlon=${place.lng}#map=18/${place.lat}/${place.lng}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <MapPin className="size-4 text-brick" /> {place.address}
+          </a>
+        )}
+        {place.links.map((l) => (
+          <a
+            key={l.url}
+            href={l.url}
+            target="_blank"
+            rel="noreferrer nofollow ugc"
+            className="flex items-center gap-2 text-primary hover:underline"
+          >
+            <ExternalLink className="size-4" /> {l.label}
+          </a>
+        ))}
+      </div>
 
       {onRoutes.length > 0 && (
         <section className="space-y-1.5 border-t pt-4">
@@ -295,36 +311,28 @@ const PlacePage = () => {
         </section>
       )}
 
-      {!archived && (
+      {!exploring && visit && (
         <section className="space-y-2 border-t pt-4">
           <h2 className="font-sans text-sm font-semibold">
-            {t("rating_your")}
+            {t("visit_yours")}
           </h2>
-          {can.rate ? (
-            <RatingInput
-              value={rating.mine}
-              disabled={rate.isPending}
-              onChange={(score) => rate.mutate({ placeId, score })}
-            />
-          ) : (
-            <p className="text-sm text-muted-foreground">
-              {viewer ? (
-                t("rating_not_allowed")
-              ) : (
-                <Link
-                  to="/auth"
-                  search={{ next: `/${city}/${slug}/p/${placeId}` }}
-                  className="text-primary underline"
-                >
-                  {t("rating_sign_in")}
-                </Link>
-              )}
-            </p>
-          )}
+          {visit}
         </section>
       )}
 
-      {!archived && (
+      {exploring && !archived && can.propose && (
+        <p className="border-t pt-4 text-xs text-muted-foreground">
+          <Link
+            to="/$city/$slug/p/$placeId/edit"
+            params={{ city, slug, placeId }}
+            className="hover:underline"
+          >
+            {t("place_explore_wrong")}
+          </Link>
+        </p>
+      )}
+
+      {!exploring && !archived && (
         <section className="flex flex-wrap items-center gap-2 border-t pt-4">
           {can.propose ? (
             <>
@@ -357,29 +365,34 @@ const PlacePage = () => {
         </section>
       )}
 
-      <section className="space-y-2 border-t pt-4">
-        <h2 className="font-sans text-sm font-semibold">
-          {t("place_history")}
-        </h2>
-        <ol className="space-y-2 text-xs text-muted-foreground">
-          {history.map((h) => (
-            <li key={h.id}>
-              <span className="font-medium text-foreground">
-                {t(`history_${h.kind}`, {
-                  name: h.author?.name ?? t("someone"),
-                })}
-              </span>
-              {h.reviewer && h.reviewer.id !== h.author?.id && (
-                <> · {t("history_approved_by", { name: h.reviewer.name })}</>
-              )}
-              {h.reviewedAt && (
-                <> · {formatDistanceToNow(h.reviewedAt, { addSuffix: true })}</>
-              )}
-              {h.note && <div className="italic">“{h.note}”</div>}
-            </li>
-          ))}
-        </ol>
-      </section>
+      {!exploring && (
+        <section className="space-y-2 border-t pt-4">
+          <h2 className="font-sans text-sm font-semibold">
+            {t("place_history")}
+          </h2>
+          <ol className="space-y-2 text-xs text-muted-foreground">
+            {history.map((h) => (
+              <li key={h.id}>
+                <span className="font-medium text-foreground">
+                  {t(`history_${h.kind}`, {
+                    name: h.author?.name ?? t("someone"),
+                  })}
+                </span>
+                {h.reviewer && h.reviewer.id !== h.author?.id && (
+                  <> · {t("history_approved_by", { name: h.reviewer.name })}</>
+                )}
+                {h.reviewedAt && (
+                  <>
+                    {" "}
+                    · {formatDistanceToNow(h.reviewedAt, { addSuffix: true })}
+                  </>
+                )}
+                {h.note && <div className="italic">“{h.note}”</div>}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
     </article>
   );
 };

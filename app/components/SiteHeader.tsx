@@ -1,7 +1,14 @@
 import { Link, useMatches, useRouterState } from "@tanstack/react-router";
-import { LogOut, MapPinned, Shield, UserRound } from "lucide-react";
+import {
+  LogOut,
+  MapPinCheck,
+  MapPinned,
+  Shield,
+  UserRound,
+} from "lucide-react";
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
+import { ModeSwitch } from "~/components/ModeSwitch";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -115,6 +122,7 @@ export const SiteHeader = () => {
         ))}
       </nav>
       <div className="ml-auto flex shrink-0 items-center gap-2">
+        <ModeSwitch />
         {viewer ? (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -134,6 +142,11 @@ export const SiteHeader = () => {
                 </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to="/me/visits">
+                  <MapPinCheck /> {t("header_visits")}
+                </Link>
+              </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link to="/me">
                   <UserRound /> {t("header_profile")}

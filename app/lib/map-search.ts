@@ -21,7 +21,7 @@ export const mapSearchSchema = z.object({
   /** Boundary layer: which level of official areas to draw. */
   areas: opt(z.enum(AREA_LEVELS)),
   /** Sidebar tab (places is the default). */
-  tab: opt(z.enum(["places", "routes"])),
+  tab: opt(z.enum(["places", "routes", "visited"])),
   /** Place search text, category and field filters. */
   q: opt(z.string().max(200)),
   cat: opt(z.string().max(60)),

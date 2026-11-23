@@ -4,15 +4,16 @@
  * to TanStack Start.
  */
 import handler from "@tanstack/react-start/server-entry";
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import {
   clearedSessionCookie,
   destroySession,
+  getSessionProfile,
   redeemLoginToken,
   sessionCookie,
 } from "./lib/auth.server";
 import { createDb } from "./lib/db";
-import { photo } from "./lib/db/schema";
+import { checkinPhoto, photo } from "./lib/db/schema";
 import { redirectFor } from "./lib/redirects.server";
 import type { ServerEnv } from "./lib/server-env";
 
@@ -84,6 +85,32 @@ const handleMedia = async (photoId: string, env: ServerEnv) => {
   return new Response(object.body, { headers });
 };
 
+/** A check-in photo: private, so only for its owner, and never cached shared. */
+const handleCheckinMedia = async (
+  request: Request,
+  photoId: string,
+  env: ServerEnv,
+) => {
+  const db = createDb(env.DB);
+  const viewer = await getSessionProfile(db, request);
+  const row = viewer
+    ? await db.query.checkinPhoto.findFirst({
+        where: and(
+          eq(checkinPhoto.id, photoId),
+          eq(checkinPhoto.profileId, viewer.id),
+        ),
+        columns: { objectKey: true },
+      })
+    : null;
+  const object = row ? await env.R2.get(row.objectKey) : null;
+  if (!object) return new Response("Not found", { status: 404 });
+  const headers = new Headers();
+  object.writeHttpMetadata(headers);
+  headers.set("Cache-Control", "private, max-age=86400");
+  headers.set("ETag", object.httpEtag);
+  return new Response(object.body, { headers });
+};
+
 export default {
   async fetch(
     request: Request,
@@ -98,6 +125,10 @@ export default {
     if (pathname === "/auth/verify") return handleVerify(request, env);
     if (pathname === "/auth/signout" && request.method === "POST")
       return handleSignOut(request, env);
+
+    const own = /^\/media\/checkins\/([a-z0-9]+)$/.exec(pathname);
+    if (own?.[1] && request.method === "GET")
+      return handleCheckinMedia(request, own[1], env);
 
     const media = /^\/media\/photos\/([a-z0-9]+)$/.exec(pathname);
     if (media?.[1] && request.method === "GET")

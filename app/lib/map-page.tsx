@@ -36,7 +36,7 @@ export interface MapOverlay {
   card?: ReactNode;
 }
 
-export type SidebarTab = "places" | "routes";
+export type SidebarTab = "places" | "routes" | "visited";
 
 /**
  * Shared state between the map (right) and the routed side panel (left) on
@@ -84,6 +84,8 @@ export interface MapPageState {
   setFollowing: (on: boolean) => void;
   /** Phones: hide the panel so the map shows (no-op on wide screens). */
   showMap: () => void;
+  /** Places on this map the reader has checked in to. */
+  visitedIds: ReadonlySet<string>;
 }
 
 export const MapPageContext = createContext<MapPageState | null>(null);

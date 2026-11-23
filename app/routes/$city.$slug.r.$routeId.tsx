@@ -24,6 +24,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
+import { CheckInButton } from "~/components/CheckIn";
 import { DocumentList } from "~/components/DocumentList";
 import { FollowRouteCard } from "~/components/FollowRouteCard";
 import { MarkdownView } from "~/components/MarkdownView";
@@ -47,6 +48,7 @@ import {
   DialogTrigger,
 } from "~/components/ui/dialog";
 import { Textarea } from "~/components/ui/textarea";
+import { useAppMode } from "~/lib/app-mode";
 import {
   localizeRoute,
   routeHasUntranslated,
@@ -136,6 +138,7 @@ const RoutePage = () => {
   const { t } = useTranslation();
   const trpc = useTRPC();
   const viewer = useViewer();
+  const mode = useAppMode();
   const { city, slug, routeId } = Route.useParams();
   const initial = Route.useLoaderData();
   const { places, focusOn, setTab, translateTo, geo, setFollowing, showMap } =
@@ -322,6 +325,17 @@ const RoutePage = () => {
                   setFollowing(true);
                 }}
                 onEnd={endFollowing}
+                extra={
+                  target?.placeId ? (
+                    <CheckInButton
+                      placeId={target.placeId}
+                      placeTitle={target.name}
+                      routeId={route.id}
+                      className="flex-1"
+                      variant={arrived ? "default" : "outline"}
+                    />
+                  ) : undefined
+                }
               />
             ) : undefined,
           },
@@ -343,12 +357,14 @@ const RoutePage = () => {
       headFor,
       setFollowing,
       endFollowing,
+      target,
     ],
   );
   useMapOverlay(overlay);
 
   if (editing) return <Outlet />;
   const archived = route.status === "archived";
+  const exploring = mode === "explore";
 
   return (
     <article className="space-y-5 p-5">
@@ -532,7 +548,7 @@ const RoutePage = () => {
         {t("route_time_note")}
       </p>
 
-      {!archived && (
+      {!exploring && !archived && (
         <section className="flex flex-wrap items-center gap-2 border-t pt-4">
           {can.propose ? (
             <>
@@ -574,29 +590,34 @@ const RoutePage = () => {
         className="border-t pt-4"
       />
 
-      <section className="space-y-2 border-t pt-4">
-        <h2 className="font-sans text-sm font-semibold">
-          {t("place_history")}
-        </h2>
-        <ol className="space-y-2 text-xs text-muted-foreground">
-          {history.map((h) => (
-            <li key={h.id}>
-              <span className="font-medium text-foreground">
-                {t(`history_route_${h.kind}`, {
-                  name: h.author?.name ?? t("someone"),
-                })}
-              </span>
-              {h.reviewer && h.reviewer.id !== h.author?.id && (
-                <> · {t("history_approved_by", { name: h.reviewer.name })}</>
-              )}
-              {h.reviewedAt && (
-                <> · {formatDistanceToNow(h.reviewedAt, { addSuffix: true })}</>
-              )}
-              {h.note && <div className="italic">“{h.note}”</div>}
-            </li>
-          ))}
-        </ol>
-      </section>
+      {!exploring && (
+        <section className="space-y-2 border-t pt-4">
+          <h2 className="font-sans text-sm font-semibold">
+            {t("place_history")}
+          </h2>
+          <ol className="space-y-2 text-xs text-muted-foreground">
+            {history.map((h) => (
+              <li key={h.id}>
+                <span className="font-medium text-foreground">
+                  {t(`history_route_${h.kind}`, {
+                    name: h.author?.name ?? t("someone"),
+                  })}
+                </span>
+                {h.reviewer && h.reviewer.id !== h.author?.id && (
+                  <> · {t("history_approved_by", { name: h.reviewer.name })}</>
+                )}
+                {h.reviewedAt && (
+                  <>
+                    {" "}
+                    · {formatDistanceToNow(h.reviewedAt, { addSuffix: true })}
+                  </>
+                )}
+                {h.note && <div className="italic">“{h.note}”</div>}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
     </article>
   );
 };

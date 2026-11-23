@@ -1,25 +1,40 @@
 import { TRPCError } from "@trpc/server";
-import { and, count, desc, eq, inArray, sql } from "drizzle-orm";
+import { and, count, desc, eq, inArray } from "drizzle-orm";
 import { z } from "zod/v4";
+import { VERDICTS, type Verdict } from "~/lib/constants";
 import { listTranslations } from "~/lib/content-lang";
 import type { Database } from "~/lib/db";
-import { photo, place, proposal, rating } from "~/lib/db/schema";
+import { photo, place, proposal, verdict } from "~/lib/db/schema";
 import { idSchema } from "~/lib/validation";
 import { getAccess } from "../access";
 import { publicProcedure, router } from "../init";
 
-const ratingSummaries = async (db: Database, collectionId: string) => {
+/** How many visitors gave each verdict. */
+export type VerdictCounts = Record<Verdict, number>;
+const noVerdicts = (): VerdictCounts =>
+  Object.fromEntries(VERDICTS.map((v) => [v, 0])) as VerdictCounts;
+
+const verdictCounts = async (
+  db: Database,
+  where: { collectionId: string } | { placeId: string },
+) => {
   const rows = await db
-    .select({
-      placeId: rating.placeId,
-      avg: sql<number>`avg(${rating.score})`,
-      n: count(),
-    })
-    .from(rating)
-    .innerJoin(place, eq(place.id, rating.placeId))
-    .where(eq(place.collectionId, collectionId))
-    .groupBy(rating.placeId);
-  return new Map(rows.map((r) => [r.placeId, { avg: r.avg, count: r.n }]));
+    .select({ placeId: verdict.placeId, verdict: verdict.verdict, n: count() })
+    .from(verdict)
+    .innerJoin(place, eq(place.id, verdict.placeId))
+    .where(
+      "placeId" in where
+        ? eq(verdict.placeId, where.placeId)
+        : eq(place.collectionId, where.collectionId),
+    )
+    .groupBy(verdict.placeId, verdict.verdict);
+  const byPlace = new Map<string, VerdictCounts>();
+  for (const r of rows) {
+    const counts = byPlace.get(r.placeId) ?? noVerdicts();
+    counts[r.verdict] = r.n;
+    byPlace.set(r.placeId, counts);
+  }
+  return byPlace;
 };
 
 export const placeRouter = router({
@@ -27,7 +42,7 @@ export const placeRouter = router({
   list: publicProcedure
     .input(z.object({ collectionId: idSchema }))
     .query(async ({ ctx, input }) => {
-      const [rows, ratings] = await Promise.all([
+      const [rows, verdicts] = await Promise.all([
         ctx.db.query.place.findMany({
           where: and(
             eq(place.collectionId, input.collectionId),
@@ -52,13 +67,13 @@ export const placeRouter = router({
           },
           orderBy: (p, { asc }) => asc(p.title),
         }),
-        ratingSummaries(ctx.db, input.collectionId),
+        verdictCounts(ctx.db, { collectionId: input.collectionId }),
       ]);
       return rows.map(({ photoIds, translations, ...p }) => ({
         ...p,
         translations: listTranslations(translations),
         coverPhotoId: photoIds[0] ?? null,
-        rating: ratings.get(p.id) ?? { avg: null, count: 0 },
+        verdicts: verdicts.get(p.id) ?? noVerdicts(),
       }));
     }),
 
@@ -74,19 +89,8 @@ export const placeRouter = router({
       const access = await getAccess(ctx.db, found.collectionId, ctx.profile);
       const viewerId = ctx.profile?.id;
 
-      const [summary, mine, history, myPending, photoRows] = await Promise.all([
-        ctx.db
-          .select({ avg: sql<number | null>`avg(${rating.score})`, n: count() })
-          .from(rating)
-          .where(eq(rating.placeId, found.id)),
-        viewerId
-          ? ctx.db.query.rating.findFirst({
-              where: and(
-                eq(rating.placeId, found.id),
-                eq(rating.profileId, viewerId),
-              ),
-            })
-          : null,
+      const [verdicts, history, myPending, photoRows] = await Promise.all([
+        verdictCounts(ctx.db, { placeId: found.id }),
         ctx.db.query.proposal.findMany({
           where: and(
             eq(proposal.placeId, found.id),
@@ -140,11 +144,7 @@ export const placeRouter = router({
         fields: access.collection.fields,
         role: access.role,
         can: access.can,
-        rating: {
-          avg: summary[0]?.avg ?? null,
-          count: summary[0]?.n ?? 0,
-          mine: mine?.score ?? null,
-        },
+        verdicts: verdicts.get(found.id) ?? noVerdicts(),
         history,
         myPending,
       };

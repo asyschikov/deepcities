@@ -86,7 +86,18 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `routeId`/`routeDraft`). Approving copies the draft onto `place` and bumps `place.revision`.
   Approved proposals are the place's history. Proposals record `baseRevision`, so
   reviewers are warned when the place changed after an edit was suggested.
-- `photo`, `rating` (1–5, one per user per place), `collection_member` (role per map).
+- `photo`, `collection_member` (role per map).
+- `verdict` — one visitor's word on a place: amazing / nice / okay / skip (the same
+  scale as the map's rank; no stars). Places show the tally per word.
+- `checkin` — "I was here": a visit, private to the visitor, repeatable, with where they
+  were when the phone knew. `checkin_photo` holds its photos: a selfie stays private
+  (served only to its owner at `/media/checkins/<id>`); a photo of the place is also a
+  `photo` offered to the place through an edit proposal. Checking in and verdicts need
+  only a signed-in account (`can.visit`: anyone not banned from the map).
+- Explore and Edit modes (`app/lib/app-mode.ts`): the same pages, with the explorer's
+  tools first (near me, following a route, check-ins, visits) or the editor's
+  (suggest, review, manage, history). Defaults by device, remembered per browser.
+  Location is only started by the reader (`app/lib/geolocation.ts`).
 - `document` — long-form markdown with pictures (essays, biographies, background) that
   belongs to a map. `document_attachment` shows it on subjects: the map itself
   (`collection`), places and routes (`subject_type` + `subject_id`, no foreign key, so

@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
+  CircleCheck,
   ClipboardCheck,
   FilePlus,
   Inbox,
@@ -11,12 +12,14 @@ import {
 import { useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
-import { RatingBadge } from "~/components/RatingStars";
 import { RoleBadge } from "~/components/RoleBadge";
 import { RoutesPanel } from "~/components/RoutesPanel";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
+import { VerdictSummary } from "~/components/Verdict";
+import { VisitHistory } from "~/components/VisitHistory";
+import { useAppMode } from "~/lib/app-mode";
 import { distanceMeters } from "~/lib/diff";
 import { useSettledFix } from "~/lib/geolocation";
 import { useMapPage } from "~/lib/map-page";
@@ -43,7 +46,10 @@ const MapIndex = () => {
     setTab,
     setHoverPlaceId,
     geo,
+    visitedIds,
+    translateTo,
   } = useMapPage();
+  const exploring = useAppMode() === "explore";
   // Near me: nearest first, with how far each place is.
   const [near, setNear] = useSearchFlag("near");
   const here = useSettledFix(geo.fix);
@@ -97,61 +103,63 @@ const MapIndex = () => {
             </button>
           </div>
         )}
-        <div className="flex flex-wrap gap-2 pt-1">
-          <Button asChild size="sm">
-            {viewer ? (
-              <Link to="/$city/$slug/new" params={{ city, slug }}>
-                <Plus /> {t("map_suggest_place")}
-              </Link>
-            ) : (
-              <Link to="/auth" search={{ next: `/${city}/${slug}/new` }}>
-                <Plus /> {t("map_suggest_place")}
-              </Link>
+        {!exploring && (
+          <div className="flex flex-wrap gap-2 pt-1">
+            <Button asChild size="sm">
+              {viewer ? (
+                <Link to="/$city/$slug/new" params={{ city, slug }}>
+                  <Plus /> {t("map_suggest_place")}
+                </Link>
+              ) : (
+                <Link to="/auth" search={{ next: `/${city}/${slug}/new` }}>
+                  <Plus /> {t("map_suggest_place")}
+                </Link>
+              )}
+            </Button>
+            {can.review && (
+              <Button asChild size="sm" variant="outline">
+                <Link to="/$city/$slug/review" params={{ city, slug }}>
+                  <ClipboardCheck /> {t("map_review")}
+                  {pendingCount > 0 && (
+                    <Badge className="ml-1 h-5 bg-brick px-1.5">
+                      {pendingCount}
+                    </Badge>
+                  )}
+                </Link>
+              </Button>
             )}
-          </Button>
-          {can.review && (
-            <Button asChild size="sm" variant="outline">
-              <Link to="/$city/$slug/review" params={{ city, slug }}>
-                <ClipboardCheck /> {t("map_review")}
-                {pendingCount > 0 && (
-                  <Badge className="ml-1 h-5 bg-brick px-1.5">
-                    {pendingCount}
-                  </Badge>
-                )}
-              </Link>
-            </Button>
-          )}
-          {viewer && !can.review && (
-            <Button asChild size="sm" variant="outline">
-              <Link
-                to="/$city/$slug/review"
-                params={{ city, slug }}
-                search={{ tab: "mine" }}
-              >
-                <Inbox /> {t("map_my_suggestions")}
-              </Link>
-            </Button>
-          )}
-          {can.review && (
-            <Button asChild size="sm" variant="ghost">
-              <Link to="/$city/$slug/d/new" params={{ city, slug }}>
-                <FilePlus /> {t("map_new_document")}
-              </Link>
-            </Button>
-          )}
-          {can.manage && (
-            <Button asChild size="sm" variant="ghost">
-              <Link to="/$city/$slug/manage" params={{ city, slug }}>
-                <Settings /> {t("map_manage")}
-              </Link>
-            </Button>
-          )}
-          {viewer && (
-            <span className="flex items-center">
-              <RoleBadge role={role} />
-            </span>
-          )}
-        </div>
+            {viewer && !can.review && (
+              <Button asChild size="sm" variant="outline">
+                <Link
+                  to="/$city/$slug/review"
+                  params={{ city, slug }}
+                  search={{ tab: "mine" }}
+                >
+                  <Inbox /> {t("map_my_suggestions")}
+                </Link>
+              </Button>
+            )}
+            {can.review && (
+              <Button asChild size="sm" variant="ghost">
+                <Link to="/$city/$slug/d/new" params={{ city, slug }}>
+                  <FilePlus /> {t("map_new_document")}
+                </Link>
+              </Button>
+            )}
+            {can.manage && (
+              <Button asChild size="sm" variant="ghost">
+                <Link to="/$city/$slug/manage" params={{ city, slug }}>
+                  <Settings /> {t("map_manage")}
+                </Link>
+              </Button>
+            )}
+            {viewer && (
+              <span className="flex items-center">
+                <RoleBadge role={role} />
+              </span>
+            )}
+          </div>
+        )}
       </div>
 
       <DocumentList
@@ -164,7 +172,10 @@ const MapIndex = () => {
       />
 
       <div className="flex border-b" role="tablist">
-        {(["places", "routes"] as const).map((key) => (
+        {(viewer
+          ? (["places", "routes", "visited"] as const)
+          : (["places", "routes"] as const)
+        ).map((key) => (
           <button
             key={key}
             type="button"
@@ -185,6 +196,8 @@ const MapIndex = () => {
 
       {tab === "routes" ? (
         <RoutesPanel />
+      ) : tab === "visited" && viewer ? (
+        <VisitHistory collectionId={collection.id} translateTo={translateTo} />
       ) : (
         <>
           <div className="space-y-3 border-b bg-card/95 p-4 backdrop-blur sticky top-0 z-10">
@@ -328,12 +341,18 @@ const MapIndex = () => {
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-baseline justify-between gap-2">
-                        <h3 className="truncate font-sans text-base font-semibold">
-                          {p.title}
+                        <h3 className="flex min-w-0 items-center gap-1.5 font-sans text-base font-semibold">
+                          <span className="truncate">{p.title}</span>
+                          {visitedIds.has(p.id) && (
+                            <CircleCheck
+                              className="size-4 shrink-0 text-[#15803d]"
+                              aria-label={t("visit_visited")}
+                            />
+                          )}
                         </h3>
-                        <RatingBadge
-                          avg={p.rating.avg}
-                          count={p.rating.count}
+                        <VerdictSummary
+                          counts={p.verdicts}
+                          className="shrink-0"
                         />
                       </div>
                       <div className="flex gap-2 text-xs">

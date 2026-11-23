@@ -24,6 +24,8 @@ export interface MapMarker {
   color: string;
   title: string;
   dimmed?: boolean;
+  /** The reader has checked in here: drawn with a tick. */
+  visited?: boolean;
 }
 
 export interface LngLat {
@@ -508,6 +510,7 @@ export const MapView = ({
       entry.el.setAttribute("aria-label", m.title);
       entry.el.dataset.active = String(m.id === activeId);
       entry.el.dataset.dimmed = String(Boolean(m.dimmed));
+      entry.el.dataset.visited = String(Boolean(m.visited));
       // MapLibre manages the element's inline opacity, so dim through it.
       entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
     }

@@ -151,6 +151,19 @@ export const FIELD_TYPES = [
 export type FieldType = (typeof FIELD_TYPES)[number];
 export const MAX_FIELDS_PER_MAP = 30;
 
+/**
+ * A visitor's verdict on a place, the same scale as the map's own rank:
+ * worth going out of your way, worth a stop if you're near, a footnote,
+ * or not worth it. Words, not stars: star averages all end up at 4.5.
+ */
+export const VERDICTS = ["amazing", "nice", "okay", "skip"] as const;
+export type Verdict = (typeof VERDICTS)[number];
+
+/** Check-in photos: of yourself there (private), or of the place (offered to it). */
+export const CHECKIN_PHOTO_KINDS = ["selfie", "place"] as const;
+export type CheckinPhotoKind = (typeof CHECKIN_PHOTO_KINDS)[number];
+export const MAX_PHOTOS_PER_CHECKIN = 6;
+
 export const MAX_PHOTOS_PER_PLACE = 8;
 export const MAX_LINKS_PER_PLACE = 6;
 export const MAX_PHOTO_BYTES = 4 * 1024 * 1024;
