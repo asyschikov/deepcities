@@ -153,9 +153,10 @@ your own when you're done. Review what comes back; don't trust it blindly.
 
 ### Rules that matter most
 
-- **Two languages, both native.** Build the Dutch (`nl:`) out of the original Dutch wording of Dutch sources: register texts, nl.wikipedia, local news and history sites. Never translate the English.
+- **Two languages, both native.** Write the Dutch (`nl:`) from Dutch sources (register texts, nl.wikipedia, local news and history sites), using their terms and phrasing where they are apt. Never translate the English.
+  - **Write, don't paste.** No sentences lifted from a source: not from the register, Wikipedia, Stadscuratorium, artists' or museums' sites (copyright, and it reads stiff). No register jargon ("van hoge architectuurhistorische waarde", "periodekarakteristiek", "notabene"): say it as a person would.
   - Write the English natively. Gloss Dutch terms on first use.
-  - The facts must agree between the two. The emphasis may differ.
+  - **Same facts in both.** Every fact, date and hook in one language is in the other. The emphasis and wording may differ; the content may not.
 - **Current status, checked recently.** Art gets removed, shops close, horses leave balconies. For each item, find the latest news and say plainly whether it is still there.
   - **Gone things: high bar.** This is a guide, not a history textbook. A gone thing goes on (or stays) only if at least one holds: something related to it is there today (a memorial, a trace, a successor, a name); the current state gives context for what happened; or it had a lasting impact. A gone bridge, artwork or factory with only a good story doesn't count. Otherwise fold one sentence into a nearby place or leave it out.
   - If it's gone but the story is good, pin the site and say clearly that it's gone. Put it in the title too, e.g. `(gone)`, and **always set `attributes: {status: Gone}`** (the map's Status field; the user wants gone things marked there).
@@ -165,7 +166,10 @@ your own when you're done. Review what comes back; don't trust it blindly.
 - **Exact location.** Pin the object itself: the mural's wall, the statue, the entrance. Never a street centroid. Use 6 decimals.
 - **Rank.** Set `attributes.rank`: `Amazing` (worth going out of your way; rare, about 1 in 20), `Nice` (worth a stop if you're near), or `Okay` (a footnote for completists: plain listed fronts, small plaques, gone things without a strong story). Add new ranks to `scripts/data/amsterdam-c-list-ranks.json`.
 - **Visiting.** Say whether and how it can be seen: from the street, opening hours, seasonal (e.g. "on the pond mid-April to end October"), private.
-- **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list. Never use em dashes (use a colon, comma or parentheses); tell research agents the same.
+- **Find the hook.** Read the whole source, not just the description: the register's *cultuurhistorische context* (or "Redengevende omschrijving") and the end of the Wikipedia article are where the stories are (a plot meant for a market, a newspaper founded in secret, a church that became a recording studio). A listing alone is not a story: if a monument has none, it goes into an ensemble at Okay rather than getting a register summary of its own.
+- **Only what a visitor can see.** Don't describe interiors of private homes, working schools or offices unless you say they're closed, and say what *is* visible from the street. Give the current use and, where there is one, the way in (opening hours, services, concerts).
+- **Length.** About 150–250 words in the body. Don't bolt neighbouring things onto a place to fatten it; give them their own place or a Look for line.
+- **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list. Never use em dashes, nor a spaced en dash (" – ") standing in for one (use a colon, comma or parentheses); tell research agents the same.
   - Never mention the research process ("our notes", "the coordinator", "this brief").
 - **Sources.** Every fact needs a source. Put the sources in `links` (up to 6, registers first, distinct labels) and `sources:` (for reviewers; stripped before import).
   - Sensitive history (WWII, persecution, stereotypes in art, contested urban renewal): be factual and neither sensational nor evasive.
