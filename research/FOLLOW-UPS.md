@@ -27,6 +27,8 @@ Things to check or update later. Each line: place title (area): what to do.
 
 ## Pins to check on site or on aerial imagery
 
+Most of these and of "Status to confirm" are also flagged on the live map with the "Needs checking" field (`check`, `check_note`; list in `scripts/data/amsterdam-check-flags.json`). Clear the field when a place is checked.
+
 - Iron Lady of the Bijlmer (Zuidoost): two OSM points 22 m apart; the southern one is used.
 - The Botanical Garden of the Bims (Zuidoost): pinned on the Haardstee garage, wall not confirmed.
 - Nelson Mandelapark and Kwaku (Zuidoost): park centre.
@@ -47,6 +49,10 @@ Things to check or update later. Each line: place title (area): what to do.
 - Laurentiuskerk genever still (Weesp): left out; add if still running.
 - Oost round 2, weakest recent evidence: Airhead #2 on the Krugerplein (2021), Beursmannetje (2022), Vrijburcht fish wall and Nautilus (2020/2023).
 - Karel Appel Was Hier (Oost): the family shop may have been at Dapperstraat 17, not 7.
+
+## Parked (user, not imported yet)
+
+- A-list places found by the sweeps, kept off the map until the user decides what to do with A-list sights: Muziekgebouw aan 't IJ and the Bimhuis (Oost, SCOUT-3 item 228).
 
 ## Coverage plan
 

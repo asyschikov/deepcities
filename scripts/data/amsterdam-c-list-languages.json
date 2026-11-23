@@ -1,4 +1,5 @@
 {
+  "language": "en",
   "languages": ["nl"],
   "translations": {
     "nl": {
@@ -50,6 +51,35 @@
         "artist": {
           "label": "Kunstenaar",
           "help": "Wie de muurschildering of het kunstwerk maakte."
+        },
+        "status": {
+          "label": "Status",
+          "help": "Ingevuld als het er niet meer is; de pin markeert waar het was.",
+          "options": {
+            "Gone": "Verdwenen"
+          }
+        },
+        "rank": {
+          "label": "Waardering",
+          "help": "Hoeveel omweg het waard is: Geweldig (ga ervoor om), Leuk (de moeite als je in de buurt bent), Oké (een voetnoot, voor completisten).",
+          "options": {
+            "Amazing": "Geweldig",
+            "Nice": "Leuk",
+            "Okay": "Oké"
+          }
+        },
+        "check": {
+          "label": "Te controleren",
+          "help": "Hier is iets onbevestigd: de pin (Locatie), of het er nog is (Nog aanwezig?), of een feit waarover bronnen het oneens zijn (Feiten). Wis het na controle.",
+          "options": {
+            "Location": "Locatie",
+            "Still there?": "Nog aanwezig?",
+            "Facts": "Feiten"
+          }
+        },
+        "check_note": {
+          "label": "Wat te controleren",
+          "help": "Eén regel over wat onzeker is, bijv. \"Volgens OSM staat de bank 120 m oostelijker dan deze pin.\""
         }
       }
     }

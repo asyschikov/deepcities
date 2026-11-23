@@ -58,5 +58,19 @@
     "type": "select",
     "options": ["Gone"],
     "help": "Set when the thing no longer exists; the pin marks where it was."
+  },
+  {
+    "key": "check",
+    "label": "Needs checking",
+    "type": "select",
+    "options": ["Location", "Still there?", "Facts"],
+    "help": "Something here is unconfirmed: the pin (Location), whether it still exists (Still there?), or a fact sources disagree on (Facts). Clear it once checked.",
+    "filter": true
+  },
+  {
+    "key": "check_note",
+    "label": "What to check",
+    "type": "text",
+    "help": "One line on what is unsure, e.g. \"OSM puts the bench 120 m east of this pin.\""
   }
 ]
