@@ -3,7 +3,7 @@
   body: |
     In 1919 the Nederlandsche Scheepsbouw Maatschappij (NSM) gave up its cramped yard on Oostenburg and moved across the IJ. Its first big building in Noord was this shipbuilding shed (*scheepsbouwloods*), designed by G.J. Langhout with German engineers for the steel frame. Inside is one almost undivided space: a six-aisle long hall plus a cross hall that held the *mallenzolder*, the loft where full-size templates for ship parts were drawn. Heavy lattice columns carry the crane girders; the roof above is light by comparison. In 1946 the NSM and its neighbour, the Nederlandsche Dok Maatschappij, began working together as the NDSM, for a time one of the largest yards in the world. It closed in 1984.
 
-    Squatters and artists moved into the empty yard. In 2000 they set up Stichting Kinetisch Noord, which got the hall, the open ground and the slipways in 2006 and now owns and runs the hall. Since 2007 about a third of its roughly 20,000 m² has been the *Kunststad* (art city): some 80 studios stacked like a small town, where more than 250 artists, designers and craftspeople work. The rest hosts film shoots, festivals and the IJ-Hallen flea market. Nearly 1,400 solar panels cover the roof.
+    Squatters and artists moved into the empty yard. In 2000 they set up Stichting Kinetisch Noord, which got the hall, the open ground and the slipways in 2006 and now owns and runs the hall. Since 2007 about a third of its roughly 20,000 m² has been the *Kunststad* (art city): some 80 studios stacked like a small town, where more than 250 artists, designers and craftspeople work. Dynamo Architecten designed it (built 2005–2006) as a bare frame of black steel, a nod to the ships once built here, standing apart from the hall's green ironwork, with an orange lift and yellow bracing; tenants build their own studios inside it. Since 2014 Kinetisch Noord has held the hall on a long lease. The rest hosts film shoots, festivals and the IJ-Hallen flea market. Nearly 1,400 solar panels cover the roof.
 
     West of the hall stands the Naald van Goedkoop (officially the Zuil van Goedkoop), a tufa column with a bronze portrait of Daniël Goedkoop, who founded the NSM in 1894. The staff gave it to him on 25 August 1944, in the middle of the occupation, for the yard's fiftieth birthday and his farewell as director. The medallion was the first commission of sculptor Carel Kneulman, who had worked at the yard until September 1941 and left because it was working for the occupier. After the 1984 bankruptcy the column briefly disappeared; it came back in 1987 and has been moved several times since, last in 2011 and 2017. The lamp on top was lost along the way, and in 2017 a replica of the medallion was made in case the original is ever lost too.
 
@@ -11,7 +11,7 @@
     - the faded painted ship and company names along the top of the facade facing the IJ
     - the tall blue doors in the steel-framed brick walls
     - inside, the riveted lattice columns and crane girders
-    - the stacked studios of the Kunststad
+    - the stacked studios of the Kunststad in their black steel frame
     - west of the hall, the Naald van Goedkoop with Kneulman's portrait of the founder
   category: industrial
   lat: 52.401146
@@ -23,6 +23,7 @@
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/NDSM-werf" }
     - { label: NDSM Loods, url: "https://www.ndsmloods.nl/over/" }
     - { label: Wikipedia (nl) Naald van Goedkoop, url: "https://nl.wikipedia.org/wiki/Naald_van_Goedkoop" }
+    - { label: "Architectuur.nl, Kunststad (2008)", url: "https://www.architectuur.nl/project/ateliers-ndsm-kunststad-amsterdam/" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -44,13 +45,15 @@
     - https://nl.wikipedia.org/wiki/Naald_van_Goedkoop (gift of 25 August 1944, NSM 50 years, Goedkoop's farewell, Kneulman medallion and his resignation in 1941, gone after 1984, back 1987, moves in 2011 and 2017, lamp lost, replica 2017)
     - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/364 (founded 1894; bronze and tufa; artist not named there, Kneulman per nl.wikipedia, which cites his signature on the medallion)
     - OSM node 'Daniël Goedkoop' (52.400547, 4.892964); Commons photos 2022
+    - "https://www.architectuur.nl/project/ateliers-ndsm-kunststad-amsterdam/ (10 March 2008: design Dynamo Architecten, Utrecht; building October 2005 to July 2006 for the first casco; black steel frame as a nod to the ships, contrasting with the green existing structure; orange lift, yellow bracing; tenants finish their own studios)"
+    - "https://creatievehubs.nl/hub/ndsm-loods/ (Kinetisch Noord owner on leasehold since 2014; search snippet); https://www.ndsmloods.nl/wp-content/uploads/2026/01/2024-jaarrekening-SKN-getekend.pdf (annual ground rent; search snippet)"
   nl:
     title: NDSM Loods (Scheepsbouwloods)
     summary: "De voormalige scheepsbouwloods van 1919–1920 is zo groot dat kunstenaars er een hele kunststad van ateliers in bouwden. Onder de geklonken vakwerkspanten werden ooit scheepsrompen in elkaar gezet."
     body: |
       Voormalige scheepsbouwloods, gebouwd in 1919–1920 naar ontwerp van G.J. Langhout, hierin bijgestaan door Duitse ingenieurs voor de constructie, oorspronkelijk gebouwd voor de Nederlandsche Scheepsbouw Maatschappij. Door gebrek aan uitbreidingsmogelijkheden op Oostenburg moest de NSM op zoek naar een andere locatie, en die werd gevonden aan de overkant van het IJ. Het is een loods van enorme omvang, met bakstenen gevels met stalen raamwerkconstructie, hoge blauwe deuren en vensterpartijen met smalle, hoge ramen. In het interieur is sprake van een samengestelde hal, bestaande uit een 6-beukige langshal en een 1-beukige dwarshal met daarin de mallenzolder. Zwaar gedimensioneerde vakwerkkolommen dragen de grote kraanbaanliggers en de veel lichter uitgevoerde dakconstructie.
 
-      Na de sluiting van de werf in 1984 werden de leegstaande gebouwen gekraakt. De Stichting Kinetisch Noord is in 2000 opgericht om de voormalige scheepsbouwloods te herontwikkelen tot een centrum voor kunst, cultuur en ambachten; in 2006 werden de loods, het buitenterrein en de hellingen aan de stichting overgedragen. De kunststad, een culturele broedplaats met ca. 80 ateliers, beslaat grofweg een derde van de immense oppervlakte. Meer dan 250 kunstenaars, designers, creatieven en ambachtslieden hebben hier een werkplek. Met bijna 1.400 zonnepanelen heeft de loods een van de grootste zonnedaken van Amsterdam.
+      Na de sluiting van de werf in 1984 werden de leegstaande gebouwen gekraakt. De Stichting Kinetisch Noord is in 2000 opgericht om de voormalige scheepsbouwloods te herontwikkelen tot een centrum voor kunst, cultuur en ambachten; in 2006 werden de loods, het buitenterrein en de hellingen aan de stichting overgedragen. De kunststad, een culturele broedplaats met ca. 80 ateliers, beslaat grofweg een derde van de immense oppervlakte. Meer dan 250 kunstenaars, designers, creatieven en ambachtslieden hebben hier een werkplek. Dynamo Architecten ontwierp de kunststad (gebouwd 2005–2006) als een kaal casco van zwart staal, een knipoog naar de schepen die hier werden gebouwd, dat afsteekt tegen de groene oude constructie, met een oranje lift en gele windverbanden; de huurders bouwen hun ateliers er zelf in af. Sinds 2014 heeft Kinetisch Noord de loods in erfpacht. Met bijna 1.400 zonnepanelen heeft de loods een van de grootste zonnedaken van Amsterdam.
 
       Ten westen van de loods staat de Naald van Goedkoop, officieel de Zuil van Goedkoop: een zuil van tufsteen met een bronzen portret van Daniël Goedkoop, die de NSM in 1894 oprichtte. Midden in de oorlog, op 25 augustus 1944, schonk het personeel hem de zuil bij het vijftigjarig bestaan van de werf en zijn afscheid als directeur. Het medaillon was de eerste opdracht van beeldhouwer Carel Kneulman, die tot september 1941 op de werf werkte en opstapte omdat het bedrijf voor de bezetter werkte. Na het faillissement van 1984 was de zuil even zoek; in 1987 kwam hij terug en daarna is hij nog een paar keer verplaatst, het laatst in 2011 en 2017. De lamp bovenop raakte bij al die verhuizingen kwijt. In 2017 werd een replica van het medaillon gemaakt, voor het geval het origineel ooit verloren gaat.
 
@@ -58,7 +61,7 @@
       - de vele resten van geschilderde naamsaanduidingen aan de bovenrand van de gevel aan de IJ-zijde
       - de hoge blauwe deuren in de bakstenen gevels met stalen raamwerk
       - binnen de vakwerkkolommen met geklonken verbindingen en de kraanbaanliggers
-      - de gestapelde ateliers van de kunststad
+      - de gestapelde ateliers van de kunststad in hun zwarte stalen casco
       - ten westen van de loods de Naald van Goedkoop, met het portret van de oprichter door Kneulman
     attributes:
       built: 1919–1920
@@ -70,6 +73,7 @@
       - https://www.ndsmloods.nl/geschiedenis/
       - https://nl.wikipedia.org/wiki/Naald_van_Goedkoop
       - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/364
+      - https://www.architectuur.nl/project/ateliers-ndsm-kunststad-amsterdam/
 
 - title: Lasloods (STRAAT Museum)
   summary: "The NDSM's 1952 welding hall, with huge blue doors and a two-aisle steel 'cathedral' inside, was where the last ships of the yard were welded. Today it holds STRAAT, a museum of street art."
@@ -190,7 +194,9 @@
 - title: NDSM slipways and Kraan 13 (Faralda Crane Hotel)
   summary: "Two slipways slant into the IJ where the NDSM launched its ships, the last in 1979. Between them stands Kraan 13, the yard's last crane, which now carries three hotel suites 50 metres up."
   body: |
-    A ship was built on a slipway (*helling*) and slid stern-first into the water at its launch. The NDSM had several; two survive, angled towards the IJ, with a crane track between them. The small slipway (helling IV), to the west, dates from 1927 and was lengthened in 1952; the big one to the east was made in the 1950s by joining slipways II and III of around 1920. They were laid out under G.J. Langhout and altered under J.D. Postma. The last ship slid off in 1979. After the yard went bankrupt in 1984, former workers kept the cranes in order for five years in the hope of a restart; a plan to build three freighters here died when the storm of 25 January 1990 wrecked the big gantry crane. Workshops now fill the space under the slipway decks, and the open ground is used for festivals.
+    A ship was built on a slipway (*helling*) and slid stern-first into the water at its launch. The NDSM had several; two survive, angled towards the IJ, with a crane track between them. The small slipway (helling IV), to the west, dates from 1927 and was lengthened in 1952; the big one to the east was made in the 1950s by joining slipways II and III of around 1920. They were laid out under G.J. Langhout and altered under J.D. Postma. The last ship slid off in 1979. After the yard went bankrupt in 1984, former workers kept the cranes in order for five years in the hope of a restart; a plan to build three freighters here died when the storm of 25 January 1990 wrecked the big gantry crane. Workshops now fill the space under the slipway decks, and the open ground is used for festivals. Under the western slipway, Helling X, artists had worked for years with leaking roofs and uncertain rents; after a renovation it reopened on 20 March 2025 with 17 studios for 23 makers, from painters and musicians to a shoemaker, at affordable rents and with the right to return. The artists made the new fronts, doors and windows themselves.
+
+    On the wharf by the crane stand two old trams, since 2002 the base of the artists' collective Stichting Trammeland, which holds performances and parties there. One of them, a sixty-year-old Amsterdam three-axle car, burned out in September 2016, probably arson; a museum foundation gave another old Amsterdam tram to replace it.
 
     Kraan 13, built by the firm Hensen in the 1950s, is the last of the yard's cranes and part of the listed monument. By 2011 it was rusting and at risk of demolition when entrepreneur Edwin Kornmann Rudi took it on. In 2013 it was dismantled, shipped on a 100-metre pontoon to Franeker for restoration and returned in October; since 2014 it has held three suites and a studio, and the cab still turns on its slewing bearing. The project won the Pieter van Vollenhoven Prize for re-use in 2016.
 
@@ -199,6 +205,8 @@
     - the crane rails between the two slipways
     - the three suites in the crane's machine house, high above the IJ
     - the view across the IJ from the foot of the slipways
+    - the self-made studio fronts under Helling X
+    - the two old trams on the wharf beside the crane
   category: industrial
   lat: 52.399395
   lng: 4.894825
@@ -218,6 +226,8 @@
     architect: G.J. Langhout; altered under J.D. Postma
     listed: 2007
     original_use: Shipbuilding slipways with crane track and crane
+    check: Still there?
+    check_note: "The two Trammeland trams by the crane: OSM still maps both, but the latest dated photos are from 2015 and 2018."
   photos:
     - commons:File:Faralda NDSM Crane.JPG
     - commons:File:Slipway; crane; NDSM wharf Amsterdam.JPG
@@ -229,11 +239,22 @@
     - https://erfgoedstem.nl/pieter-vollenhovenprijs-herbestemming-ndsm-kraan/
     - https://www.ndsm.nl/magazine/ndsm-x-s3-e8-in-tunen-met-henk-schut (last launch 1979)
     - https://www.ndsm.nl/magazine/vroeger-op-vrijdag
+    - "https://www.rodi.nl/amsterdam-noord/nieuws/438595/vernieuwde-helling-x-op-ndsm-terrein-in-gebruik-genomen (28 March 2025: former slipway X renovated, 17 studios, 23 artists incl. a shoemaker; leaks fixed; right to return, affordable rent; facades, doors and windows made by the artists)"
+    - "https://www.ndsmloods.nl/evenement/ndsm-xpo-xvi/ (Broedplaats Helling X opened 20 March 2025 by alderman Touria Meliani; search snippet)"
+    - "https://www.kunstraad.nl/user-files/uploads/2017/10/Advies-Culturele-Investeringsrekening_AKr_31-oktober-2017.pdf (2017: X-helling artists who co-paid the conversion uncertain about their future because of rents; search snippet)"
+    - OSM ways 280620080 (X-Helling, the western slipway) and 280619702 (Y-Helling); ways 608121734 and 608121735 (historic=locomotive, the two trams)
+    - "https://www.parool.nl/nieuws/iconische-tram-op-de-ndsm-werf-uitgebrand~bf4285e8/ (27 September 2016: one of two trams, an old GVB three-axle car on the wharf since 2002, used by Stichting Trammeland, burned out)"
+    - "https://www.at5.nl/artikelen/160759/stichting_trammeland_zit_zonder_tram_we_zijn_nog_niet_helemaal_terug_op_aarde (the sixty-year-old tram; the second undamaged; parties and theatre)"
+    - "https://www.ad.nl/amsterdam/stichting-trammeland-krijgt-nieuwe-tram-na-brand~ac211588/ (14 November 2016: suspected arson; replacement old Amsterdam tram donated by Stichting Beheer Collectie Amsterdam Vervoer Museum with the EMTA)"
+    - commons:File:NDSM trams 2015.JPG (GVB three-axle 496 and RET 319, 2015); commons:File:Tramwagon 816 op NDSM plein.jpg (2018)
+    - Scout item 203 (Kromwijk bow) left out: Street Art Cities marked the spot 'removed' on 20 July 2026
   nl:
     title: NDSM-hellingen en Kraan 13 (Crane Hotel Faralda)
     summary: "Aan het IJ liggen twee schuin aflopende hellingbanen waar de NDSM schepen te water liet, voor het laatst in 1979. Ertussen staat Kraan 13, de laatste werfkraan, nu een hotel met drie suites."
     body: |
-      Aan het IJ bevinden zich twee hellingbanen, alsmede een kraanbaan met kraan, gebouwd onder leiding van G.J. Langhout en gewijzigd onder J.D. Postma. De Kleine Hellingbaan (helling IV) is de westelijk gelegen hellingbaan, gebouwd in 1927 en uitgebreid in 1952. De Grote Hellingbaan is de oostelijke, ontstaan in de jaren 1950 uit een samenvoeging van helling II en III (ca. 1920). Boven op de bebouwing is een schuin aflopend dek aangebracht, uitkomend in het water. In 1979 werd het laatste schip vanaf de Y-helling te water gelaten, waarna de bellen die de tewaterlating aankondigden niet meer klonken. Na het faillissement onderhielden oud-werknemers de installaties nog vijf jaar lang; een herstart in 1989 ging niet door omdat de storm van 25 januari 1990 de portaalkraan onherstelbaar beschadigde. Onder de hellingen zitten nu ateliers.
+      Aan het IJ bevinden zich twee hellingbanen, alsmede een kraanbaan met kraan, gebouwd onder leiding van G.J. Langhout en gewijzigd onder J.D. Postma. De Kleine Hellingbaan (helling IV) is de westelijk gelegen hellingbaan, gebouwd in 1927 en uitgebreid in 1952. De Grote Hellingbaan is de oostelijke, ontstaan in de jaren 1950 uit een samenvoeging van helling II en III (ca. 1920). Boven op de bebouwing is een schuin aflopend dek aangebracht, uitkomend in het water. In 1979 werd het laatste schip vanaf de Y-helling te water gelaten, waarna de bellen die de tewaterlating aankondigden niet meer klonken. Na het faillissement onderhielden oud-werknemers de installaties nog vijf jaar lang; een herstart in 1989 ging niet door omdat de storm van 25 januari 1990 de portaalkraan onherstelbaar beschadigde. Onder de hellingen zitten nu ateliers. Onder de westelijke helling, Helling X, werkten kunstenaars jarenlang met lekkende daken en onzekere huren; na een renovatie ging die op 20 maart 2025 weer open, met 17 ateliers voor 23 makers, van schilders en muzikanten tot een schoenmaker, tegen betaalbare huur en met terugkeergarantie. De kunstenaars maakten de nieuwe puien, deuren en ramen zelf.
+
+      Op de kade bij de kraan staan twee oude trams, sinds 2002 de uitvalsbasis van kunstenaarscollectief Stichting Trammeland, dat er voorstellingen en feesten houdt. Een ervan, een zestig jaar oude Amsterdamse drieasser, brandde in september 2016 uit, vermoedelijk aangestoken; een museumstichting schonk een andere oude Amsterdamse tram als vervanging.
 
       De voormalige NDSM-kraan (nummer 13) werd in de jaren 1950 gebouwd door de firma Hensen en hoort bij het rijksmonument. De vervallen kraan werd net op tijd gered door projectontwikkelaar Edwin Kornmann Rudi. Op 26 juli 2013 werd de kraan op een 100 meter lang ponton naar Franeker vervoerd om te worden gerestaureerd; op 22 oktober 2013 keerde hij terug. Boven in de kraan bevinden zich drie hotelsuites; de toren blijft draaien om een taatslager. In 2016 ontving Kornmann Rudi de Pieter van Vollenhovenprijs voor de herbestemming.
 
@@ -242,16 +263,22 @@
       - de kraanbaan tussen de twee hellingen
       - de suites in het machinehuis van de kraan, hoog boven het IJ
       - het uitzicht over het IJ vanaf de voet van de hellingen
+      - de zelfgemaakte atelierpuien onder Helling X
+      - de twee oude trams op de kade naast de kraan
     attributes:
       built: ca. 1920 (helling II en III); 1927 en 1952 (helling IV); kraan jaren 1950
       architect: G.J. Langhout; gewijzigd onder J.D. Postma
       original_use: Scheepshellingen met kraanbaan en kraan
+      check_note: "De twee trams van Trammeland bij de kraan: OSM kent ze nog allebei, maar de laatste gedateerde foto's zijn uit 2015 en 2018."
     sources:
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/528255
       - https://nl.wikipedia.org/wiki/Crane_Hotel_Faralda
       - https://nl.wikipedia.org/wiki/NDSM-werf
       - https://erfgoedstem.nl/pieter-vollenhovenprijs-herbestemming-ndsm-kraan/
       - https://www.ndsm.nl/magazine/ndsm-x-s3-e8-in-tunen-met-henk-schut
+      - https://www.rodi.nl/amsterdam-noord/nieuws/438595/vernieuwde-helling-x-op-ndsm-terrein-in-gebruik-genomen
+      - https://www.parool.nl/nieuws/iconische-tram-op-de-ndsm-werf-uitgebrand~bf4285e8/
+      - https://www.ad.nl/amsterdam/stichting-trammeland-krijgt-nieuwe-tram-na-brand~ac211588/
 
 - title: Afbramerij, NDSM
   summary: "A plain 1955 shed where steel plates were filed and chiselled smooth before welding. One of the few buildings left from the NDSM's post-war heyday, it keeps the old crane cab and hook inside."
@@ -744,12 +771,15 @@
   body: |
     In 2006 the Hamerkwartier, the industrial strip east of the Noord ferry, was not a place you went to for dinner. Four friends from hospitality and school, among them Niels Wouters, rented a 1,400 m² shed there that had housed a car garage and a scenery-building business, and turned it into a restaurant in a few weeks. They were "declared mad", as the neighbourhood platform puts it, and opened at the end of June 2006 anyway. The name, Hotel de Goudfazant ("the golden pheasant hotel"), is a joke: there are no rooms.
 
+    This corner of the Hamerkwartier was once Noord's own gasworks, the Noordergasfabriek, which made gas from coal from 1913 and closed in 1924, after barely eleven years, because customers were switching to electricity. Its buildings got new uses, among them a GVB bus garage, and in 1930 the city dug the Ponthaven next to the site. That harbour is still the home base of the GVB ferries: idle ferries moor there and are repaired there.
+
     They kept the building largely as they found it. The brick front was replaced with glass roller doors, part of a dividing wall was knocked out to make one big space, and its bricks were reused to build the bar. The furniture was mostly second-hand, so the money could go on proper table linen, cutlery and glasses; the contrast of white tablecloths, red plastic chairs and old cars on a concrete floor became its signature. It was one of the first places to bring people into the Hamerkwartier at night, years before the area became a nightlife quarter. During the coronavirus lockdown the restaurant briefly turned itself into a shop.
 
     Look for:
     - the glass roller doors in the old garage front
     - the bar built from the bricks of the demolished wall
     - the vintage cars parked inside
+    - the ferries moored in the Ponthaven, a short walk away along the Aambeeldstraat
   category: food-drink
   lat: 52.383750
   lng: 4.930120
@@ -759,6 +789,7 @@
     - { label: Gebouwd in Amsterdam, url: "https://gebouwdin.amsterdam.nl/projectdetail/27" }
     - { label: Hotel de Goudfazant, url: "https://hoteldegoudfazant.nl" }
     - { label: VICE, url: "https://www.vice.com/nl/article/tien-jaar-is-voor-hotel-de-goudfazant-een-kleine-eeuwigheid/" }
+    - { label: Wikipedia (nl) Noordergasfabriek, url: "https://nl.wikipedia.org/wiki/Noordergasfabriek" }
   attributes:
     rank: Okay
     built: "2006"
@@ -769,6 +800,8 @@
     - https://www.vice.com/nl/article/tien-jaar-is-voor-hotel-de-goudfazant-een-kleine-eeuwigheid/ (search snippet: four friends, Niels Wouters)
     - https://www.debuik.nl/amsterdam/nieuws/hotel-de-goudfazant-verandert-in-vendejo (search snippet: lockdown shop)
     - https://trackandtrees.nl/1053/ (red plastic chairs, old cars, search snippet)
+    - "https://nl.wikipedia.org/wiki/Noordergasfabriek (gasworks 1913–1924, closed for overcapacity as users switched to electricity; then a gas distribution station; a building became a GVB bus garage until 1968; Ponthaven dug in 1930 and still in use; GVB ferry department office on the Aambeeldstraat)"
+    - "https://nl.wikipedia.org/wiki/Ponthaven_(Amsterdam) (home harbour of the GVB ferries, maintenance, idle ships moored there; on the former gasworks site; at the Aambeeldstraat)"
   nl:
     title: Hotel de Goudfazant
     summary: "Geen hotel maar een restaurant: in 2006 begonnen vier vrienden in een oude garage van 1.400 m² op een onguur industrieterrein in Noord. Ze werden voor gek verklaard; het zit er sindsdien vol."
@@ -777,15 +810,20 @@
 
       Het pand is nog voor een groot deel in zijn oude staat. Wel is de stenen voorpui vervangen door glazen roldeuren en is een gedeelte van een tussenmuur weggehaald om er een grote ruimte van te maken. Veel van het oude materiaal is hergebruikt: de bar is gemaakt van de stenen uit de tussenmuur. Het interieur is grotendeels tweedehands, om zoveel mogelijk geld uit te sparen voor chique tafellinnen, bestek, servies en wijnglazen. Rode plastic stoeltjes, witte tafelkleden en oldtimers op de betonvloer werden het handelsmerk. Hotel de Goudfazant was een van de eerste plekken die 's avonds publiek naar het Hamerkwartier trok.
 
+      Op deze hoek van het Hamerkwartier stond ooit Noords eigen gasfabriek, de Noordergasfabriek, die vanaf 1913 gas uit steenkool maakte en in 1924 alweer dichtging, na nog geen elf jaar, omdat steeds meer afnemers op elektriciteit overstapten. De gebouwen kregen een nieuwe bestemming, onder meer als busgarage van het GVB, en in 1930 groef de gemeente naast het terrein de Ponthaven. Daar liggen nog altijd de ponten van het GVB als ze niet varen, en daar worden ze onderhouden.
+
       Let op:
       - de glazen roldeuren in de oude garagegevel
       - de bar van de stenen uit de gesloopte tussenmuur
       - de oldtimers binnen
+      - de ponten in de Ponthaven, een paar minuten lopen over de Aambeeldstraat
     attributes:
       original_use: Autogarage en decorbedrijf
     sources:
       - https://hethamerkwartier.nl/wie-is-wie/geel/hotel-de-goudfazant
       - https://gebouwdin.amsterdam.nl/projectdetail/27
+      - https://nl.wikipedia.org/wiki/Noordergasfabriek
+      - https://nl.wikipedia.org/wiki/Ponthaven_(Amsterdam)
 
 - title: Noorderlicht
   summary: "The café that pioneered the empty NDSM wharf in 2004, working for years on temporary permits. It won a permanent place in 2024, went bankrupt in December 2025 and reopened under new owners in 2026."

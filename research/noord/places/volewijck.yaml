@@ -363,7 +363,8 @@
     - the two wooden gateways over side streets on the Lange Distelstraat
     - the horizontal tarred boarding above the doors, like the dike villages of Noord
     - brick-sided dormers
-    - the Distelplein with its shop buildings and the old bathhouse
+    - the Distelplein with its shop buildings
+    - the former bathhouse at Kromme Distelstraat 17 (1919), shaped a little like a farmhouse, with eight shower cubicles for houses built without bathrooms; it closed in 1977, years before the houses got showers in 1983, and outlived several demolition plans
   category: housing
   lat: 52.391663
   lng: 4.910542
@@ -387,6 +388,8 @@
     - city:200445 (register text)
     - https://nl.wikipedia.org/wiki/Disteldorp
     - https://www.nhnieuws.nl/nieuws/351994/sloop-of-renovatie-bewoners-distel-en-vogeldorp-in-amsterdam-noord-vrezen-plannen-woningcorporatie (facts only)
+    - "https://nl.wikipedia.org/wiki/Kromme_Distelstraat_17 (bathhouse 1919, Boeyinga, sister of the Zamenhofstraat 28a bathhouse, shaped somewhat like a stolp farm, eight shower cubicles, closed 1977, repeated demolition plans, spared by the monument listing of the area)"
+    - "https://amsterdamopdekaart.nl/1850-1940/Kromme_Distelstraat/Badhuis_Disteldorp (houses only got showers in 1983; bathhouse closed 1977; 8 cubicles)"
   nl:
     title: Disteldorp
     summary: Noodwoningen uit 1918, gebouwd voor 35 jaar en ruim een eeuw later nog bewoond. Geteerde beplanking, houten poorten en kromme straatjes geven het het beeld van een organisch gegroeid dorpje.
@@ -399,20 +402,24 @@
       - de twee houten poorten over de zijstraten in de Lange Distelstraat
       - de horizontaal getrapte, geteerde beplanking boven de deuren
       - de dakkapellen met zijkanten van baksteen
-      - het Distelplein met de winkels en het voormalige badhuis
+      - het Distelplein met de winkels
+      - het voormalige badhuis op Kromme Distelstraat 17 (1919), een beetje in de vorm van een stolpboerderij, met acht douchecabines voor woningen zonder badkamer; het ging in 1977 dicht, jaren voordat de huizen in 1983 douches kregen, en overleefde meerdere sloopplannen
     attributes:
       architect: B.T. Boeyinga (Gemeentelijke Woningdienst)
       original_use: Noodwoningen
     sources:
       - https://data.amsterdam.nl/monumenten/bce644af-d044-472e-a753-06e38f452699
       - https://nl.wikipedia.org/wiki/Disteldorp
+      - https://nl.wikipedia.org/wiki/Kromme_Distelstraat_17
 
 - title: Tolhuistuin and the Shell canteen
   summary: One of the city's oldest pleasure gardens, where concerts and exhibitions drew crowds until Shell fenced it off for 70 years. Its 1970s staff canteen by Arthur Staal is now a music venue.
   body: |
-    Travellers once waited at the Tolhuis for the city gates across the IJ to open. A tea dome and garden followed in 1770, and from about 1870 the Tolhuistuin was a pleasure garden with open-air concerts, a dance floor, a bowling alley and a shooting range. It hosted the first Dutch shipping exhibition (1913) and the first Amsterdam aviation exhibition (1919). In 1938 Shell bought the garden and folded it into its research laboratory. For some 70 years it was closed to the public behind a fence; the big elm, as old as the 1859 Tolhuis, was spared.
+    Travellers once waited at the Tolhuis for the city gates across the IJ to open. A tea dome and garden followed in 1770, and from about 1870 the Tolhuistuin was a pleasure garden with open-air concerts, a dance floor, a bowling alley and a shooting range. It hosted the first Dutch shipping exhibition (1913) and the first Amsterdam aviation exhibition (1919), whose halls on the Papaverweg then became the Fokker aircraft factory. In 1938 Shell bought the garden and folded it into its research laboratory. For some 70 years it was closed to the public behind a fence; the big elm, as old as the 1859 Tolhuis, was spared.
 
     In the south of the garden Shell's architect Arthur Staal built a large staff restaurant, designed in the 1960s and finished in the 1970s, as part of a deliberately composed front along the IJ with his Shell tower (now A'DAM Toren) and a bridge over the Buiksloterkanaal. It is a sculptural structuralist building with tent-shaped ceilings and a chain of open square rooms upstairs; it became a municipal monument in 2022. After Shell sold the site in 2009, the city held a competition, and since 2014 the pavilion and the smaller Shell buildings in the garden house Tolhuistuin, a cultural centre with Paradiso Noord. The garden is open again.
+
+    The IJ-paviljoen, a café pavilion of 1913–1917 on the water just east of the Buiksloterkanaal, with the garden behind it, has gone. Only its bluestone mooring posts survive, topped with the imperial crown and carved with the letters SPQA and St Andrew's crosses, probably designed by Piet Kramer. Shell moved them twice, last to the garden of its campus off the Grasweg, where the public cannot see them.
 
     Look for:
     - the tent-shaped roofs of the pavilion, best seen from the IJ side
@@ -442,13 +449,17 @@
     - https://nl.wikipedia.org/wiki/Tolhuistuin
     - https://nl.wikipedia.org/wiki/Tolhuis_(Amsterdam)
     - https://tolhuistuin.nl/en/geschiedenis-van-tolhuistuin (facts only)
+    - "https://www.rodi.nl/amsterdam-noord/nieuws/508432/meerpalen-op-drift-het-enige-restant-van-het-ij-paviljoen (Dirk Roos: IJ-paviljoen built 1913–1917 in two stages, just east of the Buiksloterkanaal with the Tolhuistuin behind; bluestone mooring posts the only remnant; imperial crown, SPQA, St Andrew's crosses; probably Piet Kramer, by comparison with the Johanna Borskibrug; moved by Shell behind the Groot Laboratorium, then to the garden of the Shell Technology Centre, now Energy Transition Campus, between the IJ and the Grasweg, not visible or accessible)"
+    - "https://www.fokker-history.com/en-gb/fokkervestigingen-in-nederland-1919-1996 (Fokker moved into the halls of the ELTA, 1 August to 14 September 1919, at Papaverweg 31-33)"
   nl:
     title: Tolhuistuin en de Shellkantine
     summary: Een van de oudste lusthoven van de stad, met concerten en tentoonstellingen, tot Shell hem zeventig jaar afsloot. Het bedrijfsrestaurant van Arthur Staal is nu een poppodium.
     body: |
-      De Tolhuistuin groeide eind 19e eeuw uit tot een lusthof voor de betere kringen in Amsterdam, waar regelmatig muziekuitvoeringen plaatsvonden. Rond 1870 begon de traditie van openluchtconcerten. In 1913 werd hier de Eerste Nederlandse Tentoonstelling op Scheepvaartgebied gehouden. Rond 1938 werd de Tolhuistuin onderdeel van het terrein van de Bataafse Petroleum Maatschappij, later Shell. De grote iep, even oud als het Tolhuis van 1859, mocht blijven staan.
+      De Tolhuistuin groeide eind 19e eeuw uit tot een lusthof voor de betere kringen in Amsterdam, waar regelmatig muziekuitvoeringen plaatsvonden. Rond 1870 begon de traditie van openluchtconcerten. In 1913 werd hier de Eerste Nederlandse Tentoonstelling op Scheepvaartgebied gehouden, in 1919 de Eerste Luchtverkeer Tentoonstelling Amsterdam (ELTA), waarvan de hallen aan de Papaverweg daarna de vliegtuigfabriek van Fokker werden. Rond 1938 werd de Tolhuistuin onderdeel van het terrein van de Bataafse Petroleum Maatschappij, later Shell. De grote iep, even oud als het Tolhuis van 1859, mocht blijven staan.
 
       In het zuidelijke deel van de tuin kwam het bedrijfsrestaurant van het Shell-laboratorium, ontworpen door Arthur Staal in de periode 1963-1965 / 1974. Het is van hoge architectonische waarde als overwegend gaaf gebleven voorbeeld van een bedrijfsgebouw volgens de structuralistische stroming van de jaren '60 en '70: expressief en sculpturaal, met tentdakvormige plafonds en op de eerste verdieping een aaneenschakeling van kleinere en grotere vierkante ruimten. Samen met de Toren Overhoeks en de door Staal ontworpen brug over het Buiksloterkanaal vormt het een zorgvuldig gecomponeerd ensemble. Sinds september 2014 is het een cultureel centrum; Paradiso programmeert er onder de naam Paradiso Noord, en de tuin is weer open.
+
+      Het IJ-paviljoen, een uitspanning uit 1913–1917 aan het water net ten oosten van het Buiksloterkanaal, met de tuin erachter, is verdwenen. Alleen de hardstenen meerpalen bestaan nog, met bovenop de keizerskroon en verder de letters SPQA en Andrieskruisen, vrijwel zeker ontworpen door Piet Kramer. Shell verplaatste ze twee keer, het laatst naar de tuin van zijn campus aan de Grasweg, waar het publiek ze niet kan zien.
 
       Let op:
       - de tentvormige daken van het paviljoen, vanaf de IJ-zijde
@@ -459,6 +470,7 @@
     sources:
       - https://data.amsterdam.nl/monumenten/7a1bd1f7-25d8-47ef-94db-e26a2186c6d9
       - https://nl.wikipedia.org/wiki/Tolhuistuin
+      - https://www.rodi.nl/amsterdam-noord/nieuws/508432/meerpalen-op-drift-het-enige-restant-van-het-ij-paviljoen
 
 - title: Villa Abspoel (Shell porter's house)
   summary: Shell's white modernist porter's lodge of 1938 at the old gate of the laboratory site, kept down to its locks and hinges. Now one of the Tolhuistuin's buildings.
@@ -731,7 +743,7 @@
 - title: Volewijck gallows field (gone)
   summary: For four centuries, until 1795, the bodies of executed criminals hung here as a warning to ships entering Amsterdam. Rembrandt drew one of them, Elsje Christiaens. Nothing marks the spot.
   body: |
-    From about 1360 until 1795 the tip of the Volewijck, the spit of land opposite the city, was Amsterdam's *galgenveld* (gallows field). People executed on the Dam were rowed across in a cattle boat and left hanging, often with the tool of their crime above their heads, until the air and the birds had consumed them. About a thousand bodies ended here. It was meant to impress every ship sailing in, and it did more: Amsterdammers walked over from the Tolhuis garden with their children, and skated across to it in winter. Denial of burial was part of the punishment.
+    From about 1360 until 1795 the tip of the Volewijck, the spit of land opposite the city, was Amsterdam's *galgenveld* (gallows field). People executed on the Dam were rowed across in a cattle boat and left hanging, often with the tool of their crime above their heads, until the air and the birds had consumed them. About a thousand bodies ended here. It was meant to impress every ship sailing in, and it did more: Amsterdammers walked over from the Tolhuis garden with their children, and skated across to it in winter. Denial of burial was part of the punishment. Amsterdam children were told something else about the Volewijck: that babies were picked from a tree there, the *kindertjesboom*. The earliest written trace is in P.C. Hooft's play *Warenar* (1617), where a pregnant woman's mother is told "the boat is leaving for the Volewijck, you should come and help row", so that children listening would not know a birth was meant.
 
     In May 1664 Elsje Christiaens, an 18-year-old Danish maid who had killed her landlady with an axe in a quarrel over rent, was strangled on the Dam and hung here with her axe. Rembrandt crossed over and drew her twice. The Batavian Republic banned gallows fields in 1795.
 
@@ -756,6 +768,7 @@
     - https://onsamsterdam.nl/artikelen/overhoeks-gebouwd-op-knekels (facts and location of the pit)
     - https://www.at5.nl/artikelen/145311/petitie_voor_monument_galgenveld_in_noord (petition)
     - city:200669 (register text: gallows field on the south-west tip of the spit)
+    - "https://hcan.nl/geschiedenis/1617-de-kindertjesboom-op-de-volewijck/ (children told babies were picked from the kinderboom on the Volewijck, perhaps not far from the gallows pit; earliest text in Hooft's Warenar, 1617, the rowing line as code for helping at a birth)"
   nl:
     title: Galgenveld Volewijck (verdwenen)
     summary: Vier eeuwen lang, tot 1795, hingen hier de lijken van terechtgestelden als waarschuwing voor schepen op het IJ. Rembrandt tekende er Elsje Christiaens. Niets markeert de plek.
@@ -764,11 +777,14 @@
 
       Elsje Christiaens kwam als achttienjarige ongetrouwde vrouw uit Jutland naar Amsterdam om werk te zoeken als meid. Na een ruzie over de huur sloeg ze haar huisbazin met een bijl. Begin mei 1664 werd ze op de Dam gewurgd aan een wurgpaal, waarna haar lijk naar het galgenveld van Volewijck werd gebracht om daar samen met de bijl opgehangen te worden om 'van de locht en 't gevogelte verteerd te worden.' Rembrandt maakte twee tekeningen van haar. Direct na het uitroepen van de Bataafse Republiek in 1795 werden de galgenvelden verboden.
 
+      Amsterdamse kinderen kregen over de Volewijck een ander verhaal te horen: daar stond de kinderboom, waar ouders hun baby's plukten. De oudste tekst daarover staat in *Warenar* van P.C. Hooft (1617), waarin de moeder van een zwangere vrouw te horen krijgt dat 'de schuit naar de Volewijck wil' en dat ze moet komen helpen roeien. Zo begrepen kinderen die meeluisterden niet dat het om een bevalling ging.
+
       De put met de lichaamsresten is nooit geruimd; er is alleen zand overheen gelegd. De archeologische dienst van de gemeente vermoedt dat de put onder het gebouw Overhoeks ligt, de huidige A'DAM Toren. Niets markeert de plek. Sinds 2016 heet de brug in de Tolhuisweg over het Buiksloterkanaal de Elsje Christiaensbrug.
     sources:
       - https://nl.wikipedia.org/wiki/Elsje_Christiaens
       - https://nl.wikipedia.org/wiki/Volewijck
       - https://onsamsterdam.nl/artikelen/overhoeks-gebouwd-op-knekels
+      - https://hcan.nl/geschiedenis/1617-de-kindertjesboom-op-de-volewijck/
 
 - title: Mosveld's stone floodlights
   summary: Two kinked brick towers on the Mosveld shopping centre quietly echo the floodlights of the stadium where De Volewijckers, 1944 national champions, played in the middle of the neighbourhood.
@@ -776,6 +792,10 @@
     From 1927 to 1964 De Volewijckers played on the Mosveld, in a small stadium for some 15,000 people set right among the houses: residents could follow matches from their windows, and plenty slipped in without paying. The club was the biggest in Amsterdam in 1942, won the national title in 1944 (playing its home games at Ajax's ground after the 1943 bombing hit the Mosveld) and reached the Eredivisie in 1961 with the "Mosveld babies". In 1964 the club had to leave: the Johan van Hasseltweg, the approach road to the IJ tunnel, was built straight through the goals of the main pitch. The crowds did not follow to the new ground, and the professional side folded into FC Amsterdam in 1974.
 
     The Mosveld shopping centre opened on the old ground in 2016. Its two kinked brick towers, with round and oval openings near the top, were presented as a nod to Noord's industry, but the shopping centre itself and sports historian Jurryt van de Vooren say they also refer to the old floodlights. "Hardly anyone knows", he says. Look up from the square.
+
+    Look for:
+    - Mosplein 18 on the corner of the Mosveld: from 1929 to 1966 the Astoria, Noord's only proper cinema, in sober Amsterdam School brick by Willem Noorlander, with a stage for live acts in its early years; then a supermarket, and since 2013 home to twelve flats
+    - De Bult ("the hump"), the raised T-junction of 1967 where the Johan van Hasseltweg meets the Mosplein, built over the square where Piet de Vroome had called on people to join the February Strike of 1941; it was protested at the time
   category: curiosities
   lat: 52.39075
   lng: 4.91400
@@ -784,6 +804,8 @@
     - { label: "NH Nieuws, De verdwenen stad", url: "https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld" }
     - { label: Wikipedia (nl) De Volewijckers, url: "https://nl.wikipedia.org/wiki/De_Volewijckers" }
     - { label: Winkelcentrum Mosveld, url: "https://www.winkelcentrummosveld.nl/" }
+    - { label: Wikipedia (nl) Bioscooptheater Astoria, url: "https://nl.wikipedia.org/wiki/Bioscooptheater_Astoria" }
+    - { label: Wikipedia (nl) De Bult, url: "https://nl.wikipedia.org/wiki/De_Bult_(Amsterdam)" }
   attributes:
     rank: Nice
     built: "2016"
@@ -794,6 +816,10 @@
     - https://nl.wikipedia.org/wiki/De_Volewijckers
     - https://www.winkelcentrummosveld.nl/ (towers refer to the floodlights)
     - https://gebouwdin.amsterdam.nl/projectdetail/1310 (two kinked brick towers)
+    - "https://nl.wikipedia.org/wiki/Bioscooptheater_Astoria (opened 17 May 1929 at Mosplein 18, corner of Mosveld; sober Amsterdam School, Willem Noorlander; orchestra pit and stage, live acts in the pauses; rebuilt 1946; closed 1966, sold to Albert Heijn)"
+    - "https://amsterdamopdekaart.nl/1850-1940/Mosplein/Astoria (the only official cinema in Noord; then a supermarket; search snippet)"
+    - "https://gebouwdin.amsterdam.nl/projectdetail/972 (Astoria De Woonbios, 2012/2013: twelve flats in the former cinema, facades restored)"
+    - "https://nl.wikipedia.org/wiki/De_Bult_(Amsterdam) (nickname of the 1967 T-junction of the Mosplein and the raised Johan van Hasseltweg; protest against the raising; Piet de Vroome had called from here to support the February Strike; photo of 2016)"
   nl:
     title: Stenen lichtmasten van het Mosveld
     summary: Twee geknikte bakstenen torens van winkelcentrum Mosveld verwijzen naar de lichtmasten van het stadionnetje waar De Volewijckers, landskampioen van 1944, midden in de wijk speelden.
@@ -801,16 +827,22 @@
       Vanaf 1927 speelde De Volewijckers op het Mosveld, waar een stadionnetje met heel veel staanplaatsen verrees dat midden in de woonwijk lag en zo'n 15.000 toeschouwers kon hebben. In 1942 was De Volewijckers de grootste club van Amsterdam en in 1944 werd de ploeg landskampioen; na de bombardementen van 1943 werd uitgeweken naar het stadion van Ajax. In 1961 bereikten de 'Mosveld-baby's' de Eredivisie. In 1964 moest de club verhuizen omdat er een aansluitweg vanaf de IJtunnel moest worden aangelegd, de Johan van Hasseltweg, die recht door de doelen van het hoofdveld sneed. In één klap was de club de binding met de wijk kwijt; de profsectie ging in 1974 op in FC Amsterdam.
 
       Op het voormalige stadionterrein werd in 2016 winkelcentrum Mosveld geopend, met twee geknikte bakstenen torens. Bij de opening werden ze gepresenteerd als verwijzing naar het industriële verleden van Noord, maar volgens het winkelcentrum zelf en sporthistoricus Jurryt van de Vooren verwijzen de uitstulpingen met cirkels en ovalen ook naar de lichtmasten van het stadion. "Bijna niemand die het weet."
+
+      Let op:
+      - Mosplein 18 op de hoek met het Mosveld: van 1929 tot 1966 bioscoop Astoria, de enige echte bioscoop van Noord, in sobere Amsterdamse School-baksteen van Willem Noorlander, met in de beginjaren een toneel voor optredens in de pauze; daarna een supermarkt en sinds 2013 twaalf appartementen
+      - De Bult, de verhoogde T-kruising uit 1967 waar de Johan van Hasseltweg op het Mosplein uitkomt, aangelegd over het plein waar Piet de Vroome had opgeroepen tot de Februaristaking van 1941; er werd destijds tegen geprotesteerd
     attributes:
       built: "2016"
     sources:
       - https://nl.wikipedia.org/wiki/De_Volewijckers
       - https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld
+      - https://nl.wikipedia.org/wiki/Bioscooptheater_Astoria
+      - https://nl.wikipedia.org/wiki/De_Bult_(Amsterdam)
 
 - title: War memorials at De Nieuwe Noorder (Fokker bombing, Draka)
   summary: A plain stone at De Nieuwe Noorder for the 206 people of Noord killed in July 1943, when Allied bombs aimed at the Fokker aircraft factory fell on the surrounding streets. A remembrance is held every 17 July.
   body: |
-    The Fokker aircraft factory on the Papaverweg was working for the German air force, so the Allies tried three times in July 1943 to destroy it. On Saturday 17 July, 41 B-17s of the inexperienced US Eighth Air Force set out; half turned back because of the weather, the rest flew on, and not one bomb hit the camouflaged factory. They fell on the Van der Pekbuurt, the Laanweg, the Vogelbuurt and the Mosveld, killing 158 people that day. Anne Frank wrote of children searching smouldering ruins for their parents. On 25 July British Mitchells destroyed the factory; on 28 July Free French crews bombed again and missed, killing 17 more. In all 206 people died, the heaviest bombing Amsterdam suffered in the war. Because the bombers were Allied, it long remained a sensitive subject.
+    The Fokker aircraft factory on the Papaverweg was working for the German air force, so the Allies tried three times in July 1943 to destroy it. On Saturday 17 July, 41 B-17s of the inexperienced US Eighth Air Force set out; half turned back because of the weather, the rest flew on, and not one bomb hit the camouflaged factory. They fell on the Van der Pekbuurt, the Laanweg, the Vogelbuurt and the Mosveld, killing 158 people that day. Anne Frank wrote of children searching smouldering ruins for their parents. On 25 July British Mitchells destroyed the factory; on 28 July Free French crews bombed again and missed, killing 17 more. In all 206 people died, the heaviest bombing Amsterdam suffered in the war. Because the bombers were Allied, it long remained a sensitive subject. Fokker had set up in 1919 in the halls of an aviation exhibition on the Papaverweg; the site had no runway, so every aircraft built there went to Schiphol by barge. After the war the firm built a new factory at Schiphol and left Noord in 1951.
 
     Ninety-three victims were buried at the Noorderbegraafplaats (now De Nieuwe Noorder). When their graves were cleared after 60 years, the borough placed this tapering natural-stone memorial, unveiled on 17 July 2003: "Ter nagedachtenis aan de slachtoffers van de bombardementen juli 1943". Pupils of the Bredero Mavo adopted it and lay flowers each year.
 
@@ -851,11 +883,12 @@
     - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/357 (says moved in 1968 for the IJ tunnel; written when it stood on the Mosveld)
     - commons:File:Monument voor de gevallenen van Amsterdam-Noord.jpg (2011 description: placed on the Mosveld in 1968); commons:File:Phoenix Dannenburg 2018 (1).jpg (2018, at the Kamperfoelieweg)
     - https://4en5meiamsterdam.nl/agenda/samen-herdenken-door-jong-en-oud-in-volewijck/ (annual 4 May remembrance at De Phoenix; search snippet)
+    - "https://www.fokker-history.com/en-gb/fokkervestigingen-in-nederland-1919-1996 (NV Nederlandsche Vliegtuigenfabriek founded 21 July 1919, into the ELTA halls at Papaverweg 31-33; no runway, aircraft taken by barge to Schiphol; factory destroyed three times in the war; new factory at Schiphol, moved in 1951)"
   nl:
     title: Oorlogsmonumenten op De Nieuwe Noorder (Fokker-bombardement, Draka)
     summary: Een eenvoudige gedenksteen op De Nieuwe Noorder voor de 206 slachtoffers van juli 1943, toen geallieerde bommen voor de Fokkerfabriek op de woonwijken van Noord vielen. Elk jaar op 17 juli is er een herdenking.
     body: |
-      De geallieerde bombardementen op Amsterdam-Noord vonden plaats in juli 1943. De drie aanvallen waren gericht op de vliegtuigfabrieken van Fokker aan de Papaverweg, die waren ingeschakeld bij de Duitse oorlogsindustrie. Op zaterdag 17 juli kwamen 41 B-17 Flying Fortress-toestellen van het toen nog onervaren Amerikaanse achtste luchtleger in actie. Geen enkele bom raakte de beoogde fabriek; ze kwamen op de omliggende woonwijken terecht, grotendeels in de Volewijck, met 158 doden als gevolg. Op 25 juli legden Engelse Mitchell-bommenwerpers de fabriek grotendeels in de as; op 28 juli werd de fabriek door Franse vliegers weer niet geraakt en kwamen opnieuw 17 burgers om. Het betrof het zwaarste bombardement in Amsterdam tijdens de Tweede Wereldoorlog. Omdat het een geallieerde aanval betrof, is deze gebeurtenis altijd een gevoelig onderwerp geweest.
+      De geallieerde bombardementen op Amsterdam-Noord vonden plaats in juli 1943. De drie aanvallen waren gericht op de vliegtuigfabrieken van Fokker aan de Papaverweg, die waren ingeschakeld bij de Duitse oorlogsindustrie. Op zaterdag 17 juli kwamen 41 B-17 Flying Fortress-toestellen van het toen nog onervaren Amerikaanse achtste luchtleger in actie. Geen enkele bom raakte de beoogde fabriek; ze kwamen op de omliggende woonwijken terecht, grotendeels in de Volewijck, met 158 doden als gevolg. Op 25 juli legden Engelse Mitchell-bommenwerpers de fabriek grotendeels in de as; op 28 juli werd de fabriek door Franse vliegers weer niet geraakt en kwamen opnieuw 17 burgers om. Het betrof het zwaarste bombardement in Amsterdam tijdens de Tweede Wereldoorlog. Omdat het een geallieerde aanval betrof, is deze gebeurtenis altijd een gevoelig onderwerp geweest. Fokker was in 1919 begonnen in de hallen van een luchtvaarttentoonstelling aan de Papaverweg; daar was geen startbaan, dus elk vliegtuig ging per schip naar Schiphol. Na de oorlog bouwde het bedrijf een nieuwe fabriek op Schiphol en in 1951 verliet het Noord.
 
       93 van de 206 overledenen vonden hun laatste rustplaats op de toenmalige Noorderbegraafplaats. Toen 60 jaar na dato deze graven zouden worden geruimd, dreigde de herinnering te verdwijnen. Op 17 juli 2003 is daarom een monument onthuld vanuit het Dagelijks Bestuur van stadsdeel Amsterdam-Noord: een taps toelopende natuurstenen gedenksteen met de tekst 'Ter nagedachtenis aan de slachtoffers van de bombardementen juli 1943'. Het monument is geadopteerd door de Bredero Mavo; jaarlijks leggen de leerlingen er bloemen.
 

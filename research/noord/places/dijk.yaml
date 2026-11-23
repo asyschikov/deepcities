@@ -376,7 +376,7 @@
   body: |
     Nieuwendam was founded as a dike village after a new dam was thrown up here in 1516. Spanish troops razed every house in 1573; from 1581 wooden houses with thatched roofs rose again on the inner side of the dike, and in the 18th century many got bell gables. With a free view of the IJ, the village became a favourite retirement spot for sea captains: people called it the "kapiteinshemel", the captains' heaven. About forty of its wooden houses are national monuments. Rotten wooden fronts were replaced in the fashion of the day, which is why many fronts are 19th century while the frames behind them are much older.
 
-    This western stretch runs from the Meerpad to the Sint-Augustinuskerk. The village harbour probably began at the overtoom, a slipway for hauling boats over the dike to the Grote Die, between nos. 237 and 239. Behind the dike, the Nieuwendammer Molenpad recalls the eight windmills that stood north of the village in the 18th century. The ensemble is pinned on no. 232, a wooden house (18th century or older) with a fine bevelled shopfront and carved cornice. The Meerpadkerk and the Sint-Augustinuskerk have their own places.
+    This western stretch runs from the Meerpad to the Sint-Augustinuskerk. The village harbour probably began at the overtoom, a slipway for hauling boats over the dike to the Grote Die, between nos. 237 and 239. Behind the dike, the Nieuwendammer Molenpad recalls the eight windmills that stood north of the village in the 18th century. In 1895 the boatbuilder Gerardus de Vries Lentsch bought the site of the sawmill De Hoop at Molenpad 16, on the north side of the Kleine Die, and around 1905 his son Gijs started the yacht yard De Halve Maan there; the brick kwakel (a steep humped footbridge) on the Molenpad stands where the yard's own kwakel once led in. The ensemble is pinned on no. 232, a wooden house (18th century or older) with a fine bevelled shopfront and carved cornice. The Meerpadkerk and the Sint-Augustinuskerk have their own places.
 
     Look for:
     - Nieuwendammerdijk 199: a bell-shaped gable of the early 19th century over a good shopfront
@@ -387,6 +387,7 @@
     - Meerpad 1-3: a wooden house set sideways under a hipped roof, with Empire glazing bars
     - Meerpad 7: a small wooden house with a pointed gable
     - Nieuwendammer Molenpad 9: a wooden L-shaped house, perhaps 17th century in its core, with a rare later brick extension and a former hatch in the gable
+    - the brick kwakel on the Molenpad, on the site of the bridge into the De Halve Maan yard
   category: housing
   lat: 52.391314
   lng: 4.936313
@@ -411,13 +412,15 @@
     - rce:6693, 6694, 6696–6705, 6728, 6729 (register descriptions)
     - https://nl.wikipedia.org/wiki/Nieuwendam
     - https://nl.wikipedia.org/wiki/Nieuwendammerdijk
+    - https://nl.wikipedia.org/wiki/Nieuwendam (De Vries Lentsch, Molenpad 26 and 16, sawmill De Hoop, yard De Halve Maan about 1905, stone kwakel on the site of the old access bridge)
+    - OSM way 1052847274 (DieKwakel, bridge 1719)
   nl:
     title: Nieuwendammerdijk west, met Meerpad en Molenpad
     summary: Het westelijke deel van het dijkdorp Nieuwendam, de 'kapiteinshemel'. Houten huizen met puntvormige en uit- en ingezwenkte voorschotten, en achter de dijk de paden waar ooit molens stonden.
     body: |
       De naam Nieuwendam is ontstaan toen hier in 1516 na een dijkdoorbraak een nieuwe dijk of dam werd aangelegd. In 1573 verwoestte het Spaanse leger alle huizen van Nieuwendam. De wederopbouw kwam pas na 1581 op gang; binnendijks werden toen weer houten huizen met rieten daken gebouwd. In de 18e eeuw werden de huizen vaak voorzien van klokgevels. Het was een populaire plek voor gepensioneerde kapiteins om te gaan wonen: er was nog vrij zicht op het IJ en men kon de grote zeilschepen in de verte zien. Het werd wel de 'kapiteinshemel' genoemd. In totaal zijn 40 houten huizen rijksmonument. De houten gevels werden wegens houtrot wel vervangen en dan volgens de laatste mode vormgegeven; veel gevels stammen hierdoor uit de 19e eeuw.
 
-      De haven is waarschijnlijk ontstaan rond de overtoom, bij het Grote Die, tussen Nieuwendammerdijk 237 en 239. In de 18e eeuw stonden aan de noordkant van Nieuwendam acht windmolens, onder andere een pelmolen, een loodwitmolen en een houtzaagmolen; het Nieuwendammer Molenpad herinnert hier nog aan. De speld staat bij nummer 232: een houten huis (XVIII of ouder) met puntvormig voorschot en mooie afgeschuinde pui met gesneden puilijst, deuromlijstingen, deuren en goede roedenverdeling (XIXa). De Meerpadkerk en de Sint-Augustinuskerk hebben een eigen plek.
+      De haven is waarschijnlijk ontstaan rond de overtoom, bij het Grote Die, tussen Nieuwendammerdijk 237 en 239. In de 18e eeuw stonden aan de noordkant van Nieuwendam acht windmolens, onder andere een pelmolen, een loodwitmolen en een houtzaagmolen; het Nieuwendammer Molenpad herinnert hier nog aan. In 1895 kocht scheepsbouwer Gerardus de Vries Lentsch het terrein van houtzaagmolen De Hoop aan het Molenpad 16, aan de noordkant van de Kleine Die, en rond 1905 begon zijn zoon Gijs daar de jachtwerf De Halve Maan. De stenen kwakel aan het Molenpad ligt op de plek van de oude toegangsbrug naar die werf, ook een kwakel. De speld staat bij nummer 232: een houten huis (XVIII of ouder) met puntvormig voorschot en mooie afgeschuinde pui met gesneden puilijst, deuromlijstingen, deuren en goede roedenverdeling (XIXa). De Meerpadkerk en de Sint-Augustinuskerk hebben een eigen plek.
 
       Let op:
       - Nieuwendammerdijk 199: houten huis met uit- en ingezwenkt voorschot (eerste helft negentiende eeuw) en goede pui
@@ -428,6 +431,7 @@
       - Meerpad 1-3: houten dwarshuis onder schilddak met empire roedenverdeling
       - Meerpad 7: houten huisje met puntvormig voorschot
       - Nieuwendammer Molenpad 9: houten huis (zeventiende eeuw in de kern?) met zeldzame latere stenen aanbouw en een voormalig luik met bovenlicht in het voorschot
+      - de stenen kwakel aan het Molenpad, op de plek van de brug naar werf De Halve Maan
     attributes:
       built: 17e–19e eeuw
       original_use: Woonhuizen
@@ -439,9 +443,9 @@
 - title: Nieuwendammerdijk east, from the Sluisje
   summary: The heart of old Nieuwendam, around the little lock and the harbour, and on east towards Schellingwoude. Grain merchants' houses, carved Empire doors and wooden fronts raised a storey in the 19th century.
   body: |
-    East of the lock the dike was the business end of Nieuwendam. The harbour was a refuge for ships on the IJ; a ship repair yard is first mentioned in 1636, and the grain trade was here from the early 17th century. The merchants' houses by the harbour, such as no. 323, kept their grain in the attic. Later came whaling and a train-oil boiling house. In the 19th century the shipyards of the Grote Haven grew big enough to build clipper ships, and grain merchants such as the Cleyndert family built warehouses along the dike.
+    East of the lock the dike was the business end of Nieuwendam. The harbour was a refuge for ships on the IJ; a ship repair yard is first mentioned in 1636, and the grain trade was here from the early 17th century. The merchants' houses by the harbour, such as no. 323, kept their grain in the attic. Later came whaling and a train-oil boiling house. In 1741 the VOC captain Douwe Mout van der Meer came home with Clara, the first rhinoceros to reach the Netherlands alive, and first let her graze among the cows in the Buikslotermeer polder just north of the village, before buying the Wilmkebreek polder near Landsmeer for her; she then toured Europe for seventeen years. In the 19th century the shipyards of the Grote Haven grew big enough to build clipper ships, and grain merchants such as the Cleyndert family built warehouses along the dike.
 
-    The listed houses are almost all wooden, many with a framework of the 18th century or older behind a 19th-century front, and often a fine pointed gable at the back, best seen from the water. Some, like nos. 303 and 315, were raised by a storey at the front in the 19th century, at the cost of the old gable. No. 359 has one of the rare Empire friezes of Nieuwendam. This ensemble is pinned on no. 307, a wooden house of the 18th century with a good shopfront, Empire door and window surrounds, and a carved fanlight with its grille. Café 't Sluisje (no. 297) and the doctor's house at no. 335 have their own places.
+    The listed houses are almost all wooden, many with a framework of the 18th century or older behind a 19th-century front, and often a fine pointed gable at the back, best seen from the water. Some, like nos. 303 and 315, were raised by a storey at the front in the 19th century, at the cost of the old gable. No. 359 has one of the rare Empire friezes of Nieuwendam. Nos. 283–285, a notary's house of about 1750 whose back wing was rebuilt in brick in 1877, has belonged to the Vereniging Hendrick de Keyser since 1959. This ensemble is pinned on no. 307, a wooden house of the 18th century with a good shopfront, Empire door and window surrounds, and a carved fanlight with its grille. Café 't Sluisje (no. 297) and the doctor's house at no. 335 have their own places.
 
     Look for:
     - Nieuwendammerdijk 283-285: a late 18th-century bell gable and a shopfront with an Empire cornice and door
@@ -462,6 +466,7 @@
     - { label: Wikipedia (nl) Nieuwendam, url: "https://nl.wikipedia.org/wiki/Nieuwendam" }
     - { label: Wikipedia (nl) Nieuwendammersluis, url: "https://nl.wikipedia.org/wiki/Nieuwendammersluis" }
     - { label: Wikipedia (nl) rijksmonumenten Noord, url: "https://nl.wikipedia.org/wiki/Lijst_van_rijksmonumenten_in_Amsterdam-Noord" }
+    - { label: HCAN (Clara), url: "https://hcan.nl/verhalen/een-neushoorn-in-de-wilmkebreek-het-moet-niet-gekker-worden/" }
   attributes:
     rank: Okay
     heritage_status: National monument
@@ -476,13 +481,16 @@
     - rce:6706–6708, 6710–6727 (register descriptions)
     - https://nl.wikipedia.org/wiki/Nieuwendam
     - https://nl.wikipedia.org/wiki/Nieuwendammersluis
+    - 'https://hcan.nl/verhalen/een-neushoorn-in-de-wilmkebreek-het-moet-niet-gekker-worden/ (Clara brought by Douwe Mout, first rhino to reach the Netherlands alive, grazed in meadows just above Nieuwendam in the Buikslotermeer, then the Wilmkebreek polder bought by Mout; 17 years of touring)'
+    - https://nl.wikipedia.org/wiki/Clara_(neushoorn) (landed in Rotterdam on 22 July 1741; Douwe Mout van der Meer)
+    - https://nl.wikipedia.org/wiki/Nieuwendammerdijk_285 (front dated about 1750 by its gable; notaries 1848–1929; back wing petrified in 1877; Hendrick de Keyser since 1959)
   nl:
     title: Nieuwendammerdijk oost, vanaf het Sluisje
     summary: Het hart van het oude Nieuwendam rond de sluis en de haven, en verder oostwaarts richting Schellingwoude. Koopmanshuizen met graanzolders, gesneden empire deuren en houten huizen die in de 19e eeuw een verdieping kregen.
     body: |
-      Nieuwendam was een veel gebruikte vluchthaven vanaf het IJ, en er lagen altijd wel enige schepen. De eerste vermelding van een scheepsreparatiewerf stamt uit 1636. Ook de graanhandel was vanaf het begin van de 17e eeuw aanwezig. De koopmanshuizen aan de haven (zoals Nieuwendammerdijk 323) hadden een graanopslag op zolder. Wat later kwam hier walvisvaart bij; er was ook een traankokerij. In de Grote Haven groeide in de loop van de 19e eeuw de scheepswerf Concordia van de gebroeders Meursing uit tot een grote werf, waar aan het eind van de 19e eeuw klippers werden gebouwd.
+      Nieuwendam was een veel gebruikte vluchthaven vanaf het IJ, en er lagen altijd wel enige schepen. De eerste vermelding van een scheepsreparatiewerf stamt uit 1636. Ook de graanhandel was vanaf het begin van de 17e eeuw aanwezig. De koopmanshuizen aan de haven (zoals Nieuwendammerdijk 323) hadden een graanopslag op zolder. Wat later kwam hier walvisvaart bij; er was ook een traankokerij. In 1741 kwam VOC-kapitein Douwe Mout van der Meer thuis met Clara, de eerste neushoorn die levend Nederland bereikte. Hij liet haar eerst tussen de koeien grazen in de Buikslotermeer, net boven Nieuwendam, en kocht daarna voor haar de Wilmkebreekpolder bij Landsmeer; zeventien jaar lang trok ze vervolgens door Europa. In de Grote Haven groeide in de loop van de 19e eeuw de scheepswerf Concordia van de gebroeders Meursing uit tot een grote werf, waar aan het eind van de 19e eeuw klippers werden gebouwd.
 
-      De beschermde huizen zijn bijna allemaal van hout, vaak met een constructie uit de 18e eeuw of ouder, een voorgevel uit de 19e eeuw en een goede achtergevel met puntvormig voorschot. Sommige, zoals 303 en 315, zijn in de 19e eeuw aan de voorzijde ten koste van het dak met een verdieping verhoogd. Enkele hebben unieke friezen in empirestijl, zoals Nieuwendammerdijk 359. De speld staat bij nummer 307: een houten huis met uit- en ingezwenkt voorschot (XVIII), goede pui met empire deur- en vensteromlijstingen, snijraam en snijraamhek. Café 't Sluisje (297) en de dokterswoning (335) hebben een eigen plek.
+      De beschermde huizen zijn bijna allemaal van hout, vaak met een constructie uit de 18e eeuw of ouder, een voorgevel uit de 19e eeuw en een goede achtergevel met puntvormig voorschot. Sommige, zoals 303 en 315, zijn in de 19e eeuw aan de voorzijde ten koste van het dak met een verdieping verhoogd. Enkele hebben unieke friezen in empirestijl, zoals Nieuwendammerdijk 359. Nummer 283-285, een notarishuis van rond 1750 waarvan de achterbouw in 1877 in steen werd herbouwd, is sinds 1959 van de Vereniging Hendrick de Keyser. De speld staat bij nummer 307: een houten huis met uit- en ingezwenkt voorschot (XVIII), goede pui met empire deur- en vensteromlijstingen, snijraam en snijraamhek. Café 't Sluisje (297) en de dokterswoning (335) hebben een eigen plek.
 
       Let op:
       - Nieuwendammerdijk 283-285: uit- en ingezwenkt voorschot (laat XVIII?) en goede pui met empire lijst en deur
@@ -500,6 +508,8 @@
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/6712
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/6716
       - https://nl.wikipedia.org/wiki/Nieuwendam
+      - https://hcan.nl/verhalen/een-neushoorn-in-de-wilmkebreek-het-moet-niet-gekker-worden/
+      - https://nl.wikipedia.org/wiki/Nieuwendammerdijk_285
 
 # ================================================================ Scouted
 
@@ -510,14 +520,17 @@
 
     In the Second World War residents cut down more than 80% of the trees for firewood; most of today's trees grew back from the stumps, which is why it is one of the elm-richest woods in western Europe. The Ketjen sulphuric acid works, already next door when the wood was laid out, kept growing. Fumes led to the Tegengif action group in 1974, and the wood was made denser to serve as an official buffer zone between the plant and the houses to the north. The plant (now Ketjen again, making catalysts) commissioned murals of a fox, a goose and greenery on two of its silos in 2025, painted by Deeffeed, Sket185 and Rasa.
 
+    The plant also stood in the way of the Hamerkwartier, the old industrial land next door around the former Draka cable works, where the city wants 6,500 homes. In 2024 the Raad van State, the highest administrative court, threw out two of its zoning plans (in March and June) because the city had no clear view of the risk of homes beside a chemical plant: an accident releasing nickel hydroxycarbonate could kill people living too close. Under a deal of February 2026 the nearest towers move back to at least 200 metres from the plant, a waterside park becomes a buffer, and the Storkhal is kept. Building is due to start in 2027, with the first homes from 2030.
+
     On 25 August 1984 Elbert van de Biezen, 54, was beaten to death at a gay meeting place in the wood by a group of teenage boys; a large demonstration against anti-gay violence followed.
 
-    The way in from Nieuwendam is over the Zosenerdambrug, one of the smallest bridges in Amsterdam (about 7 metres), named in 2018 after the drowned medieval village of Zosenerdam. Since 2019 the Beeldenbos Noord, a sculpture garden with works by Jan Sierhuis, Corneille and others, lies on the wood's edge near the Nieuwendam harbour.
+    The way in from Nieuwendam is over the Zosenerdambrug, one of the smallest bridges in Amsterdam (about 7 metres), named in 2018 after the drowned medieval village of Zosenerdam. Since 2019 the Beeldenbos Noord, a free sculpture wood of about three hectares with works by Jan Sierhuis, Corneille and others, lies on the wood's edge near the Nieuwendam harbour. Its collection began with Sierhuis's Dansende figuur; volunteers have planted it with native herbs, and its pavilion hosts art workshops for children. On 22 March 2026 the artist Jos Bregman unveiled a beech gateway there to what he calls the Groot Nederlands Stadsbos (Great Dutch City Forest): we don't live in a city with trees, he says, but in a forest with houses.
 
     Look for:
     - lesser celandine and wild violets in spring
     - kingfishers, hobbies and green woodpeckers
     - the Franse bogen artwork at the Meeuwenlaan entrance
+    - Jos Bregman's beech gateway in the Beeldenbos
   category: green
   lat: 52.390779
   lng: 4.933267
@@ -528,8 +541,11 @@
     - { label: Ons Amsterdam, url: "https://onsamsterdam.nl/artikelen/protest-tegen-potenrammen" }
     - { label: Wikipedia (nl) Ketjen, url: "https://nl.wikipedia.org/wiki/Ketjen" }
     - { label: Amsterdams Dagblad (silos), url: "https://www.amsterdamsdagblad.nl/algemeen/graffitifun-transformeert-amsterdamse-industrile-silos" }
+    - { label: "NH Nieuws, Hamerkwartier (2026)", url: "https://www.nhnieuws.nl/nieuws/357334/bouw-6500-woningen-in-hamerkwartier-toch-mogelijk-na-afspraken-met-chemiebedrijf-ketjen" }
   attributes:
     rank: Nice
+    check: Still there?
+    check_note: "Jos Bregman's gateway in the Beeldenbos: only the announcement of its unveiling on 22 March 2026 was found."
     built: 1912–1918
     architect: A.W. Bos, M.Ph.J.H. Klijnen
     original_use: City forest for workers' recreation
@@ -545,6 +561,10 @@
     - https://nl.wikipedia.org/wiki/Ketjen
     - https://graffitifun.com/graffiti-silo/ (promotional; artists and motifs only)
     - https://www.amsterdamsdagblad.nl/algemeen/graffitifun-transformeert-amsterdamse-industrile-silos
+    - 'https://www.nhnieuws.nl/nieuws/357334/bouw-6500-woningen-in-hamerkwartier-toch-mogelijk-na-afspraken-met-chemiebedrijf-ketjen (20 February 2026: deal made "yesterday"; 6,500 homes; 2024 Raad van State ruling; nickel hydroxycarbonate; towers at least 200 m away; oeverpark buffer; Storkhal saved; building next year, first homes from 2030)'
+    - https://www.raadvanstate.nl/actueel/nieuws/maart/bestemmingsplan-exclusiva-hamerkwartier/ (13 March 2024, Exclusiva plan annulled, appeal by Albemarle, Ketjen's then parent)
+    - https://www.raadvanstate.nl/actueel/nieuws/juni/draka-terrein-hamerkwartier/ (5 June 2024, Draka Terrein plan annulled)
+    - 'https://www.beeldenbosnoord.nl/ (three hectares, free access, native plants with De Kruidenschool, pavilion workshops, Dansende figuur by Jan Sierhuis as the start of the collection in 2019, co-founder Nico Koster; announcement: Jos Bregman unveils a gateway of beech to Het Groot Nederlands Stadsbos on 22 March 2026)'
   nl:
     title: W.H. Vliegenbos
     summary: Het oudste stadsbos van Amsterdam, vanaf 1912 aangelegd zodat arbeiders op zondag de stad konden ontvluchten. Iepenrijk, in de oorlog gekapt voor brandhout, buffer tegen de chemische fabriek en sinds 2019 met een beeldenbos.
@@ -553,18 +573,24 @@
 
       In de Tweede Wereldoorlog is door de bewoners van omliggende woonwijken meer dan 80% van alle bomen gekapt voor brandhout. Na 1945 heeft het bos zich vlot hersteld door het weer uitlopen van de achtergebleven stobben. Het is een iepenrijk loofbos, misschien wel het grootste in West-Europa. De chemische fabriek van Ketjen aan de zuidkant werd verscheidene malen uitgebreid; de milieuhinder leidde in 1974 tot de oprichting van de actiegroep 'Tegengif'. Daarna werd het Vliegenbos een officiële bufferzone om de woonbebouwing in het noorden tegen geluid en gevaarlijke gassen te beschermen. In 2025 liet Ketjen twee silo's op het fabrieksterrein beschilderen door Deeffeed, Rasa en Sket185 van Graffitifun, met dieren die zij op en rond het terrein tegenkwamen.
 
+      De fabriek zat ook de woningbouw in de weg in het Hamerkwartier, het oude bedrijventerrein ernaast rond de voormalige kabelfabriek van Draka, waar de gemeente 6500 woningen wil bouwen. In 2024 vernietigde de Raad van State twee bestemmingsplannen (in maart en in juni), omdat de gemeente geen goed zicht had op de risico's van wonen naast een chemische fabriek: bij een ongeluk waarbij nikkelhydroxycarbonaat vrijkomt, kunnen doden vallen als mensen te dichtbij wonen. Na afspraken van februari 2026 schuiven de dichtstbijzijnde torens naar minstens 200 meter van de fabriek, komt er een oeverpark als buffer en blijft de Storkhal staan. De bouw moet in 2027 beginnen; de eerste woningen volgen vanaf 2030.
+
       Op 25 augustus 1984 werd de 54-jarige Elbert van de Biezen bij een homo-ontmoetingsplaats in het Vliegenbos zwaar toegetakeld door acht tienerjongens; hij overleed. Als reactie volgde een grote demonstratie tegen homogeweld.
 
-      Brug 362, de Zosenerdambrug, is gebouwd als toegang tot het bos vanuit de Nieuwendammerkade. Het is een van de kleinste bruggen van Amsterdam (circa 7 meter lang, 2 meter breed). In 2018 besloot de gemeente de naamloze brug te vernoemen naar het voormalige dorp Zosenerdam. Op 18 oktober 2019 opende een beeldentuin, Beeldenbos Noord, aan de rand van het bos vlak bij de haven van Nieuwendam, met beelden van onder anderen Jan Sierhuis, Corneille en Ton Kalle.
+      Brug 362, de Zosenerdambrug, is gebouwd als toegang tot het bos vanuit de Nieuwendammerkade. Het is een van de kleinste bruggen van Amsterdam (circa 7 meter lang, 2 meter breed). In 2018 besloot de gemeente de naamloze brug te vernoemen naar het voormalige dorp Zosenerdam. Op 18 oktober 2019 opende een beeldentuin, Beeldenbos Noord, aan de rand van het bos vlak bij de haven van Nieuwendam, met beelden van onder anderen Jan Sierhuis, Corneille en Ton Kalle. Het is een vrij toegankelijk bos van zo'n drie hectare; de collectie begon met Dansende figuur van Sierhuis, vrijwilligers hebben er inheemse kruiden geplant en in het paviljoen zijn kunstworkshops voor kinderen. Op 22 maart 2026 onthulde kunstenaar Jos Bregman er een poort van beukenhout als toegang tot wat hij Het Groot Nederlands Stadsbos noemt: we wonen volgens hem niet in een stad met bomen, maar in een bos met huizen.
 
       Let op:
       - speenkruid en maarts viooltje in het voorjaar
       - ijsvogel, boomvalk en groene specht
       - het kunstwerk Franse bogen bij de ingang aan de Meeuwenlaan
+      - de beukenhouten poort van Jos Bregman in het Beeldenbos
     attributes:
       original_use: Stadsbos voor recreatie van arbeiders
+      check_note: "De poort van Jos Bregman in het Beeldenbos: alleen de aankondiging van de onthulling op 22 maart 2026 is gevonden."
     sources:
       - https://nl.wikipedia.org/wiki/Vliegenbos
       - https://onsamsterdam.nl/artikelen/protest-tegen-potenrammen
       - https://beeldenbosnoord.nl/
       - https://www.amsterdamsdagblad.nl/algemeen/graffitifun-transformeert-amsterdamse-industrile-silos
+      - https://www.nhnieuws.nl/nieuws/357334/bouw-6500-woningen-in-hamerkwartier-toch-mogelijk-na-afspraken-met-chemiebedrijf-ketjen
+      - https://www.beeldenbosnoord.nl/

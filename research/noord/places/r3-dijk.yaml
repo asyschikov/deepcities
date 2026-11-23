@@ -1,0 +1,421 @@
+# Noord round B, slice "dijk": Nieuwendam, Buikslotermeer and the eastern allotments.
+# Scout items (SCOUT-3.md): 202 Anemoi air-quality station, 242 Plan Van Gool, 243 De Bowling,
+# 244 Het Groene Veld, 252 Tuinpark Buitenzorg, 257 Tuinpark Tuinwijck, 258 KiMu.
+# Merges (205, 211, 234, 247, 248, 253 and the pointer from Tajiri's Ontmoetingsplaats) are in
+# dijk.yaml, nieuwendam.yaml and r2-east.yaml.
+
+- title: Air-quality station Anemoi, Nieuwendammerdijk
+  summary: A GGD air-quality station on the dike of wooden houses, rebuilt in 2024–2025 as a dark octagonal tower after the Tower of the Winds in Athens, so that neighbours would stop ignoring it. A dial on the front shows how clean the air is.
+  body: |
+    For years a nameless box clad in plastic panels stood in the grass field by the old harbour of Nieuwendam, near Nieuwendammerdijk 421. Hardly anyone knew it was an air-quality station of the GGD (the municipal health service), part of the national monitoring network since 1998 and measuring nitrogen dioxide, ozone and fine dust.
+
+    Christopher de Vries, an architect who lives in the neighbourhood, found out what it was at a time when the dike was arguing about new transformer kiosks, which nobody wants in front of their door. His point: you can't ask people to care about such stations while they spoil the view. His office, Rademacher de Vries, designed a replacement, paid for with 100,000 euros from a Cultuurfonds competition for "pearls in public space". It is eight-sided like the Tower of the Winds in Athens, an ancient weather vane, and is called Anemoi, after the Greek wind gods. It went up in 2024–2025: a tapering tower in dark boards on a stone base, with a steel crown holding the inlets and a mast.
+
+    The readings here are not only about traffic and industry. Many houses on the dike still burn wood stoves, and on windless days the smoke shows up in the measurements. The new station also revived a local question: whether one station is enough for the parts of Noord that still have industry.
+
+    Look for:
+    - the diamond-shaped dial on the front, from blue (good) to purple (very poor), with a QR code to the live data
+    - the steel crown with the sampling inlets and the mast
+    - the old harbour behind it
+  category: curiosities
+  lat: 52.389309
+  lng: 4.943822
+  address: Nieuwendammerdijk, grass field by no. 421
+  links:
+    - { label: Wikipedia (nl) Luchtmeetstation Nieuwendammerdijk, url: "https://nl.wikipedia.org/wiki/Luchtmeetstation_Nieuwendammerdijk" }
+    - { label: Rademacher de Vries, url: "https://rademacherdevries.com/" }
+    - { label: Luchtmeetnet, url: "https://www.luchtmeetnet.nl/" }
+  attributes:
+    rank: Okay
+    built: 2024–2025
+    architect: Rademacher de Vries (Christopher de Vries)
+    original_use: Air-quality monitoring station (GGD, since 1998)
+  photos:
+    - commons:File:Luchtmeetpunt Amsterdam.jpg
+    - commons:File:Luchtmeetpunt Nieuwendammerdijk.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Luchtmeetstation_Nieuwendammerdijk (old trespa box, GGD station, Christopher de Vries, transformer kiosk debate, Rademacher de Vries design, 100,000 euros from the Cultuurfonds competition "Parels in de openbare ruimte", octagon after the Tower of the Winds, name Anemoi, wood stoves, debate on one station for Noord)
+    - https://nl.wikipedia.org/wiki/Nieuwendammerdijk (replaced in 2024/2025)
+    - https://rademacherdevries.com/ (project "Air Quality Station Anemoi" in the office's list)
+    - https://www.luntero.com/resource/air-quality/station/nl49003 (station NL49003, GGD Amsterdam since 1998, NO2, O3, PM10, PM2.5)
+    - commons:File:Luchtmeetpunt Amsterdam.jpg and File:Luchtmeetpunt Nieuwendammerdijk.jpg (31 July 2025; tower, crown, dial "Luchtkwaliteitsindex" from blue to purple with QR code)
+    - OSM way 280796291 (man_made=monitoring_station "Amsterdam-Nieuwendammerdijk", operator GGD Amsterdam; pin)
+  nl:
+    title: Luchtmeetstation Anemoi, Nieuwendammerdijk
+    summary: Een meetstation van de GGD op de dijk met houten huizen, in 2024–2025 vervangen door een donkere achthoekige toren naar de Toren van de Winden in Athene, zodat de buurt er eindelijk naar kijkt. Een wijzer op de voorkant geeft aan hoe schoon de lucht is.
+    body: |
+      Jarenlang stond op het grasveld bij het oude haventje van Nieuwendam, ter hoogte van Nieuwendammerdijk 421, een naamloos kastje met trespa beplating. Bijna niemand wist dat het een luchtmeetstation van de GGD was, sinds 1998 onderdeel van het landelijke meetnet, dat stikstofdioxide, ozon en fijnstof meet.
+
+      Buurtbewoner en architect Christopher de Vries zocht het uit, precies toen er op de dijk ruzie was over nieuwe transformatorhuisjes, die niemand voor de deur wil. Zijn redenering: je kunt niet verwachten dat mensen belangstelling hebben voor zo'n station als het hun uitzicht verpest. Zijn bureau Rademacher de Vries ontwierp een vervanger, betaald met 100.000 euro uit een prijsvraag van het Cultuurfonds voor 'parels in de openbare ruimte'. Het is achthoekig, net als de Toren van de Winden in Athene, een antieke windwijzer, en heet Anemoi, naar de Griekse windgoden. In 2024–2025 kwam het er te staan: een taps toelopende toren van donkere planken op een stenen voet, met bovenop een stalen kroon voor de aanzuigpunten en een mast.
+
+      Wat hier gemeten wordt, komt niet alleen van verkeer en industrie. Veel huizen op de dijk stoken nog hout, en bij windstil weer zie je die rook terug in de metingen. Het nieuwe station bracht ook een oude vraag weer op tafel: is één meetpunt wel genoeg voor de delen van Noord waar nog industrie zit?
+
+      Let op:
+      - de ruitvormige wijzerplaat op de voorkant, van blauw (goed) tot paars (zeer slecht), met een QR-code naar de actuele metingen
+      - de stalen kroon met de aanzuigpunten en de mast
+      - het oude haventje erachter
+    attributes:
+      architect: Rademacher de Vries (Christopher de Vries)
+      original_use: Luchtmeetstation (GGD, sinds 1998)
+    sources:
+      - https://nl.wikipedia.org/wiki/Luchtmeetstation_Nieuwendammerdijk
+      - https://nl.wikipedia.org/wiki/Nieuwendammerdijk
+
+- title: Plan Van Gool (Het Hoogt, Het Laagt, Het Breed)
+  summary: "Eleven identical 1960s slabs with 1,138 flats, linked at third-floor level by tube bridges first designed as airport jetways: more than two kilometres of raised street. The architect said he wanted anonymity, not community. A protected cityscape since 2024."
+  body: |
+    In 1962 the city's housing department asked three architects, Jaap Bakema, Aldo van Eyck and Frans van Gool, to plan some 1,450 homes together on the empty Buikslotermeer polder. The three soon went their own ways, and in 1964 the city chose Van Gool's plan over Bakema's, most likely because it was cheaper. Building began in 1966, and by 1972 there were 1,138 flats in eleven five-storey blocks that meander across the grass. Even the street names play along: Het Hoogt, Het Laagt, Benedenlangs, Bovenover, Het Breed (the high, the low, along below, over above, the broad).
+
+    The odd part is the access. Each block has a gallery street on the third floor, with spiral stairs up and down to the flats above and below. Nine covered bridges, tubes of the kind airports use to board passengers, carry these streets from block to block, so you can walk more than two kilometres without coming down. Visitors read it as 1960s community spirit. Van Gool did not: inspired by Auguste Perret's rebuilt Le Havre, he was after urban anonymity, equal flats behind a strict grid of narrow prefab concrete columns and glass. Critics in 1972 were let down that the galleries all lie on the shady north and west sides.
+
+    After a cultural-historical survey and a round of public comments, the city council made the estate a municipal protected cityscape (beschermd stadsgezicht) on 26 June 2024. Tajiri's Ontmoetingsplaats on the Breedveld lies in the middle of it.
+
+    These are homes, and the galleries and bridges are residents' access: look from the paths below. The pin is on the bridge at the entrance to Het Hoogt 246–344.
+
+    Look for:
+    - the tube bridges with their round porthole windows
+    - the endless rhythm of identical columns and glass
+    - the glass stair additions from the 2013 renovation
+  category: housing
+  lat: 52.395780
+  lng: 4.937560
+  address: Het Hoogt, Het Laagt, Benedenlangs, Bovenover, Het Breed, Buikslotermeer
+  links:
+    - { label: Gemeenteblad 2024 nr. 300347, url: "https://zoek.officielebekendmakingen.nl/gmb-2024-300347.pdf" }
+    - { label: Architectuurgids, url: "https://www.architectuurgids.nl/project/item/prj_id/387" }
+    - { label: TU Delft (elevated streets), url: "https://repository.tudelft.nl/record/uuid:e6fd557c-8c42-4571-a70e-d8118b331a33" }
+    - { label: Wikipedia (nl) Buikslotermeer, url: "https://nl.wikipedia.org/wiki/Buikslotermeer" }
+  attributes:
+    rank: Nice
+    built: 1966–1972
+    architect: Frans van Gool
+    original_use: Social housing (1,138 flats)
+    check: Location
+    check_note: "The bridges are not mapped; the pin is set from a 2026 Commons photo of the bridge by the entrance to Het Hoogt 246–344, within about 20 m."
+  photos:
+    - commons:File:Luchtbrug Plan van Gool 1.jpg
+    - commons:File:Luchtbrug Plan van Gool 2.jpg
+    - commons:File:Benedenlangs Bovenover Plan van Gool.jpg
+  sources:
+    - 'https://zoek.officielebekendmakingen.nl/gmb-2024-300347.pdf (council decision of 26 June 2024, published 10 July 2024: municipal protected cityscape; CHV report; zienswijzen and Nota van beantwoording of November 2022)'
+    - https://www.architectuurgids.nl/project/item/prj_id/387 (F.J. van Gool, 1962–1968; closed blocks of equal height; upper three floors from a living street on the third floor; 1.40 m prefab concrete elements; steel footbridges originally designed as airport jetways)
+    - https://repository.tudelft.nl/record/uuid:e6fd557c-8c42-4571-a70e-d8118b331a33 and its PDF (1962 commission to Bakema, Van Eyck and Van Gool; 1,450 homes asked, 1,138 built; city chose Van Gool's plan in 1964, probably for cost; building from 1966, complete 1972; 11 blocks of five storeys; 9 avio-bridges, more than 2 km of elevated street; spiral stairs; Perret's Le Havre and anonymity; Schimmel's 1972 critique of galleries on the shady side; 2013 renovation glass on the stairwells)
+    - https://nl.wikipedia.org/wiki/Buikslotermeer (Plan van Gool, locally known as Het Breed, Het Laagt)
+    - commons:File:Luchtbrug Plan van Gool 1.jpg (31 July 2026; grey tube bridge with portholes at Het Hoogt 246–344; camera at 52.39566, 4.937571)
+  nl:
+    title: Plan Van Gool (Het Hoogt, Het Laagt, Het Breed)
+    summary: "Elf gelijke flats uit de jaren zestig met 1138 woningen, op de derde verdieping verbonden door buizen die bedoeld waren als slurven op vliegvelden: ruim twee kilometer woonstraat in de lucht. De architect wilde anonimiteit, geen gemeenschapszin. Sinds 2024 beschermd stadsgezicht."
+    body: |
+      In 1962 vroeg de Woningdienst drie architecten, Jaap Bakema, Aldo van Eyck en Frans van Gool, om samen zo'n 1450 woningen te ontwerpen voor de lege Buikslotermeerpolder. Al snel gingen de drie elk hun eigen weg, en in 1964 koos de gemeente het plan van Van Gool boven dat van Bakema, waarschijnlijk omdat het goedkoper was. In 1966 begon de bouw; in 1972 stonden er 1138 woningen in elf blokken van vijf lagen, die als een slinger over het gras liggen. Zelfs de straatnamen doen mee: Het Hoogt, Het Laagt, Benedenlangs, Bovenover, Het Breed.
+
+      Het bijzondere is de ontsluiting. Elk blok heeft op de derde verdieping een woonstraat, met wenteltrappen naar de woningen erboven en eronder. Negen overdekte loopbruggen, buizen van het soort waarmee je op een vliegveld een vliegtuig in loopt, verbinden die straten van blok tot blok, zodat je ruim twee kilometer kunt lopen zonder naar beneden te gaan. Bezoekers zien er de gemeenschapszin van de jaren zestig in. Van Gool niet: hij liet zich inspireren door het herbouwde Le Havre van Auguste Perret en zocht juist stedelijke anonimiteit, gelijke woningen achter een streng raster van smalle betonnen prefabkolommen en glas. Critici vonden het in 1972 jammer dat de galerijen allemaal aan de schaduwkant liggen.
+
+      Na een cultuurhistorische verkenning en een inspraakronde wees de gemeenteraad het complex op 26 juni 2024 aan als gemeentelijk beschermd stadsgezicht. Midden in het plan ligt de Ontmoetingsplaats van Tajiri op het Breedveld.
+
+      Het zijn woningen, en de woonstraten en bruggen zijn de toegang voor bewoners: kijk vanaf de paden beneden. De pin staat bij de brug aan de ingang van Het Hoogt 246–344.
+
+      Let op:
+      - de buisvormige loopbruggen met ronde patrijspoorten
+      - het eindeloze ritme van gelijke kolommen en glas
+      - de glazen trappenhuizen van de renovatie van 2013
+    attributes:
+      original_use: Sociale woningbouw (1138 woningen)
+      check_note: "De loopbruggen staan niet op de kaart; de pin is gezet aan de hand van een Commons-foto uit 2026 van de brug bij de ingang van Het Hoogt 246–344, op zo'n 20 meter nauwkeurig."
+    sources:
+      - https://zoek.officielebekendmakingen.nl/gmb-2024-300347.pdf
+      - https://www.architectuurgids.nl/project/item/prj_id/387
+      - https://nl.wikipedia.org/wiki/Buikslotermeer
+
+- title: De Bowling, Buikslotermeerplein
+  summary: "The 'rotten tooth' of Noord's main square: a concrete bowling alley that was due for demolition, squatted since 2016 and now sold to a neighbourhood co-op for a quarter of the asking price. Teenagers are designing the youth culture centre it should become."
+  body: |
+    Bowling Noord was built in the 1980s beside the market on the Buikslotermeerplein, half tucked under the Waddenweg viaduct (pulled down in 2020). Plenty of Noorderlingen had their birthday parties here. Then the balls stopped rolling. Demolition plans of 2010–2011 stalled for lack of money, and in 2016 squatters moved in. De Lokatie, a second-hand shop, took the ground floor, partly to keep it from being squatted too. By 2021 the leaking concrete block was called the rotten tooth of the square, and most passers-by said: flatten it.
+
+    The city held an open call. The winner, in 2023, was Coöperatie 5711, formed by the residents' group Verdedig Noord, the storytelling house Productiehuis Noord, De Lokatie and the architects Bright, who are to take it over on a ground lease. Their adviser talked the price down from 2.4 million to 600,000 euros. The co-op refused to have the squatters evicted, and says that without them the building would already be gone. The small kiosk at its foot is not part of the deal and is to be demolished.
+
+    In March 2026 a group of teenagers, the main designers, were drawing what they call a safe space for everyone. The final design is due in October 2026, building work should start in January 2027, and the youth culture centre is hoped to open in 2029.
+
+    People still live upstairs: look from the square, or go in through De Lokatie.
+
+    Look for:
+    - the windowless concrete bulk beside the market
+    - De Lokatie's shopfront on the ground floor
+    - the kiosk at the foot, set to go
+  category: civic
+  lat: 52.399587
+  lng: 4.934762
+  address: Buikslotermeerplein 6 (De Lokatie)
+  links:
+    - { label: "NH Nieuws, jongerencentrum (2026)", url: "https://www.nhnieuws.nl/nieuws/358442/leegstaande-amsterdamse-bowlingbaan-wordt-jongerencentrum-safespace-voor-iedereen/" }
+    - { label: "NH Nieuws, bowlingbunker (2021)", url: "https://www.nhnieuws.nl/nieuws/280105/bed-en-bowling-of-toch-maar-slopen-wat-moet-er-met-de-bowlingbunker-in-noord" }
+    - { label: Rodi (coöperatie), url: "https://www.rodi.nl/amsterdam-noord/333064/bowlingbaan-krijgt-nieuw-leven-dankzij-cooperatie" }
+    - { label: Amsterdam Alternative, url: "https://amsterdamalternative.nl/articles/15985/de-bowling-how-squatting-helped-preserve-amsterdam-noord" }
+  attributes:
+    rank: Nice
+    built: 1980s
+    original_use: Bowling alley
+    outlook: Major change ahead
+    outlook_when: building work from January 2027, opening hoped for 2029
+    outlook_note: Coöperatie 5711 is to take the building over on a ground lease and turn it into a youth culture centre.
+  sources:
+    - 'https://www.nhnieuws.nl/nieuws/358442/leegstaande-amsterdamse-bowlingbaan-wordt-jongerencentrum-safespace-voor-iedereen/ (28 March 2026: demolition plans in 2010 dropped for lack of money; squatted in 2016; Coöperatie 5711 green light in 2023; young people as main designers, "safespace"; presentation in June, final design October 2026, purchase, building from January 2027, opening hoped 2029)'
+    - 'https://www.nhnieuws.nl/nieuws/280105/bed-en-bowling-of-toch-maar-slopen-wat-moet-er-met-de-bowlingbunker-in-noord (1 February 2021: viaduct gone, squatters, De Lokatie on the ground floor to prevent squatting, leaks and odd level differences, "de rotte kies" of the square)'
+    - 'https://www.rodi.nl/amsterdam-noord/333064/bowlingbaan-krijgt-nieuw-leven-dankzij-cooperatie (undated, about 2023: next to the market, half under the demolished Waddenweg viaduct, birthday parties; members De Lokatie, Bright, Productiehuis Noord, Verdedig Noord; ground lease; kiosk excluded and to be demolished)'
+    - https://amsterdamalternative.nl/articles/15985/de-bowling-how-squatting-helped-preserve-amsterdam-noord (built in the 1980s; demolition plans 2011; squatted 2016; open call; price cut from 2.4 million to 600,000 euros by Eva de Klerk; co-op declined forced eviction; "if the building wasn't squatted it would already be demolished")
+    - https://nl.wikipedia.org/wiki/Buikslotermeerplein (Waddenweg viaduct demolished in 2020)
+    - OSM node 3773516756 (De Lokatie, Buikslotermeerplein 6; pin)
+  nl:
+    title: De Bowling, Buikslotermeerplein
+    summary: "De 'rotte kies' van het hart van Noord: een betonnen bowlingbaan die gesloopt zou worden, sinds 2016 gekraakt is en nu voor een kwart van de vraagprijs naar een buurtcoöperatie gaat. Jongeren ontwerpen het jongerencultuurcentrum dat het moet worden."
+    body: |
+      Bowling Noord kwam er in de jaren tachtig, naast de markt op het Buikslotermeerplein, half verscholen onder het Waddenwegviaduct (in 2020 gesloopt). Menig Noorderling vierde er zijn verjaardag. Daarna rolden er geen ballen meer. Sloopplannen uit 2010–2011 strandden op geldgebrek, en in 2016 werd het pand gekraakt. Op de begane grond trok kringloopwinkel De Lokatie in, mede om te voorkomen dat ook die verdieping gekraakt werd. In 2021 heette het lekkende betonblok de rotte kies van het plein, en de meeste voorbijgangers zeiden: gooi maar plat.
+
+      De gemeente schreef een open oproep uit. In 2023 won Coöperatie 5711, gevormd door bewonersorganisatie Verdedig Noord, verhalenhuis Productiehuis Noord, De Lokatie en architectenbureau Bright, die het gebouw in erfpacht overnemen. Hun adviseur kreeg de prijs omlaag van 2,4 miljoen naar 600.000 euro. De coöperatie wilde niet dat de krakers werden ontruimd en zegt dat het gebouw zonder hen allang weg was geweest. Het kioskje aan de voet hoort niet bij de overdracht en wordt gesloopt.
+
+      In maart 2026 tekende een groep jongeren, de hoofdontwerpers, aan wat zij een safe space voor iedereen noemen. Het definitieve ontwerp moet in oktober 2026 klaar zijn, de verbouwing begint naar verwachting in januari 2027, en het jongerencultuurcentrum hoopt in 2029 open te gaan.
+
+      Boven wonen nog altijd mensen: kijk vanaf het plein, of loop binnen bij De Lokatie.
+
+      Let op:
+      - het raamloze betonblok naast de markt
+      - de winkelpui van De Lokatie op de begane grond
+      - het kioskje aan de voet, dat verdwijnt
+    attributes:
+      original_use: Bowlingbaan
+      outlook_when: verbouwing vanaf januari 2027, opening gehoopt in 2029
+      outlook_note: Coöperatie 5711 neemt het gebouw in erfpacht over en maakt er een jongerencultuurcentrum van.
+    sources:
+      - https://www.nhnieuws.nl/nieuws/358442/leegstaande-amsterdamse-bowlingbaan-wordt-jongerencentrum-safespace-voor-iedereen/
+      - https://www.nhnieuws.nl/nieuws/280105/bed-en-bowling-of-toch-maar-slopen-wat-moet-er-met-de-bowlingbunker-in-noord
+      - https://www.rodi.nl/amsterdam-noord/333064/bowlingbaan-krijgt-nieuw-leven-dankzij-cooperatie
+
+- title: Het Groene Veld (ADM Noord)
+  summary: When the ADM squat in the western harbour was cleared in 2019, part of its community moved onto the old sludge fields of a water treatment works on Noord's edge. About sixty people live there, with studios, a concert hall and a café, on a lease that keeps getting shorter.
+  body: |
+    For 21 years the ADM site, a former dry dock company's yard in the western harbour, was home to a self-run community of more than a hundred people. It was cleared in January 2019. The city offered part of the group the former sludge fields of the old water treatment works in Noord, just outside the ring road next to the Elzenhagen estate, and 55 people moved there. They named it Het Groene Veld (the green field).
+
+    At first they could stay two years; that became October 2024, and in summer 2024 the city added three more years. Some sixty people now live there among artists' studios, a vegetable garden, a people's kitchen and a concert hall with music, theatre and film. Not every neighbour is charmed: in 2024 residents of Elzenhagen complained about noise, broken glass and litter after parties, and an agreement on nuisance was drawn up.
+
+    The field is shrinking. The ADM community gave up part of it for a backup heat plant by Vattenfall and the city, designed to look like a fallen meteorite, which should run from autumn 2027 on very cold days. A wider redevelopment from 1 October 2027 is to fit sports, utilities and the "free space" onto the site; the community expects to lose about 70% of the land it uses now and is campaigning against it.
+
+    This is people's home. The concerts and the café are open to the public on their evenings; the living area is private.
+
+    Look for:
+    - the wild greenery on the old sludge fields
+    - the concert hall and café when there is a programme
+    - the heat plant rising next door
+  category: hidden-history
+  lat: 52.409343
+  lng: 4.936242
+  address: Het Groene Veld, by the Buikslotermeerdijk and Elzenhagen
+  links:
+    - { label: "NH Nieuws, ontruiming dreigt (2023)", url: "https://www.nhnieuws.nl/nieuws/315743/opnieuw-dreigt-ontruiming-voor-voormalig-adm-krakers-maar-we-hebben-nog-hoop/" }
+    - { label: "NH Nieuws, overlast (2024)", url: "https://www.nhnieuws.nl/nieuws/341936/bewoners-elzenhagen-ergeren-amsterdam" }
+    - { label: "NH Nieuws, warmtecentrale (2026)", url: "https://www.nhnieuws.nl/nieuws/365270/hulpwarmtecentrale-op-het-groene-veld-krijgt-vorm-meteoriet-die-uit-de-lucht-is-gevallen" }
+    - { label: Amsterdam Alternative (ADM Noord), url: "https://amsterdamalternative.nl/network/1006/adm-noord-het-groene-veld" }
+  attributes:
+    rank: Okay
+    original_use: Sludge fields of a water treatment works
+    outlook: Major change ahead
+    outlook_when: from 1 October 2027
+    outlook_note: A redevelopment for sports, utilities and the free space; the community expects to give up about 70% of the land it uses.
+  sources:
+    - 'https://www.nhnieuws.nl/nieuws/315743/opnieuw-dreigt-ontruiming-voor-voormalig-adm-krakers-maar-we-hebben-nog-hoop/ (12 March 2023: ADM cleared early 2019 after 21 years; former sludge fields just outside the ring, where the water treatment was; 55 people; first two years, extended to October 2024; name Het Groene Veld; part to make way for a small heat plant)'
+    - 'https://www.nhnieuws.nl/nieuws/341936/bewoners-elzenhagen-ergeren-amsterdam (23 October 2024: about sixty people live there; studios; Elzenhagen complaints about glass, litter, noise; this summer three more years; covenant on the table)'
+    - 'https://www.nhnieuws.nl/nieuws/365270/hulpwarmtecentrale-op-het-groene-veld-krijgt-vorm-meteoriet-die-uit-de-lucht-is-gevallen (10 November 2026: "meteorite" design, in use autumn 2027, extra heat for about 10,000 households on very cold days, Westpoort Warmte = Vattenfall and the city, ADM made room)'
+    - https://amsterdamalternative.nl/network/1006/adm-noord-het-groene-veld (more than 100 people for 21 years, evicted January 2019; day café twice a week; concert hall with music, theatre and film)
+    - 'https://amsterdamalternative.nl/articles/22495/according-to-a-hawk-we-are-probably-just-a-forest (2026: redevelopment from 1 October 2027 for utilities, sports and the Experimental Living and Working Community; the free space to give up about 70%; campaign)'
+    - OSM node 9592857140 (ADM Noord events venue; pin), way 1339824866 (Het Groene Veld)
+  nl:
+    title: Het Groene Veld (ADM Noord)
+    summary: Toen de ADM-kraakplek in het Westelijk Havengebied in 2019 werd ontruimd, trok een deel van de bewoners naar de oude slibvelden van de waterzuivering aan de rand van Noord. Er wonen zo'n zestig mensen, met ateliers, een zaal en een café, op een termijn die steeds korter wordt.
+    body: |
+      Eenentwintig jaar lang woonde op het terrein van de voormalige Amsterdamsche Droogdok Maatschappij (ADM) in het Westelijk Havengebied een zelfbestuurde gemeenschap van meer dan honderd mensen. In januari 2019 werd het ontruimd. De gemeente bood een deel van de groep de voormalige slibvelden van de oude waterzuivering in Noord aan, net buiten de ring naast Elzenhagen, en 55 mensen verhuisden ernaartoe. Ze doopten het Het Groene Veld.
+
+      Eerst mochten ze er twee jaar blijven; dat werd oktober 2024, en in de zomer van 2024 kwamen er nog drie jaar bij. Er wonen nu zo'n zestig mensen, tussen ateliers van kunstenaars, een moestuin, een volkskeuken en een zaal voor muziek, theater en film. Niet alle buren zijn even blij: in 2024 klaagden bewoners van Elzenhagen over lawaai, glasscherven en afval na feesten, en er kwam een convenant over de overlast.
+
+      Het veld krimpt. De ADM'ers maakten ruimte voor een hulpwarmtecentrale van Vattenfall en de gemeente, ontworpen als een uit de lucht gevallen meteoriet, die vanaf het najaar van 2027 op heel koude dagen bijspringt. Bij een herinrichting vanaf 1 oktober 2027 moeten sport, nutsvoorzieningen en de vrijplaats samen op het terrein passen; de gemeenschap verwacht zo'n 70% van de grond die ze nu gebruikt kwijt te raken en voert daar actie tegen.
+
+      Dit is iemands thuis. De concerten en het café zijn op hun avonden open voor publiek; het woongedeelte is privé.
+
+      Let op:
+      - het wilde groen op de oude slibvelden
+      - de zaal en het café als er programma is
+      - de warmtecentrale die ernaast verrijst
+    attributes:
+      original_use: Slibvelden van een waterzuivering
+      outlook_when: vanaf 1 oktober 2027
+      outlook_note: Herinrichting voor sport, nutsvoorzieningen en de vrijplaats; de gemeenschap verwacht zo'n 70% van de grond die ze gebruikt in te leveren.
+    sources:
+      - https://www.nhnieuws.nl/nieuws/315743/opnieuw-dreigt-ontruiming-voor-voormalig-adm-krakers-maar-we-hebben-nog-hoop/
+      - https://www.nhnieuws.nl/nieuws/341936/bewoners-elzenhagen-ergeren-amsterdam
+      - https://www.nhnieuws.nl/nieuws/365270/hulpwarmtecentrale-op-het-groene-veld-krijgt-vorm-meteoriet-die-uit-de-lucht-is-gevallen
+
+- title: Tuinpark Buitenzorg
+  summary: Amsterdam's oldest allotment park still on its original spot. Neighbours began growing vegetables on a leftover strip beside the new Vliegenbos during the food shortages of 1914; the poet Simon Vinkenoog later gardened here. The Ketjen silos loom over the sheds.
+  body: |
+    When the city planted the Vliegenbos between 1912 and 1917, a broad strip along the wood's south side was left over. In 1914, with the First World War cutting food supplies, people from the neighbourhood started growing vegetables on it, among them Jan Hoeksel, who is said to have begun where garden 57 is now. Such plots were then called workers' gardens. On Thursday 19 July 1917 the gardeners founded Buitenzorg as an association.
+
+    Most of Amsterdam's allotment parks have been moved, some several times, to make way for housing and roads. Buitenzorg never was, which makes it the oldest one still in its first place. Until the 1950s nearly every plot was a kitchen garden; with growing prosperity flowers and lawns took over, and gardening became a way to spend the weekend outdoors.
+
+    In spring 1991, when there was still no waiting list and sheds stood for sale, the poet Simon Vinkenoog and his wife Edith took a garden here. He put the little park on the map and drew artists to it. The chemical works of Ketjen still stand right next door; since 2025 two of its silos carry a fox and a goose.
+
+    Open to everyone from 1 April to 1 October, daily from about 9:00 to 19:00. The gardens themselves are private.
+
+    Look for:
+    - the Ketjen silos rising above the sheds
+    - garden 57, where it all began
+    - the path into the Vliegenbos
+  category: green
+  lat: 52.388606
+  lng: 4.926775
+  address: Zamenhofstraat 41 (entrance)
+  links:
+    - { label: Tuinpark Buitenzorg (geschiedenis), url: "https://www.tuinparkbuitenzorg.nl/geschiedenis" }
+    - { label: Wikipedia (nl) Vliegenbos, url: "https://nl.wikipedia.org/wiki/Vliegenbos" }
+  attributes:
+    rank: Nice
+    built: from 1914; association 1917
+    original_use: Workers' vegetable gardens
+  sources:
+    - https://www.tuinparkbuitenzorg.nl/geschiedenis (oldest unmoved allotment complex of Amsterdam; strip left over when the Vliegenbos was planted 1912–1917; food shortage; Jan Hoeksel from 1914, garden 57; "arbeiderstuinen"; founded Thursday 19 July 1917; vegetable gardens until the 1950s; Simon Vinkenoog and Edith in spring 1991, no waiting list, drew artists; Ketjen beside it (1969 photo); open 1 April to 1 October, about 9 to 19)
+    - 'research/noord/places/dijk.yaml "W.H. Vliegenbos" (Ketjen silo murals of 2025: fox, goose)'
+    - OSM way 177482426 (Tuinpark Buitenzorg); Nominatim for Zamenhofstraat 41 (pin)
+  nl:
+    title: Tuinpark Buitenzorg
+    summary: Het oudste volkstuinpark van Amsterdam dat nog op zijn eerste plek ligt. Buurtbewoners gingen in 1914, in de voedselschaarste, groenten telen op een restje grond naast het jonge Vliegenbos. Later tuinierde hier Simon Vinkenoog. De silo's van Ketjen torenen erboven uit.
+    body: |
+      Toen de gemeente tussen 1912 en 1917 het Vliegenbos aanplantte, bleef aan de zuidkant een brede strook grond over. In 1914, toen de Eerste Wereldoorlog de aanvoer van voedsel afsneed, begonnen buurtbewoners er zelf groenten te verbouwen, onder wie Jan Hoeksel, die volgens de overlevering begon op de plek van het huidige tuin 57. Zulke tuinen heetten toen nog arbeiderstuinen. Op donderdag 19 juli 1917 richtten de tuinders Buitenzorg officieel op als vereniging.
+
+      De meeste Amsterdamse volkstuinparken zijn verplaatst, sommige meer dan eens, voor woningbouw en wegen. Buitenzorg nooit, en daarmee is het het oudste dat nog op zijn eerste plek ligt. Tot in de jaren vijftig waren bijna alle tuinen moestuinen; met de groeiende welvaart kwamen er bloemen en gazons, en werd volkstuinieren vooral recreatie in de buitenlucht.
+
+      In het voorjaar van 1991, toen er nog geen wachtlijst was en er huisjes te koop stonden, nam dichter Simon Vinkenoog met zijn vrouw Edith een tuin op Buitenzorg. Hij zette het kleine park op de kaart en trok er kunstenaars naartoe. De chemische fabriek van Ketjen staat er nog altijd pal naast; sinds 2025 staan op twee van de silo's een vos en een gans.
+
+      Van 1 april tot 1 oktober voor iedereen open, dagelijks van ongeveer 9 tot 19 uur. De tuinen zelf zijn privé.
+
+      Let op:
+      - de silo's van Ketjen boven de tuinhuisjes
+      - tuin 57, waar het begon
+      - het pad het Vliegenbos in
+    attributes:
+      original_use: Arbeiderstuinen voor groenteteelt
+    sources:
+      - https://www.tuinparkbuitenzorg.nl/geschiedenis
+      - https://nl.wikipedia.org/wiki/Vliegenbos
+
+- title: Tuinpark Tuinwijck, the allotments that kept moving
+  summary: Amsterdam's very first allotment complex opened by the gasworks in Oost around 1910, was moved in 1939 and again in 1974, when it settled by Schellingwoude as the first allotment park laid out as a public park. On the first move, the gardeners rolled their sheds over on planks.
+  body: |
+    On 31 March 1909 a Committee for Allotments was founded in Amsterdam, with an interest-free loan of 2,000 guilders from the Maatschappij tot Nut van 't Algemeen. Within a year it opened the city's first allotment complex, Tuinwijck, on the Polderweg near the gasworks in Oost. Plots were ten metres by ten, rent was four guilders a year, and at least a tenth of each plot had to be flowers. Tuinwijck is older than the Amsterdam allotment federation itself, which grew out of the food shortage of the First World War.
+
+    In 1939 the city wanted the land. After some bargaining it paid over 100,000 guilders to move the complex to the Oosterringdijk. The sheds were set down on a playing field, and the gardeners rolled them to their new plots on rollers under planks. Tuinwijck had its own band and bandstand; the stand did not survive the move, because gardeners short of wood took the planks. In 1979 a piece of it was still in use as a block under someone's washing machine wringer.
+
+    In the early 1970s the ring road plans came, and in 1974 the gardeners dug in again at the Liergouw, between Schellingwoude and Ransdorp, a stone's throw from the road that pushed them out. This time the complex was laid out as a park, with public green and room for people without a garden, the first in Amsterdam to be planned that way.
+
+    The paths are part of the Volkstuinroute Boven Y walk past six allotment parks (open April to October); Tuinwijck's theme is butterflies and ancient trees. The gardens are private.
+
+    Look for:
+    - the waymarker posts of the Volkstuinroute
+    - the green between the gardens, open to all
+    - the back gate towards the Zwarte Gouw and the meadows
+  category: green
+  lat: 52.384239
+  lng: 4.973382
+  address: Liergouw 55
+  links:
+    - { label: Tuinwijck (geschiedenis), url: "https://www.tuinparktuinwijck.nl/de-bibliotheek/geschiedenis" }
+    - { label: Tuinwijck (wandelroutes), url: "https://www.tuinparktuinwijck.nl/de-bibliotheek/wandelroutes" }
+  attributes:
+    rank: Okay
+    built: about 1910; here since 1974
+    original_use: Allotment gardens
+  photos:
+    - commons:File:Tuinwijck 119 - panoramio.jpg
+  sources:
+    - 'https://www.tuinparktuinwijck.nl/de-bibliotheek/geschiedenis (article by Huub Klompenhouwer, Noord Amsterdammer, 6 July 1979: Comité voor volkstuinen founded 31 March 1909, interest-free loan of 2,000 guilders from the Nut; less than a year later Mr. J.A. van Hamel opened Tuinwijck at the Polderweg by the gasworks; 10 x 10 m, four guilders a year, a tenth in flowers; older than the Bond van Volkstuinders; 1939 move to the Oosterringdijk, more than 100,000 guilders, sheds rolled on rollers under planks; music band and bandstand, planks taken, piece in a wringer block in 1979; plots three times bigger; early 1970s ring road plans; 1974 Liergouw near Schellingwoude and Ransdorp; first allotment park laid out entirely as a park with public green)'
+    - https://www.tuinparktuinwijck.nl/de-bibliotheek/wandelroutes (Volkstuinroute Boven Y opened 6 August 2006, six parks, April to October, Tuinwijck theme butterflies and ancient trees)
+    - https://www.tuinparktuinwijck.nl/de-bibliotheek/rondom-tuinwijck (back exit towards the Zwarte Gouw)
+    - OSM way 111511565 (Volkstuinpark Tuinwijck); Nominatim for Liergouw 55 (pin)
+    - commons:File:Tuinwijck 119 - panoramio.jpg (geotagged in the park)
+  nl:
+    title: Tuinpark Tuinwijck, de volkstuinen die steeds moesten verhuizen
+    summary: Het eerste volkstuincomplex van Amsterdam opende rond 1910 bij de gasfabriek in Oost, verhuisde in 1939 en 1974 en belandde bij Schellingwoude als eerste volkstuinpark dat als openbaar park is aangelegd. In 1939 rolden de tuinders hun huisjes over planken.
+    body: |
+      Op 31 maart 1909 werd in Amsterdam het Comité voor volkstuinen opgericht, met een renteloze lening van 2000 gulden van het Amsterdamse departement van de Maatschappij tot Nut van 't Algemeen. Nog geen jaar later opende het het eerste volkstuincomplex van de stad, Tuinwijck, aan de Polderweg vlak bij de gasfabriek in Oost. De tuinen waren tien bij tien meter, de huur vier gulden per jaar, en minstens een tiende moest met bloemen beplant zijn. Tuinwijck is ouder dan de Amsterdamse Bond van Volkstuinders, die pas uit de voedselschaarste van de Eerste Wereldoorlog voortkwam.
+
+      In 1939 had de gemeente de grond nodig. Na flink onderhandelen betaalde ze ruim 100.000 gulden voor de verhuizing naar de Oosterringdijk. De huisjes werden op een speelweide neergezet, en de tuinders moesten ze zelf op rollen onder planken naar hun nieuwe tuin rollen. Tuinwijck had een eigen muziekkorps met muziektent; die overleefde de verhuizing niet, want tuinders die om hout verlegen zaten namen de planken mee. In 1979 zat er nog een stukje van in een wringerblok bij iemands wasmachine.
+
+      Begin jaren zeventig kwamen de ringwegplannen, en in 1974 gingen de spades opnieuw de grond in, nu aan de Liergouw tussen Schellingwoude en Ransdorp, op een steenworp van de weg die hen had verdreven. Deze keer werd het complex als park aangelegd, met openbaar groen en ruimte voor mensen zonder tuin, als eerste in Amsterdam.
+
+      De paden horen bij de Volkstuinroute Boven Y langs zes volkstuinparken (open van april tot oktober); het thema van Tuinwijck is vlinders en oerbomen. De tuinen zijn privé.
+
+      Let op:
+      - de paaltjes van de Volkstuinroute
+      - het groen tussen de tuinen, voor iedereen
+      - de achteruitgang naar de Zwarte Gouw en de weilanden
+    attributes:
+      built: rond 1910; hier sinds 1974
+      original_use: Volkstuinen
+    sources:
+      - https://www.tuinparktuinwijck.nl/de-bibliotheek/geschiedenis
+      - https://www.tuinparktuinwijck.nl/de-bibliotheek/wandelroutes
+
+- title: KiMu, the children's art museum
+  summary: A museum where the art on show is made by children. Opened in 2026 by the mayor and the children's mayor, it gives visitors from 0 to 18 ateliers and materials but no assignments, plus a free-to-roam light studio and a net to lounge in above the hall.
+  body: |
+    KiMu (Kinderkunstmuseum) grew out of Kleinlab, a creative children's centre in Noord since 2012, and its founder and director Suzanne Huis. Mayor Femke Halsema opened it officially in March 2026, together with Amsterdam's children's mayor, Kiyaro. The idea is the opposite of a craft class: children get a richly laid-out "prepared environment" of tools and materials and decide for themselves what to make, try, fail at and start again.
+
+    WE architecten turned the empty concrete shell of a new building on the water into a double-height hall with two wooden stairs, a triangular balcony like a crow's nest, and a net slung across for resting under a mirror that throws back the light off the water. The shop counter is clad in second-hand 1930s tiles that children printed with the KiMu logo.
+
+    There are three ateliers. A one-hour session in one of the two making studios is included in the ticket for ages 2 to 18; the Atelier of Light is open to wander in. The opening show, Parallelle Processen, puts the work of nearly seventy children aged 4 to 15 beside that of Brian Elstak, Willem Harbers and Roos van Haaften, who worked from the same starting point without seeing each other's work (until mid-February 2027).
+
+    Open Wednesday, Saturday and Sunday. Tickets 17.50 euros for children, 12.50 for adults; not yet on the Museumkaart.
+
+    Look for:
+    - the net and the crow's-nest balcony in the main hall
+    - the tiled counter printed by children
+    - the Atelier of Light
+  category: odd-museums
+  lat: 52.401351
+  lng: 4.933842
+  address: Termini 487
+  links:
+    - { label: KiMu, url: "https://www.kimu.nl/" }
+    - { label: KiMu (praktische informatie), url: "https://www.kimu.nl/bezoek/praktische-informatie/" }
+    - { label: Amsterdam Now (opening), url: "https://www.amsterdamnow.com/en/culture/kimu-child-art-museum-opens-doors-in-amsterdam-north" }
+    - { label: ek-mag (architecture), url: "https://ek-mag.com/kimu-childrens-art-museum-by-we-architecten-in-amsterdam/" }
+  attributes:
+    rank: Okay
+    built: "2026"
+    architect: WE architecten (interior)
+  sources:
+    - https://www.kimu.nl/ (interactive museum for 0 to 18; two making ateliers and the Atelier van Licht; Parallelle Processen, 70 children and 3 artists, until mid-February 2027)
+    - https://www.kimu.nl/bezoek/praktische-informatie/ (open Wednesday, Saturday and Sunday; Termini 487; 17.50 euros for 2–18, 12.50 adults; atelier session of one hour included; Atelier van Licht free to enter; Museumkaart hoped for 2027 or 2028; closed some days in February 2027)
+    - https://www.kimu.nl/oorsprong/ (grew from Kleinlab in Amsterdam-Noord, since 2012)
+    - https://www.amsterdamnow.com/en/culture/kimu-child-art-museum-opens-doors-in-amsterdam-north (official opening Friday 20 March; Elstak, Harbers, Van Haaften)
+    - https://ek-mag.com/kimu-childrens-art-museum-by-we-architecten-in-amsterdam/ (opened by Femke Halsema with children's mayor Kiyaro; founder-director Suzanne Huis; WE architecten; empty concrete shell, double-height hall with windows on the water, two wooden stairs, triangular balcony "crow's nest", suspended net and mirror; counter in second-hand 1930s tiles printed by children; light installation by Rein)
+    - https://www.kidsproof.nl/amsterdam/uitje/kimu-kinderkunstmuseum/ (children 4 to 15 in the opening show)
+    - OSM node 13788973601 (KiMu; pin)
+  nl:
+    title: KiMu, het kinderkunstmuseum
+    summary: Een museum waar de kunst door kinderen gemaakt is. Geopend in 2026 door de burgemeester en de kinderburgemeester. Bezoekers van 0 tot 18 krijgen ateliers en materiaal maar geen opdrachten, plus een Atelier van Licht en een net om in te hangen boven de hal.
+    body: |
+      KiMu (Kinderkunstmuseum) komt voort uit Kleinlab, sinds 2012 een creatief kindcentrum in Noord, en uit oprichter en directeur Suzanne Huis. Burgemeester Femke Halsema opende het museum in maart 2026 officieel, samen met kinderburgemeester Kiyaro. Het idee is het tegendeel van een knutselles: kinderen krijgen een rijk ingerichte 'voorbereide omgeving' met gereedschap en materiaal en bepalen zelf wat ze maken, proberen, laten mislukken en opnieuw beginnen.
+
+      WE architecten maakte van de lege betonnen casco in een nieuw gebouw aan het water een dubbelhoge hal met twee houten trappen, een driehoekig balkon als een kraaiennest en een gespannen net om in uit te rusten, onder een spiegel die het licht van het water terugkaatst. De balie van de winkel is bekleed met tweedehands tegels uit de jaren dertig, door kinderen bedrukt met het logo van KiMu.
+
+      Er zijn drie ateliers. Een atelierervaring van een uur in een van de twee maakateliers zit voor kinderen van 2 tot 18 in de toegangsprijs; het Atelier van Licht is vrij toegankelijk. De openingstentoonstelling Parallelle Processen zet het werk van bijna zeventig kinderen van 4 tot 15 jaar naast dat van Brian Elstak, Willem Harbers en Roos van Haaften, die vanuit hetzelfde startpunt werkten zonder elkaars werk te zien (tot half februari 2027).
+
+      Open op woensdag, zaterdag en zondag. Toegang 17,50 euro voor kinderen, 12,50 voor volwassenen; de Museumkaart geldt nog niet.
+
+      Let op:
+      - het net en het kraaiennestbalkon in de grote hal
+      - de door kinderen bedrukte tegels van de balie
+      - het Atelier van Licht
+    attributes:
+      architect: WE architecten (interieur)
+    sources:
+      - https://www.kimu.nl/
+      - https://www.kimu.nl/bezoek/praktische-informatie/
+      - https://www.kimu.nl/oorsprong/
+      - https://www.kidsproof.nl/amsterdam/uitje/kimu-kinderkunstmuseum/
