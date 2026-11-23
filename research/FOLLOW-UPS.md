@@ -43,4 +43,5 @@ Things to check or update later. Each line: place title (area): what to do.
 ## Coverage plan
 
 - Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord. Noord done. Still open: Oost, Zuid, Centrum.
+- Research queue (run one batch at a time so BrowserOS isn't overloaded): Oost round 1 drafts + Oost round 2 scout (running), then round-2 scouts for Noord, Nieuw-West, Zuidoost (one after another), then Zuid, Centrum.
 - After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.
