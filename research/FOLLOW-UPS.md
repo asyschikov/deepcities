@@ -22,8 +22,8 @@ Things to check or update later. Each line: place title (area): what to do.
 - Durgerdam (Noord): dike repair deferred to a 2032 check; update if the water board decides earlier.
 - Kraaipanbuurt (Oost): municipal listing in procedure; add heritage status and numbers when listed.
 - Kraan 2868 (Oost): undated listing offers it for sale; check.
+- Zuidergasfabriek water tower (Oost): Stadsherstel owns it since March 2026 and seeks a business tenant; update when one moves in.
 - RI-Oost silos and Rialto Silo (Oost): cinema open since 5 Nov 2026; gym and restaurant towers due early 2027.
-- Zuidergasfabriek water tower (Oost): Stadsherstel bought it in 2026 for restoration and letting; not yet in the text.
 
 ## Pins to check on site or on aerial imagery
 
