@@ -4,6 +4,8 @@ Things to check or update later. Each line: place title (area): what to do.
 
 ## Will date
 
+Most of these are also set on the live map with the "Outlook" field (`outlook`, `outlook_when`, `outlook_note`; list in `scripts/data/amsterdam-outlook-flags.json`); filter on it to review. Clear it when the change has happened.
+
 - Hoptille (Zuidoost): Ymere decided in April 2026 to demolish; residents move out in about 1.5–2 years. Mark Gone when it goes.
 - Het Wapen van Holendrecht (Zuidoost): the square is demolished from early 2027; mark Gone or update if part of it is rebuilt.
 - Nelson Mandelapark and Kwaku (Zuidoost): 2026 was the last Kwaku in its current form; update when the future is known.
