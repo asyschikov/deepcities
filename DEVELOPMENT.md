@@ -94,6 +94,10 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   (served only to its owner at `/media/checkins/<id>`); a photo of the place is also a
   `photo` offered to the place through an edit proposal. Checking in and verdicts need
   only a signed-in account (`can.visit`: anyone not banned from the map).
+- `gone_report` — a visitor's "it's gone, or I couldn't find it" (one per person per
+  place, optional note). Places show the tally as a warning; moderators act on it in
+  Review → Reported gone: mark gone (sets the map's select field that offers "Gone",
+  see `app/lib/gone.ts`), remove from the map, or dismiss ("still there").
 - Explore and Edit modes (`app/lib/app-mode.ts`): the same pages, with the explorer's
   tools first (near me, following a route, check-ins, visits) or the editor's
   (suggest, review, manage, history). Defaults by device, remembered per browser.

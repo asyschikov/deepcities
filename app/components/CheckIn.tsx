@@ -13,6 +13,7 @@ import {
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
+import { ReportGone } from "~/components/GoneReport";
 import { Button } from "~/components/ui/button";
 import {
   Dialog,
@@ -405,6 +406,7 @@ export const VisitPanel = ({
   lat,
   lng,
   canVisit,
+  markedGone = false,
   className,
 }: {
   placeId: string;
@@ -412,6 +414,8 @@ export const VisitPanel = ({
   lat: number;
   lng: number;
   canVisit: boolean;
+  /** A moderator already marked it gone: no need to report it. */
+  markedGone?: boolean;
   className?: string;
 }) => {
   const { t } = useTranslation();
@@ -514,6 +518,12 @@ export const VisitPanel = ({
             {t("visit_private_note")}
           </p>
         </>
+      )}
+
+      {!markedGone && (
+        <div className="border-t pt-2">
+          <ReportGone placeId={placeId} placeTitle={placeTitle} />
+        </div>
       )}
 
       <CheckInDialog

@@ -6,6 +6,7 @@ import { authRouter } from "./routers/auth";
 import { checkinRouter } from "./routers/checkin";
 import { collectionRouter } from "./routers/collection";
 import { documentRouter } from "./routers/document";
+import { goneRouter } from "./routers/gone";
 import { photoRouter } from "./routers/photo";
 import { placeRouter } from "./routers/place";
 import { proposalRouter } from "./routers/proposal";
@@ -21,6 +22,7 @@ export const appRouter = router({
   proposal: proposalRouter,
   photo: photoRouter,
   checkin: checkinRouter,
+  gone: goneRouter,
   admin: adminRouter,
 });
 

@@ -8,6 +8,7 @@ import {
   Plus,
   Search,
   Settings,
+  TriangleAlert,
 } from "lucide-react";
 import { useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
@@ -69,7 +70,9 @@ const MapIndex = () => {
   }, [visiblePlaces, here, near]);
   // Leaving the list (e.g. opening a place) ends any hover highlight.
   useEffect(() => () => setHoverPlaceId(null), [setHoverPlaceId]);
-  const { collection, can, role, pendingCount } = view;
+  const { collection, can, role } = view;
+  // Suggestions to review, plus places visitors reported gone.
+  const pendingCount = view.pendingCount + view.goneCount;
   const slug = collection.slug;
   const city = collection.citySlug;
   const [aboutOpen, setAboutOpen] = useSearchFlag("about");
@@ -343,6 +346,14 @@ const MapIndex = () => {
                       <div className="flex items-baseline justify-between gap-2">
                         <h3 className="flex min-w-0 items-center gap-1.5 font-sans text-base font-semibold">
                           <span className="truncate">{p.title}</span>
+                          {p.goneReports > 0 && (
+                            <TriangleAlert
+                              className="size-4 shrink-0 text-warning"
+                              aria-label={t("gone_notice", {
+                                count: p.goneReports,
+                              })}
+                            />
+                          )}
                           {visitedIds.has(p.id) && (
                             <CircleCheck
                               className="size-4 shrink-0 text-[#15803d]"

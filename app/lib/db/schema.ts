@@ -454,6 +454,36 @@ export const checkinPhoto = sqliteTable(
   (t) => [index("checkin_photo_checkin_idx").on(t.checkinId)],
 );
 
+/**
+ * "It's gone, or I couldn't find it": a visitor's report on a place, one per
+ * person (reporting again refreshes it). Moderators act on reports (mark the
+ * place gone, archive it) or dismiss them when it's still there.
+ */
+export const goneReport = sqliteTable(
+  "gone_report",
+  {
+    placeId: text("place_id")
+      .notNull()
+      .references(() => place.id, { onDelete: "cascade" }),
+    profileId: text("profile_id")
+      .notNull()
+      .references(() => profile.id, { onDelete: "cascade" }),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    note: text("note"),
+    /** Where the reporter was, when the phone knew. */
+    lat: real("lat"),
+    lng: real("lng"),
+    accuracy: real("accuracy"),
+    createdAt: createdAt(),
+  },
+  (t) => [
+    primaryKey({ columns: [t.placeId, t.profileId] }),
+    index("gone_report_collection_idx").on(t.collectionId),
+  ],
+);
+
 // ─── Relations ──────────────────────────────────────────────────────
 
 export const collectionRelations = relations(collection, ({ many }) => ({

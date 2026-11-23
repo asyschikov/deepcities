@@ -8,6 +8,7 @@ import { photo, place, proposal, verdict } from "~/lib/db/schema";
 import { idSchema } from "~/lib/validation";
 import { getAccess } from "../access";
 import { publicProcedure, router } from "../init";
+import { goneCounts } from "./gone";
 
 /** How many visitors gave each verdict. */
 export type VerdictCounts = Record<Verdict, number>;
@@ -42,7 +43,7 @@ export const placeRouter = router({
   list: publicProcedure
     .input(z.object({ collectionId: idSchema }))
     .query(async ({ ctx, input }) => {
-      const [rows, verdicts] = await Promise.all([
+      const [rows, verdicts, gone] = await Promise.all([
         ctx.db.query.place.findMany({
           where: and(
             eq(place.collectionId, input.collectionId),
@@ -68,12 +69,15 @@ export const placeRouter = router({
           orderBy: (p, { asc }) => asc(p.title),
         }),
         verdictCounts(ctx.db, { collectionId: input.collectionId }),
+        goneCounts(ctx.db, { collectionId: input.collectionId }),
       ]);
       return rows.map(({ photoIds, translations, ...p }) => ({
         ...p,
         translations: listTranslations(translations),
         coverPhotoId: photoIds[0] ?? null,
         verdicts: verdicts.get(p.id) ?? noVerdicts(),
+        /** Visitors who reported it gone or couldn't find it. */
+        goneReports: gone.get(p.id)?.count ?? 0,
       }));
     }),
 

@@ -25,6 +25,7 @@ import { toast } from "sonner";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { VisitPanel } from "~/components/CheckIn";
 import { DocumentList } from "~/components/DocumentList";
+import { GoneNotice } from "~/components/GoneReport";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
@@ -44,6 +45,7 @@ import { VerdictSummary } from "~/components/Verdict";
 import { useAppMode } from "~/lib/app-mode";
 import { localize, localizePlace, untranslated } from "~/lib/content-lang";
 import { distanceMeters } from "~/lib/diff";
+import { isMarkedGone } from "~/lib/gone";
 import { useMapPage } from "~/lib/map-page";
 import { formatDistance } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
@@ -162,6 +164,7 @@ const PlacePage = () => {
   const archived = place.status === "archived";
   const exploring = mode === "explore";
   const away = geo.fix ? distanceMeters(geo.fix, place) : null;
+  const markedGone = isMarkedGone(place.attributes, view.collection.fields);
   const visit = !archived && (
     <VisitPanel
       placeId={placeId}
@@ -169,6 +172,7 @@ const PlacePage = () => {
       lat={place.lat}
       lng={place.lng}
       canVisit={can.visit}
+      markedGone={markedGone}
     />
   );
 
@@ -231,6 +235,8 @@ const PlacePage = () => {
           )}
         </div>
       </header>
+
+      {!markedGone && !archived && <GoneNotice placeId={placeId} />}
 
       {exploring && visit}
 

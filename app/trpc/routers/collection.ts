@@ -1,12 +1,13 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
-import { and, count, eq } from "drizzle-orm";
+import { and, count, countDistinct, eq } from "drizzle-orm";
 import { z } from "zod/v4";
 import { citySlug } from "~/lib/cities";
 import { CONTRIBUTION_POLICIES, MEMBER_ROLES } from "~/lib/constants";
 import {
   collection,
   collectionMember,
+  goneReport,
   place,
   profile,
   proposal,
@@ -105,7 +106,16 @@ export const collectionRouter = router({
               )
           )[0]?.n ?? 0)
         : 0;
-      return { ...access, pendingCount };
+      // Places visitors reported gone, waiting for a moderator.
+      const goneCount = access.can.review
+        ? ((
+            await ctx.db
+              .select({ n: countDistinct(goneReport.placeId) })
+              .from(goneReport)
+              .where(eq(goneReport.collectionId, found.id))
+          )[0]?.n ?? 0)
+        : 0;
+      return { ...access, pendingCount, goneCount };
     }),
 
   create: superAdminProcedure
