@@ -137,11 +137,14 @@
 
     Two white arches of 75 metres each carry the main spans, joined by a 30-metre counter-arch that dips down between them like an upside-down bow, so the whole thing reads as two waves; two 25-metre approach spans complete the roughly 230 metres. The deck hangs from rods, split into two decks with a gap between them so you feel the water as you cross. The gables of the old canal houses are said to have inspired the arches, and a crab's segmented skeleton the girders. It won the National Steel Prize in 2002. Amsterdammers had their own reading of the two curves: the bridge is known as the "beha-brug" (bra bridge) or "Cup IJ". A smaller sister by the same architect (bridge 2002) carries the road on to Haveneiland. At rush hour the bridge is IJburg's bottleneck.
 
+    The district the bridge leads into was built after a vote it lost. The city council approved the plans in 1996; opponents, fearing for the nature of the IJmeer, forced a corrective referendum. On 19 March 1997 about 133,000 Amsterdammers voted against and 93,000 in favour, but the no votes fell short of the 155,000 needed to overturn the decision, so it stood. Building went ahead with nature compensation: between 2002 and 2005 the 1.6-kilometre Hoeckelingsdam was laid north of Durgerdam to shelter the Kinselbaai for water birds. Land-making began in 1999, and the first residents moved in in November 2002.
+
     Look for:
     - the counter-arch in the middle, best seen from the IJburglaan quay or the water
     - the gap between the two decks, under your feet on the cycle path
     - the hanging rods and the tram wires slung under the arches
     - the sister bridge 2002 further along the IJburglaan
+    - from the top of the bridge, the islands a majority voted against
   category: infrastructure
   lat: 52.364983
   lng: 4.976885
@@ -151,6 +154,7 @@
     - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Enneüs_Heerma_Bridge" }
     - { label: Arcam architectuurgids, url: "https://arcam.nl/architectuur-gids/enneus-heermabrug/" }
     - { label: Grimshaw, url: "https://grimshaw.global/projects/bridges-and-infrastructure/enneüs-heerma-bridge/" }
+    - { label: Wikipedia (nl) IJburg, url: "https://nl.wikipedia.org/wiki/IJburg" }
   attributes:
     rank: Nice
     built: 2000–2001
@@ -164,6 +168,8 @@
     - https://arcam.nl/architectuur-gids/enneus-heermabrug/ (two 75 m arches, 30 m counter-arch, 25 m approaches, tram since 2005, Beha and Cup IJ)
     - https://grimshaw.global/projects/bridges-and-infrastructure/enneüs-heerma-bridge/ (competition, sinusoidal structure, two decks with a gap)
     - OSM way 721631056 (bridge outline)
+    - https://nl.wikipedia.org/wiki/IJburg (Nota van Uitgangspunten 1996, corrective referendum 19 March 1997, about 133,000 against and 93,000 for, threshold 155,000, Hoeckelingsdam 2002-2005, land-making from 1999, first residents November 2002)
+    - https://en.wikipedia.org/wiki/IJburg (referendum figures confirmed)
   nl:
     title: Enneüs Heermabrug
     summary: De toegangspoort tot IJburg, een witte stalen brug van 230 meter die met twee grote bogen en een omgekeerd boogje ertussen de vorm van twee golven krijgt. In de volksmond heet hij de 'Beha' of 'Cup IJ'.
@@ -174,16 +180,20 @@
 
       Veel Amsterdamse bouwwerken hebben bijnamen, zo ook deze brug: de 'beha-brug', of ook wel 'Cup IJ'. Brug nr. 2002 is door dezelfde architect ontworpen en een kleinere uitvoering ervan; die verbindt het Steigereiland met het Haveneiland. De Enneüs Heermabrug is een knelpunt vanwege de beperkte wegcapaciteit in beide richtingen.
 
+      De Amsterdamse gemeenteraad stemde in 1996 in met de Nota van Uitgangspunten voor IJburg. Tegenstanders vreesden aantasting van de natuur in het IJmeer en dwongen een correctief referendum af. Bij de stemming van 19 maart 1997 stemden ongeveer 133.000 Amsterdammers tegen en 93.000 voor. De vereiste drempel van 155.000 tegenstemmen werd echter niet gehaald, waardoor het besluit van de gemeenteraad van kracht bleef. De bouw werd gekoppeld aan maatregelen om de gevolgen voor de natuur te beperken en te compenseren: tussen 2002 en 2005 werd ten noorden van Durgerdam de 1,6 kilometer lange Hoeckelingsdam aangelegd, die de Kinselbaai luwer maakte en broed- en foerageergebied voor watervogels schiep. De aanleg van de eilanden begon in 1999; in november 2002 betrokken de eerste bewoners hun woningen.
+
       Let op:
       - het omgekeerde boogje in het midden, het best te zien vanaf de kade of het water
       - de spleet tussen de twee brugdekken, onder je voeten op het fietspad
       - de hangstangen en de tramdraden onder de bogen
       - het kleinere zusje, brug 2002, verderop aan de IJburglaan
+      - vanaf de top van de brug: de eilanden waar een meerderheid tegen stemde
     attributes:
       architect: Nicholas Grimshaw (Grimshaw)
     sources:
       - https://nl.wikipedia.org/wiki/Enneüs_Heermabrug
       - https://arcam.nl/architectuur-gids/enneus-heermabrug/
+      - https://nl.wikipedia.org/wiki/IJburg
 
 # ================================================================ Steigereiland
 

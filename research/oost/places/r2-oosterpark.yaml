@@ -63,10 +63,13 @@
 
     Their later travels are. In 1947 they ended up in the garden of the Stedelijk Museum. When that garden gave way to the museum's new wing in 1954, they moved to the Beatrixoord, a convalescent home on the north side of the Oosterpark, where they formed a kind of gate in the fence between sanatorium and park. With them came the top of a much older banpaal (ban post) of 1624 from the Spaarndammerdijk, one of the posts that banished criminals were not allowed to pass, which Rembrandt drew around 1650. That piece went back west in 2006 and now stands on the Spaarnwouderdijk, close to its old spot. The city's public art database still describes the banpaal here, while the small plates at the feet just say "limietpaal". The pin is on the post with the arrow.
 
+    The same words turn up far to the east, where the city now meets Diemen. Two more posts marked "Kom der Gemeente Amsterdam" stand on that border: one near the Watergraafsmeer end of the Nesciobrug, where the Historische Kring Diemen has put up a board called "Op de grens van Diemen", and one on the old Zuiderzee dike by Fort Diemerdam, on the IJburg side. They are not part of this pair: a local survey of Amsterdam's limit posts shows a cast-iron one on the Diemen border. Together they are a reminder that the city's edge kept moving east; the Watergraafsmeer was a municipality of its own until Amsterdam annexed it in 1921.
+
     Look for:
     - the crowned arms of Amsterdam on top of both columns
     - "Kom der Gemeente Amsterdam" and the arrow on one post only
     - the Justus van Maurik bench a few steps away
+    - further east, two more "Kom der Gemeente Amsterdam" posts on the Diemen border: by the Nesciobrug and by Fort Diemerdam
   category: curiosities
   lat: 52.360726
   lng: 4.920021
@@ -90,6 +93,10 @@
     - https://spqa-am.blogspot.com/2012/04/de-banpalen-van-amsterdam.html (banpaal re-placed in 2006)
     - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1211 (describes the 1624 banpaal, which is no longer here)
     - OpenStreetMap boundary_stone node 9794447926 (52.360726, 4.920021)
+    - OpenStreetMap boundary_stone nodes 10967570465 (52.355719, 4.969361, mapped June 2023, by the Nesciobrug) and 14226913441 (52.343853, 5.011947, mapped September 2026, by Fort Diemerdam), both inscription "Kom der Gemeente Amsterdam"; material and shape not recorded, no photos found
+    - OpenStreetMap information board node 13278220162 (Historische Kring Diemen, "Op de grens van Diemen")
+    - https://nhpalen.blogspot.com/2012/07/kompalen-amsterdam.html (a cast-iron limit post on the Diemen border)
+    - Watergraafsmeer annexed 1921 (city register texts in slices/frankendael.json)
     - Commons photos of both posts dated December 2019 and February 2020
   nl:
     title: Limietpalen in het Oosterpark
@@ -99,16 +106,20 @@
 
       De twee zuilen belandden in 1947 in de tuinen van het Stedelijk Museum. Toen dat museum een deel van haar tuin opofferde voor een nieuwe vleugel (1954), verhuisden de twee zuilen naar het Beatrixoord, dat aan de noordzijde van het Oosterpark gevestigd was. Ze kregen daarbij gezelschap van de top van de banpaal uit 1624 van de Spaarndammerdijk, door Rembrandt vastgelegd, de grens tot waar bannelingen de stad mochten naderen. De twee limietpalen vormden een soort poort in een hekwerk tussen sanatorium en park. De banpaal is in 2006 herplaatst aan de Spaarnwouderdijk, vlak bij zijn oorspronkelijke plaats. De tekst in de databank van de gemeente gaat nog over die banpaal; de bordjes aan de voet zeggen alleen "limietpaal". De speld staat op de paal met de pijl.
 
+      Verder naar het oosten, op de grens met Diemen, staan nog twee palen met de tekst "Kom der Gemeente Amsterdam": één bij de Nesciobrug aan de kant van de Watergraafsmeer, waar de Historische Kring Diemen een bord "Op de grens van Diemen" plaatste, en één op de oude Zuiderzeedijk bij Fort Diemerdam, aan de kant van IJburg. Ze horen niet bij dit tweetal. Over deze grenspalen van Amsterdam is op internet nagenoeg niets te vinden; op de grens met Diemen staat een gietijzeren grenspaal. Ze herinneren eraan dat de stadsgrens steeds verder naar het oosten schoof: tot 1921 vormde de Watergraafsmeer een onafhankelijke gemeente.
+
       Let op:
       - het gekroonde wapen van Amsterdam op beide zuilen
       - "Kom der Gemeente Amsterdam" en de pijl op één van de twee
       - de Justus van Maurikbank vlakbij
+      - verder naar het oosten nog twee palen "Kom der Gemeente Amsterdam" op de grens met Diemen: bij de Nesciobrug en bij Fort Diemerdam
     attributes:
       original_use: Limietpalen
     sources:
       - https://nl.wikipedia.org/wiki/Limietpalen_Oosterpark
       - https://nl.wikipedia.org/wiki/Banpaal_Spaarnwouderdijk
       - https://nhpalen.blogspot.com/2012/07/kompalen-amsterdam.html
+      - OpenStreetMap (grenspalen 10967570465 en 14226913441)
 
 - title: De Titaantjes (Hommage aan Nescio)
   summary: "Three young men in hats slouch on a bronze bench and watch the park go by: Hoyer, Bavink and Koekebakker from Nescio's Titaantjes, who 'leaned on the fence of the Oosterpark all summer night'. Stolen in 1985, recast in 1988."

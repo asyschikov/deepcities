@@ -35,3 +35,6 @@ Status: **done** (the sources listed were gone through for the whole gebied), **
 - Zuid and Centrum were left out entirely; every round 3 candidate was point-checked as being in borough Oost with `scripts/areas.py`.
 - IJburg and Zeeburgereiland are new land, so sweeps 3 to 5 yield little there; "done" means the sources were checked, not that much was found.
 - Round 3 checked candidates against the live map (853 places, 166 in Oost) read-only, and against `places/*.yaml`.
+- Round 3 drafted and imported 2026-11-23: 19 new places, 16 places extended (BRIEF-3.md, places/r3-*.yaml). Oost has 185 places.
+- Sweep 7, Watergraafsmeer: the allotment parks Klein Dantzig and Nieuwe Levenskracht are now told in "Ringdijk and the Watergraafsmeer polder"; Hof van Eden and Amstelhof have no sources yet.
+- Still open for Oost: a manual pass through Geheugen van Oost (sweep 4), the loops (sweep 8) and the blind quality check against West.

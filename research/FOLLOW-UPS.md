@@ -60,7 +60,7 @@ Most of these and of "Status to confirm" are also flagged on the live map with t
 - Standard: every district gets the West-standard sweeps (see the c-list-sights skill): monuments, public art and walls, war and memory, hidden history, behind the gate, modern and contested, curiosities and green, loops, then a blind quality check against West. Track them in `research/<area>/COVERAGE.md`.
 - Research queue (one batch at a time so BrowserOS isn't overloaded):
   1. Oost round 2 (public art and walls; items 101–157): done 2026-11-23, 41 new places.
-  2. Oost round 3: sweeps 3–7, then loops and the blind check.
+  2. Oost round 3 (sweeps 3–7): done 2026-11-23, 19 new places. Still open: Geheugen van Oost pass, loops, blind check.
   3. Noord, Nieuw-West, Zuidoost: per district, round A (public art and walls, war and memory), round B (hidden history, behind the gate, modern and contested, curiosities), then loops.
   4. Weesp and Westpoort: one combined round each.
   5. West: fill in COVERAGE.md retrospectively and sweep any gap found.
