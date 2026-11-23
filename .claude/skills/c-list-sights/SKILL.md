@@ -86,6 +86,50 @@ Then a **blind quality check**: a fresh agent scores a random sample of the dist
 against an equal sample from West (story, accuracy, pin, photo, Dutch), without knowing which
 is which. Fix what scores lower.
 
+### When enough is enough: completeness tests
+
+Districts are not equal. Oud-West is 19th-century city packed with stories; Waterland is dikes
+and a few villages; IJburg is twenty years old. So completeness is **never a place count, a
+density target or a category quota**. The bar for a single place never drops to fill a thin
+area, and a thin area may stay thin. A district is complete when *looking harder stops paying
+off*, measured per **gebied** with five tests. Record the results in `COVERAGE.md`.
+
+1. **Sources exhausted.** Every sweep (1–7) is "done" for the gebied: its named sources were
+   gone through completely, not sampled. "Partial" names what is missing and why.
+2. **Saturation.** The last full scout round over the gebied yielded little: **fewer than 5
+   accepted new places, none above Okay**, or under 10% of the gebied's places. Merges into
+   existing places don't count as yield. If a round still turns up Nice or Amazing places,
+   do another.
+3. **Blind recall** (the outside test). A fresh agent that has *not* seen the map or the
+   research files lists the 20 best off-the-A-list candidates for the gebied from independent
+   sources (local papers, district history sites, "hidden gems" lists, Atlas Obscura, Reddit
+   and blogs; not the sources the sweeps used as their main list). Then compare: **at least
+   85% must be on the map, merged into a place, or in a "checked and dropped" list with a
+   reason.** Every miss that passes the bar gets added. Below 85% means a sweep missed a whole
+   kind of thing: find which, and sweep for it.
+4. **No unexplained blanks.** Lay a 500 m grid over the gebied's walkable land. Every cell
+   with no place gets either a place or a one-line reason in `COVERAGE.md` ("container port,
+   no public access", "2015 housing, nothing older", "allotments only, covered by X").
+   A reason is a fine answer; the point is that blanks are decided, not overlooked.
+5. **Quality parity with West.** In a blind check (above), the gebied's sample scores within
+   10% of West's on average, and no place scores below 18/30 without a fix or a reason.
+
+**Character, not uniformity.** The mix of kinds follows the district, not a template: Noord
+leans industrial and waterland, Zuidoost community and post-war art, Weesp canal houses. Don't
+chase a category because West has many of it. But a kind that the district's own sources are
+full of (its local paper writes about its murals every month, its history society about its
+shipyards) must be well represented. The recall test catches a kind that was missed.
+
+**Loops as a check, not a target.** Each district gets 2–4 themed loops. A loop that needs
+a stop and can't find one in a stretch is a lead for test 4, not a reason to lower the bar.
+
+**After completion** the district is in maintenance: follow-ups, "Needs checking" flags, news
+(closures, removals, new works) and the user's own additions. Re-run blind recall when a
+year has passed or the area changes a lot (new neighbourhoods, big redevelopments).
+
+**Calibrate on West first**: run tests 3 and 4 on West. West should pass; if it doesn't, the
+thresholds are wrong, not West.
+
 ## 2. Research
 
 Work in `research/<area>/` (e.g. `research/west/`):
