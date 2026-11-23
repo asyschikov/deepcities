@@ -297,8 +297,8 @@
     - { label: Rijksmonumentenregister (498725), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/498725" }
     - { label: RCE complex 497972, url: "https://kennis.cultureelerfgoed.nl/index.php/Complexen/497972" }
     - { label: Wikipedia (nl) Sint-Ritakerk, url: "https://nl.wikipedia.org/wiki/Sint-Ritakerk_(Amsterdam)" }
-    - { label: 4 en 5 mei, gedenkraam, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3099/amsterdam-gedenkraam-in-de-sint-ritakerk" }
-    - { label: HCAN, putdeksel St. Ritakerk, url: "https://hcan.nl/monument/putdeksel-st-ritakerk/" }
+    - { label: "4 en 5 mei, gedenkraam", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3099/amsterdam-gedenkraam-in-de-sint-ritakerk" }
+    - { label: "HCAN, putdeksel St. Ritakerk", url: "https://hcan.nl/monument/putdeksel-st-ritakerk/" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -414,7 +414,7 @@
   links:
     - { label: Monumentenregister Amsterdam (200957), url: "https://data.amsterdam.nl/monumenten/7a1bd1f7-25d8-47ef-94db-e26a2186c6d9" }
     - { label: Wikipedia (nl) Tolhuistuin, url: "https://nl.wikipedia.org/wiki/Tolhuistuin" }
-    - { label: Tolhuistuin, history, url: "https://tolhuistuin.nl/en/geschiedenis-van-tolhuistuin" }
+    - { label: "Tolhuistuin, history", url: "https://tolhuistuin.nl/en/geschiedenis-van-tolhuistuin" }
   attributes:
     rank: Nice
     heritage_status: Municipal monument
@@ -742,7 +742,7 @@
   lng: 4.91400
   address: Mosveld
   links:
-    - { label: NH Nieuws, De verdwenen stad, url: "https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld" }
+    - { label: "NH Nieuws, De verdwenen stad", url: "https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld" }
     - { label: Wikipedia (nl) De Volewijckers, url: "https://nl.wikipedia.org/wiki/De_Volewijckers" }
     - { label: Winkelcentrum Mosveld, url: "https://www.winkelcentrummosveld.nl/" }
   attributes:
@@ -783,10 +783,10 @@
   lng: 4.92687
   address: Buikslotermeerdijk 83 (De Nieuwe Noorder)
   links:
-    - { label: 4 en 5 mei, Fokkermonument, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3094/amsterdam-fokkermonument" }
+    - { label: "4 en 5 mei, Fokkermonument", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3094/amsterdam-fokkermonument" }
     - { label: Wikipedia (nl) Bombardementen op Amsterdam-Noord, url: "https://nl.wikipedia.org/wiki/Bombardementen_op_Amsterdam-Noord" }
     - { label: Wikipedia (nl) De Nieuwe Noorder, url: "https://nl.wikipedia.org/wiki/De_Nieuwe_Noorder" }
-    - { label: HCAN, Fokker monument, url: "https://hcan.nl/monument/fokker-monument/" }
+    - { label: "HCAN, Fokker monument", url: "https://hcan.nl/monument/fokker-monument/" }
   attributes:
     rank: Nice
     built: "2003"
@@ -899,7 +899,7 @@
   address: Buiksloterweg, by the Tolhuis
   links:
     - { label: Art@Site, url: "https://www.artatsite.com/Amsterdam/details/Wilkening_Hartmut_Players_Supporters_Buiksloterweg_beelden_statues_sculptures_kunst_Art_at_Site_Amsterdam.html" }
-    - { label: Geheugen van Oost, Ajax, url: "https://geheugenvanoost.amsterdam/page/8368/ajax-doet-harten-sneller-kloppen" }
+    - { label: "Geheugen van Oost, Ajax", url: "https://geheugenvanoost.amsterdam/page/8368/ajax-doet-harten-sneller-kloppen" }
   attributes:
     rank: Okay
     built: "2005"

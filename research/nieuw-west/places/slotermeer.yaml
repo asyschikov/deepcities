@@ -151,7 +151,7 @@
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/58afa178-f4ed-41a7-8018-3cd655efb304" }
     - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/wederopbouw/Lodewijk_van_Deysselstraat/21-71" }
-    - { label: Rochdale, Van Deysselbuurt, url: "https://www.rochdale.nl/renovatie-sloop-nieuwbouw/van-deysselbuurt/vernieuwingsplan-van-deysselbuurt/" }
+    - { label: "Rochdale, Van Deysselbuurt", url: "https://www.rochdale.nl/renovatie-sloop-nieuwbouw/van-deysselbuurt/vernieuwingsplan-van-deysselbuurt/" }
   attributes:
     rank: Okay
     heritage_status: Municipal monument
@@ -670,7 +670,7 @@
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/73af52d5-f960-40da-8524-dfbd32ed91c8" }
     - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/wederopbouw/Adriaan_van_Oordthof/15-29" }
-    - { label: Stadscuratorium, Binnen & Buiten, url: "https://stadscuratorium.nl/collectie/binnen-buiten/" }
+    - { label: "Stadscuratorium, Binnen & Buiten", url: "https://stadscuratorium.nl/collectie/binnen-buiten/" }
   attributes:
     rank: Okay
     heritage_status: Municipal monument

@@ -384,7 +384,7 @@
     - { label: Monumentenregister Amsterdam (Hoogstraat 67), url: "https://data.amsterdam.nl/monumenten/360cd0df-fe54-4b7c-a3ba-5127d1b66e13" }
     - { label: Monumentenregister Amsterdam (Middenstraat 131), url: "https://data.amsterdam.nl/monumenten/2b95ba1c-5b2b-47d5-9b60-b2a2bf9abec6" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Stadsbrand_van_Weesp_(1968)" }
-    - { label: Wikipedia (nl, Reitsma), url: "https://nl.wikipedia.org/wiki/Egbert_Reitsma" }
+    - { label: "Wikipedia (nl, Reitsma)", url: "https://nl.wikipedia.org/wiki/Egbert_Reitsma" }
     - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
   attributes:
     rank: Okay
@@ -500,7 +500,7 @@
   links:
     - { label: Monumentenregister Amsterdam (1-5), url: "https://data.amsterdam.nl/monumenten/03ad8683-af50-4585-893e-f58d568bc669" }
     - { label: Monumentenregister Amsterdam (16), url: "https://data.amsterdam.nl/monumenten/7bccf091-a849-4206-a872-0a4fa997c466" }
-    - { label: Wikipedia (nl, municipal monuments), url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
+    - { label: "Wikipedia (nl, municipal monuments)", url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
     - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
   attributes:
     rank: Nice
@@ -557,7 +557,7 @@
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/830fa4c3-0085-4341-bb24-edd5fa965d53" }
     - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
-    - { label: Wikipedia (nl, municipal monuments), url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
+    - { label: "Wikipedia (nl, municipal monuments)", url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
   attributes:
     rank: Okay
     heritage_status: Municipal monument
@@ -608,7 +608,7 @@
   address: Waagplein 2-8
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/31c27c21-e506-48aa-8c1a-5e67873e4a12" }
-    - { label: Wikipedia (nl, municipal monuments), url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
+    - { label: "Wikipedia (nl, municipal monuments)", url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
   attributes:
     rank: Okay
     heritage_status: Municipal monument

@@ -45,6 +45,7 @@ def check(p):
     labels = [l.get("label", "") for l in links]
     if len(set(labels)) != len(labels): e.append("duplicate link labels")
     for l in links:
+        if set(l) - {"label", "url"}: e.append(f"link has extra keys (unquoted comma in label?): {l}")
         if not (1 <= len(l.get("label", "")) <= 60) or not re.match(r"^https?://", l.get("url", "")): e.append(f"bad link {l}")
     if len(p.get("photos") or []) > 8: e.append("> 8 photos")
     for ph in p.get("photos") or []:
