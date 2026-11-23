@@ -1,0 +1,584 @@
+# Noord round A, slice "east": public art and war memory in Tuindorp Nieuwendam, Buikslotermeer,
+# the Waterlandpleinbuurt, Elzenhagen and Waterland. Scout items (SCOUT-2.md): 116 Schellingwouderbreek,
+# 124 Amerbos pocket park, 125 Observatorium, 126 Tajiri and Van Kruiningen, 127 Poort van Nieuwendam,
+# 128 Flyways, 129 Waterlandplein, 130 Hof der Herinnering, 132 De Veenarbeider, 137 Bezinningsmonument.
+# Merges (101, 102, 131, 147) are in nieuwendam.yaml, durgerdam.yaml, waterland-south.yaml and
+# waterland-north.yaml. Dutch texts are written from Dutch sources: Kunstwacht (buitenkunstamsterdam.nl),
+# the city's wall-art register, 4en5mei.nl, nl.wikipedia, Ons Amsterdam, Rodi, volgermeer.nl.
+
+# ================================================================ War and memory
+
+- title: Bezinningsmonument Nieuwendam
+  summary: A brooding bronze woman before four granite slabs, one carrying the farewell letter that resistance man Krijn Breur wrote to his family on the day he was shot in 1943. "Live. Live, all of you, and grow up."
+  body: |
+    At the eastern end of the Purmerweg, where it meets the Volendammerweg, a bronze woman sits on a low round base, head propped wearily on her hand. Behind her stand four granite slabs about two metres high; three carry figures, the fourth a handwritten text. It is the end of the letter Krijn Breur wrote to his family on 5 February 1943, the day the Germans executed him: "Tell your children about us and our struggle and the life we wish for. May our greatest longings be surpassed by life itself. Work and love, fight and win. Live. Live, all of you, and grow up."
+
+    Breur, born in Noord in 1917, went to Spain at nineteen to fight Franco with the International Brigades and was wounded twice. Because he had served in a foreign army, the Dutch state declared him stateless in June 1940. In the occupation he and his wife, the artist Aat Breur-Hibma, carried out sabotage, forged identity papers and hid Jewish people in their home. They were betrayed and arrested in November 1942; she survived Ravensbrück, he was shot. Both were later honoured by Yad Vashem.
+
+    The monument was a neighbours' initiative, unveiled on 4 May 1983. Its maker, Marius van Beek, had himself been in the armed resistance. The IJdoorn school has adopted it, and every year on the evening of 4 May the neighbourhood gathers here for two minutes' silence.
+
+    Look for:
+    - the handwriting on the fourth slab
+    - the three slabs with figures behind the woman
+    - flowers left after 4 May
+  category: hidden-history
+  lat: 52.389732
+  lng: 4.948750
+  address: Purmerweg at the Volendammerweg, Tuindorp Nieuwendam
+  links:
+    - { label: "4 en 5 mei, Bezinningsmonument Nieuwendam", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1482/amsterdam-bezinningsmonument-nieuwendam" }
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/332" }
+    - { label: "4 en 5 mei Amsterdam, Krijn Breur", url: "https://4en5meiamsterdam.nl/stories/verzetsman-krijn-breur/" }
+    - { label: HCAN, url: "https://hcan.nl/monument/bezinningsmonument-1940-45/" }
+    - { label: Wikipedia (nl) Aat Breur-Hibma, url: "https://nl.wikipedia.org/wiki/Aat_Breur-Hibma" }
+  attributes:
+    rank: Nice
+    built: "1983"
+    artist: Marius van Beek
+  photos:
+    - commons:File:Bezinning 004.JPG
+    - commons:File:Oorlogsmonumenten, onthullingen, beeldhouwwerken, Bestanddeelnr 932-5816.jpg
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1482/amsterdam-bezinningsmonument-nieuwendam (form, text of the letter, unveiled 4 May 1983 by Theo Fransman, location Purmerweg/Monnikendammerweg)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/332 (Van Beek in the armed resistance; adopted by the IJdoornschool)
+    - https://4en5meiamsterdam.nl/stories/verzetsman-krijn-breur/ (born 1917 in Noord, Spain at 19, wounded twice, stateless June 1940, arrest 19 November 1942, neighbours' initiative; 2024)
+    - https://4en5meiamsterdam.nl/agenda/4-mei-dodenherdenking-en-5-mei-bevrijdingsfeest/ (4 May 2026 gathering at the monument)
+    - https://nl.wikipedia.org/wiki/Aat_Breur-Hibma (sabotage, forged papers, Jewish people in hiding, Ravensbrück, Yad Vashem 1998)
+    - https://hcan.nl/monument/bezinningsmonument-1940-45/
+    - OSM node (pin)
+  nl:
+    title: Bezinningsmonument Nieuwendam
+    summary: Een peinzende bronzen vrouw voor vier granieten zuilen, op een ervan de afscheidsbrief die verzetsman Krijn Breur op de dag van zijn executie in 1943 aan zijn familie schreef. 'Leef. Leef allen en wordt groot.'
+    body: |
+      Aan het eind van de Purmerweg, bij de Volendammerweg, zit een bronzen vrouw op een rond voetstuk, het hoofd vermoeid in de hand. Achter haar staan vier granieten zuilen van zo'n twee meter hoog: op drie ervan figuren, op de vierde een handgeschreven tekst. Het is het slot van de brief die Krijn Breur op 5 februari 1943 aan zijn familie schreef, de dag waarop de bezetter hem fusilleerde: 'Vertel jullie kinderen over ons en onze strijd en het leven dat wij wensen. Mogen onze grootste verlangens door het leven zelf overtroffen worden. Werk en heb lief, vecht en win. Leef. Leef allen en wordt groot.'
+
+      Breur werd in 1917 in Noord geboren en ging op zijn negentiende als vrijwilliger met de Internationale Brigades naar Spanje, waar hij twee keer zwaargewond raakte. Omdat hij in 'vreemde krijgsdienst' was getreden, werd hij in juni 1940 stateloos verklaard. In de bezetting pleegden hij en zijn vrouw, de tekenares Aat Breur-Hibma, aanslagen, vervalsten ze persoonsbewijzen en namen ze Joodse onderduikers in huis. Ze werden verraden en in november 1942 gearresteerd; zij overleefde Ravensbrück, hij werd gefusilleerd. Later kregen ze allebei de Yad Vashem-onderscheiding.
+
+      Het monument kwam er op initiatief van buurtbewoners en werd op 4 mei 1983 onthuld. Beeldhouwer Marius van Beek zat zelf in het gewapend verzet. De IJdoornschool heeft het geadopteerd en elk jaar op de avond van 4 mei is hier de herdenking van de buurt, met twee minuten stilte.
+
+      Let op:
+      - het handschrift op de vierde zuil
+      - de drie zuilen met figuren achter de vrouw
+      - de bloemen na 4 mei
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1482/amsterdam-bezinningsmonument-nieuwendam
+      - https://4en5meiamsterdam.nl/stories/verzetsman-krijn-breur/
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/332
+      - https://nl.wikipedia.org/wiki/Aat_Breur-Hibma
+
+# ================================================================ Hidden history
+
+- title: Schellingwouderbreek
+  summary: The pond in this 1960s park is a scour hole torn by the sea when the dike broke in the All Saints' Flood of 1570. Nobody ever had the money to fill it, so it stayed. A plate with a cracking "IJ" marks it.
+  body: |
+    On the night of 1 to 2 November 1570 a north-westerly storm drove up the highest storm tide ever recorded in the Netherlands, about four metres above sea level, higher than in 1953. Near Schellingwoude the Waterland sea dike gave way, and the water churning through the gap scoured a deep hole behind it. When the dike was mended the hole was left as a lake, a *breek* (breach pool): there was no money to fill it or pump it dry.
+
+    The flood also started a fight that defines this corner of Waterland. Schellingwoude's farmers had to keep their own stretch of dike, could not afford it after the disaster, and argued for almost a century that all of Waterland should pay. They won in 1659 and painted the victory on their church chest (see Schellingwouderkerk and bandstand).
+
+    The lake belonged to Ransdorp until Amsterdam annexed it in 1921. Around 1960 the new estates of Nieuwendam closed in and a park was laid out around it, with islands and wooden footbridges added in 1969–1970. On 1 November 2020, 450 years after the flood, the Friends of the Schellingwouderbreekpark unveiled a memorial plate by the Volendammerweg, designed by Hendrik Hollander and Marno Wolters: a cracking "IJ" for the broken dike. Kingfishers and several kinds of bats live here now.
+
+    Look for:
+    - the memorial plate on the north-west bank, by the Volendammerweg
+    - the islands and footbridges on the east side
+    - the line of the Schellingwouderdijk to the south, where the breach was
+  category: hidden-history
+  lat: 52.390100
+  lng: 4.951000
+  address: Schellingwouderbreekpark, Volendammerweg side
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Schellingwouderbreek" }
+    - { label: "Ons Amsterdam, Allerheiligenvloed 1570", url: "https://onsamsterdam.nl/artikelen/de-schellingwouderbreek-en-de-allerheiligenvloed-1570" }
+    - { label: "Rodi, gedenkplaat (2020)", url: "https://www.rodi.nl/amsterdam-noord/189166/-daar-was-een-ongemeen-groot-opwaater-" }
+  attributes:
+    rank: Nice
+    built: 1570 (breach); park about 1960; plate 2020
+    check: Location
+    check_note: "The plate stands on the north-west bank by the Volendammerweg; the pin is set there from the map, not from a survey."
+  photos:
+    - commons:File:Schellingwouderbreek gedenkplaat (2021).jpg
+    - commons:File:Schellingwouderbreek.JPG
+    - commons:File:2021 Schellingwouderbreek vanaf brug 992.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Schellingwouderbreek (dike breach 1570, never drained, Ransdorp until 1921, park about 1960, bridges 1969–1970, plate 2020 with cracking "IJ"; provincial monument)
+    - https://onsamsterdam.nl/artikelen/de-schellingwouderbreek-en-de-allerheiligenvloed-1570 (storm tide 4 m above NAP vs 3.75 m in 1953; no money to fill; dike-duty dispute won 1658–1659; church chest verse; Jeannette van der Stelt and Koen Kleijn, 2021)
+    - https://www.rodi.nl/amsterdam-noord/189166/-daar-was-een-ongemeen-groot-opwaater- (unveiling 1 November 2020, design Hollander and Wolters, kingfishers and bats)
+    - Commons photos of the plate, 2020 and 2021 ("aan de noordwestrand"); OSM water relation 553444 and Volendammerweg (pin)
+  nl:
+    title: Schellingwouderbreek
+    summary: De vijver in dit park uit de jaren zestig is een kolk die de zee uitsleet toen de dijk doorbrak bij de Allerheiligenvloed van 1570. Er was nooit geld om hem te dempen. Een gedenkplaat met een barstende 'IJ' herinnert eraan.
+    body: |
+      In de nacht van 1 op 2 november 1570 joeg een noordwesterstorm het water op tot de hoogste stormvloed die Nederland ooit heeft gekend, zo'n vier meter boven NAP, hoger dan in 1953. Bij Schellingwoude bezweek de Waterlandse Zeedijk, en het kolkende water sleet achter de dijk een diep gat uit. Toen de dijk hersteld was, bleef het meertje liggen: een breek of braak. Geld om het te dempen of droog te malen was er niet.
+
+      De ramp begon ook een strijd die dit stukje Waterland tekent. De boeren van Schellingwoude moesten hun eigen stuk dijk onderhouden, konden dat na de ramp niet meer opbrengen en procedeerden bijna een eeuw lang om de lasten over heel Waterland te verdelen. In 1659 kregen ze gelijk, en dat zetten ze op hun kerkkist (zie Schellingwouderkerk en muziekkoepel).
+
+      Tot 1921 lag het meertje in de gemeente Ransdorp, die dat jaar door Amsterdam werd geannexeerd. Rond 1960 kwam het tussen de nieuwbouw van Nieuwendam te liggen en werd er een park omheen aangelegd; de eilandjes met houten voetbruggen kwamen er in 1969–1970 bij. Op 1 november 2020, precies 450 jaar na de vloed, onthulden de Vrienden van het Schellingwouderbreekpark bij de Volendammerweg een gedenkplaat naar ontwerp van Hendrik Hollander en Marno Wolters: een barstende 'IJ' voor de doorgebroken dijk. Er leven nu ijsvogels en verschillende soorten vleermuizen.
+
+      Let op:
+      - de gedenkplaat aan de noordwestrand, bij de Volendammerweg
+      - de eilandjes en voetbruggen aan de oostkant
+      - de Schellingwouderdijk aan de zuidkant, waar de doorbraak was
+    attributes:
+      built: 1570 (doorbraak); park ca. 1960; gedenkplaat 2020
+      check_note: "De plaat staat aan de noordwestrand bij de Volendammerweg; de speld is daar op de kaart gezet, niet ter plekke ingemeten."
+    sources:
+      - https://nl.wikipedia.org/wiki/Schellingwouderbreek
+      - https://onsamsterdam.nl/artikelen/de-schellingwouderbreek-en-de-allerheiligenvloed-1570
+      - https://www.rodi.nl/amsterdam-noord/189166/-daar-was-een-ongemeen-groot-opwaater-
+
+# ================================================================ Public art
+
+- title: Wandelparkje with the Heilige Stede columns, Amerbos
+  summary: Among the 1970s high-rise of Buikslotermeer, a romantic pocket park with a brook, a boulder rock and a shell fountain, and Gothic columns from the Heilige Stede, the medieval chapel of the Miracle of Amsterdam, pulled down in 1908.
+  body: |
+    Near the corner of the J.H. van Heekweg and the J. Drijverweg a medieval column suddenly sticks out of the shrubs. It belongs to a small walking park in two parts designed as an artwork by Rik van Bentum: a brook, a rock made of glacial boulders, ornaments from an old Amsterdam *herenlogement* (a grand inn), a fountain shaped like the shell from which Botticelli's Venus rises, and, where the two parts meet, columns from the Heilige Stede.
+
+    That chapel on the Kalverstraat was built over the spot of the Miracle of Amsterdam of 1345, when a host thrown on the fire was found unburnt; for centuries it was the city's holiest place and the goal of pilgrims. After the Alteration of 1578 the Protestants took it over, and in 1908 they had it demolished despite fierce Catholic protest. Columns and fragments went to the Rijksmuseum garden, then to Frankendael, then to a municipal yard; part was auctioned off in 1988. The city's monuments service handed some of them to this park, so the relics of medieval Amsterdam's most sacred building stand in a 1970s estate in Noord.
+
+    Above the park, on the blind end wall of a flat, Hans Koetsier painted *Hemeldak* (Sky roof) in 1977: white clouds in blue, as if the sky ran down the wall.
+
+    Look for:
+    - the Gothic columns with their carved capitals where the two halves meet
+    - the shell fountain after Botticelli
+    - the boulder rock and the brook in the smaller half
+    - Hemeldak on the end wall of the flat
+  category: curiosities
+  lat: 52.402092
+  lng: 4.945006
+  address: Amerbos, by the J.H. van Heekweg and J. Drijverweg, Buikslotermeer
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/348" }
+    - { label: "Het Parool, Blikvangers (2026)", url: "https://www.parool.nl/kunst-media/dit-parkje-met-middeleeuwse-zuilen-is-een-kunstwerk-waarin-je-je-even-aan-de-stad-kunt-onttrekken~b11e8f67/" }
+    - { label: Wikipedia (nl) Heilige Stede, url: "https://nl.wikipedia.org/wiki/Heilige_Stede" }
+    - { label: Wikipedia (nl) Hans Koetsier, url: "https://nl.wikipedia.org/wiki/Hans_Koetsier" }
+  attributes:
+    rank: Amazing
+    artist: Rik van Bentum; Hans Koetsier (Hemeldak, 1977)
+    check: Still there?
+    check_note: "The park and the columns were described in Het Parool in July 2026; the latest photo of Koetsier's Hemeldak mural is from 2011."
+  photos:
+    - commons:File:Wandelparkje.JPG
+    - commons:File:Hemeldak.JPG
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/348 (two parts, brook, boulder rock, herenlogement ornaments, Heilige Stede columns from Monumentenzorg, Botticelli shell fountain, Koetsier's sky; pin)
+    - https://www.parool.nl/kunst-media/dit-parkje-met-middeleeuwse-zuilen-is-een-kunstwerk-waarin-je-je-even-aan-de-stad-kunt-onttrekken~b11e8f67/ (23 July 2026, headline, lead and caption only: column sticking out of the shrubs at the J.H. van Heekweg and J. Drijverweg; "Wandelparkje van Rik van Bentum, met zuilen uit de Heilige Stede")
+    - https://nl.wikipedia.org/wiki/Heilige_Stede (Miracle 1345, Alteration 1578, demolition 1908, fragments to Rijksmuseum garden, Frankendael, municipal yard, auction 1988)
+    - https://commons.wikimedia.org/wiki/File:Wandelparkje.JPG (2011 photo; caption names the Herenlogement on the Grimburgwal and the Heilige Stede columns)
+    - https://commons.wikimedia.org/wiki/File:Hemeldak.JPG (Hemeldak, 1977, Amerbos; photo 2011)
+  nl:
+    title: Wandelparkje met de zuilen van de Heilige Stede, Amerbos
+    summary: Tussen de hoogbouw van de Buikslotermeer een romantisch parkje met een beek, een rotspartij en een schelpfontein, en gotische zuilen van de Heilige Stede, de middeleeuwse kapel van het Mirakel van Amsterdam die in 1908 werd gesloopt.
+    body: |
+      Vlak bij de kruising van de J.H. van Heekweg en de J. Drijverweg steekt opeens een middeleeuwse zuil uit de bosjes. Hij hoort bij een wandelparkje in twee delen dat Rik van Bentum als kunstwerk ontwierp: een beek, een rotspartij van zwerfkeien, ornamenten van een oud Amsterdams herenlogement, een fontein in de vorm van de schelp waaruit Botticelli's Venus oprijst en, waar de twee delen samenkomen, zuilen van de Heilige Stede.
+
+      Die kapel aan de Kalverstraat stond op de plek van het Mirakel van Amsterdam uit 1345, toen een hostie die in het vuur was gegooid ongeschonden werd teruggevonden; eeuwenlang was het de heiligste plek van de stad en een bedevaartsoord. Na de Alteratie van 1578 kwam de kapel in protestantse handen, en in 1908 lieten de hervormden haar slopen, ondanks hevig katholiek protest. Zuilen en brokstukken belandden in de tuin van het Rijksmuseum, daarna op Frankendael en op een gemeentewerf; in 1988 werd een deel geveild. Monumentenzorg stond er een paar af aan dit parkje, zodat de resten van het heiligste gebouw van middeleeuws Amsterdam nu in een woonwijk uit de jaren zeventig in Noord staan.
+
+      Boven het park schilderde Hans Koetsier in 1977 op de blinde kopgevel van een flat het *Hemeldak*: witte wolken in blauw, alsof de lucht langs de muur naar beneden loopt.
+
+      Let op:
+      - de gotische zuilen met bewerkte kapitelen waar de twee delen samenkomen
+      - de schelpfontein naar Botticelli
+      - de rotspartij en de beek in het kleinste deel
+      - het Hemeldak op de kopgevel van de flat
+    attributes:
+      artist: Rik van Bentum; Hans Koetsier (Hemeldak, 1977)
+      check_note: "Park en zuilen stonden in juli 2026 in Het Parool; de laatste foto van Koetsiers muurschildering Hemeldak is uit 2011."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/348
+      - https://www.parool.nl/kunst-media/dit-parkje-met-middeleeuwse-zuilen-is-een-kunstwerk-waarin-je-je-even-aan-de-stad-kunt-onttrekken~b11e8f67/
+      - https://nl.wikipedia.org/wiki/Heilige_Stede
+      - https://nl.wikipedia.org/wiki/Hans_Koetsier
+
+- title: Observatorium (Marinus Boezem)
+  summary: On a mound eight metres above the Buikslotermeerpark lies a granite chaise longue after Le Corbusier, its plinth carved with the Milky Way and the northern sky. Lie back and look up, if you can stand cold stone.
+  body: |
+    A brick path climbs to the top of a man-made hill in the Buikslotermeerpark, about eight metres above the lawns. Up there stands a reclining chair of granite, modelled on the famous *chaise longue* of Le Corbusier, the father of the modern architecture that shaped this 1960s estate. The plinth carries a map of the Milky Way and the stars of the northern sky, in case you forget where to look. It invites you to lie back and gaze at the heavens, though granite is not the most comfortable bed.
+
+    The maker, Marinus Boezem (born 1934), is counted with Jan Dibbets and Ger van Elk among the founders of conceptual art in the Netherlands. In 1960 he exhibited a piece of polder as a ready-made; his best-known work is the Groene Kathedraal near Almere, 178 poplars planted to the plan of Reims cathedral. Sky, light, air and Gothic cathedrals run through his work, all of them here in one chair on a hill. The Observatorium dates from 1992.
+
+    The hill is a fixed landmark on the walking routes from metro station Noord, and the view from the top takes in the flats of Buikslotermeer and the open polders to the north.
+
+    Look for:
+    - the Milky Way and the northern constellations cut into the plinth
+    - the plaque at the foot of the work
+    - the view north over the Waterland polders
+  category: street-art
+  lat: 52.403324
+  lng: 4.947999
+  address: Buikslotermeerpark, on the hill
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/331" }
+    - { label: Wikipedia (nl) Marinus Boezem, url: "https://nl.wikipedia.org/wiki/Marinus_Boezem" }
+    - { label: "Wandelnetwerk Noord-Holland, Metro Noord", url: "https://www.wandelnetwerknoordholland.nl/en/startpunten/metro-noord/2365" }
+  attributes:
+    rank: Nice
+    built: "1992"
+    artist: Marinus Boezem
+  photos:
+    - commons:File:Observatorium Noord.JPG
+    - commons:File:Observatorium Noord (2).jpg
+    - commons:File:Observatorium Noord (5).jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/331 (8 m above the park, brick path, Le Corbusier chaise longue, Milky Way and northern sky on the plinth, Groene Kathedraal, founder of Dutch conceptual art)
+    - https://nl.wikipedia.org/wiki/Marinus_Boezem (born 1934, with Dibbets and Van Elk, polder as ready-made 1960, 178 poplars, Reims)
+    - https://adambeeldenva1900.blogspot.com/2016/07/marinus-boezem-observatorium.html (1992)
+    - https://www.wandelnetwerknoordholland.nl/en/startpunten/metro-noord/2365 (current route page: landmark on all three routes)
+    - Commons photos dated 2019; OSM node (pin)
+  nl:
+    title: Observatorium (Marinus Boezem)
+    summary: Op een heuvel acht meter boven het Buikslotermeerpark ligt een granieten chaise longue naar Le Corbusier, met in de sokkel de Melkweg en de noordelijke sterrenhemel. Achteroverleunen en omhoogkijken, als je koude steen niet erg vindt.
+    body: |
+      Een klinkerpad loopt omhoog naar de top van een aangelegde heuvel in het Buikslotermeerpark, zo'n acht meter boven de grasvelden. Daar staat een ligstoel van graniet, naar de beroemde *chaise longue* van Le Corbusier, de grondlegger van de moderne architectuur waarop deze wijk uit de jaren zestig is geïnspireerd. In de sokkel staat een kaart van de Melkweg en de noordelijke sterrenhemel, voor wie vergeten is waar de sterren staan. Het werk nodigt uit om achterover te liggen en naar de hemel te kijken, al ligt graniet niet bepaald zacht.
+
+      Marinus Boezem (1934) geldt samen met Jan Dibbets en Ger van Elk als grondlegger van de conceptuele kunst in Nederland. In 1960 stelde hij een stuk polder tentoon als readymade; zijn bekendste werk is de Groene Kathedraal bij Almere, 178 populieren op de plattegrond van de kathedraal van Reims. Hemel, licht, lucht en gotische kathedralen keren steeds terug in zijn werk, en komen hier samen in één stoel op een heuvel. Het Observatorium is uit 1992.
+
+      De heuvel is een vast punt op de wandelroutes vanaf metrostation Noord, en vanaf de top kijk je over de flats van de Buikslotermeer en de open polders in het noorden.
+
+      Let op:
+      - de Melkweg en de noordelijke sterrenbeelden in de sokkel
+      - de plaquette aan de voet van het werk
+      - het uitzicht naar het noorden over de Waterlandse polders
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/331
+      - https://nl.wikipedia.org/wiki/Marinus_Boezem
+      - https://www.wandelnetwerknoordholland.nl/startpunten/metro-noord/2365
+
+- title: Tajiri's Ontmoetingsplaats and Van Kruiningen's mosaics, Het Breed
+  summary: A white concrete amphitheatre by Shinkichi Tajiri, meant as a meeting place for the 1960s high-rise, that neighbours threatened to tear down and that never became a social heart. Nearby, in a tower's entrance hall, mosaics by a communist forger of the war.
+  body: |
+    On the Breedveld, among Frans van Gool's long slabs of the 1960s, lies Shinkichi Tajiri's *Ontmoetingsplaats* (Meeting place): broad white concrete steps with a few patches of red asphalt, a curved back and a sunken seating pit behind. Tajiri, an American child of Japanese immigrants who went through the Second World War and settled in the Netherlands in 1956, meant it as a small amphitheatre where neighbours would sit, talk and understand one another, and as proof that art is for ordinary people.
+
+    The neighbours saw it otherwise. Commissioned in 1971, it was held up by protest: too dangerous for children, too expensive, and why not a local artist? Some threatened to break it down themselves. It finally went up in 1976, was used mainly by teenagers who lit fires in the pit, was renovated in 2013–2014 and now lies mostly empty, a relic of the ideals of the welfare state. The estate around it, Plan Van Gool, has its own place.
+
+    Some 250 metres east, the entrance hall of the tower Het Breed 701–939 has two abstract mosaics in Venetian glass of 1982 by Harry van Kruiningen (pseudonym of Henri Janssen), who lived on Het Breed. A communist, he forged identity papers for the resistance on his litho press. He made only a few monumental works, which is why the city rates these as valuable.
+
+    Look for:
+    - the stepped white terraces and the half-moon backrest
+    - the sunken pit behind the steps
+    - Van Kruiningen's mosaics, seen through the entrance of Het Breed 701 (residents' hall)
+  category: street-art
+  lat: 52.397793
+  lng: 4.936255
+  address: Breedveld; mosaics at Het Breed 701, Buikslotermeer
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/345" }
+    - { label: Wikipedia (nl) Ontmoetingsplaats, url: "https://nl.wikipedia.org/wiki/Ontmoetingsplaats_(kunstwerk)" }
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/ontmoetingsplaats/" }
+    - { label: Wandkunst Amsterdam (Het Breed 701), url: "https://maps.amsterdam.nl/wandkunst/" }
+    - { label: Wikipedia (nl) Harry van Kruiningen, url: "https://nl.wikipedia.org/wiki/Harry_van_Kruiningen" }
+  attributes:
+    rank: Okay
+    built: 1976; mosaics 1982
+    artist: Shinkichi Tajiri; Harry van Kruiningen (mosaics)
+    check: Still there?
+    check_note: "Tajiri's steps are current (Stadscuratorium); for the mosaics in the entrance hall of Het Breed 701 the latest source is the city's wall-art survey of about 2018."
+  photos:
+    - commons:File:Ontmoetingsplaats.JPG
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/345 (white steps, Van Gool's 1960s slabs, Tajiri in NL from 1956, CoBrA circle)
+    - https://nl.wikipedia.org/wiki/Ontmoetingsplaats_(kunstwerk) (commission 1971, neighbours' protest and threat, red asphalt, sunken pit, youths' fires, renovation 2013/2014, art for the ordinary man)
+    - https://stadscuratorium.nl/collectie/ontmoetingsplaats/ (child of Japanese immigrants, WWII, amphitheatre idea, now abandoned)
+    - https://www.parool.nl/nieuws/de-meeste-mensen-zitten-naast-ontmoetingsplaats~b2d7b39a/ (2017 headline: most people sit next to it)
+    - maps.amsterdam.nl/wandkunst, Het Breed 701 (mosaics 1982, Venetian glass, few monumental works, forged identity papers, rated Waardevol)
+    - https://nl.wikipedia.org/wiki/Harry_van_Kruiningen (pseudonym of Henri Adelbert Janssen, lived on Het Breed, CPN, Goulooze group, forged papers on a litho press)
+    - OSM node (pin), Nominatim for Het Breed 701
+  nl:
+    title: Ontmoetingsplaats van Tajiri en de mozaïeken van Van Kruiningen, Het Breed
+    summary: Een wit betonnen amfitheater van Shinkichi Tajiri, bedoeld als ontmoetingsplek voor de hoogbouw van de jaren zestig, dat buurtbewoners dreigden af te breken en dat nooit een trefpunt werd. Vlakbij, in een entreehal, mozaïeken van een communistische vervalser.
+    body: |
+      Op het Breedveld, tussen de lange flats die Frans van Gool in de jaren zestig ontwierp, ligt *Ontmoetingsplaats* van Shinkichi Tajiri: brede witte betonnen treden met enkele vlakken rood asfalt, een ronde rugleuning en een zitkuil erachter. Tajiri, een kind van Japanse immigranten in Amerika dat de Tweede Wereldoorlog meemaakte en zich in 1956 in Nederland vestigde, bedoelde het als klein amfitheater waar buurtbewoners zouden zitten en praten en elkaar beter zouden begrijpen, en als bewijs dat kunst er ook voor de gewone man is.
+
+      De buurt zag dat anders. De opdracht kwam in 1971, maar bewoners protesteerden: te kindonvriendelijk, te duur, en waarom geen plaatselijke kunstenaar? Sommigen dreigden het zelf af te breken. In 1976 kwam het er toch, waarna vooral hangjongeren er zaten, die in de zitkuil vuurtjes stookten. In 2013–2014 werd het gerenoveerd; nu ligt het er meestal verlaten bij, een overblijfsel van de idealen van de verzorgingsstaat. Het woongebied eromheen, Plan Van Gool, heeft een eigen plek.
+
+      Zo'n 250 meter naar het oosten heeft de entreehal van de torenflat Het Breed 701–939 twee abstracte mozaïeken van Venetiaans glas uit 1982 van Harry van Kruiningen, het pseudoniem van Henri Janssen, die zelf aan Het Breed woonde. Als communist maakte hij in de oorlog op zijn lithopers valse persoonsbewijzen voor het verzet. Hij maakte maar weinig monumentale werken, en daarom vindt de gemeente deze waardevol.
+
+      Let op:
+      - de witte trappen en de halvemaanvormige rugleuning
+      - de zitkuil achter de treden
+      - de mozaïeken van Van Kruiningen, door de entree van Het Breed 701 te zien (hal van de bewoners)
+    attributes:
+      built: 1976; mozaïeken 1982
+      artist: Shinkichi Tajiri; Harry van Kruiningen (mozaïeken)
+      check_note: "De trappen van Tajiri zijn actueel (Stadscuratorium); voor de mozaïeken in de entreehal van Het Breed 701 is de wandkunstinventarisatie van de gemeente van rond 2018 de laatste bron."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/345
+      - https://nl.wikipedia.org/wiki/Ontmoetingsplaats_(kunstwerk)
+      - https://stadscuratorium.nl/collectie/ontmoetingsplaats/
+      - https://nl.wikipedia.org/wiki/Harry_van_Kruiningen
+
+- title: Poort van Nieuwendam
+  summary: Noord never had a city gate, so in 1999 Marcel Smink made one out of 100 metres of the abandoned 1930s Zuiderzeeweg, its paving curling up into a twisted 6 m arch where the road simply stops. BMX riders use it as a ramp.
+  body: |
+    Coming off the A10 ring road at the Zuiderzeeweg, drivers meet a brick-paved road that climbs a slope into a twisted concrete gate and then ends in mid-air. Artist Marcel Smink (born 1967) found the asphalt remains of the old Zuiderzeeweg, laid out in the 1930s, beside the new road, and had about 100 metres of it paved and curled up into the gate: the road rears up so cars cannot go on, and walkers are made to look around. Smink was thinking about how traffic takes over public space; you arrive here racing off the motorway, right at the edge of a residential area.
+
+    The neighbours of the Markengouw and Werengouw were against it at first, but most objections faded once it stood. It began as the *Poort van Noord* and was later renamed after Tuindorp Nieuwendam; the reading as a city gate, echoing Amsterdam's old gates and the gatehouses of the garden villages, was added afterwards. Noord, which grew up only in the 20th century, never had a real one.
+
+    Around 2011 the junction was rebuilt with a roundabout and the city wanted the work gone. Smink showed it could be fitted in, and it now stands even closer to the road, between the carriageway and the cycle path, like a slip road to a flyover that was never built. The double twist makes it look as if one side is sinking. BMX riders treat it as a ramp for flips, which Smink admits he never saw coming.
+
+    Look for:
+    - the clinker paving running up the slope into the gate
+    - the double twist that makes the gate seem to sag
+    - the sudden stop at the top
+  category: street-art
+  lat: 52.388409
+  lng: 4.960612
+  address: Zuiderzeeweg at the IJdoornlaan, by the A10 exit
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/352" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Poort_van_Nieuwendam" }
+  attributes:
+    rank: Nice
+    built: 1999; moved about 2011
+    artist: Marcel Smink
+  photos:
+    - commons:File:2021 Poort van Nieuwendam, Asd (1).jpg
+    - commons:File:Poort van Nieuwendam.JPG
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/352 (100 m of the 1930s road, residents of Markengouw and Werengouw, roundabout, moved closer to the road, name Poort van Noord, gate meaning added later, traffic idea, BMX riders; Smink quotes)
+    - https://nl.wikipedia.org/wiki/Poort_van_Nieuwendam (commission around 1999, junction IJdoornlaan/Zuiderzeeweg, around 2011 adjustment, between carriageway and cycle path, double twist, 570 x 570 x 630 cm, neighbours' opposition faded)
+    - Commons photos dated July 2021; OSM node (survey) for the pin
+  nl:
+    title: Poort van Nieuwendam
+    summary: Noord heeft nooit een stadspoort gehad, dus maakte Marcel Smink er in 1999 een van honderd meter oude Zuiderzeeweg uit de jaren dertig, die opkrult tot een gedraaide poort van zes meter waar de weg ophoudt. BMX'ers gebruiken hem als schans.
+    body: |
+      Wie bij de Zuiderzeeweg van de ring A10 afkomt, ziet een beklinkerde weg die via een talud omhoogloopt naar een gedraaide betonnen poort en daar ophoudt. Kunstenaar Marcel Smink (1967) vond naast de nieuwe weg asfaltresten van de oude Zuiderzeeweg, aangelegd in de jaren dertig, en liet zo'n honderd meter daarvan bestraten en opkrullen tot de poort: de weg krult op zodat je met de auto niet verder kunt, en als voetganger word je gedwongen om je heen te kijken. Smink was bezig met de invloed van het verkeer op de openbare ruimte; hier kom je net de ring af geracet en sta je aan het begin van een woonwijk.
+
+      Buurtbewoners van Markengouw en Werengouw zagen het beeld eerst niet zitten, maar na de onthulling verdwenen bijna alle tegenstemmen. Het heette eerst *Poort van Noord* en kreeg later de naam van Tuindorp Nieuwendam; de uitleg als stadspoort, met een knipoog naar de oude Amsterdamse poorten en de poortgebouwen van de tuindorpen, is er pas later aan toegevoegd. Noord, dat pas in de 20e eeuw volgebouwd werd, heeft nooit een echte gehad.
+
+      Rond 2011 werd de kruising omgebouwd tot rotonde en wilde de gemeente het werk weghalen. Smink liet zien dat het anders kon worden ingepast, en nu staat het nog dichter tegen de weg, tussen rijbaan en fietspad, als een oprit naar een nooit gebouwd viaduct. Door de dubbele draaiing lijkt de poort aan één kant te verzakken. BMX'ers gebruiken hem als schans voor salto's, iets waar Smink naar eigen zeggen nooit op had gerekend.
+
+      Let op:
+      - de klinkers die over het talud de poort in lopen
+      - de dubbele draaiing waardoor de poort lijkt te verzakken
+      - het abrupte einde bovenaan
+    attributes:
+      built: 1999; verplaatst ca. 2011
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/352
+      - https://nl.wikipedia.org/wiki/Poort_van_Nieuwendam
+
+- title: Flyways (Harmen Liemburg), metro station Noord
+  summary: The platform floor of metro station Noord is a 130-metre bird encyclopedia cut into tiles. Geese from Scandinavia land at the north end, Africa-bound migrants leave from the south end, and a godwit chick sits in a ditch in between.
+  body: |
+    Thousands of people cross the platform of the Noord-Zuidlijn's northern terminus every day, and few look down. Under their feet, white lines on anthracite tiles draw a whole story of migrating birds over 130 by 13 metres. Artist Harmen Liemburg, a graphic designer who also trained as a cartographer, thought of his bike rides into Waterland and Het Twiske, where migrants return from the south in spring and Scandinavian geese graze the polders in winter. He saw a parallel with the passengers: commuters changing from bus to metro, Noorderlingen, tourists.
+
+    So the floor reads like a comic strip from north to south: geese arriving at the north end, resident birds of the reeds and polders in the middle, birds heading for Africa at the south end. Swift, great crested grebe, mute swan, heron and pigeon are there, and in places where he had room Liemburg zooms in, to a goose's head or a huge godwit chick in a farm ditch, seen through the sharp eyes of a bird of prey. Every white shape was cut with a water jet and inlaid by hand into its dark tile; no line could be thinner than 20 mm. The station opened with the line in July 2018.
+
+    The station around it is by Benthem Crouwel: a 132-metre island platform on a viaduct in the middle of the Nieuwe Leeuwarderweg, cut through by five voids and covered by a roof 16 metres high. Together with the line's six other stations by the same architects, it won both the BNA Best Building of the Year and the Golden AAP, the Amsterdam architecture prize, in 2019.
+
+    Look for:
+    - the geese at the north end of the platform
+    - the godwit chick in the ditch
+    - the swift and the grebe around the openings to the bus station below
+    - the long roof over the platform, seen from the bus station
+  category: street-art
+  lat: 52.401555
+  lng: 4.931796
+  address: Metro station Noord, platform, Elzenhagen
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1165" }
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/flyways/" }
+    - { label: Harmen Liemburg, url: "https://www.harmenliemburg.nl/2018/07/22/flyways-3-3-open/" }
+    - { label: Wikipedia (nl) metrostation Noord, url: "https://nl.wikipedia.org/wiki/Noord_(metrostation)" }
+    - { label: "Benthem Crouwel, BNA Beste Gebouw", url: "https://www.benthemcrouwel.com/news/official-plaque-for-the-bna-best-building-of-the-year-revealed" }
+  attributes:
+    rank: Nice
+    built: "2018"
+    artist: Harmen Liemburg
+  photos:
+    - commons:File:Metrostation Noord kunst.jpg
+    - commons:File:Amsterdam Metrostation Noord platforms 1.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1165 (130 m, north/middle/south arrangement, cartographer, cut and hand-inlaid tiles, bike rides to Waterland and Het Twiske, passengers parallel, comic strip, 20 mm lines, swift, grebe, swan, heron, pigeon, goose's head, godwit chick, raptor's eyes)
+    - https://www.harmenliemburg.nl/2018/07/22/flyways-3-3-open/ (opened July 2018; 130 x 13 m; tiles cut by aquajet)
+    - https://stadscuratorium.nl/collectie/flyways/
+    - Commons photos 2018 and March 2025
+    - https://nl.wikipedia.org/wiki/Noord_(metrostation) (Benthem Crouwel; viaduct in the median of the Nieuwe Leeuwarderweg; island platform 132 m long, five voids; 16 m high; opened 22 July 2018)
+    - https://www.benthemcrouwel.com/news/official-plaque-for-the-bna-best-building-of-the-year-revealed (the seven Noord/Zuidlijn stations by Benthem Crouwel won BNA Beste Gebouw van het Jaar 2019)
+    - https://www.hartvannederland.nl/algemeen-nieuws/artikelen/noord-zuidlijn-winnaar-architectuurprijs (Noord/Zuidlijn won the Gouden A.A.P. 2019, unanimous jury)
+  nl:
+    title: Flyways (Harmen Liemburg), metrostation Noord
+    summary: De perronvloer van metrostation Noord is een vogelencyclopedie van 130 meter, ingelegd in de tegels. Aan de noordkant landen ganzen uit Scandinavië, aan de zuidkant vertrekken de trekvogels naar Afrika, en daartussen zit een gruttokuiken in de sloot.
+    body: |
+      Dagelijks lopen duizenden mensen over het perron van het noordelijke eindpunt van de Noord/Zuidlijn, en weinigen kijken omlaag. Onder hun voeten vertellen witte lijnen op antracietkleurige tegels over 130 bij 13 meter het verhaal van de vogeltrek. Kunstenaar Harmen Liemburg, grafisch ontwerper met een achtergrond als cartograaf, dacht aan zijn tochtjes op de racefiets naar Waterland en het Twiske, waar in het voorjaar de trekvogels uit het zuiden terugkomen en in de winter de ganzen uit Scandinavië in de polder grazen. Hij zag een parallel met de reizigers: forenzen die van de bus op de metro overstappen, Noorderlingen, toeristen.
+
+      Zo leest de vloer als een stripverhaal van noord naar zuid: aankomende ganzen aan de noordkant, standvogels van riet en polder in het midden, vogels die naar Afrika vertrekken aan de zuidkant. Je ziet onder meer de gierzwaluw, de fuut, de knobbelzwaan, de reiger en de duif, en waar hij ruimte had zoomt Liemburg in, op de kop van een gans of een groot gruttokuiken in de boerensloot, gezien met de superogen van een roofvogel. Elke witte vorm is met een waterstraal uitgesneden en met de hand in de donkere tegel ingelegd; geen lijn mocht dunner zijn dan 20 millimeter. Het station ging in juli 2018 met de lijn open.
+
+      Het station zelf is van Benthem Crouwel: een eilandperron van 132 meter op een viaduct in de middenberm van de Nieuwe Leeuwarderweg, met vijf vides en een overkapping van 16 meter hoog. Samen met de zes andere stations van dezelfde architecten op de lijn won het in 2019 zowel de BNA Beste Gebouw van het Jaar als de Gouden A.A.P., de Amsterdamse Architectuur Prijs.
+
+      Let op:
+      - de ganzen aan de noordkant van het perron
+      - het gruttokuiken in de sloot
+      - de gierzwaluw en de fuut rond de vides naar het busstation eronder
+      - de lange overkapping boven het perron, gezien vanaf het busstation
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1165
+      - https://stadscuratorium.nl/collectie/flyways/
+      - https://www.harmenliemburg.nl/2018/07/22/flyways-3-3-open/
+      - https://nl.wikipedia.org/wiki/Noord_(metrostation)
+
+- title: Zilveren Manen, Waterlandplein
+  summary: Stone moths sunk into the pavement at the flat entrances recall the silver-moon moths that lived in this marsh until the estate was built in the 1960s. Now scooters park on them. The artwork beside them was taken away in 2026.
+  body: |
+    When the 1960s Waterlandplein estate was rebuilt from the early 2000s, Berend Strik was brought in early. He chose the *zilveren maan* (silver moon), a moth that once fluttered over this marshy ground and died out here when the first estate went up. His stone moths, inlaid in the paving, mark the entrances of the new flats. Strik had wanted them in the entrance halls, a place of shelter you can also easily leave, as the moth likes; but the architects had already designed the halls with no room for art, so the moths moved outside onto the street.
+
+    For a year a test moth lay in the middle of a small square, and people lay down on it for photos so that they seemed to have orange and black wings. At the doors nobody does that; bicycles and scooters stand on them instead. Strik was shocked to find them under chewing gum and oil stains, and the stones shift because they must come up for access to the foundations. So the extinct moth is trampled once more, while serving as a welcome mat. From the upper windows you see three or four at a time, then none.
+
+    On the square itself, Studio Tjep's sculpture of 2013, curling benches with blocks that could be wound down into a stage with a special drill, was removed in March 2026 after complaints about children falling on its sharp edges. More trees and planting are planned for 2027.
+
+    The square itself is a second version. Opened in the late 1960s with shops under the flats and loose pavilions in between, it was meant in the 1968 metro plan to get the elevated terminus of an eastern branch of the Noord/Zuidlijn; the metro never came this way, and the strip kept free for it to the west is still empty. Between 2000 and 2013 most of the centre was replaced, with six new towers named after lighthouses (Noordertoren, IJdoorn, Brandaris, Bornrif, Vuurduin, Stenen Baak), and the old flats around it were renovated. In October 2012 the district lost its old name, Nieuwendam-Noord, and became the Waterlandpleinbuurt.
+
+    Look for:
+    - the moths in the paving at the flat entrances around the square
+    - the view down from the walkways above
+    - the lighthouse names on the six towers
+    - the empty strip west of the square, kept for a metro that never came
+  category: street-art
+  lat: 52.392109
+  lng: 4.955774
+  address: Waterlandplein, Waterlandpleinbuurt
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2737" }
+    - { label: "Rodi, kunstwerk verdwijnt (2026)", url: "https://www.rodi.nl/amsterdam-noord/nieuws/485912/kunstwerk-verdwijnt-van-waterlandplein" }
+    - { label: "Stadscuratorium, advies Tjep (2023)", url: "https://stadscuratorium.nl/advice/ontmoetingsplaats-waterlandplein/" }
+    - { label: Wikipedia (nl) Waterlandplein, url: "https://nl.wikipedia.org/wiki/Waterlandplein_(Amsterdam)" }
+    - { label: Wikipedia (nl) Waterlandpleinbuurt, url: "https://nl.wikipedia.org/wiki/Waterlandpleinbuurt" }
+  attributes:
+    rank: Okay
+    built: "2013"
+    artist: Berend Strik
+    check: Still there?
+    check_note: "The moths were last photographed in 2013 and described in the Kunstwacht route (undated); the 2026 removal concerned only Studio Tjep's sculpture."
+  photos:
+    - commons:File:Vlinder Waterlandplein.JPG
+    - commons:File:Waterlandplein Studio Tjep.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2737 (silver moons extinct in the 1960s, early involvement, halls already designed, test year on the square, people lying on it, scooters, gum and oil, stones shift for foundation access, doormat; Strik quotes)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2714 (Tjep podium, drill held by the caretaker)
+    - https://stadscuratorium.nl/wp-content/uploads/2026/04/23.216_SCA_ADVIES-Waterlandplein-Ontmoetingsplaats-21eE-Studio-Tjep-WEB.pdf (October 2023: safety complaints, removal justified)
+    - https://www.rodi.nl/amsterdam-noord/nieuws/485912/kunstwerk-verdwijnt-van-waterlandplein (3 March 2026: removal, work until end of March, greening 2027)
+    - Commons photo of a moth, December 2013; OSM nodes of seven moths (pin on one at the east side)
+    - https://nl.wikipedia.org/wiki/Waterlandplein_(Amsterdam) (completed late 1960s, high-rise with shops and loose pavilions; 1968 metro plan terminus of the eastern branch on the square, route westward still unbuilt; renovated 2000–2013, six towers named after lighthouses, 319 homes; Ymere flats renovated)
+    - https://nl.wikipedia.org/wiki/Waterlandpleinbuurt (Nieuwendam-Noord renamed Waterlandpleinbuurt on 3 October 2012)
+    - https://www.heeswijk.nl/projecten/waterlandplein-amsterdam.html (Hans van Heeswijk renovated existing flats; not the designer of the whole scheme)
+  nl:
+    title: Zilveren Manen, Waterlandplein
+    summary: Stenen vlinders in de bestrating bij de entrees van de flats herinneren aan de zilveren maan, die in dit moerasgebied leefde tot de wijk in de jaren zestig werd gebouwd. Nu staan er scooters op. Het kunstwerk ernaast werd in 2026 weggehaald.
+    body: |
+      Toen het Waterlandplein uit de jaren zestig vanaf het begin van deze eeuw opnieuw werd ontwikkeld, werd Berend Strik er al vroeg bij betrokken. Hij koos de zilveren maan, een vlinder die ooit in dit moerasachtige gebied rondfladderde en hier uitstierf toen de eerste wijk werd gebouwd. Zijn stenen vlinders, verzonken in de bestrating, vormen de entree van de nieuwe flats. Strik wilde ze eigenlijk in de entreehallen, een plek waar je bescherming vindt en die je ook makkelijk weer verlaat, net als de vlinder; maar de architecten hadden de hallen al ontworpen zonder ruimte voor kunst, en zo kwamen de vlinders buiten op straat te liggen.
+
+      Een jaar lang lag een proefvlinder midden op een pleintje, en mensen gingen erop liggen voor een foto, zodat het leek alsof ze zelf oranje-zwarte vleugels hadden. Bij de voordeuren doet niemand dat; daar staan fietsen en scooters op. Strik schrok toen hij ze onder de kauwgom en olievlekken aantrof, en de stenen verschuiven omdat ze eruit moeten kunnen voor de fundering. Zo wordt de uitgestorven vlinder nog eens platgetrapt, terwijl hij ook dienstdoet als deurmat. Vanuit de hoge ramen zie je er soms drie of vier, en dan ineens geen enkele.
+
+      Op het plein zelf stond het kunstwerk van Studio Tjep uit 2013: krullende bankjes met blokken die met een speciale boormachine tot podium konden worden gedraaid. Na klachten over kinderen die op de scherpe randen vielen, werd het in maart 2026 weggehaald. Voor 2027 staan extra bomen en beplanting gepland.
+
+      Het plein zelf is al de tweede versie. Het opende eind jaren zestig, met winkels onder de flats en losse paviljoens ertussen, en volgens het metroplan van 1968 zou hier het hooggelegen eindstation van een oostelijke tak van de Noord/Zuidlijn komen. Die metro kwam er nooit; de strook die er westwaarts voor werd vrijgehouden, is nog altijd onbebouwd. Tussen 2000 en 2013 werd het winkelcentrum grotendeels vervangen door nieuwbouw met zes woontorens, genoemd naar vuurtorens (Noordertoren, IJdoorn, Brandaris, Bornrif, Vuurduin en Stenen Baak), en werden de oude flats eromheen gerenoveerd. In oktober 2012 verloor de wijk haar oude naam Nieuwendam-Noord en werd ze de Waterlandpleinbuurt.
+
+      Let op:
+      - de vlinders in de bestrating bij de flatentrees rond het plein
+      - het uitzicht naar beneden vanaf de galerijen
+      - de vuurtorennamen op de zes torens
+      - de lege strook ten westen van het plein, vrijgehouden voor een metro die nooit kwam
+    attributes:
+      check_note: "De vlinders zijn voor het laatst in 2013 gefotografeerd en staan in de (ongedateerde) Kunstwacht-route; de verwijdering in 2026 gold alleen het kunstwerk van Studio Tjep."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2737
+      - https://www.rodi.nl/amsterdam-noord/nieuws/485912/kunstwerk-verdwijnt-van-waterlandplein
+      - https://nl.wikipedia.org/wiki/Waterlandplein_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Waterlandpleinbuurt
+      - https://stadscuratorium.nl/wp-content/uploads/2026/04/23.216_SCA_ADVIES-Waterlandplein-Ontmoetingsplaats-21eE-Studio-Tjep-WEB.pdf
+
+- title: Hof der Herinnering (Nicolas Dings)
+  summary: A "theatre of memory" by care home De Kimme, by the maker of the Spinoza statue. A giant foot at a child's scale, a slept-on pillow, water jugs from the polder days, a boy with the great book of memory, and benches carved with residents' sayings.
+  body: |
+    Beside the care home De Kimme, Nicolas Dings made a small courtyard of objects that refer to the time when this part of Noord was still green polder, a landscape that now exists only in dreams. There is a slept-on pillow and a set of water jugs, an enormous foot at the size only a child sees, and a little boy holding the "great book of memory", in which all passing time is stored. Dings, who works in bronze, ceramics, wood and textile with a lot of humour, plays with human proportions to build a world of his own. He also made the Spinoza monument that has stood in front of Amsterdam's city hall since 2008.
+
+    Into the wooden benches he carved sayings of the residents of De Kimme, such as "Countless possibilities, yet only two hands" and "Dreams are the brain's leisure time". His own motto fits the place: whoever respects memory becomes an explorer of the imagination. De Kimme is still a care home for older people, run by Evean, with a neighbourhood drop-in.
+
+    Look for:
+    - the giant foot and the pillow
+    - the boy with the great book of memory
+    - the residents' sayings carved into the benches
+  category: street-art
+  lat: 52.396167
+  lng: 4.951454
+  address: Duinlustpad 2, by De Kimme, Waterlandpleinbuurt
+  links:
+    - { label: Buitenkunst Amsterdam (Kunstwacht), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/350" }
+    - { label: Nicolas Dings, url: "https://nicolasdings.nl/" }
+    - { label: Evean De Kimme, url: "https://www.evean.nl/locatie/kimme-amsterdam" }
+  attributes:
+    rank: Nice
+    artist: Nicolas Dings
+    check: Still there?
+    check_note: "No dated photo or news of the courtyard was found; De Kimme itself is in use (2026)."
+  photos: []
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/350 (all facts about the work, the sayings, Spinoza monument 2008, Dings's motto; pin)
+    - https://www.evean.nl/locatie/kimme-amsterdam (De Kimme in use as a care home with a drop-in)
+  nl:
+    title: Hof der Herinnering (Nicolas Dings)
+    summary: Een 'theater van het geheugen' bij zorgcentrum De Kimme, van de maker van het Spinozamonument. Een reusachtige voet op kindermaat, een beslapen kussen, waterkruiken uit de poldertijd, een jongen met het grote boek der herinnering, en banken met uitspraken van bewoners.
+    body: |
+      Naast zorgcentrum De Kimme maakte Nicolas Dings een hofje van voorwerpen die verwijzen naar de tijd dat dit deel van Noord nog groene polder was, een landschap dat nu alleen nog in dromen bestaat. Er ligt een beslapen kussen, er staan waterkruiken, er is een reusachtige voet op het formaat waarin alleen een kind hem ziet, en een kleine jongen met het 'grote boek der herinnering', waarin alle verstreken tijd bewaard is. Dings werkt in brons, keramiek, hout en textiel, met veel humor, en speelt met menselijke verhoudingen om een eigen wereld te bouwen. Van hem is ook het Spinozamonument dat sinds 2008 voor het Amsterdamse stadhuis staat.
+
+      In de houten banken liet hij uitspraken van bewoners van De Kimme graveren, zoals 'Ontelbare mogelijkheden, toch maar twee handen' en 'Dromen zijn vrijetijdsbesteding van de hersenen'. Zijn eigen motto past bij de plek: wie het geheugen respecteert, wordt een ontdekkingsreiziger van de fantasie. De Kimme is nog altijd een verzorgingshuis, van Evean, met een inloop voor ouderen uit de buurt.
+
+      Let op:
+      - de reusachtige voet en het kussen
+      - de jongen met het grote boek der herinnering
+      - de uitspraken van bewoners in de banken
+    attributes:
+      check_note: "Er is geen gedateerde foto of nieuwsbericht van het hofje gevonden; De Kimme zelf is in gebruik (2026)."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/350
+      - https://www.evean.nl/locatie/kimme-amsterdam
+
+- title: De Veenarbeider (Volgermeer)
+  summary: A bronze peat digger at the edge of the Volgermeer, modelled on Arie Stolk, who cut peat here around 1930 before the pits became a rubbish tip and then the country's worst chemical dump. Prince Willem-Alexander unveiled it with Stolk's daughter in 2011.
+  body: |
+    Between 1920 and 1955 the Volgermeer was a peat working, the Veenderij Zunderdorp. Men dug the old peat soil, dried the turf on narrow strips of land and shipped it out under the Veenderijbrug as fuel for the city and the villages. The digging left water-filled pits up to four metres deep, which Amsterdam then filled with rubbish from 1927, followed by chemical waste in the 1960s (see Volgermeerpolder).
+
+    When the sealed-off dump reopened as a nature reserve, the story of the peat came back too. On 19 April 2011 Prince Willem-Alexander opened the new Volgermeer and unveiled *De Veenarbeider* (The peat worker) by Heleen Levano, a sculptor from Broek in Waterland who also made the Roma and Sinti memorial on the Museumplein. The bronze was made from a photograph of Arie Stolk, who worked the Volgermeer for years. His daughter, Sientje Kaars-Stolk, then still living on the Galggouw, pulled the ribbon with the prince; she said afterwards that she had her grandson mow the lawn and her granddaughter wash the windows, because royalty does not come to Broek every day.
+
+    Look for:
+    - the bronze peat worker by the entrance to the reserve
+    - the flat, wet land around, where the pits were
+    - the starting point of the Volgermeer walks nearby
+  category: street-art
+  lat: 52.425001
+  lng: 4.995289
+  address: Volgermeer, near the Galggouw, Waterland
+  links:
+    - { label: "Volgermeer, geschiedenis", url: "https://www.volgermeer.nl/dossiers/geschiedenis/" }
+    - { label: "AT5, opening Volgermeer (2011)", url: "https://www.at5.nl/artikelen/60543/gifbelt-volgermeer-na-30-jaar-natuurgebied" }
+    - { label: Heleen Levano, url: "https://heleenlevano.nl/product/veenarbeider/" }
+    - { label: "Oud Broek, nieuwsbrief mei 2011", url: "https://www.oudbroek.nl/bestanden/bestanden/Nieuwsbrief_OudBroekNL_mei2011_v2.pdf" }
+  attributes:
+    rank: Okay
+    built: "2011"
+    artist: Heleen Levano
+  photos: []
+  sources:
+    - https://www.volgermeer.nl/dossiers/geschiedenis/ (Veenderij Zunderdorp 1920–1955, legakkers, Veenderijbrug, pits up to 4 m, Arie Stolk around 1930 immortalised by Levano)
+    - https://www.at5.nl/artikelen/60543/gifbelt-volgermeer-na-30-jaar-natuurgebied (prince opens the Volgermeer, unveils De Veenarbeider)
+    - https://www.oudbroek.nl/bestanden/bestanden/Nieuwsbrief_OudBroekNL_mei2011_v2.pdf (Sientje Kaars-Stolk: unveiled 19 April with the prince, made after a photo of her father Arie Stolk; lawn and windows)
+    - https://www.dorpsraadbroekinwaterland.nl/Bestanden/Bestanden/Kranten/201201.pdf (19 April opening and unveiling)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/650 (Levano from Broek in Waterland, Roma and Sinti memorial)
+    - OSM node "De Turfdrager" with artist and model (pin)
+    - https://www.noordhollandsdagblad.nl/incoming/ode-aan-de-veenarbeider-bij-volgermeer/9836824.html (statue planned at the entrance of the area; snippet only)
+  nl:
+    title: De Veenarbeider (Volgermeer)
+    summary: Een bronzen veenarbeider aan de rand van de Volgermeer, naar Arie Stolk, die hier rond 1930 turf stak voordat de petgaten vuilnisbelt en daarna de ergste gifbelt van Nederland werden. Prins Willem-Alexander onthulde het beeld in 2011 met de dochter van Stolk.
+    body: |
+      Tussen 1920 en 1955 was de Volgermeer een veenderij, de Veenderij Zunderdorp. Arbeiders groeven de oude veenbodem af, lieten de turf drogen op smalle legakkers en voerden hem per schip onder de Veenderijbrug door af als brandstof voor de stad en de dorpen. Zo ontstonden petgaten tot vier meter diep, die Amsterdam vanaf 1927 met huisvuil liet volstorten en waar in de jaren zestig chemisch afval bij kwam (zie Volgermeerpolder).
+
+      Toen de ingepakte stortplaats als natuurgebied openging, kwam ook het verhaal van de turf terug. Op 19 april 2011 opende prins Willem-Alexander de nieuwe Volgermeer en onthulde hij *De Veenarbeider* van Heleen Levano, beeldhouwster uit Broek in Waterland, van wie ook het monument voor de Sinti en Roma op het Museumplein is. Het brons is gemaakt naar een foto van Arie Stolk, die jarenlang veenarbeider op de Volgermeer was. Zijn dochter Sientje Kaars-Stolk, die nog aan de Galggouw woonde, trok samen met de prins aan het lint; haar kleinzoon moest vooraf het gras maaien en haar kleindochter de ramen lappen, want er komt niet elke dag koninklijk bezoek naar Broek.
+
+      Let op:
+      - de bronzen veenarbeider bij de ingang van het natuurgebied
+      - het vlakke, natte land eromheen, waar de petgaten waren
+      - het startpunt van de Volgermeerwandelingen vlakbij
+    sources:
+      - https://www.volgermeer.nl/dossiers/geschiedenis/
+      - https://www.oudbroek.nl/bestanden/bestanden/Nieuwsbrief_OudBroekNL_mei2011_v2.pdf
+      - https://www.dorpsraadbroekinwaterland.nl/Bestanden/Bestanden/Kranten/201201.pdf
+      - https://www.at5.nl/artikelen/60543/gifbelt-volgermeer-na-30-jaar-natuurgebied

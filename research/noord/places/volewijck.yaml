@@ -1,0 +1,1087 @@
+# Noord volewijck: Volewijck and Overhoeks. All 20 monuments in slices/volewijck.json are used
+# exactly once (15 places; the Sint Rita complex merges six national monuments), plus scouted
+# items 1 (in the Asterdorp place), 2, 3, 4+5, 6 (in the Tolhuistuin place), 9, 25, 35 and 45.
+# Dutch texts are spliced from the city register texts, the national register and nl.wikipedia;
+# see notes/volewijck.md for the places where the Dutch had to be written from facts.
+
+# ================================================================ Monuments
+
+- title: Asterdorp gatehouse (Atelier Volten)
+  summary: The last building of Asterdorp, the walled "housing school" where the city put "unfit" families under supervision, later a ghetto for Jewish residents. A sculptor's studio since 1952.
+  body: |
+    In 1927 the city's Housing Department opened Asterdorp: 132 small houses inside a closed ring of back walls 2.2 metres high, on an industrial estate in the Buiksloterham, far from the nearest neighbourhood. It was a *woonschool* (housing school) for families from inner-city slums who were judged not yet fit for a council home. Female supervisors checked their cleaning, rent payments and child care. This gatehouse by J.H. Mulder was the only way in, and from its upper floor, a club room, you could look out over the one-storey houses.
+
+    The experiment failed. Residents felt stigmatised (an Asterdorp address could cost you your job), and the village stood partly empty despite the housing shortage. In 1940 most families left, many for Floradorp; refugees from bombed Rotterdam followed. From January 1942 the German occupiers made Asterdorp a ghetto: first stateless Jews from Germany, Austria and Poland, then Jews from the Rivierenbuurt and other towns. Of the 307 Jewish residents, 227 were murdered. Germany recognised it as a ghetto in 2015, after Saskia van den Heuvel's documentary *Het vergeten getto*. The village was hit in the July 1943 bombing and demolished in 1955.
+
+    Only the gatehouse survived, now freestanding among sheds. Sculptor André Volten (1925–2002) lived and worked here from 1952; he closed the gate with workshop doors and added the steel beams and the hoisting beam. Since 2016 it is Atelier Volten, open on weekend afternoons during its exhibitions (spring to early November) and for groups in winter.
+
+    Although Volten lived here for half a century, Noord got a public work of his only in 1996, and it was his last: *De Knoop* (the knot), as everyone calls the untitled piece, by the Distelweg ferry pier about 600 metres north-west. Two stainless-steel links rest on two pillars, one on land and one in the IJ, tying Noord to the rest of the city. Volten also called it a tribute to himself.
+
+    Look for:
+    - the passage, still lined with grey coated brick and a band of orange tiles, as all Asterdorp houses once were
+    - the strip of five windows on the upper floor, the supervisors' view
+    - Volten's hoisting beam and door fittings
+    - about 600 metres north-west, by the Distelweg ferry pier: Volten's De Knoop (1996)
+  category: hidden-history
+  lat: 52.392589
+  lng: 4.904009
+  address: Asterdwarsweg 10
+  links:
+    - { label: Monumentenregister Amsterdam (200503), url: "https://data.amsterdam.nl/monumenten/01ae611b-9cd7-4a65-8fb4-6ddc9138163e" }
+    - { label: Wikipedia (nl) Asterdorp, url: "https://nl.wikipedia.org/wiki/Asterdorp" }
+    - { label: Joods Monument, url: "https://joodsmonument.nl/en/page/721645/asterdorp" }
+    - { label: Atelier Volten, url: "https://www.ateliervolten.nl/bezoek" }
+    - { label: "Kunstwacht, De Knoop", url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/376" }
+  attributes:
+    rank: Amazing
+    heritage_status: Municipal monument
+    monument_number: "200503"
+    built: 1926–1927
+    architect: J.H. Mulder (Gemeentelijke Woningdienst)
+    listed: 2004
+    original_use: Gatehouse and club room of a supervised housing estate
+  photos:
+    - commons:File:Amsterdam-poortgebouw Asterdorp.jpg
+    - commons:File:Atelier André Volten.jpg
+  sources:
+    - city:200503 (register text)
+    - https://nl.wikipedia.org/wiki/Asterdorp
+    - https://joodsmonument.nl/en/page/721645/asterdorp
+    - https://www.ateliervolten.nl/bezoek (opening: Sat-Sun 13-17 until 2 Nov 2026, again from 15 Mar 2027)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/376 (De Knoop: two pillars, one in the water; links on top; tribute to himself; last public work and first in Noord)
+    - https://nl.wikipedia.org/wiki/De_knoop (untitled, nickname, stainless steel, near the Distelweg ferry); OSM node 'De Knoop' (start_date 1996, 52.395286, 4.896903); Commons photos 2022
+  nl:
+    title: Poortgebouw Asterdorp (Atelier Volten)
+    summary: Het enige bouwwerk dat nog herinnert aan Asterdorp, het ommuurde oefendorp voor 'ontoelaatbare' gezinnen en later een getto voor Joodse bewoners. Sinds 1952 atelier van beeldhouwer André Volten.
+    body: |
+      Asterdorp in Amsterdam-Noord was een dorp van woningen voor ontoelaatbare gezinnen, gebouwd in 1927 op het industrieterrein in de Buiksloterham. Het was opgezet door de Gemeentelijke Woningdienst als een woonschool, waar probleemgezinnen onder toezicht werden gehuisvest en heropgevoed tot modelburgers. De bewoners werden gecontroleerd door opzichteressen. Het poortgebouw van J.H. Mulder was opgenomen in de gesloten buitenmuur, gevormd door de achtergevels van woningen; de doorgang was aanvankelijk de enige toegang tot Asterdorp. Op de verdieping konden buurtactiviteiten ontplooid worden, maar vandaar was ook uitzicht over de éénlaags woningen.
+
+      Asterdorp was geen succes. De bewoners ervoeren het verblijf als stigmatiserend en het dorp kampte, ondanks de hoge woningnood, met leegstand. In 1940 vertrokken de meeste bewoners, veelal naar Floradorp, en kwamen er Rotterdammers die bij het bombardement hun huis kwijt waren. Vanaf januari 1942 werden er op last van de Duitse bezetter staatloze Joden uit Duitsland, Oostenrijk en Polen ondergebracht, daarna Joden uit de Rivierenbuurt en uit andere steden. In totaal hebben er 307 Joden in Asterdorp gewoond, 227 van hen zijn vermoord. Dankzij de film *Het vergeten getto* van Saskia van den Heuvel is Asterdorp in 2015 door de Duitse overheid als getto erkend. In 1943 werden delen verwoest; in 1955 volgde de sloop en alleen het poortgebouw bleef behouden.
+
+      Van 1952 tot zijn dood in 2002 was het de werkplaats van beeldhouwer André Volten. Hij sloot de onderdoorgang af met grote metalen schuifdeuren en verfde de buitenmuren wit. Sinds 2016 is het gebouw als Atelier Volten in gebruik, tijdens tentoonstellingen open op zaterdag- en zondagmiddag.
+
+      Volten woonde hier een halve eeuw, maar pas in 1996 kreeg Noord een kunstwerk van hem in de openbare ruimte, meteen zijn laatste: *De Knoop*, zoals het titelloze beeld in de volksmond heet, bij de aanlegsteiger van het Distelwegveer, zo'n 600 meter naar het noordwesten. Twee roestvrijstalen schakels rusten op twee pijlers, een op het land en een in het IJ, en knopen zo Noord aan de rest van de stad. Volten zag het ook als een eerbetoon aan zichzelf.
+
+      Let op:
+      - de poortdoorgang met siermetselwerk in gepoedercoate grijze bakstenen en daarboven oranje plavuizen, de detaillering van de gesloopte woningen
+      - de reeks van vijf vensters op de verdieping
+      - de hijsbalk en het deurbeslag van André Volten
+      - zo'n 600 meter naar het noordwesten, bij het Distelwegveer: De Knoop van Volten (1996)
+    attributes:
+      architect: J.H. Mulder (Gemeentelijke Woningdienst)
+      original_use: Poortgebouw en clublokaal van een woonschool
+    sources:
+      - https://data.amsterdam.nl/monumenten/01ae611b-9cd7-4a65-8fb4-6ddc9138163e
+      - https://nl.wikipedia.org/wiki/Asterdorp
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/376
+      - https://nl.wikipedia.org/wiki/De_knoop
+
+- title: Albert Lust's milk shop
+  summary: The only one of the Van der Pekbuurt's twelve corner shops that kept its 1919 interior, once run by the chairman of a socialist dairy co-operative in Amsterdam's "milk war".
+  body: |
+    When the Van der Pekbuurt garden village was built (1918–1923), architect J.E. van der Pek gave it twelve little shop-homes, set in the bends of its fan-shaped streets. Begoniastraat 6 is the only one where the shop was never turned into living space. Its layout, woodwork and paint survive, with some furniture of the first family.
+
+    That family was Albert Lust (1887–1984) from Oostzaan and Grietje van Vuure. Lust chaired the socialist co-operative *Nieuw Leven* (New Life), which supplied about 166 socialist milkmen from its own dairy during the *Melkoorlog*, the milk war of the late 1910s and 1920s over price, hygiene and the power of the big dairies. The name on the windows refers to it. The Lusts left in 1926; later owners turned it into a grocer's and, after 1976, a bookbinder's.
+
+    When the even side of the street was due for renovation, the local history centre opened the shop as a pop-up museum (2019–2021) and the building became a municipal monument in November 2020. It is a private building: look from the street.
+  category: hidden-history
+  lat: 52.387247
+  lng: 4.909973
+  address: Begoniastraat 6
+  links:
+    - { label: Monumentenregister Amsterdam (200925), url: "https://data.amsterdam.nl/monumenten/7647ba5b-8ebc-4398-b1c1-ae92edf27e60" }
+    - { label: Wikipedia (nl) Begoniastraat 6, url: "https://nl.wikipedia.org/wiki/Begoniastraat_6_(Amsterdam)" }
+    - { label: Historisch Centrum Amsterdam-Noord, url: "https://hcan.nl/locaties/begoniastraat-6-huis-gemeentelijk-monument/" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200925"
+    built: "1919"
+    architect: J.E. van der Pek
+    listed: 2020
+    original_use: Shop with home (dairy)
+  photos:
+    - commons:File:Begoniastraat 6, Amsterdam (2021).png
+  sources:
+    - city:200925 (register text)
+    - https://nl.wikipedia.org/wiki/Begoniastraat_6_(Amsterdam)
+    - https://100jaarvanderpek.nl/het-melkwinkeltje/begoniastraat-6-huis-geopend/index.html (facts only)
+  nl:
+    title: Melkwinkel Albert Lust
+    summary: Het enige van de twaalf buurtwinkeltjes van de Van der Pekbuurt met een interieur in originele staat, ooit de melkwinkel van de voorzitter van de socialistische coöperatie Nieuw Leven.
+    body: |
+      Tussen 1918 en 1923 werd de Van der Pekbuurt gebouwd. Oorspronkelijk waren er 12 buurtwinkels, die bestonden uit een benedenwoning met een winkelruimte. De winkelwoningen in de knik van de waaiervormige straatjes nemen door hun afwijkende plattegrond typologisch een bijzondere plaats in het ontwerp in. Begoniastraat 6 bleef als enige bewaard; bij de andere panden is de winkelruimte verbouwd tot woningruimte. Zowel de plattegrond als de interieuronderdelen en de afwerking zijn redelijk gaaf bewaard gebleven, en van de eerste inboedel uit 1919-1926 van de familie Lust zijn enkele meubelstukken bewaard gebleven.
+
+      Albert Lust (Oostzaan, 1887-1984) en zijn vrouw Grietje van Vuure (Ransdorp, 1889-1960) waren de eerste uitbaters. Lust was voorzitter van de socialistische coöperatie "Nieuw Leven", die melk leverde aan zo'n 166 socialistische melkboeren door middel van een eigen fabriek, en speelde in de periode 1918-1926 een belangrijke rol in de Melkoorlog. De naam op de winkelruiten is een verwijzing naar deze coöperatie. Later werd het een kruidenierszaak en na 1976 een boekbinderij.
+
+      In mei 2019 opende het Historisch Centrum Amsterdam-Noord tijdelijk een tentoonstelling in het pand. In november 2020 werd het een gemeentelijk monument. Het is geen museum: bekijk het vanaf de straat.
+    attributes:
+      original_use: Winkelwoning (melkwinkel)
+    sources:
+      - https://data.amsterdam.nl/monumenten/7647ba5b-8ebc-4398-b1c1-ae92edf27e60
+      - https://nl.wikipedia.org/wiki/Begoniastraat_6_(Amsterdam)
+
+- title: Ponthuys (former ferry office)
+  summary: "The 1929 office of the municipal ferries, with two steep gables and slanted chimneys: the first building you see when the ferry from Centraal lands at the Buiksloterweg."
+  body: |
+    Ferries have crossed the IJ to the Volewijck for centuries. When Amsterdam annexed Noord in 1921 and filled it with garden villages and shipyards, the number of people crossing every day exploded. Public Works built new landing stages, a waiting room and this office for the *gemeenteveren* (municipal ferries) in 1929. The architect at Public Works is not known.
+
+    It is a low, symmetrical building in yellow brick under a huge dark roof with steep hips, two gables with playful round windows, and two tall chimneys with partly slanted shafts. The low walls and wide white gutters make the roof do the talking. Inside, terrazzo floors still trace the old office corridors. The matching waiting room to the south was demolished in the 1990s. Today it is a café-restaurant, and together with the old Tolhuis next door it forms the gateway to Noord for the Buiksloterweg ferry.
+  category: infrastructure
+  lat: 52.382534
+  lng: 4.903425
+  address: Buiksloterweg 5
+  links:
+    - { label: Monumentenregister Amsterdam (200669), url: "https://data.amsterdam.nl/monumenten/50b0baa9-692e-4dba-a5a6-9b862dd75cdf" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200669"
+    built: "1929"
+    architect: Dienst der Publieke Werken
+    listed: 2013
+    original_use: Office of the municipal ferries
+  photos:
+    - commons:File:Ponthuys, Amsterdam-Noord 1.jpeg
+  sources:
+    - city:200669 (register text)
+  nl:
+    title: Ponthuys (voormalig kantoor gemeenteveren)
+    summary: "Het kantoorgebouw van de Amsterdamse gemeenteveren uit 1929, met hoge kappen en schuine schoorstenen: de eerste blikvanger bij aankomst met de pont aan de Buiksloterweg."
+    body: |
+      Om de toenemende aantallen bewoners en werkers tussen het centrum en Noord te kunnen vervoeren werd de pontverbinding gerealiseerd. Dat impliceerde aan de Buiksloterweg de bouw van aanlegsteigers, een kantoorgebouw en een wachthuisje. De dienst Publieke Werken leverde het ontwerp voor het kantoorgebouw van de Amsterdamse gemeenteveren uit 1929; het is niet bekend op naam van welke architect het moet worden geschreven.
+
+      De verschijningsvorm wordt gekenmerkt door een ingetogen opzet met een in genuanceerde gele baksteen gemetselde, symmetrische bouwmassa, met aan de voorzijde twee markante topgevels. Het zijn vooral de hoge kappen die het gebouw een expressief karakter geven, een effect dat wordt versterkt door de twee vrij hoge schoorstenen met een deels schuine schacht. Op de begane grond zijn nog de terrazzovloeren te zien die verwijzen naar het vroegere gangenstelsel. Het zuidelijker gelegen wachthuisje in dezelfde stijl is in de jaren '90 afgebroken. Het gebouw vormt de eerste blikvanger bij de aankomst vanaf het IJ en heeft samen met het nabijgelegen Tolhuis belangrijke ensemblewaarde. Tegenwoordig is het een café-restaurant.
+    attributes:
+      architect: Dienst der Publieke Werken
+      original_use: Kantoor van de gemeenteveren
+    sources:
+      - https://data.amsterdam.nl/monumenten/50b0baa9-692e-4dba-a5a6-9b862dd75cdf
+
+- title: "'t Tolhuis"
+  summary: Successor of the 1660s toll house and inn where travellers waited for the ferry. Willem Springer's 1859 café drew Amsterdammers across the IJ for concerts, years before the Vondelpark opened.
+  body: |
+    In 1660 the Buiksloot ferry was moved to the Volewijck, and the city built a toll collector's house and inn here, the first Tolhuis, to fund the new towing canal north to Buiksloot, Purmerend and Hoorn. A tea dome followed in 1770. Once the steam ferry ran from 1842, the Tolhuis became a favourite day out.
+
+    The present building dates from 1859, an eclectic café-restaurant by assistant city architect Willem Springer, with a garden by city engineer P. van der Sterr. Its two rooms looked west over the IJ. A playground, bandstand and archery range followed in 1878, and the open-air concerts in the garden were a hit years before the Vondelpark opened in 1865. It survived the 1913 shipping exhibition (ENTOS) held around it, became a *volkskoffiehuis* (people's coffee house) in 1919, and lost most of its garden to Shell in 1938. Architect Theo Bosch added a wedding room on the garden side in 1989. It is still a café-restaurant.
+
+    Look for:
+    - the entrance porch on the short south side, with carved bargeboards and a fanlight with star tracery
+    - the five double doors with round fanlights along the west front
+    - the wide, low-pitched roofs with carved cornices
+  category: civic
+  lat: 52.383092
+  lng: 4.904877
+  address: Buiksloterweg 7
+  links:
+    - { label: Rijksmonumentenregister (508530), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/508530" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/d1ea9370-6e16-4b4f-b3fb-94f2c69bf8ca" }
+    - { label: Wikipedia (nl) Tolhuis, url: "https://nl.wikipedia.org/wiki/Tolhuis_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "508530"
+    built: "1859"
+    architect: Willem Springer
+    listed: 1997
+    original_use: Café-restaurant at the toll house
+  photos:
+    - commons:File:Buiksloterweg 7.JPG
+    - commons:File:Overzicht restaurant, voorgevel met ingangsportaal en rechter zijgevel, gezien vanaf de weg - Amsterdam - 20409467 - RCE.jpg
+    - commons:File:Tolhuis, Amsterdam ~1900-1914.jpg
+  sources:
+    - rce:508530 (register description)
+    - https://nl.wikipedia.org/wiki/Tolhuis_(Amsterdam)
+  nl:
+    title: "'t Tolhuis"
+    summary: Opvolger van het tolhuis en de herberg uit de jaren 1660 bij het Buiksloterveer. Het café uit 1859 van Willem Springer trok Amsterdammers naar de overkant, nog voor het Vondelpark bestond.
+    body: |
+      In 1660 werd het Buiksloterveer verlegd naar de Volewijck, waar een commissarishuisje en een herberg, het eerste Tolhuis, gebouwd werden. Het onderhoud van de trekvaart naar Buiksloot, Purmerend en Hoorn zou worden bekostigd door het heffen van tolgelden. In 1770 werd er een theekoepel bijgebouwd. Toen in 1842 de stoompont ging varen, werd het Tolhuis tot het begin van de 20e eeuw een plek waar Amsterdammers graag hun vrije tijd doorbrachten.
+
+      In 1859 werd het nu nog bestaande café-restaurant 't Tolhuis gebouwd naar eclectisch ontwerp van stadsarchitect W. Springer, met de lange westzijde op het IJ georiënteerd; het ontwerp van het bijbehorende plantsoen werd geleverd door stadsingenieur P. van der Sterr. Dit werd een zeer welkom uitje voor de Amsterdammers, die pas in 1865 in het Vondelpark terechtkonden. In 1878 werden een speeltuin, muziektent en handboogbanen toegevoegd. In 1913 werd op deze plaats de ENTOS gehouden, waarbij het café gespaard bleef, en in 1919 werd het ingericht tot Volkskoffiehuis. Architect Theo Bosch bouwde in 1989 een trouwzaal aan de tuinzijde. Het Tolhuis is nog steeds een horecagelegenheid.
+
+      Let op:
+      - het entreeportaal aan de korte zuidzijde, met gesneden windveren en een halfrond bovenlicht met sterbloemvormige tracering
+      - de vijf dubbele zesruits paneeldeuren met halfrond bovenlicht in de westgevel
+      - de flauwhellende schild- en zadeldaken met grote overstek en gesneden daklijsten
+    attributes:
+      original_use: Café-restaurant bij het tolhuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/508530
+      - https://nl.wikipedia.org/wiki/Tolhuis_(Amsterdam)
+
+- title: Police post by the Willemssluis
+  summary: A tiny 1915 police post in country-style Amsterdam School, clad in green-and-white boards, with two cells whose air came through a lead-clad link between the chimneys.
+  body: |
+    In 1915–1916 Public Works put a small police post on the west bank of the outer harbour of the Noordhollandsch Kanaal, by the lock. It held a constables' room, a room for the commander, a bicycle store and, in the middle, two holding cells.
+
+    It is the rural variant of the Amsterdam School: a plan of two interlocking squares, with a brick base and horizontal boarding painted green at top and bottom and off-white in between, with pointed board ends and a notched edge round the windows. The windows have nine-pane sashes and shutters. The real oddity is on the roof: the two chimneys are joined by a lead-clad bridge that holds the air ducts that ventilated the cells. The entrance sits on the cut-off south corner. The back entrance and extension are later.
+  category: civic
+  lat: 52.383728
+  lng: 4.906544
+  address: Buiksloterweg 9
+  links:
+    - { label: Rijksmonumentenregister (508529), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/508529" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/f180f66a-8b40-4e11-85ac-a4d70b9dce25" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "508529"
+    built: 1915–1916
+    architect: Dienst der Publieke Werken
+    listed: 1997
+    original_use: Police post with two cells
+  photos:
+    - commons:File:Vierkant houten politiebureau met tentdak - Amsterdam - 20409459 - RCE.jpg
+  sources:
+    - rce:508529 (register description)
+  nl:
+    title: Politiepost bij de Willemssluis
+    summary: Een piepkleine politiepost uit 1915 in landelijke Amsterdamse School, groen-wit beschoten, met twee arrestantenlokalen die lucht kregen via een met lood bekleed tussenstuk tussen de schoorstenen.
+    body: |
+      In 1915-1916 aan de westelijke oever van de Voorhaven van het Noord-Hollandsch Kanaal opgetrokken politiepost naar een ontwerp in Amsterdamse School-stijl van de Dienst der Publieke Werken. Het gebouw omvatte in oorsprong een agentenkamer, een kamer voor de postcommandant, een fietsenbergplaats en twee in het midden gesitueerde arrestantenlokalen.
+
+      Het gebouwtje heeft een plattegrond van twee in elkaar geschoven vierkanten, op een bakstenen plint met horizontaal beschot. Op beide nokpunten staat een deels met lood beklede schoorsteen, met elkaar verbonden door een eveneens met lood bekleed tussenstuk, waarin luchtkanalen zijn gesitueerd ten behoeve van de zuurstofvoorziening van de arrestantenkamers. Het houten beschot is aan de boven- en onderzijde groen geschilderd, verder gebroken wit; de uiteinden van de delen zijn gepunt en de bovenrand rond de raamkozijnen is gekarteld. Achteringang en aanbouw zijn niet oorspronkelijk.
+
+      Let op:
+      - de schoorstenen met het loden tussenstuk
+      - de ingang op de afgeschuinde zuidhoek, met bewerkte houten deur en smalle zijlichten
+      - de dubbele vensters met negenruitsverdeling en luiken
+    attributes:
+      original_use: Politiepost met twee arrestantenlokalen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/508529
+
+- title: Lock-keeper's house, Willemssluis
+  summary: A sturdy 1839 lock-keeper's house by King William I's showpiece lock, with an early Philibert-type arched roof truss, a technique then mostly used for army buildings.
+  body: |
+    The Noordhollandsch Kanaal, dug from the IJ to Den Helder and opened in 1824 to Jan Blanken's design, was one of the great engineering works of King William I, and the Willemssluis at its mouth was admired worldwide. The first lock-keeper's house, thrown up with the canal, was not grand enough: in 1839 the state built new homes for the harbour master and the lock hands, reusing bricks and timber from the old house. The lock hands' cottages still stand at Buiksloterweg 13-19, the harbour master's house across the water.
+
+    This house was built of hard grey Vecht bricks on Amsterdam pile foundations, with a hipped roof and a cellar tiled in costly yellow glazed tiles. Its rarity is in the attic: a Philibert truss (an arch built up from short planks), invented in France in 1561 and revived in the 19th century mainly for military buildings, and very rare in a house. The house was split in two in 1938. Private homes: look from the Buiksloterweg.
+  category: infrastructure
+  lat: 52.384119
+  lng: 4.907598
+  address: Buiksloterweg 9-11
+  links:
+    - { label: Monumentenregister Amsterdam (200470), url: "https://data.amsterdam.nl/monumenten/a47dac15-af80-43f8-b39c-040ce1bd548f" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200470"
+    built: "1839"
+    listed: 2002
+    original_use: Lock-keeper's house
+  photos:
+    - commons:File:Sluiswachterswoning, Amsterdam-Noord 1.jpeg
+  sources:
+    - city:200470 (register text)
+  nl:
+    title: Sluiswachterswoning Willemssluis
+    summary: Een solide sluiswachterswoning uit 1839 bij de Willemssluis van koning Willem I, met in de kap Philibertspanten, een toen vooruitstrevende constructie die vooral bij militaire gebouwen werd gebruikt.
+    body: |
+      Het Noordhollands Kanaal van het IJ naar Den Helder werd in 1824 aangelegd naar ontwerp van Jan Blanken en volgt voor een groot deel de loop van de oude trekvaart naar de Buiksloterdijk. Zowel het kanaal als de Willemssluis golden toen wereldwijd als waterbouwkundige hoogtepunten. Uit de aanbestedingsstukken uit 1839 blijkt dat er gelijktijdig een nieuwe woning voor de havenmeester en drie voor de sluisknechts werden gebouwd. De oudere woning was kwalitatief niet goed genoeg, zodat men al na 15 jaar nieuw bouwde, gedeeltelijk met materialen uit de te slopen woningen. De sluisknechtenwoningen staan nog altijd op Buiksloterweg 13-19.
+
+      De woning is opgetrokken uit hardgrauwe Vechtse moppen, op een Amsterdamse fundering met schuifhout, onder een dak met wolfseinden. De voorraadkelder is betegeld met geel geglazuurde plavuizen, een dure toepassing. Zeer bijzonder is de kapconstructie met zogenaamde Philibertspanten: een houten boogspant uit korte planken, in 1561 ontwikkeld door de Fransman Philibert de l'Orme en in de 19e eeuw herontdekt, overwegend in militaire gebouwen. Voor woonhuizen was dit niet gangbaar. In 1938 werd het pand in twee woningen gesplitst. Het zijn woonhuizen: bekijk ze vanaf de Buiksloterweg.
+    attributes:
+      original_use: Sluiswachterswoning
+    sources:
+      - https://data.amsterdam.nl/monumenten/a47dac15-af80-43f8-b39c-040ce1bd548f
+
+- title: Sint Rita complex (BUNK)
+  summary: Kropholler's brick Catholic enclave of church, presbytery, convent, cloister and school. A bomb fell into the full church in July 1943; the church is now a hotel with pods under the arches.
+  body: |
+    Between 1921 and 1931 A.J. Kropholler built a whole Catholic world around a triangular green on the Hagedoornplein: the church of *Sint Rita over 't Y* (1921–1922), its presbytery, the Sint Rosa convent of the Dominican sisters of Voorschoten with its chapel (1926–1927), a cloister with a walled vegetable garden, the Sint Rosa school (1929–1930) and a pair of houses on the Buiksloterweg (1930). It is his typical traditionalism: dark brown brick, red roofs, natural-stone details, pointed arches.
+
+    On 17 July 1943 the parish was celebrating its 25th anniversary with a mass for local children when the American raid on the Fokker factory went astray. A heavy bomb crashed through the roof; eleven churchgoers died, two of them 13-year-old altar boys, and seven nuns died in the convent. C.M. van Moorsel restored everything after the war and in 1947 gave the church its present squat tower instead of the planned spire. The buildings lost their religious use from 1995; the west half of the church held a library from 1973, and the church is now BUNK, a hotel with pods in the nave. The convent and school are homes.
+
+    Look for:
+    - the marker about the 1943 bomb to the left of the hotel entrance
+    - a memorial manhole cover on the Hagedoornplein, opposite the church
+    - the tile panel with a rose on the double house, Buiksloterweg 97-99, and the stone saint under a little roof
+    - Catharina of Siena and the dove on the tile panels of the school
+    - the 1948 stained-glass window of Saint Rita in the presbytery stairwell (Buiksloterweg 95), given by the sisters
+  category: religious
+  lat: 52.388099
+  lng: 4.913944
+  address: Hagedoornplein 2
+  links:
+    - { label: Rijksmonumentenregister (498725), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/498725" }
+    - { label: RCE complex 497972, url: "https://kennis.cultureelerfgoed.nl/index.php/Complexen/497972" }
+    - { label: Wikipedia (nl) Sint-Ritakerk, url: "https://nl.wikipedia.org/wiki/Sint-Ritakerk_(Amsterdam)" }
+    - { label: "4 en 5 mei, gedenkraam", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3099/amsterdam-gedenkraam-in-de-sint-ritakerk" }
+    - { label: "HCAN, putdeksel St. Ritakerk", url: "https://hcan.nl/monument/putdeksel-st-ritakerk/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 498725, 498726, 498727, 498728, 498729, 498730
+    built: 1921–1931
+    architect: A.J. Kropholler
+    listed: 1996
+    original_use: Church, presbytery, convent, cloister, school and houses
+  photos:
+    - commons:File:Sint-Ritakerk 1.jpg
+    - commons:File:Hagedoornplein 2.JPG
+    - commons:File:Amsterdam - St-Rosa-klooster.jpg
+    - commons:File:Buiksloterweg 97.JPG
+  sources:
+    - rce:498725, 498726, 498727, 498728, 498729, 498730 (register descriptions)
+    - https://kennis.cultureelerfgoed.nl/index.php/Complexen/497972
+    - https://nl.wikipedia.org/wiki/Sint-Ritakerk_(Amsterdam)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3099/amsterdam-gedenkraam-in-de-sint-ritakerk
+    - https://hcan.nl/monument/putdeksel-st-ritakerk/ (facts only)
+    - https://www.hmdb.org/m.asp?m=268687 (marker text and position)
+  nl:
+    title: Sint-Ritacomplex (BUNK)
+    summary: "Het bakstenen rooms-katholieke complex van Kropholler: kerk, pastorie, klooster, kloosterhof en school. In juli 1943 viel een bom in de volle kerk; de kerk is nu een hotel."
+    body: |
+      Tussen 1921 en 1931 gerealiseerd kerkelijk complex, in fasen ontworpen door A.J. Kropholler in opdracht van de St. Rita-parochie en de zusters Dominicanessen te Voorschoten, gegroepeerd rond een driehoekig plein met groenaanleg. Het bestaat uit de St. Ritakerk (1921-22), oorspronkelijk genaamd 'St. Rita over 't Y', de pastorie (1921-22), het St. Rosaklooster met kloosterkapel (1926-27), de kloosterhof met kloostergang en ommuurde moestuin (1926-27), de St. Rosaschool (1929-30) en een dubbelwoningblok (1930), alles in een voor Kropholler kenmerkende traditionalistische stijl met donkerbruine baksteen en natuurstenen details.
+
+      De Sint Ritaparochie vierde in juli 1943 haar 25-jarig bestaan. Op 17 juli werd een speciale hoogmis voor de kinderen gehouden toen de kerk werd getroffen door een bom, bedoeld voor de Fokkerfabriek. Elf kerkgangers kwamen om, onder wie de misdienaartjes Theodorus de Nijs en Johannes Moolenschot, beiden 13 jaar. In het Rosaklooster werden zeven nonnen gedood. Na de oorlog werd het complex hersteld door C.M. van Moorsel, die in 1947 de huidige ingangstoren bouwde ter plaatse van de geplande toren met hoge spits. De gebouwen hebben hun religieuze functie vanaf 1995 verloren; de kerk heeft sinds ongeveer 2018 een horecabestemming en is nu hotel BUNK. Het klooster en de overige onderdelen zijn woningen.
+
+      Let op:
+      - het bord over de bom van 1943 links van de hotelingang
+      - het putdeksel met namen van slachtoffers op het Hagedoornplein, tegenover de kerk
+      - het tegeltableau met roos en rozeblad en het heiligenbeeld onder een dakruiter bij de dubbelwoning Buiksloterweg 97-99
+      - de tegeltableaux met de duif en Catharina van Siena in de gevel van de school
+      - het glas-in-loodvenster met de H. Rita uit 1948 in het trappenhuis van de pastorie, geschonken door de zusters
+    attributes:
+      original_use: Kerk, pastorie, klooster, kloosterhof, school en woningen
+    sources:
+      - https://kennis.cultureelerfgoed.nl/index.php/Complexen/497972
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/498725
+      - https://nl.wikipedia.org/wiki/Sint-Ritakerk_(Amsterdam)
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3099/amsterdam-gedenkraam-in-de-sint-ritakerk
+
+- title: Disteldorp
+  summary: Emergency houses from 1918, built to last 35 years and still lived in more than a century later. Tarred boards, wooden gateways and crooked lanes give it the look of a village that just grew.
+  body: |
+    At the end of the First World War house building had stalled and refugees had arrived, so in 1918–1919 the city's Housing Department built two "emergency villages" on industrial land in Noord: Disteldorp and Vogeldorp, designed by B.T. Boeyinga. They were meant to last 35 years. Housing director Arie Keppler was proud: the brick single-family worker's house, he wrote, had made its entry into the capital. The villages became the test run for the later garden villages Tuindorp Oostzaan and Tuindorp Nieuwendam.
+
+    Disteldorp had 224 homes in just two types, low "bungalows" and houses with an attic, varied endlessly by Boeyinga. Its streets bend and seldom meet at right angles, so it looks like a village that grew by itself. The city decided to keep it in 1932, 1953, 1967 and 1983; residents fought off demolition in 1998; it became a municipal monument in 2000 and was renovated in 2003. That renovation is wearing out: owner Lieven de Key is studying either a full renovation or demolition and rebuilding in the same style, and residents worry about costs and returning. A decision is expected in 2028.
+
+    Look for:
+    - the two wooden gateways over side streets on the Lange Distelstraat
+    - the horizontal tarred boarding above the doors, like the dike villages of Noord
+    - brick-sided dormers
+    - the Distelplein with its shop buildings
+    - the former bathhouse at Kromme Distelstraat 17 (1919), shaped a little like a farmhouse, with eight shower cubicles for houses built without bathrooms; it closed in 1977, years before the houses got showers in 1983, and outlived several demolition plans
+  category: housing
+  lat: 52.391663
+  lng: 4.910542
+  address: Lange Distelstraat, Distelplein and surrounding streets
+  links:
+    - { label: Monumentenregister Amsterdam (200445), url: "https://data.amsterdam.nl/monumenten/bce644af-d044-472e-a753-06e38f452699" }
+    - { label: Wikipedia (nl) Disteldorp, url: "https://nl.wikipedia.org/wiki/Disteldorp" }
+    - { label: NH Nieuws (2025), url: "https://www.nhnieuws.nl/nieuws/351994/sloop-of-renovatie-bewoners-distel-en-vogeldorp-in-amsterdam-noord-vrezen-plannen-woningcorporatie" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200445"
+    built: 1918–1919
+    architect: B.T. Boeyinga (Gemeentelijke Woningdienst)
+    listed: 2000
+    original_use: Emergency housing
+  photos:
+    - commons:File:Disteldorp.jpg
+    - commons:File:Amsterdam - Disteldorp I.JPG
+  sources:
+    - city:200445 (register text)
+    - https://nl.wikipedia.org/wiki/Disteldorp
+    - https://www.nhnieuws.nl/nieuws/351994/sloop-of-renovatie-bewoners-distel-en-vogeldorp-in-amsterdam-noord-vrezen-plannen-woningcorporatie (facts only)
+    - "https://nl.wikipedia.org/wiki/Kromme_Distelstraat_17 (bathhouse 1919, Boeyinga, sister of the Zamenhofstraat 28a bathhouse, shaped somewhat like a stolp farm, eight shower cubicles, closed 1977, repeated demolition plans, spared by the monument listing of the area)"
+    - "https://amsterdamopdekaart.nl/1850-1940/Kromme_Distelstraat/Badhuis_Disteldorp (houses only got showers in 1983; bathhouse closed 1977; 8 cubicles)"
+  nl:
+    title: Disteldorp
+    summary: Noodwoningen uit 1918, gebouwd voor 35 jaar en ruim een eeuw later nog bewoond. Geteerde beplanking, houten poorten en kromme straatjes geven het het beeld van een organisch gegroeid dorpje.
+    body: |
+      Door de gestegen rente en de hoge kosten van bouwmaterialen als gevolg van de oorlog was de woningbouw praktisch tot stilstand gekomen, en bovendien was het neutrale Nederland een uitwijkplaats geworden voor vluchtelingen. In 1918-1919 werden door de Gemeentelijke Woningdienst met B.T. Boeyinga als projectarchitect Disteldorp en Vogeldorp als semi-permanente complexen voor een periode van 35 jaar gebouwd. 'Het eengezinsarbeiders-huis uit steen gebouwd heeft zijn intrede in de hoofdstad gedaan', schreef een trotse Keppler. De nooddorpen bleken een vingeroefening voor Tuindorp Oostzaan en Tuindorp Nieuwendam.
+
+      Disteldorp bestond oorspronkelijk uit 224 woningen, winkels, een administratiegebouwtje, een badhuis en een verenigingsgebouw. Het heeft een onregelmatige structuur, met gebogen straten die slechts in sommige gevallen een rechte hoek met elkaar maken. Als gevolg hiervan vertoont het dorp het rustieke beeld van een organisch gegroeide kleine nederzetting. In 1998 werd, na protesten van bewoners, een sloopplan niet uitgevoerd. Het dorp staat sinds 2000 op de gemeentelijke monumentenlijst en werd in 2003 gerenoveerd. Woningcorporatie Lieven de Key onderzoekt nu een grondige renovatie of sloop en herbouw in dezelfde historische stijl; de besluitvorming wordt in 2028 verwacht.
+
+      Let op:
+      - de twee houten poorten over de zijstraten in de Lange Distelstraat
+      - de horizontaal getrapte, geteerde beplanking boven de deuren
+      - de dakkapellen met zijkanten van baksteen
+      - het Distelplein met de winkels
+      - het voormalige badhuis op Kromme Distelstraat 17 (1919), een beetje in de vorm van een stolpboerderij, met acht douchecabines voor woningen zonder badkamer; het ging in 1977 dicht, jaren voordat de huizen in 1983 douches kregen, en overleefde meerdere sloopplannen
+    attributes:
+      architect: B.T. Boeyinga (Gemeentelijke Woningdienst)
+      original_use: Noodwoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/bce644af-d044-472e-a753-06e38f452699
+      - https://nl.wikipedia.org/wiki/Disteldorp
+      - https://nl.wikipedia.org/wiki/Kromme_Distelstraat_17
+
+- title: Tolhuistuin and the Shell canteen
+  summary: One of the city's oldest pleasure gardens, where concerts and exhibitions drew crowds until Shell fenced it off for 70 years. Its 1970s staff canteen by Arthur Staal is now a music venue.
+  body: |
+    Travellers once waited at the Tolhuis for the city gates across the IJ to open. A tea dome and garden followed in 1770, and from about 1870 the Tolhuistuin was a pleasure garden with open-air concerts, a dance floor, a bowling alley and a shooting range. It hosted the first Dutch shipping exhibition (1913) and the first Amsterdam aviation exhibition (1919), whose halls on the Papaverweg then became the Fokker aircraft factory. In 1938 Shell bought the garden and folded it into its research laboratory. For some 70 years it was closed to the public behind a fence; the big elm, as old as the 1859 Tolhuis, was spared.
+
+    In the south of the garden Shell's architect Arthur Staal built a large staff restaurant, designed in the 1960s and finished in the 1970s, as part of a deliberately composed front along the IJ with his Shell tower (now A'DAM Toren) and a bridge over the Buiksloterkanaal. It is a sculptural structuralist building with tent-shaped ceilings and a chain of open square rooms upstairs; it became a municipal monument in 2022. After Shell sold the site in 2009, the city held a competition, and since 2014 the pavilion and the smaller Shell buildings in the garden house Tolhuistuin, a cultural centre with Paradiso Noord. The garden is open again.
+
+    The IJ-paviljoen, a café pavilion of 1913–1917 on the water just east of the Buiksloterkanaal, with the garden behind it, has gone. Only its bluestone mooring posts survive, topped with the imperial crown and carved with the letters SPQA and St Andrew's crosses, probably designed by Piet Kramer. Shell moved them twice, last to the garden of its campus off the Grasweg, where the public cannot see them.
+
+    Look for:
+    - the tent-shaped roofs of the pavilion, best seen from the IJ side
+    - Staal's footbridge over the Buiksloterkanaal
+    - the Poortgebouw (the 1938 canteen for weekly-paid staff) and the Staalvilla (company medical service, 1955) in the garden
+  category: green
+  lat: 52.38333
+  lng: 4.90367
+  address: IJpromenade 2
+  links:
+    - { label: Monumentenregister Amsterdam (200957), url: "https://data.amsterdam.nl/monumenten/7a1bd1f7-25d8-47ef-94db-e26a2186c6d9" }
+    - { label: Wikipedia (nl) Tolhuistuin, url: "https://nl.wikipedia.org/wiki/Tolhuistuin" }
+    - { label: "Tolhuistuin, history", url: "https://tolhuistuin.nl/en/geschiedenis-van-tolhuistuin" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200957"
+    built: 1963–1974
+    architect: Arthur Staal
+    listed: 2022
+    original_use: Staff restaurant of the Shell laboratory
+  photos:
+    - commons:File:2022 IJpromenade 2, Asd (01).jpg
+    - commons:File:Tolhuistuin.JPG
+  sources:
+    - city:200957 (register text)
+    - https://nl.wikipedia.org/wiki/Tolhuistuin
+    - https://nl.wikipedia.org/wiki/Tolhuis_(Amsterdam)
+    - https://tolhuistuin.nl/en/geschiedenis-van-tolhuistuin (facts only)
+    - "https://www.rodi.nl/amsterdam-noord/nieuws/508432/meerpalen-op-drift-het-enige-restant-van-het-ij-paviljoen (Dirk Roos: IJ-paviljoen built 1913–1917 in two stages, just east of the Buiksloterkanaal with the Tolhuistuin behind; bluestone mooring posts the only remnant; imperial crown, SPQA, St Andrew's crosses; probably Piet Kramer, by comparison with the Johanna Borskibrug; moved by Shell behind the Groot Laboratorium, then to the garden of the Shell Technology Centre, now Energy Transition Campus, between the IJ and the Grasweg, not visible or accessible)"
+    - "https://www.fokker-history.com/en-gb/fokkervestigingen-in-nederland-1919-1996 (Fokker moved into the halls of the ELTA, 1 August to 14 September 1919, at Papaverweg 31-33)"
+  nl:
+    title: Tolhuistuin en de Shellkantine
+    summary: Een van de oudste lusthoven van de stad, met concerten en tentoonstellingen, tot Shell hem zeventig jaar afsloot. Het bedrijfsrestaurant van Arthur Staal is nu een poppodium.
+    body: |
+      De Tolhuistuin groeide eind 19e eeuw uit tot een lusthof voor de betere kringen in Amsterdam, waar regelmatig muziekuitvoeringen plaatsvonden. Rond 1870 begon de traditie van openluchtconcerten. In 1913 werd hier de Eerste Nederlandse Tentoonstelling op Scheepvaartgebied gehouden, in 1919 de Eerste Luchtverkeer Tentoonstelling Amsterdam (ELTA), waarvan de hallen aan de Papaverweg daarna de vliegtuigfabriek van Fokker werden. Rond 1938 werd de Tolhuistuin onderdeel van het terrein van de Bataafse Petroleum Maatschappij, later Shell. De grote iep, even oud als het Tolhuis van 1859, mocht blijven staan.
+
+      In het zuidelijke deel van de tuin kwam het bedrijfsrestaurant van het Shell-laboratorium, ontworpen door Arthur Staal in de periode 1963-1965 / 1974. Het is van hoge architectonische waarde als overwegend gaaf gebleven voorbeeld van een bedrijfsgebouw volgens de structuralistische stroming van de jaren '60 en '70: expressief en sculpturaal, met tentdakvormige plafonds en op de eerste verdieping een aaneenschakeling van kleinere en grotere vierkante ruimten. Samen met de Toren Overhoeks en de door Staal ontworpen brug over het Buiksloterkanaal vormt het een zorgvuldig gecomponeerd ensemble. Sinds september 2014 is het een cultureel centrum; Paradiso programmeert er onder de naam Paradiso Noord, en de tuin is weer open.
+
+      Het IJ-paviljoen, een uitspanning uit 1913–1917 aan het water net ten oosten van het Buiksloterkanaal, met de tuin erachter, is verdwenen. Alleen de hardstenen meerpalen bestaan nog, met bovenop de keizerskroon en verder de letters SPQA en Andrieskruisen, vrijwel zeker ontworpen door Piet Kramer. Shell verplaatste ze twee keer, het laatst naar de tuin van zijn campus aan de Grasweg, waar het publiek ze niet kan zien.
+
+      Let op:
+      - de tentvormige daken van het paviljoen, vanaf de IJ-zijde
+      - de brug van Staal over het Buiksloterkanaal
+      - het Poortgebouw (kantine uit 1938) en de Staalvilla in de tuin
+    attributes:
+      original_use: Bedrijfsrestaurant van het Shell-laboratorium
+    sources:
+      - https://data.amsterdam.nl/monumenten/7a1bd1f7-25d8-47ef-94db-e26a2186c6d9
+      - https://nl.wikipedia.org/wiki/Tolhuistuin
+      - https://www.rodi.nl/amsterdam-noord/nieuws/508432/meerpalen-op-drift-het-enige-restant-van-het-ij-paviljoen
+
+- title: Villa Abspoel (Shell porter's house)
+  summary: Shell's white modernist porter's lodge of 1938 at the old gate of the laboratory site, kept down to its locks and hinges. Now one of the Tolhuistuin's buildings.
+  body: |
+    In 1937 Shell's house architect C.A. Abspoel designed a porter's house with lodge for the main gate of the laboratory site, at the south-east end of the bridge over the Buiksloterkanaal, together with the staff canteen across the Tolhuisweg (now the Poortgebouw). Abspoel belonged to the modernist movement De 8, and it shows: white plastered walls, blocky volumes in an asymmetrical composition, steel windows with brown tile sills and slim tiled cornices.
+
+    When the gate moved further south, the lodge lost its job and became a bank office. The gate that once joined it at the bridge has gone and the garage door was changed, but otherwise the house kept remarkable original detail, down to its hinges and locks, and a front door with a forged copper grille. Today it is one of the Tolhuistuin's buildings, called Villa Abspoel.
+  category: industrial
+  lat: 52.384092
+  lng: 4.905262
+  address: Tolhuisweg 5
+  links:
+    - { label: Monumentenregister Amsterdam (200670), url: "https://data.amsterdam.nl/monumenten/3ead06b2-6237-4944-94ed-2a34ede09b1a" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Tolhuisweg/5" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200670"
+    built: 1937–1938
+    architect: C.A. Abspoel
+    listed: 2013
+    original_use: Porter's house and lodge of the Shell site
+  sources:
+    - city:200670 (register text)
+    - https://tolhuistuin.nl/en/geschiedenis-van-tolhuistuin (current name)
+    - https://amsterdamopdekaart.nl/1850-1940/Tolhuisweg/5 (Abspoel and De 8)
+  nl:
+    title: Villa Abspoel (portierswoning Shell)
+    summary: De witte modernistische portierswoning uit 1938 bij de oude ingang van het Shell-terrein, gaaf tot aan het hang- en sluitwerk. Nu een van de gebouwen van de Tolhuistuin.
+    body: |
+      Het gebouw werd in 1938 gebouwd als portierswoning met portiersloge bij de hoofdingang van het Shell-terrein, aan de zuidoostzijde van de brug over het Buiksloterkanaal. Het werd in 1937 ontworpen door de huisarchitect van Shell, C.A. Abspoel, die tegelijkertijd ook het tegenoverliggende gebouw aan de Tolhuisweg tekende, dat 'kantines voor personeelsleden met weeksalaris' bevatte. Samen markeren ze de ingang tot het terrein.
+
+      De verschijningsvorm wordt gekenmerkt door de wit gepleisterde gevels en een bouwmassa van blokvormige volumes in asymmetrische compositie, met stalen ramen en bruine lekdorpeltegels. Toen het toegangshek verder naar het zuidoosten werd verplaatst, functioneerde de portiersloge niet meer als zodanig en werd het gebouw een bankkantoor. Het hek bij de brug is verdwenen en de garagedeur is gewijzigd, maar verder is het pand in opmerkelijk authentieke staat behouden, tot aan het hang- en sluitwerk toe. Tegenwoordig hoort het als Villa Abspoel bij de Tolhuistuin.
+    attributes:
+      original_use: Portierswoning en portiersloge van het Shell-terrein
+    sources:
+      - https://data.amsterdam.nl/monumenten/3ead06b2-6237-4944-94ed-2a34ede09b1a
+
+- title: A Lab (Shell's Groot Laboratorium)
+  summary: The 1929 laboratory where Shell researched fuels for almost a century, now a breeding ground for start-ups. The A'DAM Toren was placed exactly on its axis.
+  body: |
+    In 1905 the Dordtsche Petroleum Maatschappij settled on the oil-storage ground by the IJ, and in 1911 it became part of Royal Dutch Shell, which built its research laboratories here. Shell's house architect C.A. Abspoel designed the Groot Laboratorium in 1929: four wings in warm red brick round a light court, with accented entrances to the IJ and the Buiksloterkanaal and grand stairwells. A newer wing followed; its stairwell has stained-glass windows of 1947 by Max Nauta.
+
+    In the 1960s Arthur Staal set his Shell tower (now the A'DAM Toren) exactly on the lab's centre line. When Shell left and Overhoeks was built, the lab became the only Shell lab building kept. Since 2013 it is A Lab, a breeding ground with workspace for around a hundred organisations, events and a café. The register is frank about why it matters: as a reminder of an industry it calls "(now controversial)".
+
+    Nauta's windows are more than decoration. One, of 1939, marks the laboratory's 25 years and the directorship of G.J.L. Caviët; the memorial windows, unveiled on 4 July 1947 at the staff's initiative, carry the names of 17 lab workers who died in the war. They read like an allegory of the occupation: a crowned phoenix holding a chalice of blood, a pelican feeding its young (sacrifice), a crane (vigilance) trampling a dragon in flames (the Nazi party), the stone tablets with a Star of David, a pentagram with an all-seeing eye (the chemist's sign), and the words "Gij zijt tot vrijheid geroepen" (you have been called to freedom). Squatters of the Occupy movement damaged them in 2011; they were repaired in 2012–2013. They are in the stairwell of the rear wing, now Clink hostel, and can't be seen from the street.
+  category: industrial
+  lat: 52.384172
+  lng: 4.902853
+  address: Overhoeksplein 2
+  links:
+    - { label: Monumentenregister Amsterdam (200962), url: "https://data.amsterdam.nl/monumenten/fa8e344e-8bf9-40c8-a462-58cbd11c22ed" }
+    - { label: A Lab, url: "https://www.a-lab.nl/en/about" }
+    - { label: "4 en 5 mei, gedenkraam Shell-laboratorium", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3097/amsterdam-gedenkraam-in-het-shell-laboratorium" }
+    - { label: Wikipedia (nl) Groot Laboratorium, url: "https://nl.wikipedia.org/wiki/Groot_Laboratorium" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200962"
+    built: 1929 and later
+    architect: C.A. Abspoel
+    listed: 2022
+    original_use: Shell research laboratory
+  photos:
+    - commons:File:A Lab Amsterdam (Q23931083).jpg
+  sources:
+    - city:200962 (register text)
+    - city:200670 (register text, history of the Shell site)
+    - https://www.a-lab.nl/en/about (facts only)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3097/amsterdam-gedenkraam-in-het-shell-laboratorium (three windows, imagery and its meaning, text, 17 names, staff initiative, unveiled 4 July 1947, Occupy squat 2011 damage repaired 2012–2013, in the Clink hostel part, Badhuisweg 3)
+    - wall-art register (maps.amsterdam.nl/wandkunst), Overhoeksplein 2, Max Nauta (jubilee/memorial window 1939, two more memorial windows 1946; 25 years and directorship of G.J.L. Caviët; rated Waardevol)
+    - https://nl.wikipedia.org/wiki/Groot_Laboratorium (Clink in the rear wing since 2014; windows of 1939 and 1947 in one of the two stairwells)
+  nl:
+    title: A Lab (Groot Laboratorium Shell)
+    summary: Het laboratorium uit 1929 waar Shell bijna een eeuw onderzoek deed, nu een broedplaats. De Toren Overhoeks staat precies in de hartlijn ervan.
+    body: |
+      In 1905 vestigde de Dordtsche Petroleum Maatschappij zich op de olieopslagplaats aan het IJ; in 1911 ging dit bedrijf op in De Koninklijke/Shell, die hier zijn laboratoria vestigde. Het Groot Laboratorium van Shell-architect C.A. Abspoel is van stedenbouwkundige waarde vanwege de kloeke opzet met geaccentueerde entreepartijen aan het IJ en het Buiksloterkanaal, de symmetrische bakstenen gevels in een warm rode kleur en de verbijzonderde trappenhuizen. De glas-in-loodramen van Max Nauta uit 1947 in het trappenhuis van de nieuwbouw zijn van kunsthistorische waarde. De toren Overhoeks is door Arthur Staal precies in de hartlijn van het Groot Laboratorium geplaatst.
+
+      Het gebouw is vooral van grote cultuurhistorische waarde als onderdeel van het voormalig Shellterrein, een herinnering aan de (inmiddels omstreden) internationale fossiele brandstoffen- en chemiewereld. Sinds 2013 is het als A Lab een broedplaats met werkruimte voor zo'n honderd organisaties.
+
+      De ramen van Nauta zijn meer dan versiering. Een raam uit 1939 herdenkt het 25-jarig bestaan van het laboratorium en het directeurschap van G.J.L. Caviët. De gedenkramen die op initiatief van het personeel op 4 juli 1947 werden onthuld, dragen de namen van 17 medewerkers die in de oorlog omkwamen. De beeldtaal vertelt het verhaal van de bezetting: een feniks met een gouden kroon en een kelk met bloed, een pelikaan die haar jongen voedt (opoffering), een kraanvogel (waakzaamheid) die een draak in de vlammen vertrapt (de nazipartij), de stenen tafelen met een davidster, een vijfpuntige ster met het alziend oog (het teken van de chemicus) en de tekst 'Gij zijt tot vrijheid geroepen'. Bij een kraak door de Occupybeweging in 2011 raakten de ramen beschadigd; in 2012 en 2013 zijn ze hersteld. Ze zitten in het trappenhuis van de achterste vleugel, waar nu Clink Hostel is, en zijn vanaf de straat niet te zien.
+    attributes:
+      original_use: Onderzoekslaboratorium van Shell
+    sources:
+      - https://data.amsterdam.nl/monumenten/fa8e344e-8bf9-40c8-a462-58cbd11c22ed
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3097/amsterdam-gedenkraam-in-het-shell-laboratorium
+      - https://nl.wikipedia.org/wiki/Groot_Laboratorium
+
+- title: Florapark gardeners' shed
+  summary: A thatched timber cottage of 1930, built by Public Works to keep the tools of the Florapark's gardeners, in the same picturesque spirit as the park and the garden villages around it.
+  body: |
+    The Florapark, laid out from 1920 in the English landscape style (probably by the city's head of planting, H.C. Zwart), was one of the socialist parks of Noord: space, light and greenery for the families of the new garden villages, with an educational streak inspired by nature writer Jac. P. Thijsse. In 1930 Public Works built this shed for the park's maintenance staff.
+
+    It is a little English-style cottage: a brick base, walls of horizontal weatherboarding like the old wooden houses of the Noord dike villages, small-paned windows with shutters, ledged doors under a running canopy and a deep thatched roof with half-hipped ends. Remarkably intact, it looks like a park ornament more than a works yard.
+  category: green
+  lat: 52.39491
+  lng: 4.918015
+  address: Wingerdweg 110
+  links:
+    - { label: Monumentenregister Amsterdam (200671), url: "https://data.amsterdam.nl/monumenten/8a4d73eb-1b9a-4d68-8d01-d4d89e49f5a9" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200671"
+    built: "1930"
+    architect: Dienst der Publieke Werken
+    listed: 2013
+    original_use: Gardeners' and planting shed
+  photos:
+    - commons:File:Wingerdweg 110, Amsterdam.jpg
+  sources:
+    - city:200671 (register text)
+  nl:
+    title: Tuindersloods Florapark
+    summary: Een rietgedekte houten cottage uit 1930, gebouwd door Publieke Werken voor de tuinders van het Florapark, in dezelfde schilderachtige geest als het park en de tuindorpen eromheen.
+    body: |
+      De aanleg van het Florapark en de overige parken in Amsterdam-Noord werd ingegeven door het socialistische gedachtegoed, waarin werd gestreefd naar ruime groengebieden met een recreatieve en educatieve functie. De interesse voor dit laatste werd vooral aangewakkerd door Jac. P. Thijsse. Het ontwerp voor het Florapark dateert uit 1920 en is vermoedelijk (mede) vormgegeven door het toenmalige Hoofd Beplantingen, H.C. Zwart. De dienst Publieke Werken leverde het ontwerp voor de tuinders- en beplantingsloods, die in 1930 is gebouwd.
+
+      De vormgeving is uitgevoerd in een op de Engelse cottage-stijl terug te voeren vormentaal. De houten gevels met gerabatte houtdelen, aansluitend bij de traditionele landelijke houtbouw in het noordelijke deel van Amsterdam, de veelruits raampjes en opgeklampte deuren, alsmede de rieten kap met wolfeinden staan garant voor een pittoreske uitstraling. Het object is zowel in detaillering als in hoofdvorm opmerkelijk gaaf bewaard gebleven.
+    attributes:
+      original_use: Tuinders- en beplantingsloods
+    sources:
+      - https://data.amsterdam.nl/monumenten/8a4d73eb-1b9a-4d68-8d01-d4d89e49f5a9
+
+- title: Former Wingerdschool and Resedaschool
+  summary: A long dark-brick double primary school of 1925–1926 that bends with the street, decorated with fairy-tale figures by Hildo Krop. The only survivor of a cluster of six schools.
+  body: |
+    Noord's population grew so fast in the 1920s that a whole cluster of schools rose between the Wingerdweg and the Buiksloterweg: a public double primary school, Catholic girls' and boys' schools, a special school, a nursery school and a secondary school. Only this one made it into the 21st century.
+
+    Nicolaas Lansdorp of Public Works designed it in dark brick, working under city architect W.A. de Graaf. From 1926 it housed two public primary schools for twelve classes, the Wingerdschool (nos. 28-30) and the Resedaschool (nos. 32-34). The building follows the curve of the Wingerdweg, and its facades carry small sculptures of fairy-tale characters by Hildo Krop, Amsterdam's city sculptor. Stadsherstel bought it in 2002, restored it and lets it as a building for small businesses.
+
+    On the roof edge at the back sit two brass girls by Elisabet Stienstra (1995), commissioned by the city when the first businesses moved in, in the Amsterdam School habit of putting sculpture on buildings. One rubs her knee, both gaze into the distance and look bored stiff; the one above the right-hand stair entrance may be a quiet nod to Rodin's Thinker.
+
+    Look for:
+    - Krop's fairy-tale figures in the facades
+    - Stienstra's two girls on the roof at the back, seen from the Buiksloterweg
+  category: schools
+  lat: 52.389434
+  lng: 4.91515
+  address: Wingerdweg 28-34
+  links:
+    - { label: Monumentenregister Amsterdam (200381), url: "https://data.amsterdam.nl/monumenten/704f2d56-390d-4954-a707-18c1acb64b94" }
+    - { label: Wikipedia (nl) Wingerdweg 28-34, url: "https://nl.wikipedia.org/wiki/Wingerdweg_28-34" }
+    - { label: Wikipedia (nl) Schoolcomplex Wingerdweg, url: "https://nl.wikipedia.org/wiki/Schoolcomplex_Wingerdweg" }
+    - { label: Stadsherstel, url: "https://stadsherstel.nl/monumenten/reseda-en-wingerdschool/" }
+    - { label: "Kunstwacht, Vrouwfiguren", url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/336" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200381"
+    built: 1925–1926
+    architect: N. Lansdorp (Publieke Werken)
+    listed: 1993
+    original_use: Two public primary schools
+  sources:
+    - city:200381 (register record; no reasons text published)
+    - https://nl.wikipedia.org/wiki/Wingerdweg_28-34
+    - https://nl.wikipedia.org/wiki/Schoolcomplex_Wingerdweg
+    - https://stadsherstel.nl/monumenten/reseda-en-wingerdschool/ (facts only)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/336 (two girls on the roof, bored, Rodin's Thinker above the right stair entrance, commissioned when businesses moved in from 1995, brass)
+    - https://stadscuratorium.nl/collectie/twee-vrouw-figuren/ (Stienstra, brass, 1995, Wingerdweg 34; search snippet)
+    - commons:File:Elisabet Stienstra 1.jpg (1995, on the back of the building, Buiksloterweg side; photo 2011)
+  nl:
+    title: Voormalige Wingerdschool en Resedaschool
+    summary: Een lang donkerbakstenen dubbel schoolgebouw uit 1925-1926 dat meebuigt met de straat, met sprookjesfiguurtjes van Hildo Krop. Het enige dat over is van een complex van zes scholen.
+    body: |
+      Het schoolcomplex aan de Wingerdweg en Buiksloterweg werd in de jaren twintig gebouwd naar aanleiding van de snel groeiende bevolking in dat deel van Amsterdam-Noord. Er verschenen in korte periode een gewone lagere school, een rooms-katholieke meisjesschool en jongensschool, een bijzondere lagere school, een school voor voorbereidend onderwijs en een uitgebreid lagere school. Van de zes gebouwen heeft slechts één de 21e eeuw gehaald.
+
+      Het betreft een voormalig schoolgebouw, gebouwd in opdracht van de Publieke Werken. Architect van het geheel is Nicolaas Lansdorp, werkend onder Wichert Arend de Graaf. In het gebouw kwamen in 1926 twee scholen, de Resedaschool (32-34) en de Wingerdschool (28-30). Het gebouw buigt mee met de kromme straat. In de gevels zijn enige beeldjes van Hildo Krop te bewonderen, bestaande uit sprookjesfiguren. In 2002 kwam het gebouw in handen van Stadsherstel, die het renoveerde en verhuurt als bedrijfsverzamelgebouw.
+
+      Aan de achterkant zitten op de dakrand twee messing meisjes van Elisabet Stienstra (1995). De gemeente gaf de opdracht toen de eerste bedrijven er hun intrek namen, in de traditie van de Amsterdamse School om beelden bij gebouwen te zetten. Een hand wrijft over een knie, de blikken dwalen af, ze lijken zich stierlijk te vervelen; het meisje boven het rechtertrapportaal knipoogt misschien naar De Denker van Rodin.
+
+      Let op:
+      - de sprookjesfiguurtjes van Krop in de gevels
+      - de twee meisjes van Stienstra op het dak aan de achterkant, te zien vanaf de Buiksloterweg
+    attributes:
+      architect: N. Lansdorp (Publieke Werken)
+      original_use: Twee openbare lagere scholen
+    sources:
+      - https://nl.wikipedia.org/wiki/Wingerdweg_28-34
+      - https://nl.wikipedia.org/wiki/Schoolcomplex_Wingerdweg
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/336
+
+- title: GG&GD health post, Wingerdweg
+  summary: A 1938 district post of Amsterdam's municipal health service, the oldest in the country, with porthole windows, a rounded porch and a 1955 sandstone relief of the Good Samaritan.
+  body: |
+    Amsterdam's municipal health service, founded in 1901 and now GGD Amsterdam, is the oldest in the Netherlands. In 1938 Public Works built it a small district post on the edge of the Florapark to serve the new neighbourhoods of Noord, probably with a baby clinic, consulting rooms and an office, plus a garage that may have held an ambulance or the doctor's car. The designer was probably J. Leupen.
+
+    The style mixes functionalism with tradition, as the architects of Groep '32 did: red-brown brick, shallow roofs, sliding volumes, round windows and a deep porch with one rounded corner under a heavy wooden canopy on iron columns. A tall chimney with a wider top marks the stair block. On the blind wall by the entrance is a sandstone relief of the Good Samaritan (Luke 10:30), probably from 1955 and signed HR (H. Richters). It still serves its first purpose, as a parent and child centre of the health service. The two houses of 1955 at nos. 54-56 are not part of the listing.
+  category: civic
+  lat: 52.391013
+  lng: 4.916705
+  address: Wingerdweg 52
+  links:
+    - { label: Monumentenregister Amsterdam (200658), url: "https://data.amsterdam.nl/monumenten/916bf8dc-4a9d-42d5-93e0-2d7665cf8da1" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200658"
+    built: 1938, extended 1955
+    architect: Dienst der Publieke Werken (probably J. Leupen)
+    listed: 2013
+    original_use: District post of the municipal health service
+  photos:
+    - commons:File:Wingerdweg 52, Amsterdam.jpg
+  sources:
+    - city:200658 (register text)
+  nl:
+    title: GG&GD-wijkpost Wingerdweg
+    summary: Een wijkpost uit 1938 van de Amsterdamse gezondheidsdienst, de oudste van het land, met rondvensters, een portiek met ronde hoek en een zandstenen reliëf van de barmhartige Samaritaan.
+    body: |
+      De GG & GD Amsterdam is opgericht in 1901 en is daarmee de oudste gemeentelijke gezondheidsdienst in Nederland. Het gebouw was waarschijnlijk bestemd als wijkpost, om de in dezelfde periode nieuw gebouwde woonwijken in Noord te dienen, met waarschijnlijk een consultatiebureau, spreekkamers, behandelkamer en kantoor, en een garage, mogelijk voor een ambulance of de auto van de dokter. Het ontwerp werd gemaakt door anonieme architecten van de Dienst der Publieke Werken; op grond van de bouwstijl lijkt het goed mogelijk dat ir. J. Leupen de ontwerper was.
+
+      Het ontwerp is uitgevoerd in een stijl die typisch is voor de periode rond WO II, met een zakelijke basis die wordt verluchtigd door het schuiven met volumes en elementen als de rondvensters, de ronde hoek bij de portiek en het beeldhouwwerk: een zandstenen reliëf met in primitieve stijl een voorstelling van Lucas 10:30 ('de barmhartige Samaritaan'), gesigneerd HR (H. Richters), waarschijnlijk uit 1955. De vormentaal is verwant aan die van de architecten van 'Groep 32'. In de zuidvleugel is nog altijd een 'ouder en kindcentrum' van de GG & GD gevestigd.
+    attributes:
+      architect: Dienst der Publieke Werken (waarschijnlijk J. Leupen)
+      original_use: Wijkpost van de gemeentelijke gezondheidsdienst
+      built: 1938, uitgebreid 1955
+    sources:
+      - https://data.amsterdam.nl/monumenten/916bf8dc-4a9d-42d5-93e0-2d7665cf8da1
+
+- title: Johanna Margaretha nursery
+  summary: A yellow-brick day nursery of 1930 set like a villa at the edge of the Florapark, probably the first Amsterdam building for babies and toddlers designed around fresh air and greenery.
+  body: |
+    Care for the very young was long nobody's job: the education laws ignored them, and 19th-century reports describe toddlers crammed into miserable rooms. Private societies filled the gap, among them the Vereeniging tot Verbetering der Kleine Kinderen Bewaarplaatsen, founded in 1872 by Femina Muller. In 1930 Th.J. Roetering designed this *kinderbewaarplaats* (day nursery) for it, for children from birth to six.
+
+    It stands where two streets of the garden village meet the Florapark, closing both views like a country villa, with its back to the park. A two-storey yellow-brick main block with a red roof and two low wings enclose a sheltered playground closed off by a gallery, the "safe children's world". Upstairs lived the director and staff, and washing dried on the flat roofs. Inside, the ochre tiles edged in black, the panelled doors and an extra-low children's handrail survive. As far as is known it is the first Amsterdam building for babies and toddlers that met the ideals of healthy, green school siting, and it is still a day nursery.
+
+    Look for:
+    - the geometric glazing bars in the fanlight over the entrance
+    - the openwork brickwork above it
+    - the spot where wrought-iron letters once read KLEINE KINDEREN BEWAARPLAATS
+  category: schools
+  lat: 52.392867
+  lng: 4.917434
+  address: Wingerdweg 98
+  links:
+    - { label: Monumentenregister Amsterdam (200706), url: "https://data.amsterdam.nl/monumenten/838e6abc-aff2-4067-95b4-c8f794165d73" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200706"
+    built: 1929–1930
+    architect: Th.J. Roetering
+    listed: 2013
+    original_use: Day nursery
+  photos:
+    - commons:File:Amsterdam - Johanna Margaretha.JPG
+  sources:
+    - city:200706 (register text)
+  nl:
+    title: Kinderdagverblijf Johanna Margaretha
+    summary: Een geelbakstenen kinderbewaarplaats uit 1930, als een villa aan de rand van het Florapark, voor zover bekend het eerste Amsterdamse gebouw voor baby's en kleuters naar de idealen van licht, lucht en groen.
+    body: |
+      De kleuterscholen en bewaarscholen zijn lange tijd 'het kind van de rekening' geweest. In de negentiende eeuw werden rapporten opgemaakt over de erbarmelijke toestanden van verwaarloosde peuters en kleuters die opeengepakt in schamele vertrekken zaten. De eerste verbeteringen kwamen van particuliere verenigingen zoals de Vereeniging tot Verbetering der Kleine Kinderen Bewaarplaatsen, opgericht in 1872 door Femina Muller. Voor deze vereniging ontwierp architect Th. J. Roetering in 1930 een vrijstaande kinderbewaarplaats voor kinderen van nul tot zes jaar.
+
+      Het gebouw staat op een markante plaats in het Florapark en vormt de straatafsluiting van de Berberisstraat en de Ribesstraat. Vanuit het park gezien geeft het gele gebouw met zijn rode kap een gemoedelijke, landelijke impressie; de ligging wekt de indruk van een fraaie villa. De besloten speelplaats tussen de vleugels wordt met een galerij afgesloten, zodat er een veilige kinderwereld ontstaat. Het interieur is nog vrijwel geheel intact: okergele wandtegeltjes afgebiesd met zwarte tegelbanen, de originele paneeldeuren en een extra lage kindertrapleuning. Voor zover bekend is het het eerste Amsterdamse stedelijke gebouw voor baby's en kleuters dat aan de idealen van de scholenbouw voldoet. Het is nog steeds een kinderdagverblijf.
+
+      Let op:
+      - het bovenlicht boven de entree met een geometrische roedeverdeling
+      - het metselwerk met kleine openingen daarboven
+      - de plek van de verwijderde siersmeedijzeren letters KLEINE KINDEREN BEWAARPLAATS
+    attributes:
+      original_use: Kinderbewaarplaats
+    sources:
+      - https://data.amsterdam.nl/monumenten/838e6abc-aff2-4067-95b4-c8f794165d73
+
+# ================================================================ Scouted items
+
+- title: Volewijck gallows field (gone)
+  summary: For four centuries, until 1795, the bodies of executed criminals hung here as a warning to ships entering Amsterdam. Rembrandt drew one of them, Elsje Christiaens. Nothing marks the spot.
+  body: |
+    From about 1360 until 1795 the tip of the Volewijck, the spit of land opposite the city, was Amsterdam's *galgenveld* (gallows field). People executed on the Dam were rowed across in a cattle boat and left hanging, often with the tool of their crime above their heads, until the air and the birds had consumed them. About a thousand bodies ended here. It was meant to impress every ship sailing in, and it did more: Amsterdammers walked over from the Tolhuis garden with their children, and skated across to it in winter. Denial of burial was part of the punishment. Amsterdam children were told something else about the Volewijck: that babies were picked from a tree there, the *kindertjesboom*. The earliest written trace is in P.C. Hooft's play *Warenar* (1617), where a pregnant woman's mother is told "the boat is leaving for the Volewijck, you should come and help row", so that children listening would not know a birth was meant.
+
+    In May 1664 Elsje Christiaens, an 18-year-old Danish maid who had killed her landlady with an axe in a quarrel over rent, was strangled on the Dam and hung here with her axe. Rembrandt crossed over and drew her twice. The Batavian Republic banned gallows fields in 1795.
+
+    The pit with three columns where the remains collected was never cleared, only covered with sand; bones turned up when industry moved in. City archaeologists think it lies under the A'DAM Toren, which is where this pin stands. Nothing marks it, despite a petition for a memorial. The road bridge over the Buiksloterkanaal nearby has been named the Elsje Christiaensbrug since 2016.
+  category: hidden-history
+  lat: 52.38392
+  lng: 4.90207
+  address: Overhoeksplein 1 (A'DAM Toren)
+  links:
+    - { label: Wikipedia (nl) Elsje Christiaens, url: "https://nl.wikipedia.org/wiki/Elsje_Christiaens" }
+    - { label: Ons Amsterdam (2009), url: "https://onsamsterdam.nl/artikelen/overhoeks-gebouwd-op-knekels" }
+    - { label: Wikipedia (nl) Volewijck, url: "https://nl.wikipedia.org/wiki/Volewijck" }
+  attributes:
+    rank: Nice
+    status: Gone
+  photos:
+    - commons:File:Elsje Christiaens Hanging on a Gibbet MET DP800559.jpg
+    - commons:File:Galgenveld aan de rand van de Volewijk, RP-T-1954-182.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Elsje_Christiaens
+    - https://nl.wikipedia.org/wiki/Volewijck
+    - https://onsamsterdam.nl/artikelen/overhoeks-gebouwd-op-knekels (facts and location of the pit)
+    - https://www.at5.nl/artikelen/145311/petitie_voor_monument_galgenveld_in_noord (petition)
+    - city:200669 (register text: gallows field on the south-west tip of the spit)
+    - "https://hcan.nl/geschiedenis/1617-de-kindertjesboom-op-de-volewijck/ (children told babies were picked from the kinderboom on the Volewijck, perhaps not far from the gallows pit; earliest text in Hooft's Warenar, 1617, the rowing line as code for helping at a birth)"
+  nl:
+    title: Galgenveld Volewijck (verdwenen)
+    summary: Vier eeuwen lang, tot 1795, hingen hier de lijken van terechtgestelden als waarschuwing voor schepen op het IJ. Rembrandt tekende er Elsje Christiaens. Niets markeert de plek.
+    body: |
+      Amsterdam benoorden het IJ bestond aanvankelijk slechts uit het schiereilandje de Volewijck. Tot 1795 was hier het galgenveld waar veroordeelden na de executie werden opgehangen, als afschrikwekkend voorbeeld. Volgens stadsgeschiedschrijver Jan ter Gouw is deze tentoonstellingsplek al rond 1360 aangelegd. Het galgenveld lag op de meest zuidwestelijke hoek van de landtong en vormde samen met het Tolhuis een belangrijke recreatieplaats: men liep vanuit de Tolhuistuin met de kinderen langs het Galgepad.
+
+      Elsje Christiaens kwam als achttienjarige ongetrouwde vrouw uit Jutland naar Amsterdam om werk te zoeken als meid. Na een ruzie over de huur sloeg ze haar huisbazin met een bijl. Begin mei 1664 werd ze op de Dam gewurgd aan een wurgpaal, waarna haar lijk naar het galgenveld van Volewijck werd gebracht om daar samen met de bijl opgehangen te worden om 'van de locht en 't gevogelte verteerd te worden.' Rembrandt maakte twee tekeningen van haar. Direct na het uitroepen van de Bataafse Republiek in 1795 werden de galgenvelden verboden.
+
+      Amsterdamse kinderen kregen over de Volewijck een ander verhaal te horen: daar stond de kinderboom, waar ouders hun baby's plukten. De oudste tekst daarover staat in *Warenar* van P.C. Hooft (1617), waarin de moeder van een zwangere vrouw te horen krijgt dat 'de schuit naar de Volewijck wil' en dat ze moet komen helpen roeien. Zo begrepen kinderen die meeluisterden niet dat het om een bevalling ging.
+
+      De put met de lichaamsresten is nooit geruimd; er is alleen zand overheen gelegd. De archeologische dienst van de gemeente vermoedt dat de put onder het gebouw Overhoeks ligt, de huidige A'DAM Toren. Niets markeert de plek. Sinds 2016 heet de brug in de Tolhuisweg over het Buiksloterkanaal de Elsje Christiaensbrug.
+    sources:
+      - https://nl.wikipedia.org/wiki/Elsje_Christiaens
+      - https://nl.wikipedia.org/wiki/Volewijck
+      - https://onsamsterdam.nl/artikelen/overhoeks-gebouwd-op-knekels
+      - https://hcan.nl/geschiedenis/1617-de-kindertjesboom-op-de-volewijck/
+
+- title: Mosveld's stone floodlights
+  summary: Two kinked brick towers on the Mosveld shopping centre quietly echo the floodlights of the stadium where De Volewijckers, 1944 national champions, played in the middle of the neighbourhood.
+  body: |
+    From 1927 to 1964 De Volewijckers played on the Mosveld, in a small stadium for some 15,000 people set right among the houses: residents could follow matches from their windows, and plenty slipped in without paying. The club was the biggest in Amsterdam in 1942, won the national title in 1944 (playing its home games at Ajax's ground after the 1943 bombing hit the Mosveld) and reached the Eredivisie in 1961 with the "Mosveld babies". In 1964 the club had to leave: the Johan van Hasseltweg, the approach road to the IJ tunnel, was built straight through the goals of the main pitch. The crowds did not follow to the new ground, and the professional side folded into FC Amsterdam in 1974.
+
+    The Mosveld shopping centre opened on the old ground in 2016. Its two kinked brick towers, with round and oval openings near the top, were presented as a nod to Noord's industry, but the shopping centre itself and sports historian Jurryt van de Vooren say they also refer to the old floodlights. "Hardly anyone knows", he says. Look up from the square.
+
+    Look for:
+    - Mosplein 18 on the corner of the Mosveld: from 1929 to 1966 the Astoria, Noord's only proper cinema, in sober Amsterdam School brick by Willem Noorlander, with a stage for live acts in its early years; then a supermarket, and since 2013 home to twelve flats
+    - De Bult ("the hump"), the raised T-junction of 1967 where the Johan van Hasseltweg meets the Mosplein, built over the square where Piet de Vroome had called on people to join the February Strike of 1941; it was protested at the time
+  category: curiosities
+  lat: 52.39075
+  lng: 4.91400
+  address: Mosveld
+  links:
+    - { label: "NH Nieuws, De verdwenen stad", url: "https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld" }
+    - { label: Wikipedia (nl) De Volewijckers, url: "https://nl.wikipedia.org/wiki/De_Volewijckers" }
+    - { label: Winkelcentrum Mosveld, url: "https://www.winkelcentrummosveld.nl/" }
+    - { label: Wikipedia (nl) Bioscooptheater Astoria, url: "https://nl.wikipedia.org/wiki/Bioscooptheater_Astoria" }
+    - { label: Wikipedia (nl) De Bult, url: "https://nl.wikipedia.org/wiki/De_Bult_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    built: "2016"
+  photos:
+    - commons:File:Volewijkersterrein, Mosveld, Afb PBKD00464000001.jpg
+  sources:
+    - https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld (facts and short quote)
+    - https://nl.wikipedia.org/wiki/De_Volewijckers
+    - https://www.winkelcentrummosveld.nl/ (towers refer to the floodlights)
+    - https://gebouwdin.amsterdam.nl/projectdetail/1310 (two kinked brick towers)
+    - "https://nl.wikipedia.org/wiki/Bioscooptheater_Astoria (opened 17 May 1929 at Mosplein 18, corner of Mosveld; sober Amsterdam School, Willem Noorlander; orchestra pit and stage, live acts in the pauses; rebuilt 1946; closed 1966, sold to Albert Heijn)"
+    - "https://amsterdamopdekaart.nl/1850-1940/Mosplein/Astoria (the only official cinema in Noord; then a supermarket; search snippet)"
+    - "https://gebouwdin.amsterdam.nl/projectdetail/972 (Astoria De Woonbios, 2012/2013: twelve flats in the former cinema, facades restored)"
+    - "https://nl.wikipedia.org/wiki/De_Bult_(Amsterdam) (nickname of the 1967 T-junction of the Mosplein and the raised Johan van Hasseltweg; protest against the raising; Piet de Vroome had called from here to support the February Strike; photo of 2016)"
+  nl:
+    title: Stenen lichtmasten van het Mosveld
+    summary: Twee geknikte bakstenen torens van winkelcentrum Mosveld verwijzen naar de lichtmasten van het stadionnetje waar De Volewijckers, landskampioen van 1944, midden in de wijk speelden.
+    body: |
+      Vanaf 1927 speelde De Volewijckers op het Mosveld, waar een stadionnetje met heel veel staanplaatsen verrees dat midden in de woonwijk lag en zo'n 15.000 toeschouwers kon hebben. In 1942 was De Volewijckers de grootste club van Amsterdam en in 1944 werd de ploeg landskampioen; na de bombardementen van 1943 werd uitgeweken naar het stadion van Ajax. In 1961 bereikten de 'Mosveld-baby's' de Eredivisie. In 1964 moest de club verhuizen omdat er een aansluitweg vanaf de IJtunnel moest worden aangelegd, de Johan van Hasseltweg, die recht door de doelen van het hoofdveld sneed. In één klap was de club de binding met de wijk kwijt; de profsectie ging in 1974 op in FC Amsterdam.
+
+      Op het voormalige stadionterrein werd in 2016 winkelcentrum Mosveld geopend, met twee geknikte bakstenen torens. Bij de opening werden ze gepresenteerd als verwijzing naar het industriële verleden van Noord, maar volgens het winkelcentrum zelf en sporthistoricus Jurryt van de Vooren verwijzen de uitstulpingen met cirkels en ovalen ook naar de lichtmasten van het stadion. "Bijna niemand die het weet."
+
+      Let op:
+      - Mosplein 18 op de hoek met het Mosveld: van 1929 tot 1966 bioscoop Astoria, de enige echte bioscoop van Noord, in sobere Amsterdamse School-baksteen van Willem Noorlander, met in de beginjaren een toneel voor optredens in de pauze; daarna een supermarkt en sinds 2013 twaalf appartementen
+      - De Bult, de verhoogde T-kruising uit 1967 waar de Johan van Hasseltweg op het Mosplein uitkomt, aangelegd over het plein waar Piet de Vroome had opgeroepen tot de Februaristaking van 1941; er werd destijds tegen geprotesteerd
+    attributes:
+      built: "2016"
+    sources:
+      - https://nl.wikipedia.org/wiki/De_Volewijckers
+      - https://www.nhnieuws.nl/nieuws/294586/de-verdwenen-stad-stenen-lichtmasten-herinneren-aan-roemrijk-voetbalverleden-mosveld
+      - https://nl.wikipedia.org/wiki/Bioscooptheater_Astoria
+      - https://nl.wikipedia.org/wiki/De_Bult_(Amsterdam)
+
+- title: War memorials at De Nieuwe Noorder (Fokker bombing, Draka)
+  summary: A plain stone at De Nieuwe Noorder for the 206 people of Noord killed in July 1943, when Allied bombs aimed at the Fokker aircraft factory fell on the surrounding streets. A remembrance is held every 17 July.
+  body: |
+    The Fokker aircraft factory on the Papaverweg was working for the German air force, so the Allies tried three times in July 1943 to destroy it. On Saturday 17 July, 41 B-17s of the inexperienced US Eighth Air Force set out; half turned back because of the weather, the rest flew on, and not one bomb hit the camouflaged factory. They fell on the Van der Pekbuurt, the Laanweg, the Vogelbuurt and the Mosveld, killing 158 people that day. Anne Frank wrote of children searching smouldering ruins for their parents. On 25 July British Mitchells destroyed the factory; on 28 July Free French crews bombed again and missed, killing 17 more. In all 206 people died, the heaviest bombing Amsterdam suffered in the war. Because the bombers were Allied, it long remained a sensitive subject. Fokker had set up in 1919 in the halls of an aviation exhibition on the Papaverweg; the site had no runway, so every aircraft built there went to Schiphol by barge. After the war the firm built a new factory at Schiphol and left Noord in 1951.
+
+    Ninety-three victims were buried at the Noorderbegraafplaats (now De Nieuwe Noorder). When their graves were cleared after 60 years, the borough placed this tapering natural-stone memorial, unveiled on 17 July 2003: "Ter nagedachtenis aan de slachtoffers van de bombardementen juli 1943". Pupils of the Bredero Mavo adopted it and lay flowers each year.
+
+    About 50 metres west stands the Draka memorial, a red-brick wall of 1945 with three concrete wings that make it a cross from above. It carries the names of seventeen staff of the Hollandsche Draad- en Kabelfabriek (Draka) who did not survive the war: Jewish colleagues who never came back from the camps, men executed by the occupier, and others. Copper wire rod, the kind of thing Draka made, forms radiant suns, a plane and a ship. It stood at the foot of the factory's C building on the Hamerstraat until the works closed in 2016, then moved here; nearly a hundred former Draka people came to see it unveiled again.
+
+    The cemetery's own buildings are worth a look too. In 2012 Dok Architecten (Herman Zeinstra and Gianni Cito) adapted the 1930s reception building, in Amsterdam School style, and set small new pavilions beside it with lopsided pointed roofs, strung along a dead-straight route under a glass roof: laying out, condolences, cremation, one after another. The entrance now runs at right angles to the canal, past a pond. The aula stands in a second pond, light bouncing in off the water through big windows, and a strip of glass at the top of its seven-metre roof keeps the sky in view. After the service its doors open and mourners walk with the coffin straight out to the grave.
+
+    Elsewhere in Noord:
+    - Kievitstraat 21: a stone in the facade, "Destroyed without reason, rebuilt in peace"
+    - Sint Ritakerk, Hagedoornplein: a marker by the hotel entrance and a memorial manhole cover with names of the dead (see the Sint Rita complex)
+    - Kamperfoelieweg at the Azaleastraat: De Phoenix (Henk Dannenburg, 1951), Noord's memorial to its civilians killed in the war, a bronze phoenix rising from its ashes; it lost its six-metre limestone needle with a verse by Da Costa to the IJ-tunnel roads, stood on the Mosveld from 1968 and moved here in 2016; the 4 May remembrance for Volewijck is held there
+  category: hidden-history
+  lat: 52.406054
+  lng: 4.92687
+  address: Buikslotermeerdijk 83 (De Nieuwe Noorder)
+  links:
+    - { label: "4 en 5 mei, Fokkermonument", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3094/amsterdam-fokkermonument" }
+    - { label: Wikipedia (nl) Bombardementen op Amsterdam-Noord, url: "https://nl.wikipedia.org/wiki/Bombardementen_op_Amsterdam-Noord" }
+    - { label: Wikipedia (nl) De Nieuwe Noorder, url: "https://nl.wikipedia.org/wiki/De_Nieuwe_Noorder" }
+    - { label: "HCAN, Fokker monument", url: "https://hcan.nl/monument/fokker-monument/" }
+    - { label: "4 en 5 mei, Draka monument", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4189/amsterdam-draka-monument" }
+    - { label: "4 en 5 mei, de Phoenix", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1480/amsterdam-de-phoenix" }
+  attributes:
+    rank: Nice
+    built: "2003"
+  photos:
+    - commons:File:Fokkermonument.JPG
+    - commons:File:Gedenksteen Bombardementen Kievitstraat.jpg
+    - commons:File:Phoenix Dannenburg 2018 (1).jpg
+    - commons:File:Nieuwe aula.JPG
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3094/amsterdam-fokkermonument
+    - https://nl.wikipedia.org/wiki/Bombardementen_op_Amsterdam-Noord
+    - https://nl.wikipedia.org/wiki/De_Nieuwe_Noorder
+    - https://hcan.nl/monument/fokker-monument/ (facts only)
+    - https://hcan.nl/geschiedenis/hagedoornplein-st-ritakerk-getroffen-door-bominslag/ (facts only)
+    - https://www.wikidata.org/wiki/Q116682458 (coordinates)
+    - commons:File:Gedenksteen Bombardementen Kievitstraat.jpg (plaque text)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4189/amsterdam-draka-monument (brick wall with travertine plaque, three concrete wings forming a cross, copper-wire suns, plane and ship, names, at the C building on the Hamerstraat from 1945, moved in 2016, nearly a hundred Drakians at the unveiling; position 52.406044, 4.926170)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1480/amsterdam-de-phoenix (Dannenburg, 1951, d'Ailly, six-metre French limestone needle with Da Costa verse, lost for the IJ-tunnel roads, stored, moved from the Mosveld to the Kamperfoelieweg in 2016)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/357 (says moved in 1968 for the IJ tunnel; written when it stood on the Mosveld)
+    - commons:File:Monument voor de gevallenen van Amsterdam-Noord.jpg (2011 description: placed on the Mosveld in 1968); commons:File:Phoenix Dannenburg 2018 (1).jpg (2018, at the Kamperfoelieweg)
+    - https://4en5meiamsterdam.nl/agenda/samen-herdenken-door-jong-en-oud-in-volewijck/ (annual 4 May remembrance at De Phoenix; search snippet)
+    - "https://www.fokker-history.com/en-gb/fokkervestigingen-in-nederland-1919-1996 (NV Nederlandsche Vliegtuigenfabriek founded 21 July 1919, into the ELTA halls at Papaverweg 31-33; no runway, aircraft taken by barge to Schiphol; factory destroyed three times in the war; new factory at Schiphol, moved in 1951)"
+    - "https://arcam.nl/architectuur-gids/kantoor-en-rouwcentrum-de-nieuwe-noorder/ (Dok Architecten, Gianni Cito and Herman Zeinstra, 2012, AAP nominee 2013: 1930s Amsterdam School reception building adapted; new pavilions with asymmetric pointed roofs for laying out, condolence and crematorium, linked by a dead-straight glass-roofed route; entrance at right angles to the canal past a pond; aula in a second pond, big windows, glass strip at the top of the 7 m roof; doors open after the service to follow the coffin to the grave)"
+    - "commons:File:Nieuwe aula.JPG (February 2013, the new aula)"
+  nl:
+    title: Oorlogsmonumenten op De Nieuwe Noorder (Fokker-bombardement, Draka)
+    summary: Een eenvoudige gedenksteen op De Nieuwe Noorder voor de 206 slachtoffers van juli 1943, toen geallieerde bommen voor de Fokkerfabriek op de woonwijken van Noord vielen. Elk jaar op 17 juli is er een herdenking.
+    body: |
+      De geallieerde bombardementen op Amsterdam-Noord vonden plaats in juli 1943. De drie aanvallen waren gericht op de vliegtuigfabrieken van Fokker aan de Papaverweg, die waren ingeschakeld bij de Duitse oorlogsindustrie. Op zaterdag 17 juli kwamen 41 B-17 Flying Fortress-toestellen van het toen nog onervaren Amerikaanse achtste luchtleger in actie. Geen enkele bom raakte de beoogde fabriek; ze kwamen op de omliggende woonwijken terecht, grotendeels in de Volewijck, met 158 doden als gevolg. Op 25 juli legden Engelse Mitchell-bommenwerpers de fabriek grotendeels in de as; op 28 juli werd de fabriek door Franse vliegers weer niet geraakt en kwamen opnieuw 17 burgers om. Het betrof het zwaarste bombardement in Amsterdam tijdens de Tweede Wereldoorlog. Omdat het een geallieerde aanval betrof, is deze gebeurtenis altijd een gevoelig onderwerp geweest. Fokker was in 1919 begonnen in de hallen van een luchtvaarttentoonstelling aan de Papaverweg; daar was geen startbaan, dus elk vliegtuig ging per schip naar Schiphol. Na de oorlog bouwde het bedrijf een nieuwe fabriek op Schiphol en in 1951 verliet het Noord.
+
+      93 van de 206 overledenen vonden hun laatste rustplaats op de toenmalige Noorderbegraafplaats. Toen 60 jaar na dato deze graven zouden worden geruimd, dreigde de herinnering te verdwijnen. Op 17 juli 2003 is daarom een monument onthuld vanuit het Dagelijks Bestuur van stadsdeel Amsterdam-Noord: een taps toelopende natuurstenen gedenksteen met de tekst 'Ter nagedachtenis aan de slachtoffers van de bombardementen juli 1943'. Het monument is geadopteerd door de Bredero Mavo; jaarlijks leggen de leerlingen er bloemen.
+
+      Zo'n vijftig meter westelijker staat het Draka-monument: een gedenkmuur van rode baksteen uit 1945, met drie betonnen wanden die er van bovenaf een kruis van maken. Er staan de namen op van zeventien medewerkers van de Hollandsche Draad- en Kabelfabriek (Draka) die de oorlog niet overleefden: Joodse collega's van wie nooit meer bericht kwam uit de kampen, gefusilleerde mannen en anderen. Uit koperwalsdraad zijn stralende zonnen, een vliegtuig en een schip gevormd. De muur stond vanaf 1945 aan de voet van het C-gebouw van de fabriek aan de Hamerstraat; toen Draka daar in 2016 sloot, verhuisde het monument hierheen. Bij de nieuwe onthulling waren bijna honderd oud-Drakianen.
+
+      Ook de gebouwen van de begraafplaats zelf zijn de moeite waard. In 2012 paste Dok Architecten (Herman Zeinstra en Gianni Cito) het ontvangstgebouwtje uit de jaren dertig, in de stijl van de Amsterdamse School, aan en zette er kleine nieuwe paviljoens naast met scheve puntdaken, aan een kaarsrechte route onder een glazen dak: opbaren, condoleren, cremeren, na elkaar. De ingang ligt nu haaks op het kanaal, langs een vijver. De aula staat in een tweede vijver, met licht dat via het water door grote ramen naar binnen kaatst, en door een strook glas boven in het zeven meter hoge dak blijft de lucht altijd zichtbaar. Na de plechtigheid gaan de deuren open en lopen de genodigden met de kist rechtstreeks naar het graf.
+
+      Elders in Noord:
+      - Kievitstraat 21: een gedenksteen in de gevel, 'Zonder reden verwoest, in vrede herbouwd'
+      - Sint Ritakerk, Hagedoornplein: een bord bij de hotelingang en een putdeksel met namen van slachtoffers
+      - Kamperfoelieweg hoek Azaleastraat: de Phoenix (Henk Dannenburg, 1951), het monument voor de burgers van Noord die in de oorlog omkwamen, een bronzen feniks die uit zijn as herrijst; de zes meter hoge naald van kalksteen met een vers van Da Costa ging verloren bij de aanleg van de toevoerwegen naar de IJtunnel, het beeld stond vanaf 1968 op het Mosveld en sinds 2016 hier; op 4 mei is hier de herdenking van Volewijck
+    attributes:
+      built: "2003"
+    sources:
+      - https://nl.wikipedia.org/wiki/Bombardementen_op_Amsterdam-Noord
+      - https://nl.wikipedia.org/wiki/De_Nieuwe_Noorder
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3094/amsterdam-fokkermonument
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4189/amsterdam-draka-monument
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1480/amsterdam-de-phoenix
+      - https://arcam.nl/architectuur-gids/kantoor-en-rouwcentrum-de-nieuwe-noorder/
+
+- title: Floradorp
+  summary: A late-1920s council village of 600 houses for families from condemned slums and from Asterdorp, now pink and blue, with a hidden court once built for the elderly and a famously defiant streak.
+  body: |
+    In the 1920s Amsterdam declared hundreds of slum dwellings unfit, on Uilenburg, Rapenburg and in the Jordaan, but could only clear them once it had somewhere else to put the residents. Floradorp was one answer: 600 municipal houses for large, poor families, built to the minimum standards (no bathrooms) so rents could stay low. The first 183 were finished in 1927, the last in 1929. A 1930 count of the first households lists 144 from condemned homes, 123 from the wooden emergency village Obelt and 20 from the "housing school" Asterdorp. In the middle, the Binnenhof was a group of gabled cottages specially for old people, unusual at the time.
+
+    A renovation in the mid-1990s gave the brick walls a pastel render, pink or blue, with tiles along the base and the eaves, and merged the old people's cottages, turning the Binnenhof into a closed garden. Floradorp is still a close-knit working-class neighbourhood where families stay for generations, and is known for its rebellious streak, not least its decades-long tradition of a big, unofficial New Year's bonfire, banned by the city again for 2025 and 2026. Residents' homes: walk through, don't intrude.
+  category: housing
+  lat: 52.398908
+  lng: 4.915927
+  address: Binnenhofstraat
+  links:
+    - { label: Wikipedia (nl) Floradorp, url: "https://nl.wikipedia.org/wiki/Floradorp" }
+    - { label: Wikipedia (nl) Tuindorp Buiksloterham, url: "https://nl.wikipedia.org/wiki/Tuindorp_Buiksloterham" }
+  attributes:
+    rank: Okay
+    built: 1927–1929
+    original_use: Council housing for large families
+  photos:
+    - commons:File:Amsterdam-Noord - Floradorp.JPG
+    - commons:File:Amsterdam - Binnenhofstraat Floradorp.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Floradorp
+    - https://nl.wikipedia.org/wiki/Asterdorp
+  nl:
+    title: Floradorp
+    summary: Een gemeentelijk arbeidersdorp van 600 woningen uit de late jaren twintig, voor gezinnen uit krotwoningen en uit Asterdorp. Nu roze en blauw, met een binnenhof dat ooit voor 'ouden van dagen' was bedoeld.
+    body: |
+      In de Amsterdamse binnenstad werden in die periode op grote schaal woningen onbewoonbaar verklaard, zoals op Uilenburg, Rapenburg en in de Jordaan. Honderden krotwoningen konden pas onbewoonbaar worden verklaard zodra er een redelijk alternatief was voor de bewoners. De gemeente bouwde in Floradorp woningwetwoningen voor grote gezinnen, die voldeden aan de minimumnormen zodat de huren zo laag mogelijk bleven; een natte cel was er niet. De eerste 183 huizen werden opgeleverd in 1927 en de laatste in 1929. Een overzicht uit 1930 van de eerste bewoners noemt onder meer 144 gezinnen uit onbewoonbaarverklaarde woningen, 123 uit het nooddorp Obelt en 20 uit woonschool Asterdorp. In het midden was het 'Binnenhof' bedacht, een groep huizen met puntdaken, speciaal voor 'ouden van dagen'.
+
+      Het Woningbedrijf renoveerde Floradorp halverwege de jaren negentig. De bakstenen buitenmuren kregen een pastelkleurige pleisterlaag, die op de plint en onder de dakgoot werd versierd met tegelwerk. De kleine woningen aan het Binnenhof werden samengevoegd; het is nu een besloten binnentuin. In Floradorp wonen dezelfde families van generatie op generatie en er heerst een sterke gemeenschapszin. Er bestaat een decennialange traditie van grote, illegale kerstboomverbrandingen; de gemeente verbood het vuur in 2025 en handhaaft dat verbod voor 2026.
+    attributes:
+      original_use: Woningwetwoningen voor grote gezinnen
+    sources:
+      - https://nl.wikipedia.org/wiki/Floradorp
+
+- title: Statue for the Rose-ringed Parakeet
+  summary: "A seven-metre ceramic parakeet by Teun Castelein, chosen by residents and unveiled in 2026: an ode to \"all strange birds\", and to the most divisive bird in the Netherlands."
+  body: |
+    The first rose-ringed parakeets were spotted in Amsterdam in the 1970s; now there are thousands, and few birds split opinion like them. Some love the bright green flashes in the parks, others call them noisy pests that chase smaller birds and peck holes in facades. Residents of Overhoeks voted for this monument in 2023.
+
+    Artist Teun Castelein worked on the ceramic statue for three years. It stands seven metres tall in the Wilhelmina Druckerpark behind the A'DAM Toren and was officially unveiled on 28 August 2026. Castelein calls it "an ode to all strange birds": to the outsider, and to a city people come to in order to become who they are, or flee to. Passers-by are divided, which is rather the point.
+
+    It is not the first strange bird here. Some 150 metres south, on the Overhoeksplein, Fredie Beckmans's *Vreemde vogels* (strange birds, 2020) is a giant birdhouse of foam in glass-fibre polyester, set in place by crane: a monument to tolerance, made with the Stichting ter Verfraaiing van de Wereld (foundation for the beautification of the world), saying that differences of origin, religion, sexuality or way of life should not matter.
+
+    Look for:
+    - some 150 metres south, on the Overhoeksplein: Beckmans's giant birdhouse, Vreemde vogels
+  category: street-art
+  lat: 52.384999
+  lng: 4.90219
+  address: Wilhelmina Druckerpark, Overhoeks
+  links:
+    - { label: AT5 (2026), url: "https://www.at5.nl/artikelen/239163/metershoge-halsbandparkiet-kijkt-uit-over-overhoeks-ode-aan-alle-vreemde-vogels" }
+    - { label: Wikipedia (nl) Vreemde vogels, url: "https://nl.wikipedia.org/wiki/Vreemde_vogels_(beeld)" }
+  attributes:
+    rank: Nice
+    built: "2026"
+    artist: Teun Castelein
+  photos:
+    - commons:File:2026 Standbeeld van een halsbandparkiet, Asd (A).jpg
+    - commons:File:2026 Standbeeld van een halsbandparkiet, Asd (B).jpg
+  sources:
+    - https://www.at5.nl/artikelen/239163/metershoge-halsbandparkiet-kijkt-uit-over-overhoeks-ode-aan-alle-vreemde-vogels (facts and short quotes)
+    - OpenStreetMap node 14255555911 (position)
+    - research/noord/SCOUT.md item 25 (resident vote in 2023, unverified beyond the scout lead)
+    - https://nl.wikipedia.org/wiki/Vreemde_vogels_(beeld) (Beckmans, birdhouse, PUR foam in glass-fibre polyester, crane, Stichting ter verfraaiing van de wereld, message of tolerance; lead image dated 2024)
+    - OSM node 'vreemde vogels' (start_date 2020-09-07, 52.383633, 4.902834)
+  nl:
+    title: Standbeeld voor de Halsbandparkiet
+    summary: "Een zeven meter hoge keramische halsbandparkiet van Teun Castelein, in 2026 onthuld: een ode aan alle vreemde vogels, en aan de meest omstreden vogel van Nederland."
+    body: |
+      In de jaren zeventig werd de eerste halsbandparkiet in Amsterdam gespot; inmiddels zijn het er duizenden. Weinig vogels roepen zulke gemengde reacties op: de een geniet van de groene flitsen in het park, de ander noemt ze lawaaiig en lastig. Bewoners van Overhoeks kozen in 2023 voor dit monument.
+
+      Kunstenaar Teun Castelein werkte drie jaar aan het standbeeld van keramiek. Het staat zeven meter hoog in het Wilhelmina Druckerpark achter de A'DAM Toren en werd op 28 augustus 2026 officieel onthuld. "Dit is een ode aan alle vreemde vogels", zegt Castelein: aan Amsterdam als stad waar mensen naartoe komen om te worden wie ze moeten zijn, of naartoe vluchten. Voorbijgangers zijn verdeeld, en dat is precies de bedoeling.
+
+      Het is niet de eerste vreemde vogel hier. Zo'n 150 meter zuidelijker, op het Overhoeksplein, staat sinds 2020 *Vreemde vogels* van Fredie Beckmans: een enorme vogelkast van PUR-schuim in glasvezelversterkt polyester, die met een hijskraan op zijn plek werd gezet. Het is een monument voor verdraagzaamheid, mede op initiatief van de Stichting ter Verfraaiing van de Wereld: verschillen in afkomst, religie, seksualiteit of leefwijze horen er niet toe te doen.
+
+      Let op:
+      - zo'n 150 meter zuidelijker, op het Overhoeksplein: de reuzenvogelkast Vreemde vogels van Beckmans
+    sources:
+      - https://www.at5.nl/artikelen/239163/metershoge-halsbandparkiet-kijkt-uit-over-overhoeks-ode-aan-alle-vreemde-vogels
+      - https://nl.wikipedia.org/wiki/Vreemde_vogels_(beeld)
+
+- title: Players and Supporters
+  summary: Four barefoot bronze footballers by Hartmut Wilkening, each balancing on one foot on the lawn by the ferry, not far from the Buiksloterham meadows where Ajax played its first matches.
+  body: |
+    Ajax did not start out in Amsterdam-Oost. From 1900 the club played on two pitches among the meadows of the Buiksloterham, close to here. When the city wanted that land for housing, Ajax had to leave, and in 1907 it moved to a wooden stadium on the Middenweg.
+
+    Hartmut Wilkening's bronze group of 2005 on the grass by the ferry nods to that football past. Four figures play a kickabout: each touches the ground with one bare foot while the rest of the body tilts through the air, as if only the movement keeps it upright. The moves are a professional's, the clothes are not: a sweater, long trousers and no boots.
+
+    The group stands on the lawn beside the Pont Neuf coffee kiosk on the Buiksloterweg, a few steps from where the ferry from Centraal Station lands, so you walk past it when you cross the IJ.
+
+    Look for:
+    - the single foot each player balances on, on a small stone base
+    - the bare feet under the long trousers
+    - the ferries coming and going a few steps away
+  category: street-art
+  lat: 52.382694
+  lng: 4.903944
+  address: Buiksloterweg, by the Pont Neuf kiosk at the ferry
+  links:
+    - { label: Art@Site, url: "https://www.artatsite.com/Amsterdam/details/Wilkening_Hartmut_Players_Supporters_Buiksloterweg_beelden_statues_sculptures_kunst_Art_at_Site_Amsterdam.html" }
+    - { label: "Geheugen van Oost, Ajax", url: "https://geheugenvanoost.amsterdam/page/8368/ajax-doet-harten-sneller-kloppen" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q124958233" }
+  attributes:
+    rank: Okay
+    built: "2005"
+    artist: Hartmut Wilkening
+  photos:
+    - commons:File:2023 Players and Supporters, Asd (1).jpg
+    - commons:File:Players and Supporters Hartmut Wilkening Buiksloterweg Amsterdam.JPG
+  sources:
+    - https://www.artatsite.com/Amsterdam/details/Wilkening_Hartmut_Players_Supporters_Buiksloterweg_beelden_statues_sculptures_kunst_Art_at_Site_Amsterdam.html (2005, four bronze figures, one foot on the ground, sweater, long trousers, bare feet; facts only)
+    - https://geheugenvanoost.amsterdam/page/8368/ajax-doet-harten-sneller-kloppen (Ajax on two pitches in the Buiksloterham from 1900; left when the city planned housing; Houten Stadion on the Middenweg 1907)
+    - https://www.wikidata.org/wiki/Q124958233 (P625 52.382694, 4.903944)
+    - "commons:File:2023 Players and Supporters, Asd (4).jpg (statues on the lawn right beside the Pont Neuf kiosk; Nominatim: Pont Neuf, Buiksloterweg 5A, node 3473280904 at 52.382737, 4.904113)"
+    - Old pin 52.382942, 4.904542 was the camera position of the 2009 Commons photo (reverse geocodes to the Tolhuis restaurant); the two unnamed OSM artwork nodes (4307283473, 4307283652) lie inside the Tolhuistuin park, 75 to 100 m north, and are not this group
+  nl:
+    title: Players and Supporters
+    summary: Vier bronzen voetballers op blote voeten van Hartmut Wilkening, elk balancerend op één voet in het gras bij de pont, niet ver van de weilanden in de Buiksloterham waar Ajax zijn eerste wedstrijden speelde.
+    body: |
+      Ajax begon niet in Oost. Vanaf 1900 speelde de club op twee velden tussen de weilanden van de Buiksloterham, hier vlakbij. Toen de gemeente daar woningen wilde bouwen, moest Ajax weg, en in 1907 verhuisde de club naar het Houten Stadion aan de Middenweg.
+
+      De bronzen beeldengroep van Hartmut Wilkening uit 2005, in het gras bij de pont, knipoogt naar dat voetbalverleden. Vier figuren trappen een balletje: ieder raakt met één blote voet de grond, terwijl de rest van het lichaam schuin door de lucht helt, alsof alleen de beweging ze overeind houdt. De bewegingen zijn die van profs, de kleren niet: een trui, een lange broek en geen voetbalschoenen.
+
+      De groep staat op het grasveld naast de koffiekiosk Pont Neuf aan de Buiksloterweg, een paar stappen van de aanlegplaats van de pont van Centraal Station. Wie het IJ oversteekt, loopt er dus langs.
+
+      Let op:
+      - de ene voet waarop elke speler balanceert, op een klein stenen voetstuk
+      - de blote voeten onder de lange broeken
+      - de ponten die een paar stappen verderop aan- en afvaren
+    sources:
+      - https://geheugenvanoost.amsterdam/page/8368/ajax-doet-harten-sneller-kloppen
+
+- title: Café Modern
+  summary: An early pioneer of Noord's revival, opened in 2012 in the 1931 branch of the Twentsche Bank, where the old basement vault, robbed of 40,000 guilders in 1987, is now a private dining room.
+  body: |
+    In August 1931 the Twentsche Bank, a forerunner of ABN AMRO, opened a branch on the corner of the Meidoornweg in the Van der Pekbuurt, designed by the Van Gendt brothers with stone in the shopfront and decorative brickwork in the gable. A bank employee lived upstairs with his family, and there was a vault in the basement. The branch carried on after the 1964 merger into the Algemene Bank Nederland and was robbed in 1987 after a bomb alert, for 40,000 guilders. By 1999 it stood empty.
+
+    In 2012, when Noord was not yet a place Amsterdammers crossed the IJ to eat, Café Modern opened here, and it has been a fixture of the neighbourhood ever since, with a big terrace that locals use for lunch and drinks. The bank is still legible in the interior, the old staff flat became a small hotel, and since 2019 the vault has been a room for private dinners.
+  category: food-drink
+  lat: 52.386468
+  lng: 4.909009
+  address: Meidoornweg 2
+  links:
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Meidoornweg/2-4" }
+    - { label: Café Modern, url: "https://modernamsterdam.nl/" }
+    - { label: Entree Magazine (2026), url: "https://www.entreemagazine.nl/ondernemen/caf%C3%A9-modern-al-13-jaar-een-vertrouwd-adres-in-amsterdam-noord" }
+  attributes:
+    rank: Okay
+    built: "1931"
+    architect: Gebroeders Van Gendt
+    original_use: Branch office of the Twentsche Bank
+  photos:
+    - commons:File:2022 Meidoornweg 2-10, Asd (1).jpg
+  sources:
+    - https://amsterdamopdekaart.nl/1850-1940/Meidoornweg/2-4 (facts only)
+    - https://modernamsterdam.nl/ (facts only)
+    - https://www.entreemagazine.nl/ondernemen/caf%C3%A9-modern-al-13-jaar-een-vertrouwd-adres-in-amsterdam-noord (open in 2026, neighbourhood role)
+    - https://www.parool.nl/ps/thuisbioscoop-escaperoom-chambre-separe-een-bankkluis-in-de-kelder-is-zo-gek-niet~b4a4a5ae/ (vault in use since 2019; snippet only)
+  nl:
+    title: Café Modern
+    summary: Een vroege pionier van het nieuwe Noord, sinds 2012 in het bijkantoor van de Twentsche Bank uit 1931. De oude kluis in de kelder, in 1987 nog overvallen, is nu een ruimte voor besloten diners.
+    body: |
+      In augustus 1931 opende de Twentsche Bank, een van de voorlopers van ABN AMRO, een bijkantoor op de hoek van de Meidoornweg in de Van der Pekbuurt, ontworpen door de Gebroeders Van Gendt, met natuursteen in de pui en bijzonder metselwerk in de geveltop. Op de tweede verdieping woonde een medewerker met zijn gezin; in de kelder lag een kluis. Ook na de fusie tot Algemene Bank Nederland in 1964 bleef het filiaal in gebruik; in 1987 werd het overvallen. In 1999 stond het pand leeg.
+
+      In 2012 opende hier Café Modern, toen Noord nog geen bestemming was om voor uit eten te gaan. Het restaurant is sindsdien stevig verankerd in de wijk; buurtbewoners ontmoeten elkaar op het royale terras. In het interieur is de bank nog altijd terug te zien, de voormalige dienstwoning is een klein hotel en sinds 2019 is de kluis een ruimte voor besloten diners.
+    attributes:
+      original_use: Bijkantoor van de Twentsche Bank
+    sources:
+      - https://amsterdamopdekaart.nl/1850-1940/Meidoornweg/2-4

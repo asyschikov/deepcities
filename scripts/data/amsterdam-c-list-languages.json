@@ -1,4 +1,5 @@
 {
+  "language": "en",
   "languages": ["nl"],
   "translations": {
     "nl": {
@@ -50,6 +51,54 @@
         "artist": {
           "label": "Kunstenaar",
           "help": "Wie de muurschildering of het kunstwerk maakte."
+        },
+        "status": {
+          "label": "Status",
+          "help": "Ingevuld als het er niet meer is; de pin markeert waar het was.",
+          "options": {
+            "Gone": "Verdwenen"
+          }
+        },
+        "rank": {
+          "label": "Waardering",
+          "help": "Hoeveel omweg het waard is: Geweldig (ga ervoor om), Leuk (de moeite als je in de buurt bent), Oké (een voetnoot, voor completisten).",
+          "options": {
+            "Amazing": "Geweldig",
+            "Nice": "Leuk",
+            "Okay": "Oké"
+          }
+        },
+        "check": {
+          "label": "Te controleren",
+          "help": "Hier is iets onbevestigd: de pin (Locatie), of het er nog is (Nog aanwezig?), of een feit waarover bronnen het oneens zijn (Feiten). Wis het na controle.",
+          "options": {
+            "Location": "Locatie",
+            "Still there?": "Nog aanwezig?",
+            "Facts": "Feiten"
+          }
+        },
+        "check_note": {
+          "label": "Wat te controleren",
+          "help": "Eén regel over wat onzeker is, bijv. \"Volgens OSM staat de bank 120 m oostelijker dan deze pin.\""
+        },
+        "outlook": {
+          "label": "Vooruitzicht",
+          "help": "Gaat naar verwachting veranderen of verdwijnen. Zo kan de plek gevolgd worden; wis het zodra de verandering er is (pas dan de plek aan of markeer hem als verdwenen).",
+          "options": {
+            "Leaving or closing": "Vertrekt of sluit",
+            "Demolition planned": "Sloop gepland",
+            "Under threat": "Bedreigd",
+            "Major change ahead": "Grote verandering op komst",
+            "Temporarily closed": "Tijdelijk dicht"
+          }
+        },
+        "outlook_when": {
+          "label": "Verwacht",
+          "help": "Wanneer, voor zover bekend, bijv. \"begin 2028\" of \"nov 2026 tot mrt 2027\"."
+        },
+        "outlook_note": {
+          "label": "Wat verandert",
+          "help": "Eén regel: wat er gepland is of gevreesd wordt, en door wie."
         }
       }
     }

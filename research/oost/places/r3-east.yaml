@@ -1,0 +1,307 @@
+# Oost round 3, slice "east": the Indische Buurt, Zeeburgereiland and IJburg.
+# Scout items (SCOUT-3.md): 210 Ceramplein and the freedom tree, 240 Leeuwen van Zeeburg,
+# 224 Zuider IJdijk guardhouse (with the three Fliegerhorst bunkers beside it), 227 Sluishuis,
+# 230 De Warren. Merges: 206 into "Van der Pek's garden blocks, Balistraat", 211 into
+# "Jewish memorials of the Transvaalbuurt", 217 into "Flevopark pumping station and the polder
+# cottages" (indische.yaml); 220 into "Enneüs Heermabrug" (r2-ijburg.yaml).
+# Dutch texts are spliced from nl.wikipedia, 4en5mei.nl, the city's heritage note on the
+# guardhouse (Monumenten en Archeologie, 2018), TracesOfWar and NH Nieuws.
+
+# ================================================================ Indische Buurt
+
+- title: Ceramplein, "Hun leven, onze vrijheid" and the freedom tree
+  summary: A small war memorial on an odd five-sided square, where the Indische Buurt celebrated the liberation for years around a freedom tree. A bronze phoenix, a reddish stone reading "Their life, our freedom" and a lime tree from 1945.
+  body: |
+    The Ceramplein, named in 1924 after the island of Ceram (Seram) in the Moluccas, is an irregular pentagon where the Eerste and Tweede Ceramstraat meet. For years after the Second World War the Indische Buurt celebrated the liberation here, around a freedom tree on the square. In 1957 a tile was laid near the tree.
+
+    What stands on the west side today has two parts. A reddish stone, set into a low wall of brick and granite, reads simply "Hun leven, onze vrijheid 1940–1945" (Their life, our freedom); whether it is the tile of 1957 is not known. Beside it, on a concrete plinth, is a bronze phoenix by Arend Soerink (1924–1999), a little-known sculptor who studied with Luigi de Lerma and Gijs Jacobs van den Hof. When it was placed is also unclear: the city archives have a photo of about 1988 showing a paver laying the stones in front of it. Inside the memorial grows a lime tree from 1945; whether it is the original freedom tree nobody can say. The memorial was damaged by rowdy youths during the national remembrance of 2003, and the bird was splashed with green paint in 2008.
+
+    It is still the neighbourhood's own place of remembrance: on 4 May residents of the Indische Buurt walk here in a silent march and lay wreaths.
+
+    Most of the square's original workers' housing went in the urban renewal of the 1980s, but on the south side a row of small houses by J.M. van Hardeveld (about 1925) survives.
+
+    Look for:
+    - the phoenix rising from its plinth on the west side
+    - the reddish stone with its six words
+    - the lime tree growing inside the memorial
+    - the 1925 Van Hardeveld houses on the south side
+    - the gateway building towards the Tweede Ceramstraat
+  category: hidden-history
+  lat: 52.362822
+  lng: 4.941095
+  address: Ceramplein (west side)
+  links:
+    - { label: Wikipedia (nl) Monument leven en vrijheid, url: "https://nl.wikipedia.org/wiki/Monument_leven_en_vrijheid" }
+    - { label: Wikipedia (nl) Ceramplein, url: "https://nl.wikipedia.org/wiki/Ceramplein" }
+    - { label: TracesOfWar, url: "https://www.tracesofwar.com/sights/56893/memorial-at-the-ceramplein" }
+  attributes:
+    rank: Okay
+    artist: Arend Soerink (phoenix)
+  photos:
+    - commons:File:2021 Oorlogsmonument Ceramplein, Asd (1).jpg
+    - commons:File:2021 Ceramplein, Asd-overzicht (4).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Monument_leven_en_vrijheid (freedom tree, tile 1957, stone text, Soerink phoenix, c. 1988 archive photo, damage 2003 and 2008, lime of 1945)
+    - https://nl.wikipedia.org/wiki/Ceramplein (named 30 January 1924, pentagon, Van Hardeveld houses c. 1925, urban renewal from the 1980s, gateway)
+    - https://www.tracesofwar.com/sights/56893/memorial-at-the-ceramplein (inscription)
+    - https://4en5meiamsterdam.nl/en/?p=9141 and the 4 May 2023 programme (silent march and wreath-laying at the Ceramplein, organised by neighbourhood organisations)
+    - OSM node 5973397932 (artwork; matches the nl.wikipedia coordinates within 3 m); Commons photos 9 October 2021
+  nl:
+    title: Ceramplein, "Hun leven, onze vrijheid" en de vrijheidsboom
+    summary: Een klein oorlogsmonument op een onregelmatig vijfhoekig plein, waar de Indische Buurt jarenlang de bevrijding vierde rond een vrijheidsboom. Een bronzen feniks, een rossige steen met 'Hun leven, onze vrijheid' en een linde uit 1945.
+    body: |
+      Het Ceramplein vormt het scharnierpunt tussen de Eerste Ceramstraat en Tweede Ceramstraat. Op 30 januari 1924 kreeg het plein zijn naam, naar het eiland Ceram in Nederlands-Indië, in de eilandengroep de Molukken. Het plein heeft de vorm van een onregelmatige vijfhoek.
+
+      De Tweede Wereldoorlog werd in de Amsterdamse Indische Buurt jarenlang gevierd nabij een vrijheidsboom op dit plein. In 1957 werd nabij die vrijheidsboom een tegel geplaatst. Het gedenkteken bestaat nu uit twee delen: een rossige tegel, waarvan onbekend is of dat de eerder genoemde tegel is, met de tekst 'Hun leven, onze vrijheid 1940-1945', gemetseld op een terreinafscheiding van baksteen en graniet; en een beeld in de vorm van een feniks van Arend Soerink, een bronzen sculptuur op een betonnen sokkel. Wanneer dit beeld is geplaatst is onbekend, maar het stadsarchief bezit een foto van een stratenmaker uit circa 1988 die de straatstenen voor het beeld aan het leggen is. Arend Soerink (1924-1999) was een vrij onbekende beeldhouwer, die les heeft gehad van Luigi de Lerma en Gijs Jacobs van den Hof. Nabij of eigenlijk in het monument staat een linde uit 1945; onbekend is of dat de bedoelde vrijheidsboom is. De combinatie was tijdens de Nationale Dodenherdenking 2003 slachtoffer van opstandige jeugd; in 2008 werd alleen het beeld beklad met groene verf.
+
+      Op 4 mei herdenken bewoners van de Indische Buurt hier de slachtoffers van 1940-1945, met een stille tocht en een kranslegging.
+
+      De originele bebouwing viel vanaf de jaren 80 op grote schaal ten prooi aan stadsvernieuwing. Aan de zuidkant van het plein staat echter een reeks woninkjes die bewaard bleven; ze zijn ontworpen door de architect J.M. van Hardeveld en komen uit de periode 1925.
+
+      Let op:
+      - de feniks op zijn sokkel aan de westkant
+      - de rossige steen met de zes woorden
+      - de linde die in het monument staat
+      - de woninkjes van Van Hardeveld aan de zuidkant
+      - de poort richting de Tweede Ceramstraat
+    attributes:
+      artist: Arend Soerink (feniks)
+    sources:
+      - https://nl.wikipedia.org/wiki/Monument_leven_en_vrijheid
+      - https://nl.wikipedia.org/wiki/Ceramplein
+
+# ================================================================ Mouth of the Amsterdam-Rijnkanaal
+
+- title: Leeuwen van Zeeburg
+  summary: Four identical lions guard the mouth of the Amsterdam-Rijnkanaal, two on each bank. They are 2015 casts of Bart van Hove's lions of the old Merwede canal lock, which spent half a century in storage and in the Noordoostpolder.
+  body: |
+    Around 1888 Bart van Hove, the leading academic sculptor of his day, made four lions for the mouth of the new Merwedekanaal (now the Amsterdam-Rijnkanaal), to stand at the lock by the siphon at Zeeburg. He made them in two variants: two with the left forepaw crossed over the right, two the other way round. About half a century later, around 1942, the canal was widened and the lions went into storage. They later found a new home in Emmeloord in the Noordoostpolder, where they did not stay put either; they now sit at the foot of its Poldertoren.
+
+    In the 2010s the last remains of the old lock complex were demolished and Rijkswaterstaat wanted its lions back. The Noordoostpolder had grown attached to them, but offered a cast made in 2010 at the suggestion of the artist Marieke van Diemen. From that one cast, four identical lions were made in 2015, so where Van Hove made two pairs, Amsterdam now has four lions that all cross the right paw over the left, as on his original plaster model of about 1888, which the Amsterdam Museum keeps. They sit on plinths just north of the Amsterdamsebrug, a pair on each bank. The pose will look familiar from Artis: Van Hove's monument to Gerardus Frederik Westerman (1890–1891) has a lion crossing its paws the same way.
+
+    Gemaal Zeeburg, which flushes the city's canals through the siphon under this canal, is a short walk west along the Zeeburgerdijk.
+
+    Between the lions the canal hides a less visible guard. In dry spells, salt water from the North Sea Canal creeps inland along the bottom of the Amsterdam-Rijnkanaal, which is bad for farmland and drinking water. Since November 2018 a heavy perforated pipe across the six-metre-deep canal bed, just north of the Amsterdamsebrug, blows a curtain of air bubbles that pushes the salt water back up; the air comes from a small white compressor house on the west bank. The shallow edges are left free so fish can get through. The idea goes back to the engineer Johan van Veen around 1940; it had been used in locks for decades, but this was its first use in open water in the Netherlands. When it runs, a stripe of foam shows across the surface.
+
+    Look for:
+    - the crossed paws, right over left on all four
+    - the second pair facing them across the water on the Zuider IJdijk side
+    - the view from the Amsterdamsebrug over the canal mouth and its guards
+    - the white compressor house on the west bank and, when the bubble screen runs, the stripe of foam across the canal
+  category: street-art
+  lat: 52.367280
+  lng: 4.956349
+  address: Westelijke Merwedekanaaldijk and Zuider IJdijk, north of the Amsterdamsebrug
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Leeuwen_van_Zeeburg" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q67210189" }
+    - { label: Geheugen van Oost (bubble screen), url: "https://geheugenvanoost.amsterdam/page/85848" }
+    - { label: Wikipedia (nl) Bellenscherm, url: "https://nl.wikipedia.org/wiki/Bellenscherm" }
+  attributes:
+    rank: Okay
+    built: "2015"
+    artist: Bart van Hove (design, c. 1888); cast at Marieke van Diemen's initiative
+  photos:
+    - commons:File:Leeuwen van Zeeburg (1).jpg
+    - commons:File:Leeuwen van Zeeburg (10).jpg
+    - commons:File:Leeuwen van Zeeburg (4).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Leeuwen_van_Zeeburg (Van Hove c. 1888, plaster model in the Amsterdam Museum, gone around 1942, Emmeloord, 2010 cast, four identical in 2015, right over left, north of the Amsterdamsebrug, Westerman lion)
+    - https://commons.wikimedia.org/wiki/File:Leeuwen_Bart_van_Hove_Poldertoren_DeDeel_Emmeloord.jpg (lions at the Poldertoren in Emmeloord, 2010)
+    - OSM nodes 5965126781 to 5965126783 and 5965126780 (two lions on each bank); Wikidata Q67210189
+    - Commons photos 18 August 2019 and 26 July 2020 (east pair)
+    - "https://geheugenvanoost.amsterdam/page/85848 (Jan Dijk, 5 June 2020: white compressor building with air inlet on the Westelijke Merwedekanaaldijk past the Amsterdamsebrug, near the lions; trial July 2018, permanent November 2018; Johan van Veen 1940; pipe with small holes on the 6 m deep bed; stripe of foam when on; sides left free for fish; first use in open water)"
+    - https://nl.wikipedia.org/wiki/Bellenscherm (permanent screen in the Amsterdam-Rijnkanaal by the Amsterdamsebrug since November 2018 against salt intrusion from the North Sea Canal; shallow bubble-free zone at the sides for fish; Van Veen around 1940; first used in locks at IJmuiden 1961)
+  nl:
+    title: Leeuwen van Zeeburg
+    summary: Vier identieke leeuwen aan weerszijden van de monding van het Amsterdam-Rijnkanaal, in 2015 gegoten naar de leeuwen die Bart van Hove rond 1888 maakte voor de schutsluis bij Zeeburg.
+    body: |
+      Leeuwen van Zeeburg is een beeldengroep aan weerszijden van het Amsterdam-Rijnkanaal. De groep bestaat uit vier identieke leeuwen, die bij de ingang van het kanaal staan. Deze leeuwen stammen uit 2015, maar kennen een historie die terugvoert tot eind 19e eeuw. Bart van Hove maakte voor de monding van het Amsterdam-Rijnkanaal, toen nog Merwedekanaal geheten, vier leeuwen voor plaatsing bij de schutsluis bij Zeeburg bij de sifon. Een gipsmodel van het origineel uit circa 1888 is in het bezit van het Amsterdam Museum.
+
+      Een halve eeuw later, rond 1942, verdwenen ze weer: het Amsterdam-Rijnkanaal werd verbreed en ze verdwenen in opslag. Ze vonden later een nieuwe plaats in Emmeloord, waar ze ook geen rust kregen. In de jaren tien van de 21e eeuw werden de restanten van het sluizencomplex gesloopt en wilde Rijkswaterstaat de leeuwen terug. De Noordoostpolder was echter gehecht aan zijn exemplaren, maar men wilde wel een op voorstel van Marieke van Diemen gemaakt afgietsel uit 2010 ter beschikking stellen. Van dat ene afgietsel werden vier identieke leeuwen gegoten. Waar Van Hove twee varianten maakte (twee keer linker over rechter voorpoot en twee keer rechter over linker voorpoot), kent Amsterdam nu dus vier identieke met de rechter over de linker voorpoot, zoals ook op het oorspronkelijke gipsmodel. De leeuwen staan op sokkels even ten noorden van de Amsterdamsebrug.
+
+      De leeuw vertoont gelijkenis met de leeuw die Van Hove verwerkte in zijn monument voor Gerardus Frederik Westerman dat in Artis staat en uit 1890/1891 stamt (ook rechter over linker poot).
+
+      Tussen de leeuwen ligt nog een wachter, onder water. Bij droogte kruipt zout water uit het Noordzeekanaal over de bodem van het Amsterdam-Rijnkanaal het land in, slecht voor boeren en voor het drinkwater. Sinds november 2018 ligt daarom even ten noorden van de Amsterdamsebrug een zware buis met gaatjes dwars over de zes meter diepe kanaalbodem. Er wordt lucht doorheen geperst, en het gordijn van luchtbellen duwt het zoute water omhoog. De lucht komt uit een wit gebouwtje op de westoever. Aan de ondiepe zijkanten zitten geen bellen, zodat vissen erlangs kunnen. Het idee is van ingenieur Johan van Veen, rond 1940; in sluizen werd het al tientallen jaren gebruikt, maar hier werd het in Nederland voor het eerst in open water toegepast. Als het scherm aanstaat, zie je een strook schuim dwars over het water.
+
+      Let op:
+      - de gekruiste poten, bij alle vier rechts over links
+      - het tweede paar aan de overkant, aan de kant van de Zuider IJdijk
+      - het zicht vanaf de Amsterdamsebrug op de kanaalmonding en haar wachters
+      - het witte compressorhuisje op de westoever en, als het bellenscherm aanstaat, de strook schuim over het kanaal
+    attributes:
+      artist: Bart van Hove (ontwerp, ca. 1888); gegoten op initiatief van Marieke van Diemen
+    sources:
+      - https://nl.wikipedia.org/wiki/Leeuwen_van_Zeeburg
+      - https://geheugenvanoost.amsterdam/page/85848
+      - https://nl.wikipedia.org/wiki/Bellenscherm
+
+# ================================================================ Zeeburgereiland
+
+- title: Guardhouse and Fliegerhorst bunkers, Zuider IJdijk
+  summary: A little 1907–1909 guardhouse at what was the island's only land access, last building of the army's shooting range, and behind it the three biggest German bunkers left in Amsterdam, from the seaplane base the Luftwaffe ran here.
+  body: |
+    Zeeburgereiland grew out of dredging spoil dumped behind a breakwater around 1900. Because of its position the new island partly went to the army. From 1907 a shooting range and drill ground for the Amsterdam garrison was built on its southwest side, in use from 1910 by infantry from the Oranje-Nassau barracks. At Zuider IJdijk 24, beside what was then the only land access to the island along the canal dike, the War Department built a guard's house, with a shelter for the troops right next to it, a privy and a shed for targets, all fenced with barbed wire.
+
+    In 1916 the navy opened a seaplane base, Marinevliegkamp Schellingwoude, on the north side of the island. In May 1940 the Luftwaffe took it over and turned it into the largest seaplane base in the Netherlands, home to the Kriegsmarine's sea rescue service with Heinkel He 59 and Dornier Do 24 aircraft, and also used for minelaying, reconnaissance over the North Sea and raids on Britain. Dozens of concrete works went up across the island. After the war Defence stayed until the 1960s; the sheds were cleared, and their outlines still show in the ground behind the house.
+
+    What is left is a small ensemble. The guardhouse, renovated in recent years but with its original mass, symmetrical front, cornice and hipped roof, is still a family home; the city's heritage office advised in 2018 that it be kept. The soldiers' old drinking-water store serves as a wine cellar. Nearby, around Zuider IJdijk 30, stand three German bunkers, stripped of the earth that once covered and hid them: the biggest bunkers still in Amsterdam. One is a command post (Kleines Gefechtsstand) of 14.8 by 8 metres with walls and roof 1.5 metres thick, a radio room and observation slits facing north and south; another is a shelter of about 7 by 7 metres. Everything stands on private ground, among small workshops and sheds; you see it from the dike.
+
+    Look for:
+    - the symmetrical front and hipped roof of the house at no. 24
+    - grey concrete blocks among the yards behind the dike
+    - the Leeuwen van Zeeburg at the canal mouth, about 150 m along the dike
+  category: hidden-history
+  lat: 52.368762
+  lng: 4.958227
+  address: Zuider IJdijk 24 (bunkers around Zuider IJdijk 30)
+  links:
+    - { label: Monumenten en Archeologie (2018 note), url: "https://ruimtelijkeplannen.nl/documents/NL.IMRO.0363.M1801BPGST-VG01/b_NL.IMRO.0363.M1801BPGST-VG01_6.pdf" }
+    - { label: TracesOfWar (guardhouse), url: "https://www.tracesofwar.com/sights/156835/Stelling-van-Amsterdam---Guards-House-Zeeburg-Camp.htm" }
+    - { label: TracesOfWar (command bunker), url: "https://www.tracesofwar.com/sights/156237/marinevliegkamp-schellingwoude-seefliegerhorst-schellingwoude-kleines-gefechtsstand" }
+    - { label: Wikipedia (nl) Zeeburgereiland, url: "https://nl.wikipedia.org/wiki/Zeeburgereiland" }
+  attributes:
+    rank: Okay
+    built: 1907–1909 (guardhouse); 1940–1945 (bunkers)
+    original_use: Guard's house of an army shooting range; Luftwaffe seaplane base bunkers
+    check: Still there?
+    check_note: "Bunkers last described as standing by TracesOfWar (undated pages); the Baaibuurt-West plan area around them is being built up."
+  sources:
+    - https://ruimtelijkeplannen.nl/documents/NL.IMRO.0363.M1801BPGST-VG01/b_NL.IMRO.0363.M1801BPGST-VG01_6.pdf (Monumenten en Archeologie, 19 December 2018: range from 1907, in use 1910, guard's house, schuilloods, privy, target shed, outlines in the ground, house still lived in, renovated, drinking-water store now a wine cellar, three bunkers the largest in Amsterdam, ensemble, advice to keep)
+    - https://repository.officiele-overheidspublicaties.nl/externebijlagen/exb-2021-39757/currentItem (2018/2021 sketch for an extension; family home, "geen monumentenstatus")
+    - https://www.tracesofwar.com/sights/156835/Stelling-van-Amsterdam---Guards-House-Zeeburg-Camp.htm (guardhouse 1909, only land access, Oranje-Nassaukazerne infantry, last Dutch military building on the island)
+    - https://www.tracesofwar.com/sights/156236/marinevliegkamp-schellingwoude-seefliegerhorst-schellingwoude-shelter (Zuider IJdijk 30, base history, shelter 7.15 x 7.40 m, private property)
+    - https://www.tracesofwar.com/sights/156237/marinevliegkamp-schellingwoude-seefliegerhorst-schellingwoude-kleines-gefechtsstand (14.80 x 8 m, 1.5 m walls and roof, radio, two slits, one of three remaining bunkers)
+    - https://nl.wikipedia.org/wiki/Zeeburgereiland (dredging spoil, exercise ground from 1907, Marinevliegkamp 1916, Fliegerhorst, Defence until 1968)
+    - Nominatim/OSM node 2853525326 (address point Zuider IJdijk 24)
+  nl:
+    title: Wachtershuis en Fliegerhorst-bunkers, Zuider IJdijk
+    summary: Een wachterswoning uit 1907–1909 bij wat toen de enige toegang over land tot het Zeeburgereiland was, met daarachter de drie grootste Duitse bunkers die Amsterdam nog heeft, van de watervliegtuigbasis van de Luftwaffe.
+    body: |
+      Het Zeeburgereiland is rond 1900 ontstaan. Vanwege de strategische ligging kreeg het nieuwe eiland gedeeltelijk een militaire functie. Aan de zuidwestzijde werd vanaf 1907 het schiet- en exercitieterrein voor het garnizoen te Amsterdam gebouwd, dat vanaf 1910 in gebruik is genomen. Aan de Zuider IJdijk op nummer 24, vlakbij de destijds enige toegang over land tot het eiland, bouwde het Departement van Oorlog een wachterswoning en direct hiernaast een schuilloods voor de manschappen, een toiletgebouw en een opslagplaats voor schietschijven.
+
+      In 1916 werd ter plaatse van de tegenwoordige Sportheldenbuurt, aan de noordkant van het eiland, het Marine Vliegkamp Schellingwoude aangelegd, met een hangar en hellingbaan voor watervliegtuigen. Tijdens de Duitse bezetting in 1940-1945 bouwde de Luftwaffe het bestaande vliegkamp om tot Fliegerhorst Schellingwoude, de grootste vliegbasis voor watervliegtuigen van Nederland. Verspreid over het eiland verrezen ook tientallen bouwwerken, variërend van zware bunkers tot luchtafweergeschut. Na de oorlog, in de loop van de jaren 50 en 60, verdwenen de militaire functies van het eiland. Ook de schijven- en schuilloods werden overbodig en zijn gesloopt; hun contouren zijn nog in het maaiveld te zien, wat erop duidt dat de fundering nog aanwezig is.
+
+      De wachterswoning is bewoond gebleven. De woning is weliswaar in recente jaren gerenoveerd, maar heeft haar oorspronkelijke bouwmassa, vorm en detaillering behouden, met een voor die periode karakteristieke architectonische opzet met symmetrische voorgevel, kroonlijst en schilddak. De oorspronkelijke opslag voor drinkwater voor soldaten is tegenwoordig in gebruik als wijnkelder. Verder resteren nog slechts drie Duitse bunkers, zonder hun oorspronkelijke aanaarding ter bescherming en camouflage. Het zijn de grootste nog in Amsterdam aanwezige bunkers, alle in de zuidwesthoek van het eiland, in de nabijheid van de wachterswoning; een ervan is de 'Gefechtsstand für Fliegerhorst-kommandant'. Samen vormen de wachterswoning, de fundamenten van de loodsen en de drie resterende bunkers een cultuurhistorisch ensemble dat de geschiedenis van het militaire erfgoed op het Zeeburgereiland afleesbaar houdt. Alles staat op particulier terrein en is vanaf de dijk te zien.
+
+      Let op:
+      - de symmetrische voorgevel en het schilddak van nummer 24
+      - grijze betonblokken tussen de erven achter de dijk
+      - de Leeuwen van Zeeburg bij de kanaalmonding, zo'n 150 meter verderop langs de dijk
+    attributes:
+      built: 1907–1909 (wachterswoning); 1940–1945 (bunkers)
+      original_use: Wachterswoning van een militair schietterrein; bunkers van een Duitse watervliegtuigbasis
+      check_note: "TracesOfWar beschrijft de bunkers als nog aanwezig (pagina's zonder datum); het gebied Baaibuurt-West eromheen wordt bebouwd."
+    sources:
+      - https://ruimtelijkeplannen.nl/documents/NL.IMRO.0363.M1801BPGST-VG01/b_NL.IMRO.0363.M1801BPGST-VG01_6.pdf
+      - https://nl.wikipedia.org/wiki/Zeeburgereiland
+
+# ================================================================ IJburg
+
+- title: Sluishuis
+  summary: "BIG and Barcode's housing block at the gate of IJburg lifts one corner out of the IJmeer so boats can sail into its courtyard, and steps down to the water on the other side. Public stairs lead up its terraces to a roof walk, but not every day."
+  body: |
+    In 2016 the city held a competition for a "landmark" building on the Haringbuisdijk, at the entrance to Steigereiland, opposite Marlies Rohmer's floating homes. The winners were the Danish firm BIG of Bjarke Ingels and Rotterdam's Barcode Architects. Their design is a closed square block standing in the open water of the Buiten-IJ, with its facades sliced off at an angle: one corner is lifted high, so that the courtyard opens to the IJ and boats can moor "inside" the building, while the opposite side steps down in terraces towards the city. BIG had tried the trick of pulling up the corner of a closed block before, at VIA 57 West in Manhattan.
+
+    The odd shape was hard to build. The contractors put up two concrete "spines", walls almost half a metre thick, and hung the homes from them; work was done from a temporary sand island, with piles driven sixty metres into the ground, and the outside is clad in aluminium panels. Building began on 18 December 2018 and the Sluishuis opened on 13 July 2022. It has 442 apartments, most of them mid-market rentals, and a jetty that runs all the way round the building with berths for 34 houseboats.
+
+    The contested part is the roof. Two stairs in the facade climb past the residents' terraces to a walkway on top, with a view over the city. Access is controlled by the owners' association, which could have kept it closed; the city stipulated that the stairs must be open to the public on at least eighty days a year. So it is a public route, but a rationed one.
+
+    Look for:
+    - the lifted corner and the boats moored underneath it, from the Enneüs Heermabrug
+    - the jetty that runs round the whole building
+    - the stepped terraces on the city side and the stairs that climb them
+    - Waterbuurt West's floating houses across the water
+  category: housing
+  lat: 52.364329
+  lng: 4.981450
+  address: Haringbuisdijk, Steigereiland-Noord
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Sluishuis_(Amsterdam)" }
+    - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Sluishuis" }
+  attributes:
+    rank: Nice
+    built: 2018–2022
+    architect: BIG (Bjarke Ingels Group) with Barcode Architects
+  photos:
+    - commons:File:Sluishuis.jpg
+    - commons:File:2023 Amsterdam, IJburg, Sluishuis (01).jpg
+    - commons:File:Stairs at Sluishuis.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Sluishuis_(Amsterdam) (2016 competition, BIG and Barcode, VIA 57 West, two concrete spines, temporary island, 60 m piles, aluminium cladding, start 18 Dec 2018, opened 13 July 2022, 442 flats, 369 rental and 73 owner-occupied, 34 houseboat berths, roof walk, VvE and the 80-day minimum)
+    - https://en.wikipedia.org/wiki/Sluishuis (VvE manages access; stairs open at least 80 days a year)
+    - https://bna.nl/wp-content/uploads/2025/06/pdfPresentationsluishuis.pdf (search snippet: courtyard, jetty promenade and the walking route to the top accessible to visitors)
+    - Commons "Stairs at Sluishuis" (6 March 2025) and a Komoot tip of 16 March 2025 (stairs climbed to the roof)
+    - OSM relation 21145516 (building; pin at its centre)
+  nl:
+    title: Sluishuis
+    summary: Het woongebouw van BIG en Barcode Architects bij de entree van IJburg tilt één hoek uit het IJmeer op, zodat boten de binnenplaats in kunnen varen. Openbare trappen langs de terrassen leiden naar een wandelpad op het dak, maar niet elke dag.
+    body: |
+      Begin 2016 schreef de gemeente Amsterdam een prijsvraag uit voor een 'beeldbepalend' gebouw op de Haringbuisdijk, bij de entree van het Steigereiland, tegenover de woningen van Marlies Rohmer. Het winnende ontwerp kwam van een samenwerking tussen het Deense BIG (Bjarke Ingels Group) en het Rotterdamse Barcode Architects. Zij ontwierpen een gebouw met schuin afgesneden gevels en een grote opening aan de voorkant, waar boten onderdoor kunnen varen. De vorm van een gesloten bouwblok waarvan hoeken worden 'opgetrokken' gebruikte BIG eerder bij het gebouw VIA 57 West in Manhattan.
+
+      De vreemde vorm zorgde voor een hoop uitdagingen bij de bouw. De bouwcombinatie besloot twee 'ruggengraten' te bouwen in de vorm van betonnen muren van bijna een halve meter dik, waaraan de woningen zijn opgehangen. Tijdens de bouw werd er gewerkt met een tijdelijk opgespoten eiland. De heipalen gingen zestig meter de grond in en de buitenkant is bekleed met platen van aluminium. Op 18 december 2018 werd begonnen met de bouw; het gebouw werd geopend op 13 juli 2022. Het Sluishuis heeft 442 appartementen, waarvan 369 huur (voornamelijk in het middensegment) en 73 koop. Rondom het gebouw ligt een steiger met plek voor 34 woonboten. Omdat het over het water van het Buiten-IJ is gebouwd, kunnen boten 'in' het gebouw aanmeren, en door de aparte vorm lijkt het te 'zweven' boven het water.
+
+      In de gevel zijn twee trappen aanwezig die langs de terrassen naar het dak leiden, waar een wandelpad is met uitzicht over de stad. De situatie rondom de toegang tot dit wandelpad was een tijd onduidelijk. Die toegang is namelijk in beheer bij de VvE van het gebouw, en die zou ervoor kunnen kiezen om de daktuin maar beperkt open te stellen. De gemeente Amsterdam heeft bedongen dat de trappen minimaal tachtig dagen per jaar open moeten zijn voor het algemeen publiek.
+
+      Let op:
+      - de opgetilde hoek met de boten eronder, gezien vanaf de Enneüs Heermabrug
+      - de steiger die rondom het hele gebouw loopt
+      - de getrapte terrassen aan de stadskant en de trappen die erlangs klimmen
+      - de drijvende woningen van Waterbuurt West aan de overkant
+    attributes:
+      architect: BIG (Bjarke Ingels Group) met Barcode Architects
+    sources:
+      - https://nl.wikipedia.org/wiki/Sluishuis_(Amsterdam)
+
+- title: De Warren, Amsterdam's first housing co-op
+  summary: A timber building on Centrumeiland put up by a group of young Amsterdammers who won a city pilot in 2018 and now own and run it together. Rents stay out of the market, and 30 percent of the floor space is shared.
+  body: |
+    In a housing cooperative the residents own their building collectively and in effect rent from themselves. In April 2018 a group of about fifty young Amsterdammers won the city's tender for a pilot cooperative, and De Warren became the first self-built housing cooperative in the city to be finished. It was designed by Natrufied Architecture of Bergen and built in 2021–2023 on the Nydia Ecurystraat, on Centrumeiland, the new island where most homes are self-build projects. It opened in April 2023.
+
+    The building has 36 social and mid-rent homes. About 800 square metres, 30 percent of the floor space, is set aside for shared rooms: an auditorium, a dance hall, a music studio, offices, a workshop and a children's playroom, strung along a big stepped stair inside. The cooperative takes out one collective mortgage, develops and manages the building itself and works without profit, so the rents only cover the costs. The structure is a timber hybrid; the facade is made of reused wood from old mooring posts and sheet piling, planted with shrubs, climbers and trees, and the building produces more energy than it uses. Its success helped persuade the city to scale up its cooperative policy, even as rising interest rates in 2023 left other groups struggling to finance their plans. It won the public jury prize of the Amsterdam Architecture Prize in 2023 and the Amsterdam Nieuwbouwprijs in 2024.
+
+    It is the residents' home: look at it from the street.
+
+    Look for:
+    - the weathered timber of the facade, recycled from the waterfront
+    - the planted facade and balconies
+    - the self-built houses all around, Centrumeiland's way of building
+  category: housing
+  lat: 52.350040
+  lng: 5.014083
+  address: Nydia Ecurystraat 31, Centrumeiland
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Wooncoöperatie_De_Warren" }
+    - { label: Ammodo Architecture, url: "https://www.ammodo-architecture.org/projects/de-warren" }
+    - { label: NH Nieuws (April 2023), url: "https://www.nhnieuws.nl/nieuws/317941/wooncooperaties-kunnen-niet-meer-bouwen-we-hebben-leningen-nodig-van-de-gemeente" }
+  attributes:
+    rank: Okay
+    built: 2021–2023
+    architect: Natrufied Architecture (Boris Zeisser, Anja Verdonk)
+    original_use: Cooperative rental housing
+  sources:
+    - https://nl.wikipedia.org/wiki/Wooncoöperatie_De_Warren (first realised self-build cooperative, tender April 2018, Natrufied, Nydia Ecurystraat, 36 homes, 800 m2 or 30 percent shared, self-developed and managed, policy scaled up, AAP public prize 2023, BNA mention 2024, Nieuwbouwprijs 2024, timber hybrid, facade of old mooring posts and sheet piling, energy-positive)
+    - https://www.ammodo-architecture.org/projects/de-warren (collective mortgage, non-profit rents, stair, recycled azobe and basralocus, 3,070 m2)
+    - https://www.nhnieuws.nl/nieuws/317941/wooncooperaties-kunnen-niet-meer-bouwen-we-hebben-leningen-nodig-van-de-gemeente (opened 21 April 2023, over fifty residents, financing problems of other cooperatives)
+    - https://www.nhnieuws.nl/nieuws/357397/wooncooperaties-uit-de-stad-bundelen-krachten-in-een-samenwerkingsverband (22 February 2026: De Warren residents active in the new Platform)
+    - https://nl.wikipedia.org/wiki/IJburg (Centrumeiland 60 to 70 percent self-build)
+    - OSM way 912648355 (building, pin at its centre)
+  nl:
+    title: De Warren, de eerste wooncoöperatie van Amsterdam
+    summary: Een houten woongebouw op Centrumeiland, gebouwd door een groep jonge Amsterdammers die in 2018 de pilot voor een wooncoöperatie won. Ze beheren het zelf, de huren blijven buiten de markt en 30 procent van het gebouw is gedeeld.
+    body: |
+      Wooncoöperatie De Warren is de eerste gerealiseerde zelfbouw-wooncoöperatie van Amsterdam. Zij won in april 2018 de tender voor de pilot-wooncoöperatie, uitgeschreven door de gemeente Amsterdam. Het gebouw werd rond 2018 ontworpen door Natrufied Architecture in Bergen (Noord-Holland) en tussen 2021 en 2023 gebouwd aan de Nydia Ecurystraat, op Centrumeiland, een nieuw deel van IJburg waar het grootste deel van de woningen in verschillende vormen van zelfbouw ontstaat. Op 21 april 2023 werd het feestelijk geopend; er wonen ruim vijftig mensen.
+
+      Het gebouw bestaat uit 36 sociale en middeldure huurwoningen. Daarnaast is 800 vierkante meter, of 30 procent van het gebouwoppervlak, gereserveerd voor collectieve voorzieningen zoals een auditorium, danszaal, muziekstudio, kantoor, klusruimte en kinderspeelkamer. De Warren is ontwikkeld door de wooncoöperatie zelf en wordt ook beheerd door de bewoners. Mede dankzij het succes van De Warren besloot de gemeente het wooncoöperatiebeleid op te schalen en meer kavels uit te geven, al kwamen andere coöperaties door de gestegen rente juist in zwaar weer. In 2023 won De Warren de publieksjuryprijs van de Amsterdamse Architectuur Prijs en in 2024 de Amsterdamse Nieuwbouwprijs.
+
+      De Warren is een energiepositief gebouw met een eigen warmte-koudevoorziening. Het heeft een hout-hybride draagconstructie en een circulaire houten gevel van oude meerpalen en damwandplanken. De gevel is natuurinclusief, met veel struiken, klimplanten en bomen. Het is het huis van de bewoners: bekijk het vanaf de straat.
+
+      Let op:
+      - het verweerde hout van de gevel, afkomstig van oude meerpalen en damwanden
+      - de begroeide gevel en balkons
+      - de zelfbouwhuizen eromheen, typisch voor Centrumeiland
+    attributes:
+      original_use: Coöperatieve huurwoningen
+    sources:
+      - https://nl.wikipedia.org/wiki/Wooncoöperatie_De_Warren
+      - https://www.nhnieuws.nl/nieuws/317941/wooncooperaties-kunnen-niet-meer-bouwen-we-hebben-leningen-nodig-van-de-gemeente

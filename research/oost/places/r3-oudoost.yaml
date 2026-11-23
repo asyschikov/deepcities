@@ -1,0 +1,245 @@
+# Oost round 3, oudoost slice: Oud-Oost (Weesperzijde, Oosterparkbuurt, Dapperbuurt).
+# New places: 202 (with 214 as a Look for line), 218, 222, 226.
+# Merged into earlier places: 219 and 235 into "De Schreeuw and the murder of Theo van Gogh" and 221 into
+# "Amstel brewery office" (oosterpark.yaml), 223 into "Wibautstraat, the newspaper street" (weesperzijde.yaml),
+# 244 into "Limietpalen in the Oosterpark" (r2-oosterpark.yaml). See notes/r3-oudoost.md.
+# Dutch texts are spliced from nl.wikipedia, 4en5mei.nl, joodsmonument.nl, the Arcam shelter route (Kees van Leeuwen)
+# and the Architectuurstudio HH (AHH) project text.
+
+- title: Leendert Pop and Pension Verdooner
+  summary: "A smiling bronze old man with hat and walking stick looks out over the Amstel: Leendert Pop, 83, one of 39 residents of a Jewish care home across the road who were murdered. The people who now live in the house found its past and put him back."
+  body: |
+    From 1936 Salomon Tobias Verdooner ran a Jewish boarding house for elderly people at Weesperzijde 141, one of four similar buildings between the Jan Bernardusstraat and the Schollenburgstraat; it advertised its view of the river and the Berlagebrug. Under the occupation the residents were taken away in groups, the last around February 1943, deported and murdered in the camps. Verdooner and his wife Magtelt were among them. For 39 people the pension was the last official address before they became victims of National Socialism.
+
+    Around 2010 the couple now living in no. 141, the tattoo artist Henk Schiffmacher and the artist Louise Schiffmacher-van Teylingen, learned from an article in Het Parool what their house had been. When they opened it on 5 May that year they met Maurice de Jong, great-grandson of resident Leendert Pop (1859–1943), a retired diamond worker and father of eleven, who brought along a photo of him. Pop is the only resident of whom a photo survives, so he became the face of all of them: rather than lay 39 Stolpersteine in front of the door, Louise spent a year modelling him, fighting wax that melted in the hot summer of 2023; De Jong stood model for the pose with the stick. Neighbours and relatives paid for the bronze, a contractor gave the plinth and a stonemason cut the names. It was unveiled on 28 March 2024 on the green strip by the water, diagonally opposite the house; a rabbi said Yizkor and Kaddish, and those present laid stones on the plinth, as Jewish custom has it.
+
+    The front plaque tells that Pop was murdered in Auschwitz on 19 February 1943, aged 83. According to the Joods Monument, nine of his children were also killed. The back carries all 39 names with their ages, the youngest 32, the oldest 88. One more resident linked to the house, Hendrina Hamburger-van Rijn, who died in January 1941, is not on it.
+
+    Look for:
+    - the small stones and flowers left on the plinth
+    - the 39 names and ages on the back plaque
+    - no. 141 across the road, a private home
+    - at Weesperzijde 99, about 270 m north, a 1957 stone "Weesperzijdekwartier 1945 Bevrijding": a woman standing over a defeated dragon, a lion at her feet and aircraft overhead
+  category: hidden-history
+  lat: 52.349378
+  lng: 4.912461
+  address: Weesperzijde, opposite no. 141
+  links:
+    - { label: 4 en 5 mei (beeld voor Leendert Pop), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4592" }
+    - { label: Wikipedia (nl) Verdoonermonument, url: "https://nl.wikipedia.org/wiki/Verdoonermonument" }
+    - { label: Joods Monument, url: "https://www.joodsmonument.nl/nl/page/732025/buurtgedragen-beeld-van-leendert-pop-onthuld-voor-de-bewoners-van" }
+    - { label: NH Nieuws (2024), url: "https://www.nhnieuws.nl/nieuws/334074/standbeeld-leendert-pop-weesperzijde-amsterdam" }
+    - { label: 4 en 5 mei (Weesperzijde 99), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1473" }
+  attributes:
+    rank: Nice
+    built: "2024"
+    artist: Louise Schiffmacher-van Teylingen
+    original_use: War memorial
+  photos:
+    - commons:File:2024 Verdoonermonument, asd-beeld (A).jpg
+    - commons:File:2024 Verdoonermonument, asd-plaquette 2.jpg
+    - commons:File:Herdenkingssteen Weesperzijde.jpg
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4592 (form, text of both plaques with the 39 names and ages)
+    - https://nl.wikipedia.org/wiki/Verdoonermonument (pension history, making of, unveiling, coordinates 52.349378, 4.912461)
+    - https://www.joodsmonument.nl/nl/page/732025/buurtgedragen-beeld-van-leendert-pop-onthuld-voor-de-bewoners-van (press release of stadsdeel Oost; diamond worker, eleven children; missing name)
+    - https://www.joodsmonument.nl/nl/page/155401/leendert-pop (nine children listed as Jewish war victims)
+    - https://www.nhnieuws.nl/nieuws/334074/standbeeld-leendert-pop-weesperzijde-amsterdam (AT5, 29 March 2024: Parool article, 5 May 2010 open house, Maurice de Jong, raid of 7 February)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1473 (Weesperzijde 99 stone, 1957)
+    - Commons photos of the statue dated 12 May 2024; of the 1957 stone dated 27 October 2019
+    - https://nl.wikipedia.org/wiki/Brandweer_Amsterdam-Amstelland (Weesperzijde 99 head office 1987–2009, now flats)
+  nl:
+    title: Leendert Pop en Pension Verdooner
+    summary: "Aan de Weesperzijde staat een bronzen glimlachende man met hoed en wandelstok: Leendert Pop, een van de 39 Joodse bewoners van Pension Verdooner aan de overkant die in de oorlog werden vermoord. De huidige bewoners van het pand lieten hem terugkeren."
+    body: |
+      De familie Verdooner baatte voor en in de Tweede Wereldoorlog een aantal Joodse pensions uit. Een daarvan was gevestigd aan de Weesperzijde 141. Dit pension werd bestierd door Salomon Tobias Verdooner, die zich hier in 1936 vestigde vanuit zijn pension aan de Bredeweg in de Watergraafsmeer. Het gebouw maakt onderdeel uit van een viertal gelijksoortige gebouwen tussen de Jan Bernardusstraat en de Schollenburgstraat; er kon reclame gemaakt worden met het uitzicht op de Berlagebrug. Wanneer de bezetter vanaf 1940 zijn greep op de Joodse bevolking verstevigt, moeten ook de Joodse pensions eraan geloven. Rond februari 1943 werd de laatste pensiongast opgepakt. Allen werden gedeporteerd en omgebracht in de kampen; ook de eigenaar en zijn vrouw werden vermoord. Pension Verdooner was voor 39 bewoners het laatste officiële woonadres voor zij slachtoffer werden van het nationaalsocialisme.
+
+      Louise en Henk Schiffmacher, de huidige bewoners van Weesperzijde 141, ontdekten door een stuk in Het Parool dat het ooit een pension voor Joodse ouderen was geweest. Toen zij het in 2010 op 5 mei openstelden, ontmoetten ze Maurice de Jong, de achterkleinzoon van Leendert Pop (1859-1943). Pop werkte als diamantbewerker en was vader van elf kinderen. Er werd voor hem gekozen omdat alleen van hem nog een foto voorhanden was. "We vonden 39 struikelstenen voor de deur wat veel, dus hebben in overleg voor een beeld gekozen", vertelt de kunstenares. Ze was er een jaar mee bezig; tijdens de hete zomer van 2023 bleef de was voor de mal smelten, en de achterkleinzoon stond model voor de houding met wandelstok. Het geld werd bijeengebracht door buurtbewoners en nabestaanden, een aannemer regelde een gratis sokkel en een steenhouwer zette de namen. Het beeld werd op 28 maart 2024 onthuld, schuin tegenover het pand in de groenstrook. Rabbijn Rookmaaker sprak het Jizkor en Kaddisj uit en de aanwezigen legden een steentje bij het beeld.
+
+      Op de plaquette aan de voorkant staat dat Leendert Pop op 19 februari 1943 op 83-jarige leeftijd in Auschwitz werd vermoord. Volgens het Joods Monument kwamen ook negen van zijn kinderen om. De plaquette aan de achterkant vermeldt de 39 namen met hun leeftijd, van 32 tot 88 jaar. Op het monument ontbreekt de naam Hendrina Hamburger-van Rijn (overleden 11 januari 1941).
+
+      Let op:
+      - de steentjes en bloemen op de sokkel
+      - de 39 namen met leeftijden op de achterkant
+      - nummer 141 aan de overkant, een woonhuis
+      - aan de Weesperzijde 99, zo'n 270 meter noordelijker, de gevelsteen "Weesperzijdekwartier 1945 Bevrijding" uit 1957: een vrouw boven een verslagen draak, met een leeuw en vliegtuigen
+    attributes:
+      artist: Louise Schiffmacher-van Teylingen
+      original_use: Oorlogsmonument
+    sources:
+      - https://nl.wikipedia.org/wiki/Verdoonermonument
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4592
+      - https://www.joodsmonument.nl/nl/page/732025/buurtgedragen-beeld-van-leendert-pop-onthuld-voor-de-bewoners-van
+      - https://www.nhnieuws.nl/nieuws/334074/standbeeld-leendert-pop-weesperzijde-amsterdam
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1473
+
+- title: Cold War shelter in the Torontobrug cycle tunnel
+  summary: "Behind the white tiles of a 33 m cycle tunnel on the Weesperzijde hide five blast doors to a nuclear shelter for 1,200 people, built with the bridge in 1968–1970. In 1983 Freddy Heineken's kidnappers used the same tunnel to switch cars."
+  body: |
+    The Torontobrug over the Amstel, opened on 23 October 1969 as part of a bridge complex by the city's Public Works department (engineering by G.F. Janssonius, design by Dick Slebos), was planned at the height of the Cold War. In 1965, just as building could start, the city held it up again to fit a public shelter into the eastern end. It was built with the bridge in 1968–1970 under the code Project 68: a bunker for 1,200 people with extensive air filtering and a small generator of its own. The bridge got its name only in 1974, when the mayor of Toronto, Amsterdam's new sister city, renamed it.
+
+    You can ride straight through it. The short underpass (bridge 325) that carries cyclists from the Professor Tulpplein to the Weesperzijde, about 33.5 m long, is the shelter's front: behind the tiles of the tunnel are five atomic doors that give access to the shelter, which is still there. In peacetime the space was to be reached through a garage door on the Mauritsstraat side, which would be bricked up to make the shelter work; the three air outlets show in the wall next to it. It belongs to the same generation as the better-known Vondelbunker under the Vondelpark bridge. From 1971 national policy changed, telling people to shelter at home and combining new public shelters with metro stations and car parks.
+
+    On 9 November 1983 the tunnel played a part in the kidnapping of Freddy Heineken and his driver Ab Doderer. The underpass was closed to cars, but one of the gang had removed the bollards beforehand, so the kidnappers could drive through and switch their captives into other getaway cars here. The shelter itself is closed; everything described can be seen from the street. The pin is approximate, on the tunnel.
+
+    Look for:
+    - the tiled walls of the cycle tunnel, with the blast doors hidden behind them
+    - the garage door on the Mauritsstraat side, meant to be bricked up in wartime
+    - the three air outlets in the wall
+  category: hidden-history
+  lat: 52.359081
+  lng: 4.905881
+  address: Weesperzijde at the Mauritsstraat, under the Torontobrug approach
+  links:
+    - { label: Arcam (Cold War shelters route), url: "https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf" }
+    - { label: Wikipedia (nl) Brug 325, url: "https://nl.wikipedia.org/wiki/Brug_325" }
+    - { label: Wikipedia (nl) Torontobrug, url: "https://nl.wikipedia.org/wiki/Torontobrug" }
+  attributes:
+    rank: Nice
+    built: 1968–1970
+    architect: Dienst der Publieke Werken (G.F. Janssonius, Dick Slebos)
+    original_use: Public nuclear shelter under a bridge approach
+  photos:
+    - commons:File:Brug 325, zijaanzicht (1).jpg
+    - commons:File:Brug 325, overzicht (1).jpg
+  sources:
+    - https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf (Kees van Leeuwen, October 2022: Project 68, five atomic doors behind the tiles, 1,200 people, 1968–1970, air filtering, generator, garage entrance in the Mauritsstraat, three air outlets; 1971 policy)
+    - https://nl.wikipedia.org/wiki/Brug_325 (33.5 m, opened 23 October 1969, Heineken kidnapping 9 November 1983, coordinates 52.359081, 4.905881)
+    - https://nl.wikipedia.org/wiki/Torontobrug (1965 delay to add a shelter, then planned for 900 people; renamed 2 October 1974)
+    - Commons photos of the tunnel dated 27 October 2019
+  nl:
+    title: Schuilplaats in de fietstunnel van de Torontobrug
+    summary: "Achter het tegelwerk van een fietstunneltje aan de Weesperzijde bevinden zich vijf atoomdeuren naar een schuilplaats voor 1200 personen, in 1968-1970 gelijk met de brug gebouwd. In 1983 wisselden de ontvoerders van Freddy Heineken hier van auto."
+    body: |
+      De wens voor een brug in het verlengde van de Stadhouderskade dateert al uit het begin van de jaren vijftig. In januari 1965 kwam het verlossende woord, maar er kwam weer uitstel: men wilde in de oostkant ook nog een schuilkelder inbouwen, het is dan nog de Koude Oorlog met haar dreiging van een kernoorlog. Het bruggencomplex kwam van de tekentafel van de Publieke Werken, de ontwerpers waren Gerrit Feiko Janssonius (techniek) en Dick Slebos (vormgeving). Op 23 oktober 1969 werd de brug geopend; pas op 2 oktober 1974 kreeg zij van de burgemeester van Toronto haar naam Torontobrug.
+
+      Aan de kant van de Weesperzijde op de hoek van de Mauritsstraat bevindt zich een fietstunneltje (brug 325) van circa 33,5 meter. Achter het tegelwerk van de fietstunnel bevinden zich nu vijf atoomdeuren, die toegang geven tot de schuilplaats die zich daar nog steeds bevindt. Deze schuilplaats (Project 68) is gelijktijdig met de brug gebouwd in 1968-1970, voor 1200 personen. Ze had uitgebreide voorzieningen voor luchtfiltering en een kleine generator voor elektriciteit. Om de schuilplaats in vredestijd te kunnen gebruiken is er een garage-ingang in de Mauritsstraat; om de schuilplaats functioneel te maken wordt deze garage-ingang dichtgemetseld. Hier zie je in de muur ook de drie luchtuitlaten van de schuilplaats. In 1971 kwam de Civiele Verdediging met een nieuw schuilkelderbeleid: de bevolking diende haar bescherming bij voorkeur in de eigen woning te vinden.
+
+      Op 9 november 1983 speelde het tunneltje een rol in de ontvoering van Freddy Heineken en Ab Doderer; zij moesten hier onder dwang overstappen in andere vluchtauto's. Ook toen was de doorgang niet bereikbaar voor autoverkeer, maar de Amsterdammertjes waren voor de ontvoering weggehaald, zodat de ontvoerders via het tunneltje konden ontsnappen. De schuilplaats zelf is niet toegankelijk; alles is vanaf de straat te zien. De speld staat bij benadering op de tunnel.
+
+      Let op:
+      - het tegelwerk van de fietstunnel, met de atoomdeuren erachter
+      - de garage-ingang, die in oorlogstijd dichtgemetseld zou worden
+      - de drie luchtuitlaten in de muur
+    attributes:
+      architect: Dienst der Publieke Werken (G.F. Janssonius, Dick Slebos)
+      original_use: Openbare atoomschuilplaats in een brughoofd
+    sources:
+      - https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf
+      - https://nl.wikipedia.org/wiki/Brug_325
+      - https://nl.wikipedia.org/wiki/Torontobrug
+
+- title: Horse-tram depot, Linnaeusstraat
+  summary: "A turreted corner building of red and cream brick, now a yoga studio, is what is left of the depot of the horse tram from the Dam. When line 9 went electric, 250 tram horses were auctioned here on 4 January 1904."
+  body: |
+    In 1884 the Amsterdamsche Omnibus Maatschappij (AOM) opened a horse-tram line from the Dam to the Linnaeusstraat, known as the DL, with its terminus close by. Abraham Salm, who also designed the AOM's depot on the Amstelveenseweg and later the Amstel brewery's stables on the Mauritskade, built the stabling for its horses and cars here, on the corner of the Derde Oosterparkstraat. In 1903 the line was replaced by the electric tram line 9, and the horses were no longer needed: on 4 January 1904 the depot held a big horse sale at which 250 tram horses went under the hammer, fetching between 100 and 250 guilders each.
+
+    The depot lived on as a shed for the old horse trams, which now ran as trailers behind the electric motor cars, until the 1930s. Then it stored retired tram stock until 1952, and later served as a warehouse and garage. In 1986 most of the complex was pulled down for housing; the low blocks and the school behind the corner date from the years after. The main building on the Linnaeusstraat survived. It is not a listed monument. Sources differ on its date (1884 in most accounts, 1893 in a list of Salm's works, 1886 in the building register). Unlike the protected horse-tram depot on the Overtoom in West, it never got a second life as a monument, only as shops and now a heated yoga studio.
+
+    Look for:
+    - the corner turret with its slate spire and the gabled dormers
+    - the bands of red brick against cream render on both street fronts
+    - the newer housing along the Derde Oosterparkstraat, on the site of the demolished sheds
+  category: infrastructure
+  lat: 52.358808
+  lng: 4.925822
+  address: Linnaeusstraat 30
+  links:
+    - { label: Wikipedia (nl) Remise Linnaeusstraat, url: "https://nl.wikipedia.org/wiki/Remise_Linnaeusstraat" }
+    - { label: Wikipedia (nl) Abraham Salm, url: "https://nl.wikipedia.org/wiki/Abraham_Salm" }
+  attributes:
+    rank: Okay
+    built: 1880s
+    architect: Abraham Salm
+    original_use: Horse-tram depot and stables
+  photos:
+    - commons:File:Linnaeusstraat 30 hoek Derde Oosterparkstraat (1).jpg
+    - commons:File:Remise Amsterdamsche Omnibusmaatschappij.JPG
+    - commons:File:Weenenk & Snel, Tramremise in de Linnaeusstraat op hoek van de Vrolikstraat, 1920, Afb PRKBB00355000010.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Remise_Linnaeusstraat (1884, Salm, auction of 4 January 1904, later uses, 1986 demolition, main building now a yoga studio)
+    - https://nl.wikipedia.org/wiki/Abraham_Salm (list of works gives 1893 for the depot)
+    - BAG building 0363100012160812 (Linnaeusstraat 30, construction year 1886); PDOK address point 52.358808, 4.925822
+    - OpenStreetMap node 1578734049 (Equal, yoga, Linnaeusstraat 30); Commons photos of August 2018 with the Equal sign; Urban Sports Club and ClassPass listings of Equal Linnaeusstraat 30
+    - Not in the municipal or national monument registers (checked against slices/oosterpark.json)
+  nl:
+    title: Paardentramremise Linnaeusstraat
+    summary: "Het torentjeshoekpand van rode en lichte baksteen aan de Linnaeusstraat, nu een yogastudio, is wat rest van de remise van de paardentram vanaf de Dam. Op 4 januari 1904 werden hier 250 trampaarden geveild."
+    body: |
+      De remise Linnaeusstraat is een voormalige tramremise van de Amsterdamsche Omnibus Maatschappij aan de Linnaeusstraat in Amsterdam-Oost, gebouwd naar een ontwerp van Abraham Salm en gebruikt als stalling voor de paardentrams. Vlakbij was het eindpunt van de paardentramlijn Dam-Linnaeusstraat, die werd ingesteld in 1884. In 1903 werd deze paardentramlijn vervangen door de elektrische tramlijn 9. Omdat de paardentramlijnen vervangen werden door elektrische tramlijnen, werden de paarden overbodig. Op 4 januari 1904 vond er in deze remise een grote paardenveiling plaats en werden 250 trampaarden geveild. De paarden brachten tussen de ƒ 100 en ƒ 250 op.
+
+      Deze remise werd voortaan gebruikt als stalling voor vroegere paardentrams, die nu dienstdeden als bijwagen achter de elektrische motorwagens. Dit bleef zo tot in de jaren dertig. Daarna bleef het complex nog in gebruik als opslag van niet meer gebruikt trammaterieel tot 1952. Daarna was het een opslagloods en garage. In 1986 werd een groot deel van het complex gesloopt om plaats te maken voor woningbouw. Het hoofdgebouw bestaat echter nog steeds en is tegenwoordig in gebruik als yogastudio. Het is geen monument. Over het bouwjaar lopen de bronnen uiteen: meestal 1884, in een werkenlijst van Salm 1893, in de basisregistratie 1886.
+
+      Let op:
+      - het hoektorentje met leien spits en de dakkapellen met topgevels
+      - de banden van rode baksteen tegen de lichte gevel aan beide straatkanten
+      - de nieuwere woningen aan de Derde Oosterparkstraat, op de plek van de gesloopte loodsen
+    attributes:
+      built: jaren 1880
+      original_use: Paardentramremise met stallen
+    sources:
+      - https://nl.wikipedia.org/wiki/Remise_Linnaeusstraat
+      - https://nl.wikipedia.org/wiki/Abraham_Salm
+
+- title: Hertzberger's Montessori College Oost
+  summary: "Herman Hertzberger built this school for teenagers from more than fifty countries as a city: no corridors, one big hall where stairs double as grandstands, and balconies from which everyone can see everyone. Now the Montessori Lyceum Oostpoort."
+  body: |
+    Montessori College Oost opened on the Polderweg in 2000 as a secondary school, largely pre-vocational (vmbo), for 1,200 to 1,600 pupils from no fewer than 56 nationalities, many with little Dutch. Herman Hertzberger, the structuralist behind Centraal Beheer in Apeldoorn and the Apollo schools in Zuid, started from a blunt observation: teenagers would rather hang out on the street than at school. So he designed the school as a city. Almost all the space outside the classrooms is merged into one big "urban" hall, a square open to the void of the classroom block. The half flights of stairs between the floors are deliberately wide, like grandstands, so that lessons can be held there and pupils are encouraged to sit and meet; stairs, landings, voids and open corners are arranged so that the presence of others is felt everywhere.
+
+    It is a bet that openness and being seen make for a better school, and it is the opposite of the corridor school of classrooms off a hallway. The hall also holds a tapestry woven after designs by the Cobra painter Anton Rooskens, who had painted a mural in the canteen of the old school across the road where he worked; when that building was demolished the wall was too damaged to move. Since 24 May 2006 the school also has an Auschwitz plaque with a text by the singer and poet Huub van der Lubbe. A sports hall by the same firm followed in 2016–2019, and around 2020 the school took the name Montessori Lyceum Oostpoort, now offering havo as well as vmbo.
+
+    This is a working school: the hall, the plaque and the tapestry are inside and not open to visitors. From the Polderweg you see the long glazed fronts with their balcony bands under a low, overhanging roof.
+
+    Look for:
+    - the stacked balconies and glazed fronts that hint at the open hall inside
+    - the mosaic sitting wall at the front, designed by pupils, with texts along its length
+    - the newer sports hall beside the school
+  category: schools
+  lat: 52.358068
+  lng: 4.929793
+  address: Polderweg 3
+  links:
+    - { label: AHH (project text in the archive), url: "https://web.archive.org/web/20240721183308/https://www.ahh.nl/index.php/en/projects2/9-onderwijs/55-montessori-college-oost-amsterdam" }
+    - { label: 4 en 5 mei (Auschwitz plaque), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2858" }
+    - { label: Wikipedia (nl) Polderweg, url: "https://nl.wikipedia.org/wiki/Polderweg" }
+    - { label: Wikipedia (nl) Anton Rooskens, url: "https://nl.wikipedia.org/wiki/Anton_Rooskens" }
+  attributes:
+    rank: Okay
+    built: 1993–2000
+    architect: Herman Hertzberger (Architectuurstudio HH)
+    original_use: Secondary school
+  photos:
+    - commons:File:Polderweg 3 (1).jpg
+    - commons:File:Polderweg 3 (3).jpg
+  sources:
+    - https://web.archive.org/web/20240721183308/https://www.ahh.nl/index.php/en/projects2/9-onderwijs/55-montessori-college-oost-amsterdam (AHH project text, EN and NL: 1993–2000, 56 nationalities, 1,200 to 1,600 pupils, city paradigm, stairs as tribunes, 16,345 m2; the live AHH page is gone)
+    - https://web.archive.org/web/20240519070642/https://www.ahh.nl/index.php/en/projects2/9-onderwijs/196-interior-montessori-lyceum-oostpoort (interior 2020–2021 for Montessori Lyceum Oostpoort, Polderweg 3)
+    - https://nl.wikipedia.org/wiki/Montessori_Scholengemeenschap_Amsterdam ("Montessori Lyceum Oostpoort (voorheen Montessori College Oost)")
+    - https://msa.nl/wp-content/uploads/2026/06/Definitief-Jaarverslag-2025-dd-29-juni-2026.pdf (MLO still operating, 2026; via search summary)
+    - https://www.ahh.nl/index.php/en/projects2/142-sports-facilities-montessori-college-oost (sports hall 2016–2019, via search summary; page now gone)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2858 (Auschwitz plaque, 24 May 2006, text by Huub van der Lubbe)
+    - https://nl.wikipedia.org/wiki/Anton_Rooskens (tapestry in the hall)
+    - https://nl.wikipedia.org/wiki/Polderweg (pupils' mosaic sitting wall); Commons photos of August 2019
+  nl:
+    title: Montessori College Oost van Hertzberger
+    summary: "Herman Hertzberger ontwierp deze school voor 1200 tot 1600 leerlingen van 56 nationaliteiten als een stad: één groot plein, trappen breed als een tribune en overal vides en bordessen waar je elkaar ziet. Nu het Montessori Lyceum Oostpoort."
+    body: |
+      Een school voor voortgezet onderwijs wordt bevolkt door kinderen van een leeftijdsgroep die in het algemeen het liefst het ouderlijk huis zoveel mogelijk ontvlucht om leeftijdgenoten op te zoeken, en daarvoor zoek je je heil niet op school maar eerder op straat. Daarom is de ruimte van het Montessori College Oost (1993-2000) zo georganiseerd dat die een associatie met de stad opwekt, met een grote verscheidenheid aan plekken waar je kunt rondhangen, samenscholen en elkaar kunt vinden. Bij de ruimtelijke organisatie van deze school voor 1.200 à 1.600 leerlingen is doelbewust uitgegaan van dit stadsparadigma door zoveel mogelijk alle ruimte buiten de beslotenheid van de leslokalen als een grote 'stedelijke' ruimte samen te voegen. Zo is een groot plein ontstaan, ruimtelijk verbonden met de vide van het lokalengebouw. De (halve) trappen die de verdiepingen met elkaar verbinden zijn nadrukkelijk breed gemaakt, als een tribune. Hier kan buiten de lokalen les worden gegeven en zijn dit bij uitstek de ontmoetingsplekken voor leerlingen. Overal zijn trappen, bordessen, vides en open plekken zo ten opzichte van elkaar gesitueerd dat de aanwezigheid van de anderen zo sterk mogelijk uitgesproken wordt.
+
+      Anton Rooskens had in de kantine van de oude school waar hij werkte een hele wand beschilderd. Toen die school werd afgebroken, wilde men de muur verplaatsen naar de nieuwbouw aan de overkant van de weg, maar vanwege de beschadigingen zag men daarvan af. De weduwe van Rooskens beschikte nog over ontwerptekeningen, waarnaar een tapijt van hetzelfde formaat werd geweven. Dit tapijt siert nu de gemeenschappelijke hal. Op 24 mei 2006 kwam er een Auschwitz-plaquette met een tekst van zanger en dichter Huub van der Lubbe. Later volgde een sporthal (2016-2019). De school heet inmiddels Montessori Lyceum Oostpoort.
+
+      Het is een werkende school; de hal, de plaquette en het tapijt zijn niet te bezichtigen.
+
+      Let op:
+      - de gestapelde balkons en glazen gevels die het open plein binnen verraden
+      - de zitmuur voor de school met een mozaïek, ontworpen door leerlingen, met over de gehele lengte teksten
+      - de nieuwere sporthal naast de school
+    attributes:
+      architect: Herman Hertzberger (Architectuurstudio HH)
+      original_use: School voor voortgezet onderwijs
+    sources:
+      - https://web.archive.org/web/20240810013839/https://www.ahh.nl/index.php/nl/projecten2/9-onderwijs/55-montessori-college-oost-amsterdam
+      - https://nl.wikipedia.org/wiki/Anton_Rooskens
+      - https://nl.wikipedia.org/wiki/Polderweg
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2858
+      - https://nl.wikipedia.org/wiki/Montessori_Scholengemeenschap_Amsterdam

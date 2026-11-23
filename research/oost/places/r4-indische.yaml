@@ -1,0 +1,267 @@
+# Oost round 4, slice "indische": the Indische Buurt, the railway edge of the Watergraafsmeer,
+# the KNSM-eiland and the tip of Zeeburgereiland.
+# New places (SCOUT-4.md): 307 Fré Cohen's level-crossing plaques, 308 Man & Schaap, 309 De Kus,
+# 318 Oranjesluizen (south side).
+# Merges: 307 pointer into "101 Namen, railway viaduct"; 310 into "Hekkepoort, Flevopark";
+# 324 into "Jewish memorials of the Transvaalbuurt"; 325 into "Badhuis Javaplein and the colonial
+# street names"; 330 into "Berlage's gateway blocks, Pretoriusstraat"; 334 into "Nieuw Uilenburg,
+# Handwerkers Vriendenkring blocks" (all indische.yaml); 333 into "Leeuwen van Zeeburg" (r3-east.yaml).
+# Dutch texts are written from Geheugen van Oost, the Amsterdamse School Platform, nl.wikipedia,
+# Amsterdam op de kaart and Vrienden van Watergraafsmeer. See notes/r4-indische.md.
+
+# ================================================================ Railway edge
+
+- title: Fré Cohen's level-crossing plaques
+  summary: "When the railway through Oost was raised in the 1930s, ending long waits at the barriers, each new underpass got a small bronze plaque of half-open barriers. The first, of 1936, is signed by Fré Cohen. Two later ones were stolen; their outlines remain."
+  body: |
+    Until the mid-1930s the trains from Utrecht and Amersfoort crossed the streets of Oost at level crossings, and the barriers could stay down for a quarter of an hour, sometimes half an hour. The Watergraafsmeer, part of Amsterdam since 1921 and filling up with new housing, was hard to reach. In 1934 the city approved a plan to raise the tracks on a five-metre embankment, with about forty bridges and underpasses.
+
+    The first underpass to open was the one in the Molukkenstraat, on 7 March 1936, together with Piet Kramer's bridge over the Ringvaart (since 2007 the Hartmanbrug). Alderman Monne de Miranda opened it and hundreds of people from the neighbourhood associations marched through. A bronze plaque of just 72 by 36 cm was set into the wall: the arms of Amsterdam and of the old municipality of Watergraafsmeer, with a pair of old-fashioned barriers standing half open between them. Bottom left is the name of its designer, Fré Cohen (1903–1943), the Jewish graphic artist who grew up in Oost and designed almost all the city's printed matter in the 1930s; bottom right the foundry, Bosma en Florack. In June 1943 she was betrayed at her hiding address in Borne and took her own life.
+
+    In October 1939 four more underpasses opened, with plaques in a more traditional style that add the winged wheel of the new Nederlandse Spoorwegen and the line "Doorgang vrij, Oost is blij" (the way is clear, Oost is happy). They are probably hers too. Those under the Eerste van Swindenstraat and the Maritzstraat survive; the ones in the Linnaeusstraat and the Wibautstraat were prised off around 2011, probably for the copper, and only a scar in the wall shows where they hung.
+
+    The pin is on the Molukkenstraat underpass, at the Watergraafsmeer end of the Hartmanbrug.
+
+    Look for:
+    - the 1936 plaque on the wall of the Molukkenstraat underpass, signed "Fré Cohen"
+    - the 1939 plaque under the viaduct of the Eerste van Swindenstraat, beside the painted sky of *101 Namen*
+    - the empty patch on the wall of the Linnaeusstraat viaduct, between the billboards
+    - "Anno 1935" carved in the granite ends of the Hartmanbrug
+  category: hidden-history
+  lat: 52.357650
+  lng: 4.941150
+  address: Molukkenstraat underpass, south of the Hartmanbrug
+  links:
+    - { label: Amsterdamse School Platform (plaque), url: "https://items.amsterdamse-school.nl/details/objects/1644" }
+    - { label: Geheugen van Oost (plaques), url: "https://geheugenvanoost.amsterdam/page/97977" }
+    - { label: Vrienden van Watergraafsmeer (Hartmanbrug), url: "https://www.vriendenvanwatergraafsmeer.nl/de-hartmanbrug/" }
+    - { label: Wikipedia (nl) Fré Cohen, url: "https://nl.wikipedia.org/wiki/Fr%C3%A9_Cohen" }
+    - { label: "Oost-Online, the stolen Linnaeusstraat plaque", url: "https://oost-online.nl/plan-voor-nieuwe-plaquette-onder-viaduct-linnaeusstraat/" }
+  attributes:
+    rank: Nice
+    built: 1936 and 1939
+    artist: Fré Cohen
+    original_use: Plaques marking the end of the level crossings
+    check: Location
+    check_note: "Pin approximate: the 1936 plaque is on a wall of the Molukkenstraat underpass, by the sources on the side of the Carolina MacGillavrylaan; the latest description is from 2022."
+  photos:
+    - commons:File:Plaquette ter herinnering aan het opheffen van de spoorwegovergang.jpg
+    - "commons:File:HUA-163675-Gezicht op het nieuwe spoorviaduct over de Molukkenstraat te Amsterdam. N.B. De afbeelding maakt deel uit van een serie foto's met betrekking tot de Spoorwegwerken te Amsterdam.jpg"
+  sources:
+    - "https://items.amsterdamse-school.nl/details/objects/1644 (Molukkenstraat plaque: 1936, bronze, 72 x 36 cm, arms of Amsterdam and Watergraafsmeer, half-open barriers, signed bottom left, Bosma en Florack bottom right; underpass opened 7 March 1936; first of five; four of 1939 with NS wheel and neighbourhood associations, more traditional; Wibautstraat and Linnaeusstraat stolen, Javastraat and Maritzstraat survive, \"naar alle waarschijnlijkheid\" also Cohen; 1934 plan, 5 m embankment, about 40 crossings; \"locatie ongewijzigd\")"
+    - "https://geheugenvanoost.amsterdam/page/97977 (28 February 2022: waits up to half an hour; Molukkenstraat plaque on the east side \"nog te zien\"; Javastraat and Maritzstraat still there; Linnaeusstraat and Wibautstraat stolen about ten years earlier, outline visible)"
+    - "https://geheugenvanoost.amsterdam/page/82175 (26 November 2019: plaque in the Eerste van Swindenstraat/Javastraat viaduct; Molukkenstraat plaque dated 1936; scar at the Linnaeusstraat and Wibautstraat viaducts)"
+    - https://geheugenvanoost.amsterdam/page/89556 and https://www.vriendenvanwatergraafsmeer.nl/de-hartmanbrug/ (7 March 1936, Monne de Miranda, hundreds of people, plaque in the tunnel; bridge 190 by Piet Kramer, "Anno 1935", named Hartmanbrug 2007)
+    - "https://oost-online.nl/plan-voor-nieuwe-plaquette-onder-viaduct-linnaeusstraat/ (17 December 2021: Linnaeusstraat plaque stolen about ten years earlier, probably melted for the copper; associations Ceram, Linnaeus, Oud-Watergraafsmeer; \"Doorgang vrij\" plaque at the Beukenweg; Wibautstraat plaque gone)"
+    - Commons, HUA photo of the Eerste van Swindenstraat plaque ("Doorgang vrij, Oost is blij", crossing closed 15 October 1939); Polygoon newsreel week 43 of 1939 (unveiling)
+    - https://nl.wikipedia.org/wiki/Fr%C3%A9_Cohen (1903–1943, grew up in Oost and Betondorp, Stadsdrukkerij 1929–1932 and freelance until 1941 designing nearly all municipal printed matter, betrayed in Borne 9 June 1943, died 12 June 1943 in Hengelo after taking pills)
+    - "Nominatim/OSM: Molukkenstraat splits into two carriageways under the railway at about 52.3573–52.3580, 4.9408–4.9411; Hartmanbrug at 52.3584, 4.9409"
+  nl:
+    title: De spoorwegplaquettes van Fré Cohen
+    summary: "Toen het spoor door Oost in de jaren dertig op een dijk kwam, was het wachten voor dichte bomen voorbij. Elke onderdoorgang kreeg een bronzen plaquette met halfopen spoorbomen; de eerste, uit 1936, is van Fré Cohen. Twee latere zijn gestolen, hun afdruk is er nog."
+    body: |
+      Tot halverwege de jaren dertig kruisten de treinen uit Utrecht en Amersfoort de straten van Oost gelijkvloers. De bomen konden een kwartier dicht blijven, soms een half uur. De Watergraafsmeer, sinds 1921 deel van Amsterdam en flink in aanbouw, was daardoor slecht bereikbaar. In 1934 keurde de stad het plan goed om het spoor op een dijk van vijf meter hoog te leggen, met zo'n veertig bruggen en onderdoorgangen.
+
+      De eerste onderdoorgang die klaar was, was die in de Molukkenstraat. Op 7 maart 1936 opende wethouder Monne de Miranda hem, samen met de brug over de ringvaart van Piet Kramer (sinds 2007 de Hartmanbrug), en honderden buurtbewoners trokken in optocht met hun buurtverenigingen door de tunnel. In de wand kwam een bronzen plaquette van maar 72 bij 36 centimeter: de wapens van Amsterdam en van de oude gemeente Watergraafsmeer, met daartussen twee ouderwetse spoorbomen die een stukje openstaan. Linksonder staat de naam van de ontwerpster, Fré Cohen (1903-1943), de Joodse grafica die in Oost opgroeide en in de jaren dertig bijna al het drukwerk van de gemeente vormgaf; rechtsonder de gieterij, Bosma en Florack. In juni 1943 werd ze op haar onderduikadres in Borne verraden en maakte ze een eind aan haar leven.
+
+      In oktober 1939 gingen nog vier onderdoorgangen open. Hun plaquettes zijn wat traditioneler, met het gevleugelde wiel van de pas opgerichte Nederlandse Spoorwegen en de tekst "Doorgang vrij, Oost is blij". Waarschijnlijk zijn ook die van haar hand. Onder de Eerste van Swindenstraat en de Maritzstraat hangen ze nog; die in de Linnaeusstraat en de Wibautstraat zijn rond 2011 van de muur gewrikt, vermoedelijk om het koper, en alleen een litteken in de wand laat zien waar ze zaten.
+
+      De speld staat bij de onderdoorgang in de Molukkenstraat, aan de Watergraafsmeerkant van de Hartmanbrug.
+
+      Let op:
+      - de plaquette uit 1936 in de wand van de onderdoorgang Molukkenstraat, met de naam "Fré Cohen"
+      - de plaquette uit 1939 onder het viaduct van de Eerste van Swindenstraat, naast de wolkenlucht van *101 Namen*
+      - de lege plek tussen de reclameborden onder het viaduct in de Linnaeusstraat
+      - "Anno 1935" in de granieten uiteinden van de Hartmanbrug
+    attributes:
+      built: 1936 en 1939
+      original_use: Gedenkplaten voor het verdwijnen van de spoorwegovergangen
+      check_note: "Speld bij benadering: de plaquette uit 1936 zit in een wand van de onderdoorgang Molukkenstraat, volgens de bronnen aan de kant van de Carolina MacGillavrylaan; de laatste beschrijving is uit 2022."
+    sources:
+      - https://items.amsterdamse-school.nl/details/objects/1644
+      - https://geheugenvanoost.amsterdam/page/97977
+      - https://geheugenvanoost.amsterdam/page/82175
+      - https://geheugenvanoost.amsterdam/page/89556
+      - https://www.vriendenvanwatergraafsmeer.nl/de-hartmanbrug/
+      - https://oost-online.nl/plan-voor-nieuwe-plaquette-onder-viaduct-linnaeusstraat/
+      - https://nl.wikipedia.org/wiki/Fr%C3%A9_Cohen
+
+# ================================================================ Indische Buurt-Oost
+
+- title: Man & Schaap, Zeeburgerdijk
+  summary: "In a pond hemmed in by three busy roads, a bronze man's head and a sheep's head stick out of the water and stare each other in the eye, while a jet of water spurts from the man's eyes towards the sheep. Merijn Bolink's 2003 nod to the dike breaches that once drowned the polder."
+  body: |
+    Drivers and cyclists heading for the Zuiderzeeweg pass it every day: a small pond in the wedge between the Flevoparkweg, the Zeeburgerdijk and the Zuiderzeeweg, with two heads in it. One is a bald man, the other a sheep. Both are up to their necks, eye to eye, and from the man's eyes a jet of water squirts straight at the sheep.
+
+    Merijn Bolink (born 1967) had once sketched a fountain of a man's and a woman's head. Looking for models, he went to a party shop and came back with a mask that looked like Alfred Hitchcock and the head of a sheep. A person and an animal seemed more interesting to him: he keeps returning to the gap between people and animals, who can look each other in the eye without any idea of what the other is thinking. In the end he did not use Hitchcock but a friend with a striking bald head, whose surname happened to be Schaap (sheep). He took it as a sign.
+
+    That the bodies are under water is a pointer too. The old Zeeburgerdijk breached again and again, and each time the polder behind it flooded. The work has stood here since 2003, and in 2011 it won the Amsterdamse Straatkunstprijs, a street-art prize that was only ever awarded once.
+
+    There is no path to the water's edge; the heads are best seen from the cycle path along the Zeeburgerdijk.
+
+    Look for:
+    - the jet from the man's eyes, aimed at the sheep's
+    - the sheep's ears just clear of the water
+    - Flevopark and the Hekkepoort a few minutes' walk south
+  category: street-art
+  lat: 52.365756
+  lng: 4.948608
+  address: Pond between Flevoparkweg, Zeeburgerdijk and Zuiderzeeweg
+  links:
+    - { label: Wikipedia (nl) Man en schaap, url: "https://nl.wikipedia.org/wiki/Man_en_schaap" }
+    - { label: Geheugen van Oost (2024), url: "https://geheugenvanoost.amsterdam/page/110758" }
+    - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q43471932" }
+  attributes:
+    rank: Okay
+    built: "2003"
+    artist: Merijn Bolink
+  photos:
+    - commons:File:Man en Schaap Merijn Bolink Zeeburgerdijk Amsterdam.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Man_en_schaap (pond between Flevoparkweg, Zeeburgerdijk and Zuiderzeeweg; fountain idea, party shop, Hitchcock-like mask and sheep's head; friend called Schaap; jet from man to sheep; Amsterdamse Straatkunstprijs 2011, awarded once)
+    - "https://geheugenvanoost.amsterdam/page/110758 (22 October 2024, from Beelden van Oost 2022: bronze, since 2003, eye to eye, jets from the man's eyes, up to their necks, Zeeburgerdijk breaches flooded the polder; quotes from De Fonteinen van Amsterdam 2005; Bolink born 1967)"
+    - OSM node 1833946567 and Wikidata Q43471932 (52.365756, 4.948608); Commons photo 25 September 2011
+  nl:
+    title: Man & Schaap, Zeeburgerdijk
+    summary: "In een vijver tussen drie drukke wegen steken een bronzen mannenhoofd en een schapenkop boven het water uit en kijken elkaar strak aan, terwijl uit de ogen van de man water naar het schaap spuit. Merijn Bolink (2003) verwijst naar de oude dijkdoorbraken."
+    body: |
+      Wie naar de Zuiderzeeweg rijdt of fietst, komt er elke dag langs: een vijvertje in de punt tussen de Flevoparkweg, de Zeeburgerdijk en de Zuiderzeeweg, met twee hoofden erin. Het ene is van een kale man, het andere van een schaap. Ze staan allebei tot hun nek in het water en kijken elkaar recht in de ogen, en uit de ogen van de man spuit een straal water precies op het schaap af.
+
+      Merijn Bolink (1967) had ooit een schetsje gemaakt voor een fontein met de hoofden van een man en een vrouw. Op zoek naar voorbeelden belandde hij in een feestwinkel, waar hij een masker vond dat op Alfred Hitchcock leek, en een schapenkop. Een mens en een dier vond hij spannender: het onvermogen van mens en dier om echt contact te maken is een oud thema van hem. Ze kunnen elkaar aankijken zonder te weten wat er in de ander omgaat. Uiteindelijk werd het niet Hitchcock, maar een vriend met een markant kaal hoofd, die toevallig Schaap heette. Dat moest wel een teken zijn.
+
+      Dat de lichamen onder water zitten, is ook een verwijzing. De oude Zeeburgerdijk brak vroeger keer op keer door, en dan liep de polder erachter onder. Het beeld staat er sinds 2003 en won in 2011 de Amsterdamse Straatkunstprijs, die maar één keer is uitgereikt.
+
+      Er loopt geen pad naar de waterkant; vanaf het fietspad langs de Zeeburgerdijk zie je de hoofden het best.
+
+      Let op:
+      - de straal uit de ogen van de man, gericht op die van het schaap
+      - de oren van het schaap net boven het water
+      - het Flevopark en de Hekkepoort een paar minuten lopen naar het zuiden
+    sources:
+      - https://nl.wikipedia.org/wiki/Man_en_schaap
+      - https://geheugenvanoost.amsterdam/page/110758
+
+# ================================================================ Oostelijk Havengebied
+
+- title: De Kus, Azartplein
+  summary: "A rust-brown steel sculpture beside the old Havenarbeidsreserve building, which the city's register lists as by an unknown artist. It was made in 1983 by Maarten Loonen, a squatter living in the building, and is the one thing that survived from the squat years."
+  body: |
+    In the early 1980s the port had left the Oostelijk Havengebied and the KNSM-eiland stood almost empty. The building of the Havenarbeidsreserve (1920), the pool of casual dock workers, on what is now the Azartplein, was squatted by a group of artists and urban nomads who turned it into a place to live and work. One of them was Maarten Loonen (1957–2021), a psychotherapist and visual artist. In 1983 he made an abstract sculpture in corten steel, called it *De Kus* (The Kiss), and put it in front of the building.
+
+    Squatting on the island was not gentle: in a heavy storm the whole roof of the building blew off. When the KNSM-eiland was rebuilt as a housing district in the early 1990s, the building was converted into flats and most traces of the squat years went. The sculpture stayed where it was, through the cranes and the conversion.
+
+    The city's public art register still lists it as the work of an unknown artist. In September 2026 neighbours told its story and passed the artist's name to the Stadscuratorium, the city's public art curators. The sculpture now stands very close to the wall and needs maintenance.
+
+    It stands on the pavement against the corner of Azartplein 1-47 and can be seen at any time.
+
+    Look for:
+    - two rust-brown steel slabs whose pointed tongues slot into each other, held by two crossbars
+    - the 1920 Havenarbeidsreserve building behind it, now flats
+    - the Azart alphabet bridges of the Java-eiland, a short walk west
+  category: street-art
+  lat: 52.377465
+  lng: 4.936800
+  address: Azartplein 1-47
+  links:
+    - { label: Geheugen van Oost (2026), url: "https://geheugenvanoost.amsterdam/page/117010" }
+  attributes:
+    rank: Okay
+    built: "1983"
+    artist: Maarten Loonen
+  photos:
+    - commons:File:Huidige Situatie De Kus 1983 (6) Azartplein.jpg
+    - commons:File:Azartplein 1-47, beeld.jpg
+    - commons:File:De Kus 1983 (3) met kunstenaar MaartenLoonen.jpg
+  sources:
+    - "https://geheugenvanoost.amsterdam/page/117010 (3 September 2026: register lists \"onbekende kunstenaar\"; 1983 squat of the Haven Arbeids-Reservegebouw by urban nomads and artists; Maarten Loonen, psychotherapist and artist; corten steel, \"De Kus\", placed in front; roof blew off in a storm; renovated into flats early 1990s; Stadscuratorium informed; close to the facade, needs maintenance)"
+    - slices/havens.json, city register context text for the Oostelijk Havengebied (Havenarbeidersreserve building, 1920, Azartplein/Bogortuin, kept as a reminder)
+    - Commons uploads by the artist's family (30 June and 7 August 2026) giving Loonen's dates 1957–2021 and showing the sculpture in place; Commons photo 23 August 2019
+  nl:
+    title: De Kus, Azartplein
+    summary: "Een roestbruin stalen beeld naast het oude gebouw van de Havenarbeidsreserve, dat in het gemeentelijke register op naam staat van een onbekende kunstenaar. Kraker Maarten Loonen maakte het in 1983, toen hij in het gebouw woonde; het is het enige dat van de kraaktijd over is."
+    body: |
+      Begin jaren tachtig was de haven uit het Oostelijk Havengebied vertrokken en lag het KNSM-eiland er verlaten bij. Het gebouw van de Havenarbeidsreserve (1920), de pool van losse havenarbeiders, aan wat nu het Azartplein is, werd gekraakt door een groep kunstenaars en stadsnomaden die er een woon- en werkgemeenschap van maakten. Een van hen was Maarten Loonen (1957-2021), psychotherapeut en beeldend kunstenaar. In 1983 maakte hij een abstract beeld van cortenstaal, noemde het *De Kus* en zette het voor het pand.
+
+      Het kraakleven op het eiland was niet zachtzinnig: tijdens een zware storm waaide het hele dak van het gebouw. Toen het KNSM-eiland begin jaren negentig een woonwijk werd, is het pand verbouwd tot appartementen en verdwenen de meeste sporen van de kraaktijd. Het beeld bleef staan, tussen de bouwkranen door.
+
+      In het register van de gemeente staat het nog altijd te boek als werk van een onbekende kunstenaar. In september 2026 vertelden buurtbewoners het verhaal en gaven ze de naam van de maker door aan het Stadscuratorium. Het beeld staat nu erg dicht op de gevel en heeft onderhoud nodig.
+
+      Het staat op de stoep tegen de hoek van Azartplein 1-47 en is altijd te zien.
+
+      Let op:
+      - twee roestbruine stalen platen waarvan de punten in elkaar grijpen, vastgehouden door twee dwarsbalken
+      - het gebouw van de Havenarbeidsreserve uit 1920 erachter, nu woningen
+      - de bruggen met het Azart-alfabet op het Java-eiland, een stukje naar het westen
+    sources:
+      - https://geheugenvanoost.amsterdam/page/117010
+
+# ================================================================ Zeeburgereiland
+
+- title: Oranjesluizen, the Zeeburgereiland side
+  summary: "The locks that cut the IJ off from the Zuiderzee in 1872 so the North Sea Canal could be kept at level. About 120,000 boats a year pass, and walkers cross the IJ over the gates. Listed as a national monument in 1979, delisted in 1984 at Rijkswaterstaat's request."
+  body: |
+    Before 1872 the IJ was an arm of the Zuiderzee, with tides and salt water at the city's doorstep. To dig the North Sea Canal to IJmuiden the IJ had to be closed off on the east side, so its level could be controlled. From 1865 a dam over a kilometre long was built from Schellingwoude to the Paardenhoek, the northern tip of the reed lands that are now Zeeburgereiland. The first plan had one lock and a steam pumping station; skippers and Amsterdammers pushed it up to three locks, so that ships could still reach the Zuiderzee. Justus Dirks designed them, Johannis de Rijke supervised the work and more than 8,000 piles were driven. King Willem III laid the first stone on 29 April 1870, and the name Oranjesluizen was coined that day. They opened on 18 March 1872.
+
+    The old locks, three side by side, now take pleasure boats and small barges. In 1995 the much bigger Prins Willem-Alexandersluis was added on this south side for inland shipping, with sliding gates that glide on a thin film of water, and between 1997 and 2000 the old locks were rebuilt on new foundations. A steam pumping station of 1895 also stood on this side, with six paddle wheels 8.5 metres across; it went in 1990 to make room for the new lock.
+
+    In 1979 the culture ministry listed the locks and the pumping station as national monuments. Rijkswaterstaat wanted to keep the option of demolishing locks that had grown too small, went to the Raad van State (the highest administrative court), and won in 1984. The locks are not a monument.
+
+    The lock gates are a public crossing for walkers and cyclists. On the Noord side, the path goes on along the IJ meadows with two hand-pulled ferries and past the lock-keepers' row on the Noorder IJdijk.
+
+    Look for:
+    - the stone "Oranje Sluizen, geopend 18 maart 1872", with the king's first stone of 1870
+    - the column of drilling cores, toothed gate racks and a copper fog bell, a memorial to the 1997–2000 rebuild
+    - the sliding gates of the Prins Willem-Alexandersluis
+    - the arch of the Schellingwouderbrug just east, opened from the locks' control post
+  category: infrastructure
+  lat: 52.381533
+  lng: 4.960332
+  address: Oranjesluizen, northern tip of Zeeburgereiland
+  links:
+    - { label: Wikipedia (nl) Oranjesluizen, url: "https://nl.wikipedia.org/wiki/Oranjesluizen" }
+    - { label: Amsterdam op de kaart (complex), url: "https://amsterdamopdekaart.nl/c/114/Oranjesluizen" }
+    - { label: Amsterdam op de kaart (locks), url: "https://amsterdamopdekaart.nl/1850-1940/Noorder_IJdijk/Oranjesluizen" }
+    - { label: "Amsterdam op de kaart, Gemaal Schellingwoude", url: "https://amsterdamopdekaart.nl/1850-1940/Zuider_IJdijk/Gemaal_Schellingwoude" }
+  attributes:
+    rank: Nice
+    built: 1865–1872; Prins Willem-Alexandersluis 1995
+    architect: Justus Dirks
+    original_use: Locks closing the IJ off from the Zuiderzee
+  photos:
+    - commons:File:Oranjesluizen foto 1.jpg
+    - commons:File:Oranjesluizen foto 22, Gedenksteen Willem III.jpg
+    - commons:File:Oranjesluizen metkunstwerk.jpg
+    - commons:File:Aerial photograph of Oranjesluizen 20130421.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Oranjesluizen (1865 start, dam to close the IJ, first plan one lock and steam pump, raised to three on insistence of Amsterdammers and skippers; Justus Dirks, Johannis de Rijke; Willem III first stone 29 April 1870; about 120,000 ships a year; walkers and cyclists cross; PWA lock 1995 with sliding gates on a water film; renovation 1997–2000; artwork of drilling cores, racks and fog bell; Schellingwouderbrug operated from the south post)
+    - "https://amsterdamopdekaart.nl/1850-1940/Noorder_IJdijk/Oranjesluizen (May 2026: over 8,000 piles; name introduced at the first stone; in use 18 March 1872; neighbourhood Zeeburgereiland/Bovendiep, Oost)"
+    - https://amsterdamopdekaart.nl/c/114/Oranjesluizen (dam over 1 km from Schellingwoude to the Paardenhoek, begun 1865; listed 1979; Rijkswaterstaat to the Raad van State, listing struck off 1984; Parool 18 February 1984)
+    - https://amsterdamopdekaart.nl/1850-1940/Zuider_IJdijk/Gemaal_Schellingwoude (1895 steam pumping station on the south side, six paddle wheels of 8.5 m; demolished 1990 for the PWA lock)
+    - "Commons \"Oranjesluizen foto 22\" (3 June 2018): stone text \"Oranje Sluizen geopend 18 maart 1872, de gedenksteen gelegd door Z.M. Koning Willem III 29 april 1870\"; \"Oranjesluizen metkunstwerk\" (plaque text of the renovation memorial)"
+    - "Nominatim/OSM: Zuidkolk 52.381533, 4.960332 (Oost); Middenkolk and Noordkolk just north; PWA lock 52.3798, 4.9605; point-checked to Oost, Zeeburgereiland/Bovendiep"
+    - research/noord/places/r4-east.yaml ("Schellingwouderpark's pull ferries and the Noorder IJdijk", for the Noord side)
+  nl:
+    title: Oranjesluizen, kant Zeeburgereiland
+    summary: "De sluizen die het IJ in 1872 afsloten van de Zuiderzee, zodat het Noordzeekanaal op peil bleef. Er gaan zo'n 120.000 schepen per jaar door en wandelaars steken over de deuren het IJ over. In 1979 rijksmonument, in 1984 op verzoek van Rijkswaterstaat geschrapt."
+    body: |
+      Voor 1872 was het IJ een arm van de Zuiderzee, met eb en vloed en zout water tot aan de stad. Om het Noordzeekanaal naar IJmuiden te kunnen graven moest het IJ aan de oostkant dicht, zodat het waterpeil te beheersen was. Vanaf 1865 werd een kaarsrechte dam van ruim een kilometer aangelegd van Schellingwoude naar de Paardenhoek, de noordpunt van de Stadsrietlanden waar nu het Zeeburgereiland ligt. Eerst was er één sluis met een stoomgemaal gepland; op aandringen van schippers en Amsterdammers werden het er drie, zodat de Zuiderzee bereikbaar bleef. Justus Dirks maakte het ontwerp, waterbouwkundige Johannis de Rijke hield toezicht en er werden ruim 8000 palen geheid. Koning Willem III legde op 29 april 1870 de eerste steen, en bij die gelegenheid kregen de sluizen hun naam. Op 18 maart 1872 gingen ze open.
+
+      De drie oude sluizen naast elkaar zijn nu voor de pleziervaart en de kleine beroepsvaart. In 1995 kwam aan deze zuidkant de veel grotere Prins Willem-Alexandersluis voor de binnenvaart bij, met schuifdeuren die over een dun laagje water glijden, en tussen 1997 en 2000 kregen de oude sluizen een nieuwe fundering. Aan deze kant stond ook een stoomgemaal uit 1895 met zes schepraderen van 8,5 meter doorsnede; het werd in 1990 gesloopt om plaats te maken voor de nieuwe sluis.
+
+      In 1979 wees het ministerie van Cultuur de sluizen en het gemaal aan als rijksmonument. Rijkswaterstaat wilde de te klein geworden sluizen eventueel kunnen slopen, stapte naar de Raad van State en kreeg in 1984 gelijk. De sluizen zijn dus geen monument.
+
+      Over de sluisdeuren loopt een openbare oversteek voor wandelaars en fietsers. Aan de Noordkant gaat het pad verder langs de IJ-oever, met twee trekpontjes en langs het rijtje sluiswachterswoningen aan de Noorder IJdijk.
+
+      Let op:
+      - de gedenksteen "Oranje Sluizen, geopend 18 maart 1872", met de eerste steen van de koning uit 1870
+      - de zuil van boorkernen, oude heugelstangen en een koperen mistbel, ter herinnering aan de vernieuwing van 1997-2000
+      - de schuifdeuren van de Prins Willem-Alexandersluis
+      - de boog van de Schellingwouderbrug even verderop, die vanuit de bedienpost van de sluizen wordt geopend
+    attributes:
+      built: 1865–1872; Prins Willem-Alexandersluis 1995
+      original_use: Sluizen die het IJ afsloten van de Zuiderzee
+    sources:
+      - https://nl.wikipedia.org/wiki/Oranjesluizen
+      - https://amsterdamopdekaart.nl/1850-1940/Noorder_IJdijk/Oranjesluizen
+      - https://amsterdamopdekaart.nl/c/114/Oranjesluizen
+      - https://amsterdamopdekaart.nl/1850-1940/Zuider_IJdijk/Gemaal_Schellingwoude

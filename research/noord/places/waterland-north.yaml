@@ -1,0 +1,654 @@
+# Noord waterland-north: Zunderdorp, 't Nopeind, Holysloot and the gouwen (country roads) between them.
+# All 17 monuments in slices/waterland-north.json, merged into 10 places, plus 2 scouted places
+# (Zunderdorp milk tap, Volgermeerpolder); scouted item 17 (Holysloot and the 1916 flood) is folded
+# into the former Reformed church, which was built because of the flood. See notes/waterland-north.md.
+
+# ================================================================ Zunderdorp
+
+- title: Zunderdorp village church
+  summary: A 15th-century Gothic tower on the oldest mound in Zunderdorp, with a plain plastered hall church against it. Lightning burned the church in 1710 and set the spire ablaze in 1925; the village bell, cast in 1710, crashed down two floors.
+  body: |
+    The church stands on a low mound that is the oldest inhabited spot in Zunderdorp. When the cemetery beside it was extended in 2010, city archaeologists found pottery from the 11th and 12th centuries in the layers of the mound, and the foundations of a 15th-century church that was about 45 metres long, much bigger than the present one. The tower, of three storeys and without buttresses, belongs to that older church. Note the sandstone corner blocks.
+
+    On 26 July 1710 lightning destroyed part of the tower and the whole church. The present hall church, plastered and buttressed, with a wooden barrel vault and tie beams on carved brackets, was built against the old tower in 1711 and repaired in 1824. In April 1925 lightning struck again: the wooden, lead-covered spire burned, the 1710 bell fell two floors and stuck in a hole, a village policeman was badly hurt by a falling beam, and the whole village went dark when the burning spire cut the power lines. Amsterdam's fire brigade, four years after Zunderdorp joined the city, could not get its motor pump down the country road. The tower got the modern pyramid roof it has now. Church and tower were refounded and restored in 1988–1989.
+
+    Inside is a one-manual organ delivered in 1907 by G.A. Goldschmeding of Amsterdam, with pipework from the 18th to the 20th century, restored by Flentrop in 2010. The church is still used by the Protestant congregation; the bell rings every Sunday.
+
+    To the right of the main door, a bronze plaque of 2003 remembers two villagers who died in German camps. D.C. de Graaf, born in 1888, belonged to the Pinto resistance group and sheltered many *Engelandvaarders* (people trying to escape to England) at his home; he died in Neuengamme on 23 November 1942. C. Hoeve, born in 1889, died in Mauthausen on 1 January 1945.
+
+    Look for:
+    - the 2003 plaque for De Graaf and Hoeve, right of the main door
+    - the sandstone corner blocks and the pointed-arch entrance niche of the tower
+    - the buttresses of the 1711 hall church against the much older tower
+    - the churchyard on the mound, the highest ground in the village
+  category: religious
+  lat: 52.406957
+  lng: 4.966765
+  address: Achterlaan 12, Zunderdorp
+  links:
+    - { label: Rijksmonumentenregister (6789), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6789" }
+    - { label: Rijksmonumentenregister (6790), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6790" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Kerk_van_Zunderdorp" }
+    - { label: Reliwiki, url: "https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk" }
+    - { label: Openresearch Amsterdam (archaeology 2010), url: "https://openresearch.amsterdam/nl/page/54749/fundament-van-de-15de-eeuwse-kerk-van-zunderdorp" }
+    - { label: Kerk van Zunderdorp, url: "https://www.kerkzunderdorp.nl/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 6789, 6790
+    built: Tower 15th century; church 1711, repaired 1824
+    listed: 1970
+    original_use: Dutch Reformed village church
+  photos:
+    - commons:File:Zunderdorp, Achterlaan 12.jpg
+    - commons:File:Church of Zunderdorp near Amsterdam North - panoramio.jpg
+    - commons:File:Toren na de brand naar het noorden - Zunderdorp - 20226106 - RCE.jpg
+  sources:
+    - rce:6789, 6790 (register descriptions)
+    - https://nl.wikipedia.org/wiki/Kerk_van_Zunderdorp
+    - https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk (history; Het Centrum 16 April 1925 on the fire)
+    - https://openresearch.amsterdam/nl/page/54749/fundament-van-de-15de-eeuwse-kerk-van-zunderdorp
+    - https://www.kerkzunderdorp.nl/
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3100/zunderdorp-plaquette-op-de-gevel-van-de-protestantse-kerk (plaque 2003, text, De Graaf born 1888, Pinto group, Engelandvaarders, Neuengamme 23-11-1942; Hoeve born 1889, Mauthausen 1-1-1945; right of the main door)
+  nl:
+    title: Kerk van Zunderdorp
+    summary: Laatgotische toren uit de 15e eeuw op de oudste kerkterp van Zunderdorp, met een gepleisterde zaalkerk uit 1711. De bliksem vernielde in 1710 de kerk en zette in 1925 de spits in brand; de klok uit 1710 viel twee verdiepingen naar beneden.
+    body: |
+      In de 11e eeuw vestigden zich hier de eerste bewoners, die hier hun eerste kerk bouwden. Bij archeologisch onderzoek in 2010, toen de begraafplaats werd uitgebreid, bleek uit 11de-12de-eeuws aardewerk in de ophogingslagen dat de kerkterp tot de allervroegste bebouwing van Zunderdorp behoort. In de bodem werden muurresten gevonden van de 15de-eeuwse voorganger van de huidige kerk: een kerkgebouw van in totaal ca. 45 meter lang, groter dan het huidige.
+
+      Op 26 juli 1710 werd een gedeelte van de toren en de gehele kerk vernield door blikseminslag. De huidige gepleisterde zaalkerk met steunberen werd in 1711 gebouwd tegen de laatgotische toren zonder steunberen van de vorige kerk. De toren telt drie geledingen; opvallend zijn de natuurstenen hoekblokken. Het kerkinterieur wordt overdekt door een houten tongewelf met trekbalken op geprofileerde sleutelstukken en korbelen. In 1824 werd de kerk grondig hersteld.
+
+      In april 1925 werd de toren opnieuw getroffen door de bliksem. "Binnen enkele oogenblikken stond de geheele houten spits met loodbedekking in lichtelaaie", schreef Het Centrum. De oude torenklok, in 1710 gegoten door Claes Noorden en Jan Albert de Grave, viel naar beneden en bleef op de tweede verdieping in een gat hangen. De vallende spits trof een politieagent uit Ransdorp en knapte de elektrische draden af, waarna heel Zunderdorp in duisternis werd gehuld. In 1988/1989 werden kerk en toren opnieuw gefundeerd en grondig gerestaureerd.
+
+      Er is een eenklaviers orgel, geleverd door de firma G.A. Goldschmeding (Amsterdam) in 1907, met belangwekkend 18de-, 19de- en 20ste-eeuws pijpwerk. In 2010 is het instrument gerestaureerd door Flentrop Orgelbouw te Zaandam. Iedere zondag luidt de klok in de toren.
+
+      Rechts van de hoofdingang hangt sinds 2003 een bronzen plaquette voor twee dorpsgenoten die in Duitse kampen omkwamen. D.C. de Graaf, geboren in 1888, zat in de verzetsgroep Pinto en hielp veel Engelandvaarders die bij hem ondergedoken zaten op weg naar Engeland; hij overleed op 23 november 1942 in Neuengamme. C. Hoeve, geboren in 1889, kwam op 1 januari 1945 om in Mauthausen.
+
+      Let op:
+      - de plaquette uit 2003 voor De Graaf en Hoeve, rechts van de hoofdingang
+      - de natuurstenen hoekblokken en de spitsbogige ingangsnis van de toren
+      - de steunberen van de zaalkerk tegen de veel oudere toren
+      - het kerkhof op de terp, het hoogste punt van het dorp
+    attributes:
+      built: Toren 15e eeuw; kerk 1711, hersteld 1824
+      original_use: Nederlands Hervormde dorpskerk
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6789
+      - https://nl.wikipedia.org/wiki/Kerk_van_Zunderdorp
+      - https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk
+      - https://openresearch.amsterdam/nl/page/54749/fundament-van-de-15de-eeuwse-kerk-van-zunderdorp
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3100/zunderdorp-plaquette-op-de-gevel-van-de-protestantse-kerk
+
+- title: Wooden houses of Zunderdorp
+  summary: Three listed wooden houses in Amsterdam's milk village, a cluster of lanes ringed by ditches and little bridges. Their 19th-century fronts hide frames that are probably much older.
+  body: |
+    Zunderdorp, once *Sundeldorp*, was the main village of its own ban (rural district); the *sundels* were narrow channels that ran from the village to the IJ. From the 17th century the dike village of Nieuwendam outgrew it. Zunderdorp belonged to the municipality of Nieuwendam from 1811 and came to Amsterdam with it in 1921. For centuries the village lived from dairy farming: fresh milk went by boat straight to the milk market on the Prins Hendrikkade in Amsterdam.
+
+    The village is a knot of lanes (Kerklaan, Middenlaan, Achterlaan) entirely surrounded by ditches, so there are many small bridges, some private. A handful of houses are still of wood, the traditional building material of Waterland. Three are national monuments. This ensemble is pinned on Kerklaan 16, the most refined of them.
+
+    Look for:
+    - Kerklaan 16: a wooden house of the early 19th century with a curved gable (*uit- en ingezwenkt voorschot*), a fine shopfront, original glazing bars and an Empire-style door and fanlight
+    - Middenlaan 17: a wooden farmhouse with a front house; 19th-century outside, probably much older inside
+    - Middenlaan 19: a wooden house with a pointed gable, mainly 19th century
+  category: housing
+  lat: 52.407095
+  lng: 4.965148
+  address: Kerklaan 16 and Middenlaan 17-19, Zunderdorp
+  links:
+    - { label: Rijksmonumentenregister (6792), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6792" }
+    - { label: Rijksmonumentenregister (6793), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6793" }
+    - { label: Rijksmonumentenregister (6794), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6794" }
+    - { label: Wikipedia (nl) Zunderdorp, url: "https://nl.wikipedia.org/wiki/Zunderdorp" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 6792, 6793, 6794
+    built: 19th century or older
+    listed: 1970
+    original_use: Houses and farmhouse
+  photos:
+    - commons:File:Kerklaan 16 Zunderdorp mon6792.jpg
+    - commons:File:Zunderdorp, Middenlaan 19.jpg
+    - commons:File:Zunderdorp, Middenlaan 17.jpg
+  sources:
+    - rce:6792, 6793, 6794 (register descriptions)
+    - https://nl.wikipedia.org/wiki/Zunderdorp
+    - https://en.wikipedia.org/wiki/Zunderdorp
+  nl:
+    title: Houten huizen in Zunderdorp
+    summary: Drie houten rijksmonumenten in het melkdorp Zunderdorp, een dorp van laantjes dat geheel door sloten is omsloten. Achter de 19e-eeuwse gevels zit vermoedelijk een veel oudere constructie.
+    body: |
+      Zunderdorp (voorheen 'Sundeldorp') was oorspronkelijk het hoofddorp van de banne Sundeldorp. 'Sundels', het woord waar de naam Zunderdorp van komt, waren smalle vaarten, die vanaf het dorp naar het IJ stroomden. Het werd vanaf de 17e eeuw overvleugeld door het aan het IJ gelegen Nieuwendam. Het dorp maakte van 1811 tot 1921 deel uit van de gemeente Nieuwendam, die in dat jaar opging in de gemeente Amsterdam.
+
+      Al eeuwenlang is melkveehouderij de belangrijkste activiteit. Vroeger ging de verse melk met melkschuiten rechtstreeks naar Amsterdam om daar te worden afgeleverd aan de melkmarkt op de Prins Hendrikkade. Het dorp is geheel omsloten door sloten, daarom zijn er veel bruggen. Enkele huizen zijn van hout; drie ervan zijn rijksmonument. De speld staat op Kerklaan 16.
+
+      Let op:
+      - Kerklaan 16: houten huis met uit- en ingezwenkt voorschot (begin 19e eeuw), goede pui en roedenverdeling, empire deur en bovenlicht
+      - Middenlaan 17: houten boerderij met vooreind; uitwendig 19e-eeuws, inwendig vermoedelijk veel ouder
+      - Middenlaan 19: houten huis met puntvormig voorschot, voornamelijk 19e-eeuws
+    attributes:
+      built: 19e eeuw of ouder
+      original_use: Woonhuizen en boerderij
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6792
+      - https://nl.wikipedia.org/wiki/Zunderdorp
+
+- title: Farms of 't Nopeind and 't Voorwerf
+  summary: A hamlet "at the end" north of Zunderdorp, with three listed wooden farmhouses. From 1975 the city bus turned on a farmyard here, because it could not turn in Zunderdorp.
+  body: |
+    't Nopeind is a hamlet of a few farms and houses just north of Zunderdorp, between the Kleine and Groote Blauwe Polder. The name is probably a contraction of *op het einde* ("at the end"); Amsterdam's council made the centuries-old name official on 10 July 1957. Its three lanes are Het Nopeind, Het Voorwerf and the Termietergouw.
+
+    From 1974 to 2018 the hamlet was the end of the line for GVB bus 30 (later 31). Turning at the Kerklaan in Zunderdorp was too awkward, so the bus turned on a farmyard instead: first on the Voorwerf, from 1975 on the Nopeind. Since 2018 a demand-responsive taxi service has replaced the bus.
+
+    Three wooden farmhouses here are national monuments. Their outsides are mostly 19th century, but the timber frames are probably much older. This ensemble is pinned on 't Voorwerf 1.
+
+    Look for:
+    - 't Voorwerf 1: a wooden farmhouse with a long front section of three aisles
+    - 't Voorwerf 13: a wooden *stolp* (pyramid-roofed farmhouse) with a short ridge, partly early 19th century outside
+    - 't Nopeind 14: a long wooden *stolp*, 19th century outside
+  category: housing
+  lat: 52.410097
+  lng: 4.965354
+  address: "'t Voorwerf 1, 't Voorwerf 13 and 't Nopeind 14"
+  links:
+    - { label: Rijksmonumentenregister (6797), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6797" }
+    - { label: Rijksmonumentenregister (6798), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6798" }
+    - { label: Rijksmonumentenregister (6795), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6795" }
+    - { label: Wikipedia (nl) 't Nopeind, url: "https://nl.wikipedia.org/wiki/%27t_Nopeind" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 6797, 6798, 6795
+    built: 19th century outside, older frames
+    listed: 1970
+    original_use: Farmhouses
+  photos:
+    - commons:File:Zunderdorp, 't Voorwerf 1.jpg
+    - commons:File:Zunderdorp, 't Voorwerf 13.jpg
+    - commons:File:TNopeind 14 Zunderdorp mon6795.jpg
+  sources:
+    - rce:6795, 6797, 6798 (register descriptions)
+    - https://nl.wikipedia.org/wiki/%27t_Nopeind
+  nl:
+    title: Boerderijen van 't Nopeind en 't Voorwerf
+    summary: Buurtschap ten noorden van Zunderdorp met drie houten boerderijen die rijksmonument zijn. Vanaf 1975 keerde de stadsbus hier op het erf van een boerderij, omdat keren in Zunderdorp niet lukte.
+    body: |
+      't Nopeind of Het Nopeind is een straat en buurtschap ten noorden van Zunderdorp en ten zuiden van Watergang. 't Nopeind bestaat uit drie wegen: Het Nopeind, Het Voorwerf en de Termietergouw. De buurtschap bestaat uit enkele stolpboerderijen en andere vrijstaande woningen en ligt tussen de Kleine en Groote Blauwe Polder. 't Nopeind zou een samentrekking of verbastering zijn van 'Op het einde'; de al eeuwen gebruikte naam werd op 10 juli 1957 officieel verklaard per raadsvergadering Amsterdam.
+
+      Van 1974 tot 2018 was de buurtschap het eindpunt van bus 30 (2006-2018 bus 31) van het GVB. Dit omdat keren in Zunderdorp bij de Kerklaan/Achterlaan moeilijkheden gaf en in 't Nopeind keergelegenheid was gevonden op het erf van een boerderij, eerst op het Voorwerf en sinds 1975 op het Nopeind.
+
+      Drie houten boerderijen zijn rijksmonument. De speld staat op 't Voorwerf 1.
+
+      Let op:
+      - 't Voorwerf 1: houten boerderij met langgerekt driebeukig vooreind; uiterlijk voornamelijk 19e-eeuws, constructie waarschijnlijk veel ouder
+      - 't Voorwerf 13: houten stolphoeve met korte nok, uitwendig ten dele vroeg-19e-eeuws
+      - 't Nopeind 14: langgerekte houten stolphoeve, uitwendig 19e-eeuws
+    attributes:
+      built: Uitwendig 19e eeuw, constructie ouder
+      original_use: Boerderijen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6797
+      - https://nl.wikipedia.org/wiki/%27t_Nopeind
+
+- title: Zunderdorp milk tap
+  summary: A self-service tap on an organic dairy farm where you fill your own bottle with raw milk straight from the cows behind the barn. Zunderdorp has sent its milk to Amsterdam for centuries; now Amsterdam comes to fetch it.
+  body: |
+    For centuries Zunderdorp lived from its cows. Fresh milk went by *melkschuit* (milk barge) straight to the city, to the milk market on the Prins Hendrikkade, where Amsterdam's milk sellers waited with their carts to sell it door to door. The barges are long gone, but the village is still a dairy village inside the city limits.
+
+    On the Broekergouw, the country road north towards the Volgermeerpolder, the Disseldorp family's organic dairy farm runs a milk tap: chilled raw milk from the farm's own herd, which you tap yourself into a bottle, jerrycan or cup. Bring your own container and coins. The tap shares the yard with Stal Gouwzicht, a riding stable. It makes a good stop on a bike ride through Landelijk Noord.
+
+    The farm gives the opening hours as every day from 8:00 to 21:00.
+  category: food-drink
+  lat: 52.413184
+  lng: 4.972142
+  address: Broekergouw 5, Zunderdorp
+  links:
+    - { label: Melktap (Stal Gouwzicht), url: "https://www.gouwzicht.nl/melktap" }
+    - { label: Laag Holland, url: "https://www.laagholland.com/nl/locaties/174143483/biologische-melktap-melkveebedrijf-disseldorp" }
+    - { label: Wikipedia (nl) Zunderdorp, url: "https://nl.wikipedia.org/wiki/Zunderdorp" }
+  attributes:
+    rank: Nice
+  sources:
+    - https://www.gouwzicht.nl/melktap (facts: address, owner, hours, 2026)
+    - https://www.laagholland.com/nl/locaties/174143483/biologische-melktap-melkveebedrijf-disseldorp
+    - https://www.boerenroute.nl/winkel/de-melktap-broekergouw-65 (bring a bottle and coins)
+    - https://nl.wikipedia.org/wiki/Zunderdorp
+  nl:
+    title: Melktap Zunderdorp
+    summary: Biologische melktap op een melkveebedrijf aan de Broekergouw, waar je zelf verse boerderijmelk tapt. Zunderdorp stuurt al eeuwen zijn melk naar Amsterdam; nu komt Amsterdam hem halen.
+    body: |
+      Al eeuwenlang is melkveehouderij de belangrijkste activiteit in Zunderdorp. Vroeger ging de verse melk met melkschuiten rechtstreeks naar Amsterdam om daar te worden afgeleverd aan de melkmarkt op de Prins Hendrikkade. Daar stonden de Amsterdamse melkslijters klaar met hun karren om de melk huis-aan-huis te verkopen.
+
+      Aan de Broekergouw staat de melktap van biologisch melkveebedrijf Disseldorp: dagverse gekoelde biologische boerderijmelk, direct van de producent naar de consument. Je tapt zelf de gewenste hoeveelheid in een jerrycan, fles of beker; neem een eigen fles en muntgeld mee. De tap staat op hetzelfde erf als Stal Gouwzicht, een manege.
+
+      Volgens het bedrijf is de melktap 7 dagen in de week geopend van 8.00 tot 21.00 uur.
+    sources:
+      - https://nl.wikipedia.org/wiki/Zunderdorp
+      - https://www.gouwzicht.nl/melktap
+      - https://www.boerenroute.nl/winkel/de-melktap-broekergouw-65
+
+- title: Farm, Zunderdorpergouw 29
+  summary: A dairy farm of 1861 in the last stretch of open meadow inside Amsterdam. Built entirely of wood, it got a brick front in the 1920s, a common upgrade for Waterland farms.
+  body: |
+    The Zunderdorpergouw is one of the country roads (*gouwen*) leading to Zunderdorp. This farm stands on it in what the city's register calls the last remaining meadowland within the municipality of Amsterdam, on a yard edged by ditches, with trees and planting on the traditional front and side yards.
+
+    It is a *stolp* (a farmhouse under one big pyramid roof) with a cowshed and a *kaakberg* (an open hay barrack), built around 1861 as a dairy farm. It was originally all timber; in the 1920s the front was rebuilt in brick and the front house got details of that time. That petrification of the front tells the building history of many farms here. The city listed it in 2021 for its rarity and its place in the landscape.
+
+    Look for:
+    - the brick front of the 1920s on the old wooden *stolp*
+    - the yard ringed by ditches, with its trees
+  category: housing
+  lat: 52.403628
+  lng: 4.960699
+  address: Zunderdorpergouw 29
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c524a6d7-600b-42e5-9f48-287f9b8ad062" }
+    - { label: Wikipedia (nl) Zunderdorp, url: "https://nl.wikipedia.org/wiki/Zunderdorp" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200940"
+    built: c. 1861; front rebuilt 1920s
+    listed: 2021
+    original_use: Dairy farm
+  sources:
+    - city:200940 (register text)
+  nl:
+    title: Boerderij, Zunderdorpergouw 29
+    summary: Melkveeboerderij uit circa 1861 in het laatst overgebleven weidegebied binnen de gemeente Amsterdam. De oorspronkelijk houten stolp kreeg in de jaren twintig een stenen voorgevel.
+    body: |
+      Zunderdorpergouw 29 is een boerderij bestaande uit een stolp met stal en een kaakberg en daarmee een goed voorbeeld van een melkveeboerderij uit het derde kwart van de negentiende eeuw, met belangrijke wijzigingen uit de jaren twintig van de twintigste eeuw. De verstening van de voorgevel is kenmerkend voor de bouwgeschiedenis van deze in oorsprong volledig in houtbouw uitgevoerde stolp. Het voorhuis is gewijzigd met enige detaillering uit de jaren twintig.
+
+      Het pand is van stedenbouwkundige waarde vanwege de beeldbepalende ligging in het laatst overgebleven weidegebied binnen de gemeente Amsterdam en heeft ensemblewaarde vanwege het door sloten afgezoomde erf met bomen en andere begroeiing op het traditionele voor- en zijerf. Het exterieur is redelijk gaaf bewaard gebleven; de typologie kan zeldzaamheid worden toegeschreven.
+
+      Let op:
+      - de stenen voorgevel uit de jaren twintig op de oude houten stolp
+      - het door sloten afgezoomde erf met bomen
+    attributes:
+      built: ca. 1861; voorgevel versteend in de jaren twintig
+      original_use: Melkveeboerderij
+    sources:
+      - https://data.amsterdam.nl/monumenten/c524a6d7-600b-42e5-9f48-287f9b8ad062
+
+- title: Reclamation farms, Broekergouw
+  summary: Two early 20th-century dairy farms on the narrow strip of land between the Broekermeer and Burkmeer polders, among the first farms built in this landscape. Broekergouw 16 (1903) keeps a finely detailed front.
+  body: |
+    North of Zunderdorp the Broekergouw runs on a narrow strip of land between two drained lakes, the Broekermeerpolder and the Burkmeerpolder, towards Broek in Waterland. The two farms on it are among the earliest in the area; the city's register calls Broekergouw 12 one of the two *ontginningsboerderijen* (reclamation farms) in this polder.
+
+    Broekergouw 16 (1903) has a front house with a cowshed and a free-standing hay barrack; its front is the most refined part, though the right side wall has been renewed. Broekergouw 12 (1916) is a front house, link and barn, a good example of a dairy farm of the first quarter of the 20th century, with a younger cowshed and hay barrack. Both stand on yards edged by ditches, and no. 16 still has part of its windbreak of trees. The city listed both in 2021. This ensemble is pinned on no. 16.
+
+    Look for:
+    - Broekergouw 16: the detailed front gable of 1903
+    - Broekergouw 12: the long line of front house, link and barn
+    - the farms' landmark position on the strip between the two polders
+  category: housing
+  lat: 52.418778
+  lng: 4.985777
+  address: Broekergouw 12 and 16
+  links:
+    - { label: Monumentenregister Amsterdam (Broekergouw 16), url: "https://data.amsterdam.nl/monumenten/54f4ce11-b9b1-4a82-b2c8-e86157a57b4a" }
+    - { label: Monumentenregister Amsterdam (Broekergouw 12), url: "https://data.amsterdam.nl/monumenten/0b130cc3-fef3-48e7-bac7-bba458a7950e" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200933, 200932
+    built: 1903 and 1916
+    listed: 2021
+    original_use: Dairy farms
+  sources:
+    - city:200932, 200933 (register texts)
+  nl:
+    title: Ontginningsboerderijen aan de Broekergouw
+    summary: Twee melkveeboerderijen uit het begin van de 20e eeuw op de smalle strook land tussen de Broekermeer- en de Burkmeerpolder. Broekergouw 16 (1903) heeft een fraai gedetailleerde voorgevel.
+    body: |
+      Broekergouw 16 is een van de vroegste boerderijen in het gebied, bestaande uit een voorhuis met stal en losstaande hooiberg en daarmee een goed voorbeeld van een boerderij uit het begin van de twintigste eeuw. Met name de fraai gedetailleerde voorgevel is een opmerkelijk onderdeel; de rechter zijgevel is vernieuwd. Enige ensemblewaarde heeft het door sloten afgezoomde erf met gedeeltelijke windsingel.
+
+      Broekergouw 12 is een boerderij bestaande uit een voorhuis, tussenlid en schuur en daarmee een goed voorbeeld van een boerderij uit het eerste kwart van de twintigste eeuw. Het is een van de twee ontginningsboerderijen in deze polder. Het versoberde en gewijzigde voorhuis en de jongere stal en hooiberg bezitten nog enige detaillering uit de bouwtijd; de typologie als melkveebedrijf kan enige zeldzaamheid worden toegeschreven.
+
+      Beide panden zijn van stedenbouwkundige waarde vanwege de beeldbepalende ligging op de smalle strook land tussen de Broekermeer- en de Burkmeerpolder. De speld staat op nummer 16.
+
+      Let op:
+      - Broekergouw 16: de gedetailleerde voorgevel uit 1903
+      - Broekergouw 12: de lange lijn van voorhuis, tussenlid en schuur
+      - de ligging op de strook land tussen de twee polders
+    attributes:
+      built: 1903 en 1916
+      original_use: Melkveeboerderijen
+    sources:
+      - https://data.amsterdam.nl/monumenten/54f4ce11-b9b1-4a82-b2c8-e86157a57b4a
+      - https://data.amsterdam.nl/monumenten/0b130cc3-fef3-48e7-bac7-bba458a7950e
+
+- title: Volgermeerpolder
+  summary: The country's worst toxic dump, sealed under foil and clean soil, is now a reedy wetland of terraced "sawas" with grass snakes, bearded tits and a bird screen. The poison is still there; the groundwater is checked every year.
+  body: |
+    Despite the name it was never a drained lake: it was ordinary peat meadow called *Volgerweren*, renamed Volgermeerpolder by mistake on an official map of 1853. Between 1920 and 1955 the peat was dug out for fuel as the Veenderij Zunderdorp, leaving deep pits of water. From 1927 Amsterdam filled the pits with household rubbish, brought in by barge.
+
+    In the 1960s chemical companies, Philips-Duphar the largest, dumped thousands of barrels of waste from pesticide production here, including dioxins, with officials looking the other way. In March 1980 a bulldozer driver at the tip burst a few rusted barrels and raised the alarm. He was fired for telling a local action group in Broek in Waterland. The tip closed in 1981, and the Volgermeer became known as the most polluted site in the Netherlands.
+
+    Digging it all out proved impossible. From 2003 the 100-hectare site was wrapped instead: a layer of soil, a watertight foil, then clean earth on top, part of it from the tunnels of the Noord-Zuidlijn metro. About 15 km of small embankments hold rainwater in shallow terraced basins, nicknamed sawas after Asian rice fields, so that reed and in time new peat moss can grow and seal the waste for good. The cleanup cost about €100 million. The reserve opened on 23 April 2011.
+
+    Today it is one of the wildest places in Amsterdam. Volunteers count a record of grass snake eggs in the breeding heaps (more than 400 in 2025), and the city's yearly water tests found no further spread of pollution in 2024. Walk the 4.3 km yellow loop from the starting point on the north side; the bird screen with a bench made of Amsterdam trees looks east over the wetland. Stay on the paths.
+  category: green
+  lat: 52.422052
+  lng: 4.991806
+  address: Volgermeerpolder, between Zunderdorp and Broek in Waterland
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Volgermeerpolder" }
+    - { label: Volgermeer (Burgerkomitee), url: "https://www.volgermeer.nl/" }
+    - { label: Oneindig Noord-Holland, url: "https://onh.nl/verhaal/de-volgermeerpolder-van-gifbelt-tot-waterlandse-sawa" }
+    - { label: "NH Nieuws (grass snakes, 2023)", url: "https://www.nhnieuws.nl/nieuws/326210/van-gifbelt-naar-succesverhaal-recordaantal-ringslangeitjes-uitgekomen-in-volgermeerpolder" }
+    - { label: Wandelnetwerk Noord-Holland, url: "https://www.wandelnetwerknoordholland.nl/startpunten/startpunt-volgermeer/1130" }
+    - { label: Vogelkijkhut.nl, url: "https://vogelkijkhut.nl/view/713/" }
+  attributes:
+    rank: Amazing
+    original_use: Peat diggings, then city rubbish and chemical waste tip (1927–1981)
+  photos:
+    - commons:File:Bodemonderzoek in Volgermeerpolder nu laatste vaten chemisch afval verwijderd zi, Bestanddeelnr 931-8924.jpg
+    - commons:File:Omwonenden vuilstortplaats Volgermeerpolder protesteren bij stadhuis van Amsterd, Bestanddeelnr 933-3381.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Volgermeerpolder
+    - https://onh.nl/verhaal/de-volgermeerpolder-van-gifbelt-tot-waterlandse-sawa (facts)
+    - https://www.volgermeer.nl/nieuwsoverzicht/ (2024 water report, 2025 grass snake eggs, 2026 news)
+    - https://www.nhnieuws.nl/nieuws/326210/van-gifbelt-naar-succesverhaal-recordaantal-ringslangeitjes-uitgekomen-in-volgermeerpolder
+    - https://www.wandelnetwerknoordholland.nl/startpunten/startpunt-volgermeer/1130
+    - https://vogelkijkhut.nl/view/713/ (bird screen, 2018, GPS 52.42205, 4.99181)
+  nl:
+    title: Volgermeerpolder
+    summary: De grootste gifbelt van Nederland, ingepakt in folie en schone grond, is nu een waterrijk natuurgebied met sawa's, ringslangen en een vogelkijkwand. Het gif ligt er nog; het grondwater wordt elk jaar gecontroleerd.
+    body: |
+      Het gebied is geen polder. Oorspronkelijk Volgerweren geheten, werd het in 1853 door een kaartenmaker abusievelijk benoemd als Volgermeerpolder. Tussen 1920 en 1955 werd het veen afgegraven en uitgebaggerd in diepe trek- of petgaten, onder de naam Veenderij Zunderdorp. De petgaten werden vanaf 1927 opgevuld met huis- en stadsvuil.
+
+      In de jaren 1960 werd er door meerdere chemische bedrijven, waarvan het grootste Philips-Duphar was, gif gedumpt met oogluikende toestemming van Amsterdamse ambtenaren. In maart 1980 werd het eerste gifvat bij toeval ontdekt door iemand die er werkte. Toen deze 'klokkenluider' dit bekendmaakte, werd hij meteen ontslagen. De Volgermeer is volgens de gemeente Amsterdam de grootste vervuilde locatie van Nederland.
+
+      Omdat het terrein te groot is voor een bodemsanering, is het afgedekt: eerst een deklaag van grond, met daaroverheen een niet waterdoorlatende folie, en over de folie nog een laag grond. Daarbovenop wordt getracht natuurlijke veenmosvegetaties te ontwikkelen die kunnen bijdragen aan een duurzame isolatie van de vervuilde lagen eronder. Hiertoe is onder meer 15 km kade aangelegd, zodat natte gebiedjes gelijkend op sawa's zijn ontstaan. Op 23 april 2011 is het gebied voor het eerst opengesteld voor publiek. Het gebied zal wel altijd gecontroleerd moeten blijven vanwege mogelijke lekkage van verontreinigd grondwater; uit de metingen bleek dat er in 2024 geen verdere verspreiding van verontreiniging heeft plaatsgevonden.
+
+      Sinds 2011 is de Volgermeer ingericht als een langgerekt natuurgebied, doorsneden door fiets- en voetpaden. In de broeihopen voor de ringslang werden in 2025 meer dan 400 eieren gevonden. Het Rondje Volgermeer (geel, 4,3 km) voert dwars door het gebied; de vogelkijkwand met bankje, in 2018 gemaakt van Amsterdamse bomen, kijkt naar het oosten.
+    attributes:
+      original_use: Veenderij, daarna vuilstortplaats en gifstort (1927–1981)
+    sources:
+      - https://nl.wikipedia.org/wiki/Volgermeerpolder
+      - https://www.wandelnetwerknoordholland.nl/startpunten/startpunt-volgermeer/1130
+      - https://www.volgermeer.nl/nieuwsoverzicht/
+      - https://vogelkijkhut.nl/view/713/
+
+# ================================================================ Bloemendalergouw and Holysloot
+
+- title: Stolp farms, Bloemendalergouw
+  summary: Two 19th-century stolp farmhouses, one of them wholly of wood, on the only road into Holysloot. Their pyramid roofs are the classic silhouette of the Waterland meadows.
+  body: |
+    The Bloemendalergouw runs north from Ransdorp across the open meadows to Holysloot; for cars it is the only way into that village. Along it stand two farmhouses of the *stolp* type typical of North Holland: a square block under one huge pyramid roof, with the hay stored in the middle and the cows and family around it.
+
+    Both are national monuments. No. 26 is a wooden *stolp*, 19th century outside; no. 13 has partly wooden walls, also 19th century in appearance. This ensemble is pinned on no. 26, the wooden one.
+
+    Look for:
+    - Bloemendalergouw 26: the all-timber *stolp*
+    - Bloemendalergouw 13: the mix of brick and timber walls
+  category: housing
+  lat: 52.396622
+  lng: 4.998687
+  address: Bloemendalergouw 13 and 26
+  links:
+    - { label: Rijksmonumentenregister (6734), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6734" }
+    - { label: Rijksmonumentenregister (6733), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6733" }
+    - { label: Wikipedia (nl) Holysloot, url: "https://nl.wikipedia.org/wiki/Holysloot" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 6734, 6733
+    built: 19th century or older
+    listed: 1970
+    original_use: Farmhouses
+  photos:
+    - commons:File:Ransdorp, Bloemendalergouw 26.jpeg
+    - commons:File:Ransdorp, Bloemendalergouw 13.jpeg
+  sources:
+    - rce:6733, 6734 (register descriptions)
+    - https://nl.wikipedia.org/wiki/Holysloot
+  nl:
+    title: Stolpboerderijen aan de Bloemendalergouw
+    summary: Twee 19e-eeuwse stolpboerderijen, waarvan één geheel van hout, aan de enige weg naar Holysloot.
+    body: |
+      De Bloemendalergouw loopt van Ransdorp door het open weidegebied naar Holysloot. Voor automobilisten is Holysloot via slechts één weg, de Bloemendalergouw, te bereiken. Aan de gouw staan twee stolpboerderijen die rijksmonument zijn. De speld staat op nummer 26.
+
+      Let op:
+      - Bloemendalergouw 26: houten stolphoeve, uitwendig voorkomen 19e-eeuws
+      - Bloemendalergouw 13: stolphoeve met ten dele houten wanden, uiterlijk voorkomen 19e-eeuws
+    attributes:
+      built: 19e eeuw of ouder
+      original_use: Boerderijen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/6734
+      - https://nl.wikipedia.org/wiki/Holysloot
+
+- title: Witte Kerkje, Holysloot
+  summary: A white plastered church of 1846–1847 on its own mound at the edge of the meadows, with a tiny churchyard and a 1730 organ built for the Walloon church in Haarlem. Under renovation from November 2026 to March 2027.
+  body: |
+    Holysloot had a chapel by 1342, served by the priest of Ransdorp, and became a parish around 1520. A Reformed church stood on this spot by 1613. The present *Witte Kerkje* ("little white church") was built for the church wardens in a sober style borrowing Gothic forms; the foundation stone by the entrance records 9 September 1846. It stands free on a raised yard (*werf*), its white walls and slate needle spire visible across the open Waterland meadows, and it marks the protected village of Holysloot.
+
+    Beside it lies the churchyard, partly hedged and partly fenced, often called the smallest in North Holland. Until 1841 burials took place inside the church; the floor still has grave slabs, some of them 17th century, carved with house marks.
+
+    Inside, a blue-painted roof spans the nave. The furnishings are partly from the old church: a hexagonal oak pulpit with the arms of Holysloot, the baptismal enclosure and elders' benches, an 18th-century States Bible and two 17th-century brass chandeliers. The one-manual organ was made in 1730 by H. van Giessen for the Walloon church in Haarlem and came here from Holysloot's Reformed church. The Protestant congregation of Ransdorp and Holysloot still worships here, and the church is rented for weddings and concerts. From November 2026 to March 2027 the roof timbers are being repaired; services move to the village hall opposite.
+
+    Look for:
+    - the foundation stone of 9 September 1846 under the left blind window of the west front
+    - the cast-iron pointed windows with their glazing bars
+    - the tiny churchyard on the raised yard
+  category: religious
+  lat: 52.41308
+  lng: 5.024675
+  address: Dorpsstraat Holysloot 30
+  links:
+    - { label: Rijksmonumentenregister (491139), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/491139" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/7f66850d-2e87-4cc8-9503-4d2435d0b546" }
+    - { label: Wikipedia (nl) Holysloot, url: "https://nl.wikipedia.org/wiki/Holysloot" }
+    - { label: Wikipedia (en) Holysloot, url: "https://en.wikipedia.org/wiki/Holysloot" }
+    - { label: Stichting Witte Kerkje Holysloot, url: "https://holysloot.nl/wittekerkje/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "491139"
+    built: 1846–1847
+    architect: G. Bronke
+    listed: 1995
+    original_use: Dutch Reformed village church
+  photos:
+    - commons:File:2024 Dorpsstraat Holysloot 30, Asd (A).jpg
+    - commons:File:Holysloot (Amsterdam), the Witte Kerk.jpg
+    - commons:File:INTERIEUR, OVERZICHT NAAR HET OOSTEN - Holysloot - 20298505 - RCE.jpg
+  sources:
+    - rce:491139 (register description)
+    - https://en.wikipedia.org/wiki/Holysloot
+    - https://nl.wikipedia.org/wiki/Holysloot
+    - https://holysloot.nl/ and https://holysloot.nl/wittekerkje/ (renovation Nov 2026 to Mar 2027)
+    - https://holysloot.nl/grafzerken-toegelicht/ (house marks on grave slabs)
+  nl:
+    title: Witte Kerkje, Holysloot
+    summary: Witgepleisterde zaalkerk uit 1847 op een werf aan de rand van de weilanden, met een kerkhofje en een orgel uit 1730 van de Waalse kerk in Haarlem. Van november 2026 tot maart 2027 in renovatie.
+    body: |
+      Op een werf gelegen, geheel vrijstaande witgepleisterde zaalkerk uit 1847, gebouwd in opdracht van het College van Kerkvoogden van de Hervormde Gemeente, in sobere op gotische vormentaal geïnspireerde bouwtrant. De eerste steenlegging vond blijkens de gedenksteen naast de ingang plaats op 9 september 1846. Het naastgelegen kerkhofje, eveneens op de werf gelegen, wordt deels omsloten door een haag, deels door een eenvoudig ijzeren hekwerk. Reeds in 1613 stond op de huidige plaats een Hervormde kerk.
+
+      Inwendig wordt het schip overspannen door een blauwbeschilderde gordingenkap met trekstangen. Op de vloer liggen hardstenen zerken, waarvan enkele nog 17e-eeuws, met figuren die huismerken worden genoemd. De inventaris, deels afkomstig uit de vroegere kerk, omvat een zeskantige eikenhouten kansel met het wapen van Holysloot, het doophek en banken voor de ouderlingen, op het doophek een koperen lessenaar met een Statenbijbel uit de 18e eeuw, en twee 17e-eeuwse koperen kroonluchters. Het eenklaviersorgel, in 1730 gemaakt door H. van Giessen voor de Waalse kerk in Haarlem, is afkomstig uit de Gereformeerde kerk van Holysloot.
+
+      Van groot situationeel belang vanwege de silhouetwaarde in het geïsoleerd gelegen dorp in het open weidegebied van Waterland; de kerk is een belangrijk markeringspunt binnen het beschermde dorpsgezicht van Holysloot. De kerk is in gebruik bij de protestantse gemeente Ransdorp/Holysloot. Van november 2026 tot maart 2027 wordt de balkenconstructie aangepakt; de kerkdiensten worden dan verplaatst naar het Wijkgebouw tegenover de kerk.
+
+      Let op:
+      - de gedenksteen onder het linker blinde venster in de westgevel
+      - de spitsboogvensters met gietijzeren kozijnen
+      - het kerkhofje op de werf
+    attributes:
+      built: 1846–1847
+      original_use: Nederlands Hervormde dorpskerk
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/491139
+      - https://nl.wikipedia.org/wiki/Holysloot
+      - https://holysloot.nl/
+
+- title: Holysloot and the 1916 flood (former Reformed church)
+  summary: When the Zuiderzee dike broke in January 1916, the whole village of Holysloot fled the water and its wooden Reformed church was wrecked. This brick church replaced it in 1917, and the flood pushed the bankrupt villages into Amsterdam.
+  body: |
+    Holysloot is a one-street village on the Holysloter Die, a broad water linked to the other *dieën* (channels) of Waterland, first mentioned in the 13th century. It has about forty farms and has hardly grown in centuries; the core is a protected village view. Its people lived from dairy farming and shipped their milk every day by boat via Ransdorp to Amsterdam.
+
+    In the night of 13 to 14 January 1916 a heavy storm broke the Waterland sea dike in several places. All of Holysloot had to flee, down to the last resident. A second storm in February finished off buildings already damaged in January, among them the low-lying Reformed churches of Buiksloot, Nieuwendam and Holysloot. Holysloot's was a modest wooden building of 1891. Repairs would have cost too much, so the congregation built anew, in brick this time, paid for by a national collection, and about fifty metres forward on the Dorpsstraat. It opened in February 1917 with a novelty: a church telephone so that the hard of hearing could follow the sermon.
+
+    The design was by P. Slagmolen, building inspector in Zaandam: a sober brick hall church of 7.6 by 12 metres with a little corbelled spire (*arkeltorentje*) topped by a rooster in the middle of the gable. Behind it stands the former verger's house of wood. The church closed in 1996 and is now a home, so it can only be seen from the street.
+
+    The flood also ruined the small municipalities north of the IJ. Unable to pay for recovery, Ransdorp (with Holysloot) and Nieuwendam (with Zunderdorp) were absorbed into Amsterdam in 1921. The book *Nood aan den dijk* (2016) tells the story. In summer a small ferry crosses the Die at set times to the old church path towards Broek in Waterland and Zuiderwoude; it has a place of its own, Pontje Holysloot, the ring-the-bell ferry.
+
+    Look for:
+    - the corbelled spire with its weathercock rising above the low wooden houses
+    - the round-arched windows and the brick arch over the double doors
+    - the wooden former verger's house behind it
+  category: religious
+  lat: 52.413692
+  lng: 5.027977
+  address: Dorpsstraat Holysloot 37
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/71122444-1a5e-44ce-b03e-e747e69be89f" }
+    - { label: Oneindig Noord-Holland (1916 churches), url: "https://onh.nl/verhaal/kerken-door-zuiderzeewater-verwoest" }
+    - { label: Wikipedia (nl) Holysloot, url: "https://nl.wikipedia.org/wiki/Holysloot" }
+    - { label: Wikipedia (en) Holysloot, url: "https://en.wikipedia.org/wiki/Holysloot" }
+    - { label: Centrale Dorpenraad (Watersnood 1916), url: "https://www.centraledorpenraad.nl/projecten/historie-cultuur/boek-watersnoodramp-1916" }
+    - { label: Holysloot.nl (Waterlandse vloed), url: "https://holysloot.nl/waterlandse-vloed/" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200460"
+    built: 1916–1917
+    architect: P. Slagmolen
+    listed: 2001
+    original_use: Reformed (Gereformeerde) church
+  photos:
+    - commons:File:2024 Dorpsstraat Holysloot 37, Asd (A).jpg
+    - commons:File:Netherlands - Holysloot aan het Holysloter Die.jpg
+    - commons:File:2024 Holysloter Die, Asd-veer (A).jpg
+  sources:
+    - city:200460 (register text)
+    - https://onh.nl/verhaal/kerken-door-zuiderzeewater-verwoest (facts: 1891 wooden church, 1917 opening, church telephone, closed 1996)
+    - https://nl.wikipedia.org/wiki/Holysloot
+    - https://en.wikipedia.org/wiki/Holysloot
+    - https://www.noordhollandsdagblad.nl/ (Van Hoolesloot tot Holysloot: whole village fled, last resident fetched)
+    - https://www.centraledorpenraad.nl/projecten/historie-cultuur/boek-watersnoodramp-1916
+  nl:
+    title: Holysloot en de watersnood van 1916 (voormalige gereformeerde kerk)
+    summary: Toen de Zuiderzeedijk in januari 1916 bezweek, moest heel Holysloot vluchten en raakte het houten gereformeerde kerkje zwaar beschadigd. Deze stenen kerk verving het in 1917; de ramp dreef de dorpen in de armen van Amsterdam.
+    body: |
+      Holysloot bestaat uit lintbebouwing langs de Dorpsstraat. De bebouwing grenst aan de noordzijde aan de Holysloter Die, een breed water dat in verbinding staat met een aantal Dieën. Het dorp telt circa veertig boerderijen; de omvang is sinds eeuwen vrijwel constant gebleven. De gesloten agrarische gemeenschap leefde van de veeteelt voor de melkproductie. De melk werd iedere dag per schuit via Ransdorp naar Amsterdam getransporteerd. Het dorp heeft de status van beschermd dorpsgezicht.
+
+      In de nacht van 13 op 14 januari 1916 is tijdens een zware storm de Zuiderzeedijk op diverse plaatsen bezweken. Heel Holysloot moest vluchten voor het water. Bij een tweede zware stormperiode in februari legden vele gebouwen die in januari al beschadigd waren het loodje, waaronder de laaggelegen gereformeerde kerken van Buiksloot, Holysloot en Nieuwendam. Herstel van het houten bouwwerk uit 1891 in Holysloot zou kostbaar zijn en daarom besloot men tot nieuwbouw, ongeveer vijftig meter naar voren aan de Dorpsstraat. Bij de opening in februari 1917 had de kerk een nieuwigheid: een kerktelefoon, zodat ook slechthorende kerkgangers het gesproken woord konden volgen.
+
+      De kerk is gebouwd naar een tekening van P. Slagmolen, bouwkundig adviseur en opzichter van Bouw- en Woningtoezicht te Zaandam. Kenmerkend aan het eenvoudige sobere bakstenen gebouw is de traditionele indeling, geïnspireerd op kleine dorpskerken. Het zaalkerkje heeft een rechthoekig grondplan van 7,6 x 12 meter. De torenspits is in het midden van de tuitgevel opgenomen als een arkeltorentje, voorzien van een haan. De hoge bakstenen kerk heeft een belangrijke silhouetwaarde in het dorpsgezicht, gesitueerd tussen lage houten huizen. Aan de achterzijde staat de voormalige kosterswoning, een houten woonhuis. In 1996 sloot de kerk haar deuren; daarna volgde verbouwing tot woning.
+
+      De watersnood had ook gevolgen voor de noodlijdende gemeentes Nieuwendam en Ransdorp, die per 1 januari 1921 opgingen in de gemeente Amsterdam. 's Zomers vaart op bepaalde tijden een veerpont over de Holysloter Die voor fietsers en voetgangers, die via een kerkpad de weg naar Broek in Waterland en Zuiderwoude kunnen bereiken. Het pontje heeft een eigen plek: Pontje Holysloot, het veer met de bel.
+
+      Let op:
+      - het arkeltorentje met haan boven de lage houten huizen
+      - de boogvensters en de gemetselde boog boven de dubbele paneeldeuren
+      - de houten voormalige kosterswoning erachter
+    attributes:
+      built: 1916–1917
+      original_use: Gereformeerde kerk
+    sources:
+      - https://data.amsterdam.nl/monumenten/71122444-1a5e-44ce-b03e-e747e69be89f
+      - https://onh.nl/verhaal/kerken-door-zuiderzeewater-verwoest
+      - https://nl.wikipedia.org/wiki/Holysloot
+      - https://www.centraledorpenraad.nl/projecten/historie-cultuur/boek-watersnoodramp-1916
+
+- title: Holysloot village school and schoolmaster's house
+  summary: The 1875 village school of Holysloot, with the head teacher's house built on. A schoolmaster is recorded here as early as 1599; the last class left in 1979, and the schoolmaster's house is now the village café, Het Schoolhuis.
+  body: |
+    Holysloot had a schoolmaster by 1599, which may make its school one of the oldest around Amsterdam and certainly one of the smallest. Around 1800 the master was also verger, precentor, gravedigger and grocer, on 90 guilders a year.
+
+    This building was put up in 1875 as a public primary school with a house for the head teacher; a stone in the west wall records that Marritje Honingh laid the first stone on 18 October 1875. It stands on the corner of the Dorpsstraat and the Bloemendalergouw, the first building you pass on the way in. The school is a single storey with its windows facing north; the teacher's house is built across its south end under the same ridge. Both are plastered and painted white above a grey plinth, with blocked corner pilasters and carved bargeboards. In front of the house is a wrought-iron arched gate of 1880–1930.
+
+    By the late 1960s there were too few pupils to keep it going without special permission, and in 1979 the school closed; Holysloot's children now go to school in Ransdorp. The schoolroom served toddlers' groups and village clubs, and the schoolmaster's house is now the café-restaurant Het Schoolhuis, with a terrace looking towards the IJsselmeer dike.
+
+    Look for:
+    - the first stone of 1875 in the left pilaster of the west wall
+    - the three arched, twelve-pane windows of the classroom
+    - the wooden porch on posts in front of the school door
+  category: schools
+  lat: 52.413272
+  lng: 5.025776
+  address: Dorpsstraat Holysloot 38-40
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/56d5fb3e-a1bd-4a5c-9ad4-251f55b9f128" }
+    - { label: Holysloot.nl (Onderwijs), url: "https://holysloot.nl/onderwijs/" }
+    - { label: Het Schoolhuis, url: "https://schoolhuisholysloot.nl/" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200471"
+    built: "1875"
+    listed: 2002
+    original_use: Public primary school with head teacher's house
+  photos:
+    - commons:File:2024 Dorpsstraat Holysloot 38-40, Asd (A).jpg
+    - commons:File:Het Schoolhuis Holysloot.jpg
+  sources:
+    - city:200471 (register text)
+    - https://holysloot.nl/onderwijs/ (facts: 1599 schoolmaster, 1979 closure)
+    - https://schoolhuisholysloot.nl/
+  nl:
+    title: Dorpsschool met onderwijzerswoning, Holysloot
+    summary: Schoolgebouw uit 1875 met aangebouwde woning voor de hoofdonderwijzer, op de hoek van de Dorpsstraat en de Bloemendalergouw. In 1979 werd de school opgeheven; in de onderwijzerswoning zit nu café-restaurant Het Schoolhuis.
+    body: |
+      Het schoolgebouw annex onderwijzerswoning is gelegen in Holysloot, op de hoek van de Dorpsstraat en de Bloemendalergouw. Het pand is in 1875 gebouwd als school voor Gewoon Lager Onderwijs annex woning voor de hoofdonderwijzer. De gevelsteen in de westgevel herinnert aan de eerste steenlegging: 'De eerste steen gelegd / 18 oktober 1875 / door / Marritje Honingh'. Het werd gebouwd als eerste Openbare Lagere School van Holysloot, en geldt als relatief vroeg voorbeeld van een schoolgebouw in Amsterdam-Noord.
+
+      De school is ondergebracht in een rechthoekig bouwdeel van één bouwlaag onder zadeldak met vensters op het noorden. Dwars hierop aan de zuidzijde sluit de onderwijzerswoning aan, onder gelijke nok. De gevels zijn opgetrokken in baksteen en bepleisterd; boven een grijze plint zijn ze witgeschilderd. De hoeken van de gevels zijn voorzien van geblokte lisenen, de daklijsten van decoratief gesneden windveren. Aan de voorzijde van de onderwijzerswoning staat een smeedijzeren rondbooghekje uit de periode 1880-1930.
+
+      Al in een akte van 1599 wordt een schoolmeester van Holysloot genoemd. In 1979 werd de school vanwege het slinkende aantal leerlingen opgeheven; vanaf dat jaar gaan de kinderen uit Holysloot in Ransdorp naar school. In het voormalige woonhuis van de dorpsmeester is nu drink- en eetlokaal Het Schoolhuis gevestigd.
+
+      Let op:
+      - de eerste steen uit 1875 in het linker liseen van de westgevel
+      - de drie getoogde vensters met twaalfruits roedenverdeling in de noordgevel
+      - de houten veranda met geprofileerde klossen voor de schooldeur
+    attributes:
+      original_use: Openbare lagere school met onderwijzerswoning
+    sources:
+      - https://data.amsterdam.nl/monumenten/56d5fb3e-a1bd-4a5c-9ad4-251f55b9f128
+      - https://holysloot.nl/onderwijs/
+
+- title: Hay barn farm, Dorpsstraat Holysloot 12
+  summary: A farm of about 1925 in Holysloot's village street with an extra-large stolp hay barn behind its front house. Hay barn farms like this one were never unique, but few are left.
+  body: |
+    This farm stands in the village street of Holysloot, part of the protected village view. Built around 1925, it is a *hooihuis* (hay house) type: a front house and cowshed with an extra-large *stolpschuur*, a pyramid-roofed barn for the hay. In a dairy village, hay was the winter fodder that kept the herd alive, and the size of the barn shows it.
+
+    The front house has been simplified and altered but keeps some original detail, above all its finely shaped bargeboards. The cowshed and barn have been changed too, but their main forms are still clear. The front and right-hand gardens are still green; the back yard is reached from the left. The city listed it in 2021 because the type has become rare.
+
+    Look for:
+    - the carved bargeboards on the front house
+    - the oversized stolp barn behind it
+  category: housing
+  lat: 52.413585
+  lng: 5.022466
+  address: Dorpsstraat Holysloot 12
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/792e7b60-9fe3-455c-86ad-e88422ed9453" }
+    - { label: Wikipedia (nl) Holysloot, url: "https://nl.wikipedia.org/wiki/Holysloot" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200934"
+    built: c. 1925
+    listed: 2021
+    original_use: Dairy farm with hay barn
+  photos:
+    - commons:File:2024 Dorpsstraat Holysloot 12, Asd (A).jpg
+  sources:
+    - city:200934 (register text)
+  nl:
+    title: Hooihuisboerderij, Dorpsstraat Holysloot 12
+    summary: Boerderij van het hooihuistype uit circa 1925 in het dorpslint van Holysloot, met een extra grote stolpschuur achter het voorhuis.
+    body: |
+      Dorpsstraat 12 Holysloot is een boerderij bestaande uit een voorhuis met stal en een extra grote hooischuur (stolpschuur) en daarmee een bijzonder voorbeeld van een boerderij van het hooihuistype uit circa 1925. Het versoberde en gewijzigde voorhuis bezit nog enige detaillering uit de bouwtijd; met name de fraai gedetailleerde windveren vormen opmerkelijke onderdelen.
+
+      Het pand is van stedenbouwkundige waarde vanwege de beeldbepalende ligging in het dorpslint van Holysloot. De voor- en rechtertuin zijn begroeid gebleven; de toegang tot het achtererf ligt aan de linkerzijde. Het woongedeelte is redelijk gaaf bewaard gebleven, de stal en de stolpschuur zijn op hoofdvorm nog herkenbaar. De typologie als hooihuis is niet uniek, maar kan inmiddels wel enige zeldzaamheid worden toegeschreven.
+
+      Let op:
+      - de fraai gedetailleerde windveren van het voorhuis
+      - de extra grote stolpschuur erachter
+    attributes:
+      built: ca. 1925
+      original_use: Melkveeboerderij met hooischuur
+    sources:
+      - https://data.amsterdam.nl/monumenten/792e7b60-9fe3-455c-86ad-e88422ed9453

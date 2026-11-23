@@ -1,0 +1,906 @@
+# Osdorp (De Punt, Osdorp-Midden, Osdorp-Oost, Lutkemeer/Ookmeer): every record in
+# slices/osdorp.json, merged into 16 places (see notes/osdorp.md). Dutch texts are spliced
+# from the Dutch sources listed per place (city register texts, national register,
+# nl.wikipedia, amsterdam.nl, slotenoudosdorp.nl, amsterdamopdekaart.nl).
+
+# ================================================================ Tuinstad Osdorp
+
+- title: Hangbrugmaisonettes (Kloosflat)
+  summary: J.P. Kloos ended the long Tussen Meer with a block of maisonettes reached by glazed steel 'hanging bridges' slung off the facade, one per four floors, where four front doors meet. A rare intact work by a modernist who never compromised.
+  body: |
+    The 1935 expansion plan wanted a broad green strip between north and south Osdorp. It never came; Tussen Meer became a wide city street instead, and in 1962 tram 17 got its terminus at its western end, the Dijkgraafplein, then still an empty field. That year a competition for experimental housing was held to finish the square, and J.P. Kloos (1905–2001) won it. The complex, completed in 1970, has 232 maisonettes and 15 flats in a 13-storey slab on the axis of Tussen Meer and three lower blocks.
+
+    The trick is the access. Instead of a gallery on every floor, a covered, glazed steel walkway hangs a little away from the facade on every fourth floor; from it, short stairs go up and down to four front doors. Neighbours meet on the bridge, and nobody walks past your kitchen window. Kloos, a lifelong believer in strict Nieuwe Zakelijkheid (functionalism), barely changed his drawing style in thirty years. His other Amsterdam housing has been heavily renovated, which makes this the rare intact example. The city register adds that without Kloos the Dijkgraafplein would be little more than a tram loop.
+
+    Look for:
+    - the glazed hanging bridges with their little stairs up and down
+    - the skybridge over the Akerwateringstraat between the slab and the western block
+    - the white lift shaft and emergency stair on the north side
+    - the very different south side, all balconies
+  category: housing
+  lat: 52.355269
+  lng: 4.785338
+  address: Dijkgraafplein 1-409, Meentstraat 2-66, Akerwateringstraat 1
+  links:
+    - { label: Monumentenregister Amsterdam (200791), url: "https://data.amsterdam.nl/monumenten/b2924993-5ba9-42f3-bf70-271139108f39" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Hangbrugmaisonettes" }
+    - { label: Arcam, url: "https://arcam.nl/architectuur-gids/hangbrugmaisonettes/" }
+    - { label: "Wikipedia (nl), Dijkgraafplein", url: "https://nl.wikipedia.org/wiki/Dijkgraafplein" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200791"
+    built: "1970"
+    architect: J.P. Kloos
+    listed: 2015
+    original_use: Maisonettes, flats and shops
+  photos:
+    - commons:File:Amsterdam Dijkgraafplein Hangbrugmaisonnettes 20110424.jpg
+    - commons:File:Dijkgraafplein, hoogbouwflat1.jpg
+    - commons:File:Hangbrugmaisonettes - Q40165907 - 1.jpg
+  sources:
+    - city:200791 (register text)
+    - https://nl.wikipedia.org/wiki/Hangbrugmaisonettes
+    - https://nl.wikipedia.org/wiki/Dijkgraafplein
+    - https://arcam.nl/architectuur-gids/hangbrugmaisonettes/
+  nl:
+    title: Hangbrugmaisonettes (Kloosflat)
+    summary: Het woningcomplex van J.P. Kloos aan het Dijkgraafplein (1970), met hangbruggen die als loopbruggen aan de gevel hangen. Een zeldzaam gaaf complex woningen van een vooraanstaande Nederlandse architect.
+    body: |
+      De brede groenstrook die het AUP aangaf als scheiding tussen het zuidelijk en het noordelijk deel van Osdorp is nooit gerealiseerd. In plaats daarvan ontstond een brede stadsstraat: Tussen Meer. Deze eindigt aan de westzijde op het Dijkgraafplein, sinds 1962 het eindpunt van tramlijn 17. Als afronding van het plein vond in 1962 een prijsvraag voor experimentele woningbouw plaats. Uiteindelijk werd gekozen voor het ontwerp van J.P. Kloos: een woningcomplex van 232 maisonnettes en 15 flatwoningen, met drie stroken middelhoogbouw en een blok hoogbouw in de as van Tussen Meer.
+
+      De twee bovenste lagen worden ontsloten door een afgedekte en beglaasde stalen galerij die aan de gevel hangt, zodat door middel van een trapje op en een trapje af telkens vier voordeuren bereikt kunnen worden. Deze galerij, eigenlijk een luchtbrug, is sterk beeldbepalend. Men kon op de galerij niet direct in de woning kijken; het verlies aan uitzicht werd voor lief genomen. J.P. Kloos (1905-2001) bleef altijd trouw aan de beginselen van de Nieuwe Zakelijkheid. Zijn woningbouw in Slotermeer is ingrijpend gerenoveerd; Dijkgraafplein 1-409 vormt zodoende een zeldzaam gaaf complex. Zo heeft Tussen Meer toch nog een waardige beëindiging gekregen, terwijl het Dijkgraafplein zonder Kloos niet veel meer dan een tramlus zou zijn.
+
+      Let op:
+      - de beglaasde hangbruggen met hun trapjes op en af
+      - de luchtbrug over de Akerwateringstraat
+      - de witgeschilderde liftschacht en het noodtrappenhuis aan de noordzijde
+      - de geheel andere zuidgevel, waar de balkons domineren
+    attributes:
+      original_use: Maisonnettes, flatwoningen en winkels
+    sources:
+      - https://data.amsterdam.nl/monumenten/b2924993-5ba9-42f3-bf70-271139108f39
+      - https://nl.wikipedia.org/wiki/Hangbrugmaisonettes
+      - https://arcam.nl/architectuur-gids/hangbrugmaisonettes/
+
+- title: Sint-Lucaskerk (Ikeda Centrum)
+  summary: "A closed brick box with a glass ridge, built in 1963–1965 so the light, not the decoration, would make the church: a Catholic experiment ahead of the Second Vatican Council. Since 2020 a Buddhist centre."
+  body: |
+    Osdorp was planned on a strict grid, and its three main churches were each given a set spot on the west side of the Hoekenesgracht, where the main roads cross it. The Lucaskerk by Th. Nix and Th. Taen took the Osdorper Ban crossing. Building started in November 1963 and the church was consecrated in May 1965.
+
+    The plan reflects the 1950s Catholic debate about bringing the faithful closer to the altar. The long walls are almost blind bands of red and yellow brick; the roof tips up at both ends and a triangular glass rooflight runs over the middle. Inside, a route from the bright porch through a low gallery behind a screen of white columns slowly reveals the hall, where the choir and priests originally faced each other under the rooflight with the font between them. The church was even turned north-south to catch east and west light. Hubert van Lith's sculpture *Het Bruidspaar* (The Bridal Couple, 1976) was added on the facade.
+
+    The last Mass was said in May 2019. In 2020 the Buddhist organisation SGI Nederland bought the complex and, after a rebuild, opened it as the *Ikeda Centrum voor Vriendschap en Vrede* in 2022.
+
+    Look for:
+    - the striped red-and-yellow south wall on the Osdorper Ban
+    - the copper-clad sides of the glass ridge
+    - the free-standing white concrete bell tower beside the entrance
+  category: religious
+  lat: 52.361608
+  lng: 4.795574
+  address: Osdorper Ban 130-132
+  links:
+    - { label: Monumentenregister Amsterdam (200891), url: "https://data.amsterdam.nl/monumenten/384eb846-be1d-4831-82b1-05b923c044da" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Sint-Lucaskerk_(Osdorp)" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200891"
+    built: 1963–1965
+    architect: Th. Nix and Th. Taen
+    listed: 2017
+    original_use: Catholic church with presbytery
+  photos:
+    - commons:File:Sint-Lucaskerk (Osdorp).jpg
+    - commons:File:Lucaskerk, Amsterdam.jpg
+  sources:
+    - city:200891 (register text)
+    - https://nl.wikipedia.org/wiki/Sint-Lucaskerk_(Osdorp)
+  nl:
+    title: Sint-Lucaskerk (Ikeda Centrum)
+    summary: De Sint-Lucaskerk van Th. Nix en Th. Taen (1963-1965), een sprekende illustratie van de liturgische vernieuwing van vóór het Tweede Vaticaans Concilie, waarin het licht de ruimte maakt. Sinds 2020 een boeddhistisch centrum.
+    body: |
+      In Osdorp kregen de drie hoofdkerken een plaats toegewezen die door het stedenbouwkundig stramien was bepaald: aan de westzijde van de Hoekenesgracht, bij de kruisingen met de hoofdwegen. Op 4 november 1963 startte de bouw van het kerkgebouw van architect Th. Nix aan de Osdorper Ban; precies een jaar na de eerstesteenlegging, in mei 1965, vond de consecratie plaats.
+
+      Het kerkgebouw bestaat uit een grote rechthoekige zaal van rondom vrijwel gesloten metselwerk. Het dak wipt aan oost- en westzijde op en in het centrum is een driehoekig bovenlicht gemaakt. De vormgeving van het licht is een belangrijk thema: de route vanaf het voorplein via het voorportaal en de galerij laat een afwisseling van ruimtelijke indrukken zien, waarbij de kerkruimte zich bij het passeren van de kolommen langzaam openbaart. Hoe belangrijk de lichtinval voor de architect was, bewijst de ongebruikelijke noord-zuid oriëntatie van de kerk. Priesterkoor en zangkoor stonden tegenover elkaar, met het doopvont daartussen. Aan de gevel werd het kunstwerk 'Het Bruidspaar' van Hubert van Lith (1976) geplaatst.
+
+      Op 26 mei 2019 werd het kerkgebouw in een laatste mis buiten gebruik gesteld. In maart 2020 is het complex verkocht aan de boeddhistische organisatie SGI Nederland, die het als 'Ikeda Centrum voor Vriendschap en Vrede' gebruikt; het gehele complex is in juni 2022 ingehuldigd.
+
+      Let op:
+      - de gesloten zuidgevel met om en om vijf lagen rood en vijf lagen geel metselwerk
+      - de met koper beklede zijkanten van het bovenlicht
+      - de wit geverfde betonnen klokkentoren, los van het gebouw
+    attributes:
+      original_use: Rooms-katholieke kerk met pastorie
+    sources:
+      - https://data.amsterdam.nl/monumenten/384eb846-be1d-4831-82b1-05b923c044da
+      - https://nl.wikipedia.org/wiki/Sint-Lucaskerk_(Osdorp)
+
+- title: Pauluskerk
+  summary: A tent of brick, concrete and wood on the Pieter Calandlaan (1966–1967), where a skylight in the cone-shaped roof lights the altar. Until 1977 it doubled as Osdorp's theatre; today it is the last regular Catholic church in Nieuw-West.
+  body: |
+    Plans for a second Catholic church in Osdorp date from 1961; Jos van Leeuwen's building went up in 1966–1967, right after the Second Vatican Council, and was laid out to draw the congregation into the service. Sixteen trusses carry a cone-shaped roof, so the hall reads as a tent, and a light dome above the altar gives it its particular light. It first seated a thousand people.
+
+    It was never just a church. Until 1977, when Osdorp had no theatre of its own, the hall was also used for performances, and it formed one cluster with the parish hall, presbytery and the Catholic schools behind it. The church faces the square on the Koos Vorrinkweg rather than the busy street, but stands out from the Pieter Calandlaan because open space flanks it on both sides: the square on one, the Hoekenesgracht on the other.
+
+    When the Nieuw-West parishes merged into De Vier Evangelisten in 2020, the renovated Pauluskerk became their main church, and it is now the only one in the district with regular services. A Polish parish uses it too.
+
+    Look for:
+    - the cone of the roof seen from the Hoekenesgracht
+    - the main entrance on the square, with the tower above it
+    - the careful mix of brick, concrete and timber
+  category: religious
+  lat: 52.352440
+  lng: 4.800892
+  address: Pieter Calandlaan 194-196
+  links:
+    - { label: Monumentenregister Amsterdam (200945), url: "https://data.amsterdam.nl/monumenten/ee16e23f-cb1a-423c-84b7-1d84c408ac2a" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Pauluskerk_(Amsterdam)" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1966-1990/Pieter_Calandlaan/Pauluskerk" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200945"
+    built: 1966–1967
+    architect: J.J. (Jos) van Leeuwen
+    listed: 2022
+    original_use: Catholic church, also used as a theatre
+  photos:
+    - commons:File:Pauluskerk (Osdorp).jpg
+  sources:
+    - city:200945 (register text)
+    - https://nl.wikipedia.org/wiki/Pauluskerk_(Amsterdam)
+    - https://amsterdamopdekaart.nl/1966-1990/Pieter_Calandlaan/Pauluskerk
+  nl:
+    title: Pauluskerk
+    summary: De Sint-Pauluskerk (1966-1967) van ir. J.J. (Jos) van Leeuwen, een rooms-katholieke kerk van na het Tweede Vaticaans Concilie in de vorm van een tent, die tot 1977 ook als theater werd gebruikt.
+    body: |
+      De eerste plannen voor de Pauluskerk dateerden uit 1961, kort na de start van de bouw van de Tuinstad Osdorp. De Sint-Pauluskerk aan de Pieter Calandlaan 194-196 is in 1966-1967 gebouwd naar ontwerp van ir. J.J. (Jos) van Leeuwen. Het gebouw is een voorbeeld van een rooms-katholieke kerk van ná het Tweede Vaticaans Concilie, ruimtelijk opgezet met het oog op het betrekken van de gelovige bij de dienst. De kerk is gebouwd in de vorm van een tent, hetgeen geaccentueerd wordt door de 16 spanten, welke het kegelvormige dak dragen. Boven het altaar, in het tentdak, zit een lichtkoepel, die voor een bijzondere lichtval zorgt. Er waren aanvankelijk duizend zitplaatsen.
+
+      Het gebouw had bovendien een multifunctionele opzet, omdat het tot 1977 ook als theater werd gebruikt, en maakte deel uit van het voorzieningencluster van de parochie. De kerk is niet naar de Pieter Calandlaan gericht maar wel naar de Koos Vorrinkweg, naar het plein waar de hoofdentree zich bevindt. Vanuit de Pieter Calandlaan gezien is de kerk prominent aanwezig omdat deze door onbebouwde ruimtes wordt geflankeerd: het plein aan de ene zijde en de Hoekenesgracht aan de andere zijde.
+
+      Sinds de fusie tot de parochie De Vier Evangelisten (2020) is de gerenoveerde Pauluskerk de hoofdkerk en nog als enige regelmatig in gebruik. Ook de Poolse parochie van de Heilige Geest kerkt hier.
+
+      Let op:
+      - het kegelvormige tentdak, gezien vanaf de Hoekenesgracht
+      - de hoofdentree aan het plein, met de toren erboven
+      - het zorgvuldig afgewogen materiaalgebruik van baksteen, beton en hout
+    attributes:
+      architect: J.J. (Jos) van Leeuwen
+      original_use: Rooms-katholieke kerk, tevens theater
+    sources:
+      - https://data.amsterdam.nl/monumenten/ee16e23f-cb1a-423c-84b7-1d84c408ac2a
+      - https://nl.wikipedia.org/wiki/Pauluskerk_(Amsterdam)
+      - https://amsterdamopdekaart.nl/1966-1990/Pieter_Calandlaan/Pauluskerk
+
+- title: Salomonson shopping square, Pieter Calandlaan
+  summary: An open corner instead of a street corner. Hein Salomonson's little early-1960s shopping square, with low shop blocks, kiosks under a timber-lined canopy and a paving grid, is the last near-intact one of four such squares in Amsterdam.
+  body: |
+    Modernist planners hated closed street walls, and this square at Pieter Calandlaan and Meer en Vaart shows the alternative. Instead of building the corner, Hein Salomonson (one of the leading Dutch modernists of the 1950s and 60s, best known for his villas) left it open: two low strips of shops with flats above, set at right angles and loosely linked, frame a small square. Four small pavilions joined by a canopy, plus a fifth on the street line, complete the composition. The idea goes back to Cornelis van Eesteren's 1925 competition entry for Unter den Linden in Berlin; the Lijnbaan in Rotterdam is the famous cousin.
+
+    Amsterdam had three siblings: the Gelderlandplein (modernised beyond recognition), the Confuciusplein and Plein '40-'45 (both largely lost). The flats sit back from the shopfronts and have terraces on the shop roofs. The shopfronts have weathered better than the partly wooden upper floors. The register sums it up: here the modern city is scaled down by a master hand to a size where people feel at home.
+
+    Look for:
+    - the canopy linking shops and kiosks, its underside lined with varnished Oregon pine
+    - the clerestory windows above the canopy, some with their horizontal glazing bars
+    - the 30 x 30 cm paving, once divided into four fields by black bands
+  category: housing
+  lat: 52.354624
+  lng: 4.811784
+  address: Pieter Calandlaan 88-148, Louis Schottingstraat 1-61, C.K. Eloutstraat 4-38
+  links:
+    - { label: Monumentenregister Amsterdam (200793), url: "https://data.amsterdam.nl/monumenten/24326c19-1d57-4fd1-a61c-4db322d73be1" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/wederopbouw/Pieter_Calandlaan/88-148" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200793"
+    built: c. 1962
+    architect: Hein Salomonson
+    listed: 2015
+    original_use: Shops with flats above
+  photos:
+    - commons:File:Winkels met bovenwoningen, Pieter Calandlaan 88-148, Amsterdam Nieuw-West, Osdorp.jpg
+  sources:
+    - city:200793 (register text)
+    - https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Nieuw-West
+  nl:
+    title: Winkelplein Salomonson, Pieter Calandlaan
+    summary: Het winkelcentrum van Hein Salomonson op de hoek van de Calandlaan en Meer en Vaart, een karakteristiek modernistische configuratie van losse volumes rond een pleintje, dat redelijk goed bewaard is gebleven.
+    body: |
+      Het winkelcentrum is gesitueerd op de hoek van de Calandlaan en Meer en Vaart in Osdorp. Het bestaat uit twee blokjes met winkels en bovenwoningen, haaks op elkaar staande en losjes geschakeld, die een pleintje omsluiten. Vier kleine paviljoens, onderling verbonden door een luifel, en een vijfde paviljoen in de rooilijn van de Calandlaan completeren het beeld. Het oermodel voor een dergelijke opbouw is in 1925 door Van Eesteren getekend als prijsvraaginzending voor Unter den Linden in Berlijn; het bekendste naoorlogse voorbeeld is de Lijnbaan in Rotterdam.
+
+      Het winkelcentrum had in Amsterdam drie broertjes: het Gelderlandplein in Buitenveldert, het Confuciusplein en het Plein 40-45 in Slotermeer. Het Gelderlandplein is onherkenbaar gemoderniseerd, van het Confuciusplein resteert alleen de galerijflat op winkels van A. Bodon, en de compositie rond Plein 40-45 is verstoord door nieuwbouw. Straatwanden en straathoeken waren taboe in de modernistische stedenbouw; de hoek is hier onbebouwd en het pleintje vormt juist een extra dimensie in de stedelijke ruimte. Hein Salomonson behoort tot de top tien van architecten die gestalte hebben gegeven aan het Nederlandse modernisme. Voor de winkelende bewoners van Osdorp is de moderne stad hier met meesterhand verkleind tot een schaal waarin de menselijke figuur tot haar recht komt.
+
+      Let op:
+      - de luifel tussen winkels en paviljoens, aan de onderzijde afgewerkt met blank gelakte latjes van oregon-pine
+      - de vensterstroken boven de luifel, hier en daar nog met horizontale roedenverdeling
+      - de betegeling van 30x30 betontegels, ooit door twee brede zwarte banen in vier vlakken verdeeld
+    attributes:
+      original_use: Winkels met bovenwoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/24326c19-1d57-4fd1-a61c-4db322d73be1
+
+- title: Garage Notweg
+  summary: A 1960s Fina garage with petrol station and showroom, where DAFs, Volvos, Opels and Renaults were sold. The car ramp, tilting doors, flagpoles and 'Fina' manhole covers are still there; the building is now a creative hub.
+  body: |
+    The Belgian oil company Purfina had this garage built in 1961–1965 to a design by H.A.M. van den Berg: quick service, petrol pumps, a showroom, a warehouse and offices, at the head of the Notweg opposite a strip of park. It was part of a cluster of local facilities, with schools and shops, and is a reminder of how planners of the time gave the car a place inside the neighbourhood. Van den Berg built a similar garage on the Johan Huizingalaan.
+
+    The showroom sold DAFs, first through the dealer Minerva and from 1972 by the factory itself, which ran it as a used-car centre. After DAF sold its car business to Volvo in 1974, Volvos stood here until 1981; then came the Riva garage (Opel and Bedford), and finally Renault. In 2006 housing corporation Ymere bought it to replace it with housing, but it became a business centre instead, renovated by 2013. Since 2009 it has worked as a *broedplaats* (creative incubator) for small and social enterprises.
+
+    Look for:
+    - the precast concrete window grids on the front and back
+    - the decorative brickwork in the side walls
+    - the original tilting doors and flagpoles
+    - the 'Fina' manhole cover in the pavement
+  category: industrial
+  lat: 52.362965
+  lng: 4.801034
+  address: Notweg 38
+  links:
+    - { label: Monumentenregister Amsterdam (200969), url: "https://data.amsterdam.nl/monumenten/4b9c1b90-94c1-4e6e-b2df-9fccb6ff8531" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/wederopbouw/Notweg/38" }
+    - { label: Arcam, url: "https://arcam.nl/architectuur-gids/garage-notweg/" }
+    - { label: "Wikipedia (nl), Notweg", url: "https://nl.wikipedia.org/wiki/Notweg_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200969"
+    built: 1961–1965
+    architect: H.A.M. van den Berg
+    listed: 2022
+    original_use: Garage, petrol station and showroom
+  sources:
+    - city:200969 (register text)
+    - https://amsterdamopdekaart.nl/wederopbouw/Notweg/38
+    - https://nl.wikipedia.org/wiki/Notweg_(Amsterdam)
+  nl:
+    title: Garage Notweg
+    summary: Het voormalig garagegebouw met tankstation aan de Notweg 38, ontworpen door H.A.M. van den Berg voor de oliemaatschappij Fina (1961-1965), met kanteldeuren, vlaggenmasten en 'Fina'-putdeksel. Sinds 2009 een broedplaats.
+    body: |
+      Het door de architect H.A.M. van den Berg voor de oliemaatschappij Fina ontworpen voormalig garagegebouw met tankstation aan de Notweg 38, ontworpen in 1961 en opgeleverd in 1965, is een representatief voorbeeld van een garagebedrijf uit de vroege jaren zestig. Het was een garage met quick-service, benzinestation, showroom, magazijn en kantoren. Het gebouw is illustratief voor de snel groeiende automobiliteit in Amsterdam in de wederopbouwperiode, en maakte oorspronkelijk deel uit van een groter voorzieningencluster, waartoe ook scholen en winkels behoorden.
+
+      In de showroom werden DAF's verkocht, eerst door de firma Minerva, maar vanaf 1972 door de fabrikant zelf. Nadat DAF in 1974 de personenautotak had verkocht aan Volvo, werden hier ook Volvo's getoond. Volgende gebruiker was het garagebedrijf Riva, dealer van Opel en Bedford; het laatste automerk dat hier verkocht werd was Renault. In 2006 werd het pand gekocht door woningcorporatie Ymere, die het wilde vervangen door woningbouw. Zover kwam het niet: het werd een bedrijfsverzamelgebouw en sinds 2009 een broedplaats voor creatieve bedrijfjes. In het interieur herinnert alleen de hellingbaan voor de auto's nog aan de oorspronkelijke functie.
+
+      Let op:
+      - de schokbetonnen puirasters aan de voor- en achterzijde
+      - het siermetselwerk in de zijgevels
+      - de kanteldeuren en de vlaggenmasten
+      - het 'Fina'-putdeksel in het trottoir
+    attributes:
+      original_use: Garage, benzinestation en showroom
+    sources:
+      - https://data.amsterdam.nl/monumenten/4b9c1b90-94c1-4e6e-b2df-9fccb6ff8531
+      - https://amsterdamopdekaart.nl/wederopbouw/Notweg/38
+      - https://nl.wikipedia.org/wiki/Notweg_(Amsterdam)
+
+- title: Former Heimansschool (Lucasschool), Notweg 32
+  summary: "A prefab 'half H-school' of 1959: when The Hague cut school budgets in 1957, Amsterdam built seven of these classroom blocks without the planned hall and gym wing. This is the only one left in its original form."
+  body: |
+    After the war Amsterdam developed the H-school: a block of twelve corridor-free classrooms linked by two glazed corridors to a wing with a gym, hall and craft rooms. The original plan for this part of Osdorp had one drawn here. In August 1957 national budget cuts made it impossible, and Publieke Werken (with the Hague firm A.N. & N. Schippers) designed seven cheap prefab schools instead, built in 1958–1961: in effect half an H-school, only the classroom block, in the hope of adding the rest in better times. The gym came; the hall never did, and the gym here has since been demolished. Of the seven, five have been demolished and one rebuilt beyond recognition.
+
+    Notweg 32 opened in 1959 as the Heimansschool, a public primary school. Three stairwells each served four classrooms, with no corridors at all. Later it housed an adult school and from about 1990 to 2011 the Catholic St. Lukas primary school. In 2012 a camp of rejected asylum seekers stood on the former schoolyard until the mayor ended it. Housing association Stadgenoot converted it in 2022–2023 into thirty flats for young people, with community rooms on the ground floor.
+
+    Look for:
+    - the three projecting concrete stairwells on the south side
+    - the fully glazed stairwells on the north side, single glass set straight into a slim concrete grid
+    - the blind end walls of narrow vertical concrete elements
+  category: schools
+  lat: 52.363647
+  lng: 4.800671
+  address: Notweg 32
+  links:
+    - { label: Monumentenregister Amsterdam (200786), url: "https://data.amsterdam.nl/monumenten/d4eda5d9-50e1-4732-9326-2903f4124e76" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/wederopbouw/Notweg/32" }
+    - { label: "Wikipedia (nl), Notweg", url: "https://nl.wikipedia.org/wiki/Notweg_(Amsterdam)" }
+    - { label: De Westkrant (16 Mar 2022), url: "https://www.dewestkrant.nl/30-jongerenwoningen-in-voormalige-lukasschool-nieuw-west/" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200786"
+    built: "1959"
+    architect: Publieke Werken (B.J. Odink) with A.N. & N. Schippers
+    listed: 2015
+    original_use: Public primary school
+  photos:
+    - commons:File:Sint Lucasschool, Notweg 32, Amsterdam Nieuw-West, Osdorp.jpg
+  sources:
+    - city:200786 (register text)
+    - https://amsterdamopdekaart.nl/wederopbouw/Notweg/32
+    - https://nl.wikipedia.org/wiki/Notweg_(Amsterdam)
+    - https://www.dewestkrant.nl/30-jongerenwoningen-in-voormalige-lukasschool-nieuw-west/ (search snippet)
+  nl:
+    title: Voormalige Heimansschool (Lucasschool), Notweg 32
+    summary: Een prefab, gangloze 14-klassige school uit 1959, in feite een gehalveerde H-school na de Haagse bezuinigingen van 1957. Van de zeven prefab scholen is alleen deze gaaf bewaard gebleven.
+    body: |
+      Op de oorspronkelijke plankaart voor dit deel van Osdorp is nog een klassieke H-school ingetekend. De H-school was na de oorlog een bijna revolutionair nieuw type voor het lager onderwijs: een gangloos blok van 12 klaslokalen en een parallelle vleugel met gymzaal, schoolzaal en vaklokalen, verbonden door twee beglaasde gangen. De bouw van dit bijna ideale schooltype werd in augustus 1957 onmogelijk gemaakt door Haagse bezuinigingen. Zo moest de Dienst der Publieke Werken noodgedwongen een reeks van zeven goedkope prefab scholen ontwerpen die tussen 1958 en 1961 gebouwd werd: in feite een gehalveerde H-school, alleen bestaande uit het blok met klaslokalen. Van de zeven prefab scholen zijn er vijf gesloopt en een is onherkenbaar verbouwd.
+
+      Het gebouw werd gebouwd voor een openbare lagere school, de Heimansschool. Aan elk van de drie trappenhuizen lagen vier klaslokalen; er waren geen corridors. Na de opheffing van de Heimansschool was hier een vestiging van de Joke Smitschool en daarna de r.-k. basisschool St. Lukas, die in 2011 verhuisde. In 2022 begon een renovatie en verbouwing: er kwamen dertig jongerenwoningen op de verdiepingen en ruimtes voor maatschappelijke organisaties op de begane grond.
+
+      Let op:
+      - de drie uitspringende betonnen trappenhuizen aan de zuidzijde
+      - de vrijwel geheel beglaasde trappenhuizen aan de noordzijde, met enkel glas zonder kozijnen in een rank betonnen raster
+      - de blinde kopgevels van smalle verticale betonnen elementen
+    attributes:
+      architect: Publieke Werken (B.J. Odink) met A.N. & N. Schippers
+      original_use: Openbare lagere school
+    sources:
+      - https://data.amsterdam.nl/monumenten/d4eda5d9-50e1-4732-9326-2903f4124e76
+      - https://amsterdamopdekaart.nl/wederopbouw/Notweg/32
+      - https://nl.wikipedia.org/wiki/Notweg_(Amsterdam)
+
+- title: Slebos and Sterenberg bridges, Christoffel Plantijngracht
+  summary: Three slender 1960s footbridges over the canal linking the Sloterplas to the Slotervaart, their decks cantilevered in prestressed concrete. Two have white concrete and blue railings by Dick Slebos; all three now carry names.
+  body: |
+    The Christoffel Plantijngracht runs from the Sloterplas through the Piet Wiedijkpark to the Slotervaart, a green-and-water corridor between the housing on both banks. Publieke Werken's bridge department gave it a set of modern pedestrian and cycle bridges whose prestressed concrete decks cantilever out from the banks, which made them unusually thin and light.
+
+    Brug 716 (1961) and Brug 721 (1966) are by Dick Slebos, who designed the structures along the Christoffel Plantijnpad: white fair-faced concrete with blue railings; on 721 the railing uprights are clamped around the deck edge. Brug 716 forms an ensemble with Slebos's nearby Piet Römerbrug (brug 711). Brug 676 (1963–1964), to the north where the canal bends towards the Sloterplas, is by his colleague Dirk Sterenberg and pairs with Brug 675 across the bend.
+
+    Like most Amsterdam bridges they were long known only by number. Brug 676 became the Karel van het Revebrug in 2017, Brug 716 the Hans Kressebrug (after the comic artist) in 2023, and Brug 721 the Mance Postbrug in December 2025, after the children's book illustrator and resistance member.
+
+    Look for:
+    - the thin cantilevered deck edges seen from the bank
+    - the blue railings of 716 and 721, and the little fence sections set across them on the banks
+    - the view along the bend from 676 to Brug 675
+  category: infrastructure
+  lat: 52.353962
+  lng: 4.819252
+  address: Christoffel Plantijngracht, Piet Wiedijkpark and Sloterpark
+  links:
+    - { label: Monumentenregister Amsterdam (200935), url: "https://data.amsterdam.nl/monumenten/084a62d4-da60-4a7b-b3d1-c10b0820cdde" }
+    - { label: Monumentenregister Amsterdam (200931), url: "https://data.amsterdam.nl/monumenten/03f1f6ec-c909-4d29-bc52-4a9f97b7d22d" }
+    - { label: Monumentenregister Amsterdam (200930), url: "https://data.amsterdam.nl/monumenten/589749f2-9b46-48c2-b4eb-490a254533d4" }
+    - { label: "Wikipedia (nl), Brug 721", url: "https://nl.wikipedia.org/wiki/Brug_721" }
+    - { label: "Wikipedia (nl), Brug 716", url: "https://nl.wikipedia.org/wiki/Hans_Kressebrug_(Amsterdam)" }
+    - { label: "Wikipedia (nl), Brug 676", url: "https://nl.wikipedia.org/wiki/Karel_van_het_Revebrug" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200931, 200935, 200930
+    built: 1961–1966
+    architect: Dick Slebos (716, 721), Dirk Sterenberg (676)
+    listed: 2021
+    original_use: Footbridges
+  photos:
+    - commons:File:Brug 721, overzicht.jpg
+    - commons:File:Brug 716, overzicht.jpg
+    - commons:File:Brug 676, overzicht.jpg
+  sources:
+    - city:200931, 200935, 200930 (register texts)
+    - https://nl.wikipedia.org/wiki/Brug_721
+    - https://nl.wikipedia.org/wiki/Hans_Kressebrug_(Amsterdam)
+    - https://nl.wikipedia.org/wiki/Karel_van_het_Revebrug
+    - https://nl.wikipedia.org/wiki/Mance_Post
+  nl:
+    title: Bruggen van Slebos en Sterenberg, Christoffel Plantijngracht
+    summary: Drie ranke bruggen uit de jaren zestig over de Christoffel Plantijngracht, met een uitkragend dek in voorgespannen beton. Brug 716 en 721 zijn van Dick Slebos, brug 676 van Dirk Sterenberg.
+    body: |
+      De Christoffel Plantijngracht in het Piet Wiedijkpark is een groenwaterstructuur die het Sloterpark met de Slotervaart verbindt. In het park fungeren de bruggen als belangrijke schakel tussen het groen en de flankerende woonwijken. Ze zijn van bouwhistorische waarde vanwege de constructie met een uitkragend dek in voorgespannen beton, die de ranke, elegante verschijningsvorm mogelijk maakte.
+
+      Brug 716 (1961) en brug 721 (1966) zijn sprekende voorbeelden van modern en functionalistisch ontworpen bruggen, in een vormentaal die kenmerkend is voor het oeuvre van de architect Dic. Slebos van de afdeling Bruggen van de Dienst der Publieke Werken. Ze werden uitgevoerd in wit schoonbeton met blauwe brugleuningen; opmerkelijk zijn de leuningen, waarvan de staanders om het brugdek gemonteerd zijn. Brug 716 vormt met de nabijgelegen brug 711 een ensemble. Brug 676 (1963-1964) is van Dirk L. Sterenberg en vormt met brug 675 een ensemble, vanwege de markante ligging in een bocht van de Christoffel Plantijngracht met een zichtlijn op brug 675.
+
+      Brug 676 heet sinds 2017 de Karel van het Revebrug, brug 716 sinds 2023 de Hans Kressebrug, naar de striptekenaar, en brug 721 sinds 3 december 2025 de Mance Postbrug, met een plakkaat met het onderschrift "Illustrator van kinderboeken en verzetsvrouw".
+
+      Let op:
+      - de dunne randen van de uitkragende brugdekken, gezien vanaf de oever
+      - de blauwe leuningen van 716 en 721 en de hekwerkjes dwars daarop op de walkanten
+      - de zichtlijn vanaf brug 676 op brug 675
+    attributes:
+      architect: Dick Slebos (716, 721), Dirk Sterenberg (676)
+      original_use: Voet- en fietsbruggen
+    sources:
+      - https://data.amsterdam.nl/monumenten/084a62d4-da60-4a7b-b3d1-c10b0820cdde
+      - https://nl.wikipedia.org/wiki/Brug_721
+      - https://nl.wikipedia.org/wiki/Hans_Kressebrug_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Karel_van_het_Revebrug
+      - https://nl.wikipedia.org/wiki/Mance_Post
+
+# ================================================================ Sportpark Ookmeer
+
+- title: Poort van Constant
+  summary: "A 13-metre tangle of six kinked concrete pylons you can drive, cycle and walk through: Constant's 1963 gate to Sportpark Ookmeer, a rare built fragment of his utopian New Babylon. Locals once called it the 'gekke toren' (crazy tower)."
+  body: |
+    In 1962 Publieke Werken asked Constant Nieuwenhuys (1920–2005), co-founder of CoBrA, to design "a kind of gate" for the main entrance of the new Sportpark Ookmeer: a sign visible from afar that would mark the way in. Constant called it *Plastisch teken* (plastic sign) and saw it as a resting point between the sport fields and the city, a place to meet; hence the benches built into it. It went up between April and November 1963 over the Herman Bonpad, at what was then the busy Troelstralaan.
+
+    Six kinked pylons of different lengths taper upwards and lean at different angles, some over the road, some along it, so the work changes as you move through it. Their forms are related to *Diorama II* (1962), a model for New Babylon, the city for playing humans Constant worked on from 1956 to 1974. Apart from a fountain in Leiden, he hardly ever built in public space. Under it, 28 piles of 13 metres hold it up.
+
+    For decades hardly anyone knew what it was. Rita Doets, a district employee, left money in her will for a sign, unveiled on 21 July 2011, Constant's birthday; she did not live to see it. In January 2024 the gate became a municipal monument, a rare status for an artwork.
+
+    Look for:
+    - the board-marked concrete, its seams running from bottom to top
+    - the two vertical pylons along the road that act as signals
+    - the low walls you can sit on
+    - the plates 'Gemeentelijk Sportpark Ookmeer West 1961' (the park's opening year) and the 2011 plaque below them
+    - across the road, on the grounds of the NKBV climbing club at the corner of the Dr. Meurerlaan, Boudewijn Payens's 12-metre climbing wall: two concrete triangles in relief leaning against each other, put up at the Jaap Edenbaan in 1988 when climbing walls were new in the Netherlands, and moved here in 2008 in twenty slabs weighing 60 tonnes
+  category: curiosities
+  lat: 52.368379
+  lng: 4.800243
+  address: Herman Bonpad, corner Troelstralaan
+  links:
+    - { label: Monumentenregister Amsterdam (200983), url: "https://data.amsterdam.nl/monumenten/0170f2b3-4232-4f15-92cc-cbc1860c9542" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Poort_van_Constant" }
+    - { label: Erfgoed van de Week (amsterdam.nl), url: "https://www.amsterdam.nl/nieuws/erfgoed-week/poort-van-constant/" }
+    - { label: Fondation Constant, url: "https://stichtingconstant.nl/documentation/de-poort-van-constant-marking-the-entrance-of-sportspark-ookmeer-1963" }
+    - { label: "Architectuurgids, Klimwand Sportpark Ookmeer", url: "https://www.architectuurgids.nl/project/item/prj_id/4819" }
+  attributes:
+    rank: Amazing
+    heritage_status: Municipal monument
+    monument_number: "200983"
+    built: "1963"
+    listed: 2024
+    original_use: Entrance gate and meeting point of a sports park
+    artist: Constant (Constant Nieuwenhuys)
+  photos:
+    - commons:File:Poort van Constant 2019 (01).jpg
+    - commons:File:Poort van Constant 2019 (05).jpg
+    - commons:File:Ingang nieuw sportpark Ookmeer, Bestanddeelnr 918-3480.jpg
+  sources:
+    - city:200983 (register text)
+    - https://nl.wikipedia.org/wiki/Poort_van_Constant
+    - https://nl.wikipedia.org/wiki/Sportpark_Ookmeer
+    - https://www.amsterdam.nl/nieuws/erfgoed-week/poort-van-constant/
+    - https://stichtingconstant.nl/documentation/de-poort-van-constant-marking-the-entrance-of-sportspark-ookmeer-1963
+    - research/nieuw-west/SCOUT.md item 12
+    - https://www.architectuurgids.nl/project/item/prj_id/4819 (Payens climbing wall: 12 m, two concrete triangles with relief, 1988 at the Jaap Edenbaan, a novelty then; dismantled 2008, twenty slabs of 60,000 kg moved to Sportpark Ookmeer)
+    - https://nl.wikipedia.org/wiki/Klimmuur_Dokter_Meurerlaan (opposite the Poort van Constant; reopened by Payens 31 Aug 2008; used by NKBV Amsterdam)
+    - https://amsterdam.nkbv.nl/locatie/ (club grounds, corner Troelstralaan and Dr. Meurerlaan; wall 1988-1991 in use, Nov 2026)
+    - https://commons.wikimedia.org/wiki/Category:Klimterrein_Dr._Meurerlaan (photos 22 Sep 2019)
+  nl:
+    title: Poort van Constant
+    summary: Het 13 meter hoge betonnen kunstwerk van Constant Nieuwenhuys (1963) aan de ingang van sportpark Ookmeer, zes geknikte pylonen die verwant zijn aan zijn utopische stad New Babylon. Sinds 2024 gemeentelijk monument.
+    body: |
+      Het kunstwerk werd door Publieke Werken besteld bij Constant Nieuwenhuys, met de opdracht "bij de ingang van het sportpark een soort poort te ontwerpen, die tevens een teken moet zijn, dat reeds van ver te zien is en de ingang bepaalt." De werktitel werd Plastisch teken, maar al snel dook de uiteindelijke naam op. Het werd opgebouwd tussen april en november 1963 op de kruising van de Troelstralaan en het Herman Bonpad. Constant schreef: "De ingang is van verre zichtbaar als een rustpunt, het punt waar de gebruikers van de sportvelden elkaar kunnen ontmoeten (...) Daarom bevinden zich tussen de elementen enkele zitbanken."
+
+      Het 13 meter hoge betonnen kunstwerk bestaat uit 6 geknikte pijlers of 'pylonen', die allen een andere lengte hebben en in verschillende hoeken ten opzichte van elkaar staan. Doordat je er doorheen kunt bewegen, ervaar je het kunstwerk telkens weer anders. De vormentaal toont verwantschap met de maquette Diorama II, door Constant ontworpen in 1962 in het kader van zijn utopische stad New Babylon. Constant heeft nauwelijks werken in de openbare ruimte gerealiseerd; naast de Poort is alleen nog een fontein in De Kooi te Leiden in 1969 gerealiseerd. Het heeft een paalfundering van 28 palen van 13 meter lengte.
+
+      Omdat maar weinig mensen iets wisten van het kunstwerk, dat vroeger door sommigen spottend de "gekke toren" werd genoemd, werd het op 21 juli 2011 voorzien van een tekstbord en plaquette. Op 16 januari 2024 werd het tot gemeentelijk monument verklaard.
+
+      Let op:
+      - de naden van de bekisting, die van onder tot boven doorlopen
+      - de 2 verticale pylonen evenwijdig aan de weg, die een signaalfunctie lijken te hebben
+      - de betonnen muurtjes waarop je kunt zitten
+      - de borden 'Gemeentelijk Sportpark Ookmeer West 1961' en de plaquette uit 2011
+      - aan de overkant, op het terrein van de NKBV op de hoek van de Dr. Meurerlaan, de twaalf meter hoge klimwand van kunstenaar en bergbeklimmer Boudewijn Payens: twee betonnen driehoeken met reliëf die tegen elkaar leunen. Hij stond vanaf 1988 bij de Jaap Edenbaan, toen klimwanden in Nederland nog nieuw waren, en werd in 2008 in twintig platen van samen 60 ton hierheen verhuisd
+    attributes:
+      original_use: Toegangspoort en trefpunt van een sportpark
+    sources:
+      - https://data.amsterdam.nl/monumenten/0170f2b3-4232-4f15-92cc-cbc1860c9542
+      - https://nl.wikipedia.org/wiki/Poort_van_Constant
+      - https://www.amsterdam.nl/nieuws/erfgoed-week/poort-van-constant/
+      - https://www.architectuurgids.nl/project/item/prj_id/4819
+      - https://nl.wikipedia.org/wiki/Klimmuur_Dokter_Meurerlaan
+
+- title: De 1100 Roe
+  summary: A thatched polder mill of 1674 that once stood on the Haarlemmerweg, named for its distance in rods from the Haarlemmerpoort. Dismantled when its polder vanished under the garden cities, it was rebuilt here in 1965 and still drains the sports park.
+  body: |
+    Polder mills along the Haarlemmerweg were named for their distance from the city gate, the Haarlemmerpoort, measured in *roeden* (rods). This one stood 1,100 rods out, almost four kilometres. It was built in 1674, shortly after the Haarlemmertrekvaart was dug, to pump water out of the newly combined Sloterbinnen- and Middelveldse polders into the canal. In 1872 an Archimedes screw replaced its scoop wheel.
+
+    In 1951 the mill lost its job when much of its polder disappeared under the sand of the Westelijke Tuinsteden (western garden cities); two pumping stations took over. In 1961 it was taken apart, and in 1965 it was re-erected on the ring canal of the Osdorper Binnenpolder at the western edge of Sportpark Ookmeer, which it still helps to keep dry. Its sister, the 1200 Roe, remains on its old spot on the Haarlemmerweg as a house.
+
+    Look for:
+    - the thatched octagonal body and cap (a *bovenkruier*, where only the cap turns into the wind)
+    - the sails of nearly 26 metres with Fauël leading-edge boards
+    - the open polder of the Osdorper Binnenpolder behind it
+  category: industrial
+  lat: 52.367569
+  lng: 4.794303
+  address: Herman Bonpad 6
+  links:
+    - { label: Rijksmonumentenregister (5551), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/5551" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/5d32710d-1f32-469b-85ab-bf05fed56d53" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/De_1100_Roe" }
+    - { label: Waternet AGV, url: "https://www.agv.nl/recreatie/watererfgoed/molens/molens-1100-en-1200-roe/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "5551"
+    built: 1674; rebuilt here 1961–1965
+    listed: 1970
+    original_use: Polder drainage mill
+  photos:
+    - commons:File:Molen de 1100 Roe, Amsterdam.jpg
+    - commons:File:De-1100-Roe-molen.jpg
+    - commons:File:Sportpark Ookmeer, Poldermolen "De 1100 roe", aanzicht - Amsterdam - 20021999 - RCE.jpg
+  sources:
+    - https://monumentenregister.cultureelerfgoed.nl/monumenten/5551
+    - https://nl.wikipedia.org/wiki/De_1100_Roe
+    - https://nl.wikipedia.org/wiki/Sportpark_Ookmeer
+    - https://www.agv.nl/recreatie/watererfgoed/molens/molens-1100-en-1200-roe/
+  nl:
+    title: De 1100 Roe
+    summary: Poldermolen uit 1674, genoemd naar de afstand in roeden tot de Haarlemmerpoort. De molen stond aan de Haarlemmerweg, werd in 1961 gedemonteerd en in 1965 bij Sportpark Ookmeer weer opgebouwd, waar hij nog steeds de waterhoogte regelt.
+    body: |
+      De 1100 Roe is een poldermolen die voorheen aan de Haarlemmerweg stond. De naam van de molen is gebaseerd op de afstand in roede tot de Haarlemmerpoort, dat is bijna vier kilometer. De molen is gebouwd in 1674 na de aanleg van de Haarlemmertrekvaart en voerde water af uit de Sloterbinnen- en Middelveldse gecombineerde polders naar de trekvaart. In 1872 verving een vijzel het scheprad.
+
+      In 1951 verloor de molen zijn functie toen een groot deel van de polder onder het zand van de Westelijke Tuinsteden verdween. In 1961 werd de molen gedemonteerd en in 1965 weer opgebouwd aan de ringvaart van de Osdorper Binnenpolder, bij Sportpark Ookmeer. Daar regelt de molen nog steeds de waterhoogte. De molen is nu ook wel bekend als de Ookmeermolen. Zijn buurman, de 1200 Roe, staat nog steeds op zijn oude plek aan de Haarlemmerweg en is nu een woning.
+
+      Let op:
+      - de achtkante bovenkruier, romp en kap met riet gedekt
+      - het gevlucht van 25,9 meter met fokwieken, systeem Fauël
+      - het open polderlandschap van de Osdorper Binnenpolder erachter
+    attributes:
+      built: 1674; hier herbouwd 1961–1965
+      original_use: Poldermolen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/5551
+      - https://nl.wikipedia.org/wiki/De_1100_Roe
+      - https://www.agv.nl/recreatie/watererfgoed/molens/molens-1100-en-1200-roe/
+
+# ================================================================ Oud Osdorp and the Lutkemeerpolder
+
+- title: Oud-Osdorp cemetery and the Deckers tomb
+  summary: In a meadow off the Osdorperweg, a raised Catholic graveyard of 1854 has outlived its church by more than a century. On it lies a stone coffin under a draped pall, carved in Den Bosch in 1879, where a descendant was still buried in 2017.
+  body: |
+    After the Reformation, Catholics from Sloten worshipped in Osdorp, where a Pancratius church was built in the 17th century. In 1843 the parish raised its presbytery garden to make a graveyard, but the Protestant-run village council of Sloten blocked it for ten years, fearing for the income of its own cemetery and invoking a law against burials so close to houses. A Haarlem parishioner then donated land further from the road, and in 1854 the new graveyard was consecrated. In 1901 the parish moved to its new church in Sloten, which kept the name Sint-Pancratius, and the dilapidated old one was demolished. The graveyard stayed. In late March 2025 city archaeologists uncovered the foundations of the church, its sacristy and the presbytery on the plot next door for a single week, then covered them again for new houses; the piling is meant to spare them. A new gravel path beside that plot leads to the graveyard.
+
+    Its showpiece is the tomb of the Deckers family (1878). Stone carver Johannes Schumaker of Den Bosch cut it from a block of bluestone that weighed 9,000 kilos: a coffin covered by a pleated pall, with an embroidered-looking cross and flowers of mourning (pansies for fidelity, broken roses for a life cut short, poppies for eternal sleep). It was made for Aleida Deckers-Schaap, who died young in 1878; her husband Alphons followed in 1909. In 2017 the political philosopher Jeroen Buve, a descendant, was interred here. When the parish of Halfweg, which owns the land, wanted to move the graves and sell it, the descendants refused. The graveyard, tomb and the little bridge over the ditch became municipal monuments in 2018–2019.
+
+    Look for:
+    - the 19th-century bridge over the ditch along the Osdorperweg
+    - the big weeping ash at the edge of the mound, planted in the mid-19th century and one of the city's *kampioenbomen* (champion trees)
+    - the grave of pastor Cornelis Ruigrok (died 1898) and the winged chalice on priest W.E.H. Graman's stone
+    - the carver's name on the front of the tomb, and the family names on the back
+  category: religious
+  lat: 52.367676
+  lng: 4.784629
+  address: Osdorperweg, near no. 532
+  links:
+    - { label: Monumentenregister Amsterdam (200782), url: "https://data.amsterdam.nl/monumenten/c3ef8bcc-aa86-4bdf-a06c-a4486285cb2e" }
+    - { label: Monumentenregister Amsterdam (200906), url: "https://data.amsterdam.nl/monumenten/adf67146-9de2-4e8f-89f3-3130af6e4a9d" }
+    - { label: Monumentenregister Amsterdam (200900), url: "https://data.amsterdam.nl/monumenten/69ee4cdd-3ca5-4a43-916b-3996c2931910" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/bij_532" }
+    - { label: "Sloten-Oud Osdorp (Het Parool, 2018)", url: "https://slotenoudosdorp.nl/katholieke-kerk-werd-gesloopt-begraafplaats-bleef/" }
+    - { label: "Wikipedia (nl), Oud Osdorp", url: "https://nl.wikipedia.org/wiki/Oud_Osdorp" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200782, 200906, 200900
+    built: 1854 (cemetery), 1878–1879 (tomb)
+    listed: 2018
+    original_use: Catholic parish cemetery
+    artist: Johannes Schumaker (tomb)
+  photos:
+    - commons:File:Graf fam. Deckers te Oud Osdorp.jpg
+    - commons:File:Amsterdam Osdorp Oude Kerkhof 20140622.jpg
+  sources:
+    - city:200782, 200906 (register texts); 200900 has no text
+    - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/bij_532
+    - https://slotenoudosdorp.nl/katholieke-kerk-werd-gesloopt-begraafplaats-bleef/
+    - https://nl.wikipedia.org/wiki/Oud_Osdorp
+    - https://slotenoudosdorp.nl/bijzondere-bomen-in-sloten-en-oud-osdorp/ (Jul 2025; Treures from 1860 at the old cemetery, Osdorperweg near 532, kampioenboom; city tree list 386986 gives planting year 1860; the earlier draft said about 1850, so the text now says mid-19th century)
+    - https://slotenoudosdorp.nl/fundamenten-kerkcomplex-in-oud-osdorp-weeklang-zichtbaar/ (Apr 2025; excavation end of March 2025, church with sacristy and presbytery, demolished 1901 as dilapidated, parish moved to the new Sloten church opened that year; remains covered again; housing on the plot, piling to spare the foundations; new gravel path beside the plot to the cemetery)
+  nl:
+    title: Begraafplaats Oud-Osdorp en het graf van de familie Deckers
+    summary: "Het verhoogde rooms-katholieke kerkhof aan de Osdorperweg (1854), dat de kerk ruim een eeuw overleefde, met de graftombe van de familie Deckers (1878): een stenen doodskist met geplooid baarkleed, gehouwen door J. Schumaker uit Den Bosch."
+    body: |
+      Na de alteratie werd in Osdorp, waar nooit een kerk had gestaan, een nieuwe Pancratiuskerk gebouwd. Bij deze kerk werd in 1843 een begraafplaats aangelegd: voor de pastorie lag een tuin die werd opgehoogd. Het dorpsbestuur van Sloten hield de ingebruikname echter tien jaar tegen, omdat zij derving van inkomsten uit de algemene begraafplaats vreesde. Een parochiaan uit Haarlem bood uitkomst door schenking van een stuk grond dat verder van de weg aflag, zodat in 1854 een nieuwe begraafplaats kon worden ingezegend. In 1901 verhuisde de parochie naar de nieuwe Sint-Pancratiuskerk in Sloten en werd de bouwvallige kerk in Osdorp gesloopt. De begraafplaats bleef. Eind maart 2025 legde de afdeling Monumenten en Archeologie op de kavel ernaast een week lang de fundamenten bloot van de kerk, met sacristie en pastorie; daarna verdween alles weer onder de grond voor nieuwbouw, waarbij het heiwerk de funderingen moet ontzien. Over een nieuw grindpad naast die kavel kom je bij het kerkhof.
+
+      De graftombe van de familie Deckers bestaat uit een gemetselde, gepleisterde sokkel met daarop een uit steen gebeeldhouwde doodskist waarover een geplooid baarkleed is gelegd. De bloemen zijn symbolen voor de dood: de viooltjes verbeelden de voorbij de dood blijvende trouw, de geknakte rozen het vroeg afgebroken leven, de papavers de eeuwige slaap. Het grafmonument werd gehouwen door de Bossche steenhouwer Johannes Schumaker, uit een blok hardsteen dat oorspronkelijk 9000 kilo woog. De eerste die er begraven werd was Aleida Deckers-Schaap, overleden op 14 februari 1878; de laatste bijzetting was in 2017. In de jaren 2010 wilde de parochie Halfweg, eigenaar van de grond, de graven verplaatsen, maar daar gaven de nabestaanden geen toestemming voor. De begraafplaats, de tombe en het bruggetje werden in 2018/2019 gemeentelijk monument.
+
+      Let op:
+      - de brug over de sloot, die vermoedelijk uit de 19de eeuw dateert
+      - de grote, hoge treures uit het midden van de 19e eeuw, die als een toegang tot de dodenakker fungeert en een van de kampioenbomen van de stad is
+      - het graf van pastoor Cornelis Ruigrok en de gevleugelde miskelk met hostie op het graf van priester W.E.H. Graman
+      - de naam van de steenhouwer aan de voorzijde en de namen van de bijgezette familieleden achter op de sokkel
+    attributes:
+      built: 1854 (begraafplaats), 1878–1879 (graftombe)
+      original_use: Rooms-katholieke parochiebegraafplaats
+    sources:
+      - https://data.amsterdam.nl/monumenten/c3ef8bcc-aa86-4bdf-a06c-a4486285cb2e
+      - https://data.amsterdam.nl/monumenten/adf67146-9de2-4e8f-89f3-3130af6e4a9d
+      - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/bij_532
+      - https://slotenoudosdorp.nl/katholieke-kerk-werd-gesloopt-begraafplaats-bleef/
+      - https://slotenoudosdorp.nl/fundamenten-kerkcomplex-in-oud-osdorp-weeklang-zichtbaar/
+
+- title: Schoolmeesterswoning, Osdorperweg 635
+  summary: The headmaster's house of Oud Osdorp, standing proudly on the corner of the Lutkemeerweg with a chalet-style canopy over the door and green-and-white shutters, grander than any other village teacher's house left in Amsterdam.
+  body: |
+    Oud Osdorp never had a real centre. Its school, church and graveyard lay strung along the dike road between farms and houses. A school stood on this corner by 1879, fourteen years after the Lutkemeer was drained, and the teacher's house probably dates from the same years; nobody knows the architect. In 1929 Publieke Werken replaced the school itself (behind the house, on the Lutkemeerweg), but the house kept serving the headmaster. The school closed in 1970 and is now a business building.
+
+    Only a few village teachers' houses survive in Amsterdam, in Ransdorp and Holysloot among them, and those were built together with their schools. This one stands apart and is far more representative, a sign of the status of its occupant. It was a public school in a mostly Catholic village, and the register notes that it was more than once a target of vandalism. Inside, much of the original fittings remain.
+
+    Look for:
+    - the projecting entrance bay with a far overhanging zinc canopy edged with notched timber, borrowed from chalet architecture
+    - the white-rendered arched porch around the door
+    - the T-shaped windows with arched fanlights and green-and-white shutters
+    - storks on the chimneys of the 1929 school behind the house, now the Lutke studio building: they built their own nests on all four chimneys, the village has their young ringed every June (nine chicks in 2024), and they were back on the nests again in spring 2026
+  category: schools
+  lat: 52.369437
+  lng: 4.779641
+  address: Osdorperweg 635
+  links:
+    - { label: Monumentenregister Amsterdam (200781), url: "https://data.amsterdam.nl/monumenten/7f58db95-13bc-4909-9750-16f9ebdcc381" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/635" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200781"
+    built: c. 1865–1879
+    listed: 2015
+    original_use: Headmaster's house
+  photos:
+    - commons:File:Schoolmeesterswoning, Osdorperweg 635, Amsterdam Nieuw-West, Oud Osdorp.jpg
+    - commons:File:Schoolmeesterswoning Osdorperweg 635.jpg
+  sources:
+    - city:200781 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/635
+    - https://slotenoudosdorp.nl/jonkies-bij-beide-ooievaarsparen/ (nest on a chimney of the Lutkemeerschool, built entirely by the storks themselves)
+    - https://slotenoudosdorp.nl/wp-content/uploads/2024/06/Ooivevaarsverslag-2024.-Negen-Oud-Osdorpse-maar-geen-Slotense-ooievaartjes-geringd.pdf (ringing 18 Jun 2024, nine chicks from the school's chimney nests)
+    - https://www.rodi.nl/amsterdam-nieuw-west/nieuws/436007/ooievaars-weer-terug-op-schoorstenen-lutkemeer-school (12 Mar 2025, pairs back on the chimneys)
+    - https://slotenoudosdorp.nl/wp-content/uploads/2026/04/Nieuwsbrief-Sloten-Oud-Osdorp-22-april-2026.pdf (storks on the Lutkemeerschool brooding early again; nest on the fourth chimney)
+    - https://urbanresort.nl/news/ooievaars-ringen-op-de-schoorsteen-van-broedplaats-lutke/ (search snippet: broedplaats Lutke, nests built on the 4 chimneys)
+  nl:
+    title: Schoolmeesterswoning, Osdorperweg 635
+    summary: De schoolmeesterswoning van Oud Osdorp, markant op de hoek van de Osdorperweg en de Lutkemeerweg, met een entreepartij onder een Châlet-achtige bekapping. Door het representatieve karakter onderscheidt zij zich van de andere onderwijzerswoningen.
+    body: |
+      Osdorp kent niet een echte herkenbare kern. De voorzieningen als een school, een kerk en een begraafplaats staan en liggen aan of op kleine afstand van de dijk tussen de gevarieerde lintbebouwing. Het is niet bekend in welk jaar de schoolmeesterswoning is gebouwd en wie de ontwerper is. Op de Topografische Militaire Kaart van 1879 staat al wel een school aangegeven, veertien jaar na de drooglegging van het Lutkemeer; de woning zal uit dezelfde periode dateren. De school werd in 1929 vervangen door een lagere school, ontworpen door de Dienst Publieke Werken. De woning bleef dienen als huisvesting van het hoofd van de school. De school verloor in 1970 zijn onderwijsfunctie en fungeert nu als bedrijfsverzamelgebouw.
+
+      Met de onderwijzerswoningen in Ransdorp en Holysloot behoort de woning in Osdorp tot de weinig overgebleven onderwijzerswoningen. De architectuur onderscheidt zich sterk door het representatieve karakter en verbeeldt daardoor de status en het aanzien van de bewoner. De school was bedoeld voor openbaar lager onderwijs, hetgeen moeilijk lag in de overwegend rooms-katholieke dorpsgemeenschap, en is meermalen doelwit van vandalisme geweest.
+
+      Let op:
+      - de iets naar voren springende entreepartij met een ver uitkragende, met zink afgedekte bekapping en een houten lijst met inkepingen
+      - de getoogde ingang, omlijst door een wit gestuukte portiek
+      - de t-vormige vensters met getoogd bovenlicht en de groen-wit gekleurde houten luiken
+      - de ooievaars op de schoorstenen van de school uit 1929 achter de woning, nu broedplaats Lutke: ze bouwden zelf hun nesten op alle vier de schoorstenen, elk jaar in juni worden de jongen geringd (negen in 2024), en in het voorjaar van 2026 zaten ze er weer
+    attributes:
+      built: ca. 1865–1879
+      original_use: Woning van het schoolhoofd
+    sources:
+      - https://data.amsterdam.nl/monumenten/7f58db95-13bc-4909-9750-16f9ebdcc381
+      - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/635
+      - https://www.rodi.nl/amsterdam-nieuw-west/nieuws/436007/ooievaars-weer-terug-op-schoorstenen-lutkemeer-school
+      - https://slotenoudosdorp.nl/wp-content/uploads/2026/04/Nieuwsbrief-Sloten-Oud-Osdorp-22-april-2026.pdf
+
+- title: Kampschooltje, Osdorperweg 665
+  summary: A two-classroom school of 1954 built only for the children of the caravan camp De Rolleman, which lay on the Osdorperweg from the 1930s until 1975. Probably unique in the Netherlands; now the Terragon nature lab.
+  body: |
+    From the 1930s until 1975 the caravan camp *De Rolleman* lay on the Osdorperweg; it then moved to the Middelveldsche Akerpolder, where it had to make way for housing in 1995. In 1954 the city's Publieke Werken built this little school in the open polder especially for the camp children. It reflects the official ideas of the time about educating *woonwagenbewoners* (caravan dwellers), and the register calls it rare not only in Amsterdam but probably nationally.
+
+    It had a predecessor. During the war the camp, then at about Osdorperweg 705, had a camp school of four rooms, and when the Germans requisitioned the Catholic Jozefschool by the church, its pupils were sometimes taught there. By then the camp itself stood empty: from June 1943 caravan dwellers were forced into collection camps, and in the raid of 16 May 1944 Sinti and Roma, and some caravan dwellers with them, were deported to Westerbork.
+
+    The plan is still easy to read: two classrooms that could be joined by opening a folding partition, a corridor and a schoolyard. Several interior parts, the folding wall among them, survive. After the school closed, scout group Aladdin made it their base for years, and after the yearly Remembrance Day ceremony on the Osdorperweg the village gathered here for coffee. Today it is home to Terragon Nature Lab, which runs nature camps and school programmes in the wild garden around it. It became a municipal monument in 2022.
+
+    Look for:
+    - the typical 1950s design of the small brick school
+    - its free position in the open polder
+    - the nature garden around it
+  category: schools
+  lat: 52.370260
+  lng: 4.777236
+  address: Osdorperweg 665
+  links:
+    - { label: Monumentenregister Amsterdam (200958), url: "https://data.amsterdam.nl/monumenten/84c2568d-9ab7-4077-80a3-aca91f0525b3" }
+    - { label: Sloten-Oud Osdorp, url: "https://slotenoudosdorp.nl/kampers-schooltje-in-oud-osdorp-wordt-gemeentelijk-monument/" }
+    - { label: "Wikipedia (nl), Osdorperweg", url: "https://nl.wikipedia.org/wiki/Osdorperweg" }
+    - { label: Terragon Nature Lab, url: "https://terragon.nl/" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200958"
+    built: "1954"
+    architect: Publieke Werken
+    listed: 2022
+    original_use: Primary school for caravan-camp children
+  sources:
+    - city:200958 (register text)
+    - https://slotenoudosdorp.nl/kampers-schooltje-in-oud-osdorp-wordt-gemeentelijk-monument/
+    - https://nl.wikipedia.org/wiki/Osdorperweg
+    - https://terragon.nl/ (search snippets: address, 'connecting with nature since 2004')
+    - https://geheugenvanwest.amsterdam/page/15889/oorlog-in-nieuw-west (Apr 2012, Leo Barlag and Jaan de Regt-Achterberg; when the Jozefschool was requisitioned pupils went to woonwagenkamp De Rolleman, Osdorperweg 705; camp school had four rooms; camp then empty, from June 1943 caravan dwellers to collection camps; some deported with Sinti and Roma in the raid of 16 May 1944 to Westerbork)
+  nl:
+    title: Kampschooltje, Osdorperweg 665
+    summary: Dit 'verborgen gebouwtje' in Oud Osdorp is in 1954 speciaal gebouwd als school voor de kinderen van het toen nabijgelegen woonwagenkamp 'De Rolleman'. Zeldzaam, niet alleen in Amsterdam maar vermoedelijk ook landelijk.
+    body: |
+      Vanaf de jaren dertig tot 1975 lag er aan de Osdorperweg het woonwagenkamp 'De Rolleman'. Het verhuisde naar de Middelveldsche Akerpolder, waar het in 1995 moest verdwijnen voor de oprukkende woningbouw. Dit voormalige schoolgebouw is in 1954 gebouwd, ontworpen door een architect van de Dienst der Publieke Werken. Speciaal gebouwd voor de kinderen van het woonwagenkamp, herinnert het schoolgebouwtje aan de geschiedenis van De Rolleman en haar bewoners, en weerspiegelt het de toenmalige sociaal-maatschappelijke ideeën van de overheid over onderwijs voor woonwagenkampbewoners. Het kampschooltje kent een grote zeldzaamheidswaarde, niet alleen in Amsterdam, maar vermoedelijk ook landelijk.
+
+      Het had een voorganger. In de oorlog had het kamp, toen rond Osdorperweg 705, een kampschooltje met vier lokalen, en als de Duitsers de katholieke Jozefschool bij de kerk hadden gevorderd, kregen de leerlingen daar soms les. Het kamp zelf was toen verlaten: vanaf juni 1943 moesten woonwagenbewoners naar verzamelkampen, en bij de razzia van 16 mei 1944 werden Sinti en Roma, en met hen ook enkele woonwagenbewoners, naar Westerbork gedeporteerd.
+
+      De oorspronkelijke opzet van het gebouw, twee door een vouwwand van elkaar te scheiden lokalen met gang en schoolplein, is nog gaaf intact; diverse interieuronderdelen, waaronder de vouwwand, zijn nog aanwezig. Nadat de school was gesloten, vormde het gebouw jarenlang de thuisbasis van scoutinggroep Aladdin. Na afloop van de jaarlijkse Dodenherdenkingen op de Osdorperweg praatte iedereen hier altijd genoeglijk na met wat koffie en koek. Tegenwoordig is hier Terragon gevestigd; ook de natuurtuin rond het pand straalt avontuur en creativiteit uit. Op 29 maart 2022 werd het gebouw gemeentelijk monument.
+
+      Let op:
+      - de voor de jaren vijftig karakteristieke vormgeving
+      - de bijzondere ligging van het schoolgebouwtje in het open polderlandschap
+      - de natuurtuin rond het pand
+    attributes:
+      original_use: Lagere school voor kinderen van het woonwagenkamp
+    sources:
+      - https://data.amsterdam.nl/monumenten/84c2568d-9ab7-4077-80a3-aca91f0525b3
+      - https://slotenoudosdorp.nl/kampers-schooltje-in-oud-osdorp-wordt-gemeentelijk-monument/
+      - https://nl.wikipedia.org/wiki/Osdorperweg
+      - https://geheugenvanwest.amsterdam/page/15889/oorlog-in-nieuw-west
+
+- title: Dekeukeleire double house, Osdorperweg 658-660
+  summary: A pair of linked family houses of 1978–1980 by F.J.E. Dekeukeleire, the architect of horizontal glass-and-concrete office blocks. The city proposed it as a monument; an architecture blog argued it is not typical of his work.
+  body: |
+    Frits Dekeukeleire (1925–1985) is known for office buildings with broad horizontal bands of glass and concrete, from the Wibauthuis (1964) to the Delta Lloyd complex on the Spaklerweg (1977), and for low-rise housing such as the Geerdinkhof in the Bijlmer. He lived from 1963 in a house of his own design on the Willem Mulierhof in Geuzenveld, not far from here. Osdorperweg 658-660, two linked family houses on the rural stretch of the old dike road, is one of the smaller works on his list of housing.
+
+    The municipality started the procedure to designate the pair as a municipal monument, arguing it represents his work and the architecture of the 1980s. In November 2025 the blog Love 80's Architecture pushed back: with no concrete bands, no rhythm of glass, brick and concrete and no part in a larger plan, it reads more like a conventional late-1970s villa than a Dekeukeleire. The designation was still in procedure in the city register at the time of writing. The houses are private homes, seen from the road only.
+  category: housing
+  lat: 52.370169
+  lng: 4.779144
+  address: Osdorperweg 658-660
+  links:
+    - { label: Monumentenregister Amsterdam (in procedure), url: "https://data.amsterdam.nl/monumenten/c52b8438-5fa3-43ce-990b-bd2399c5f478" }
+    - { label: "Amsterdam op de kaart, Dekeukeleire", url: "https://amsterdamopdekaart.nl/p/98/FJE_Dekeukeleire" }
+    - { label: Love 80's Architecture, url: "https://www.love80sarchitecture.nl/frontend/osdorperweg-658-660-in-perspectief/" }
+  attributes:
+    rank: Okay
+    built: 1978–1980
+    architect: F.J.E. Dekeukeleire
+    original_use: Two linked family houses
+  sources:
+    - city record c52b8438-5fa3-43ce-990b-bd2399c5f478 (status 'In procedure Gemeentelijk Monument', no text)
+    - https://amsterdamopdekaart.nl/p/98/FJE_Dekeukeleire
+    - https://www.love80sarchitecture.nl/frontend/osdorperweg-658-660-in-perspectief/
+  nl:
+    title: Dubbel woonhuis Dekeukeleire, Osdorperweg 658-660
+    summary: Twee geschakelde eengezinswoningen (1978-1980) van architect F.J.E. Dekeukeleire, bekend van zijn kantoren met brede horizontale banden van glas en beton. De gemeente wil het pand aanwijzen als gemeentelijk monument.
+    body: |
+      Ir. Frits Johan Eduard Dekeukeleire (1925-1985) is vooral bekend van zijn kantoren, veelal in een herkenbare stijl met brede horizontale banden van afwisselend glas en beton, zoals het Wibauthuis (1964) en De Omval, het Delta Lloyd-complex aan de Spaklerweg (1977). Hij ontwierp ook woningbouw, waaronder de woonwijk Geerdinkhof (1976-1987) in de Bijlmermeer. Dekeukeleire woonde vanaf 1963 met zijn vrouw in een zelf ontworpen huis aan het Willem Mulierhof in Geuzenveld. Osdorperweg 658-660 (1978-1980) betreft twee geschakelde eengezinswoningen aan het landelijke deel van de Osdorperweg.
+
+      De gemeente heeft de procedure gestart om het dubbele woonhuis aan te wijzen als gemeentelijk monument, onder meer vanwege de representativiteit voor het oeuvre van Dekeukeleire en de architectuur van de jaren '80. Op het blog Love 80's Architecture werd dat in november 2025 bestreden: het pand zou "noch onderdeel van een groter stedenbouwkundig plan, noch voorzien van de functionele samenhang die zijn andere projecten kenmerkt" zijn. Ten tijde van schrijven stond de aanwijzing in het gemeentelijk register nog 'in procedure'. De woningen zijn particulier en alleen vanaf de weg te zien.
+    attributes:
+      original_use: Twee geschakelde eengezinswoningen
+    sources:
+      - https://amsterdamopdekaart.nl/p/98/FJE_Dekeukeleire
+      - https://www.love80sarchitecture.nl/frontend/osdorperweg-658-660-in-perspectief/
+
+- title: Rust en Vrede farm
+  summary: A sober farmhouse of 1934 on the old Osdorperweg farm ribbon, kept almost untouched inside, with its cow stable, cast-iron stable windows, a concrete well and fruit trees that probably date from the build.
+  body: |
+    Until after the Second World War a dense ribbon of farms lined the Osdorperweg, a peat dike that once also held back the Haarlemmermeer. Most are gone. Rust en Vrede (Rest and Peace) is one of the younger survivors. In 1934 the tenant, dairy farmer Jacobus van Bodegraven, had the 19th-century farmhouse replaced by a plain new house parallel to the road, with a renewed brick cow stable behind it, linked by a short passage. Contractor H. van Steenwijk of Sloterdijk, a firm specialised in farms, also supplied the design. Van Bodegraven, a widower with young children, died the next year at 48; the family carried on. The place is still used as a farm.
+
+    The register praises the house for its rare intactness: original layout, doors in the Bruynzeel manner with yellow cathedral glass, plaster ceilings even in the attic, and two marble fireplaces that recall the former suite of rooms. The stable lost its original roof after the war but keeps its frame, manure gutters and feed passages.
+
+    Look for:
+    - the low house with its strongly projecting wooden gutter and central dormer
+    - the five arched cast-iron stable windows along each side of the stable
+    - the fruit trees and concrete well beside the stable
+  category: green
+  lat: 52.369040
+  lng: 4.781115
+  address: Osdorperweg 614
+  links:
+    - { label: Monumentenregister Amsterdam (200633), url: "https://data.amsterdam.nl/monumenten/3c374fa8-aae2-4592-96cb-67e86da5a5be" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/614" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200633"
+    built: "1934"
+    architect: Fa. H. van Steenwijk
+    listed: 2011
+    original_use: Dairy farm
+  sources:
+    - city:200633 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/614
+  nl:
+    title: Boerderij Rust en Vrede
+    summary: De sobere, traditionele boerderij Rust en Vrede (1934) aan de Osdorperweg, een van de laatst bewaard gebleven oude boerderijen in het gebied, met een woonhuis van hoge authenticiteit, stal, waterput en oude fruitbomen.
+    body: |
+      Aan de Osdorperweg tussen Osdorp en Geuzenveld herinneren nog enkele historische boerderijen aan de oorspronkelijke landelijke situatie. De boerderij Rust en Vrede vormt hiervan een van de jongere voorbeelden. Oorspronkelijk was de weg een veendijk die niet alleen twee Osdorperpolders van elkaar scheidde, maar ook bescherming bood tegen het water van de Haarlemmermeer. Tot na de Tweede Wereldoorlog lag langs de weg een relatief dichtbebouwd boerderijenlint; het merendeel is inmiddels verdwenen.
+
+      Huurder Jacobus Theodorus van Bodegraven liet in 1934 de boerderij ingrijpend vernieuwen: er kwam een nieuw voorhuis, evenwijdig aan de straat, en ook de koestal erachter werd vernieuwd. Het werk werd verricht door de firma H. van Steenwijk uit Sloterdijk, dat ook het weinig bijzondere ontwerp leverde. Van Bodegraven overleed zelf in 1935, 48 jaar oud; de familie zette het bedrijf voort. Het woonhuis bezit een hoge mate van authenticiteit in indeling en afwerking, met de oorspronkelijke paneel- en glasdeuren in Bruynzeeltrant met geel kathedraalglas, stucplafonds die ook op de zolder zijn aangebracht en twee stookplaatsen met lichtbruin marmer. De voormalige stal is in authenticiteit aangetast door het vervangen van het dak, maar de mestgoten en voergangen zijn nog herkenbaar.
+
+      Let op:
+      - de voor de bouwtijd kenmerkende houten bakgoot die vrij fors uitsteekt, en de houten dakkapel
+      - de getoogde gietijzeren stalramen in beide zijgevels van de stal
+      - de fruitbomen en de betonnen waterput aan de slootkant, links van de stal
+    attributes:
+      original_use: Melkveebedrijf
+    sources:
+      - https://data.amsterdam.nl/monumenten/3c374fa8-aae2-4592-96cb-67e86da5a5be
+      - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/614
+
+- title: Bij Goedvinding farm
+  summary: One of the last farms of the Osdorperweg ribbon, a 19th-century stolp with a huge pyramid roof, built by the Graman family. In 1913 a burglar caught here fired shots at farmer J. Graman, who survived.
+  body: |
+    The *stolpboerderij*, a farm under one great pyramid roof resting on a square timber frame with the hay stored in the middle, spread across Noord-Holland north of the IJ from the 17th century. South of the IJ it is rare. Bij Goedvinding (roughly 'by approval') was built in the last quarter of the 19th century by the Graman family, on a block-shaped plot north of the dike road. The city later bought it; when it was listed in 2009 it was still a mixed farm with about 20 hectares of arable land and 14 of meadow.
+
+    The farm has been repaired many times: the side and back walls around 1950, the front in 1975, the roof around 1980. The closed haystack behind it burned down in 1959 from spontaneous combustion of the hay and was replaced by the present three-pole hay barrack. Inside, the original square frame is intact. A local paper reported in 1913 that a caught burglar named Traksel shot at the dairy farmer J. Graman of Osdorp; Graman lived and Traksel was arrested. A Johannes Graman is registered at this address, so it may well have happened here.
+
+    Look for:
+    - the pyramid roof with red Dutch pantiles and the chimney in the middle of the front slope
+    - the dormer with ornamental mouldings on the axis of the front
+    - the half-round iron stable windows along the south-east side
+  category: green
+  lat: 52.373992
+  lng: 4.772353
+  address: Osdorperweg 756
+  links:
+    - { label: Monumentenregister Amsterdam (200617), url: "https://data.amsterdam.nl/monumenten/1556636e-06e6-408c-b042-c65f1af737cd" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/756" }
+    - { label: "Wikipedia (nl), Osdorperweg", url: "https://nl.wikipedia.org/wiki/Osdorperweg" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200617"
+    built: c. 1875–1899
+    listed: 2009
+    original_use: Mixed farm (stolp farmhouse)
+  photos:
+    - commons:File:Voor- en linker zijgevel - Osdorperweg 756 - 20177810 - RCE.jpg
+  sources:
+    - city:200617 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/756
+  nl:
+    title: Boerderij Bij Goedvinding
+    summary: Stolpboerderij 'Bij Goedvinding' aan de Osdorperweg, uit het laatste kwart van de 19de eeuw, gebouwd door de familie Graman, een van de laatste exemplaren in het voormalige boerderijenlint langs de Osdorperweg.
+    body: |
+      De grotere boerderijen in de Osdorper Binnenpolder waren over het algemeen stolpen, zoals nummer 756. Tot na de Tweede Wereldoorlog lag langs de weg een relatief dichtbebouwd boerderijenlint. Hiervan is inmiddels het merendeel verdwenen. De stolp kenmerkt zich door een compacte plattegrond en piramidale hoofdvorm, met een vierkant van vier gebintstijlen als draagconstructie en de tasruimte voor de oogst in het midden. Stolpboerderijen zijn ten zuiden van het IJ relatief zeldzaam. Osdorperweg 756 dateert uit het laatste kwart van de 19de eeuw en werd gebouwd door de familie Graanman (of Graman). In de 20ste eeuw kocht de gemeente Amsterdam de boerderij op. Bij de aanwijzing in 2009 was ze nog in gebruik als gemengd bedrijf met ongeveer 20 ha bouwland en 14 ha weide.
+
+      De boerderij werd in verschillende perioden hersteld. De gesloten hooiberg met vaste kap ging in 1959 door hooibroei verloren en werd vervangen door de huidige drieroeder. De gebintconstructie in de boerderij is nog intact. In 1913 meldden de kranten dat een betrapte inbreker met de naam Traksel schoten had gelost op de veehouder J. Graman te Osdorp. Volgens het bevolkingsregister heeft er een Johannes Graman op dit adres gewoond, dus wellicht heeft de schietpartij zich op deze boerderij afgespeeld. Graman heeft het overleefd en Traksel werd aangehouden.
+
+      Let op:
+      - het tentdak, gedekt met rode Hollandse pannen, met de gemetselde schoorsteen midden op het voorste dakschild
+      - de dakkapel met sierlijstwerk onder zadeldak in de as van de voorgevel
+      - de halfronde ijzeren stalramen in de rechterzijgevel
+    attributes:
+      original_use: Gemengd bedrijf (stolpboerderij)
+    sources:
+      - https://data.amsterdam.nl/monumenten/1556636e-06e6-408c-b042-c65f1af737cd
+      - https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/756
+
+- title: Tijd is Geld and De Melkweg, Lutkemeerweg
+  summary: Two farms face each other on the only old road of the Lutkemeerpolder, drained in 1865. 'Time is Money' is a big stolp with a timber frame unique in the Amsterdam region; 'The Milky Way' (1903) was a dairy farm in a polder made for crops.
+  body: |
+    The Lutkemeer (*lutke* means little) was drained in 1864–1865, after the Haarlemmermeer. Its heavy clay made it arable land, unusual around Amsterdam, and five farms rose along the Lutkemeerweg, the polder's main axis. Three survive; these two stand diagonally opposite each other and are listed partly for that pairing.
+
+    *Tijd is Geld* (Time is Money, no. 180) is a late stolp farm from the last quarter of the 19th century, built as a mixed farm on land leased from Carl Rutgers van Rozenburg, one of the polder's owners. The city bought it with 53 hectares at auction in 1927. After a fire in 1930 it was rebuilt with an unusual frame: three very wide trusses with an extra middle post, which made a working space wider than it is long. The register calls this construction unique in Amsterdam and its surroundings. Only the brick front is grand; the other walls are timber.
+
+    *De Melkweg* (The Milky Way, no. 149) dates from 1903, according to its weather vane, and was a dairy farm until about 1930, an exception on this clay. It has a richly detailed front house with a cellar and a lower stable behind; today it grows potatoes and onions.
+
+    Look for:
+    - the poplar row, the brick front with cornice and shutters, and the long ridge of Tijd is Geld
+    - the carved woodwork and iron rose window in the gable of its brick stable, and the two hay barracks behind
+    - De Melkweg's chalet-like front gable with arched overhang and open-work leaf carving, and the yellow-brick bands round its windows
+  category: green
+  lat: 52.362957
+  lng: 4.771068
+  address: Lutkemeerweg 149 and 180
+  links:
+    - { label: Monumentenregister Amsterdam (200513), url: "https://data.amsterdam.nl/monumenten/0bc8a04f-607f-409f-869c-2c5d1be86eb7" }
+    - { label: Monumentenregister Amsterdam (200540), url: "https://data.amsterdam.nl/monumenten/c6d63854-33ee-42e0-a142-52a720e7fcb7" }
+    - { label: Amsterdam op de kaart (180), url: "https://amsterdamopdekaart.nl/1850-1940/Lutkemeerweg/180" }
+    - { label: Amsterdam op de kaart (149), url: "https://amsterdamopdekaart.nl/1850-1940/Lutkemeerweg/149" }
+    - { label: "Wikipedia (nl), Lutkemeerweg", url: "https://nl.wikipedia.org/wiki/Lutkemeerweg" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200513, 200540
+    built: 1875–1899 (Tijd is Geld), 1903 (De Melkweg)
+    listed: 2004
+    original_use: Mixed farm and dairy farm
+  photos:
+    - commons:File:Boerderij 'Tijd is geld', Lutkemeerweg 180, Oud-Osdorp, Amsterdam.jpg
+    - commons:File:Boerderij de Melkweg.jpg
+  sources:
+    - city:200513, 200540 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Lutkemeerweg/180
+    - https://amsterdamopdekaart.nl/1850-1940/Lutkemeerweg/149
+    - https://nl.wikipedia.org/wiki/Lutkemeerweg
+    - https://nl.wikipedia.org/wiki/Lutkemeer
+  nl:
+    title: Tijd is Geld en De Melkweg, Lutkemeerweg
+    summary: "Twee boerderijen schuin tegenover elkaar aan de Lutkemeerweg, de ontginningsas van de in 1865 drooggemaakte Lutkemeerpolder: de stolp 'Tijd is geld' met een unieke gebintconstructie en melkveebedrijf 'De Melkweg' uit 1903."
+    body: |
+      De Lutkemeerpolder is geen vervening zoals in de directe omgeving maar een droogmakerij. Na de droogmaking van de Haarlemmermeer werd het Lutkemeer in 1864-1865 drooggemalen en in cultuur gebracht. Vanwege de kleiïge bodem werd hier vooral akkerbouw bedreven, hetgeen voor de gebieden rond Amsterdam ongebruikelijk was. Van de oorspronkelijke vijf negentiende-eeuwse boerderijen langs de Lutkemeerweg zijn er nog drie over.
+
+      Boerderij 'Tijd is geld', Lutkemeerweg 180, is van het stolptype en dateert uit het laatste kwart van de 19de eeuw. De boerderij is gebouwd als gemengd bedrijf; het gebouw en de omliggende gronden werden oorspronkelijk gepacht van Carl Rutgers van Rozenburg, een van de eigenaren van de polder. In 1927 werd de boerderij met 53 hectare land op een veiling gekocht door de gemeente Amsterdam. Een brand in 1930 heeft de boerderij gedeeltelijk verwoest; bij de herbouw werden drie ver uiteenstaande gebintjukken zeer breed uitgevoerd met een tussenstijl. Aldus ontstaat een uitzonderlijk grote bedrijfsruimte die breder is dan lang. Deze constructie is uniek in Amsterdam en omgeving.
+
+      De naam van boerderij 'De Melkweg', Lutkemeerweg 149, geeft aan dat de boerderij oorspronkelijk vrijwel eenzijdig gericht is geweest op melkproductie. De windvaan meldt het bouwjaar 1903; tot omstreeks 1930 was het een melkveebedrijf. Tegenwoordig is het een akkerbouwbedrijf waar onder andere aardappelen en uien worden verbouwd. De boerderij is van stedenbouwkundige waarde vanwege de samenhang met de tegenoverliggende boerderij Lutkemeerweg 180.
+
+      Let op:
+      - de boomsingel van populieren, de bakstenen voorgevel met kroonlijst en luiken en de opvallend langgerekte nok van 'Tijd is geld'
+      - de geveltop van de stal, versierd door gesneden latwerk rond een ijzeren rozetvenster, en de twee hooibergen erachter
+      - de puntgevel van 'De Melkweg' met chaletachtige afwerking, rondboog en ajour snijwerk van bladranken
+    attributes:
+      built: 1875–1899 (Tijd is Geld), 1903 (De Melkweg)
+      original_use: Gemengd bedrijf en melkveebedrijf
+    sources:
+      - https://data.amsterdam.nl/monumenten/0bc8a04f-607f-409f-869c-2c5d1be86eb7
+      - https://data.amsterdam.nl/monumenten/c6d63854-33ee-42e0-a142-52a720e7fcb7
+      - https://amsterdamopdekaart.nl/1850-1940/Lutkemeerweg/180
+      - https://amsterdamopdekaart.nl/1850-1940/Lutkemeerweg/149
+      - https://nl.wikipedia.org/wiki/Lutkemeer

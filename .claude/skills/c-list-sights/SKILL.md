@@ -10,8 +10,17 @@ A-list. It began as "C-list sights of Amsterdam", and "C-list" lives on as the i
 what goes on it. It is for **a curious resident or
 an adventurous visitor**: the places that don't make it into the guidebook. Unusual,
 debatable, standing out, old or new. Listed monuments are the backbone. Beyond them:
-murals and public art, hidden history, curiosities, odd museums, green escapes, and food
-and drink institutions with a history. Leave out ordinary cafés and A-list sights.
+murals and public art, hidden history, curiosities, odd museums and green escapes. Leave out
+A-list sights.
+
+**Food and drink: the bar is very high.** Only places of real historic or cultural significance
+(a legend, an institution that shaped the city). Good food, a nice story, a young brewery, a
+famous dish or "the oldest X restaurant" is not enough: those wait for a possible separate
+restaurants map. When in doubt, leave it out.
+
+**Exception: Amsterdam-Noord.** Noord has a different vibe, so there the bar is "an iconic local
+place that is part of the neighbourhood's fabric, almost a cultural establishment" (e.g. De Ceuvel).
+Ordinary good restaurants still don't qualify.
 
 This skill covers the C-list workflow. The general rules for `pnpm dc`, draft conventions,
 photos and areas are in [manage-content](../manage-content/SKILL.md). Read that first.
@@ -45,6 +54,156 @@ Don't skip step 1. The user wants to choose before anything is written or import
   - caveats (gone? not locatable? private? disputed?).
 
   Group the items by category. Then let the user pick, cut or add.
+- **Bring your calls with the shortlist.** The user delegates small curation calls (merge or
+  split, rank, Look for line vs own place, drop a thin item): make them, say them in a short
+  numbered "My calls" list, and ask one question ("Go?"). Still ask about shortlist picks,
+  new scope, A-list items and genuinely borderline food or gone items.
+- **The scout list is a lead, not a source.** Scouts get dates, attributions and locations
+  wrong surprisingly often (2026-11-23: an execution date belonging to someone else, "first
+  in the country" that was second, a pin 3.5 km off, an artwork's story taken from a
+  different object). Drafting agents verify everything and say what they corrected.
+
+### The West standard: when a district is done
+
+West is the gold standard (the user lives there and vouches for it). It got there through a
+monument pass, then **themed sweeps**, each exhaustive against named sources, and themed loops
+(routes) that exposed gaps. Every district gets the same sweeps, whatever its density. A sweep
+is done when its sources were gone through completely for every *gebied*, not when it found
+"enough". Keep `research/<area>/COVERAGE.md`: a table of sweep by gebied, with the sources
+checked and the date, so it's clear what was swept and what wasn't.
+
+1. **Monuments**: every listed monument, merged sensibly (city register + national register).
+2. **Public art and walls**: the full buitenkunstamsterdam.nl (Kunstwacht) list for the
+   district, the city's wall-art register (maps.amsterdam.nl/wandkunst), Street Art Cities,
+   OSM `tourism=artwork`. Check each work's current status.
+3. **War and memory**: 4en5mei.nl monument database, memorial plaques, OSM `historic=memorial`,
+   Joods Monument addresses where a place tells the story (no lists of victims as places).
+4. **Hidden history**: the district's history society and site, archief.amsterdam (beeldbank),
+   amsterdamsloopt, nl.wikipedia street and neighbourhood articles, local papers. Gone things
+   only under the high bar.
+5. **Behind the gate**: hofjes, courtyard gardens, alleys, nursery villages, bunkers and
+   shelters, things inside blocks a passer-by would miss. Say how to see them.
+6. **Modern and contested**: post-1965 architecture that stands out (Arcam, architects' sites),
+   squats and cultural free zones, renewal fights, renamings, disputes.
+7. **Curiosities, green corners and odd museums**: Atlas Obscura, OSM, iamsterdam, the
+   district's own "tips" pages, allotment parks, small museums.
+8. **Loops**: 2–4 themed routes per district. A loop that needs a stop where there is none
+   shows a gap; fill it. *Parked by the user (2026-11-23): districts count as complete for
+   research without loops for now; keep route ideas in `notes/`.*
+
+Then a **blind quality check**: a fresh agent scores a random sample of places (8 per group is
+enough) on six criteria, 1–5 each: **story** (a real hook up front), **accuracy** (checked
+against the linked sources; EN and NL must agree), **pin**, **use** (what a visitor sees, when,
+what's private, a useful Look for list), **Dutch** (native, written, not pasted) and
+**writing** (plain, 150–250 words, no dashes). How: export the sample with `dc place`, strip
+the area fields (`borough`, `neighbourhood`, `subNeighbourhood`, `municipality`) and ids,
+shuffle with a fixed seed, number the files, keep the key yourself and add it to the report
+only after scoring. Save the report in `research/quality/blind-check-<date>.md`. The first
+runs: 2026-11-23 (West 23.7, Oost 23.5, Noord 22.7) and 2026-11-24 (new Noord, Oost and
+Nieuw-West rounds 23.6–24.1; old West places 17.5, almost all on Dutch pasted from sources,
+weak hooks and thin visitor info). The rules below are what lifted the newer rounds.
+
+### When enough is enough: completeness tests
+
+Districts are not equal. Oud-West is 19th-century city packed with stories; Waterland is dikes
+and a few villages; IJburg is twenty years old. So completeness is **never a place count, a
+density target or a category quota**. The bar for a single place never drops to fill a thin
+area, and a thin area may stay thin. A district is complete when *looking harder stops paying
+off*, measured per **gebied** with five tests. Record the results in `COVERAGE.md`.
+
+1. **Sources exhausted.** Every sweep (1–7) is "done" for the gebied: its named sources were
+   gone through completely, not sampled. "Partial" names what is missing and why.
+2. **Saturation.** The last full scout round over the gebied yielded little: **fewer than 5
+   accepted new places, under 10% of the gebied's places, and no Amazing**. Merges into
+   existing places don't count as yield. If a round still turns up an Amazing place, or
+   more than that, do another. (Calibrated 2026-11-24: "none above Okay" was met almost
+   nowhere, even in districts that were plainly done.)
+3. **Blind recall** (the outside test). A fresh agent that has *not* seen the map or the
+   research files lists the 20 best off-the-A-list candidates for the gebied from independent
+   sources (local papers, district history sites, "hidden gems" lists, Atlas Obscura, Reddit
+   and blogs; not the sources the sweeps used as their main list). Then compare: **at least
+   85% must be on the map, merged into a place, or in a "checked and dropped" list with a
+   reason.** Every miss that passes the bar gets added. Below 85% means a sweep missed a whole
+   kind of thing: find which, and sweep for it.
+   - **Run it with a fresh agent**, told not to open deepcities.org, `pnpm dc`, `research/` or
+     `scripts/data/`, writing only `research/<area>/blind-recall-<date>.md`. A scout's own
+     self-check is weak (it already knows the map). It can run in parallel with drafting.
+   - Have it place each item by geocoding against the official buurten/gebieden, not by
+     guess: sources often put things in the wrong district.
+   - **Counting:** on the map, merged into a place, in the current shortlist being drafted, or
+     dropped with a reason in a SCOUT or notes file all count. Append a "Comparison with the
+     map" table per gebied to the recall file, then pass the misses to the next scout as
+     leads.
+   - What the misses taught so far: Noord-West's were all edge-of-town green and water
+     corners; Oost's were small one-offs (writers' houses, studios, art spaces); Nieuw-West's
+     were a whole neighbourhood (Nieuw-Sloten); West's were allotments, war memory and
+     Bos en Lommer, which never had a full round. A thin gebied (Sloterdijk Nieuw-West) may
+     honestly yield only 10: that's fine.
+4. **No unexplained blanks.** Lay a 500 m grid over the gebied's walkable land. Every cell
+   with no place gets either a place or a one-line reason in `COVERAGE.md` ("container port,
+   no public access", "2015 housing, nothing older", "allotments only, covered by X").
+   A reason is a fine answer; the point is that blanks are decided, not overlooked.
+   Count a cell as walkable when at least 20% of it is land inside the borough; put the
+   grid table (cell, gebied, place or reason) in `COVERAGE.md`. The grid script can live in
+   the scratchpad; record the cell counts.
+5. **Quality.** In a blind check (above), the gebied's sample averages **at least 22/30**
+   (the level of the 2026-11-23/24 rounds; it was "within 10% of West" until the check
+   showed West's own old places at 17.5), and no place scores below 18/30 without a fix or
+   a reason.
+
+**Character, not uniformity.** The mix of kinds follows the district, not a template: Noord
+leans industrial and waterland, Zuidoost community and post-war art, Weesp canal houses. Don't
+chase a category because West has many of it. But a kind that the district's own sources are
+full of (its local paper writes about its murals every month, its history society about its
+shipyards) must be well represented. The recall test catches a kind that was missed.
+
+**Loops as a check, not a target.** Each district gets 2–4 themed loops. A loop that needs
+a stop and can't find one in a stretch is a lead for test 4, not a reason to lower the bar.
+
+**After completion** the district is in maintenance: follow-ups, "Needs checking" flags, news
+(closures, removals, new works) and the user's own additions. Re-run blind recall when a
+year has passed or the area changes a lot (new neighbourhoods, big redevelopments).
+
+**Calibrated on West (2026-11-24).** West was built in about a day from monuments and three
+broad rounds, before the sweeps existed. Run against it, the tests found real gaps, not
+over-strict thresholds: blind recall 73% (Bos en Lommer 55%), most sweeps partial, grid 42 of
+46 cells, quality 17.5/30. Only the saturation rule was loosened (see test 2). So the tests
+stand, and West gets the same treatment as every other district: a full sweep round and a
+rewrite pass (`research/west/COVERAGE.md`).
+
+### Running a round (the coordinator's checklist)
+
+The pattern that worked for Noord, Oost and Nieuw-West (2026-11-23/24):
+
+- **Rounds.** Round 1: monuments and a general scout. Round A: sweeps 2–3 (art, war and
+  memory). Round B: sweeps 4–7. Round C: close the gaps COVERAGE.md lists, the blind-recall
+  misses and the 500 m grid. Round D, if needed: a short targeted round for the gebied that
+  isn't saturated. Then the verdict in COVERAGE.md.
+- **Scout** writes `SCOUT-<n>.md` (items numbered by round: 101, 201, 301…, each with pin,
+  hook, lead source, caveats, suggested rank, and "new place" or "merge into <exact title>")
+  and updates `COVERAGE.md`. Up to 3 helper agents.
+- **Brief** `BRIEF-<n>.md`: "same rules as the previous brief", then only what differs: the
+  user's decisions, the site checks to do first, and the slices.
+- **Slices own files.** Each slice creates its own `places/r<n>-<slice>.yaml` and
+  `notes/r<n>-<slice>.md` and may edit only the named merge targets in the existing files it
+  owns. Assign each existing file to exactly one slice; a merge whose target sits in another
+  slice's file goes in that slice's list. Titles never change in a merge.
+- **Run drafting as a workflow, 2–3 agents at a time** (BrowserOS can't take more), each
+  told to use at most one tab and close it, and to leave every other tab alone: the user's
+  and other sessions' tabs share the browser, and after a reconnect BrowserOS may label an
+  agent's own tab as the user's.
+- **Bar for a place.** A sculpture or plaque with no story of its own (who, why, a fight, a
+  first, a twist) is a Look for line in the nearest place, not a place. Modern architecture:
+  standouts only, but ordinary housing with a real story counts (the user asked for it).
+- **Homes, squats, mosques, renewal fights:** factual and balanced, sides named by
+  institution, private people not named, say what can be seen from public ground.
+- **After drafting:** validate every file in `places/`, grep for `—` and ` – `, assemble,
+  resolve every duplicate warning that involves a new title, then import (next section).
+  Drop or adjust anything the agents flagged, and note coordinator decisions at the end of
+  the slice's notes file.
+- **Record** the new ranks from the import's `created` results, append the round to
+  `COVERAGE.md` (places added, dropped and why, next step), update `research/FOLLOW-UPS.md`,
+  commit, push, report.
 
 ## 2. Research
 
@@ -63,21 +222,30 @@ with their lead sources, split into slices.
 **Many items** (more than about 8): split them into slices of 8–10 and give each slice to an
 agent. Use the brief, and tell each agent to write only its own files and never write to
 the live site. Use the BrowserOS neo browser for web pages and curl for APIs, with the
-header `User-Agent: deep-cities-research/0.1`. Review what comes back; don't trust it blindly.
+header `User-Agent: deep-cities-research/0.1`. Tell each agent to **close every tab it opened
+before it reports back** (the user doesn't want hundreds of research tabs left open), and close
+your own when you're done. Review what comes back; don't trust it blindly.
 
 ### Rules that matter most
 
-- **Two languages, both native.** Build the Dutch (`nl:`) out of the original Dutch wording of Dutch sources: register texts, nl.wikipedia, local news and history sites. Never translate the English.
+- **Two languages, both native.** Write the Dutch (`nl:`) from Dutch sources (register texts, nl.wikipedia, local news and history sites), using their terms and phrasing where they are apt. Never translate the English.
+  - **Write, don't paste.** No sentences lifted from a source: not from the register, Wikipedia, Stadscuratorium, artists' or museums' sites (copyright, and it reads stiff). No register jargon ("van hoge architectuurhistorische waarde", "periodekarakteristiek", "notabene"): say it as a person would.
   - Write the English natively. Gloss Dutch terms on first use.
-  - The facts must agree between the two. The emphasis may differ.
+  - **Same facts in both.** Every fact, date and hook in one language is in the other. The emphasis and wording may differ; the content may not.
 - **Current status, checked recently.** Art gets removed, shops close, horses leave balconies. For each item, find the latest news and say plainly whether it is still there.
+  - **Gone things: high bar.** This is a guide, not a history textbook. A gone thing goes on (or stays) only if at least one holds: something related to it is there today (a memorial, a trace, a successor, a name); the current state gives context for what happened; or it had a lasting impact. A gone bridge, artwork or factory with only a good story doesn't count. Otherwise fold one sentence into a nearby place or leave it out.
   - If it's gone but the story is good, pin the site and say clearly that it's gone. Put it in the title too, e.g. `(gone)`, and **always set `attributes: {status: Gone}`** (the map's Status field; the user wants gone things marked there).
   - Never leave the reader guessing ("we could not confirm whether…"). Never invite readers to report things ("spot it and tell us").
   - If you can't settle it, leave the claim out and note it for the user.
+- **Needs checking** (fields `check` and `check_note`). The body states only what is confirmed. When something can be settled on site, flag it instead of hedging in the text: `check: Location` (pin approximate), `Still there?` (no recent evidence it exists) or `Facts` (sources disagree on something that matters), and `check_note`: one line saying what exactly, also in `nl.attributes.check_note`. Readers can filter on it and go and look. One value per place: the biggest doubt goes in `check`, the note covers the rest. Don't flag parks or long walls pinned on a sensible point, or gone things. Clear both fields (`null`) once checked.
+- **Outlook** (fields `outlook`, `outlook_when`, `outlook_note`). When a place is known or likely to change or disappear (lease ends, demolition decided, renovation, a fight over its future), set `outlook` (Leaving or closing / Demolition planned / Under threat / Major change ahead / Temporarily closed), `outlook_when` if known ("early 2028") and a one-line `outlook_note`; both text fields also in `nl.attributes`. Say it in the body too, plainly. When the change happens, update the place (or mark it Gone) and clear the three fields. The map can be filtered on Outlook to keep tabs on these.
 - **Exact location.** Pin the object itself: the mural's wall, the statue, the entrance. Never a street centroid. Use 6 decimals.
 - **Rank.** Set `attributes.rank`: `Amazing` (worth going out of your way; rare, about 1 in 20), `Nice` (worth a stop if you're near), or `Okay` (a footnote for completists: plain listed fronts, small plaques, gone things without a strong story). Add new ranks to `scripts/data/amsterdam-c-list-ranks.json`.
 - **Visiting.** Say whether and how it can be seen: from the street, opening hours, seasonal (e.g. "on the pond mid-April to end October"), private.
-- **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list. Never use em dashes (use a colon, comma or parentheses); tell research agents the same.
+- **Find the hook.** Read the whole source, not just the description: the register's *cultuurhistorische context* (or "Redengevende omschrijving") and the end of the Wikipedia article are where the stories are (a plot meant for a market, a newspaper founded in secret, a church that became a recording studio). A listing alone is not a story: if a monument has none, it goes into an ensemble at Okay rather than getting a register summary of its own.
+- **Only what a visitor can see.** Don't describe interiors of private homes, working schools or offices unless you say they're closed, and say what *is* visible from the street. Give the current use and, where there is one, the way in (opening hours, services, concerts).
+- **Length.** About 150–250 words in the body. Don't bolt neighbouring things onto a place to fatten it; give them their own place or a Look for line.
+- **Tone.** Plain, concrete and a little wry. Lead with what's odd or disputed. End the body with a "Look for:" / "Let op:" list. Never use em dashes, nor a spaced en dash (" – ") standing in for one (use a colon, comma or parentheses); tell research agents the same.
   - Never mention the research process ("our notes", "the coordinator", "this brief").
 - **Sources.** Every fact needs a source. Put the sources in `links` (up to 6, registers first, distinct labels) and `sources:` (for reviewers; stripped before import).
   - Sensitive history (WWII, persecution, stereotypes in art, contested urban renewal): be factual and neither sensational nor evasive.
@@ -103,6 +271,16 @@ pnpm -s dc import sights scripts/data/amsterdam-<area>-<round>.json --upsert --n
 - `assemble.py` reads **every** file in `places/`. If you want to import only this round, trim the output to the new titles first.
 - Titles are the import key. Keep them stable, and rename only with `dc update`.
 - Read `summary` and every `failed` result, fix, and re-run. `--upsert` is safe to repeat.
+  A burst of `"Something went wrong"` failures is usually transient: run the same import
+  again until it reports 0 failed and everything unchanged.
+- **Commit every round's drafts before or right after importing.** West's rounds 2 and 3
+  went live from uncommitted files and were lost; 84 live places had no draft until they
+  were saved back from the site (`scripts/data/amsterdam-west-live-only-2026-11-24.json`).
+  The live site must never be the only copy.
+- **Upsert never removes photos** (and doesn't re-upload for places that have some). To drop
+  an outdated photo, `dc update <id>` with the remaining `photoIds`.
+- **Link labels:** distinct, no dashes: `Wikipedia (nl) Geuzenveld`, not `Wikipedia (nl) –
+  Geuzenveld`. Quote labels that contain a comma (the validator rejects split labels).
 - Verify a few places with `pnpm -s dc place <id>`, in English and in Dutch.
 - Commit the research folder and the `scripts/data` file. Run Python with `-B` so no `__pycache__` gets committed.
 
@@ -114,7 +292,17 @@ When the user corrects a fact (e.g. "the horse is long gone"):
 2. Patch `summary`, `body` and `translations.nl.body` (and the titles, if needed) **in both languages**.
    - Remove every sentence that the correction makes wrong, including the "Look for" items.
 3. Run `pnpm -s dc update <id> <patch.json> --note "<what and why>"`, then check the result.
-4. If the place came from a YAML file in `research/`, update that file too, so the next `--upsert` doesn't bring the old text back.
+4. If the place came from a YAML file in `research/`, update that file too, so the next `--upsert` doesn't bring the old text back. The same goes for any bulk rewrite of live text: the drafts must follow, or a later round's upsert (assemble reads every file) quietly reverts it.
+
+## Rewriting old places in bulk
+
+When a blind check shows a whole area below the current bar (West, 2026-11-24): export every
+live place with `dc place` into `research/<area>/rewrite/in/batch-NN.json` (about 36 per batch,
+grouped by neighbourhood), and have agents rewrite them to today's rules (hook up front,
+native Dutch written fresh, visitor info, 150–250 words, same facts re-checked) into
+`research/<area>/rewrite/out/batch-NN.yaml` with the **same titles**. Import with `--upsert`,
+then make those files the drafts of record so later rounds don't revert the text. Spot-check
+with a fresh blind sample afterwards.
 
 ## 4. Report
 

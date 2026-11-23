@@ -1,0 +1,688 @@
+# Weesp, civic slice: town hall, churches, synagogue, cinema, Roskamstraat and the other
+# groups in slices/civic.json (W1-W6, W22, W23, W26-W29), merged into 12 places
+# (see notes/civic.md). Dutch texts are spliced from the Dutch sources listed per place
+# (city and national register texts, nl.wikipedia, MIP Weesp, museumweesp.nl, NH Nieuws).
+
+# ================================================================ Town hall
+
+- title: Stadhuis Weesp and St. Bartholomeus Gasthuis
+  summary: A town hall built in 1772–1776 to look like a pocket Paleis op de Dam, paid for by gin money. Downstairs are the cells and the open courtroom; upstairs the first porcelain made in the Netherlands. Since 2022 it is "the most beautiful town hall of Amsterdam".
+  body: |
+    Weesp got rich on *jenever* (Dutch gin) and brandy: in the 18th century some thirty distilleries and ten mills worked here, and the richest distillers sat on the town council. They wanted the world to see it. Jacob Otten Husly, who also designed Felix Meritis in Amsterdam, gave them a neoclassical town hall modelled on Jacob van Campen's town hall of Amsterdam, now the Paleis op de Dam. The plot has no right angles, but Husly hid that so well that the front looks dead straight. The council first met here on 2 February 1776.
+
+    Until about 1800 the building was also the court. The front has three doors so that they could all be thrown open when a verdict was read in the *vierschaar* (the open court in the hall), and as many townspeople as possible could watch. Sentences such as flogging, branding and hanging were carried out on the square outside. The cells below were used by the police until well into the 20th century; today the cells and the hall are open to anyone during museum hours.
+
+    Behind and beside it stands the former St. Bartholomeus Gasthuis, a hospice and orphanage until 1954, then joined to the town hall. Its wing on the Gasthuissteeg has a carved door lintel dated 1623 with a bearded man, probably St Bartholomew; the 1650 wing on the Schoolsteeg has a gateway inscribed *St Bartolomevs Gast-Hvys 1650*.
+
+    On 24 March 2022 Weesp joined Amsterdam, after a 2018 referendum in which 57.4 percent chose Amsterdam over Gooise Meren. The district committee now meets in the old courtroom. Museum Weesp, on the second floor, holds one of the largest collections of Weesp porcelain (1759–1770) in the world.
+
+    Look for:
+    - the three front doors and the town arms in the pediment
+    - the iron gates of the vierschaar and the Justitia statue from the old town hall, in the hall
+    - the 1623 door lintel on the Gasthuissteeg
+    - the stepped gable on the Middenstraat with lion masks and the town arms
+    - the 1650 gateway with the gilded inscription, and above it a stone of 1552 brought from elsewhere
+  category: civic
+  lat: 52.306702
+  lng: 5.042816
+  address: Nieuwstraat 41-43
+  links:
+    - { label: Rijksmonumentenregister (38608), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38608" }
+    - { label: Rijksmonumentenregister (38609), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38609" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Stadhuis_van_Weesp" }
+    - { label: Museum Weesp, url: "https://museumweesp.nl/altijd-te-zien/stadhuis" }
+    - { label: NH Nieuws (250 years), url: "https://www.nhnieuws.nl/nieuws/356832/het-stadhuis-van-weesp-bestaat-250-jaar-gebouwd-om-te-imponeren" }
+    - { label: NH Nieuws (referendum), url: "https://www.nhnieuws.nl/nieuws/221650/weesp-kiest-voor-aansluiting-bij-amsterdam" }
+  attributes:
+    rank: Amazing
+    heritage_status: National monument
+    monument_number: 38608, 38609
+    built: 1772–1776 (town hall); 1623, 1650 and 1911 (gasthuis wings)
+    architect: Jacob Otten Husly (town hall)
+    original_use: Town hall and court; hospice and orphanage
+  photos:
+    - commons:File:RM38608 Weesp - Nieuwstraat 41 (foto 1).jpg
+    - commons:File:Weesp - St. Bartolomeus Gasthuis RM38609.JPG
+    - commons:File:Gevel binnenplaats met fronton - Weesp - 20252306 - RCE.jpg
+  sources:
+    - rce:38608, 38609 (register texts)
+    - https://nl.wikipedia.org/wiki/Stadhuis_van_Weesp
+    - https://nl.wikipedia.org/wiki/Museum_Weesp
+    - https://museumweesp.nl/altijd-te-zien/stadhuis
+    - https://museumweesp.nl/actueel/openingstijden-en-prijzen
+    - https://www.nhnieuws.nl/nieuws/356832/het-stadhuis-van-weesp-bestaat-250-jaar-gebouwd-om-te-imponeren
+    - https://www.nhnieuws.nl/nieuws/221650/weesp-kiest-voor-aansluiting-bij-amsterdam
+    - https://nltimes.nl/2018/03/22/weesp-residents-vote-merge-amsterdam
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+  nl:
+    title: Stadhuis van Weesp en St. Bartholomeus Gasthuis
+    summary: Een stadhuis uit 1772–1776, geïnspireerd op het Paleis op de Dam en betaald met jenevergeld. Beneden de kerkers en de vierschaar, boven het eerste porselein van Nederland. Sinds 2022 'het mooiste stadhuis van Amsterdam'.
+    body: |
+      Het stadhuis van Weesp werd tussen 1772 en 1776 gebouwd door Jacob Otten Husly, die onder meer ook Felix Meritis in Amsterdam bouwde. Het neoclassicistische gebouw was een prestigeobject en relatief groot voor het aantal inwoners dat de stad telde. Er wordt wel gezegd dat het tot stand is gekomen dankzij de drank: de jenever- en brandewijnstokerijen zorgden samen met de bierbrouwerijen voor de belangrijkste inkomsten van de stad, en de rijkste stokers en brouwers zaten in de stadsregering. Otten Husly liet zich inspireren door het stadhuis van Amsterdam van Jacob van Campen, het latere Paleis op de Dam. Het perceel heeft geen rechte hoeken, maar Otten Husly wist dat zo te camoufleren dat de voorgevel er kaarsrecht uitziet. Op 2 februari 1776 vond de eerste vergadering van de vroedschap plaats.
+
+      Tot ca. 1800 was het stadhuis ook het gerechtsgebouw. Niet voor niets heeft de voorgevel drie deuren: bij een uitspraak werden ze alle drie opengezet, zodat zoveel mogelijk mensen erbij konden zijn. Geselen, brandmerken en ophanging gebeurden voor het stadhuis. De kerkers werden tot in de 20e eeuw gebruikt, toen het politiebureau nog in het stadhuis zat. De kerkers en de hal zijn tijdens openingstijden van het museum toegankelijk voor publiek.
+
+      Het voormalige St. Bartholomeusgasthuis is tot en met 1954 in gebruik geweest als gasthuis en weeshuis en daarna bij het stadhuis getrokken. Het deurkalf aan de Gasthuissteeg draagt het jaartal 1623 en een man met een baard, vermoedelijk Sint Bartholomeus; de vleugel aan de Schoolsteeg kwam in 1650 tot stand.
+
+      Sinds maart 2022 is Weesp onderdeel van de gemeente Amsterdam, nadat in 2018 een ruime meerderheid van 57,4 procent koos voor Amsterdam tegen 42,6 procent voor een fusie met Gooise Meren. Bij het 250-jarig bestaan in 2026 noemde Het Parool het gebouw "het mooiste stadhuis van Amsterdam". Museum Weesp op de tweede verdieping heeft een van de grootste collecties Weesper porselein ter wereld.
+
+      Let op:
+      - de drie deuren in de voorgevel en het fronton met stadswapen
+      - de door ijzeren hekken afgesloten vierschaar en het Justitiabeeld van het oude stadhuis in de hal
+      - het deurkalf met 'anno 1623' aan de Gasthuissteeg
+      - de trapgevel aan de Middenstraat met natuurstenen leeuwenkoppen en het wapen van Weesp
+      - de poort met vergulde tekst 'St Bartolomevs Gast-Hvys 1650' en de gevelsteen uit 1552
+    attributes:
+      built: 1772–1776 (stadhuis); 1623, 1650 en 1911 (vleugels gasthuis)
+      original_use: Stadhuis en gerechtsgebouw; gasthuis en weeshuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/38609
+      - https://nl.wikipedia.org/wiki/Stadhuis_van_Weesp
+      - https://museumweesp.nl/altijd-te-zien/stadhuis
+      - https://www.nhnieuws.nl/nieuws/221650/weesp-kiest-voor-aansluiting-bij-amsterdam
+
+# ================================================================ Churches
+
+- title: Grote Kerk Weesp
+  summary: A late-Gothic church whose Romanesque tower survived from an older tufa church. Up in the tower hangs a carillon with thirteen Hemony bells of 1671 and an hour bell of 1506; inside are a Gothic choir screen of about 1530 and a Bätz organ.
+  body: |
+    The Grote of Laurenskerk (Great or St Lawrence's Church) was rebuilt in brick from about 1429, and consecrated in 1462, on the site of a 13th-century tufa church. The lower three stages of the tower, with their pilaster strips and round-arched friezes, are left over from that older church. Late in the 15th century the nave was raised and aisles added, and the choir followed in the early 16th century. From 1489 the church had a college of paid professional singers. In 1577 it passed to the Protestants; most of the furnishings went, but the Gothic choir screen stayed.
+
+    The tower holds the town's sound. Thirteen of its carillon bells were cast by Pieter Hemony in 1671, one by Jan Moer in 1562; the hour bell is by Geert van Wou (1506), and the drum that plays the tunes dates from 1676. The carillon is still played by a carillonneur: in May 2024 it rang out *Europapa*, the Dutch Eurovision song, at noon. Inside are a cabinet organ of about 1800, the main organ by the Bätz brothers (1823), tombstones and hatchments. The church is used by the Protestant congregation of Weesp and Driemond.
+
+    Look for:
+    - the Romanesque lower stages of the tower
+    - the classical north porch with a domed roof (1673) and the late-Gothic door beside it
+    - inside, the choir screen of about 1530 with the Ten Commandments added after the Reformation
+    - the Rococo doorway to the vestry (1755) with a pelican feeding her young
+  category: religious
+  lat: 52.307267
+  lng: 5.042225
+  address: Nieuwstraat 31 (Kerkstraat)
+  links:
+    - { label: Rijksmonumentenregister (38550), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38550" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Grote_of_Laurenskerk_(Weesp)" }
+    - { label: Monumenten in Nederland (DBNL), url: "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php" }
+    - { label: NH Nieuws (Europapa), url: "https://www.nhnieuws.nl/nieuws/336025/beiaardier-grote-kerk-in-weesp-speelt-europapa-ik-kan-snel-spelen-als-het-moet" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "38550"
+    built: 13th century (tower base); 1429–1462, choir early 16th century
+    original_use: Parish church
+  photos:
+    - commons:File:Grote of Laurenskerk Weesp.jpg
+    - commons:File:Weesp - protestantse kerk - panoramio.jpg
+  sources:
+    - rce:38550 (register text)
+    - https://nl.wikipedia.org/wiki/Grote_of_Laurenskerk_(Weesp)
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+    - https://www.nhnieuws.nl/nieuws/336025/beiaardier-grote-kerk-in-weesp-speelt-europapa-ik-kan-snel-spelen-als-het-moet
+  nl:
+    title: Grote of Laurenskerk (Weesp)
+    summary: Laatgotische kerk met een romaanse toren, een restant van de eerdere kerk. In de toren een carillon met dertien klokken van Pieter Hemony (1671) en een uurklok uit 1506; binnen een koorhek van omstreeks 1530 en een Bätz-orgel.
+    body: |
+      De kerk werd tussen 1429 en 1462 als laatgotische kruiskerk gebouwd, op de plek waar eerder een romaanse kerk had gestaan. Vanaf 1489 was aan de kerk een zeven-getijdencollege verbonden met betaalde en professionele zangers. In 1577 ging de kerk over in protestantse handen. Daarbij ging een groot deel van het kerkmeubilair verloren, maar het gotische koorhek bleef behouden.
+
+      Boven in de romaanse toren, een restant van de eerdere kerk, bevindt zich een carillon. Volgens het rijksmonumentenregister werden daarvan 13 klokken gegoten door P. Hemony in 1671, 1 door J. Moer in 1562 en 1 door C. Noorden en J.A. de Grave in 1711, aangevuld met moderne klokken. Het trommelspeelwerk is van Roelof Ottensz (1676), de uurklok van G. van Wou (1506); de luidklokken zijn van H. Wegewaert (1614) en P. Hemony (1674). Het carillon wordt nog bespeeld: in mei 2024 speelde de beiaardier klokslag 12.00 uur Europapa van Joost Klein.
+
+      In de kerk bevinden zich twee orgels: het grote orgel van de gebroeders Bätz (1823) en een kabinetorgel uit circa 1800. Het kerkgebouw wordt gebruikt door de Protestantse Gemeente Weesp en Driemond.
+
+      Let op:
+      - de romaanse onderbouw van de toren
+      - het laatgotische koorhek van omstreeks 1530
+      - het gotisch bekroonde klankbord
+    attributes:
+      built: 13e eeuw (onderbouw toren); 1429–1462, koor begin 16e eeuw
+      original_use: Parochiekerk
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/38550
+      - https://nl.wikipedia.org/wiki/Grote_of_Laurenskerk_(Weesp)
+      - https://www.nhnieuws.nl/nieuws/336025/beiaardier-grote-kerk-in-weesp-speelt-europapa-ik-kan-snel-spelen-als-het-moet
+
+- title: Laurentiuskerk, Herengracht
+  summary: The Catholic answer to the Grote Kerk, built in 1875–1876 once Catholics could worship openly again. Its spire burned down in 2016, the copper weathercock vanished from the ruins, and the church now holds a brewery, flats and a hotel room.
+  body: |
+    After the Reformation Weesp's Catholics worshipped in hidden churches, first in a house on the Achtergracht and from 1792 in a church on the Herengracht that only looked like a church from inside. In 1875–1876 Theo Asseler replaced it with this neo-Gothic cross-shaped basilica, a sign of Catholic emancipation in the town. Money ran out, so the tower stopped at roof height until A.M. Bruning finished it with a tall needle spire in 1900, a landmark visible far across the flat polders. Inside are stained-glass windows of 1911 by the Nicolas studio of Roermond, and an organ that reuses part of the Strümphler organ (1772) from the hidden church.
+
+    Bad foundations closed the church in 2012; the last Mass was said on 27 April 2014. A developer bought it in 2016. On 8 November 2016 the spire caught fire and partly collapsed. Two weeks later the owner found that the copper weathercock, about a metre long, had disappeared, and he believed it had been stolen. A new spire was hoisted into place exactly two years after the fire, on 8 November 2018. The bells were taken out in 2019. Today the church holds the Wispe brewery with its taproom, apartments and a hotel room high in the tower.
+
+    Look for:
+    - the rose windows in the transept gables
+    - the stair turrets hugging the tower and the gabled clock stage
+    - the foundation stones of 1875 and 1947 in and near the tower
+  category: religious
+  lat: 52.309276
+  lng: 5.041036
+  address: Herengracht 16
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/fdfe7ea2-a0c2-4d1f-aa58-cfeb43fef432" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Sint-Laurentiuskerk_(Weesp)" }
+    - { label: NH Nieuws (weathercock), url: "https://www.nhnieuws.nl/nieuws/195695/Windhaan-van-kerk-in-Weesp-is-kwijt-na-de-brand-Twee-dieven-namen-hem-mee" }
+    - { label: NH Nieuws (bells), url: "https://www.nhnieuws.nl/nieuws/250900/weespers-komen-met-muzikale-ode-aan-verloren-klokkenspel-laurentiuskerk" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "450070003"
+    built: 1875–1876; tower completed 1900; spire rebuilt 2018
+    architect: Theo Asseler; A.M. Bruning (tower)
+    original_use: Roman Catholic parish church
+  photos:
+    - commons:File:Sint-Laurentiuskerk (Weesp).jpg
+    - commons:File:Weesp Oudegracht Laurentiuskerk zonder spits.jpg
+  sources:
+    - city:450070003 (register text)
+    - https://nl.wikipedia.org/wiki/Sint-Laurentiuskerk_(Weesp)
+    - https://www.nhnieuws.nl/nieuws/195695/Windhaan-van-kerk-in-Weesp-is-kwijt-na-de-brand-Twee-dieven-namen-hem-mee
+    - https://www.nhnieuws.nl/nieuws/234573/gelukt-de-torenspits-van-de-laurentiuskerk-staat-weer-op-zn-plek
+    - https://www.nhnieuws.nl/nieuws/250900/weespers-komen-met-muzikale-ode-aan-verloren-klokkenspel-laurentiuskerk
+    - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+  nl:
+    title: Sint-Laurentiuskerk (Weesp)
+    summary: Neogotische kruisbasiliek uit 1875–1876, teken van de katholieke emancipatie in Weesp. In 2016 brandde de torenspits af en verdween de koperen windhaan; nu zitten er een brouwerij, appartementen en een hotelkamer in.
+    body: |
+      De Grote Kerk ging na de reformatie over naar de protestanten. De katholieken van Weesp maakten daarna gebruik van schuilkerken, de laatste vanaf 1792 aan de Herengracht, alleen van binnen als kerk herkenbaar. In de jaren 1875-1876 is op die plaats de huidige kerk gebouwd, een neogotische kruisbasiliek naar ontwerp van Th. Asseler. Wegens geldgebrek werd de toren eerst slechts tot aan de nok van het schip opgebouwd; de bovenbouw werd in 1900 voltooid naar ontwerp van A.A.M. Bruning. Deze hoge toren is reeds van verre zichtbaar en is een herkenningspunt in het vlakke landschap. Aan de monumentale waarde dragen de transeptvensters, in 1911 gemaakt door het Roermondse atelier Nicolas, ten zeerste bij. Het orgel bevat nog elementen van een achttiende-eeuws Strümphler-orgel dat reeds dienst deed in de schuilkerk. Als teken van de katholieke emancipatie is het gebouw van waarde voor de geschiedenis van Weesp.
+
+      Wegens de slechte fundering moest de kerk in 2012 sluiten; op 27 april 2014 vond de laatste eucharistieviering plaats. In 2016 werd de kerk aangekocht door een projectontwikkelaar. Op 8 november 2016 stortte een deel van de torenspits neer tijdens een hevige brand. Kort daarna bleek de koperen windhaan spoorloos. "Het laatste wat we bedacht hadden was dat -ie gestolen zou zijn, maar toch is het wel zo," zei eigenaar Cees van Vliet. Exact twee jaar na de brand, op 8 november 2018, is de herbouwde torenspits teruggeplaatst. In 2019 werden de klokken uit de kerk gehaald. Nu zijn er een brouwerij met proeflokaal van de Wispe Brouwerij, appartementen en een hotelkamer gevestigd.
+
+      Let op:
+      - de roosvensters in de transeptgevels
+      - de traptorens met een spitsje tegen de romp van de toren
+      - de twee 'eerste stenen' met de jaartallen 1875 en 1947
+    attributes:
+      built: 1875–1876; toren voltooid 1900; spits herbouwd 2018
+      original_use: Rooms-katholieke parochiekerk
+    sources:
+      - https://data.amsterdam.nl/monumenten/fdfe7ea2-a0c2-4d1f-aa58-cfeb43fef432
+      - https://nl.wikipedia.org/wiki/Sint-Laurentiuskerk_(Weesp)
+      - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+      - https://www.nhnieuws.nl/nieuws/195695/Windhaan-van-kerk-in-Weesp-is-kwijt-na-de-brand-Twee-dieven-namen-hem-mee
+
+- title: Van Houtenkerk
+  summary: "The \"chocolate church\": built in 1905–1906 by two Van Houten sisters on the site of the family villa, right where the first cocoa factory stood. Neo-Romanesque outside, Art Nouveau and Berlage-style inside, with its 1907 Adema organ."
+  body: |
+    When the Van Houten cocoa company moved to its big new works west of town in the 1890s, the old factory on the Oudegracht was pulled down. On its land rose a post office, a school and this church, commissioned by Miss J.S. and Miss H.C. van Houten on the site of the family's demolished villa. B.J. Ouëndag designed it for the Nederlandsche Protestantenbond, a liberal Protestant association; it was consecrated on 9 December 1906. Locals call it the *chocoladekerkje* (little chocolate church). In the 15th and 16th centuries a convent with its chapel, the Oude Convent, stood here.
+
+    The complex is more than the church: a parsonage and vestry are built against the apse with their own door on the Nieuwstraat, next to a former *bewaarschool* (infant school) and a brick wall with wrought-iron railings around a small courtyard. Van Houten gave the church to the congregation in 1940, and in 2009 the congregation passed it to Stadsherstel, which restored it and rents it out for concerts and events. The furnishings are largely original. It is open on the last Sunday of the month from April to October, 12:00–16:00.
+
+    Look for:
+    - the tower built into the front, with glazed and coloured brick accents
+    - the ten big dormers with triple round-arched stained-glass windows lighting the hall
+    - on the Nieuwstraat side, the parsonage, the old infant school and the courtyard railings
+  category: religious
+  lat: 52.305958
+  lng: 5.043364
+  address: Oudegracht 69
+  links:
+    - { label: Rijksmonumentenregister (512906), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/512906" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Van_Houtenkerk" }
+    - { label: Stadsherstel, url: "https://stadsherstel.nl/en/eventlocatie/van-houtenkerk/" }
+    - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 512906, 512907, 512908, 512909
+    built: 1904–1906
+    architect: B.J. Ouëndag
+    listed: 1999
+    original_use: Church, parsonage and infant school of the Nederlandsche Protestantenbond
+  photos:
+    - commons:File:Van Houten Kerkje (Weesp).JPG
+    - commons:File:RM512906 Weesp - Oudegracht 69.jpg
+    - commons:File:Interieur - Weesp - 20252557 - RCE.jpg
+  sources:
+    - rce:512906, 512907, 512908, 512909 (register texts)
+    - https://nl.wikipedia.org/wiki/Van_Houtenkerk
+    - https://stadsherstel.nl/en/eventlocatie/van-houtenkerk/
+    - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+  nl:
+    title: Van Houtenkerk
+    summary: "Het 'chocoladekerkje': in 1904–1906 gebouwd in opdracht van de dames J.S. en H.C. van Houten op het terrein van een gesloopte Van Houten-villa, waar eerst de cacaofabriek stond. Neoromaans van buiten, met jugendstil van binnen."
+    body: |
+      De cacao- en chocoladefabriek van Van Houten stond aanvankelijk aan de Oudegracht. Na de verhuizing omstreeks 1890 is de fabriek gesloopt. Op de vrijgekomen plaats is een postkantoor gebouwd, een school en een kerk voor de Nederlandse Protestanten Bond. De Van Houtenkerk wordt ook wel het 'chocoladekerkje' genoemd, aangezien het in opdracht van de dames J.S. en H.C. van Houten werd gebouwd, op het terrein van een gesloopte villa van Van Houten. In de 15e en 16e eeuw stond op deze plaats het klooster met bijbehorende kapel het 'Oude Convent'.
+
+      De eerste bouwtekeningen dateren uit 1904, naar een ontwerp van B.J. Ouëndag. Op 9 december 1906 werd de kerk ingewijd. De kerk is gebouwd in overgangsarchitectuur met in het exterieur veel neoromaanse stijlmotieven; in het interieur zijn ook rationalistische en jugendstil-elementen aanwijsbaar. Aan de oostzijde zijn de consistorie en pastorie aangebouwd, met hun gemeenschappelijke ingang aan de Nieuwstraat. Daarnaast ligt de voormalige bewaarschool, en een erfscheiding met smeedijzeren hekwerken sluit de kleine binnenplaats af. In 1940 werd de kerk door de firma Van Houten aan de NPB geschonken. Sinds 2009 is Stadsherstel eigenaar; het gebouw is te huur voor allerlei culturele activiteiten.
+
+      Let op:
+      - de ingebouwde toren met accenten in gekleurde en geglazuurde baksteen
+      - de tien grote dakkapellen met drie gekoppelde rondboogvensters met glas-in-lood
+      - de pastorie, de bewaarschool en het hekwerk aan de Nieuwstraat
+    attributes:
+      original_use: Kerk, pastorie en bewaarschool van de Nederlandsche Protestantenbond
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/512906
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/512907
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/512908
+      - https://nl.wikipedia.org/wiki/Van_Houtenkerk
+      - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+
+- title: Lutherse Kerk, Nieuwstad
+  summary: A small Lutheran hall church of 1818 with a curved pediment, garlands over the door and a wooden bell tower. Since 2010 it is a dental practice, glass walls inside keeping the sense of the old church space.
+  body: |
+    Weesp's Lutherans had a church here from 1657. In 1818 they replaced it with the present brick hall church: tall pointed windows, a front with a curved pediment and a garland over the entrance, and a square wooden bell tower with a needle spire. The furnishings date from about 1820 but include pieces from the older church, among them an organ by the Amsterdam organ builder Johannes Stephanus Strümphler, consecrated in 1769 and moved into the new church in 1818.
+
+    The congregation left in 2006 when it merged with other Protestant groups in town, and the sale of the building in 2008 caused some division. After a conversion in 2010 it became a dental practice. The architects used glass walls generously, so that the space of the church interior still reads.
+
+    Look for:
+    - the curved pediment and the garland above the doorway
+    - the little wooden bell tower on the roof
+  category: religious
+  lat: 52.307054
+  lng: 5.040262
+  address: Nieuwstad 36
+  links:
+    - { label: Rijksmonumentenregister (38580), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38580" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Maarten_Lutherkerk_(Weesp)" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "38580"
+    built: "1818"
+    listed: 1974
+    original_use: Lutheran church
+  photos:
+    - commons:File:RM38580 Weesp - Nieuwstad 36-38.jpg
+    - commons:File:Weesp Maarten Lutherkerk.JPG
+  sources:
+    - rce:38580 (register text)
+    - https://nl.wikipedia.org/wiki/Maarten_Lutherkerk_(Weesp)
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+  nl:
+    title: Maarten Lutherkerk (Weesp)
+    summary: Lutherse zaalkerk uit 1818 met gebogen fronton, guirlande boven de ingangspartij en een aardige houten klokkentoren. Sinds 2010 een tandartspraktijk, met glazen wanden die het ruimtelijke effect van het kerkinterieur bewaren.
+    body: |
+      Sinds 1657 had de Lutherse kerk in Weesp een kerkgebouw, dat in 1818 door de huidige zaalkerk werd vervangen. Het bakstenen gebouw met hoge spitsboogvensters heeft een gebogen fronton. De ingangspartij is met guirlandes versierd. De vierkantige houten klokkentoren heeft een naaldspits. Het orgel van de Amsterdamse, uit Duitsland afkomstige orgelbouwer J.S. Strümphler werd op 27 augustus 1769 ingewijd en in 1818 door diens vroegere meesterknecht P.J. Teves in de nieuwe kerk geïnstalleerd.
+
+      In 2006 heeft de lutherse gemeente van Weesp het gebouw verlaten, in verband met de plaatselijke fusie met andere groepen binnen de Protestantse Kerk in Nederland. De verkoop van het pand in 2008 veroorzaakte enige verdeeldheid. Vervolgens is het gebouw in 2010 verbouwd en daarna is er een tandartspraktijk in gevestigd. Door een ruim gebruik van glazen wanden is ernaar gestreefd het ruimtelijke effect van het kerkinterieur te behouden.
+
+      Let op:
+      - het gebogen fronton en de guirlande boven de ingangspartij
+      - de houten klokkentoren met naaldspits
+    attributes:
+      original_use: Lutherse kerk
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/38580
+      - https://nl.wikipedia.org/wiki/Maarten_Lutherkerk_(Weesp)
+
+- title: Former synagogue, Nieuwstraat
+  summary: Weesp's synagogue of 1840, served a Jewish community that was forced out on 29 April 1942. After the war it was a garage; since 1997 it is a synagogue again. Stolpersteine lie in the pavement by the plaque.
+  body: |
+    Jews lived in Weesp from at least the 1770s; in 1774 they opened a house synagogue on the Korte Middenstraat. By 1840 that building was near collapse and too small, and with help from the town, the province and the state the community built a new synagogue on the corner of the Nieuwstraat and the Hanensteeg, inaugurated on 30 October 1840. It served Jews from Muiden, Nederhorst den Berg and Weesperkarspel too. The building is a transverse two-part house: the plastered left half was probably the cantor's home, the brick right half with three pointed windows the synagogue. Four years after it opened, a mob broke its windows after a false rumour; the culprits were punished.
+
+    In 1930 about fifty Jews lived in Weesp. During the occupation they were forced to leave for Amsterdam; the plaque gives 29 April 1942. Of some sixty-five Jewish men, women and children, seven came back. Only the Holy Ark survived the looting. After the war the synagogue was a garage. A plaque was placed in 1984, the entrance restored in 1986, and in 1997 the building was taken into use again as a synagogue and Jewish cultural centre, with the Council of Christians and Jews in the house next door.
+
+    Look for:
+    - the three pointed windows with plaster surrounds against the brick front
+    - the 1984 plaque: *Dit was de plaats waar zij de Eeuwige en elkaar ontmoetten* (This was the place where they met the Eternal and each other)
+    - the stolpersteine (memorial cobblestones) in the pavement in front
+  category: hidden-history
+  lat: 52.308119
+  lng: 5.041617
+  address: Nieuwstraat 3-5, corner Hanensteeg
+  links:
+    - { label: Rijksmonumentenregister (38600), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38600" }
+    - { label: Rijksmonumentenregister (38599), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38599" }
+    - { label: Jewish Cultural Quarter, url: "https://jck.nl/en/jewish-communities/weesp" }
+    - { label: Dutch Jewry, url: "https://dutchjewry.org/drieluik/weesp/weesp.shtml" }
+    - { label: HMdb (plaque), url: "https://www.hmdb.org/m.asp?m=214834" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 38600, 38599
+    built: 1840 (synagogue); 18th century (Nieuwstraat 3)
+    original_use: Synagogue and cantor's house
+  photos:
+    - commons:File:Weesp Nieuwstraat 3-5 38599 38600.JPG
+    - commons:File:RM38600 Weesp - Nieuwstraat 5.jpg
+    - commons:File:Stolpersteine in Weesp und Gedenktafel Synagoge (Weesp).jpg
+  sources:
+    - rce:38599, 38600 (register texts)
+    - https://jck.nl/en/jewish-communities/weesp
+    - https://dutchjewry.org/drieluik/weesp/weesp.shtml
+    - https://www.hmdb.org/m.asp?m=214834
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+    - https://masortiolami.org/connect/masorti-almere-weesp
+  nl:
+    title: Voormalige synagoge, Nieuwstraat
+    summary: De synagoge van 1840 diende een Joodse gemeenschap die op 29 april 1942 uit Weesp moest vertrekken. Na de oorlog een garage, sinds 1997 weer synagoge. Bij de gedenksteen liggen struikelstenen in de stoep.
+    body: |
+      De synagoge is ondergebracht in een dwars geplaatst tweebeukig pand uit 1840 met neoclassicistische details. Het gepleisterde linkerdeel was waarschijnlijk de woning van de voorzanger. De rechterhelft bezit in de gevel drie spitsbogige vensters met roedenverdeling en pleisteromlijsting, die afsteekt tegen de bakstenen gevel: het restant van de voormalige synagoge. Het naastgelegen pand met gepleisterde gevel en rechte kroonlijst uit de 18e eeuw vormt een geheel met het kerkgebouw.
+
+      Na 1945 is het synagogegedeelte tot 1986 (restauratie ingangspartij) in gebruik geweest als garage. Sinds de verdere restauratie in 1997 bevindt zich hier een (joods) cultureel centrum en is in de woning het Overlegorgaan van Joden en Christenen in Nederland gevestigd. Op de gedenksteen uit 1984 staat: "Dit was de plaats waar zij de Eeuwige en elkaar ontmoetten, tot ze zo maar weg waren. 29 april 1942. Voormalige synagoge 1840-1942."
+
+      Let op:
+      - de drie spitsbogige vensters met pleisteromlijsting in de bakstenen gevel
+      - de gedenksteen uit 1984
+      - de struikelstenen in de stoep voor het gebouw
+    attributes:
+      built: 1840 (synagoge); 18e eeuw (Nieuwstraat 3)
+      original_use: Synagoge en voorzangerswoning
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/38600
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/38599
+      - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+      - https://www.hmdb.org/m.asp?m=214834
+
+- title: Gereformeerde parsonage and BIOS building
+  summary: "All that is left of Egbert Reitsma's expressionist Reformed church of 1928–1929, which burned in the great Weesp fire of 3 April 1968: its brick parsonage on the Hoogstraat and a remnant of the church on the Middenstraat."
+  body: |
+    Egbert Reitsma, a Groningen architect of the artists' circle De Ploeg, built brick churches in a sculptural, expressionist style. His Gereformeerde Kerk (Reformed church) of 1928–1929 in Weesp, wedged in between the houses of the Hoogstraat with an open forecourt and a tall stepped roof, was counted among his best works.
+
+    On 3 April 1968 a smouldering cigarette in the spray shop of a plastics factory on the Nieuwstad started the biggest fire in Weesp's modern history. Strong wind carried burning scraps across town and started thirteen new fires; one of them gutted the church, destroying its tower and interior. It was later demolished.
+
+    Two pieces survive. The parsonage on the Hoogstraat kept its exterior and its unusual mix of materials, though the arcade at the entrance is a later addition. On the Middenstraat stands the former meeting hall, a remnant of the church building, heavily remodelled in 1983 and now known as the BIOS building. Both were listed in 2021 as rare examples of cubist expressionism in Weesp.
+
+    Look for:
+    - the angular brick masses and the materials of the parsonage front
+    - the expressionist remnant at Middenstraat 131, around the corner
+  category: religious
+  lat: 52.305972
+  lng: 5.045984
+  address: Hoogstraat 67; Middenstraat 131
+  links:
+    - { label: Monumentenregister Amsterdam (Hoogstraat 67), url: "https://data.amsterdam.nl/monumenten/360cd0df-fe54-4b7c-a3ba-5127d1b66e13" }
+    - { label: Monumentenregister Amsterdam (Middenstraat 131), url: "https://data.amsterdam.nl/monumenten/2b95ba1c-5b2b-47d5-9b60-b2a2bf9abec6" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Stadsbrand_van_Weesp_(1968)" }
+    - { label: "Wikipedia (nl, Reitsma)", url: "https://nl.wikipedia.org/wiki/Egbert_Reitsma" }
+    - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 450077010, 450120007
+    built: 1928–1929
+    architect: Egbert Reitsma
+    listed: 2021
+    original_use: Parsonage and meeting hall of the Gereformeerde Kerk
+  photos:
+    - commons:File:Grote brand in Weesp. Interieur kerk wat over bleef na de brand, Bestanddeelnr 921-2233.jpg
+  sources:
+    - city:450077010, 450120007 (register texts)
+    - https://nl.wikipedia.org/wiki/Stadsbrand_van_Weesp_(1968)
+    - https://nl.wikipedia.org/wiki/Egbert_Reitsma
+    - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+  nl:
+    title: Gereformeerde pastorie en BIOS-gebouw
+    summary: "Wat rest van de expressionistische Gereformeerde Kerk van Egbert Reitsma (1928–1929), die bij de grote stadsbrand van 3 april 1968 verloren ging: de pastorie aan de Hoogstraat en een restant van het kerkgebouw aan de Middenstraat."
+    body: |
+      De gereformeerde kerk aan de Hoogstraat werd in 1928–1929 gebouwd naar ontwerp van E. Reitsma. Deze kerk was tussen de bebouwing van de Hoogstraat ingesloten; voor de kerk was een open ruimte gecreëerd. Binnen het oeuvre van Reitsma behoorde de kerk in Weesp tot zijn topwerken.
+
+      Op 3 april 1968 vond een grote stadsbrand plaats in Weesp, de grootste brand in de moderne geschiedenis van de stad. Iets na 15.00 uur brak de brand uit in het pand van de polyesterfabrikant EBC aan de Nieuwstad/Achtergracht. Rondvliegende brandende papierdeeltjes en vonken veroorzaakten dertien nieuwe brandhaarden elders in de stad. Een van de meest in het oog springende branden was de Gereformeerde Kerk aan de Hoogstraat: de toren en het interieur werden verwoest, en het gebouw werd later gesloopt.
+
+      De pastorie op Hoogstraat 67 heeft een hoge architectonische waarde, vanwege de kwaliteit van het ontwerp in de stijl van het Kubistisch Expressionisme en de bijzondere materialisering. De boogstelling bij de ingang is later toegevoegd. Het BIOS-gebouw aan de Middenstraat 131, het voormalige vergadergebouw, is een restant van het kerkgebouw en in 1983 ingrijpend verbouwd. Beide zijn zeldzame voorbeelden van Kubistisch Expressionisme in Weesp en een zichtbare uiting van de Gereformeerde Kerk, een van de grootste kerkelijke stromingen uit de twintigste eeuw.
+
+      Let op:
+      - de hoofdlijnen en de materialisering van de gevels van de pastorie
+      - het restant van de kerk om de hoek, aan de Middenstraat 131
+    attributes:
+      original_use: Pastorie en vergadergebouw van de Gereformeerde Kerk
+    sources:
+      - https://data.amsterdam.nl/monumenten/360cd0df-fe54-4b7c-a3ba-5127d1b66e13
+      - https://data.amsterdam.nl/monumenten/2b95ba1c-5b2b-47d5-9b60-b2a2bf9abec6
+      - https://nl.wikipedia.org/wiki/Stadsbrand_van_Weesp_(1968)
+      - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+
+# ================================================================ Cinema
+
+- title: City of Wesopa
+  summary: A late Amsterdam School cinema, opened in 1948 after the town council had refused one before the war as too worldly. It closed when television came, decayed as a store, and since 1991 volunteers run it as a theatre and film house.
+  body: |
+    Plans for a cinema in Weesp existed in 1936, but the council of the day was against it: in its view there was no need for such a worldly place. After the war people were hungry for the American films they had missed, and cinemas went up all over the country. Garage owner J.H. Otto had this one built to a design by E.W. Raadsheer and C.J. Baart, and it opened on 14 October 1948. *Wesopa* is the old Latin name of Weesp.
+
+    It is a late example of the Amsterdam School: a front block in yellow brick holding the stairs and foyer, with a deep, high auditorium under a zinc-clad roof behind. Once television arrived in the 1950s the business dwindled, the cinema was too big for Weesp, and it closed and became a store for the art foundation Openbaar Kunstbezit. By the late 1980s it stood empty and run-down. The local film club persuaded the town to let it start a theatre there on a shoestring, and in 1991 Theater City of Wesopa opened, run almost entirely by volunteers. It still stages around 200 shows and films a year; in 2026 the city of Amsterdam renewed its lease.
+
+    Look for:
+    - the cantilevered concrete canopy over the entrance
+    - the framed centre bay with pilasters carrying an overhang on brackets
+    - the flagpole holders on capital-like ornaments at the sides
+  category: civic
+  lat: 52.308949
+  lng: 5.039778
+  address: Herengracht 23
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/2fb0484b-8299-48d4-8cf3-553090743058" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/City_of_Wesopa" }
+    - { label: Gemeenteblad 2026 (lease), url: "https://zoek.officielebekendmakingen.nl/gmb-2026-319720.pdf" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "450070006"
+    built: 1947–1948; theatre conversion 1991
+    architect: E.W. Raadsheer, C.J. Baart
+    original_use: Cinema
+  photos:
+    - commons:File:City of Wesopa.jpg
+  sources:
+    - city:450070006 (register text)
+    - https://nl.wikipedia.org/wiki/City_of_Wesopa
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+    - https://zoek.officielebekendmakingen.nl/gmb-2026-319720.pdf
+  nl:
+    title: City of Wesopa
+    summary: Bioscoop in late Amsterdamse School, geopend in 1948 nadat het gemeentebestuur er voor de oorlog niets van wilde weten. Na de komst van de televisie gesloten en verpauperd, sinds 1991 een theater van vrijwilligers.
+    body: |
+      In 1936 bestonden al plannen voor een bioscoop. Het toenmalige gemeentebestuur was daar tegen, omdat er naar zijn mening geen behoefte bestond aan een dergelijke wereldse gelegenheid. In de jaren na de Tweede Wereldoorlog hadden de Weespers behoefte aan vertier, omdat men zo lang verstoken was geweest van de nieuwste, vooral Amerikaanse films. Op 14 oktober 1948 werd de bioscoop geopend, gebouwd naar ontwerp van E.W. Raadsheer en C.J. Baart in opdracht van garagehouder J.H. Otto. Wesopa is de oude Latijnse benaming voor Weesp.
+
+      De architectuur vormt een laat voorbeeld van de Amsterdamse School. In het rechthoekige voorste deel met plat dak bevinden zich de trappen en de foyer; de diepe zaalruimte daarachter heeft een met zink bekleed zadeldak. Nadat de televisie in de jaren 50 haar intrede had gedaan, werd de bioscoop te groot voor Weesp. De City of Wesopa sloot de deuren en werd gebruikt als opslagplaats voor 'Openbaar Kunstbezit'. Het Filmhuis Weesp kreeg eind jaren 80 toestemming om er een theater te beginnen; door de inzet van vele vrijwilligers en sponsors ging in 1991 het nieuwe Theater City of Wesopa van start. In 2026 maakte de gemeente Amsterdam bekend het pand opnieuw aan de theaterstichting te verhuren.
+
+      Let op:
+      - de in beton uitgekraagde luifel boven de begane grond
+      - het omlijste middendeel met pilasters die met consoles een overstek dragen
+      - de verticale indiepingen aan de zijkanten met de vlaggenmasten
+    attributes:
+      built: 1947–1948; verbouwd tot theater 1991
+      original_use: Bioscoop
+    sources:
+      - https://data.amsterdam.nl/monumenten/2fb0484b-8299-48d4-8cf3-553090743058
+      - https://nl.wikipedia.org/wiki/City_of_Wesopa
+      - https://zoek.officielebekendmakingen.nl/gmb-2026-319720.pdf
+
+# ================================================================ Housing
+
+- title: Roskamstraat
+  summary: A short dead-end street built in stages from about 1870 to 1900, laid out almost symmetrically and shrinking as you walk in. Near-villas for a doctor and a mayor at the mouth, two-room workers' cottages at the far end.
+  body: |
+    West of the old town the land belonged to the Van Houten company, so little was built there. Only two *sloppen* (small dead-end streets) went up against the town moat: the Paul Krugerstraat, demolished in 1987, and the Roskamstraat. It was built in phases between about 1870 and 1900 and is laid out more or less as a mirror image. As you walk in, the street narrows and the houses get lower and plainer, so the whole social ladder of 19th-century Weesp stands in a hundred metres.
+
+    The corner blocks at the Buitenveer (nos. 1-5 and 2-6) are almost town mansions, with two storeys and an ornate dormer with a sliding hoisting beam. From 1876 Dr Kortenhorst lived at no. 1, and after 1909 the mayor, Cleveringa. Next come rows of four with T-windows, then no. 16, a business premises with wide double doors and cast-iron windows. At the end, nos. 19-23 and 22-26 are single-storey cottages under mansard roofs. All nine blocks are listed for the street as a whole. The pin is on nos. 1-5.
+
+    Look for:
+    - the rich dormers with wooden hoisting beams on nos. 1-5 and 2-6
+    - the original T-windows of nos. 3, 5 and 7-13
+    - the cast-iron arched windows and broad double doors of no. 16
+    - the mirrored fronts of nos. 19 and 21, with yellow and red brick arches
+    - the wrought-iron front garden railings and the yellow brick paving
+  category: housing
+  lat: 52.308087
+  lng: 5.036998
+  address: Roskamstraat 1-26
+  links:
+    - { label: Monumentenregister Amsterdam (1-5), url: "https://data.amsterdam.nl/monumenten/03ad8683-af50-4585-893e-f58d568bc669" }
+    - { label: Monumentenregister Amsterdam (16), url: "https://data.amsterdam.nl/monumenten/7bccf091-a849-4206-a872-0a4fa997c466" }
+    - { label: "Wikipedia (nl, municipal monuments)", url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
+    - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 450153001, 450153002, 450153003, 450153004, 450153005, 450153006, 450153007, 450153008, 450153009
+    built: about 1870–1900
+    original_use: Houses and a business premises
+  photos:
+    - commons:File:Weesp-roskamstraat-196394.jpg
+    - commons:File:Weesp-roskamstraat-196396.jpg
+    - commons:File:Overzicht Roskamstraat - Weesp - 20252021 - RCE.jpg
+  sources:
+    - city:450153001-450153009 (register texts)
+    - https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp
+    - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+  nl:
+    title: Roskamstraat
+    summary: "Doodlopende straat, in fasen gebouwd tussen ca. 1870 en 1900 en in hoofdlijnen symmetrisch. De straat wordt naar het eind smaller en de huizen lager: welhaast herenhuizen bij de ingang, arbeiderswoningen achteraan."
+    body: |
+      Aan de westzijde van de stad werd nauwelijks bebouwing gerealiseerd, voornamelijk omdat de gronden daar eigendom waren van Van Houten. Alleen tegen de singelsloot aan zijn hier twee sloppen gerealiseerd: de Paul Krugerstraat (ca. 1900, gesloopt in 1987) en de Roskamstraat. De bebouwing aan de Roskamstraat is in fasen tot stand gekomen en vertoont zowel in architectuur als in grootte een opvallende variëteit. De woningen bij de ingang vanaf het Buitenveer zijn welhaast herenhuizen, terwijl de laatste woningen arbeiderswoningen zijn.
+
+      De Roskamstraat is een doodlopende straat die in hoofdlijnen symmetrisch is bebouwd. De straat wordt naar het eind smaller, terwijl de huizen naar evenredigheid lager en eenvoudiger van opzet zijn. In nr. 1 woonde vanaf 1876 dr. Kortenhorst en na 1909 burgemeester Cleveringa. Roskamstraat 16 is een vrij groot pand met in het midden een zwaar kozijn met brede, dubbele deuren en getoogde gietijzeren vensters; de achtergevel heeft grote inrijdeuren en een hijshaak. Achteraan staan de eenlaagse huisjes onder een mansardekap. De Roskamstraat is als geheel van historisch-stedenbouwkundige waarde.
+
+      Let op:
+      - de rijkversierde dakkapellen met uitschuifbare houten hijsbalk bij nrs. 1-5 en 2-6
+      - de originele T-vensters bij nrs. 3, 5 en 7-13
+      - de gietijzeren vensters en dubbele deuren van nr. 16
+      - de gespiegelde gevels van nrs. 19 en 21 met segmentbogen in gele en rode steen
+      - de smeedijzeren tuinhekken en het straatwerk in gele klinkertjes
+    attributes:
+      built: ca. 1870–1900
+      original_use: Woonhuizen en een bedrijfspand
+    sources:
+      - https://data.amsterdam.nl/monumenten/03ad8683-af50-4585-893e-f58d568bc669
+      - https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp
+      - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+
+- title: Amsterdamse Huizen, Herensingel
+  summary: Twelve stacked flats behind one grand, symmetrical eclectic front (1876–1878). They were meant to launch a smart station quarter after the railway arrived in 1874; what followed was workers' housing, mostly cleared around 1980.
+  body: |
+    When the railway from Amsterdam to Hilversum opened in 1874, Weesp got a station just north of the old town. A development company called *de vereniging Amsterdam* (the Amsterdam association) planned a stylish station quarter, and in 1876–1878 built this block on the moat-side Herensingel: six houses, each with an upper and a lower flat, three storeys over a cellar under one hipped roof. Locals call them the Amsterdamse Huizen. The luxury quarter never came. Soon only speculative workers' housing was built alongside, and nearly all of that was demolished in the redevelopment of the station area from 1980. The block survived.
+
+    The fronts are designed as one symmetrical whole. The two middle houses get the richest treatment: a plastered entrance bay with extra window surrounds, panelled plaster on the raised ground floor and pediments over the porches. Old photos show a balustrade above the cornice there too.
+
+    Look for:
+    - the continuous classical cornice on rich brackets
+    - the three paired dormers with hoisting beams, the middle one with a curved pediment
+    - the keystones in plaster over every window arch
+    - the lambrequins (scalloped boards) under the first-floor windows
+  category: housing
+  lat: 52.310522
+  lng: 5.042947
+  address: Herensingel 15-37
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/830fa4c3-0085-4341-bb24-edd5fa965d53" }
+    - { label: MIP Weesp, url: "https://020apps.nl/mip/beschrijvingen/Weesp.pdf" }
+    - { label: "Wikipedia (nl, municipal monuments)", url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "450071001"
+    built: 1876–1878
+    original_use: Stacked upper and lower flats
+  photos:
+    - commons:File:Weesp-herensingel-196436.jpg
+  sources:
+    - city:450071001 (register text)
+    - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+    - https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+  nl:
+    title: Amsterdamse Huizen, Herensingel
+    summary: "Zes gestapelde herenhuizen met twaalf woningen achter één rijke, symmetrische gevel (1876–1878): het begin van een luxe stationswijk die er nooit kwam."
+    body: |
+      In 1874 is de spoorlijn Amsterdam-Hilversum aangelegd, die vlak langs Weesp voert. Even ten noorden van de oude stad is een station aangelegd. In eerste instantie lag het in de bedoeling om een royale stationswijk aan te leggen. De eerste bebouwing bestond uit de gestapelde herenhuizen aan de Herensingel, de zogenaamde 'Amsterdamse Huizen', ontwikkeld door de exploitatiemaatschappij 'de vereniging Amsterdam'. Kort daarna is men overgegaan op de bouw van arbeiderswoningen. Veel van deze bebouwing is bij de sanering van de stationsbuurt gesloopt en vervangen (ca. 1980).
+
+      Het onderkelderde huizenblok van drie bouwlagen en een kap bestaat uit zes, in hoofdzaak gelijkvormige panden, elk met twee boven elkaar gelegen woningen. De voorgevels zijn als één symmetrisch geheel opgezet en worden bekroond door een doorgaande, klassiek geprofileerde goot met rijke consoles. De twee middelste panden zijn geaccentueerd door een rijkere behandeling: de bel-etage heeft hier een bepleistering met cassetten en een fronton boven de portieken. Ook droeg het middendeel eertijds, blijkens oude foto's, een balustrade boven de gootlijst. Markant gelegen complex van rijke architectuur, dat zich door afmetingen en allure onderscheidt van andere bouwwerken uit deze stijlperiode in Weesp.
+
+      Let op:
+      - de doorgaande goot met rijke consoles
+      - de drie gekoppelde dakkapellen met hijsbalken, de middelste met gebogen fronton
+      - de rijke 'sluitstenen' in pleister boven de vensters
+      - de lambrequins onder de vensters van de eerste verdieping
+    attributes:
+      original_use: Gestapelde boven- en benedenwoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/830fa4c3-0085-4341-bb24-edd5fa965d53
+      - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+
+- title: Waagplein houses
+  summary: Two double houses of 1936 by J.D. van Arkel, in yellow brick with mansard roofs and leaded glass, showing traces of the Amsterdam School. Their roofs run straight over the front without overhang.
+  body: |
+    These two blocks of two houses each went up in 1936, a few steps from the Grote Kerk. Each block is a mirrored double house: one storey under a mansard roof set at right angles to the front, in yellow-toned brick over a plinth of dark sintered brick. The two front doors share one canopy, and between them sit the small toilet windows. The architect was J.D. van Arkel, who later designed the church of the Apostolic Society in Weesp (1957).
+
+    The city lists them as intact houses on a remarkable spot, with Amsterdam School traits. None is fully original outside, but every original form and detail is still there in the whole.
+
+    Look for:
+    - the shared canopy over each pair of doors, with the tiny toilet windows between
+    - the leaded-glass transoms, also over the front doors
+    - the roof tiles running over the gable without an overhang
+    - the horizontal glazing bars still in the windows of nos. 6 and 8
+  category: housing
+  lat: 52.307601
+  lng: 5.042955
+  address: Waagplein 2-8
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/31c27c21-e506-48aa-8c1a-5e67873e4a12" }
+    - { label: "Wikipedia (nl, municipal monuments)", url: "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "450192001"
+    built: "1936"
+    architect: J.D. van Arkel
+    original_use: Houses
+  photos:
+    - commons:File:Weesp-waagplein-196411.jpg
+  sources:
+    - city:450192001 (register text)
+    - https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp
+    - https://020apps.nl/mip/beschrijvingen/Weesp.pdf
+    - https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php
+  nl:
+    title: Woningen Waagplein
+    summary: Twee woonblokken van elk twee woningen uit 1936 naar ontwerp van J.D. van Arkel, in geel genuanceerde baksteen onder een mansardekap, met glas in lood en trekken van de Amsterdamse School.
+    body: |
+      Twee woonblokken, elk bestaande uit twee woningen, gebouwd in 1936 naar ontwerp van J.D. van Arkel. Elk blok is een symmetrisch gebouwde dubbele woning met gespiegelde plattegrond: één bouwlaag onder een mansardekap haaks op de voorgevel, gedekt met rode verbeterd holle pannen. De gevels zijn uitgevoerd in geel genuanceerde baksteen op een plint van donker gesinterde baksteen. De voordeuren zijn gekoppeld door een luifel die deur en bovenlicht scheidt; onder de luifel vormen de toiletraampjes de verbinding tussen de deurkozijnen. Het dak heeft geen overstek, maar loopt met gevelpannen over de gevel door.
+
+      Uitwendig is geen van de woningen compleet in originele staat bewaard gebleven, maar in het totaalbeeld zijn alle originele vormen en details nog aanwezig. Gaaf bewaarde panden die opmerkelijk gesitueerd zijn, van belang vanwege de architectuur die trekken van de Amsterdamse School vertoont.
+
+      Let op:
+      - de gemeenschappelijke luifel boven de voordeuren met de toiletraampjes ertussen
+      - het glas in lood in de bovenlichten, ook van de voordeuren
+      - de gevelpannen waarmee het dak zonder overstek over de gevel doorloopt
+      - de horizontale roedeverdeling in de ramen van nrs. 6 en 8
+    attributes:
+      original_use: Woningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/31c27c21-e506-48aa-8c1a-5e67873e4a12
+      - https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp
+
+# ================================================================ Curiosities
+
+- title: Gate "Al voor een ander", Oudegracht
+  summary: A plain door between two canal houses, crowned by a carved stone of 1710 with a little row of buildings and a puzzling motto, "Al voor een ander" (All for another). It leads to a passage behind the Oudegracht.
+  body: |
+    Between Oudegracht 39 and 41 a narrow doorway leads to a passage behind the houses. Above it sits a sandstone lintel in three panels: *ANNO* on the left, *1710* on the right, and in the middle a small relief of a group of gabled buildings. Underneath runs the motto *AL VOOR EEN ANDER*, which can be read as "all for another" or "all for someone else".
+
+    What the motto meant is not recorded. The door, numbered 39a, opens onto the plot behind. The gate and its stone are listed as a national monument in their own right, filed in the register under property boundaries. It is a small find on a walk along the Oudegracht: easy to miss, easy to photograph.
+
+    Look for:
+    - the relief of buildings between ANNO and 1710
+    - the lettering of the motto under the panels
+  category: curiosities
+  lat: 52.307236
+  lng: 5.041037
+  address: between Oudegracht 39 and 41
+  links:
+    - { label: Rijksmonumentenregister (38618), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/38618" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "38618"
+    built: "1710"
+    original_use: Gateway to a passage
+  photos:
+    - commons:File:Weesp - Poortje Oudegracht 39-41 RM38618.JPG
+    - commons:File:Poortje - Weesp - 20252554 - RCE.jpg
+  sources:
+    - rce:38618 (register text)
+    - https://commons.wikimedia.org/wiki/File:Weesp_-_Poortje_Oudegracht_39-41_RM38618.JPG
+  nl:
+    title: Poortje 'Al voor een ander', Oudegracht
+    summary: "Een poortje tussen twee grachtenhuizen met een gebeeldhouwde steen uit 1710: een voorstelling van gebouwtjes en het opschrift 'Al voor een ander'. Het leidt naar een gang achter de Oudegracht."
+    body: |
+      Tussen Oudegracht 39 en 41 staat een poortje met gebeeldhouwde voorstelling en opschrift 'al voor een ander', anno 1710. De steen boven de deur is in drie vakken verdeeld: links 'ANNO', rechts '1710' en in het midden een reliëf van een groepje gebouwtjes met trapgevels. Daaronder staat het opschrift 'AL VOOR EEN ANDER'.
+
+      Het poortje is als rijksmonument ingeschreven onder de erfscheidingen. Het geeft toegang tot een gang naar het achterterrein, met het huisnummer 39a op de deur. Wat het opschrift precies betekende, is niet overgeleverd.
+
+      Let op:
+      - het reliëf met gebouwtjes tussen 'ANNO' en '1710'
+      - de letters van het opschrift onder de vakken
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/38618
+      - https://commons.wikimedia.org/wiki/File:Weesp_-_Poortje_Oudegracht_39-41_RM38618.JPG

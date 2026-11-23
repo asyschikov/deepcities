@@ -10,7 +10,7 @@ import json, os, sys, urllib.request, urllib.parse
 import yaml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_URL = "https://deep-cities.bookverse-app.workers.dev"
+DEFAULT_URL = "https://deepcities.org"
 
 
 def config():

@@ -52,8 +52,7 @@ done), merged sensibly:
 Then look for things in your slice that are **not** listed monuments but fit the map's
 other categories: `hidden-history` (WWII sites, vanished things, stories on a wall),
 `curiosities` (odd objects, gable stones, unusual street furniture), `odd-museums`,
-`green` (small gardens, hidden courtyards, city farms), `food-drink` (only institutions
-with history, not ordinary cafés), `street-art` (**murals and street art** — notable,
+`green` (small gardens, hidden courtyards, city farms), `food-drink` (very high bar: only places of real historic or cultural significance; no restaurants, bars or breweries that are merely good or have a nice story), `street-art` (**murals and street art** — notable,
 permanent, documented murals with a known artist). Aim for roughly 5–15 such places
 per slice, each with solid sources. Quality over quantity; skip anything you can't
 source or locate precisely.
