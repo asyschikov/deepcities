@@ -54,6 +54,14 @@ Don't skip step 1. The user wants to choose before anything is written or import
   - caveats (gone? not locatable? private? disputed?).
 
   Group the items by category. Then let the user pick, cut or add.
+- **Bring your calls with the shortlist.** The user delegates small curation calls (merge or
+  split, rank, Look for line vs own place, drop a thin item): make them, say them in a short
+  numbered "My calls" list, and ask one question ("Go?"). Still ask about shortlist picks,
+  new scope, A-list items and genuinely borderline food or gone items.
+- **The scout list is a lead, not a source.** Scouts get dates, attributions and locations
+  wrong surprisingly often (2026-11-23: an execution date belonging to someone else, "first
+  in the country" that was second, a pin 3.5 km off, an artwork's story taken from a
+  different object). Drafting agents verify everything and say what they corrected.
 
 ### The West standard: when a district is done
 
@@ -80,11 +88,20 @@ checked and the date, so it's clear what was swept and what wasn't.
 7. **Curiosities, green corners and odd museums**: Atlas Obscura, OSM, iamsterdam, the
    district's own "tips" pages, allotment parks, small museums.
 8. **Loops**: 2–4 themed routes per district. A loop that needs a stop where there is none
-   shows a gap; fill it.
+   shows a gap; fill it. *Parked by the user (2026-11-23): districts count as complete for
+   research without loops for now; keep route ideas in `notes/`.*
 
-Then a **blind quality check**: a fresh agent scores a random sample of the district's places
-against an equal sample from West (story, accuracy, pin, photo, Dutch), without knowing which
-is which. Fix what scores lower.
+Then a **blind quality check**: a fresh agent scores a random sample of places (8 per group is
+enough) on six criteria, 1–5 each: **story** (a real hook up front), **accuracy** (checked
+against the linked sources; EN and NL must agree), **pin**, **use** (what a visitor sees, when,
+what's private, a useful Look for list), **Dutch** (native, written, not pasted) and
+**writing** (plain, 150–250 words, no dashes). How: export the sample with `dc place`, strip
+the area fields (`borough`, `neighbourhood`, `subNeighbourhood`, `municipality`) and ids,
+shuffle with a fixed seed, number the files, keep the key yourself and add it to the report
+only after scoring. Save the report in `research/quality/blind-check-<date>.md`. The first
+runs: 2026-11-23 (West 23.7, Oost 23.5, Noord 22.7) and 2026-11-24 (new Noord, Oost and
+Nieuw-West rounds 23.6–24.1; old West places 17.5, almost all on Dutch pasted from sources,
+weak hooks and thin visitor info). The rules below are what lifted the newer rounds.
 
 ### When enough is enough: completeness tests
 
@@ -108,12 +125,31 @@ off*, measured per **gebied** with five tests. Record the results in `COVERAGE.m
    85% must be on the map, merged into a place, or in a "checked and dropped" list with a
    reason.** Every miss that passes the bar gets added. Below 85% means a sweep missed a whole
    kind of thing: find which, and sweep for it.
+   - **Run it with a fresh agent**, told not to open deepcities.org, `pnpm dc`, `research/` or
+     `scripts/data/`, writing only `research/<area>/blind-recall-<date>.md`. A scout's own
+     self-check is weak (it already knows the map). It can run in parallel with drafting.
+   - Have it place each item by geocoding against the official buurten/gebieden, not by
+     guess: sources often put things in the wrong district.
+   - **Counting:** on the map, merged into a place, in the current shortlist being drafted, or
+     dropped with a reason in a SCOUT or notes file all count. Append a "Comparison with the
+     map" table per gebied to the recall file, then pass the misses to the next scout as
+     leads.
+   - What the misses taught so far: Noord-West's were all edge-of-town green and water
+     corners; Oost's were small one-offs (writers' houses, studios, art spaces); Nieuw-West's
+     were a whole neighbourhood (Nieuw-Sloten); West's were allotments, war memory and
+     Bos en Lommer, which never had a full round. A thin gebied (Sloterdijk Nieuw-West) may
+     honestly yield only 10: that's fine.
 4. **No unexplained blanks.** Lay a 500 m grid over the gebied's walkable land. Every cell
    with no place gets either a place or a one-line reason in `COVERAGE.md` ("container port,
    no public access", "2015 housing, nothing older", "allotments only, covered by X").
    A reason is a fine answer; the point is that blanks are decided, not overlooked.
-5. **Quality parity with West.** In a blind check (above), the gebied's sample scores within
-   10% of West's on average, and no place scores below 18/30 without a fix or a reason.
+   Count a cell as walkable when at least 20% of it is land inside the borough; put the
+   grid table (cell, gebied, place or reason) in `COVERAGE.md`. The grid script can live in
+   the scratchpad; record the cell counts.
+5. **Quality.** In a blind check (above), the gebied's sample averages **at least 22/30**
+   (the level of the 2026-11-23/24 rounds; it was "within 10% of West" until the check
+   showed West's own old places at 17.5), and no place scores below 18/30 without a fix or
+   a reason.
 
 **Character, not uniformity.** The mix of kinds follows the district, not a template: Noord
 leans industrial and waterland, Zuidoost community and post-war art, Weesp canal houses. Don't
@@ -128,8 +164,46 @@ a stop and can't find one in a stretch is a lead for test 4, not a reason to low
 (closures, removals, new works) and the user's own additions. Re-run blind recall when a
 year has passed or the area changes a lot (new neighbourhoods, big redevelopments).
 
-**Calibrate on West first**: run tests 3 and 4 on West. West should pass; if it doesn't, the
-thresholds are wrong, not West.
+**Calibrated on West (2026-11-24).** West was built in about a day from monuments and three
+broad rounds, before the sweeps existed. Run against it, the tests found real gaps, not
+over-strict thresholds: blind recall 73% (Bos en Lommer 55%), most sweeps partial, grid 42 of
+46 cells, quality 17.5/30. Only the saturation rule was loosened (see test 2). So the tests
+stand, and West gets the same treatment as every other district: a full sweep round and a
+rewrite pass (`research/west/COVERAGE.md`).
+
+### Running a round (the coordinator's checklist)
+
+The pattern that worked for Noord, Oost and Nieuw-West (2026-11-23/24):
+
+- **Rounds.** Round 1: monuments and a general scout. Round A: sweeps 2–3 (art, war and
+  memory). Round B: sweeps 4–7. Round C: close the gaps COVERAGE.md lists, the blind-recall
+  misses and the 500 m grid. Round D, if needed: a short targeted round for the gebied that
+  isn't saturated. Then the verdict in COVERAGE.md.
+- **Scout** writes `SCOUT-<n>.md` (items numbered by round: 101, 201, 301…, each with pin,
+  hook, lead source, caveats, suggested rank, and "new place" or "merge into <exact title>")
+  and updates `COVERAGE.md`. Up to 3 helper agents.
+- **Brief** `BRIEF-<n>.md`: "same rules as the previous brief", then only what differs: the
+  user's decisions, the site checks to do first, and the slices.
+- **Slices own files.** Each slice creates its own `places/r<n>-<slice>.yaml` and
+  `notes/r<n>-<slice>.md` and may edit only the named merge targets in the existing files it
+  owns. Assign each existing file to exactly one slice; a merge whose target sits in another
+  slice's file goes in that slice's list. Titles never change in a merge.
+- **Run drafting as a workflow, 2–3 agents at a time** (BrowserOS can't take more), each
+  told to use at most one tab and close it, and to leave every other tab alone: the user's
+  and other sessions' tabs share the browser, and after a reconnect BrowserOS may label an
+  agent's own tab as the user's.
+- **Bar for a place.** A sculpture or plaque with no story of its own (who, why, a fight, a
+  first, a twist) is a Look for line in the nearest place, not a place. Modern architecture:
+  standouts only, but ordinary housing with a real story counts (the user asked for it).
+- **Homes, squats, mosques, renewal fights:** factual and balanced, sides named by
+  institution, private people not named, say what can be seen from public ground.
+- **After drafting:** validate every file in `places/`, grep for `—` and ` – `, assemble,
+  resolve every duplicate warning that involves a new title, then import (next section).
+  Drop or adjust anything the agents flagged, and note coordinator decisions at the end of
+  the slice's notes file.
+- **Record** the new ranks from the import's `created` results, append the round to
+  `COVERAGE.md` (places added, dropped and why, next step), update `research/FOLLOW-UPS.md`,
+  commit, push, report.
 
 ## 2. Research
 
@@ -197,6 +271,16 @@ pnpm -s dc import sights scripts/data/amsterdam-<area>-<round>.json --upsert --n
 - `assemble.py` reads **every** file in `places/`. If you want to import only this round, trim the output to the new titles first.
 - Titles are the import key. Keep them stable, and rename only with `dc update`.
 - Read `summary` and every `failed` result, fix, and re-run. `--upsert` is safe to repeat.
+  A burst of `"Something went wrong"` failures is usually transient: run the same import
+  again until it reports 0 failed and everything unchanged.
+- **Commit every round's drafts before or right after importing.** West's rounds 2 and 3
+  went live from uncommitted files and were lost; 84 live places had no draft until they
+  were saved back from the site (`scripts/data/amsterdam-west-live-only-2026-11-24.json`).
+  The live site must never be the only copy.
+- **Upsert never removes photos** (and doesn't re-upload for places that have some). To drop
+  an outdated photo, `dc update <id>` with the remaining `photoIds`.
+- **Link labels:** distinct, no dashes: `Wikipedia (nl) Geuzenveld`, not `Wikipedia (nl) –
+  Geuzenveld`. Quote labels that contain a comma (the validator rejects split labels).
 - Verify a few places with `pnpm -s dc place <id>`, in English and in Dutch.
 - Commit the research folder and the `scripts/data` file. Run Python with `-B` so no `__pycache__` gets committed.
 
@@ -208,7 +292,17 @@ When the user corrects a fact (e.g. "the horse is long gone"):
 2. Patch `summary`, `body` and `translations.nl.body` (and the titles, if needed) **in both languages**.
    - Remove every sentence that the correction makes wrong, including the "Look for" items.
 3. Run `pnpm -s dc update <id> <patch.json> --note "<what and why>"`, then check the result.
-4. If the place came from a YAML file in `research/`, update that file too, so the next `--upsert` doesn't bring the old text back.
+4. If the place came from a YAML file in `research/`, update that file too, so the next `--upsert` doesn't bring the old text back. The same goes for any bulk rewrite of live text: the drafts must follow, or a later round's upsert (assemble reads every file) quietly reverts it.
+
+## Rewriting old places in bulk
+
+When a blind check shows a whole area below the current bar (West, 2026-11-24): export every
+live place with `dc place` into `research/<area>/rewrite/in/batch-NN.json` (about 36 per batch,
+grouped by neighbourhood), and have agents rewrite them to today's rules (hook up front,
+native Dutch written fresh, visitor info, 150–250 words, same facts re-checked) into
+`research/<area>/rewrite/out/batch-NN.yaml` with the **same titles**. Import with `--upsert`,
+then make those files the drafts of record so later rounds don't revert the text. Spot-check
+with a fresh blind sample afterwards.
 
 ## 4. Report
 
