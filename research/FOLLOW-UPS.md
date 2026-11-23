@@ -73,3 +73,7 @@ Most of these and of "Status to confirm" are also flagged on the live map with t
 ## Spaced en dashes in old drafts (found 2026-11-23)
 
 About 150 spaced en dashes (" – ") remain in the oldest sights drafts, mostly prose in `research/west/places/baarsjes.yaml` (60), `bos-en-lommer.yaml` (37), `oud-west.yaml` (23), `vondelpark.yaml` (5), plus one each in `spaarndammer.yaml`, `zuidoost/places/memory.yaml` and `oost/places/r2-ijburg.yaml`. Replace each with a colon, comma or parentheses as part of the whole-map quality pass, then upsert. (`research/ams-school` is a different map; same rule applies there.)
+
+## Parked: loops (sweep 8)
+
+Themed walking and cycling routes for Noord, Oost and Nieuw-West are parked by the user (2026-11-23). Route ideas are in each district's `notes/*.md`. Districts count as complete for research without them for now.
