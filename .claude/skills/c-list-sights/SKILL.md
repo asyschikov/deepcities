@@ -97,9 +97,10 @@ off*, measured per **gebied** with five tests. Record the results in `COVERAGE.m
 1. **Sources exhausted.** Every sweep (1–7) is "done" for the gebied: its named sources were
    gone through completely, not sampled. "Partial" names what is missing and why.
 2. **Saturation.** The last full scout round over the gebied yielded little: **fewer than 5
-   accepted new places, none above Okay**, or under 10% of the gebied's places. Merges into
-   existing places don't count as yield. If a round still turns up Nice or Amazing places,
-   do another.
+   accepted new places, under 10% of the gebied's places, and no Amazing**. Merges into
+   existing places don't count as yield. If a round still turns up an Amazing place, or
+   more than that, do another. (Calibrated 2026-11-24: "none above Okay" was met almost
+   nowhere, even in districts that were plainly done.)
 3. **Blind recall** (the outside test). A fresh agent that has *not* seen the map or the
    research files lists the 20 best off-the-A-list candidates for the gebied from independent
    sources (local papers, district history sites, "hidden gems" lists, Atlas Obscura, Reddit
