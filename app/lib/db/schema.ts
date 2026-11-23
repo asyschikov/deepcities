@@ -50,6 +50,8 @@ export const profile = sqliteTable(
     email: text("email").notNull(),
     name: text("name").notNull(),
     bio: text("bio"),
+    /** Portrait in R2 at `avatars/<avatarId>`; a new id on every upload. */
+    avatarId: text("avatar_id"),
     role: text("role", { enum: GLOBAL_ROLES }).notNull().default("user"),
     createdAt: createdAt(),
   },

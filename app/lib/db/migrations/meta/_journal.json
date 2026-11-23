@@ -120,6 +120,13 @@
       "when": 1795446987260,
       "tag": "0016_gone_reports",
       "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1795453216420,
+      "tag": "0017_avatars",
+      "breakpoints": true
     }
   ]
 }

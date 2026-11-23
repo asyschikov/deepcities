@@ -111,6 +111,17 @@ const handleCheckinMedia = async (
   return new Response(object.body, { headers });
 };
 
+/** A profile portrait: public; each upload gets a new id, so cache forever. */
+const handleAvatar = async (avatarId: string, env: ServerEnv) => {
+  const object = await env.R2.get(`avatars/${avatarId}`);
+  if (!object) return new Response("Not found", { status: 404 });
+  const headers = new Headers();
+  object.writeHttpMetadata(headers);
+  headers.set("Cache-Control", "public, max-age=31536000, immutable");
+  headers.set("ETag", object.httpEtag);
+  return new Response(object.body, { headers });
+};
+
 export default {
   async fetch(
     request: Request,
@@ -129,6 +140,10 @@ export default {
     const own = /^\/media\/checkins\/([a-z0-9]+)$/.exec(pathname);
     if (own?.[1] && request.method === "GET")
       return handleCheckinMedia(request, own[1], env);
+
+    const avatar = /^\/media\/avatars\/([a-z0-9]+)$/.exec(pathname);
+    if (avatar?.[1] && request.method === "GET")
+      return handleAvatar(avatar[1], env);
 
     const media = /^\/media\/photos\/([a-z0-9]+)$/.exec(pathname);
     if (media?.[1] && request.method === "GET")

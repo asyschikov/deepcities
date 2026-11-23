@@ -237,7 +237,9 @@ export const documentRouter = router({
             note: true,
             createdAt: true,
           },
-          with: { editor: { columns: { id: true, name: true } } },
+          with: {
+            editor: { columns: { id: true, name: true, avatarId: true } },
+          },
           orderBy: desc(documentRevision.revision),
           limit: 50,
         }),

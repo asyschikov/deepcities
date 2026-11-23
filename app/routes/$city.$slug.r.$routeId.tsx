@@ -37,6 +37,7 @@ import {
   stopPins,
 } from "~/components/RouteParts";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import {
   Dialog,
@@ -597,22 +598,32 @@ const RoutePage = () => {
           </h2>
           <ol className="space-y-2 text-xs text-muted-foreground">
             {history.map((h) => (
-              <li key={h.id}>
-                <span className="font-medium text-foreground">
-                  {t(`history_route_${h.kind}`, {
-                    name: h.author?.name ?? t("someone"),
-                  })}
-                </span>
-                {h.reviewer && h.reviewer.id !== h.author?.id && (
-                  <> · {t("history_approved_by", { name: h.reviewer.name })}</>
-                )}
-                {h.reviewedAt && (
-                  <>
-                    {" "}
-                    · {formatDistanceToNow(h.reviewedAt, { addSuffix: true })}
-                  </>
-                )}
-                {h.note && <div className="italic">“{h.note}”</div>}
+              <li key={h.id} className="flex gap-2">
+                <UserAvatar
+                  name={h.author?.name ?? "?"}
+                  avatarId={h.author?.avatarId}
+                  className="mt-0.5 size-5 text-[10px]"
+                />
+                <div>
+                  <span className="font-medium text-foreground">
+                    {t(`history_route_${h.kind}`, {
+                      name: h.author?.name ?? t("someone"),
+                    })}
+                  </span>
+                  {h.reviewer && h.reviewer.id !== h.author?.id && (
+                    <>
+                      {" "}
+                      · {t("history_approved_by", { name: h.reviewer.name })}
+                    </>
+                  )}
+                  {h.reviewedAt && (
+                    <>
+                      {" "}
+                      · {formatDistanceToNow(h.reviewedAt, { addSuffix: true })}
+                    </>
+                  )}
+                  {h.note && <div className="italic">“{h.note}”</div>}
+                </div>
               </li>
             ))}
           </ol>

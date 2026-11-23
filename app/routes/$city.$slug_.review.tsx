@@ -22,6 +22,7 @@ import { MapView } from "~/components/MapView";
 import { PageShell } from "~/components/PageShell";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
 import { RouteProposalBody } from "~/components/RouteReview";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
@@ -287,7 +288,12 @@ const ProposalCard = ({
             : (item.draft?.title ?? item.place?.title)}
         </span>
         <StatusBadge status={item.status} />
-        <span className="ml-auto text-xs text-muted-foreground">
+        <span className="ml-auto flex items-center gap-1.5 text-xs text-muted-foreground">
+          <UserAvatar
+            name={item.author?.name ?? "?"}
+            avatarId={item.author?.avatarId}
+            className="size-5 text-[10px]"
+          />
           {t("review_by", { name: item.author?.name ?? t("someone") })} ·{" "}
           {formatDistanceToNow(item.createdAt, { addSuffix: true })}
         </span>

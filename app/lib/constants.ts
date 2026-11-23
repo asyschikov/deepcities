@@ -167,6 +167,9 @@ export const MAX_PHOTOS_PER_CHECKIN = 6;
 export const MAX_PHOTOS_PER_PLACE = 8;
 export const MAX_LINKS_PER_PLACE = 6;
 export const MAX_PHOTO_BYTES = 4 * 1024 * 1024;
+/** Portraits are cropped to AVATAR_SIZE px square in the browser. */
+export const AVATAR_SIZE = 512;
+export const MAX_AVATAR_BYTES = 1024 * 1024;
 
 export const SESSION_COOKIE = "dc_session";
 export const SESSION_TTL_DAYS = 60;

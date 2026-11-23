@@ -9,6 +9,7 @@ import {
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
 import { ModeSwitch } from "~/components/ModeSwitch";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -19,7 +20,7 @@ import {
   DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, getInitials } from "~/lib/utils";
+import { cn } from "~/lib/utils";
 
 interface MapCrumb {
   city: string;
@@ -128,10 +129,10 @@ export const SiteHeader = () => {
             <DropdownMenuTrigger asChild>
               <button
                 type="button"
-                className="flex size-8 items-center justify-center rounded-full bg-primary text-xs font-semibold text-primary-foreground"
+                className="rounded-full text-xs"
                 aria-label={t("header_account")}
               >
-                {getInitials(viewer.name)}
+                <UserAvatar name={viewer.name} avatarId={viewer.avatarId} />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-56">

@@ -57,7 +57,7 @@ export const routeRouter = router({
     .query(async ({ ctx, input }) => {
       const found = await ctx.db.query.route.findFirst({
         where: eq(route.id, input.routeId),
-        with: { author: { columns: { id: true, name: true } } },
+        with: { author: { columns: { id: true, name: true, avatarId: true } } },
       });
       if (!found)
         throw new TRPCError({ code: "NOT_FOUND", message: "Route not found" });
@@ -77,8 +77,8 @@ export const routeRouter = router({
             createdAt: true,
           },
           with: {
-            author: { columns: { id: true, name: true } },
-            reviewer: { columns: { id: true, name: true } },
+            author: { columns: { id: true, name: true, avatarId: true } },
+            reviewer: { columns: { id: true, name: true, avatarId: true } },
           },
           orderBy: desc(proposal.reviewedAt),
           limit: 50,

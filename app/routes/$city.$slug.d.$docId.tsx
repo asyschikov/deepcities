@@ -22,6 +22,7 @@ import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
 import { MarkdownView } from "~/components/MarkdownView";
 import { PhotoCredit } from "~/components/PhotoCredit";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import { localize, untranslated } from "~/lib/content-lang";
 import { galleryPhotoIds } from "~/lib/documents";
@@ -298,15 +299,22 @@ const DocumentPage = () => {
             </h2>
             <ol className="space-y-2 text-xs text-muted-foreground">
               {history.map((h) => (
-                <li key={h.id}>
-                  <span className="font-medium text-foreground">
-                    {t(`doc_history_${h.action}`, {
-                      name: h.editor?.name ?? t("someone"),
-                    })}
-                  </span>
-                  {" · "}
-                  {formatDistanceToNow(h.createdAt, { addSuffix: true })}
-                  {h.note && <div className="italic">“{h.note}”</div>}
+                <li key={h.id} className="flex gap-2">
+                  <UserAvatar
+                    name={h.editor?.name ?? "?"}
+                    avatarId={h.editor?.avatarId}
+                    className="mt-0.5 size-5 text-[10px]"
+                  />
+                  <div>
+                    <span className="font-medium text-foreground">
+                      {t(`doc_history_${h.action}`, {
+                        name: h.editor?.name ?? t("someone"),
+                      })}
+                    </span>
+                    {" · "}
+                    {formatDistanceToNow(h.createdAt, { addSuffix: true })}
+                    {h.note && <div className="italic">“{h.note}”</div>}
+                  </div>
                 </li>
               ))}
             </ol>

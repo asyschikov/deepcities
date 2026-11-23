@@ -1,0 +1,1 @@
+ALTER TABLE `profile` ADD `avatar_id` text;

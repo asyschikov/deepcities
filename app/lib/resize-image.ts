@@ -16,18 +16,34 @@ const blobToBase64 = (blob: Blob): Promise<string> =>
     reader.readAsDataURL(blob);
   });
 
-/** Downscale to ≤1600px on the long edge and re-encode (WebP, JPEG fallback). */
-export const resizeImage = async (file: File): Promise<ResizedImage> => {
+/**
+ * Downscale to ≤1600px on the long edge and re-encode (WebP, JPEG fallback).
+ * `square` centre-crops to a square of at most that size (for portraits).
+ */
+export const resizeImage = async (
+  file: File,
+  { square }: { square?: number } = {},
+): Promise<ResizedImage> => {
   const bitmap = await createImageBitmap(file);
-  const scale = Math.min(1, MAX_EDGE / Math.max(bitmap.width, bitmap.height));
-  const width = Math.round(bitmap.width * scale);
-  const height = Math.round(bitmap.height * scale);
+  const side = Math.min(bitmap.width, bitmap.height);
+  const src = square
+    ? {
+        x: (bitmap.width - side) / 2,
+        y: (bitmap.height - side) / 2,
+        w: side,
+        h: side,
+      }
+    : { x: 0, y: 0, w: bitmap.width, h: bitmap.height };
+  const edge = square ?? MAX_EDGE;
+  const scale = Math.min(1, edge / Math.max(src.w, src.h));
+  const width = Math.round(src.w * scale);
+  const height = Math.round(src.h * scale);
   const canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;
   const ctx = canvas.getContext("2d");
   if (!ctx) throw new Error("Canvas not available");
-  ctx.drawImage(bitmap, 0, 0, width, height);
+  ctx.drawImage(bitmap, src.x, src.y, src.w, src.h, 0, 0, width, height);
   bitmap.close();
 
   const encode = (type: string) =>

@@ -86,7 +86,7 @@ export const placeRouter = router({
     .query(async ({ ctx, input }) => {
       const found = await ctx.db.query.place.findFirst({
         where: eq(place.id, input.placeId),
-        with: { author: { columns: { id: true, name: true } } },
+        with: { author: { columns: { id: true, name: true, avatarId: true } } },
       });
       if (!found)
         throw new TRPCError({ code: "NOT_FOUND", message: "Place not found" });
@@ -108,8 +108,8 @@ export const placeRouter = router({
             createdAt: true,
           },
           with: {
-            author: { columns: { id: true, name: true } },
-            reviewer: { columns: { id: true, name: true } },
+            author: { columns: { id: true, name: true, avatarId: true } },
+            reviewer: { columns: { id: true, name: true, avatarId: true } },
           },
           orderBy: desc(proposal.reviewedAt),
           limit: 50,
