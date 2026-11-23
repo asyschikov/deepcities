@@ -69,3 +69,7 @@ Most of these and of "Status to confirm" are also flagged on the live map with t
   4. Weesp and Westpoort: one combined round each.
   5. West: fill in COVERAGE.md retrospectively and sweep any gap found.
 - After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.
+
+## Spaced en dashes in old drafts (found 2026-11-23)
+
+About 150 spaced en dashes (" – ") remain in the oldest sights drafts, mostly prose in `research/west/places/baarsjes.yaml` (60), `bos-en-lommer.yaml` (37), `oud-west.yaml` (23), `vondelpark.yaml` (5), plus one each in `spaarndammer.yaml`, `zuidoost/places/memory.yaml` and `oost/places/r2-ijburg.yaml`. Replace each with a colon, comma or parentheses as part of the whole-map quality pass, then upsert. (`research/ams-school` is a different map; same rule applies there.)

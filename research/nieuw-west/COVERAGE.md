@@ -11,13 +11,14 @@ Status: **done** (the sources listed were gone through for the whole gebied), **
 | 1 Monuments | done (round 1, 2026-11-21) | done (round 1, 2026-11-21) | done (round 1, 2026-11-21) | done (round 1, 2026-11-21) | done (round 1, 2026-11-21), see notes |
 | 2 Public art and walls | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) |
 | 3 War and memory | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) |
-| 4 Hidden history | partial (2026-11-23) | partial (2026-11-23) | done (2026-11-23) | partial (2026-11-23) | partial (2026-11-23) |
+| 4 Hidden history | done (round C, 2026-11-23) | done (round C, 2026-11-23) | done (2026-11-23) | done (round C, 2026-11-23) | done (round C, 2026-11-23) |
+| 4 Hidden history (round C) | round C, 2026-11-23 (SCOUT-4.md, items 305, 308, 309, 311 to 326) | Geheugen van West read in full: all 1,084 articles located in Nieuw-West (about 2.0 million characters, every article), plus the Nieuw-West sentences of the 1,339 articles filed elsewhere or unfiled (1,024 with hits); slotenoudosdorp.nl targeted (champion trees, Osdorperweg 386, Akerwegen, greenhouses) | archief.amsterdam beeldbank, amsterdamsloopt, Het Parool and AT5 archives still by search only (as for De Aker/Sloten/Nieuw-Sloten, which counted as done on the same footing); Joods Monument checked only for 313 (Meijer, still to confirm) |
 | 5 Behind the gate | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) |
 | 6 Modern and contested | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) |
 | 7 Curiosities, green, odd museums | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) | done (2026-11-23) |
 | 8 Loops | not done | not done | not done | not done | not done |
 
-Round 1 (SCOUT.md, 45 items, 2026-11-21) was a general scout that touched sweeps 2, 3, 4, 6 and 7 without going through their named sources. Round B (SCOUT-3.md, 2026-11-23) went through the named sources of sweeps 4 to 7 gebied by gebied. Sweep 4 is "partial" outside De Aker/Sloten/Nieuw-Sloten because Geheugen van West (the main memory archive for the garden cities) was fetched in full but only its titles were scanned, and newspapers and the archive image bank were reached through search only; De Aker/Sloten/Nieuw-Sloten is "done" because slotenoudosdorp.nl, its local history site, was read in full.
+Round 1 (SCOUT.md, 45 items, 2026-11-21) was a general scout that touched sweeps 2, 3, 4, 6 and 7 without going through their named sources. Round B (SCOUT-3.md, 2026-11-23) went through the named sources of sweeps 4 to 7 gebied by gebied. Until round C, sweep 4 was "partial" outside De Aker/Sloten/Nieuw-Sloten because Geheugen van West (the main memory archive for the garden cities) was fetched in full but only its titles were scanned, and newspapers and the archive image bank were reached through search only; De Aker/Sloten/Nieuw-Sloten is "done" because slotenoudosdorp.nl, its local history site, was read in full.
 
 ## Sources per sweep
 
@@ -55,3 +56,72 @@ Round 1 (SCOUT.md, 45 items, 2026-11-21) was a general scout that touched sweeps
 - Round B drafted and imported 2026-11-23: 26 new places, 19 places extended (BRIEF-3.md, places/r3-*.yaml). Nieuw-West has 157 places. Out by the user's call: 216, 218, 231 Startblok, Tuincentrum Osdorp. Lutkemeerpolder updated (laundry hall under construction, Raad van State ruling awaited); Adriaan van Oordthof given an outlook (Couperusbuurt plan, renovation from 2027).
 - Blind recall (fresh agent, blind-recall-2026-11-23.md): 80/90 (89%) counting round B; De Aker/Sloten/Nieuw-Sloten 80%, all its misses in Nieuw-Sloten (Olympic-village origin, 1990s low-rise architecture, jazz quarter, Akerpolder greenhouses). Other misses: Fruittuin van Moerkerken, Benali's wall poem, Van Gool's Osdorpplein flats, Pisuissehof, ICK Dans building, Heineken kidnap hut site.
 - Next: round C (the misses above, Nieuw-Sloten properly, sweep 4 partial gebieden via Geheugen van West in full), the 500 m grid, saturation verdict.
+
+## Round C (2026-11-23)
+
+- Scouted (SCOUT-4.md): 26 candidates (301 to 326), 10 new places and 16 merges; Nice 4 (301 Nieuw Sloten, 302 Rooie Reus, 305 Haci Bayram school, 309 't Landje), Okay 6, no Amazing. Every pin point-checked to borough Nieuw-West; live map read-only (1,006 places, 158 in Nieuw-West). Nothing drafted yet: the user picks.
+- Blind-recall misses (10): all resolved. Five taken up (Nieuw-Sloten's Olympic origin and its architecture in 301, the jazz quarter as a Look for line in 301, the Akerpolder in 303 and 304, Fruittuin van Moerkerken 307, Westbeat 310); four dropped with a reason (Benali's poems not shown to be installed, Van Gool's Osdorp flats without a story, Pisuissehof a name only, Heineken shed demolished 2010). With them De Aker/Sloten/Nieuw-Sloten reaches 20/20 and the borough 90/90 covered or decided.
+- Nieuw-Sloten swept: nl.wikipedia, Rodi, the architecture guide (by search), gebouwdin sector records, Kunstwacht records for the wijk, OASE and the WUR grower study, Geheugen van West. Irene Fortuyn has no work there. Middelveldsche Akerpolder is De Aker, not Nieuw-Sloten.
+- Sweep 4 now done in every gebied: Geheugen van West read in full (see "Sources per sweep").
+
+### Test 2: saturation
+
+| Gebied | New (round C) | Ranks | Share | Verdict |
+|---|---|---|---|---|
+| Geuzenveld-Slotermeer | 3 | Okay 3 | 6% of 48 | **met** (under 5, under 10%, none above Okay) |
+| Osdorp | 2 | Nice 1, Okay 1 | 6% of 32 | under 5 and under 10%; one Nice (305), so the strict reading is not met |
+| De Aker/Sloten/Nieuw-Sloten | 3 | Nice 2, Okay 1 | 12% of 26 | **not met**: Nieuw-Sloten was the missed kind; it is now swept |
+| Slotervaart | 2 | Nice 1, Okay 1 | 5% of 40 | under 5 and under 10%; one Nice (309), so the strict reading is not met |
+| Sloterdijk Nieuw-West | 0 | | 0 of 12 | **met** |
+
+Yield fell from round B (32 new, 17 Nice) to 10 new, 4 Nice, no Amazing. The Nice finds are single items from the recall and from Geheugen van West read in full, not a further missed kind.
+
+### Test 4: 500 m grid
+
+Method: a 500 m grid over borough Nieuw-West (rows A to O from 52.4005 N southwards, columns 1 to 14 from 4.7545 E eastwards; cell = 0.004492 deg lat x 0.007362 deg lng). Each cell sampled at 64 points against the borough polygon and OSM water and land use (Overpass, 13,099 polygons); "walkable land" = at least 20% of the cell is land inside Nieuw-West: 159 cells. Cells with a live place pin: Geuzenveld-Slotermeer 17 of 27, Osdorp 17 of 38, De Aker/Sloten/Nieuw-Sloten 15 of 30, Slotervaart 17 of 24, Sloterdijk Nieuw-West 16 of 40 (cells counted under the gebied holding most of their sample points). Round C candidates would fill E1 (304), H9 (306), H13 (309), J5 (305) and M8 (301). Scripts: scratchpad `nwC/bin/grid.py`, `nwC/bin/pcc.py`.
+
+| Gebied | Empty cells | Reason |
+|---|---|---|
+| Sloterdijk Nieuw-West | A3, A4, A5, B4, B6, B7, B8 | Sloterdijk Poort and De Heining business parks, a solar park and the bicycle depot: fenced or plain industry; the area's sights (RWZI West, Choreografie in staal and the Bornhout shelter, Lokroep) are pinned next door; solar park and substations dropped in round B (no story) |
+| Sloterdijk Nieuw-West | A2, B1, C1, C2 | body of the Geuzenbos and the De Heining edge; covered by "Geuzenbos" (pin at the lookout tower) and "Banpaal Spaarnwouderdijk" |
+| Sloterdijk Nieuw-West | A7 | harbour verge north of the Lange Bretten; nothing found |
+| Sloterdijk Nieuw-West | C3, D3 | Tuinen van West allotments (De Groote Braak) and the Fruittuin van West farm shop; covered by "Tuinen van West"; the farm shop is food, below the bar |
+| Sloterdijk Nieuw-West | C5, C6, C7, D5, D6, D7, D8 | the Lange Bretten nature strip and the De Bretten allotments beside the railway; covered by "Lange Bretten" (one long strip, one pin), "De 1800 Roeden" and "De 1200 Roe" |
+| Sloterdijk Nieuw-West | C10, C11 | Teleport and Westpoort office blocks; covered by "Station Sloterdijk and the Teleport offices", "All Aboard", "Kapkar/GTO-B10"; office conversions dropped in round B |
+| Sloterdijk Nieuw-West | D2 | A5/A9 junction and railway land, no public access |
+| Geuzenveld-Slotermeer | E2, E3, F4, F5 | Tuinen van West orchards, Fluisterbos, Nieuwe Bijenpark and Tuinpark Tigeno; covered by "Tuinen van West" and "Bij Goedvinding farm"; allotments dropped in round B (no story) |
+| Geuzenveld-Slotermeer | E5 | Sportpark De Eendracht; nothing |
+| Geuzenveld-Slotermeer | E9 | 1950s Slotermeer-Noordoost housing between Vrijheidscarillon, Kora and Sint Catharinakerk (all pinned on the cell edge); Geheugen van West read in full, nothing standing |
+| Geuzenveld-Slotermeer | F7, F8 | Eendrachtsparkbuurt, rebuilt in the 2000s renewal; Bakemabuurt, Al-Ihsane and Parkrand pinned on the edges; Geheugen van West's Eendrachtsparkbuurt memoirs describe only demolished blocks; Fruittuin van Moerkerken (307) is just north in E8 |
+| Geuzenveld-Slotermeer | G9 | Sloterpark north shore and Sloterparkbad; covered by "Sloterplas: the lake dug for sand" and "Heemtuin Sloterpark and Het Ruige Riet" (311 adds the labyrinth) |
+| Osdorp | F1, F2, G1, G2, G3, H3 | Lutkemeer and Osdorper Binnenpolder meadows, private farmland; covered by "Raesberg and the lost village of Raesdorp", "Bij Goedvinding farm", "Lutkemeerpolder" (322 adds the 1920 gemaal and lock) |
+| Osdorp | G5 | meadow behind Oud Osdorp and Tuinpark Tigeno; covered by "Oud-Osdorp cemetery and the Deckers tomb" (323 adds the champion ash) |
+| Osdorp | G6, G7 | Sportpark Ookmeer and the golf course; Payens's climbing wall is a Look for in "Poort van Constant" (round B 213) |
+| Osdorp | H2, I1, J1, J2, K2 | Business Park Amsterdam Osdorp (2010s) and the Lutkemeerpark by the A5; covered by "Lutkemeerpolder" and "Animaris Rhinoceros Transport"; nothing else |
+| Osdorp | I4, J4 | Westgaarde crematorium grounds and the Akerpoort offices; covered by "Tenerife monument (Westgaarde)" |
+| Osdorp | I8 | south-west shore of the Sloterplas; covered by the Sloterplas places and "Groot Landschap" |
+| Osdorp | J7 | Osdorpplein: the bronze lambs are in "Schaap met vijf poten", Senza Parole has left, Van Gool's flats dropped (SCOUT-4); De Meervaart and Chile vencerá pinned in J8 |
+| Osdorp | K6 | Osdorp-Midden and De Punt housing, Nieuw Zeeland (dropped in round B); "Pauluskerk" and "Hangbrugmaisonettes" 400 m |
+| Slotervaart | H10, I9 | Sloterpark east-shore woods; covered by the Sloterplas places and "Brug 675, Sloterpark" |
+| Slotervaart | H11 | Overtoomse Veld north (Kröller-Müllerpark), 1950s blocks renewed; "Self-build row" 300 m; Geheugen van West read, nothing |
+| Slotervaart | J13 | A10 and railway corridor at the borough edge; nothing to pin |
+| Slotervaart | L12 | Westlandgracht housing around the Delflandplein; "Lau Peters towers" and "Former Christian MTS" next door; nothing |
+| Slotervaart | N12 | Riekerhaven yacht harbour and the Zuidasdok works at the Nieuwe Meer; "De KasKantine" pinned next door; Startblok out by the user's call |
+| De Aker/Sloten/Nieuw-Sloten | L3, L4, L5, M5 | De Aker (1990s to 2004): its Kunstwacht works read in round A, no hook; "Akermolen", "Ontmoeting" and the Joop Woortmanplein memorial on the edges; 303 (Akerwegen) pins K4 and L6 |
+| De Aker/Sloten/Nieuw-Sloten | L7, L8, L9, M7 | Nieuw-Sloten housing and the Kasterleepark; covered by 301 (pin in M8, Look for lines for Van Dolderen's fence and Soeters's houses) and "Natuurpark Vrije Geer" |
+| De Aker/Sloten/Nieuw-Sloten | N10 | Riekerpolder office park and the A4 junction; "IBM headquarters" and "Amsterdam South Connection" next door |
+| De Aker/Sloten/Nieuw-Sloten | O7 | Sportpark Sloten and Tuingroep Eigen Hof; Ongenae's Betonplastiek (round 1 item 20, Okay) is not a place of its own; nothing else |
+| De Aker/Sloten/Nieuw-Sloten | O10 | De Oeverlanden woods; covered by "De Oeverlanden" |
+| De Aker/Sloten/Nieuw-Sloten | O11, O12 | Tuinpark Ons Buiten; its champion Osage orange (1950) is a Look for line in 302 |
+| De Aker/Sloten/Nieuw-Sloten | O13 | Jaagpadbos and the Zuidasdok building site at the Nieuwe Meer; nothing |
+
+Result: no unexplained blanks. The empty cells are business parks, polder meadow, allotments, sports parks, park woods and motorway land, plus a handful of renewed housing cells where Geheugen van West, read in full, found nothing standing.
+
+### Verdict and still open
+
+- Test 1: all sweeps 1 to 7 done in every gebied. Test 3: 90/90 after round C. Test 4: passes. Test 2: met in Geuzenveld-Slotermeer and Sloterdijk Nieuw-West; Osdorp and Slotervaart pass on the under-10% reading only; De Aker/Sloten/Nieuw-Sloten does not pass.
+- **Verdict (2026-11-23): Geuzenveld-Slotermeer and Sloterdijk Nieuw-West complete for research; Osdorp and Slotervaart complete on the under-10% reading (as Noord was); De Aker/Sloten/Nieuw-Sloten needs one short round D** after round C is drafted, aimed at Nieuw-Sloten and De Aker only (the Thoth book *Nieuw Sloten: laagbouw in hoge dichtheid* and De Wit's *Van Tuin tot Stad* through the library, the NieuwSloten Nieuws archive, Werkgroep Historie films on De Aker).
+- Sweep 8 (loops) and test 5 (blind quality check against West) not done.
+
+- Round C drafted and imported 2026-11-23: 8 new places, about 15 places extended (BRIEF-4.md, places/r4-*.yaml). Nieuw-West has 165 places. Out: 308 Jan Cupidohof (user's call), 315 (source described a different object).
+- Next: a short round D for Nieuw-Sloten and De Aker (the only gebied not saturated), then the verdict.
