@@ -161,7 +161,7 @@
     - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/58-59" }
     - { label: Stadscuratorium 43 kinderen, url: "https://stadscuratorium.nl/collectie/43-kinderen/" }
     - { label: Stadscuratorium Here Comes The Sun, url: "https://stadscuratorium.nl/collectie/here-comes-the-sun/" }
-    - { label: 4 en 5 mei, 43 Kinderen, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken" }
+    - { label: "4 en 5 mei, 43 Kinderen", url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken" }
   attributes:
     rank: Nice
     heritage_status: Municipal monument
@@ -422,10 +422,16 @@
 
     The octagonal iron music dome stands on a high base with a tent roof. Neighbourhood societies (the Vereeniging buiten de Muiderpoort, the male choir Euterpe and two bands) asked the city for it in 1903 and 1905; it was approved in 1907 and built by the Utrechtsche Machinefabriek to a Public Works design. The city dates the present dome to 1916, possibly replacing an earlier one. The park was renovated in 2014–15. The pin is on the dome.
 
+    The northern half of the park lies over the old Oosterbegraafplaats, laid out in 1860 just outside the Muiderpoort. More than 100,000 Amsterdammers were buried there; after 34 years it was full, and in 1894 De Nieuwe Ooster opened in the Watergraafsmeer. The clearance of the 1950s turned out to be incomplete: in 2017 works at the edge of the park hit human bones. City archaeologists recorded them and they were reburied at De Nieuwe Ooster, where since 2022 a memorial by Mies Wubs marks the spot for remains found at the city's vanished cemeteries. Nothing of the cemetery shows in the park today, except a sign on the fence by the 's-Gravesandeplein entrance.
+
+    Near the north path stands a white marble double bench by Eduard Jacobs, unveiled in November 1907 for Justus van Maurik (1846–1904), cigar maker and hugely popular writer of sentimental Amsterdam stories and farces. His friends meant it for the Vondelpark, which refused it. On its sides sit four of his characters in relief: Isaak van den Dam and Tijs Jolleman on one end, Mea de Portster and Oude Sientje on the other.
+
     Look for:
     - the dome's iron trusses and wreath of sloping roof planes
     - the long pond and its bridges
     - Jan Wolkers' Monument voor de Tachtigers and the stone for police dog Albert
+    - the sign on the fence left of the 's-Gravesandeplein entrance, telling how the old Oosterbegraafplaats had to make way for the park's northern half
+    - Van Maurik's characters on the sides of his bench
   category: green
   lat: 52.360935
   lng: 4.922044
@@ -435,6 +441,8 @@
     - { label: Amsterdam op de kaart (park), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/park" }
     - { label: Amsterdam op de kaart (dome), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Muziektent" }
     - { label: Wikipedia (nl) Oosterpark, url: "https://nl.wikipedia.org/wiki/Oosterpark_(Amsterdam)" }
+    - { label: Oost-Online (old cemetery), url: "https://oost-online.nl/nieuwe-plek-voor-resten-verdwenen-begraafplaatsen-op-de-nieuwe-ooster/" }
+    - { label: Wikipedia (nl) Justus van Maurikbank, url: "https://nl.wikipedia.org/wiki/Justus_van_Maurikbank" }
   attributes:
     rank: Nice
     heritage_status: Municipal monument
@@ -449,11 +457,17 @@
     - commons:File:2020 Muziekkoepel Oosterpark (1).jpg
     - commons:File:Oosterpark5.jpg
     - commons:File:2020 Monument voor de Tachtigers (1).jpg
+    - commons:File:Oosterpark, Justus van Maurik Bank kunstenaar Eduard Jacobs (1868-1914), Afb PRKBB00366000017.jpg
   sources:
     - city:200643 (register text)
     - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/park
     - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Muziektent
     - https://nl.wikipedia.org/wiki/Oosterpark_(Amsterdam)
+    - https://oost-online.nl/nieuwe-plek-voor-resten-verdwenen-begraafplaatsen-op-de-nieuwe-ooster/ (4 March 2022; Oosterbegraafplaats, 2017 finds, reburial)
+    - https://www.hmdb.org/m.asp?m=274045 (iAmsterdam marker on the fence by the 's-Gravesandeplein entrance, photographed 15 May 2025)
+    - https://nl.wikipedia.org/wiki/Justus_van_Maurikbank
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1212 (bench, city public art database)
+    - https://geheugenvanoost.amsterdam/page/109713/%F0%9F%8E%A7-justus-van-maurik-en-oud-amsterdam. (July 2024, bench in place on the north side)
   nl:
     title: Oosterpark en muziekkoepel
     summary: "Stadspark in Engelse landschapsstijl van Leonard Springer, in juni 1894 gereed, op de plek van de Oosterbegraafplaats. De muziekkoepel kwam er op verzoek van buurtverenigingen; de vijver werd groot gemaakt voor de schaatsers."
@@ -462,10 +476,16 @@
 
       De muziekkoepel heeft een achtzijdige plattegrond en bestaat uit een hoge sokkel met daarop een open muziekruimte met een tentdak dat wordt gedragen door ijzeren spanten. De koepel kwam er op verzoek van enkele buurtverenigingen, waaronder de mannenzangvereniging "Euterpe". Zij richtten zich in 1903 en 1905 tot het gemeentebestuur met het verzoek een muziektent te bouwen. In 1907 werd het verzoek ingewilligd, en een paar jaar later werd de ijzeren tent gebouwd, door de Utrechtsche Machinefabriek naar een ontwerp van Publieke Werken. Het gemeentelijke bureau Monumenten en Archeologie dateert de tent op 1916. In 2014/2015 werd het park gerenoveerd. De speld staat op de koepel.
 
+      In 1860 werd net buiten de Muiderpoort de Oosterbegraafplaats aangelegd. Dat is de plek waar nu het Oosterpark ligt. Ruim 100.000 Amsterdammers vonden hier hun laatste rustplaats. Na 34 jaar was de begraafplaats al vol en in 1894 werd de Nieuwe Oosterbegraafplaats geopend in de naastgelegen buurtgemeente Watergraafsmeer. In 2017 werden bij werkzaamheden aan de rand van het Oosterpark toch nog botresten gevonden: de ontruiming in de jaren vijftig bleek niet volledig te zijn uitgevoerd. De stadsarcheologen hebben de skeletresten in kaart gebracht, deels geborgen en onderzocht. Daarna zijn ze op De Nieuwe Ooster herbegraven, waar sinds 2022 het monument "Oneindigheid" van Mies Wubs de plek markeert voor resten van verdwenen begraafplaatsen. Een bord bij de ingang aan het 's-Gravesandeplein vertelt dat de oude Oosterbegraafplaats moest wijken om het noordelijk deel van het Oosterpark aan te kunnen leggen.
+
+      Aan de noordkant van het park staat een witmarmeren bank met in de rugleuning de naam Justus van Maurik. Na het overlijden van Van Maurik (1846-1904), sigarenfabrikant en populair schrijver, werd een comité opgericht om de herinnering aan hem levendig te houden. Het plan was de bank te plaatsen in het Vondelpark, maar het bestuur van dat park wees het verzoek af. In november 1907 werd de dubbele bank van beeldhouwer Eduard Jacobs in het Oosterpark onthuld. Op de zijkanten zijn vier personages uit Van Mauriks boeken in reliëf weergegeven: Isaak van den Dam en Tijs Jolleman aan de ene zijde, Mea de Portster en Oude Sientje aan de andere.
+
       Let op:
       - de ijzeren spanten en de krans van dakschilden van de koepel
       - de lange vijver met bruggetjes
       - het Monument voor de Tachtigers van Jan Wolkers en de steen voor politiehond Albert
+      - het bord aan het hek links van de ingang aan het 's-Gravesandeplein, over de oude Oosterbegraafplaats
+      - de personages van Van Maurik op de zijkanten van zijn bank
     attributes:
       built: 1891–1894 (park); ca. 1916 (muziekkoepel)
       architect: L.A. Springer (park); Publieke Werken en Utrechtsche Machinefabriek (koepel)
@@ -474,6 +494,10 @@
       - https://data.amsterdam.nl/monumenten/c5b7a7d1-4e98-477c-980e-befb4af49d53
       - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/park
       - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Muziektent
+      - https://oost-online.nl/nieuwe-plek-voor-resten-verdwenen-begraafplaatsen-op-de-nieuwe-ooster/
+      - https://www.hmdb.org/m.asp?m=274045
+      - https://nl.wikipedia.org/wiki/Justus_van_Maurikbank
+      - https://geheugenvanoost.amsterdam/page/109713/%F0%9F%8E%A7-justus-van-maurik-en-oud-amsterdam.
 
 - title: National Slavery Monument and Keti Koti
   summary: "Erwin de Vries' bronze group, unveiled in 2002, moves from chained slaves to a figure breaking free. Every 1 July, Keti Koti, the abolition of slavery in 1863 is commemorated here, and in the days before, the community dresses the statues."
@@ -591,10 +615,13 @@
 
     The painter, etcher and photographer Willem Witsen lived and worked here in 1891–93 and from 1904 until his death in 1923, and the house became a meeting place of the Tachtigers, the writers and painters of the 1880s movement. The French poet Paul Verlaine stayed with Witsen in November 1892. Witsen's widow, Augusta Schorr, bought the whole building and left it to the State in 1943, on condition that the top two floors would house writers and their families. J.C. Bloem and Marga Minco lived here; Minco wrote *Het bittere kruid* in the house. The ground floor studio with Witsen's interior is now a small museum that can be visited by appointment only.
 
+    Right across the street, in the reeds on the south bank of the park's pond, a pointed stainless steel flame rises: Jan Wolkers' Monument voor de Tachtigers of 1992. Wolkers took his cue from the lines Hendrik Marsman wrote when Herman Gorter, the greatest poet of the Tachtigers, died in 1927: "Hij was van vuur, een golf, een vlam, een stromend stuk natuur" (he was of fire, a wave, a flame, a streaming piece of nature). Fire, flame and wave are in the sculpture; the water it stands in supplies the fourth. In 2022 the borough had the reeds cut back so the flame can be seen properly.
+
     Look for:
     - the uncarved stone blocks above both doors
     - the very tall studio window in the middle, with the inserted floor showing halfway up
     - the plaque for Witsen by the door
+    - across the road, Wolkers' steel flame in the reeds of the pond
   category: hidden-history
   lat: 52.359586
   lng: 4.924158
@@ -603,6 +630,7 @@
     - { label: Rijksmonumentenregister (526984), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526984" }
     - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Witsenhuis" }
     - { label: Wikipedia (nl) Witsenhuis, url: "https://nl.wikipedia.org/wiki/Witsenhuis" }
+    - { label: Wikipedia (nl) Monument voor de Tachtigers, url: "https://nl.wikipedia.org/wiki/Monument_voor_de_Tachtigers" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -616,10 +644,14 @@
     - commons:File:Oosterpark 82 left door.JPG
     - commons:File:Interieur Witsenhuis.JPG
     - commons:File:Oosterpark 82 plaque.JPG
+    - commons:File:2020 Monument voor de Tachtigers (2).jpg
   sources:
     - rce:526984 (register description)
     - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Witsenhuis
     - https://nl.wikipedia.org/wiki/Witsenhuis
+    - https://nl.wikipedia.org/wiki/Monument_voor_de_Tachtigers
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1218 (city public art database, via its API)
+    - https://oost-online.nl/openbare-kunst-een-tochtje-langs-de-parels-van-oost/ (14 November 2022, reeds cut so the sculpture is visible)
   nl:
     title: Witsenhuis
     summary: "Een in 1884 tot stand gekomen atelierwoning, gebouwd voor de beeldhouwer Roskam, die er nooit kwam wonen; daarom zijn de blokken natuursteen boven de deuren onbewerkt gebleven. Vanaf 1891 woonhuis en atelier van Willem Witsen, nu woonruimte voor schrijvers."
@@ -628,10 +660,13 @@
 
       Het Witsenhuis was vanaf 1891 woonhuis en atelier van de schilder en fotograaf Willem Witsen (Amsterdam 1860 - 1923). Het was een trefpunt van de kunstenaars van de Tachtigers-beweging. Witsen zelf woonde en werkte er van 1891 tot 1893 en van 1904 tot zijn dood in 1923. Een jaar na Witsens dood kocht zijn weduwe A.M. Schorr het gehele pand. Witsen-Schorr liet het huis bij haar overlijden in 1943 na aan de Staat, met de bepaling dat de beide bovenste etages zouden worden ingericht voor bewoning door schrijvers en hun gezinnen. Diverse schrijvers hebben er nadien gewoond, waaronder J.C. Bloem en Marga Minco. Zij schreef er "Het bittere kruid".
 
+      Tegenover het huis, in de zuidelijke rietkraag van de vijver, staat een opvallend eerbetoon van Jan Wolkers aan de Tachtigers: boven het riet rijst een vlam van roestvrij staal op. De inspiratie vormt het gedicht dat Marsman maakte toen Herman Gorter, de belangrijkste dichter van de Tachtigers, in 1927 overleed: "Hij was van vuur, een golf, een vlam, een stromend stuk natuur." Het beeld werd in 1992 geplaatst. In het puntige beeld zijn drie elementen terug te vinden, vlam en vuur, een golf; het staat in het vierde, de vijver. In 2022 liet het stadsdeel het riet snoeien, zodat het beeld goed te zien is.
+
       Let op:
       - de onbewerkte blokken natuursteen boven beide deuren
       - de zeer hoge vensterpartij in het midden, met halverwege de tussenvloer
       - de gedenkplaat voor Witsen
+      - aan de overkant de stalen vlam van Wolkers in het riet van de vijver
     attributes:
       built: 1884–1886
       architect: Ed. Cuypers
@@ -640,6 +675,8 @@
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/526984
       - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Witsenhuis
       - https://nl.wikipedia.org/wiki/Witsenhuis
+      - https://nl.wikipedia.org/wiki/Monument_voor_de_Tachtigers
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1218
 
 - title: Barmat house
   summary: "Two houses of 1888 merged in 1921–22 by Harry Elte for Julius Barmat, a Jewish businessman whose bribery scandal shook Weimar Germany. His name is still worked into the ironwork of the front door."

@@ -55,6 +55,37 @@ Don't skip step 1. The user wants to choose before anything is written or import
 
   Group the items by category. Then let the user pick, cut or add.
 
+### The West standard: when a district is done
+
+West is the gold standard (the user lives there and vouches for it). It got there through a
+monument pass, then **themed sweeps**, each exhaustive against named sources, and themed loops
+(routes) that exposed gaps. Every district gets the same sweeps, whatever its density. A sweep
+is done when its sources were gone through completely for every *gebied*, not when it found
+"enough". Keep `research/<area>/COVERAGE.md`: a table of sweep by gebied, with the sources
+checked and the date, so it's clear what was swept and what wasn't.
+
+1. **Monuments**: every listed monument, merged sensibly (city register + national register).
+2. **Public art and walls**: the full buitenkunstamsterdam.nl (Kunstwacht) list for the
+   district, the city's wall-art register (maps.amsterdam.nl/wandkunst), Street Art Cities,
+   OSM `tourism=artwork`. Check each work's current status.
+3. **War and memory**: 4en5mei.nl monument database, memorial plaques, OSM `historic=memorial`,
+   Joods Monument addresses where a place tells the story (no lists of victims as places).
+4. **Hidden history**: the district's history society and site, archief.amsterdam (beeldbank),
+   amsterdamsloopt, nl.wikipedia street and neighbourhood articles, local papers. Gone things
+   only under the high bar.
+5. **Behind the gate**: hofjes, courtyard gardens, alleys, nursery villages, bunkers and
+   shelters, things inside blocks a passer-by would miss. Say how to see them.
+6. **Modern and contested**: post-1965 architecture that stands out (Arcam, architects' sites),
+   squats and cultural free zones, renewal fights, renamings, disputes.
+7. **Curiosities, green corners and odd museums**: Atlas Obscura, OSM, iamsterdam, the
+   district's own "tips" pages, allotment parks, small museums.
+8. **Loops**: 2–4 themed routes per district. A loop that needs a stop where there is none
+   shows a gap; fill it.
+
+Then a **blind quality check**: a fresh agent scores a random sample of the district's places
+against an equal sample from West (story, accuracy, pin, photo, Dutch), without knowing which
+is which. Fix what scores lower.
+
 ## 2. Research
 
 Work in `research/<area>/` (e.g. `research/west/`):

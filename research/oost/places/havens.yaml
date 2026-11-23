@@ -82,11 +82,15 @@
 
     Since April 2013 that hut has been Museum Perron Oost, which calls itself the smallest museum in the world. It shows stories of old and new residents of the Eastern Docklands, in changing exhibitions you can see through the windows at any time, plus online interviews (Radio Perron Oost) and a free audio tour on izi.travel, "Het verdwenen spoor", which starts on the platform and tells the history of the island. From 31 October to 28 December 2026 it shows Wim Janssen's paintings of the Oost cycle trip the writer Nescio made in 1952.
 
+    Two more nods to the harbour and the market are close by. On the cattle market's central square, across the road, Bastienne Kramer laid a brick "garden landscape" with a little pond of blue paving setts and animal figures recalling the market. And on the roof of the former Zeeburg borough office at Entrepotkade 5, about 200 metres west, turns Jos Kokke's Gyroscoop (1995), two cones twisted into each other inside two rings: a gyroscope, as used in a ship's gyrocompass, for a dock where ships came and went for a century. Locals soon called it De Tol (the spinning top).
+
     Look for:
     - the wagon on the stretch of original rail
     - the granite setts and concrete edges of the old platform
     - the exhibition in the hut's windows
     - the cattle market gate straight across the road
+    - the blue-paved "pond" between the hedges on the market square
+    - the Gyroscoop on the roof at the corner of the Entrepotkade and the Cruquiusweg
   category: odd-museums
   lat: 52.368636
   lng: 4.937413
@@ -95,16 +99,21 @@
     - { label: Museum Perron Oost, url: "https://www.museumperronoost.nl/perron-oost/" }
     - { label: Monumentenregister Amsterdam (veemarkt), url: "https://data.amsterdam.nl/monumenten/b128cdc9-eb66-4e85-a65e-d99bc690e0d2" }
     - { label: Audio tour Het verdwenen spoor, url: "https://izi.travel/nl/bcbc-het-verdwenen-spoor-een-audiotour-van-museum-perron-oost/nl" }
+    - { label: "Wikipedia (nl, Gyroscoop)", url: "https://nl.wikipedia.org/wiki/Gyroscoop_(Jos_Kokke)" }
+    - { label: Kunstwacht (Bestrating met beesten), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1744" }
   attributes:
     rank: Nice
     built: "1993"
     artist: Joep van Lieshout
   photos:
     - commons:File:Industrieel monument 2019 (9).jpg
+    - commons:File:2021 Gyroscoop (Jos Kokke)(1).jpg
   sources:
     - https://www.museumperronoost.nl/perron-oost/ (1993, April 2013, smallest museum, audio tour)
     - https://www.museumperronoost.nl/ (Wim Janssen exhibition 31 Oct to 28 Dec 2026)
     - city register text 200795 (the platform, late 19th century, granite setts)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1744 (Bastienne Kramer, brick garden landscape, blue setts pond, animal figures); Google Street View May 2024 shows the blue-paved strip
+    - https://nl.wikipedia.org/wiki/Gyroscoop_(Jos_Kokke) and https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1782 (1995, roof of the Zeeburg borough office, De Tol); Commons photo of 23 September 2021
   nl:
     title: Museum Perron Oost
     summary: Het kleinste museum ter wereld, in een opzichtershuisje op het oude perron van de veemarkt aan de Cruquiusweg, door Joep van Lieshout in 1993 van de ondergang gered. Het is zo klein dat je alles door de ramen kunt zien.
@@ -115,14 +124,20 @@
 
       Vanaf april 2013 toont het museum in uiteenlopende kunstvormen verhalen van oude en nieuwe bewoners van het Oostelijk Havengebied. In het Perronhuisje zijn doorlopend exposities te zien; het is zo klein dat je alles door de ramen kan zien. Onderdeel van het museum is Radio Perron Oost, en op locatie is de audiotour Het verdwenen spoor te lopen met de gratis app op izi-travel. Van 31 oktober tot 28 december 2026 exposeert Wim Janssen schilderijen van het fietstochtje dat Nescio in 1952 door Oost maakte.
 
+      Op het centrale plein van de veemarkt aan de overkant ontwierp Bastienne Kramer een 'tuinlandschap' van baksteen met een meertje van blauwe straatstenen en dierenfiguren die eraan herinneren dat hier ooit een veemarkt was. En op het voormalige kantoor van stadsdeel Zeeburg aan de Entrepotkade staat sinds 1995 de Gyroscoop van Jos Kokke, die zich liet inspireren door de werkzaamheden die een eeuw lang plaatsvonden in de Entrepothaven: schepen voeren aan en af. Het gyroscopisch principe wordt in de scheepvaart toegepast in het zogenaamde gyrokompas. Het beeld bestaat uit twee in elkaar gedraaide conische kegels met daaromheen twee ringen en werd in de volksmond al snel omgedoopt tot De Tol.
+
       Let op:
       - de wagon op het originele stuk spoor
       - de granieten klinkers en de betonnen randen van het oude perron
       - de expositie achter de ramen van het huisje
       - de poort van de veemarkt aan de overkant
+      - het 'meertje' van blauwe straatstenen tussen de hagen op het veemarktplein
+      - de Gyroscoop op het dak op de hoek van de Entrepotkade en de Cruquiusweg
     sources:
       - https://www.museumperronoost.nl/perron-oost/
       - https://www.museumperronoost.nl/
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1744
+      - https://nl.wikipedia.org/wiki/Gyroscoop_(Jos_Kokke)
 
 - title: Entrepot waiting room, coffee house and bridge 352
   summary: "Three small survivors of the city's bonded warehouse dock of 1900, at its lock on the Cruquiusweg: a waiting room with a veranda, a temperance coffee house, and a bridge with its building year cast into a lamp."

@@ -334,7 +334,7 @@
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/5ec704ef-ef17-450e-aeb2-687472678668" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/James_Wattstraat_56-58_(Amsterdam)" }
-    - { label: Oost-online (theatre opens, 2025), url: "https://oost-online.nl/nieuw-leven-in-voormalige-kerk-het-balkissoon-theater-opent-in-de-james-wattstraat/" }
+    - { label: "Oost-online (theatre opens, 2025)", url: "https://oost-online.nl/nieuw-leven-in-voormalige-kerk-het-balkissoon-theater-opent-in-de-james-wattstraat/" }
   attributes:
     rank: Nice
     heritage_status: Municipal monument
@@ -429,8 +429,12 @@
 
     Until 1972 car-sleeper trains left from here: cars drove through a side door, through the tunnel and up a ramp onto the wide platform. The old baggage tunnel is now used by a shooting club. The metro has run through the middle tracks since 1977.
 
+    Alma's two murals (1937–1939) are worth a proper look. On the west wall, over the passage to the platforms, winged wheels (the symbol of progress) sit between six trains, above a row of silhouettes of the world's landmarks: the Empire State Building, the Eiffel Tower, the Blue Mosque, the Sphinx, the Utrecht Dom and a Dutch windmill, all linked by rail. Opposite, "The result of technical development" shows locomotives including the Arend, a half globe and engineers at work. For decades ticket windows hid part of it; the refurbishment of the hall, finished in 2021, freed it again. A third Alma came later: Compositie, a tile and mosaic panel of sun, plants, birds and a fish that he made in the 1950s with the tiler Hendrik Rijneveld for the Marnixbad swimming pool. When the pool was demolished in 2003 the city was stuck with it, until it found a place in the station, after restoration, on the back of the locomotive wall in the cross hall where the tunnel meets the hall.
+
     Look for:
     - Peter Alma's murals at both ends of the hall
+    - the landmarks along the bottom of the west mural, and the Arend on the east one
+    - Alma's Compositie from the Marnixbad, in the cross hall by the tunnel
     - the exposed steel portal frames under the low roof
     - Van Reijn's bronze relief on the east front
   category: infrastructure
@@ -441,6 +445,8 @@
     - { label: Rijksmonumentenregister (526988), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526988" }
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/6cd4bb9f-a668-4fa8-ab22-9f30af69e5b8" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Station_Amsterdam_Amstel" }
+    - { label: Wikipedia (nl) Peter Alma in Station Amsterdam Amstel, url: "https://nl.wikipedia.org/wiki/Peter_Alma_in_Station_Amsterdam_Amstel" }
+    - { label: Buitenkunst Amsterdam (Peter Alma), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1847" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -454,9 +460,14 @@
     - commons:File:526988 Station Amsterdam Amstel.jpg
     - commons:File:Overzicht stationshal - Amsterdam - 20409099 - RCE.jpg
     - commons:File:Amstelstation binnen.JPG
+    - commons:File:Compositie Peter Alma (1).jpg
   sources:
     - rce:526988 (register description)
     - https://nl.wikipedia.org/wiki/Station_Amsterdam_Amstel
+    - https://nl.wikipedia.org/wiki/Peter_Alma_in_Station_Amsterdam_Amstel (east mural visible again after the 2021 refurbishment; Compositie from the Marnixbad)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1847 (city public art database, via its API)
+    - https://www.spoorbeeld.nl/databank/compositie (Marnixbad 1958, moved 2003, cross hall)
+    - https://www.nrc.nl/nieuws/2003/11/04/tegeltableau-van-peter-alma-naar-amstelstation-7660616-a1183642 (headline and snippet only)
   nl:
     title: Amstelstation
     summary: Een hoge glazen hal uit 1939 die trams op polderniveau, de straat en de treinen op de spoordijk met elkaar verbindt. De wandschilderingen van Peter Alma over de 'dynamiek van de spoorwegen' zijn er nog.
@@ -467,8 +478,12 @@
 
       Bijzonder was dat dit ook het begin- en eindpunt was van autoslaaptreinen, tot 1972. De bagagetunnel bestaat nog maar is nu in gebruik bij een schietvereniging. Sinds 1977 rijdt de metro over de middelste sporen.
 
+      In de stationshal zijn drie kunstwerken van Peter Alma te bezichtigen. De historische ontwikkeling van de locomotief is aangebracht op de westelijke binnengevel, boven de onderdoorgang naar het spoor, en neemt de gehele gevelwand in beslag. Het laat wielen met daarboven vleugels zien (gevleugelde wielen stonden voor vooruitgang), met links en rechts zes treinstellen. Daaronder staan silhouetten van bekende bouwwerken zoals het Empire State Building, de Eiffeltoren, de Blauwe Moskee en de Sfinx, maar de Dom van Utrecht en een Nederlandse molen ontbreken ook niet. Het spoor moest verbinding leggen. Daartegenover, op de oostelijke binnenwand, staat Het resultaat van technische ontwikkeling: opnieuw locomotieven, waaronder de Arend, een halve wereldbol en enkele technici met op de achtergrond tekenen van voortschrijdende techniek. Kaartverkooploketten maakten een deel van deze schildering lang slecht zichtbaar; sinds de herinrichting van de stationshal in 2021 is ook zij weer in volle glorie te zien. Compositie is een werk dat in basis niet thuishoort op het Amstelstation: een tegeltableau dat Alma ontwierp en samen maakte met tegelzetter Hendrik Rijneveld voor het Marnixbad. Toen het zwembad in 2003 werd gesloopt, zat de gemeente met het kunstwerk in de maag. Na een restauratie vond het een plek aan de achterkant van de muur met de locomotief, in de dwarshal op de overgang van de reizigerstunnel naar de stationshal. Te zien zijn zon, planten, vogels en een vis.
+
       Let op:
       - de wandschilderingen van Peter Alma aan beide korte zijden
+      - de silhouetten van wereldberoemde bouwwerken onder de westelijke schildering, en de Arend op de oostelijke
+      - Alma's Compositie uit het Marnixbad, in de dwarshal bij de tunnel
       - de in het zicht gelaten portaalspanten
       - het bronzen reliëf van Van Reijn aan de oostgevel
     attributes:
@@ -476,6 +491,9 @@
     sources:
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/526988
       - https://nl.wikipedia.org/wiki/Station_Amsterdam_Amstel
+      - https://nl.wikipedia.org/wiki/Peter_Alma_in_Station_Amsterdam_Amstel
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1847
+      - https://www.spoorbeeld.nl/databank/compositie
 
 - title: Rechthuis Watergraafsmeer
   summary: The 1777 courthouse and village hall of the polder, with a little domed turret, on the corner where the Middenweg drops off the dike. Its dome appears in the huge painting of Napoleon entering Amsterdam in 1811.

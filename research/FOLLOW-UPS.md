@@ -22,6 +22,8 @@ Things to check or update later. Each line: place title (area): what to do.
 - Durgerdam (Noord): dike repair deferred to a 2032 check; update if the water board decides earlier.
 - Kraaipanbuurt (Oost): municipal listing in procedure; add heritage status and numbers when listed.
 - Kraan 2868 (Oost): undated listing offers it for sale; check.
+- RI-Oost silos and Rialto Silo (Oost): cinema open since 5 Nov 2026; gym and restaurant towers due early 2027.
+- Zuidergasfabriek water tower (Oost): Stadsherstel bought it in 2026 for restoration and letting; not yet in the text.
 
 ## Pins to check on site or on aerial imagery
 
@@ -34,6 +36,7 @@ Things to check or update later. Each line: place title (area): what to do.
 - 1918 Weesp train disaster site (Weesp): approximate.
 - Mosveld floodlights, Players and Supporters, Volewijck gallows field, Fokker bombing memorial, NDSM Giants (Noord): approximate.
 - Graft 1–5, Drijvende Tuinen, Muiderpoort deportation memorial, 101 Namen, Zeeburgerdorp plaque (Oost): approximate.
+- Oost round 2, approximate: De Titaantjes (OSM puts it 120 m east), Domweg gelukkig, Karel Appel Was Hier, Kantoorgangers, Doe je ogen even dicht, If Walls Could Speak, Katsenarie, Stenen gedicht, Vrouwe Fortuna, Aart Roos's brick relief, The London Police mural, Harck, Skatepark Zeeburgereiland, Waterbuurt West, Krop's gable stones, Amstelglorie (park centre).
 
 ## Status to confirm
 
@@ -42,9 +45,17 @@ Things to check or update later. Each line: place title (area): what to do.
 - Rona Batho (Zuidoost): was the face stolen in 2023 replaced?
 - Big Bang sculpture in Gaasperpark (Zuidoost): survived the 2026 renovation?
 - Laurentiuskerk genever still (Weesp): left out; add if still running.
+- Oost round 2, weakest recent evidence: Airhead #2 on the Krugerplein (2021), Beursmannetje (2022), Vrijburcht fish wall and Nautilus (2020/2023).
+- Karel Appel Was Hier (Oost): the family shop may have been at Dapperstraat 17, not 7.
 
 ## Coverage plan
 
-- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord, Oost (round 1). Noord done. Still open: Oost, Zuid, Centrum.
-- Research queue (run one batch at a time so BrowserOS isn't overloaded): Oost round 2 drafting (items 101–157, awaiting go), then round-2 scouts for Noord, Nieuw-West, Zuidoost (one after another), then Zuid, Centrum.
+- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord, Oost (round 1). Noord done. Zuid and Centrum: not now; the user will deal with them separately.
+- Standard: every district gets the West-standard sweeps (see the c-list-sights skill): monuments, public art and walls, war and memory, hidden history, behind the gate, modern and contested, curiosities and green, loops, then a blind quality check against West. Track them in `research/<area>/COVERAGE.md`.
+- Research queue (one batch at a time so BrowserOS isn't overloaded):
+  1. Oost round 2 (public art and walls; items 101–157): done 2026-11-23, 41 new places.
+  2. Oost round 3: sweeps 3–7, then loops and the blind check.
+  3. Noord, Nieuw-West, Zuidoost: per district, round A (public art and walls, war and memory), round B (hidden history, behind the gate, modern and contested, curiosities), then loops.
+  4. Weesp and Westpoort: one combined round each.
+  5. West: fill in COVERAGE.md retrospectively and sweep any gap found.
 - After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.

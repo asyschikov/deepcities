@@ -1,0 +1,367 @@
+# Oost round 2, oosterpark slice: Oosterpark, Oosterparkbuurt and Dapperbuurt.
+# Scout items 101, 102, 103, 106, 107 (+120 as a Look for line), 122, 123.
+# Merged into round 1 places in oosterpark.yaml: 104 (Witsenhuis), 105 and 137 (Oosterpark and its music dome).
+# 108 (Geloof, Hoop en Liefde) was destroyed in 2022 and is left out (see notes/r2-oosterpark.md).
+# Dutch texts are spliced from the city's public art database (buitenkunstamsterdam.nl), nl.wikipedia,
+# oost-online.nl, geheugenvanoost.amsterdam and kunstbijdekey.nl.
+
+- title: Police dog Albert memorial
+  summary: "A small black stone for a police dog who sniffed out a murderer's hat in 1919, became famous across the Dutch empire and died in 1923 while his master lay in hospital across the road. Note the space in POLITIE HOND."
+  body: |
+    Albert (called Ab or Appie) was a Tervuren shepherd that constable Jacob Water got as a puppy in 1916 from a magistrate in Friesland. Water trained him here in the Oosterpark, at his own initiative, and from 1918 the Amsterdam police borrowed the dog to track down suspects. His big case came in April 1919, when the director of a dairy factory in Sint-Oedenrode was found with his throat cut beside the open safe. Two suspects were arrested in Amsterdam and denied everything. The police set their hats among two dozen others, let Albert smell the bloodied razor found at the scene, and he picked out a suspect's hat. Newspapers from Amsterdam to the Indies told his feats, and tradition has it that his success led to the city's police dog brigade in 1921. Not everyone was charmed: in October 1919 a socialist paper protested that in another case the dog had grabbed the wrong man, who went to prison for it.
+
+    Albert died on 14 March 1923. Water was in the Burgerziekenhuis on the Linnaeusstraat after an operation, the dog was not allowed to come along on the family's visit, and he was found dead under the bed with his master's handkerchief. The legend that he swallowed it out of grief started right away. A committee collected money, not easily, and in June 1924 the memorial was unveiled in a quiet corner behind the milk and lemonade kiosk, where Albert had had his first lessons. It is not a grave: according to Water's own account the dog was buried in a wooden box in the hospital's back garden. The stone has since been moved several times; after vandalism in the 1950s its white marble plate was replaced by the portrait cut into the black granite itself. The pin is on the stone.
+
+    Look for:
+    - "POLITIE HOND" with a space, a classic of Dutch misspelling
+    - the somewhat clumsy portrait of the dog, which may not even be a Tervuren
+    - the maker's mark of the De Zuil stoneworks on the Leidseplein at the foot
+  category: curiosities
+  lat: 52.360389
+  lng: 4.919009
+  address: Oosterpark
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1220" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Politiehond_Albert" }
+    - { label: Geheugen van Oost, url: "https://geheugenvanoost.amsterdam/page/108272/%F0%9F%8E%A7-de-grote-daden-van-de-politiehond-albert" }
+  attributes:
+    rank: Nice
+    built: "1924"
+    original_use: Memorial stone for a police dog
+  photos:
+    - commons:File:2019 Politiehond Albert (1).jpg
+    - commons:File:Grafsteen Politiehond Albert.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Politiehond_Albert
+    - https://geheugenvanoost.amsterdam/page/108272/%F0%9F%8E%A7-de-grote-daden-van-de-politiehond-albert (2 April 2024, with Delpher research and a 2024 photo of the stone)
+    - https://melandlangeveld.com/2015/05/13/standbeeld-politiehond-albert/ (quotes Provinciale Noord-Hollandsche Courant, 11 June 1924)
+    - OpenStreetMap memorial node 10908955130 (52.360389, 4.919009)
+    - Commons photos dated 2012 and December 2019
+  nl:
+    title: Gedenkteken politiehond Albert
+    summary: "Een grafsteentje van zwarte natuursteen uit 1924 voor politiehond Albert, die in 1919 tussen tientallen hoeden die van een verdachte aanwees en in 1923 stierf toen zijn baas in het Burgerziekenhuis lag. Met spatie: POLITIE HOND."
+    body: |
+      Politiehond Albert (roepnaam Ab of Appie) leefde van 1916 tot maart 1923. Brigadier Jacob Water krijgt de hond als puppy in 1916 van een kantonrechter in Friesland. Albert wordt door Jacob Water getraind in het Oosterpark en vooral in 1918/1919 ingezet voor het opsporen van boeven. Helemaal beroemd werd Albert met het oplossen van de moord op de directeur van de zuivelfabriek in Sint-Oedenrode. De directeur wordt gevonden met doorgesneden keel naast de open brandkast. In Amsterdam worden verdachten gearresteerd, die ontkennen. Dan wordt Albert ingezet: de hoofddeksels van de verdachten worden tussen tientallen andere gezet, Albert mag ruiken aan het scheermes en wijst feilloos een hoed aan. Het succes van de speurhond zou volgens overlevering hebben geleid tot de oprichting van de Hondenbrigade. Over de foute identificaties wordt nauwelijks geschreven, al protesteert de krant De Vrije Socialist in oktober 1919 over de inzet van de politiehond.
+
+      Albert gaat dood op donderdag 14 maart 1923. Politieman Water ligt dan in het Burgerziekenhuis, tegenover het Oosterpark. Op die donderdag mocht Albert niet mee op ziekenbezoek en werd hij thuis onder het bed dood gevonden, met een zakdoek van het baasje naast hem. Al snel wordt een comité opgericht om een gedenksteen te plaatsen; het kostte heel wat moeite een fonds bijeen te brengen. In juni 1924 werd het gedenkteken onthuld, in een stil hoekje van het Oosterpark, achter de melk- en limonadekiosk, waar Albert voor het eerst door zijn baas in het speuren werd geoefend. Het gaat dus niet om het graf van Albert: volgens het verhaal van Water werd hij in een houten kistje in de achtertuin van het ziekenhuis begraven. De gedenksteen is later nog verschillende keren verplaatst. Na vandalisme in de jaren vijftig werd de witte marmeren plaat vervangen door een afbeelding op het zwarte graniet zelf. De speld staat op de steen.
+
+      Let op:
+      - het onjuiste spatiegebruik in POLITIE HOND
+      - het wat amateuristisch uitgevoerde portret van de hond
+      - de naam van steenhouwerij De Zuil aan het Leidscheplein op de voet
+    attributes:
+      original_use: Gedenksteen voor een politiehond
+    sources:
+      - https://nl.wikipedia.org/wiki/Politiehond_Albert
+      - https://geheugenvanoost.amsterdam/page/108272/%F0%9F%8E%A7-de-grote-daden-van-de-politiehond-albert
+      - https://melandlangeveld.com/2015/05/13/standbeeld-politiehond-albert/
+
+- title: Limietpalen in the Oosterpark
+  summary: "Two sandstone columns crowned with Amsterdam's arms, marked LIMIET-PAAL 1838, one with an arrow and 'Kom der Gemeente Amsterdam'. Wanderers from elsewhere: via a museum garden and a sanatorium gate they ended up among the park's shrubs."
+  body: |
+    In a bed by the path on the north side of the park stand two almost identical sandstone columns, each topped by Amsterdam's coat of arms under a count's crown. A band around both reads "LIMIET-PAAL 1838"; one also says "Kom der Gemeente Amsterdam" (built-up area of the municipality of Amsterdam) above a black arrow. Such posts marked where the city's jurisdiction began, and the old city limit ran close by, between the later Derde Oosterparkstraat and the Vrolikstraat. Where these two first stood is not recorded.
+
+    Their later travels are. In 1947 they ended up in the garden of the Stedelijk Museum. When that garden gave way to the museum's new wing in 1954, they moved to the Beatrixoord, a convalescent home on the north side of the Oosterpark, where they formed a kind of gate in the fence between sanatorium and park. With them came the top of a much older banpaal (ban post) of 1624 from the Spaarndammerdijk, one of the posts that banished criminals were not allowed to pass, which Rembrandt drew around 1650. That piece went back west in 2006 and now stands on the Spaarnwouderdijk, close to its old spot. The city's public art database still describes the banpaal here, while the small plates at the feet just say "limietpaal". The pin is on the post with the arrow.
+
+    Look for:
+    - the crowned arms of Amsterdam on top of both columns
+    - "Kom der Gemeente Amsterdam" and the arrow on one post only
+    - the Justus van Maurik bench a few steps away
+  category: curiosities
+  lat: 52.360726
+  lng: 4.920021
+  address: Oosterpark, north side
+  links:
+    - { label: Wikipedia (nl) Limietpalen Oosterpark, url: "https://nl.wikipedia.org/wiki/Limietpalen_Oosterpark" }
+    - { label: Wikipedia (nl) Banpaal Spaarnwouderdijk, url: "https://nl.wikipedia.org/wiki/Banpaal_Spaarnwouderdijk" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1211" }
+  attributes:
+    rank: Okay
+    built: "1838"
+    original_use: City-limit posts
+  photos:
+    - commons:File:2019 Limietpaal II Oosterpark (1).jpg
+    - commons:File:2020 Limietpaal I (Oosterpark) (1).jpg
+    - commons:File:Banpaal 1 Oosterpark.JPG
+  sources:
+    - https://nl.wikipedia.org/wiki/Limietpalen_Oosterpark
+    - https://nl.wikipedia.org/wiki/Banpaal_Spaarnwouderdijk
+    - https://nhpalen.blogspot.com/2012/07/kompalen-amsterdam.html (the two 1838 kompalen; the banpaal top moved to Spaarnwoude in 2006)
+    - https://spqa-am.blogspot.com/2012/04/de-banpalen-van-amsterdam.html (banpaal re-placed in 2006)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1211 (describes the 1624 banpaal, which is no longer here)
+    - OpenStreetMap boundary_stone node 9794447926 (52.360726, 4.920021)
+    - Commons photos of both posts dated December 2019 and February 2020
+  nl:
+    title: Limietpalen in het Oosterpark
+    summary: "Twee bijna identieke zandstenen zuilen met het gekroonde wapen van Amsterdam en de tekst LIMIET-PAAL 1838; één vermeldt ook 'Kom der Gemeente Amsterdam' met een zwarte pijl. Via de tuin van het Stedelijk en het Beatrixoord belandden ze hier."
+    body: |
+      In het Oosterpark staan twee bijna identieke limietpalen, die de grens van de gemeente aangaven. Beide zuilen vermelden limietpaal en 1838 in het steen, maar één vermeldt ook "Kom der Gemeente Amsterdam" en laat een zwarte pijl zien. Bovenop staat het wapen van Amsterdam met een gravenkroon. De gemeentegrens van Amsterdam lag tussen wat later de Derde Oosterparkstraat en de Vrolikstraat werden, vlak bij het park. Beide palen zijn echter van elders afkomstig.
+
+      De twee zuilen belandden in 1947 in de tuinen van het Stedelijk Museum. Toen dat museum een deel van haar tuin opofferde voor een nieuwe vleugel (1954), verhuisden de twee zuilen naar het Beatrixoord, dat aan de noordzijde van het Oosterpark gevestigd was. Ze kregen daarbij gezelschap van de top van de banpaal uit 1624 van de Spaarndammerdijk, door Rembrandt vastgelegd, de grens tot waar bannelingen de stad mochten naderen. De twee limietpalen vormden een soort poort in een hekwerk tussen sanatorium en park. De banpaal is in 2006 herplaatst aan de Spaarnwouderdijk, vlak bij zijn oorspronkelijke plaats. De tekst in de databank van de gemeente gaat nog over die banpaal; de bordjes aan de voet zeggen alleen "limietpaal". De speld staat op de paal met de pijl.
+
+      Let op:
+      - het gekroonde wapen van Amsterdam op beide zuilen
+      - "Kom der Gemeente Amsterdam" en de pijl op één van de twee
+      - de Justus van Maurikbank vlakbij
+    attributes:
+      original_use: Limietpalen
+    sources:
+      - https://nl.wikipedia.org/wiki/Limietpalen_Oosterpark
+      - https://nl.wikipedia.org/wiki/Banpaal_Spaarnwouderdijk
+      - https://nhpalen.blogspot.com/2012/07/kompalen-amsterdam.html
+
+- title: De Titaantjes (Hommage aan Nescio)
+  summary: "Three young men in hats slouch on a bronze bench and watch the park go by: Hoyer, Bavink and Koekebakker from Nescio's Titaantjes, who 'leaned on the fence of the Oosterpark all summer night'. Stolen in 1985, recast in 1988."
+  body: |
+    Nescio (Latin for "I don't know") was the pen name of J.H.F. Grönloh (1882–1961), a trading company director who wrote a handful of stories that became Dutch classics. He was an Oost boy: primary school in the Eerste van Swindenstraat, secondary school on the Mauritskade (now the Metis Montessori Lyceum). His novella *Titaantjes* (Little Titans, 1915) opens with "Jongens waren we, maar aardige jongens" (we were boys, but nice boys) and follows a group of idealistic friends who mean to change the world and end up in offices, or worse; the painter Bavink paints only sunsets and lands in an asylum. "All summer nights we stood leaning on the fence of the Oosterpark, talking away," he wrote.
+
+    Hans Bayens, who also made the Multatuli bust on the Torensluis, put three of them on a bench in the park: from left to right Hoyer, Bavink and Koekebakker, hats on, jackets on, slouching and watching the people walk by, as their maker did. Nescio's widow unveiled the group on 9 October 1971, ten years after his death. It was stolen in 1985; a new cast was placed in 1988, and in 2006 it was splashed with paint. The pin is approximate.
+
+    Look for:
+    - the opening line of *Titaantjes* on the base
+    - the three different ways of slouching
+    - Nescio's longer text on the building at Linnaeusstraat 7, just outside the park opposite the Tropenmuseum
+  category: street-art
+  lat: 52.358887
+  lng: 4.919836
+  address: Oosterpark, south-west part
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1217" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/De_Titaantjes" }
+    - { label: Geheugen van Oost, url: "https://geheugenvanoost.amsterdam/page/109142/%F0%9F%8E%A7-de-titaantjes" }
+  attributes:
+    rank: Nice
+    artist: Hans Bayens
+    built: 1971 (recast 1988)
+  photos:
+    - commons:File:2020 De Titaantjes (1).jpg
+    - commons:File:De Titaantjes.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1217 (city public art database, via its API)
+    - https://nl.wikipedia.org/wiki/De_Titaantjes
+    - https://geheugenvanoost.amsterdam/page/109142/%F0%9F%8E%A7-de-titaantjes (June 2024, group in place)
+    - Pin from the city database (52.358887, 4.919836), matching nl.wikipedia (52.358778, 4.9194); OSM node 4771641928 sits about 120 m east
+  nl:
+    title: De Titaantjes (Hommage aan Nescio)
+    summary: "Bavink, Hoyer en Koekebakker, de 'aardige jongens' uit Nescio's Titaantjes, hangen onderuit op een bankje en overzien het Oosterpark. Het beeld van Hans Bayens werd in 1971 geplaatst, in 1985 gestolen en in 1988 opnieuw gegoten."
+    body: |
+      En daar zitten en hangen ze dan op een bankje: Bavink, Hoyer en Koekebakker, de 'aardige jongens' uit Nescio's Titaantjes. Zij bekeken de kleinsteedse wereld met spot, speelsheid en soms ook sarcasme. De plek is raak gekozen: het Oosterpark, waar Nescio zijn figuren af en toe situeert. "Heel zomernachten stonden we tegen 't hek van 't Oosterpark te leunen en honderd uit te boomen."
+
+      Nescio, pseudoniem van Frits Grönloh (1882-1961), heeft veel van zijn leven doorgebracht in Amsterdam-Oost. Hij ging naar de lagere school in de Eerste Van Swindenstraat en naar de HBS aan de Mauritskade, nu het Metis Lyceum. Bayens maakte het werk naar aanleiding van het overlijden van Grönloh. Het oorspronkelijke beeld, door Grönlohs weduwe onthuld op 9 oktober 1971, werd in 1985 gestolen, maar in 1988 werd een nieuw afgietsel geplaatst. In 2006 werd het met verf beklad. Van Bayens zijn meer beelden van schrijvers bekend; zo portretteerde hij Multatuli op de Torensluis. De speld staat bij benadering.
+
+      Let op:
+      - de begintekst van de novelle op de sokkel: "Jongens waren we, maar aardige jongens"
+      - de uitgebreidere tekst van Nescio op het gebouw Linnaeusstraat 7, net buiten het park
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1217
+      - https://nl.wikipedia.org/wiki/De_Titaantjes
+      - https://geheugenvanoost.amsterdam/page/109142/%F0%9F%8E%A7-de-titaantjes
+
+- title: SLM disaster memorial, 's-Gravesandeplein
+  summary: "Three aluminium shapes leave a human figure cut out between them, for the 176 dead of the 1989 SLM crash in Suriname, among them footballers of the Kleurrijk Elftal and the Draver Boys band from the café round the corner. Commemorated here every 7 June."
+  body: |
+    In the early morning of 7 June 1989 a DC-8 of the Surinaamse Luchtvaart Maatschappij (SLM) crashed while trying to land in fog at Zanderij, Paramaribo's airport, on a flight from Schiphol. All nine crew and 167 of the 178 passengers died; eleven survived. It is the worst air disaster in Suriname's history. Most passengers were Surinamese Dutch on their way to visit family. On board was much of the Kleurrijk Elftal (Colourful Eleven), a team of Surinamese-Dutch professional footballers going to play a tournament, and the Draver Boys, a kawina band that often went with them. Their home base was café De Draver at Ruyschstraat 377, around the corner from this square, and the café was among those who started this memorial. It was paid for by Amsterdam, Rotterdam, The Hague and the Dutch football association KNVB, and unveiled in 1991.
+
+    The Surinamese-Dutch painter Guillaume Lo-A-Njoe made three tall aluminium forms that leave the outline of a figure open between them. On the low base is the Sranan text "Lobiwan wi sa tan memre yu" (loved ones, we will always remember you). A broad black granite column and a bench evoke a grave monument. Every 7 June since 1991 people gather here; in 2026 flowers and children's drawings were laid at seven in the evening, while a football club in Middenmeer held its own commemoration with a tournament. The pin is on the memorial.
+
+    Look for:
+    - the empty human shape between the three aluminium forms
+    - the Sranan line on the base
+    - the bench, whose other support echoes the aluminium forms
+  category: hidden-history
+  lat: 52.359263
+  lng: 4.915301
+  address: "'s-Gravesandeplein"
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1254" }
+    - { label: Wikipedia (nl) SLM-ramp, url: "https://nl.wikipedia.org/wiki/SLM-ramp" }
+    - { label: Oost-Online (2026), url: "https://oost-online.nl/real-sranang-herdenkt-slm-ramp-met-voetbal-bloemen-en-ontmoeting/" }
+    - { label: Wikipedia (en) Surinam Airways Flight 764, url: "https://en.wikipedia.org/wiki/Surinam_Airways_Flight_764" }
+  attributes:
+    rank: Nice
+    artist: Guillaume Lo-A-Njoe
+    built: "1991"
+    original_use: Memorial to the 1989 SLM air disaster
+  photos:
+    - commons:File:Monument sgravesandeplein.jpg
+    - commons:File:Monument Vliegramp 7 juni 1989 (1).jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1254 (city public art database, via its API)
+    - https://nl.wikipedia.org/wiki/SLM-ramp
+    - https://oost-online.nl/real-sranang-herdenkt-slm-ramp-met-voetbal-bloemen-en-ontmoeting/ (9 June 2026)
+    - https://www.amsterdam.nl/stadsarchief/nieuws/slm-ramp/ (search snippet: commemoration here from 1991)
+    - OpenStreetMap memorial node 4854471167 (52.359263, 4.915301)
+  nl:
+    title: Monument SLM-vliegramp Zanderij
+    summary: "Drie aluminium vormen sparen in het midden een figuur uit: het monument van Guillaume Lo-A-Njoe voor de SLM-ramp van 7 juni 1989, vlak bij café De Draver, stamcafé van het Kleurrijk Elftal en de Draver Boys. Hier wordt elk jaar op 7 juni herdacht."
+    body: |
+      Op 7 juni 1989 stortte een toestel van de Surinaamse Luchtvaart Maatschappij (SLM) neer bij Zanderij, tijdens een landing bij mist. Alle negen bemanningsleden en 167 van de 178 passagiers kwamen om het leven; elf passagiers overleefden de ramp. De passagiers waren voornamelijk Surinaamse Nederlanders die een bezoek wilden brengen aan familie. Voorts zat een deel van het Kleurrijk Elftal, dat in Suriname in een voetbaltoernooi zou uitkomen, in het vliegtuig. Verder behoorden ook de leden van het orkestje de Draver Boys, dat het elftal vaak begeleidde, tot de passagiers.
+
+      Het beeld staat niet voor niets op deze plek. Hier om de hoek, in de Ruyschstraat 377, stond café De Draver, stamcafé van enige overledenen en een van de initiatiefnemers tot de oprichting van het monument, dat gefinancierd werd door Amsterdam, Rotterdam, Den Haag en de KNVB. De drie aluminium vormen sparen in het midden een figuur uit. Op de lage sokkel staat: "Lobiwan wi sa tan memre yu", wij zullen jullie nooit vergeten. De brede zuil en de bank, beide in zwart graniet, roepen het beeld van een grafmonument op. Vanaf 1991 vindt de herdenking plaats bij dit monument voor de nabestaanden. Op 7 juni 2026 werden hier vanaf 19.00 uur bloemen en tekeningen gelegd. De speld staat op het monument.
+
+      Let op:
+      - de uitgespaarde figuur tussen de drie aluminium vormen
+      - de tekst in het Sranan op de sokkel
+      - de andere steun van de bank, die lijkt op de drie aluminium vormen
+    attributes:
+      original_use: Monument voor de SLM-vliegramp van 1989
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1254
+      - https://nl.wikipedia.org/wiki/SLM-ramp
+      - https://oost-online.nl/real-sranang-herdenkt-slm-ramp-met-voetbal-bloemen-en-ontmoeting/
+
+- title: Muziek en Vreugde, putti from the burned Stadsschouwburg
+  summary: "Two chubby putti by Bart van Hove that stood on the roof of the city theatre until it burned down in 1890. Saved, parked in a sanatorium garden, lost on a city works yard and found again, they now hide in the garden behind The Manor hotel."
+  body: |
+    Bart van Hove (1850–1914) was the leading academic sculptor of his day, with figures on the Rijksmuseum and Centraal Station. In 1889 he made this group of two putti, an allegory of music and joy, for the roof of the Stadsschouwburg (city theatre) on the Leidseplein. A year later that wooden theatre burned down completely, and the putti were among the few statues saved. With a companion piece, *Komedie*, they stood from 1950 to 1987 in the garden of the Beatrixoord, a convalescent home on the Oosterpark. Then both ended up on the city's works yard, where the borough found them again. *Komedie* was restored in 1994 and put back on the roof of the present Stadsschouwburg. *Muziek en Vreugde* was restored in 1996 and placed in the garden behind the borough office of the time: the old Burgerziekenhuis (citizens' hospital), where Johan Cruijff was born, and now The Manor hotel.
+
+    The quiet inner garden, "a little park nobody knows", is reached from the Oetewalerstraat side. Beside it the small domed building that was the hospital's surgery now holds the gallery Bradwolff Projects. On the way, along the Oetewalerstraat by numbers 26–34, Ingrid Pasmans' *Oute Waal* (1996) covers a low retaining wall of the old hospital annex with enamelled steel plates, screen-printed with animal figures, organic shapes and fluttering letters. One blue strip carries an old map with the name "Oute Waal": the hamlet of Houtewaal, first mentioned in 1387, which lay near today's Muiderpoort. Until 1878 the Linnaeusstraat was called the Oetewalerweg. The pin is on the putti.
+
+    Look for:
+    - the two putti and their weathered 1889 surfaces
+    - the small dome of the old surgery building
+    - on Oute Waal, the blue strip with the old map and the letters f, g and h
+  category: street-art
+  lat: 52.359207
+  lng: 4.926647
+  address: Garden behind Linnaeusstraat 89 (via the Oetewalerstraat)
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1203" }
+    - { label: Buitenkunst Amsterdam (Oute Waal), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1205" }
+    - { label: Oost-Online (2022), url: "https://oost-online.nl/openbare-kunst-een-tochtje-langs-de-parels-van-oost/" }
+    - { label: Wikipedia (nl) Oetewalerstraat, url: "https://nl.wikipedia.org/wiki/Oetewalerstraat" }
+  attributes:
+    rank: Nice
+    artist: Bart van Hove; Ingrid Pasmans (Oute Waal)
+    built: 1889 (placed here 1996)
+    original_use: Roof statue of the Stadsschouwburg
+  photos:
+    - commons:File:2019 Muziek en vreugde (1).jpg
+    - commons:File:Muziek en Vreugde, Amsterdam.JPG
+    - commons:File:2019 Oute Waal (4) met kaart.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1203 (city public art database, via its API)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1205 (Oute Waal)
+    - https://oost-online.nl/openbare-kunst-een-tochtje-langs-de-parels-van-oost/ (14 November 2022, putti in place)
+    - https://commons.wikimedia.org/wiki/Category:Muziek_en_vreugde (access via the Oetewalerstraat)
+    - https://nl.wikipedia.org/wiki/Oetewalerstraat (search snippet; Oute Waal on the retaining wall by the hospital annex)
+    - https://jtravel.nl/nederland/amsterdam/street-art-wandeling-in-de-amsterdamse-wijk-oost/ (search snippet, September 2026, Oute Waal still there)
+    - OpenStreetMap statue node 12022313304 (52.359207, 4.926647)
+  nl:
+    title: Muziek en Vreugde, putti van de afgebrande Stadsschouwburg
+    summary: "Twee papperige engeltjes van Bart van Hove uit 1889, gered uit de brand van de Stadsschouwburg in 1890, teruggevonden op de gemeentewerf en sinds 1996 in de rustige binnentuin achter hotel The Manor, het voormalige Burgerziekenhuis."
+    body: |
+      Bart van Hove (1850-1914) was de toonaangevende klassieke beeldhouwer van zijn tijd. Hij heeft onder meer beelden gemaakt voor de gevel van het Rijksmuseum en het Centraal Station. Achter hotel The Manor staat in de rustige binnentuin dit beeld van twee papperige baby-engeltjes, ook wel putti genaamd, die een allegorie verbeelden. Het is het oudste en een van de overgebleven beelden van Van Hove die op het dak stonden van de stadsschouwburg die in 1890 geheel afbrandde. Twee van de geredde beelden, Muziek en Vreugde en Komedie, stonden van 1950 tot 1987 in de tuin van het Beatrixoord, een herstellingsoord aan het Oosterpark. Uiteindelijk belandden ze op de gemeentewerf, waar ze door het stadsdeel teruggevonden werden. Komedie werd in 1994 gerestaureerd en teruggeplaatst op het dak van de huidige stadsschouwburg. Muziek en Vreugde werd in 1996 gerestaureerd en in de tuin, "een plantsoentje dat niemand kent", van het toenmalige stadsdeelkantoor geplaatst. Voor het hotel het stadsdeelkantoor was, was er het Burgerziekenhuis gevestigd, waar Johan Cruijff geboren is. In de kleine koepel in de tuin, het oude chirurgiegebouw, is nu galerie Bradwolff Projects gevestigd.
+
+      Langs de Oetewalerstraat, ter hoogte van nummer 26-34, zijn tegen het lange, lage muurtje negen platen gezeefdrukt met dierfiguren, organische vormen en letters: Oute Waal (1996) van Ingrid Pasmans. Vooral de f, g en h fladderen geheimzinnig over de bruine platen. Een blauwe reep van een van de letterplaten is bedrukt met een oude kaart van dit gebied. Daarop zijn duidelijk de woorden "Oute Waal" te lezen, een verwijzing naar het dorpje Houtewaal dat in 1387 voor het eerst werd genoemd en ongeveer lag op de plek van de huidige Muiderpoort. Tot 1878 heette de Linnaeusstraat Oetewalerweg. De speld staat op de putti.
+
+      Let op:
+      - de twee putti uit 1889
+      - de kleine koepel van het oude chirurgiegebouw
+      - op Oute Waal de blauwe reep met de oude kaart
+    attributes:
+      artist: Bart van Hove; Ingrid Pasmans (Oute Waal)
+      built: 1889 (hier geplaatst 1996)
+      original_use: Dakbeeld van de Stadsschouwburg
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1203
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1205
+      - https://oost-online.nl/openbare-kunst-een-tochtje-langs-de-parels-van-oost/
+
+- title: Domweg gelukkig, in de Dapperstraat
+  summary: "J.C. Bloem's most quoted line, 'Simply happy, in the Dapperstraat', runs across a grey 1990s housing block on the market street, in Dutch and seven other languages, designed by Ootje Oxenaar, who also drew the guilder banknotes."
+  body: |
+    J.C. Bloem (1887–1966) ended his sonnet *De Dapperstraat* with a line that every Dutch reader knows: "Domweg gelukkig, in de Dapperstraat" (simply happy, in the Dapperstraat). The poem prefers grey city streets and clouds framed by attic windows to nature, "a piece of forest the size of a newspaper", and finds happiness on a rainy, drizzly morning in this ordinary market street. The line gave its name to the best-known anthology of Dutch poetry.
+
+    In 1995, when Hans van Heeswijk designed new housing for older residents on the Dapperstraat during the urban renewal of the Dapperbuurt, the graphic designer Ootje Oxenaar was asked to give the facade the neighbourhood's popular and multicultural character. Oxenaar, famous for the guilder banknotes with the sunflower, the snipe and the lighthouse, set the line in clear type across the full width of the grey aluminium front, in Dutch and in translations including Arabic, Spanish and Papiamento. Coloured signs break up the grey: a big black comma, a passing blue cloud, a row of red and white squares. Around the corner, on the glass in front of the lift, more Bloem: "Ik heb van 't leven vrijwel niets verwacht" (I expected next to nothing from life). Bloem himself later lived in the Witsenhuis on the Oosterpark. The pin is approximate, on the corner of the block.
+
+    Look for:
+    - the line in eight languages across the facade
+    - the big black comma (the comma in Bloem's line is often said to carry its meaning)
+    - the poem on the lift glass around the corner
+  category: street-art
+  lat: 52.363826
+  lng: 4.926807
+  address: Dapperstraat, corner Commelinstraat
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1336" }
+    - { label: Kunst bij De Key, url: "https://kunstbijdekey.nl/kunstwerken/domweg-gelukkig/" }
+    - { label: De Brug (2021), url: "https://debrugkrant.nl/domweg-gelukkig/" }
+  attributes:
+    rank: Nice
+    artist: Ootje Oxenaar
+    architect: Hans van Heeswijk
+    built: "1995"
+    original_use: Housing for older residents
+  photos:
+    - commons:File:Domweg gelukkig, Dapperstraat met het gedicht van J.C. Bloem op de gevel.jpg
+    - commons:File:Domweg gelukkig in de Dapperstraat.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1336 (city public art database, via its API)
+    - https://kunstbijdekey.nl/kunstwerken/domweg-gelukkig/
+    - https://debrugkrant.nl/domweg-gelukkig/ (5 February 2021, facade in place)
+    - Pin from the city database (52.363826, 4.926807); the De Key page gives postcode 1093 BW (Dapperstraat 26-44)
+  nl:
+    title: Domweg gelukkig, in de Dapperstraat
+    summary: "Op een rustig stuk van de Dappermarkt staat een opvallend, modern gebouw met het beroemde vers van J.C. Bloem op de voorgevel, in het Nederlands en in vertalingen. Ontwerp van Ootje Oxenaar, bekend van de gulden bankbiljetten."
+    body: |
+      Op een rustig stuk van de Dappermarkt staat een opvallend, modern gebouw. Het pand valt op door de architectuur, maar meer nog door het beroemde vers De Dapperstraat van dichter J.C. Bloem dat op de voorgevel prijkt. Bloem (1887-1966) wordt beschouwd als een van de belangrijkste klassieke dichters uit Nederland, en zijn dichtregel "Domweg gelukkig, in de Dapperstraat" schopte het zelfs tot de titel van een bloemlezing over de bekendste gedichten van Nederland.
+
+      In de Dapperbuurt werd in 1995 door grafisch vormgever R.D.E. Oxenaar, bekend van zijn ontwerpen voor gulden bankbiljetten zoals de zonnebloem en de vuurtoren, een kunstwerk ontworpen dat uitdrukking moest geven aan het volkse en multiculturele karakter van de buurt. Oxenaar plaatste de dichtregel in heldere typografie over de gehele breedte van de gevel. Behalve in het Nederlands is de zin ook in diverse vertalingen weergegeven, zoals Arabisch, Spaans en Papiaments. Verder wordt de grotendeels grijze gevel onderbroken door ramen, balkons en enkele kleur- en vormaccenten, zoals een grote zwarte komma, een detail van een voorbij zwevende blauwe wolk en een lijn van opeenvolgende rode en witte vierkanten. Er is meer poëzie van Bloem verwerkt in dit gebouw van architect Hans van Heeswijk, dat ouderen huisvest. Om de hoek staat op de ruit voor de lift aan beide zijden een gedicht: "Ik heb van 't leven vrijwel niets verwacht." De speld staat bij benadering op de hoek van het blok.
+
+      Let op:
+      - de dichtregel in acht talen over de hele gevel
+      - de grote zwarte komma
+      - het gedicht op de ruit voor de lift om de hoek
+    attributes:
+      original_use: Ouderenwoningen
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1336
+      - https://kunstbijdekey.nl/kunstwerken/domweg-gelukkig/
+      - https://debrugkrant.nl/domweg-gelukkig/
+
+- title: Karel Appel Was Hier
+  summary: "A small bronze half-apple, bitten away until only the words 'Karel Appel was hier' remain, on the house in the Dapperstraat that became a residence for young artists. Just before it opened, Appel's brother said the family had lived at number 17."
+  body: |
+    Karel Appel (1921–2006), the best-known painter of the CoBrA movement, was born in the Dapperstraat, where his father ran a barber's shop and hoped his son would take it over. After Appel's death the housing association De Key decided to turn Dapperstraat 7 into a Karel Appelhuis, a home for foreign artists working at the Rijksakademie, and asked the artist Martijn Sandberg for a marker. Sandberg laser-scanned a real apple, edited it digitally and cast it in bronze with an apple-green patina: an apple, for Appel, and a nod to the market outside that sells them. Bites take away everything but the letters "Karel Appel was hier". It is only 17 by 21 cm.
+
+    The house opened on 25 April 2010, Appel's birthday. Shortly before, his brother Joop pointed out that the family's shop had been at number 17, not 7. That house, part of a row of 1878, had been demolished in the early 2000s, so De Key went ahead anyway. In 2026 the Rijksakademie still runs the house as a residence for foreign art students. Appel's bronze *Flowers* stands a few minutes away by the Muiderpoort station. The pin is on the building and approximate.
+
+    Look for:
+    - the small bronze apple by the front door
+    - the bite marks around the letters
+  category: street-art
+  lat: 52.365137
+  lng: 4.926299
+  address: Dapperstraat 7
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1807" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Karel_Appel_was_hier" }
+    - { label: Oost-Online (2026), url: "https://oost-online.nl/karel-appel-was-hier/" }
+  attributes:
+    rank: Okay
+    artist: Martijn Sandberg
+    built: 2006–2010
+  photos:
+    - commons:File:Karel Appel was here, Dapperstraat.jpg
+    - commons:File:Karel Appel was here, zijkant Dapperstraat.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1807 (city public art database, via its API; its pin, 52.362, 4.924922, is about 350 m off)
+    - https://nl.wikipedia.org/wiki/Karel_Appel_was_hier
+    - https://oost-online.nl/karel-appel-was-hier/ (26 May 2026, house and apple in place)
+    - Pin from the BAG address point of Dapperstraat 7 via PDOK (52.365137, 4.926299)
+  nl:
+    title: Karel Appel Was Hier
+    summary: "Een bronzen gevelteken in de vorm van een aangevreten halve appel, waaruit de tekst 'Karel Appel was hier' is weggehapt, op het Karel Appelhuis aan de Dapperstraat 7, sinds 2010 woonplek voor buitenlandse kunstenaars van de Rijksakademie."
+    body: |
+      Op 3 mei 2006 overleed Karel Appel. Appel was een van Nederlands meest bekende kunstenaars en werd in 1921 geboren in de Dapperstraat, waar vader Jan een kapperszaak dreef. Door Woonstichting De Key is kunstenaar Martijn Sandberg benaderd om een markering te ontwerpen voor het geplande Karel Appelhuis aan de Dapperstraat 7. Sandberg ontwierp een bronzen gevelteken in de vorm van een aangevreten halve appel. Uit de appel is de tekst "Karel Appel was hier" weggehapt. Er is een echte appel driedimensionaal ingescand met een laserscanner; daarna is het bronzen beeldje gemaakt, waarop een appelgroene patinalaag is aangebracht. Sandberg vond ook een verbinding met de Dappermarkt: Karel Appel veroverde de kunstmarkt, de Dappermarkt verkoopt appels. Het beeldje meet 17 bij 21 bij 9 cm.
+
+      Het huis werd op 25 april 2010 geopend, de geboortedag van de kunstenaar. Vlak voor de opening kwam Karels broer Joop Appel met de opmerking dat de winkel van de familie niet op nummer 7 maar op Dapperstraat 17 was gevestigd. De Key vond het zonde het project af te blazen, mede omdat het oorspronkelijke pand in de eerste jaren van de 21e eeuw was gesloopt. Het voormalige woonhuis aan de Dapperstraat 7 wordt door de Rijksakademie bestierd als tijdelijk residency-adres voor buitenlandse kunststudenten. Het beeld Flowers van Appel staat bij het Muiderpoortstation. De speld staat bij benadering op het pand.
+
+      Let op:
+      - de kleine bronzen appel naast de voordeur
+      - de hapsporen rond de letters
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1807
+      - https://nl.wikipedia.org/wiki/Karel_Appel_was_hier
+      - https://oost-online.nl/karel-appel-was-hier/
