@@ -125,3 +125,14 @@ Result: no unexplained blanks. The empty cells are business parks, polder meadow
 
 - Round C drafted and imported 2026-11-23: 8 new places, about 15 places extended (BRIEF-4.md, places/r4-*.yaml). Nieuw-West has 165 places. Out: 308 Jan Cupidohof (user's call), 315 (source described a different object).
 - Next: a short round D for Nieuw-Sloten and De Aker (the only gebied not saturated), then the verdict.
+
+## Round D (2026-11-23): De Aker/Sloten/Nieuw-Sloten
+
+- Scouted (SCOUT-5.md): 8 candidates (401 to 408), 2 new places (401 the Valutabuurt, the currency streets around the Ecuplein; 402 Velodrome Amsterdam), both Okay, and 6 merges (resistance-against-dictatorship names and the Indies bridges in the Verzetsheldenbuurt, the Wielaert hiding story at Noorderakerweg 21-23, three Molen van Sloten updates with an Outlook, the Nieuwe Meer ferry's uncertain future, the economists' streets by IBM, the Huizinga bakery at Sloterweg 1236). Live map read-only (1,014 places, 29 in the gebied); every pin point-checked to the gebied.
+- Swept: the city street-name register for all 294 named streets and bridges in the gebied; all 44 Kunstwacht records re-checked against the map; OSM places of worship, schools and landmarks (no place of worship built since 1990 found); architectureguide.nl, Tangram and Van Heeswijk's De Aker work, OASE 28; slotenoudosdorp.nl 2025 to 2026 posts; NH Nieuws, Parool and Rodi by search. Nieuw-Sloten's architecture yielded nothing beyond 301.
+- Grid: 401 fills L5; 402 is in N8.
+- **Test 2 (saturation): met.** 2 new places, none above Okay, 2 of 29 live places (7%); 1 if 402 is dropped.
+- **Verdict: De Aker/Sloten/Nieuw-Sloten complete for research** (tests 1 to 4 pass). With round C's verdict, all five gebieden of Nieuw-West are complete for research; still open borough-wide: sweep 8 (loops) and test 5 (blind quality check against West). Not read: the Thoth book *Nieuw Sloten: laagbouw in hoge dichtheid* and De Wit's *Nieuw Sloten: van tuin tot stad* (library only); the registers and local papers gave no sign they hold a sight the map lacks.
+
+- Round D drafted and imported 2026-11-24: 2 new places (Valutabuurt, Velodrome), 6 places extended; Molen van Sloten corrected (Rembrandt attic cleared out in 2025; its photo removed live). Nieuw-West has 167 places.
+- **Verdict (coordinator, 2026-11-24): Nieuw-West is complete for research** (tests 1, 3 and 4 pass; test 2 passes in every gebied on the under-10% reading). Loops parked by the user; remaining: the blind quality check against West, then maintenance.
