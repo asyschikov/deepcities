@@ -3,11 +3,12 @@ import {
   ClipboardCheck,
   FilePlus,
   Inbox,
+  Navigation,
   Plus,
   Search,
   Settings,
 } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
 import { RatingBadge } from "~/components/RatingStars";
@@ -16,8 +17,11 @@ import { RoutesPanel } from "~/components/RoutesPanel";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
+import { distanceMeters } from "~/lib/diff";
+import { useSettledFix } from "~/lib/geolocation";
 import { useMapPage } from "~/lib/map-page";
 import { useSearchFlag } from "~/lib/map-search";
+import { formatDistance } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
 import { cn, photoUrl } from "~/lib/utils";
 
@@ -38,7 +42,25 @@ const MapIndex = () => {
     tab,
     setTab,
     setHoverPlaceId,
+    geo,
   } = useMapPage();
+  // Near me: nearest first, with how far each place is.
+  const [near, setNear] = useSearchFlag("near");
+  const here = useSettledFix(geo.fix);
+  // biome-ignore lint/correctness/useExhaustiveDependencies: start once when opened with ?near
+  useEffect(() => {
+    if (near && geo.status === "off") geo.start();
+  }, [near]);
+  const listed = useMemo(() => {
+    if (!here) return visiblePlaces.map((p) => ({ p, meters: null }));
+    const withDistance = visiblePlaces.map((p) => ({
+      p,
+      meters: distanceMeters(here, p),
+    }));
+    return near
+      ? withDistance.sort((a, b) => a.meters - b.meters)
+      : withDistance;
+  }, [visiblePlaces, here, near]);
   // Leaving the list (e.g. opening a place) ends any hover highlight.
   useEffect(() => () => setHoverPlaceId(null), [setHoverPlaceId]);
   const { collection, can, role, pendingCount } = view;
@@ -179,6 +201,23 @@ const MapIndex = () => {
               />
             </div>
             <div className="flex flex-wrap gap-1.5">
+              <button
+                type="button"
+                aria-pressed={near}
+                onClick={() => {
+                  if (!near && geo.status !== "on") geo.start();
+                  setNear(!near);
+                }}
+                className={cn(
+                  "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition",
+                  near
+                    ? "border-[#2563eb] bg-[#2563eb] text-white"
+                    : "hover:bg-muted",
+                )}
+              >
+                <Navigation className="size-3" />
+                {t("near_me")}
+              </button>
               {collection.categories.map((c) => {
                 const active = category === c.key;
                 return (
@@ -242,8 +281,17 @@ const MapIndex = () => {
               ))}
           </div>
 
+          {near && !here && (
+            <p className="border-b p-4 text-sm text-muted-foreground">
+              {geo.status === "denied"
+                ? t("geo_denied_help")
+                : geo.status === "unavailable"
+                  ? t("geo_unavailable")
+                  : t("near_me_locating")}
+            </p>
+          )}
           <ul className="divide-y">
-            {visiblePlaces.map((p) => {
+            {listed.map(({ p, meters }) => {
               const cat = categoryOf(p.category);
               return (
                 <li
@@ -288,8 +336,13 @@ const MapIndex = () => {
                           count={p.rating.count}
                         />
                       </div>
-                      <div className="text-xs" style={{ color: cat.color }}>
-                        {cat.label}
+                      <div className="flex gap-2 text-xs">
+                        <span style={{ color: cat.color }}>{cat.label}</span>
+                        {meters !== null && (
+                          <span className="text-muted-foreground">
+                            {formatDistance(meters)}
+                          </span>
+                        )}
                       </div>
                       <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">
                         {p.summary}

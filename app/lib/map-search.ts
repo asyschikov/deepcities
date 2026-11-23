@@ -26,6 +26,8 @@ export const mapSearchSchema = z.object({
   q: opt(z.string().max(200)),
   cat: opt(z.string().max(60)),
   f: opt(z.record(z.string().max(60), z.string().max(200))),
+  /** Places list sorted by distance from the reader. */
+  near: opt(z.boolean()),
   /** Routes filter: walks or rides (the route's main mode). */
   mode: opt(z.enum(ROUTE_MODES)),
   /** Routes filter: only loops (end where they start). */
@@ -36,6 +38,8 @@ export const mapSearchSchema = z.object({
   /** Selected route stop or leg (0-based). */
   stop: opt(z.number().int().min(0).max(500)),
   leg: opt(z.number().int().min(0).max(500)),
+  /** Following the route on the ground, heading for this stop (0-based). */
+  go: opt(z.number().int().min(0).max(500)),
   /** Photo shown in a gallery (0-based). */
   photo: opt(z.number().int().min(0).max(500)),
   /** Map description expanded; all documents listed. */
@@ -54,13 +58,14 @@ export const MAP_RETAINED_PARAMS = [
   "q",
   "cat",
   "f",
+  "near",
   "mode",
   "loop",
   "map",
 ] as const satisfies readonly (keyof MapSearch)[];
 
 /** A boolean search param of the current map page, with its setter. */
-export const useSearchFlag = (key: "about" | "docs") => {
+export const useSearchFlag = (key: "about" | "docs" | "near") => {
   const search = useSearch({ from: "/$city/$slug" });
   const navigate = useNavigate();
   const set = (on: boolean) =>

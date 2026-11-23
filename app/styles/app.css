@@ -196,6 +196,38 @@
   border-style: dashed;
 }
 
+/* The reader's own position: a blue dot, with a cone when the heading is known. */
+.dc-me {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+}
+.dc-me-dot {
+  position: absolute;
+  inset: 3px;
+  border-radius: 9999px;
+  background: #2563eb;
+  border: 3px solid white;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 0.35);
+}
+.dc-me-heading {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 22px solid rgb(37 99 235 / 0.35);
+  transform-origin: 50% 100%;
+  transform: translateX(-50%) rotate(var(--heading, 0deg));
+}
+.dc-me[data-heading="true"] .dc-me-heading {
+  display: block;
+}
+
 /* The open or hovered place: a pulsing halo with its name. */
 .dc-hover-halo {
   position: relative;
