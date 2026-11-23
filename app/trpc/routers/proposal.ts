@@ -533,8 +533,8 @@ export const proposalRouter = router({
           inArray(proposal.status, input.statuses),
         ),
         with: {
-          author: { columns: { id: true, name: true } },
-          reviewer: { columns: { id: true, name: true } },
+          author: { columns: { id: true, name: true, avatarId: true } },
+          reviewer: { columns: { id: true, name: true, avatarId: true } },
           place: true,
           route: true,
         },
@@ -557,7 +557,7 @@ export const proposalRouter = router({
         with: {
           place: { columns: { id: true, title: true } },
           route: { columns: { id: true, title: true } },
-          reviewer: { columns: { id: true, name: true } },
+          reviewer: { columns: { id: true, name: true, avatarId: true } },
         },
         orderBy: desc(proposal.createdAt),
         limit: 100,

@@ -25,7 +25,7 @@ const users = [
 ] as const;
 
 const sql: string[] = [
-  "DELETE FROM api_token; DELETE FROM rating; DELETE FROM proposal; DELETE FROM photo; DELETE FROM place;",
+  "DELETE FROM api_token; DELETE FROM verdict; DELETE FROM checkin_photo; DELETE FROM checkin; DELETE FROM proposal; DELETE FROM photo; DELETE FROM place;",
   "DELETE FROM collection_member; DELETE FROM collection; DELETE FROM session; DELETE FROM login_token; DELETE FROM profile;",
 ];
 

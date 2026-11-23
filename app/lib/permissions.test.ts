@@ -61,6 +61,14 @@ describe("capabilitiesOf", () => {
     });
     expect(capabilitiesOf("super_admin").assignAdmins).toBe(true);
   });
+  it("lets anyone signed in explore, unless banned", () => {
+    expect(capabilitiesOf("viewer").visit).toBe(false);
+    expect(capabilitiesOf("viewer", { signedIn: true }).visit).toBe(true);
+    expect(
+      capabilitiesOf("viewer", { signedIn: true, banned: true }).visit,
+    ).toBe(false);
+    expect(capabilitiesOf("contributor").visit).toBe(true);
+  });
 });
 
 describe("canAssignRole", () => {

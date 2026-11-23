@@ -6,7 +6,14 @@ import {
   useNavigate,
 } from "@tanstack/react-router";
 import { formatDistanceToNow } from "date-fns";
-import { AlertTriangle, Check, MapPin, X } from "lucide-react";
+import {
+  AlertTriangle,
+  Archive,
+  Check,
+  MapPin,
+  SearchX,
+  X,
+} from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -15,6 +22,7 @@ import { MapView } from "~/components/MapView";
 import { PageShell } from "~/components/PageShell";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
 import { RouteProposalBody } from "~/components/RouteReview";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "~/components/ui/tabs";
@@ -22,6 +30,7 @@ import { Textarea } from "~/components/ui/textarea";
 import type { ProposalStatus } from "~/lib/constants";
 import { languageName } from "~/lib/content-lang";
 import { diffDrafts, distanceMeters, type FieldChange } from "~/lib/diff";
+import { goneField } from "~/lib/gone";
 import { loadCollection } from "~/lib/loaders";
 import { cn, photoUrl } from "~/lib/utils";
 import {
@@ -279,7 +288,12 @@ const ProposalCard = ({
             : (item.draft?.title ?? item.place?.title)}
         </span>
         <StatusBadge status={item.status} />
-        <span className="ml-auto text-xs text-muted-foreground">
+        <span className="ml-auto flex items-center gap-1.5 text-xs text-muted-foreground">
+          <UserAvatar
+            name={item.author?.name ?? "?"}
+            avatarId={item.author?.avatarId}
+            className="size-5 text-[10px]"
+          />
           {t("review_by", { name: item.author?.name ?? t("someone") })} ·{" "}
           {formatDistanceToNow(item.createdAt, { addSuffix: true })}
         </span>
@@ -379,6 +393,109 @@ const ProposalCard = ({
   );
 };
 
+/** Places visitors reported gone or couldn't find, with what to do. */
+const GoneList = ({ view }: { view: CollectionView }) => {
+  const { t } = useTranslation();
+  const trpc = useTRPC();
+  const queryClient = useQueryClient();
+  const { data: items = [], isLoading } = useQuery(
+    trpc.gone.list.queryOptions({ collectionId: view.collection.id }),
+  );
+  const resolve = useMutation(
+    trpc.gone.resolve.mutationOptions({
+      onSuccess: async (_res, input) => {
+        toast.success(t(`gone_resolved_${input.action}`));
+        await queryClient.invalidateQueries();
+      },
+      onError: (err) => toast.error(err.message),
+    }),
+  );
+  const canMark = goneField(view.collection.fields) !== undefined;
+  const { citySlug: city, slug } = view.collection;
+
+  if (isLoading) return null;
+  if (items.length === 0) {
+    return (
+      <p className="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground">
+        {t("gone_review_empty")}
+      </p>
+    );
+  }
+  return (
+    <ul className="space-y-4">
+      {items.map((item) => (
+        <li key={item.placeId} className="space-y-3 rounded-xl border p-4">
+          <div className="flex flex-wrap items-baseline justify-between gap-2">
+            <Link
+              to="/$city/$slug/p/$placeId"
+              params={{ city, slug, placeId: item.placeId }}
+              className="font-semibold hover:underline"
+            >
+              {item.title}
+            </Link>
+            <span className="flex items-center gap-1 text-xs text-warning">
+              <SearchX className="size-3.5" />
+              {t("gone_notice", { count: item.reports.length })}
+            </span>
+          </div>
+          <ul className="space-y-1.5 text-sm">
+            {item.reports.map((r) => (
+              <li key={`${r.name}-${r.createdAt.toISOString()}`}>
+                <span className="font-medium">{r.name}</span>
+                <span className="text-xs text-muted-foreground">
+                  {" "}
+                  · {formatDistanceToNow(r.createdAt, { addSuffix: true })}
+                </span>
+                {r.note && <div className="italic">“{r.note}”</div>}
+              </li>
+            ))}
+          </ul>
+          <div className="flex flex-wrap gap-2">
+            {canMark && !item.archived && (
+              <Button
+                size="sm"
+                disabled={resolve.isPending}
+                onClick={() =>
+                  resolve.mutate({ placeId: item.placeId, action: "mark" })
+                }
+              >
+                <SearchX /> {t("gone_mark")}
+              </Button>
+            )}
+            {!item.archived && (
+              <Button
+                size="sm"
+                variant="outline"
+                disabled={resolve.isPending}
+                onClick={() =>
+                  resolve.mutate({ placeId: item.placeId, action: "archive" })
+                }
+              >
+                <Archive /> {t("gone_archive")}
+              </Button>
+            )}
+            <Button
+              size="sm"
+              variant="ghost"
+              disabled={resolve.isPending}
+              onClick={() =>
+                resolve.mutate({ placeId: item.placeId, action: "dismiss" })
+              }
+            >
+              <Check /> {t("gone_dismiss")}
+            </Button>
+          </div>
+          {canMark && (
+            <p className="text-xs text-muted-foreground">
+              {t("gone_mark_hint")}
+            </p>
+          )}
+        </li>
+      ))}
+    </ul>
+  );
+};
+
 const MineList = ({ view }: { view: CollectionView }) => {
   const { t } = useTranslation();
   const trpc = useTRPC();
@@ -472,7 +589,7 @@ const MineList = ({ view }: { view: CollectionView }) => {
   );
 };
 
-const TABS = ["queue", "reviewed", "mine"] as const;
+const TABS = ["queue", "gone", "reviewed", "mine"] as const;
 
 const ReviewPage = () => {
   const { t } = useTranslation();
@@ -494,7 +611,7 @@ const ReviewPage = () => {
       collectionId: view.collection.id,
       statuses,
     }),
-    enabled: canReview && activeTab !== "mine",
+    enabled: canReview && activeTab !== "mine" && activeTab !== "gone",
   });
 
   return (
@@ -523,6 +640,14 @@ const ReviewPage = () => {
                 </Badge>
               )}
             </TabsTrigger>
+            <TabsTrigger value="gone">
+              {t("review_tab_gone")}
+              {view.goneCount > 0 && (
+                <Badge className="ml-1 h-5 bg-warning px-1.5">
+                  {view.goneCount}
+                </Badge>
+              )}
+            </TabsTrigger>
             <TabsTrigger value="reviewed">
               {t("review_tab_reviewed")}
             </TabsTrigger>
@@ -532,6 +657,8 @@ const ReviewPage = () => {
       )}
       {activeTab === "mine" ? (
         <MineList view={view} />
+      ) : activeTab === "gone" ? (
+        <GoneList view={view} />
       ) : isLoading ? null : items.length === 0 ? (
         <p className="rounded-xl border border-dashed p-8 text-center text-sm text-muted-foreground">
           {activeTab === "queue"

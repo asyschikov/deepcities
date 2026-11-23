@@ -1,4 +1,4 @@
-DELETE FROM api_token; DELETE FROM rating; DELETE FROM proposal; DELETE FROM photo; DELETE FROM place;
+DELETE FROM api_token; DELETE FROM verdict; DELETE FROM checkin_photo; DELETE FROM checkin; DELETE FROM proposal; DELETE FROM photo; DELETE FROM place;
 DELETE FROM collection_member; DELETE FROM collection; DELETE FROM session; DELETE FROM login_token; DELETE FROM profile;
 INSERT INTO profile (id, email, name, role, created_at) VALUES ('u_super', 'superadmin@deepcities.local', 'Site Owner', 'super_admin', 1790021867);
 INSERT INTO profile (id, email, name, role, created_at) VALUES ('u_admin', 'admin@deepcities.local', 'Anna Admin', 'user', 1790108267);

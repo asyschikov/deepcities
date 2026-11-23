@@ -10,6 +10,7 @@ import {
 } from "drizzle-orm/sqlite-core";
 import {
   AREA_LEVELS,
+  CHECKIN_PHOTO_KINDS,
   CONTRIBUTION_POLICIES,
   type ContentLang,
   DOCUMENT_ACTIONS,
@@ -23,6 +24,7 @@ import {
   PROPOSAL_SUBJECTS,
   ROUTE_MODES,
   ROUTE_STATUSES,
+  VERDICTS,
 } from "~/lib/constants";
 import type {
   Attributes,
@@ -48,6 +50,8 @@ export const profile = sqliteTable(
     email: text("email").notNull(),
     name: text("name").notNull(),
     bio: text("bio"),
+    /** Portrait in R2 at `avatars/<avatarId>`; a new id on every upload. */
+    avatarId: text("avatar_id"),
     role: text("role", { enum: GLOBAL_ROLES }).notNull().default("user"),
     createdAt: createdAt(),
   },
@@ -375,8 +379,9 @@ export const photo = sqliteTable("photo", {
   createdAt: createdAt(),
 });
 
-export const rating = sqliteTable(
-  "rating",
+/** One visitor's verdict on a place (amazing / nice / okay / skip). */
+export const verdict = sqliteTable(
+  "verdict",
   {
     placeId: text("place_id")
       .notNull()
@@ -384,10 +389,101 @@ export const rating = sqliteTable(
     profileId: text("profile_id")
       .notNull()
       .references(() => profile.id, { onDelete: "cascade" }),
-    score: integer("score").notNull(),
-    createdAt: createdAt(),
+    verdict: text("verdict", { enum: VERDICTS }).notNull(),
+    updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
   },
   (t) => [primaryKey({ columns: [t.placeId, t.profileId] })],
+);
+
+/**
+ * "I was here": a visit to a place, private to the visitor. A place can be
+ * checked in to again on later visits.
+ */
+export const checkin = sqliteTable(
+  "checkin",
+  {
+    id: text("id").primaryKey(),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    placeId: text("place_id")
+      .notNull()
+      .references(() => place.id, { onDelete: "cascade" }),
+    profileId: text("profile_id")
+      .notNull()
+      .references(() => profile.id, { onDelete: "cascade" }),
+    /** Checked in while following this route. */
+    routeId: text("route_id").references(() => route.id, {
+      onDelete: "set null",
+    }),
+    /** Where the visitor was, when the phone knew (null: marked from afar). */
+    lat: real("lat"),
+    lng: real("lng"),
+    accuracy: real("accuracy"),
+    createdAt: createdAt(),
+  },
+  (t) => [
+    index("checkin_profile_idx").on(t.profileId, t.createdAt),
+    index("checkin_place_idx").on(t.placeId, t.profileId),
+  ],
+);
+
+/**
+ * A photo taken at a check-in. Private: only its owner can see it. A photo
+ * of the place is also offered to the place (`photoId`, through a proposal).
+ */
+export const checkinPhoto = sqliteTable(
+  "checkin_photo",
+  {
+    id: text("id").primaryKey(),
+    checkinId: text("checkin_id")
+      .notNull()
+      .references(() => checkin.id, { onDelete: "cascade" }),
+    profileId: text("profile_id")
+      .notNull()
+      .references(() => profile.id, { onDelete: "cascade" }),
+    kind: text("kind", { enum: CHECKIN_PHOTO_KINDS }).notNull(),
+    /** R2 object key. */
+    objectKey: text("object_key").notNull(),
+    width: integer("width").notNull(),
+    height: integer("height").notNull(),
+    /** The public photo offered to the place, for `kind: "place"`. */
+    photoId: text("photo_id").references(() => photo.id, {
+      onDelete: "set null",
+    }),
+    createdAt: createdAt(),
+  },
+  (t) => [index("checkin_photo_checkin_idx").on(t.checkinId)],
+);
+
+/**
+ * "It's gone, or I couldn't find it": a visitor's report on a place, one per
+ * person (reporting again refreshes it). Moderators act on reports (mark the
+ * place gone, archive it) or dismiss them when it's still there.
+ */
+export const goneReport = sqliteTable(
+  "gone_report",
+  {
+    placeId: text("place_id")
+      .notNull()
+      .references(() => place.id, { onDelete: "cascade" }),
+    profileId: text("profile_id")
+      .notNull()
+      .references(() => profile.id, { onDelete: "cascade" }),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    note: text("note"),
+    /** Where the reporter was, when the phone knew. */
+    lat: real("lat"),
+    lng: real("lng"),
+    accuracy: real("accuracy"),
+    createdAt: createdAt(),
+  },
+  (t) => [
+    primaryKey({ columns: [t.placeId, t.profileId] }),
+    index("gone_report_collection_idx").on(t.collectionId),
+  ],
 );
 
 // ─── Relations ──────────────────────────────────────────────────────
@@ -411,6 +507,22 @@ export const collectionMemberRelations = relations(
     }),
   }),
 );
+
+export const checkinRelations = relations(checkin, ({ one, many }) => ({
+  place: one(place, { fields: [checkin.placeId], references: [place.id] }),
+  collection: one(collection, {
+    fields: [checkin.collectionId],
+    references: [collection.id],
+  }),
+  photos: many(checkinPhoto),
+}));
+
+export const checkinPhotoRelations = relations(checkinPhoto, ({ one }) => ({
+  checkin: one(checkin, {
+    fields: [checkinPhoto.checkinId],
+    references: [checkin.id],
+  }),
+}));
 
 export const placeRelations = relations(place, ({ one, many }) => ({
   collection: one(collection, {

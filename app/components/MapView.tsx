@@ -11,8 +11,15 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Supercluster from "supercluster";
 import { DEFAULT_PIN_SIZE, PIN_PX, type PinSize } from "~/lib/constants";
+
 import type { AreaGeometry } from "~/lib/db/schema";
+import type { GeoFix } from "~/lib/geolocation";
 import { cn } from "~/lib/utils";
+
+/** How much a hovered or open pin grows (`.dc-marker-shape` in app.css). */
+const PIN_HOVER_SCALE = 1.25;
+/** Pins the filters leave out stay as faint context. */
+const DIMMED_OPACITY = "0.12";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 
@@ -23,6 +30,8 @@ export interface MapMarker {
   color: string;
   title: string;
   dimmed?: boolean;
+  /** The reader has checked in here: drawn with a tick. */
+  visited?: boolean;
 }
 
 export interface LngLat {
@@ -102,6 +111,12 @@ interface MapViewProps {
   holdInitialView?: boolean;
   /** After the map stops moving (pan, zoom, fly). */
   onViewChange?: (v: { lat: number; lng: number; zoom: number }) => void;
+  /** The reader's own position: a dot with its accuracy circle. */
+  me?: GeoFix | null;
+  /** Keep the reader's position centred as it moves. */
+  follow?: boolean;
+  /** Following stopped because the reader dragged the map away. */
+  onFollowStop?: () => void;
 }
 
 /** How long after loading a restored view wins over automatic moves. */
@@ -136,6 +151,29 @@ const areaLabelsGeoJson = (areas: MapArea[]) => ({
     geometry: { type: "Point" as const, coordinates: a.label },
   })),
 });
+
+const ME_SOURCE = "dc-me";
+/** A circle of `meters` around a point, as a polygon (for accuracy). */
+const circleGeoJson = (fix: GeoFix | null) => {
+  if (!fix) return { type: "FeatureCollection" as const, features: [] };
+  const steps = 48;
+  const dLat = fix.accuracy / 111_320;
+  const dLng = dLat / Math.cos((fix.lat * Math.PI) / 180);
+  const ring = Array.from({ length: steps + 1 }, (_, i) => {
+    const a = (i / steps) * 2 * Math.PI;
+    return [fix.lng + dLng * Math.cos(a), fix.lat + dLat * Math.sin(a)];
+  });
+  return {
+    type: "FeatureCollection" as const,
+    features: [
+      {
+        type: "Feature" as const,
+        properties: {},
+        geometry: { type: "Polygon" as const, coordinates: [ring] },
+      },
+    ],
+  };
+};
 
 const LINES_SOURCE = "dc-lines";
 const LINES_HIT_LAYER = "dc-lines-hit";
@@ -193,7 +231,12 @@ export const MapView = ({
   className,
   holdInitialView = false,
   onViewChange,
+  me = null,
+  follow = false,
+  onFollowStop,
 }: MapViewProps) => {
+  const onFollowStopRef = useRef(onFollowStop);
+  onFollowStopRef.current = onFollowStop;
   const onViewChangeRef = useRef(onViewChange);
   onViewChangeRef.current = onViewChange;
   const heldUntil = useRef(0);
@@ -246,6 +289,8 @@ export const MapView = ({
           "top-right",
         );
       }
+      // Dragging the map away from your position stops following it.
+      map.on("dragstart", () => onFollowStopRef.current?.());
       map.on("moveend", () => {
         if (!map) return;
         const c = map.getCenter();
@@ -322,6 +367,26 @@ export const MapView = ({
             "text-color": ["get", "color"],
             "text-halo-color": "rgba(255,255,255,0.95)",
             "text-halo-width": 2,
+          },
+        });
+        map.addSource(ME_SOURCE, {
+          type: "geojson",
+          data: circleGeoJson(null),
+        });
+        map.addLayer({
+          id: "dc-me-accuracy",
+          type: "fill",
+          source: ME_SOURCE,
+          paint: { "fill-color": "#2563eb", "fill-opacity": 0.12 },
+        });
+        map.addLayer({
+          id: "dc-me-accuracy-line",
+          type: "line",
+          source: ME_SOURCE,
+          paint: {
+            "line-color": "#2563eb",
+            "line-opacity": 0.35,
+            "line-width": 1,
           },
         });
         map.addSource(LINES_SOURCE, {
@@ -431,6 +496,9 @@ export const MapView = ({
         const el = document.createElement("button");
         el.type = "button";
         el.className = "dc-marker";
+        const shape = document.createElement("span");
+        shape.className = "dc-marker-shape";
+        el.appendChild(shape);
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
           onMarkerClickRef.current?.(m.id);
@@ -442,13 +510,15 @@ export const MapView = ({
         existing.set(m.id, entry);
       }
       entry.marker.setLngLat([m.lng, m.lat]);
-      entry.el.style.background = m.color;
+      const shape = entry.el.firstElementChild as HTMLElement | null;
+      if (shape) shape.style.background = m.color;
       entry.el.title = m.title;
       entry.el.setAttribute("aria-label", m.title);
       entry.el.dataset.active = String(m.id === activeId);
       entry.el.dataset.dimmed = String(Boolean(m.dimmed));
+      entry.el.dataset.visited = String(Boolean(m.visited));
       // MapLibre manages the element's inline opacity, so dim through it.
-      entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
+      entry.marker.setOpacity(m.dimmed ? DIMMED_OPACITY : "1");
     }
   }, [ready, markers, activeId]);
 
@@ -480,7 +550,8 @@ export const MapView = ({
       };
     }
     const halo = haloRef.current;
-    const head = PIN_PX[pinSize] / 2;
+    // The highlighted pin grows from its point, so its head moves up-right.
+    const head = (PIN_PX[pinSize] / 2) * PIN_HOVER_SCALE;
     halo.marker.setOffset([head, -head]);
     halo.el.style.setProperty("--halo", m.color);
     const label = halo.el.querySelector(".dc-hover-label");
@@ -492,7 +563,7 @@ export const MapView = ({
     return () => {
       entry.el.dataset.hover = "false";
       entry.el.style.zIndex = "";
-      entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
+      entry.marker.setOpacity(m.dimmed ? DIMMED_OPACITY : "1");
       halo.marker.remove();
     };
   }, [ready, highlightId, markers, pinSize]);
@@ -560,9 +631,11 @@ export const MapView = ({
           "--size",
           `${Math.round(30 + Math.sqrt(count) * 3)}px`,
         );
-        el.style.background = clusterGradient(colors, count);
-        el.innerHTML = "<span></span>";
-        const label = el.querySelector("span");
+        el.innerHTML =
+          '<span class="dc-cluster-disc"><span class="dc-cluster-count"></span></span>';
+        const disc = el.firstElementChild as HTMLElement | null;
+        if (disc) disc.style.background = clusterGradient(colors, count);
+        const label = el.querySelector(".dc-cluster-count");
         if (label) label.textContent = String(count);
         const name = clusterLabel.current("cluster_count", { count });
         el.title = name;
@@ -688,7 +761,9 @@ export const MapView = ({
       if (!entry) {
         const el = document.createElement("div");
         el.className = "dc-pin";
-        el.appendChild(document.createElement("span"));
+        const shape = document.createElement("span");
+        shape.className = "dc-marker-shape";
+        el.appendChild(shape);
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
           pinPropsRef.current.get(p.id)?.onClick?.();
@@ -746,6 +821,64 @@ export const MapView = ({
     );
     map.fitBounds(bounds, { padding: 60, maxZoom: 16, duration: 600 });
   }, [ready, fitTo]);
+
+  // The reader's position: a dot (above the places) and its accuracy circle.
+  const meMarker = useRef<Marker | null>(null);
+  useEffect(() => {
+    const map = mapRef.current;
+    const lib = libRef.current;
+    if (!ready || !map || !lib) return;
+    if (!me) {
+      meMarker.current?.remove();
+      meMarker.current = null;
+      return;
+    }
+    if (!meMarker.current) {
+      const el = document.createElement("div");
+      el.className = "dc-me";
+      el.innerHTML =
+        '<span class="dc-me-heading"></span><span class="dc-me-dot"></span>';
+      el.style.zIndex = "6";
+      meMarker.current = new lib.Marker({ element: el, anchor: "center" })
+        .setLngLat([me.lng, me.lat])
+        .addTo(map);
+    }
+    meMarker.current.setLngLat([me.lng, me.lat]);
+    const el = meMarker.current.getElement();
+    el.dataset.heading = String(me.heading !== null);
+    el.style.setProperty("--heading", `${me.heading ?? 0}deg`);
+  }, [ready, me]);
+  useEffect(() => {
+    const source = styleReady ? mapRef.current?.getSource(ME_SOURCE) : null;
+    if (source && "setData" in source)
+      (source as { setData: (d: unknown) => void }).setData(circleGeoJson(me));
+  }, [styleReady, me]);
+  useEffect(
+    () => () => {
+      meMarker.current?.remove();
+      meMarker.current = null;
+    },
+    [],
+  );
+
+  // Following: keep the reader's position in the middle as it moves.
+  const meLat = me?.lat;
+  const meLng = me?.lng;
+  const wasFollowing = useRef(false);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!follow) {
+      wasFollowing.current = false;
+      return;
+    }
+    if (!ready || !map || meLat === undefined || meLng === undefined) return;
+    // Starting to follow zooms in to street level; after that, just pan.
+    const zoom = wasFollowing.current
+      ? map.getZoom()
+      : Math.max(map.getZoom(), 16);
+    wasFollowing.current = true;
+    map.easeTo({ center: [meLng, meLat], zoom, duration: 600 });
+  }, [ready, follow, meLat, meLng]);
 
   const focusLat = focus?.lat;
   const focusLng = focus?.lng;

@@ -15,13 +15,16 @@ import {
   Minimize2,
   Pencil,
 } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { z } from "zod/v4";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
+import { CoverPhoto } from "~/components/CoverPhoto";
 import { MarkdownView } from "~/components/MarkdownView";
 import { PhotoCredit } from "~/components/PhotoCredit";
+import { PhotoViewer } from "~/components/PhotoViewer";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import { localize, untranslated } from "~/lib/content-lang";
 import { galleryPhotoIds } from "~/lib/documents";
@@ -80,6 +83,7 @@ const DocumentPage = () => {
     };
   }, [full, navigate]);
   const { categoryOf, setOverlay, translateTo } = useMapPage();
+  const [viewing, setViewing] = useState<number | null>(null);
   const { data } = useQuery({
     ...trpc.document.byId.queryOptions({ documentId: docId }),
     initialData: initial,
@@ -167,14 +171,28 @@ const DocumentPage = () => {
 
         {cover && (
           <figure className="space-y-1">
-            <img
-              src={photoUrl(cover)}
+            <CoverPhoto
+              id={cover}
               alt=""
-              className="aspect-[4/3] w-full rounded-lg bg-muted object-cover"
+              width={photoById.get(cover)?.width}
+              height={photoById.get(cover)?.height}
+              onOpen={() => setViewing(0)}
+              openLabel={t("photo_open")}
             />
             <PhotoCredit photo={photoById.get(cover)} />
           </figure>
         )}
+        <PhotoViewer
+          photoIds={gallery}
+          photos={photos}
+          index={viewing ?? 0}
+          onIndexChange={setViewing}
+          open={viewing !== null}
+          onOpenChange={(open) => {
+            if (!open) setViewing(null);
+          }}
+          title={doc.title}
+        />
 
         <header className="space-y-1.5">
           <div className="text-xs font-medium tracking-wide text-brick uppercase">
@@ -215,16 +233,21 @@ const DocumentPage = () => {
             <div
               className={cn("grid gap-2", full ? "grid-cols-3" : "grid-cols-2")}
             >
-              {gallery.slice(1).map((id) => (
+              {gallery.slice(1).map((id, i) => (
                 <figure key={id} className="space-y-1">
-                  <a href={photoUrl(id)} target="_blank" rel="noreferrer">
+                  <button
+                    type="button"
+                    className="block w-full cursor-zoom-in"
+                    aria-label={t("photo_open")}
+                    onClick={() => setViewing(i + 1)}
+                  >
                     <img
                       src={photoUrl(id)}
                       alt=""
                       loading="lazy"
                       className="aspect-[4/3] w-full rounded-md bg-muted object-cover"
                     />
-                  </a>
+                  </button>
                   <PhotoCredit photo={photoById.get(id)} />
                 </figure>
               ))}
@@ -298,15 +321,22 @@ const DocumentPage = () => {
             </h2>
             <ol className="space-y-2 text-xs text-muted-foreground">
               {history.map((h) => (
-                <li key={h.id}>
-                  <span className="font-medium text-foreground">
-                    {t(`doc_history_${h.action}`, {
-                      name: h.editor?.name ?? t("someone"),
-                    })}
-                  </span>
-                  {" · "}
-                  {formatDistanceToNow(h.createdAt, { addSuffix: true })}
-                  {h.note && <div className="italic">“{h.note}”</div>}
+                <li key={h.id} className="flex gap-2">
+                  <UserAvatar
+                    name={h.editor?.name ?? "?"}
+                    avatarId={h.editor?.avatarId}
+                    className="mt-0.5 size-5 text-[10px]"
+                  />
+                  <div>
+                    <span className="font-medium text-foreground">
+                      {t(`doc_history_${h.action}`, {
+                        name: h.editor?.name ?? t("someone"),
+                      })}
+                    </span>
+                    {" · "}
+                    {formatDistanceToNow(h.createdAt, { addSuffix: true })}
+                    {h.note && <div className="italic">“{h.note}”</div>}
+                  </div>
                 </li>
               ))}
             </ol>

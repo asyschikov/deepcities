@@ -89,7 +89,7 @@ export const CityHome = ({
 
       <section className="border-t bg-muted/40">
         <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 sm:grid-cols-3">
-          {(["propose", "review", "rate"] as const).map((k, i) => (
+          {(["propose", "review", "visit"] as const).map((k, i) => (
             <div key={k}>
               <div className="font-serif text-3xl text-brick">{i + 1}</div>
               <h3 className="mt-2 font-sans text-base font-semibold">

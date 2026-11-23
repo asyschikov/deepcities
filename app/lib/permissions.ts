@@ -37,7 +37,11 @@ export const resolveRole = ({
 export interface Capabilities {
   /** Propose new places / edits / removals and upload photos. */
   propose: boolean;
-  rate: boolean;
+  /**
+   * Explore for yourself: check in, add your photos, give verdicts. Any
+   * signed-in reader who isn't banned from the map, whatever their role.
+   */
+  visit: boolean;
   /** Approve or reject others' proposals; own proposals publish instantly. */
   review: boolean;
   /** Assign moderators/contributors, ban, edit map settings. */
@@ -46,9 +50,12 @@ export interface Capabilities {
   assignAdmins: boolean;
 }
 
-export const capabilitiesOf = (role: EffectiveRole): Capabilities => ({
+export const capabilitiesOf = (
+  role: EffectiveRole,
+  { signedIn = role !== "viewer", banned = false } = {},
+): Capabilities => ({
   propose: atLeast(role, "contributor"),
-  rate: atLeast(role, "contributor"),
+  visit: signedIn && !banned,
   review: atLeast(role, "moderator"),
   manage: atLeast(role, "admin"),
   assignAdmins: role === "super_admin",

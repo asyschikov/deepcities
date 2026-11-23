@@ -13,9 +13,11 @@ import { TRPCError } from "@trpc/server";
 import { List, Map as MapIcon } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { toast } from "sonner";
 import { AreaLayerSwitcher } from "~/components/AreaLayerSwitcher";
 import { ClusterSwitcher } from "~/components/ClusterSwitcher";
 import { ContentLangSwitcher } from "~/components/ContentLangSwitcher";
+import { LocateButton } from "~/components/LocateButton";
 import { type LngLat, type MapArea, MapView } from "~/components/MapView";
 import { PinSizeSwitcher } from "~/components/PinSizeSwitcher";
 import { Button } from "~/components/ui/button";
@@ -27,6 +29,7 @@ import {
   type PinSize,
 } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
+import { useGeolocation } from "~/lib/geolocation";
 import {
   type MapOverlay,
   MapPageContext,
@@ -41,6 +44,7 @@ import {
   parseMapView,
 } from "~/lib/map-search";
 import { useIsPeerOf } from "~/lib/nav-history";
+import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
@@ -195,6 +199,35 @@ const MapLayout = () => {
     if (!onMapHome) setPanelOpen(true);
   }, [onMapHome, pathname]);
 
+  // Places the reader has checked in to (ticked on the map and in lists).
+  const viewer = useViewer();
+  const { data: visitedList } = useQuery({
+    ...trpc.checkin.visited.queryOptions({
+      collectionId: rawView.collection.id,
+    }),
+    enabled: viewer !== null,
+  });
+  const visitedIds = useMemo(() => new Set(visitedList ?? []), [visitedList]);
+
+  // The reader's position, shared by the map, the list and route following.
+  const geo = useGeolocation();
+  const [following, setFollowing] = useState(false);
+  const stopFollowing = useCallback(() => setFollowing(false), []);
+  const showMap = useCallback(() => setPanelOpen(false), []);
+  useEffect(() => {
+    if (geo.status === "denied") toast.error(t("geo_denied_help"));
+    else if (geo.status === "unavailable") toast.error(t("geo_unavailable"));
+    if (geo.status !== "on" && geo.status !== "locating") setFollowing(false);
+  }, [geo.status, t]);
+  const onLocate = () => {
+    if (geo.status === "on" && following) {
+      geo.stop();
+      return;
+    }
+    if (geo.status !== "on") geo.start();
+    setFollowing(true);
+  };
+
   // Place pin size (`?pins=large|small`; medium when absent).
   const pinSize: PinSize = urlSearch.pins ?? DEFAULT_PIN_SIZE;
   const setPinSize = useCallback(
@@ -320,6 +353,7 @@ const MapLayout = () => {
           lng: p.lng,
           title: p.title,
           color: categoryOf(p.category).color,
+          visited: visitedIds.has(p.id),
           dimmed:
             !visibleIds.has(p.id) ||
             picking ||
@@ -333,6 +367,7 @@ const MapLayout = () => {
       overlay?.dimPlaces,
       highlighted,
       hidden,
+      visitedIds,
     ],
   );
 
@@ -363,6 +398,11 @@ const MapLayout = () => {
     setLang,
     hoverPlaceId,
     setHoverPlaceId,
+    geo,
+    following,
+    setFollowing,
+    showMap,
+    visitedIds,
   };
 
   return (
@@ -456,7 +496,30 @@ const MapLayout = () => {
               });
             }}
             draft={picking ? { position: draft, onChange: setDraft } : null}
+            me={geo.fix}
+            follow={following}
+            onFollowStop={stopFollowing}
           />
+          {/* Bottom of the map: the locate button, and above the phone's
+              panel button any card a page floats over the map. */}
+          <div className="pointer-events-none absolute inset-x-3 bottom-24 z-10 flex flex-col items-end gap-2 md:bottom-9">
+            <LocateButton
+              status={geo.status}
+              following={following}
+              onClick={onLocate}
+              className="pointer-events-auto"
+            />
+            {overlay?.card && (
+              <div
+                className={cn(
+                  "pointer-events-auto w-full md:w-[380px] md:self-start",
+                  panelOpen && "max-md:hidden",
+                )}
+              >
+                {overlay.card}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </MapPageContext.Provider>

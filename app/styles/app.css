@@ -77,43 +77,96 @@
   }
 }
 
-/* Map markers (plain DOM elements created in MapView). */
+/* Map markers (plain DOM elements created in MapView). MapLibre moves a
+   marker by setting `transform` on its element every frame, so that element
+   must carry no transform or transition of its own (a transition makes the
+   pins trail the map). The visible shape lives on an inner span. */
+/* Every element we hand to MapLibre as a marker. MapLibre's own stylesheet
+   makes markers absolute, but whether it or ours wins depends on load order,
+   and a marker left in normal flow lands off its point (the halo did). */
+.dc-marker,
+.dc-cluster,
+.dc-pin,
+.dc-me,
+.dc-hover-halo,
+.dc-draft-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .dc-marker {
   /* --pin: set on the map by its pin size (26px large, 18px, 12px). */
+  display: block;
   width: var(--pin, 18px);
   height: var(--pin, 18px);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.dc-marker-shape {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
   border-radius: 50% 50% 50% 0;
-  transform: rotate(-45deg);
   border: clamp(1.5px, calc(var(--pin, 18px) / 13), 2px) solid white;
   box-shadow: 0 2px 6px rgb(0 0 0 / 0.3);
-  cursor: pointer;
+  transform-origin: bottom left;
   transition:
     transform 120ms ease,
     box-shadow 120ms ease;
 }
+/* Places you've checked in to: a white tick on the pin's head. */
+.dc-marker[data-visited="true"] .dc-marker-shape::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: 32%;
+  height: 52%;
+  border: solid white;
+  border-width: 0 max(1.5px, calc(var(--pin, 18px) / 9))
+    max(1.5px, calc(var(--pin, 18px) / 9)) 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
 .dc-marker:hover,
 .dc-marker[data-active="true"] {
-  transform: rotate(-45deg) scale(1.25);
-  box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
   z-index: 2;
+}
+/* Keep PIN_HOVER_SCALE in MapView in step: the halo centres on the grown head. */
+.dc-marker:hover .dc-marker-shape,
+.dc-marker[data-hover="true"] .dc-marker-shape,
+.dc-marker[data-active="true"] .dc-marker-shape {
+  transform: scale(1.25);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
 }
 .dc-marker[data-clustered="true"] {
   display: none;
 }
 .dc-cluster {
+  display: block;
   width: var(--size);
   height: var(--size);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.dc-cluster-disc {
+  display: block;
+  width: 100%;
+  height: 100%;
   padding: 4px;
   border-radius: 50%;
   border: 2px solid white;
   box-shadow: 0 2px 8px rgb(0 0 0 / 0.3);
-  cursor: pointer;
   transition: transform 120ms ease;
 }
-.dc-cluster:hover {
+.dc-cluster:hover .dc-cluster-disc {
   transform: scale(1.1);
 }
-.dc-cluster span {
+.dc-cluster-count {
   display: grid;
   place-items: center;
   width: 100%;
@@ -172,9 +225,39 @@
   border-style: dashed;
 }
 
+/* The reader's own position: a blue dot, with a cone when the heading is known. */
+.dc-me {
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+}
+.dc-me-dot {
+  position: absolute;
+  inset: 3px;
+  border-radius: 9999px;
+  background: #2563eb;
+  border: 3px solid white;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 0.35);
+}
+.dc-me-heading {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 22px solid rgb(37 99 235 / 0.35);
+  transform-origin: 50% 100%;
+  transform: translateX(-50%) rotate(var(--heading, 0deg));
+}
+.dc-me[data-heading="true"] .dc-me-heading {
+  display: block;
+}
+
 /* The open or hovered place: a pulsing halo with its name. */
 .dc-hover-halo {
-  position: relative;
   width: 0;
   height: 0;
   pointer-events: none;

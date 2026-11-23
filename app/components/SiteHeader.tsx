@@ -1,7 +1,15 @@
 import { Link, useMatches, useRouterState } from "@tanstack/react-router";
-import { LogOut, MapPinned, Shield, UserRound } from "lucide-react";
+import {
+  LogOut,
+  MapPinCheck,
+  MapPinned,
+  Shield,
+  UserRound,
+} from "lucide-react";
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
+import { ModeSwitch } from "~/components/ModeSwitch";
+import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -12,7 +20,7 @@ import {
   DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, getInitials } from "~/lib/utils";
+import { cn } from "~/lib/utils";
 
 interface MapCrumb {
   city: string;
@@ -115,15 +123,16 @@ export const SiteHeader = () => {
         ))}
       </nav>
       <div className="ml-auto flex shrink-0 items-center gap-2">
+        <ModeSwitch />
         {viewer ? (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button
                 type="button"
-                className="flex size-8 items-center justify-center rounded-full bg-primary text-xs font-semibold text-primary-foreground"
+                className="rounded-full text-xs"
                 aria-label={t("header_account")}
               >
-                {getInitials(viewer.name)}
+                <UserAvatar name={viewer.name} avatarId={viewer.avatarId} />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-56">
@@ -134,6 +143,11 @@ export const SiteHeader = () => {
                 </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to="/me/visits">
+                  <MapPinCheck /> {t("header_visits")}
+                </Link>
+              </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link to="/me">
                   <UserRound /> {t("header_profile")}

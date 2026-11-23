@@ -1,8 +1,9 @@
-import { createContext, useContext, useEffect } from "react";
+import { createContext, type ReactNode, useContext, useEffect } from "react";
 import type { LngLat, MapLine, MapPin } from "~/components/MapView";
 import type { RouterOutputs } from "~/trpc/router";
 import type { ContentLang } from "./constants";
 import type { LocalFieldDef } from "./content-lang";
+import type { Geolocation } from "./geolocation";
 
 type RawCollectionView = RouterOutputs["collection"]["bySlug"];
 /** The map with its texts and labels in the reader's content language. */
@@ -31,9 +32,11 @@ export interface MapOverlay {
   highlightPlaceIds?: string[];
   /** Places not drawn at all (e.g. a route's stops, shown as numbered pins). */
   hidePlaceIds?: string[];
+  /** A card floating over the map (e.g. the next stop while following a route). */
+  card?: ReactNode;
 }
 
-export type SidebarTab = "places" | "routes";
+export type SidebarTab = "places" | "routes" | "visited";
 
 /**
  * Shared state between the map (right) and the routed side panel (left) on
@@ -74,6 +77,15 @@ export interface MapPageState {
   /** A place hovered in a list, highlighted on the map. */
   hoverPlaceId: string | null;
   setHoverPlaceId: (id: string | null) => void;
+  /** The reader's own position (off until they ask for it). */
+  geo: Geolocation;
+  /** The map keeps the reader's position centred. */
+  following: boolean;
+  setFollowing: (on: boolean) => void;
+  /** Phones: hide the panel so the map shows (no-op on wide screens). */
+  showMap: () => void;
+  /** Places on this map the reader has checked in to. */
+  visitedIds: ReadonlySet<string>;
 }
 
 export const MapPageContext = createContext<MapPageState | null>(null);

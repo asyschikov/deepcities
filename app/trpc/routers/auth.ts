@@ -1,3 +1,4 @@
+import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
 import { and, desc, eq } from "drizzle-orm";
 import { z } from "zod/v4";
@@ -6,10 +7,23 @@ import {
   createLoginLink,
   RateLimitedError,
 } from "~/lib/auth.server";
+import { MAX_AVATAR_BYTES } from "~/lib/constants";
+import type { Database } from "~/lib/db";
 import { apiToken, profile } from "~/lib/db/schema";
 import { sendLoginEmail } from "~/lib/email.server";
 import { emailSchema } from "~/lib/validation";
 import { authedProcedure, publicProcedure, router } from "../init";
+
+/** Point the profile at a new portrait (or none) and delete the old file. */
+const replaceAvatar = async (
+  db: Database,
+  r2: R2Bucket,
+  current: { id: string; avatarId: string | null },
+  avatarId: string | null,
+) => {
+  await db.update(profile).set({ avatarId }).where(eq(profile.id, current.id));
+  if (current.avatarId) await r2.delete(`avatars/${current.avatarId}`);
+};
 
 export const authRouter = router({
   me: publicProcedure.query(({ ctx }) =>
@@ -19,6 +33,7 @@ export const authRouter = router({
           name: ctx.profile.name,
           email: ctx.profile.email,
           role: ctx.profile.role,
+          avatarId: ctx.profile.avatarId,
         }
       : null,
   ),
@@ -63,6 +78,35 @@ export const authRouter = router({
         .where(eq(profile.id, ctx.profile.id));
       return { ok: true };
     }),
+
+  /** Upload a portrait (already cropped square and downscaled in the browser). */
+  setAvatar: authedProcedure
+    .input(
+      z.object({
+        base64: z.string().max(Math.ceil((MAX_AVATAR_BYTES * 4) / 3) + 4),
+        contentType: z.enum(["image/webp", "image/jpeg", "image/png"]),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const bytes = Uint8Array.from(atob(input.base64), (c) => c.charCodeAt(0));
+      if (bytes.length > MAX_AVATAR_BYTES) {
+        throw new TRPCError({
+          code: "PAYLOAD_TOO_LARGE",
+          message: "Portrait too large",
+        });
+      }
+      const avatarId = createId();
+      await ctx.env.R2.put(`avatars/${avatarId}`, bytes, {
+        httpMetadata: { contentType: input.contentType },
+      });
+      await replaceAvatar(ctx.db, ctx.env.R2, ctx.profile, avatarId);
+      return { avatarId };
+    }),
+
+  removeAvatar: authedProcedure.mutation(async ({ ctx }) => {
+    await replaceAvatar(ctx.db, ctx.env.R2, ctx.profile, null);
+    return { ok: true };
+  }),
 
   /** Personal API tokens (for the `dc` CLI and scripts). */
   tokens: authedProcedure.query(({ ctx }) =>

@@ -47,7 +47,10 @@ export const getAccess = async (
   return {
     collection: { ...found, citySlug: citySlug(found.city) },
     role,
-    can: capabilitiesOf(role),
+    can: capabilitiesOf(role, {
+      signedIn: viewer !== null,
+      banned: member?.role === "banned",
+    }),
   };
 };
 
