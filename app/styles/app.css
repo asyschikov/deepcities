@@ -81,6 +81,19 @@
    marker by setting `transform` on its element every frame, so that element
    must carry no transform or transition of its own (a transition makes the
    pins trail the map). The visible shape lives on an inner span. */
+/* Every element we hand to MapLibre as a marker. MapLibre's own stylesheet
+   makes markers absolute, but whether it or ours wins depends on load order,
+   and a marker left in normal flow lands off its point (the halo did). */
+.dc-marker,
+.dc-cluster,
+.dc-pin,
+.dc-me,
+.dc-hover-halo,
+.dc-draft-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .dc-marker {
   /* --pin: set on the map by its pin size (26px large, 18px, 12px). */
   display: block;
@@ -214,7 +227,6 @@
 
 /* The reader's own position: a blue dot, with a cone when the heading is known. */
 .dc-me {
-  position: relative;
   width: 22px;
   height: 22px;
   pointer-events: none;
@@ -246,7 +258,6 @@
 
 /* The open or hovered place: a pulsing halo with its name. */
 .dc-hover-halo {
-  position: relative;
   width: 0;
   height: 0;
   pointer-events: none;
