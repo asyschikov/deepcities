@@ -91,17 +91,20 @@ checked and the date, so it's clear what was swept and what wasn't.
    shows a gap; fill it. *Parked by the user (2026-11-23): districts count as complete for
    research without loops for now; keep route ideas in `notes/`.*
 
-Then a **blind quality check**: a fresh agent scores a random sample of places (8 per group is
-enough) on six criteria, 1–5 each: **story** (a real hook up front), **accuracy** (checked
-against the linked sources; EN and NL must agree), **pin**, **use** (what a visitor sees, when,
-what's private, a useful Look for list), **Dutch** (native, written, not pasted) and
-**writing** (plain, 150–250 words, no dashes). How: export the sample with `dc place`, strip
-the area fields (`borough`, `neighbourhood`, `subNeighbourhood`, `municipality`) and ids,
-shuffle with a fixed seed, number the files, keep the key yourself and add it to the report
-only after scoring. Save the report in `research/quality/blind-check-<date>.md`. The first
-runs: 2026-11-23 (West 23.7, Oost 23.5, Noord 22.7) and 2026-11-24 (new Noord, Oost and
-Nieuw-West rounds 23.6–24.1; old West places 17.5, almost all on Dutch pasted from sources,
-weak hooks and thin visitor info). The rules below are what lifted the newer rounds.
+Then a **blind quality check**: score a random sample of places on the six criteria in
+`research/quality/rubric.md` (story, accuracy, pin, use, Dutch, writing; 1–5 each with fixed
+anchors; Dutch is *measured*: NL sentences sharing 8+ consecutive words with a source). How:
+- **Like for like.** Sample every group the same way (whole district vs whole district, or
+  newest round vs newest round), at least 10 per group, plus a few anchors from earlier
+  checks to see drift.
+- **Two independent reviewers** on the same sample. Without anchors and a second reviewer
+  the check flip-flopped (West 23.7 one day, 17.5 the next); with them the reviewers agreed
+  within 0.7 points (correlation 0.92). Don't act on a single reviewer's result.
+- Export with `dc place`, strip the area fields and ids, shuffle with a fixed seed, number
+  the files, keep the key yourself and add it only after scoring. Reports go in
+  `research/quality/`.
+- Result 2026-11-25 (`blind-check-2026-11-25.md`): Noord 24.4, Nieuw-West 24.3, West 22.7,
+  Oost 22.3. The shared weakness everywhere is Dutch copied from sources (1.5–2.7 of 5).
 
 ### When enough is enough: completeness tests
 
@@ -146,10 +149,8 @@ off*, measured per **gebied** with five tests. Record the results in `COVERAGE.m
    Count a cell as walkable when at least 20% of it is land inside the borough; put the
    grid table (cell, gebied, place or reason) in `COVERAGE.md`. The grid script can live in
    the scratchpad; record the cell counts.
-5. **Quality.** In a blind check (above), the gebied's sample averages **at least 22/30**
-   (the level of the 2026-11-23/24 rounds; it was "within 10% of West" until the check
-   showed West's own old places at 17.5), and no place scores below 18/30 without a fix or
-   a reason.
+5. **Quality.** In a fair blind check (above), the gebied's sample averages **at least
+   22/30** and no place scores below 18/30 without a fix or a reason.
 
 **Character, not uniformity.** The mix of kinds follows the district, not a template: Noord
 leans industrial and waterland, Zuidoost community and post-war art, Weesp canal houses. Don't
@@ -167,9 +168,8 @@ year has passed or the area changes a lot (new neighbourhoods, big redevelopment
 **Calibrated on West (2026-11-24).** West was built in about a day from monuments and three
 broad rounds, before the sweeps existed. Run against it, the tests found real gaps, not
 over-strict thresholds: blind recall 73% (Bos en Lommer 55%), most sweeps partial, grid 42 of
-46 cells, quality 17.5/30. Only the saturation rule was loosened (see test 2). So the tests
-stand, and West gets the same treatment as every other district: a full sweep round and a
-rewrite pass (`research/west/COVERAGE.md`).
+46 cells; quality is on par (22.7/30 in the fair check). Only the saturation rule was loosened (see test 2). So the tests
+stand, and West gets the same treatment as every other district: a full sweep round (`research/west/COVERAGE.md`).
 
 ### Running a round (the coordinator's checklist)
 
@@ -296,7 +296,7 @@ When the user corrects a fact (e.g. "the horse is long gone"):
 
 ## Rewriting old places in bulk
 
-When a blind check shows a whole area below the current bar (West, 2026-11-24): export every
+When a *fair* blind check (two reviewers) shows a whole area below the bar: export every
 live place with `dc place` into `research/<area>/rewrite/in/batch-NN.json` (about 36 per batch,
 grouped by neighbourhood), and have agents rewrite them to today's rules (hook up front,
 native Dutch written fresh, visitor info, 150–250 words, same facts re-checked) into
