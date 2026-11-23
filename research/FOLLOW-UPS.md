@@ -65,7 +65,7 @@ Most of these and of "Status to confirm" are also flagged on the live map with t
 - Research queue (one batch at a time so BrowserOS isn't overloaded):
   1. Oost round 2 (public art and walls; items 101–157): done 2026-11-23, 41 new places.
   2. Oost round 3 (sweeps 3–7): done 2026-11-23, 19 new places. Still open: Geheugen van Oost pass, loops, blind check.
-  3. Noord round A (25 places) and round B (24 places) done 2026-11-23; Noord still needs a small round C, a true blind recall run and loops. Then Nieuw-West, Zuidoost: per district, round A (public art and walls, war and memory), round B (hidden history, behind the gate, modern and contested, curiosities), then loops.
+  3. Noord (184 places) and Oost (205 places) complete for research 2026-11-23 (see their COVERAGE.md); both still need loops and a blind quality check against West. Then Nieuw-West, Zuidoost: per district, round A (public art and walls, war and memory), round B (hidden history, behind the gate, modern and contested, curiosities), then loops.
   4. Weesp and Westpoort: one combined round each.
   5. West: fill in COVERAGE.md retrospectively and sweep any gap found.
 - After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.

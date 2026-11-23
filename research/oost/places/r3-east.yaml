@@ -81,10 +81,13 @@
 
     Gemaal Zeeburg, which flushes the city's canals through the siphon under this canal, is a short walk west along the Zeeburgerdijk.
 
+    Between the lions the canal hides a less visible guard. In dry spells, salt water from the North Sea Canal creeps inland along the bottom of the Amsterdam-Rijnkanaal, which is bad for farmland and drinking water. Since November 2018 a heavy perforated pipe across the six-metre-deep canal bed, just north of the Amsterdamsebrug, blows a curtain of air bubbles that pushes the salt water back up; the air comes from a small white compressor house on the west bank. The shallow edges are left free so fish can get through. The idea goes back to the engineer Johan van Veen around 1940; it had been used in locks for decades, but this was its first use in open water in the Netherlands. When it runs, a stripe of foam shows across the surface.
+
     Look for:
     - the crossed paws, right over left on all four
     - the second pair facing them across the water on the Zuider IJdijk side
     - the view from the Amsterdamsebrug over the canal mouth and its guards
+    - the white compressor house on the west bank and, when the bubble screen runs, the stripe of foam across the canal
   category: street-art
   lat: 52.367280
   lng: 4.956349
@@ -92,6 +95,8 @@
   links:
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Leeuwen_van_Zeeburg" }
     - { label: Wikidata, url: "https://www.wikidata.org/wiki/Q67210189" }
+    - { label: Geheugen van Oost (bubble screen), url: "https://geheugenvanoost.amsterdam/page/85848" }
+    - { label: Wikipedia (nl) Bellenscherm, url: "https://nl.wikipedia.org/wiki/Bellenscherm" }
   attributes:
     rank: Okay
     built: "2015"
@@ -105,6 +110,8 @@
     - https://commons.wikimedia.org/wiki/File:Leeuwen_Bart_van_Hove_Poldertoren_DeDeel_Emmeloord.jpg (lions at the Poldertoren in Emmeloord, 2010)
     - OSM nodes 5965126781 to 5965126783 and 5965126780 (two lions on each bank); Wikidata Q67210189
     - Commons photos 18 August 2019 and 26 July 2020 (east pair)
+    - "https://geheugenvanoost.amsterdam/page/85848 (Jan Dijk, 5 June 2020: white compressor building with air inlet on the Westelijke Merwedekanaaldijk past the Amsterdamsebrug, near the lions; trial July 2018, permanent November 2018; Johan van Veen 1940; pipe with small holes on the 6 m deep bed; stripe of foam when on; sides left free for fish; first use in open water)"
+    - https://nl.wikipedia.org/wiki/Bellenscherm (permanent screen in the Amsterdam-Rijnkanaal by the Amsterdamsebrug since November 2018 against salt intrusion from the North Sea Canal; shallow bubble-free zone at the sides for fish; Van Veen around 1940; first used in locks at IJmuiden 1961)
   nl:
     title: Leeuwen van Zeeburg
     summary: Vier identieke leeuwen aan weerszijden van de monding van het Amsterdam-Rijnkanaal, in 2015 gegoten naar de leeuwen die Bart van Hove rond 1888 maakte voor de schutsluis bij Zeeburg.
@@ -115,14 +122,19 @@
 
       De leeuw vertoont gelijkenis met de leeuw die Van Hove verwerkte in zijn monument voor Gerardus Frederik Westerman dat in Artis staat en uit 1890/1891 stamt (ook rechter over linker poot).
 
+      Tussen de leeuwen ligt nog een wachter, onder water. Bij droogte kruipt zout water uit het Noordzeekanaal over de bodem van het Amsterdam-Rijnkanaal het land in, slecht voor boeren en voor het drinkwater. Sinds november 2018 ligt daarom even ten noorden van de Amsterdamsebrug een zware buis met gaatjes dwars over de zes meter diepe kanaalbodem. Er wordt lucht doorheen geperst, en het gordijn van luchtbellen duwt het zoute water omhoog. De lucht komt uit een wit gebouwtje op de westoever. Aan de ondiepe zijkanten zitten geen bellen, zodat vissen erlangs kunnen. Het idee is van ingenieur Johan van Veen, rond 1940; in sluizen werd het al tientallen jaren gebruikt, maar hier werd het in Nederland voor het eerst in open water toegepast. Als het scherm aanstaat, zie je een strook schuim dwars over het water.
+
       Let op:
       - de gekruiste poten, bij alle vier rechts over links
       - het tweede paar aan de overkant, aan de kant van de Zuider IJdijk
       - het zicht vanaf de Amsterdamsebrug op de kanaalmonding en haar wachters
+      - het witte compressorhuisje op de westoever en, als het bellenscherm aanstaat, de strook schuim over het kanaal
     attributes:
       artist: Bart van Hove (ontwerp, ca. 1888); gegoten op initiatief van Marieke van Diemen
     sources:
       - https://nl.wikipedia.org/wiki/Leeuwen_van_Zeeburg
+      - https://geheugenvanoost.amsterdam/page/85848
+      - https://nl.wikipedia.org/wiki/Bellenscherm
 
 # ================================================================ Zeeburgereiland
 

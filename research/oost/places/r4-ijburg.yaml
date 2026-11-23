@@ -1,0 +1,178 @@
+# Oost round 4, slice "ijburg": Haveneiland-Oost and Zeeburgereiland.
+# New places: 319 De Witte Kaap, 320 Baggerbeest, 321 Vondice (with its twin pumping station).
+# Pointer: a Look for line for the sludge pumping stations in "RI-Oost silos and Rialto Silo"
+# (r2-ijburg.yaml). See notes/r4-ijburg.md.
+
+# ================================================================ Haveneiland
+
+- title: De Witte Kaap
+  summary: A snow-white block that ends in a rounded prow at the tip of Haveneiland, so ship-like that everyone calls it a cruise liner. A critic called it the handsomest block in brick-brown IJburg; a prize jury loved the outside and found the inside cramped.
+  body: |
+    IJburg is mostly brick and right angles. At the north-east tip of Haveneiland, on a triangular plot where the island's main road meets the water, Claus en Kaan Architecten (Felix Claus with Dick van Wageningen and Jaap Gräber) built the opposite: a painted white block of 134 homes for the housing association De Alliantie, finished in 2010. The plan follows the wedge of the plot, so the building narrows to a long point that the architects rounded off. Three storeys high in the middle, it steps up to eight at both ends, and with its rows of identical windows and stacked "decks" the comparison with a moored cruise ship is hard to avoid. The architects named Michel de Klerk's Het Schip in the Spaarndammerbuurt as an inspiration, along with Greek islands, lighthouses and ice floes.
+
+    Critics liked it. In Het Parool Ronald Hooft called it the handsomest block in an otherwise rather monotonous IJburg. The jury of the city's Zuiderkerkprijs for housing in 2011 was less sure: it praised the contrast with the brick around it, but called the patios of the family houses claustrophobic, the atrium of the care flats bare and institutional, and the flats in the pointed head full of awkward leftover space. On the windy quay, they noted, it made sense to put the gardens and balconies inside the triangle.
+
+    The block mixes family houses, social-rent and owner-occupied flats, homes for older people, business units in the tall ground floor and a car park below. It is private; walk round the outside.
+
+    Look for:
+    - the rounded prow, best seen head-on from the corner of the quay, like a white Flatiron
+    - the narrow band window that runs round the prow between the ground floor and the floors above
+    - the strip of white pebbles along the foot of the walls
+    - the view from the quay over the IJmeer
+  category: housing
+  lat: 52.350100
+  lng: 5.011310
+  address: Wim Noordhoekkade 106-132
+  links:
+    - { label: Gebouwd in Amsterdam (De Witte Kaap), url: "https://gebouwdin.amsterdam.nl/projectdetail/736" }
+    - { label: Arcam (Witte Kaap), url: "https://arcam.nl/architectuur-gids/witte-kaap/" }
+    - { label: Zuiderkerkprijs 2011 jury report, url: "https://gebouwdin.amsterdam.nl/pagina/356" }
+    - { label: Archiweb (White Cape), url: "https://www.archiweb.cz/en/b/bily-mys-de-witte-kaap" }
+  attributes:
+    rank: Okay
+    built: "2010"
+    architect: Claus en Kaan Architecten
+    original_use: Housing
+  photos:
+    - commons:File:Witte Kaap Haveneiland Schemering.jpg
+  sources:
+    - https://gebouwdin.amsterdam.nl/api/projectdetail/736 (2010; Claus en Kaan, project architects Felix Claus, Dick van Wageningen, Jaap Gräber; De Alliantie; Slokker; 134 homes; triangular point plot by the planned bridge to IJburg phase 2; references Greek islands, lighthouses, ice floes and Het Schip; cruise ship; low middle, up to eight storeys; tall ground floor; parking garage)
+    - https://arcam.nl/architectuur-gids/witte-kaap/ (three storeys in the middle stepping up to eight; long rounded point; band window in the closed bow; white pebble strip; sedum roof; inspiration Het Schip; name from the white colour and the point towards the water; family houses, owner and social rent flats, business units, senior homes, underground garage; nominated for the Architectuurprijs 2011)
+    - https://www.archiweb.cz/en/b/bily-mys-de-witte-kaap (Arcam text in English; Ronald Hooft in Het Parool, 3 July 2010, handsomest block in a monotonous IJburg; says three to seven storeys)
+    - https://gebouwdin.amsterdam.nl/pagina/356 (Zuiderkerkprijs 2011 jury report by Frank Uffen: contrast with brick IJburg, statement for an awkward plot by an arterial road, wind, outdoor spaces inside; claustrophobic patios, bare institutional atrium of the care flats, much leftover space in the pointed head)
+    - https://debrugkrant.nl/wp-content/uploads/2013/03/de-Brug-4.pdf (block 63, 160 m long, image of a moored cruise ship)
+    - https://amsterdam-ijburg.blogspot.com/p/architectuur-design_25.html (Het Parool compared it with the Flatiron Building)
+    - PDOK address point Wim Noordhoekkade 106; OSM way 148616585 (BAG footprint; pin on the rounded tip)
+  nl:
+    title: De Witte Kaap
+    summary: Een sneeuwwit blok dat op de punt van het Haveneiland eindigt in een afgeronde boeg, zo scheeps dat iedereen het een cruiseschip noemt. Een criticus vond het het mooiste blok van het bruine IJburg; een prijsjury was lyrisch over de buitenkant en minder over de binnenkant.
+    body: |
+      IJburg is vooral baksteen en rechte hoeken. Op de noordoostpunt van het Haveneiland, op een driehoekige kavel waar de hoofdweg van het eiland het water raakt, zetten Claus en Kaan Architecten (Felix Claus met Dick van Wageningen en Jaap Gräber) precies het omgekeerde neer: een wit geschilderd blok met 134 woningen voor woningcorporatie De Alliantie, opgeleverd in 2010. De plattegrond volgt de wig van de kavel, zodat het gebouw uitloopt in een lange punt, die de architecten rond hebben gemaakt. In het midden telt het drie bouwlagen, naar beide uiteinden loopt het trapsgewijs op tot acht. Met de rijen gelijke ramen en de gestapelde 'dekken' is de vergelijking met een aangemeerd cruiseschip snel gemaakt. Als inspiratie noemden de architecten Het Schip van Michel de Klerk in de Spaarndammerbuurt, maar ook Griekse eilanden, vuurtorens en ijsschotsen.
+
+      De critici waren te spreken. Ronald Hooft noemde het in Het Parool het mooiste blok van een verder nogal eentonig IJburg. De jury van de Zuiderkerkprijs, de stedelijke prijs voor woningbouw, was in 2011 minder zeker: zij prees het contrast met de baksteen eromheen, maar vond de patio's van de eengezinswoningen benauwd, het atrium van de zorgwoningen kaal en kil en de appartementen in de spitse kop vol lastig bruikbare restruimte. Op de winderige kade was het wel logisch om tuinen en balkons aan de binnenkant van de driehoek te leggen.
+
+      In het blok zitten eengezinswoningen, sociale huur- en koopappartementen, seniorenwoningen, bedrijfsruimtes in de hoge begane grond en een parkeergarage eronder. Het is privé; je loopt er buitenom.
+
+      Let op:
+      - de ronde boeg, het mooist recht van voren vanaf de hoek van de kade, als een witte Flatiron
+      - het smalle bandvenster dat in de boeg rondloopt tussen de plint en de verdiepingen erboven
+      - de strook witte kiezels langs de voet van de gevels
+      - het uitzicht vanaf de kade over het IJmeer
+    attributes:
+      original_use: Woningen
+    sources:
+      - https://gebouwdin.amsterdam.nl/projectdetail/736
+      - https://arcam.nl/architectuur-gids/witte-kaap/
+      - https://gebouwdin.amsterdam.nl/pagina/356
+      - https://debrugkrant.nl/wp-content/uploads/2013/03/de-Brug-4.pdf
+
+# ================================================================ Zeeburgereiland
+
+- title: Baggerbeest, the Sluisbuurt broedplaats
+  summary: The first building on the empty sand plain where the high-rise Sluisbuurt is to rise. Some seventy studios, a bar, a youth centre and a give-away shop, named after an imaginary amphibian that crawled out of the IJ mud the island is made of.
+  body: |
+    Stand by the Baggerbeest and you see mostly sand. Over the next fifteen years the Sluisbuurt is to rise here, a dense district of towers, some a hundred metres tall, for more than 11,000 people. Before there was anything else on the plain, the studio organisation Urban Resort built a cultural foothold here with city money: a broedplaats (a subsidised workspace for artists and makers, literally a breeding ground) of four low buildings round a green courtyard with a stage. Building began early in 2023, the first tenants moved in that year, and the official opening party was on 1 March 2024.
+
+    The name is a nod to the island's past. Zeeburgereiland was raised more than a century ago from silt dredged out of the eastern harbours, and the founders imagined a small amphibious creature, the "dredging beast", crawling out of that mud to claim new ground. On the island's quiet edge the land has since been a free zone, a campsite, an army exercise ground and even an airfield.
+
+    Inside are 72 studios and workspaces, a hall for performances and shows, a Dynamo youth centre, the Sluislab of the Inholland university of applied sciences, a neighbourhood workshop with a give-away shop, and Bar Baggerbeest, open from the afternoon, Tuesday to Sunday. Open studios, maker markets and workshops are announced on its website. The broedplaats has permission to stay for at least ten years.
+
+    Look for:
+    - the courtyard with its stage, open to all
+    - the sand plain and the first towers of the Sluisbuurt going up around it
+  category: civic
+  lat: 52.373147
+  lng: 4.960461
+  address: Rudi van Dantzigstraat 1-15
+  links:
+    - { label: Broedplaats Baggerbeest, url: "https://baggerbeest.nl/over-baggerbeest/" }
+    - { label: "NH Nieuws (1 March 2024)", url: "https://www.nhnieuws.nl/nieuws/332834" }
+    - { label: Urban Resort (Baggerbeest), url: "https://urbanresort.nl/baggerbeest/over-broedplaats-baggerbeest/" }
+    - { label: Openresearch Amsterdam, url: "https://openresearch.amsterdam/en/page/125870/broedplaats-baggerbeest" }
+  attributes:
+    rank: Okay
+    built: "2023"
+  sources:
+    - https://baggerbeest.nl/ (checked 23 November 2026: name from an amphibious creature that crawled out of the IJ silt; pioneer on the sand plain; bar Tue–Sun from 14:00; address Rudi van Dantzigstraat 1-15; events listed for November and December 2026)
+    - https://baggerbeest.nl/over-baggerbeest/ (Sluisbuurt for more than 11,000 people in 15 years; towers up to 100 m; construction began early 2023; first building on the plain; island made of silt from the eastern harbours more than 100 years ago; free zone, campsite, army ground, airfield; ten years of existence; courtyard with stage, four buildings, 72 studios, bar, Dynamo youth centre, Inholland Sluislab, neighbourhood workshop with give-away shop, multipurpose hall; Stichting Buurtcentra owns the building; open summer 2023)
+    - https://urbanresort.nl/baggerbeest/over-broedplaats-baggerbeest/ (opened in 2023; same facts)
+    - https://www.nhnieuws.nl/nieuws/332834 (1 March 2024 opening; cultural heart of a Sluisbuurt of 5,500 homes; more than seventy studios, bar with terrace, youth centre, give-away shop)
+    - https://openresearch.amsterdam/en/page/125870/broedplaats-baggerbeest (4 September 2025; first building of the Sluisbuurt; partners and programme)
+    - "https://www.parool.nl/amsterdam/nieuw-broedplaatsenbeleid-in-amsterdam-gaat-het-vanaf-nu-om-samenwerken~beb820499/ (15 March 2024, search snippet only: Baggerbeest may stay at least ten years)"
+    - PDOK address point Rudi van Dantzigstraat 1 and OSM node 11010942436 (bar), next to the 2023 BAG footprints of the four buildings
+  nl:
+    title: Baggerbeest, broedplaats in de Sluisbuurt
+    summary: Het eerste gebouw op de lege zandvlakte waar de torens van de Sluisbuurt moeten verrijzen. Ruim zeventig ateliers, een bar, een jongerencentrum en een weggeefwinkel, genoemd naar een verzonnen amfibietje dat uit de IJ-bagger van het eiland kroop.
+    body: |
+      Wie bij het Baggerbeest staat, ziet vooral zand. In de komende vijftien jaar moet hier de Sluisbuurt verrijzen, een dichte stadswijk met torens tot honderd meter hoog, voor meer dan 11.000 mensen. Nog voor er iets anders op de zandvlakte stond, bouwde Urban Resort er met geld van de gemeente een cultureel ankerpunt: een broedplaats van vier lage gebouwen rond een groene binnenplaats met een podium. Begin 2023 begon de bouw, dat jaar trokken de eerste huurders erin, en op 1 maart 2024 was het officiële openingsfeest.
+
+      De naam knipoogt naar de geschiedenis van het eiland. Het Zeeburgereiland is ruim honderd jaar geleden opgespoten met slib uit het Oostelijk Havengebied, en de bedenkers zagen een klein amfibisch beestje uit die bagger kruipen om nieuw terrein te veroveren. Aan de stille rand van de stad was het eiland sindsdien vrijplaats, camping, militair oefenterrein en zelfs vliegveld.
+
+      Er zijn 72 ateliers en werkruimtes, een zaal voor voorstellingen en presentaties, een jongerencentrum van Dynamo, het Sluislab van Hogeschool Inholland, een buurtatelier met een weggeefwinkel en Bar Baggerbeest, open vanaf de middag, dinsdag tot en met zondag. Open ateliers, makersmarkten en workshops staan op de website. De broedplaats mag er in elk geval tien jaar blijven.
+
+      Let op:
+      - de binnenplaats met het podium, vrij toegankelijk
+      - de zandvlakte en de eerste torens van de Sluisbuurt die eromheen verrijzen
+    sources:
+      - https://baggerbeest.nl/over-baggerbeest/
+      - https://urbanresort.nl/baggerbeest/over-broedplaats-baggerbeest/
+      - https://www.nhnieuws.nl/nieuws/332834
+
+- title: Vondice and the sludge pumping stations
+  summary: Two long concrete huts are all that is left of the sewage works that once covered Zeeburgereiland, apart from the silos. One is a coffee bar; the other, with 10,000 kilos of concrete chipped out of it, is Vondice, a hotel with a single room.
+  body: |
+    From the 1970s until 2006 much of Zeeburgereiland was taken up by the city's eastern sewage treatment works. When it was pulled down to make way for the Sportheldenbuurt, three silos (now Rialto Silo and its neighbours) and two small pumping stations of 1979 were kept for the sake of memory. The pumping stations, slibvijzelgemalen in Dutch, used big screw pumps to move the nearly clean water round at the very end of the treatment process. Each is a long, low concrete box of about 50 square metres.
+
+    Both fell into decay. At the city's request Martijn van den Dobbelsteen, a photographer who founded the local paper de Brug in 2008, took them on. He first made the southern one a meeting place and office, with a crowdfunding campaign and an extension by MIR Architecten, then sold it in 2018; since 2020 it has been the Espressofabriek coffee bar. With the money he rebuilt the northern one as Vondice, which opened in 2021. The inside was stripped to the bare concrete shell (10,000 kilos of it were chipped away) and rebuilt with clay plaster and reused steel, designed by Dorens Architects outside and TANK inside. Two eight-metre concrete stairs lead up to a bed hung from steel cables in the old machine room, with two children's beds tucked under the stairs, all under a 21-metre glass roof.
+
+    In 2024 the building was put up for sale, possibly to become a home; it still takes guests. The inside is for guests only; the outside can be seen from the street.
+
+    Look for:
+    - the two long concrete huts facing each other across the Roepie Kruizestraat
+    - the steel grilles reused as sunshades on the glass roof of Vondice
+    - the silos of the same sewage works a few streets south
+  category: industrial
+  lat: 52.374034
+  lng: 4.968330
+  address: Roepie Kruizestraat 4
+  links:
+    - { label: Arcam (Slibvijzelgemalen), url: "https://arcam.nl/architectuur-gids/slibvijzelgemalen/" }
+    - { label: Vondice, url: "https://vondice.com/" }
+    - { label: "Entree Magazine (August 2021)", url: "https://www.entreemagazine.nl/openingen-design/hotel-vondice-in-amsterdam-is-geopend" }
+    - { label: "indebuurt Amsterdam (for sale, 2024)", url: "https://indebuurt.nl/amsterdam/wonen/half-onder-de-grond-wonen-dit-amsterdamse-huis-is-groter-dan-het-lijkt~380797/" }
+  attributes:
+    rank: Okay
+    built: 1979; converted c. 2020–2021
+    architect: Dorens Architects and TANK (conversion)
+    original_use: Sludge pumping station of the RI-Oost sewage works
+  sources:
+    - "https://arcam.nl/architectuur-gids/slibvijzelgemalen/ (two slibvijzelgemalen and three silos kept for nostalgic reasons; pump the nearly cleaned water round at the end of the works; two long concrete huts of 50 m²; Van den Dobbelsteen, photographer and founder of de Brug (2008), at the city's request; southern one: crowdfunding, MIR Architecten extension, sold 2018, Espressofabriek since 2020; northern one: Von Dice hotel, stripped to the concrete shell, Dorens Architects outside, TANK inside, two 8 m stairs, bed on steel cables, children's beds under the stairs, clay plaster, steel grilles reused as sunshades on the 21 m glass roof; built 1979 for Dienst Waterkeringen & Rioleringen; says opened 2020)"
+    - https://www.entreemagazine.nl/openingen-design/hotel-vondice-in-amsterdam-is-geopend (4 August 2021, opened; 10,000 kg of concrete removed; 21 m long, two floors; master bedroom in the old machine room; works built in the 1970s, dismantled 2006 for the Sportheldenbuurt)
+    - "https://www.lc.nl/lifestyle/eropuit/allerminst-doorsnee/157095133.html (7 November 2022, search snippet only: opened in 2021 in the former slibvijzelgemaal)"
+    - https://www.man-man.nl/designhotel-amsterdam-te-koop-funda/ (24 April 2024: on Funda for 950,000 euros; former slibretourgemaal; may become a home after talks with the city)
+    - https://indebuurt.nl/amsterdam/wonen/half-onder-de-grond-wonen-dit-amsterdamse-huis-is-groter-dan-het-lijkt~380797/ (4 August 2024, updated 6 January 2026: for sale at 875,000 euros, still in use as hotel; 53 m² living space)
+    - https://vondice.com/ (checked 23 November 2026: one-room hotel, bookable, 21 m long; sludge return pumping station of the RI-Oost works; the twin across the street is a coffee house)
+    - PDOK address point Roepie Kruizestraat 4 and OSM node 7323492532 (Von Dice); OSM node 4598093203 (Espressofabriek, Roepie Kruizestraat 2)
+  nl:
+    title: Vondice en de slibvijzelgemalen
+    summary: Behalve de silo's zijn twee langwerpige betonnen huisjes alles wat over is van de rioolwaterzuivering die het Zeeburgereiland bedekte. In het ene zit een koffiezaak, in het andere, waar 10.000 kilo beton uit is gehakt, Vondice, een hotel met één kamer.
+    body: |
+      Van de jaren zeventig tot 2006 lag op een groot deel van het Zeeburgereiland de rioolwaterzuivering van Amsterdam-Oost. Toen die verdween voor de Sportheldenbuurt, bleven drie silo's (nu Rialto Silo en zijn buren) en twee kleine gemalen uit 1979 uit nostalgie staan. In die slibvijzelgemalen pompten grote vijzels aan het eind van de zuivering het bijna schone water rond. Het zijn langwerpige, lage betonnen huisjes van zo'n vijftig vierkante meter.
+
+      Beide raakten in verval. Op verzoek van de gemeente ging Martijn van den Dobbelsteen ermee aan de slag, fotograaf en in 2008 oprichter van buurtkrant de Brug. Het zuidelijke gemaal maakte hij met een crowdfundingsactie tot ontmoetingsplek en werkruimte, met een uitbreiding van MIR Architecten; in 2018 verkocht hij het, en sinds 2020 zit er koffiezaak de Espressofabriek. Met de opbrengst verbouwde hij het noordelijke gemaal tot Vondice, dat in 2021 openging. Het huisje werd tot op het betonnen casco gestript (er ging 10.000 kilo beton uit) en opnieuw opgebouwd met leemstuc en hergebruikt staal, buiten naar ontwerp van Dorens Architects en binnen van TANK. Twee betonnen trappen van acht meter leiden naar een bed dat aan staalkabels hangt in de oude machinekamer, met onder de trappen twee kinderbedden, alles onder een glazen dak van 21 meter.
+
+      In 2024 kwam het gebouw te koop, mogelijk om er te wonen; voorlopig ontvangt het nog gasten. Binnen is alleen voor gasten; de buitenkant zie je vanaf de straat.
+
+      Let op:
+      - de twee langwerpige betonnen huisjes tegenover elkaar aan de Roepie Kruizestraat
+      - de stalen roosters die als zonwering op het glazen dak van Vondice zijn hergebruikt
+      - de silo's van dezelfde zuivering, een paar straten zuidelijker
+    attributes:
+      built: 1979; verbouwd ca. 2020–2021
+      architect: Dorens Architects en TANK (verbouwing)
+      original_use: Slibvijzelgemaal van de rioolwaterzuivering Oost
+    sources:
+      - https://arcam.nl/architectuur-gids/slibvijzelgemalen/
+      - https://www.entreemagazine.nl/openingen-design/hotel-vondice-in-amsterdam-is-geopend
+      - https://www.man-man.nl/designhotel-amsterdam-te-koop-funda/
+      - https://indebuurt.nl/amsterdam/wonen/half-onder-de-grond-wonen-dit-amsterdamse-huis-is-groter-dan-het-lijkt~380797/
