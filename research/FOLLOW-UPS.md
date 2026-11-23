@@ -20,6 +20,8 @@ Things to check or update later. Each line: place title (area): what to do.
 - Sint-Augustinuskerk, Nieuwendam (Noord): empty since 2014, apartment plan stuck; update.
 - Witte Kerkje, Holysloot (Noord): renovation Nov 2026 to Mar 2027; drop the note afterwards.
 - Durgerdam (Noord): dike repair deferred to a 2032 check; update if the water board decides earlier.
+- Kraaipanbuurt (Oost): municipal listing in procedure; add heritage status and numbers when listed.
+- Kraan 2868 (Oost): undated listing offers it for sale; check.
 
 ## Pins to check on site or on aerial imagery
 
@@ -31,6 +33,7 @@ Things to check or update later. Each line: place title (area): what to do.
 - Marbon chemical plant (Westpoort): approximate site.
 - 1918 Weesp train disaster site (Weesp): approximate.
 - Mosveld floodlights, Players and Supporters, Volewijck gallows field, Fokker bombing memorial, NDSM Giants (Noord): approximate.
+- Graft 1–5, Drijvende Tuinen, Muiderpoort deportation memorial, 101 Namen, Zeeburgerdorp plaque (Oost): approximate.
 
 ## Status to confirm
 
@@ -42,6 +45,6 @@ Things to check or update later. Each line: place title (area): what to do.
 
 ## Coverage plan
 
-- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord. Noord done. Still open: Oost, Zuid, Centrum.
-- Research queue (run one batch at a time so BrowserOS isn't overloaded): Oost round 1 drafts + Oost round 2 scout (running), then round-2 scouts for Noord, Nieuw-West, Zuidoost (one after another), then Zuid, Centrum.
+- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord, Oost (round 1). Noord done. Still open: Oost, Zuid, Centrum.
+- Research queue (run one batch at a time so BrowserOS isn't overloaded): Oost round 2 drafting (items 101–157, awaiting go), then round-2 scouts for Noord, Nieuw-West, Zuidoost (one after another), then Zuid, Centrum.
 - After Amsterdam proper is done: add **Diemen** and **Ouder-Amstel (Duivendrecht)** so the map covers "greater Amsterdam" (user, 2026-11-22). They are separate municipalities, so the area hierarchy and boundary data need extending first.

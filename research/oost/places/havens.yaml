@@ -1,0 +1,985 @@
+# Oost slice "havens": the Oostelijk Havengebied (Eastern Docklands) and the Cruquius island.
+# All 32 monuments in slices/havens.json are used exactly once (see notes/havens.md):
+# 11 monument places, with the cattle market and abattoir, the Lloyd complex and the
+# entrepot buildings merged. Scouted: 7 Lloyd emigrant past (in the Lloyd Hotel place),
+# 13 Drijvende Tuinen, 18 Manders, 19 Python Bridge, 22 Het Licht van Jan, 23 Graft 1-5,
+# 27 Voor de Bijen, 29 Museum Perron Oost (with the cattle market story).
+# Dutch texts are spliced from the city and national registers, nl.wikipedia,
+# amsterdamopdekaart.nl, Stadscuratorium and Museum Perron Oost.
+
+# ================================================================ Cruquius island
+
+- title: Former cattle market and abattoir, Cruquiusweg
+  summary: For almost a century Amsterdam's cows, pigs and sheep were sold and slaughtered here, on reclaimed reed land far from the houses and downwind of the city. The gates, the clock-towered pay office and the chalet-style lodges survive among the business units.
+  body: |
+    Cattle used to be traded in the middle of town: on the Dam in the 15th century, calves and cattle in the Kalverstraat, sheep on the Muntplein, later the whole market on the Rembrandtplein and from 1865 on the Weesperveld. In 1877 the city decided to move both the market and a new municipal abattoir out to the Stadsrietlanden, reed land outside the dike where five sawmills had stood. Each got four hectares on a long strip north of the Nieuwe Vaart: the market (veemarkt) on the west side of the Veelaan, the abattoir on the east side. They opened in 1887. Animals came by road, by water and by rail, along a track with a loading platform on the Cruquiusweg, and the spot was far from homes and lay well for the prevailing wind.
+
+    The abattoir mattered as much as the market. Until the late 19th century anyone could slaughter anywhere. The Hinderwet of 1875 allowed cities to require slaughter under inspection, and every large Dutch city built one. Here animals were inspected twice, alive and dead, and there were separate halls for each kind of animal and for shopkeepers who slaughtered their own.
+
+    Architects A.C. Boerma and E. Damen gave both sites the same entrance: a gateway between two lodges, in a mix of chalet style (carved timber brackets under deep eaves) and neo-Renaissance (red brick with yellow bands). Market and abattoir closed around 1980 (some sources say 1974). The stalls and slaughterhalls were cleared for a business park and, on the abattoir side, housing, but nine market buildings, the quarantine stable and the two gateways remain. Museum Perron Oost now sits on the old loading platform across the road.
+
+    Look for:
+    - the main gate on the Cruquiusweg, with its wrought-iron gates of circles, curls and crosses, flanked by the market master's house
+    - the pay office (afrekeningslokaal) with its clock tower on the central square, the richest building on the site
+    - the old plane trees on the square
+    - the cast-iron railing on the Veelaan side of the market, and a decaying older one between the former fire and police posts on the Nieuwe Vaart
+    - the sober quarantine stable in the south-west corner
+    - across the Veelaan, the abattoir gate between its office and director's house, now the entrance to the J.M. van der Meylaan
+  category: industrial
+  lat: 52.368471
+  lng: 4.937255
+  address: Cruquiusweg 46-48 and Veelaan
+  links:
+    - { label: Monumentenregister Amsterdam (market gate), url: "https://data.amsterdam.nl/monumenten/df6867f4-1228-45bd-aceb-070abdf619a6" }
+    - { label: Monumentenregister Amsterdam (abattoir), url: "https://data.amsterdam.nl/monumenten/41254d7f-a24c-4e35-a043-1c9cdf9301bb" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Veemarkt_(Amsterdam)" }
+    - { label: Museum Perron Oost, url: "https://www.museumperronoost.nl/perron-oost/" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200795, 200806, 200645, 200646, 200805, 200799, 200794, 200796, 200797, 200798, 200801, 200802, 200803, 200804
+    built: 1883–1887
+    architect: A.C. Boerma and E. Damen
+    listed: 2014
+    original_use: Municipal cattle market and abattoir
+  photos:
+    - commons:File:Veemarkt Amsterdam hek.JPG
+    - commons:File:Toegang Veemarkt - Amsterdam - 20021363 - RCE.jpg
+    - commons:File:Gebouw aan de Veelaan, doorgang naar de JM van der Meylaan pic1.JPG
+  sources:
+    - city register texts for 200795 (veemarkt complex) and 200801 (abattoir), with closing year 1980
+    - https://nl.wikipedia.org/wiki/Veemarkt_(Amsterdam) (closing year 1974)
+    - https://www.museumperronoost.nl/perron-oost/
+  nl:
+    title: Voormalige veemarkt en abattoir, Cruquiusweg
+    summary: Bijna een eeuw lang werd het Amsterdamse vee hier verhandeld en geslacht, op aangeplempte rietlanden, niet tussen de woonwijken en gunstig voor de overheersende wind. Poorten, afrekeningslokaal met klokkentoren en woonhuizen in chaletstijl staan er nog.
+    body: |
+      In de vijftiende eeuw bevond de Amsterdamse veemarkt zich op de Dam, later werden kalveren en runderen in de Kalverstraat verhandeld, schapen op het Muntplein en varkens op de Oudezijds Voorburgwal. In de zeventiende eeuw werd de hele veemarkt op het Rembrandtplein gevestigd, vanaf 1865 werd de markt gehouden op het Weesperveld. In 1877 werd besloten tot de aanleg van een veemarkt en een gemeentelijk slachthuis, op een terrein in de Stadsrietlanden waar voorheen vijf houtzaagmolens stonden. Beide instellingen kregen een terrein van vier hectare toegewezen op een langgerekte strook aan de noordzijde van de Nieuwe Vaart. In 1887 werden beide complexen in gebruik genomen. De locatie was gunstig voor het verkeer: behalve over de weg waren er ook toegangen via water en spoor. Ook was het voordelig dat het terrein niet tussen woonwijken lag vanwege de stank.
+
+      In Nederland bestond er tot in de late negentiende eeuw nog niet zoiets als een officieel slachthuis: slachten was vrij. De Hinderwet van 1875 maakte toezicht mogelijk en alle grote steden kregen toen een abattoir. Keuring geschiedde twee maal, levend en geslacht, en voor de diverse diersoorten waren er aparte slachthallen, ook een hal voor 'zelfslachters'.
+
+      Het ontwerp van het geheel werd gemaakt door de architecten A.C. Boerma en E. Damen, in een mengvorm tussen chaletstijl, met rijk uitgevoerde houten sierspanten en korbelen, en neorenaissance. In 1980 werd de veemarkt, evenals het naastliggende abattoir, gesloten (volgens nl.wikipedia al in 1974). De meeste stalgebouwen zijn gesloopt voor een bedrijventerrein, maar de acht voornaamste gebouwen en de quarantainestal bleven behouden. De functie van veemarkt spreekt niet duidelijk uit de restanten, maar is wel herkenbaar voor degene die van het verleden weet. Aan de overkant ligt nog het oude laad- en losperron van het spoor, nu Museum Perron Oost.
+
+      Let op:
+      - de toegangspoort aan de Cruquiusweg met smeedijzeren hekken met cirkels, krullen, kruizen en punten, geflankeerd door woonhuizen voor onder anderen de marktmeester
+      - het karakteristieke afrekeningslokaal met klokkentoren aan het centrale plein
+      - de oude platanen op het centrale deel van het terrein
+      - het gietijzeren hekwerk langs de Veelaan, en een authentiek hekwerk tussen de voormalige brandweer- en politiepost aan de Nieuwe Vaart
+      - de sobere quarantainestal op de zuidwesthoek
+      - aan de overkant van de Veelaan de poort van het abattoir, nu de entree tot de J.M. van der Meylaan
+    attributes:
+      original_use: Gemeentelijke veemarkt en abattoir
+    sources:
+      - city register texts 200795 and 200801
+      - https://nl.wikipedia.org/wiki/Veemarkt_(Amsterdam)
+
+- title: Museum Perron Oost
+  summary: '"The smallest museum in the world": an overseer''s hut on the old cattle-market railway platform, which Joep van Lieshout saved in 1993 with cobbles, plane trees and an empty wagon. You look at the exhibitions through the windows.'
+  body: |
+    Along the north side of the Cruquiusweg ran a railway siding with a loading platform, where livestock for the cattle market and abattoir across the road was unloaded. The track has gone, but the platform from the late 19th century is still there, with concrete side walls and a deck of heavy granite setts.
+
+    In 1993 the Rotterdam artist and designer Joep van Lieshout saved it as a tribute to the industrial past of the docklands: he paved the platform with cobbles, planted two rows of parasol plane trees so it feels like a stately old avenue, and left an empty wagon on about 100 metres of original track, next to a small overseer's hut.
+
+    Since April 2013 that hut has been Museum Perron Oost, which calls itself the smallest museum in the world. It shows stories of old and new residents of the Eastern Docklands, in changing exhibitions you can see through the windows at any time, plus online interviews (Radio Perron Oost) and a free audio tour on izi.travel, "Het verdwenen spoor", which starts on the platform and tells the history of the island. From 31 October to 28 December 2026 it shows Wim Janssen's paintings of the Oost cycle trip the writer Nescio made in 1952.
+
+    Look for:
+    - the wagon on the stretch of original rail
+    - the granite setts and concrete edges of the old platform
+    - the exhibition in the hut's windows
+    - the cattle market gate straight across the road
+  category: odd-museums
+  lat: 52.368636
+  lng: 4.937413
+  address: Cruquiusweg 11
+  links:
+    - { label: Museum Perron Oost, url: "https://www.museumperronoost.nl/perron-oost/" }
+    - { label: Monumentenregister Amsterdam (veemarkt), url: "https://data.amsterdam.nl/monumenten/b128cdc9-eb66-4e85-a65e-d99bc690e0d2" }
+    - { label: Audio tour Het verdwenen spoor, url: "https://izi.travel/nl/bcbc-het-verdwenen-spoor-een-audiotour-van-museum-perron-oost/nl" }
+  attributes:
+    rank: Nice
+    built: "1993"
+    artist: Joep van Lieshout
+  photos:
+    - commons:File:Industrieel monument 2019 (9).jpg
+  sources:
+    - https://www.museumperronoost.nl/perron-oost/ (1993, April 2013, smallest museum, audio tour)
+    - https://www.museumperronoost.nl/ (Wim Janssen exhibition 31 Oct to 28 Dec 2026)
+    - city register text 200795 (the platform, late 19th century, granite setts)
+  nl:
+    title: Museum Perron Oost
+    summary: Het kleinste museum ter wereld, in een opzichtershuisje op het oude perron van de veemarkt aan de Cruquiusweg, door Joep van Lieshout in 1993 van de ondergang gered. Het is zo klein dat je alles door de ramen kunt zien.
+    body: |
+      Ten noorden van de Cruquiusweg werd een spoor met een perron aangelegd voor de veemarkt en het abattoir. Het spoor is verdwenen maar het perron, dat uit de late negentiende eeuw stamt, ligt er nog. De zijwanden bestaan uit betonelementen en het dek is bestraat met forse granieten klinkers.
+
+      In 1993 redde Joep van Lieshout het perron met opzichtershuisje van de ondergang, als eerbetoon aan het industrieel verleden van het Oostelijk Havengebied. De Rotterdamse beeldend kunstenaar en ontwerper plaveide het voormalige perron met kasseien en beplantte het met twee rijen parasolplatanen, wat het platform een uitstraling geeft van een ouderwets statige laan. Een wagon zonder lading liet hij achter op een origineel stuk spoor met een lengte van ongeveer 100 meter.
+
+      Vanaf april 2013 toont het museum in uiteenlopende kunstvormen verhalen van oude en nieuwe bewoners van het Oostelijk Havengebied. In het Perronhuisje zijn doorlopend exposities te zien; het is zo klein dat je alles door de ramen kan zien. Onderdeel van het museum is Radio Perron Oost, en op locatie is de audiotour Het verdwenen spoor te lopen met de gratis app op izi-travel. Van 31 oktober tot 28 december 2026 exposeert Wim Janssen schilderijen van het fietstochtje dat Nescio in 1952 door Oost maakte.
+
+      Let op:
+      - de wagon op het originele stuk spoor
+      - de granieten klinkers en de betonnen randen van het oude perron
+      - de expositie achter de ramen van het huisje
+      - de poort van de veemarkt aan de overkant
+    sources:
+      - https://www.museumperronoost.nl/perron-oost/
+      - https://www.museumperronoost.nl/
+
+- title: Entrepot waiting room, coffee house and bridge 352
+  summary: "Three small survivors of the city's bonded warehouse dock of 1900, at its lock on the Cruquiusweg: a waiting room with a veranda, a temperance coffee house, and a bridge with its building year cast into a lamp."
+  body: |
+    In 1899 the city dug a short canal from the Nieuwe Vaart to its new bonded warehouse dock, the Nieuwe Entrepotdok (now the Entrepothaven), with a lock where the canal meets the Cruquiusweg. Goods could be stored here duty-free until they were sold on; seven entrepot warehouses along the Cruquiusweg were named after the days of the week. The Public Works department (Publieke Werken) built a small group of buildings at the gate, with timber framing and chalet touches that nl.wikipedia attributes to Hendrik Leguyt.
+
+    Cruquiusweg 3 (1901) was the waiting room (wachtlokaal) of the entrepot, with two pay offices (afrekenlokalen) and a waiting area, plus a veranda on the east side as extra waiting space. A police post stood a few metres east; it has been demolished. Cruquiusweg 9 (1902), on the other side of the old entrance, was a people's coffee house (volkskoffiehuis): a café on the corner, a coffee room behind and a flat upstairs for the manager. Like the coffee house at the old entrepot on the Kadijksplein, it was run by the Volksbond tegen Drankmisbruik, a temperance league. Both buildings have served food and drink ever since.
+
+    Bridge 352 (1899) carries the Cruquiusweg over the northern gates of the Nieuwe Entrepotdok lock. It mixes a then-modern beam bridge with 19th-century lamps and railings of cast and wrought iron, supplied by F. Rincker. The deck was renewed in 2014 with the old railings and four lamps put back. Until 2016 it was unofficially called the Jaap Hannesbrug, after a vanished hamlet and bastion.
+
+    Look for:
+    - the building year cast into one of the bridge lamps
+    - the lock gates under the bridge
+    - the veranda along the east side of number 3
+    - the café entrance on the cut-off corner of number 9
+  category: industrial
+  lat: 52.368622
+  lng: 4.934474
+  address: Cruquiusweg 3 and 9
+  links:
+    - { label: Monumentenregister Amsterdam (Cruquiusweg 3), url: "https://data.amsterdam.nl/monumenten/2095f48c-92f5-4917-b7c2-1bb313f6e208" }
+    - { label: Monumentenregister Amsterdam (Cruquiusweg 9), url: "https://data.amsterdam.nl/monumenten/c1e831bc-2f59-4a34-a490-5e584660db8a" }
+    - { label: Monumentenregister Amsterdam (brug 352), url: "https://data.amsterdam.nl/monumenten/2d1326b7-5ff9-4b6c-89da-2d3546bbd1f0" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Brug_352" }
+    - { label: Amsterdam op de kaart (wachtlokaal), url: "https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/3" }
+    - { label: Amsterdam op de kaart (koffiehuis), url: "https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/9" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200663, 200664, 200776
+    built: 1899–1902
+    architect: Dienst der Publieke Werken
+    listed: 2013
+    original_use: Waiting room, coffee house and lock bridge of the municipal bonded warehouse
+  photos:
+    - commons:File:Brug 352 in de Cruquiusweg bij de Nieuwe Entrepotdoksluis foto 1.jpg
+    - commons:File:Cruquiusweg 9 foto 1.JPG
+  sources:
+    - https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/3 (wachtlokaal 1901, police post demolished)
+    - https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/9 (volkskoffiehuis 1902, Volksbond tegen Drankmisbruik)
+    - https://nl.wikipedia.org/wiki/Brug_352
+    - https://nl.wikipedia.org/wiki/Veemarkt_(Amsterdam) (seven entrepot warehouses named after weekdays)
+    - city API records 200663, 200664, 200776 (designation 2013 and 2014)
+  nl:
+    title: Wachtlokaal, koffiehuis en brug 352 bij het entrepot
+    summary: "Drie kleine restanten van het gemeentelijk handelsentrepot van rond 1900 bij de sluis aan de Cruquiusweg: een wachtlokaal met veranda, een volkskoffiehuis van de Volksbond tegen Drankmisbruik en een brug met het bouwjaar in een lantaarn."
+    body: |
+      In 1899 werd het korte kanaal gegraven tussen de Entrepothaven (toen Nieuwe Entrepotdok) en de Nieuwe Vaart. Tegelijkertijd verrezen enkele gebouwen; de gebouwen met vakwerk werden ontworpen door Hendrik Leguyt van de Dienst der Publieke Werken. Langs de Cruquiusweg kwamen ook zeven entrepotpakhuizen met de namen van de weekdagen.
+
+      Cruquiusweg 3 is het voormalig wachtlokaal bij het gemeentelijk handelsentrepot. In het gebouwtje waren twee afrekenlokalen en een wachtruimte. Aan de oostgevel was (en is) een veranda die als extra wachtruimte diende. Een paar meter oostelijk van het gebouw werd tegelijk een politiepost gebouwd; die is afgebroken. Cruquiusweg 9 is het voormalig volkskoffiehuis van het handelsentrepot. Links was een café, met de ingang op de schuine hoek. De rest van de begane grond diende als koffiekamer; op de verdieping was een woning voor de beheerder. De exploitatie werd, net als bij het koffiehuis bij het oude entrepot, in handen gegeven van de Volksbond tegen Drankmisbruik. Beide gebouwen zijn nu nog steeds horecagelegenheden.
+
+      Brug 352 verbindt de Panamalaan met de Cruquiusweg en ligt boven de noordelijke sluisdeuren van de Nieuwe Entrepotdokschutsluis. Zowel de brug als de sluis dateren uit 1899. De brug laat een kruising zien tussen een (toen) moderne liggerbrug met oude elementen, zoals de 19e-eeuwse lantaarns en balustraden, een mengeling van giet- en smeedijzer, geleverd door F. Rincker. Het jaartal van bouwen is opgenomen in een van de lantaarns. Op 17 november 2014 werd de brug na tien maanden werk heropend, met de oude leuningen en vier lantaarns. Tot april 2016 stond de brug bekend als Cruquiusbrug of Jaap Hannesbrug, naar de vroegere buurtschap en het bolwerk Jaap Hannes.
+
+      Let op:
+      - het bouwjaar in een van de lantaarns van de brug
+      - de sluisdeuren onder de brug
+      - de veranda aan de oostgevel van nummer 3
+      - de caféingang op de schuine hoek van nummer 9
+    attributes:
+      original_use: Wachtlokaal, volkskoffiehuis en sluisbrug van het handelsentrepot
+    sources:
+      - https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/3
+      - https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/9
+      - https://nl.wikipedia.org/wiki/Brug_352
+
+- title: Vettewinkel paint factory
+  summary: A 1950s varnish and paint works whose exposed concrete frame swells into fat knots where columns meet beams, an early, slightly stubborn hint of brutalism on an island of warehouses.
+  body: |
+    The Vettewinkel family were house painters from at least the early 19th century; in 1918 their business became the N.V. Vernis en Verffabriek voorheen Vettewinkel en Zonen, a varnish and paint maker. It moved to the Cruquius island in 1934, with a lacquer works and a warehouse designed by G.J. Langhout. In 1955 the office of the brothers G.J. and A.J. Langhout designed a new production building, which was built in 1958 with an extra storey. G.J. Langhout is best known for the Telegraaf building on the Nieuwezijds Voorburgwal (with J.F. Staal); the brothers also worked as structural engineers, for the NDSM yard among others.
+
+    The four-storey block holds storage and production floors, laboratories and offices. Its cream-painted concrete frame is left fully visible, filled in with brick parapets and wide steel windows of twenty panes, and its columns poke up above the roof. What makes the city call it rare is the expressive way the concrete is used: thickened, projecting knots where columns and floor beams meet, which pull it away from pure functionalism towards the brutalism that was just emerging.
+
+    The firm later became part of Sigma Coatings. Paint was made here from 1934 until 2008. Since then the eastern Cruquius has been rebuilt with housing, with the listed factory kept as a landmark.
+
+    Look for:
+    - the swollen concrete knots at every column and beam
+    - the columns sticking up above the roofline, with a simple tube railing
+    - the vertical strip of loading doors in the north and south fronts
+    - the brick lift tower on the south-east corner
+  category: industrial
+  lat: 52.367889
+  lng: 4.952663
+  address: Cruquiusweg 102A
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/f13aa500-cb86-4405-a099-29a848ed7add" }
+    - { label: IAA Architecten (Cruquius 2.2 Sigma), url: "https://iaa-architecten.com/projects/100-cruquius-2.2-sigma-in-eastern-port-area" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200650"
+    built: 1955–1958
+    architect: G.J. and A.J. Langhout
+    listed: 2012
+    original_use: Varnish and paint factory
+  photos:
+    - commons:File:Factory building Vettewinkel (Q91951503) - 1.jpg
+    - commons:File:Factory building Vettewinkel (Q91951503) - 2.jpg
+  sources:
+    - city register text 200650 (written when it still worked as a paint factory)
+    - https://iaa-architecten.com/projects/100-cruquius-2.2-sigma-in-eastern-port-area (factory on the site 1934 to 2008, redevelopment from 2013; via search snippet)
+  nl:
+    title: Verffabriek Vettewinkel
+    summary: Bedrijfspand uit 1958 van de N.V. Vernis en Verffabriek voorheen Vettewinkel en Zonen, met een fors, in het zicht gelaten betonskelet met verdikte knopen. Een eigenzinnige, voor die tijd zeldzame voorbode van het brutalisme.
+    body: |
+      De N.V. Vernis en Verffabriek voorheen Vettewinkel en Zonen was in 1918 ontstaan uit het schildersbedrijf van de familie Vettewinkel, dat in ieder geval al bestond ten tijde van Hendrik Vettewinkel Dirkszoon (1809-1878). Het bedrijf vestigde zich in 1934 op de huidige locatie met een lakfabriek en een magazijn, door G.J. Langhout ontworpen. In 1955 maakte het bureau Langhout een eerste ontwerp voor dit gebouw, dat drie jaar later met een bouwlaag extra gerealiseerd werd. G.J. Langhout is vooral bekend van het pand van De Telegraaf aan de Nieuwezijds Voorburgwal, met J.F. Staal. Het bureau van de gebroeders werkte ook veel als constructeursbureau, onder andere voor de NDSM.
+
+      Het gebouw herbergt opslag- en fabricageruimten, laboratoria en kantoorruimten en telt vier bouwlagen onder een plat dak. Het wordt gedomineerd door het robuuste, crèmegeel geschilderde betonskelet, waarvan de kolommen iets boven het dak uitsteken. Opvallend zijn de verdikte betonknopen daar waar kolommen en vloerbalken samenkomen. Dit expressionistisch gebruik van de betonconstructie doet het gebouw afwijken van het pure functionalisme; in de context van het ontluikende brutalisme is dat voor die tijd zeldzaam.
+
+      Het bedrijf ging later op in Sigma Coatings. Van 1934 tot 2008 werd hier verf gemaakt; sindsdien is het oostelijk deel van Cruquius met woningen bebouwd, met het monumentale fabrieksgebouw als blikvanger.
+
+      Let op:
+      - de verdikte betonknopen bij kolommen en balken
+      - de kolommen die boven het dak uitsteken, met een balustrade van ronde stalen buizen
+      - de verticale strook transportdeuren in de noord- en zuidgevel
+      - de bakstenen liftopbouw op de zuidoosthoek
+    attributes:
+      original_use: Vernis- en verffabriek
+    sources:
+      - city register text 200650
+
+- title: Drijvende Tuinen (Floating Gardens)
+  summary: Five wild gardens on rafts of polystyrene, built by the Provo "anti-smoke magician" Robert Jasper Grootveld as lifeboats for when Amsterdam floods. Trees grow on them; neighbours have kept them afloat since his death in 2009.
+  body: |
+    Robert Jasper Grootveld (1932–2009) became famous in the 1960s for his midnight "happenings" around Het Lieverdje statue on the Spui, a tobacco company's gift that he danced around in a cloud of smoke, chanting against consumer addiction. His happenings were a forerunner of the Provo movement. From the 1970s he also built rafts: blocks of polystyrene, covered with soil and planted. His idea was that every Amsterdammer should have one, as a lifeboat for when the city floods, and that the slowly rotting polystyrene was better hidden in a raft than added to the rubbish heap.
+
+    In 1999 he made five floating gardens in the Entrepothaven as a jobs project with Stichting De Omslag, each about 200 m², with grasses, shrubs and trees. The city's water managers long saw them as pollution, and one garden fell victim to that before being restored. After Grootveld died, residents took over the care, with the borough and the International Institute of Social History (IISG). A group calling itself De Vlottenbouwers keeps building rafts in his spirit, including three islands in the Wittenburgervaart (2020) named Robert, Jasper and Grootveld. Around 2026 the gardens got names: De Oceaan, Yuppie-Management, De Wilde Tuin (or De Voedseltuin) and Tuintje van de Tuinman at the Douanesteiger, and De Panamatuin (or Theatuin) at the Panamakade. They were afloat and green in August 2026.
+
+    Look for:
+    - trees growing out of the water, moored along the quay
+    - birds nesting in the undergrowth
+    - the Douanesteiger jetty in the Entrepothaven
+  category: green
+  lat: 52.369531
+  lng: 4.940856
+  address: Zeeburgerkade, Entrepothaven
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Drijvende_Tuinen" }
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/drijvende-tuinen/" }
+    - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Robert_Jasper_Grootveld" }
+  attributes:
+    rank: Amazing
+    built: "1999"
+    artist: Robert Jasper Grootveld
+  photos:
+    - commons:File:2026 Drijvende tuinen, Asd (A).jpg
+    - commons:File:2026 Drijvende tuinen, Asd (B).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Drijvende_Tuinen (names c. 2026, Vlottenbouwers, coordinates)
+    - https://stadscuratorium.nl/collectie/drijvende-tuinen/
+    - https://en.wikipedia.org/wiki/Robert_Jasper_Grootveld
+    - Commons photos of 11 August 2026 (status)
+  nl:
+    title: Drijvende Tuinen
+    summary: Vijf drijvende tuinen op vlotten van piepschuim in de Entrepothaven, gebouwd door Provo-voorloper Robert Jasper Grootveld als reddingsmiddel bij een overstroming. Sinds zijn dood in 2009 houden buurtbewoners ze drijvend.
+    body: |
+      In het Oostelijk Havengebied liggen vijf drijvende tuinen, elk circa 200 m² groot, aangelegd op vlotten van piepschuim, begroeid met grassen, planten en bomen. Ze zijn het werk van Robert Jasper Grootveld (1932-2009), die de vlotten bouwde vanaf de jaren '70 en er aarde op stortte die hij vervolgens beplantte. Grootveld ontwierp zijn Drijvende Tuinen in eerste instantie als reddingsmiddel bij een overstroming van Amsterdam. Hij raadde dan ook iedereen aan eenzelfde tuin te maken dat kon dienen als vlot. Een bijkomend voordeel was dat het zeer langzaam afbrekende piepschuim zo onttrokken werd aan de afvalberg. Waterbeheer in Amsterdam bleef het materiaal echter als vervuiling zien; een van de tuinen werd daarvan de dupe, maar werd hersteld.
+
+      Het project startte in 1999, uitgevoerd als werkgelegenheidsproject samen met Stichting De Omslag. Na Grootvelds dood hebben buurtbewoners zich verenigd om de tuinen te blijven onderhouden, samen met Stadsdeel Oost en het IISG. De tuinen stimuleren biodiversiteit, verbeteren de waterkwaliteit en zorgen voor CO2-opslag midden in de stad. De Vlottenbouwers van Amsterdam zetten zijn werk voort en bouwden in 2020 drie drijvende eilanden in de Wittenburgervaart, genaamd de Robert, de Jasper en de Grootveld. Rond 2026 kregen de tuinen namen: De Oceaan, Yuppie-Management, De Wilde Tuin/de Voedseltuin en Tuintje van de Tuinman bij de Douanesteiger, en De Panamatuin/de Theatuin aan de Panamakade. Hoewel Grootveld de vlotten niet ontwierp als landschapskunst, worden ze inmiddels wel zo beschouwd.
+
+      Let op:
+      - bomen die uit het water lijken te groeien, langs de kade afgemeerd
+      - vogels die in het struikgewas nestelen
+      - de Douanesteiger in de Entrepothaven
+    sources:
+      - https://nl.wikipedia.org/wiki/Drijvende_Tuinen
+      - https://stadscuratorium.nl/collectie/drijvende-tuinen/
+
+- title: Graft 1–5 (James Beckett)
+  summary: Five 12-metre reed stalks, unveiled in March 2026 across the Cruquius island, where reed beds grew before the warehouses came. Grafted onto them are coconuts, tea leaves, fire hoses and sea knots from the island's trade.
+  body: |
+    The Cruquius island was reclaimed from the Stadsrietlanden, the city's reed lands, and then filled with warehouses, oil mills and industry; in the 21st century it was rebuilt with housing. In 2020 the city opened a public art commission, and residents, developers and the city chose the artist James Beckett, who works from the history of the places where his art stands.
+
+    His answer is five giant reed stalks, each twelve metres tall and made of light, strong new materials including recycled PET bottles. The title Graft refers to grafting: onto the stalks of the old marsh Beckett grafted things from the island's later life, such as coconuts (the coconut oil of the Insulinde oil mills), tea leaves, fire hoses and seafaring knots, and also stickers, chewing gum and bottles from today. He calls them "a kind of noticeboard where past, present and future come together, with references to industry and trade, but also to climate change and the rise of Smart Cities". They were unveiled on 19 March 2026.
+
+    The five stand at the inlet harbour on the Zeeburgerkade (Graft 1), the Archiefstraat (2), the Cruquiusweg (3), the Locomotiefstraat (4) and the Brandslangstraat (5). The pin marks the point nl.wikipedia gives for the group.
+
+    Look for:
+    - the red-tipped trio of Graft 1 by the water on the Zeeburgerkade
+    - the yellow-leaved stalk of Graft 3 on the Cruquiusweg
+    - the small objects "grafted" onto each stalk
+  category: street-art
+  lat: 52.369064
+  lng: 4.953236
+  address: Cruquius island (Zeeburgerkade, Archiefstraat, Cruquiusweg, Locomotiefstraat, Brandslangstraat)
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/graft-1-t-m-graft-5/" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Graft_(beeld)" }
+  attributes:
+    rank: Okay
+    built: "2026"
+    artist: James Beckett
+  photos:
+    - commons:File:2026 Graft 1, Zeeburgerkade, Asd (A).jpg
+    - commons:File:2026 Graft 3, Cruquiusweg, Asd (A).jpg
+  sources:
+    - https://stadscuratorium.nl/collectie/graft-1-t-m-graft-5/ (unveiled 19 March 2026, 12 m, PET, quote)
+    - https://nl.wikipedia.org/wiki/Graft_(beeld) (commission 2020, grafted motifs, coordinates)
+  nl:
+    title: Graft 1 t/m Graft 5 (James Beckett)
+    summary: Vijf rietstengels van twaalf meter hoog op het Cruquiuseiland, waar ooit rietlanden en industrie het gebied kenmerkten. Beckett entte er kokosnoten, theebladen, brandslangen en zeevaartknopen op. Onthuld op 19 maart 2026.
+    body: |
+      Het Cruquiuseiland is de officieuze benaming van een eiland in Amsterdam-Oost, ontleend aan de Cruquiusweg. Het werd aangeplempt vanuit een moerasachtig gebied en kreeg als bestemming het stedelijk abattoir en bedrijventerrein; in de 21e eeuw werd het met de nodige sanering volgebouwd met woningen. De opdracht tot kunst in de openbare ruimte stamt uit 2020. Bewoners, ontwikkelaars en instanties selecteerden het werk van James Beckett, mede door zijn aandacht en onderzoek voor de geschiedenis van gebieden waar zijn werk te zien is.
+
+      Op 19 maart 2026 werden vijf rietstengels van twaalf meter hoog onthuld, verspreid over het eiland. Ze zijn gemaakt van innovatieve, lichte en sterke materialen, waaronder gerecyclede petflessen. De beelden laten een vorm van enten zien: rietstengels van het moeras met beginselen van kokosnoten (de kokosolie van NV Oliefabrieken Insulinde), theebladen, brandslangen en zeevaartknopen, en ook stickers, kauwgom en petflessen als verbinding met de moderne geschiedenis van het eiland. Beckett: "De rietstengels zijn (..) als een soort prikbord, waarin verleden, heden en toekomst samenkomen, met verwijzingen naar industrie en handel, maar ook naar klimaatverandering en de opkomst van Smart Cities."
+
+      Ze staan bij de insteekhaven aan de Zeeburgerkade (Graft 1), aan de Archiefstraat (Graft 2), de Cruquiusweg (Graft 3), de Locomotiefstraat (Graft 4) en de Brandslangstraat (Graft 5).
+
+      Let op:
+      - het rode drietal van Graft 1 aan het water bij de Zeeburgerkade
+      - de stengel met gele bladeren van Graft 3 aan de Cruquiusweg
+      - de kleine voorwerpen die op elke stengel zijn 'geënt'
+    sources:
+      - https://stadscuratorium.nl/collectie/graft-1-t-m-graft-5/
+      - https://nl.wikipedia.org/wiki/Graft_(beeld)
+
+# ================================================================ Oostelijke Handelskade
+
+- title: Pakhuis de Zwijger
+  summary: A 1934 cold store for perishable goods, with a road bridge driven right through its upper floors in 2001. Saved from demolition, it is now the city's debating house, with some 600 programmes a year about the future of the city.
+  body: |
+    The Oostelijke Handelskade was lined with warehouses (vemen) between the railway yard and the IJhaven. De Zwijger came late: a cold store built in 1933–1934 for the N.V. Blauwhoedenveem-Vriesseveem, designed by J. de Bie Leuveling Tjeenk and K. Bakker in a businesslike, expressionist style. Inside is a concrete frame with tapering octagonal columns and mushroom floors. The concrete walls are faced with an 11 cm brick skin that served as the outer formwork, laid in a block bond to make the mass look lighter. The upper floors cantilever on heavy, exposed brackets.
+
+    When the cold store lost its function it stood empty and was nearly demolished, because the new Jan Schaeferbrug to the Java-eiland was planned straight through it. In the end the bridge was built through a gap in the third and fourth floors, opening in 2001, and the warehouse was kept. Stadsherstel Amsterdam restored it, and in September 2006 it reopened, reworked by André van Stigt, as a home for cultural organisations. The Pakhuis de Zwijger foundation runs hundreds of mostly free talks and debates on city life there.
+
+    Look for:
+    - the road and cycle path passing through the building
+    - sandstone plaques in blue mosaic on the blind east side with the cities where the Blauwhoedenveem had branches: Amsterdam, Rotterdam, Londen, Hamburg, Bremen, Bazel, New-York and Batavia
+    - the name letters "De Zwijger" on both loading sides
+    - the stacked loading doors with drop-bridges on the water side
+    - the sawtooth roof that lit the sampling floors
+  category: industrial
+  lat: 52.376771
+  lng: 4.922157
+  address: Piet Heinkade 179-181
+  links:
+    - { label: Rijksmonumentenregister (523312), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/523312" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/67294842-ec5f-4cb4-b181-5d7ba7fbd399" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Pakhuis_de_Zwijger" }
+    - { label: Pakhuis de Zwijger, url: "https://dezwijger.nl/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "523312"
+    built: 1933–1934
+    architect: J. de Bie Leuveling Tjeenk and K. Bakker
+    listed: 2001
+    original_use: Cold store (koelhuis)
+  photos:
+    - commons:File:Pakhuis De Zwijger Jan Schaeferbrug Amsterdam 2019.jpg
+    - commons:File:Pakhuis de Zwijger Amsterdam 2019.jpg
+    - commons:File:Overzicht pakhuis met overkragend betonskelet gezien vanaf de Jan Schaeferbrug - Amsterdam - 20409077 - RCE.jpg
+  sources:
+    - rce:523312 (register description)
+    - https://nl.wikipedia.org/wiki/Pakhuis_de_Zwijger
+    - https://nl.wikipedia.org/wiki/Jan_Schaeferbrug
+    - dezwijger.nl and iamsterdam event listings (programmes running in November 2026)
+  nl:
+    title: Pakhuis de Zwijger
+    summary: In 1933-1934 gebouwd koelhuis aan de Piet Heinkade, waar in 2001 de Jan Schaeferbrug dwars doorheen werd gelegd. Na dreigende sloop gerestaureerd; sinds 2006 een podium voor jaarlijks circa 600 programma's over de toekomst van de stad.
+    body: |
+      In 1933-1934 kwam het KOELHUIS genaamd 'De Zwijger' tot stand, gebouwd in opdracht van de met het Vriesseveem gefuseerde N.V. Blauwhoedenveem, naar een ontwerp van J. de Bie Leuveling Tjeenk en K. Bakker in zakelijk-expressionistische trant, als onderdeel van een langgerekte groep vemen, pak- en koelhuizen aan de Oostelijke Handelskade. De draagconstructie bestaat uit een betonskelet met zich telkens verjongende achtzijdige kolommen en paddestoelvloeren. De betonnen gevelwanden zijn bekleed met een elf centimeter dikke baksteenlaag, die fungeerde als buitenbekisting en door middel van een blokverband minder zwaar moest lijken. De derde tot en met de zesde bouwlaag kragen uit op zware, in het zicht gelaten consoles.
+
+      Nadat het zijn oorspronkelijke functie had verloren, stond het enige tijd leeg, en sloop dreigde. Dwars door het gebouw heen werd een brug over de IJhaven gepland, de in 2001 geopende Jan Schaeferbrug. Uiteindelijk bleek het mogelijk om de brug te bouwen met behoud van het monumentale pakhuis. Aansluitend werd het pakhuis gerestaureerd door Stadsherstel Amsterdam. In september 2006 werd het gebouw weer in gebruik genomen na een hergebruik/revitalisatieproject door André van Stigt. Stichting Pakhuis de Zwijger maakt er met partners jaarlijks circa 600 programma's, met als rode draad de toekomst van het dagelijks leven in stad en land.
+
+      Let op:
+      - de doorgang van de brug op de derde en vierde bouwlaag
+      - de zandstenen plaquettes met in blauw mozaïek de namen van de handelssteden waar het Blauwhoedenveem vestigingen had: Amsterdam, Rotterdam, Londen, Hamburg, Bremen, Bazel, New-York en Batavia
+      - de naamletters 'De Zwijger' aan beide laadzijden
+      - de laaddeuren met valbruggen aan de havenzijde
+      - het zaagdak ter verlichting van de monsterzolders
+    attributes:
+      original_use: Koelhuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/523312
+      - https://nl.wikipedia.org/wiki/Pakhuis_de_Zwijger
+
+- title: Het Licht van Jan
+  summary: A light work in the rail underpass opposite Pakhuis de Zwijger that throws cold white grids, shadows and moiré patterns at passers-by after dark, based on alderman Jan Schaefer's famous question about whether a policy had actually been thought through.
+  body: |
+    Jan Schaefer (1940–1994) was an Amsterdam politician and alderman; the bridge from the Piet Heinkade to the Java-eiland is named after him. One of his lines is still quoted: "Is dit beleid of is hier over nagedacht?" ("Is this policy, or has someone actually thought about it?").
+
+    In 2021 the media artist Matthias Oostrik turned that question into light in the railway underpass of the Kattenburgerstraat, opposite Pakhuis de Zwijger. Projectors throw grids, shadows and moiré patterns on the walls and floor in cold white light, sharp against the orange street lamps, and the patterns react to the people walking through. Oostrik designs installations that respond to passers-by, add to a feeling of safety and are made to last. It is only worth seeing in the evening.
+
+    The underpass lies right on the borough line: the pin, under the tracks, is in Oost, and the southern exit leads into Centrum.
+
+    Look for:
+    - patterns that shift when you walk through
+    - the contrast of white light with the orange street lighting
+    - the Jan Schaeferbrug passing through Pakhuis de Zwijger just to the north
+  category: street-art
+  lat: 52.375760
+  lng: 4.921480
+  address: Kattenburgerstraat, rail underpass at the Piet Heinkade
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/het-licht-van-jan/" }
+    - { label: Wikipedia (nl) Jan Schaeferbrug, url: "https://nl.wikipedia.org/wiki/Jan_Schaeferbrug" }
+  attributes:
+    rank: Okay
+    built: "2021"
+    artist: Matthias Oostrik
+  sources:
+    - https://stadscuratorium.nl/collectie/het-licht-van-jan/
+    - https://nl.wikipedia.org/wiki/Jan_Schaeferbrug
+    - OSM ways 7046237 / 678935238 (Kattenburgerstraat under the railway) and the city's stadsdelen layer for the borough check
+  nl:
+    title: Het Licht van Jan
+    summary: Lichtinstallatie van Matthias Oostrik in de spoorwegonderdoorgang tegenover Pakhuis de Zwijger, gebaseerd op de uitspraak van wethouder Jan Schaefer 'Is dit beleid of is hier over nagedacht?'. Alleen 's avonds te zien.
+    body: |
+      Vlak bij Pakhuis de Zwijger loopt de Jan Schaeferbrug, vernoemd naar politicus Jan Schaefer (1940-1994), en daar tegenover is de spoorwegonderdoorgang. Wie 's avonds door de onderdoorgang loopt, kan er Het Licht van Jan tegenkomen, een lichtinstallatie van Matthias Oostrik uit 2021.
+
+      De installatie is gebaseerd op een uitspraak van wethouder Jan Schaefer: 'Is dit beleid of is hier over nagedacht?' Die vraag vertaalt zich in lichtprojecties die roosters, schaduwen en moiré-patronen op wand en vloer toveren. Koud wit licht, scherp tegen de oranje straatverlichting. Maar het werk doet meer dan mooi zijn: Oostrik ontwerpt installaties die reageren op voorbijgangers, die bijdragen aan een gevoel van veiligheid, en die gemaakt zijn om lang mee te gaan. Kunst die de omgeving vorm geeft, elke avond opnieuw.
+
+      De onderdoorgang van de Kattenburgerstraat ligt precies op de grens: onder het spoor is het Oost, de zuidelijke uitgang komt uit in Centrum.
+
+      Let op:
+      - de patronen die veranderen als je erdoorheen loopt
+      - het witte licht tegen de oranje straatverlichting
+      - de Jan Schaeferbrug die even noordelijker door Pakhuis de Zwijger gaat
+    sources:
+      - https://stadscuratorium.nl/collectie/het-licht-van-jan/
+      - https://nl.wikipedia.org/wiki/Jan_Schaeferbrug
+
+- title: Pakhuis Azië and Pakhuis Afrika
+  summary: Two warehouses of the "continents" row on the Oostelijke Handelskade, Azië of 1883 (one of the first on the quay, with its founding stone) and Afrika of 1915, an early mushroom-floor concrete frame that still has its fold-down loading balconies on chains.
+  body: |
+    The N.V. Handelskade built a row of warehouses on the new Oostelijke Handelskade, wedged between the railway yard and the IJhaven, and named them after the continents. The quay was laid in 1883 but only came into full use around 1900, once the Merwedekanaal route to the Rhine opened. Europa, Amerika and Australië have since been replaced by new buildings that carry their names; Azië, Afrika and De Zwijger survive.
+
+    Pakhuis Azië (1883) was one of the first warehouses on the quay: four storeys of brick with yellow and black bands, a stepped block frieze along the eaves and round cast-iron columns inside. It was converted for a wholesaler and is now called Pakhuis Amsterdam; the south side has changed a lot. Pakhuis Afrika (1915), by A.J. Joling, was one of the first Dutch buildings with a monolithic "mushroom" concrete frame. In 1935 J. de Bie Leuveling Tjeenk, who designed De Zwijger next door, gave it a new, functionalist-tinged front. On the water side a loading platform runs the full width, with fold-down loading balconies hanging from steel chains in front of the hatches.
+
+    Look for:
+    - the niche on Azië with the stone "NAAMLOOZE VENNOOTSCHAP HANDELSKADE ANNO 1883" under a little canopy
+    - the metal letters "Afrika" on the corners of the upper floor, front and back
+    - Afrika's loading balconies on chains and its original slatted doors
+    - the exposed concrete frame of Afrika, its floors cantilevering forward
+  category: industrial
+  lat: 52.376616
+  lng: 4.921498
+  address: Jollemanhof 9-37, Veemkade 228
+  links:
+    - { label: Rijksmonumentenregister (523313), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/523313" }
+    - { label: Rijksmonumentenregister (523314), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/523314" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/f9b25350-c4bd-45b3-9b69-007e0372e9ba" }
+    - { label: Wikipedia (nl) Pakhuis de Zwijger, url: "https://nl.wikipedia.org/wiki/Pakhuis_de_Zwijger" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 523313, 523314
+    built: 1883–1915
+    architect: A.J. Joling (Afrika); 1935 front by J. de Bie Leuveling Tjeenk
+    listed: 2001
+    original_use: Warehouses
+  photos:
+    - commons:File:Amsterdam - Pakhuis Afrika (30183808522).jpg
+    - commons:File:Jollemanhof.jpg
+  sources:
+    - rce:523313 (Azië, 1883), rce:523314 (Afrika, 1915 and 1935)
+    - https://nl.wikipedia.org/wiki/Pakhuis_de_Zwijger (continent names, Azië now Pakhuis Amsterdam)
+  nl:
+    title: Pakhuis Azië en Pakhuis Afrika
+    summary: "Twee pakhuizen uit de rij aan de Oostelijke Handelskade die naar werelddelen zijn genoemd: Azië uit 1883, een van de eerste aan de kade, en Afrika uit 1915, een vroeg voorbeeld van het 'mushroom'-systeem in beton, met laadbalkons aan kettingen."
+    body: |
+      De pakhuizen maken deel uit van een rij aaneengesloten pakhuizen die, als strook, geklemd liggen tussen het emplacement en de IJhaven. De Oostelijke Handelskade werd in 1883 aangelegd, maar kwam pas omstreeks 1900 volledig in gebruik, na het ontstaan van de scheepvaartroute over het Merwedekanaal. Sommige pakhuizen zijn gerenoveerd, zoals Pakhuis Afrika en Pakhuis Azië (dat nu Pakhuis Amsterdam heet). Pakhuis Europa, Pakhuis Amerika en Pakhuis Australië hebben plaatsgemaakt voor nieuwbouw, waarvan de namen herinneren aan de pakhuizen die er oorspronkelijk stonden.
+
+      Pakhuis 'Azië' werd in 1883 gebouwd in de stijl van het Eclecticisme, als een van de eerste pakhuizen aan de Oostelijke Handelskade, in opdracht van de Naamloze Vennootschap Handelskade. Het veemgebouw telt vier bouwlagen; de gevels worden door doorlopende gele en zwarte verblendstenen sierbanden geleed, langs de dakranden loopt een getrapt blokfries. Het interieur wordt gekenmerkt door ronde, gietijzeren zuilen. Pakhuis 'Afrika' met laad- en lossteiger werd gebouwd in 1915 naar ontwerp van A.J. Joling en in 1935 aan de buitenkant ingrijpend verbouwd door J. de Bie Leuveling Tjeenk in een stijl die invloed van het Functionalisme vertoont. De monolitische betonskeletstructuur uit 1915 is een vroeg voorbeeld van het 'mushroom' systeem in Nederland.
+
+      Let op:
+      - de uitgebouwde nis aan Azië met een gevelsteen onder een soort baldakijn: 'NAAMLOOZE / VENNOOTSCHAP HANDELSKADE / ANNO 1883'
+      - de metalen belettering 'Afrika' op de hoeken van de verdieping, voor en achter
+      - de inklapbare laadbalkons aan stalen kettingen en de oorspronkelijke strokendeuren van Afrika
+      - het overkragende betonnen frame van Afrika
+    attributes:
+      architect: A.J. Joling (Afrika); voorgevel 1935 door J. de Bie Leuveling Tjeenk
+      original_use: Pakhuizen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/523313
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/523314
+      - https://nl.wikipedia.org/wiki/Pakhuis_de_Zwijger
+
+- title: Hydraulic power station, Oostelijke Handelskade
+  summary: Before electricity, the cranes on this quay ran on water. This 1885 power house pumped it at 50 atmospheres through pipes to every crane, capstan and the great sheerlegs, and kept the docks moving until 1951.
+  body: |
+    When the Oostelijke Handelskade opened, its cranes were not electric. The Public Works department built this power station (krachtcentrale) in 1885 for the municipal port authority, under city architect B. de Greef and his assistant W. Springer, with machinery by P.W.C. de Graaf. Two steam engines and six boilers pressed water to 50 atmospheres and sent it through a network of pipes to the travelling and wall cranes, the capstans, the mobile hoists and the fixed sheerlegs (mastbok) on the quay. The water pressure drove the cylinders of the cranes and winches.
+
+    The building is a long boiler house with a machine hall set crosswise, both with a raised roof lantern, in a utilitarian eclectic style with natural stone bands, yellow brick arched friezes and coloured accents. In 1899, by then converted to electricity, it got a new wing in the same style. In 1951 it became a rectifier station, Havencentrale Oost. The overseer's house and the accumulator building have been demolished. The hall has since served as a nightclub and event venue.
+
+    Look for:
+    - the rose windows high in the gables of the machine hall
+    - the arched friezes that climb towards the middle of the side wings
+    - the tracery with fish-bladder motifs in the north windows
+    - the roof lantern along the ridge
+  category: industrial
+  lat: 52.375006
+  lng: 4.930429
+  address: Oostelijke Handelskade 4
+  links:
+    - { label: Rijksmonumentenregister (523311), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/523311" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/faf9c215-c20f-4973-b23d-4d52da7577dd" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Oostelijke_Handelskade/Krachtcentrale" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "523311"
+    built: 1885, extended 1899
+    architect: B. de Greef and W. Springer (Publieke Werken)
+    listed: 2001
+    original_use: Hydraulic power station for the port cranes
+  photos:
+    - commons:File:Panama-Oostelijke Handelskade.jpg
+    - commons:File:Kantoor, haven centrale oost - Amsterdam - 20019764 - RCE.jpg
+    - commons:File:Handelskade (Oostelijke) 4 Jacob Olie (max res).jpg
+  sources:
+    - rce:523311 (register description)
+    - https://amsterdamopdekaart.nl/1850-1940/Oostelijke_Handelskade/Krachtcentrale (in use until 1951; "nu Club Panama", last edited 2017)
+  nl:
+    title: Hydraulische centrale, Oostelijke Handelskade
+    summary: Krachtcentrale uit 1885 waarin stoommachines water onder een druk van 50 atmosfeer brachten, waarmee de kranen, kaapstanders en de vaste mastbok op de Oostelijke Handelskade in beweging werden gezet. Tot 1951 in dienst.
+    body: |
+      In opdracht van het Gemeentelijk Havenbedrijf kwam in 1885 door de Dienst Publieke Werken deze hydraulische centrale tot stand, in een eclectische, utilitaire functionele trant. Het ontwerp en de bouw stonden onder toezicht van stadsarchitect B. de Greef en assistent-stadsarchitect W. Springer; de technische installaties werden ontworpen door assistent-ingenieur P.W.C. de Graaf. In het gebouw werd met twee stoommachines, gekoppeld aan zes ketels, water onder een druk van 50 atmosfeer gebracht ten behoeve van de loop- en wandkranen, de kaapstanders, de verplaatsbare hijswerktuigen en de vaste mastbok aan de Oostelijke Handelskade. Deze waren via een buizenstelsel met de centrale verbonden. De waterdruk zorgde voor de beweging van de drukcylinders van de kranen en lieren op de kade.
+
+      In 1899 werd aan de zuidzijde van de inmiddels elektrische centrale een nieuwe vleugel toegevoegd in dezelfde stijl. In 1951 werd het geheel omgebouwd tot gelijkrichterstation, de zogenaamde Havencentrale Oost. De opzichterswoning en het accumulatorgebouw zijn gesloopt. Later werd het gebouw een nachtclub en evenementenlocatie.
+
+      Let op:
+      - het roosvenster in de bovenzone van de kopgevels van het machinegebouw
+      - de boogfriezen die naar het midden toe opklimmen
+      - de traceringen met visblaasmotieven in de vensters aan de noordzijde
+      - de verhoogde lichtkap op de nok
+    attributes:
+      architect: B. de Greef en W. Springer (Publieke Werken)
+      original_use: Hydraulische centrale voor de havenkranen
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/523311
+      - https://amsterdamopdekaart.nl/1850-1940/Oostelijke_Handelskade/Krachtcentrale
+
+- title: Lloyd Hotel and the Lloyd complex
+  summary: Built for emigrants bound for South America, mostly Jews fleeing Eastern Europe, who were deloused next door before they could check in. Since then a refugee shelter, a wartime and youth prison, artists' studios and a hotel again.
+  body: |
+    The Koninklijke Hollandsche Lloyd (KHL) ran ships from Amsterdam to the east coast of South America. In 1915 it moved to the Oostelijke Handelskade and built a whole company quarter there to designs by Evert Breman, in a German-influenced expressionist brick style: an office building (1915–1917), blocks of staff houses ranked by status (four houses for chiefs and twelve for sub-chiefs; twelve flats for permanent workers), a coffee house (1916) with separate rooms for clerks and for dockers and lower crew, and, as its showpiece, a hotel for emigrants.
+
+    The Lloyd Hotel opened on 1 June 1921, for up to 900 people. It had cost eight times the estimate, which helped sink the company. From 1921 to 1936 thousands of emigrants, many of them poor Eastern European Jews who had fled pogroms, waited here for the ship to South America that left every three weeks. Municipal doctors and nurses checked them for disease and lice; in the disinfection building (ontsmettingsgebouw, 1920–1923) behind the hotel, linked to it by corridors, they showered while their clothes and luggage were deloused, in rooms strictly divided into "dirty" and "clean".
+
+    The KHL went bankrupt in 1936. From 1938 the state used the hotel to house Jewish refugees from Nazi Germany. In the war it became a prison, Huis van Bewaring III; about 150 men arrested after the February Strike of 1941 were held here. It stayed a prison after the war, for juveniles from 1963 until 1989. After years of neglect and artists' studios, a 1996 competition led to a "cultural embassy" hotel with interiors planned by MVRDV, open 2004–2021. Since September 2023 it has been The Hoxton, Lloyd Amsterdam.
+
+    Look for:
+    - the octagonal tower with ceramic clock faces above the entrance
+    - the deep entrance canopy on carved brackets, edged in lead
+    - the stubs of the connecting corridors on the west side of the disinfection building (Rietlandpark 371-401)
+    - the coffee house at number 44, with its bay window and flagpoles
+    - the rhythm of bays and gables of the staff houses at numbers 14-32 and 36-42
+  category: hidden-history
+  lat: 52.374313
+  lng: 4.934827
+  address: Oostelijke Handelskade 34
+  links:
+    - { label: Rijksmonumentenregister (523289), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/523289" }
+    - { label: Rijksmonumentenregister (523292), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/523292" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/58a16776-df9f-407c-a92e-896b06583762" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Lloyd_Hotel_(hotel)" }
+    - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Lloyd_Hotel" }
+    - { label: Wikipedia (nl) KHL, url: "https://nl.wikipedia.org/wiki/Koninklijke_Hollandsche_Lloyd" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 523289, 523292, 523290, 523291, 523293, 523294
+    built: 1915–1923
+    architect: Evert Breman
+    listed: 2001
+    original_use: Emigrant hotel, disinfection building, shipping office, staff housing and coffee house
+  photos:
+    - commons:File:Lloyd Hotel.jpg
+    - commons:File:Lloydcomplex Ontsmettingsgebouw.jpg
+    - commons:File:Lloyd Complex2.jpg
+    - commons:File:Lloyd Hotel , Rijksinrichting voor jongens te Amsterdam, Bestanddeelnr 922-0579.jpg
+  sources:
+    - rce:523289, 523290, 523291, 523292, 523293, 523294 (register descriptions; complex 523288)
+    - https://nl.wikipedia.org/wiki/Lloyd_Hotel_(hotel)
+    - https://en.wikipedia.org/wiki/Lloyd_Hotel (The Hoxton since September 2023)
+    - https://nl.wikipedia.org/wiki/Koninklijke_Hollandsche_Lloyd
+  nl:
+    title: Lloyd Hotel en het Lloyd-complex
+    summary: Landverhuizershotel van de Koninklijke Hollandsche Lloyd voor emigranten naar Zuid-Amerika, veelal arme Oost-Europese Joden, die eerst werden ontluisd in het ontsmettingsgebouw. Later vluchtelingenopvang, gevangenis, ateliers en weer hotel.
+    body: |
+      De Koninklijke Hollandsche Lloyd (KHL) onderhield hoofdzakelijk diensten op de oostkust van Zuid-Amerika. In 1915 werd het oorspronkelijke etablissement aan het Spoorwegbassin ingeruild voor een ruimere locatie aan de Oostelijke Handelskade. Naar ontwerp van E. Breman verrezen hier, in een Duits georiënteerde expressionistische baksteen-architectuur, een kantoorgebouw (1915-1917), woonblokken met hiërarchisch ingedeelde dienstwoningen (vier woningen voor chefs en twaalf voor onder-chefs; twaalf etagewoningen voor vaste werklieden en conciërge), een koffiehuis (1916) met gescheiden ruimten voor civiel personeel en bootwerkers/minder scheepspersoneel, en het landverhuizershotel.
+
+      Het hotel was in oorsprong bestemd voor de tijdelijke huisvesting van 900 mensen. Toen het op 1 juni 1921 werd opgeleverd had het acht keer meer gekost dan oorspronkelijk was geraamd, wat waarschijnlijk heeft bijgedragen aan het latere faillissement van de KHL. Van 1921 tot 1936 deed het gebouw dienst als tijdelijk verblijf voor landverhuizers: duizenden emigranten, veelal arme Oost-Europese Joden die de pogroms waren ontvlucht, reisden via de KHL naar Zuid-Amerika. Eens in de drie weken vertrok een KHL-schip. De reizigers werden door artsen en verplegers van de Gemeentelijke Geneeskundige en Gezondheids Dienst onderzocht op ziektes en ongedierte. Ze kregen de gelegenheid te douchen terwijl hun kleding en bagage werd ontsmet, in het ontsmettingsgebouw (1920-1923), waarvan de indeling volledig onderworpen was aan de scheiding tussen 'vuil' en 'schoon'.
+
+      In 1936 ging de rederij failliet en vanaf 1938 werd het hotel gebruikt als opvang voor Joodse vluchtelingen uit nazi-Duitsland. Tijdens de Tweede Wereldoorlog deed het gebouw dienst als gevangenis onder de naam 'Huis van Bewaring III'; in 1941 werden zo'n honderdvijftig Februaristakers er opgesloten. Tot 1989 bleef het een gevangenis, vanaf 1963 voor jongeren. Na een periode met ateliers volgde in 1996 een prijsvraag; het plan voor een hotel annex 'culturele ambassade' werd in schetsen uitgewerkt door MVRDV en het gebouw diende vanaf 2004 weer als hotel. Na verkoop in 2021 volgde een interne renovatie; in 2023 heropende het als The Hoxton, Lloyd Amsterdam.
+
+      Let op:
+      - de achtkantige torenopbouw met ceramische wijzerplaten boven de ingang
+      - de zware, geprofileerde luifel op gebeeldhouwde consoles, bekleed met loodwerk
+      - aan de westgevel van het ontsmettingsgebouw (Rietlandpark 371-401) de aanhechting van de verbindingsgangen naar het hotel
+      - het koffiehuis op nummer 44, met driezijdige erker en vlaggenmasten
+      - de erkers en geschulpte topgevels van de woonblokken op nummer 14-32 en 36-42
+    attributes:
+      original_use: Landverhuizershotel, ontsmettingsgebouw, kantoor, dienstwoningen en koffiehuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/523289
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/523292
+      - https://nl.wikipedia.org/wiki/Lloyd_Hotel_(hotel)
+      - https://nl.wikipedia.org/wiki/Koninklijke_Hollandsche_Lloyd
+
+- title: KNSM staff houses, Oostelijke Handelskade
+  summary: A quiet row of 1912 company houses with shutters and little bay windows, built by the KNSM shipping line for workers who had to be on call, designed by housing reformer J.H.W. Leliman in an English Arts and Crafts spirit.
+  body: |
+    The docklands were not meant for housing, so the few homes built here were for men the shipping lines needed close by. In 1912–1913 the Koninklijke Nederlandsche Stoomboot Maatschappij (KNSM), which had moved to the KNSM-eiland in 1903, built this symmetrical row at the eastern end of the Oostelijke Handelskade, probably for workers or foremen who could be called in at short notice. It stands a few doors from the Lloyd quarter of its rival.
+
+    The architect, J.H.W. Leliman (1878–1921), co-founded the heritage society Bond Heemschut, founded the magazine De Bouwwereld and was a reformer of workers' housing who disliked empty monumentality. The row is three blocks, the outer two pushed forward as pavilions, with two storeys and an attic under hipped roofs. Every home has its own front door, paired with a neighbour's. The English influence shows in the shutters, the small-paned fanlights, the dormer gables, the little ground-floor bays and the half-timbered corner bays. The front survives almost intact; the back was altered in a 1990s renovation.
+
+    Look for:
+    - the wooden shutters on the ground-floor windows
+    - the half-timbered corner bays on the inner corners of the pavilions
+    - the four small bay windows with tiny hipped roofs
+    - the paired front doors under segmental arches
+  category: housing
+  lat: 52.373906
+  lng: 4.936637
+  address: Oostelijke Handelskade 46-66
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c233ea73-9bf6-459d-9f87-a1cf895aa69a" }
+    - { label: Wikipedia (nl) KNSM-eiland, url: "https://nl.wikipedia.org/wiki/KNSM-eiland" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200666"
+    built: 1912–1913
+    architect: J.H.W. (Willem) Leliman
+    listed: 2013
+    original_use: Staff housing for the KNSM
+  sources:
+    - city register text 200666 (register lists it as 44-66, the text as 46-66)
+  nl:
+    title: KNSM-woningen, Oostelijke Handelskade
+    summary: Symmetrische rij woningen uit 1912-1913 voor personeel van de KNSM, ontworpen door J.H.W. Leliman in een stijl geïnspireerd op de Engelse Arts and Crafts, met luiken, dakhuizen en kleine erkers.
+    body: |
+      De rij woningen is in 1912-1913 aan het oostelijke einde van de Oostelijke Handelskade gebouwd als huisvesting voor personeel van de Koninklijke Nederlandsche Stoomboot Maatschappij, die zijn activiteiten op het nabij gelegen KNSM-eiland had geconcentreerd. Het is niet bekend voor welk personeel dit was, maar gezien het feit dat het havengebied niet bestemd was voor woningbouw, lijkt het erop dat het ging om arbeiders of voormannen die in korte tijd oproepbaar moesten zijn.
+
+      De Amsterdamse architect J.H.W. Leliman (1878-1921) kan beschouwd worden als een belangrijke vernieuwer van de arbeiderswoningbouw. Hij was medeoprichter van de Bond Heemschut en oprichter van het tijdschrift De Bouwwereld, en wars van loze monumentaliteit en effectbejag. Het complex is opgebouwd uit drie blokken waarvan de buitenste twee naar voren geschoven zijn als risalerende 'paviljoens', met twee bouwlagen en een zolderverdieping onder schilddaken. Elke woning is door een eigen voordeur ontsloten; de voordeuren zijn steeds per twee gekoppeld. De Engelse invloed komt vooral tot uitdrukking in de luiken, de roedenverdeling in de bovenlichten, de dakhuizen, de kleine erkers op de begane grond en de 'vakwerkerkers' bij de binnenste hoeken van de paviljoens. De voorzijde verkeert nog vrijwel geheel in authentieke staat.
+
+      Let op:
+      - de houten luiken voor de onderramen
+      - de vakwerkerkers bij de binnenste hoeken van de paviljoens
+      - de vier kleine erkertjes met schilddakjes
+      - de gekoppelde voordeuren onder een segmentboog
+    attributes:
+      original_use: Personeelswoningen van de KNSM
+    sources:
+      - city register text 200666
+
+- title: Voor de bijen (Bee tables)
+  summary: Four giant tables stacked over a traffic junction, with beehives hung under the top one so the bees could join the traffic as a fifth stream. The bees never really moved in, but the hives still hang there, and people still bump their heads on the legs.
+  body: |
+    Frank Mandersloot made this work in 2004 for the junction of the Piet Heinkade, the Piet Hein tunnel and the Panamalaan, paid for from the art budget of the IJtram. Four tables climb over one another, two of concrete below and two of wood above. The top of the lowest table is level with the street; its two visible legs go down to the sunken tram line and stand for the piles the city is built on. The stacking echoes the layers of traffic here, and the four tables the four streams of traffic that meet at the crossing.
+
+    Mandersloot added a fifth stream: bees. Under the top table hangs a platform with hives, and with the city ecologist he drew up a planting plan for the area so the bees would have food. A thriving colony was to be a gauge of the city's health: if the bees do well, so do the people. It soon turned out that bees cannot be steered. There was too little green, and up at the height of the hives it was too windy. The beekeepers' association of Waterland stopped tending the hives in 2013, but the hives were never removed.
+
+    In the early years pedestrians walked into the table legs despite warning tiles. Mandersloot would not shorten them; instead he laid a square of cobbles around the work, reasoning that people walk around tiles. People still hit their heads now and then.
+
+    Look for:
+    - the empty hives under the top table
+    - the two legs plunging down to the tram line
+    - the square of cobbles around the base
+  category: curiosities
+  lat: 52.372849
+  lng: 4.933829
+  address: Piet Heinkade / Panamalaan (Rietlandpark)
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Voor_de_bijen" }
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/voor-de-bijen/" }
+  attributes:
+    rank: Okay
+    built: "2004"
+    artist: Frank Mandersloot
+  photos:
+    - commons:File:Voor de Bijen.jpg
+    - commons:File:Kunst aan het Rietlandpark Amsterdam (5634936727).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Voor_de_bijen (bees never settled, beekeepers stopped 2013, head-bumping)
+    - https://stadscuratorium.nl/collectie/voor-de-bijen/ (landscape plan with city ecologist, gauge of the city)
+    - OSM node 4743986694 (pin)
+  nl:
+    title: Voor de bijen (Bijentafels)
+    summary: Vier gestapelde tafels op het verkeersknooppunt bij het Rietlandpark, met bijenkorven onder de bovenste tafel. De bijen lieten zich niet sturen, maar de korven hangen er nog, en voetgangers stoten nog altijd hun hoofd.
+    body: |
+      Voor de bijen, ook wel Bijentafels, is een kunstwerk van Frank Mandersloot uit 2004 op de kruising van de Piet Heinkade, de weg naar en van de Piet Heintunnel en de Panamalaan. Het werd gefinancierd uit het kunstbudget bij project IJtram. Het bestaat uit vier gestapelde tafels, twee van beton (onder) en twee van hout (boven). Het bovenblad van de onderste tafel ligt gelijkvloers; de twee zichtbare tafelpoten voeren naar de hier verlaagde trambaan en geven de funderingspalen weer, de ondersteuning van de stad. De stapeling zou een verwijzing zijn naar de verkeerslagen alhier.
+
+      Onder de vierde tafel is een plateau opgehangen waarop enkele bijenkorven staan. Samen met de stadsecoloog ontwierp Mandersloot ook een landschapsplan voor bloemperken in de omgeving, als voedsel voor de bijen. Hij maakte van de bijen een graadmeter voor de bewoners van Amsterdam: gaat het goed met de bij, dan gaat het ook goed met de mens. Het bleek al snel dat bijen zich niet lieten sturen, mede doordat er toch te weinig groen was en doordat op de hoogte waarop de korven waren aangebracht te veel wind stond. De bijenkorven zijn echter niet verwijderd. In 2013 is de Imkervereniging Waterland gestopt met het verzorgen van de korven.
+
+      Het beeld zorgde vooral in het begin voor enkele ongelukken: onoplettende voetgangers stootten hun hoofd tegen een van de tafelpoten. Het voorstel om die poten in te korten kon niet rekenen op steun van Mandersloot. Zijn remedie was het plaatsen van maaskeien in een vierkant rond het beeld. Desondanks stoten mensen af en toe nog hun hoofd aan het enorme beeld.
+
+      Let op:
+      - de lege bijenkorven onder de bovenste tafel
+      - de twee poten die naar de trambaan afdalen
+      - het vierkant van maaskeien rond de voet
+    sources:
+      - https://nl.wikipedia.org/wiki/Voor_de_bijen
+      - https://stadscuratorium.nl/collectie/voor-de-bijen/
+
+# ================================================================ KNSM-eiland
+
+- title: Loods 6 and the Kompaszaal
+  summary: The last KNSM harbour shed, where passengers once left for Suriname and the Caribbean. Its 1950s departure hall survives like a ship's lounge, with compass stars in the lino, mosaics of a family leaving and a farewell on the quay.
+  body: |
+    The Koninklijke Nederlandsche Stoomboot Maatschappij (KNSM) settled on what is now the KNSM-eiland in 1903, sailing to the Baltic, Suriname, the Antilles and the Levant. Shed 6 on the Surinamekade was rebuilt around 1920–1925, 180 metres long, with storage below and, on the upper floor, offices and rooms for travellers and emigrants. Its east end (KNSM-laan 311) held the passenger terminal; passengers boarded from the roof terrace over a gangway to the ships.
+
+    For the line's centenary in 1956, the ship interior designer Johan van Tienhoven, who did the lounges of liners like the Oranje Nassau, turned the plain hall into something like a ship's lounge, and in 1960 he modernised the entrance. It survives almost intact: travertine walls, star-shaped clock by Dick ten Hoedt, his grey mosaics "Het Gezin" (a family planning to emigrate) and "Het Afscheid" (a couple saying goodbye on the quay), and upstairs the Kompaszaal with compass stars in the linoleum, columns clad in green mosaic, a mural by Cuno van den Steene of a woman and six children who may stand for the Antilles, and an engraved window of the harbour by Lex Horn. In the porch hangs the KNSM war memorial (1947, Pieter Starreveld, moved here in 2005), with 247 names of seamen who did not return.
+
+    The KNSM stopped in 1979. Squatters and artists saved the shed: the Open Haven Museum opened in the old hall in 1987, and after a 1994–1997 conversion by Villanova it became a building for some 120 creative tenants. The Kompaszaal is a café and event space.
+
+    Look for:
+    - the sculptures of harbour workers at the entrance stairs (said to be Hildo Krop's, from the gate of the KHL)
+    - the sandblasted harbour window by Lex Horn above the entrance
+    - the raised loading platform and original quay on the Surinamekade
+    - crane 2868 right behind the shed
+  category: industrial
+  lat: 52.377353
+  lng: 4.940083
+  address: KNSM-laan 311
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/ba09f5fa-9d8c-4712-99f4-d8f34a3c8efc" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Loods_6" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200635"
+    built: c. 1920–1925; hall 1956, entrance 1960
+    architect: J.G. and A.D. van Gendt (shed); Johan van Tienhoven (hall)
+    listed: 2012
+    original_use: Harbour shed and passenger terminal of the KNSM
+  photos:
+    - commons:File:2023 Amsterdam, KNSM-eiland, Loods 6 (04).jpg
+    - commons:File:2024 KNSM-eiland, Loods 6, entree Kompaszaal (01).jpg
+  sources:
+    - city register text 200635 (built c. 1925; origin of the entrance sculptures unknown)
+    - https://nl.wikipedia.org/wiki/Loods_6 (rebuilt c. 1920 by the Van Gendt brothers; sculptures by Hildo Krop from the KHL gate, here since 1998; war memorial)
+    - https://nl.wikipedia.org/wiki/Kraan_2868 (dates Loods 6 to 1922)
+  nl:
+    title: Loods 6 en de Kompaszaal
+    summary: De laatste havenloods van de KNSM, met de vertrek- en aankomsthal die Johan van Tienhoven in 1956 inrichtte als een scheepslounge, met kompassterren in het linoleum en mozaïeken van emigratie en afscheid.
+    body: |
+      De Koninklijke Nederlandsche Stoomboot Maatschappij (KNSM) vestigde zich in 1903 op het huidige KNSM-eiland; de bestemmingen waren met name de Oostzee, Suriname, de Antillen en de Levant. Loods 6 werd omstreeks 1920 gesloopt en vervangen door een drie verdiepingen tellend bouwwerk naar ontwerp van de 'huisarchitecten' van de KNSM, de gebroeders J.G. en A.D. van Gendt. KNSM-laan 311, op de oostkop van de loods, is de voormalige passagiershal; de afwikkeling van de passagiers vond plaats via het dakterras aan de noordzijde en een loopbrug naar de schepen.
+
+      Begin jaren vijftig kreeg scheepsinterieurarchitect Johan van Tienhoven de opdracht het interieur van de passagiershal te moderniseren; in 1956, bij het honderdjarig bestaan van de KNSM, was de verbouwing voltooid, en in 1960 volgden entree en voorgevel. In de Kompaszaal staan negen ronde zuilen met groengetinte mozaïeksteentjes en is de linoleumvloer ingelegd met kompasfiguren. Er is een muurschildering van Cuno van den Steene, mogelijk een allegorie van de zes eilanden van de Nederlandse Antillen, en een gegraveerd raam van Lex Horn. Bij de trappen hangen twee mozaïeken van Dick ten Hoedt uit 1960: een gezin dat plannen maakt om te emigreren, en een jonge vrouw en een man die op de kade afscheid nemen. In het portaal hangt het oorlogsmonument van Pieter Starreveld uit 1947 met 247 namen van omgekomen zeelieden, sinds 2005 op deze plek.
+
+      In 1987 opende in de gekraakte vertrek- en aankomsthal het Open Haven Museum. Van 1994 tot 1997 volgde een grootscheepse verbouwing door Villanova Architecten; sindsdien is Loods 6 een bedrijfsverzamelgebouw voor de creatieve sector. De Kompaszaal is café-restaurant en evenementenlocatie.
+
+      Let op:
+      - de beeldhouwwerken met havenwerkers bij de entreetrap, volgens nl.wikipedia van Hildo Krop en afkomstig van de poort van de KHL
+      - het gezandstraalde glas met een geabstraheerd havengezicht van Lex Horn boven de ingang
+      - het verhoogde laadperron en de oorspronkelijke loskade aan de Surinamekade
+      - kraan 2868 direct achter de loods
+    attributes:
+      architect: J.G. en A.D. van Gendt (loods); Johan van Tienhoven (hal)
+      original_use: Havenloods en passagiersterminal van de KNSM
+    sources:
+      - city register text 200635
+      - https://nl.wikipedia.org/wiki/Loods_6
+
+- title: Kraan 2868
+  summary: The one crane residents saved when the KNSM quays were cleared, a 1957 Figee luffing crane with a hinged counterweight. Taken apart in Friesland and rebuilt as a guest apartment, it still stands on its old crane track.
+  body: |
+    The Surinamekade was once lined with cranes and sheds. The Germans wrecked the cranes in 1944, so after the war all of them had to be replaced. Crane 2868 was built in 1957–1958 for the KNSM by the Haarlemsche Machinefabriek of the Figee brothers, a firm that started as a packing-crate workshop in 1836 and built its first steam crane in 1871. It is a luffing crane (wipkraan): the jib moves up and down, keeping the load level, and its typical Figee feature is the hinged counterweight. It worked until 1979, when the KNSM stopped.
+
+    When the area was cleared for housing from 1989, all the cranes went for scrap except this one: residents persuaded the city to keep one as a "lieu de mémoire". It became a municipal monument in 2011, partly at the request of Heemschut and the Cuypersgenootschap. Between 2016 and 2017 it was taken apart and rebuilt in Franeker as a guest apartment, designed by Edward van Vliet, in its two machine housings and the driver's cab, with extra stairs and lighting but otherwise as original as possible. It is let as a short-stay apartment.
+
+    Look for:
+    - the hinged counterweight behind the cab
+    - the stacked wooden machine housings
+    - the stretch of crane rail it stands on, and a ship's anchor next to it
+  category: industrial
+  lat: 52.377585
+  lng: 4.939833
+  address: Surinamekade 34
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/116e8736-a491-4e4e-9f84-91a34bbd2090" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Kraan_2868" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200634"
+    built: 1957–1958
+    architect: Figee (Haarlemsche Machinefabriek)
+    listed: 2011
+    original_use: Harbour crane of the KNSM
+  photos:
+    - commons:File:Kraan 2868 (1).jpg
+    - commons:File:2023 Amsterdam, KNSM-eiland, Loods 6 (02).jpg
+  sources:
+    - city register text 200634
+    - https://nl.wikipedia.org/wiki/Kraan_2868
+    - booking listings (Numa / YAYS The Crane, reviews into 2026); a Funda business listing offers Surinamekade 34 for sale (undated)
+  nl:
+    title: Kraan 2868
+    summary: Figee-wipkraan uit 1957-1958 op de Surinamekade, de enige havenkraan die buurtbewoners van de sloop wisten te redden. Omgebouwd tot gastenverblijf, maar zoveel mogelijk in originele staat.
+    body: |
+      De Surinamekade stond vroeger vol met hijskranen en havenloodsen. In 1944 werden de hijskranen door de Duitse bezetter vernield, waardoor na de oorlog alle kranen vernieuwd moesten worden. Kraan 2868 werd in 1957-1958 gebouwd door de N.V. Haarlemsche Machinefabriek v/h Gebr. Figee in opdracht van de KNSM. H. Figee startte in 1836 een timmerfabriekje voor pakkisten in Haarlem; in 1871 maakte het bedrijf zijn eerste door stoom aangedreven kraan. De Figee-portaalkraan is een elektrische top- of wipkraan: doordat de kraan geen vaste arm heeft kan de last bij het op- en neerhalen van de giek op dezelfde hoogte blijven. Karakteristiek is het scharnierende contragewicht. De kraan deed dienst tot 1979, toen de KNSM haar werkzaamheden hier beëindigde.
+
+      Al tijdens de planontwikkeling was besloten dat van de vele hijskranen aan de kaden één van sloop gevrijwaard zou blijven, als 'lieu de mémoire'; buurtbewoners wisten de gemeente te overtuigen deze kraan te redden. De benoeming tot gemeentelijk monument kwam in 2011, mede op verzoek van Heemschut en het Cuypersgenootschap. Onder begeleiding van ontwerper Edward van Vliet werd de kraan tussen januari 2016 en december 2017 in Franeker omgebouwd tot gastenverblijf, in de twee containers en de controleruimte. Voor het overige is de kraan zoveel mogelijk in originele staat gehouden.
+
+      Let op:
+      - het scharnierende contragewicht
+      - de twee gestapelde houten behuizingen met de machinistenhut daarbovenop
+      - het restant kraanspoor waarop de kraan staat, en het oude scheepsanker ernaast
+    attributes:
+      original_use: Havenkraan van de KNSM
+    sources:
+      - city register text 200634
+      - https://nl.wikipedia.org/wiki/Kraan_2868
+
+- title: Former KNSM canteen, Levantplein
+  summary: A glass box floating on steel stilts over the Levantplein, where KNSM staff ate and watched plays. Probably the only known building by a founder of the radical architects' group De 8, it now holds live-work studios.
+  body: |
+    This was the staff restaurant of the KNSM: one long, glazed room held up on a grid of steel columns and wedged between two brick blocks, the larger of which held the entrance stair, the cloakroom and the kitchen. The canteen was also used for plays and other performances, very much in the spirit of the 1950s. The register text dates it to 1959–1960 (the register's summary says 1954).
+
+    The architect, P.J. Verschuyl of Hilversum, is a mystery. A P.J. Verschuyl was one of the founders of De 8, the group that brought the Nieuwe Bouwen (Dutch modernism) to Amsterdam in 1927, but left a year later to join his father's villa practice. If he is the same man, this canteen, with its transparent walls and visible structure straight out of the pre-war modernist book, is the only known building of a De 8 founder who stayed out of sight for a quarter of a century.
+
+    In 1991 the canteen was split into eight studios, formally live-work spaces since 2001, reached by new open iron stairs from below. The interior of the canteen is gone, but the exterior is largely intact.
+
+    Look for:
+    - the light-blue steel window frames along both long sides
+    - the steel H-columns on hexagonal concrete bases, the open space underneath
+    - the orange-red extruded brick and gravel-concrete panels
+    - the floor tiles with dark diamond borders at the old main entrance
+  category: industrial
+  lat: 52.376794
+  lng: 4.942115
+  address: Levantplein 1-15
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/10ba2513-40db-4df7-a3ea-f499974fb6b5" }
+    - { label: Wikipedia (nl) KNSM-eiland, url: "https://nl.wikipedia.org/wiki/KNSM-eiland" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200745"
+    built: 1959–1960
+    architect: P.J. Verschuyl
+    listed: 2014
+    original_use: Staff canteen and performance hall of the KNSM
+  photos:
+    - commons:File:2023 Amsterdam, KNSM-eiland, Edelweiss (01).jpg
+    - commons:File:Levantplein 1-15 (01).jpg
+  sources:
+    - city register text 200745 (1959–1960; the register record field says 1954)
+    - https://nl.wikipedia.org/wiki/KNSM-eiland
+  nl:
+    title: Voormalige KNSM-kantine, Levantplein
+    summary: Het oude personeelsrestaurant van de KNSM uit 1959-1960, een glazen doos zwevend boven een open ruimte op stalen pijlers. Vermoedelijk het enige bekende werk van P.J. Verschuyl, een van de oprichters van De 8.
+    body: |
+      Het gebouw is het oude personeelsrestaurant (kantine) van de Koninklijke Nederlandsche Stoomboot Maatschappij (KNSM), gebouwd in 1959-'60 naar ontwerp van P.J. Verschuyl, als een glazen doos zwevend boven een open ruimte en ingeklemd tussen gemetselde blokken. De glazen doos, door de blokken ondersteund maar ook door stalen pijlers, was de eigenlijke kantine en werd ook gebruikt voor toneel- en andere voorstellingen. De functie was meer dan alleen kantine, ook cultuur kwam aan bod, en ook daarin is het gebouw kenmerkend voor de jaren vijftig.
+
+      Een van de oprichters van de fameuze architectengroep De 8 in 1927 was ook P.J. Verschuyl genaamd. Van hem is bekend dat hij in 1928 De 8 al weer verliet om in de praktijk van zijn vader, gespecialiseerd in villa's, te gaan werken. Er van uit gaande dat het om een en dezelfde persoon gaat, is de KNSM-kantine het enig bekende werk van een van de oprichters van De 8, in een stijl die direct teruggrijpt op het Nieuwe Bouwen.
+
+      In 1991 is het pand verbouwd ten behoeve van een achttal individuele atelierruimtes, die sinds 2001 ook formeel als woon-werkruimtes in gebruik zijn. Het interieur van de kantine is geheel verdwenen; het exterieur verkeert grotendeels in gave en authentieke staat.
+
+      Let op:
+      - de forse, licht vooruitstekende lichtblauwe stalen kozijnen in de lange gevels
+      - het staalskelet van H-profielen op zeshoekige betonnen basementen
+      - de gevels van oranjerode strengperssteen en de platen van grindbeton
+      - de vloertegels met donkere biezen in ruitvorm bij de voormalige hoofdentree
+    attributes:
+      original_use: Personeelskantine en zaal van de KNSM
+    sources:
+      - city register text 200745
+
+# ================================================================ Sporenburg and Borneo
+
+- title: Python Bridge (Hoge brug)
+  summary: West 8's red footbridge writhes over the Spoorwegbassin like a snake, rising 9.5 metres so boats can pass beneath. Stairs only, so cyclists and anyone who dislikes heights take the low bridge next door.
+  body: |
+    When Sporenburg and Borneo, two former railway and harbour peninsulas, were rebuilt as dense low-rise housing to a plan by West 8, the landscape architects also designed the footbridges across the Spoorwegbassin between them. The tallest, officially the Hoge brug (bridge 1998), opened in 2001. Its wriggling shape soon earned it nicknames: Anaconda, Salamander, Dinosaur, and the one that stuck, Python Bridge.
+
+    The bright red truss bridge by Adriaan Geuze spans the 93-metre basin, but its curves make it longer, and its highest point gives 9.5 metres of clearance. The railings lean inwards, then outwards, then inwards again, and the lamps are meant to look like long-legged birds perched on the rail. The Piet Hein tunnel runs under the water below. It won the International Footbridge Award in 2002, and Architectural Digest put it among the world's most beautiful bridges in 2019. Parkour teams use it, and local youngsters jump from the top into the water.
+
+    Look for:
+    - the bird-like lamps along the railings
+    - the view from the top along the basin and over the canal houses of Borneo
+    - the Lage brug (bridge 1997) 400 m west, its flatter sibling
+  category: infrastructure
+  lat: 52.373010
+  lng: 4.948894
+  address: Panamakade, Sporenburg, to the Stuurmankade, Borneo
+  links:
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Pythonbrug" }
+    - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Python_Bridge" }
+  attributes:
+    rank: Nice
+    built: "2001"
+    architect: Adriaan Geuze (West 8)
+  photos:
+    - commons:File:2021 Brug 1998 Pythonbrug, Asd (1).jpg
+    - commons:File:Pythonbrug 2015-05.jpeg
+  sources:
+    - https://nl.wikipedia.org/wiki/Pythonbrug
+    - https://en.wikipedia.org/wiki/Python_Bridge
+    - https://nl.wikipedia.org/wiki/Sporenburg_(Amsterdam)
+  nl:
+    title: Pythonbrug (Hoge brug)
+    summary: De felrode, golvende voetbrug van West 8 over het Spoorwegbassin tussen Sporenburg en Borneo, met een doorvaarthoogte van 9,5 meter. Alleen voor voetgangers; fietsers wijken uit naar de Lage brug.
+    body: |
+      De Pythonbrug (brugnummer 1998) is een gegeven naam voor een vaste voetbrug in Amsterdam-Oost; de officiële naam is Hoge brug. De brug is gespannen over het Spoorwegbassin en verbindt de Panamakade op het schiereiland Sporenburg met de Stuurmankade op het Borneo-eiland. Ze werd in 2001 opgeleverd. De naam verwijst naar de opvallende golvende vorm, als een voortbewegende python. De brug werd aanvankelijk ook wel Anaconda-, Salamander- of Dinosaurusbrug genoemd.
+
+      De felrode brug overspant het 93 meter brede Spoorwegbassin en werd ontworpen door Adriaan Geuze van het architectenbureau West 8, dat ook woningen in de buurt heeft ontworpen. Door de kronkelingen is ze langer dan 93 meter en heeft ze een maximale doorvaarthoogte van 9,5 meter. Het hoogtepunt kan dienen als plek van uitzicht of voor de jeugd als springplank. De lantaarns moeten doen denken aan staande lange vogels op een brugleuning. Bijzonder is dat de balustrades aan het begin naar binnen staan, vervolgens naar buiten wijken en daarna weer naar binnen staand eindigen. Onder water kruist de Piet Heintunnel de brug. De brug werd in 2002 onderscheiden met de International Foot Bridge Award en staat in de lijst van 18 mooiste bruggen ter wereld van Architectural Digest (2019).
+
+      De brug is alleen geschikt voor voetgangers. Rolstoelgangers, mensen slecht ter been, mensen met hoogtevrees en fietsers moeten uitwijken naar de Lage brug.
+
+      Let op:
+      - de lantaarns als lange vogels op de leuning
+      - het uitzicht vanaf het hoogste punt over het bassin en Borneo
+      - de Lage brug (brug 1997) vierhonderd meter naar het westen
+    sources:
+      - https://nl.wikipedia.org/wiki/Pythonbrug
+      - https://nl.wikipedia.org/wiki/Sporenburg_(Amsterdam)
+
+- title: Fragment van een huiskamer (Mark Manders)
+  summary: A cast-iron table, chair and bucket with two small figures on top, set into the paving at the tip of Sporenburg and looking out over the water. Everything is shrunk to 88%, which you feel more than see.
+  body: |
+    Since 1986 Mark Manders has worked on one lifelong piece, "Self-portrait as a Building": an imaginary building, always changing, whose rooms are filled with his sculptures. In 2001 he set a fragment of it into the street on the P.E. Tegelbergplein, the square at the eastern tip of Sporenburg, in a strip of grey-blue paving between the street and the water.
+
+    The fragment is a work table with a chair and a bucket. On the table stand two genderless figures that look identical at first sight but are two moments of the same figure, about a second apart, like film stills, with a small change in the face and arms. The bucket is also two moments, woven into each other. The figures look out over the water; the chair is for anyone who wants to stare out with them.
+
+    Because the square slopes up and a retaining wall runs behind it, Manders reduced the whole thing to 88%, a scale he had used since 1993. The reduction is not obvious, but you sense it, and it makes the scene quietly strange. Since 2023 a temporary ferry has sailed from the square to the new Sluisbuurt on Zeeburgereiland.
+
+    Look for:
+    - the two figures and the small differences between them
+    - the doubled bucket
+    - the chair, set for you
+  category: street-art
+  lat: 52.373822
+  lng: 4.949255
+  address: P.E. Tegelbergplein, opposite no. 16
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/fragment-van-een-huiskamer-verkleind-naar-88/" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Fragment_van_een_huiskamer" }
+  attributes:
+    rank: Nice
+    built: "2001"
+    artist: Mark Manders
+  photos:
+    - commons:File:Fragment van een huiskamer.JPG
+  sources:
+    - https://stadscuratorium.nl/collectie/fragment-van-een-huiskamer-verkleind-naar-88/
+    - https://nl.wikipedia.org/wiki/Fragment_van_een_huiskamer
+    - https://nl.wikipedia.org/wiki/Sporenburg_(Amsterdam) (ferry since 2023)
+    - OSM node 5238675596 and the Commons caption "P.E. Tegelbergplein, t.o. 16" (pin)
+  nl:
+    title: Fragment van een huiskamer, verkleind naar 88% (Mark Manders)
+    summary: Een gietijzeren werktafel met stoel en emmer, met twee figuren erop, in de bestrating van het P.E. Tegelbergplein op de kop van Sporenburg. Alles is verkleind naar 88%, wat je meer voelt dan ziet.
+    body: |
+      Een eigen wereld binnen de bestaande wereld creëren, dat is wat Mark Manders doet. Dit kunstwerk uit 2001 is een fragment uit zijn veelomvattende kunstwerk 'Zelfportret als gebouw', waar de kunstenaar sinds 1986 onafgebroken aan werkt: een fictief gebouw dat voortdurend in verandering is. Zoals hij zelf zegt: "Lopend door mijn gebouw word ik overal geconfronteerd met diepe stilstand, het is geweldig, de dingen alhier overwinnen mijn ogenblikkelijke denken en zijn mij zeer vertrouwd, ik verveel mij nooit."
+
+      Het fragment bestaat uit een werktafel met stoel en emmer. Op de tafel staan twee geslachtloze figuren die op het eerste gezicht identiek lijken, maar bij nader inzien twee opeenvolgende momenten van dezelfde figuur zijn, met een klein verschil in gezichtsuitdrukking en armen, als nagemaakte filmstills. De emmer bestaat ook uit twee momenten, die door elkaar verweven zijn. Het beeld staat in een strook grijsblauwe klinkers die tussen de straat van het P.E. Tegelbergplein en het IJ ligt; de figuren kijken uit over dat water. De stoel is voor diegene die met de beelden over de waterplas wil staren.
+
+      Omdat het plein schuin oploopt heeft de kunstenaar ervoor gekozen het geheel te verkleinen naar 88%. De verkleining is niet direct zichtbaar en is meer voelbaar; hierdoor werkt het enigszins vervreemdend. Manders hanteerde die 88% al sinds 1993.
+
+      Let op:
+      - de twee figuren en de kleine verschillen tussen hen
+      - de dubbele emmer
+      - de lege stoel
+    sources:
+      - https://stadscuratorium.nl/collectie/fragment-van-een-huiskamer-verkleind-naar-88/
+      - https://nl.wikipedia.org/wiki/Fragment_van_een_huiskamer

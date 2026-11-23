@@ -1,0 +1,1812 @@
+# Oost oosterpark slice: Oosterparkbuurt, Mauritskade, Dapperbuurt, Oostergasfabriek and Muiderpoort.
+# All 45 monument records in slices/oosterpark.json are used exactly once (see notes/oosterpark.md),
+# plus the scouted Muiderpoort deportation memorial, Flowers, the Slavery Monument and Keti Koti,
+# De Schreeuw and the Van Gogh murder site, Noch Einmal, Het begon met een dubbeltje and the Dappermarkt.
+# Dutch texts are spliced from the city register texts, the national register, amsterdamopdekaart.nl,
+# stadscuratorium.nl and nl.wikipedia.
+
+# ================================================================ North side of the Oosterpark
+
+- title: St. Elisabethgesticht, now Hotel Arena
+  summary: "A Catholic home for incurable sick women and grown-up invalid orphans, opened in 1889 as an offshoot of the Maagdenhuis. It became a sleep-in in 1982 and is now Hotel Arena, with its chapel, a tall chimney and a hand-made Lourdes grotto in the garden."
+  body: |
+    The St. Elisabethgesticht was the successor of the Catholic Maagdenhuis (girls' orphanage) on the Spui. It was designed in 1886 by A.C. Bleys as a home for adult invalid orphans and incurable sick women of the Catholic faith, nursed by the Zusters van Liefde (Sisters of Charity) of Tilburg. Only part of the plan was built, so there was room for 160 people instead of 268. Residents of the first and second class paid and had their own rooms; the third class slept in wards and did housework. In the Second World War the maternity ward of the nearby OLVG hospital moved in after the Germans took its building, until the home itself was requisitioned in 1944.
+
+    In 1971 the foundation sold the building to the city, which ran it as a nursing home and took down the statue of St. Elisabeth over the main door. It closed in 1982 and reopened as the Sleep-in, a cheap youth hostel and later a centre for youth culture with concerts and a club. Today it is Hotel Arena, with flats on the Mauritskade side. The listed complex covers the main building, the former parsonage on the 's-Gravesandestraat, the gates and walls, the chimney and the grotto. The pin is on the main building.
+
+    Look for:
+    - the rich entrance with Doric half-columns and a broken pediment, now without its saint
+    - the chimney east of the chapel, about 35 m high, one of the last tall chimneys in the city
+    - the Lourdes grotto in the garden, a folly of cement, chicken wire and textile, about 5 m high
+    - the iron gates and walls along the west and north sides
+  category: religious
+  lat: 52.361394
+  lng: 4.915565
+  address: Mauritskade 25-27 / 's-Gravesandestraat 51
+  links:
+    - { label: Rijksmonumentenregister (526942), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526942" }
+    - { label: Rijksmonumentenregister (526946 grotto), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526946" }
+    - { label: Rijksmonumentenregister (526945 chimney), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526945" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/25-27E" }
+    - { label: Wikipedia (nl) Sint Elisabeth Gesticht, url: "https://nl.wikipedia.org/wiki/Sint_Elisabeth_Gesticht" }
+    - { label: Hotel Arena history, url: "https://hotelarena.nl/sint-elisabeth-geschiedenis/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 526942, 526943, 526944, 526945, 526946
+    built: 1886–1889
+    architect: A.C. Bleys
+    original_use: Catholic nursing home (gesticht)
+    listed: 2004
+  photos:
+    - commons:File:Amsterdam - Sint Elisabeth Gesticht.JPG
+    - commons:File:Amsterdam - Mauritskade 25 St ElisabethGesticht.JPG
+    - commons:File:Lourdesgrot Amsterdam 526946-2019-1.jpg
+    - commons:File:Mauritskade 25A - Schoorsteen (526945).jpg
+    - commons:File:Erfscheiding met hekken Mauritskade 25A (526944) 1.jpg
+    - commons:File:Voormalige pastorie 's-Gravesandestraat 53 (526943) 2.jpg
+  sources:
+    - rce:526942, 526943, 526944, 526945, 526946 (register descriptions)
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/25-27E
+    - https://nl.wikipedia.org/wiki/Sint_Elisabeth_Gesticht
+    - https://hotelarena.nl/sint-elisabeth-geschiedenis/
+    - https://geheugenvanoost.amsterdam/page/de-sleep-in (facts only)
+  nl:
+    title: St. Elisabethgesticht, nu Hotel Arena
+    summary: "Het gesticht was een opvolger van het Maagdenhuis aan het Spui: een tehuis voor meerderjarige invalide wezen en ongeneeslijk zieken van rooms-katholieke huize, geopend in 1889. Tussen 1982 en 1992 Sleep-in, nu Hotel Arena, met kapel, schoorsteen en Lourdesgrot."
+    body: |
+      Het gesticht was een opvolger van het Maagdenhuis aan het Spui. Het was een tehuis voor de verpleging van meerderjarige invalide wezen, en tevens huisvesting voor ongeneeslijk zieken van rooms-katholieke huize. De zorg was in handen van Zusters van Liefde, een congregatie uit Tilburg. Het oorspronkelijke ontwerp van Adrianus Bleys is slechts voor een deel uitgevoerd. Er was daardoor plaats voor 160 en niet 268 personen. De bewoonsters van de eerste en tweede klasse sliepen op kamers en hadden veel vrijheid; de bewoonsters van de derde klasse betaalden niet, sliepen op zaal en werden overdag beziggehouden met huishoudelijke klusjes. Tijdens de Tweede Wereldoorlog werd de verloskundige afdeling van het Onze Lieve Vrouwe Gasthuis in het gesticht ondergebracht, nadat de Duitse bezetter hun ruimte in beslag had genomen. In 1944 viel ook het gesticht dat lot ten deel.
+
+      De eigenaar, de Stichting Het R.C. Maagdenhuis, verkocht het verpleeghuis in 1971 aan de gemeente. Die exploiteerde het nog enkele jaren als Verpleegtehuis Mauritskade. Daarbij werd het beeld van de heilige Elisabeth boven de hoofdingang verwijderd. In 1982 werd het verpleeghuis gesloten. Nu zijn er appartementen (aan de Mauritskade) en Hotel Arena (tussen 1982 en 1992 Sleep-in). De speld staat op het hoofdgebouw.
+
+      Let op:
+      - de hoofdtoegang met rijke natuurstenen omlijsting met Dorische halfzuilen en gebroken fronton
+      - de schoorsteen aan de oostzijde: met ongeveer 35 meter een van de weinige resterende hoge schoorstenen in de stad
+      - de Lourdesgrot in de tuin, een folly van cement, kippengaas en textiel, vijf meter hoog
+      - de hekken, muren en poorten aan de west- en noordzijden van het complex
+    attributes:
+      built: 1886–1889
+      architect: A.C. Bleys
+      original_use: Rooms-katholiek verpleeghuis (gesticht)
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526942
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/25-27E
+      - https://nl.wikipedia.org/wiki/Sint_Elisabeth_Gesticht
+
+- title: Read the facade of the Colonial Institute
+  summary: "The Koloniaal Instituut, now KIT and the Wereldmuseum, was built 1915–1926 to serve trade with the Dutch colonies. Its facades are a stone sermon on empire: VOC heroes with names, colonised peoples as anonymous types, and Jan Pieterszoon Coen over the door."
+  body: |
+    The Vereeniging Koloniaal Instituut was founded in 1910 to bring the colonial museum from Haarlem to Amsterdam and to gather knowledge for "trade, agricultural and industrial interests" in the colonies. J.J. and M.A. van Nieukerken designed a huge neo-Renaissance building on part of the old Oosterbegraafplaats; the city's beauty committee rejected the design and resigned when it was overruled. Building began in 1915 and, slowed by war and money troubles, ended with an opening by Queen Wilhelmina in 1926. A special Commissie voor de Symboliek (symbolism committee) decided what the hundreds of carvings should say, mostly carved by L.J. Vreugde, W.M. Retera and W.O.J. Nieuwenkamp.
+
+    The institute became the Indisch Instituut in 1945, the Koninklijk Instituut voor de Tropen in 1950 and simply KIT in 2024; the museum has been the Wereldmuseum Amsterdam since 2023. The exterior is almost unchanged, and KIT itself now publishes a critical guide to it (Witness in Stone). Walk around the outside: over the main door on the park side is Jan Pieterszoon Coen, founder of Batavia and the man behind the killings on the Banda Islands in 1621. Along the Mauritskade, named Dutch "Golden Age" figures sit one floor below five nameless "ethnic types" from the archipelago. High on the former trade department a woman pans for gold, the only reference to Suriname in the building.
+
+    Look for:
+    - the portrait of Coen above the main entrance, between figures with a Buddha and a globe
+    - "Het daghet in den oosten" and "Het lichtet overal" over the side doors
+    - VOC shields with the mottoes "Ago quod ago" and "Est modus in rebus"
+    - the five Indonesian men above the second-floor windows, and the named Dutchmen below them
+    - the gold panner, too high to see without zooming in
+  category: hidden-history
+  lat: 52.36277
+  lng: 4.922686
+  address: Mauritskade 62-64 / Linnaeusstraat 2
+  links:
+    - { label: Rijksmonumentenregister (526987), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526987" }
+    - { label: Witness in Stone (KIT), url: "https://witnessinstone.kit.nl/" }
+    - { label: Getuige in Steen (KIT), url: "https://witnessinstone.kit.nl/nl/getuige-in-steen/" }
+    - { label: Wikipedia (nl) KIT, url: "https://nl.wikipedia.org/wiki/Koninklijk_Instituut_voor_de_Tropen" }
+    - { label: Wikipedia (nl) Wereldmuseum Amsterdam, url: "https://nl.wikipedia.org/wiki/Tropenmuseum" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "526987"
+    built: 1915–1926
+    architect: J.J. and M.A. van Nieukerken
+    original_use: Colonial institute and museum
+    artist: L.J. Vreugde, W.M. Retera, W.O.J. Nieuwenkamp and others
+    listed: 2003
+  photos:
+    - commons:File:Ingang Tropenmuseum.jpg
+    - commons:File:KIT of Tropenmuseum Amsterdam.JPG
+    - commons:File:Amsterdam - Koloniaal INstituut Hoofdingang - 1935.jpg
+    - commons:File:Koloniaal instituut met tram.jpg
+  sources:
+    - rce:526987 (register description)
+    - https://witnessinstone.kit.nl/introduction-entangled-in-history/
+    - https://witnessinstone.kit.nl/decoration/kit-main-entry/
+    - https://witnessinstone.kit.nl/decoration/five-indonesian-men/
+    - https://witnessinstone.kit.nl/decoration/surinamese-gold-prospector/
+    - https://nl.wikipedia.org/wiki/Koninklijk_Instituut_voor_de_Tropen
+    - https://nl.wikipedia.org/wiki/Tropenmuseum
+  nl:
+    title: Lees de gevel van het Koloniaal Instituut
+    summary: "In 1926 geopend wetenschappelijk instituut met museum, gebouwd voor kennis over de koloniën. Opvallend zijn de vele decoraties, bedacht door een Commissie voor de Symboliek. Sinds 2023 heet het museum Wereldmuseum Amsterdam, het instituut sinds 2024 KIT."
+    body: |
+      In 1910 namen dr. J.T. Cremer, oud-minister van koloniën, en het Tweede-Kamerlid dr. H.F.R. Hubrecht het initiatief tot verplaatsing naar Amsterdam van het 'Koloniaal Instituut' ter huisvesting van volkenkundige collecties en ter verzameling en verspreiding van kennis over de voormalige Nederlandse koloniën en de tropen. Het definitieve ontwerp werd in 1913 gemaakt door de architecten J.J. en M.A. van Nieukerken, in een rijke neorenaissance in Hollandse stijl. Begin 1915 gingen de bouwwerkzaamheden van start, maar de Eerste Wereldoorlog en financiële problemen veroorzaakten langdurige vertragingen. In 1926 werd het instituut geopend door koningin Wilhelmina. Opvallend aan en in het gebouw zijn de vele decoraties. Een speciale Commissie voor de Symboliek heeft zich hiermee bezig gehouden. Het meeste beeldhouwwerk is van de hand van J.L. Vreugde.
+
+      Ondanks latere wijzigingen is nog veel van de oorspronkelijke opzet bewaard gebleven, vooral in het rijk met beeldhouwwerk gedecoreerde exterieur. Het museum kreeg in 2023 de naam Wereldmuseum Amsterdam; in maart 2024 werd de naam van het instituut officieel gewijzigd in 'KIT'. Het KIT en het museum reflecteren met de online tour Getuige in Steen op deze symboliek: een tour door het koloniale verleden van het KIT aan de hand van veertien decoraties in en rondom het gebouw.
+
+      Let op:
+      - het portret van Jan Pieterszoon Coen boven de hoofdingang
+      - 'Het daghet in den oosten' en 'Het lichtet overal' boven de zijdeuren
+      - de VOC-wapens met 'Ago quod ago' en 'Est modus in rebus'
+      - de vijf Indonesische mannen boven de vensters van de tweede verdieping
+      - hoog op de gevel van de voormalige handelsafdeling een vrouw die goud wast
+    attributes:
+      built: 1915–1926
+      architect: J.J. en M.A. van Nieukerken
+      original_use: Koloniaal instituut en museum
+      artist: J.L. Vreugde, W.M. Retera, W.O.J. Nieuwenkamp e.a.
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526987
+      - https://witnessinstone.kit.nl/nl/getuige-in-steen/
+      - https://nl.wikipedia.org/wiki/Koninklijk_Instituut_voor_de_Tropen
+      - https://nl.wikipedia.org/wiki/Tropenmuseum
+
+- title: Metis Montessori Lyceum, 43 kinderen and Here Comes The Sun
+  summary: "Amsterdam's third HBS of 1902, still a school. In its courtyard 43 plates name the Jewish pupils who were forced out in the war, only seven of whom survived; on the new wing of 2018 a screen of 4,500 glass lenses throws coloured light."
+  body: |
+    H. Leguyt of Public Works designed the Derde HBS (third secondary school for boys) of 1902 around a courtyard, with its entrance cut into the corner, which was unusual. It became the Van der Waals lyceum in 1957, merged into the Amstellyceum in 1987 and into the Metis Montessori Lyceum in 2013. A renovation by Atelier PRO finished in 2018 added a wing behind the old building and moved the main entrance to the Oosterpark side.
+
+    In the Second World War 43 Jewish pupils of the school were forced to leave; most were murdered in camps in Poland and Germany, and only seven survived. In 1995, at the request of a former classmate, the artist Willem Henri Lucas made the monument *43 kinderen*: 43 plates with images of children's shoes, feet and enlarged photographs from the Hunger Winter, with the victims' names and dates of death at the bottom. It stands in the courtyard and was restored and unveiled again on 19 April 2023; it is school ground, so ask before going in. The new wing carries *Here Comes The Sun* by Chris Kabel (2018): 4,500 glass lenses and filters in black perforated sun screens that break and colour the light.
+
+    Look for:
+    - the entrance on the corner of the old school
+    - the lenses on the new wing, best on a sunny morning from the park
+    - the 43 plates in the courtyard, if you are let in
+  category: schools
+  lat: 52.361722
+  lng: 4.918821
+  address: Mauritskade 58-59
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/ef55bb9e-c795-4a0e-8815-09c2dc554f94" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/58-59" }
+    - { label: Stadscuratorium 43 kinderen, url: "https://stadscuratorium.nl/collectie/43-kinderen/" }
+    - { label: Stadscuratorium Here Comes The Sun, url: "https://stadscuratorium.nl/collectie/here-comes-the-sun/" }
+    - { label: 4 en 5 mei, 43 Kinderen, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200961"
+    built: "1902"
+    architect: H. Leguyt (Publieke Werken)
+    original_use: HBS (secondary school)
+    artist: Willem Henri Lucas (43 kinderen, 1995); Chris Kabel (Here Comes The Sun, 2018)
+    listed: 2022
+  photos:
+    - commons:File:2020 Mauritskade, Here comes the sun.jpg
+  sources:
+    - city:200961 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/58-59
+    - https://stadscuratorium.nl/collectie/43-kinderen/
+    - https://stadscuratorium.nl/collectie/here-comes-the-sun/
+    - https://www.parool.nl/amsterdam/metis-montessori-lyceum-herdenkt-holocaust (19 April 2023, facts only)
+  nl:
+    title: Metis Montessori Lyceum, 43 kinderen en Here Comes The Sun
+    summary: "Gebouwd als de derde HBS met vijfjarige cursus, nu het Metis Montessori Lyceum. Op de binnenplaats herinnert het monument '43 kinderen' aan de joodse leerlingen die de school moesten verlaten; op de nieuwe vleugel breken 4500 glazen lenzen het licht."
+    body: |
+      Deze school werd gebouwd als de derde HBS ("Hoogere Burgerschool") met vijfjarige cursus. Bij de school hoorden een conciërgewoning en een gymzaal. Het gebouw is opgetrokken rond een binnenplaats. Vrij bijzonder is dat voor de ingang een hoek werd gekozen. De HBS werd in 1957 omgezet in een lyceum: het Van der Waals-lyceum. Dat ging in 1987 op in het Amstellyceum, dat in 2013 fuseerde tot het huidige Metis Montessori Lyceum. In 2018 was een ingrijpende renovatie gereed, waarbij achter het oude pand een nieuwe vleugel werd gebouwd. Het gebouw is architectonisch van hoge kwaliteit, en is een goed voorbeeld uit het oeuvre van architect Leguyt.
+
+      Op de binnenplaats herinnert het monument '43 kinderen' van Willem Henri Lucas aan een zwarte bladzijde in de geschiedenis van de school. Tijdens de Tweede Wereldoorlog werden 43 joodse leerlingen gedwongen de school te verlaten, de meeste van hen eindigden in vernietigingskampen in Polen en Duitsland. Slechts zeven overleefden de oorlog. De 43 platen, met daarop afbeeldingen van kinderschoenen, voeten en uitvergrotingen van foto's gemaakt in de hongerwinter, staan symbool voor de weggevoerde kinderen. Onderaan zijn de namen en sterfdata van de slachtoffers aangebracht. Het monument bestaat sinds 1995; op 19 april 2023 werd het gerestaureerde monument onthuld. Op de gevel speelt licht een bijzondere rol: het kunstwerk van Chris Kabel (2018) bestaat uit 4500 glazen lenzen en filters die het licht breken en kleuren.
+
+      Let op:
+      - de ingang op de hoek van de oude school
+      - de lenzen op de nieuwe vleugel, het mooist in de zon vanuit het park
+      - de 43 platen op de binnenplaats (schoolterrein, vraag toestemming)
+    attributes:
+      built: "1902"
+      architect: H. Leguyt (Publieke Werken)
+      original_use: HBS
+      artist: Willem Henri Lucas (43 kinderen, 1995); Chris Kabel (Here Comes The Sun, 2018)
+    sources:
+      - https://data.amsterdam.nl/monumenten/ef55bb9e-c795-4a0e-8815-09c2dc554f94
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/58-59
+      - https://stadscuratorium.nl/collectie/43-kinderen/
+      - https://stadscuratorium.nl/collectie/here-comes-the-sun/
+
+- title: University labs on the Oosterpark (now hotels)
+  summary: "Two former laboratories of the municipal university on the park's north edge: the anatomy lab of 1907–08, later the Zoological Museum, and the hygiene lab of 1916, which also housed tropical hygiene for the Colonial Institute. Both are now hotels."
+  body: |
+    In the early 20th century the city's university built a row of medical laboratories between the Mauritskade and the Oosterpark, on ground freed from the old Oosterbegraafplaats. The first was the Ontleedkundig Laboratorium (anatomy lab) at no. 59B-61, designed by J.B. Springer of Public Works in 1907–08: a U-shaped building with a richly finished east wing that held a museum hall upstairs. Until 2011 it was the headquarters of the university's Zoological Museum. Since 2022 it is the Pillows Grand Boutique Hotel Maurits at the Park, with an extension by Office Winhov.
+
+    Next door at no. 57 stands the Laboratorium voor Gezondheidsleer (hygiene lab) of 1916, a robust, almost German design, probably shaped by J.M. van der Mey, then aesthetic adviser to Public Works. The Colonial Institute paid towards it and in return had its department of tropical hygiene on the first floor of the west wing. Building was slow: no contractor would build the first design for the city's price, and wartime shortages meant the heating only worked in 1917. The Zoological Museum later kept reptiles, fish and invertebrates here. The university left around 2013, and the building became the Generator hostel, with two new floors on top. The pin is on no. 57.
+
+    Look for:
+    - the wrought-iron work of the entrance at no. 57
+    - the plain middle pavilion and the richer east wing of the anatomy lab, seen from the park
+  category: schools
+  lat: 52.36076
+  lng: 4.918831
+  address: Mauritskade 57 and 59B-61
+  links:
+    - { label: Monumentenregister Amsterdam (57), url: "https://data.amsterdam.nl/monumenten/4b6ead38-76fb-4415-a343-42e18c4d44d0" }
+    - { label: Monumentenregister Amsterdam (61), url: "https://data.amsterdam.nl/monumenten/77f26377-6643-4728-98bf-9feccc1cd1bb" }
+    - { label: Amsterdam op de kaart (57), url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/57" }
+    - { label: Amsterdam op de kaart (61), url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/61" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200965, 200984
+    built: 1907–1908 (anatomy lab); 1915–1916 (hygiene lab)
+    architect: J.B. Springer (Publieke Werken); J.M. van der Mey probably involved at no. 57
+    original_use: University laboratories
+  photos:
+    - commons:File:2020 Mauritskade 57 (1).jpg
+    - commons:File:Oosterpark Generator Laboratorium voor de Gezondheidsleer foto 1.JPG
+    - commons:File:Pillows Hotel Maurits at the Park, Amsterdam - Gefotografeerd vanaf de grachtenkant.jpg
+    - commons:File:Pillows Hotel Maurits at the Park, Amsterdam - Gefotografeerd vanaf voorkant.jpg
+  sources:
+    - city:200965, 200984 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/57
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/61
+  nl:
+    title: Universiteitslaboratoria aan het Oosterpark
+    summary: "Twee voormalige laboratoria van de gemeentelijke universiteit aan de noordrand van het Oosterpark: het Ontleedkundig Laboratorium (1907–1908), later het Zoölogisch Museum, en het Laboratorium voor Gezondheidsleer (1916). Beide zijn nu hotels."
+    body: |
+      Het Ontleedkundig Laboratorium werd gebouwd door architect Springer namens Publieke Werken. Tot 2011 was dit de hoofdvestiging van het Zoölogisch Museum van de UvA. Het gebouw heeft een U-vormige plattegrond, met in het midden een uitbouw. Opmerkelijk is het verschil in architectonische uitwerking van de vleugels aan de achterzijde. Het middelste paviljoen is uiterst sober gehouden, terwijl de westelijke vleugel verzorgd en de oostelijke vleugel rijk is uitgevoerd; deze laatste vleugel had een museumzaal op de verdieping. De verbouwing tot hotel inclusief een aanbouw werd ontworpen door bureau Office Winhov. Het "Pillows Grand Boutique Hotel Maurits at the Park" opende in 2022 de deuren.
+
+      Het Laboratorium voor de Gezondheidsleer werd later gebruikt door het Zoölogisch Museum, dat hier reptielen, amfibieën, vissen en ongewervelde dieren had ondergebracht. Hier was vanaf de opening ook lange tijd de afdeling Tropische Hygiëne van het Koloniaal Instituut gehuisvest. De bouw verliep moeizaam: geen enkele aannemer kon het werk uitvoeren tegen het bedrag dat de gemeente bereid was te betalen. De materiaalschaarste tijdens WO I leidde ertoe dat de verwarming pas in 1917 in werking kon worden gesteld. Waarschijnlijk was J.M. van der Mey ook betrokken bij het ontwerp. De universiteit verliet het gebouw rond 2013; het is verbouwd tot hotel, het Generator Hostel. De speld staat op nummer 57.
+
+      Let op:
+      - het siersmeedwerk van de ingangspartij van nummer 57
+      - het sobere middenpaviljoen en de rijke oostvleugel van het Ontleedkundig Laboratorium
+    attributes:
+      built: 1907–1908 (ontleedkundig lab); 1915–1916 (lab gezondheidsleer)
+      architect: J.B. Springer (Publieke Werken); waarschijnlijk J.M. van der Mey bij nr. 57
+      original_use: Universiteitslaboratoria
+    sources:
+      - https://data.amsterdam.nl/monumenten/4b6ead38-76fb-4415-a343-42e18c4d44d0
+      - https://data.amsterdam.nl/monumenten/77f26377-6643-4728-98bf-9feccc1cd1bb
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/57
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/61
+
+- title: Open-air school for sick children
+  summary: "Amsterdam's second open-air school, built in the park in 1931 for children with lung and airway illnesses. Lessons were held outside as much as possible, and every afternoon the children slept for an hour on beds on the terrace."
+  body: |
+    The open-air school movement held that sick, weak children got better with fresh air, sun and rest. Amsterdam's first open-air school stood in the Frederiksstraat by the Vondelpark (1925); this was the second, built by Public Works in 1931 right inside the Oosterpark, after the park's playground was moved west to make room. Children with airway illnesses were sent here on a doctor's orders, usually for a year, and then returned to ordinary schools. All classrooms opened onto a terrace, lessons were given outdoors whenever possible, and after lunch the children slept an hour on beds and cots in the open air. The dining room had a fresco of Snow White.
+
+    The cosy, rural look was criticised from the start, because the strikingly modern open-air school in the Cliostraat had just opened. After the war it became a school for long-term sick children, named W.B. Noteboomschool in 1967 after a former head. The school moved to Zuidoost in 2003, and the building is now offices. In the 2014–15 park renovation the playground came back to its old spot next door.
+
+    Look for:
+    - the long terrace where the classrooms open onto the park
+    - the stained-glass windows of the stairwell
+    - the playground beside it, back where it was before 1931
+  category: schools
+  lat: 52.361036
+  lng: 4.918124
+  address: Mauritskade 56
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9d34e9d5-2154-4347-b3d9-8f25394f2db1" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/56" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200449"
+    built: "1931"
+    architect: Publieke Werken
+    original_use: Open-air school for sick children
+    listed: 2001
+  photos:
+    - commons:File:2020 Mauritskade 56, Amsterdam (1).jpg
+    - commons:File:10-04-1950 08261 Openluchtschool (4077347449).jpg
+    - commons:File:2020 Mauritskade 56, Amsterdam (2).jpg
+  sources:
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/56
+  nl:
+    title: Openluchtschool voor het Zieke Kind
+    summary: "Voormalige openbare Openluchtschool voor het Zieke Kind, de tweede in Amsterdam, in 1931 in het Oosterpark gebouwd. Er werd zoveel mogelijk buiten les gegeven. Elke middag sliepen de kinderen een uurtje, op bedden of britsen op het terras."
+    body: |
+      Voormalige openbare Openluchtschool voor het Zieke Kind, de tweede in Amsterdam. De eerste stond in de Frederiksstraat aan het Vondelpark en werd gebouwd in 1925. Voor de bouw van deze school werd de speeltuin van het Oosterpark een stuk naar het westen verplaatst. De bouwstijl doet wat landelijk aan, wellicht om het 'buiten'-karakter van de school te benadrukken. De stijl werd meteen bekritiseerd, onder verwijzing naar de veel modernere openluchtschool in de Cliostraat die toen net geopend was.
+
+      Kinderen met aandoeningen aan de luchtwegen werden hier op aanwijzing van een arts naar toe gestuurd, meestal voor een jaar. Daarna keerden ze terug naar gewone lagere scholen. Er werd zoveel mogelijk buiten les gegeven. Elke middag sliepen de kinderen een uurtje, op bedden of britsen op het terras. Na de Tweede Wereldoorlog werd het een school voor langdurig zieke kinderen. In 1967 werd de naam W.B. Noteboomschool ingevoerd, naar een voormalig hoofd van de school. In 2003 kreeg de school een nieuwe locatie, in Zuidoost. Het gebouw is nu in gebruik als kantoor. Bij de renovatie van het park in 2014-2015 keerde de speeltuin terug naar de oude locatie naast dit gebouw.
+
+      Let op:
+      - het terras waar alle klaslokalen aan lagen
+      - het trappenhuis met glas-in-loodramen
+      - de speeltuin ernaast, terug op de oude plek
+    attributes:
+      built: "1931"
+      architect: Publieke Werken
+      original_use: Openluchtschool voor het zieke kind
+    sources:
+      - https://data.amsterdam.nl/monumenten/9d34e9d5-2154-4347-b3d9-8f25394f2db1
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/56
+
+- title: Mauritskade 23 and 24, the Jewish Kweekschool
+  summary: "Two schools of 1891 side by side on the Mauritskade. The HBS at no. 23 gave no lessons on Saturday because so many pupils were Jewish; in the war no. 24 housed the Joodse Kweekschool, the Jewish Council's education department and a segregated Jewish HBS."
+  body: |
+    Public Works built both schools in 1891, facing the Singelgracht. No. 23 (Sajetplein 98-100) was the fourth public HBS for boys, with a three-year course; an owl and "Anno 1892" sit in its pediment. Because of its many Jewish pupils it was the one HBS in the city that held no lessons on Saturday. In 1938 Amsterdam's first Montessori ULO started here. Since 1995 the building holds artists' studios and homes.
+
+    No. 24 began as public primary school no. 62 and later held the Coornhert school and two girls' schools, named after Thérèse Schwartze and Aletta Jacobs. In the Second World War, after the occupier forced Jewish children and teachers into separate schools, it became the Joodse Kweekschool: Jewish students were trained in one year to teach at those schools. The education department of the Jewish Council and a segregated Jewish HBS were also here. After the war came a Reformed MULO, a public mavo and from 1977 De Werkschuit, a creative centre that began on a barge in the Amstel; courses run by MK24 have continued since 2004. The pin is on no. 24.
+
+    Look for:
+    - the owl and "Anno 1892" in the pediment of no. 23
+    - the third floor added to no. 24 in 1898
+  category: hidden-history
+  lat: 52.361247
+  lng: 4.914833
+  address: Mauritskade 23-24
+  links:
+    - { label: Monumentenregister Amsterdam (23), url: "https://data.amsterdam.nl/monumenten/e8bc96c2-cf1d-42d8-a3f8-709e18bf0c3d" }
+    - { label: Monumentenregister Amsterdam (24), url: "https://data.amsterdam.nl/monumenten/b0917e3f-aafb-4da7-929e-ae2d34bfd94a" }
+    - { label: Amsterdam op de kaart (23), url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/23" }
+    - { label: Amsterdam op de kaart (24), url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/24" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200640, 200641
+    built: "1891"
+    architect: Publieke Werken
+    original_use: HBS for boys (23) and public primary school no. 62 (24)
+    listed: 2012
+  photos:
+    - commons:File:De vierde HBS met driejarige cursus, Mauritskade 23, gezien over de Singelgracht, Afb ANWZ00468000001.jpg
+    - commons:File:Boerhaaveschool Mauritskade 24 te Amsterdam, Bestanddeelnr 901-6630.jpg
+  sources:
+    - city:200640, 200641 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/23
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/24
+  nl:
+    title: Mauritskade 23 en 24, de Joodse Kweekschool
+    summary: "Twee scholen uit 1891 naast elkaar aan de Mauritskade. Op de HBS van nummer 23 werd vanwege de vele joodse leerlingen op zaterdag geen les gegeven; in de oorlog zaten op nummer 24 de Joodse Kweekschool, de afdeling Onderwijs van de Joodse Raad en een Joodse HBS."
+    body: |
+      Nummer 23 werd gebouwd als vierde openbare HBS met driejarige cursus voor jongens. In het fronton staan een uil en "Anno 1892". Vanwege de vele joodse leerlingen werd hier op zaterdag geen les gegeven, in tegenstelling tot andere HBS'en. In 1938 kwam hier de eerste Montessori-ULO van Amsterdam. Het gebouw werd in 1995 verbouwd tot ateliers en woningen.
+
+      Nummer 24 was oorspronkelijk openbare lagere school nr. 62. In 1898 werd een verdieping toegevoegd. De school heeft in de loop der jaren bekend gestaan onder de namen Coornhertschool, Thérèse Schwartzeschool en Aletta Jacobsschool. Tijdens de Tweede Wereldoorlog was hier de Joodse Kweekschool gevestigd. Daar werden Joodse studenten in één jaar klaargestoomd om les te kunnen geven aan de aparte Joodse scholen die de bezetter had ingesteld. Ook de afdeling Onderwijs van de Joodse Raad was hier gevestigd, evenals een gesegregeerde Joodse HBS. In 1977 kwam hier stichting De Werkschuit, een centrum voor creativiteitsontwikkeling dat in 1950 was begonnen op een schuit in de Amstel. Sinds 2004 worden de cursussen aangeboden door de stichting MK24. De speld staat op nummer 24.
+
+      Let op:
+      - de uil en "Anno 1892" in het fronton van nummer 23
+      - de in 1898 toegevoegde derde bouwlaag van nummer 24
+    attributes:
+      built: "1891"
+      architect: Publieke Werken
+      original_use: HBS voor jongens (23) en openbare lagere school nr. 62 (24)
+    sources:
+      - https://data.amsterdam.nl/monumenten/e8bc96c2-cf1d-42d8-a3f8-709e18bf0c3d
+      - https://data.amsterdam.nl/monumenten/b0917e3f-aafb-4da7-929e-ae2d34bfd94a
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/23
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/24
+
+- title: Het begon met een dubbeltje
+  summary: "A brick 'type case' on the end wall of the Dubbeltjespanden, filled with aluminium silhouettes from the history of these 1870s workers' houses, from an aeroplane to an elephant. Some slots are left empty for stories still to come."
+  body: |
+    The 28 small houses at Mauritskade 29-54, two rows on a lane at right angles to the quay, were the first project of the Bouwmaatschappij tot Verkrijging van Eigen Woningen (founded 1868). Members paid a *dubbeltje* (ten cents) a week, hoping to buy their own homes one day; that aim was never reached, but the name Dubbeltjespanden stuck. The first stone was laid in November 1870 by the doctor, temperance campaigner and pacifist H. Zeeman, and the houses went up in small blocks until 1886. They are counted among the first social housing projects in the city and now belong to De Key.
+
+    In December 2013 the artist Marjet Wessels Boer added *Het begon met een dubbeltje* (It started with a dime) to the end wall: a bricked grid like a printer's type case, filled with aluminium silhouettes of personal and historical stories she collected about the houses and their residents. A few slots are deliberately empty, waiting for the future.
+
+    Look for:
+    - the silhouettes, and the empty slots
+    - the two low rows of houses behind, a world away from the hotel next door
+  category: street-art
+  lat: 52.361741
+  lng: 4.917055
+  address: Mauritskade 29-54
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/het-begon-met-een-dubbeltje/" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/29-54" }
+  attributes:
+    rank: Okay
+    built: 1870–1886 (houses); 2013 (artwork)
+    artist: Marjet Wessels Boer
+    original_use: Workers' housing
+  photos:
+    - commons:File:Kunstwerk bij de Dubbeltjespanden aan de Mauritskade.jpg
+    - commons:File:De Dubbeltjespanden aan de Mauritskade.jpg
+    - commons:File:03Hetbegonmeteendubbeltje StudioWesselsBoer.jpg
+  sources:
+    - https://stadscuratorium.nl/collectie/het-begon-met-een-dubbeltje/
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/29-54
+  nl:
+    title: Het begon met een dubbeltje
+    summary: "Kunstenaar Marjet Wessels Boer verzamelde verhalen over de Dubbeltjespanden aan de Mauritskade en vertaalde die in aluminium silhouetten, van vliegtuig tot olifant. Een aantal vakken bleef open, wachtend op verhalen uit de toekomst."
+    body: |
+      Twee rijtjes met arbeiderswoningen, gelegen aan een straatje haaks op de Mauritskade. Het zijn 28 kleine huizen met beneden- en bovenwoningen. Ze staan bekend als Dubbeltjeswoningen, omdat de huurders elke week met een dubbeltje spaarden voor de aankoop van de woningen. Het was het eerste project van de Bouwmaatschappij tot Verkrijging van Eigen Woningen. De doelstelling die in die naam ligt, is overigens nooit bereikt. De eerste steen werd in november 1870 gelegd door H. Zeeman, een arts, bestrijder van drankmisbruik, vrijmetselaar en pacifist.
+
+      Kunstenaar Marjet Wessels Boer verdiepte zich in de geschiedenis van deze panden en verzamelde persoonlijke en historische verhalen over de Dubbeltjespanden en vertaalde die in aluminium silhouetten. Het is een bonte verzameling, van vliegtuig tot olifant. De silhouetten schetsen een geschiedenis van een bijzondere plek in de stad. Een geschiedenis die nog niet ten einde is: niet voor niets liet de kunstenaar een aantal vakken open, wachtend op verhalen uit de toekomst.
+
+      Let op:
+      - de silhouetten, en de lege vakken
+      - de twee lage rijtjes huizen erachter
+    attributes:
+      built: 1870–1886 (huizen); 2013 (kunstwerk)
+      artist: Marjet Wessels Boer
+      original_use: Arbeiderswoningen
+    sources:
+      - https://stadscuratorium.nl/collectie/het-begon-met-een-dubbeltje/
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/29-54
+
+# ================================================================ In the park
+
+- title: Oosterpark and its music dome
+  summary: "A landscape park laid out by Leonard Springer on the site of the old Oosterbegraafplaats and opened in 1894. Its iron music dome came later, after neighbourhood choirs and bands asked for one; the pond was dug big enough for skating."
+  body: |
+    The park was already in Kalff's extension plan of 1876, but first the Oosterbegraafplaats (eastern cemetery) had to move to the Watergraafsmeer. Leonard Springer won the closed competition in 1891 with an English landscape design of winding paths, a long pond and small bridges, and the park was ready in June 1894. He made the pond large on purpose, so skaters had room in winter, and planned a music dome nearby to add music to the winter fun. The big lawn in the west was meant for cricket. In 1916, when common graves on the old cemetery could finally be cleared, the north edge was redesigned and the university labs and the Colonial Institute rose there; private graves were only cleared in 1957, making way for the paddling pool.
+
+    The octagonal iron music dome stands on a high base with a tent roof. Neighbourhood societies (the Vereeniging buiten de Muiderpoort, the male choir Euterpe and two bands) asked the city for it in 1903 and 1905; it was approved in 1907 and built by the Utrechtsche Machinefabriek to a Public Works design. The city dates the present dome to 1916, possibly replacing an earlier one. The park was renovated in 2014–15. The pin is on the dome.
+
+    Look for:
+    - the dome's iron trusses and wreath of sloping roof planes
+    - the long pond and its bridges
+    - Jan Wolkers' Monument voor de Tachtigers and the stone for police dog Albert
+  category: green
+  lat: 52.360935
+  lng: 4.922044
+  address: Oosterpark
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c5b7a7d1-4e98-477c-980e-befb4af49d53" }
+    - { label: Amsterdam op de kaart (park), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/park" }
+    - { label: Amsterdam op de kaart (dome), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Muziektent" }
+    - { label: Wikipedia (nl) Oosterpark, url: "https://nl.wikipedia.org/wiki/Oosterpark_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200643"
+    built: 1891–1894 (park); about 1916 (music dome)
+    architect: L.A. Springer (park); Publieke Werken and Utrechtsche Machinefabriek (dome)
+    original_use: City park and bandstand
+    listed: 2012
+  photos:
+    - commons:File:2019 Muziekkoepel Oosterpark (1).jpg
+    - commons:File:Muziektent Oosterpark, Amsterdam.jpg
+    - commons:File:2020 Muziekkoepel Oosterpark (1).jpg
+    - commons:File:Oosterpark5.jpg
+    - commons:File:2020 Monument voor de Tachtigers (1).jpg
+  sources:
+    - city:200643 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/park
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Muziektent
+    - https://nl.wikipedia.org/wiki/Oosterpark_(Amsterdam)
+  nl:
+    title: Oosterpark en muziekkoepel
+    summary: "Stadspark in Engelse landschapsstijl van Leonard Springer, in juni 1894 gereed, op de plek van de Oosterbegraafplaats. De muziekkoepel kwam er op verzoek van buurtverenigingen; de vijver werd groot gemaakt voor de schaatsers."
+    body: |
+      Dat op deze plek een park zou komen, was al voorzien in het uitbreidingsplan van PW-directeur Kalff uit 1876. Voor de aanleg van het park moest de Oosterbegraafplaats verhuizen naar de huidige locatie in de Watergraafsmeer. Voor het ontwerp schreef de gemeente een besloten prijsvraag uit, die gewonnen werd door Leonard Springer (1855-1940). Springer tekende (1891) een stadspark in Engelse landschapsstijl, met slingerende paden, een lange vijver en charmante bruggetjes. In juni 1894 was het park gereed. Springer maakte de vijver vrij groot, om 's winters voldoende ruimte te kunnen bieden aan schaatsers. De nabijgelegen muziektent zou dan gelegenheid bieden om het wintervermaak met muziek op te luisteren. Het grote grasveld in het westen was bedoeld als cricketveld.
+
+      De muziekkoepel heeft een achtzijdige plattegrond en bestaat uit een hoge sokkel met daarop een open muziekruimte met een tentdak dat wordt gedragen door ijzeren spanten. De koepel kwam er op verzoek van enkele buurtverenigingen, waaronder de mannenzangvereniging "Euterpe". Zij richtten zich in 1903 en 1905 tot het gemeentebestuur met het verzoek een muziektent te bouwen. In 1907 werd het verzoek ingewilligd, en een paar jaar later werd de ijzeren tent gebouwd, door de Utrechtsche Machinefabriek naar een ontwerp van Publieke Werken. Het gemeentelijke bureau Monumenten en Archeologie dateert de tent op 1916. In 2014/2015 werd het park gerenoveerd. De speld staat op de koepel.
+
+      Let op:
+      - de ijzeren spanten en de krans van dakschilden van de koepel
+      - de lange vijver met bruggetjes
+      - het Monument voor de Tachtigers van Jan Wolkers en de steen voor politiehond Albert
+    attributes:
+      built: 1891–1894 (park); ca. 1916 (muziekkoepel)
+      architect: L.A. Springer (park); Publieke Werken en Utrechtsche Machinefabriek (koepel)
+      original_use: Stadspark en muziektent
+    sources:
+      - https://data.amsterdam.nl/monumenten/c5b7a7d1-4e98-477c-980e-befb4af49d53
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/park
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Muziektent
+
+- title: National Slavery Monument and Keti Koti
+  summary: "Erwin de Vries' bronze group, unveiled in 2002, moves from chained slaves to a figure breaking free. Every 1 July, Keti Koti, the abolition of slavery in 1863 is commemorated here, and in the days before, the community dresses the statues."
+  body: |
+    The monument came from the descendants themselves: the Surinamese women's association Sophiedela petitioned parliament, and the Landelijk Platform Slavernijverleden under Barryl Biekman pushed politicians to act. Erwin de Vries won the competition with a figurative group that descendants would recognise: a chained group for the past, a slave breaking free for the present, and a large rising figure for the future. Amsterdam was chosen over The Hague, and within the Oosterpark the south-west corner, because there the risk of finding remains of the old cemetery was smallest.
+
+    Queen Beatrix unveiled it on 1 July 2002, in a tense year after the murder of Pim Fortuyn. Only invited guests could get close, while the mostly Surinamese and Antillean public was kept behind crowd barriers, which caused anger and frustration. Since then the monument has become the centre of Keti Koti ("broken chains"), the yearly commemoration on 1 July of the abolition of slavery by the Netherlands in 1863, with a libation for the ancestors. In the days before, the Surinamese community dresses the statues. A National Slavery Museum is planned at the head of the Java-eiland; in October 2026 its opening was pushed back to 2033, and the city is looking for a temporary home.
+
+    Look for:
+    - the three parts of the group, from chained to free
+    - in late June and early July, the statues dressed in cloth and flowers
+  category: hidden-history
+  lat: 52.358655
+  lng: 4.917908
+  address: Oosterpark, south-west corner
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/het-nationaal-monument-slavernijverleden/" }
+    - { label: Wikipedia (nl) Nationaal Monument Slavernijverleden, url: "https://nl.wikipedia.org/wiki/Nationaal_Monument_Slavernijverleden" }
+    - { label: Wikipedia (nl) Nationaal Slavernijmuseum, url: "https://nl.wikipedia.org/wiki/Nationaal_Slavernijmuseum" }
+    - { label: Wikipedia (en) National Slavery Monument, url: "https://en.wikipedia.org/wiki/National_Slavery_Monument" }
+  attributes:
+    rank: Amazing
+    built: "2002"
+    artist: Erwin de Vries
+    original_use: Monument
+  photos:
+    - commons:File:Slavernijmonument in Oosterpark Amsterdam.jpg
+    - commons:File:2025 Nationaal Monument Slavernijverleden, Asd (I).jpg
+    - commons:File:Erwin de Vries - Nationaal Monument Slavernijverleden 1.jpg
+    - commons:File:2026 Nationaal Monument Slavernijverleden.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Nationaal_Monument_Slavernijverleden
+    - https://stadscuratorium.nl/collectie/het-nationaal-monument-slavernijverleden/
+    - https://nl.wikipedia.org/wiki/Nationaal_Slavernijmuseum
+    - news on the museum delay, 22 October 2026 (facts only)
+  nl:
+    title: Nationaal Monument Slavernijverleden en Keti Koti
+    summary: "Het monument van Erwin de Vries in het Oosterpark, onthuld op 1 juli 2002, is een plek voor bezinning en herdenking aan het Nederlandse trans-Atlantisch slavernijverleden. Elk jaar op 1 juli, Keti Koti, wordt hier de afschaffing van de slavernij in 1863 herdacht."
+    body: |
+      Initiatief tot plaatsing kwam van het Landelijk Platform Slavernijverleden (LPS), onder aanvoering van Barryl Biekman. Het platform bouwde verder op het werk van de Surinaamse vrouwenvereniging Sophiedela, die een petitie had aangeboden aan de Tweede Kamer. De beeldengroep van Erwin de Vries kwam als winnaar van een wedstrijd onder kunstenaars. De Vries: van het verleden heb ik een geketende slavengroep gemaakt, van het heden een slaaf die vrijkomt. Uit een lijst waarop de Dam, het West-Indisch Huis, het Stenen Hoofd en Amsterdam-Zuidoost voorkwamen, viel de keus op het Oosterpark. Er werd uiteindelijk gekozen voor de zuidwesthoek van het park, waar de kans het kleinst was op restanten van de begraafplaats.
+
+      Koningin Beatrix verrichtte de onthulling op 1 juli 2002. Een kleine groep genodigden kon het beeld benaderen, terwijl belangstellenden door middel van dranghekken op afstand werden gehouden. De wijze waarop leidde tot frustratie en woede bij het merendeels Surinaamse en Antilliaanse publiek. Bij het monument vindt jaarlijks op 1 juli een bijeenkomst plaats, ter herdenking van de afschaffing van de slavernij door Nederland op 1 juli 1863 (Keti Koti). In de dagen voor 1 juli, Keti Koti, het verbreken van de ketenen, worden de beelden van Erwin de Vries aangekleed door de Surinaamse gemeenschap in Amsterdam. Op de kop van het Java-eiland komt het Nationaal Slavernijmuseum, dat in oprichting is.
+
+      Let op:
+      - de drie delen van de groep, van geketend naar vrij
+      - eind juni en begin juli de aangeklede beelden
+    attributes:
+      built: "2002"
+      artist: Erwin de Vries
+      original_use: Monument
+    sources:
+      - https://nl.wikipedia.org/wiki/Nationaal_Monument_Slavernijverleden
+      - https://stadscuratorium.nl/collectie/het-nationaal-monument-slavernijverleden/
+      - https://nl.wikipedia.org/wiki/Nationaal_Slavernijmuseum
+
+- title: De Schreeuw and the murder of Theo van Gogh
+  summary: "A 4.5 m steel profile that screams on one side and has its mouth shut on the other, unveiled in 2007 near the spot on the Linnaeusstraat where the film-maker and columnist Theo van Gogh was murdered on 2 November 2004."
+  body: |
+    On the morning of 2 November 2004, around half past eight, Theo van Gogh was cycling to work along the Linnaeusstraat. Near the Oost district office, Mohammed Bouyeri shot him from his own bicycle, then cut his throat and stabbed a letter to his body with a knife. Bouyeri fled through the Oosterpark, was shot in the leg by police after a brief gunfight and was arrested; in July 2005 he was sentenced to life imprisonment, and the court treated the killing as an act of terror. The murder, linked to the Hofstad group, shook the country and its debate on free speech and Islam. Each year on 2 November a small commemoration is held at the spot on the Linnaeusstraat, diagonally across from Hotel The Manor.
+
+    Jeroen Henneman's monument stands on the edge of the park, not far away: a 4.5 m stylised profile of thermally blasted stainless steel, screaming on one side and showing a closed mouth on the other. It is about freedom of expression and how Van Gogh was silenced. His sisters unveiled it on 19 March 2007 before about a thousand people; Hans Teeuwen closed with a song for free speech.
+
+    Look for:
+    - the two faces of the profile, screaming and silent
+    - the Linnaeusstraat beyond the park edge, where the murder took place
+  category: hidden-history
+  lat: 52.359588
+  lng: 4.922365
+  address: Oosterpark, by the Linnaeusstraat
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/de-schreeuw/" }
+    - { label: Wikipedia (nl) De Schreeuw, url: "https://nl.wikipedia.org/wiki/De_Schreeuw_(beeld)" }
+    - { label: Wikipedia (nl) Moord op Theo van Gogh, url: "https://nl.wikipedia.org/wiki/Moord_op_Theo_van_Gogh" }
+    - { label: Wikipedia (en) Murder of Theo van Gogh, url: "https://en.wikipedia.org/wiki/Murder_of_Theo_van_Gogh" }
+  attributes:
+    rank: Nice
+    built: "2007"
+    artist: Jeroen Henneman
+    original_use: Monument
+  photos:
+    - commons:File:2020 De Schreeuw (01).jpg
+    - commons:File:De Schreeuw - Amsterdam.jpg
+    - commons:File:2020 De Schreeuw (04).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/De_Schreeuw_(beeld)
+    - https://nl.wikipedia.org/wiki/Moord_op_Theo_van_Gogh
+    - https://stadscuratorium.nl/collectie/de-schreeuw/
+    - https://oost-online.nl (Twintig jaar geleden in de Linnaeusstraat, 3 November 2024, facts only)
+  nl:
+    title: De Schreeuw en de moord op Theo van Gogh
+    summary: "De Schreeuw is een monument ter nagedachtenis aan regisseur, televisiemaker, columnist en opiniemaker Theo van Gogh. Het staat aan de rand van het Oosterpark, dicht bij de plaats waar Van Gogh op 2 november 2004 door Mohammed Bouyeri werd vermoord."
+    body: |
+      Op dinsdag 2 november 2004 fietste Van Gogh om half negen 's ochtends door de Linnaeusstraat te Amsterdam, op weg naar zijn werk. Toen hij voorbij het stadsdeelkantoor Oost/Watergraafsmeer reed, werd hij door Mohammed Bouyeri vanaf zijn fiets onder vuur genomen. Bouyeri vluchtte daarna door het Oosterpark en werd dezelfde dag na een kort vuurgevecht door de politie aangehouden. Hij werd veroordeeld tot een levenslange gevangenisstraf wegens moord. De aanslag op het leven van Theo van Gogh werd door de rechtbank beschouwd als een terroristische daad.
+
+      Het 4,5 meter hoge thermisch gestraalde roestvaststalen beeld van Jeroen Henneman heeft de vorm van een gestileerd profiel van een gezicht dat aan de ene kant schreeuwt en aan de andere kant een gesloten mond toont. Het werk toont de spanning en complexiteit van het thema de vrijheid van meningsuiting en hoe Van Gogh de mond werd gesnoerd. Het monument werd op 19 maart 2007 onthuld door de zussen van Theo van Gogh, Jantine en Josien van Gogh, in aanwezigheid van hun vader Johan van Gogh en een kleine duizend belangstellenden. Cabaretier Hans Teeuwen sloot de bijeenkomst af met een lied voor het vrije woord.
+
+      Let op:
+      - de twee kanten van het profiel: schreeuwend en zwijgend
+      - de Linnaeusstraat aan de rand van het park, de plaats van de moord
+    attributes:
+      built: "2007"
+      artist: Jeroen Henneman
+      original_use: Monument
+    sources:
+      - https://nl.wikipedia.org/wiki/De_Schreeuw_(beeld)
+      - https://nl.wikipedia.org/wiki/Moord_op_Theo_van_Gogh
+      - https://stadscuratorium.nl/collectie/de-schreeuw/
+
+# ================================================================ South side of the Oosterpark
+
+- title: Witsenhuis
+  summary: "A studio house of 1884 with blank stone blocks over its doors, built for a sculptor who died before he could carve them. Breitner, Isaac Israëls and Willem Witsen worked here, Verlaine stayed here, and since 1943 writers live in the top floors."
+  body: |
+    The builder Marinus Leembruggen had Ed. Cuypers design this house for the sculptor Eduard Roskam, who never moved in. That is why the natural stone blocks above the two entrances were never carved: you can still make out a rough cornice and consoles waiting for a chisel. Leembruggen split the very tall sculptor's workshop with a floor, giving two studios. George Breitner (1887–1893), Isaac Israëls and Hendrik Haverman worked in them.
+
+    The painter, etcher and photographer Willem Witsen lived and worked here in 1891–93 and from 1904 until his death in 1923, and the house became a meeting place of the Tachtigers, the writers and painters of the 1880s movement. The French poet Paul Verlaine stayed with Witsen in November 1892. Witsen's widow, Augusta Schorr, bought the whole building and left it to the State in 1943, on condition that the top two floors would house writers and their families. J.C. Bloem and Marga Minco lived here; Minco wrote *Het bittere kruid* in the house. The ground floor studio with Witsen's interior is now a small museum that can be visited by appointment only.
+
+    Look for:
+    - the uncarved stone blocks above both doors
+    - the very tall studio window in the middle, with the inserted floor showing halfway up
+    - the plaque for Witsen by the door
+  category: hidden-history
+  lat: 52.359586
+  lng: 4.924158
+  address: Oosterpark 82
+  links:
+    - { label: Rijksmonumentenregister (526984), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526984" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Witsenhuis" }
+    - { label: Wikipedia (nl) Witsenhuis, url: "https://nl.wikipedia.org/wiki/Witsenhuis" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "526984"
+    built: 1884–1886
+    architect: Ed. Cuypers
+    original_use: Studio house
+    listed: 2004
+  photos:
+    - commons:File:Oosterpark 82, Willem Witsenhuis.jpg
+    - commons:File:Oosterpark 82 left door.JPG
+    - commons:File:Interieur Witsenhuis.JPG
+    - commons:File:Oosterpark 82 plaque.JPG
+  sources:
+    - rce:526984 (register description)
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Witsenhuis
+    - https://nl.wikipedia.org/wiki/Witsenhuis
+  nl:
+    title: Witsenhuis
+    summary: "Een in 1884 tot stand gekomen atelierwoning, gebouwd voor de beeldhouwer Roskam, die er nooit kwam wonen; daarom zijn de blokken natuursteen boven de deuren onbewerkt gebleven. Vanaf 1891 woonhuis en atelier van Willem Witsen, nu woonruimte voor schrijvers."
+    body: |
+      Opdrachtgever was de bouwondernemer Marinus Leembruggen. Het huis was bedoeld voor de beeldhouwer Eduard Roskam. Die is er nooit komen wonen; daarom zijn de blokken natuursteen boven de deuren onbewerkt gebleven. Hierin laten zich delen van een kroonlijst en ruwe consoles onderscheiden. Leembruggen liet in het hoge beeldhouwersatelier een tussenverdieping maken zodat er twee ateliers ontstonden. Enkele gebruikers van de ateliers: George Breitner (1887-1893), Isaac Israëls (1888 - circa 1904), Hendrik Haverman.
+
+      Het Witsenhuis was vanaf 1891 woonhuis en atelier van de schilder en fotograaf Willem Witsen (Amsterdam 1860 - 1923). Het was een trefpunt van de kunstenaars van de Tachtigers-beweging. Witsen zelf woonde en werkte er van 1891 tot 1893 en van 1904 tot zijn dood in 1923. Een jaar na Witsens dood kocht zijn weduwe A.M. Schorr het gehele pand. Witsen-Schorr liet het huis bij haar overlijden in 1943 na aan de Staat, met de bepaling dat de beide bovenste etages zouden worden ingericht voor bewoning door schrijvers en hun gezinnen. Diverse schrijvers hebben er nadien gewoond, waaronder J.C. Bloem en Marga Minco. Zij schreef er "Het bittere kruid".
+
+      Let op:
+      - de onbewerkte blokken natuursteen boven beide deuren
+      - de zeer hoge vensterpartij in het midden, met halverwege de tussenvloer
+      - de gedenkplaat voor Witsen
+    attributes:
+      built: 1884–1886
+      architect: Ed. Cuypers
+      original_use: Atelierwoning
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526984
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Witsenhuis
+      - https://nl.wikipedia.org/wiki/Witsenhuis
+
+- title: Barmat house
+  summary: "Two houses of 1888 merged in 1921–22 by Harry Elte for Julius Barmat, a Jewish businessman whose bribery scandal shook Weimar Germany. His name is still worked into the ironwork of the front door."
+  body: |
+    Julius Barmat was born in Ukraine in 1889 and came to the Netherlands in 1908. During and after the First World War he made a fortune exporting food to Germany. He lived here from 1917 to mid-1924, and had Harry Elte, best known for the synagogue on the Jacob Obrechtplein, join two existing houses into one, with a new plastered front and an interior worked out down to the door handles. Barmat's Dutch socialist contacts introduced him to German socialists who helped him to government contracts and loans. When his family's currency speculation collapsed in 1924, the Prussian State Bank lost millions, and German prosecutors found that politicians had been bribed. The "Barmat scandal" ended careers and was eagerly used by the antisemitic German press, and later by the Nazis. Barmat was sentenced in 1928 to eleven months. Extradited to Belgium in 1937 over bank fraud, he died in a Brussels cell in 1938 and was buried at the Jewish cemetery of Muiderberg.
+
+    The house stood empty for years, was a Christian HBS from 1931 to 1960 and is now offices. The panelling, built-in furniture, lamps and stained glass are unusually intact.
+
+    Look for:
+    - the letters JWBARMAT in the wrought iron of the main door
+    - the grooved plaster facade with square ornaments between the windows
+  category: hidden-history
+  lat: 52.359485
+  lng: 4.923777
+  address: Oosterpark 77-78
+  links:
+    - { label: Rijksmonumentenregister (526277), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526277" }
+    - { label: Amsterdam op de kaart blog, url: "https://amsterdamopdekaart.nl/blog/2013/08/omkoopschandaal-aan-het-oosterpark/" }
+    - { label: Amsterdamse School Platform, url: "https://items.amsterdamse-school.nl/details/objects" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "526277"
+    built: 1888; remodelled 1921–1922
+    architect: Harry Elte (remodel)
+    original_use: Residence
+    listed: 2004
+  photos:
+    - commons:File:Oosterpark 77 in Amsterdam.jpg
+    - commons:File:2020 Oosterpark 77-78 (1).jpg
+    - commons:File:Woonhuis bestaande uit twee samengetrokken panden Oosterpark 77 in Amsterdam.jpg
+  sources:
+    - rce:526277 (register description)
+    - https://amsterdamopdekaart.nl/blog/2013/08/omkoopschandaal-aan-het-oosterpark/
+    - https://www.amsterdam.nl stadsarchief page on Julius Barmat (facts only)
+  nl:
+    title: Huis Barmat
+    summary: "Woonhuis bestaande uit twee samengetrokken panden uit 1888 die in 1921-22 verbouwd zijn tot één woning door de architect Harry Elte in opdracht van de zakenman Julius W. Barmat, de man van het 'Barmat-schandaal'. In de deur zijn de letters JWBARMAT verwerkt."
+    body: |
+      Opdrachtgever voor de verbouwing was de joodse zakenman Julius 'Judko' Barmat. Barmat werd in 1889 geboren in de Oekraïne. Via Polen kwam hij in 1908 naar Nederland. Tijdens en na de Eerste Wereldoorlog exporteerde hij levensmiddelen naar Duitsland, waar hij een fortuin mee verdiende. Barmat woonde met zijn gezin hier aan het Oosterpark van 1917 tot medio 1924; daarna verhuisde hij naar Berlijn. Uit onderzoek van de Duitse justitie bleek dat de Barmats diverse socialistische politici en functionarissen hadden omgekocht. Het 'Barmat-schandaal' was geboren. Het was koren op de molen van de antisemitische Duitse pers. Julius en Henry werden in 1928 veroordeeld tot elf en zes maanden celstraf. Eind 1937 werd hij door Nederland aan België uitgeleverd. Hij overleed begin 1938 in zijn Brusselse cel en werd begraven op de joodse begraafplaats in Muiderberg.
+
+      Harry Elte voegde twee bestaande huizen samen en tekende een nieuwe voorgevel. Met name aan het interieur is zeer veel aandacht besteed. Tot in de afwerklagen, de details en het hang- en sluitwerk kenmerkt het pand zich in een grote mate van authenticiteit. Het huis heeft na het vertrek van het gezin Barmat lang leeggestaan. In 1931 kwam er een christelijke HBS in, die er tot 1960 heeft gezeten. Tegenwoordig is het huis een kantoor.
+
+      Let op:
+      - de deur met smeedwerk waarin de letters JWBARMAT zijn verwerkt
+      - de gepleisterde voorgevel met groeven en vierkante ornamenten tussen de vensters
+    attributes:
+      built: 1888; verbouwd 1921–1922
+      architect: Harry Elte (verbouwing)
+      original_use: Woonhuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526277
+      - https://amsterdamopdekaart.nl/blog/2013/08/omkoopschandaal-aan-het-oosterpark/
+
+- title: Painters' houses on the south side of the park
+  summary: "Two more studio houses on the Oosterpark's artists' row: Hendrik Valkenburg's house of 1888 with 'Ars longa vita brevis' on the facade and two studios stacked for father and daughter, and a double house of 1882 built for the painters Hanrath and Kever."
+  body: |
+    In the 1880s the new houses on the south side of the park drew painters, who wanted big north-facing windows over open ground. Next to the Witsenhuis stands no. 79, built in 1887–88 by A.W. Weissman for the genre painter Hendrik Valkenburg, with two studios one above the other: one for him and one for his daughter Bertha, also a painter, who taught drawing and painting here until she married in 1910. The studios were fitted out like early 17th-century Dutch rooms, with a huge fireplace and panelling, a ready-made backdrop for their genre scenes. The interior survives well, and the house was listed in 2022.
+
+    A little further east, nos. 87-88 were designed by C. Wiegand in 1882 as homes with two painters' studios upstairs, reached by the middle door, for Theo Hanrath and Hein Kever; after Hanrath died in 1883 Geo Poggenbeek rented his studio. In the early 20th century the ground floor became shops. Nos. 77-78 (the Barmat house) and 82 (the Witsenhuis) complete the row. The pin is on no. 79.
+
+    Look for:
+    - the gable stone "ARS LONGA VITA BREVIS - ANNO 1888" on no. 79
+    - the large studio windows on the first floor of nos. 87-88
+    - the shopfronts with tile tableaux at nos. 87-88
+  category: housing
+  lat: 52.359522
+  lng: 4.923909
+  address: Oosterpark 79 and 87-88
+  links:
+    - { label: Monumentenregister Amsterdam (79), url: "https://data.amsterdam.nl/monumenten/f7dd386f-8839-46cd-a22d-15cee2d4843d" }
+    - { label: Monumentenregister Amsterdam (87-88), url: "https://data.amsterdam.nl/monumenten/fa2096e7-0c65-43da-8095-9a9414ba0927" }
+    - { label: Amsterdam op de kaart (79), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/79" }
+    - { label: Amsterdam op de kaart (87-88), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/87-88" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200960, 200694
+    built: 1882 (87-88); 1887–1888 (79)
+    architect: A.W. Weissman (79); C. Wiegand (87-88)
+    original_use: Studio houses
+  photos:
+    - commons:File:2020 Oosterpark 79-80.jpg
+    - commons:File:Oosterpark 87-88, Amsterdam.jpg
+    - commons:File:Hein Kever in his studio 1904.jpg
+  sources:
+    - city:200960, 200694 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/79
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/87-88
+  nl:
+    title: Schildershuizen aan de zuidzijde van het park
+    summary: "Twee atelierwoningen aan de zuidzijde van het Oosterpark: het huis van de schilder Hendrik Valkenburg uit 1887-1888, met twee boven elkaar gelegen ateliers voor vader en dochter, en een dubbelpand uit 1882 voor de schilders Theo Hanrath en Hein Kever."
+    body: |
+      Oosterpark 79 werd gebouwd voor de kunstschilder Hendrik Valkenburg (1826-1896). Op verzoek van Valkenburg diende in het huis plaats ingeruimd te worden voor ateliers voor zowel hemzelf als zijn dochter Bertha. Zij gaf hier ook teken- en schilderles, tot ze in 1910 wegens huwelijk verhuisde. De bewaard gebleven afwerking van de atelierruimtes was, getuige de enorme schouw en de wandbetimmering, gebaseerd op vroegzeventiende-eeuwse interieurs. Dergelijke binnenruimten namen vader en dochter Valkenburg graag als inspiratie voor hun genrestukken. In april 2022 werd het pand door het stadsdeel aangewezen tot gemeentelijk monument, vooral vanwege het goed behouden atelier-interieur.
+
+      Op de bouwtekeningen van Wiegand is te zien dat de eerste verdiepingen van het dubbelpand Oosterpark 87-88 waren ontworpen als ateliers voor beeldend kunstenaars: met grote ramen op het noorden. De ateliers hadden een eigen opgang, via de middelste deur. Het werd gebouwd voor twee schilders, Theo Hanrath en Hein Kever. Na de dood van Hanrath in 1883 werd diens atelier gehuurd door Geo Poggenbeek, eveneens een schilder. In de vroege twintigste eeuw zijn de woonruimtes op de begane grond gewijzigd tot winkels. De speld staat op nummer 79.
+
+      Let op:
+      - de gevelsteen "ARS LONGA VITA BREVIS - ANNO 1888" op nummer 79
+      - de grote atelierramen op de eerste verdieping van 87-88
+      - de winkelpuien met tegeltableaus van 87-88
+    attributes:
+      built: 1882 (87-88); 1887–1888 (79)
+      architect: A.W. Weissman (79); C. Wiegand (87-88)
+      original_use: Atelierwoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/f7dd386f-8839-46cd-a22d-15cee2d4843d
+      - https://data.amsterdam.nl/monumenten/fa2096e7-0c65-43da-8095-9a9414ba0927
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/79
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/87-88
+
+- title: Catholic island on the Eikenplein
+  summary: "A whole Catholic world of 1889: convent, chapel and the St. Barbaraschool, which became the first Catholic Montessori school in the Netherlands and closed around 2023 as Amsterdam's oldest primary school. Across the square, a home for genteel single ladies."
+  body: |
+    When the Oosterparkbuurt was laid out, the new St. Bonifatius parish grouped its buildings into a *katholiek eiland* (Catholic island). E.J. Margry designed the Bonifatiuskerk (1886, demolished in the 1980s) and, on land given by Miss Barbara Westerwoudt, a convent for Franciscan sisters with chapel, refectory and schools for up to 1,100 children: a crèche, kindergarten, a girls' primary school and a sewing school. The gothic-flavoured centre held the sisters' house and chapel (1891); J.J.L. Moolenschot added the wing on the Derde Oosterparkstraat in 1906. In 1929 the St. Barbaraschool switched to Montessori teaching, the first Catholic school in the country to do so. The corner wing became flats in 2002, the school renovation won a Gulden Fenix in 2015, and the school closed for lack of pupils around 2023.
+
+    Across the square stands the Elisabeth Otter-Knoll Stichting of 1905–11 by Jan de Looy (Van Looy), a luxurious home for seventeen unmarried or divorced childless ladies over 55 "uit den deftigen stand", paid for by the legacy of Elisabeth Otter-Knoll (1820–1900), with conversation rooms in Louis XVI and Queen Anne style; it has been flats since the 1980s. Around the corner, Kraaij's curved block of 1887 frames the Kastanjeplein, the only trace of a plan to give the grid more allure. The pin is on the school and chapel.
+
+    Look for:
+    - the pointed turrets and the chapel on the Eikenplein
+    - the Otter-Knoll building across the square
+    - the curved wall of the Kastanjeplein with lion heads on the keystones
+  category: religious
+  lat: 52.358309
+  lng: 4.921793
+  address: Eikenplein 1-5 / Tweede Oosterparkstraat 200-246 / Kastanjeplein 170-190
+  links:
+    - { label: Monumentenregister Amsterdam (Eikenplein), url: "https://data.amsterdam.nl/monumenten/76375c64-ff96-4e0a-a799-b26039c7c40f" }
+    - { label: Monumentenregister Amsterdam (Derde Oosterparkstr.), url: "https://data.amsterdam.nl/monumenten/854e48ea-a5b8-4de8-a2c0-e21831371212" }
+    - { label: Monumentenregister Amsterdam (Otter-Knoll), url: "https://data.amsterdam.nl/monumenten/0f18d69d-ab09-42b7-85e6-887e3265e8e2" }
+    - { label: Monumentenregister Amsterdam (Kastanjeplein), url: "https://data.amsterdam.nl/monumenten/6b745de0-d3ac-4897-a1c0-e733edbf208a" }
+    - { label: Amsterdam op de kaart (Barbaraschool), url: "https://amsterdamopdekaart.nl/1850-1940/Eikenplein/1-5" }
+    - { label: Amsterdam op de kaart (Otter-Knoll), url: "https://amsterdamopdekaart.nl/1850-1940/Eikenplein/Otter-Knoll-stichting" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200707, 200145, 200607
+    built: 1887 (Kastanjeplein); 1889–1891, extended 1906 (school and convent); 1905–1911 (Otter-Knoll)
+    architect: E.J. Margry; J.J.L. Moolenschot; Jan de Looy; A.Th. Kraaij
+    original_use: Convent, chapel and Catholic schools; home for ladies; housing
+  photos:
+    - commons:File:Barbaraschool, Amsterdam 1.jpg
+    - commons:File:2023 Eikenplein 1-5, Asd (1).jpg
+    - commons:File:St. Barbaraschool aan de Eikenweg in Amsterdam.jpg
+    - commons:File:2022 Eikenplein 1-5, Asd (1).jpg
+  sources:
+    - city:200707 (two records, register text), 200607 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Eikenplein/1-5
+    - https://amsterdamopdekaart.nl/1850-1940/Eikenplein/Otter-Knoll-stichting
+  nl:
+    title: Katholiek eiland aan het Eikenplein
+    summary: "Het Sint Bonifatiuscomplex is een goed voorbeeld van een katholiek eiland: klooster, kapel en de Sint Barbaraschool, de eerste R.K. Montessorischool in Nederland, die in 2023 sloot. Aan de overkant een rusthuis voor dames uit den deftigen stand."
+    body: |
+      Het Sint Bonifatiuscomplex tussen Eikenplein en Kastanjeplein is een goed voorbeeld van de infrastructuur van de R.K. kerken- en scholenbouw. Bij de stichting van een nieuwe parochie werden de diverse parochiale gebouwen bij voorkeur in de vorm van een katholiek eiland gegroepeerd rondom de parochiekerk. De St.-Bonifatiusparochie nam de vooraanstaande architect E.J. Margry in de hand, niet alleen voor het ontwerp van de Sint Barbaraschool maar ook voor de in 1886 ingewijde Bonifatiuskerk. Die kerk werd in de jaren 1980 gesloopt. Het hoger uitgevoerde middendeel was oorspronkelijk het zusterhuis, met slaapzaal, een refter en een kapel. Er was plek voor maar liefst 1100 kinderen. Vanaf 1906, toen de school door J.J.L. Moolenschot aan de zijde van de Derde Oosterparkstraat werd uitgebreid, was het hele katholieke eiland bebouwd. Opvallend was de in 1929 ingezette overgang naar Montessorionderwijs. De Sint Barbaraschool was zelfs de eerste R.K. Montessorischool in Nederland. Een renovatie van het schoolgedeelte werd in 2015 bekroond met de Gulden Fenix. In 2023 leidde het teruglopende leerlingental tot sluiting van de school, die op dat moment de oudste basisschool van Amsterdam werd genoemd.
+
+      Het pand van de Elisabeth Otter-Knoll Stichting werd gebouwd als luxe rusthuis voor zeventien ongehuwde of gescheiden kinderloze vrouwen ouder dan 55, 'uit den deftigen stand'. De bouw werd betaald uit een legaat van Elisabeth Otter-Knoll (1820-1900). Er waren een conversatiezaal in Louis XVI-stijl en een tweede in Queen Anne-stijl. Sinds de jaren 1980 is het een appartementengebouw. Het Kastanjeplein is de enige reminiscentie van de poging om de Oosterparkbuurt meer stedenbouwkundige allure te geven. De speld staat op de school en kapel.
+
+      Let op:
+      - de spitse torentjes en de kapel aan het Eikenplein
+      - het Otter-Knollgebouw aan de overkant
+      - de gebogen wand van het Kastanjeplein
+    attributes:
+      built: 1887 (Kastanjeplein); 1889–1891, uitgebreid 1906 (school en klooster); 1905–1911 (Otter-Knoll)
+      architect: E.J. Margry; J.J.L. Moolenschot; Jan de Looy; A.Th. Kraaij
+      original_use: Klooster, kapel en R.K. scholen; rusthuis voor dames; woningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/76375c64-ff96-4e0a-a799-b26039c7c40f
+      - https://data.amsterdam.nl/monumenten/6b745de0-d3ac-4897-a1c0-e733edbf208a
+      - https://amsterdamopdekaart.nl/1850-1940/Eikenplein/1-5
+      - https://amsterdamopdekaart.nl/1850-1940/Eikenplein/Otter-Knoll-stichting
+
+# ================================================================ West of the park: Boerhaave and 's-Gravesande
+
+- title: Oosterparkkerk and the 's-Gravesandeplein
+  summary: "The second Mennonite church of Amsterdam, built in 1904 at the park's north-west corner, beside a corner block with a mock tower and the old Reformed Oosterparkschool: one even, well-detailed wall framing the park."
+  body: |
+    The Doopsgezinde Gemeente (Mennonite congregation) had only its hidden church on the Singel when the architect A. Salm GBzn asked the city in 1903 for land for a second church, with a sexton's house and consistory room. The council debated selling versus leasing the ground, and sold it because a church was "an exceptionally lasting use". The simple hall church of 1904 has no tower but a fine roof turret and a wrought-iron canopy over the door; it seated 300 plus 60 in the gallery. The Mennonites left in 1975, and the Reformed Church (vrijgemaakt) has used it since.
+
+    Next door, the corner block at Oosterpark 7-8 / 's-Gravesandeplein 25 of 1901 by P.H.M. Kuyper and J.L. van der Bom pushes its corner bays above the roofline to suggest a tower. Van der Bom also designed the Oosterparkschool of 1909 at no. 19 for the Reformed school society, sober brick after Berlage, with its entrance in a stone frame. It lost its school function in 2002 and was rebuilt as district offices. Together they make the north side of the 's-Gravesandeplein one balanced wall. The pin is on the church.
+
+    Look for:
+    - the roof turret and iron canopy of the church
+    - the fake corner tower of Oosterpark 7-8
+    - the stone-framed entrance of the school at no. 19
+  category: religious
+  lat: 52.360029
+  lng: 4.9158
+  address: Oosterpark 4-8 / 's-Gravesandeplein 19-25
+  links:
+    - { label: Monumentenregister Amsterdam (church), url: "https://data.amsterdam.nl/monumenten/299e42b1-1f38-407a-963d-3ed16e1d58c8" }
+    - { label: Monumentenregister Amsterdam (7-8), url: "https://data.amsterdam.nl/monumenten/6ea6cf6e-f766-4ad4-b4d0-9a76601b36d8" }
+    - { label: Monumentenregister Amsterdam (school), url: "https://data.amsterdam.nl/monumenten/4cdc7e03-46e3-473d-b10e-917908ccd537" }
+    - { label: Amsterdam op de kaart (church), url: "https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Oosterparkkerk" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200660, 200695, 200639
+    built: 1901 (corner block); 1904 (church); 1909 (school)
+    architect: A. Salm GBzn (church); P.H.M. Kuyper and J.L. van der Bom (block, school)
+    original_use: Mennonite church; housing; Reformed primary school
+  photos:
+    - commons:File:Oosterparkkerk Amsterdam 2007.JPG
+    - commons:File:2020 Oosterpark 4-5 (1).jpg
+    - commons:File:Oosterpark 7-8, Amsterdam.jpg
+    - commons:File:S-Gravesandeplein 19, Amsterdam.jpg
+  sources:
+    - city:200660, 200695, 200639 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Oosterparkkerk
+  nl:
+    title: Oosterparkkerk en het 's-Gravesandeplein
+    summary: "Na de kerk aan de Singel werd deze kerk uit 1904 de tweede doopsgezinde kerk van Amsterdam. Met het hoekcomplex Oosterpark 7-8 en de voormalige Oosterparkschool vormt zij een evenwichtige gevelwand aan de noordzijde van het 's-Gravesandeplein."
+    body: |
+      Dit kerkgebouw werd in 1904 gebouwd in opdracht van de Doopsgezinde Gemeente, naar een ontwerp van A. Salm GBzn. Het was A. Salm GBzn die in 1903 bij het college van B&W pleitte voor het oprichten van een kerk met kosterswoning en consistoriekamer. Het voornemen leidde in de gemeenteraad tot een debat over de wenselijkheid van verkoop van grond versus uitgifte in erfpacht. Het college verdedigde de voordracht tot verkoop met het argument dat het kerkgebouw een buitengewoon blijvend gebruik zou zijn. De kerk, een eenvoudige zaalkerk, heeft geen toren maar wel een fraaie dakruiter. De ingang wordt afgedekt door een smeedijzeren luifel. De Doopsgezinde Gemeente verliet de kerk in 1975. Sindsdien is het gebouw in gebruik bij de gereformeerde kerk (vrijgemaakt).
+
+      Het hoekcomplex Oosterpark 7-8 en 's-Gravesandeplein 25 is in 1901 gerealiseerd naar ontwerp van J.L. van der Bom en P.H.M. Kuyper. Doordat de op de hoek gelegen traveeën zijn doorgestoken boven de daklijst wordt hier het effect gecreëerd van een hoektoren. Van der Bom leverde ook het ontwerp voor de in 1909 gerealiseerde Oosterparkschool, in opdracht van de Vereeniging voor Gereformeerde Scholen, in een sobere op het rationalisme van H.P. Berlage gebaseerde stijl. In december 2002 verloor het gebouw zijn schoolfunctie. Zo is aan de noordzijde van het 's-Gravesandeplein een evenwichtige en fraai gedetailleerde gevelwand gerealiseerd. De speld staat op de kerk.
+
+      Let op:
+      - de dakruiter en de smeedijzeren luifel van de kerk
+      - de 'hoektoren' van Oosterpark 7-8
+      - de ingangspartij in natuurstenen omkadering van de school
+    attributes:
+      built: 1901 (hoekcomplex); 1904 (kerk); 1909 (school)
+      architect: A. Salm GBzn (kerk); P.H.M. Kuyper en J.L. van der Bom (woningen, school)
+      original_use: Doopsgezinde kerk; woningen; gereformeerde lagere school
+    sources:
+      - https://data.amsterdam.nl/monumenten/299e42b1-1f38-407a-963d-3ed16e1d58c8
+      - https://data.amsterdam.nl/monumenten/6ea6cf6e-f766-4ad4-b4d0-9a76601b36d8
+      - https://data.amsterdam.nl/monumenten/4cdc7e03-46e3-473d-b10e-917908ccd537
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterpark/Oosterparkkerk
+
+- title: Blasiusstraat 124, a gap left by looting
+  summary: "A small 1953 shop with flats in a 19th-century street. It fills the gap left by a house whose Jewish residents were deported and murdered, and which was then stripped for building materials until it had to come down."
+  body: |
+    Here and there in Amsterdam's 19th-century ring a building from around 1950 interrupts the street. These are not war damage: after Jewish Amsterdammers were deported, their empty homes and shops were looted, and usable materials (doors, floors, beams) were torn out and sold, often at extortionate prices. Bricking up the ground floors did not help, and many houses were left as unstable shells that had to be demolished. No. 124 was such a house. The Zegerius family ran a tailor's shop on the ground floor and Jewish families lived upstairs; all were deported and murdered in Auschwitz.
+
+    In 1953 the Roermond architect Bob Booms built a shop with three flats on the empty plot, for a woman from Utrecht. It has a mint and dark green concrete facade with a recessed porch, typical of its moment, and a roof storey added in 1999. The city listed it in 2013 as a witness of this specific, often overlooked chapter of the Holocaust in Amsterdam.
+
+    Look for:
+    - the 1950s facade between its 19th-century neighbours
+    - the shared porch leading to both the shop and the flats
+  category: hidden-history
+  lat: 52.357392
+  lng: 4.912731
+  address: Blasiusstraat 124
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/66f1952d-040b-4016-97e7-454e3982d681" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200653"
+    built: "1953"
+    architect: Bob Booms
+    original_use: Shop with three flats
+    listed: 2013
+  photos:
+    - commons:File:Blasiusstraat 124 (1).jpg
+    - commons:File:Blasiusstraat 124 (2).jpg
+    - commons:File:Blasiusstraat 124 en hoger.jpg
+  sources:
+    - city:200653 (register text)
+  nl:
+    title: Blasiusstraat 124, een gat door plundering
+    summary: "Een winkel met drie bovenwoningen uit 1953 in een negentiende-eeuwse straat. Het staat op de plek van een pand waarvan de joodse bewoners werden weggevoerd en omgebracht, en dat daarna werd geplunderd tot er slechts een instabiel karkas over was."
+    body: |
+      Op verschillende plekken in de negentiende-eeuwse schil van Amsterdam staan panden uit de periode van omstreeks 1950. Deze zijn niet zozeer het gevolg van oorlogshandelingen en de daarop volgende wederopbouw. Zij zijn het gevolg van de plunderingen van woningen van joodse Amsterdammers nadat deze waren weggevoerd. Hun woningen en winkels vielen ten prooi aan rigoureuze plundering waarbij bruikbare bouwmaterialen uit de panden werden gesloopt die daarna vaak tegen woekerprijzen werden verkocht. Maatregelen om het plunderen tegen te gaan, bijvoorbeeld door het dichtmetselen van de onderste verdiepingen, hadden geen resultaat. Van veel huizen bleef slechts een instabiel karkas over met gevaar voor instorting. Van Blasiusstraat 124 is bekend dat dit pand werd bewoond door joodse Amsterdammers. De familie Zegerius dreef er op de begane grond een kleermakerij en op de bovenverdiepingen woonden joodse gezinnen. Allen werden in de oorlog weggevoerd en omgebracht in Auschwitz.
+
+      In 1953 liet de in Utrecht woonachtige mevr. F.J.H. van Hoogenhuijze - de Wetstein Pfister het pand bouwen. De Roermondse architect Bob Booms leverde het ontwerp. Het pand is opgezet als een winkel met drie bovenwoningen. De vijfde bouwlaag betreft een dakopbouw die er later is opgebouwd (1999). Via een inpandige portiek is enerzijds de winkel bereikbaar en anderzijds de ingang naar de bovenwoningen.
+
+      Let op:
+      - de gevel uit de jaren vijftig tussen de negentiende-eeuwse buren
+      - de gemeenschappelijke portiek naar winkel en bovenwoningen
+    attributes:
+      built: "1953"
+      architect: Bob Booms
+      original_use: Winkel met drie bovenwoningen
+    sources:
+      - https://data.amsterdam.nl/monumenten/66f1952d-040b-4016-97e7-454e3982d681
+
+- title: Rijkskweekschool voor Vroedvrouwen
+  summary: "The national school for midwives, opened in 1900 with classrooms, rooms for 26 mothers and over thirty little rooms for live-in students. After the school left in 1975 squatters took it over; it has been housing since 1989."
+  body: |
+    The Dutch state started a two-year midwifery course in Amsterdam in 1861. After several temporary homes, the school moved in 1900 into this large corner building by the state architect Jacobus van Lokhorst. Classrooms were on the ground floor, the first floor had rooms for 26 women in childbirth and pregnant women, and the top floor over thirty small rooms for students who lived in. In 1921 the course was extended to three years and a small extension was added; the maternity clinic of the OLVG hospital was also housed here.
+
+    The school moved out in 1975. Squatters later moved in and the building got the nickname *De Lange Adem* (the long breath); since 1989 it holds 64 homes. The name of the school is still written over the entrance in decorative letters.
+
+    Look for:
+    - "Rijkskweekschool voor Vroedvrouwen" over the entrance
+    - the plaques in the porch
+  category: schools
+  lat: 52.358598
+  lng: 4.913202
+  address: Tilanusstraat 238-258 / Ruyschstraat 295-301
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/950065a5-58ce-4edc-b774-df1887ff72be" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Tilanusstraat/238-258" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200137"
+    built: 1897–1900
+    architect: Jacobus van Lokhorst
+    original_use: State school for midwives with maternity rooms
+    listed: 1988
+  sources:
+    - https://amsterdamopdekaart.nl/1850-1940/Tilanusstraat/238-258
+  nl:
+    title: Rijkskweekschool voor Vroedvrouwen
+    summary: "Gebouwd als Rijkskweekschool voor Vroedvrouwen, naar een ontwerp van de toenmalige rijksbouwmeester Jacobus van Lokhorst. Ook de kraamkliniek van het OLVG was hier gevestigd. Nu zijn er woningen in het gebouw."
+    body: |
+      Gebouwd als Rijkskweekschool voor Vroedvrouwen, naar een ontwerp van de toenmalige rijksbouwmeester Jacobus van Lokhorst. Ook de kraamkliniek van het OLVG was hier gevestigd. De aanvankelijk tweejarige opleiding was in 1861 ingesteld. De school kende diverse locaties voordat in 1875 een plek werd gevonden aan de Prinsengracht. In 1900 werd dit nieuwe, grotere gebouw in Oost betrokken. Op de parterre waren leslokalen, op de eerste verdieping kamers voor in totaal 26 kraamvrouwen en zwangeren. Op de bovenste verdieping waren ruim dertig kamertjes voor inwonende leerlingen. In 1921 werd de duur van de opleiding verlengd tot drie jaar. In dat jaar werd ook een kleine uitbreiding van de school opgeleverd. Nu zijn er woningen in het gebouw.
+
+      Let op:
+      - boven de ingang in sierletters Rijkskweekschool voor Vroedvrouwen
+      - de plaquettes in het portaal
+    attributes:
+      built: 1897–1900
+      architect: Jacobus van Lokhorst
+      original_use: Rijkskweekschool voor vroedvrouwen met kraamkamers
+    sources:
+      - https://data.amsterdam.nl/monumenten/950065a5-58ce-4edc-b774-df1887ff72be
+      - https://amsterdamopdekaart.nl/1850-1940/Tilanusstraat/238-258
+
+- title: Round bathhouse on the Boerhaaveplein
+  summary: "A round public bathhouse of 1921 in Amsterdam School brick, 19 m across, with 'ingang mannen' still over one door. At its opening the alderman boasted that men and women got equal numbers of baths. A theatre since 1985."
+  body: |
+    The new housing blocks of the housing associations often had no bath or shower, so the city built public bathhouses. A.J. Westerman of Public Works designed this one in 1920–21 as a free-standing round building, 19 m across, with separate entrances for men (left) and women (right), waiting rooms in the middle and a ring of shower and bath cells along the outer wall. A boiler in the basement pumped hot water up to tanks under the roof. Twelve cells for men and six for women were planned, but at the opening alderman De Miranda announced that this was the first bathhouse where equal rights for men and women were recognised, with equal numbers of baths on both sides. Keeping both sexes on one floor made supervision easy, and two more round bathhouses followed elsewhere.
+
+    It was used as a bathhouse until the 1980s; since 1985 it has been Mike's Badhuistheater. Across the square, the corner block of 1920 by A. van Baalen at Tweede Boerhaavestraat 52-60, with its high mansard roofs and a café on the ground floor, frames the plein. The pin is on the bathhouse.
+
+    Look for:
+    - "GEMEENTEBADHUIS" in metal letters over the office window
+    - "ingang mannen" over the left-hand door
+    - the eight-sided shingled dome with a stubby chimney in the middle
+    - the mansard roofs of the corner block across the square
+  category: civic
+  lat: 52.359531
+  lng: 4.912752
+  address: Boerhaaveplein 28
+  links:
+    - { label: Rijksmonumentenregister (526986), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526986" }
+    - { label: Monumentenregister Amsterdam (52-60), url: "https://data.amsterdam.nl/monumenten/806a17a1-5156-41d3-ad54-b9f537a66099" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Boerhaaveplein/28" }
+  attributes:
+    rank: Nice
+    heritage_status: National + municipal monument
+    monument_number: 526986, 200657
+    built: 1920–1921 (bathhouse); 1920 (corner block)
+    architect: A.J. Westerman (Publieke Werken); A. van Baalen (corner block)
+    original_use: Public bathhouse
+    listed: 2004
+  photos:
+    - commons:File:Badhuis Boerhaaveplein 28.JPG
+    - commons:File:2020 Boerhaaveplein 28 (1).jpg
+    - commons:File:Tweede Boerhaavestraat 52-60, Amsterdam 01.jpg
+  sources:
+    - rce:526986 (register description)
+    - city:200657 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Boerhaaveplein/28
+  nl:
+    title: Rond badhuis aan het Boerhaaveplein
+    summary: "Een in 1920-1921 tot stand gekomen badhuis op een cirkelvormig grondplan, in de stijl van de Amsterdamse School, met nog het opschrift 'ingang mannen'. Bij de opening werd de gelijkheid van rechten voor mannen en vrouwen geroemd. Sinds 1985 het Badhuistheater."
+    body: |
+      De woningen die woningbouwverenigingen in die tijd bouwden, hadden vaak geen bad- of doucheruimte. Een gemeenschappelijk badhuis bood dan uitkomst. Het voormalig badhuis van A.J. Westerman is geheel vrijstaand gelegen op het Boerhaaveplein en had aan weerszijden van het kantoor de gescheiden ingangen voor mannen en vrouwen. Het gebouw heeft een diameter van 19 meter. Er waren aanvankelijk twaalf badcellen voor mannen en zes voor vrouwen gepland. Bij de opening verklaarde wethouder De Miranda echter "dat de gelijkheid van rechten voor mannen en vrouwen in dit badhuis het eerst was erkend en het aantal kuip- en douchebaden in de mannen- en vrouwenafdeeling gelijk was". De ketel stond in de kelder. Warm water werd omhoog gepompt naar reservoirs onder het dak en vandaar uitgestort naar de douchecellen.
+
+      Het badhuis op het Boerhaaveplein is tot in de jaren 1980 als zodanig in gebruik geweest. Sinds 1985 biedt het onderdak aan het Badhuistheater. Het hoekcomplex Tweede Boerhaavestraat 52-60 is gebouwd in 1920 naar ontwerp van architect A. van Baalen, met een omlopende mansardekap en op de begane grond een horecafunctie. De speld staat op het badhuis.
+
+      Let op:
+      - 'GEMEENTEBADHUIS' in metalen letters boven het kantoorvenster
+      - het opschrift 'ingang mannen' links
+      - het koepeldak van acht geknikte schilden met shingles en de gedrongen schoorsteen
+      - de mansardekappen van het hoekcomplex aan de overkant
+    attributes:
+      built: 1920–1921 (badhuis); 1920 (hoekcomplex)
+      architect: A.J. Westerman (Publieke Werken); A. van Baalen (hoekcomplex)
+      original_use: Openbaar badhuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526986
+      - https://data.amsterdam.nl/monumenten/806a17a1-5156-41d3-ad54-b9f537a66099
+      - https://amsterdamopdekaart.nl/1850-1940/Boerhaaveplein/28
+
+- title: Wild & Hardebeck curtain factory
+  summary: "A concrete curtain factory of 1919–21 with patented coloured-concrete ornaments. Its Jewish owners were deported and never came back; the manager kept the books until the 1970s. Since 1979 artists' homes and studios, including Jan Dibbets'."
+  body: |
+    Wild & Hardebeck, two Jewish merchants from the Nieuwezijds Voorburgwal, opened their curtain fabric factory on the Boerhaaveplein in 1921, reportedly supplying stores such as Metz and De Bijenkorf. The architect Carel Tenenti jr. of Dordrecht, a relative of director Julius Hardebeck, gave it a concrete frame and art deco ornaments in coloured concrete, made with a technique patented in 1918. It held workshops, an office and a supervisor's flat; girls from the neighbourhood worked the machines. The firm went bankrupt in 1927 and restarted as N.V. Hardebeck's Gordijnenfabriek.
+
+    The owners were deported in the Second World War and never returned. According to the city register, the manager, Mr Van de Bos, carried on until the factory closed in the 1970s, closing the books each year with the words "behoudens goedkeuring van de directeuren" (subject to the directors' approval). In 1978 a plan for a cultural venue was blocked by neighbours; in 1979 J. Dibbets and F. Becht bought it and had it converted, with minimal changes, into homes and three studios. The conceptual artist Jan Dibbets works here.
+
+    Look for:
+    - the coloured-concrete ornaments on the facade
+    - the bevelled joints between columns and beams, visible through the big windows
+  category: industrial
+  lat: 52.359503
+  lng: 4.912268
+  address: Boerhaaveplein 4-6 / Tweede Boerhaavestraat 23
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9df60165-31d0-4f76-b84c-6f6a9bd63eae" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Boerhaaveplein/4-6" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200521"
+    built: 1919–1921
+    architect: Carel Tenenti jr.
+    original_use: Curtain factory
+    listed: 2004
+  photos:
+    - commons:File:2020 Boerhaaveplein 4-6 (1).jpg
+    - commons:File:2020 Boerhaaveplein 4-6 (2).jpg
+    - commons:File:2020 Boerhaaveplein 4-6 (3).jpg
+  sources:
+    - city:200521 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Boerhaaveplein/4-6
+  nl:
+    title: Gordijnenfabriek Wild & Hardebeck
+    summary: "De gordijnfabriek van de firma Wild & Hardebeck werd gebouwd naar ontwerp van C. Tenenti jr. De (joodse) eigenaren werden in de oorlog weggevoerd en keerden niet terug; de bedrijfsleider nam de zaken waar tot de sluiting. Sinds 1979 woningen en ateliers."
+    body: |
+      De gordijnfabriek van de firma Wild & Hardebeck werd gebouwd naar ontwerp van C. Tenenti jr. op een omstreeks 1918 nieuw uitgegeven stuk grond, dat direct na uitgifte in bezit kwam van beide (Joodse) ondernemers. In 1921 openden zij de fabriek voor gordijnstoffen aan het Boerhaaveplein. Volgens overlevering leverden zij bestellingen die werden geplaatst bij grote winkels als Metz en De Bijenkorf. Het bedrijf ging in 1927 failliet en maakte een doorstart, onder de naam N.V. Hardebeck's Gordijnenfabriek. De draagconstructie is van beton met kolommen met een afgeschuinde aansluiting op de balken.
+
+      De eigenaren van het bedrijf werden in de Tweede Wereldoorlog op transport gezet naar Duitsland en keerden niet meer terug. De bedrijfsleider, de heer Van de Bos, heeft de zaken waargenomen tot aan de definitieve sluiting van het bedrijf in de jaren '70 van de twintigste eeuw. Elk jaar sloot hij volgens overlevering de boeken af met de opmerking 'behoudens goedkeuring van de directeuren'. In 1978 wilde Eddy de Clercq in het leegstaande gebouw een dependance van De Brakke Grond vestigen, maar verzet door de buurt maakte een einde aan dit plan. In 1979 werd het object gekocht door J. Dibbets en F. Becht. Het pand is omgebouwd tot woningen en drie ateliers (met expositieruimte).
+
+      Let op:
+      - de ornamenten van gekleurd beton in de gevel
+      - de afgeschuinde aansluiting van de betonnen kolommen op de balken
+    attributes:
+      built: 1919–1921
+      architect: Carel Tenenti jr.
+      original_use: Gordijnenfabriek
+    sources:
+      - https://data.amsterdam.nl/monumenten/9df60165-31d0-4f76-b84c-6f6a9bd63eae
+      - https://amsterdamopdekaart.nl/1850-1940/Boerhaaveplein/4-6
+
+- title: Talmud Tora school
+  summary: "The Talmud Tora school of the main Ashkenazi synagogue, opened in 1924, with its name still in Hebrew brick letters on the facade and a tile tableau honouring Queen Wilhelmina's silver jubilee in the hall."
+  body: |
+    The Talmud Tora school, one of the oldest forms of Jewish education, taught ordinary primary and ULO subjects alongside basic knowledge of Judaism. It began in 1822 under the synagogue on the Uilenburgerstraat; its building on the Plantage Middenlaan (1882) was for boys only and outdated after forty years. Under the 1920 education law the city paid for this new school by Jacob S. Baars, opened in February 1924 and now also for girls: a gym on the ground floor and three classrooms on each upper floor. The school's name was written twice on the facade, in Hebrew brick letters (still there) and in Latin letters in the railings (gone). A tile tableau in the hall records that the founding year coincided with Queen Wilhelmina's silver jubilee in 1923.
+
+    After the war the Jewish HBS used the building from 1947 to 1950, followed by the public Jozef Israëlsschool and, around 1979, an academy of natural medicine. It was squatted and since about 1982 has been apartments, with the gym shared for cultural use and the playground as a garden.
+
+    Look for:
+    - the Hebrew letters in red brick on the facade
+    - the decorative brickwork of the chimneys
+  category: schools
+  lat: 52.35914
+  lng: 4.911435
+  address: Tweede Boerhaavestraat 7
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/cb16be05-54d4-4bde-8b83-28f81cb95237" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Tweede_Boerhaavestraat/7" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200661"
+    built: 1922–1924
+    architect: Jacob S. Baars
+    original_use: Jewish Talmud Tora school
+    listed: 2013
+  photos:
+    - commons:File:Joods onderwijs De Talmud Thora-school in de Boerhaavestraat, Nederland, jaren '20, SFA002013231.jpg
+  sources:
+    - city:200661 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Tweede_Boerhaavestraat/7
+  nl:
+    title: Talmud Tora-school
+    summary: "Voormalige joodse school voor lager onderwijs, de Talmud Tora-school van de Nederlands-Israëlitische Hoofdsynagoge, geopend in 1924. Nog altijd staat de naam van de school in Hebreeuwse letters op de voorgevel, en in de hal hangt een tegeltableau voor koningin Wilhelmina."
+    body: |
+      Architect J.S. Baars leverde het ontwerp voor dit in 1922-1925 als een joodse Talmud Tora-school gerealiseerd gebouw. Dit schooltype is één van de oudste vormen van joods onderwijs en richt zich behalve op het lager onderwijs ook op het onderwijzen van basiskennis over het jodendom. Het eerste lokaal van de Talmud Tora-school werd in 1822 gevestigd in het benedengedeelte van de synagoge in de Uilenburgerstraat. De nieuwe school in Oost, gefinancierd door de gemeente Amsterdam, werd ook opengesteld voor meisjes. De naam van de school stond dubbel op de gevel: in baksteen in Hebreeuws schrift (nog bestaand) en als onderdeel van het sierhekwerk naast de ingang in Latijns schrift (verdwenen). In de hal bevindt zich een tegeltableau dat behalve het stichtingsjaar ook het in dat jaar gevierde zilveren regeringsjubileum van koningin Wilhelmina herdenkt (1923).
+
+      Vanaf 1947 was het gebouw in gebruik bij de Joodse HBS. Dit gebouw bood vervolgens onderdak aan de Jozef Israëlsschool, een openbare school voor ulo. Circa 1979 kwam er de Akademie voor Natuurgeneeskunde. Toen het gebouw ook deze functie verloor, is het gekraakt en daarna omgevormd tot een appartementencomplex met gemeenschappelijk gebruik van het gymnastieklokaal voor culturele en artistieke activiteiten en de speelplaats als tuin.
+
+      Let op:
+      - de in rode baksteen en Hebreeuwse letters gemetselde schoolnaam
+      - het siermetselwerk van de schoorstenen
+    attributes:
+      built: 1922–1924
+      architect: Jacob S. Baars
+      original_use: Joodse Talmud Tora-school
+    sources:
+      - https://data.amsterdam.nl/monumenten/cb16be05-54d4-4bde-8b83-28f81cb95237
+      - https://amsterdamopdekaart.nl/1850-1940/Tweede_Boerhaavestraat/7
+
+- title: Amstel brewery office
+  summary: "The only big piece left of the Amstel brewery, which filled the land behind the Mauritskade from 1870 until 1982: a Delft School office of 1928–33 with a relief of rams, barley and hop over the door. Now a university building."
+  body: |
+    The Amstel brewery was founded in 1870 by Charles de Pesters and Johannes van Marwijk Kooy, out in the meadows beyond the city; its sheds and cellars came to fill much of the land between the Mauritskade and the Tweede Boerhaavestraat. Heineken took it over in 1968, and in 1982 the brewery, by then surrounded by homes whose residents complained of the nuisance, closed. Most buildings made way for housing. This office on the corner of the Andreas Bonnstraat survived, built in 1928–33 to a design by F.A. Eschauzier with A.J. Langhout in the sober Delft School style with functionalist touches: light brown brick, sandstone frames and asymmetric windows. Gerarda Rueter carved the relief over the entrance. Today the Hogeschool van Amsterdam uses it as the Koetsier-Montaignehuis.
+
+    Look for:
+    - the relief of rams, barley ears and hop above the deep entrance porch
+    - small human figures in the sandstone panels over the ground-floor windows
+    - the round window at the top of the entrance bay
+  category: industrial
+  lat: 52.359933
+  lng: 4.911955
+  address: Mauritskade 11 / Andreas Bonnstraat 1
+  links:
+    - { label: Rijksmonumentenregister (526983), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526983" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/11" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "526983"
+    built: 1928–1933
+    architect: F.A. Eschauzier with A.J. Langhout
+    original_use: Brewery office
+    artist: Gerarda Rueter (relief)
+    listed: 2004
+  photos:
+    - commons:File:Amstelbrouwerij (Amsterdam).JPG
+  sources:
+    - rce:526983 (register description)
+    - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/11
+  nl:
+    title: Kantoor van de Amstelbrouwerij
+    summary: "Een in 1928-1933 tot stand gekomen voormalig kantoorgebouw van de Amstel Bierbrouwerij, in de stijl van de Delftse School met invloeden van het functionalisme. Het reliëf boven de ingang toont bokken, gerst en hop. Nu in gebruik bij de Hogeschool van Amsterdam."
+    body: |
+      Brouwerij "De Amstel" stond achter het kantoor en besloeg een groot deel van het terrein tussen Mauritskade en Tweede Boerhaavestraat. De brouwerij was in 1870 opgericht door Charles de Pesters en Johannes van Marwijk Kooy; de brouwerijgebouwen stonden hier toen buiten de stad in het weiland. In 1968 werd het bedrijf overgenomen door concurrent Heineken. De brouwerij, inmiddels omringd door woonwijken waar geklaagd werd over overlast, werd in 1982 gesloten. De meeste bedrijfspanden maakten plaats voor woningen.
+
+      Het kantoorgebouw werd gebouwd naar een ontwerp van de architect F.A. Eschauzier in samenwerking met A.J. Langhout, in staand verband gemetseld in lichtbruine baksteen en met zandstenen accenten. De gevels vallen op door een asymmetrische plaatsing van de vensters. Het reliëf boven de ingang is gemaakt door Gerarda Rueter (1904-1993). Nu is het in gebruik bij de Hogeschool van Amsterdam onder de naam Koetsier-Montaignehuis.
+
+      Let op:
+      - het plastiek met afbeeldingen in reliëf van rammen, korenaren en hop
+      - de zandstenen cassettes met kleine menselijke figuren in reliëf
+      - het ronde en gelede venster boven de toegangspartij
+    attributes:
+      built: 1928–1933
+      architect: F.A. Eschauzier met A.J. Langhout
+      original_use: Kantoor van een bierbrouwerij
+      artist: Gerarda Rueter (reliëf)
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526983
+      - https://amsterdamopdekaart.nl/1850-1940/Mauritskade/11
+
+- title: Raad van Arbeid office on the Rhijnspoorplein
+  summary: "An office for the social insurance council, designed in 1939, started in 1940 and only finished in 1951 after both architects had died. An eight-storey block with stepped top, and a council chamber still intact inside."
+  body: |
+    The Raad van Arbeid (labour council) handled social insurance in the Amsterdam region. After years in borrowed rooms, the Ministry of Social Affairs commissioned C.J. Blaauw in 1939 to design a new office on the site of the former Weesperpoort station area. Building started in 1940, but the war intervened, Van der Veen died in 1944 and Blaauw in 1947, and H.T. Zwiers finished it in 1951 almost exactly to the original design. Shops were planned on the ground floor, which explains the arcade on the north side.
+
+    The building has an eight-storey block on the Rhijnspoorplein with a stepped, set-back top floor and a bent four-storey wing along the Mauritskade with a roof terrace over its whole length. Inside, the council chamber and the chairman's room survive. Stone figures decorate the building.
+
+    Look for:
+    - the stepped top of the tall block
+    - the arcade on the north side, left over from the planned shops
+    - the stone figures on the facade
+  category: civic
+  lat: 52.35998
+  lng: 4.910369
+  address: Mauritskade 9-10 / Rhijnspoorplein 1
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9eecf7fd-1b71-4941-b684-faaf94a310b7" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200708"
+    built: 1939–1951
+    architect: C.J. Blaauw and J.H. van der Veen; completed by H.T. Zwiers
+    original_use: Office of the Raad van Arbeid
+    listed: 2013
+  photos:
+    - commons:File:Nieuw gebouw Raad van Arbeid Amsterdam, 1951.jpg
+    - commons:File:Gebouw Raad van Arbeid Amsterdam, Bestanddeelnr 903-5766.jpg
+    - commons:File:2020 Rhijnspoorplein 1 Man en vrouw (Krop).jpg
+  sources:
+    - city:200708 (register text)
+  nl:
+    title: Raad van Arbeid aan het Rhijnspoorplein
+    summary: "Kantoor van de Raad van Arbeid, in 1939 in opdracht gegeven aan architect C.J. Blaauw. De bouw begon in 1940, maar werd door de oorlog en de dood van beide architecten pas in 1951 voltooid, in nagenoeg ongewijzigd ontwerp."
+    body: |
+      In 1919 was de Raad van Arbeid in Amsterdam gehuisvest aan Herengracht 237-239, en in 1921 in het Rijksadministratiegebouw aan Droogbak 1A. In 1938 werd besloten dat nieuwbouw nodig was. De opdracht voor de bouw werd in 1939 gegeven aan architect C.J. Blaauw door het Ministerie van Sociale Zaken. Met de bouw werd gestart in 1940, maar ten gevolge van de Tweede Wereldoorlog en de dood van Blaauw in 1947 en die van Van der Veen in 1944, werd de bouw in nagenoeg ongewijzigd ontwerp pas voltooid in 1951 door architect H.T. Zwiers. In eerste instantie zouden er op de begane grond winkels worden ondergebracht; de arcade aan de noordzijde van het gebouw is hier een overblijfsel van.
+
+      Het gebouw bestaat uit twee hoofdvolumes. Aan het Rhijnspoorplein bevindt zich een rechthoekig deel van acht bouwlagen met de hoofdingang. Aan de Mauritskade staat een geknikt deel van vier bouwlagen. De hoogbouw heeft rondom een terugliggende en getrapte bovenste laag; over het gehele dakoppervlak van de geknikte vleugel is een dakterras aangebracht.
+
+      Let op:
+      - de getrapte bovenste laag van de hoogbouw
+      - de arcade aan de noordzijde
+      - de beelden aan de gevel
+    attributes:
+      built: 1939–1951
+      architect: C.J. Blaauw en J.H. van der Veen; voltooid door H.T. Zwiers
+      original_use: Kantoor van de Raad van Arbeid
+    sources:
+      - https://data.amsterdam.nl/monumenten/9eecf7fd-1b71-4941-b684-faaf94a310b7
+
+- title: Van Ravesteyn's ATO flats
+  summary: "The only Amsterdam building by Sybold van Ravesteyn, the railways' great architect: a block of flats of 1931–32 that fronted the garages and horse stables of the NS bus company ATO and the carrier Van Gend & Loos."
+  body: |
+    The Algemene Transport Onderneming (ATO) was the bus company of the Dutch Railways, founded in 1927, which bought up small bus firms; in 1948 it merged with Van Gend & Loos, the carrier that lives on in DHL. Near the old Weesperpoort station the two NS daughters built a complex of stables, garages and housing, and the railways' own architect Sybold van Ravesteyn (1889–1983) designed this block of flats in 1931–32. Van Ravesteyn, a member of the progressive Groep '32 and known for "poetic functionalism", built signal boxes, stations (Utrecht Centraal of 1940, Rotterdam Centraal of 1957, both demolished) and Blijdorp zoo; this is his only building in Amsterdam. The stables were demolished in the 1960s and a regional bus station was built on their foundations, later moved to the Amstelstation. The block was renovated in 2019.
+
+    Look for:
+    - the long, even rhythm of the facade, rare for an Amsterdam housing block of 1931
+    - the site of the bus station behind, now redeveloped
+  category: housing
+  lat: 52.359918
+  lng: 4.910663
+  address: Van Musschenbroekstraat 2-32
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/cc07966a-f41e-4fae-9131-86a0a0845f25" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Van_Musschenbroekstraat/2-32" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200662"
+    built: 1931–1932
+    architect: Sybold van Ravesteyn
+    original_use: Flats for the ATO bus company and Van Gend & Loos
+    listed: 2013
+  sources:
+    - city:200662 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Van_Musschenbroekstraat/2-32
+  nl:
+    title: ATO-woningen van Van Ravesteyn
+    summary: "Het woonblok van een complex van stallen, garages en woningen gebouwd voor expediteur Van Gend & Loos en autobusbedrijf ATO, beide dochters van de NS. Voor zover bekend het enige gebouw van architect Sybold van Ravesteyn in Amsterdam."
+    body: |
+      Het uit appartementen bestaande gebouw is in 1931-1932 gebouwd naar een ontwerp van de bekende architect Sybold van Ravesteyn. Algemene Transport Onderneming, ofwel ATO, was een in 1927 opgerichte eigen busonderneming van de Nederlandse Spoorwegen. Uit het samengaan van de ATO, Van Doorn en Van Gend & Loos in 1948 kwam de bekende transportonderneming Van Gend & Loos voort, die tegenwoordig verdergaat als de DHL. De stallen werden in de jaren 1960 afgebroken; op de fundamenten werd een streekbusstation gebouwd. Dat werd later verplaatst naar het Amstelstation.
+
+      Voor zover bekend is dit het enige gebouw van architect Sybold van Ravesteyn (1889-1983) in Amsterdam. Van Ravesteyn was lid van de vernieuwende Groep '32 en werkte veel voor de spoorwegen: hij ontwierp onder meer diverse seinhuizen en ook een handvol stations. Het bekendst waren zijn Centraal Station van Utrecht (1935-1940, gesloopt) en dat van Rotterdam (1953-1957, ook afgebroken). Ook ontwierp hij de gebouwen van Diergaarde Blijdorp (1937-1940). In 2019 is het blok gerenoveerd.
+
+      Let op:
+      - het lange, regelmatige gevelritme van het blok
+      - de plek van het busstation erachter
+    attributes:
+      built: 1931–1932
+      architect: Sybold van Ravesteyn
+      original_use: Woningen voor ATO en Van Gend & Loos
+    sources:
+      - https://data.amsterdam.nl/monumenten/cc07966a-f41e-4fae-9131-86a0a0845f25
+      - https://amsterdamopdekaart.nl/1850-1940/Van_Musschenbroekstraat/2-32
+
+# ================================================================ Linnaeusstraat and Dapperbuurt
+
+- title: Muiderkerk tower
+  summary: "A 55 m church tower standing alone in front of a 1990s office block. The Reformed Muiderkerk of 1891 was set right in the sightline of the Oosterpark, like a folly; the church burned in 1989 and only the tower survived."
+  body: |
+    G.W. Vixseboxse built the Muiderkerk in 1891 as the twelfth church of the Dutch Reformed congregation, at a time when it was competing with the Reformed (gereformeerde) churches that had just split away. The city let him build over the building line of the Linnaeusstraat, and he placed the slender tower exactly in the sightline of the Oosterpark, so it closed the view from the park like a folly. Over the door a stone reads "Justus ut leo confidit" (the righteous is bold as a lion, Proverbs 28). The "red pastor" J.J. Buskes, known for his work among workers, preached here from the war years.
+
+    On 31 October 1989 a fire that started during roof work destroyed the church. After years of legal battles a large office and course building with a church hall by the Van Hoogevest bureau was finished behind the tower in 1996; since 2016 it holds 89 small studios. The tower, owned by Stadsherstel since 2012, still does its job as a beacon for the street and the park.
+
+    Look for:
+    - the view of the spire from inside the Oosterpark
+    - the stone with "Justus ut leo confidit" over the entrance
+  category: religious
+  lat: 52.361699
+  lng: 4.924429
+  address: Linnaeusstraat 35
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/d27e8035-9874-46b3-8e48-0646a3a3206c" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Linnaeusstraat/Muiderkerktoren" }
+    - { label: Wikipedia (nl) Muiderkerk, url: "https://nl.wikipedia.org/wiki/Muiderkerk" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "200468"
+    built: "1891"
+    architect: G.W. Vixseboxse
+    original_use: Church tower of the Dutch Reformed Muiderkerk
+    listed: 2000
+  photos:
+    - commons:File:Muiderkerk met regenboogvlag.jpg
+    - commons:File:Linnaeusstraat 37, foto 1 Jacob Olie (max res).jpg
+  sources:
+    - city:200468 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Linnaeusstraat/Muiderkerktoren
+    - https://nl.wikipedia.org/wiki/Muiderkerk
+  nl:
+    title: Toren van de Muiderkerk
+    summary: "Alleen de 55 meter hoge toren resteert van de Muiderkerk. Op 31 oktober 1989 legde een brand het schip van de kerk grotendeels in de as. Vixseboxse plaatste de toren in de zichtas van het Oosterpark."
+    body: |
+      Met de brand op 31 oktober 1989 ging met de Muiderkerk de laatste van de twee Nederlands Hervormde kerken verloren, die in de 19de eeuw gebouwd zijn. Kerkhistorisch was zij deel van de concurrentiestrijd tussen de Hervormde kerk en de gereformeerden die zich kort daarvoor van deze kerk hadden losgemaakt. Zij had een opvallende plaats, omdat Vixseboxse de toren in de zichtas van het Oosterpark plaatste en de kerk uit de rooilijn van de overige bebouwing langs de Linnaeusstraat liet springen. De hoofdingang is versierd met een gevelsteen, waarin de woorden "Justus ut leo confidit" zijn uitgehouwen. De Latijnse spreuk is ontleend aan Spreuken 28 en betekent zoveel als "De rechtvaardige is moedig als een leeuw". Een van de dominees die in de kerk gepreekt hebben was J.J. Buskes (1899-1980), die vanwege zijn evangelisatiewerk onder arbeiders bekend stond als de 'rooie dominee'.
+
+      Het enige wat nu nog van de kerk rest, is de toren waarachter een modern gebouw schuilgaat. Bij het ontwerp van dit gebouw is rekening gehouden met de aanwezigheid van de toren, waardoor de continuïteit in zijn functie van stedenbouwkundig baken gewaarborgd is. Architect was het Amersfoortse bureau Van Hoogevest; in 1996 was het pand gereed. In 2016 kwamen er 89 kleine woningen in het pand.
+
+      Let op:
+      - de spits in de zichtas vanuit het Oosterpark
+      - de gevelsteen met "Justus ut leo confidit"
+    attributes:
+      built: "1891"
+      architect: G.W. Vixseboxse
+      original_use: Kerktoren van de Nederlands Hervormde Muiderkerk
+    sources:
+      - https://data.amsterdam.nl/monumenten/d27e8035-9874-46b3-8e48-0646a3a3206c
+      - https://amsterdamopdekaart.nl/1850-1940/Linnaeusstraat/Muiderkerktoren
+
+- title: Dapperbuurt survivors
+  summary: "Two 19th-century buildings that came through the urban renewal of the Dapperbuurt: four houses of 1880 on the Commelinstraat with rare stucco window frames, and a corner café of 1897 that became a pawnshop branch, a welfare office and a squat."
+  body: |
+    Most of the 19th-century Dapperbuurt was replaced during the urban renewal of the 1970s and 80s, which makes the survivors stand out. At Commelinstraat 31-37 the contractor-architect F.J. Rootlieb built four houses with flats for the middle class in 1880. Their plastered window surrounds with little crests and the rusticated plaster in the porches are eclectic decoration found only rarely elsewhere in Amsterdam, and the window frames were recently remade in their original form. The pin is here.
+
+    At the corner of the Linnaeusstraat and the Wijttenbachstraat stands a building of 1897, built as Café Huize Vliedzorg with a hall above for theatre, singing and meetings; its first two floors are as tall as three of its neighbours'. The name came from an inn on the Linnaeusstraat that had to make way for the Oosterpark. From 1906 to 1923 it was branch no. 12 of the Stadsbank van Lening (the municipal pawnshop), then a welfare office until 1947, later a radio and bicycle shop. It decayed, was squatted as "Doerak", and was renovated in 2005–07 into flats with a café on the ground floor again.
+
+    Look for:
+    - the crested stucco window surrounds at Commelinstraat 31-37
+    - the tall ground floor and first floor of the corner building, built for a café and hall
+  category: housing
+  lat: 52.363661
+  lng: 4.92526
+  address: Commelinstraat 31-37; Wijttenbachstraat 5-7 / Linnaeusstraat 71
+  links:
+    - { label: Monumentenregister Amsterdam (Commelinstr.), url: "https://data.amsterdam.nl/monumenten/845f0ef1-a077-4360-9906-cb7944af39ab" }
+    - { label: Monumentenregister Amsterdam (Wijttenbachstr.), url: "https://data.amsterdam.nl/monumenten/a69f1fa7-8809-4baa-b237-d227cdf4aea4" }
+    - { label: Amsterdam op de kaart (Commelinstr.), url: "https://amsterdamopdekaart.nl/1850-1940/Commelinstraat/31-37" }
+    - { label: Amsterdam op de kaart (Wijttenbachstr.), url: "https://amsterdamopdekaart.nl/1850-1940/Wijttenbachstraat/5-7" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200689, 200429
+    built: 1880 (Commelinstraat); 1897 (Wijttenbachstraat)
+    architect: F.J. Rootlieb (Commelinstraat)
+    original_use: Houses with flats; café with hall
+  photos:
+    - commons:File:2022 Commelinstraat 31-37, Asd (1).jpg
+    - commons:File:2022 Commelinstraat 31-37, Asd (2).jpg
+    - commons:File:2019 Wijttenbachstraat 5-7 (1).jpg
+  sources:
+    - city:200689 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Commelinstraat/31-37
+    - https://amsterdamopdekaart.nl/1850-1940/Wijttenbachstraat/5-7
+  nl:
+    title: Overlevers in de Dapperbuurt
+    summary: "Twee negentiende-eeuwse gebouwen die de stadsvernieuwing overleefden: vier huizen met etagewoningen uit 1880 aan de Commelinstraat met zeldzaam rijke gepleisterde omlijstingen, en een hoekpand uit 1897, gebouwd als café met een zaal erboven."
+    body: |
+      Het met beneden- en bovenwoningen opgezette complex aan de Commelinstraat is in 1880 gerealiseerd naar ontwerp van architect F.J. Rootlieb. De woningen waren bestemd voor de burgerklasse. Karakteristiek zijn de gepleisterde omlijstingen met kuiven. Ook de in blokverband gestucte portiekwanden sluiten aan bij het eclectisme. Dit soort decoratieve accenten wordt elders in de hoofdstad slechts sporadisch aangetroffen, wat het complex tot een opvallende uitzondering maakt. Recent zijn de invullingen van de vensters in oorspronkelijke vormgeving vernieuwd. De speld staat hier.
+
+      Het hoekpand Wijttenbachstraat 5-7 werd gebouwd als horecagelegenheid met erboven een zaal voor toneel, zang en vergaderingen. Destijds waren de eerste twee bouwlagen samen net zo hoog als de eerste drie bij de buurpanden. Op de begane grond zat oorspronkelijk café Huize Vliedzorg. In de Linnaeusstraat heeft een uitgaansgelegenheid Nieuw Vliedzorg bestaan, die moest wijken voor de aanleg van het Oosterpark. Van 1906 tot 1923 werd het pand gebruikt als hulpbank nr. 12 van de Stadsbank van Lening. Het werd daarna verbouwd voor bureau Armbezoek en vervolgens voor bureau Sociale Zaken, dat het tot 1947 gebruikte. Het raakte in verval en werd enige tijd gekraakt; het kreeg toen de naam Doerak. Tussen 2005 en 2007 is dit pand gerenoveerd. Er kwamen appartementen en maisonnettes in. De begane grond kreeg weer een horecafunctie.
+
+      Let op:
+      - de gepleisterde vensteromlijstingen met sierkuif aan de Commelinstraat
+      - de hoge eerste twee bouwlagen van het hoekpand
+    attributes:
+      built: 1880 (Commelinstraat); 1897 (Wijttenbachstraat)
+      architect: F.J. Rootlieb (Commelinstraat)
+      original_use: Etagewoningen; café met zaal
+    sources:
+      - https://data.amsterdam.nl/monumenten/845f0ef1-a077-4360-9906-cb7944af39ab
+      - https://amsterdamopdekaart.nl/1850-1940/Commelinstraat/31-37
+      - https://amsterdamopdekaart.nl/1850-1940/Wijttenbachstraat/5-7
+
+- title: Pontanusschool and kindergarten Letter M
+  summary: "A school for the poor of 1891 with stone window frames copied from the Westerkerk, unique among Amsterdam's hundreds of public schools, and nearby one of the city's first free-standing kindergartens (1911). Both now house mosques and community centres."
+  body: |
+    Public school no. 76 at Tweede van Swindenstraat 208 was a *school der eerste klasse*, the free "pauper school" level, yet Public Works gave it a rich front in Dutch early Renaissance style, with natural stone window frames that recall Hendrick de Keyser's Westerkerk (1620). Among the city's school buildings the facade is unique. It had two big classrooms per floor and a gym at the back. In 1922 it was named Pontanusschool; the footballer Sjaak Swart was a pupil. It closed in 1974, and for a long time it has housed Turkish-Islamic institutions: the education centre Ufuk, the Stichting Islamitisch Centrum Amsterdam and the Yeni Cami prayer hall. Next door, the Dapperhoeve petting farm (1984–about 2010) has become a nature playground.
+
+    Around the corner at Pontanusstraat 278, Public Works built kindergarten Letter M in 1911, a very sober corner building with a little tower, eight classrooms and four playrooms. It is one of the first free-standing kindergartens in the city, from a time when small children were long "the child of the bill" in school laws. It now holds a parent and child centre and the Al Karama mosque. The pin is on the Pontanusschool.
+
+    Look for:
+    - the stone window frames of the Pontanusschool
+    - the corner tower of the kindergarten
+  category: schools
+  lat: 52.362556
+  lng: 4.929882
+  address: Tweede van Swindenstraat 208; Pontanusstraat 278
+  links:
+    - { label: Monumentenregister Amsterdam (Pontanusschool), url: "https://data.amsterdam.nl/monumenten/08163c9b-5dcf-4206-a18c-1126544a3804" }
+    - { label: Monumentenregister Amsterdam (Letter M), url: "https://data.amsterdam.nl/monumenten/d1a50835-7a8c-41cf-b186-67ceae68ac41" }
+    - { label: Amsterdam op de kaart (Pontanusschool), url: "https://amsterdamopdekaart.nl/1850-1940/Tweede_van_Swindenstraat/208" }
+    - { label: Amsterdam op de kaart (Letter M), url: "https://amsterdamopdekaart.nl/1850-1940/Pontanusstraat/278" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200709, 200644
+    built: 1891 (Pontanusschool); 1911 (kindergarten)
+    architect: Publieke Werken
+    original_use: Public primary school no. 76; kindergarten Letter M
+  photos:
+    - commons:File:2022 Tweede van Swindenstraat 208, Asd (1).jpg
+    - commons:File:Pontanusschool Amsterdam (Q95151304) - 2.jpg
+    - commons:File:Pontanusstraat 278, Amsterdam.jpg
+  sources:
+    - city:200709, 200644 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Tweede_van_Swindenstraat/208
+    - https://amsterdamopdekaart.nl/1850-1940/Pontanusstraat/278
+  nl:
+    title: Pontanusschool en kleuterschool Letter M
+    summary: "De voormalige Pontanusschool, een school der eerste klasse uit 1891 met natuurstenen vensterharnassen die sterk doen denken aan de Westerkerk, en kleuterschool Letter M uit 1911, één van de eerste vrijstaande kleuterscholen van de stad."
+    body: |
+      De voormalige Pontanusschool was oorspronkelijk een openbare school der eerste klasse (no. 76). Voor een school van die klasse, de "armenscholen", is het gebouw rijk gedecoreerd. De voorgevel is voorzien van een renaissancegeleding, versierd met Hollandse vroeg-renaissancistische motieven en natuurstenen vensterharnassen waardoor het sterk doet denken aan de Westerkerk (1620) van Hendrick de Keyser. De gevel is uniek in het scholen-oeuvre van Publieke Werken. School nummer 76 kreeg in 1922 een echte naam: Pontanusschool. De school werd opgeheven in de zomer van 1974. Bekende oud-leerling: voetballer Sjaak Swart. Het gebouw huisvest nu al geruime tijd Turks-islamitische instellingen: educatiecentrum Ufuk en de Stichting Islamitisch Centrum Amsterdam SICA, met een gebedsruimte, Yeni Cami. Rechts van de school kwam na de stadsvernieuwing een kinderboerderij, de Dapperhoeve; toen die rond 2010 werd gesloten werd het terrein ingericht tot 'natuurspeelplaats'.
+
+      Kleuterschool Letter M is in 1911 ontworpen door de Dienst der Publieke Werken als een vrijstaande hoekschool, een voor die tijd zeer sober vormgegeven schoolgebouw, met een toren op de hoek. Deze school is één van de eerste vrijstaande kleuterscholen van de stad. De kleuterscholen waren lang 'het kind van de rekening'. Nu is er een Ouder- en Kindcentrum in gevestigd; ook de Al Karama-moskee heeft er onderdak gevonden. De speld staat op de Pontanusschool.
+
+      Let op:
+      - de natuurstenen vensterharnassen van de Pontanusschool
+      - de hoektoren van de kleuterschool
+    attributes:
+      built: 1891 (Pontanusschool); 1911 (kleuterschool)
+      architect: Publieke Werken
+      original_use: Openbare lagere school no. 76; kleuterschool Letter M
+    sources:
+      - https://data.amsterdam.nl/monumenten/08163c9b-5dcf-4206-a18c-1126544a3804
+      - https://data.amsterdam.nl/monumenten/d1a50835-7a8c-41cf-b186-67ceae68ac41
+      - https://amsterdamopdekaart.nl/1850-1940/Tweede_van_Swindenstraat/208
+      - https://amsterdamopdekaart.nl/1850-1940/Pontanusstraat/278
+
+- title: Dappermarkt
+  summary: "One of Amsterdam's busiest street markets, in the Dapperstraat six days a week since 1910, when the city ended chaotic hawking by naming four 'vending streets'. A window of the Canon of Amsterdam."
+  body: |
+    Around 1900 the streets of the new working-class districts were full of hawkers with handcarts selling eggs, fruit and fish door to door, and the city felt hawking was getting out of hand. In 1910 it designated four *ventstraten* (vending streets) where traders could stand: the Albert Cuypstraat, the Ten Katestraat, the Lindengracht and the Dapperstraat. The Dapperstraat got its market on 10 April 1910. It has run ever since, every day except Sunday, between the Mauritskade and the Wijttenbachstraat, crossed by the Eerste van Swindenstraat. It is window 48 of the Canon of Amsterdam. Expect stalls of fabrics, vegetables, fish and cheap clothes, and the grey herons that wait by the fish stalls for scraps.
+
+    Look for:
+    - the herons waiting near the fish stalls
+    - the Dapperplein halfway along
+  category: food-drink
+  lat: 52.361585
+  lng: 4.927936
+  address: Dapperstraat
+  links:
+    - { label: Wikipedia (nl) Dappermarkt, url: "https://nl.wikipedia.org/wiki/Dappermarkt" }
+    - { label: Canon van Amsterdam, url: "https://www.amsterdam.nl/stadsarchief/stukken/historie/canon-amsterdam-2008/2001-de-dappermarkt/" }
+    - { label: Dappermarkt website, url: "https://www.dappermarkt.nl/" }
+  attributes:
+    rank: Nice
+    built: "1910"
+    original_use: Street market
+  photos:
+    - commons:File:Dappermarkt.jpg
+    - commons:File:Dappermarkt netherlands.JPG
+    - commons:File:Stadsarchief Amsterdam, Dapperstraat, 1911, ingekleurde prentbriefkaart, Afb PRKBB00340000007.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Dappermarkt
+    - https://oost-online.nl (Dapperstraat kreeg eigen markt, 19 September 2025, facts only)
+    - https://dwars-door-amsterdam-oost.nl (Het ontstaan van de Dappermarkt, facts only)
+  nl:
+    title: Dappermarkt
+    summary: "De Dappermarkt is een markt in de Dapperstraat in Amsterdam-Oost en een van de drukstbezochte markten van Amsterdam. De Dapperstraat werd in 1910 als 'ventstraat' aangewezen. Venster nummer 48 van de Canon van Amsterdam."
+    body: |
+      De Dappermarkt is een markt in de Dapperstraat in Amsterdam-Oost. Het Dappermarktgebied wordt begrensd door de Wijttenbachstraat en de Mauritskade en wordt doorkruist door de Eerste van Swindenstraat. Het is een van de drukstbezochte markten van Amsterdam. De markt wordt op de zondag na dagelijks gehouden en trekt veel bezoekers, ook van buiten de stad. Aan het begin van de twintigste eeuw dreigde het venten volledig uit de hand te lopen en zag de gemeente zich genoodzaakt in te grijpen. De Dapperstraat werd, naast de Albert Cuypstraat, Ten Katestraat en Lindengracht, in 1910 als 'ventstraat' aangewezen. Op 10 april 1910 kreeg de Dapperstraat er een eigen markt bij. De Dappermarkt is venster nummer 48 van de Canon van Amsterdam.
+
+      Let op:
+      - de reigers bij de viskramen
+      - het Dapperplein halverwege
+    attributes:
+      built: "1910"
+      original_use: Markt
+    sources:
+      - https://nl.wikipedia.org/wiki/Dappermarkt
+      - https://oost-online.nl
+      - https://dwars-door-amsterdam-oost.nl
+
+- title: Suriname Museum in the 1882 double school
+  summary: "A richly ornamented double school of 1882, where children with even and odd house numbers went to separate schools. Since 1975 the home of Ons Suriname; in 2025 the Suriname Museum opened in it, with a mural of Surinamese and black heroes outside."
+  body: |
+    Public Works built this school in 1882 for two free primary schools, nos. 31 and 36, for children from the Kadijken and Oost east of the Linnaeusstraat: one school for children with an even house number, the other for odd numbers. About 700 pupils were taught here. The brick facade is loaded with ornament harking back to the Middle Ages and the Dutch and Flemish Renaissance, with the three St. Andrew's crosses of Amsterdam and a banner reading "ANNO 1882" on the central gable.
+
+    After the war no. 21 held a branch of the university's zoological museum. In 1975 it was taken over by the association Ons Suriname, which grew out of the Bond van Surinamers founded in Amsterdam in 1919, and named it the Hugo Olijfveldhuis; Ons Suriname bought the building in 1994. A small Surinamese history museum was here in 1990–94, and since 2016 The Black Archives too. After a thorough rebuild, the Suriname Museum opened on 26 September 2025, with 1,300 m² of exhibition space from basement to attic; King Willem-Alexander officially opened it on 25 November 2025. No. 23 has been a day-care centre since the neighbourhood house Ons Huis closed in 1988.
+
+    Look for:
+    - "ANNO 1882" and the three St. Andrew's crosses on the middle gable
+    - the twin entrances for the two schools
+    - the mural "Muur van Surinaamse en zwarte helden" beside the museum
+  category: odd-museums
+  lat: 52.366098
+  lng: 4.927936
+  address: Zeeburgerdijk 19-23
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/0fcc4a3a-bd03-4464-a7d2-41305e545cc0" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Zeeburgerdijk/21-23" }
+    - { label: Wikipedia (nl) Suriname Museum, url: "https://nl.wikipedia.org/wiki/Suriname_Museum" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200698"
+    built: "1882"
+    architect: Publieke Werken
+    original_use: Double primary school (nos. 31 and 36)
+    artist: Hedy Tjin and Dewy Elsinga (mural)
+    listed: 2013
+  photos:
+    - commons:File:2025 Zeeburgerdijk 21-23, Asd (A).jpg
+    - commons:File:Suriname Museum 2025 - 08.jpg
+    - commons:File:Zeeburgerdijk 21-23 foto 1.JPG
+    - commons:File:2025 Suriname Museum, Asd (A).jpg
+  sources:
+    - city:200698 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Zeeburgerdijk/21-23
+    - https://nl.wikipedia.org/wiki/Suriname_Museum
+  nl:
+    title: Suriname Museum in de dubbele school van 1882
+    summary: "Gebouw voor twee lagere scholen der eerste klasse uit 1882: de ene school voor kinderen met een even huisnummer, de andere voor die met een oneven huisnummer. Sinds 1975 in gebruik bij Ons Suriname; in 2025 opende hier het Suriname Museum."
+    body: |
+      Gebouw voor twee lagere scholen der eerste klasse, de scholen met nummers 31 en 36. Ze waren bedoeld voor kinderen van de Kadijken en uit Oost ten oosten van de Linnaeusstraat: de ene school voor kinderen met een adres met een even huisnummer, de andere voor die met een oneven huisnummer. In totaal werd hier aan zevenhonderd leerlingen les gegeven. De gevel in ooit rode baksteen is rijkelijk voorzien van ornamenten; de stijl grijpt terug op de middeleeuwen en de Hollandse/Vlaamse renaissance. Boven de ingangen bevindt zich een uitkragende tuitgevel met guirlandes waarop de drie Andreaskruisen aangebracht zijn en een banderol met de datum van het bouwjaar: ANNO 1882.
+
+      Na de oorlog kwam in nummer 21 onder meer een dependance van het zoölogisch museum van de universiteit. Dit gebouwdeel werd in 1975 in gebruik genomen door de vereniging Ons Suriname en kreeg toen de naam Hugo Olijfveldhuis. De vereniging kwam voort uit de in 1919 te Amsterdam opgerichte Bond van Surinamers in Nederland. In een klaslokaal huisde van 1990 tot 1994 het Surinaams Historisch Museum. Sinds 2016 biedt Ons Suriname onderdak aan The Black Archives. Het Suriname Museum werd geopend op 26 september 2025; de officiële opening door koning Willem-Alexander vond op 25 november 2025 plaats. Links naast het museum bevindt zich de muurschildering Muur van Surinaamse en zwarte helden van Hedy Tjin en Dewy Elsinga. Op nummer 23 is sinds 1988 een kinderdagverblijf gevestigd.
+
+      Let op:
+      - de banderol met ANNO 1882 en de drie Andreaskruisen
+      - de twee ingangen voor de twee scholen
+      - de muurschildering Muur van Surinaamse en zwarte helden
+    attributes:
+      built: "1882"
+      architect: Publieke Werken
+      original_use: Dubbele lagere school (nrs. 31 en 36)
+      artist: Hedy Tjin en Dewy Elsinga (muurschildering)
+    sources:
+      - https://data.amsterdam.nl/monumenten/0fcc4a3a-bd03-4464-a7d2-41305e545cc0
+      - https://amsterdamopdekaart.nl/1850-1940/Zeeburgerdijk/21-23
+      - https://nl.wikipedia.org/wiki/Suriname_Museum
+
+# ================================================================ Muiderpoort station
+
+- title: Muiderpoortstation and its signal box
+  summary: "Schelling's station of 1939, squeezed into the fork between two railway embankments, with a glass window of migrating birds by Campendonk and a Nieuwe Bouwen signal box on top. The hall has been closed to the public since 1998."
+  body: |
+    The station was part of the Spoorwegwerken Oost, which lifted the eastern railway lines onto embankments and replaced dangerous level crossings with viaducts. H.G.J. Schelling, architect of the Dutch Railways, had to fit it into a trapezium between the embankments and the Insulindeweg underpass; a newspaper in 1939 called the result a "wonderful entrance to the big city", intimate and calm, on a little square. The eastern half opened in 1937, the western in 1939, and the official opening was on 15 October 1939. In the hall were six ticket windows, kiosks and a round stained-glass window by Heinrich Campendonk showing migrating birds, an allegory of travel. The signal box of 1936–38, the highest part of the complex, is a crisp piece of Nieuwe Bouwen and was listed nationally in 2003; the rest followed as a municipal monument in 2014.
+
+    After a rebuild in 1998 the platforms were reached directly from the viaducts and the hall was closed to the public; the last ticket window shut around 2002. On the station wall facing the square, the late Fabrice Hünd's mosaic *Scherven van Beschaving* (Shards of Civilisation, 2010) of thousands of china shards replaced a mural of his own.
+
+    Look for:
+    - the round Campendonk window with birds in the north wall
+    - the signal box with its band of windows above the tracks
+    - Hünd's shard mosaic on the wall by the square
+  category: infrastructure
+  lat: 52.360799
+  lng: 4.931192
+  address: Oosterspoorplein 1-6
+  links:
+    - { label: Rijksmonumentenregister (526982), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526982" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/8fb4579f-45f6-4bf7-aaf9-73e39f7c0788" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Oosterspoorplein/1" }
+    - { label: Wikipedia (nl) Station Muiderpoort, url: "https://nl.wikipedia.org/wiki/Station_Amsterdam_Muiderpoort" }
+    - { label: Stadscuratorium Scherven van Beschaving, url: "https://stadscuratorium.nl/collectie/scherven-van-beschaving/" }
+  attributes:
+    rank: Nice
+    heritage_status: National + municipal monument
+    monument_number: 526982, 200743
+    built: 1936–1939
+    architect: H.G.J. Schelling
+    original_use: Railway station and signal box
+    artist: Heinrich Campendonk (window); Fabrice Hünd (mosaic, 2010)
+    listed: 2003
+  photos:
+    - commons:File:Station Amsterdam Muiderpoort (2025)-1.jpg
+    - commons:File:Seinhuis Muiderpoortstation (1).JPG
+    - commons:File:Muiderpoort boven.jpg
+    - commons:File:Scherven van Beschaving Fabrice Hund Muiderpoorstation Amsterdam.jpg
+    - commons:File:HUA-150097-Gezicht op het N.S.-station Amsterdam Muiderpoort te Amsterdam. Rechts het seinhuis.jpg
+  sources:
+    - rce:526982 (register description)
+    - city:200743 (register text)
+    - https://amsterdamopdekaart.nl/1850-1940/Oosterspoorplein/1
+    - https://nl.wikipedia.org/wiki/Station_Amsterdam_Muiderpoort
+    - https://stadscuratorium.nl/collectie/scherven-van-beschaving/
+  nl:
+    title: Muiderpoortstation en seinhuis
+    summary: "Het uit 1937-1939 daterende stationscomplex van H.G.J. Schelling, eng besloten in de vork van de spoordijken, met een glas-in-loodraam met trekkende vogels van Campendonk. De stationshal is sinds 1998 niet meer voor het publiek toegankelijk."
+    body: |
+      Het station werd gebouwd als onderdeel van de Spoorwegwerken Oost, waarmee de spoorlijnen op dijklichamen werden gelegd en alle straten met viaducten werden overbrugd. Het station werd in twee stappen in gebruik genomen. In 1937 was het oostelijke deel gereed, voor treinen richting Hilversum. Twee jaar later volgde het westelijke deel, voor verkeer richting Utrecht; op 15 oktober 1939 werd het geopend. Een dagblad schreef: "Zoo is het nieuwe Muiderpoortstation gelegen aan een binnenpleintje, wonderlijke entree in de groote stad Amsterdam! Intiem en rustig is trouwens de geheele atmosfeer van dit merkwaardig stationsgebouw." Symbolisch is de reisillusie verbeeld in een groot rond venster in de hal: een door prof. Campendonk ontworpen glas-in-loodraam met trekkende vogels. Het seinhuis werd in 2003 aangewezen als rijksmonument; de overige gebouwen van het complex werden in 2014 gemeentelijk monument.
+
+      In 1998 vond een ingrijpende verbouwing plaats waarbij nieuwe onderdoorgangen in de spoordijken werden gemaakt om de perrons toegankelijk te maken zonder gebruik te hoeven maken van de stationshal. Deze hal is sindsdien niet meer voor het publiek toegankelijk. Aan de gevel bij het plein maakte Fabrice Hünd het mozaïek 'Scherven van Beschaving': duizenden scherven die gezamenlijk één wereld vertegenwoordigen. Zijn eerdere wandschildering op die plek kreeg ouderdomsverschijnselen, daarom besloot Fabrice er een mozaïek van te maken.
+
+      Let op:
+      - het ronde glas-in-loodraam met trekkende vogels
+      - het seinhuis boven het spoor
+      - het scherfmozaïek van Fabrice Hünd
+    attributes:
+      built: 1936–1939
+      architect: H.G.J. Schelling
+      original_use: Spoorwegstation en seinhuis
+      artist: Heinrich Campendonk (raam); Fabrice Hünd (mozaïek, 2010)
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/526982
+      - https://data.amsterdam.nl/monumenten/8fb4579f-45f6-4bf7-aaf9-73e39f7c0788
+      - https://amsterdamopdekaart.nl/1850-1940/Oosterspoorplein/1
+      - https://nl.wikipedia.org/wiki/Station_Amsterdam_Muiderpoort
+      - https://stadscuratorium.nl/collectie/scherven-van-beschaving/
+
+- title: Muiderpoort deportation memorial
+  summary: "A plaque and a bench on the station square. Between 3 October 1942 and 26 May 1944 more than 11,000 Jews were taken from this station to the transit camp Westerbork; most were murdered in the extermination camps."
+  body: |
+    From the autumn of 1942 Jews rounded up in Amsterdam were gathered, mostly in the Hollandsche Schouwburg, and taken by tram to the Muiderpoort station, where trains left for Westerbork in Drenthe. From there almost all were sent on to the camps in Germany and occupied Poland. Between 3 October 1942 and 26 May 1944 more than eleven thousand people left from here.
+
+    The memorial, unveiled by mayor Job Cohen on 3 October 2002 with survivors and members of the Nederlands Auschwitz Comité present, is quiet on purpose. A plaque in a small planted bed carries the facts. On an ordinary three-seat metal city bench just outside it, the graphic designer Steffen Maas milled lines by the poet Victor E. van Vriesland into the backrest and seat: "Tocht er door hun schimmen / Nog een stroom van lang, / Lang vergeten namen..." (Does a stream of long, long forgotten names still pass through their shades?). Commemorations are held here around 4 May and on the anniversary of Kristallnacht.
+
+    Look for:
+    - the plaque with the dates in the planted bed
+    - the poem cut into the middle seat of the bench
+  category: hidden-history
+  lat: 52.36045
+  lng: 4.93135
+  address: Oosterspoorplein
+  links:
+    - { label: Wikipedia (nl) Gedenkteken Muiderpoortstation, url: "https://nl.wikipedia.org/wiki/Gedenkteken_Muiderpoortstation" }
+    - { label: 4 en 5 mei oorlogsmonumenten, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken" }
+  attributes:
+    rank: Nice
+    built: "2002"
+    artist: Steffen Maas (design); Victor E. van Vriesland (poem)
+    original_use: Memorial
+  photos:
+    - commons:File:MuiderpoortStationMonument4mei.jpg
+    - commons:File:Informatiebord oorlogsmonument Muiderpoortstation.jpg
+    - commons:File:MuiderpoortStation4mei.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Gedenkteken_Muiderpoortstation
+  nl:
+    title: Deportatiemonument Muiderpoortstation
+    summary: "Het gedenkteken is in 2002 geplaatst ter nagedachtenis aan de meer dan 11.000 Joden die vanaf Station Amsterdam Muiderpoort tussen 3 oktober 1942 en 26 mei 1944 naar het doorgangskamp Westerbork werden gedeporteerd. De meesten zijn vermoord in de vernietigingskampen."
+    body: |
+      Het Gedenkteken Muiderpoortstation, ook wel Deportatiemonument Muiderpoortstation, is in 2002 geplaatst ter nagedachtenis aan de meer dan 11.000 Joden die vanaf Station Amsterdam Muiderpoort in eerste instantie naar het doorgangskamp Westerbork werden gedeporteerd. Degenen die dat kamp wisten te overleven werden verder afgevoerd naar de concentratie- en vernietigingskampen van Nazi-Duitsland. Het monument bestaat uit twee delen, beide voorzien van grafische kunst van grafisch ontwerper Steffen Maas. In het perkje staat een plaquette met de tekst: "Vanaf dit station zijn tussen 3 oktober 1942 en 26 mei 1944 ruim elfduizend joden naar het doorgangskamp Westerbork weggevoerd. De meesten zijn vermoord in de vernietigingskampen in Midden-Europa."
+
+      Het tweede deel is te vinden op een gedenkbankje juist buiten het perkje. In een voor deze wijk standaard metalen bankje met drie zetels is in de middelste leuning en zetel de tekst uitgefreesd: "Tocht er door hun schimmen / Nog een stroom van lang, / Lang vergeten namen / Lang vergeten ogen? / Zullen wij nog weten / Dat we ons vergeten / Zijn vergeten" (Viktor E. van Vriesland). Burgemeester Job Cohen onthulde het op 3 oktober 2002 in bijzijn van enkele deelraadbestuurders, leden van het Nederlands Auschwitz Comité en een enkele overlevende.
+
+      Let op:
+      - de plaquette in het perkje
+      - het gedicht in de middelste leuning en zetel van het bankje
+    attributes:
+      built: "2002"
+      artist: Steffen Maas (ontwerp); Victor E. van Vriesland (gedicht)
+      original_use: Gedenkteken
+    sources:
+      - https://nl.wikipedia.org/wiki/Gedenkteken_Muiderpoortstation
+
+- title: Flowers by Karel Appel
+  summary: "A dark bronze still life by Karel Appel on the station square: a big flower and rough planks lying on a slab over a granite drum. Placed in 2002 near the Dapperstraat, where the CoBrA painter was born in 1921."
+  body: |
+    Karel Appel (1921–2006), the most famous painter of the CoBrA movement, was born in the Dapperstraat, a few hundred metres from here. In 2002 his bronze sculpture *Flowers* (1991) was placed on the Oosterspoorplein as a nod to the neighbourhood's best-known son. It is not the bright bouquet you might expect from Appel: on a thick slab over a dark granite drum lie a large, scalloped flower head and a pile of rough planks, all cast in dark bronze, with the grain of the wood still visible. It stands among the bike racks by the station, and many people pass it without knowing who made it.
+
+    Look for:
+    - the wood grain cast into the bronze planks
+    - "FLOWERS Karel Appel 1991" cut into the granite drum
+  category: street-art
+  lat: 52.360261
+  lng: 4.931586
+  address: Oosterspoorplein
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://buitenkunstamsterdam.nl/" }
+    - { label: Wikipedia (en) Karel Appel, url: "https://en.wikipedia.org/wiki/Karel_Appel" }
+  attributes:
+    rank: Okay
+    built: 1991 (placed 2002)
+    artist: Karel Appel
+    original_use: Sculpture
+  photos:
+    - commons:File:Flowers Karel Appel Oosterspoorplein Muiderpoort station Amsterdam.jpg
+  sources:
+    - https://buitenkunstamsterdam.nl/ (object page Flowers, facts only)
+    - https://nl.wikipedia.org/wiki/Karel_Appel
+  nl:
+    title: Flowers van Karel Appel
+    summary: "Een bronzen bloemenbeeld van Karel Appel uit 1991 op het Oosterspoorplein, in 2002 geplaatst vlak bij de Dapperstraat, waar de CoBrA-schilder in 1921 werd geboren."
+    body: |
+      Karel Appel (1921-2006), de bekendste schilder van de CoBrA-beweging, werd geboren in de Dapperstraat. In 2002 werd zijn bronzen beeld Flowers uit 1991 op het Oosterspoorplein bij het Muiderpoortstation geplaatst.
+
+      Let op:
+      - de houtnerf in de bronzen planken
+      - 'FLOWERS Karel Appel 1991' in de granieten sokkel
+    attributes:
+      built: 1991 (geplaatst 2002)
+      artist: Karel Appel
+      original_use: Beeld
+    sources:
+      - https://buitenkunstamsterdam.nl/
+      - https://nl.wikipedia.org/wiki/Karel_Appel
+
+# ================================================================ Oostergasfabriek
+
+- title: Oostergasfabriek remains and U Bevindt Zich Hier
+  summary: "What is left of the eastern gasworks of 1887: half of the retort house, since 1929 the first Sportfondsenbad of the Netherlands, the engineer's villa, and the ammonia factory that was an animal shelter for 80 years. Along the quay, 22 white columns honour people of Oost."
+  body: |
+    The Imperial Continental Gas Association opened the Oostergasfabriek in 1887 on land then still in Nieuwer-Amstel; the city took it over in 1898 and closed it in 1923. The design is credited to Isaac Gosschalk, but his assistants B.J. Ouëndag or J.N. Landré probably drew it, with J. Pazzani doing the works. The *stokerij* (retort house), where coal was heated to release gas, once had five halls; three were demolished in the late 1920s. The northern part became the first Sportfondsenbad of the Netherlands in 1929, a pool paid for by public shares, with an instruction pool in the basement and an outdoor pool that was used as an ice rink in winter. The southern part served as a soup kitchen and a milk factory. The pool still runs as Sportfondsenbad Oost.
+
+    The villa with offices at Land van Cocagneplein 1 housed the assistant engineer and marked the main gate; it is the only one of its kind left on the site. Far east by the ring canal, the ammonia factory turned gas-washing water into fertiliser; from 1927 to 2007 it was the Asyl animal shelter and since 2017 it is the brewery Poesiat & Kater. On the square, a crisp 1930 block by J.J.B. Franswa has a fixed shop awning, new at the time, a corner tower and the same menswear shop since it opened. Along the Oranje-Vrijstaatkade Martijn Sandberg's *U Bevindt Zich Hier* (You Are Here, 2019) lines up 22 white concrete columns honouring people and groups of 20th-century Oost; since December 2017 only women are added until the count is equal. The pin is on the retort house.
+
+    Look for:
+    - the two surviving retort halls with their row of gables on the Oranje-Vrijstaatkade
+    - the columns' texts, such as "Geen aanrecht maar kiesrecht"
+    - the long ventilation hood of the ammonia factory on the Polderweg
+    - the awning and corner tower of the Franswa block
+  category: industrial
+  lat: 52.35618
+  lng: 4.92892
+  address: Oranje-Vrijstaatkade 21 / Land van Cocagneplein 1-44 / Polderweg 648
+  links:
+    - { label: Monumentenregister Amsterdam (stokerij), url: "https://data.amsterdam.nl/monumenten/9a32d662-086c-4b80-9046-bf218b99f24f" }
+    - { label: Monumentenregister Amsterdam (villa), url: "https://data.amsterdam.nl/monumenten/e58b7fdf-5caf-40e1-9346-47a64969afed" }
+    - { label: Monumentenregister Amsterdam (ammonia), url: "https://data.amsterdam.nl/monumenten/db9aa8a0-a783-4b9d-8a22-048475df9738" }
+    - { label: Monumentenregister Amsterdam (Franswa), url: "https://data.amsterdam.nl/monumenten/f79cbda7-f47c-4a0f-93b3-2d8b29d73ce2" }
+    - { label: U bevindt zich hier, url: "https://u-bevindt-zich-hier.nl/" }
+    - { label: Wikipedia (nl) Oostergasfabriek, url: "https://nl.wikipedia.org/wiki/Oostergasfabriek" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200525, 200526, 200519, 200430
+    built: 1886–1887 (gasworks); 1927–1929 (pool); 1930 (Franswa block); 2019 (columns)
+    architect: Isaac Gosschalk office (B.J. Ouëndag or J.N. Landré), J. Pazzani; Chr. van Amstel (pool); J.J.B. Franswa
+    original_use: Gasworks; housing
+    artist: Martijn Sandberg (U Bevindt Zich Hier)
+  photos:
+    - commons:File:2019 Oranje-Vrijstaatkade 21 etc. (1).jpg
+    - commons:File:2019 Land van Cocagneplein 1ABC (1).jpg
+    - commons:File:U bevindt zich hier, overzicht.jpg
+    - commons:File:U bevindt zich hier-15.Geen aanrecht maar kiesrecht.jpg
+    - commons:File:Zwemmen in Sportfondsenbad oost, Bestanddeelnr 906-3394.jpg
+    - commons:File:Land van Cocagneplein in Amsterdam (2018).jpg
+  sources:
+    - city:200525, 200526, 200519 (register texts)
+    - https://amsterdamopdekaart.nl/1850-1940/Land_van_Cocagneplein/44
+    - https://amsterdamopdekaart.nl/1850-1940/Polderweg/648
+    - https://amsterdamopdekaart.nl/1850-1940/Nirwana/4-12
+    - https://nl.wikipedia.org/wiki/Oostergasfabriek
+    - https://stadscuratorium.nl/collectie/u-bevindt-zich-hier/
+    - https://u-bevindt-zich-hier.nl/
+  nl:
+    title: Restanten van de Oostergasfabriek en U Bevindt Zich Hier
+    summary: "De Oostergasfabriek maakte van 1887 tot 1923 gas uit steenkolen. Er resteren de halve stokerij, sinds 1929 het eerste Sportfondsenbad van Nederland, de ingenieurswoning en de ammoniakfabriek, tachtig jaar dierenasiel. Langs de kade staan witte zuilen met tekst."
+    body: |
+      De Oostergasfabriek is een voormalige gasfabriek waar van 1887 tot 1923 gas gemaakt werd uit steenkolen. Net als de Westergasfabriek was de fabriek opgericht door de Engelse Imperial Continental Gas Association. In 1898 werd de fabriek overgenomen door de gemeente Amsterdam. Oorspronkelijk bestond de stokerij uit vijf hallen. Alleen de twee westelijke bestaan nu nog. In de stokerij werd steenkolen verhit waardoor gas vrijkwam. Nadat de gasfabriek in 1923 werd gesloten, werd het zuidelijke deel van het gebouw onder meer gebruikt als gaarkeuken en melkfabriek. Het noordelijke deel werd in 1927-1929 verbouwd tot het eerste Sportfondsenbad van Nederland (architect: Chr. van Amstel). In 1935 kreeg het zwembad een buitenbad, dat 's winters als ijsbaan werd gebruikt. Vermoedelijk heeft Gosschalk het pand niet zelf ontworpen, maar is het van de hand van een van zijn medewerkers: B.J. Ouëndag of J.N. Landré.
+
+      Het villa-achtige woonhuis met kantoorruimten aan het Land van Cocagneplein 1 is het enige in zijn soort overgebleven exemplaar op het Oostergasfabriekterrein. De voormalige ammoniakfabriek werd met het oog op explosiegevaar op de meest oostelijke punt van het terrein gebouwd. Na de sluiting van de gasfabriek diende het pand vanaf 1927 tot in de 21ste eeuw als dierenasiel; sindsdien functioneert de langste ventilatiekap als 'naamplaat'. Sinds 2017 zit hier brouwerij Poesiat & Kater. Het strakke blok van Franswa aan het plein heeft een vaste winkelluifel en een hoektoren; zo'n luifel was destijds nog een nieuw verschijnsel. Langs de oude gevels aan de Oranje-Vrijstaatkade staan blokken wit beton met tekst van Martijn Sandberg: 'U Bevindt Zich Hier', het afsluitende onderdeel van het project 'Erfenis van de Twintigste Eeuw'. De speld staat op de stokerij.
+
+      Let op:
+      - de twee overgebleven hallen van de stokerij
+      - de teksten op de witte zuilen
+      - de lange ventilatiekap van de ammoniakfabriek aan de Polderweg
+      - de vaste winkelluifel en de hoektoren van het blok van Franswa
+    attributes:
+      built: 1886–1887 (gasfabriek); 1927–1929 (zwembad); 1930 (blok Franswa); 2019 (zuilen)
+      architect: bureau Isaac Gosschalk (B.J. Ouëndag of J.N. Landré), J. Pazzani; Chr. van Amstel (zwembad); J.J.B. Franswa
+      original_use: Gasfabriek; woningen
+      artist: Martijn Sandberg (U Bevindt Zich Hier)
+    sources:
+      - https://data.amsterdam.nl/monumenten/9a32d662-086c-4b80-9046-bf218b99f24f
+      - https://data.amsterdam.nl/monumenten/e58b7fdf-5caf-40e1-9346-47a64969afed
+      - https://data.amsterdam.nl/monumenten/db9aa8a0-a783-4b9d-8a22-048475df9738
+      - https://amsterdamopdekaart.nl/1850-1940/Land_van_Cocagneplein/44
+      - https://amsterdamopdekaart.nl/1850-1940/Polderweg/648
+      - https://amsterdamopdekaart.nl/1850-1940/Nirwana/4-12
+      - https://nl.wikipedia.org/wiki/Oostergasfabriek
+      - https://stadscuratorium.nl/collectie/u-bevindt-zich-hier/
+
+- title: Noch Einmal, the giant leg
+  summary: "A six-metre bronze right leg, cut off at the thigh, standing between the Polderweg and the railway. Henk Visch made it for Ymere around 2010; after years in Amersfoort it finally set foot here in 2018."
+  body: |
+    Henk Visch has cast this leg in many sizes; the title (German for "once more") refers to his habit of casting a new one each time a copy is sold. The housing association Ymere ordered a giant version, six metres tall and over 1,000 kg, around 2010. It was meant for Haarlem, but that plan fell through, and the leg stood for years outside Kunsthal KAdE in Amersfoort after a Visch exhibition. When the redevelopment of the Oostergasfabriek site was finished in 2018, Ymere brought it to Amsterdam: dug up in Amersfoort in June and unveiled here in August, between the Polderweg and the embankment of the Amersfoort line. It was the last artwork Ymere placed in public space. The leg is cut off somewhere in the thigh, so nobody can say whose it is; Visch has said part of the inspiration was the head of Nefertiti.
+
+    Look for:
+    - the casting marks all over the bronze
+    - how the leg seems to stand firm from one side and to step from another
+  category: street-art
+  lat: 52.358009
+  lng: 4.93562
+  address: Polderweg, by the railway
+  links:
+    - { label: Stadscuratorium, url: "https://stadscuratorium.nl/collectie/noch-einmal/" }
+    - { label: Wikipedia (nl) Noch einmal, url: "https://nl.wikipedia.org/wiki/Noch_einmal" }
+  attributes:
+    rank: Nice
+    built: about 2010 (placed 2018)
+    artist: Henk Visch
+    original_use: Sculpture
+  photos:
+    - commons:File:Noch Einmal, Henk Visch (1).jpg
+    - commons:File:Noch Einmal, Henk Visch (2).jpg
+    - commons:File:Noch Einmal, Henk Visch (3).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Noch_einmal
+    - https://stadscuratorium.nl/collectie/noch-einmal/
+  nl:
+    title: Noch Einmal, het reuzenbeen
+    summary: "Aan de Polderweg langs het spoor staat een gigantisch bronzen rechterbeen van Henk Visch, zes meter hoog en ruim duizend kilo. Ymere bestelde het rond 2010; in 2018 verhuisde het van Amersfoort naar Amsterdam."
+    body: |
+      Aan de Polderweg langs het spoor staat een gigantisch bronzen rechterbeen. Het zes meter hoge kunstwerk van ruim duizend kilo is gemaakt door kunstenaar Henk Visch en is getiteld Noch Einmal. De naam verwijst naar het recyclen van het originele ontwerp; iedere keer als Visch een exemplaar verkoopt laat hij nog een been gieten. Ymere had voor haar kunstverzameling al een reusachtig exemplaar besteld rond 2010. Het was bedoeld als een cadeau aan de stad Haarlem maar het beeld werd daar niet geplaatst. Het werd geplaatst in Amersfoort, bij Kunsthal KAdE, voor een solotentoonstelling omtrent Visch. Bij de voltooiing van de herinrichting van de terreinen van de Oostergasfabriek in 2018 vond Ymere de tijd rijp het beeld naar Amsterdam te halen om het te plaatsen tussen de Polderweg en het dijklichaam van de spoorlijn Amsterdam - Amersfoort. Het was het laatste kunstwerk dat Ymere in de openbare ruimte zou neerzetten. Omdat de kunstenaar het been ergens in het bovenbeen heeft afgesneden is onduidelijk bij welk geslacht het been hoort.
+
+      Let op:
+      - de tekenen van het gieten over het hele beeld
+      - het been dat van de ene kant stil lijkt te staan en van de andere kant in beweging
+    attributes:
+      built: ca. 2010 (geplaatst 2018)
+      artist: Henk Visch
+      original_use: Beeld
+    sources:
+      - https://nl.wikipedia.org/wiki/Noch_einmal
+      - https://stadscuratorium.nl/collectie/noch-einmal/
