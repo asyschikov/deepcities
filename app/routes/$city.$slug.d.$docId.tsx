@@ -19,6 +19,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { z } from "zod/v4";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
+import { CoverPhoto } from "~/components/CoverPhoto";
 import { MarkdownView } from "~/components/MarkdownView";
 import { PhotoCredit } from "~/components/PhotoCredit";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
@@ -168,10 +169,11 @@ const DocumentPage = () => {
 
         {cover && (
           <figure className="space-y-1">
-            <img
-              src={photoUrl(cover)}
+            <CoverPhoto
+              id={cover}
               alt=""
-              className="aspect-[4/3] w-full rounded-lg bg-muted object-cover"
+              width={photoById.get(cover)?.width}
+              height={photoById.get(cover)?.height}
             />
             <PhotoCredit photo={photoById.get(cover)} />
           </figure>

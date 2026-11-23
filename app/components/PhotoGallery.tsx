@@ -1,4 +1,5 @@
 import { useNavigate, useSearch } from "@tanstack/react-router";
+import { CoverPhoto } from "~/components/CoverPhoto";
 import { PhotoCredit, type PhotoMeta } from "~/components/PhotoCredit";
 import { cn, photoUrl } from "~/lib/utils";
 
@@ -29,14 +30,16 @@ export const Gallery = ({
     });
   const current = photoIds[index] ?? photoIds[0];
   if (!current) return null;
+  const meta = photos.find((p) => p.id === current);
   return (
     <div className="space-y-2">
-      <img
-        src={photoUrl(current)}
+      <CoverPhoto
+        id={current}
         alt={title}
-        className="aspect-[4/3] w-full rounded-lg bg-muted object-cover"
+        width={meta?.width}
+        height={meta?.height}
       />
-      <PhotoCredit photo={photos.find((p) => p.id === current)} />
+      <PhotoCredit photo={meta} />
       {photoIds.length > 1 && (
         <div className="flex gap-1.5 overflow-x-auto">
           {photoIds.map((id, i) => (
