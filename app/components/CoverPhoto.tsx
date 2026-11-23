@@ -12,12 +12,17 @@ export const CoverPhoto = ({
   width,
   height,
   className,
+  onOpen,
+  openLabel,
 }: {
   id: string;
   alt: string;
   width?: number;
   height?: number;
   className?: string;
+  /** Makes the photo a button, e.g. to open it full size. */
+  onOpen?: () => void;
+  openLabel?: string;
 }) => {
   const [loaded, setLoaded] = useState<{ id: string; tall: boolean } | null>(
     null,
@@ -27,10 +32,15 @@ export const CoverPhoto = ({
       ? loaded.tall
       : width !== undefined && height !== undefined && height > width;
   const src = photoUrl(id);
+  const Frame = onOpen ? "button" : "div";
   return (
-    <div
+    <Frame
+      {...(onOpen
+        ? { type: "button" as const, onClick: onOpen, "aria-label": openLabel }
+        : {})}
       className={cn(
-        "relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-muted",
+        "relative block aspect-[4/3] w-full overflow-hidden rounded-lg bg-muted",
+        onOpen && "cursor-zoom-in",
         className,
       )}
     >
@@ -54,6 +64,6 @@ export const CoverPhoto = ({
           tall ? "object-contain" : "object-cover",
         )}
       />
-    </div>
+    </Frame>
   );
 };

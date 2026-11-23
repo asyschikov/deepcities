@@ -1,6 +1,9 @@
 import { useNavigate, useSearch } from "@tanstack/react-router";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { CoverPhoto } from "~/components/CoverPhoto";
 import { PhotoCredit, type PhotoMeta } from "~/components/PhotoCredit";
+import { PhotoViewer } from "~/components/PhotoViewer";
 import { cn, photoUrl } from "~/lib/utils";
 
 export type { PhotoMeta };
@@ -18,6 +21,8 @@ export const Gallery = ({
   // The shown photo is in the URL (`?photo=2`), so links share it.
   const { photo: index = 0 } = useSearch({ from: "/$city/$slug" });
   const navigate = useNavigate();
+  const { t } = useTranslation();
+  const [viewing, setViewing] = useState(false);
   const setIndex = (i: number) =>
     navigate({
       to: ".",
@@ -38,6 +43,17 @@ export const Gallery = ({
         alt={title}
         width={meta?.width}
         height={meta?.height}
+        onOpen={() => setViewing(true)}
+        openLabel={t("photo_open")}
+      />
+      <PhotoViewer
+        photoIds={photoIds}
+        photos={photos}
+        index={photoIds.indexOf(current)}
+        onIndexChange={setIndex}
+        open={viewing}
+        onOpenChange={setViewing}
+        title={title}
       />
       <PhotoCredit photo={meta} />
       {photoIds.length > 1 && (
