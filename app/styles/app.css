@@ -121,7 +121,9 @@
 .dc-marker[data-active="true"] {
   z-index: 2;
 }
+/* Keep PIN_HOVER_SCALE in MapView in step: the halo centres on the grown head. */
 .dc-marker:hover .dc-marker-shape,
+.dc-marker[data-hover="true"] .dc-marker-shape,
 .dc-marker[data-active="true"] .dc-marker-shape {
   transform: scale(1.25);
   box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);

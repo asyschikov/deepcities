@@ -11,9 +11,15 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Supercluster from "supercluster";
 import { DEFAULT_PIN_SIZE, PIN_PX, type PinSize } from "~/lib/constants";
+
 import type { AreaGeometry } from "~/lib/db/schema";
 import type { GeoFix } from "~/lib/geolocation";
 import { cn } from "~/lib/utils";
+
+/** How much a hovered or open pin grows (`.dc-marker-shape` in app.css). */
+const PIN_HOVER_SCALE = 1.25;
+/** Pins the filters leave out stay as faint context. */
+const DIMMED_OPACITY = "0.12";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 
@@ -512,7 +518,7 @@ export const MapView = ({
       entry.el.dataset.dimmed = String(Boolean(m.dimmed));
       entry.el.dataset.visited = String(Boolean(m.visited));
       // MapLibre manages the element's inline opacity, so dim through it.
-      entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
+      entry.marker.setOpacity(m.dimmed ? DIMMED_OPACITY : "1");
     }
   }, [ready, markers, activeId]);
 
@@ -544,7 +550,8 @@ export const MapView = ({
       };
     }
     const halo = haloRef.current;
-    const head = PIN_PX[pinSize] / 2;
+    // The highlighted pin grows from its point, so its head moves up-right.
+    const head = (PIN_PX[pinSize] / 2) * PIN_HOVER_SCALE;
     halo.marker.setOffset([head, -head]);
     halo.el.style.setProperty("--halo", m.color);
     const label = halo.el.querySelector(".dc-hover-label");
@@ -556,7 +563,7 @@ export const MapView = ({
     return () => {
       entry.el.dataset.hover = "false";
       entry.el.style.zIndex = "";
-      entry.marker.setOpacity(m.dimmed ? "0.3" : "1");
+      entry.marker.setOpacity(m.dimmed ? DIMMED_OPACITY : "1");
       halo.marker.remove();
     };
   }, [ready, highlightId, markers, pinSize]);
