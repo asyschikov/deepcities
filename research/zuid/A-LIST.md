@@ -21,14 +21,14 @@ import.
 
 | Sight | Where | Monument numbers (filled in by the slices) |
 |---|---|---|
-| Rijksmuseum (main building) | Museumstraat 1 | |
-| Van Gogh Museum | Museumplein 6 / Paulus Potterstraat 7 | |
-| Stedelijk Museum | Museumplein 10 / Paulus Potterstraat 13 | |
-| Concertgebouw | Concertgebouwplein 2–6 | |
-| Museumplein (the square itself) | Museumplein | |
-| Heineken brewery (Heineken Experience) | Stadhouderskade 78 | |
+| Rijksmuseum (main building) | Museumstraat 1 | 5680 |
+| Van Gogh Museum | Museumplein 6 / Paulus Potterstraat 7 | not in the register slices |
+| Stedelijk Museum | Museumplein 10 / Paulus Potterstraat 13 | 505840 |
+| Concertgebouw | Concertgebouwplein 2–6 | 288 |
+| Museumplein (the square itself) | Museumplein | not a monument |
+| Heineken brewery (Heineken Experience) | Stadhouderskade 78 | 527809, 527810, 527811 |
 | Albert Cuyp market | Albert Cuypstraat | not a monument |
-| Moco Museum (Villa Alsberg) | Honthorststraat 20 | |
+| Moco Museum (Villa Alsberg) | Honthorststraat 20 | 1992 |
 | Vondelpark | | already on the map from the West round; not parked |
 
 Candidates the scouts or slices add go below, with a one-line reason.
