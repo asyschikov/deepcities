@@ -481,6 +481,11 @@ const MapLayout = () => {
             pins={overlay?.pins}
             fitTo={overlay?.fitTo}
             onMapClick={overlay?.onMapClick}
+            onCloseActive={
+              placeId
+                ? () => navigate({ to: "/$city/$slug", params: { city, slug } })
+                : undefined
+            }
             onMarkerClick={(id) => {
               if (picking) return;
               if (overlay?.onPlaceClick) {
