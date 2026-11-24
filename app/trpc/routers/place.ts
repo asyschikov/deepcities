@@ -39,6 +39,41 @@ const verdictCounts = async (
 };
 
 export const placeRouter = router({
+  /**
+   * Every published place in full (all translations, photo ids), for
+   * backups, diffs and bulk review. Same visibility as the map itself.
+   */
+  export: publicProcedure
+    .input(z.object({ collectionId: idSchema }))
+    .query(({ ctx, input }) =>
+      ctx.db.query.place.findMany({
+        where: and(
+          eq(place.collectionId, input.collectionId),
+          eq(place.status, "published"),
+        ),
+        columns: {
+          id: true,
+          title: true,
+          summary: true,
+          body: true,
+          category: true,
+          lat: true,
+          lng: true,
+          address: true,
+          municipality: true,
+          borough: true,
+          neighbourhood: true,
+          subNeighbourhood: true,
+          links: true,
+          attributes: true,
+          photoIds: true,
+          translations: true,
+          updatedAt: true,
+        },
+        orderBy: (p, { asc }) => asc(p.title),
+      }),
+    ),
+
   /** Everything the map needs to draw markers and the list. */
   list: publicProcedure
     .input(z.object({ collectionId: idSchema }))

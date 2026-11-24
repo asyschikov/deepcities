@@ -65,6 +65,22 @@ const shapeTranslations = (translations: unknown): Obj =>
       .filter(([, t]) => Object.keys(t as Obj).length > 0),
   );
 
+const isObj = (v: unknown): v is Obj =>
+  typeof v === "object" && v !== null && !Array.isArray(v);
+
+/** `patch` merged into `base` key by key, at every depth; null deletes. */
+const deepMerge = (base: unknown, patch: unknown): unknown => {
+  if (!isObj(base) || !isObj(patch)) return patch;
+  const keys = [...new Set([...Object.keys(base), ...Object.keys(patch)])];
+  return Object.fromEntries(
+    keys.flatMap((k) => {
+      if (!(k in patch)) return [[k, base[k]]];
+      if (patch[k] === null) return [];
+      return [[k, deepMerge(base[k], patch[k])]];
+    }),
+  );
+};
+
 export const makeMapCommands = (deps: MapDeps) => {
   const { query, mutate, readJson, need, fail } = deps;
 
@@ -108,6 +124,10 @@ export const makeMapCommands = (deps: MapDeps) => {
         fields: [],
         ...base,
         ...input,
+        // With --from, the file's labels add to the copied ones per key.
+        ...(from && input.translations !== undefined
+          ? { translations: deepMerge(base.translations, input.translations) }
+          : {}),
       };
       const missing = [
         "slug",
@@ -198,7 +218,8 @@ MAPS
                                            --from copies another map's categories,
                                            fields, languages (with their category and
                                            field labels), zoom and policy; keys given
-                                           in the file win
+                                           in the file win, except "translations",
+                                           which merge per key (null deletes one)
   dc map-export <slug>                     the map's whole configuration in the
                                            map-create shape (keep it in scripts/data,
                                            or change slug/title/city, drop translated

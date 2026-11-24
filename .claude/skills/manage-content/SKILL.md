@@ -39,6 +39,14 @@ Tell the user which site you are about to write to before bulk changes on live.
    - anything uncertain (conflicting dates, weak sources, borderline inclusions);
    - which places lack photos.
 
+Bulk and cross-map work:
+- `pnpm dc update-many edits.json --note "why"`: `[{"id", "patch"}]` (ranks, flags, recategorising). `pnpm dc archive-many ids.json --note "why"`.
+- `pnpm dc copy <slug> <placeId>...`: puts places on another map with their photos and translations; the history note records the original. A correction to one copy is **not** carried to the other: fix both.
+- `pnpm dc export <slug>`: every place in full, with all translations and attributes. Use it to read back ranks or Dutch texts, and as a diff base.
+- Add `--dry-run` to `update`, `archive` and the bulk commands to see the diff before writing to live.
+- `import` marks new places that match one on the city's other maps (`alsoOn`: same title, monument number, or < 25 m). Resolve each before the real import.
+- Bulk commands retry transient errors themselves and exit 1 if anything failed: no wrapper scripts needed.
+
 Single changes:
 - `pnpm dc create <slug> '<json>'`
 - `pnpm dc update <placeId> '<patch>'`: the patch is merged. Arrays replace wholesale; `attributes` merge per key, and `null` deletes a key.
