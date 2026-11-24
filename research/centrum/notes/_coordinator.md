@@ -204,3 +204,10 @@ Category counts: before 532 places (hidden-history 120, housing 91, curiosities 
 
 Open: bodies already over 250 words before this pass: Huis Marseille 251, NACO-huisje 251, Pentagon NL 251, Spinhuis 253, Vredenburgh 263/269, Sint-Nicolaasbasiliek 252, Tobacco offices 277/262.
 - SCOUT-CE corrections to drafts: Max Euwe Centrum moved to Max Euweplein 26 (Jan 2024); Our House museum bankrupt 2024 (check any draft mentioning either)
+
+## After the standard procedure: food and drink round (user, 24 Nov 2026)
+
+Once drafting, review, photos and import are done, relax the food-and-drink bar for Centrum and run a dedicated round. What goes in: places that are **historic, iconic, culturally significant, or important for the local fabric** (the cafés, bars, shops and eateries the neighbourhood is built around). Ordinary cafés and tourist traps still stay out. Starting points: every scout file's "Food and drink, borderline" section (Van Wees distillery, Café Eijlders, Saarein, Cotton Club and others), brown cafés with intact interiors, proeflokalen, old shops and markets, places locals defend in the neighbourhood papers.
+**The test (user):** the place is worth visiting even if you don't eat or drink anything there (interior, history, role in the neighbourhood, something to see).
+- r2-gg-zuid: Vijzelflat collapse 3 vs 23 March 1955 (check gg-zuid-3 / Poentunnel agree); trim over-length bodies (Poentunnel, Prinsengracht 755, Thorbecke, Kerkstraat, Carlton)
+- Food-and-drink round input: Café 't Mandje (Bet van Beeren, now hidden-history in r2-oudezijde: reconsider category/rank then), Jacob Hooy & Co. (Okay, r2-oudezijde)

@@ -134,6 +134,7 @@
     - on Nes 112-114: a sandstone door frame carved with tobacco leaves
     - on Grimburgwal 1-5: stained glass with men carrying bales of tobacco
     - the barrel of tobacco plants on top of Rokin 111, seen from the Rokin
+    - the alley Gebed zonder End (prayer without end), probably named after the convents of this quarter; its name is painted on the wall because the signs kept being stolen
   category: industrial
   lat: 52.369661
   lng: 4.893640
@@ -164,6 +165,7 @@
     - rce:518461 and https://nl.wikipedia.org/wiki/Rokin_111 (1920–1923, J. London, barrel with tobacco plants in the top, company bankrupt 1922)
     - https://nl.wikipedia.org/wiki/TOBACCO_Theater (Mak van Waay auctions into the 1960s, theatre since)
     - https://nl.wikipedia.org/wiki/Theater_Frascati (theatre)
+    - https://nl.wikipedia.org/wiki/Gebed_zonder_end (alley from the Kuiperssteeg to the Grimburgwal, name painted on the wall because the sign was often stolen, per Ons Amsterdam May 2007; name probably from the many convents; site of the Sint Claraconvent, about 1397)
   nl:
     title: De Nes, de tabaksstraat
     summary: "Rond 1900 maakten de danstenten in de Nes plaats voor de tabak: makelaarskantoren met monsterzalen onder sheddaken, en een veiling in Frascati. De handel is weg, de theaters zijn terug, en de gevels praten nog over tabak, één zelfs in achttiende-eeuwse spelling."
@@ -179,6 +181,7 @@
       - op Nes 112-114: een zandstenen deuromlijsting met tabaksbladeren
       - op Grimburgwal 1-5: glas-in-lood met dragers van balen tabak
       - de ton met tabaksplanten boven op Rokin 111, te zien vanaf het Rokin
+      - het steegje Gebed zonder End, vermoedelijk genoemd naar de vele kloosters in deze buurt; de naam staat op de muur geschilderd omdat de bordjes steeds werden gestolen
     attributes:
       original_use: Tabakskantoren, monsterzalen en veilingzaal
     sources:
@@ -187,6 +190,7 @@
       - https://nl.wikipedia.org/wiki/Nes_(Amsterdam)
       - https://nl.wikipedia.org/wiki/TOBACCO_Theater
       - https://nl.wikipedia.org/wiki/Rokin_111
+      - https://nl.wikipedia.org/wiki/Gebed_zonder_end
 
 # ================================================================ Oudemanhuispoort, Binnengasthuis
 
@@ -321,7 +325,7 @@
   body: |
     The Bethaniënklooster, the convent of Mary Magdalene of Bethany, came inside the city walls by 1425. It was a house of Augustinian nuns where women who had lived a "loose life" could do penance, but it became fashionable with the well-off, and by 1462 some 220 women lived here. The nuns also fattened cattle for the banquets of the civic guards, which is how the nearby Koestraat (cow street) got its name.
 
-    After the city turned Protestant in 1578 the convent was seized and in 1585 the order was dissolved. From 1705 the wing on the Barndesteeg was an Old Catholic hidden church, De Ooievaar (the stork): the floor between refectory and dormitory was taken out to make one tall space. In the 1970s the derelict building was restored and used for concerts; since 2017 it has been a bed and breakfast, open to its guests. Under it lies a vaulted Gothic cellar from about 1450.
+    After the city turned Protestant in 1578 the convent was seized and in 1585 the order was dissolved. From 1705 the wing on the Barndesteeg was an Old Catholic hidden church, De Ooievaar (the stork): the floor between refectory and dormitory was taken out to make one tall space. In the 1970s the derelict building was restored and used for concerts; since 2017 it has been a bed and breakfast, open to its guests. Under it lies a vaulted Gothic cellar from about 1450. Round the corner, at Bethaniënstraat 37-39, the first Hare Krishna temple in the Netherlands opened in 1970 in a former bicycle store: five hundred years on, there were monks in the convent's street again.
 
     Opposite, at Barndesteeg 21-25, the society Tot Heil des Volks (for the salvation of the people), founded in 1855 by the Mennonite preacher Jan de Liefde, built a nursery school in 1915. Since 1972 the society has run it as a youth hostel. Since 1985 its project Scharlaken Koord has helped people working in prostitution.
 
@@ -339,6 +343,7 @@
     - { label: Wikipedia (nl) Bethaniënklooster, url: "https://nl.wikipedia.org/wiki/Bethani%C3%ABnklooster" }
     - { label: Wikipedia (nl) Tot Heil des Volks, url: "https://nl.wikipedia.org/wiki/Tot_Heil_des_Volks" }
     - { label: B&B Het Bethaniënklooster, url: "https://www.bethanienklooster.nl/" }
+    - { label: Stadsherstel Bethaniënstraat 37-39, url: "https://stadsherstel.nl/monumenten/bethanienstraat-37-39/" }
   attributes:
     rank: Nice
     heritage_status: National + municipal monument
@@ -353,6 +358,7 @@
     - city:200481 (Barndesteeg named after a fire; north edge of the convent; 1915 school by Tj. Kuipers for Tot Heil des Volks on the site of a former church Nazareth and a Zionskapel; entrances 21 school, 23 board, 25 caretaker; youth hostel since 1972)
     - https://nl.wikipedia.org/wiki/Bethani%C3%ABnklooster (inside the walls 1425, Augustinian nuns, penance for "fallen" women, popular with the rich, about 220 women in 1462, cattle for the civic guards, Koestraat; seized 1578, dissolved 1585; Van der Heyden and Van de Cappelle; Old Catholic hidden church De Ooievaar from 1705, floor removed; restoration, concert hall; cellar about 1450)
     - https://www.bethanienklooster.nl/ (B&B since 2017; concerts for almost thirty years before)
+    - https://stadsherstel.nl/monumenten/bethanienstraat-37-39/ (in 1970 the bicycle store at no. 39 was turned into the first Hare Krishna temple of the Netherlands; 500 years after the convent there were monks here again; nine followers living there in 1971)
     - https://nl.wikipedia.org/wiki/Tot_Heil_des_Volks (1855, Jan de Liefde, Mennonite preacher; schools; former school in the Barndesteeg turned into a hostel; Scharlaken Koord 1985)
   nl:
     title: Barndesteeg, boetelingenklooster en zendingshostel
@@ -360,7 +366,7 @@
     body: |
       Het Bethaniënklooster, gewijd aan Maria Magdalena van Bethanië, lag sinds 1425 binnen de stadsmuren. Het was een klooster van augustinessen waar vrouwen die een losbandig leven hadden geleid boete konden doen, maar al snel kwamen er vooral rijke nonnen en proveniersters, en in 1462 woonden er zo'n 220 vrouwen. De zusters mestten ook koeien voor de maaltijden van de schutterij; daar komt de naam Koestraat vandaan.
 
-      Na de Alteratie van 1578 nam de stad het klooster in beslag, en in 1585 werd de orde opgeheven. Vanaf 1705 was de vleugel aan de Barndesteeg een oudkatholieke schuilkerk, De Ooievaar: de vloer tussen eetzaal en slaapzaal werd eruit gehaald voor één hoge kerkruimte. In de jaren zeventig werd het vervallen pand gered en kwam er een concertzaal in; sinds 2017 is het een bed and breakfast, alleen toegankelijk voor gasten. Eronder ligt een overwelfde gotische kelder van rond 1450.
+      Na de Alteratie van 1578 nam de stad het klooster in beslag, en in 1585 werd de orde opgeheven. Vanaf 1705 was de vleugel aan de Barndesteeg een oudkatholieke schuilkerk, De Ooievaar: de vloer tussen eetzaal en slaapzaal werd eruit gehaald voor één hoge kerkruimte. In de jaren zeventig werd het vervallen pand gered en kwam er een concertzaal in; sinds 2017 is het een bed and breakfast, alleen toegankelijk voor gasten. Eronder ligt een overwelfde gotische kelder van rond 1450. Om de hoek, op Bethaniënstraat 37-39, kwam in 1970 in een oude fietsenstalling de eerste Hare Krishna-tempel van Nederland: vijf eeuwen na het klooster liepen er weer monniken door de straat.
 
       Aan de overkant, op Barndesteeg 21-25, bouwde de vereniging Tot Heil des Volks, in 1855 opgericht door de doopsgezinde predikant Jan de Liefde, in 1915 een bewaarschool. Sinds 1972 is het een jeugdhostel van dezelfde vereniging. Sinds 1985 helpt haar project Scharlaken Koord mensen in de prostitutie.
 
@@ -1002,9 +1008,11 @@
   body: |
     Berlage's exchange on the Damrak opened in 1903, but share trading grew too fast for it. The Vereeniging voor den Effectenhandel, the stock dealers' association, borrowed three million guilders and had Jos Cuypers design a building of its own on the east side of the square, where the Bible Hotel had stood until 1911. It opened on 22 December 1913 and trading started on 2 January 1914. The trading floor of 1,350 square metres was upstairs, with state telephone and telegraph offices beside it; from 1922 there was a direct line to the New York exchange. In 1930 the post office in the building became a men's barber's.
 
-    From 1988 orders could be entered by computer, and in time screen trading made the floor redundant. Options traders took it over in 1998 and left within four years. The address lived on as shorthand for the market: a book on fifty years of Dutch share trading is called Het geheim van Beursplein 5.
+    From 1988 orders could be entered by computer, and in time screen trading made the floor redundant. Options traders took it over in 1998 and left within four years.
 
-    On the square stand six cast-iron lanterns and two granite fountains that Berlage designed with his exchange. He wanted them lit by electric arc lamps; until the city's first power station was ready in 1904, the exchange had its own generator.
+    Inside, out of public view, hang a bronze plaque unveiled in 1949 for Walraven van Hall, the banker of the resistance, who raised money for people in hiding through loans against marked, worthless old shares and was shot in Haarlem in February 1945, and Cephas Stauthamer's kneeling woman with a dove, "Ex tenebris lux", for exchange members who died in the war. A clock face hit by a German bullet on 7 May 1945 is kept in the archive.
+
+    On the square stand six cast-iron lanterns and two granite fountains that Berlage designed with his exchange, meant for electric arc lamps.
 
     Look for:
     - C.A. Stout's sculpture group of 1924 in the pediment, an allegory of the exchange
@@ -1035,6 +1043,8 @@
     - rce:518417 (1911–1913, Jos Th.J. Cuypers for the Vereeniging voor den Effectenhandel; tympanum sculpture 1924 by C.A. Stout, allegory of the exchange; 1930 former post office in the building turned into a men's barber's)
     - rce:518418 (1903, six lanterns and two fountains by Berlage, two lanterns beside the steps of the Beurs)
     - https://nl.wikipedia.org/wiki/Amsterdamse_effectenbeurs (space problems, loan of three million guilders, opened 22 December 1913, trading from 2 January 1914, floor 1,350 m2 upstairs, state telephone and telegraph, line to New York 1922, HOS screen trading 1988, options on the floor 1998 and gone within four years, book Het geheim van Beursplein 5; gallery caption on the bull)
+    - 4en5mei.nl monument 2946 (bronze plaque for Walraven van Hall in the hall of the exchange, unveiled 17 February 1949; Nationaal Steun Fonds, loans against marked worthless old shares; shot 12 February 1945 in Haarlem; building not freely accessible)
+    - 4en5mei.nl monument 1622 (bronze kneeling woman with a dove by Cephas Stauthamer, plaque, clock face; Ex tenebris lux; for members and staff of the Vereeniging voor den Effectenhandel; clock in room 11 hit by a German bullet on 7 May 1945, face kept in the archive; unveiled 5 May 1949; first floor hall)
     - https://nl.wikipedia.org/wiki/Lantaarns_en_fonteinen_aan_het_Beursplein (Bible Hotel replaced by Cuypers's exchange in 1913, arc lamps, the Beurs's own temporary power plant until the municipal one of 1904, rosettes with bulbs after 1975, empty since 2017, granite fountain basins)
     - commons:File:Beursplein 5 (cropped and edited).jpg (description says Beursplein 5 replaced the Beurs van Berlage as home of the exchange)
   nl:
@@ -1043,9 +1053,11 @@
     body: |
       Berlages beurs aan het Damrak ging in 1903 open, maar de effectenhandel groeide er al snel uit. De Vereeniging voor den Effectenhandel leende drie miljoen gulden en liet Jos Cuypers een eigen gebouw ontwerpen aan de oostkant van het plein, waar tot 1911 het Biblehotel stond. Op 22 december 1913 ging het open en op 2 januari 1914 begon de handel. De beursvloer van 1350 vierkante meter lag op de eerste verdieping, met kantoren van de Rijkstelefoon en Rijkstelegraaf ernaast; vanaf 1922 was er een directe verbinding met de beurs van New York. In 1930 werd het postkantoor in het gebouw een herenkapsalon.
 
-      Vanaf 1988 konden orders per computer worden ingevoerd, en na verloop van tijd maakte de schermenhandel de vloer overbodig. De optiehandelaren namen hem in 1998 over en waren binnen vier jaar weer weg. Het adres bleef een begrip: een boek over vijftig jaar Amsterdamse effectenhandel heet Het geheim van Beursplein 5.
+      Vanaf 1988 konden orders per computer worden ingevoerd, en na verloop van tijd maakte de schermenhandel de vloer overbodig. De optiehandelaren namen hem in 1998 over en waren binnen vier jaar weer weg.
 
-      Op het plein staan zes gietijzeren lantaarns en twee granieten fonteinen die Berlage bij zijn beurs ontwierp. Hij wilde ze elektrisch verlicht hebben met booglampen; tot de eerste gemeentelijke centrale in 1904 klaar was, had de beurs een eigen centrale.
+      Binnen, niet vrij toegankelijk, hangt een bronzen plaquette uit 1949 voor Walraven van Hall, de bankier van het verzet, die geld voor onderduikers bijeenbracht met leningen tegen gemerkte, waardeloze oude effecten en in februari 1945 in Haarlem werd gefusilleerd. Daarbij staat de knielende vrouw met vredesduif van Cephas Stauthamer, "Ex tenebris lux", voor de beursleden die in de oorlog omkwamen. De wijzerplaat die op 7 mei 1945 door een Duitse kogel werd geraakt, ligt in het archief.
+
+      Op het plein staan zes gietijzeren lantaarns en twee granieten fonteinen die Berlage bij zijn beurs ontwierp, bedoeld voor elektrische booglampen.
 
       Let op:
       - de beeldengroep van C.A. Stout uit 1924 in het fronton, een allegorie op het beurswezen
@@ -1058,6 +1070,7 @@
       - rce:518417, rce:518418
       - https://nl.wikipedia.org/wiki/Amsterdamse_effectenbeurs
       - https://nl.wikipedia.org/wiki/Lantaarns_en_fonteinen_aan_het_Beursplein
+      - 4en5mei.nl monumenten 2946 en 1622
 
 - title: Accijnshuis (the excise house)
   summary: "The only city board that did not sit in the town hall collected its taxes on beer, grain, wine, peat and spices here, at the old harbour on the Damrak. After 1800 it became a pub, for decades the haunt of barge skippers."
