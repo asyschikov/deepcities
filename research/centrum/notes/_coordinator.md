@@ -216,3 +216,6 @@ Once drafting, review, photos and import are done, relax the food-and-drink bar 
 - Geldersche Gaai: kept as a Look for line only (single neighbour source)
 - r2-gg-west: Westerkerk graveyard closing date conflict (1655 vs before 1814) in the meat-hall place; Molenpad plane figures (2024 city review used)
 - r2-eilanden: Werkspoorhal BigGym (which hall?); Woning-Maatschappij 1871 vs 1874
+- Drie Fleschjes re-pitched on the tasting room (Amazing, food-drink), live 24 Nov; it's the food-drink round's first entry
+- Clusters da-1/da-2 written (38). Loose ones to revisit when clusters go live: jo-laurier (split off Laurierstraat housing), jo-marnixplein (split), nz-station (Prins Hendrikkade west), nz-kolk edges; 1772 theatre fire toll "sixteen" (check members agree)
+- Clusters da-5/da-6 written (36). Loose: ws-leidseplein-east (split), ws-almshouses (Van Breemen out), gz-disguise (no photo; Den Helder stones not a disguise), ws-utrechtsedwars (stones belong with gz-reguliersgracht), eil-kadijk (Oosterdok members could split off), eil-bastions (Centrale Oost)

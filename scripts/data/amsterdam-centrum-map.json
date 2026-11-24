@@ -181,6 +181,13 @@
       "label": "What is changing",
       "type": "text",
       "help": "One line: what is planned or feared, and by whom."
+    },
+    {
+      "key": "original_poi_id",
+      "label": "Deep Amsterdam place",
+      "type": "text",
+      "help": "Id of the matching Deep Amsterdam (sights) place: the same place for standouts, the cluster place for cluster members. Internal.",
+      "hidden": true
     }
   ],
   "language": "en",

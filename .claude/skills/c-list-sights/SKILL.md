@@ -13,10 +13,13 @@ debatable, standing out, old or new. Listed monuments are the backbone. Beyond t
 murals and public art, hidden history, curiosities, odd museums and green escapes. Leave out
 A-list sights.
 
-**Food and drink: the bar is very high.** Only places of real historic or cultural significance
-(a legend, an institution that shaped the city). Good food, a nice story, a young brewery, a
-famous dish or "the oldest X restaurant" is not enough: those wait for a possible separate
-restaurants map. When in doubt, leave it out.
+**Food, drink and shops: worth visiting even if you eat, drink or buy nothing.** That is
+the test (the user's). In: historic, iconic, culturally significant, or part of the local
+fabric: the oldest tavern, a tasting room with its drinks organ, an artists' café, a shop
+interior of 1915, a stall whose queue is a city ritual. Out: good food or a nice menu on
+its own, ordinary cafés, chains, tourist traps. Scouts propose the ones that pass as normal
+shortlist items, never as a parked side list (that is how Amsterdam's oldest tavern, De Drie
+Fleschjes, was first missed in Centrum).
 
 **Exception: Amsterdam-Noord.** Noord has a different vibe, so there the bar is "an iconic local
 place that is part of the neighbourhood's fabric, almost a cultural establishment" (e.g. De Ceuvel).

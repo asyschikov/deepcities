@@ -1,0 +1,956 @@
+# Deep Amsterdam cluster places, part da-6 (Weesperbuurt/Plantage, Oostelijke Eilanden/Kadijken).
+# Parent places for the citywide view; facts from the member drafts in research/centrum/places/*.yaml.
+
+- title: Weesperstraat, the Jewish high street turned motorway
+  summary: The Wazepergas was the Jewish quarter's narrow shopping street. The war emptied it, the hunger winter stripped it and planners cleared it for four lanes. Along it, a home whose residents died at Sobibor, a school emptied by the raids, stumbling stones and a disputed thank-you.
+  body: |
+    Standing by four lanes of traffic, it is hard to picture the Wazepergas: a narrow shopping street with a single-track tram, where Vroom and Dreesmann opened their first shop in 1887. Its Jewish residents were deported, the empty houses were stripped for firewood in the hunger winter, and from the late 1950s what was left came down for a through road.
+
+    Walk south from Herman Hertzberger's Weesperflat of 1966, student rooms on concrete legs with a street in the air. At number 100, on the Nieuwe Keizersgracht corner, 277 neighbours stitched a 4 by 8 metre embroidery, unveiled in 2024. On the Nieuwe Prinsengracht, twelve stumbling stones lie at the door of number 18, one house's murdered residents. In the Lepelkruisstraat, the Jewish Palacheschool of 1929 had no pupils left by 1943. At Nieuwe Achtergracht 14, stones name the parents and brother of Janny and Lien Brilleslijper, the resistance sisters who survived and buried Anne and Margot Frank at Bergen-Belsen.
+
+    The street ends at the Weesperplein. J.F. Staal's Glass Palace of 1937 was the Joodsche Invalide, a home for the elderly and disabled; on 1 March 1943 its 256 residents and staff were taken away, and most died at Sobibor. In front of numbers 13-15 stands Jobs Wertheim's Monument van Joodse Erkentelijkheid of 1950, a thank-you to protectors that was disputed from the start.
+
+    Look for:
+    - the terrace halfway up the Weesperflat
+    - the name Brugsmaschool, faint over the school door
+    - the glass corner of the Joodsche Invalide
+    - the 2021 plaque explaining the thank-you monument
+  category: hidden-history
+  lat: 52.3639
+  lng: 4.906
+  address: Weesperstraat at the Nieuwe Prinsengracht
+  links:
+    - { label: Wikipedia (nl) Weesperstraat, url: "https://nl.wikipedia.org/wiki/Weesperstraat_(Amsterdam)" }
+    - { label: Wikipedia (nl) De Joodse Invalide, url: "https://nl.wikipedia.org/wiki/De_Joodse_Invalide" }
+    - { label: Wikipedia (nl) Monument van Joodse Erkentelijkheid, url: "https://nl.wikipedia.org/wiki/Monument_van_Joodse_Erkentelijkheid" }
+    - { label: Joods Amsterdam (Palacheschool), url: "https://www.joodsamsterdam.nl/palacheschool/" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Weesperstraat Amsterdam 20111009.jpg"
+    - "commons:File:RM518494 Amsterdam - Nieuwe Achtergracht (vleugel).jpg"
+    - "commons:File:Monument van Joodse Erkentelijkheid in Amsterdam (2022) 06.jpg"
+  cluster:
+    key: pla-weesperstraat
+    members:
+      - Weesperstraat, the Jewish quarter's high street turned city motorway
+      - The Glass Palace of the Joodsche Invalide
+      - Monument van Joodse Erkentelijkheid, the thank-you nobody wanted next door
+      - Palacheschool (Lepelkruisstraat)
+      - The Brilleslijper house (Nieuwe Achtergracht 14)
+      - Twelve stumbling stones at one door (Nieuwe Prinsengracht 18)
+      - The neighbourhood embroidery on the Weesperstraat (Weesperstraat 100)
+      - Hertzberger's student house with a street in the air (Weesperflat)
+  nl:
+    title: Weesperstraat, van Joodse winkelstraat tot stadsautoweg
+    summary: De Wazepergas was de winkelstraat van de Jodenbuurt. De oorlog maakte hem leeg en planners maakten er vier rijstroken van. Langs de weg een tehuis waarvan de bewoners in Sobibor stierven, een door de razzia's leeggelopen school, struikelstenen en een omstreden dankmonument.
+    body: |
+      Naast vier rijstroken is de Wazepergas moeilijk voor te stellen: een smalle winkelstraat met een tram op enkelspoor, waar Vroom en Dreesmann in 1887 hun eerste winkel openden. De Joodse bewoners werden weggevoerd, in de hongerwinter werd het hout uit de lege huizen gesloopt, en vanaf eind jaren vijftig ging wat er nog stond plat voor een doorgaande weg.
+
+      Loop naar het zuiden vanaf de Weesperflat van Herman Hertzberger uit 1966, studentenkamers op betonnen poten met halverwege een straat in de lucht. Op nummer 100, op de hoek van de Nieuwe Keizersgracht, borduurden 277 buurtgenoten een werk van vier bij acht meter, in 2024 onthuld. Aan de Nieuwe Prinsengracht liggen voor nummer 18 twaalf struikelstenen, de vermoorde bewoners van één huis. In de Lepelkruisstraat zat vanaf 1929 de Joodse Palacheschool; in 1943 was er geen leerling meer over. Op Nieuwe Achtergracht 14 noemen stenen de ouders en broer van Janny en Lien Brilleslijper, de verzetszussen die terugkwamen en in Bergen-Belsen Anne en Margot Frank begroeven.
+
+      De straat eindigt op het Weesperplein. Het Glazen Paleis van J.F. Staal uit 1937 was de Joodsche Invalide, een tehuis voor ouderen en invaliden; op 1 maart 1943 werden de 256 bewoners en personeelsleden weggevoerd, en de meesten stierven in Sobibor. Voor de nummers 13-15 staat het Monument van Joodse Erkentelijkheid van Jobs Wertheim uit 1950, een dank aan de beschermers die vanaf het begin omstreden was.
+
+      Let op:
+      - het terras halverwege de Weesperflat
+      - de naam Brugsmaschool, vaag boven de schooldeur
+      - de glazen hoek van de Joodsche Invalide
+      - het bordje uit 2021 bij het dankmonument
+- title: Sarphati's Amstel end, the grand hotel and the diamond trade
+  summary: Where the city wall once crossed the Amstel, Sarphati's grand hotel was saved by a masseur, a bridge was rebuilt after the Pont Neuf, a row of houses was saved by swapped measurements, and the diamond trade got out of the cafés into an exchange of its own.
+  body: |
+    Start on the Hogesluis. In 1662 a bridge as high as the city ramparts crossed the Amstel here. It was lowered for the horse tram, and in 1882–1883 Willem Springer rebuilt it on the old piers after the Pont Neuf in Paris.
+
+    On the bank stands the Amstel Hotel, the grand hotel the doctor and planner Samuel Sarphati wanted for the city and its jobless. He died in 1866, before it opened; guests stayed away until Dr Johann Georg Mezger, a founder of physiotherapy, treated patients here from 1870 and drew royal and noble clients. The square in front is named after Rembrandt's Dr Tulp, who was never a professor. The houses of the Professor Tulpstraat behind were declared ripe for demolition in the 1990s until residents found the inspectors had swapped their measurements with other houses'. Stadsherstel restored them.
+
+    Follow the Sarphatistraat to the Weesperplein. Diamonds once changed hands in cafés; in 1910–1911 Gerrit van Arkel built the dealers an exchange with a copper-domed tower. Two-thirds of the city's diamond workers and dealers did not survive the war. It is now Capital C, with a grand café. Back at Sarphatistraat 66, a black-and-stone mansion of 1878 has stood for sale for years, dolls staring from its first-floor windows.
+
+    Look for:
+    - the ship's-bow lantern posts on the Hogesluis
+    - Wim van Hoorn's Young Rembrandt on the square
+    - the polishing-mill tiles by the exchange door
+    - the dolls at Sarphatistraat 66
+  category: civic
+  lat: 52.359984
+  lng: 4.905243
+  address: Professor Tulpplein 1
+  links:
+    - { label: Rijksmonumentenregister (4741), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/4741" }
+    - { label: Wikipedia (nl) Hogesluis, url: "https://nl.wikipedia.org/wiki/Hogesluis" }
+    - { label: Wikipedia (nl) Professor Tulpplein, url: "https://nl.wikipedia.org/wiki/Professor_Tulpplein" }
+    - { label: Wikipedia (nl) Diamantbeurs, url: "https://nl.wikipedia.org/wiki/Diamantbeurs_(Amsterdam)" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Amstel Hotel 2034.jpg"
+    - "commons:File:Brug246.jpg"
+    - "commons:File:Diambeurs.jpg"
+  cluster:
+    key: pla-sarphati
+    members:
+      - Sarphati's Amstel Hotel and the masseur who saved it
+      - Hogesluis
+      - Professor Tulpplein, the professor who never was and the street saved by a mix-up
+      - Diamond Exchange on the Weesperplein (Diamantbeurs)
+      - Sarphatistraat 66, the diamond mansion where dolls watch the street
+  nl:
+    title: Sarphati aan de Amstel, het grote hotel en de diamanthandel
+    summary: Waar de stadswal ooit de Amstel overstak, werd het grote hotel van Sarphati gered door een masseur, kreeg een brug de Pont Neuf als voorbeeld, redde een verwisseling van metingen een rij huizen en verhuisde de diamanthandel van het café naar een eigen beurs.
+    body: |
+      Begin op de Hogesluis. In 1662 kwam hier een brug over de Amstel die even hoog lag als de stadswal. Voor de paardentram ging hij omlaag, en in 1882–1883 bouwde Willem Springer hem op de oude pijlers opnieuw op, naar de Pont Neuf in Parijs.
+
+      Aan de oever staat het Amstel Hotel, het grote hotel dat arts en stadsvernieuwer Samuel Sarphati voor de stad en haar werklozen wilde. Hij stierf in 1866, voor de opening; de gasten bleven weg tot dr. Johann Georg Mezger, een grondlegger van de fysiotherapie, er vanaf 1870 praktijk hield en vorstelijke en adellijke patiënten trok. Het plein ervoor heet naar Rembrandts dokter Tulp, die nooit hoogleraar was. De huizen van de Professor Tulpstraat erachter werden begin jaren negentig slooprijp verklaard, tot bewoners ontdekten dat de metingen waren verwisseld met die van andere panden. Stadsherstel knapte ze op.
+
+      Volg de Sarphatistraat naar het Weesperplein. Diamanten gingen vroeger in cafés van hand tot hand; in 1910–1911 bouwde Gerrit van Arkel de handelaren een eigen beurs met een torentje onder een koperen koepel. Twee derde van de Amsterdamse diamantbewerkers en -handelaren overleefde de oorlog niet. Nu zit er Capital C, met een grand café. Terug aan de Sarphatistraat 66 staat een zwart-met-hardstenen diamantairshuis uit 1878 al jaren te koop, met poppen die vanaf de eerste verdieping naar buiten staren.
+
+      Let op:
+      - de lantaarndragers in scheepsboegvorm op de Hogesluis
+      - de Jonge Rembrandt van Wim van Hoorn op het plein
+      - de tegels met de slijpmolen bij de ingang van de beurs
+      - de poppen van Sarphatistraat 66
+- title: Henri Polaklaan, a street of odd houses
+  summary: One short Plantage street holds an architect's Frank Lloyd Wright house among 1880s neighbours, the house where Amsterdam played chess every night for thirty years, a sculptor's deliberately rough figures and a church squeezed into the row with its door on the first floor.
+  body: |
+    The Henri Polaklaan is a row of 1880s houses in their period's plaster ornament, and four of them break ranks.
+
+    At number 11 the architect Jac. S. Baars gave himself a house in 1930 in flat yellow brick with deep horizontal lines after Frank Lloyd Wright. He worked mostly for the Jewish community and designed several synagogues; during the occupation he and his family went into hiding in Friesland.
+
+    Across the street, number 14 is a merchant's mansion of the 1870s. From 1936 to 1967 it was the Amsterdamsche Schaakhuis: opened with the world champion Max Euwe in the room, it had a club playing nearly every night of the week, and hosted Dutch championships. It is housing again.
+
+    At number 25 two old men in stone hold up the balcony, looking unfinished. The sculptor Henri Teixeira de Mattos built the house in 1883 and left its figures rough on purpose, just after his designs for the Rijksmuseum had been turned down as too coarse. Further along at 36-40, H.F. Sijmons fitted an Apostolic church of 1912 onto ordinary house plots: two square towers, bare red brick after Berlage, terracotta by Willem Brouwer and a door reached by a flight of steps.
+
+    All four are private; everything worth seeing is on the street side.
+
+    Look for:
+    - the black and white tiled stair of number 11
+    - the round bay with cast-iron tendrils at number 14
+    - the rough-hewn herms of number 25
+    - the first-floor church door at 36-40
+  category: housing
+  lat: 52.367589
+  lng: 4.91212
+  address: Henri Polaklaan 25
+  links:
+    - { label: Wikipedia (nl) Henri Teixeira de Mattos, url: "https://nl.wikipedia.org/wiki/Henri_Teixeira_de_Mattos" }
+    - { label: Wikipedia (nl) Amsterdamsche Schaakhuis, url: "https://nl.wikipedia.org/wiki/Amsterdamsche_Schaakhuis" }
+    - { label: Wikipedia (nl) Jacobus Baars, url: "https://nl.wikipedia.org/wiki/Jacobus_Baars" }
+    - { label: Monumentenregister Amsterdam church, url: "https://data.amsterdam.nl/monumenten/28e31df5-14e6-43c7-8f83-fe45553da0f4" }
+  attributes:
+    rank: Okay
+  photos:
+    - "commons:File:Henri Polaklaan 25 foto 1.jpg"
+    - "commons:File:Nieuw Apostolische Kerk, Henri Polakstraat 36, voorgevel - Amsterdam - 20013861 - RCE.jpg"
+  cluster:
+    key: pla-polaklaan
+    members:
+      - The sculptor's house (Henri Polaklaan 25)
+      - Jac. Baars's own house (Henri Polaklaan 11)
+      - Apostolic church in the street wall (Henri Polaklaan 36–40)
+      - Amsterdam chess house (Henri Polaklaan 14)
+  nl:
+    title: Henri Polaklaan, een straat met vreemde huizen
+    summary: In één korte straat in de Plantage een architectenhuis naar Frank Lloyd Wright, het huis waar Amsterdam dertig jaar elke avond schaakte, de met opzet ruwe beelden van een beeldhouwer en een kerk in de gevelrij met de deur op de eerste verdieping.
+    body: |
+      De Henri Polaklaan is een rij huizen uit de jaren 1880 met het stucwerk van hun tijd, en vier ervan vallen uit de toon.
+
+      Op nummer 11 gaf architect Jac. S. Baars zichzelf in 1930 een huis van vlakke gele baksteen, met diepe horizontale lijnen naar Frank Lloyd Wright. Hij werkte vooral voor de Joodse gemeenschap en ontwierp een aantal synagogen; in de bezettingstijd dook hij met zijn gezin onder in Friesland.
+
+      Aan de overkant is nummer 14 een koopmanshuis uit de jaren 1870. Van 1936 tot 1967 was het het Amsterdamsche Schaakhuis: geopend in aanwezigheid van wereldkampioen Max Euwe, met bijna elke avond van de week een andere club, en Nederlandse kampioenschappen in de zalen. Nu wordt er weer gewoond.
+
+      Op nummer 25 dragen twee oude mannen van steen het balkon, en ze lijken niet af. Beeldhouwer Henri Teixeira de Mattos bouwde het huis in 1883 en liet de figuren met opzet ruw, vlak nadat zijn ontwerpen voor het Rijksmuseum als te grof waren afgewezen. Verderop, op 36-40, paste H.F. Sijmons in 1912 een apostolische kerk op gewone huiskavels: twee vierkante torens, kale rode baksteen naar Berlage, terracotta van Willem Brouwer en een deur boven aan een trap.
+
+      Alle vier zijn particulier; wat de moeite waard is, zit aan de straatkant.
+
+      Let op:
+      - de zwart-witte tegeltrap van nummer 11
+      - de ronde erker met gietijzeren rankwerk op nummer 14
+      - de ruw gehakte hermen van nummer 25
+      - de kerkdeur op de eerste verdieping van 36-40
+- title: Wertheimpark, the park that lost its name
+  summary: A small park named after a Jewish banker, renamed by the occupier in 1942 and given its name back in 1945. Under Wolkers's cracked mirrors lies an urn of Auschwitz ashes; beside them stands a tree held together with steel pins, and at the gate lived Hugo de Vries.
+  body: |
+    The old pleasure garden opposite the Hortus became the Wertheimpark in 1898, a year after the banker and benefactor A.C. Wertheim died, and Jonas Ingenohl's fountain with his portrait went up that October. On 14 August 1942 the mayor installed by the occupier struck out every name that honoured a Jew, and until May 1945 this was the Parktuin again.
+
+    A few steps on, six mirrored panels lie on the ground, deliberately cracked, so the sky in them is broken. Jan Wolkers made the Auschwitz monument over an urn of ashes gathered at Birkenau in 1952, and the night before its unveiling here in 1993 someone smashed the new panels with a pickaxe. The national Holocaust remembrance ends here on the last Sunday of January.
+
+    Over the monument leans an old wingnut, planted around 1900. In the 1970s tree surgeons drove steel pins through it and slung cables round its limbs, and locals call it IJzeren Hein, Iron Hein. Nearby grows a dawn redwood from the first seeds to reach the Netherlands, sent to the Hortus in 1947.
+
+    At the gate on the Plantage Parklaan, number 9 was the home of the botanist Hugo de Vries until 1916; later it was a Jewish youth club, and five Jewish residents of the house were murdered.
+
+    Look for:
+    - the words NOOIT MEER AUSCHWITZ
+    - the pelicans at the top of the fountain column
+    - the steel pins in Iron Hein
+    - the two owls over the windows of Plantage Parklaan 9
+  category: hidden-history
+  lat: 52.367941
+  lng: 4.909206
+  address: Wertheimpark
+  links:
+    - { label: Wikipedia (nl) Wertheimpark, url: "https://nl.wikipedia.org/wiki/Wertheimpark" }
+    - { label: Wikipedia (nl) Auschwitzmonument, url: "https://nl.wikipedia.org/wiki/Auschwitzmonument_(Amsterdam)" }
+    - { label: Rijksmonumentenregister (518488), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/518488" }
+    - { label: Wikipedia (nl) Hugo de Vries-laboratorium, url: "https://nl.wikipedia.org/wiki/Hugo_de_Vries-laboratorium" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Auschwitz monument amsterdam.JPG"
+    - "commons:File:Wertheimpark fontein.jpg"
+    - "commons:File:2022 Wertheimpark, Asd-Gewone vleugelnoot (1).jpg"
+  cluster:
+    key: pla-wertheimpark
+    members:
+      - "\"Nooit meer Auschwitz\", the broken-mirror monument (Wertheimpark)"
+      - Wertheim fountain (Wertheimpark)
+      - Wertheimpark's champion trees, IJzeren Hein and the dawn redwood
+      - Hugo de Vries's house and laboratory
+  nl:
+    title: Wertheimpark, het park dat zijn naam kwijtraakte
+    summary: Een klein park, genoemd naar een Joodse bankier, in 1942 door de bezetter omgedoopt. Onder de gebarsten spiegels van Wolkers ligt as uit Auschwitz, ernaast staat een boom vol stalen pennen, en bij het hek woonde Hugo de Vries.
+    body: |
+      De oude lusttuin tegenover de Hortus werd in 1898 het Wertheimpark, een jaar na de dood van bankier en weldoener A.C. Wertheim, en in oktober kwam er de fontein van Jonas Ingenohl met zijn portret. Op 14 augustus 1942 schrapte de door de bezetter benoemde burgemeester alle namen die naar Joden verwezen, en tot mei 1945 heette dit weer de Parktuin.
+
+      Een paar stappen verder liggen zes verspiegelde platen op de grond, met opzet gebarsten, zodat de lucht erin aan scherven is. Jan Wolkers maakte het Auschwitzmonument boven een urn met as die in 1952 in Birkenau was verzameld, en in de nacht voor de onthulling hier in 1993 sloeg iemand de nieuwe platen met een pikhouweel kapot. De Nationale Holocaust Herdenking eindigt hier op de laatste zondag van januari.
+
+      Boven het monument hangt een oude vleugelnoot, rond 1900 geplant. In de jaren zeventig sloegen boomchirurgen er stalen pennen door en legden ze kabels om de takken, en in de buurt heet hij IJzeren Hein. Vlakbij staat een watercipres uit de eerste zaden die Nederland bereikten, in 1947 naar de Hortus gestuurd.
+
+      Bij het hek aan de Plantage Parklaan woonde op nummer 9 tot 1916 de botanicus Hugo de Vries; later zat er een Joodse jeugdvereniging, en vijf Joodse bewoners van het huis werden vermoord.
+
+      Let op:
+      - de woorden NOOIT MEER AUSCHWITZ
+      - de pelikanen boven op de fonteinzuil
+      - de stalen pennen in IJzeren Hein
+      - de twee uiltjes boven de ramen van Plantage Parklaan 9
+- title: Behind the Hortus, a phone for the dead and elms planted lying down
+  summary: Along the back of the botanical garden, a telephone connected to nothing where people call their dead, a school on a paupers' graveyard where Theo Thijssen taught, a bridge that got Johan van Hulst's name by mistake, and elms planted flat on purpose.
+  body: |
+    Go in at Nieuwe Herengracht 18 on a weekday and you reach the Hoftuin, the shared garden of the old deaconry homes behind the H'ART Museum. In it stands a telephone connected to nothing, a Telefoon van de Wind after Itaru Sasaki's wind phone in Otsuchi, Japan, where people who have lost someone can pick up and talk to them.
+
+    On the Hortusplantsoen, the double school of the 1890s stands on the Sint Antonieskerkhof, where the city buried those who could not pay for a stone. Theo Thijssen taught at number 1 from 1899 to 1905; from 1928 number 2 was the Ammanschool for deaf children, where Rinus Michels taught gym. A plaque names its Jewish teachers and pupils who were murdered, and across the street stands Truus Menger-Oversteegen's monument for Jewish deaf victims.
+
+    Two iron bridges of 1877 cross the Hortus pond. In 2016 the city named the wrong one, gated shut, after Johan van Hulst, who helped save some six hundred Jewish children held at the Hollandsche Schouwburg; in 2018 the name moved to its neighbour, while he was still alive.
+
+    At the water's edge two old elms leaned flat over the water for decades. When elm disease killed them in 2014, the city planted their successors lying down. Nearby grows a seedling of Anne Frank's chestnut.
+
+    Look for:
+    - the Krekelhuis, the old bone house in the Hoftuin
+    - the two entrances of the double school
+    - the spiked gate on bridge 232
+    - the two leaning elms
+  category: green
+  lat: 52.366064
+  lng: 4.904488
+  address: Hoftuin, entrance Nieuwe Herengracht 18
+  links:
+    - { label: Humanitas Telefoon van de Wind Hoftuin, url: "https://www.humanitas.nl/afdeling/amsterdam_en_diemen/Wat-we-doen/telefoon-van-de-wind-Hoftuin/" }
+    - { label: Wikipedia (nl) Hortusplantsoen, url: "https://nl.wikipedia.org/wiki/Hortusplantsoen" }
+    - { label: Wikipedia (nl) Johan van Hulstbrug, url: "https://nl.wikipedia.org/wiki/Johan_van_Hulstbrug" }
+    - { label: Oost-Online Anne Frankboom, url: "https://oost-online.nl/zaailing-anne-frankboom-geplant-op-het-hortusplantsoen/" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Wind phone Amsterdam (Q126193138) - 3.jpg"
+    - "commons:File:Hortusplantsoen 2.jpg"
+  cluster:
+    key: pla-hortus
+    members:
+      - Telefoon van de Wind, the phone for the dead in the Hoftuin
+      - The elms round the Hortus, planted lying down, and an Anne Frank seedling
+      - Theo Thijssen's school on the paupers' graveyard (Hortusplantsoen)
+      - Johan van Hulstbrug and its twin
+  nl:
+    title: Achter de Hortus, een telefoon naar de doden en liggend geplante iepen
+    summary: Langs de achterkant van de botanische tuin een telefoon die nergens op is aangesloten, waar mensen hun doden bellen, een school op een armenkerkhof waar Theo Thijssen lesgaf, een brug die per vergissing de naam van Johan van Hulst kreeg, en iepen die met opzet plat zijn geplant.
+    body: |
+      Ga op een werkdag naar binnen bij Nieuwe Herengracht 18 en je komt in de Hoftuin, de gezamenlijke tuin van de oude diaconiehuizen achter het H'ART Museum. Daar staat een telefoon die nergens op is aangesloten, een Telefoon van de Wind naar het voorbeeld van Itaru Sasaki in Otsuchi in Japan, waar wie iemand verloren heeft de hoorn kan opnemen en met die ander kan praten.
+
+      Aan het Hortusplantsoen staat de dubbele school uit de jaren 1890 op het Sint Antonieskerkhof, waar de stad wie geen grafsteen kon betalen begroef. Theo Thijssen gaf van 1899 tot 1905 les op nummer 1; vanaf 1928 zat op nummer 2 de Ammanschool voor dove kinderen, waar Rinus Michels gymles gaf. Een plaquette noemt de vermoorde Joodse leerkrachten en leerlingen, en aan de overkant staat het monument van Truus Menger-Oversteegen voor Joodse dove oorlogsslachtoffers.
+
+      Over de Hortusvijver liggen twee ijzeren bruggetjes uit 1877. In 2016 vernoemde de gemeente de verkeerde, die met een hek dicht zit, naar Johan van Hulst, die hielp zo'n zeshonderd Joodse kinderen uit de Hollandsche Schouwburg te redden; in 2018 ging de naam naar de buurbrug, toen hij nog leefde.
+
+      Aan de waterkant lagen tientallen jaren twee oude iepen bijna plat over het water. Toen de iepziekte ze in 2014 velde, plantte de stad hun opvolgers liggend. Vlakbij staat een zaailing van de kastanje van Anne Frank.
+
+      Let op:
+      - het Krekelhuis, het oude knekelhuisje in de Hoftuin
+      - de twee ingangen van de dubbele school
+      - het stekelhek op brug 232
+      - de twee schuine iepen
+- title: Almshouses of the Amstelhof corner, six ways to house the old
+  summary: 'Between the Nieuwe Herengracht and the Nieuwe Keizersgracht, six charity houses with their founders'' quirks: punning arms, a widow evicted when her husband died, a hofje dressed as a canal house, a Catholic Building of Mercy and orphans with their own front door.'
+  body: |
+    Start on the Nieuwe Herengracht at number 43. The widow whose art collection founded the Stedelijk Museum rebuilt this family house in 1882 as an almshouse for eight women over fifty, of any church, though no more than one Catholic at a time. At number 18, Joan Corver and Sara Maria Trip, both dead young, left the deacons money for homes for old married couples; their arms pun on their names with three baskets and three pattens.
+
+    Round the corner on the Nieuwe Keizersgracht, the Reformed Hodshon and Van Limmik homes went up in the Amstelhof garden. In the Hodshon house of 1878 couples needed an income of their own, so when the breadwinner died the widow had to move out.
+
+    At 28-44, Christoffel van Brants, whom Peter the Great made a Russian nobleman, laid the first stone of a hofje for Lutheran women in 1732 and died that November. Students live there now. At 94, Cornelia Occo's "Building of Mercy" of 1774 still houses older women of Catholic background. At the far end, the Lutheran home for 300 old people of 1769, now Wittenberg, had two doors as far apart as possible: one for the old, one for the orphans. The Luther Museum is inside.
+
+    All but the museum are seen from the street.
+
+    Look for:
+    - the nine-line poem over the door of Nieuwe Herengracht 20
+    - VAN LIMMIK STICHTING under the middle window
+    - the eagles' heads on the Occo Hofje's stoop railings
+    - Wittenberg's two doors, each with two lanterns
+  category: housing
+  lat: 52.365131
+  lng: 4.906582
+  address: Nieuwe Keizersgracht 94
+  links:
+    - { label: Hofjes in Amsterdam (Occo Hofje), url: "https://hofjesinamsterdam.nl/occo-hofje/" }
+    - { label: Hofjes in Amsterdam (Van Brants Rus Hofje), url: "https://hofjesinamsterdam.nl/van-brants-rus-hofje/" }
+    - { label: Hofjes in Amsterdam (Corvershof), url: "https://hofjesinamsterdam.nl/corvershof/" }
+    - { label: Luther Museum Amsterdam, url: "https://www.luthermuseum.nl/" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:RM2804 Amsterdam - Nieuwe Keizersgracht 94.jpg"
+    - "commons:File:Amsterdam - Nieuwe Keizersgracht 28.JPG"
+    - "commons:File:Amsterdam - Nieuwe Keizersgracht 570.jpg"
+  cluster:
+    key: pla-hofjes
+    members:
+      - Occo Hofje
+      - Wittenberg (Luther Museum)
+      - Van Brants Rus Hofje
+      - Hodshon and Van Limmik, two Reformed homes in the Amstelhof garden
+      - Corvershof and the couples' homes behind H'ART
+      - Sophia Adriana Stichting, the Stedelijk founder's almshouse
+  nl:
+    title: Hofjes rond het Amstelhof, zes manieren om ouden te huisvesten
+    summary: 'Zes liefdadigheidshuizen tussen de Nieuwe Herengracht en de Nieuwe Keizersgracht, met de grillen van hun stichters: wapens als woordgrap, een weduwe die weg moest als haar man stierf, een hofje vermomd als grachtenhuis en wezen met een eigen voordeur.'
+    body: |
+      Begin aan de Nieuwe Herengracht op nummer 43. De weduwe uit wier kunstverzameling het Stedelijk Museum groeide, liet dit familiehuis in 1882 verbouwen tot hofje voor acht vrouwen boven de vijftig, van welke kerk ook, al mocht er hooguit één katholieke tegelijk wonen. Op nummer 18 lieten Joan Corver en Sara Maria Trip, allebei jong gestorven, de diaconie geld na voor woningen voor oude echtparen; hun wapens zijn een woordgrap met drie korven en drie trippen.
+
+      Om de hoek aan de Nieuwe Keizersgracht verrezen in de tuin van het Amstelhof de hervormde tehuizen Hodshon en Van Limmik. In het Hodshonhuis uit 1878 moesten echtparen een eigen inkomen hebben, dus als de kostwinner stierf, moest de weduwe weg.
+
+      Op 28-44 legde Christoffel van Brants, die door Peter de Grote in de Russische adelstand was verheven, in 1732 de eerste steen van een hofje voor lutherse vrouwen; in november stierf hij. Nu wonen er studenten. Op 94 huisvest het "Gebouw van Barmhertigheijd" van Cornelia Occo uit 1774 nog altijd oudere vrouwen met een katholieke achtergrond. Helemaal aan het eind had het lutherse huis voor 300 ouden van dagen uit 1769, nu Wittenberg, twee deuren zo ver mogelijk uit elkaar: een voor de ouden, een voor de wezen. Binnen zit het Luther Museum.
+
+      Behalve het museum bekijk je alles vanaf de straat.
+
+      Let op:
+      - het gedicht van negen regels boven de deur van Nieuwe Herengracht 20
+      - VAN LIMMIK STICHTING onder het middelste raam
+      - de adelaarskoppen aan de stoepleuningen van het Occo Hofje
+      - de twee deuren van Wittenberg, elk met twee lantaarns
+- title: Plantage Muidergracht, the Nobel laboratories
+  summary: Along one Plantage canal, the lab where Van der Waals worked, the iron-free lab his successor Zeeman waited fifteen years for, with a 250-tonne block under the floor and Einstein as a visitor, a boarding school for steam engineers and Hildo Krop's carved geology institute.
+  body: |
+    Start at Plantage Muidergracht 6, the city university's physics laboratory of 1880–1882. Johannes Diderik van der Waals worked here from about 1883 and won the Nobel Prize in 1910. Look from across the canal: the big lecture hall at the back rises straight out of the water, and round its frieze ran the names of eighteen physicists.
+
+    His successor Pieter Zeeman, a Nobel laureate since 1902, found it too cramped for magnetic work, and waited until 1923 for the lab next door at number 4. No steel or iron went into it, and concrete tables on their own foundations kept out vibration; the largest weighs 250 tonnes. Einstein came to visit. Both labs are private flats now.
+
+    Further along at number 14, Abraham Salm's building of 1887 housed the Kweekschool voor Machinisten, which had started on Oostenburg in 1878 to train boys to run the steam engines of ships and trains, at home and in the Dutch East Indies. The pupils slept on the top floor.
+
+    At the tip of Roeterseiland, the city built a geology institute and a chemistry lab in 1930–1931, and Hildo Krop carved its walls with scenes from palaeontology and geography. The university still uses it, and the carvings are on the outside.
+
+    Look for:
+    - the window over the Zeeman lab door, a beam of light breaking into rays
+    - Natuurkundig Laboratorium on the frieze of number 6
+    - the dormitory windows high up on number 14
+    - Krop's carved corbels around the institute entrances
+  category: civic
+  lat: 52.36588
+  lng: 4.909613
+  address: Plantage Muidergracht 4
+  links:
+    - { label: Wikipedia (nl) Zeemanlaboratorium, url: "https://nl.wikipedia.org/wiki/Zeemanlaboratorium" }
+    - { label: Wikipedia (nl) Van der Waals, url: "https://nl.wikipedia.org/wiki/Johannes_Diderik_van_der_Waals" }
+    - { label: Wikipedia (nl) Kweekschool voor machinisten, url: "https://nl.wikipedia.org/wiki/Kweekschool_voor_machinisten" }
+    - { label: Wikipedia (nl) Hildo Krop, url: "https://nl.wikipedia.org/wiki/Hildo_Krop" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Amsterdam - Zeemanlaboratorium Plantage Muidergracht.JPG"
+    - "commons:File:Amsterdam - Lab UvA Plantage Muidergracht.JPG"
+    - "commons:File:BOUWSCULPTUUR (HILDO KROP, 1930-'32) - Amsterdam - 20372886 - RCE.jpg"
+  cluster:
+    key: pla-science
+    members:
+      - Zeeman laboratory, built without iron
+      - Physisch Laboratorium, where Van der Waals worked
+      - Boarding school for steam engineers (Plantage Muidergracht 14)
+      - Hildo Krop's carvings on the old geology institute (Roeterseiland)
+  nl:
+    title: Plantage Muidergracht, de laboratoria van de Nobelprijzen
+    summary: Aan één gracht in de Plantage het lab van Van der Waals, het ijzerloze lab waar zijn opvolger Zeeman vijftien jaar op wachtte, met Einstein op bezoek, een internaat voor machinisten en het beeldhouwwerk van Hildo Krop aan het geologisch instituut.
+    body: |
+      Begin bij Plantage Muidergracht 6, het natuurkundig laboratorium van de gemeentelijke universiteit uit 1880–1882. Johannes Diderik van der Waals werkte hier vanaf ongeveer 1883 en kreeg in 1910 de Nobelprijs. Kijk vanaf de overkant: de grote collegezaal achterin rijst recht uit het water op, en in het fries stonden de namen van achttien natuurkundigen.
+
+      Zijn opvolger Pieter Zeeman, Nobelprijswinnaar sinds 1902, vond het te krap voor magnetische proeven en moest tot 1923 wachten op het lab ernaast, op nummer 4. Er zit geen staal of ijzer in, en betonnen tafels op een eigen fundering hielden trillingen buiten; de grootste weegt 250 ton. Einstein kwam er op bezoek. Beide labs zijn nu particuliere appartementen.
+
+      Verderop, op nummer 14, zat in het gebouw van Abraham Salm uit 1887 de Kweekschool voor Machinisten, die in 1878 op Oostenburg was begonnen om jongens op te leiden voor de stoommachines van schepen en treinen, hier en in Nederlands-Indië. Beneden waren een smederij en een draaierij, bovenin sliepen de leerlingen.
+
+      Op de kop van het Roeterseiland bouwde de gemeente in 1930–1931 een geologisch instituut en een scheikundelab, en Hildo Krop hakte er taferelen uit de paleontologie en de aardrijkskunde in. De universiteit zit er nog, en het beeldhouwwerk zit aan de buitenkant.
+
+      Let op:
+      - het raam boven de deur van het Zeemanlab, een lichtbundel die in stralen uiteenvalt
+      - Natuurkundig Laboratorium in het fries van nummer 6
+      - de ramen van de slaapzalen hoog in nummer 14
+      - de gebeeldhouwde consoles van Krop rond de ingangen van het instituut
+- title: Roeterseiland, from workhouse to campus
+  summary: Down the Roetersstraat from the city workhouse that held up to a thousand poor, over bridges named for rescuers and survivors, past a campus building with its legs cut off, to the cinema resistance students built in 1945 and one of the first model blocks for workers.
+  body: |
+    Start at Roetersstraat 2, where a wall seems to run on for ever. Behind it is the Stadswerkhuis of 1779–1782, built to set beggars and vagrants to work. It later became the city poorhouse, with up to a thousand inside, and is now a nursing home; Ramses Shaffy lived here, and his portrait looks out from the wall on the Nieuwe Kerkstraat.
+
+    Walking south you cross bridges named after people who saved lives in the war or survived it: the Lau Mazirelbrug, for a lawyer in the resistance, with hippos and crocodiles in its quay stones; and the Halverstadbrug, for the man who wiped from the Schouwburg register the names of children smuggled out.
+
+    The island held distilleries and part of the rubbish dump, then a tram depot, then the university. To open up the Nieuwe Achtergracht, the architects took the four lowest floors off the building that straddled it.
+
+    At Roetersstraat 170 is Kriterion. Students of the resistance group that hid Jewish children bought a Jewish workers' clubhouse the Dutch Nazi party had seized and opened a cinema in November 1945, so students could pay their own way. It is still run by students.
+
+    Round the corner in the Valckenierstraat, Jan Leliman's Salerno block of 1854–1856 gave 48 working families homes on the sewer and the water mains.
+
+    Look for:
+    - Shaffy's portrait with his motto Leef!
+    - the carved hippos on the Lau Mazirelbrug
+    - the bridge building over the Nieuwe Achtergracht, open underneath
+    - the pointed privy projections on the Salerno block
+  category: hidden-history
+  lat: 52.36255
+  lng: 4.910735
+  address: Roetersstraat 170
+  links:
+    - { label: Kriterion, url: "https://www.kriterion.nl/" }
+    - { label: Wikipedia (nl) Dr. Sarphatihuis, url: "https://nl.wikipedia.org/wiki/Dr._Sarphatihuis" }
+    - { label: Wikipedia (nl) Lau Mazirelbrug, url: "https://nl.wikipedia.org/wiki/Lau_Mazirelbrug" }
+    - { label: Wikipedia (nl) Roeterseiland, url: "https://nl.wikipedia.org/wiki/Roeterseiland" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Kriterion Cinema, Amsterdam.jpg"
+    - "commons:File:Dr.Sarphatihuis.JPG"
+    - "commons:File:Lau Mazirelbrug Amsterdam 20160420.JPG"
+  cluster:
+    key: pla-roeterseiland
+    members:
+      - Kriterion, the cinema the resistance students built
+      - The city workhouse (Dr. Sarphatihuis)
+      - Bridges with wartime names (Roetersstraat and Plantage Middenlaan)
+      - Salerno, one of the first model blocks for workers
+      - "Roeterseiland: the building with its legs cut off, and the lawn that was saved and lost"
+  nl:
+    title: Roeterseiland, van werkhuis tot campus
+    summary: De Roetersstraat af, van het stadswerkhuis waar tot duizend armen zaten, over bruggen genoemd naar redders en overlevenden, langs een universiteitsgebouw zonder benen, naar de bioscoop die verzetsstudenten in 1945 begonnen en een van de eerste modelblokken voor arbeiders.
+    body: |
+      Begin bij Roetersstraat 2, waar een muur maar door lijkt te gaan. Daarachter staat het Stadswerkhuis uit 1779–1782, gebouwd om bedelaars en landlopers aan het werk te zetten. Later werd het het Stedelijk Armenhuis, met wel duizend mensen binnen, en nu is het een verpleeghuis; Ramses Shaffy woonde er, en vanaf de muur aan de Nieuwe Kerkstraat kijkt zijn portret je aan.
+
+      Naar het zuiden kom je over bruggen die heten naar mensen die in de oorlog levens redden of het overleefden: de Lau Mazirelbrug, naar een advocate in het verzet, met nijlpaarden en krokodillen in de legstenen; en de Halverstadbrug, naar de man die de namen van naar buiten gesmokkelde kinderen uit de administratie van de Schouwburg haalde.
+
+      Op het eiland stonden stokerijen en een deel van de vuilnisbelt, daarna een tramremise en toen de universiteit. Om de Nieuwe Achtergracht vrij te maken, haalden de architecten de vier onderste verdiepingen weg van het gebouw dat eroverheen lag.
+
+      Op Roetersstraat 170 zit Kriterion. Studenten uit de verzetsgroep die Joodse kinderen liet onderduiken, kochten het clubhuis van een Joodse arbeidersvereniging dat de NSB had ingepikt en openden er in november 1945 een bioscoop, zodat studenten hun studie zelf konden betalen. Studenten runnen hem nog steeds.
+
+      Om de hoek in de Valckenierstraat gaf het Salernoblok van Jan Leliman uit 1854–1856 48 arbeidersgezinnen een woning met riool en waterleiding.
+
+      Let op:
+      - het portret van Shaffy met zijn credo Leef!
+      - de gebeeldhouwde nijlpaarden op de Lau Mazirelbrug
+      - het bruggebouw over de Nieuwe Achtergracht, open aan de onderkant
+      - de puntige uitbouwen van de privaten aan het Salernoblok
+- title: Plantage Middenlaan's villas and the free corner of Artis
+  summary: Flamingos you can watch without a ticket, the chapel wing of a Catholic home built where Artis showed its first animals, a villa with zinc vases and a coach house by two architects about to fall out, and the house the horse-tram company built for its director.
+  body: |
+    Start at the Artisplein, on the corner of the Plantage Kerklaan. In 2014 the zoo pulled down its Geological Museum and opened this square outside its fence. Drag a chair to the flamingo pond and look past the long Watertafel fountain into the aviary of meadow birds, where Arcam counts the world's largest collection of spoonbills. It costs nothing.
+
+    Walk east along the Plantage Middenlaan. At number 52, an inn once stood where in 1838 the new zoo society showed its first animals. A baron's legacy built a Catholic home for the poor old on the site in 1863–1866; only its cross-shaped chapel wing survives, hidden inside a new block of 2022. Above the new entrance, Saint James stands between two old people.
+
+    On the corner of the Plantage Lepellaan, Willem and Jan Springer's villa of 1874 is known as the Huis met de Vazen, after the zinc vases on its front. In its back garden stands a coach house dated 1907, one of the last designs by Kropholler and Staal before they parted in a quarrel.
+
+    Next door at number 60 is the villa the horse-tram company built in 1878–1880 for its director Karel Schadd, who also helped found the publisher Elsevier. The villas are private and seen from the street.
+
+    Look for:
+    - the movable chairs by the flamingo pond
+    - Saint James over the new Sint Jacob entrance
+    - the zinc statues in the villa's niches
+    - the lion-headed brackets over the door of number 60
+  category: green
+  lat: 52.366469
+  lng: 4.913261
+  address: Artisplein, corner Plantage Kerklaan and Plantage Middenlaan
+  links:
+    - { label: Arcam Artisplein, url: "https://arcam.nl/architectuur-gids/artisplein/" }
+    - { label: Wikipedia (nl) W.J.J. Offenberg, url: "https://nl.wikipedia.org/wiki/Wilhelmus_Jacobus_Johannes_Offenberg" }
+    - { label: Rijksmonumentenregister (518268), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/518268" }
+    - { label: Wikipedia (nl) Omnibus Maatschappij, url: "https://nl.wikipedia.org/wiki/Amsterdamsche_Omnibus_Maatschappij" }
+  attributes:
+    rank: Okay
+  photos:
+    - "commons:File:Villa, twee driezijdige zijrisalieten hebben nissen met zinken vazen en twee beelden - Amsterdam - 20408964 - RCE.jpg"
+    - "commons:File:Plantage Middenlaan 60.JPG"
+  cluster:
+    key: pla-artis
+    members:
+      - Artisplein, a corner of the zoo you can sit in for free
+      - Sint Jacob, the old people's home where Artis began
+      - Huis met de Vazen and its coach house
+      - The horse-tram director's villa (Plantage Middenlaan 60)
+  nl:
+    title: De villa's van de Plantage Middenlaan en de gratis hoek van Artis
+    summary: Flamingo's kijken zonder kaartje, de kapelvleugel van een katholiek oudeliedenhuis op de plek waar Artis zijn eerste dieren liet zien, een villa met zinken vazen en een koetshuis van twee architecten vlak voor hun ruzie, en het huis dat de paardentram voor zijn directeur bouwde.
+    body: |
+      Begin op het Artisplein, op de hoek van de Plantage Kerklaan. In 2014 sloopte de dierentuin hier zijn Geologisch Museum en maakte er een plein van, buiten het hek. Schuif een stoel naar de flamingovijver en kijk over de lange Watertafel de volière met weidevogels in, volgens Arcam de grootste collectie lepelaars ter wereld. Het kost niets.
+
+      Loop naar het oosten over de Plantage Middenlaan. Op nummer 52 stond een herberg waar het pas opgerichte genootschap in 1838 zijn eerste dieren liet zien. Met de erfenis van een baron kwam er in 1863–1866 een katholiek gesticht voor arme ouden van dagen; alleen de kruisvormige kapelvleugel is over, verstopt in nieuwbouw uit 2022. Boven de nieuwe ingang staat Sint Jacob tussen twee oude mensen.
+
+      Op de hoek van de Plantage Lepellaan heet de villa die Willem en Jan Springer in 1874 bouwden het Huis met de Vazen, naar de zinken vazen in de gevel. In de achtertuin staat een koetshuis met het jaartal 1907, een van de laatste ontwerpen van Kropholler en Staal voordat ze met ruzie uit elkaar gingen.
+
+      Ernaast, op nummer 60, staat de villa die de paardentrammaatschappij in 1878–1880 bouwde voor haar directeur Karel Schadd, die ook mede-oprichter van uitgeverij Elsevier was. De villa's zijn particulier en te zien vanaf de straat.
+
+      Let op:
+      - de losse stoelen bij de flamingovijver
+      - Sint Jacob boven de nieuwe ingang
+      - de zinken beelden in de nissen van de villa
+      - de leeuwenkoppen onder het balkon van nummer 60
+- title: The army's Sarphatistraat, from garrison hospital to Napoleon's gate
+  summary: 'Along the Singelgracht the War Department built a garrison town of its own: a hospital where the cancer hospital grew up, a medicine depot now wrapped in Steven Holl''s copper, a cavalry barracks full of artists, and at the end the gate Napoleon rode through in 1811.'
+  body: |
+    Walk east along the Sarphatistraat on the inner side of the Singelgracht. At number 252 the War Department opened its Military Hospital in 1871, on an old bastion beside a cemetery and the railway. When the garrison left after the First World War, the Antoni van Leeuwenhoek cancer hospital moved in, from 1929 to the 1970s. It is homes now, and the banner over the door that said Militair Hospitaal now says nescio.
+
+    Beyond the army's clothing store stands the State Medicine Depot of 1889, which supplied the colonies, garrisons, navy and prisons. Steven Holl turned it into an office and added a pavilion on the water side wrapped in perforated copper, with colour fields that seem to slide behind it.
+
+    At number 470, a stone over the gate still reads KAVALLERIE-KAZERNE. Troopers and horses lived round this courtyard from 1865 until tanks replaced horses; the army left in 1988 and the Rijksakademie moved in. Once a year it opens its studios to everyone.
+
+    The walk ends at the Muiderpoort, the only gate left from the 17th and 18th-century city walls. Its predecessor slid off its foundations one January night in 1769. On 9 October 1811 Napoleon rode through in a coach behind eight white horses. Tax advisers work in it now.
+
+    Look for:
+    - the word nescio on the hospital banner
+    - the copper skin, from across the Singelgracht
+    - the year 1864 on the barracks gate
+    - the medieval ship in the arms on the gate's city side
+  category: civic
+  lat: 52.363726
+  lng: 4.919355
+  address: Alexanderplein / Sarphatistraat 500
+  links:
+    - { label: Wikipedia (nl) Muiderpoort, url: "https://nl.wikipedia.org/wiki/Muiderpoort_(Amsterdam)" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Sarphatistraat/Militair_Hospitaal" }
+    - { label: Arcam Campus Stadgenoot, url: "https://arcam.nl/architectuur-gids/campus-stadgenoot/" }
+    - { label: Rijksakademie Open Studios, url: "https://www.rijksakademie.nl/en/open-studios" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Muiderpoort amsterdam 5.jpg"
+    - "commons:File:Amsterdam - Sarphatistraat 252.JPG"
+    - "commons:File:Amsterdam - Sarphatistraat 470.JPG"
+  cluster:
+    key: pla-army
+    members:
+      - Muiderpoort, the gate Napoleon rode through
+      - Militair Hospitaal, the army hospital where the cancer hospital grew up
+      - Cavalry barracks turned art academy (Rijksakademie)
+      - Steven Holl's copper pavilion on the Singelgracht (Sarphatistraat 410)
+  nl:
+    title: De Sarphatistraat van het leger, van garnizoenshospitaal tot de poort van Napoleon
+    summary: 'Langs de Singelgracht bouwde het Ministerie van Oorlog een eigen garnizoensstad: een hospitaal waar het kankerziekenhuis opgroeide, een medicijnmagazijn in het koper van Steven Holl, een kazerne vol kunstenaars en aan het eind de poort waar Napoleon in 1811 doorheen reed.'
+    body: |
+      Loop naar het oosten over de Sarphatistraat, aan de binnenkant van de Singelgracht. Op nummer 252 opende het Ministerie van Oorlog in 1871 zijn Militair Hospitaal, op een oud bolwerk naast een begraafplaats en het spoor. Toen het garnizoen na de Eerste Wereldoorlog vertrok, trok het Antoni van Leeuwenhoekziekenhuis erin, van 1929 tot de jaren zeventig. Nu wordt er gewoond, en op de banderol boven de deur staat in plaats van Militair Hospitaal het woord nescio.
+
+      Voorbij het kledingmagazijn van het leger staat het Rijksmagazijn van Geneesmiddelen uit 1889, dat de koloniën, de garnizoenen, de marine en de gevangenissen bevoorraadde. Steven Holl maakte er een kantoor van en zette aan de waterkant een paviljoen neer in geperforeerd koper, met kleurvlakken die erachter lijken te verschuiven.
+
+      Op nummer 470 staat boven de poort nog altijd KAVALLERIE-KAZERNE. Ruiters en paarden woonden vanaf 1865 rond deze binnenplaats, tot tanks de paarden vervingen; in 1988 vertrok het leger en kwam de Rijksakademie. Eén keer per jaar gaan de ateliers voor iedereen open.
+
+      De wandeling eindigt bij de Muiderpoort, de enige poort die nog over is van de stadswallen uit de 17de en 18de eeuw. Zijn voorganger gleed in een januarinacht van 1769 van zijn fundering. Op 9 oktober 1811 reed Napoleon erdoor, in een koets met acht witte paarden. Nu zitten er belastingadviseurs.
+
+      Let op:
+      - het woord nescio op de banderol van het hospitaal
+      - de koperen huid, vanaf de overkant van de Singelgracht
+      - het jaartal 1864 op de poort van de kazerne
+      - het middeleeuwse schip in het wapen aan de stadskant van de poort
+- title: Kattenburg and Wittenburg, what the clearances left
+  summary: Every house on Kattenburg came down in the 1960s. What is left is one real corner, a row of new fronts made to look old, an underpass where islanders wrote their own history on tiles, a gate to a demolished church and the church the residents saved.
+  body: |
+    Between 1962 and 1968 every house on Kattenburg was pulled down and its streets wiped out. Start on the Kattenburgerplein, where the gabled row looks centuries old but was drawn by the city's monuments office for the new flats; some historians called it a falsification.
+
+    The real survivors are a few steps on at the Kattenburgergracht: Willem Kromhout's corner of 1897 with its round stair turret, two warehouses turned into a fire and police post in 1880, and a girls' school of 1868.
+
+    Walk up the Kattenburgerstraat to the main underpass. Its six columns are tiled with the handwriting of 25 old islanders: how they fought for the right to come back after the clearances, and how, led by Marie Altelaar, they held back part of their rent for more than fifteen years when the new flats cost more than promised.
+
+    Cross to Wittenburg. On the Wittenburgergracht a presbytery has a wide gate that once led to St Anne's church, hidden behind the houses with no front of its own; the church was demolished in 1978 and the gate now leads to nothing. At the end stands the Oosterkerk of 1669–1671, whose Hemony bell still strikes the hours over clockwork from the old Exchange. The city took it over in 1969 meaning to demolish it; the residents stopped that.
+
+    Look for:
+    - the stone De Groenne Oven in the new row
+    - Kromhout's round stair turret
+    - the column for Marie Altelaar
+    - Hildo Krop's hunger winter relief on the Oosterkerk
+  category: hidden-history
+  lat: 52.369982
+  lng: 4.919539
+  address: Kleine Wittenburgerstraat 1, Wittenburgergracht
+  links:
+    - { label: Wikipedia (nl) Kattenburg, url: "https://nl.wikipedia.org/wiki/Kattenburg_(Amsterdam)" }
+    - { label: Wikipedia (nl) Oosterkerk, url: "https://nl.wikipedia.org/wiki/Oosterkerk_(Amsterdam)" }
+    - { label: Wikipedia (nl) Triomfboog van Kattenburg, url: "https://nl.wikipedia.org/wiki/Triomfboog_van_Kattenburg" }
+    - { label: Wikipedia (nl) Sint-Annakerk, url: "https://nl.wikipedia.org/wiki/Sint-Annakerk_(Amsterdam)" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Oosterkerk-amsterdam-wittenburg.jpg"
+    - "commons:File:Kattenburgerplein 38-39.jpg"
+    - "commons:File:Triomfboog Kattenburgerstraat (01).jpg"
+  cluster:
+    key: eil-kattenburg
+    members:
+      - Oosterkerk, the islands' church the city nearly demolished
+      - Old Kattenburg's last corner
+      - Kattenburgerplein, the old fronts that are new
+      - Kattenburger Triomfboog, the islanders' own history in tiles
+      - The gate to a church that is gone (Annakerk presbytery)
+  nl:
+    title: Kattenburg en Wittenburg, wat de sloop overliet
+    summary: In de jaren zestig ging elk huis op Kattenburg plat. Over zijn één echte hoek, een rij nieuwe gevels die oud moeten lijken, een onderdoorgang waar eilanders hun eigen geschiedenis op tegels schreven, een poort naar een gesloopte kerk en de kerk die de bewoners redden.
+    body: |
+      Tussen 1962 en 1968 werd elk huis op Kattenburg gesloopt en verdween het stratenpatroon. Begin op het Kattenburgerplein, waar de rij geveltjes eeuwen oud lijkt, maar door Monumentenzorg voor de nieuwbouw is getekend; een paar historici noemden het vervalsing.
+
+      De echte overlevers staan een paar stappen verder aan de Kattenburgergracht: het hoekpand van Willem Kromhout uit 1897 met het ronde traptorentje, twee pakhuizen die in 1880 een hulpwacht voor brandweer en politie werden, en een meisjesschool uit 1868.
+
+      Loop de Kattenburgerstraat op naar de grote onderdoorgang. De zes pijlers zijn betegeld met het handschrift van 25 oude eilanders: hoe ze na de sloop vochten voor het recht om terug te komen, en hoe ze onder leiding van Marie Altelaar meer dan vijftien jaar een deel van de huur inhielden toen de nieuwe flats duurder bleken dan beloofd.
+
+      Steek over naar Wittenburg. Aan de Wittenburgergracht heeft een pastorie een brede poort die ooit naar de Sint-Annakerk leidde, die zonder eigen voorgevel achter de huizen stond; de kerk werd in 1978 gesloopt en de poort leidt nu nergens heen. Aan het eind staat de Oosterkerk uit 1669–1671, waar een klok van Hemony nog de uren slaat boven het uurwerk van de oude Beurs. De gemeente kreeg de kerk in 1969 en wilde haar slopen; de bewoners hielden dat tegen.
+
+      Let op:
+      - de gevelsteen De Groenne Oven in de nieuwe rij
+      - het ronde traptorentje van Kromhout
+      - de pijler voor Marie Altelaar
+      - het hongerwinterreliëf van Hildo Krop aan de Oosterkerk
+- title: Windroosplein and the head of Wittenburg, the islanders' own corner
+  summary: At the head of Wittenburg, residents turned a dog field into a food forest and a builders' yard into a garden instead of a basketball court. Between them, a school children fought over in 1914 where Constant later painted, and the lifeboat shed train passengers read.
+  body: |
+    Start in the inner court off the Grote Wittenburgerstraat. It was a neglected dog field until, after three shootings in the neighbourhood, a resident planted a cherry tree. The Plukbos is now a food forest of some 130 crops, open day and night: passers-by may take a piece of fruit or a few leaves for tea.
+
+    Walk to the water, where the Kattenburgervaart meets the Dijksgracht. The school here opened in 1914 for children moved off Oostenburg to make room for Werkspoor; according to the Haagsche Courant, Wittenburg children waited for them with sticks, and teachers and parents had to walk them in. From 1964 until his death in 2005 the painter Constant worked in it.
+
+    Next door, a smithy of 1883 became the Amsterdam base of the lifeboat society in 1896, with a covered harbour on the Dijksgracht. Lifeboats were kept here until 1995, and the society's name in big black letters on the back wall greeted train passengers coming into Centraal Station. It is now a hall for business events.
+
+    End on the Windroosplein. Around 1992 the city wanted a low-maintenance basketball court on the leftover builders' yard; residents asked for a garden and built it themselves. The gate is always open. Nearby stands the stone for the staff of the underground communist paper De Waarheid.
+
+    Look for:
+    - the first cherry tree in the Plukbos
+    - the school's stair tower, from across the water
+    - the lifeboat society's name on the shed
+    - the De Waarheid stone
+  category: green
+  lat: 52.373185
+  lng: 4.924472
+  address: Windroosplein
+  links:
+    - { label: Plukbos, url: "https://plukbos.nl/" }
+    - { label: Shaffy's Tuin garden walk, url: "https://shaffystuin.nl/buitengewone-buurttuinen/" }
+    - { label: 4en5mei monument Windroosplein, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1495" }
+    - { label: Buurtboeken De vergeten school, url: "https://www.buurtboeken.nl/verhaal/219/de_vergeten_school.html" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:2023 Windroosplein 73, Asd.jpg"
+  cluster:
+    key: eil-windroos
+    members:
+      - "Windroosplein: the garden instead of a basketball court, and De Waarheid's stone"
+      - Plukbos, the food forest behind the Wittenburg blocks
+      - Lifeboat shed on the Windroosplein
+      - Tjerk Hiddesschool, the school children fought over and Constant's studio
+  nl:
+    title: Windroosplein en de kop van Wittenburg, het eigen hoekje van de eilanders
+    summary: Op de kop van Wittenburg maakten bewoners van een hondenveldje een voedselbos en van een bouwterrein een tuin. Daartussen een school waar kinderen in 1914 om vochten en waar later Constant schilderde, en de reddingbotenloods die treinreizigers lazen.
+    body: |
+      Begin op het binnenterrein aan de Grote Wittenburgerstraat. Het was een verwaarloosd hondenveldje, tot een bewoner na drie schietincidenten in de buurt een kersenboom plantte. Het Plukbos is nu een voedselbos met zo'n 130 gewassen, dag en nacht open: wie langskomt mag een stuk fruit of wat blaadjes voor de thee meenemen.
+
+      Loop naar het water, waar de Kattenburgervaart de Dijksgracht raakt. De school hier ging in 1914 open voor kinderen die van Oostenburg weg moesten omdat Werkspoor uitbreidde; volgens de Haagsche Courant wachtten Wittenburgse kinderen hen op met stokken, en moesten onderwijzers en ouders ze erheen brengen. Van 1964 tot zijn dood in 2005 werkte schilder Constant in het gebouw.
+
+      Ernaast werd een smederij uit 1883 in 1896 de Amsterdamse basis van de Reddingmaatschappij, met een overdekte haven aan de Dijksgracht. Tot 1995 lagen hier reddingboten, en de naam van de maatschappij in grote zwarte letters op de achtergevel begroette treinreizigers op weg naar het Centraal Station. Nu is het een zaal voor zakelijke evenementen.
+
+      Eindig op het Windroosplein. Rond 1992 wilde de gemeente op het overgebleven bouwterrein een onderhoudsarm basketbalveld; bewoners vroegen om een tuin en legden hem zelf aan. Het hekje is altijd open. Vlakbij staat de steen voor de medewerkers van de illegale communistische krant De Waarheid.
+
+      Let op:
+      - de eerste kersenboom in het Plukbos
+      - het trappenhuis van de school, vanaf de overkant van het water
+      - de naam van de Reddingmaatschappij op de loods
+      - de steen van De Waarheid
+- title: Marineterrein and the Dijksgracht, the navy yard you can walk into
+  summary: For 360 years the Admiralty and then the navy kept this yard behind a wall. Since 2015 you can walk in, swim in its harbour, climb a firing range turned grandstand, then follow the Dijksgracht past a wooden shed that moved, a tree that swallowed a fence and a Chicago bridge.
+  body: |
+    Go in through the 17th-century gate at Kattenburgerstraat 7. Around 1655 the Admiralty moved its yards here; Tromp's flagship was built on this ground, and Vincent van Gogh lived here for a year with his uncle, the commandant. Ship building moved to Den Helder and the yard closed in 1915, but the navy stayed behind its wall until the first part opened on 1 April 2015. The inner harbour has been an official swimming spot since 2025.
+
+    At the north tip, across from NEMO, the navy's windowless concrete firing range has a yellow frame from a Brabant cow shed arched over it, carrying a stair to a rooftop grandstand for the sunset. Everything on the site is treated as temporary.
+
+    Out on the Dijksgracht, the Sluisdeurenloods is a wooden shed where the city made lock gates; in 1957 it was taken apart for the IJ tunnel and rebuilt 125 metres away. Further along, a maple on the railway bank has grown through the iron fence. Residents named it after Ramses Shaffy for his 75th birthday; the fence is gone everywhere except where the tree holds it.
+
+    The walk ends at the Mariniersbrug of 1935, a single leaf of the Chicago type that tips back into a brick pier. Sources disagree whether Piet Kramer or Jan Leupen designed it.
+
+    Look for:
+    - the gate's carved pediment
+    - the view of NEMO from the firing-range roof
+    - the narrow-gauge rails out of the wooden shed
+    - the fence grown into the Shaffyboom
+  category: industrial
+  lat: 52.371839
+  lng: 4.916391
+  address: Kattenburgerstraat 7
+  links:
+    - { label: Wikipedia (nl) Marineterrein, url: "https://nl.wikipedia.org/wiki/Marineterrein_(Amsterdam)" }
+    - { label: Marineterrein De Schietbaan, url: "https://marineterrein.nl/experimenten/transformatie-schietbaan/" }
+    - { label: Mediamatic Sluisdeurenloods, url: "https://www.mediamatic.net/en/page/378860/sluisdeurenloods" }
+    - { label: Wikipedia (nl) Mariniersbrug, url: "https://nl.wikipedia.org/wiki/Mariniersbrug" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Amsterdam - Kattenburgerstraat Rijkswerf III.JPG"
+    - "commons:File:2023 Dijksgracht 6, Asd (1).jpg"
+    - "commons:File:Mariniersbrug-Amsterdam.jpg"
+  cluster:
+    key: eil-marineterrein
+    members:
+      - Marineterrein, the navy yard behind the wall
+      - The Schietbaan, a navy firing range turned into a grandstand
+      - Sluisdeurenloods, the wooden shed that moved for the IJ tunnel
+      - Mariniersbrug, Amsterdam's Chicago bridge
+      - The Shaffyboom, a maple that swallowed the railway fence
+  nl:
+    title: Marineterrein en de Dijksgracht, de marinewerf waar je in mag
+    summary: Driehonderdzestig jaar hield de marine deze werf achter een muur. Nu loop je erin, zwem je in de haven en klim je op een schietbaan die tribune werd; dan langs de Dijksgracht een houten loods die verhuisde, een boom die een hek opslokte en een Chicagobrug.
+    body: |
+      Ga naar binnen door de zeventiende-eeuwse poort aan Kattenburgerstraat 7. Rond 1655 verhuisde de Admiraliteit haar werven hierheen; het vlaggenschip van Tromp is op deze grond gebouwd, en Vincent van Gogh woonde hier een jaar bij zijn oom, de commandant. De scheepsbouw ging naar Den Helder en in 1915 sloot de werf, maar de marine bleef achter haar muur tot het eerste deel op 1 april 2015 openging. De binnenhaven is sinds 2025 een officiële zwemplek.
+
+      Op de noordpunt, tegenover NEMO, staat de raamloze betonnen schietbaan van de marine, met daaroverheen een geel frame uit een Brabantse koeienstal en een trap naar een tribune op het dak, voor de zonsondergang. Alles op het terrein geldt als tijdelijk.
+
+      Buiten aan de Dijksgracht staat de Sluisdeurenloods, een houten loods waar de stad sluisdeuren maakte; in 1957 werd hij voor de IJtunnel gedemonteerd en 125 meter verderop weer opgebouwd. Verder langs het water is een esdoorn op het spoortalud door het ijzeren hek heen gegroeid. Buurtbewoners noemden hem naar Ramses Shaffy, voor diens 75ste verjaardag; het hek is overal weg, behalve waar de boom het vasthoudt.
+
+      De wandeling eindigt bij de Mariniersbrug uit 1935, één val van het Chicagotype die achterover in een bakstenen pijler kantelt. Of Piet Kramer of Jan Leupen hem ontwierp, daarover zijn de bronnen het oneens.
+
+      Let op:
+      - het gebeeldhouwde fronton van de poort
+      - het uitzicht op NEMO vanaf het dak van de schietbaan
+      - de smalsporen die de houten loods uit lopen
+      - het hek dat in de Shaffyboom is gegroeid
+- title: Oostenburg, from VOC ropewalks to Werkspoor
+  summary: On Oostenburg the East India Company twisted rope in sheds half a kilometre long, Werkspoor built locomotives and the first cast-iron diesel ship engine, and one street of workers' flats survived a plan that zoned the whole island for industry.
+  body: |
+    Start on the Oostenburgergracht at numbers 73-81. In 1660 the VOC and the Admiralty each built a ropewalk here, side by side, running some 500 metres back towards the IJ behind thick walls against the fire risk of the tar kettles. In 1673 a fire in the Admiralty ropewalk was the first ever fought with Jan van der Heyden's new fire engines. The sheds came down around 1920; only the two front buildings remain, later Werkspoor's company museum.
+
+    Behind them lies the small Oostenburgerpark, made when the island's slums were cleared in the 1980s. In it, a red granite ball by Christian Tobin rests on a film of water, and when the water runs you can spin it by hand.
+
+    In the Nieuwe Oostenburgerstraat stand A.L. van Gendt's workers' flats of 1874, built by a company that insisted it was a business, not a charity. In 1953 the city zoned all of Oostenburg for industry; these blocks survived, and are now the only old workers' housing left on the islands.
+
+    Their backs face the same architect's halls across the Wittenburgervaart. Werkspoor built them from 1898 for a South African order of 40 locomotives and 400 wagons, and in 1903 the first cast-iron diesel ship engine came out of them. Stork, as the firm became, left in 1990.
+
+    Look for:
+    - the A VOC monogram in the pediment
+    - the lions with swords on top of number 81
+    - the white keystones over the flats' windows
+    - the 28-pane cast-iron windows of the halls
+  category: industrial
+  lat: 52.368113
+  lng: 4.924286
+  address: Oostenburgergracht 73-81
+  links:
+    - { label: Wikipedia (nl) VOC-lijnbaan, url: "https://nl.wikipedia.org/wiki/Lijnbaan_van_de_Verenigde_Oost-Indische_Compagnie" }
+    - { label: Wikipedia (nl) Werkspoor, url: "https://nl.wikipedia.org/wiki/Werkspoor" }
+    - { label: Wikipedia (nl) Hallen van Stork, url: "https://nl.wikipedia.org/wiki/Hallen_van_Stork" }
+    - { label: Wikipedia (nl) Kogelbron, url: "https://nl.wikipedia.org/wiki/Kogelbron_(Oostenburgerpark)" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Lijnbaan oost-indische compagnie oostenburgergracht amsterdam.jpg"
+    - "commons:File:Nieuwe Oostenburgerstraat, Amsterdam.jpg"
+    - "commons:File:VanGendtHallen overzicht west.jpg"
+  cluster:
+    key: eil-oostenburg
+    members:
+      - The VOC and Admiralty ropewalks
+      - Werkspoor's halls on Oostenburg
+      - The Woning-Maatschappij houses, the islands' last old workers' street
+      - The Kogelbron, a granite ball floating on water
+  nl:
+    title: Oostenburg, van de lijnbanen van de VOC tot Werkspoor
+    summary: Op Oostenburg draaide de VOC touw in banen van een halve kilometer, bouwde Werkspoor locomotieven en de eerste gietijzeren scheepsdieselmotor, en overleefde één straat met arbeiderswoningen een plan dat het hele eiland tot industrieterrein maakte.
+    body: |
+      Begin aan de Oostenburgergracht op nummer 73-81. In 1660 legden de VOC en de Admiraliteit hier elk een lijnbaan aan, naast elkaar, zo'n 500 meter lang richting het IJ, achter dikke muren vanwege het brandgevaar van de teerketels. In 1673 werd een brand in de Admiraliteitslijnbaan als eerste geblust met de nieuwe brandspuiten van Jan van der Heyden. Rond 1920 gingen de banen tegen de vlakte; alleen de twee voorgebouwen staan nog, later het bedrijfsmuseum van Werkspoor.
+
+      Erachter ligt het Oostenburgerpark, aangelegd toen in de jaren tachtig de krotten van het eiland werden gesloopt. Daar ligt een rode granieten bol van Christian Tobin op een laagje water, en als de fontein loopt, kun je hem met de hand laten draaien.
+
+      In de Nieuwe Oostenburgerstraat staan de arbeiderswoningen van A.L. van Gendt uit 1874, gebouwd door een maatschappij die per se een bedrijf wilde zijn en geen liefdadigheid. In 1953 kreeg heel Oostenburg de bestemming industrie; deze blokken bleven toch staan en zijn nu de enige oude arbeiderswoningen op de eilanden.
+
+      Hun achterkanten kijken uit op de hallen van dezelfde architect aan de overkant van de Wittenburgervaart. Werkspoor bouwde ze vanaf 1898 voor een Zuid-Afrikaanse order van 40 locomotieven en 400 wagons, en in 1903 kwam er de eerste gietijzeren scheepsdieselmotor uit. Stork, zoals het bedrijf toen heette, vertrok in 1990.
+
+      Let op:
+      - het monogram A VOC in het fronton
+      - de leeuwen met zwaarden boven op nummer 81
+      - de witte sluitstenen boven de ramen van de woningen
+      - de gietijzeren ramen van 28 ruitjes aan de hallen
+- title: Kadijksplein and the old sea dike, sailors, skippers and cheap beer
+  summary: From a skipper the city said no to, past a café that outlived the IJ tunnel, the cheap-beer bridge, a coffee house against gin, a sailors' home and a walled bonded dock, onto a street that is really a dike, lined with houses squatters saved.
+  body: |
+    Start on the Prins Hendrikkade at the corner of the Nieuwe Foeliestraat, under a twenty-metre skipper with a pipe that Nils Westergard painted in 2025 against the city committee's advice; it may stay for the time being. On the Oosterdok, Arcam's folded aluminium pavilion ducks low beside the Museumhaven, where skippers squatted the dock with their old working boats in 1984.
+
+    On the Rapenburgerplein, the approach to the IJ tunnel cleared everything round the distillery café De Druif, which still pours under its old lettering. Waiting skippers bought cheap scharrebier by the next bridge, the Scharrebiersluis of 1906, which has to be cooled on hot days.
+
+    On the Kadijksplein, the People's League against Drink Abuse built a timber coffee house in 1902 so dock workers drank coffee instead of gin; its last tenant closed in 2026. Opposite stands the Zeemanshuis of 1858, a home for sailors between ships, which ran until 1985. Through the sandstone gate lies the Entrepotdok, walled off from 1827 as the state's bonded store; its warehouses carry the names of towns, and people have lived in them since 1984.
+
+    Then climb the Hoogte Kadijk, a street that is really a dike. Along it stand the Sibbelwoningen, rows of dyke houses with homes on the crest and basements below, saved by squatters and neighbours in the 1970s.
+
+    Look for:
+    - the grapes hanging outside De Druif
+    - Barbiers's sailor on the Kadijksplein
+    - the town names on the Entrepotdok warehouses
+    - the stone Van de dijk af on the Sibbelwoningen
+  category: hidden-history
+  lat: 52.37036
+  lng: 4.912912
+  address: Kadijksplein 17-18
+  links:
+    - { label: Wikipedia (nl) Kadijksplein, url: "https://nl.wikipedia.org/wiki/Kadijksplein" }
+    - { label: Wikipedia (nl) Entrepotdok, url: "https://nl.wikipedia.org/wiki/Entrepotdok" }
+    - { label: Wikipedia (nl) Hoogte Kadijk, url: "https://nl.wikipedia.org/wiki/Hoogte_Kadijk" }
+    - { label: Wikipedia (nl) Scharrebiersluis, url: "https://nl.wikipedia.org/wiki/Scharrebiersluis_(Amsterdam)" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:2023 Kadijksplein 17-18, Asd-Zeemanshuis.jpg"
+    - "commons:File:Amsterdam - Rapenburgerplein 81.JPG"
+    - "commons:File:Amsterdam - Entrepotdok - Nymegen en Ostende.JPG"
+  cluster:
+    key: eil-kadijk
+    members:
+      - Zeemanshuis, the sailors' home on the Kadijksplein
+      - Entrepotdok, the bonded warehouses behind a wall
+      - Volkskoffiehuis on the Kadijksplein
+      - Hoogte Kadijk, the old sea dike and its last shipyard
+      - Sibbelwoningen, the dyke houses saved by squatters
+      - Scharrebiersluis, the cheap-beer bridge
+      - Café De Druif and the corner that outlived the IJ tunnel
+      - The smoking skipper the city said no to
+      - Arcam's folded pavilion and the Museumhaven
+  nl:
+    title: Kadijksplein en de oude zeedijk, zeelui, schippers en scharrebier
+    summary: Van een schipper die de gemeente niet wilde, langs een café dat de IJtunnel overleefde, de scharrebierbrug, een koffiehuis tegen de jenever, een zeemanshuis en een ommuurd entrepot, naar een straat die eigenlijk een dijk is, met huisjes die krakers redden.
+    body: |
+      Begin aan de Prins Hendrikkade op de hoek van de Nieuwe Foeliestraat, onder een schipper met pijp van twintig meter hoog, die Nils Westergard in 2025 tegen het advies van de welstandscommissie in schilderde; hij mag vooralsnog blijven. Aan het Oosterdok duikt het gevouwen aluminium paviljoen van Arcam laag weg naast de Museumhaven, waar schippers met hun oude vrachtschepen in 1984 het dok kraakten.
+
+      Op het Rapenburgerplein verdween voor de toerit van de IJtunnel alles rond distilleerderij-café De Druif, dat nog altijd schenkt onder de oude letters. Wachtende schippers kochten goedkoop scharrebier bij de brug ernaast, de Scharrebiersluis uit 1906, die op hete dagen gekoeld moet worden.
+
+      Op het Kadijksplein bouwde de Volksbond tegen Drankmisbruik in 1902 een houten koffiehuis, zodat havenarbeiders koffie dronken in plaats van jenever; de laatste huurder sloot in 2026. Aan de overkant staat het Zeemanshuis uit 1858, een tehuis voor zeelui tussen twee schepen, dat tot 1985 draaide. Door de zandstenen poort ligt het Entrepotdok, vanaf 1827 ommuurd als entrepot van het Rijk; de pakhuizen dragen stedennamen, en sinds 1984 wordt er gewoond.
+
+      Klim dan de Hoogte Kadijk op, een straat die eigenlijk een dijk is. Erlangs staan de Sibbelwoningen, rijen dijkhuisjes met de woning op de kruin en een souterrain eronder, in de jaren zeventig gered door krakers en buren.
+
+      Let op:
+      - de druiventros buiten De Druif
+      - de zeeman van Barbiers op het Kadijksplein
+      - de stedennamen op de pakhuizen van het Entrepotdok
+      - de gevelsteen Van de dijk af aan de Sibbelwoningen
+- title: Czaar Peterbuurt, the shipyard workers' quarter
+  summary: Up the Czaar Peterstraat, from the city pawnshop that alone survived the 1986 demolitions, past model blocks built after an inquiry into cellar dwellings and the cheapest housing of the century, to a supermarket where you bring the groceries and the horse-tram depot.
+  body: |
+    The Czaar Peterbuurt was laid out on the navy's old timber harbour, the Funen, and by 1882 it was nearly full of housing for low-paid shipyard and engine workers.
+
+    Start at the city pawnshop branch of 1880, where people pledged household goods down to their beds. When urban renewal flattened the blocks around it in 1986, the pawnshop alone was spared, and it now turns its back on a car park.
+
+    Between the Blankenstraat and the Kraijenhoffstraat stand Bastiaan de Greef's workers' blocks. After an 1873 inquiry into Amsterdam's cellar dwellings, the city lent money and land and its own architect, and he built two blocks back to back, left open at the ends to let the wind through. Private builders put up the rest, including a block the register calls the very cheapest speculative housing of the century.
+
+    Walk up the Czaar Peterstraat to number 233. Tkramrepus, supermarket spelled backwards, opened in 2022: you drop groceries off, and people with a food bank pass or Stadspas shop for free.
+
+    The walk ends at the Tweede Leeghwaterstraat, at the depot of 1884 where the horse tram to the Kadijksplein started. A.L. van Gendt gave the tram shed, the stable for 33 horses and the smithy each its own roof. Artists work in it now.
+
+    Look for:
+    - the back of the pawnshop facing the square the demolition left
+    - the open ends of De Greef's blocks at the Cruquiusstraat
+    - the drop-off point inside Tkramrepus
+    - the three separate roofs of the depot
+  category: housing
+  lat: 52.370197
+  lng: 4.93096
+  address: Tweede Leeghwaterstraat 5, Blankenstraat 358
+  links:
+    - { label: Wikipedia (nl) Czaar Peterbuurt, url: "https://nl.wikipedia.org/wiki/Czaar_Peterbuurt" }
+    - { label: Urban Resort REMISE, url: "https://urbanresort.nl/remise/about-remise/" }
+    - { label: Monumentenregister Amsterdam (Hulpbank), url: "https://data.amsterdam.nl/monumenten/1ffcae88-e3d0-473e-863e-d80f27c1765e" }
+    - { label: 1018 crowdfunding for Tkramrepus, url: "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2024/7/1/crowdfunding-moet-sluiting-supermarkt-tkramrepus-voorkomen" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:Czaar Peterstraat 21 foto 1.JPG"
+    - "commons:File:Kraijenhoffstraat hoek Cruquiusstraat foto 1.jpg"
+  cluster:
+    key: eil-czaarpeter
+    members:
+      - Horse-tram depot of the Tweede Leeghwaterstraat
+      - Hulpbank van Lening, the pawnshop branch in the Czaar Peterbuurt
+      - Czaar Peterbuurt workers' blocks
+      - Tkramrepus, the reverse supermarket in the Czaar Peterstraat
+  nl:
+    title: Czaar Peterbuurt, de buurt van de werfarbeiders
+    summary: De Czaar Peterstraat op, van de lommerd die als enige de sloop van 1986 overleefde, langs modelblokken van na het onderzoek naar kelderwoningen en de goedkoopste speculatiebouw van de eeuw, naar een supermarkt waar je boodschappen brengt en de paardentramremise.
+    body: |
+      De Czaar Peterbuurt kwam op het Funen, de oude houthaven van de marine, en stond in 1882 al bijna vol met woningen voor slecht betaalde werf- en fabrieksarbeiders.
+
+      Begin bij de hulpbank van de stedelijke Bank van Lening uit 1880, waar mensen hun huisraad beleenden, tot hun bedden aan toe. Toen de stadsvernieuwing in 1986 de blokken eromheen platgooide, bleef alleen de lommerd staan, met zijn achterkant naar een parkeerplaats.
+
+      Tussen de Blankenstraat en de Kraijenhoffstraat staan de arbeiderswoningen van Bastiaan de Greef. Na het onderzoek naar de Amsterdamse kelderwoningen van 1873 leende de gemeente geld en grond en haar eigen architect uit, en hij zette twee blokken rug aan rug, aan de uiteinden open zodat de wind erdoor kon. De rest bouwden particulieren, onder meer een blok dat het monumentenregister de allergoedkoopste speculatiebouw van de eeuw noemt.
+
+      Loop de Czaar Peterstraat op naar nummer 233. Tkramrepus, supermarkt achterstevoren, ging in 2022 open: je levert boodschappen in, en wie een voedselbankpas of Stadspas heeft, haalt ze gratis.
+
+      Je eindigt aan de Tweede Leeghwaterstraat, bij de remise uit 1884 waar de paardentram naar het Kadijksplein begon. A.L. van Gendt gaf de wagenloods, de stal voor 33 paarden en de smederij elk een eigen dak. Nu werken er kunstenaars.
+
+      Let op:
+      - de achterkant van de lommerd aan het pleintje dat de sloop achterliet
+      - de open uiteinden van De Greefs blokken aan de Cruquiusstraat
+      - de inleverplek binnen bij Tkramrepus
+      - de drie aparte daken van de remise
+- title: The eastern bastions, from the first power station to De Gooyer and the Funen
+  summary: Along the city's old eastern edge, the first municipal power station, a planner's memorial kept off the children's playground, a guardian of the dead on an advertising column, a windmill that lost its wind to Napoleon and a car-free quarter on a buried bastion.
+  body: |
+    Start at Hoogte Kadijk 400, the city's own first power station, opened in 1903 to electrify the trams and harbour cranes. Its machine hall is now a high-voltage substation.
+
+    Walk east to the Ir. Jakoba Mulderplein, named after the planner who fought for children's play space all over the city. The city wanted Gijs Bakker's tilted granito disc of 1997 in the middle of the square; the neighbours said it would take the children's room to play, so it went to the edge, and now doubles as a bench and a skating ramp.
+
+    Where the Sarphatistraat ends, an orange rugby ball with purple rods sits on an advertising column. It is Alexander Schabracq's Mbulu Ngulu, after the Bakota guardians of the dead in Gabon, here watching over the living.
+
+    On the Funenkade stands De Gooyer, the last of the corn mills that lined the city's bastions. When Napoleon's barracks went up in 1810–1813 they took its wind, so in 1814 it was moved onto the base of a demolished water mill. Brouwerij 't IJ next door has it on its labels and nothing else to do with it.
+
+    End in Het Funen, sixteen different blocks without cars behind a long noise screen of glass scales. Under its paths lies the point of bastion Zeeburg, the best preserved of the city's buried bastions.
+
+    Look for:
+    - the gargoyles on the power station front
+    - the steel letters of Mulder's creed in the paving
+    - the two wooden octagons of De Gooyer
+    - the bastion's brickwork under Tussentijd
+  category: industrial
+  lat: 52.366817
+  lng: 4.926179
+  address: Funenkade 5
+  links:
+    - { label: Wikipedia (nl) De Gooyer, url: "https://nl.wikipedia.org/wiki/De_Gooyer_(Amsterdam)" }
+    - { label: Arcam Het Funen, url: "https://arcam.nl/architectuur-gids/het-funen/" }
+    - { label: Wikipedia (nl) Mbulu Ngulu, url: "https://nl.wikipedia.org/wiki/Mbulu_Ngulu" }
+    - { label: Wikipedia (nl) Gedenkteken Ir. Jakoba Mulder, url: "https://nl.wikipedia.org/wiki/Gedenkteken_Ir._Jakoba_Mulder" }
+  attributes:
+    rank: Nice
+  photos:
+    - "commons:File:De gooyer amsterdam.jpg"
+    - "commons:File:Gedenkteken Mulder, zijaanzicht (1).jpg"
+    - "commons:File:2020 Tussentijd III (2).jpg"
+  cluster:
+    key: eil-bastions
+    members:
+      - De Gooyer, the windmill that lost its wind to Napoleon
+      - Het Funen, a car-free quarter on top of the last bastion
+      - Centrale Oost, the city's first power station
+      - Mbulu Ngulu, an African guardian of the dead on an advertising column
+      - Jakoba Mulder's memorial, a tilted disc where the children kept their playground
+  nl:
+    title: De oostelijke bolwerken, van de eerste centrale tot De Gooyer en het Funen
+    summary: Langs de oude oostrand van de stad de eerste eigen centrale, een gedenkteken dat de buren van de speelplek hielden, een wachter van de doden op een peperbus, een molen die zijn wind kwijtraakte aan Napoleon en een autovrije buurt op een begraven bolwerk.
+    body: |
+      Begin bij Hoogte Kadijk 400, de eerste eigen elektriciteitscentrale van de stad, in 1903 geopend om tram en havenkranen elektrisch te maken. Het machinegebouw is nu een hoogspanningsstation.
+
+      Loop naar het oosten naar het Ir. Jakoba Mulderplein, genoemd naar de stedenbouwkundige die overal in de stad vocht voor speelruimte voor kinderen. De gemeente wilde de schuine granitoschijf van Gijs Bakker uit 1997 midden op het plein; de buren zeiden dat het de kinderen hun speelplek zou kosten, dus kwam hij aan de rand, en nu is hij ook bankje en skateplateau.
+
+      Waar de Sarphatistraat ophoudt, ligt een oranje rugbybal met paarse staken boven op een peperbus. Het is Mbulu Ngulu van Alexander Schabracq, naar de dodenwachters van de Bakota in Gabon, die hier over de levenden waakt.
+
+      Aan de Funenkade staat De Gooyer, de laatste van de korenmolens op de bolwerken van de stad. Toen Napoleons kazerne er in 1810–1813 kwam, ving hij te weinig wind, en in 1814 verhuisde hij naar de voet van een afgebroken watermolen. Brouwerij 't IJ ernaast heeft hem op de etiketten en verder niets met hem te maken.
+
+      Eindig in het Funen: zestien verschillende woonblokken zonder auto's, achter een lang geluidsscherm met glazen schubben. Onder de paden ligt de punt van bolwerk Zeeburg, het best bewaarde van de begraven bolwerken van de stad.
+
+      Let op:
+      - de spuwers aan de gevel van de centrale
+      - de stalen letters van Mulders credo in de bestrating
+      - de twee houten achtkanten van De Gooyer
+      - het metselwerk van het bolwerk onder Tussentijd

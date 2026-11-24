@@ -1,0 +1,1012 @@
+# Centrum cluster places, part da-2 (Haarlemmerbuurt, Grachtengordel-West, Nieuwe Zijde).
+# Parent places for the citywide Deep Amsterdam view; facts from the member drafts in
+# research/centrum/places/*.yaml. The `cluster` key is stripped before import.
+
+- title: Zandhoek and the Westerdoksdijk
+  summary: "On the IJ side of Realeneiland: a quay of 1640s houses where Jacob Olie grew up and Stadsherstel restored its first house, a tug company's office on piles in the IJ, and the last wind sculpture of Wicher Meursing, built by friends after his death."
+  body: |
+    The Zandhoek is named after the sand ships that unloaded here, on the IJ side of Realeneiland. In 1645–1648 Captain Reinier Reael, one of the officers in Frans Hals's Meagre Company, had the row of houses built along the quay; the stone In Den Gouden Reael at no. 14 shows the gold coin his family took its name from. The photographer Jacob Olie grew up at no. 10 among raft builders, and around 1900 the quay was known for its love of the House of Orange. Next door, De Keijser (no. 13) was the first house Stadsherstel took on, restored in 1959, when few believed the city's slums could be saved.
+
+    Out along the Westerdoksdijk, the tug company Goedkoop built a slim modernist office in 1960, standing largely on piles in the IJ so the dispatchers on the top floor could watch the harbour. The aesthetics committee was furious that it blocked the view of the water, and it was built anyway.
+
+    At the windiest point between the Westerdok and the IJ stands Door wind bewogen beweging, an eight-metre sculpture that friends of Wicher Meursing built from his scale model after he died in 2015. It swings with every gust, or stands dead still.
+
+    Look for:
+    - the stone In Den Gouden Reael at Zandhoek 14
+    - the double wooden drawbridge at the end of the quay
+    - the off-centre tower on the Goedkoop office
+    - the view over the IJ from the end of the dike
+  category: housing
+  lat: 52.388062
+  lng: 4.889984
+  address: Zandhoek 10 to 14
+  links:
+    - { label: Stadsherstel De Keijser, url: "https://stadsherstel.nl/monumenten/de-keijser-zandhoek-13/" }
+    - { label: Stadsherstel In Den Gouden Reael, url: "https://stadsherstel.nl/monumenten/in-den-gouden-reael/" }
+    - { label: Amsterdam op de kaart Westerdoksdijk 40, url: "https://amsterdamopdekaart.nl/wederopbouw/Westerdoksdijk/40" }
+    - { label: Wikipedia (nl) Door wind bewogen beweging, url: "https://nl.wikipedia.org/wiki/Door_wind_bewogen_beweging" }
+  photos:
+    - commons:File:2021 Door wind bewogen beweging (4).jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-realeneiland
+    members:
+      - Zandhoek, the Orange-minded quay and Stadsherstel's first house
+      - Rederij Goedkoop, the tug company's office in the IJ
+      - Door wind bewogen beweging, Wicher Meursing's last wind sculpture
+  nl:
+    title: Zandhoek en de Westerdoksdijk
+    summary: "Aan de IJ-kant van het Realeneiland: een kade met huizen uit de jaren 1640 waar Jacob Olie opgroeide en Stadsherstel zijn eerste huis restaureerde, een rederijkantoor op palen in het IJ en de laatste windsculptuur van Wicher Meursing, na zijn dood gebouwd door vrienden."
+    body: |
+      De Zandhoek heet naar de zandschepen die hier, aan de IJ-kant van het Realeneiland, hun lading losten. In 1645–1648 liet kapitein Reinier Reael, een van de officieren op Het Magere Compagnie van Frans Hals, de rij huizen langs de kade bouwen; de steen In Den Gouden Reael op nr. 14 toont de gouden munt waaraan zijn familie haar naam ontleende. Fotograaf Jacob Olie groeide op nr. 10 op tussen de vlottenbouwers, en rond 1900 stond de kade bekend als oranjegezind. Ernaast was De Keijser (nr. 13) het eerste huis van Stadsherstel, gerestaureerd in 1959, toen weinigen geloofden dat de krotten van de stad te redden waren.
+
+      Verderop aan de Westerdoksdijk bouwde sleepdienst Goedkoop in 1960 een slank modernistisch kantoor, grotendeels op palen in het IJ, zodat de sleepdienst op de bovenste verdieping de haven kon overzien. De welstandscommissie was woedend omdat het uitzicht op het water verdween, maar het kwam er toch.
+
+      Op het winderigste punt tussen Westerdok en IJ staat Door wind bewogen beweging, een acht meter hoog beeld dat vrienden van Wicher Meursing na zijn dood in 2015 naar zijn schaalmodel bouwden. Het zwaait bij elke vlaag, of staat doodstil.
+
+      Let op:
+      - de steen In Den Gouden Reael op Zandhoek 14
+      - de dubbele houten ophaalbrug aan het eind van de kade
+      - de uit het midden geplaatste toren op het kantoor van Goedkoop
+      - het uitzicht over het IJ vanaf het eind van de dijk
+
+- title: Haarlemmerplein, gate and dune water
+  summary: "Round the king's gate of 1840: the first dune water sold by the bucket, Drees's birthplace, an anarchist's red cinema, a bridge where a tram went into the canal, first stones laid by two boys, an art route behind the dike and the cinema called little Tuschinski."
+  body: |
+    The Haarlemmerpoort was finished in 1840, and King Willem II rode through it the day before his inauguration. Toll gate, fire station and police post, it was nearly demolished and saved by squatters. Clean dune water first reached Amsterdam here in 1853, sold by the bucket to those without a pipe; behind the gate a steel and glass statue of 2016 honours Jacob van Lennep, who pushed the pipeline through. Just outside, on the Willemsbrug's predecessor, a tram jumped the rails into the Singelgracht in 1924; Piet Kramer's bridge replaced it.
+
+    Round the corner, at Korte Marnixkade 4 and Korte Marnixstraat 3, two boys aged nine laid first stones that are still in the fronts, and a farrier's tools are carved at no. 7. Willem Drees, the prime minister of the state pension, was born at Haarlemmerplein 23; his memorial stone of 1986 drew a counter-demonstration. At no. 7 an anarchist opened De Roode Bioscoop in 1913 to spread red ideas through film; it is now a volunteer-run stage.
+
+    Along the Haarlemmerdijk, The Movies has shown films behind an ordinary house front since 1912. Behind the dike, residents of the 1980s Nieuwe Houttuinen made an art route, with a Jonas and the whale moved from the Beursplein.
+
+    Look for:
+    - Willem II's inscription on the city side of the gate
+    - Johannes Nicolaas Zegger's first stone on Korte Marnixstraat 3
+    - the Drees stone in the plinth of no. 23
+    - the art deco foyer of The Movies, open to anyone
+  category: civic
+  lat: 52.385085
+  lng: 4.883099
+  address: Haarlemmerplein 50
+  links:
+    - { label: Wikipedia (nl) Haarlemmerpoort, url: "https://nl.wikipedia.org/wiki/Haarlemmerpoort_(Amsterdam)" }
+    - { label: Wikipedia (nl) Standbeeld voor Jacob van Lennep, url: "https://nl.wikipedia.org/wiki/Standbeeld_voor_Jacob_van_Lennep" }
+    - { label: Wikipedia (nl) De Roode Bioscoop, url: "https://nl.wikipedia.org/wiki/De_Roode_Bioscoop" }
+    - { label: The Movies, url: "https://www.themovies.nl/" }
+  photos:
+    - commons:File:Haarlemmerpoort augustus2005.jpg
+    - commons:File:RoodeBioscoop JAN 2024-1.jpg
+    - commons:File:Gevel Movies.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-haarlemmerplein
+    members:
+      - Haarlemmerpoort and its fire station
+      - Jacob van Lennep and the first dune water
+      - Willem Drees's birthplace
+      - De Roode Bioscoop, the anarchists' cinema on the Haarlemmerplein
+      - Willemsbrug, where a tram fell into the canal
+      - Korte Marnixkade 4, the house a nine-year-old started
+      - Korte Marnixstraat, a farrier's horseshoes and a boy's first stone
+      - Kunstroute Nieuwe Houttuinen, art for "a road from nowhere to nowhere"
+      - The Movies, Amsterdam's little Tuschinski
+  nl:
+    title: Haarlemmerplein, poort en duinwater
+    summary: "Rond de koningspoort van 1840: het eerste duinwater per emmer, het geboortehuis van Drees, de rode bioscoop van een anarchist, een brug waar een tram de gracht in reed, eerste stenen van twee jongetjes, een kunstroute achter de dijk en de bioscoop die Klein Tuschinski heet."
+    body: |
+      De Haarlemmerpoort was in 1840 klaar, en koning Willem II reed er de dag voor zijn inhuldiging doorheen. Tolhuis, brandweerpost en politiebureau, werd hij bijna gesloopt en door krakers gered. Hier kwam in 1853 het eerste schone duinwater Amsterdam binnen, per emmer verkocht aan wie geen leiding had. Achter de poort eert een beeld van staal en glas uit 2016 Jacob van Lennep, die de waterleiding doordrukte. Net buiten de poort sprong in 1924 een tram van de voorganger van de Willemsbrug de Singelgracht in; Piet Kramer ontwierp de brug die ervoor in de plaats kwam.
+
+      Om de hoek, op Korte Marnixkade 4 en Korte Marnixstraat 3, legden twee jongens van negen eerste stenen die nog in de gevels zitten, en op nr. 7 zijn de werktuigen van een hoefsmid uitgehakt. Willem Drees, de premier van de AOW, werd geboren op Haarlemmerplein 23; zijn gedenksteen uit 1986 kreeg een tegendemonstratie. Op nr. 7 opende een anarchist in 1913 De Roode Bioscoop om met films het rode gedachtegoed te verspreiden; nu is het een theatertje dat op vrijwilligers draait.
+
+      Aan de Haarlemmerdijk draait The Movies sinds 1912 films achter een gewone woonhuisgevel. Achter de dijk maakten bewoners van de Nieuwe Houttuinen uit de jaren tachtig een kunstroute, met een Jonas en de walvis van het Beursplein.
+
+      Let op:
+      - het opschrift van Willem II aan de stadskant van de poort
+      - de eerste steen van Johannes Nicolaas Zegger op Korte Marnixstraat 3
+      - de Dreessteen in de plint van nr. 23
+      - de art-decofoyer van The Movies, voor iedereen open
+
+- title: Haarlemmerdijk shopfronts
+  summary: "Along the old shopping street, fronts still advertise what was sold: a fishmonger's octopus tiles and eel-shaped anchors, a king's name over a textile store, coffee and cocoa in tiles, a gable stone everyone misread, a shop named after a nickname, and a crèche built to be clean."
+  body: |
+    The Haarlemmerstraat and Haarlemmerdijk have been a shopping street for centuries, and many fronts still say what was sold behind them.
+
+    At Haarlemmerstraat 65 the frieze of Magazijn Willem III still lists its stock, though the store went bankrupt in 1935; at no. 60 a grocer's tiles of 1898 offer coffee, tea and cocoa. On the Haarlemmerdijk, at no. 39, the fish trader Neeltje Roeraade had a front built in 1896 with an octopus and a seal in tiles and wall anchors shaped like eels; two doors along, her husband's family's pastry bakery of 1900 has peacocks in its porch. In the Vinkenstraat behind, Femina Muller opened a crèche in 1872 to show that childcare could be clean, for babies from six weeks old; her name is still over the door.
+
+    Further west, no. 63 wears the blue tiles of the De Gruyter grocery chain. At no. 109 everyone read the stone SLUYS as Sluis in Zeeland, until research found a widow called Sluijs who showed her father's Zwartsluis; below it, a German opened a workwear shop in 1885, and the neighbours' nickname for him, De Mof, is still its name. At no. 158 a pastry baker's sign hangs out two krakelingen.
+
+    Look for:
+    - the octopus, the seal and the eels on Haarlemmerdijk 39
+    - Koffie, Thee, Cacao in the tiles of Haarlemmerstraat 60
+    - the church tower of Zwartsluis on the SLUYS stone
+    - the crèche's name in tiles over Vinkenstraat 39–41
+  category: curiosities
+  lat: 52.382059
+  lng: 4.888068
+  address: Haarlemmerdijk 37-43
+  links:
+    - { label: Wikipedia (nl) Haarlemmerdijk 39, url: "https://nl.wikipedia.org/wiki/Haarlemmerdijk_39" }
+    - { label: Wikipedia (nl) Haarlemmerstraat 60, url: "https://nl.wikipedia.org/wiki/Haarlemmerstraat_60_(Amsterdam)" }
+    - { label: VVAG Gevelsteen SLUYS, url: "https://www.gevelstenenvanamsterdam.nl/haarlemmerdijk-109-amsterdam-sluys/" }
+    - { label: Amsterdam op de kaart Vinkenstraat 39-41, url: "https://amsterdamopdekaart.nl/1850-1940/Vinkenstraat/39-41" }
+  photos:
+    - commons:File:2022 Haarlemmerdijk 39, Asd (1).jpg
+    - commons:File:2022 Haarlemmerstraat 65, Asd (1).jpg
+    - commons:File:2022 Haarlemmerstraat 60, Asd (2).jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-dijk
+    members:
+      - Roeraade's fish shop and the bakery next door
+      - Ghost signs of the Haarlemmer shopping street
+      - SLUYS and De Mof, Haarlemmerdijk 109
+      - Femina Muller's crèche in the Vinkenstraat
+  nl:
+    title: Winkelpuien van de Haarlemmerdijk
+    summary: "Langs de oude winkelstraat zeggen gevels nog wat er verkocht werd: inktvistegels en palingankers van een vishandel, een koningsnaam boven een manufacturenzaak, koffie en cacao in tegels, een verkeerd gelezen gevelsteen, een winkel met een scheldnaam en een schone crèche."
+    body: |
+      De Haarlemmerstraat en Haarlemmerdijk zijn al eeuwen een winkelstraat, en veel puien vertellen nog wat er achter verkocht werd.
+
+      Op Haarlemmerstraat 65 somt de fries van Magazijn Willem III nog de waren op, al ging de zaak in 1935 failliet; op nr. 60 bieden de tegels van een kruidenier uit 1898 koffie, thee en cacao aan. Aan de Haarlemmerdijk, op nr. 39, liet vishandelaarster Neeltje Roeraade in 1896 een gevel bouwen met een inktvis en een zeehond in tegels en muurankers in de vorm van palingen; twee deuren verder heeft de banketbakkerij van haar schoonfamilie uit 1900 pauwen in het portiek. In de Vinkenstraat erachter opende Femina Muller in 1872 een kinderbewaarplaats, voor baby's vanaf zes weken, om te laten zien dat opvang schoon kon; haar naam staat nog boven de deur.
+
+      Verder naar het westen draagt nr. 63 de blauwe tegels van De Gruyter. Op nr. 109 las iedereen de steen SLUYS als Sluis in Zeeland, tot onderzoek een weduwe Sluijs vond die het Zwartsluis van haar vader liet afbeelden. Eronder begon een Duitser in 1885 een werkkledingzaak, en de bijnaam die de buren hem gaven, De Mof, is nog altijd de winkelnaam. Op nr. 158 hangt een banketbakker twee krakelingen uit.
+
+      Let op:
+      - de inktvis, de zeehond en de palingen op Haarlemmerdijk 39
+      - Koffie, Thee, Cacao in de tegels van Haarlemmerstraat 60
+      - de kerktoren van Zwartsluis op de steen SLUYS
+      - de naam van de bewaarplaats in tegels boven Vinkenstraat 39–41
+
+- title: Korte Prinsengracht, not what it looks like
+  summary: "Round the Korte Prinsengracht little is what it seems: 1950s flats posing as canal houses, a 1939 front under an old top, a church hidden behind a canal house, warehouses named after Norwegian ports, a motorway that stopped at a bridge and a church built tall for lack of room."
+  body: |
+    Start on the Brouwersgracht. Behind the 19th-century front of nos. 130–134 stood an Old Catholic house church, reached through a covered alley and used from about 1664 to 1953; its galleries and light dome survive inside, above a later floor, A little further, two warehouses of 1891–1892 still carry the half-legible names Tromsoe and Hammerfest, the Norwegian ports their owners bought stockfish from.
+
+    On the Korte Prinsengracht, a department store burned down in 1940, and in 1954–1956 Auke Komter filled the corner with 32 flats over shops whose canal front is cut into narrow bays, so that it reads as a row of separate old houses: perhaps the first new building in the city fitted carefully into the old fabric. On the corner of the Haarlemmerstraat, no. 150 was rebuilt in 1939 under its old gable top, a rescue by the inspector Eelke van Houten.
+
+    Along the Haarlemmerstraat, Cuypers' Posthoornkerk (1860–1863) rose extra high because it could not spread between the houses; round it the parish built schools and a convent. Behind it, a whole workers' quarter was pulled down around 1970 for a four-lane road across the old city that was never finished. Its concrete bridge 95 still stands, its underpass painted in 2023 by Mick La Rock, one of Europe's first women graffiti writers.
+
+    Look for:
+    - the arcade of white columns on Komter's block
+    - Tromsoe and Hammerfest on Brouwersgracht 158–160
+    - Our Lady on the presbytery's stair tower, Haarlemmer Houttuinen
+    - the unused tram rails in the Haarlemmer Houttuinen
+  category: housing
+  lat: 52.380877
+  lng: 4.889198
+  address: Korte Prinsengracht 33-93, Haarlemmerstraat 141-179
+  links:
+    - { label: Wikipedia (nl) Haarlemmerstraat 141-179, url: "https://nl.wikipedia.org/wiki/Haarlemmerstraat_141-179_(Amsterdam)" }
+    - { label: Wikipedia (nl) Brouwersgracht, url: "https://nl.wikipedia.org/wiki/Brouwersgracht_(Amsterdam)" }
+    - { label: Wikipedia (nl) Posthoornkerk, url: "https://nl.wikipedia.org/wiki/Posthoornkerk" }
+    - { label: Wikipedia (nl) Haarlemmer Houttuinen, url: "https://nl.wikipedia.org/wiki/Haarlemmer_Houttuinen" }
+  photos:
+    - commons:File:2023 Haarlemmerstraat 141-179, KP, Asd (1).jpg
+    - commons:File:Posthoorn.jpg
+    - commons:File:Brug 95 in de Haarlemmer Houttuinen over de Korte Prinsengracht foto 1.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-kortepg
+    members:
+      - Komter's flats that pretend to be canal houses
+      - Van Houten's rescued gables in the Haarlemmerbuurt
+      - The hidden Old Catholic church behind Brouwersgracht 132
+      - Tromsø and Hammerfest, the stockfish warehouses
+      - Haarlemmer Houttuinen, the motorway that stopped at a bridge
+      - Posthoorn church and its Catholic island
+  nl:
+    title: Korte Prinsengracht, anders dan het lijkt
+    summary: "Rond de Korte Prinsengracht is weinig wat het lijkt: flats uit de jaren vijftig vermomd als grachtenhuizen, een gevel uit 1939 onder een oude top, een kerk achter een grachtenhuis, pakhuizen met Noorse namen, een snelweg die bij een brug stopte en een kerk die de hoogte in moest."
+    body: |
+      Begin aan de Brouwersgracht. Achter de 19e-eeuwse gevel van nr. 130–134 stond een oud-katholieke huiskerk, bereikbaar via een overbouwde steeg en in gebruik van omstreeks 1664 tot 1953. De galerijen en de lichtkoepel zitten er nog, boven een latere vloer. Iets verder dragen twee pakhuizen uit 1891–1892 nog de half leesbare namen Tromsoe en Hammerfest, de Noorse havens waar de eigenaren hun stokvis vandaan haalden.
+
+      Aan de Korte Prinsengracht brandde in 1940 een warenhuis af, en in 1954–1956 vulde Auke Komter de hoek met 32 woningen boven winkels. De grachtgevel is in smalle stroken verdeeld, zodat je een rij losse oude huizen ziet: misschien het eerste nieuwe gebouw in de stad dat zorgvuldig in het oude weefsel werd gepast. Op de hoek met de Haarlemmerstraat werd nr. 150 in 1939 herbouwd onder de oude geveltop, een redding van inspecteur Eelke van Houten.
+
+      In de Haarlemmerstraat werd de Posthoornkerk van Cuypers (1860–1863) extra hoog, omdat ze tussen de huizen niet breed kon worden; eromheen bouwde de parochie scholen en een klooster. Erachter ging rond 1970 een hele arbeidersbuurt tegen de vlakte voor een vierbaansweg dwars door de oude stad, die nooit af kwam. De betonnen brug 95 staat er nog, met een onderdoorgang die Mick La Rock, een van de eerste graffitivrouwen van Europa, in 2023 beschilderde.
+
+      Let op:
+      - de arcade met witte kolommen onder het blok van Komter
+      - Tromsoe en Hammerfest op Brouwersgracht 158–160
+      - Maria op de traptoren van de pastorie aan de Haarlemmer Houttuinen
+      - de nooit gebruikte tramrails in de Haarlemmer Houttuinen
+
+- title: Droogbak, where the Singel starts
+  summary: "Where the Singel begins at the IJ: a railway company's palace that shut off the harbour front, a herring buyer's double house of about 1606, an insurer's angel left behind, a school for skippers' children, Dudok's tower that lost its partner, and a hand for volunteers."
+  body: |
+    Where the Singel starts, a herring buyer built a double house around 1606 on land just won from the IJ, one of the widest stepped gables in the city; a later owner called Cruywagen set a wheelbarrow (kruiwagen) in the front, and the IJ side was the ferry house for Buiksloot. On the corner opposite, an insurer from Brabant hoisted a three-metre angel onto Haarlemmerstraat 2 around 1920, moved out in 1937 and left it behind.
+
+    In 1882–1884 the Holland Iron Railway Company built its head office on the Droogbak in exuberant neo-Renaissance, shutting off the view of the water; over the door stone children act out the railway. Further along, the city opened a school for the children of inland boatmen in 1925, its big windows turned away from the trains. Since 1989, after a fight that went to the Council of State, it has been a day centre for drug users. In front of the railway palace an outstretched hand of 2015 thanks the volunteers who help homeless and lonely Amsterdammers.
+
+    On the IJ, Dudok drew his Havengebouw of 1960 as half of a pair, with helicopters landing on the roof in his sketches. The second block was never built, and the tower stands a little oddly alone by the water.
+
+    Look for:
+    - the wheelbarrow stone on Singel 2
+    - the angel on the corner of Haarlemmerstraat 2
+    - the frieze of children over the Droogbak's first floor
+    - the wavy top edge of the skippers' school
+  category: civic
+  lat: 52.38026
+  lng: 4.894139
+  address: Droogbak 1A
+  links:
+    - { label: Wikipedia (nl) Droogbak (gebouw), url: "https://nl.wikipedia.org/wiki/Droogbak_(gebouw)" }
+    - { label: Wikipedia (nl) Droogbak 1CD, url: "https://nl.wikipedia.org/wiki/Droogbak_1CD" }
+    - { label: Wikipedia (nl) Havengebouw, url: "https://nl.wikipedia.org/wiki/Havengebouw_(Amsterdam)" }
+    - { label: Wikipedia (nl) Haarlemmerstraat 2, url: "https://nl.wikipedia.org/wiki/Haarlemmerstraat_2_(Amsterdam)" }
+  photos:
+    - commons:File:Droogbak amsterdam 2.jpg
+    - commons:File:Singel 2 Amsterdam 2024.jpg
+    - commons:File:2023 Haarlemmerstraat 2, Asd (3).jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-droogbak
+    members:
+      - Droogbak, the railway company's palace
+      - Harm Smeenge school for skippers' children
+      - Havengebouw, Dudok's tower that lost its partner
+      - The insurance angel of Haarlemmerstraat 2
+      - De Kruiwagen, the herring buyer's double house where the Singel starts
+      - De Aardige Amsterdammer, a hand for the volunteers
+  nl:
+    title: Droogbak, waar het Singel begint
+    summary: "Waar het Singel bij het IJ begint: het paleis van een spoorwegmaatschappij dat het havenfront afsloot, het dubbele huis van een haringkoper van rond 1606, een achtergelaten engel, een schippersschool, Dudoks toren zonder partner en een hand voor vrijwilligers."
+    body: |
+      Waar het Singel begint, bouwde een haringkoper rond 1606 op grond die net op het IJ was gewonnen een dubbel huis met een van de breedste trapgevels van de stad. Een latere eigenaar, Cruywagen, zette een kruiwagen in de gevel, en aan de IJ-kant zat het veerhuis naar Buiksloot. Op de hoek ertegenover liet een Brabantse verzekeraar rond 1920 een engel van drie meter op Haarlemmerstraat 2 hijsen; in 1937 vertrok de maatschappij en de engel bleef.
+
+      In 1882–1884 bouwde de Hollandsche IJzeren Spoorweg-Maatschappij haar hoofdkantoor aan de Droogbak, in uitbundige neorenaissance, en daarmee verdween het uitzicht op het water. Boven de deur spelen stenen kinderen spoorwegje. Verderop opende de stad in 1925 een school voor kinderen van binnenschippers, met de grote ramen van het spoor af. Sinds 1989, na een strijd tot aan de Raad van State, zit er een dagopvang voor drugsgebruikers. Voor het spoorwegpaleis bedankt een uitgestoken hand uit 2015 de vrijwilligers die dakloze en eenzame Amsterdammers helpen.
+
+      Aan het IJ ontwierp Dudok zijn Havengebouw uit 1960 als helft van een paar, met in zijn schetsen helikopters op het dak. Het tweede blok kwam er nooit, en de toren staat wat vreemd alleen aan het water.
+
+      Let op:
+      - de kruiwagensteen op Singel 2
+      - de engel op de hoek van Haarlemmerstraat 2
+      - de fries met kinderen boven de eerste verdieping van de Droogbak
+      - de golvende bovenrand van de schippersschool
+
+- title: Westermarkt beyond the tower
+  summary: "In the shadow of the Westertoren: the house where Descartes fathered a daughter, an elm of an undescribed variety, a meat hall on the old graveyard, an office that sparked a heritage society, Anton de Kom's house and a church shared by Syriac and Catholic congregations."
+  body: |
+    At Westermarkt 6, a house of 1624, René Descartes lodged in 1634, and by his own note fathered a daughter there with a servant of the house; a plaque quotes his praise of Dutch freedom and a tile in the pavement says Ik denk, dus ik ben. Nearby stands the Knobbeliep, an elm of about 1900 covered in burrs, found in 2024 to be an undescribed variety; only five are known. Beside the tower, a plain brick hall of 1814 was built for the butchers after Louis Napoleon had the weigh house on the Dam pulled down; it is one of only two old market halls left in the city.
+
+    On the corner of the Keizersgracht, a wine merchant demolished a 17th-century double house in 1918 for his office, Huize Labor. The outcry led to the founding of the Vereniging Hendrick de Keyser, which has been buying and saving old houses ever since. Round the corner, at Reestraat 6, the Surinamese writer and resistance man Anton de Kom lived in 1935, the year after Wij slaven van Suriname appeared. Down the Keizersgracht, the neo-Gothic church of 1852–1854 at no. 220 has belonged to the Syriac Orthodox since 1985, who share it with Catholic congregations; you can go in for the services.
+
+    Look for:
+    - Descartes's plaque and the tile in the pavement
+    - the burrs on the elm's trunk, best in winter
+    - the gateway with mourning putti beside the tower
+    - the Gothic front squeezed in at Keizersgracht 220
+  category: hidden-history
+  lat: 52.37488
+  lng: 4.884448
+  address: Westermarkt 6
+  links:
+    - { label: Wikipedia (nl) René Descartes, url: "https://nl.wikipedia.org/wiki/Ren%C3%A9_Descartes" }
+    - { label: Wikipedia (nl) Westermarkt, url: "https://nl.wikipedia.org/wiki/Westermarkt_(Amsterdam)" }
+    - { label: Wikipedia (nl) Hendrick de Keyser Monumenten, url: "https://nl.wikipedia.org/wiki/Hendrick_de_Keyser_Monumenten" }
+    - { label: Stadsherstel Reestraat 6, url: "https://stadsherstel.nl/monumenten/reestraat-6/" }
+  photos:
+    - commons:File:Moeder Godskerk-buitenkant.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-westermarkt
+    members:
+      - Westermarkt 6, where Descartes fathered a daughter
+      - The Knobbeliep, Amsterdam's own knobbly elm
+      - The meat hall on the old Westerkerk graveyard
+      - Huize Labor, the office that founded a heritage society
+      - Reestraat 6, where Anton de Kom lived
+      - Moeder Godskerk (Church of Our Lady), Syriac and Catholic
+  nl:
+    title: De Westermarkt naast de toren
+    summary: "In de schaduw van de Westertoren: het huis waar Descartes een dochter verwekte, een onbekende iepensoort, een vleeshal op het oude kerkhof, een kantoor dat een monumentenvereniging deed ontstaan, het huis van Anton de Kom en een kerk van Syrisch-orthodoxen en katholieken."
+    body: |
+      Op Westermarkt 6, een huis uit 1624, woonde René Descartes in 1634, en volgens zijn eigen aantekening verwekte hij hier een dochter bij een dienstbode van het huis. Een gevelplaat citeert zijn lof op de Hollandse vrijheid, en een tegel in de stoep zegt Ik denk, dus ik ben. Vlakbij staat de Knobbeliep, een iep van rond 1900 vol maserknollen, die in 2024 een onbeschreven soort bleek; er zijn er maar vijf bekend. Naast de toren staat een sobere bakstenen hal uit 1814, gebouwd voor de vleeshouwers nadat Lodewijk Napoleon de Waag op de Dam had laten slopen; het is een van de twee oude markthallen die de stad nog heeft.
+
+      Op de hoek van de Keizersgracht liet een wijnhandelaar in 1918 een zeventiende-eeuws dubbelhuis slopen voor zijn kantoor, Huize Labor. Het protest leidde tot de oprichting van de Vereniging Hendrick de Keyser, die sindsdien oude huizen koopt en redt. Om de hoek, op Reestraat 6, woonde de Surinaamse schrijver en verzetsman Anton de Kom in 1935, een jaar na het verschijnen van Wij slaven van Suriname. Verderop aan de Keizersgracht is de neogotische kerk uit 1852–1854 op nr. 220 sinds 1985 van de Syrisch-orthodoxe kerk, die haar deelt met katholieke gemeenschappen; tijdens de diensten kun je naar binnen.
+
+      Let op:
+      - de gevelplaat van Descartes en de tegel in de stoep
+      - de knollen op de stam van de iep, het best te zien in de winter
+      - de poort met treurende putti naast de toren
+      - de gotische gevel tussen de grachtenhuizen op Keizersgracht 220
+
+- title: Keizersgracht at the Leliegracht
+  summary: "Stories behind the fronts: six heads a maid supposedly cut off, a library whose books were thrown into the canal, a salon that moved to The Hague, the first home of the VU, an early office tower, Van Campen's first front and a poet on his books."
+  body: |
+    Start at Keizersgracht 123, the Huis met de Hoofden of 1622. Legend says a maid beheaded six burglars; the heads are in fact Roman gods, and since 2017 the house has been the Embassy of the Free Mind, a museum of esoteric books, open Wednesday to Sunday. A few doors on, the Zuid-Afrikahuis at no. 141 holds the largest collection of South African books outside South Africa. In January 1984 masked activists tied up the staff and threw hundreds of its books into the canal. No. 143 looks ordinary, but until 1931 its front room was a painted salon of about 1710; the whole room now stands in the Kunstmuseum in The Hague.
+
+    Across the water, the Vrije Universiteit got its first building of its own at no. 162 in 1884, with lecture rooms below and rooms for 37 students above. Round the corner on the Leliegracht, friends of the writer E.J. Potgieter put his life-size marble bust over his door at no. 25 in 1882, standing on a pedestal of books. On the corner, Astoria (1904–1906) was one of the first office towers in the country, built for a life insurer; Greenpeace International was run from it for fifteen years. A little south, across the water, Keizersgracht 177 is Jacob van Campen's earliest known design, of 1625; Amnesty International now works behind it.
+
+    Look for:
+    - Ceres, Bacchus and Diana among the six heads
+    - the double-headed eagle on the Zuid-Afrikahuis
+    - Potgieter on his books
+    - the guardian angel mosaic and the gilt EHLB on Astoria's roof
+  category: hidden-history
+  lat: 52.376403
+  lng: 4.887368
+  address: Keizersgracht 123
+  links:
+    - { label: Wikipedia (nl) Huis met de Hoofden, url: "https://nl.wikipedia.org/wiki/Huis_met_de_Hoofden" }
+    - { label: Embassy of the Free Mind, url: "https://embassyofthefreemind.com/en/museum/plan-your-visit" }
+    - { label: Zuid-Afrikahuis, url: "https://www.zuidafrikahuis.nl/" }
+    - { label: Wikipedia (nl) Astoria, url: "https://nl.wikipedia.org/wiki/Astoria_(Amsterdam)" }
+  photos:
+    - commons:File:Huis met de Hoofden façade.jpg
+    - commons:File:2020 Potgieterhuis (01).jpg
+    - commons:File:Astoria Amsterdam 3.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-leliegracht
+    members:
+      - Huis met de Hoofden (House with the Heads)
+      - Zuid-Afrikahuis, the library whose books were thrown in the canal
+      - Keizersgracht 143, the room that moved to The Hague
+      - The first home of the Vrije Universiteit
+      - Astoria, a life insurer's tower on the Leliegracht
+      - Coymanshuis, Jacob van Campen's first known design
+      - Potgieter's house, with the poet on the front
+  nl:
+    title: Keizersgracht bij de Leliegracht
+    summary: "Verhalen achter de gevels: zes hoofden die een dienstmeid zou hebben afgehakt, een bibliotheek waarvan de boeken de gracht in gingen, een zaal die naar Den Haag verhuisde, het eerste huis van de VU, een vroege kantoortoren, Van Campens eerste gevel en een dichter op zijn boeken."
+    body: |
+      Begin op Keizersgracht 123, het Huis met de Hoofden uit 1622. Volgens de legende onthoofdde de keukenmeid zes inbrekers; de koppen zijn in werkelijkheid Romeinse goden. Sinds 2017 zit hier de Embassy of the Free Mind, een museum voor esoterische boeken, open van woensdag tot zondag. Een paar deuren verder heeft het Zuid-Afrikahuis op nr. 141 de grootste verzameling Zuid-Afrikaanse boeken buiten Zuid-Afrika. In januari 1984 bonden gemaskerde actievoerders het personeel vast en gooiden honderden boeken in de gracht. Nr. 143 lijkt een gewoon huis, maar tot 1931 was de voorkamer een beschilderde zaal van rond 1710; die hele kamer staat nu in het Kunstmuseum in Den Haag.
+
+      Aan de overkant kreeg de Vrije Universiteit in 1884 op nr. 162 haar eerste eigen gebouw, met collegezalen beneden en kamers voor 37 studenten boven. Om de hoek aan de Leliegracht zetten vrienden van schrijver E.J. Potgieter in 1882 zijn levensgrote marmeren buste boven zijn deur op nr. 25, op een sokkel van boeken. Op de hoek staat Astoria (1904–1906), een van de eerste kantoortorens van het land, gebouwd voor een levensverzekeraar; Greenpeace International werd er vijftien jaar vandaan bestuurd. Iets zuidelijker, aan de overkant, is Keizersgracht 177 het vroegst bekende ontwerp van Jacob van Campen, uit 1625; nu werkt Amnesty International erachter.
+
+      Let op:
+      - Ceres, Bacchus en Diana tussen de zes hoofden
+      - de dubbele adelaar op het Zuid-Afrikahuis
+      - Potgieter op zijn boeken
+      - de beschermengel in mozaïek en de gouden letters EHLB op het dak van Astoria
+
+- title: Raadhuisstraat, a tram street cut through the canals
+  summary: "In 1895 the city filled a canal and broke an S-bend through the canal belt for a tram to the west. Along it: Kramer's bridges with Krop's fauns, crows and frogs, a gallery of dragons, kangaroos for insurance, a Boer War cigar shop and a bank robbed by speedboat."
+  body: |
+    The Raadhuisstraat got its name in 1895. To make it, the Warmoesgracht was filled in and a breach was cut through the blocks between the Herengracht and the Keizersgracht; because the streets on either side did not line up, it came out as an S-bend. The new fronts show the canal belt turning into offices and shops.
+
+    At the Singel end, Singel 250 (1910–1912) was built for a bank that lent to firms in the Dutch East Indies; in 1976, when it was the city's giro office, robbers escaped across the canal by speedboat. Just off the street on the Herengracht, Gerrit van Arkel's tall building of 1900 opened as the cigar shop De Transvaalsche Boer, at the height of Dutch enthusiasm for the Boers; a carved Boer still stands on its corner.
+
+    Piet Kramer's bridges of 1925 replaced the humpbacked ones the trams struggled with. Between them, an insurer built the whole curving south side at once in 1898: eighteen shops under a glass-roofed gallery, crowned with dragons and fabulous beasts. Across the street was 't Binnenhuis, Berlage's shop for artist-designed furniture. On bridge 106, named after COC founder Niek Engelschman, Hildo Krop carved bearded fauns between crows and frogs. Round the corner, Keizersgracht 213 is carved with kangaroos and lifebuoys, images of what insurance promises.
+
+    Look for:
+    - the Boer on the corner of the Gasthuismolensteeg
+    - the dragons at the ends of the gallery
+    - the fauns, crows and frogs on bridge 106, seen from the quay
+    - the kangaroos with their young on Keizersgracht 213
+  category: infrastructure
+  lat: 52.373934
+  lng: 4.885927
+  address: Raadhuisstraat 20-44
+  links:
+    - { label: Wikipedia (nl) Raadhuisstraat, url: "https://nl.wikipedia.org/wiki/Raadhuisstraat_(Amsterdam)" }
+    - { label: Wikipedia (nl) Niek Engelschmanbrug, url: "https://nl.wikipedia.org/wiki/Niek_Engelschmanbrug" }
+    - { label: Wikipedia (nl) 't Binnenhuis, url: "https://nl.wikipedia.org/wiki/%27t_Binnenhuis" }
+    - { label: Wikipedia (nl) Singel 250, url: "https://nl.wikipedia.org/wiki/Singel_250" }
+  photos:
+    - commons:File:De Galerij aan de Raadhuisstraat, Amsterdam.jpg
+    - commons:File:Amsterdam (NL), Brücke an der Keizersgracht -- 2015 -- 7175.jpg
+    - commons:File:Gasthmolst1c.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-raadhuisstraat
+    members:
+      - Raadhuisstraat, a tram street cut through the canals
+      - Raadhuisstraat bridges, with fauns, crows and frogs
+      - The Raadhuisstraat gallery and 't Binnenhuis
+      - The Assurantiehuis, with kangaroos for insurance
+      - De Transvaalsche Boer, a cigar shop from the Boer War craze
+      - Singel 250, the colonial bank robbed by speedboat
+  nl:
+    title: Raadhuisstraat, een tramstraat dwars door de grachten
+    summary: "In 1895 sloeg de stad een S-bocht door de grachtengordel voor een tram naar West. Langs de route: bruggen van Kramer met faunen, kraaien en kikkers van Krop, een galerij met draken, verzekeringskangoeroes, een Boerensigarenwinkel en een per speedboot beroofde bank."
+    body: |
+      De Raadhuisstraat kreeg haar naam in 1895. Daarvoor werd de Warmoesgracht gedempt en tussen Herengracht en Keizersgracht een bres door de blokken geslagen; omdat de straten aan weerszijden niet in elkaars verlengde lagen, werd het een S-bocht. De nieuwe gevels laten zien hoe de grachtengordel kantoor- en winkelgebied werd.
+
+      Aan de kant van het Singel werd Singel 250 (1910–1912) gebouwd voor een bank die geld leende aan bedrijven in Nederlands-Indië; in 1976, toen de Gemeentegiro er zat, ontkwamen overvallers per speedboot over de gracht. Net naast de straat, aan de Herengracht, opende het hoge pand van Gerrit van Arkel in 1900 als sigarenwinkel De Transvaalsche Boer, toen heel Nederland met de Boeren meeleefde; op de hoek staat nog een Boer.
+
+      De bruggen van Piet Kramer uit 1925 vervingen de bolle bruggen waar de trams moeite mee hadden. Daartussen bebouwde een verzekeraar in 1898 in één keer de hele gebogen zuidkant: achttien winkels onder een galerij met glazen dak, bekroond met draken en fabeldieren. Aan de overkant zat 't Binnenhuis, de winkel van Berlage voor meubels van kunstenaars. Op brug 106, genoemd naar COC-oprichter Niek Engelschman, hakte Hildo Krop bebaarde faunen tussen kraaien en kikkers. Om de hoek draagt Keizersgracht 213 kangoeroes en reddingsboeien, beelden van wat verzekeren belooft.
+
+      Let op:
+      - de Boer op de hoek van de Gasthuismolensteeg
+      - de draken aan de uiteinden van de galerij
+      - de faunen, kraaien en kikkers op brug 106, te zien vanaf de kade
+      - de kangoeroes met hun jong op Keizersgracht 213
+
+- title: Torensluis and the Singel's north bend
+  summary: "A bridge so wide because a prison tower stood on it, with the cells still inside; the house where the Night Watch captain lived; a bronze seamstress the neighbours paid for; a bank archive posing as five houses; an insurer built round an old door; and the House with the Noses."
+  body: |
+    At 42 metres the Torensluis of 1648 is one of the widest bridges in the city, and the oldest to survive in its original state. The width is explained by the Jan Roodenpoortstoren, a tower with cells beneath it that stood on the bridge until 1829. The cells are still in the bridgehead, the tower's outline is marked in the cobbles, and Hans Bayens's bust of Multatuli has stood on the bridge since 1987.
+
+    On the corner of the Bergstraat, the Twentsche Bank built an archive in 1939–1941 that reads on the Bergstraat as five separate little houses. Up the street, residents paid for De Naaister (2017), a bronze seamstress marking the street's change from brothels and sewing workshops to a quiet green street; a few doors on, the corn measure stone De Koorenmaat came home in 2018 after sixty years away.
+
+    Back on the Singel, De Dolphijn at nos. 140–142, two step gables pushed into each other, was built around 1600 for the poet Spiegel; Frans Banninck Cocq, the captain of Rembrandt's Night Watch, lived here while it was painted. At nos. 126–130 Centraal Beheer's first office of 1916 takes its door, basement and window rhythm from the house of 1769 inside it. At no. 116, three caricature heads give the Huis met de Neuzen its name.
+
+    Look for:
+    - the tower's outline in the cobbles of the Torensluis
+    - the rough foam texture kept in the bronze of De Naaister
+    - the two overlapping step gables of De Dolphijn
+    - the three heads on Singel 116
+  category: infrastructure
+  lat: 52.3746
+  lng: 4.889441
+  address: Singel at the Oude Leliestraat and Torensteeg
+  links:
+    - { label: Wikipedia (nl) Torensluis, url: "https://nl.wikipedia.org/wiki/Torensluis" }
+    - { label: Wikipedia (nl) De Dolphijn, url: "https://nl.wikipedia.org/wiki/De_Dolphijn" }
+    - { label: Caroline Kampfraath commissions, url: "https://www.carolinekampfraath.nl/en/commissions/" }
+    - { label: Amsterdam op de kaart Bergstraat 1-3, url: "https://amsterdamopdekaart.nl/1850-1940/Bergstraat/1-3" }
+  photos:
+    - commons:File:Brug 9, Torensluis, in de Oude Leliestraat over het Singel foto 3.jpg
+    - commons:File:Amsterdam - Singel 142 en 140.JPG
+    - commons:File:Amsterdam - Singel 116.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-torensluis
+    members:
+      - Torensluis, the bridge that carried a tower
+      - De Dolphijn, home of the Night Watch captain
+      - Huis met de Neuzen (the House with the Noses)
+      - De Naaister and the corn measure, Bergstraat
+      - Twentsche Bank archive, five fronts that are one building
+      - Centraal Beheer's first office, an old house inside a new front
+  nl:
+    title: Torensluis en de noordelijke bocht van het Singel
+    summary: "Een brug die zo breed is omdat er een gevangenistoren op stond, met de cellen er nog in; het huis van de kapitein van de Nachtwacht; een bronzen naaister die de buurt betaalde; een bankarchief vermomd als vijf huizen; een verzekeraar rond een oude deur; en het Huis met de Neuzen."
+    body: |
+      Met 42 meter is de Torensluis uit 1648 een van de breedste bruggen van de stad, en de oudste die nog in oorspronkelijke staat is. Die breedte komt van de Jan Roodenpoortstoren, een toren met kerkers eronder die tot 1829 op de brug stond. De cellen zitten nog in het bruggenhoofd, de omtrek van de toren ligt in de keien, en sinds 1987 staat er de buste van Multatuli door Hans Bayens.
+
+      Op de hoek van de Bergstraat bouwde de Twentsche Bank in 1939–1941 een archief dat in de Bergstraat leest als vijf losse huisjes. Verderop in de straat betaalden de bewoners De Naaister (2017), een bronzen naaister die de omslag markeert van bordelen en naaiateliers naar een rustige groene straat; een paar deuren verder kwam de korenmetersteen De Koorenmaat in 2018 na zestig jaar terug.
+
+      Terug aan het Singel werd De Dolphijn op nr. 140–142, twee in elkaar geschoven trapgevels, rond 1600 gebouwd voor de dichter Spiegel; Frans Banninck Cocq, de kapitein van Rembrandts Nachtwacht, woonde hier toen het schilderij werd gemaakt. Op nr. 126–130 ontleent het eerste kantoor van Centraal Beheer uit 1916 deur, souterrain en vensterritme aan het huis uit 1769 dat erin zit. Op nr. 116 geven drie karikaturale koppen het Huis met de Neuzen zijn naam.
+
+      Let op:
+      - de omtrek van de toren in de keien van de Torensluis
+      - de ruwe schuimstructuur in het brons van De Naaister
+      - de twee overlappende trapgevels van De Dolphijn
+      - de drie koppen op Singel 116
+
+- title: Multatuli's alley and the Langestraat
+  summary: "The writer of Max Havelaar was born in a house in a narrow alley, now a small museum. Round it: a corner house that turned to face the new canal, a tailors' saint, Boldoot's coach house, a cable box like no other, and an office that swallowed a row of houses."
+  body: |
+    Eduard Douwes Dekker, who wrote Max Havelaar as Multatuli, was born on 2 March 1820 at Korsjespoortsteeg 20, though he believed almost to the end that he was born on the Haarlemmerdijk. His admirers began planning a museum in 1910; it opened here in 1975. It opens a few days a week, so check before you go.
+
+    At the canal end of the alley, De Drie Traancoopers at Herengracht 77 once faced the alley; when the Herengracht was widened from a ditch into a canal, the house was rebuilt in 1632 with its front turned to the water. At the other end lies the Langestraat, a street of craftsmen and skippers. At no. 78 a stone of St John the Baptist, patron of tailors, marks a house where tailors worked for generations; it was repainted in red, blue and gold in 2014. At no. 47 stands the coach house of 1897 of Boldoot, the eau de cologne maker whose name Amsterdammers also gave to the night-soil cart. On the pavement nearby, a cast-iron cable box from just after 1913 carries the logo of the municipal electricity works; no other of its model is known. Towards the Singel, nos. 3–19 look like separate houses but were joined one by one from 1894 to 1912 into a single office.
+
+    Look for:
+    - the cartouche with Multatuli's birth date between the windows
+    - the overhanging first floor of Herengracht 77
+    - S. JAN BAPTISTA on Langestraat 78
+    - the unbroken cornice over Langestraat 3 to 15
+  category: odd-museums
+  lat: 52.377461
+  lng: 4.891101
+  address: Korsjespoortsteeg 20
+  links:
+    - { label: Multatuli Museum, url: "https://multatuli.online/multatuli_museum" }
+    - { label: Wikipedia (nl) Multatuli Museum, url: "https://nl.wikipedia.org/wiki/Multatuli_Museum" }
+    - { label: Hendrick de Keyser De Drie Traancoopers, url: "https://www.hendrickdekeyser.nl/de-huizen/de-drie-traancoopers" }
+    - { label: Wikipedia (nl) Boldoot, url: "https://nl.wikipedia.org/wiki/Boldoot" }
+  photos:
+    - commons:File:Amsterdam - Korsjespoortsteeg 20.JPG
+    - commons:File:Amsterdam - Herengracht 77.JPG
+    - commons:File:WLM - andrevanb - amsterdam, langestraat 78 - detail.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-langestraat
+    members:
+      - Multatuli's birth house and museum
+      - Boldoot's coach house (Langestraat 47)
+      - The one-of-a-kind cable box in the Langestraat
+      - The tailors' saint (Langestraat 78)
+      - De Drie Traancoopers, the house that turned to face the canal
+      - Langestraat 3-19, one office that swallowed a row
+  nl:
+    title: De steeg van Multatuli en de Langestraat
+    summary: "De schrijver van de Max Havelaar werd geboren in een huis in een smalle steeg, nu een klein museum. Eromheen: een hoekhuis dat zich naar de nieuwe gracht draaide, een kleermakersheilige, het koetshuis van Boldoot, een unieke kabelkast en een kantoor dat een rij huizen opslokte."
+    body: |
+      Eduard Douwes Dekker, die als Multatuli de Max Havelaar schreef, werd op 2 maart 1820 geboren op Korsjespoortsteeg 20, al dacht hij bijna tot het eind dat hij op de Haarlemmerdijk ter wereld was gekomen. Zijn bewonderaars begonnen in 1910 aan plannen voor een museum; het ging hier in 1975 open. Het is maar een paar dagen per week open, dus kijk vooraf.
+
+      Aan de grachtkant van de steeg stond De Drie Traancoopers op Herengracht 77 eerst met de voorkant naar de steeg; toen de Herengracht van sloot tot gracht was verbreed, werd het huis in 1632 herbouwd met de gevel naar het water. Aan de andere kant ligt de Langestraat, een straat van ambachtslieden en schippers. Op nr. 78 wijst een steen met Johannes de Doper, beschermheilige van de kleermakers, een huis aan waar generaties lang kleermakers werkten; in 2014 werd hij in rood, blauw en goud overgeschilderd. Op nr. 47 staat het koetshuis uit 1897 van Boldoot, de eau-de-colognefabrikant naar wie Amsterdammers ook de beerwagen noemden. Op de stoep vlakbij draagt een gietijzeren kabelkast van kort na 1913 het logo van de Gemeente Electriciteitswerken; een tweede van dit model is niet bekend. Richting Singel lijken nr. 3–19 losse huizen, maar tussen 1894 en 1912 werden ze een voor een tot één kantoor samengevoegd.
+
+      Let op:
+      - de cartouche met Multatuli's geboortedatum tussen de ramen
+      - de overkragende verdieping van Herengracht 77
+      - S. JAN BAPTISTA op Langestraat 78
+      - de doorlopende lijst boven Langestraat 3 tot 15
+
+- title: Whale oil, hofjes and hidden churches of the northern canals
+  summary: "At the north end of the canal belt: warehouses where whalers kept their oil in brick pits, a Catholic hofje on a brewery, a women students' hofje on a Mennonite church, a church that became a wrestling gym, and a sunflower house where Catholics met in secret."
+  body: |
+    On the Keizersgracht, nos. 40–44 are three step-gabled warehouses built in the 1620s by partners in the Noordse Compagnie, the Dutch whaling cartel. When the warehouses became flats in the late 1970s, builders found sixty brick oil pits under the floors. A few doors north, behind a front that lost its top, stands a Catholic church of 1837, De Zaaier, on the site of a 17th-century attic church; later it was the hall of a wrestling club whose bar stood where the altar had been. Behind Keizersgracht 62, out of sight, a garden house of 1699 that lay in pieces for half a century was rebuilt in the early 1970s.
+
+    On the Herengracht, the sober front of 1767 at no. 14 with a sunflower in its pediment hides a house where Catholics met in secret in the 1650s; the Reformed church council noted with alarm that instruments were played at Mass.
+
+    On the Prinsengracht, a long front with clock dormers and a little bell tower at nos. 85–133 belongs to the Van Brienenhofje, built from 1804 for poor Catholics on the site of the De Star brewery; by day you may step quietly into its garden. Further on, an ordinary door at nos. 159–171 leads to Zon's Hofje, on the site of a Mennonite church; since 1967 it has housed young women students.
+
+    Look for:
+    - the three step gables of the whale-oil warehouses
+    - the sunflower in the pediment of Herengracht 14
+    - the clock faces and bell tower of the Van Brienenhofje
+    - Noah's ark under a beaming sun at Zon's Hofje
+  category: religious
+  lat: 52.378654
+  lng: 4.888503
+  address: Keizersgracht 40-44
+  links:
+    - { label: Wikipedia (nl) Noordse Compagnie, url: "https://nl.wikipedia.org/wiki/Noordse_Compagnie" }
+    - { label: Rijksmonumentenregister (2461), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/2461" }
+    - { label: Wikipedia (nl) Zon's Hofje, url: "https://nl.wikipedia.org/wiki/Zon's_Hofje" }
+    - { label: Rijksmonumentenregister (4268), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/4268" }
+  photos:
+    - commons:File:Amsterdam - Keizersgracht 42.JPG
+    - commons:File:Amsterdam - Prinsengracht 85-133.JPG
+    - commons:File:Hofj.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-north
+    members:
+      - Groenlandse Pakhuizen (the whale-oil warehouses)
+      - Van Brienenhofje, an almshouse on a brewery
+      - Zon's Hofje, on the site of a Mennonite church
+      - The old De Zaaier on the Keizersgracht, the church that became a wrestling gym
+      - Herengracht 14, the sunflower house and its hidden church
+      - The garden house that moved behind Keizersgracht 62
+  nl:
+    title: Traan, hofjes en schuilkerken aan de noordelijke grachten
+    summary: "Aan de noordkant van de grachtengordel: pakhuizen waar walvisvaarders hun traan in gemetselde putten bewaarden, een katholiek hofje op een brouwerij, een studentinnenhofje op een doopsgezinde kerk, een kerk die worstelzaal werd en een zonnebloemhuis met een geheime mis."
+    body: |
+      Aan de Keizersgracht staan op nr. 40–44 drie pakhuizen met trapgevels, in de jaren 1620 gebouwd door deelnemers in de Noordse Compagnie, het Hollandse walvisvaartkartel. Toen de pakhuizen eind jaren zeventig woningen werden, vonden de bouwers zestig gemetselde traanputten onder de vloeren. Een paar deuren noordelijker staat achter een gevel zonder top een katholieke kerk uit 1837, De Zaaier, op de plek van een zeventiende-eeuwse zolderkerk; later was het de zaal van een worstelclub, met de bar waar het altaar had gestaan. Achter Keizersgracht 62, uit het zicht, werd begin jaren zeventig een tuinhuis uit 1699 herbouwd dat een halve eeuw in stukken had gelegen.
+
+      Aan de Herengracht verbergt de strakke gevel uit 1767 van nr. 14, met een zonnebloem in het fronton, een huis waar katholieken in de jaren 1650 in het geheim samenkwamen; de gereformeerde kerkenraad noteerde verontwaardigd dat er bij de mis instrumenten werden bespeeld.
+
+      Aan de Prinsengracht hoort een lange gevel met klokken in de dakkapellen en een klokkentorentje, nr. 85–133, bij het Van Brienenhofje, vanaf 1804 gebouwd voor arme katholieken op de plek van brouwerij De Star; overdag mag je stil de tuin in. Verderop leidt een gewone deur op nr. 159–171 naar Zon's Hofje, op de plek van een doopsgezinde kerk; sinds 1967 wonen er jonge studentes.
+
+      Let op:
+      - de drie trapgevels van de traanpakhuizen
+      - de zonnebloem in het fronton van Herengracht 14
+      - de wijzerplaten en het klokkentorentje van het Van Brienenhofje
+      - de ark van Noach onder een stralende zon bij Zon's Hofje
+
+- title: Prinsengracht by the Nine Streets
+  summary: "Along the Prinsengracht south of the Nine Streets: a hidden Catholic hofje with an organ made of stucco, a nursery school paid for by a captured ship, a bakery on the burned theatre's ground, a frog tile for people in hiding, and a library that pretended to be canal houses."
+  body: |
+    At Prinsengracht 383, the right-hand door of a neat house of 1895 was once the gateway to the Nieuwe Suykerhofje of 1755, built for 54 elderly Catholic women and hidden inside the block. Its private chapel, says the national register, has an organ modelled entirely in stucco. Just off the canal, at Berenstraat 7, the first nursery school in Amsterdam was founded in 1828 with money a Quaker could not keep: insurance paid on a Dutch ship captured by the British. The ship still sails over the door.
+
+    Further south, an alley beside no. 495 leads to the bakery of the Catholic poor office, with a time verse of 1787, built on the grounds of the city theatre that burned down in 1772. At no. 535, beside the front door, a tiny blue tile shows a frog and a line from Ovid, "though they are under water". More than eight people hid in this house in the war, and they gossiped a lot; onderduiken, the Dutch for going into hiding, means diving under.
+
+    At no. 587, an office front of 1973 is broken into brick blocks about as wide as canal houses; the register calls it one of the first steps towards small-scale building in the old city. From 1977 to 2007 it was the city's central library; now it is a hotel.
+
+    Look for:
+    - the ship over the door of Berenstraat 7
+    - the time verse on the bakery
+    - the frog tile beside the door of no. 535
+    - the house-wide brick blocks of no. 587
+  category: hidden-history
+  lat: 52.368753
+  lng: 4.882961
+  address: Prinsengracht 535
+  links:
+    - { label: 4 en 5 mei Gevelsteen Prinsengracht, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4785/amsterdam-gevelsteen-aan-de-prinsengracht" }
+    - { label: Wikipedia (nl) Prinsengracht 535, url: "https://nl.wikipedia.org/wiki/Prinsengracht_535" }
+    - { label: Amsterdam op de kaart Berenstraat 7, url: "https://amsterdamopdekaart.nl/1850-1940/Berenstraat/7" }
+    - { label: Rijksmonumentenregister (4328), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/4328" }
+  photos:
+    - commons:File:Prinsengracht 535 across.JPG
+    - commons:File:Voorgevel - Amsterdam - 20015970 - RCE.jpg
+    - commons:File:Prinsengracht 385 to 395 across.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-ninestreets
+    members:
+      - The frog stone of Prinsengracht 535
+      - Amsterdams Welvaren, a nursery school paid for by a captured ship
+      - Nieuwe Suykerhofje, a Catholic hofje with a fake organ
+      - The poor-relief bakery on the burned theatre's site
+      - The old central library that pretended to be canal houses
+  nl:
+    title: Prinsengracht bij de Negen Straatjes
+    summary: "Langs de Prinsengracht bij de Negen Straatjes: een verborgen katholiek hofje met een orgel van stucwerk, een bewaarschool van een gekaapt schip, een bakkerij op de grond van de afgebrande schouwburg, een kikkertegel voor onderduikers en een bibliotheek als grachtenhuizen."
+    body: |
+      Op Prinsengracht 383 was de rechterdeur van een keurig huis uit 1895 ooit de poort naar het Nieuwe Suykerhofje uit 1755, gebouwd voor 54 oude katholieke vrouwen en verstopt binnen het blok. In de kapel staat volgens het rijksregister een orgel dat helemaal van stucwerk is; het hofje is privé. Net van de gracht af, op Berenstraat 7, werd in 1828 de eerste bewaarschool van Amsterdam gesticht met geld dat een quaker niet mocht houden: de verzekeringssom voor een Hollands schip dat de Engelsen hadden gekaapt. Het schip vaart nog boven de deur.
+
+      Zuidelijker leidt een steeg naast nr. 495 naar de bakkerij van het katholieke Oude Armenkantoor, met een tijdvers uit 1787, gebouwd op de grond van de stadsschouwburg die in 1772 afbrandde. Op nr. 535 zit naast de voordeur een piepklein blauw tegeltje met een kikker en een regel van Ovidius: 'al zijn ze onder water'. In de oorlog zaten hier meer dan acht onderduikers, en er werd veel geroddeld.
+
+      Op nr. 587 is een kantoorgevel uit 1973 verdeeld in bakstenen blokken van ongeveer de breedte van een grachtenhuis; het register noemt het een van de eerste stappen naar kleinschalig bouwen in de oude stad. Van 1977 tot 2007 zat hier de centrale Openbare Bibliotheek; nu is het een hotel.
+
+      Let op:
+      - het schip boven de deur van Berenstraat 7
+      - het tijdvers op de bakkerij
+      - de kikkertegel naast de deur van nr. 535
+      - de huisbrede bakstenen blokken van nr. 587
+
+- title: Keizersgracht's orphan gateways and the forger's house
+  summary: "Gateways that outlived their buildings: the city theatre's gate that survived the fire of 1772, a grand inn's gate an auctioneer carried off, the house Van Meegeren bought with fake Vermeers, and a stone map of Marseille."
+  body: |
+    Walk south along the Keizersgracht. At no. 321, the Roode Huys, the painter Han van Meegeren settled in 1943, bought with money from forged Vermeers; one of them had ended up with Hermann Göring. Arrested here as a collaborator in 1945, he saved himself by proving he had painted it.
+
+    At nos. 365–367 stands the stone gateway of the Heerenlogement of 1647, the city's inn for distinguished visitors. When it was pulled down in 1874, the auctioneer J.P.A. Kilsdonk set the gate in front of his new auction rooms here. The crown is still missing.
+
+    Opposite, at no. 384, the sandstone gate of 1638 once led to Jacob van Campen's city theatre, which opened with Vondel's Gijsbrecht van Aemstel. The theatre burned down in 1772 with sixteen dead; the gate survived and now leads to a hotel.
+
+    At no. 401 a French merchant who grew rich on one ship from Marseille set a stone map of the port in his front around 1665. Since 1999 the house has been Huis Marseille, the first Dutch museum given entirely to photography. On the corner of the Molenpad, Huis Fuld (no. 452) was remade in 1860 for a Frankfurt banker with some of the first factory-made ornament on a canal house.
+
+    Look for:
+    - the map of Marseille in the front of no. 401
+    - the city arms and lying lions on the Heerenlogement gate
+    - through the Schouwburgpoort, the poor office front of 1773
+    - from the Molenpad, the thickest tree in Centrum, behind Huis Fuld
+  category: hidden-history
+  lat: 52.367638
+  lng: 4.884809
+  address: Keizersgracht 401
+  links:
+    - { label: Huis Marseille, url: "https://huismarseille.nl/en/visitor-information/" }
+    - { label: Wikipedia (nl) Schouwburgpoort, url: "https://nl.wikipedia.org/wiki/Schouwburgpoort" }
+    - { label: Wikipedia (nl) Roode Huys, url: "https://nl.wikipedia.org/wiki/Roode_Huys" }
+    - { label: "Binnenstad 278: Heerenlogement", url: "https://web.archive.org/web/2025/https://amsterdamsebinnenstad.nl/binnenstad/278/heerenlogement.php" }
+  photos:
+    - commons:File:Amsterdam Keizersgracht 0401 001.JPG
+    - commons:File:Schouwburgpoort.jpg
+    - commons:File:Amsterdam - Keizersgracht 321.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-gates
+    members:
+      - Huis Marseille, a map of Marseille on a canal house
+      - Schouwburgpoort, the gate of the first city theatre
+      - The Heerenlogement gate, carried off from the Grimburgwal
+      - Roode Huys, where Han van Meegeren lived on his fake Vermeers
+      - Huis Fuld, a banker's palace in prefab ornament
+  nl:
+    title: Verweesde poorten en het huis van de vervalser aan de Keizersgracht
+    summary: "Poorten die hun gebouw overleefden: de poort van de schouwburg die de brand van 1772 doorstond, de poort van een deftig logement die een veilinghouder meenam, het huis dat Van Meegeren van valse Vermeers kocht, en een stenen kaart van Marseille."
+    body: |
+      Loop over de Keizersgracht naar het zuiden. Op nr. 321, het Roode Huys, ging schilder Han van Meegeren in 1943 wonen, gekocht van het geld van valse Vermeers; een ervan was bij Hermann Göring beland. In 1945 werd hij hier als collaborateur opgepakt, en hij redde zich door te bewijzen dat hij het doek zelf had geschilderd.
+
+      Op nr. 365–367 staat de stenen poort van het Heerenlogement uit 1647, het stadslogement voor voorname bezoekers. Toen het in 1874 werd gesloopt, zette veilinghouder J.P.A. Kilsdonk de poort voor zijn nieuwe veilinggebouw hier neer. De kroon is nog altijd zoek.
+
+      Aan de overkant, op nr. 384, gaf de zandstenen poort uit 1638 toegang tot de schouwburg van Jacob van Campen, die openging met Vondels Gijsbrecht van Aemstel. In 1772 brandde de schouwburg af en vielen zestien doden; de poort bleef staan en leidt nu naar een hotel.
+
+      Op nr. 401 liet een Franse koopman die rijk werd van één schip uit Marseille rond 1665 een stenen plattegrond van die haven in zijn gevel zetten. Sinds 1999 is het Huis Marseille, het eerste Nederlandse museum helemaal voor fotografie. Op de hoek van het Molenpad werd Huis Fuld (nr. 452) in 1860 voor een Frankfurtse bankier verbouwd, met vroege fabrieksornamenten.
+
+      Let op:
+      - de kaart van Marseille in de gevel van nr. 401
+      - het stadswapen en de liggende leeuwen op de poort van het Heerenlogement
+      - door de Schouwburgpoort de gevel van het armenkantoor uit 1773
+      - vanaf het Molenpad de dikste boom van Centrum, achter Huis Fuld
+
+- title: Herengracht at the Huidenstraat
+  summary: "Vingboons's four matching gables and the neighbour who would not sell, the museum that explains the canal belt, a stair tower rising from the water, four brothers on one horse, a globe judged too exuberant and a coach house with its columns upside down."
+  body: |
+    Start on the Singel at no. 390, where Apollo and Minerva recline on a gable top of about 1700 that once carried a copper celestial globe. It was melted down in 1914; a plastic copy went up in 2002 and came down within months, judged too exuberant. Cross to the Herengracht: at no. 319 a coach house of 1889 has its Ionic order below and the Doric above, the wrong way round, and a turret over a vanished alley. It is now Proeflokaal A. van Wees, pouring genever from the family's own Jordaan distillery.
+
+    Further south, nos. 362–370 are four matching sandstone gables that Philips Vingboons built for the merchant Jacob Cromhout in 1660–1662. A timber dealer on the plot of 368 held out until the drawings were fixed, so his little house was built into the new one. Across the water, a round stair tower rises straight from the Beulingsloot at no. 395, on an 1882 butter and cheese exporter's house by the designers of Carré.
+
+    Back on the even side, the Grachtenmuseum at no. 386, another Vingboons double house, explains how the canal belt was planned, with scale models and a dollhouse brought to life by Pepper's ghost. On the corner of the Leidsegracht, the baker's house at no. 394 shows the four Heemskinderen riding one horse.
+
+    Look for:
+    - the crooked wood above the door of Herengracht 366
+    - the metal cat creeping along Herengracht 395
+    - the four brothers on one horse
+    - whether a globe stands behind Singel 390 today
+  category: housing
+  lat: 52.367887
+  lng: 4.886275
+  address: Herengracht 386
+  links:
+    - { label: Grachtenmuseum, url: "https://www.grachtenmuseum.nl/" }
+    - { label: Wikipedia (nl) Cromhouthuizen, url: "https://nl.wikipedia.org/wiki/Cromhouthuizen" }
+    - { label: Hendrick de Keyser De Vier Heemskinderen, url: "https://www.hendrickdekeyser.nl/de-huizen/de-vier-heemskinderen" }
+    - { label: Proeflokaal A. van Wees, url: "https://proeflokaalvanwees.nl/" }
+  photos:
+    - commons:File:Herengracht 386.jpg
+    - commons:File:Bijbels museum2.jpg
+    - commons:File:Amsterdam - Herengracht 395.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: gw-huidenstraat
+    members:
+      - Grachtenmuseum (Museum of the Canals)
+      - Cromhout houses and the neighbour who would not sell
+      - Tower on the Beulingsloot (Herengracht 395)
+      - De Vier Heemskinderen, Herengracht 394
+      - The celestial globe of Singel 390
+      - Proeflokaal A. van Wees in a coach house with a turret
+  nl:
+    title: Herengracht bij de Huidenstraat
+    summary: "Vier gelijke halsgevels van Vingboons en de buurman die niet wilde verkopen, het museum dat de grachtengordel uitlegt, een traptoren die uit het water oprijst, vier broers op één paard, een hemelbol die te uitbundig werd bevonden en een koetshuis met de zuilenorden op hun kop."
+    body: |
+      Begin aan het Singel op nr. 390, waar Apollo en Minerva liggen op een geveltop van rond 1700 waarachter ooit een koperen hemelbol stond. Die werd in 1914 omgesmolten; een kunststof kopie ging in 2002 omhoog en binnen een paar maanden weer omlaag, te uitbundig bevonden. Steek over naar de Herengracht: op nr. 319 staat een koetshuis uit 1889 met de Ionische orde beneden en de Dorische erboven, precies verkeerd om, en een torentje boven een verdwenen steeg. Nu is het Proeflokaal A. van Wees, met jenever uit de eigen stokerij in de Jordaan.
+
+      Zuidelijker staan op nr. 362–370 vier gelijke zandstenen halsgevels die Philips Vingboons in 1660–1662 bouwde voor koopman Jacob Cromhout. Een houthandelaar op de kavel van 368 hield de boot af tot de tekeningen vastlagen, en zo werd zijn huisje in het nieuwe ingebouwd. Aan de overkant rijst op nr. 395 een ronde traptoren recht uit de Beulingsloot op, aan het pand van een boter- en kaasexporteur uit 1882, van de ontwerpers van Carré.
+
+      Terug aan de even kant legt het Grachtenmuseum op nr. 386, ook een dubbel huis van Vingboons, uit hoe de grachtengordel werd bedacht, met maquettes en een poppenhuis dat tot leven komt met een oude toneeltruc. Op de hoek van de Leidsegracht toont het bakkershuis op nr. 394 de vier Heemskinderen op één paard.
+
+      Let op:
+      - het kromme hout boven de deur van Herengracht 366
+      - de metalen kat die over de gevel van Herengracht 395 sluipt
+      - de vier broers op één paard
+      - of er vandaag een hemelbol achter Singel 390 staat
+
+- title: Herengracht and Singel offices
+  summary: "Offices creep into the canal belt: a wedding-present house a prince gave away on one condition, a slice of northern France with a frog swallowing a drainpipe, a gas-mantle works with crowing roosters, the other Mart Stam and Krop's telephone poles."
+  body: |
+    Start at Herengracht 182, where the merchant Arnout Jan van Brienen gave his house a new Louis XVI front in 1772, with a mansard roof hidden behind the balustrade. At no. 255 an office of 1894, built to look after Dutch money in American railways, borrows from northern France: brick striped with soft sandstone, and on the corner a stone frog that swallows the drainpipe. A few doors on, no. 267 of 1898 was a gas-mantle works squeezed onto a vanished alley; tiles with crowing roosters still announce KANTOOR and MAGAZIJN.
+
+    At no. 284 is the second Van Brienen house, the son's wedding present of 1782. In 1933 a French prince whose mother was a Van Brienen gave it away on one condition: it had to carry her family name.
+
+    At no. 303, on the corner of the Oude Spiegelstraat, a rare piece of Amsterdam School with stirrup-shaped dormers is by Mart J. Stam of Wormerveer, not the famous modernist. It replaced a house shaken loose by the building of the telephone exchange behind it. Walk round to Singel 340 to see that exchange, built in 1917–1919 when Amsterdam ran its own telephone service and operators put through 500 calls a minute. Hildo Krop carved its pilasters as telephone poles with their wires.
+
+    Look for:
+    - the frog swallowing the drainpipe on Herengracht 255
+    - the rooster tiles on Herengracht 267
+    - the stirrup dormers of Herengracht 303
+    - the telephone poles with wires on Singel 340
+  category: civic
+  lat: 52.370445
+  lng: 4.887758
+  address: Singel 340
+  links:
+    - { label: Rijksmonumentenregister (518372), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/518372" }
+    - { label: Wikipedia (nl) Huis Van Brienen, url: "https://nl.wikipedia.org/wiki/Huis_Van_Brienen" }
+    - { label: Amsterdam op de kaart Herengracht 255, url: "https://amsterdamopdekaart.nl/1850-1940/Herengracht/255" }
+    - { label: Amsterdam op de kaart Herengracht 303, url: "https://amsterdamopdekaart.nl/1850-1940/Herengracht/303" }
+  photos:
+    - commons:File:Amsterdam - Singel 340.JPG
+    - commons:File:Amsterdam - Herengracht 284.JPG
+    - commons:File:WLM2011 - Amsterdam - Herengracht 182.JPG
+  attributes:
+    rank: Okay
+  cluster:
+    key: gw-offices
+    members:
+      - The city telephone exchange on the Singel
+      - The two Van Brienen houses
+      - Office of the American funds (Herengracht 255)
+      - Gas mantle factory with rooster tiles (Herengracht 267)
+      - The other Mart Stam's office (Herengracht 303)
+  nl:
+    title: Kantoren aan Herengracht en Singel
+    summary: "Kantoren sluipen de grachtengordel in: een huwelijkscadeau dat een prins onder één voorwaarde weggaf, een stukje Noord-Frankrijk met een kikker die de regenpijp inslikt, een gloeikousjesfabriek met kraaiende hanen, de andere Mart Stam en Krops telefoonpalen."
+    body: |
+      Begin bij Herengracht 182, waar koopman Arnout Jan van Brienen zijn huis in 1772 een nieuwe gevel in Lodewijk XVI-stijl gaf, met een mansardedak verstopt achter de balustrade. Op nr. 255 staat een kantoor uit 1894, gebouwd om Nederlands geld in Amerikaanse spoorwegen te beheren, dat leent uit Noord-Frankrijk: baksteen met banden zachte zandsteen, en op de hoek een stenen kikker die de regenpijp inslikt. Een paar deuren verder was nr. 267 uit 1898 een fabriek van gloeikousjes, deels gebouwd op een verdwenen steeg; tegels met kraaiende hanen melden nog altijd KANTOOR en MAGAZIJN.
+
+      Op nr. 284 staat het tweede huis Van Brienen, in 1782 een huwelijkscadeau voor de zoon. In 1933 schonk een Franse prins wiens moeder een Van Brienen was het weg op één voorwaarde: het moest haar familienaam dragen.
+
+      Op nr. 303, op de hoek van de Oude Spiegelstraat, staat een zeldzaam stukje Amsterdamse School met dakkapellen als stijgbeugels, van Mart J. Stam uit Wormerveer, niet de beroemde modernist. Het verving een huis dat door de bouw van de telefooncentrale erachter was verzwakt. Loop om naar Singel 340 voor die centrale, gebouwd in 1917–1919 toen Amsterdam een eigen telefoondienst had en telefonistes 500 gesprekken per minuut doorverbonden. Hildo Krop hakte de pilasters uit als telefoonpalen met draden.
+
+      Let op:
+      - de kikker die de regenpijp inslikt op Herengracht 255
+      - de hanentegels op Herengracht 267
+      - de stijgbeugeldakkapellen van Herengracht 303
+      - de telefoonpalen met draden op Singel 340
+
+- title: Arriving at Centraal Station
+  summary: "What most arrivals rush past: a tile sea in the tunnel under the tracks, tomorrow's weather in the metro hall, a parcel post office, the last elm, a coffee house taken apart for the metro and put back, 7,000 bikes under the water, the gilded coffin and an arcade that blew shut."
+  body: |
+    Come in from the IJ through the Cuyperspassage, where the walkers' side is lined with about 70,000 hand-painted tiles of a herring fleet; on the ship De Rotterdam the designer swapped the Rotterdam arms for Amsterdam's crosses. Below the station, the metro hall shows David Claerbout's Weather Engine, a made-up landscape with tomorrow's forecast in its sky. East of the main entrance stands Jos Cuypers's plain parcel post office of 1924–1925.
+
+    On the square, one old elm is the last of more than thirty planted after the station was built, the only one to survive Dutch elm disease. The wooden Noord-Zuid-Hollands Koffiehuis was a tram station of 1911: boats left here for the steam tram to Purmerend and Volendam. In 1972 it was taken apart for the metro, its numbered parts stored, and in 1980 it was put back. Under the water in front of it, 7,000 bikes park nine metres down, in a garage built by draining the harbour basin.
+
+    Along the Prins Hendrikkade, the stone Lloyd building of 1917–1921 was abandoned within two years; Amsterdammers called it the gilded coffin. Passage Central of 1883 was a shopping arcade so draughty that it lasted barely four years. On the Haringpakkersbrug, where the herring packers' tower stood until 1829, a steel panel gets a new painting every six months.
+
+    Look for:
+    - the Amsterdam crosses on the ship De Rotterdam in the tile tunnel
+    - the last elm among the tram stops
+    - Lex Horn's sgraffito walls in the bike garage
+    - Mercury between the Amstel and the IJ on top of Passage Central
+  category: infrastructure
+  lat: 52.377589
+  lng: 4.900264
+  address: Stationsplein 10
+  links:
+    - { label: Wikipedia (nl) Noord-Zuid Hollandsch Koffiehuis, url: "https://nl.wikipedia.org/wiki/Noord-Zuid_Hollandsch_Koffiehuis" }
+    - { label: Kunstwacht Een zeegezicht aan het IJ, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/576" }
+    - { label: Wikipedia (nl) Fietsenstalling Stationsplein, url: "https://nl.wikipedia.org/wiki/Fietsenstalling_Stationsplein_(Amsterdam)" }
+    - { label: Wikipedia (nl) Gebouw Mercurius, url: "https://nl.wikipedia.org/wiki/Gebouw_Mercurius" }
+  photos:
+    - commons:File:Noord-Zuid Hollandsch Koffiehuis 2018.jpg
+    - commons:File:Lloyd-gebouw, Amsterdam Centrum.jpg
+    - commons:File:Mercuriusgebouw Prins Hendrikkade Bijvoets Amsterdam.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: nz-station
+    members:
+      - Noord-Zuid-Hollands Koffiehuis, the tram station taken apart for the metro
+      - Een zeegezicht aan het IJ, the tiled cycle tunnel
+      - The last elm of the Stationsplein
+      - The bicycle garage under the water at Stationsplein
+      - Art under Centraal Station, tomorrow's weather and a mosaic seen through peepholes
+      - Pakketpostgebouw, the parcel machine beside Centraal Station
+      - The Lloyd building, the "gilded coffin" on the Prins Hendrikkade
+      - Passage Central, the shopping arcade that blew shut
+      - Canvas van Amsterdam on the Haringpakkersbrug, where the Haringpakkerstoren stood
+  nl:
+    title: Aankomen bij het Centraal Station
+    summary: "Waar reizigers langs rennen: een tegelzee in de tunnel onder het spoor, het weer van morgen in de metrohal, een pakketpostkantoor, de laatste iep, een gedemonteerd en herbouwd koffiehuis, 7000 fietsen onder water, de vergulde doodskist en een winkelpassage die dichtwaaide."
+    body: |
+      Kom vanaf het IJ binnen door de Cuyperspassage, waar de voetgangerskant bekleed is met ruim 70.000 handbeschilderde tegels van een haringvloot; op het schip De Rotterdam ruilde de ontwerper het Rotterdamse wapen in voor de Amsterdamse kruisen. In de metrohal onder het station toont Weather Engine van David Claerbout een verzonnen landschap met het weer van morgen. Ten oosten van de hoofdingang staat het sobere pakketpostkantoor van Jos Cuypers uit 1924–1925.
+
+      Op het plein staat de laatste van de ruim dertig iepen die na de bouw van het station werden geplant, de enige die de iepziekte overleefde. Het houten Noord-Zuid-Hollands Koffiehuis was in 1911 een tramstation: hier vertrokken de boten naar de stoomtram naar Purmerend en Volendam. In 1972 werd het voor de metro gedemonteerd, de genummerde delen gingen de opslag in, en in 1980 kwam het terug. Onder het water ervoor staan 7000 fietsen, negen meter diep, in een stalling die werd gebouwd door de haven droog te pompen.
+
+      Aan de Prins Hendrikkade stond het stenen Lloydgebouw uit 1917–1921 binnen twee jaar leeg; Amsterdammers noemden het de vergulde doodskist. Passage Central uit 1883 was een winkelpassage waar het zo tochtte dat hij nog geen vier jaar bestond. Op de Haringpakkersbrug, waar tot 1829 de Haringpakkerstoren stond, krijgt een stalen plaat elk half jaar een nieuwe schildering.
+
+      Let op:
+      - de Amsterdamse kruisen op het schip De Rotterdam in de tegeltunnel
+      - de laatste iep tussen de tramhaltes
+      - de sgraffito's van Lex Horn in de fietsenstalling
+      - Mercurius tussen Amstel en IJ boven op Passage Central
+
+- title: Nieuwezijds Kolk, where the city began
+  summary: "Around a small square lie the oldest building remains in Amsterdam, a castle now under sand again; the corn measurers' house the rebels of 1577 mistook for the city hall; lanes that follow a medieval dike; a Lutheran dome; a soup kitchen; and the spot where the last courier fell."
+  body: |
+    Under the paving of the Nieuwezijds Kolk lie the foundations of a castle, found in 1994 by diggers for a car park: the oldest building remains in Amsterdam. Tree rings point to the second half of the 13th century, and the remains lie under sand again. Beside the spot stands the Korenmetershuisje of 1620, free on all sides, where the corn measurers met. Its predecessor may have saved Amsterdam for the Catholics in 1577, when the rebels' leader took it for the city hall. On the corner of the Kolksteeg, a liqueur distiller's shop of 1908 in 17th-century dress has been the beer café In de Wildeman since 1986.
+
+    North of the square, the crooked Oude Braak and Nieuwezijds Armsteeg still follow a dike breach and a dike arm of the 14th century; residents tired of nuisance asked for art and got The White Cube, a lit-up museum room on a wall. On the Spuistraat, Keuken van 1870 fed working people for over a century, in a Jugendstil front of 1901. On the Hekelveld, a plaque marks where the resistance courier Annick van Hardeveld, 21, was shot on the evening of 4 May 1945. Over the Singel rises the copper dome of the Ronde Lutherse Kerk of 1671: the Lutherans were not allowed a tower.
+
+    Look for:
+    - the measure, barrel and strickle over the Korenmetershuisje's door
+    - the four crowned evangelists at their table on In de Wildeman
+    - The White Cube on the Armsteeg wall
+    - the Lutheran swan on top of the dome
+  category: hidden-history
+  lat: 52.376264
+  lng: 4.894947
+  address: Nieuwezijds Kolk 28
+  links:
+    - { label: Wikipedia (nl) Korenmetershuisje, url: "https://nl.wikipedia.org/wiki/Korenmetershuisje_(Amsterdam)" }
+    - { label: Wikipedia (nl) Kasteel van Amsterdam, url: "https://nl.wikipedia.org/wiki/Kasteel_van_Amsterdam" }
+    - { label: 4 en 5 mei monument Annick van Hardeveld, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1617/amsterdam-monument-voor-annick-van-hardeveld" }
+    - { label: Wikipedia (nl) Ronde Lutherse Kerk, url: "https://nl.wikipedia.org/wiki/Ronde_Lutherse_Kerk" }
+  photos:
+    - commons:File:Korenmetershuis.JPG
+    - commons:File:Ronde Lutherse Kerk 2482.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: nz-kolk
+    members:
+      - Korenmetershuisje (the corn measurers' house)
+      - Nieuwezijds Kolk, the castle under the street
+      - Oude Braak and the Nieuwezijds Armsteeg, the dike-arm lanes
+      - In de Wildeman, the liqueur distillery that became a beer café
+      - Ronde Lutherse Kerk, the dome that was not allowed to be a tower
+      - Keuken van 1870, the soup kitchen of the Spuistraat
+      - Annick van Hardeveld, the last courier
+  nl:
+    title: Nieuwezijds Kolk, waar de stad begon
+    summary: "Rond een pleintje: de oudste bouwresten van Amsterdam, een kasteel onder het zand; het korenmetershuisje dat de geuzen in 1577 voor het stadhuis aanzagen; stegen die een middeleeuwse dijk volgen; een lutherse koepel; een gaarkeuken; de plek waar de laatste koerierster viel."
+    body: |
+      Onder de klinkers van de Nieuwezijds Kolk liggen de fundamenten van een kasteel, in 1994 gevonden door gravers voor een parkeergarage: het oudste bouwwerk van Amsterdam. De jaarringen wijzen op de tweede helft van de dertiende eeuw, en de resten liggen weer onder het zand. Ernaast staat vrij op het plein het Korenmetershuisje uit 1620, waar de korenmeters vergaderden. Zijn voorganger redde Amsterdam in 1577 misschien voor de katholieken, toen de aanvoerder van de geuzen het voor het stadhuis aanzag. Op de hoek van de Kolksteeg is een likeurstokerij uit 1908 in zeventiende-eeuwse stijl sinds 1986 het bierproeflokaal In de Wildeman.
+
+      Ten noorden van het plein volgen de kromme Oude Braak en Nieuwezijds Armsteeg nog een dijkdoorbraak en een dijkarm uit de veertiende eeuw; bewoners die genoeg hadden van de overlast vroegen om kunst en kregen The White Cube, een verlichte museumzaal op de muur. In de Spuistraat gaf de Keuken van 1870 werkende mensen ruim een eeuw een warme maaltijd, achter een jugendstilgevel uit 1901. Op het Hekelveld herinnert een plaquette aan koerierster Annick van Hardeveld, 21, die hier op de avond van 4 mei 1945 werd doodgeschoten. Boven het Singel rijst de koperen koepel van de Ronde Lutherse Kerk uit 1671: een toren mochten de lutheranen niet bouwen.
+
+      Let op:
+      - de maat, de ton en de strijkstok boven de deur van het Korenmetershuisje
+      - de vier gekroonde evangelisten aan tafel bij In de Wildeman
+      - The White Cube op de muur in de Armsteeg
+      - de lutherse zwaan boven op de koepel
+
+- title: Damrak, the boulevard that never was
+  summary: "The Damrak was meant to be a boulevard like those of Paris and Vienna. Instead it grew into a jumble full of jokes: baboons on an insurer's roof, a newsreel cinema's neon arrow, a passage under a canal of mosaic, a photographer's putti and the excise house across the water."
+  body: |
+    After Centraal Station opened, shopkeepers and architects lobbied to make the Damrak a boulevard. Owners rebuilt one plot at a time instead, and each advertised itself on its front.
+
+    Walk up from the station. At nos. 28–30 the insurer De Utrecht (1904–1906) preaches its trade in stone: Vigilance, Thrift and a Wheel of Fortune over a bronze widow, with baboons up under the eaves. Just behind, on the Nieuwendijk at no. 89, carved putti develop photographs around a photographer with his camera, between Daguerre and Niépce: the studio front of Albert Greiner. Back on the Damrak, no. 25 has fisherfolk heads, fish and crabs for a fish shop, and no. 60 Rembrandt in its stained glass.
+
+    At nos. 63–64, the Cineac of 1938 showed only the news, round the clock, until television killed the idea; its travertine front and neon arrow now point into a casino. Next to it, the Beurspassage was turned in 2016 into a walk under a canal, with a mosaic ceiling of fish and sunken bikes and chandeliers made of bicycle parts. Further on, Berlage's bank of 1901 at the Damraksteeg faces Kropholler's mirror image of 1908. Across the water at the Oudebrugsteeg stands the Accijnshuis of 1637–1638, where the excise masters taxed beer, grain, wine and peat; later it was the skippers' pub.
+
+    Look for:
+    - the bronze widow and the baboons on De Utrecht
+    - Daguerre and Niépce on Nieuwendijk 89
+    - the Cineac's neon arrow
+    - the bronze fish head with a drinking tap in the Beurspassage
+  category: curiosities
+  lat: 52.374889
+  lng: 4.895007
+  address: Damrak 63-64
+  links:
+    - { label: Wikipedia (nl) Cineac, url: "https://nl.wikipedia.org/wiki/Cineac" }
+    - { label: Wikipedia (nl) De Utrecht, url: "https://nl.wikipedia.org/wiki/De_Utrecht_(Amsterdam)" }
+    - { label: Wikipedia (nl) Amsterdam Oersoep, url: "https://nl.wikipedia.org/wiki/Amsterdam_Oersoep" }
+    - { label: Wikipedia (nl) Accijnshuis, url: "https://nl.wikipedia.org/wiki/Accijnshuis_(Amsterdam)" }
+  photos:
+    - commons:File:Damrak28.jpg
+    - commons:File:2020 Amsterdam Oersoep (1).jpg
+    - commons:File:Amsterdam - Nieuwendijk 89.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: nz-damrak
+    members:
+      - Cineac Damrak, the newsreel cinema
+      - Damrak, the boulevard that never was
+      - De Utrecht, the insurance office with baboons on the roof
+      - Beurspassage, the "Amsterdam Oersoep"
+      - Nieuwendijk 89, the photographer's front with Daguerre and Niépce
+      - Accijnshuis (the excise house)
+  nl:
+    title: Damrak, de boulevard die er nooit kwam
+    summary: "Het Damrak moest een boulevard worden als in Parijs en Wenen. Het werd een bonte rij vol grappen: bavianen op het dak van een verzekeraar, de neonpijl van een nieuwsbioscoop, een passage onder een gracht van mozaïek, puttootjes van een fotograaf en het accijnshuis."
+    body: |
+      Na de komst van het Centraal Station wilden winkeliers en architecten van het Damrak een boulevard maken. Eigenaren bouwden in plaats daarvan kavel voor kavel opnieuw, elk met reclame op de gevel.
+
+      Loop vanaf het station naar boven. Op nr. 28–30 draagt verzekeraar De Utrecht (1904–1906) zijn vak in steen uit: de Waakzaamheid, de Spaarzaamheid en een Rad van Fortuin boven een bronzen weduwe, met bavianen onder de goot. Er net achter, op Nieuwendijk 89, zijn gebeeldhouwde puttootjes in de weer met foto's rond een fotograaf met zijn camera, tussen Daguerre en Niépce: de ateliergevel van Albert Greiner. Terug op het Damrak heeft nr. 25 koppen in vissersdracht, vissen en krabben voor een viswinkel, en nr. 60 Rembrandt in het glas-in-lood.
+
+      Op nr. 63–64 draaide de Cineac van 1938 alleen nieuws, doorlopend, tot de televisie er een eind aan maakte; de travertin gevel en de neonpijl wijzen nu naar een casino. Ernaast werd de Beurspassage in 2016 een wandeling onder een gracht, met een mozaïekplafond vol vissen en gezonken fietsen en kroonluchters van fietsonderdelen. Verderop kijkt Berlages bank uit 1901 bij de Damraksteeg naar het spiegelbeeld van Kropholler uit 1908. Aan de overkant, bij de Oudebrugsteeg, staat het Accijnshuis uit 1637–1638, waar accijns werd geheven op bier, graan, wijn en turf; later was het de stamkroeg van de schippers.
+
+      Let op:
+      - de bronzen weduwe en de bavianen op De Utrecht
+      - Daguerre en Niépce op Nieuwendijk 89
+      - de neonpijl van de Cineac
+      - de bronzen vissenkop met drinkkraan in de Beurspassage
+
+- title: Spuistraat south, seamstresses and squatters
+  summary: "The southern Spuistraat, from cashiers' banks to squats: an elephant clock in a bank hall turned restaurant, a grain office the students occupied, Vrankrijk's presses, the city's longest-running squat, a model bakery and the fashion works where a thousand women sewed."
+  body: |
+    Start at the Kas-Associatie, Spuistraat 172, a sculpted bank of 1906–1908 where the cashiers' firm Kas-Vereeniging worked from 1914. Its glass-roofed hall is now a hotel restaurant you can walk into; the register lists a bronze clock on three elephants by Lion Cachet. Further south, the Bungehuis (1932–1934) at nos. 210–212 was a grain firm's sleek stone office, then the university's arts faculty; students occupied it for eleven days in 2015, the month it was sold to become a private members' club.
+
+    Next door, Vrankrijk at no. 216 was a printing works of 1875 where false papers were made in the war; squatted in 1982, it was bought by its squatters in 1992 and is still a political café. Across the street the Tabakspanden, a slum landlord's empire around the Wijdesteeg, were squatted in 1983 and only evicted in 2015, by then the oldest squat in the city.
+
+    At no. 274, on the corner of the Raamsteeg, a baker opened his model bakery in 1898 in a turreted house by Gerrit van Arkel; it has been a bakery ever since. At nos. 288–290 the Jewish fashion house Gerzon built its head office in 1923, with workshops where about a thousand women made clothes. On 12 February 1941 a German administrator walked in; about 300 of its Jewish staff did not survive the war.
+
+    Look for:
+    - BUNGE-HUIS over the Spuistraat entrance
+    - the Lang gewagt stone over the Wijdesteeg door
+    - the 1748 gable stone with its rhyme on the bakery
+    - Gerzon's women with peacocks at the corners
+  category: hidden-history
+  lat: 52.371504
+  lng: 4.889494
+  address: Spuistraat 219-221, Wijdesteeg 3-7
+  links:
+    - { label: Wikipedia (nl) Tabakspanden, url: "https://nl.wikipedia.org/wiki/Tabakspanden" }
+    - { label: Wikipedia (nl) Vrankrijk, url: "https://nl.wikipedia.org/wiki/Vrankrijk" }
+    - { label: Wikipedia (nl) Bungehuis, url: "https://nl.wikipedia.org/wiki/Bungehuis" }
+    - { label: Joods Amsterdam Hoofdkantoor Gerzon, url: "https://www.joodsamsterdam.nl/hoofdkantoor-gerzon/" }
+  photos:
+    - commons:File:Amsterdam Spui 210 Bungehuis.jpg
+    - commons:File:Amsterdam Rijksmonument 518458 Spuistraat 274.JPG
+    - commons:File:Amsterdam Rijksmonument 518453 Spuistraat 172.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: nz-spuistraat
+    members:
+      - The Tabakspanden, Amsterdam's longest-running squat
+      - Vrankrijk
+      - Bungehuis, from grain traders' office to occupied faculty to Soho House
+      - Gerzon's fashion works, where a thousand seamstresses sewed
+      - Stähle's model bakery on the Spuistraat corner
+      - Kas-Associatie, two cashiers' banks and an elephant clock
+  nl:
+    title: Zuidelijke Spuistraat, naaisters en krakers
+    summary: "Van kassiersbanken tot kraakpanden: een olifantenklok in een bankhal die restaurant werd, een graankantoor dat studenten bezetten, de drukpersen van Vrankrijk, het oudste kraakpand van de stad, een modelbakkerij en het modehuis waar duizend vrouwen naaiden."
+    body: |
+      Begin bij de Kas-Associatie, Spuistraat 172, een rijk versierde bank uit 1906–1908 waar vanaf 1914 de Kas-Vereeniging zat. De lichthal is nu een hotelrestaurant waar je zo binnenloopt; het register noemt een bronzen klok op drie olifanten van Lion Cachet. Zuidelijker was het Bungehuis (1932–1934) op nr. 210–212 het strakke stenen kantoor van een graanhandel, daarna de letterenfaculteit van de universiteit; studenten bezetten het in 2015 elf dagen, in de maand dat het werd verkocht aan een besloten club.
+
+      Ernaast is Vrankrijk op nr. 216 een drukkerij uit 1875 waar in de oorlog valse papieren werden gemaakt; in 1982 gekraakt, in 1992 door de krakers gekocht en nog altijd een politiek café. Aan de overkant werden de Tabakspanden, het rijk van een huisjesmelker rond de Wijdesteeg, in 1983 gekraakt en pas in 2015 ontruimd, als oudste kraakpand van de stad.
+
+      Op nr. 274, op de hoek van de Raamsteeg, opende een bakker in 1898 zijn modelbakkerij in een hoekhuis met torentje van Gerrit van Arkel; er zit sindsdien altijd een bakker. Op nr. 288–290 bouwde het Joodse modehuis Gerzon in 1923 zijn hoofdkantoor, met ateliers waar zo'n duizend vrouwen kleding naaiden. Op 12 februari 1941 liep een Duitse bewindvoerder naar binnen; zo'n 300 Joodse medewerkers overleefden de oorlog niet.
+
+      Let op:
+      - BUNGE-HUIS boven de ingang aan de Spuistraat
+      - de steen Lang gewagt boven de deur in de Wijdesteeg
+      - de gevelsteen uit 1748 met rijm op de bakkerij
+      - de vrouwen met pauwen op de hoeken van Gerzon
