@@ -22,6 +22,11 @@
 - Republica: live "completed in 2024"; Arcam and contractor say 2023 (Q1).
 - Patch22: live address Johan van Hasseltkade 202; Arcam 252.
 
+- Nesciobrug: live claims the 2006 National Steel Prize (unconfirmed); length and main span differ from Arcam.
+- Vrijburcht: live says 52 homes; the city register says 56.
+- HAUT: live says 2022; Arcam and the 2022 nomination point to 2021. De Warren: live "opened 2023", Arcam 2022.
+
 ## List changes after the round
 - Remove from the list: Gerrit Rietveld Academie (1967 building, wrong match); its 2018 Fedlev building is drafted in places/ex-zuid-zuidas-1.yaml.
 - Removed: Noorderlicht (rv8ru6n0a5t6ld6h3qluqw40), building gone.
+- To remove after ex-oost-zuidoost-1 is checked: De Vrijheid place nrx2dgcndexsweb2agamfjtl (prison history and Bajesdorp, not the tower); the tower is drafted in places/ex-oost-zuidoost-1.yaml.

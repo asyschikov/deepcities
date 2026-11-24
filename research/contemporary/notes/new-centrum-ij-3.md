@@ -132,3 +132,44 @@ Lariks, Elandshof (Commons search and street categories turned up nothing of the
 - centrum-ij-49 De Keyzer: Zuiderkerkprijs year is 2011 (not 2012 as one source says).
 - centrum-ij-50 Lariks: borough is West, not Centrum.
 - centrum-ij-56: Kabel's own credit names the architects Abbink X de Haas; Arcam says Abbink X Co.
+
+## Verification
+
+Checked against the sources re-fetched by curl (Arcam x5, Ronald Janssen x3, Buro Amsterdam, Dezeen x2,
+Archello x3, ArchDaily x2, architectuur.org, NUL20, nl Wikipedia Zuiderkerkprijs, M3H x2, Lieven de Key,
+Architectenweb, DASH, UvA DARE record) and BAG points (PDOK). Commons API refused curl (429), so Commons
+was searched through BrowserOS. validate.py: 6 places, 0 errors. 8-word copy check (EN and NL against
+all fetched pages): 0 runs. No em dashes. All pins within a few metres of the BAG address points.
+
+- **Dropped: Tussen de Lakens** (centrum-ij-56), coordinator's call: the house stands inside the gated
+  Blaauwlakenblok alleys and cannot be seen from a public street. Removed from the YAML entirely.
+- Bodies trimmed to about 220 words (EN 222 to 233, NL 211 to 231) by cutting lines; nothing added.
+- **Tandwielenfabriek:** "sold as bare shells" cut (Arcam: casco+, with wiring, floor heating and
+  heating installed); "saved from demolition in 2015" narrowed to "kept from demolition and split
+  into lofts in 2015"; gates show the factory "interior" (Dezeen), not "floor"; Janssen's reason
+  narrowed to what Dezeen quotes (many such factories in the centre demolished), NL "Juist daarom"
+  (misread his point) and "de een na de ander" replaced; "from a housing corporation" and the planters
+  Look-for cut for length. Geurt Brinkgreve Bokaal 2015 confirmed by the architect's site and the
+  UvA DARE record title (Binnenstad).
+- **Foeliestraat 2-4:** summary "shop unit" narrowed to "commercial unit" (Arcam and Archello say
+  commercial space); sliding-windows and grid-over-the-roof lines cut for length. Photo checked:
+  description names the 2020 Ronald Janssen building and the AAP 2021 nomination.
+- **Simonsz:** all claims confirmed (Arcam, Archello); one line cut for length. Three photos in
+  Category "Fokke Simonszstraat 59-63, Amsterdam", taken May 2020: kept.
+- **De Keyzer:** "the city's prize for housing" cut (the Zuiderkerkprijs is a jury prize for new
+  housing in Amsterdam; nl Wikipedia, architectuur.org): now "an Amsterdam prize for new housing";
+  "68 rented flats" narrowed to "68 flats"; "the light courts are not open to the public" narrowed to
+  Arcam's "not publicly accessible" for the whole building; "parking underneath" and "the big
+  difference is light" cut for length.
+- **Lariks:** "washed-gravel concrete" narrowed to "concrete with gravel" (Arcam: "beton met grind");
+  "Spaarndammerbuurt next door" narrowed to "nearby" (Arcam: "nabijgelegen"); Reval/Tallinn, Hillen &
+  Roosen and two-room flats lines cut for length. Gouden Piramide 2024 special mention: M3H news page
+  dated 14 Oct 2024 quoting the jury.
+- **Elandshof:** all claims confirmed (Arcam, DASH); apartment-rights line and bluestone Look-for cut
+  for length.
+- **Photos:** Commons searched (full-text and the street categories: Czaar Peterstraat, Nieuwe
+  Jonkerstraat, Nieuwe Ridderstraat, Revaleiland, Houthavens, Elandsstraat). Nothing usable:
+  "Nieuwe Ridderstraat.jpg" and "Nieuwe Jonkerstraat.jpg" (2021) looked at, neither shows the
+  factory recognisably; "Czaarpeterstraat2.jpg" is from 2006, before De Keyzer; the Revaleiland
+  photos are from 2018 to 2021, before Lariks was finished; no file of Elandsstraat 133-137.
+  Tandwielenfabriek, De Keyzer, Lariks and Elandshof stay without photos.
