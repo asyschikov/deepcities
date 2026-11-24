@@ -13,6 +13,8 @@ CLI from there as `env -u DC_URL -u DC_TOKEN pnpm -s dc ...` (read-only commands
 
 **When curl fails** (403, a JavaScript-only page, an empty or cookie-wall response), open the page in the BrowserOS neo browser before giving up: never drop a fact, a source or a building just because curl couldn't read it. Own tab, targeted reading, close the tab when done. Also use it as a primary source for wider reach: read Het Parool, AT5, NH Nieuws and other paywalled or cookie-walled press through the signed-in browser, and search Google from it.
 
+Keep downloads and helper scripts in your own subfolder of the scratchpad (named after your slice), never in a shared folder: other agents run at the same time.
+
 ## Rules that matter most (the user's)
 
 - **Never make anything up.** Every claim needs a source you read. No superlatives, "first /
