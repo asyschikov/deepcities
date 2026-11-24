@@ -4,9 +4,14 @@
  * through these helpers rather than `eq(place.collectionId, …)`.
  */
 import { TRPCError } from "@trpc/server";
-import { and, eq, inArray, type SQL, sql } from "drizzle-orm";
+import { and, eq, inArray, ne, type SQL, sql } from "drizzle-orm";
 import type { Database } from "~/lib/db";
-import { collection, place, placeOverride } from "~/lib/db/schema";
+import {
+  collection,
+  collectionPlace,
+  place,
+  placeOverride,
+} from "~/lib/db/schema";
 import { displayedFields } from "~/lib/overrides";
 import type { CategoryDef, FieldDef, OverrideDraft } from "~/lib/validation";
 import { homeIdOf, VIEW_WHERE_KEYS, type ViewMap } from "~/lib/views";
@@ -33,18 +38,48 @@ export const isClusterParentSql = sql`exists (select 1 from ${place} as child_pl
 /** Published places map `m` shows (a condition on `place`). */
 export const shownWhere = (m: ViewMap): SQL => {
   const view = m.view;
-  const conditions: (SQL | undefined)[] = [
+  const published = [
     eq(place.collectionId, homeIdOf(m)),
     eq(place.status, "published"),
+  ];
+  // A list view: exactly the places picked for it, at any detail.
+  if (view?.list)
+    return (
+      and(
+        ...published,
+        sql`${place.id} in (select ${collectionPlace.placeId} from ${collectionPlace} where ${collectionPlace.collectionId} = ${m.id})`,
+      ) ?? sql`1`
+    );
+  const conditions: (SQL | undefined)[] = [
+    ...published,
     ...VIEW_WHERE_KEYS.map((k) => {
       const values = view?.where?.[k];
       return values ? inArray(place[k], values) : undefined;
     }),
-    view?.detail === "full"
-      ? sql`not ${isClusterParentSql}`
-      : eq(place.detail, "city"),
+    ...(view?.detail === "full"
+      ? [ne(place.detail, "theme"), sql`not ${isClusterParentSql}`]
+      : [eq(place.detail, "city")]),
   ];
   return and(...conditions) ?? sql`1`;
+};
+
+/** Ids of the list views that include each of `placeIds`. */
+export const listsOf = async (
+  db: Database,
+  placeIds: string[],
+): Promise<Map<string, string[]>> => {
+  if (placeIds.length === 0) return new Map();
+  const rows = await db
+    .select({
+      placeId: collectionPlace.placeId,
+      collectionId: collectionPlace.collectionId,
+    })
+    .from(collectionPlace)
+    .where(inArray(collectionPlace.placeId, placeIds));
+  const out = new Map<string, string[]>();
+  for (const r of rows)
+    out.set(r.placeId, [...(out.get(r.placeId) ?? []), r.collectionId]);
+  return out;
 };
 
 /**

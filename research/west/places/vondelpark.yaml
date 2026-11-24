@@ -28,6 +28,7 @@
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Vondelpark" }
     - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Vondelpark" }
   attributes:
+    a_list: A-list
     heritage_status: National monument
     monument_number: "504736, 504742, 504754, 504766, 504772, 504790, 504808, 504814, 504820, 504827, 504839, 504846"
     built: 1864–1877

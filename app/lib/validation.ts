@@ -149,12 +149,23 @@ export const fieldDefSchema = z
     hidden: z.boolean().optional(),
     /** Select fields only: offer the options as filter chips on the map. */
     filter: z.boolean().optional(),
+    /**
+     * Filter fields only: the options selected when the map opens (a subset
+     * of `options`). Readers can deselect them; see app/lib/field-filters.ts.
+     */
+    filterDefault: z.array(z.string().trim().min(1).max(60)).max(40).optional(),
   })
   .refine((f) => f.type !== "select" || (f.options?.length ?? 0) > 0, {
     message: "A select field needs options",
   })
   .refine((f) => !f.filter || f.type === "select", {
     message: "Only select fields can be filters",
+  })
+  .refine((f) => !f.filterDefault?.length || f.filter, {
+    message: "filterDefault needs filter: true",
+  })
+  .refine((f) => (f.filterDefault ?? []).every((v) => f.options?.includes(v)), {
+    message: "filterDefault values must be among the field's options",
   });
 export type FieldDef = z.infer<typeof fieldDefSchema>;
 
@@ -227,9 +238,11 @@ export const placeDraftSchema = z.object({
    */
   parentId: z.string().min(1).max(40).nullable().optional(),
   /**
-   * `city` shows on the home map, `district` only in full-detail views.
+   * `city` shows on the home map, `district` only in full-detail views,
+   * `theme` only in list views that include it.
    * Left out, an edit keeps the current one; a new place gets `city`, or
-   * `district` when it is added from a full-detail view.
+   * `district` when it is added from a full-detail view, `theme` from a
+   * list view.
    */
   detail: z.enum(PLACE_DETAILS).optional(),
 });
@@ -238,27 +251,41 @@ export type PlaceDraft = z.infer<typeof placeDraftSchema>;
 /**
  * A view map: it has no places of its own and shows those of `source`
  * that match `where` (every listed field must match one of its values),
- * at `detail` (see VIEW_DETAILS).
+ * at `detail` (see VIEW_DETAILS). A list view (`list: true`) instead shows
+ * exactly the source places picked for it (`collection_place`), at any
+ * detail; it takes no `where` or `detail`.
  */
-export const mapViewSchema = z.object({
-  source: z.string().min(1).max(40),
-  where: z
-    .object({
-      borough: z.array(z.string().trim().min(1).max(80)).min(1).optional(),
-      neighbourhood: z
-        .array(z.string().trim().min(1).max(80))
-        .min(1)
-        .optional(),
-      subNeighbourhood: z
-        .array(z.string().trim().min(1).max(80))
-        .min(1)
-        .optional(),
-      category: z.array(z.string().min(1).max(32)).min(1).optional(),
-    })
-    .strict()
-    .optional(),
-  detail: z.enum(VIEW_DETAILS),
-});
+export const mapViewSchema = z
+  .object({
+    source: z.string().min(1).max(40),
+    list: z.literal(true).optional(),
+    where: z
+      .object({
+        borough: z.array(z.string().trim().min(1).max(80)).min(1).optional(),
+        neighbourhood: z
+          .array(z.string().trim().min(1).max(80))
+          .min(1)
+          .optional(),
+        subNeighbourhood: z
+          .array(z.string().trim().min(1).max(80))
+          .min(1)
+          .optional(),
+        category: z.array(z.string().min(1).max(32)).min(1).optional(),
+      })
+      .strict()
+      .optional(),
+    detail: z.enum(VIEW_DETAILS).optional(),
+  })
+  .refine(
+    (v) =>
+      v.list
+        ? v.where === undefined && v.detail === undefined
+        : v.detail !== undefined,
+    {
+      message:
+        'A list view ("list": true) takes no "where" or "detail"; other views need "detail"',
+    },
+  );
 export type MapView = z.infer<typeof mapViewSchema>;
 
 export const idSchema = z.string().min(1).max(40);

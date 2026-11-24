@@ -52,6 +52,7 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `select`, `boolean`), options, required, help, hidden. Admins edit them under
   Manage → Place fields or with `pnpm dc fields`. Keys are permanent and fields are
   never deleted, only hidden (values kept); the server rejects removals.
+  Select fields with `filter` become map chips; `filterDefault` (options) are selected on open, and `?f=` stores only departures from it (`[]` = all; `app/lib/field-filters.ts`).
 - **Views and clusters.** A place lives once, on its home map (`place.collectionId`):
   edits, proposals, permissions, history, fields and categories come from there
   (a view's own values for it are overrides, below).
@@ -83,6 +84,20 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `collection.fields` are fields it adds: it displays its source's fields, then
   its own (keys must differ; `collection.setFields`, `dc fields <view>`), and their
   values live only in overrides. CLI: `dc override`, `dc override-many`.
+- **List views (theme maps).** `collection.view = {source, list: true}` (no
+  `where`/`detail`) shows exactly the source places in `collection_place` (list
+  view + place, primary key both), at any detail, if published. `place.detail`
+  `theme` keeps a place off the home map and `full` views: only list views that
+  include it show it (its place page 404s elsewhere; links go to a list that
+  shows it). Adding a place from a list view creates it in the source at
+  `theme` (the proposal is on the source with `listId`; approval also adds it
+  to the list). Picking or dropping pool places is a `membership` proposal on
+  the list view (`kind` create = add, archive = remove;
+  `proposal.setMembership`, moderators+ publish immediately), in its queue and
+  history; the manage page of a list view has a search-and-add box for it.
+  Overrides and own fields work as on any view. CLI: `dc list-add`,
+  `dc list-remove`, `dc import <listView>` (matches source titles onto the list,
+  creates the rest at `theme`, applies a draft's `override`).
 - `route` — a walk or ride through the map, stored like a place (only written by
   approving a proposal). `mode` is its main mode, `walk` or `bike` (what it is, what
   the list shows and filters on; inferred from the legs when a draft leaves it out).

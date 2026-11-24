@@ -39,6 +39,112 @@ type CollectionView = RouterOutputs["collection"]["bySlug"];
 
 const REMOVE = "__remove";
 
+/** How many search matches the list editor offers at once. */
+const MAX_MATCHES = 20;
+
+/**
+ * A list view's places, picked one by one from its source: search the
+ * source's places to add one, remove any. Each change is a proposal on the
+ * list (moderators+ publish immediately).
+ */
+const ListPlaces = ({ view }: { view: CollectionView }) => {
+  const { t } = useTranslation();
+  const trpc = useTRPC();
+  const queryClient = useQueryClient();
+  const collectionId = view.collection.id;
+  const { data: listed = [] } = useQuery(
+    trpc.place.list.queryOptions({ collectionId }),
+  );
+  const [q, setQ] = useState("");
+  const needle = q.trim().toLowerCase();
+  const { data: pool = [] } = useQuery({
+    ...trpc.place.list.queryOptions({ collectionId, pool: true }),
+    enabled: needle.length > 1,
+  });
+  const inList = new Set(listed.map((p) => p.id));
+  const matches = needle
+    ? pool
+        .filter(
+          (p) => !inList.has(p.id) && p.title.toLowerCase().includes(needle),
+        )
+        .slice(0, MAX_MATCHES)
+    : [];
+  const change = useMutation(
+    trpc.proposal.setMembership.mutationOptions({
+      onSuccess: async (res) => {
+        await queryClient.invalidateQueries({
+          queryKey: trpc.place.pathKey(),
+        });
+        toast.success(
+          res.results.some((r) => r.status === "pending")
+            ? t("manage_list_pending")
+            : t("manage_list_saved"),
+        );
+      },
+      onError: (err) => toast.error(err.message),
+    }),
+  );
+  const run = (action: "add" | "remove", placeId: string) =>
+    change.mutate({ collectionId, action, placeIds: [placeId], note: null });
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="font-sans text-lg">
+          {t("manage_list_title")}
+        </CardTitle>
+        <CardDescription>{t("manage_list_desc")}</CardDescription>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <Input
+          type="search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder={t("manage_list_search")}
+          aria-label={t("manage_list_search")}
+        />
+        {matches.length > 0 && (
+          <ul className="divide-y rounded-md border">
+            {matches.map((p) => (
+              <li key={p.id} className="flex items-center gap-3 p-2 text-sm">
+                <span className="min-w-0 flex-1 truncate">{p.title}</span>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  disabled={change.isPending}
+                  onClick={() => run("add", p.id)}
+                >
+                  {t("manage_list_add")}
+                </Button>
+              </li>
+            ))}
+          </ul>
+        )}
+        <ul className="divide-y rounded-md border">
+          {listed.map((p) => (
+            <li key={p.id} className="flex items-center gap-3 p-2 text-sm">
+              <span className="min-w-0 flex-1 truncate">{p.title}</span>
+              <Button
+                size="sm"
+                variant="ghost"
+                disabled={change.isPending}
+                onClick={() => run("remove", p.id)}
+              >
+                {t("manage_list_remove")}
+              </Button>
+            </li>
+          ))}
+          {listed.length === 0 && (
+            <li className="p-3 text-sm text-muted-foreground">
+              {t("manage_list_empty")}
+            </li>
+          )}
+        </ul>
+      </CardContent>
+    </Card>
+  );
+};
+
 const Members = ({ view }: { view: CollectionView }) => {
   const { t } = useTranslation();
   const trpc = useTRPC();
@@ -335,13 +441,16 @@ const ManagePage = () => {
       title={t("manage_title")}
       subtitle={t("manage_subtitle")}
     >
+      {view.collection.view?.list && view.can.propose && (
+        <ListPlaces view={view} />
+      )}
       {view.can.manage ? (
         <>
           <Members view={view} />
           <Settings view={view} />
           <MapLanguages c={view.collection} />
         </>
-      ) : (
+      ) : view.collection.view?.list && view.can.propose ? null : (
         <p className="rounded-md bg-muted p-4 text-sm">
           {t("manage_forbidden")}
         </p>

@@ -22,6 +22,7 @@ import { VerdictSummary } from "~/components/Verdict";
 import { VisitHistory } from "~/components/VisitHistory";
 import { useAppMode } from "~/lib/app-mode";
 import { distanceMeters } from "~/lib/diff";
+import { filterFields, isDefaultSelection } from "~/lib/field-filters";
 import { useSettledFix } from "~/lib/geolocation";
 import { useMapPage } from "~/lib/map-page";
 import { useSearchFlag } from "~/lib/map-search";
@@ -149,7 +150,7 @@ const MapIndex = () => {
                 </Link>
               </Button>
             )}
-            {can.manage && (
+            {(can.manage || (collection.view?.list && can.propose)) && (
               <Button asChild size="sm" variant="ghost">
                 <Link to="/$city/$slug/manage" params={{ city, slug }}>
                   <Settings /> {t("map_manage")}
@@ -258,9 +259,17 @@ const MapIndex = () => {
                 );
               })}
             </div>
-            {collection.fields
-              .filter((f) => f.filter && f.type === "select" && !f.hidden)
-              .map((f) => (
+            {filterFields(collection.fields).map((f) => {
+              const selected = fieldFilters[f.key] ?? [];
+              const byDefault = isDefaultSelection(f, selected);
+              const chip = (active: boolean) =>
+                cn(
+                  "rounded-full border px-2.5 py-1 text-xs transition",
+                  active
+                    ? "border-foreground bg-foreground text-background"
+                    : "hover:bg-muted",
+                );
+              return (
                 <fieldset
                   key={f.key}
                   className="flex flex-wrap items-center gap-1.5"
@@ -274,27 +283,52 @@ const MapIndex = () => {
                   >
                     {f.label}
                   </span>
+                  <button
+                    type="button"
+                    aria-pressed={selected.length === 0}
+                    onClick={() => setFieldFilter(f.key, [])}
+                    className={chip(selected.length === 0)}
+                  >
+                    {t("map_filter_all")}
+                  </button>
                   {(f.options ?? []).map((o) => {
-                    const active = fieldFilters[f.key] === o;
+                    const active = selected.includes(o);
                     return (
                       <button
                         key={o}
                         type="button"
                         aria-pressed={active}
-                        onClick={() => setFieldFilter(f.key, active ? null : o)}
-                        className={cn(
-                          "rounded-full border px-2.5 py-1 text-xs transition",
-                          active
-                            ? "border-foreground bg-foreground text-background"
-                            : "hover:bg-muted",
-                        )}
+                        onClick={() =>
+                          setFieldFilter(
+                            f.key,
+                            active
+                              ? selected.filter((v) => v !== o)
+                              : [...selected, o],
+                          )
+                        }
+                        className={chip(active)}
                       >
                         {f.optionLabels?.[o] ?? o}
                       </button>
                     );
                   })}
+                  {byDefault && (
+                    <span className="text-xs text-muted-foreground">
+                      {t("map_filter_default")}
+                    </span>
+                  )}
                 </fieldset>
-              ))}
+              );
+            })}
+            {visiblePlaces.length > 0 &&
+              visiblePlaces.length < places.length && (
+                <p className="text-xs text-muted-foreground">
+                  {t("map_filter_showing", {
+                    shown: visiblePlaces.length,
+                    total: places.length,
+                  })}
+                </p>
+              )}
           </div>
 
           {near && !here && (

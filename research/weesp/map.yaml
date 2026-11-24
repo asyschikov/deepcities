@@ -48,6 +48,13 @@ fields:
   help: 'How worth a detour it is: Amazing (go out of your way), Nice (worth a stop
     if you''re near), Okay (a footnote, for completists).'
   filter: true
+- key: a_list
+  label: A-list
+  type: select
+  options:
+  - A-list
+  help: Set for the famous sights every guidebook has; they are on the map for completeness and get no rank.
+  filter: true
 - key: heritage_status
   label: Heritage status
   type: select
