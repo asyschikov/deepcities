@@ -5,8 +5,10 @@ import type { Database } from "~/lib/db";
 import { goneReport, place, profile } from "~/lib/db/schema";
 import { GONE_VALUE, goneField } from "~/lib/gone";
 import { draftOfPlace, idSchema } from "~/lib/validation";
+import type { ViewMap } from "~/lib/views";
 import { requireCap } from "../access";
 import { authedProcedure, publicProcedure, router } from "../init";
+import { shownWhere } from "../map-places";
 import { proposalRouter } from "./proposal";
 
 const publishedPlace = async (db: Database, placeId: string) => {
@@ -21,7 +23,7 @@ const publishedPlace = async (db: Database, placeId: string) => {
 /** How many visitors reported each place gone, and when last. */
 export const goneCounts = async (
   db: Database,
-  where: { collectionId: string } | { placeId: string },
+  where: { map: ViewMap } | { placeId: string },
 ) => {
   const rows = await db
     .select({
@@ -30,10 +32,11 @@ export const goneCounts = async (
       latest: max(goneReport.createdAt),
     })
     .from(goneReport)
+    .innerJoin(place, eq(place.id, goneReport.placeId))
     .where(
       "placeId" in where
         ? eq(goneReport.placeId, where.placeId)
-        : eq(goneReport.collectionId, where.collectionId),
+        : shownWhere(where.map),
     )
     .groupBy(goneReport.placeId);
   return new Map(

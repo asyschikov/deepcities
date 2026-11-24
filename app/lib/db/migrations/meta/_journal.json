@@ -127,6 +127,13 @@
       "when": 1795453216420,
       "tag": "0017_avatars",
       "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "6",
+      "when": 1795540171593,
+      "tag": "0018_map_views",
+      "breakpoints": true
     }
   ]
 }

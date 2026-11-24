@@ -12,10 +12,12 @@ import {
   MAX_PHOTOS_PER_PLACE,
   MAX_STOPS_PER_ROUTE,
   MAX_VIA_PER_LEG,
+  PLACE_DETAILS,
   ROUTE_MODES,
   type RouteMode,
   TRANSPORT_MODES,
   type TransportMode,
+  VIEW_DETAILS,
 } from "./constants";
 
 // ─── Translations ───────────────────────────────────────────────────
@@ -201,8 +203,45 @@ export const placeDraftSchema = z.object({
   attributes: attributesSchema,
   /** Title/summary/body in other languages than the map's own. */
   translations: placeTranslationsSchema,
+  /**
+   * The cluster this place belongs to: a place on the same home map. Left
+   * out, an edit keeps the current one (none for a new place).
+   */
+  parentId: z.string().min(1).max(40).nullable().optional(),
+  /**
+   * `city` shows on the home map, `district` only in full-detail views.
+   * Left out, an edit keeps the current one; a new place gets `city`, or
+   * `district` when it is added from a full-detail view.
+   */
+  detail: z.enum(PLACE_DETAILS).optional(),
 });
 export type PlaceDraft = z.infer<typeof placeDraftSchema>;
+
+/**
+ * A view map: it has no places of its own and shows those of `source`
+ * that match `where` (every listed field must match one of its values),
+ * at `detail` (see VIEW_DETAILS).
+ */
+export const mapViewSchema = z.object({
+  source: z.string().min(1).max(40),
+  where: z
+    .object({
+      borough: z.array(z.string().trim().min(1).max(80)).min(1).optional(),
+      neighbourhood: z
+        .array(z.string().trim().min(1).max(80))
+        .min(1)
+        .optional(),
+      subNeighbourhood: z
+        .array(z.string().trim().min(1).max(80))
+        .min(1)
+        .optional(),
+      category: z.array(z.string().min(1).max(32)).min(1).optional(),
+    })
+    .strict()
+    .optional(),
+  detail: z.enum(VIEW_DETAILS),
+});
+export type MapView = z.infer<typeof mapViewSchema>;
 
 export const idSchema = z.string().min(1).max(40);
 export const slugSchema = z
@@ -234,6 +273,8 @@ export const draftOfPlace = (
   photoIds: p.photoIds ?? [],
   attributes: p.attributes ?? {},
   translations: p.translations ?? {},
+  parentId: p.parentId ?? null,
+  detail: p.detail ?? "city",
 });
 
 // ─── Routes ─────────────────────────────────────────────────────────
