@@ -14,20 +14,27 @@ import {
   proposal,
 } from "~/lib/db/schema";
 import { removedFieldKeys } from "~/lib/fields";
+import { clashingFieldKeys, displayedFields } from "~/lib/overrides";
 import { canAssignRole } from "~/lib/permissions";
 import {
   categoryDefSchema,
   collectionTranslationsSchema,
   contentLangSchema,
   emailSchema,
+  type FieldDef,
   fieldDefsSchema,
   idSchema,
   mapViewSchema,
   slugSchema,
 } from "~/lib/validation";
-import { type CollectionAccess, getAccess, requireCap } from "../access";
+import {
+  type Collection,
+  type CollectionAccess,
+  getAccess,
+  requireCap,
+} from "../access";
 import { publicProcedure, router, superAdminProcedure } from "../init";
-import { shownWhere } from "../map-places";
+import { shapeOf, shownWhere } from "../map-places";
 
 const settingsSchema = z.object({
   title: z.string().trim().min(3).max(80),
@@ -55,19 +62,30 @@ const settingsSchema = z.object({
 
 /**
  * A view map shows its source's places, so it reads them with the source's
- * categories and fields (and their labels in other languages).
+ * categories, and the source's fields followed by its own (with their
+ * labels in other languages). `ownFields` are the fields the map itself
+ * defines (a view's extra fields; a home map's whole schema).
  */
 const withSourceShape = async (
   db: Database,
   access: CollectionAccess,
-): Promise<CollectionAccess> => {
+): Promise<
+  CollectionAccess & {
+    collection: CollectionAccess["collection"] & { ownFields: FieldDef[] };
+  }
+> => {
+  const ownFields = access.collection.fields;
+  const plain = {
+    ...access,
+    collection: { ...access.collection, ownFields },
+  };
   const view = access.collection.view;
-  if (!view) return access;
+  if (!view) return plain;
   const source = await db.query.collection.findFirst({
     where: eq(collection.id, view.source),
     columns: { categories: true, fields: true, translations: true },
   });
-  if (!source) return access;
+  if (!source) return plain;
   const own = access.collection.translations;
   const langs = [
     ...new Set([...Object.keys(own), ...Object.keys(source.translations)]),
@@ -78,19 +96,54 @@ const withSourceShape = async (
       {
         ...own[l],
         categories: source.translations[l]?.categories,
-        fields: source.translations[l]?.fields,
+        fields: { ...own[l]?.fields, ...source.translations[l]?.fields },
       },
     ]),
   );
+  const fields = displayedFields(source.fields, ownFields);
   return {
     ...access,
     collection: {
       ...access.collection,
       categories: source.categories,
-      fields: source.fields,
+      fields,
+      // Copies of source fields aren't the view's own (they never show).
+      ownFields: fields.slice(source.fields.length),
       translations,
     },
   };
+};
+
+/**
+ * Check a new list of a map's own fields: none removed (hide instead), and
+ * on a view none that its source already defines.
+ */
+const assertFields = async (
+  db: Database,
+  c: Collection,
+  fields: FieldDef[],
+) => {
+  const { sourceFields } = await shapeOf(db, c);
+  // A view's copies of its source's fields (e.g. left from before it became
+  // a view) are never shown, so they may go.
+  const sourceKeys = new Set(c.view ? sourceFields.map((f) => f.key) : []);
+  const removed = removedFieldKeys(
+    c.fields.filter((f) => !sourceKeys.has(f.key)),
+    fields,
+  );
+  if (removed.length > 0) {
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `Fields can't be deleted, only hidden ("hidden": true): ${removed.join(", ")}`,
+    });
+  }
+  if (!c.view) return;
+  const clash = clashingFieldKeys(sourceFields, fields);
+  if (clash.length > 0)
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `The source map already has these fields: ${clash.join(", ")} (a view adds fields of its own)`,
+    });
 };
 
 export const collectionRouter = router({
@@ -235,15 +288,8 @@ export const collectionRouter = router({
         ctx.profile,
         "manage",
       );
-      const removed = settings.fields
-        ? removedFieldKeys(access.collection.fields, settings.fields)
-        : [];
-      if (removed.length > 0) {
-        throw new TRPCError({
-          code: "BAD_REQUEST",
-          message: `Fields can't be deleted, only hidden ("hidden": true): ${removed.join(", ")}`,
-        });
-      }
+      if (settings.fields)
+        await assertFields(ctx.db, access.collection, settings.fields);
       const keys = new Set(settings.categories.map((c) => c.key));
       // A view has no places of its own (it shows its source's, with the
       // source's categories), so only a home map's own places count.
@@ -275,6 +321,28 @@ export const collectionRouter = router({
         .set({ ...settings, languages, translations })
         .where(eq(collection.id, access.collection.id));
       return { ok: true };
+    }),
+
+  /**
+   * Replace the map's own custom place fields (map admins). On a view these
+   * are the fields it adds to its source's; their values live in the view's
+   * overrides.
+   */
+  setFields: publicProcedure
+    .input(z.object({ collectionId: idSchema, fields: fieldDefsSchema }))
+    .mutation(async ({ ctx, input }) => {
+      const access = await requireCap(
+        ctx.db,
+        input.collectionId,
+        ctx.profile,
+        "manage",
+      );
+      await assertFields(ctx.db, access.collection, input.fields);
+      await ctx.db
+        .update(collection)
+        .set({ fields: input.fields })
+        .where(eq(collection.id, access.collection.id));
+      return { ok: true, fields: input.fields };
     }),
 
   /**

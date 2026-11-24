@@ -1,0 +1,730 @@
+[
+ {
+  "id": "kxnm07444exidgvz0do638rz",
+  "title": "De Witte Kaap",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "so ship-like that everyone calls it a cruise liner",
+    "new": "so ship-like that it is often compared to a cruise liner",
+    "kind": "narrowed",
+    "source": "https://arcam.nl/architectuur-gids/witte-kaap/",
+    "evidence": "Het gebouw wordt vanwege het grote witte volume vaak vergeleken met een cruiseschip."
+   },
+   {
+    "field": "nl.summary",
+    "old": "zo scheeps dat iedereen het een cruiseschip noemt",
+    "new": "zo scheeps dat het vaak met een cruiseschip wordt vergeleken",
+    "kind": "narrowed",
+    "source": "https://arcam.nl/architectuur-gids/witte-kaap/",
+    "evidence": "vaak vergeleken met een cruiseschip"
+   },
+   {
+    "field": "summary",
+    "old": "a prize jury loved the outside and found the inside cramped",
+    "new": "a prize jury praised the outside and found the inside cramped",
+    "kind": "narrowed",
+    "source": "https://gebouwdin.amsterdam.nl/pagina/356",
+    "evidence": "De wit geverfde facade en de ronde hoeken maken het contrast ... nog groter en spannend ... claustrofobische patio's ... kaal institutioneel atrium"
+   },
+   {
+    "field": "nl.summary",
+    "old": "een prijsjury was lyrisch over de buitenkant en minder over de binnenkant",
+    "new": "een prijsjury prees de buitenkant en had kritiek op de binnenkant",
+    "kind": "narrowed",
+    "source": "https://gebouwdin.amsterdam.nl/pagina/356",
+    "evidence": "contrast ... nog groter en spannend; claustrofobische patio's; kaal institutioneel atrium"
+   },
+   {
+    "field": "body",
+    "old": "on a triangular plot where the island's main road meets the water,",
+    "new": "on a triangular corner plot beside an arterial road, its point aimed at the water,",
+    "kind": "narrowed",
+    "source": "https://gebouwdin.amsterdam.nl/pagina/356",
+    "evidence": "Het ligt op een hoek naast een uitvalsweg (jury); Arcam: de puntige vorm van het gebouw die richting het water wijst"
+   },
+   {
+    "field": "nl.body",
+    "old": "op een driehoekige kavel waar de hoofdweg van het eiland het water raakt,",
+    "new": "op een driehoekige hoekkavel naast een uitvalsweg, met de punt naar het water,",
+    "kind": "narrowed",
+    "source": "https://gebouwdin.amsterdam.nl/pagina/356",
+    "evidence": "Het ligt op een hoek naast een uitvalsweg"
+   },
+   {
+    "field": "body",
+    "old": "but called the patios of the family houses claustrophobic",
+    "new": "but called the patios of the private-sector homes claustrophobic",
+    "kind": "narrowed",
+    "source": "https://gebouwdin.amsterdam.nl/pagina/356",
+    "evidence": "de claustrofobische patio's voor de vrije sector woningen"
+   },
+   {
+    "field": "nl.body",
+    "old": "maar vond de patio's van de eengezinswoningen benauwd",
+    "new": "maar vond de patio's van de vrijesectorwoningen benauwd",
+    "kind": "narrowed",
+    "source": "https://gebouwdin.amsterdam.nl/pagina/356",
+    "evidence": "de claustrofobische patio's voor de vrije sector woningen"
+   }
+  ],
+  "patch": {
+   "summary": "A snow-white block that ends in a rounded prow at the tip of Haveneiland, so ship-like that it is often compared to a cruise liner. A critic called it the handsomest block in brick-brown IJburg; a prize jury praised the outside and found the inside cramped.",
+   "body": "IJburg is mostly brick and right angles. At the north-east tip of Haveneiland, on a triangular corner plot beside an arterial road, its point aimed at the water, Claus en Kaan Architecten (Felix Claus with Dick van Wageningen and Jaap Gräber) built the opposite: a painted white block of 134 homes for the housing association De Alliantie, finished in 2010. The plan follows the wedge of the plot, so the building narrows to a long point that the architects rounded off. Three storeys high in the middle, it steps up to eight at both ends, and with its rows of identical windows and stacked \"decks\" the comparison with a moored cruise ship is hard to avoid. The architects named Michel de Klerk's Het Schip in the Spaarndammerbuurt as an inspiration, along with Greek islands, lighthouses and ice floes.\n\nCritics liked it. In Het Parool Ronald Hooft called it the handsomest block in an otherwise rather monotonous IJburg. The jury of the city's Zuiderkerkprijs for housing in 2011 was less sure: it praised the contrast with the brick around it, but called the patios of the private-sector homes claustrophobic, the atrium of the care flats bare and institutional, and the flats in the pointed head full of awkward leftover space. On the windy quay, they noted, it made sense to put the gardens and balconies inside the triangle.\n\nThe block mixes family houses, social-rent and owner-occupied flats, homes for older people, business units in the tall ground floor and a car park below. It is private; walk round the outside.\n\nLook for:\n- the rounded prow, best seen head-on from the corner of the quay, like a white Flatiron\n- the narrow band window that runs round the prow between the ground floor and the floors above\n- the strip of white pebbles along the foot of the walls\n- the view from the quay over the IJmeer",
+   "translations": {
+    "nl": {
+     "summary": "Een sneeuwwit blok dat op de punt van het Haveneiland eindigt in een afgeronde boeg, zo scheeps dat het vaak met een cruiseschip wordt vergeleken. Een criticus vond het het mooiste blok van het bruine IJburg; een prijsjury prees de buitenkant en had kritiek op de binnenkant.",
+     "body": "IJburg is vooral baksteen en rechte hoeken. Op de noordoostpunt van het Haveneiland, op een driehoekige hoekkavel naast een uitvalsweg, met de punt naar het water, zetten Claus en Kaan Architecten (Felix Claus met Dick van Wageningen en Jaap Gräber) precies het omgekeerde neer: een wit geschilderd blok met 134 woningen voor woningcorporatie De Alliantie, opgeleverd in 2010. De plattegrond volgt de wig van de kavel, zodat het gebouw uitloopt in een lange punt, die de architecten rond hebben gemaakt. In het midden telt het drie bouwlagen, naar beide uiteinden loopt het trapsgewijs op tot acht. Met de rijen gelijke ramen en de gestapelde 'dekken' is de vergelijking met een aangemeerd cruiseschip snel gemaakt. Als inspiratie noemden de architecten Het Schip van Michel de Klerk in de Spaarndammerbuurt, maar ook Griekse eilanden, vuurtorens en ijsschotsen.\n\nDe critici waren te spreken. Ronald Hooft noemde het in Het Parool het mooiste blok van een verder nogal eentonig IJburg. De jury van de Zuiderkerkprijs, de stedelijke prijs voor woningbouw, was in 2011 minder zeker: zij prees het contrast met de baksteen eromheen, maar vond de patio's van de vrijesectorwoningen benauwd, het atrium van de zorgwoningen kaal en kil en de appartementen in de spitse kop vol lastig bruikbare restruimte. Op de winderige kade was het wel logisch om tuinen en balkons aan de binnenkant van de driehoek te leggen.\n\nIn het blok zitten eengezinswoningen, sociale huur- en koopappartementen, seniorenwoningen, bedrijfsruimtes in de hoge begane grond en een parkeergarage eronder. Het is privé; je loopt er buitenom.\n\nLet op:\n- de ronde boeg, het mooist recht van voren vanaf de hoek van de kade, als een witte Flatiron\n- het smalle bandvenster dat in de boeg rondloopt tussen de plint en de verdiepingen erboven\n- de strook witte kiezels langs de voet van de gevels\n- het uitzicht vanaf de kade over het IJmeer"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "lmjw6vwoojtz4cw7944po2oj",
+  "title": "Flowers by Karel Appel",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Karel Appel (1921–2006), the most famous painter of the CoBrA movement, was born in the Dapperstraat, a few hundred metres from here.",
+    "new": "Karel Appel (1921–2006), the CoBrA painter, was born in the Dapperstraat, close to here.",
+    "kind": "narrowed",
+    "source": "https://oost-online.nl/karel-appel-was-hier/",
+    "evidence": "nl.wikipedia: 'Hij brak door met zijn lidmaatschap van de Cobra-groep'; oost-online: 'De kunstenaar was blij met de definitieve locatie, zo vlak bij zijn ouderlijk huis.'"
+   },
+   {
+    "field": "body",
+    "old": "as a nod to the neighbourhood's best-known son",
+    "new": "to mark his early years in the Dapperbuurt",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/",
+    "evidence": "Buitenkunst (object Flowers, id 1224): 'Dit beeld markeert zijn jonge levensjaren in Dapperbuurt.'"
+   },
+   {
+    "field": "body",
+    "old": "It stands among the bike racks by the station, and many people pass it without knowing who made it.",
+    "new": "It stands by the station.",
+    "kind": "cut",
+    "source": "https://oost-online.nl/karel-appel-was-hier/",
+    "evidence": "'Op het Oosterspoorplein bij het Muiderpoortstation staat Flowers'; nothing supports the bike racks or that passers-by do not know the maker"
+   },
+   {
+    "field": "nl.body",
+    "old": "de bekendste schilder van de CoBrA-beweging",
+    "new": "schilder van de CoBrA-beweging",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Karel_Appel",
+    "evidence": "'Hij brak door met zijn lidmaatschap van de Cobra-groep'"
+   },
+   {
+    "field": "translations.nl.body",
+    "old": "Karel Appel (1921-2006), schilder van de CoBrA-beweging, werd geboren in de Dapperstraat. In 2002 werd zijn bronzen beeld Flowers uit 1991 op het Oosterspoorplein bij het Muiderpoortstation geplaatst.",
+    "new": "Karel Appel (1921-2006), schilder van de CoBrA-beweging, kwam vlak bij deze plek ter wereld, in de Dapperstraat. In 2002 kreeg zijn bronzen beeld *Flowers* uit 1991 een plaats op het Oosterspoorplein bij het Muiderpoortstation, als herinnering aan zijn jeugd in de Dapperbuurt. Het is geen kleurrijk boeket zoals je van Appel zou verwachten: op een dikke plaat boven een donkere granieten trommel liggen een grote bloemkop met geschulpte rand en een stapel ruwe planken, alles gegoten in donker brons, met de houtnerf nog te zien.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/ (kunstwacht record Flowers); https://oost-online.nl/karel-appel-was-hier/",
+    "evidence": "Verification: NL brought in line with the EN body (same facts). Buitenkunst: 'Dit beeld markeert zijn jonge levensjaren in Dapperbuurt'; oost-online: 'zo vlak bij zijn ouderlijk huis'."
+   }
+  ],
+  "patch": {
+   "body": "Karel Appel (1921–2006), the CoBrA painter, was born in the Dapperstraat, close to here. In 2002 his bronze sculpture *Flowers* (1991) was placed on the Oosterspoorplein to mark his early years in the Dapperbuurt. It is not the bright bouquet you might expect from Appel: on a thick slab over a dark granite drum lie a large, scalloped flower head and a pile of rough planks, all cast in dark bronze, with the grain of the wood still visible. It stands by the station.\n\nLook for:\n- the wood grain cast into the bronze planks\n- \"FLOWERS Karel Appel 1991\" cut into the granite drum",
+   "translations": {
+    "nl": {
+     "body": "Karel Appel (1921-2006), schilder van de CoBrA-beweging, kwam vlak bij deze plek ter wereld, in de Dapperstraat. In 2002 kreeg zijn bronzen beeld *Flowers* uit 1991 een plaats op het Oosterspoorplein bij het Muiderpoortstation, als herinnering aan zijn jeugd in de Dapperbuurt. Het is geen kleurrijk boeket zoals je van Appel zou verwachten: op een dikke plaat boven een donkere granieten trommel liggen een grote bloemkop met geschulpte rand en een stapel ruwe planken, alles gegoten in donker brons, met de houtnerf nog te zien.\n\nLet op:\n- de houtnerf in de bronzen planken\n- 'FLOWERS Karel Appel 1991' in de granieten sokkel"
+    }
+   }
+  },
+  "sources_add": [
+   "https://oost-online.nl/karel-appel-was-hier/"
+  ]
+ },
+ {
+  "id": "hsjnps01kl9piv15s4rltgmc",
+  "title": "Former synagogue, Commelinstraat 16",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "and the last surviving one by Jac. S. Baars.",
+    "new": "and the last surviving synagogue by Jac. S. Baars in Amsterdam.",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/81648",
+    "evidence": "'de laatste nog bestaande, door J.S. Baars ontworpen synagoge in Amsterdam'"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Van 1922 tot 1936 was dit een buurtsjoel, de laatste die nog bestaat van Jac. S. Baars.",
+    "new": "Van 1922 tot 1936 een buurtsjoel: de laatste synagoge van Jac. S. Baars in Amsterdam die nog staat.",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/81648",
+    "evidence": "'de laatste nog bestaande, door J.S. Baars ontworpen synagoge in Amsterdam'"
+   },
+   {
+    "field": "body",
+    "old": "When Baars's large synagogue on the Linnaeusstraat opened in 1928, members drifted away, and in 1936",
+    "new": "Baars's large synagogue on the Linnaeusstraat opened in 1928; membership dwindled, and in 1936",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/81648",
+    "evidence": "'Omdat de vereniging kampte met een teruglopend ledental werden vereniging en synagoge in 1936 opgeheven' (no source says the 1928 opening caused it)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Toen in 1928 de eveneens door Baars ontworpen synagoge aan de Linnaeusstraat openging, liep het ledental terug, en in 1936 werden vereniging en sjoel opgeheven.",
+    "new": "In 1928 opende de grote synagoge aan de Linnaeusstraat, ook een ontwerp van Baars. Het ledental van de vereniging slonk, en in 1936 hielden vereniging en sjoel op te bestaan.",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/81648",
+    "evidence": "'teruglopend ledental'; amsterdamopdekaart: 'Nadat in 1928 de ook door Baars ontworpen synagoge in de Linnaeusstraat was geopend, sloot deze kleine sjoel in 1936'"
+   },
+   {
+    "field": "body",
+    "old": "demolished in the 1960s",
+    "new": "demolished in the 1960s",
+    "kind": "sourced",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Linnaeusstraat/119",
+    "evidence": "'Na een laatste dienst in 1958 werd de synagoge in 1962 gesloopt.'"
+   }
+  ],
+  "patch": {
+   "summary": "Under the plain upper floors of an 1880 house sits an Amsterdam School ground floor of yellow and dark brick, with its own door for the women's gallery. It was a small neighbourhood synagogue from 1922 to 1936, and the last surviving synagogue by Jac. S. Baars in Amsterdam.",
+   "body": "Cycle down the Commelinstraat and one front looks oddly put together: three storeys of 19th-century housing (by J.B. Wijnstok jr., about 1880) on top of a raised ground floor and basement in the expressive brickwork of the Amsterdam School. In 1921–22 the architect Jac. S. Baars turned the lower part into a synagogue for the society Bené Berith Bebeth Jacob (Sons of the Covenant of the House of Jacob), which had held services further down the street since 1881. There were fewer Jews in the Dapperbuurt than in the Transvaal and Oosterpark neighbourhoods, but a small cluster lived around here.\n\nThe building was only meant to serve until Oost had a big synagogue. Baars's large synagogue on the Linnaeusstraat opened in 1928; membership dwindled, and in 1936 the society and its synagogue were wound up; the furnishings went to a prayer room on the Da Costakade. The space then served Christian groups, a Lutheran youth club after the war, and from about 1982 a congregation whose wrought-iron word \"Rogate\" (pray) hung on the front. The Linnaeusstraat synagogue is long gone, demolished in the 1960s; the stopgap survived. Its interior, with two-tone tile friezes, a panelled plaster ceiling and the brick niche for the Torah ark, stayed largely intact until 2014, when the space became a home and everything inside was removed.\n\nIt is a private house. All of this can be seen from the street.\n\nLook for:\n- the yellow and dark sintered brick of the lower floors against the 19th-century front above\n- the central synagogue door, flanked by slit windows\n- the left-hand door, which led to the women's gallery, and the gallery's three windows in a band of slightly projecting brickwork\n- the wedge-shaped openings over the doors, now bricked up",
+   "translations": {
+    "nl": {
+     "summary": "Onder de gewone bovenverdiepingen van een huis uit 1880 zit een onderhuis in Amsterdamse Schoolstijl, van gele en gesinterde baksteen, met een eigen deur voor de vrouwengalerij. Van 1922 tot 1936 een buurtsjoel: de laatste synagoge van Jac. S. Baars in Amsterdam die nog staat.",
+     "body": "Wie de Commelinstraat in fietst, ziet een vreemd samengestelde gevel: drie bouwlagen negentiende-eeuwse etagewoningen (van J.B. Wijnstok jr., rond 1880) op een bel-etage en souterrain met het siermetselwerk van de Amsterdamse School. In 1921-1922 verbouwde architect Jac. S. Baars dat onderhuis tot synagoge voor de vereniging Bené Berith Bebeth Jacob, Zonen van het Verbond van het Huis van Jacob, die al sinds 1881 verderop in de straat een bedehuis had. In de Dapperbuurt woonden minder Joden dan in de Transvaal- en Oosterparkbuurt, maar rond de Commelinstraat zat een kleine concentratie.\n\nHet chewresjoeltje was bedoeld als tijdelijk bedehuis, zolang er in Oost nog geen grote synagoge was. In 1928 opende de grote synagoge aan de Linnaeusstraat, ook een ontwerp van Baars. Het ledental van de vereniging slonk, en in 1936 hielden vereniging en sjoel op te bestaan. De inventaris ging naar een als sjoel ingerichte zaal aan de Da Costakade. Daarna kwamen er christelijke gemeenten, na de oorlog de evangelisch-lutherse jeugdclub \"Wees een licht\", en vanaf ongeveer 1982 hing de smeedijzeren spreuk \"Rogate\" (bidt) op de gevel. De grote sjoel aan de Linnaeusstraat is al lang gesloopt; het noodgebouwtje bleef staan. Het interieur, met tweekleurige tegelfriezen, een in vakken verdeeld stucplafond en de gemetselde achterwand met de nis voor de Torarollen, bleef grotendeels bewaard tot 2014. Bij de verbouwing tot woning is alles weggehaald.\n\nHet is een woonhuis; alles hierboven is vanaf de straat te zien.\n\nLet op:\n- de gele en gesinterde baksteen van het onderhuis onder de negentiende-eeuwse gevel\n- de middeningang van de synagoge, met spleetvormige ramen ernaast\n- de linkerdeur naar de vrouwengalerij, en de drie ramen van die galerij in een strook licht uitkragend siermetselwerk\n- de wigvormige lichtopeningen boven de deuren, nu dichtgemetseld"
+    }
+   }
+  },
+  "sources_add": [
+   "https://amsterdamopdekaart.nl/1850-1940/Linnaeusstraat/119"
+  ]
+ },
+ {
+  "id": "o0mpgfjnaymw9nhjzjwfpbcm",
+  "title": "Jewish cemetery Zeeburg",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "From 1714 to 1942 the burial ground of Amsterdam's poor Ashkenazi Jews, with some 70,000 to 100,000 graves under the grass and only a few stones left.",
+    "new": "From 1714 to 1942 the main burial ground of Amsterdam's Ashkenazi Jews: about 100,000 people under the grass, most of them children, and only a few stones left.",
+    "kind": "narrowed",
+    "source": "https://www.eerherstelzeeburg.nl/index.html",
+    "evidence": "'de laatste rustplaats voor ca. tachtig procent van de Asjkenazische joden van Amsterdam. Hier zijn ongeveer 100.000 kinderen en volwassenen begraven. Bijna 70 procent van die begravenen was jonger dan 13 jaar.' Joodsamsterdam: the 'proletariaat' label 'klopt niet'. No source gives 70,000."
+   },
+   {
+    "field": "nl.summary",
+    "old": "de begraafplaats van de Hoogduits-Joodse gemeente, vooral voor de armen, met naar schatting 70.000 tot 100.000 graven en nog maar weinig zerken.",
+    "new": "de belangrijkste begraafplaats van de Hoogduits-Joodse gemeente: zo'n 100.000 doden, voor het merendeel kinderen, en nog maar weinig zerken.",
+    "kind": "narrowed",
+    "source": "https://www.eerherstelzeeburg.nl/index.html",
+    "evidence": "'ongeveer 100.000 kinderen en volwassenen ... Bijna 70 procent ... jonger dan 13 jaar'"
+   },
+   {
+    "field": "body",
+    "old": "lies one of the largest Jewish cemeteries in Western Europe that hardly anyone knows. From 1714 the High German (Ashkenazi) community buried its dead here, outside the city on the Zeeburgerdijk, largely the poor of the community. Burials continued until 1942. Estimates run from about 70,000 to 100,000 people.",
+    "new": "lies one of the largest Jewish cemeteries in Europe, for decades barely recognisable as one. From 1714 the High German (Ashkenazi) community buried its dead here, outside the city on the Zeeburgerdijk. It was long known as the cemetery of the Jewish poor, but recent research finds the dead here were no poorer than those buried at Muiderberg; what stands out is how many were children. The ground was full by 1914, and the last burials took place in 1942. Estimates run from about 94,000 to 100,000 people.",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/begraafplaats-zeeburg/",
+    "evidence": "'een van de grootste Joodse begraafplaatsen in Europa'; 'Jarenlang ... de begraafplaats van het Amsterdamse Joodse proletariaat. Recent onderzoek wijst uit dat deze aanname niet klopt ... overeenkomt met ... Muiderberg ... overgrote meerderheid ... jonger dan twaalf jaar'; 'In 1914 was er geen plaats meer ... tot 1942 nog sporadisch'; 'tussen de 94.000 en 100.000'; Eerherstel: 'Decennia later was het terrein nauwelijks nog als begraafplaats herkenbaar'"
+   },
+   {
+    "field": "body",
+    "old": "Very few stones survive: many sank into the wet ground, and the cemetery fell into neglect after the war, when the community that had used it had been largely murdered.",
+    "new": "Very few stones survive. The war ended its upkeep, and as trees and brambles took over, stones sagged, toppled or were crushed.",
+    "kind": "narrowed",
+    "source": "https://www.eerherstelzeeburg.nl/index.html",
+    "evidence": "'Tot aan de oorlog werd Zeeburg nog enigszins onderhouden, daarna veroverde de natuur het terrein. De grafstenen zakten scheef, vielen om, of werden tussen het geboomte vermorzeld.' No source for the murder of the community as the cause."
+   },
+   {
+    "field": "nl.body",
+    "old": "Van 1714 tot 1942 begroef de Hoogduitse (Asjkenazische) gemeente hier haar doden, vooral de armen. Het gaat om naar schatting 70.000 tot 100.000 mensen. Er staan nog maar weinig grafstenen; veel zerken zijn in de natte grond weggezakt.\n\nNa de oorlog raakte de begraafplaats in verval.",
+    "new": "Vanaf 1714 begroef de Hoogduitse (Asjkenazische) gemeente hier haar doden. Lang gold dit als het kerkhof van de Joodse armen, maar recent onderzoek laat zien dat de doden hier niet armer waren dan die in Muiderberg; wel was een groot deel van hen kind. In 1914 was het terrein vol, in 1942 volgden de laatste begrafenissen. Het gaat om naar schatting 94.000 tot 100.000 mensen. Er staan nog maar weinig grafstenen.\n\nMet de oorlog kwam er een eind aan het onderhoud. Bomen en braam overwoekerden het terrein; zerken raakten scheef, vielen om of werden verpletterd.",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/begraafplaats-zeeburg/",
+    "evidence": "as for the EN body"
+   },
+   {
+    "field": "body",
+    "old": "- the ditches that once divided the cemetery into two parts, crossed by the park's entrance bridge",
+    "new": "- the ditches that surround most of the cemetery",
+    "kind": "narrowed",
+    "source": "https://www.eerherstelzeeburg.nl/begraafplaats.html",
+    "evidence": "'De begraafplaats wordt grotendeels omringd door sloten.' (it has three parcels, not two; no source for the bridge)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de sloten van de tweedelige begraafplaats onder de toegangsbrug van het park",
+    "new": "- de sloten die het grootste deel van de begraafplaats omringen",
+    "kind": "narrowed",
+    "source": "https://www.eerherstelzeeburg.nl/begraafplaats.html",
+    "evidence": "'De begraafplaats wordt grotendeels omringd door sloten.'"
+   },
+   {
+    "field": "body",
+    "old": "- the Hekkepoort right next to the cemetery, at the park entrance",
+    "new": "- the Hekkepoort right next to the cemetery, at the park entrance",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Flevopark",
+    "evidence": "'Aan de westkant van het park vormt de uit 1714 daterende Joodse begraafplaats een buffer'; 'Aan de westkant komt men het park binnen door een oude toegangspoort, oorspronkelijk \"de Hekkepoort\" genaamd.'"
+   },
+   {
+    "field": "translations.nl.body",
+    "old": "Aan de westrand van het Flevopark ligt de Hoogduits-Israëlitische begraafplaats Zeeburg.",
+    "new": "Achter een hek aan de westrand van het Flevopark ligt de Hoogduits-Israëlitische begraafplaats Zeeburg, een van de grootste Joodse begraafplaatsen van Europa, die tientallen jaren amper als begraafplaats te herkennen was.",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/begraafplaats-zeeburg/; https://www.eerherstelzeeburg.nl/begraafplaats.html",
+    "evidence": "Verification: NL brought in line with the EN body. 'een van de grootste Joodse begraafplaatsen in Europa'; 'Decennia later was het terrein nauwelijks nog als begraafplaats herkenbaar.'"
+   }
+  ],
+  "patch": {
+   "summary": "From 1714 to 1942 the main burial ground of Amsterdam's Ashkenazi Jews: about 100,000 people under the grass, most of them children, and only a few stones left. Open on Sunday afternoons in season.",
+   "body": "Behind a fence at the western edge of the Flevopark lies one of the largest Jewish cemeteries in Europe, for decades barely recognisable as one. From 1714 the High German (Ashkenazi) community buried its dead here, outside the city on the Zeeburgerdijk. It was long known as the cemetery of the Jewish poor, but recent research finds the dead here were no poorer than those buried at Muiderberg; what stands out is how many were children. The ground was full by 1914, and the last burials took place in 1942. Estimates run from about 94,000 to 100,000 people.\n\nVery few stones survive. The war ended its upkeep, and as trees and brambles took over, stones sagged, toppled or were crushed. In 1956 part of the ground was cleared for the Flevoweg and graves from that strip were moved to the Jewish cemetery in Diemen. Since 2008 the Stichting Eerherstel Joodse Begraafplaats Zeeburg has been restoring the site: clearing paths, raising fallen stones and researching who lies here. It became a municipal monument in 2014.\n\nVisitors enter from the Valentijnkade. A 500-metre main path and a marked gravestone route (*zerkenroute*) lead past the surviving stones. The cemetery is open on Sundays from 12 to 16 from April to October; in winter it is closed (until 1 April 2027). Guided tours run once a month in season, by booking.\n\nLook for:\n- the scattered surviving gravestones along the zerkenroute\n- the ditches that surround most of the cemetery\n- the Hekkepoort right next to the cemetery, at the park entrance",
+   "translations": {
+    "nl": {
+     "summary": "Van 1714 tot 1942 de belangrijkste begraafplaats van de Hoogduits-Joodse gemeente: zo'n 100.000 doden, voor het merendeel kinderen, en nog maar weinig zerken. In het seizoen op zondagmiddag open.",
+     "body": "Achter een hek aan de westrand van het Flevopark ligt de Hoogduits-Israëlitische begraafplaats Zeeburg, een van de grootste Joodse begraafplaatsen van Europa, die tientallen jaren amper als begraafplaats te herkennen was. Vanaf 1714 begroef de Hoogduitse (Asjkenazische) gemeente hier haar doden. Lang gold dit als het kerkhof van de Joodse armen, maar recent onderzoek laat zien dat de doden hier niet armer waren dan die in Muiderberg; wel was een groot deel van hen kind. In 1914 was het terrein vol, in 1942 volgden de laatste begrafenissen. Het gaat om naar schatting 94.000 tot 100.000 mensen. Er staan nog maar weinig grafstenen.\n\nMet de oorlog kwam er een eind aan het onderhoud. Bomen en braam overwoekerden het terrein; zerken raakten scheef, vielen om of werden verpletterd. In 1956 werd een deel geruimd voor de aanleg van de Flevoweg; graven van die strook werden overgebracht naar de Joodse begraafplaats in Diemen. Sinds 2008 werkt de Stichting Eerherstel Joodse Begraafplaats Zeeburg aan het herstel van de begraafplaats en aan onderzoek naar wie er begraven ligt. Sinds 2014 is de begraafplaats een gemeentelijk monument.\n\nDe ingang is aan de Valentijnkade. Een hoofdpad van 500 meter en een zerkenroute voeren langs de bewaarde stenen. De begraafplaats is van april tot en met oktober op zondag van 12 tot 16 uur open; in de winter is ze gesloten (tot 1 april 2027). In het seizoen is er eens per maand een rondleiding, op aanmelding.\n\nLet op:\n- de verspreide grafstenen langs de zerkenroute\n- de sloten die het grootste deel van de begraafplaats omringen\n- de hekkepoort direct naast de begraafplaats"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Flevopark"
+  ]
+ },
+ {
+  "id": "pkaqpsk17cej52xnnwzs69k4",
+  "title": "Kruislaan flood doors (Kruislaancompartimentering)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The structure has no plaque and no explanation on the spot. ",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source says there is no plaque or explanation on site"
+   },
+   {
+    "field": "nl.body",
+    "old": "Er hangt geen bordje en er staat nergens uitleg. ",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source"
+   }
+  ],
+  "patch": {
+   "body": "The Watergraafsmeer is a drained lake about 5 m below sea level, and the railway to Hilversum crosses it on a high embankment. Where the Kruislaan passes under that embankment, two big blue steel doors stand against the walls on either side of the road and the cycle path, ready to close the gap. With them, the embankment becomes a second, inner dike: if the Ooster Ringdijk gave way, the water would be held back at the railway instead of filling the whole polder.\n\nThe works were finished in 1961. Besides the doors, a steel shutter closed off the culvert of the Molenwetering under the embankment, and a small extra dike was built along the Molukkenstraat between the railway and the Ringdijk. Algemeen Handelsblad (15 July 1961) explained it as protection for the densely built polder, so that what happened at Tuindorp Oostzaan, flooded in January 1960, could not happen here. De Waarheid (27 July 1961) noticed that the city could not keep its story straight: first a spokesman said the point was to seal off the \"FOM polder\" around the physics laboratory by the viaduct in case bombs breached the dikes, then the city said it was about the 40,000 people of the Meer. The province added that it had all been decided back in 1955, under the post-war law on protecting waterworks in wartime.\n\nIt only became a named object of the public space in 2019.\n\nLook for:\n- the two blue doors in their recesses, one beside the road and one beside the cycle path\n- the concrete pillar between the two openings\n- the height of the embankment compared with the street, a measure of how deep the polder lies",
+   "translations": {
+    "nl": {
+     "body": "De Watergraafsmeer is een droogmakerij die zo'n 5 meter onder NAP ligt, en de spoorlijn naar Hilversum gaat er op een hoge dijk dwars doorheen. Waar de Kruislaan onder die spoordijk door loopt, staan aan weerszijden van de rijweg en het fietspad twee grote blauwe stalen deuren klaar om het gat te dichten. Daarmee wordt de spoordijk een tweede waterkering: breekt de Ooster Ringdijk door, dan houdt het spoor het water tegen en loopt niet de hele polder onder.\n\nHet werk was in 1961 klaar. Behalve de deuren kwam er een stalen afsluiting voor de duiker van de Molenwetering onder de spoordijk, en langs de Molukkenstraat werd tussen het spoor en de Ringdijk een hulpdijkje opgeworpen. Het Algemeen Handelsblad (15 juli 1961) bracht het als extra bescherming voor de dichtbebouwde polder, zodat de ramp van Tuindorp Oostzaan, dat in januari 1960 onderliep, zich hier niet kon herhalen. De Waarheid (27 juli 1961) merkte op dat de gemeente het verhaal niet rond kreeg. Eerst zei een woordvoerder dat het erom ging de 'FOM-polder' rond het natuurkundelaboratorium bij het viaduct af te sluiten als bommen de dijken zouden doorbreken; later heette het dat de 40.000 bewoners van de Meer moesten worden beschermd. Volgens de provincie was het allemaal al in 1955 besloten, op grond van de naoorlogse wet op de bescherming van waterstaatswerken in oorlogstijd.\n\nPas in 2019 kreeg het kunstwerk als onderdeel van de openbare ruimte een officiële naam.\n\nLet op:\n- de twee blauwe deuren in hun nissen, een naast de rijweg en een naast het fietspad\n- de betonnen pijler tussen de twee doorgangen\n- de hoogte van de spoordijk ten opzichte van de straat: zo diep ligt de polder"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "c5h6lbhnx9cthv71wk9qx99n",
+  "title": "Leeuwenburg (Bruut), Weesperzijde 190",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "One of the few true brutalist buildings in the country, a 56-metre concrete office block by the Amstelstation that many found ugly.",
+    "new": "A rare Dutch example of brutalism, a 56-metre concrete office block by the Amstelstation that some found plain ugly.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Leeuwenburg_(Amsterdam)",
+    "evidence": "'de een vond het lelijk; de ander een voorbeeld van de stijl brutalisme, een stroming waarin relatief weinig gebouwen in Nederland aangetroffen worden'"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een van de weinige echte brutalistische gebouwen van Nederland: een betonnen kantoorkolos van 56 meter bij het Amstelstation, door velen lelijk gevonden.",
+    "new": "Een zeldzaam Nederlands voorbeeld van brutalisme: een betonnen kantoorkolos van 56 meter bij het Amstelstation, die sommigen gewoon lelijk vonden.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Leeuwenburg_(Amsterdam)",
+    "evidence": "'de een vond het lelijk'"
+   },
+   {
+    "field": "body",
+    "old": "In 2026 the façade is coming off, some 2,500 panels, to be replaced",
+    "new": "In 2026 the façade panels are coming off, to be replaced",
+    "kind": "narrowed",
+    "source": "https://www.sosbrutalism.org/cms/16945131",
+    "evidence": "'the original precast aggregate-concrete façade elements are being dismantled'; the 2,500 figure rests only on a search snippet of a paywalled Bouwwereld article"
+   },
+   {
+    "field": "nl.body",
+    "old": "In 2026 gaat de gevel eraf, zo'n 2.500 elementen.",
+    "new": "In 2026 gaan de gevelelementen eraf.",
+    "kind": "narrowed",
+    "source": "https://www.sosbrutalism.org/cms/16945131",
+    "evidence": "façade elements are being dismantled"
+   },
+   {
+    "field": "body",
+    "old": "- the stepped terraces of the low part on the station side",
+    "new": "- the stepped terraces of the low part",
+    "kind": "narrowed",
+    "source": "https://www.sosbrutalism.org/cms/16945131",
+    "evidence": "'The lower section at the rear of the block comprises four stepped terraces' (no source puts them on the station side)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de getrapte terrassen van de laagbouw aan de stationskant",
+    "new": "- de getrapte terrassen van de laagbouw",
+    "kind": "narrowed",
+    "source": "https://www.sosbrutalism.org/cms/16945131",
+    "evidence": "four stepped terraces"
+   },
+   {
+    "field": "body",
+    "old": "where the Blooker cocoa factory had stood",
+    "new": "where the Blooker cocoa factory had stood",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Blooker_(fabriek)",
+    "evidence": "'Blooker was een cacaofabriek ... aan de Weesperzijde 194 en de Omval, waar nu het gebouw Leeuwenburg staat'"
+   },
+   {
+    "field": "attributes.architect",
+    "old": "Piet Zanstra, Ab Gmelig Meyling, Peter de Clercq Zubli; ZZDP Architecten (renovation)",
+    "new": "Piet Zanstra, Ab Gmelig Meyling, Peter de Clercq Zubli; ZZDP Architecten (renovation)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Peter_de_Clercq_Zubli",
+    "evidence": "'directeur bij het architectenbureau van Piet Zanstra en Ab Gmelig Meyling; het bureau heette vanaf dat moment Zanstra, Gmelig Meyling, De Clercq Zubli'"
+   }
+  ],
+  "patch": {
+   "summary": "A rare Dutch example of brutalism, a 56-metre concrete office block by the Amstelstation that some found plain ugly. Partial demolition was called off in 2024; now its whole concrete skin is coming off, to be replaced by a copy, and it has been renamed Bruut.",
+   "body": "In the 1970s a triangle of land between the Amstelstation and the Amstel, where the Blooker cocoa factory had stood, got one of the biggest office buildings in Amsterdam: almost 64,000 square metres. Zanstra, Gmelig Meyling and De Clercq Zubli designed a tower of 14 storeys over a car park and a lower part stepping down in terraces, all on a frame of concrete poured on site, faced with panels of rough gravel concrete with small, deep-set windows. It was finished in 1977 and became the head office of the Rijkspostspaarbank (the state savings bank) and part of the Postgiro. From 1998 to September 2022 the Hogeschool van Amsterdam used it.\n\nPeople never agreed about it: some found it plain ugly, others a rare Dutch example of brutalism. In 2018 there were plans to pull down the low wing for a new tower; Bond Heemschut tried to have the building listed, and failed. The 2023 atlas \"Bruut\" still put it in its top 50 as \"Zanstra's unloved office colossus\". Then in November 2024 the demolition was called off: the foundations could not carry the new building. The developer Vastint is now rebuilding it with ZZDP Architecten, the successor to Zanstra's office. In 2026 the façade panels are coming off, to be replaced by better insulated ones that copy the original look; the old concrete is crushed and reused in the new panels. In November 2026 the building was renamed Bruut, after béton brut. Offices, a restaurant and meeting rooms are due around 2031.\n\nLook for:\n- the stepped terraces of the low part\n- the sculptural steel ventilation shafts on the lowest terrace\n- which façades are already stripped to the concrete frame\n- the Rembrandttoren next door, by partly the same architects",
+   "translations": {
+    "nl": {
+     "summary": "Een zeldzaam Nederlands voorbeeld van brutalisme: een betonnen kantoorkolos van 56 meter bij het Amstelstation, die sommigen gewoon lelijk vonden. De sloop ging in 2024 niet door; nu gaat de hele betonnen gevel eraf voor een kopie, en het gebouw heet voortaan Bruut.",
+     "body": "Na de sloop van de cacaofabriek van Blooker kwam er op de driehoek tussen het Amstelstation en de Amstel ruimte voor een van de grootste kantoorgebouwen van Amsterdam, met bijna 64.000 vierkante meter. Zanstra, Gmelig Meyling en De Clercq Zubli ontwierpen een toren van veertien verdiepingen op een parkeergarage en een lager deel dat in terrassen afloopt, op een ter plekke gestort betonskelet met gevels van ruwe grindbetonnen platen en kleine, diepliggende ramen. Het werd in 1977 opgeleverd en werd het hoofdkantoor van de Rijkspostspaarbank, met ook een deel van de Postgiro. Van 1998 tot september 2022 zat de Hogeschool van Amsterdam erin.\n\nDe meningen liepen altijd uiteen: de een vond het gewoon lelijk, de ander een zeldzaam Nederlands voorbeeld van brutalisme. In 2018 lagen er plannen om de laagbouw te slopen voor een nieuwe toren. Bond Heemschut probeerde het gebouw monument te laten worden, maar dat strandde. In het boek 'Bruut. Atlas van het brutalisme in Nederland' (2023) kwam het in de top 50, als 'Zanstra's onbeminde kantoorkolos'. In november 2024 ging de sloop van tafel: de fundering kon de nieuwbouw niet dragen. Ontwikkelaar Vastint verbouwt het nu met ZZDP Architecten, de opvolger van het bureau van Zanstra. In 2026 gaan de gevelelementen eraf. Er komt een beter geïsoleerde gevel voor terug die het oorspronkelijke uiterlijk nadoet; het oude beton wordt vermalen en in de nieuwe platen verwerkt. In november 2026 kreeg het gebouw de naam Bruut, naar béton brut. Rond 2031 moeten er kantoren, een restaurant en vergaderzalen in zitten.\n\nLet op:\n- de getrapte terrassen van de laagbouw\n- de stalen ventilatiekokers op het laagste terras, als een beeldhouwwerk gegroepeerd\n- welke gevels al tot op het betonskelet zijn gestript\n- de Rembrandttoren ernaast, deels van dezelfde architecten"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Blooker_(fabriek)",
+   "https://nl.wikipedia.org/wiki/Peter_de_Clercq_Zubli"
+  ]
+ },
+ {
+  "id": "g6p7qq63atomdwz47fduaycu",
+  "title": "Man & Schaap, Zeeburgerdijk",
+  "changes": [
+   {
+    "field": "body",
+    "old": "There is no path to the water's edge; the heads are best seen from the cycle path along the Zeeburgerdijk.\n\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source describes access or the best viewpoint"
+   },
+   {
+    "field": "nl.body",
+    "old": "Er loopt geen pad naar de waterkant; vanaf het fietspad langs de Zeeburgerdijk zie je de hoofden het best.\n\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source"
+   }
+  ],
+  "patch": {
+   "body": "Drivers and cyclists heading for the Zuiderzeeweg pass it every day: a small pond in the wedge between the Flevoparkweg, the Zeeburgerdijk and the Zuiderzeeweg, with two heads in it. One is a bald man, the other a sheep. Both are up to their necks, eye to eye, and from the man's eyes a jet of water squirts straight at the sheep.\n\nMerijn Bolink (born 1967) had once sketched a fountain of a man's and a woman's head. Looking for models, he went to a party shop and came back with a mask that looked like Alfred Hitchcock and the head of a sheep. A person and an animal seemed more interesting to him: he keeps returning to the gap between people and animals, who can look each other in the eye without any idea of what the other is thinking. In the end he did not use Hitchcock but a friend with a striking bald head, whose surname happened to be Schaap (sheep). He took it as a sign.\n\nThat the bodies are under water is a pointer too. The old Zeeburgerdijk breached again and again, and each time the polder behind it flooded. The work has stood here since 2003, and in 2011 it won the Amsterdamse Straatkunstprijs, a street-art prize that was only ever awarded once.\n\nLook for:\n- the jet from the man's eyes, aimed at the sheep's\n- the sheep's ears just clear of the water\n- Flevopark and the Hekkepoort a few minutes' walk south",
+   "translations": {
+    "nl": {
+     "body": "Wie naar de Zuiderzeeweg rijdt of fietst, komt er elke dag langs: een vijvertje in de punt tussen de Flevoparkweg, de Zeeburgerdijk en de Zuiderzeeweg, met twee hoofden erin. Het ene is van een kale man, het andere van een schaap. Ze staan allebei tot hun nek in het water en kijken elkaar recht in de ogen, en uit de ogen van de man spuit een straal water precies op het schaap af.\n\nMerijn Bolink (1967) had ooit een schetsje gemaakt voor een fontein met de hoofden van een man en een vrouw. Op zoek naar voorbeelden belandde hij in een feestwinkel, waar hij een masker vond dat op Alfred Hitchcock leek, en een schapenkop. Een mens en een dier vond hij spannender: het onvermogen van mens en dier om echt contact te maken is een oud thema van hem. Ze kunnen elkaar aankijken zonder te weten wat er in de ander omgaat. Uiteindelijk werd het niet Hitchcock, maar een vriend met een markant kaal hoofd, die toevallig Schaap heette. Dat moest wel een teken zijn.\n\nDat de lichamen onder water zitten, is ook een verwijzing. De oude Zeeburgerdijk brak vroeger keer op keer door, en dan liep de polder erachter onder. Het beeld staat er sinds 2003 en won in 2011 de Amsterdamse Straatkunstprijs, die maar één keer is uitgereikt.\n\nLet op:\n- de straal uit de ogen van de man, gericht op die van het schaap\n- de oren van het schaap net boven het water\n- het Flevopark en de Hekkepoort een paar minuten lopen naar het zuiden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "d1sha98ol2go2h3o63yt4sxn",
+  "title": "Monument against apartheid and racism, Krugerplein",
+  "changes": [
+   {
+    "field": "nl.summary",
+    "old": "die uit de bestrating breken, het eerste officiële monument tegen apartheid, in juni 1987 onthuld in een buurt",
+    "new": "die uit de bestrating breken, in juni 1987 onthuld als het eerste officiële monument tegen apartheid, in een buurt",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:Amsterdam,_burgemeester_Van_Thijn_onthult_op_het_Krugerplein_het_eerste_offici%C3%ABl,_Bestanddeelnr_934-0158.jpg",
+    "evidence": "Anefo caption: 'burgemeester Van Thijn onthult op het Krugerplein het eerste officiële monument tegen apartheid en racisme', 21 juni 1987 (a label at the unveiling, as the EN says 'billed as')"
+   },
+   {
+    "field": "body",
+    "old": "after the Zulu chief, ANC president and Nobel Peace Prize winner",
+    "new": "after the South African chief, ANC president and Nobel Peace Prize winner",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Albert_Luthuli",
+    "evidence": "'was een Zuid-Afrikaans chief (politiek leider) ... winnaar van de Nobelprijs voor de Vrede in 1960 ... president van het Afrikaans Nationaal Congres'"
+   },
+   {
+    "field": "nl.body",
+    "old": "naar het Zoeloe-opperhoofd, ANC-voorzitter en Nobelprijswinnaar",
+    "new": "naar de Zuid-Afrikaanse chief, ANC-voorzitter en Nobelprijswinnaar",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Albert_Luthuli",
+    "evidence": "'een Zuid-Afrikaans chief (politiek leider)'"
+   },
+   {
+    "field": "body",
+    "old": "many Jewish families from here were deported, and their descendants would no longer find the old address.",
+    "new": "descendants of the street's Jewish families would no longer be able to find it.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Albert_Luthulistraat",
+    "evidence": "'eventuele nakomelingen uit Joodse gezinnen zouden door de naamswijziging de straat niet meer kunnen terugvinden' (deportation not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "veel Joodse gezinnen van hier werden gedeporteerd, en hun nazaten zouden het oude adres niet meer terugvinden.",
+    "new": "nazaten van Joodse gezinnen uit de straat zouden haar onder de nieuwe naam niet meer kunnen vinden.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Albert_Luthulistraat",
+    "evidence": "as for EN"
+   },
+   {
+    "field": "body",
+    "old": "descendants of the street's Jewish families would no longer be able to find it.",
+    "new": "many Jewish families from here had been deported, and their descendants would no longer be able to find the street.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Albert_Luthulistraat",
+    "evidence": "Verification: restored the deportations, which the source backs: 'kregen hier veel Joodse gezinnen onderdak ... Tijdens die Tweede Wereldoorlog raakte de straat ontvolkt door deportaties'; 'eventuele nakomelingen uit Joodse gezinnen zouden door de naamswijziging de straat niet meer kunnen terugvinden.'"
+   },
+   {
+    "field": "translations.nl.body",
+    "old": "nazaten van Joodse gezinnen uit de straat zouden haar onder de nieuwe naam niet meer kunnen vinden.",
+    "new": "in de oorlog waren veel Joodse gezinnen uit de straat gedeporteerd, en hun nazaten zouden haar onder de nieuwe naam niet meer kunnen vinden.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Albert_Luthulistraat",
+    "evidence": "Verification: NL twin of the restored deportation clause."
+   }
+  ],
+  "patch": {
+   "body": "The Transvaalbuurt got its names in the early 1900s, when the Dutch cheered the Boers of South Africa as heroic kin fighting the British. Kruger, Pretorius, Joubert and the battles of the Boer wars are all on the street signs. Under apartheid those names grew awkward. The Pretoriusplein became the Steve Bikoplein in 1978, and in 1982 activists pasted names of anti-apartheid fighters over other signs, but the council would not rename the district.\n\nIn June 1987, as Amsterdam prepared for an ANC office, it did change one name: on 10 June the Louis Bothastraat became the Albert Luthulistraat, after the South African chief, ANC president and Nobel Peace Prize winner. A few days later Mayor Ed van Thijn unveiled Pépé Grégoire's monument here: a bronze arm and a leg pushing up out of the ground, as if a buried body is breaking free. It was billed as the first official monument against apartheid and racism.\n\nNot everyone was pleased. Residents said the new name wiped out the street's wartime history: many Jewish families from here had been deported, and their descendants would no longer be able to find the street. In the winter of 1988–1989 they won an extra sign: \"voorheen Louis Bothastraat\" (formerly Louis Bothastraat).\n\nLook for:\n- the arm and leg rising from the pavement, and the plaque beside them\n- the double street sign of the Albert Luthulistraat\n- the Boer names on the signs all around the square",
+   "translations": {
+    "nl": {
+     "summary": "Een bronzen arm en been van Pépé Grégoire die uit de bestrating breken, in juni 1987 onthuld als het eerste officiële monument tegen apartheid, in een buurt waar de straten naar Boerenhelden heten.",
+     "body": "De Transvaalbuurt kreeg haar namen begin twintigste eeuw, toen Nederland de Boeren in Zuid-Afrika zag als dappere stamverwanten in hun strijd tegen de Engelsen. Kruger, Pretorius, Joubert en de veldslagen van de Boerenoorlogen staan allemaal op de straatnaambordjes. Tijdens de apartheid werden die namen pijnlijk. Het Pretoriusplein werd in 1978 het Steve Bikoplein, en in 1982 plakten actievoerders andere bordjes over met namen van anti-apartheidsstrijders, maar de raad wilde de buurt niet omdopen.\n\nIn juni 1987, terwijl Amsterdam zich voorbereidde op een kantoor van het ANC, ging er toch één naam om: op 10 juni werd de Louis Bothastraat de Albert Luthulistraat, naar de Zuid-Afrikaanse chief, ANC-voorzitter en Nobelprijswinnaar. Een paar dagen later onthulde burgemeester Ed van Thijn hier het monument van Pépé Grégoire: een bronzen arm en been die uit de grond omhoog komen, alsof een begraven lichaam zich losbreekt. Het gold als het eerste officiële monument tegen apartheid en racisme.\n\nNiet iedereen was blij. Buurtbewoners vonden dat de nieuwe naam de oorlogsgeschiedenis van de straat uitwiste: in de oorlog waren veel Joodse gezinnen uit de straat gedeporteerd, en hun nazaten zouden haar onder de nieuwe naam niet meer kunnen vinden. In de winter van 1988-1989 kregen ze een extra bordje: 'voorheen Louis Bothastraat'.\n\nLet op:\n- de arm en het been die uit de bestrating komen, met de plaquette\n- het dubbele straatnaambord van de Albert Luthulistraat\n- de Boerennamen op de bordjes rond het plein"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Albert_Luthuli",
+   "https://nl.wikipedia.org/wiki/Transvaalbuurt"
+  ]
+ },
+ {
+  "id": "xbmj1f8gqqbbgz00g98oc14i",
+  "title": "Nooit Gedacht pull ferry and the dike-break pool",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Local historians tie the pool to 1672.",
+    "new": "Jan Dijk, who writes about the area's history, guesses 1672.",
+    "kind": "narrowed",
+    "source": "https://www.vriendenvanwatergraafsmeer.nl/het-pontje-van-kees-hartog-en-iets-over-dijkdoorbraken/",
+    "evidence": "'Ik kan het nergens vinden; ik gok maar: de tweede, die van 1672.'"
+   },
+   {
+    "field": "nl.body",
+    "old": "Lokale historici houden het wiel voor een overblijfsel van 1672.",
+    "new": "Jan Dijk, die over de geschiedenis van de Meer schrijft, gokt op 1672.",
+    "kind": "narrowed",
+    "source": "https://www.vriendenvanwatergraafsmeer.nl/het-pontje-van-kees-hartog-en-iets-over-dijkdoorbraken/",
+    "evidence": "'ik gok maar: de tweede, die van 1672'"
+   },
+   {
+    "field": "body",
+    "old": "It is a private family ferry with no timetable, not a GVB service.",
+    "new": "It is a private family ferry, not a GVB service.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on a timetable"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is een particulier familiepontje zonder dienstregeling, geen veer van het GVB.",
+    "new": "Het is een particulier familiepontje, geen veer van het GVB.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on a timetable"
+   }
+  ],
+  "patch": {
+   "body": "Ride the Kruislaan past Science Park station to the end, turn up onto the Ooster Ringdijk, and you reach a boatyard that feels a long way from the city. Here a cable ferry, the overhaal, crosses the Ringvaart to the dike of the Amsterdam-Rijnkanaal. In 1914 Gerrit van den Brink bought it from a Mr Versanen and started a boat store beside it, called Nooitgedacht (\"never thought\"); his descendants still run both, always passed down on the women's side. The ferry was wooden until 1953, when the family bought the present steel pontoon, a former Wehrmacht one. You pull it across on the cable by hand.\n\nIn its heyday people queued for it, paying 5 cents on foot and 10 with a bike, to reach the open-air swimming spots along the canal dike. According to the family, Jews were hidden in the ferry house during the war and taken across at night to Frisian apple boats on the canal. Drs. P promoted his ferry song \"Heen en weer\" here. A cycle path built nearby for a triathlon in 1990 took most of the trade, but in 2024 the great-granddaughter was still pulling the ferry and planned to renew the boat store.\n\nJust north of the landing, in the reeds, a map of 1725 shows a wiel, the scour pool a dike break leaves behind. The polder flooded twice in its first half-century: in the St Peter's flood of 1651, and on purpose in 1672, when the Dutch let water in to stop the army of Louis XIV. Jan Dijk, who writes about the area's history, guesses 1672.\n\nIt is a private family ferry, not a GVB service.\n\nLook for:\n- the steel pontoon and its pull cable across the Ringvaart\n- the house called Nooit-Gedacht opposite, with the arms of the Watergraafsmeer and Amsterdam in its front\n- the reedbed north of the landing, where the 1725 map shows the breach",
+   "translations": {
+    "nl": {
+     "body": "Fiets de Kruislaan af voorbij station Science Park, ga omhoog de Ooster Ringdijk op, en je staat bij een botenstalling die ver van de stad lijkt. Hier gaat een trekpontje, de overhaal, over de Ringvaart naar de dijk van het Amsterdam-Rijnkanaal. In 1914 kocht Gerrit van den Brink het pontje van ene meneer Versanen en begon er een botenstalling naast, Nooitgedacht. Zijn nazaten runnen beide nog steeds, en dat gaat steeds via de vrouwelijke lijn. Tot 1953 was het pontje van hout; toen kocht de familie het huidige stalen ponton, een voormalig ponton van de Wehrmacht. Je trekt het met de hand langs de kabel naar de overkant.\n\nIn de drukke jaren stonden de mensen ervoor in de rij. Wandelaars betaalden 5 cent, fietsers 10, om bij de natuurbaden langs de kanaaldijk te komen. Volgens de familie werden in de oorlog in het ponthuis joden verborgen gehouden, die 's avonds met het pontje naar Friese appelboten op het kanaal werden gebracht. Drs. P maakte er reclame voor zijn lied \"Heen en weer\". Een fietspaadje dat in 1990 voor een triatlon vlakbij werd aangelegd, nam het meeste werk over, maar in 2024 trok de achterkleindochter het pontje nog altijd over en had ze plannen om de stalling op te knappen.\n\nVlak ten noorden van de aanlegplaats, in het riet, staat op een kaart uit 1725 een wiel: het diepe gat dat een dijkdoorbraak achterlaat. De polder liep in zijn eerste halve eeuw twee keer onder: bij de Sint-Pietersvloed van 1651 en met opzet in 1672, toen het water werd binnengelaten om het leger van Lodewijk XIV tegen te houden. Jan Dijk, die over de geschiedenis van de Meer schrijft, gokt op 1672.\n\nHet is een particulier familiepontje, geen veer van het GVB.\n\nLet op:\n- het stalen ponton met de trekkabel over de Ringvaart\n- aan de overkant het huis Nooit-Gedacht, met het wapen van de Watergraafsmeer en dat van Amsterdam in de gevel\n- het rietveld ten noorden van de aanlegplaats, waar de kaart van 1725 de doorbraak laat zien"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ixuqjloszzkvll4kjpkpac27",
+  "title": "Stefan Glerum's stained-glass fronts, Polderweg",
+  "changes": [
+   {
+    "field": "body",
+    "old": "whose lab on the site isolated a female sex hormone in the 1920s",
+    "new": "whose lab on the site discovered oestrogen in 1925",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/88580",
+    "evidence": "'In 1925 werd er oestrogeen ontdekt'; Glerum: 'die in zijn lab op het terrein in rundvlees oestrogeen ontdekte'"
+   },
+   {
+    "field": "nl.body",
+    "old": "wiens lab op het terrein in de jaren twintig een vrouwelijk geslachtshormoon wist te isoleren",
+    "new": "in wiens lab op het terrein in 1925 oestrogeen werd ontdekt",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/88580",
+    "evidence": "'In 1925 werd er oestrogeen ontdekt'"
+   },
+   {
+    "field": "body",
+    "old": "- Laqueur and the beef flag on the back, facing the railway",
+    "new": "- Laqueur and the beef flag on the back",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/88580",
+    "evidence": "no source says which front faces the railway"
+   },
+   {
+    "field": "nl.body",
+    "old": "- Laqueur en de vleesvlag op de achtergevel, aan de spoorkant",
+    "new": "- Laqueur en de vleesvlag op de achtergevel",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/88580",
+    "evidence": "no source says which front faces the railway"
+   }
+  ],
+  "patch": {
+   "body": "The Oostergasfabriek site has had more lives than most: gasworks, bathhouse and pool, milk factory, paint factory, animal shelter, the Don Bosco technical school, allotments, a band's rehearsal space and a university lab. When Heren 5 architects built the housing block at Polderweg 502-646, a brick design in the manner of the Amsterdam School, the illustrator Stefan Glerum got the stairwell at its centre, commissioned by Ymere with support from the Amsterdam arts fund (AFK). He filled the front and the back with leaded glass, about 18 m high, telling the site's stories from the bottom up, one story per floor.\n\nOn the front, coal lies at the foot, and rounded bricks stand for a gasholder. A stoker shovels coal, strips off his work clothes and turns into a swimmer, for the bathhouses that became the Sportfondsenbad. A milk bottle floats by (the dairy), animals wear bandages (the shelter where people could have pets treated cheaply), and British Spitfires strafe the gasholders, because Germans were stationed there in the war. A tube of paint hides in a tree, a street urchin drops schoolbooks marked DB (Don Bosco), and a snake recalls the CoBrA painter Anton Rooskens, who taught metalwork there. The factory chimney ties it all together. On the back, the Roode Fanfare marches with a flag of beef studied by Ernst Laqueur, whose lab on the site discovered oestrogen in 1925 and who, as a Jew, was barred from it in 1941; a policeman finds the treasure hidden in the Linnaeusstraat synagogue that the Germans never found, and a korfball player shoots into the chimney.\n\nGlerum's own advice: come after dark, when the glass is lit from inside.\n\nLook for:\n- the swimmer climbing out of the coal at the bottom of the front\n- the Spitfires over the gasholders\n- Laqueur and the beef flag on the back\n- Glerum's signature in the glass",
+   "translations": {
+    "nl": {
+     "body": "Op het terrein van de Oostergasfabriek is van alles geweest: gasfabriek, badhuis en zwembad, melkfabriek, verffabriek, dierenasiel, de technische Don Boscoschool, volkstuinen, het repetitielokaal van een fanfare en een universiteitslab. Toen Heren 5 architecten het woonblok Polderweg 502-646 bouwden, in baksteen en in de trant van de Amsterdamse School, kreeg illustrator Stefan Glerum het trappenhuis in het midden. In opdracht van Ymere en met subsidie van het AFK vulde hij voor- en achtergevel met glas in lood van ongeveer 18 meter hoog. Elke verdieping heeft een eigen verhaal, dat je vanuit het trappenhuis los ziet; van buiten vormen ze samen één grote vertelling.\n\nOp de voorgevel liggen onderaan kolen, en ronde bakstenen verbeelden een gashouder. Een stoker schept kolen, trekt zijn werkkleren uit en wordt een zwemmer: de badhuizen, later het Sportfondsenbad. Er drijft een fles melk (de melkfabriek), er zijn dieren in het verband (het asiel waar je je dier gratis of goedkoop kon laten behandelen) en Britse Spitfires beschieten de gashouders, waar in de oorlog Duitsers zaten. In een boom zit een tube verf verstopt, een straatschoffie verliest schoolspullen met DB op het boek (Don Bosco) en een slang verwijst naar Cobraschilder Anton Rooskens, die op die school metaalbewerking gaf. De fabrieksschoorsteen verbindt alles. Op de achtergevel draagt de Roode Fanfare een vlag van rundvlees, bestudeerd door Ernst Laqueur, in wiens lab op het terrein in 1925 oestrogeen werd ontdekt en die als Jood in 1941 de toegang werd ontzegd. Verder vindt een agent de schat die in de synagoge aan de Linnaeusstraat verstopt was en die de Duitsers nooit vonden, en gooit een korfballer een bal in de schoorsteen.\n\nGlerum raadt aan 's avonds te komen kijken, als het glas van binnenuit verlicht is.\n\nLet op:\n- de zwemmer die onderaan de voorgevel uit de kolen klimt\n- de Spitfires boven de gashouders\n- Laqueur en de vleesvlag op de achtergevel\n- de signatuur van Glerum in het glas"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "dmhd8it9cwjciv9mg7wqavuh",
+  "title": "Thermometer streets of De Wetbuurt",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The council chose men from the Boer War, then still being fought in South Africa:",
+    "new": "The council chose men from the Boer Wars in South Africa:",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_Wetbuurt",
+    "evidence": "'vernoemd naar personen uit de Boerenoorlogen in Zuid-Afrika' (no source says the war was still on)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De gemeente koos mannen uit de Boerenoorlog, die toen nog in Zuid-Afrika woedde:",
+    "new": "De gemeente koos mannen uit de Zuid-Afrikaanse Boerenoorlogen:",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_Wetbuurt",
+    "evidence": "'personen uit de Boerenoorlogen in Zuid-Afrika'"
+   }
+  ],
+  "patch": {
+   "body": "In 1901 a private builder asked the then independent municipality of Watergraafsmeer to name three streets in his scheme by the Ringvaart, near where the Weespertrekvaart starts. The council chose men from the Boer Wars in South Africa: De Wetstraat, Steijnstraat and Bothastraat, with cross streets for Wolmarans and Leyds. All of them were still alive. So the village had its own little Transvaal quarter. Building went slowly, and for years the streets ran out into the fields.\n\nOn 1 January 1921 Amsterdam annexed the village, and the names clashed with its own Transvaalbuurt. So in March 1922 they were swapped for scientists of temperature and pressure: De Wetstraat became the Fahrenheitstraat, the Steijnstraat the Celsiusstraat and the Bothastraat the Réaumurstraat; the cross streets became the Von Guerickestraat and the Torricellistraat. The quarter kept the name De Wetbuurt, and for a while was also called the Fahrenheitbuurt.\n\nThe houses from 1900–1925 stand at the western end, some with Amsterdam School touches; east of about the Von Guerickestraat the building is from after 1950. North of it lies Tuindorp Amstelstation, 484 identical concrete-built duplex homes of 1947–1948 with streets named after long-gone inns and country houses of the polder. The two together are known locally as Amsteldorp. Piet Kramer's bridges cross the ring ditch, and the neighbourhood lies about 5.5 m below NAP, so from the station embankment you look out over its roofs.\n\nLook for:\n- the street signs: Fahrenheit, Celsius and Réaumur in a row\n- the big sundial on the side wall of Fahrenheitstraat 1\n- Piet Kramer's bridges over the ring ditch to Tuindorp Amstelstation",
+   "translations": {
+    "nl": {
+     "body": "In 1901 vroeg een particuliere bouwonderneming de toen nog zelfstandige gemeente Watergraafsmeer om alvast drie straten in zijn plan bij de Ringvaart te benoemen. De gemeente koos mannen uit de Zuid-Afrikaanse Boerenoorlogen: De Wetstraat, Steijnstraat en Bothastraat, met dwarsstraten voor Wolmarans en Leyds. Een eigen Transvaalbuurtje, vernoemd naar mensen die allemaal nog leefden. De bouw schoot niet op; jarenlang liepen de straten zo de weilanden in.\n\nOp 1 januari 1921 annexeerde Amsterdam de Watergraafsmeer, en de namen botsten met die in de eigen Transvaalbuurt. In maart 1922 werden het daarom geleerden van temperatuur en luchtdruk: de De Wetstraat werd Fahrenheitstraat, de Steijnstraat Celsiusstraat en de Bothastraat Réaumurstraat; de dwarsstraten werden Von Guerickestraat en Torricellistraat. De buurt bleef De Wetbuurt heten en heette een tijd ook Fahrenheitbuurt.\n\nDe huizen uit 1900–1925 staan aan de westkant, sommige met trekjes van de Amsterdamse School; ten oosten van ongeveer de Von Guerickestraat is alles van na 1950. Ten noorden ligt Tuindorp Amstelstation, 484 gelijke duplexwoningen uit 1947–1948 in betonbouw, met straten genoemd naar verdwenen herbergen en buitenplaatsen van de polder. Samen heten de twee buurten in de volksmond Amsteldorp. Bruggen van Piet Kramer gaan over de ringsloot, en de buurt ligt zo'n 5,5 meter onder NAP: vanaf de spoordijk bij het station kijk je over de daken heen.\n\nLet op:\n- de straatnaambordjes: Fahrenheit, Celsius en Réaumur op een rij\n- de grote zonnewijzer op de zijgevel van Fahrenheitstraat 1\n- de bruggen van Piet Kramer over de ringsloot naar Tuindorp Amstelstation"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "vrah1v7v74s7y9ec2104qh4b",
+  "title": "Vettewinkel paint factory",
+  "changes": [
+   {
+    "field": "body",
+    "old": "given two extra storeys of homes on a steel frame;",
+    "new": "given two extra storeys of homes;",
+    "kind": "narrowed",
+    "source": "https://www.zelferro.com/voormalige-sigmafabriek-amsterdam",
+    "evidence": "'van 4 lagen naar 6 lagen ... Op de bovenste twee verdiepingen wordt nu gewoond'; the steel frame rests only on an IAA search snippet (page not fetchable)"
+   },
+   {
+    "field": "nl.body",
+    "old": "kreeg ze op een stalen draagconstructie twee woonlagen erbij;",
+    "new": "kreeg ze twee woonlagen erbij;",
+    "kind": "narrowed",
+    "source": "https://www.zelferro.com/voormalige-sigmafabriek-amsterdam",
+    "evidence": "'Op de bovenste twee verdiepingen wordt nu gewoond'"
+   }
+  ],
+  "patch": {
+   "body": "The Vettewinkels were house painters in the 19th century. In 1918 the family firm became a varnish and paint maker, the N.V. Vernis en Verffabriek voorheen Vettewinkel en Zonen, and in 1934 it moved to this spot on the Cruquius island, where G.J. Langhout designed its first buildings. In 1955 the office of the brothers G.J. and A.J. Langhout, architects and structural engineers (G.J. designed the Telegraaf building on the Nieuwezijds Voorburgwal with J.F. Staal), drew this production block; it was built in 1958, one storey taller than planned.\n\nThe concrete is the point. The cream-painted frame is left in full view, filled in with brick parapets and wide steel windows of twenty panes, and where columns meet floor beams it thickens into heavy, projecting knots. That expressive touch pulls the building away from plain functionalism towards the brutalism that was only just appearing, rare for its time, the city judged when it listed it in 2012.\n\nThe firm became part of Sigma Coatings, and paint was made here until 2008. Around 2020 the factory was restored and given two extra storeys of homes; the floors below are workspaces for creative firms again. You see it best from the Cruquiusweg, which bends around it.\n\nLook for:\n- the swollen concrete knots at every column and beam\n- the two new storeys of homes on top\n- the vertical strip of loading doors in the north and south fronts",
+   "translations": {
+    "nl": {
+     "body": "De familie Vettewinkel had in de negentiende eeuw al een schildersbedrijf. In 1918 werd dat de N.V. Vernis en Verffabriek voorheen Vettewinkel en Zonen, en in 1934 verhuisde de fabriek naar deze plek op het Cruquiuseiland, waar G.J. Langhout de eerste gebouwen ontwierp. In 1955 tekende het bureau van de broers G.J. en A.J. Langhout, architecten en constructeurs (G.J. ontwierp samen met J.F. Staal het Telegraafgebouw aan de Nieuwezijds Voorburgwal), dit productiegebouw; het werd in 1958 gebouwd, een verdieping hoger dan gepland.\n\nHet draait hier om het beton. Het crèmegeel geschilderde skelet is helemaal in het zicht gelaten en ingevuld met bakstenen borstweringen en brede stalen ramen van twintig ruitjes. Waar kolommen en vloerbalken samenkomen, zwelt het op tot zware, uitkragende knopen. Daarmee wijkt het af van het zuivere functionalisme, richting het brutalisme dat toen net opkwam; voor die tijd zeldzaam, vond de gemeente, die het in 2012 tot monument maakte.\n\nHet bedrijf ging op in Sigma Coatings, en tot 2008 werd hier verf gemaakt. Rond 2020 is de fabriek opgeknapt en kreeg ze twee woonlagen erbij; op de verdiepingen daaronder werken weer creatieve bedrijven. Je ziet het gebouw het best vanaf de Cruquiusweg, die er met een bocht omheen loopt.\n\nLet op:\n- de verdikte betonknopen bij elke kolom en balk\n- de twee nieuwe woonlagen bovenop\n- de verticale strook laaddeuren in de noord- en zuidgevel"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "kunh7t9wwgjtzrh6g8ix0lg3",
+  "title": "Villa Mattern, Renate Rubinstein's bungalow",
+  "changes": [
+   {
+    "field": "body",
+    "old": "In a district of four- and five-storey blocks, Nicolaas de Roeverstraat 3 is an oddity:",
+    "new": "Among the housing blocks of Oostpoort, Nicolaas de Roeverstraat 3 is an oddity:",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/87970",
+    "evidence": "no source for the storey counts; the NL text already says Tussen de woonblokken van Oostpoort"
+   },
+   {
+    "field": "body",
+    "old": "Here she was visited by Simon Carmiggelt, the much-loved Parool columnist, who kept coming",
+    "new": "Here she was visited by Simon Carmiggelt, who kept coming",
+    "kind": "cut",
+    "source": "https://www.villamattern.eu/geschiedenis.html",
+    "evidence": "sources name Carmiggelt (1913-1987) only; nothing on his Parool column or popularity"
+   },
+   {
+    "field": "body",
+    "old": "Nobody knew about it until *Mijn beter ik* appeared in 1991,",
+    "new": "The affair came out in *Mijn beter ik*, published in 1991,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Renate_Rubinstein",
+    "evidence": "'Kort na haar dood verscheen haar boek Mijn beter ik, waarin onthuld werd dat ze ... een geheime verhouding had met Simon Carmiggelt'"
+   },
+   {
+    "field": "nl.body",
+    "old": "Niemand wist ervan tot *Mijn beter ik* verscheen in 1991,",
+    "new": "De verhouding werd pas bekend met *Mijn beter ik*, dat in 1991 verscheen,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Renate_Rubinstein",
+    "evidence": "'waarin onthuld werd'"
+   },
+   {
+    "field": "body",
+    "old": "Henk Visch's giant bronze leg, *Noch Einmal*, a short walk east along the Polderweg",
+    "new": "Henk Visch's six-metre leg, *Noch Einmal*, further along the Polderweg",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/87970",
+    "evidence": "'Het zes meter hoge kunstwerk ... Noch Einmal van Henk Visch heeft een definitieve plek gekregen aan de Polderweg' (no source for bronze or for the direction)"
+   },
+   {
+    "field": "translations.nl.body",
+    "old": "- het reuzenbeen *Noch Einmal* van Henk Visch, een stukje verder aan de Polderweg",
+    "new": "- het zes meter hoge been *Noch Einmal* van Henk Visch, verderop aan de Polderweg",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/87970",
+    "evidence": "Verification: NL twin of the EN 'six-metre leg ... further along'; source: 'Het zes meter hoge kunstwerk ... Noch Einmal van Henk Visch'."
+   }
+  ],
+  "patch": {
+   "body": "Among the housing blocks of Oostpoort, Nicolaas de Roeverstraat 3 is an oddity: a single-storey house of glass and steel on the corner of the Polderweg, built in 1967 by the architect F.J.E. Dekeukeleire in the spirit of the Nieuwe Zakelijkheid (the Dutch strand of modernism): light, air and space. Seven years earlier he had designed a similar white office on the water at Westerdoksdijk 40.\n\nIn 1985 the writer Renate Rubinstein (1929–1990) bought it for a plain reason: it had no stairs and no thresholds. She had been diagnosed with multiple sclerosis in 1977 and could no longer walk. Under the pen name Tamar she had written a weekly column in Vrij Nederland since 1962, and she is often called the first Dutch columnist; her pieces on her divorce and her illness were collected in *Niets te verliezen en toch bang* and *Nee heb je*. Here she was visited by Simon Carmiggelt, who kept coming every Tuesday afternoon even as their affair was ending. The affair came out in *Mijn beter ik*, published in 1991, shortly after Rubinstein ended her own life at 61 in 1990; Carmiggelt had died in 1987.\n\nHer nephew inherited the bungalow and opened it up with sliding glass walls and chestnut floors throughout. Since 2002 it has been Villa Mattern, a venue hired out for meetings and parties; the largest rooms are named Rubinstein and Tamar. It is not open to drop-in visitors, but the house is easy to see from the street.\n\nLook for:\n- the flat roof and glass walls, a 1960s bungalow in a street of blocks\n- the corner of the Polderweg, the railway embankment beyond it\n- Henk Visch's six-metre leg, *Noch Einmal*, further along the Polderweg",
+   "translations": {
+    "nl": {
+     "body": "Tussen de woonblokken van Oostpoort is Nicolaas de Roeverstraat 3 een buitenbeentje: een gelijkvloers huis van glas en staal op de hoek van de Polderweg. Architect F.J.E. Dekeukeleire bouwde het in 1967 in de geest van de Nieuwe Zakelijkheid, met veel licht, lucht en ruimte. In 1960 had hij al een vergelijkbaar wit kantoor aan het water ontworpen, aan de Westerdoksdijk 40.\n\nIn 1985 kocht schrijfster Renate Rubinstein (1929-1990) de bungalow om een eenvoudige reden: er zaten geen trappen en geen drempels in. In 1977 was multiple sclerose bij haar vastgesteld en ze kon niet meer lopen. Sinds 1962 schreef ze onder de naam Tamar wekelijks een column in Vrij Nederland; ze geldt als de eerste columnist van Nederland. Haar stukken over haar scheiding en haar ziekte verschenen in de bundels *Niets te verliezen en toch bang* en *Nee heb je*. Hier kreeg ze bezoek van Simon Carmiggelt, die elke dinsdagmiddag bleef komen, ook toen hun verhouding al op zijn eind liep. De verhouding werd pas bekend met *Mijn beter ik*, dat in 1991 verscheen, kort nadat Rubinstein in 1990 op 61-jarige leeftijd zelf een einde aan haar leven had gemaakt. Carmiggelt was in 1987 overleden.\n\nHaar neef erfde het huis en maakte er met glazen schuifwanden en doorlopende kastanjehouten vloeren één grote ruimte van. Sinds 2002 zit er Villa Mattern, een locatie die wordt verhuurd voor vergaderingen en feesten; de grootste zalen heten Rubinstein en Tamar. Zomaar binnenlopen kan niet, maar vanaf de straat is het huis goed te zien.\n\nLet op:\n- het platte dak en de glazen wanden, een jarenzestigbungalow tussen de blokken\n- de hoek met de Polderweg, met daarachter het spoortalud\n- het zes meter hoge been *Noch Einmal* van Henk Visch, verderop aan de Polderweg"
+    }
+   }
+  },
+  "sources_add": []
+ }
+]

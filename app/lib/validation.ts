@@ -176,6 +176,24 @@ export const attributesSchema = z
   .default({});
 export type Attributes = z.infer<typeof attributesSchema>;
 
+/**
+ * A view map's own values for some custom fields of a place: a value
+ * replaces the home value on that map, null unsets it there.
+ */
+export const overrideAttributesSchema = z.record(
+  z.string().max(32),
+  attributeValueSchema.nullable(),
+);
+export type OverrideAttributes = z.infer<typeof overrideAttributesSchema>;
+
+/** A view map's override for one place, as stored (see app/lib/overrides.ts). */
+export interface OverrideDraft {
+  /** Only the overridden keys. */
+  attributes: OverrideAttributes;
+  /** Replaces the place's category on the view; null keeps the home one. */
+  category: string | null;
+}
+
 export const linkSchema = z.object({
   label: z.string().trim().min(1).max(60),
   url: z.url({ protocol: /^https?$/ }).max(500),

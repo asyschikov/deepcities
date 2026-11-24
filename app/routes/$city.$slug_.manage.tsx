@@ -176,7 +176,8 @@ const Settings = ({ view }: { view: CollectionView }) => {
     centerLng: String(c.centerLng),
     zoom: String(c.zoom),
     categories: c.categories,
-    fields: c.fields,
+    // A view edits only the fields it adds to its source's.
+    fields: c.ownFields,
     contributionPolicy: c.contributionPolicy,
   });
   const save = useMutation(
@@ -295,6 +296,11 @@ const Settings = ({ view }: { view: CollectionView }) => {
           </div>
           <div className="space-y-1.5">
             <Label>{t("manage_field_fields")}</Label>
+            {c.view && (
+              <p className="text-xs text-muted-foreground">
+                {t("manage_fields_view_hint")}
+              </p>
+            )}
             <FieldsEditor
               value={form.fields}
               onChange={(fields) => setForm((f) => ({ ...f, fields }))}

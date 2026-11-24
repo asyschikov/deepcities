@@ -34,8 +34,11 @@ export type PlaceDetail = (typeof PLACE_DETAILS)[number];
 export const VIEW_DETAILS = ["city", "full"] as const;
 export type ViewDetail = (typeof VIEW_DETAILS)[number];
 
-/** What a proposal changes. */
-export const PROPOSAL_SUBJECTS = ["place", "route"] as const;
+/**
+ * What a proposal changes: a place, a route, or a view map's own values for
+ * one of its places (`place_override`).
+ */
+export const PROPOSAL_SUBJECTS = ["place", "route", "override"] as const;
 export type ProposalSubject = (typeof PROPOSAL_SUBJECTS)[number];
 
 export const ROUTE_STATUSES = ["published", "archived"] as const;

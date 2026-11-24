@@ -4,11 +4,21 @@ import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { type PlaceDetail, PROPOSAL_STATUSES } from "~/lib/constants";
 import type { Database } from "~/lib/db";
-import { photo, place, proposal, route } from "~/lib/db/schema";
+import { photo, place, placeOverride, proposal, route } from "~/lib/db/schema";
 import { attributeIssues, compactAttributes } from "~/lib/fields";
+import {
+  isEmptyOverride,
+  NO_OVERRIDE,
+  normalizeOverride,
+  patchOverride,
+  stableJson,
+  withOverride,
+} from "~/lib/overrides";
 import {
   draftOfRoute,
   idSchema,
+  type OverrideDraft,
+  overrideAttributesSchema,
   type PlaceDraft,
   placeDraftSchema,
   type RouteDraft,
@@ -17,7 +27,13 @@ import {
 import { detailForNew, homeIdOf, wouldCycle } from "~/lib/views";
 import { type Collection, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
-import { loadViewMap, photoMapIds, poolWhere } from "../map-places";
+import {
+  loadViewMap,
+  overridesOf,
+  photoMapIds,
+  poolWhere,
+  shapeOf,
+} from "../map-places";
 
 type Proposal = typeof proposal.$inferSelect;
 
@@ -306,6 +322,99 @@ const applyProposal = async (
       .where(eq(place.id, placeId)),
     markApproved,
   ]);
+  if (p.kind === "edit") await pruneOverrides(db, placeId);
+  return placeId;
+};
+
+/**
+ * After the home place changed: drop override keys that now equal its
+ * values (and overrides left empty), so no no-op overrides stay stored.
+ */
+const pruneOverrides = async (db: Database, placeId: string) => {
+  const [home, rows] = await Promise.all([
+    db.query.place.findFirst({
+      where: eq(place.id, placeId),
+      columns: { attributes: true, category: true },
+    }),
+    db.query.placeOverride.findMany({
+      where: eq(placeOverride.placeId, placeId),
+    }),
+  ]);
+  if (!home) return;
+  const changed = rows.flatMap((r) => {
+    const next = normalizeOverride(home, r);
+    return stableJson(next) ===
+      stableJson({ attributes: r.attributes, category: r.category })
+      ? []
+      : [{ row: r, next }];
+  });
+  const [first, ...rest] = changed.map(({ row, next }) => {
+    const where = and(
+      eq(placeOverride.collectionId, row.collectionId),
+      eq(placeOverride.placeId, row.placeId),
+    );
+    return isEmptyOverride(next)
+      ? db.delete(placeOverride).where(where)
+      : db.update(placeOverride).set(next).where(where);
+  });
+  if (first) await db.batch([first, ...rest]);
+};
+
+/**
+ * Publish an approved override proposal: store the view map's override for
+ * the place (normalised against the place as it is now; an empty one is
+ * removed) and mark the proposal approved, in one batch.
+ */
+const applyOverrideProposal = async (
+  db: Database,
+  p: Proposal,
+  reviewerId: string,
+  reviewNote: string | null,
+): Promise<string> => {
+  const placeId = p.placeId ?? "";
+  const home = await db.query.place.findFirst({
+    where: eq(place.id, placeId),
+    columns: { attributes: true, category: true, status: true },
+  });
+  if (home?.status !== "published")
+    throw new TRPCError({
+      code: "CONFLICT",
+      message: "This place has been removed from the map",
+    });
+  if (!p.overrideDraft)
+    throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
+  const next = normalizeOverride(home, p.overrideDraft);
+  const now = new Date();
+  const where = and(
+    eq(placeOverride.collectionId, p.collectionId),
+    eq(placeOverride.placeId, placeId),
+  );
+  await db.batch([
+    isEmptyOverride(next)
+      ? db.delete(placeOverride).where(where)
+      : db
+          .insert(placeOverride)
+          .values({
+            collectionId: p.collectionId,
+            placeId,
+            ...next,
+            updatedAt: now,
+            updatedBy: p.proposedBy,
+          })
+          .onConflictDoUpdate({
+            target: [placeOverride.collectionId, placeOverride.placeId],
+            set: { ...next, updatedAt: now, updatedBy: p.proposedBy },
+          }),
+    db
+      .update(proposal)
+      .set({
+        status: "approved",
+        reviewedBy: reviewerId,
+        reviewNote,
+        reviewedAt: now,
+      })
+      .where(eq(proposal.id, p.id)),
+  ]);
   return placeId;
 };
 
@@ -387,7 +496,10 @@ const applyAny = async (
         routeId: await applyRouteProposal(db, p, reviewerId, reviewNote),
       }
     : {
-        placeId: await applyProposal(db, p, reviewerId, reviewNote),
+        placeId:
+          p.subject === "override"
+            ? await applyOverrideProposal(db, p, reviewerId, reviewNote)
+            : await applyProposal(db, p, reviewerId, reviewNote),
         routeId: null,
       };
 
@@ -474,6 +586,7 @@ export const proposalRouter = router({
         placeId: target?.id ?? null,
         routeId: null,
         routeDraft: null,
+        overrideDraft: null,
         kind: input.kind,
         status: "pending",
         draft,
@@ -570,6 +683,7 @@ export const proposalRouter = router({
         status: "pending",
         draft: null,
         routeDraft,
+        overrideDraft: null,
         note: input.note,
         baseRevision: target?.revision ?? null,
         proposedBy: ctx.profile.id,
@@ -591,6 +705,135 @@ export const proposalRouter = router({
       return { id: row.id, status: "pending" as const, routeId: row.routeId };
     }),
 
+  /**
+   * Suggest a view map's own values for one of its places (custom fields,
+   * category): `attributes` and `category` are what the map should show
+   * (null: no value there; category null: the home one), merged onto the
+   * current override unless `reset`. Keys equal to the home values are not
+   * stored. Goes through the view map's queue, with its permissions;
+   * moderators+ publish immediately.
+   */
+  createOverride: authedProcedure
+    .input(
+      z.object({
+        collectionId: idSchema,
+        placeId: idSchema,
+        attributes: overrideAttributesSchema.optional(),
+        category: z.string().min(1).max(32).nullable().optional(),
+        revert: z.array(z.string().min(1).max(32)).max(50).optional(),
+        reset: z.boolean().optional(),
+        note: z.string().trim().max(1000).nullable(),
+        /** Only work out the override (`status` "would-update"); write nothing. */
+        dryRun: z.boolean().optional(),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const access = await requireCap(
+        ctx.db,
+        input.collectionId,
+        ctx.profile,
+        "propose",
+      );
+      const map = access.collection;
+      if (!map.view)
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message:
+            "Only view maps have their own values: edit the place itself on its home map",
+        });
+      const target = await ctx.db.query.place.findFirst({
+        where: eq(place.id, input.placeId),
+      });
+      if (
+        target?.status !== "published" ||
+        target.collectionId !== map.view.source
+      )
+        throw new TRPCError({
+          code: "NOT_FOUND",
+          message: "Place not found on this map's source",
+        });
+      const shape = await shapeOf(ctx.db, map);
+      if (
+        input.category &&
+        !shape.categories.some((c) => c.key === input.category)
+      )
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: "Unknown category",
+        });
+      const known = new Set([...shape.fields.map((f) => f.key), "category"]);
+      const unknown = [
+        ...Object.keys(input.attributes ?? {}),
+        ...(input.revert ?? []),
+      ].filter((k) => !known.has(k));
+      if (unknown.length > 0)
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: `Not fields of this map: ${[...new Set(unknown)].join(", ")}`,
+        });
+      const current = (await overridesOf(ctx.db, map, [target.id])).get(
+        target.id,
+      );
+      const next = patchOverride(target, current, input);
+      // Values are checked as the map will show them; "required" is the
+      // home map's business (a view's own fields start out empty).
+      const issues = attributeIssues(
+        shape.fields.map((f) => ({ ...f, required: false })),
+        withOverride(target, next).attributes,
+      );
+      if (issues.length > 0)
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: `Invalid fields: ${issues.map((i) => `${i.key} ${i.message}`).join("; ")}`,
+        });
+      const unchanged = stableJson(next) === stableJson(current ?? NO_OVERRIDE);
+      if (unchanged || input.dryRun)
+        return {
+          id: null,
+          status: unchanged
+            ? ("unchanged" as const)
+            : ("would-update" as const),
+          placeId: target.id,
+          override: next,
+        };
+
+      const row: Proposal = {
+        id: createId(),
+        collectionId: map.id,
+        subject: "override",
+        placeId: target.id,
+        routeId: null,
+        draft: null,
+        routeDraft: null,
+        overrideDraft: next,
+        kind: "edit",
+        status: "pending",
+        note: input.note,
+        baseRevision: target.revision,
+        proposedBy: ctx.profile.id,
+        reviewedBy: null,
+        reviewNote: null,
+        createdAt: new Date(),
+        reviewedAt: null,
+      };
+      await ctx.db.insert(proposal).values(row);
+      if (access.can.review) {
+        await applyOverrideProposal(ctx.db, row, ctx.profile.id, null);
+        return {
+          id: row.id,
+          status: "approved" as const,
+          placeId: target.id,
+          override: next,
+        };
+      }
+      return {
+        id: row.id,
+        status: "pending" as const,
+        placeId: target.id,
+        override: next,
+      };
+    }),
+
   /** Moderation queue (or history) for a collection. */
   queue: authedProcedure
     .input(
@@ -603,7 +846,7 @@ export const proposalRouter = router({
       await requireCap(ctx.db, input.collectionId, ctx.profile, "review");
       const pendingOnly =
         input.statuses.length === 1 && input.statuses[0] === "pending";
-      return ctx.db.query.proposal.findMany({
+      const rows = await ctx.db.query.proposal.findMany({
         where: and(
           eq(proposal.collectionId, input.collectionId),
           inArray(proposal.status, input.statuses),
@@ -619,6 +862,25 @@ export const proposalRouter = router({
           : desc(proposal.reviewedAt),
         limit: 100,
       });
+      // Override proposals are reviewed against the map's current values.
+      const overrideIds = rows.flatMap((p) =>
+        p.subject === "override" && p.placeId ? [p.placeId] : [],
+      );
+      const overrides =
+        overrideIds.length > 0
+          ? await overridesOf(
+              ctx.db,
+              await loadViewMap(ctx.db, input.collectionId),
+            )
+          : new Map<string, OverrideDraft>();
+      return rows.map((p) => ({
+        ...p,
+        /** Override proposals: the map's override as it is now. */
+        currentOverride:
+          p.subject === "override" && p.placeId
+            ? (overrides.get(p.placeId) ?? NO_OVERRIDE)
+            : null,
+      }));
     }),
 
   /** The viewer's own proposals on a collection, newest first. */

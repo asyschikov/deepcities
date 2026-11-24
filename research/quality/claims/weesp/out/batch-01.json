@@ -1,0 +1,776 @@
+[
+ {
+  "id": "jbaclwe3lo7b4vq88pxw8vxv",
+  "title": "Drosthagen, Middenstraat 9-11",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the back stones are not visible from the street",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source says whether the back-wall stones can be seen from the street."
+   },
+   {
+    "field": "nl.body",
+    "old": "de stenen in de achtergevel zijn vanaf de straat niet te zien",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "Same claim, Dutch side."
+   },
+   {
+    "field": "nl.body",
+    "old": "two sentences sharing 8+ word runs with DBNL and the RCE register",
+    "new": "rewritten fresh in Dutch, same facts",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php ; https://monumentenregister.cultureelerfgoed.nl/monumenten/38556",
+    "evidence": "Copied-Dutch fix; facts unchanged (thirty distilleries, ten mills, three virtue stones, \"In de gemeste Os\", 1665, 1885)."
+   }
+  ],
+  "patch": {
+   "body": "In the 17th and 18th centuries Weesp lived on *brandewijn* and genever: some thirty distilleries and about ten mills worked for the trade. This double house on the Middenstraat, called Drosthagen, housed one of them around 1700, owned by the notary Cornelis Drosthagen, who also has a street named after him.\n\nThe linked spout gables date from 1665, as a gable stone records. In 1885 they were rebuilt, but three 18th-century carved stones were put back: Faith, Hope and Love (*Geloof, Hoop en Liefde*), the three Christian virtues. In the back wall are two more stones, one inscribed *In de gemeste Os* (\"In the fattened ox\").\n\nIt is a private house.\n\nLook for:\n- the three virtue stones in the twin gables\n- the gable stone with the date",
+   "translations": {
+    "nl": {
+     "body": "Weesp dreef in de 17e en 18e eeuw op brandewijn: het stoken verdrong bier en laken als belangrijkste nijverheid, en met ruim dertig branderijen en een tiental molens werd de stad er in de 18e eeuw rijk van. Het dubbele huis \"Drosthagen\" aan de Middenstraat was rond 1700 een jeneverstokerij. Eigenaar was Cornelis van Drosthagen, een rijke notaris, procureur en jeneverstoker, naar wie ook een straat in Weesp is genoemd.\n\nIn de twee aan elkaar gebouwde topgevels zitten drie 18e-eeuwse gebeeldhouwde stenen: Geloof, Hoop en Liefde. De achtergevel heeft nog twee stenen; op een ervan staat \"In de gemeste Os\". Een gevelsteen dateert de tuitgevels op 1665; in 1885 zijn ze vernieuwd, waarbij de drie stenen bleven zitten.\n\nHet is een woonhuis.\n\nLet op:\n- de drie gebeeldhouwde stenen Geloof, Hoop en Liefde\n- de gevelsteen met het jaartal"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "i00r4vpi248xt0txmyv2mk55",
+  "title": "Former waterworks house, Provincialeweg 16",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "seepage water from the Vecht lakes into drinking water for half of Amsterdam",
+    "new": "seepage water from the Bethunepolder into drinking water for Amsterdam east of the Amstel",
+    "kind": "narrowed",
+    "source": "https://kivi.nl/en/communities/regional-divisions/north-west/activities/company-visit-water-network-drinking-water-treatment-plant-lead-garden ; https://nl.wikipedia.org/wiki/Bethunepolder",
+    "evidence": "KIVI: \"east of the Amstel, the water comes from the Bethunepolder and is purified in the Waterleidingplas and the purification plant in Weesperkarspel\"; nl.wikipedia Bethunepolder gives about a third of Amsterdam's need, not half."
+   },
+   {
+    "field": "body",
+    "old": "just west of Driemond ... at the gate of a large, fenced water plant",
+    "new": "near Driemond ... beside the Weesperkarspel water plant",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Waterleidingplas",
+    "evidence": "\"productiebedrijf Weesperkarspel bij Driemond\"; no source for \"just west\", \"gate\" or \"fenced\"."
+   },
+   {
+    "field": "body",
+    "old": "Most taps east of the Amstel get their water from here.",
+    "new": "Amsterdam east of the Amstel gets its drinking water from here.",
+    "kind": "sourced",
+    "source": "https://kivi.nl/en/communities/regional-divisions/north-west/activities/company-visit-water-network-drinking-water-treatment-plant-lead-garden",
+    "evidence": "\"east of the Amstel, the water comes from the Bethunepolder and is purified in ... Weesperkarspel\""
+   },
+   {
+    "field": "body",
+    "old": "The plant itself is closed to the public",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source on public access to the plant."
+   },
+   {
+    "field": "body",
+    "old": "Look for: position at the entrance, facing the Gaasp and the road; the solar park on the plant grounds",
+    "new": "Look for: the house of 1901 beside the Weesperkarspel water plant",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source for the entrance position, the view of the Gaasp, or a solar park."
+   },
+   {
+    "field": "nl.summary",
+    "old": "waar nog altijd drinkwater voor Amsterdam wordt gemaakt",
+    "new": "dat nog altijd kwelwater uit de Bethunepolder tot drinkwater maakt voor Amsterdam ten oosten van de Amstel",
+    "kind": "narrowed",
+    "source": "https://kivi.nl/en/communities/regional-divisions/north-west/activities/company-visit-water-network-drinking-water-treatment-plant-lead-garden",
+    "evidence": "Kept in step with the EN summary."
+   },
+   {
+    "field": "nl.body",
+    "old": "net ten westen van Driemond; ingang/Gaasp look-for; \"Het terrein en het huis zijn niet openbaar\"",
+    "new": "bij Driemond; look-for reduced to the house; only \"Het huis is een particuliere woning\"",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Waterleidingplas",
+    "evidence": "Same narrowing as EN."
+   },
+   {
+    "field": "nl.body",
+    "old": "two sentences copied from nl.wikipedia Bethunepolder",
+    "new": "rewritten fresh in Dutch, plus the two-works and east-of-the-Amstel facts the EN already had",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Bethunepolder ; https://kivi.nl/en/communities/regional-divisions/north-west/activities/company-visit-water-network-drinking-water-treatment-plant-lead-garden",
+    "evidence": "Copied-Dutch fix; Maarssen, Loenderveen, about 100 days from nl.wikipedia; two works and east of the Amstel from KIVI."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Wordt gemeentelijk monument.",
+    "new": "Aanwijzing tot gemeentelijk monument loopt.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/adf0a433-f334-4003-a442-556292693245",
+    "evidence": "Verification fix: status is \"In procedure Gemeentelijk Monument\"; \"Wordt gemeentelijk monument\" stated the outcome as certain."
+   }
+  ],
+  "patch": {
+   "summary": "A 1901 service house of Amsterdam's municipal waterworks at the Weesperkarspel pumping station, beside the plant that still turns seepage water from the Bethunepolder into drinking water for Amsterdam east of the Amstel. Being listed now.",
+   "body": "On the Provincialeweg near Driemond, a house of 1901 stands beside the Weesperkarspel water plant. The city register calls it the former *dienstwoning* (service house, where a staff member lived on site) of the Gemeente Waterleidingen Amsterdam at the Weesperkarspel pumping station. Amsterdam started the procedure to make it a municipal monument; it is not yet listed.\n\nThe plant next to it is still one of Amsterdam's two drinking-water works. Seepage water collected in the Bethunepolder near Maarssen flows to the Waterleidingplas at Loenderveen, cleans itself there for about 100 days, and is then piped to Weesperkarspel for final treatment. Amsterdam east of the Amstel gets its drinking water from here. The house is private.\n\nLook for:\n- the house of 1901 beside the Weesperkarspel water plant",
+   "translations": {
+    "nl": {
+     "summary": "Voormalige dienstwoning (1901) van Gemeente Waterleidingen Amsterdam bij pompstation Weesperkarspel, naast het bedrijf dat nog altijd kwelwater uit de Bethunepolder zuivert tot drinkwater voor Amsterdam ten oosten van de Amstel. Aanwijzing tot gemeentelijk monument loopt.",
+     "body": "Aan de Provincialeweg bij Driemond staat de voormalige dienstwoning van Gemeente Waterleidingen Amsterdam, Pompstation Weesperkarspel. Het huis dateert uit 1901. De aanwijzing tot gemeentelijk monument is in procedure.\n\nHet terrein ernaast is nog altijd in gebruik als productiebedrijf Weesperkarspel, een van de twee drinkwaterbedrijven van Amsterdam. Kwelwater uit de Bethunepolder bij Maarssen stroomt door het Waterleidingkanaal naar de Waterleidingplas bij Loenderveen. Daar zuivert het zich ongeveer 100 dagen lang, waarna het naar Weesperkarspel gaat voor de laatste zuivering. Amsterdam ten oosten van de Amstel krijgt hier zijn drinkwater vandaan. Het huis is een particuliere woning.\n\nLet op:\n- het huis uit 1901 naast het waterleidingterrein Weesperkarspel"
+    }
+   }
+  },
+  "sources_add": [
+   "https://kivi.nl/en/communities/regional-divisions/north-west/activities/company-visit-water-network-drinking-water-treatment-plant-lead-garden"
+  ]
+ },
+ {
+  "id": "c4xruaeu78hpbgc0v72qjeo9",
+  "title": "Former cantor's house, Sleutelsteeg",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "for the last people who lived here",
+    "new": "for the cantor, his wife and their lodger, forced out in 1942",
+    "kind": "narrowed",
+    "source": "https://www.joodsmonument.nl/nl/page/120608/samuel-van-der-hal ; https://www.joodsmonument.nl/nl/page/120606/hartog-goldstein",
+    "evidence": "Joods Monument: Samuel and Rieka van der Hal and lodger Hartog Goldstein lived at Sleutelsteeg 3; \"gedwongen uit Weesp naar Amsterdam te verhuizen op 29 april 1942\". Nothing says they were the last residents."
+   },
+   {
+    "field": "nl.summary",
+    "old": "voor de laatste bewoners",
+    "new": "voor de voorzanger, zijn vrouw en hun kostganger, die hier tot 1942 woonden",
+    "kind": "narrowed",
+    "source": "https://www.joodsmonument.nl/nl/page/120608/samuel-van-der-hal",
+    "evidence": "Same as EN."
+   },
+   {
+    "field": "nl.body",
+    "old": "two sentences copied from the RCE register and Joods Monument",
+    "new": "rewritten fresh in Dutch, same facts",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38620 ; https://www.joodsmonument.nl/nl/page/120608/samuel-van-der-hal",
+    "evidence": "Copied-Dutch fix."
+   },
+   {
+    "field": "nl.body",
+    "old": "(EN-only fact)",
+    "new": "Bij de ingang zat een steen met zowel 1878 als het joodse jaartal 5638.",
+    "kind": "sourced",
+    "source": "https://dutchjewry.org/drieluik/weesp/weesp.shtml",
+    "evidence": "Verification fix (EN/NL parity): \"a front stone installed on which mentioned the year 1878 and on top of this 5638 - according to the Jewish year\". The EN body already had it."
+   }
+  ],
+  "patch": {
+   "summary": "A small house of 1878 in an alley off the Nieuwstraat, built by the synagogue council for the cantor of Weesp's Jewish community. Three Stolpersteine lie at its door for the cantor, his wife and their lodger, forced out in 1942.",
+   "translations": {
+    "nl": {
+     "summary": "Een klein huis uit 1878 in een steeg bij de Nieuwstraat, gebouwd door het synagogebestuur voor de voorzanger van de Joodse gemeente van Weesp. Bij de deur liggen drie Stolpersteine voor de voorzanger, zijn vrouw en hun kostganger, die hier tot 1942 woonden.",
+     "body": "Pand met verdieping en houten kroonlijst, 1878. Het rijksmonumentenregister spreekt van een voormalig rabbihuis en noemt het belangrijk voor de cultuurgeschiedenis van de Joodse bevolkingsgroep. De kleine Joodse gemeente van Weesp had geen eigen rabbijn; de voorzanger ging voor in de diensten en was in de praktijk het hoofd van de gemeente. Voor hem kocht het synagogebestuur grond in de Sleutelsteeg, genoemd naar de vroegere brouwerij De Sleutel, vlak bij de synagoge aan de Nieuwstraat. Bij de ingang zat een steen met zowel 1878 als het joodse jaartal 5638.\n\nOp 29 januari 1926 kwam Samuel van der Hal met zijn vrouw Rieka en hun kinderen naar Weesp om daar voorzanger te worden; zij woonden in de ambtswoning Sleutelsteeg 3. Bij hen woonde Hartog Goldstein in, die opzichter bij een voddenfabriek was geweest. Op 29 april 1942 moest het gezin Weesp verlaten en gedwongen naar Amsterdam verhuizen. Hartog Goldstein werd op 10 maart 1943 op transport gesteld naar Sobibor en daar vermoord. Samuel en Rieka van der Hal werden op 31 augustus 1943 uit Westerbork gedeporteerd en kort daarna vermoord. Van de 65 Joodse inwoners van Weesp keerden er zeven terug.\n\nHet huis is een woonhuis.\n\nLet op:\n- de drie Stolpersteine voor nummer 3\n- de houten kroonlijst en de sobere gevel uit 1878"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "c5sm639qo9xg67qkn1l7g3at",
+  "title": "De Melkkoe gable stone, Dammerweg 10",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Most farm names along the Vecht are painted on a board; this one is carved in stone.",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source for a general practice of painted name boards."
+   },
+   {
+    "field": "summary/body",
+    "old": "a cow and the words / with a cow in relief / a proud sign for a dairy farm",
+    "new": "inscribed \"de melkkoe 1747\"",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38498 ; https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "RCE: \"Fraaie gevelsteen \\\"de melkkoe 1747\\\"\"; DBNL: \"gevelsteen met de tekst 'De Melkkoe 1747'\". Neither mentions a cow relief or a dairy farm."
+   },
+   {
+    "field": "summary/body",
+    "old": "near Uitermeer / the dike road along the east bank of the Vecht, close to Fort Uitermeer",
+    "new": "on the east side of the Vecht / the road along the east side of the Vecht",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_straten_in_Weesp",
+    "evidence": "Lijst van straten in Weesp: Dammerweg \"gelegen aan de oostzijde van de Vecht\". No source places it near Fort Uitermeer or calls it a dike road."
+   },
+   {
+    "field": "body",
+    "old": "an entrance gate between brick piers; Look for: cellar windows across the full width; the gate with brick piers",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "RCE and DBNL mention a full-width cellar but no cellar windows, gate or piers."
+   },
+   {
+    "field": "attributes.original_use",
+    "old": "Dairy farm / Melkveehouderij",
+    "new": "Farm / Boerderij",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38498",
+    "evidence": "RCE function: \"Boerderij (M)\"."
+   },
+   {
+    "field": "nl.body",
+    "old": "\"Boerderij, dwarshuis, 19e eeuw, mogelijk oudere delen aanwezig\" copied from RCE; koe, Uitermeer, hek",
+    "new": "rewritten fresh; same narrowing as EN",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38498",
+    "evidence": "Copied-Dutch fix."
+   }
+  ],
+  "patch": {
+   "summary": "A 19th-century farm on the east side of the Vecht with a gable stone reused from its predecessor, inscribed \"de melkkoe 1747\" (the milk cow).",
+   "body": "The farm at Dammerweg 10 is a *dwarshuis* farm of around 1860; its house has a cellar under its full width, and there may be older parts inside. Set into it is a gable stone reused from the farm that stood here before, inscribed \"de melkkoe 1747\" (the milk cow).\n\nThe farm lies on the Dammerweg, the road along the east side of the Vecht.\n\nLook for:\n- the gable stone \"de melkkoe 1747\"",
+   "attributes": {
+    "original_use": "Farm"
+   },
+   "translations": {
+    "nl": {
+     "summary": "Negentiende-eeuwse boerderij aan de oostkant van de Vecht met een gevelsteen \"de melkkoe 1747\", hergebruikt van een voorganger.",
+     "body": "Dammerweg 10 is een dwarshuisboerderij uit de 19e eeuw (circa 1860), waarin mogelijk nog oudere delen zitten. Onder het woonhuis ligt over de volle breedte een kelder. In de gevel zit een gevelsteen \"de melkkoe 1747\", die van een eerdere boerderij is overgenomen.\n\nDe boerderij ligt aan de Dammerweg, aan de oostkant van de Vecht.\n\nLet op:\n- de gevelsteen \"de melkkoe 1747\"",
+     "attributes": {
+      "original_use": "Boerderij"
+     }
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Lijst_van_straten_in_Weesp"
+  ]
+ },
+ {
+  "id": "rumqw5772ox0ypkyrgnx9gro",
+  "title": "Hoogstraat, Vecht end (nos. 1–30)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Deep houses and warehouses stood close to the river traffic that ran from the Vecht through the Smal Weesp to Amsterdam.",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "Not in DBNL, the RCE or city register texts, or tgooi.info."
+   },
+   {
+    "field": "body",
+    "old": "Many fronts were modernised around 1900 ... the structures behind are often 17th century",
+    "new": "Several houses got a new front around 1900, some with T-shaped sash windows, while older structures survive behind",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/784496ad-97af-484f-a6de-ee191de9c67a",
+    "evidence": "City register gives this for nos. 25, 27 and 30 only (e.g. no. 30: \"Achter de voorgevel uit ca 1890 bevindt zich een oudere 17e eeuwse structuur\"); \"many\" and \"often\" are not supported."
+   },
+   {
+    "field": "body",
+    "old": "Hoogstraat 26: a stoop with an 18th-century railing of hardstone posts",
+    "new": "a stoop with a railing of hardstone and wrought-iron bars, probably 18th century",
+    "kind": "narrowed",
+    "source": "city register 450077003 (Hoogstraat 26)",
+    "evidence": "\"Stoep met treden en fraai hek, dit geheel vervaardigd uit hardsteen en smeedijzeren staven, en denkelijk XVIII\"."
+   },
+   {
+    "field": "body",
+    "old": "the dormer carved with the arms of Weesp",
+    "new": "the richly detailed dormer showing the arms of Weesp",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/784496ad-97af-484f-a6de-ee191de9c67a",
+    "evidence": "\"rijk gedetailleerde dakkapel, waarin het wapen van Weesp is afgebeeld\"; \"carved\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "Hier stonden diepe huizen en pakhuizen, dicht bij het vaarverkeer ...",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "Same as EN."
+   },
+   {
+    "field": "nl.body",
+    "old": "Veel gevels ... daarachter zit vaak een oudere kern; copied runs (sluis bij de monding van de Smal Weesp; dakkapel waarin het wapen ...)",
+    "new": "Een aantal huizen ... soms met T-vensters; rewritten fresh",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Copied-Dutch fix plus the same narrowing as EN."
+   },
+   {
+    "field": "body / nl.body",
+    "old": "(cut) Deep houses and warehouses stood close to the river traffic that ran from the Vecht through the Smal Weesp to Amsterdam.",
+    "new": "River traffic from the Vecht to Amsterdam went by way of the Smal Weesp. / Het vaarverkeer van de Vecht naar Amsterdam ging via de Smal Weesp.",
+    "kind": "sourced",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Verification restore: \"De doorvaart van de Vecht via de Smal-Weesp en de Gaasp naar Amsterdam werd in de 15de eeuw belangrijk.\" The deep houses and warehouses part stays cut."
+   },
+   {
+    "field": "nl.body",
+    "old": "sluiswachtershuis ... uit het begin van de 19e eeuw",
+    "new": "uit de eerste helft van de 19e eeuw",
+    "kind": "narrowed",
+    "source": "rce:38516 ; https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Verification fix (EN/NL parity): RCE \"aanvang 19e eeuw\", DBNL \"circa 1840\"; EN already says first half of the 19th century."
+   }
+  ],
+  "patch": {
+   "body": "Weesp began here. The first houses rose on the inner side of the Vecht dike, and the Hoogstraat still follows that dike southwards from the lock at the mouth of the Smal Weesp. River traffic from the Vecht to Amsterdam went by way of the Smal Weesp.\n\nThe north end opens with the low, white lock-keeper's house (Hoogstraat 1-2) by the lock between the Smal Weesp and the Vecht, from the first half of the 19th century. Further on, Hoogstraat 22 and 22a are a pair of 17th-century warehouses with linked, truncated gables and a hoisting bay; this ensemble is pinned on them. Several houses got a new front around 1900, some with T-shaped sash windows, while older structures survive behind: no. 27 has early 17th-century beams behind a brick front of about 1900. Two houses with their own story stand in this stretch and have their own places: the former meat hall (nos. 11-12) and the former town hall of Weesperkarspel (no. 24).\n\nLook for:\n- Hoogstraat 9-10: 17th-century lion masks and arches over the windows\n- Hoogstraat 17: a warehouse with a gable front\n- Hoogstraat 19: a gable with volutes (18th century)\n- Hoogstraat 21: a plastered gable dated 1756, with lion masks\n- Hoogstraat 22-22a: the twin 17th-century warehouses\n- Hoogstraat 26: a stoop with a railing of hardstone and wrought-iron bars, probably 18th century\n- Hoogstraat 27: tile panels and plaster blocks in the arches over the windows, and another stoop railing\n- Hoogstraat 28-29: an 18th-century bell gable\n- Hoogstraat 30: the richly detailed dormer showing the arms of Weesp",
+   "translations": {
+    "nl": {
+     "body": "Weesp begon hier: de eerste huizen kwamen aan de binnenkant van de rivierdijk te staan, langs wat nu de Hoogstraat is. De straat loopt nog altijd over de Vechtdijk naar het zuiden, vanaf de sluis waar de Smal Weesp in de Vecht uitkomt. Het vaarverkeer van de Vecht naar Amsterdam ging via de Smal Weesp.\n\nAan het noordeinde staat het sluiswachtershuis (Hoogstraat 1-2): een lage woning onder mansardedak met een centrale schoorsteen, uit de eerste helft van de 19e eeuw, bij de sluis tussen Smal Weesp en Vecht. Hoogstraat 22 en 22a zijn pakhuizen met een afgeknotte topgevel uit de 17e eeuw; op deze twee staat de speld. Een aantal huizen kreeg rond 1900 een nieuwe voorgevel, soms met T-vensters, terwijl er een oudere kern achter bleef: bij nummer 27 verraden vorm en versiering van de balklagen dat het huis al vroeg in de 17e eeuw is gebouwd. De voormalige vleeshal (11-12) en het oude raadhuis van Weesperkarspel (24) hebben een eigen plek.\n\nLet op:\n- Hoogstraat 9-10: gevel met rechte kroonlijst, leeuwenmaskers en bogen boven de vensters\n- Hoogstraat 17: pakhuis met topgevel\n- Hoogstraat 19: topgevel met voluten, 18e eeuw\n- Hoogstraat 21: gepleisterde topgevel uit 1756 met leeuwenmaskers\n- Hoogstraat 22-22a: de twee 17e-eeuwse pakhuizen\n- Hoogstraat 26: stoep met treden en fraai hek van hardsteen en smeedijzeren staven, denkelijk 18e eeuw\n- Hoogstraat 27: gepleisterde blokken en tegelvlakken in de boogtrommels, en een stoephek in achttiende-eeuwse vormen\n- Hoogstraat 28-29: klokgevel, 18e eeuw\n- Hoogstraat 30: de rijk versierde dakkapel met het wapen van Weesp erin"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "orjl61u376rxl9dtcglxilra",
+  "title": "Gate \"Al voor een ander\", Oudegracht",
+  "changes": [
+   {
+    "field": "summary/body",
+    "old": "It leads to a passage behind the Oudegracht / leads to a passage behind the houses / opens onto the plot behind",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "RCE files it as an erfscheiding (property boundary); no source describes a passage or what lies behind."
+   },
+   {
+    "field": "summary",
+    "old": "a puzzling motto",
+    "new": "the motto",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38618",
+    "evidence": "Register gives the motto without comment."
+   },
+   {
+    "field": "body",
+    "old": "What the motto meant is not recorded.",
+    "new": "The register does not say what the motto means.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38618",
+    "evidence": "Register text: \"Poortje met gebeeldhouwde voorstelling en opschrift \\\"al voor een ander\\\". Anno 1710.\""
+   },
+   {
+    "field": "body",
+    "old": "a sandstone lintel",
+    "new": "a stone lintel",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:Weesp_-_Poortje_Oudegracht_39-41_RM38618.JPG",
+    "evidence": "Photo shows a stone lintel with ANNO, a relief of buildings, 1710, motto below and 39a on the door; no source names the stone."
+   },
+   {
+    "field": "nl.body",
+    "old": "gebouwtjes met trapgevels",
+    "new": "gebouwtjes",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:Weesp_-_Poortje_Oudegracht_39-41_RM38618.JPG",
+    "evidence": "Stepped gables are not stated and not clear in the photo."
+   },
+   {
+    "field": "attributes.original_use",
+    "old": "Gateway to a passage",
+    "new": "Gateway in a property boundary / Poortje in een erfscheiding",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38618",
+    "evidence": "RCE function: \"Erfscheiding(D)\"."
+   },
+   {
+    "field": "nl.body",
+    "old": "opening sentence copied from the RCE register",
+    "new": "rewritten fresh",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38618",
+    "evidence": "Copied-Dutch fix."
+   }
+  ],
+  "patch": {
+   "summary": "A plain door between two canal houses, crowned by a carved stone of 1710 with a little row of buildings and the motto \"Al voor een ander\" (All for another).",
+   "body": "Between Oudegracht 39 and 41 is a narrow doorway. Above it sits a stone lintel in three panels: *ANNO* on the left, *1710* on the right, and in the middle a small relief of a group of gabled buildings. Underneath runs the motto *AL VOOR EEN ANDER*, which can be read as \"all for another\" or \"all for someone else\".\n\nThe register does not say what the motto means. The door is numbered 39a. The gate and its stone are listed as a national monument in their own right, filed in the register under property boundaries. It is a small find on a walk along the Oudegracht: easy to miss, easy to photograph.\n\nLook for:\n- the relief of buildings between ANNO and 1710\n- the lettering of the motto under the panels",
+   "attributes": {
+    "original_use": "Gateway in a property boundary"
+   },
+   "translations": {
+    "nl": {
+     "summary": "Een poortje tussen twee grachtenhuizen met een gebeeldhouwde steen uit 1710: een voorstelling van gebouwtjes en het opschrift 'Al voor een ander'.",
+     "body": "Tussen Oudegracht 39 en 41 zit een smal poortje met daarboven een gebeeldhouwde steen uit 1710. De steen is in drie vakken verdeeld: links 'ANNO', rechts '1710' en in het midden een reliëf van een groepje gebouwtjes. Daaronder staat het opschrift 'AL VOOR EEN ANDER'.\n\nHet poortje is als rijksmonument ingeschreven onder de erfscheidingen. Op de deur staat het huisnummer 39a. Het register zegt niet wat het opschrift betekent.\n\nLet op:\n- het reliëf met gebouwtjes tussen 'ANNO' en '1710'\n- de letters van het opschrift onder de vakken",
+     "attributes": {
+      "original_use": "Poortje in een erfscheiding"
+     }
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "esgx2qegm8ybriuuds7suq5x",
+  "title": "Achtergracht",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Farmers, cattle keepers and ship's carpenters lived here among gardens and orchards",
+    "new": "Land registers name farmers, cattle keepers and ship's carpenters as owners of its houses",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/fe3a7dec-820d-4bc2-9fbb-68e1d7cb759c ; https://data.amsterdam.nl/monumenten/eb3163d6-adad-4fe5-8888-ffd1936b482e",
+    "evidence": "The gardens and orchards are on the map of about 1649; the owners are from 1832 onwards, so they did not live \"among\" them. Only the Schep carpenters are recorded as living there (\"hier wonend\")."
+   },
+   {
+    "field": "body",
+    "old": "In 1961 it was filled in.",
+    "new": "(kept)",
+    "kind": "sourced",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "\"In de stadskern heeft men in 1961 de Achtergracht gedempt.\""
+   },
+   {
+    "field": "body",
+    "old": "on the map of about 1649 ... gardens and orchards; decision to dig in 1651",
+    "new": "(kept)",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/8761f420-27cd-4e50-a4a3-b8a042e844d6 ; https://data.amsterdam.nl/monumenten/fe3a7dec-820d-4bc2-9fbb-68e1d7cb759c",
+    "evidence": "\"Aan de Achtergracht zijn dan met name tuinen en boomgaarden te vinden\"; \"1651, het jaar waarin het besluit wordt genomen de Achtergracht te graven\"."
+   },
+   {
+    "field": "body",
+    "old": "along the Nieuwstad and the Achtergracht",
+    "new": "with the Achtergracht",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/8761f420-27cd-4e50-a4a3-b8a042e844d6 ; https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "\"In 1613 werd Weesp aan de westzijde uitgebreid\"; DBNL \"1613 (Achtergracht)\". Nieuwstad is not named."
+   },
+   {
+    "field": "body",
+    "old": "then to his sons Jan and Hermanus",
+    "new": "then to Jan and Hermanus Schep",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/fe3a7dec-820d-4bc2-9fbb-68e1d7cb759c",
+    "evidence": "Register lists \"Jan en Hermanus Schep, scheepstimmerlieden, hier wonend\" with no family relation stated."
+   },
+   {
+    "field": "body",
+    "old": "in the hands of cattle keepers (the Van Maanen family ...), but described as house, yard and stable, not as a farm",
+    "new": "farmer Hendrik van Maanen, then cattle keepers ...; houses and a stable, later house and yard; research concludes no farm",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eb3163d6-adad-4fe5-8888-ffd1936b482e",
+    "evidence": "\"A 730 (huis), A 729 (huis) en A 728 (stalling)\"; \"Hendrik van Maanen, boer te Weesp\"; \"waarna het staat omschreven als huis en erf\"; \"Uit dit kadastrale onderzoek blijkt dat hier geen boerderij was gevestigd\"."
+   },
+   {
+    "field": "body",
+    "old": "Nos. 78–82 share one roof and one cornice",
+    "new": "Nos. 78–82 share one hipped roof",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38479 ; https://monumentenregister.cultureelerfgoed.nl/monumenten/38480",
+    "evidence": "Register: one schilddak over 78, 80 and 82; each has its own lijstgevel, no shared cornice stated."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Hier woonden boeren ... tussen tuinen en boomgaarden",
+    "new": "Het kadaster noemt boeren, veehouders en scheepstimmerlieden als eigenaars",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/fe3a7dec-820d-4bc2-9fbb-68e1d7cb759c ; https://data.amsterdam.nl/monumenten/eb3163d6-adad-4fe5-8888-ffd1936b482e",
+    "evidence": "Same as EN."
+   },
+   {
+    "field": "nl.body",
+    "old": "copied runs (Van Maanen sentence; \"Uit dit kadastrale onderzoek blijkt ...\"); \"met gepleisterde lijstgevels\" for 78–82",
+    "new": "rewritten fresh; plastered fronts dropped (no. 82 not stated plastered)",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eb3163d6-adad-4fe5-8888-ffd1936b482e ; https://monumentenregister.cultureelerfgoed.nl/monumenten/38480",
+    "evidence": "Copied-Dutch fix plus the same narrowing as EN."
+   }
+  ],
+  "patch": {
+   "summary": "The back canal of the 1613 expansion, filled in in 1961. Land registers name farmers, cattle keepers and ship's carpenters as owners of its houses, with spout gables, nine-pane sashes and a door with almond-shaped panels.",
+   "body": "In 1613 Weesp was extended to the west, with the Achtergracht (Back Canal). Building went slowly: on the map of about 1649 there are mostly gardens and orchards along the Achtergracht, and the decision to dig the canal itself was only taken in 1651. In 1961 it was filled in.\n\nThe land registers show who lived here. The corner house at Singelstraat 2 / Achtergracht 48 belonged from at least 1832 to the farmer Jan Schep, then to Jan and Hermanus Schep, ship's carpenters who lived there, and later to cattle keepers and a building contractor. At Breedstraat 25 and Achtergracht 79–85 local tradition speaks of a town farm; the registers show the plots in the hands of the farmer Hendrik van Maanen and then of cattle keepers (Cornelis van Maanen, his widow Gerritje Achterberg, Pieter Ridder), described as houses and a stable, later as house and yard, and the research concludes there was no farm here.\n\nThe houses are simple, plastered or brick, with cornices or spout gables. No. 56 is 17th century, its stepped gable later cut back to a plain point. Nos. 78–82 share one hipped roof and date from the first half of the 19th century. Round the corner on the Groeneweg, nos. 2–6 are three 19th-century houses under mansard roofs with cut or scalloped bargeboards and finials.\n\nThe former Catholic hidden church at nos. 13–15 has its own entry.\n\nPinned on Achtergracht 56.\n\nLook for:\n- the cut-down stepped gable with a pilaster on a stone corbel and two decorative anchors, no. 56\n- the twelve-pane sashes with shutters and the door with almond and circle panels, corner house no. 50\n- the arched brick gateway beside no. 61\n- the pilaster window surrounds and the plaster cushion panels under the windows of no. 76\n- the tree-of-life fanlights of nos. 78–80 and Groeneweg 6\n- the scalloped bargeboards and cast-iron round window in the gable of Groeneweg 4",
+   "translations": {
+    "nl": {
+     "summary": "De achtergracht van de stadsuitbreiding van 1613, gedempt in 1961. Het kadaster noemt boeren, veehouders en scheepstimmerlieden als eigenaars van de huizen, met tuitgevels, negenruitsschuiframen en een paneeldeur met amandelvormige motieven.",
+     "body": "In 1613 werd Weesp aan de westzijde uitgebreid. Het nieuwe stuk stad liep maar langzaam vol: op een kaart van rond 1649 liggen aan de Achtergracht vooral tuinen en boomgaarden, en pas in 1651 besloot men de gracht te graven. In 1961 werd hij gedempt.\n\nHet kadaster vertelt wie hier woonde. Het hoekpand Singelstraat 2 / Achtergracht 48 was in elk geval vanaf 1832 van Jan Schep, boer, daarna van Jan en Hermanus Schep, scheepstimmerlieden, hier wonend, en later van veehouders en aannemer Van Kooten. Breedstraat 25 en Achtergracht 79–85 stonden vanaf 1832 op naam van Hendrik van Maanen, die in Weesp boer was, en gingen daarna over op veehouders: Cornelis van Maanen, zijn weduwe Gerritje Achterberg en Pieter Ridder. In Weesp gaat het verhaal dat hier een stadsboerderij was, maar het kadaster spreekt van huizen en een stalling, later van huis en erf, en het onderzoek concludeert dat er geen boerderij zat.\n\nAchtergracht 56 stamt uit de 17e eeuw; de trapgevel is later veranderd in een puntgevel met een rollaag. Achtergracht 78–82 staan samen onder één schilddak en zijn uit de eerste helft van de 19e eeuw. Om de hoek staan Groeneweg 2, 4 en 6: negentiende-eeuwse panden met kapverdieping onder mansardekap, met uitgezaagde of geschulpte windveren en makelaars.\n\nDe voormalige schuilkerk op Achtergracht 13–15 heeft een eigen plek.\n\nDe speld staat bij Achtergracht 56.\n\nLet op:\n- de gewijzigde trapgevel met toppilaster op natuurstenen console en twee sierankers, Achtergracht 56\n- de twaalfruits schuifvensters met luiken en de paneeldeur met amandelvormige en cirkelvormige paneelmotieven, Achtergracht 50\n- het getoogde gemetselde poortje naast Achtergracht 61\n- de pilasteromlijstingen en kussenpanelen onder de vensterbanken van Achtergracht 76\n- de bovenlichten met levensboom van Achtergracht 78–80 en Groeneweg 6\n- de geschulpte windveren en de gietijzeren oculus in de top van Groeneweg 4"
+    }
+   }
+  },
+  "sources_add": [
+   "https://data.amsterdam.nl/monumenten/fe3a7dec-820d-4bc2-9fbb-68e1d7cb759c",
+   "https://data.amsterdam.nl/monumenten/eb3163d6-adad-4fe5-8888-ffd1936b482e",
+   "https://data.amsterdam.nl/monumenten/8761f420-27cd-4e50-a4a3-b8a042e844d6"
+  ]
+ },
+ {
+  "id": "b06lfs8lzyqrbxo3w6frpfc0",
+  "title": "Hoogstraat, south (nos. 32–62)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The quieter half",
+    "new": "The southern half",
+    "kind": "narrowed",
+    "source": "",
+    "evidence": "No source compares the two halves."
+   },
+   {
+    "field": "summary",
+    "old": "a dated gable of 1675",
+    "new": "a gable stone dated 1675",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "\"Hoogstraat 33-34, met banderol-gevelsteen gedateerd '1675'\"."
+   },
+   {
+    "field": "summary",
+    "old": "a merchant's house clad in sandstone",
+    "new": "a town house clad in sandstone",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38528",
+    "evidence": "\"in de vorm van een voornaam herenhuis. De gevels bekleed met gefrijnde zandstenen platen\"; no merchant named."
+   },
+   {
+    "field": "summary",
+    "old": "a little tower house of 1911",
+    "new": "a little tower house of 1905-1911",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d985e7be-0ea3-411a-a2d5-7aed544fc753",
+    "evidence": "\"In 1905 gebouwd als huis met bovenhuis en in 1911 ... verbouwd tot één herenhuis\"."
+   },
+   {
+    "field": "body",
+    "old": "South of the Slijkstraat corner the Hoogstraat grows grander.",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38631",
+    "evidence": "No source; the Slijkstraat corner is Hoogstraat 5, in the north stretch."
+   },
+   {
+    "field": "body",
+    "old": "possibly by the Walenkamp family of architects",
+    "new": "possibly by the architect Walenkamp",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/8ffc1bda-451a-4893-aed6-e637398c1e54",
+    "evidence": "\"Het ontwerp voor de voorgevel zou afkomstig kunnen zijn van architect Walenkamp\" (on the basis of C.H. Walenkamp's Slijkstraat 21)."
+   },
+   {
+    "field": "body",
+    "old": "a slate-roofed corner tower",
+    "new": "a corner tower with a tented roof",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d985e7be-0ea3-411a-a2d5-7aed544fc753",
+    "evidence": "\"torentje met tentdak, vanouds gedekt met leien, thans met kunstleien\": the roof is now artificial slate."
+   },
+   {
+    "field": "body",
+    "old": "Further south, the Reformed church",
+    "new": "The Reformed church",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Stadsbrand_van_Weesp_(1968)",
+    "evidence": "Wikipedia confirms the Gereformeerde Kerk on the Hoogstraat burned on 3 April 1968; no source gives its position relative to this stretch."
+   },
+   {
+    "field": "nl.summary/nl.body",
+    "old": "rustiger helft; torenhuisje uit 1911; Ten zuiden van de hoek met de Slijkstraat wordt de Hoogstraat voornamer",
+    "new": "zuidelijke helft; 1905-1911; (cut)",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d985e7be-0ea3-411a-a2d5-7aed544fc753",
+    "evidence": "Same as EN."
+   },
+   {
+    "field": "nl.body",
+    "old": "two sentences copied from the city register (nos. 36 and 44)",
+    "new": "rewritten fresh in Dutch, same facts",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/8ffc1bda-451a-4893-aed6-e637398c1e54 ; https://data.amsterdam.nl/monumenten/d985e7be-0ea3-411a-a2d5-7aed544fc753",
+    "evidence": "Copied-Dutch fix."
+   },
+   {
+    "field": "nl.body",
+    "old": "een pand met topgevel met hardstenen gebeeldhouwde versieringen en guirlandes uit de 17e eeuw; Let op: de hardstenen guirlandes",
+    "new": "de klokgevel werd eind 18e eeuw vernieuwd, maar de zandstenen sierstukken en festoenen van rond 1670 bleven bewaard; Let op: de zandstenen festoenen in de klokgevel",
+    "kind": "sourced",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Verification fix (EN/NL parity): DBNL \"klokgevel eind 18de eeuw vernieuwd, maar met behoud van de oude zandstenen versieringen en festoenen (circa 1670)\", as the EN says. RCE 38531 says \"hardstenen\"; see note."
+   }
+  ],
+  "patch": {
+   "summary": "The southern half of Weesp's oldest street, with a gable stone dated 1675, a town house clad in sandstone, a little tower house of 1905-1911 and Stolpersteine for the Van Bergen family.",
+   "body": "On this stretch 17th-century gables stand next to 19th-century town houses with stoops and railings. The Hoogstraat ensemble is pinned on no. 47, where a late 18th-century bell gable kept the sandstone festoons of about 1670.\n\nNo. 35 was rebuilt around the middle of the 19th century as a stately house clad in tooled sandstone slabs, and its side house no. 36 got a front in an \"Old Dutch\" style with art nouveau details, possibly by the architect Walenkamp. No. 44, built in 1905 and turned into a single town house in 1911, has a corner tower with a tented roof and a half-timbered bay, a rare piece of Berlage-influenced design in Weesp. Inside no. 42-43 is a stucco ceiling of the four seasons. The Reformed church that stood on the Hoogstraat burned down in the town fire of April 1968.\n\nIn front of no. 38 lie five Stolpersteine for the Van Bergen family: Hartog Philippus van Bergen, Froukje van Bergen-Levie, and Sara, Flora and Meijer van Bergen. All five were deported and murdered in 1943 and 1944.\n\nLook for:\n- Hoogstraat 32: a wooden door surround and a shop window built out as a display case\n- Hoogstraat 33-34: a volute gable with a banderole stone dated 1675\n- Hoogstraat 35: the sandstone-clad front with a frieze of small square windows\n- Hoogstraat 36: the art nouveau door and front garden railing\n- Hoogstraat 38: a tall spout gable with hoist beam, and the Stolpersteine\n- Hoogstraat 44: the corner tower and half-timbered bay\n- Hoogstraat 47: the sandstone festoons on the bell gable\n- Hoogstraat 48: a carved door with Ionic quarter columns and four stoop posts with chains\n- Hoogstraat 60: a 17th-century gable\n- Hoogstraat 62 (Vita Nova): a cornice on carved consoles and a framed doorway",
+   "translations": {
+    "nl": {
+     "summary": "De zuidelijke helft van de oudste straat van Weesp, met een gevelsteen uit 1675, een herenhuis bekleed met zandsteen, een torenhuisje uit 1905-1911 en Stolpersteine voor de familie Van Bergen.",
+     "body": "Op dit stuk staan 17e-eeuwse topgevels naast 19e-eeuwse herenhuizen met stoep en stoephek. De speld staat bij nummer 47: de klokgevel werd eind 18e eeuw vernieuwd, maar de zandstenen sierstukken en festoenen van rond 1670 bleven bewaard.\n\nHoogstraat 35 is een pand uit de 18e eeuw waarvan het gedeelte aan de straat omstreeks het midden van de 19e eeuw is vernieuwd in de vorm van een voornaam herenhuis, met gevels bekleed met gefrijnde zandstenen platen. Het zijhuis nummer 36 kreeg een gevel die teruggrijpt op het \"Oudhollandse\" woonhuis en ook aan het werk van Berlage doet denken; het ontwerp zou afkomstig kunnen zijn van architect Walenkamp. Hoogstraat 44 kwam er in 1905 als benedenhuis met bovenwoning; in 1911 maakte H. Bletz er voor A.A. Knaap één herenhuis van, met op de linkerhoek een torentje met tentdak: een voor Weesp zeldzaam voorbeeld van de invloed van Berlage. In Hoogstraat 42-43 is een fraai stucplafond met de vier jaargetijden bewaard. De Gereformeerde Kerk aan de Hoogstraat ging verloren bij de stadsbrand van 3 april 1968.\n\nVoor Hoogstraat 38 liggen vijf Stolpersteine voor de familie Van Bergen: Hartog Philippus van Bergen, Froukje van Bergen-Levie, en Sara, Flora en Meijer van Bergen. Zij werden in 1943 en 1944 gedeporteerd en vermoord.\n\nLet op:\n- Hoogstraat 32: houten deuromlijsting, stoep en uitgebouwde vitrine van de winkel\n- Hoogstraat 33-34: topgevel met voluten en een gevelsteen met jaartal 1675\n- Hoogstraat 35: de zandstenen gevel met kroonlijst op voluutconsoles en vierkante venstertjes in het fries\n- Hoogstraat 36: de fraaie deur in art-nouveauvormen en het hek van de voortuin\n- Hoogstraat 38: tuitvormige voorgevel met zolderluiken en hijsbalk, en de Stolpersteine\n- Hoogstraat 44: het torentje en de erker in vakwerk\n- Hoogstraat 47: de zandstenen festoenen in de klokgevel\n- Hoogstraat 48: gesneden toegangsdeur met halfrond bovenlicht, Ionische kwartzuilen en vier stoeppalen met kettingen\n- Hoogstraat 60: topgevel uit de 17e eeuw\n- Hoogstraat 62: lijstgevel met fraaie deuromlijsting"
+    }
+   }
+  },
+  "sources_add": [
+   "https://data.amsterdam.nl/monumenten/8ffc1bda-451a-4893-aed6-e637398c1e54",
+   "https://data.amsterdam.nl/monumenten/d985e7be-0ea3-411a-a2d5-7aed544fc753"
+  ]
+ },
+ {
+  "id": "qsxir04yuu8twunxfatlt9gs",
+  "title": "House of 1754, Zandpad Driemond",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the village where the Gein, the Gaasp and the Smal Weesp meet",
+    "new": "(kept)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Driemond",
+    "evidence": "\"De naam Driemond heeft zijn oorsprong in de drie riviertjes die samenkomen bij het dorp: het Gein, de Gaasp en het Smal Weesp.\""
+   },
+   {
+    "field": "summary/body",
+    "old": "brick front gable / turns a brick gable to the front / wooden side walls behind the brick front",
+    "new": "brick gable / has a brick gable / wooden parts of the house beside the brick gable",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/46502",
+    "evidence": "Register: \"Ten dele houten huis met bakstenen puntgevel\"; it does not say the gable faces the front or which walls are wooden."
+   },
+   {
+    "field": "body",
+    "old": "Such jaartalankers were a common way to put a building year on a Dutch house",
+    "new": "(cut)",
+    "kind": "cut",
+    "source": "",
+    "evidence": "General claim with no source in the draft."
+   },
+   {
+    "field": "nl.body",
+    "old": "de houten delen achter de bakstenen voorgevel",
+    "new": "de houten delen van het huis naast de bakstenen puntgevel",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/46502",
+    "evidence": "Same as EN."
+   },
+   {
+    "field": "body / nl.body",
+    "old": "the wooden parts of the house beside the brick gable / naast de bakstenen puntgevel",
+    "new": "the wooden parts of the house / de houten delen van het huis",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/46502",
+    "evidence": "Verification fix: register says only \"Ten dele houten huis\"; \"beside the gable\" placed the wood without a source."
+   }
+  ],
+  "patch": {
+   "summary": "A partly wooden house in Driemond with a brick gable that ends in a little neck under a curved top, and iron wall anchors shaped into the year 1754.",
+   "body": "In Driemond, the village where the Gein, the Gaasp and the Smal Weesp meet, this partly wooden house on the Zandpad has a brick gable.\n\nThe gable ends in a small neck (*halsje*) under a curved coping. Its iron wall anchors, which tie the wall to the beams behind it, are shaped as the figures of the year 1754: *jaartalankers* (date anchors), which let you read the date from the street.\n\nIt is a private home.\n\nLook for:\n- the anchors spelling 1754\n- the curved top of the little neck gable\n- the wooden parts of the house",
+   "translations": {
+    "nl": {
+     "body": "Aan het Zandpad in Driemond staat een ten dele houten huis met een bakstenen puntgevel. De gevel is voorzien van een halsje onder gebogen afdekking en van jaartalankers, gedateerd 1754.\n\nHet is een particuliere woning.\n\nLet op:\n- de jaartalankers 1754\n- het halsje onder de gebogen afdekking\n- de houten delen van het huis"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Driemond"
+  ]
+ },
+ {
+  "id": "jwhfbm9svse179z4y0dpdiag",
+  "title": "Huize America and Vechtzicht",
+  "changes": [
+   {
+    "field": "body",
+    "old": "follows the Vecht through open polder",
+    "new": "follows the winding Vecht on its dike",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_straten_in_Weesp",
+    "evidence": "Lijst van straten in Weesp: 's-Gravelandseweg \"volgt op de dijk het bochtige verloop van de Vecht naar het oosten\"; \"open polder\" is unsourced."
+   },
+   {
+    "field": "body",
+    "old": "has its working and living parts behind; America is its front house",
+    "new": "with its working and living parts ...; the register calls America its front house",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php ; https://monumentenregister.cultureelerfgoed.nl/monumenten/38500",
+    "evidence": "DBNL: \"boerderij ('s-Gravelandseweg 7) met bedrijfs- en woongedeelte dateert uit circa 1830\"; RCE: \"Voorhuis van het pand 's-Gravelandseweg 7\". Neither says the parts lie behind."
+   },
+   {
+    "field": "nl.body",
+    "old": "de hiertegenaan gebouwde boerderij uit circa 1830",
+    "new": "de hiertegenaan gebouwde boerderij met bedrijfs- en woongedeelte uit circa 1830",
+    "kind": "sourced",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Verification fix (EN/NL parity): DBNL \"boerderij ('s-Gravelandseweg 7) met bedrijfs- en woongedeelte dateert uit circa 1830\"; EN already says it."
+   }
+  ],
+  "patch": {
+   "body": "East of the town, the 's-Gravelandseweg follows the winding Vecht on its dike. Two of its houses were probably built in the 18th century as *buitenhuizen*, country retreats.\n\nHuize America, at no. 6, goes back to the 17th and 18th centuries. It is a white plastered L-shaped house whose main floor is raised above a souterrain, with a cellar below. A stoop with carved side pieces and iron railings leads to the door, and two dormers with cheek pieces sit in the roof. The farm at no. 7, with its working and living parts, was built against it around 1830; the register calls America its front house.\n\nFurther along, at no. 22, Vechtzicht (Vecht View) is a long house of the late 18th century with a broad, stately front under a straight cornice.\n\nBoth are private homes.\n\nPinned on Huize America.\n\nLook for:\n- the stoop with carved side pieces and iron railings, no. 6\n- the dormers with cheek pieces, no. 6\n- the raised main floor over the souterrain windows, no. 6\n- the broad front and straight cornice of Vechtzicht, no. 22",
+   "translations": {
+    "nl": {
+     "body": "Langs de Vecht ten oosten van Weesp staan aan de 's-Gravelandseweg twee panden die vermoedelijk als buitenhuis zijn gebouwd.\n\nHuize America ('s-Gravelandseweg 6) is een wit gepleisterd pand op L-vormige plattegrond, in oorsprong 17e- en 18e-eeuws. De hoofdverdieping ligt verhoogd boven een souterrain, met daaronder een kelderverdieping. Er is een stoeptrap met gebeeldhouwde zijstukken en ijzeren leuningen, en het dak heeft twee dakkapellen met wangstukken. Het is het voorhuis van het pand 's-Gravelandseweg 7, de hiertegenaan gebouwde boerderij met bedrijfs- en woongedeelte uit circa 1830.\n\nVechtzicht ('s-Gravelandseweg 22) is een langhuis met brede statige gevel en rechte kroonlijst, van het einde van de 18e eeuw.\n\nHet zijn particuliere woningen.\n\nDe speld staat bij Huize America.\n\nLet op:\n- de stoeptrap met gebeeldhouwde zijstukken en ijzeren leuningen van America\n- de dakkapellen met wangstukken\n- de verhoogde hoofdverdieping boven het souterrain\n- de brede gevel met rechte kroonlijst van Vechtzicht"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Lijst_van_straten_in_Weesp"
+  ]
+ },
+ {
+  "id": "r150e63k2xkzmc1o8452wdrx",
+  "title": "Toll and bridge-keeper's house, Ossenmarkt",
+  "changes": [
+   {
+    "field": "summary/body",
+    "old": "at the east end of the Lange Vechtbrug / carries traffic from the Hoogstraat across the Vecht",
+    "new": "by the Lange Vechtbrug / crosses the Vecht at the Ossenmarkt",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "\"De Lange Vechtbrug (Ossenmarkt ong.) is een vernieuwde dubbele houten ophaalbrug. Erbij staat het voorm. tol- en brugwachtershuis Ossenmarkt 1\"; no end or Hoogstraat link given."
+   },
+   {
+    "field": "body",
+    "old": "an unexpectedly grand front",
+    "new": "a grander front",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38615",
+    "evidence": "Register lists the round-arched window, risaliet, balustrade, attic and hardstone columns; \"unexpectedly\" is editorial."
+   },
+   {
+    "field": "body",
+    "old": "For some time the house also held a church.",
+    "new": "(kept)",
+    "kind": "sourced",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "\"Dit huis, waarin enige tijd ook een kerk was gevestigd, werd in 1732 gebouwd en rond 1840 vergroot.\""
+   },
+   {
+    "field": "body",
+    "old": "A few steps away on the island stands ... Fort Ossenmarkt",
+    "new": "Further along the Ossenmarkt, at no. 44, stands ... Fort Ossenmarkt",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "\"Op het Vechteiland verrees in 1859-'61 het Fort Ossenmarkt (Ossenmarkt 44) als een rond torenfort\"; distance and the toll house being on the island are not stated."
+   },
+   {
+    "field": "nl.summary/nl.body",
+    "old": "aan de oostkant van; tussen Hoogstraat en Ossenmarkt; Vlakbij",
+    "new": "bij; over de Vecht bij de Ossenmarkt; Verderop aan de Ossenmarkt, op nummer 44",
+    "kind": "narrowed",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Same as EN."
+   },
+   {
+    "field": "body / nl.body",
+    "old": "Further along the Ossenmarkt, at no. 44 / Verderop aan de Ossenmarkt, op nummer 44",
+    "new": "On the Vecht island, at Ossenmarkt 44 / Op het Vechteiland, op Ossenmarkt 44",
+    "kind": "sourced",
+    "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+    "evidence": "Verification fix: \"Further along\" was a new position claim. DBNL: \"Op het Vechteiland verrees in 1859-'61 het Fort Ossenmarkt (Ossenmarkt 44)\"."
+   }
+  ],
+  "patch": {
+   "summary": "The white house by the Lange Vechtbrug, built in 1732 to take tolls and work the bridge and enlarged around 1840, with a balustrade and stone Doric columns on its river side. For a time it also held a church.",
+   "body": "The Lange Vechtbrug, a renewed double wooden drawbridge, crosses the Vecht at the Ossenmarkt (Ox Market). Beside it stands the former toll and bridge-keeper's house, built in 1732 and enlarged around 1840, when three of its sides were renewed.\n\nIt is a white plastered brick building of one storey under a pantiled roof with hipped ends. On the river side it got a grander front: a large round-arched window, a projecting bay, a balustrade and attic, and bluestone Doric columns at the corners. A panelled door and sash windows with glazing bars complete it.\n\nFor some time the house also held a church. On the Vecht island, at Ossenmarkt 44, stands the round tower fort of 1859–1861, Fort Ossenmarkt.\n\nLook for:\n- the bluestone Doric columns at the corners\n- the large round-arched window and the projecting bay on the river side\n- the balustrade and attic along the roof\n- the panelled door and the sashes with glazing bars",
+   "translations": {
+    "nl": {
+     "summary": "Het witte huis bij de Lange Vechtbrug, gebouwd in 1732 en rond 1840 vergroot, met aan de rivierzijde een groot rondboogvenster, balustrade en hardstenen zuilen op de hoeken. Enige tijd was er ook een kerk gevestigd.",
+     "body": "De Lange Vechtbrug is een vernieuwde dubbele houten ophaalbrug over de Vecht bij de Ossenmarkt. Erbij staat het voormalige tol- en brugwachtershuis Ossenmarkt 1, in 1732 gebouwd en rond 1840 vergroot.\n\nHet is een witgepleisterd bakstenen gebouw met een kern uit de achttiende eeuw, onder een afgewolfd pannen zadeldak, in de negentiende eeuw vergroot en aan drie zijden vernieuwd. De gevel aan de rivierzijde heeft een groot rondboogvenster, een risaliet en een balustrade en attiek, met hardstenen zuilen op de hoeken. Verder een paneeldeur en schuifvensters met roedenverdeling. In het huis was enige tijd ook een kerk gevestigd.\n\nOp het Vechteiland, op Ossenmarkt 44, staat het ronde torenfort Fort Ossenmarkt uit 1859–1861.\n\nLet op:\n- de hardstenen dorische zuilen op de hoeken\n- het grote rondboogvenster en de risaliet aan de rivierzijde\n- de balustrade en attiek\n- de paneeldeur en de schuifvensters met roedenverdeling"
+    }
+   }
+  },
+  "sources_add": []
+ }
+]

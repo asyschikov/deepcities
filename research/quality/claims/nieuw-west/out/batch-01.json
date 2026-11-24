@@ -1,0 +1,1560 @@
+[
+ {
+  "id": "bx0x749xxlj3tpl0urqx9ugn",
+  "title": "Geuzenbos",
+  "changes": [
+   {
+    "field": "body",
+    "old": "nature groups campaigned against it",
+    "new": "several interest groups campaigned against it",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Geuzenbos",
+    "evidence": "Hiertegen is actie gevoerd door verschillende belangengroepen (not specifically nature groups)"
+   },
+   {
+    "field": "nl.body",
+    "old": "natuurgroepen voerden actie",
+    "new": "diverse belangengroepen kwamen daartegen in verzet",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Geuzenbos",
+    "evidence": "verschillende belangengroepen"
+   },
+   {
+    "field": "nl.body",
+    "old": "natuur waar je niet op de paden hoeft te blijven",
+    "new": "natuur waar je gewoon van het pad af mag",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   },
+   {
+    "field": "nl.body",
+    "old": "In 2012 kwam er een veepassage over de drukke Wethouder van Essenweg, die het bos in tweeën snijdt.",
+    "new": "De drukke Wethouder van Essenweg snijdt het bos in tweeën; sinds 2012 kan het vee die weg via een eigen oversteek passeren.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Until 1875 this was part of the IJ. The Groote IJpolder was drained, and from the 1960s the growing western harbour buried part of it under four metres of sand. Near the pumping station the CSM sugar factory in Halfweg dumped its sludge for years. The result is ground with height differences of about five metres and soil that changes from clay to chalky sand within a few steps.\n\nIn 1991 part of it was planted as a production forest, one tree species per plot. The parts left bare turned into rough scrub that proved far richer. In 2001 the city ordered a plan for *struinnatuur*, nature where you do not have to keep to the paths, and it was laid out in 2006: sunken lanes, small bridges, seventeen ponds for the natterjack toad, a reed filter that cleans the harbour streets' rainwater, a bird hide and a 15 m lookout tower. Meanwhile a provincial draft plan of 2002 had pencilled the wood in as a site for relocated polluting industry; several interest groups campaigned against it, and it now counts as part of the city's main green structure.\n\nSince 2007 the FREE Nature foundation has kept konik horses and Highland cattle here all year. In 2012 a crossing for the cattle was built over the busy Wethouder van Essenweg, which cuts the wood in two.\n\nLook for:\n- the lookout tower in the northern part, reached from the Wethouder van Essenweg\n- the konik horses and Highland cattle: give them room\n- the old dike wall of 1634, partly uncovered, and the 1624 banishment post on the Spaarnwouderdijk (see Banpaal Spaarnwouderdijk)",
+   "translations": {
+    "nl": {
+     "body": "Tot 1875 was dit een stuk van het IJ. De Groote IJpolder werd drooggelegd, en vanaf de jaren zestig verdween een deel onder vier meter ophoogzand voor het groeiende Westelijk Havengebied. Bij het gemaal stortte de suikerfabriek van de CSM in Halfweg jarenlang haar slib. Zo ontstond grond met hoogteverschillen van zo'n vijf meter, die binnen een paar passen van klei in kalkrijk zand overgaat.\n\nIn 1991 werd een deel aangeplant als productiebos, met per vak één boomsoort. Wat kaal bleef groeide uit tot ruigte die veel rijker bleek. In 2001 liet de gemeente een plan maken voor struinnatuur, natuur waar je gewoon van het pad af mag, en in 2006 lag het er: holle wegen, bruggetjes, zeventien poelen voor de rugstreeppad, een helofytenfilter dat het regenwater van de havenstraten zuivert, een vogelkijkhut en een uitkijktoren van 15 meter. Intussen had de provincie het bos in een ontwerpstreekplan uit 2002 ingetekend voor te verplaatsen milieuhinderlijke bedrijven; diverse belangengroepen kwamen daartegen in verzet, en nu hoort het bij de hoofdgroenstructuur van de stad.\n\nSinds 2007 laat stichting FREE Nature er het hele jaar konikpaarden en Schotse hooglanders grazen. De drukke Wethouder van Essenweg snijdt het bos in tweeën; sinds 2012 kan het vee die weg via een eigen oversteek passeren.\n\nLet op:\n- de uitkijktoren in het noordelijke deel, bereikbaar vanaf de Wethouder van Essenweg\n- de konikpaarden en hooglanders: houd afstand\n- de deels blootgelegde dijkmuur uit 1634 en de banpaal uit 1624 op de Spaarnwouderdijk (zie Banpaal Spaarnwouderdijk)"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "zv1qt5e6bpzlw8iedwehgd58",
+  "title": "Totempaal (Rietbroek)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "After restoration it was set up in 2007 on the green strip between the Osdorper Ban and its southern service road.",
+    "new": "After restoration it was set up in 2007 between the Osdorper Ban and its southern service road.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Totempaal_(Rietbroek)",
+    "evidence": "geplaatst tussen de Osdorper Ban en de zuidelijke ventweg daarvan (no green strip mentioned)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Na restauratie kwam het beeld in 2007 op de groenstrook tussen de Osdorper Ban en de zuidelijke ventweg.",
+    "new": "Na restauratie kreeg het beeld in 2007 een plek aan de Osdorper Ban, aan de kant van de ventweg die er aan de zuidkant langs loopt.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Totempaal_(Rietbroek)",
+    "evidence": "same; also rewrites copied run"
+   },
+   {
+    "field": "body",
+    "old": "- the borough's name sign at the foot\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no text source mentions a name sign (only photos)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- het naambordje van het stadsdeel bij de voet\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the granite base, which barely hides how small it is",
+    "new": "- the base, which cannot hide how small it is",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/631",
+    "evidence": "zelfs de sokkel kan niet verhullen dat het een klein exemplaar is (material not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de granieten sokkel, die maar half verhult hoe klein het beeld is",
+    "new": "- de sokkel, die niet kan verbergen hoe klein het beeld is",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/631",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Begin deze eeuw ging de buurt op de schop: de school uit 1964 en de straat uit 1961 verdwenen",
+    "new": "Begin deze eeuw werd de hele buurt vernieuwd. School (1964) en straat (1961) verdwenen",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Under the city's one-per-cent rule, a share of the budget for public buildings went to art, and in 1966 Aart Rietbroek made this bronze for the Professor Johanna Westerdijkschool in the Vrankendijkestraat. He first carved a study in wood. The school used the totem pole as its emblem on letters to parents.\n\nIn the early 2000s the neighbourhood was rebuilt; the 1964 school and the 1961 street vanished after barely forty years, and the bronze went into a borough depot with no record of its maker or title. An employee came across it, and in 2007 the borough went public: \"Osdorp artwork seeks identity\". A former teacher remembered it, and an NRC reporter followed the trail to Rietbroek's widow and daughter. They did not remember the bronze, but they had a wooden totem pole of the same shape in the house. After restoration it was set up in 2007 between the Osdorper Ban and its southern service road.\n\nIt is not much of a totem pole: real ones, from the north-west coast of North America, are carved in wood and read from the bottom up, while this one is small, abstract and cast. The name stuck anyway.\n\nLook for:\n- the base, which cannot hide how small it is",
+   "translations": {
+    "nl": {
+     "body": "Dankzij de procentregeling, waarbij een procent van het bouwbudget van openbare gebouwen naar kunst ging, maakte Aart Rietbroek in 1966 dit bronzen beeld voor de Professor Johanna Westerdijkschool in de Vrankendijkestraat. Eerst maakte hij een studie in hout. De school gebruikte de totempaal als beeldmerk op brieven aan ouders.\n\nBegin deze eeuw werd de hele buurt vernieuwd. School (1964) en straat (1961) verdwenen na nog geen veertig jaar, en het beeld ging het depot van het stadsdeel in, zonder dat iemand had opgeschreven wie het had gemaakt of hoe het heette. Een medewerker stuitte erop, en in 2007 deed het stadsdeel een oproep: \"Osdorps kunstwerk zoekt identiteit\". Een oud-docent van de school wist het nog, en een verslaggever van NRC kwam uit bij de weduwe en de dochter van Rietbroek. Het bronzen beeld kenden zij niet, maar ze hadden wel een houten totempaal van precies dezelfde vorm in huis. Na restauratie kreeg het beeld in 2007 een plek aan de Osdorper Ban, aan de kant van de ventweg die er aan de zuidkant langs loopt.\n\nEen echte totempaal is het nauwelijks: die komen van de noordwestkust van Noord-Amerika, zijn van hout en lees je van onder naar boven. Deze is klein, abstract en gegoten. De naam bleef toch.\n\nLet op:\n- de sokkel, die niet kan verbergen hoe klein het beeld is"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "zvpenmw0g8j3iwozd0jrix3w",
+  "title": "Wees- en Armenhuis and Speeltuin Sloten",
+  "changes": [
+   {
+    "field": "body",
+    "old": "replacing an older one by the church that was falling down",
+    "new": "replacing an older home in the village that was falling down",
+    "kind": "narrowed",
+    "source": "https://slotenoudosdorp.nl/toen-en-nu-in-sloten-oud-osdorp/",
+    "evidence": "Het verving het oude huis in het dorp dat wegens bouwvalligheid moest worden afgebroken (the 1895 home stood next to the deacons' poor house, not stated to be by the church)"
+   },
+   {
+    "field": "nl.body",
+    "old": "op een leeg terrein aan de rand van het dorp, als vervanging van een bouwvallig tehuis bij de kerk",
+    "new": "op een onbebouwd stuk grond aan de dorpsrand. Het nam de plaats in van een ouder tehuis in het dorp, dat bouwvallig was geworden",
+    "kind": "narrowed",
+    "source": "https://slotenoudosdorp.nl/toen-en-nu-in-sloten-oud-osdorp/",
+    "evidence": "idem; also rewrites copied run"
+   },
+   {
+    "field": "nl.body",
+    "old": "Na de annexatie door Amsterdam in 1921 werd het huis",
+    "new": "Toen Amsterdam Sloten in 1921 had ingelijfd, werd het huis",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "The independent municipality of Sloten built its *Wees- en Armenhuis* (orphanage and poorhouse) in 1906 on an empty plot at the edge of the village, replacing an older home in the village that was falling down. It had two square corner towers; the orphans slept in the corner rooms, and orphans and old people alike wore a uniform marked A.v.S. on the sleeve. The board of eight had to be three Catholics and five Protestants.\n\nAfter Amsterdam annexed Sloten in 1921 the house became a branch of the city's old people's home. The towers went, a third storey went on, and some 40 old men and 16 women lived here. The *Boerentuintje* (farm garden) across the street was its vegetable plot. The last residents left in 1972; on 17 January 1973 squatters from the city moved in, to the annoyance of the village council, and ran children's activities until they left in late 1976. The building then became 20 small flats for young people from the village, with the council choosing tenants, until the owner began selling them off in 2011. It was thoroughly renovated in 2021. The 1960s recreation hall behind it is now the Dorpshuis (village hall).\n\nSpeeltuin Sloten, beside it, was founded in 1921 by local shopkeepers and residents. Until the motorway to The Hague opened in 1938, all traffic to Schiphol went through the village, and they wanted their children off the road. Its wooden clubhouse dates from the 1930s.\n\nLook for:\n- the three-storey front without its towers at Akerpolderstraat 9-47 (private flats, outside only)\n- the Boerentuintje opposite\n- the footbridge to the Dorpshuis at the end of the Nieuwe Akerweg\n- the pollard willows along the ditch by the playground, the same row as a century ago",
+   "translations": {
+    "nl": {
+     "body": "De toen nog zelfstandige gemeente Sloten liet het Wees- en Armenhuis in 1906 bouwen op een onbebouwd stuk grond aan de dorpsrand. Het nam de plaats in van een ouder tehuis in het dorp, dat bouwvallig was geworden. Het had twee vierkante hoektorens; in de hoekkamers sliepen de wezen, en wezen en 'arme oudelieden' droegen een uniform met A.v.S. op de mouw. Van de acht regenten moesten er drie rooms-katholiek zijn en vijf hervormd.\n\nToen Amsterdam Sloten in 1921 had ingelijfd, werd het huis een dependance van het Amsterdamse oudeliedenhuis. De torens verdwenen, er kwam een derde verdieping op, en er woonden zo'n veertig oude mannen en zestien vrouwen. Het Boerentuintje aan de overkant was de moestuin van het tehuis. Begin 1972 vertrokken de laatste bewoners; op 17 januari 1973 trokken Amsterdamse krakers erin, tot ongenoegen van de Dorpsraad. Ze organiseerden activiteiten voor de Slotense jeugd en vertrokken eind 1976. Daarna werden er twintig kleine woningen voor jongeren uit het dorp in gemaakt, die de Dorpsraad mee toewees, tot de eigenaar ze vanaf 2011 ging verkopen. In 2021 is het pand grondig opgeknapt. De recreatiezaal uit de jaren zestig erachter is nu het Dorpshuis.\n\nDe speeltuin ernaast werd in 1921 opgericht door Slotense winkeliers en bewoners. Tot de rijksweg naar Den Haag in 1938 openging, reed al het verkeer naar Schiphol dwars door het dorp, en dat wilden ze hun kinderen besparen. Het houten clubgebouw staat er sinds de jaren dertig.\n\nLet op:\n- de gevel van drie verdiepingen zonder torens aan de Akerpolderstraat 9-47 (particuliere woningen, alleen van buiten)\n- het Boerentuintje aan de overkant\n- de brug naar het Dorpshuis aan het eind van de Nieuwe Akerweg\n- de knotwilgen langs de sloot bij de speeltuin, nog dezelfde rij als honderd jaar geleden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "o0o9lvzqsfkzsjz3t4ut4ohd",
+  "title": "Kapkar/GTO-B10 (Frank Havermans)",
+  "changes": [
+   {
+    "field": "nl.body",
+    "old": "in 1974 opgeleverd als een van de grootste kantoorgebouwen van Nederland",
+    "new": "dat bij de oplevering in 1974 tot de grootste kantoorpanden van het land behoorde",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   },
+   {
+    "field": "body",
+    "old": "the SFB (Sociaal Fonds Bouwnijverheid)",
+    "new": "the SFB",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source spells out SFB"
+   },
+   {
+    "field": "nl.body",
+    "old": "het SFB (Sociaal Fonds Bouwnijverheid)",
+    "new": "het SFB",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "a red steel machine on angled legs, with a cabin that one person can sit in. A newspaper critic saw a watchdog lying in the grass.",
+    "new": "a red metal machine with angled parts jutting out, and a cabin that can be manned. Kees Keijer was reminded of a watchdog lying in the grass.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kapkar/GTO-B10",
+    "evidence": "knalrood en van metaal; De kapkar kan bemand worden; Kees Keijer deed denken aan een in het gras liggende waakhond; designboom: angled elements jutting out (steel, legs, one person and newspaper critic not in sources)"
+   },
+   {
+    "field": "nl.body",
+    "old": "een rode stalen machine op schuine poten, met een cabine waarin één persoon kan zitten. Een recensent zag er een waakhond in die in het gras ligt.",
+    "new": "een rode metalen machine met schuine delen die alle kanten op steken, en een cabine die bemand kan worden. Kees Keijer moest er bij denken aan een waakhond die in het gras ligt.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kapkar/GTO-B10",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "body": "In 2019 vroeg de kunstmanifestatie Play Station Sloterdijk Frank Havermans om een werk over de bouwwoede rond het station en de ringweg. Hij wilde iets maken bij het voormalige hoofdkantoor van het SFB, een structuralistisch kantoor van Arnold Numan Oyevaar, dat bij de oplevering in 1974 tot de grootste kantoorpanden van het land behoorde. Dat gebouw werd net verbouwd tot Edge West en had geen plek voor kunst, dus kwam het werk zo'n vijftig meter westelijker, op een lapje gras waar de Basisweg onder metro- en spoorbruggen door gaat.\n\nHavermans nam een deel van de ronde plattegrond van het gebouw, knipte het in kartonnen stukken en vouwde net zo lang tot dit ontstond: een rode metalen machine met schuine delen die alle kanten op steken, en een cabine die bemand kan worden. Kees Keijer moest er bij denken aan een waakhond die in het gras ligt. Havermans noemt zijn Kapkars verkenners, instrumenten om gebieden te onderzoeken die op het punt staan ontwikkeld te worden. Als alles werkt, brandt er 's nachts een lamp van Koos Schaart in de cabine. Kantoorpersoneel loopt en fietst langs; het gras eromheen groeit hoog op.\n\nLet op:\n- de cabine, open voor iedereen die langskomt\n- de bruggen en afritten die het insluiten"
+    }
+   },
+   "body": "In 2019 the art event Play Station Sloterdijk asked Frank Havermans for a work about the building frenzy around the station and the ring road. He wanted to make something for the former head office of the SFB, a structuralist office by Arnold Numan Oyevaar, finished in 1974 as one of the largest office buildings in the country. That building was just being rebuilt as Edge West and had no room for art, so the piece went up about fifty metres west, on a scrap of grass where the Basisweg crosses under metro and railway bridges.\n\nHavermans took part of the building's round floor plan, cut it into cardboard pieces and folded them until they became this: a red metal machine with angled parts jutting out, and a cabin that can be manned. Kees Keijer was reminded of a watchdog lying in the grass. Havermans calls his Kapkar works surveyors, instruments for exploring areas about to be developed. When everything works, a light by Koos Schaart burns in the cabin at night. Office workers walk and cycle past; the grass around it grows long.\n\nLook for:\n- the cabin, open to anyone passing\n- the bridges and slip roads boxing it in"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "dah0esbtw5nxi32dnbymk0uj",
+  "title": "Train Lodge, Sloterdijk",
+  "changes": [
+   {
+    "field": "body",
+    "old": "a few old Swiss couchette and sleeping cars",
+    "new": "a few old Swiss sleeping cars",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Sloterdijk",
+    "evidence": "een viertal voormalige Zwitserse slaaprijtuigen (no couchettes mentioned)"
+   },
+   {
+    "field": "body",
+    "old": "A former Belgian buffet car serves as restaurant.",
+    "new": "A former Belgian buffet car stands with them, and there is a restaurant with a terrace.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Sloterdijk",
+    "evidence": "een voormalig buffetrijtuig van de Belgische spoorwegen ... Ook zijn er een restaurant en terras (not stated that the buffet car is the restaurant)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Een voormalig Belgisch buffetrijtuig dient als restaurant.",
+    "new": "Er staat ook een vroeger Belgisch buffetrijtuig bij, en er is een restaurant met terras.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Sloterdijk",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": " It is one of the hotels that came into Teleport when the offices emptied, and it fits the area's airport-and-railway theme rather well.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source for the Teleport hotels or the theme"
+   },
+   {
+    "field": "nl.body",
+    "old": " Het is een van de hotels die in Teleport kwamen toen de kantoren leegliepen, en het past wonderwel bij de wijk van vliegvelden en spoorlijnen.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "By 2022 the graffiti artist Kenor had painted several of the cars in bright colours.",
+    "new": "By 2022 the graffiti artist Kenor had painted several of the cars.",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Train_lodge_van_Kenor,_Asd_(1).jpg",
+    "evidence": "Kenor Martinez beschilderde een aantal wagons van Train Lodge (2022-06-12); colours not described"
+   },
+   {
+    "field": "nl.body",
+    "old": "In 2022 had graffitikunstenaar Kenor een aantal rijtuigen in felle kleuren beschilderd.",
+    "new": "In 2022 had graffitikunstenaar Kenor een aantal rijtuigen beschilderd.",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Train_lodge_van_Kenor,_Asd_(1).jpg",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the short dead-end siding, cut off from the main line",
+    "new": "- the track laid just for these cars, off the main line",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Sloterdijk",
+    "evidence": "Op een nieuw aangelegd spoor langs de Changiweg buiten het normale tracé"
+   },
+   {
+    "field": "nl.body",
+    "old": "- het korte doodlopende spoortje, los van de hoofdlijn",
+    "new": "- het spoor dat alleen voor deze rijtuigen is gelegd, los van de hoofdlijn",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Sloterdijk",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "ten oosten van het station en ten zuiden van spoor 8",
+    "new": "oostelijk van het station, aan de zuidkant van spoor 8",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Since the turn of 2015 and 2016 a few old Swiss sleeping cars have stood on a stretch of track laid just for them along the Changiweg, outside the railway's own lines, east of the station and south of track 8. They came via the Bergland Express of The Train Company and once ran on the night train between Zürich and Rome. A former Belgian buffet car stands with them, and there is a restaurant with a terrace.\n\nThe owners kept the original fittings: guests sleep in compartments with three stacked bunks, reached by a small metal ladder, and two compartments can be joined into a room for six; a whole car of eleven compartments can be booked by a group. There are 132 beds in 44 compartments. By 2022 the graffiti artist Kenor had painted several of the cars.\n\nIt is a working hostel: non-guests see it from the Changiweg.\n\nLook for:\n- Kenor's painted cars\n- the track laid just for these cars, off the main line",
+   "translations": {
+    "nl": {
+     "body": "Sinds de jaarwisseling van 2015 op 2016 staan langs de Changiweg een paar oude Zwitserse slaaprijtuigen op een stuk spoor dat speciaal voor hen is aangelegd, buiten het gewone spoor, oostelijk van het station, aan de zuidkant van spoor 8. Ze kwamen via de Bergland Express van The Train Company en reden ooit in de nachttrein tussen Zürich en Rome. Er staat ook een vroeger Belgisch buffetrijtuig bij, en er is een restaurant met terras.\n\nDe eigenaren hielden de oorspronkelijke inrichting aan: gasten slapen in coupés met drie stapelbedden, bereikbaar met een metalen trapje, en twee coupés kunnen samen een kamer voor zes vormen; een groep kan een heel rijtuig van elf coupés huren. Er zijn 132 bedden in 44 coupés. In 2022 had graffitikunstenaar Kenor een aantal rijtuigen beschilderd.\n\nHet is een gewoon hostel: wie er niet slaapt, ziet het vanaf de Changiweg.\n\nLet op:\n- de beschilderde rijtuigen van Kenor\n- het spoor dat alleen voor deze rijtuigen is gelegd, los van de hoofdlijn"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "spvgeznviue09u6atc6yj8zt",
+  "title": "Choreografie in staal and the Bornhout shelter",
+  "changes": [
+   {
+    "field": "body",
+    "old": "she was married to the architect Piet Zanstra",
+    "new": "she was married to the architect Piet Zanstra",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Margot_Zanstra",
+    "evidence": "(Laren, 22 januari 1919 – Amsterdam, 12 mei 2010) ... Ze trouwde in november 1964 met architect Piet Zanstra"
+   },
+   {
+    "field": "body",
+    "old": "; on other days only the sculpture can be seen, from the street.",
+    "new": ".",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source says the shelter and depot are closed on other days or that the sculpture is seen only from the street"
+   },
+   {
+    "field": "nl.body",
+    "old": "; op andere dagen is alleen het beeld te zien, vanaf de straat.",
+    "new": ".",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het beeld stond eerst bij de Centrale Werkplaatsen bij het Noordzeekanaal en werd verplaatst voor de aanleg van de Westrandweg.",
+    "new": "Oorspronkelijk stond het bij de Centrale Werkplaatsen aan het Noordzeekanaal; de komst van de Westrandweg dwong tot een verhuizing.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Margot Zanstra (1919–2010) danced with the Nationale Ballet before she turned to sculpture in 1966; she was married to the architect Piet Zanstra. Around 1983 she made a model for *Choreografie in staal* (Choreography in steel), and the city built it 16 metres high. Its red and white planes and open spaces were meant for drivers: as you pass, the shapes seem to shift into a new figure. It is one of the few works to which she gave a title.\n\nIt first stood at the city's central workshops near the Noordzeekanaal and was moved when the Westrandweg was built. It now stands at Bornhout 8, the Fietsdepot, where Amsterdammers collect bicycles the city has removed.\n\nThe same site has two things a passer-by would never guess. Under it is a shelter built in 1984 for about 100 staff of the city's machinery department, in case of nuclear war; as the threat faded, it was never finished, and its two water tanks are still there. And the city's archaeological depot keeps more than 5,000 crates of finds, from big earthenware pots to wooden toys and weapons. Both opened for Open Monumentendag on 12 September 2026.\n\nLook for:\n- the sculpture changing shape as you walk or ride past",
+   "translations": {
+    "nl": {
+     "body": "Margot Zanstra (1919–2010) danste bij het Nationale Ballet voordat ze zich in 1966 op de beeldhouwkunst richtte; ze was getrouwd met architect Piet Zanstra. Rond 1983 maakte ze een maquette van *Choreografie in staal*, en de gemeente liet die zestien meter hoog uitvoeren. De rode en witte vlakken en de open ruimtes waren bedoeld voor automobilisten: rijdend langs het beeld lijken de vormen te verschuiven tot een nieuwe figuur. Het is een van de weinige werken waaraan ze een titel gaf.\n\nOorspronkelijk stond het bij de Centrale Werkplaatsen aan het Noordzeekanaal; de komst van de Westrandweg dwong tot een verhuizing. Nu staat het aan het Bornhout 8, bij het Fietsdepot, waar Amsterdammers hun weggehaalde fiets ophalen.\n\nOp hetzelfde terrein zitten twee dingen die je niet zou verwachten. Onder de grond ligt een schuilplaats uit 1984 voor zo'n honderd medewerkers van de afdeling Werktuigen van de gemeente, voor het geval van een atoomoorlog; toen de dreiging afnam, is hij nooit afgebouwd, en de twee watertanks zijn er nog. En in het archeologisch depot van de stad staan ruim 5000 kratten met vondsten, van grote aardewerken potten tot houten speelgoed en wapens. Beide waren open op Open Monumentendag, 12 september 2026.\n\nLet op:\n- hoe het beeld van vorm verandert als je erlangs loopt of fietst"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Margot_Zanstra"
+  ]
+ },
+ {
+  "id": "zz53wzbgqkhpgq9046lycsop",
+  "title": "De Bouwvakarbeider (Jan Havermans)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Most statues of workers show them at it, hammer raised. Jan Havermans did the opposite.",
+    "new": "Instead of showing a builder hard at work, Jan Havermans showed one taking a rest.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_bouwvakarbeider",
+    "evidence": "In plaats van een bouwvakker in het volle werk af te beelden, liet Havermans een rustende bouwvakker zien (no claim about most worker statues or a raised hammer)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Beelden van arbeiders laten ze meestal aan het werk zien, de hamer in de lucht. Jan Havermans deed het andersom.",
+    "new": "Jan Havermans koos niet voor een bouwvakker die volop aan het werk is, maar voor een die even pauzeert.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_bouwvakarbeider",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The city meant it as a tribute to the builders",
+    "new": "It is a tribute to the builders",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/853",
+    "evidence": "Het dient als monument voor de arbeiders die verantwoordelijk waren voor de bouw van Nieuw-West (the intention is not attributed to the city)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De gemeente bedoelde het als eerbetoon aan de bouwvakkers",
+    "new": "Het is een eerbetoon aan de bouwvakkers",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/853",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "and the plaster model was on show",
+    "new": "and the original was on show",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_bouwvakarbeider",
+    "evidence": "het origineel werd in 1959 in het Stedelijk Museum Amsterdam tentoongesteld (material not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "en het gipsen model stond in 1959",
+    "new": "en het origineel stond in 1959",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_bouwvakarbeider",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "when Queen Juliana walked through a \"gate\" of six boys and six girls",
+    "new": "when Queen Juliana symbolically opened a \"gate\" formed by six boys and six girls",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Hannie_Schaftbrug",
+    "evidence": "een door mensen gevormde deur (zes jongens en zes meisjes) die figuurlijk door de koningin werd geopend"
+   },
+   {
+    "field": "nl.body",
+    "old": "Koningin Juliana liep toen bij de brug waar de laan de spoordijk passeert door een 'poort' van zes jongens en zes meisjes.",
+    "new": "Bij de brug waar de laan de spoordijk passeert, opende koningin Juliana toen symbolisch een 'poort' die zes jongens en zes meisjes samen vormden.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Hannie_Schaftbrug",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "the bronze plaque that records Juliana opening Tuinstad Slotermeer, \"the first of the garden cities to be founded outside the ring railway\"",
+    "new": "the plaque that records Juliana opening Tuinstad Slotermeer as the first garden city outside the ring railway embankment",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:HannieSchaftbrug02a.jpg",
+    "evidence": "De plaquette herinnert aan de opening van de Tuinstad Slotermeer door Koningin Juliana op 7 oktober 1952 als eerste tuinstad buiten de Ringspoordijk (the quoted wording and the bronze are not in a text source)"
+   },
+   {
+    "field": "nl.body",
+    "old": "de bronzen plaquette over de opening van Tuinstad Slotermeer, 'de eerste der te stichten tuinsteden buiten de ringspoorbaan'",
+    "new": "de plaquette die eraan herinnert dat Juliana hier Tuinstad Slotermeer opende, als eerste tuinstad buiten de Ringspoordijk",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:HannieSchaftbrug02a.jpg",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Op 26 januari 1962, de zeventigste verjaardag van Havermans, werd het onthuld",
+    "new": "Havermans werd 70 op 26 januari 1962, en precies die dag werd het beeld onthuld",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Instead of showing a builder hard at work, Jan Havermans showed one taking a rest. His builder sits on a brick plinth on the green strip at the corner of the Burgemeester De Vlugtlaan and the Burgemeester Eliasstraat, resting, with his gaze on the flats and streets that men like him had just put up. It is a tribute to the builders who raised the Westelijke Tuinsteden (western garden cities) out of the polder in the 1950s and 1960s.\n\nThe design dates from around 1957, and the original was on show in the Stedelijk Museum in 1959 before the city had it cast in bronze. It was unveiled on 26 January 1962, Havermans's 70th birthday; he died two years later. Havermans, who in 1933 co-founded the Bauhaus-style Nieuwe Kunstschool in Amsterdam with Paul Citroen and Charles Roelofsz, liked people at rest: his *Rustende tuinder* (resting gardener) sits on the Jan van Galenplantsoen in West.\n\nSlotermeer itself had been opened ten years earlier, on 7 October 1952, when Queen Juliana symbolically opened a \"gate\" formed by six boys and six girls at the bridge where the avenue crosses the railway embankment.\n\nLook for:\n- the signature on the bronze\n- about 600 m east, on the north railing of the Hannie Schaftbrug (bridge 601), the plaque that records Juliana opening Tuinstad Slotermeer as the first garden city outside the ring railway embankment",
+   "translations": {
+    "nl": {
+     "body": "Jan Havermans koos niet voor een bouwvakker die volop aan het werk is, maar voor een die even pauzeert. Zijn bouwvakker zit op een bakstenen sokkel in de groenstrook op de hoek van de Burgemeester De Vlugtlaan en de Burgemeester Eliasstraat, uit te rusten, met zijn blik op de flats en straten die hij en zijn collega's net hadden neergezet. Het is een eerbetoon aan de bouwvakkers die in de jaren vijftig en zestig de Westelijke Tuinsteden uit de polder trokken.\n\nHet ontwerp is van omstreeks 1957 en het origineel stond in 1959 in het Stedelijk Museum, voordat de gemeente het in brons liet gieten. Havermans werd 70 op 26 januari 1962, en precies die dag werd het beeld onthuld; twee jaar later overleed hij. Havermans, die in 1933 met Paul Citroen en Charles Roelofsz de Nieuwe Kunstschool naar voorbeeld van het Bauhaus oprichtte, beeldde graag mensen in rust uit: zijn Rustende tuinder zit op het Jan van Galenplantsoen in West.\n\nSlotermeer zelf was tien jaar eerder geopend, op 7 oktober 1952. Bij de brug waar de laan de spoordijk passeert, opende koningin Juliana toen symbolisch een 'poort' die zes jongens en zes meisjes samen vormden.\n\nLet op:\n- de signatuur in het brons\n- zo'n 600 meter oostelijker, op de noordelijke leuning van de Hannie Schaftbrug (brug 601), de plaquette die eraan herinnert dat Juliana hier Tuinstad Slotermeer opende, als eerste tuinstad buiten de Ringspoordijk"
+    }
+   }
+  },
+  "sources_add": [
+   "https://commons.wikimedia.org/wiki/File:HannieSchaftbrug02a.jpg"
+  ]
+ },
+ {
+  "id": "qfah52ia8683w1ckd3vn1cqn",
+  "title": "Biber submarine \"Fenix\", Sloterweg",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The family story is that the pilot was still inside.",
+    "new": "Reportedly the pilot was still inside.",
+    "kind": "narrowed",
+    "source": "https://slotenoudosdorp.nl/onderzeeboot-sloterweg-jan-van-der-veldt-deed-een-macabere-vondst/",
+    "evidence": "Naar verluidt zat de piloot er nog in (not attributed to the family)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Volgens het familieverhaal zat de piloot er nog in.",
+    "new": "Naar men zegt zat de piloot er nog in.",
+    "kind": "narrowed",
+    "source": "https://slotenoudosdorp.nl/onderzeeboot-sloterweg-jan-van-der-veldt-deed-een-macabere-vondst/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": ", close to the Siegerpark gate",
+    "new": "",
+    "kind": "cut",
+    "source": "https://www.tracesofwar.nl/sights/5459/Duitse-Biber-Bever-Mini-onderzee%C3%ABr.htm",
+    "evidence": "only source for the Siegerpark gate returns 403; no readable source supports it"
+   },
+   {
+    "field": "nl.body",
+    "old": ", vlak bij het hek van het Siegerpark",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het bootje werd het baken van de garage aan de weg, eerst op zijn buik in het gras, later op een sokkel, en de kinderen uit de buurt speelden erin.",
+    "new": "Langs de weg werd het bootje het herkenningsteken van de garage. In het begin lag het gewoon in het gras, pas later kwam er een sokkel onder, en de kinderen uit de buurt speelden erin.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Jan van der Veldt started repairing cars in the coach house of his farm Fenix on the Sloterweg in 1932. After the war he went into army surplus and won government contracts to clear war wreckage, among them the Waalhaven in Rotterdam. There he raised a *Biber* (beaver): a German one-man submarine, built in Lübeck in 1944, just under 9 metres long and 1.6 metres wide, with bullet holes in the hull and its two torpedoes gone. Reportedly the pilot was still inside. More than 300 Bibers were sent out, on the Scheldt and the Maas among other places; they were badly built in a hurry, and about two thirds of their pilots died, many from lack of oxygen or carbon monoxide.\n\nVan der Veldt scraped off the grey, painted the boat red and white, put his name on it and *Fenix* on the bow, after the farm that had burned twice and risen twice (it was demolished in the 1970s). The submarine became the garage's landmark by the road, first on its belly in the grass, later on a plinth, and the neighbourhood's children played in it.\n\nIn 1978, just after property developer Maup Caransa was released by his kidnappers, the clairvoyant Peter Hurkos rode with him through Amsterdam in a taxi, live on television, to find where he had been held. On the Sloterweg Hurkos had the car stop at the red submarine: Caransa had been kept in there, he said. Sightseers blocked the road for days. The taxi driver later said he had driven the same route with Hurkos three times beforehand.\n\nLook for:\n- the red-and-white hull and the name Fenix on the bow, in the yard by the Sloterweg\n- the anchor beside it",
+   "translations": {
+    "nl": {
+     "body": "Jan van der Veldt begon in 1932 met het repareren van auto's in het koetshuis naast zijn boerderij Fenix aan de Sloterweg. Na de oorlog ging hij handelen in legervoertuigen en schreef hij in op opdrachten om achtergebleven oorlogstuig op te ruimen, onder meer in de Waalhaven in Rotterdam. Daar haalde hij een *Biber* (bever) boven water: een Duitse eenpersoons onderzeeboot, in 1944 gebouwd in Lübeck, nog geen 9 meter lang en ruim anderhalve meter breed, met kogelgaten in de romp en zonder zijn twee torpedo's. Naar men zegt zat de piloot er nog in. Er werden ruim 300 Bibers ingezet, onder meer op de Westerschelde en de Maas; ze waren in haast en slordig gebouwd en ongeveer twee derde van de piloten kwam om, vaak door zuurstofgebrek of koolmonoxide.\n\nVan der Veldt haalde de grijze oorlogskleur eraf, verfde de boot rood en wit, zette zijn naam erop en op de punt *Fenix*, naar de boerderij die twee keer was afgebrand en twee keer herrezen (ze werd in de jaren zeventig gesloopt). Langs de weg werd het bootje het herkenningsteken van de garage. In het begin lag het gewoon in het gras, pas later kwam er een sokkel onder, en de kinderen uit de buurt speelden erin.\n\nIn 1978, vlak na de vrijlating van de ontvoerde vastgoedman Maup Caransa, reed de helderziende Peter Hurkos met hem in een taxi door Amsterdam, rechtstreeks op televisie, om de plek te vinden waar hij gevangen had gezeten. Aan de Sloterweg liet Hurkos stoppen bij de rode onderzeeboot: daarin had Caransa gezeten. Dagenlang stond de weg vol kijkers. Later vertelde de taxichauffeur dat hij de route al drie keer eerder met Hurkos had gereden.\n\nLet op:\n- de rood-witte romp en de naam Fenix op de punt, op het erf aan de Sloterweg\n- het anker ernaast"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "kc55ijkpc2pg8yaltvvuw2bg",
+  "title": "Karel Appel's glass wall (Het Slotervaart)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The most valuable was a glass wall designed by Karel Appel",
+    "new": "Among them was a costly glass wall designed by Karel Appel",
+    "kind": "narrowed",
+    "source": "https://www.at5.nl/artikelen/200287/alle-kunstwerken-van-failliet-slotervaartziekenhuis-naar-gemeente",
+    "evidence": "Er zit onder meer een kostbare glaswand van Karel Appel bij (costly, not the most valuable)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het kostbaarste was een glazen wand",
+    "new": "Daaronder was een kostbare glazen wand",
+    "kind": "narrowed",
+    "source": "https://www.at5.nl/artikelen/200287/alle-kunstwerken-van-failliet-slotervaartziekenhuis-naar-gemeente",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "his trademark from the Cobra years",
+    "new": "a trademark of his experimental period",
+    "kind": "narrowed",
+    "source": "https://www.slotervaart.com/kunstwerken",
+    "evidence": "een handelsmerk uit zijn experimentele periode (Cobra not named)"
+   },
+   {
+    "field": "nl.body",
+    "old": "zijn handelsmerk uit de Cobratijd",
+    "new": "een handelsmerk uit zijn experimentele periode",
+    "kind": "narrowed",
+    "source": "https://www.slotervaart.com/kunstwerken",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "and in February 2020 the city reported them missing to the police",
+    "new": "and in February 2020 the city announced it would report them to the police, which it then did",
+    "kind": "narrowed",
+    "source": "https://www.at5.nl/artikelen/200287/alle-kunstwerken-van-failliet-slotervaartziekenhuis-naar-gemeente",
+    "evidence": "25 februari 2020: De gemeente zal aangifte doen van de 24 vermiste kunstwerken | verification: restored that the report was made: nhnieuws.nl/nieuws/283191 (listed source) \"Cultuurwethouder Meliani besluit daarop aangifte te doen\" and \"dat de gemeente aangifte heeft gedaan\""
+   },
+   {
+    "field": "nl.body",
+    "old": "in februari 2020 deed de stad er aangifte van",
+    "new": "in februari 2020 maakte de stad bekend dat ze er aangifte van zou doen, en dat gebeurde ook",
+    "kind": "narrowed",
+    "source": "https://www.at5.nl/artikelen/200287/alle-kunstwerken-van-failliet-slotervaartziekenhuis-naar-gemeente",
+    "evidence": "idem | verification: restored that the report was made: nhnieuws.nl/nieuws/283191 (listed source) \"Cultuurwethouder Meliani besluit daarop aangifte te doen\" and \"dat de gemeente aangifte heeft gedaan\""
+   },
+   {
+    "field": "body",
+    "old": ", three curved, intersecting plates on legs in the pond outside",
+    "new": ", three curved, intersecting plates on legs",
+    "kind": "narrowed",
+    "source": "https://www.slotervaart.com/kunstwerken",
+    "evidence": "Drie gebogen elkaar snijdende platen op poten (no pond mentioned)"
+   },
+   {
+    "field": "nl.body",
+    "old": ": drie gebogen, elkaar snijdende platen op poten in de vijver buiten",
+    "new": ": drie gebogen platen op poten die elkaar doorsnijden",
+    "kind": "narrowed",
+    "source": "https://www.slotervaart.com/kunstwerken",
+    "evidence": "idem; also no longer copies the source"
+   },
+   {
+    "field": "nl.body",
+    "old": "De Appel hangt op de begane grond, in het Douwe Egberts-café, en is tijdens de openingstijden van het gebouw voor iedereen te zien.",
+    "new": "Je vindt de Appel beneden in het café van Douwe Egberts; zolang het gebouw open is, kan iedereen hem bekijken.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "The municipal Slotervaartziekenhuis opened at the end of 1975 to replace four old city hospitals, and the building was filled with art: 195 works by the time it closed. Among them was a costly glass wall designed by Karel Appel for the central hall, with round shapes and several faces with large, piercing eyes, a trademark of his experimental period. It is counted as one of four monumental Appel works in Amsterdam.\n\nPrivatised in 1997, the hospital lurched from crisis to crisis and was declared bankrupt in October 2018. The curator's inventory showed that 24 of the 38 works the city had lent it were gone, and in February 2020 the city announced it would report them to the police, which it then did. All 195 remaining works passed to the city, and the Stedelijk and the Amsterdam Museum sorted out what to keep. The Appel wall was one of five pieces too hard to move, so it stayed.\n\nProperty company Zadelhoff turned the building into Het Slotervaart, a centre for care providers, with a glass roof extension by MVSA completed at the end of 2024. The Appel wall is on the ground floor, in the Douwe Egberts café, open to visitors during the building's opening hours.\n\nLook for:\n- the faces with big eyes in the glass\n- Margot Zanstra's *Fluxuous II*, three curved, intersecting plates on legs\n- Herman Makkink's clay salamander, cut into slices, with three footprints on its back",
+   "translations": {
+    "nl": {
+     "body": "Het gemeentelijke Slotervaartziekenhuis ging eind 1975 open als vervanger van vier oude stadsziekenhuizen, en het gebouw hing en stond vol kunst: bij de sluiting 195 werken. Daaronder was een kostbare glazen wand naar ontwerp van Karel Appel in de centrale hal, met ronde vormen en gezichten met grote, doordringende ogen, een handelsmerk uit zijn experimentele periode. Het werk geldt als een van de vier monumentale Appels in Amsterdam.\n\nNa de verzelfstandiging in 1997 ging het ziekenhuis van crisis naar crisis, en in oktober 2018 volgde het faillissement. Bij de inventarisatie door de curator bleken 24 van de 38 werken die de gemeente had uitgeleend verdwenen; in februari 2020 maakte de stad bekend dat ze er aangifte van zou doen, en dat gebeurde ook. Alle 195 overgebleven werken kwamen in handen van de gemeente, en het Stedelijk en het Amsterdam Museum zochten uit wat bewaard bleef. De Appel hoorde bij de vijf werken die nauwelijks te verplaatsen waren, en bleef dus hangen.\n\nVastgoedbedrijf Zadelhoff bouwde het pand om tot Het Slotervaart, een centrum voor zorgaanbieders, met een glazen dakopbouw van MVSA die eind 2024 klaar was. Je vindt de Appel beneden in het café van Douwe Egberts; zolang het gebouw open is, kan iedereen hem bekijken.\n\nLet op:\n- de gezichten met grote ogen in het glas\n- *Fluxuous II* van Margot Zanstra: drie gebogen platen op poten die elkaar doorsnijden\n- de in mootjes gesneden kleien salamander van Herman Makkink, met drie voetafdrukken op zijn rug"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "oegpgc4202f9ooqw7y528dnh",
+  "title": "Station Sloterdijk and the Teleport offices",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A three-storey railway crossing under one steel table",
+    "new": "A three-storey railway crossing under one space-frame \"table\"",
+    "kind": "narrowed",
+    "source": "https://www.architectuurgids.nl/project/item/prj_id/441",
+    "evidence": "De vakwerkconstructie is als een tafel (50 x 65 m.) over twee ongelijkvloers kruisende spoorlijnen geplaatst (material not stated)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een spoorkruising van drie verdiepingen onder één stalen tafel",
+    "new": "Een spoorkruising van drie lagen onder één ruimtevakwerk als tafel",
+    "kind": "narrowed",
+    "source": "https://www.architectuurgids.nl/project/item/prj_id/441",
+    "evidence": "idem"
+   },
+   {
+    "field": "summary",
+    "old": "It was built for Teleport, an office park of the information age named after airports, which never filled up.",
+    "new": "It was built for Teleport, an office park with streets named after airports, which never really got off the ground.",
+    "kind": "narrowed",
+    "source": "https://thecityateyelevel.com/stories/the-metamorphosis-of-sloterdijk/",
+    "evidence": "it became home to a business park called Amsterdam Teleport. As a result of rapid developments in ICTs (internet) and the real estate crisis, this particular function never really got off the ground"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Gebouwd voor Teleport, een kantorenpark voor het informatietijdperk vol vliegveldnamen, dat nooit vol raakte.",
+    "new": "Gebouwd voor Teleport, een kantorenpark met vliegveldnamen als straatnamen, dat nooit echt van de grond kwam.",
+    "kind": "narrowed",
+    "source": "https://thecityateyelevel.com/stories/the-metamorphosis-of-sloterdijk/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Around it the city planned Teleport, an office park for the coming age of telematics, with streets named after airports: Orly, Changi, Barajas, Narita, Arlanda. The internet came differently and the crisis came too; offices stood empty and some new ones never had a tenant before turning into hotels.",
+    "new": "Around it came Teleport, a business park with streets named after airports: Orly, Changi, Barajas, Narita, Arlanda. Fast change in ICT and the property crisis meant it never really got off the ground; in the crisis offices emptied, and some new ones never had a tenant before turning into hotels.",
+    "kind": "narrowed",
+    "source": "https://thecityateyelevel.com/stories/the-metamorphosis-of-sloterdijk/",
+    "evidence": "business park called Amsterdam Teleport ... rapid developments in ICTs (internet) and the real estate crisis ... never really got off the ground ... some new buildings never even had a tenant before being converted into hotels (telematics not in any source)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Rond het station plande de stad Teleport, een kantorenpark voor het komende tijdperk van de telematica, met straten genoemd naar vliegvelden: Orly, Changi, Barajas, Narita, Arlanda. Het internet kwam anders en de crisis kwam ook; kantoren stonden leeg en sommige nieuwe kregen nooit een huurder voordat er een hotel in kwam.",
+    "new": "Rond het station kwam Teleport, een bedrijvenpark met straten genoemd naar vliegvelden: Orly, Changi, Barajas, Narita, Arlanda. Door de snelle opkomst van ICT en de vastgoedcrisis kwam het nooit echt van de grond; in de crisis liepen kantoren leeg, en sommige nieuwe kregen nooit een huurder voordat er een hotel in kwam.",
+    "kind": "narrowed",
+    "source": "https://thecityateyelevel.com/stories/the-metamorphosis-of-sloterdijk/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- Ven, the former KPN head office, Amsterdam's largest empty office until it reopened as hotel and casino",
+    "new": "- the former KPN head office, once Amsterdam's largest vacant office building, converted into a conference hotel",
+    "kind": "narrowed",
+    "source": "https://insights.ehotelier.com/?p=33815",
+    "evidence": "Largest vacant office building in Amsterdam converted to a hotel ... the former KPN telecom Headquarters ... will be converted into a conference hotel (the name Ven and the casino are not in a readable source)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- Ven, het voormalige hoofdkantoor van KPN, het grootste leegstaande kantoor van Amsterdam tot er een hotel en casino in kwamen",
+    "new": "- het voormalige hoofdkantoor van KPN, ooit het grootste leegstaande kantoorgebouw van Amsterdam, verbouwd tot congreshotel",
+    "kind": "narrowed",
+    "source": "https://insights.ehotelier.com/?p=33815",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Sporen 1 en 2 bestaan niet voor de trein: die nummers hoorden bij het oude station",
+    "new": "Voor treinen zijn er hier geen sporen 1 en 2: die nummers waren van het oude station",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "summary": "A three-storey railway crossing under one space-frame \"table\": the Haarlem line at the bottom, the hall in the middle, the Schiphol line under a glass arch on top. It was built for Teleport, an office park with streets named after airports, which never really got off the ground.",
+   "translations": {
+    "nl": {
+     "summary": "Een spoorkruising van drie lagen onder één ruimtevakwerk als tafel: beneden de lijn naar Haarlem, in het midden de hal, bovenop de Schiphollijn onder een glazen boog. Gebouwd voor Teleport, een kantorenpark met vliegveldnamen als straatnamen, dat nooit echt van de grond kwam.",
+     "body": "Station Sloterdijk ging vanaf 1983 in delen open en werd in 1986 een kruisingsstation, toen de lijn naar Schiphol op de bovenste verdieping aankwam. Architect Harry Reijnders zette een ruimtevakwerk als een tafel van 50 bij 65 meter over twee spoorlijnen die elkaar op verschillende hoogte kruisen: beneden de Oude Lijn naar Haarlem en de lijn naar Zaandam, daarboven de hal voor reizigers, bovenop de Schiphollijn onder een glazen boog van 150 meter. Voor treinen zijn er hier geen sporen 1 en 2: die nummers waren van het oude station, dat in 1985 dichtging. Nu dragen de metroperrons ze. Sporen 9 en 10, aan de Hemboog uit 2008, liggen een paar honderd meter verderop met een eigen ingang. Per dag stappen er zo'n 57.000 mensen in of uit (2024).\n\nRond het station kwam Teleport, een bedrijvenpark met straten genoemd naar vliegvelden: Orly, Changi, Barajas, Narita, Arlanda. Door de snelle opkomst van ICT en de vastgoedcrisis kwam het nooit echt van de grond; in de crisis liepen kantoren leeg, en sommige nieuwe kregen nooit een huurder voordat er een hotel in kwam. Sinds 2012 maakt de gemeente er een gemengde wijk van, en nu is het de rand van Haven-Stad.\n\nLet op:\n- het Orlyplein voor het station: het oude busstation op het dak, na 2010 verlaten, werd een tuin van grassen, bollen en struiken op het verhoogde dek boven het spoor (2014–2015), met paden waar in de sneeuw de voetstappen liepen\n- VERTICAL (Barajasweg 70, 2023), 168 woningen van NL Architects en vijf andere bureaus, beplant voor \"menselijke en niet-menselijke bewoners\", en het met hout beklede Wasa Student Village (2017), gebouwd om na tien jaar weer uit elkaar te worden gehaald\n- het voormalige hoofdkantoor van KPN, ooit het grootste leegstaande kantoorgebouw van Amsterdam, verbouwd tot congreshotel"
+    }
+   },
+   "body": "Station Sloterdijk opened in stages from 1983 and became a crossing station in 1986, when the line to Schiphol arrived on its top deck. Architect Harry Reijnders set a space-frame \"table\" of 50 by 65 metres over two railways that cross at different heights: the old Haarlem line and the Zaandam line at ground level, a hall above for passengers, and on top the Schiphol line under a 150-metre glass arch. There are no tracks 1 and 2 for trains: those numbers belonged to the old station, which closed in 1985. The metro platforms carry them now. Tracks 9 and 10, on the Hemboog curve of 2008, are a few hundred metres off with their own entrance. About 57,000 people get on or off here each day (2024).\n\nAround it came Teleport, a business park with streets named after airports: Orly, Changi, Barajas, Narita, Arlanda. Fast change in ICT and the property crisis meant it never really got off the ground; in the crisis offices emptied, and some new ones never had a tenant before turning into hotels. Since 2012 the city has been turning the area into a mixed neighbourhood, and it is now the edge of Haven-Stad.\n\nLook for:\n- the Orlyplein in front of the station: the old rooftop bus station, empty after 2010, turned into a garden of grasses, bulbs and shrubs on the raised deck over the tracks (2014–2015), its paths laid where people's footprints went in the snow\n- VERTICAL (Barajasweg 70, 2023), 168 homes by NL Architects and five other firms, planted for \"human and non-human residents\", and the wood-clad Wasa Student Village (2017), built to be taken apart after ten years\n- the former KPN head office, once Amsterdam's largest vacant office building, converted into a conference hotel"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "p5e3zkomtpk8ca3nr8w75530",
+  "title": "'t Landje, the hut-building island (Rembrandtpark)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "It started in the early 1970s, when the park was still half wasteland, and for decades it was run by its founder Piet de Bake, known as the island's \"mayor\".",
+    "new": "It started around 1970; its founder Piet de Bake, still there forty years on, is known as the island's \"mayor\".",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/11489/de-wilt-de-boom-in",
+    "evidence": "Piet de Bake, oprichter van de bijna veertigjarige speelplek (2010); G2: Piet de Bake, de burgemeester van Het Landje (half wasteland and decades of running it not in sources)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het begon begin jaren zeventig, toen het park nog half braakland was, en jarenlang werd het geleid door oprichter Piet de Bake, de \"burgemeester\" van Het Landje.",
+    "new": "Het begon rond 1970; oprichter Piet de Bake, veertig jaar later nog altijd van de partij, heet de \"burgemeester\" van Het Landje.",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/11489/de-wilt-de-boom-in",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "while trying not to make it too tidy",
+    "new": "and it did not end up too tidy",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/11489/de-wilt-de-boom-in",
+    "evidence": "Het is gelukkig niet te netjes geworden (an outcome, not a stated aim)"
+   },
+   {
+    "field": "nl.body",
+    "old": "en zorgde ervoor dat het niet te netjes werd",
+    "new": "en het werd gelukkig niet te netjes",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/11489/de-wilt-de-boom-in",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": " It is a place for children; adults see it from the park paths around the island.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on what adults can see from the paths"
+   },
+   {
+    "field": "nl.body",
+    "old": " Het is er voor kinderen; volwassenen zien het vanaf de parkpaden rond het eiland.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the self-built huts, each one different and none of them finished;",
+    "new": "- the self-built huts;",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/11489/de-wilt-de-boom-in",
+    "evidence": "zelfgebouwde hutten (no source says none are finished)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de zelfgebouwde hutten, allemaal anders en geen enkele af;",
+    "new": "- de zelfgebouwde hutten;",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/11489/de-wilt-de-boom-in",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "timmeren hun eigen hut tussen de bomen op een eilandje in het Rembrandtpark",
+    "new": "timmeren hun eigen hut op een beboomd eilandje midden in het Rembrandtpark",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Het Landje (the little plot) is a *bouwspeelplaats*, a building playground: children get wood, nails and tools and build their own huts among the trees on an island in the Rembrandtpark. A hut stays up as long as its builders keep coming back to it. Around the huts are ponies, rabbits and guinea pigs to look after, canoes, pedal boats and rafts on the inner ditches, a craft room and a kitchen.\n\nIt started around 1970; its founder Piet de Bake, still there forty years on, is known as the island's \"mayor\". Many of the staff are former Landje children, and grown-ups come back to tell him they are getting married. In 2009 Het Parool, after testing the city's playgrounds, called it the most fun in Amsterdam. Filmmaker Susan Koenen spent three weeks here following four children, and her documentary *Het Wilde Westen* (The Wild West) premiered at IDFA in November 2010; it shows the paradise and also the stealing, fighting and bullying.\n\nThe district renovated it in 2010 with a new jetty, bridge, pony paddock and a deluxe treehouse with a fireman's pole, and it did not end up too tidy. It is open all year, Tuesday to Friday afternoons and Saturdays, mostly free, with its own pony club.\n\nLook for:\n- the self-built huts;\n- the treehouse with its fireman's pole;\n- the ponies in their paddock.",
+   "translations": {
+    "nl": {
+     "body": "Het Landje is een bouwspeelplaats: kinderen krijgen hout, spijkers en gereedschap en timmeren hun eigen hut op een beboomd eilandje midden in het Rembrandtpark. Een hut blijft staan zolang de bouwers er blijven komen. Rond de hutten zijn pony's, konijnen en cavia's om te verzorgen, kano's, waterfietsen en vlotten op de binnensloten, een knutsellokaal en een keuken.\n\nHet begon rond 1970; oprichter Piet de Bake, veertig jaar later nog altijd van de partij, heet de \"burgemeester\" van Het Landje. Veel medewerkers zijn vroegere Landje-gangers, en volwassenen komen terug om te vertellen dat ze gaan trouwen. Het Parool noemde het in 2009, na een onderzoek naar de speeltuinen van de stad, de leukste van Amsterdam. Documentairemaakster Susan Koenen volgde hier drie weken lang vier kinderen; haar film *Het Wilde Westen* ging in november 2010 in première op het IDFA en laat het paradijs zien, maar ook het stelen, vechten en pesten.\n\nHet stadsdeel knapte het in 2010 op, met een nieuwe aanlegsteiger, brug, ponybak en een luxe boomhut met glijpaal, en het werd gelukkig niet te netjes. Het is het hele jaar open, dinsdag tot en met vrijdag 's middags en op zaterdag, grotendeels gratis, met een eigen ponyclub.\n\nLet op:\n- de zelfgebouwde hutten;\n- de boomhut met de glijpaal;\n- de pony's in hun bak."
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "h5a0i8jdpi86qu6rnuaxtez5",
+  "title": "Apes under the Oude Haagsebrug (Pipsqueak was here)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "carried the first motorway from Amsterdam to The Hague over the Ringvaart from the 1930s",
+    "new": "carried the old motorway between Amsterdam and The Hague, one of the first in the country, over the Ringvaart from the 1930s",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Oude_Haagsebrug",
+    "evidence": "gebouwd als onderdeel van Rijksweg 4, een van de eerste autosnelwegen van Nederland (not the first Amsterdam-The Hague motorway as such)"
+   },
+   {
+    "field": "nl.body",
+    "old": "liep vanaf de jaren dertig de eerste snelweg van Amsterdam naar Den Haag over de Ringvaart",
+    "new": "liep vanaf de jaren dertig de vroegere snelweg van Amsterdam naar Den Haag, een van de eerste van het land, over de Ringvaart",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Oude_Haagsebrug",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "posed like an old state portrait, under the line \"The circus has left town... We just stuck around\"",
+    "new": "posed like an old state portrait, titled \"The circus has left town... We just stuck around\"",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/The_circus_has_left_town...We_just_stuck_around",
+    "evidence": "the sources give this as the title of the mural; none says the words are painted on the wall"
+   },
+   {
+    "field": "nl.body",
+    "old": "geposeerd als op een ouderwets staatsieportret, met de tekst 'The circus has left town... We just stuck around'",
+    "new": "geposeerd als op een ouderwets staatsieportret, onder de titel 'The circus has left town... We just stuck around'",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/The_circus_has_left_town...We_just_stuck_around",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "five apes, one per panel, with the same line",
+    "new": "five apes, one per panel, under the same title",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Oude_Haagsebrug",
+    "evidence": "een vernieuwde muurschildering The circus has left town...We just stuck around"
+   },
+   {
+    "field": "nl.body",
+    "old": "vijf apen, ieder op een eigen paneel, met dezelfde tekst",
+    "new": "vijf apen, ieder op een eigen paneel, onder dezelfde titel",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Oude_Haagsebrug",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the five apes and the title on the east abutment",
+    "new": "- the five apes on the east abutment",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Oude_Haagsebrug",
+    "evidence": "op het oostelijk landhoofd (title text on the wall not in sources)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de vijf apen en de titel op het oostelijke landhoofd",
+    "new": "- de vijf apen op het oostelijke landhoofd",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Oude_Haagsebrug",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "het blauw, geel en grijs uit het wapen van Haarlemmermeer zie je vanaf de Amsterdamse kant, het rood, wit en zwart van Amsterdam vanaf de Haarlemmermeerse kant",
+    "new": "wie aan de Amsterdamse oever staat, ziet blauw, geel en grijs (de kleuren van het Haarlemmermeerse wapen); wie aan de overkant staat, ziet het Amsterdamse rood, wit en zwart",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "The Oude Haagsebrug carried the old motorway between Amsterdam and The Hague, one of the first in the country, over the Ringvaart from the 1930s; later it was a bus-only bridge to Schiphol. In 2008 the anonymous duo Pipsqueak was here painted, without permission and with their children, a black-and-white group portrait of ten apes on the Amsterdam abutment, posed like an old state portrait, titled \"The circus has left town... We just stuck around\". Locals started calling it the Apenbrug (ape bridge). The city's public-art database adds a personal reason: the apes were painted on Father's Day as a landmark for one painter's father, who had dementia, so that he knew he was on his way to his son.\n\nIn January 2024 the worn-out bridge was demolished in six weeks. Residents did not want to lose the apes, and this time the duo got a commission: since August 2024 the new abutment has five apes, one per panel, under the same title. The duo saw it as a sign of how far graffiti had come, from illegal to commissioned. Jan van der Ploeg painted the piers in colour planes after De Stijl: blue, yellow and grey from the Haarlemmermeer coat of arms face Amsterdam, and Amsterdam's red, white and black face the Haarlemmermeer.\n\nThe mural is only seen from the quay paths along the Ringvaart, not from the bridge.\n\nLook for:\n- the five apes on the east abutment\n- Van der Ploeg's colours on the piers, changing as you walk\n- more Pipsqueak bears and portraits on the columns of the A4 viaducts nearby",
+   "translations": {
+    "nl": {
+     "body": "Over de Oude Haagsebrug liep vanaf de jaren dertig de vroegere snelweg van Amsterdam naar Den Haag, een van de eerste van het land, over de Ringvaart; later werd het een busbaan naar Schiphol. In 2008 schilderde het anonieme duo Pipsqueak was here, zonder toestemming en samen met hun kinderen, een zwart-wit groepsportret van tien apen op het Amsterdamse landhoofd, geposeerd als op een ouderwets staatsieportret, onder de titel 'The circus has left town... We just stuck around'. In de buurt heette de brug al snel de Apenbrug. Volgens de kunstdatabase van de stad zat er ook een persoonlijk verhaal achter: de apen werden op Vaderdag gemaakt als herkenningspunt voor de dementerende vader van een van de makers, zodat hij wist dat hij op weg was naar zijn zoon.\n\nIn januari 2024 werd de versleten brug in zes weken gesloopt. De buurt wilde de apen niet kwijt, en dit keer kreeg het duo een opdracht: sinds augustus 2024 staan er op het nieuwe landhoofd vijf apen, ieder op een eigen paneel, onder dezelfde titel. Voor de makers was het een teken van hoe de waardering voor graffiti was veranderd, van illegaal naar in opdracht. Jan van der Ploeg beschilderde de pijlers met kleurvlakken in de geest van De Stijl: wie aan de Amsterdamse oever staat, ziet blauw, geel en grijs (de kleuren van het Haarlemmermeerse wapen); wie aan de overkant staat, ziet het Amsterdamse rood, wit en zwart.\n\nDe schildering is alleen te zien vanaf de kadewegen langs de Ringvaart, niet vanaf de brug.\n\nLet op:\n- de vijf apen op het oostelijke landhoofd\n- de kleurvlakken van Van der Ploeg op de pijlers, die verschuiven terwijl je loopt\n- meer beren en portretten van Pipsqueak op de pijlers van de A4-viaducten in de buurt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ri0kga89s3io6jgwwjy9n6i3",
+  "title": "De Antifascist (Leo Braat)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Kraan's widow unveiled it in February 1966, the month of the strike's 25th anniversary.",
+    "new": "It was unveiled on 26 February 1966, 25 years after the strike.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Willem_Kraan",
+    "evidence": "Het monument 'De antifascist' werd op 26 februari 1966 ... onthuld; the sources disagree on who unveiled it (an Anefo caption and file name say the widow, the Wikipedia caption and a film description say his daughter)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De weduwe van Kraan onthulde het beeld in februari 1966, de maand waarin de staking 25 jaar geleden was.",
+    "new": "Het beeld werd op 26 februari 1966 onthuld, 25 jaar na de staking.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Willem_Kraan",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "he saw the German police raid on the Jewish quarter around the Waterlooplein and the Nieuwmarkt",
+    "new": "he was visiting his in-laws on the Nieuwmarkt, at the edge of the Jewish quarter, and saw the German police raid there",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Willem_Kraan",
+    "evidence": "Op zondag 23 februari bezocht hij zijn schoonouders aan de Nieuwmarkt, aan de rand van de Jodenbuurt. Daar werd hij getuige van de gewelddadige razzia (Waterlooplein not named)"
+   },
+   {
+    "field": "body",
+    "old": "and told his friend Piet Nak, a refuse collector, that \"the lot has to stop\"",
+    "new": "and told his friend Piet Nak, a refuse collector, that \"the lot has to stop\"",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Willem_Kraan",
+    "evidence": "Nak in De bezetting (De Jong 1972 p. 913): die boel moet plat"
+   },
+   {
+    "field": "nl.body",
+    "old": "bij de rechterschouder staat 'aan de onbekende soldaat'",
+    "new": "bij de rechterschouder lees je 'aan de onbekende soldaat'",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run (inscription kept)"
+   }
+  ],
+  "patch": {
+   "body": "The bust on the corner of the Willem Kraanstraat is not a portrait of Willem Kraan. Leo Braat made it in 1936, probably of a fighter in the Spanish Civil War; \"aan de onbekende soldaat\" (to the unknown soldier) is written at the right shoulder. Braat, a sculptor, poet and critic, was himself in the artists' resistance during the war, around Gerrit van der Veen, and edited the illegal *De Vrije Kunstenaar*. In 1966 the head was cast in bronze and set on a stone base with a plaque: \"De Antifascist, voor Willem Kraan\". It was unveiled on 26 February 1966, 25 years after the strike.\n\nKraan was a street paver with the city's Public Works and a member of the Communist Party. On Sunday 23 February 1941 he was visiting his in-laws on the Nieuwmarkt, at the edge of the Jewish quarter, and saw the German police raid there, and told his friend Piet Nak, a refuse collector, that \"the lot has to stop\". The two cycled across the city calling out their colleagues, and on 25 February Amsterdam went on strike against the persecution of the Jews. Kraan was arrested in November 1941, sentenced to death in July 1942 and shot with 32 others at Soesterberg on 19 November 1942.\n\nLook for:\n- the words at the right shoulder\n- the bronze plaque set into the base\n- Limpers's *Kora* two streets north, a memorial to a resistance sculptor from the same circle",
+   "translations": {
+    "nl": {
+     "body": "De buste op de hoek van de Willem Kraanstraat is geen portret van Willem Kraan. Leo Braat maakte hem in 1936, waarschijnlijk als een strijder uit de Spaanse Burgeroorlog; bij de rechterschouder lees je 'aan de onbekende soldaat'. Braat, beeldhouwer, dichter en criticus, zat in de oorlog zelf in het kunstenaarsverzet rond Gerrit van der Veen en was redacteur van het illegale blad De Vrije Kunstenaar. In 1966 werd de kop in brons gegoten en op een stenen voetstuk gezet, met een plaquette: 'De Antifascist, voor Willem Kraan'. Het beeld werd op 26 februari 1966 onthuld, 25 jaar na de staking.\n\nKraan was stratenmaker bij Publieke Werken en lid van de CPN. Op zondag 23 februari 1941 zag hij bij zijn schoonouders aan de Nieuwmarkt hoe Duitse politie in de Jodenbuurt huishield. Ontdaan vertelde hij het aan zijn vriend, vuilnisman Piet Nak: daar moest iets aan gebeuren, de boel moest plat. Samen fietsten ze de stad door om collega's op te roepen, en op 25 februari legde Amsterdam het werk neer tegen de Jodenvervolging. Kraan werd in november 1941 opgepakt, in juli 1942 ter dood veroordeeld en op 19 november 1942 met 32 anderen bij Soesterberg gefusilleerd.\n\nLet op:\n- de woorden bij de rechterschouder\n- de bronzen plaquette in het voetstuk\n- Kora van Limpers twee straten noordelijker, het gedenkteken voor een beeldhouwer uit dezelfde kring"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "c18xu67zkj5nuzc29njideyn",
+  "title": "O, Kora, dochter van Zeus (Johan Limpers)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "in 1969 friends had his prize piece cast as his memorial",
+    "new": "in 1969 a committee in his memory had his prize piece cast",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/871",
+    "evidence": "op initiatief van een comité ter nagedachtenis aan de kunstenaar alsnog in 1969 in brons uitgevoerd (friends not stated)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "in 1969 lieten vrienden zijn bekroonde beeld gieten als gedenkteken",
+    "new": "in 1969 liet een comité ter nagedachtenis zijn bekroonde beeld gieten",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/871",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "In 1940 Johan Limpers, 24 and just out of the Rijksakademie, won the Prix de Rome, the top Dutch prize for young artists, with",
+    "new": "In 1940 Johan Limpers, after six years at the Rijksakademie, won the prestigious Prix de Rome with",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1483/amsterdam-kore",
+    "evidence": "Na zes jaar aan de Amsterdamse Rijksakademie te hebben gestudeerd, won hij de Prix de Rome; buitenkunst: de prestigieuze Prix de Rome (age and \"top prize for young artists\" not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "In 1940 won de 24-jarige Johan Limpers, net klaar aan de Rijksakademie, de Prix de Rome met",
+    "new": "In 1940 won Johan Limpers, na zes jaar Rijksakademie, de gerenommeerde Prix de Rome met",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1483/amsterdam-kore",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "With the sculptor Gerrit van der Veen he set up",
+    "new": "With the sculptor and resistance leader Gerrit van der Veen he set up",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen",
+    "evidence": "een Nederlandse beeldhouwer en een leider van het Nederlands verzet"
+   },
+   {
+    "field": "body",
+    "old": "but on a plain block",
+    "new": "but on a plain, column-shaped pedestal",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1483/amsterdam-kore",
+    "evidence": "geplaatst op een zuilvormig voetstuk ... op een strakke sokkel"
+   },
+   {
+    "field": "nl.body",
+    "old": "maar op een strak voetstuk",
+    "new": "maar op een strakke, zuilvormige sokkel",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1483/amsterdam-kore",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The street is named after Willem Arondeus, another of the register attackers, executed in 1943",
+    "new": "The street is named after Willem Arondeus, another of the register attackers, executed in 1943",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Willem_Arond%C3%A9us",
+    "evidence": "Arondéus (Naarden 1894 – Haarlem, 1 juli 1943) ... geëxecuteerd; deelnemers aan de overval op het bevolkingsregister"
+   },
+   {
+    "field": "nl.body",
+    "old": "Met beeldhouwer Gerrit van der Veen richtte hij het illegale blad De Vrije Kunstenaar op.",
+    "new": "Samen met beeldhouwer en verzetsleider Gerrit van der Veen begon hij De Vrije Kunstenaar, een verboden blad.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "summary": "The bronze girl that won Johan Limpers the Prix de Rome in 1940. Four years later he was shot as a resistance fighter; in 1969 a committee in his memory had his prize piece cast, on a street named after a comrade from the same attack.",
+   "translations": {
+    "nl": {
+     "summary": "Het bronzen meisje waarmee Johan Limpers in 1940 de Prix de Rome won. Vier jaar later werd hij als verzetsman gefusilleerd; in 1969 liet een comité ter nagedachtenis zijn bekroonde beeld gieten, in een straat genoemd naar een kameraad van dezelfde aanslag.",
+     "body": "In 1940 won Johan Limpers, na zes jaar Rijksakademie, de gerenommeerde Prix de Rome met een korè: een staand, gekleed meisje in de archaïsche Griekse trant. Toen kwam de bezetting. Limpers weigerde werk in te sturen naar tentoonstellingen van het Duitse departement voor cultuur en sloeg een extra toelage van de bezetter af. Samen met beeldhouwer en verzetsleider Gerrit van der Veen begon hij De Vrije Kunstenaar, een verboden blad. Hij vervalste persoonsbewijzen, smokkelde twee Joodse kinderen Duitsland uit en deed op 27 maart 1943 mee aan de aanslag op het Amsterdamse bevolkingsregister. In 1944 werd hij opgepakt, en op 10 juni 1944 werd hij met Van der Veen en drukker Frans Duwaer in de duinen bij Overveen gefusilleerd. Hij ligt op de Eerebegraafplaats Bloemendaal.\n\nIn 1969 liet een comité ter nagedachtenis van Limpers het bekroonde ontwerp in brons gieten en hier neerzetten. Niet op de sokkel die Limpers zelf had bedacht, met reliëfs van ontkiemend en vergaand plantenleven, maar op een strakke, zuilvormige sokkel. De straat is genoemd naar Willem Arondeus, die ook aan de aanslag op het register meedeed en in 1943 werd gefusilleerd, en het meisje kijkt uit over de straat die naar Limpers zelf heet. Twee straten verderop staat De Antifascist van Leo Braat, redacteur van hetzelfde illegale blad.\n\nLet op:\n- de tekst 'IN 1940 GEMAAKT DOOR JOHAN LIMPERS DIE IN 1944 ALS VERZETSSTRIJDER WERD GEFUSILLEERD'\n- de straatnaamborden van de Arondeusstraat en de Johan Limpersstraat"
+    }
+   },
+   "body": "In 1940 Johan Limpers, after six years at the Rijksakademie, won the prestigious Prix de Rome with a *korè*: a standing, robed girl in the archaic Greek manner. Then came the occupation. Limpers refused to send work to exhibitions run by the German culture department and turned down an extra grant the occupiers offered him. With the sculptor and resistance leader Gerrit van der Veen he set up the illegal paper *De Vrije Kunstenaar* (the free artist), he forged identity cards and smuggled two Jewish children out of Germany, and on 27 March 1943 he took part in the attack on the Amsterdam population register. He was arrested in 1944 and shot in the dunes near Overveen on 10 June 1944, together with Van der Veen and the printer Frans Duwaer. He lies in the Eerebegraafplaats Bloemendaal.\n\nIn 1969 a committee in his memory had the prize piece cast in bronze and set up here. It does not stand on the plinth Limpers designed, which had reliefs of plants sprouting and dying, but on a plain, column-shaped pedestal. The street is named after Willem Arondeus, another of the register attackers, executed in 1943, and the girl looks out over the street named after Limpers himself. Two streets further, Leo Braat's *De Antifascist* is by an editor of the same illegal paper.\n\nLook for:\n- the inscription \"IN 1940 GEMAAKT DOOR JOHAN LIMPERS DIE IN 1944 ALS VERZETSSTRIJDER WERD GEFUSILLEERD\"\n- the street signs of the Arondeusstraat and the Johan Limpersstraat"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen",
+   "https://nl.wikipedia.org/wiki/Willem_Arond%C3%A9us"
+  ]
+ },
+ {
+  "id": "fmu7d4zq3ktackomktr0jex4",
+  "title": "Ru Paré memorial stone (Ru Paré Community)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The streets of this neighbourhood are named after painters, so Lebeau has one; a primary school on it was named after Paré.",
+    "new": "A primary school on the Chris Lebeaustraat was named after Paré.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source says the neighbourhood streets are named after painters or links the two names"
+   },
+   {
+    "field": "nl.body",
+    "old": "De straten in deze buurt dragen namen van schilders, dus ook Lebeau kreeg er een; een basisschool aan die straat werd naar Paré genoemd.",
+    "new": "Een basisschool aan de Chris Lebeaustraat kreeg de naam van Paré.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "A black stone by the old entrance on the Chris Lebeaustraat tells her story, her paintings hang inside",
+    "new": "A plaque by the old school entrance on the Chris Lebeaustraat remembers her, her paintings hang inside",
+    "kind": "narrowed",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/257755/nieuw-west-toen-nu-voormalig-schoolgebouw-ru-pare-shirley-brand",
+    "evidence": "kreeg de naamgeefster naast een plaquette bij de schoolingang ... (colour and text of the stone only from a photo; tracesofwar returns 403)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Een zwarte steen bij de oude ingang aan de Chris Lebeaustraat vertelt haar verhaal, binnen hangen schilderijen van haar",
+    "new": "Een plaquette bij de oude schoolingang aan de Chris Lebeaustraat houdt haar nagedachtenis levend, binnen hangen schilderijen van haar",
+    "kind": "narrowed",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/257755/nieuw-west-toen-nu-voormalig-schoolgebouw-ru-pare-shirley-brand",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "en sinds 2021 is er elk jaar een Ru Paré Lezing over kunst en verzet",
+    "new": "en sinds 2021 wordt er jaarlijks een lezing over kunst en verzet in haar naam gehouden",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "Henrica \"Ru\" Paré (1896–1972) was a Hague painter who refused to join the Nazi Kultuurkamer, gave up painting and spent the war finding hiding places for Jewish children. Working with the Utrecht Kindercomité, she found addresses for 52 children, who knew her as Tante Zus. She turned her paint box into a case of supplies and cycled hundreds of kilometres to bring them clothes and toys. When false identity papers were needed she went to the artist Chris Lebeau, who removed the black J for Jood (Jew); Lebeau died in Dachau in 1945. Sixteen of the children lost their parents; with her help Leny and Leo Levin adopted them, and in 1949 the family went to Israel. In 1968 Yad Vashem named Paré Righteous Among the Nations.\n\nA primary school on the Chris Lebeaustraat was named after Paré. Around 2000 it was known as the worst primary school in the country. It moved out (it closed here in 2014), and in 2016 the building reopened as the Ru Paré Community, a neighbourhood living room that kept the name on purpose. A plaque by the old school entrance on the Chris Lebeaustraat remembers her, her paintings hang inside, and since 2021 there has been a yearly Ru Paré lecture on art and resistance.\n\nLook for:\n- the memorial stone by the former school entrance\n- the huge portrait of Paré on the Thorn Prikkerstraat side, painted in 2020 by local young people with Young in Prison",
+   "translations": {
+    "nl": {
+     "body": "Henrica \"Ru\" Paré (1896–1972) was een Haagse schilderes die weigerde lid te worden van de Kultuurkamer, haar schilderwerk opzijzette en in de oorlog onderduikadressen zocht voor Joodse kinderen. Samen met het Utrechts Kindercomité vond ze plekken voor 52 kinderen, die haar kenden als Tante Zus. Haar schilderskist maakte ze tot reiskoffer vol spullen, en op haar fiets reed ze honderden kilometers om de kinderen kleren en speelgoed te brengen. Waren er valse persoonsbewijzen nodig, dan ging ze naar kunstenaar Chris Lebeau, die de zwarte J uit de papieren haalde; Lebeau stierf in 1945 in Dachau. Zestien van de kinderen verloren hun ouders; mede dankzij haar konden Leny en Leo Levin hen adopteren, en in 1949 vertrok het gezin naar Israël. In 1968 werd Paré door Yad Vashem erkend als Rechtvaardige onder de Volkeren.\n\nEen basisschool aan de Chris Lebeaustraat kreeg de naam van Paré. Rond 2000 stond ze bekend als de slechtste basisschool van Nederland. De school vertrok (hier sloot ze in 2014), en in 2016 ging het gebouw open als Ru Paré Community, een huiskamer van de wijk die de naam bewust hield. Een plaquette bij de oude schoolingang aan de Chris Lebeaustraat houdt haar nagedachtenis levend, binnen hangen schilderijen van haar, en sinds 2021 wordt er jaarlijks een lezing over kunst en verzet in haar naam gehouden.\n\nLet op:\n- de gedenksteen bij de voormalige schoolingang\n- het grote portret van Paré aan de kant van de Thorn Prikkerstraat, in 2020 geschilderd door jongeren uit de buurt met Young in Prison"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "w8t8gkvep89w87r0t8w20utm",
+  "title": "The Rooie Reus, Sloten's champion copper beech",
+  "changes": [
+   {
+    "field": "nl.body",
+    "old": "In 2011 hield Het Parool een prijsvraag voor de mooiste boom van Amsterdam.",
+    "new": "In 2011 liet Het Parool lezers kiezen welke boom in Amsterdam de mooiste was.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "body": "In de tuin van de voormalige pastorie achter de Sloterkerk staat een bruine beuk, geplant rond 1865 en in het dorp de Rooie Reus genoemd. In 2011 liet Het Parool lezers kiezen welke boom in Amsterdam de mooiste was. Een Slotenaar droeg de beuk voor en die won, vooral om zijn knobbelige stam; een plataan in het Leidsebosje werd tweede. De gemeente rekent hem nu tot haar kampioenbomen: 119 bomen van een klasse apart, de dikste, oudste of zeldzaamste of met een bijzonder verhaal, op zo'n miljoen bomen in de stad. Met een stamomtrek van 5,65 meter is hij de dikste van de vijf kampioenbomen in Sloten en Oud Osdorp.\n\nDe boom is particulier bezit. Het echtpaar dat sinds 2013 in de pastorie woont, laat hem om de paar jaar technisch onderzoeken. Een geluidsscan in 2020 liet zien dat de stam op drie meter hoogte grotendeels hol is, met een zadelzwam, maar dat het resterende hout van goede kwaliteit is en de boom gezond. In juni 2023 namen boomverzorgers de langste takken wat in en brachten ze kroonankers aan: slap hangende touwen die pas strak komen te staan als een tak dreigt uit te breken, zodat die blijft hangen en niet terechtkomt op iemand die over het paadje naar het gebouw van Vink en Boer loopt. De zwam kan geen kwaad, en als er een holte onder ontstaat, gaan er misschien vleermuizen in wonen.\n\nLet op:\n- de stam en de kroon vanaf het pad naast de kerk (de tuin zelf is privé)\n- de zwarte touwen hoog in de kroon, een zoekplaatje\n- aan de Sloterweg tegenover de Sint-Pancratiuskerk de andere kampioenboom van het dorp: een Oosterse plataan uit 1910, met een stamomtrek van 4,27 meter"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "m53ugsviw55uvfe3xvz9xiuh",
+  "title": "Trimmers on bridge 678 (Martie van der Loo)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "thieves like the artist's own dog best.",
+    "new": "a dog is the thieves' favourite.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Trimmers",
+    "evidence": "De hond was geliefd bij rovers (which of the two dogs is not said)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "dieven hebben het vooral op de hond van de kunstenares voorzien.",
+    "new": "dieven hebben het vooral op een van de honden gemunt.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Trimmers",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "because it read best from below",
+    "new": "because it gave the best effect",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Trimmers",
+    "evidence": "De kunstenares koos voor zwart haar, omdat dat het beste effect gaf (from below not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "omdat dat van onderaf het best uitkwam",
+    "new": "omdat dat het mooiste effect opleverde",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Trimmers",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "crosses the avenue at a slant on a single concrete beam about 40 m long, weighing 60 tonnes",
+    "new": "crosses the avenue at a slant, which called for a concrete beam about 40 m long, weighing 60 tonnes",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Brug_678",
+    "evidence": "Vanwege die schuine overspanning moest er gebruik gemaakt worden van een betonnen ligger van circa 40 meter, 60 ton (the bridges also rest on six prefab beams; single not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "ligt schuin over de laan op één betonnen ligger van zo'n 40 meter en 60 ton",
+    "new": "ligt schuin over de laan; daarom was er een betonnen ligger van zo'n 40 meter en 60 ton nodig. Hij is met hout bekleed",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Brug_678",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the Allende monument just south-east, between this bridge and bridge 677",
+    "new": "- the Allende monument on the east side, between this bridge and bridge 677",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Brug_678",
+    "evidence": "Tussen beide bruggen in aan de oostkant staat het Allendemonument"
+   },
+   {
+    "field": "nl.body",
+    "old": "- het Allendemonument even ten zuidoosten, tussen deze brug en brug 677",
+    "new": "- het Allendemonument aan de oostkant, tussen deze brug en brug 677",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Brug_678",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "De twee honden zijn haar eigen Chet, genoemd naar Chet Baker, en Pacha, een bevriende hond.",
+    "new": "Van de twee honden is Chet, vernoemd naar Chet Baker, van haarzelf; Pacha hoorde bij vrienden.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "summary": "Twenty-five steel joggers and two dogs run along the outside of a park bridge over the President Allendelaan. The first set was vandalised, taken away for repair and destroyed by mistake; a dog is the thieves' favourite.",
+   "translations": {
+    "nl": {
+     "summary": "Vijfentwintig stalen trimmers en twee honden rennen over de buitenkant van een parkbrug over de President Allendelaan. De eerste serie werd vernield, weggehaald voor herstel en per vergissing vernietigd; dieven hebben het vooral op een van de honden gemunt.",
+     "body": "In 1983 kreeg Martie van der Loo de opdracht voor een kunstwerk bij het 25-jarig bestaan van de Westelijke Tuinsteden. Ze hing een groep hardlopers aan de leuningen van brug 678, waar een trimroute van het Sloterpark over de President Allendelaan gaat. Het was als tijdelijk bedoeld, maar de buurt vond de rennende dames en heren leuk en ze bleven hangen.\n\nHet park was in die jaren ruig. Armen en benen werden eraf gebroken, de beschadigde figuren werden gevaarlijk, en de verkeersdienst van de gemeente haalde ze weg om ze te laten herstellen. Door een misverstand werden ze vernietigd, en de kunstenares mocht opnieuw beginnen. De nieuwe serie is van staal: 25 trimmers in vijf typen, van wie shirt, broek, sokken en schoenen meer dan eens zijn bijgewerkt naar wat hardlopers op dat moment dragen. Van der Loo gaf ze zwart haar, omdat dat het mooiste effect opleverde. Van de twee honden is Chet, vernoemd naar Chet Baker, van haarzelf; Pacha hoorde bij vrienden. De hond is favoriet bij dieven en moest vaker vervangen worden dan welke trimmer ook.\n\nDe brug zelf, uit 1974–1975, ligt schuin over de laan; daarom was er een betonnen ligger van zo'n 40 meter en 60 ton nodig. Hij is met hout bekleed, zodat hij vanuit het park nauwelijks opvalt. Het houten dek en de leuningen werden eind 2016 vervangen.\n\nLet op:\n- de trimmers van onderaf, vanaf de weg of het fietspad, tegen de lucht\n- Chet tussen de lopers\n- het Allendemonument aan de oostkant, tussen deze brug en brug 677"
+    }
+   },
+   "body": "In 1983, for the 25th birthday of the Westelijke Tuinsteden, Martie van der Loo was asked for a piece of public art, and she hung a crowd of joggers on the railings of bridge 678, which carries a fitness route of the Sloterpark over the President Allendelaan. It was meant to be temporary, but the neighbours liked the runners and they stayed.\n\nThe park was rough in those years. Arms and legs were broken off, the damaged figures became a hazard, and the city's traffic department took them down to be restored. Through a misunderstanding they were destroyed instead, and the artist was asked to start again. The new set is in steel: 25 joggers in five types, whose shirts, shorts, socks and shoes have been updated more than once to keep up with what runners wear. Van der Loo gave them black hair because it gave the best effect. The two dogs are her own Chet, named after Chet Baker, and Pacha, a friend's dog. The dog is the thieves' favourite and has had to be replaced more often than any jogger.\n\nThe bridge itself, built in 1974–1975, crosses the avenue at a slant, which called for a concrete beam about 40 m long, weighing 60 tonnes, and is clad in wood so that it hardly shows from the park. Its wooden deck and railings were replaced in late 2016.\n\nLook for:\n- the runners from the road or the cycle path below, against the sky\n- Chet among the runners\n- the Allende monument on the east side, between this bridge and bridge 677"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "u5wd4on62zq5xe3elbom8d5y",
+  "title": "Nieuw Sloten, the Olympic village that wasn't",
+  "changes": [
+   {
+    "field": "body",
+    "old": "nine became pioneers in the new greenhouse area of Almere, others went to the Noordoostpolder. In October 1986 the Games went to Barcelona",
+    "new": "nine became pioneers in the new greenhouse area of Almere, and the last five scattered over the country, one of them to the Noordoostpolder. In 1986 the Games went to Barcelona",
+    "kind": "narrowed",
+    "source": "https://edepot.wur.nl/261226",
+    "evidence": "negen ... Buitenvaart in de gemeente Almere, twee ... midden van Noord-Holland, één ... Noordoostpolder, één ... Zuidoost Drenthe en één ... Zuidhollandse Eilanden; NS: In 1986 ... aan Barcelona toegewezen (month not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "anderen trokken naar de Noordoostpolder. In oktober 1986 gingen de Spelen naar Barcelona",
+    "new": "de laatste vijf verspreidden zich over het land, een van hen naar de Noordoostpolder. In 1986 gingen de Spelen naar Barcelona",
+    "kind": "narrowed",
+    "source": "https://edepot.wur.nl/261226",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "and by the 1980s the city was emptying of exactly the people it wanted to keep",
+    "new": "and by the 1980s the city was emptying, above all of its better-off residents",
+    "kind": "narrowed",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/410063/jarig-winkelcentrum-nieuw-sloten-over-verkassende-tuinders-en",
+    "evidence": "De stad liep leeg door haar eigen ingestelde overloopbeleid. Vooral de wat meer draagkrachtige bewoners vertrokken"
+   },
+   {
+    "field": "body",
+    "old": "Several architects each designed a part, Sjoerd Soeters among them, and the plan won",
+    "new": "The plan won",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source names Sjoerd Soeters or the division among architects"
+   },
+   {
+    "field": "nl.body",
+    "old": "Verschillende architecten kregen elk een deel, onder wie Sjoerd Soeters, en in 1996 kreeg het ontwerp",
+    "new": "In 1996 kreeg het ontwerp",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- Soeters's houses on the Blankenbergestraat\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de huizen van Soeters aan de Blankenbergestraat\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The last field towards the old village, De Vrije Geer, was saved by a referendum in 1995.",
+    "new": "The last field towards the old village, De Vrije Geer, was saved by a referendum in 1995.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Natuurpark_Vrije_Geer",
+    "evidence": "Op 17 mei 1995 werd een referendum georganiseerd onder de naam 'Red het Weilandje van Sloten'"
+   },
+   {
+    "field": "body",
+    "old": "in the jazz quarter of the same years",
+    "new": "in the jazz quarter",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zonder_titel_(Irina_Schrijer)",
+    "evidence": "Het beeld staat in een wijk waar alles naar jazz is vernoemd (age of the quarter not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "in de jazzbuurt uit dezelfde jaren",
+    "new": "in de jazzbuurt",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zonder_titel_(Irina_Schrijer)",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "in 1991 konden de eerste woningen in gebruik worden genomen",
+    "new": "in 1991 trokken de eerste bewoners erin",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "body": "From 1960 this was the Sloten market-garden area, itself the new home of growers pushed out when the Overtoomse Veld was built. In 1984 Amsterdam put itself forward for the 1992 Olympics and pencilled its Olympic village in here. From 1985 the city negotiated with the growers, and around 1986 it bought out 32 of them with a generous handshake: 18 started again around Aalsmeer, nine became pioneers in the new greenhouse area of Almere, and the last five scattered over the country, one of them to the Noordoostpolder. In 1986 the Games went to Barcelona, and the land lay empty.\n\nThe city used it anyway. In the 1970s Amsterdammers had been encouraged to move to Purmerend and Almere, and by the 1980s the city was emptying, above all of its better-off residents. The answer was the *compacte stad* (compact city): family houses with a garden and a parking space, built inside the city at 50 to 60 homes a hectare. Politicians planted a chestnut in the former greenhouse area on 23 October 1990, the first homes were ready in 1991, tram 2 was extended over the Antwerpenbaan the same year, and the district was officially finished on 1 January 1996. The plan won the BNA's environmental architecture prize in 1996. The name changed from Sloten to Nieuw-Sloten to avoid confusion with the village, and lost its hyphen along the way. Someone on the street-naming committee thought the outline looked like Belgium, so the square became the Belgiëplein. The last field towards the old village, De Vrije Geer, was saved by a referendum in 1995.\n\nLook for:\n- Rik van Dolderen's *Baldakijn* (canopy, 1994), a steel frame of H-beams by the Belgiëplein, and his *Lamellenhek* (1993), a brick and steel fence, in the Kasterleepark\n- east across the Plesmanlaan, in the jazz quarter (Ben Websterstraat, Bessie Smithbrug), Irini Schrijer's untitled work of 1993, locally *Plateau met lijst*: a tilted stone square patterned like giraffe skin, with an empty steel frame standing on it like a gate between square and green\n- at the Sloterweg roundabout, Herman Makkink's Vlindermolen, the district's landmark (see Vlindermolen (\"de haas\"))",
+   "translations": {
+    "nl": {
+     "body": "Tussen 1960 en 1988 lag hier het Tuinbouwgebied Sloten, waar de tuinders terechtkwamen die moesten wijken voor de bouw van het Overtoomse Veld. In 1984 stelde Amsterdam zich kandidaat voor de Olympische Spelen van 1992, en het Olympisch dorp moest hier komen. Vanaf 1985 werd met de tuinders onderhandeld, en rond 1986 waren 32 van hen met een ferme financiële handdruk uitgekocht: achttien begonnen opnieuw in de regio Aalsmeer, negen werden pionier in het nieuwe tuinbouwgebied Buitenvaart in Almere, de laatste vijf verspreidden zich over het land, een van hen naar de Noordoostpolder. In 1986 gingen de Spelen naar Barcelona, en het voormalige tuinbouwgebied lag er leeg bij.\n\nDe gemeente herpakte zich. In de jaren zeventig waren Amsterdammers aangemoedigd naar Purmerend en Almere te verhuizen, en tien jaar later liep de stad leeg, vooral van de wat draagkrachtiger bewoners. Het antwoord heette de compacte stad: eengezinswoningen met tuin en parkeerplek, binnen de stadsgrenzen, met vijftig tot zestig woningen per hectare. Op 23 oktober 1990 plantten politici een kastanjeboom in het voormalige kassengebied, in 1991 trokken de eerste bewoners erin, tramlijn 2 werd datzelfde jaar over de Antwerpenbaan verlengd, en op 1 januari 1996 werd de wijk officieel opgeleverd. In 1996 kreeg het ontwerp de Omgevingsarchitectuurprijs van de BNA. Om verwarring met het dorp te voorkomen werd Sloten Nieuw-Sloten, waarna het streepje ook verdween. Een lid van de straatnamencommissie vond dat de omtrek van de wijk op België leek, en zo kwam er een Belgiëplein. Het laatste weiland richting het oude dorp, de Vrije Geer, werd in 1995 met een referendum gered.\n\nLet op:\n- het *Baldakijn* (1994) van Rik van Dolderen, een stalen raamwerk van H-balken bij het Belgiëplein, en zijn *Lamellenhek* (1993) van baksteen en staal in het Kasterleepark\n- aan de overkant van de Plesmanlaan, in de jazzbuurt (Ben Websterstraat, Bessie Smithbrug), het titelloze werk van Irini Schrijer uit 1993, in de volksmond *Plateau met lijst*: een scheef liggend stenen vlak met een vlekkenpatroon als een giraffenhuid, met daarop een lege stalen lijst als een denkbeeldige poort tussen plein en plantsoen\n- op de rotonde aan de Sloterweg de Vlindermolen van Herman Makkink, het baken van de wijk (zie Vlindermolen ('de haas'))"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Natuurpark_Vrije_Geer"
+  ]
+ },
+ {
+  "id": "e819mnh7xtk2cbzfkfqr789r",
+  "title": "Twee hondjes and Rembo (Postjesweg viaduct)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "For years nobody touched it.",
+    "new": "For years it held up well.",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/wp-content/uploads/2022/11/2021-09-15_REMBO_SCA21.066.pdf",
+    "evidence": "Het beeld heeft zich echter goed staande weten te houden ... In de loop der jaren zijn er wat kleine beschadigingen aangebracht (so it was touched)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Jarenlang raakte niemand het aan.",
+    "new": "Jarenlang hield het goed stand.",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/wp-content/uploads/2022/11/2021-09-15_REMBO_SCA21.066.pdf",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Then nothing happened; in 2018 a critic called it an unemployed doorman.",
+    "new": "But it held up well, with only small damage; in 2018 a critic called it an unemployed doorman.",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/wp-content/uploads/2022/11/2021-09-15_REMBO_SCA21.066.pdf",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Maar er gebeurde niets; in 2018 noemde een criticus het beeld een werkloze portier.",
+    "new": "Maar het hield goed stand, op wat kleine schade na; in 2018 noemde een criticus het beeld een werkloze portier.",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/wp-content/uploads/2022/11/2021-09-15_REMBO_SCA21.066.pdf",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "left a letter quoting the text on its sign",
+    "new": "left a letter referring to the text on its sign",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/wp-content/uploads/2022/11/2021-09-15_REMBO_SCA21.066.pdf",
+    "evidence": "De anonieme dader heeft een brief achtergelaten waarin hij/zij direct naar de eerder genoemde tekst verwijst"
+   },
+   {
+    "field": "body",
+    "old": "In 2023 Kramer showed it being repaired.",
+    "new": "In 2023 Kramer showed it being repaired.",
+    "kind": "sourced",
+    "source": "https://www.instagram.com/reel/CrDmoRYoELi/",
+    "evidence": "og:description: bastiennekramer on April 15, 2023: \"REMBO being repaired\""
+   },
+   {
+    "field": "attributes.check_note",
+    "old": "Whether Rembo now has bronze repairs is not documented; it was being repaired in 2023, and its right hand had been knocked off again.",
+    "new": "Whether Rembo now has bronze repairs is not documented; it was being repaired in April 2023.",
+    "kind": "cut",
+    "source": "https://www.instagram.com/reel/CrDmoRYoELi/",
+    "evidence": "the claim that the right hand was off again rests on an Instagram comment that cannot be read"
+   },
+   {
+    "field": "nl.attributes.check_note",
+    "old": "Of Rembo nu bronzen reparaties heeft, is niet vastgelegd; in 2023 werd het hersteld, en de rechterhand was er toen opnieuw af.",
+    "new": "Of Rembo nu bronzen reparaties heeft, is niet vastgelegd; in april 2023 werd het hersteld.",
+    "kind": "cut",
+    "source": "https://www.instagram.com/reel/CrDmoRYoELi/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- Arno Coenen's mosaic gates",
+    "new": "- Arno Coenen's mosaic gates",
+    "kind": "sourced",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1022",
+    "evidence": "Kunstwacht 1022 Enter Rembrandtpark: twee mozaiekpoorten ... bij de tunnels (Piet Mondriaanstraat en Marius Bauerstraat)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het stadsdeel vroeg haar rekening te houden met \"extreme vormen van vernielzucht\" rond het park.",
+    "new": "Het stadsdeel wilde dat ze zich voorbereidde op \"extreme vormen van vernielzucht\" rond het park.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run (quote kept, shortened)"
+   }
+  ],
+  "patch": {
+   "summary": "Two giant nodding dogs from a car's parcel shelf sit on the Postjesweg viaduct over the Rembrandtpark. Below them stands Rembo, built to be vandalised and repaired in bronze until it turned to metal. For years it held up well.",
+   "translations": {
+    "nl": {
+     "summary": "Twee reusachtige hoedenplankhondjes zitten op het viaduct van de Postjesweg over het Rembrandtpark. Eronder staat Rembo, gemaakt om vernield en in brons hersteld te worden tot het helemaal metaal was. Jarenlang hield het goed stand.",
+     "body": "Bij de herinrichting van de Postjesweg in 1999–2002 zette Marjolijn Mandersloot, gespecialiseerd in dierfiguren, twee puppy's op brug 673, waar de weg over de paden van het park gaat. Ze zijn 4,5 meter lang en lijken sprekend op de knikkende hondjes die vroeger op de hoedenplank van auto's zaten, met het viaduct als hoedenplank. Tegelijk kijken ze verlangend naar het park, een geliefde uitlaatplek. Burgemeester Job Cohen onthulde ze op 4 december 2002.\n\nIets noordelijker, bij brug 664, staat *Rembo* (2005) van Bastienne Kramer: een figuur van 3,20 meter in groen geglazuurde keramiek, versierd met Friese kerfsnede. Het stadsdeel wilde dat ze zich voorbereidde op \"extreme vormen van vernielzucht\" rond het park. Daar maakte ze het idee van: elke beschadiging zou ze in brons herstellen, zodat Rembo langzaam een verbeelding van vandalisme werd. Maar het hield goed stand, op wat kleine schade na; in 2018 noemde een criticus het beeld een werkloze portier.\n\nRond 2021 sloeg iemand een hand af en liet een brief achter die naar de tekst op het bordje verwees. Kleine schade was eerder zonder overleg met kunststof gerepareerd, en de gemeente vond brons te duur. In september 2021 adviseerde het Stadscuratorium alsnog in brons te herstellen, samen met de kunstenaar, en de tekst op het bordje aan te passen. In 2023 liet Kramer zien dat het beeld werd gerepareerd.\n\nLet op:\n- de hondjes vanaf de paden in het park en vanaf de weg erboven\n- de kerfsnede op de huid van Rembo, en eventuele bronzen stukken\n- de mozaïekpoorten *Enter Rembrandtpark* van Arno Coenen in de tunnels onder de A10 bij de Piet Mondriaanstraat en de Marius Bauerstraat",
+     "attributes": {
+      "check_note": "Of Rembo nu bronzen reparaties heeft, is niet vastgelegd; in april 2023 werd het hersteld."
+     }
+    }
+   },
+   "body": "When the Postjesweg was rebuilt in 1999–2002, Marjolijn Mandersloot, who specialises in animal figures, put two puppies on bridge 673, where the road crosses the park paths. They are 4.5 metres long and look exactly like the nodding dogs that sat on parcel shelves in the back of cars, with the viaduct as the shelf. They also gaze longingly at the park, a favourite place to walk dogs. Mayor Job Cohen unveiled them on 4 December 2002.\n\nA little north, by bridge 664, stands *Rembo* (2005) by Bastienne Kramer: a 3.2-metre figure in green-glazed ceramic, decorated with Frisian chip carving. The borough asked her to allow for \"extreme forms of vandalism\" around the park. She made that the idea of the work: any damage would be repaired in bronze, so Rembo would slowly become a portrait of vandalism. But it held up well, with only small damage; in 2018 a critic called it an unemployed doorman.\n\nAround 2021 someone knocked off a hand and left a letter referring to the text on its sign. Earlier small damage had been patched in plastic without asking the artist, and the city found bronze too expensive. In September 2021 the Stadscuratorium (city art advisory board) advised repairing it in bronze after all, with the artist, and rewording the sign. In 2023 Kramer showed it being repaired.\n\nLook for:\n- the dogs seen from the park paths below, and from the road above\n- Rembo's chip-carved skin, and any bronze patches\n- Arno Coenen's mosaic gates *Enter Rembrandtpark* in the A10 underpasses at the Piet Mondriaanstraat and Marius Bauerstraat",
+   "attributes": {
+    "check_note": "Whether Rembo now has bronze repairs is not documented; it was being repaired in April 2023."
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ennmtcaljds24sgvp1f6lol1",
+  "title": "Cold War shelter, Louis Bouwmeesterschool",
+  "changes": [
+   {
+    "field": "summary",
+    "old": " Its meaning was mostly symbolic. Today the school keeps its storage down there.",
+    "new": " Its meaning was mostly symbolic.",
+    "kind": "cut",
+    "source": "https://www.volkskrant.nl/binnenland/in-schuilkelders-uit-de-koude-oorlog-slaan-nederlanders-nu-de-sinterklaasspullen-op~b0d46de6/",
+    "evidence": "the Volkskrant page (paywalled) cannot be read; no other source says the shelter is the school storeroom"
+   },
+   {
+    "field": "nl.summary",
+    "old": " De betekenis was vooral symbolisch. Nu staat er de opslag van de school.",
+    "new": " De betekenis was vooral symbolisch.",
+    "kind": "cut",
+    "source": "https://www.volkskrant.nl/binnenland/in-schuilkelders-uit-de-koude-oorlog-slaan-nederlanders-nu-de-sinterklaasspullen-op~b0d46de6/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": " In early 2026 it served as the school's storeroom, the Volkskrant reported.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://www.volkskrant.nl/binnenland/in-schuilkelders-uit-de-koude-oorlog-slaan-nederlanders-nu-de-sinterklaasspullen-op~b0d46de6/",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": " Begin 2026 deed hij volgens de Volkskrant dienst als opslagruimte van de school.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://www.volkskrant.nl/binnenland/in-schuilkelders-uit-de-koude-oorlog-slaan-nederlanders-nu-de-sinterklaasspullen-op~b0d46de6/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "It is a working primary school: the shelter can only be seen when it is opened on a heritage day.",
+    "new": "It is a working primary school.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source says the shelter is only open on heritage days"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is een gewone basisschool in bedrijf: de schuilplaats is alleen te zien als hij op een erfgoeddag opengaat.",
+    "new": "Het is een gewone basisschool in bedrijf.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- \"Bevrijde vogel\" on the Sierplein, 400 m east, the war memorial this school has adopted",
+    "new": "- \"Bevrijde vogel\" on the Sierplein, 400 m east, the war memorial where pupils of this school speak at the 4 May remembrance",
+    "kind": "narrowed",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/444116/hier-herdenken-we-op-4-mei-tijdens-de-nationale-dodenher-xq7ae8",
+    "evidence": "Herdenking Sierplein ... Gastsprekers: Leerlingen van de Louis Bouwmeesterschool (adoption not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- Bevrijde vogel op het Sierplein, 400 meter naar het oosten, het oorlogsmonument dat deze school heeft geadopteerd",
+    "new": "- Bevrijde vogel op het Sierplein, 400 meter naar het oosten, het oorlogsmonument waar leerlingen van deze school op 4 mei het woord voeren",
+    "kind": "narrowed",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/444116/hier-herdenken-we-op-4-mei-tijdens-de-nationale-dodenher-xq7ae8",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is een vroeg type, met een bijzondere vorm en muren van 20 centimeter dik.",
+    "new": "Het gaat om een vroeg type in een ongewone vorm, met wanden van 20 centimeter dik.",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   }
+  ],
+  "patch": {
+   "summary": "Under an ordinary 1960 primary school lies one of Amsterdam's forty public atomic shelters, for 150 passers-by who happened to be near when the bomb fell. Its meaning was mostly symbolic.",
+   "translations": {
+    "nl": {
+     "summary": "Onder een gewone lagere school uit 1960 ligt een van de veertig openbare schuilplaatsen die Amsterdam in de Koude Oorlog bouwde, voor 150 voorbijgangers die toevallig in de buurt waren. De betekenis was vooral symbolisch.",
+     "body": "Tijdens de Koude Oorlog zijn in Amsterdam ten minste 104 bunkers en schuilplaatsen gebouwd. Zo'n veertig daarvan waren openbare schuilplaatsen: niet voor bestuurders of politie, maar voor wie op het kritieke moment toevallig op straat liep. Een ervan zit in deze school in Slotervaart, een H-school van rode baksteen met schuine daken, genoemd naar de plattegrond in de vorm van de letter H. Publieke Werken bouwde er tussen 1954 en 1960 tien van in de Westelijke Tuinsteden, als standaardtype. De schuilplaats werd eind augustus 1960 opgeleverd en bood plaats aan 150 mensen. De betekenis was ook toen vooral symbolisch.\n\nHet gaat om een vroeg type in een ongewone vorm, met wanden van 20 centimeter dik. Eigenlijk zijn het drie schuilplaatsen naast elkaar, elk met een eigen ingang, overdrukklep, luchtbehandeling en nooduitgang, achter één grote sluis. De toegang is breder dan gewoonlijk, omdat de ruimte ook als fietskelder diende. Volgens Monumenten en Archeologie is het geheel nog goed intact. Op Open Monumentendag 2024 ging de kelder open voor publiek, samen met de Vondelbunker en de schuilplaats onder metrostation Weesperplein.\n\nRienks Architecten verbouwde de school in 2018–2019; de H-vorm bleef, de oude patio werd een overdekt leerplein. Het is een gewone basisschool in bedrijf.\n\nLet op:\n- de bakstenen H-school met de schuine daken, vanaf de straat\n- Bevrijde vogel op het Sierplein, 400 meter naar het oosten, het oorlogsmonument waar leerlingen van deze school op 4 mei het woord voeren"
+    }
+   },
+   "body": "During the Cold War Amsterdam built at least 104 bunkers and shelters. About forty were *openbare schuilplaatsen* (public shelters): not for officials or police, but for whoever was out in the street when the sirens went. One of them was built into this school in Slotervaart, a red-brick *H-school* (named after its H-shaped plan), one of ten standard primary schools the city's Publieke Werken put up in the western garden cities between 1954 and 1960. The shelter was handed over at the end of August 1960 and had room for 150 people. Even in its day its value was mainly symbolic.\n\nIt is an early type with an unusual shape and walls 20 cm thick. In fact it is three shelters side by side, each with its own entrance, overpressure valve, air plant and emergency exit, behind one large airlock. The entrance is wider than usual because the space doubled as a bicycle cellar. The city's heritage office calls it still largely intact. It was opened to the public on Open Monumentendag 2024, together with the Vondelbunker and the shelter under metro station Weesperplein.\n\nThe school was renovated in 2018–2019 by Rienks Architecten, who kept the H-plan and turned the old patio into a covered learning square. It is a working primary school.\n\nLook for:\n- the red-brick H-school with its pitched roofs, from the street\n- \"Bevrijde vogel\" on the Sierplein, 400 m east, the war memorial where pupils of this school speak at the 4 May remembrance"
+  },
+  "sources_add": [
+   "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/444116/hier-herdenken-we-op-4-mei-tijdens-de-nationale-dodenher-xq7ae8"
+  ]
+ },
+ {
+  "id": "w10bn1zvs4zlsc1165qm6fi9",
+  "title": "Velodrome Amsterdam, Sportpark Sloten",
+  "changes": [
+   {
+    "field": "body",
+    "old": "so after a new surface in the 1980s the city roofed it over in 1998 to stop having to replace it",
+    "new": "so after a new surface in the 1980s it was roofed over in 1998 so that it would not need replacing so often",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Velodrome_Amsterdam",
+    "evidence": "Om te voorkomen dat de baan veelvuldig moest worden vervangen, werd ze in 1998 overdekt (who roofed it not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "na een nieuw rijvlak in de jaren tachtig kreeg de baan in 1998 een dak, zodat hij niet steeds vervangen hoefde te worden",
+    "new": "na een nieuw rijvlak in de jaren tachtig kreeg de baan in 1998 een dak, zodat hij minder vaak vervangen hoefde te worden",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Velodrome_Amsterdam",
+    "evidence": "idem (veelvuldig, not steeds)"
+   },
+   {
+    "field": "body",
+    "old": "so ambulances can reach the infield",
+    "new": "so emergency services can reach the infield",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Velodrome_Amsterdam",
+    "evidence": "Wikipedia (2021 renovation): a liftable section for emergency services (hulpdiensten), not ambulances specifically"
+   },
+   {
+    "field": "body",
+    "old": " It is a training venue: the public gets in for races and events.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on public access"
+   },
+   {
+    "field": "nl.body",
+    "old": " Het is een trainingsbaan: publiek komt binnen bij wedstrijden en evenementen.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "opened on 27 May that year by alderman Harry Verhey",
+    "new": "opened on 27 May that year by alderman Harry Verhey",
+    "kind": "sourced",
+    "source": "https://commons.wikimedia.org/wiki/File:Wethouder_Harry_Verhey_tijdens_de_opening_van_de_nieuwe_wielerbaan_in_Sportpark_,_Bestanddeelnr_925-6224.jpg",
+    "evidence": "Anefo 925-6224: Wethouder Harry Verhey tijdens de opening van de nieuwe wielerbaan in Sportpark (Sloten), 27 May 1972"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een van de drie overdekte wielerbanen van Nederland,",
+    "new": "Een van de maar drie overdekte banen in Nederland:",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run"
+   },
+   {
+    "field": "nl.body",
+    "old": "Zo werd het een van de drie overdekte wielerbanen van het land:",
+    "new": "Sindsdien hoort hij bij het drietal overdekte wielerbanen in Nederland:",
+    "kind": "copy",
+    "source": "",
+    "evidence": "copied run (same phrase)"
+   }
+  ],
+  "patch": {
+   "body": "The track was laid in the open air in 1972, to plans by the German track builders Schürmann, and opened on 27 May that year by alderman Harry Verhey. Wood and weather do not mix, so after a new surface in the 1980s it was roofed over in 1998 so that it would not need replacing so often. That made it one of three indoor tracks in the country: 200 metres long, its bends banked at up to 47 degrees.\n\nIn 2001 the Six Days of Amsterdam, first ridden in the old RAI in 1932, came back here. It ran every year until 2014; after a year without a sponsor a British organiser tried once more in 2016, then gave up, saying the track, with about a thousand seats, was too small. ASC Olympia, founded in 1898 and the oldest cycling club in the Netherlands, trains here and runs national championships for young riders and masters.\n\nIn 2021 the old hardwood was replaced with Siberian pine; NH Nieuws headlined it \"no more splinters when you fall\". Part of the track can now be lifted so emergency services can reach the infield, and a line of LED lights along the blue band sets the pace for training and record attempts. Much of the old floor was reused, and about 500 planks were sold as souvenirs for a youth sports fund. In 2024 the infield got basketball courts, where the Dutch women's 3x3 team prepared for its Olympic qualifier.\n\nThe city has run the track since 2016, with many volunteers. Around the whole sports park (1956) runs an asphalt cycle circuit. A city plan shown in July 2026 would move the car entrance to the Anderlechtlaan, lift the circuit over it and add a mountain-bike course along the A4; nothing is fixed and no dates are set.\n\nLook for:\n- the hall from the Sloterweg entrance, where the road circuit passes over the entrance on a viaduct\n- in front of the hall, Joseph Ongenae's *Betonplastiek* (1973), concrete planes painted red, yellow, white and black",
+   "translations": {
+    "nl": {
+     "body": "De baan werd in 1972 in de open lucht aangelegd naar plannen van het Duitse bureau Schürmann en op 27 mei dat jaar door wethouder Harry Verhey geopend. Hout en weer gaan slecht samen: na een nieuw rijvlak in de jaren tachtig kreeg de baan in 1998 een dak, zodat hij minder vaak vervangen hoefde te worden. Sindsdien hoort hij bij het drietal overdekte wielerbanen in Nederland: 200 meter lang, met een hellingshoek in de bochten tot 47 graden.\n\nIn 2001 kwam de Zesdaagse van Amsterdam, voor het eerst gereden in 1932 in de oude RAI, hierheen. Die werd tot en met 2014 elk jaar verreden; na een jaar zonder geldschieter probeerde een Engelse organisator het in 2016 nog één keer en haakte toen af, omdat de baan met ongeveer duizend zitplaatsen te klein zou zijn. ASC Olympia, opgericht in 1898 en de oudste wielervereniging van Nederland, traint hier en organiseert er Nederlandse kampioenschappen voor de jeugd, nieuwelingen en masters.\n\nIn 2021 werd het oude hardhout vervangen door Siberisch dennenhout; NH Nieuws kopte 'Geen splinters meer als je valt'. Een deel van de baan kan nu omhoog, zodat hulpdiensten het middenterrein op kunnen, en een rij ledlampjes langs de blauwe strook dient als tempohaas bij trainingen en recordpogingen. Veel van de oude vloer werd hergebruikt, en zo'n vijfhonderd planken werden als aandenken verkocht voor het Jeugdfonds Sport. In 2024 kwam er op het middenterrein een basketbalveld, waar de 3x3-basketbalsters zich voorbereidden op hun olympisch kwalificatietoernooi.\n\nSinds 2016 beheert de gemeente de baan, met een grote groep vrijwilligers. Rond het hele sportpark (1956) loopt een geasfalteerd wielercircuit. Volgens een plan van de gemeente uit juli 2026 verhuist de ingang voor auto's naar de Anderlechtlaan, gaat het circuit daar de lucht in en komt er een mountainbikeparcours langs de A4; niets ligt vast en er zijn nog geen data.\n\nLet op:\n- de hal vanaf de ingang aan de Sloterweg, waar het wielercircuit over de ingang heen loopt op een viaduct\n- voor de hal het *Betonplastiek* (1973) van Joseph Ongenae, betonnen vlakken beschilderd in rood, geel, wit en zwart",
+     "summary": "Een van de maar drie overdekte banen in Nederland: 200 meter houten latten met bochten tot 47 graden. In 1972 in de open lucht gebouwd, in 1998 overdekt, tot 2016 het thuis van de Zesdaagse van Amsterdam, en in 2021 vernieuwd, zodat je geen splinters meer krijgt als je valt."
+    }
+   }
+  },
+  "sources_add": []
+ }
+]

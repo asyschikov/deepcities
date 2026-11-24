@@ -1,11 +1,12 @@
 import { TRPCError } from "@trpc/server";
-import { and, count, desc, eq, inArray, or, sql } from "drizzle-orm";
+import { and, count, desc, eq, inArray, ne, or, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { citySlug } from "~/lib/cities";
 import { VERDICTS, type Verdict } from "~/lib/constants";
 import { listTranslations } from "~/lib/content-lang";
 import type { Database } from "~/lib/db";
 import { collection, photo, place, proposal, verdict } from "~/lib/db/schema";
+import { withOverride } from "~/lib/overrides";
 import { idSchema } from "~/lib/validation";
 import {
   linkOrder,
@@ -18,7 +19,9 @@ import { publicProcedure, router } from "../init";
 import {
   isClusterParentSql,
   loadViewMap,
+  overridesOf,
   poolWhere,
+  shapeOf,
   shownWhere,
 } from "../map-places";
 import { goneCounts } from "./gone";
@@ -153,37 +156,42 @@ export const placeRouter = router({
    */
   export: publicProcedure.input(listInput).query(async ({ ctx, input }) => {
     const m = await loadViewMap(ctx.db, input.collectionId);
-    return ctx.db
-      .select({
-        id: place.id,
-        title: place.title,
-        summary: place.summary,
-        body: place.body,
-        category: place.category,
-        lat: place.lat,
-        lng: place.lng,
-        address: place.address,
-        municipality: place.municipality,
-        borough: place.borough,
-        neighbourhood: place.neighbourhood,
-        subNeighbourhood: place.subNeighbourhood,
-        links: place.links,
-        attributes: place.attributes,
-        photoIds: place.photoIds,
-        translations: place.translations,
-        parentId: place.parentId,
-        detail: place.detail,
-        updatedAt: place.updatedAt,
-      })
-      .from(place)
-      .where(listWhere(m, input.pool))
-      .orderBy(place.title);
+    const [rows, overrides] = await Promise.all([
+      ctx.db
+        .select({
+          id: place.id,
+          title: place.title,
+          summary: place.summary,
+          body: place.body,
+          category: place.category,
+          lat: place.lat,
+          lng: place.lng,
+          address: place.address,
+          municipality: place.municipality,
+          borough: place.borough,
+          neighbourhood: place.neighbourhood,
+          subNeighbourhood: place.subNeighbourhood,
+          links: place.links,
+          attributes: place.attributes,
+          photoIds: place.photoIds,
+          translations: place.translations,
+          parentId: place.parentId,
+          detail: place.detail,
+          updatedAt: place.updatedAt,
+        })
+        .from(place)
+        .where(listWhere(m, input.pool))
+        .orderBy(place.title),
+      overridesOf(ctx.db, m),
+    ]);
+    // A view's own values on top (`overridden` names them).
+    return rows.map((p) => withOverride(p, overrides.get(p.id)));
   }),
 
   /** Everything the map needs to draw markers and the list. */
   list: publicProcedure.input(listInput).query(async ({ ctx, input }) => {
     const m = await loadViewMap(ctx.db, input.collectionId);
-    const [rows, verdicts, gone] = await Promise.all([
+    const [rows, verdicts, gone, overrides] = await Promise.all([
       ctx.db
         .select({
           id: place.id,
@@ -209,9 +217,11 @@ export const placeRouter = router({
         .orderBy(place.title),
       verdictCounts(ctx.db, { map: m }),
       goneCounts(ctx.db, { map: m }),
+      overridesOf(ctx.db, m),
     ]);
+    // Effective values: the map's filters and counts run on these.
     return rows.map(({ photoIds, translations, ...p }) => ({
-      ...p,
+      ...withOverride(p, overrides.get(p.id)),
       translations: listTranslations(translations),
       coverPhotoId: photoIds[0] ?? null,
       verdicts: verdicts.get(p.id) ?? noVerdicts(),
@@ -237,62 +247,96 @@ export const placeRouter = router({
         throw new TRPCError({ code: "NOT_FOUND", message: "Place not found" });
       const access = await getAccess(ctx.db, found.collectionId, ctx.profile);
       const viewerId = ctx.profile?.id;
+      // Opened on a view of its home: that view's own values apply.
+      const shownOn = input.map
+        ? await ctx.db.query.collection.findFirst({
+            where: eq(collection.slug, input.map),
+            columns: { id: true, view: true, categories: true, fields: true },
+          })
+        : undefined;
+      const viewMap =
+        shownOn?.view?.source === found.collectionId ? shownOn : null;
+      // Override proposals show in history only on their own map.
+      const ofThisMap = or(
+        ne(proposal.subject, "override"),
+        eq(proposal.collectionId, viewMap?.id ?? ""),
+      );
 
-      const [verdicts, history, myPending, photoRows, family] =
-        await Promise.all([
-          verdictCounts(ctx.db, { placeId: found.id }),
-          ctx.db.query.proposal.findMany({
-            where: and(
-              eq(proposal.placeId, found.id),
-              eq(proposal.status, "approved"),
-            ),
-            columns: {
-              id: true,
-              kind: true,
-              note: true,
-              reviewedAt: true,
-              createdAt: true,
-            },
-            with: {
-              author: { columns: { id: true, name: true, avatarId: true } },
-              reviewer: { columns: { id: true, name: true, avatarId: true } },
-            },
-            orderBy: desc(proposal.reviewedAt),
-            limit: 50,
-          }),
-          viewerId
-            ? ctx.db.query.proposal.findMany({
-                where: and(
-                  eq(proposal.placeId, found.id),
-                  eq(proposal.status, "pending"),
-                  eq(proposal.proposedBy, viewerId),
-                ),
-                columns: { id: true, kind: true, createdAt: true },
+      const [
+        verdicts,
+        history,
+        myPending,
+        photoRows,
+        family,
+        overrides,
+        shape,
+      ] = await Promise.all([
+        verdictCounts(ctx.db, { placeId: found.id }),
+        ctx.db.query.proposal.findMany({
+          where: and(
+            eq(proposal.placeId, found.id),
+            eq(proposal.status, "approved"),
+            ofThisMap,
+          ),
+          columns: {
+            id: true,
+            subject: true,
+            kind: true,
+            note: true,
+            reviewedAt: true,
+            createdAt: true,
+          },
+          with: {
+            author: { columns: { id: true, name: true, avatarId: true } },
+            reviewer: { columns: { id: true, name: true, avatarId: true } },
+          },
+          orderBy: desc(proposal.reviewedAt),
+          limit: 50,
+        }),
+        viewerId
+          ? ctx.db.query.proposal.findMany({
+              where: and(
+                eq(proposal.placeId, found.id),
+                eq(proposal.status, "pending"),
+                eq(proposal.proposedBy, viewerId),
+                ofThisMap,
+              ),
+              columns: { id: true, subject: true, kind: true, createdAt: true },
+            })
+          : [],
+        found.photoIds.length > 0
+          ? ctx.db
+              .select({
+                id: photo.id,
+                width: photo.width,
+                height: photo.height,
+                credit: photo.credit,
+                license: photo.license,
+                sourceUrl: photo.sourceUrl,
               })
-            : [],
-          found.photoIds.length > 0
-            ? ctx.db
-                .select({
-                  id: photo.id,
-                  width: photo.width,
-                  height: photo.height,
-                  credit: photo.credit,
-                  license: photo.license,
-                  sourceUrl: photo.sourceUrl,
-                })
-                .from(photo)
-                .where(inArray(photo.id, found.photoIds))
-            : [],
-          familyOf(ctx.db, found, input.map),
-        ]);
+              .from(photo)
+              .where(inArray(photo.id, found.photoIds))
+          : [],
+        familyOf(ctx.db, found, input.map),
+        viewMap ? overridesOf(ctx.db, viewMap, [found.id]) : undefined,
+        viewMap ? shapeOf(ctx.db, viewMap) : undefined,
+      ]);
       const photoById = new Map(photoRows.map((p) => [p.id, p]));
 
       return {
-        place: found,
+        /** As the map it is opened on shows it (a view's own values merged). */
+        place: withOverride(found, overrides?.get(found.id)),
+        /** The home place's own values of what a view may override. */
+        base: { attributes: found.attributes, category: found.category },
+        /** The view it is opened on (its values are in `place`), or null. */
+        viewId: viewMap?.id ?? null,
         /** Photo metadata (attribution) in `photoIds` order. */
         photos: found.photoIds.flatMap((id) => photoById.get(id) ?? []),
-        /** The map's custom field definitions, for reading `place.attributes`. */
-        fields: access.collection.fields,
+        /**
+         * Custom field definitions for reading `place.attributes`: the home
+         * map's, plus a view's own when opened on one.
+         */
+        fields: shape?.fields ?? access.collection.fields,
         /** The place's home map (where it is edited). */
         home: {
           id: access.collection.id,
