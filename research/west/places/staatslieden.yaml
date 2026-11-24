@@ -481,7 +481,7 @@
 
     Look for:
     - stone plaques naming the foundation above the entrances, and a white marble one on the chamfered corner
-    - two first stones in cartouches in the plinth: the first stone was laid twice, on 18 April 1882
+    - two first stones in cartouches in the plinth: the first stone was laid twice, in April 1882
     - the original six-pane sash windows and double panelled doors
     - gabled bays, grey sand-lime bands and wrought-iron wall anchors
   category: housing
@@ -497,10 +497,13 @@
     architect: W. Langhout Gzn.
     listed: 2008
     original_use: Widows' housing of the Dutch Reformed diaconate
+    check: Facts
+    check_note: "Read the date on the first stones in the plinth: sources give 11 April or 18 April 1882."
   photos:
     - commons:File:Eerste Hugo de Grootstraat 13 (1).jpg
   sources:
     - city:223011 (redengevende omschrijving)
+    - "hofjesberaad.nl/hugo-de-grootstraat and hofjesinamsterdam.nl/hugo-de-groothof (11 April 1882, N.J. van Limmik jr.) vs city register 223011 (18 April) (checked Nov 2026)"
     - "https://geheugenvanwest.amsterdam/page/10740 (from the diaconate's centenary booklet 1882 to 1982: men out by 11 pm, watched by the house master, eviction if caught; ground-floor women opened the window for their lovers; section 'Hartstocht en tralies')"
   nl:
     title: Hugo de Groothof (voormalige Weduwenstichting)
@@ -514,11 +517,12 @@
 
       Let op:
       - de stenen plaquettes met de naam van de stichting boven de ingangen, en een van wit marmer op de afgeschuinde hoek
-      - twee eerste stenen in cartouches in de plint: de eerste steen is twee keer gelegd, op 18 april 1882
+      - twee eerste stenen in cartouches in de plint: de eerste steen is twee keer gelegd, in april 1882
       - de originele zesruits schuiframen en dubbele paneeldeuren
       - risalieten met topgevels, banden van grijze kalkzandsteen en smeedijzeren muurankers
     attributes:
       original_use: Weduwenhuisvesting van de diaconie der Nederduitsch Hervormde Gemeente
+      check_note: "Lees de datum op de eerste stenen in de plint: de bronnen noemen 11 april of 18 april 1882."
     sources:
       - city:223011 (redengevende omschrijving)
       - "https://geheugenvanwest.amsterdam/page/10740"
@@ -1547,9 +1551,9 @@
       - https://geheugenvanwest.amsterdam/page/4024
 
 - title: Remonstrant almshouse, Van Hallstraat 51
-  summary: A low 1910 hofje built by the Remonstrant church for single and elderly people, wrapped around a garden at the head of its block. A rare almshouse in the 19th-century ring.
+  summary: A low 1910 hofje for single and elderly people, paid for by Everdina de Lanoy's bequest to the Remonstrant church and wrapped around a garden at the head of its block. A rare almshouse in the 19th-century ring.
   body: |
-    The Remonstrantse Gemeente (Remonstrant church) built this hofje (almshouse) in 1910 to house single and elderly people, to a design by P.A. Timmers, of whom nothing else is known. A few such charitable courtyards exist elsewhere in the 19th-century ring, but on the whole they are rare in these districts. The U-shaped building has a broad front on the Van Hallstraat and two shorter wings on the Cliffordstraat and Bentinckstraat, around an inner garden reached through a central entrance. Restored around 2000, it is still lived in, now mostly by young single people rather than the elderly.
+    The money came from Everdina de Lanoy, who in 1882 left a bequest to the Remonstrantse Gemeente (Remonstrant church), and the hofje (almshouse) bears her name: the Everdina de Lanoyhof. The congregation had it built in 1910 to house single and elderly people, to a design by P.A. Timmers, of whom nothing else is known. A few such charitable courtyards exist elsewhere in the 19th-century ring, but on the whole they are rare in these districts. The U-shaped building has a broad front on the Van Hallstraat and two shorter wings on the Cliffordstraat and Bentinckstraat, around an inner garden reached through a central entrance. Restored around 2000 and sold in 2001 to the housing association Het Oosten (now Stadgenoot), it is still lived in, now by students and starters rather than the elderly.
 
     The building is only two storeys high, and the design stresses its horizontal lines: a stone plinth, three plastered bands across red-brown brick, a plastered frieze and a wooden eave on wooden brackets. Only in the middle of the front does a square bay rise half a storey higher.
 
@@ -1563,6 +1567,7 @@
   address: Van Hallstraat 51
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/313e5145-ad87-4bc4-978f-07fe150c401d" }
+    - { label: Hofjes in Amsterdam Everdina de Lanoyhof, url: "https://hofjesinamsterdam.nl/everdina-de-lanoyhof/" }
   attributes:
     heritage_status: Municipal monument
     monument_number: "200757"
@@ -1572,13 +1577,14 @@
     original_use: Almshouse for single and elderly people
   sources:
     - city:200757 (redengevende omschrijving)
+    - "hofjesinamsterdam.nl/everdina-de-lanoyhof (2018); city register 200757 (checked Nov 2026)"
   nl:
     title: Remonstrants hofje, Van Hallstraat 51
-    summary: "Een laag hofje uit 1910, door de Remonstrantse Gemeente gebouwd voor alleenstaanden en ouderen, rond een tuin aan de kop van het bouwblok. In de negentiende-eeuwse ring is zo'n hofje een zeldzaamheid."
+    summary: "Een laag hofje uit 1910 voor alleenstaanden en ouderen, betaald uit het legaat van Everdina de Lanoy aan de Remonstrantse Gemeente, rond een tuin aan de kop van het bouwblok. In de negentiende-eeuwse ring is zo'n hofje een zeldzaamheid."
     body: |
-      Een hofje van maar twee verdiepingen, midden in de negentiende-eeuwse ring. In 1910 liet de Remonstrantse Gemeente het bouwen als onderdak voor alleenstaanden en ouderen. De architect was P.A. Timmers, over wie verder niets bekend is. Elders in de negentiende-eeuwse ring zijn nog een paar van zulke liefdadige hofjes te vinden, maar in deze wijken zijn ze bij elkaar genomen zeldzaam.
+      Een hofje van maar twee verdiepingen, midden in de negentiende-eeuwse ring. Het geld kwam van Everdina de Lanoy, die in 1882 een legaat naliet aan de Remonstrantse Gemeente; het hofje draagt haar naam, de Everdina de Lanoyhof. In 1910 liet de gemeente het bouwen als onderdak voor alleenstaanden en ouderen. De architect was P.A. Timmers, over wie verder niets bekend is. Elders in de negentiende-eeuwse ring zijn nog een paar van zulke liefdadige hofjes te vinden, maar in deze wijken zijn ze bij elkaar genomen zeldzaam.
 
-      Het gebouw is U-vormig: de brede voorkant ligt aan de Van Hallstraat, de twee kortere zijvleugels lopen langs de Cliffordstraat en de Bentinckstraat. Daarbinnen ligt een tuin, die je bereikt via de ingang in het midden. Rond 2000 is het hofje gerestaureerd, en er wordt nog steeds gewoond, al zijn het nu vooral jonge alleenstaanden en niet zozeer ouderen.
+      Het gebouw is U-vormig: de brede voorkant ligt aan de Van Hallstraat, de twee kortere zijvleugels lopen langs de Cliffordstraat en de Bentinckstraat. Daarbinnen ligt een tuin, die je bereikt via de ingang in het midden. Rond 2000 is het hofje gerestaureerd en in 2001 verkocht aan woningcorporatie Het Oosten, nu Stadgenoot. Er wordt nog steeds gewoond, nu door studenten en starters en niet meer door ouderen.
 
       Alles aan de gevel benadrukt de lengte. Op een plint van hardsteen ligt roodbruine baksteen met drie gepleisterde banden erdoor, en bovenaan een gepleisterde fries met een overstekende houten goot, gedragen door klossen. Alleen in het midden van de voorgevel steekt een vierkant bouwdeel een halve verdieping boven de rest uit.
 
