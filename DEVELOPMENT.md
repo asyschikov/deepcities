@@ -205,6 +205,20 @@ pnpm dc fields sights scripts/data/amsterdam-fields.json   # map schema
 pnpm dc import sights scripts/data/bos-en-lommer-monuments.json [--upsert]
 ```
 
+Bulk work: `dc update-many edits.json` ([{id, patch}], one `--note`),
+`dc archive-many ids.json --note`, `dc copy <slug> <placeId>…` (a place onto another
+map with its photos and translations; the history note names the original) and
+`dc export <slug>` (every place in full, for backups and diffs). `update`, `archive`
+and the bulk commands take `--dry-run` (shows the diff). Bulk commands retry network
+and database errors with backoff and exit 1 if anything still failed. `import`
+flags new places that match one on the city's other maps (`alsoOn`).
+
+Maps: `dc map-create map.json [--from <slug>]` (super admins; `--from` copies
+another map's categories, fields and languages), `dc map-export <slug>` (the whole
+configuration in the same shape), `dc settings`, `dc fields`, `dc languages` to
+change one, `dc city-default <slug> on|off` (the city's own map), and
+`dc members <slug>` / `dc member <slug> <email> <role|none>` for roles.
+
 Languages: `dc languages <slug> langs.json` sets `language`, `languages` and the
 map's `translations`. Place and route drafts take `translations`; `dc update` and
 `route-update` merge them per language and field (`null` deletes).

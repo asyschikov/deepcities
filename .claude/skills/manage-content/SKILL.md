@@ -39,6 +39,14 @@ Tell the user which site you are about to write to before bulk changes on live.
    - anything uncertain (conflicting dates, weak sources, borderline inclusions);
    - which places lack photos.
 
+Bulk and cross-map work:
+- `pnpm dc update-many edits.json --note "why"`: `[{"id", "patch"}]` (ranks, flags, recategorising). `pnpm dc archive-many ids.json --note "why"`.
+- `pnpm dc copy <slug> <placeId>...`: puts places on another map with their photos and translations; the history note records the original. A correction to one copy is **not** carried to the other: fix both.
+- `pnpm dc export <slug>`: every place in full, with all translations and attributes. Use it to read back ranks or Dutch texts, and as a diff base.
+- Add `--dry-run` to `update`, `archive` and the bulk commands to see the diff before writing to live.
+- `import` marks new places that match one on the city's other maps (`alsoOn`: same title, monument number, or < 25 m). Resolve each before the real import.
+- Bulk commands retry transient errors themselves and exit 1 if anything failed: no wrapper scripts needed.
+
 Single changes:
 - `pnpm dc create <slug> '<json>'`
 - `pnpm dc update <placeId> '<patch>'`: the patch is merged. Arrays replace wholesale; `attributes` merge per key, and `null` deletes a key.
@@ -146,6 +154,15 @@ reading"). Opening one highlights its places on the map. Only moderators+ write 
   - `[text](doc:Exact document title)` links another document.
   - Pictures go on their own line: `![Caption](commons:File:X.jpg)` (any `dc photo` source). No HTML, no tables.
 - `pnpm dc docs <slug> [--map|--place ID|--route ID]`, `dc doc <id>`, `dc doc-archive <id> --note`.
+
+## Maps (create, configure, members)
+
+- **New map** (super admins): `pnpm dc map-create map.json [--from <slug>]`. Required: `slug`, `title`, `city`, `centerLat`, `centerLng`, `categories` (or `--from`, which copies another map's categories, fields, languages with their labels, zoom and policy). Optional: `tagline`, `description`, `zoom`, `contributionPolicy` (`open`/`members`), `fields`, `language`, `languages`, `translations`, `cityDefault`. The slug is permanent. Keep the file in `scripts/data/<city>-<slug>-map.json`.
+- `pnpm dc map-export <slug>` prints a map's whole configuration in that shape. When copying an export, change `slug`, `title` and `city` and drop the translated titles.
+- Change a map with `dc settings`, `dc fields` and `dc languages` (below).
+- `pnpm dc city-default <slug> on|off`: the city's own map (one per city).
+- `pnpm dc members <slug>`; `pnpm dc member <slug> <email> <admin|moderator|contributor|banned|none>`. People must have signed in once. Only super admins appoint admins.
+- Ask the user before creating a map on live: it can't be deleted from the CLI.
 
 ## Custom fields (map schema)
 

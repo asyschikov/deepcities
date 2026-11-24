@@ -87,7 +87,10 @@ curious Amsterdammer who has walked these streets for years.
   exactly as in `map.yaml`; `listed` is a number.
 - Category: file the place under what its story is, not under what the building is. A
   warehouse whose point is a wartime hiding place is `hidden-history`; a house whose point
-  is a carved joke is `curiosities`.
+  is a carved joke is `curiosities`. Don't let `curiosities` swallow the canal houses: a
+  house whose story is who built or lived in it, or how it was planned, is `housing`; a
+  workshop, warehouse or factory is `industrial`; an office or bank of an institution is
+  `civic`. `curiosities` is for the genuinely odd (the smallest house, a joke in stone).
 - Sensitive history (the Jewish quarter and the deportations, slavery and colonial trade,
   prostitution, addiction and the heroin years, squatting riots): factual, neither
   sensational nor evasive. Private people who are not public figures are not named.
@@ -98,7 +101,10 @@ curious Amsterdammer who has walked these streets for years.
   (`https://monumentenregister.cultureelerfgoed.nl/monumenten/<monnr>`,
   `https://data.amsterdam.nl/monumenten/<city_id>`), distinct labels without dashes, quote
   labels that contain a comma.
-- Photos: 1 to 3 per place from Wikimedia Commons (`commons:File:Name.jpg`), from the
+- **Photos (changed):** many agents share Commons and it rate-limits hard, so a central photo
+  pass follows. Use the slice's `wikidata.images` where they plainly fit, and add any
+  other file names you came across in your notes under "Missing photos"; don't spend time
+  fighting 429s. The old rule, for reference: 1 to 3 per place from Wikimedia Commons (`commons:File:Name.jpg`), from the
   `wikidata.images` in the slice or the Commons API (`Category:Rijksmonument <nr>`, or a
   search on the address). Open the file page and check it shows this building. A wrong
   photo is worse than none. Commons: at most 1 request per second, back off on 429.
@@ -111,6 +117,10 @@ curious Amsterdammer who has walked these streets for years.
   Wikidata, PDOK locatieserver, plain web pages. **Do not use any browser tool**: the
   browser is reserved for the scouts. If a page can't be fetched with curl, use another
   source and note it. Respect robots.txt (onsamsterdam.nl refuses automated readers).
+- Search engines can't be reached with curl: use the **WebSearch tool** for current-status
+  checks (is the shop, café or theatre still there, what is the building used for now) and
+  to find local-paper pieces on an address.
+- **Do not spawn subagents.** Work through the slice yourself.
 - Raw downloads go to `$S/centrum-$SLICE/`, never the repo. Run Python with `-B`.
 
 ## Output

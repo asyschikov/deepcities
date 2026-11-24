@@ -1,5 +1,6 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
+import { inArray } from "drizzle-orm";
 import { z } from "zod/v4";
 import { MAX_PHOTO_BYTES } from "~/lib/constants";
 import { photo } from "~/lib/db/schema";
@@ -63,5 +64,48 @@ export const photoRouter = router({
         createdAt: new Date(),
       });
       return { id };
+    }),
+
+  /**
+   * Give another map its own records of existing photos (copying a place).
+   * The image files are shared: published photos are never deleted from R2.
+   * Returns the new ids in the order given.
+   */
+  copy: authedProcedure
+    .input(
+      z.object({
+        collectionId: idSchema,
+        photoIds: z.array(idSchema).min(1).max(20),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      await requireCap(ctx.db, input.collectionId, ctx.profile, "propose");
+      const found = await ctx.db.query.photo.findMany({
+        where: inArray(photo.id, input.photoIds),
+      });
+      const byId = new Map(found.map((p) => [p.id, p]));
+      const missing = input.photoIds.filter((id) => !byId.has(id));
+      if (missing.length > 0) {
+        throw new TRPCError({
+          code: "NOT_FOUND",
+          message: `Photos not found: ${missing.join(", ")}`,
+        });
+      }
+      const rows = input.photoIds.flatMap((id) => {
+        const src = byId.get(id);
+        return src
+          ? [
+              {
+                ...src,
+                id: createId(),
+                collectionId: input.collectionId,
+                uploadedBy: ctx.profile.id,
+                createdAt: new Date(),
+              },
+            ]
+          : [];
+      });
+      await ctx.db.insert(photo).values(rows);
+      return { ids: rows.map((r) => r.id) };
     }),
 });

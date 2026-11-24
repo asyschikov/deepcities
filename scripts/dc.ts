@@ -13,6 +13,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import { DOC_HELP, makeDocCommands } from "./dc-docs.ts";
+import { MAP_HELP, makeMapCommands } from "./dc-maps.ts";
 
 const DEFAULT_URL = "https://deepcities.org";
 const CONFIG_PATH = join(homedir(), ".config", "deep-cities", "config.json");
@@ -31,10 +32,14 @@ READ
   dc maps                                  all maps (slug, title, place count)
   dc map <slug>                            settings, categories, custom place fields
                                            ("fields"), your role + capabilities
+                                           (creating maps and members: see MAPS below)
   dc places <slug> [--borough X] [--neighbourhood X] [--sub-neighbourhood X]
                    [--category KEY] [--field key=value]... [--q TEXT]
                                            published places (compact, with attributes)
   dc place <placeId>                       full place: fields, photos (+credits), history
+  dc export <slug>                         every published place in full (all
+                                           translations, attributes, photo ids): backup,
+                                           diff base, bulk review
 
 WRITE  (contributors: goes to review; moderators/admins: published immediately)
   dc create <slug> <draft>  [--note TEXT]  new place
@@ -44,12 +49,30 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
                                            "attributes" merge per key (null deletes one);
                                            "translations" merge per language and field
   dc archive <placeId> --note TEXT         remove from the map (kept in history)
+  update and archive take --dry-run: shows the diff (or the place), writes nothing
+
+  dc update-many <file.json|-> [--note TEXT] [--dry-run]
+                                           many edits: [{"id", "patch", "note"?}] (or
+                                           [{"id", ...patch}]); patches merge like update
+  dc archive-many <file.json|-> --note TEXT [--dry-run]
+                                           ["id", …] or [{"id", "note"?}]
+  dc copy <slug> <placeId>... [--category KEY] [--note TEXT] [--dry-run]
+                                           copy places onto another map with their
+                                           photos and translations; the history note
+                                           says where each came from. Attributes the
+                                           target map doesn't define (or whose select
+                                           value it lacks) and languages it doesn't
+                                           offer are dropped and listed. Titles already
+                                           there are skipped
   dc import <slug> <file.json|-> [--note TEXT] [--dry-run] [--upsert]
                                            bulk create from a JSON array of drafts
                                            (each may carry "note"); titles already on
                                            the map are skipped, or with --upsert updated
                                            like \`dc update\` ("photos" ignored if the place
-                                           already has some); keeps going past failures
+                                           already has some); keeps going past failures.
+                                           New places that match one on the city's other
+                                           maps (same title, monument_number, or < 25 m)
+                                           get "alsoOn" (--no-cross-check skips it)
   dc photo <slug> <source> [--credit TEXT] [--license TEXT] [--source-url URL]
                                            upload one photo, prints {"id"}; use the id
                                            in photoIds. source = local file path,
@@ -100,6 +123,10 @@ REVIEW (moderators+)
 
   dc schema                                draft + field-definition reference
   dc help
+
+Bulk commands (import, update-many, archive-many, copy) print every result and
+exit 1 if any failed. Network, database and rate-limit errors are retried with
+backoff (1 s, 3 s, 9 s); --retries N changes the number of retries (default 3).
 
 <draft>/<patch> is inline JSON ('{"title":...}'), a path to a .json file, or - for stdin.
 A draft or patch may also carry "photos": [<source> | {"source", "credit", "license",
@@ -252,11 +279,20 @@ const call = async (
   if (config.token) headers.Authorization = `Bearer ${config.token}`;
   const body = JSON.stringify({ json: input });
   const url = `${config.url}/api/trpc/${path}`;
-  const res =
-    kind === "query"
-      ? await fetch(`${url}?input=${encodeURIComponent(body)}`, { headers })
-      : await fetch(url, { method: "POST", headers, body });
-  const text = await res.text();
+  let res: Response;
+  let text: string;
+  try {
+    res =
+      kind === "query"
+        ? await fetch(`${url}?input=${encodeURIComponent(body)}`, { headers })
+        : await fetch(url, { method: "POST", headers, body });
+    text = await res.text();
+  } catch (err) {
+    throw new CliError(
+      `Network error calling ${path}: ${err instanceof Error ? err.message : String(err)}`,
+      "NETWORK",
+    );
+  }
   let parsed: {
     result?: { data?: { json?: Json } };
     error?: { json?: { message?: string; data?: { code?: string } } };
@@ -278,7 +314,49 @@ const call = async (
   }
   return parsed.result?.data?.json ?? null;
 };
-const query = (path: string, input?: unknown) => call("query", path, input);
+/** Error codes worth another try: the network, the database, rate limits. */
+const TRANSIENT = new Set([
+  "NETWORK",
+  "HTTP",
+  "INTERNAL_SERVER_ERROR",
+  "TOO_MANY_REQUESTS",
+  "TIMEOUT",
+  "BAD_GATEWAY",
+  "SERVICE_UNAVAILABLE",
+  "GATEWAY_TIMEOUT",
+]);
+const isTransient = (err: unknown) =>
+  err instanceof CliError && TRANSIENT.has(err.code);
+
+/** Attempts per call or import item (`--retries N` sets the extra tries). */
+let attempts = 4;
+
+const pause = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Run `fn`, retrying transient failures with backoff (1 s, 3 s, 9 s…).
+ * `beforeRetry` may settle the outcome itself (e.g. a create that did land).
+ */
+const withRetries = async <T>(
+  fn: () => Promise<T>,
+  beforeRetry?: () => Promise<T | undefined>,
+): Promise<T> => {
+  for (let i = 1; ; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (i >= attempts || !isTransient(err)) throw err;
+      await pause(1000 * 3 ** (i - 1));
+      const settled = await beforeRetry?.();
+      if (settled !== undefined) return settled;
+    }
+  }
+};
+
+// Reads are safe to repeat. Writes are retried by the commands that can
+// tell whether a failed attempt landed (import, update-many, copy…).
+const query = (path: string, input?: unknown) =>
+  withRetries(() => call("query", path, input));
 const mutate = (path: string, input: unknown) => call("mutation", path, input);
 
 const collectionOf = async (slug: string) => {
@@ -647,45 +725,277 @@ const mergeTranslations = (base: unknown, patch: unknown): Obj => {
   );
 };
 
-/** Propose an edit: `patch` merged onto the place's current state. */
-const editPlace = async (placeId: string, patch: Obj, note: string | null) => {
-  const current = (await query("place.byId", { placeId })) as {
-    place: Obj & {
-      collectionId: string;
-      photoIds: string[];
-      attributes: Attrs;
-    };
-    fields: { key: string }[];
-  };
-  // Values of fields the map no longer defines are dropped, not resent.
-  const known = new Set(current.fields.map((f) => f.key));
-  const added = await uploadDraftPhotos(
-    current.place.collectionId,
-    patch.photos,
+/** Leaves of a JSON value by dotted path (arrays are leaves). */
+const leaves = (v: unknown, prefix = ""): [string, unknown][] =>
+  v && typeof v === "object" && !Array.isArray(v)
+    ? Object.entries(v as Obj).flatMap(([k, x]) =>
+        leaves(x, prefix ? `${prefix}.${k}` : k),
+      )
+    : [[prefix, v]];
+
+/** What changes between two drafts: {"attributes.rank": {from, to}, …}. */
+const diffOf = (before: unknown, after: unknown) => {
+  const a = new Map(leaves(trimmed(before)));
+  const b = new Map(leaves(trimmed(after)));
+  const keys = [...new Set([...a.keys(), ...b.keys()])].sort();
+  return Object.fromEntries(
+    keys
+      .filter((k) => stableJson(a.get(k)) !== stableJson(b.get(k)))
+      .map((k) => [k, { from: a.get(k) ?? null, to: b.get(k) ?? null }]),
   );
-  const draft = {
-    ...EMPTY_DRAFT,
-    ...pickDraft(current.place),
-    ...pickDraft(patch),
-    attributes: mergeAttributes(
-      current.place.attributes ?? {},
-      patch.attributes,
-      known,
-    ),
-    translations: mergeTranslations(
-      current.place.translations,
-      patch.translations,
-    ),
-    photoIds: [
-      ...((patch.photoIds as string[] | undefined) ?? current.place.photoIds),
-      ...added,
-    ],
+};
+
+type PlaceById = {
+  place: Obj & {
+    id: string;
+    title: string;
+    collectionId: string;
+    photoIds: string[];
+    attributes: Attrs;
   };
-  const before = { ...EMPTY_DRAFT, ...pickDraft(current.place) };
-  // The server trims text, so a file's trailing newline isn't a change.
-  if (stableJson(trimmed(before)) === stableJson(trimmed(draft)))
-    return { status: "unchanged", placeId };
-  return mutate("proposal.create", { kind: "edit", placeId, draft, note });
+  fields: { key: string }[];
+};
+
+/**
+ * Propose an edit: `patch` merged onto the place's current state. With
+ * `dryRun`, returns the diff instead. Photos are uploaded once; the write
+ * itself is retried, and recomputing the merge makes a retry after a write
+ * that did land come back "unchanged" rather than apply twice.
+ */
+const editPlace = async (
+  placeId: string,
+  patch: Obj,
+  note: string | null,
+  opts: { dryRun?: boolean } = {},
+): Promise<Obj> => {
+  const first = (await query("place.byId", { placeId })) as PlaceById;
+  const known = new Set(first.fields.map((f) => f.key));
+  const unknown = Object.keys(
+    (patch.attributes as Attrs | undefined) ?? {},
+  ).filter((k) => !known.has(k));
+  if (unknown.length)
+    throw new CliError(
+      `Not fields of this map: ${unknown.join(", ")} (see \`dc map <slug>\` → fields)`,
+      "BAD_JSON",
+    );
+  const added = opts.dryRun
+    ? []
+    : await uploadDraftPhotos(first.place.collectionId, patch.photos);
+  const attempt = async (current: PlaceById): Promise<Obj> => {
+    // Values of fields the map no longer defines are dropped, not resent.
+    const known = new Set(current.fields.map((f) => f.key));
+    const draft = {
+      ...EMPTY_DRAFT,
+      ...pickDraft(current.place),
+      ...pickDraft(patch),
+      attributes: mergeAttributes(
+        current.place.attributes ?? {},
+        patch.attributes,
+        known,
+      ),
+      translations: mergeTranslations(
+        current.place.translations,
+        patch.translations,
+      ),
+      photoIds: [
+        ...new Set([
+          ...((patch.photoIds as string[] | undefined) ??
+            current.place.photoIds),
+          ...added,
+        ]),
+      ],
+    };
+    const before = { ...EMPTY_DRAFT, ...pickDraft(current.place) };
+    // The server trims text, so a file's trailing newline isn't a change.
+    if (stableJson(trimmed(before)) === stableJson(trimmed(draft)))
+      return { status: "unchanged", placeId };
+    if (opts.dryRun)
+      return {
+        status: "would-update",
+        placeId,
+        title: current.place.title,
+        diff: diffOf(before, draft),
+      };
+    return (await mutate("proposal.create", {
+      kind: "edit",
+      placeId,
+      draft,
+      note,
+    })) as Obj;
+  };
+  let current = first;
+  return withRetries(
+    () => attempt(current),
+    async () => {
+      current = (await query("place.byId", { placeId })) as PlaceById;
+      return undefined;
+    },
+  );
+};
+
+/** Propose removing a place (retried; a retry finds it already gone). */
+const archivePlace = async (
+  placeId: string,
+  note: string,
+  opts: { dryRun?: boolean } = {},
+): Promise<Obj> => {
+  const { place } = (await query("place.byId", { placeId })) as PlaceById;
+  if (place.status !== "published")
+    return { status: "unchanged", placeId, reason: "not on the map" };
+  if (opts.dryRun)
+    return { status: "would-archive", placeId, title: place.title };
+  return withRetries(
+    async () =>
+      (await mutate("proposal.create", {
+        kind: "archive",
+        placeId,
+        note,
+      })) as Obj,
+    async () => {
+      const again = (await query("place.byId", { placeId })) as PlaceById;
+      return again.place.status === "published"
+        ? undefined
+        : { status: "approved", placeId };
+    },
+  );
+};
+
+/** A JSON array from a file path, inline text or - (stdin). */
+const readJsonArray = (arg: string): unknown[] => {
+  const text =
+    arg === "-"
+      ? readFileSync(0, "utf8")
+      : arg.trim().startsWith("[")
+        ? arg
+        : readFileSync(arg, "utf8");
+  const v: unknown = JSON.parse(text);
+  if (!Array.isArray(v))
+    throw new CliError("Expected a JSON array", "BAD_JSON");
+  return v;
+};
+
+const messageOf = (err: unknown) =>
+  err instanceof Error ? err.message : String(err);
+
+/** One word for what a write did, from the proposal's status. */
+const outcomeOf = (res: Obj, done: "created" | "updated" | "archived") =>
+  res.status === "approved"
+    ? done
+    : res.status === "pending"
+      ? "pending-review"
+      : String(res.status);
+
+/**
+ * Results with counts per outcome. Anything failed sets a non-zero exit
+ * code (after the JSON is printed), so scripts can tell.
+ */
+const withSummary = (results: Obj[]) => {
+  const summary: Record<string, number> = { total: results.length };
+  for (const r of results) {
+    const k = String(r.result);
+    summary[k] = (summary[k] ?? 0) + 1;
+  }
+  if (summary.failed) process.exitCode = 1;
+  return { summary, results };
+};
+
+/**
+ * Propose a new place, retrying transient failures. Before a retry it looks
+ * for the title on the map, so a create that did land isn't made twice.
+ */
+const createPlace = async (
+  collectionId: string,
+  draft: Obj,
+  note: string | null,
+): Promise<Obj> =>
+  withRetries(
+    async () =>
+      (await mutate("proposal.create", {
+        kind: "create",
+        collectionId,
+        draft,
+        note,
+      })) as Obj,
+    async () => {
+      const rows = (await query("place.list", { collectionId })) as {
+        id: string;
+        title: string;
+      }[];
+      const title = String(draft.title).trim().toLowerCase();
+      const hit = rows.find((p) => p.title.toLowerCase() === title);
+      return hit ? { status: "approved", placeId: hit.id } : undefined;
+    },
+  );
+
+const CLOSE_METRES = 25;
+
+const metresBetween = (
+  a: { lat: number; lng: number },
+  b: { lat: number; lng: number },
+) => {
+  const rad = Math.PI / 180;
+  const x = (b.lng - a.lng) * rad * Math.cos(((a.lat + b.lat) / 2) * rad);
+  const y = (b.lat - a.lat) * rad;
+  return Math.sqrt(x * x + y * y) * 6_371_000;
+};
+
+type Neighbour = {
+  map: string;
+  id: string;
+  title: string;
+  lat: number;
+  lng: number;
+  attributes?: Attrs;
+};
+
+/** Published places on the city's other maps, to spot cross-map doubles. */
+const otherMapPlaces = async (target: {
+  id: string;
+  city?: unknown;
+}): Promise<Neighbour[]> => {
+  const maps = (await query("collection.list")) as {
+    id: string;
+    slug: string;
+    city: string;
+  }[];
+  const others = maps.filter(
+    (m) => m.city === target.city && m.id !== target.id,
+  );
+  const lists = await Promise.all(
+    others.map(async (m) =>
+      (
+        (await query("place.list", { collectionId: m.id })) as Omit<
+          Neighbour,
+          "map"
+        >[]
+      ).map((p) => ({ ...p, map: m.slug })),
+    ),
+  );
+  return lists.flat();
+};
+
+/** Same title, same monument number or within 25 m, on another map. */
+const crossMapMatches = (draft: Obj, neighbours: Neighbour[]) => {
+  const title = String(draft.title ?? "").toLowerCase();
+  const monument = (draft.attributes as Attrs | undefined)?.monument_number;
+  const lat = Number(draft.lat);
+  const lng = Number(draft.lng);
+  return neighbours.flatMap((p) => {
+    const why = [
+      p.title.toLowerCase() === title && "same title",
+      monument !== undefined &&
+        monument !== "" &&
+        String(p.attributes?.monument_number ?? "") === String(monument) &&
+        "same monument number",
+      Number.isFinite(lat) &&
+        Number.isFinite(lng) &&
+        metresBetween({ lat, lng }, p) < CLOSE_METRES &&
+        `${Math.round(metresBetween({ lat, lng }, p))} m apart`,
+    ].filter((w): w is string => typeof w === "string");
+    return why.length
+      ? [{ map: p.map, placeId: p.id, title: p.title, why: why.join(", ") }]
+      : [];
+  });
 };
 
 /** `v` with every string trimmed, for comparing drafts as the server stores them. */
@@ -925,7 +1235,7 @@ const commands: Record<
   (pos: string[], flags: Record<string, string>) => Promise<unknown>
 > = {
   help: async () => {
-    process.stdout.write(HELP + DOC_HELP);
+    process.stdout.write(HELP + MAP_HELP + DOC_HELP);
     return undefined;
   },
   schema: async () => SCHEMA,
@@ -1031,7 +1341,38 @@ const commands: Record<
     const bad = unknownKeys(patch);
     if (bad.length)
       throw new CliError(`Unknown patch fields: ${bad.join(", ")}`, "BAD_JSON");
-    return editPlace(need(placeId, "<placeId>"), patch, flags.note ?? null);
+    return editPlace(need(placeId, "<placeId>"), patch, flags.note ?? null, {
+      dryRun: flags["dry-run"] === "true",
+    });
+  },
+
+  /** Many edits, one note: [{"id", "patch", "note"?}] or [{"id", ...patch}]. */
+  "update-many": async ([arg], flags) => {
+    const items = readJsonArray(need(arg, "<file.json>"));
+    const results: Obj[] = [];
+    for (const raw of items) {
+      const { id, patch, note, ...rest } = raw as Obj;
+      const body = (patch ?? rest) as Obj;
+      const placeId = typeof id === "string" ? id : "";
+      try {
+        if (!placeId) throw new CliError('Each item needs an "id"', "BAD_JSON");
+        if (typeof body !== "object" || body === null || Array.isArray(body))
+          throw new CliError('"patch" must be an object', "BAD_JSON");
+        const bad = unknownKeys(body);
+        if (bad.length)
+          throw new CliError(`Unknown fields: ${bad.join(", ")}`, "BAD_JSON");
+        const res = await editPlace(
+          placeId,
+          body,
+          typeof note === "string" ? note : (flags.note ?? null),
+          { dryRun: flags["dry-run"] === "true" },
+        );
+        results.push({ placeId, result: outcomeOf(res, "updated"), ...res });
+      } catch (err) {
+        results.push({ placeId, result: "failed", error: messageOf(err) });
+      }
+    }
+    return withSummary(results);
   },
 
   /** Replace a map's custom place fields (admins). Other settings are kept. */
@@ -1148,28 +1489,184 @@ const commands: Record<
   },
 
   archive: async ([placeId], flags) =>
-    mutate("proposal.create", {
-      kind: "archive",
-      placeId: need(placeId, "<placeId>"),
-      note: need(flags.note, "--note"),
+    archivePlace(need(placeId, "<placeId>"), need(flags.note, "--note"), {
+      dryRun: flags["dry-run"] === "true",
     }),
 
-  /** Bulk create; skips titles already on the map, continues past failures. */
-  import: async ([slug, arg], flags) => {
-    const text =
-      need(arg, "<file.json>") === "-"
-        ? readFileSync(0, "utf8")
-        : readFileSync(arg ?? "", "utf8");
-    const items: unknown = JSON.parse(text);
-    if (!Array.isArray(items))
-      throw new CliError(
-        "Import file must be a JSON array of drafts",
-        "BAD_JSON",
-      );
-    const { collection } = await collectionOf(need(slug, "<slug>"));
+  /** Remove many places: ["id", …] or [{"id", "note"?}]. */
+  "archive-many": async ([arg], flags) => {
+    const items = readJsonArray(need(arg, "<file.json>"));
+    const results: Obj[] = [];
+    for (const raw of items) {
+      const item = (typeof raw === "string" ? { id: raw } : raw) as Obj;
+      const placeId = typeof item.id === "string" ? item.id : "";
+      try {
+        if (!placeId) throw new CliError('Each item needs an "id"', "BAD_JSON");
+        const note =
+          typeof item.note === "string"
+            ? item.note
+            : need(flags.note, "--note");
+        const res = await archivePlace(placeId, note, {
+          dryRun: flags["dry-run"] === "true",
+        });
+        results.push({ placeId, result: outcomeOf(res, "archived"), ...res });
+      } catch (err) {
+        results.push({ placeId, result: "failed", error: messageOf(err) });
+      }
+    }
+    return withSummary(results);
+  },
+
+  /**
+   * Copy places to another map, with their photos and translations. The
+   * history note records where each came from.
+   */
+  copy: async ([slug, ...args], flags) => {
+    const target = await collectionOf(need(slug, "<slug>"));
+    const placeIds = args.flatMap((a) => a.split(/[\s,]+/)).filter(Boolean);
+    if (placeIds.length === 0)
+      throw new CliError("Missing <placeId>. See `dc help`.", "USAGE");
+    const t = target.collection as unknown as Obj & {
+      id: string;
+      slug: string;
+      language: string;
+      languages: string[];
+      fields: { key: string; type: string; options?: string[] }[];
+      categories: { key: string }[];
+    };
+    const maps = (await query("collection.list")) as {
+      id: string;
+      slug: string;
+    }[];
     const existing = (await query("place.list", {
+      collectionId: t.id,
+    })) as { id: string; title: string }[];
+    const byTitle = new Map(existing.map((p) => [p.title.toLowerCase(), p.id]));
+    const fieldByKey = new Map(t.fields.map((f) => [f.key, f]));
+    const fits = (key: string, value: unknown) => {
+      const f = fieldByKey.get(key);
+      return (
+        f !== undefined &&
+        (f.type !== "select" || (f.options ?? []).includes(String(value)))
+      );
+    };
+    const results: Obj[] = [];
+    for (const placeId of placeIds) {
+      try {
+        const { place: src } = (await query("place.byId", {
+          placeId,
+        })) as PlaceById;
+        const from = maps.find((m) => m.id === src.collectionId)?.slug ?? "?";
+        const there = byTitle.get(src.title.toLowerCase());
+        if (there) {
+          results.push({
+            placeId,
+            title: src.title,
+            result: "skipped",
+            reason: "title exists on the target map",
+            existingId: there,
+          });
+          continue;
+        }
+        const category = flags.category ?? (src.category as string);
+        if (!t.categories.some((c) => c.key === category))
+          throw new CliError(
+            `Category "${category}" isn't on ${t.slug} (${t.categories.map((c) => c.key).join(", ")}); pass --category`,
+            "BAD_JSON",
+          );
+        const attrs = Object.entries(src.attributes ?? {});
+        const dropped = attrs.filter(([k, v]) => !fits(k, v)).map(([k]) => k);
+        const offered = new Set(t.languages);
+        const translations = Object.fromEntries(
+          Object.entries((src.translations ?? {}) as Record<string, Obj>)
+            .filter(([lang]) => offered.has(lang))
+            .map(([lang, tr]) => [
+              lang,
+              tr.attributes
+                ? {
+                    ...tr,
+                    attributes: Object.fromEntries(
+                      Object.entries(tr.attributes as Obj).filter(([k]) =>
+                        fieldByKey.has(k),
+                      ),
+                    ),
+                  }
+                : tr,
+            ]),
+        );
+        const droppedLangs = Object.keys(
+          (src.translations ?? {}) as Obj,
+        ).filter((l) => !offered.has(l));
+        const draft = {
+          ...EMPTY_DRAFT,
+          ...pickDraft(src),
+          category,
+          attributes: Object.fromEntries(attrs.filter(([k, v]) => fits(k, v))),
+          translations,
+          photoIds: [] as string[],
+        };
+        const report = {
+          title: src.title,
+          copiedFrom: `${from}/${placeId}`,
+          ...(dropped.length ? { droppedAttributes: dropped } : {}),
+          ...(droppedLangs.length ? { droppedLanguages: droppedLangs } : {}),
+        };
+        if (flags["dry-run"] === "true") {
+          results.push({ ...report, result: "would-create" });
+          continue;
+        }
+        if (src.photoIds.length > 0)
+          draft.photoIds = (
+            (await withRetries(() =>
+              mutate("photo.copy", {
+                collectionId: t.id,
+                photoIds: src.photoIds,
+              }),
+            )) as { ids: string[] }
+          ).ids;
+        const note = [`Copied from ${from}/${placeId}`, flags.note]
+          .filter(Boolean)
+          .join(". ");
+        const res = await createPlace(t.id, draft, note);
+        results.push({ ...report, result: outcomeOf(res, "created"), ...res });
+      } catch (err) {
+        results.push({ placeId, result: "failed", error: messageOf(err) });
+      }
+    }
+    return withSummary(results);
+  },
+
+  /** Every published place in full: all translations, attributes, photo ids. */
+  export: async ([slug]) => {
+    const { collection } = await collectionOf(need(slug, "<slug>"));
+    const places = await query("place.export", {
       collectionId: collection.id,
-    })) as { id: string; title: string; coverPhotoId: string | null }[];
+    });
+    return {
+      map: slug,
+      url: config.url,
+      exportedAt: new Date().toISOString(),
+      places,
+    };
+  },
+
+  /**
+   * Bulk create; skips titles already on the map (or updates them with
+   * --upsert), retries transient failures, continues past the rest. New
+   * places that look like ones on the city's other maps get "alsoOn".
+   */
+  import: async ([slug, arg], flags) => {
+    const items = readJsonArray(need(arg, "<file.json>"));
+    const { collection } = await collectionOf(need(slug, "<slug>"));
+    const dryRun = flags["dry-run"] === "true";
+    const [existing, neighbours] = await Promise.all([
+      query("place.list", { collectionId: collection.id }) as Promise<
+        { id: string; title: string; coverPhotoId: string | null }[]
+      >,
+      flags["no-cross-check"] === "true"
+        ? Promise.resolve([])
+        : otherMapPlaces(collection),
+    ]);
     const byTitle = new Map(existing.map((p) => [p.title.toLowerCase(), p.id]));
     const withPhotos = new Set(
       existing.filter((p) => p.coverPhotoId).map((p) => p.id),
@@ -1197,13 +1694,6 @@ const commands: Record<
         });
         continue;
       }
-      if (flags["dry-run"]) {
-        results.push({
-          title,
-          result: existingId ? "would-update" : "would-create",
-        });
-        continue;
-      }
       const itemNote = typeof note === "string" ? note : (flags.note ?? null);
       if (existingId) {
         try {
@@ -1211,25 +1701,22 @@ const commands: Record<
           const patch = withPhotos.has(existingId)
             ? { ...input, photos: undefined }
             : input;
-          const res = (await editPlace(existingId, patch, itemNote)) as Obj;
-          results.push({
-            title,
-            result:
-              res.status === "approved"
-                ? "updated"
-                : res.status === "unchanged"
-                  ? "unchanged"
-                  : "pending-review",
-            ...res,
-          });
+          const res = await editPlace(existingId, patch, itemNote, { dryRun });
+          results.push({ title, result: outcomeOf(res, "updated"), ...res });
         } catch (err) {
           results.push({
             title,
             result: "failed",
             placeId: existingId,
-            error: err instanceof Error ? err.message : String(err),
+            error: messageOf(err),
           });
         }
+        continue;
+      }
+      const alsoOn = crossMapMatches(input, neighbours);
+      const warn = alsoOn.length ? { alsoOn } : {};
+      if (dryRun) {
+        results.push({ title, result: "would-create", ...warn });
         continue;
       }
       try {
@@ -1242,40 +1729,27 @@ const commands: Record<
             ...added,
           ],
         };
-        const res = (await mutate("proposal.create", {
-          kind: "create",
-          collectionId: collection.id,
-          draft,
-          note: itemNote,
-        })) as Obj;
+        const res = await createPlace(collection.id, draft, itemNote);
         results.push({
           title,
-          result: res.status === "approved" ? "created" : "pending-review",
+          result: outcomeOf(res, "created"),
+          ...warn,
           ...res,
         });
       } catch (err) {
         results.push({
           title,
           result: "failed",
-          error: err instanceof Error ? err.message : String(err),
+          ...warn,
+          error: messageOf(err),
         });
       }
     }
-    const count = (r: string) => results.filter((x) => x.result === r).length;
-    return {
-      summary: {
-        total: results.length,
-        created: count("created"),
-        updated: count("updated"),
-        unchanged: count("unchanged"),
-        pendingReview: count("pending-review"),
-        skipped: count("skipped"),
-        failed: count("failed"),
-        wouldCreate: count("would-create"),
-        wouldUpdate: count("would-update"),
-      },
-      results,
-    };
+    const out = withSummary(results);
+    const flagged = results.filter((r) => r.alsoOn).length;
+    return flagged
+      ? { ...out, summary: { ...out.summary, alsoOnOtherMaps: flagged } }
+      : out;
   },
 
   routes: async ([slug]) => {
@@ -1394,6 +1868,16 @@ const commands: Record<
       note: need(flags.note, "--note"),
     }),
 
+  ...makeMapCommands({
+    query,
+    mutate,
+    readJson: readJsonArg,
+    need,
+    fail: (message, code) => {
+      throw new CliError(message, code);
+    },
+  }),
+
   ...makeDocCommands({
     url: config.url,
     query,
@@ -1443,6 +1927,12 @@ const commands: Record<
 const main = async () => {
   const [cmd = "help", ...rest] = process.argv.slice(2);
   const { positional, flags } = parseArgs(rest);
+  if (flags.retries !== undefined) {
+    const n = Number(flags.retries);
+    if (!Number.isInteger(n) || n < 0 || n > 10)
+      throw new CliError("--retries expects a whole number 0–10", "USAGE");
+    attempts = n + 1;
+  }
   const run = commands[cmd === "--help" || cmd === "-h" ? "help" : cmd];
   if (!run)
     throw new CliError(`Unknown command "${cmd}". Run \`dc help\`.`, "USAGE");

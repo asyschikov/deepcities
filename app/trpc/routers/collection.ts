@@ -138,6 +138,32 @@ export const collectionRouter = router({
       return { id, slug: input.slug, citySlug: citySlug(input.city) };
     }),
 
+  /**
+   * Make a map its city's own map (or stop it being one). A city has at
+   * most one, so this clears the flag on the city's other maps.
+   */
+  setCityDefault: superAdminProcedure
+    .input(z.object({ collectionId: idSchema, on: z.boolean() }))
+    .mutation(async ({ ctx, input }) => {
+      const target = await ctx.db.query.collection.findFirst({
+        where: eq(collection.id, input.collectionId),
+        columns: { id: true, city: true },
+      });
+      if (!target)
+        throw new TRPCError({ code: "NOT_FOUND", message: "Map not found" });
+      if (input.on) {
+        await ctx.db
+          .update(collection)
+          .set({ cityDefault: false })
+          .where(eq(collection.city, target.city));
+      }
+      await ctx.db
+        .update(collection)
+        .set({ cityDefault: input.on })
+        .where(eq(collection.id, target.id));
+      return { ok: true };
+    }),
+
   updateSettings: publicProcedure
     .input(settingsSchema.extend({ collectionId: idSchema }))
     .mutation(async ({ ctx, input }) => {
