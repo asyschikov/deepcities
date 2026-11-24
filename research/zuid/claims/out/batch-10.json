@@ -1,0 +1,1824 @@
+[
+ {
+  "id": "uv1gjfnp94ea3z8sk86hvqz1",
+  "title": "Dufayschool",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Around 1910 the city became convinced that sunlight was good for children, and this was one of the first schools it designed with the classrooms on the south, at the back, whichever way the building faced.",
+    "new": "The city was convinced that sunlight was good for children's health. Until then classrooms had always been on the street front, whichever way the building faced; this was one of the first schools it designed with the classrooms on the south, here mostly at the back.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/0e6719eb-ecc0-4fe9-b79c-b1929acb3498",
+    "evidence": "Tot dan toe hadden de lokalen altijd aan de voorgevel van een schoolgebouw gelegen, ongeacht de oriëntatie van het gebouw. ... de gemeente overtuigd van het heil dat zonlicht zou kunnen hebben op de gezondheid van het kind"
+   },
+   {
+    "field": "nl.body",
+    "old": "Rond 1910 raakte de gemeente ervan overtuigd dat zonlicht goed was voor kinderen, en dit was een van de eerste scholen die ze ontwierp met de lokalen op het zuiden, aan de achterkant, hoe het gebouw ook stond.",
+    "new": "De gemeente geloofde dat zonlicht goed was voor de gezondheid van kinderen. Tot dan toe lagen de lokalen altijd aan de straatkant, hoe het gebouw ook stond; dit was een van de eerste scholen die ze ontwierp met de lokalen op het zuiden, hier vooral aan de achterkant.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/0e6719eb-ecc0-4fe9-b79c-b1929acb3498",
+    "evidence": "Tot dan toe hadden de lokalen altijd aan de voorgevel van een schoolgebouw gelegen, ongeacht de oriëntatie van het gebouw. ... de gemeente overtuigd van het heil dat zonlicht zou kunnen hebben op de gezondheid van het kind"
+   },
+   {
+    "field": "body",
+    "old": "the one gap in a long closed street wall",
+    "new": "a break in a long closed street wall",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/0e6719eb-ecc0-4fe9-b79c-b1929acb3498",
+    "evidence": "doorbreekt zodoende op dit punt het dominante profiel van deze lange straat"
+   },
+   {
+    "field": "nl.body",
+    "old": "het enige gat in een lange gesloten gevelwand",
+    "new": "een onderbreking in een lange gesloten gevelwand",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/0e6719eb-ecc0-4fe9-b79c-b1929acb3498",
+    "evidence": "doorbreekt zodoende op dit punt het dominante profiel van deze lange straat"
+   },
+   {
+    "field": "body",
+    "old": "The café is the way in; check its opening hours.",
+    "new": "The café is there for the neighbourhood; check its opening hours.",
+    "kind": "narrowed",
+    "source": "https://www.dufayhuis.nl/",
+    "evidence": "Het Dufayhuis is een ontmoetingsplek in deze mooie wijk. ... Even tot rust komen of een gezellig praatje kan in ons Dufay Café met buurttuin."
+   },
+   {
+    "field": "nl.body",
+    "old": "Via het café kom je binnen; kijk vooraf naar de openingstijden.",
+    "new": "Het café is er voor de buurt; kijk vooraf naar de openingstijden.",
+    "kind": "narrowed",
+    "source": "https://www.dufayhuis.nl/",
+    "evidence": "Het Dufayhuis is een ontmoetingsplek in deze mooie wijk. ... Even tot rust komen of een gezellig praatje kan in ons Dufay Café met buurttuin."
+   }
+  ],
+  "patch": {
+   "body": "Most old schools in Zuid can only be admired from the pavement. This one has a café. The former Dufayschool was designed in 1913 by the city's Public Works department as a school for \"extended primary education\": extra years of schooling after the age of twelve, for boys and girls together, at a time when that type of school had no basis in law yet (it got one in 1920).\n\nThe lopsided front has a reason. The city was convinced that sunlight was good for children's health. Until then classrooms had always been on the street front, whichever way the building faced; this was one of the first schools it designed with the classrooms on the south, here mostly at the back. That left the architects with a street front without the usual rows of classroom windows, and they filled it with a tower, a gable, a bay and plenty of ornament. On the De Lairessestraat side the school stands back from the building line, a break in a long closed street wall.\n\nThe last school left in 2018. Since 2022 this is the Dufayhuis, a neighbourhood health centre with family doctors, a pharmacy and physiotherapists, and the Dufay Café with a terrace and garden. The café is there for the neighbourhood; check its opening hours.\n\nLook for:\n- the yellow tile panel over the entrance with the school's full name, edged with flowers, a butterfly and a bee, signed \"De Distel\"\n- the sandstone arch with palm-leaf ornament around the door\n- the iron gate with the three crosses of Amsterdam and the year 1913\n- gargoyles shaped like fabulous beasts on the corners of the tower\n- the diamond-shaped ceramic owl above the gym windows",
+   "translations": {
+    "nl": {
+     "body": "De meeste oude scholen in Zuid bekijk je vanaf de stoep. Deze heeft een café. De vroegere Dufayschool is in 1913 getekend door de Dienst der Publieke Werken als school voor uitgebreid lager onderwijs: een paar jaar extra onderwijs na het twaalfde jaar, voor jongens en meisjes samen, toen dat schooltype nog niet in de wet stond (dat kwam pas in 1920).\n\nDe scheve voorgevel heeft een reden. De gemeente geloofde dat zonlicht goed was voor de gezondheid van kinderen. Tot dan toe lagen de lokalen altijd aan de straatkant, hoe het gebouw ook stond; dit was een van de eerste scholen die ze ontwierp met de lokalen op het zuiden, hier vooral aan de achterkant. Aan de straat bleef een gevel over zonder de gebruikelijke rijen lokaalramen, en de ontwerpers vulden die met een toren, een topgevel, een erker en veel versiering. Aan de De Lairessestraat staat de school een eind naar achteren: een onderbreking in een lange gesloten gevelwand.\n\nDe laatste school vertrok in 2018. Sinds 2022 is dit het Dufayhuis, een gezondheidscentrum voor de buurt met huisartsen, een apotheek en fysiotherapeuten, en het Dufay Café met terras en tuin. Het café is er voor de buurt; kijk vooraf naar de openingstijden.\n\nLet op:\n- het gele tegeltableau boven de ingang met de volledige naam van de school, omrand met bloemen, een vlinder en een bij, gesigneerd 'De Distel'\n- de zandstenen boog met palmetten om de deur\n- het smeedijzeren hek met de drie Amsterdamse kruizen en het jaartal 1913\n- waterspuwers in de vorm van fabeldieren op de hoeken van de toren\n- de ruitvormige keramische uil boven de ramen van de gymzaal"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xg9qwqpqwmksak8ix2vdb6v3",
+  "title": "Emmaplein 3–5 and Emmalaan 16–18: villas with a listed garage",
+  "changes": [
+   {
+    "field": "body",
+    "old": "By the time the east side of the Emmaplein was built, around 1919, the plain brick of the first villas on the square was out of date twice over, and the two blocks here show both ways forward.",
+    "new": "The east side of the Emmaplein was built around 1919, and the two blocks here went two very different ways.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504609",
+    "evidence": "in 1919 ontworpen door J. Juffer jr. (no source dates the earlier villas as out of date)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Toen rond 1919 de oostkant van het Emmaplein werd bebouwd, was de strakke baksteen van de eerste villa's aan het plein al twee keer achterhaald. De twee blokken hier laten zien welke kanten het daarna op ging.",
+    "new": "Rond 1919 werd de oostkant van het Emmaplein bebouwd, en de twee blokken hier kozen elk een heel andere richting.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504609",
+    "evidence": "in 1919 ontworpen door J. Juffer jr."
+   }
+  ],
+  "patch": {
+   "body": "The east side of the Emmaplein was built around 1919, and the two blocks here went two very different ways.\n\nEmmaplein 3–5 is by Jan Juffer jr., designed in 1919 for two merchants, in a calmed-down version of the Amsterdam School: flat brick fronts that suddenly end in gables shaped like parabolas. The building plans named every room, down to the trunk room and the maids' room, which suggests the future residents sat at the drawing table. In 1922 the Van Gendt brothers enlarged no. 5 for a banker who also served as consul-general of Austria from 1930 until the Anschluss of 1938. Two extras are listed separately: the decorative iron fence of no. 5, and the garage behind no. 3, built in 1920 and protected as an intact garage from the early days of the car.\n\nA few steps south, the double villa Emmalaan 16–18 (1918–1920, by J.B. Janus) turns its back on all that. It belongs to the \"Um 1800\" movement, a conservative return to the building habits of a century earlier: slate roof, stone garlands, a Doric column. Both halves are offices now.\n\nEverything is private; this ensemble is pinned on Emmaplein 5.\n\nLook for:\n- Emmaplein 3 and 5: the parabola gables, on the square and round the corner on the Oranje Nassaulaan\n- Emmaplein 5: the small zinc-clad turret on the roof\n- Emmaplein 5: the Amsterdam School iron fence on its brick base\n- Emmaplein 5: the front door with its top lights divided in Amsterdam School patterns\n- Emmalaan 16: the stone dated 1919, and two hanging stone garlands\n- Emmalaan 16 and 18: the Doric column carrying a corner balcony at each entrance\n- Emmalaan 16 and 18: the oval windows in the side walls",
+   "translations": {
+    "nl": {
+     "body": "Rond 1919 werd de oostkant van het Emmaplein bebouwd, en de twee blokken hier kozen elk een heel andere richting.\n\nEmmaplein 3–5 is van Jan Juffer jr., in 1919 getekend voor twee kooplieden, in een ingetogen variant van de Amsterdamse School: vlakke bakstenen gevels die onverwacht eindigen in toppen in de vorm van een parabool. Op de bouwtekeningen staat bij elke kamer de bestemming, tot de kofferkamer en de kamer voor de dienstbodes aan toe; de toekomstige bewoners hebben er dus kennelijk flink over meegepraat. In 1922 vergrootten de gebroeders Van Gendt nummer 5 voor een bankier die van 1930 tot de Anschluss in 1938 ook consul-generaal van Oostenrijk was. Twee onderdelen staan apart op de monumentenlijst: het sierlijke ijzeren hek van nummer 5 en de garage achter nummer 3, gebouwd in 1920 en beschermd als gaaf voorbeeld uit de begintijd van de auto.\n\nEen paar stappen naar het zuiden keert de dubbele villa Emmalaan 16–18 (1918–1920, J.B. Janus) dat allemaal de rug toe. Het huis hoort bij de 'Um 1800'-beweging, een behoudende terugkeer naar de bouwgewoonten van een eeuw eerder: leien dak, stenen guirlandes, een Dorische zuil. Beide helften zijn nu kantoor.\n\nAlles is particulier; de speld staat op Emmaplein 5.\n\nLet op:\n- Emmaplein 3 en 5: de paraboolgevels, aan het plein en om de hoek aan de Oranje Nassaulaan\n- Emmaplein 5: het met zink beklede torentje op het dak\n- Emmaplein 5: het ijzeren hek in Amsterdamse Schoolstijl op een bakstenen voet\n- Emmaplein 5: de voordeur met bovenlichten die in Amsterdamse Schoolpatronen zijn verdeeld\n- Emmalaan 16: de steen met het jaartal 1919 en twee hangende stenen guirlandes\n- Emmalaan 16 en 18: de Dorische zuil die bij elke ingang een hoekbalkon draagt\n- Emmalaan 16 en 18: de ovale ramen in de zijgevels"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "awllm7njt9xr8r48ourtnvi4",
+  "title": "Emmaplein and Emmalaan: Staal's villas at the park bridge",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Cross the iron bridge out of the Vondelpark",
+    "new": "Cross the bridge out of the Vondelpark",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Emmaplein_(Amsterdam)",
+    "evidence": "Die Emmalaan begint aan de Diaconessenbrug, in- en uitgang van het Vondelpark (no source says iron)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Wie over de ijzeren brug het Vondelpark uit loopt",
+    "new": "Wie over de brug het Vondelpark uit loopt",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Emmaplein_(Amsterdam)",
+    "evidence": "Die Emmalaan begint aan de Diaconessenbrug"
+   },
+   {
+    "field": "body",
+    "old": "The first two blocks on the corners, both of 1911, are by Jan Frederik Staal, who was then working in the plain, heavy brick manner of Berlage.",
+    "new": "The two blocks on the corners, both of 1911, are by Jan Frederik Staal, here working in the sober brick manner of Berlage.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505339",
+    "evidence": "In 1911 tot stand gekomen ... ontworpen in de trant van H.P. Berlage door J.F.Staal jr. (no source says they were the first on the square, or 'heavy')"
+   },
+   {
+    "field": "nl.body",
+    "old": "De eerste twee blokken op de hoeken, allebei uit 1911, zijn van Jan Frederik Staal. Hij bouwde toen nog in de trant van Berlage: strak, zwaar en van baksteen.",
+    "new": "De twee blokken op de hoeken, allebei uit 1911, zijn van Jan Frederik Staal. Hij bouwde hier in de trant van Berlage: sober en van baksteen.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505339",
+    "evidence": "In 1911 tot stand gekomen ... ontworpen in de trant van H.P. Berlage door J.F.Staal jr. (no source says they were the first on the square, or 'heavy')"
+   },
+   {
+    "field": "body",
+    "old": "On the west side an estate agent had him build three houses in one block: Emmalaan 8 and 10 and, on the corner, Emmaplein 2. Opposite, a builder and his partner commissioned the double villa Emmalaan 7–9.",
+    "new": "On one side an estate agent had him build three houses in one block: Emmalaan 8 and 10 and, on the corner, Emmaplein 2. Opposite, the builder J.H. Werner and F. Kampf commissioned the double villa Emmalaan 7–9.",
+    "kind": "sourced",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Emmalaan/7-9",
+    "evidence": "Opdrachtgevers waren J.H. Werner jr. en F. Kampf. Werner was een timmerman, aannemer, makelaar en bouwondernemer. (no source gives the compass side or calls Kampf his partner)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Aan de westkant liet een makelaar hem drie huizen in één blok bouwen: Emmalaan 8 en 10 en, op de hoek, Emmaplein 2. Aan de overkant bestelden een aannemer en zijn compagnon de dubbele villa Emmalaan 7–9.",
+    "new": "Aan de ene kant liet een makelaar hem drie huizen in één blok bouwen: Emmalaan 8 en 10 en, op de hoek, Emmaplein 2. Aan de overkant bestelden de aannemer J.H. Werner en F. Kampf de dubbele villa Emmalaan 7–9.",
+    "kind": "sourced",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Emmalaan/7-9",
+    "evidence": "Opdrachtgevers waren J.H. Werner jr. en F. Kampf. Werner was een timmerman, aannemer, makelaar en bouwondernemer. (no source gives the compass side or calls Kampf his partner)"
+   },
+   {
+    "field": "body",
+    "old": "All are private homes or offices; the fronts are close to the street. This ensemble",
+    "new": "This ensemble",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives current use or setback"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het zijn allemaal woonhuizen of kantoren; de gevels staan dicht aan de straat. De speld",
+    "new": "De speld",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives current use or setback"
+   },
+   {
+    "field": "body",
+    "old": "- both blocks: deep-set windows with stone corner blocks, and balconies with open brickwork",
+    "new": "- both blocks: deep-set windows, and balconies with open brickwork",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505354",
+    "evidence": "505354 (Emmalaan 7) lists deep-set windows and open brick balcony but no stone corner blocks; those are on 505331/505339/505346"
+   },
+   {
+    "field": "nl.body",
+    "old": "- beide blokken: diepliggende ramen met stenen hoekblokken, en balkons met opengewerkt metselwerk",
+    "new": "- beide blokken: diepliggende ramen, en balkons met opengewerkt metselwerk",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505354",
+    "evidence": "505354 (Emmalaan 7) lists deep-set windows and open brick balcony but no stone corner blocks; those are on 505331/505339/505346"
+   }
+  ],
+  "patch": {
+   "body": "Cross the bridge out of the Vondelpark and the Emmalaan opens into the Emmaplein, the centrepiece of what the national register calls the only villa park Amsterdam ever built as such. The square got its name in 1902, but the houses came years later. The two blocks on the corners, both of 1911, are by Jan Frederik Staal, here working in the sober brick manner of Berlage.\n\nOn one side an estate agent had him build three houses in one block: Emmalaan 8 and 10 and, on the corner, Emmaplein 2. Opposite, the builder J.H. Werner and F. Kampf commissioned the double villa Emmalaan 7–9. The motor car arrived almost at once: in 1913 Staal himself turned the kitchen entrance of Emmaplein 2 into an \"automobile store\" for its owner.\n\nEmmalaan 7 has a later story. From 1947 to 1965 it was the Joods Jongenshuis, a home for Jewish orphan boys. About twenty lived here at a time.\n\nThis ensemble is pinned on Emmaplein 2.\n\nLook for:\n- Emmaplein 2: the cut-off corner with windows set across it, and the stone cornice with a small ornament on top\n- Emmalaan 8 and 10: the mirrored stone stairs up to arched doorways, each with a three-sided bay beside it\n- Emmalaan 7: the entrance set back under an arched porch, and leaded glass in the twin window above\n- Emmalaan 9: its front door, which is on the square and not on the Emmalaan\n- Emmalaan 9: the triangular balcony tucked into the cut-off corner\n- both blocks: deep-set windows, and balconies with open brickwork",
+   "translations": {
+    "nl": {
+     "body": "Wie over de brug het Vondelpark uit loopt, komt via de Emmalaan op het Emmaplein, het middelpunt van wat het rijksregister het enige villapark noemt dat Amsterdam ooit als zodanig heeft gebouwd. Het plein kreeg zijn naam in 1902, maar de huizen kwamen pas jaren later. De twee blokken op de hoeken, allebei uit 1911, zijn van Jan Frederik Staal. Hij bouwde hier in de trant van Berlage: sober en van baksteen.\n\nAan de ene kant liet een makelaar hem drie huizen in één blok bouwen: Emmalaan 8 en 10 en, op de hoek, Emmaplein 2. Aan de overkant bestelden de aannemer J.H. Werner en F. Kampf de dubbele villa Emmalaan 7–9. De auto diende zich vrijwel meteen aan: al in 1913 verbouwde Staal zelf de keukeningang van Emmaplein 2 voor de eigenaar tot 'automobielbewaarplaats'.\n\nEmmalaan 7 heeft een later verhaal. Van 1947 tot 1965 zat hier het Joods Jongenshuis, een tehuis voor Joodse weesjongens. Er woonden er meestal een stuk of twintig.\n\nDe speld staat op Emmaplein 2.\n\nLet op:\n- Emmaplein 2: de afgeschuinde hoek met ramen die er schuin in staan, en de stenen daklijst met een kleine bekroning\n- Emmalaan 8 en 10: de gespiegelde stenen trappen naar boogdeuren, elk met een driezijdige erker ernaast\n- Emmalaan 7: de ingang die terugligt onder een boogportiek, met glas-in-lood in het dubbele raam erboven\n- Emmalaan 9: de voordeur, die aan het plein zit en niet aan de Emmalaan\n- Emmalaan 9: het driehoekige balkon in de afgeschuinde hoek\n- beide blokken: diepliggende ramen, en balkons met opengewerkt metselwerk"
+    }
+   }
+  },
+  "sources_add": [
+   "https://monumentenregister.cultureelerfgoed.nl/monumenten/505339"
+  ]
+ },
+ {
+  "id": "rkrxrav283appy9y1s81jz3x",
+  "title": "Fontainehofje, an almshouse that moved from the Keizersgracht",
+  "changes": [
+   {
+    "field": "body",
+    "old": "in a deliberately old-fashioned Dutch Renaissance style with stepped gables",
+    "new": "in a neo-Dutch Renaissance style with stepped gables",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505366",
+    "evidence": "gebouwd in 1912-1913 naar een ontwerp in neo-Hollandse Renaissancestijl (no source gives a motive)"
+   },
+   {
+    "field": "nl.body",
+    "old": "met opzet ouderwets, in Hollandse renaissancestijl met trapgevels",
+    "new": "in neo-Hollandse renaissancestijl met trapgevels",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505366",
+    "evidence": "ontwerp in neo-Hollandse Renaissancestijl"
+   },
+   {
+    "field": "body",
+    "old": "is private and not open to visitors. What you can see is the street front.",
+    "new": "lies behind the street front.",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505366",
+    "evidence": "Hofje met binnentuin (no source says whether visitors are admitted)"
+   },
+   {
+    "field": "nl.body",
+    "old": "is privé en niet te bezoeken. Wat je wel ziet, is de straatgevel.",
+    "new": "ligt achter de straatgevel.",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505366",
+    "evidence": "Hofje met binnentuin"
+   }
+  ],
+  "patch": {
+   "body": "A hofje is a ring of small charity dwellings round a courtyard, and you expect one in the Jordaan, not in a street of Zuid laid out around 1900. This one is a transplant. Petronella Calkoen, widow of the alderman Joan Fontaine, left money in her will of 1753 for a hofje where her servants could live rent-free for the rest of their days. It was built behind a house on the Keizersgracht (nos. 47–63) and stayed there for a century and a half, later housing elderly unmarried women.\n\nWhen the site on the canal was needed for the new building of St Johannes de Deo, the regents had a new hofje built here in 1912–1913 by the Van Gendt brothers, in a neo-Dutch Renaissance style with stepped gables. The 18th-century pump, the carved stone from the old front and part of the regents' room came along.\n\nIt is still a hofje. The twelve dwellings have been knocked together into six, for single women over 55 with little money, and the board still consists of descendants of the Calkoen family. The courtyard, with its pump, summer house and row of wooden peat lockers, lies behind the street front.\n\nLook for:\n- the large carved stone between the gables, with the arms of the founder and her husband, \"Fontaine-Hoffie\" and the year 1754\n- the two stepped gables at either end\n- the entrance on the right, under a stone frieze reading \"Fontaine hofje\"\n- the window above the door, framed like a little temple front and dated A.D. 1913\n- the eight-sided chimney exactly in the middle of the roof",
+   "translations": {
+    "nl": {
+     "body": "Een hofje zoek je in de Jordaan, niet in een straat in Zuid die pas rond 1900 is aangelegd. Dit hofje is dan ook verhuisd. Petronella Calkoen, weduwe van schepen Joan Fontaine, liet in haar testament van 1753 geld na voor een hofje waar haar personeel tot de dood gratis kon wonen. Het kwam achter een huis aan de Keizersgracht (47–63) te liggen en bleef daar anderhalve eeuw; later woonden er ongetrouwde vrouwen op leeftijd.\n\nToen de plek aan de gracht nodig was voor het nieuwe gebouw van Sint Johannes de Deo, lieten de regenten hier in 1912–1913 een nieuw hofje bouwen door de gebroeders Van Gendt, in neo-Hollandse renaissancestijl met trapgevels. De achttiende-eeuwse pomp, de gevelsteen van het oude voorhuis en een deel van de regentenkamer gingen mee.\n\nHet is nog steeds een hofje. Van de twaalf woningen zijn er zes gemaakt, bestemd voor alleenstaande vrouwen van 55 jaar en ouder met een smalle beurs, en het bestuur bestaat nog altijd uit nazaten van de familie Calkoen. De binnentuin, met de pomp, een prieel en een rij houten turfhokken, ligt achter de straatgevel.\n\nLet op:\n- de grote gevelsteen tussen de twee trapgevels, met de wapens van de stichtster en haar man, 'Fontaine-Hoffie' en het jaartal 1754\n- de twee trapgevels aan de uiteinden\n- de ingang rechts, onder een stenen fries met de naam 'Fontaine hofje'\n- het raam boven de deur, omlijst als een tempelfrontje en gedateerd A.D. 1913\n- de achtkantige schoorsteen precies midden op het dak"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xgyyxj8wacxwks65ik9z10m8",
+  "title": "Groep A'dam on the Emmaplein: sculptures back from the depot",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Most stood on or near the Museumplein until its redesign sent them into storage. Residents tracked them down one by one.",
+    "new": "Two had to leave the Museumplein area when it was redesigned; the residents gathered the others one by one.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam",
+    "evidence": "Afrika ontwaakt: tuin van het Stedelijk tot de herinrichting van het Museumplein (1997); Verschijning: Museumplein tot 1997; Zonnehoofd: Hoogvliet and Kleinpolderplein; Leda: GAK garden. Only two came from the Museumplein area. Initiative of Vereniging Wonen Willemspark, supported by Stadsdeel Zuid."
+   },
+   {
+    "field": "nl.summary",
+    "old": "De meeste stonden op of bij het Museumplein, tot de herinrichting ze naar het depot stuurde. Bewoners spoorden ze een voor een op.",
+    "new": "Twee moesten weg bij het Museumplein toen dat werd heringericht; de andere haalden bewoners er een voor een bij.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam",
+    "evidence": "Afrika ontwaakt: tuin van het Stedelijk tot de herinrichting van het Museumplein (1997); Verschijning: Museumplein tot 1997; Zonnehoofd: Hoogvliet and Kleinpolderplein; Leda: GAK garden. Only two came from the Museumplein area. Initiative of Vereniging Wonen Willemspark, supported by Stadsdeel Zuid."
+   },
+   {
+    "field": "body",
+    "old": "and most of them were lost before they got here.",
+    "new": "and several of them had been put away or nearly lost before they got here.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526",
+    "evidence": "verdwenen bij herinrichtingen in depots; Drie Gestalten 'net op tijd' uit een sloopcontainer gered"
+   },
+   {
+    "field": "nl.body",
+    "old": "en de meeste waren zoek voordat ze hier terechtkwamen.",
+    "new": "en een aantal ervan was opgeborgen of bijna verloren voordat ze hier terechtkwamen.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526",
+    "evidence": "verdwenen bij herinrichtingen in depots"
+   },
+   {
+    "field": "body",
+    "old": "Their makers belonged to Groep A'dam: five sculptors who at the end of the 1950s broke with the powerful Dutch sculptors' circle because they wanted to work more freely. They were Wessel Couzijn, Carel Kneulman, Ben Guntenaar, Hans Verhulst and the Japanese-American Shinkichi Tajiri. The name stood for Amsterdam and for Adam, the first man. Without Eve, they added.",
+    "new": "Their makers belonged to Groep A'dam, formed at the end of the 1950s when four sculptors who wanted more artistic freedom left the powerful Dutch sculptors' circle and joined a fifth. They were Wessel Couzijn, Carel Kneulman, Ben Guntenaar and Hans Verhulst, with the Japanese-American Shinkichi Tajiri. The name stood for Amsterdam and for Adam, the first man. Not for Eve.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526",
+    "evidence": "Wessel Couzijn, Carel Kneulman, Ben Guntenaar en Hans Verhulst besloten uit de machtige Nederlandse Kring van Beeldhouwers te stappen en met Shinkichi Tajiri verenigden zij zich in Groep A'dam ... Ze kozen de naam Groep A'dam als verwijzing naar Amsterdam en naar de eerste mens Adam. Maar zonder Eva."
+   },
+   {
+    "field": "nl.body",
+    "old": "De makers hoorden bij Groep A'dam: vijf beeldhouwers die eind jaren vijftig braken met de machtige Nederlandse Kring van Beeldhouwers omdat ze vrijer wilden werken. Het waren Wessel Couzijn, Carel Kneulman, Ben Guntenaar, Hans Verhulst en de Japans-Amerikaanse Shinkichi Tajiri. De naam verwees naar Amsterdam en naar Adam, de eerste mens. Zonder Eva, zeiden ze erbij.",
+    "new": "De makers hoorden bij Groep A'dam. Die groep ontstond eind jaren vijftig, toen vier beeldhouwers die meer vrijheid zochten de machtige Nederlandse Kring van Beeldhouwers verlieten en zich bij een vijfde aansloten. Het waren Wessel Couzijn, Carel Kneulman, Ben Guntenaar en Hans Verhulst, met de Japans-Amerikaanse Shinkichi Tajiri. De naam verwees naar Amsterdam en naar Adam, de eerste mens. Eva hoorde er niet bij.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526",
+    "evidence": "Wessel Couzijn, Carel Kneulman, Ben Guntenaar en Hans Verhulst besloten uit de machtige Nederlandse Kring van Beeldhouwers te stappen en met Shinkichi Tajiri verenigden zij zich in Groep A'dam ... Ze kozen de naam Groep A'dam als verwijzing naar Amsterdam en naar de eerste mens Adam. Maar zonder Eva."
+   },
+   {
+    "field": "body",
+    "old": "A resident of the Emmaplein heard about it from Perlmuter herself, a friend of the family, and proposed bringing her bronze here. It came in 1998. From 2016 the residents' association went looking for the rest. Kneulman's Zonnehoofd turned up under a motorway viaduct in Rotterdam, where orphaned statues are kept.",
+    "new": "Friends of Perlmuter found her bronze a new place here, and it came in 1998. The residents' association then set out to bring in the rest, backed by the district. Kneulman's Zonnehoofd came from Rotterdam, where it had stood by a school in Hoogvliet for forty years and then on the Kleinpolderplein.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam",
+    "evidence": "De nieuwe locatie op het Emmaplein is door haar vrienden, de familie Borkent, gevonden. ... De beeldentuin Groep A'dam is een initiatief van de Vereniging Wonen Willemspark en gerealiseerd door Stadsdeel Zuid. Zonnehoofd heeft 40 jaar bij een school in Hoogvliet gestaan, voor dat het naar het Kleinpolderplein werd verplaatst. (Parool article behind a consent wall, could not be re-read)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Een bewoner van het Emmaplein hoorde dat van Perlmuter zelf, een vriendin des huizes, en stelde voor haar brons hierheen te halen. Dat gebeurde in 1998. Vanaf 2016 ging de bewonersvereniging op zoek naar de rest. Het Zonnehoofd van Kneulman dook op onder een snelwegviaduct in Rotterdam, waar verweesde beelden worden bewaard.",
+    "new": "Vrienden van Perlmuter vonden voor haar brons een nieuwe plek hier, en in 1998 kwam het. Daarna wilde de bewonersvereniging de rest erbij halen, met steun van het stadsdeel. Het Zonnehoofd van Kneulman kwam uit Rotterdam: veertig jaar stond het bij een school in Hoogvliet, daarna op het Kleinpolderplein.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam",
+    "evidence": "De nieuwe locatie op het Emmaplein is door haar vrienden, de familie Borkent, gevonden. ... De beeldentuin Groep A'dam is een initiatief van de Vereniging Wonen Willemspark en gerealiseerd door Stadsdeel Zuid. Zonnehoofd heeft 40 jaar bij een school in Hoogvliet gestaan, voor dat het naar het Kleinpolderplein werd verplaatst. (Parool article behind a consent wall, could not be re-read)"
+   },
+   {
+    "field": "body",
+    "old": "The garden is public and always open. This place",
+    "new": "This place",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives access or opening"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het plantsoen is openbaar en altijd open. De speld",
+    "new": "De speld",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives access or opening"
+   },
+   {
+    "field": "body",
+    "old": "a spiky bronze reaching upwards",
+    "new": "a spiky figure reaching upwards",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2527",
+    "evidence": "een puntig omhoog gericht en in de ruimte grijpend figuur (material not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "een puntig brons dat omhoog grijpt",
+    "new": "een puntige figuur die omhoog grijpt",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2527",
+    "evidence": "een puntig omhoog gericht en in de ruimte grijpend figuur"
+   },
+   {
+    "field": "body",
+    "old": "Leda en de zwaan (Guntenaar, 1955): the only stone one",
+    "new": "Leda en de zwaan (Guntenaar, 1955): carved in stone",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2523",
+    "evidence": "in het natuursteen travertin (no source gives the material of Fetish or Drie Gestalten)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Leda en de zwaan (Guntenaar, 1955): het enige beeld van steen",
+    "new": "Leda en de zwaan (Guntenaar, 1955): uit steen gehouwen",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2523",
+    "evidence": "in het natuursteen travertin"
+   }
+  ],
+  "patch": {
+   "summary": "Six post-war sculptures in the garden of a villa square. Two had to leave the Museumplein area when it was redesigned; the residents gathered the others one by one. One was pulled out of a demolition skip in 2020.",
+   "translations": {
+    "nl": {
+     "summary": "Zes naoorlogse beelden in het plantsoen van een villaplein. Twee moesten weg bij het Museumplein toen dat werd heringericht; de andere haalden bewoners er een voor een bij. Eén kwam in 2020 uit een sloopcontainer.",
+     "body": "In het plantsoen van dit stille villaplein staan zes moderne beelden, en een aantal ervan was opgeborgen of bijna verloren voordat ze hier terechtkwamen. De makers hoorden bij Groep A'dam. Die groep ontstond eind jaren vijftig, toen vier beeldhouwers die meer vrijheid zochten de machtige Nederlandse Kring van Beeldhouwers verlieten en zich bij een vijfde aansloten. Het waren Wessel Couzijn, Carel Kneulman, Ben Guntenaar en Hans Verhulst, met de Japans-Amerikaanse Shinkichi Tajiri. De naam verwees naar Amsterdam en naar Adam, de eerste mens. Eva hoorde er niet bij. Het zesde beeld is van Pearl Perlmuter, de vrouw van Couzijn. Lid was ze nooit.\n\nVan een aantal van hen stond werk op of bij het Museumplein. Toen dat plein in 1997 op de schop ging, verdween het in depots. Vrienden van Perlmuter vonden voor haar brons een nieuwe plek hier, en in 1998 kwam het. Daarna wilde de bewonersvereniging de rest erbij halen, met steun van het stadsdeel. Het Zonnehoofd van Kneulman kwam uit Rotterdam: veertig jaar stond het bij een school in Hoogvliet, daarna op het Kleinpolderplein. De Drie Gestalten van Verhulst viste zijn zoon in het voorjaar van 2020 uit een sloopcontainer. In de zomer van 2021 kwamen de laatste twee beelden erbij.\n\nDe speld staat op Afrika ontwaakt van Couzijn.\n\nLet op:\n- Afrika ontwaakt (Couzijn, 1961): een puntige figuur die omhoog grijpt, jarenlang in de tuin van het Stedelijk Museum\n- Verschijning (Perlmuter, 1963): rafelige flarden brons op pootjes\n- Zonnehoofd (Kneulman, 1962): een koppoter als uit een kindertekening, met het woord aarde en spiralen in het brons gekrast\n- Leda en de zwaan (Guntenaar, 1955): uit steen gehouwen\n- Fetish (Tajiri, 1960) en Drie Gestalten (Verhulst, 1966)\n- aan de zuidkant van het plantsoen: koningin Emma in haar leunstoel, een eigen plek op deze kaart"
+    }
+   },
+   "body": "Six modern sculptures stand in the garden of this quiet villa square, and several of them had been put away or nearly lost before they got here. Their makers belonged to Groep A'dam, formed at the end of the 1950s when four sculptors who wanted more artistic freedom left the powerful Dutch sculptors' circle and joined a fifth. They were Wessel Couzijn, Carel Kneulman, Ben Guntenaar and Hans Verhulst, with the Japanese-American Shinkichi Tajiri. The name stood for Amsterdam and for Adam, the first man. Not for Eve. The sixth work is by Pearl Perlmuter, Couzijn's wife, who was never a member.\n\nSeveral of them had work on or near the Museumplein, which went into storage when that square was redesigned in 1997. Friends of Perlmuter found her bronze a new place here, and it came in 1998. The residents' association then set out to bring in the rest, backed by the district. Kneulman's Zonnehoofd came from Rotterdam, where it had stood by a school in Hoogvliet for forty years and then on the Kleinpolderplein. Verhulst's Drie Gestalten was fished out of a demolition skip by his son in the spring of 2020. The last two works arrived in the summer of 2021.\n\nThis place is pinned on Couzijn's Afrika ontwaakt.\n\nLook for:\n- Afrika ontwaakt (Couzijn, 1961): a spiky figure reaching upwards, for years in the garden of the Stedelijk Museum\n- Verschijning (Perlmuter, 1963): ragged sheets of bronze on little legs\n- Zonnehoofd (Kneulman, 1962): a head as in a child's drawing, with the word aarde (earth) and spirals scratched into the bronze\n- Leda en de zwaan (Guntenaar, 1955): carved in stone\n- Fetish (Tajiri, 1960) and Drie Gestalten (Verhulst, 1966)\n- at the south end of the garden: Queen Emma in her armchair, a separate place on this map"
+  },
+  "sources_add": [
+   "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2523",
+   "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2527",
+   "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2528",
+   "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2529",
+   "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2530",
+   "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1919"
+  ]
+ },
+ {
+  "id": "ameb84zw54wi45tvcum83udx",
+  "title": "Huize de Windroos, Kramer's Black House",
+  "changes": [
+   {
+    "field": "body",
+    "old": "This is Piet Kramer, the Amsterdam School architect best known for the city's bridges, on a small scale.",
+    "new": "This is Piet Kramer, the Amsterdam School architect best known for the city's bridges, on a small scale.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Piet_Kramer",
+    "evidence": "Hij is vooral bekend als architect van de Haagse Bijenkorf (zie onderaan) en van honderden bruggen in Amsterdam"
+   },
+   {
+    "field": "summary",
+    "old": "A socialist member of parliament lived on the top floor.",
+    "new": "A socialist member of parliament lived on the third floor.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Okeghemstraat/25-27",
+    "evidence": "Op nummer 25, 3 hoog rechts, woonde van 1922 tot 1929 ... Kleerekoper (the block has five storeys)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Op de bovenste etage woonde een socialistisch Kamerlid.",
+    "new": "Drie hoog woonde een socialistisch Kamerlid.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Okeghemstraat/25-27",
+    "evidence": "Op nummer 25, 3 hoog rechts"
+   },
+   {
+    "field": "body",
+    "old": "Nobody used it. The front was originally painted black, with yellow frames, and Amsterdam called it Het Zwarte Huis, the Black House.",
+    "new": "People knew it by another name: the front was originally painted black, with yellow frames, and it was called Het Zwarte Huis, the Black House.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505372",
+    "evidence": "genaamd 'Huize de Windroos', doch in de volksmond bekend onder de naam 'Het Zwarte Huis' (no source says the official name went unused)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Niemand gebruikte die. De gevel was oorspronkelijk zwart geschilderd, met gele kozijnen, en Amsterdam sprak van het Zwarte Huis.",
+    "new": "In de wandeling heette het anders: de gevel was oorspronkelijk zwart geschilderd, met gele kozijnen, en men sprak van het Zwarte Huis.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505372",
+    "evidence": "genaamd 'Huize de Windroos', doch in de volksmond bekend onder de naam 'Het Zwarte Huis' (no source says the official name went unused)"
+   },
+   {
+    "field": "body",
+    "old": "and the builder did the floor plans himself.",
+    "new": "and the builder probably did the floor plans himself.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Okeghemstraat/25-27",
+    "evidence": "Afgaand op de verkoopadvertentie heeft architect Kramer alleen de gevels ontworpen; vermoedelijk tekende Boersma zelf de plattegronden."
+   },
+   {
+    "field": "nl.body",
+    "old": "en maakte de aannemer de plattegronden zelf.",
+    "new": "en maakte de aannemer de plattegronden waarschijnlijk zelf.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Okeghemstraat/25-27",
+    "evidence": "Afgaand op de verkoopadvertentie heeft architect Kramer alleen de gevels ontworpen; vermoedelijk tekende Boersma zelf de plattegronden."
+   },
+   {
+    "field": "body",
+    "old": "The paint is gone and the brick is dark brown now. These are private flats.",
+    "new": "The paint is gone and the brick is dark now.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505372",
+    "evidence": "donkerkleurige bakstenen etagewoning (colour not given as brown; no source gives the current use)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De verf is verdwenen; de baksteen is nu donkerbruin. Het zijn particuliere woningen.",
+    "new": "De verf is verdwenen; de baksteen is nu donker.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505372",
+    "evidence": "donkerkleurige bakstenen etagewoning"
+   }
+  ],
+  "patch": {
+   "body": "The Okeghemstraat has a kink in it, and in the kink stands a house that curls. One corner of the front rolls round on itself and climbs into a small round tower with a cap of red tiles; next to it the wall bends inwards to the door and a brick balcony bulges back out, held up by a twisting stone pier. This is Piet Kramer, the Amsterdam School architect best known for the city's bridges, on a small scale.\n\nA stone post at the foot of the steps gives the official name, HUIZE DE WINDROOS (House of the Compass Rose). People knew it by another name: the front was originally painted black, with yellow frames, and it was called Het Zwarte Huis, the Black House. The builder, Jan Boersma, commissioned it in 1921, had Kramer change the front in 1922 and put the house up for sale the same year. Going by the sale advertisement, Kramer drew only the fronts and the builder probably did the floor plans himself.\n\nFrom 1922 to 1929 the journalist Asser Benjamin Kleerekoper lived on the third floor of no. 25. When he moved in he sat for the socialist SDAP on the city council, in the provincial assembly and in parliament, all at once.\n\nThe paint is gone and the brick is dark now.\n\nLook for:\n- the stone post carved HUIZE DE WINDROOS\n- the rolled corner and its round tower with red tiles\n- the flight of seventeen stone steps along the front, up to the upper flats\n- two pairs of doors set at an angle to each other, brown on the ground floor and black at the top of the steps\n- the bulging brick balcony on its twisted stone pier\n- the red brick rim along the top of the dark wall",
+   "summary": "Piet Kramer, the bridge architect, drew this small block of flats in the bend of the Okeghemstraat in 1921. It was painted black with yellow window frames, and the nickname stuck. A socialist member of parliament lived on the third floor.",
+   "translations": {
+    "nl": {
+     "summary": "Piet Kramer, de architect van de bruggen, tekende in 1921 dit kleine blok etagewoningen in de knik van de Okeghemstraat. Het was zwart geschilderd met gele kozijnen, en die bijnaam bleef. Drie hoog woonde een socialistisch Kamerlid.",
+     "body": "De Okeghemstraat heeft een knik, en in die knik staat een huis dat krult. Eén hoek van de gevel rolt zich op en eindigt boven het dak in een rond torentje met rode pannen. Daarnaast buigt de muur naar binnen, naar de deur, en puilt er een bakstenen balkon weer naar buiten, gedragen door een gedraaide stenen pijler. Dit is Piet Kramer, de Amsterdamse Schoolarchitect die iedereen kent van de bruggen, maar dan in het klein.\n\nOp een stenen paaltje onder aan de trap staat de officiële naam: HUIZE DE WINDROOS. In de wandeling heette het anders: de gevel was oorspronkelijk zwart geschilderd, met gele kozijnen, en men sprak van het Zwarte Huis. Bouwondernemer Jan Boersma gaf in 1921 de opdracht, liet Kramer in 1922 de voorgevel nog veranderen en zette het huis datzelfde jaar al te koop. Als je op de verkoopadvertentie afgaat, tekende Kramer alleen de gevels en maakte de aannemer de plattegronden waarschijnlijk zelf.\n\nVan 1922 tot 1929 woonde journalist Asser Benjamin Kleerekoper op nummer 25, drie hoog. Toen hij hier introk, zat hij voor de SDAP in de gemeenteraad, in Provinciale Staten en in de Tweede Kamer tegelijk.\n\nDe verf is verdwenen; de baksteen is nu donker.\n\nLet op:\n- het stenen paaltje met HUIZE DE WINDROOS\n- de opgerolde hoek met het ronde torentje en de rode pannen\n- de stenen trap van zeventien treden langs de gevel, naar de bovenwoningen\n- twee paar deuren die schuin tegen elkaar staan, bruin op de begane grond en zwart boven aan de trap\n- het bolle bakstenen balkon op de gedraaide pijler\n- de rand van rode baksteen boven langs de donkere muur"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Piet_Kramer"
+  ]
+ },
+ {
+  "id": "rfnxwns359sisffuuow0i085",
+  "title": "Koninginneweg 18 and 20, Berlage beside De Bazel",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The two men who renewed Dutch architecture share one party wall here.",
+    "new": "Two men who renewed Dutch architecture share one party wall here.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/983353d5-b378-457c-9a5f-8b96e1eb8b65",
+    "evidence": "Tezamen met H.P. Berlage was hij van grote betekenis voor de vernieuwing in de architectuur."
+   },
+   {
+    "field": "nl.summary",
+    "old": "De twee vernieuwers van de Nederlandse bouwkunst delen hier één tussenmuur.",
+    "new": "Twee vernieuwers van de Nederlandse bouwkunst delen hier één tussenmuur.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/983353d5-b378-457c-9a5f-8b96e1eb8b65",
+    "evidence": "Tezamen met H.P. Berlage was hij van grote betekenis voor de vernieuwing in de architectuur."
+   },
+   {
+    "field": "body",
+    "old": "H.P. Berlage and K.P.C. de Bazel are usually named in one breath as the two who dragged Dutch building out of the nineteenth century.",
+    "new": "H.P. Berlage and K.P.C. de Bazel are named together as two architects of great importance for the renewal of Dutch architecture.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/983353d5-b378-457c-9a5f-8b96e1eb8b65",
+    "evidence": "Tezamen met H.P. Berlage was hij van grote betekenis voor de vernieuwing in de architectuur."
+   },
+   {
+    "field": "nl.body",
+    "old": "Berlage en De Bazel worden meestal in één adem genoemd als de twee architecten die Nederland uit de negentiende eeuw trokken.",
+    "new": "Berlage en De Bazel worden samen genoemd als twee architecten die veel betekenden voor de vernieuwing van de Nederlandse bouwkunst.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/983353d5-b378-457c-9a5f-8b96e1eb8b65",
+    "evidence": "Tezamen met H.P. Berlage was hij van grote betekenis voor de vernieuwing in de architectuur."
+   },
+   {
+    "field": "body",
+    "old": "(private, and largely intact)",
+    "new": "(largely intact)",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koninginneweg/18",
+    "evidence": "Berlage ontwierp ook het sobere interieur, waarvan veel behouden is (no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "(niet te bezoeken, wel grotendeels bewaard)",
+    "new": "(grotendeels bewaard)",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koninginneweg/18",
+    "evidence": "waarvan veel behouden is"
+   },
+   {
+    "field": "body",
+    "old": "which is listed in its own right.",
+    "new": "which is expressly protected too.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505310",
+    "evidence": "Deze houten terreinafsluiting ... is eveneens door H.P. Berlage in 1907 ontworpen. Dit tuinhek valt nadrukkelijk onder de bescherming. (one register entry for villa and fence)"
+   },
+   {
+    "field": "nl.body",
+    "old": "dat apart beschermd is.",
+    "new": "dat uitdrukkelijk mee beschermd is.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505310",
+    "evidence": "Deze houten terreinafsluiting ... is eveneens door H.P. Berlage in 1907 ontworpen. Dit tuinhek valt nadrukkelijk onder de bescherming. (one register entry for villa and fence)"
+   },
+   {
+    "field": "body",
+    "old": "Both are private houses; the backs look out over the Koningslaan to a pond of the Vondelpark.",
+    "new": "The backs face the Koningslaan, near a pond of the Vondelpark.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/983353d5-b378-457c-9a5f-8b96e1eb8b65",
+    "evidence": "Het onderhavige pand wordt aan de westzijde omzoomd door de Koningslaan ... een schilderachtig ensemble ... nabij één van de waterpartijen in het Vondelpark (no source gives current use)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Beide huizen zijn bewoond; de achterkanten kijken over de Koningslaan uit op een vijver van het Vondelpark.",
+    "new": "De achterkanten liggen aan de Koningslaan, vlak bij een vijver van het Vondelpark.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/983353d5-b378-457c-9a5f-8b96e1eb8b65",
+    "evidence": "Het onderhavige pand wordt aan de westzijde omzoomd door de Koningslaan ... een schilderachtig ensemble ... nabij één van de waterpartijen in het Vondelpark (no source gives current use)"
+   }
+  ],
+  "patch": {
+   "summary": "Two men who renewed Dutch architecture share one party wall here. Berlage built his half in 1907, down to the wooden garden fence. Four years later De Bazel built the other half against it for a banker's son.",
+   "translations": {
+    "nl": {
+     "summary": "Twee vernieuwers van de Nederlandse bouwkunst delen hier één tussenmuur. Berlage bouwde zijn helft in 1907, tot en met het houten tuinhek. Vier jaar later zette De Bazel de andere helft ertegenaan voor een bankierszoon.",
+     "body": "Berlage en De Bazel worden samen genoemd als twee architecten die veel betekenden voor de vernieuwing van de Nederlandse bouwkunst. Hier zitten ze letterlijk aan elkaar vast: één dubbele villa, in twee keer gebouwd, met vier jaar ertussen.\n\nBerlage was de eerste, in 1907, voor Aletta Hingst, een vermogende dame uit een Fries patriciërsgeslacht. Hij tekende alles, van het sobere interieur (grotendeels bewaard) tot het houten hek langs de stoep, dat uitdrukkelijk mee beschermd is. De Bazel volgde in 1910–1911 met de andere helft voor mr. Alexander Wertheim, directeur van een levensverzekeraar en zoon van de bankier en weldoener A.C. Wertheim. Wertheim woonde hier en hield er ook kantoor.\n\nNaast elkaar is het verschil goed te zien. Berlage: gewone baksteen onder één breed dak. De Bazel: deftiger, met een leien mansardekap en een ingang die een torentje is geworden. De achterkanten liggen aan de Koningslaan, vlak bij een vijver van het Vondelpark.\n\nLet op:\n- nr. 18: het tegeltableau met planten en dieren in de geveltop boven de deur\n- nr. 18: de eerste steen van juni 1907, met daaronder een steen met het jaartal en Berlages monogram HPB\n- nr. 18: het houten hek met open visgraatmotief op een hardstenen voet\n- nr. 18: de slanke schoorstenen met groene afdekplaat\n- nr. 20: de bakstenen driepassen boven de onderste vensters\n- nr. 20: het rondboogportiek met granieten kolommen onder de torenvormige travee\n- nr. 20: de strook siermetselwerk onder de goot"
+    }
+   },
+   "body": "H.P. Berlage and K.P.C. de Bazel are named together as two architects of great importance for the renewal of Dutch architecture. Here they are literally joined: one double villa, built in two goes, four years apart.\n\nBerlage came first, in 1907, for Aletta Hingst, a well-off lady from a Frisian patrician family. He designed everything, from the sober interior (largely intact) to the wooden fence along the pavement, which is expressly protected too. De Bazel followed in 1910–1911 with the other half for Alexander Wertheim, a lawyer and insurance director and the son of the banker and benefactor A.C. Wertheim. Wertheim both lived and kept his office here.\n\nPut side by side, the difference is easy to read. Berlage is plain brick under one broad roof. De Bazel is more formal, with a slate mansard roof and an entrance made into a small tower. The backs face the Koningslaan, near a pond of the Vondelpark.\n\nLook for:\n- no. 18: the tile picture of plants and animals in the gable over the door\n- no. 18: the foundation stone of June 1907, and under it a stone with the year and Berlage's monogram HPB\n- no. 18: the wooden fence with its open herringbone pattern on a bluestone base\n- no. 18: the slim chimneys with green caps\n- no. 20: the brick trefoils sunk into the wall above the lower windows\n- no. 20: the round-arched porch with granite columns under the tower-like bay\n- no. 20: the band of patterned brickwork under the gutter"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "b4kaivbqoi5x5vvq967g5sl5",
+  "title": "Koninginneweg horse tram depot",
+  "changes": [
+   {
+    "field": "body",
+    "old": "and needed a terminus:",
+    "new": "and needed a depot at the end of the line:",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Tramremise_Koninginneweg",
+    "evidence": "Vlakbij was het eindpunt van de paardentramlijn (the depot stood near the terminus, not as the terminus)"
+   },
+   {
+    "field": "nl.body",
+    "old": "en had een eindpunt nodig:",
+    "new": "en had bij het eindpunt een remise nodig:",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Tramremise_Koninginneweg",
+    "evidence": "Vlakbij was het eindpunt van de paardentramlijn"
+   },
+   {
+    "field": "body",
+    "old": "In 1903 the line became electric tram 2, which still screeches round the bend outside.",
+    "new": "In 1903 the line became electric tram 2, which still takes the bends here.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Koninginneweg_(Amsterdam)",
+    "evidence": "Sinds 1903 rijdt tramlijn 2 over de Koninginneweg. Kenmerkend aan dit deel van de route van lijn 2 zijn de vele bochten."
+   },
+   {
+    "field": "nl.body",
+    "old": "In 1903 werd de lijn de elektrische tram 2, die hier nog altijd piepend door de bocht gaat.",
+    "new": "In 1903 werd de lijn de elektrische tram 2, die hier nog altijd door de bochten rijdt.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Koninginneweg_(Amsterdam)",
+    "evidence": "Sinds 1903 rijdt tramlijn 2 over de Koninginneweg ... de vele bochten"
+   },
+   {
+    "field": "body",
+    "old": "Today it is a gym with a physiotherapy practice, so you can walk in if you sign up.",
+    "new": "Today it is a gym with a physiotherapy practice.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Tramremise_Koninginneweg",
+    "evidence": "gebruik = sportschool, fitness en praktijk fysiotherapeuten (no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Nu zit er een sportschool met fysiotherapie: wie lid wordt, mag naar binnen.",
+    "new": "Nu zit er een sportschool met fysiotherapie.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Tramremise_Koninginneweg",
+    "evidence": "gebruik = sportschool, fitness en praktijk fysiotherapeuten"
+   }
+  ],
+  "patch": {
+   "body": "When this depot went up in 1893 it stood alone in a meadow, in what was then the municipality of Nieuwer-Amstel. The Amsterdamsche Omnibus Maatschappij had just extended its horse tram from the Dam to the new Willemspark and needed a depot at the end of the line: a coach house, an office for the stable master, a room where conductors settled their takings, a flat upstairs, and behind it stables for 81 horses, a sick bay and a smithy.\n\nThe grand front was hardly run in when the horses went. In 1903 the line became electric tram 2, which still takes the bends here. The depot stored trailers and, from 1917, the tram company's archive. In 1933 it became a post of the city cleansing service, and the stables a bicycle shed for the municipal energy company. The long rear hall was cut back by some 30 metres in 1959. From 1992 to 2015 it was a police station. Today it is a gym with a physiotherapy practice.\n\nLook for:\n- the two wide ground-floor openings: the left one led to the stables, the right one to the tram hall\n- the stepped gable, where the scrolls above the top step recall horses' heads\n- the frieze of red and yellow tiles under the cornice\n- the obelisk on the balustrade above the left door\n- the little canopy on a column on the west side, over the stair to the upstairs flat\n- the turret roof on that side, rebuilt in 2019\n- the stone with the architects' names",
+   "translations": {
+    "nl": {
+     "body": "Toen deze remise in 1893 klaar was, stond ze nog los in het weiland, op grond van de gemeente Nieuwer-Amstel. De Amsterdamsche Omnibus Maatschappij had haar paardentram net doorgetrokken van de Dam naar het nieuwe Willemspark en had bij het eindpunt een remise nodig: een koetshuis, een kantoor voor de stalbaas, een kamer waar de conducteurs afrekenden, een bovenwoning, en daarachter stallen voor 81 paarden, een ziekenstal en een smederij.\n\nDe deftige gevel was amper ingereden of de paarden konden gaan. In 1903 werd de lijn de elektrische tram 2, die hier nog altijd door de bochten rijdt. In de remise stonden daarna bijwagens en vanaf 1917 lag er het archief van de Gemeentetram. In 1933 kwam er een post van de Stadsreiniging in; de stallen werden een fietsenstalling van het energiebedrijf. De lange hal aan de achterkant is in 1959 een meter of dertig ingekort. Van 1992 tot 2015 was het een politiebureau. Nu zit er een sportschool met fysiotherapie.\n\nLet op:\n- de twee brede openingen beneden: links ging het naar de stallen, rechts naar de wagenremise\n- de trapgevel, met boven de bovenste trede krullen die aan paardenkoppen doen denken\n- de rand van rode en gele tegels onder de lijst\n- de obelisk op de balustrade boven de linkerdeur\n- het afdakje op een zuil aan de westkant, boven de trap naar de bovenwoning\n- het torenspitsje aan die kant, in 2019 herbouwd\n- de steen met de namen van de architecten"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Koninginneweg_(Amsterdam)"
+  ]
+ },
+ {
+  "id": "lm5r2733oi40wi97n13zruev",
+  "title": "Koninginneweg, the villa side (nos. 8–60)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The Koninginneweg bends because this area was drawn in 1877 as a promenade park. The park became a villa district instead and the curve stayed.",
+    "new": "The Koninginneweg bends because this area was drawn in 1877 as a promenade park. The park became a villa district instead and the curve stayed.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "(city:200506) zoals dat door L.P. Zocher in 1877 was getekend ... oorspronkelijk bedoeld als zelfstandig wandelpark ... Vanaf 1881 ... van wandelpark naar villapark ... Van het oorspronkelijke landschappelijke plan zijn voornamelijk de gebogen Koninginneweg en de Koningslaan nog herkenbaar."
+   },
+   {
+    "field": "body",
+    "old": "The north-west side was reserved for detached blocks in gardens.",
+    "new": "The side towards the Vondelpark was built with detached blocks in gardens.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/381fad6f-2499-4f5c-92be-795758b74b26",
+    "evidence": "Deze losse panden werden geplaatst langs het Vondelpark en in het Willemspark (no source names the north-west side or a reservation)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De noordwestkant was bestemd voor losse blokken in tuinen.",
+    "new": "De kant van het Vondelpark werd bebouwd met losse blokken in tuinen.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/381fad6f-2499-4f5c-92be-795758b74b26",
+    "evidence": "Deze losse panden werden geplaatst langs het Vondelpark en in het Willemspark (no source names the north-west side or a reservation)"
+   },
+   {
+    "field": "body",
+    "old": "By the 1920s the same side was getting flats. Huize Koningsvijver (no. 8, 1924), on which this ensemble is pinned, has four of them,",
+    "new": "In 1924 the same side got Huize Koningsvijver (no. 8), on which this ensemble is pinned: an early example of luxury flats, four of them,",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505243",
+    "evidence": "APPARTEMENTENGEBOUW (1924) ... als vroeg voorbeeld van luxe etagebouw; the flats at nos. 50-60 date from 1914 and 1916, so 'by the 1920s' and 'the first flats' do not hold"
+   },
+   {
+    "field": "nl.body",
+    "old": "In de jaren twintig kwamen aan dezelfde kant de eerste flats. Huize Koningsvijver (nr. 8, 1924), waarop de speld staat, heeft er vier en heet",
+    "new": "In 1924 kwam aan dezelfde kant Huize Koningsvijver (nr. 8), waarop de speld staat: een vroeg voorbeeld van luxe etagebouw, met vier flats, en het heet",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505243",
+    "evidence": "APPARTEMENTENGEBOUW (1924) ... als vroeg voorbeeld van luxe etagebouw; the flats at nos. 50-60 date from 1914 and 1916, so 'by the 1920s' and 'the first flats' do not hold"
+   },
+   {
+    "field": "body",
+    "old": "All of these are private homes; everything below",
+    "new": "Everything below",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives current use"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het zijn allemaal woonhuizen; alles hieronder",
+    "new": "Alles hieronder",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives current use"
+   },
+   {
+    "field": "body",
+    "old": "- nos. 42–48: half-timbered gables",
+    "new": "- nos. 42–48: gables that look half-timbered",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koninginneweg/42-48",
+    "evidence": "onder meer te herkennen aan de vakwerkachtige topgevels"
+   },
+   {
+    "field": "nl.body",
+    "old": "- 42–48: topgevels met vakwerk",
+    "new": "- 42–48: topgevels die op vakwerk lijken",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koninginneweg/42-48",
+    "evidence": "vakwerkachtige topgevels"
+   },
+   {
+    "field": "body",
+    "old": "- nos. 50–54 and 56–60: twin blocks of 1916 and 1914, whose bays rest on stepped-out brick instead of stone brackets\n- nos. 56–60: the red, diamond-shaped roof slates",
+    "new": "- nos. 50–54 and 56–60: twin blocks of 1916 and 1914, whose side bays rest on stepped-out brick instead of stone brackets\n- nos. 56–60: the red, diamond-shaped roof slates",
+    "kind": "narrowed",
+    "source": "city:222095, city:222096",
+    "evidence": "(222095 and 222096) De erkers worden ondersteund door een bakstenen uitkraging bestaande uit meervoudig uitgemetselde lagen van staande en liggende bakstenen, terwijl dit normaliter met een natuursteen console wordt gebouwd (side elevations); 222096 (nos. 56-60): Het dak is gedekt met de oorspronkelijke rode, ruitvormige stenen leien."
+   },
+   {
+    "field": "nl.body",
+    "old": "- 50–54 en 56–60: tweelingblokken uit 1916 en 1914, waar de erkers op uitgemetselde baksteen rusten in plaats van op stenen consoles\n- 56–60: de rode, ruitvormige leien op het dak",
+    "new": "- 50–54 en 56–60: tweelingblokken uit 1916 en 1914, waar de erkers in de zijgevels op uitgemetselde baksteen rusten in plaats van op stenen consoles\n- 56–60: de rode, ruitvormige leien op het dak",
+    "kind": "narrowed",
+    "source": "city:222095, city:222096",
+    "evidence": "(222095 and 222096) De erkers worden ondersteund door een bakstenen uitkraging bestaande uit meervoudig uitgemetselde lagen van staande en liggende bakstenen, terwijl dit normaliter met een natuursteen console wordt gebouwd (side elevations); 222096 (nos. 56-60): Het dak is gedekt met de oorspronkelijke rode, ruitvormige stenen leien."
+   }
+  ],
+  "patch": {
+   "body": "The Koninginneweg bends because this area was drawn in 1877 as a promenade park. The park became a villa district instead and the curve stayed. The street was named in 1888 after Queen Emma while this was still the municipality of Nieuwer-Amstel. Since 1903 tram 2 has followed the bends.\n\nThe side towards the Vondelpark was built with detached blocks in gardens. When the pair at nos. 24–26 was published in 1903, the architects' weekly noted the municipal rule behind that look: at least twelve metres of garden had to stay open between this villa and its neighbours. In 1924 the same side got Huize Koningsvijver (no. 8), on which this ensemble is pinned: an early example of luxury flats, four of them, named after the Vondelpark pond at the back. Its builder moved in himself and stayed until his death in 1975. The houses by Berlage and De Bazel (nos. 18 and 20) and the tram depot (no. 29) have places of their own.\n\nEverything below can be seen from the pavement.\n\nLook for:\n- no. 8: the carved wooden panel over the door, a landscape of trees with the name \"Huize Koningsvijver\"\n- no. 8: the half-round bay above the entrance, the rose window over it and the two stumpy turrets on the roofline\n- nos. 24–26: gable tops with battlements, and the original wrought-iron fence\n- nos. 33–35: two houses stepped back to follow the bend, and a small roof turret with a gilded weathervane\n- nos. 33–35: round arches, a pierced arch frieze and Art Nouveau glass in the top lights\n- nos. 42–48: gables that look half-timbered\n- nos. 50–54 and 56–60: twin blocks of 1916 and 1914, whose side bays rest on stepped-out brick instead of stone brackets\n- nos. 56–60: the red, diamond-shaped roof slates",
+   "translations": {
+    "nl": {
+     "body": "De Koninginneweg slingert omdat dit gebied in 1877 als wandelpark is getekend. Het park werd een villawijk en de bocht bleef. De straat is in 1888 naar koningin Emma genoemd toen dit nog Nieuwer-Amstel was. Sinds 1903 rijdt tram 2 door de bochten.\n\nDe kant van het Vondelpark werd bebouwd met losse blokken in tuinen. Toen de dubbele villa op 24–26 in 1903 in het Bouwkundig Weekblad stond, werd de regel erachter erbij vermeld: tussen deze villa en de buren moest volgens de gemeente minstens twaalf meter tuin blijven. In 1924 kwam aan dezelfde kant Huize Koningsvijver (nr. 8), waarop de speld staat: een vroeg voorbeeld van luxe etagebouw, met vier flats, en het heet naar de vijver van het Vondelpark aan de achterkant. De bouwer trok er zelf in en bleef er wonen tot zijn dood in 1975. De huizen van Berlage en De Bazel (18 en 20) en de tramremise (29) hebben een eigen plek.\n\nAlles hieronder is vanaf de stoep te zien.\n\nLet op:\n- nr. 8: het houten paneel boven de deur, een landschap met bomen en de naam 'Huize Koningsvijver'\n- nr. 8: de halfronde erker boven de ingang, het roosvenster daarboven en de twee stompe torentjes op de dakrand\n- 24–26: geveltoppen met kantelen en het oude smeedijzeren hek\n- 33–35: twee huizen die trapsgewijs de bocht volgen, met een daktorentje met vergulde windvaan\n- 33–35: rondbogen, een opengewerkt boogfries en art-nouveauglas in de bovenlichten\n- 42–48: topgevels die op vakwerk lijken\n- 50–54 en 56–60: tweelingblokken uit 1916 en 1914, waar de erkers in de zijgevels op uitgemetselde baksteen rusten in plaats van op stenen consoles\n- 56–60: de rode, ruitvormige leien op het dak"
+    }
+   }
+  },
+  "sources_add": [
+   "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc"
+  ]
+ },
+ {
+  "id": "d609kf5tmfjzbgvjn691jtrt",
+  "title": "Koningslaan 32–36: the monkeys of Mendes da Costa",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "They are by Joseph Mendes da Costa, the sculptor who did for Dutch sculpture what Berlage did for building. Later it was a Grundig showroom.",
+    "new": "They are by Joseph Mendes da Costa, a sculptor seen as doing for Dutch sculpture what Berlage did for building. Later one of the houses was a Grundig showroom.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "Mendes da Costa wordt gezien als één van de belangrijkste vernieuwers van de Nederlandse beeldhouwkunst, vergelijkbaar met de rol van De Bazel en Berlage voor de bouwkunst. / Radio-fabrikant Grundig gebruikte het [nummer 36] tot begin jaren '70 als showroom"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Ze zijn van Joseph Mendes da Costa, de beeldhouwer die voor de beeldhouwkunst deed wat Berlage voor het bouwen deed. Later zat hier het Grundig-huis.",
+    "new": "Ze zijn van Joseph Mendes da Costa, een beeldhouwer die voor de beeldhouwkunst wordt gezien als wat Berlage voor het bouwen was. Later zat in een van de huizen het Grundig-huis.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "Mendes da Costa wordt gezien als één van de belangrijkste vernieuwers van de Nederlandse beeldhouwkunst, vergelijkbaar met de rol van De Bazel en Berlage voor de bouwkunst. / Radio-fabrikant Grundig gebruikte het [nummer 36] tot begin jaren '70 als showroom"
+   },
+   {
+    "field": "body",
+    "old": "From across the street this is the plainest house on the Koningslaan:",
+    "new": "From across the street this looks like a plain house:",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "Hoewel sober in uiterlijke verschijningsvorm (no comparison with the other houses)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Van de overkant is dit het saaiste huis van de Koningslaan:",
+    "new": "Van de overkant lijkt dit een sober huis:",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "Hoewel sober in uiterlijke verschijningsvorm"
+   },
+   {
+    "field": "body",
+    "old": "and loved animals as a subject; architectural pieces by him are scarce.",
+    "new": "and animals have an important place in his work.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "Binnen zijn thematisch oeuvre nemen de dierfiguren, waaronder aapjes en vogeltjes, een belangrijke plaats in. (no source says his architectural work is scarce)"
+   },
+   {
+    "field": "nl.body",
+    "old": "en maakte graag dieren; werk van hem aan gebouwen is zeldzaam.",
+    "new": "en dieren nemen in zijn werk een belangrijke plaats in.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "Binnen zijn thematisch oeuvre nemen de dierfiguren ... een belangrijke plaats in."
+   },
+   {
+    "field": "nl.body",
+    "old": "na jaren op de bureaus van beide meesters",
+    "new": "na zijn tijd op de bureaus van beide meesters",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/eecc6641-7a78-4cfc-abfb-9c2bb2d021dc",
+    "evidence": "daar was Crouwel gevormd op de bureau's van de architecten K.P.C. de Bazel en H.P. Berlage (no length given)"
+   },
+   {
+    "field": "body",
+    "old": "It is private; the animals",
+    "new": "The animals",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on access"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is bewoond; de dieren",
+    "new": "De dieren",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on access"
+   }
+  ],
+  "patch": {
+   "summary": "Small stone monkeys and owls guard the three front doors of this sober villa of 1912. They are by Joseph Mendes da Costa, a sculptor seen as doing for Dutch sculpture what Berlage did for building. Later one of the houses was a Grundig showroom.",
+   "translations": {
+    "nl": {
+     "summary": "Stenen aapjes en uiltjes bewaken de drie voordeuren van deze sobere villa uit 1912. Ze zijn van Joseph Mendes da Costa, een beeldhouwer die voor de beeldhouwkunst wordt gezien als wat Berlage voor het bouwen was. Later zat in een van de huizen het Grundig-huis.",
+     "body": "Van de overkant lijkt dit een sober huis: een lange bakstenen gevel onder een steile oranje kap. Loop naar de deuren. Elk van de drie stenen deuromlijstingen draagt twee kleine gebeeldhouwde dieren van Joseph Mendes da Costa: links een uil en een arend, in het midden twee apen, rechts een uil en een aap. Nog meer aapjes zitten in reliëf op de zandstenen blokjes bij de goot. Mendes da Costa hoorde bij de kring rond Berlage en De Bazel en dieren nemen in zijn werk een belangrijke plaats in.\n\nDe architect was Joseph Crouwel, 27 jaar en net voor zichzelf begonnen na zijn tijd op de bureaus van beide meesters. Deze driedubbele villa was een van zijn eerste uitgevoerde ontwerpen. Later werd hij hoofdarchitect bij de Rijksgebouwendienst, bekend van het postkantoor aan de Neude in Utrecht.\n\nHet rechterhuis, nummer 36, was van de uitgever Simon Warendorf, van Van Holkema & Warendorf. Zijn zoon Johan, advocaat, was een van de oprichters van Het Parool en Engelandvaarder. De weduwe van Simon is in 1943 in Sobibor vermoord. In de jaren veertig was het huis een tijd marechausseekazerne, en van de jaren vijftig tot begin jaren zeventig het Grundig-huis, de toonzaal van de radiofabrikant. In 2017 is het hele pand verbouwd tot vier appartementen. De dieren zijn vanaf de stoep te zien.\n\nLet op:\n- de dierenparen onder de bovenlijst van elke deuromlijsting\n- de rijen diamantkoppen op deuren en lijsten\n- de aapjes in reliëf op de zandstenen blokjes waar de topgevels de goot raken\n- de stenen spuwers op de hoeken van de erkerbalkons\n- de hoge, taps gemetselde schoorstenen, een baken vanuit het Vondelpark"
+    }
+   },
+   "body": "From across the street this looks like a plain house: a long brick front under a steep orange roof. Walk up to the doors. Each of the three stone door frames carries a pair of small carved animals by Joseph Mendes da Costa: an owl and an eagle on the left, two monkeys in the middle, an owl and a monkey on the right. More monkeys sit in relief on the sandstone blocks at the eaves. Mendes da Costa moved in the circle of Berlage and De Bazel and animals have an important place in his work.\n\nThe architect was Joseph Crouwel, 27 years old and just set up on his own after working for both masters. This triple villa was one of his first built designs. He went on to become a chief architect of the state, known for the post office on the Neude in Utrecht.\n\nThe right-hand house, no. 36, was the home of the publisher Simon Warendorf, of Van Holkema & Warendorf. His son Johan, a lawyer, was one of the founders of the resistance paper Het Parool and escaped to England. Simon's widow was murdered in Sobibor in 1943. In the 1940s the house served as a military police barracks, and from the 1950s to the early 1970s as the \"Grundig-huis\", the radio maker's showroom. In 2017 the whole building was converted into four apartments. The animals can be seen from the pavement.\n\nLook for:\n- the pairs of animals under the top moulding of each door frame\n- the rows of diamond-cut studs on doors and frames\n- the monkey reliefs on the small sandstone blocks where the gables meet the eaves\n- the stone water spouts on the corners of the bay balconies\n- the tall tapering chimneys, a landmark from the Vondelpark side"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "lzqo5z4g6io55yr0r95tx201",
+  "title": "Koningslaan, the old end (nos. 2–16)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The first villas of Amsterdam's only villa park,",
+    "new": "Some of the oldest villas of Amsterdam's only villa park,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koningslaan/2",
+    "evidence": "Het is een van de oudste villa's van de Willemsparkbuurt. (no source says these were the first, or that building started here)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "De eerste villa's van het enige villapark van Amsterdam,",
+    "new": "Enkele van de oudste villa's van het enige villapark van Amsterdam,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koningslaan/2",
+    "evidence": "Het is een van de oudste villa's van de Willemsparkbuurt. (no source says these were the first, or that building started here)"
+   },
+   {
+    "field": "body",
+    "old": "This end of the Koningslaan is where it finally started, and the houses show a quarter century of changing taste in a hundred metres.",
+    "new": "Some of the oldest villas stand at this end of the Koningslaan, and the houses show a quarter century of changing taste.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koningslaan/2",
+    "evidence": "Het is een van de oudste villa's van de Willemsparkbuurt. (no source says these were the first, or that building started here)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Aan dit eind van de Koningslaan kwam het eindelijk op gang, en in honderd meter zie je een kwarteeuw smaak voorbijkomen.",
+    "new": "Aan dit eind van de Koningslaan staan enkele van de oudste villa's, en je ziet hier een kwarteeuw smaak voorbijkomen.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Koningslaan/2",
+    "evidence": "Het is een van de oudste villa's van de Willemsparkbuurt. (no source says these were the first, or that building started here)"
+   },
+   {
+    "field": "body",
+    "old": "Most are offices now; Quisisana has been one since 1972.",
+    "new": "Quisisana has been an office since 1972.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505193",
+    "evidence": "N.B. In 1972 verandering van gebouw tot kantoorvilla. (no source on the others)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De meeste huizen zijn nu kantoor; Quisisana al sinds 1972.",
+    "new": "Quisisana is sinds 1972 een kantoor.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505193",
+    "evidence": "In 1972 verandering van gebouw tot kantoorvilla."
+   },
+   {
+    "field": "body",
+    "old": "and the iron fence with its lantern",
+    "new": "and the iron fence with its gate",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505199",
+    "evidence": "Aan de straatzijde een smeedijzeren hek met toegangspoort op lage muur. (no lantern mentioned)"
+   },
+   {
+    "field": "nl.body",
+    "old": "en het ijzeren hek met lantaarn",
+    "new": "en het ijzeren hek met toegangspoort",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505199",
+    "evidence": "een smeedijzeren hek met toegangspoort op lage muur"
+   }
+  ],
+  "patch": {
+   "summary": "Some of the oldest villas of Amsterdam's only villa park, with their gardens on a Vondelpark pond. Behind the fronts: the lawyer who married Royal Dutch to Shell, the owner of the Bonneterie, and an Olympic clay-pigeon shooter who came last.",
+   "translations": {
+    "nl": {
+     "summary": "Enkele van de oudste villa's van het enige villapark van Amsterdam, met de tuin aan een vijver van het Vondelpark. Achter de gevels: de advocaat die de Koninklijke aan Shell koppelde, de eigenaar van de Bonneterie en een olympisch kleiduivenschutter die laatste werd.",
+     "body": "In 1881 richtte een groep rijke Amsterdammers een maatschappij op om aan de rand van het Vondelpark een villapark te bouwen. Het doel: voorkomen dat mensen zoals zij naar de duinen en het Gooi vertrokken. Jarenlang gebeurde er weinig. Aan dit eind van de Koningslaan staan enkele van de oudste villa's, en je ziet hier een kwarteeuw smaak voorbijkomen.\n\nQuisisana (nr. 4, 1889), waarop de speld staat, is het pronkstuk: rode baksteen, een achtkantige hoektoren en overal pleisterwerk. In 1914 werd het verbouwd voor de advocaat August Philips, die in 1907 de fusie van de Koninklijke Olie met Shell had begeleid en in 1918 als gezant naar Washington ging. Villa Rosa (nr. 12, 1912–1913) is gebouwd voor de eigenaar van Maison de Bonneterie, door de architect van de winkel aan het Rokin: een bakstenen huis waar voor de grandeur een stenen gevel tegenaan is gezet. Daarnaast bouwde De Bazel een sobere dubbele villa (14–16, 1904) voor een makelaar in koffie, die op de Olympische Spelen van 1908 meedeed aan het kleiduivenschieten. Het Nederlandse team werd vierde en laatste.\n\nQuisisana is sinds 1972 een kantoor. Bekijk ze vanaf de straat, of vanuit het Vondelpark over de vijver.\n\nLet op:\n- nr. 2: namaakvakwerk van gepleisterde steen, en de gevel die zigzaggend terugspringt\n- nr. 4: het jaartal 1889 in het tempelfrontje boven de dakkapel\n- nr. 4: de blinde vensters, één in de toren en één opzij\n- nr. 12: twee halfronde erkers tussen halfzuilen met Ionische kapitelen\n- nr. 12: de ronde ossenogen in de deuren, en het ijzeren hek met toegangspoort\n- 14–16: het beeldhouwwerk van de ingangsportalen, van De Bazels zwager C.A. Oosschot"
+    }
+   },
+   "body": "In 1881 a group of wealthy Amsterdammers set up a company to build a villa park on the edge of the Vondelpark. Their aim was to stop people like themselves from moving out to the dunes and the Gooi. For years little happened. Some of the oldest villas stand at this end of the Koningslaan, and the houses show a quarter century of changing taste.\n\nQuisisana (no. 4, 1889), on which this ensemble is pinned, is the showpiece: red brick, an eight-sided corner tower, plaster ornament everywhere. In 1914 it was altered for the lawyer August Philips, who had guided the 1907 merger of Royal Dutch with Shell and went to Washington as envoy in 1918. Villa Rosa (no. 12, 1912–1913) was built for the owner of the fashion house Maison de Bonneterie by the architect of its Rokin store: a brick house with a stone front set against it for grandeur. Next door K.P.C. de Bazel built a sober double villa (nos. 14–16, 1904) for a coffee broker who shot clay pigeons at the 1908 Olympics. The Dutch team came fourth and last.\n\nQuisisana has been an office since 1972. View them from the street, or from the Vondelpark across the pond.\n\nLook for:\n- no. 2: fake half-timbering in plastered stone, and the front that steps back in a zigzag\n- no. 4: the year 1889 in the little temple front over the dormer\n- no. 4: the blind windows, one in the tower and one on the side\n- no. 12: two half-round bays between fluted half-columns with Ionic capitals\n- no. 12: the round \"bull's eye\" windows in the doors, and the iron fence with its gate\n- nos. 14–16: the carved entrance porches, by De Bazel's brother-in-law C.A. Oosschot"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "vyp4isq93b5oygbu560l9zl1",
+  "title": "Koningslaan, the park side (nos. 26–56)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "re-drew this lane in 1901 and built it themselves:",
+    "new": "re-drew this lane in 1901 and designed several of its villas themselves:",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/4957c686-61ce-4001-8552-c2d0cce585e1",
+    "evidence": "Het architectenduo ... bouwde diverse villa's aan de Koningslaan in samenhang met de door hen getekende herverkaveling (other houses here are by Crouwel, Staal, Bührs and De Groot)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "tekenden deze laan in 1901 opnieuw en bouwden hem zelf vol:",
+    "new": "tekenden deze laan in 1901 opnieuw en ontwierpen er zelf diverse villa's:",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/4957c686-61ce-4001-8552-c2d0cce585e1",
+    "evidence": "Het architectenduo ... bouwde diverse villa's aan de Koningslaan in samenhang met de door hen getekende herverkaveling (other houses here are by Crouwel, Staal, Bührs and De Groot)"
+   },
+   {
+    "field": "body",
+    "old": "Their trick was the \"villa for three families\": several houses",
+    "new": "Their formula: several houses",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/80d3d09f-70e6-4e77-8e14-88a1a44b7b52",
+    "evidence": "De villa's zijn gebouwd voor meergezinsbewoning, maar door de (pseudosymmetrische) gevelcomposities wordt de indruk gewekt van ... vrijstaande villa's (the quoted phrase 'villa for three families' is in no source)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Hun vondst was de 'villa voor drie familiën': meerdere huizen",
+    "new": "Hun formule: meerdere huizen",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/80d3d09f-70e6-4e77-8e14-88a1a44b7b52",
+    "evidence": "De villa's zijn gebouwd voor meergezinsbewoning, maar door de (pseudosymmetrische) gevelcomposities wordt de indruk gewekt van ... vrijstaande villa's (the quoted phrase 'villa for three families' is in no source)"
+   },
+   {
+    "field": "body",
+    "old": "is their boldest: two houses set at an angle",
+    "new": "has a twist: two houses set at an angle",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/4957c686-61ce-4001-8552-c2d0cce585e1",
+    "evidence": "De beide woningen zijn onder een hoek tegen elkaar geplaatst. Hierdoor ontstaat een V-vormige plattegrond (no source ranks it as their boldest)"
+   },
+   {
+    "field": "nl.body",
+    "old": "zijn het gewaagdst: twee huizen onder een hoek",
+    "new": "hebben iets aparts: twee huizen onder een hoek",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/4957c686-61ce-4001-8552-c2d0cce585e1",
+    "evidence": "De beide woningen zijn onder een hoek tegen elkaar geplaatst. Hierdoor ontstaat een V-vormige plattegrond (no source ranks it as their boldest)"
+   },
+   {
+    "field": "body",
+    "old": "All are private houses or offices; the garden sides",
+    "new": "The garden sides",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives the current use of all the houses"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het zijn woonhuizen en kantoren; de tuinkant",
+    "new": "De tuinkant",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives the current use of all the houses"
+   }
+  ],
+  "patch": {
+   "summary": "Two architects of the Carré theatre re-drew this lane in 1901 and designed several of its villas themselves: houses for several families dressed up as single country villas. One leans in a V, one was squatted through the 1980s, one belonged to a diamond man who went into cinemas.",
+   "translations": {
+    "nl": {
+     "summary": "Twee architecten van Carré tekenden deze laan in 1901 opnieuw en ontwierpen er zelf diverse villa's: huizen voor meerdere gezinnen, vermomd als één landhuis. Eén staat in een V, één was in de jaren tachtig gekraakt, één was van een diamantair die in de bioscopen ging.",
+     "body": "J.P.F. van Rossem en W.J. Vuyk kent men van Carré. Hier waren ze ook ontwikkelaar. In 1901 verkavelden ze de Koningslaan opnieuw, in 1902 richtten ze een NV op om de grond te exploiteren en vanaf 1905 woonden ze er zelf. Hun formule: meerdere huizen onder één schilderachtige kap, met een nette gevel aan de straat en terrassen en serres naar de lager gelegen vijver van het Vondelpark.\n\nDe nummers 26–30 (1901–1902) waren de eerste. De eerste bewoner van nummer 26 was president-commissaris van Trompenburg, de fabriek van de Spyker-auto's, en overleed in 1912 in Frankrijk tijdens een tocht in een Spyker. De nummers 50–52 (1905–1907), waarop de speld staat, hebben iets aparts: twee huizen onder een hoek, zodat de gevels naar elkaar toe buigen. Op nummer 50 woonden de grootouders van Erik Hazelhoff Roelfzema, de Soldaat van Oranje. Later was het een verpleeghuis; daarna stond het leeg en was het van 1980 tot ongeveer 1988 gekraakt. Daarnaast bouwde J.F. Staal een dubbele villa in de trant van Berlage (54–56, 1911–1912) voor een diamantfabrikant; in 1912 werden ze samen commissaris van een bioscoopbedrijf. Aan de overkant zat in 31–33 (1913) van 1949 tot 1994 de economische faculteit van de Vrije Universiteit.\n\nDe driedubbele villa op 32–36 heeft een eigen plek. De tuinkant zie je het best vanaf de brug van het Vondelpark bij de Emmalaan.\n\nLet op:\n- 26–30: ronde traptorens met spits aan beide zijkanten\n- nr. 30: glas in lood met vlinders uit ongeveer 1925 in de zijgevel\n- nr. 28: het betegelde portiek met een trap naar de bel-etage en art-nouveausmeedwerk\n- 31–33: de garage uit 1913 aan de Emmalaan, met vouwdeuren en pirons op het dak\n- 50–52: balkonhekken met zweepslagen, en loggia's op een stenen kolom\n- 54–56: schoorstenen met een opengewerkte bakstenen kop"
+    }
+   },
+   "body": "J.P.F. van Rossem and W.J. Vuyk are remembered for the Carré circus theatre. Here they were developers too. In 1901 they re-parcelled the Koningslaan, in 1902 they set up a company to exploit it, and from 1905 they lived on it themselves. Their formula: several houses under one picturesque roof, with a formal front to the street and terraces and conservatories towards the Vondelpark pond below.\n\nNos. 26–30 (1901–1902) came first. Its first resident at no. 26 chaired the Trompenburg works, makers of Spyker cars, and died in France in 1912 during a tour in a Spyker. Nos. 50–52 (1905–1907), on which this ensemble is pinned, has a twist: two houses set at an angle, so the fronts lean towards each other. The grandparents of Erik Hazelhoff Roelfzema, the \"Soldier of Orange\", lived at no. 50. Later it was a nursing home, then stood empty and was squatted from 1980 until about 1988. Next door J.F. Staal built a double villa in Berlage's manner (nos. 54–56, 1911–1912) for a diamond manufacturer; in 1912 the two of them joined the board of a cinema company. Across the lane, nos. 31–33 (1913) housed the economics faculty of the Vrije Universiteit from 1949 to 1994.\n\nThe triple villa at nos. 32–36 has a place of its own. The garden sides show best from the Vondelpark bridge at the Emmalaan.\n\nLook for:\n- nos. 26–30: round stair towers with spires on both sides\n- no. 30: butterfly stained glass of about 1925 in the side windows\n- no. 28: the tiled porch with a stair to the main floor and Art Nouveau ironwork\n- nos. 31–33: the 1913 garage on the Emmalaan, with folding doors and roof finials\n- nos. 50–52: balconies with whiplash ironwork, and loggias on a stone column\n- nos. 54–56: chimneys with openwork brick tops"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "dtjo0wand7ktma9l12lzy2k1",
+  "title": "Oranje Nassaulaan: bankers, a consulate and a garden-house school",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Bank presidents built here,",
+    "new": "Bankers built here,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Oranje_Nassaulaan/26",
+    "evidence": "Crena de Iongh became NHM president in 1934, after building no. 26; Insinger (no. 63) was a banker. Only one bank president is documented."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Bankpresidenten bouwden hier,",
+    "new": "Bankiers bouwden hier,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Oranje_Nassaulaan/26",
+    "evidence": "Crena de Iongh became NHM president in 1934, after building no. 26; Insinger (no. 63) was a banker. Only one bank president is documented."
+   },
+   {
+    "field": "body",
+    "old": "It filled up between 1915 and 1926 with houses for people who ran banks, shipping lines and fashion houses.",
+    "new": "The houses picked out here went up between 1915 and 1926, for bankers and the owners of a fashion house among others.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Oranje_Nassaulaan/18-20",
+    "evidence": "Houses in this ensemble: 18-20 (1915, Langemeijer brothers, fashion house), 63 (1917-1918, banker Insinger), 26 (1925-1926, NHM director). Feike de Boer, shipowner, moved into no. 14 later; no source covers the whole street."
+   },
+   {
+    "field": "nl.body",
+    "old": "Tussen 1915 en 1926 kwam de laan vol te staan met huizen voor mensen die een bank, een rederij of een modehuis leidden.",
+    "new": "De huizen die hier uitgelicht worden, verrezen tussen 1915 en 1926, onder meer voor bankiers en de eigenaars van een modehuis.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Oranje_Nassaulaan/18-20",
+    "evidence": "Houses in this ensemble: 18-20 (1915, Langemeijer brothers, fashion house), 63 (1917-1918, banker Insinger), 26 (1925-1926, NHM director). Feike de Boer, shipowner, moved into no. 14 later; no source covers the whole street."
+   },
+   {
+    "field": "body",
+    "old": "On 5 December 1962 an explosion damaged it;",
+    "new": "On 5 December 1962 there was an explosion at the consulate;",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:Ontploffing_op_Spaans_consulaat_aan_de_Oranje_Nassaulaan_te_Amsterdam,_Bestanddeelnr_914-5781.jpg",
+    "evidence": "Ontploffing op Spaans consulaat aan de Oranje Nassaulaan te Amsterdam. Datum: 5 december 1962. Trefwoorden: aanslagen, consulaten (damage not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Op 5 december 1962 raakte het beschadigd bij een ontploffing;",
+    "new": "Op 5 december 1962 was er een ontploffing bij het consulaat;",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:Ontploffing_op_Spaans_consulaat_aan_de_Oranje_Nassaulaan_te_Amsterdam,_Bestanddeelnr_914-5781.jpg",
+    "evidence": "Ontploffing op Spaans consulaat aan de Oranje Nassaulaan te Amsterdam. Datum: 5 december 1962. Trefwoorden: aanslagen, consulaten (damage not stated)"
+   },
+   {
+    "field": "body",
+    "old": "All private; seen from the street and the bridge.",
+    "new": "Everything here can be seen from the street and the bridge.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives current use (no. 20 has an office)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Alles is particulier; je ziet het vanaf de straat en de brug.",
+    "new": "Alles is te zien vanaf de straat en de brug.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source gives current use"
+   },
+   {
+    "field": "body",
+    "old": "walls of rough pebbly plaster with panels of patterned brick",
+    "new": "walls of roughcast with panels of patterned brick",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/ab4038af-2cf2-4d74-941a-ed2f30970be4",
+    "evidence": "gevels in roughcast. Bakstenen plinten en gevelstroken vormen een contrast ten opzichte van deze grove bepleistering (pebbles not mentioned)"
+   },
+   {
+    "field": "nl.body",
+    "old": "muren van ruw grindpleister met vlakken siermetselwerk",
+    "new": "muren van grove pleister (roughcast) met vlakken siermetselwerk",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/ab4038af-2cf2-4d74-941a-ed2f30970be4",
+    "evidence": "gevels in roughcast ... deze grove bepleistering"
+   }
+  ],
+  "patch": {
+   "summary": "The longest avenue of the villa park, from the Koningslaan over the pond to the Amstelveenseweg. Bankers built here, Spain kept a consulate that was hit by an explosion in 1962, and a garden house served as a Montessori class.",
+   "translations": {
+    "nl": {
+     "summary": "De langste laan van het villapark, van de Koningslaan over de vijver naar de Amstelveenseweg. Bankiers bouwden hier, Spanje had er een consulaat dat in 1962 door een ontploffing werd getroffen, en in een tuinhuis werd montessorionderwijs gegeven.",
+     "body": "De Oranje Nassaulaan, zo genoemd in 1902, loopt van de Koningslaan langs het Emmaplein en over een brug over de Willemsparkvijver naar de Amstelveenseweg. De huizen die hier uitgelicht worden, verrezen tussen 1915 en 1926, onder meer voor bankiers en de eigenaars van een modehuis.\n\nBij nummer 10 moet je achterom kijken, aan de Koningslaan: in de punt van de tuin staat een driehoekig tuinhuis uit 1925 van Amsterdamse Schoolarchitect C.J. Blaauw. Na haar scheiding in 1929 gaf de eigenares, de feministe en kunstverzamelaar Ada Crone, er een groepje buurtkinderen les volgens de methode van Montessori. Twee deuren verder, op nummer 14, woonde Feike de Boer, de eerste naoorlogse burgemeester van Amsterdam.\n\nDe dubbele villa op 18–20 (1915) is gebouwd voor de broers achter het modehuis Gebr. Langemeijer door A.J. Jacot, de architect van het Maison de Bonneterie. Nummer 20, de linkerhelft, was vanaf 1940 het consulaat van Roemenië en vanaf 1948 dat van Spanje. Op 5 december 1962 was er een ontploffing bij het consulaat; de persfoto is opgeborgen onder het trefwoord 'aanslagen'.\n\nNummer 26 (1925–1926, hier staat de speld) werd gebouwd voor Daniël Crena de Iongh, die in 1925 directeur werd van de Nederlandsche Handel-Maatschappij en in 1934 president. Aan de overkant van de brug staat op nummer 63 (1917–1918) een bankiersvilla met aan twee kanten de vijver; er zitten nu appartementen in.\n\nAlles is te zien vanaf de straat en de brug.\n\nLet op:\n- nummer 10: het tuinhuis tegen de muur aan de Koningslaan, met geel en donkergroen geschilderd houtwerk\n- nummers 18–20: muren van grove pleister (roughcast) met vlakken siermetselwerk, en links boven de loggia met ronde boog\n- nummer 26: de halfronde berceau naar de voordeur en de hoge schoorsteen aan de westkant\n- nummer 26: het patroon van natuursteen boven de deur, dat door de dakrand heen breekt\n- nummer 63: de ingang met ronde boog en een ruitvormig raampje in de eiken deur, en de geknikte rode daken"
+    }
+   },
+   "body": "The Oranje Nassaulaan, named in 1902, runs from the Koningslaan past the Emmaplein and over a bridge across the Willemspark pond to the Amstelveenseweg. The houses picked out here went up between 1915 and 1926, for bankers and the owners of a fashion house among others.\n\nAt no. 10, look round the back, on the Koningslaan: in the tip of the garden stands a triangular garden house of 1925 by the Amsterdam School architect C.J. Blaauw. After her divorce in 1929 its owner, the feminist and art collector Ada Crone, taught a group of neighbourhood children there by the Montessori method. Two doors on, at no. 14, lived Feike de Boer, the first post-war mayor of Amsterdam.\n\nThe double villa at nos. 18–20 (1915) was built for the brothers behind the fashion house Gebr. Langemeijer by A.J. Jacot, architect of the Maison de Bonneterie. No. 20, the left half, was the consulate of Romania from 1940 and of Spain from 1948. On 5 December 1962 there was an explosion at the consulate; the press photo is filed under \"attacks\".\n\nNo. 26 (1925–1926, pinned here) was built for Daniël Crena de Iongh, who became a director of the Nederlandsche Handel-Maatschappij in 1925 and its president in 1934. Across the bridge, no. 63 (1917–1918) was a banker's villa with the pond on two sides; it is flats now.\n\nEverything here can be seen from the street and the bridge.\n\nLook for:\n- no. 10: the garden house against the wall on the Koningslaan, its woodwork painted yellow and dark green\n- nos. 18–20: walls of roughcast with panels of patterned brick, and the round-arched loggia upstairs on the left\n- no. 26: the half-round trellis tunnel to the front door, and the tall chimney on the west side\n- no. 26: the stone pattern above the door, breaking through the eaves\n- no. 63: the round-arched entrance with a diamond window in the oak door, and the bent, hipped red roofs"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "gqr1b63vi20upc2e6cj9f3zp",
+  "title": "Parkwijk, flats sold as shares",
+  "changes": [
+   {
+    "field": "body",
+    "old": "In 1923 a villa park was the last place you expected a block of flats, and a block of flats was barely a thing at all. Parkwijk is one of the first free-standing ones in the Netherlands:",
+    "new": "Parkwijk, built in 1923 in a villa park, is one of the first free-standing blocks of flats in the Netherlands:",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/Parkwijk",
+    "evidence": "Een van de eerste vrijstaande flatgebouwen in Nederland, zij het nog niet in hoogbouw. (no source for flats being unexpected or barely existing; flats on the Koninginneweg nearby date from 1914)"
+   },
+   {
+    "field": "nl.body",
+    "old": "In 1923 verwachtte je in een villapark alles behalve een flatgebouw, en een flatgebouw bestond eigenlijk nog nauwelijks. Parkwijk is een van de eerste vrijstaande van Nederland:",
+    "new": "Parkwijk, in 1923 in een villapark gebouwd, is een van de eerste vrijstaande flatgebouwen van Nederland:",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/Parkwijk",
+    "evidence": "Een van de eerste vrijstaande flatgebouwen in Nederland, zij het nog niet in hoogbouw. (no source for flats being unexpected or barely existing; flats on the Koninginneweg nearby date from 1914)"
+   },
+   {
+    "field": "body",
+    "old": "A caretaker still lives in.",
+    "new": "In 2023 a caretaker still lived in.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/Parkwijk",
+    "evidence": "Anno 2023 is er nog altijd een inwonende huismeester."
+   },
+   {
+    "field": "nl.body",
+    "old": "Er woont nog altijd een huismeester in.",
+    "new": "In 2023 woonde er nog altijd een huismeester in.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/Parkwijk",
+    "evidence": "Anno 2023 is er nog altijd een inwonende huismeester."
+   },
+   {
+    "field": "body",
+    "old": "It is private; the front",
+    "new": "The front",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on access"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het gebouw is particulier; de voorgevel",
+    "new": "De voorgevel",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on access"
+   }
+  ],
+  "patch": {
+   "body": "Parkwijk, built in 1923 in a villa park, is one of the first free-standing blocks of flats in the Netherlands: not a tower yet, a few storeys of yellow brick over a dark brick ground floor, but standing alone in its own grounds like the villas around it.\n\nThe architect, F.A. Warners, was his own client: the building was put up by the Amsterdamse Maatschappij tot Exploitatie van Etagewoningen, a company he ran with his father-in-law, Allert de Lange. Dutch law did not yet allow you to own one floor of a building, so residents bought a share in the company instead. For that they got one of sixteen flats of six to ten rooms, central heating, a lift and a porter. In 2023 a caretaker still lived in.\n\nAmong the later residents were the writer J. Bernlef and the footballer Johan Cruijff, who used a flat here as his Amsterdam pied-à-terre from the early 1990s. The city listed the building as a municipal monument in September 2025.\n\nThe front and its entrance are seen from the street.\n\nLook for:\n- the name PARKWIJK in metal letters above the door\n- the entrance itself: a tall parabola-shaped arch of fanned brickwork around the door\n- the long rows of windows across the front\n- the dark brick ground floor under the yellow walls",
+   "translations": {
+    "nl": {
+     "body": "Parkwijk, in 1923 in een villapark gebouwd, is een van de eerste vrijstaande flatgebouwen van Nederland: nog geen hoogbouw, een paar lagen gele baksteen boven een donkere bakstenen begane grond, maar wel los in een eigen tuin, net als de villa's eromheen.\n\nArchitect F.A. Warners was hier zijn eigen opdrachtgever. Het gebouw werd neergezet door de Amsterdamse Maatschappij tot Exploitatie van Etagewoningen, een bedrijf van hem en zijn schoonvader Allert de Lange. Een verdieping van een gebouw bezitten mocht in Nederland nog niet, dus kochten de bewoners een aandeel in de maatschappij. Daarvoor kregen ze een van de zestien appartementen van zes tot tien kamers, centrale verwarming, een lift en een portier. In 2023 woonde er nog altijd een huismeester in.\n\nTot de latere bewoners hoorden de schrijver J. Bernlef en voetballer Johan Cruijff, die er vanaf begin jaren negentig een appartement aanhield als hij in Amsterdam was. In september 2025 wees de gemeente het gebouw aan als gemeentelijk monument.\n\nDe voorgevel met de ingang zie je vanaf de straat.\n\nLet op:\n- de naam PARKWIJK in metalen letters boven de deur\n- de ingang zelf: een hoge paraboolvormige boog van waaiervormig metselwerk rond de deur\n- de lange rijen ramen over de gevel\n- de donkere bakstenen begane grond onder de gele muren"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bmyigteilfcdow2lvjqzl7c4",
+  "title": "Prins Hendriklaan, south side (nos. 1–29)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "kept its lab animals in their drawing rooms.",
+    "new": "kept its lab animals in two of the houses.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/27-29",
+    "evidence": "Het gehele pand ... in 1953 gekocht door de Vrije Universiteit ... Beide labs hielden er proefdieren. (no source for drawing rooms)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "hield een universiteit proefdieren in hun salons.",
+    "new": "hield een universiteit proefdieren in twee van de huizen.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/27-29",
+    "evidence": "Het gehele pand ... in 1953 gekocht door de Vrije Universiteit ... Beide labs hielden er proefdieren. (no source for drawing rooms)"
+   },
+   {
+    "field": "body",
+    "old": "Builders put them up, and the money of the day moved in.",
+    "new": "Several were put up by builders, and the money of the day moved in.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/1",
+    "evidence": "15-19: opdrachtgevers de bouwondernemers Vegersteen en Nienaber; 27-29: gebouwd door de bouwondernemers De Groot en Rijnja; 3-5: aannemers Koolhaas; but no. 1 was commissioned by H.J. Post himself"
+   },
+   {
+    "field": "nl.body",
+    "old": "Bouwondernemers zetten ze neer en het geld van die tijd trok erin.",
+    "new": "Verschillende ervan zetten bouwondernemers neer, en het geld van die tijd trok erin.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/1",
+    "evidence": "15-19: opdrachtgevers de bouwondernemers Vegersteen en Nienaber; 27-29: gebouwd door de bouwondernemers De Groot en Rijnja; 3-5: aannemers Koolhaas; but no. 1 was commissioned by H.J. Post himself"
+   },
+   {
+    "field": "body",
+    "old": "later the pioneer of the Dutch flat;",
+    "new": "later a pioneer of the Dutch block of flats;",
+    "kind": "narrowed",
+    "source": "city:222026",
+    "evidence": "Warners is onder meer bekend geworden als een pionier op het gebied van etagehuizen."
+   },
+   {
+    "field": "nl.body",
+    "old": "later de man van het etagehuis;",
+    "new": "later een pionier van het etagehuis;",
+    "kind": "narrowed",
+    "source": "city:222026",
+    "evidence": "Warners is onder meer bekend geworden als een pionier op het gebied van etagehuizen."
+   },
+   {
+    "field": "body",
+    "old": "won the 1924 Scheveningen flower parade with his Rolls-Royce.",
+    "new": "won the 1924 Scheveningen flower parade with his Rolls-Royce.",
+    "kind": "sourced",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/27-29",
+    "evidence": "photo caption: Met deze Rolls-Royce won Sternberg in 1924 het bloemencorso van Scheveningen."
+   },
+   {
+    "field": "body",
+    "old": "the reason the house was listed in 2021 (interior, not open).",
+    "new": "the reason the house was listed in 2021 (inside).",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/27-29",
+    "evidence": "Het pand is een gemeentelijk monument sinds 2021, vooral vanwege de hal van nummer 29. (no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "waarom het pand in 2021 monument werd (binnen, niet te bezoeken).",
+    "new": "waarom het pand in 2021 monument werd (binnen).",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Prins_Hendriklaan/27-29",
+    "evidence": "vooral vanwege de hal van nummer 29"
+   }
+  ],
+  "patch": {
+   "summary": "A row of double villas from the 1910s with more bankers than a street needs. One went bust, one won a flower parade in his Rolls-Royce, and after the war a university kept its lab animals in two of the houses.",
+   "translations": {
+    "nl": {
+     "summary": "Een rij dubbele villa's uit de jaren tien met meer bankiers dan een straat nodig heeft. Eén ging failliet, één won een bloemencorso met zijn Rolls-Royce, en na de oorlog hield een universiteit proefdieren in twee van de huizen.",
+     "body": "De zuidkant van de Prins Hendriklaan is tussen 1911 en 1918 volgezet met blokjes van twee tot vier huizen die elk één villa lijken. Verschillende ervan zetten bouwondernemers neer, en het geld van die tijd trok erin.\n\nNummer 1 (1913) was voor de directeur van de Spaarbank voor de Stad Amsterdam. De nummers 3–5 (1915) waren de eerste Amsterdamse opdracht van F.A. Warners, later een pionier van het etagehuis; hij zette zijn naam erop. De drie huizen onder één kap op 15–19 (1912–1913), waarop de speld staat, zijn van J.F. Staal, voor twee bouwondernemers. De eerste bewoner van nummer 15, een bankier in koloniale cultuurfondsen, ging in 1918 failliet.\n\nDe kleurrijkste geschiedenis hoort bij 27–29 (1917–1918). De eerste eigenaar van nummer 29, weer een bankier, hield renpaarden en liet er een koetshuis naast bouwen; toen zijn firma in de problemen kwam, werd het huis in 1923 geveild. De volgende bewoner, de bankier Martin Sternberg, was consul-generaal van Perzië en won in 1924 met zijn Rolls-Royce het bloemencorso van Scheveningen. Vlak voor hij erin trok, kwam de halfronde uitbouw erbij, met een hal en glas in lood waarom het pand in 2021 monument werd (binnen). Van 1952 tot 1967 had de Vrije Universiteit hier laboratoria voor anatomie en hersenchemie, met proefdieren en al.\n\nWoonhuizen en kantoren, alles te zien vanaf de straat.\n\nLet op:\n- nr. 1: een middendeel van lichte natuursteen in een bakstenen gevel\n- 3–5: de steen laag in de gevel met 'F. WARNERS · ARCHITECT'\n- 3–5: de ingangen opzij, achter zandstenen zuilenrijen\n- 7–13: topgevels met vakwerk en hijsbalken\n- nr. 17: een portiek van drie bogen op twee stenen zuilen\n- nr. 15 en 19: tegelwerk boven de rondboogdeuren\n- nr. 29: de halfronde uitbouw opzij"
+    }
+   },
+   "body": "The south side of the Prins Hendriklaan was built up between 1911 and 1918 with blocks of two to four houses, each pretending to be one villa. Several were put up by builders, and the money of the day moved in.\n\nNo. 1 (1913) was for the director of the city savings bank. Nos. 3–5 (1915) was the first Amsterdam commission of F.A. Warners, later a pioneer of the Dutch block of flats; he signed it in stone. The three houses under one roof at nos. 15–19 (1912–1913), on which this ensemble is pinned, are by J.F. Staal for two builders. The first tenant of no. 15, a banker in colonial plantation shares, went bankrupt in 1918.\n\nThe most colourful history belongs to nos. 27–29 (1917–1918). The first owner of no. 29, another banker, kept racehorses and had a coach house built beside it; when his firm ran into trouble, the house was auctioned in 1923. The next occupant, the banker Martin Sternberg, was consul-general of Persia and won the 1924 Scheveningen flower parade with his Rolls-Royce. The half-round wing was added just before he moved in, with a hall and stained glass that are the reason the house was listed in 2021 (inside). From 1952 to 1967 the Vrije Universiteit ran anatomy and brain chemistry labs here, lab animals included.\n\nHomes and offices, all seen from the street.\n\nLook for:\n- no. 1: a pale stone centre bay in a brick front\n- nos. 3–5: the stone low on the front reading \"F. WARNERS · ARCHITECT\"\n- nos. 3–5: side entrances behind sandstone colonnades\n- nos. 7–13: half-timbered gables with hoisting beams\n- no. 17: a porch of three arches on two stone columns\n- nos. 15 and 19: tile decoration over the round-headed doors\n- no. 29: the half-round wing on the side"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "kbitq754e18dc3xpgl1ihj17",
+  "title": "Queen Emma monument, the statue The Hague turned down",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "and The Hague then picked someone else.",
+    "new": "but The Hague went with someone else.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Monument_voor_koningin_Emma_(Amsterdam)",
+    "evidence": "Hoewel Zijl de wedstrijd won, werd het beeld niet in Den Haag gerealiseerd. Daar werd namelijk het monument ontworpen door Toon Dupuis geplaatst. Het is onduidelijk of Dupuis al voor het verstrijken van de prijsvraag de opdracht was gegund"
+   },
+   {
+    "field": "nl.summary",
+    "old": "waarna Den Haag een ander koos.",
+    "new": "maar Den Haag koos een ander.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Monument_voor_koningin_Emma_(Amsterdam)",
+    "evidence": "Hoewel Zijl de wedstrijd won, werd het beeld niet in Den Haag gerealiseerd. Daar werd namelijk het monument ontworpen door Toon Dupuis geplaatst. Het is onduidelijk of Dupuis al voor het verstrijken van de prijsvraag de opdracht was gegund"
+   },
+   {
+    "field": "body",
+    "old": "and The Hague then gave the job to Toon Dupuis instead.",
+    "new": "but The Hague put up a monument by Toon Dupuis instead.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Monument_voor_koningin_Emma_(Amsterdam)",
+    "evidence": "Hoewel Zijl de wedstrijd won, werd het beeld niet in Den Haag gerealiseerd. Daar werd namelijk het monument ontworpen door Toon Dupuis geplaatst. Het is onduidelijk of Dupuis al voor het verstrijken van de prijsvraag de opdracht was gegund"
+   },
+   {
+    "field": "nl.body",
+    "old": "maar Den Haag gaf de opdracht daarna toch aan Toon Dupuis.",
+    "new": "maar in Den Haag kwam toch een monument van Toon Dupuis.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Monument_voor_koningin_Emma_(Amsterdam)",
+    "evidence": "Hoewel Zijl de wedstrijd won, werd het beeld niet in Den Haag gerealiseerd. Daar werd namelijk het monument ontworpen door Toon Dupuis geplaatst. Het is onduidelijk of Dupuis al voor het verstrijken van de prijsvraag de opdracht was gegund"
+   },
+   {
+    "field": "body",
+    "old": "on 29 June 1940, the first Anjerdag (Carnation Day,",
+    "new": "on 29 June 1940, Anjerdag (Carnation Day,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Anjerdag",
+    "evidence": "Anjerdag is de aanduiding voor 29 juni 1940, de eerste verjaardag van een lid van het koninklijk huis na de inval ... De jarige was prins Bernhard ... lieten Nederlanders openlijk hun onvrede blijken over de Duitse bezetting (there was only one Anjerdag, so not 'the first')"
+   },
+   {
+    "field": "nl.body",
+    "old": "op 29 juni 1940, de eerste Anjerdag (de verjaardag",
+    "new": "op 29 juni 1940, Anjerdag (de verjaardag",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Anjerdag",
+    "evidence": "Anjerdag is de aanduiding voor 29 juni 1940, de eerste verjaardag van een lid van het koninklijk huis na de inval ... De jarige was prins Bernhard ... lieten Nederlanders openlijk hun onvrede blijken over de Duitse bezetting (there was only one Anjerdag, so not 'the first')"
+   },
+   {
+    "field": "body",
+    "old": "(Carnation Day, Prince Bernhard's birthday, when people showed their loyalty to the royal house under the new occupation)",
+    "new": "(Carnation Day, Prince Bernhard's birthday, when people openly showed their discontent with the new occupation)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Anjerdag",
+    "evidence": "Door op deze dag een anjer in het knoopsgat te dragen - het handelsmerk van de prins - lieten Nederlanders openlijk hun onvrede blijken over de Duitse bezetting (the article does not speak of loyalty to the royal house)"
+   },
+   {
+    "field": "nl.body",
+    "old": "(de verjaardag van prins Bernhard, waarop mensen hun trouw aan het koningshuis lieten zien)",
+    "new": "(de verjaardag van prins Bernhard, waarop mensen openlijk hun ongenoegen over de bezetting toonden)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Anjerdag",
+    "evidence": "Door op deze dag een anjer in het knoopsgat te dragen - het handelsmerk van de prins - lieten Nederlanders openlijk hun onvrede blijken over de Duitse bezetting (the article does not speak of loyalty to the royal house)"
+   },
+   {
+    "field": "body",
+    "old": "\n\nThe square is a public garden and open at all times.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on access"
+   },
+   {
+    "field": "nl.body",
+    "old": "\n\nHet plein is een openbaar plantsoen en altijd toegankelijk.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source on access"
+   }
+  ],
+  "patch": {
+   "summary": "Lambertus Zijl won the competition for an Emma monument in The Hague in 1935, but The Hague went with someone else. Amsterdam took his design and set it in this quiet square in 1938. In 1987 vandals knocked her head off.",
+   "translations": {
+    "nl": {
+     "summary": "Lambertus Zijl won in 1935 de prijsvraag voor een Emmamonument in Den Haag, maar Den Haag koos een ander. Amsterdam nam zijn ontwerp over en zette het in 1938 op dit stille plein. In 1987 sloegen vandalen haar hoofd eraf.",
+     "body": "Koningin Emma zit in een open leunstoel aan de zuidkant van het plein dat naar haar heet, en ze had hier nooit moeten staan. Na haar dood in 1934 schreef Den Haag een prijsvraag uit voor een monument. Beeldhouwer Lambertus Zijl won die in 1935, maar in Den Haag kwam toch een monument van Toon Dupuis. Een Amsterdams comité besloot het ontwerp van Zijl dan maar hier te laten uithakken. Het geld kwam uit giften, ook uit de armste wijken van de stad. Een krant legde uit waarom juist deze plek: in zo'n besloten, intieme omgeving zou het beeld beter uitkomen dan op een druk punt elders in de stad.\n\nOp 16 juni 1938 werd het onthuld. Twee jaar later, op 29 juni 1940, Anjerdag (de verjaardag van prins Bernhard, waarop mensen openlijk hun ongenoegen over de bezetting toonden), kwamen velen hier bloemen leggen. In september 1987 sloegen vandalen hoofd en schouders van het beeld. Het hoofd werd in de bosjes teruggevonden en is weer op zijn plaats gezet.\n\nLet op:\n- de zes figuren met geheven armen aan de voorkant van de sokkel: Emma werd op handen gedragen\n- het wapen daarboven, met de woorden KONINGIN EMMA\n- aan een van de zijkanten een vrouw met weegschaal en boek, de gerechtigheid\n- de twee kleine gebouwtjes in Amsterdamse Schoolstijl in hetzelfde plantsoen, een parkwachtershuisje uit 1920 en een transformatorhuisje"
+    }
+   },
+   "body": "Queen Emma sits in an open armchair at the south end of the square that carries her name, and she was never meant to be here. After she died in 1934 The Hague held a competition for a monument. The sculptor Lambertus Zijl won it in 1935, but The Hague put up a monument by Toon Dupuis instead. An Amsterdam committee decided to have Zijl's design carved here. The money came from gifts, some from the poorest districts of the city, and a newspaper explained the choice of spot: the statue would do better in this intimate, enclosed square than at some busy place elsewhere in town.\n\nIt was unveiled on 16 June 1938. Two years later, on 29 June 1940, Anjerdag (Carnation Day, Prince Bernhard's birthday, when people openly showed their discontent with the new occupation), many came here to lay flowers. In September 1987 vandals took off the head and shoulders. The head turned up in the bushes and was put back.\n\nLook for:\n- the six figures with raised arms on the front of the base: Emma was, as the Dutch say, carried on hands\n- the coat of arms above them, with the words KONINGIN EMMA\n- on one side a woman with scales and a book, for justice\n- the two small Amsterdam School buildings in the same garden, a park keeper's hut of 1920 and a transformer house"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Anjerdag"
+  ]
+ },
+ {
+  "id": "osd1u2jf7cbzn9rs2f7c7jb6",
+  "title": "Sophialaan 1–3, the villa of the lottery bank",
+  "changes": [
+   {
+    "field": "body",
+    "old": "This six-sided brick block with its flat roof looks like the soberest house in the Willemspark. For two years it was the least sober.",
+    "new": "This six-sided brick block with its flat roof looks thoroughly sober. For two years it was anything but.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505187",
+    "evidence": "een goed voorbeeld van luxe woningbouw in de sobere variant van de Amsterdamse School-stijl (no comparison with other houses in the Willemspark)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Dit zeshoekige bakstenen blok met plat dak lijkt het degelijkste huis van het Willemspark. Twee jaar lang was het dat allerminst.",
+    "new": "Dit zeshoekige bakstenen blok met plat dak oogt uiterst sober. Twee jaar lang was het dat allerminst.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505187",
+    "evidence": "een goed voorbeeld van luxe woningbouw in de sobere variant van de Amsterdamse School-stijl (no comparison with other houses in the Willemspark)"
+   },
+   {
+    "field": "body",
+    "old": "It is private; the garden",
+    "new": "The garden",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505187",
+    "evidence": "Het bouwblok ligt enigszins teruggerooid in een aan vier zijden omlopende tuin. (no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het pand is particulier; de tuin",
+    "new": "De tuin",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505187",
+    "evidence": "aan vier zijden omlopende tuin"
+   }
+  ],
+  "patch": {
+   "body": "This six-sided brick block with its flat roof looks thoroughly sober. For two years it was anything but. It was designed in 1919 by G. de Wilde and sold at auction in 1921 before it was even finished. A year later it belonged to the Rotterdamsche Handels- en Landbouwbank, which opened a branch in it.\n\nThe branch was run by the Rotterdam lawyer Willem Broekhuijs, who organised popular but shady \"bond loans\" that were lotteries in all but name. You lent the bank ten guilders and stood a chance of winning a handsome villa. The prize was paid for by launching the next loan.\n\nIn 1923 the editor of De Telegraaf, at odds with his owner, asked Broekhuijs to buy the paper. The owner would not sell, and then snatched up the rival Het Nieuws van den Dag before Broekhuijs could. So Broekhuijs announced a daily of his own from this villa, De Dag, with the Telegraaf editor and a train of his journalists on board. It got as far as a few trial issues. Broekhuijs went bankrupt and the villa was auctioned again in 1924. Back in Rotterdam he started a snowball lottery, was arrested in 1925 and died of a heart attack in 1926.\n\nThe two houses were merged and split into flats in 1935. The garden runs all the way round.\n\nLook for:\n- the two brick piers on the street front, each topped by a stone relief of stylised waves and a mask\n- the bands of projecting brick wrapped round the top floor\n- the cut-off corners that make the plan a hexagon\n- the original glazing bars in tall, narrow windows\n- the gate on the street; the front door is round the south side",
+   "translations": {
+    "nl": {
+     "body": "Dit zeshoekige bakstenen blok met plat dak oogt uiterst sober. Twee jaar lang was het dat allerminst. G. de Wilde tekende het in 1919, en in 1921 werd het al geveild voordat het af was. Een jaar later was het van de Rotterdamsche Handels- en Landbouwbank, die er een bijkantoor in opende.\n\nDat kantoor werd geleid door de Rotterdamse advocaat Willem Broekhuijs. Hij schreef populaire maar louche 'obligatieleningen' uit, die in feite loterijen waren. Wie de bank een tientje leende, maakte kans op een mooie villa. Die prijs werd betaald door de volgende lening uit te schrijven.\n\nIn 1923 vroeg de hoofdredacteur van De Telegraaf, die ruzie had met zijn eigenaar, of Broekhuijs de krant wilde kopen. De eigenaar weigerde, en kaapte daarna ook concurrent Het Nieuws van den Dag voor Broekhuijs' neus weg. Daarop kondigde Broekhuijs vanuit deze villa een eigen dagblad aan, De Dag, met de Telegraaf-hoofdredacteur en een stoet van diens journalisten. Verder dan een paar proefnummers kwam het niet. Broekhuijs ging failliet en de villa werd in 1924 opnieuw geveild. Terug in Rotterdam begon hij een sneeuwballoterij; in 1925 werd hij gearresteerd en in 1926 stierf hij aan een hartaanval.\n\nIn 1935 zijn de twee huizen samengevoegd en in appartementen verdeeld. De tuin loopt er helemaal omheen.\n\nLet op:\n- de twee bakstenen pijlers aan de straatkant, elk bekroond met een stenen reliëf van gestileerde golven en een masker\n- de banden van uitstekende baksteen rond de bovenste verdieping\n- de afgeschuinde hoeken die van de plattegrond een zeshoek maken\n- de oorspronkelijke roeden in de hoge, smalle ramen\n- de toegangspoort aan de straat; de voordeur zit om de hoek, aan de zuidkant"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "qqo2mme5g0x2s8uve2pa268u",
+  "title": "Sophialaan: round the Willemspark pond",
+  "changes": [
+   {
+    "field": "body",
+    "old": "and then almost nothing happened.",
+    "new": "and then progress was slow.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/80d3d09f-70e6-4e77-8e14-88a1a44b7b52",
+    "evidence": "(city:200505) Aanvankelijk verliep de ontwikkeling langzaam, maar het doortrekken van de paardentramverbinding in 1893 vormde een belangrijke stimulans."
+   },
+   {
+    "field": "nl.body",
+    "old": "en daarna gebeurde er heel lang bijna niets.",
+    "new": "en daarna ging het lang heel traag.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/80d3d09f-70e6-4e77-8e14-88a1a44b7b52",
+    "evidence": "Aanvankelijk verliep de ontwikkeling langzaam"
+   },
+   {
+    "field": "body",
+    "old": "All are private. The best view",
+    "new": "The best view",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/3d4b48ac-d81c-4478-ac80-4c67510b5561",
+    "evidence": "Aan de achterzijde van de panden op de nummers 178 en 180 zijn aparte adressen ... Hierin zijn heden kantoren gevestigd. (so not all private homes; no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Alles is particulier. Nummer 18",
+    "new": "Nummer 18",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/3d4b48ac-d81c-4478-ac80-4c67510b5561",
+    "evidence": "Hierin zijn heden kantoren gevestigd."
+   },
+   {
+    "field": "body",
+    "old": "carved animal heads under the gables,",
+    "new": "carved animal heads on the stone brackets,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/68d24e77-8009-48ee-a0c4-193fc1f2014c",
+    "evidence": "(city:222038) rust op zandstenen consoles met gebeeldhouwde dierenkopjes"
+   },
+   {
+    "field": "nl.body",
+    "old": "gebeeldhouwde dierenkopjes onder de topgevels,",
+    "new": "gebeeldhouwde dierenkopjes op de stenen consoles,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/68d24e77-8009-48ee-a0c4-193fc1f2014c",
+    "evidence": "(city:222038) rust op zandstenen consoles met gebeeldhouwde dierenkopjes"
+   }
+  ],
+  "patch": {
+   "body": "The Willemspark was planned in 1881 as a villa district round ponds that run on into the Vondelpark, and then progress was slow. The proof stands on the south side of the Sophialaan: a row of four tall houses built in 1893–1894 by A.L. van Gendt, architect of the Concertgebouw. Their fronts are on the Koninginneweg (nos. 178–184), which was the first real street out here. Until about 1910 they were nearly the only buildings in the neighbourhood. From the Sophialaan you see their backs, and because the lane lies lower than the Koninginneweg, their basements stand fully above ground on this side. Two of the back doors now have their own addresses, Sophialaan 17 and 19.\n\nThe villas came a generation later. Sophialaan 18 (1920), pinned here, is by the Baanders brothers, the architects of the Amsterdams Lyceum, for the director of an engineering works. It is the only house on the south bank of the pond and part of its back wall stands straight in the water; the garage is in the basement. Further along, the double villa at nos. 14–16 (1921–1924, H.L. de Jong) has its gardens on the pond.\n\nThe best view of no. 18 is from across the water.\n\nLook for:\n- from the Sophialaan: the tall backs of the four houses, basements and all, and the corner turret with timber framing and a slate cap, which survives only on the house at Koninginneweg 178\n- on the Koninginneweg side: sandstone bands in the brick, and little tile mosaics in the arches above the windows\n- also on that side: carved animal heads on the stone brackets, and a stone griffin still perched on no. 184\n- Sophialaan 18: two brick blocks that slide past each other, with steep tiled roofs and a chimney in each gable top\n- Sophialaan 18: the big arched garage doors on the street",
+   "translations": {
+    "nl": {
+     "body": "Het Willemspark werd in 1881 bedacht als villawijk rond vijvers die doorlopen in het Vondelpark, en daarna ging het lang heel traag. Het bewijs staat aan de zuidkant van de Sophialaan: een rij van vier hoge herenhuizen uit 1893–1894 van A.L. van Gendt, de architect van het Concertgebouw. Hun voorgevels staan aan de Koninginneweg (178–184), de eerste echte straat in deze hoek. Tot omstreeks 1910 was dit vrijwel de enige bebouwing in de buurt. Vanaf de Sophialaan kijk je tegen de achterkant aan, en omdat het laantje lager ligt dan de Koninginneweg, staat het souterrain hier helemaal boven de grond. Twee achterdeuren hebben inmiddels een eigen adres: Sophialaan 17 en 19.\n\nDe villa's kwamen een generatie later. Sophialaan 18 (1920), waar de speld staat, is van de gebroeders Baanders, de architecten van het Amsterdams Lyceum, gebouwd voor de directeur van een constructiewerkplaats. Het is het enige huis op de zuidoever van de vijver en een deel van de achtergevel staat zo in het water; de garage zit in het souterrain. Verderop heeft de dubbele villa op 14–16 (1921–1924, H.L. de Jong) haar tuinen aan de vijver.\n\nNummer 18 zie je het best vanaf de overkant van het water.\n\nLet op:\n- vanaf de Sophialaan: de hoge achterkanten van de vier huizen, met souterrain en al, en het hoektorentje met vakwerk en een leien kapje, dat alleen nog op het huis Koninginneweg 178 staat\n- aan de kant van de Koninginneweg: banden van zandsteen in de baksteen, en kleine tegelmozaïekjes in de bogen boven de ramen\n- ook aan die kant: gebeeldhouwde dierenkopjes op de stenen consoles, en op nummer 184 nog een stenen griffioen\n- Sophialaan 18: twee bakstenen blokken die langs elkaar schuiven, met steile pannendaken en in elke top een schoorsteen\n- Sophialaan 18: de grote garagedeuren onder een boog aan de straat"
+    }
+   }
+  },
+  "sources_add": [
+   "https://data.amsterdam.nl/monumenten/80d3d09f-70e6-4e77-8e14-88a1a44b7b52"
+  ]
+ },
+ {
+  "id": "luch8lsv1dnvg5j9ivccgxfz",
+  "title": "The Comenius stone: first stone of a monument that never came",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The stone was cracked by road works",
+    "new": "The stone was cracked during municipal works",
+    "kind": "narrowed",
+    "source": "https://mzv.gov.cz/public/7f/49/ec/2801123_1920994_Stone_in_Amsterdam.pdf",
+    "evidence": "the stone was damaged during municipal works some twenty years ago (road works not specified)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De steen brak bij werk aan de straat",
+    "new": "De steen brak bij gemeentelijke werkzaamheden",
+    "kind": "narrowed",
+    "source": "https://mzv.gov.cz/public/7f/49/ec/2801123_1920994_Stone_in_Amsterdam.pdf",
+    "evidence": "damaged during municipal works"
+   }
+  ],
+  "patch": {
+   "body": "Jan Amos Comenius, the Moravian churchman often called the founder of modern teaching, spent his last years as a refugee in Amsterdam and died there in 1670. When Czechoslovakia became a country in 1918, Czechs in Amsterdam asked President Masaryk for a memorial. The young state sent a stone from his native region, by train from Prague as diplomatic freight. It was unveiled on 15 November 1920, the 250th anniversary of his death, in front of the new Amsterdams Lyceum, with the mayor and a Czechoslovak deputy minister present.\n\nNothing was ever built on it. The first design, by the sculptor Jan Štursa, was shown in Amsterdam and thought a monstrosity, and too religious to stand before a public school. The school's architect and the city sculptor Hildo Krop went to Prague to help with a second version, which was ready on paper by 1935. Then came the war, and after it a communist Czechoslovakia whose gift Amsterdam did not want. In 1958 the plan was dropped.\n\nThe stone was cracked during municipal works and lay forgotten among parked bicycles until two researchers found the file in Prague. It was lifted in 2017 and unveiled a second time, mended, on 12 March 2018. The copper box of documents laid under it in 1920 was gone.\n\nLook for:\n- the name in its Czech form, J.A. Komenský, and his monogram in a circle\n- the date on the stone, 15 September 1920: the ceremony was two months late\n- the mended crack across the middle",
+   "translations": {
+    "nl": {
+     "body": "Jan Amos Comenius, de Moravische geestelijke die vaak de grondlegger van de pedagogiek wordt genoemd, woonde zijn laatste jaren als vluchteling in Amsterdam en stierf er in 1670. Toen Tsjecho-Slowakije in 1918 een land werd, vroegen Tsjechen in Amsterdam president Masaryk om een gedenkteken voor hem. De jonge staat stuurde een steen uit zijn geboortestreek, als diplomatieke post per trein uit Praag. Hij werd op 15 november 1920, zijn 250e sterfdag, onthuld voor het nieuwe Amsterdams Lyceum, in het bijzijn van de burgemeester en een Tsjecho-Slowaakse onderminister.\n\nEr is nooit iets op gebouwd. Het eerste ontwerp, van beeldhouwer Jan Štursa, werd in Amsterdam getoond en een gedrocht gevonden, en te godsdienstig voor een plek voor een openbare school. De architect van de school en stadsbeeldhouwer Hildo Krop reisden naar Praag om aan een tweede versie mee te werken, die in 1935 op papier klaar was. Toen kwam de oorlog, en daarna een communistisch Tsjecho-Slowakije waarvan Amsterdam geen geschenk wilde. In 1958 werd het plan afgeblazen.\n\nDe steen brak bij gemeentelijke werkzaamheden en lag vergeten tussen de fietsen, tot twee onderzoekers het dossier in Praag vonden. In 2017 is hij gelicht en hersteld, op 12 maart 2018 voor de tweede keer onthuld. De koperen koker met documenten die er in 1920 onder was gelegd, was weg.\n\nLet op:\n- de naam in het Tsjechisch, J.A. Komenský, en zijn monogram in een cirkel\n- de datum op de steen, 15 september 1920: de plechtigheid was twee maanden te laat\n- de herstelde breuk dwars door het midden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "fawinep7x5uavqhoijjyyhz1",
+  "title": "Valeriusplein toilet buildings",
+  "changes": [
+   {
+    "field": "body",
+    "old": "They are now let as a hair and make-up studio and a hairdresser's, so the way in is an appointment.",
+    "new": "They are now let as a hair and make-up studio and a hairdresser's.",
+    "kind": "cut",
+    "source": "https://stadsherstel.nl/monumenten/valeriusplein-8/",
+    "evidence": "In het voormalige vrouwentoilet, Valeriusplein 8, zit nu haarstylist Geert Thijssen ... kapster en visagiste Daphne van Deventer die in het andere toiletgebouw zit (no source on appointments)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Er zitten nu een studio voor haar en make-up en een kapper in: je komt dus binnen op afspraak.",
+    "new": "Er zitten nu een studio voor haar en make-up en een kapper in.",
+    "kind": "cut",
+    "source": "https://stadsherstel.nl/monumenten/valeriusplein-8/",
+    "evidence": "haarstylist ... kapster en visagiste"
+   },
+   {
+    "field": "body",
+    "old": "- the brick bench with wooden seats on both sides, about 100 metres south",
+    "new": "- the brick bench with wooden seats on both sides, at the south end of the garden",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505846",
+    "evidence": "Aan de zuidzijde van het plein een bakstenen bank met aan beide zijden houten zittingen. (no distance given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de bakstenen bank met houten zittingen aan twee kanten, een meter of honderd naar het zuiden",
+    "new": "- de bakstenen bank met houten zittingen aan twee kanten, aan de zuidkant van het plantsoen",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505846",
+    "evidence": "Aan de zuidzijde van het plein een bakstenen bank"
+   }
+  ],
+  "patch": {
+   "body": "At the north end of the garden on the Valeriusplein, two small white buildings crouch in the grass like bunkers with good manners. They were built in 1922 as public toilets, one for men and one for women, mirror images of each other in poured concrete. The square was a busy passage between the old and new parts of Zuid, and the psychiatric clinic that then stood on its east side had pressed for facilities. To keep them out of sight, the designers sank them half into the ground.\n\nThey fell out of use in the 1980s and were filled with earth against vandalism. In 2009 the city put them in a campaign to find new uses for derelict buildings, and a local entrepreneur took up the cause. The heritage company Stadsherstel bought them in 2012 and restored them, ironwork included, by 2014. Each is about 22 square metres. They are now let as a hair and make-up studio and a hairdresser's.\n\nThe fence around the garden and the brick bench at the far south end belong to the same design and the same listing.\n\nLook for:\n- the flowing concrete walls under a wide, overhanging flat roof\n- the stairs down to the doors, and the round glazing bars in the door windows\n- the wrought-iron gates between concrete posts, and the spiked ironwork on the piers and roof\n- the half-circle of fence that links the two buildings\n- the \"Vrouwen\" sign on the women's side\n- the brick bench with wooden seats on both sides, at the south end of the garden",
+   "translations": {
+    "nl": {
+     "body": "Aan de noordkant van het plantsoen op het Valeriusplein liggen twee witte gebouwtjes in het gras, als bunkers met goede manieren. Ze zijn in 1922 gebouwd als openbare toiletten, een voor mannen en een voor vrouwen, elkaars spiegelbeeld en helemaal van gegoten beton. Het plein was een drukke doorgang tussen het oude en het nieuwe Zuid, en de psychiatrische kliniek die toen aan de oostkant stond, had om voorzieningen gevraagd. Om ze uit het zicht te houden, zijn ze half in de grond gezet.\n\nIn de jaren tachtig raakten ze buiten gebruik en werden ze tegen vandalisme volgestort met aarde. In 2009 zette de gemeente ze in de etalage in een campagne voor vergeten gebouwen, en een ondernemer uit de buurt trok zich hun lot aan. Stadsherstel kocht ze in 2012 en had ze in 2014 opgeknapt, met het smeedwerk erbij. Elk gebouwtje meet zo'n 22 vierkante meter. Er zitten nu een studio voor haar en make-up en een kapper in.\n\nHet hek rond het plantsoen en de bakstenen bank helemaal aan de zuidkant horen bij hetzelfde ontwerp en bij hetzelfde monument.\n\nLet op:\n- de golvende betonnen wanden onder een breed overstekend plat dak\n- de trapjes naar de deuren, en de ronde roeden in de deurruitjes\n- de smeedijzeren hekjes tussen betonnen kolommen, en de punten op de pijlers en het dak\n- het halfronde hek dat de twee gebouwtjes verbindt\n- het bordje 'Vrouwen' aan de vrouwenkant\n- de bakstenen bank met houten zittingen aan twee kanten, aan de zuidkant van het plantsoen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "iswopdb0s19g68g6q2kuv71f",
+  "title": "Vrije Universiteit laboratories",
+  "changes": [
+   {
+    "field": "body",
+    "old": "grew up in canal houses and had no room for experiments.",
+    "new": "grew up in canal houses.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Keizersgracht/162",
+    "evidence": "Dit 17e-eeuwse grachtenpand werd in 1884 verbouwd voor de Vrije Universiteit ... de in 1880 opgerichte Vrije Universiteit ... later uitgebreid met nummers 160, 164 en 166 (1880 and canal houses sourced; 'no room for experiments' is not)"
+   },
+   {
+    "field": "nl.body",
+    "old": "zat in grachtenpanden en had geen plek voor proeven.",
+    "new": "zat in grachtenpanden.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Keizersgracht/162",
+    "evidence": "Dit 17e-eeuwse grachtenpand werd in 1884 verbouwd voor de Vrije Universiteit"
+   },
+   {
+    "field": "body",
+    "old": "Neither is open; the fronts tell the story.",
+    "new": "The laboratory is not open to the public; the fronts tell the story.",
+    "kind": "narrowed",
+    "source": "https://www.arcam.nl/vu-laboratorium/",
+    "evidence": "Openbaar toegankelijk: Nee (for the laboratory; the corner building is a clinic, DC Klinieken since 2011)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Binnen kun je niet kijken; de gevels vertellen het verhaal.",
+    "new": "Het laboratorium is niet openbaar toegankelijk; de gevels vertellen het verhaal.",
+    "kind": "narrowed",
+    "source": "https://www.arcam.nl/vu-laboratorium/",
+    "evidence": "Openbaar toegankelijk: Nee"
+   },
+   {
+    "field": "summary",
+    "old": "A telescope dome still sits on the roof.",
+    "new": "An observatory dome still sits on the roof.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/462002",
+    "evidence": "van een observatorium met koepel voorzien (no telescope named)"
+   }
+  ],
+  "patch": {
+   "body": "The Vrije Universiteit, founded by Reformed Protestants in 1880, grew up in canal houses. In 1916 it built a laboratory here: the Physiological Laboratory on the corner of the Valeriusplein, by Groenendijk and Lammers, in Amsterdam School style and looking more like a villa than a lab.\n\nIn 1927 the university decided on a fourth faculty, mathematics and physics. B.T. Boeyinga built its chemistry and physics laboratories next door in 1930–1933, in banded brick and concrete with glass-brick top lights. A fellow architect grumbled in the press that it was a jumble of De Bazel, Berlage and De Klerk. Above the entrance Theo van Reijn carved \"De mensch, de stof opwekkend en beheerschend\" (Man, rousing and mastering matter) in tuff, standing on top of a column at the roofline. In 1951–1952 Boeyinga added two to three plainer floors and an observatory dome for the astronomers. The statue stayed put, and now stands oddly stranded in the middle of the wall.\n\nThe university left for Buitenveldert in the 1970s. The big laboratory stood empty, a developer wanted it demolished, and listing saved it; in 1998 it was turned into offices and apartments. The corner building became offices and later a clinic. The laboratory is not open to the public; the fronts tell the story.\n\nLook for:\n- the statue on its column, with newer brickwork above it\n- four profile portraits cut into the wall left of the stair tower\n- the bronze plates naming the chemistry and physics laboratories, and \"vrije universiteit\" on the canopy\n- the observatory dome on the roof\n- on the corner building: the stones reading PHYSIOLOGISCH LABORATORIUM, and the architects' names in two places\n- its parabola-shaped doorway with diamond-shaped windows",
+   "translations": {
+    "nl": {
+     "body": "De Vrije Universiteit, in 1880 door gereformeerden gesticht, zat in grachtenpanden. In 1916 bouwde ze hier een laboratorium: het Physiologisch Laboratorium op de hoek van het Valeriusplein, van Groenendijk en Lammers, in Amsterdamse Schoolstijl en eerder een villa dan een lab.\n\nIn 1927 besloot de universiteit tot een vierde faculteit, wis- en natuurkunde. B.T. Boeyinga bouwde er in 1930–1933 de laboratoria voor scheikunde en natuurkunde naast, in banden van baksteen en beton met glazen bouwstenen in de bovenlichten. Een collega mopperde in de krant dat het een verbrokkeld geheel was van De Bazel, Berlage en De Klerk. Boven de ingang hakte Theo van Reijn 'De mensch, de stof opwekkend en beheerschend' in tufsteen, boven op een kolom bij de dakrand. In 1951–1952 zette Boeyinga er twee tot drie soberder verdiepingen op, met een koepel voor de sterrenkundigen. Het beeld bleef staan waar het stond en hangt nu wat verloren midden in de gevel.\n\nIn de jaren zeventig vertrok de universiteit naar Buitenveldert. Het grote laboratorium stond leeg, een ontwikkelaar wilde het slopen en de monumentenstatus redde het; in 1998 werd het verbouwd tot kantoren en appartementen. Het hoekgebouw werd kantoor en later een kliniek. Het laboratorium is niet openbaar toegankelijk; de gevels vertellen het verhaal.\n\nLet op:\n- het beeld op zijn kolom, met jonger metselwerk erboven\n- vier profielportretten, in de muur gegrift links van het trappenhuis\n- de bronzen platen met 'scheikundig laboratorium en natuurkundig laboratorium', en 'vrije universiteit' op de luifel\n- de sterrenkoepel op het dak\n- op het hoekgebouw: de stenen met PHYSIOLOGISCH LABORATORIUM, en op twee plekken de namen van de architecten\n- de paraboolvormige ingang met ruitvormige raampjes"
+    }
+   },
+   "summary": "A Calvinist university's science labs, dropped among the villas. The statue of Man mastering matter once crowned the front; when floors were added in the 1950s it was left where it was, halfway up. An observatory dome still sits on the roof."
+  },
+  "sources_add": [
+   "https://amsterdamopdekaart.nl/1850-1940/Keizersgracht/162"
+  ]
+ },
+ {
+  "id": "he0ng63e0aexqr5nt9p4pp8x",
+  "title": "Waldeck Pyrmontlaan: a business school among the villas",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The Waldeck Pyrmontlaan, named after Queen Emma's family, curves",
+    "new": "The Waldeck Pyrmontlaan curves",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/9e40a6bb-9e24-4c4b-a947-e865667d0af8",
+    "evidence": "(city:222141) De Waldeck Pyrmontlaan vormt tezamen met de hierop aansluitende Sophialaan de gebogen omkadering van één van de lobben van het Vondelpark (no source for the naming)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De Waldeck Pyrmontlaan, genoemd naar de familie van koningin Emma, buigt",
+    "new": "De Waldeck Pyrmontlaan buigt",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/9e40a6bb-9e24-4c4b-a947-e865667d0af8",
+    "evidence": "de gebogen omkadering van één van de lobben van het Vondelpark"
+   },
+   {
+    "field": "body",
+    "old": "moved here from De Pijp in 1912",
+    "new": "moved here from the Hemonystraat in 1912",
+    "kind": "sourced",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/23",
+    "evidence": "Die particuliere school, van directeur Hofland, kwam over uit de Hemonystraat."
+   },
+   {
+    "field": "nl.body",
+    "old": "in 1912 uit De Pijp hierheen kwam",
+    "new": "in 1912 uit de Hemonystraat hierheen kwam",
+    "kind": "sourced",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/23",
+    "evidence": "kwam over uit de Hemonystraat"
+   },
+   {
+    "field": "body",
+    "old": "All private. This ensemble is pinned on the school.",
+    "new": "This ensemble is pinned on the school.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/23",
+    "evidence": "Sinds 2010 is het een kinderdagverblijf (no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Alles is particulier. De speld staat op de school.",
+    "new": "De speld staat op de school.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Waldeck_Pyrmontlaan/23",
+    "evidence": "Sinds 2010 is het een kinderdagverblijf"
+   },
+   {
+    "field": "body",
+    "old": "- nos. 13–17: bands of yellow and black brick between the floors,",
+    "new": "- nos. 13–17: bands of yellow and black brick between the floors,",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/9d79248b-3dff-45df-b390-87e7e80e4d06",
+    "evidence": "(city:222043) Een siermetselwerklijst in gele IJsselsteen en zwartgeteerde steen markeert de overgang naar de tweede bouwlaag ... De overgang naar de bovenste verdieping wordt eveneens gemarkeerd door een siermetselwerklijst als voornoemd."
+   },
+   {
+    "field": "nl.body",
+    "old": "- nummers 13–17: banden van gele en zwarte steen tussen de verdiepingen,",
+    "new": "- nummers 13–17: banden van gele en zwarte steen tussen de verdiepingen,",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/9d79248b-3dff-45df-b390-87e7e80e4d06",
+    "evidence": "(city:222043) Een siermetselwerklijst in gele IJsselsteen en zwartgeteerde steen markeert de overgang naar de tweede bouwlaag ... De overgang naar de bovenste verdieping wordt eveneens gemarkeerd door een siermetselwerklijst als voornoemd."
+   }
+  ],
+  "patch": {
+   "body": "The Waldeck Pyrmontlaan curves with the Sophialaan round one of the ponds that reach out of the Vondelpark. Between the villas at no. 23 stands something you would not expect in a villa park: a school.\n\nThe Handelsschool Hofland was a private business school that moved here from the Hemonystraat in 1912, into a new building by Evert Breman. A newspaper praised its \"roomy, fresh, well-lit\" classrooms; they are grouped round a central hall, an arrangement that only became common after the Second World War. It stayed a school into this century and has been a day nursery since 2010.\n\nNext door, the triple villa at nos. 13–17 (1913) was designed by H.A.J. Baanders for three clients, one of whom was Baanders himself, though he never moved in. The jurist Paul Scholten, professor at the city's university, lived at no. 17 until 1942. At the bend, the double villa Waldeck Pyrmontlaan 26 / Saxen-Weimarlaan 39 (1909) faces three streets at once; a bank converted it to an office in 1927. Round the corner, Saxen-Weimarlaan 10–12 (1910–1911) is by one H. Kermer, of whom nothing else is known.\n\nThis ensemble is pinned on the school.\n\nLook for:\n- no. 23: the tile panel HANDELSSCHOOL · HOFLAND above the porch, signed De Distel, with the staff of Mercury, god of trade\n- no. 23: the small balconies with bowed iron railings at the top corners\n- nos. 13–17: bands of yellow and black brick between the floors, and bays on carved sandstone brackets\n- no. 26 and Saxen-Weimarlaan 39: the two little domes on the cut-off corners, one clad in lead and one in zinc\n- Saxen-Weimarlaan 12: the stone dated 1910 with two stylised monkeys, and above it a relief of two lizards",
+   "translations": {
+    "nl": {
+     "body": "De Waldeck Pyrmontlaan buigt samen met de Sophialaan om een van de vijvers die vanuit het Vondelpark de wijk in steken. Tussen de villa's staat op nummer 23 iets wat je in een villapark niet verwacht: een school.\n\nDe Handelsschool Hofland was een particuliere school die in 1912 uit de Hemonystraat hierheen kwam, naar een nieuw gebouw van Evert Breman. Een krant roemde de 'ruime, frissche, goed verlichte lokalen'. Ze liggen rond een centrale hal, een indeling die pas na de Tweede Wereldoorlog gewoon werd. Het bleef tot in deze eeuw een school en is sinds 2010 een kinderdagverblijf.\n\nDe driedubbele villa ernaast, op 13–17 (1913), is door H.A.J. Baanders getekend voor drie opdrachtgevers. Een daarvan was Baanders zelf, al heeft hij er nooit gewoond. De jurist Paul Scholten, hoogleraar aan de gemeentelijke universiteit, woonde tot 1942 op nummer 17. In de bocht kijkt de dubbele villa Waldeck Pyrmontlaan 26 / Saxen-Weimarlaan 39 (1909) uit op drie straten tegelijk; in 1927 maakte een bank er een kantoor van. Om de hoek is Saxen-Weimarlaan 10–12 (1910–1911) van ene H. Kermer, van wie verder niets bekend is.\n\nDe speld staat op de school.\n\nLet op:\n- nummer 23: het tegeltableau HANDELSSCHOOL · HOFLAND boven de portiek, gesigneerd De Distel, met de staf van Mercurius, de god van de handel\n- nummer 23: de balkonnetjes met bolle ijzeren hekjes op de bovenste hoeken\n- nummers 13–17: banden van gele en zwarte steen tussen de verdiepingen, en erkers op gebeeldhouwde zandstenen consoles\n- nummer 26 en Saxen-Weimarlaan 39: de twee koepeltjes op de afgeschuinde hoeken, het ene met lood bekleed en het andere met zink\n- Saxen-Weimarlaan 12: de steen met het jaartal 1910 en twee gestileerde apen, met daarboven een reliëf van twee hagedissen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "x8pzajz8vhx6t7zd251s0pzl",
+  "title": "Westhove",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "by the architect who taught well-off Amsterdam to live on one floor.",
+    "new": "by the architect of what is often called the first Dutch block of flats.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/De_Lairessestraat/Huize_Loma",
+    "evidence": "Huize Loma, het eerste echte appartementengebouw van Nederland. Architect Warners had in steden als Parijs en Wenen voorbeelden gezien, en paste het principe nu toe in Amsterdam. (nothing on how gentlemen lived before, or on Warners teaching a class to live on one floor)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "van de architect die deftig Amsterdam leerde wonen op één verdieping.",
+    "new": "van de architect van wat vaak het eerste flatgebouw van Nederland heet.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/De_Lairessestraat/Huize_Loma",
+    "evidence": "Huize Loma, het eerste echte appartementengebouw van Nederland. Architect Warners had in steden als Parijs en Wenen voorbeelden gezien, en paste het principe nu toe in Amsterdam. (nothing on how gentlemen lived before, or on Warners teaching a class to live on one floor)"
+   },
+   {
+    "field": "body",
+    "old": "Before the First World War a gentleman lived in a house, not on a floor. F.A. Warners changed that. He had seen",
+    "new": "F.A. Warners had seen",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/De_Lairessestraat/Huize_Loma",
+    "evidence": "Huize Loma, het eerste echte appartementengebouw van Nederland. Architect Warners had in steden als Parijs en Wenen voorbeelden gezien, en paste het principe nu toe in Amsterdam. (nothing on how gentlemen lived before, or on Warners teaching a class to live on one floor)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Voor de Eerste Wereldoorlog woonde een heer in een huis, niet op een etage. F.A. Warners bracht daar verandering in. Hij had",
+    "new": "F.A. Warners had",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/De_Lairessestraat/Huize_Loma",
+    "evidence": "Huize Loma, het eerste echte appartementengebouw van Nederland. Architect Warners had in steden als Parijs en Wenen voorbeelden gezien, en paste het principe nu toe in Amsterdam. (nothing on how gentlemen lived before, or on Warners teaching a class to live on one floor)"
+   },
+   {
+    "field": "body",
+    "old": "- the five-sided bays that climb from the basement to the roof on the corner blocks",
+    "new": "- the five-sided bays that climb from the basement on the corner blocks",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505891",
+    "evidence": "Aan de voorzijde bevindt zich in de middelste travee een vanaf het souterrain omhooglopende vijfzijdige erker (not said to reach the roof)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de vijfzijdige erkers die bij de hoekblokken van het souterrain tot het dak doorlopen",
+    "new": "- de vijfzijdige erkers die bij de hoekblokken al in het souterrain beginnen en omhoog klimmen",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505891",
+    "evidence": "vanaf het souterrain omhooglopende vijfzijdige erker"
+   },
+   {
+    "field": "body",
+    "old": "- the dark, glazed brick of the plinth",
+    "new": "- the dark clinker bricks of the plinth",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505891",
+    "evidence": "op een sokkel van gesmoorde Groningse klinkers (smoked, not glazed); NL 'donkere klinkers' already said this"
+   }
+  ],
+  "patch": {
+   "summary": "A block of sixteen flats from 1920–1923, folded around its own front garden, by the architect of what is often called the first Dutch block of flats. The banker who commissioned it moved in with his wife, a painter.",
+   "translations": {
+    "nl": {
+     "summary": "Een flat met zestien woningen uit 1920–1923, om een eigen voortuin gevouwen, van de architect van wat vaak het eerste flatgebouw van Nederland heet. De bankier die het liet bouwen, trok er zelf in met zijn vrouw, een schilderes.",
+     "body": "F.A. Warners had in Parijs en Wenen appartementengebouwen gezien en bouwde in 1914 aan het andere eind van deze straat Huize Loma, dat vaak het eerste flatgebouw van Nederland wordt genoemd. Westhove, aan dit eind, is een van de etagehuizen die erop volgden: zestien woningen in een U om een gezamenlijke voortuin, met in de middenvleugel een poort naar een binnenterrein.\n\nOpdrachtgever was mr. H.K. Westendorp, bankier en kunstkenner, die als student het blad Propria Cures had opgericht. Hij ging er zelf wonen met zijn vrouw Betsy Westendorp-Osieck, schilderes uit de kring van de Amsterdamse Joffers.\n\nHet toegangsstraatje is geen openbare weg, en daarom is Westhove ook geen officiële straatnaam. Kijk naar binnen bij de poorten aan de De Lairessestraat en de Jan van Goyenkade.\n\nLet op:\n- het gesneden houtwerk bij beide ingangen, met een geel bordje waarop WESTHOVE is geschilderd\n- de vijfzijdige erkers die bij de hoekblokken al in het souterrain beginnen en omhoog klimmen\n- de bronskleurige betonrand langs het dak, met hijsbalken erin\n- de poort in de middenvleugel\n- de driehoekig geknikte vensters in de zijvleugels\n- de donkere klinkers van de sokkel en het siermetselwerk bij het souterrain"
+    }
+   },
+   "body": "F.A. Warners had seen apartment buildings in Paris and Vienna, and in 1914 he built Huize Loma at the far end of this street, often called the first Dutch block of flats. Westhove, at the near end, is one of the series that followed: sixteen flats in a U around a shared front garden, with a gateway in the middle wing to a court behind.\n\nThe client was H.K. Westendorp, a banker and art connoisseur who as a student had founded the Amsterdam student paper Propria Cures. He moved in himself with his wife Betsy Westendorp-Osieck, a painter of the circle known as the Amsterdamse Joffers.\n\nThe little access road is private ground, which is why Westhove is not an official street name. Look in from the gates on the De Lairessestraat and the Jan van Goyenkade.\n\nLook for:\n- the carved wooden panels at both gates, with a yellow sign painted WESTHOVE\n- the five-sided bays that climb from the basement on the corner blocks\n- the bronze-coloured concrete band along the roofline, with hoisting beams let into it\n- the arched gateway in the middle wing\n- the triangular bay windows on the side wings\n- the dark clinker bricks of the plinth and the patterned brickwork at basement level"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "sclpnelfkiz51jjt3fzfn3ck",
+  "title": "Willemspark pumping station, the steam pump that kept the Vondelpark dry",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A striped brick chalet between the shopfronts of the Amstelveenseweg.",
+    "new": "A striped brick chalet on the Amstelveenseweg.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505638",
+    "evidence": "Amstelveenseweg 115 ... donkerbruine baksteen afgewisseld met in gele baksteen uitgevoerde speklagen ... invloeden van de chalet-stijl (no source on shopfronts)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een gestreept bakstenen chalet tussen de winkelpuien van de Amstelveenseweg.",
+    "new": "Een gestreept bakstenen chalet aan de Amstelveenseweg.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505638",
+    "evidence": "Amstelveenseweg 115"
+   },
+   {
+    "field": "summary",
+    "old": "because both lie far below the streets around them.",
+    "new": "because both lie lower than the streets around them.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Binnendijkse_Buitenvelderse_polder",
+    "evidence": "Zowel het Vondelpark als het Sarphatipark zijn bij de aanleg niet opgehoogd en op het polderpeil blijven liggen, terwijl de omliggende woonwijken zijn opgehoogd"
+   },
+   {
+    "field": "nl.summary",
+    "old": "want die liggen allebei veel lager dan de straten eromheen.",
+    "new": "want die liggen allebei lager dan de straten eromheen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Binnendijkse_Buitenvelderse_polder",
+    "evidence": "terwijl de omliggende woonwijken zijn opgehoogd"
+   },
+   {
+    "field": "body",
+    "old": "Left alone, it floods.",
+    "new": "So it needs pumping of its own.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Binnendijkse_Buitenvelderse_polder",
+    "evidence": "daarom was een aparte bemaling noodzakelijk"
+   },
+   {
+    "field": "nl.body",
+    "old": "Zonder pomp loopt die kom vol.",
+    "new": "Daarom moet er apart worden bemalen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Binnendijkse_Buitenvelderse_polder",
+    "evidence": "daarom was een aparte bemaling noodzakelijk"
+   },
+   {
+    "field": "body",
+    "old": "who had also planned the Willemspark villa district.",
+    "new": "who had also planned the Willemspark villa district.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Willemspark_(Amsterdam)",
+    "evidence": "[door J.G.] van Niftrik gepland als villapark rondom vijvers die doorlopen in het Vondelpark"
+   },
+   {
+    "field": "body",
+    "old": "It is not open; the front is on the pavement.",
+    "new": "The front is on the pavement.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amstelveenseweg/Gemaal_Willemspark",
+    "evidence": "(no source on access)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Je kunt er niet in; de voorgevel staat aan de stoep.",
+    "new": "De voorgevel staat aan de stoep.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amstelveenseweg/Gemaal_Willemspark",
+    "evidence": "(no source on access)"
+   }
+  ],
+  "patch": {
+   "summary": "A striped brick chalet on the Amstelveenseweg. From 1883 a Stork steam engine in here pumped the Vondelpark and the new villa park dry, because both lie lower than the streets around them.",
+   "translations": {
+    "nl": {
+     "summary": "Een gestreept bakstenen chalet aan de Amstelveenseweg. Vanaf 1883 pompte een stoommachine van Stork hier het Vondelpark en het nieuwe villapark droog, want die liggen allebei lager dan de straten eromheen.",
+     "body": "Het Vondelpark is een polder. Bij de aanleg is de grond niet opgehoogd, bij de wijken eromheen later wel. Park en villabuurt liggen daardoor in een kom, met een waterpeil van ongeveer 2,40 meter onder Amsterdams peil. Daarom moet er apart worden bemalen.\n\nDit gebouwtje was de oplossing. De bouwtekeningen gingen in september 1883 naar de aannemer, ondertekend door stadsingenieur J.G. van Niftrik, de man die ook het villapark Willemspark had ontworpen. Een stoommachine met ketel van Stork uit Hengelo dreef een pomp aan die zo'n 325 liter per seconde aankon. Het water ging de kom uit, richting Schinkel. Boven woonde de machinist, links stond een kolenloods. In 1907 is het hele gebouw een halve meter omhoog gevijzeld en op een nieuwe gemetselde voet gezet. In 1914 betaalde de bouwonderneming van het Willemspark de gemeente ƒ 150.000 om het bemalen voorgoed over te nemen; de stoommachine maakte plaats voor een elektrische pomp. Tegenwoordig doet een nieuwer gemaal aan de Sophialaan, aan de rand van de vijver, het werk.\n\nHet pomphuis staat er nog, zonder schoorsteen en kolenloods. De voorgevel staat aan de stoep.\n\nLet op:\n- de donkere baksteen met banden van gele steen\n- het overstekende chaletdak met een sierspant van hout in de top\n- de twee hoge boogdeuren, een in het hoofdgebouw en een in de lage zijvleugel\n- de drie ijzeren ramen met ronde bovenkant in de zijgevel"
+    }
+   },
+   "body": "The Vondelpark is a polder. When it was laid out the ground was not raised, and the streets around it later were, so the park and the villa district beside it sit in a bowl with a water level about 2.4 metres below the city's datum. So it needs pumping of its own.\n\nThis little building was the answer. Drawings for it were handed to the contractor in September 1883, signed by the city engineer J.G. van Niftrik, who had also planned the Willemspark villa district. A steam engine and boiler by Stork of Hengelo drove a pump that could shift about 325 litres a second, out of the bowl and off to the Schinkel. The engine driver lived upstairs; a coal shed stood to the left. In 1907 the whole building was jacked up half a metre onto a new brick footing. In 1914 the developers of the Willemspark paid the city ƒ 150,000 to take over the pumping for good, and the steam engine made way for an electric pump. A newer pumping station on the Sophialaan, at the edge of the pond, does the work now.\n\nThe pump house still stands, without its chimney and coal shed. The front is on the pavement.\n\nLook for:\n- the dark brick striped with bands of yellow brick\n- the overhanging chalet roof with a decorative timber truss in the gable\n- the two tall arched doorways, one in the main block and one in the lower side wing\n- the three round-topped iron windows in the side wall"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Willemspark_(Amsterdam)"
+  ]
+ }
+]

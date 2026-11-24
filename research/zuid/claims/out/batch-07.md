@@ -133,3 +133,17 @@
 - Huize Lydia: "the building he is remembered for" is backed by Wikipedia ("Zijn bekendste bouwwerk is waarschijnlijk Huize Lydia"), marked sourced, no text change.
 - De Roos: the walk-in tea house line was replaced by the café from the current site; whether the glass conservatory is visible again after the 2024 to 2026 refit is still unconfirmed (existing check_note left).
 - Margot Frank: the reason she left the Girls' Lyceum in 1941 and her move to the Jewish Lyceum are true but in none of the listed sources; cut. Re-add with a source (for example the Anne Frank House) if wanted.
+
+## Verification
+
+All 102 changes checked: every patch field equals the original text with the listed changes applied (no other edits), no em dashes or spaced en dashes, titles unchanged. The three "sourced" changes were confirmed by fetching the source: De Lairessestraat 39 (adgrimmon.nl: "de opdracht afkomstig was van een Joodse familie", "diamantair Soesman Konijn", house De Lairessestraat 39), Dice houses (nl.wikipedia Philip Anne Warners: "de uitgever Allert de Lange"), Huize Lydia (nl.wikipedia Jan Boterenbrood: "Zijn bekendste bouwwerk is waarschijnlijk Huize Lydia"). Narrowed texts that state a corrected fact were checked against the fetched source: DDT666 (only remaining original Dr. Rat, Hondecoeterstraat), De Lairessestraat 33-51 (noordwand), Gabriël Metsustraat (Saab from 1968), Scheepvaartmuseum (scheepvaartkringen, 1.050.000 gulden), Harmoniehof (middenklasse), Pieter de Hoochstraat 80 (te huur en te koop), Jacob Obrechtstraat 2 (park side decoration identical to the front, south side only a few bands, Beirer as designer, Doodeheefver as resident), and the register quotes for the Dreesmannhuis, ANWB office, Johannes Vermeerstraat, Klinkhamer, Jan Luijkenstraat, Hacquartstraat, Honthorststraat, Vossiusstraat, Huize Lydia and Huize Loma.
+
+Rejected:
+- De Roos [body, nl.body]: the replacement sentence ("Today De Roos also runs an organic café besides its yoga and pilates classes") was a new fact (roos.nl only has "organic food" in its meta description and "organic cafe" as a keyword). Changed to a cut of the walk-in tea house line. Note: the earlier sentence "a centre for yoga and courses with a tea house" still stands and rests on the 2016 page only.
+
+Fixed:
+- Concertgebouwplein 3-13 [body, nl.body]: removed the added "Pander interior of the 1930s at number 7" (new fact); now "partly for its interiors." / "mede om de interieurs."
+- Villa Klatte [body, nl.body]: removed the added "Frisian" / "Friese" (new detail).
+- DDT666 [nl.body]: "De enige echte Dr. Rat die Amsterdam nog over heeft" -> "De enige originele graffiti van Dr. Rat die Amsterdam nog heeft", to match the EN "only original Dr. Rat graffiti left".
+- Former ANWB office [nl.summary]: "villa's van rond 1900" -> "villa's van begin twintigste eeuw", to match the EN and the register ("begin van de 20ste eeuw").
+- Harmoniehof [nl.summary]: "middenstand" -> "middenklasse" (the source word; middenstand means shopkeepers, not the middle class of the EN).

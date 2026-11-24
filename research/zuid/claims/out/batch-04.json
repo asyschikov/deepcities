@@ -1,0 +1,1944 @@
+[
+ {
+  "id": "odzemquiwlg0dgkj52qfi9si",
+  "title": "Martin Luther King, the statue that came without a permit",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The park is always open. Every summer the Parade theatre festival fills part of it.",
+    "new": "Every year the Parade theatre festival fills part of it.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Martin_Luther_Kingpark",
+    "evidence": "Opening hours are in no source; the park article says only \"In het park wordt sinds 1990 jaarlijks de Parade gehouden\" (yearly, no season)."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het park is altijd open. Elke zomer staat een deel ervan vol met theaterfestival de Parade.",
+    "new": "Elk jaar staat een deel ervan vol met theaterfestival de Parade.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Martin_Luther_Kingpark",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "The Martin Luther King in the park named after him was not commissioned. On 15 January 2020, King's birthday, the Amsterdam artist Airco Caravan brought a bronze of 1.20 metres into the park and fixed it in place with a concrete drill. She expected to be stopped. Nobody came.\n\nThe park has carried King's name since 1968, the year he was murdered; before that it was the Amstelpark. In 2018, fifty years on, the artist had set a small King at the entrance, one of fifty identical statuettes in a guerrilla project. After that she and the city district talked about a permanent statue, on a spot to be chosen with neighbours and park users. Then nothing more was heard, so she paid for the bronze herself and placed it.\n\nA few months later, after questions from a council member, the city approved it. On 5 July 2020 it was unveiled officially after all, by Harcourt Klinefelter, who had been King's press officer and walked along from Selma to Montgomery in 1965 with a tape recorder.\n\nEvery year the Parade theatre festival fills part of it.\n\nLook for:\n- the quotation on King's back, on the silence of the good people\n- in the part of the park along the Amstel, Willem Reijers's Engel (1949): a white limestone angel on dark granite, enlarged from a small \"apparition\" he made in 1945. It came back to the park in 2005",
+   "translations": {
+    "nl": {
+     "body": "Om de Martin Luther King in het park dat naar hem heet, heeft niemand gevraagd. Op 15 januari 2020, de geboortedag van King, bracht de Amsterdamse kunstenaar Airco Caravan een bronzen beeld van 1,20 meter het park in en zette het met een betonboor vast. Ze rekende erop dat iemand haar zou tegenhouden. Er kwam niemand.\n\nHet park draagt Kings naam sinds 1968, het jaar waarin hij werd vermoord; daarvoor heette het Amstelpark. In 2018, vijftig jaar later, had de kunstenaar al een klein beeldje bij de ingang gezet, een van vijftig dezelfde beeldjes in een guerrilla-actie. Daarna praatte ze met het stadsdeel over een blijvend beeld, op een plek die met omwonenden en parkbezoekers zou worden gekozen. Toen bleef het stil. Ze betaalde het brons zelf en plaatste het.\n\nEen paar maanden later, na vragen van een raadslid, keurde de gemeente het alsnog goed. Op 5 juli 2020 is het toch nog officieel onthuld, door Harcourt Klinefelter, die perschef van King was en in 1965 met een bandrecorder meeliep van Selma naar Montgomery.\n\nElk jaar staat een deel ervan vol met theaterfestival de Parade.\n\nLet op:\n- het citaat op de rug van King, over het zwijgen van de goede mensen\n- in het deel van het park langs de Amstel: de Engel van Willem Reijers (1949), wit kalksteen op donker graniet, een vergroting van een kleine 'Spookverschijning' die hij in 1945 maakte. Sinds 2005 staat hij weer in het park"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "a3htxw8cp92cvg5l94844z5b",
+  "title": "Rivierstaete, the Monkey Rock that lost its tiles",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the Spyker works that built coaches, cars and aircraft stood here",
+    "new": "the Spyker car factory stood here",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsteldok",
+    "evidence": "\"Aan het begin van de 20e eeuw was hier de automobielfabriek van Spyker\"; coaches and aircraft are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "hier stond de fabriek van Spyker, waar rijtuigen, auto's en vliegtuigen werden gebouwd,",
+    "new": "hier stond de autofabriek van Spyker,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsteldok",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "It is an office without public rooms.",
+    "new": "It is an office building.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsteldok",
+    "evidence": "No source says whether it has public rooms; the article calls it \"een groot kantoorgebouw\"."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is een kantoor zonder publieke ruimten.",
+    "new": "Het is een kantoorgebouw.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsteldok",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "four steel columns at 45 degrees",
+    "new": "four metal columns at 45 degrees",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsteldok",
+    "evidence": "\"een metalen sculptuur (Vier kolommen onder een hoek van 45 graden)\"; steel is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "vier stalen kolommen",
+    "new": "vier metalen kolommen",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsteldok",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "For forty years this was the Apenrots (monkey rock): terraces of white tile stepping back from the Amstel, with narrow strips of window, in a neighbourhood of red brick. The Rotterdam architect Huig Maaskant built it between 1967 and 1973 as Rivierstaete, for 40 million guilders. A newspaper of the day called it the largest office building in Europe. The nickname came almost at once.\n\nThe ground has a history of its own: the Spyker car factory stood here, and after it a paper factory that was wound up in 1968. Later tenants of the office included the consulates of Peru and Ivory Coast and the computer departments of the university.\n\nThe building was never pulled down, but it no longer looks like itself. From 2016 the white tiles and the low windows were stripped and replaced by glass from floor to ceiling, and a storey with a roof terrace was added. The advertising group WPP moved in, and since 2019 the building is called Amsteldok, because \"Rivierstaete\" recalled the closed, old-fashioned original too much.\n\nIt is an office building. The stepped shape reads best from the far bank of the Amstel or from the Berlagebrug.\n\nLook for:\n- the terraces, which are Maaskant's; the glass is not\n- on the Trompenburgstraat side, André Volten's \"Vier kolommen onder een hoek van 45 graden\" (1972): four metal columns at 45 degrees, 13 metres high",
+   "translations": {
+    "nl": {
+     "body": "Veertig jaar lang was dit de Apenrots: terrassen van witte tegels die van de Amstel af terugspringen, met smalle stroken raam, midden in een buurt van rode baksteen. De Rotterdamse architect Huig Maaskant bouwde het tussen 1967 en 1973 als Rivierstaete, voor veertig miljoen gulden. Een krant noemde het toen het grootste kantoorgebouw van Europa. De bijnaam kwam vrijwel direct.\n\nDe grond heeft een eigen verleden: hier stond de autofabriek van Spyker, en daarna een papierfabriek die in 1968 werd opgeheven. In het kantoor zaten later onder meer de consulaten van Peru en Ivoorkust en de computerafdelingen van de universiteit.\n\nGesloopt is het nooit, maar het lijkt niet meer op zichzelf. Vanaf 2016 zijn de witte tegels en de lage ramen weggehaald en vervangen door glas van vloer tot plafond, en er kwam een verdieping met dakterras bovenop. Reclameconcern WPP trok erin, en sinds 2019 heet het gebouw Amsteldok, omdat 'Rivierstaete' te veel aan het gesloten, ouderwetse origineel deed denken.\n\nHet is een kantoorgebouw. De trapvorm zie je het best vanaf de overkant van de Amstel of vanaf de Berlagebrug.\n\nLet op:\n- de terrassen: die zijn van Maaskant, het glas niet\n- aan de kant van de Trompenburgstraat 'Vier kolommen onder een hoek van 45 graden' (1972) van André Volten: vier metalen kolommen, dertien meter hoog"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "jkppgi0o6mrdohcx5jyvbck6",
+  "title": "Salomonson's villa on the Zuidelijke Wandelweg",
+  "changes": [
+   {
+    "field": "body",
+    "old": "- door and window frames in dark tropical hardwood",
+    "new": "- door and window frames in iroko, a West African hardwood",
+    "kind": "narrowed",
+    "source": "city:222301",
+    "evidence": "\"Rond de deur- en vensteropeningen is eveneens hardhout gebruikt, namelijk Iroko uit West-Afrika\"; \"dark\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "- deur- en raamkozijnen van donker tropisch hardhout",
+    "new": "- deur- en raamkozijnen van iroko, een hardhout uit West-Afrika",
+    "kind": "narrowed",
+    "source": "city:222301",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "The house turns its back on you, and that is the design. Hein Salomonson, who had studied in Vienna and worked for a few months in Le Corbusier's studio in Paris, drew it in 1968 for a family with four children and built it in 1969–1970. Towards the road it is a nearly blank wall of light brown brick, with the concrete floor slab showing as a band and a single swelling where the spiral stair stands inside. The glass is at the back, where the upper floor, clad in Brazilian hardwood, hangs far out over a sheltered terrace.\n\nOn the architect's advice the garden went to Mien Ruys. Her front yard is mostly a drive, but a designed one, and her hedge follows the line of the house rather than the road, to take the slant out of the street.\n\nSalomonson made more than 200 designs, some fifty houses among them, and not much of it survives. When the city listed this house in 2012, the wall cupboards, sliding doors and built-in corner sofa he designed were all still in place. He himself counted it among his best.\n\nThe plot is one of four that the city's extension plan set aside for detached houses on this last green stretch of the Zuidelijke Wandelweg. It is a private home: from the pavement you see the front and the entrance yard, and nothing of the interior.\n\nLook for:\n- the bulge in the front wall: the round stairwell behind it is lit by a glass dome\n- the band of concrete between the two brick storeys\n- door and window frames in iroko, a West African hardwood\n- the front yard: concrete slabs and granite setts laid in stripes\n- the low border with trees on the north-east point of the plot, and the hedge cutting through it",
+   "translations": {
+    "nl": {
+     "body": "Het huis keert je de rug toe, en zo is het bedoeld. Hein Salomonson, die in Wenen had gestudeerd en een paar maanden bij Le Corbusier in Parijs werkte, tekende het in 1968 voor een gezin met vier kinderen; in 1969-1970 werd het gebouwd. Naar de weg is het een bijna blinde wand van lichtbruine baksteen. De betonnen verdiepingsvloer loopt er als een band doorheen en op één plek bolt de gevel op: daar staat binnen de wenteltrap. Het glas zit aan de achterkant, waar de verdieping, bekleed met Braziliaans hardhout, ver uitsteekt boven een beschut terras.\n\nOp aanraden van de architect ging de tuin naar Mien Ruys. Haar voortuin is vooral een oprit, maar wel een ontworpen oprit, en haar heg volgt de lijn van het huis in plaats van die van de weg, zodat de straat minder scheef lijkt te lopen.\n\nSalomonson maakte ruim 200 ontwerpen, waaronder een vijftigtal woonhuizen, en daar is niet veel van over. Toen de gemeente dit huis in 2012 op de monumentenlijst zette, zaten de kastenwanden, de schuifdeuren en de ingebouwde hoekbank die hij ontwierp er allemaal nog in. Zelf rekende hij het tot zijn beste werk.\n\nDe kavel is een van de vier die het uitbreidingsplan bestemde voor vrijstaande huizen aan dit laatste groene stuk van de Zuidelijke Wandelweg. Het is een woonhuis: vanaf de stoep zie je de voorgevel en de voortuin, van het interieur niets.\n\nLet op:\n- de bolling in de voorgevel: het ronde trappenhuis erachter krijgt licht door een glazen koepel\n- de band van beton tussen de twee bakstenen bouwlagen\n- deur- en raamkozijnen van iroko, een hardhout uit West-Afrika\n- de voortuin: betontegels en granietkeien in een strepenpatroon\n- de lage border met bomen op de noordoostpunt van de kavel, met de heg die erdoorheen snijdt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "r54hqrxogjroogns9dv1h5ir",
+  "title": "The Giele Skull and the Paradiso field, Zorgvlied",
+  "changes": [
+   {
+    "field": "nl.body",
+    "old": "twintig witte volgauto's",
+    "new": "twintig witte rouwwagens",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Manfred_Langer",
+    "evidence": "\"een roze Chevrolet, daarachter twintig witte rouwwagens\"; the Dutch said follow cars, the English (hearses) already matched."
+   },
+   {
+    "field": "body",
+    "old": "an oven room only, as the farewell may be held anywhere in the park",
+    "new": "an oven room only, as the funeral service can be held wherever the family wishes",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "\"Het bevat slechts een technische ruimte waarin de crematieoven staat. De rouwdienst kan op elke gewenste plek gehouden worden.\" \"In the park\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "alleen een ovenruimte, want het afscheid mag overal in het park",
+    "new": "alleen een ovenruimte, want de rouwdienst kan worden gehouden waar de familie dat wil",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Open on weekdays 9.00 to 17.00, at weekends from 10.00.",
+    "new": "Open on weekdays 9.00 to 17.00, at weekends from 10.00.",
+    "kind": "sourced",
+    "source": "https://zorgvlied.amstelveen.nl/contact-en-openingstijden",
+    "evidence": "\"Openingstijden park Maandag tot en met vrijdag: 9.00 tot 17.00 uur Zaterdag en zondag: 10.00 tot 17.00 uur\""
+   }
+  ],
+  "patch": {
+   "body": "Among the stones of Zorgvlied lies a purple skull big enough to lie down in. It is the grave of Peter Giele (1954–1999), artist, poet and founder of the club RoXY, who died of a brain haemorrhage on his scooter. On the day of his funeral the RoXY burned down.\n\nThe Giele Trust, the foundation that keeps his legacy, asked Joep van Lieshout for a memorial that would stretch what a grave can be. He made a polyester cabin in the shape of a skull: with the keys, a visitor could open it and lie down inside, to think of the artist and of their own end. The cemetery did not want it among the classical graves. The Trust did not want it among the unconventional ones either. It was placed in August 2005, in the section De Peere.\n\nOut of the quarrel came Paradiso, a field set apart for monuments of unusual shape, where the singer Herman Brood and the Provo Robert Jasper Grootveld lie. The change had begun earlier, with the funeral in 1994 of the club owner Manfred Langer: a pink Chevrolet, twenty white hearses and a place on the evening news.\n\nOpen on weekdays 9.00 to 17.00, at weekends from 10.00. The skull is locked; the keys are with family and friends.\n\nLook for:\n- Paradiso, some 200 metres west of the skull, and near it the Crematorion (2016): an oven room only, as the funeral service can be held wherever the family wishes\n- Langer in bronze, nearly life-size, a beer glass in his hand, near the office villa\n- the jetty where funerals arrive by boat",
+   "translations": {
+    "nl": {
+     "body": "Tussen de zerken van Zorgvlied ligt een paars doodshoofd waar een mens in past. Het is het graf van Peter Giele (1954–1999), kunstenaar, dichter en oprichter van club RoXY, die op zijn scooter een hersenbloeding kreeg. Op de dag van zijn begrafenis brandde de RoXY af.\n\nDe Stichting Giele Trust, die zijn nalatenschap beheert, vroeg Joep van Lieshout om een gedenkteken dat de grafcultuur zou oprekken. Hij maakte een polyester cabine in de vorm van een schedel: met de sleutels kon een bezoeker hem openen en erin gaan liggen, om de kunstenaar en de eigen sterfelijkheid te gedenken. De begraafplaats wilde hem niet tussen de klassieke graven. De stichting wilde hem ook niet tussen de alternatieve. In augustus 2005 kwam hij er toch, in het vak De Peere.\n\nUit dat meningsverschil kwam Paradiso voort, een apart veld voor grafmonumenten met een afwijkende vorm, waar zanger Herman Brood en provo Robert Jasper Grootveld liggen. De omslag was al eerder begonnen, in 1994, met de uitvaart van discotheekeigenaar Manfred Langer: een roze Chevrolet, twintig witte rouwwagens en een plek in het journaal.\n\nOpen op werkdagen van 9.00 tot 17.00 uur, in het weekend vanaf 10.00 uur. De schedel zit op slot; familie en vrienden hebben de sleutels.\n\nLet op:\n- Paradiso, zo'n 200 meter ten westen van de schedel, en vlak daarbij het Crematorion (2016): alleen een ovenruimte, want de rouwdienst kan worden gehouden waar de familie dat wil\n- Langer in brons, bijna levensgroot en met een bierglas in de hand, bij de kantoorvilla\n- de steiger waar uitvaarten per boot aankomen"
+    }
+   }
+  },
+  "sources_add": [
+   "https://zorgvlied.amstelveen.nl/contact-en-openingstijden"
+  ]
+ },
+ {
+  "id": "uvzz9hup48kf6sr5al7qei5f",
+  "title": "Utrechtsebrug, a sabbath chain and a steam ferry",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Piet Kramer designed the bridge with the French engineer Eugène Freyssinet, the pioneer of prestressed concrete. The technique cut",
+    "new": "Piet Kramer designed the bridge, with help from Eugène Freyssinet on the prestressed concrete. That technique cut",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "\"Het ontwerp van Piet Kramer (met hulp van Eugène Freyssinet in verband met het voorgespannen beton)\"; \"French engineer\" and \"the pioneer\" are in no linked source."
+   },
+   {
+    "field": "nl.body",
+    "old": "Piet Kramer ontwierp de brug samen met de Franse ingenieur Eugène Freyssinet, de pionier van het voorgespannen beton. Daardoor",
+    "new": "Piet Kramer ontwierp de brug, en Eugène Freyssinet hielp hem met het voorgespannen beton. Door die techniek",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "the other favourite was Dr. A. Plesmanbrug, after the founder of KLM.",
+    "new": "the other favourite was Dr. A. Plesmanbrug.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "The sources give only the two most-sent names; who Plesman was is not in them."
+   },
+   {
+    "field": "nl.body",
+    "old": "De andere favoriet was Dr. A. Plesmanbrug, naar de oprichter van de KLM.",
+    "new": "De andere favoriet was Dr. A. Plesmanbrug.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- Kramer's seat, a bench in a brick niche at the bridgehead",
+    "new": "- Kramer's seat, a remnant of his design and typical of his work",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "Photo caption: \"Een restant van Kramers ontwerp; het voor hem karakteristieke zitje\"; brick niche and bridgehead are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "- het zitje van Kramer, een bank in een bakstenen nis bij het bruggenhoofd",
+    "new": "- het zitje van Kramer, een overblijfsel van zijn ontwerp en typisch voor zijn werk",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the freerunning park under the approach",
+    "new": "- the freerunning park under the bridge",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "\"Onder de brug ligt het oudste freerunpark van Amsterdam uit 2013\"; \"the approach\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "- het freerunpark onder de oprit",
+    "new": "- het freerunpark onder de brug",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Utrechtsebrug",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "A 250-metre road bridge is an odd place for a religious boundary, but this one was built with one: the Jewish community of Amsterdam gave it a sabbath chain. Observant Jews may not carry anything on the sabbath outside an enclosed area, and the city counted as enclosed as long as every way in could, in theory, be shut. So the bridge got a chain, kept in a small box by one of the piers. It was never stretched across the road: it was enough that it could be. That boundary was given up in 1972; since 2008 a new one runs around Amstelveen and much of Amsterdam.\n\nPiet Kramer designed the bridge, with help from Eugène Freyssinet on the prestressed concrete. That technique cut the piers in the river from four to two. Traffic first crossed on 1 April 1954, when the motorway to Utrecht opened; the bridge was finished on 3 July. Het Parool let readers choose the name; the other favourite was Dr. A. Plesmanbrug.\n\nUntil then you crossed on the \"gas ferry\", a steam ferry that burned coke from the gasworks on the far bank. It stopped on 1 June 1956.\n\nWalk or cycle over, or pass underneath on the Amsteldijk.\n\nLook for:\n- Kramer's seat, a remnant of his design and typical of his work\n- the two piers in the river, where four were first planned\n- the freerunning park under the bridge\n- the name plate on the railing: \"Utrechtse Brug\"",
+   "translations": {
+    "nl": {
+     "body": "Een verkeersbrug van 250 meter is een vreemde plek voor een religieuze grens, maar deze is ermee gebouwd: de Joodse gemeente van Amsterdam schonk er een sjabbatketting bij. Vrome Joden mogen op sjabbat buiten een afgesloten gebied niets dragen, en de stad gold als afgesloten zolang elke toegang in theorie dicht kon. De brug kreeg dus een ketting, opgeborgen in een kastje bij een van de pijlers. Over de weg gespannen is hij nooit: het was genoeg dat het kon. Die eroev is in 1972 opgegeven; sinds 2008 ligt er een nieuwe om Amstelveen en een groot deel van Amsterdam.\n\nPiet Kramer ontwierp de brug, en Eugène Freyssinet hielp hem met het voorgespannen beton. Door die techniek konden er twee pijlers in de rivier staan in plaats van vier. Op 1 april 1954 reed het eerste verkeer eroverheen, bij de opening van de rijksweg naar Utrecht; op 3 juli was de brug af. Het Parool liet lezers de naam kiezen. De andere favoriet was Dr. A. Plesmanbrug.\n\nTot dan stak je hier over met de gaspont, een stoompont die op cokes van de gasfabriek aan de overkant voer. Op 1 juni 1956 was het daarmee gedaan.\n\nLoop of fiets eroverheen, of ga er over de Amsteldijk onderdoor.\n\nLet op:\n- het zitje van Kramer, een overblijfsel van zijn ontwerp en typisch voor zijn werk\n- de twee pijlers in de rivier, waar er eerst vier waren gepland\n- het freerunpark onder de brug\n- het naambord op de leuning: \"Utrechtse Brug\""
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "uawlwpx1qhep77yfi7yg6xei",
+  "title": "Vrijheidslaan south side, Kramer and Marnette",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Across the avenue from Michel de Klerk's last housing stands the work of his friend Piet Kramer",
+    "new": "Across the avenue from Michel de Klerk's housing stands the work of his friend Piet Kramer",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Michel_de_Klerk",
+    "evidence": "No linked source says the north side was his last housing. \"His friend\" is sourced: \"De opdracht van De Bijenkorf werd overgenomen door zijn vriend en collega Piet Kramer\"."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Tegenover de laatste woningen van Michel de Klerk staat",
+    "new": "Tegenover de woningen van Michel de Klerk staat",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Michel_de_Klerk",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "from just past the Amsteldijk to the Vechtstraat",
+    "new": "from no. 9 to the Vechtstraat",
+    "kind": "narrowed",
+    "source": "city:200018",
+    "evidence": "The listings give the numbers (Vrijheidslaan 9-43, 45-51, 53-77) but no source says the row starts just past the Amsteldijk."
+   },
+   {
+    "field": "nl.body",
+    "old": "van vlak na de Amsteldijk tot de Vechtstraat",
+    "new": "van nummer 9 tot de Vechtstraat",
+    "kind": "narrowed",
+    "source": "city:200018",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Amstel's Bouwvereeniging, the combine of private builders that filled this corner of Plan Zuid",
+    "new": "Amstel's Bouwvereeniging, the combine of private builders that filled this corner of Plan Zuid",
+    "kind": "sourced",
+    "source": "https://www.joodsamsterdam.nl/merwedeplein/",
+    "evidence": "\"dit werd in erfpacht uitgegeven aan Amstels Bouwvereniging. Deze organisatie bouwde tot aan 1925 1739 kleine en gebrekkige woningen. Zestien participanten van de vereniging...\"; city:222242 calls the block \"particuliere woningbouw\"."
+   },
+   {
+    "field": "body",
+    "old": "who also designed the city's standard lamp post of 1924",
+    "new": "who also designed the much-used lamp post P.W. '24",
+    "kind": "narrowed",
+    "source": "city:222242",
+    "evidence": "\"straatmeubilair, waaronder de veel toegepaste lantaarnpaal P.W. '24\"; \"standard\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "die ook de standaard Amsterdamse lantaarnpaal van 1924 ontwierp",
+    "new": "die ook de veel gebruikte lantaarnpaal P.W. '24 ontwierp",
+    "kind": "narrowed",
+    "source": "city:222242",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "Across the avenue from Michel de Klerk's housing stands the work of his friend Piet Kramer, the city's bridge designer: a street wall of 1922 with bay-like bulges, rippling brickwork under the eaves and stairwells glazed in purple.",
+   "body": "Piet Kramer is the man of Amsterdam's bridges: about 220 of them. Here he built houses. The south wall of the Vrijheidslaan, from no. 9 to the Vechtstraat, went up in 1922–1923 for Amstel's Bouwvereeniging, the combine of private builders that filled this corner of Plan Zuid. Kramer drew the long block at nos. 9–43 and, together with his Public Works colleague Piet Marnette, the corner past the Kromme Mijdrechtstraat. Marnette, who also designed the much-used lamp post P.W. '24, did the rest up to the Vechtstraat.\n\nKramer and Michel de Klerk had built the housing complex De Dageraad together a few years earlier. On this avenue they face each other: De Klerk's stepped balconies on the north side, and on the south Kramer's calmer front, where flat and bulging stretches take turns and the movement is saved for the doorways and the roofline. When the city listed Kramer's block in 1980, its report ended by saying that the building's beauty was reason enough.\n\nThe avenue was one of the main axes of Berlage's plan, aimed at the bridge over the Amstel. All of it is lived in, and the middle of the avenue gives the best view. This place is pinned on Kramer's block, nos. 9–43.\n\nLook for:\n- nos. 9–43: the bay-like bulges of the front and the sunken doorways framed in stone\n- the top floor of that block: a row of small windows with brickwork that ripples between them, under an edge of roof tiles\n- the corner with the Kromme Mijdrechtstraat (nos. 45–51), where the two architects worked together\n- nos. 53–77: pairs of tall stairwell windows with ladder glazing in purple glass, and two triangular windows above each pair\n- the corner with the Vechtstraat, built as a café: half a storey higher and cut off at an angle\n- the hoisting beams under the eaves",
+   "translations": {
+    "nl": {
+     "summary": "Tegenover de woningen van Michel de Klerk staat het werk van zijn vriend Piet Kramer, de bruggenbouwer van de stad: een straatwand uit 1922 met erkerachtige uitstulpingen, golvend metselwerk onder de dakrand en trappenhuizen met paars glas.",
+     "body": "Piet Kramer is de man van de Amsterdamse bruggen: een stuk of 220. Hier bouwde hij huizen. De zuidwand van de Vrijheidslaan, van nummer 9 tot de Vechtstraat, kwam in 1922-1923 tot stand voor Amstel's Bouwvereeniging, het verband van particuliere bouwers dat deze hoek van Plan Zuid volzette. Kramer tekende het lange blok op de nummers 9-43 en, samen met Piet Marnette, zijn collega bij Publieke Werken, de hoek voorbij de Kromme Mijdrechtstraat. Marnette, die ook de veel gebruikte lantaarnpaal P.W. '24 ontwierp, deed de rest tot aan de Vechtstraat.\n\nKramer en Michel de Klerk hadden een paar jaar eerder samen woningcomplex De Dageraad gebouwd. Aan deze laan staan ze tegenover elkaar: aan de noordkant de verspringende balkons van De Klerk, aan de zuidkant de rustiger gevel van Kramer, waarin vlakke en bollende stukken elkaar afwisselen en de beweging is bewaard voor de ingangen en de daklijn. Toen de gemeente het blok van Kramer in 1980 op de monumentenlijst zette, eindigde het advies met de vaststelling dat de schoonheid van het gebouw reden genoeg was.\n\nDe laan was een van de hoofdassen in het plan van Berlage, gericht op de brug over de Amstel. Overal wordt gewoond; vanaf het midden van de laan zie je het het best. De pin staat op het blok van Kramer, nummers 9-43.\n\nLet op:\n- nummers 9-43: de erkerachtige uitstulpingen van de gevel en de verdiepte ingangen in een lijst van natuursteen\n- de bovenste verdieping van dat blok: een rij kleine ramen met daartussen metselwerk dat golft, onder een rand van dakpannen\n- de hoek met de Kromme Mijdrechtstraat (nummers 45-51), waar de twee architecten samenwerkten\n- nummers 53-77: telkens twee hoge trappenhuisramen met ladderroeden en paars glas, en daarboven twee driehoekige raampjes\n- de hoek met de Vechtstraat, gebouwd als café: een halve verdieping hoger en schuin afgesneden\n- de hijsbalken onder de dakrand"
+    }
+   }
+  },
+  "sources_add": [
+   "https://www.joodsamsterdam.nl/merwedeplein/",
+   "https://nl.wikipedia.org/wiki/Michel_de_Klerk"
+  ]
+ },
+ {
+  "id": "baepsfj5rwmkm35aozjwfgjw",
+  "title": "Zorgvlied cemetery",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Amsterdam's best-known cemetery belongs to Amstelveen: a landscape park of 1870 on the Amstel, with a circus director's Roman temple, an angel under a slate roof and gates lettered in Amsterdam School iron.",
+    "new": "This Amsterdam cemetery belongs to Amstelveen: a landscape park of 1870 on the Amstel, with a circus director's Roman temple, an angel under a slate roof and gates with Amsterdam School lanterns and wrought-iron letters.",
+    "kind": "narrowed",
+    "source": "rce:530059",
+    "evidence": "No source calls it the best-known cemetery (Wikipedia: \"al snel een begraafplaats voor de elite\"). The gates: \"lantaarn in Amsterdamse School-stijl\" and \"Expressionistische smeedijzeren letters\"."
+   },
+   {
+    "field": "nl.summary",
+    "old": "De bekendste begraafplaats van Amsterdam is van Amstelveen: een landschapspark uit 1870 aan de Amstel, met het Romeinse tempeltje van een circusdirecteur, een engel onder een leien dak en hekken met letters in Amsterdamse Schoolsmeedwerk.",
+    "new": "Deze Amsterdamse begraafplaats is van Amstelveen: een landschapspark uit 1870 aan de Amstel, met het Romeinse tempeltje van een circusdirecteur, een engel onder een leien dak en hekken met lantaarns in Amsterdamse Schoolstijl en smeedijzeren letters.",
+    "kind": "narrowed",
+    "source": "rce:530059",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "The best-known cemetery in Amsterdam is not Amsterdam's.",
+    "new": "This cemetery in Amsterdam is not Amsterdam's.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "Superlative in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "De bekendste begraafplaats van Amsterdam is niet van Amsterdam.",
+    "new": "Deze begraafplaats in Amsterdam is niet van Amsterdam.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "It became the cemetery of the well-to-do, and of actors, writers and musicians: Herman Brood, Wim Duisenberg and Bobby Farrell of Boney M. lie here.",
+    "new": "It became the cemetery of the well-to-do, and of many actors and writers. Herman Brood, Wim Duisenberg and the singer Bobby Farrell lie here too.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "\"Zorgvlied werd al snel een begraafplaats voor de elite... Er liggen veel bekende toneelspelers en schrijvers begraven\"; the list has \"Bobby Farrell, zanger\" and Duisenberg as minister and ECB head, so \"musicians\" with Duisenberg in it and \"of Boney M.\" go."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het werd de begraafplaats van de gegoede burgerij, en van toneelspelers, schrijvers en musici: Herman Brood, Wim Duisenberg en Bobby Farrell van Boney M. liggen hier.",
+    "new": "Het werd de begraafplaats van de gegoede burgerij, en van veel toneelspelers en schrijvers. Ook Herman Brood, Wim Duisenberg en zanger Bobby Farrell liggen hier.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Eight old graves are national monuments, most of them in section O-I near the main entrance.",
+    "new": "Eight old graves are national monuments, most of them in section O-I.",
+    "kind": "cut",
+    "source": "rce:530061",
+    "evidence": "The register gives the grave numbers (seven of eight in O-I) but no source places that section near the main entrance."
+   },
+   {
+    "field": "nl.body",
+    "old": "Acht oude graven zijn rijksmonument, de meeste in vak O-I bij de hoofdingang.",
+    "new": "Acht oude graven zijn rijksmonument, de meeste in vak O-I.",
+    "kind": "cut",
+    "source": "rce:530061",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the gates of 1926: brick piers, gilded cone lanterns",
+    "new": "- the gates of 1926: brick piers, gold-coloured cone lanterns",
+    "kind": "narrowed",
+    "source": "rce:530059",
+    "evidence": "\"een goudkleurige kegelvormige lantaarn\"; gilding is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "vergulde kegellantaarns",
+    "new": "goudkleurige kegellantaarns",
+    "kind": "narrowed",
+    "source": "rce:530059",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the villa of 1869, with its first stone beside the steps; it served",
+    "new": "- the villa of 1869, whose first stone the mayor laid; it served",
+    "kind": "narrowed",
+    "source": "rce:530058",
+    "evidence": "\"De burgemeester van de gemeente Amstelveen legde in 1869 de eerste steen\"; where the stone sits is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "- de villa uit 1869, met de eerste steen naast de trap; tot 1931",
+    "new": "- de villa uit 1869, waarvan de burgemeester de eerste steen legde; tot 1931",
+    "kind": "narrowed",
+    "source": "rce:530058",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "she left her fortune to found homes for ladies of standing",
+    "new": "she left her fortune to a foundation for ladies of standing",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Grafmonument_van_Elisabeth_Otter-Knoll",
+    "evidence": "Her will named as sole heir \"een stichting voor dames uit de deftige stand\"; homes are not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "zij liet haar vermogen na aan tehuizen voor dames van stand",
+    "new": "zij liet haar vermogen na aan een stichting voor dames van stand",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Grafmonument_van_Elisabeth_Otter-Knoll",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- 't Lalibellum (2012, landscape architect Ada Wille): a half-sunken vault for some 2,200 graves under twelve terraces, named after the rock-cut churches of Lalibela in Ethiopia and built because the cemetery was full; nobody goes in, the names are on the risers of the steps",
+    "new": "- 't Lalibellum (2012): a mausoleum with burial vaults",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "The only source: \"In 2012 werd aan de noordzijde 't Lalibellum geopend, een mausoleum met grafkelders.\" Designer, number of graves, terraces, name origin, reason and the names on the steps are in no source. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- 't Lalibellum (2012, landschapsarchitect Ada Wille): een half verzonken grafkelder voor ruim 2200 graven onder twaalf terrassen, genoemd naar de rotskerken van Lalibela in Ethiopië en gebouwd omdat de begraafplaats vol lag; je kunt er niet in, de namen staan op de treden",
+    "new": "- 't Lalibellum (2012): een mausoleum met grafkelders",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)",
+    "evidence": "Same change in Dutch. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "attributes.listed",
+    "old": 2007,
+    "new": 2008,
+    "kind": "narrowed",
+    "source": "rce:530057",
+    "evidence": "The register entries read \"Inschrijving register 10 maart 2008\"; Wikipedia: \"Op 10 maart 2008 ... toegevoegd aan de monumentenlijst\"."
+   }
+  ],
+  "patch": {
+   "summary": "This Amsterdam cemetery belongs to Amstelveen: a landscape park of 1870 on the Amstel, with a circus director's Roman temple, an angel under a slate roof and gates with Amsterdam School lanterns and wrought-iron letters.",
+   "body": "This cemetery in Amsterdam is not Amsterdam's. The village of Nieuwer-Amstel (today's Amstelveen) opened Zorgvlied on 1 November 1870, on the grounds of a vanished country house on the Amstel. The city has long since grown around it, but Amstelveen still owns and runs the place, and its coat of arms sits on the gate piers and above the door of the office villa.\n\nJan David Zocher drew the oldest part as an English landscape park with winding paths. His son extended it in 1892, and further extensions followed until 1931. It became the cemetery of the well-to-do, and of many actors and writers. Herman Brood, Wim Duisenberg and the singer Bobby Farrell lie here too.\n\nEight old graves are national monuments, most of them in section O-I. The showpiece is the small Roman temple of the circus director Oscar Carré, designed in 1891 by the architects of his circus theatre on the Amstel. He built it for his first wife Amalia, a horsewoman in his circus, who was killed in a train accident in Germany. The family enlarged it before Oscar himself was laid in it in 1912.\n\nThe park is open on weekdays from 9.00 to 17.00, at weekends from 10.00 and on public holidays from 11.00. Use the main entrance by the white villa, where a screen in the hall finds a grave and prints a map. The second gate, to the funeral hall of 1931, opens only for funerals.\n\nLook for:\n- the gates of 1926: brick piers, gold-coloured cone lanterns and the name in wrought-iron letters\n- the villa of 1869, whose first stone the mayor laid; it served as the funeral hall until 1931\n- Carré's mausoleum (O-I-294): a butterfly, a torch held upside down and a snake biting its tail in the pediment\n- the Dorrepaal tomb (O-I-235): a kneeling marble angel of 1886 under an open house with a slate roof\n- Hartog van Banda (O-I-62): a broken column under a canopy on twisted green marble columns, for a nutmeg planter born on Banda\n- Elisabeth Otter-Knoll (O-I-37a): winged hourglasses on the corner posts; she left her fortune to a foundation for ladies of standing\n- Margot Mulder (O-I-385): cast-iron posts and chains, with a scythe and an hourglass\n- the bust of the actress Sophie de Vries (N-II-8), the bronze portrait of P.W. Janssen, a founder of the Deli Maatschappij (O-I-225) and the mourning angel of the Vom Rath family (O-I-277), with its German farewell\n- the avenue of plane trees that marks the edge of the first cemetery\n- the modern side, which has a place of its own on this map: Paradiso, the field for monuments of unusual shape, and the purple Giele Skull\n- 't Lalibellum (2012): a mausoleum with burial vaults",
+   "translations": {
+    "nl": {
+     "summary": "Deze Amsterdamse begraafplaats is van Amstelveen: een landschapspark uit 1870 aan de Amstel, met het Romeinse tempeltje van een circusdirecteur, een engel onder een leien dak en hekken met lantaarns in Amsterdamse Schoolstijl en smeedijzeren letters.",
+     "body": "Deze begraafplaats in Amsterdam is niet van Amsterdam. De gemeente Nieuwer-Amstel (nu Amstelveen) nam Zorgvlied op 1 november 1870 in gebruik, op de grond van een verdwenen buitenplaats aan de Amstel. De stad is er allang omheen gegroeid, maar Amstelveen is nog steeds eigenaar en beheerder. Het wapen van de gemeente zit op de pijlers van de hekken en boven de deur van de kantoorvilla.\n\nJan David Zocher tekende het oudste deel als een Engels landschapspark met slingerpaden. Zijn zoon breidde het in 1892 uit en tot 1931 kwamen er steeds stukken bij. Het werd de begraafplaats van de gegoede burgerij, en van veel toneelspelers en schrijvers. Ook Herman Brood, Wim Duisenberg en zanger Bobby Farrell liggen hier.\n\nAcht oude graven zijn rijksmonument, de meeste in vak O-I. Het pronkstuk is het Romeinse tempeltje van circusdirecteur Oscar Carré, in 1891 ontworpen door de architecten van zijn circustheater aan de Amstel. Hij liet het bouwen voor zijn eerste vrouw Amalia, paardrijdster in zijn circus, die bij een treinongeluk in Duitsland om het leven kwam. De familie liet het vergroten voordat Oscar er in 1912 zelf werd bijgezet.\n\nHet park is op werkdagen open van 9.00 tot 17.00 uur, in het weekend vanaf 10.00 uur en op feestdagen vanaf 11.00 uur. Neem de hoofdingang bij de witte villa: op een scherm in de hal zoek je een graf op en print je een plattegrond. Het tweede hek, naar de aula uit 1931, gaat alleen open bij uitvaarten.\n\nLet op:\n- de hekken uit 1926: bakstenen pijlers, goudkleurige kegellantaarns en de naam in smeedijzeren letters\n- de villa uit 1869, waarvan de burgemeester de eerste steen legde; tot 1931 was dit ook de aula\n- het mausoleum van Carré (O-I-294): een vlinder, een omgekeerde fakkel en een slang die in zijn staart bijt in het fronton\n- het graf Dorrepaal (O-I-235): een knielende marmeren engel uit 1886 onder een open huisje met een leien dak\n- Hartog van Banda (O-I-62): een gebroken zuil onder een baldakijn op gedraaide groenmarmeren zuilen, voor een notenplanter die op Banda werd geboren\n- Elisabeth Otter-Knoll (O-I-37a): gevleugelde zandlopers op de hoekpalen; zij liet haar vermogen na aan een stichting voor dames van stand\n- Margot Mulder (O-I-385): gietijzeren palen en kettingen, met een zeis en een zandloper\n- de buste van actrice Sophie de Vries (N-II-8), het bronzen portret van P.W. Janssen, medeoprichter van de Deli Maatschappij (O-I-225) en de treurende engel van de familie Vom Rath (O-I-277), met een Duits afscheidswoord\n- de platanenlaan die de rand van de eerste begraafplaats aangeeft\n- de moderne kant, die een eigen plek op deze kaart heeft: Paradiso, het veld voor grafmonumenten met een afwijkende vorm, en de paarse Giele Skull\n- 't Lalibellum (2012): een mausoleum met grafkelders"
+    }
+   },
+   "attributes": {
+    "listed": 2008
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ig4qpdxlj1ygfxo7zbg8z5xv",
+  "title": "6e Montessorischool Anne Frank",
+  "changes": [
+   {
+    "field": "body",
+    "old": "with rest corners in the classrooms, low cupboards and a garden instead of a bare yard, and it filled quickly with the children of the refugees settling in the streets around.",
+    "new": "with rest corners in the classrooms, small Montessori cupboards and a garden instead of a bare yard. Some of Anne's classmates had also fled Nazi Germany with their families.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/6e_Montessorischool_Anne_Frank",
+    "evidence": "city:222227 has \"kleinere montessorikastjes\" (not low). Wikipedia: \"In haar klas zaten ook leerlingen die net als Anne Frank met hun familie uitgeweken waren uit nazi-Duitsland\"; that the school \"filled quickly\" with refugee children is in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "met rusthoeken in de lokalen, lage kastjes en een tuin in plaats van een kaal plein, en het liep snel vol met de kinderen van de vluchtelingen die in de straten eromheen kwamen wonen.",
+    "new": "met rusthoeken in de lokalen, kleine montessorikastjes en een tuin in plaats van een kaal plein. Ook een paar klasgenoten van Anne waren met hun ouders uit nazi-Duitsland gevlucht.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/6e_Montessorischool_Anne_Frank",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "It is a working school and not open to visitors.",
+    "new": "It is a working school.",
+    "kind": "cut",
+    "source": "https://www.annefrank-montessori.nl/onze-school/onze-geschiedenis",
+    "evidence": "No source says whether visitors are admitted."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is een school in bedrijf en niet te bezoeken.",
+    "new": "Het is een school in bedrijf.",
+    "kind": "cut",
+    "source": "https://www.annefrank-montessori.nl/onze-school/onze-geschiedenis",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "Anne Frank started here in the nursery class in April 1934, shortly after arriving from Germany, in a building that was itself brand new. The city had designed it in 1933 as its sixth Montessori school, with rest corners in the classrooms, small Montessori cupboards and a garden instead of a bare yard. Some of Anne's classmates had also fled Nazi Germany with their families.\n\nAfter the summer holidays of 1941 Jewish children were no longer allowed in ordinary schools. Anne left for the Jewish Lyceum, and in one stroke the school lost about 150 Jewish pupils. One of them later recalled the headmistress shaking each child's hand at the leave-taking and looking them in the eye, which was not without risk.\n\nIn 1957, ten years after the diary first appeared, the city added Anne Frank's name to the school. In 1983 the artist Harry Visser painted fragments of her diary across the two lower floors of the front. In 2001 the headmaster came across two old registers with a great many names struck out at once in 1941, and with a former teacher and two parents traced what had become of those children. The plaque in the hall that resulted names the pupils who were deported and killed, some 130 of them; it was unveiled by a pupil who survived, together with the school friend who had kept visiting her.\n\nIt is a working school. One classroom is kept as it was in Anne's time. The painted front is on the Niersstraat.\n\nLook for:\n- the diary text painted across the front, from the ground to the top of the first floor\n- the two entrances, nos. 41 and 43\n- the low corner block with a transformer room of the electricity company, and the bay window above it\n- the long rows of small-paned windows that light the corridors",
+   "translations": {
+    "nl": {
+     "body": "Anne Frank begon hier in april 1934 in de kleuterklas, kort nadat ze uit Duitsland was gekomen, in een gebouw dat zelf ook splinternieuw was. De gemeente had het in 1933 ontworpen als haar zesde montessorischool, met rusthoeken in de lokalen, kleine montessorikastjes en een tuin in plaats van een kaal plein. Ook een paar klasgenoten van Anne waren met hun ouders uit nazi-Duitsland gevlucht.\n\nNa de zomervakantie van 1941 mochten Joodse kinderen niet meer naar gewone scholen. Anne ging naar het Joods Lyceum, en de school raakte in één keer ongeveer 150 Joodse leerlingen kwijt. Een van hen herinnerde zich later dat de directrice elk kind bij het afscheid een hand gaf en diep in de ogen keek, wat niet zonder gevaar was.\n\nIn 1957, tien jaar na de eerste uitgave van het dagboek, voegde de gemeente de naam van Anne Frank aan de school toe. In 1983 schilderde kunstenaar Harry Visser stukken uit haar dagboek over de onderste twee verdiepingen van de gevel. In 2001 stuitte de directeur op twee oude inschrijfboeken waarin in 1941 opvallend veel namen tegelijk waren doorgehaald. Met een oud-leerkracht en twee ouders zocht hij uit wat er van die kinderen was geworden. De plaquette in de hal die daaruit voortkwam, noemt de leerlingen die zijn weggevoerd en vermoord, zo'n 130. Ze werd onthuld door een oud-leerlinge die het overleefde, samen met de schoolvriendin die bij haar thuis was blijven komen.\n\nHet is een school in bedrijf. Eén lokaal is gehouden zoals het in Annes tijd was. De beschilderde gevel staat aan de Niersstraat.\n\nLet op:\n- de dagboektekst over de gevel, van de grond tot boven de eerste verdieping\n- de twee ingangen, nummer 41 en nummer 43\n- het lage hoekblok met een transformatorruimte van het energiebedrijf, en de erker erboven\n- de lange rijen ramen met kleine ruitjes, die de gangen verlichten"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "thknh3s01j28vc2qz42d1z7m",
+  "title": "Barbiersbrug and its four shop kiosks",
+  "changes": [
+   {
+    "field": "body",
+    "old": "What makes it one of the oddest in the city",
+    "new": "What makes it one of the most remarkable in the city",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Barbiersbrug",
+    "evidence": "\"Kramer leverde met brug 404 een van de opmerkelijkste bruggen van de stad\"; remarkable, not odd."
+   },
+   {
+    "field": "nl.body",
+    "old": "Wat hem tot een van de vreemdste van de stad maakt",
+    "new": "Wat hem tot een van de opmerkelijkste van de stad maakt",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Barbiersbrug",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the twin brick towers of G.J. Rutgers on the Scheldestraat corners, the gate to this part of Zuid",
+    "new": "- the twin brick towers of G.J. Rutgers on the Scheldestraat corners, the gate to this part of Zuid",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/7e33c2b1-3854-4328-86db-be3700be69a7",
+    "evidence": "city:222207 (Rutgers, 1926-1928): \"het poortmotief met de twee torens aan de Scheldestraat\", \"toren-volumes op de hoekpartijen\", a gateway to Zuid \"in samenhang met de brug over het Amstelkanaal (van architect Kramer uit 1927)\"."
+   }
+  ],
+  "patch": {
+   "body": "The bridge that carries the Ferdinand Bolstraat into the Scheldestraat is not remarkable as a bridge: one span of ten metres, thirty metres wide. What makes it one of the most remarkable in the city are the four identical yellow brick kiosks on its corners, lozenge-shaped, each with a five-sided tent roof of red glazed tiles and a square chimney rising from the water side. They opened as small shops, 16 square metres apiece, with the bridge in 1928.\n\nPiet Kramer had been drawing this crossing since 1916. The war stopped the work, a wooden emergency bridge filled in, and credit only came in 1925. One version was far grander: the kiosks had upper floors and a room for hire spanned the roadway between them. The city's aesthetics committee turned it down, doubting anyone would rent it. What was built in 1927–1928 still took some 6,000 kilos of wrought iron for the railings.\n\nHildo Krop carved the four ends of the parapets: a faun's head up to its chin in the waves, a coiled snake, another head among the waves, and a fish.\n\nFor almost ninety years the bridge was nameless. People called it the Ferdinand Bolbrug or the Scheldebrug, and in 2011 a residents' party proposed Amsterdamse Schoolbrug. On 6 December 2016 the city settled on Barbiersbrug, after the Barbiers family of painters, in keeping with the painters' names of the streets to the north.\n\nLook for:\n- the four kiosks, each with a shop window and a canopy that bend round the blunt corner\n- the metal finials on the tent roofs\n- Krop's four carvings on the stepped brick cylinders at the ends of the parapets\n- the railings, with wide posts and thin 'tie rods' between them\n- the twin brick towers of G.J. Rutgers on the Scheldestraat corners, the gate to this part of Zuid",
+   "translations": {
+    "nl": {
+     "body": "De brug die de Ferdinand Bolstraat met de Scheldestraat verbindt, is als brug niet bijzonder: één overspanning van tien meter, dertig meter breed. Wat hem tot een van de opmerkelijkste van de stad maakt, zijn de vier gelijke huisjes van gele baksteen op de hoeken, ruitvormig, elk met een vijfzijdig tentdak van rood geglazuurde pannen en een vierkante schoorsteen aan de waterkant. Ze gingen in 1928 tegelijk met de brug open als winkeltjes van 16 vierkante meter.\n\nPiet Kramer tekende al vanaf 1916 aan deze oversteek. De oorlog legde het werk stil, er kwam een houten noodbrug en pas in 1925 was er krediet. Eén versie was veel groter: de huisjes hadden verdiepingen en tussen de huisjes hing een zaal voor verhuur over de rijweg. De schoonheidscommissie zag er niets in, omdat die ruimte moeilijk te verhuren zou zijn. Wat in 1927-1928 wel werd gebouwd, vroeg nog altijd zo'n 6000 kilo smeedijzer voor de leuningen.\n\nHildo Krop hakte de vier uiteinden van de borstweringen: een faunskop tot de kin in de golven, een opgerolde slang, nog een kop in de golven en een vis.\n\nBijna negentig jaar had de brug geen naam. In de volksmond was het de Ferdinand Bolbrug of de Scheldebrug, en in 2011 stelde een bewonerspartij Amsterdamse Schoolbrug voor. Op 6 december 2016 koos de gemeente voor Barbiersbrug, naar het schildersgeslacht Barbiers, passend bij de schildersnamen van de straten ten noorden ervan.\n\nLet op:\n- de vier huisjes, elk met een etalage en een luifel die om de stompe hoek meebuigen\n- de metalen pieken op de tentdaken\n- de vier beelden van Krop op de getrapte bakstenen cilinders aan de uiteinden van de borstwering\n- de leuningen, met brede staanders en dunne 'trekstangen' ertussen\n- de twee bakstenen torens van G.J. Rutgers op de hoeken van de Scheldestraat, de poort naar dit deel van Zuid"
+    }
+   }
+  },
+  "sources_add": [
+   "https://data.amsterdam.nl/monumenten/7e33c2b1-3854-4328-86db-be3700be69a7"
+  ]
+ },
+ {
+  "id": "qwy2gxzz4iaxk8wqhzjsqyrk",
+  "title": "Churchilllaan and Rooseveltlaan, the parkway fronts",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The two arms of Berlage's Y are walled by blocks a third of a kilometre long.",
+    "new": "The two arms of Berlage's Y are walled by blocks up to 300 metres long.",
+    "kind": "narrowed",
+    "source": "city:222206",
+    "evidence": "Only one wing is given a length: \"Het noordoostelijke deel is met zijn 300 meter...\"; the Dutch summary already said \"tot 300 meter\"."
+   },
+   {
+    "field": "body",
+    "old": "Until 8 May 1946 they were simply",
+    "new": "Until May 1946 they were simply",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Churchill-laan_(Amsterdam)",
+    "evidence": "Both avenue articles give only \"Tot mei 1946\" / \"In mei 1946\"; the day is in no linked source."
+   },
+   {
+    "field": "nl.body",
+    "old": "Tot 8 mei 1946 heetten ze",
+    "new": "Tot mei 1946 heetten ze",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Churchill-laan_(Amsterdam)",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "against the traffic, so that passengers could step straight on to the grass.",
+    "new": "against the traffic, so that passengers could get on and off from the pavement along the green strip without tram islands.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Churchill-laan_(Amsterdam)",
+    "evidence": "\"loste men dit op door de tram aan de linkerkant van de groenstrook te laten rijden, zodat de passagiers op de haltes gewoon konden in- en uitstappen vanaf het trottoir langs de groenstrook\"; stepping on to the grass is not what it says."
+   },
+   {
+    "field": "nl.body",
+    "old": "tegen het verkeer in, zodat je zo op het gras kon uitstappen.",
+    "new": "tegen het verkeer in, zodat reizigers zonder tramheuvel vanaf de stoep langs het plantsoen konden in- en uitstappen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Churchill-laan_(Amsterdam)",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- Rooseveltlaan at the Maasstraat, on the pavement: four wooden flower boxes of 2018, each with a plaque for one of Roosevelt's Four Freedoms in English and Dutch, built by jobseekers in a work-experience project on the shopkeepers' initiative",
+    "new": "- Rooseveltlaan at the Maasstraat, on the corner: the Four Freedoms flower boxes of 2018, with texts on Roosevelt's Four Freedoms",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Rooseveltlaan_(Amsterdam)",
+    "evidence": "The only source: \"Sinds februari 2018 staat op de hoek mat de Maasstraat een reeks bloembakken, de Four Freedoms-bloembakken met de teksten verwijzend naar de Four Freedoms.\" Number, material, languages, makers and initiative are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "- Rooseveltlaan bij de Maasstraat, op de stoep: vier houten bloembakken uit 2018, elk met een plaquette voor een van de Four Freedoms van Roosevelt in het Engels en het Nederlands, gemaakt door werkzoekenden in een werkervaringsproject, op initiatief van de winkeliers",
+    "new": "- Rooseveltlaan bij de Maasstraat, op de hoek: de Four Freedoms-bloembakken uit 2018, met teksten over de Four Freedoms van Roosevelt",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Rooseveltlaan_(Amsterdam)",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "The two arms of Berlage's Y are walled by blocks up to 300 metres long. On one, Lutheran emblems are carved beside the doors: it was paid for from a legacy of 1879. On the other, trams ran on the wrong side of the road until 1950.",
+   "body": "West of the Victorieplein the Vrijheidslaan forks into two avenues that Berlage laid out as parkways: the Churchilllaan with a broad strip of green down the middle, the Rooseveltlaan with trees along the sides. Until May 1946 they were simply the Noorder and Zuider Amstellaan. On the Churchilllaan the trams ran from 1929 to 1950 on the left of the central garden, against the traffic, so that passengers could get on and off from the pavement along the green strip without tram islands.\n\nThe walls of these avenues were handed out to developers by the block, each with an architect for the fronts. Four of those blocks are listed. On the Churchilllaan, G.A.M. Loogman built nos. 110–132 in 1924, and G.J. Rutgers the long run of nos. 140–260 in 1926–1929, which ends on the Scheldestraat in two towers that make a gate towards the Barbiersbrug. A street behind, on the Deurloostraat, J.J.B. Franswa, who had been office manager for the building of the Scheepvaarthuis, gave the end of the street a front studded with concrete blocks in 1928.\n\nOn the Rooseveltlaan the brothers Baanders built both sides of the Maasstraat crossing in 1932–1934. The longer wing measures 300 metres. The shorter one was built for the Lutheran congregation of Amsterdam with the legacy of J.R. Kemper, who had died on 16 January 1879; a stone in the middle of the front says so, and the blocks beside its round-arched doorways are carved with Lutheran emblems.\n\nThis place is pinned on Rutgers's towers at the Scheldestraat. All of it is private housing, with shops on the Scheldestraat and the Maasstraat.\n\nLook for:\n- Scheldestraat at Amstelkade: Rutgers's two corner towers\n- Churchilllaan 140–224: wrought-iron grilles set in stone beside the porches, and doorways with 'lanterns' over the arch\n- Churchilllaan 110–132 at the Slingerbeekstraat: Loogman's corner\n- Deurloostraat 115–129: the unbroken balcony on a pale concrete slab and three wooden bay windows\n- Rooseveltlaan at the Maasstraat: the two corner towers with a small half-round balcony at the top\n- Rooseveltlaan 191–213: the Kemper memorial stone and the carved blocks at the doors\n- Rooseveltlaan at the Maasstraat, on the corner: the Four Freedoms flower boxes of 2018, with texts on Roosevelt's Four Freedoms",
+   "translations": {
+    "nl": {
+     "body": "Ten westen van het Victorieplein splitst de Vrijheidslaan zich in twee lanen die Berlage als parklanen aanlegde: de Churchilllaan met een brede groenstrook in het midden, de Rooseveltlaan met bomen langs de kanten. Tot mei 1946 heetten ze gewoon Noorder en Zuider Amstellaan. Op de Churchilllaan reed de tram van 1929 tot 1950 links van het middenplantsoen, tegen het verkeer in, zodat reizigers zonder tramheuvel vanaf de stoep langs het plantsoen konden in- en uitstappen.\n\nDe wanden van deze lanen werden per blok aan bouwers uitgegeven, elk met een architect voor de gevels. Vier van die blokken zijn beschermd. Aan de Churchilllaan bouwde G.A.M. Loogman in 1924 de nummers 110-132 en G.J. Rutgers in 1926-1929 de lange reeks 140-260, die aan de Scheldestraat eindigt in twee torens: een poort richting Barbiersbrug. Een straat erachter, aan de Deurloostraat, sloot J.J.B. Franswa, die bureauchef was geweest bij de bouw van het Scheepvaarthuis, in 1928 de straat af met een gevel vol betonnen blokjes.\n\nAan de Rooseveltlaan bouwden de gebroeders Baanders in 1932-1934 beide kanten van de kruising met de Maasstraat. De langste vleugel meet 300 meter. De kortere is gebouwd voor de Evangelisch-Lutherse Gemeente van Amsterdam uit het legaat van J.R. Kemper, die op 16 januari 1879 was overleden. Dat staat op een steen midden in de gevel, en in de blokken naast de rondboogportieken zijn lutherse symbolen gehakt.\n\nDe speld staat op de torens van Rutgers aan de Scheldestraat. Het zijn allemaal woningen, met winkels aan de Scheldestraat en de Maasstraat.\n\nLet op:\n- Scheldestraat bij de Amstelkade: de twee hoektorens van Rutgers\n- Churchilllaan 140-224: smeedijzeren roosters in natuursteen naast de portieken, en ingangen met 'lantaarns' boven de boog\n- Churchilllaan 110-132 bij de Slingerbeekstraat: de hoek van Loogman\n- Deurloostraat 115-129: het doorlopende balkon op een lichte betonplaat en drie houten erkers\n- Rooseveltlaan bij de Maasstraat: de twee hoektorens met bovenin een klein halfrond balkon\n- Rooseveltlaan 191-213: de gedenksteen voor Kemper en de gebeeldhouwde blokken bij de deuren\n- Rooseveltlaan bij de Maasstraat, op de hoek: de Four Freedoms-bloembakken uit 2018, met teksten over de Four Freedoms van Roosevelt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "k390de7oegv7qub1h2q6g86g",
+  "title": "De Wolkenkrabber (Twaalfverdiepingenhuis)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "to allow an exception at three spots in Berlage's Plan Zuid.",
+    "new": "to allow an exception at three spots in the city.",
+    "kind": "narrowed",
+    "source": "city:222240",
+    "evidence": "\"op drie punten in de stad een uitzondering mocht worden gemaakt op de bouwverordening\"; the source does not put them in Plan Zuid."
+   },
+   {
+    "field": "nl.body",
+    "old": "op drie plekken in Plan Zuid een uitzondering te maken.",
+    "new": "op drie plekken in de stad een uitzondering te maken.",
+    "kind": "narrowed",
+    "source": "city:222240",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "who called high-rise living a costly toy,",
+    "new": "who called high-rise living a costly business,",
+    "kind": "narrowed",
+    "source": "city:222240",
+    "evidence": "\"voor wonen een kostbare aangelegenheid was\"; \"toy\" is not in the source."
+   },
+   {
+    "field": "nl.body",
+    "old": "die hoog wonen een dure liefhebberij vonden,",
+    "new": "die hoog wonen een kostbare zaak vonden,",
+    "kind": "narrowed",
+    "source": "city:222240",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "the chutes were an idea of Staal's partner, the architect Margaret Kropholler. People called it De Wolkenkrabber (the skyscraper) at once.",
+    "new": "the chutes were an idea of Staal's wife, Margaret Kropholler. People soon called it De Wolkenkrabber (the skyscraper).",
+    "kind": "narrowed",
+    "source": "rce:532002",
+    "evidence": "Wikipedia: \"naar een idee van de vrouw van Staal, Margaret Kropholler\" (no source calls her an architect); RCE: \"De hoogbouw kreeg al snel de bijnaam 'Wolkenkrabber'\" (soon, not at once)."
+   },
+   {
+    "field": "nl.body",
+    "old": "Die kokers waren een idee van Staals partner, de architecte Margaret Kropholler. De bijnaam was er meteen.",
+    "new": "Die kokers waren een idee van Staals vrouw, Margaret Kropholler. De bijnaam kwam al snel.",
+    "kind": "narrowed",
+    "source": "rce:532002",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "walk round to the plainer back on the Deltastraat.",
+    "new": "walk round to the plainer back, on the Merwedeplein side.",
+    "kind": "narrowed",
+    "source": "city:222240",
+    "evidence": "\"de vormgeving van de achterzijde aan het Merwedeplein veel zakelijker\"; RCE: \"Beide zijgevels en de achtergevel zijn meer sober\". The back faces the Merwedeplein, not the Deltastraat."
+   },
+   {
+    "field": "nl.body",
+    "old": "loop om naar de soberder achterkant aan de Deltastraat.",
+    "new": "loop om naar de soberder achterkant, aan de kant van het Merwedeplein.",
+    "kind": "narrowed",
+    "source": "city:222240",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "Forty metres is not much of a skyscraper, but in 1932 nobody in Amsterdam lived higher. The building code stopped at four floors of housing, so on 29 January 1929 the city council voted, after a fierce debate, to allow an exception at three spots in the city. Here the result was a tower of flats. The opponents, who called high-rise living a costly business, were proved right on the money: the flats cost half as much again to build as those in the low blocks next door.\n\nThe developers K. Hille and Jur Reijn (their firm was called Hilwis) asked J.F. Staal for the design. He stacked 24 six-room flats, two per floor, around a glass stair tower that sticks out of the front like a hinge, exactly where the Vrijheidslaan splits into two avenues. It came with a lift, central heating, speaking tubes and rubbish chutes; the chutes were an idea of Staal's wife, Margaret Kropholler. People soon called it De Wolkenkrabber (the skyscraper).\n\nIn September 1944 a resistance radio post worked from an empty flat here for two weeks, at first to an RAF plane circling above the city, while the test pilot Gerben Sonderman kept watch in the street. On 25 September the Germans searched the flat next door and the set was moved. After the war Reijn's widow let Jewish survivors move into the complex without rent until they could pay.\n\nThe tower was restored in 2016–2019. It is private housing: see it from the square, and walk round to the plainer back, on the Merwedeplein side.\n\nLook for:\n- the glass stair tower, rising past the roof\n- the steel balconies and the two shops in the base\n- the chimneys and lift housing on the roof, best seen from down the Vrijheidslaan\n- Hildo Krop's statue of Berlage in front, looking towards his bridge: 5.5 metres of bluestone for a man of about 1.60, ten years in the making and unveiled on 17 December 1966, when Krop was 80. Building tradesmen are carved on the plinth",
+   "translations": {
+    "nl": {
+     "body": "Veertig meter is weinig voor een wolkenkrabber, maar in 1932 woonde niemand in Amsterdam hoger. De bouwverordening stond niet meer dan vier woonlagen toe. Op 29 januari 1929 besloot de gemeenteraad daarom, na een fel debat, op drie plekken in de stad een uitzondering te maken. Hier werd dat een woontoren. De tegenstanders, die hoog wonen een kostbare zaak vonden, kregen wat het geld betreft gelijk: de flats kostten de helft meer dan de woningen in de lage blokken ernaast.\n\nDe bouwers K. Hille en Jur Reijn (hun maatschappij heette Hilwis) vroegen J.F. Staal om een ontwerp. Hij stapelde 24 zeskamerflats, twee per verdieping, rond een glazen trappenhuis dat als een scharnier uit de gevel steekt, precies waar de Vrijheidslaan zich in twee lanen splitst. Er waren een lift, centrale verwarming, spreekbuizen en vuilstortkokers. Die kokers waren een idee van Staals vrouw, Margaret Kropholler. De bijnaam kwam al snel.\n\nIn september 1944 werkte in een leegstaande flat twee weken lang een zendpost van het verzet, eerst met een RAF-toestel dat boven de stad cirkelde. Testpiloot Gerben Sonderman stond beneden op de uitkijk. Op 25 september doorzochten de Duitsers de flat ernaast en verhuisde de zender. Na de oorlog liet de weduwe van Reijn Joodse overlevenden in het complex wonen zonder huur, tot ze konden betalen.\n\nDe toren is in 2016-2019 opgeknapt. Er wordt gewoond: bekijk hem vanaf het plein en loop om naar de soberder achterkant, aan de kant van het Merwedeplein.\n\nLet op:\n- het glazen trappenhuis, dat boven het dak uitsteekt\n- de stalen balkons en de twee winkels in de plint\n- de schoorstenen en het lifthuis op het dak, het best te zien vanaf de Vrijheidslaan\n- het beeld van Berlage door Hildo Krop ervoor, met de blik naar zijn brug: 5,5 meter hardsteen voor een man van ongeveer 1,60, tien jaar werk en onthuld op 17 december 1966, toen Krop 80 was. Op de sokkel staan bouwvakkers uitgehakt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yrkgz7axenkcgyn6fliyc086",
+  "title": "Dintelstraat school complex and the Zuiderschool",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Round the back a Protestant school of 1933 could afford what city schools could not: a handicraft attic.",
+    "new": "Round the back a Protestant school of 1933 had what city schools counted as a luxury: a handicraft attic.",
+    "kind": "narrowed",
+    "source": "city:222225",
+    "evidence": "\"een handenarbeidzolder, iets dat voor de gemeentescholen als een luxe beschouwd werd\"; that city schools could not afford one is not stated."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Erachter kon een protestantse school uit 1933 zich iets veroorloven wat gemeentescholen niet hadden: een handenarbeidzolder.",
+    "new": "Erachter had een protestantse school uit 1933 iets wat bij gemeentescholen als luxe gold: een handenarbeidzolder.",
+    "kind": "narrowed",
+    "source": "city:222225",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "In the 1920s Amsterdam built schools the way it built bridges: by the dozen, and as public art. The largest in the Rivierenbuurt fills the block between the Dongestraat, the Geulstraat and the Dintelstraat. Nicolaas Lansdorp",
+    "new": "In the 1920s Amsterdam built schools by the dozen: some 170 between 1920 and 1926, many of them in this part of town. The well-known complex of the Rivierenbuurt fills the block between the Dongestraat, the Geulstraat and the Dintelstraat. N. Lansdorp",
+    "kind": "narrowed",
+    "source": "city:222225",
+    "evidence": "\"In Amsterdam zijn er tussen 1920 en 1926 ca 170 scholen gebouwd waarvan een groot gedeelte in deze wijk terecht is gekomen\" and \"het bekende scholencomplex van architect Lansdorp\". The comparison with bridges, \"public art\" and \"the largest\" are in no source; the sources give only the initial N."
+   },
+   {
+    "field": "nl.body",
+    "old": "In de jaren twintig bouwde Amsterdam scholen zoals het bruggen bouwde: bij tientallen, en als kunst voor iedereen. De grootste van de Rivierenbuurt vult het blok tussen de Dongestraat, de Geulstraat en de Dintelstraat. Nicolaas Lansdorp",
+    "new": "In de jaren twintig bouwde Amsterdam scholen bij tientallen: tussen 1920 en 1926 zo'n 170, veel ervan in dit deel van de stad. Het bekende complex van de Rivierenbuurt vult het blok tussen de Dongestraat, de Geulstraat en de Dintelstraat. N. Lansdorp",
+    "kind": "narrowed",
+    "source": "city:222225",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "The buildings were soon full of newcomers. From 1935",
+    "new": "From 1935",
+    "kind": "cut",
+    "source": "https://www.joodsamsterdam.nl/dintelstraat/",
+    "evidence": "No source says the buildings filled with newcomers; the source gives only the refugee classes of 1935-1939."
+   },
+   {
+    "field": "nl.body",
+    "old": "De lokalen zaten al snel vol nieuwkomers. Van 1935",
+    "new": "Van 1935",
+    "kind": "cut",
+    "source": "https://www.joodsamsterdam.nl/dintelstraat/",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "A whole street block of school from 1926–1928, U-shaped round a playground, with two stair towers and a stone boy by Hildo Krop reading on the corner. Round the back a Protestant school of 1933 had what city schools counted as a luxury: a handicraft attic.",
+   "body": "In the 1920s Amsterdam built schools by the dozen: some 170 between 1920 and 1926, many of them in this part of town. The well-known complex of the Rivierenbuurt fills the block between the Dongestraat, the Geulstraat and the Dintelstraat. N. Lansdorp of the Public Works department designed it in 1926–1928 as a U of three wings, each more than seventy metres long, round a playground that was also the public playground of the neighbourhood. It held two double primary schools, a nursery school, a trade school and a caretaker's flat. The front on the Dongestraat bends gently inwards with the street, and two stair towers climb three storeys above the roof ridge.\n\nFrom 1935 to 1939 the Dintelschool here ran classes for the children of refugees from Germany. In the autumn of 1941, when Jewish children were forced into separate schools, the Dintelschool and the nursery school on the Dongestraat were closed down and the pupils of another school, evicted from the Jekerstraat to make room for a Jewish school, were moved in. The Dongeschool, a public primary school, still uses the complex.\n\nBehind it, at Geulstraat 9, stands the former Zuiderschool, designed in 1933 by G.A. Roobol for a Protestant school association: the first Dutch Reformed school of the district, also attended by the children of the Reformed orphanage. Since 1920 church schools had been paid for like public ones and could hire their own architects, and it shows: yellow brick, fine steel windows and, under the high roof, a handicraft attic that counted as a luxury. The school closed in the mid-1990s; the building has since housed childcare.\n\nBoth are working buildings, seen from the street. This place is pinned on the corner with the reading boy.\n\nLook for:\n- Krop's limestone boy with a book (1929), 60 cm high, on the corner of the Dintelstraat and the Geulstraat\n- the two stair towers\n- the curved school fence and brick gateposts along the Dintelstraat\n- the tall chimney with toothed brickwork on the end wall\n- Geulstraat 9: the rows of small square steel windows and the wrought-iron flagpole holder on the entrance corner",
+   "translations": {
+    "nl": {
+     "summary": "Een heel bouwblok school uit 1926-1928, in een U om een speelplaats, met twee traptorens en op de hoek een lezend jongetje van Hildo Krop. Erachter had een protestantse school uit 1933 iets wat bij gemeentescholen als luxe gold: een handenarbeidzolder.",
+     "body": "In de jaren twintig bouwde Amsterdam scholen bij tientallen: tussen 1920 en 1926 zo'n 170, veel ervan in dit deel van de stad. Het bekende complex van de Rivierenbuurt vult het blok tussen de Dongestraat, de Geulstraat en de Dintelstraat. N. Lansdorp van Publieke Werken ontwierp het in 1926-1928 als een U van drie vleugels, elk ruim zeventig meter lang, om een schoolplein dat ook de openbare speelplaats van de buurt was. Er zaten twee dubbele lagere scholen in, een kleuterschool, een nijverheidsschool en een conciërgewoning. De gevel aan de Dongestraat buigt licht mee met de straat en twee traptorens steken drie lagen boven de nok uit.\n\nVan 1935 tot 1939 kregen kinderen van Duitse vluchtelingen hier op de Dintelschool les. In het najaar van 1941, toen Joodse kinderen naar aparte scholen moesten, werden de Dintelschool en de kleuterschool aan de Dongestraat opgeheven en trokken de leerlingen in van een school die uit de Jekerstraat moest wijken voor een Joodse school. De Dongeschool, een openbare basisschool, gebruikt het complex nog altijd.\n\nErachter, op Geulstraat 9, staat de vroegere Zuiderschool, in 1933 door G.A. Roobol ontworpen voor een christelijke schoolvereniging: de eerste hervormde school van de wijk, waar ook de kinderen van het hervormde weeshuis naartoe gingen. Sinds 1920 werd het bijzonder onderwijs net zo betaald als het openbare en kon het zijn eigen architecten kiezen, en dat zie je: gele baksteen, verfijnde stalen ramen en onder het hoge dak een handenarbeidzolder, wat als luxe gold. Halverwege de jaren negentig ging de school dicht; sindsdien zit er kinderopvang.\n\nAllebei zijn in gebruik en vanaf de straat te zien. De speld staat op de hoek met het lezende jongetje.\n\nLet op:\n- het kalkstenen jongetje met een boek van Krop (1929), 60 centimeter hoog, op de hoek van de Dintelstraat en de Geulstraat\n- de twee traptorens\n- het gebogen schoolhek met gemetselde posten langs de Dintelstraat\n- de hoge schoorsteen met getand metselwerk op de kopgevel\n- Geulstraat 9: de rijen kleine vierkante stalen ramen en de smeedijzeren vlaggenmasthouder op de hoek bij de ingang"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "d4jdxs7m562bkqw3isau3lj1",
+  "title": "Garage Sieberg, the glass palace on the Scheldeplein",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "a wash where owners watched from a gallery.",
+    "new": "a wash where owners watched from a corridor.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/pagina/architectuur/historische-media/30-januari-1932-sieberggarage-scheldeplein/",
+    "evidence": "\"De eigenaars ... kunnen in een gang langs de wasscherij het geheele proces volgen\"; a corridor, not a gallery."
+   },
+   {
+    "field": "body",
+    "old": "Most of the city knows this building as Knijn Bowling.",
+    "new": "This building is best known as Knijn Bowling.",
+    "kind": "narrowed",
+    "source": "https://architectenweb.nl/nieuws/artikel.aspx?id=55886",
+    "evidence": "\"Knijn Bowling, de naam waaronder het pand met name bekend werd\"; \"most of the city\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "De halve stad kent dit gebouw als Knijn Bowling.",
+    "new": "Dit gebouw is vooral bekend als Knijn Bowling.",
+    "kind": "narrowed",
+    "source": "https://architectenweb.nl/nieuws/artikel.aspx?id=55886",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Dutch agent for the American Willys-Overland cars,",
+    "new": "Dutch agent for Willys-Overland cars,",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/pagina/architectuur/historische-media/30-januari-1932-sieberggarage-scheldeplein/",
+    "evidence": "\"Willys Overland en Willys Knight automobielen ... Zooals men weet vertegenwoordigt de firma Sieberg hier te lande dit merk\"; no source calls the make American."
+   },
+   {
+    "field": "nl.body",
+    "old": "die in Nederland de Amerikaanse Willys-Overland vertegenwoordigde,",
+    "new": "die in Nederland Willys-Overland vertegenwoordigde,",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/pagina/architectuur/historische-media/30-januari-1932-sieberggarage-scheldeplein/",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "A 1932 car palace with ramps to two parking floors, a petrol pump indoors and a wash where owners watched from a corridor. Weeks after it opened the staff struck over a pay cut and were all sacked. Since about 1970 people bowl in it.",
+   "body": "This building is best known as Knijn Bowling. It was built as a garage, and the papers called it the glass palace.\n\nHenri Sieberg, Dutch agent for Willys-Overland cars, had N.Ch. Dekker design it on what was then the edge of town. It came into use in 1931 and opened fully on 30 January 1932: a reinforced concrete frame closed almost all round with glass in steel frames. Cars drove up ramps five metres wide to parking for some 300 on two upper floors. Downstairs were a filling station inside the hall, the first Bendix brake tester in the Netherlands, and a car wash nearly forty metres long where owners could follow their car along a corridor.\n\nIn April 1932 Sieberg cut wages by ten per cent. The staff struck for more than ten weeks and every striker was dismissed. During the occupation the Wehrmacht held the building.\n\nThe Knijn family bought it in 1960 for a showroom and body shop and opened the bowling lanes about 1970. After decades of alterations, a restoration finished in 2022 brought back the small panes, the round balcony over the entrance and the glass lantern on the tower, and put nine flats on the roof.\n\nIt now houses the bowling centre and a supermarket.\n\nLook for:\n- the tower with its glass lantern\n- the round balcony above the entrance\n- the small steel-framed panes, back after years of plate glass\n- the Geulstraat side, where the cars drove in",
+   "translations": {
+    "nl": {
+     "body": "Dit gebouw is vooral bekend als Knijn Bowling. Het is neergezet als garage, en de kranten noemden het het glazen paleis.\n\nHenri Sieberg, die in Nederland Willys-Overland vertegenwoordigde, liet het ontwerpen door N.Ch. Dekker, op wat toen de rand van de stad was. In 1931 ging het in gebruik en op 30 januari 1932 was het helemaal open: een skelet van gewapend beton, bijna rondom dichtgezet met glas in stalen ramen. Auto's reden over hellingen van vijf meter breed naar een stalling voor zo'n 300 wagens op twee verdiepingen. Beneden waren een vulstation in de hal, de eerste Bendix-remmentester van Nederland en een wasserij van bijna veertig meter, waar de eigenaar vanuit een gang zijn wagen kon volgen.\n\nIn april 1932 kortte Sieberg de lonen met tien procent. Het personeel staakte ruim tien weken en alle stakers kregen ontslag. In de bezettingsjaren zat de Wehrmacht in het gebouw.\n\nDe familie Knijn kocht het in 1960 voor een showroom en een schadebedrijf en opende rond 1970 de bowlingbanen. Na tientallen jaren verbouwen bracht een restauratie, klaar in 2022, de kleine ruitjes, het ronde balkon boven de ingang en de glazen lantaarn op de toren terug, en kwamen er negen woningen op het dak.\n\nNu zitten er het bowlingcentrum en een supermarkt in.\n\nLet op:\n- de toren met de glazen lantaarn\n- het ronde balkon boven de ingang\n- de kleine ruitjes in stalen profielen, terug na jaren van grote ruiten\n- de kant van de Geulstraat, waar de auto's naar binnen reden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "hfzb35mjlpvqmgi3kb15krkq",
+  "title": "Haringvlietstraat villas and the house that answered them",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "They later added a frog-breeding lab.",
+    "new": "Later they drew an extension with a frog-breeding lab.",
+    "kind": "narrowed",
+    "source": "city:222213",
+    "evidence": "\"In 1965 ... is er door Pot & Pot-Keegstra een ontwerp gemaakt voor een uitbreiding met berging, glasopslagplaats en een kikkerkweeklaboratorium\"; elsewhere the text says only \"vermoedelijk uitgebreid\", so it was designed, not certainly built. The Dutch summary already says \"tekenden\"."
+   },
+   {
+    "field": "body",
+    "old": "free-standing houses in gardens, their backs in the water.",
+    "new": "free-standing houses in gardens, their backs on the water.",
+    "kind": "narrowed",
+    "source": "city:222208",
+    "evidence": "\"Aan de achterzijde stroomt het water van de Boerenwetering\"; only the corner villa rises straight from the water (rce:530054)."
+   }
+  ],
+  "patch": {
+   "summary": "A row of picture-book villas of 1930 on the Boerenwetering, and beside them a sand-coloured box of 1955 whose architects said they would rather build something ugly with character than 'sweet Hansel and Gretel architecture'. Later they drew an extension with a frog-breeding lab.",
+   "body": "The Rivierenbuurt is a district of long brick blocks, so the strip between the Haringvlietstraat and the Boerenwetering comes as a surprise: free-standing houses in gardens, their backs on the water. G.J. Rutgers, who built whole streets of flats nearby, designed three of them in 1928–1931 as one picturesque group: the corner villa at Churchilllaan 223 for a client named A. Haupt, the double villa at nos. 2–4 and the triple one at nos. 6–10, which sits exactly in the sight line of the Deurloostraat. Narrow red brick with sunken joints, steep tiled roofs with wide eaves, copper-roofed bay windows, brick flower boxes running round the walls: the city's own description calls them an odd one out among the housing blocks.\n\nThen comes nos. 12–14. The architect couple Joop Pot and Koos Pot-Keegstra designed this double house in 1953–1955 and lived in the left half themselves. It is a flat-roofed block of sand-coloured brick, three floors of plain windows and a few glass bricks, more like a small office than a home. The contrast with the neighbours was deliberate, and not everyone liked it. The couple said they would rather design an ugly building with character than 'lieve Hans- en Grietje-architectuur'. The celebrated Mien Ruys laid out the garden. In 1965 they drew an extension with a storeroom, a glass store and a laboratory for breeding frogs.\n\nKoos Pot-Keegstra was the first woman to graduate from the Amsterdam Academy of Architecture, in 1936. The pair later built the Poldertoren in Emmeloord and the Bijlmerbajes prison.\n\nAll are private houses, seen from the street. This place is pinned on nos. 12–14.\n\nLook for:\n- Haringvlietstraat 12–14: the clusters of six glass bricks and the lopsided window bars\n- nos. 2–4: the two bay windows with copper roofs, and the side porch with a copper-domed lantern\n- nos. 6–10: the wooden canopy and stone columns at the door of no. 8\n- Churchilllaan 223: the stone figure of a woman on the garden wall, the blue and white tiles in the gable, and the west front rising straight out of the water\n- the wooden beams that stick out of the corner villa's gable tops like bowsprits"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "sskg5ju39ypw3bnodz7yub9v",
+  "title": "Jekerschool, Margot Frank's school",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the Jekerschool on the right (later renamed the Vondelschool) and the Michel de Klerkschool on the left, named after the architect who had died four years before.",
+    "new": "the Jekerschool on the right and the Michel de Klerkschool on the left; later the whole building was called the Vondelschool.",
+    "kind": "narrowed",
+    "source": "city:222228",
+    "evidence": "\"de voormalige Jekerschool en de voormalige Michiel de Klerkschool, naderhand tezamen de Vondelschool genoemd\"; the source does not say the Jekerschool alone was renamed, nor that the school was named after the architect."
+   },
+   {
+    "field": "nl.body",
+    "old": "rechts de Jekerschool (later omgedoopt tot Vondelschool) en links de Michel de Klerkschool, genoemd naar de architect die vier jaar eerder was gestorven.",
+    "new": "rechts de Jekerschool en links de Michel de Klerkschool; later heette het hele gebouw de Vondelschool.",
+    "kind": "narrowed",
+    "source": "city:222228",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "The Vondelschool was moved out to the Dintelstraat, the Michel de Klerkschool was abolished,",
+    "new": "The Vondelschool was moved out to the Dintelstraat, the Michel de Klerkschool was abolished,",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/joodse-scholen-tijdens-de-oorlog/",
+    "evidence": "The list of 3 October 1941: \"Vondelschool van Jekerstraat 84 naar Dintelstraat 5\" and \"Michiel de Klerkschool, Jekerstraat 86\" among the schools closed. Numbers added so the Vondelschool name fits the change above. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "nl.body",
+    "old": "De Vondelschool moest naar de Dintelstraat, de Michel de Klerkschool werd opgeheven,",
+    "new": "De Vondelschool moest naar de Dintelstraat, de Michel de Klerkschool werd opgeheven,",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/joodse-scholen-tijdens-de-oorlog/",
+    "evidence": "Same change in Dutch. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "body",
+    "old": " De Klerk's own widow, Lea Jessurun, was murdered in Auschwitz on 19 November 1942.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Michel_de_Klerk",
+    "evidence": "Her murder is sourced (Wikipedia: \"Lea Jessurun (16 juni 1881 - Auschwitz, 19 november 1942)\"), but it only belongs here if the school was named after her husband, and no source in hand says so."
+   },
+   {
+    "field": "nl.body",
+    "old": " De weduwe van De Klerk zelf, Lea Jessurun, werd op 19 november 1942 in Auschwitz vermoord.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Michel_de_Klerk",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "Where the Jekerstraat kinks, opening a small green square, the city placed a school in 1927. Like others of those years it is two primary schools in one symmetrical building, each with its own entrance at one end and a shared gymnasium in the middle: the Jekerschool on the right and the Michel de Klerkschool on the left; later the whole building was called the Vondelschool. To keep the two apart indoors, the classrooms of one were numbered in Roman numerals and those of the other in Arabic.\n\nMargot Frank, Anne's older sister, entered the second class of the Jekerschool in January 1934, soon after arriving from Germany, and stayed until July 1938. She had to learn Dutch first, then got good marks.\n\nIn the autumn of 1941 the occupier's school segregation reached this building. The Vondelschool was moved out to the Dintelstraat, the Michel de Klerkschool was abolished, and the two halves became Jewish School no. 10 and no. 11, where only Jewish teachers taught only Jewish children. About a thousand children went to them between 1941 and 1943; many were deported and murdered. From 7 December 1942 the finance department and supervision bureau of the Jewish Council also worked at no. 84, joined in 1943 by its education department.\n\nThe building has not been a school since 1995 and has other users. It is seen from the square in front.\n\nLook for:\n- the two entrance bays at the ends, in darker brick, where the wall curves in and out\n- the orange brick and the three tiers of big classroom windows facing south\n- the middle window of the gymnasium, with more glazing bars than the rest\n- the slope of dark grey tiles that roofs only the classrooms\n- the metal plaque on the front for the deported pupils and teachers of the two Jewish schools, unveiled on 18 February 2018; it opens with the order of 25 August 1941 that removed Jewish pupils from the schools",
+   "translations": {
+    "nl": {
+     "body": "Waar de Jekerstraat een knik maakt en een klein groen plein openlaat, zette de gemeente in 1927 een school neer. Net als andere uit die jaren zijn het twee lagere scholen in één symmetrisch gebouw, elk met een eigen ingang aan een uiteinde en met een gedeelde gymzaal in het midden: rechts de Jekerschool en links de Michel de Klerkschool; later heette het hele gebouw de Vondelschool. Om ze binnen uit elkaar te houden kregen de lokalen van de ene school Romeinse cijfers en die van de andere Arabische.\n\nMargot Frank, de oudere zus van Anne, kwam in januari 1934 in de tweede klas van de Jekerschool, kort nadat ze uit Duitsland was gekomen, en bleef er tot juli 1938. Ze moest eerst Nederlands leren en haalde daarna goede cijfers.\n\nIn het najaar van 1941 bereikte de scheiding van de scholen dit gebouw. De Vondelschool moest naar de Dintelstraat, de Michel de Klerkschool werd opgeheven, en de twee helften werden Joodse School 10 en 11, waar alleen Joodse leerkrachten lesgaven aan alleen Joodse kinderen. Tussen 1941 en 1943 gingen er zo'n duizend kinderen naar school; veel van hen zijn weggevoerd en vermoord. Vanaf 7 december 1942 zaten op nummer 84 ook de afdeling Financiën en het Bureau Toezicht van de Joodsche Raad, in 1943 kwam de afdeling Onderwijs erbij.\n\nSinds 1995 is het gebouw geen school meer en heeft het andere gebruikers. Je ziet het vanaf het plein ervoor.\n\nLet op:\n- de twee ingangspartijen aan de uiteinden, in donkerder baksteen, waar de muur naar binnen en naar buiten buigt\n- de oranje baksteen en de drie rijen grote lokaalramen op het zuiden\n- het middelste raam van de gymzaal, met meer roeden dan de rest\n- het schuine vlak van donkergrijze pannen, dat alleen de lokalen afdekt\n- de metalen plaquette op de gevel voor de weggevoerde leerlingen en leerkrachten van de twee Joodse scholen, onthuld op 18 februari 2018; ze begint met het bevel van 25 augustus 1941 waarmee Joodse leerlingen van de scholen werden gehaald"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "saa1iauvzr8xtuzkvhqc5fro",
+  "title": "Kinderbrug (bridge 420) and its transformer hut",
+  "changes": [
+   {
+    "field": "body",
+    "old": "all in the same red-grey brick and Bavarian granite.",
+    "new": "in brick and Bavarian granite.",
+    "kind": "narrowed",
+    "source": "rce:527787",
+    "evidence": "Only the transformer house is described as \"rood-grauw\" brick; the bridge entry says \"metselwerk\" and \"natuursteen\", the pillar \"Beierse graniet\". That all parts share one brick is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "alles in dezelfde roodgrauwe baksteen en Beiers graniet.",
+    "new": "in baksteen en Beiers graniet.",
+    "kind": "narrowed",
+    "source": "rce:527787",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "nine small granite figures of children with animals, each by a different sculptor.",
+    "new": "nine figures of children, each by a different sculptor.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Muzenplein",
+    "evidence": "The list has a child with a fish, a girl with a ball, a girl with dolls, a girl with a snail shell and others: not all with animals. Material and size are not given."
+   },
+   {
+    "field": "nl.body",
+    "old": "negen kleine granieten kinderfiguren met dieren, elk van een andere beeldhouwer.",
+    "new": "negen kinderfiguren, elk van een andere beeldhouwer.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Muzenplein",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "The Churchilllaan ends at the Boerenwetering in a set piece that Piet Kramer designed in 1926–1930 as one composition: a wide, slightly arched bridge, quay walls, a landing stage and a little transformer house, in brick and Bavarian granite. It was built in 1930–1931, and the date stones still say ANNO 1930.\n\nThe sculpture is by Hildo Krop, made between 1929 and 1932. On the north side a granite pillar ten metres high carries a group he called 'De onbevangenheid der mensen tegenover het leven' (the open-mindedness of people towards life). On the south side, on the raised ends of the abutments, a girl sits with squirrels and a boy with rabbits.\n\nThe bridge is called the Kinderbrug or Kindertjesbrug (children's bridge), but the children it is named after are not these. They stand along the quay of the Muzenplein just beyond: nine figures of children, each by a different sculptor. The city had wanted Krop to do them all; his colleagues protested that he was getting a monopoly, and the work was shared out.\n\nThe square brick hut where the quay wall ends, with ventilation slots under a low zinc pyramid roof and a steel door flanked by flaps with St Andrew's crosses, was built for the municipal electricity company and is listed with the bridge.\n\nLook for:\n- Krop's pillar on the north side of the bridge\n- the girl with squirrels and the boy with rabbits on the south side\n- the stones with ANNO 1930\n- the fine wrought-iron railing on the brick parapet\n- the transformer hut and the paved landing stage along the quay\n- the nine children on the quay of the Muzenplein, a few steps west",
+   "translations": {
+    "nl": {
+     "body": "De Churchilllaan eindigt bij de Boerenwetering in een ensemble dat Piet Kramer in 1926-1930 als één geheel ontwierp: een brede, licht gewelfde brug, kademuren, een aanlegsteiger en een transformatorhuisje, in baksteen en Beiers graniet. Het werd gebouwd in 1930-1931 en op de jaartalstenen staat nog ANNO 1930.\n\nHet beeldhouwwerk is van Hildo Krop en dateert uit 1929-1932. Aan de noordkant draagt een granieten zuil van tien meter een groep die hij 'De onbevangenheid der mensen tegenover het leven' noemde. Aan de zuidkant zitten op de verhoogde uiteinden van de landhoofden een meisje met eekhoorns en een jongen met konijnen.\n\nDe brug heet Kinderbrug of Kindertjesbrug, maar de kinderen naar wie hij heet zijn dit niet. Die staan even verderop langs de kade van het Muzenplein: negen kinderfiguren, elk van een andere beeldhouwer. De stad had ze allemaal aan Krop willen geven. Zijn collega's protesteerden dat hij zo een monopolie kreeg, en het werk werd verdeeld.\n\nHet vierkante bakstenen huisje waar de kademuur ophoudt, met ventilatiesleuven onder een laag zinken piramidedak en een stalen deur tussen kleppen met andreaskruisen, is gebouwd voor het Gemeentelijk Energiebedrijf en is samen met de brug beschermd.\n\nLet op:\n- de zuil van Krop aan de noordkant van de brug\n- het meisje met eekhoorns en de jongen met konijnen aan de zuidkant\n- de stenen met ANNO 1930\n- het fijne smeedijzeren hek op de bakstenen borstwering\n- het transformatorhuisje en de bestrate aanlegsteiger langs de kade\n- de negen kinderen op de kade van het Muzenplein, een paar stappen naar het westen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "baktmd71by5dx5i3uikjobb9",
+  "title": "Lekstraat synagogue",
+  "changes": [
+   {
+    "field": "body",
+    "old": " It is not open to visitors.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://www.joodsamsterdam.nl/synagoge-lekstraat/",
+    "evidence": "No source says whether visitors are admitted."
+   },
+   {
+    "field": "nl.body",
+    "old": " Het is niet te bezichtigen.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://www.joodsamsterdam.nl/synagoge-lekstraat/",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- next door, the two brick-and-glass schools of 1954 (also listed), back to back across a playground",
+    "new": "- further along at Lekstraat 35-37, the former Aletta Jacobs and H.G. Gunning schools of 1954 (also listed)",
+    "kind": "narrowed",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=222229",
+    "evidence": "The city record for 222229 gives only \"vm. dr Aletta Jacobsschool en vm. prof. H.G. Gunningschool\", \"Lekstraat 35-37, Winterdijkstraat 10\", Publieke Werken, 1954, listed 2014, and has no description; \"next door\", brick and glass, back to back and the playground are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "- ernaast de twee scholen van baksteen en glas uit 1954 (ook een monument), rug aan rug aan een speelplaats",
+    "new": "- verderop op Lekstraat 35-37 de vroegere Aletta Jacobs- en H.G. Gunningschool uit 1954 (ook een monument)",
+    "kind": "narrowed",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=222229",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "In a district of curling Amsterdam School brick, the synagogue on the corner of the Lekstraat and the Kinderdijkstraat is a shock: a flat-roofed box clad in slabs of stone, with square windows low down, a strip of tall steel ones high up and nothing else but a line of Hebrew in metal letters. Abraham Elzas, a young architect who had worked for Le Corbusier in Paris, won the competition for it. It was inaugurated on 30 November 1937.\n\nIt was badly needed. The society Benei Teiman (Children of the South) had held services since 1926 in a converted building near the Amstelkade, while the Jewish population of the Rivierenbuurt grew from about 4,000 in 1930 to some 17,000 in 1940, many of them refugees from Germany. The new shul had barely five years. During the occupation yellow stars were sold here; then it was closed, and from 1943 it was used to store the furniture of Jews who had been deported.\n\nAfter the war so few came back that in the 1970s demolition was considered. Letting the main hall saved the building: from 1985 to 1999 it housed the Resistance Museum, and after that an auction house. The small shul in the yellow brick wing, with a Talmud school beside it, is in daily use by an Orthodox congregation. The whole building was restored in 2006.\n\nLook for:\n- the Hebrew text on the blind wall: 1 Kings 6:13, 'And I will dwell among the children of Israel, and will not forsake my people Israel'\n- the round hole under the eaves, made for a flagpole\n- the copper-clad roof edge\n- the two doors side by side in the brick link, one for men and one for women\n- the iron fences round the two small gardens\n- further along at Lekstraat 35-37, the former Aletta Jacobs and H.G. Gunning schools of 1954 (also listed)",
+   "translations": {
+    "nl": {
+     "body": "Tussen al het golvende baksteen van de Amsterdamse School is de sjoel op de hoek van de Lekstraat en de Kinderdijkstraat even schrikken: een doos met een plat dak, bekleed met platen natuursteen, met onderin vierkante ramen, bovenin een strook hoge stalen ramen en verder niets dan een regel Hebreeuws in metalen letters. Abraham Elzas, een jonge architect die in Parijs bij Le Corbusier had gewerkt, won er de prijsvraag mee. Op 30 november 1937 werd de synagoge ingewijd.\n\nZe was hard nodig. De vereniging Benei Teiman (Kinderen van het Zuiden) hield sinds 1926 diensten in een verbouwd pand bij de Amstelkade, terwijl het aantal Joden in de Rivierenbuurt groeide van ongeveer 4000 in 1930 tot zo'n 17.000 in 1940, onder wie veel vluchtelingen uit Duitsland. De nieuwe sjoel kreeg amper vijf jaar. In de bezetting werden hier Jodensterren verkocht. Daarna ging het gebouw dicht en vanaf 1943 werd er het meubilair van weggevoerde Joden opgeslagen.\n\nNa de oorlog kwamen er zo weinig mensen terug dat in de jaren zeventig aan sloop werd gedacht. Verhuur van de grote zaal heeft het gebouw gered: van 1985 tot 1999 zat er het Verzetsmuseum, daarna een veilinghuis. De kleine sjoel in de vleugel van gele baksteen, met een Talmoedschool ernaast, wordt dagelijks gebruikt door een orthodoxe gemeente. In 2006 is het hele gebouw gerestaureerd.\n\nLet op:\n- de Hebreeuwse tekst op de blinde muur: 1 Koningen 6:13, 'En ik zal in het midden der kinderen Israëls wonen en ik zal mijn volk Israël niet verlaten'\n- het ronde gat onder de dakrand, bedoeld voor een vlaggenstok\n- de met koper beklede dakrand\n- de twee deuren naast elkaar in het bakstenen tussenlid, een voor mannen en een voor vrouwen\n- de ijzeren hekken om de twee tuintjes\n- verderop op Lekstraat 35-37 de vroegere Aletta Jacobs- en H.G. Gunningschool uit 1954 (ook een monument)"
+    }
+   }
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=222229"
+  ]
+ },
+ {
+  "id": "elj99l24svemg057zw03gkon",
+  "title": "Maarten Luther Kerk",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The Lutherans of Amsterdam had two famous churches in the old centre,",
+    "new": "The Lutherans of Amsterdam had two churches in the old centre,",
+    "kind": "narrowed",
+    "source": "city:222315",
+    "evidence": "The source names \"de Oude Lutherse kerk aan het Spui en de Nieuwe of Ronde Lutherse kerk aan het Singel\" without calling them famous."
+   },
+   {
+    "field": "nl.body",
+    "old": "De lutheranen van Amsterdam hadden twee beroemde kerken in de binnenstad,",
+    "new": "De lutheranen van Amsterdam hadden twee kerken in de binnenstad,",
+    "kind": "narrowed",
+    "source": "city:222315",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "In 1931 they asked the city for a plot in the Rivierenbuurt for a church combined with housing,",
+    "new": "In 1931 they asked the city for a plot for a church combined with housing,",
+    "kind": "narrowed",
+    "source": "city:222315",
+    "evidence": "\"een terrein in erfpacht te verkrijgen voor de bouw van een kerkgebouw en woningen\"; where that plot was is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "In 1931 vroegen ze de gemeente om grond in de Rivierenbuurt voor een kerk met woningen erbij,",
+    "new": "In 1931 vroegen ze de gemeente om grond voor een kerk met woningen erbij,",
+    "kind": "narrowed",
+    "source": "city:222315",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "is by Ferdinand Jantzen, who built many Protestant churches.",
+    "new": "is by Ferdinand Jantzen, who designed several other Protestant churches.",
+    "kind": "narrowed",
+    "source": "city:222315",
+    "evidence": "\"Jantzen ontwierp meerdere kerken\" (several), all of them Protestant in the list; \"many\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "is van Ferdinand Jantzen, die veel protestantse kerken bouwde.",
+    "new": "is van Ferdinand Jantzen, die meer protestantse kerken ontwierp.",
+    "kind": "narrowed",
+    "source": "city:222315",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "with a weathervane in the form of a swan, the old emblem of Luther.",
+    "new": "with a weathervane in the form of a swan.",
+    "kind": "cut",
+    "source": "city:222315",
+    "evidence": "\"bekroond wordt door een windvaan in de vorm van een zwaan\"; that the swan is Luther's emblem is in no linked source."
+   },
+   {
+    "field": "nl.body",
+    "old": "en een windvaan in de vorm van een zwaan, het oude zinnebeeld van Luther.",
+    "new": "en een zwaan als windvaan.",
+    "kind": "cut",
+    "source": "city:222315",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "It is still a Lutheran church, with services, and otherwise closed.",
+    "new": "It is still a Lutheran church, with services.",
+    "kind": "cut",
+    "source": "https://www.luthersamsterdam.nl/kerkdiensten",
+    "evidence": "The congregation lists the church and its services; no source says it is closed at other times."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is nog steeds een lutherse kerk, met diensten, en daarbuiten gesloten.",
+    "new": "Het is nog steeds een lutherse kerk, met diensten.",
+    "kind": "cut",
+    "source": "https://www.luthersamsterdam.nl/kerkdiensten",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "The Lutherans of Amsterdam had two churches in the old centre, on the Spui and on the Singel, and after the 18th century, a few mission chapels apart, built nothing new. In 1931 they asked the city for a plot for a church combined with housing, the rents of which would help pay for it. That was not unusual, but the director of Public Works objected: churches should build churches, he said, and leave housing to private builders. A second plan, by the brothers Baanders, for a domed church on a Greek cross also came to nothing.\n\nThe church that was built is by Ferdinand Jantzen, who designed several other Protestant churches. He made his first sketches in 1936, the first pile went in on 25 January 1937 and the building was taken into use on 24 December of that year. The plot was narrow, so he stacked it: meeting rooms in a half-sunk concrete basement, and the church proper above, reached by a broad flight of steps. Everything is yellow Frisian brick on a plinth of granite. The front has three tall round-arched niches with brick laid like wickerwork; a tower stands to the left, ending in a pinched copper spire with a weathervane in the form of a swan.\n\nIt is still a Lutheran church, with services.\n\nLook for:\n- the swan on the spire\n- the three arched niches of the front, with the doors and windows set inside them\n- the bands of tuff stone in the brick of the basement\n- the tall ladder-like windows with leaded glass along the sides\n- the narrow link to the service building with the sexton's house on the south side",
+   "translations": {
+    "nl": {
+     "body": "De lutheranen van Amsterdam hadden twee kerken in de binnenstad, aan het Spui en aan het Singel, en bouwden na de achttiende eeuw, op een paar evangelisatielokalen na, niets nieuws meer. In 1931 vroegen ze de gemeente om grond voor een kerk met woningen erbij, waarvan de huur de kerk mee zou betalen. Dat was niet ongewoon, maar de directeur van Publieke Werken had bezwaar: kerken moesten kerken bouwen, vond hij, en de woningbouw aan particulieren laten. Ook een tweede plan, van de gebroeders Baanders, voor een koepelkerk op een Grieks kruis, ging niet door.\n\nDe kerk die er wel kwam, is van Ferdinand Jantzen, die meer protestantse kerken ontwierp. Hij maakte zijn eerste schetsen in 1936, op 25 januari 1937 ging de eerste paal de grond in en op 24 december van dat jaar werd het gebouw in gebruik genomen. De kavel was smal en dus stapelde hij: zalen in een half verzonken betonnen souterrain en daarboven de eigenlijke kerk, bereikbaar via een brede trap. Alles is van gele Friese baksteen op een plint van graniet. De voorgevel heeft drie hoge rondboognissen waarin de steen als vlechtwerk is gemetseld. Links staat een toren met een ingesnoerde koperen spits en een zwaan als windvaan.\n\nHet is nog steeds een lutherse kerk, met diensten.\n\nLet op:\n- de zwaan op de spits\n- de drie boognissen in de voorgevel, met de deuren en ramen erin\n- de banden van tufsteen in het metselwerk van het souterrain\n- de hoge ladderramen met glas in lood langs de zijgevels\n- het smalle tussenlid naar het dienstgebouw met de kosterswoning aan de zuidkant"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "gy73jsn1kntbnvgiwh1djw2o",
+  "title": "Merwedeplein, the Frank family's square",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "where the Frank family lived from 1933 to 1942, among 163 other refugees.",
+    "new": "where the Frank family lived from 1933 to 1942; a list of 1941 counts 163 foreign Jews on the square.",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/merwedeplein/",
+    "evidence": "\"volgens een lijst uit 1941 163 buitenlandse Joden op dit plein, voor een groot deel Duitse vluchtelingen\": foreign Jews, mostly refugees, not 163 refugees besides the Franks."
+   },
+   {
+    "field": "nl.summary",
+    "old": "waar de familie Frank van 1933 tot 1942 woonde tussen 163 andere vluchtelingen.",
+    "new": "waar de familie Frank van 1933 tot 1942 woonde; een lijst uit 1941 telt 163 buitenlandse Joden op het plein.",
+    "kind": "narrowed",
+    "source": "https://www.joodsamsterdam.nl/merwedeplein/",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": " It is not open; the doorway is all there is to see.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Merwedeplein",
+    "evidence": "No source says whether the flat can be visited."
+   },
+   {
+    "field": "nl.body",
+    "old": " Je kunt er niet in; alleen het portiek is te zien.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Merwedeplein",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- four Stolpersteine in the pavement at no. 37, for Otto, Edith, Margot and Anne Frank; Otto's ends with the word \"overleefd\", survived",
+    "new": "- the Stolpersteine in the pavement in front of no. 37, for the Frank family",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Merwedeplein",
+    "evidence": "\"Voor de portiek liggen Stolpersteine voor de familie Frank\"; the number of stones and the wording on Otto's are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "- vier struikelstenen in de stoep voor nr. 37, voor Otto, Edith, Margot en Anne Frank; die van Otto eindigt met het woord 'overleefd'",
+    "new": "- de struikelstenen in de stoep voor nr. 37, voor de familie Frank",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Merwedeplein",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "A triangle of grass behind the Wolkenkrabber where the Frank family lived from 1933 to 1942; a list of 1941 counts 163 foreign Jews on the square. Their flat at no. 37 is now a refuge for writers who cannot work freely at home; a neighbour ran a secret cabaret.",
+   "body": "The Merwedeplein is where Anne Frank had a normal childhood. The family took the second-floor flat at no. 37 when they left Frankfurt in 1933 (Anne followed in February 1934) and lived there until they went into hiding on 6 July 1942. The square was brand new. J.F. Staal had just finished the two yellow-brown brick wings around his tower, and they filled up as the first German Jewish refugees arrived: a list of 1941 counts 163 foreign Jews on this square alone.\n\nNot all of them are remembered by a diary. At no. 23 Herbert Nelson, son of the Berlin revue composer Rudolf Nelson, kept a satirical cabaret going in his own flat for a mostly German Jewish audience, and was never found out. At no. 59 lived Michel Velleman, who performed as the magician Ben Ali Libi; he was taken in the great raid of 20 June 1943, when the Jews of the neighbourhood were driven together on the Victorieplein, and murdered in Sobibor.\n\nThe Franks' flat was bought by a housing corporation in 2004, restored to its 1930s look with help from the Anne Frank House, and has since been lent to foreign writers who cannot work freely in their own country.\n\nThe west end of the square is closed by two older blocks of J.M. van der Mey (1928–1929), one of the architects of the Scheepvaarthuis. This place is pinned on no. 37.\n\nLook for:\n- Merwedeplein 37: the Franks' doorway, second floor\n- the statue of Anne Frank on the grass, a bag in each hand, looking back at her house one last time. Jet Schepp made it in 1994 and the city was not interested; a local bookseller's petition brought this larger cast here on 9 July 2005\n- van der Mey's corner bays, like the prow of a ship, and the wrought-iron weathervanes on his roofs\n- the passages under the houses in the Deltastraat\n- the back of the Wolkenkrabber, with its recessed steel balconies\n- the Stolpersteine in the pavement in front of no. 37, for the Frank family",
+   "translations": {
+    "nl": {
+     "summary": "Een driehoek gras achter de Wolkenkrabber, waar de familie Frank van 1933 tot 1942 woonde; een lijst uit 1941 telt 163 buitenlandse Joden op het plein. Hun flat op nummer 37 is nu een toevluchtsoord voor schrijvers; een buurman hield er een geheim cabaret.",
+     "body": "Op het Merwedeplein had Anne Frank een gewone jeugd. Het gezin betrok de flat op nummer 37, twee hoog, toen het in 1933 uit Frankfurt vertrok (Anne kwam in februari 1934 na) en woonde er tot het op 6 juli 1942 onderdook. Het plein was toen splinternieuw. J.F. Staal had net de twee geelbruine bakstenen vleugels rond zijn toren voltooid, en die liepen vol toen de eerste Duits-Joodse vluchtelingen aankwamen: op een lijst uit 1941 staan alleen al voor dit plein 163 buitenlandse Joden.\n\nNiet iedereen heeft een dagboek nagelaten. Op nummer 23 hield Herbert Nelson, zoon van de Berlijnse revuecomponist Rudolf Nelson, in zijn eigen huis een satirisch cabaret gaande voor een grotendeels Duits-Joods publiek. Het is nooit ontdekt. Op nummer 59 woonde Michel Velleman, die optrad als goochelaar Ben Ali Libi. Hij werd opgepakt bij de grote razzia van 20 juni 1943, toen de Joden uit de buurt op het Victorieplein bijeen werden gedreven, en in Sobibor vermoord.\n\nDe flat van de Franks is in 2004 gekocht door een woningcorporatie, met hulp van de Anne Frank Stichting teruggebracht naar de jaren dertig en sindsdien in gebruik bij buitenlandse schrijvers die in hun eigen land niet vrij kunnen werken.\n\nAan de westkant sluiten twee oudere blokken van J.M. van der Mey (1928-1929) het plein af, een van de architecten van het Scheepvaarthuis. De speld staat op nummer 37.\n\nLet op:\n- Merwedeplein 37: het portiek van de Franks, twee hoog\n- het beeld van Anne Frank op het gras, met in elke hand een tas, dat nog één keer omkijkt naar haar huis. Jet Schepp maakte het in 1994 en de gemeente zag er niets in; na een handtekeningenactie van een boekhandelaar uit de buurt kwam deze grotere versie er op 9 juli 2005\n- de hoekerkers van Van der Mey, als de boeg van een schip, en de smeedijzeren windvanen op zijn daken\n- de onderdoorgangen in de Deltastraat\n- de achterkant van de Wolkenkrabber, met de diepliggende stalen balkons\n- de struikelstenen in de stoep voor nr. 37, voor de familie Frank"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "t3ytw3twczvp63o9z5f2zzwm",
+  "title": "Miep Giesplantsoen",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Nearly every street in the Rivierenbuurt is named after a river.",
+    "new": "Many streets in the Rivierenbuurt are named after rivers.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/pagina/plan-zuid-en-de-oorlog/miep-giesplantsoen/",
+    "evidence": "The sources give only the official's reply \"Miep Gies is geen rivier\"; \"nearly every\" is a count no source makes."
+   },
+   {
+    "field": "nl.body",
+    "old": "In de Rivierenbuurt heet bijna elke straat naar een rivier.",
+    "new": "In de Rivierenbuurt zijn veel straten naar een rivier genoemd.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/pagina/plan-zuid-en-de-oorlog/miep-giesplantsoen/",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Otto Frank, the only one of the eight to survive,",
+    "new": "Otto Frank, the only one of the eight to survive,",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Margot_Frank",
+    "evidence": "\"haar vader Otto was de enige van de onderduikers uit het achterhuis die de Holocaust overleefde\"."
+   },
+   {
+    "field": "body",
+    "old": " The houses are private; the green is always open.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Miep_Giesplantsoen",
+    "evidence": "No source says anything about access to the houses or the green."
+   },
+   {
+    "field": "nl.body",
+    "old": " De huizen zijn bewoond; het plantsoen is altijd open.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Miep_Giesplantsoen",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the street sign, a person's name among the Lek, the Hunze and the Vecht",
+    "new": "- the street sign, a person's name between the Lekstraat and the Hunzestraat",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Miep_Giesplantsoen",
+    "evidence": "The green lies \"op de kruising van de Lekstraat en Hunzestraat\"; the Vecht is in no source for this spot."
+   },
+   {
+    "field": "nl.body",
+    "old": "- het straatnaambord, een mensennaam tussen de Lek, de Hunze en de Vecht",
+    "new": "- het straatnaambord, een mensennaam tussen de Lekstraat en de Hunzestraat",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Miep_Giesplantsoen",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the Lekstraat synagogue, a few doors west",
+    "new": "- the Lekstraat synagogue, further along the same block",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Miep_Giesplantsoen",
+    "evidence": "\"een schoolgebouw (Lekstraat 35-37) ter opvulling van een plots afgesloten woonblok van de Hunzestraat tot aan de Synagoge Lekstraat\"; distance and direction are not given."
+   },
+   {
+    "field": "nl.body",
+    "old": "- de synagoge aan de Lekstraat, een paar deuren naar het westen",
+    "new": "- de synagoge aan de Lekstraat, verderop in hetzelfde blok",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Miep_Giesplantsoen",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "Many streets in the Rivierenbuurt are named after rivers. So when a neighbour proposed, the day after Miep Gies died in January 2010, to give the nameless triangle of grass in front of his door her name, the first answer from the district office was, as he tells it: \"Miep Gies is not a river.\"\n\nHe lived at Hunzestraat 25, the house from which Miep and Jan Gies looked after the people hiding in the annexe on the Prinsengracht. Miep (1909–2010), born in Vienna, was Otto Frank's office worker; after the arrest in August 1944 she gathered up Anne's diary papers and kept them. Otto Frank, the only one of the eight to survive, came to this door in early June 1945 and stayed with the couple for more than seven years. He was living here when Miep handed him the papers that July.\n\nThe neighbour kept at it, through one district council and then its successor, and the green was renamed on 12 June 2013, Anne's birthday, with Miep's son and grandchildren present.\n\nOn the corner opposite, at Hunzestraat 4, lived Jacqueline van Maarsen (1929–2025), Anne's best friend.\n\nLook for:\n- the street sign, a person's name between the Lekstraat and the Hunzestraat\n- Hunzestraat 25, across from the green\n- Hunzestraat 4, on the corner\n- the Lekstraat synagogue, further along the same block",
+   "translations": {
+    "nl": {
+     "body": "In de Rivierenbuurt zijn veel straten naar een rivier genoemd. Toen een buurtbewoner de dag na de dood van Miep Gies, in januari 2010, voorstelde om de naamloze driehoek gras voor zijn deur naar haar te noemen, kreeg hij dan ook, zoals hij het zelf vertelt, eerst te horen: \"Miep Gies is geen rivier.\"\n\nHij woonde op Hunzestraat 25, het huis van waaruit Miep en Jan Gies voor de onderduikers in het Achterhuis aan de Prinsengracht zorgden. Miep (1909–2010), geboren in Wenen, werkte op het kantoor van Otto Frank; na de arrestatie in augustus 1944 raapte ze Annes dagboekpapieren bij elkaar en bewaarde ze. Otto Frank, de enige van de acht die terugkwam, stond begin juni 1945 hier voor de deur en bleef ruim zeven jaar bij het echtpaar wonen. Hij woonde hier toen Miep hem in juli de papieren gaf.\n\nDe buurman hield vol, eerst bij het ene stadsdeel en daarna bij zijn opvolger, en op 12 juni 2013, de verjaardag van Anne, kreeg het plantsoen zijn naam, in het bijzijn van Mieps zoon en kleinkinderen.\n\nOp de hoek ertegenover, Hunzestraat 4, woonde Jacqueline van Maarsen (1929–2025), Annes beste vriendin.\n\nLet op:\n- het straatnaambord, een mensennaam tussen de Lekstraat en de Hunzestraat\n- Hunzestraat 25, tegenover het plantsoen\n- Hunzestraat 4, op de hoek\n- de synagoge aan de Lekstraat, verderop in hetzelfde blok"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Margot_Frank"
+  ]
+ },
+ {
+  "id": "p5bhc1xr5fk17ukbm3u3buk6",
+  "title": "Ode aan de paardenvijg, a bronze heap of horse dung",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Some passers-by take it for a dolmen.",
+    "new": "Some see a dolmen in it.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg",
+    "evidence": "\"Sommigen zien in dit beeld ook wel een hunebed\": they see one in it, not mistake it for one."
+   },
+   {
+    "field": "nl.body",
+    "old": "Sommige voorbijgangers houden het voor een hunebed.",
+    "new": "Sommigen zien er een hunebed in.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "It lies in the public garden of the square and may be sat on.",
+    "new": "It lies in the public garden of the square.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg",
+    "evidence": "\"geplaatst in het plantsoen van het Merwedeplein\"; no source says it may be sat on."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het beeld ligt in het plantsoen van het plein; je mag erop zitten.",
+    "new": "Het beeld ligt in het plantsoen van het plein.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "Across the lawn from the statue of Anne Frank lie three bronze lumps. Their title is Ode aan de paardenvijg: ode to the horse dropping.\n\nAart Rietbroek (1929–1985), a sculptor who taught at the Rietveld Academie, put them here in 1972. He had noticed that horse dung was disappearing from the streets of Amsterdam. The milkman and the schillenboer (the man who collected kitchen peelings for animal feed) no longer came into the centre with horse and cart, but they still did their rounds in outer districts such as the Rivierenbuurt. So he modelled a heap that has fallen open into three pieces, reduced it to its simplest shape and had it cast. A critic of the newspaper De Tijd saw in it, that same year, a nod to the romantic picture of noble animals in the city, pecked at by sparrows.\n\nThe heap looks as if it was dumped at random on its concrete slab, and that is the point: everything else on the Merwedeplein is strictly symmetrical. Children use it as an extra climbing frame beside the playground. Some see a dolmen in it.\n\nIt lies in the public garden of the square.\n\nLook for:\n- the three pieces, which fit together into one heap\n- the concrete slab, the only thing on the square that seems to lie where it fell\n- at the other end of the lawn, Anne Frank looking back at no. 37",
+   "translations": {
+    "nl": {
+     "body": "Tegenover het beeld van Anne Frank, aan de andere kant van het gras, liggen drie bronzen brokken. Ze heten Ode aan de paardenvijg.\n\nAart Rietbroek (1929-1985), beeldhouwer en docent aan de Rietveld Academie, legde ze hier in 1972 neer. Het was hem opgevallen dat de paardenmest uit de Amsterdamse straten verdween. De melkboer en de schillenboer kwamen met paard en wagen de binnenstad niet meer in, maar reden hun ronde nog wel in buitenwijken als de Rivierenbuurt. Dus boetseerde hij een hoop die in drie stukken is opengevallen, bracht die terug tot de eenvoudigste vorm en liet hem gieten. Een criticus van dagblad De Tijd zag er datzelfde jaar een knipoog in naar het romantische beeld van edele dieren in de stad, compleet met mussen die eraan hadden gepikt.\n\nDe hoop lijkt zomaar op zijn betonplaat te zijn gekieperd, en daar gaat het om: al het andere op het Merwedeplein is streng symmetrisch. Kinderen gebruiken hem als extra klimrek naast de speelplaats. Sommigen zien er een hunebed in.\n\nHet beeld ligt in het plantsoen van het plein.\n\nLet op:\n- de drie stukken, die samen één hoop vormen\n- de betonplaat, het enige op het plein dat lijkt te liggen waar het toevallig viel\n- aan de andere kant van het gras: Anne Frank, die omkijkt naar nummer 37"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ui49gi8k7krhld9gr4pqhegb",
+  "title": "Sint Gabriëlkerk, a theosophists' church with a pentagram",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The composition of horizontals and verticals owes more to De Stijl than to any church tradition.",
+    "new": "The composition of horizontals and verticals draws on De Stijl as well as on traditional church building.",
+    "kind": "narrowed",
+    "source": "city:222219",
+    "evidence": "The city record says the design is \"geïnspireerd op zowel de traditionele kerkbouw als op De Stijl-motieven\": both, not more one than the other."
+   },
+   {
+    "field": "nl.body",
+    "old": "Zo'n spel van liggende en staande lijnen heeft meer met De Stijl te maken dan met kerkbouw.",
+    "new": "Dat spel van liggende en staande lijnen put zowel uit De Stijl als uit de traditionele kerkbouw.",
+    "kind": "narrowed",
+    "source": "city:222219",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "working with J.L.M. Lauweriks, the architect and theorist of design by geometric systems, who was himself a priest of this church.",
+    "new": "working with the architect J.L.M. Lauweriks, who was himself a priest of this church.",
+    "kind": "narrowed",
+    "source": "https://amsterdam.vkk.nl/over-ons/",
+    "evidence": "\"Als naaste medewerker trad op de architect J.L.M. Lauweriks (1864 – 1932), die tevens priester was voor dit kerkgenootschap in Amsterdam\"; his geometric design theory is in no linked source."
+   },
+   {
+    "field": "nl.body",
+    "old": "samen met J.L.M. Lauweriks, de architect die ontwerpen op meetkundige systemen baseerde en zelf priester van deze kerk was.",
+    "new": "samen met de architect J.L.M. Lauweriks, die zelf priester van deze kerk was.",
+    "kind": "narrowed",
+    "source": "https://amsterdam.vkk.nl/over-ons/",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "who served here as a priest for thirty years.",
+    "new": "who was a priest here and served the Liberal Catholic Church as a priest for thirty years.",
+    "kind": "narrowed",
+    "source": "city:222219",
+    "evidence": "City: \"Rueter is dertig jaar priester geweest in de Vrij-Katholieke Kerk\"; parish site: \"die eveneens als priester aan deze kerk was verbonden\". The thirty years are for the denomination, not this church."
+   },
+   {
+    "field": "nl.body",
+    "old": "die hier dertig jaar priester was.",
+    "new": "die hier priester was en in totaal dertig jaar priester in de Vrij-Katholieke Kerk.",
+    "kind": "narrowed",
+    "source": "city:222219",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Mass is on Sundays at 10.30; otherwise the church is closed.",
+    "new": "Mass is on Sundays at 10.30.",
+    "kind": "cut",
+    "source": "https://amsterdam.vkk.nl/diensten/",
+    "evidence": "The service list gives Sunday Mass at 10.30 and also a Thursday evening service; no source says the church is closed otherwise."
+   },
+   {
+    "field": "nl.body",
+    "old": "Op zondag is er om half elf mis; daarbuiten is de kerk dicht.",
+    "new": "Op zondag is er om half elf mis.",
+    "kind": "cut",
+    "source": "https://amsterdam.vkk.nl/diensten/",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "From the Deurloostraat it hardly looks like a church. A long yellow brick wall, a slate roof with a wide overhang, and in the middle a concrete Latin cross that is not stuck on but built in: it carries part of the roof, its arms are the bars of the windows, and its top breaks through the eaves into a flat-roofed dormer. The composition of horizontals and verticals draws on De Stijl as well as on traditional church building.\n\nThe congregation is as unusual as the building. The Vrij-Katholieke Kerk (Liberal Catholic Church) was founded in England in 1916 by the theosophists James Wedgwood and Charles Leadbeater: it keeps the Catholic mass and sacraments but reads them in a theosophical way. Its Amsterdam parish built this church in 1928 to a design by H.A. van Anrooy, working with the architect J.L.M. Lauweriks, who was himself a priest of this church. Geometry is everywhere: the window in the east gable, above the altar, is a five-sided rose with a pentagram, made by the Haarlem glazier Willem Bogtman, and the steel crest along the ridge is a chain of interlaced circles.\n\nInside are two glass mosaics, of Mary and of the archangel Gabriel, by Pam Rueter, a graphic artist known for more than a thousand bookplates, who was a priest here and served the Liberal Catholic Church as a priest for thirty years.\n\nIt is still the church of the Sint Gabriël parish, part of a small denomination that had 327 members in the Netherlands at the end of 2024. Mass is on Sundays at 10.30.\n\nLook for:\n- the concrete cross in the wall on the Deurloostraat and the dormer it runs into\n- the plinth of yellow and green brick laid like basketwork\n- the pentagram window in the gable on the Dongestraat\n- the steel ridge crest of interlaced circles\n- the bell tucked under the overhang of the roof at the east end",
+   "translations": {
+    "nl": {
+     "body": "Vanaf de Deurloostraat lijkt het nauwelijks een kerk. Een lange muur van gele baksteen, een leien dak met een brede overstek, en in het midden een betonnen Latijns kruis dat er niet op is geplakt maar erin zit: het draagt een stuk van het dak, de armen zijn de roeden van de ramen en de top breekt door de goot heen in een dakkapel met een plat dak. Dat spel van liggende en staande lijnen put zowel uit De Stijl als uit de traditionele kerkbouw.\n\nDe gemeente is even ongewoon als het gebouw. De Vrij-Katholieke Kerk werd in 1916 in Engeland gesticht door de theosofen James Wedgwood en Charles Leadbeater: ze houdt vast aan de katholieke mis en sacramenten, maar legt die theosofisch uit. De Amsterdamse kerkgemeente bouwde deze kerk in 1928 naar ontwerp van H.A. van Anrooy, samen met de architect J.L.M. Lauweriks, die zelf priester van deze kerk was. De meetkunde zit overal: het raam in de oostgevel, boven het altaar, is een vijfhoekige roos met een pentagram van de Haarlemse glazenier Willem Bogtman, en de stalen kam op de nok is een ketting van verstrengelde cirkels.\n\nBinnen hangen twee glasmozaïeken, van Maria en van de aartsengel Gabriël, van Pam Rueter, de graficus van meer dan duizend exlibrissen, die hier priester was en in totaal dertig jaar priester in de Vrij-Katholieke Kerk.\n\nHet is nog steeds de kerk van de Sint Gabriël Kerkgemeente, deel van een klein genootschap dat eind 2024 in Nederland 327 leden telde. Op zondag is er om half elf mis.\n\nLet op:\n- het betonnen kruis in de muur aan de Deurloostraat en de dakkapel waarin het uitloopt\n- de plint van gele en groene baksteen, gemetseld als vlechtwerk\n- het pentagramraam in de topgevel aan de Dongestraat\n- de stalen nokkam van verstrengelde cirkels\n- de luidklok onder de dakoverstek aan de oostkant"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "t6dhxueri7mi7qlw2cwjyf22",
+  "title": "The German V above a Diezestraat doorway",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A man who grew up across the street watched a German soldier paint this one.",
+    "new": "A man who lived in the street watched a German soldier paint one of them.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "The witness saw the V over 29-31 being painted; the one at 25-27, where the pin is, was found afterwards. \"Across the street\" is not stated: he lived at Diezestraat 12 II."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een man die aan de overkant opgroeide, zag een Duitse soldaat deze schilderen.",
+    "new": "Een man uit de straat zag een Duitse soldaat er een schilderen.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "hangs the dark shadow of a letter V, about 60 centimetres high.",
+    "new": "hangs the dark shadow of a large letter V.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "The \"ongeveer 60 cm. grote letter V\" is the one over 29-31; for 25-27 the source says only \"nog een grote letter V\"."
+   },
+   {
+    "field": "nl.body",
+    "old": "staat de donkere schim van een letter V, een centimeter of zestig hoog.",
+    "new": "staat de donkere schim van een grote letter V.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "In 1941 the BBC and leaflets dropped by the RAF spread the V for Victory across occupied Europe. That summer the Germans took the letter over: \"V = Victorie, want Duitschland wint voor Europa op alle fronten\"",
+    "new": "In 1941 leaflets dropped by the RAF spread the Allied V for Victory. That summer the Germans took the letter over: \"V = Victorie, Duitschland wint voor Europa op alle fronten\"",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Source: \"De V stond op strooibiljetten die boven Nederland werden gedropt o.a. door Royal Air Force\" and the slogan \"V = Victorie, Duitschland wint voor Europa op alle fronten\". The BBC and the word \"want\" inside the quote are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "In 1941 verspreidden de BBC en strooibiljetten van de RAF de V van Victorie over bezet Europa. Die zomer namen de Duitsers de letter over: \"V = Victorie, want Duitschland wint voor Europa op alle fronten\"",
+    "new": "In 1941 verspreidden strooibiljetten van de RAF de geallieerde V van Victorie. Die zomer namen de Duitsers de letter over: \"V = Victorie, Duitschland wint voor Europa op alle fronten\"",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "A man born in 1931, who lived at number 12, saw a German soldier paint the V here. The upper flats were lived in by soldiers, he said, who as far as he knew belonged to the requisitioned Sieberg garage on the Scheldeplein, two minutes away.",
+    "new": "A man born in 1931, who lived at number 12, saw a German soldier paint the V over the next doorway, 29 and 31. The upper flats were lived in by soldiers, he said, who as far as he knew belonged to the Sieberg garage on the Scheldeplein nearby, then held by the Wehrmacht.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "He wrote of \"het trapportaal van de percelen 29-31\"; Wiersema then found the second V at 25-27. The garage was \"bezet door de wehrmacht\" (geheugenvanplanzuid media-garage-sieberg); \"two minutes\" is not stated."
+   },
+   {
+    "field": "nl.body",
+    "old": "Een man uit 1931, die op nummer 12 woonde, zag een Duitse soldaat de V hier schilderen. In de bovenwoningen zaten soldaten die volgens hem bij de gevorderde Sieberggarage aan het Scheldeplein hoorden, twee minuten verderop.",
+    "new": "Een man uit 1931, die op nummer 12 woonde, zag een Duitse soldaat de V boven het volgende portiek schilderen, dat van 29 en 31. In de bovenwoningen zaten soldaten die volgens hem bij de Sieberggarage aan het Scheldeplein hoorden, vlakbij, waar toen de Wehrmacht zat.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Nobody remarked on it until he told the local history foundation in 2011, which then found a second V over the doorway of 29 and 31.",
+    "new": "Even the local history foundation had missed it until he told them in 2011. Checking his tip, they found this second V over 25 and 27.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "\"Hoewel Geheugen van Plan Zuid en Stichting leren in 2010 het uitgebreide onderzoek Spoorzoeken in de Rivierenbuurt hielden, zijn ons deze tekens niet opgevallen\" and \"Ik zag tot mijn verbazing dat boven het naastgelegen portiek van de huisnummers 25-27 nog een grote letter V was geschilderd\". The text had the two doorways the wrong way round. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "nl.body",
+    "old": "Niemand lette erop, tot hij het in 2011 aan de buurthistorici van Geheugen van Plan Zuid vertelde. Die vonden daarna een tweede V boven het portiek van 29 en 31.",
+    "new": "Ook de buurthistorici van Geheugen van Plan Zuid hadden het gemist tot hij het hun in 2011 vertelde. Bij het nagaan van zijn tip vonden ze deze tweede V boven 25 en 27.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Same change in Dutch. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "body",
+    "old": "- the doorway of 29 and 31, the next one south, where the second V was painted",
+    "new": "- the doorway of 29 and 31, the next one south, where he saw the V being painted",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "As above: the witnessed V is the one over 29-31."
+   },
+   {
+    "field": "nl.body",
+    "old": "- het portiek van 29 en 31, het volgende naar het zuiden, waar de tweede V stond",
+    "new": "- het portiek van 29 en 31, het volgende naar het zuiden, waar hij de V zag schilderen",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/ingezonden/200.htm",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "In the summer of 1941 the occupier answered the Allied V for Victory with a V of his own. A man who lived in the street watched a German soldier paint one of them. Black paint after the war never quite hid it.",
+   "body": "Look up above the open stairwell between numbers 25 and 27: in the brick, just over the stone lintel, hangs the dark shadow of a large letter V.\n\nIn 1941 leaflets dropped by the RAF spread the Allied V for Victory. That summer the Germans took the letter over: \"V = Victorie, Duitschland wint voor Europa op alle fronten\" (Germany wins for Europe on all fronts) appeared on banners, posters and walls. The resistance answered by turning the V into the W of Queen Wilhelmina.\n\nA man born in 1931, who lived at number 12, saw a German soldier paint the V over the next doorway, 29 and 31. The upper flats were lived in by soldiers, he said, who as far as he knew belonged to the Sieberg garage on the Scheldeplein nearby, then held by the Wehrmacht. After the liberation the letter was painted over in black, and it kept showing through.\n\nEven the local history foundation had missed it until he told them in 2011. Checking his tip, they found this second V over 25 and 27. He asked whether it was time to remove them. Most readers who answered said no.\n\nThese are private homes: look from the pavement.\n\nLook for:\n- the V over the stairwell of 25 and 27, clearest in flat light\n- the doorway of 29 and 31, the next one south, where he saw the V being painted\n- the wrought-iron grille of the stairwell window above each doorway",
+   "translations": {
+    "nl": {
+     "summary": "In de zomer van 1941 beantwoordde de bezetter de geallieerde V van Victorie met een eigen V. Een man uit de straat zag een Duitse soldaat er een schilderen. Zwarte verf heeft hem na de oorlog nooit helemaal weggekregen.",
+     "body": "Kijk omhoog bij het open trapportaal tussen de nummers 25 en 27: in de baksteen, vlak boven de stenen latei, staat de donkere schim van een grote letter V.\n\nIn 1941 verspreidden strooibiljetten van de RAF de geallieerde V van Victorie. Die zomer namen de Duitsers de letter over: \"V = Victorie, Duitschland wint voor Europa op alle fronten\" kwam op spandoeken, affiches en muren te staan. Het verzet maakte van de V weer de W van Wilhelmina.\n\nEen man uit 1931, die op nummer 12 woonde, zag een Duitse soldaat de V boven het volgende portiek schilderen, dat van 29 en 31. In de bovenwoningen zaten soldaten die volgens hem bij de Sieberggarage aan het Scheldeplein hoorden, vlakbij, waar toen de Wehrmacht zat. Na de bevrijding is de letter met zwarte verf overgeschilderd, maar hij kwam steeds weer tevoorschijn.\n\nOok de buurthistorici van Geheugen van Plan Zuid hadden het gemist tot hij het hun in 2011 vertelde. Bij het nagaan van zijn tip vonden ze deze tweede V boven 25 en 27. Hij vroeg of het geen tijd werd om ze weg te halen. De meeste lezers die reageerden, vonden van niet.\n\nHet zijn gewone woningen: kijk vanaf de stoep.\n\nLet op:\n- de V boven het trapportaal van 25 en 27, het best te zien bij vlak licht\n- het portiek van 29 en 31, het volgende naar het zuiden, waar hij de V zag schilderen\n- het smeedijzeren hekwerk voor het trappenhuisraam boven elk portiek"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "nrgi6zgog3xjlyaryea20c1r",
+  "title": "The Liberal Jewish synagogue on Jacob Soetendorp's island",
+  "changes": [
+   {
+    "field": "body",
+    "old": "built its own synagogue on the Graafschapstraat, a few hundred metres from here.",
+    "new": "built its own synagogue on the Graafschapstraat.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Liberaal_Joodse_Gemeente_Amsterdam",
+    "evidence": "\"De LJG had vanaf 1966 een eigen gebouwde synagoge, aan de Graafschapstraat nabij het Europaplein\"; the distance is in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "bouwde ze een eigen synagoge aan de Graafschapstraat, een paar honderd meter hiervandaan.",
+    "new": "bouwde ze een eigen synagoge aan de Graafschapstraat.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Liberaal_Joodse_Gemeente_Amsterdam",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "The building is not open to passers-by. It is best seen from the path and from across the water of the Kleine Wetering.",
+    "new": "It is best seen from across the water.",
+    "kind": "narrowed",
+    "source": "https://zoek.officielebekendmakingen.nl/gmb-2014-70576.html",
+    "evidence": "The city calls the site \"dit schiereilandje\"; no source names the water as the Kleine Wetering or says whether the building is open."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het gebouw is niet vrij toegankelijk. Je ziet het het best vanaf het pad en van over het water van de Kleine Wetering.",
+    "new": "Je ziet het het best van over het water.",
+    "kind": "narrowed",
+    "source": "https://zoek.officielebekendmakingen.nl/gmb-2014-70576.html",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "- the water of the Kleine Wetering around the peninsula",
+    "new": "- the water around the peninsula",
+    "kind": "narrowed",
+    "source": "https://zoek.officielebekendmakingen.nl/gmb-2014-70576.html",
+    "evidence": "The name of the water is in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "- het water van de Kleine Wetering rond het schiereilandje",
+    "new": "- het water rond het schiereilandje",
+    "kind": "narrowed",
+    "source": "https://zoek.officielebekendmakingen.nl/gmb-2014-70576.html",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "The glass cut out of the front of this grey block has the outline of a menorah, the seven-branched candlestick. It is the synagogue of the Liberaal Joodse Gemeente (Liberal Jewish Congregation) of Amsterdam, designed by Bjarne Mastenbroek and Uda Visser of SeARCH and in use since August 2010, with room for 800 people.\n\nThe congregation dates from 1932 and grew in the 1930s with Jews who had fled Germany. Few members survived the war. Under Jacob Soetendorp, rabbi from 1954 to 1972, it flourished again and in 1966 built its own synagogue on the Graafschapstraat. In 1978 the stretch of street in front of it was renamed Jacob Soetendorpstraat.\n\nAt the end of 2007 the congregation sold that building to the theatre producer Joop van den Ende. It was pulled down in 2008, and the street name was withdrawn: the whole street is Graafschapstraat again. For two and a half years services were held in a hall at the Stadionplein. At the congregation's wish the city gave the rabbi's name to the small peninsula on which the new building stands: Jacob Soetendorpeiland, since 2014.\n\nIt is best seen from across the water.\n\nLook for:\n- the menorah in glass, cut into the grey block\n- the water around the peninsula",
+   "translations": {
+    "nl": {
+     "body": "De glazen uitsnede in de gevel van dit grijze blok heeft de omtrek van een menora, de zevenarmige kandelaar. Het is de synagoge van de Liberaal Joodse Gemeente Amsterdam, ontworpen door Bjarne Mastenbroek en Uda Visser van SeARCH en sinds augustus 2010 in gebruik, met plaats voor 800 mensen.\n\nDe gemeente bestaat sinds 1932 en groeide in de jaren dertig door Joden die uit Duitsland waren gevlucht. Na de oorlog waren er nog maar weinig leden over. Onder Jacob Soetendorp, rabbijn van 1954 tot 1972, bloeide ze weer op, en in 1966 bouwde ze een eigen synagoge aan de Graafschapstraat. In 1978 kreeg het stuk straat ervoor de naam Jacob Soetendorpstraat.\n\nEind 2007 verkocht de gemeente dat gebouw aan theaterproducent Joop van den Ende. In 2008 ging het tegen de vlakte, en de straatnaam verviel: de hele straat heet weer Graafschapstraat. Tweeënhalf jaar lang waren de diensten in een zaal bij het Stadionplein. Op verzoek van de gemeente gaf de stad de naam van de rabbijn aan het schiereilandje waarop de nieuwbouw staat: Jacob Soetendorpeiland, sinds 2014.\n\nJe ziet het het best van over het water.\n\nLet op:\n- de menora in glas, uitgesneden in het grijze blok\n- het water rond het schiereilandje"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "y3pj6jkfrss0q5tkpfyaki4u",
+  "title": "The bookshop where the diary was probably bought",
+  "changes": [
+   {
+    "field": "body",
+    "old": "He also refused his window to Winterhulp, the Nazi relief collection.",
+    "new": "He also refused his window to the Winterhulp collection.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/architectuur/boekhandelblankevoort/blankevoort.htm",
+    "evidence": "\"We willen dat u uw etalage ter beschikking stelt voor de winterhulp ... Pa had toen gezegd dat-ie daar helemaal geen behoefte aan had\"; the source does not characterise Winterhulp as Nazi."
+   },
+   {
+    "field": "body",
+    "old": "the shop at that hour was, in his sister-in-law's words, one big yellow star.",
+    "new": "the shop at that hour was at times, in his sister-in-law's words, one big yellow star.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/architectuur/boekhandelblankevoort/blankevoort.htm",
+    "evidence": "\"was het bij ons soms een grote gele ster\": sometimes."
+   },
+   {
+    "field": "nl.body",
+    "old": "was de zaak op dat uur, zei zijn schoonzus later, één grote gele ster.",
+    "new": "was de zaak op dat uur, zei zijn schoonzus later, soms één grote gele ster.",
+    "kind": "narrowed",
+    "source": "https://www.geheugenvanplanzuid.nl/archief/architectuur/boekhandelblankevoort/blankevoort.htm",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "The shop tells it simply: on 11 June 1942 Anne Frank came in with her father and picked out a red-checked album for her birthday. The Anne Frank House is more careful. A card game she got that birthday certainly came from this shop, and the diary \"very likely\" did too, but there is no clear source for it. Anne wrote only that she was there when it was bought. Her father wrote in 1952 that his wife bought it.\n\nGerrit Blankevoort opened here on 5 September 1931, ten years to the day after his first shop in the west of town. The address was Zuider Amstellaan 62 and the neighbourhood was half built: from the door you looked across empty land as far as the Mirandabad swimming baths.\n\nUnder the occupation Blankevoort was told to hang the sign \"Verboden voor Joden\" (forbidden for Jews) and refused. He also refused his window to the Winterhulp collection. Nothing came of either refusal. When Jews were allowed in shops for only a late-afternoon hour, the shop at that hour was at times, in his sister-in-law's words, one big yellow star.\n\nThe Blankevoorts left in 1978. The shop has since been Boekhandel Jimmink, whose owner had the statue of Anne placed on the Merwedeplein in 2005. Open Tuesday to Friday 12:00 to 18:00, Saturday from 11:00.\n\nLook for:\n- the shopfront on the Rooseveltlaan, by the crossing with the Waalstraat\n- the shelves on Anne Frank and the Jewish Rivierenbuurt",
+   "translations": {
+    "nl": {
+     "body": "De winkel vertelt het zonder omwegen: op 11 juni 1942 kwam Anne Frank hier met haar vader binnen en zocht ze een roodgeruit album uit voor haar verjaardag. De Anne Frank Stichting is voorzichtiger. Een kaartspel dat ze die verjaardag kreeg, kwam zeker uit deze winkel, en het dagboek \"zeer waarschijnlijk\" ook, maar een duidelijke bron ontbreekt. Anne schreef alleen dat ze bij het kopen was geweest. Haar vader schreef in 1952 dat zijn vrouw het had gekocht.\n\nGerrit Blankevoort begon hier op 5 september 1931, op de dag af tien jaar na zijn eerste zaak in de Staatsliedenbuurt. Het adres was Zuider Amstellaan 62 en de buurt was half af: vanaf de deur keek je over kaal land zo naar het Mirandabad.\n\nIn de bezettingstijd moest Blankevoort het bordje \"Verboden voor Joden\" ophangen. Dat vertikte hij. Ook zijn etalage voor de Winterhulp kregen ze niet. Het liep allebei met een sisser af. Toen Joden alleen nog een uur aan het eind van de middag in winkels mochten komen, was de zaak op dat uur, zei zijn schoonzus later, soms één grote gele ster.\n\nDe Blankevoorts vertrokken in 1978. Sindsdien is het Boekhandel Jimmink, waarvan de eigenaar in 2005 het beeld van Anne op het Merwedeplein liet plaatsen. Open van dinsdag tot en met vrijdag van 12.00 tot 18.00 uur, zaterdag vanaf 11.00 uur.\n\nLet op:\n- de winkelpui aan de Rooseveltlaan, bij de kruising met de Waalstraat\n- de kasten over Anne Frank en de Joodse Rivierenbuurt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "c1uq2m4uz459d2orxqi3riiv",
+  "title": "The climbing sculpture of the Jewish children's home",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "It was a climbing pole for the Jewish children's home that Queen Juliana opened here in 1965,",
+    "new": "It was made for the Jewish children's home that Queen Juliana opened here in 1965, and the children could climb it,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann)",
+    "evidence": "\"Het kreeg de naam Joods Monument, maar Ittmann had het zo geconstrueerd dat het ook door de kinderen wel gebruikt kon worden als speelobject (klimpaal)\"; Buitenkunst: \"ook bedoeld als klimpaal\". A climbing pole as well, not only."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Het was een klimpaal voor het Joodse kindertehuis dat koningin Juliana hier in 1965 opende,",
+    "new": "Het werd gemaakt voor het Joodse kindertehuis dat koningin Juliana hier in 1965 opende, en de kinderen konden erin klimmen,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann)",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "It turned out to be a climbing pole.",
+    "new": "It turned out to be a monument that the children of a home could also climb.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann)",
+    "evidence": "As above: named Joods Monument, built so that it could also serve as a climbing pole."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het bleek een klimpaal te zijn.",
+    "new": "Het bleek een monument te zijn waar de kinderen van een tehuis ook in konden klimmen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann)",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "A bronze on the De Mirandalaan stood for years in a courtyard with no name, date or maker. It was made for the Jewish children's home that Queen Juliana opened here in 1965, and the children could climb it, and it has been back on its own spot since 2019.",
+   "body": "For years nobody could say what this bronze was, who had made it or why it stood in a courtyard. It turned out to be a monument that the children of a home could also climb.\n\nOn 16 November 1965 Queen Juliana opened a new Jewish children's home at De Mirandalaan 50, designed by Leon Waterman. It belonged to Le-Ezrath Ha-Jeled (The Child's Aid), the guardianship society that had taken on the care of Jewish children after the war; the psychiatrist and writer Hans Keilson was one of its founders. Hans Ittmann's sculpture was unveiled the same day. It is half a figure, with a trunk, limbs and a head with eyes, and half an abstraction, and Ittmann built it so that the children could climb it.\n\nEver fewer children needed the home, and it closed in 1975. The care foundation HVO-Querido took the building over. In 1996 it was sold and pulled down. The architect of the block that replaced it, Bruno Albert, liked the bronze and gave it a place in the inner garden, where its maker and its meaning were forgotten: it is neither signed nor dated. A staff member of the care home that is housed here now went looking and found Ittmann's name. In April 2019 the sculpture was cleaned and put back where it began, beside the avenue.\n\nLook for:\n- the head with its eyes, the trunk and the limbs: part person, part abstraction\n- no signature and no date anywhere on the bronze\n- the complex \"De Miranda\" behind it, on the site of the home",
+   "translations": {
+    "nl": {
+     "summary": "Een bronzen beeld aan De Mirandalaan stond jarenlang in een binnentuin, zonder naam, jaartal of maker. Het werd gemaakt voor het Joodse kindertehuis dat koningin Juliana hier in 1965 opende, en de kinderen konden erin klimmen, en sinds 2019 staat het weer op zijn eigen plek.",
+     "body": "Jarenlang wist niemand wat dit bronzen beeld voorstelde, wie het had gemaakt en waarom het in een binnentuin stond. Het bleek een monument te zijn waar de kinderen van een tehuis ook in konden klimmen.\n\nOp 16 november 1965 opende koningin Juliana aan De Mirandalaan 50 een nieuw Joods kindertehuis, ontworpen door Leon Waterman. Het was van Le-Ezrath Ha-Jeled (Het Kind ter Hulpe), de voogdijvereniging die na de oorlog de zorg voor Joodse kinderen op zich had genomen; de psychiater en schrijver Hans Keilson hoorde bij de oprichters. Dezelfde dag werd het beeld van Hans Ittmann onthuld. Het is half een figuur, met een romp, ledematen en een kop met ogen, en half abstract, en Ittmann maakte het zo dat de kinderen erin konden klimmen.\n\nEr kwamen steeds minder kinderen voor het tehuis in aanmerking en in 1975 ging het dicht. Zorgstichting HVO-Querido nam het gebouw over. In 1996 werd het verkocht en gesloopt. Bruno Albert, de architect van de nieuwbouw, vond het beeld erbij passen en zette het in de binnentuin. Daar raakten de maker en de bedoeling in het vergeetboek: het is niet gesigneerd en niet gedateerd. Een medewerker van de zorginstelling die hier nu zit, ging op zoek en kwam bij Ittmann uit. In april 2019 is het beeld schoongemaakt en teruggezet waar het begon, langs de laan.\n\nLet op:\n- de kop met ogen, de romp en de ledematen: half mens, half abstract\n- nergens op het brons een signatuur of een jaartal\n- het complex 'De Miranda' erachter, op de plek van het tehuis"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "jlou1u2ln9l8emmp4cjfh9dh",
+  "title": "Vrijheidslaan gates and arcades",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Berlage wanted his new town to be entered through gates. Here are three in one avenue: twin towers at the Amstel, a wall of flats opposite De Klerk's, and two mirrored blocks with shopping arcades where the Victorieplein opens.",
+    "new": "Seen from the Berlagebrug, the start of this avenue works as a gate into Berlage's Plan Zuid. Here are two such gates and a long wall between them: twin towers at the Amstel, flats on the north side, and two mirrored blocks with shopping arcades where the Victorieplein opens.",
+    "kind": "narrowed",
+    "source": "city:222241",
+    "evidence": "\"fungeren de blokken gezien vanaf de Berlagebrug als 'poort' naar Berlage's Plan Zuid\"; no source says Berlage wanted gates. The body itself counts two gates. The blocks opposite nos. 54-78 are by Kramer and Marnette (Lijst: Vrijheidslaan 53-77, 9-43), not De Klerk."
+   },
+   {
+    "field": "nl.summary",
+    "old": "Berlage wilde dat je zijn nieuwe stad door poorten binnenkwam. In deze ene laan staan er drie: twee torens aan de Amstel, een lange wand tegenover De Klerk en twee gespiegelde blokken met winkelgalerijen waar het Victorieplein begint.",
+    "new": "Vanaf de Berlagebrug gezien is het begin van deze laan een poort naar Berlages Plan Zuid. Er staan hier twee van zulke poorten met een lange wand ertussen: twee torens aan de Amstel, woningen aan de noordkant en twee gespiegelde blokken met winkelgalerijen waar het Victorieplein begint.",
+    "kind": "narrowed",
+    "source": "city:222241",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "That is Plan Zuid in one move: taller building on the corners to mark the main axes, and the architecture of both sides of a street handled as one.",
+    "new": "The register praises exactly this: the mirrored layout and the tower-like corners make the two blocks one ensemble, shaped to fit the street plan.",
+    "kind": "narrowed",
+    "source": "city:222241",
+    "evidence": "\"Beide blokken vormen één ensemble, waarbij in de architectonische vormgeving is ingespeeld op de stedenbouwkundige situatie ter plaatse. Met name de spiegelsymmetrische opzet en de hoge torenachtige elementen op de hoeken\"; \"mark the main axes\" is in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "Dat is Plan Zuid in één gebaar: hoger bouwen op de hoeken om de hoofdassen aan te geven, en de twee kanten van een straat als één geheel ontwerpen.",
+    "new": "Het monumentenregister roemt juist dat: door de spiegeling en de torenachtige hoeken vormen de twee blokken één ensemble, ontworpen op de plek in het stratenplan.",
+    "kind": "narrowed",
+    "source": "city:222241",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Between the two gates, beyond De Klerk's blocks, the north side continues",
+    "new": "Between the two gates the north side continues",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "The Lijst gives the facing blocks (Vrijheidslaan 53-77, 9-43, 45-51) to Kramer and Marnette; no source places De Klerk blocks here."
+   },
+   {
+    "field": "nl.body",
+    "old": "Tussen de twee poorten, voorbij de blokken van De Klerk, gaat de noordkant verder",
+    "new": "Tussen de twee poorten gaat de noordkant verder",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "They are listed and kept deliberately quiet.",
+    "new": "They are listed.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "Listed as municipal monuments (objnr 200022, 222243); \"deliberately quiet\" is in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "Ze zijn beschermd en houden zich met opzet rustig.",
+    "new": "Ze zijn beschermd.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Everything is seen from the street; the arcades are public.",
+    "new": "Everything is seen from the street.",
+    "kind": "cut",
+    "source": "city:222245",
+    "evidence": "No source says the arcades are public ground."
+   },
+   {
+    "field": "nl.body",
+    "old": "Alles is vanaf de straat te zien; de galerijen zijn openbaar.",
+    "new": "Alles is vanaf de straat te zien.",
+    "kind": "cut",
+    "source": "city:222245",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "Seen from the Berlagebrug, the start of this avenue works as a gate into Berlage's Plan Zuid. Here are two such gates and a long wall between them: twin towers at the Amstel, flats on the north side, and two mirrored blocks with shopping arcades where the Victorieplein opens.",
+   "body": "Coming off the Berlagebrug you pass through a gate without noticing it. The two blocks on either side of the start of the Vrijheidslaan, by the little-known partners Dirk Heineke and Evert Kuipers (1923–1929), mirror each other and rise by two extra floors at the corner of the Amsteldijk. The register praises exactly this: the mirrored layout and the tower-like corners make the two blocks one ensemble, shaped to fit the street plan.\n\nAt the far end Cornelis Kruyswijk did it again in 1923–1924, with more show. His two identical blocks face each other where the avenue meets the Rijnstraat and the Victorieplein. Each has a shopping arcade of seven arches on stone columns (granite on the north side, dark Tournai stone on the south), corner bays standing on heavy granite pillars, and round bay windows running up three or four floors. The frame is reinforced concrete. In 1961 the attic floor was cut down and given a cornice; on the southern block that has since been undone.\n\nBetween the two gates the north side continues with a long front by Jouke Zietsma (nos. 54–78, 1920–1922) and one by Zietsma and Th.J. Lammers that turns the corner into the Rijnstraat (nos. 80–88). They are listed.\n\nThis place is pinned on the southern arcade. Everything is seen from the street.\n\nLook for:\n- Vrijheidslaan 1–8 and Amsteldijk 124–142: the two corner towers, best seen from the bridge\n- the red-brown tiles and canopies over the shopfronts at the Amsteldijk end\n- Kruyswijk's arcades, with four doors in each porch: two for shops, two for the flats above\n- the leaded glass above the shop windows under the arcades\n- the corner bays on granite pillars at the Rijnstraat",
+   "translations": {
+    "nl": {
+     "summary": "Vanaf de Berlagebrug is het begin van deze laan een poort naar Berlages Plan Zuid. Er staan hier twee van zulke poorten met een lange wand ertussen: twee torens aan de Amstel, woningen aan de noordkant en twee gespiegelde blokken met winkelgalerijen waar het Victorieplein begint.",
+     "body": "Wie van de Berlagebrug komt, rijdt ongemerkt door een poort. De twee blokken aan het begin van de Vrijheidslaan, van de weinig bekende compagnons Dirk Heineke en Evert Kuipers (1923-1929), zijn elkaars spiegelbeeld en gaan op de hoek van de Amsteldijk twee lagen hoger op. Het monumentenregister roemt juist dat: door de spiegeling en de torenachtige hoeken vormen de twee blokken één ensemble, ontworpen op de plek in het stratenplan.\n\nAan het andere eind deed Cornelis Kruyswijk het in 1923-1924 nog eens over, met meer vertoon. Zijn twee gelijke blokken staan tegenover elkaar waar de laan de Rijnstraat en het Victorieplein raakt. Elk heeft een winkelgalerij van zeven bogen op stenen kolommen (graniet aan de noordkant, donkere Doornikse steen aan de zuidkant), hoekuitbouwen op zware granieten pijlers en ronde erkers die drie of vier verdiepingen doorlopen. Het skelet is van gewapend beton. In 1961 werd de zolderverdieping verlaagd en van een daklijst voorzien; bij het zuidelijke blok is dat inmiddels teruggedraaid.\n\nTussen de twee poorten gaat de noordkant verder met een lange gevel van Jouke Zietsma (nummers 54-78, 1920-1922) en een van Zietsma en Th.J. Lammers die de hoek naar de Rijnstraat omgaat (nummers 80-88). Ze zijn beschermd.\n\nDe speld staat op de zuidelijke galerij. Alles is vanaf de straat te zien.\n\nLet op:\n- Vrijheidslaan 1-8 en Amsteldijk 124-142: de twee hoektorens, het best te zien vanaf de brug\n- het roodbruine tegelwerk en de luifels boven de winkelpuien aan de kant van de Amsteldijk\n- de galerijen van Kruyswijk, met vier deuren per portiek: twee voor de winkels, twee voor de bovenwoningen\n- het glas in lood boven de etalages onder de galerijen\n- de hoekuitbouwen op granieten pijlers bij de Rijnstraat"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "kw64ov5tb9c5ss0i2911pfne",
+  "title": "Wilhelmina Drucker monument, the free woman on the Churchilllaan",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Her opponents called her Dolle Mina, Mad Mina.",
+    "new": "Her militant actions earned her the nickname Dolle Mina, Mad Mina.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Wilhelmina_Drucker",
+    "evidence": "\"Vanwege haar militante acties voor de gelijke positie van de vrouw verwierf ze de bijnamen 'IJzeren Mina' of 'Dolle Mina'\"; no source says who gave the name."
+   },
+   {
+    "field": "nl.body",
+    "old": "Haar tegenstanders noemden haar Dolle Mina.",
+    "new": "Door haar strijdbare acties kreeg ze de bijnaam Dolle Mina.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Wilhelmina_Drucker",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "became a leader of the artists' resistance. He forged identity cards by the tens of thousands",
+    "new": "became a leader of the Dutch resistance. He set up a centre that forged identity cards by the tens of thousands",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen",
+    "evidence": "\"een leider van het Nederlands verzet\"; \"Gerrit van der Veen zette de Persoonsbewijzencentrale op ... Er zijn ongeveer 80.000 persoonsbewijzen op deze manier gemaakt op de drukkerij van Frans Duwaer\". The cards were made by a group, not by him alone."
+   },
+   {
+    "field": "nl.body",
+    "old": "werd een van de leiders van het kunstenaarsverzet. Hij vervalste persoonsbewijzen bij tienduizenden",
+    "new": "werd een van de leiders van het Nederlandse verzet. Hij zette een centrale op die persoonsbewijzen bij tienduizenden vervalste",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "On 23 January 1970 the feminists who had just named themselves after the woman on this plinth burned a corset at her feet. The man who made the statue was shot by the Germans five years after he signed it.\n\nWilhelmina Drucker (1847–1925) founded the Vrije Vrouwenvereeniging (Free Women's Association) in 1889 and the weekly Evolutie in 1893. Her militant actions earned her the nickname Dolle Mina, Mad Mina. Admirers paid for a memorial, unveiled on 30 September 1939, her birthday, on what was then the Noorder Amstellaan. It is not a portrait. Drucker herself is only a relief on the plinth, as an old woman. On top stands a young woman with her arms spread: the woman as a free person.\n\nThe sculptor, Gerrit van der Veen, became a leader of the Dutch resistance. He set up a centre that forged identity cards by the tens of thousands and took part in the attack on the Amsterdam population register in 1943. On 10 June 1944 he was executed in the dunes at Overveen. The street where the SD, the German security service, had its headquarters was renamed after him.\n\nThe statue stands in the central garden of the avenue at the Waalstraat.\n\nLook for:\n- on the sides of the granite plinth: \"Vrouwen houdt de fakkel brandende\" (women, keep the torch burning) and the founding dates of her association and her paper\n- the signature \"G.J. v.d. Veen '39\" in the bronze\n- 500 metres west on the same strip of grass: Karel Gomes's walking Gandhi (1990), honoured every 2 October, his birthday, on an avenue named after the man who called him a half-naked fakir",
+   "translations": {
+    "nl": {
+     "body": "Op 23 januari 1970 verbrandden de feministes die zich net naar de vrouw op deze sokkel hadden genoemd hier een korset. De maker van het beeld is door de Duitsers gefusilleerd, vijf jaar nadat hij het had gesigneerd.\n\nWilhelmina Drucker (1847-1925) richtte in 1889 de Vrije Vrouwenvereeniging op en in 1893 het weekblad Evolutie. Door haar strijdbare acties kreeg ze de bijnaam Dolle Mina. Bewonderaars betaalden een gedenkteken, dat op 30 september 1939, haar geboortedag, werd onthuld aan wat toen nog de Noorder Amstellaan heette. Een portret is het niet geworden. Drucker zelf staat alleen als reliëf op de sokkel, op leeftijd. Bovenop staat een jonge vrouw met gespreide armen: de vrouw als vrij mens.\n\nBeeldhouwer Gerrit van der Veen werd een van de leiders van het Nederlandse verzet. Hij zette een centrale op die persoonsbewijzen bij tienduizenden vervalste en deed in 1943 mee aan de aanslag op het Amsterdamse bevolkingsregister. Op 10 juni 1944 is hij in de duinen bij Overveen doodgeschoten. De straat waar de SD, de Duitse veiligheidsdienst, zijn hoofdkwartier had, kreeg zijn naam.\n\nHet beeld staat in het middenplantsoen van de laan, ter hoogte van de Waalstraat.\n\nLet op:\n- op de zijkanten van de granieten sokkel: 'Vrouwen houdt de fakkel brandende' en de oprichtingsdata van haar vereniging en haar blad\n- de signatuur 'G.J. v.d. Veen '39' in het brons\n- 500 meter westelijker in hetzelfde plantsoen: de lopende Gandhi van Karel Gomes (1990), elk jaar herdacht op 2 oktober, zijn geboortedag, op een laan die heet naar de man die hem een halfnaakte fakir noemde"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "d9taupfnot9b2vr5qg4u8h2m",
+  "title": "Amsteldijk 75–86: Berlage's house and the sculptors' yard",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Dutch theosophy began next door,",
+    "new": "next door was the centre of the Dutch theosophists,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amsteldijk/75-78",
+    "evidence": "\"Nummer 76 diende rond de eeuwwisseling als centrum van de theosofische beweging\"; no source says the movement began there."
+   },
+   {
+    "field": "nl.summary",
+    "old": "ernaast begon de Nederlandse theosofie,",
+    "new": "ernaast zat het centrum van de Nederlandse theosofen,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amsteldijk/75-78",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "His neighbours at no. 76 were the Dutch theosophists, who had started there around 1890; in 1901 they moved their centre to no. 80, and in 1908 Berlage designed them a wooden hall on the Tolstraat, beside where their concrete temple now stands.",
+    "new": "His neighbours at no. 76 were the Dutch theosophists, whose centre it was around 1900; from 1901 no. 80 was their meeting place too, and in 1908 Berlage designed them a wooden hall on the Tolstraat, beside where their temple was built in 1927.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amsteldijk/75-78",
+    "evidence": "\"Nummer 76 diende rond de eeuwwisseling als centrum ... In 1901 werd Amsteldijk 80 het centrum ... Vlak daarnaast werd in 1927 de theosofische tempel gebouwd. Amsteldijk 76 bleef hoofdkwartier van de beweging tot 1920\"; 79-80 page: \"Vanaf 1901 diende nummer 80 als bijeenkomstcentrum\". No source for a start around 1890, a move, or a concrete temple."
+   },
+   {
+    "field": "nl.body",
+    "old": "Zijn buren op 76 waren de Nederlandse theosofen, die daar rond 1890 waren begonnen; in 1901 verhuisden ze hun centrum naar nummer 80, en in 1908 tekende Berlage voor hen een houten zaal in de Tolstraat, naast de plek waar nu hun betonnen tempel staat.",
+    "new": "Zijn buren op 76 waren de Nederlandse theosofen, die er rond 1900 hun centrum hadden; vanaf 1901 kwamen ze ook op nummer 80 bijeen, en in 1908 tekende Berlage voor hen een houten zaal in de Tolstraat, naast de plek waar in 1927 hun tempel werd gebouwd.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amsteldijk/75-78",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "Nos. 79–80 and the white workshop at Lutmastraat 271 were built in 1893–1894, also by Cuypers, for the sculptors Van den Bossche and Crevels, who made altars, communion rails, confessionals and tombs for Catholic churches. No. 79 is a sliver about five metres by four with a sandstone front, drawn as a store.",
+    "new": "Nos. 79–80 and the white workshop at Lutmastraat 271 were built in 1893–1894, also by Cuypers, for the sculptors Van den Bossche and Crevels, who made altars, communion rails, confessionals and tombs for churches. No. 79 is a sliver about five metres by four with a sandstone front, drawn as a store.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amsteldijk/79-80",
+    "evidence": "\"Het pand werd ontworpen als magazijn door architect Joseph Herman\"; De Tijd (Lutmastraat 271 page) speaks of \"kerkelijke kunst\" without naming a denomination. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "nl.body",
+    "old": "voor de beeldhouwers Van den Bossche en Crevels, die altaren, communiebanken, biechtstoelen en grafmonumenten voor katholieke kerken maakten. Nummer 79 is een strookje van ongeveer vijf bij vier meter met een zandstenen gevel, getekend als magazijn.",
+    "new": "voor de beeldhouwers Van den Bossche en Crevels, die altaren, communiebanken, biechtstoelen en grafmonumenten voor kerken maakten. Nummer 79 is een strookje van ongeveer vijf bij vier meter met een zandstenen gevel, getekend als magazijn.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Amsteldijk/79-80",
+    "evidence": "Same change in Dutch. [Verification: trimmed a detail that was not in the old text.]"
+   },
+   {
+    "field": "body",
+    "old": "to look like a closed, late-medieval town house.",
+    "new": "in a closed style that harks back to the Middle Ages.",
+    "kind": "narrowed",
+    "source": "city:222111",
+    "evidence": "\"een naar de middeleeuwen verwijzende vormentaal\"; \"late\" and \"town house\" are in no source."
+   },
+   {
+    "field": "nl.body",
+    "old": "als een gesloten, laatmiddeleeuws stadshuis.",
+    "new": "in een gesloten stijl die naar de middeleeuwen verwijst.",
+    "kind": "narrowed",
+    "source": "city:222111",
+    "evidence": "Same change in Dutch."
+   },
+   {
+    "field": "body",
+    "old": "All are private; the fronts are best seen",
+    "new": "The fronts are best seen",
+    "kind": "cut",
+    "source": "city:222040",
+    "evidence": "No source says whether the houses can be visited."
+   },
+   {
+    "field": "nl.body",
+    "old": "Alles is particulier; de gevels zie je",
+    "new": "De gevels zie je",
+    "kind": "cut",
+    "source": "city:222040",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "summary": "The smart river front of a vanished municipality. Berlage lived and worked at no. 77 from 1908 to 1914, next door was the centre of the Dutch theosophists, and round the corner two sculptors ran a workshop for altars and pulpits. The last house dates from 1941.",
+   "body": "South of the old town hall the Amsteldijk keeps a short run of the houses that the well-off of Nieuwer-Amstel built to face the river. The two set-back middle houses (nos. 76 and 77) were designed in 1874 by J.H. Leliman. In 1887 Eduard Cuypers, nephew of the Rijksmuseum architect and later the employer of the young De Klerk and Kramer, added a storey to them and put a showy red house on either side, making a little forecourt. Nos. 75–78 are the pin for this stretch.\n\nH.P. Berlage lived and had his office at no. 77 from 1908 to 1914. His neighbours at no. 76 were the Dutch theosophists, whose centre it was around 1900; from 1901 no. 80 was their meeting place too, and in 1908 Berlage designed them a wooden hall on the Tolstraat, beside where their temple was built in 1927.\n\nNos. 79–80 and the white workshop at Lutmastraat 271 were built in 1893–1894, also by Cuypers, for the sculptors Van den Bossche and Crevels, who made altars, communion rails, confessionals and tombs for churches. No. 79 is a sliver about five metres by four with a sandstone front, drawn as a store. No. 86, at the end, is the odd one out: four flats of 1941, built in mid-occupation in a closed style that harks back to the Middle Ages.\n\nThe fronts are best seen from the river side of the road.\n\nLook for:\n- no. 78: a relief of blindfolded, winged Father Time with cherubs\n- no. 75: its pair, a woman at a spinning wheel with a shepherd boy and a sheep\n- nos. 76–77: Cuypers's dormer of almost unbroken glass\n- no. 80: cherubs with sculptors' tools above the double door, and a half-timbered top floor\n- no. 79: one window wide, with a shop door in the cut-off corner\n- Lutmastraat 271: the tall studio windows\n- no. 86: the small, heavy entrance in a nearly blank front",
+   "translations": {
+    "nl": {
+     "summary": "Het deftige rivierfront van een verdwenen gemeente. Berlage woonde en werkte van 1908 tot 1914 op nummer 77, ernaast zat het centrum van de Nederlandse theosofen, en om de hoek maakten twee beeldhouwers altaren en preekstoelen. Het laatste huis is van 1941.",
+     "body": "Ten zuiden van het oude raadhuis staat aan de Amsteldijk nog een kort rijtje van de huizen die de gegoede burgers van Nieuwer-Amstel aan de rivier lieten zetten. De twee terugliggende middelste huizen (76 en 77) zijn in 1874 getekend door J.H. Leliman. In 1887 zette Eduard Cuypers, neef van de bouwer van het Rijksmuseum en later de baas van de jonge De Klerk en Kramer, er een verdieping op en bouwde hij aan weerskanten een opzichtig rood huis, zodat er een voorpleintje ontstond. Op 75-78 staat de speld.\n\nH.P. Berlage woonde en werkte van 1908 tot 1914 op nummer 77. Zijn buren op 76 waren de Nederlandse theosofen, die er rond 1900 hun centrum hadden; vanaf 1901 kwamen ze ook op nummer 80 bijeen, en in 1908 tekende Berlage voor hen een houten zaal in de Tolstraat, naast de plek waar in 1927 hun tempel werd gebouwd.\n\nNummer 79-80 en de witte werkplaats aan de Lutmastraat 271 zijn in 1893–1894 gebouwd, ook door Cuypers, voor de beeldhouwers Van den Bossche en Crevels, die altaren, communiebanken, biechtstoelen en grafmonumenten voor kerken maakten. Nummer 79 is een strookje van ongeveer vijf bij vier meter met een zandstenen gevel, getekend als magazijn. Nummer 86, aan het eind, valt uit de toon: vier etagewoningen uit 1941, midden in de bezetting gebouwd in een gesloten stijl die naar de middeleeuwen verwijst.\n\nDe gevels zie je het best vanaf de rivierkant van de weg.\n\nLet op:\n- nummer 78: een reliëf van een geblinddoekte, gevleugelde Vader Tijd met putti\n- nummer 75: de tegenhanger, een vrouw aan het spinnewiel met een herdersjongen en een schaap\n- 76-77: de bijna geheel glazen dakkapel van Cuypers\n- nummer 80: putti met beeldhouwersgereedschap boven de dubbele deur, en een bovenverdieping in vakwerk\n- nummer 79: één raam breed, met een winkeldeur in de afgeschuinde hoek\n- Lutmastraat 271: de hoge atelierramen\n- nummer 86: de kleine, zware ingang in een bijna dichte gevel"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bo7jjgf2y6oruzkqmo216lsa",
+  "title": "Coöperatiehof",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The library left around 1984 for the old theosophical temple on the Tolstraat, and the building is now offices.",
+    "new": "The library left around 1984 for the larger Cinetol building, and offices moved in.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Co%C3%B6peratiehof_16",
+    "evidence": "\"De bibliotheek zou tot circa 1984 in dit gebouw gevestigd zijn; ze week toen uit naar het grotere gebouw van Cinetol. Er werden kantoren in gevestigd.\" No source in this place ties Cinetol to the theosophical temple or says the offices are still there."
+   },
+   {
+    "field": "nl.body",
+    "old": "Rond 1984 verhuisde de bibliotheek naar de oude theosofische tempel in de Tolstraat; nu zitten er kantoren.",
+    "new": "Rond 1984 verhuisde de bibliotheek naar het grotere gebouw van Cinetol, waarna er kantoren in kwamen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Co%C3%B6peratiehof_16",
+    "evidence": "Same change in Dutch."
+   }
+  ],
+  "patch": {
+   "body": "From the Burgemeester Tellegenstraat you see a tall brick block with two gateways. Go through either one and the city drops to two storeys: three low rows of workers' houses with steep red roofs round an oval lawn some fifty metres long. This is the Coöperatiehof, built between 1925 and 1928 and named after the body that built it, the Bouwmaatschappij tot Verkrijging van Eigen Woningen, a housing cooperative that workers had founded in 1868.\n\nPiet Kramer designed all of it, including the building that takes the place a church has in a village: a public reading room and meeting hall with a tapering, lead-clad clock tower. It opened on 26 January 1929 and replaced a handful of small libraries in the district. The library left around 1984 for the larger Cinetol building, and offices moved in. Above the door a stone by Jan Trapman shows seven book spines (one says \"leeszaal\", reading room), a key with seven teeth and, in the corner, a snake.\n\nIn the middle of the lawn a stone sphere on a compass rose honours Lucas van Buuren, who chaired the cooperative; the members gave it when he stepped down in 1936. Walk round to the back of the reading room, on the little green that looks down the Takstraat, for Kramer's much larger monument to mayor Tellegen, unveiled in 1929 and paid for by the city's housing associations. The hof is a public street; the houses are private.\n\nLook for:\n- the two gate buildings, with teardrop-shaped brick piers between the footways\n- the clock tower: four dials in a cube on a lead-clad shaft\n- Trapman's stone above the reading room door\n- the lettering round the Van Buuren sphere and the wind directions at its foot\n- the Tellegen monument on the back wall: his profile, doves and stars, and carved heads higher up\n- Lutmastraat 134: a small rounded sculpture under a balcony on the east corner of the big block",
+   "translations": {
+    "nl": {
+     "body": "Vanaf de Burgemeester Tellegenstraat zie je een hoog bakstenen blok met twee poorten. Loop er een door en de stad zakt naar twee verdiepingen: drie lage rijen arbeiderswoningen met steile rode daken rond een ovaal plantsoen van een meter of vijftig lang. Dit is het Coöperatiehof, gebouwd tussen 1925 en 1928 en genoemd naar de bouwer: de Bouwmaatschappij tot Verkrijging van Eigen Woningen, een wooncoöperatie die arbeiders in 1868 hadden opgericht.\n\nPiet Kramer ontwierp alles, ook het gebouw dat de plaats inneemt die in een dorp de kerk heeft: een openbare lees- en vergaderzaal met een taps toelopende klokkentoren, bekleed met lood. De leeszaal ging op 26 januari 1929 open en verving een stel kleine bibliotheekjes in de buurt. Rond 1984 verhuisde de bibliotheek naar het grotere gebouw van Cinetol, waarna er kantoren in kwamen. Boven de deur zit een steen van Jan Trapman met zeven boekruggen (op één staat 'leeszaal'), een sleutel met zeven tanden en in de hoek een slang.\n\nMidden op het gras eert een stenen bol op een kompasroos Lucas van Buuren, voorzitter van de coöperatie; de leden schonken hem bij zijn afscheid in 1936. Loop om naar de achterkant van de leeszaal, aan het plantsoentje dat de Takstraat in kijkt, voor Kramers veel grotere monument voor burgemeester Tellegen, onthuld in 1929 en betaald door de Amsterdamse woningbouwverenigingen. Het hof is openbare weg; de huizen zijn bewoond.\n\nLet op:\n- de twee poortgebouwen, met druppelvormige gemetselde pijlers tussen de voetgangersdoorgangen\n- de klokkentoren: vier wijzerplaten in een kubus op een loden schacht\n- de steen van Trapman boven de deur van de leeszaal\n- de letters rond de bol van Van Buuren en de windstreken aan de voet\n- het Tellegenmonument op de achtergevel: zijn profiel, duiven en sterren, en hogerop gebeeldhouwde koppen\n- Lutmastraat 134: een klein afgerond beeldhouwwerk onder een balkon, op de oostelijke hoek van het grote blok"
+    }
+   }
+  },
+  "sources_add": []
+ }
+]
