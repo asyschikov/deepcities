@@ -228,6 +228,12 @@ your own when you're done. Review what comes back; don't trust it blindly.
 
 ### Rules that matter most
 
+- **Never make anything up.** The user's first rule ("it is critical not to make shit up"). Every
+  claim traces to a source you actually read. Making a text exciting means choosing and ordering
+  the true facts, never adding colour, motives, quotes or "probably"s that no source gives. A
+  rewrite only rephrases what is already checked; if a claim can't be traced, cut it. Rewriting
+  agents list every changed fact with its source, and a second agent compares old and new for
+  added claims before anything goes live.
 - **Two languages, both native.** Write the Dutch (`nl:`) from Dutch sources (register texts, nl.wikipedia, local news and history sites), using their terms and phrasing where they are apt. Never translate the English.
   - **Write, don't paste.** No sentences lifted from a source: not from the register, Wikipedia, Stadscuratorium, artists' or museums' sites (copyright, and it reads stiff). No register jargon ("van hoge architectuurhistorische waarde", "periodekarakteristiek", "notabene"): say it as a person would.
   - Write the English natively. Gloss Dutch terms on first use.
