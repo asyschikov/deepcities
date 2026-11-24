@@ -34,12 +34,16 @@ READ
                                            ("fields"), your role + capabilities
                                            (creating maps and members: see MAPS below)
   dc places <slug> [--borough X] [--neighbourhood X] [--sub-neighbourhood X]
-                   [--category KEY] [--field key=value]... [--q TEXT]
-                                           published places (compact, with attributes)
-  dc place <placeId>                       full place: fields, photos (+credits), history
-  dc export <slug>                         every published place in full (all
+                   [--category KEY] [--field key=value]... [--q TEXT] [--all]
+                                           the places the map shows (compact, with
+                                           attributes, parentId, detail); for a view
+                                           map, what the view shows. --all: every
+                                           place of the map's home, at any detail
+  dc place <placeId>                       full place: fields, photos (+credits), history,
+                                           parent and children
+  dc export <slug> [--all]                 every place the map shows in full (all
                                            translations, attributes, photo ids): backup,
-                                           diff base, bulk review
+                                           diff base, bulk review; --all as for places
 
 WRITE  (contributors: goes to review; moderators/admins: published immediately)
   dc create <slug> <draft>  [--note TEXT]  new place
@@ -67,12 +71,16 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
   dc import <slug> <file.json|-> [--note TEXT] [--dry-run] [--upsert]
                                            bulk create from a JSON array of drafts
                                            (each may carry "note"); titles already on
-                                           the map are skipped, or with --upsert updated
+                                           the map (at any detail) are skipped, or with
+                                           --upsert updated
                                            like \`dc update\` ("photos" ignored if the place
                                            already has some); keeps going past failures.
                                            New places that match one on the city's other
                                            maps (same title, monument_number, or < 25 m)
-                                           get "alsoOn" (--no-cross-check skips it)
+                                           get "alsoOn" (--no-cross-check skips it).
+                                           "parent" may name a place earlier in the file.
+                                           A view map refuses imports: import into its
+                                           source
   dc photo <slug> <source> [--credit TEXT] [--license TEXT] [--source-url URL]
                                            upload one photo, prints {"id"}; use the id
                                            in photoIds. source = local file path,
@@ -128,6 +136,15 @@ Bulk commands (import, update-many, archive-many, copy) print every result and
 exit 1 if any failed. Network, database and rate-limit errors are retried with
 backoff (1 s, 3 s, 9 s); --retries N changes the number of retries (default 3).
 
+VIEWS AND CLUSTERS
+  A place lives on one home map. A view map (see \`dc map-view\`) has no places of
+  its own: it shows some of its source's places, so \`dc places <view>\` lists
+  them, \`dc create <view>\` adds the place to the source ("detail": "district"
+  when the view shows full detail), and \`dc import <view>\` is refused.
+  A cluster is an ordinary place other places name as "parent" (by id or exact
+  title on the same home map). Home maps show "detail": "city" places; a
+  full-detail view shows every matching place except clusters with parts.
+
 <draft>/<patch> is inline JSON ('{"title":...}'), a path to a .json file, or - for stdin.
 A draft or patch may also carry "photos": [<source> | {"source", "credit", "license",
 "sourceUrl"}] — each is uploaded and appended to photoIds.
@@ -153,7 +170,19 @@ const SCHEMA = {
       'object of the map\'s custom fields, { key: value } (default {}); keys and types come from `dc map <slug>` → collection.fields. Omit or "" for no value.',
     translations:
       'optional, texts in the map\'s other content languages (`dc map` → collection.languages): {"nl": {"title", "summary", "body", "attributes": {<text/longtext field key>: "…"}}}. Every field is optional; missing ones show the original. The map\'s own language (collection.language) is the untranslated draft itself.',
+    parent:
+      'optional, the cluster this place is part of: a place id or exact title on the same home map; null for none. Sent as "parentId". Left out, an update keeps the current parent',
+    detail:
+      'optional, "city" (shown on the home, citywide map) or "district" (only in full-detail views, e.g. Deep Centrum). Left out, an update keeps it; a new place gets "city", or "district" when created through a full-detail view',
     photos: "CLI-only convenience, see `dc help`",
+  },
+  mapView: {
+    source:
+      "slug (or id) of the map whose places the view shows; a home map of the same city",
+    where:
+      'optional filter, every listed key must match one of its values: {"borough": ["Centrum"], "neighbourhood": [...], "subNeighbourhood": [...], "category": [...]}',
+    detail:
+      '"city": the source\'s city-level places that match; "full": every matching place except clusters with parts (the leaves at full detail)',
   },
   fieldDefinition: {
     key: "lowercase snake_case, ≤32, unique; values are stored under it, so never rename",
@@ -361,7 +390,12 @@ const mutate = (path: string, input: unknown) => call("mutation", path, input);
 
 const collectionOf = async (slug: string) => {
   const res = (await query("collection.bySlug", { slug })) as {
-    collection: { id: string; categories: { key: string }[] };
+    collection: {
+      id: string;
+      slug: string;
+      categories: { key: string }[];
+      view: { source: string } | null;
+    };
     role: string;
     can: Record<string, boolean>;
   };
@@ -647,6 +681,8 @@ const DRAFT_KEYS = [
   "photoIds",
   "attributes",
   "translations",
+  "parentId",
+  "detail",
 ] as const;
 
 const EMPTY_DRAFT = {
@@ -764,11 +800,15 @@ type PlaceById = {
  */
 const editPlace = async (
   placeId: string,
-  patch: Obj,
+  given: Obj,
   note: string | null,
   opts: { dryRun?: boolean } = {},
 ): Promise<Obj> => {
   const first = (await query("place.byId", { placeId })) as PlaceById;
+  const patch =
+    given.parent === undefined
+      ? given
+      : resolveParent(given, await poolOf(first.place.collectionId));
   const known = new Set(first.fields.map((f) => f.key));
   const unknown = Object.keys(
     (patch.attributes as Attrs | undefined) ?? {},
@@ -917,10 +957,7 @@ const createPlace = async (
         note,
       })) as Obj,
     async () => {
-      const rows = (await query("place.list", { collectionId })) as {
-        id: string;
-        title: string;
-      }[];
+      const rows = await poolOf(collectionId);
       const title = String(draft.title).trim().toLowerCase();
       const hit = rows.find((p) => p.title.toLowerCase() === title);
       return hit ? { status: "approved", placeId: hit.id } : undefined;
@@ -1015,8 +1052,71 @@ const pickDraft = (o: Obj): Obj =>
 
 const unknownKeys = (o: Obj) =>
   Object.keys(o).filter(
-    (k) => !(DRAFT_KEYS as readonly string[]).includes(k) && k !== "photos",
+    (k) =>
+      !(DRAFT_KEYS as readonly string[]).includes(k) &&
+      k !== "photos" &&
+      k !== "parent",
   );
+
+type PoolPlace = { id: string; title: string };
+
+/**
+ * Every published place of a map's home (a view's source), at any detail:
+ * what titles and parents are matched against.
+ */
+const poolOf = async (collectionId: string) =>
+  (await query("place.list", { collectionId, pool: true })) as PoolPlace[];
+
+/**
+ * A draft's "parent" (a place id or exact title on the same home map; null
+ * for none) turned into "parentId".
+ */
+const resolveParent = (input: Obj, pool: PoolPlace[]): Obj => {
+  if (input.parent === undefined) return input;
+  const { parent, ...rest } = input;
+  if (parent === null) return { ...rest, parentId: null };
+  if (typeof parent !== "string" || !parent.trim())
+    throw new CliError(
+      '"parent" must be a place id, an exact title, or null',
+      "BAD_JSON",
+    );
+  const want = parent.trim();
+  const byId = pool.find((p) => p.id === want);
+  if (byId) return { ...rest, parentId: byId.id };
+  const exact = pool.filter((p) => p.title === want);
+  const hits = exact.length
+    ? exact
+    : pool.filter((p) => p.title.toLowerCase() === want.toLowerCase());
+  const [hit, ...more] = hits;
+  if (!hit)
+    throw new CliError(
+      `No place "${want}" on the home map to be part of`,
+      "BAD_JSON",
+    );
+  if (more.length)
+    throw new CliError(
+      `"${want}" matches ${hits.length} places: give the parent's id (${hits.map((h) => h.id).join(", ")})`,
+      "BAD_JSON",
+    );
+  return { ...rest, parentId: hit.id };
+};
+
+/** A view map can't take places itself: name its source. */
+const refuseView = async (
+  c: { slug: string; view: { source: string } | null },
+  what: string,
+) => {
+  if (!c.view) return;
+  const maps = (await query("collection.list")) as {
+    id: string;
+    slug: string;
+  }[];
+  const source = maps.find((m) => m.id === c.view?.source)?.slug ?? "?";
+  throw new CliError(
+    `${c.slug} is a view of ${source}: it has no places of its own. ${what} into ${source} instead (with "detail": "district" for places only full-detail views show)`,
+    "VIEW_MAP",
+  );
+};
 
 // ─── routes ─────────────────────────────────────────────────────────
 
@@ -1273,6 +1373,7 @@ const commands: Record<
     const { collection } = await collectionOf(need(slug, "<slug>"));
     const rows = (await query("place.list", {
       collectionId: collection.id,
+      pool: flags.all === "true",
     })) as Obj[];
     const has = (v: unknown, want: string | undefined) =>
       !want || String(v ?? "").toLowerCase() === want.toLowerCase();
@@ -1322,10 +1423,14 @@ const commands: Record<
     if (bad.length)
       throw new CliError(`Unknown draft fields: ${bad.join(", ")}`, "BAD_JSON");
     const { collection } = await collectionOf(need(slug, "<slug>"));
+    const resolved =
+      input.parent === undefined
+        ? input
+        : resolveParent(input, await poolOf(collection.id));
     const added = await uploadDraftPhotos(collection.id, input.photos);
     const draft = {
       ...EMPTY_DRAFT,
-      ...pickDraft(input),
+      ...pickDraft(resolved),
       photoIds: [...((input.photoIds as string[] | undefined) ?? []), ...added],
     };
     return mutate("proposal.create", {
@@ -1597,9 +1702,15 @@ const commands: Record<
         const droppedLangs = Object.keys(
           (src.translations ?? {}) as Obj,
         ).filter((l) => !offered.has(l));
+        // Parent and detail belong to the source map's pool.
+        const {
+          parentId: _parent,
+          detail: _detail,
+          ...copied
+        } = pickDraft(src);
         const draft = {
           ...EMPTY_DRAFT,
-          ...pickDraft(src),
+          ...copied,
           category,
           attributes: Object.fromEntries(attrs.filter(([k, v]) => fits(k, v))),
           translations,
@@ -1637,10 +1748,11 @@ const commands: Record<
   },
 
   /** Every published place in full: all translations, attributes, photo ids. */
-  export: async ([slug]) => {
+  export: async ([slug], flags) => {
     const { collection } = await collectionOf(need(slug, "<slug>"));
     const places = await query("place.export", {
       collectionId: collection.id,
+      pool: flags.all === "true",
     });
     return {
       map: slug,
@@ -1658,9 +1770,14 @@ const commands: Record<
   import: async ([slug, arg], flags) => {
     const items = readJsonArray(need(arg, "<file.json>"));
     const { collection } = await collectionOf(need(slug, "<slug>"));
+    await refuseView(collection, "Import");
     const dryRun = flags["dry-run"] === "true";
+    // Titles match every place of the map, at any detail.
     const [existing, neighbours] = await Promise.all([
-      query("place.list", { collectionId: collection.id }) as Promise<
+      query("place.list", {
+        collectionId: collection.id,
+        pool: true,
+      }) as Promise<
         { id: string; title: string; coverPhotoId: string | null }[]
       >,
       flags["no-cross-check"] === "true"
@@ -1671,10 +1788,15 @@ const commands: Record<
     const withPhotos = new Set(
       existing.filter((p) => p.coverPhotoId).map((p) => p.id),
     );
+    // Parents may be places earlier in the same file.
+    const pool: PoolPlace[] = existing.map((p) => ({
+      id: p.id,
+      title: p.title,
+    }));
     const results: Obj[] = [];
     for (const raw of items as Obj[]) {
-      const { note, ...input } = raw;
-      const title = String(input.title ?? "");
+      const { note, ...given } = raw;
+      const title = String(given.title ?? "");
       const existingId = byTitle.get(title.toLowerCase());
       if (existingId && !flags.upsert) {
         results.push({
@@ -1685,13 +1807,20 @@ const commands: Record<
         });
         continue;
       }
-      const bad = unknownKeys(input);
+      const bad = unknownKeys(given);
       if (bad.length) {
         results.push({
           title,
           result: "failed",
           error: `Unknown fields: ${bad.join(", ")}`,
         });
+        continue;
+      }
+      let input: Obj;
+      try {
+        input = resolveParent(given, pool);
+      } catch (err) {
+        results.push({ title, result: "failed", error: messageOf(err) });
         continue;
       }
       const itemNote = typeof note === "string" ? note : (flags.note ?? null);
@@ -1730,6 +1859,8 @@ const commands: Record<
           ],
         };
         const res = await createPlace(collection.id, draft, itemNote);
+        if (typeof res.placeId === "string")
+          pool.push({ id: res.placeId, title });
         results.push({
           title,
           result: outcomeOf(res, "created"),
