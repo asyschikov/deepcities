@@ -159,6 +159,7 @@
     - the copper-clad roof edge
     - the two doors side by side in the brick link, one for men and one for women
     - the iron fences round the two small gardens
+    - next door, the two brick-and-glass schools of 1954 (also listed), back to back across a playground
   category: religious
   lat: 52.344274
   lng: 4.903051
@@ -170,8 +171,8 @@
     - { label: Joods Amsterdam (synagogue), url: "https://www.joodsamsterdam.nl/synagoge-lekstraat/" }
   attributes:
     rank: Nice
-    heritage_status: National monument
-    monument_number: "526707"
+    heritage_status: National + municipal monument
+    monument_number: "526707, 222229"
     built: 1936–1937
     architect: Abraham Elzas
     listed: 2002
@@ -200,6 +201,7 @@
       - de met koper beklede dakrand
       - de twee deuren naast elkaar in het bakstenen tussenlid, een voor mannen en een voor vrouwen
       - de ijzeren hekken om de twee tuintjes
+      - ernaast de twee scholen van baksteen en glas uit 1954 (ook een monument), rug aan rug aan een speelplaats
     attributes:
       original_use: Synagoge
       check_note: Wie de voormalige grote zaal nu gebruikt. Na het vertrek van het Verzetsmuseum in 1999 kwam er een veilinghuis, maar op de site daarvan staat dit adres niet meer.
@@ -1392,63 +1394,6 @@
       - https://nl.wikipedia.org/wiki/Rooseveltlaan_(Amsterdam)
 
 # ================================================================ Post-war
-
-- title: Lekstraat and Winterdijkstraat schools (1954)
-  summary: "Two brick-and-glass schools of 1954 standing back to back across a playground, built where wooden emergency schools had stood. They were meant to be joined into an H by gym halls that never came, so the gap became a playground."
-  body: |
-    When this part of the Rivierenbuurt was laid out in the 1930s, the city put wooden emergency schools on the plot between the Lekstraat and the Winterdijkstraat. They lasted until the reconstruction years. In 1954 the Public Works department replaced them with two permanent schools, one on each street, named after Aletta Jacobs, the first woman in the Netherlands to qualify as a doctor, and after a Professor H.G. Gunning.
-
-    The two buildings are near twins: three storeys under a pitched roof, front and back opened up with large panes of glass, and the stairs enclosed in plain brick. The glass is a trace of the Nieuwe Bouwen, the Dutch modern movement, under an otherwise traditional roof. The plan was to link the two with wings for gymnastics and practical lessons, so that together they would form an H. The link was dropped, and the space between became the shared playground it still is.
-
-    The pair was put on a list of a hundred candidate 'young monuments' in 2008 and listed by the city in 2014. They have been in use as schools ever since they opened; you see them from the street on either side.
-
-    Look for:
-    - Lekstraat 35–37: the wall of glass between the brick stair blocks
-    - Winterdijkstraat 10: the same front again, facing the other way
-    - the playground between the two, where the middle bar of the H should have been
-    - the Lekstraat synagogue of 1937, further along the same side of the street
-  category: schools
-  lat: 52.344249
-  lng: 4.903638
-  address: Lekstraat 35-37
-  links:
-    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/67b54ddc-b513-4c40-b822-14ad453e8568" }
-    - { label: Wikipedia (nl) Winterdijkstraat, url: "https://nl.wikipedia.org/wiki/Winterdijkstraat" }
-  attributes:
-    rank: Okay
-    heritage_status: Municipal monument
-    monument_number: "222229"
-    built: "1954"
-    architect: Dienst der Publieke Werken
-    listed: 2014
-    original_use: Two schools
-    check: Facts
-    check_note: Which school uses the two buildings now, and whether the glass fronts are still original; the register entry has no text.
-  sources:
-    - city:222229 (register entry without text; names of the two schools, 1954, Public Works, listed 2014)
-    - https://nl.wikipedia.org/wiki/Winterdijkstraat (wooden emergency schools replaced, twin buildings, three storeys under a pitched roof, glass fronts and brick stairwells, abandoned H-plan, playground between, Top 100 of young monuments 2008, in use as schools since completion)
-    - PDOK locatieserver (Lekstraat 37, 52.344249, 4.903638)
-  nl:
-    title: Scholen aan de Lekstraat en de Winterdijkstraat (1954)
-    summary: "Twee scholen van baksteen en glas uit 1954, rug aan rug aan weerszijden van een schoolplein, op de plek van houten noodscholen. Gymzalen hadden ze tot een H moeten verbinden, maar die kwamen er nooit, en het gat werd een schoolplein."
-    body: |
-      Toen dit deel van de Rivierenbuurt in de jaren dertig werd aangelegd, zette de gemeente op het terrein tussen de Lekstraat en de Winterdijkstraat houten noodscholen neer. Die hielden het vol tot de wederopbouw. In 1954 verving Publieke Werken ze door twee blijvende scholen, aan elke straat één, genoemd naar Aletta Jacobs, de eerste vrouwelijke arts van Nederland, en naar een professor H.G. Gunning.
-
-      De twee gebouwen zijn bijna tweelingen: drie lagen onder een zadeldak, voor en achter opengewerkt met grote ruiten, en de trappen in dichte bakstenen blokken. Het glas is een spoor van het Nieuwe Bouwen, onder een verder traditionele kap. Het plan was om de twee te verbinden met vleugels voor gymnastiek en praktijklessen, zodat ze samen een H zouden vormen. Daar is van afgezien, en de ruimte ertussen werd het gedeelde schoolplein dat het nog steeds is.
-
-      Het tweetal kwam in 2008 op een lijst van honderd kandidaat-'jonge monumenten' en is in 2014 door de gemeente beschermd. Sinds de opening zijn het scholen gebleven; je ziet ze vanaf de straat aan beide kanten.
-
-      Let op:
-      - Lekstraat 35-37: de glazen wand tussen de bakstenen trapblokken
-      - Winterdijkstraat 10: dezelfde gevel nog eens, de andere kant op
-      - het plein tussen de twee, waar de dwarsbalk van de H had moeten komen
-      - de Lekstraatsynagoge uit 1937, verderop aan dezelfde kant van de straat
-    attributes:
-      original_use: Twee scholen
-      check_note: Welke school de twee gebouwen nu gebruikt, en of de glazen gevels nog oorspronkelijk zijn; de registertekst ontbreekt.
-    sources:
-      - city:222229
-      - https://nl.wikipedia.org/wiki/Winterdijkstraat
 
 - title: Amstelhof, the Airey estate with its own petrol station
   summary: "A complete 1952 neighbourhood built from a British prefab kit: concrete slabs the size of a paving stone hung on a frame. The developer who imported the system built it for himself, with garages under the flats and a petrol station on the corner."
