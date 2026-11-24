@@ -100,6 +100,12 @@ anchors; Dutch is *measured*: NL sentences sharing 8+ consecutive words with a s
 - **Two independent reviewers** on the same sample. Without anchors and a second reviewer
   the check flip-flopped (West 23.7 one day, 17.5 the next); with them the reviewers agreed
   within 0.7 points (correlation 0.92). Don't act on a single reviewer's result.
+- **Give reviewers the draft's `sources:` too** (from `research/*/places/*.yaml`, matched
+  by title). The site shows at most 6 links; judged on those alone, about half the "unsupported"
+  claims in the 2026-11-25 Zuid check were in fact sourced in the draft.
+- **Every unsupported claim a check finds gets resolved**, not just averaged into a score:
+  add the source to `links` or `sources:`, or cut or narrow the claim. ("120 metres up" was
+  flagged by Zuid's own check and survived into the next one.)
 - Export with `dc place`, strip the area fields and ids, shuffle with a fixed seed, number
   the files, keep the key yourself and add it only after scoring. Reports go in
   `research/quality/`.
@@ -228,6 +234,13 @@ your own when you're done. Review what comes back; don't trust it blindly.
 
 ### Rules that matter most
 
+- **Never make anything up.** The user's first rule ("it is critical not to make shit up"). Every
+  claim traces to a source you actually read. Making a text exciting means choosing and ordering
+  the true facts, never adding colour, motives, quotes or "probably"s that no source gives. A
+  rewrite only rephrases what is already checked; no invented quotes or period phrases, no
+  "almost every", "the first", "a novelty", "mostly" unless a source says so; if a claim can't be traced, cut it. Rewriting
+  agents list every changed fact with its source, and a second agent compares old and new for
+  added claims before anything goes live.
 - **Two languages, both native.** Write the Dutch (`nl:`) from Dutch sources (register texts, nl.wikipedia, local news and history sites), using their terms and phrasing where they are apt. Never translate the English.
   - **Write, don't paste.** No sentences lifted from a source: not from the register, Wikipedia, Stadscuratorium, artists' or museums' sites (copyright, and it reads stiff). No register jargon ("van hoge architectuurhistorische waarde", "periodekarakteristiek", "notabene"): say it as a person would.
   - Write the English natively. Gloss Dutch terms on first use.

@@ -318,6 +318,7 @@
     - ladder-shaped windows above the doors, between bulging brick panels
     - small wavy piers on the corners of the south façade
     - the original door on the Marco Polostraat side
+    - MidWest's two inner gardens, left to wild plants, frogs, salamanders, bees and birds, open on Open Tuinen West (June 2026); since April 2026 a small pesticide-free shop for garden plants, mostly native ones, is in the building (Wednesday to Saturday, 12 to 5)
   category: schools
   lat: 52.369672
   lng: 4.854714
@@ -338,6 +339,7 @@
   sources:
     - city:200681 (register text)
     - research/ams-school/places/oud-west-baarsjes.yaml (Cabralschool)
+    - "Round 4 merge: https://www.dewestkrant.nl/eerste-gifvrije-tuincentrum-van-de-stad-in-midwest/ (10 Apr 2026: De Inheemse Plantenwinkel opens in MidWest, organic, pesticide-free, mostly native plants; tour of the two special inner gardens with wild plants, frogs, bees, salamanders and birds; open Wed to Sat 12.00 to 17.00; Cabralstraat 1); https://www.dewestkrant.nl/verborgen-tuinen-weer-te-bezichtigen-tijdens-open-tuinen-west/ (Open Tuinen West 13 June 2026, MidWest gardens open). Scout's compost greenhouse, honey and canteen not confirmed, left out."
   nl:
     title: Cabralschool
     summary: Dubbele school van Publieke Werken uit 1924, ingeklemd tussen de woonblokken van Cabralstraat en Marco Polostraat, met twee hoge torens en zoveel baksteen dat een krant in 1926 aan de Chinese Muur dacht.
@@ -350,11 +352,13 @@
       - de twee hoge, rechthoekige torens aan de westzijde, belangrijke blikvangers
       - de ladderramen boven de deuren, met bolvormige muurdelen aan weerszijden
       - de kleine golfvormige, bol- en holrond gevormde muurdammen op de hoeken van de zuidgevel
+      - de twee binnentuinen van MidWest, vol wilde planten, met kikkers, salamanders, bijen en vogels, open tijdens Open Tuinen West (juni 2026); sinds april 2026 zit er ook een kleine, gifvrije winkel in tuinplanten, grotendeels inheems (woensdag tot en met zaterdag, 12.00 tot 17.00 uur)
     attributes:
       original_use: Twee lagere scholen
     sources:
       - https://data.amsterdam.nl/monumenten/2d0d009f-719a-4aac-b35d-c0c8e979ab8e
       - https://nl.wikipedia.org/wiki/Cabralstraat_1
+      - https://www.dewestkrant.nl/eerste-gifvrije-tuincentrum-van-de-stad-in-midwest/
 
 - title: Columbusplein housing (Noorlander)
   summary: The housing walls around the Columbusplein, designed by Willem Noorlander in 1923–1925 for Plan West and now being added to the city's monument list.
@@ -503,11 +507,11 @@
 
 
 - title: Telefooncentrale West
-  summary: A 1927 telephone exchange disguised as a housing block, with staff flats at the front, a big switching hall hidden in the courtyard and a carved G and T above the porch – still full of cables today.
+  summary: A 1927 telephone exchange disguised as a housing block, with staff flats at the front, a big switching hall hidden in the courtyard and a carved G and T above the porch. Since 2024 the hidden hall holds twenty homes.
   body: |
     Amsterdam ran its own telephone service from 1896, after alderman M.W.F. Treub forced the private Bell company to hand back its concession; in 1922 the city opened the first automatic exchange in the Netherlands. As Plan West filled up, the Public Works department built this exchange for the new district (1926–1927). To the street it is simply part of the housing wall: offices on the ground floor and flats for live-in staff above. The real work happened in a large steel-framed hall in the middle of the block, reached through a round stair tower.
 
-    The German occupiers transferred the municipal telephone services to the state PTT, and the building now belongs to KPN. Because it never stopped being used for telecoms – today as a hub for fibre and internet cables – much of the original interior survives, including a spiral staircase with tiled and wrought-iron balustrades and beige tiled corridors.
+    The German occupiers transferred the municipal telephone services to the state PTT, and the exchange stayed in telecoms use for decades. Alterations and extensions in the 1960s changed its outside a great deal, but much of the original interior survived, including a spiral staircase with tiled and wrought-iron balustrades and beige tiled corridors. The hall is the only building in the city put up inside an existing housing block. In 2024 the architects Rijnboutt converted it into twenty homes, called De Centrale; they also advised turning the car park around it into a shared garden.
 
     Look for:
     - the deep porch with a rounded window corner and the carved G and T (Gemeentelijke Telefoon) between two blocks with the St Andrew's crosses of the city arms
@@ -533,13 +537,14 @@
     - commons:File:2020 Filips van Almondestraat 13-17 (1).jpg
   sources:
     - city:200721 (register text)
+    - "https://gebouwdin.amsterdam.nl/api/projectdetail/4076 ('De Centrale', Filips van Almondestraat 13-17, 2024, 20 homes: former PTT exchange on an abandoned car park inside a closed block; municipal monument since 2009; studied by Rijnboutt from 2017; parking area became a collective garden; the only building in the city realised inside an existing block; two-storey exchange designed 1926 by Alfred Boeken, altered and extended several times in the 1960s; interior largely intact, facade much changed). Round 4 correction: removed 'now belongs to KPN', 'still full of cables', 'hub for fibre'. Listing year conflict: draft 2014, gebouwdin 2009; left as is. Boeken attribution not used (register says Dienst Publieke Werken)."
   nl:
     title: Telefooncentrale West
-    summary: Een telefooncentrale uit 1926-1927 die zich voegt in de gevelwand van een woonblok, met personeelswoningen aan de straat, een grote hal op het binnenterrein en de letters G en T in het beeldhouwwerk – nog altijd vol kabels.
+    summary: Een telefooncentrale uit 1926-1927 die opgaat in de gevelwand van een woonblok, met personeelswoningen aan de straat, een grote hal op het binnenterrein en de letters G en T in het beeldhouwwerk. Sinds 2024 wonen er mensen in de verborgen hal.
     body: |
-      De Dienst Publieke Werken leverde het ontwerp voor dit in 1926-1927 gebouwde complex dat werd opgezet als de Telefooncentrale West. Ook nu nog wordt het complex gebruikt voor communicatiedoeleinden (KPN). Het aan de Filips van Almondestraat gelegen bouwdeel kreeg op de begane grond de voor de centrale bestemde gebruiksruimtes; op de bovenverdiepingen kwamen woonruimtes voor het inwonende personeel. De belangrijkste gebruiksruimtes werden evenwel ondergebracht in de op het binnenterrein van het bouwblok gelegen grote hal.
+      De Dienst Publieke Werken leverde het ontwerp voor dit in 1926-1927 gebouwde complex dat werd opgezet als de Telefooncentrale West. Het aan de Filips van Almondestraat gelegen bouwdeel kreeg op de begane grond de voor de centrale bestemde gebruiksruimtes; op de bovenverdiepingen kwamen woonruimtes voor het inwonende personeel. De belangrijkste gebruiksruimtes werden evenwel ondergebracht in de op het binnenterrein van het bouwblok gelegen grote hal.
 
-      De Telefooncentrale West maakte deel uit van de Gemeentelijke Telefoondienst die in 1896 op initiatief van wethouder M.W.F. Treub was opgericht. In Amsterdam is deze dienst vooral bekend geworden door de introductie in 1922 van de eerste automatische centrale in Nederland. Tijdens de Tweede Wereldoorlog bracht de bezetter de gemeentelijke telefoondiensten onder het beheer van de PTT. Vermoedelijk heeft de continuïteit in het gebruik als telefooncentrale en later als netwerkstation voor glasvezelkabels ervoor gezorgd dat het oorspronkelijk interieur goed bewaard is gebleven, met een in een vloeiende lijn opgaande spiraaltrap in de traptoren.
+      De Telefooncentrale West maakte deel uit van de Gemeentelijke Telefoondienst die in 1896 op initiatief van wethouder M.W.F. Treub was opgericht. In Amsterdam is deze dienst vooral bekend geworden door de introductie in 1922 van de eerste automatische centrale in Nederland. Tijdens de Tweede Wereldoorlog bracht de bezetter de gemeentelijke telefoondiensten onder het beheer van de PTT. Doordat het gebouw tientallen jaren voor de telefonie in gebruik bleef, bleef het interieur grotendeels gaaf, met een sierlijk opgaande wenteltrap in de traptoren; de buitenkant veranderde in de jaren zestig wel flink door verbouwingen en uitbreidingen. Nergens anders in de stad werd een gebouw midden in een al bestaand woonblok neergezet. In 2024 maakte bureau Rijnboutt er twintig woningen van onder de naam De Centrale; het bureau raadde ook aan het parkeerterrein eromheen een gezamenlijke binnentuin te maken.
 
       Let op:
       - de diepe portiek met fraai beeldhouwwerk dat door de letters G en T naar de oorspronkelijke functie verwijst; de Andreaskruizen op de flankerende sierblokken zijn ontleend aan het stadswapen
@@ -1259,10 +1264,13 @@
 
     The national register calls it a richly executed municipal school for vocational education. Hildo Krop's tufa sculptures around the main door refer to the trades taught here and to the sea voyages of the admirals after whom the surrounding streets are named; a man and a woman hold the city arms and the motto *zonder moeite niets*.
 
+    Inside hangs a bronze Star of David made in the early 1990s by pupils of the trade school, for four Jewish pupils who were "removed from school" in the war and deported: Wolf Heinz Fischer, Hans Rosenstein, Jonas Swaab and Johan Cornelis Syes. Two of them died in the camps; what became of the other two is not known. It was unveiled on 4 May 2008.
+
     Look for:
     - Krop's sculpture around the entrance and the wrought-iron grilles with wave motifs
     - half-round brick oriels on carved consoles above the side entrances
     - the long horizontal window bands and the concave front
+    - inside, when the building is open, the pupils' Star of David with the four names
   category: schools
   lat: 52.364534
   lng: 4.859298
@@ -1287,6 +1295,7 @@
     - rce:527153 (register text)
     - wd:Q1996061
     - https://nl.wikipedia.org/wiki/Het_Sieraad
+    - "Round 4 merge: https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3285 (in Het Sieraad, Postjesweg 1: bronze plaque in the shape of a Star of David with two plates, 'Van school verwijderd:' and the four names with birth dates; made in the early 1990s by pupils of the Ambachtsschool; two died in a camp, nothing known of the other two; unveiled 4 May 2008 by Bloeme Evers of Synagoge West and rabbi Menachem Evers)"
   nl:
     title: Het Sieraad
     summary: De voormalige 4e ambachtsschool op een vliegervormig perceel aan de Postjesweg, met beeldhouwwerk van Hildo Krop over de vakken en de zeereizen van de admiraals, en de tekst 'zonder moeite niets'.
@@ -1295,10 +1304,13 @@
 
       Het Rijk noemt het een grotendeels gaaf bewaard voorbeeld van een gemeentelijk schoolgebouw voor beroepsonderwijs in een voor de bouwtijd kenmerkende, doch rijk uitgevoerde Amsterdamse Schooltrant. De gevels zijn met doorlopende vensterseries en gevellijsten sterk horizontaal geleed.
 
+      Binnen hangt een bronzen davidster die leerlingen van de ambachtsschool begin jaren negentig maakten voor vier Joodse schoolgenoten die in de oorlog 'van school verwijderd' werden en gedeporteerd: Wolf Heinz Fischer, Hans Rosenstein, Jonas Swaab en Johan Cornelis Syes. Twee van hen kwamen om in een kamp; van de andere twee weet niemand wat er gebeurde. De gedenkplaat werd op 4 mei 2008 onthuld.
+
       Let op:
       - het beeldhouwwerk in tufsteen bij de hoofdingang, met verwijzingen naar de vakken van de ambachtsschool en de zeereizen van de admiralen, en een mannen- en vrouwenfiguur met het stadswapen en de tekst 'zonder moeite niets'
       - de deur met smeedijzeren sierbeslag en traliewerk met golfslagmotieven
       - de halfronde gemetselde erkers op gebeeldhouwde consoles boven de zij-ingangen
+      - binnen, als het gebouw open is, de davidster van de leerlingen met de vier namen
     attributes:
       architect: A.J. Westerman (Dienst Publieke Werken)
       original_use: Ambachtsschool
@@ -1578,6 +1590,7 @@
     - Amsterdam School-style brick housing wrapped around the mosque
     - the minaret, at the height an arbitration committee insisted on to keep the composition intact
     - the Piri Reisplein in front, named after the 16th-century Ottoman admiral and mapmaker
+    - the Piri Reïs apartments (2011) on the same site, also by the Breitmans, with an arched passage to the Witte de Withstraat: they borrow the look of the first, unbuilt design for the mosque, which took the Ottoman master builder Sinan as its model
   category: religious
   lat: 52.3663
   lng: 4.860448
@@ -1590,6 +1603,7 @@
     - commons:File:Westermoskee in aanbouw.JPG
   sources:
     - https://nl.wikipedia.org/wiki/Westermoskee
+    - "Round 4 merge: https://gebouwdin.amsterdam.nl/api/projectdetail/865 (Piri Reïs, 2011, Breitman - Breitman, 111 homes for Stadgenoot on the former RIVA site; architecture refers to the unbuilt Westermoskee design, for which the Breitmans took Sinan's ideas as a starting point; brickwork details to fit the Amsterdam School surroundings; high arched passage to the Witte de Withstraat)"
   nl:
     title: Westermoskee
     summary: Een Turkse moskee op het voormalige Riva-terrein, na een woelige ontwikkelingsperiode in 2016 geopend, ingepast in een project met woningen van het architectenechtpaar Breitman in de geest van de Amsterdamse School.
@@ -1602,8 +1616,10 @@
       - de woningbouw die in baksteen en vormentaal aansluit bij de Amsterdamse School
       - de minaret, waarvan een arbitragecommissie oordeelde dat de oorspronkelijke hoogte gehandhaafd moest blijven om geen afbreuk te doen aan de compositie van het geheel
       - het Piri Reisplein
+      - het appartementengebouw Piri Reïs (2011) op hetzelfde terrein, ook van de Breitmans, met een hoge doorgang met bogen naar de Witte de Withstraat: het leent zijn uiterlijk van het eerste, nooit gebouwde ontwerp voor de moskee, waarvoor de Ottomaanse bouwmeester Sinan model stond
     sources:
       - https://nl.wikipedia.org/wiki/Westermoskee
+      - https://gebouwdin.amsterdam.nl/project/865
 
 - title: Machineslootbrug
   summary: Piet Kramer's 1929–1930 bridge carrying the Postjesweg over the Admiralengracht, built after residents campaigned against the narrow emergency bridges – its railings end in sea anemones.
@@ -1690,9 +1706,9 @@
       - https://nl.wikipedia.org/wiki/Molenslootbrug_(Amsterdam)
 
 - title: 4 May memorial, Columbusplein (Nina Rave)
-  summary: The neighbourhood's war memorial since 2018 – a dark block balancing on a dented golden sphere, its surface cut with more than eighty fingerprints of local children and residents.
+  summary: "The neighbourhood's war memorial since 2018: a dark block balancing on a dented golden sphere, its surface cut with more than eighty fingerprints of local children and residents."
   body: |
-    De Baarsjes holds its annual 4 May Remembrance Day ceremony here. For decades it gathered at a simple white cross in front of the Visserschool; in 2018 the artist Nina Rave replaced it with this memorial, made in close collaboration with the neighbourhood. The school adopted the work.
+    De Baarsjes holds its annual 4 May Remembrance Day ceremony here. From 2006 it gathered at a simple white cross in front of the Visserschool: *Aan hen die vielen* (to those who fell), the neighbourhood's own memorial to residents killed in the war, put up by local people on the Van Speijkstraat and moved to the square when that street was redone. In 2018 the artist Nina Rave gave the square this new memorial, made in close collaboration with the neighbourhood, and the school adopted it. The white cross has since moved to the Baarsjesweg near the Van Speijkstraat.
 
     A large dark block, standing for evil, balances on a golden sphere that stands for resistance, hope, self-respect and humanity. The sphere is dented: those values are under pressure but do not give way. Children, young people and residents cut more than eighty fingerprints into the surface of the block. The sphere mirrors the square around it, and with it, as the city's public-art curators put it, the presence of those who are no longer there.
 
@@ -1700,34 +1716,48 @@
     - the fingerprints on the block
     - your own reflection in the golden sphere
     - the granite inscription on the base: "Wij gedenken hen die leden, hen die stierven, hen die streden" (we remember those who suffered, those who died, those who fought)
+    - the paving and street lamps of the square, designed by the artists Carolina Agelink and Germa Huijbers: the lamps are shaped like standard lamps, with little fantasy figures in the shades
+    - a short walk south, on the corner of the Postjesweg and the Marco Polostraat, a white stone with a relief for Jan Frederik Dalemans and Johannes Geerbertus Gerritze, executed by the occupiers; the tenants of the housing association Amsterdam-Zuid gave it in 1946
   category: hidden-history
   lat: 52.365358
   lng: 4.855483
   address: Columbusplein
   links:
     - { label: Stadscuratorium Amsterdam, url: "https://stadscuratorium.nl/?p=3504" }
+    - { label: 4en5mei.nl (monument 1491), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1491" }
+    - { label: 4en5mei.nl (monument 1498), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1498" }
+    - { label: Buitenkunst Amsterdam (Columbusplein), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2545/zonder-titel" }
   attributes:
     built: "2018"
     artist: Nina Rave
+    check: Location
+    check_note: "Where the white cross Aan hen die vielen stands now: the national memorial register says the Baarsjesweg by the Van Speijkstraat, OSM still maps it in front of the Visserschool."
   photos:
     - commons:File:Nieuw monument Columbusplein, onthulling april 2018.jpg
     - commons:File:Monument Columbusplein, 2018, informatiebord.jpg
   sources:
     - https://stadscuratorium.nl/?p=3504
     - OSM node at 52.365358,4.855483 (artist Nina Rave, war_memorial, 2018)
+    - "Round 4 merges: https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1491 (white cross 'Aan hen die vielen', for all Baarsjes residents killed by acts of war, residents' initiative; originally on the Van Speijkstraat, moved to the Columbusplein in January 2006 because of street works, later to the Baarsjesweg at the Van Speijkstraat); OSM node 3771893605 still at Columbusplein 34 (Visserschool). https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1498 (white natural-stone plaque with relief, corner Postjesweg/Marco Polostraat; Dalemans b. 21-9-1908, Gerritze b. 30-6-1913, executed; gift of the residents of woningbouwvereeniging Amsterdam-Zuid afd. West; unveiled Saturday 12 October 1946); OSM node 4455502733 at Marco Polostraat 1. Kunstwacht 2545 (Agelink and Huijbers, commissioned by stadsdeel De Baarsjes: paving and lamp posts shaped as standard lamps with fantasy figures in the shades). Correction: 'for decades' at the cross was wrong, it stood here only from 2006."
   nl:
     title: 4 mei-monument Columbusplein (Nina Rave)
-    summary: Sinds 2018 het 4 mei-monument van De Baarsjes – een groot donker blok dat balanceert op een gedeukte gouden bol, met ruim tachtig vingerafdrukken van kinderen en buurtbewoners.
+    summary: "Sinds 2018 het 4 mei-monument van De Baarsjes: een groot donker blok dat balanceert op een gedeukte gouden bol, met ruim tachtig vingerafdrukken van kinderen en buurtbewoners."
     body: |
-      Aan het Columbusplein in Amsterdam-West staat sinds 2018 het 4 mei-monument van kunstenaar Nina Rave. Het vervangt het oude witte kruisje voor de Visserschool. De jaarlijkse herdenking in De Baarsjes vindt hier plaats. Het monument kwam tot stand in nauwe samenwerking met de buurt; de Visserschool adopteerde het werk.
+      Aan het Columbusplein in Amsterdam-West staat sinds 2018 het 4 mei-monument van kunstenaar Nina Rave. Vanaf 2006 herdacht de buurt bij een wit kruis voor de Visserschool, *Aan hen die vielen*, het eigen gedenkteken van De Baarsjes voor bewoners die in de oorlog omkwamen. Buurtbewoners hadden het ooit aan de Van Speijkstraat neergezet; toen die straat op de schop ging, verhuisde het naar het plein. Inmiddels staat het kruis aan de Baarsjesweg, bij de Van Speijkstraat. De jaarlijkse herdenking in De Baarsjes vindt hier plaats. Het monument kwam tot stand in nauwe samenwerking met de buurt; de Visserschool adopteerde het werk.
 
       Het kunstwerk bestaat uit een groot donker blok, balancerend op een gouden bol. Het blok verbeeldt het kwaad. De bol staat voor verzet, hoop, eigenwaarde en menselijkheid. De gedeukte vorm laat zien dat deze waarden onder druk staan, maar niet bezwijken. De gouden bol weerkaatst de omgeving, en daarmee de aanwezigheid van wie er niet meer zijn.
 
       Let op:
       - de ruim tachtig vingerafdrukken in het oppervlak van het blok, uitgesneden door kinderen, jongeren en buurtbewoners
       - de in graniet gegraveerde tekst op de sokkel: 'Wij gedenken hen die leden, hen die stierven, hen die streden.'
+      - de bestrating en de straatlantaarns van het plein, ontworpen door kunstenaars Carolina Agelink en Germa Huijbers, met lantaarns in de vorm van schemerlampen en fantasiefiguurtjes in de kappen
+      - even naar het zuiden, op de hoek van de Postjesweg en de Marco Polostraat, een witte steen met reliëf voor Jan Frederik Dalemans en Johannes Geerbertus Gerritze, door de bezetter gefusilleerd; de huurders van woningbouwvereniging Amsterdam-Zuid schonken hem in 1946
+    attributes:
+      check_note: "Waar het witte kruis Aan hen die vielen nu staat: het register van oorlogsmonumenten zegt aan de Baarsjesweg bij de Van Speijkstraat, OSM tekent het nog voor de Visserschool."
     sources:
       - https://stadscuratorium.nl/?p=3504
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1491
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1498
 
 - title: War memorial, Witte de Withstraat
   summary: A small gravestone-like stone set into a house front in June 1945, for a chemist and a father and son from this street who were executed in reprisal just weeks before liberation.

@@ -99,3 +99,8 @@ About 150 spaced en dashes (" – ") remain in the oldest sights drafts, mostly 
 ## Parked: loops (sweep 8)
 
 Themed walking and cycling routes for Noord, Oost and Nieuw-West are parked by the user (2026-11-23). Route ideas are in each district's `notes/*.md`. Districts count as complete for research without them for now.
+
+## West drafts behind the live text
+
+Some West places were fixed directly on the live site after their draft was written (for example the Centrale Markthal visitor paragraph). A full `--upsert` of `research/west/places/` would quietly undo such fixes. Before the next full West import, compare every draft with live and pull live-only edits back into the drafts. Round 4 imported only its 75 touched titles for this reason. Also left from round 4: copied Dutch in the live text of "De zwaaiende fietser", "Nemoland" and "Moederste" (for the Dutch pass); Moederste's two unverified Look for lines; "Natascha" at the "two hands" garden needs a surname source or stays first-name only; the Fred Hund bench (register says standing, our text says lost in 2022) for a street check.
+
