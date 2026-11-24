@@ -44,3 +44,13 @@ rules), `.claude/skills/c-list-sights/SKILL.md` ("Rules that matter most") and
   ignore only that).
 - `research/jewish/notes/<slice>.md`: sources per place, claims dropped for want of a second
   source, photo gaps, uncertainties, and anything in the pool your drafts overlap with.
+
+## Update (user, 24 Nov): mainstream, authoritative history only
+
+"Stick to mainstream history, and authoritative facts and stories; there is no shortage anyway."
+Every fact that matters needs authoritative support: registers, archives, museums and memorial
+institutions (JCK, NIOD, Stadsarchief, Joods Monument, 4en5mei, Rijksmonumentenregister),
+published histories and journals, serious press. joodsamsterdam.nl, Wikipedia, blogs and walking-tour
+sites may lead you to a fact but never carry it alone (they don't count as one of the two sources
+unless an authoritative source agrees). No exceptions for "visible on site" or "too good to lose":
+leave it out.
