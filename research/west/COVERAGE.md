@@ -143,3 +143,9 @@ Round 4 (2026-11-24) went through every source listed in the earlier version of 
 - Small source gaps: the stadsdeel's tips pages on amsterdam.nl, the beeldbank street by street, a Joods Monument address pass, AAP / Nieuwbouwprijs lists, Westkrant before mid-2025 for Westerpark and Oud-West.
 - Test 2 after the picks (and after any walk-confirmed additions). The blind recall (test 3) is run separately; its West misses are resolved in `SCOUT-4.md`.
 - Housekeeping: the 61 live places from rounds 2 and 3 have no YAML in `research/west/places/`; export them from the live site if they are ever to be re-imported or bulk-edited from files.
+
+## Round 4 imported (2026-11-25)
+
+35 new places (all three gebieden) and 40 existing places updated (merges, full drafts for live-only places, corrections: Van Bossestraat crash, Telefooncentrale West homes, Columbusplein cross since 2006, Pniëlkerk glass by Joop van den Broek). A separate fact-check pass checked about 740 claims and narrowed, cut or sourced about 175 before import (notes/r4-*.md, "Fact check"). Only the 75 touched titles were imported: older West drafts can be behind the live text (live-only fixes), so never upsert all of `places/` without first comparing with live.
+
+Next: test 2 (saturation) needs one more short round to be judged; the blind-recall misses and grid leads are all resolved.
