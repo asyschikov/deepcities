@@ -78,7 +78,16 @@ checked and the date, so it's clear what was swept and what wasn't.
    OSM `tourism=artwork`. Check each work's current status.
 3. **War and memory**: 4en5mei.nl monument database, memorial plaques, OSM `historic=memorial`,
    Joods Monument addresses where a place tells the story (no lists of victims as places).
-4. **Hidden history**: the district's history society and site, archief.amsterdam (beeldbank),
+4. **Hidden history**: the district's **own neighbourhood paper**, searched in its archive
+   (De Westkrant for West, Weesper Nieuwsblad for Weesp, Rodi editions for Nieuw-West and
+   Noord; for other districts, find and name theirs in COVERAGE.md first). The user loves
+   these: they carry the small stories (an artwork taken down, a petition, a shop closing) the
+   citywide Parool and NH Nieuws miss. **Blogs too**: neighbourhood blogs, local history
+   and walking blogs, street-art and architecture blogs, Spotted by Locals, residents'
+   photo blogs. Search "<buurt> blog", "<street> geschiedenis", "wandeling <buurt>". Blogs are
+   great for leads, hooks and dated photos of what is (still) there; a factual claim that
+   rests on a blog alone needs a second source, or say whose account it is. Name the blogs
+   you went through in COVERAGE.md. Also the district's history society and site, archief.amsterdam (beeldbank),
    amsterdamsloopt, nl.wikipedia street and neighbourhood articles, local papers. Gone things
    only under the high bar.
 5. **Behind the gate**: hofjes, courtyard gardens, alleys, nursery villages, bunkers and
