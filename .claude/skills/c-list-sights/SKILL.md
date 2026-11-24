@@ -92,7 +92,10 @@ checked and the date, so it's clear what was swept and what wasn't.
    and walking blogs, street-art and architecture blogs, Spotted by Locals, residents'
    photo blogs. Search "<buurt> blog", "<street> geschiedenis", "wandeling <buurt>". Blogs are
    great for leads, hooks and dated photos of what is (still) there; a factual claim that
-   rests on a blog alone needs a second source, or say whose account it is. Name the blogs
+   rests on a blog alone needs a second source, or say whose account it is. **Social media:**
+   only official pages count (the place's, owner's, organisation's or city's own page, or an
+   artist on their own work); personal posts, local groups and comments are leads, never
+   sources. Name the blogs
    you went through in COVERAGE.md. Also the district's history society and site, archief.amsterdam (beeldbank),
    amsterdamsloopt, nl.wikipedia street and neighbourhood articles, local papers. Gone things
    only under the high bar.
