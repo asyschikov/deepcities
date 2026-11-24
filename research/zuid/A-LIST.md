@@ -35,3 +35,21 @@ Candidates the scouts or slices add go below, with a one-line reason.
 
 ## Added during the rounds
 
+Not added to the list, but noted (2026-11-24):
+
+- **Museumplein's Legacy Art Court** (ground painting of July 2026): on the A-list square;
+  left out.
+- **Rijksmuseum interior** (Cuypers Library, the Night Watch slot in the passage): inside
+  the A-list museum; left out. The garden of building fragments and the director's villa
+  are on the map as separate places.
+- **Stedelijk façade and Serra's "Sight Point"**: part of the A-list museum; left out.
+- **Anne Frank's Merwedeplein**: on many visitors' routes but not in the top lists; on the
+  map as "Merwedeplein, the Frank family's square". The user may want to rule on it.
+- **P.C. Hooftstraat** as a street: in every shopping guide; only one front is on the map
+  (Crystal Houses). Say if the street should be parked.
+- **Diamond Museum / Coster**: a guidebook staple, now a showroom display; dropped.
+- **Olympic Stadium, Hilton, Amstelpark, De Dageraad, Sarphatipark**: second tier, on the
+  map, pitched on what the guidebook leaves out.
+
+Details beside parked sights that did get a place: the works-kitchen plate on the Heineken
+brewery wall, André Hazes on the Albert Cuyp, the two memorials on the Museumplein.
