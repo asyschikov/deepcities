@@ -110,3 +110,34 @@ https://arcam.nl/architectuurprijs/publieksjuryrapport-amsterdamse-architectuurp
 - Ria Smit architecten (Ria Smit, Martin Kuitert), 2007; Arcam: "Openbaar toegankelijk: Nee": https://arcam.nl/architectuur-gids/de-kandelaar/
 - Access "At set times": church halls open during services (live text). Arcam mentions a Turkish restaurant; not checked whether still there.
 - No recognition found. No extra: live text covers the wavy roof, halls, tower.
+
+## Verification
+
+Checked against freshly fetched Arcam guide pages (all 13 with a page), AAP year pages 2011, 2022, 2023, 2026
+and both 2026 jury reports, plus the writer's saved copies of DVA, RIVM, Divisare, Metalocus, Kempe Thill,
+Team V and gebouwdin (4105). Validator: 0 errors; overrides file is valid JSON. No em dashes, no hype words.
+Photo searches skipped (separate pass).
+
+Changes:
+- HAUT, BNA Best Building of the Year 2023 category win: kept. Independently confirmed by NH Nieuws
+  (https://www.nhnieuws.nl/nieuws/318865/amsterdams-gebouw-jonas-beste-2023: one of four category winners,
+  category "particuliere woonbeleving"). Category name added in EN and NL.
+- De Warren, Amsterdamse Nieuwbouwprijs 2024: kept. Confirmed by the organiser, Amsterdam Woont
+  (https://www.amsterdamwoont.nl/en/?p=91605: "Housing cooperative De Warren (IJburg) wins Amsterdam New-Build
+  Prize 2024", 8 June 2024). Designer names Boris Zeisser and Anja Verdonk confirmed by the Ammodo Architecture
+  page (https://www.ammodo-architecture.org/projects/de-warren) and Natrufied's own "over ons" page.
+- De Witte Kaap, designer narrowed to "Claus en Kaan Architecten": Felix Claus and Dick van Wageningen came
+  only from the live text; Arcam names the firm only, and archiweb credits Claus and Kaan, not Van Wageningen.
+- De Telefoondienst extra (EN and NL): "a shared garden at the back" narrowed to "a shared inner garden"
+  (gebouwdin: "collectieve binnentuin", no position given); "extra height" narrowed to "the added storey"
+  (Arcam: "de toevoeging van een extra verdieping"); "three standout conversions of the year" narrowed to
+  "three conversions that stood out from the nominees" (the jury compared the ten nominees only).
+- Vrijburcht: CASA architecten with Hein de Haan as project architect, opened 2007, confirmed by the TU Delft
+  DASH article (https://journals.open.tudelft.nl/dash/article/view/4850); the theatre is still running
+  (vrijburcht.nl, 20th season from September 2026), so "Public parts only" stands.
+- De Vrijheid draft: all facts re-checked against the architect's text (Divisare/Metalocus), Arcam and the 2026
+  jury reports; pin re-checked with PDOK (Dijkmeerlaan 3: 52.338818, 4.923231). No change.
+- Everything else (designers, years, works, access, AAP nominations 2011/2022/2023/2026, Footbridge Award 2002,
+  Nationale Staalprijs 2002, Mies van der Rohe Award 2017, BREEAM Award 2018 on Team V's own news page, Hedy
+  d'Ancona Prize 2010 nomination on RIVM, Kleiburg and Hogeweyk extras against Divisare and DVA) confirmed; no
+  change. Changed Dutch sentences checked for 8-word runs against Arcam, gebouwdin and both jury reports: none.

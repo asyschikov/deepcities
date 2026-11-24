@@ -73,3 +73,58 @@ BrowserOS browser (curl blocked or JS-only).
 ## Photos
 
 All seven have Wikimedia Commons photos (checked descriptions and licences: CC BY-SA 4.0 or CC0).
+
+## Verification
+
+Every source in the drafts re-read with curl (Het Parool 2009 in the BrowserOS browser, tab closed).
+Validator 0 errors; 8-word overlap check of EN and NL against all fetched source texts (now
+including Amsterdam Woont, AT5, NRC 2013 and 2015, Parool): 0 hits. No em dashes.
+
+Claims cut or narrowed:
+- Crossover: "public uses" in the brief (EN) and "maatschappelijke ... ruimte" (NL) narrowed to
+  "cultural and commercial space" / "culturele en commerciële ruimte" (Zuidas: culturele en
+  commerciële voorzieningen).
+- Crossover: summary "the brick grid is the same on every side; what fills it is not" and body "filled
+  differently on each side" narrowed: Team V and Amsterdam Woont say the grid's density and infill
+  both vary with function and setting. "Look for: the brick grid, denser on the motorway side" was
+  unsourced: now "filled differently on each side" (EN and NL).
+- Crossover: EN "young people and refugees" made to match the NL and Zuidas/Amsterdam Woont: 60
+  students starting out and 60 refugees with residence permits.
+- EMA: "Dura Vermeer and Heijmans, who also maintain it for 20 years" narrowed to "a contract that
+  also covers 20 years of maintenance" (MVSA names a Heijmans and Van Dorp vehicle as maintainer,
+  Zuidas names Dura Vermeer with Heijmans; both agree on the 20-year DBM contract). "Fitting out
+  could start early" corrected to the building services (MVSA: installation phase). NL "pitch tussen
+  lidstaten" corrected to "tussen Europese landen" (the source's words; the member states decided).
+- Amsterdam Symphony: "Building began in September 2006 and the complex was in use in 2009" cut
+  (Wikipedia only); replaced by "the first homes were ready in September 2009" (Het Parool, 4 Dec
+  2009, broker quoted). "In December 2013 the pension fund sold the office tower too" (Wikipedia) narrowed
+  to what NRC 21 Dec 2013 says: the fund sold the Symphony building to the German fund Deka.
+- Stadsdeelwerf: summary "the jury said it looks like anything but a depot" narrowed to the jury's
+  point, that newcomers wonder what it is (EN and NL).
+
+Recognition confirmed with a second source:
+- Crossover, Amsterdamse Nieuwbouwprijs 2024 (nominated): confirmed by the organiser's own page
+  (amsterdamwoont.nl/nieuwbouwprijs/2024/crossover) and AT5's Nieuwbouwprijs 2024 page listing
+  Crossover among the nominees. Kept, sources added.
+- Crystal Court, Amsterdamse Nieuwbouwprijs 2010 (winner): confirmed by the organiser's 2010 page
+  (amsterdamwoont.nl/nieuwbouwprijs/2010/), which also quotes Het Parool. Source added.
+- Crossover AAP 2024 and the jury quote: Arcam lists it as nominee; the jury text is Team V's
+  quotation of the report (kept, attributed to the jury).
+
+Other fixes:
+- Crossover pin moved: the old point (52.337600, 4.893700) fell on the neighbouring 2023 block
+  (BAG pand 0363100012254332, Gaasterlandstraat 251 etc.). Crossover is BAG pand 0363100012253656
+  (built 2023): 120 homes, offices and meeting rooms at Gelrestraat 28-314 plus 10 homes at
+  Rozenoordpad 7-25, the same range Amsterdam Woont gives. Pin now 52.337150, 4.893313 (inside the
+  pand); address "Gelrestraat 28-314 and Rozenoordpad 7-25".
+- Other pins checked point-in-pand against BAG: Van der Valk (2020 pand), EMA (2020), Viñoly (2005),
+  Symphony (2010 pand), Crystal Court (2007), Stadsdeelwerf (pand at Van Heenvlietlaan 50; BAG gives
+  bouwjaar 1962 for it, likely carried over from the old site; the address point matches Arcam).
+- Photo removed: File:2020 European Medicines Agency.jpg shows only the agency's name sign, not the
+  building. EMA keeps File:Vivaldigebouw 2020.04.23 (1).jpg (Commons category Vivaldi building =
+  EMA building, facade detail). All other photos checked on their file pages and thumbnails: they
+  show the buildings (Crystal Court (3) is the name on the glass hall, kept). No new photo search
+  (separate photo pass).
+- EMA "the Valley" changed to "Valley" (Van Dijk's words, the building's name).
+- Still open: the Crossover restaurant's current name and opening; the Stadsdeelwerf's current use
+  (no source newer than Commons 2019). Stadsdeelkantoor not drafted (coordinator's call).

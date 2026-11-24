@@ -26,7 +26,11 @@
 - Vrijburcht: live says 52 homes; the city register says 56.
 - HAUT: live says 2022; Arcam and the 2022 nomination point to 2021. De Warren: live "opened 2023", Arcam 2022.
 
+- Westermoskee minaret 43 m live vs Arcam 42 m. Augustanahof "sixteen social-rent" vs Arcam 14 social + 2 free-sector. WOW dates 1967/2006/2013 vs Arcam 1965/2005/2014. De Voortuinen ~100 trees vs ~120. Mercator ~60 plant species vs 50. De Meander ~275 homes vs 204.
+
 ## List changes after the round
 - Remove from the list: Gerrit Rietveld Academie (1967 building, wrong match); its 2018 Fedlev building is drafted in places/ex-zuid-zuidas-1.yaml.
 - Removed: Noorderlicht (rv8ru6n0a5t6ld6h3qluqw40), building gone.
 - To remove after ex-oost-zuidoost-1 is checked: De Vrijheid place nrx2dgcndexsweb2agamfjtl (prison history and Bajesdorp, not the tower); the tower is drafted in places/ex-oost-zuidoost-1.yaml.
+- Westergasfabriek: list now has k63k760wpsjf7b8y2ah9ajm5 (Westergasfabriek) instead of jsds7c6k9b08ytpixfmvm8kx (Gashouder).
+- De Vrijheid: nrx2dgcndexsweb2agamfjtl (Bajeskwartier and Bajesdorp) removed; tower im9kl0xw1tc970n3o0xbg7gv imported.
