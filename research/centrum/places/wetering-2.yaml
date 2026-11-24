@@ -70,7 +70,7 @@
   body: |
     Around 1840 a building on the Leidsekade housed two societies: Concordia, for men only, and Bellevue, which also let in women and children. Its owner, a Mr Stroucken, expanded it towards the Marnixstraat. In 1881 a party hall with flats above went up here, attributed to Eduard Cuypers and perhaps his first work as an independent architect, linked by a gallery to the old hall. In 1884–1885 the ground between them got a glass roof on cast-iron trusses and became a concert hall and winter garden. Cuypers is also credited with the shop-and-house next door at no. 396, built for Stroucken. The complex was known as Maison Stroucken and was a favourite for political meetings; Ferdinand Domela Nieuwenhuis spoke to his voters here.
 
-    The halls later became cinemas and the Nieuwe De la Mar theatre. When the VandenEnde Foundation rebuilt the whole site as DeLaMar, opened in 2010, the 1881 front was rebuilt behind a glass façade.
+    The halls later became cinemas and the Nieuwe De la Mar theatre. When the VandenEnde Foundation rebuilt the whole site as DeLaMar, opened in 2010, the old front was rebuilt, partly as a replica, with a glass façade rising behind and above it.
 
     Next door, a bronze by Hildo Krop marks where the resistance set fire to the files of the German labour draft in January 1945, and where the occupier shot hostages in reprisal.
 
@@ -97,10 +97,11 @@
     listed: 2004
     original_use: Party hall with flats, shop-house
     check: Facts
-    check_note: The 1881 front was rebuilt inside the 2010 glass façade; check whether the winged dog and the stair turrets came back.
+    check_note: Gebouwd in Amsterdam says the front is partly a replica; no source (searched 24 Nov 2026) says whether the winged dog and the stair turrets were rebuilt. Needs a look on site.
   photos:
     - commons:File:DeLaMar Theater.JPG
   sources:
+    - https://gebouwdin.amsterdam.nl/projectdetail/741 (DeLaMar: the street front is partly a replica of the original building of 1887, with a glass part rising above it for rehearsal rooms)
     - city:203039 (designed 1881 as party hall with dwellings, gallery wing to the existing hall of a c. 1840 building on the Singelgracht housing the societies Concordia and Bellevue, named Maison Stroucken c. 1880-1901 by owner Stroucken, 1884-85 glass roof on cast-iron trusses as concert hall and winter garden, half-round bays as stair towers, pediment with a fearsome winged dog over the former main entrance, attributed to Ed. Cuypers, perhaps his earliest independent work)
     - city:203038 (shop-house 1884-85 for H.L. Stroucken, attributed to Ed. Cuypers, wooden bay)
     - https://nl.wikipedia.org/wiki/Theater_Bellevue (Concordia men only, Bellevue also women and children, Stroucken commissioned Cuypers 1881 and 1885, Maison Stroucken a meeting centre where Domela Nieuwenhuis addressed voters, Bellevue name restored 1899, 1947 Theater de la Mar on the Marnixstraat side, cinemas)
@@ -112,7 +113,7 @@
     body: |
       Rond 1840 zaten in een gebouw aan de Leidsekade twee sociëteiten: Concordia, alleen voor heren, en Bellevue, waar ook vrouwen en kinderen welkom waren. Eigenaar Stroucken breidde het uit richting Marnixstraat. In 1881 verrees hier een feestzaal met woningen erboven, toegeschreven aan Eduard Cuypers en misschien zijn eerste werk als zelfstandig architect, met een galerij naar de oude zaal. In 1884–1885 kreeg het terrein daartussen een glazen dak op gietijzeren spanten en werd het concertzaal en wintertuin. Ook het winkelwoonhuis ernaast, nummer 396, gebouwd voor Stroucken, wordt aan Cuypers toegeschreven. Het complex heette Maison Stroucken en was geliefd voor politieke vergaderingen; Ferdinand Domela Nieuwenhuis sprak hier zijn kiezers toe.
 
-      Later werden de zalen bioscopen en het Nieuwe De la Mar Theater. Toen de VandenEnde Foundation het terrein herbouwde tot DeLaMar, open sinds 2010, werd de gevel van 1881 achter een glazen pui opnieuw opgetrokken.
+      Later werden de zalen bioscopen en het Nieuwe De la Mar Theater. Toen de VandenEnde Foundation het terrein herbouwde tot DeLaMar, open sinds 2010, werd de oude gevel opnieuw opgetrokken, deels als replica, met een glazen gevel die erachter en erboven uitsteekt.
 
       Ernaast staat een bronzen beeld van Hildo Krop op de plek waar het verzet in januari 1945 de kaartenbakken van de Arbeitseinsatz in brand stak en waar de bezetter uit wraak gijzelaars fusilleerde.
 
@@ -123,7 +124,7 @@
     attributes:
       architect: Eduard Cuypers (toegeschreven)
       original_use: Feestzaal met bovenwoningen, winkelwoonhuis
-      check_note: De gevel van 1881 is in 2010 binnen een glazen pui herbouwd; kijk of de gevleugelde hond en de traptorens terug zijn.
+      check_note: Volgens Gebouwd in Amsterdam is de gevel deels een replica; geen bron zegt of de gevleugelde hond en de traptorens terugkwamen. Ter plekke kijken.
     sources:
       - city:203039
       - city:203038
@@ -423,8 +424,8 @@
     - the old four-window house front dated 1665 in the row
     - the small-paned sash windows of the old houses
   category: housing
-  lat: 52.360666
-  lng: 4.891832
+  lat: 52.360755
+  lng: 4.891878
   address: Nieuwe Looiersstraat 16–38
   links:
     - { label: Rijksmonumentenregister (3608), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/3608" }
@@ -436,8 +437,6 @@
     monument_number: "3608"
     built: 1828–1829, using houses of about 1665
     original_use: Almshouse
-    check: Location
-    check_note: The pin is the register point of no. 28; it should go on the gate passage in no. 18.
   photos:
     - commons:File:RM3608 RM3607 RM3606 Nieuwe Looiersstraat 16-38 (hofje).jpg
   sources:
@@ -461,20 +460,19 @@
       - de kleine roedenverdeling in de ramen van de oude huizen
     attributes:
       original_use: Hofje
-      check_note: De speld staat op het registerpunt van nummer 28; hij hoort op de poortdoorgang in nummer 18.
     sources:
       - rce:3608
       - rce:3607
       - city:212026
 
 - title: Kaiser Wilhelm Schule, the German school of 1908
-  summary: "A big brick school of 1908 by Jan Stuyt, the architect of Catholic churches, built for the German School Association's Kaiser Wilhelm Schule on the site of five houses. Later it became a Montessori school."
+  summary: "A brick school of 1908 by Jan Stuyt for the German Kaiser Wilhelm Schule. In 1934 a paper called it a Nazi school, in the war the Dutch Nazi youth trained here, and today it is a primary school again."
   body: |
     In 1908 five houses on the north side of the Nieuwe Looiersstraat made way for a large school. It was built for the Kaiser Wilhelm Schule of the Deutsche Schulverein (German School Association), named after the German emperor who reigned at the time.
 
     The architect was Jan Stuyt (1868–1934), better known for Catholic churches, schools and convents across the country, among them the new St Bavo in Haarlem, designed with Jos Cuypers, and the St Agneskerk on the Amstelveenseweg. Here he kept it plain: a symmetrical brick front of three tall storeys, set back a little from the street so it would not overpower it, with the classrooms at the front and the corridors behind.
 
-    In 2006 the building housed the Eerste Montessorischool.
+    Then the school turned. In November 1934 the socialist weekly De Tribune called it 'a Nazi school in Amsterdam', where German and Dutch children were raised in the spirit of Hitler's Germany. From 1942 it was the central training school of the Jeugdstorm, the youth movement of the Dutch Nazi party. After the war a Montessori school moved in, followed by others. Today it is one of the two buildings of IKC De Kleine Reus, a primary school with after-school care.
 
     Look for:
     - the round-arched double door with five sandstone voussoirs and a beaded sandstone moulding
@@ -495,21 +493,22 @@
     architect: Jan Stuyt
     listed: 2006
     original_use: German school (Kaiser Wilhelm Schule)
-    check: Still there?
-    check_note: Check which school uses the building now; the Eerste Montessorischool named in the 2006 register is today known from the Corellistraat.
   photos: []
   sources:
     - city:212025 (large school set back in the north wall of the street, built 1908 on a plot of five former houses, architect Jan Stuyt (1868-1934), Catholic churches, schools and convents, new St Bavo Haarlem with Jos Cuypers, St Agneskerk Amstelveenseweg; built for the Kaiser Wilhelm Schule of the Duitse Schoolvereniging; now (2006) the Eerste Montessorischool; round-arched double door with five sandstone voussoirs and a sandstone bead moulding, balcony on sandstone volute consoles with wrought-iron railing, decorative anchors only on the ground floor)
     - https://www.joodsmonument.nl/en/page/557604/1st-montessorischool (the 1st Montessorischool De Wielewaal in the Corellistraat, founded 1926)
+    - https://www.joodsamsterdam.nl/centrale-opleidingsschool-van-de-jeugdstorm/ (Kaiser Wilhelmschool here from at least 1901; De Tribune 7-11-1934 'Een Nazi-school in Amsterdam', children of German and Dutch parents raised in the spirit of fascist Germany; school moved to Ruysdaelstraat 67 in December 1940 but this site stayed in use; Centrale Jeugdstormschool from 3 October 1942, Jeugdstorm training January 1943, also Deutsche Wirtschaftsschule 1943; after the war a Montessori ULO and other schools)
+    - https://dekleinereus.org/ons-ikc (IKC De Kleine Reus at Noorderstraat 6 and Nieuwe Looiersstraat 9, checked 24 November 2026)
+    - https://dekleinewereld.nl/vestigingen/nieuwe-looierstraat/ (after-school care De Kleine Wereld at Nieuwe Looiersstraat 9)
   nl:
     title: Kaiser Wilhelm Schule, de Duitse school van 1908
-    summary: "Een forse bakstenen school uit 1908 van Jan Stuyt, de architect van katholieke kerken, gebouwd voor de Kaiser Wilhelm Schule van de Duitse Schoolvereniging op de plek van vijf huizen. Later zat er een montessorischool in."
+    summary: "Een bakstenen school uit 1908 van Jan Stuyt voor de Duitse Kaiser Wilhelm Schule. In 1934 noemde een krant het een nazischool, in de oorlog leidde de Jeugdstorm er zijn leden op, en nu is het weer een basisschool."
     body: |
       In 1908 maakten vijf huizen aan de noordkant van de Nieuwe Looiersstraat plaats voor een grote school. Die werd gebouwd voor de Kaiser Wilhelm Schule van de Duitse Schoolvereniging, genoemd naar de Duitse keizer die toen regeerde.
 
       Architect was Jan Stuyt (1868–1934), vooral bekend van katholieke kerken, scholen en kloosters door het hele land, zoals de nieuwe Sint-Bavo in Haarlem, samen met Jos Cuypers, en de Sint-Agneskerk aan de Amstelveenseweg. Hier hield hij het sober: een symmetrische bakstenen gevel van drie hoge bouwlagen, een stukje teruggelegd zodat de school de straat niet overheerst, met de lokalen aan de voorkant en de gangen erachter.
 
-      In 2006 zat de Eerste Montessorischool in het gebouw.
+      Daarna kantelde de school. In november 1934 schreef het sociaaldemocratische weekblad De Tribune over 'een nazi-school in Amsterdam', waar Duitse en Hollandse kinderen werden opgevoed in de geest van Hitlers Duitsland. Vanaf 1942 zat hier de Centrale Opleidingsschool van de Jeugdstorm, de jeugdbeweging van de NSB. Na de oorlog kwam er een montessorischool, en daarna nog een paar andere scholen. Nu is het een van de twee gebouwen van IKC De Kleine Reus, een basisschool met buitenschoolse opvang.
 
       Let op:
       - de rondboogdeur met vijf zandstenen boogstenen en een zandstenen parellijst
@@ -517,9 +516,10 @@
       - de sierankers, alleen op de begane grond
     attributes:
       original_use: Duitse school (Kaiser Wilhelm Schule)
-      check_note: Kijk welke school het gebouw nu gebruikt; de Eerste Montessorischool uit het register van 2006 zit tegenwoordig aan de Corellistraat.
     sources:
       - city:212025
+      - https://www.joodsamsterdam.nl/centrale-opleidingsschool-van-de-jeugdstorm/
+      - https://dekleinereus.org/ons-ikc
 
 - title: De Bont & Leyten's building, later the city's bathhouse department
   summary: "Built in 1911 for the royal sweets, chocolate and liqueur company De Bont & Leyten, taken over in 1930 by the city department that ran Amsterdam's public baths, washhouses and pools. A tiny octagonal turret sits on its corner."
@@ -713,9 +713,11 @@
   body: |
     The Ancient Order of Foresters, a friendly society of British origin, bought in 1927 no. 8, a town house of 1878 built at the same time as its neighbour no. 6, and had S. Vieyra convert it into a society building. When it also got hold of no. 10, the right wing of a three-house block by T. Sanders of the same year, Vieyra merged the two in 1936 and gave them the present front: five windows wide, solid and conventional, so close to the 1878 houses around it that it barely shows as a 1930s design. The city register suspects the order chose that look on purpose.
 
-    Inside were a hall, a board room, a large cloakroom, a conversation room across the full width of the first floor, smaller meeting rooms above and a flat for the caretaker in the attic. One room of the 1878 house, a garden room with its neo-Renaissance decoration, was kept almost whole.
+    Inside came meeting rooms, a conversation room across the first floor and a caretaker's flat in the attic; a garden room of 1878 with neo-Renaissance decoration was kept almost whole.
 
-    By 1976 the building was the order's head office, and that year it decided to move out. It was later turned into a clinic. It is not open to visitors; the front is seen from the street.
+    In 1954 part of it was fitted out as a synagogue for the Liberal Jewish Congregation. By 1976 it was the order's head office, and that year the order decided to leave. The mental health service Mentrum was here in 2015; now the building is let as offices. You see the front from the street.
+
+    The ground has an older story. Before 1875 this was Lokaal Dalrust, a dance hall where Karl Marx and Friedrich Engels spoke in 1872.
 
     Look for:
     - the five-bay front of 1936 that blends in with the 1878 houses on either side
@@ -734,10 +736,11 @@
     architect: S. Vieyra
     listed: 2004
     original_use: Society building of the Ancient Order of Foresters
-    check: Still there?
-    check_note: The current use is not confirmed; the city register (2004) describes a clinic.
   photos: []
   sources:
+    - https://nl.wikipedia.org/wiki/Sarphatistraat_8 (Lokaal Dalrust, dance hall where Marx and Engels spoke in 1872, demolished 1875/1876; Foresters bought in October 1926; current use office and dwelling; Mentrum there in 2015)
+    - https://www.amsterdamhv.nl/wiki/architecten.html (Oznowicz converted part of the Foresterhuis, Sarphatistraat 8-10, into a synagogue for the Liberal Jewish Congregation in 1954)
+    - https://www.fundainbusiness.nl/kantoor/amsterdam/object-80970217-sarphatistraat-8-14/ (Sarphati Boutique Offices, Sarphatistraat 8-14, 1,273 m2 office space offered, status available, seen 24 November 2026)
     - city:203049 (no. 8 designed 1878 with no. 6; 1927 bought by 'The Ancient Order of Foresters' and converted to a society building by S. Vieyra; no. 10 the right wing of a three-house building by T. Sanders of 1878; 1936 Vieyra merged 8 and 10 into a society building with caretaker's flat and garden house, present facades, five bays; hall, board room, large cloakroom, conversation room over the full width, smaller rooms, caretaker's flat; 1976 decided to leave, by then head office of the order; next owner converted it into a clinic; garden room with neo-Renaissance decoration of 1878 almost intact; solid conventional form perhaps chosen as an image the order could identify with; internally connected to nos. 12-14)
   nl:
     title: Het huis van de Ancient Order of Foresters, Sarphatistraat 8–10
@@ -745,15 +748,17 @@
     body: |
       De Ancient Order of Foresters, een vereniging voor onderlinge hulp van Britse oorsprong, kocht in 1927 nummer 8, een herenhuis uit 1878 dat tegelijk met buurpand nummer 6 was gebouwd, en liet het door S. Vieyra verbouwen tot verenigingsgebouw. Toen ook nummer 10 in handen kwam, de rechtervleugel van een blok van drie woningen van T. Sanders uit hetzelfde jaar, voegde Vieyra de twee in 1936 samen en gaf ze de huidige gevel: vijf ramen breed, solide en conventioneel, zo dicht bij de huizen van 1878 eromheen dat je er nauwelijks een ontwerp uit de jaren dertig in ziet. Het gemeentelijke register vermoedt dat de orde die uitstraling bewust koos.
 
-      Binnen kwamen een hal, een bestuurskamer, een grote garderobe, een conversatiezaal over de hele breedte van de eerste verdieping, kleinere zalen daarboven en op zolder een conciërgewoning. Eén kamer uit het huis van 1878, een tuinkamer met neorenaissance-aankleding, bleef vrijwel helemaal bewaard.
+      Binnen kwamen vergaderzalen, een conversatiezaal over de eerste verdieping en op zolder een conciërgewoning; een tuinkamer uit 1878 met neorenaissance-aankleding bleef vrijwel gaaf bewaard.
 
-      In 1976 was het pand het hoofdkantoor van de orde, en dat jaar besloot zij te vertrekken. Later werd het verbouwd tot kliniek. Het is niet te bezoeken; de gevel zie je vanaf de straat.
+      In 1954 werd een deel ervan ingericht als synagoge voor de Liberaal Joodse Gemeente. In 1976 was het pand het hoofdkantoor van de orde, en dat jaar besloot zij te vertrekken. In 2015 zat GGZ-instelling Mentrum er; nu wordt het als kantoorruimte verhuurd. De gevel zie je vanaf de straat.
+
+      De grond zelf heeft een ouder verhaal. Tot 1875 stond hier Lokaal Dalrust, een dansgelegenheid waar Karl Marx en Friedrich Engels in 1872 spraken.
 
       Let op:
       - de gevel van vijf traveeën uit 1936, die opgaat in de huizen van 1878 ernaast
       - de ingang in de middelste travee, waar de hal van het verenigingsgebouw begon
     attributes:
       original_use: Verenigingsgebouw van de Ancient Order of Foresters
-      check_note: Het huidige gebruik is niet bevestigd; het gemeentelijke register (2004) beschrijft een kliniek.
     sources:
+      - https://nl.wikipedia.org/wiki/Sarphatistraat_8
       - city:203049

@@ -93,11 +93,19 @@ table at least as long.
   Wikipedia raw wikitext `https://nl.wikipedia.org/w/index.php?title=X&action=raw`,
   Wikidata, PDOK locatieserver for geocoding). Web search and Wikimedia APIs rate-limit
   hard: pace requests, back off on 429.
-- BrowserOS neo browser (load `mcp__browseros-neo__*` via ToolSearch) for pages curl can't
-  read. **One tab of your own, leave every other tab alone, close your tab before you
-  report.**
-- Respect robots.txt: if a site refuses automated readers (onsamsterdam.nl does), don't
-  fetch it; note it under "sources not read".
+- **BrowserOS neo browser is your main tool** (load `mcp__browseros-neo__*` via ToolSearch
+  in one call): it can open any website, including pages curl can't read, sites behind bot
+  walls and search engines (Google, DuckDuckGo). Use it for breadth and depth: search,
+  open, follow links, read whole archives. **One tab of your own, leave every other tab
+  alone, close your tab before you report.**
+- **Source preference (the user's explicit wish):** local newspapers, neighbourhood papers,
+  residents' and history-society sites, small Dutch and English blogs and other
+  non-mainstream sites. Mainstream tourist sites (iamsterdam, TripAdvisor-type lists,
+  hotel and tour-operator blogs) are not sources: at most a lead to verify elsewhere.
+- Sites whose robots.txt refuses automated readers (onsamsterdam.nl does): no curl, no
+  crawling. Through the browser you may read **specific articles** on your topics at human
+  pace (one page at a time, with pauses), take facts only, write your own words and link
+  the article. Never download or crawl their archive.
 - Raw downloads go to `$S/centrum-scout-<code>/`. Search in Dutch first, then English.
   Never use em dashes in what you write.
 
