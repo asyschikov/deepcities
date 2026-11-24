@@ -44,6 +44,9 @@ Don't skip step 1. The user wants to choose before anything is written or import
 - **Beyond monuments.** Search in **both Dutch and English**. Dutch sources find far more.
   - Public art: stadscuratorium.nl, buitenkunstamsterdam.nl, artatsite.com, the stadsdeel's kunstwacht routes, and the artists' own sites.
   - Local news: NH Nieuws / AT5, Het Parool, De Westkrant and other district papers, Rodi.
+    **For neighbourhood papers, residents' sites, blogs and other informal sources, follow
+    [local-sources](../local-sources/SKILL.md)**: how to find them, read whole archives,
+    get past bot walls and paywalls respectfully, and check what they say.
   - Local history: archief.amsterdam (beeldbank), district history sites, amsterdamsloopt, Arcam.
   - Also amsterdam.nl, iamsterdam.com, Wikipedia (nl/en) and Atlas Obscura.
   - Odd stories: bunkers and shelters, vanished things, disputes, renamings, things that sank, burned or were stolen.
