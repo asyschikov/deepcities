@@ -488,7 +488,11 @@ describe("a view's source fields", () => {
     await expect(set({ attributes: { rank: "Amazing" } })).rejects.toThrow(
       /Not fields/,
     );
+    // The home place's values for hidden fields don't block the view's own.
     await setSourceFields([]);
+    await expect(
+      set({ attributes: { local_tip: "Ring at the side door" } }),
+    ).resolves.toBeDefined();
     const { collection: none } = await coll().bySlug({ slug: "centrum" });
     expect(none.fields.map((f) => f.key)).toEqual(["local_tip"]);
     await setSourceFields(undefined);

@@ -919,10 +919,16 @@ export const proposalRouter = router({
       );
       const next = patchOverride(target, current, { ...input, translations });
       // Values are checked as the map will show them; "required" is the
-      // home map's business (a view's own fields start out empty).
+      // home map's business (a view's own fields start out empty). Home
+      // values of source fields the view doesn't show are not its concern.
+      const shownKeys = new Set(shape.fields.map((f) => f.key));
       const issues = attributeIssues(
         shape.fields.map((f) => ({ ...f, required: false })),
-        withOverride(target, next).attributes,
+        Object.fromEntries(
+          Object.entries(withOverride(target, next).attributes).filter(([k]) =>
+            shownKeys.has(k),
+          ),
+        ),
       );
       if (issues.length > 0)
         throw new TRPCError({
