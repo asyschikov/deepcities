@@ -149,12 +149,23 @@ export const fieldDefSchema = z
     hidden: z.boolean().optional(),
     /** Select fields only: offer the options as filter chips on the map. */
     filter: z.boolean().optional(),
+    /**
+     * Filter fields only: the options selected when the map opens (a subset
+     * of `options`). Readers can deselect them; see app/lib/field-filters.ts.
+     */
+    filterDefault: z.array(z.string().trim().min(1).max(60)).max(40).optional(),
   })
   .refine((f) => f.type !== "select" || (f.options?.length ?? 0) > 0, {
     message: "A select field needs options",
   })
   .refine((f) => !f.filter || f.type === "select", {
     message: "Only select fields can be filters",
+  })
+  .refine((f) => !f.filterDefault?.length || f.filter, {
+    message: "filterDefault needs filter: true",
+  })
+  .refine((f) => (f.filterDefault ?? []).every((v) => f.options?.includes(v)), {
+    message: "filterDefault values must be among the field's options",
   });
 export type FieldDef = z.infer<typeof fieldDefSchema>;
 

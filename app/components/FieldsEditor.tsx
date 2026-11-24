@@ -99,6 +99,9 @@ export const FieldsEditor = ({
                 update(i, {
                   type: v as FieldType,
                   options: v === "select" ? (f.options ?? []) : undefined,
+                  ...(v === "select"
+                    ? {}
+                    : { filter: undefined, filterDefault: undefined }),
                 })
               }
             >
@@ -132,7 +135,12 @@ export const FieldsEditor = ({
                   type="checkbox"
                   checked={Boolean(f.filter)}
                   onChange={(e) =>
-                    update(i, { filter: e.target.checked || undefined })
+                    update(i, {
+                      filter: e.target.checked || undefined,
+                      filterDefault: e.target.checked
+                        ? f.filterDefault
+                        : undefined,
+                    })
                   }
                 />
                 {t("manage_field_filter")}
@@ -180,8 +188,43 @@ export const FieldsEditor = ({
           {f.type === "select" && (
             <OptionsInput
               value={f.options ?? []}
-              onChange={(options) => update(i, { options })}
+              onChange={(options) => {
+                const kept = f.filterDefault?.filter((o) =>
+                  options.includes(o),
+                );
+                update(i, {
+                  options,
+                  filterDefault: kept?.length ? kept : undefined,
+                });
+              }}
             />
+          )}
+          {f.type === "select" && f.filter && (f.options?.length ?? 0) > 0 && (
+            <fieldset className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+              <legend className="mb-1 text-xs text-muted-foreground">
+                {t("manage_field_filter_default")}
+              </legend>
+              {(f.options ?? []).map((o) => {
+                const on = f.filterDefault?.includes(o) ?? false;
+                return (
+                  <label key={o} className="flex items-center gap-1.5">
+                    <input
+                      type="checkbox"
+                      checked={on}
+                      onChange={() => {
+                        const next = on
+                          ? (f.filterDefault ?? []).filter((v) => v !== o)
+                          : [...(f.filterDefault ?? []), o];
+                        update(i, {
+                          filterDefault: next.length ? next : undefined,
+                        });
+                      }}
+                    />
+                    {o}
+                  </label>
+                );
+              })}
+            </fieldset>
           )}
           <div className="flex items-center gap-2">
             <Input

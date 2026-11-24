@@ -29,6 +29,11 @@ import {
   type PinSize,
 } from "~/lib/constants";
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
+import {
+  currentFieldFilters,
+  matchesFieldFilters,
+  nextFieldFilterParam,
+} from "~/lib/field-filters";
 import { useGeolocation } from "~/lib/geolocation";
 import {
   type MapOverlay,
@@ -134,14 +139,22 @@ const MapLayout = () => {
     (c: string | null) => patchSearch({ cat: c ?? undefined }),
     [patchSearch],
   );
-  const fieldFilters = useMemo(() => urlSearch.f ?? {}, [urlSearch.f]);
+  // The map's default chips unless the URL chose otherwise.
+  const fieldFilters = useMemo(
+    () => currentFieldFilters(rawView.collection.fields, urlSearch.f),
+    [rawView.collection.fields, urlSearch.f],
+  );
   const setFieldFilter = useCallback(
-    (key: string, value: string | null) => {
-      const { [key]: _, ...rest } = fieldFilters;
-      const next = value === null ? rest : { ...rest, [key]: value };
-      patchSearch({ f: Object.keys(next).length > 0 ? next : undefined });
-    },
-    [fieldFilters, patchSearch],
+    (key: string, values: string[]) =>
+      patchSearch({
+        f: nextFieldFilterParam(
+          rawView.collection.fields,
+          urlSearch.f,
+          key,
+          values,
+        ),
+      }),
+    [rawView.collection.fields, urlSearch.f, patchSearch],
   );
   // The search box updates at typing speed; the URL follows shortly after.
   const urlQ = urlSearch.q ?? "";
@@ -324,9 +337,7 @@ const MapLayout = () => {
     return places.filter(
       (p, i) =>
         (!category || p.category === category) &&
-        Object.entries(fieldFilters).every(
-          ([key, value]) => p.attributes?.[key] === value,
-        ) &&
+        matchesFieldFilters(p.attributes, fieldFilters) &&
         (!q || matches(p) || matches(rawPlaces[i] ?? p)),
     );
   }, [places, rawPlaces, category, fieldFilters, search]);
