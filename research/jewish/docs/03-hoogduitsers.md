@@ -1,6 +1,6 @@
 ---
-title: The Hoogduitsers
-summary: The Ashkenazi Jews who came to Amsterdam from the German lands, Poland and further east from the seventeenth century: poor, Yiddish-speaking and soon far more numerous than the Portuguese. Their congregation of 1635, the four synagogues on the square, their cemeteries at Muiderberg and Zeeburg, their trades, their schools and the language they left in Amsterdam speech.
+title: "The Hoogduitsers"
+summary: "The Ashkenazi Jews who came to Amsterdam from the German lands, Poland and further east from the seventeenth century: poor, Yiddish-speaking and soon far more numerous than the Portuguese. Their congregation of 1635, the four synagogues on the square, their cemeteries at Muiderberg and Zeeburg, their trades, their schools and the language they left in Amsterdam speech."
 attach:
   map: false
   places:

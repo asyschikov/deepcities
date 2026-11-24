@@ -25,7 +25,7 @@ Eten hoorde bij de handel en bij de kalender. Bakkerij De Haan in de Valkenburge
 
 De Jodenbuurt had haar eigen vermaak. In de [Tip Top](place:Tip Top, the Jewish quarter's theatre (gone)) in de Jodenbreestraat, geopend in 1914, draaiden films en waren er cabaret en variété; Louis en Heintje Davids traden er op. De Plantage Middenlaan was een theaterstraat, met de [Hollandsche Schouwburg](place:Hollandsche Schouwburg, from theatre to deportation centre) en een paar deuren verder het pand dat nu [Desmet](place:Desmet, the theatre of many names (Plantage Middenlaan 4)) heet. Al in 1876 had het Joodse mannenkoor Oefening Baart Kunst er vlakbij een eigen concertzaal gebouwd, [Plancius](place:Plancius, the choir's clubhouse (Verzetsmuseum)), nu het Verzetsmuseum.
 
-De mooiste bioscoop van de stad bouwde een Joodse immigrant. Abraham Tuschinski, in 1886 in Polen geboren, kwam op weg naar Amerika in Rotterdam terecht en bleef. Met zijn zwagers opende hij in 1921 het [Tuschinski](place:Tuschinski) theater aan de Reguliersbreestraat. In 1940 nam de bezetter hun het bedrijf af, en in 1942 werden ze alle drie vermoord.
+De mooiste bioscoop van de stad bouwde een Joodse immigrant. Abraham Tuschinski, in 1886 in Polen geboren, kwam op weg naar Amerika in Rotterdam terecht en bleef. Met zijn zwagers opende hij in 1921 het [Tuschinski](place:Tuschinski (Pathé Tuschinski)) theater aan de Reguliersbreestraat. In 1940 nam de bezetter hun het bedrijf af, en in 1942 werden ze alle drie vermoord.
 
 ![De gevel van theater Tuschinski](commons:File:Tuschinski front.jpg)
 

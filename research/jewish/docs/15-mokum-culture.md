@@ -6,7 +6,7 @@ attach:
   places:
     - Waterlooplein market, from Jewish market to flea market
     - Tip Top, the Jewish quarter's theatre (gone)
-    - Tuschinski
+    - Tuschinski (Pathé Tuschinski)
     - Desmet, the theatre of many names (Plantage Middenlaan 4)
     - Memorial to the Jewish musicians, Concertgebouw
     - Football clubs' war memorials, Middenmeer
@@ -41,7 +41,7 @@ Food was part of the trade and of the calendar. The De Haan bakery in the Valken
 
 The Jewish quarter had its own entertainment. The [Tip Top](place:Tip Top, the Jewish quarter's theatre (gone)) in the Jodenbreestraat, opened in 1914, showed films and put on cabaret and variety; the entertainers Louis and Heintje Davids played there. The Plantage Middenlaan was a theatre street: the [Hollandsche Schouwburg](place:Hollandsche Schouwburg, from theatre to deportation centre), and a few doors along the house now called [Desmet](place:Desmet, the theatre of many names (Plantage Middenlaan 4)). Earlier, in 1876, the Jewish men's choir Oefening Baart Kunst had built its own concert hall nearby, [Plancius](place:Plancius, the choir's clubhouse (Verzetsmuseum)), which now houses the Resistance Museum.
 
-The grandest cinema in the city was built by a Jewish immigrant. Abraham Tuschinski, born in Poland in 1886, came to the Netherlands on his way to America and stayed. With his brothers-in-law he opened the [Tuschinski](place:Tuschinski) theatre on the Reguliersbreestraat in 1921. In 1940 the occupier took the company from them, and in 1942 all three were murdered.
+The grandest cinema in the city was built by a Jewish immigrant. Abraham Tuschinski, born in Poland in 1886, came to the Netherlands on his way to America and stayed. With his brothers-in-law he opened the [Tuschinski](place:Tuschinski (Pathé Tuschinski)) theatre on the Reguliersbreestraat in 1921. In 1940 the occupier took the company from them, and in 1942 all three were murdered.
 
 ![The front of the Tuschinski theatre](commons:File:Tuschinski front.jpg)
 
