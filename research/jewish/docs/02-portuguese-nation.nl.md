@@ -1,0 +1,54 @@
+---
+title: De Portugese Natie
+summary: Hoe conversos uit Portugal en Spanje in Amsterdam de Joden van de Portugese Natie werden: hun gemeenten, hun begraafplaats in Ouderkerk, de Esnoga van 1675, hun scholen en fondsen, hun handel, en hun plaats in de Atlantische koloniale economie, met plantages en slavenhandel in Brazilië, Suriname en Curaçao.
+---
+In de jaren 1590 kwam er een nieuw soort migrant naar Amsterdam: kooplieden uit Portugal en Spanje van wie de families al generaties lang, op papier, christen waren. Hun voorouders waren eind veertiende en in de vijftiende eeuw tot bekering gedwongen, en de Inquisitie verdacht hen er nog steeds van in het geheim het jodendom te belijden. In Amsterdam werden veel van deze *conversos* of 'nieuwe christenen' 'nieuwe Joden'. Zelf spraken ze van de *nação*, de Natie: de Portugese Natie, ter onderscheiding van de Joden die later uit Duitsland en Polen kwamen.
+
+## Waarom Amsterdam
+
+Handel trok minstens zo sterk als veiligheid. Na de Nederlandse blokkade van Antwerpen werd Amsterdam het knooppunt tussen Noord- en Zuid-Europa, en de Portugese kooplieden namen hun netwerken mee. Zeeland gaf Portugese kooplieden in 1587 het recht om handel te drijven, de Staten-Generaal volgden in 1588, en hoewel Haarlem, Alkmaar en Rotterdam betere voorwaarden boden, kozen de meesten voor Amsterdam. Formele tolerantie vonden ze daar niet, wel ruimte: artikel XIII van de Unie van Utrecht beloofde gewetensvrijheid, en de stad liet hen langzaam in besloten kring hun geloof belijden. Een getto is er nooit geweest.
+
+Rond 1602 ontstond een eerste gemeente, Beth Jacob. Neve Salom en Beth Israel volgden, en in 1639 gingen de drie op in Kahal Kados de Talmud Tora, de gemeente die nog altijd de Portugese Synagoge beheert. De Natie groeide van ongeveer 2.000 mensen in 1650 tot ongeveer 4.000 in 1700. De meesten woonden op en rond [Vlooienburg](place:Vlooienburg under the Stopera, the plaque that took thirty years, and Spinoza) en de Breestraat, die Amsterdam Jodenbreestraat ging noemen. Tot hun christelijke buren hoorden schilders: [Rembrandt](place:Rembrandthuis (Rembrandt House Museum)) woonde er vanaf 1639.
+
+## Een begraafplaats, een school en een bruidsschat
+
+Joodse graven mogen nooit worden geruimd, dus een begraafplaats was het eerste. Binnen de stad mocht dat niet, en in 1614 kocht de gemeenschap, tegen fel protest van de dorpelingen in, grond in Ouderkerk aan de Amstel. [Beth Haim](place:Beth Haim, the Portuguese Jews' cemetery at Ouderkerk) is nog steeds de begraafplaats van de Portugese gemeente. Er liggen zo'n 27.000 mensen, onder stenen met teksten in het Portugees, Spaans, Hebreeuws, Latijn en Nederlands, sommige met figuren en voorstellingen die elders op Joodse graven ondenkbaar zijn. Begrafenisstoeten kwamen per boot over de Amstel.
+
+![Een begrafenisstoet komt per boot aan bij de Portugese begraafplaats in Ouderkerk, ets van Romeyn de Hooghe, 1675](commons:File:Romeyn de Hooghe, Afb 010097005716.jpg)
+
+Vanaf 1616 hielden de gemeenten samen een school, Talmud Tora, met zes klassen naar leeftijd en vanaf 1637 een studiefonds, Ets Haim, waaruit de jesjiva van de gemeente groeide. Oud-conversos moesten het jodendom van de grond af leren, en de school werd in de hele diaspora bekend; oud-leerlingen gingen Sefardische gemeenten leiden in Hamburg, Londen, New York en de koloniën. De bibliotheek Ets Haim is de oudste Joodse bibliotheek ter wereld die nog in gebruik is. In 1615 richtten welgestelde leden Dotar op, een fonds dat arme wezen en meisjes van de Natie een bruidsschat gaf, niet alleen in Amsterdam maar overal buiten Spanje en Portugal. De loting wordt nog elk jaar rond Poerim gehouden.
+
+## De Esnoga
+
+Lang kerkte de Natie in verbouwde panden, na de fusie in een synagoge aan de Houtgracht. In de jaren 1670, op het hoogtepunt van haar welvaart, bouwde ze iets nieuws: een vrijstaande synagoge aan de Muidergracht, ontworpen door bouwmeester Elias Bouman en ingewijd op 2 augustus 1675. De [Portugese Synagoge, de Esnoga](place:Portuguese Synagogue (Esnoga)), biedt plaats aan 1.200 mannen en 440 vrouwen, heeft geen elektrisch licht en geen verwarming en wordt verlicht door honderden kaarsen in koperen kroonluchters. Tijdgenoten verbaasden zich erover dat een Joodse gemeenschap zo openlijk kon bouwen; Portugese families hingen prenten van het gebouw aan de muur. Het werd het voorbeeld voor Sefardische synagogen in Londen, Willemstad, Paramaribo en New York.
+
+![Emanuel de Witte schilderde het interieur van de Portugese Synagoge rond 1680](commons:File:Interieur van de Portugese synagoge te Amsterdam, SK-A-3738.jpg)
+
+De Natie kende ook felle botsingen over het geloof. Het bestuur wilde oud-conversos aan het rabbijnse jodendom binden en strafte afwijking met de *cherem*, de ban; de bekendste trof in 1656 de jonge [Spinoza](doc:Spinoza). Rabbijn [Menasseh ben Israel](doc:Menasseh ben Israel) drukte boeken in het Hebreeuws, Spaans en Latijn, voor Joden en christenen. In 1665 en 1666 raakte de gemeente, zoals een groot deel van de Joodse wereld, in de ban van de vermeende messias Sabbatai Zwi.
+
+## Handel en rijkdom, armoede en uitsluiting
+
+Portugese Joden handelden op Portugal en Spanje, de Middellandse Zee en de Levant, hadden suikerraffinaderijen, tabaksbedrijven en een zijdenijverheid en waren actief op de Amsterdamse beurs. De jaren 1648 tot 1672 gelden als de Gouden Eeuw van het Portugese jodendom in Amsterdam. Sommige families werden zeer rijk. Het bankiers- en handelsgeslacht De Pinto, via Antwerpen uit Lissabon gekomen, bezat het huis aan de Sint Antoniesbreestraat dat nu [Huis De Pinto](place:Huis De Pinto, the house that stopped a motorway) heet. In 1696, tijdens het Aansprekersoproer van arme Amsterdammers tegen een nieuwe begrafenisbelasting, werd het geplunderd, samen met huizen van burgemeesters: voor de menigte waren rijkdom en Joden kennelijk één. Een latere telg, Isaac de Pinto (1717 tot 1787), saneerde de financiën van de gemeente, schreef over handel, krediet en staatsschuld en gaf Voltaire, die de Joden belachelijk had gemaakt, schriftelijk antwoord.
+
+De meeste leden waren niet rijk. De Natie zorgde zelf voor haar armen en probeerde hun aantal klein te houden: vanaf 1622 betaalde ze arme Joden, eigen en andere, om verder te trekken, en in 1747 bedacht ze een plan om een derde van haar armen naar Suriname te sturen. Eind achttiende eeuw leefde 55 procent van de Amsterdamse Portugese Joden van bedeling. Het [weeshuis voor jongens](place:Aby Jetomim, the Portuguese boys' orphanage (Plantage Middenlaan 80)), het [oudemannenhuis](place:Nieuwe Herengracht 33, the stones of the Portuguese-Jewish old men's home) en het [hofje voor vrouwen](place:Fernandes Nuneshuis, a Portuguese-Jewish almshouse) horen bij dat verhaal; zie [Liefdadigheid, scholen en zorg](doc:Charity, schools and care). Op de armere Asjkenazim keken de Portugezen neer: zie [De Hoogduitsers](doc:The Hoogduitsers).
+
+## Brazilië, Suriname, Curaçao: de Atlantische kant
+
+De geschiedenis van de Natie is ook een deel van de geschiedenis van het Nederlandse kolonialisme en de slavernij. Toen de West-Indische Compagnie (WIC) Noord-Brazilië bezat, van 1630 tot 1654, vestigden zich daar Joden uit Amsterdam. In 1641 vertrok de Amsterdamse rabbijn Isaac Aboab da Fonseca naar Recife als voorganger van Kahal Kados Zur Israel, de eerste Joodse gemeente in Amerika. Joden in Nederlands-Brazilië dreven handel en bezaten veel suikermolens, en Braziliaanse suiker werd gemaakt door tot slaaf gemaakte Afrikanen. Toen Portugal de kolonie in 1654 heroverde, vertrokken de Joden, deels terug naar Amsterdam, deels naar het Caribisch gebied en naar Nieuw-Amsterdam, het latere New York.
+
+Na Brazilië verspreidden Nederlandse Sefardim zich over het Caribisch gebied. Vanaf de jaren 1690 werd Curaçao de moedergemeente van het Caribische jodendom, een handelspost die Spaans Amerika bevoorraadde. In Suriname, Nederlands vanaf 1667, vestigden Joodse planters zich langs de Surinamerivier. Hun nederzettingen, eerst bij de Cassiporakreek vanaf de jaren 1650 en vanaf de jaren 1680 de Jodensavanne, waren in Joodse handen en werden door Joden bestuurd, met voorrechten die nergens anders in de vroegmoderne Joodse wereld bestonden. Volgens UNESCO woonden daar Joden samen met vrije en tot slaaf gemaakte mensen van Afrikaanse en inheemse afkomst; sinds 2023 staat de Jodensavanne op de Werelderfgoedlijst. In de achttiende eeuw was een derde tot de helft van de witte bevolking van Curaçao en Suriname Joods. Sommigen bezaten plantages waarop tot slaaf gemaakten werkten, en volgens de historici Tirtsah Levie Bernfeld en Bart Wallet hadden de Joden op de eilanden een aanzienlijk aandeel in de slavenhandel.
+
+Het Amsterdamse aandeel was kleiner dan soms wordt beweerd. Joden investeerden in de compagnieën, maar bescheiden: van de oorspronkelijke 3 miljoen gulden kapitaal van de eerste WIC brachten Joodse beleggers 36.000 gulden in, 1,2 procent, en in 1656 waren zeven van de 167 grote aandeelhouders Joods. Historici wijzen erop dat zulke cijfers zijn misbruikt om Joden de schuld van de trans-Atlantische slavenhandel te geven, en ook dat de koloniale kant van de Nederlands-Joodse geschiedenis lang buiten beeld bleef, in de Joodse én de Nederlandse geschiedschrijving. De slavernij kwam ook tot in Amsterdamse huizen: notariële akten tonen Portugese families die tot slaaf gemaakte bedienden van Afrikaanse afkomst uit Brazilië meebrachten, wier status in een stad waar slavernij geen wettelijke grond had onduidelijk was. Enkele zwarte leden van Portugese huishoudens die Joods waren geworden, liggen op Beth Haim begraven.
+
+## Wat er over is
+
+In de Esnoga wordt nog gekerkt en ze is te bezoeken, met de bibliotheek Ets Haim ernaast. Beth Haim in Ouderkerk is open voor bezoek. Vlooienburg ligt onder de Stopera, en Huis De Pinto overleefde de naoorlogse sloop van de Jodenbuurt met één stem verschil in de gemeenteraad (zie [De Jodenbuurt en haar afbraak](doc:The Jodenbuurt and its clearance)). Het overzicht van de hele kaart staat in [Joods Amsterdam, vier eeuwen](doc:Jewish Amsterdam, four centuries).
+
+## Bronnen
+
+- R.G. Fuks-Mansfeld, *De Sefardim in Amsterdam tot 1795. Aspecten van een joodse minderheid in een Hollandse stad* (Verloren, 1989)
+- J.C.H. Blom, R.G. Fuks-Mansfeld en I. Schöffer (red.), *Geschiedenis van de joden in Nederland* (Balans, 1995)
+- Tirtsah Levie Bernfeld en Bart Wallet, *Jews in the Netherlands: A Short History* (Amsterdam University Press, 2023), [open access](https://library.oapen.org/handle/20.500.12657/62475)
+- Lydia Hagoort, *Het Beth Haim in Ouderkerk aan de Amstel* (Verloren, 2005)
+- Jessica Roitman, "Engaging Empire. Histories and Historiography of Jews in the Dutch Colonies, 1700-1945", *Studia Rosenthaliana* 49:1 (2023), [open access](https://doi.org/10.5117/SR2023.1.001.ROIT)
+- UNESCO, [Jodensavanne Archaeological Site](https://whc.unesco.org/en/list/1680)
