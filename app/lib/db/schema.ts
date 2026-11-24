@@ -35,6 +35,8 @@ import type {
   DocumentDraft,
   FieldDef,
   MapView,
+  OverrideAttributes,
+  OverrideDraft,
   PlaceDraft,
   PlaceTranslations,
   RouteDraft,
@@ -291,6 +293,37 @@ export const place = sqliteTable(
 );
 
 /**
+ * A view map's own values for one of its source's places (see
+ * app/lib/overrides.ts): `attributes` holds only the overridden keys (null:
+ * unset on this map), `category` replaces the place's when set. Only ever
+ * written by approving an `override` proposal; no-op keys are not stored.
+ */
+export const placeOverride = sqliteTable(
+  "place_override",
+  {
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    placeId: text("place_id")
+      .notNull()
+      .references(() => place.id, { onDelete: "cascade" }),
+    attributes: text("attributes", { mode: "json" })
+      .$type<OverrideAttributes>()
+      .notNull()
+      .default({}),
+    category: text("category"),
+    updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
+    updatedBy: text("updated_by").references(() => profile.id, {
+      onDelete: "set null",
+    }),
+  },
+  (t) => [
+    primaryKey({ columns: [t.collectionId, t.placeId] }),
+    index("place_override_place_idx").on(t.placeId),
+  ],
+);
+
+/**
  * A route through the map: ordered stops (places or ad-hoc points) joined by
  * legs (transport mode + drawn path + directions). Like places, only ever
  * written by approving a `proposal`.
@@ -340,7 +373,10 @@ export const proposal = sqliteTable(
     collectionId: text("collection_id")
       .notNull()
       .references(() => collection.id, { onDelete: "cascade" }),
-    /** Place proposals use placeId/draft; route proposals routeId/routeDraft. */
+    /**
+     * Place proposals use placeId/draft; route proposals routeId/routeDraft;
+     * override proposals placeId/overrideDraft (on the view map).
+     */
     subject: text("subject", { enum: PROPOSAL_SUBJECTS })
       .notNull()
       .default("place"),
@@ -358,6 +394,13 @@ export const proposal = sqliteTable(
     draft: text("draft", { mode: "json" }).$type<PlaceDraft>(),
     /** Full snapshot of the proposed route (route proposals, not archive). */
     routeDraft: text("route_draft", { mode: "json" }).$type<RouteDraft>(),
+    /**
+     * Override proposals: the view map's (`collectionId`) complete proposed
+     * override for `placeId` (empty: back to the home values).
+     */
+    overrideDraft: text("override_draft", {
+      mode: "json",
+    }).$type<OverrideDraft>(),
     /** Contributor's note to moderators ("why this change"). */
     note: text("note"),
     baseRevision: integer("base_revision"),

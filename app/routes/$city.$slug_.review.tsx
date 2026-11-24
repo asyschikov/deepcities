@@ -32,6 +32,7 @@ import { languageName } from "~/lib/content-lang";
 import { diffDrafts, distanceMeters, type FieldChange } from "~/lib/diff";
 import { goneField } from "~/lib/gone";
 import { loadCollection } from "~/lib/loaders";
+import { NO_OVERRIDE, withOverride } from "~/lib/overrides";
 import { cn, photoUrl } from "~/lib/utils";
 import {
   draftOfPlace,
@@ -267,7 +268,17 @@ const ProposalCard = ({
     }),
   );
   const isRoute = item.subject === "route";
-  const current = item.place ? placeAsDraft(item.place) : null;
+  const isOverride = item.subject === "override";
+  const home = item.place ? placeAsDraft(item.place) : null;
+  // Override proposals: the place as this map shows it now, and as it would.
+  const current =
+    home && isOverride
+      ? { ...home, ...withOverride(home, item.currentOverride ?? NO_OVERRIDE) }
+      : home;
+  const proposedValues =
+    home && isOverride && item.overrideDraft
+      ? { ...home, ...withOverride(home, item.overrideDraft) }
+      : null;
   const currentRoute = item.route ? draftOfRoute(item.route) : null;
   const target = isRoute ? item.route : item.place;
   const stale =
@@ -280,7 +291,13 @@ const ProposalCard = ({
     <li className="space-y-4 rounded-xl border bg-card p-5">
       <div className="flex flex-wrap items-center gap-2">
         <Badge variant="outline">
-          {t(isRoute ? `kind_route_${item.kind}` : `kind_${item.kind}`)}
+          {t(
+            isRoute
+              ? `kind_route_${item.kind}`
+              : isOverride
+                ? "kind_override"
+                : `kind_${item.kind}`,
+          )}
         </Badge>
         <span className="font-semibold">
           {isRoute
@@ -326,12 +343,19 @@ const ProposalCard = ({
           fields={view.collection.fields}
         />
       )}
+      {proposedValues && current && (
+        <EditDiff
+          before={current}
+          after={proposedValues}
+          fields={view.collection.fields}
+        />
+      )}
       {item.kind === "archive" && current && (
         <p className="text-sm">
           {t("review_archive_explainer", { title: current.title })}
         </p>
       )}
-      {!isRoute && (item.draft ?? current) && (
+      {!isRoute && !isOverride && (item.draft ?? current) && (
         <LocationPreview
           draft={item.draft ?? (current as PlaceDraft)}
           before={item.kind === "edit" ? (current ?? undefined) : undefined}
@@ -522,7 +546,9 @@ const MineList = ({ view }: { view: CollectionView }) => {
               {t(
                 p.subject === "route"
                   ? `kind_route_${p.kind}`
-                  : `kind_${p.kind}`,
+                  : p.subject === "override"
+                    ? "kind_override"
+                    : `kind_${p.kind}`,
               )}
             </Badge>
             {p.subject === "route" ? (

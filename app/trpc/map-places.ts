@@ -6,7 +6,9 @@
 import { TRPCError } from "@trpc/server";
 import { and, eq, inArray, type SQL, sql } from "drizzle-orm";
 import type { Database } from "~/lib/db";
-import { collection, place } from "~/lib/db/schema";
+import { collection, place, placeOverride } from "~/lib/db/schema";
+import { displayedFields } from "~/lib/overrides";
+import type { CategoryDef, FieldDef, OverrideDraft } from "~/lib/validation";
 import { homeIdOf, VIEW_WHERE_KEYS, type ViewMap } from "~/lib/views";
 
 export { homeIdOf };
@@ -70,4 +72,73 @@ export const photoMapIds = async (
     .from(collection)
     .where(sql`json_extract(${collection.view}, '$.source') = ${home}`);
   return [...new Set([home, m.id, ...views.map((v) => v.id)])];
+};
+
+/**
+ * A view map's overrides of its places, by place id (app/lib/overrides.ts).
+ * Home maps have none.
+ */
+export const overridesOf = async (
+  db: Database,
+  m: ViewMap,
+  placeIds?: string[],
+): Promise<Map<string, OverrideDraft>> => {
+  if (!m.view || placeIds?.length === 0) return new Map();
+  const rows = await db
+    .select({
+      placeId: placeOverride.placeId,
+      attributes: placeOverride.attributes,
+      category: placeOverride.category,
+    })
+    .from(placeOverride)
+    .where(
+      and(
+        eq(placeOverride.collectionId, m.id),
+        placeIds ? inArray(placeOverride.placeId, placeIds) : undefined,
+      ),
+    );
+  return new Map(
+    rows.map((r) => [
+      r.placeId,
+      { attributes: r.attributes, category: r.category },
+    ]),
+  );
+};
+
+/**
+ * What a map's places are read with: its source's categories (a view's own
+ * are ignored), and the source's fields followed by the view's own.
+ */
+export const shapeOf = async (
+  db: Database,
+  c: {
+    id: string;
+    view: ViewMap["view"];
+    categories: CategoryDef[];
+    fields: FieldDef[];
+  },
+): Promise<{
+  categories: CategoryDef[];
+  fields: FieldDef[];
+  sourceFields: FieldDef[];
+  ownFields: FieldDef[];
+}> => {
+  if (!c.view)
+    return {
+      categories: c.categories,
+      fields: c.fields,
+      sourceFields: c.fields,
+      ownFields: c.fields,
+    };
+  const source = await db.query.collection.findFirst({
+    where: eq(collection.id, c.view.source),
+    columns: { categories: true, fields: true },
+  });
+  const sourceFields = source?.fields ?? [];
+  return {
+    categories: source?.categories ?? c.categories,
+    fields: displayedFields(sourceFields, c.fields),
+    sourceFields,
+    ownFields: c.fields,
+  };
 };

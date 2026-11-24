@@ -37,10 +37,12 @@ READ
                    [--category KEY] [--field key=value]... [--q TEXT] [--all]
                                            the places the map shows (compact, with
                                            attributes, parentId, detail); for a view
-                                           map, what the view shows. --all: every
-                                           place of the map's home, at any detail
-  dc place <placeId>                       full place: fields, photos (+credits), history,
-                                           parent and children
+                                           map, what the view shows, with its own
+                                           values ("overridden" lists them). --all:
+                                           every place of the map's home, at any detail
+  dc place <placeId> [--map <slug>]        full place: fields, photos (+credits), history,
+                                           parent and children; --map <view>: with that
+                                           view's own values ("base": the home values)
   dc export <slug> [--all]                 every place the map shows in full (all
                                            translations, attributes, photo ids): backup,
                                            diff base, bulk review; --all as for places
@@ -58,6 +60,16 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
   dc update-many <file.json|-> [--note TEXT] [--dry-run]
                                            many edits: [{"id", "patch", "note"?}] (or
                                            [{"id", ...patch}]); patches merge like update
+  update edits the place itself, on its home map. For values that apply on one
+  view map only, use override (see VIEWS AND CLUSTERS):
+  dc override <viewSlug> <placeId> <patch|-> [--note TEXT] [--dry-run]
+                                           the view's own values for a place: {"attributes"?:
+                                           {key: value | null}, "category"?: KEY | null,
+                                           "revert"?: [key | "category"], "reset"?: true};
+                                           merged onto the view's current override
+  dc override-many <viewSlug> <file.json|-> [--note TEXT] [--dry-run]
+                                           [{"id", "attributes"?, "category"?, "revert"?,
+                                           "reset"?, "note"?}]
   dc archive-many <file.json|-> --note TEXT [--dry-run]
                                            ["id", …] or [{"id", "note"?}]
   dc copy <slug> <placeId>... [--category KEY] [--note TEXT] [--dry-run]
@@ -90,7 +102,10 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
 MAP SCHEMA (map admins)
   dc fields <slug> <defs.json|->           replace the map's custom place fields with a
                                            JSON array of field definitions (see \`dc schema\`);
-                                           existing keys must stay (hide, don't delete)
+                                           existing keys must stay (hide, don't delete).
+                                           On a view: the fields it adds after its
+                                           source's (keys must differ from the source's);
+                                           their values are set with dc override
   dc settings <slug> <json|->              change map settings: title, tagline,
                                            description, city, centerLat, centerLng, zoom,
                                            contributionPolicy, categories (full array of
@@ -145,6 +160,18 @@ VIEWS AND CLUSTERS
   title on the same home map). Home maps show "detail": "city" places; a
   full-detail view shows every matching place except clusters with parts.
 
+  A view can give a place values of its own (an override): custom fields and
+  category, e.g. rank "Amazing" in Deep Centrum while Deep Amsterdam says "Nice".
+  A view shows the home values with its override on top: attribute keys replace
+  per key (null: no value on the view), a category replaces the home one. Keys
+  equal to the home value are not stored. Texts, location, photos, links, parent
+  and detail are always the home place's (dc update). Overrides go through the
+  view's review queue and permissions (moderators+ publish immediately).
+    dc override centrum <placeId> '{"attributes": {"rank": "Amazing"}}'
+    dc override centrum <placeId> '{"revert": ["rank"]}'     back to the home value
+  A view may also define fields of its own (dc fields <view>): shown after the
+  source's fields, with values only in its overrides.
+
 <draft>/<patch> is inline JSON ('{"title":...}'), a path to a .json file, or - for stdin.
 A draft or patch may also carry "photos": [<source> | {"source", "credit", "license",
 "sourceUrl"}] — each is uploaded and appended to photoIds.
@@ -183,6 +210,18 @@ const SCHEMA = {
       'optional filter, every listed key must match one of its values: {"borough": ["Centrum"], "neighbourhood": [...], "subNeighbourhood": [...], "category": [...]}',
     detail:
       '"city": the source\'s city-level places that match; "full": every matching place except clusters with parts (the leaves at full detail)',
+  },
+  override: {
+    attributes:
+      "optional object { key: value | null }: what the view shows for these fields (its source's fields and its own, `dc map <view>` → collection.fields); null: no value on the view. Keys left out keep the view's current value",
+    category:
+      "optional category key (the source's categories) shown on the view; null: the home category",
+    revert:
+      'optional array of field keys (or "category") to take from the home place again',
+    reset:
+      "optional true: drop the view's current override first, then apply the rest",
+    stored:
+      'only keys that differ from the home place are kept; `dc places <view>` and `dc export <view>` show the effective values and list overridden keys in "overridden"',
   },
   fieldDefinition: {
     key: "lowercase snake_case, ≤32, unique; values are stored under it, so never rename",
@@ -873,6 +912,76 @@ const editPlace = async (
   );
 };
 
+const OVERRIDE_KEYS = ["attributes", "category", "revert", "reset"];
+
+/**
+ * Propose a view map's own values for one place: `{attributes?, category?,
+ * revert?, reset?}` merged onto the view's current override (attributes per
+ * key, null: no value on this map; category null or revert: back to the
+ * home value). With `dryRun`, the diff of what the view shows.
+ */
+const overridePlace = async (
+  view: { id: string; slug: string },
+  placeId: string,
+  given: Obj,
+  note: string | null,
+  opts: { dryRun?: boolean } = {},
+): Promise<Obj> => {
+  const bad = Object.keys(given).filter((k) => !OVERRIDE_KEYS.includes(k));
+  if (bad.length)
+    throw new CliError(
+      `Unknown override keys: ${bad.join(", ")} (expected ${OVERRIDE_KEYS.join(", ")}; texts, location and photos: dc update)`,
+      "BAD_JSON",
+    );
+  if (
+    given.attributes !== undefined &&
+    (typeof given.attributes !== "object" ||
+      given.attributes === null ||
+      Array.isArray(given.attributes))
+  )
+    throw new CliError('"attributes" must be an object', "BAD_JSON");
+  const input = {
+    collectionId: view.id,
+    placeId,
+    ...given,
+    note,
+  };
+  // Safe to retry: the same patch again comes back "unchanged".
+  if (!opts.dryRun)
+    return withRetries(
+      async () => (await mutate("proposal.createOverride", input)) as Obj,
+    );
+  const [res, shown] = await Promise.all([
+    mutate("proposal.createOverride", { ...input, dryRun: true }) as Promise<
+      Obj & { override: { attributes: Attrs; category: string | null } }
+    >,
+    query("place.byId", { placeId, map: view.slug }) as Promise<{
+      place: { title: string; attributes: Attrs; category: string };
+      base: { attributes: Attrs; category: string };
+    }>,
+  ]);
+  const after = {
+    attributes: Object.fromEntries(
+      Object.entries({
+        ...shown.base.attributes,
+        ...res.override.attributes,
+      }).filter(([, v]) => v !== null),
+    ),
+    category: res.override.category ?? shown.base.category,
+  };
+  const before = {
+    attributes: shown.place.attributes,
+    category: shown.place.category,
+  };
+  return res.status === "unchanged"
+    ? res
+    : {
+        ...res,
+        title: shown.place.title,
+        diff: diffOf(before, after),
+      };
+};
+
 /** Propose removing a place (retried; a retry finds it already gone). */
 const archivePlace = async (
   placeId: string,
@@ -1405,8 +1514,11 @@ const commands: Record<
       }));
   },
 
-  place: ([placeId]) =>
-    query("place.byId", { placeId: need(placeId, "<placeId>") }),
+  place: ([placeId], flags) =>
+    query("place.byId", {
+      placeId: need(placeId, "<placeId>"),
+      map: flags.map,
+    }),
 
   photo: async ([slug, source], flags) => {
     const { collection } = await collectionOf(need(slug, "<slug>"));
@@ -1446,9 +1558,23 @@ const commands: Record<
     const bad = unknownKeys(patch);
     if (bad.length)
       throw new CliError(`Unknown patch fields: ${bad.join(", ")}`, "BAD_JSON");
-    return editPlace(need(placeId, "<placeId>"), patch, flags.note ?? null, {
-      dryRun: flags["dry-run"] === "true",
-    });
+    try {
+      return await editPlace(
+        need(placeId, "<placeId>"),
+        patch,
+        flags.note ?? null,
+        { dryRun: flags["dry-run"] === "true" },
+      );
+    } catch (err) {
+      // `dc update <viewSlug> …`: per-map values are overrides.
+      const map = await collectionOf(placeId ?? "").catch(() => null);
+      if (map?.collection.view)
+        throw new CliError(
+          `dc update takes a place id and edits the place itself (on its home map). For values that apply only on the view ${map.collection.slug} (fields, category), use: dc override ${map.collection.slug} <placeId> '{"attributes": {...}}'`,
+          "VIEW_MAP",
+        );
+      throw err;
+    }
   },
 
   /** Many edits, one note: [{"id", "patch", "note"?}] or [{"id", ...patch}]. */
@@ -1480,7 +1606,57 @@ const commands: Record<
     return withSummary(results);
   },
 
-  /** Replace a map's custom place fields (admins). Other settings are kept. */
+  /** A view map's own values for one place (fields, category). */
+  override: async ([slug, placeId, arg], flags) => {
+    const { collection: c } = await collectionOf(need(slug, "<viewSlug>"));
+    if (!c.view)
+      throw new CliError(
+        `${c.slug} is not a view: edit its places with dc update`,
+        "NOT_A_VIEW",
+      );
+    return overridePlace(
+      c,
+      need(placeId, "<placeId>"),
+      readJsonArg(need(arg, "<patch>")),
+      flags.note ?? null,
+      { dryRun: flags["dry-run"] === "true" },
+    );
+  },
+
+  /** Many overrides on one view: [{"id", "attributes"?, "category"?, …}]. */
+  "override-many": async ([slug, arg], flags) => {
+    const { collection: c } = await collectionOf(need(slug, "<viewSlug>"));
+    if (!c.view)
+      throw new CliError(
+        `${c.slug} is not a view: edit its places with dc update-many`,
+        "NOT_A_VIEW",
+      );
+    const items = readJsonArray(need(arg, "<file.json>"));
+    const results: Obj[] = [];
+    for (const raw of items) {
+      const { id, note, ...patch } = (raw ?? {}) as Obj;
+      const placeId = typeof id === "string" ? id : "";
+      try {
+        if (!placeId) throw new CliError('Each item needs an "id"', "BAD_JSON");
+        const res = await overridePlace(
+          c,
+          placeId,
+          patch,
+          typeof note === "string" ? note : (flags.note ?? null),
+          { dryRun: flags["dry-run"] === "true" },
+        );
+        results.push({ placeId, result: outcomeOf(res, "updated"), ...res });
+      } catch (err) {
+        results.push({ placeId, result: "failed", error: messageOf(err) });
+      }
+    }
+    return withSummary(results);
+  },
+
+  /**
+   * Replace a map's own custom place fields (admins). On a view: the fields
+   * it adds to its source's (keys must differ from the source's).
+   */
   fields: async ([slug, arg]) => {
     const text =
       need(arg, "<defs.json>") === "-"
@@ -1491,26 +1667,8 @@ const commands: Record<
     const fields: unknown = JSON.parse(text);
     if (!Array.isArray(fields))
       throw new CliError("Field definitions must be a JSON array", "BAD_JSON");
-    const { collection: c } = (await query("collection.bySlug", {
-      slug: need(slug, "<slug>"),
-    })) as { collection: Obj & { id: string } };
-    await mutate("collection.updateSettings", {
-      collectionId: c.id,
-      title: c.title,
-      tagline: c.tagline,
-      description: c.description,
-      city: c.city,
-      centerLat: c.centerLat,
-      centerLng: c.centerLng,
-      zoom: c.zoom,
-      categories: c.categories,
-      contributionPolicy: c.contributionPolicy,
-      fields,
-      language: c.language,
-      languages: c.languages,
-      translations: c.translations,
-    });
-    return { ok: true, fields };
+    const { collection: c } = await collectionOf(need(slug, "<slug>"));
+    return mutate("collection.setFields", { collectionId: c.id, fields });
   },
 
   /** Change a map's general settings (admins); keys left out are kept. */
@@ -2036,7 +2194,14 @@ const commands: Record<
       note: p.note,
       author: (p.author as Obj | null)?.name ?? null,
       createdAt: p.createdAt,
-      draft: p.subject === "route" ? p.routeDraft : p.draft,
+      draft:
+        p.subject === "route"
+          ? p.routeDraft
+          : p.subject === "override"
+            ? p.overrideDraft
+            : p.draft,
+      // Override proposals: the view's override for the place as it is now.
+      ...(p.subject === "override" ? { current: p.currentOverride } : {}),
     }));
   },
 

@@ -18,7 +18,10 @@ const EditPlace = () => {
   const navigate = useNavigate();
   const leaveForm = useLeaveForm();
   const { city, slug, placeId } = Route.useParams();
-  const { data } = useQuery(trpc.place.byId.queryOptions({ placeId }));
+  // On a view map, the place as the view shows it (its own values merged).
+  const { data } = useQuery(
+    trpc.place.byId.queryOptions({ placeId, map: slug }),
+  );
 
   // Snapshot once: refetches must not reset the form or the draft pin.
   const place = data?.place;
@@ -54,11 +57,21 @@ const EditPlace = () => {
         <p className="text-sm text-muted-foreground">
           {data.can.review ? t("edit_intro_mod") : t("edit_intro")}
         </p>
+        {data.viewId && (
+          <p className="text-sm text-muted-foreground">
+            {t("edit_intro_view")}
+          </p>
+        )}
       </div>
       {data.can.propose ? (
         <PlaceForm
           initial={initial}
           placeId={placeId}
+          viewValues={
+            data.viewId
+              ? { collectionId: data.viewId, base: data.base }
+              : undefined
+          }
           onDone={(res) =>
             res.status === "approved"
               ? leaveForm(`/${city}/${slug}/p/${placeId}`, () =>

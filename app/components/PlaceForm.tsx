@@ -19,6 +19,7 @@ import { Textarea } from "~/components/ui/textarea";
 import { type ContentLang, MAX_LINKS_PER_PLACE } from "~/lib/constants";
 import { attributeIssues, visibleFields } from "~/lib/fields";
 import { useMapPage } from "~/lib/map-page";
+import { stableJson } from "~/lib/overrides";
 import {
   type Attributes,
   type FieldDef,
@@ -183,11 +184,21 @@ const Field = ({
 export const PlaceForm = ({
   initial,
   placeId,
+  viewValues,
   onDone,
 }: {
   /** Current place state when editing; null when proposing a new place. */
   initial: PlaceDraft | null;
   placeId?: string;
+  /**
+   * Editing on a view map: `initial` shows the view's values, and changes
+   * to fields and category become the view's own (`base`: the home
+   * place's values of those).
+   */
+  viewValues?: {
+    collectionId: string;
+    base: { attributes: Attributes; category: string };
+  };
   onDone: (result: {
     status: "approved" | "pending";
     placeId: string | null;
@@ -203,7 +214,13 @@ export const PlaceForm = ({
     translateTo ?? baseLang,
   );
   const translating = editLang !== baseLang;
-  const allDefs = view.collection.fields;
+  // A new place added from a view lives on its source: no view-own fields.
+  const ownKeys = new Set(
+    view.collection.view && !placeId
+      ? view.collection.ownFields.map((f) => f.key)
+      : [],
+  );
+  const allDefs = view.collection.fields.filter((f) => !ownKeys.has(f.key));
   const defs = visibleFields(allDefs);
   // Values of hidden fields aren't editable here; pass them through as-is.
   const hiddenValues = Object.fromEntries(
@@ -251,8 +268,15 @@ export const PlaceForm = ({
           },
         }))
       : set("attributes", { ...form.attributes, [key]: value });
+  // Translations belong to the home place: a view's own fields have none.
+  const viewOwn = new Set(
+    view.collection.view ? view.collection.ownFields.map((f) => f.key) : [],
+  );
   const shownDefs = translating
-    ? defs.filter((d) => d.type === "text" || d.type === "longtext")
+    ? defs.filter(
+        (d) =>
+          (d.type === "text" || d.type === "longtext") && !viewOwn.has(d.key),
+      )
     : defs;
 
   // Turn on pin-picking on the map while this form is open.
@@ -265,26 +289,100 @@ export const PlaceForm = ({
     };
   }, [initial, setDraft, setPicking]);
 
+  const finish = async (res: {
+    status: "approved" | "pending";
+    placeId: string | null;
+  }) => {
+    await Promise.all([
+      queryClient.invalidateQueries({ queryKey: trpc.place.pathKey() }),
+      queryClient.invalidateQueries({
+        queryKey: trpc.collection.pathKey(),
+      }),
+      queryClient.invalidateQueries({ queryKey: trpc.proposal.pathKey() }),
+    ]);
+    toast.success(
+      res.status === "approved"
+        ? t("form_published")
+        : t("form_sent_for_review"),
+    );
+    onDone(res);
+  };
   const submit = useMutation(
     trpc.proposal.create.mutationOptions({
-      onSuccess: async (res) => {
-        await Promise.all([
-          queryClient.invalidateQueries({ queryKey: trpc.place.pathKey() }),
-          queryClient.invalidateQueries({
-            queryKey: trpc.collection.pathKey(),
-          }),
-          queryClient.invalidateQueries({ queryKey: trpc.proposal.pathKey() }),
-        ]);
-        toast.success(
-          res.status === "approved"
-            ? t("form_published")
-            : t("form_sent_for_review"),
-        );
-        onDone(res);
-      },
+      onSuccess: finish,
       onError: (err) => toast.error(err.message),
     }),
   );
+  // On a view the two writes are awaited in turn (see submitOnView).
+  const submitHome = useMutation(trpc.proposal.create.mutationOptions());
+  const submitOverride = useMutation(
+    trpc.proposal.createOverride.mutationOptions(),
+  );
+  const pending =
+    submit.isPending || submitHome.isPending || submitOverride.isPending;
+
+  /**
+   * On a view map: fields and category become the view's own values (an
+   * override proposal on the view); everything else edits the home place.
+   * Each is only sent when it changed.
+   */
+  const submitOnView = async (
+    on: NonNullable<typeof viewValues>,
+    id: string,
+    parsed: PlaceDraft,
+    note: string | null,
+  ) => {
+    const before = initial ? placeDraftSchema.safeParse(initial) : null;
+    const homePart = (d: PlaceDraft) =>
+      stableJson({ ...d, attributes: on.base.attributes, category: "" });
+    const homeChanged =
+      !before?.success || homePart(before.data) !== homePart(parsed);
+    const valuesChanged =
+      !before?.success ||
+      before.data.category !== parsed.category ||
+      stableJson(before.data.attributes) !== stableJson(parsed.attributes);
+    try {
+      const results = [
+        ...(valuesChanged
+          ? [
+              await submitOverride.mutateAsync({
+                collectionId: on.collectionId,
+                placeId: id,
+                reset: true,
+                category: parsed.category,
+                // Every field: an empty one means "no value on this map".
+                attributes: Object.fromEntries(
+                  allDefs.map((d) => [d.key, parsed.attributes[d.key] ?? null]),
+                ),
+                note,
+              }),
+            ]
+          : []),
+        ...(homeChanged || !valuesChanged
+          ? [
+              await submitHome.mutateAsync({
+                kind: "edit",
+                placeId: id,
+                draft: {
+                  ...parsed,
+                  attributes: on.base.attributes,
+                  category: on.base.category,
+                },
+                note,
+              }),
+            ]
+          : []),
+      ];
+      await finish({
+        status: results.some((r) => r.status === "pending")
+          ? "pending"
+          : "approved",
+        placeId: id,
+      });
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : String(err));
+    }
+  };
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -325,6 +423,10 @@ export const PlaceForm = ({
     }
     setErrors({});
     const trimmedNote = note.trim() || null;
+    if (placeId && viewValues) {
+      void submitOnView(viewValues, placeId, parsed.data, trimmedNote);
+      return;
+    }
     submit.mutate(
       placeId
         ? { kind: "edit", placeId, draft: parsed.data, note: trimmedNote }
@@ -581,7 +683,7 @@ export const PlaceForm = ({
         />
       </Field>
 
-      <Button type="submit" className="w-full" disabled={submit.isPending}>
+      <Button type="submit" className="w-full" disabled={pending}>
         {view.can.review
           ? t("form_submit_publish")
           : placeId
