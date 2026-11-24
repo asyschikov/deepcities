@@ -187,12 +187,12 @@
   body: |
     In 1927 the firm P. de Gruyter en Zoon of Den Bosch opened a shop here, designed by its house architect, W.G. Welsing of Arnhem. Amsterdam's Schoonheidscommissie (the committee that vets new fronts) objected to, among other things, the mix of polished Labrador granite below and Cannstatt travertine above. Director P. de Gruyter wrote back that every shop of the firm was built in one house style meant to look representative. Because the company mattered to the city's economy, the objections were dropped.
 
-    The result stands out among the brick fronts of the Leidsestraat: a pale stone face with four tall window slots filled with white leaded glass, set into the wall like shallow bays. The piers between them read like columns, the lintel like a frieze, and the travertine slabs, laid with their grain upright, hint at a pediment. At the foot of the piers stand three statues: a man ploughing, one sowing and one harvesting. It is an early Dutch example of a shop chain with a corporate look.
+    The result stands out among the brick fronts of the Leidsestraat: a pale stone face with four tall window slots filled with white leaded glass, set into the wall like shallow bays. The piers between them read like columns, the lintel like a frieze, and the travertine slabs, laid with their grain upright, hint at a pediment. Three bronze figures by Theo van Delft stand at the foot of the piers: a ploughman on the left, a sower in the middle and a reaper on the right, probably after the Book of Amos, where the ploughman shall overtake the reaper. It is an early Dutch example of a shop chain with a corporate look.
 
     The shopfront itself has been modernised; the upper floors are flats.
 
     Look for:
-    - the three statues of ploughing, sowing and harvesting
+    - the ploughman, the sower and the reaper
     - the lobed granite corner piers with wavy cut brackets
     - the upright grain in the travertine
   category: curiosities
@@ -207,33 +207,36 @@
     monument_number: "202032"
     built: "1927"
     architect: W.G. Welsing
+    artist: Theo van Delft (statues)
     listed: 2004
     original_use: Branch of the De Gruyter shop chain
-    check: Still there?
-    check_note: The register (2004) shows three statues at the foot of the piers; recent confirmation not found.
   photos: []
   sources:
     - "city register 202032 (client director P. de Gruyter of Koninklijke Industrie en Handelsmaatschappij P. de Gruyter en Zoon, Den Bosch; objections of the Schoonheidscommissie incl. mixed materials Labrador granite and Cannstatter travertine; argument: all shops in a house style, representative; objections withdrawn for economic importance; architect W.G. Welsing of Arnhem, house architect; piers as columns, lintel as frieze, travertine with vertical layers suggesting a pediment; three bronze (?) statues of ploughing, sowing and harvesting; four window slots, tall windows with white leaded glass, three-sided bays within the front plane; lobed granite corner piers, wavy-cut consoles; shopfront modernised; small shopkeepers growing into chains with corporate identity)"
     - "WebSearch 2026-11 (Pararius: flats Leidsestraat 54 A and B for rent)"
+    - https://amsterdamopdekaart.nl/1850-1940/Leidsestraat/54 (figures by Theo van Delft: left ploughs, middle sows, right mows; probably inspired by Amos; De Gruyter left in 1973)
+    - https://www.theobakker.net/2021/wk44.html (1927 branch, group of the ploughman, sower and reaper by Theo van Delft, architect Willem Welsing, 32nd shop of the chain)
+    - https://x.com/DejanVukos40959/status/2122927712281014736 (November 2026 photo post: the three bronze figures still on the front; new shop opening soon)
   nl:
     title: De winkel van De Gruyter en zijn drie boeren
     summary: "Een filiaal uit 1927 in travertin en Labrador graniet, met beelden van ploegen, zaaien en oogsten in een winkelstraat. De Schoonheidscommissie had bezwaren; de directeur van De Gruyter won."
     body: |
       In 1927 opende de firma P. de Gruyter en Zoon uit Den Bosch hier een winkel, ontworpen door huisarchitect W.G. Welsing uit Arnhem. De Amsterdamse Schoonheidscommissie had bezwaren, onder meer tegen de combinatie van gepolijst Labrador graniet beneden en travertin uit Cannstatt erboven. Directeur P. de Gruyter schreef terug dat alle winkels van de firma volgens één huisstijl werden gebouwd en een representatief uiterlijk moesten hebben. Omdat het bedrijf economisch belangrijk was, werden de bezwaren ingetrokken.
 
-      Het resultaat valt op tussen de bakstenen gevels van de Leidsestraat: een lichte stenen gevel met vier hoge vensterspleten vol wit glas in lood, als ondiepe erkers in het gevelvlak. De penanten ertussen lijken zuilen, de latei een fries, en de travertinplaten met hun staande lagen suggereren een fronton. Onderaan de penanten staan drie beelden: een man die ploegt, een die zaait en een die oogst. Het is een vroeg Nederlands voorbeeld van een winkelketen met een eigen gezicht.
+      Het resultaat valt op tussen de bakstenen gevels van de Leidsestraat: een lichte stenen gevel met vier hoge vensterspleten vol wit glas in lood, als ondiepe erkers in het gevelvlak. De penanten ertussen lijken zuilen, de latei een fries, en de travertinplaten met hun staande lagen suggereren een fronton. Onderaan de penanten staan drie bronzen beelden van Theo van Delft: links de ploeger, in het midden de zaaier, rechts de maaier. Vermoedelijk haalde hij ze uit het bijbelboek Amos, waar de ploeger de maaier op de hielen zit. Het is een vroeg Nederlands voorbeeld van een winkelketen met een eigen gezicht.
 
       De pui zelf is gemoderniseerd; boven wordt gewoond.
 
       Let op:
-      - de drie beelden van ploegen, zaaien en oogsten
+      - de ploeger, de zaaier en de maaier
       - de gelobde granieten hoekpijlers met golvend behakte consoles
       - de staande lagen in het travertin
     attributes:
       original_use: Filiaal van winkelketen De Gruyter
-      check_note: Het register (2004) noemt drie beelden onderaan de penanten; recente bevestiging niet gevonden.
+      artist: Theo van Delft (beelden)
     sources:
       - gemeentelijk monumentenregister 202032
+      - https://amsterdamopdekaart.nl/1850-1940/Leidsestraat/54
 
 # ================================================================ Keizersgracht 439-566
 
@@ -401,7 +404,7 @@
     From the first floor up this is an ordinary early 19th-century house under a straight cornice. Below that, in 1932, the Hungarian-born architect Alexander Bodon turned the ground and first floors into a bookshop for Schröder & Dupont, following the rules of the Nieuwe Bouwen (Dutch modernism). He replaced most of the front with glass in narrow steel frames, set the base back behind a barred cellar window, and stuck a canopy out over the pavement. On the right is a recessed entrance with a steel display case and a steel door with a round window.
 
     Inside, the shop is one white space two floors high, with a narrow gallery with steel tube railings along the walls at first-floor level.
-    From 1969 the influential gallery Collection d'Art of Cora de Vries was here. Wiel Arets restored the interior, keeping Bodon's elements, and BorzoGallery opened in it in 2006. Borzo moved to Keizersgracht 321 in 2021.
+    From 1969 the influential gallery Collection d'Art of Cora de Vries was here. Wiel Arets restored the interior, keeping Bodon's elements, and BorzoGallery opened in it in 2006. Borzo moved to Keizersgracht 321 in 2021; since then the hall has been hired out now and then for short exhibitions, so with luck the door is open.
 
     Look for:
     - the steel-framed glass across two floors
@@ -423,13 +426,15 @@
     architect: A. Bodon
     original_use: Bookshop of Schröder & Dupont
     check: Facts
-    check_note: Current use of the shop since BorzoGallery left in 2021 not found.
+    check_note: After Borzo left (June 2021) the space hosted short exhibitions as Art Space Keizersgracht 516 (June 2022, May 2024, Instagram). Use in 2026 not found.
   photos:
     - commons:File:Amsterdam - Keizersgracht 516.JPG
   sources:
     - rce:2632 (early 19th-c. house; ground and first floor fitted out in 1932 as shop by A. Bodon following Nieuwe Bouwen for bookshop Schroder & Dupont; front largely glass in narrow steel frames, recessed base with barred cellar window, projecting canopy; entrance porch with steel display case, door with circular window; inside open over two floors, square column, narrow gallery with steel tube railings)
     - https://nl.wikipedia.org/wiki/BorzoGallery (Bodon, Hungarian architect, 1932; Boekhandel Schröder & Dupont; from 1969 gallery Collection d'Art of Cora de Vries; Wiel Arets adapted interior keeping Bodon's elements; Borzo moved in 2005; moved to Keizersgracht 321 in summer 2021)
     - "WebSearch 2026-11 (borzo.com: gallery at Keizersgracht 516 opened February 2006; e-architect, Wiel Arets Architects)"
+    - https://www.borzo.com/news/6-borzogallery-is-moving/ (9 June 2021: closes at Keizersgracht 516 on 20 June, reopens at Keizersgracht 321)
+    - https://www.instagram.com/p/C_2nfBLo037/ (exhibition May 14-24 at Art Space Keizersgracht 516; an earlier two-day exposition at the address in June 2022, https://www.instagram.com/p/CeArjTIoPGZ/)
   nl:
     title: Keizersgracht 516, de glazen boekwinkel van Bodon
     summary: "In 1932 haalde een in Hongarije geboren architect de onderste twee verdiepingen uit een grachtenhuis en zette er glas in dun staal in, voor een boekhandel. Later zaten er twee bekende galeries."
@@ -437,7 +442,7 @@
       Vanaf de eerste verdieping is dit een gewoon vroeg-negentiende-eeuws huis met een rechte lijst. Daaronder maakte de in Hongarije geboren architect Alexander Bodon in 1932 van de begane grond en de eerste verdieping een boekwinkel voor Schröder & Dupont, volgens de principes van het Nieuwe Bouwen. Hij verving het grootste deel van de gevel door glas in smalle stalen kozijnen, zette de plint terug achter een getralied keldervenster en liet een luifel boven de stoep uitsteken. Rechts zit een portiek met een stalen vitrine en een stalen deur met een rond raampje.
 
       Binnen is de winkel één witte ruimte van twee verdiepingen hoog, met langs de wanden een smalle galerij met stalen buisleuningen.
-      Vanaf 1969 zat hier Collection d'Art van Cora de Vries, een galerie die de toon zette. Wiel Arets restaureerde het interieur met behoud van Bodons elementen, en in 2006 trok BorzoGallery erin. Borzo verhuisde in 2021 naar Keizersgracht 321.
+      Vanaf 1969 zat hier Collection d'Art van Cora de Vries, een galerie die de toon zette. Wiel Arets restaureerde het interieur met behoud van Bodons elementen, en in 2006 trok BorzoGallery erin. Borzo verhuisde in 2021 naar Keizersgracht 321. Sindsdien wordt de zaal af en toe verhuurd voor korte exposities; met een beetje geluk staat de deur open.
 
       Let op:
       - het glas in stalen kozijnen over twee verdiepingen
@@ -446,7 +451,7 @@
     attributes:
       built: 1932 (huis vroeg negentiende eeuw)
       original_use: Boekhandel Schröder & Dupont
-      check_note: Huidig gebruik van de winkel sinds het vertrek van BorzoGallery in 2021 niet gevonden.
+      check_note: Na het vertrek van Borzo (juni 2021) korte exposities als Art Space Keizersgracht 516 (juni 2022, mei 2024, Instagram). Gebruik in 2026 niet gevonden.
     sources:
       - rce:2632
       - https://nl.wikipedia.org/wiki/BorzoGallery
@@ -631,17 +636,17 @@
       - https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(Sarphatistraat)
 
 - title: "'T Huys te Bieseling, the gable stone that hid its caption"
-  summary: "A 17th-century gable stone of a castle-like country house whose caption vanished behind a later shopfront until about 1995. In 2021 a street artist gave it a tiny scaffold."
+  summary: "A 17th-century gable stone of a castle-like country house whose caption vanished behind a later shopfront until building work in 1993. In 2021 a street artist put a tiny Bob Ross on a scaffold in front of it, painting."
   body: |
-    This neck-gabled house dates from the second half of the 17th century. Its gable stone shows a castle-like country house with a flight of steps, a guardhouse and a stable by the water. For years its caption was hidden: a later shopfront had been fixed so that it covered the text. A renovation around 1995 brought it back: 'T Huys te Bieseling.
+    This neck-gabled house dates from the second half of the 17th century. Its gable stone shows a castle-like country house with a flight of steps, a guardhouse and a stable by the water. For years its caption was hidden: a later shopfront had been fixed so that it covered the text. Building work in 1993 brought it back: 'T Huys te Bieseling.
 
     The city's old deeds name a Joannes Bieseling, a surgeon, who bought part of a plot on the Nieuwe Spiegelstraat in 1687, kept his surgeon's shop here and sold the house in 1693. His father, Matthijs Jansz, a furniture maker from Rotterdam, never used the name, but worked for mayor François de Vicq, who lived round the corner on the Golden Bend. The name probably points to Biezelinge in Zeeland, though no such country house is known there.
 
-    In June or July 2021 Street Art Frankey, known for small additions to the city's walls, fixed a miniature builder's scaffold against the stone.
+    In June or July 2021 Street Art Frankey, known for small additions to the city's walls, fixed a miniature builder's scaffold against the stone, with a little Bob Ross on it, the soft-spoken painter of the American TV show The Joy of Painting, brush raised as if he is touching up the stone.
 
     Look for:
     - the caption under the gable stone
-    - the little scaffold on the stone
+    - Bob Ross on his little scaffold in front of the stone
   category: curiosities
   lat: 52.363222
   lng: 4.888383
@@ -657,33 +662,33 @@
     monument_number: "5532"
     built: 17th century
     original_use: House with a surgeon's shop
-    check: Still there?
-    check_note: Frankey's miniature scaffold was added in 2021; no later sighting found.
   photos:
     - commons:File:Nieuwe Spiegelstraat 64 Amsterdam.jpg
   sources:
     - rce:5532 (house with neck gable, second half 17th c.)
     - "https://nl.wikipedia.org/wiki/Nieuwe_Spiegelstraat_64 (gable stone partly hidden for years behind a later shopfront mounted so the text disappeared; revealed during renovation c. 1995: 'T Huys te Bieseling; Joannes Bieseling c.1661-<1696, baptised Westerkerk 1661, surgeon, bought part of a plot 1687, sold the building 1693, surgeon's shop in the building; father Matthijs Jansz, furniture maker from Rotterdam, never used the name, worked for mayor François de Vicq at Herengracht 476; probably from Biezelinge, but the image (castle-like country house with steps, guardhouse and stable by water) not known there; June/July 2021 scaffold added by Street Art Frankey)"
+    - https://www.gevelstenenvanamsterdam.nl/nieuwe-spiegelstraat-64-amsterdam-huys-bieseling/ (text revealed during works in 1993; Frankey put Bob Ross on a scaffold in front of the gable stone)
+    - https://stadsherstel.nl/nieuws/heeft-u-ze-al-gezien-onze-streert-art-frankeys/ (5 August 2025: at Nieuwe Spiegelstraat 64 Bob Ross is shown painting the gable stone)
   nl:
     title: "'T Huys te Bieseling, de gevelsteen met verstopt onderschrift"
-    summary: "Een zeventiende-eeuwse gevelsteen met een kasteelachtig buitenhuis, waarvan het onderschrift tot omstreeks 1995 achter een latere winkelpui verdween. In 2021 kreeg hij van een straatkunstenaar een piepkleine steiger."
+    summary: "Een zeventiende-eeuwse gevelsteen met een kasteelachtig buitenhuis, waarvan het onderschrift tot een verbouwing in 1993 achter een latere winkelpui verdween. In 2021 zette een straatkunstenaar er een piepkleine Bob Ross voor, op een steiger, met de kwast in de hand."
     body: |
-      Dit huis met halsgevel stamt uit de tweede helft van de zeventiende eeuw. De gevelsteen toont een kasteelachtig buitenhuis met bordes, wachthuisje en stal aan het water. Jarenlang was het onderschrift onzichtbaar, omdat een latere winkelpui er precies overheen was gezet. Bij een opknapbeurt rond 1995 kwam het weer tevoorschijn: 'T Huys te Bieseling.
+      Dit huis met halsgevel stamt uit de tweede helft van de zeventiende eeuw. De gevelsteen toont een kasteelachtig buitenhuis met bordes, wachthuisje en stal aan het water. Jarenlang was het onderschrift onzichtbaar, omdat een latere winkelpui er precies overheen was gezet. Bij werkzaamheden in 1993 kwam het weer tevoorschijn: 'T Huys te Bieseling.
 
       In de oude Amsterdamse akten duikt een Joannes Bieseling op, chirurgijn, die in 1687 een stuk grond aan de Nieuwe Spiegelstraat kocht, hier zijn chirurgijnswinkel had en het huis in 1693 verkocht. Zijn vader Matthijs Jansz, een meubelmaker uit Rotterdam, voerde die naam nooit, maar werkte wel voor burgemeester François de Vicq, die om de hoek in de Gouden Bocht woonde. De naam wijst waarschijnlijk naar Biezelinge in Zeeland, al is daar zo'n buitenhuis niet bekend.
 
-      In juni of juli 2021 zette Street Art Frankey, bekend van kleine toevoegingen aan de stadsmuren, een miniatuursteiger tegen de steen.
+      In juni of juli 2021 zette Street Art Frankey, bekend van zijn kleine grappen aan de Amsterdamse gevels, een miniatuursteiger tegen de steen. Daarop staat Bob Ross, de zachtaardige schilderleraar van het Amerikaanse tv-programma The Joy of Painting, die de gevelsteen lijkt bij te werken.
 
       Let op:
       - het onderschrift onder de gevelsteen
-      - het steigertje op de steen
+      - Bob Ross op zijn steigertje voor de steen
     attributes:
       built: zeventiende eeuw
       original_use: Woonhuis met chirurgijnswinkel
-      check_note: De miniatuursteiger van Frankey kwam er in 2021; geen latere bevestiging gevonden.
     sources:
       - rce:5532
       - https://nl.wikipedia.org/wiki/Nieuwe_Spiegelstraat_64
+      - https://www.gevelstenenvanamsterdam.nl/nieuwe-spiegelstraat-64-amsterdam-huys-bieseling/
 
 - title: Van Houten's recycled gables
   summary: "Two 1930s houses that look much older, because the city's chief building inspector wanted new building on the canals to fit in and had old carved stone reused in their gables."

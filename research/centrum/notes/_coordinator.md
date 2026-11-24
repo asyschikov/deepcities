@@ -8,3 +8,41 @@
 - gg-west-2: stronger sources for Deli labour and Pavonia slavery claims
 - jordaan-1: Papeneiland hidden church (confirm); Fort van Sjako legend
 - oudezijde-2 → oudezijde-1: 518306 Binnengasthuis clinic into Binnengasthuis place; 208021 (OZV 302) into Stadsbank place
+- nieuwmarkt-2 "Arsenaal and the 1776 poor-relief houses" ↔ nieuwmarkt-3 Huiszittenhuis (6306): merge or link
+- Web search budget ran out for several agents (wetering-2, nieuwmarkt-2, eilanden-1): their "no story found" records got register + wiki only; current-status facts unconfirmed in places
+- plantage-2 → plantage-1: add 200367 (Wertheimpark gate) to "Wertheim fountain"
+- plantage-2 Hugo de Vries: "children from the Schouwburg hid here" rests on city register only: needs a second source or cut
+- jordaan-3 → jordaan-1 Van Houten: add 3633, 3634, 214043, 214036 (with jordaan-2's ten this may exceed 200 chars: split into two Van Houten places, e.g. "...on the Palmgracht" and "...on the Egelantiersgracht")
+- jordaan-3 → jordaan-6: 204046 belongs in a Willemsstraat housing group
+- jordaan-3: six places carry check flags because the web-search budget ran out (Lindenhofje, Hamer- en Bouwershofje, Turnzaal, Tichelkerk, Tooneelschool, Leidsegracht 108)
+- nieuwmarkt-3 → nieuwmarkt-2: 202040 (Oudeschans 19-23) into the Handwerkers Vriendenkring place (202037)
+- nieuwmarkt-3: Zuiderkerk and Montelbaanstoren kept as places (second tier, not A-list)
+- haarlemmer-2 → haarlemmer-1: 211024 into "Posthoorn church and its Catholic island"; 214008 into "Bickerseiland's last workshops" (+ Look for lines per haarlemmer-2 notes)
+- gg-west-1 → gg-west-3: Brug 54 (Noordsche Compagniebrug) as Look for line in Groenlandse Pakhuizen
+- haarlemmer-2: Singel 2 needs one more search
+- gg-west-4 → gg-west-3: 210057 (Singel 94) into "Boldoot's coach house"
+- gg-west-4 "Garden houses behind the western canals" (14 records): DROP at review (invisible from the street; fails "something to look at"); records to no story found
+- gg-west-4 Zon's Hofje ↔ scout DW-36: merge (monument draft wins)
+- jordaan-4 → jordaan-6 Willemsstraat group: 204047, 204048
+- jordaan-4 → jordaan-3 "city masons' house": 4757 (4756 → no story)
+- jordaan-4 → jordaan-1 Van Houten: 4562 (Van Houten split needed, see above)
+- jordaan-4: Prinsengracht 12 (204049) intact shop interior: browser check, maybe Okay place
+- Convention: mixed-status groups take the heritage status of the pinned building
+- jordaan-6 → jordaan-3 "Marnixstraat, workers' homes on the old ramparts": 204042 (+ Look for line)
+- jordaan-6 Willemsstraat group exists ("Willemsstraat, the slum canal the philanthropists filled"): add jordaan-4's 204047, 204048 there
+- gg-zuid-3 → gg-zuid-2 "Koningsplein, the rag-trade square": 518360; → gg-zuid-1 "Incassobank's Mercury": 202047
+- gg-zuid-3 "Garden houses behind the southern canals" (18): DROP like the western one
+- gg-zuid-3 Rembrandt statue: stays parked with Rembrandtplein (visitors see it anyway)
+- jordaan-5 → jordaan-1 Sint Andrieshofje: 212005 as Look for line
+- jordaan-5 "Rozenstraat's 1934 row under borrowed gable tops" = second Van Houten place: decide merge/split together with the jordaan-1 overflow
+- jordaan-5 Roothaanhuis: Johnny Jordaan and Tante Leen talent contest rests on nl.wikipedia citing Ons Amsterdam: verify via gap scout
+- Title clash check: gg-west-3 "De Zaaier" vs jordaan-5 "De Zaaier, the church..." (different buildings): disambiguate
+- nieuwezijde-3 → nieuwezijde-2 "Die Port van Cleve": 5593 if the hotel includes Spuistraat 129 (check)
+- Overlap: nieuwezijde-3 "De Gouden Bril, Rokin 72" ↔ scout AC-01 (Schmidt optician): merge, monument draft wins
+- extra-south → gg-zuid-2 Van Loon: Kerkstraat 261; → gg-zuid-2 Kerkstraat coach houses: Kerkstraat 383; → gg-zuid-1 Gouden Bocht: garden house Herengracht 476
+- CONSISTENCY: extra-south "Huidekoperstraat block, built by the first Dutch housing association" vs haarlemmer-2 Planciusblok "first large block of the first Dutch housing association": make the two claims agree (which association, which was first)
+- wetering-3 → wetering-2 "Nicolaas Witsenkade, the houses on the old gasworks": 213054
+- wetering-3 Paradiso: keep as place (second tier, pitched on the Vrije Gemeente)
+- extra-west → nieuwezijde-1 "De Utrecht": Damrak 26; → gg-west-2 "De Drie Traancoopers": Korsjespoortsteeg 24; → gg-west-4 "Raadhuisstraat": Raadhuisstraat 15, 52-54, Herengracht 213 (+ sample-room line); → jordaan-4 "Gunters & Meuser": Egelantiersgracht 2; garden houses → dropped with the garden-house group (numbers in extra-west notes)
+- Audit 24 Nov: 540 places, Amazing ~10%; thin categories street-art 1, green 2, odd-museums 6 → theme C scouts; 165 without photo; 8 pin pairs < 15 m (all distinct objects, spread pins slightly where needed)
+- extra-east → oudezijde-1 Binnengasthuis: 518307, 518305, 518309, 518304, 518302, 518303 (maternity clinic line); → oudezijde-1 De L'Europe: 518440; → eilanden-1 Entrepotdok: 518495; → plantage-2 Amstel Hotel: 527698; → plantage-1 Wittenberg: 525061; → nieuwmarkt-1 De Ruijterkade offices: 518411, 518491
