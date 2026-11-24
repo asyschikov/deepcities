@@ -676,7 +676,11 @@
     - the drop as you enter from any side;
     - the Mondrian grid of paths and lawns;
     - sculptures including Han Rädecker's *Leda en de zwaan* (1970), Simona Vergani's marble bear *Orso* (1998) and *Monument voor een verzonken stad* by Berend Peter;
-    - *The Miracle Garden* in the south-east corner (separate place on this map).
+    - *The Miracle Garden* in the south-east corner (separate place on this map);
+    - Renze Hettema's bronze resting on two boulders, which stood on the market square of the Gulden Winckelplantsoen until it moved here in 2001;
+    - on the quay wall of the Erasmusgracht by the Mercatorstraat, Linda van Boven's small bronze dog;
+    - across the Erasmusgracht, the Wachterliedplantsoen, named in 1939 after the wachterlied, a late-medieval love song in which a watchman warns a pair of lovers, and redone in 2010 as a "volcano landscape" with a pavilion, a children's farm and a playground;
+    - the Wil de Graaffbrug (1970, rebuilt about 2000), the one bridge round the park not named after Erasmus or his books: it honours a communist, a painter by trade, who campaigned for tenants.
   category: green
   lat: 52.375300
   lng: 4.852400
@@ -688,6 +692,9 @@
   sources:
     - https://nl.wikipedia.org/wiki/Erasmuspark
     - Kunstwacht API (sculptures in the park, coordinates)
+    - "Kunstwacht API 2135 (Renze Hettema, bronze on two boulders, moved in 2001 from the market square at the Gulden Winckelplantsoen) and 2137 (Linda van Boven, bronze dog on the Erasmusgracht quay wall by the Mercatorstraat; not moved, contrary to the scout)"
+    - "https://nl.wikipedia.org/wiki/Wachterliedplantsoen (named 26 July 1939; renovated 2010 as volcano landscape with pavilion, kinderboerderij, playground)"
+    - "nl.wikipedia, Wil de Graaffbrug (1970, rebuilt about 2000, named 2002; communist house painter and tenants' campaigner; only bridge round the park not named after Erasmus)"
   nl:
     title: Erasmuspark
     summary: "Stadspark dat nooit werd opgehoogd: een apart poldertje binnen een ringsloot op -2,70 NAP, in 1960-1961 heringericht naar model van de schilderijen van Piet Mondriaan."
@@ -702,9 +709,16 @@
       - de afdaling bij elke ingang;
       - de Desideriusbrug (1927) bij de Jan van Galenstraat, in Amsterdamse Schoolstijl naar ontwerp van Piet Kramer;
       - beelden als *Leda en de zwaan* van Han Rädecker, *Orso* van Simona Vergani en *Monument voor een verzonken stad*;
-      - *The miracle garden* in de zuidoosthoek.
+      - *The miracle garden* in de zuidoosthoek;
+      - het brons van Renze Hettema op twee zwerfkeien, dat tot 2001 op het marktplein van het Gulden Winckelplantsoen stond en toen hierheen verhuisde;
+      - een klein bronzen hondje van Linda van Boven op de kademuur van de Erasmusgracht, bij de Mercatorstraat;
+      - aan de overkant van de Erasmusgracht het Wachterliedplantsoen, in 1939 genoemd naar het wachterlied, een laatmiddeleeuws minnelied waarin een wachter twee geliefden waarschuwt, en in 2010 opnieuw ingericht als 'vulkaanlandschap' met paviljoen, kinderboerderij en speeltuin;
+      - de Wil de Graaffbrug (1970, rond 2000 vernieuwd), de enige brug rond het park die niet naar Erasmus of zijn werk heet: hij eert een communist, schilder van beroep, die opkwam voor huurders.
     sources:
       - https://nl.wikipedia.org/wiki/Erasmuspark
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2135
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2137
+      - https://nl.wikipedia.org/wiki/Wachterliedplantsoen
 
 - title: The Miracle Garden
   summary: "An 800 m² flower garden that is also an artwork: photographer Elspeth Diederix grows strange, photogenic plants in a corner of Erasmuspark, tended by neighbours and open to all."

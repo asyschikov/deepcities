@@ -9,6 +9,7 @@
     - the gate bay with half-columns, the hospital's name and a stone Renaissance gable with the arms of Amsterdam
     - the barrel-vaulted passage lined with cream glazed brick, green arches and grey granite Doric columns
     - a 1990 trompe-l'oeil mural by Jeanine van Pinxteren on a blind panel in the passage, painting the long corridor you are standing in
+    - on the WG-plein beyond the gate, Pauline Wiertz's *Microbe*: twelve stone circles set in the paving, each engraved with a disease virus as it would look under a microscope
   category: civic
   lat: 52.362559
   lng: 4.870053
@@ -38,6 +39,7 @@
   - https://nl.wikipedia.org/wiki/Helmersplantsoen_1-15
   - https://nl.wikipedia.org/wiki/Wilhelmina_Gasthuis
   - city:224041 (context on the gasthuiskwestie and the Pesthuis)
+  - "Kunstwacht 2170 'Microbe' (Pauline Wiertz; WG-plein, 52.364247, 4.871653; twelve hard-stone circles of concrete with cell-like forms engraved, magnified disease viruses as under a microscope). Round 4 merge."
   nl:
     title: Poortgebouw Wilhelmina Gasthuis
     summary: Het neorenaissancistische hoofdgebouw met poort, het eerst uitgevoerde onderdeel van het Wilhelmina Gasthuis (1891–1893), waarvan de tienjarige Wilhelmina in 1891 de eerste steen legde.
@@ -50,6 +52,7 @@
       - de poort met halfkolommen, de naam van het ziekenhuis en een natuurstenen renaissance-topgevel met het wapen van Amsterdam
       - de tongewelfde doorgang met crèmekleurige geglazuurde bakstenen en groene gordelbogen op grijsblauwe granieten Dorische zuilen
       - de muurschildering van Jeanine van Pinxteren in de poort
+      - achter de poort op het WG-plein *Microbe* van Pauline Wiertz: twaalf stenen cirkels in de bestrating met elk een uitvergroot ziekteverwekkend virus erin gegraveerd
     attributes:
       original_use: Hoofdgebouw en poort van een ziekenhuis
     sources:
@@ -2132,6 +2135,7 @@
     - the narrow corner front with a triangular gable topped by finials
     - the entrance with an ogee arch, between twisted columns crowned by Gothic crockets
     - a yellow-and-red sawtooth frieze under the eaves
+    - on the opposite corner (Potgieterstraat 49, in the oriel on the Da Costakade side), a relief portrait of the writer E.J. Potgieter, co-founder of the magazine *De Gids*, between two cartouches with a four-line verse about steam clouds, industry and the city wall "waxing from a half to a full disc": most likely a nod to the city growing past its old walls after 1870
   category: schools
   lat: 52.369308
   lng: 4.871869
@@ -2146,11 +2150,14 @@
     architect: Dienst Publieke Werken
     listed: 2009
     original_use: Free primary school for the poor (first class)
+    check: Still there?
+    check_note: "The Potgieter medallion on the opposite corner (Potgieterstraat 49): latest photos 2008 and 2009."
   photos:
   - commons:File:Potgieterstraat 34-38 (1).jpg
   - commons:File:De Potgieter, Potgieterstraat 34 hoek Da Costakade foto 1.jpg
   sources:
   - city:224055
+  - "https://geheugenvanwest.amsterdam/page/13150 (Onno Boers, Vereniging Vrienden van Amsterdamse Gevelstenen, 3 Feb 2011: in the oriel of Da Costakade corner Potgieterstraat 49 a stone with a relief portrait of E.J. Potgieter 1808-1875, co-founder of De Gids 1837; cartouches with the verse 'Iedre stoomwolk spelt verrassen / Vlijt en kunst in nieuw bedrijf / En de muur der stad aan 't wassen / Wordt van halve volle schijf'; probably not by Potgieter; likely refers to the western expansion after 1870 and the demolition of the walls). PDOK: Potgieterstraat 49 at 52.369084, 4.872033, about 25 m from the school pin. Round 4 merge."
   nl:
     title: Busken Huetschool
     summary: 'Een armenschool uit 1885 die een uitzondering op de regel is: met grote verfijning gebouwd als zeldzame hoekschool in neorenaissancestijl. Nu de Leonardo da Vincischool.'
@@ -2163,9 +2170,11 @@
       - de smalle voorgevel met een driehoekige topgevel en pumelen
       - het ingangsportaal met ezelsrugboog en kluwenzuilen met een gotische kruisbloem
       - het geelrode ornamentfries in zaagtandmotief
+      - op de hoek tegenover (Potgieterstraat 49, in de erker aan de kant van de Da Costakade) een portretmedaillon van schrijver E.J. Potgieter, medeoprichter van *De Gids*, tussen twee cartouches met een versje over stoomwolken, nijverheid en een stadsmuur die van halve tot volle schijf groeit: vermoedelijk over de stad die na 1870 over haar oude wallen heen groeide
     attributes:
       architect: Dienst der Publieke Werken
       original_use: Armenschool (eerste klasse)
+      check_note: "Het Potgieter-medaillon op de hoek tegenover (Potgieterstraat 49): laatste foto's uit 2008 en 2009."
     sources:
     - Gemeentelijk monumentenregister 224055
 - title: Tweede Werk- en Leerschool
