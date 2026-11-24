@@ -52,6 +52,7 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `select`, `boolean`), options, required, help, hidden. Admins edit them under
   Manage → Place fields or with `pnpm dc fields`. Keys are permanent and fields are
   never deleted, only hidden (values kept); the server rejects removals.
+  Select fields with `filter` become map chips; `filterDefault` (options) are selected on open, and `?f=` stores only departures from it (`[]` = all; `app/lib/field-filters.ts`).
 - **Views and clusters.** A place lives once, on its home map (`place.collectionId`):
   edits, proposals, permissions, history, fields and categories come from there
   (a view's own values for it are overrides, below).

@@ -3,6 +3,7 @@ import type { LngLat, MapLine, MapPin } from "~/components/MapView";
 import type { RouterOutputs } from "~/trpc/router";
 import type { ContentLang } from "./constants";
 import type { LocalFieldDef } from "./content-lang";
+import type { FieldFilters } from "./field-filters";
 import type { Geolocation } from "./geolocation";
 
 type RawCollectionView = RouterOutputs["collection"]["bySlug"];
@@ -48,9 +49,12 @@ export interface MapPageState {
   visiblePlaces: PlaceListItem[];
   category: string | null;
   setCategory: (key: string | null) => void;
-  /** Chosen option per filter field (select fields with `filter`). */
-  fieldFilters: Record<string, string>;
-  setFieldFilter: (key: string, value: string | null) => void;
+  /**
+   * Chosen options per filter field (select fields with `filter`), the
+   * map's `filterDefault` unless the URL says otherwise; empty = all.
+   */
+  fieldFilters: FieldFilters;
+  setFieldFilter: (key: string, values: string[]) => void;
   search: string;
   setSearch: (q: string) => void;
   /** Non-null while a form wants the user to place a pin. */

@@ -103,6 +103,8 @@ MAP SCHEMA (map admins)
   dc fields <slug> <defs.json|->           replace the map's custom place fields with a
                                            JSON array of field definitions (see \`dc schema\`);
                                            existing keys must stay (hide, don't delete).
+                                           Select fields: filter (map chips) and
+                                           filterDefault (chips selected on open)
                                            On a view: the fields it adds after its
                                            source's (keys must differ from the source's);
                                            their values are set with dc override
@@ -262,6 +264,10 @@ const SCHEMA = {
     help: "optional string ≤200, shown under the input",
     hidden:
       "optional boolean. Fields can't be deleted (the server rejects a list missing an existing key); set hidden: true to retire one, its values are kept",
+    filter:
+      "optional boolean, select only: offer the options as filter chips on the map (a place shows if its value is any chosen option)",
+    filterDefault:
+      'optional array, needs filter: true, values from options: the chips selected when the map opens, e.g. ["Open"]. Readers can deselect them ("All"); a link that chose otherwise keeps its choice',
   },
   route: {
     mode: '"walk" or "bike": the route\'s main mode — what it is, shown and filtered on. Defaults to "bike" if any leg is ridden, else "walk". Legs may still use other transport (a ferry crossing)',

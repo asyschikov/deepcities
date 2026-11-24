@@ -25,7 +25,13 @@ export const mapSearchSchema = z.object({
   /** Place search text, category and field filters. */
   q: opt(z.string().max(200)),
   cat: opt(z.string().max(60)),
-  f: opt(z.record(z.string().max(60), z.string().max(200))),
+  /** Field filters that differ from the map's defaults; `[]` = all. */
+  f: opt(
+    z.record(
+      z.string().max(60),
+      z.union([z.string().max(200), z.array(z.string().max(200)).max(40)]),
+    ),
+  ),
   /** Places list sorted by distance from the reader. */
   near: opt(z.boolean()),
   /** Routes filter: walks or rides (the route's main mode). */
