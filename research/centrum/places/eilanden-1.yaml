@@ -651,6 +651,7 @@
     - the 17th-century gate at Kattenburgerstraat 7, with pilasters and a carved pediment
     - traces of old buildings in the wall along the Kattenburgerstraat
     - the 1960s commander's house and the floating boardwalk round the swimming area
+    - the brick memorial to the former pupils of the Kweekschool voor de Zeevaart who fell in 1939–45, unveiled in 1949 at the school and moved here in 2000; it now carries 186 names
   category: industrial
   lat: 52.371839
   lng: 4.916391
@@ -661,6 +662,7 @@
     - { label: Monumentenregister Amsterdam (commander's house), url: "https://data.amsterdam.nl/monumenten/386c964e-cf3c-4423-98ec-1a09cd9b3223" }
     - { label: Wikipedia (nl) Marineterrein, url: "https://nl.wikipedia.org/wiki/Marineterrein_(Amsterdam)" }
     - { label: NOS on the swimming spot, url: "https://nos.nl/l/2565647" }
+    - { label: 4en5mei Oud-Kweekelingen memorial, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3257" }
   attributes:
     rank: Nice
     heritage_status: National + municipal monument
@@ -671,6 +673,7 @@
   photos:
     - "commons:File:Amsterdam - Kattenburgerstraat Rijkswerf III.JPG"
   sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3257 (brick memorial with plaque for the oud-kwekelingen fallen 1939-1945; originally in the courtyard of the Kweekschool voor de Zeevaart on the Prins Hendrikkade, moved to the Marineterrein in 2000; 138 names at first, more added up to 1995, 2019 and 2023, total 186; unveiled 14 May 1949; Vereeniging van Oud-Kweekelingen)
     - rce:2206 ('s Lands Werf, long 17th-century front with blind niches, gate with two pairs of pilasters, carved frieze and pediment)
     - city register 200977 (wall of the former navy yard, enclave, largely back walls of vanished buildings with traces, northern part late 20th century; listed 2023)
     - city register records 230002-230005 and the unnumbered shelter under building 029 (names, De Weger 1962-1966, 1878 workshop; listed 2025; shelter in procedure; no texts)
@@ -689,10 +692,11 @@
       Let op:
       - de zeventiende-eeuwse poort aan Kattenburgerstraat 7, met pilasters en een gebeeldhouwd fronton
       - de sporen van oude gebouwen in de muur langs de Kattenburgerstraat
-      - de commandantswoning uit de jaren zestig en de drijvende steiger rond de zwemplek
+      - het bakstenen monument voor de gevallen oud-kwekelingen van de Kweekschool voor de Zeevaart, in 1949 bij de school onthuld en in 2000 hierheen verhuisd; er staan nu 186 namen op
     attributes:
       original_use: Werf van de Admiraliteit en de marine
     sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3257
       - rijksmonumentenregister 2206
       - gemeentelijk monumentenregister 200977, 230002-230005
       - https://nl.wikipedia.org/wiki/Marineterrein_(Amsterdam)
@@ -886,6 +890,7 @@
     - the lantern on the crossing of the hipped roofs
     - the clock under it, from the old Exchange
     - the stone entrance porch with its balustrade
+    - Hildo Krop's relief of the hunger winter (1947), a man hauling food off a boat and a mother with two children: the neighbourhood's thanks to the churches' committee that brought food from Friesland and Groningen in 1944–45; the original hangs inside, a copy outside
   category: religious
   lat: 52.369982
   lng: 4.919539
@@ -894,6 +899,7 @@
     - { label: Rijksmonumentenregister (6444), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/6444" }
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/16b80f98-a02d-41b2-83d0-a4a999ab8449" }
     - { label: Wikipedia (nl) Oosterkerk, url: "https://nl.wikipedia.org/wiki/Oosterkerk_(Amsterdam)" }
+    - { label: 4en5mei De Hongerwinter, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1603" }
   attributes:
     rank: Nice
     heritage_status: National monument
@@ -904,6 +910,7 @@
   photos:
     - "commons:File:Oosterkerk-amsterdam-wittenburg.jpg"
   sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1603 (relief De Hongerwinter by Hildo Krop, Kleine Wittenburgerstraat 1; man working on a boat, woman with two children before her house; text of thanks of the whole neighbourhood to the Interkerkelijk Comite 1945; food collected in 55 villages on the Frisian-Groningen border; unveiled 1947; removed end 2008 and restored by Van Milt, original now inside the Oosterkerk, replica outside)
     - rce:6444 (1669-1671, design Dortsman?, Greek cross with low side rooms, lantern tower at the crossing, Van Oeckelen organ 1871, bell by Pieter Hemony 1671)
     - https://nl.wikipedia.org/wiki/Oosterkerk_(Amsterdam) (1659 decision two churches in wood, Stalpaert design approved 4 July 1669, Dortsman paid 500 guilders 6 June 1672, opened 4 Oct 1671, bell inscription, hour and half-hour strokes, clockwork from the old Beurs tower on the Rokin, closed 1963, city owner 1969, demolition plans stopped by residents, social use 1985-2012, now concerts, offices, exhibitions and meetings, Stichting Oosterkerk free concerts)
   nl:
@@ -920,10 +927,12 @@
       - het koepeltorentje op de kruising van de schilddaken
       - het uurwerk eronder, afkomstig van de oude Beurs
       - het stenen ingangsportaal met balustrade
+      - het reliëf De Hongerwinter (1947) van Hildo Krop, een man die voedsel van een boot sjouwt en een moeder met twee kinderen: de dank van de buurt aan het Interkerkelijk Comité dat in 1944–45 eten uit Friesland en Groningen liet komen; het origineel hangt binnen, buiten zit een kopie
     attributes:
       original_use: Hervormde kerk
       architect: Daniël Stalpaert en Adriaan Dortsman
     sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1603
       - rijksmonumentenregister 6444
       - https://nl.wikipedia.org/wiki/Oosterkerk_(Amsterdam)
 
@@ -1109,6 +1118,7 @@
     - the cast-iron window frames and the 28-pane windows along the Wittenburgervaart
     - the stepped friezes on the gable ends
     - the height of Stelplaats 3 on the Oostenburgermiddenstraat
+    - the Werkspoor war memorial at Oostenburgergracht 77, a stone plaque naming the company's people killed in 1940–45
   category: industrial
   lat: 52.370598
   lng: 4.925273
@@ -1131,6 +1141,7 @@
   photos:
     - "commons:File:VanGendtHallen overzicht west.jpg"
   sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4707 (Werkspoormonument, stone plaque at Oostenburgergracht 77; text Vrijheid, Gerechtigheid, Vrede, dedicated by all connected to Werkspoor N.V. to staff and friends fallen in the struggle, in the resistance, by war violence or in captivity; 28 names)
     - rce:518492 (five linked halls, order for 40 locomotives and 400 wagons for South Africa, Van Gendt halls 1-3 completed 1898, first cast-iron diesel engine 1903, hall 5 locomotive hall 1903 extended 1910, hall 4 about 1905 turbines, 1922 fire, rebuilt under Langhout; cast-iron frames; 28-pane windows on the Wittenburgervaart side)
     - https://nl.wikipedia.org/wiki/Hallen_van_Stork (same facts; first cast-iron diesel ship engine 1903)
     - city registers 200512 and 200543 (VOC 1660, engine building from 1827, NFWS 1891, Werkspoor, Stork 1954; NSM rented the NW part from 1894, expanded 1908; building A part of the original power plant; Conradstraat 471 mess and washroom, scarce relic)
@@ -1152,10 +1163,12 @@
       - de gietijzeren kozijnen en de ramen van 28 ruitjes langs de Wittenburgervaart
       - de getrapte friezen op de kopgevels
       - de hoogte van Stelplaats 3 aan de Oostenburgermiddenstraat
+      - het Werkspoormonument op Oostenburgergracht 77, een stenen plaquette met de namen van de medewerkers die in 1940–45 omkwamen
     attributes:
       original_use: Locomotief-, motoren- en scheepsbouwfabriek
       outlook_note: De Van Gendthallen worden ingericht voor het Drift Museum, kantoren en een restaurant; de openingsdatum is al eens uitgesteld.
     sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4707
       - rijksmonumentenregister 518492
       - gemeentelijk monumentenregister 200512, 200543, 200544, 200753
       - https://nl.wikipedia.org/wiki/Hallen_van_Stork
@@ -1167,7 +1180,7 @@
 
     The reconstruction plan of 1953 zoned the whole of Oostenburg as industrial land so Werkspoor could expand. The company, still the owner, objected; the city replied that this did not mean demolition any time soon. In the 1960s and 1970s almost all other old housing on the islands was cleared, so these sober blocks are the only reminder of how the islands' workers lived.
 
-    The houses are lived in; see them from the street and from the far side of the water.
+    The neighbourhood paper has called it by far the cutest street on the Eastern Islands, for its postage-stamp front gardens and the benches under the kitchen windows. The houses are lived in; see them from the street and from the far side of the water.
 
     Look for:
     - the Flemish gables over the middle and end stairwells
@@ -1191,6 +1204,7 @@
   photos:
     - "commons:File:Nieuwe Oostenburgerstraat, Amsterdam.jpg"
   sources:
+    - https://www.buurtorganisatie1018.nl/s/1018-Magazine-65-feb-2025.pdf (Nieuwe Oostenburgerstraat "met stip het schattigste straatje op de Oostelijke Eilanden"; postage-stamp front gardens, benches under kitchen windows; gives 1871 for the complex)
     - city registers 206017, 206018, 206019, 206027, 206028 (three large blocks on the Nieuwe Oostenburgerstraat and dwarsstraat and two small units on the Oostenburgervoorstraat; first one-room homes delivered 1 May 1874, nos. 9 and 11 dwarsstraat; others two-room with front and back windows; very early large-scale good workers' housing; company explicitly not philanthropic, shares bought by the same wealthy investors; large number in one building stream new; Van Gendt, relation to his 1897 halls; Wederopbouwplan 9 Jan 1953 made Oostenburg industrial, company objected, city said no short-term demolition; only reminder of the workers' housing of the Eastern Islands; Flemish gables on middle and end stairwells, white keystones)
   nl:
     title: Woningen van de Woning-Maatschappij, de laatste oude arbeidersstraat van de eilanden
@@ -1200,7 +1214,7 @@
 
       Het Wederopbouwplan van 1953 gaf heel Oostenburg de bestemming industrieterrein, zodat Werkspoor kon uitbreiden. De maatschappij, nog altijd eigenaar, maakte bezwaar; de gemeente antwoordde dat sloop op korte termijn niet aan de orde was. In de jaren zestig en zeventig verdween bijna alle andere oude woonbebouwing op de eilanden, dus deze sobere blokken zijn de enige herinnering aan hoe de arbeiders hier woonden.
 
-      De huizen worden bewoond; je ziet ze vanaf de straat en vanaf de overkant van het water.
+      De buurtkrant noemde het met stip het schattigste straatje van de Oostelijke Eilanden, om de postzegeltuintjes en de bankjes onder de keukenramen. De huizen worden bewoond; je ziet ze vanaf de straat en vanaf de overkant van het water.
 
       Let op:
       - de Vlaamse gevels boven de middelste trappenhuizen en die op de koppen

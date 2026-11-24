@@ -211,3 +211,6 @@ Once drafting, review, photos and import are done, relax the food-and-drink bar 
 **The test (user):** the place is worth visiting even if you don't eat or drink anything there (interior, history, role in the neighbourhood, something to see).
 - r2-gg-zuid: Vijzelflat collapse 3 vs 23 March 1955 (check gg-zuid-3 / Poentunnel agree); trim over-length bodies (Poentunnel, Prinsengracht 755, Thorbecke, Kerkstraat, Carlton)
 - Food-and-drink round input: Café 't Mandje (Bet van Beeren, now hidden-history in r2-oudezijde: reconsider category/rank then), Jacob Hooy & Co. (Okay, r2-oudezijde)
+**Shops too (user):** the same round covers shops, same test: worth visiting even if you buy nothing (iconic, historic, culturally significant, part of the local fabric). **Benchmark:** the Centrum art shop that sells original Marc Chagall prints (user forgot the name: identify it first and use it as the yardstick).
+- Coentje Gans Plantsoen (GR-15/S-?): dropped by r2-nieuwmarkt for single source; strong story: try a second source (city naming decision 2021, Joods Monument for Coentje Gans, Stolpersteine) in the final pass
+- Geldersche Gaai: kept as a Look for line only (single neighbour source)
