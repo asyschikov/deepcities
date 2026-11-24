@@ -1,0 +1,699 @@
+# Zuid round 1, slice rijnbuurt: Rijnbuurt, Zorgvlied and the Amsteldijk (Rivierenbuurt south and east).
+# 27 monument records in slices/rijnbuurt.json, merged into 10 places:
+# 6 with a story of their own and 4 ensembles (see notes/rijnbuurt.md for the ledger).
+# Dutch texts are written from the city and national register texts, nl.wikipedia,
+# geheugenvanplanzuid.nl, the water board AGV, 4en5mei.nl and the cemetery's own site.
+
+# ================================================================ Zorgvlied and the Amsteldijk
+
+- title: Zorgvlied cemetery
+  summary: "Amsterdam's best-known cemetery belongs to Amstelveen: a landscape park of 1870 on the Amstel, with a circus director's Roman temple, an angel under a slate roof and gates lettered in Amsterdam School iron."
+  body: |
+    The best-known cemetery in Amsterdam is not Amsterdam's. The village of Nieuwer-Amstel (today's Amstelveen) opened Zorgvlied on 1 November 1870, on the grounds of a vanished country house on the Amstel. The city has long since grown around it, but Amstelveen still owns and runs the place, and its coat of arms sits on the gate piers and above the door of the office villa.
+
+    Jan David Zocher drew the oldest part as an English landscape park with winding paths. His son extended it in 1892, and further extensions followed until 1931. It became the cemetery of the well-to-do, and of actors, writers and musicians: Herman Brood, Wim Duisenberg and Bobby Farrell of Boney M. lie here.
+
+    Eight old graves are national monuments, most of them in section O-I near the main entrance. The showpiece is the small Roman temple of the circus director Oscar Carré, designed in 1891 by the architects of his circus theatre on the Amstel. He built it for his first wife Amalia, a horsewoman in his circus, who was killed in a train accident in Germany. The family enlarged it before Oscar himself was laid in it in 1912.
+
+    The park is open on weekdays from 9.00 to 17.00, at weekends from 10.00 and on public holidays from 11.00. Use the main entrance by the white villa, where a screen in the hall finds a grave and prints a map. The second gate, to the funeral hall of 1931, opens only for funerals.
+
+    Look for:
+    - the gates of 1926: brick piers, gilded cone lanterns and the name in wrought-iron letters
+    - the villa of 1869, with its first stone beside the steps; it served as the funeral hall until 1931
+    - Carré's mausoleum (O-I-294): a butterfly, a torch held upside down and a snake biting its tail in the pediment
+    - the Dorrepaal tomb (O-I-235): a kneeling marble angel of 1886 under an open house with a slate roof
+    - Hartog van Banda (O-I-62): a broken column under a canopy on twisted green marble columns, for a nutmeg planter born on Banda
+    - Elisabeth Otter-Knoll (O-I-37a): winged hourglasses on the corner posts; she left her fortune to found homes for ladies of standing
+    - Margot Mulder (O-I-385): cast-iron posts and chains, with a scythe and an hourglass
+    - the bust of the actress Sophie de Vries (N-II-8), the bronze portrait of P.W. Janssen, a founder of the Deli Maatschappij (O-I-225) and the mourning angel of the Vom Rath family (O-I-277), with its German farewell
+    - the avenue of plane trees that marks the edge of the first cemetery
+    - the modern side, which has a place of its own on this map: Paradiso, the field for monuments of unusual shape, and the purple Giele Skull
+    - 't Lalibellum (2012, landscape architect Ada Wille): a half-sunken vault for some 2,200 graves under twelve terraces, named after the rock-cut churches of Lalibela in Ethiopia and built because the cemetery was full; nobody goes in, the names are on the risers of the steps
+  category: green
+  lat: 52.335347
+  lng: 4.904894
+  address: Amsteldijk 273
+  links:
+    - { label: Rijksmonumentenregister (530057 park), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/530057" }
+    - { label: Rijksmonumentenregister (530061 Carré), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/530061" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/7033d75c-7cf1-4612-9fec-5df14c3c206f" }
+    - { label: Zorgvlied opening hours, url: "https://zorgvlied.amstelveen.nl/contact-en-openingstijden" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)" }
+    - { label: Wikipedia (nl) Carré mausoleum, url: "https://nl.wikipedia.org/wiki/Grafmonument_van_de_familie_Carr%C3%A9" }
+  attributes:
+    rank: Amazing
+    heritage_status: National monument
+    monument_number: 530057, 530058, 530059, 530060, 530061, 530062, 530063, 530064, 530065, 530066, 530067, 530068
+    built: 1869–1931
+    architect: J.D. Zocher (park), L. van der Bijl (gates), K.J. Mijnarends (funeral hall)
+    listed: 2007
+    original_use: Cemetery
+  photos:
+    - commons:File:Grafmonument Oscar Carré (1891).jpg
+    - commons:File:Zorgvliedhekken (1926).jpg
+    - commons:File:Grafmonument familie Dorrepaal.jpg
+  sources:
+    - rce:530057 (Zocher 1869-1870, L.P. Zocher 1892, Van der Bijl 1900 and 1926-1931, Broerse 1931, avenue of planes as border of the first layout)
+    - rce:530058 (villa of 1869, first stone laid by the mayor, served as aula until 1931, arms of Amstelveen)
+    - rce:530059 (gates of 1926, two identical entrances, lanterns, letters, arms)
+    - rce:530060 (aula of 1931 by K.J. Mijnarends)
+    - rce:530061 to 530068 (the eight graves, grave numbers, symbols, sculptors)
+    - https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats) (opened 1 November 1870, owned by Amstelveen, country house Zorgvliet, list of graves)
+    - https://nl.wikipedia.org/wiki/Grafmonument_van_de_familie_Carré (Amalia, train accident 1891, enlargement, burial of Oscar on 2 October 1912)
+    - https://nl.wikipedia.org/wiki/Grafmonument_van_de_familie_Hartog_van_Banda (born in Banda Neira, perkenier)
+    - https://nl.wikipedia.org/wiki/Grafmonument_van_Elisabeth_Otter-Knoll (will of 1886, foundation for ladies)
+    - https://nl.wikipedia.org/wiki/Grafmonument_van_P.W._Janssen (co-founder of the Deli Maatschappij)
+    - https://zorgvlied.amstelveen.nl/contact-en-openingstijden (hours, two entrances, information screen; read November 2026)
+  nl:
+    title: Begraafplaats Zorgvlied
+    summary: "De bekendste begraafplaats van Amsterdam is van Amstelveen: een landschapspark uit 1870 aan de Amstel, met het Romeinse tempeltje van een circusdirecteur, een engel onder een leien dak en hekken met letters in Amsterdamse Schoolsmeedwerk."
+    body: |
+      De bekendste begraafplaats van Amsterdam is niet van Amsterdam. De gemeente Nieuwer-Amstel (nu Amstelveen) nam Zorgvlied op 1 november 1870 in gebruik, op de grond van een verdwenen buitenplaats aan de Amstel. De stad is er allang omheen gegroeid, maar Amstelveen is nog steeds eigenaar en beheerder. Het wapen van de gemeente zit op de pijlers van de hekken en boven de deur van de kantoorvilla.
+
+      Jan David Zocher tekende het oudste deel als een Engels landschapspark met slingerpaden. Zijn zoon breidde het in 1892 uit en tot 1931 kwamen er steeds stukken bij. Het werd de begraafplaats van de gegoede burgerij, en van toneelspelers, schrijvers en musici: Herman Brood, Wim Duisenberg en Bobby Farrell van Boney M. liggen hier.
+
+      Acht oude graven zijn rijksmonument, de meeste in vak O-I bij de hoofdingang. Het pronkstuk is het Romeinse tempeltje van circusdirecteur Oscar Carré, in 1891 ontworpen door de architecten van zijn circustheater aan de Amstel. Hij liet het bouwen voor zijn eerste vrouw Amalia, paardrijdster in zijn circus, die bij een treinongeluk in Duitsland om het leven kwam. De familie liet het vergroten voordat Oscar er in 1912 zelf werd bijgezet.
+
+      Het park is op werkdagen open van 9.00 tot 17.00 uur, in het weekend vanaf 10.00 uur en op feestdagen vanaf 11.00 uur. Neem de hoofdingang bij de witte villa: op een scherm in de hal zoek je een graf op en print je een plattegrond. Het tweede hek, naar de aula uit 1931, gaat alleen open bij uitvaarten.
+
+      Let op:
+      - de hekken uit 1926: bakstenen pijlers, vergulde kegellantaarns en de naam in smeedijzeren letters
+      - de villa uit 1869, met de eerste steen naast de trap; tot 1931 was dit ook de aula
+      - het mausoleum van Carré (O-I-294): een vlinder, een omgekeerde fakkel en een slang die in zijn staart bijt in het fronton
+      - het graf Dorrepaal (O-I-235): een knielende marmeren engel uit 1886 onder een open huisje met een leien dak
+      - Hartog van Banda (O-I-62): een gebroken zuil onder een baldakijn op gedraaide groenmarmeren zuilen, voor een notenplanter die op Banda werd geboren
+      - Elisabeth Otter-Knoll (O-I-37a): gevleugelde zandlopers op de hoekpalen; zij liet haar vermogen na aan tehuizen voor dames van stand
+      - Margot Mulder (O-I-385): gietijzeren palen en kettingen, met een zeis en een zandloper
+      - de buste van actrice Sophie de Vries (N-II-8), het bronzen portret van P.W. Janssen, medeoprichter van de Deli Maatschappij (O-I-225) en de treurende engel van de familie Vom Rath (O-I-277), met een Duits afscheidswoord
+      - de platanenlaan die de rand van de eerste begraafplaats aangeeft
+      - de moderne kant, die een eigen plek op deze kaart heeft: Paradiso, het veld voor grafmonumenten met een afwijkende vorm, en de paarse Giele Skull
+      - 't Lalibellum (2012, landschapsarchitect Ada Wille): een half verzonken grafkelder voor ruim 2200 graven onder twaalf terrassen, genoemd naar de rotskerken van Lalibela in Ethiopië en gebouwd omdat de begraafplaats vol lag; je kunt er niet in, de namen staan op de treden
+    attributes:
+      architect: J.D. Zocher (park), L. van der Bijl (hekken), K.J. Mijnarends (aula)
+      original_use: Begraafplaats
+    sources:
+      - rce:530057 tot en met 530068
+      - https://nl.wikipedia.org/wiki/Zorgvlied_(begraafplaats)
+      - https://nl.wikipedia.org/wiki/Grafmonument_van_de_familie_Carré
+      - https://zorgvlied.amstelveen.nl/contact-en-openingstijden
+
+- title: Gemaal Stadwijck and the Zorgvlied lock
+  summary: "A pumping station of 1921 that looks like a farmhouse, a hand-worked lock hidden behind villas and a Kramer bridge with wooden rails: the small waterworks that still keeps Buitenveldert 1.60 m below the Amstel."
+  body: |
+    South of here the land lies lower than the river. The canals of Buitenveldert stand at 2.00 m below sea level and the Amstel at 0.40 m, and this small group of buildings on the dyke holds the difference. The pumping station lifts the polder's surplus water 1.60 m up into the river; the lock behind it keeps the Amstel out.
+
+    It was built in 1920–1922 because Berlage's Plan Zuid buried the old steam pumping station, which stood about where the Meerhuizenplein is now. The polder board agreed to the damming of its main watercourse only if the city dug a new channel with a lock for barges. Public Works made a set piece of it. A.J. Westerman, the architect of the city's round bathhouses, designed the pump house and almost certainly the two identical houses for the engineer and the lock-keeper; Piet Kramer drew the bridge. A large photo of the pump house hung in the Dutch section of the 1925 Paris exhibition.
+
+    Boats hardly ever used the lock, which is why it survives with its wooden gates, push beams and capstans, all still worked by hand. The station was overhauled in 2016 and runs on two pumps; it is not open. See the pump house, the engineer's house and the bridge from the Amsteldijk. The lock lies some 200 metres up the channel, behind the villas of the Zuidelijke Wandelweg: the last stretch of a footpath that once ran to the Amstelveenseweg and marked the southern edge of Plan Zuid.
+
+    Look for:
+    - the pump house's steep mansard roof, green boarded gables and the wooden mast that splits each end wall
+    - the engineer's house (Amsteldijk 271) beside it, with the same roof and gutters turned round the corners
+    - bridge 424: four brick wing walls shaped like a breaking wave, white wooden rails and a green iron handrail
+    - from the bridge, the view up the channel towards the lock and its black tarred shed for stop logs
+    - the lock-keeper's house on the green tongue of land, twin of the engineer's
+  category: infrastructure
+  lat: 52.335718
+  lng: 4.905374
+  address: Amsteldijk 272
+  links:
+    - { label: Monumentenregister Amsterdam (pumping station), url: "https://data.amsterdam.nl/monumenten/4274a06e-ad49-4ce7-b560-fee379909d87" }
+    - { label: Monumentenregister Amsterdam (bridge 424), url: "https://data.amsterdam.nl/monumenten/a00aeb85-93b6-44b2-8217-23c2165f3747" }
+    - { label: Waterschap AGV, url: "https://www.agv.nl/recreatie/watererfgoed/gemalen/gemaal-stadwijck/" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Gemaal_Stadwijck" }
+    - { label: Wikipedia (nl) Zorgvliedsluis, url: "https://nl.wikipedia.org/wiki/Zorgvliedsluis" }
+    - { label: Geheugen van Plan Zuid, url: "https://www.geheugenvanplanzuid.nl/archief/architectuur/zorgvliedschutsluis.htm" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 200882, 200883, 200884, 200887
+    built: 1920–1922
+    architect: A.J. Westerman and P.L. Kramer (Public Works)
+    listed: 2006
+    original_use: Pumping station, lock, bridge and two staff houses
+    check: Facts
+    check_note: Whether the lock can be reached on foot (a path between Zuidelijke Wandelweg 23 and 27 leads to the lock-keeper's house) is not confirmed.
+  photos:
+    - commons:File:Amsteldijk 272 (1).jpg
+    - commons:File:Zorgvliedsluis2012-1a.jpg
+    - commons:File:Brug424-1a.jpg
+  sources:
+    - city:200883 (shared text of the complex; water levels, polder board's condition, three contracts 1919-1921, Westerman and Kramer, Paris 1925, hand-operated lock, tongue of land of over 200 m, houses, shed)
+    - https://www.agv.nl/recreatie/watererfgoed/gemalen/gemaal-stadwijck/ (levels, two centrifugal pumps, overhaul 2016, still in use)
+    - https://nl.wikipedia.org/wiki/Zorgvliedsluis (no shipping any more)
+    - https://nl.wikipedia.org/wiki/Zuidelijke_Wandelweg (footpath between Amstel and Amstelveenseweg, western part gone)
+    - city:222301 (Zuidelijke Wandelweg as southern edge of Plan Zuid, stretch near Zorgvlied preserved)
+  nl:
+    title: Gemaal Stadwijck en de Zorgvliedsluis
+    summary: "Een gemaal uit 1921 dat op een boerderij lijkt, een sluisje met handbediening achter de villa's en een Kramerbrug met houten leuningen: het kleine waterwerk dat Buitenveldert nog altijd 1,60 m onder de Amstel houdt."
+    body: |
+      Ten zuiden van dit punt ligt het land lager dan de rivier. De grachten van Buitenveldert staan op 2,00 m onder NAP, de Amstel op 0,40 m, en dit groepje gebouwen aan de dijk houdt dat verschil in stand. Het gemaal pompt het overtollige polderwater 1,60 m omhoog de rivier in; de sluis erachter houdt de Amstel buiten.
+
+      Het werd in 1920-1922 gebouwd omdat het oude stoomgemaal, ongeveer waar nu het Meerhuizenplein ligt, onder Plan Zuid van Berlage verdween. Het polderbestuur ging alleen akkoord met het afdammen van zijn hoofdwatergang als de stad een nieuwe vaart groef, met een schutsluis voor schuiten. Publieke Werken maakte er iets moois van. A.J. Westerman, de architect van de ronde badhuizen, ontwierp het gemaal en vrijwel zeker ook de twee gelijke huizen voor de machinist en de sluiswachter. Piet Kramer tekende de brug. Op de Parijse tentoonstelling van 1925 hing een grote foto van het gemaal in de Nederlandse inzending.
+
+      Er werd bijna nooit geschut, en daardoor heeft de sluis haar houten deuren, duwbomen en kaapstanders nog: alles gaat met de hand. Het gemaal is in 2016 opgeknapt en draait op twee pompen; je kunt er niet in. Gemaal, machinistenwoning en brug zie je vanaf de Amsteldijk. De sluis ligt zo'n 200 meter verder de vaart op, achter de villa's van de Zuidelijke Wandelweg: het laatste stuk van een wandelpad dat ooit doorliep tot de Amstelveenseweg en de zuidgrens van Plan Zuid was.
+
+      Let op:
+      - de steile mansardekap van het gemaal, de groene houten topgevels en de houten mast die elke kopgevel in tweeën deelt
+      - de machinistenwoning (Amsteldijk 271) ernaast, met dezelfde kap en goten die de hoek om gaan
+      - brug 424: vier gemetselde vleugelmuren in de vorm van een omslaande golf, witte houten leuningen en een groene ijzeren handlijst
+      - vanaf de brug het zicht over de vaart naar de sluis en de zwart geteerde loods voor de schotbalken
+      - de sluiswachterswoning op de groene landtong, het evenbeeld van het machinistenhuis
+    attributes:
+      architect: A.J. Westerman en P.L. Kramer (Publieke Werken)
+      original_use: Gemaal, schutsluis, brug en twee dienstwoningen
+      check_note: Of je te voet bij de sluis kunt komen (een pad tussen Zuidelijke Wandelweg 23 en 27 loopt naar de sluiswachterswoning) is niet bevestigd.
+    sources:
+      - city:200883 (redengevende omschrijving van het complex)
+      - https://www.agv.nl/recreatie/watererfgoed/gemalen/gemaal-stadwijck/
+      - https://nl.wikipedia.org/wiki/Zorgvliedsluis
+      - https://nl.wikipedia.org/wiki/Zuidelijke_Wandelweg
+
+- title: Salomonson's villa on the Zuidelijke Wandelweg
+  summary: "Hein Salomonson called this house of 1970 'one of our best, outside and in'. To the street it shows almost nothing: a closed brick wall with one soft bulge where the stair turns, and a front yard by Mien Ruys."
+  body: |
+    The house turns its back on you, and that is the design. Hein Salomonson, who had studied in Vienna and worked for a few months in Le Corbusier's studio in Paris, drew it in 1968 for a family with four children and built it in 1969–1970. Towards the road it is a nearly blank wall of light brown brick, with the concrete floor slab showing as a band and a single swelling where the spiral stair stands inside. The glass is at the back, where the upper floor, clad in Brazilian hardwood, hangs far out over a sheltered terrace.
+
+    On the architect's advice the garden went to Mien Ruys. Her front yard is mostly a drive, but a designed one, and her hedge follows the line of the house rather than the road, to take the slant out of the street.
+
+    Salomonson made more than 200 designs, some fifty houses among them, and not much of it survives. When the city listed this house in 2012, the wall cupboards, sliding doors and built-in corner sofa he designed were all still in place. He himself counted it among his best.
+
+    The plot is one of four that the city's extension plan set aside for detached houses on this last green stretch of the Zuidelijke Wandelweg. It is a private home: from the pavement you see the front and the entrance yard, and nothing of the interior.
+
+    Look for:
+    - the bulge in the front wall: the round stairwell behind it is lit by a glass dome
+    - the band of concrete between the two brick storeys
+    - door and window frames in dark tropical hardwood
+    - the front yard: concrete slabs and granite setts laid in stripes
+    - the low border with trees on the north-east point of the plot, and the hedge cutting through it
+  category: housing
+  lat: 52.337778
+  lng: 4.901346
+  address: Zuidelijke Wandelweg 37
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/f4f6ba2d-7f00-4f18-a10c-f0bc51325758" }
+    - { label: Wikipedia (nl) Zuidelijke Wandelweg, url: "https://nl.wikipedia.org/wiki/Zuidelijke_Wandelweg" }
+    - { label: Wikipedia (nl) Hein Salomonson, url: "https://nl.wikipedia.org/wiki/Hein_Salomonson" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "222301"
+    built: 1969–1970
+    architect: Hein Salomonson, garden by Mien Ruys
+    listed: 2012
+    original_use: House
+  photos:
+    - commons:File:2020 Zuidelijke Wandelweg 37.jpg
+  sources:
+    - city:222301 (design 1968, built 1969-1970, brief of the clients, materials, Mien Ruys garden, interior, Salomonson's training and oeuvre, his own judgement, four plots in the extension plan)
+    - https://nl.wikipedia.org/wiki/Zuidelijke_Wandelweg (closed front, glass at the back, listed 2012)
+  nl:
+    title: Villa van Salomonson aan de Zuidelijke Wandelweg
+    summary: "Hein Salomonson noemde dit huis uit 1970 'één van onze beste, zowel buiten als binnen'. Aan de straat laat het bijna niets zien: een dichte bakstenen wand met één zachte bolling waar de trap draait, en een voortuin van Mien Ruys."
+    body: |
+      Het huis keert je de rug toe, en zo is het bedoeld. Hein Salomonson, die in Wenen had gestudeerd en een paar maanden bij Le Corbusier in Parijs werkte, tekende het in 1968 voor een gezin met vier kinderen; in 1969-1970 werd het gebouwd. Naar de weg is het een bijna blinde wand van lichtbruine baksteen. De betonnen verdiepingsvloer loopt er als een band doorheen en op één plek bolt de gevel op: daar staat binnen de wenteltrap. Het glas zit aan de achterkant, waar de verdieping, bekleed met Braziliaans hardhout, ver uitsteekt boven een beschut terras.
+
+      Op aanraden van de architect ging de tuin naar Mien Ruys. Haar voortuin is vooral een oprit, maar wel een ontworpen oprit, en haar heg volgt de lijn van het huis in plaats van die van de weg, zodat de straat minder scheef lijkt te lopen.
+
+      Salomonson maakte ruim 200 ontwerpen, waaronder een vijftigtal woonhuizen, en daar is niet veel van over. Toen de gemeente dit huis in 2012 op de monumentenlijst zette, zaten de kastenwanden, de schuifdeuren en de ingebouwde hoekbank die hij ontwierp er allemaal nog in. Zelf rekende hij het tot zijn beste werk.
+
+      De kavel is een van de vier die het uitbreidingsplan bestemde voor vrijstaande huizen aan dit laatste groene stuk van de Zuidelijke Wandelweg. Het is een woonhuis: vanaf de stoep zie je de voorgevel en de voortuin, van het interieur niets.
+
+      Let op:
+      - de bolling in de voorgevel: het ronde trappenhuis erachter krijgt licht door een glazen koepel
+      - de band van beton tussen de twee bakstenen bouwlagen
+      - deur- en raamkozijnen van donker tropisch hardhout
+      - de voortuin: betontegels en granietkeien in een strepenpatroon
+      - de lage border met bomen op de noordoostpunt van de kavel, met de heg die erdoorheen snijdt
+    attributes:
+      architect: Hein Salomonson, tuin van Mien Ruys
+      original_use: Woonhuis
+    sources:
+      - city:222301 (redengevende omschrijving)
+      - https://nl.wikipedia.org/wiki/Zuidelijke_Wandelweg
+
+# ================================================================ The Amstel end: bridge, depot, Vrijheidslaan
+
+- title: Berlagebrug and Schollenbrug
+  summary: "Berlage's own bridge of 1932, the city gate of Plan Zuid in orange brick, red iron and green copper. On 7 May 1945 the first Allied soldiers drove into Amsterdam over it; a plaque reworded in 1995 says they were British."
+  body: |
+    Amsterdam was liberated across this bridge, and for fifty years the wrong army got the credit. On 7 May 1945 a reconnaissance unit of the British 49th (West Riding) Division, 32 men in armoured cars and Bren carriers, reached the city here; the Canadian main force followed on 8 May. Canadian soldiers gave the city a white stone plaque that same year. A second plate got its present wording in 1995, after the resistance veteran Tonny van Renterghem, who had ridden in on the first armoured car, pressed the point that the first across were British.
+
+    The bridge was a commission of honour from the city to H.P. Berlage, whose Plan Zuid had drawn a crossing here as early as 1915; the engineering was by Cornelis Biemond of Public Works. It opened on 28 May 1932, in the middle of the slump: more than 100 metres long and 24 wide, with five openings and one tower, set off-centre on the Zuid side. On the tower's city side Hildo Krop's ceramic Genius of Amsterdam rises from the water under the imperial crown. Quays, railings, lamp posts and the boathouses under the roadway all belong to the design.
+
+    The Schollenbrug over the Ringvaart on the far bank is the small sister, opened in July 1933. It is named after a seventeenth-century inn, De Schulp, and now carries only bikes and walkers. The big bridge was closed from July to November 2023 and came back with a new moving deck.
+
+    Look for:
+    - the liberation plaques, set into the brickwork of the bridge
+    - Krop's Genius, four metres high, on the tower
+    - the railings: black frames, red T-bars and a green copper handrail
+    - the lamp posts, built up as openwork steel obelisks, alternately tall and short
+    - four rows of green glazed tiles along the edge of the deck
+    - the boathouse doors in the quays and the stairs down to them
+    - the Schollenbrug, 150 metres north on the east bank (in Oost), with the same railings bent at right angles
+  category: infrastructure
+  lat: 52.347446
+  lng: 4.912579
+  address: Amsteldijk 134 (bridge tower)
+  links:
+    - { label: Rijksmonumentenregister (530055), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/530055" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/6c4e0f74-587c-4440-9aad-ed9eedcc9be9" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Berlagebrug_(Amsterdam)" }
+    - { label: 4 en 5 mei (plaque), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1463/amsterdam-monument-bij-de-berlagebrug" }
+    - { label: Geheugen van Plan Zuid (Van Renterghem), url: "https://www.geheugenvanplanzuid.nl/archief/architectuur/berlagebrug2.htm" }
+    - { label: Wikipedia (nl) Schollenbrug, url: "https://nl.wikipedia.org/wiki/Schollenbrug_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "530055"
+    built: 1929–1933
+    architect: H.P. Berlage with C. Biemond (Public Works)
+    artist: Hildo Krop
+    listed: 2008
+    original_use: Bascule bridge and fixed bridge
+    check: Location
+    check_note: The pin is the bridge tower on the Zuid side. Where exactly on the bridge the two liberation plaques sit was not confirmed.
+  photos:
+    - commons:File:Berlagebrug pic2.jpg
+    - commons:File:Genius van Amsterdam.JPG
+    - commons:File:Amsterdam Schollenbrug 001.JPG
+  sources:
+    - rce:530055 (honorary commission, Biemond, city gate, Krop's Genius, opened 28 May 1932, over 100 m by 24 m, five openings, off-centre tower, materials, railings, lamp posts, tiles, boathouses, Schollenbrug)
+    - https://nl.wikipedia.org/wiki/Berlagebrug_(Amsterdam) (bridge foreseen in 1915, work from 1929, opening speech, 7 and 8 May 1945 with 32 men, closure 24 July to 10 November 2023)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1463/amsterdam-monument-bij-de-berlagebrug (white stone plaque given by Canadian soldiers, unveiled 1945; British 49th WR Reconnaissance Regiment on 7 May, Canadians on 8 May)
+    - https://www.geheugenvanplanzuid.nl/archief/architectuur/berlagebrug2.htm (Van Renterghem on the first armoured vehicle; new text on the plaque in 1995)
+    - https://nl.wikipedia.org/wiki/Schollenbrug_(Amsterdam) (opened July 1933, name from the inn De Schulp, cyclists and pedestrians only)
+  nl:
+    title: Berlagebrug en Schollenbrug
+    summary: "Berlages eigen brug uit 1932, de stadspoort van Plan Zuid in oranje baksteen, rood ijzer en groen koper. Op 7 mei 1945 reden de eerste geallieerden er Amsterdam over binnen; sinds 1995 staat op de plaquette dat het Britten waren."
+    body: |
+      Over deze brug is Amsterdam bevrijd, en vijftig jaar lang kreeg het verkeerde leger de eer. Op 7 mei 1945 bereikte een verkenningseenheid van de Britse 49e (West Riding) Divisie hier de stad: 32 man in pantserwagens en brencarriers. De Canadese hoofdmacht kwam op 8 mei. Canadese militairen schonken de stad nog datzelfde jaar een plaquette van witte natuursteen. Een tweede plaat kreeg in 1995 de huidige tekst, nadat oud-verzetsman Tonny van Renterghem, die zelf op de eerste pantserwagen had meegereden, was blijven hameren op het feit dat de eersten Britten waren.
+
+      De brug was een ereopdracht van de stad aan H.P. Berlage, die in zijn Plan Zuid al in 1915 op deze plek een oversteek had getekend. Het ingenieurswerk was van Cornelis Biemond van Publieke Werken. Op 28 mei 1932, midden in de crisis, ging de brug open: ruim 100 meter lang en 24 meter breed, met vijf doorvaarten en één toren, die uit het midden staat, aan de kant van Zuid. Aan de stadszijde van de toren rijst de keramische Genius van Amsterdam van Hildo Krop op uit het water, met de keizerskroon op het hoofd. Kades, leuningen, lantaarnpalen en de botenhuizen onder de rijweg horen allemaal bij het ontwerp.
+
+      De Schollenbrug over de Ringvaart, op de andere oever, is het kleine zusje en ging in juli 1933 open. De naam komt van een zeventiende-eeuwse herberg, De Schulp, en er komen nu alleen nog fietsers en wandelaars overheen. De grote brug was van juli tot november 2023 dicht en kreeg toen een nieuw beweegbaar dek.
+
+      Let op:
+      - de bevrijdingsplaquettes, ingemetseld in de brug
+      - de Genius van Krop, vier meter hoog, op de toren
+      - de leuningen: zwarte ramen, rode T-profielen en een groene koperen handlijst
+      - de lantaarnpalen, opgebouwd als opengewerkte stalen obelisken, om en om hoog en laag
+      - vier rijen groen geglazuurde tegels langs de rand van het dek
+      - de deuren van de botenhuizen in de kades en de trappen ernaartoe
+      - de Schollenbrug, 150 meter noordelijker op de oostoever (in Oost), met dezelfde leuningen in rechte hoeken
+    attributes:
+      architect: H.P. Berlage met C. Biemond (Publieke Werken)
+      original_use: Basculebrug en vaste brug
+      check_note: De pin staat op de brugtoren aan de kant van Zuid. Waar de twee bevrijdingsplaquettes precies op de brug zitten, is niet bevestigd.
+    sources:
+      - rce:530055
+      - https://nl.wikipedia.org/wiki/Berlagebrug_(Amsterdam)
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1463/amsterdam-monument-bij-de-berlagebrug
+      - https://www.geheugenvanplanzuid.nl/archief/architectuur/berlagebrug2.htm
+      - https://nl.wikipedia.org/wiki/Schollenbrug_(Amsterdam)
+
+- title: Remise Lekstraat, the tram depot
+  summary: "Most of a city block is one tram shed, described by tram historians as Europe's biggest covered depot when it was finished around 1930. Trams still roll in from the Amstel side and fan out through a curved wall of doors at the back."
+  body: |
+    Most of this city block is one shed. Trams enter from the Amsteldijk and leave on the other side, through a concave wall of doors onto a forecourt where the tracks converge into a single line down the Lekstraat. It has worked that way since the late 1920s and still does: the city's transport company GVB stables its trams here.
+
+    The site began with a wooden emergency depot of 1918 behind the old water tower of Nieuwer-Amstel. The decision to build a permanent depot was taken on 27 May 1925; the first half came into use in August 1927 and the rest followed by 1930, for 2.4 million guilders. Tram historians call it the largest covered tram depot in Europe at the time, with room for 320 two-axle cars. Public Works designed it in a sober late Amsterdam School manner: long brick walls, corner towers under saddle roofs, copper-clad edges and almost no ornament. The exception is above the office door on the forecourt, where Hildo Krop carved an openwork panel in walnut with the map of Amsterdam.
+
+    The shed was roomy enough to serve as a church, too: before the Maranathakerk was built, the Reformed congregation of the neighbourhood sometimes held its services here.
+
+    The depot is not open, but all its sides face a street. The forecourt on the Kromme Mijdrechtstraat, opposite the end of the Lekstraat, is the place to watch.
+
+    Look for:
+    - the curved exit wall with its row of doors under a copper edge, and the lamps on the ends of the forecourt walls
+    - Krop's wooden relief above the porch on the forecourt, and the three St Andrew's crosses on the doors beneath it
+    - the corner tower at the Waverstraat, with its arched porch
+    - the tall block with the square chimney at the east end of the Waverstraat
+    - on the Amsteldijk, the two staff houses on either side of the entrance tracks
+  category: infrastructure
+  lat: 52.345600
+  lng: 4.909400
+  address: Kromme Mijdrechtstraat, opposite the Lekstraat (postal address Amsteldijk 153)
+  links:
+    - { label: Rijksmonumentenregister (526708), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/526708" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/bf999349-e175-45c6-87ec-4fca818cae70" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Remise_Lekstraat" }
+    - { label: Geheugen van Plan Zuid (trams), url: "http://www.geheugenvanplanzuid.nl/archief/trams/geschiedenis.htm" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "526708"
+    built: 1925–1930
+    architect: Dienst der Publieke Werken
+    artist: Hildo Krop
+    listed: 2002
+    original_use: Tram depot with staff houses
+    check: Location
+    check_note: The pin is an estimate of the forecourt on the Kromme Mijdrechtstraat, opposite the Lekstraat.
+  photos:
+    - commons:File:Amsterdam Voorkant Tramremise.jpg
+    - commons:File:Amsterdam Tramremise.jpg
+  sources:
+    - rce:526708 (earlier depot of 1917-1918, extension about 1927, old depot demolished about 1930, staff houses, Krop's walnut relief with the map of Amsterdam, plan and fronts, forecourt, towers, chimney block)
+    - https://nl.wikipedia.org/wiki/Remise_Lekstraat (wooden depot of 14 December 1918, decision 27 May 1925, first part August 1927, second part 1930, 320 trams, cost 2,432,000 guilders, one-way depot, still in use by GVB as stabling)
+    - http://www.geheugenvanplanzuid.nl/archief/trams/geschiedenis.htm (Erik Swierstra; largest covered tram depot of Europe in 1929, 320 two-axle cars, second half in use 13 June 1929)
+    - https://nl.wikipedia.org/wiki/Maranathakerk_(Amsterdam) (services held in the depot before the church was built)
+  nl:
+    title: Remise Lekstraat
+    summary: "Bijna een heel bouwblok is één tramloods, volgens tramhistorici de grootste overdekte remise van Europa toen ze rond 1930 af was. De trams rijden nog steeds aan de Amstelkant naar binnen en waaieren achter uit door een gebogen wand van deuren."
+    body: |
+      Dit bouwblok is bijna helemaal één loods. De trams rijden vanaf de Amsteldijk naar binnen en komen er aan de andere kant weer uit, door een holle wand van deuren, op een voorplein waar de sporen samenkomen tot één spoor de Lekstraat in. Zo gaat het al sinds eind jaren twintig, en nog steeds: het GVB stalt hier zijn trams.
+
+      Het begon met een houten noodremise uit 1918 achter de oude watertoren van Nieuwer-Amstel. Op 27 mei 1925 viel het besluit om een definitieve remise te bouwen. De eerste helft kwam in augustus 1927 in gebruik, de rest volgde uiterlijk in 1930; het geheel kostte 2,4 miljoen gulden. Tramhistorici noemen het de grootste overdekte tramremise van het Europa van toen, met plaats voor 320 tweeassige wagens. Publieke Werken ontwierp het gebouw in een sobere, late Amsterdamse School: lange bakstenen wanden, hoektorens onder zadeldaken, randen van koper en vrijwel geen versiering. De uitzondering zit boven de kantoordeur aan het voorplein, waar Hildo Krop een opengewerkt paneel van notenhout sneed met de plattegrond van Amsterdam.
+
+      De loods was groot genoeg om er ook kerk in te houden: voordat de Maranathakerk er stond, kwam de hervormde gemeente uit de buurt hier soms op zondag bijeen.
+
+      Je kunt de remise niet in, maar alle kanten liggen aan een straat. Het voorplein aan de Kromme Mijdrechtstraat, tegenover het eind van de Lekstraat, is de plek om te kijken.
+
+      Let op:
+      - de gebogen uitrijwand met de rij deuren onder een koperen rand, en de lantaarns op de uiteinden van de muurtjes langs het voorplein
+      - het houten reliëf van Krop boven de portiek aan het voorplein, en de drie andreaskruisen op de deuren eronder
+      - de hoektoren aan de Waverstraat, met de boogportiek
+      - het hoge blok met de vierkante schoorsteen aan het oostelijke eind van de Waverstraat
+      - aan de Amsteldijk de twee dienstwoningen aan weerszijden van de inrijsporen
+    attributes:
+      original_use: Tramremise met dienstwoningen
+      check_note: De pin is een schatting van het voorplein aan de Kromme Mijdrechtstraat, tegenover de Lekstraat.
+    sources:
+      - rce:526708
+      - https://nl.wikipedia.org/wiki/Remise_Lekstraat
+      - http://www.geheugenvanplanzuid.nl/archief/trams/geschiedenis.htm
+      - https://nl.wikipedia.org/wiki/Maranathakerk_(Amsterdam)
+
+- title: Vrijheidslaan south side, Kramer and Marnette
+  summary: "Across the avenue from Michel de Klerk's last housing stands the work of his friend Piet Kramer, the city's bridge designer: a street wall of 1922 with bay-like bulges, rippling brickwork under the eaves and stairwells glazed in purple."
+  body: |
+    Piet Kramer is the man of Amsterdam's bridges: about 220 of them. Here he built houses. The south wall of the Vrijheidslaan, from just past the Amsteldijk to the Vechtstraat, went up in 1922–1923 for Amstel's Bouwvereeniging, the combine of private builders that filled this corner of Plan Zuid. Kramer drew the long block at nos. 9–43 and, together with his Public Works colleague Piet Marnette, the corner past the Kromme Mijdrechtstraat. Marnette, who also designed the city's standard lamp post of 1924, did the rest up to the Vechtstraat.
+
+    Kramer and Michel de Klerk had built the housing complex De Dageraad together a few years earlier. On this avenue they face each other: De Klerk's stepped balconies on the north side, and on the south Kramer's calmer front, where flat and bulging stretches take turns and the movement is saved for the doorways and the roofline. When the city listed Kramer's block in 1980, its report ended by saying that the building's beauty was reason enough.
+
+    The avenue was one of the main axes of Berlage's plan, aimed at the bridge over the Amstel. All of it is lived in, and the middle of the avenue gives the best view. This place is pinned on Kramer's block, nos. 9–43.
+
+    Look for:
+    - nos. 9–43: the bay-like bulges of the front and the sunken doorways framed in stone
+    - the top floor of that block: a row of small windows with brickwork that ripples between them, under an edge of roof tiles
+    - the corner with the Kromme Mijdrechtstraat (nos. 45–51), where the two architects worked together
+    - nos. 53–77: pairs of tall stairwell windows with ladder glazing in purple glass, and two triangular windows above each pair
+    - the corner with the Vechtstraat, built as a café: half a storey higher and cut off at an angle
+    - the hoisting beams under the eaves
+  category: housing
+  lat: 52.346593
+  lng: 4.909703
+  address: Vrijheidslaan 9-77
+  links:
+    - { label: Monumentenregister Amsterdam (nos. 9 to 43), url: "https://data.amsterdam.nl/monumenten/611cfbbb-62f9-49be-8a74-b0d96f8413fd" }
+    - { label: Monumentenregister Amsterdam (nos. 45 to 51), url: "https://data.amsterdam.nl/monumenten/fa2c70a8-f794-4ded-8d22-82b5a4c5cc82" }
+    - { label: Monumentenregister Amsterdam (nos. 53 to 77), url: "https://data.amsterdam.nl/monumenten/07c73f1e-944f-4b32-af33-522d651484a7" }
+    - { label: Wikipedia (nl) Vrijheidslaan, url: "https://nl.wikipedia.org/wiki/Vrijheidslaan" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 200018, 200438, 222242
+    built: 1922–1923
+    architect: P.L. Kramer and P.L. Marnette
+    listed: 1980
+    original_use: Flats, a café and a shop
+  photos:
+    - commons:File:Vrijheidslaan 9-43 pic1.JPG
+    - commons:File:Vrijheidslaan 9-43 pic3.JPG
+  sources:
+    - city:200018 (Kramer 1922 for Amstels Bouwvereniging, five storeys, bay-like bays, attic with small windows and wavy brickwork, tiles on the roofline, listing 'vanwege zijn schoonheid')
+    - city:222242 (1922-1923, Marnette for Amstels Bouwvereeniging, north-east part with Kramer, café on the Vechtstraat corner, shop on the other corner, purple ladder windows, triangular windows, hoisting beams, Kramer's 220 bridges and De Dageraad with De Klerk, Marnette's lamp post P.W. '24, Vrijheidslaan as main axis)
+    - research/zuid/places/rivieren-noord.yaml (De Klerk's north side, for the comparison)
+  nl:
+    title: Vrijheidslaan zuidzijde, Kramer en Marnette
+    summary: "Tegenover de laatste woningen van Michel de Klerk staat het werk van zijn vriend Piet Kramer, de bruggenbouwer van de stad: een straatwand uit 1922 met erkerachtige uitstulpingen, golvend metselwerk onder de dakrand en trappenhuizen met paars glas."
+    body: |
+      Piet Kramer is de man van de Amsterdamse bruggen: een stuk of 220. Hier bouwde hij huizen. De zuidwand van de Vrijheidslaan, van vlak na de Amsteldijk tot de Vechtstraat, kwam in 1922-1923 tot stand voor Amstel's Bouwvereeniging, het verband van particuliere bouwers dat deze hoek van Plan Zuid volzette. Kramer tekende het lange blok op de nummers 9-43 en, samen met Piet Marnette, zijn collega bij Publieke Werken, de hoek voorbij de Kromme Mijdrechtstraat. Marnette, die ook de standaard Amsterdamse lantaarnpaal van 1924 ontwierp, deed de rest tot aan de Vechtstraat.
+
+      Kramer en Michel de Klerk hadden een paar jaar eerder samen woningcomplex De Dageraad gebouwd. Aan deze laan staan ze tegenover elkaar: aan de noordkant de verspringende balkons van De Klerk, aan de zuidkant de rustiger gevel van Kramer, waarin vlakke en bollende stukken elkaar afwisselen en de beweging is bewaard voor de ingangen en de daklijn. Toen de gemeente het blok van Kramer in 1980 op de monumentenlijst zette, eindigde het advies met de vaststelling dat de schoonheid van het gebouw reden genoeg was.
+
+      De laan was een van de hoofdassen in het plan van Berlage, gericht op de brug over de Amstel. Overal wordt gewoond; vanaf het midden van de laan zie je het het best. De pin staat op het blok van Kramer, nummers 9-43.
+
+      Let op:
+      - nummers 9-43: de erkerachtige uitstulpingen van de gevel en de verdiepte ingangen in een lijst van natuursteen
+      - de bovenste verdieping van dat blok: een rij kleine ramen met daartussen metselwerk dat golft, onder een rand van dakpannen
+      - de hoek met de Kromme Mijdrechtstraat (nummers 45-51), waar de twee architecten samenwerkten
+      - nummers 53-77: telkens twee hoge trappenhuisramen met ladderroeden en paars glas, en daarboven twee driehoekige raampjes
+      - de hoek met de Vechtstraat, gebouwd als café: een halve verdieping hoger en schuin afgesneden
+      - de hijsbalken onder de dakrand
+    attributes:
+      architect: P.L. Kramer en P.L. Marnette
+      original_use: Etagewoningen, een café en een winkel
+    sources:
+      - city:200018 (redengevende omschrijving)
+      - city:222242 (redengevende omschrijving)
+
+# ================================================================ Trompenburgstraat and Uiterwaardenstraat
+
+- title: Trompenburgstraat, the workers' street older than Plan Zuid
+  summary: "Two blocks that stood here before Berlage's city: factory housing of 1898 for the Spijker coach and car works, and 88 homes that gas workers built for themselves in 1915 rather than live under the boss's eye."
+  body: |
+    The Rivierenbuurt is all 1920s and 1930s, except here. The Trompenburgstraat was laid out in 1898, when the brothers Spijker, the coachbuilders whose Golden Coach was presented to Queen Wilhelmina that year, built a new works on the corner of the Amsteldijk. It stood on the site of the country house Trompenburg of admiral Cornelis Tromp, pulled down in 1828. The factory made carriages, then Spyker cars, then aircraft, and went under in 1926. Its buildings are gone. What is left is the row the firm built for its workers at nos. 21–43: brown brick, arched porches and an endless run of windows, the kind of nineteenth-century street that Plan Zuid set out to replace.
+
+    Next to it, set back behind small front gardens, is another idea of workers' housing. Men of the new Zuidergasfabriek, the gasworks on the Amstel, founded the housing association Amsterdam Zuid in January 1911. By the association's own account the management offered them a garden village beside the plant, and they declined to live under the boss's eye. Their architects were Gulden and Geldmaker, social democrats and specialists in public housing. The 88 homes were ready in 1915, light and roomy and with flush toilets, at about four guilders a week: a quarter of a gas worker's pay.
+
+    Both blocks are lived in. This place is pinned on the middle of nos. 45–95.
+
+    Look for:
+    - nos. 21–43: paired round-arched porches with tiled floors, and small stepped gables breaking the roof
+    - the keystones and patterned brick above its windows
+    - the narrow passage between the two blocks, and the step back in the building line
+    - nos. 45–95: five taller pavilions, a palace front in plain brick
+    - the sandstone memorial stone of 1927 above the middle porch
+    - the French balconies with iron rails between brick cheeks
+  category: housing
+  lat: 52.344005
+  lng: 4.909921
+  address: Trompenburgstraat 21-95
+  links:
+    - { label: Monumentenregister Amsterdam (nos. 21 to 43), url: "https://data.amsterdam.nl/monumenten/c25c57d0-b0c1-4642-a15a-713722b8885a" }
+    - { label: Monumentenregister Amsterdam (nos. 45 to 95), url: "https://data.amsterdam.nl/monumenten/fa78e6a2-fbba-49be-bdbe-38090355bcad" }
+    - { label: Geheugen van Plan Zuid (gas workers), url: "https://www.geheugenvanplanzuid.nl/archief/architectuur/woningbouw/gasarbeiders.htm" }
+    - { label: Wikipedia (nl) Trompenburgstraat, url: "https://nl.wikipedia.org/wiki/Trompenburgstraat" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 222211, 222201
+    built: 1898 and 1913–1915
+    architect: J. Vis (nos. 21–43), Gulden and Geldmaker (nos. 45–95)
+    listed: 2012
+    original_use: Workers' housing
+  photos:
+    - commons:File:Trompenburgstraat 45-95 (1).jpg
+    - commons:File:Trompenburgstraat 21-43 (1).jpg
+  sources:
+    - city:222211 (street of 1898, Spijker works 1898-1899 on the site of Trompenburg demolished 1828, Golden Coach 1898, cars and aircraft, closed 1926, factory demolished 1993, J. Vis, description of the front)
+    - city:222201 (Gulden and Geldmaker, design 1913, in use 1915, pavilions, memorial stone of 1927, French balconies, renovated 1983, front gardens, passage)
+    - https://www.geheugenvanplanzuid.nl/archief/architectuur/woningbouw/gasarbeiders.htm (Dick Neijssel, 2009; founding by workers of the Zuidergasfabriek on 12 January 1911, garden village refused, 88 homes, ready 7 March 1915, rents and wages)
+  nl:
+    title: Trompenburgstraat, de arbeidersstraat van vóór Plan Zuid
+    summary: "Twee blokken die er al stonden voordat de stad van Berlage kwam: fabriekswoningen uit 1898 van de rijtuig- en autofabriek van Spijker, en 88 woningen die gasarbeiders in 1915 voor zichzelf bouwden omdat ze niet onder het oog van de baas wilden wonen."
+    body: |
+      De Rivierenbuurt is van de jaren twintig en dertig, behalve hier. De Trompenburgstraat werd in 1898 aangelegd, toen de gebroeders Spijker, de rijtuigbouwers wier Gouden Koets dat jaar aan koningin Wilhelmina werd aangeboden, op de hoek van de Amsteldijk een nieuwe fabriek neerzetten. Die stond op de plek van buitenplaats Trompenburg van admiraal Cornelis Tromp, die in 1828 was afgebroken. De fabriek maakte rijtuigen, daarna Spyker-auto's en ten slotte vliegtuigen, en ging in 1926 ten onder. De gebouwen zijn verdwenen. Wat er nog staat, is de rij die de firma voor haar arbeiders bouwde op de nummers 21-43: bruine baksteen, boogportieken en een eindeloze reeks ramen, precies het soort negentiende-eeuwse straat waar Plan Zuid van af wilde.
+
+      Ernaast, iets naar achteren achter voortuintjes, staat een ander idee van arbeiderswoningen. Mannen van de nieuwe Zuidergasfabriek aan de Amstel richtten in januari 1911 woningbouwvereniging Amsterdam Zuid op. Volgens de geschiedschrijving van de vereniging zelf bood de directie hun een tuindorp naast de fabriek aan, en bedankten ze voor wonen onder het oog van de baas. Hun architecten waren Gulden en Geldmaker, sociaaldemocraten en specialisten in volkshuisvesting. In 1915 waren de 88 woningen klaar, licht en ruim en met een wc met waterspoeling, voor ongeveer vier gulden per week: een kwart van het loon van een gasarbeider.
+
+      In beide blokken wordt gewoond. De pin staat op het midden van de nummers 45-95.
+
+      Let op:
+      - nummers 21-43: telkens twee boogportieken naast elkaar, met een tegelvloertje, en kleine trapgeveltjes die het dak onderbreken
+      - de sluitstenen en het siermetselwerk boven de ramen van dat blok
+      - de smalle doorgang tussen de twee blokken, en de sprong in de rooilijn
+      - nummers 45-95: vijf hogere paviljoens, een paleisgevel in gewone baksteen
+      - de zandstenen gedenksteen uit 1927 boven de middelste portiek
+      - de Franse balkons met ijzeren hekjes tussen bakstenen wangen
+    attributes:
+      built: 1898 en 1913–1915
+      architect: J. Vis (nrs. 21–43), Gulden en Geldmaker (nrs. 45–95)
+      original_use: Arbeiderswoningen
+    sources:
+      - city:222211 (redengevende omschrijving)
+      - city:222201 (redengevende omschrijving)
+      - https://www.geheugenvanplanzuid.nl/archief/architectuur/woningbouw/gasarbeiders.htm
+
+- title: De Kiekenren, a Finnish kit school
+  summary: "A wooden school that came from Finland as a kit in 1948, when the country was hundreds of classrooms short. Amsterdam once had 140 timber emergency schools, the city's monument register says; this one hides in a courtyard."
+  body: |
+    After the war the Netherlands counted some 300 school buildings destroyed, and children everywhere. A quick answer came by ship: wooden schools from Finland, delivered as numbered wall panels and roof trusses and put together on site. The trade paper Bouw reported in 1949 that Austria sent wooden schools too, in exchange for Dutch fish. According to the city's monument register Amsterdam had no fewer than 140 of these timber schools, and nearly all of them were taken down again.
+
+    This one was put up by Public Works in 1948 as an emergency infant school, De Kiekenren (the chicken run), with seven classrooms along a corridor. That it stands in a courtyard is the result of an earlier economy. In 1931 the planner Cornelis van Eesteren drew four schools with playgrounds into these streets, to open up the housing blocks. The crisis measures of 1933 did away with small schools, and the plots were filled with housing in 1934–1936. When an infant school turned out to be needed after all, the only room left was the sheltered court between the Uiterwaardenstraat, the Gaaspstraat and the Trompenburgstraat.
+
+    The register describes the building as intact inside and out. It is no longer a school: a care organisation uses it. The way into the court is at Uiterwaardenstraat 60A.
+
+    Look for:
+    - dark brown timber panels, laid flat on the lower half and upright or diagonal above
+    - seven broad white window frames with the corners cut off, one for each classroom
+    - the trelliswork between the windows, meant for climbing plants
+    - the blue front door in a wide white surround, under a canopy on yellow posts
+  category: schools
+  lat: 52.343718
+  lng: 4.910145
+  address: Uiterwaardenstraat 60A
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/6e90db5b-353c-49aa-8ec8-fb426a53c7f0" }
+    - { label: Wikipedia (nl) Finse school, url: "https://nl.wikipedia.org/wiki/Finse_school" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "222231"
+    built: "1948"
+    architect: Dienst der Publieke Werken with the Laurentius office (Voorschoten)
+    listed: 2012
+    original_use: Infant school
+    check: Facts
+    check_note: Whether the school can be seen from the gateway at Uiterwaardenstraat 60A, and which organisation uses it now, is not confirmed.
+  sources:
+    - city:222231 (Finnish kit school put up in 1948 by Public Works with the Laurentius office, seven classrooms, corridor type, 300 schools destroyed, 140 timber schools in Amsterdam, Austrian schools for fish in Bouw 1949, Van Eesteren's four schools of 1931, crisis of 1933, housing 1934-1936, description of the fronts, use by Stichting Philadelphia Zorg)
+    - https://nl.wikipedia.org/wiki/Finse_school (list entry for Uiterwaardenstraat 60A; now the office of a care organisation)
+  nl:
+    title: De Kiekenren, een Finse school
+    summary: "Een houten school die in 1948 als bouwpakket uit Finland kwam, toen het land honderden klaslokalen tekortkwam. Amsterdam had ooit 140 houten noodscholen, zegt het gemeentelijke monumentenregister; deze staat verstopt op een binnenterrein."
+    body: |
+      Na de oorlog waren er in Nederland zo'n 300 schoolgebouwen verwoest, en kinderen waren er genoeg. Een snelle oplossing kwam per schip: houten scholen uit Finland, geleverd als genummerde wandpanelen en dakspanten en ter plaatse in elkaar gezet. Het vakblad Bouw meldde in 1949 dat ook Oostenrijk houten scholen stuurde, in ruil voor Nederlandse vis. Volgens het monumentenregister van de gemeente hebben er in Amsterdam maar liefst 140 van deze houten scholen gestaan, en bijna allemaal zijn ze weer afgebroken.
+
+      Deze werd in 1948 door Publieke Werken neergezet als noodgebouw voor kleuterschool De Kiekenren, met zeven lokalen aan een gang. Dat ze op een binnenterrein staat, komt door een eerdere bezuiniging. In 1931 tekende stedenbouwer Cornelis van Eesteren vier scholen met speelterreinen in deze straten, om lucht tussen de woonblokken te krijgen. De crisismaatregelen van 1933 maakten een eind aan kleine scholen en in 1934-1936 werden de kavels volgebouwd met woningen. Toen er toch een kleuterschool nodig bleek, was er alleen nog plek op het beschutte terrein tussen de Uiterwaardenstraat, de Gaaspstraat en de Trompenburgstraat.
+
+      Het register beschrijft het gebouw als gaaf van buiten en van binnen. Een school is het niet meer: een zorgorganisatie gebruikt het. De toegang tot het terrein is bij Uiterwaardenstraat 60A.
+
+      Let op:
+      - donkerbruine houten panelen, op de onderste helft liggend en daarboven staand of schuin
+      - zeven brede witte raamkozijnen met afgeschuinde hoeken, één per lokaal
+      - het latwerk tussen de ramen, bedoeld voor klimplanten
+      - de blauwe voordeur in een brede witte omlijsting, onder een afdak op gele palen
+    attributes:
+      architect: Dienst der Publieke Werken met bureau Laurentius (Voorschoten)
+      original_use: Kleuterschool
+      check_note: Of de school te zien is vanuit de doorgang bij Uiterwaardenstraat 60A, en welke organisatie haar nu gebruikt, is niet bevestigd.
+    sources:
+      - city:222231 (redengevende omschrijving)
+      - https://nl.wikipedia.org/wiki/Finse_school
+
+- title: Zomerdijkstraat studio flats
+  summary: "Thirty-two studio flats on a steel frame, built in 1934 by three architects in their twenties for painters and sculptors. Gerrit van der Veen, Jan Wolkers and Charlotte van Pallandt worked behind these north windows."
+  body: |
+    From the Uiterwaardenstraat it looks like a factory: four floors of steel strip windows facing north. It is a block of artists' homes, by its historians' account the first purpose-built studio flats in the Netherlands, and the first job of three architects aged 27, 29 and 24: Piet Zanstra, Jan Giesen and Karel Sijmons. They started it on their own initiative and sold the idea with a lantern-slide lecture at the artists' society Arti et Amicitiae. The sculptor Hildo Krop became a driving force in the company that let the flats, and drove the last pile on 17 March 1934. The steel skeleton went up in less than two weeks. On 24 November the building opened with a show of the tenants' work in two studios that were still empty.
+
+    Sculptors got the ground floor, painters the floors above. A studio needs about four metres of height and a living room much less, so six floors of home on the south side sit against four floors of studio on the north.
+
+    The first tenant of no. 22 was the sculptor Gerrit van der Veen. He became a leader of the artists' resistance, took part in the attack on the Amsterdam population registry in 1943 and was shot at Overveen on 10 June 1944. Paul Grégoire and Jan Wolkers later had the same studio. The block was restored in 1990 and is still lived and worked in, so walk round the outside.
+
+    Look for:
+    - on the north side, the sculptors' studios pushed forward, each with double wooden doors and skylights
+    - the blind west wall with three round windows that stick out at an angle
+    - on the south side, the small steel balconies: their fronts unscrew, so that large works can leave the building
+    - front doors with arched tops and portholes
+    - the hoisting beams along the roof edge
+    - the plaque for Gerrit van der Veen by Fred Carasso at no. 22
+    - the family flats by the same architects at the east end (Zomerdijkstraat 2–14)
+  category: housing
+  lat: 52.342623
+  lng: 4.903758
+  address: Zomerdijkstraat 16-30
+  links:
+    - { label: Rijksmonumentenregister (335836), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/335836" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/1735f5ad-f2e3-47e9-8ac7-93c8f415fb11" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Atelierwoningen_Zomerdijkstraat" }
+    - { label: Geheugen van Plan Zuid, url: "https://www.geheugenvanplanzuid.nl/archief/architectuur/atelierwoningenzomerdijkstraat.htm" }
+    - { label: Wikipedia (en), url: "https://en.wikipedia.org/wiki/Zomerdijkstraat" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "335836"
+    built: "1934"
+    architect: Zanstra, Giesen and Sijmons
+    listed: 1988
+    original_use: Studio flats for artists, family flats and a shop
+  photos:
+    - commons:File:Atelierwoning noordzijde.jpg
+    - commons:File:Atlelierwoning zuidzijde.jpg
+  sources:
+    - rce:335836 (steel skeleton, six and five floors of homes against four of studios, sculptors below and painters above, double doors and skylights, west wall with three round windows, hoisting beams, arched doors with round windows, family flats at Zomerdijkstraat 2-14 and Uiterwaardenstraat 129-141, own initiative of the architects, 1934)
+    - https://nl.wikipedia.org/wiki/Atelierwoningen_Zomerdijkstraat (first of its kind in the Netherlands, ages of the architects, first project of the office, Krop and the letting company, 32 studio flats, monument since 1988, restoration 1990, residents)
+    - https://www.geheugenvanplanzuid.nl/archief/architectuur/atelierwoningenzomerdijkstraat.htm (after Mariëtte van Stralen's book; lecture at Arti, permit 6 February 1934, last pile by Krop 17 March, skeleton in under two weeks, opening 24 November 1934, balcony fronts that unscrew, studio height, Van der Veen first tenant of no. 22, Grégoire, Wolkers, Carasso's plaque)
+  nl:
+    title: Atelierwoningen Zomerdijkstraat
+    summary: "Tweeëndertig atelierwoningen op een staalskelet, in 1934 gebouwd door drie architecten van in de twintig voor schilders en beeldhouwers. Gerrit van der Veen, Jan Wolkers en Charlotte van Pallandt werkten achter deze ramen op het noorden."
+    body: |
+      Vanaf de Uiterwaardenstraat lijkt het een fabriek: vier lagen stalen strookramen op het noorden. Het is een blok kunstenaarswoningen, volgens de geschiedschrijvers van het gebouw de eerste atelierwoningen die in Nederland als zodanig zijn gebouwd, en de eerste opdracht van drie architecten van 27, 29 en 24 jaar: Piet Zanstra, Jan Giesen en Karel Sijmons. Ze begonnen er uit zichzelf aan en maakten reclame voor het plan met een lezing met lichtbeelden bij kunstenaarsvereniging Arti et Amicitiae. Beeldhouwer Hildo Krop werd een drijvende kracht in de maatschappij die de woningen verhuurde, en sloeg op 17 maart 1934 de laatste paal. Het staalskelet stond er in minder dan twee weken. Op 24 november ging het gebouw open met een tentoonstelling van werk van de bewoners, in twee ateliers die nog leeg stonden.
+
+      De beeldhouwers kregen de begane grond, de schilders de verdiepingen. Een atelier moet een meter of vier hoog zijn en een woonkamer veel minder; daarom liggen er aan de zuidkant zes woonlagen tegen vier atelierlagen aan de noordkant.
+
+      De eerste huurder van nummer 22 was beeldhouwer Gerrit van der Veen. Hij werd een leider van het kunstenaarsverzet, deed in 1943 mee aan de aanslag op het Amsterdamse bevolkingsregister en werd op 10 juni 1944 bij Overveen gefusilleerd. Later hadden Paul Grégoire en Jan Wolkers hetzelfde atelier. Het blok is in 1990 gerestaureerd en er wordt nog altijd gewoond en gewerkt: loop er dus buitenom.
+
+      Let op:
+      - aan de noordkant de naar voren geschoven beeldhouwersateliers, elk met dubbele houten deuren en ramen in het dak
+      - de blinde westgevel met drie ronde raampjes die er schuin uit steken
+      - aan de zuidkant de kleine stalen balkons: de voorkant kan eraf geschroefd worden, zodat groot werk het gebouw uit kan
+      - voordeuren met een boog erboven en een patrijspoort erin
+      - de hijsbalken langs de dakrand
+      - de plaquette voor Gerrit van der Veen van Fred Carasso bij nummer 22
+      - de gezinswoningen van dezelfde architecten aan de oostkant (Zomerdijkstraat 2-14)
+    attributes:
+      architect: Zanstra, Giesen en Sijmons
+      original_use: Atelierwoningen voor kunstenaars, gezinswoningen en een winkel
+    sources:
+      - rce:335836
+      - https://nl.wikipedia.org/wiki/Atelierwoningen_Zomerdijkstraat
+      - https://www.geheugenvanplanzuid.nl/archief/architectuur/atelierwoningenzomerdijkstraat.htm
+
+- title: Maranathakerk, the octagon with the tree mosaic
+  summary: "An eight-sided Reformed church of 1955 that locals nicknamed the bathhouse. The Protestants left, Catholics who could no longer afford their own church moved in, and since 2014 it has been a day nursery. The tile mosaic of two budding trees is still on the wall."
+  body: |
+    A church without a tower, on a plan with eight sides and under a copper tent roof: the neighbours called it the bathhouse. The Dutch Reformed congregation of the Rivierenbuurt had been preparing a church for this part of Plan Zuid since 1936. While it waited it held services in a school gym and, when needed, in the tram depot on the Kromme Mijdrechtstraat. The building by Johan Groenewegen and Hans Mieras finally came into use on 7 September 1955, on a plot that had stayed empty between the pre-war housing. Two years later an exhibition at the Stedelijk Museum showed it among the best examples of new church building.
+
+    What happened next is a short history of Dutch churchgoing. In 1999 most of the Reformed congregation moved out and the Catholic parish of St Thomas Aquinas moved in: it could no longer pay the raised ground rent on its own church in the Rijnstraat, which has since been demolished. The pulpit went and an altar came. In 2014 the Catholics left too, for a more modest place back on the Rijnstraat. The Flentrop organ was sold to a church in Ouderkerk aan den IJssel, and a childcare organisation moved into the building. It is not open to visitors, and what is worth seeing is on the outside.
+
+    Look for:
+    - the concrete frame that draws the eight sides, filled with red Groningen brick, alternately blind and glazed
+    - Raymond Both's tile mosaic (1956) on the north-east wall: two trees coming into leaf, after Luke 21:29
+    - the canopy over the main entrance, on brick piers
+    - the fish symbol (IXTHUS) on a post on the top of the roof
+    - the memorial stone of 25 September 1954
+  category: religious
+  lat: 52.342404
+  lng: 4.905155
+  address: Hunzestraat 85-87
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9ab2bdef-d511-496e-9a2b-6b3aff7b6f3f" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Maranathakerk_(Amsterdam)" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "222233"
+    built: 1954–1955
+    architect: Joh. H. Groenewegen and H. Mieras
+    artist: Raymond Both
+    listed: 2011
+    original_use: Dutch Reformed church
+  photos:
+    - commons:File:Mural Maranathakerk Amsterdam.jpg
+    - commons:File:2020 Maranathakerk Hunzestraat (4).jpg
+  sources:
+    - city:222233 (octagonal hall, preparations since 1936, permit January 1955, in use 7 September 1955, 1957 exhibition at the Stedelijk, Reformed congregation left March 1999, Catholic parish and the ground rent of the Rijnstraat church, refitting, concrete frame and Groningen brick, copper tent roof, IXTHUS, mosaic by Raymond Both after Luke 21, 29, entrance canopy on brick piers)
+    - https://nl.wikipedia.org/wiki/Maranathakerk_(Amsterdam) (nickname badhuis, services in a gym and the tram depot, memorial stone of 25 September 1954, mosaic set in 1956, Catholics 1999-2014, church in the Rijnstraat demolished, organ sold in 2014 to Ouderkerk aan den IJssel, childcare since)
+    - https://www.kleintjezuid.nl/contact (head office of the childcare organisation at Hunzestraat 89; read November 2026)
+  nl:
+    title: Maranathakerk, de achthoek met het bomenmozaïek
+    summary: "Een achthoekige hervormde kerk uit 1955 die in de buurt 'het badhuis' heette. De hervormden vertrokken, katholieken die hun eigen kerk niet meer konden betalen trokken erin, en sinds 2014 zit er kinderopvang. Het tegelmozaïek met twee uitbottende bomen zit nog op de muur."
+    body: |
+      Een kerk zonder toren, met acht zijden en een koperen tentdak: in de buurt heette ze het badhuis. De hervormde gemeente in de Rivierenbuurt was al sinds 1936 bezig met een kerk voor dit deel van Plan Zuid. Zolang die er niet was, kerkte ze in een gymzaal en zo nodig in de tramremise aan de Kromme Mijdrechtstraat. Het gebouw van Johan Groenewegen en Hans Mieras werd uiteindelijk op 7 september 1955 in gebruik genomen, op een stuk grond dat tussen de vooroorlogse woningen was blijven liggen. Twee jaar later hing het op een tentoonstelling in het Stedelijk Museum tussen de beste voorbeelden van nieuwe kerkbouw.
+
+      Wat daarna gebeurde, is een korte geschiedenis van het kerkbezoek in Nederland. In 1999 trok het grootste deel van de hervormde gemeente weg en kwam de katholieke parochie van de Heilige Thomas van Aquino erin: die kon de verhoogde erfpacht van haar eigen kerk aan de Rijnstraat niet meer opbrengen. Die kerk is later gesloopt. De preekstoel verdween, er kwam een altaar. In 2014 vertrokken ook de katholieken, naar een bescheidener plek aan de Rijnstraat. Het Flentrop-orgel werd verkocht aan een kerk in Ouderkerk aan den IJssel en er trok een organisatie voor kinderopvang in het gebouw. Je kunt er niet zomaar binnen, en wat de moeite waard is, zit aan de buitenkant.
+
+      Let op:
+      - het betonskelet dat de acht zijden aftekent, gevuld met rode Groninger baksteen, om en om dicht en met glas
+      - het tegelmozaïek van Raymond Both (1956) op de noordoostelijke wand: twee uitbottende bomen, naar Lucas 21:29
+      - de luifel boven de hoofdingang, op bakstenen pijlers
+      - het vissymbool (IXTHUS) op een staander op de punt van het dak
+      - de gedenksteen van 25 september 1954
+    attributes:
+      architect: Joh. H. Groenewegen en H. Mieras
+      original_use: Hervormde kerk
+    sources:
+      - city:222233 (redengevende omschrijving)
+      - https://nl.wikipedia.org/wiki/Maranathakerk_(Amsterdam)

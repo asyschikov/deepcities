@@ -58,9 +58,31 @@ Most of these and of "Status to confirm" are also flagged on the live map with t
 
 - A-list places found by the sweeps, kept off the map until the user decides what to do with A-list sights: Muziekgebouw aan 't IJ and the Bimhuis (Oost, SCOUT-3 item 228).
 
+## Zuid (added 2026-11-24)
+
+- 54 Zuid places carry a `check` flag and 9 an `outlook` flag; both are in the flag files
+  under `scripts/data/`. The ones a walk settles fastest: Lotty's bench (which bench), the
+  Giele Skull (exact grave), the station RAI clock, the German V at Diezestraat 29 to 31, the
+  six blackout house numbers, the Hilton lawn sculptures between ArtZuid editions, Valley's
+  public stairs, the Ravensbrück column at dusk, De wildplasser at ASV Arsenal.
+- Geelkerken: the West place "Parkkerk (Orgelpark)" says he was suspended in 1923, the Zuid
+  place "Schinkelkerk" dates the sermon to March 1924. Settle, then cross-reference the two.
+- Haarlemmermeerstation: add that the museum tram's start moved to the Jollenpad in July
+  2024, once confirmed.
+- Thomaskerk: did the architect pay for the Saura window himself, or part of it?
+- Ons Amsterdam was not read (robots.txt refuses automated readers). Titles that touch Zuid
+  are in `research/zuid/notes/r3-gaps.md`; someone with a browser should go through them.
+- Unresearched leads: the South Citroën building (Stadionplein 24 to 28), the three plaques
+  on the Han van Zomerenbrug, Amstelveenseweg 852 and 1086 to 1088 (old ribbon houses said
+  to await demolition), the stay-behind office at Van Eeghenstraat 78 (one source).
+- Parked A-list sights in Zuid (not imported): Rijksmuseum, Van Gogh Museum, Stedelijk
+  Museum, Concertgebouw, Museumplein, Heineken brewery, Albert Cuyp market, Moco Museum
+  (`research/zuid/A-LIST.md`).
+- Routes: ideas are in every `research/zuid/notes/*.md` under "Route ideas".
+
 ## Coverage plan
 
-- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord, Oost (round 1). Noord done. Zuid and Centrum: not now; the user will deal with them separately.
+- Done: West, Nieuw-West, Westpoort, Weesp, Zuidoost, Noord, Oost (round 1). Noord done. Zuid: complete for research 2026-11-24 (331 places, see `research/zuid/COVERAGE.md`). Centrum: not now; the user will deal with it separately.
 - Standard: every district gets the West-standard sweeps (see the c-list-sights skill): monuments, public art and walls, war and memory, hidden history, behind the gate, modern and contested, curiosities and green, loops, then a blind quality check against West. Track them in `research/<area>/COVERAGE.md`.
 - Research queue (one batch at a time so BrowserOS isn't overloaded):
   1. Oost round 2 (public art and walls; items 101–157): done 2026-11-23, 41 new places.

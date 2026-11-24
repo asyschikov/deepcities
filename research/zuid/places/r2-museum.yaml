@@ -1,0 +1,576 @@
+# Zuid round 2, slice r2-museum: scouted places in the Museumkwartier and Willemspark
+# (public art, war and memory, curiosities). Scout items 101, 102, 103, 104, 147, 148 (+201), 149,
+# 150, 203 and 252. Item 202 was already told in museum-b.yaml (see notes/r2-museum.md).
+
+# ================================================================ Public art and walls
+
+- title: "D.D.T.666: Dr. Rat's graffiti, kept like a fresco"
+  summary: A few white letters painted in 1978 by an 18-year-old punk, on a side wall in one of the city's smartest streets. It is among the oldest graffiti left in Amsterdam, and in 2022 the borough had it conserved by the restorers of Keith Haring.
+  body: |
+    The most carefully looked-after graffiti in Amsterdam is a few letters in white paint on a side wall in one of the city's most expensive neighbourhoods. In 1978 Ivar Vičs, eighteen and still at school, painted D.D.T. 666 here with a block brush, round the corner from his parents' house in the Nicolaas Maesstraat. The letters stood for Dirty Dutch Trix 666, the punk club he had helped to start on the Sarphatistraat. Somebody who had been thrown out of the club added MOET DOOD ("must die") underneath.
+
+    As Dr. Rat, Vičs became the first well-known graffiti writer in the country. He died in 1981, aged 21, of an overdose. Nearly everything he put on the city's walls has gone. This piece survived because a holly grew in front of it. That his father planted it after his death is a myth, as the city's own art register admits. What his mother did tell a newspaper is that her husband asked one of Ivar's friends to go over the letters again, so they would stay readable.
+
+    The holly was cut back in 2013. In 2022 the borough had the wall conserved as heritage by Antonio and Amarilla Rava, the restorers who also treated Keith Haring's mural at the Amsterdam wholesale market. It is on the street, visible at any time.
+
+    Look for:
+    - D.D.T. 666 in white, underlined, with streaks of red and blue if you get close
+    - MOET DOOD below it, in another hand
+    - the tags that later writers put around it out of respect, Delta, Curhz and Nuke among them, conserved along with it
+    - the thin trunks right in front of the wall: stand at an angle
+  category: street-art
+  lat: 52.354103
+  lng: 4.878617
+  address: Hondecoeterstraat, side wall of Nicolaas Maesstraat 109
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2541" }
+    - { label: Wikipedia (nl) DDT666, url: "https://nl.wikipedia.org/wiki/DDT666" }
+    - { label: Wikipedia (nl) Ivar Vičs, url: "https://nl.wikipedia.org/wiki/Ivar_Vi%C4%8Ds" }
+    - { label: Dutch Graffiti Library on the restoration, url: "https://dutch-graffiti-library.nl/stories/drrat_ddt666/" }
+    - { label: Het Parool (2013), url: "https://www.parool.nl/nieuws/oergraffiti-dr-rat-weer-zichtbaar~b0daf77f/" }
+  attributes:
+    rank: Nice
+    built: "1978"
+    artist: Ivar Vičs (Dr. Rat)
+  photos:
+    - commons:File:2022 DDT 666-Dr Rat (3).jpg
+    - commons:File:2022 DDT 666-Dr Rat (4).jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2541 (Kunstwacht record 2541, age 18, club, MOET DOOD, holly myth, conservation 2022 by the Rava family)
+    - https://nl.wikipedia.org/wiki/DDT666 (1978, 2013 pruning, 2022 restoration, coordinates)
+    - https://nl.wikipedia.org/wiki/Ivar_Vi%C4%8Ds (21 May 1960 to 29 June 1981, rat's head in felt-tip)
+    - https://dutch-graffiti-library.nl/stories/drrat_ddt666/ (block brush, founders of the club, tags by Delta, Curhz and Nuke, Rava and Keith Haring; June 2022)
+    - https://www.parool.nl/nieuws/oergraffiti-dr-rat-weer-zichtbaar~b0daf77f/ (21 September 2013, holly pruned, parents' house in the Nicolaas Maesstraat, mother on the repainting, red and blue streaks)
+    - PDOK reverse geocoding (the wall belongs to Nicolaas Maesstraat 109)
+  nl:
+    title: "D.D.T.666: de graffiti van Dr. Rat, bewaard als een fresco"
+    summary: Een paar witte letters, in 1978 gekalkt door een punker van achttien, op een zijmuur in een van de deftigste straten van de stad. Het is een van de oudste graffiti die Amsterdam nog heeft, en in 2022 liet het stadsdeel ze conserveren door de restauratoren van Keith Haring.
+    body: |
+      De best verzorgde graffiti van Amsterdam bestaat uit een paar letters in witte verf op een zijmuur in een van de duurste buurten van de stad. In 1978 zette Ivar Vičs, achttien en nog scholier, hier met een blokkwast D.D.T. 666 op de muur, om de hoek van zijn ouderlijk huis in de Nicolaas Maesstraat. De letters stonden voor Dirty Dutch Trix 666, de punkclub aan de Sarphatistraat die hij mee had opgericht. Iemand die uit de club was gezet, kalkte er MOET DOOD onder.
+
+      Als Dr. Rat werd Vičs de eerste bekende graffitischrijver van het land. Hij stierf in 1981, 21 jaar oud, aan een overdosis. Van wat hij op de muren van de stad zette, is bijna alles verdwenen. Dit stuk bleef gespaard omdat er een hulst voor groeide. Dat zijn vader die na zijn dood zou hebben geplant, is een mythe, zo geeft ook het kunstregister van de gemeente toe. Wat zijn moeder wel aan een krant vertelde: haar man vroeg een vriend van Ivar om de letters nog eens over te schilderen, zodat ze leesbaar bleven.
+
+      In 2013 werd de hulst flink teruggesnoeid. In 2022 liet het stadsdeel de muur als erfgoed conserveren door Antonio en Amarilla Rava, de restauratoren die ook de muurschildering van Keith Haring bij de Centrale Markthallen onder handen namen. Het werk zit aan de straat en is altijd te zien.
+
+      Let op:
+      - D.D.T. 666 in wit, onderstreept, met van dichtbij nog strepen rood en blauw
+      - daaronder MOET DOOD, in een ander handschrift
+      - de tags die latere schrijvers er uit respect omheen zetten, onder wie Delta, Curhz en Nuke, en die mee zijn geconserveerd
+      - de dunne stammetjes pal voor de muur: ga er schuin voor staan
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2541
+      - https://nl.wikipedia.org/wiki/DDT666
+      - https://www.parool.nl/nieuws/oergraffiti-dr-rat-weer-zichtbaar~b0daf77f/
+
+- title: "In den bescherfden Schuyt: the mosaic transformer house"
+  summary: A six-sided transformer house that the neighbours wanted gone, until Fabrice Hünd began covering it in mosaic in 2012, uninvited and at his own cost. In it are shards from building pits, a neighbour's antique beads and a boy's shell collection.
+  body: |
+    Nobody loved the six-sided transformer house on this corner. It was tired brick hung with advertising boards, and neighbours and shopkeepers wanted nothing more than to see it go. In the summer of 2012 the painter Fabrice Hünd, who grew up around the Vondelpark, started covering it in mosaic. Nobody had commissioned it: he paid for it himself, helped by an unexpected gift from an old friend. Four months later the street had adopted the thing as its own.
+
+    Hünd called these works megamozaïeken, and this was his fourth. The title, in mock old Dutch like the name on a gable stone, plays on the street: the house stands on the corner of the Cornelis Schuytstraat and is covered in scherven (shards). The shards are the point. Hünd collected everything, and in the mosaic are finds from Amsterdam building pits, marble from a rebuilt bathroom, antique beads brought round by a neighbour, and the shell collection of a small boy from the area, who stuck them on himself. Somewhere is a shard with a tiny windmill on it: Hünd promised a drawing to whoever found the smallest one.
+
+    He died on the last day of 2021. His mosaic on the Hoofddorpplein had gone the year before, when the transformer house there was demolished. This one stands, on the pavement, and you can walk round it at any time.
+
+    Look for:
+    - the big face with green eyes on the side facing the crossing
+    - the name FABRICE, worked into the top edge
+    - shells and beads between the tile shards
+    - the hexagon itself: the city's art register knows hardly another transformer house of this shape
+  category: street-art
+  lat: 52.356093
+  lng: 4.870577
+  address: Willemsparkweg at the Cornelis Schuytstraat (by no. 166)
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2510" }
+    - { label: Wikipedia (nl) Fabrice Hünd, url: "https://nl.wikipedia.org/wiki/Fabrice_H%C3%BCnd" }
+    - { label: Documentary Schilderen met scherven (Vimeo), url: "https://vimeo.com/76034209" }
+    - { label: NH Nieuws on transformer houses (2024), url: "https://www.nhnieuws.nl/nieuws/336767/amsterdamse-elektriciteitshuisjes-moeten-vanaf-nu-mooi-zijn-passend-bij-de-wijk" }
+  attributes:
+    rank: Nice
+    built: "2012"
+    artist: Fabrice Hünd
+  photos:
+    - commons:File:Fabrice Hünd In den bescherfden Schuyt 2012 2015.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2510 (Kunstwacht record 2510, own initiative and money, hexagon, advertising boards, four months in summer, the materials, the windmill shard, fourth megamozaïek)
+    - https://nl.wikipedia.org/wiki/Fabrice_H%C3%BCnd (1961 to 31 December 2021, grew up around the Vondelpark, list of megamozaïeken with years, Hoofddorpplein removed 2020, documentary of 2013)
+    - https://www.nhnieuws.nl/nieuws/336767/amsterdamse-elektriciteitshuisjes-moeten-vanaf-nu-mooi-zijn-passend-bij-de-wijk (3 June 2024, shown as an example that stands)
+    - Commons photo of 2015 (face, signature)
+  nl:
+    title: "In den bescherfden Schuyt: het transformatorhuisje vol mozaïek"
+    summary: Een zeshoekig transformatorhuisje waar de buurt vanaf wilde, tot Fabrice Hünd het in 2012 ongevraagd en op eigen kosten met mozaïek begon te beplakken. Er zitten scherven uit bouwputten in, antieke kralen van een buurvrouw en de schelpen van een jongetje.
+    body: |
+      Niemand hield van het zeshoekige transformatorhuisje op deze hoek. Vermoeide baksteen, behangen met reclameborden: buurtbewoners en winkeliers zagen het het liefst verdwijnen. In de zomer van 2012 begon Fabrice Hünd, schilder en opgegroeid rond het Vondelpark, het met mozaïek te beplakken. Een opdracht was er niet. Hij betaalde het zelf, met een onverwachte bijdrage van een oude vriend. Vier maanden later had de buurt het huisje omarmd als haar eigen kunstwerk.
+
+      Megamozaïeken noemde Hünd deze werken, en dit was zijn vierde. De titel, in namaak-oud-Hollands zoals op een gevelsteen, speelt met de plek: het huisje staat op de hoek van de Cornelis Schuytstraat en zit onder de scherven. Om die scherven gaat het. Hünd verzamelde alles, en in het mozaïek zitten vondsten uit Amsterdamse bouwputten, marmer uit een verbouwde badkamer, antieke kralen die een buurvrouw kwam brengen en de schelpenverzameling van een jongetje uit de buurt, dat ze er zelf in heeft geplakt. Ergens zit een scherf met een piepklein molentje: wie de kleinste vond, kreeg van Hünd een tekening beloofd.
+
+      Hij overleed op de laatste dag van 2021. Zijn mozaïek op het Hoofddorpplein was een jaar eerder verdwenen, toen het transformatorhuisje daar werd gesloopt. Dit staat er nog, op de stoep, en je kunt er altijd omheen lopen.
+
+      Let op:
+      - het grote gezicht met groene ogen aan de kant van de kruising
+      - de naam FABRICE, verwerkt in de bovenrand
+      - schelpen en kralen tussen de tegelscherven
+      - de zeshoek zelf: volgens het kunstregister van de stad is er nauwelijks een tweede transformatorhuisje met die vorm
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2510
+      - https://nl.wikipedia.org/wiki/Fabrice_H%C3%BCnd
+      - https://www.nhnieuws.nl/nieuws/336767/amsterdamse-elektriciteitshuisjes-moeten-vanaf-nu-mooi-zijn-passend-bij-de-wijk
+
+- title: "Groep A'dam on the Emmaplein: sculptures back from the depot"
+  summary: Six post-war sculptures in the garden of a villa square. Most stood on or near the Museumplein until its redesign sent them into storage. Residents tracked them down one by one. One was pulled out of a demolition skip in 2020.
+  body: |
+    Six modern sculptures stand in the garden of this quiet villa square, and most of them were lost before they got here. Their makers belonged to Groep A'dam: five sculptors who at the end of the 1950s broke with the powerful Dutch sculptors' circle because they wanted to work more freely. They were Wessel Couzijn, Carel Kneulman, Ben Guntenaar, Hans Verhulst and the Japanese-American Shinkichi Tajiri. The name stood for Amsterdam and for Adam, the first man. Without Eve, they added. The sixth work is by Pearl Perlmuter, Couzijn's wife, who was never a member.
+
+    Several of them had work on or near the Museumplein, which went into storage when that square was redesigned in 1997. A resident of the Emmaplein heard about it from Perlmuter herself, a friend of the family, and proposed bringing her bronze here. It came in 1998. From 2016 the residents' association went looking for the rest. Kneulman's Zonnehoofd turned up under a motorway viaduct in Rotterdam, where orphaned statues are kept. Verhulst's Drie Gestalten was fished out of a demolition skip by his son in the spring of 2020. The last two works arrived in the summer of 2021.
+
+    The garden is public and always open. This place is pinned on Couzijn's Afrika ontwaakt.
+
+    Look for:
+    - Afrika ontwaakt (Couzijn, 1961): a spiky bronze reaching upwards, for years in the garden of the Stedelijk Museum
+    - Verschijning (Perlmuter, 1963): ragged sheets of bronze on little legs
+    - Zonnehoofd (Kneulman, 1962): a head as in a child's drawing, with the word aarde (earth) and spirals scratched into the bronze
+    - Leda en de zwaan (Guntenaar, 1955): the only stone one
+    - Fetish (Tajiri, 1960) and Drie Gestalten (Verhulst, 1966)
+    - at the south end of the garden: Queen Emma in her armchair, a separate place on this map
+  category: street-art
+  lat: 52.354403
+  lng: 4.862822
+  address: Emmaplein
+  links:
+    - { label: Buitenkunst Amsterdam (Groep A'dam), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam" }
+    - { label: Het Parool (2019), url: "https://www.parool.nl/nieuws/groep-a-dam-maakt-van-emmaplein-een-beeldentuin~b8779f07/" }
+  attributes:
+    rank: Nice
+    built: 1955–1966, placed here 1998–2021
+    artist: Wessel Couzijn, Carel Kneulman, Ben Guntenaar, Hans Verhulst, Shinkichi Tajiri, Pearl Perlmuter
+  photos:
+    - commons:File:1. Wessel Couzijn. Afrika Ontwaakt 1961.jpg
+    - commons:File:2020 Zonnehoofd (Carel Kneulman) (1).jpg
+    - commons:File:Amsterdam Emmaplein Tajiri.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526 (Kunstwacht records 2526 to 2530, 1919 and 2523, the break with the Nederlandse Kring van Beeldhouwers, Adam without Eve, Perlmuter placed 1998, works per sculpture, the skip in spring 2020)
+    - https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam (years of the works, Stedelijk garden, summer 2021)
+    - https://www.parool.nl/nieuws/groep-a-dam-maakt-van-emmaplein-een-beeldentuin~b8779f07/ (30 December 2019, how it began in 1998, the search from 2016, Kleinpolderplein, unveiling of 19 December 2019)
+    - OpenStreetMap (position of Afrika ontwaakt)
+  nl:
+    title: "Groep A'dam op het Emmaplein: beelden terug uit het depot"
+    summary: Zes naoorlogse beelden in het plantsoen van een villaplein. De meeste stonden op of bij het Museumplein, tot de herinrichting ze naar het depot stuurde. Bewoners spoorden ze een voor een op. Eén kwam in 2020 uit een sloopcontainer.
+    body: |
+      In het plantsoen van dit stille villaplein staan zes moderne beelden, en de meeste waren zoek voordat ze hier terechtkwamen. De makers hoorden bij Groep A'dam: vijf beeldhouwers die eind jaren vijftig braken met de machtige Nederlandse Kring van Beeldhouwers omdat ze vrijer wilden werken. Het waren Wessel Couzijn, Carel Kneulman, Ben Guntenaar, Hans Verhulst en de Japans-Amerikaanse Shinkichi Tajiri. De naam verwees naar Amsterdam en naar Adam, de eerste mens. Zonder Eva, zeiden ze erbij. Het zesde beeld is van Pearl Perlmuter, de vrouw van Couzijn. Lid was ze nooit.
+
+      Van een aantal van hen stond werk op of bij het Museumplein. Toen dat plein in 1997 op de schop ging, verdween het in depots. Een bewoner van het Emmaplein hoorde dat van Perlmuter zelf, een vriendin des huizes, en stelde voor haar brons hierheen te halen. Dat gebeurde in 1998. Vanaf 2016 ging de bewonersvereniging op zoek naar de rest. Het Zonnehoofd van Kneulman dook op onder een snelwegviaduct in Rotterdam, waar verweesde beelden worden bewaard. De Drie Gestalten van Verhulst viste zijn zoon in het voorjaar van 2020 uit een sloopcontainer. In de zomer van 2021 kwamen de laatste twee beelden erbij.
+
+      Het plantsoen is openbaar en altijd open. De speld staat op Afrika ontwaakt van Couzijn.
+
+      Let op:
+      - Afrika ontwaakt (Couzijn, 1961): een puntig brons dat omhoog grijpt, jarenlang in de tuin van het Stedelijk Museum
+      - Verschijning (Perlmuter, 1963): rafelige flarden brons op pootjes
+      - Zonnehoofd (Kneulman, 1962): een koppoter als uit een kindertekening, met het woord aarde en spiralen in het brons gekrast
+      - Leda en de zwaan (Guntenaar, 1955): het enige beeld van steen
+      - Fetish (Tajiri, 1960) en Drie Gestalten (Verhulst, 1966)
+      - aan de zuidkant van het plantsoen: koningin Emma in haar leunstoel, een eigen plek op deze kaart
+    attributes:
+      built: 1955–1966, hier geplaatst 1998–2021
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2526
+      - https://nl.wikipedia.org/wiki/Beeldentuin_op_het_Emmaplein,_Groep_A%27dam
+      - https://www.parool.nl/nieuws/groep-a-dam-maakt-van-emmaplein-een-beeldentuin~b8779f07/
+
+- title: Descartes by a silversmith (Johannes Vermeerplein)
+  summary: A stone Descartes carved by Jean Puiforcat, the silversmith of Parisian Art Deco, for the Paris World Fair of 1937. The French ambassador gave it to Amsterdam in 1948, when the French institute on the Museumplein turned fifteen.
+  body: |
+    On a small square behind the Concertgebouw stands a philosopher made by a man who was famous for his tea services. Jean Puiforcat (1897–1945) was the silversmith of Parisian Art Deco, known for smooth, geometric table silver; stone statues by him are rare. He carved this stylised René Descartes for the Pavillon de la Pensée (the pavilion of thought) at the Paris World Fair of 1937.
+
+    In 1948 the French ambassador gave the statue to the city of Amsterdam, because the Maison Descartes was fifteen years old. That French cultural institute then sat in a villa on the Museumplein, a few minutes' walk from here. The choice of thinker made sense: Descartes lived in the Dutch Republic from 1628 to 1649, part of that time in Amsterdam. On the front of his house at Westermarkt 6 is his question in which other country one could enjoy such complete freedom.
+
+    The statue stands in the greenery of the square and can be seen at any time.
+
+    Look for:
+    - the book he presses to his chest with crossed arms
+    - the robe that falls in straight folds and ends in rough, uncut stone
+    - the long hair round a face of a few lines, more Art Deco than seventeenth century
+  category: curiosities
+  lat: 52.355478
+  lng: 4.883419
+  address: Johannes Vermeerplein
+  links:
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1913" }
+    - { label: Wikipedia (en) Jean Puiforcat, url: "https://en.wikipedia.org/wiki/Jean_Puiforcat" }
+    - { label: Wikipedia (nl) list of sculptures in Zuid, url: "https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Zuid" }
+  attributes:
+    rank: Okay
+    built: 1937, placed 1948
+    artist: Jean Puiforcat
+  photos:
+    - commons:File:Statue of René Descartes by Jean Puiforcat.jpg
+    - commons:File:Amsterdam kunstwerk descarte.jpg
+  sources:
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1913 (Kunstwacht record 1913, limestone, book, robe into uncut stone, Pavillon de la Pensée 1937, gift of 1948 for fifteen years of the Maison Descartes, Westermarkt 6)
+    - https://en.wikipedia.org/wiki/Jean_Puiforcat (silversmith, Art Deco, geometric silver; photo of this statue dated 1937)
+    - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Zuid (dates the placing to 1949)
+    - research/zuid/places/museum-c.yaml, place on Museumplein 11–17 (Maison Descartes at Museumplein 11, 1933 to 1971)
+    - OpenStreetMap (position of the statue)
+  nl:
+    title: Descartes van een zilversmid (Johannes Vermeerplein)
+    summary: Een stenen Descartes, gehakt door Jean Puiforcat, de zilversmid van de Parijse art deco, voor de wereldtentoonstelling van 1937. De Franse ambassadeur schonk hem in 1948 aan Amsterdam, toen het Franse instituut aan het Museumplein vijftien jaar bestond.
+    body: |
+      Op een pleintje achter het Concertgebouw staat een filosoof, gemaakt door een man die beroemd was om zijn theeserviezen. Jean Puiforcat (1897–1945) was dé zilversmid van de Parijse art deco, bekend van strak, meetkundig tafelzilver; stenen beelden van zijn hand zijn zeldzaam. Deze gestileerde René Descartes hakte hij voor het Pavillon de la Pensée, het paviljoen van het denken, op de Parijse wereldtentoonstelling van 1937.
+
+      In 1948 schonk de Franse ambassadeur het beeld aan de gemeente Amsterdam, omdat het Maison Descartes vijftien jaar bestond. Dat Franse culturele instituut zat toen in een villa aan het Museumplein, een paar minuten lopen hiervandaan. De keuze voor deze denker lag voor de hand: Descartes woonde van 1628 tot 1649 in de Republiek, een deel van die tijd in Amsterdam. Op de gevel van zijn huis aan de Westermarkt 6 staat zijn vraag in welk ander land je zo'n volkomen vrijheid kunt genieten.
+
+      Het beeld staat in het groen van het pleintje en is altijd te zien.
+
+      Let op:
+      - het boek dat hij met gekruiste armen tegen zijn borst drukt
+      - het gewaad dat in rechte plooien naar beneden valt en onderaan overgaat in ruwe, onbewerkte steen
+      - het lange haar rond een gezicht van een paar lijnen, eerder art deco dan zeventiende eeuw
+    attributes:
+      built: 1937, geplaatst 1948
+    sources:
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1913
+      - https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Zuid
+
+# ================================================================ War and memory
+
+- title: "Two memorials on the Museumplein: Ravensbrück and Hel van vuur"
+  summary: Thousands cross the square without seeing them. A steel column built to send out light and sound, for the women of Ravensbrück (1975), and a bronze family fleeing a wall of fire, one of the first monuments anywhere for the murdered Sinti and Roma (1978).
+  body: |
+    Thousands cross the Museumplein every day and walk past two memorials for people who were long left out of the story of the war.
+
+    The first looks like abstract art: a steel column 3.4 metres high in a half circle of eleven steel panels, each taller than the last. It is for the women of Ravensbrück, the concentration camp for women north of Berlin, where many Dutch women were sent for resistance work. Seven survivors unveiled it on 25 April 1975. The column was built to send out light and sound, which the panels catch and throw back: a light that swells and fades into a rush of noise, for the women who did not return, and a circling flash with a knocking sound, for those who did. Then a moment of silence.
+
+    Some 70 metres on, towards the Van Baerlestraat, a bronze man, woman and children run from flames that rise behind them. Hel van vuur (hell of fire) is for the murdered Sinti and Roma. The sculptor Heleen Levano asked Koko Petalo, the leader of the Dutch Roma, what stood for danger. "Fire," he said. He unveiled it on 25 November 1978. From the Netherlands 245 Sinti and Roma were sent to Auschwitz after a round-up by Dutch police on 16 May 1944. Each year on 1 August Sinti and Roma gather here to remember their dead.
+
+    Both stand on the open square. This place is pinned on the Ravensbrück monument.
+
+    Look for:
+    - inside one panel: "Voor haar die tot het uiterste neen bleven zeggen tegen het fascisme" (for the women who went on saying no to fascism to the very end)
+    - on the base of Hel van vuur: a line from a Roma prayer for the dead, in Romani and in Dutch
+    - the base speaks of "millions" of dead; nobody knows the number, and estimates start at a quarter of a million
+    - at the Van Baerlestraat end of the square, the "ezelsoor" (dog-ear, literally donkey's ear): a corner of the lawn tilted up in the redesign of 1999, with the entrances to the car park and the underground supermarket beneath it
+  category: hidden-history
+  lat: 52.356960
+  lng: 4.882248
+  address: Museumplein, east side, opposite the Teniersstraat
+  links:
+    - { label: 4en5mei.nl (Vrouwen van Ravensbrück), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1439/amsterdam-vrouwen-van-ravensbr" }
+    - { label: 4en5mei.nl (Zigeunermonument), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1440/amsterdam-zigeunermonument" }
+    - { label: Wikipedia (nl) Vrouwen van Ravensbrück, url: "https://nl.wikipedia.org/wiki/Vrouwen_van_Ravensbr%C3%BCck_1940-1945" }
+    - { label: Wikipedia (nl) Hel en vuur, url: "https://nl.wikipedia.org/wiki/Zigeunermonument_Hel_en_vuur" }
+    - { label: Buitenkunst Amsterdam (Ravensbrück), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1894" }
+    - { label: Buitenkunst Amsterdam (Hel van vuur), url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1977" }
+  attributes:
+    rank: Nice
+    built: 1975 and 1978
+    artist: Joost van Santen, Frank Nix and Guido Eckhardt (Ravensbrück); Heleen Levano (Hel van vuur)
+    check: Facts
+    check_note: Whether the Ravensbrück column still sends out its light and sound signals is not confirmed; best judged at dusk.
+  photos:
+    - commons:File:Amsterdam - Vrouwen van Ravensbrück - 1.jpg
+    - commons:File:Zigeunermonument Hel en vuur Amsterdam01.jpg
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1439/amsterdam-vrouwen-van-ravensbr (form, texts, the two signals, moved 1996, plaque replaced 2002 because the numbers were wrong, former prisoners' committee)
+    - https://nl.wikipedia.org/wiki/Vrouwen_van_Ravensbr%C3%BCck_1940-1945 (3.40 m, eleven panels, 1972, seven survivors and mayor Samkalden, first site by the Van Gogh Museum, where the texts are)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1440/amsterdam-zigeunermonument (texts on the base, Levano's account, 16 May 1944, 245 deported, estimates of a quarter to one and a half million, 1 August)
+    - https://nl.wikipedia.org/wiki/Zigeunermonument_Hel_en_vuur (unveiled 25 November 1978 by Koko Petalo, second monument after the boulder in Vledder)
+    - https://irk-cir.org/en/articles/164 (commemoration at the Ravensbrück monument, April 2026)
+    - OpenStreetMap (positions; the two are about 72 m apart)
+  nl:
+    title: "Twee monumenten op het Museumplein: Ravensbrück en Hel van vuur"
+    summary: Duizenden steken het plein over zonder ze te zien. Een stalen zuil die licht en geluid moet uitzenden, voor de vrouwen van Ravensbrück (1975), en een bronzen gezin op de vlucht voor een vuurzee, een van de eerste monumenten ter wereld voor de vermoorde Sinti en Roma (1978).
+    body: |
+      Elke dag steken duizenden mensen het Museumplein over, langs twee gedenktekens voor mensen die lang buiten het verhaal van de oorlog bleven.
+
+      Het eerste lijkt abstracte kunst: een stalen zuil van 3,40 meter in een halve cirkel van elf stalen platen, elk hoger dan de vorige. Het is voor de vrouwen van Ravensbrück, het concentratiekamp voor vrouwen ten noorden van Berlijn, waar veel Nederlandse vrouwen om hun verzetswerk terechtkwamen. Zeven overlevenden onthulden het op 25 april 1975. De zuil is gebouwd om licht en geluid uit te zenden, dat door de platen wordt opgevangen en teruggekaatst: een licht dat aanzwelt en dooft en overgaat in ruis, voor de vrouwen die niet terugkwamen, en een rondgaande flits met een kloppend geluid, voor wie het overleefde. Daarna een ogenblik stilte.
+
+      Een meter of zeventig verder, richting Van Baerlestraat, rennen een bronzen man, een vrouw en kinderen weg voor vlammen die achter hen oplaaien. Hel van vuur is er voor de vermoorde Sinti en Roma. Beeldhouwster Heleen Levano vroeg aan Koko Petalo, de voorman van de Nederlandse Roma, wat voor hen het teken van gevaar is. 'Vuur', zei hij. Hij onthulde het beeld op 25 november 1978. Uit Nederland zijn 245 Sinti en Roma naar Auschwitz gevoerd, na een razzia door de Nederlandse politie op 16 mei 1944. Elk jaar op 1 augustus komen Sinti en Roma hier bijeen om hun doden te herdenken.
+
+      Beide staan vrij op het plein. De speld staat op het Ravensbrückmonument.
+
+      Let op:
+      - aan de binnenkant van een van de platen: 'Voor haar die tot het uiterste neen bleven zeggen tegen het fascisme'
+      - op de sokkel van Hel van vuur: een regel uit een dodengebed van de Roma, in het Romani en in het Nederlands
+      - de sokkel spreekt van 'miljoenen' doden; niemand kent het aantal, en schattingen beginnen bij een kwart miljoen
+      - aan de kant van de Van Baerlestraat het 'ezelsoor': een hoek van het gras die bij de herinrichting van 1999 schuin omhoog is gezet, met de ingangen van de parkeergarage en de ondergrondse supermarkt eronder
+    attributes:
+      built: 1975 en 1978
+      artist: Joost van Santen, Frank Nix en Guido Eckhardt (Ravensbrück); Heleen Levano (Hel van vuur)
+      check_note: Of de zuil van het Ravensbrückmonument nog licht en geluid uitzendt, is niet bevestigd; het beste te beoordelen in de schemering.
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1439/amsterdam-vrouwen-van-ravensbr
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1440/amsterdam-zigeunermonument
+      - https://nl.wikipedia.org/wiki/Vrouwen_van_Ravensbr%C3%BCck_1940-1945
+      - https://nl.wikipedia.org/wiki/Zigeunermonument_Hel_en_vuur
+
+- title: The mirror at the Vondelpark gate (Van Eeghenstraat)
+  summary: "\"Sobibor began in the Vondelpark. With a sign: Forbidden for Jews,\" the King said in 2020. The sign hung on the lamp post at this gate. Since 2021 a mirror hangs there, with a question."
+  body: |
+    On 4 May 2020 the King gave his remembrance speech on an empty Dam square, and one sentence stuck: "Sobibor began in the Vondelpark. With a sign: Forbidden for Jews." He meant it as a figure of speech, the first small step on a road that ended in the death camps. But the sign was real, and it hung here. A photograph in the city archive shows it on the lamp post in front of this gate.
+
+    An Amsterdam entrepreneur, Niels van Deuren, heard the speech and wanted the spot marked. A year later, with the city's 4 and 5 May committee and the borough, it was: a mirror on the lamp post and a steel text panel beside it, unveiled on 4 May 2021. You look into the mirror at the place where the sign hung and read the question the panel ends with: are you looking away? The title, "Sobibor. Wat doe jij?" (what do you do?), comes from a poem that the resistance man Gerrit van der Veen published in an underground paper in March 1944. More than 34,000 people were deported from the Netherlands to Sobibor in 1943; eighteen lived to see the end of the war. They are remembered here every year on 1 June.
+
+    Look for:
+    - the mirror on the lamp post in front of the gate
+    - the steel panel beside it, with the King's sentence at the top
+  category: hidden-history
+  lat: 52.357547
+  lng: 4.871939
+  address: Van Eeghenstraat, park entrance beside no. 78
+  links:
+    - { label: 4en5mei.nl, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4521/amsterdam-sobib" }
+    - { label: 4 en 5 mei Amsterdam on the sign, url: "https://4en5meiamsterdam.nl/bord-vondelpark/" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Sobib%C3%B3r-Wat_doe_jij%3F" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2532" }
+  attributes:
+    rank: Okay
+    built: "2021"
+  photos:
+    - commons:File:2021 Sobibor-Wat doe jij (3).jpg
+    - commons:File:2021 Sobibor-Wat doe jij (1).jpg
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4521/amsterdam-sobib (text of the panel, unveiled 4 May 2021, Van der Veen's poem, 19 trains, more than 34,000 deported, eighteen survivors, 1 June commemoration)
+    - https://4en5meiamsterdam.nl/bord-vondelpark/ (the speech, the sign at this entrance, initiative)
+    - https://vriendenvanhetvondelpark.nl/sobibor-wat-doe-jij-voor-joden-verboden/ (press release of 1 May 2021, the empty Dam)
+    - https://nl.wikipedia.org/wiki/Sobib%C3%B3r-Wat_doe_jij%3F (sign on the lamp post in front of the gate, city archive photo, mirror on the lamp post, coordinates)
+  nl:
+    title: De spiegel bij het hek van het Vondelpark (Van Eeghenstraat)
+    summary: "'Sobibor begon in het Vondelpark. Met een bordje: Voor Joden verboden', zei de koning in 2020. Dat bordje hing aan de lantaarnpaal bij dit hek. Sinds 2021 hangt er een spiegel, met een vraag."
+    body: |
+      Op 4 mei 2020 hield de koning zijn toespraak bij de Dodenherdenking op een lege Dam, en één zin bleef hangen: 'Sobibor begon in het Vondelpark. Met een bordje: Voor Joden verboden.' Hij bedoelde het als beeldspraak, de eerste kleine stap op een weg die in de vernietigingskampen eindigde. Maar het bordje heeft echt bestaan, en het hing hier. Op een foto in het Stadsarchief zit het aan de lantaarnpaal voor dit hek.
+
+      Een Amsterdamse ondernemer, Niels van Deuren, hoorde de toespraak en vond dat de plek gemarkeerd moest worden. Een jaar later was het zover, samen met het Amsterdams 4 en 5 mei comité en het stadsdeel: een spiegel aan de lantaarnpaal en een roestvrijstalen tekstbord ernaast, onthuld op 4 mei 2021. Je kijkt in de spiegel naar de plek waar het bordje hing en leest de vraag waarmee het bord eindigt: kijk jij weg? De titel, 'Sobibor. Wat doe jij?', komt uit een gedicht dat verzetsman Gerrit van der Veen in maart 1944 in een illegaal blad zette. In 1943 zijn ruim 34.000 mensen uit Nederland naar Sobibor gedeporteerd; achttien van hen beleefden het einde van de oorlog. Elk jaar op 1 juni worden ze hier herdacht.
+
+      Let op:
+      - de spiegel aan de lantaarnpaal voor het hek
+      - het stalen bord ernaast, met bovenaan de zin van de koning
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4521/amsterdam-sobib
+      - https://4en5meiamsterdam.nl/bord-vondelpark/
+      - https://vriendenvanhetvondelpark.nl/sobibor-wat-doe-jij-voor-joden-verboden/
+
+- title: The stone with a name chiselled off (Amstelveenseweg, May 1945)
+  summary: Five resistance men died here in gunfights with German soldiers on 6 and 7 May 1945, after the surrender. The stone of 1946 names four. The fifth name was hacked away under the cover, minutes before the unveiling.
+  body: |
+    When the cover was about to come off this memorial on 25 May 1946, the crowd could hear hammering and chiselling underneath it. One of the five names on the stone was being removed. Word had just got round that the man had worked for the German army early in the occupation. His widow was held back at the barrier.
+
+    The stone, set in the fence of the Vondelpark, is for men of the Binnenlandse Strijdkrachten (BS, the army of the resistance) who died here after the German surrender. The capitulation was announced on the evening of 4 May 1945, but the Canadians reached Amsterdam only on the 8th. In between, about twenty BS men from the neighbourhood moved into the shed of a blanket factory across the road and began disarming German soldiers. Early on 6 May a firefight with a German lorry at the corner of the Zocherstraat killed one of them. On 7 May, the day of the shooting on the Dam, German soldiers stormed the shed to free arrested comrades, and late that afternoon a soldier in a stopped army bus grabbed a machine gun. Five BS men died, one of them weeks later in hospital.
+
+    The fifth man, Jacob de Bruyne, a rope maker of 36, had joined the resistance in 1944. Nobody there knew his past. That he collaborated was never proven, says the plaque put up beside the stone in 2013. A remembrance is held here every 4 May.
+
+    Look for:
+    - the text "Op den 7en mei 1945 vielen hier voor de vrijheid van ons land" and four names with dates of birth
+    - the gap between the second and the third name
+    - the steel plaque of 2013 on the pillar to the right
+  category: hidden-history
+  lat: 52.355377
+  lng: 4.855471
+  address: Amstelveenseweg, at the entrance of the Vondelpark
+  links:
+    - { label: 4en5mei.nl, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1443/amsterdam-monument-bij-het-vondelpark" }
+    - { label: 4 en 5 mei Amsterdam on the three shootings, url: "https://4en5meiamsterdam.nl/stories/herdenking-amstelveenseweg/" }
+    - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928" }
+  attributes:
+    rank: Nice
+    built: "1946"
+    artist: Ferdinand B. Jantzen (architect)
+  photos:
+    - "commons:File:Amstelveenseweg, Oorlogsmonument bij Vondelpark.jpg"
+    - commons:File:Plaquette Amstelveenseweg.jpg
+  sources:
+    - https://4en5meiamsterdam.nl/stories/herdenking-amstelveenseweg/ (25 March 2024, the unveiling, the three shootings, the shed of a blanket factory, De Bruyne's background, plaque of 2013)
+    - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928 (Kunstwacht record 1928, unveiled 25 May 1946, capitulation and liberation dates, name removed in the hours before, never proven, filmed from an attic window, architect Jantzen)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1443/amsterdam-monument-bij-het-vondelpark (text on the stone, the four names)
+    - https://4en5meiamsterdam.nl/agenda/herdenking-4-mei-vondelpark-amstelveenseweg/ (remembrance of 4 May 2026 at the monument)
+    - Commons photos of the stone and of the 2013 plaque (text of the plaque, gap between the names, position of the plaque)
+  nl:
+    title: De steen met een weggebeitelde naam (Amstelveenseweg, mei 1945)
+    summary: Vijf mannen van het verzet kwamen hier op 6 en 7 mei 1945 om bij vuurgevechten met Duitse soldaten, na de capitulatie. De steen uit 1946 noemt er vier. De vijfde naam is onder het doek weggehakt, vlak voor de onthulling.
+    body: |
+      Toen op 25 mei 1946 het doek van dit gedenkteken zou gaan, hoorde het publiek eronder driftig hameren en beitelen. Een van de vijf namen op de steen werd verwijderd. Kort daarvoor was het verhaal rondgegaan dat de man in de eerste bezettingsjaren voor het Duitse leger had gewerkt. Zijn weduwe werd bij de afzetting tegengehouden.
+
+      De steen, opgenomen in het hek van het Vondelpark, is voor mannen van de Binnenlandse Strijdkrachten (BS, het leger van het verzet) die hier na de Duitse overgave sneuvelden. De capitulatie werd op de avond van 4 mei 1945 bekend, maar de Canadezen bereikten Amsterdam pas op de 8e. In de tussentijd betrokken een stuk of twintig BS'ers uit de buurt de loods van een dekenfabriek aan de overkant en begonnen ze Duitse militairen te ontwapenen. In de vroege ochtend van 6 mei kostte een vuurgevecht met een Duitse vrachtwagen op de hoek van de Zocherstraat een van hen het leven. Op 7 mei, de dag van de schietpartij op de Dam, vielen Duitse soldaten de loods binnen om aangehouden kameraden te bevrijden, en aan het eind van die middag greep een soldaat in een aangehouden legerbus een machinegeweer. Vijf BS'ers kwamen om, van wie één weken later in het ziekenhuis.
+
+      De vijfde man, Jacob de Bruyne, een touwslager van 36, had zich in 1944 bij het verzet aangesloten. Niemand daar kende zijn verleden. Dat hij met de bezetter heeft samengewerkt, is nooit bewezen, staat op de plaquette die in 2013 naast de steen is gehangen. Elk jaar op 4 mei is hier een herdenking.
+
+      Let op:
+      - de tekst 'Op den 7en mei 1945 vielen hier voor de vrijheid van ons land' en vier namen met geboortedatum
+      - de open plek tussen de tweede en de derde naam
+      - de stalen plaquette uit 2013 op de pijler rechts
+    attributes:
+      artist: Ferdinand B. Jantzen (architect)
+    sources:
+      - https://4en5meiamsterdam.nl/stories/herdenking-amstelveenseweg/
+      - https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1443/amsterdam-monument-bij-het-vondelpark
+
+- title: The doorposts of the Gerard Terborgstraat
+  summary: Four empty door frames against a wall, hung with small plates. White for a street, green for a house number, black for a name. They list 169 tenants of one housing cooperative who did not survive the occupation, looked up by their successors.
+  body: |
+    Four empty door frames stand against a wall in a quiet street of cooperative housing. On the posts are small plates in three colours: white for a street, green for a house number and floor, black for the people who lived behind that door. They were tenants of the housing cooperative Samenwerking, and they did not survive the German occupation.
+
+    Samenwerking was founded in 1908 as a cooperative of its own tenants and still owns the blocks around here. In 2015 four of its tenants began to look up who had lived in their homes. They ended with a list of 169 names: Jews who were deported and murdered, Jews killed while in hiding, resistance people, and some who took their own lives. The designer Victor Levie gave the list the form of doorposts, for the addresses that were emptied. Many neighbours gave money, and it was unveiled on 1 July 2017.
+
+    Two names were added in April 2020. In August 1942 police searched the photo shop at Roelof Hartstraat 4. They found the window dresser Bernard Davids, a Jew living on false papers, and in the safe of the manager, Richard Voitus van Hamme, weapons and Davids's real identity card, the one stamped with a J. Voitus van Hamme was shot on the Waalsdorpervlakte that November. Davids was murdered in Auschwitz in January 1943.
+
+    The monument is on the street. The neighbourhood gathers here on 4 May at 19:30.
+
+    Look for:
+    - the green plaque that begins "Herinner je de namen, dan leven zij voort" (remember the names, then they live on), in Dutch and English
+    - the white plates: nearly all the streets are a few minutes' walk from here
+  category: hidden-history
+  lat: 52.352111
+  lng: 4.882328
+  address: Gerard Terborgstraat 44-46
+  links:
+    - { label: 4en5mei.nl, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4013/amsterdam-monument-aan-de-gerard-terborgstraat" }
+    - { label: 4 en 5 mei Amsterdam on the photo shop, url: "https://4en5meiamsterdam.nl/stories/herdenking-gerard-terborgstraat/" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Oorlogsmonument_Gerard_Terborgstraat" }
+    - { label: AT5 on the unveiling (2017), url: "https://www.at5.nl/artikelen/170698/nieuw-tweede-wereldoorlog-monument-in-zuid" }
+  attributes:
+    rank: Nice
+    built: "2017"
+    artist: Victor Levie
+  photos:
+    - commons:File:2020 Monument Gerard Terborgstraat (2).jpg
+    - commons:File:2020 Monument Gerard Terborgstraat (1).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Oorlogsmonument_Gerard_Terborgstraat (four tenants began in 2015, 169 names, who is on the list, the three colours of plates, plaque, coordinates)
+    - https://4en5meiamsterdam.nl/stories/herdenking-gerard-terborgstraat/ (25 March 2024, the raid of 21 August 1942 at Roelof Hartstraat 4, 4 November 1942, 31 January 1943, names added April 2020, share of Jews in Zuid)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4013/amsterdam-monument-aan-de-gerard-terborgstraat (unveiled 1 July 2017)
+    - https://www.at5.nl/artikelen/170698/nieuw-tweede-wereldoorlog-monument-in-zuid (1 July 2017, donations from neighbours, Levie on the doorposts)
+    - https://4en5meiamsterdam.nl/agenda/4-mei-herdenking/ (4 May 2026, 19:30, Gerard Terborgstraat 44-46)
+    - https://www.samenwerking.org/over-samenwerking/historie/herinneringsmonument.aspx (cooperative founded 16 October 1908)
+  nl:
+    title: De deurposten van de Gerard Terborgstraat
+    summary: Vier lege deurkozijnen tegen een muur, vol kleine plaatjes. Wit voor een straat, groen voor een huisnummer, zwart voor een naam. Het zijn 169 huurders van één woningbouwvereniging die de bezetting niet overleefden, opgezocht door hun opvolgers.
+    body: |
+      In een stille straat met coöperatieve woningen staan vier lege deurkozijnen tegen een muur. Op de posten zitten plaatjes in drie kleuren: wit voor een straat, groen voor een huisnummer en etage, zwart voor wie er achter die deur woonde. Het waren huurders van woningbouwvereniging Samenwerking, en ze hebben de Duitse bezetting niet overleefd.
+
+      Samenwerking is in 1908 opgericht als coöperatie van haar eigen huurders en bezit de blokken hier in de buurt nog altijd. In 2015 gingen vier huurders uitzoeken wie er in hun huizen had gewoond. Ze kwamen uit op een lijst van 169 namen: Joden die zijn weggevoerd en vermoord, Joden die in de onderduik omkwamen, verzetsmensen, en mensen die zelf een eind aan hun leven maakten. Ontwerper Victor Levie gaf de lijst de vorm van deurposten, voor de adressen die zijn leeggehaald. Veel buurtgenoten gaven geld, en op 1 juli 2017 is het monument onthuld.
+
+      In april 2020 kwamen er twee namen bij. In augustus 1942 doorzocht de politie de fotowinkel op Roelof Hartstraat 4. Ze troffen er de etaleur Bernard Davids, een Jood met een vals persoonsbewijs, en in de kluis van filiaalhouder Richard Voitus van Hamme wapens en het echte persoonsbewijs van Davids, dat met de J. Voitus van Hamme is in november van dat jaar op de Waalsdorpervlakte gefusilleerd. Davids is in januari 1943 in Auschwitz vermoord.
+
+      Het monument staat aan de straat. Op 4 mei om 19.30 uur komt de buurt hier bijeen.
+
+      Let op:
+      - de groene plaquette die begint met 'Herinner je de namen, dan leven zij voort', in het Nederlands en het Engels
+      - de witte plaatjes: bijna alle straten liggen op een paar minuten lopen
+    sources:
+      - https://nl.wikipedia.org/wiki/Oorlogsmonument_Gerard_Terborgstraat
+      - https://4en5meiamsterdam.nl/stories/herdenking-gerard-terborgstraat/
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4013/amsterdam-monument-aan-de-gerard-terborgstraat
+      - https://www.at5.nl/artikelen/170698/nieuw-tweede-wereldoorlog-monument-in-zuid
+
+# ================================================================ Curiosities
+
+- title: The pooping cat of the Pieter Baststraat
+  summary: A gable stone of 2023 shows a cat on a litter tray laying a golden turd. It recalls the litter-tray service that worked from this house around 1940. The gold is the owner's comment on what his renovation cost.
+  body: |
+    Gable stones belong to the old centre, where they told you which house was which before houses had numbers. Zuid was built after numbering came in and hardly has any. So the owner of this plain house of 1905 did something unusual when he finished an expensive renovation in 2023: he ordered one. And of everything the building had been, he picked the kattenbakcentrale.
+
+    Around 1940 the man who ran a motorcycle and bicycle garage here had a sideline: a litter-tray service, which emptied the cat trays of people who could not manage it themselves. The stone carver Tobias Snoep did not fancy the job at first and let himself be talked round. He learned the trade from Hans 't Mannetje, the maker of many modern gable stones in the centre, who in turn was a pupil of Hildo Krop. Since April 2023 a cat sits on its tray on the front of no. 19 and produces a golden turd: a nod, says the owner, to what the renovation cost.
+
+    The far end of the street has a darker footnote. At 5:45 on 21 December 1987 an explosion destroyed the storeroom of the off-licence at the Roelof Hartstraat corner, wrecked the flats beside it and broke every window within 200 metres. Police had to keep looters among the sightseers away from the bottles. A badly soldered gas pipe was to blame. The corner was rebuilt almost as it had been.
+
+    Look for:
+    - the stone above the shopfront of no. 19, between the first-floor windows
+    - the gold under the cat
+    - the two years on it: 1905 and 2023
+    - at the Roelof Hartstraat end: the low link of two storeys, rebuilt after 1987
+  category: curiosities
+  lat: 52.352926
+  lng: 4.885079
+  address: Pieter Baststraat 19
+  links:
+    - { label: Wikipedia (nl) Pieter Baststraat, url: "https://nl.wikipedia.org/wiki/Pieter_Baststraat" }
+    - { label: Het Parool (2023), url: "https://www.parool.nl/ps/gevelsteen-herinnert-aan-kattenbakcentrale-hij-geeft-wat-jeu-aan-de-straat~baaf6678/" }
+  attributes:
+    rank: Okay
+    built: "2023"
+    artist: Tobias Snoep
+  photos:
+    - "commons:File:2023 Pieter Baststraat 19, Asd (2).jpg"
+    - "commons:File:Ontploffing in Pieter Baststraat , Amsterdam, Bestanddeelnr 934-1554.jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Pieter_Baststraat (house of 1905, renovation, gable stones rare in Zuid, kattenbakcentrale around 1940 beside a motorcycle and bicycle garage, Snoep and his teachers, April 2023, golden turd, 1905 and 2023; the explosion of 21 December 1987, looters, 200 m, gas pipe, rebuilt)
+    - https://www.parool.nl/ps/gevelsteen-herinnert-aan-kattenbakcentrale-hij-geeft-wat-jeu-aan-de-straat~baaf6678/ (4 April 2023; behind a paywall, cited through Wikipedia)
+    - Commons photos of April 2023 (position of the stone on the front)
+  nl:
+    title: De poepende kat van de Pieter Baststraat
+    summary: Op een gevelsteen uit 2023 zit een kat op de bak die een gouden drol legt. De steen herinnert aan de kattenbakcentrale die rond 1940 vanuit dit pand werkte. Het goud is het commentaar van de eigenaar op wat zijn verbouwing kostte.
+    body: |
+      Gevelstenen horen bij de oude binnenstad, waar ze aangaven welk huis welk was toen er nog geen huisnummers bestonden. Zuid is pas gebouwd toen er al genummerd werd en heeft er bijna geen. De eigenaar van dit onopvallende pand uit 1905 deed dus iets ongewoons toen hij in 2023 een dure verbouwing afsloot: hij bestelde er een. En uit alles wat het pand ooit is geweest, koos hij de kattenbakcentrale.
+
+      Rond 1940 had de man die hier een stalling voor motoren en fietsen dreef er een bijverdienste bij: een dienst die de kattenbak verschoonde van mensen die dat zelf niet meer konden. Steenhouwer Tobias Snoep zag er eerst niets in, maar liet zich overhalen. Hij leerde het vak bij Hans 't Mannetje, de maker van veel moderne gevelstenen in de binnenstad, die op zijn beurt een leerling van Hildo Krop was. Sinds april 2023 zit er op de gevel van nummer 19 een kat op de bak die een gouden drol legt: een knipoog, zegt de eigenaar, naar wat de verbouwing heeft gekost.
+
+      Het andere eind van de straat heeft een grimmiger voetnoot. Op 21 december 1987 om kwart voor zes in de ochtend verwoestte een ontploffing het magazijn van de slijterij op de hoek van de Roelof Hartstraat. De woningen ernaast raakten zwaar beschadigd en tot op 200 meter sprongen alle ruiten. De politie moest plunderaars tussen de kijkers bij de flessen weghouden. Een slecht gesoldeerde gasleiding bleek de oorzaak. De hoek is vrijwel in de oude vorm herbouwd.
+
+      Let op:
+      - de steen boven de pui van nummer 19, tussen de ramen van de eerste verdieping
+      - het goud onder de kat
+      - de twee jaartallen erop: 1905 en 2023
+      - aan de kant van de Roelof Hartstraat: het lage tussenstuk van twee verdiepingen, herbouwd na 1987
+    sources:
+      - https://nl.wikipedia.org/wiki/Pieter_Baststraat
+      - https://www.parool.nl/ps/gevelsteen-herinnert-aan-kattenbakcentrale-hij-geeft-wat-jeu-aan-de-straat~baaf6678/
+
+- title: "Vondelbunker: fallout shelter, beat cellar, free space"
+  summary: Inside the bridge over the Vondelpark is a Cold War shelter for 2,600 people. Its front room was meant to be let as a café, so in 1968 it became the beat cellar Lijn 3. Volunteers now run it as a venue with no entrance fee.
+  body: |
+    Inside the viaduct that carries the Van Baerlestraat over the Vondelpark is a fallout shelter for 2,600 people, and most weeks something is on in it.
+
+    The bridge opened in 1947 with shelter space built in. Between 1967 and 1970, in the Cold War, the city fitted it out as a public fallout shelter: three large rooms, air locks, a sand filter, an emergency generator and, unusually for a shelter, permanent toilets. Those were there because the front room was meant to be let as a café in peacetime. Alderman Harry Verheij, who was looking for places where the city's restless young could make noise, saw his chance. In 1968 the beat cellar Lijn 3 opened, named after the tram overhead. On the first night there was a riot outside, because more people wanted in than would fit, and within six weeks 1,200 glasses had been smashed. After two years the club went bankrupt and carried on as Studio 7, which forty detectives with a hashish dog raided in August 1971.
+
+    After decades of which little is known, it reopened in June 2011 as the Vondelbunker, a cultural centre run by unpaid volunteers. There is no entrance fee, only a request for a donation. The programme is concerts, films, theatre and a chess club on Sunday afternoons. It is open only during events; the agenda is on the website.
+
+    Look for:
+    - the door in the bridge itself, on the side of the Stadhouderskade, beside the stone stairs up to the street
+    - the low concrete rooms once you are in
+    - outside, in the bridge walls: Hildo Krop's reliefs of 1942, a boy and a girl out walking, and a scene from Vondel's play Gijsbrecht van Aemstel
+  category: curiosities
+  lat: 52.360869
+  lng: 4.876836
+  address: Vondelpark 8a, in the Vondelbrug
+  links:
+    - { label: Vondelbunker (agenda), url: "https://vondelbunker.nl" }
+    - { label: Arcam shelter cycle route (PDF), url: "https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf" }
+    - { label: Ons Amsterdam (2012), url: "https://web.archive.org/web/20171021192031/http://www.onsamsterdam.nl/component/content/article/15-dossiers/dossiers/1861-de-vondelbrug-verkeersschakel-schuilkelder-en-beatkelder" }
+    - { label: Wikipedia (nl) Vondelbrug, url: "https://nl.wikipedia.org/wiki/Vondelbrug_(Amsterdam)" }
+    - { label: indebuurt Amsterdam on the beat cellar, url: "https://indebuurt.nl/amsterdam/toen-in/schuilen-en-swingen-in-de-beatkelder-dit-gebeurde-er-met-de-bunker-onder-de-vondelbrug~410287/" }
+  attributes:
+    rank: Nice
+    built: 1947, fitted out as a fallout shelter 1967–1970
+    original_use: Public shelter
+  photos:
+    - commons:File:Vondelbunker.jpg
+    - commons:File:Vondelbunker (2).jpg
+  sources:
+    - https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf (project 67, 1967 to 1970, three rooms, air locks, toilets because of the planned café, sand filter, generator, 2,600 people, where the door is)
+    - https://nl.wikipedia.org/wiki/Vondelbrug_(Amsterdam) (bridge opened 16 October 1947, adapted for a shelter for 2,600, Krop's reliefs, Anno 1940 stones, Lijn 3 in 1968, Vondelbunker since 2011)
+    - Ons Amsterdam, talk by Merel Ligtelijn, 8 September 2012, archived (Lijn 3, opening night, 1,200 glasses, bankrupt after two years, Studio 7, raid of August 1971, rehearsal room in 2010)
+    - https://indebuurt.nl/amsterdam/toen-in/schuilen-en-swingen-in-de-beatkelder-dit-gebeurde-er-met-de-bunker-onder-de-vondelbrug~410287/ (converted 1967 to 1970, alderman Harry Verheij, opened 1968)
+    - https://vondelbunker.nl (open since June 2011, volunteers, no entrance fee, donations; agenda read 24 November 2026 with events to January 2027, chess club on Sundays 14:30 to 18:00)
+    - OpenStreetMap (position)
+  nl:
+    title: "Vondelbunker: schuilkelder, beatkelder, vrijplaats"
+    summary: In de brug over het Vondelpark zit een schuilkelder uit de Koude Oorlog voor 2600 mensen. De voorste ruimte was bedoeld om als café te verhuren, en werd in 1968 beatkelder Lijn 3. Nu draaien vrijwilligers er een podium zonder entree.
+    body: |
+      In het viaduct dat de Van Baerlestraat over het Vondelpark tilt, zit een atoomschuilkelder voor 2600 mensen, en bijna elke week is er iets te doen.
+
+      De brug ging in 1947 open, met schuilruimte erin. Tussen 1967 en 1970, in de Koude Oorlog, richtte de gemeente die in als openbare schuilplaats tegen fall-out: drie grote ruimtes, luchtsluizen, een zandfilter, een noodaggregaat en, heel ongewoon voor een schuilkelder, vaste toiletten. Die kwamen er omdat de voorste ruimte in vredestijd als café verhuurd moest kunnen worden. Wethouder Harry Verheij, op zoek naar plekken waar de opstandige jeugd lawaai kon maken, zag zijn kans. In 1968 ging beatkelder Lijn 3 open, genoemd naar de tram die eroverheen rijdt. Op de openingsavond brak buiten een rel uit omdat er meer mensen naar binnen wilden dan er pasten, en binnen zes weken waren er twaalfhonderd glazen gesneuveld. Na twee jaar ging de club failliet. Ze ging door als Studio 7, waar in augustus 1971 veertig rechercheurs met een hasjhond binnenvielen.
+
+      Over de tientallen jaren daarna is weinig bekend. In juni 2011 ging de bunker weer open als Vondelbunker, een cultureel centrum dat draait op onbetaalde vrijwilligers. Entree wordt er niet gevraagd, wel een donatie. Het programma: concerten, films, theater en op zondagmiddag een schaakclub. De bunker is alleen open tijdens evenementen; de agenda staat op de website.
+
+      Let op:
+      - de deur in de brug zelf, aan de kant van de Stadhouderskade, naast de stenen trap naar de straat
+      - de lage betonnen ruimtes als je binnen bent
+      - buiten, in de wanden van de brug: de reliëfs van Hildo Krop uit 1942, een jongen en een meisje aan de wandel, en een scène uit Vondels Gijsbrecht van Aemstel
+    attributes:
+      built: 1947, ingericht als schuilplaats tegen fall-out 1967–1970
+      original_use: Openbare schuilplaats
+    sources:
+      - https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf
+      - https://nl.wikipedia.org/wiki/Vondelbrug_(Amsterdam)
+      - https://indebuurt.nl/amsterdam/toen-in/schuilen-en-swingen-in-de-beatkelder-dit-gebeurde-er-met-de-bunker-onder-de-vondelbrug~410287/
+      - https://vondelbunker.nl
