@@ -71,6 +71,7 @@
     - the bronze widow under the Wheel of Fortune over the left door
     - DAKE carved over the corner entrance
     - the owls on the capitals and the baboons under the eaves
+    - UTRECHT in the tile panel of the shop wing at Damrak 26
   category: curiosities
   lat: 52.376217
   lng: 4.896784
@@ -82,7 +83,7 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: "518299"
+    monument_number: 518299, 518300
     built: 1904–1906
     architect: A.J. Kropholler and J.F. Staal
     listed: 2001
@@ -91,6 +92,7 @@
   photos:
     - commons:File:Damrak28.jpg
   sources:
+    - rce:518300 (added at review from extra-west: Damrak 26, shop wing of the same De Utrecht complex, UTRECHT tile panel)
     - rce:518299 (1904-1906 Kropholler and Staal, Labrador granite, green Swedish marble, copper roof, DAKE carved over corner entrance, five figures named, Wheel of Fortune with bronze widow, baboons and other animals in the top, Damrak changing from residential to office street)
     - https://nl.wikipedia.org/wiki/De_Utrecht_(Amsterdam) (Levensverzekering-maatschappij Utrecht, Mendes da Costa sculptor, pelican brackets, owl capitals, marble later painted over, 35 m with exemption, shop used by Dake)
     - https://audiotours.tryonpalace.org/tours/discover-the-damrak/stops/8340 (current use given as apartments)
@@ -108,6 +110,7 @@
       - de bronzen weduwe onder het Rad van Fortuin boven de linkerdeur
       - DAKE boven de ingang op de hoek
       - de uilen op de kapitelen en de bavianen onder de goot
+      - UTRECHT in het tegeltableau van de winkelvleugel op Damrak 26
     attributes:
       original_use: Verzekeringskantoor met winkel
     sources:
@@ -531,7 +534,7 @@
     - the passage with its two small brick vaults
     - Springer's sandstone doorway on the west end
     - the stairs down to the water side, part of the 1915 bridge
-  category: hidden-history
+  category: civic
   lat: 52.367052
   lng: 4.892891
   address: Muntplein 12
@@ -655,7 +658,7 @@
     - the 16th-century stone with Saint Nicholas over the door to the upper offices on the Dam side
     - a stone with a hand grabbing a rooster on the lower part along the Damrak
     - the two "houses" that are really one building
-  category: hidden-history
+  category: civic
   lat: 52.373371
   lng: 4.893012
   address: Dam 2

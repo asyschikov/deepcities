@@ -68,7 +68,7 @@ Outcome: 21 places (12 own, 9 group) covering 59 records; 1 A-list parked; 7 no 
 | 206027 | The Woning-Maatschappij houses (group) |
 | 206028 | The Woning-Maatschappij houses (group) |
 | 2205 | A-list, parked (Scheepvaartmuseum, 's Lands Zeemagazijn) |
-| 202008 | No story found: Tjerk Hiddesschool, interwar school; register text read, web search not run (budget out) |
+| 202008 | No story found: Tjerk Hiddesschool, interwar school; register text read, web search not run (budget out) REVIEW: drafted at review as new place "Tjerk Hiddesschool, the school children fought over and Constant's studio" (eilanden-1) |
 | 206026 | No story found: St Willibrordusschool, Catholic school; register text read, web search not run (budget out) |
 | 206013 | No story found: Kraijenhoffstraat 32-34, school building; register text read, web search not run (budget out) |
 | 206003 | No story found: De Ruiterschool, public primary school; register text read, web search not run (budget out) |

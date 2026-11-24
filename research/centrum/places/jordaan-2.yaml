@@ -201,36 +201,37 @@
       - https://nl.wikipedia.org/wiki/Lauriergracht_2
 
 - title: De Voorzienigheid's hidden chapel and the ad agency inside
-  summary: "Behind a plain front at Lauriergracht 39 hides a neo-Gothic convent chapel of 1882 on slender cast-iron columns. Neighbours saved it from demolition in 1992; from 1997 the ad agency KesselsKramer worked inside. Now it is leaving, and the chapel is for sale."
+  summary: "Behind a plain front at Lauriergracht 39 hides a neo-Gothic convent chapel of 1882, the heart of a Catholic home for girls that filled the block. Neighbours saved it in 1992; from 1997 the ad agency KesselsKramer worked inside. Now the chapel is for sale."
   body: |
-    From the quay you see only a three-bay house with tall windows. Behind it, on an enclosed yard, stands a chapel that A.C. Bleys built in 1882 for De Voorzienigheid (Providence), a Catholic institution for neglected girls whose buildings filled much of this block through to the Elandsstraat. Inside, very slender cast-iron columns with leaf capitals carry pointed arches.
+    From the Lauriergracht you see only a three-bay house with tall windows. Behind it, on an enclosed yard, stands a chapel that A.C. Bleys built in 1882 for De Voorzienigheid (Providence), a Catholic institution for neglected girls founded here in the 1850s. Its buildings grew to fill most of this block, through to the Elandsstraat. Inside the chapel, very slender cast-iron columns with leaf capitals carry pointed arches.
 
-    The last sisters left in 1991. A developer then wanted to build 108 apartments on the site. Neighbours objected, a councillor pointed to the rare cast-iron columns, and in 1992 the chapel became a national monument. In 1997 the young advertising agency KesselsKramer answered a newspaper ad for a church to let on the Lauriergracht and moved in. After more than 28 years the agency has decided to move elsewhere in the city, and the chapel is on the market. It is private and can't be visited.
+    The institution kept building. In 1901 Jac. Duncker squeezed an orphanage onto a plot shut in on all sides, lighting its playrooms from above; a girls' school followed in 1922 and a new motherhouse on the Elandsstraat in 1927.
 
-    To its right, nos. 41 to 49 were also part of the institution: a business building of 1862 by G.B. Salm, taken over later, and the St. Jozefschool for girls, founded in 1869. No. 49 is now De Uylenburgh, a care home.
+    The last sisters left in 1991. A developer then wanted 108 apartments on the site. Neighbours objected, and in 1992 the chapel became a national monument. In 1997 the young advertising agency KesselsKramer answered a newspaper ad for a church to let and moved in. After more than 28 years it is moving elsewhere in the city, and the chapel is for sale. It is private and can't be visited.
 
     Look for:
-    - the stone in the porch of no. 47 saying the school building was dedicated in 1923
-    - no. 51, the old right half of a 17th-century house with giant Ionic pilasters, kept inside the newer row
+    - the stone in the porch of Lauriergracht 47 saying the school building was dedicated in 1923
     - at no. 37, a sign for Last & Co, the coffee brokers of Multatuli's Max Havelaar
-  category: hidden-history
+    - round the block at Elandsstraat 24–44, De Voorzienigheid over the motherhouse door between a male and a female saint, and ST MARIA-SCHOOL on the lintel next door
+  category: religious
   lat: 52.371307
   lng: 4.881111
-  address: Lauriergracht 39-51
+  address: Lauriergracht 39-51, Elandsstraat 24-44
   links:
     - { label: Rijksmonumentenregister (422548), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/422548" }
     - { label: Monumentenregister Amsterdam (41-49), url: "https://data.amsterdam.nl/monumenten/e6b22a51-9d43-4a10-a2ac-63485b72ccac" }
+    - { label: Monumentenregister Amsterdam (motherhouse), url: "https://data.amsterdam.nl/monumenten/7390f8ca-bd25-4cee-b459-38ca5daad71b" }
     - { label: Wikipedia (nl) Lauriergracht achter 39, url: "https://nl.wikipedia.org/wiki/Lauriergracht_achter_39" }
     - { label: Broersma KesselsKramer en de Voorzienigheid, url: "https://www.broersma.nl/en/theedit/kesselskramer-en-de-voorzienigheid/" }
     - { label: Wikipedia (nl) Lauriergracht 37, url: "https://nl.wikipedia.org/wiki/Lauriergracht_37" }
   attributes:
     rank: Nice
     heritage_status: National + municipal monument
-    monument_number: 422548, 213057, 3205
-    built: 1882 (chapel), 1862–1923 (canal row)
-    architect: "A.C. Bleys (chapel), G.B. Salm (no. 41)"
+    monument_number: 422548, 213057, 3205, 213030, 205009, 200534
+    built: 1862–1927 (chapel 1882)
+    architect: "A.C. Bleys (chapel), Jac. Duncker, A.C. Boerma, A.J. Joling"
     listed: 1992
-    original_use: Convent chapel, school and workshop of a Catholic girls' institution
+    original_use: Convent, chapel, orphanage and schools of a Catholic girls' institution
     outlook: Major change ahead
     outlook_note: KesselsKramer is leaving after more than 28 years and the chapel is offered for sale.
   photos:
@@ -244,28 +245,33 @@
     - rce:3205 (right half of a 17th-c. house, partly preserved giant Ionic pilasters) and https://nl.wikipedia.org/wiki/Lauriergracht_51 (kept inside the new building for a children's home of De Voorzienigheid, 1966-68)
     - https://www.zorgkaartnederland.nl/zorginstelling/particulier-woonzorgcentrum-domus-valuas-de-uylenburgh-amsterdam-3054830 (De Uylenburgh, Lauriergracht 49, care home)
     - https://nl.wikipedia.org/wiki/Lauriergracht_37 (Max Havelaar first line, Last & Co sign next to the door, photo October 2022)
+    - city:213030 (via jordaan-1, merged at review: 1927 motherhouse by Jac. Duncker at Elandsstraat 24-44; complex founded here 1856 per this text, 1852 per 213057, so "in the 1850s"; statues of a male and a female saint by the door; De Voorzienigheid over the arch, Plonerstichting in the porch)
+    - city:205009 (St. Mariaschool 1922 by A.J. Joling; upper floors set back, probably for light; ST MARIA-SCHOOL on the sandstone lintel)
+    - city:200534 (1901 orphanage by Boerma and Duncker on an enclosed plot; two large bays lit from above for the playrooms)
   nl:
     title: De verborgen kapel van De Voorzienigheid en het reclamebureau erin
-    summary: "Achter een sobere gevel op Lauriergracht 39 staat een neogotische kloosterkapel uit 1882 op ranke gietijzeren zuilen. Buurtbewoners redden haar in 1992 van de sloop; vanaf 1997 werkte reclamebureau KesselsKramer erin. Dat vertrekt nu, en de kapel staat te koop."
+    summary: "Achter een sobere gevel op Lauriergracht 39 staat een neogotische kloosterkapel uit 1882, het hart van een katholiek meisjestehuis dat het hele blok vulde. Buurtbewoners redden haar in 1992; vanaf 1997 werkte KesselsKramer erin. Nu staat de kapel te koop."
     body: |
-      Vanaf de kade zie je alleen een huis van drie ramen breed met hoge vensters. Daarachter, op een ingesloten binnenterrein, staat een kapel die A.C. Bleys in 1882 bouwde voor De Voorzienigheid, een katholieke instelling voor verwaarloosde meisjes waarvan de gebouwen een groot deel van dit blok besloegen, tot aan de Elandsstraat. Binnen dragen heel slanke gietijzeren zuilen met bladkapitelen de spitsbogen.
+      Vanaf de Lauriergracht zie je alleen een huis van drie ramen breed met hoge vensters. Daarachter, op een ingesloten binnenterrein, staat een kapel die A.C. Bleys in 1882 bouwde voor De Voorzienigheid, een katholieke instelling voor verwaarloosde meisjes die hier in de jaren vijftig van de 19e eeuw begon. De gebouwen besloegen uiteindelijk bijna het hele blok, tot aan de Elandsstraat. Binnen dragen heel slanke gietijzeren zuilen met bladkapitelen de spitsbogen.
 
-      In 1991 vertrokken de laatste zusters. Een projectontwikkelaar wilde er 108 appartementen bouwen. Buurtbewoners maakten bezwaar, een gemeenteraadslid wees op de zeldzame gietijzeren zuilen, en in 1992 werd de kapel rijksmonument. In 1997 reageerde het jonge reclamebureau KesselsKramer op een advertentie voor een kerk te huur aan de Lauriergracht en trok erin. Na ruim 28 jaar heeft het bureau besloten elders in de stad verder te gaan, en de kapel staat te koop. Ze is particulier en niet te bezoeken.
+      De instelling bleef bouwen. In 1901 perste Jac. Duncker een weeshuis op een terrein dat aan alle kanten was ingesloten; de speelzalen kregen licht van boven. In 1922 volgde een meisjesschool en in 1927 een nieuw moederhuis aan de Elandsstraat.
 
-      Rechts ervan hoorden ook de nummers 41 tot en met 49 bij de instelling: een bedrijfspand uit 1862 van G.B. Salm, dat later werd ingelijfd, en de St. Jozefschool voor meisjes, gesticht in 1869. Op nr. 49 zit nu De Uylenburgh, een zorgcentrum.
+      In 1991 vertrokken de laatste zusters. Een projectontwikkelaar wilde er 108 appartementen neerzetten. Buurtbewoners maakten bezwaar, en in 1992 werd de kapel rijksmonument. In 1997 reageerde het jonge reclamebureau KesselsKramer op een advertentie voor een kerk te huur en trok erin. Na ruim 28 jaar gaat het bureau elders in de stad verder, en de kapel staat te koop. Ze is particulier en niet te bezoeken.
 
       Let op:
-      - de steen in het portiek van nr. 47, die meldt dat het schoolgebouw in 1923 werd ingewijd
-      - nr. 51, de oude rechterhelft van een 17e-eeuws huis met reuzenpilasters, opgenomen in de nieuwere rij
+      - de steen in het portiek van Lauriergracht 47, die meldt dat het schoolgebouw in 1923 werd ingewijd
       - op nr. 37 een bordje van Last & Co, de makelaars in koffie uit Multatuli's Max Havelaar
+      - om het blok heen, Elandsstraat 24–44: De Voorzienigheid boven de deur van het moederhuis tussen een mannelijke en een vrouwelijke heilige, en ST MARIA-SCHOOL op de latei ernaast
     attributes:
-      architect: "A.C. Bleys (kapel), G.B. Salm (nr. 41)"
-      original_use: Kloosterkapel, school en bedrijfspand van een katholieke meisjesinstelling
+      architect: "A.C. Bleys (kapel), Jac. Duncker, A.C. Boerma, A.J. Joling"
+      built: 1862–1927 (kapel 1882)
+      original_use: Klooster, kapel, weeshuis en scholen van een katholieke meisjesinstelling
       outlook_note: KesselsKramer vertrekt na ruim 28 jaar en de kapel wordt te koop aangeboden.
     sources:
       - https://monumentenregister.cultureelerfgoed.nl/monumenten/422548
       - https://nl.wikipedia.org/wiki/Lauriergracht_achter_39
       - "https://data.amsterdam.nl/monumenten/e6b22a51-9d43-4a10-a2ac-63485b72ccac"
+      - "https://data.amsterdam.nl/monumenten/7390f8ca-bd25-4cee-b459-38ca5daad71b"
       - https://nl.wikipedia.org/wiki/Lauriergracht_37
 
 - title: Platanenhof, the Catholic boys' orphanage
@@ -282,7 +288,7 @@
     - the gateway of 1747 in the row of bell gables on the Elandsstraat
     - a 17th-century gable stone in the separate house at Elandsstraat 152
     - the closed middle part of the Lauriergracht wing, with three door surrounds
-  category: hidden-history
+  category: civic
   lat: 52.370039
   lng: 4.878850
   address: Elandsstraat 152-156, Lauriergracht 99c-105

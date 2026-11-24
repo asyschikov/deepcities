@@ -42,17 +42,17 @@ be seen or that a second source supports.
 | 3250 | Birthplace of the Jesuit general Jan Roothaan |
 | 213052 | Laurierstraat's "fight unemployment" blocks of 1915 (pin, stone) |
 | 213051 | Laurierstraat's "fight unemployment" blocks of 1915 (south block) |
-| 213048 | Belongs to Hofje Venetiae (jordaan-1): its back entrance of 1903 on the Lauriergracht. Add the number there |
-| 3223 | Belongs to Eelke van Houten's second-hand gables (jordaan-1): Lauriergracht 50, rebuilt 1936 with old top |
-| 3225 | Belongs to Van Houten (jordaan-1): Lauriergracht 62, 1933–34, top from no. 65, one of the first |
-| 3240 | Belongs to Van Houten (jordaan-1): Laurierstraat 27–29, two old tops, rebuilt by NV Assur |
-| 3244 | Belongs to Van Houten (jordaan-1): Laurierstraat 53, rebuilt 1933–34 with its own top |
-| 3246 | Belongs to Van Houten (jordaan-1): Laurierstraat 8–14, 1940s, top from no. 16 |
-| 3247 | Belongs to Van Houten (jordaan-1): Laurierstraat 36, about 1932 |
-| 3248 | Belongs to Van Houten (jordaan-1): Laurierstraat 38, about 1933 |
-| 3249 | Belongs to Van Houten (jordaan-1): Laurierstraat 46, rebuilt 1948 |
-| 3262 | Belongs to Van Houten (jordaan-1): Laurierstraat 248, 1934 by NV Assur |
-| 3233 | Belongs to Van Houten (jordaan-1): Lauriergracht 136, top from the Haarlemmer Houttuinen put on in 1996 (a late Van Houten-style reuse) |
+| 213048 | Belongs to Hofje Venetiae (jordaan-1): its back entrance of 1903 on the Lauriergracht. Add the number there REVIEW: added at review to jordaan-1 "Hofje Venetiae" (Look for line) |
+| 3223 | Belongs to Eelke van Houten's second-hand gables (jordaan-1): Lauriergracht 50, rebuilt 1936 with old top REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3225 | Belongs to Van Houten (jordaan-1): Lauriergracht 62, 1933–34, top from no. 65, one of the first REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3240 | Belongs to Van Houten (jordaan-1): Laurierstraat 27–29, two old tops, rebuilt by NV Assur REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3244 | Belongs to Van Houten (jordaan-1): Laurierstraat 53, rebuilt 1933–34 with its own top REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3246 | Belongs to Van Houten (jordaan-1): Laurierstraat 8–14, 1940s, top from no. 16 REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3247 | Belongs to Van Houten (jordaan-1): Laurierstraat 36, about 1932 REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3248 | Belongs to Van Houten (jordaan-1): Laurierstraat 38, about 1933 REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3249 | Belongs to Van Houten (jordaan-1): Laurierstraat 46, rebuilt 1948 REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3262 | Belongs to Van Houten (jordaan-1): Laurierstraat 248, 1934 by NV Assur REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 3233 | Belongs to Van Houten (jordaan-1): Lauriergracht 136, top from the Haarlemmer Houttuinen put on in 1996 (a late Van Houten-style reuse) REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
 | 213033 | No story found: 1942 rebuild by G.J. Rutgers, first-stone tablet; register |
 | 213034 | No story found: 1933 rebuild, 'd Jonge Goudsblom stone; register |
 | 213035 | No story found: 1910 school no. 113, De Distel tile tableau, now studios; register |

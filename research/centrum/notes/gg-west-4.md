@@ -31,7 +31,7 @@ Group places are pinned on the record marked (pin): Nieuwe Suykerhofje on the ho
 | 4354 | Prinsengracht 533 | no story found: 18th-century bell gable, wooden shop front; register, nl.wikipedia |
 | 4355 | Prinsengracht 535 | The frog stone of Prinsengracht 535 |
 | 4356 | Prinsengracht 551 | no story found: 17th-century core, later front and roof; register, nl.wikipedia |
-| 280305 | Prinsengracht 557 | Garden houses behind the western canals |
+| 280305 | Prinsengracht 557 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
 | 4357 | Prinsengracht 571 | no story found: 18th-century neck gable; register, nl.wikipedia |
 | 208039 | Prinsengracht 579 | De Nederlander, a biscuit factory with three step gables |
 | 200611 | Prinsengracht 587 | The old central library that pretended to be canal houses |
@@ -57,7 +57,7 @@ Group places are pinned on the record marked (pin): Nieuwe Suykerhofje on the ho
 | 203048 | Singel 46-48, Roomolenstraat 1 | Necofa, an Amsterdam School clothing factory on the Singel |
 | 210055 | Singel 62 | no story found: 1895 rebuild of 't Wapen van Vrieslant (1638); register, AOK |
 | 210056 | Singel 76 | no story found: 1873 Nieuwenhuyzenschool, paying boys' school, later office; register, AOK |
-| 210057 | Singel 94 | belongs to gg-west-3 "Boldoot's coach house (Langestraat 47)": Singel 94 was J.J. Boldoot's own house (1876), the eau-de-cologne firm filled this block; suggest adding 210057 there; register, AOK |
+| 210057 | Singel 94 | belongs to gg-west-3 "Boldoot's coach house (Langestraat 47)": Singel 94 was J.J. Boldoot's own house (1876), the eau-de-cologne firm filled this block; suggest adding 210057 there; register, AOK REVIEW: added at review to gg-west-3 "Boldoot's coach house" (Look for line) |
 | 200672 | Singel 112 | no story found: 1899 Duncker house with prefab stucco ceilings, interiors only; register, AOK |
 | 5295 | Singel 116 | Huis met de Neuzen (the House with the Noses) |
 | 203061 | Singel 126-130 | Centraal Beheer's first office, an old house inside a new front |
@@ -82,20 +82,20 @@ Group places are pinned on the record marked (pin): Nieuwe Suykerhofje on the ho
 | 4298 | Westermarkt 60-74, Prinsengracht 277-279 | A-list, parked (Westerkerk) |
 | 203064 | Wolvenstraat 1-3 | no story found: 1905 shop houses, unfit dwellings rebuilt; register, AOK |
 | 206047 | Wolvenstraat 18 | no story found: 1876 sugar traders' office (Deichmann & Vom Rath); register, AOK |
-| 280105 | achter Herengracht 314 | Garden houses behind the western canals |
-| 280101 | bij Herengracht 160 | Garden houses behind the western canals |
-| 280102 | bij Herengracht 220 | Garden houses behind the western canals |
-| 280802 | bij Herengracht 250 | Garden houses behind the western canals |
-| 280103 | bij Herengracht 258 | Garden houses behind the western canals |
-| 280104 | bij Herengracht 280 | Garden houses behind the western canals (pin) |
-| 280301 | bij Keizersgracht 135 | Garden houses behind the western canals |
-| 280302 | bij Keizersgracht 147 | Garden houses behind the western canals |
-| 280303 | bij Keizersgracht 156 | Garden houses behind the western canals |
-| 280304 | bij Keizersgracht 160 | Garden houses behind the western canals |
-| 280606 | bij Keizersgracht 164 | Garden houses behind the western canals |
-| 280801 | bij Keizersgracht 173 | Garden houses behind the western canals |
+| 280105 | achter Herengracht 314 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280101 | bij Herengracht 160 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280102 | bij Herengracht 220 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280802 | bij Herengracht 250 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280103 | bij Herengracht 258 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280104 | bij Herengracht 280 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280301 | bij Keizersgracht 135 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280302 | bij Keizersgracht 147 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280303 | bij Keizersgracht 156 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280304 | bij Keizersgracht 160 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280606 | bij Keizersgracht 164 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280801 | bij Keizersgracht 173 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
 | 200699 | bij Langestraat 45A | The one-of-a-kind cable box in the Langestraat |
-| 280803 | bij Leliegracht 13 | Garden houses behind the western canals |
+| 280803 | bij Leliegracht 13 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
 | 200893 | bij Westermarkt 2 | Homomonument, three pink triangles |
 
 ## Conflicts and uncertainties

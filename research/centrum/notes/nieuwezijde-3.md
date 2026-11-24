@@ -22,7 +22,7 @@ The group place is pinned on the record marked (pin). No pins were moved; every 
 | 206042 | Spuistraat 122, Torensteeg 2 | no story found: 1888 Langhout corner shop (butcher, menswear Alwin Meijer, café since 1962/72); register, AOK |
 | 211042 | Spuistraat 124 | no story found: c.1890 corner shop of a small cigar and snuff maker, now a stroopwafel shop; register, AOK |
 | 209040 | Spuistraat 125, Molsteeg 12 | no story found: 1896 Jacot shop for furniture dealer Eden (pro-Boer sales); register, AOK |
-| 5593 | Spuistraat 129 | belongs to Die Port van Cleve (nieuwezijde-2): 1662 step-gabled pair that Wikidata links to the hotel; not drafted, see Conflicts |
+| 5593 | Spuistraat 129 | belongs to Die Port van Cleve (nieuwezijde-2): 1662 step-gabled pair that Wikidata links to the hotel; not drafted, see Conflicts REVIEW: added at review to nieuwezijde-2 "Die Port van Cleve" (Look for line; PDOK gives one point for Spuistraat 129 and NZV 178) |
 | 200846 | Spuistraat 134 | P.C. Hoofthuis, the faculty built to look like a street of houses |
 | 5989 | Spuistraat 137-139, Nieuwezijds Voorburgwal 182 | Magna Plaza, the post office nicknamed Perenburg |
 | 518486 | Spuistraat 210-212 | Bungehuis, from grain traders' office to occupied faculty to Soho House |

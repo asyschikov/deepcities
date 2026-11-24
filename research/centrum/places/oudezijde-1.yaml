@@ -19,7 +19,7 @@
     - the rhyme on the board over the gate at Oudezijds Voorburgwal 300
     - the memorial stone of 1614 and the carved little gate in the side wall on the Enge Lombardsteeg
     - Kramer's granite steps and the wrought-iron ends of the railings on the Lommertbrug
-  category: hidden-history
+  category: civic
   lat: 52.370733
   lng: 4.894231
   address: Oudezijds Voorburgwal 300
@@ -32,7 +32,7 @@
   attributes:
     rank: Amazing
     heritage_status: National + municipal monument
-    monument_number: 6159, 200857
+    monument_number: 6159, 200857, 208021
     built: 1550–1669
     original_use: Peat warehouse and convent wing, then municipal pawnshop
   photos:
@@ -40,6 +40,7 @@
     - commons:File:Lommerdtekst.jpg
     - commons:File:2020 Brug 203, overzicht (3).jpg
   sources:
+    - city:208021 (added at review from oudezijde-2: Oudezijds Voorburgwal 302, 1892 building by W. Hamer next to the Stadsbank; no story of its own, no line)
     - rce:6159 (peat warehouse of the Oudezijds Huiszittenmeesters 1550, warehouse 1616, block 1669 with posts, memorial stone 1614, carved gate in the Lombardsteeg wall)
     - https://nl.wikipedia.org/wiki/Stadsbank_van_Lening_(Amsterdam) (founded 1614 against usury, Vondel clerk from 1658 for over ten years, convent wing, pledges since 2016 only jewellery and watches, nine months, auctions online since 2021, Huydecoper rhyme 1740)
     - https://nl.wikipedia.org/wiki/Lommertbrug (named after the bank, Piet Kramer 1926, granite steps, wrought-iron railing ends)
@@ -133,7 +134,7 @@
     - on Nes 112-114: a sandstone door frame carved with tobacco leaves
     - on Grimburgwal 1-5: stained glass with men carrying bales of tobacco
     - the barrel of tobacco plants on top of Rokin 111, seen from the Rokin
-  category: hidden-history
+  category: industrial
   lat: 52.369661
   lng: 4.893640
   address: Nes 75-87
@@ -204,7 +205,7 @@
     - the numbered cupboards with their hinged shutters
     - the gate of 1786 on the Kloveniersburgwal, with sculpture by Anthonie Ziesenis
     - the skate-shaped window in the Kloveniersburgwal front of De Schaats
-  category: hidden-history
+  category: civic
   lat: 52.369303
   lng: 4.896008
   address: Oudemanhuispoort
@@ -255,9 +256,9 @@
 - title: Binnengasthuis, from dreaded hospital to university library
   summary: "For three centuries this was the city hospital, and in the 19th century a notorious one: 600 patients and two doctors, and childbed fever that quadrupled once surgeons and midwives shared hands. Its surgical clinic became the university library in 2025."
   body: |
-    After the Reformation of 1578 the city moved its hospitals into empty convents here, and from 1635 the whole was called the Binnengasthuis (inner hospital). In the 19th century it had a bad name. An Austrian doctor who visited in 1852 counted two doctors for six hundred patients. After a surgery department opened in 1828, deaths from childbed fever on the maternity ward went up fourfold: students cut corpses and then delivered babies without washing their hands. Antiseptic medicine only got its chance after 1880.
+    After the Reformation of 1578 the city moved its hospitals into empty convents here, and from 1635 the whole was called the Binnengasthuis (inner hospital). In the 19th century it had a bad name. After a surgery department opened in 1828, deaths from childbed fever on the maternity ward went up fourfold: students cut corpses and then delivered babies without washing their hands. Antiseptic medicine only got its chance after 1880.
 
-    The buildings that stand now came with the rebuilding of 1868–1913. F.W.M. Poggenbeek's Second Surgical Clinic dates from 1897–1900, with a nurses' home that had to grow when the nurses' working day was cut to ten hours in 1898 and their number rose from 85 to 111. J.M. van der Mey's administration building of 1912–1914, in early Amsterdam School style, had a children's clinic as its southern half; that was demolished in 1991.
+    The buildings that stand now came with the rebuilding of 1868–1913, starting with a new maternity clinic on the Turfdraagsterpad. F.W.M. Poggenbeek's Second Surgical Clinic dates from 1897–1900, with a nurses' home. J.M. van der Mey's administration building of 1912–1914, in early Amsterdam School style, had a children's clinic as its southern half; that was demolished in 1991.
 
     The hospital merged into the AMC in 1981 and the university took over. On 1 September 2025 the surgical clinic opened as the new University Library, with a glass roof over its courtyard.
 
@@ -265,7 +266,8 @@
     - a carved baby under the letters SPQA at the top of Van der Mey's front on the Grimburgwal
     - the gate with T GASTHVISHOF (1732) in the front of the former St Bernardus home, Oude Turfmarkt 139
     - the long brick front of the clinic and nurses' home on the Kloveniersburgwal
-  category: hidden-history
+    - 1875 on the clock turret of the old waiting rooms, Oudezijds Achterburgwal 235–237, and MANNENKLINIEK and VROUWENKLINIEK on the clinic beside it, plus GASTHUIS-APOTHEEK in the frieze of Kloveniersburgwal 80
+  category: civic
   lat: 52.368611
   lng: 4.896001
   address: Kloveniersburgwal / Binnengasthuisstraat
@@ -277,7 +279,7 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: 518308, 518310, 5782
+    monument_number: 518308, 518310, 5782, 518306, 518307, 518305, 518309, 518304, 518302, 518303
     built: 1882–1914
     architect: "F.W.M. Poggenbeek, J.M. van der Mey, P.F. Laarman"
     listed: 2001
@@ -286,6 +288,7 @@
     - commons:File:Exterieur, overzicht voorgevel tweede Chirurgische kliniek - Amsterdam - 20320835 - RCE.jpg
     - commons:File:Amsterdam - Sint Bernardus Oude Turfmarkt 139.JPG
   sources:
+    - added at review: 518306 from oudezijde-2 (Oudezijds Achterburgwal 233-237, clinic of 1888-1890 with MANNENKLINIEK and VROUWENKLINIEK inscriptions); from extra-east 518307 (Kloveniersburgwal 80, 1887-88 pharmacy, GASTHUIS-APOTHEEK in the frieze), 518305 (Kloveniersburgwal 82-84, 1881 pharmacy lab), 518309 (Kloveniersburgwal 86-88, 1908-09 kitchen and nurses' home), 518304 (Oudezijds Achterburgwal 235-237, 1875 waiting rooms, clock turret dated 1875), 518302 (Turfdraagsterpad 1-9, 1868-70 maternity clinic by Godefroy), 518303 (Turfdraagsterpad 15-17, 1874-77 women's clinic)
     - rce:518308 (Second Surgical Clinic and nurses' home, Poggenbeek, clinic 1897–1900, 1898 working day to ten hours, nurses 85 to 111, extensions 1900–01 and 1913–14 on the Kloveniersburgwal)
     - rce:518310 (administration building 1913–14, J.M. van der Mey, early Amsterdam School; children's clinic half demolished 1991; Grimburgwal front with sculpture of a baby under SPQA)
     - rce:5782 (St Bernardus 1882–1884, P.F. Laarman, gate T GASTHVISHOF 1732 that led to the Binnengasthuis grounds)
@@ -294,9 +297,9 @@
     title: Binnengasthuis, van gevreesd gasthuis tot universiteitsbibliotheek
     summary: "Drie eeuwen lang het stadsziekenhuis, en in de negentiende eeuw een berucht: zeshonderd zieken op twee artsen, en kraamvrouwenkoorts die verviervoudigde door ongewassen handen. De chirurgische kliniek werd in 2025 de universiteitsbibliotheek."
     body: |
-      Na de Alteratie van 1578 trokken de stedelijke gasthuizen hier in leeggekomen kloosters, en vanaf 1635 heette het geheel het Binnengasthuis. In de negentiende eeuw stond het slecht bekend. Een Oostenrijkse arts telde er in 1852 twee dokters op zeshonderd zieken. Nadat in 1828 een afdeling chirurgie was geopend, verviervoudigde de sterfte aan kraamvrouwenkoorts: artsen en studenten sneden in lijken en hielpen daarna bij bevallingen zonder hun handen te wassen. Pas na 1880 kreeg de antiseptische geneeskunde een kans.
+      Na de Alteratie van 1578 trokken de stedelijke gasthuizen hier in leeggekomen kloosters, en vanaf 1635 heette het geheel het Binnengasthuis. In de negentiende eeuw stond het slecht bekend. Nadat in 1828 een afdeling chirurgie was geopend, verviervoudigde de sterfte aan kraamvrouwenkoorts: artsen en studenten sneden in lijken en hielpen daarna bij bevallingen zonder hun handen te wassen. Pas na 1880 kreeg de antiseptische geneeskunde een kans.
 
-      De gebouwen van nu komen uit de vernieuwing van 1868-1913. De Tweede Chirurgische Kliniek van F.W.M. Poggenbeek is van 1897-1900, met een zusterhuis dat moest groeien toen de werkdag van de verpleegsters in 1898 werd teruggebracht tot tien uur en hun aantal van 85 naar 111 ging. Het administratiegebouw van J.M. van der Mey uit 1912-1914, in vroege Amsterdamse Schoolstijl, had als zuidelijke helft een kinderkliniek; die werd in 1991 gesloopt.
+      De gebouwen van nu komen uit de vernieuwing van 1868-1913, te beginnen met een nieuwe kraamkliniek aan het Turfdraagsterpad. De Tweede Chirurgische Kliniek van F.W.M. Poggenbeek is van 1897-1900, met een zusterhuis. Het administratiegebouw van J.M. van der Mey uit 1912-1914, in vroege Amsterdamse Schoolstijl, had als zuidelijke helft een kinderkliniek; die werd in 1991 gesloopt.
 
       In 1981 ging het gasthuis op in het AMC en kwam de universiteit. Op 1 september 2025 ging de chirurgische kliniek open als de nieuwe Universiteitsbibliotheek, met een glazen dak boven de binnenplaats.
 
@@ -304,6 +307,7 @@
       - een gebeeldhouwde zuigeling onder de letters SPQA boven in de gevel van Van der Mey aan de Grimburgwal
       - het poortje met T GASTHVISHOF (1732) in de gevel van het voormalige gesticht St. Bernardus, Oude Turfmarkt 139
       - de lange bakstenen gevel van kliniek en zusterhuis aan de Kloveniersburgwal
+      - 1875 op het klokkentorentje van de oude wachtkamers, Oudezijds Achterburgwal 235–237, MANNENKLINIEK en VROUWENKLINIEK op de kliniek ernaast, en GASTHUIS-APOTHEEK in de fries van Kloveniersburgwal 80
     attributes:
       original_use: Stadsziekenhuis
     sources:
@@ -325,7 +329,7 @@
     - the entrance gate of the convent at Barndesteeg 6
     - the plastered fronts of the convent wing at numbers 4 to 12
     - the three separate doors of the 1915 school, for school, board and caretaker
-  category: hidden-history
+  category: religious
   lat: 52.372361
   lng: 4.898721
   address: Barndesteeg 6
@@ -382,7 +386,7 @@
     Look for:
     - the three neck gables, rebuilt in the 20th-century restoration, over a front with little sandstone blocks
     - Pieter de Keyser's gate of 1633: its pediment shows Pope Urban I, patron saint of winegrowing, who replaced an earlier Bacchus on a barrel
-  category: hidden-history
+  category: civic
   lat: 52.371999
   lng: 4.898313
   address: Koestraat 10-12
@@ -552,7 +556,7 @@
     - the gate with Tuscan half-columns on the Oude Hoogstraat and the vaulted tunnel behind it
     - the gables around the courtyard, among them a trapezium-shaped one of 1606, with bands and small blocks of light stone
     - the square turret with its curved spire over the Sint-Jorishof wing on the Dwars Spinhuissteeg
-  category: hidden-history
+  category: civic
   lat: 52.370803
   lng: 4.898121
   address: Oude Hoogstraat 24
@@ -890,6 +894,7 @@
     Look for:
     - the curved front on the Amstel side, best seen from the Muntplein or the Rokin
     - the round corner bay of the hotel, and opposite, the spire-topped dormer of Oude Turfmarkt 153
+    - the former Labouchère Oyens bank of 1889–90 at Nieuwe Doelenstraat 12–14, part of the hotel since 2010
   category: hidden-history
   lat: 52.367660
   lng: 4.894309
@@ -901,7 +906,7 @@
   attributes:
     rank: Okay
     heritage_status: National + municipal monument
-    monument_number: 518434, 202041
+    monument_number: 518434, 202041, 518440
     built: 1895–1898
     architect: W. Hamer
     listed: 2001
@@ -909,6 +914,7 @@
   photos:
     - commons:File:Hotel de l'europe.jpg
   sources:
+    - rce:518440 (added at review from extra-east: Nieuwe Doelenstraat 12-14, 1889-90 Labouchère Oyens bank office by Poggenbeek, part of Hotel de l'Europe since the 2008-2010 works; Volksuniversiteit secretariat 1913-23, Theodoor Gilissen bank 1922-2006, aodk)
     - rce:518434 (1895–96, W. Hamer, N.V. De Nederlandsche Hotelmaatschappij; floors added 1898; extension 1910–11 and 1987)
     - city:202041 (Oude Turfmarkt 153, 1898, W. Hamer; with the hotel opposite a fine urban pair; round corner bay on the hotel, spire dormer on the Turfmarkt side across)
     - https://nl.wikipedia.org/wiki/De_L'Europe_Amsterdam (Rondeel about 1480, controlled the Amstel, demolished 1633, inn 1638, Hotel Rondeel demolished 1895, opened 1896, Hamer also Vondelpark pavilion; curve still in the frontage; Hitchcock Foreign Correspondent 1940; German officers in the war; Freddy's Bar after Freddy Heineken; five-star)
@@ -925,6 +931,7 @@
       Let op:
       - de gebogen gevel aan de Amstelkant, het best te zien vanaf het Muntplein of het Rokin
       - de ronde hoekerker van het hotel, en ertegenover de dakkapel met spits van Oude Turfmarkt 153
+      - de voormalige bank Labouchère Oyens uit 1889–90 op Nieuwe Doelenstraat 12–14, sinds 2010 deel van het hotel
     attributes:
       original_use: Hotel; winkel-woonhuis
     sources:
@@ -1003,7 +1010,7 @@
     - C.A. Stout's sculpture group of 1924 in the pediment, an allegory of the exchange
     - the bronze bull in front of the entrance
     - the ring of rosettes halfway up each lantern, once fitted with little bulbs and now empty
-  category: curiosities
+  category: civic
   lat: 52.374255
   lng: 4.895241
   address: Beursplein 5
@@ -1116,7 +1123,7 @@
     - INDUSTRIA in black letters over the round-arched entrance on the Dam
     - the barrel-vaulted porch of light brown brick with glazed tiles set in, and the ornate iron doors
     - the Beurspoortje passage running through the building
-  category: hidden-history
+  category: civic
   lat: 52.372492
   lng: 4.893433
   address: Dam 25

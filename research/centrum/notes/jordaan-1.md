@@ -34,16 +34,16 @@ curl (bot check). No browser was used.
 | 204002 | Bloemstraat's buildings for the poorest (nos. 129–145) |
 | 598 | Bloemstraat's buildings for the poorest (no. 189, unexplained gable stone, Look for) |
 | 518325 | Bloemgrachtkerk |
-| 213030 | De Voorzienigheid (pin, motherhouse) |
-| 205009 | De Voorzienigheid (St. Mariaschool) |
-| 200534 | De Voorzienigheid (orphanage of 1901) |
+| 213030 | De Voorzienigheid (pin, motherhouse) REVIEW: added at review to jordaan-2 "De Voorzienigheid's hidden chapel and the ad agency inside" |
+| 205009 | De Voorzienigheid (St. Mariaschool) REVIEW: added at review to jordaan-2 "De Voorzienigheid's hidden chapel and the ad agency inside" |
+| 200534 | De Voorzienigheid (orphanage of 1901) REVIEW: added at review to jordaan-2 "De Voorzienigheid's hidden chapel and the ad agency inside" |
 | 209001 | Theo Thijssen school (pin, no. 157) |
 | 200455 | Theo Thijssen school (school of 1874, no. 155) |
 | 3184 | Eelke van Houten's second-hand gables (pin) |
 | 3190 | Eelke van Houten's second-hand gables |
 | 5057 | Eelke van Houten's second-hand gables |
-| 280 | Eelke van Houten's second-hand gables (Anjeliersstraat 23, Look for) |
-| 213060 | Eelke van Houten's second-hand gables (Egelantiersgracht 191–195, Look for) |
+| 280 | Eelke van Houten's second-hand gables (Anjeliersstraat 23, Look for) REVIEW: added at review to jordaan-3 "Palmgracht 12–16, three rescued tops on one block" |
+| 213060 | Eelke van Houten's second-hand gables (Egelantiersgracht 191–195, Look for) REVIEW: added at review to jordaan-3 "Palmgracht 12–16, three rescued tops on one block" |
 | 3185 | Eelke van Houten's second-hand gables (dentist gable stone, Look for) |
 | 3189 | Eelke van Houten's second-hand gables (1641 gable stone, Look for) |
 | 213018 | Hoppe's wine house on the Egelantiersgracht (pin) |

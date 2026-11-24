@@ -9,7 +9,7 @@
   body: |
     In 1852 a group of well-off Amsterdammers, among them the former mayor Pieter Huidekoper, founded the Vereeniging ten behoeve der Arbeidersklasse (association for the benefit of the working class), the first housing association in the Netherlands. Each member put in 2,000 guilders for at most 3% interest. The homes were meant for respectable families: that meant paying the rent promptly and taking in no lodgers, and drunkenness or indecent behaviour meant eviction.
 
-    This L-shaped block on the street named after Huidekoper was the association's showpiece. Pieter Hamer, who designed several of its blocks, put 72 homes and two corner shops behind one symmetrical front, 28 windows wide, with white plastered strips marking each stair entrance and rounded corners at both ends. It hardly fell short of the fine houses going up at the same time on the Westeinde and Oosteinde, opposite the Paleis voor Volksvlijt. At the back, each home had a small extension for the kitchen and the privy.
+    Its first large block, on today's Planciusstraat (1856), was a plain model; this L-shaped block of 1869–70, on the street named after Huidekoper, was its showpiece. Pieter Hamer, who designed several of its blocks, put 72 homes and two corner shops behind one symmetrical front, 28 windows wide, with white plastered strips marking each stair entrance and rounded corners at both ends. It hardly fell short of the fine houses going up at the same time on the Westeinde and Oosteinde, opposite the Paleis voor Volksvlijt. At the back, each home had a small extension for the kitchen and the privy.
 
     The city took the association over in stages from 1962, and almost all of its houses are now let by the housing corporation Ymere. Look from the street.
 
@@ -40,13 +40,14 @@
     - rce:518435 (block of 72 workers' homes and two shops, 1869-70, eclectic, P.J. Hamer, for the Vereeniging ten behoeve der Arbeidersklasse; L-shaped; Huidekoperstraat front 28 window bays; white plastered lisenes at entrance and stair bays; symmetric, mirrored; middle four bays richer with balustrade between the dormers; three-bay corner parts with rounded middle bay; balustrades gone by 1996; rear extensions originally kitchen and privy; one of the first complexes of the oldest housing association in Amsterdam)
     - https://nl.wikipedia.org/wiki/Vereeniging_ten_behoeve_der_Arbeidersklasse_te_Amsterdam (founded 21 Feb 1852, first housing association in the Netherlands; f 2000 per member at max 3% interest; former mayor Pieter Huidekoper a founder, street named after him; tenants only 'nette' people measured by punctual rent; no lodgers; drunkenness and public indecency meant eviction; Huidekoperstraat block by Hamer, 72 homes and corner shops, the VAK's showpiece, front unusually monumental, scarcely less grand than the houses of the well-to-do on West- and Oosteinde opposite the Paleis voor Volksvlijt; city bought shares 1962, management 1973, bought 1984; almost all VAK homes now let by Ymere)
     - places/wetering-1.yaml, Jacob Olie's house, Huidekoperstraat 19 (city:205051)
+    - review: aligned with haarlemmer-2 Planciusblok (same association, VAK, founded 1852 and the first in the country per nl.wikipedia; Planciusblok 1856 its first large block, after an 1853 block on Oostenburg; Huidekoperstraat 1869-70 its showpiece)
   nl:
     title: Huidekoperstraat, het paradepaardje van de eerste woningbouwvereniging
     summary: "Tweeënzeventig arbeiderswoningen uit 1869–1870 achter een gevel die niet onderdoet voor een rij herenhuizen. Ze zijn gebouwd door de eerste woningbouwvereniging van Nederland, die de huur op tijd wilde zien en dronkaards op straat zette."
     body: |
       In 1852 richtten welgestelde Amsterdammers, onder wie oud-burgemeester Pieter Huidekoper, de Vereeniging ten behoeve der Arbeidersklasse op, de eerste woningbouwvereniging van Nederland. Elk lid legde 2000 gulden in, tegen hooguit 3% rente. De woningen waren voor nette gezinnen, en netjes betekende vooral: stipt de huur betalen. Inwonende kostgangers mochten niet, en wie dronk of zich onzedelijk gedroeg, moest eruit.
 
-      Dit L-vormige blok aan de straat die naar Huidekoper heet, was het paradepaardje van de vereniging. Pieter Hamer, die meer blokken voor haar tekende, zette 72 woningen en twee hoekwinkels achter één symmetrische gevel van 28 ramen breed. Witte gepleisterde lisenen markeren de trappenhuizen en aan beide uiteinden lopen de hoeken rond. In allure deed het nauwelijks onder voor de herenhuizen die tegelijk verrezen aan het West- en Oosteinde, tegenover het Paleis voor Volksvlijt. Achter elke woning zat een uitbouwtje voor keuken en privaat.
+      Haar eerste grote blok, aan de huidige Planciusstraat (1856), was een sober voorbeeld; dit L-vormige blok uit 1869–70, aan de straat die naar Huidekoper heet, werd haar paradepaardje. Pieter Hamer, die meer blokken voor haar tekende, zette 72 woningen en twee hoekwinkels achter één symmetrische gevel van 28 ramen breed. Witte gepleisterde lisenen markeren de trappenhuizen en aan beide uiteinden lopen de hoeken rond. In allure deed het nauwelijks onder voor de herenhuizen die tegelijk verrezen aan het West- en Oosteinde, tegenover het Paleis voor Volksvlijt. Achter elke woning zat een uitbouwtje voor keuken en privaat.
 
       Vanaf 1962 nam de gemeente de vereniging stap voor stap over, en bijna al haar huizen worden nu verhuurd door woningcorporatie Ymere. Kijk vanaf de straat.
 
@@ -259,9 +260,9 @@
     - the clock faces on the corner tower
     - Rietveld's glass drum with the METZ letters on the roof
     - the grid of concrete-framed windows at Kerkstraat 45–49
-  category: hidden-history
-  lat: 52.366216
-  lng: 4.886587
+  category: civic
+  lat: 52.366203
+  lng: 4.886615
   address: Keizersgracht 455 / Leidsestraat / Kerkstraat 45-49
   links:
     - { label: Rijksmonumentenregister (408905), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/408905" }
@@ -496,7 +497,7 @@
     - the corner oriel and the turret with a weathervane in the gable
     - the iron hoisting beams between the top windows
     - the ceramic tiles under the eaves
-  category: curiosities
+  category: industrial
   lat: 52.364282
   lng: 4.886080
   address: Prinsengracht 739-741
@@ -606,7 +607,7 @@
     - the glazed top floor of the studios
     - the row of eight slanting roof windows
     - the neo-Renaissance plaques under the side windows
-  category: hidden-history
+  category: civic
   lat: 52.366747
   lng: 4.890898
   address: Singel 512

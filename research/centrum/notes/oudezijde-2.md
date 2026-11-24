@@ -22,7 +22,7 @@ Group places are pinned on the record marked (pin).
 | 214041 | Oudezijds Achterburgwal 192 | no story found: 1921 rebuilt business premises; register |
 | 6094 | Oudezijds Achterburgwal 210 | no story found: 18th-c pair with back houses (with 129, 128, 6095); register |
 | 129 | Oudezijds Achterburgwal 212 | no story found: back house of OZV 245, intact 18th-c kitchen wing; register |
-| 518306 | Oudezijds Achterburgwal 233-237 | no story found as a separate place: Binnengasthuis clinic of 1888–1890 (MANNENKLINIEK and VROUWENKLINIEK inscriptions, round lecture theatres); belongs with oudezijde-1 "Binnengasthuis, from dreaded hospital to university library" (decision below) |
+| 518306 | Oudezijds Achterburgwal 233-237 | no story found as a separate place: Binnengasthuis clinic of 1888–1890 (MANNENKLINIEK and VROUWENKLINIEK inscriptions, round lecture theatres); belongs with oudezijde-1 "Binnengasthuis, from dreaded hospital to university library" (decision below) REVIEW: added at review to oudezijde-1 Binnengasthuis (Look for line) |
 | 6102 | Oudezijds Voorburgwal 14 | Het Wapen van Riga, a timber house in a brick coat |
 | 200532 | Oudezijds Voorburgwal 28 | no story found: Blom auction hall behind a closed gate, not visible; register |
 | 6107 | Oudezijds Voorburgwal 40 | A-list, parked (Ons' Lieve Heer op Solder) |
@@ -43,7 +43,7 @@ Group places are pinned on the record marked (pin).
 | 6096 | Oudezijds Voorburgwal 249 | Huis aan de Drie Grachten and its wartime bookshop |
 | 201020 | Oudezijds Voorburgwal 266 | Tobacco offices dressed as canal houses |
 | 6150 | Oudezijds Voorburgwal 274, Sint Pietershalsteeg | Vleeshal and the Brakke Grond gate, theatre and anatomy over the meat market (pin) |
-| 208021 | Oudezijds Voorburgwal 302 | no story found: 1892 W. Hamer building next to the Stadsbank; register (could join oudezijde-1 Stadsbank place, see Leads) |
+| 208021 | Oudezijds Voorburgwal 302 | no story found: 1892 W. Hamer building next to the Stadsbank; register (could join oudezijde-1 Stadsbank place, see Leads) REVIEW: added at review to oudezijde-1 Stadsbank van Lening |
 | 208022 | Oudezijds Voorburgwal 308 | no story found: 1914 white plastered corner building; register |
 | 208023 | Oudezijds Voorburgwal 326 | no story found: 1920 Duncker business premises; register |
 | 208024 | Oudezijds Voorburgwal 334 | no story found: 1896 shop-house; register |

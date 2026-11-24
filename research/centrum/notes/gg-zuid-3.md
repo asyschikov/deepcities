@@ -34,7 +34,7 @@ Group places are pinned on the record marked (pin).
 | 212045 | Reguliersdwarsstraat 15, Singel 490 | no story found: 1882 corner house; register |
 | 212040 | Reguliersdwarsstraat 32-34 | no story found: 1886 warehouse-style front; register |
 | 200736 | Reguliersdwarsstraat 50-64 | The Carlton crash and the gap it left |
-| 202047 | Reguliersdwarsstraat 90 | other slice: Incassobank archive building (Blomhert, then Gratama, 1928-29), belongs with gg-zuid-1's "The Incassobank's Mercury and its Paris corner"; not drafted |
+| 202047 | Reguliersdwarsstraat 90 | other slice: Incassobank archive building (Blomhert, then Gratama, 1928-29), belongs with gg-zuid-1's "The Incassobank's Mercury and its Paris corner"; not drafted REVIEW: added at review to gg-zuid-1 "The Incassobank's Mercury" (Look for line) |
 | 4897 | Reguliersgracht 57-59 | Reguliersgracht 57-59, a medieval house of 1879 |
 | 4958 | Rembrandtplein 1 | no story found: 1874 front, former police office, nothing visible beyond the front; register |
 | 4974 | Rembrandtplein 9 | no story found: plain 18th/19th c. front; register |
@@ -48,7 +48,7 @@ Group places are pinned on the record marked (pin).
 | 5399 | Singel 446 | De Krijtberg, the Jesuits' church squeezed between canal houses |
 | 210053 | Singel 458 | Singel 458, the Mennonite nurses' house |
 | 5406 | Singel 460 | Odeon, from brewery to concert hall to gay disco |
-| 518360 | Singel 468, Koningsplein 6 | other slice: Winkelhuis H. Meijer / Nieuw Engeland, belongs in gg-zuid-2's "Koningsplein, the rag-trade square"; not drafted |
+| 518360 | Singel 468, Koningsplein 6 | other slice: Winkelhuis H. Meijer / Nieuw Engeland, belongs in gg-zuid-2's "Koningsplein, the rag-trade square"; not drafted REVIEW: added at review to gg-zuid-2 Koningsplein (Look for line) |
 | 210054 | Singel 494 | no story found: 1881 house front; register |
 | 200738 | Singel 542-548 | The Carlton crash and the gap it left (pin) |
 | 518357 | Rembrandtplein | A-list, parked (Rembrandt statue, centrepiece of the A-list Rembrandtplein; see decision below) |
@@ -71,24 +71,24 @@ Group places are pinned on the record marked (pin).
 | 201049 | Vijzelstraat 81, Keizersgracht 660 | no story found: 1926 Amsterdam School former pharmacy, style only; register |
 | 201046 | Vijzelstraat 107 | no story found: 1894 east-side front; register |
 | 201047 | Vijzelstraat 111 | no story found: 1894 east-side front; register |
-| 280605 | behind Keizersgracht 620 | Garden houses behind the southern canals |
-| 280702 | behind Keizersgracht 641-645 | Garden houses behind the southern canals |
-| 280201 | behind Herengracht 418 | Garden houses behind the southern canals |
-| 280202 | behind Herengracht 434-438 | Garden houses behind the southern canals |
-| 280404 | behind Herengracht 452/454 | Garden houses behind the southern canals |
-| 280203 | behind Herengracht 546 | Garden houses behind the southern canals (pin) |
-| 280204 | behind Herengracht 568 | Garden houses behind the southern canals |
-| 280405 | behind Herengracht 582 | Garden houses behind the southern canals |
-| 280406 | behind Herengracht 584 | Garden houses behind the southern canals |
-| 280401 | behind Keizersgracht 439 | Garden houses behind the southern canals |
-| 280402 | behind Keizersgracht 441 | Garden houses behind the southern canals |
-| 280403 | behind Keizersgracht 443 | Garden houses behind the southern canals |
-| 280601 | behind Keizersgracht 449 | Garden houses behind the southern canals |
-| 280602 | behind Keizersgracht 501 | Garden houses behind the southern canals |
-| 280603 | behind Keizersgracht 570 | Garden houses behind the southern canals |
-| 280604 | behind Keizersgracht 586 | Garden houses behind the southern canals |
-| 280701 | behind Keizersgracht 638 | Garden houses behind the southern canals |
-| 280703 | behind Keizersgracht 794 | Garden houses behind the southern canals |
+| 280605 | behind Keizersgracht 620 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280702 | behind Keizersgracht 641-645 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280201 | behind Herengracht 418 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280202 | behind Herengracht 434-438 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280404 | behind Herengracht 452/454 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280203 | behind Herengracht 546 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280204 | behind Herengracht 568 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280405 | behind Herengracht 582 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280406 | behind Herengracht 584 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280401 | behind Keizersgracht 439 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280402 | behind Keizersgracht 441 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280403 | behind Keizersgracht 443 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280601 | behind Keizersgracht 449 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280602 | behind Keizersgracht 501 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280603 | behind Keizersgracht 570 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280604 | behind Keizersgracht 586 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280701 | behind Keizersgracht 638 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
+| 280703 | behind Keizersgracht 794 | no story found: garden house, invisible from the street (garden-house group dropped at review) |
 
 ## Conflicts and uncertainties
 

@@ -23,9 +23,9 @@ Group places are pinned on the record marked (pin).
 | 3644 | Lijnbaansgracht 279 | no story found: 17th-c house, 19th-c cornice; register |
 | 3646 | Lijnbaansgracht 281 | no story found: 17th-c house, 19th-c cornice; register |
 | 3647 | Lijnbaansgracht 282-283 | no story found: low wide 18th-c house; register |
-| 212021 | Lijnbaansgracht 289 | no story found: 1879 refront for H.F. van Breemen; register (business not identified) |
-| 212022 | Lijnbaansgracht 290 | no story found: register text is a copy of no. 289's; nothing more found |
-| 212023 | Lijnbaansgracht 296 | no story found: 1879 twin of 289, name "H.F. van BREEMEN" in relief; register (business not identified) |
+| 212021 | Lijnbaansgracht 289 | no story found: 1879 refront for H.F. van Breemen; register (business not identified) REVIEW: drafted at review as new place "H.F. van Breemen, the peat dealer whose dredgers dug the Amsterdamse Bos" (wetering-2) |
+| 212022 | Lijnbaansgracht 290 | no story found: register text is a copy of no. 289's; nothing more found REVIEW: drafted at review as new place "H.F. van Breemen, the peat dealer whose dredgers dug the Amsterdamse Bos" (wetering-2) |
+| 212023 | Lijnbaansgracht 296 | no story found: 1879 twin of 289, name "H.F. van BREEMEN" in relief; register (business not identified) REVIEW: drafted at review as new place "H.F. van Breemen, the peat dealer whose dredgers dug the Amsterdamse Bos" (wetering-2) |
 | 200421 | Lijnbaansgracht 308 / Vijzelgracht 63 | no story found: 1893 rich corner by D. van Oort, no register text |
 | 210046 | Sarphatistraat 13 | Sarphatistraat 7–13, survivors of a vanished row (pin) |
 | 203038 | Marnixstraat 396 | Maison Stroucken, the party hall inside DeLaMar |
@@ -69,7 +69,7 @@ Group places are pinned on the record marked (pin).
 | 208049 | Prinsengracht 770-772 | no story found: 1920 Tabak house-and-office; register |
 | 208050 | Prinsengracht 774 | no story found: 1896 Bögeholtz own house; register |
 | 208057 | Prinsengracht 802 | no story found: 1903 flamboyant front by Van Schaick; register |
-| 518367 | Prinsengracht 808 / Utrechtsestraat 119 | no story found: 1906 Van Gendt insurance building, 1916 piano store; register, nl.wikipedia |
+| 518367 | Prinsengracht 808 / Utrechtsestraat 119 | no story found: 1906 Van Gendt insurance building, 1916 piano store; register, nl.wikipedia REVIEW: drafted at review as new place "Prinsengracht 808, the insurer's corner with a moral in tiles" (wetering-2) |
 | 208051 | Prinsengracht 842 | no story found: 1898 sandstone front by W. Hamer; register |
 | 208052 | Prinsengracht 860 | no story found: 1916 office by L.J. de Wolf; register |
 | 215004 | Reguliersgracht 109-115 | no story found: c. 1875-80 boys' school by B. de Greef, now probation service; register |

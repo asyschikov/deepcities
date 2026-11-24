@@ -50,7 +50,7 @@ Group places are pinned on the record marked (pin). No pins were moved from the 
 | 209047 | Weteringschans 99 | no story found: 1898 Venemans flats; register, AODK |
 | 209042 | Weteringschans 104 | no story found: 1892 Baanders house for textile merchant Sabelson; register, AODK |
 | 209059 | Weteringschans 106 | no story found: 1890 Langhout house with notary's office; register, AODK |
-| 213054 | Weteringschans 108 | belongs with wetering-2's "Nicolaas Witsenkade, the houses on the old gasworks": a second neo-Venetian house by Ed. Cuypers (1891) on the gasworks site, for D.H. Franco Mendes and the singer J.E. Franco Mendes-Calisch, with painted blind windows. Not drafted; suggest adding 213054 to that place's numbers and a Look-for line |
+| 213054 | Weteringschans 108 | belongs with wetering-2's "Nicolaas Witsenkade, the houses on the old gasworks": a second neo-Venetian house by Ed. Cuypers (1891) on the gasworks site, for D.H. Franco Mendes and the singer J.E. Franco Mendes-Calisch, with painted blind windows. Not drafted; suggest adding 213054 to that place's numbers and a Look-for line REVIEW: added at review to wetering-2 Nicolaas Witsenkade (Look for line) |
 | 213055 | Weteringschans 128 | no story found: 1890 Deenik twin of no. 126, now a restaurant; register |
 | 209043 | Weteringschans 133-137 | no story found: 1897 Van Gendt, 1906 shop front, now a supermarket; register, AODK |
 | 200110 | Weteringschans 138-140 / Westeinde 2-26 | no story found: c. 1870 row, bank front at no. 26; register, nl.wikipedia Westeinde |

@@ -133,7 +133,7 @@
     - the figures higher up: the lighter the load, the slimmer they are
     - four window bays instead of the usual three
     - the round windows with a carved garland above the old side doors
-  category: curiosities
+  category: housing
   lat: 52.367589
   lng: 4.912120
   address: Henri Polaklaan 25
@@ -314,7 +314,7 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: "518488"
+    monument_number: 518488, 200367
     built: "1898"
     architect: Jonas Ingenohl
     listed: 2001
@@ -322,6 +322,7 @@
   photos:
     - commons:File:Wertheimpark fontein.jpg
   sources:
+    - city:200367 (added at review from plantage-2: Wertheimpark entrance gate with sphinxes, already in the Look for list)
     - rce:518488 (Ingenohl 1898, unveiled 3 October 1898, octagonal basin, eight granite columns, column with portrait medallion, park public since 1897)
     - https://nl.wikipedia.org/wiki/Fontein_Wertheimpark (committee within days, basins of ten and four metres, dolphins, pelicans as symbol of charity)
     - https://nl.wikipedia.org/wiki/Wertheimpark (only park in Centrum, park since 1812, street proposal and comparison with Sarphati, council in May 1898, renamed Parktuin 14 August 1942 to May 1945, Auschwitz monument)
@@ -1082,14 +1083,14 @@
 - title: Wittenberg (Luther Museum)
   summary: "A Lutheran home for 300 old people, built in 1769–1772 on land the city gave for nothing. It doubled as an orphanage, and the orphans had their own front door. Today it is a short-stay hotel with the Luther Museum in the old regents' rooms."
   body: |
-    One long front, two front doors, as far apart as they could be: the left one led to the old people, the right one to the orphans, which is why it is still sometimes called the Wezenpoort (orphans' gate). The Lutheran diaconate, the church's charity board, could build it thanks to a large bequest from Abraham Kromhuijsen and his sister. The city gave the plot along the Muidergracht, now the Nieuwe Keizersgracht, free of charge and asked no excise, so the house could grow bigger than planned. The merchant and art collector Jan Gildemeester laid the first stone on 6 September 1769, for a home of three storeys and 300 residents, designed by Coenraad Hoeneker. For much of the 19th century it was also the Lutheran orphanage.
+    One long front, two front doors, as far apart as they could be: the left one led to the old people, the right one to the orphans, which is why it is still sometimes called the Wezenpoort (orphans' gate). The Lutheran diaconate, the church's charity board, could build it thanks to a large bequest from Abraham Kromhuijsen and his sister. The city gave the plot along the Muidergracht, now the Nieuwe Keizersgracht, free of charge and asked no excise, so the house could grow bigger than planned. Jan Gildemeester laid the first stone on 6 September 1769, for a home of three storeys and 300 residents, designed by Coenraad Hoeneker. For much of the 19th century it was also the Lutheran orphanage.
 
-    The old people moved to a new building in Osdorp in 1967. The house was renamed Wittenberg, after Luther's town, and served as a nursing home until 2015. Since December 2017 it has been a short-stay hotel with 115 apartments, and the Luther Museum Amsterdam fills the former regents' rooms, telling the story of the Lutheran church in the city and its care for the poor. The museum entrance is at no. 570, open Wednesday to Sunday, 11:00 to 17:00.
+    The old people moved to a new building in Osdorp in 1967. The house was renamed Wittenberg, after Luther's town, and served as a nursing home until 2015. Since December 2017 it has been a short-stay hotel with 115 apartments, and the Luther Museum Amsterdam fills the former regents' rooms. The museum entrance is at no. 570, open Wednesday to Sunday, 11:00 to 17:00.
 
     Look for:
     - the two wide doors at either end of the front, each with two lanterns
     - the clock in the pediment over the middle bay
-    - the garden wall with gate posts and lanterns beside the building
+    - round the corner on the Nieuwe Kerkstraat, the hospital wing of 1856 and the nursing wing of 1876 with its corner turret
   category: civic
   lat: 52.365411
   lng: 4.909192
@@ -1102,7 +1103,7 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: "525060"
+    monument_number: 525060, 525061
     built: 1769–1772
     architect: Coenraad Hoeneker
     listed: 2001
@@ -1110,6 +1111,7 @@
   photos:
     - commons:File:Amsterdam - Nieuwe Keizersgracht 570.jpg
   sources:
+    - rce:525061 (added at review from extra-east: Nieuwe Kerkstraat 159, 1856 hospital wing by Hendrik Springer and 1876 nursing wing with corner turret, part of the Lutheran diaconate complex)
     - rce:525060 (main building 1769–1771 with two courtyards, pediment with clock, a wide door at each end with stoops and two lanterns each, left to the old people and right to the orphans, hence Wezenpoort, garden wall with lanterns, organ by Flaes 1872)
     - "https://nl.wikipedia.org/wiki/Wittenberg_(Amsterdam) (1772, Coenraad Hoeneker, bequest of Abraham and Johanna Maria Kromhuijsen, plot given free and no excise, larger than planned, first stone 6 September 1769 by Jan Gildemeester Jansz., three storeys, 300 residents, orphanage for much of the 19th century, move to Osdorp 1967, renamed Wittenberg 1968, closed 2015, short stay with 115 apartments since December 2017, Luther Museum round the regents' rooms, entrance Nieuwe Keizersgracht 570)"
     - https://www.luthermuseum.nl/ (opening hours Wednesday to Sunday 11:00–17:00, checked November 2026)
@@ -1117,14 +1119,14 @@
     title: Wittenberg (Luther Museum)
     summary: "Een luthers tehuis voor 300 ouden van dagen, in 1769–1772 gebouwd op grond die de stad voor niets gaf. Het was ook weeshuis, en de wezen hadden hun eigen voordeur. Nu is het een short-stay-hotel, met het Luther Museum in de oude regentenkamers."
     body: |
-      Eén lange gevel met twee voordeuren, zo ver mogelijk uit elkaar: de linker was voor de ouden van dagen, de rechter voor de weeskinderen. Daarom heet het gebouw soms nog de Wezenpoort. De Lutherse diaconie kon het bouwen dankzij een flinke erfenis van Abraham Kromhuijsen en zijn zuster. Het stadsbestuur gaf de grond langs de Muidergracht, nu de Nieuwe Keizersgracht, voor niets en vroeg geen accijns, waardoor het huis groter kon worden dan eerst de bedoeling was. Koopman en kunstverzamelaar Jan Gildemeester legde op 6 september 1769 de eerste steen van een huis van drie verdiepingen voor 300 bewoners, naar ontwerp van Coenraad Hoeneker. Een groot deel van de negentiende eeuw was het ook het lutherse weeshuis.
+      Eén lange gevel met twee voordeuren, zo ver mogelijk uit elkaar: de linker was voor de ouden van dagen, de rechter voor de weeskinderen. Daarom heet het gebouw soms nog de Wezenpoort. De Lutherse diaconie kon het bouwen dankzij een flinke erfenis van Abraham Kromhuijsen en zijn zuster. Het stadsbestuur gaf de grond langs de Muidergracht, nu de Nieuwe Keizersgracht, voor niets en vroeg geen accijns, waardoor het huis groter kon worden dan eerst de bedoeling was. Jan Gildemeester legde op 6 september 1769 de eerste steen van een huis van drie verdiepingen voor 300 bewoners, naar ontwerp van Coenraad Hoeneker. Een groot deel van de negentiende eeuw was het ook het lutherse weeshuis.
 
-      In 1967 verhuisden de bejaarden naar nieuwbouw in Osdorp. Het gebouw heette voortaan Wittenberg, naar de stad van Luther, en was tot 2015 verpleeghuis. Sinds december 2017 is het een short-stay-hotel met 115 appartementen, en in de vroegere regentenkamers zit het Luther Museum Amsterdam, over de lutherse kerk in de stad en haar zorg voor de armen. De ingang van het museum is op nummer 570, open van woensdag tot en met zondag, 11.00 tot 17.00 uur.
+      In 1967 verhuisden de bejaarden naar nieuwbouw in Osdorp. Het gebouw heette voortaan Wittenberg, naar de stad van Luther, en was tot 2015 verpleeghuis. Sinds december 2017 is het een short-stay-hotel met 115 appartementen, en in de vroegere regentenkamers zit het Luther Museum Amsterdam. De ingang van het museum is op nummer 570, open van woensdag tot en met zondag, 11.00 tot 17.00 uur.
 
       Let op:
       - de twee brede deuren aan de uiteinden van de gevel, elk met twee lantaarns
       - de wijzerplaat in het fronton boven het middendeel
-      - de tuinmuur met hekpijlers en lantaarns naast het gebouw
+      - om de hoek aan de Nieuwe Kerkstraat de ziekenhuisvleugel uit 1856 en de verplegingsvleugel uit 1876 met hoektorentje
     attributes:
       original_use: Luthers oudemannen- en vrouwenhuis en weeshuis
     sources:
@@ -1147,7 +1149,7 @@
     - the semicircular bay on the left with a balcony of cast-iron tendrils
     - the fluted pilasters marking the wider left-hand bay
     - the mansard roof and the dormer with a broken pediment
-  category: curiosities
+  category: civic
   lat: 52.367611
   lng: 4.911004
   address: Henri Polaklaan 14
@@ -1327,7 +1329,7 @@
     - carved corbels and panels around the entrances on both canals
     - the jutting stair tower in glass beside the entrance on the Nieuwe Achtergracht
     - the tower-like crown over the entrance on the Nieuwe Prinsengracht
-  category: curiosities
+  category: civic
   lat: 52.364265
   lng: 4.912537
   address: Nieuwe Achtergracht 129

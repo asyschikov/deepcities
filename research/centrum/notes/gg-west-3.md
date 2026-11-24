@@ -11,7 +11,7 @@ Group places are pinned on the record marked (pin).
 |---|---|---|
 | 204026 | Keizersgracht 11 | no story found: 1939 front by Van Hardeveld; register, search |
 | 204027 | Keizersgracht 18 | no story found: 1886 house "Bordeaux", name only; register, search |
-| 2457 | Keizersgracht 22 | De Zaaier, the church that became a wrestling gym |
+| 2457 | Keizersgracht 22 | The old De Zaaier on the Keizersgracht, the church that became a wrestling gym (retitled at review) |
 | 204028 | Keizersgracht 25 | no story found: 1896 front by Jacot; register, search |
 | 2460 | Keizersgracht 40 | Groenlandse Pakhuizen (the whale-oil warehouses) |
 | 2461 | Keizersgracht 42 | Groenlandse Pakhuizen (the whale-oil warehouses) (pin) |

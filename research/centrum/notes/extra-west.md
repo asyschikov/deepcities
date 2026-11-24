@@ -9,7 +9,7 @@ Group places are pinned on the record marked (pin).
 
 | monnr | address | outcome |
 |---|---|---|
-| 518300 | Damrak 26 | fits existing place: "De Utrecht, the insurance office with baboons on the roof" (nieuwezijde-1.yaml); shop wing of the same De Utrecht complex 518298, UTRECHT tile panel; add the number there |
+| 518300 | Damrak 26 | fits existing place: "De Utrecht, the insurance office with baboons on the roof" (nieuwezijde-1.yaml); shop wing of the same De Utrecht complex 518298, UTRECHT tile panel; add the number there REVIEW: added at review to nieuwezijde-1 De Utrecht (Look for line) |
 | 518424 | Damrak 37-38 | no story found: 1903 Sanders exchange office, beer cellar, monkeys at the alley gate; register, aodk |
 | 518425 | Damrak 81 | no story found: 1903 Buitenlandsche Bankvereeniging, sober art nouveau; register, aodk (no page) |
 | 518427 | Gravenstraat 14 | De Drie Fleschjes, the liqueur distillery behind the Nieuwe Kerk |
@@ -28,7 +28,7 @@ Group places are pinned on the record marked (pin).
 | 518342 | Driekoningenstraat 17, Herengracht 201 | no story found: 1917 Vermeer & Co. bank office, Poggenbeek; register |
 | 518339 | Herengracht 179-189 | Kas-Associatie, two cashiers' banks and an elephant clock |
 | 518353 | Herengracht 208-216 | no story found: 1917 Pierson & Co. bank, Schreuder sculpture; register, aodk (no page) |
-| 518493 | Herengracht 213 | fits existing place: "Raadhuisstraat, a tram street cut through the canals" (gg-west-4.yaml) as an extra number; 1896 Van Gendt corner shop for a shipowner, later a stock-quote reading room (aodk); no story of its own |
+| 518493 | Herengracht 213 | fits existing place: "Raadhuisstraat, a tram street cut through the canals" (gg-west-4.yaml) as an extra number; 1896 Van Gendt corner shop for a shipowner, later a stock-quote reading room (aodk); no story of its own REVIEW: added at review to gg-west-4 Raadhuisstraat |
 | 518349 | Herengracht 260-266 | no story found: 1917 Nederlandsche Lloyd insurance office, historicising; register |
 | 518337 | Herengracht 286 | no story found: 1920 Deli-Batavia tobacco office, later art history institute; register, aodk |
 | 518331 | Herengracht 320-324 | no story found: 1919 Lutkie & Smit paper trade office; register |
@@ -38,17 +38,17 @@ Group places are pinned on the record marked (pin).
 | 518355 | Keizersgracht 213 | The Assurantiehuis, with kangaroos for insurance |
 | 2305 | Keizersgracht 269 | no story found: 1617 house De Visser, painted wall hangings inside (private), British Council 1949; register, aodk (no page) |
 | 518356 | Keizersgracht 440 | no story found: 1897 Van de Waal clothing workshop; register, aodk (no page) |
-| 515510 | Korsjespoortsteeg 24 | fits existing place: "De Drie Traancoopers, the house that turned to face the canal" (gg-west-2.yaml); this record's text replaces the old description of Herengracht 77 and covers the same house; add the number there |
-| 518377 | Raadhuisstraat 15 | fits existing place: "Raadhuisstraat, a tram street cut through the canals" (gg-west-4.yaml); 1891 Gebouw voor den Koffiehandel, sample room facing north with an oak oriel for judging beans, coffee futures market until 1973 (aodk): worth one sentence there |
+| 515510 | Korsjespoortsteeg 24 | fits existing place: "De Drie Traancoopers, the house that turned to face the canal" (gg-west-2.yaml); this record's text replaces the old description of Herengracht 77 and covers the same house; add the number there REVIEW: added at review to gg-west-2 De Drie Traancoopers |
+| 518377 | Raadhuisstraat 15 | fits existing place: "Raadhuisstraat, a tram street cut through the canals" (gg-west-4.yaml); 1891 Gebouw voor den Koffiehandel, sample room facing north with an oak oriel for judging beans, coffee futures market until 1973 (aodk): worth one sentence there REVIEW: added at review to gg-west-4 Raadhuisstraat (Look for line) |
 | 518375 | Raadhuisstraat 46-50 | The Raadhuisstraat gallery and 't Binnenhuis |
-| 518499 | Raadhuisstraat 52-54, Keizersgracht 185 | fits existing place: "Raadhuisstraat, a tram street cut through the canals" (gg-west-4.yaml); Van Arkel corner of 1902 for linen wholesaler J.D. Maks, next to no. 44; architect's name carved under the corner oriel |
+| 518499 | Raadhuisstraat 52-54, Keizersgracht 185 | fits existing place: "Raadhuisstraat, a tram street cut through the canals" (gg-west-4.yaml); Van Arkel corner of 1902 for linen wholesaler J.D. Maks, next to no. 44; architect's name carved under the corner oriel REVIEW: added at review to gg-west-4 Raadhuisstraat (Look for line) |
 | 518372 | Singel 340 | The city telephone exchange on the Singel |
-| 528386 | bij Herengracht 326 | fits existing place: "Garden houses behind the western canals" (gg-west-4.yaml); 18th-century stone garden house with satyr heads; private |
-| 528259 | bij Herengracht 344 | fits existing place: "Garden houses behind the western canals" (gg-west-4.yaml); early 18th-century wooden garden house; private |
-| 528262 | bij Keizersgracht 374 | fits existing place: "Garden houses behind the western canals" (gg-west-4.yaml); late 18th-century two-storey garden house, Louis XVI interior; private |
+| 528386 | bij Herengracht 326 | no story found (review: the garden-house group was dropped, invisible from the street); 18th-century stone garden house with satyr heads; private |
+| 528259 | bij Herengracht 344 | no story found (review: the garden-house group was dropped, invisible from the street); early 18th-century wooden garden house; private |
+| 528262 | bij Keizersgracht 374 | no story found (review: the garden-house group was dropped, invisible from the street); late 18th-century two-storey garden house, Louis XVI interior; private |
 | 518380 | Prinseneiland 24 | Breitner's studio on the Prinseneiland |
 | 518323 | Eerste Passeerdersdwarsstraat 51-65, Passeerdersstraat 13 | Hana's model homes, the oldest workers' housing still standing |
-| 518321 | Egelantiersgracht 2 | fits existing place: "Gunters & Meuser, an ironmonger's name cut in stone" (jordaan-4.yaml), which already names the 1917 Vorkink and Wormser building in its text and Look for; add the number there |
+| 518321 | Egelantiersgracht 2 | fits existing place: "Gunters & Meuser, an ironmonger's name cut in stone" (jordaan-4.yaml), which already names the 1917 Vorkink and Wormser building in its text and Look for; add the number there REVIEW: added at review to jordaan-4 Gunters & Meuser |
 | 518348 | Egelantiersstraat 141-143 | Koning Willemshuis, a club for the people of the Jordaan |
 | 518317 | Goudsbloemstraat 125-139 | Bouwonderneming Jordaan, an experiment that proved a point |
 | 518316 | Lindengracht 206-220 | Bouwonderneming Jordaan, an experiment that proved a point (pin) |

@@ -78,7 +78,7 @@
     - Cuypers's sandstone front, with round stair turrets, behind the glass
     - the winged dog on the pediment over the old main door
     - Krop's memorial at no. 404
-  category: hidden-history
+  category: civic
   lat: 52.364564
   lng: 4.880572
   address: Marnixstraat 396–402
@@ -575,7 +575,7 @@
   body: |
     The quay between the Pieter Pauwstraat and the Weteringplantsoen was once the Hollandsche Gasfabriek: coal ships at the quay, a gasholder, a coal shed and a little fire station. Around 1885 the city chose another gas supplier, and from 1891 a building company covered the site with three long blocks, some of the last new streets laid out inside the canal belt.
 
-    The houses facing the Singelgracht got the richest fronts. On the corner of the Pieter Pauwstraat, Eduard Cuypers built a house in 1889–1890 for the diamond dealer David Sanders, in a neo-Venetian style rarely seen in the Netherlands; the photographer Jacob Olie caught it under construction while he was photographing skippers. A few doors along, H.G. Jansen, co-architect of the American Hotel, designed no. 32 in 1895 for an estate agent and a builder, in yellow brick with pink stone; the tiles under its gutter show trades, among them a hammer and compasses. At nos. 33–36 the same year, flats went up for the middle class, and the Pieter Pauwstraat got a plainer row with three shops.
+    The houses facing the Singelgracht got the richest fronts. On the corner of the Pieter Pauwstraat, Eduard Cuypers built a house in 1889–1890 for the diamond dealer David Sanders, in a neo-Venetian style rarely seen in the Netherlands; the photographer Jacob Olie caught it under construction. A few doors along, H.G. Jansen, co-architect of the American Hotel, designed no. 32 in 1895 for an estate agent and a builder, in yellow brick with pink stone; the tiles under its gutter show trades, among them a hammer and compasses. At nos. 33–36 the same year, flats went up for the middle class, and the Pieter Pauwstraat got a plainer row with three shops.
 
     All are private homes and offices, seen from the quay.
 
@@ -583,6 +583,7 @@
     - the gold stencilled ornament on pastel green on the top floor of no. 38
     - the tile frieze with tools under the gutter of no. 32
     - the green glazed rims round the windows of nos. 33–36, and the gable on the left that never got its twin on the right
+    - at Weteringschans 108, a second neo-Venetian house by Ed. Cuypers (1891), with painted blind windows
   category: housing
   lat: 52.358244
   lng: 4.897173
@@ -597,7 +598,7 @@
   attributes:
     rank: Okay
     heritage_status: National + municipal monument
-    monument_number: 518436, 518466, 214029, 214030, 214031, 214032, 214051, 215047
+    monument_number: 518436, 518466, 214029, 214030, 214031, 214032, 214051, 215047, 213054
     built: 1889–1896
     architect: Eduard Cuypers (38), H.G. Jansen (32), H.H. Baanders (33-36), G.J. Venemans (19-21), W. Langhout (22), W.J. Nijman (Pieter Pauwstraat)
     original_use: Town houses and flats
@@ -606,6 +607,7 @@
     - commons:File:Nicolaas Witsenkade 32 Amsterdam.jpg
     - commons:File:Nicolaas Witsenkade 38, 39 tm 45 (vlnr) Jacob Olie (max res).jpg
   sources:
+    - city:213054 (added at review from wetering-3: Weteringschans 108, 1891 neo-Venetian house by Ed. Cuypers on the gasworks site for D.H. Franco Mendes and the singer J.E. Franco Mendes-Calisch, painted blind windows)
     - rce:518436 (1889-90 house for one family on the corner of the Pieter Pauwstraat by Ed. Cuypers for D. Sanders, neo-Venetian style rare in the Netherlands, yellow brick, stencilled ornaments in gold on pastel green on the second floor)
     - rce:518466 (1895 double house by H.G. Jansen for A.P. Nielsen and B.C. Hamer jr., eclectic with neo-Venetian and Jugendstil, yellow brick with red stone, tile frieze under the gutter with images of various trades)
     - city:214032 (corner house 1890 by J.H. van Abbe; three blocks of the 1890s on the site of the former Hollandsche Gasfabriek, among the last 19th-century insertions inside the canal belt, Nicolaas Witsenstraat continuing the Reguliersgracht, richer quay houses)
@@ -621,7 +623,7 @@
     body: |
       De kade tussen de Pieter Pauwstraat en het Weteringplantsoen was ooit het terrein van de Hollandsche Gasfabriek, met kolenschepen aan de wal, een gashouder, een kolenloods en een brandspuithuisje. Rond 1885 koos de gemeente voor een andere gasleverancier, en vanaf 1891 bebouwde een maatschappij voor bouwterreinen het terrein met drie lange blokken: een van de laatste stukjes nieuwe stad binnen de grachtengordel.
 
-      De huizen aan de Singelgracht kregen de rijkste gevels. Op de hoek van de Pieter Pauwstraat bouwde Eduard Cuypers in 1889–1890 een huis voor diamantair David Sanders, in een neo-Venetiaanse stijl die je in Nederland zelden ziet; fotograaf Jacob Olie legde de bouw toevallig vast toen hij schippers aan het fotograferen was. Een paar deuren verder ontwierp H.G. Jansen, medearchitect van het American Hotel, in 1895 nummer 32 voor een makelaar en een bouwondernemer, in gele baksteen met roze steen; de tegels onder de goot tonen beroepen, met onder meer een hamer en passers. Op 33–36 verrezen datzelfde jaar etagewoningen voor de middenklasse, en de Pieter Pauwstraat kreeg een soberder rij met drie winkels.
+      De huizen aan de Singelgracht kregen de rijkste gevels. Op de hoek van de Pieter Pauwstraat bouwde Eduard Cuypers in 1889–1890 een huis voor diamantair David Sanders, in een neo-Venetiaanse stijl die je in Nederland zelden ziet; fotograaf Jacob Olie legde de bouw vast. Een paar deuren verder ontwierp H.G. Jansen, medearchitect van het American Hotel, in 1895 nummer 32 voor een makelaar en een bouwondernemer, in gele baksteen met roze steen; de tegels onder de goot tonen beroepen, met onder meer een hamer en passers. Op 33–36 verrezen datzelfde jaar etagewoningen voor de middenklasse, en de Pieter Pauwstraat kreeg een soberder rij met drie winkels.
 
       Het zijn woonhuizen en kantoren, te zien vanaf de kade.
 
@@ -629,6 +631,7 @@
       - de gouden sjabloonornamenten op pastelgroen op de bovenste verdieping van nummer 38
       - het tegelfries met gereedschap onder de goot van nummer 32
       - de groen geglazuurde randen rond de ramen van 33–36, en de topgevel links die rechts nooit een tweelingbroer kreeg
+      - op Weteringschans 108 een tweede neo-Venetiaans huis van Ed. Cuypers (1891), met beschilderde blinde ramen
     attributes:
       architect: Eduard Cuypers (38), H.G. Jansen (32), H.H. Baanders (33-36), G.J. Venemans (19-21), W. Langhout (22), W.J. Nijman (Pieter Pauwstraat)
       original_use: Herenhuizen en etagewoningen
@@ -762,3 +765,116 @@
     sources:
       - https://nl.wikipedia.org/wiki/Sarphatistraat_8
       - city:203049
+
+# ================================================================ Added at review (records with a story after all)
+
+- title: H.F. van Breemen, the peat dealer whose dredgers dug the Amsterdamse Bos
+  summary: "A stone shopfront on the Lijnbaansgracht still carries the name of H.F. van Breemen, a dealer in peat, coal and coke whose smithy built steam-driven peat dredgers. One of his machines dug out the polder that became the Amsterdamse Bos."
+  body: |
+    Across the stone shopfront of Lijnbaansgracht 296 runs a name in relief: H.F. VAN BREEMEN. He rebuilt this house in 1879, with a wide double door to his business between the house doors, and did the same to nos. 289 and 290 a few doors along.
+
+    Van Breemen traded in peat, coal and coke, and supplied fuel to schools and the city's poor-relief board. Around 1894 he was for a time polder master of the Middelveldsche Akerpolder, where peat had been dug since the 1870s. He also owned a smithy on the Haarlemmer Houttuinen that built peat dredgers: steam-driven machines that worked far faster than men dredging by hand. One of his machines was used to dig out the peat of the Rietwijkeroordpolder, now the Amsterdamse Bos, and of the Vinkeveense Plassen.
+
+    The three houses are private homes. See them from the quay.
+
+    Look for:
+    - H.F. van BREEMEN in relief over the middle door of no. 296
+    - the stone stair with wrought-iron rails to the house door on the left
+    - the carved consoles under the cornice and the round-topped dormer of nos. 289 and 290
+  category: industrial
+  lat: 52.361279
+  lng: 4.888082
+  address: Lijnbaansgracht 289, 290 and 296
+  links:
+    - { label: Monumentenregister Amsterdam (296), url: "https://data.amsterdam.nl/monumenten/f259f99c-0150-48f4-96a4-f63264b9089e" }
+    - { label: Monumentenregister Amsterdam (289), url: "https://data.amsterdam.nl/monumenten/e1801bd1-1651-4d3c-b597-47b3a47d5ee6" }
+    - { label: Amsterdam op de kaart Lijnbaansgracht 296, url: "https://amsterdamopdekaart.nl/1850-1940/Lijnbaansgracht/296" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 212023, 212021, 212022
+    built: "1879"
+    listed: 2006
+    original_use: Fuel business with flats
+  sources:
+    - city:212023 (Lijnbaansgracht 296, rebuilt 1879 for H.F. van Breemen; name of the owner and his firm in relief over the business entrance; stone stair with wrought-iron balustrades to the house door on the left; carved consoles; listed 2006)
+    - city:212021, city:212022 (Lijnbaansgracht 289 and 290, rebuilt 1879 for H.F. van Breemen, who also owned no. 296; folding-style double door to the business, carved consoles, round-arched wooden dormer)
+    - https://amsterdamopdekaart.nl/1850-1940/Lijnbaansgracht/296 (fetched at review: H.F. van Breemen, dealer in peat, coal and coke, supplied schools and the burgerlijk armenbestuur; around 1894 poldermeester of the Middelveldsche Akerpolder, peat dug there from the 1870s; smithy on the Haarlemmer Houttuinen making steam peat dredgers; one used for the Rietwijkeroordpolder, now Amsterdamse Bos, and the Vinkeveense Plassen; last updated March 2017)
+    - Drafted at review from _status-pass.md "Records with a story after all"
+  nl:
+    title: H.F. van Breemen, de turfhandelaar wiens baggermachines het Amsterdamse Bos uitgroeven
+    summary: "Op een stenen pui aan de Lijnbaansgracht staat nog de naam van H.F. van Breemen, handelaar in turf, kolen en cokes, wiens smederij veensteekmachines op stoom bouwde. Met een van zijn machines werd de polder uitgegraven die nu het Amsterdamse Bos is."
+    body: |
+      Over de hardstenen pui van Lijnbaansgracht 296 loopt een naam in reliëf: H.F. VAN BREEMEN. Hij liet dit pand in 1879 verbouwen, met tussen de huisdeuren een brede dubbele deur naar zijn bedrijf, en deed hetzelfde met nummer 289 en 290, een paar deuren verderop.
+
+      Van Breemen handelde in turf, kolen en cokes en leverde brandstof aan onder meer scholen en het burgerlijk armbestuur. Rond 1894 was hij een tijd poldermeester van de Middelveldsche Akerpolder, waar sinds de jaren 1870 turf werd gestoken. Ook had hij een smederij aan de Haarlemmer Houttuinen die veensteekmachines bouwde: baggerschepen op stoom die veel sneller werkten dan baggeraars met de hand. Met een van zijn machines werden de Rietwijkeroordpolder, nu het Amsterdamse Bos, en de Vinkeveense Plassen uitgeveend.
+
+      De drie panden zijn woonhuizen. Je bekijkt ze vanaf de kade.
+
+      Let op:
+      - H.F. van BREEMEN in reliëf boven de middelste deur van nummer 296
+      - de hardstenen stoep met smeedijzeren leuningen naar de huisdeur links
+      - de gesneden consoles onder de kroonlijst en de rondboogdakkapel van 289 en 290
+    attributes:
+      original_use: Brandstoffenhandel met bovenwoningen
+    sources:
+      - "https://data.amsterdam.nl/monumenten/f259f99c-0150-48f4-96a4-f63264b9089e"
+      - https://amsterdamopdekaart.nl/1850-1940/Lijnbaansgracht/296
+
+- title: Prinsengracht 808, the insurer's corner with a moral in tiles
+  summary: "A corner building of 1906 for a life insurer from The Hague, with a tile panel at the door showing two roads through life, one insured and one not. The Hague's stork looks down from the turret, and the café on the corner is named after it."
+  body: |
+    In 1906 the life insurance company 's-Gravenhage, a mutual society from The Hague, had the brothers Van Gendt build this corner block of shops, flats and offices where the Utrechtsestraat meets the Prinsengracht. It is a solid traditionalist building with a round bay window that rises into a little stepped-gable turret on the corner.
+
+    The insurer used the front to sell its product. In the round-arched porch on the Prinsengracht, between the two doors, a large tile panel shows two paths of life side by side: an insured life and an uninsured one. Over the arch a second panel carries the company's name between two Amsterdam coats of arms. Higher up, a tile panel in the turret's gable shows a stork, the emblem of The Hague. From 1916 the two lower floors were a piano showroom.
+
+    The corner is now a café, Onder de Ooievaar (under the stork), so you can sit beneath the bird with a beer; the floors above are homes and offices.
+
+    Look for:
+    - the tile panel of the insured and the uninsured life between the doors on the Prinsengracht
+    - 's-Gravenhage between two Amsterdam arms over the arch
+    - the stork in the turret's little stepped gable
+    - two carved heads under the corner bay
+  category: curiosities
+  lat: 52.361901
+  lng: 4.899173
+  address: Prinsengracht 808, Utrechtsestraat 119
+  links:
+    - { label: Rijksmonumentenregister (518367), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/518367" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/16509194-220b-4515-9e55-a315055d15a9" }
+    - { label: Wikipedia (nl) Prinsengracht 808, url: "https://nl.wikipedia.org/wiki/Prinsengracht_808" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "518367"
+    built: 1906–1907
+    architect: Gebr. van Gendt
+    listed: 2001
+    original_use: Shops, flats and offices of a life insurer
+  photos:
+    - commons:File:RM518367 Prinsengracht 808 (detail).jpg
+  sources:
+    - rce:518367 (1906-1907 shop building with flats and office rooms by Gebr. van Gendt ALzn. for De Onderlinge Levensverzekering Mij. 's-Gravenhage; 1916 ground and first floor joined as a piano showroom; round bay from the second floor ending in a turret with a spire, stepped gable with a tile panel; stone frieze with two carved heads under the bay; between the doors a large tile panel showing two paths of life, an insured and an uninsured life; above the arch a panel with the company name flanked by the Amsterdam arms)
+    - https://nl.wikipedia.org/wiki/Prinsengracht_808 (A.D.N. and J.G. van Gendt; tile panel over the entrance refers to the insurer; turret as corner accent)
+    - https://www.fodors.com/world/europe/netherlands/amsterdam/restaurants/reviews/onder-de-ooievaar-150973010 (café Onder de Ooievaar, Utrechtsestraat 119, named after the stork tile panel on the turret) and https://www.ommetjemettom.nl/editorial/onder-de-ooievaar (2026, per the status pass; Cloudflare blocks curl). The stork is The Hague's emblem
+    - Drafted at review from _status-pass.md "Records with a story after all"
+  nl:
+    title: Prinsengracht 808, de verzekeringshoek met een moraal in tegels
+    summary: "Een hoekpand uit 1906 van een levensverzekeraar uit Den Haag, met bij de deur een tegeltableau van twee levenswegen, een verzekerde en een onverzekerde. Vanaf het torentje kijkt de Haagse ooievaar neer, en het café op de hoek is naar hem genoemd."
+    body: |
+      In 1906 liet levensverzekeraar 's-Gravenhage, een onderlinge maatschappij uit Den Haag, de gebroeders Van Gendt op de hoek van Utrechtsestraat en Prinsengracht een blok bouwen met winkels, bovenwoningen en kantoren. Het is een degelijk traditionalistisch gebouw met een ronde erker die op de hoek uitloopt in een torentje met een trapgeveltje.
+
+      De verzekeraar gebruikte de gevel als reclame. In het rondboogportiek aan de Prinsengracht laat een groot tegeltableau tussen de twee deuren twee levenswegen naast elkaar zien: een verzekerd en een onverzekerd leven. Boven de boog staat op een tweede tableau de naam van de maatschappij, tussen twee Amsterdamse wapens. Hoger, in het geveltje van het torentje, zit een tegeltableau met een ooievaar, het wapendier van Den Haag. Vanaf 1916 waren de onderste twee verdiepingen een pianomagazijn.
+
+      Op de hoek zit nu café Onder de Ooievaar, dus je kunt met een biertje onder de vogel gaan zitten; boven zijn woningen en kantoren.
+
+      Let op:
+      - het tableau met het verzekerde en het onverzekerde leven tussen de deuren aan de Prinsengracht
+      - 's-Gravenhage tussen twee Amsterdamse wapens boven de boog
+      - de ooievaar in het trapgeveltje van het torentje
+      - twee gebeeldhouwde koppen onder de hoekerker
+    attributes:
+      original_use: Winkels, woningen en kantoren van een levensverzekeraar
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/518367
+      - https://nl.wikipedia.org/wiki/Prinsengracht_808

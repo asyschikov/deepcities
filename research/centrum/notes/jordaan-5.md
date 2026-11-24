@@ -21,8 +21,8 @@ only the slice's `wikidata.images`.
 
 | monnr | Outcome |
 |---|---|
-| 200454 | De Zaaier, the church the beauty committee lost to (pin, church/Fatih mosque) |
-| 215011 | De Zaaier (Roothaanhuis, the parish club house opposite) |
+| 200454 | Fatih mosque, the new De Zaaier church the beauty committee lost to (pin, church/Fatih mosque) |
+| 215011 | Fatih mosque, the new De Zaaier church (Roothaanhuis, the parish club house opposite) |
 | 206037 | Bols on the Rozengracht, and the year 1575 (pin, Berlage/Cuypers complex 't Lootsje) |
 | 5089 | Bols (Rozengracht 106, inner house restored by Bols 1957, Bols Taveerne) |
 | 5090 | Bols (Rozengracht 110, 1671 warehouse used by Bols) |
@@ -65,7 +65,7 @@ only the slice's `wikidata.images`.
 | 5088 | Three gable stones (no. 80, 't Land van Beloften) |
 | 5084 | An insurer's branch with its head office in tiles (Rozengracht 58) |
 | 206036 | Club Mazzo, behind an upholsterer's granite front (gone) |
-| 212005 | Belongs to Sint Andrieshofje (jordaan-1): Tweede Leliedwarsstraat 3-9, four shops with flats built 1896 by A.M. Bruning for the board of the Sint Andrieshofje (an investment for the hofje); worth a Look for line there |
+| 212005 | Belongs to Sint Andrieshofje (jordaan-1): Tweede Leliedwarsstraat 3-9, four shops with flats built 1896 by A.M. Bruning for the board of the Sint Andrieshofje (an investment for the hofje); worth a Look for line there REVIEW: added at review to jordaan-1 "Sint Andrieshofje" (Look for line) |
 | 5061 | No story found: neck gable 1743 (1740 in the gable); wiki |
 | 5063 | No story found: simple bell gable, joined to 35/39 via the Vossenhofje passage; wiki |
 | 5075 | No story found: 18th-c. neck gable with remains of arms; wiki |

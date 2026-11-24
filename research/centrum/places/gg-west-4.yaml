@@ -246,7 +246,7 @@
     Look for:
     - the main entrance on the Westermarkt and the second one on the Keizersgracht
     - the Homomonument at its feet
-  category: hidden-history
+  category: civic
   lat: 52.374748
   lng: 4.884934
   address: Westermarkt 2, Keizersgracht 198
@@ -292,16 +292,18 @@
 - title: Raadhuisstraat, a tram street cut through the canals
   summary: "In 1895 the city filled in a canal and knocked a bend through the canal belt to run a tram from the Dam to the new west. The fronts that rose along the gap, from 1897 to 1935, show the old residential canal belt turning into offices and shops."
   body: |
-    The Raadhuisstraat got its name on 27 February 1895. To make it, the Warmoesgracht between the Singel and the Herengracht was filled in, and between the Herengracht and the Keizersgracht a breach was cut through the blocks. Because the streets on either side did not line up, it came out as an S-bend, and several canal houses were demolished. George Hendrik Breitner photographed and painted the breakthrough. A horse tram ran here from 1896.
+    The Raadhuisstraat got its name on 27 February 1895. To make it, the Warmoesgracht between the Singel and the Herengracht was filled in, and between the Herengracht and the Keizersgracht a breach was cut through the blocks. Because the streets on either side did not line up, it came out as an S-bend. George Hendrik Breitner photographed and painted the breakthrough. A horse tram ran here from 1896.
 
-    The north side filled with new buildings. No. 20-22 (1897) was an office for an insurer founded in 1771, which stayed until 1959; its architect, Louis Rieber, was better known as a writer and for years the secretary of the Maatschappij tot Bevordering der Bouwkunst. No. 44 (1903, F.M.J. Caron) housed an office giving free advice on insurance, and no. 42 (1910, Jac. Duncker) was designed as its partner; from 1913 a firm there sold projectors for "salon cinemas". Nos. 36-40 (1935) replaced an annex of a Catholic orphanage, once used as a home for Catholic unemployed men, and long held a sports shop.
+    The north side filled with new buildings. No. 20-22 (1897) was an office for an insurer founded in 1771, which stayed until 1959; its architect, Louis Rieber, was better known as a writer. No. 44 (1903, F.M.J. Caron) housed an office giving free advice on insurance, and no. 42 (1910, Jac. Duncker) was designed as its partner; from 1913 a firm there sold projectors for "salon cinemas". Nos. 36-40 (1935) replaced an annex of a Catholic orphanage.
+
+    Across the street, no. 15 (1891) was built for the coffee trade, with a sample room facing north so the beans could be judged in even light; the coffee futures market met there until 1973.
 
     All are shops and homes or offices, seen from the street.
 
     Look for:
     - the two Jugendstil fronts of nos. 42 and 44, side by side
-    - the bend of the street between the Herengracht and the Keizersgracht
     - the neo-Renaissance gables and iron balcony railings of no. 20-22
+    - the oak oriel of the coffee sample room on no. 15, and G. van Arkel's name carved under the corner oriel of nos. 52-54 (1902)
   category: infrastructure
   lat: 52.373934
   lng: 4.885927
@@ -315,7 +317,7 @@
   attributes:
     rank: Okay
     heritage_status: Municipal monument
-    monument_number: 203043, 203044, 203045, 203046
+    monument_number: 203043, 203044, 203045, 203046, 518377, 518499, 518493
     built: 1897–1935
     architect: L. Rieber, F.M.J. Caron, Jac. Duncker, W.B. Ouëndag
     listed: 2004
@@ -326,21 +328,24 @@
     - https://amsterdamopdekaart.nl/1850-1940/Raadhuisstraat/20-22 (Assurantie Compagnie van 1771 until 1959; Rieber secretary of the Maatschappij tot Bevordering der Bouwkunst for nearly 27 years)
     - city:203044 and https://amsterdamopdekaart.nl/1850-1940/Raadhuisstraat/36-40 (1935, Ouëndag; annex of the R.K. Gesticht at Herengracht 182, Tehuis voor R.K. Werkloozen; sports shop Neef until the 1990s)
     - city:203045, city:203046 (Duncker's 42 designed as pendant to Caron's 44; Jugendstil; 44 damaged by an early 1950s alteration)
+    - extra-west ledger, added at review: 518377 Raadhuisstraat 15 (1891 Gebouw voor den Koffiehandel, north-facing sample room with an oak oriel for judging beans, coffee futures market until 1973, aodk); 518499 Raadhuisstraat 52-54 / Keizersgracht 185 (1902, G. van Arkel, for linen wholesaler J.D. Maks, architect's name carved under the corner oriel); 518493 Herengracht 213 (1896 Van Gendt corner shop for a shipowner, later a stock-quote reading room, no line)
     - https://amsterdamopdekaart.nl/1850-1940/Raadhuisstraat/42 and /44 (from 1913 firm Kok with apparatus for a salon-bioscoop; Veldhuis's Centraal Bureau voor Verzekeringswezen with free information)
   nl:
     title: Raadhuisstraat, een tramstraat dwars door de grachten
     summary: "In 1895 dempte de stad een gracht en sloeg een bocht door de grachtengordel, voor een tram van de Dam naar het nieuwe westen. De gevels die tussen 1897 en 1935 langs die bres verrezen, laten zien hoe de grachtengordel van woonwijk kantoor- en winkelgebied werd."
     body: |
-      Op 27 februari 1895 kreeg de Raadhuisstraat haar naam. Daarvoor werd de Warmoesgracht tussen Singel en Herengracht gedempt, en tussen Herengracht en Keizersgracht werd een doorbraak dwars door de bouwblokken gemaakt. Omdat de straten aan weerszijden niet in elkaars verlengde lagen, werd het een S-bocht, en er gingen grachtenpanden tegen de vlakte. George Hendrik Breitner fotografeerde en schilderde de doorbraak. Vanaf 1896 reed hier een paardentram.
+      Op 27 februari 1895 kreeg de Raadhuisstraat haar naam. Daarvoor werd de Warmoesgracht tussen Singel en Herengracht gedempt, en tussen Herengracht en Keizersgracht werd een doorbraak dwars door de bouwblokken gemaakt. Omdat de straten aan weerszijden niet in elkaars verlengde lagen, werd het een S-bocht. George Hendrik Breitner fotografeerde en schilderde de doorbraak. Vanaf 1896 reed hier een paardentram.
 
-      Aan de noordkant kwam nieuwbouw. Nummer 20-22 (1897) werd een kantoor voor een verzekeraar uit 1771, die er tot 1959 bleef; architect Louis Rieber was vooral bekend als schrijver en was jarenlang secretaris van de Maatschappij tot Bevordering der Bouwkunst. In nummer 44 (1903, F.M.J. Caron) zat een bureau dat gratis advies over verzekeringen gaf, en nummer 42 (1910, Jac. Duncker) werd als tegenhanger ontworpen; vanaf 1913 verkocht een firma daar projectoren voor de "salon-bioscoop". Nummer 36-40 (1935) kwam in de plaats van een aanbouw van een katholiek weeshuis, die ooit dienstdeed als tehuis voor katholieke werklozen, en had lang een sportwinkel.
+      Aan de noordkant kwam nieuwbouw. Nummer 20-22 (1897) werd een kantoor voor een verzekeraar uit 1771, die er tot 1959 bleef; architect Louis Rieber was vooral bekend als schrijver. In nummer 44 (1903, F.M.J. Caron) zat een bureau dat gratis advies over verzekeringen gaf, en nummer 42 (1910, Jac. Duncker) werd als tegenhanger ontworpen; vanaf 1913 verkocht een firma daar projectoren voor de "salon-bioscoop". Nummer 36-40 (1935) kwam in de plaats van een aanbouw van een katholiek weeshuis.
+
+      Aan de overkant werd nummer 15 (1891) gebouwd voor de koffiehandel, met een monsterkamer op het noorden, zodat de bonen in gelijkmatig licht te beoordelen waren; tot 1973 kwam de koffietermijnmarkt er bijeen.
 
       Het zijn winkels met woningen of kantoren; je bekijkt ze vanaf de straat.
 
       Let op:
       - de twee jugendstilgevels van 42 en 44 naast elkaar
-      - de bocht in de straat tussen Herengracht en Keizersgracht
       - de neorenaissancegevel en de ijzeren balkonhekken van 20-22
+      - de eikenhouten erker van de koffiemonsterkamer op nr. 15, en de naam van G. van Arkel onder de hoekerker van 52-54 (1902)
     attributes:
       architect: L. Rieber, F.M.J. Caron, Jac. Duncker, W.B. Ouëndag
       original_use: Kantoren, winkels en woningen
@@ -1042,7 +1047,7 @@
     - Pegasus in the round pediment at the top of no. 16
     - the gable stone De Stadt Zutphen lower down
     - the leaded fanlights over the shop fronts
-  category: curiosities
+  category: housing
   lat: 52.368963
   lng: 4.88362
   address: Runstraat 14-18
@@ -1080,65 +1085,3 @@
     sources:
       - city:212043
       - https://amsterdamopdekaart.nl/1850-1940/Runstraat/14-18
-
-# ================================================================ Behind the canal houses
-
-- title: Garden houses behind the western canals
-  summary: "Behind the canal fronts hide garden houses the city listed one by one from 2005: an 18th-century pavilion with marble floors, a wooden summerhouse, a carpenter's 1930s guest house, and a garden pavilion by K.P.C. de Bazel."
-  body: |
-    Many canal houses had a garden at the back with a garden house at the end, often with a wide middle room and two narrow service rooms. In 2005–2010 the city listed fourteen of them in this stretch of the canal belt.
-
-    They range widely. Behind Herengracht 160, 220 and Keizersgracht 173 stand 18th-century ones of the classic type, with marble floors in the side rooms. The classicist one behind Herengracht 258 was turned into a bicycle shed in 1939 by the architect Jan Wils. Behind Keizersgracht 156 stands a wooden 19th-century summerhouse, perhaps inspired by Russian country cottages; behind Leliegracht 13, one of the few wooden ones of that century left in the inner city. Behind Herengracht 314 a carpenter built one in the 1930s. And behind Herengracht 280, in 1910, K.P.C. de Bazel made the middle room an open pavilion with a slate roof, the only known garden house in Amsterdam by a noted modern architect.
-
-    Behind Keizersgracht 164, owned by the Vrije Universiteit from 1900, a 17th-century wall survives with the gateway of the poor-relief bakery of the Nieuwezijds Huiszittenhuis; its stone lion holds an ear of corn.
-
-    Almost all are private and out of sight; the one behind Keizersgracht 416 now has its own address, Prinsengracht 557. During the Open Tuinen Dagen in June, run by Museum Van Loon, a changing selection of canal gardens opens to the public.
-
-    Look for:
-    - on Open Tuinen Dagen, the addresses on that year's list
-  category: green
-  lat: 52.370854
-  lng: 4.885838
-  address: Herengracht 160-314, Keizersgracht 135-173, Leliegracht 13, Prinsengracht 557 (gardens)
-  links:
-    - { label: Monumentenregister Amsterdam (Herengracht 280), url: "https://data.amsterdam.nl/monumenten/66344489-ce9d-4d52-8fe7-e4e5d1614bb2" }
-    - { label: Monumentenregister Amsterdam (Keizersgracht 164), url: "https://data.amsterdam.nl/monumenten/12e96db3-ca1c-482d-8e17-64d33ffd9ecb" }
-    - { label: Monumentenregister Amsterdam (Herengracht 258), url: "https://data.amsterdam.nl/monumenten/96de6620-6eea-4fcf-954a-d5314001d37b" }
-    - { label: Open Tuinen Dagen, url: "https://www.opentuinendagen.nl" }
-  attributes:
-    rank: Okay
-    heritage_status: Municipal monument
-    monument_number: 280104, 280101, 280102, 280802, 280103, 280105, 280301, 280302, 280303, 280304, 280606, 280801, 280803, 280305
-    built: 18th century–1930s
-    architect: K.P.C. de Bazel (Herengracht 280)
-    original_use: Garden houses
-  sources:
-    - city:280104 (Herengracht 280, 1910 by K.P.C. de Bazel during a rebuilding of the main house; traditional plan with an open middle room as a pavilion with a slate roof; no other garden houses by noted modern architects known in Amsterdam; Gosschalk's at Herengracht 132 lost)
-    - city:280101, city:280102, city:280801 (Herengracht 160, 220, Keizersgracht 173: one storey, wide central room and two narrow side rooms, 18th century; marble floors in side rooms at 160 and 173)
-    - city:280103 (Herengracht 258, strictly classicist, last quarter 18th century; 1939 permit for Jan Wils to convert it into a bicycle shed)
-    - city:280303 (Keizersgracht 156, wooden 19th-century summerhouse, possibly inspired by Russian country cottages)
-    - city:280803 (Leliegracht 13, one of the few wooden 19th-century garden houses left in the inner city)
-    - city:280105 (Herengracht 314, 1930s, by a carpenter without formal architectural training)
-    - city:280606 (Keizersgracht 164; Vrije Universiteit owned it from 1900, Kuyper lived there briefly; 17th-century wall and gateway to the bakery of the former Nieuwezijds Huiszittenhuis, about 1614, bakery renewed 1690; lion holding an ear of corn in the pediment)
-    - city:280802, city:280301, city:280302, city:280304, city:280305 (Herengracht 250, Keizersgracht 135, 147, 160, Prinsengracht 557)
-    - https://www.opentuinendagen.nl (Open Tuinen Dagen, Museum Van Loon; in June a series of canal gardens of private people and institutions opens to the public)
-  nl:
-    title: Tuinhuizen achter de westelijke grachten
-    summary: "Achter de grachtgevels staan tuinhuizen die de gemeente vanaf 2005 een voor een beschermde: een achttiende-eeuws tuinhuis met marmeren vloer, een houten prieel, een logeerhuisje van een timmerman uit de jaren dertig en een tuinpaviljoen van K.P.C. de Bazel."
-    body: |
-      Veel grachtenhuizen hadden achter een tuin met aan het eind een tuinhuis, vaak met een brede middenkamer en twee smalle dienstvertrekken. In 2005–2010 zette de gemeente er in dit deel van de grachtengordel veertien op de monumentenlijst.
-
-      Ze lopen sterk uiteen. Achter Herengracht 160 en 220 en Keizersgracht 173 staan achttiende-eeuwse van het klassieke type, met marmeren vloeren in de zijkamers. Het classicistische tuinhuis achter Herengracht 258 werd in 1939 door architect Jan Wils verbouwd tot fietsenstalling. Achter Keizersgracht 156 staat een houten negentiende-eeuws prieel, mogelijk geïnspireerd op Russische buitenhuisjes; achter Leliegracht 13 een van de weinige houten tuinhuizen uit die eeuw die de binnenstad nog heeft. Achter Herengracht 314 bouwde een timmerman er een in de jaren dertig. En achter Herengracht 280 maakte K.P.C. de Bazel in 1910 van de middenkamer een open prieel met een leien kapje, het enige bekende tuinhuis in Amsterdam van een bekende moderne architect.
-
-      Achter Keizersgracht 164, vanaf 1900 van de Vrije Universiteit, staat nog een zeventiende-eeuwse muur met het poortje van de bakkerij van het Nieuwezijds Huiszittenhuis, de armenzorg; de stenen leeuw erop houdt een korenaar vast.
-
-      Bijna allemaal zijn ze particulier en uit het zicht; dat van Keizersgracht 416 heeft inmiddels een eigen adres, Prinsengracht 557. Tijdens de Open Tuinen Dagen in juni, georganiseerd door Museum Van Loon, gaat elk jaar een wisselende reeks grachtentuinen open.
-
-      Let op:
-      - op de Open Tuinen Dagen, de adressen op de lijst van dat jaar
-    attributes:
-      architect: K.P.C. de Bazel (Herengracht 280)
-      original_use: Tuinhuizen
-    sources:
-      - city:280104, city:280101, city:280102, city:280801, city:280103, city:280303, city:280803, city:280105, city:280606
-      - https://www.opentuinendagen.nl

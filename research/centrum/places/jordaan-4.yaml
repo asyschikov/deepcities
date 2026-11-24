@@ -161,7 +161,7 @@
     - the pilasters, the attic and the double door of no. 19
     - the street sign of the Walenhoek, and down the alley the spout gable of no. 15 ending in volutes
     - the steel frame propping up the front of no. 17
-  category: hidden-history
+  category: civic
   lat: 52.367012
   lng: 4.881381
   address: Passeerdersgracht 15-19
@@ -339,13 +339,14 @@
   attributes:
     rank: Okay
     heritage_status: Municipal monument
-    monument_number: "208025"
+    monument_number: 208025, 518321
     built: "1883"
     listed: 2005
     original_use: Ironmonger's dispatch rooms with homes above
     check: Still there?
     check_note: Isero took the firm over in 2016 and its own website is gone; check whether the shop at Egelantiersgracht 2-6 still trades and what no. 108 is used for.
   sources:
+    - rce:518321 (added at review from extra-west: Egelantiersgracht 2, the 1917 Vorkink and Wormser building already named in the text and Look for)
     - city:208025 (1883, business building with upper homes, designer unknown; GUNTERS EN MEUSER carved in the entablature over the central entrance; original double door with wrought-iron grilles, fanlight with radiating bars; Gunters en Meuser since 1826, J.P. Gunters in shoemakers' tools and supplies, shop at Prinsengracht 46; later ironmongery, partnership with Meuser; Egelantiersgracht 2-6 of 1917-1918 by Vorkink and Wormser, rijksmonument; three-sided front marks the corner)
     - https://amsterdamopdekaart.nl/1850-1940/Prinsengracht/108 (bend in the front, one window on the Egelantiersgracht and three on the Prinsengracht per floor; before 1882 a shop in paper collars, cuffs and shirt fronts; auctioned 1882, bought by neighbour Gunters & Meuser; big gate, ground floor probably dispatch)
     - https://amsterdamopdekaart.nl/1850-1940/Egelantiersgracht/2-6 (still existing ironmonger; concrete building 1917-1918 by Vorkink and Wormser; Anno 1917 over the hoist; 1826 J.P. Gunters (1806-1897) and his mother opened a shop in shoemakers' tools and supplies at Prinsengracht 46 by the Prinsensluis; about 1851 at Egelantiersgracht 2, ironmongery; son J.P. Gunters jr. partner with H.J. Santveer 1870, Santveer died 1874, Carel Meuser 1875; 1882 Prinsengracht 108 bought; taken over 2016 by the Isero chain)

@@ -39,7 +39,7 @@ addresses; cafenol.nl did not resolve. No Commons API calls.
 | 211048 | Westerstraat's 1930s rebuild (114, Westerman 1932, named in body) |
 | 205055 | Burgerschool of 1867, the day school that flopped |
 | 209025 | Concordia on the Westerstraat, Peace be to this house |
-| 204042 | Belongs with jordaan-3's "Marnixstraat, workers' homes on the old ramparts": Westerkade 1-9 / Marnixstraat 215-231 is the third De Greef block of the same Amsterdamsche Vereeniging scheme (144 back-to-back homes, 1876-78; register names all three blocks as one complex). Suggest adding 204042 to that place's monument_number and a Look for line; not drafted here |
+| 204042 | Belongs with jordaan-3's "Marnixstraat, workers' homes on the old ramparts": Westerkade 1-9 / Marnixstraat 215-231 is the third De Greef block of the same Amsterdamsche Vereeniging scheme (144 back-to-back homes, 1876-78; register names all three blocks as one complex). Suggest adding 204042 to that place's monument_number and a Look for line; not drafted here REVIEW: added at review to jordaan-3 "Marnixstraat, workers' homes on the old ramparts" (Look for line) |
 | 215027 | No story found: 1880 corner double house on the Tweede Marnixplantsoen; register, wiki search |
 | 215028 | No story found: 1935 historicist workshop/shop/flats for Van Dam en Smitt, architect unknown beyond the name; register, wiki search |
 | 5059 | No story found: low 17th-c.(?) house with 18th-c. neck gable, twin of no. 16; register, wiki article |

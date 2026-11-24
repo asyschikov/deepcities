@@ -35,8 +35,8 @@ Group places are pinned on the record marked (pin).
 | 518374 | Keizersgracht 666-668 | The Javasche Bank and the Indies banks of the Keizersgracht (pin) |
 | 518350 | Keizersgracht 766 | Heinemann's bakery house, where Van Arkel changed style |
 | 518358 | Kerkstraat 45-49 | Metz & Co, the New York building and Rietveld's glass room on the roof |
-| 528069 | Kerkstraat 261 | fits existing place: "Museum Van Loon and its coach house with false windows" (gg-zuid-2). Dortsman's 1671 garden front of Keizersgracht 674 with a c.1730 clock gable flanked by allegorical women and a c.1925 marble fountain; could be added there as a Look for line if visible from the museum garden |
-| 518403 | Kerkstraat 383, Utrechtsestraat 91 | fits existing place: "Kerkstraat, the back street of coach houses" (gg-zuid-2). 1879-80 A.L. van Gendt shop with flats, horse stable, coach house and hayloft for Haages en Levert |
+| 528069 | Kerkstraat 261 | fits existing place: "Museum Van Loon and its coach house with false windows" (gg-zuid-2). Dortsman's 1671 garden front of Keizersgracht 674 with a c.1730 clock gable flanked by allegorical women and a c.1925 marble fountain; could be added there as a Look for line if visible from the museum garden REVIEW: added at review to gg-zuid-2 Museum Van Loon (number only, not visible) |
+| 518403 | Kerkstraat 383, Utrechtsestraat 91 | fits existing place: "Kerkstraat, the back street of coach houses" (gg-zuid-2). 1879-80 A.L. van Gendt shop with flats, horse stable, coach house and hayloft for Haages en Levert REVIEW: added at review to gg-zuid-2 Kerkstraat coach houses (Look for line) |
 | 518373 | Koningsplein 11, Reguliersdwarsstraat 2 | no story found: 1911 Van Gendt shop and office for the Nationale Levensverzekerings-Bank, 1935 travel agency of the Swiss Federal Railways; register. Could be a Look for in "Koningsplein, the rag-trade square" (gg-zuid-2) |
 | 518332 | Leidsestraat 1, Herengracht 430 | no story found: 1904-05 Weeldenburg Art Nouveau clothing store Kreymborg with exposed iron frame, 'HOFLEVERANCIER' painted on the bay, roof statues gone 1960; register. Borderline: a candidate if the map wants more shop fronts |
 | 518344 | Muntplein 1, Amstel 2 | no story found: 1892 Van Gendt office/café corner, cigar store Van der Hulst; register |
@@ -48,7 +48,7 @@ Group places are pinned on the record marked (pin).
 | 518404 | Rembrandtplein 46, Utrechtsestraat 2 | no story found: 1891 insurance office, from 1919 De Doofpot, now a hotel and café The Old Bell; register (Rembrandtplein 44 is already "Rembrandtplein 44, an Amsterdam School front for a night out", gg-zuid-3) |
 | 518370 | Singel 512 | Singel 512, from vaudeville theatre to painters' studio |
 | 518371 | Utrechtsestraat 30 | no story found: 1894 Van Arkel shop-house front for H. Brückmann; register, nl.wiki Van Arkel |
-| 528388 | bij Herengracht 476 | fits existing place: "Gouden Bocht, five double houses and their owners" (gg-zuid-1), garden house of Huis De Vicq, not visible from the street |
+| 528388 | bij Herengracht 476 | fits existing place: "Gouden Bocht, five double houses and their owners" (gg-zuid-1), garden house of Huis De Vicq, not visible from the street REVIEW: added at review to gg-zuid-1 Gouden Bocht (number only) |
 | 528264 | bij Keizersgracht 616 | no story found: 19th-century garden house, not visible; register |
 | 528265 | bij Keizersgracht 744 | no story found: late 19th-century wooden garden house, not visible; register |
 | 450230 | bij Keizersgracht 814 | no story found: c.1800 garden house, not visible; register |

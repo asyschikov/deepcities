@@ -18,6 +18,7 @@
     - Elte's black granite shopfront under the Kosmos tower, Koningsplein 1
     - the cast heads on the shopfront of Koningsplein 15
     - the bay window of 1898 on Leidsestraat 24
+    - Nieuw Engeland's rounded corner on the Singel (1899)
   category: housing
   lat: 52.366997
   lng: 4.888443
@@ -31,7 +32,7 @@
   attributes:
     rank: Nice
     heritage_status: Municipal monument
-    monument_number: 202025, 202023, 202026, 202024, 518359, 200612, 202031
+    monument_number: 202025, 202023, 202026, 202024, 518359, 200612, 202031, 518360
     built: 1880–1930
     architect: A. Jacot, G. van Arkel, Th.G. Schill and D.H. Haverkamp, H. Elte
     listed: 2004
@@ -42,6 +43,7 @@
     - city register 202025 (Broekmans, Jacot 1904, last year with Oldewelt, modern-looking construction; NW side concentration of fashion and textile shops Herbermann, Nieuw Engeland, Meijer (from 1841); glass shopfronts, sales on ground and upper floors, sewing workshops and offices above; Broekmans range included hunting clothes and outfits for East and West Indies; between 1904 and 1915 Herbermann, Broekmans, Meijer and Nieuw Engeland all by Jacot; Nieuw Engeland traditional on the Singel corner)
     - city register 202023 (Herbermann, same context; Jacot; classical main form with German Jugendstil traits); city register 202026 (Koningsplein 8, Van Gendt, rag trade); city register 202024 (corner 1891, original richly detailed shopfront almost intact, cast heads possibly by Emil van den Bossche); city register 200612 (Koningsplein 3 shopfront by Cees Dam for the Society Shop; Elte 1930 shopfront at no. 1)
     - city register 202031 (Leidsestraat 24, 1892, Van Arkel, client P.M. Broekmans; bay of 1898)
+    - rce:518360 and https://nl.wikipedia.org/wiki/Nieuw_Engeland_(Amsterdam) (added at review from gg-zuid-3: 1899 department store Nieuw Engeland by A. Jacot and W. Oldewelt, neo-baroque and art nouveau; 1913-14 merged with Koningsplein 4 and Singel 468 for the firm H. Meyer; ground floor rebuilt 1990 for Albert Heijn)
     - rce:518359 (1890-1891 shop, offices of insurance bank Kosmos and concierge flat, Schill and Haverkamp; 1929-30 shopfront by H. Elte for W. Speyer jewellers in black Swedish granite)
     - https://nl.wikipedia.org/wiki/Gebouw_Kosmos (squatted 22 April 2007 by students, gallery Schijnheilig, poetry on Sunday afternoons; court ordered eviction end of November 2007)
     - https://nl.wikipedia.org/wiki/Koningsplein_(Amsterdam) (created 1663 when the Heiligewegburgwal was filled in; really a widening of the street; Jacot well represented)
@@ -60,6 +62,7 @@
       - Eltes zwartgranieten pui onder de toren van Kosmos, Koningsplein 1
       - de gegoten kopjes in de pui van Koningsplein 15
       - de erker uit 1898 op Leidsestraat 24
+      - de afgeronde hoek van Nieuw Engeland aan het Singel (1899)
     attributes:
       architect: A. Jacot, G. van Arkel, Th.G. Schill en D.H. Haverkamp, H. Elte
       original_use: Kleding- en modezaken, verzekeringskantoor
@@ -134,6 +137,7 @@
     - the colourful tile panels of Kerkstraat 32
     - the three wide doors of 67-69
     - the Amsterdam School shopfront of 75
+    - at the Utrechtsestraat end, no. 383 (1879–80, A.L. van Gendt), shops with flats that hid a stable, a coach house and a hayloft
   category: industrial
   lat: 52.365812
   lng: 4.884566
@@ -146,7 +150,7 @@
   attributes:
     rank: Nice
     heritage_status: Municipal monument
-    monument_number: 213040, 213041, 211013, 211014, 213043, 213046, 207018
+    monument_number: 213040, 213041, 211013, 211014, 213043, 213046, 207018, 518403
     built: 1855–1925
     architect: J.P.F. van Rossem and W.J. Vuyk, I. Gosschalk, W. Hamer and others
     listed: 2007
@@ -161,6 +165,7 @@
     - city register 213043 (1884 rebuild by B.J. Meilink; farrier's forge on the ground floor; now storage)
     - city register 213046 (Gosschalk 1876, two coach houses with flats, later car garage for the Gemeentelijke Geneeskundige Dienst)
     - city register 207018 (Nieuwe Spiegelstraat 2, coach house with offices c.1855-1860, garage below now)
+    - rce:518403 (added at review from extra-south: Kerkstraat 383 / Utrechtsestraat 91, 1879-80 by A.L. van Gendt for A.J. Levert of Haages en Levert; shops either side of a portal, horse stable and coach house on the deeper right side, hayloft on the first floor)
     - "Van Rossem and Vuyk as architects of Carré: city register 206035 (used in gg-zuid-1)"
   nl:
     title: Kerkstraat, de achterstraat van de koetshuizen
@@ -175,6 +180,7 @@
       - de bonte tegeltableaus van Kerkstraat 32
       - de drie brede deuren van 67-69
       - de Amsterdamse Schoolpui van 75
+      - aan de kant van de Utrechtsestraat nr. 383 (1879–80, A.L. van Gendt): winkels met bovenwoningen, met een paardenstal, koetshuis en hooizolder erin
     attributes:
       architect: J.P.F. van Rossem en W.J. Vuyk, I. Gosschalk, W. Hamer en anderen
       original_use: Koetshuizen, stallen, rijtuig- en zadelmagazijn, hoefsmederij
@@ -253,9 +259,9 @@
 
     Look for:
     - the 1669 neck gable
-  category: hidden-history
-  lat: 52.366279
-  lng: 4.886454
+  category: housing
+  lat: 52.366288
+  lng: 4.886435
   address: Keizersgracht 453
   links:
     - { label: Rijksmonumentenregister (2360), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/2360" }
@@ -589,7 +595,7 @@
     Look for:
     - the serliana dormers over the old main entrance
     - the wider left corner, the extension of 1925
-    - the panelled rooms on the first floor
+    - across the Amstel at Sarphatistraat 47–55, the Amsterdamsche Bank branch of 1928 that housed the Liro robber bank in the war, now a hotel, with a plaque of 2003
   category: hidden-history
   lat: 52.364711
   lng: 4.889717
@@ -602,7 +608,7 @@
   attributes:
     rank: Amazing
     heritage_status: Municipal monument
-    monument_number: "207024"
+    monument_number: 207024, 210049
     built: 1881, extended 1925
     architect: I. Gosschalk, Gebr. Terlingen (1925)
     listed: 2005
@@ -610,6 +616,7 @@
   photos: []
   sources:
     - city register 207024 (built 1881 as extension of bank Lipmann, Rosenthal & Co at no. 6; 1869 office by C. Outshoorn for banker Leo Lipmann, two bays, coach house and stables below; 1881 Gosschalk extension to no. 16; 1903 Outshoorn's office replaced by Ed. Cuypers; 1925 extension to the left by Gebr. Terlingen in same style; palace type with colossal pilasters, ball pinnacles, dormers as serliana, rare; early use of extruded brick; international classical idiom for a bank; street as commercial and financial centre opposite the Gouden Bocht; directors' rooms on first floor with original wood panelling visible from the street; now gallery, restaurant and office)
+    - city:210049 and https://nl.wikipedia.org/wiki/Sarphatistraat_47-55 (added at review from plantage-2: 1928 Amsterdamsche Bank branch for the diamond trade by C.B. Posthumus Meyjes jr.; in the war Lippmann, Rosenthal & Co. Sarphatistraat, the Liro robber bank; LVVS after the war, then the Amsterdamsche Bank again; sold 2007; citizenM hotel with 88 rooms; plaque 2003); replaces a Look for line on private first-floor rooms
     - https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(bank) (1 March 1859 merger of Leo Lippmann and George Rosenthal; first Nieuwe Herengracht 111, then Nieuwe Spiegelstraat 6; expropriated in the war; German Verwalter Alfred Flesche; name misused for the robbery bank; resumed after the war, hindered by reputation; 1964 cooperation, 1974 full takeover by Hollandse Koopmansbank)
     - https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(Sarphatistraat) (set up by Flesche, presented as branch under the same name to win trust; Jews forced to deposit money, valuables, art; est. 300-400 million guilders; funded Westerbork (11 million) and Vught (26 million))
     - https://en.wikipedia.org/wiki/Liro_Bank
@@ -626,7 +633,7 @@
       Let op:
       - de serliana-dakkapellen boven de oude hoofdingang
       - de bredere linkerhoek, de uitbreiding van 1925
-      - de betimmerde kamers op de eerste verdieping
+      - aan de overkant van de Amstel, Sarphatistraat 47–55: het filiaal van de Amsterdamsche Bank uit 1928 waar in de oorlog de Liro-roofbank zat, nu een hotel, met een plaquette uit 2003
     attributes:
       built: 1881, uitgebreid 1925
       original_use: Bankkantoor van Lippmann, Rosenthal & Co.
@@ -827,7 +834,7 @@
   attributes:
     rank: Amazing
     heritage_status: National monument
-    monument_number: 2695, 2696, 2856
+    monument_number: 2695, 2696, 2856, 528069
     built: 1671–1672, coach house 18th century
     architect: Adriaan Dortsman (attributed)
     original_use: Twin merchant's houses with coach house
@@ -835,6 +842,7 @@
     - commons:File:Overzicht zandstenen voorgevel met ingangspartij - Amsterdam - 20408943 - RCE.jpg
     - commons:File:RM2856 Amsterdam - Kerkstraat 259.jpg
   sources:
+    - rce:528069 (added at review from extra-south: Kerkstraat 261, garden front of Keizersgracht 674, colossal Doric pilasters, triglyph cornice and attic of 1671 by Adriaen Dortsman, raised centre with a clock gable of about 1730 flanked by allegorical women, c.1925 white marble fountain in the loggia; it belongs to no. 674, not the museum, and its view from the museum garden is unconfirmed, so no Look for line)
     - rce:2695 (double house 1671, attributed to Dortsman, sandstone front under triglyph cornice and attic, centre with balcony, Louis XV balusters; fine Louis XV interiors incl. hall, wrought stair railing; coach house on Kerkstraat protected as 2856)
     - rce:2696 (twin, same description)
     - rce:2856 (large coach house XVIII A, front early XIX under straight cornice with dormers; back front with statues on plinths in niches, bust above the door, pilasters, columns, triglyph cornice, pediment with relief, attic with balustrade)
@@ -1090,8 +1098,8 @@
     - the cast-iron hoist beam in the top
     - how the gable sits far below the cornices next door
   category: curiosities
-  lat: 52.362871
-  lng: 4.899031
+  lat: 52.362864
+  lng: 4.899003
   address: Kerkstraat 340
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/4075edbc-0078-4269-945a-5164d6715b38" }
@@ -1139,8 +1147,8 @@
     - the two porches with their painted walls and granito floors
     - the round windows lighting the flats' stairs
   category: religious
-  lat: 52.362889
-  lng: 4.899104
+  lat: 52.362899
+  lng: 4.899192
   address: Kerkstraat 342-344
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/bcc15661-9842-4296-af2d-679283adf5f3" }
