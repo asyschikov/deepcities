@@ -1,0 +1,148 @@
+[
+ {
+  "id": "xhmo4g83m11ghd63fghn0q03",
+  "title": "Van Eyck playground, Witte Klok",
+  "changes": [
+   {
+    "field": "body",
+    "old": "children played in fenced *speeltuinen* run by associations",
+    "new": "children played in *speeltuinen* run by associations",
+    "kind": "cut",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/500028/glijbaan-2-0-bij-van-eesteren-museum-voor-de-deur",
+    "evidence": "'Spelen deed je in een speeltuin waar je lid van was.' No source says the speeltuinen were fenced."
+   },
+   {
+    "field": "body",
+    "old": "gave the job to the young architect Aldo van Eyck",
+    "new": "gave the job to the architect Aldo van Eyck",
+    "kind": "cut",
+    "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/500028/glijbaan-2-0-bij-van-eesteren-museum-voor-de-deur",
+    "evidence": "'gaf architect Van Eyck de opdracht om voor elke buurt in Amsterdam een kleine openbare speelplaats te maken'; 'young' is not in any source."
+   },
+   {
+    "field": "body",
+    "old": "Almost all were cleared from the 1980s on, as safety rules changed.",
+    "new": "Most were cleared from the 1980s on, as the rules for play equipment changed.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Witte_Klok",
+    "evidence": "'Door vernieuwingen vanaf de jaren tachtig is het merendeel van deze speelplaatsen verdwenen'; Rodi: 'omdat ze niet voldeden aan de nieuwe speelplek-regels'. 'Merendeel' is most, not almost all."
+   },
+   {
+    "field": "body",
+    "old": "and the city's heritage map calls it probably the only one",
+    "new": "and the website Amsterdam op de kaart calls it probably the only one",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/wederopbouw/Witte_Klok/Speelplaats",
+    "evidence": "'Dit is vermoedelijk de enige die nog in de oorspronkelijke staat is'; the site is a private project (contentecontent.com), not the city's."
+   },
+   {
+    "field": "body",
+    "old": " When the city renewed the playgrounds of this part of Osdorp, the original equipment stayed.",
+    "new": "",
+    "kind": "cut",
+    "source": "amsterdam.nl, Vernieuwing sport- en speelplekken Osdorp (draft: search snippet; page since removed)",
+    "evidence": "The page is gone and the draft records no wording from the snippet, so the claim cannot be checked."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Van de zo'n zevenhonderd speelplekken van Aldo van Eyck is dit vermoedelijk de laatste die er nog bij ligt zoals ze gebouwd is: iglo, duikelrekken en een zandbak met een vijfhoek, in een hofje uit 1959 waar ouders vanaf het balkon meekeken.",
+     "body": "Een vrij toegankelijke speelplek in elke buurt lijkt vanzelfsprekend, maar vlak na de oorlog had Amsterdam er nauwelijks een. Kinderen speelden in *speeltuinen* van verenigingen, en daarvoor moest het gezin lid worden. Stedenbouwkundige Jakoba Mulder vond dat iedere buurt een klein open speelveldje verdiende en zette architect Aldo van Eyck aan het werk. Tussen 1947 en 1978 tekende hij er zo'n zevenhonderd, veel in de nieuwe Westelijke Tuinsteden. Hij bouwde ze op uit een paar bewust kale vormen: een klimkoepel die je tot hut, ruimteschip of iglo kon verklaren, duikelrekken, ronde springstenen, betonnen zandbakken.\n\nVanaf de jaren tachtig verdween het grootste deel weer, omdat de regels voor speeltoestellen veranderden. Witte Klok bleef staan. Het ontwerp dateert van 1957, de aanleg van 1965, in het plantsoen van een klein hofje met woningen van Jaap Schipper uit 1959. Rond 2016 werden er nog maar vijftien complete Van Eyck-speelplaatsen geteld, en de website Amsterdam op de kaart noemt deze vermoedelijk de enige die nog helemaal origineel is. Alleen de rubberen tegels, tegen harde landingen, kwamen er later bij.\n\nDe straat dankt haar naam aan een gesloopte boerenhofstede van de vroegere gemeente Sloten.\n\nLet op:\n- de zandbak met in het midden een vijfhoek;\n- de iglo en de rij duikelrekken;\n- de L-vormige flat aan de westkant, zo neergezet dat ouders vanaf hun balkon het spelen in de gaten konden houden;\n- de koe in hetzelfde hofje, geschonken door woningcorporatie Rochdale aan de bewonersvereniging;\n- langs het Blomwijckerpad op de kopgevels drie bakstenen reliëfs uit 1960 voor de christelijke woningbouwvereniging Patrimonium, elk met de bijbeltekst eronder: de ladders van Lex Horn (Spreuken 24:27), de krijger van Dick Zwier (Spreuken 24:33-34) en de figuren en het vuur van Berend Hendriks (Psalm 128), in wit, rood en zwart uit de steen gefreesd;\n- zo'n 1,2 km naar het zuidoosten in het Piet Wiedijkpark een pierenbadje uit 1972–1973 naar Van Eycks voorbeeld, met zijn typische springstenen in een boog maar zonder klimtoestellen. Op warme dagen van mei tot september staat er water in; de gemeente bereidt werk aan het badje voor, als deel van de opknapbeurt van het park."
+    }
+   },
+   "body": "After the war Amsterdam had hardly any public playgrounds: children played in *speeltuinen* run by associations that families had to join. City planner Jakoba Mulder thought every neighbourhood should have a small open play space and gave the job to the architect Aldo van Eyck. Between 1947 and 1978 he designed around 700 of them, many in the new western garden cities, out of a handful of deliberately abstract pieces: a climbing dome that could be a hut, a spaceship or an igloo, tumbling bars, round stepping blocks, concrete sandpits.\n\nMost were cleared from the 1980s on, as the rules for play equipment changed. Witte Klok is the exception. The playground was designed in 1957 and built in 1965 in the green of a small courtyard of 1959 housing by Jaap Schipper. Around 2016 it was counted among only fifteen intact Van Eyck playgrounds, and the website Amsterdam op de kaart calls it probably the only one still in its original state; the rubber tiles laid against hard landings are the one later change.\n\nThe street is named after a demolished farmstead of the old municipality of Sloten.\n\nLook for:\n- the sandpit with the pentagon in the middle;\n- the igloo climbing dome and the row of tumbling bars;\n- the L-shaped flat on the west side, placed so that parents could keep an eye on the playground from their balconies;\n- the cow sculpture in the same courtyard, a present from housing corporation Rochdale to the residents' association;\n- on the gable ends along the Blomwijckerpad, three brick reliefs of 1960 for the Christian housing association Patrimonium, each with its Bible verse below: Lex Horn's ladders (Proverbs 24:27), Dick Zwier's warrior (Proverbs 24:33-34) and Berend Hendriks's figures and fire (Psalm 128), cut into the brick in white, red and black;\n- about 1.2 km south-east in the Piet Wiedijkpark, a paddling pool of 1972–1973 built on Van Eyck's model, with his typical stepping stones in an arc but none of his climbing frames. It is filled from May to September on warm days; the city is preparing work on it as part of a renovation of the park."
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ey7aqvejox4jobqtb9348sx5",
+  "title": "Akermolen (De Oude Molen)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "In 1944, a neighbour remembered, Croatian soldiers",
+    "new": "In 1944, Wim Luimee (born 1933) remembered, Croatian soldiers",
+    "kind": "narrowed",
+    "source": "https://geheugenvanwest.amsterdam/page/15877/oorlog-in-nieuw-west",
+    "evidence": "'Kroaten die in 1944 geschutstellingen rond de molen bedienden ... Wim Luimee (1933) herinnert zich dat het om zeventien Kroaten en drie Duitse officieren ging. Ze sliepen een tijd op de molenzolder.' Nothing says Luimee was a neighbour."
+   },
+   {
+    "field": "body",
+    "old": "- the outfall in the dike behind the mill",
+    "new": "- behind the mill, the fenced-off channel of the old screw",
+    "kind": "narrowed",
+    "source": "https://stadsherstel.nl/monumenten/de-akermolen/",
+    "evidence": "'Beide goten zijn nog aanwezig, onder en deels achter de molen'; 'buiten een hekje rondom de vijzelgang'. The register says the old outfall channel is filled with clay and part of the dike, so there is no visible outfall."
+   },
+   {
+    "field": "body",
+    "old": "- a few steps along the Zwarte Pad, Erick de Lyon's *Sisyfusgemaal*: a pumping station made as an artwork, which lifts polder water to the Ringvaart for ever, like Sisyphus his stone, and lets you feel the drop between the two water levels",
+    "new": "- Erick de Lyon's *Sisyfusgemaal*: a pumping station made as an artwork, which drains the Akerpolder towards the sea for ever, like Sisyphus his stone, and lets you feel the drop between the Ringvaart and the polder",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/923",
+    "evidence": "'Het Sisyfusgemaal voert het water af naar de zee'; 'Doordat de bovenkant van het gemaal zich op dezelfde hoogte bevindt als de Haarlemmerringvaart en de onderkant in de Akerpolder staat, ervaart de bezoeker het niveauverschil'. Its spot 'a few steps along the Zwarte Pad' is in no source."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Waar deze molen vandaan kwam weet niemand: het polderbestuur schreef in de jaren 1870 alleen 'elders' op. In 1921 verloor hij zijn wieken en werd hij de woning van de poldermeester. Hij ontsnapte aan de sloop en is nu een theehuis op de Ringvaartdijk.",
+     "body": "Op de Ringvaartdijk, precies waar de hoofdtocht van de Middelveldsche Akerpolder op de Ringvaart uitkomt, staat de bakstenen romp van een forse achtkante molen. In de jaren 1870 werd hij hier opnieuw opgetrokken, als vervanger van een oudere molen aan de rand van het drooggelegde Lutkemeer. Waar hij zelf vandaan kwam is een raadsel; het polderbestuur noteerde alleen 'elders'. Met wieken van 28 meter hoorde hij bij de grotere molens rond Amsterdam. Twee gevelstenen, uit 1876 en 1896, noemen de polderbestuurders van toen.\n\nNadat de turf eruit was gestoken als brandstof, moest het peil van de polder ruim drie meter zakken. Het scheprad maakte daarom in 1896 plaats voor een vijzel, een enorme schroef die nog steeds onder de molen ligt. In 1921 nam een elektrische pomp het over. Kap en wieken gingen eraf, en de romp kreeg een achtkantig pannendak en een getande lijst van baksteen. Sindsdien lijkt hij eerder een woonhuis van de Amsterdamse School. De poldermeester trok erin. In oorlogstijd kon de molen de polder ook juist laten onderlopen, als onderdeel van de oude Linie van Amsterdam. Wim Luimee (1933) wist nog dat Kroatische soldaten, die in 1944 het afweergeschut rond de molen bedienden, een tijd op de molenzolder sliepen.\n\nVanaf 1999 stond de romp leeg, en omdat hij in de dijk in de weg zou zitten, dreigde de sloop. Buurtbewoners kwamen in actie, Stadsherstel restaureerde hem. Nu zit er Theehuis de Akermolen van Stichting De Vrije Geer, waar mensen met een verstandelijke beperking werken.\n\nLet op:\n- de twee gevelstenen met de namen van de polderbesturen\n- het achtkantige dak en de getande lijst\n- achter de molen het omheinde kanaal van de oude vijzel\n- het *Sisyfusgemaal* van Erick de Lyon, een gemaal dat ook kunstwerk is: net als Sisyphus met zijn steen voert het eindeloos water uit de Akerpolder af richting zee, en je voelt er het hoogteverschil tussen Ringvaart en polder"
+    }
+   },
+   "body": "Where the main ditch of the Middelveldsche Akerpolder meets the Ringvaart stands the brick stump of a large octagonal mill. It was rebuilt on this dike in the 1870s to replace an older mill on the edge of the drained Lutkemeer; where it came from is unknown, the polder board only noted \"elsewhere\". With 28-metre sails it was one of the bigger mills around Amsterdam. Two gable stones, from 1876 and 1896, list the polder boards of the day.\n\nOnce the peat had been dug out for fuel the polder level had to drop by more than three metres, so in 1896 the scoop wheel gave way to an Archimedes screw, which is still under the mill. In 1921 an electric pump took over, the cap and sails came off, and the stump got an eight-sided tiled roof and a toothed brick cornice that make it look like an Amsterdam School house. The polder keeper lived in it. The mill could also flood the polder in wartime, as part of the old Line of Amsterdam. In 1944, Wim Luimee (born 1933) remembered, Croatian soldiers manning anti-aircraft guns around the mill slept for a time in its loft. Empty from 1999 and threatened with demolition as an obstacle in the dike, it was saved by local residents and restored by Stadsherstel. It is now Theehuis de Akermolen, run by Stichting De Vrije Geer with staff with learning disabilities.\n\nLook for:\n- the two gable stones with the names of the polder boards\n- the octagonal roof and toothed cornice\n- behind the mill, the fenced-off channel of the old screw\n- Erick de Lyon's *Sisyfusgemaal*: a pumping station made as an artwork, which drains the Akerpolder towards the sea for ever, like Sisyphus his stone, and lets you feel the drop between the Ringvaart and the polder"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "y1y2okbak7noeh4hwj24j1xi",
+  "title": "Villa Maupertuus and Riecker State",
+  "changes": [
+   {
+    "field": "body",
+    "old": "In the 1930s the farm ribbon of the Sloterweg began to attract villas.",
+    "new": "The Sloterweg was once a ribbon of farms; its 1930s villas mark the turn from farmland to housing.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/ac783c99-ecbe-446e-8551-2b729c868052",
+    "evidence": "'vormt een uitdrukking van de overgang van agrarisch gebied naar woongebied'; 'dit, oorspronkelijk door boerderijen gedomineerde deel van Amsterdam'. No source says when villas began to come."
+   },
+   {
+    "field": "body",
+    "old": "A few doors east, no. 745 (1936)",
+    "new": "No. 745 (1936)",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/24ab7cde-79fb-4e7f-ab50-7d3c8805f341",
+    "evidence": "No source gives the position of no. 745 relative to no. 782."
+   },
+   {
+    "field": "body",
+    "old": "Its garden flows into the Siegerpark, laid out at the same time, which is why the city calls its position prominent.",
+    "new": "It stands on the edge of the Siegerpark, laid out at the same time; the city register calls its position prominent, visible from all sides, with the garden and the park reading as one.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/24ab7cde-79fb-4e7f-ab50-7d3c8805f341",
+    "evidence": "'De voornaamste kwaliteit van Sloterweg 745 is de prominente positionering van de villa aan de rand van het Siegerpark, waardoor het bouwwerk van alle kanten goed zichtbaar is. Optisch vormen het groen van de villatuin en het in dezelfde tijd gestichte Siegerpark een eenheid.' The prominence comes from the park-edge position, not from the garden merging."
+   },
+   {
+    "field": "body",
+    "old": "- the Siegerpark gate next door (see Siegerpark and its Stedelijk sculptures)",
+    "new": "- the Siegerpark behind no. 745 (see Siegerpark and its Stedelijk sculptures)",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Sloterweg/745",
+    "evidence": "'Het staat op een perceel dat aan de achterzijde grenst aan het Siegerpark'; no source mentions a gate next door."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een hoogleraar Middelnederlands noemde zijn villa naar de burcht van Reynaert de vos. Aan dezelfde weg liet een arts uit Sloten een huis bouwen dat met zijn tuin opgaat in het Siegerpark. Twee villa's uit de jaren dertig aan de oude boerenweg van Sloten.",
+     "body": "*Maupertuus*: zo heet in *Van den vos Reynaerde* de burcht van de vos. Adriaan Goslinga, hoogleraar geschiedenis en Middelnederlands aan de Vrije Universiteit, gaf die naam aan het huis dat architect Arnold Ingwersen in 1932–1933 voor hem en zijn vrouw Johanna Huisken bouwde op Sloterweg 782. Een krant uit die tijd kwam op twintig kamers. Beneden liepen vier ontvang- en woonvertrekken in elkaar over, alleen gescheiden door gordijnen, en in de kelder was een gymzaaltje. Er is sindsdien weinig aan veranderd; tegenwoordig heet het Villa Sloten.\n\nDe Sloterweg was eens een lint van boerderijen, en de villa's uit de jaren dertig laten zien hoe het boerenland woonwijk werd. Nummer 745 (1936) is van A. van der Vorst van het bureau Kruyswijk, getekend voor de arts L.A. Faber. Die had tot dan toe in het dorp gewoond, op nummer 1301. Het is een traditionalistisch huis met een aangebouwde garage en, over de sloot langs de weg, een betonnen duiker met sierlijk gebogen bakstenen borstweringen. Het ligt aan de rand van het Siegerpark, dat in dezelfde jaren werd aangelegd. Volgens het gemeentelijk register is die plek juist de kracht: je ziet de villa van alle kanten, en tuin en park vormen voor het oog één geheel. Sinds in elk geval 1963 heet het huis *Riecker State*.\n\nLet op:\n- het raam van de studeerkamer boven de voordeur van Maupertuus\n- het bruggetje met bakstenen borstweringen voor nummer 745\n- het Siegerpark achter nummer 745 (zie Siegerpark en zijn beelden van het Stedelijk)"
+    }
+   },
+   "body": "The Sloterweg was once a ribbon of farms; its 1930s villas mark the turn from farmland to housing. At no. 782 the architect Arnold Ingwersen built a house in 1932–1933 for Adriaan Goslinga, professor of history and Middle Dutch at the Vrije Universiteit, and his wife Johanna Huisken. They called it *Maupertuus*, after the castle of the fox in the medieval epic *Van den vos Reynaerde*. A newspaper of the day counted twenty rooms, with four reception rooms on the ground floor divided only by curtains and a gym in the cellar. It has barely changed since and now goes by Villa Sloten.\n\nNo. 745 (1936) was designed by A. van der Vorst of the Kruyswijk office for the doctor L.A. Faber, who until then lived in the village at Sloterweg 1301. The traditionalist house has an attached garage and a concrete culvert with curved brick parapets over the roadside ditch. It stands on the edge of the Siegerpark, laid out at the same time; the city register calls its position prominent, visible from all sides, with the garden and the park reading as one. It has been called *Riecker State* since at least 1963.\n\nLook for:\n- the study window above the front door of Maupertuus\n- the little bridge with brick parapets in front of no. 745\n- the Siegerpark behind no. 745 (see Siegerpark and its Stedelijk sculptures)"
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200938 (jaarBegin 1932-1933; naam Villa Sloten (voorheen Maupertuus))"
+  ]
+ }
+]

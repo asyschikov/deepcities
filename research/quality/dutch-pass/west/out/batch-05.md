@@ -111,3 +111,31 @@ The English was not reordered. In each case the hook is already in the English s
 - **Tableau Magazine:** it returns 403 to the research user agent, but opens with a browser user agent.
 - **Consent walls:** the Parool pages (Gemaal, Pontsteiger) sit behind a consent wall. Archived copies are added as sources.
 - **Long bodies:** two Dutch bodies run a little over 250 words: What will the neighbours say? (about 300) and Underground Tree (about 270). They carry every fact in the English.
+
+## Verification
+
+All 27 places checked: every claim in the new Dutch against the new English and the original texts, Dutch against English for dropped or added facts, Look for lists, dashes and summary lengths (all at most 280 characters, NL and EN). Copy checker after the fixes: 0 copied runs in all 27 places.
+
+Sourced changes, re-fetched and confirmed:
+- What will the neighbours say?: Tableau (403 to the research user agent; read via web.archive.org 2024-04-12): "Het toont een enscenering van de naakte kunstenaar die als onderdeel van een fontein water spuit"; the exhibition "Wat zullen de buren zeggen?" took its title from the work.
+- Pontsteiger: archived Parool: Won Yip "in 2016 in een keer de gehele bovenste verdieping van de Pontsteiger kocht. Hij betaalde zo'n 16 miljoen euro voor 1440 vierkante meter"; "splitste het penthouse vervolgens op in drie delen".
+- Verloren Stad: nl.wikipedia wikitext row "| 1989 | ''Verloren Stad'' | Harald Schole | ... | gepigmenteerd beton".
+- Vondelstraat 72: monuments API 224016: architectOntwerp "Schmitz, J.H.", jaarBeginVan/Tot "1869".
+- Het Schip (quote, not a sourced change): register 3961 reads "Een der irrationeelste hoogtepunten", as quoted.
+
+Claims removed or fixed in the Dutch (the English was not changed):
+- What will the neighbours say?: cut the opening "Wie in 1988 een foto van tien meter hoog wilde, moest het zelf uitvinden" (not in the English or any source). "Huichelarij in overvloed" narrowed to "staaltjes van ... huichelarij" (the English says "examples").
+- Zevenlandenhuizen: cut "in de Roemer Visscherstraat" from the summary (not in the English).
+- Former Wereldbibliotheek: cut "voor dit gebouw ging hij weer naar diens kring" (says Simons chose Zwiers through Berlage; the English says only that Zwiers was from Berlage's circle). "Het grote volksverheffingsproject van die jaren" narrowed to "volksverheffing voor arbeiders". Removed the "Let op:" list, as the English has no Look for list.
+- Overtoomse Sluis: "daarvoor was het nog omslachtiger" replaced by the English fact (boats hauled over a dam). "Rammelt tram 1 eroverheen" is now "rijdt" (no source on rattling).
+- Zaanstad: removed the "Let op:" list, as the English has none.
+- Eerste Helmersstraat 115-119: cut the annexation year 1896 (the English says only "almost a decade" later).
+- Frederik Hendrikstraat 2-6: cut "en die [middenstand] woonde hier vaker". "Hardstenen plinten" narrowed to "stenen plinten" (the English says stone, not bluestone).
+- Pakhuis Koningin Emma: hoist beams moved from "dakhuizen aan de zijkanten" (side dormers) to "zijgevels" (side gables), as in the English.
+- Women's clinic: cut "een kliniek die met één man begon"; the parabolic window is no longer "in de hoek" but in the WG-plein front, as in the English Look for.
+- The Underground Tree: cut the motive "dat de gemeente zich daartoe gedwongen voelde"; now just that the city laid the tile.
+- De Savornin Lohmanschool: the service house is "aangebouwd" (attached), no longer "ernaast"/"aan de zijkant" (no position in the English).
+- Overtoom 429-439: "een ingang als een stadspoort" narrowed to "als een poort". "De pui van 437 is nog van Blank zelf" narrowed to "nog origineel" (no source says Blank designed that shopfront).
+- Reiminger printing works: "drukpersen" (plural) and "werk voor ruim 55 mensen" narrowed to "plaats voor ruim 55 arbeiders", as in the English.
+
+For the user: Former Wereldbibliotheek and Zaanstad now have no "Let op:" in the Dutch, matching the English. Add a Look for list to both languages if you want one.
