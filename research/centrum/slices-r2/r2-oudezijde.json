@@ -1,0 +1,787 @@
+{
+ "slice": "r2-oudezijde",
+ "entries": [
+  {
+   "sid": "S-100",
+   "title": "Het Veilinghuisje, the house everyone thought was demolished",
+   "members": [
+    "BC-36"
+   ],
+   "pin": [
+    52.37541,
+    4.89923
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-36": [
+     52.37541,
+     4.89923
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "invisible from the street",
+   "hook": "A booksellers' auction house hidden in an inner court, believed demolished in 1989 and still standing.",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/oudezijds-voorburgwal-28/",
+    "https://stadsherstel.nl/monumenten/oudezijds-voorburgwal-28-brouwerij-de-prael/"
+   ]
+  },
+  {
+   "sid": "S-101",
+   "title": "Blaauwlakenblok, the block the squatters held and the residents rebuilt",
+   "members": [
+    "CC-02"
+   ],
+   "pin": [
+    52.373215,
+    4.896842
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CC-02": [
+     52.373215,
+     4.896842
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "alleys gated",
+   "hook": "The Bijenkorf wanted it for offices; squatters held it; sixty houses restored with W139 and the Condomerie.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Blaauwlakenblok",
+    "https://nl.wikipedia.org/wiki/W139"
+   ]
+  },
+  {
+   "sid": "S-102",
+   "title": "The hole in the quay: a 600-year-old sluice under the Nieuwmarkt",
+   "members": [
+    "G-07",
+    "DC-26"
+   ],
+   "pin": [
+    52.3731,
+    4.90045
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-07": [
+     52.3731,
+     4.90045
+    ],
+    "DC-26": [
+     52.373188,
+     4.900783
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Amazing",
+   "category": "infrastructure",
+   "default": "IN",
+   "reason": "",
+   "hook": "A culvert runs under the Waag to a sluice paid for by a polder board 40 km away; fish hall and Bredero beside.",
+   "lead_sources": [
+    "https://onsamsterdam.nl/artikelen/de-middeleeuwse-sluis-onder-de-waag",
+    "https://nl.wikipedia.org/wiki/Bijleveldschesluis",
+    "https://www.nhnieuws.nl/nieuws/356648"
+   ]
+  },
+  {
+   "sid": "S-103",
+   "title": "The tallest tree in Amsterdam, Oudemanhuispoort courtyard",
+   "members": [
+    "GR-01"
+   ],
+   "pin": [
+    52.369373,
+    4.895953
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-01": [
+     52.369373,
+     4.895953
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Amazing",
+   "category": "green",
+   "default": "IN",
+   "reason": "courtyard open weekdays only; or a Look for in the Oudemanhuispoort draft",
+   "hook": "A Dutch elm of 1890, 36 m tall and the thickest elm in the city, that thousands of students walk past.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-104",
+   "title": "The red window of the Oude Kerk (\"Het Rode Raam\")",
+   "members": [
+    "AC-10"
+   ],
+   "pin": [
+    52.374394,
+    4.897928
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-10": [
+     52.374394,
+     4.897928
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "beside A-list Oude Kerk, pitched on the fight",
+   "hook": "One church window turned permanently red, lighting the nave from the Red Light District; heritage societies sued.",
+   "lead_sources": [
+    "https://www.parool.nl",
+    "https://www.nrc.nl/nieuws/2018/09/27/"
+   ]
+  },
+  {
+   "sid": "S-105",
+   "title": "Pijlsteeg, an alley through a hotel",
+   "members": [
+    "BC-22"
+   ],
+   "pin": [
+    52.37232,
+    4.8953
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-22": [
+     52.37232,
+     4.8953
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "Wynand Fockink is food-and-drink",
+   "hook": "One of the two streets where prostitution was allowed in 1413, now built over by Krasnapolsky but public.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Pijlsteeg_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-106",
+   "title": "\"GOD ROEPT U / JESUS LOVES YOU\", the neon over the station square",
+   "members": [
+    "DC-01"
+   ],
+   "pin": [
+    52.376544,
+    4.899285
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-01": [
+     52.376544,
+     4.899285
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "the astronaut claim rests on the neighbourhood paper",
+   "hook": "The first words many arrivals read: blue neon on the old Hotel Karsten, said to be switched on by an astronaut.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-107",
+   "title": "Belle and the bronze breast, Oudekerksplein",
+   "members": [
+    "DC-03",
+    "AC-30"
+   ],
+   "pin": [
+    52.374179,
+    4.897406
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-03": [
+     52.374179,
+     4.897406
+    ],
+    "AC-30": [
+     52.374747,
+     4.897754
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "1993 date and anonymity rest on blogs",
+   "hook": "The first statue of a sex worker, a groping bronze hand set into the paving, and the PIC next door.",
+   "lead_sources": [
+    "https://www.nhnieuws.nl/nieuws/26034",
+    "https://nl.wikipedia.org/wiki/Prostitutie_Informatie_Centrum",
+    "https://sekswerkerfgoed.nl"
+   ]
+  },
+  {
+   "sid": "S-108",
+   "title": "Trompettersteeg, the narrowest alley and its hidden coat of arms",
+   "members": [
+    "DC-04"
+   ],
+   "pin": [
+    52.373741,
+    4.897706
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-04": [
+     52.373741,
+     4.897706
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "no check after 2021",
+   "hook": "Dopie's anamorphic city arms come right from one spot only; blacked out in anger, restored in 2021.",
+   "lead_sources": [
+    "https://www.nhnieuws.nl/nieuws/289333"
+   ]
+  },
+  {
+   "sid": "S-109",
+   "title": "Majoor Bosshardt on her bench",
+   "members": [
+    "DC-06"
+   ],
+   "pin": [
+    52.375548,
+    4.900026
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-06": [
+     52.375548,
+     4.900026
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "The Salvation Army officer of the Wallen sits on a bench drunk tourists would not leave alone.",
+   "lead_sources": [
+    "https://www.at5.nl/artikelen/104696"
+   ]
+  },
+  {
+   "sid": "S-110",
+   "title": "Chet Baker's window, Hotel Prins Hendrik",
+   "members": [
+    "DC-17"
+   ],
+   "pin": [
+    52.376525,
+    4.899666
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-17": [
+     52.376525,
+     4.899666
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "The trumpeter fell from a window here in 1988; fans put up an illegal trumpet pole, then a plaque.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-111",
+   "title": "Koestraat, \"Ons Dorp\", the street with its own mayor",
+   "members": [
+    "DC-18"
+   ],
+   "pin": [
+    52.372125,
+    4.898268
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-18": [
+     52.372125,
+     4.898268
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "mayor tradition from one 2017 report",
+   "hook": "Residents crown a street mayor in Sweelinck's old garden; a 1912 stone for the inventor of the fire hose.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-112",
+   "title": "He Hua temple and the Chinese Zeedijk",
+   "members": [
+    "DC-41"
+   ],
+   "pin": [
+    52.373726,
+    4.900075
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-41": [
+     52.373726,
+     4.900075
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "religious",
+   "default": "IN",
+   "reason": "",
+   "hook": "A Chinese Buddhist temple on the dike, \"a striking stranger on the Zeedijk\", with the Vesak procession.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-113",
+   "title": "Bet van Beeren, 't Mandje and Hartjesdag on the Zeedijk",
+   "members": [
+    "DC-16"
+   ],
+   "pin": [
+    52.374815,
+    4.900983
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-16": [
+     52.374815,
+     4.900983
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Amazing",
+   "category": "food-drink",
+   "default": "ASK",
+   "reason": "café (food-and-drink borderline)",
+   "hook": "The café of Bet van Beeren, a bridge named after her, and the Zeedijk's revived drag street party.",
+   "lead_sources": [
+    "https://www.at5.nl/artikelen/222025",
+    "https://www.nhnieuws.nl/nieuws/306298"
+   ]
+  },
+  {
+   "sid": "S-114",
+   "title": "Mata Hari and the Determeyer skybridge",
+   "members": [
+    "BC-15"
+   ],
+   "pin": [
+    52.374666,
+    4.899855
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-15": [
+     52.374666,
+     4.899855
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "single source",
+   "hook": "A uniform maker's 1929 bridge over the Korte Niezel, later the roof of an illegal gambling palace.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Mata_Hari_(rijksmonument"
+   ]
+  },
+  {
+   "sid": "S-115",
+   "title": "Apotheek Van der Meulen, a pharmacy since 1696",
+   "members": [
+    "BC-18"
+   ],
+   "pin": [
+    52.374337,
+    4.900623
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-18": [
+     52.374337,
+     4.900623
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "food-drink",
+   "default": "ASK",
+   "reason": "shop (borderline); door not pinned",
+   "hook": "Apothecaries on this corner without a break since 1696, the 1880 interior in its original blue.",
+   "lead_sources": [
+    "https://www.onh.nl/verhalen/de-geldersekade-en-de-oudste-apotheek-van-amsterdam"
+   ]
+  },
+  {
+   "sid": "S-116",
+   "title": "Spooksteeg, the ghost of the Zeedijk",
+   "members": [
+    "BC-14"
+   ],
+   "pin": [
+    52.375144,
+    4.900899
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-14": [
+     52.375144,
+     4.900899
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; sisters' tale is legend",
+   "hook": "Wailing nobody could trace drew crowds in 1853, and the alley was renamed Ghost Alley.",
+   "lead_sources": [
+    "https://www.onh.nl/verhalen/het-spook-van-de-zeedijk"
+   ]
+  },
+  {
+   "sid": "S-117",
+   "title": "Oudezijds Voorburgwal 61, four hundred years without piles",
+   "members": [
+    "BC-16"
+   ],
+   "pin": [
+    52.374131,
+    4.89907
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-16": [
+     52.374131,
+     4.89907
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "Stadsherstel found no piles at all: the walls stand straight on the ground.",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/oudezijds-voorburgwal-61/"
+   ]
+  },
+  {
+   "sid": "S-118",
+   "title": "Geldersekade 78, the swindler Barmat",
+   "members": [
+    "BC-19"
+   ],
+   "pin": [
+    52.374536,
+    4.901017
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-19": [
+     52.374536,
+     4.901017
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; single source",
+   "hook": "Home of the swindler Hitler used as a bogeyman in his propaganda.",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/geldersekade-78/"
+   ]
+  },
+  {
+   "sid": "S-119",
+   "title": "The murder of Magere Josje, 1957",
+   "members": [
+    "BC-23"
+   ],
+   "pin": [
+    52.37369,
+    4.89853
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-23": [
+     52.37369,
+     4.89853
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; single source; handle with care",
+   "hook": "A sex worker's murder in 1957 that young detective Baantjer never solved.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Moord_op_Magere_Josje"
+   ]
+  },
+  {
+   "sid": "S-120",
+   "title": "Oudezijds Armsteeg \"street gallery\"",
+   "members": [
+    "CC-03"
+   ],
+   "pin": null,
+   "pin_approx": true,
+   "member_pins": {},
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "may be gone; pin not set",
+   "hook": "Residents turned a dumping corner into an open-air gallery of small vitrines in 2013.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-121",
+   "title": "\"Wandelend naar de Nieuwmarkt\", the brick walkers on the Varkenssluis",
+   "members": [
+    "DC-05"
+   ],
+   "pin": [
+    52.371837,
+    4.89585
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-05": [
+     52.371837,
+     4.89585
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay; no check after 2011",
+   "hook": "Brick walkers of 1986, vandalised and remade in 2011 as four Chinese walkers with a lion dance.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-122",
+   "title": "Bureau Warmoesstraat, the police station of Baantjer",
+   "members": [
+    "DC-14"
+   ],
+   "pin": [
+    52.375511,
+    4.898238
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-14": [
+     52.375511,
+     4.898238
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "Baantjer's police station, closed after a man put out on the pavement died; a plaque on the sandwich shop since 2025.",
+   "lead_sources": [
+    "https://www.nhnieuws.nl/nieuws/353682"
+   ]
+  },
+  {
+   "sid": "S-123",
+   "title": "Stoofbrug and the 3D-printed bridge",
+   "members": [
+    "DC-23"
+   ],
+   "pin": [
+    52.372371,
+    4.897816
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-23": [
+     52.372371,
+     4.897816
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "infrastructure",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "MX3D's printed steel bridge lay here two years; the lost old bridge was found and came back in 2024.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-124",
+   "title": "Heintje Hoekssteeg, the alley that got its gate",
+   "members": [
+    "DC-25"
+   ],
+   "pin": [
+    52.375203,
+    4.899122
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-25": [
+     52.375203,
+     4.899122
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; beside A-list Ons' Lieve Heer op Solder",
+   "hook": "An alley used as a public toilet, now closed with a gate (2026).",
+   "lead_sources": [
+    "https://www.at5.nl/artikelen/237136"
+   ]
+  },
+  {
+   "sid": "S-125",
+   "title": "Jacob Hooy & Co., the drugstore of 1743",
+   "members": [
+    "DC-42"
+   ],
+   "pin": [
+    52.371956,
+    4.899184
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-42": [
+     52.371956,
+     4.899184
+    ]
+   },
+   "wijk": "Burgwallen-Oude Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "food-drink",
+   "default": "ASK",
+   "reason": "shop (borderline); Okay",
+   "hook": "A herb and sweet shop with drawers and barrels unchanged since the 18th century.",
+   "lead_sources": []
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AC-22",
+   "draft": "Beursplein 5, the stock exchange that left Berlage",
+   "file": "oudezijde-1",
+   "add": "the Walraven van Hall plaque (1949) and Stauthamer's \"Ex tenebris lux\" inside; the clock the Germans shot (access to check)"
+  },
+  {
+   "scout": "BC-12",
+   "draft": "Sint-Olofskapel, the sailors' chapel that became a hotel's meeting hall",
+   "file": "oudezijde-2",
+   "add": "the houses on the gate site: Sint Olofspoort 1 (c. 1605) uses the chapel's west wall as its back wall; nos. 9-15 sold 1618"
+  },
+  {
+   "scout": "BC-20",
+   "draft": "Barndesteeg, the penitents' convent and the mission hostel",
+   "file": "oudezijde-1",
+   "add": "the 1450 crypt, the nuns' cows that named the Koestraat, the first Hare Krishna temple (1970)"
+  },
+  {
+   "scout": "BC-21",
+   "draft": "Spinhuis, the women's prison and its whipping gate",
+   "file": "oudezijde-2",
+   "add": "Look for: the wall of the vanished church De Star in the Spinhuissteeg"
+  },
+  {
+   "scout": "BC-37",
+   "draft": "The Nes, Amsterdam's tobacco street",
+   "file": "oudezijde-1",
+   "add": "the alley Gebed zonder End: convent name, sign painted on the wall because it kept being stolen"
+  },
+  {
+   "scout": "DC-19",
+   "draft": "Walloon Church and its gate of skulls",
+   "file": "oudezijde-2",
+   "add": "the Walenpleintje: hidden court behind the gate, named only in 1978, open by day"
+  },
+  {
+   "scout": "DC-20",
+   "draft": "Oost-Indisch Huis (East India House)",
+   "file": "oudezijde-1",
+   "add": "the VOC room dismantled without a permit and the VVAB enforcement request (VVAB news 707, 2026)"
+  },
+  {
+   "scout": "DC-21",
+   "draft": "Oudemanhuispoort and its book stalls",
+   "file": "oudezijde-1",
+   "add": "the UvA war memorial in the garden (254 students, 28 staff; year to confirm); the cholera house of the 1830s"
+  },
+  {
+   "scout": "DC-24",
+   "draft": "Huis aan de Drie Grachten and its wartime bookshop",
+   "file": "oudezijde-2",
+   "add": "Look for: the oldest lampposts on the Grimburgwal quay, fished out after the 2020 collapse (back yet?)"
+  },
+  {
+   "scout": "DC-22",
+   "draft": "Kleinste huis (the smallest house), Oude Hoogstraat 22",
+   "file": "oudezijde-1",
+   "add": "also Klein Trippenhuis (the little Trip house)"
+  }
+ ]
+}

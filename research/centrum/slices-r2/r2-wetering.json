@@ -1,0 +1,634 @@
+{
+ "slice": "r2-wetering",
+ "entries": [
+  {
+   "sid": "S-162",
+   "title": "The wall in the middle of the school, Weteringschans 263, and the children's resistance",
+   "members": [
+    "AE-13",
+    "DE-40"
+   ],
+   "pin": [
+    52.359379,
+    4.897263
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-13": [
+     52.359379,
+     4.897263
+    ],
+    "DE-40": [
+     52.360249,
+     4.897356
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "A wall went up inside the school to split off the Jewish pupils; nearby, play equipment remembers their resistance.",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3385",
+    "https://oudestadt.nl/wp-content/uploads/Binnenkrant106.pdf"
+   ]
+  },
+  {
+   "sid": "S-163",
+   "title": "Speeltuin UJ Klaren, the first public playground in the country",
+   "members": [
+    "DE-35"
+   ],
+   "pin": [
+    52.358777,
+    4.892067
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-35": [
+     52.358777,
+     4.892067
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "green",
+   "default": "IN",
+   "reason": "\"first\" rests on Wikipedia: find the archive source",
+   "hook": "The country's first free public playground opened here on 8 May 1880.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Weteringplantsoen",
+    "https://oudestadt.nl/wp-content/uploads/Binnenkrant93.pdf",
+    "https://denieuwevijzelcourant.nl/editie-2/"
+   ]
+  },
+  {
+   "sid": "S-164",
+   "title": "Frederiksplein: Van Hall's snapped tree and the Navalny memorial",
+   "members": [
+    "AE-14",
+    "AE-15",
+    "AE-38"
+   ],
+   "pin": [
+    52.359946,
+    4.899631
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-14": [
+     52.359946,
+     4.899631
+    ],
+    "AE-15": [
+     52.359961,
+     4.899699
+    ],
+    "AE-38": [
+     52.360361,
+     4.899557
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "Navalny memorial informal, may change",
+   "hook": "A bronze tree broken over a wall for the banker of the resistance, and an informal Navalny memorial a student tends.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Monument_Walraven_van_Hall",
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3543",
+    "https://www.nhnieuws.nl/nieuws/357218/vladimir-onderhoudt-al-twee-jaar-monument-ter-nagedachtenis-aan-aleksej-navalny"
+   ]
+  },
+  {
+   "sid": "S-165",
+   "title": "Krop's monument for the Spieghelschool fire, Marnixstraat 404",
+   "members": [
+    "AE-16"
+   ],
+   "pin": [
+    52.363956,
+    4.881643
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-16": [
+     52.363956,
+     4.881643
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "The resistance burned the labour office in 1945; Krop's reprisal monument was stolen in 1967 and recast.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Oorlogsmonument_Marnixstraat",
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1611"
+   ]
+  },
+  {
+   "sid": "S-166",
+   "title": "\"Tegen alle stromen in\", Peter R. de Vries, Leidseplein",
+   "members": [
+    "AE-18"
+   ],
+   "pin": [
+    52.363838,
+    4.88276
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-18": [
+     52.363838,
+     4.88276
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "on an A-list square, monument is its own place",
+   "hook": "Two bronze hands gripping each other, with his life rules in 41 languages, steps from where he was shot.",
+   "lead_sources": [
+    "https://nos.nl/l/2528991",
+    "https://www.nhnieuws.nl/nieuws/338489/monument-peter-r-de-vries-trekt-veel-bekijks-groot-maar-hij-verdient-het-echt"
+   ]
+  },
+  {
+   "sid": "S-167",
+   "title": "Zeelandbank, Weteringcircuit",
+   "members": [
+    "AE-19"
+   ],
+   "pin": [
+    52.35922,
+    4.891929
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-19": [
+     52.35922,
+     4.891929
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A plaster stand-in waited a year before the real bench arrived with four Zeelanders in costume in 1958.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Zeelandbank"
+   ]
+  },
+  {
+   "sid": "S-168",
+   "title": "Bureaucracy in Diversity, Kleine-Gartmanplantsoen",
+   "members": [
+    "AE-35"
+   ],
+   "pin": [
+    52.363235,
+    4.883981
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-35": [
+     52.363235,
+     4.883981
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A Surinamese ballerina dances through a whirlwind of forms, after the childcare-benefits scandal.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-169",
+   "title": "Ramses Shaffy, Levenslijnen, Vijzelgracht metro",
+   "members": [
+    "AE-37"
+   ],
+   "pin": [
+    52.359696,
+    4.891689
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-37": [
+     52.359696,
+     4.891689
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A 24-metre LED portrait of the singer above the longest escalator in the Benelux.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-170",
+   "title": "Max Euweplein: the prison where Anne Frank was held, now chess",
+   "members": [
+    "BE-08",
+    "CE-07"
+   ],
+   "pin": [
+    52.362283,
+    4.883161
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BE-08": [
+     52.362283,
+     4.883161
+    ],
+    "CE-07": [
+     52.362795,
+     4.883176
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "De Balie draft already names the prison: split the story deliberately",
+   "hook": "The remand prison held the Frank family after their arrest; its square now hosts Euwe's chess museum.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Max_Euweplein",
+    "https://www.nhnieuws.nl/nieuws/348203/in-het-amsterdamse-huis-van-bewaring-kon-tijdens-de-oorlog-iedere-dag-de-laatste-zijn",
+    "https://research.annefrank.org/en/locaties/51209a6b-cf00-4fe8-8533-828555d56401/",
+    "https://nl.wikipedia.org/wiki/Max_Euwe_Centrum",
+    "https://maxeuwe.nl/en/max-euwe-centre-mec-open-again/"
+   ]
+  },
+  {
+   "sid": "S-171",
+   "title": "Pipe Museum, the world's smokes in a 1670 canal house",
+   "members": [
+    "CE-06"
+   ],
+   "pin": [
+    52.364126,
+    4.885348
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-06": [
+     52.364126,
+     4.885348
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "odd-museums",
+   "default": "IN",
+   "reason": "paid entry",
+   "hook": "Over 30,000 pipes, from pre-Columbian to opium, in period rooms of a canal house.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Amsterdam_Pipe_Museum",
+    "https://pipemuseum.nl/en/"
+   ]
+  },
+  {
+   "sid": "S-172",
+   "title": "De Nederlandsche Bank: gold vault, garden, Zadkine and the lost glass palace",
+   "members": [
+    "CE-08",
+    "AE-36",
+    "BE-11",
+    "BE-12",
+    "DE-44"
+   ],
+   "pin": [
+    52.359364,
+    4.900123
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-08": [
+     52.359364,
+     4.900123
+    ],
+    "AE-36": [
+     52.359052,
+     4.899237
+    ],
+    "BE-11": [
+     52.360982,
+     4.898787
+    ],
+    "BE-12": [
+     52.3606,
+     4.8993
+    ],
+    "DE-44": [
+     52.359364,
+     4.900123
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "civic",
+   "default": "IN",
+   "reason": "opening hours to confirm",
+   "hook": "The bank opened its gold vault and garden in 2025, on the site of the Crystal Palace it replaced.",
+   "lead_sources": [
+    "https://www.dnb.nl/de-nieuwe-schatkamer/",
+    "https://www.denieuweschatkamer.nl/",
+    "https://nl.wikipedia.org/wiki/La_demeure_humaine",
+    "https://www.hendrickdekeyser.nl/de-huizen/frederiksplein-10",
+    "https://nl.wikipedia.org/wiki/Paleis_voor_Volksvlijt",
+    "https://web.archive.org/web/2021/https://amsterdamsebinnenstad.nl/binnenstad/194/volksvlijt.php"
+   ]
+  },
+  {
+   "sid": "S-173",
+   "title": "Weteringplantsoen: the herb garden anyone may pick and the leaning poplar",
+   "members": [
+    "DE-36",
+    "GR-05"
+   ],
+   "pin": [
+    52.360183,
+    4.888242
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-36": [
+     52.360183,
+     4.888242
+    ],
+    "GR-05": [
+     52.35904,
+     4.890053
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "",
+   "hook": "Neighbours turned a dog lawn into a free herb garden; the city's biggest leaning tree leans over it.",
+   "lead_sources": [
+    "https://oudestadt.nl/wp-content/uploads/Binnenkrant99.pdf"
+   ]
+  },
+  {
+   "sid": "S-174",
+   "title": "Blauw Jan's forty bronze lizards and De Kring",
+   "members": [
+    "DE-37",
+    "DE-38"
+   ],
+   "pin": [
+    52.3639,
+    4.8839
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DE-37": [
+     52.3639,
+     4.8839
+    ],
+    "DE-38": [
+     52.363615,
+     4.883504
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "De Kring is a members' club",
+   "hook": "Forty bronze lizards crawl over a fenced lawn by the Leidseplein, beside the artists' club De Kring.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Kleine-Gartmanplantsoen",
+    "https://www.priveekollektie.art/work/blauw-jan/"
+   ]
+  },
+  {
+   "sid": "S-175",
+   "title": "Melkweg, the milk factory that became a hippie \"cosmic centre\"",
+   "members": [
+    "CE-25"
+   ],
+   "pin": [
+    52.364837,
+    4.881273
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-25": [
+     52.364837,
+     4.881273
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "civic",
+   "default": "ASK",
+   "reason": "well-known venue: judge against A-LIST",
+   "hook": "A sugar refinery turned dairy turned youth centre in 1970, one hall for music, film and theatre.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Melkweg_(Amsterdam",
+    "https://www.melkweg.nl/en/about-us/history/"
+   ]
+  },
+  {
+   "sid": "S-176",
+   "title": "Stadsherstel's thank-you stones",
+   "members": [
+    "AE-43"
+   ],
+   "pin": [
+    52.361423,
+    4.896536
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-43": [
+     52.361423,
+     4.896536
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; walk spans two wijken",
+   "hook": "Modern gable stones thanking Stadsherstel's people: a cyclist \"tirelessly building bridges\", golden wind feathers.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-177",
+   "title": "Lange Leidsedwarsstraat 144, next to the inn \"Het Land der Belofte\"",
+   "members": [
+    "BE-34"
+   ],
+   "pin": [
+    52.363353,
+    4.885401
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BE-34": [
+     52.363353,
+     4.885401
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay; inn gone; private",
+   "hook": "A working-class house beside the vanished inn \"The Promised Land\" with its kolf course.",
+   "lead_sources": [
+    "https://www.hendrickdekeyser.nl/de-huizen/lange-leidsedwarsstraat-144"
+   ]
+  },
+  {
+   "sid": "S-178",
+   "title": "Weteringschans 81-89, where the Grote Wetering squat fell",
+   "members": [
+    "CE-01"
+   ],
+   "pin": [
+    52.3612,
+    4.88713
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-01": [
+     52.3612,
+     4.88713
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "gone; or a paragraph in \"Peper en Zout\"",
+   "hook": "Riot police cleared the squat in 1980 and the city sent Sinterklaas along, which backfired.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Grote_Wetering_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-179",
+   "title": "The robot car park under the Vijzelgracht and its poem cabins",
+   "members": [
+    "CE-02"
+   ],
+   "pin": [
+    52.3615,
+    4.8917
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-02": [
+     52.3615,
+     4.8917
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "infrastructure",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "Drivers leave their car in a glass cabin and a machine parks it under the canal.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Parkeergarage_Vijzelgracht"
+   ]
+  },
+  {
+   "sid": "S-180",
+   "title": "Leidse Dwarstuin, Lange Leidsedwarsstraat",
+   "members": [
+    "DE-39"
+   ],
+   "pin": [
+    52.364023,
+    4.88438
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DE-39": [
+     52.364023,
+     4.88438
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A walled neighbourhood garden with a Bierenbroodspot mural in the tourist strip.",
+   "lead_sources": [
+    "https://oudestadt.nl/wp-content/uploads/Binnenkrant106.pdf"
+   ]
+  },
+  {
+   "sid": "S-181",
+   "title": "The pagoda trees of the Falckstraat",
+   "members": [
+    "GR-06"
+   ],
+   "pin": [
+    52.360268,
+    4.896524
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-06": [
+     52.360268,
+     4.896524
+    ]
+   },
+   "wijk": "De Weteringschans",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "The oldest Japanese pagoda tree in the city, a fern growing on it, flowering in August.",
+   "lead_sources": []
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AE-17",
+   "draft": "De Bont & Leyten's building, later the city's bathhouse department",
+   "file": "wetering-2",
+   "add": "the WSBZ staff memorial stone (unveiled 2 January 1947) at no. 15-17"
+  }
+ ]
+}

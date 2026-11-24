@@ -1,0 +1,479 @@
+{
+ "slice": "r2-plantage-1",
+ "entries": [
+  {
+   "sid": "S-182",
+   "title": "The population register attack and the artists' resistance monument",
+   "members": [
+    "AE-01",
+    "AE-02"
+   ],
+   "pin": [
+    52.366743,
+    4.912312
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-01": [
+     52.366743,
+     4.912312
+    ],
+    "AE-02": [
+     52.365543,
+     4.914189
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "building is part of the Artis complex: pitched on the street plaque",
+   "hook": "Artists and students set fire to the city's population register in 1943; Kneulman's monument stands round the corner.",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1602/amsterdam-monument-aan-de-plantage-kerklaan",
+    "https://nl.wikipedia.org/wiki/Monument_voor_het_kunstenaarsverzet_1940-1945",
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1518"
+   ]
+  },
+  {
+   "sid": "S-183",
+   "title": "Weesperplein station: the Cold War shelter, its art and the Hortusbrug shelter",
+   "members": [
+    "BE-14",
+    "AE-32",
+    "BE-15"
+   ],
+   "pin": [
+    52.361111,
+    4.907778
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BE-14": [
+     52.361111,
+     4.907778
+    ],
+    "AE-32": [
+     52.361451,
+     4.907986
+    ],
+    "BE-15": [
+     52.364167,
+     4.908333
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "capacity 12,000 or 3,000; shelters closed",
+   "hook": "Fold-down tables, steel doors and a decontamination sluice for thousands; even a bridge nearby hides a shelter.",
+   "lead_sources": [
+    "https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf",
+    "https://nl.wikipedia.org/wiki/Weesperplein_(metrostation",
+    "https://onh.nl/verhaal/bijna-vergeten-veertig-verborgen-bunkers-in-amsterdam",
+    "https://nl.wikipedia.org/wiki/Hortusbrug"
+   ]
+  },
+  {
+   "sid": "S-184",
+   "title": "Schaduwkade, the quay that remembers",
+   "members": [
+    "DE-22",
+    "AE-05"
+   ],
+   "pin": [
+    52.36507,
+    4.904029
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-22": [
+     52.36507,
+     4.904029
+    ],
+    "AE-05": [
+     52.365564,
+     4.906254
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "The names of 200 deported Jewish residents line the quay opposite their homes; boats are now kept off.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2025/4/18/ballenlint-beschermt-schaduwkade",
+    "https://nl.wikipedia.org/wiki/Schaduwkade",
+    "https://www.hmdb.org/m.asp?m=113425",
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3642/amsterdam-monument-aan-de-nieuwe-keizersgracht"
+   ]
+  },
+  {
+   "sid": "S-185",
+   "title": "\"Nooit meer Auschwitz\", the broken-mirror monument, Wertheimpark",
+   "members": [
+    "AE-03"
+   ],
+   "pin": [
+    52.367754,
+    4.909258
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-03": [
+     52.367754,
+     4.909258
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "fairly well known; or group with Wertheim fountain",
+   "hook": "Wolkers' mirrors lie broken so the sky is never whole again; an urn of Auschwitz ashes beneath.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Auschwitzmonument_(Amsterdam",
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1501"
+   ]
+  },
+  {
+   "sid": "S-186",
+   "title": "The Brilleslijper house, Nieuwe Achtergracht 14",
+   "members": [
+    "AE-06"
+   ],
+   "pin": [
+    52.3618,
+    4.905296
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-06": [
+     52.3618,
+     4.905296
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "stone count to check on site",
+   "hook": "The resistance sisters deported on the Franks' train lived here; their family's stumbling stones lie at the door.",
+   "lead_sources": [
+    "https://joodsmonument.nl/en/page/89342/nieuwe-achtergracht-14-ii-amsterdam",
+    "https://research.annefrank.org/en/personen/6bc77428-56e8-4712-a115-751a1d080c09/",
+    "https://tracesofwar.com/sights/144118/Stolpersteine-Nieuwe-Achtergracht-14.htm"
+   ]
+  },
+  {
+   "sid": "S-187",
+   "title": "Telefoon van de Wind, Hoftuin",
+   "members": [
+    "AE-12"
+   ],
+   "pin": [
+    52.366064,
+    4.904488
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-12": [
+     52.366064,
+     4.904488
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "Hoftuin opening hours to check",
+   "hook": "A disconnected phone in a garden for calling the dead, after the wind phone of Otsuchi.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-188",
+   "title": "CURACAO and PORTORICO, Nieuwe Keizersgracht 55-57",
+   "members": [
+    "AE-41"
+   ],
+   "pin": [
+    52.365744,
+    4.907162
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-41": [
+     52.365744,
+     4.907162
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "do not imply slave trade without a source",
+   "hook": "Two stones name Caribbean islands, and nobody knows why.",
+   "lead_sources": [
+    "https://www.amsterdam-monumentenstad.nl/database/grachtenboek_objecten.php?id=4436",
+    "https://www.monumenten.nl/monument/2773"
+   ]
+  },
+  {
+   "sid": "S-189",
+   "title": "Weesperstraat, the Jewish quarter's high street turned city motorway",
+   "members": [
+    "CE-11",
+    "AE-33"
+   ],
+   "pin": [
+    52.3639,
+    4.906
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-11": [
+     52.3639,
+     4.906
+    ],
+    "AE-33": [
+     52.360785,
+     4.908626
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "The Jewish high street, emptied by deportation, was cut into a four-lane road; Krop's burghers watch from the blocks.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Weesperstraat_(Amsterdam",
+    "https://arcam.nl/architectuur-gids/woningen-weesperstraat/"
+   ]
+  },
+  {
+   "sid": "S-190",
+   "title": "Steven Holl's sponge on the Sarphatistraat",
+   "members": [
+    "CE-12"
+   ],
+   "pin": [
+    52.36245,
+    4.9167
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-12": [
+     52.36245,
+     4.9167
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "civic",
+   "default": "IN",
+   "reason": "offices, outside only; Militair Hospitaal draft names the medicine store",
+   "hook": "Holl wrapped a pavilion in perforated copper beside the old state medicine store.",
+   "lead_sources": [
+    "https://arcam.nl/architectuur-gids/campus-stadgenoot/",
+    "https://www.archdaily.com/201033/flashback-sarphatistraat-offices-steven-holl-architects"
+   ]
+  },
+  {
+   "sid": "S-191",
+   "title": "Artisplein, Artis for free from a chair by the pond",
+   "members": [
+    "CE-15"
+   ],
+   "pin": [
+    52.366469,
+    4.913261
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-15": [
+     52.366469,
+     4.913261
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "Artis is A-list: pitched on the free square",
+   "hook": "Pull up a chair by the pond and watch the flamingos, without a ticket.",
+   "lead_sources": [
+    "https://arcam.nl/architectuur-gids/artisplein/"
+   ]
+  },
+  {
+   "sid": "S-192",
+   "title": "Monument van Joodse Erkentelijkheid, the monument nobody wanted next door",
+   "members": [
+    "DE-23"
+   ],
+   "pin": [
+    52.361922,
+    4.907939
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-23": [
+     52.361922,
+     4.907939
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "The 1950 Jewish thank-you to Amsterdam, moved again and again, refused by one park's residents.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2017/11/19/overloopplantsoen-bewoners-fel-tegen-komst-monument-van-joodse-erkentelijkheid",
+    "https://nl.wikipedia.org/wiki/Monument_van_Joodse_Erkentelijkheid"
+   ]
+  },
+  {
+   "sid": "S-193",
+   "title": "The Stolperschwelle at the tram stop, Plantage Middenlaan",
+   "members": [
+    "DE-24"
+   ],
+   "pin": [
+    52.3663,
+    4.9096
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-24": [
+     52.3663,
+     4.9096
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "beside A-list Hollandsche Schouwburg",
+   "hook": "A stumbling threshold: tens of thousands deported from here by municipal tram.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2025/1/31/struikeldrempel-geplaatst-op-de-tramhalte-bij-de-hollandsche-schouwburg"
+   ]
+  },
+  {
+   "sid": "S-194",
+   "title": "Wertheimpark's trees: IJzeren Hein and the dawn redwood",
+   "members": [
+    "DE-25",
+    "GR-10"
+   ],
+   "pin": [
+    52.367865,
+    4.908654
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-25": [
+     52.367865,
+     4.908654
+    ],
+    "GR-10": [
+     52.367516,
+     4.90873
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "or merge into Wertheim fountain",
+   "hook": "A wingnut held together with iron anchors, and one of the first dawn redwoods grown in the country.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2022/10/28/vleugelnoot-uit-wertheimpark-in-bomen-top-tien",
+    "https://nl.wikipedia.org/wiki/Wertheimpark"
+   ]
+  },
+  {
+   "sid": "S-195",
+   "title": "The elm museum round the Hortus: lying elms and an Anne Frank seedling",
+   "members": [
+    "GR-09"
+   ],
+   "pin": [
+    52.366166,
+    4.907593
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-09": [
+     52.366166,
+     4.907593
+    ]
+   },
+   "wijk": "Weesperbuurt/Plantage",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "Hortus is A-list: street side",
+   "hook": "Elms planted lying down to replace the fallen ones, now curving upward; an Anne Frank chestnut seedling nearby.",
+   "lead_sources": [
+    "https://oost-online.nl/zaailing-anne-frankboom-geplant-op-het-hortusplantsoen/"
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AE-04",
+   "draft": "Theo Thijssen's school on the paupers' graveyard (Hortusplantsoen)",
+   "file": "plantage-1",
+   "add": "Truus Menger's monument for Jewish deaf war victims (2010) and the Ammanschool plaques at no. 2"
+  },
+  {
+   "scout": "AE-10",
+   "draft": "Bridges with wartime names (Roetersstraat and Plantage Middenlaan)",
+   "file": "plantage-1",
+   "add": "Walter Süskind's bridge plaque on the Nieuwe Herengracht"
+  },
+  {
+   "scout": "AE-11",
+   "draft": "The Glass Palace of the Joodsche Invalide",
+   "file": "plantage-2",
+   "add": "the 1947 plaque for fifteen health-service staff killed in the war (building now the GGD)"
+  },
+  {
+   "scout": "DE-27",
+   "draft": "The city workhouse (Dr. Sarphatihuis)",
+   "file": "plantage-2",
+   "add": "Look for: the Ramses Shaffy portrait on the wall, re-unveiled 2023"
+  },
+  {
+   "scout": "AE-34",
+   "draft": "Wertheim fountain (Wertheimpark)",
+   "file": "plantage-1",
+   "add": "the 1982 marble sphinxes by Hans 't Mannetje are already a Look for line"
+  },
+  {
+   "scout": "DE-34",
+   "draft": "Hertzberger's student house with a street in the air (Weesperflat)",
+   "file": "plantage-2",
+   "add": "local voice: alumni festival"
+  }
+ ]
+}

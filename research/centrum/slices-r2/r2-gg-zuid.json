@@ -1,0 +1,380 @@
+{
+ "slice": "r2-gg-zuid",
+ "entries": [
+  {
+   "sid": "S-151",
+   "title": "Saint George and the dragon, Reguliersgracht 34",
+   "members": [
+    "AE-20"
+   ],
+   "pin": [
+    52.363774,
+    4.895659
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-20": [
+     52.363774,
+     4.895659
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "forging story needs a second source; private house",
+   "hook": "The relief's twelve faces are the twelve Jews hidden in this house; \"I dive under to come up\".",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1514/amsterdam-sint-joris-en-de-draak"
+   ]
+  },
+  {
+   "sid": "S-152",
+   "title": "Poentunnel, the bankers' tunnel under the Keizersgracht, and the Vijzelbank",
+   "members": [
+    "BE-01",
+    "BE-02"
+   ],
+   "pin": [
+    52.363869,
+    4.892125
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BE-01": [
+     52.363869,
+     4.892125
+    ],
+    "BE-02": [
+     52.363039,
+     4.891865
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "nothing to see of the tunnel from the street",
+   "hook": "The only tunnel under a canal, dug so bank directors walked dry; the bank over the Kerkstraat caused a council storm.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Poentunnel",
+    "https://www.nhnieuws.nl/nieuws/340608/extreme-belangstelling-bezoekers-wachten-ruim-35-uur-voor-amsterdamse-poentunnel",
+    "https://onh.nl/verhaal/de-amsterdamse-poentunnel-ging-voor-heel-even-open",
+    "https://nl.wikipedia.org/wiki/Kerkstraat_(Amsterdam",
+    "https://web.archive.org/web/2021/https://amsterdamsebinnenstad.nl/binnenstad/178/vijzelbank.php"
+   ]
+  },
+  {
+   "sid": "S-153",
+   "title": "The krullen, Amsterdam's open-air urinals",
+   "members": [
+    "CE-10",
+    "CW-04",
+    "DC-40"
+   ],
+   "pin": [
+    52.364351,
+    4.889736
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-10": [
+     52.364351,
+     4.889736
+    ],
+    "CW-04": [
+     52.374496,
+     4.884908
+    ],
+    "DC-40": [
+     52.3743,
+     4.8976
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "three scouts proposed a krul (CW-04 Westermarkt, DC-40 Oudekerksplein): one pin, or one per zone",
+   "hook": "See-through iron urinals so police could count the men inside; Dolle Mina tied them shut in 1970.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Plaskrul",
+    "https://maps.amsterdam.nl/openbare_toiletten/",
+    "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=OPENBARE_TOILETTEN&THEMA=openbare_toiletten",
+    "https://www.nhnieuws.nl/nieuws/336685"
+   ]
+  },
+  {
+   "sid": "S-154",
+   "title": "Four views of Den Helder, Kerkstraat 402-408",
+   "members": [
+    "AE-40"
+   ],
+   "pin": [
+    52.363229,
+    4.90095
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-40": [
+     52.363229,
+     4.90095
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "",
+   "hook": "Four stones of 1672 show the coast a carpenter came from: Huisduinen, Den Helder, Nieuwe Diep, Wieringen.",
+   "lead_sources": [
+    "https://www.gevelstenen.net"
+   ]
+  },
+  {
+   "sid": "S-155",
+   "title": "Orphan gable tops: the gables that played musical chairs",
+   "members": [
+    "G-03"
+   ],
+   "pin": [
+    52.364023,
+    4.886495
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-03": [
+     52.364023,
+     4.886495
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "housing",
+   "default": "IN",
+   "reason": "jordaan-5 draft has Rozenstraat 35-43: link or merge",
+   "hook": "About 135 canal houses wear tops taken from demolished houses; Prinsengracht 755's sea gods came from the Amstelstraat.",
+   "lead_sources": [
+    "https://web.archive.org/web/2025/https://amsterdamsebinnenstad.nl/",
+    "https://monumentenregister.cultureelerfgoed.nl/monumenten/4398"
+   ]
+  },
+  {
+   "sid": "S-156",
+   "title": "Herengracht 412, perhaps the oldest garden house",
+   "members": [
+    "BE-32"
+   ],
+   "pin": [
+    52.36706,
+    4.887194
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BE-32": [
+     52.36706,
+     4.887194
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "private; garden houses were dropped at review as invisible from the street",
+   "hook": "A garden house crowned in 1734 whose core may still be 17th-century.",
+   "lead_sources": [
+    "https://web.archive.org/web/2021/https://amsterdamsebinnenstad.nl/binnenstad/186/tuinhuis.php"
+   ]
+  },
+  {
+   "sid": "S-157",
+   "title": "Where Stichting 1940-1945 was founded, Keizersgracht 567",
+   "members": [
+    "AE-21"
+   ],
+   "pin": [
+    52.364372,
+    4.890469
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-21": [
+     52.364372,
+     4.890469
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "The resistance groups met here in secret in October 1944 to found their mutual-aid foundation.",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2944"
+   ]
+  },
+  {
+   "sid": "S-158",
+   "title": "Herengracht 524, Jurriaan Andriessen's painted landscape room",
+   "members": [
+    "BE-07"
+   ],
+   "pin": [
+    52.364634,
+    4.895091
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BE-07": [
+     52.364634,
+     4.895091
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay; private, interior only",
+   "hook": "Behind a neck gable, a whole room painted as a landscape in 1771.",
+   "lead_sources": [
+    "https://www.hendrickdekeyser.nl/de-huizen/herengracht-524"
+   ]
+  },
+  {
+   "sid": "S-159",
+   "title": "Hans Brinker Budget Hotel, proudly the worst",
+   "members": [
+    "CE-16"
+   ],
+   "pin": [
+    52.363679,
+    4.888055
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-16": [
+     52.363679,
+     4.888055
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; commercial",
+   "hook": "A hostel famous for advertising itself as the worst: guests leave in worse shape.",
+   "lead_sources": [
+    "https://arcam.nl/architectuur-gids/hans-brinker-budget-hotel/"
+   ]
+  },
+  {
+   "sid": "S-160",
+   "title": "Halvemaansteeg 4-6, the illegal demolition",
+   "members": [
+    "DE-43"
+   ],
+   "pin": [
+    52.366731,
+    4.895714
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-43": [
+     52.366731,
+     4.895714
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "gone; one source family",
+   "hook": "An owner demolished listed houses without a permit in 2014; the gap is still there.",
+   "lead_sources": [
+    "https://oudestadt.nl/wp-content/uploads/Binnenkrant81.pdf"
+   ]
+  },
+  {
+   "sid": "S-161",
+   "title": "Koningsplein 10, the 3-metre chocolate shop",
+   "members": [
+    "G-06"
+   ],
+   "pin": [
+    52.367118,
+    4.888815
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-06": [
+     52.367118,
+     4.888815
+    ]
+   },
+   "wijk": "Grachtengordel-Zuid",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; a shop front",
+   "hook": "An Art Nouveau front under three metres wide, built for a chocolatier in 1901 and rebuilt after a 1936 fire.",
+   "lead_sources": [
+    "https://web.archive.org/web/2025/https://amsterdamsebinnenstad.nl/binnenstad/308/reconstructie-koningsplein-10.php"
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AE-09",
+   "draft": "Lippmann, Rosenthal & Co., the bank whose name was stolen",
+   "file": "gg-zuid-2",
+   "add": "the 2003 LIRO plaque at Sarphatistraat 47-55 with its Isaiah line (Look for line already planned by coordinator)"
+  },
+  {
+   "scout": "AE-39",
+   "draft": "The Carlton crash and the gap it left",
+   "file": "gg-zuid-3",
+   "add": "Look for: Karel Appel's 1964 glass appliqué on the Spaarbank front (visibility to check)"
+  },
+  {
+   "scout": "BE-29",
+   "draft": "Kerkstraat, the back street of coach houses",
+   "file": "gg-zuid-2",
+   "add": "the coach house of Keizersgracht 524 (Hercules in its niches, painted by Keun in 1772; opening check)"
+  },
+  {
+   "scout": "BE-31",
+   "draft": "Kerkstraat, the back street of coach houses",
+   "file": "gg-zuid-2",
+   "add": "Look for: the 1673 \"winkelhuis\" with date ribbon and nos. 288-292 (c. 1691)"
+  },
+  {
+   "scout": "CE-21",
+   "draft": "Thorbecke, the statue The Hague would not have",
+   "file": "gg-zuid-3",
+   "add": "the kermis story (statues placed to block the September fair) and his gaze down the Reguliersgracht, told as hearsay"
+  },
+  {
+   "scout": "DE-41",
+   "draft": "Amstelkerk, the temporary wooden church",
+   "file": "gg-zuid-1",
+   "add": "the Amstelveld's life: Monday flower market, the Kokadorus statue, De Dogger houseboat (1865)"
+  },
+  {
+   "scout": "DE-42",
+   "draft": "Keizersgrachtkerk, Kuyper's breakaway church",
+   "file": "gg-zuid-2",
+   "add": "Look for: the plaque for the shootings of November 1944"
+  }
+ ]
+}

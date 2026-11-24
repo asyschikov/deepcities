@@ -1,0 +1,550 @@
+{
+ "slice": "r2-jordaan-1",
+ "entries": [
+  {
+   "sid": "S-001",
+   "title": "Bloemgracht: the townsman, the farmer and the sailor",
+   "members": [
+    "AW-21"
+   ],
+   "pin": [
+    52.374285,
+    4.879668
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-21": [
+     52.374285,
+     4.879668
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "housing",
+   "default": "IN",
+   "reason": "87-91 are listed: check no monument draft covers them",
+   "hook": "Three identical gables, three stones: not trades but three ways of living in the Golden Age.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-002",
+   "title": "Marnixstraat 291-293, houses on the old bastion below the street",
+   "members": [
+    "BW-23"
+   ],
+   "pin": [
+    52.374353,
+    4.876715
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BW-23": [
+     52.374353,
+     4.876715
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "private homes",
+   "hook": "Houses already on the 1625 map sit below street level, with bastion stones along their sunken lane.",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/marnixstraat-291/"
+   ]
+  },
+  {
+   "sid": "S-003",
+   "title": "Het Gangenproject, the Willemsstraat's vanished alleys in the pavement",
+   "members": [
+    "DW-01"
+   ],
+   "pin": [
+    52.381436,
+    4.885284
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-01": [
+     52.381436,
+     4.885284
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "counts differ (56 or 57)",
+   "hook": "Tiles mark the 57 slum alleys of the filled Goudsbloemgracht; the Jordaanmuseum fought nine years to lay them.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Willemsstraat_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-004",
+   "title": "Vaste klant, a statue paid for a bar tab",
+   "members": [
+    "AW-07"
+   ],
+   "pin": [
+    52.368656,
+    4.8814
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-07": [
+     52.368656,
+     4.8814
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "on a café terrace (borderline)",
+   "hook": "A young artist settled his café tab with a statue of a sad regular stroking the cat.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Vaste_klant",
+    "https://www.nrc.nl/nieuws/2020/05/01/de-vaste-klant-a3998202"
+   ]
+  },
+  {
+   "sid": "S-005",
+   "title": "Energie en tijd, Verhulst on the substation",
+   "members": [
+    "AW-11"
+   ],
+   "pin": [
+    52.37034,
+    4.875734
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-11": [
+     52.37034,
+     4.875734
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A 1962 concrete-and-steel relief on the biggest substation of its day, where the English gasworks stood.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Energie_en_tijd"
+   ]
+  },
+  {
+   "sid": "S-006",
+   "title": "Theo Thijssen Museum",
+   "members": [
+    "CW-07"
+   ],
+   "pin": [
+    52.375538,
+    4.882737
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CW-07": [
+     52.375538,
+     4.882737
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "odd-museums",
+   "default": "IN",
+   "reason": "small, limited hours",
+   "hook": "The writer's birth house, rebuilt in its old form after a fuss, with a small museum of the 1890 Jordaan.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Theo_Thijssen_Museum"
+   ]
+  },
+  {
+   "sid": "S-007",
+   "title": "Lindengracht, the filled canal and the eel riot",
+   "members": [
+    "CW-09"
+   ],
+   "pin": [
+    52.380038,
+    4.883459
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "CW-09": [
+     52.380038,
+     4.883459
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "eel rope spot approximate",
+   "hook": "Police stopped an eel-pulling game here in 1886; the riot that followed left 26 dead.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Palingoproer",
+    "https://nl.wikipedia.org/wiki/Lindengracht"
+   ]
+  },
+  {
+   "sid": "S-008",
+   "title": "The anonymous sculptor of the Anjeliersstraat",
+   "members": [
+    "DW-02"
+   ],
+   "pin": [
+    52.377028,
+    4.880194
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-02": [
+     52.377028,
+     4.880194
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "how many remain needs a walk",
+   "hook": "Small iron figures appear on Jordaan walls overnight; the maker stays anonymous, rumour once said Queen Beatrix.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/w/index.php?title=Lijst_van_beelden_in_Amsterdam-Centrum",
+    "https://whatsupwithamsterdam.com/the-mystery-of-the-sculptures/."
+   ]
+  },
+  {
+   "sid": "S-009",
+   "title": "Kees de jongen on the \"Tuinpleintje\"",
+   "members": [
+    "DW-03",
+    "AW-12"
+   ],
+   "pin": [
+    52.37724,
+    4.88354
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-03": [
+     52.37724,
+     4.88354
+    ],
+    "AW-12": [
+     52.376883,
+     4.881215
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "Theo Thijssen's schoolboy painted on a Tuinstraat wall in 2025, paid by residents' vote; pupils sang at the unveiling.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Muurschildering_Kees_de_jongen."
+   ]
+  },
+  {
+   "sid": "S-010",
+   "title": "Bevrijdingslinde van Jordaankinderen",
+   "members": [
+    "DW-04"
+   ],
+   "pin": [
+    52.37763,
+    4.879982
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-04": [
+     52.37763,
+     4.879982
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "pin approximate; urn under the tree unconfirmed",
+   "hook": "A lime paid by pupils of thirteen schools in 1946 for war-dead Jordaan children; neighbours saved it twice.",
+   "lead_sources": [
+    "https://tracesofwar.com/sights/28322/Bevrijdingslinde-Jordaankinderen-Amsterdam.htm"
+   ]
+  },
+  {
+   "sid": "S-011",
+   "title": "Noordermarkt: what the locals point at",
+   "members": [
+    "DW-05",
+    "AW-05",
+    "CW-08"
+   ],
+   "pin": [
+    52.37975,
+    4.886185
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-05": [
+     52.37975,
+     4.886185
+    ],
+    "AW-05": [
+     52.379398,
+     4.886411
+    ],
+    "CW-08": [
+     52.379368,
+     4.886774
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "Noorderkerk draft (jordaan-3) already has the Jordaanoproer statue as a Look for line: keep the church story there",
+   "hook": "The stolen strike plaque found in an alley, a dune-water tap post, and markets that fought \"vertrutting\".",
+   "lead_sources": [
+    "https://nl.wikipedia.org/w/index.php?title=Lijst_van_beelden_in_Amsterdam-Centrum",
+    "https://nl.wikipedia.org/wiki/Lijst_van_beelden_in_Amsterdam-Centrum",
+    "https://nl.wikipedia.org/wiki/Noordermarkt"
+   ]
+  },
+  {
+   "sid": "S-012",
+   "title": "Johnny Jordaanplein, the people's statue garden",
+   "members": [
+    "DW-07"
+   ],
+   "pin": [
+    52.37015,
+    4.882267
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-07": [
+     52.37015,
+     4.882267
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "well known to Amsterdammers: pitch the self-management",
+   "hook": "Busts of Jordaan singers on a square the council never named; a self-appointed keeper nailed up the sign.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Johnny_Jordaanplein."
+   ]
+  },
+  {
+   "sid": "S-013",
+   "title": "Eerste Marnixplantsoen, the bastion in the grass and the 1966 riot",
+   "members": [
+    "DW-24"
+   ],
+   "pin": [
+    52.381636,
+    4.880075
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-24": [
+     52.381636,
+     4.880075
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "bastion name disputed; nothing marks 1966",
+   "hook": "The Singelgracht's only bastion still pointed; the 1966 builders' riot began at the patronaat at no. 1.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Marnixplantsoenen",
+    "https://nl.wikipedia.org/wiki/Telegraafrellen."
+   ]
+  },
+  {
+   "sid": "S-014",
+   "title": "Noorderspeeltuin on the Carthusian graveyard",
+   "members": [
+    "DW-25"
+   ],
+   "pin": [
+    52.379542,
+    4.882705
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-25": [
+     52.379542,
+     4.882705
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "burial is \"vermoedelijk\"; Karthuizerhof draft names the graveyard",
+   "hook": "The Jordaan's oldest club (1908), pointed-roof huts and majorettes on the graveyard where Jan Klaassen may lie.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-015",
+   "title": "Nassaubioscoop, the Moorish front on the Lijnbaansgracht",
+   "members": [
+    "DW-27"
+   ],
+   "pin": [
+    52.380486,
+    4.881181
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-27": [
+     52.380486,
+     4.881181
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "front's present state to check",
+   "hook": "A 1913 cinema's three horseshoe arches, behind netting for years; the Jordaanmuseum wanted it and lost.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Nassaubioscoop"
+   ]
+  },
+  {
+   "sid": "S-016",
+   "title": "Perlee, the street organ workshop",
+   "members": [
+    "DW-46"
+   ],
+   "pin": [
+    52.378182,
+    4.883016
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-46": [
+     52.378182,
+     4.883016
+    ]
+   },
+   "wijk": "Jordaan",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "odd-museums",
+   "default": "IN",
+   "reason": "visits by appointment",
+   "hook": "Street organs rented \"with a monkey\" since 1875; at Westerstraat 119 since 1932, still making organ books.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/G._Perlee_Draaiorgelmuseum."
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AW-04",
+   "draft": "Turnzaal of 1887, the gym hall with Rust Roest on its front",
+   "file": "jordaan-3",
+   "add": "war story: Jews barred from clubs 1941; Jan 1945 Arbeitseinsatz registration office here and the resistance attempt to blow it up on 8 Jan 1945"
+  },
+  {
+   "scout": "BW-06",
+   "draft": "Concordia on the Westerstraat, Peace be to this house",
+   "file": "jordaan-6",
+   "add": "the two inner bleaching courts behind Westerstraat 221-289 and 327-405, summer hofjes concerts"
+  },
+  {
+   "scout": "BW-36",
+   "draft": "Papeneiland and the Lekkeresluis",
+   "file": "jordaan-1",
+   "add": "see DW-23"
+  },
+  {
+   "scout": "DW-23",
+   "draft": "Papeneiland and the Lekkeresluis",
+   "file": "jordaan-1",
+   "add": "tante Mie's floating pay toilet under the bridge and the skipping rhyme; BW-36: the rattle watch's room in the arch (door in the arch)"
+  },
+  {
+   "scout": "DW-26",
+   "draft": "Tweede Laurierdwarsstraat, what the clearances left standing",
+   "file": "jordaan-5",
+   "add": "the two Weespad gardens kept by neighbours (rock garden, grapes, hofjes concerts) and the 2009-10 fight against an extension"
+  },
+  {
+   "scout": "DW-30",
+   "draft": "The lost fruit market's last blocks, Marnixstraat 200–220",
+   "file": "jordaan-3",
+   "add": "local voice: residents' seven-year fight against demolition, \"Gallisch dorp\" street party 6 June 2008"
+  },
+  {
+   "scout": "AW-06",
+   "draft": "The London Police on Prinsengracht 70, the mural the neighbours kept",
+   "file": "jordaan-4",
+   "add": "Look for: the dense small street art in the Tuinstraat and Egelantiersstraat"
+  },
+  {
+   "scout": "BW-02",
+   "draft": "Raepenhofje and Bossche Hofje, two hofjes bought on one day",
+   "file": "jordaan-3",
+   "add": "add access: open by day, gate locked at night"
+  },
+  {
+   "scout": "BW-03",
+   "draft": "Suyckerhoff-hofje, behind a deep passage",
+   "file": "jordaan-3",
+   "add": "add access: weekdays only (2023)"
+  },
+  {
+   "scout": "BW-07",
+   "draft": "Platanenhof, the Catholic boys' orphanage",
+   "file": "jordaan-2",
+   "add": "the passages under it, told with both versions"
+  },
+  {
+   "scout": "BW-08",
+   "draft": "Rozenhofje, an almshouse on an old pleasure maze",
+   "file": "jordaan-5",
+   "add": "add access: open only on Open Monumentendag"
+  },
+  {
+   "scout": "DW-06",
+   "draft": "Fort van Sjako gable stones",
+   "file": "jordaan-1",
+   "add": "local voice: 2007 thesis by Frans Thuijs (\"Jaco was geen Amsterdammer\"), reader's \"De Jordaan is dus een mythe kwijt\""
+  },
+  {
+   "scout": "DW-47",
+   "draft": "Pianola Museum in police station no. 21",
+   "file": "jordaan-6",
+   "add": "local voice: 2009 neighbour \"Ik wist helemaal niet dat hier een muziekgebouw zat!\""
+  }
+ ]
+}

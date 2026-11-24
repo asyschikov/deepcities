@@ -1,0 +1,735 @@
+{
+ "slice": "r2-gg-west",
+ "entries": [
+  {
+   "sid": "S-052",
+   "title": "De Groote Keijser, the squat that became a fortress",
+   "members": [
+    "CW-01",
+    "CW-02"
+   ],
+   "pin": [
+    52.372148,
+    4.88445
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CW-01": [
+     52.372148,
+     4.88445
+    ],
+    "CW-02": [
+     52.369679,
+     4.887194
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "private housing, no plaque",
+   "hook": "Squatters turned six canal houses into a fortress in 1978; the mayor refused to send the police.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Groote_Keijser",
+    "https://nl.wikipedia.org/wiki/Krakersrellen",
+    "https://vrijekeyser.nl",
+    "https://web.archive.org/web/2020/https://staatsarchief.nl/"
+   ]
+  },
+  {
+   "sid": "S-053",
+   "title": "The gaper of Het Heertje, now \"O Johnny\"",
+   "members": [
+    "DW-18"
+   ],
+   "pin": [
+    52.376994,
+    4.889168
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-18": [
+     52.376994,
+     4.889168
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "sensitive: tell it factually",
+   "hook": "A stolen drugstore gaper, a replica removed in a 2020 racism row, then a two-faced Medusa gaper.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Gaper_Oh_Johnny",
+    "https://www.nhnieuws.nl/nieuws/269910",
+    "https://www.dutchnews.nl/2020/07/gap-where-gaper-was-after-amsterdam-drugstore-image-accused-of-being-racist-caricature/."
+   ]
+  },
+  {
+   "sid": "S-054",
+   "title": "Reestraat 6, Anton de Kom's Amsterdam house",
+   "members": [
+    "AW-03"
+   ],
+   "pin": [
+    52.372411,
+    4.884141
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-03": [
+     52.372411,
+     4.884141
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "dates of his stay differ; plaque unconfirmed",
+   "hook": "The anti-colonial writer of \"Wij slaven van Suriname\" lived here in 1935; Stadsherstel saved the near-ruin.",
+   "lead_sources": [
+    "https://mappingslavery.nl/kaarten-2/kaarten-nederland/amsterdam/",
+    "https://stadsherstel.nl/monumenten/reestraat-6/",
+    "https://www.hekjesenslootjes.nl/node/771"
+   ]
+  },
+  {
+   "sid": "S-055",
+   "title": "Brouwersgracht stones: a bag of coins and a cowherd who stayed home",
+   "members": [
+    "AW-24"
+   ],
+   "pin": [
+    52.380093,
+    4.888648
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-24": [
+     52.380093,
+     4.888648
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "",
+   "hook": "A money bag that \"won't give to friends\", dated 1772, and other stones Stadsherstel rescued.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-056",
+   "title": "De Poezenboot",
+   "members": [
+    "CW-05"
+   ],
+   "pin": [
+    52.378144,
+    4.893079
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CW-05": [
+     52.378144,
+     4.893079
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "second tier (Atlas Obscura)",
+   "hook": "A woman took in one cat and kittens in 1966; now a purpose-built ark, still a working shelter.",
+   "lead_sources": [
+    "https://www.depoezenboot.nl",
+    "https://nl.wikipedia.org/wiki/De_Poezenboot_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-057",
+   "title": "Descartes at Westermarkt 6",
+   "members": [
+    "DW-20"
+   ],
+   "pin": [
+    52.37488,
+    4.884448
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-20": [
+     52.37488,
+     4.884448
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "beside A-list Westerkerk; second source to find",
+   "hook": "Descartes lived here in 1634 and fathered a daughter with the housekeeper; a pavement tile says \"Ik denk, dus ik ben\".",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-058",
+   "title": "Zuid-Afrikahuis and the \"boekverdrinking\"",
+   "members": [
+    "DW-38"
+   ],
+   "pin": [
+    52.375868,
+    4.886855
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-38": [
+     52.375868,
+     4.886855
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "say \"since 1950\" for the library",
+   "hook": "Europe's largest library on South Africa, where masked activists threw books into the canal in 1984.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Zuid-Afrikahuis"
+   ]
+  },
+  {
+   "sid": "S-059",
+   "title": "The Heerenlogement gate on the Keizersgracht",
+   "members": [
+    "G-02"
+   ],
+   "pin": [
+    52.368591,
+    4.884916
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-02": [
+     52.368591,
+     4.884916
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "lions are 1975 renewals",
+   "hook": "The gate of \"the noblest taverne in the world\" was carried here by its last auctioneer when the inn fell in 1874.",
+   "lead_sources": [
+    "https://web.archive.org/web/2025/https://amsterdamsebinnenstad.nl/binnenstad/278/heerenlogement.php",
+    "https://monumentenregister.cultureelerfgoed.nl/monumenten/2328"
+   ]
+  },
+  {
+   "sid": "S-060",
+   "title": "The Knobbeliep: Amsterdam's own knobbly elms, Westermarkt and Nieuwe Herengracht",
+   "members": [
+    "GR-03",
+    "GR-07"
+   ],
+   "pin": [
+    52.37426,
+    4.884137
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-03": [
+     52.37426,
+     4.884137
+    ],
+    "GR-07": [
+     52.366093,
+     4.902225
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "two pins in two zones",
+   "hook": "An undescribed elm cultivar with a burred trunk; only five are known, one an 1891 veteran on the Nieuwe Herengracht.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-061",
+   "title": "The thickest tree in Centrum, a plane at Molenpad 2",
+   "members": [
+    "GR-04"
+   ],
+   "pin": [
+    52.367241,
+    4.883638
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-04": [
+     52.367241,
+     4.883638
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "or a Look for in the Molenpad draft (gg-west-3)",
+   "hook": "An oriental plane 5.75 m round, planted for a bank around 1860.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-062",
+   "title": "Bergstraat: De Naaister and the corn measurer who came home",
+   "members": [
+    "DW-19"
+   ],
+   "pin": [
+    52.37549,
+    4.889598
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-19": [
+     52.37549,
+     4.889598
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "no second source; statue's house number and date unclear",
+   "hook": "Residents' own bronze seamstress, and a 1608 gable stone found in another building's hall and brought back.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-063",
+   "title": "Klipper Bestevaer at the head of the Keizersgracht",
+   "members": [
+    "DW-42"
+   ],
+   "pin": [
+    52.3789,
+    4.8886
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-42": [
+     52.3789,
+     4.8886
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "single source; private boat",
+   "hook": "A 1906 clipper lived in as a home; a storm-felled elm snapped both masts in 2023, neighbours rallied.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-064",
+   "title": "De Notendop, the Tuesday duet with the Westertoren",
+   "members": [
+    "DW-43"
+   ],
+   "pin": [
+    52.3749,
+    4.884
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-43": [
+     52.3749,
+     4.884
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Still there? (not known to have resumed after the tower's restoration)",
+   "hook": "A home-built music tub answers the carillon on trumpet; the carillonneur waves through a hatch in the clock.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-065",
+   "title": "Hildo Krop's comic strip on the telephone exchange, Herengracht 295",
+   "members": [
+    "AW-19"
+   ],
+   "pin": [
+    52.370695,
+    4.887227
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-19": [
+     52.370695,
+     4.887227
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay; panels' subject unknown, no second source",
+   "hook": "The city sculptor's 1957 relief on the PTD exchange, which the register says reads like a comic strip.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-066",
+   "title": "Nine Streets, stones saved from demolitions",
+   "members": [
+    "AW-26"
+   ],
+   "pin": [
+    52.370409,
+    4.885108
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-26": [
+     52.370409,
+     4.885108
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; scout suggests a Look for line instead",
+   "hook": "Stones saved from houses pulled down in 1950, and the Oranjeappel orphanage gate.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-067",
+   "title": "The garden house that travelled, Keizersgracht 62-64",
+   "members": [
+    "BW-20"
+   ],
+   "pin": [
+    52.378212,
+    4.888097
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "BW-20": [
+     52.378212,
+     4.888097
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay; not visible from the street",
+   "hook": "A 1699 garden house, dismantled in 1917, found overgrown in 1966 and rebuilt behind another canal house.",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/keizersgracht-62-64-tuinhuis/",
+    "https://stadsherstel.nl/monumenten/keizersgracht-62/"
+   ]
+  },
+  {
+   "sid": "S-068",
+   "title": "Pottenbakkersgang, a path older than the canal belt",
+   "members": [
+    "BW-35"
+   ],
+   "pin": [
+    52.375177,
+    4.888718
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "BW-35": [
+     52.375177,
+     4.888718
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; single source; nothing marked",
+   "hook": "A pre-1612 path absorbed into the canal belt, still traceable between Herengracht 151 and 155.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-069",
+   "title": "Langestraat 80, the Tsar in the gable and the Hollandsche Mediaeval",
+   "members": [
+    "BW-37"
+   ],
+   "pin": [
+    52.3772,
+    4.890987
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BW-37": [
+     52.3772,
+     4.890987
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay; single source; next to \"The tailors' saint\" (no. 78)",
+   "hook": "Studio of the type designer of the Hollandsche Mediaeval; Stadsherstel's second restoration.",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/langestraat-80/"
+   ]
+  },
+  {
+   "sid": "S-070",
+   "title": "The Fault in Our Stars bench, Leidsegracht",
+   "members": [
+    "CW-06"
+   ],
+   "pin": [
+    52.367454,
+    4.88621
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CW-06": [
+     52.367454,
+     4.88621
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; fan spot, thin on history",
+   "hook": "A film bench where young readers come to cry; stolen, replaced, still visited.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-071",
+   "title": "Herenstraat 21, Meijer and Regina Turfkruier",
+   "members": [
+    "DW-21"
+   ],
+   "pin": [
+    52.377154,
+    4.888725
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-21": [
+     52.377154,
+     4.888725
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; single source",
+   "hook": "Shopkeepers researched their house and had stumbling stones laid in 2026; inside, Regina's ring and purse.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-072",
+   "title": "Waterline, the red climber on the Leliegracht quay",
+   "members": [
+    "DW-22"
+   ],
+   "pin": [
+    52.3753,
+    4.8888
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-22": [
+     52.3753,
+     4.8888
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay; probably temporary; spot to fix on site",
+   "hook": "An unannounced red figure paints a waterline high on the quay wall, a climate warning since 2025.",
+   "lead_sources": [
+    "https://www.presstv.ir/Detail/2025/11/07/758355/Amsterdam--climate-red-salute"
+   ]
+  },
+  {
+   "sid": "S-073",
+   "title": "De Afstap, the wool shop that kept its name",
+   "members": [
+    "DW-53"
+   ],
+   "pin": [
+    52.374619,
+    4.888607
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-53": [
+     52.374619,
+     4.888607
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; single source; shop; number not printed",
+   "hook": "Fifty years of wool; knitted sixty fisherman's sweaters for Peter Grimes and a hundred for Soldaat van Oranje.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-074",
+   "title": "Rien Bekkers's costume dolls, Herenstraat",
+   "members": [
+    "DW-54"
+   ],
+   "pin": null,
+   "pin_approx": true,
+   "member_pins": {},
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; Location and Still there? unknown",
+   "hook": "A costume designer's window of metre-high dolls in 18th-century court dress, changed regularly.",
+   "lead_sources": [
+    "https://threadfashionandcostume.blogspot.com/2024/06/rien-bekkers.html"
+   ]
+  },
+  {
+   "sid": "S-075",
+   "title": "Singel 390, the globe melted down and hoisted back",
+   "members": [
+    "G-04"
+   ],
+   "pin": [
+    52.369374,
+    4.887183
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-04": [
+     52.369374,
+     4.887183
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A copper celestial globe between Apollo and Minerva, melted for copper in 1914 and remade in 2002.",
+   "lead_sources": [
+    "https://monumentenregister.cultureelerfgoed.nl/monumenten/5381"
+   ]
+  },
+  {
+   "sid": "S-076",
+   "title": "De Vier Heemskinderen, four knights on one horse",
+   "members": [
+    "G-08"
+   ],
+   "pin": [
+    52.367617,
+    4.886278
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-08": [
+     52.367617,
+     4.886278
+    ]
+   },
+   "wijk": "Grachtengordel-West",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A 1671 baker's stone at the corner where two city extensions meet: the four sons of Aymon on one horse.",
+   "lead_sources": [
+    "https://www.hendrickdekeyser.nl/de-huizen/de-vier-heemskinderen"
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AW-20",
+   "draft": "Tower on the Beulingsloot (Herengracht 395)",
+   "file": "gg-west-2",
+   "add": "Look for: the metal cat crawling above the round window (maker unknown; mouse claim unverified)"
+  },
+  {
+   "scout": "DW-37",
+   "draft": "The meat hall on the old Westerkerk graveyard",
+   "file": "gg-west-4",
+   "add": "Look for: the classicist graveyard gate with weeping putti on the Prinsengracht side (pin approximate, check)"
+  },
+  {
+   "scout": "DW-39",
+   "draft": "Coymanshuis, Jacob van Campen's first known design",
+   "file": "gg-west-3",
+   "add": "the Coymans slave-trade wealth (Zeven 149/133, check Mapping Slavery); Amnesty manager's \"een middelvinger naar het verleden\""
+  },
+  {
+   "scout": "BW-17",
+   "draft": "Van Brienenhofje, an almshouse on a brewery",
+   "file": "gg-west-4",
+   "add": "add access hours (walk 2023); do not use the strongroom legend"
+  },
+  {
+   "scout": "DW-17",
+   "draft": "Bombs on the Blauwburgwal, May 1940",
+   "file": "gg-west-1",
+   "add": "local voice: neighbour Fred Geukes Foppen named the 44; flowers every 11 May at 10.55"
+  },
+  {
+   "scout": "DW-36",
+   "draft": "Zon's Hofje, on the site of a Mennonite church",
+   "file": "gg-west-4",
+   "add": "resolved by coordinator (L25); local voice quote from Zeven 100"
+  },
+  {
+   "scout": "DW-40",
+   "draft": "Groenlandse Pakhuizen (the whale-oil warehouses)",
+   "file": "gg-west-3",
+   "add": "local voice: oil tanks \"tot grote ergernis van de buurt\", blubber dumped on the quay"
+  }
+ ]
+}
