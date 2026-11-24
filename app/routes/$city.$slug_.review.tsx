@@ -44,6 +44,16 @@ import { useTRPC } from "~/trpc/client";
 import type { RouterOutputs } from "~/trpc/router";
 
 type QueueItem = RouterOutputs["proposal"]["queue"][number];
+
+/** The i18n key naming what a proposal does. */
+const kindKey = (p: Pick<QueueItem, "subject" | "kind">): string =>
+  p.subject === "route"
+    ? `kind_route_${p.kind}`
+    : p.subject === "override"
+      ? "kind_override"
+      : p.subject === "membership"
+        ? `kind_membership_${p.kind}`
+        : `kind_${p.kind}`;
 type CollectionView = RouterOutputs["collection"]["bySlug"];
 
 const STATUS_STYLE: Record<ProposalStatus, string> = {
@@ -269,6 +279,7 @@ const ProposalCard = ({
   );
   const isRoute = item.subject === "route";
   const isOverride = item.subject === "override";
+  const isMembership = item.subject === "membership";
   const home = item.place ? placeAsDraft(item.place) : null;
   // Override proposals: the place as this map shows it now, and as it would.
   const current =
@@ -290,15 +301,7 @@ const ProposalCard = ({
   return (
     <li className="space-y-4 rounded-xl border bg-card p-5">
       <div className="flex flex-wrap items-center gap-2">
-        <Badge variant="outline">
-          {t(
-            isRoute
-              ? `kind_route_${item.kind}`
-              : isOverride
-                ? "kind_override"
-                : `kind_${item.kind}`,
-          )}
-        </Badge>
+        <Badge variant="outline">{t(kindKey(item))}</Badge>
         <span className="font-semibold">
           {isRoute
             ? (item.routeDraft?.title ?? item.route?.title)
@@ -350,12 +353,19 @@ const ProposalCard = ({
           fields={view.collection.fields}
         />
       )}
-      {item.kind === "archive" && current && (
+      {isMembership && current && (
+        <p className="text-sm">
+          {t(`review_membership_${item.kind}_explainer`, {
+            title: current.title,
+          })}
+        </p>
+      )}
+      {!isMembership && item.kind === "archive" && current && (
         <p className="text-sm">
           {t("review_archive_explainer", { title: current.title })}
         </p>
       )}
-      {!isRoute && !isOverride && (item.draft ?? current) && (
+      {!isRoute && !isOverride && !isMembership && (item.draft ?? current) && (
         <LocationPreview
           draft={item.draft ?? (current as PlaceDraft)}
           before={item.kind === "edit" ? (current ?? undefined) : undefined}
@@ -542,15 +552,7 @@ const MineList = ({ view }: { view: CollectionView }) => {
       {data.map((p) => (
         <li key={p.id} className="space-y-1 p-4">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge variant="outline">
-              {t(
-                p.subject === "route"
-                  ? `kind_route_${p.kind}`
-                  : p.subject === "override"
-                    ? "kind_override"
-                    : `kind_${p.kind}`,
-              )}
-            </Badge>
+            <Badge variant="outline">{t(kindKey(p))}</Badge>
             {p.subject === "route" ? (
               p.status === "approved" && p.route ? (
                 <Link

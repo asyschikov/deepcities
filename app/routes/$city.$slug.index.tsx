@@ -149,7 +149,7 @@ const MapIndex = () => {
                 </Link>
               </Button>
             )}
-            {can.manage && (
+            {(can.manage || (collection.view?.list && can.propose)) && (
               <Button asChild size="sm" variant="ghost">
                 <Link to="/$city/$slug/manage" params={{ city, slug }}>
                   <Settings /> {t("map_manage")}

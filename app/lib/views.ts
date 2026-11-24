@@ -7,7 +7,10 @@
  * - A view with `detail: "city"` shows the source's `city` places that
  *   match `where`.
  * - A view with `detail: "full"` shows every matching place except cluster
- *   parents (places with published children): the leaves at full detail.
+ *   parents (places with published children) and `theme` places: the
+ *   leaves at full detail.
+ * - A list view (`list: true`) shows exactly the source places picked for
+ *   it (`collection_place`), at any detail. `theme` places show only there.
  *
  * These are the rules in plain code (for links and tests); the SQL that
  * lists places applies the same rules (`app/trpc/map-places.ts`).
@@ -27,6 +30,8 @@ export interface ViewedPlace {
   neighbourhood: string | null;
   subNeighbourhood: string | null;
   category: string;
+  /** Ids of the list views that include it (`collection_place`). */
+  lists?: string[];
 }
 
 type WhereKey = keyof NonNullable<MapView["where"]>;
@@ -59,17 +64,21 @@ export const mapShows = (
 ): boolean => {
   if (p.collectionId !== homeIdOf(m)) return false;
   if (!m.view) return p.detail === "city";
+  if (m.view.list) return p.lists?.includes(m.id) ?? false;
   if (!matchesWhere(p, m.view.where)) return false;
-  return m.view.detail === "city" ? p.detail === "city" : !isClusterParent;
+  return m.view.detail === "city"
+    ? p.detail === "city"
+    : p.detail !== "theme" && !isClusterParent;
 };
 
 /** The detail a place gets when it is added from map `m`. */
 export const detailForNew = (m: ViewMap): PlaceDetail =>
-  m.view?.detail === "full" ? "district" : "city";
+  m.view?.list ? "theme" : m.view?.detail === "full" ? "district" : "city";
 
 /**
  * Which map to link a place in: the first of `candidates` that shows it,
- * else its home map (always among `maps`), else null.
+ * else its home map (always among `maps`; not for a `theme` place, which
+ * only list views show), else null.
  */
 export const mapToLink = <M extends ViewMap>(
   p: ViewedPlace,
@@ -78,14 +87,14 @@ export const mapToLink = <M extends ViewMap>(
   maps: M[],
 ): M | null =>
   candidates.find((m) => mapShows(m, p, isClusterParent)) ??
-  maps.find((m) => m.id === p.collectionId) ??
+  (p.detail === "theme" ? null : maps.find((m) => m.id === p.collectionId)) ??
   null;
 
 /**
  * Where to look first when linking a place from map `current`.
  * A parent: the current map, then its home map, then views of it.
  * A child: the current map, then full-detail views of its home, then the
- * home map, then any other view.
+ * home map, then any other view (list views among them).
  */
 export const linkOrder = <M extends ViewMap>(
   kind: "parent" | "child",

@@ -1,5 +1,14 @@
 import { TRPCError } from "@trpc/server";
-import { and, count, desc, eq, inArray, ne, or, sql } from "drizzle-orm";
+import {
+  and,
+  count,
+  desc,
+  eq,
+  inArray,
+  notInArray,
+  or,
+  sql,
+} from "drizzle-orm";
 import { z } from "zod/v4";
 import { citySlug } from "~/lib/cities";
 import { VERDICTS, type Verdict } from "~/lib/constants";
@@ -18,6 +27,7 @@ import { getAccess } from "../access";
 import { publicProcedure, router } from "../init";
 import {
   isClusterParentSql,
+  listsOf,
   loadViewMap,
   overridesOf,
   poolWhere,
@@ -85,7 +95,8 @@ const linkColumns = {
 /**
  * The parent and children of a place, each with the map to link it in:
  * the parent in the current map if it shows it, else its home; children in
- * a full-detail view that shows them, else their home map.
+ * a full-detail view that shows them, else their home map. `theme` places
+ * link only into a list view that includes them.
  */
 const familyOf = async (
   db: Database,
@@ -123,12 +134,16 @@ const familyOf = async (
       ),
   ]);
   const current = maps.find((m) => m.slug === currentSlug) ?? null;
+  const lists = await listsOf(db, [
+    ...parentRows.map((p) => p.id),
+    ...childRows.map((p) => p.id),
+  ]);
   const link = (
-    p: ViewedPlace & { cluster: number },
+    p: ViewedPlace & { id: string; cluster: number },
     kind: "parent" | "child",
   ) => {
     const m = mapToLink(
-      p,
+      { ...p, lists: lists.get(p.id) },
       Boolean(p.cluster),
       linkOrder(kind, current, maps, homeId),
       maps,
@@ -256,9 +271,25 @@ export const placeRouter = router({
         : undefined;
       const viewMap =
         shownOn?.view?.source === found.collectionId ? shownOn : null;
-      // Override proposals show in history only on their own map.
+      // A theme place is only on the list views that include it.
+      if (
+        found.detail === "theme" &&
+        shownOn &&
+        (shownOn.id === found.collectionId || viewMap)
+      ) {
+        const [shown] = await ctx.db
+          .select({ id: place.id })
+          .from(place)
+          .where(and(eq(place.id, found.id), shownWhere(shownOn)));
+        if (!shown)
+          throw new TRPCError({
+            code: "NOT_FOUND",
+            message: "Place not found on this map",
+          });
+      }
+      // Override and list proposals show in history only on their own map.
       const ofThisMap = or(
-        ne(proposal.subject, "override"),
+        notInArray(proposal.subject, ["override", "membership"]),
         eq(proposal.collectionId, viewMap?.id ?? ""),
       );
 

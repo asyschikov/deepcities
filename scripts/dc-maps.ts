@@ -198,11 +198,11 @@ export const makeMapCommands = (deps: MapDeps) => {
       }
       const input = readJson(given);
       const bad = Object.keys(input).filter(
-        (k) => !["source", "where", "detail"].includes(k),
+        (k) => !["source", "list", "where", "detail"].includes(k),
       );
       if (bad.length)
         fail(
-          `Unknown keys: ${bad.join(", ")} (expected source, where, detail)`,
+          `Unknown keys: ${bad.join(", ")} (expected source, list, where, detail)`,
           "BAD_JSON",
         );
       if (typeof input.source !== "string" || !input.source)
@@ -268,8 +268,10 @@ MAPS
                                            lists it first; one per city)
   dc map-view <slug> <view.json|-|none>    map admins: make the map a view of another
                                            map's places: {"source": "<slug>", "where":
-                                           {"borough": ["Centrum"]}, "detail": "full"}
-                                           (see "mapView" in \`dc schema\`). The map must
+                                           {"borough": ["Centrum"]}, "detail": "full"},
+                                           or a list view: {"source": "<slug>", "list":
+                                           true} (see LIST VIEWS in \`dc help\` and
+                                           "mapView" in \`dc schema\`). The map must
                                            have no places of its own; its title, texts,
                                            centre and zoom stay its own, categories and
                                            fields are the source's. "none" makes it a

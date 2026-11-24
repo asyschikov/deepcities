@@ -21,6 +21,10 @@ const coarse: ViewMap = {
   view: { source: "sights", where: { borough: ["Centrum"] }, detail: "city" },
 };
 const other: ViewMap = { id: "other", view: null };
+const hofjes: ViewMap = {
+  id: "hofjes",
+  view: { source: "sights", list: true },
+};
 
 const at = (over: Partial<ViewedPlace>): ViewedPlace => ({
   collectionId: "sights",
@@ -91,11 +95,41 @@ describe("mapShows", () => {
   });
 });
 
+describe("list views and theme places", () => {
+  const picked = at({ detail: "district", lists: ["hofjes"] });
+  const theme = at({ detail: "theme", lists: ["hofjes"] });
+  const unpicked = at({});
+
+  it("a list view shows exactly its picks, at any detail", () => {
+    expect(mapShows(hofjes, picked, false)).toBe(true);
+    expect(mapShows(hofjes, theme, false)).toBe(true);
+    expect(mapShows(hofjes, at({ lists: ["hofjes"] }), true)).toBe(true);
+    expect(mapShows(hofjes, unpicked, false)).toBe(false);
+    expect(
+      mapShows(hofjes, at({ collectionId: "west", lists: ["hofjes"] }), false),
+    ).toBe(false);
+  });
+
+  it("a theme place is on no home map, full or city view", () => {
+    expect(mapShows(home, theme, false)).toBe(false);
+    expect(mapShows(centrum, theme, false)).toBe(false);
+    expect(mapShows(coarse, theme, false)).toBe(false);
+  });
+
+  it("links a theme place only into a list that shows it", () => {
+    const maps = [home, centrum, hofjes];
+    const order = linkOrder("child", home, maps, "sights");
+    expect(mapToLink(theme, false, order, maps)).toBe(hofjes);
+    expect(mapToLink({ ...theme, lists: [] }, false, order, maps)).toBeNull();
+  });
+});
+
 describe("detailForNew", () => {
-  it("is district only from a full-detail view", () => {
+  it("is district from a full-detail view, theme from a list view", () => {
     expect(detailForNew(centrum)).toBe("district");
     expect(detailForNew(coarse)).toBe("city");
     expect(detailForNew(home)).toBe("city");
+    expect(detailForNew(hofjes)).toBe("theme");
   });
 });
 

@@ -278,7 +278,10 @@ export const place = sqliteTable(
     parentId: text("parent_id").references((): AnySQLiteColumn => place.id, {
       onDelete: "set null",
     }),
-    /** `city`: on the home map; `district`: only in full-detail views. */
+    /**
+     * `city`: on the home map; `district`: only in full-detail views;
+     * `theme`: only in list views that include it.
+     */
     detail: text("detail", { enum: PLACE_DETAILS }).notNull().default("city"),
     createdBy: text("created_by").references(() => profile.id, {
       onDelete: "set null",
@@ -320,6 +323,31 @@ export const placeOverride = sqliteTable(
   (t) => [
     primaryKey({ columns: [t.collectionId, t.placeId] }),
     index("place_override_place_idx").on(t.placeId),
+  ],
+);
+
+/**
+ * The places a list view (`collection.view.list`) shows: picked one by one
+ * from its source's pool. Only ever written by approving a proposal (a
+ * `membership` one, or a place created from the list view).
+ */
+export const collectionPlace = sqliteTable(
+  "collection_place",
+  {
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    placeId: text("place_id")
+      .notNull()
+      .references(() => place.id, { onDelete: "cascade" }),
+    addedAt: integer("added_at", { mode: "timestamp" }).notNull(),
+    addedBy: text("added_by").references(() => profile.id, {
+      onDelete: "set null",
+    }),
+  },
+  (t) => [
+    primaryKey({ columns: [t.collectionId, t.placeId] }),
+    index("collection_place_place_idx").on(t.placeId),
   ],
 );
 
@@ -375,7 +403,9 @@ export const proposal = sqliteTable(
       .references(() => collection.id, { onDelete: "cascade" }),
     /**
      * Place proposals use placeId/draft; route proposals routeId/routeDraft;
-     * override proposals placeId/overrideDraft (on the view map).
+     * override proposals placeId/overrideDraft (on the view map);
+     * membership proposals placeId (on the list view; kind `create` adds
+     * the place to the list, `archive` removes it).
      */
     subject: text("subject", { enum: PROPOSAL_SUBJECTS })
       .notNull()
@@ -401,6 +431,13 @@ export const proposal = sqliteTable(
     overrideDraft: text("override_draft", {
       mode: "json",
     }).$type<OverrideDraft>(),
+    /**
+     * A place created from a list view: the list it joins on approval
+     * (the proposal itself is on the source, where the place lives).
+     */
+    listId: text("list_id").references(() => collection.id, {
+      onDelete: "set null",
+    }),
     /** Contributor's note to moderators ("why this change"). */
     note: text("note"),
     baseRevision: integer("base_revision"),
