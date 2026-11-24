@@ -17,6 +17,7 @@ deep-cities-research/0.1`; BrowserOS only if curl fails, own tab, closed after) 
 Unsupported, single-source from a blog or Wikipedia only, or contradicted: narrow it or cut
 it. Never add a new fact. Also check:
 - the building is completed, still stands, and the use and access are current;
+- every photo is a Commons file that really shows this building (read its file page: title, description, categories, coordinates); remove any that don't, and add up to 4 where there are none if Commons has them
 - the pin is on the building (compare with the address; 6 decimals);
 - EN and NL state the same facts; the Dutch has no run of 8+ words copied from a source;
 - an extra description does not repeat the live place text and reads on from it;

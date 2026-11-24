@@ -11,6 +11,8 @@ scout lines are leads only: verify everything, and correct them where they are w
 Repo root: `/Users/andrey/.paradev/worktrees/deepcities-5f7b6710/documents-b8db62f6`. Run the
 CLI from there as `env -u DC_URL -u DC_TOKEN pnpm -s dc ...` (read-only commands only).
 
+**When curl fails** (403, a JavaScript-only page, an empty or cookie-wall response), open the page in the BrowserOS neo browser before giving up: never drop a fact, a source or a building just because curl couldn't read it. Own tab, targeted reading, close the tab when done. Also use it as a primary source for wider reach: read Het Parool, AT5, NH Nieuws and other paywalled or cookie-walled press through the signed-in browser, and search Google from it.
+
 ## Rules that matter most (the user's)
 
 - **Never make anything up.** Every claim needs a source you read. No superlatives, "first /
@@ -60,9 +62,7 @@ The draft format is `research/a-list/places/centrum-landmarks.yaml` (look at it 
   of 8+ consecutive words from any source. The facts agree between the two languages.
 
 Validate with `python3 -B research/contemporary/scripts/validate.py
-research/contemporary/places/$SLICE.yaml` until 0 errors. Check the Dutch with
-`python3 -B /private/tmp/claude-501/-Users-andrey--paradev-worktrees-deepcities-5f7b6710-everything-from-here-current-b8db62f6/7a116976-676c-45d3-a727-63149166d721/scratchpad/copycheck/code/nlcheck.py`
-if it can read your file.
+research/contemporary/places/$SLICE.yaml` until 0 errors. Check the Dutch for copied runs yourself: compare it against the text of every Dutch source you fetched and make sure no run of 8+ consecutive words matches (quotes marked as quotes are fine).
 
 Before writing, check the building is not already on the map under another name:
 `env -u DC_URL -u DC_TOKEN pnpm -s dc places sights --all --q <word>`. If it is, don't draft

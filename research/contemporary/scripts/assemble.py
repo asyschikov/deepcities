@@ -41,6 +41,8 @@ def main():
     for name in sorted(os.listdir(PLACES)):
         if not name.endswith(".yaml"):
             continue
+        if os.environ.get("ASM_ONLY") and name[:-5] != os.environ["ASM_ONLY"]:
+            continue
         for p in yaml.safe_load(open(os.path.join(PLACES, name))) or []:
             # Dutch goes to `translations.nl` (the site's content-language
             # format: title/summary/body + text attributes; blank = fall back).
