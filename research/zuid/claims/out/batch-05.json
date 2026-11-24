@@ -1,0 +1,33 @@
+[
+ {
+  "id": "fxhag339nwbchstly892on39",
+  "title": "De Dageraad",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A small museum in the corner tower runs walks",
+    "new": "A small museum in a corner building runs walks",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gedenkteken_P.L._Tak",
+    "evidence": "Museum De Dageraad gevestigd op Burgemeester Tellegenstraat 128 (no source places it in the cylinder tower; body already says 'corner building')"
+   },
+   {
+    "field": "nl.summary",
+    "old": "In de hoektoren zit een klein museum",
+    "new": "In een hoekpand zit een klein museum",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gedenkteken_P.L._Tak",
+    "evidence": "Museum De Dageraad gevestigd op Burgemeester Tellegenstraat 128"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "De Amsterdamse School op haar uitbundigst: arbeiderswoningen van Piet Kramer en Michel de Klerk met golvende muren, torens van gestapelde cilinders en daken die niets dragen. In een hoekpand zit een klein museum dat vier middagen per week rondleidt."
+    }
+   },
+   "summary": "The Amsterdam School at full tilt: workers' housing by Piet Kramer and Michel de Klerk with walls that ripple, towers of stacked cylinders and roofs that hold up nothing. A small museum in a corner building runs walks round it four afternoons a week."
+  },
+  "sources_add": []
+ }
+]

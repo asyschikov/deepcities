@@ -1,0 +1,389 @@
+[
+ {
+  "id": "oe2dy0dum0xz8bjylz7sf8w8",
+  "title": "Stadion De Meer (gone)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "where the Cruijff generation grew up,",
+    "new": "where the Ajax of the European Cups took shape,",
+    "kind": "narrowed",
+    "source": "https://www.nhnieuws.nl/nieuws/336431/park-de-meer-is-de-plek-waar-het-internationale-succes-van-ajax-vorm-kreeg",
+    "evidence": "Title: 'Park De Meer is de plek waar het internationale succes van Ajax vorm kreeg'; 'Die successen vonden hun oorsprong in de Watergraafsmeer onder leiding van trainer Rinus Michels.' Nothing says the Cruijff generation grew up there."
+   },
+   {
+    "field": "body",
+    "old": "Here Ajax won its first prize, the national cup of 1917, and its first league title in 1918.",
+    "new": "Here Ajax won the national cup for the first time in 1917 and its first league title in 1918.",
+    "kind": "narrowed",
+    "source": "https://www.nhnieuws.nl/nieuws/293556/de-verdwenen-stad-op-het-christiaan-huygensplein-boekte-ajax-zijn-eerste-successen",
+    "evidence": "'Hier werden ze voor het eerste landskampioen (1918) en hier wonnen ze in 1917 voor het eerste de NVB-beker'; 'first prize' overall is not stated."
+   },
+   {
+    "field": "body",
+    "old": "Stands came in 1911 and 1916, all of timber, hence the name Het Houten Stadion (the wooden stadium).",
+    "new": "Stands came in 1911 and 1916; the ground is remembered as Het Houten Stadion (the wooden stadium).",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Het_Houten_Stadion",
+    "evidence": "'Tribunes kwamen er pas in 1911 ... In 1916 kwamen er ook aan de andere zijden tribunes.' No source says the stands were all timber or explains the name."
+   },
+   {
+    "field": "body",
+    "old": "De Meer was where the club lived for 62 years:",
+    "new": "De Meer was where the club lived for almost 62 years:",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Stadion_De_Meer",
+    "evidence": "'In de 61 jaar en 241 dagen dat Stadion De Meer heeft bestaan speelde Ajax er in totaal 953 wedstrijden. Daarvan werden er 742 gewonnen'"
+   },
+   {
+    "field": "body",
+    "old": "Johan Cruijff, who grew up across the road, walked in here as a boy.",
+    "new": "Johan Cruijff spent the first twelve years of his life across the road in Betondorp, on the corner of the Akkerstraat and the Tuinbouwstraat.",
+    "kind": "narrowed",
+    "source": "https://www.iamsterdam.com/zien-en-doen/natuur-en-actief/routes/wandelroute-door-de-stad-van-johan-cruijff",
+    "evidence": "'In deze benedenwoning op de hoek van de Akkerstraat en de Tuinbouwstraat bracht Jopie Cruijff de eerste 12 jaar van zijn leven door'; nl.wikipedia: stadium 'tegenover de wijk Betondorp'. That he walked in as a boy is not in any source."
+   },
+   {
+    "field": "body",
+    "old": "- the Cruijff mural at the corner of Wembleylaan and Anfieldroad",
+    "new": "- the Cruijff mural on the corner of a block on the Anfieldroad",
+    "kind": "narrowed",
+    "source": "https://www.iamsterdam.com/zien-en-doen/natuur-en-actief/routes/wandelroute-door-de-stad-van-johan-cruijff",
+    "evidence": "'Op de hoek van de flat aan de Anfieldroad ... prijkt een prachtige muurschildering van Cruijff'; the Wembleylaan corner is not stated."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Op de avond dat de nieuwe ArenA openging, brandde het half gesloopte stadion van Ajax af. Van 1934 tot 1996 speelde de club hier, en hier kreeg het Ajax van de Europacups vorm. Nu staat er een woonwijk met een halve bal als 'middenstip', bruggen vernoemd naar het elftal van de jaren zeventig en straten naar stadions waar Ajax won.",
+     "body": "Ajax zat al sinds 1907 in de Watergraafsmeer. Het veldje in Noord moest wijken voor woningbouw, en de club vond een plek ongeveer waar nu het Christiaan Huygensplein ligt, iets verderop aan de Middenweg. Tribunes waren er eerst niet, stromend water evenmin: de spelers verkleedden zich en gingen naar de wc in een café aan de overkant. In 1911 en 1916 kwamen er tribunes; de plek leeft voort als Het Houten Stadion. Ajax won er in 1917 voor het eerst de nationale beker en in 1918 de eerste landstitel. In de jaren dertig paste het publiek er niet meer in. Bij de laatste wedstrijd tegen Feyenoord stonden er zo'n 15.000 mensen en konden hoekschoppen niet genomen worden, omdat het publiek letterlijk in de weg stond. Nu is het een laag winkelcentrum met flats, en waar ooit de poort was, loop je ongeveer een grote supermarkt binnen.\n\nIn 1934 trok Ajax naar de overkant van Betondorp, op de grond van de oude boerderij Voorland. Architect Daan Roodenburgh, zelf bestuurder bij de club, tekende Stadion De Meer: baksteen, op de vier betonnen tribunes na, met een gymzaal in het hoofdgebouw, toen pure weelde. Op 9 december 1934 ging het open met 5-1 tegen Stade Français. In 1985 kwamen hier de eerste skyboxen van Nederland. Grote duels gingen naar het veel ruimere Olympisch Stadion, maar thuis was De Meer, bijna 62 jaar lang: 953 wedstrijden, 742 keer winst. Johan Cruijff woonde zijn eerste twaalf jaar aan de overkant, in Betondorp, op de hoek van de Akkerstraat en de Tuinbouwstraat.\n\nNa incidenten in 1989 werden de veiligheidseisen strenger; daar kwamen de matige bereikbaarheid met het openbaar vervoer en de woningbouwwens van de gemeente bij. Het afscheid, op 28 april 1996, was opnieuw 5-1, nu tegen Willem II, en leverde de titel op. In augustus ging het stadion dicht. Tussen 1998 en 2002 verrees Park de Meer, met zo'n 900 woningen.\n\nDe wijk vergeet de club niet. De autovrije hoofdas heet Esplanade de Meer, met rood-witte panelen op de flats. Achttien tegeltableaus van Harald Vlugt en David Mach tonen grote Ajax-wedstrijden. Zes straten dragen de naam van een buitenlands stadion waar Ajax triomfeerde (Wembleylaan, Anfieldroad, Bernabeuhof en meer), dertien bruggen die van spelers uit het elftal van begin jaren zeventig, van Cruijff tot Keizer en Neeskens, en één brug die van trainer Rinus Michels. De speld staat op de 'middenstip', een halve bal in concentrische cirkels. Wie nameet, ziet dat hij niet op de echte middenstip ligt maar ongeveer in het vroegere westelijke strafschopgebied.\n\nLet op:\n- de halve bal midden in de concentrische cirkels in de bestrating\n- de tegeltableaus van Wembley, Anfield, Bernabéu, Delle Alpi, Prater en Colombes\n- de Johan Cruijffbrug en de andere spelersbruggen\n- de muurschildering van Cruijff op de hoek van een flat aan de Anfieldroad\n- het Christiaan Huygensplein, verderop aan de Middenweg: de plek van het houten stadion van 1907 tot 1934"
+    }
+   },
+   "summary": "Ajax's home ground from 1934 to 1996, where the Ajax of the European Cups took shape, is now a housing estate. A half-buried ball marks a 'centre spot', bridges carry the names of the 1970s team, and streets are named after stadiums where Ajax won.",
+   "body": "Ajax had come to the Watergraafsmeer in 1907, when housing pushed it off its field in Amsterdam-Noord. Its ground lay roughly where the Christiaan Huygensplein is now, a little further up the Middenweg: at first there were no stands and no running water, and the players changed and used the toilets in a café across the road. Stands came in 1911 and 1916; the ground is remembered as Het Houten Stadion (the wooden stadium). Here Ajax won the national cup for the first time in 1917 and its first league title in 1918. By the 1930s it was far too small: at the last match against Feyenoord some 15,000 people crowded in and corners could not be taken because spectators were in the way. Today the site is a low shopping centre with flats; the entrance of a large supermarket is roughly where the stadium gate was.\n\nIn 1934 Ajax left its wooden stadium for a site opposite Betondorp, the former farm Voorland on the Middenweg. Designed by the architect and Ajax board member Daan Roodenburgh, Stadion De Meer opened on 9 December 1934 with a 5–1 win over Stade Français. It was brick apart from its four concrete stands, and had a gym inside the main building, a luxury then; in 1985 it got the first skyboxes in the Netherlands. Big matches went to the much larger Olympic Stadium, but De Meer was where the club lived for almost 62 years: 953 matches, 742 of them won. Johan Cruijff spent the first twelve years of his life across the road in Betondorp, on the corner of the Akkerstraat and the Tuinbouwstraat.\n\nStricter safety rules after incidents in 1989, poor public transport and the city's wish for housing ended it. The last match, on 28 April 1996, was again a 5–1 win, against Willem II, which sealed the title. The stadium closed that August; on the night the new ArenA opened, the half-demolished stands burned. Between 1998 and 2002 the neighbourhood Park de Meer, with about 900 homes, was built on the ground.\n\nThe estate remembers the club. Its car-free spine is the Esplanade de Meer, with red and white panels on the flats; eighteen ceramic tile pictures by Harald Vlugt with David Mach show great Ajax matches. Six streets are named after foreign stadiums of Ajax triumphs (Wembleylaan, Anfieldroad, Bernabeuhof and others), and thirteen bridges after players of the early-1970s team, from Cruijff to Keizer and Neeskens, plus coach Rinus Michels. The pin is on the \"centre spot\", a half ball in concentric circles; it is not on the real centre spot but roughly in the former west penalty area.\n\nLook for:\n- the half ball at the middle of the concentric paving circles\n- the tile tableaux of Wembley, Anfield, Bernabéu, Delle Alpi, Prater and Colombes\n- the Johan Cruijffbrug and the other player bridges\n- the Cruijff mural on the corner of a block on the Anfieldroad\n- the Christiaan Huygensplein up the Middenweg, site of the wooden stadium of 1907–1934"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bufcczstxwp0954iao2zrskx",
+  "title": "HAUT, the timber tower",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "that was sold as the tallest wooden building in the Netherlands. It is in fact a hybrid,",
+    "new": "that Dutch Wikipedia calls a wooden skyscraper. It is in fact a hybrid,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/HAUT",
+    "evidence": "'HAUT is een houten wolkenkrabber in Amsterdam'; Arup bills it as 'the Netherlands' tallest timber-hybrid residential building', not the tallest wooden building. No source on how it was sold."
+   },
+   {
+    "field": "body",
+    "old": "HAUT, by the Amstel in the new Amstelkwartier, was one of the first to try.",
+    "new": "HAUT stands by the Amstel in the new Amstelkwartier.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/HAUT",
+    "evidence": "Wikipedia says it is one of the tallest timber buildings because such heights were not possible until shortly before; 'one of the first to try' is not stated anywhere."
+   },
+   {
+    "field": "body",
+    "old": "at the time the tallest timber building in the Netherlands and one of the tallest in the world.",
+    "new": "billed by Arup as the Netherlands' tallest timber-hybrid residential building and one of the tallest timber-hybrid buildings in the world.",
+    "kind": "narrowed",
+    "source": "https://www.arup.com/projects/haut/",
+    "evidence": "'Designing and engineering the Netherlands' tallest timber-hybrid residential building'; 'one of the tallest timber-hybrid buildings in the world'"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "De naam is Frans voor 'hoog' en klinkt als 'hout'. Wikipedia noemt deze woontoren van 73 meter en 21 verdiepingen aan de Amstel een houten wolkenkrabber, maar eigenlijk is hij half om half: hout waar het kan, beton waar het moet. Achter de glazen gevel zie je de houten vloeren.",
+     "body": "Lang lukte het niet om zo hoog in hout te bouwen zonder dat het te zwak werd. Pas nieuwe manieren van lijmen en kruislaaghout maakten dat mogelijk, kort voordat HAUT verrees. De toren staat aan de Amstel in het nieuwe Amstelkwartier. Team V Architectuur ontwierp hem, Arup deed de constructie, Lingotto was de ontwikkelaar. In 2022 was hij klaar: 21 lagen, 73 meter, 55 appartementen. Arup presenteert hem als de hoogste woontoren van hout en beton in Nederland en een van de hoogste houthybride gebouwen ter wereld. De naam komt van het Franse haut, hoog, en wie hem uitspreekt, hoort het Nederlandse hout.\n\nWat betekent 'houten' hier precies? Fundering, kelder en de kern die het geheel overeind houdt zijn van beton, wat meteen de brandveiligheid helpt. De vloeren zijn kant-en-klaar aangevoerde platen van hout en beton: 16 centimeter kruislaaghout onder 8 centimeter beton. Arup vatte de aanpak samen als \"timber where possible, concrete and steel where necessary\". Toch zit er ruim 2.000 kubieke meter hout in, goed voor de opslag van naar verluidt zo'n 1.800 ton CO2. Al in 2018, voor de bouw begon, kreeg het ontwerp een internationale BREEAM-prijs voor duurzaamheid. Een volledig houten toren is het dus niet; wel een etalage van hoe ver je met hout kunt komen.\n\nEr wordt gewoon gewoond, dus naar binnen kun je niet. Vanaf de Amsteloever, uit Park Somerlust of vanaf het perron van metrostation Spaklerweg zie je hem in zijn geheel: een huid van glas en zonnepanelen met daarachter de houten plafonds. In de schemering, als de lichten aangaan, het mooist.\n\nLet op:\n- de houten plafonds achter het glas\n- de zonnepanelen die in de gevel zijn verwerkt\n- de hele toren, gezien vanaf het metroperron van Spaklerweg"
+    }
+   },
+   "summary": "A 73-metre, 21-storey housing tower by the Amstel that Dutch Wikipedia calls a wooden skyscraper. It is in fact a hybrid, timber where possible and concrete where necessary, and through its glass skin you can see the wooden floors.",
+   "body": "Until shortly before HAUT was built, timber structures this tall could not be made strong enough; new glueing techniques and cross-laminated timber changed that. HAUT stands by the Amstel in the new Amstelkwartier. Designed by Team V Architectuur with the engineers Arup for developer Lingotto, it was finished in 2022: 21 storeys, 73 metres and 55 apartments, billed by Arup as the Netherlands' tallest timber-hybrid residential building and one of the tallest timber-hybrid buildings in the world. The name is the French word for \"high\", and it sounds like the Dutch hout, wood.\n\nThe interesting part is what \"wooden\" means here. The foundation, basement and stability core are concrete, which also helps with fire safety. The floors are prefabricated timber-concrete composite slabs: 16 cm of cross-laminated timber under an 8 cm concrete layer. Arup's own motto was \"timber where possible, concrete and steel where necessary\". The result still holds more than 2,000 cubic metres of wood, said to store about 1,800 tonnes of CO2, and it won an international BREEAM sustainability award in 2018, before construction began. So the \"wooden tower\" is really a hybrid, and a showcase of how far timber can go rather than an all-wood building.\n\nIt is private housing. From the riverbank, Park Somerlust or the Spaklerweg metro station you see the tower whole: a glass and solar-panel skin with the timber ceilings visible behind it, best at dusk when the flats are lit.\n\nLook for:\n- the timber ceilings behind the glass\n- solar panels worked into the facade\n- the whole tower seen from the Spaklerweg metro platform"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xuqtrycva9ghzzbpc8ohmszh",
+  "title": "Klarenbeek and Altoos Zorg, the last farms on the Amstel dike",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Two farms on the Ouderkerkerdijk are what is left of the countryside that ran along the Amstel before the city arrived.",
+    "new": "Two farms on the Ouderkerkerdijk survive from the countryside that ran along the Amstel before the city arrived.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/6924568a-f20c-4238-8fed-816c3439d336",
+    "evidence": "City register: 'Niet alleen de buitenplaatsen maar ook de boerderijen zijn vrijwel alle gesloopt. Boerderij Altoos Zorg is één van de laatste boerderijen in het gebied.' No source says these two are all that is left."
+   },
+   {
+    "field": "body",
+    "old": "Nearly all of these farms have since gone; two remain within Amsterdam.",
+    "new": "Nearly all of these farms have since gone.",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/6924568a-f20c-4238-8fed-816c3439d336",
+    "evidence": "'vrijwel alle gesloopt ... één van de laatste boerderijen in het gebied'; the count of two is not in any source."
+   },
+   {
+    "field": "body",
+    "old": "a rebuilt timber barn with the circle of an old butter-churn horse mill in its floor,",
+    "new": "a rebuilt timber barn with a circle paved into its floor, probably where a butter churn was once driven,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/6924568a-f20c-4238-8fed-816c3439d336",
+    "evidence": "'De vloer is geplaveid waarin een cirkelvorm is opgenomen. Vermoedelijk was dit de plaats waar een karnmolen werd aangedreven.' The register hedges it and does not mention a horse."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Nog een stukje platteland aan de Amstel, van voordat de stad kwam: twee boerderijen aan de Ouderkerkerdijk. Op Klarenbeek werken nu mensen in een biologische moestuin, met een winkel en een theetuin erbij. Altoos Zorg heeft zijn zomerhuis en hooiberg gehouden.",
+     "body": "Eeuwenlang lag ten zuiden van de stad, aan de oostoever van de Amstel, een lint van buitenplaatsen en boerderijen in de Groot-Duivendrechtse polder. Vanaf de zeventiende eeuw zochten welgestelde Amsterdammers hier rust, en vaak woonde er een pachtboer onder hetzelfde dak. Rond 1800 begon de afbraak: buitens gingen tegen de vlakte of werden gewone boerenbedrijven, die groente teelden voor de stad en paling vingen. Tot 1921 viel de hele dijk onder Ouder-Amstel. Van al die boerderijen is vrijwel niets over.\n\nKlarenbeek (Ouderkerkerdijk 225-227) heeft een breed voorhuis met kelders en opkamers, met daarachter lage vleugels, deels van hout. Je hoort vaak het jaartal 1604, maar het rijksregister noemt het huidige aanzien negentiende-eeuws. Sinds 1970 is het rijksmonument. Tegenwoordig is het een zorgboerderij van Cordaan: mensen met een afstand tot de arbeidsmarkt werken er in een geheel biologische moestuin van zo'n 6.000 m². Wat daar groeit, eindigt als ingelegde groente, kimchi en siroop. Er is een boerderijwinkel, en op werkdagen rond lunchtijd kun je op het terras bij de tuin zitten.\n\nAltoos Zorg (Ouderkerkerdijk 245) ligt een paar honderd meter zuidelijker; de gemeente rekent het tot de laatste boerderijen van de omgeving. Het achttiende-eeuwse voorhuis staat achter de dijk, er haaks op, met een lange stal van het Zuid-Hollandse type erachter. Ernaast: een negentiende-eeuws zomerhuis met een torenhoge schoorsteen en een roosvenster, een herbouwde houten schuur met een cirkel in de bestrating van de vloer, vermoedelijk de plek waar ooit een karnmolen werd aangedreven, en een hooiberg. Er wordt gewoond, dus kijk vanaf de dijk. De speld staat op Klarenbeek.\n\nLet op:\n- het brede voorhuis van Klarenbeek en de lange lage vleugels erachter\n- de moestuin en de boerderijwinkel van Klarenbeek\n- bij Altoos Zorg: het zomerhuis met zijn hoge schoorsteen en ronde venster\n- de ijzeren stalramen met geometrisch patroon in de zijgevel van Altoos Zorg\n- de hooiberg achter de stal van Altoos Zorg"
+    }
+   },
+   "summary": "Two farms on the Ouderkerkerdijk survive from the countryside that ran along the Amstel before the city arrived. Klarenbeek is now a care farm with an organic kitchen garden and a tea garden; Altoos Zorg keeps its summer house and haystack.",
+   "body": "For centuries the east bank of the Amstel south of the city was a ribbon of country houses and farms in the Groot-Duivendrechtse polder. Rich Amsterdammers built retreats here from the seventeenth century and often put a tenant farmer in the same building. From about 1800 the country houses were pulled down or turned into plain farms, growing vegetables for the city and fishing for eel. Until 1921 the whole dike belonged to Ouder-Amstel. Nearly all of these farms have since gone.\n\nKlarenbeek (Ouderkerkerdijk 225-227) has a broad front house with cellars and raised rooms, and low, partly timber wings behind it. The year 1604 is often quoted, but the national register sums up its look as nineteenth-century. Since 1970 it has been a national monument, and today it is a care farm (zorgboerderij) run by Cordaan: people with a distance to the labour market work in a fully organic kitchen garden of about 6,000 m², whose produce goes into pickles, kimchi and syrups. There is a farm shop, and a terrace by the garden is open on weekdays around lunchtime.\n\nAltoos Zorg (Ouderkerkerdijk 245), a few hundred metres south, is listed by the city as one of the last farms in the area. Its eighteenth-century front house stands behind the dike, at right angles to it, with a long cowshed of the South Holland type behind. Beside it stand a nineteenth-century summer house with a very tall chimney and a rose window, a rebuilt timber barn with a circle paved into its floor, probably where a butter churn was once driven, and a haystack. It is a private home; look from the dike. The pin is on Klarenbeek.\n\nLook for:\n- Klarenbeek's wide front house and the long low wings behind it\n- the kitchen garden and farm shop at Klarenbeek\n- at Altoos Zorg: the summer house with its tall chimney and round window\n- the iron, geometric cowshed windows along the side of Altoos Zorg\n- the haystack (hooiberg) behind the Altoos Zorg cowshed"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "m15jiu6dwsa9ax5si92tlf62",
+  "title": "Raad van Arbeid office on the Rhijnspoorplein",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "and a council chamber still intact inside.",
+    "new": "and a council chamber almost intact inside.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/9eecf7fd-1b71-4941-b684-faaf94a310b7",
+    "evidence": "'Twee ruimtes zijn monumentaal en in vrijwel gave staat, te weten de raadzaal en de voorzitterskamer'"
+   },
+   {
+    "field": "body",
+    "old": "The Raad van Arbeid (labour council) handled social insurance in the Amsterdam region. After years in borrowed rooms,",
+    "new": "The Raad van Arbeid (labour council) was part of the Rijksverzekeringsbank, the state body that ran social insurance. After years on the Herengracht and then in a government office on the Droogbak,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/9eecf7fd-1b71-4941-b684-faaf94a310b7",
+    "evidence": "'De Raden van Arbeid ... waren onderdeel van De Rijksverzekeringsbank, een instituut dat in 1901 was opgericht om de eerste sociale verzekeringswet uit te voeren'; 'In 1919 ... Herengracht 237-239, en in 1921 in het Rijksadministratiegebouw aan Droogbak 1A'. The 'Amsterdam region' remit and 'borrowed rooms' are not stated."
+   },
+   {
+    "field": "body",
+    "old": "Stone figures decorate the building.",
+    "new": "Stone pilasters at the main entrance carry figures of a man and a woman.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/9eecf7fd-1b71-4941-b684-faaf94a310b7",
+    "evidence": "'De ingangspartij met bordes heeft aan weerszijden natuurstenen pilasters met een sculptuur van een man (rechts) en een vrouw (links).'"
+   },
+   {
+    "field": "body",
+    "old": "- the stone figures on the facade",
+    "new": "- the man and the woman on the pilasters at the main entrance",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/9eecf7fd-1b71-4941-b684-faaf94a310b7",
+    "evidence": "Same register sentence: the only facade figures named are the man and the woman at the entrance."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Ontworpen in 1939, begonnen in 1940 en pas in 1951 af, toen beide architecten al dood waren. Een kantoorblok van acht lagen met een getrapte top, gebouwd voor de Raad van Arbeid, met binnen een raadzaal die er nog vrijwel gaaf bij ligt.",
+     "body": "De Raad van Arbeid hoorde bij de Rijksverzekeringsbank, de staatsinstelling die de sociale verzekeringen uitvoerde. De raad zat eerst aan de Herengracht en daarna in een rijkskantoor aan de Droogbak. In 1939 vroeg het ministerie van Sociale Zaken architect C.J. Blaauw om een eigen gebouw, op de grond waar tot dat jaar het Weesperpoortstation had gestaan. In 1940 ging de schop de grond in, en toen kwam de oorlog. Van der Veen overleed in 1944, Blaauw in 1947. H.T. Zwiers maakte het in 1951 af, vrijwel precies volgens de oude tekeningen. Op de begane grond waren winkels bedacht; daarom loopt er aan de noordkant een galerij.\n\nAan het Rhijnspoorplein staat het hoge deel, acht lagen, met een bovenste verdieping die terugwijkt en trapsgewijs oploopt. Langs de Mauritskade buigt een vleugel van vier lagen mee, met over de volle lengte een dakterras. Binnen zijn de raadzaal en de kamer van de voorzitter bewaard gebleven. Bij de hoofdingang dragen stenen pilasters een man en een vrouw.\n\nLet op:\n- de getrapte top van het hoge blok\n- de galerij aan de noordkant, overgebleven van de geplande winkels\n- de man en de vrouw op de pilasters bij de hoofdingang"
+    }
+   },
+   "summary": "An office for the social insurance council, designed in 1939, started in 1940 and only finished in 1951 after both architects had died. An eight-storey block with stepped top, and a council chamber almost intact inside.",
+   "body": "The Raad van Arbeid (labour council) was part of the Rijksverzekeringsbank, the state body that ran social insurance. After years on the Herengracht and then in a government office on the Droogbak, the Ministry of Social Affairs commissioned C.J. Blaauw in 1939 to design a new office on the site of the former Weesperpoort station area. Building started in 1940, but the war intervened, Van der Veen died in 1944 and Blaauw in 1947, and H.T. Zwiers finished it in 1951 almost exactly to the original design. Shops were planned on the ground floor, which explains the arcade on the north side.\n\nThe building has an eight-storey block on the Rhijnspoorplein with a stepped, set-back top floor and a bent four-storey wing along the Mauritskade with a roof terrace over its whole length. Inside, the council chamber and the chairman's room survive. Stone pilasters at the main entrance carry figures of a man and a woman.\n\nLook for:\n- the stepped top of the tall block\n- the arcade on the north side, left over from the planned shops\n- the man and the woman on the pilasters at the main entrance"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "f3qk4qap2qnavmlqknwyf74f",
+  "title": "Christus Koningkerk (votive church)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The empty church was nearly demolished, then listed in 2003.",
+    "new": "The empty church was slated for demolition, then listed in 2003.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/James_Wattstraat_56-58_(Amsterdam)",
+    "evidence": "'De kerkgebouw werd een sta-in-de-weg en stond op de nominatie om gesloopt te worden.' Listing date 25 November 2003 from api.data.amsterdam.nl (monument 200517, datumAanwijzing 2003-11-25)."
+   },
+   {
+    "field": "body",
+    "old": "(at a time when everyone else wanted glass)",
+    "new": "(at a time when big expanses of glass were going into new homes to let the light in)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/James_Wattstraat_56-58_(Amsterdam)",
+    "evidence": "'terwijl in de jaren van bouw (1956-1959) juist veel grote glaspartijen werden geplaatst om veel licht in woningen binnen te laten'; 'everyone else' overstates it."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Midden in de oorlog beloofden Amsterdamse katholieken een kerk te bouwen als de stad honger en verwoesting bespaard bleef. In 1959 losten ze die gelofte in, met een kerk achter een dichte bakstenen muur. Rond 1996 ging hij dicht; nu zitten er een hotel en een theater in.",
+     "body": "In 1943 en 1944, onder de Duitse bezetting, deden de katholieken van Amsterdam een gelofte: als de stad gespaard bleef voor hongersnood en vernietiging, kwam er een kerk. In 1945 en 1951 herhaalden ze die belofte, en vanaf 1945 werd er geld ingezameld. De nieuwe parochie Christus Koning nam de kerkarchitect K.P. Tholens in de arm, die de jonge ingenieur Herman van Balen het ontwerp liet maken. Op 4 mei 1957 ging de eerste paal de grond in, op 4 mei 1959 werd de kerk ingewijd.\n\nHet idee: modern, maar met de rug naar de wereld. Rondom staat een zware bakstenen muur met kantelen erop. De ramen zijn klein in grote wanden, in jaren waarin nieuwe woningen juist grote glaspartijen kregen om het licht binnen te halen. Binnen loopt alles over in één ruimte voor 950 mensen, onder een hoog dak met helder glas in lood, met een sacramentskapel onder een lantaarn en een doopvont in een verzonken vloer. Daartegenover staat in de voorhof de klokkentoren, vrijwel helemaal open: een stenen bok op drie poten, 15 meter hoog. Boven de ingang staat Christus Koning met de woorden \"aula regis\", gemaakt door J. van Rhijn.\n\nRond 1996 was de laatste dienst en ging de parochie op in die van de Hofkerk. De lege kerk stond op de slooplijst, maar werd in 2003 gemeentelijk monument. Vanaf 2020 werd hij verbouwd: in 2024 ging Chassé Hotel Residency open, en in november 2025 volgde het Balkissoon Theater in het vroegere schip.\n\nLet op:\n- de bakstenen ommuring met kantelen\n- de open klokkentoren op drie poten\n- Christus Koning boven de ingang"
+    }
+   },
+   "body": "During the German occupation, in 1943–1944, Amsterdam's Catholics vowed to build a church if the city was spared famine and destruction. They repeated the promise in 1945 and 1951 and collected money from 1945 on. The new Christus Koning parish engaged the church architect K.P. Tholens, who brought in the young engineer Herman van Balen as designer. The first pile went in on 4 May 1957, and the church was consecrated on 4 May 1959.\n\nThe idea was a modern church that still shuts out the world: a heavy brick wall all around with a crenellated top, small windows in big walls (at a time when big expanses of glass were going into new homes to let the light in), and inside one flowing space for 950 people under a high roof with clear leaded windows, a sacrament chapel crowned by a lantern, and a sunken baptistery. Its counterpart is the almost entirely open bell tower, a three-legged stone frame 15 metres high in the forecourt. Over the entrance is a statue of Christ the King with \"aula regis\", by J. van Rhijn.\n\nThe last services were held around 1996, and the parish merged with the Hofkerk. The empty church was slated for demolition, then listed in 2003. It was converted from 2020: Chassé Hotel Residency opened in 2024, and in November 2025 the Balkissoon Theater opened in the former nave.\n\nLook for:\n- the crenellated brick enclosure\n- the open three-legged bell tower\n- Christ the King over the entrance"
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200517 (datumAanwijzing 2003-11-25)"
+  ]
+ },
+ {
+  "id": "r71hlbvs6zeveot5vw9d32o2",
+  "title": "De Warren, Amsterdam's first housing co-op",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "put up by a group of young Amsterdammers who won a city pilot in 2018",
+    "new": "put up by a group of Amsterdammers who won a city pilot in 2018",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Wooncoöperatie_De_Warren",
+    "evidence": "Wikipedia and Ammodo describe the cooperative and its tender win; no source gives the members' ages."
+   },
+   {
+    "field": "body",
+    "old": "In April 2018 a group of about fifty young Amsterdammers won the city's tender for a pilot cooperative,",
+    "new": "In April 2018 a group of Amsterdammers won the city's tender for a pilot cooperative,",
+    "kind": "narrowed",
+    "source": "https://www.nhnieuws.nl/nieuws/317941/wooncooperaties-kunnen-niet-meer-bouwen-we-hebben-leningen-nodig-van-de-gemeente",
+    "evidence": "NH Nieuws (21 April 2023) says the finished building 'is het thuis voor ruim vijftig mensen'; the size and age of the group that won the 2018 tender are not stated. The fifty is kept, moved to the opening sentence."
+   },
+   {
+    "field": "body",
+    "old": "It opened in April 2023.",
+    "new": "It opened in April 2023 and is home to more than fifty people.",
+    "kind": "reordered",
+    "source": "https://www.nhnieuws.nl/nieuws/317941/wooncooperaties-kunnen-niet-meer-bouwen-we-hebben-leningen-nodig-van-de-gemeente",
+    "evidence": "'De feestelijke opening van wooncoöperatie De Warren op IJburg vanmiddag' (21 April 2023); 'nu het thuis is voor ruim vijftig mensen'"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een houten gebouw op Centrumeiland dat van de bewoners zelf is: zij wonnen in 2018 een proef van de gemeente en bouwden het samen. Ze huren in feite van zichzelf, buiten de markt om, en 30 procent van de vloer is voor iedereen.",
+     "body": "In een wooncoöperatie bezitten de bewoners hun gebouw samen en huren ze in feite van zichzelf. In april 2018 won een groep Amsterdammers de tender die de gemeente had uitgeschreven voor een proef met zo'n coöperatie. De Warren werd de eerste zelfgebouwde wooncoöperatie van de stad die ook echt af kwam. Natrufied Architecture uit Bergen tekende het ontwerp; tussen 2021 en 2023 verrees het aan de Nydia Ecurystraat op Centrumeiland, het nieuwe eiland waar de meeste huizen door hun eigen bewoners worden gebouwd. In april 2023 was de opening; nu wonen er ruim vijftig mensen.\n\nEr zijn 36 huurwoningen, sociaal en middelduur. Ongeveer 800 vierkante meter, 30 procent van de vloer, is gemeenschappelijk: een aula, een danszaal, een muziekstudio, kantoorplekken, een klusruimte en een speelkamer voor kinderen, aan een grote trap die binnen trapsgewijs omhoog klimt. De coöperatie sluit één gezamenlijke hypotheek af, ontwikkelt en beheert het pand zelf en maakt geen winst; de huur dekt dus alleen de kosten. De draagconstructie is van hout en beton. De gevel is gemaakt van hergebruikt hout van oude meerpalen en damwanden en begroeid met struiken, klimplanten en bomen. Het gebouw wekt meer energie op dan het verbruikt. Het succes hielp de gemeente over de streep om meer coöperaties mogelijk te maken, al raakten andere groepen in 2023 door de stijgende rente in de knel met hun financiering. In 2023 kreeg De Warren de publieksprijs van de Amsterdamse Architectuur Prijs, in 2024 de Amsterdamse Nieuwbouwprijs.\n\nHet is het huis van de bewoners: bekijk het vanaf de straat.\n\nLet op:\n- het verweerde gevelhout, gered uit de waterkant\n- de begroeide gevel en balkons\n- de zelfbouwhuizen eromheen, de manier van bouwen op Centrumeiland"
+    }
+   },
+   "summary": "A timber building on Centrumeiland put up by a group of Amsterdammers who won a city pilot in 2018 and now own and run it together. Rents stay out of the market, and 30 percent of the floor space is shared.",
+   "body": "In a housing cooperative the residents own their building collectively and in effect rent from themselves. In April 2018 a group of Amsterdammers won the city's tender for a pilot cooperative, and De Warren became the first self-built housing cooperative in the city to be finished. It was designed by Natrufied Architecture of Bergen and built in 2021–2023 on the Nydia Ecurystraat, on Centrumeiland, the new island where most homes are self-build projects. It opened in April 2023 and is home to more than fifty people.\n\nThe building has 36 social and mid-rent homes. About 800 square metres, 30 percent of the floor space, is set aside for shared rooms: an auditorium, a dance hall, a music studio, offices, a workshop and a children's playroom, strung along a big stepped stair inside. The cooperative takes out one collective mortgage, develops and manages the building itself and works without profit, so the rents only cover the costs. The structure is a timber hybrid; the facade is made of reused wood from old mooring posts and sheet piling, planted with shrubs, climbers and trees, and the building produces more energy than it uses. Its success helped persuade the city to scale up its cooperative policy, even as rising interest rates in 2023 left other groups struggling to finance their plans. It won the public jury prize of the Amsterdam Architecture Prize in 2023 and the Amsterdam Nieuwbouwprijs in 2024.\n\nIt is the residents' home: look at it from the street.\n\nLook for:\n- the weathered timber of the facade, recycled from the waterfront\n- the planted facade and balconies\n- the self-built houses all around, Centrumeiland's way of building"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "y5uk7lpf63pqe70qd1ajpvv9",
+  "title": "Skatepark Zeeburgereiland and An outcast sanctuary",
+  "changes": [
+   {
+    "field": "body",
+    "old": "up close the pictures are rough ballpoint scribbles, skulls, monsters and slogans.",
+    "new": "up close the pictures are rough ballpoint scribbles of stinging nettles, woodlice and empty cans.",
+    "kind": "narrowed",
+    "source": "https://web.archive.org/web/20200527054758/https://www.parool.nl/amsterdam/skaten-op-delfts-blauw-op-zeeburgereiland~be33bb7c/",
+    "evidence": "Roskam in Het Parool (7 May 2020): 'In het ontwerp grijp ik daarom terug naar de undergrounduitstraling: brandnetels, pissebedden, lege blikjes. Uitgevoerd in balpen, zoals we vroeger verveeld in de klas zaten te tekenen.' Skulls, monsters and slogans are in no source."
+   },
+   {
+    "field": "body",
+    "old": " The park is in daily use and lit after dark.",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source mentions lighting or daily use; the free, open access is already stated above."
+   },
+   {
+    "field": "body",
+    "old": "An outcast sanctuary consists of twelve tiled objects and a 130-metre band",
+    "new": "An outcast sanctuary consists of twelve tiled objects and a 130-metre band",
+    "kind": "sourced",
+    "source": "https://web.archive.org/web/20200527054758/https://www.parool.nl/amsterdam/skaten-op-delfts-blauw-op-zeeburgereiland~be33bb7c/",
+    "evidence": "The live Parool link hits a privacy gate; the archived copy reads: 'Het werk bestaat uit twaalf verschillende objecten en een 130 meter lange bies van kleine tegeltjes langs de wanden van de zogenoemde pools.' Also confirms finishing 'tegel voor tegel' in Utrecht."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Van een afstand Delfts blauw, van dichtbij balpengekrabbel zoals je dat tijdens een saaie les in je agenda zet. Ruim 40.000 tegels sieren de muren van wat in 2020 de grootste betonnen buitenskatebaan van Nederland was.",
+     "body": "De gemeente wilde dat de nieuwe Sportheldenbuurt op Zeeburgereiland niet alleen huizen kreeg maar ook ruimte om te bewegen; het idee voor deze baan kwam van skaters en buurtbewoners. Op 19 juni 2020 ging de Urban Sport Zone open. Het Deense bureau Glifberg+Lykke ontwierp de skatebaan, SkateOn bouwde hem: bowls, streetstukken en golvende flowdelen voor skateboarders, BMX'ers, inlineskaters en steppers. Met 3.100 tot 3.900 vierkante meter (de bronnen meten het verschillend) was het de grootste betonnen buitenskatebaan van het land. Eromheen ligt 3,8 hectare park in Engelse landschapsstijl, met kronkelpaden, heuvels, een hardloopbaan en speeltoestellen. Iedereen mag erop, gratis en zonder lidmaatschap.\n\nHet verrassende zit in de tegels. In 2018 kregen Iris Roskam en Arno Coenen de opdracht om de blinde muren te vullen. Halverwege ging het kunstenaarsduo uit elkaar en maakte Roskam het alleen af. An outcast sanctuary telt twaalf betegelde objecten plus een strook kleine tegeltjes van 130 meter langs de randen van de pools, samen meer dan 40.000 tegels. Uit de verte lijkt het ouderwets Delfts blauw. Wie dichterbij komt, ziet ruwe balpentekeningetjes van brandnetels, pissebedden en lege blikjes. Koninklijke Tichelaar in Makkum bakte de tegels, in Utrecht werden ze een voor een afgewerkt, en tegelzetter Carin van Dongen kreeg ze om de rondingen van het beton.\n\nLet op:\n- de tegeltableaus op de blinde muren; loop er dichtbij om de krabbels te lezen\n- de smalle strook tegels langs de rand van de bowls\n- de heuvels en kronkelpaden van het park eromheen"
+    }
+   },
+   "body": "The city wanted the new Sportheldenbuurt on Zeeburgereiland to have room for sport, not only housing, and the skate scene and local residents came up with the idea for this park. The Urban Sport Zone opened on 19 June 2020: a skatepark designed by the Danish specialists Glifberg+Lykke and built by SkateOn, with bowls, street sections and flow areas for skaters, BMX riders, inline skaters and steppers. At some 3,100 to 3,900 square metres (sources differ on how they measure it) it was the largest outdoor concrete skatepark in the Netherlands. Around it lies a 3.8-hectare park in English landscape style with winding paths, hills, a running track and play equipment. It is free and open to all, no membership needed.\n\nThe surprise is the tiling. In 2018 the artists Iris Roskam and Arno Coenen were asked to fill the blind walls; the duo split during the work and Roskam finished it. An outcast sanctuary consists of twelve tiled objects and a 130-metre band of small tiles along the edges of the pools, more than 40,000 tiles in all. From a distance they read as traditional Delft blue; up close the pictures are rough ballpoint scribbles of stinging nettles, woodlice and empty cans. The tiles were fired by Koninklijke Tichelaar in Makkum and finished tile by tile in Utrecht, and tile setter Carin van Dongen fitted them to the curves of the concrete.\n\nLook for:\n- the tile panels on the blind walls, then step close to read the doodles\n- the thin band of tiles along the lip of the bowls\n- the hills and winding paths of the park around it"
+  },
+  "sources_add": [
+   "https://web.archive.org/web/20200527054758/https://www.parool.nl/amsterdam/skaten-op-delfts-blauw-op-zeeburgereiland~be33bb7c/ (archived Parool, 7 May 2020: twelve objects, 130 m band, nettles, woodlice and cans in ballpoint, tile-by-tile finishing in Utrecht)"
+  ]
+ },
+ {
+  "id": "a4hvymnpuu4f3lt7yoes8vnk",
+  "title": "Entrepotbrug and the Entrepot-West tower",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "a 60 m tower standing in the water",
+    "new": "a 60 m tower standing partly in the water",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Watertoren_Entrepot-West",
+    "evidence": "'ze staat deels in het water, maar het is geen watertoren in de klassieke betekenis'"
+   },
+   {
+    "field": "body",
+    "old": "Atelier PRO, the Hague firm of Hans van Beek, called its design",
+    "new": "Atelier PRO, Hans van Beek's firm, called its design",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Watertoren_Entrepot-West",
+    "evidence": "Sources name 'Hans van Beek en Frans Dirks van architectenbureau Atelier PRO'; none of the place's sources says where the firm is based."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een woongebouw dat als een slang op brugpijlers over de haven kronkelt, zes lagen hoog, 'met een lengte van een intercitytrein en de hoogte van een passagiersschip'. Ernaast staat een woontoren van 60 meter met zijn voeten in het water en een lichtstreep die elk half uur van kleur verschiet.",
+     "body": "Volgens het stedenbouwkundig plan voor Entrepot-West, de hoek van het Cruquiuseiland en Borneo, moest er een reusachtig gesloten carré over het water van de Entrepothaven komen. Atelier PRO, het bureau van Hans van Beek, noemde zijn eigen ontwerp een radicale correctie daarop. In plaats van één dicht blok kwam er een lang, slingerend woongebouw dat op brugpijlers het havenbekken oversteekt, van het Entrepothof aan de Cruquiusweg naar de Borneolaan. Op de kades aan weerszijden staan stadsvilla's, twee aan twee rond een hof. De Entrepotbrug was in 1991-1992 klaar en kreeg bij de Betonprijs van 1994 een eervolle vermelding. Zelfs de bewoners wonen officieel aan de Entrepotbrug: zo heet hun straat. Criticus Friso Broeksma zag er een gebouw in \"met een lengte van een intercitytrein en de hoogte van een passagiersschip\", eindelijk een knipoog tussen haven en spoor, die elkaar een eeuw lang hadden genegeerd.\n\nNaast de verkeersbrug naar de Indische Buurt zette hetzelfde bureau het plan vast met een woontoren: de Watertoren Entrepot-West van Hans van Beek en Frans Dirks, klaar in 1997, 20 verdiepingen en 60 meter hoog. Water heeft hij nooit opgeslagen. De naam komt doordat hij deels in de haven staat, met een remmingwerk om zijn voet tegen langsvarende schepen. Over de hele hoogte loopt een smalle glazen koker die 's nachts oplicht. Van Beek hing er kille witte tl-buizen in; later kwam er een ledstrip voor in de plaats, die ver boven het dak uitsteekt en elk half uur een andere kleur krijgt. Op Koningsdag is het de Nederlandse vlag, tijdens Pride een regenboog en op oudejaarsavond vuurwerk.\n\nHet zijn woningen; je bekijkt ze vanaf de kades en bruggen rond de haven. Het oude douanegebouw en de poort van de veemarkt aan de Cruquiusweg bleven in het plan gespaard.\n\nLet op:\n- de golf van de Entrepotbrug, gezien vanaf de voetbruggen van de Borneosteiger\n- de pijlers die het gebouw boven het water houden\n- de lichtstreep op de toren als het donker is\n- het remmingwerk rond de voet van de toren"
+    }
+   },
+   "summary": "A wavy six-storey housing block that crosses a harbour basin on bridge piers, \"the length of an intercity train and the height of a passenger ship\", and next to it a 60 m tower standing partly in the water with a light strip that changes colour every half hour.",
+   "body": "In the city planners' scheme for Entrepot-West, the corner of the Cruquius island and Borneo, a giant closed square block was to straddle the water of the Entrepothaven. Atelier PRO, Hans van Beek's firm, called its design a radical correction of that plan. Instead of a closed block it built a long, snaking residential building that crosses the basin on bridge piers from the Entrepothof on the Cruquiusweg to the Borneolaan, with pairs of urban villas in courts on the quays on either side. The Entrepotbrug was finished in 1991–1992 and got an honourable mention for the 1994 Concrete Prize; even its addresses carry the street name Entrepotbrug. The critic Friso Broeksma called it a building \"the length of an intercity train and the height of a passenger ship\": at last a sign of recognition between the port and the railway, which had ignored each other for a century.\n\nBeside the road bridge to the Indische Buurt the same firm pinned the plan down with a tower block, the Watertoren Entrepot-West (Hans van Beek and Frans Dirks, finished 1997): 20 storeys and 60 metres. It is not a water tower at all; it takes the name because it stands partly in the water, with a fender round its foot against passing boats. Up its full height runs a narrow glass shaft that lights up at night. Van Beek fitted it with cold white tubes; these were later swapped for an LED strip that sticks out above the roof and changes colour every half hour, showing the Dutch flag on King's Day, rainbow colours during Pride and fireworks on New Year's Eve.\n\nThese are private homes; you see them from the quays and bridges around the basin. The old customs building and the cattle market gate on the Cruquiusweg were kept in the plan.\n\nLook for:\n- the wave of the Entrepotbrug from the Borneosteiger footbridges\n- the piers carrying the building over the water\n- the light strip on the tower after dark\n- the fender round the foot of the tower"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "qrztsoso1e5ox1zik2gbxv0g",
+  "title": "De IJsbreker, Weesperzijde 23",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "a national chess final,",
+    "new": "a national chess title match,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_Ysbreeker",
+    "evidence": "'Het Nederlands kampioenschap schaken 1913, de tweekamp tussen regerend kampioen Rudolf Loman en Johannes Esser, werd in een bovenzaal van de Ysbreeker gehouden.' A two-player title match, not a final."
+   },
+   {
+    "field": "body",
+    "old": "The company built much of this stretch of the Weesperzijde.",
+    "new": "The company built several of the houses on this stretch of the Weesperzijde.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Weesperzijde/De_IJsbreker",
+    "evidence": "'De bouwmaatschappij, opgericht door hotelier A.W. Krasnapolsky, heeft diverse huizen gebouwd aan dit deel van de Weesperzijde.'"
+   },
+   {
+    "field": "body",
+    "old": "- the stepped gables at both ends, breaking through the cornice",
+    "new": "- the spout gables at both ends, breaking through the cornice",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/526992",
+    "evidence": "Register: 'twee steekkappen met tuitgevels, die de kroonlijst doorbreken'. Tuitgevels are spout gables, not stepped gables."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Hier lag vanaf 1702 een ijsbreker die de Amstel bij vorst openhield, en het café erachter nam zijn naam over. In het pand uit 1885, van de architect van het Concertgebouw, kwamen SDAP'ers samen, werd om de Nederlandse schaaktitel gespeeld, rolden biljartballen en klonk van 1979 tot 2005 de nieuwste muziek van Amsterdam.",
+     "body": "Van 1702 tot ongeveer 1860 lag hier een ijsbreker. Als het vroor, hield hij de Amstel open, zodat schepen vers water uit de Vecht konden blijven aanvoeren. De herberg ernaast noemde zich ernaar. In 1884-1885 maakte het oude koffiehuis plaats voor een café met woningen erboven, een stal en een koetshuis, ontworpen door A.L. van Gendt, die ook het Concertgebouw tekende. Opdrachtgever was bouwmaatschappij De IJsbreker van hotelier A.W. Krasnapolsky, die meer huizen aan dit stuk Weesperzijde neerzette.\n\nBegin twintigste eeuw zaten hier kunstenaars en kopstukken van de SDAP, de sociaaldemocratische partij. In 1913 speelden Rudolf Loman en Johannes Esser in een zaal boven om het Nederlands kampioenschap schaken. Hun zetten gingen per huistelefoon naar beneden, waar het publiek ze op een groot demonstratiebord volgde. Daarna groeide het café uit tot een van de bekendste biljartzalen van het land. Veel vaste gasten waren Joods; toen cafés in november 1941 verboden terrein werden voor Joden, moest de zaak dicht en ging het meubilair onder de hamer. In 1953 sloot het café voorgoed. Er kwam een kledingzaak in, later een magazijn.\n\nIn 1979 huurden hoornist Jan Wolff en danseres Maureen Kramer het pand. Uit vijf concerten in 1980 groeiden er zo'n driehonderd per jaar, en De IJsbreker werd de thuisbasis van de eigentijdse muziek in Amsterdam. Ook de talkshow Hier is... Adriaan van Dis werd hier opgenomen. Wolff ijverde tientallen jaren voor een echte concertzaal, en in 2005 trok het centrum naar het nieuwe Muziekgebouw aan 't IJ. Sinds 2010 is het weer een café-restaurant, De Ysbreeker, met de oude bogen en een loodzwaar Wilhelminabiljart op vijf poten.\n\nLet op:\n- de drie grote rondbogen van het café tussen de twee hoge hoekpartijen\n- de portieken aan weerszijden, met Dorische zuilen en gebogen frontons\n- de tuitgevels aan beide uiteinden, die door de kroonlijst steken\n- het uitzicht op de Amstel, waar de ijsbreker lag"
+    }
+   },
+   "summary": "Named after the icebreaker that kept the Amstel open from 1702, this 1885 café building by the Concertgebouw's architect hosted SDAP socialists, a national chess title match, a billiards temple and, from 1979 to 2005, Amsterdam's pioneering centre for new music.",
+   "body": "From 1702 to about 1860 an icebreaker was moored here to keep the Amstel open in frost, so that boats could still bring fresh water in from the Vecht. The inn beside it took its name. In 1884-1885 A.L. van Gendt, who also designed the Concertgebouw, replaced the old coffee house with a café with flats above, a stable and a coach house, for the IJsbreker building company founded by the hotelier A.W. Krasnapolsky. The company built several of the houses on this stretch of the Weesperzijde.\n\nIn the early twentieth century the café was a meeting place for artists and for leading figures of the SDAP (the social democratic party). In 1913 the Dutch chess championship between Rudolf Loman and Johannes Esser was played in an upstairs room, the moves telephoned down to a demonstration board in the café. It then became one of the country's best-known billiards halls. Many regulars were Jewish; when cafés were closed to Jews in November 1941 the café had to shut, and its furniture was auctioned. It closed for good in 1953 and became a clothing shop and later a warehouse.\n\nIn 1979 the horn player Jan Wolff and the dancer Maureen Kramer rented the building. The first five concerts in 1980 grew to some three hundred a year, and De IJsbreker became the home of contemporary music in Amsterdam; the talk show Hier is... Adriaan van Dis was recorded here too. Wolff spent decades campaigning for a proper hall, and in 2005 the centre moved into the new Muziekgebouw aan 't IJ. Since 2010 the building has been a café-restaurant again, De Ysbreeker, which kept the arches and a heavy five-legged Wilhelmina billiard table.\n\nLook for:\n- the three big round arches of the café between the two tall corner bays\n- the porches on either side, with Doric columns and curved pediments\n- the spout gables at both ends, breaking through the cornice\n- the view of the Amstel where the icebreaker lay"
+  },
+  "sources_add": []
+ }
+]
