@@ -1,6 +1,6 @@
 ---
-title: De Hoogduitsers
-summary: De Asjkenazische Joden die vanaf de zeventiende eeuw uit de Duitse landen, Polen en verder oostwaarts naar Amsterdam kwamen: arm, Jiddischsprekend en al snel veel talrijker dan de Portugezen. Hun gemeente van 1635, de vier sjoelen aan het plein, hun begraafplaatsen in Muiderberg en Zeeburg, hun beroepen, hun scholen en de woorden die ze het Amsterdams nalieten.
+title: "De Hoogduitsers"
+summary: "De Asjkenazische Joden die vanaf de zeventiende eeuw uit de Duitse landen, Polen en verder oostwaarts naar Amsterdam kwamen: arm, Jiddischsprekend en al snel veel talrijker dan de Portugezen. Hun gemeente van 1635, de vier sjoelen aan het plein, hun begraafplaatsen in Muiderberg en Zeeburg, hun beroepen, hun scholen en de woorden die ze het Amsterdams nalieten."
 ---
 Amsterdam noemde ze de Hoogduitsers, om ze te onderscheiden van de Portugezen. Het waren Asjkenazische Joden: Joden van wie de families uit de Duitse landen kwamen en later uit Polen, Litouwen en verder oostwaarts. Ze kwamen later dan de Portugezen, armer en in veel grotere aantallen, en aan het eind van de achttiende eeuw waren vijf op de zes Amsterdamse Joden Hoogduitser. Het Joodse Amsterdam dat nu nog in de herinnering leeft, de Jodenhoek van marktkramen en stegen, van Jiddische woorden en diamantbewerkers, is grotendeels het hunne.
 

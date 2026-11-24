@@ -1,6 +1,6 @@
 ---
-title: Synagogen van Amsterdam
-summary: Een gids langs de Amsterdamse synagogen, staand, verbouwd en verdwenen: de Esnoga en de vier Hoogduitse sjoelen aan het plein, de verborgen Uilenburgersjoel, de kleine sjoelen van Oost en de Pijp, de Amsterdamse School-synagogen van Zuid, de gebouwen van de liberale gemeente, en waar Joods Amsterdam nu bidt.
+title: "Synagogen van Amsterdam"
+summary: "Een gids langs de Amsterdamse synagogen, staand, verbouwd en verdwenen: de Esnoga en de vier Hoogduitse sjoelen aan het plein, de verborgen Uilenburgersjoel, de kleine sjoelen van Oost en de Pijp, de Amsterdamse School-synagogen van Zuid, de gebouwen van de liberale gemeente, en waar Joods Amsterdam nu bidt."
 ---
 Vóór de oorlog had Amsterdam tientallen synagogen en gebedsruimten, van monumentale gebouwen voor meer dan duizend mensen tot een enkele bovenkamer in een woonhuis. Hun verhaal volgt de Joden van de stad: eerst op de eilanden van de oude Jodenbuurt, dan naar de Plantage, Oost en de Pijp, en daarna naar de nieuwe wijken van Zuid. De meeste werden in 1943 leeggehaald; veel werden nooit meer gebruikt. Deze gids loopt ze ruwweg af in de volgorde waarin ze zijn gebouwd. Synagoge, sjoel in het Amsterdams en esnoga bij de Portugezen betekenen hetzelfde: een huis van gebed en studie, geen tempel.
 

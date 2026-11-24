@@ -1,6 +1,6 @@
 ---
-title: De Portugese Natie
-summary: Hoe conversos uit Portugal en Spanje in Amsterdam de Joden van de Portugese Natie werden: hun gemeenten, hun begraafplaats in Ouderkerk, de Esnoga van 1675, hun scholen en fondsen, hun handel, en hun plaats in de Atlantische koloniale economie, met plantages en slavenhandel in Brazilië, Suriname en Curaçao.
+title: "De Portugese Natie"
+summary: "Hoe conversos uit Portugal en Spanje in Amsterdam de Joden van de Portugese Natie werden: hun gemeenten, hun begraafplaats in Ouderkerk, de Esnoga van 1675, hun scholen en fondsen, hun handel, en hun plaats in de Atlantische koloniale economie, met plantages en slavenhandel in Brazilië, Suriname en Curaçao."
 ---
 In de jaren 1590 kwam er een nieuw soort migrant naar Amsterdam: kooplieden uit Portugal en Spanje van wie de families al generaties lang, op papier, christen waren. Hun voorouders waren eind veertiende en in de vijftiende eeuw tot bekering gedwongen, en de Inquisitie verdacht hen er nog steeds van in het geheim het jodendom te belijden. In Amsterdam werden veel van deze *conversos* of 'nieuwe christenen' 'nieuwe Joden'. Zelf spraken ze van de *nação*, de Natie: de Portugese Natie, ter onderscheiding van de Joden die later uit Duitsland en Polen kwamen.
 

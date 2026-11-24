@@ -1,6 +1,6 @@
 ---
-title: The Portuguese Nation
-summary: How conversos from Portugal and Spain became the Jews of the Portuguese Nation in Amsterdam: their congregations, their cemetery at Ouderkerk, the Esnoga of 1675, their schools and charities, their trade, and their place in the Atlantic colonial economy, including plantations and the slave trade in Brazil, Suriname and Curaçao.
+title: "The Portuguese Nation"
+summary: "How conversos from Portugal and Spain became the Jews of the Portuguese Nation in Amsterdam: their congregations, their cemetery at Ouderkerk, the Esnoga of 1675, their schools and charities, their trade, and their place in the Atlantic colonial economy, including plantations and the slave trade in Brazil, Suriname and Curaçao."
 attach:
   map: true
   places:

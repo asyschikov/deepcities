@@ -1,6 +1,6 @@
 ---
-title: Synagogues of Amsterdam
-summary: A guide to Amsterdam's synagogues, standing, converted and gone: the Esnoga and the four Ashkenazi synagogues on the square, the hidden Uilenburgersjoel, the small shuls of Oost and the Pijp, the Amsterdam School synagogues of Zuid, the Liberal congregation's buildings, and where Jewish Amsterdam prays today.
+title: "Synagogues of Amsterdam"
+summary: "A guide to Amsterdam's synagogues, standing, converted and gone: the Esnoga and the four Ashkenazi synagogues on the square, the hidden Uilenburgersjoel, the small shuls of Oost and the Pijp, the Amsterdam School synagogues of Zuid, the Liberal congregation's buildings, and where Jewish Amsterdam prays today."
 attach:
   map: false
   places:

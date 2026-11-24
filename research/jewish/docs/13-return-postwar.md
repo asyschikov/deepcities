@@ -4,7 +4,7 @@ summary: "Who came back to Amsterdam in 1945, how they were received, the fights
 attach:
   map: false
   places:
-    - Centraal Station's two plaques: the cold welcome and the sergeant
+    - "Centraal Station's two plaques: the cold welcome and the sergeant"
     - Lotty's bench, Apollolaan
     - Monument van Joodse Erkentelijkheid, the thank-you nobody wanted next door
     - Gerard Dou Synagogue
