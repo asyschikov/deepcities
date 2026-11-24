@@ -62,3 +62,9 @@ None missing: every place has one to three Commons photos, all looked at.
 
 - **Museumkwartier memory walk** (about 2 km): the mirror at the Van Eeghenstraat gate, across the Museumplein past Hel van vuur and the Ravensbrück monument, Descartes on the Johannes Vermeerplein, the doorposts of the Gerard Terborgstraat, ending at the pooping cat. Round 1's Etty Hillesum house and Abraham Asscher's house are on the way.
 - **Art that was nearly thrown away** (about 2.5 km): Vondelbunker, D.D.T.666, the mosaic transformer house, then through the Vondelpark to the Emmaplein sculptures. The Amstelveenseweg stone is 500 m further on.
+
+## Coordinator decisions
+
+- 201 stay-behind office at Van Eeghenstraat 78: cut from the mirror place; one undated source is too thin. Open lead.
+- 101 Dr. Rat: Nice, not Amazing (a faded tag behind two trunks; the story carries it).
+- Vondelbunker stays in Zuid (the pin point-checks there).

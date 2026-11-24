@@ -29,7 +29,7 @@
     - { label: Dutch Graffiti Library on the restoration, url: "https://dutch-graffiti-library.nl/stories/drrat_ddt666/" }
     - { label: Het Parool (2013), url: "https://www.parool.nl/nieuws/oergraffiti-dr-rat-weer-zichtbaar~b0daf77f/" }
   attributes:
-    rank: Amazing
+    rank: Nice
     built: "1978"
     artist: Ivar Vičs (Dr. Rat)
   photos:
@@ -302,18 +302,15 @@
       - https://nl.wikipedia.org/wiki/Zigeunermonument_Hel_en_vuur
 
 - title: The mirror at the Vondelpark gate (Van Eeghenstraat)
-  summary: "\"Sobibor began in the Vondelpark. With a sign: Forbidden for Jews,\" the King said in 2020. The sign hung on the lamp post at this gate. Since 2021 a mirror hangs there, with a question. The villa beside it has a Cold War secret."
+  summary: "\"Sobibor began in the Vondelpark. With a sign: Forbidden for Jews,\" the King said in 2020. The sign hung on the lamp post at this gate. Since 2021 a mirror hangs there, with a question."
   body: |
     On 4 May 2020 the King gave his remembrance speech on an empty Dam square, and one sentence stuck: "Sobibor began in the Vondelpark. With a sign: Forbidden for Jews." He meant it as a figure of speech, the first small step on a road that ended in the death camps. But the sign was real, and it hung here. A photograph in the city archive shows it on the lamp post in front of this gate.
 
     An Amsterdam entrepreneur, Niels van Deuren, heard the speech and wanted the spot marked. A year later, with the city's 4 and 5 May committee and the borough, it was: a mirror on the lamp post and a steel text panel beside it, unveiled on 4 May 2021. You look into the mirror at the place where the sign hung and read the question the panel ends with: are you looking away? The title, "Sobibor. Wat doe jij?" (what do you do?), comes from a poem that the resistance man Gerrit van der Veen published in an underground paper in March 1944. More than 34,000 people were deported from the Netherlands to Sobibor in 1943; eighteen lived to see the end of the war. They are remembered here every year on 1 June.
 
-    The double villa right of the gate kept a secret of another kind. The army took over no. 78 in October 1945. Later, by the account of the documentation site on Amsterdam's defences, it housed Operaties, the secret service that was to organise sabotage if the Eastern bloc occupied the country, under cover of a historical study society. The service was wound up in 1992; the villa is a private house.
-
     Look for:
     - the mirror on the lamp post in front of the gate
     - the steel panel beside it, with the King's sentence at the top
-    - right of the gate: the double villa at nos. 76–78
   category: hidden-history
   lat: 52.357547
   lng: 4.871939
@@ -323,12 +320,9 @@
     - { label: 4 en 5 mei Amsterdam on the sign, url: "https://4en5meiamsterdam.nl/bord-vondelpark/" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Sobib%C3%B3r-Wat_doe_jij%3F" }
     - { label: Buitenkunst Amsterdam, url: "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/2532" }
-    - { label: Stelling van Amsterdam on the villa at no. 78, url: "https://www.stelling-amsterdam.nl/bunkers/amsterdam-villavaneeghenstraat/index.php" }
   attributes:
     rank: Okay
     built: "2021"
-    check: Facts
-    check_note: The secret service office at no. 78 rests on one source (stelling-amsterdam.nl), which gives no dates for it.
   photos:
     - commons:File:2021 Sobibor-Wat doe jij (3).jpg
     - commons:File:2021 Sobibor-Wat doe jij (1).jpg
@@ -337,29 +331,21 @@
     - https://4en5meiamsterdam.nl/bord-vondelpark/ (the speech, the sign at this entrance, initiative)
     - https://vriendenvanhetvondelpark.nl/sobibor-wat-doe-jij-voor-joden-verboden/ (press release of 1 May 2021, the empty Dam)
     - https://nl.wikipedia.org/wiki/Sobib%C3%B3r-Wat_doe_jij%3F (sign on the lamp post in front of the gate, city archive photo, mirror on the lamp post, coordinates)
-    - https://www.stelling-amsterdam.nl/bunkers/amsterdam-villavaneeghenstraat/index.php (no. 78 taken into use 8 October 1945 by Marechaussee Staf 5e Divisie; Operaties, O-Dienst, from 1985 A-Dienst; about 12 staff under cover of the Stichting Hendrik van Borselen; wound up spring 1992; now a house; page last changed 26 October 2026)
-    - research/zuid/places/museum-a.yaml (the double villa 76–78 by Th. Sanders, monument 222041)
   nl:
     title: De spiegel bij het hek van het Vondelpark (Van Eeghenstraat)
-    summary: "'Sobibor begon in het Vondelpark. Met een bordje: Voor Joden verboden', zei de koning in 2020. Dat bordje hing aan de lantaarnpaal bij dit hek. Sinds 2021 hangt er een spiegel, met een vraag. De villa ernaast heeft een geheim uit de Koude Oorlog."
+    summary: "'Sobibor begon in het Vondelpark. Met een bordje: Voor Joden verboden', zei de koning in 2020. Dat bordje hing aan de lantaarnpaal bij dit hek. Sinds 2021 hangt er een spiegel, met een vraag."
     body: |
       Op 4 mei 2020 hield de koning zijn toespraak bij de Dodenherdenking op een lege Dam, en één zin bleef hangen: 'Sobibor begon in het Vondelpark. Met een bordje: Voor Joden verboden.' Hij bedoelde het als beeldspraak, de eerste kleine stap op een weg die in de vernietigingskampen eindigde. Maar het bordje heeft echt bestaan, en het hing hier. Op een foto in het Stadsarchief zit het aan de lantaarnpaal voor dit hek.
 
       Een Amsterdamse ondernemer, Niels van Deuren, hoorde de toespraak en vond dat de plek gemarkeerd moest worden. Een jaar later was het zover, samen met het Amsterdams 4 en 5 mei comité en het stadsdeel: een spiegel aan de lantaarnpaal en een roestvrijstalen tekstbord ernaast, onthuld op 4 mei 2021. Je kijkt in de spiegel naar de plek waar het bordje hing en leest de vraag waarmee het bord eindigt: kijk jij weg? De titel, 'Sobibor. Wat doe jij?', komt uit een gedicht dat verzetsman Gerrit van der Veen in maart 1944 in een illegaal blad zette. In 1943 zijn ruim 34.000 mensen uit Nederland naar Sobibor gedeporteerd; achttien van hen beleefden het einde van de oorlog. Elk jaar op 1 juni worden ze hier herdacht.
 
-      De dubbele villa rechts van het hek had een heel ander geheim. Het leger nam nummer 78 in oktober 1945 in gebruik. Later zat er, volgens de documentatiesite over de Stelling van Amsterdam, Operaties, de geheime dienst die sabotage moest organiseren als het Oostblok het land zou bezetten, met een historisch studiegenootschap als dekmantel. In 1992 is de dienst opgeheven; de villa is nu een woonhuis.
-
       Let op:
       - de spiegel aan de lantaarnpaal voor het hek
       - het stalen bord ernaast, met bovenaan de zin van de koning
-      - rechts van het hek: de dubbele villa op nummer 76–78
-    attributes:
-      check_note: Het kantoor van de geheime dienst op nummer 78 berust op één bron (stelling-amsterdam.nl), die er geen jaartallen bij geeft.
     sources:
       - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4521/amsterdam-sobib
       - https://4en5meiamsterdam.nl/bord-vondelpark/
       - https://vriendenvanhetvondelpark.nl/sobibor-wat-doe-jij-voor-joden-verboden/
-      - https://www.stelling-amsterdam.nl/bunkers/amsterdam-villavaneeghenstraat/index.php
 
 - title: The stone with a name chiselled off (Amstelveenseweg, May 1945)
   summary: Five resistance men died here in gunfights with German soldiers on 6 and 7 May 1945, after the surrender. The stone of 1946 names four. The fifth name was hacked away under the cover, minutes before the unveiling.
