@@ -29,7 +29,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/2262bcc3-a13d-40de-b728-6cf670be4373" }
     - { label: Grachtenboek Herengracht 14, url: "https://www.amsterdam-monumentenstad.nl/database/grachtenboek_objecten.php?id=1894&grachtenboek=Herengracht&evenzijde=2" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "1697"
     built: 1615, front 1767
@@ -140,7 +140,7 @@
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/De_Drie_Traancoopers" }
     - { label: Hendrick de Keyser Monumenten, url: "https://www.hendrickdekeyser.nl/de-huizen/de-drie-traancoopers" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: 1538, 515510
     built: "1632"
@@ -337,7 +337,7 @@
     - { label: Hendrick de Keyser Huis Van Brienen, url: "https://www.hendrickdekeyser.nl/de-huizen/huis-van-brienen" }
     - { label: Grachtenboek Herengracht 182, url: "https://www.amsterdam-monumentenstad.nl/database/grachtenboek_objecten.php?id=1798&grachtenboek=Herengracht&evenzijde=2" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: 1795, 1767
     built: "1728 (284), 1772 (182)"
@@ -686,7 +686,7 @@
     - { label: Wikipedia (nl) Jacob Nienhuys, url: "https://nl.wikipedia.org/wiki/Jacob_Nienhuys" }
     - { label: NIOD, url: "https://www.niod.nl/" }
   attributes:
-    rank: Amazing
+    rank: Nice
     heritage_status: National monument
     monument_number: "1826"
     built: 1888–1890

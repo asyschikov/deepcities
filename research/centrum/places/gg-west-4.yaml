@@ -26,7 +26,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9d03a18d-fff9-471b-a37c-28e2067f0bb6" }
     - { label: Wikipedia (nl) Prinsengracht, url: "https://nl.wikipedia.org/wiki/Prinsengracht" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "4268"
     built: 1804–1806
@@ -89,7 +89,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/d86cc748-d6de-40ee-ae96-f94884d89211" }
     - { label: "Wikipedia (nl) Zon's Hofje", url: "https://nl.wikipedia.org/wiki/Zon's_Hofje" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "4274"
     built: 1765, enlarged 19th century
@@ -152,7 +152,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/cac2108f-62a5-40b1-98a4-d160241c808e" }
     - { label: Wikipedia (nl) Westermarkt, url: "https://nl.wikipedia.org/wiki/Westermarkt_(Amsterdam)" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "200822"
     built: "1814"
@@ -383,7 +383,7 @@
     - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Singel/250" }
     - { label: Wikipedia (nl) Singel 250, url: "https://nl.wikipedia.org/wiki/Singel_250" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "518368"
     built: 1910–1912, enlarged 1926–1927
@@ -683,7 +683,7 @@
     - { label: Monumentenregister Amsterdam (383), url: "https://data.amsterdam.nl/monumenten/26d9fbcf-d056-4b13-9fe5-a3b9c5baccd2" }
     - { label: Amsterdam op de kaart (383), url: "https://amsterdamopdekaart.nl/1850-1940/Prinsengracht/383" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National + municipal monument
     monument_number: 4328, 208033
     built: 18th century, chapel 1755; front house 1895
@@ -793,7 +793,7 @@
     - { label: Wikipedia (nl) Prinsengracht 493, url: "https://nl.wikipedia.org/wiki/Prinsengracht_493" }
     - { label: Wikipedia (nl) Trouw, url: "https://nl.wikipedia.org/wiki/Trouw_(krant)" }
   attributes:
-    rank: Amazing
+    rank: Nice
     heritage_status: National monument
     monument_number: "4346"
     built: mid-18th century, raised late 19th century
@@ -1009,7 +1009,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/8e7546bb-c27a-4b74-a5e2-8fc1dd797dd7" }
     - { label: Wikipedia (nl) Openbare Bibliotheek Amsterdam, url: "https://nl.wikipedia.org/wiki/Openbare_Bibliotheek_Amsterdam" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "200611"
     built: 1973–1977

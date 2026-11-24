@@ -22,9 +22,11 @@ export type PlaceStatus = (typeof PLACE_STATUSES)[number];
 
 /**
  * How fine-grained a place is: `city` places show on their home (citywide)
- * map; `district` places only in views that ask for full detail.
+ * map; `district` places only in views that ask for full detail; `theme`
+ * places only in list views that include them (e.g. an A-list place a
+ * theme map needs but the general maps leave out).
  */
-export const PLACE_DETAILS = ["city", "district"] as const;
+export const PLACE_DETAILS = ["city", "district", "theme"] as const;
 export type PlaceDetail = (typeof PLACE_DETAILS)[number];
 
 /**
@@ -35,10 +37,16 @@ export const VIEW_DETAILS = ["city", "full"] as const;
 export type ViewDetail = (typeof VIEW_DETAILS)[number];
 
 /**
- * What a proposal changes: a place, a route, or a view map's own values for
- * one of its places (`place_override`).
+ * What a proposal changes: a place, a route, a view map's own values for
+ * one of its places (`place_override`), or whether a list view includes a
+ * place (`collection_place`; kind `create` adds, `archive` removes).
  */
-export const PROPOSAL_SUBJECTS = ["place", "route", "override"] as const;
+export const PROPOSAL_SUBJECTS = [
+  "place",
+  "route",
+  "override",
+  "membership",
+] as const;
 export type ProposalSubject = (typeof PROPOSAL_SUBJECTS)[number];
 
 export const ROUTE_STATUSES = ["published", "archived"] as const;

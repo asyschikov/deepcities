@@ -4,7 +4,14 @@ import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { type PlaceDetail, PROPOSAL_STATUSES } from "~/lib/constants";
 import type { Database } from "~/lib/db";
-import { photo, place, placeOverride, proposal, route } from "~/lib/db/schema";
+import {
+  collectionPlace,
+  photo,
+  place,
+  placeOverride,
+  proposal,
+  route,
+} from "~/lib/db/schema";
 import { attributeIssues, compactAttributes } from "~/lib/fields";
 import {
   isEmptyOverride,
@@ -284,6 +291,20 @@ const applyProposal = async (
   if (p.kind === "create") {
     if (!p.draft)
       throw new TRPCError({ code: "BAD_REQUEST", message: "Empty proposal" });
+    const list = p.listId
+      ? await loadViewMap(db, p.listId).catch(() => null)
+      : null;
+    const joins =
+      list?.view?.list && list.view.source === p.collectionId
+        ? [
+            db.insert(collectionPlace).values({
+              collectionId: list.id,
+              placeId,
+              addedAt: now,
+              addedBy: p.proposedBy,
+            }),
+          ]
+        : [];
     await db.batch([
       db.insert(place).values({
         ...p.draft,
@@ -293,6 +314,7 @@ const applyProposal = async (
         createdAt: now,
         updatedAt: now,
       }),
+      ...joins,
       markApproved,
     ]);
     return placeId;
@@ -418,6 +440,79 @@ const applyOverrideProposal = async (
   return placeId;
 };
 
+/**
+ * The statements that publish a membership proposal: add the place to the
+ * list view (`create`) or take it off (`archive`), and mark it approved.
+ */
+const membershipWrites = (
+  db: Database,
+  p: Proposal,
+  reviewerId: string,
+  reviewNote: string | null,
+  now: Date,
+) => {
+  const placeId = p.placeId ?? "";
+  return [
+    p.kind === "archive"
+      ? db
+          .delete(collectionPlace)
+          .where(
+            and(
+              eq(collectionPlace.collectionId, p.collectionId),
+              eq(collectionPlace.placeId, placeId),
+            ),
+          )
+      : db
+          .insert(collectionPlace)
+          .values({
+            collectionId: p.collectionId,
+            placeId,
+            addedAt: now,
+            addedBy: p.proposedBy,
+          })
+          .onConflictDoNothing(),
+    db
+      .update(proposal)
+      .set({
+        status: "approved",
+        reviewedBy: reviewerId,
+        reviewNote,
+        reviewedAt: now,
+      })
+      .where(eq(proposal.id, p.id)),
+  ] as const;
+};
+
+/** Publish an approved membership proposal (after re-checking the place). */
+const applyMembershipProposal = async (
+  db: Database,
+  p: Proposal,
+  reviewerId: string,
+  reviewNote: string | null,
+): Promise<string> => {
+  const placeId = p.placeId ?? "";
+  if (p.kind !== "archive") {
+    const [list, target] = await Promise.all([
+      loadViewMap(db, p.collectionId),
+      db.query.place.findFirst({
+        where: eq(place.id, placeId),
+        columns: { collectionId: true, status: true },
+      }),
+    ]);
+    if (
+      !list.view?.list ||
+      target?.status !== "published" ||
+      target.collectionId !== list.view.source
+    )
+      throw new TRPCError({
+        code: "CONFLICT",
+        message: "This place is no longer in this list's source",
+      });
+  }
+  await db.batch(membershipWrites(db, p, reviewerId, reviewNote, new Date()));
+  return placeId;
+};
+
 /** Publish an approved route proposal (create, edit or archive). */
 const applyRouteProposal = async (
   db: Database,
@@ -499,7 +594,9 @@ const applyAny = async (
         placeId:
           p.subject === "override"
             ? await applyOverrideProposal(db, p, reviewerId, reviewNote)
-            : await applyProposal(db, p, reviewerId, reviewNote),
+            : p.subject === "membership"
+              ? await applyMembershipProposal(db, p, reviewerId, reviewNote)
+              : await applyProposal(db, p, reviewerId, reviewNote),
         routeId: null,
       };
 
@@ -562,6 +659,9 @@ export const proposalRouter = router({
         ctx.profile,
         "propose",
       );
+      // Added from a list view: the place also joins the list (on approval).
+      const listId = from?.view?.list ? from.id : null;
+      if (listId) await requireCap(ctx.db, listId, ctx.profile, "propose");
       const draft =
         input.kind === "archive"
           ? null
@@ -587,6 +687,7 @@ export const proposalRouter = router({
         routeId: null,
         routeDraft: null,
         overrideDraft: null,
+        listId,
         kind: input.kind,
         status: "pending",
         draft,
@@ -684,6 +785,7 @@ export const proposalRouter = router({
         draft: null,
         routeDraft,
         overrideDraft: null,
+        listId: null,
         note: input.note,
         baseRevision: target?.revision ?? null,
         proposedBy: ctx.profile.id,
@@ -806,6 +908,7 @@ export const proposalRouter = router({
         draft: null,
         routeDraft: null,
         overrideDraft: next,
+        listId: null,
         kind: "edit",
         status: "pending",
         note: input.note,
@@ -831,6 +934,124 @@ export const proposalRouter = router({
         status: "pending" as const,
         placeId: target.id,
         override: next,
+      };
+    }),
+
+  /**
+   * Add places of a list view's source to the list, or take them off: one
+   * `membership` proposal per place that changes, on the list view (its
+   * queue, its permissions, its history); moderators+ publish immediately.
+   * Places already in (or out of) the list come back "unchanged".
+   */
+  setMembership: authedProcedure
+    .input(
+      z.object({
+        collectionId: idSchema,
+        action: z.enum(["add", "remove"]),
+        placeIds: z.array(idSchema).min(1).max(100),
+        note: z.string().trim().max(1000).nullable(),
+        /** Only report what would change; write nothing. */
+        dryRun: z.boolean().optional(),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const access = await requireCap(
+        ctx.db,
+        input.collectionId,
+        ctx.profile,
+        "propose",
+      );
+      const view = access.collection.view;
+      if (!view?.list)
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message:
+            'Only list views ("list": true) have places picked one by one',
+        });
+      const ids = [...new Set(input.placeIds)];
+      const [places, members] = await Promise.all([
+        ctx.db.query.place.findMany({
+          where: inArray(place.id, ids),
+          columns: { id: true, collectionId: true, status: true },
+        }),
+        ctx.db
+          .select({ placeId: collectionPlace.placeId })
+          .from(collectionPlace)
+          .where(
+            and(
+              eq(collectionPlace.collectionId, input.collectionId),
+              inArray(collectionPlace.placeId, ids),
+            ),
+          ),
+      ]);
+      const inList = new Set(members.map((m) => m.placeId));
+      const adding = input.action === "add";
+      if (adding) {
+        const byId = new Map(places.map((p) => [p.id, p]));
+        const missing = ids.filter((id) => {
+          const p = byId.get(id);
+          return p?.status !== "published" || p.collectionId !== view.source;
+        });
+        if (missing.length > 0)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: `Not places of this list's source: ${missing.join(", ")}`,
+          });
+      }
+      const changing = ids.filter((id) => inList.has(id) !== adding);
+      const unchanged = ids
+        .filter((id) => !changing.includes(id))
+        .map((placeId) => ({ placeId, status: "unchanged" as const }));
+      if (input.dryRun || changing.length === 0)
+        return {
+          results: [
+            ...changing.map((placeId) => ({
+              placeId,
+              status: adding
+                ? ("would-add" as const)
+                : ("would-remove" as const),
+            })),
+            ...unchanged,
+          ],
+        };
+      const now = new Date();
+      const rows: Proposal[] = changing.map((placeId) => ({
+        id: createId(),
+        collectionId: input.collectionId,
+        subject: "membership",
+        placeId,
+        routeId: null,
+        draft: null,
+        routeDraft: null,
+        overrideDraft: null,
+        listId: null,
+        kind: adding ? "create" : "archive",
+        status: "pending",
+        note: input.note,
+        baseRevision: null,
+        proposedBy: ctx.profile.id,
+        reviewedBy: null,
+        reviewNote: null,
+        createdAt: now,
+        reviewedAt: null,
+      }));
+      const publish = access.can.review;
+      const [first, ...rest] = rows.flatMap((row) => [
+        ctx.db.insert(proposal).values(row),
+        ...(publish
+          ? membershipWrites(ctx.db, row, ctx.profile.id, null, now)
+          : []),
+      ]);
+      if (first) await ctx.db.batch([first, ...rest]);
+      return {
+        results: [
+          ...rows.map((r) => ({
+            placeId: r.placeId ?? "",
+            id: r.id,
+            status: publish ? ("approved" as const) : ("pending" as const),
+          })),
+          ...unchanged,
+        ],
       };
     }),
 

@@ -91,8 +91,8 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
                                            maps (same title, monument_number, or < 25 m)
                                            get "alsoOn" (--no-cross-check skips it).
                                            "parent" may name a place earlier in the file.
-                                           A view map refuses imports: import into its
-                                           source
+                                           A view map refuses imports (import into its
+                                           source), except a list view: see LIST VIEWS
   dc photo <slug> <source> [--credit TEXT] [--license TEXT] [--source-url URL]
                                            upload one photo, prints {"id"}; use the id
                                            in photoIds. source = local file path,
@@ -172,6 +172,32 @@ VIEWS AND CLUSTERS
   A view may also define fields of its own (dc fields <view>): shown after the
   source's fields, with values only in its overrides.
 
+LIST VIEWS  (theme maps whose places are picked one by one)
+  A list view ({"source": "<slug>", "list": true}, see \`dc map-view\`) shows
+  exactly the source places picked for it, at any detail. A place with
+  "detail": "theme" shows only on the list views that include it (not on the
+  home map, not in full-detail views): for places a theme map needs that the
+  general maps leave out. Overrides (dc override) work on list views as on any
+  view. Changes to a list are proposals on the list view (its queue and
+  history; moderators+ publish immediately).
+  dc list-add <view> <placeId|title>... [--note TEXT] [--dry-run]
+  dc list-remove <view> <placeId|title>... [--note TEXT] [--dry-run]
+                                           add source places to the list, or take
+                                           them off (the places stay). Instead of
+                                           places: a .json file or - with a JSON array
+                                           of ids/titles
+  dc create <view> <draft>                 creates the place in the source ("detail"
+                                           defaults to "theme") and adds it to the list
+  dc import <view> <file.json|-> [--upsert] [--note TEXT] [--dry-run]
+                                           titles already in the source are added to
+                                           the list (with --upsert also updated); new
+                                           ones are created in the source ("detail" from
+                                           the draft, default "theme") and added. A draft
+                                           may carry "override": {"attributes"?,
+                                           "category"?}: the view's own values, applied
+                                           after. Reports per item ("list", "override")
+  dc places <view> / dc export <view>      what the list shows, with its own values
+
 <draft>/<patch> is inline JSON ('{"title":...}'), a path to a .json file, or - for stdin.
 A draft or patch may also carry "photos": [<source> | {"source", "credit", "license",
 "sourceUrl"}] — each is uploaded and appended to photoIds.
@@ -200,16 +226,19 @@ const SCHEMA = {
     parent:
       'optional, the cluster this place is part of: a place id or exact title on the same home map; null for none. Sent as "parentId". Left out, an update keeps the current parent',
     detail:
-      'optional, "city" (shown on the home, citywide map) or "district" (only in full-detail views, e.g. Deep Centrum). Left out, an update keeps it; a new place gets "city", or "district" when created through a full-detail view',
+      'optional, "city" (shown on the home, citywide map), "district" (only in full-detail views, e.g. Deep Centrum) or "theme" (only in list views that include it). Left out, an update keeps it; a new place gets "city", "district" when created through a full-detail view, "theme" through a list view',
+    override:
+      'import into a list view only: {"attributes"?, "category"?}, the view\'s own values for the place (see "override"), applied after it is created or matched',
     photos: "CLI-only convenience, see `dc help`",
   },
   mapView: {
     source:
       "slug (or id) of the map whose places the view shows; a home map of the same city",
+    list: 'optional true: a list view, showing exactly the source places picked for it (dc list-add, dc list-remove, dc import), at any detail. Takes no "where" or "detail"',
     where:
       'optional filter, every listed key must match one of its values: {"borough": ["Centrum"], "neighbourhood": [...], "subNeighbourhood": [...], "category": [...]}',
     detail:
-      '"city": the source\'s city-level places that match; "full": every matching place except clusters with parts (the leaves at full detail)',
+      '"city": the source\'s city-level places that match; "full": every matching place except clusters with parts and "theme" places (the leaves at full detail). Required unless "list"',
   },
   override: {
     attributes:
@@ -433,7 +462,7 @@ const collectionOf = async (slug: string) => {
       id: string;
       slug: string;
       categories: { key: string }[];
-      view: { source: string } | null;
+      view: { source: string; list?: boolean } | null;
     };
     role: string;
     can: Record<string, boolean>;
@@ -1177,6 +1206,31 @@ const poolOf = async (collectionId: string) =>
   (await query("place.list", { collectionId, pool: true })) as PoolPlace[];
 
 /**
+ * The place `want` names in `pool`: its id, or its exact title (else the
+ * title ignoring case). Throws when none or several match.
+ */
+const findPlace = (
+  want: string,
+  pool: PoolPlace[],
+  where: string,
+): PoolPlace => {
+  const byId = pool.find((p) => p.id === want);
+  if (byId) return byId;
+  const exact = pool.filter((p) => p.title === want);
+  const hits = exact.length
+    ? exact
+    : pool.filter((p) => p.title.toLowerCase() === want.toLowerCase());
+  const [hit, ...more] = hits;
+  if (!hit) throw new CliError(`No place "${want}" ${where}`, "BAD_JSON");
+  if (more.length)
+    throw new CliError(
+      `"${want}" matches ${hits.length} places: give the id (${hits.map((h) => h.id).join(", ")})`,
+      "BAD_JSON",
+    );
+  return hit;
+};
+
+/**
  * A draft's "parent" (a place id or exact title on the same home map; null
  * for none) turned into "parentId".
  */
@@ -1189,26 +1243,134 @@ const resolveParent = (input: Obj, pool: PoolPlace[]): Obj => {
       '"parent" must be a place id, an exact title, or null',
       "BAD_JSON",
     );
-  const want = parent.trim();
-  const byId = pool.find((p) => p.id === want);
-  if (byId) return { ...rest, parentId: byId.id };
-  const exact = pool.filter((p) => p.title === want);
-  const hits = exact.length
-    ? exact
-    : pool.filter((p) => p.title.toLowerCase() === want.toLowerCase());
-  const [hit, ...more] = hits;
-  if (!hit)
-    throw new CliError(
-      `No place "${want}" on the home map to be part of`,
-      "BAD_JSON",
-    );
-  if (more.length)
-    throw new CliError(
-      `"${want}" matches ${hits.length} places: give the parent's id (${hits.map((h) => h.id).join(", ")})`,
-      "BAD_JSON",
-    );
+  const hit = findPlace(parent.trim(), pool, "on the home map to be part of");
   return { ...rest, parentId: hit.id };
 };
+
+/** How many places one membership call changes at most. */
+const MEMBERSHIP_CHUNK = 50;
+
+/**
+ * Add places to a list view or take them off (one proposal per place that
+ * changes). Per place: "added"/"removed", "pending-review", "unchanged",
+ * or with dryRun "would-add"/"would-remove".
+ */
+const setListMembership = async (
+  list: { id: string },
+  action: "add" | "remove",
+  placeIds: string[],
+  note: string | null,
+  dryRun: boolean,
+): Promise<{ placeId: string; result: string; proposalId?: string }[]> => {
+  const out: { placeId: string; result: string; proposalId?: string }[] = [];
+  for (let i = 0; i < placeIds.length; i += MEMBERSHIP_CHUNK) {
+    const input = {
+      collectionId: list.id,
+      action,
+      placeIds: placeIds.slice(i, i + MEMBERSHIP_CHUNK),
+      note,
+      dryRun,
+    };
+    // Safe to retry: what landed comes back "unchanged".
+    const res = await withRetries(
+      async () =>
+        (await mutate("proposal.setMembership", input)) as {
+          results: { placeId: string; status: string; id?: string }[];
+        },
+    );
+    out.push(
+      ...res.results.map((r) => ({
+        placeId: r.placeId,
+        result:
+          r.status === "approved"
+            ? action === "add"
+              ? "added"
+              : "removed"
+            : r.status === "pending"
+              ? "pending-review"
+              : r.status,
+        ...(r.id ? { proposalId: r.id } : {}),
+      })),
+    );
+  }
+  return out;
+};
+
+/** A list view, or an error naming what the map is instead. */
+const listViewOf = async (slug: string) => {
+  const { collection: c } = await collectionOf(slug);
+  if (!c.view?.list)
+    throw new CliError(
+      `${c.slug} is not a list view (make one with dc map-view ${c.slug} '{"source": "<slug>", "list": true}')`,
+      "NOT_A_LIST",
+    );
+  return c;
+};
+
+/**
+ * Places named on the command line (ids or exact titles), or in a .json
+ * file / stdin holding a JSON array of them.
+ */
+const placeRefs = (args: string[]): string[] => {
+  const [only] = args;
+  const fromFile =
+    args.length === 1 &&
+    only !== undefined &&
+    (only === "-" || only.endsWith(".json"));
+  const refs = fromFile ? readJsonArray(only) : args;
+  if (refs.length === 0)
+    throw new CliError("Name at least one place (id or title)", "USAGE");
+  return refs.map((r) => {
+    if (typeof r !== "string" || !r.trim())
+      throw new CliError("Places are ids or titles (strings)", "BAD_JSON");
+    return r.trim();
+  });
+};
+
+/** `dc list-add` / `dc list-remove`. */
+const listCommand =
+  (action: "add" | "remove") =>
+  async (
+    [slug, ...args]: string[],
+    flags: Record<string, string>,
+  ): Promise<unknown> => {
+    const list = await listViewOf(need(slug, "<view>"));
+    const refs = placeRefs(args);
+    // Adding picks from the source; removing from what the list shows.
+    const pool = (await query("place.list", {
+      collectionId: list.id,
+      pool: action === "add",
+    })) as PoolPlace[];
+    const failed: Obj[] = [];
+    const ids = refs.flatMap((ref) => {
+      try {
+        return [
+          findPlace(
+            ref,
+            pool,
+            action === "add" ? "in the list's source" : "on this list",
+          ).id,
+        ];
+      } catch (err) {
+        failed.push({ place: ref, result: "failed", error: messageOf(err) });
+        return [];
+      }
+    });
+    const titleOf = new Map(pool.map((p) => [p.id, p.title]));
+    const done = ids.length
+      ? await setListMembership(
+          list,
+          action,
+          [...new Set(ids)],
+          flags.note ?? null,
+          flags["dry-run"] === "true",
+        )
+      : [];
+    return withSummary([
+      ...done.map((r) => ({ title: titleOf.get(r.placeId), ...r })),
+      ...failed,
+    ]);
+  };
 
 /** A view map can't take places itself: name its source. */
 const refuseView = async (
@@ -1653,6 +1815,9 @@ const commands: Record<
     return withSummary(results);
   },
 
+  "list-add": listCommand("add"),
+  "list-remove": listCommand("remove"),
+
   /**
    * Replace a map's own custom place fields (admins). On a view: the fields
    * it adds to its source's (keys must differ from the source's).
@@ -1928,7 +2093,9 @@ const commands: Record<
   import: async ([slug, arg], flags) => {
     const items = readJsonArray(need(arg, "<file.json>"));
     const { collection } = await collectionOf(need(slug, "<slug>"));
-    await refuseView(collection, "Import");
+    // A list view takes imports: into its source, and onto the list.
+    const isList = Boolean(collection.view?.list);
+    if (!isList) await refuseView(collection, "Import");
     const dryRun = flags["dry-run"] === "true";
     // Titles match every place of the map, at any detail.
     const [existing, neighbours] = await Promise.all([
@@ -1938,7 +2105,7 @@ const commands: Record<
       }) as Promise<
         { id: string; title: string; coverPhotoId: string | null }[]
       >,
-      flags["no-cross-check"] === "true"
+      flags["no-cross-check"] === "true" || isList
         ? Promise.resolve([])
         : otherMapPlaces(collection),
     ]);
@@ -1953,9 +2120,64 @@ const commands: Record<
     }));
     const results: Obj[] = [];
     for (const raw of items as Obj[]) {
-      const { note, ...given } = raw;
+      const { note, override, ...given } = raw;
       const title = String(given.title ?? "");
       const existingId = byTitle.get(title.toLowerCase());
+      if (override !== undefined && !isList) {
+        results.push({
+          title,
+          result: "failed",
+          error: '"override" is for imports into a list view',
+        });
+        continue;
+      }
+      const itemNote = typeof note === "string" ? note : (flags.note ?? null);
+      // The view's own values for a place created or matched on a list.
+      const applyOverride = async (placeId: string): Promise<Obj> => {
+        if (override === undefined) return {};
+        if (dryRun) return { override: "would-apply" };
+        try {
+          const res = await overridePlace(
+            collection,
+            placeId,
+            override as Obj,
+            itemNote,
+          );
+          return { override: outcomeOf(res, "updated") };
+        } catch (err) {
+          return { override: "failed", overrideError: messageOf(err) };
+        }
+      };
+      // An existing source place on a list view: onto the list, then its override.
+      const onList = async (placeId: string): Promise<Obj> => {
+        if (!isList) return {};
+        const [joined] = await setListMembership(
+          collection,
+          "add",
+          [placeId],
+          itemNote,
+          dryRun,
+        );
+        return { list: joined?.result, ...(await applyOverride(placeId)) };
+      };
+      if (existingId && isList && !flags.upsert) {
+        try {
+          results.push({
+            title,
+            result: "matched",
+            placeId: existingId,
+            ...(await onList(existingId)),
+          });
+        } catch (err) {
+          results.push({
+            title,
+            result: "failed",
+            placeId: existingId,
+            error: messageOf(err),
+          });
+        }
+        continue;
+      }
       if (existingId && !flags.upsert) {
         results.push({
           title,
@@ -1981,7 +2203,6 @@ const commands: Record<
         results.push({ title, result: "failed", error: messageOf(err) });
         continue;
       }
-      const itemNote = typeof note === "string" ? note : (flags.note ?? null);
       if (existingId) {
         try {
           // Re-running an import must not re-upload photos a place already has.
@@ -1989,7 +2210,12 @@ const commands: Record<
             ? { ...input, photos: undefined }
             : input;
           const res = await editPlace(existingId, patch, itemNote, { dryRun });
-          results.push({ title, result: outcomeOf(res, "updated"), ...res });
+          results.push({
+            title,
+            result: outcomeOf(res, "updated"),
+            ...res,
+            ...(await onList(existingId)),
+          });
         } catch (err) {
           results.push({
             title,
@@ -2003,7 +2229,13 @@ const commands: Record<
       const alsoOn = crossMapMatches(input, neighbours);
       const warn = alsoOn.length ? { alsoOn } : {};
       if (dryRun) {
-        results.push({ title, result: "would-create", ...warn });
+        results.push({
+          title,
+          result: "would-create",
+          ...warn,
+          ...(isList ? { list: "would-add" } : {}),
+          ...(override === undefined ? {} : { override: "would-apply" }),
+        });
         continue;
       }
       try {
@@ -2019,11 +2251,25 @@ const commands: Record<
         const res = await createPlace(collection.id, draft, itemNote);
         if (typeof res.placeId === "string")
           pool.push({ id: res.placeId, title });
+        // Created from a list view: on the list with the place (on approval).
+        const created =
+          res.status === "approved" && typeof res.placeId === "string";
+        const listed = !isList
+          ? {}
+          : created && typeof res.placeId === "string"
+            ? { list: "added", ...(await applyOverride(res.placeId)) }
+            : {
+                list: "pending-review",
+                ...(override === undefined
+                  ? {}
+                  : { override: "skipped: the place awaits review" }),
+              };
         results.push({
           title,
           result: outcomeOf(res, "created"),
           ...warn,
           ...res,
+          ...listed,
         });
       } catch (err) {
         results.push({

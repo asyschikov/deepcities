@@ -278,7 +278,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/856e678b-5406-45c0-b22d-bcb915a02266" }
     - { label: Hofjes in Amsterdam Rijpenhofje, url: "https://hofjesinamsterdam.nl/rijpenhofje/" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "215008"
     built: "1913"
@@ -615,7 +615,7 @@
     - { label: Wikipedia (nl) Rozenstraat 250-254, url: "https://nl.wikipedia.org/wiki/Rozenstraat_250-254" }
     - { label: Wikipedia (nl) Tweede Laurierdwarsstraat 45, url: "https://nl.wikipedia.org/wiki/Tweede_Laurierdwarsstraat_45" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: 5094, 5095, 5096, 5097, 5098, 5110, 5109, 5107, 3191, 5068
     built: 1933–1939, with 18th-century gable tops

@@ -440,7 +440,11 @@ const PlacePage = () => {
                 <div>
                   <span className="font-medium text-foreground">
                     {t(
-                      `history_${h.subject === "override" ? "override" : h.kind}`,
+                      h.subject === "override"
+                        ? "history_override"
+                        : h.subject === "membership"
+                          ? `history_membership_${h.kind}`
+                          : `history_${h.kind}`,
                       {
                         name: h.author?.name ?? t("someone"),
                       },
