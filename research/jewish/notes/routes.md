@@ -97,3 +97,27 @@ keeps the hedge.
 
 ## Live (25 Nov)
 All 11 created on the jewish map (route ids): 01 fdozsc4hmc9i6yrda1ddtwxz, 02 aan7xyqwndunbz53tx6bh8bm, 03 qjbqh3gnw52ykeb0d6x4vnm5, 04 mpkiv2obtem230c43g0myhel, 05 bejin7pmnlko8eyicm41udfa, 06 kdny6wouaafbpabsrf58qa27, 07 fm4y1emoby4yqoj3t48ecz5y, 08 gq9i5lj1yy1gxvd2accvrng8, 09 aq47xi14tnqa9g21ts9g20ny, 10 gtrnalwcpf3mi8zprj27mefq, 11 k1kfodd41e55qn5xmw4dcdp5. Street-routed lengths: 3.9, 3.8, 3.8, 5.1, 6.6, 6.7, 4.7, 0.8 (+ station walk), 11.9, 11.6, 4.6 km. No routing fallbacks; flagged legs are canal-bridge detours. Note: `dc route-create` has no --dry-run (the flag is ignored and the route is created). Summaries max 280 chars.
+
+## W7 update (25 Nov): diamond pool places
+
+Overrides in fixes/diamond-overrides.json (view field extra_description, EN and NL):
+
+- **wx78pd7n Diamond factories of the Nieuwe Achtergracht** (1796 to 1940, Work and trade). Founding in 1845, J.J. Posno president, Wolf Josephus Jitta treasurer: the company's own jubilee history, *De Diamantslijperij Maatschappij te Amsterdam 1845-1920* (Barents 1920, archive.org; IISG holds it). "Most of them Jewish": amsterdamopdekaart (Nieuwe Achtergracht 168-170) and joodsamsterdam (Jacob Joseph Posno) agree, and the founders' names in the 1920 book bear it out; the weakest claim of the three texts. 1748 guild refusal and the 1906 share: doc 06 (W, JM 749). Gassan at no. 17 from 1963: pool text and amsterdamopdekaart; Gassan trained at Boas: Boas place text.
+- **nyz7ajid Sarphatistraat 66** (1796 to 1940, Work and trade). First residents 1878 the Josephus Jitta family from Brussels, Alfred died 1878, family moved 1880: amsterdamopdekaart (Sarphatistraat 66). Alfred (1822-1878) x Fanny Polak Daniels, a Jewish family of jewellers (court jeweller title, Jewish calendars, Grand Rabbinate of Belgium papers) and the Jozef Israels portrait of Alfred, 1858: Stadsarchief, archive 30654 (Familie Josephus Jitta) inventory; Kedem auction catalogue and HP/De Tijd also call it a Jewish family of jewel and diamond merchants.
+- **u1dqmquh Van Epen's Diamantbuurt** (1940 to 1945, Persecution and war; not the era/theme the coordinator suggested, because the story is the war). Joods Monument address and person pages: Topaasstraat 10 (Benedictus Adelaar 1893-1943, Engelina 1918-1943, Asser and Emanuel 1922-1942) and Saffierstraat 80 I (Isaac Aluin 1885-1943, Rachel Aluin-Kraal, Maria Aluin, all 1943); Adelaar and Aluin have ANDB membership cards (IISG) on their pages, so diamond workers. Greta Adelaar-Slap at the same address is listed as a relative, not his wife, so left out.
+
+Skipped, no authoritative Jewish link found:
+- xdzjybc6 Recht Boomssloot 14: S.J. Boas not linked to the Boas brothers in any source (not in the Stadsarchief Boas archive 1110 inventory); no source on the workforce.
+- hbumzw6d Van Moppes, Albert Cuypstraat 2-6: Van Moppes there only after 1945; the family's wartime flight to Brazil rests on joodsamsterdam and a Facebook post only; the Stadsarchief Van Moppes Diamonds inventory (1313) is post-war clippings.
+- bxuq5cpm Bellamystraat: built by Petrus de Voys, nothing Jewish found.
+- vf4xheqr Coster villas: not researched further, as asked.
+
+New W7 (routes/07-diamond-city.json), "Diamond city: from Uilenburg to the Museumplein", 10 stops:
+Boas, De Burcht, Nieuwe Achtergracht factories (new), Sarphatistraat 66 (new), Diamantbeurs, De IJsbreker, Van Epen's Diamantbuurt (new), Asscher works, Gerard Dou Synagogue, Abraham Asscher's house (bbe5wwz0, already on the map).
+Straight line through the stops and the two Amstel crossing points 5.0 km; about 6 km on the street.
+Dropped: Premsela & Hamburger (start, +0.4 km; dealers now told by Sarphatistraat 66 and the exchange) and Sarphati's Amstel end (on W9, and its Sarphatistraat 66 mention is now a stop).
+The last leg passes Van Moppes (Albert Cuypstraat 2-6) and the Diamantbrug without a stop.
+The three new stop ids are pool places: they must be added to the Jewish map (with the overrides) before the route is created.
+
+## W7 live update (25 Nov, coordinator)
+Applied with two cuts under the authoritative-only rule: Sarphatistraat 66 dropped (the family's address rests on amsterdamopdekaart only), and "most of them Jewish" cut from the Nieuwe Achtergracht text. Added to the map with extra_description: wx78pd7n, u1dqmquh. Live W7: 9 stops, 6.5 km street-routed, ends at Abraham Asscher's house.
