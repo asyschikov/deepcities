@@ -26,7 +26,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/686ebca2-3708-471e-b812-6de24b6b1379" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Prinsengrachtziekenhuis" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "518366"
     built: 1854–1857, 1872, 1890, 1902–1903
@@ -545,7 +545,7 @@
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Standbeeld_van_Johan_Rudolph_Thorbecke" }
     - { label: Wikipedia (nl) Kermisoproer, url: "https://nl.wikipedia.org/wiki/Kermisoproer" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "518335"
     built: 1874–1876
@@ -762,7 +762,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/b4c027b1-c26e-41cb-99ee-de6d859c6b66" }
     - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Odeon_(Amsterdam)" }
   attributes:
-    rank: Amazing
+    rank: Nice
     heritage_status: National monument
     monument_number: "5406"
     built: 1661–1662
@@ -824,7 +824,7 @@
     - { label: Wikipedia (nl) Gebouw Muntstaete, url: "https://nl.wikipedia.org/wiki/Gebouw_Muntstaete" }
     - { label: Theo Bakker on the Vijzelstraat (pdf), url: "https://www.theobakker.net/pdf/vijzelstraat.pdf" }
   attributes:
-    rank: Amazing
+    rank: Nice
     heritage_status: National + municipal monument
     monument_number: 200738, 518381, 200736
     built: 1926–1929, 1958–1964, 1966–1968
@@ -888,7 +888,7 @@
     - { label: Theo Bakker on the Vijzelstraat (pdf), url: "https://www.theobakker.net/pdf/vijzelstraat.pdf" }
     - { label: Wikipedia (nl) De Bazel, url: "https://nl.wikipedia.org/wiki/De_Bazel_(Amsterdam)" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: 200979, 207009
     built: 1928, 1969

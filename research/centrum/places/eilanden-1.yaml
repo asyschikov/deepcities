@@ -83,7 +83,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/1ffcae88-e3d0-473e-863e-d80f27c1765e" }
     - { label: Permit 2022 (Gemeenteblad), url: "https://zoek.officielebekendmakingen.nl/gmb-2022-463308.html" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "206006"
     built: "1880"
@@ -137,7 +137,7 @@
     - { label: Urban Resort REMISE, url: "https://urbanresort.nl/remise/about-remise/" }
     - { label: Wikipedia (nl) Czaar Peterbuurt, url: "https://nl.wikipedia.org/wiki/Czaar_Peterbuurt" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "206002"
     built: "1884"
@@ -249,7 +249,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/31348ded-d563-4f24-966c-123eeb07a4ed" }
     - { label: Best of Amsterdam, url: "https://www.bestofamsterdam.com/koffiehuis-van-den-volksbond/" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "202059"
     built: "1902"
@@ -305,7 +305,7 @@
     - { label: Wikipedia (nl) Zeemanshuis, url: "https://nl.wikipedia.org/wiki/Zeemanshuis_(Amsterdam)" }
     - { label: Wikipedia (nl) Kadijksplein, url: "https://nl.wikipedia.org/wiki/Kadijksplein" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "202016"
     built: 1856–1858
@@ -602,7 +602,7 @@
     - { label: Monumentenregister Amsterdam (bureelgebouw), url: "https://data.amsterdam.nl/monumenten/0030c53f-4f42-4d90-81d4-1408418d647d" }
     - { label: Wikipedia (nl) Oranje-Nassau Kazerne, url: "https://nl.wikipedia.org/wiki/Oranje-Nassau_Kazerne" }
   attributes:
-    rank: Amazing
+    rank: Nice
     heritage_status: National + municipal monument
     monument_number: 5140, 214022
     built: 1810–1813, 1920
@@ -664,7 +664,7 @@
     - { label: NOS on the swimming spot, url: "https://nos.nl/l/2565647" }
     - { label: 4en5mei Oud-Kweekelingen memorial, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3257" }
   attributes:
-    rank: Nice
+    rank: Amazing
     heritage_status: National + municipal monument
     monument_number: 2206, 200977, 230002, 230003, 230004, 230005
     built: 17th century–1966
@@ -726,7 +726,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/35b87a19-273b-4b4a-b52d-850f3aecb454" }
     - { label: Wikipedia (nl) Mariniersbrug, url: "https://nl.wikipedia.org/wiki/Mariniersbrug" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "518382"
     built: "1935"
@@ -789,7 +789,7 @@
     - { label: Monumentenregister Amsterdam (Parelschool), url: "https://data.amsterdam.nl/monumenten/be93557a-96ed-41e0-8bdb-c888fbe8b361" }
     - { label: Wikipedia (nl) Kattenburg, url: "https://nl.wikipedia.org/wiki/Kattenburg_(Amsterdam)" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: 206011, 206009, 206010
     built: 1868–1897
@@ -1007,7 +1007,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/1fd35a4f-5c41-4f82-87ad-4ce73e7cc3ff" }
     - { label: Amsterdam Wharf, url: "https://amsterdamwharf.nl/" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "208055"
     built: 1883, rebuilt 1896
@@ -1248,7 +1248,7 @@
     - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Derde_Wittenburgerdwarsstraat/1-3" }
     - { label: Buurtboeken De vergeten school, url: "https://www.buurtboeken.nl/verhaal/219/de_vergeten_school.html" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: Municipal monument
     monument_number: "202008"
     built: 1913–1914

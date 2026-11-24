@@ -139,7 +139,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/96b47052-314f-466b-8ed5-79c809abeaf0" }
     - { label: Wikipedia (nl) Oude Lutherse Kerk, url: "https://nl.wikipedia.org/wiki/Oude_Lutherse_Kerk" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "5241"
     built: 1632–1633
@@ -309,7 +309,7 @@
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c19e5938-24de-4d41-a6d3-e07d44878246" }
     - { label: Wikipedia (nl) Gebouw Mercurius, url: "https://nl.wikipedia.org/wiki/Gebouw_Mercurius" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "518505"
     built: 1882–1883
@@ -603,7 +603,7 @@
     - { label: "Wikipedia (nl) 't Kasteel van Aemstel", url: "https://nl.wikipedia.org/wiki/'t_Kasteel_van_Aemstel" }
     - { label: Wikipedia (nl) Nieuwezijds Voorburgwal 67, url: "https://nl.wikipedia.org/wiki/Nieuwezijds_Voorburgwal_67" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: 518330, 5923
     built: 1904–1905
@@ -669,7 +669,7 @@
     - { label: Wikipedia (nl) De Standaard (Amsterdam), url: "https://nl.wikipedia.org/wiki/De_Standaard_(Amsterdam)" }
     - { label: Wikipedia (nl) Concordia, url: "https://nl.wikipedia.org/wiki/Concordia_(Nieuwezijds_Voorburgwal)" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: 518327, 518496, 518328
     built: 1859–1913
@@ -797,7 +797,7 @@
     - { label: Wikipedia (nl) Arti et Amicitiae, url: "https://nl.wikipedia.org/wiki/Arti_et_Amicitiae" }
     - { label: Arti et Amicitiae, url: "https://arti.nl/en" }
   attributes:
-    rank: Nice
+    rank: Okay
     heritage_status: National monument
     monument_number: "5014"
     built: 1855–1856 (front)

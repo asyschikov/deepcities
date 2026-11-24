@@ -1,0 +1,392 @@
+{
+ "in_pool": [
+  {
+   "id": "ju9b1flv3xggsmzq3728y1nl",
+   "title": "Claes Claesz. Hofje (Anslo's Hofje)",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Egelantiersstraat 28-50",
+   "lat": 52.377234,
+   "lng": 4.884142,
+   "detail": "district"
+  },
+  {
+   "id": "da5cxlxl8mu9tw3n3gyzuac1",
+   "title": "Concordia on the Westerstraat, Peace be to this house",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Westerstraat 327-405, Lijnbaansgracht 63-65",
+   "lat": 52.377474,
+   "lng": 4.879293,
+   "detail": "district"
+  },
+  {
+   "id": "whv0ndekjzu9ak6cv8wv3on8",
+   "title": "Concordia's hofje of workers' homes on the Lijnbaansgracht",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Lijnbaansgracht 173-182, Elandsstraat 179-205, Lijnbaansstraat 21-33",
+   "lat": 52.369659,
+   "lng": 4.878326,
+   "detail": "district"
+  },
+  {
+   "id": "csqyprfyswstq5ykpx1wxbdd",
+   "title": "Constantiahofje, free homes for loyal old workmen",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Willemsstraat 143-165",
+   "lat": 52.380766,
+   "lng": 4.881987,
+   "detail": "district"
+  },
+  {
+   "id": "pz8393nv4gzc5a403sdtiah1",
+   "title": "De Nooteboome Uytkijk, a joiner's warehouse turned almshouse",
+   "borough": "Centrum",
+   "wijk": "De Weteringschans",
+   "address": "Lijnbaansgracht 287 / Spiegelgracht 31",
+   "lat": 52.3616,
+   "lng": 4.887388,
+   "detail": "district"
+  },
+  {
+   "id": "xfz0k6e2arg3jzbeofmpn91j",
+   "title": "Deutzenhofje, a widow's almshouse with a lesson for the rich",
+   "borough": "Centrum",
+   "wijk": "Grachtengordel-Zuid",
+   "address": "Prinsengracht 855-899",
+   "lat": 52.362636,
+   "lng": 4.890092,
+   "detail": "district"
+  },
+  {
+   "id": "u165z6308tvfwa384bn4j6r5",
+   "title": "Hamer- en Bouwershofje, two old hofjes moved to the city's edge",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Marnixstraat 281",
+   "lat": 52.374677,
+   "lng": 4.876888,
+   "detail": "district"
+  },
+  {
+   "id": "w1d4xchf59cnd2169ibqqaao",
+   "title": "Hilmanhofje, a grieving father's almshouse",
+   "borough": "Centrum",
+   "wijk": "De Weteringschans",
+   "address": "Nieuwe Looiersstraat 146–152",
+   "lat": 52.360331,
+   "lng": 4.895565,
+   "detail": "district"
+  },
+  {
+   "id": "gqhvrldm2saiwl67elziy41u",
+   "title": "Hof van Parijs",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Elandsstraat 160-182",
+   "lat": 52.369939,
+   "lng": 4.878675,
+   "detail": "district"
+  },
+  {
+   "id": "q3csqmbep6m551bag3q42zrf",
+   "title": "Hofje De Zeven Keurvorsten, a joke that became a name",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Tuinstraat 199-225",
+   "lat": 52.376325,
+   "lng": 4.879688,
+   "detail": "district"
+  },
+  {
+   "id": "bt6m9smuolq464mgt4vombnu",
+   "title": "Hofje Venetiae",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Elandsstraat 102-150",
+   "lat": 52.370158,
+   "lng": 4.879421,
+   "detail": "district"
+  },
+  {
+   "id": "btbep06clmme9cn98784x1fz",
+   "title": "Hofje van de Weduwe Roosen",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Eerste Passeerdersdwarsstraat 124-130",
+   "lat": 52.367282,
+   "lng": 4.881392,
+   "detail": "district"
+  },
+  {
+   "id": "fia5m9yguy1c0xc03if3emwk",
+   "title": "Karthuizerhof, the city's widows' court on a monastery site",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Karthuizersstraat 61-191",
+   "lat": 52.378861,
+   "lng": 4.882097,
+   "detail": "city"
+  },
+  {
+   "id": "mrw332h6gn0yxjwn5m2wyft1",
+   "title": "Liefde is 't Fondament, the 'papist' hofje",
+   "borough": "Centrum",
+   "wijk": "Grachtengordel-West",
+   "address": "Keizersgracht 332-334",
+   "lat": 52.369774,
+   "lng": 4.884227,
+   "detail": "district"
+  },
+  {
+   "id": "y214ajrmw7hwfhpyktchlpmy",
+   "title": "Lindenhofje, from Mennonite widows to young care workers",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Lindengracht 94-112",
+   "lat": 52.380475,
+   "lng": 4.885339,
+   "detail": "district"
+  },
+  {
+   "id": "e09fcw1wybt00344q8v89zvd",
+   "title": "Looiershofje, an almshouse made of 17th-century houses",
+   "borough": "Centrum",
+   "wijk": "De Weteringschans",
+   "address": "Nieuwe Looiersstraat 16–38",
+   "lat": 52.360755,
+   "lng": 4.891878,
+   "detail": "district"
+  },
+  {
+   "id": "eu76f4laqwjnnsjhb5cafa87",
+   "title": "Nieuwe Suykerhofje, a Catholic hofje with a fake organ",
+   "borough": "Centrum",
+   "wijk": "Grachtengordel-West",
+   "address": "Prinsengracht 383-395",
+   "lat": 52.371524,
+   "lng": 4.883444,
+   "detail": "district"
+  },
+  {
+   "id": "nsn2xyns8eu2jwm7a11uviz4",
+   "title": "Occo Hofje",
+   "borough": "Centrum",
+   "wijk": "Weesperbuurt/Plantage",
+   "address": "Nieuwe Keizersgracht 94",
+   "lat": 52.365131,
+   "lng": 4.906582,
+   "detail": "district"
+  },
+  {
+   "id": "ef8j0vovtsq9212cqzxoxn5r",
+   "title": "Platanenhof, the Catholic boys' orphanage",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Elandsstraat 152-156, Lauriergracht 99c-105",
+   "lat": 52.370039,
+   "lng": 4.87885,
+   "detail": "district"
+  },
+  {
+   "id": "gudu912zn7rlnwv1i5ex5rwl",
+   "title": "Raepenhofje and Bossche Hofje, two hofjes bought on one day",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Palmgracht 20-38",
+   "lat": 52.3824,
+   "lng": 4.883687,
+   "detail": "district"
+  },
+  {
+   "id": "mm0ajp1ubrzilto1l74y4h7x",
+   "title": "Regenboogs Liefdehofje, from Catholic elderly to music students",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Tuinstraat 100-102",
+   "lat": 52.37722,
+   "lng": 4.882894,
+   "detail": "district"
+  },
+  {
+   "id": "r3isw976npymofhussaew9yo",
+   "title": "Rijpenhofje, where the date over the door is wrong",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Rozengracht 116-138",
+   "lat": 52.373111,
+   "lng": 4.878985,
+   "detail": "district"
+  },
+  {
+   "id": "k5btdtobpr1rpiq6anus18jw",
+   "title": "Rozenhofje, an almshouse on an old pleasure maze",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Rozengracht 147-181",
+   "lat": 52.372552,
+   "lng": 4.878057,
+   "detail": "district"
+  },
+  {
+   "id": "inre216aswcgsiueto25za5o",
+   "title": "Sint Andrieshofje",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Egelantiersgracht 107-141",
+   "lat": 52.375564,
+   "lng": 4.880255,
+   "detail": "district"
+  },
+  {
+   "id": "ervxg90314k2nzi75uwpv0pc",
+   "title": "Sophia Adriana Stichting, the Stedelijk founder's almshouse",
+   "borough": "Centrum",
+   "wijk": "Nieuwmarkt/Lastage",
+   "address": "Nieuwe Herengracht 43",
+   "lat": 52.366458,
+   "lng": 4.903543,
+   "detail": "district"
+  },
+  {
+   "id": "sfm0u42utmgcozlwa5jmtabq",
+   "title": "Suyckerhoff-hofje, behind a deep passage",
+   "borough": "Centrum",
+   "wijk": "Jordaan",
+   "address": "Lindengracht 149-163",
+   "lat": 52.379738,
+   "lng": 4.883394,
+   "detail": "district"
+  },
+  {
+   "id": "x4qocbeumoafggfhzcvfdzq5",
+   "title": "Swigtershofje",
+   "borough": "Centrum",
+   "wijk": "Grachtengordel-Zuid",
+   "address": "Amstel 88-98",
+   "lat": 52.366708,
+   "lng": 4.896683,
+   "detail": "district"
+  },
+  {
+   "id": "mmoem3yv4t3phejyy43jdnvh",
+   "title": "Three almshouses of the Weteringbuurt",
+   "borough": "Centrum",
+   "wijk": "De Weteringschans",
+   "address": "Eerste Weteringdwarsstraat 11-43 and 83-105; Derde Weteringdwarsstraat 25",
+   "lat": 52.362117,
+   "lng": 4.888527,
+   "detail": "district"
+  },
+  {
+   "id": "qe1b2e08dtg739m19t7q4jfy",
+   "title": "Van Brants Rus Hofje",
+   "borough": "Centrum",
+   "wijk": "Weesperbuurt/Plantage",
+   "address": "Nieuwe Keizersgracht 28-44",
+   "lat": 52.364599,
+   "lng": 4.904047,
+   "detail": "district"
+  },
+  {
+   "id": "ijifjk0orsdk04prdmraf645",
+   "title": "Van Brienenhofje, an almshouse on a brewery",
+   "borough": "Centrum",
+   "wijk": "Grachtengordel-West",
+   "address": "Prinsengracht 85-133",
+   "lat": 52.378676,
+   "lng": 4.887269,
+   "detail": "district"
+  },
+  {
+   "id": "osr8dtizi1j33szoc4ncyq9f",
+   "title": "Zon's Hofje, on the site of a Mennonite church",
+   "borough": "Centrum",
+   "wijk": "Grachtengordel-West",
+   "address": "Prinsengracht 159-171",
+   "lat": 52.378172,
+   "lng": 4.887054,
+   "detail": "district"
+  },
+  {
+   "id": "gxemo5tow9g7d4xgkvq3c7kf",
+   "title": "Augustanakerk, a Lutheran church turned hofje",
+   "borough": "West",
+   "wijk": "Erasmuspark",
+   "address": "Erasmusgracht 24-28",
+   "lat": 52.376848,
+   "lng": 4.853327,
+   "detail": "city"
+  },
+  {
+   "id": "k6irx6ilchydtiwy4qrgb2yz",
+   "title": "Gijsbert Bakker hofje (Reinier Claeszenplein)",
+   "borough": "West",
+   "wijk": "Geuzenbuurt",
+   "address": "Reinier Claeszenplein 1-59, Lumeijstraat 54-62",
+   "lat": 52.374151,
+   "lng": 4.861357,
+   "detail": "city"
+  },
+  {
+   "id": "xh9c374cb2fk2degk6z1coyp",
+   "title": "P.W. Janssenhofje",
+   "borough": "West",
+   "wijk": "Da Costabuurt",
+   "address": "Da Costastraat 38-58",
+   "lat": 52.368894,
+   "lng": 4.873959,
+   "detail": "city"
+  },
+  {
+   "id": "h9bk063jmavwrtwvabkhw2wc",
+   "title": "Remonstrant almshouse, Van Hallstraat 51",
+   "borough": "West",
+   "wijk": "Staatsliedenbuurt",
+   "address": "Van Hallstraat 51",
+   "lat": 52.383296,
+   "lng": 4.87059,
+   "detail": "city"
+  },
+  {
+   "id": "rkrxrav283appy9y1s81jz3x",
+   "title": "Fontainehofje, an almshouse that moved from the Keizersgracht",
+   "borough": "Zuid",
+   "wijk": "Willemspark",
+   "address": "Valeriusstraat 198",
+   "lat": 52.352512,
+   "lng": 4.86223,
+   "detail": "city"
+  },
+  {
+   "id": "igy1tvh3ics1npsd1nc5y25k",
+   "title": "Stadhuis Weesp and St. Bartholomeus Gasthuis",
+   "borough": "Weesp",
+   "wijk": "Weesp Binnenstad/Zuid",
+   "address": "Nieuwstraat 41-43",
+   "lat": 52.306702,
+   "lng": 5.042816,
+   "detail": "city"
+  },
+  {
+   "id": "jsqzy99kv0mxkc3kj7npw3s7",
+   "title": "Almshouses of the Amstelhof corner, six ways to house the old",
+   "borough": "Centrum",
+   "wijk": "Weesperbuurt/Plantage",
+   "address": "Nieuwe Keizersgracht 94",
+   "lat": 52.365131,
+   "lng": 4.906582,
+   "detail": "city"
+  }
+ ],
+ "wikipedia_missing": [
+  "Begijnhof (Spui/Gedempte Begijnensloot)",
+  "Broenshofje (Boomstraat 52-56)",
+  "Claes Reinierszhofje (Keizersgracht, behind 332-346?)",
+  "Corvershof (Nieuwe Herengracht)",
+  "Concordia Zuid (1859)"
+ ],
+ "note": "jsqzy99... is a cluster place (Amstelhof corner almshouses): check its members; igy1... is Weesp gasthuis: check whether it is a hofje"
+}
