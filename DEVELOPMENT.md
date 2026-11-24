@@ -53,7 +53,8 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   Manage → Place fields or with `pnpm dc fields`. Keys are permanent and fields are
   never deleted, only hidden (values kept); the server rejects removals.
 - **Views and clusters.** A place lives once, on its home map (`place.collectionId`):
-  edits, proposals, permissions, history, fields and categories come from there.
+  edits, proposals, permissions, history, fields and categories come from there
+  (a view's own values for it are overrides, below).
   `collection.view` (`{source, where?: {borough, neighbourhood, subNeighbourhood,
   category}, detail: "city" | "full"}`) makes a map a view: it has no places of its
   own and shows matching places of its source (Deep Centrum is a `full` view of
@@ -65,6 +66,23 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   Places added from a view go to its source (`district` from a `full` view). Set a
   view with `dc map-view`. Router tests run against SQLite with the real
   migrations (`app/trpc/test-db.ts`).
+- **Overrides (a view's own values).** `place_override` (view map + place, primary
+  key both) holds a view's own custom-field values and category for a place of its
+  source: only overridden keys (`null`: unset on that view), category null = the
+  home one. The effective place on map M is the home place with M's override on
+  top (`withOverride` in `app/lib/overrides.ts`, unit-tested); `place.list`,
+  `place.export` and `place.byId` (opened with `map`) return effective values plus
+  `overridden` (the keys), so the map's client-side filters and category counts use
+  them. View membership (`view.where.category`) still uses the home category. No-op
+  keys are never stored: approving an override normalises it against the home
+  place, and a home edit prunes keys it has caught up with. Overrides are proposals
+  with `subject: "override"` and `overrideDraft` (the complete new override) on the
+  view map: its queue, its permissions, its history (`proposal.createOverride`;
+  moderators+ publish immediately). On a view, the place edit form sends fields
+  and category as an override and the rest as a home edit. A view's
+  `collection.fields` are fields it adds: it displays its source's fields, then
+  its own (keys must differ; `collection.setFields`, `dc fields <view>`), and their
+  values live only in overrides. CLI: `dc override`, `dc override-many`.
 - `route` — a walk or ride through the map, stored like a place (only written by
   approving a proposal). `mode` is its main mode, `walk` or `bike` (what it is, what
   the list shows and filters on; inferred from the legs when a draft leaves it out).

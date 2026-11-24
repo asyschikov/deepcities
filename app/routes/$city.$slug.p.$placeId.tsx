@@ -439,9 +439,12 @@ const PlacePage = () => {
                 />
                 <div>
                   <span className="font-medium text-foreground">
-                    {t(`history_${h.kind}`, {
-                      name: h.author?.name ?? t("someone"),
-                    })}
+                    {t(
+                      `history_${h.subject === "override" ? "override" : h.kind}`,
+                      {
+                        name: h.author?.name ?? t("someone"),
+                      },
+                    )}
                   </span>
                   {h.reviewer && h.reviewer.id !== h.author?.id && (
                     <>
