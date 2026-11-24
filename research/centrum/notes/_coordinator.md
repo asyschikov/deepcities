@@ -203,3 +203,4 @@ Left as they are, for the coordinator: shops, cinemas and hotels with no better 
 Category counts: before 532 places (hidden-history 120, housing 91, curiosities 81, civic 66, industrial 54, religious 35, infrastructure 33, schools 24, food-drink 19, odd-museums 6, green 2, street-art 1). After 536 places (housing 119, civic 106, industrial 65, hidden-history 61, curiosities 57, religious 38, infrastructure 36, schools 26, food-drink 20, odd-museums 6, green 1, street-art 1). Removed: jordaan-1 Voorzienigheid copy and two garden-house groups. Added: Palmgracht, five status-pass places, De Kruiwagen.
 
 Open: bodies already over 250 words before this pass: Huis Marseille 251, NACO-huisje 251, Pentagon NL 251, Spinhuis 253, Vredenburgh 263/269, Sint-Nicolaasbasiliek 252, Tobacco offices 277/262.
+- SCOUT-CE corrections to drafts: Max Euwe Centrum moved to Max Euweplein 26 (Jan 2024); Our House museum bankrupt 2024 (check any draft mentioning either)
