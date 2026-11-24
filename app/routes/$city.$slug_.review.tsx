@@ -30,6 +30,7 @@ import { Textarea } from "~/components/ui/textarea";
 import type { ProposalStatus } from "~/lib/constants";
 import { languageName } from "~/lib/content-lang";
 import { diffDrafts, distanceMeters, type FieldChange } from "~/lib/diff";
+import { extraDescription } from "~/lib/fields";
 import { goneField } from "~/lib/gone";
 import { loadCollection } from "~/lib/loaders";
 import { NO_OVERRIDE, withOverride } from "~/lib/overrides";
@@ -131,6 +132,7 @@ const DraftPreview = ({
   view: CollectionView;
 }) => {
   const cat = view.collection.categories.find((c) => c.key === draft.category);
+  const extra = extraDescription(view.collection.fields, draft.attributes);
   return (
     <div className="space-y-2 text-sm">
       <div className="font-semibold">{draft.title}</div>
@@ -145,6 +147,11 @@ const DraftPreview = ({
       {draft.body && (
         <p className="whitespace-pre-line text-muted-foreground">
           {draft.body}
+        </p>
+      )}
+      {extra && (
+        <p className="whitespace-pre-line border-t pt-2 text-muted-foreground">
+          {extra}
         </p>
       )}
       {draft.address && (

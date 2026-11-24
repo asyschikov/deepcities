@@ -46,6 +46,7 @@ import { VerdictSummary } from "~/components/Verdict";
 import { useAppMode } from "~/lib/app-mode";
 import { localize, localizePlace, untranslated } from "~/lib/content-lang";
 import { distanceMeters } from "~/lib/diff";
+import { extraDescription } from "~/lib/fields";
 import { isMarkedGone } from "~/lib/gone";
 import { useMapPage } from "~/lib/map-page";
 import { formatDistance } from "~/lib/routes";
@@ -168,6 +169,7 @@ const PlacePage = () => {
   const exploring = mode === "explore";
   const away = geo.fix ? distanceMeters(geo.fix, place) : null;
   const markedGone = isMarkedGone(place.attributes, view.collection.fields);
+  const extra = extraDescription(view.collection.fields, place.attributes);
   const visit = !archived && (
     <VisitPanel
       placeId={placeId}
@@ -272,6 +274,11 @@ const PlacePage = () => {
       {place.body && (
         <div className="space-y-3 text-sm leading-relaxed text-foreground/85">
           <MarkdownView content={place.body} slug={slug} />
+        </div>
+      )}
+      {extra && (
+        <div className="space-y-3 border-t pt-3 text-sm leading-relaxed text-foreground/85">
+          <MarkdownView content={extra} slug={slug} />
         </div>
       )}
 

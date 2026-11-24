@@ -1,3 +1,4 @@
+import { EXTRA_DESCRIPTION_KEY } from "./constants";
 import type { Attributes, FieldDef } from "./validation";
 
 export type AttributeValue = Attributes[string];
@@ -72,6 +73,23 @@ export const attributeIssues = (
 /** Fields shown to people (in the form and on the place page). */
 export const visibleFields = <D extends FieldDef>(defs: D[]): D[] =>
   defs.filter((d) => !d.hidden);
+
+const isExtraDescription = (d: FieldDef) =>
+  d.key === EXTRA_DESCRIPTION_KEY && d.type === "longtext";
+
+/** Fields shown as rows of a place's field list: the extra description is part of the text. */
+export const listedFields = <D extends FieldDef>(defs: D[]): D[] =>
+  visibleFields(defs).filter((d) => !isExtraDescription(d));
+
+/** The map's extra description of a place (see `EXTRA_DESCRIPTION_KEY`), if it has one. */
+export const extraDescription = (
+  defs: FieldDef[],
+  attributes: Attributes | undefined,
+): string | undefined => {
+  const def = visibleFields(defs).find(isExtraDescription);
+  const value = def ? attributes?.[def.key] : undefined;
+  return typeof value === "string" && value.trim() !== "" ? value : undefined;
+};
 
 /** Keys of `before` missing from `after`: fields can be hidden, never deleted. */
 export const removedFieldKeys = (

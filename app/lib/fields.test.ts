@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { attributeIssues, compactAttributes, removedFieldKeys } from "./fields";
+import {
+  attributeIssues,
+  compactAttributes,
+  extraDescription,
+  listedFields,
+  removedFieldKeys,
+} from "./fields";
 import type { FieldDef } from "./validation";
 
 const defs: FieldDef[] = [
@@ -54,5 +60,49 @@ describe("removedFieldKeys", () => {
   it("skips required checks on hidden fields", () => {
     const hidden = defs.map((d) => ({ ...d, hidden: true }));
     expect(attributeIssues(hidden, {})).toEqual([]);
+  });
+});
+
+describe("extra description", () => {
+  const withExtra: FieldDef[] = [
+    ...defs,
+    { key: "extra_description", label: "More", type: "longtext" },
+  ];
+
+  it("is left out of the field rows", () => {
+    expect(listedFields(withExtra).map((d) => d.key)).not.toContain(
+      "extra_description",
+    );
+    expect(listedFields(withExtra)).toHaveLength(defs.length);
+  });
+
+  it("returns the text only when the map has the longtext field", () => {
+    expect(extraDescription(withExtra, { extra_description: "More." })).toBe(
+      "More.",
+    );
+    expect(extraDescription(withExtra, { extra_description: "  " })).toBe(
+      undefined,
+    );
+    expect(extraDescription(defs, { extra_description: "More." })).toBe(
+      undefined,
+    );
+    const asText = withExtra.map((d) =>
+      d.key === "extra_description" ? { ...d, type: "text" as const } : d,
+    );
+    expect(extraDescription(asText, { extra_description: "x" })).toBe(
+      undefined,
+    );
+    expect(listedFields(asText).map((d) => d.key)).toContain(
+      "extra_description",
+    );
+  });
+
+  it("is ignored when the field is hidden", () => {
+    const hidden = withExtra.map((d) =>
+      d.key === "extra_description" ? { ...d, hidden: true } : d,
+    );
+    expect(extraDescription(hidden, { extra_description: "More." })).toBe(
+      undefined,
+    );
   });
 });

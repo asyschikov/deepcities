@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
 import type { LocalFieldDef } from "~/lib/content-lang";
-import { showAttribute, visibleFields } from "~/lib/fields";
+import { listedFields, showAttribute } from "~/lib/fields";
 import { cn } from "~/lib/utils";
 import type { Attributes } from "~/lib/validation";
 
-/** A place's custom-field values as a definition list, in schema order. */
+/** A place's custom-field values as a definition list, in schema order (without the extra description). */
 export const PlaceAttributes = ({
   fields,
   attributes,
@@ -15,7 +15,7 @@ export const PlaceAttributes = ({
   className?: string;
 }) => {
   const { t } = useTranslation();
-  const rows = visibleFields(fields).flatMap((f) => {
+  const rows = listedFields(fields).flatMap((f) => {
     const value = attributes?.[f.key];
     return value === undefined || value === "" ? [] : [{ f, value }];
   });

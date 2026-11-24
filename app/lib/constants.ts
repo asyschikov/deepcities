@@ -177,6 +177,14 @@ export type FieldType = (typeof FIELD_TYPES)[number];
 export const MAX_FIELDS_PER_MAP = 30;
 
 /**
+ * Key of a map's extra description: a longtext field whose value is shown as
+ * part of the place's description (after the body), not as a field row. A
+ * theme map adds topical text to shared places with it, through overrides,
+ * without rewriting their description.
+ */
+export const EXTRA_DESCRIPTION_KEY = "extra_description";
+
+/**
  * A visitor's verdict on a place, the same scale as the map's own rank:
  * worth going out of your way, worth a stop if you're near, a footnote,
  * or not worth it. Words, not stars: star averages all end up at 4.5.
