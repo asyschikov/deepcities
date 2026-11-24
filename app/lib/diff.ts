@@ -44,8 +44,11 @@ const show = (draft: PlaceDraft, field: DraftField): string => {
     case "borough":
     case "neighbourhood":
     case "subNeighbourhood":
-      // Null when unknown.
+    case "parentId":
+      // Null when unknown (or no cluster).
       return draft[field] ?? "";
+    case "detail":
+      return draft.detail ?? "city";
     default:
       return draft[field];
   }
@@ -64,6 +67,8 @@ const FIELDS: DraftField[] = [
   "location",
   "links",
   "photoIds",
+  "parentId",
+  "detail",
 ];
 
 /** Custom-field values that differ (drafts may predate `attributes`). */

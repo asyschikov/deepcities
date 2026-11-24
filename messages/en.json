@@ -474,6 +474,11 @@
   "place_away": "{{distance}} from you",
   "place_directions": "Directions",
   "place_explore_wrong": "Something wrong or missing? Suggest an edit",
+  "place_part_of": "Part of",
+  "place_parts_one": "{{count}} place here",
+  "place_parts_other": "{{count}} places here",
+  "field_parentId": "Part of",
+  "field_detail": "Detail",
   "verdict_label": "Verdict",
   "verdict_question": "How was it?",
   "verdict_yours": "Your verdict",
@@ -548,5 +553,6 @@
   "gone_mark_hint": "Mark gone keeps the pin where it was, with Status: Gone. Edit the title or text if they should say so too.",
   "gone_resolved_mark": "Marked gone",
   "gone_resolved_archive": "Removed from the map",
-  "gone_resolved_dismiss": "Reports dismissed"
+  "gone_resolved_dismiss": "Reports dismissed",
+  "map_close_place": "Close"
 }

@@ -53,10 +53,7 @@ must say borough Centrum and one of your wijken. Track coverage per wijk.
   A-list, put it under "A-list candidates".
 - **Tourist-trade things** (souvenir museums, "experiences", themed bars, coffeeshops, sex
   shops): out, unless there is real history a local would vouch for.
-- **Food and drink: very high bar.** Centrum has hundreds of old cafés. Only institutions
-  with real historic or cultural weight (a brown café of the 17th century with its interior
-  intact and a story, a distillery tasting room, a shop that shaped the city). List the few
-  you think pass under "Food and drink, borderline", with the case for and against.
+- **Food, drink and shops: the test is "worth visiting even if you eat, drink or buy nothing"** (the user's rule): historic, iconic, culturally significant or part of the local fabric (the oldest tavern, a tasting room with its drinks organ, an artists' café, a shop interior of 1915, a stall that is a city ritual). Ordinary cafés, chains and tourist traps stay out. Propose the ones that pass as normal shortlist items, not as a side list.
 - **Gone things: high bar** (see the skill). Centrum is full of vanished things; only those
   with a strong story *and* a trace or exact spot to stand on.
 - **Homes of famous people**: only when there is something to see or a real story at that

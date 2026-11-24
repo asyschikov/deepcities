@@ -2,7 +2,7 @@ import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
 import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
-import { PROPOSAL_STATUSES } from "~/lib/constants";
+import { type PlaceDetail, PROPOSAL_STATUSES } from "~/lib/constants";
 import type { Database } from "~/lib/db";
 import { photo, place, proposal, route } from "~/lib/db/schema";
 import { attributeIssues, compactAttributes } from "~/lib/fields";
@@ -14,8 +14,10 @@ import {
   type RouteDraft,
   routeDraftSchema,
 } from "~/lib/validation";
+import { detailForNew, homeIdOf, wouldCycle } from "~/lib/views";
 import { type Collection, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
+import { loadViewMap, photoMapIds, poolWhere } from "../map-places";
 
 type Proposal = typeof proposal.$inferSelect;
 
@@ -63,21 +65,81 @@ const withoutBase = <T extends Partial<Record<string, unknown>>>(
   ) as T;
 
 /**
- * Check a draft against the map (category, custom fields, photos) and
- * return it normalised (empty custom-field values dropped).
+ * Check a draft's parent: a published place on the same home map, not the
+ * place itself or one of its own parts. Returns the parent id (or null).
+ */
+const fitParent = async (
+  db: Database,
+  coll: Collection,
+  placeId: string | null,
+  parentId: string | null,
+): Promise<string | null> => {
+  if (!parentId) return null;
+  if (parentId === placeId)
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: "A place can't be its own parent",
+    });
+  // Walk up from the parent (clusters are shallow; the cap guards bad data).
+  const parentOf = new Map<string, string | null>();
+  let at: string | null = parentId;
+  for (let depth = 0; at && depth < 20 && !parentOf.has(at); depth++) {
+    const row: { parentId: string | null } | undefined =
+      await db.query.place.findFirst({
+        where: eq(place.id, at),
+        columns: { parentId: true },
+      });
+    if (!row) break;
+    parentOf.set(at, row.parentId);
+    at = row.parentId;
+  }
+  if (wouldCycle(placeId, parentId, (id) => parentOf.get(id)))
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: "The parent is part of this place: that would make a loop",
+    });
+  const parent = await db.query.place.findFirst({
+    where: eq(place.id, parentId),
+    columns: { collectionId: true, status: true },
+  });
+  if (parent?.status !== "published" || parent.collectionId !== coll.id)
+    throw new TRPCError({
+      code: "BAD_REQUEST",
+      message: `Unknown parent: no place ${parentId} on this map`,
+    });
+  return parentId;
+};
+
+/**
+ * Check a draft against the map (category, custom fields, photos, parent)
+ * and return it normalised (empty custom-field values dropped) and complete:
+ * `parentId` and `detail` left out keep the current place's, or for a new
+ * place none and `newDetail`.
  */
 const fitDraft = async (
   db: Database,
   coll: Collection,
   input: PlaceDraft,
+  current: { id: string; parentId: string | null; detail: PlaceDetail } | null,
+  newDetail: PlaceDetail = "city",
 ): Promise<PlaceDraft> => {
   if (!coll.categories.some((c) => c.key === input.category)) {
     throw new TRPCError({ code: "BAD_REQUEST", message: "Unknown category" });
   }
+  const kept = current?.parentId ?? null;
+  const wanted = input.parentId === undefined ? kept : input.parentId;
+  // An unchanged parent isn't re-checked: edits to a part of a cluster that
+  // was since removed still go through.
+  const parentId =
+    wanted === kept
+      ? kept
+      : await fitParent(db, coll, current?.id ?? null, wanted);
   const draft = {
     ...input,
     attributes: compactAttributes(input.attributes),
     translations: withoutBase(input.translations, coll.language),
+    parentId,
+    detail: input.detail ?? current?.detail ?? newDetail,
   };
   const textKeys = new Set(
     coll.fields
@@ -113,15 +175,21 @@ const assertPhotos = async (
   const photos = await db
     .select({ id: photo.id })
     .from(photo)
-    .where(and(inArray(photo.id, photoIds), eq(photo.collectionId, coll.id)));
+    .where(
+      and(
+        inArray(photo.id, photoIds),
+        inArray(photo.collectionId, await photoMapIds(db, coll)),
+      ),
+    );
   if (photos.length !== new Set(photoIds).size) {
     throw new TRPCError({ code: "BAD_REQUEST", message: "Unknown photo" });
   }
 };
 
 /**
- * Check a route draft against the map: place stops must be places on this
- * map, and their name/position snapshots are refreshed from the place.
+ * Check a route draft against the map: place stops must be places in this
+ * map's pool (its own, or a view's source's, at any detail), and their
+ * name/position snapshots are refreshed from the place.
  */
 const fitRouteDraft = async (
   db: Database,
@@ -134,7 +202,7 @@ const fitRouteDraft = async (
   const places =
     ids.length > 0
       ? await db.query.place.findMany({
-          where: and(inArray(place.id, ids), eq(place.collectionId, coll.id)),
+          where: and(inArray(place.id, ids), poolWhere(coll)),
           columns: {
             id: true,
             title: true,
@@ -370,10 +438,12 @@ export const proposalRouter = router({
       if (input.kind !== "create" && target?.status !== "published") {
         throw new TRPCError({ code: "NOT_FOUND", message: "Place not found" });
       }
-      const collectionId =
+      // A place added from a view map lives on the view's source.
+      const from =
         input.kind === "create"
-          ? input.collectionId
-          : (target?.collectionId ?? "");
+          ? await loadViewMap(ctx.db, input.collectionId)
+          : null;
+      const collectionId = from ? homeIdOf(from) : (target?.collectionId ?? "");
       const access = await requireCap(
         ctx.db,
         collectionId,
@@ -383,7 +453,13 @@ export const proposalRouter = router({
       const draft =
         input.kind === "archive"
           ? null
-          : await fitDraft(ctx.db, access.collection, input.draft);
+          : await fitDraft(
+              ctx.db,
+              access.collection,
+              input.draft,
+              target ?? null,
+              from ? detailForNew(from) : "city",
+            );
       if (draft)
         assertLanguages(
           access.collection,

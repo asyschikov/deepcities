@@ -89,6 +89,8 @@ interface MapViewProps {
   /** A place hovered in the list: drawn prominently with its name. */
   hoverId?: string | null;
   onMarkerClick?: (id: string) => void;
+  /** Closes the open place: an × on its name label on the map. */
+  onCloseActive?: () => void;
   /** When set, clicking the map moves a draggable draft pin. */
   draft?: { position: LngLat | null; onChange: (p: LngLat) => void } | null;
   /** Fly to this point when it changes (e.g. the selected place). */
@@ -220,6 +222,7 @@ export const MapView = ({
   activeId,
   hoverId = null,
   onMarkerClick,
+  onCloseActive,
   draft,
   focus,
   areas,
@@ -235,6 +238,7 @@ export const MapView = ({
   follow = false,
   onFollowStop,
 }: MapViewProps) => {
+  const { t } = useTranslation();
   const onFollowStopRef = useRef(onFollowStop);
   onFollowStopRef.current = onFollowStop;
   const onViewChangeRef = useRef(onViewChange);
@@ -526,6 +530,10 @@ export const MapView = ({
   // name on the map, with the pin brought to the front and undimmed.
   const haloRef = useRef<{ marker: Marker; el: HTMLDivElement } | null>(null);
   const highlightId = hoverId ?? activeId ?? null;
+  const onCloseActiveRef = useRef(onCloseActive);
+  onCloseActiveRef.current = onCloseActive;
+  // The open place's label can be closed; a hovered one is just a name.
+  const closable = highlightId === activeId && onCloseActive !== undefined;
   useEffect(() => {
     const map = mapRef.current;
     const lib = libRef.current;
@@ -542,7 +550,12 @@ export const MapView = ({
       const el = document.createElement("div");
       el.className = "dc-hover-halo";
       el.innerHTML =
-        '<span class="dc-hover-ring"></span><span class="dc-hover-label"></span>';
+        '<span class="dc-hover-ring"></span><span class="dc-hover-label"><span class="dc-hover-title"></span><button type="button" class="dc-hover-close">\u00d7</button></span>';
+      const close = el.querySelector("button");
+      close?.addEventListener("click", (e) => {
+        e.stopPropagation();
+        onCloseActiveRef.current?.();
+      });
       haloRef.current = {
         el,
         // Centred on the pin's head, which sits up-right of its point.
@@ -554,8 +567,14 @@ export const MapView = ({
     const head = (PIN_PX[pinSize] / 2) * PIN_HOVER_SCALE;
     halo.marker.setOffset([head, -head]);
     halo.el.style.setProperty("--halo", m.color);
-    const label = halo.el.querySelector(".dc-hover-label");
-    if (label) label.textContent = m.title;
+    const title = halo.el.querySelector(".dc-hover-title");
+    if (title) title.textContent = m.title;
+    const close = halo.el.querySelector("button");
+    if (close) {
+      close.hidden = !closable;
+      close.setAttribute("aria-label", t("map_close_place"));
+      close.title = t("map_close_place");
+    }
     halo.marker.setLngLat([m.lng, m.lat]).addTo(map);
     entry.el.dataset.hover = "true";
     entry.el.style.zIndex = "5";
@@ -566,11 +585,10 @@ export const MapView = ({
       entry.marker.setOpacity(m.dimmed ? DIMMED_OPACITY : "1");
       halo.marker.remove();
     };
-  }, [ready, highlightId, markers, pinSize]);
+  }, [ready, highlightId, markers, pinSize, closable, t]);
 
   // Clusters: nearby bright pins merge into a counted disc, coloured by the
   // share of each category in it; tapping one zooms in until it splits.
-  const { t } = useTranslation();
   const clusterLabel = useRef(t);
   clusterLabel.current = t;
   useEffect(() => {

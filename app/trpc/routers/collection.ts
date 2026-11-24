@@ -1,9 +1,10 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
-import { and, count, countDistinct, eq } from "drizzle-orm";
+import { and, count, countDistinct, eq, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { citySlug } from "~/lib/cities";
 import { CONTRIBUTION_POLICIES, MEMBER_ROLES } from "~/lib/constants";
+import type { Database } from "~/lib/db";
 import {
   collection,
   collectionMember,
@@ -21,10 +22,12 @@ import {
   emailSchema,
   fieldDefsSchema,
   idSchema,
+  mapViewSchema,
   slugSchema,
 } from "~/lib/validation";
-import { getAccess, requireCap } from "../access";
+import { type CollectionAccess, getAccess, requireCap } from "../access";
 import { publicProcedure, router, superAdminProcedure } from "../init";
+import { shownWhere } from "../map-places";
 
 const settingsSchema = z.object({
   title: z.string().trim().min(3).max(80),
@@ -50,6 +53,46 @@ const settingsSchema = z.object({
   translations: collectionTranslationsSchema.optional(),
 });
 
+/**
+ * A view map shows its source's places, so it reads them with the source's
+ * categories and fields (and their labels in other languages).
+ */
+const withSourceShape = async (
+  db: Database,
+  access: CollectionAccess,
+): Promise<CollectionAccess> => {
+  const view = access.collection.view;
+  if (!view) return access;
+  const source = await db.query.collection.findFirst({
+    where: eq(collection.id, view.source),
+    columns: { categories: true, fields: true, translations: true },
+  });
+  if (!source) return access;
+  const own = access.collection.translations;
+  const langs = [
+    ...new Set([...Object.keys(own), ...Object.keys(source.translations)]),
+  ] as (keyof typeof own)[];
+  const translations = Object.fromEntries(
+    langs.map((l) => [
+      l,
+      {
+        ...own[l],
+        categories: source.translations[l]?.categories,
+        fields: source.translations[l]?.fields,
+      },
+    ]),
+  );
+  return {
+    ...access,
+    collection: {
+      ...access.collection,
+      categories: source.categories,
+      fields: source.fields,
+      translations,
+    },
+  };
+};
+
 export const collectionRouter = router({
   list: publicProcedure.query(async ({ ctx }) => {
     const [rows, counts] = await Promise.all([
@@ -57,13 +100,27 @@ export const collectionRouter = router({
         // A city's own map first.
         orderBy: (c, { asc, desc }) => [desc(c.cityDefault), asc(c.createdAt)],
       }),
+      // Home maps show their own city-level places.
       ctx.db
         .select({ collectionId: place.collectionId, n: count() })
         .from(place)
-        .where(eq(place.status, "published"))
+        .where(and(eq(place.status, "published"), eq(place.detail, "city")))
         .groupBy(place.collectionId),
     ]);
     const byId = new Map(counts.map((c) => [c.collectionId, c.n]));
+    // Views count what they show (few maps are views).
+    const viewCounts = await Promise.all(
+      rows
+        .filter((c) => c.view)
+        .map(async (c) => {
+          const [row] = await ctx.db
+            .select({ n: count() })
+            .from(place)
+            .where(shownWhere(c));
+          return [c.id, row?.n ?? 0] as const;
+        }),
+    );
+    for (const [id, n] of viewCounts) byId.set(id, n);
     return rows.map((c) => ({
       id: c.id,
       slug: c.slug,
@@ -72,6 +129,7 @@ export const collectionRouter = router({
       title: c.title,
       tagline: c.tagline,
       city: c.city,
+      view: c.view,
       placeCount: byId.get(c.id) ?? 0,
     }));
   }),
@@ -92,7 +150,10 @@ export const collectionRouter = router({
       });
       if (!found || (input.city && citySlug(found.city) !== input.city))
         throw new TRPCError({ code: "NOT_FOUND", message: "Map not found" });
-      const access = await getAccess(ctx.db, found.id, ctx.profile);
+      const access = await withSourceShape(
+        ctx.db,
+        await getAccess(ctx.db, found.id, ctx.profile),
+      );
       const pendingCount = access.can.review
         ? ((
             await ctx.db
@@ -184,6 +245,8 @@ export const collectionRouter = router({
         });
       }
       const keys = new Set(settings.categories.map((c) => c.key));
+      // A view has no places of its own (it shows its source's, with the
+      // source's categories), so only a home map's own places count.
       const inUse = await ctx.db
         .selectDistinct({ category: place.category })
         .from(place)
@@ -212,6 +275,80 @@ export const collectionRouter = router({
         .set({ ...settings, languages, translations })
         .where(eq(collection.id, access.collection.id));
       return { ok: true };
+    }),
+
+  /**
+   * Make a map a view of another map's places (or, with `view: null`, a
+   * home map again). A view has no places of its own, so a map that has
+   * some can't become one; the source must be a home map in the same city.
+   */
+  setView: publicProcedure
+    .input(z.object({ collectionId: idSchema, view: mapViewSchema.nullable() }))
+    .mutation(async ({ ctx, input }) => {
+      const access = await requireCap(
+        ctx.db,
+        input.collectionId,
+        ctx.profile,
+        "manage",
+      );
+      const { view } = input;
+      if (view) {
+        if (view.source === input.collectionId)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: "A map can't be a view of itself",
+          });
+        const source = await ctx.db.query.collection.findFirst({
+          where: eq(collection.id, view.source),
+          columns: { id: true, city: true, view: true },
+        });
+        if (!source)
+          throw new TRPCError({
+            code: "NOT_FOUND",
+            message: "Source map not found",
+          });
+        if (source.view)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: "The source is itself a view; use its source",
+          });
+        if (source.city.toLowerCase() !== access.collection.city.toLowerCase())
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: "The source must be a map of the same city",
+          });
+        const [own] = await ctx.db
+          .select({ n: count() })
+          .from(place)
+          .where(
+            and(
+              eq(place.collectionId, input.collectionId),
+              eq(place.status, "published"),
+            ),
+          );
+        const n = own?.n ?? 0;
+        if (n > 0)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: `This map has ${n} places of its own; move them to the source first`,
+          });
+        const [viewers] = await ctx.db
+          .select({ n: count() })
+          .from(collection)
+          .where(
+            sql`json_extract(${collection.view}, '$.source') = ${input.collectionId}`,
+          );
+        if ((viewers?.n ?? 0) > 0)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: "Other maps are views of this one",
+          });
+      }
+      await ctx.db
+        .update(collection)
+        .set({ view })
+        .where(eq(collection.id, input.collectionId));
+      return { ok: true, view };
     }),
 
   members: publicProcedure

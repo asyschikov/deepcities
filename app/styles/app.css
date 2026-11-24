@@ -280,10 +280,11 @@
   left: 50%;
   bottom: calc(var(--pin, 18px) + 6px);
   transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 4px;
   white-space: nowrap;
   max-width: 260px;
-  overflow: hidden;
-  text-overflow: ellipsis;
   padding: 3px 9px;
   border-radius: 9999px;
   background: var(--card);
@@ -292,6 +293,32 @@
   font-weight: 600;
   box-shadow: 0 2px 8px rgb(0 0 0 / 0.25);
   border: 2px solid var(--halo);
+}
+.dc-hover-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dc-hover-close {
+  /* The halo ignores the pointer; its close button doesn't. */
+  pointer-events: auto;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: -5px;
+  border-radius: 9999px;
+  color: var(--muted-foreground);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dc-hover-close:hover {
+  background: var(--muted);
+  color: var(--foreground);
+}
+.dc-hover-close[hidden] {
+  display: none;
 }
 @keyframes dc-halo {
   0% {

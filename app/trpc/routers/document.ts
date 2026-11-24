@@ -21,6 +21,7 @@ import {
 } from "~/lib/validation";
 import { getAccess, requireCap } from "../access";
 import { publicProcedure, router } from "../init";
+import { loadViewMap, photoMapIds, poolWhere } from "../map-places";
 
 /**
  * D1 allows at most 100 bound parameters per statement, so long id lists and
@@ -59,15 +60,22 @@ const photoMeta = (db: Database, ids: string[]) =>
         .where(inArray(photo.id, ids))
     : Promise.resolve([]);
 
-/** Reject photos, places and routes that aren't on this map. */
+/**
+ * Reject photos, places and routes that aren't on this map. Places may be
+ * any in the map's pool (a view's source's), photos any of that pool's maps.
+ */
 const checkReferences = async (
   db: Database,
   collectionId: string,
   draft: DocumentDraft,
 ) => {
-  const photos = await photoMeta(db, draft.photoIds);
+  const map = await loadViewMap(db, collectionId);
+  const [photos, photoMaps] = await Promise.all([
+    photoMeta(db, draft.photoIds),
+    photoMapIds(db, map),
+  ]);
   const okPhotos = new Set(
-    photos.filter((p) => p.collectionId === collectionId).map((p) => p.id),
+    photos.filter((p) => photoMaps.includes(p.collectionId)).map((p) => p.id),
   );
   const badPhotos = draft.photoIds.filter((id) => !okPhotos.has(id));
   if (badPhotos.length > 0)
@@ -87,9 +95,7 @@ const checkReferences = async (
       db
         .select({ id: place.id })
         .from(place)
-        .where(
-          and(eq(place.collectionId, collectionId), inArray(place.id, ids)),
-        ),
+        .where(and(poolWhere(map), inArray(place.id, ids))),
     ),
     selectIn(routeIds, (ids) =>
       db

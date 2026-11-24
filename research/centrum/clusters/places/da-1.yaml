@@ -1,0 +1,1004 @@
+# Centrum cluster places, part da-1 (Jordaan and Haarlemmerbuurt islands).
+# Parent places for the citywide Deep Amsterdam view; facts from the member drafts in
+# research/centrum/places/*.yaml. The `cluster` key is stripped before import.
+
+- title: Hofjes of the central Jordaan
+  summary: "Between the Egelantiersstraat and the Egelantiersgracht lie five courtyards and model blocks: the oldest hofje after the Begijnhof, one that barely escaped demolition, the seven 'prince-electors' and the flats of Johanna ter Meulen."
+  body: |
+    Start at the Claes Claesz. Hofje, which a cloth merchant had built by his will of 1616. After 1945 it stood empty and the city meant to clear the block. A letter that reached the last regent on his deathbed, a refusal by the province and three regents traced by genealogists saved it, and the fight is remembered as the moment Amsterdam began to see the Jordaan as worth keeping. Artists and students live there now.
+
+    In the Tuinstraat, Regenboogs Liefdehofje began in 1806 in a banker's back-yard houses, for elderly Catholics; since 1985 it has housed music students. Further on stand three blocks of 1895–1902 built for Johanna ter Meulen, who learned housing management from Octavia Hill in London and held her tenants to strict rules. At the end, the Pronckhofje of about 1645 was mocked as the palaces of the seven Keurvorsten (prince-electors), and the name stuck.
+
+    Round the corner on the Egelantiersgracht, the Sint Andrieshofje of 1617 is the oldest hofje (almshouse round a courtyard) after the Begijnhof: a Catholic foundation with no founding deed, run from the Begijnhof since 1699.
+
+    All are private homes, seen from the street.
+
+    Look for:
+    - Hans 't Mannetje's gable stone of 1971 in the Tuinstraat: a woman playing an organ made of planks
+    - the carved name stone over the gate of Regenboogs Liefdehofje
+    - the memorial stone to Johanna ter Meulen on Tuinstraat 166–172, and DRUK VERLICHTEN IS IEDERS PLICHT on nos. 99–101
+    - the low wings of 1617 round the Sint Andrieshofje courtyard
+  category: housing
+  lat: 52.377234
+  lng: 4.884142
+  address: Egelantiersstraat 28-50
+  links:
+    - { label: Hofjes in Amsterdam Claes Claesz. Hofje, url: "https://hofjesinamsterdam.nl/claes-claesz-hofje/" }
+    - { label: Hofjes in Amsterdam Sint Andrieshofje, url: "https://hofjesinamsterdam.nl/sint-andrieshofje/" }
+    - { label: Wikipedia (nl) Hofje De Zeven Keurvorsten, url: "https://nl.wikipedia.org/wiki/Hofje_De_Zeven_Keurvorsten" }
+    - { label: Wikipedia (nl) Johanna ter Meulen, url: "https://nl.wikipedia.org/wiki/Johanna_ter_Meulen" }
+  photos:
+    - commons:File:Anslo's hofje.jpg
+    - commons:File:Hofje7keurvorsten.jpg
+  attributes:
+    rank: Amazing
+  cluster:
+    key: jo-hofjes-central
+    members:
+      - Claes Claesz. Hofje (Anslo's Hofje)
+      - Sint Andrieshofje
+      - Hofje De Zeven Keurvorsten, a joke that became a name
+      - Regenboogs Liefdehofje, from Catholic elderly to music students
+      - Johanna ter Meulen's model flats in the Tuinstraat
+  nl:
+    title: Hofjes van de midden-Jordaan
+    summary: "Tussen Egelantiersstraat en Egelantiersgracht liggen vijf hofjes en modelblokken dicht bij elkaar: het oudste hofje na het Begijnhof, een hofje dat ternauwernood aan de sloop ontsnapte, de spotnaam van de zeven keurvorsten en de huizen van Johanna ter Meulen."
+    body: |
+      Begin bij het Claes Claesz. Hofje, dat een lakenkoper in 1616 bij testament liet bouwen. Na 1945 stond het leeg en wilde de stad het blok slopen. Een brief die de laatste regent op zijn sterfbed bereikte, een weigering van de provincie en drie regenten die genealogen opspoorden, redden het. Die strijd geldt als het moment waarop Amsterdam de Jordaan de moeite waard ging vinden. Nu wonen er kunstenaars en studenten.
+
+      In de Tuinstraat werd Regenboogs Liefdehofje in 1806 een hofje voor oude katholieken, in huisjes die een bankier op een binnenterrein bezat; sinds 1985 wonen er muziekstudenten. Verderop staan drie blokken uit 1895–1902, gebouwd voor Johanna ter Meulen, die bij Octavia Hill in Londen het vak van woningopzichteres leerde en haar huurders aan strenge regels hield. Aan het eind ligt het Pronckhofje van rond 1645, dat de buurt bespotte als de paleizen van de zeven keurvorsten. Die naam bleef hangen.
+
+      Om de hoek aan de Egelantiersgracht ligt het Sint Andrieshofje uit 1617, op het Begijnhof na het oudste hofje van de stad: een katholieke stichting zonder stichtingsakte, die sinds 1699 vanuit het Begijnhof wordt bestuurd.
+
+      Het zijn allemaal woonhuizen, te zien vanaf de straat.
+
+      Let op:
+      - de gevelsteen van Hans 't Mannetje uit 1971 in de Tuinstraat: een vrouw achter een orgel van planken
+      - de bewerkte naamsteen boven de poort van Regenboogs Liefdehofje
+      - de gedenksteen voor Johanna ter Meulen op Tuinstraat 166–172, en DRUK VERLICHTEN IS IEDERS PLICHT op nr. 99–101
+      - de lage vleugels uit 1617 rond de binnenplaats van het Sint Andrieshofje
+
+- title: Lindengracht, the eel riot and the northern hofjes
+  summary: "A banned game with a greased eel set off two days of street fighting on the Lindengracht in 1886. Along the filled canal and a street north stand four hofjes: Mennonite, Catholic and Protestant foundations, two of them bought on the same day."
+  body: |
+    The Lindengracht has been a street since 1895 and a market since 1910, but is remembered for a Sunday in July 1886. A crowd had gathered at a bridge here for palingtrekken (eel pulling), a banned game: players in rowing boats tried to pull a live, greased eel off a rope over the water. The police cut the rope. Two days of fighting followed, with barricades, and the army fired live rounds. The dead are given as 26, 27 or 28; no official list exists.
+
+    The same canal has two hofjes (almshouses round a courtyard). The Lindenhofje was bought by Waterland Mennonites in 1616 for needy widows and reopened in 2024 with flats for young people working in elderly care. Further west a deep passage leads to the Suyckerhoff-hofje, left in 1667 for old Protestant women and still let only to women; on weekdays you may usually step in quietly.
+
+    One street north, on the Palmgracht, a city treasurer and a Mennonite merchant bought land on the same day in 1648 and built the Raepenhofje and the Bossche Hofje side by side. They now share one garden. The Raepenhofje houses women students, who must leave if they move in with a partner; by day it is usually open.
+
+    Look for:
+    - the Saturday Lindenmarkt
+    - the stones of 1801 and 1885 on the Lindenhofje front
+    - the turnip (raap) over the Raepenhofje gate
+    - the gable stone over the Suyckerhoff passage, with the founder's name spelled right
+  category: housing
+  lat: 52.380038
+  lng: 4.883459
+  address: Lindengracht
+  links:
+    - { label: Wikipedia (nl) Palingoproer, url: "https://nl.wikipedia.org/wiki/Palingoproer" }
+    - { label: Hofjes in Amsterdam Lindenhofje, url: "https://hofjesinamsterdam.nl/lindenhofje/" }
+    - { label: Hofjes in Amsterdam Raepenhofje, url: "https://hofjesinamsterdam.nl/raepenhofje/" }
+    - { label: Hofjes in Amsterdam Suyckerhoff-hofje, url: "https://hofjesinamsterdam.nl/suyckerhoff-hofje/" }
+  photos:
+    - commons:File:Palingoproer in Amsterdam Lindengracht 1886 L'Illustration.jpg
+    - commons:File:Raepenhofje.JPG
+    - commons:File:Amsterdam Lindengracht hofje PJ suikerhof 3549.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-lindengracht
+    members:
+      - Lindengracht, the filled canal and the eel riot
+      - Raepenhofje and Bossche Hofje, two hofjes bought on one day
+      - Lindenhofje, from Mennonite widows to young care workers
+      - Suyckerhoff-hofje, behind a deep passage
+  nl:
+    title: Lindengracht, het Palingoproer en de noordelijke hofjes
+    summary: "Een verboden spel met een ingezeepte paling leidde in 1886 tot twee dagen straatgevechten op de Lindengracht. Langs de gedempte gracht en een straat verder liggen vier hofjes, doopsgezind, katholiek en protestants; twee ervan werden op één dag gekocht."
+    body: |
+      De Lindengracht is sinds 1895 een straat en sinds 1910 een markt, maar wordt vooral herinnerd om een zondag in juli 1886. Bij een brug hier stond een menigte te kijken naar het palingtrekken, een verboden spel: vanuit roeiboten probeerden spelers een levende, met groene zeep ingesmeerde paling van een touw boven het water te trekken. De politie sneed het touw door. Er volgden twee dagen gevechten met barricades, en het leger schoot met scherp. Het aantal doden wordt op 26, 27 of 28 gesteld; een officiële lijst is er niet.
+
+      Aan dezelfde gracht liggen twee hofjes. Het Lindenhofje werd in 1616 door Waterlandse doopsgezinden gekocht voor behoeftige weduwen en kreeg in 2024 woningen voor jongeren in de ouderenzorg. Verder naar het westen leidt een diepe gang naar het Suyckerhoff-hofje, in 1667 nagelaten voor oude protestantse vrouwen en nog altijd alleen voor vrouwen; op werkdagen mag je meestal stil naar binnen.
+
+      Een straat noordelijker, aan de Palmgracht, kochten een thesaurier van de stad en een doopsgezinde koopman in 1648 op dezelfde dag grond en bouwden het Raepenhofje en het Bossche Hofje naast elkaar. Nu delen ze één tuin. In het Raepenhofje wonen studentes, die weg moeten als ze gaan samenwonen; overdag staat het meestal open.
+
+      Let op:
+      - de Lindenmarkt op zaterdag
+      - de stenen met 1801 en 1885 in de gevel van het Lindenhofje
+      - de raap boven de poort van het Raepenhofje
+      - de gevelsteen boven de gang van het Suyckerhoff-hofje, met de naam van de stichter eindelijk goed gespeld
+
+- title: 'Around the Willemsstraat: a filled slum canal, its alleys and its builders'
+  summary: "A ditch lined with 57 slum alleys was filled in 1857 and became a test bed for fixing the Jordaan: a preacher's toddler school, the first housing association's rebuild, free homes for old workmen, a failed experiment in profitable housing, and a cartoonist's house."
+  body: |
+    The Willemsstraat was the Goudsbloemgracht, a ditch without quay walls with 57 alleys off it and some of the most notorious slums in Amsterdam. It was filled in 1857, and the people who wanted to fix the Jordaan set to work here.
+
+    In 1849 the Mennonite preacher Jan de Liefde came with a block of peat under one arm and a Bible under the other. His association Tot Heil des Volks opened a bewaarschool (day school for toddlers) at nos. 31–41 in 1855; the building now holds a walk-in centre for homeless people. From 1860 to 1894 the Vereeniging ten behoeve der Arbeidersklasse, the first housing association in the country, rebuilt the block house by house in the same plain brick. In 1863 its chairman added the Constantiahofje: 36 rent-free homes round a green court for workmen over sixty who had served one master for at least twelve years.
+
+    One street south, the Bouwonderneming Jordaan pulled down 131 slum homes in 1896 to prove that good workers' housing could pay its way without subsidy. Only 9 of the 103 old families moved back. At no. 204 the cartoonist Joost Swarte drew four rental flats of 2010, with a glass stairwell hung with charms for local legends.
+
+    Look for:
+    - the Gangenproject: tiles in the pavement between nos. 22 and 110 naming the lost alleys
+    - BEWAARSCHOOL in yellow tiles at nos. 31–41
+    - CONSTANTIA under the curved gable over the hofje gate
+    - the eight building trades on the lintels of Lindengracht 206–220
+  category: housing
+  lat: 52.381196
+  lng: 4.883745
+  address: Willemsstraat 24-226
+  links:
+    - { label: Wikipedia (nl) Willemsstraat, url: "https://nl.wikipedia.org/wiki/Willemsstraat_(Amsterdam)" }
+    - { label: Wikipedia (nl) Tot Heil des Volks, url: "https://nl.wikipedia.org/wiki/Tot_Heil_des_Volks" }
+    - { label: Wikipedia (nl) Constantiahofje, url: "https://nl.wikipedia.org/wiki/Constantiahofje" }
+    - { label: Wikipedia (nl) Bouwonderneming Jordaan, url: "https://nl.wikipedia.org/wiki/Bouwonderneming_Jordaan_NV" }
+  photos:
+    - commons:File:Willemsstraat alleys sign, Amsterdam.jpg
+    - commons:File:Constantiahofje.jpg
+    - commons:File:JoostSwarteHuis.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-willemsstraat
+    members:
+      - Willemsstraat, the slum canal the philanthropists filled
+      - Bewaarschool of Tot Heil des Volks, where a preacher came with peat and a Bible
+      - Constantiahofje, free homes for loyal old workmen
+      - Bouwonderneming Jordaan, an experiment that proved a point
+      - Joost Swarte's Willemsstraat house and the "Parels van de Jordaan"
+  nl:
+    title: Willemsstraat, de krottengracht die de weldoeners dempten
+    summary: "Een sloot met 57 krottengangen werd in 1857 gedempt en daarna een proeftuin voor de verbetering van de Jordaan: de bewaarschool van een predikant, de eerste woningbouwvereniging, gratis huisjes voor oude werklieden, een mislukte proef en het huis van een striptekenaar."
+    body: |
+      De Willemsstraat was de Goudsbloemgracht, een sloot zonder kademuren met 57 gangen en enkele van de beruchtste krotten van Amsterdam. In 1857 werd hij gedempt, en wie de Jordaan wilde verbeteren, begon hier.
+
+      In 1849 kwam de doopsgezinde predikant Jan de Liefde met een turf onder de ene arm en een Bijbel onder de andere. Zijn vereniging Tot Heil des Volks, in de buurt Het Heil, opende in 1855 een bewaarschool op nr. 31–41; nu zit er een inloophuis voor daklozen. Van 1860 tot 1894 bouwde de Vereeniging ten behoeve der Arbeidersklasse, de eerste woningbouwvereniging van het land, het blok huis voor huis opnieuw op, overal in dezelfde sobere baksteen. In 1863 voegde haar voorzitter het Constantiahofje toe: 36 huurvrije woningen rond een groene hof voor werklieden boven de zestig die minstens twaalf jaar bij dezelfde baas hadden gewerkt.
+
+      Een straat zuidelijker sloopte de Bouwonderneming Jordaan in 1896 131 krotwoningen om te bewijzen dat goede arbeiderswoningen zonder subsidie konden renderen. Van de 103 oude gezinnen keerden er maar 9 terug. Op nr. 204 ontwierp striptekenaar Joost Swarte vier huurwoningen uit 2010, met een glazen trappenhuis vol bedels voor buurtlegendes.
+
+      Let op:
+      - het Gangenproject: tegels in de stoep tussen nr. 22 en 110 met de namen van de verdwenen gangen
+      - BEWAARSCHOOL in gele tegels op nr. 31–41
+      - CONSTANTIA onder de gebogen gevel boven de poort van het hofje
+      - de acht bouwvakken op de lateien van Lindengracht 206–220
+
+- title: Palmgracht puns and pictures
+  summary: "A short filled canal of things that are not what they seem: three old houses that are one 1938 block, a colonial army advert painted back, cauliflowers for a man called Cool, a wedge-shaped school and a bridge named after a water spook."
+  body: |
+    On the Palmgracht, filled in 1895, at nos. 12–16 three old canal houses turn out to be one block of flats of 1938, wearing three 18th-century stone tops from the Sint Jorisstraat. The building inspector Eelke van Houten ordered it, and two stones reading herbouwd (rebuilt) and 1938 give it away. At nos. 41–43 the blind wall above a corner shop carries a call to join the Dutch East Indies army, first painted around 1920 and painted back around 2015, to some neighbours' objection. Just off the street, Theo Bosch's Palmdwarsstraat clusters of 1979–1981 were among the first Dutch renewal schemes to mend the old street pattern instead of replacing it, and gave planners the term semi-openbaar (semi-public).
+
+    Further west come the gable stones: De Blomkool (the cauliflower) at no. 63, a joke by an owner called Cool; across the street a musketeer copied from a drill manual of 1607; and at no. 68 a Javanese temple guardian for an owner born in Malang. At the Lijnbaansgracht end stands a wedge-shaped paupers' school of the early 1870s. Round the corner, the Marnixstraat bridge over the Brouwersgracht is the Bullebak, named after a water spook that pulled careless children into the canal.
+
+    Look for:
+    - herbouwd and 1938 on Palmgracht 12–16
+    - the army advert above the corner shop at nos. 41–43
+    - De Blomkool and In De Batavier, facing each other
+    - the Bullebak's name plate, and Martie van der Loo's sculpture of bricks from the old bridge
+  category: curiosities
+  lat: 52.381821
+  lng: 4.882871
+  address: Palmgracht 63-74
+  links:
+    - { label: VVAG De Blomkool, url: "https://www.gevelstenenvanamsterdam.nl/palmgracht-63-amsterdam-blomkool/" }
+    - { label: Wikipedia (nl) Palmgracht 41-43, url: "https://nl.wikipedia.org/wiki/Palmgracht_41-43" }
+    - { label: Wikipedia (nl) Eelke van Houten, url: "https://nl.wikipedia.org/wiki/Eelke_van_Houten" }
+    - { label: Wikipedia (nl) Bullebak, url: "https://nl.wikipedia.org/wiki/Bullebak" }
+  photos:
+    - commons:File:Palmgracht hoek Lijnbaansgracht.JPG
+    - commons:File:Palmdwarsstraat 2.jpg
+    - commons:File:Brug 149, overzicht.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-palmgracht
+    members:
+      - "Palmgracht: the cauliflower pun and the cake-slice school"
+      - The colonial army advert on the Palmgracht
+      - Palmgracht 12–16, three rescued tops on one block
+      - Palmdwarsstraat, where urban renewal learned to mend the old streets
+      - Bullebak (bridge 149)
+  nl:
+    title: Woordgrappen en beelden aan de Palmgracht
+    summary: "Een korte gedempte gracht vol dingen die anders zijn dan ze lijken: drie oude huizen die één blok uit 1938 zijn, een teruggeschilderde legerreclame, kolen voor een man die Cool heette, een school als een taartpunt en een brug die naar een waterspook heet."
+    body: |
+      Aan de Palmgracht, gedempt in 1895, lijken op nr. 12–16 drie oude grachtenhuizen te staan, maar het is één woonblok uit 1938 met drie 18e-eeuwse stenen toppen uit de Sint Jorisstraat. De opdracht kwam van bouwinspecteur Eelke van Houten, en twee stenen met herbouwd en 1938 verraden het. Op nr. 41–43 staat op de blinde muur boven een hoekwinkel een oproep om dienst te nemen bij het Indisch Leger, rond 1920 geschilderd en rond 2015 teruggeschilderd, tot ongenoegen van een deel van de buurt. Net om de hoek bouwde Theo Bosch in 1979–1981 de clusters van de Palmdwarsstraat, een van de eerste stadsvernieuwingsplannen die het oude stratenpatroon herstelden in plaats van het te vervangen. Het leverde de term semi-openbaar op.
+
+      Verder naar het westen beginnen de gevelstenen: De Blomkool op nr. 63, een grap van een eigenaar die Cool heette; aan de overkant een musketier overgenomen uit een exercitieboek van 1607; en op nr. 68 een Javaanse tempelwachter voor een eigenaar die in Malang was geboren. Aan het eind, bij de Lijnbaansgracht, staat een armenschool uit het begin van de jaren 1870 in de vorm van een taartpunt. Om de hoek ligt de Bullebak, de brug van de Marnixstraat over de Brouwersgracht, genoemd naar een waterspook dat onoplettende kinderen het water in trok.
+
+      Let op:
+      - herbouwd en 1938 in de gevel van Palmgracht 12–16
+      - de legerreclame boven de hoekwinkel op nr. 41–43
+      - De Blomkool en In De Batavier, tegenover elkaar
+      - het naambord van de Bullebak en het beeld van Martie van der Loo, gemaakt van stenen van de oude brug
+
+- title: Noordermarkt and the Brouwersgracht corner
+  summary: "A square that was a graveyard, with the city's second dune-water tap marked by a post; a café with stepped gables to two canals; two old bridges named after bakers and a paper dealer; and gable stones with riddles and sea fish along the Brouwersgracht."
+  body: |
+    The Noordermarkt was laid out in 1616, and until 1655 most of it was the Noorderkerk's graveyard; its outline is now laid into the paving. Near the statue of Woutertje Pieterse an inconspicuous post marks the city's second public tap of clean dune water, where people without a house connection paid a cent a bucket. On Monday mornings and Saturdays the square is a market.
+
+    At the canal corner, Café 't Papeneiland fills a house of 1641 with a stepped gable to both the Prinsengracht and the Brouwersgracht, a rare double show front. In front of it, the Lekkeresluis of 1754 is said to be named after bakers who praised their goods on the bridge. Beside it, the single arch of the Papiermolensluis (1781) took its name from a paper dealer's signboard; it was also the Oliekoekensluis, after the stalls of fried dough balls that stood here.
+
+    Walk east along the Brouwersgracht. At no. 97 a stone of 1772 says nobody will give five and a half stuivers for a sack, a riddle no one has solved; at no. 101 hangs a smack's sail, and across the water at no. 94 a cowherd stone. At no. 50, around 1715, Abraham Zeeman (seaman) had the claw pieces of his gable carved as sea fish.
+
+    Look for:
+    - the graveyard outline in the paving
+    - the café's two stepped gables
+    - the rhyme on Brouwersgracht 97
+    - the fish on Brouwersgracht 50
+  category: curiosities
+  lat: 52.380477
+  lng: 4.887968
+  address: Prinsengracht 2 and Brouwersgracht
+  links:
+    - { label: Wikipedia (nl) Noordermarkt, url: "https://nl.wikipedia.org/wiki/Noordermarkt" }
+    - { label: Wikipedia (nl) Lekkeresluis, url: "https://nl.wikipedia.org/wiki/Lekkeresluis" }
+    - { label: Café 't Papeneiland, url: "https://www.papeneiland.nl/" }
+    - { label: VVAG Brouwersgracht 97, url: "https://www.gevelstenenvanamsterdam.nl/brouwersgracht-97-amsterdam-sak-sesthalve/" }
+  photos:
+    - commons:File:Prinsengracht2.jpg
+    - commons:File:Brug 59 Lekkeresluis, in de Brouwersgracht over de Prinsengracht foto 3.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-noordermarkt
+    members:
+      - Papeneiland and the Lekkeresluis
+      - "Noordermarkt: the post, the plaque and the outline in the paving"
+      - Papiermolensluis, the paper mill bridge
+      - Three gable stones on the Brouwersgracht
+      - Gables that swim, Brouwersgracht 50
+  nl:
+    title: Noordermarkt en de hoek van de Brouwersgracht
+    summary: "Een plein dat kerkhof was, met een paaltje voor het tweede duinwatertappunt van de stad; een café met trapgevels naar twee grachten; twee oude bruggen genoemd naar bakkers en een papierhandelaar; en gevelstenen met raadsels en zeevissen langs de Brouwersgracht."
+    body: |
+      De Noordermarkt werd in 1616 aangelegd en was tot 1655 grotendeels het kerkhof van de Noorderkerk. De omtrek ervan ligt nu als rand in de bestrating. Bij het beeld van Woutertje Pieterse staat een onopvallend paaltje: hier was het tweede openbare tappunt voor schoon duinwater, waar wie geen aansluiting had een cent per emmer betaalde. Op maandagochtend en zaterdag is het plein markt.
+
+      Op de hoek van de grachten zit Café 't Papeneiland in een huis uit 1641 met een trapgevel naar zowel de Prinsengracht als de Brouwersgracht, iets wat je zelden ziet. Ervoor ligt de Lekkeresluis uit 1754, die haar naam zou danken aan bakkers die op de brug hun waren aanprezen. Ernaast heeft de Papiermolensluis (1781) één boog en een naam van het uithangbord van een papierhandelaar; ze heette ook Oliekoekensluis, naar de kraampjes met oliekoeken die hier stonden.
+
+      Loop dan oostwaarts langs de Brouwersgracht. Op nr. 97 zegt een steen uit 1772 dat niemand zesthalf stuiver voor een zak geeft, een raadsel dat nooit is opgelost; op nr. 101 hangt een smakzeil, en aan de overkant op nr. 94 een koewachtersteen. Op nr. 50 liet Abraham Zeeman rond 1715 de klauwstukken van zijn halsgevel als zeevissen uithakken.
+
+      Let op:
+      - de omtrek van het kerkhof in de bestrating
+      - de twee trapgevels van het café
+      - het rijmpje op Brouwersgracht 97
+      - de vissen op Brouwersgracht 50
+
+- title: Westerstraat's shops and walls
+  summary: "A walk along the filled Anjeliersgracht: a mural the neighbours saved, a phone box turned street bookcase, a street-organ workshop, a drugstore window pun, a 1930s rebuild that kept old stones, a school that flopped and a soap boiler's wandering stone."
+  body: |
+    The Westerstraat was the Anjeliersgracht until 1861. Start at its east end: Prinsengracht 70 lost its corner neighbour in 1950 and was left with a blank wall. In 2009 the residents had The London Police paint it; the city's monuments office wanted it gone, the neighbourhood objected, and it stayed. In the Boomstraat, a street north, a phone box of the 1933 model, with a solar panel, is the street's bookcase, won in a residents' budget vote.
+
+    At no. 119 gilded letters read Perlee Draaiorgels: a family has rented, built and mended street organs here since 1932, and still punches organ books with 19th-century tools. Groups can visit by appointment. Across the street at no. 138, the drugstore Hermanusje van Alles has changed a pun in its window every couple of months for some fifty years.
+
+    Further west, in the 1930s, the Reijnhoudt family and others replaced sagging houses with sober brick and kept the old gable stones; no. 109 is Café Nol. No. 187 was a school of 1867 whose day classes flopped because working families needed their children's wages; Marcel Wanders turned it into offices and studios. At no. 202 a gym of 1986 carries a soap boiler's lily stone of 1770 that wandered for half a century.
+
+    Look for:
+    - the number 70 and the cherry picker in the mural
+    - the current pun in Hermanusje's window
+    - ORANJE APPEL 1749 in the oriel of no. 198
+    - LELYVELD 1770 on no. 202
+  category: curiosities
+  lat: 52.378182
+  lng: 4.883016
+  address: Westerstraat 119
+  links:
+    - { label: Wikipedia (nl) G. Perlee Draaiorgelmuseum, url: "https://nl.wikipedia.org/wiki/G._Perlee_Draaiorgelmuseum" }
+    - { label: Hermanusje van Alles, url: "http://www.hermanusjevanalles.nl/" }
+    - { label: Wikipedia (nl) Prinsengracht 70, url: "https://nl.wikipedia.org/wiki/Prinsengracht_70" }
+    - { label: Wikipedia (nl) Westerstraat 202, url: "https://nl.wikipedia.org/wiki/Westerstraat_202_(Amsterdam)" }
+  photos:
+    - commons:File:Werkplaats-van-perlee-aan-de-westerstraat-in-amsterdam.jpg
+    - commons:File:Hermanusje van Alles winkel, foto 5.JPG
+    - commons:File:Amsterdam, Prinsengracht 70.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-westerstraat
+    members:
+      - Perlee, the street-organ workshop on the Westerstraat
+      - Hermanusje van Alles, the drugstore of window puns
+      - The phone box library of the Boomstraat
+      - Westerstraat's 1930s rebuild, crooked houses out, old stones kept
+      - Westerstraat 202, a soap boiler's stone in a 1980s wall
+      - Burgerschool of 1867, the day school that flopped
+      - The London Police on Prinsengracht 70, the mural the neighbours kept
+  nl:
+    title: Winkels en muren van de Westerstraat
+    summary: "Een wandeling over de gedempte Anjeliersgracht: een muurschildering die de buurt redde, een telefooncel als straatboekenkast, een draaiorgelwerkplaats, een drogistengrap, nieuwbouw uit de jaren dertig met oude stenen, een mislukte school en een zwervende gevelsteen."
+    body: |
+      De Westerstraat was tot 1861 de Anjeliersgracht. Begin aan de oostkant: Prinsengracht 70 verloor in 1950 zijn hoekbuur en hield een blinde muur over. In 2009 lieten de bewoners er The London Police op schilderen; Bureau Monumenten wilde het weg hebben, de buurt verzette zich en het bleef. Een straat noordelijker, in de Boomstraat, staat een telefooncel van het model 1933, met zonnepaneel, als straatboekenkast; de buurt won hem met Centrum Begroot.
+
+      Op nr. 119 staat in gouden letters Perlee Draaiorgels: sinds 1932 verhuurt, bouwt en herstelt een familie hier straatorgels, en de orgelboeken worden nog met negentiende-eeuws gereedschap geponst. Groepen kunnen op afspraak binnen. Aan de overkant, op nr. 138, verandert drogisterij Hermanusje van Alles al zo'n vijftig jaar om de paar maanden de woordgrap in de etalage.
+
+      Verder naar het westen vervingen de familie Reijnhoudt en anderen in de jaren dertig verzakte huizen door sobere baksteen, met behoud van de oude gevelstenen; op nr. 109 zit Café Nol. Nr. 187 was een burgerschool uit 1867 waarvan de dagschool mislukte, omdat gezinnen het loon van hun kinderen nodig hadden; Marcel Wanders maakte er kantoren en ateliers van. Op nr. 202 draagt een gymzaal uit 1986 de leliesteen uit 1770 van een zeepzieder, die een halve eeuw rondzwierf.
+
+      Let op:
+      - het nummer 70 en de hoogwerker in de schildering
+      - de woordgrap van nu in de etalage van Hermanusje
+      - ORANJE APPEL 1749 in de erker van nr. 198
+      - LELYVELD 1770 op nr. 202
+
+- title: Marnixplein and the northern Lijnbaansgracht
+  summary: "On the old city edge: Krop's bather lost and found, a liberation lime paid for by schoolchildren, workers' homes on the ramparts, a foundry turned flour mill and power station, a church built without an architect, a Moorish cinema front and the bastion where a riot began."
+  body: |
+    On the Marnixplein, where the city wall once ran, Hildo Krop's limestone bather decorated the public baths of 1955. When they came down in 2004 she went missing; after years of lobbying a crane hoisted her onto the new pool in 2019, now facing the Singelgracht. Henk Henriët's bronze Volksvrouw stands with folded arms nearby, and on the corner a lime tree planted on 4 May 1946, paid for by the pupils of thirteen Jordaan schools, is a war memorial that neighbours have twice defended. Along the Marnixstraat, workers' homes of the 1870s fill the levelled ramparts.
+
+    On the corner of the Westerstraat, a lawyer's 72 workers' homes of 1862 wish peace on the house over the door. Up the canal, De Weichsel stands on the site of the city foundry: a flour mill with an early grain silo, then a private power station. Then comes a church of 1911 that a newspaper found the Capuchin friars building themselves, without an architect; it has been Orthodox since 2005. Three Moorish horseshoe arches are all that is left of the Nassau cinema of 1913.
+
+    At the end, the Eerste Marnixplantsoen keeps a bastion's pointed shape. In June 1966 the builders' riot that cost a mayor his job began at its no. 1.
+
+    Look for:
+    - De Baadster on the west wall of Het Marnix, seen from the far bank
+    - the Bevrijdingslinde stone
+    - Vrede zij dezen Huize over the Concordia corner door
+    - the three horseshoe arches at Lijnbaansgracht 31
+  category: hidden-history
+  lat: 52.378161
+  lng: 4.878192
+  address: Marnixplein 1
+  links:
+    - { label: Wikipedia (nl) De baadster, url: "https://nl.wikipedia.org/wiki/De_baadster" }
+    - { label: 4en5mei.nl Bevrijdingslinde, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1610/amsterdam-bevrijdingslinde-van-de-jordaankinderen" }
+    - { label: Wikipedia (nl) Marnixplantsoenen, url: "https://nl.wikipedia.org/wiki/Marnixplantsoenen" }
+    - { label: Wikipedia (nl) Nassaubioscoop, url: "https://nl.wikipedia.org/wiki/Nassaubioscoop" }
+  photos:
+    - commons:File:Baadster op Marnixbad (2).jpg
+    - commons:File:Volksvrouw Henk Henriët Westerstraat Amsterdam.JPG
+    - commons:File:Eerste Marnixplantsoen, gezien vanaf de Singelgracht.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-marnixplein
+    members:
+      - "Marnixplein: Krop's lost bather and the Volksvrouw"
+      - Bevrijdingslinde van Jordaankinderen, the children's liberation tree
+      - Eerste Marnixplantsoen, the last bastion and the builders' riot
+      - Marnixstraat, workers' homes on the old ramparts
+      - Concordia on the Westerstraat, Peace be to this house
+      - Tichelkerk, the Capuchins' church built without an architect
+      - De Weichsel, from city foundry to flour mill to power station
+      - Nassaubioscoop, a Moorish cinema front on the Lijnbaansgracht
+  nl:
+    title: Marnixplein en de noordelijke Lijnbaansgracht
+    summary: "Langs de oude stadsrand: de zoekgeraakte baadster van Krop, een bevrijdingslinde van schoolkinderen, arbeiderswoningen op de wallen, een gieterij die meelfabriek en centrale werd, een zelfgebouwde kerk, een Moorse bioscoopgevel en het bolwerk waar een oproer begon."
+    body: |
+      Op het Marnixplein, waar de stadswal liep, sierde de kalkstenen baadster van Hildo Krop het badhuis van 1955. Bij de sloop in 2004 raakte ze zoek; na jaren aandringen hees een kraan haar in 2019 op het nieuwe zwembad, nu met haar gezicht naar de Singelgracht. Vlakbij staat de bronzen Volksvrouw van Henk Henriët met de armen over elkaar, en op de hoek staat een linde, geplant op 4 mei 1946 van geld dat leerlingen van dertien Jordaanscholen ophaalden. Het is een oorlogsmonument dat de buurt al twee keer heeft verdedigd. Langs de Marnixstraat staan arbeiderswoningen uit de jaren 1870 op de geslechte wallen.
+
+      Op de hoek met de Westerstraat liet een jurist in 1862 72 arbeiderswoningen bouwen, met boven de deur een wens van vrede voor het huis. Verderop aan de gracht staat De Weichsel op de plek van de stadsgieterij: een meelfabriek met een vroege graansilo, later een eigen elektriciteitscentrale. Dan een kerk uit 1911 die de kapucijnen volgens een krant zelf bouwden, zonder architect; sinds 2005 is ze orthodox. Drie Moorse hoefijzerbogen zijn wat rest van de Nassaubioscoop uit 1913.
+
+      Aan het eind heeft het Eerste Marnixplantsoen nog de puntvorm van een bolwerk. In juni 1966 begon bij nr. 1 het bouwvakkersoproer dat een burgemeester zijn baan kostte.
+
+      Let op:
+      - De Baadster op de westmuur van Het Marnix, te zien vanaf de overkant
+      - de steen bij de Bevrijdingslinde
+      - Vrede zij dezen Huize boven de hoekdeur van Concordia
+      - de drie hoefijzerbogen op Lijnbaansgracht 31
+
+- title: Theo Thijssen's Jordaan
+  summary: "The birth house of the teacher who wrote Kees de jongen, rebuilt after the council planned to demolish it, is a small museum. Around the corner Kees runs across a wall, a school bears Thijssen's name, and a nameless sculptor's iron accordion player hangs on a front."
+  body: |
+    Theo Thijssen, teacher, union man and author of Kees de jongen (1923), the classic about a Jordaan schoolboy with a runaway imagination, was born in 1879 at Eerste Leliedwarsstraat 16, where his father had a shoemaker's shop. The council meant to pull the house down for new housing; after some fuss it was rebuilt in its old form in 1991–1995, with a small museum on the ground floor. Refitted, it reopened in September 2026, with a corner for Kees de jongen; check the website for opening days.
+
+    A few streets north, on the side wall of Tuinstraat 61, Kees himself hurries past in his swimming-pool stride, from Dick Matena's graphic-novel version of the book. A museum volunteer saw Matena's Kees on a comics wall in Antwerp and wondered why the Jordaan had none; the residents' budget paid for the wall in 2025.
+
+    In the Anjeliersstraat, the Theo Thijssen school has since 1987 used a V-shaped Amsterdam School building of 1924, and brought along its 1947 portrait stone of the writer. A few doors on, an iron accordion player has hung on no. 175 since a night in 1994: the work of the Onbekende Beeldhouwer (unknown sculptor), a doctor, the city says, whose name it promised to keep secret.
+
+    Look for:
+    - Thijssen's dining table, now the museum's front desk
+    - the words "Vele mensen" on the Kees mural
+    - the portrait stone on the school
+    - the harmonica player on Anjeliersstraat 175
+  category: odd-museums
+  lat: 52.375538
+  lng: 4.882737
+  address: Eerste Leliedwarsstraat 16
+  links:
+    - { label: Theo Thijssen Museum, url: "https://www.theothijssenmuseum.nl/" }
+    - { label: Wikipedia (nl) Muurschildering Kees de jongen, url: "https://nl.wikipedia.org/wiki/Muurschildering_Kees_de_jongen" }
+    - { label: Wikipedia (nl) Theo Thijssen, url: "https://nl.wikipedia.org/wiki/Theo_Thijssen" }
+    - { label: Wikipedia (nl) De Onbekende Beeldhouwer, url: "https://nl.wikipedia.org/wiki/De_Onbekende_Beeldhouwer" }
+  photos:
+    - commons:File:2025 Tuinstraat, Asd-Kees de jongen (B).jpg
+    - commons:File:Theo Thijssenschool in de anjeliersstraat.JPG
+    - commons:File:Harmonica Anjelier.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-thijssen
+    members:
+      - Theo Thijssen Museum, in the house the council meant to demolish
+      - Kees de jongen on the "Tuinpleintje"
+      - Theo Thijssen school
+      - The harmonica player of the Anjeliersstraat, by a sculptor nobody names
+  nl:
+    title: De Jordaan van Theo Thijssen
+    summary: "Het geboortehuis van de onderwijzer die Kees de jongen schreef, herbouwd nadat de gemeente het wilde slopen, is een klein museum. Om de hoek rent Kees over een muur, draagt een school Thijssens naam en hangt een ijzeren harmonicaspeler van een naamloze beeldhouwer."
+    body: |
+      Theo Thijssen, onderwijzer, vakbondsman en schrijver van Kees de jongen (1923), het klassieke boek over een Jordaanse schooljongen met een op hol geslagen fantasie, werd in 1879 geboren op Eerste Leliedwarsstraat 16, waar zijn vader een schoenmakerij had. De gemeente wilde het huis slopen voor nieuwbouw; na enige ophef werd het in 1991–1995 in oude vorm herbouwd, met een klein museum beneden. Na een grondige vernieuwing ging het in september 2026 weer open, met een hoek voor Kees de jongen; kijk op de website voor de openingsdagen.
+
+      Een paar straten noordelijker, op de zijgevel van Tuinstraat 61, holt Kees zelf voorbij in zijn zwembadpas, naar de stripversie van Dick Matena. Een museumvrijwilliger zag Matena's Kees op een stripmuur in Antwerpen en vroeg zich af waarom de Jordaan er geen had; Centrum Begroot betaalde de muur in 2025.
+
+      In de Anjeliersstraat zit de Theo Thijssenschool sinds 1987 in een V-vormig gebouw in Amsterdamse Schoolstijl uit 1924, en de portretsteen van de schrijver uit 1947 verhuisde mee. Een paar deuren verder hangt sinds een nacht in 1994 een ijzeren harmonicaspeler aan nr. 175, van De Onbekende Beeldhouwer: een arts, zegt de gemeente, die heeft beloofd zijn naam geheim te houden.
+
+      Let op:
+      - Thijssens eettafel, nu de balie van het museum
+      - de woorden "Vele mensen" op de muurschildering
+      - de portretsteen aan de school
+      - de harmonicaspeler op Anjeliersstraat 175
+
+- title: Bloemgracht, Blaeu and the resistance attic
+  summary: "On one stretch of the Bloemgracht the Blaeus printed the Atlas Maior, three resistance men were shot in an attic ten days before liberation, and a church lost its tower. Round the corner stands a hall built to keep Jordaan men out of the pub."
+  body: |
+    At the corner of the Bloemgracht and the Tweede Leliedwarsstraat, no. 76, the map maker Willem Blaeu set up his printing house in the 1630s. His son Joan carried on, and on this canal the firm made the Atlas Maior of 1662: eleven volumes, nearly six hundred maps, one of the largest and most expensive books of the century. The house is private and has no plaque, but a bridge further west is named the Atlas Maiorbrug.
+
+    A few doors on, the top floors of no. 82 were a hiding place, an arms store and a base for the communist resistance. On 25 April 1945 German soldiers stormed in and shot three young men on the spot; a stone in the front names them. Further along stands the Bloemgrachtkerk of 1880, built in a Gothic style already old-fashioned at the time. Its little tower was taken down in 2019 for fear it would fall, and has not come back.
+
+    A street north, on the Egelantiersstraat, the Koning Willemshuis of 1863–1864 was a neighbourhood hall where a temperance preacher's society held Bible readings and language lessons at night, partly to keep the men out of the pub. Its dates over the doors, 1813 and 1863, mark fifty years of the kingdom. It now holds apartments.
+
+    Look for:
+    - the slanting corner entrance of no. 76
+    - the stone on no. 82: "Voor de vrijheid van hun vaderland gevallen"
+    - the empty spot on the church front where the tower stood
+    - 1813 and 1863 over the doors of the Koning Willemshuis
+  category: hidden-history
+  lat: 52.374937
+  lng: 4.881159
+  address: Bloemgracht 76
+  links:
+    - { label: Wikipedia (nl) Joan Blaeu, url: "https://nl.wikipedia.org/wiki/Joan_Blaeu" }
+    - { label: 4en5mei gevelsteen Bloemgracht, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1619/amsterdam-gevelsteen-aan-de-bloemgracht" }
+    - { label: Wikipedia (nl) Bloemgrachtkerk, url: "https://nl.wikipedia.org/wiki/Bloemgrachtkerk" }
+    - { label: Rijksmonumentenregister (518348), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/518348" }
+  photos:
+    - commons:File:Amsterdam Bloemgracht 98 across.jpg
+    - commons:File:2163 A-Egelantiersstraat 141-145 05 rm518348.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-bloemgracht
+    members:
+      - "Bloemgracht 76: where Blaeu printed the world"
+      - Bloemgracht 82, the resistance attic raided ten days before liberation
+      - Bloemgrachtkerk
+      - Koning Willemshuis, a club for the people of the Jordaan
+  nl:
+    title: Bloemgracht, Blaeu en de verzetszolder
+    summary: "Op één stuk Bloemgracht drukten de Blaeus de Atlas Maior, werden tien dagen voor de bevrijding drie verzetsmannen op een zolder doodgeschoten en verloor een kerk haar torentje. Om de hoek staat een zaal die Jordaanse mannen uit de kroeg moest houden."
+    body: |
+      Op de hoek van de Bloemgracht en de Tweede Leliedwarsstraat, nr. 76, begon kaartenmaker Willem Blaeu in de jaren dertig van de 17e eeuw zijn drukkerij. Zijn zoon Joan zette die voort, en aan deze gracht maakte de firma de Atlas Maior van 1662: elf delen, bijna zeshonderd kaarten, een van de grootste en duurste boeken van die eeuw. Het huis is privé en heeft geen plaquette, maar een brug verder naar het westen heet Atlas Maiorbrug.
+
+      Een paar deuren verder waren de bovenverdiepingen van nr. 82 onderduikadres, wapenopslag en uitvalsbasis van het communistische verzet. Op 25 april 1945 vielen Duitse soldaten binnen en schoten drie jonge mannen ter plekke dood; een steen in de gevel noemt hun namen. Verderop staat de Bloemgrachtkerk uit 1880, in een gotiek die toen al ouderwets was. Het torentje werd in 2019 weggehaald omdat het dreigde in te storten, en kwam niet terug.
+
+      Een straat noordelijker, in de Egelantiersstraat, staat het Koning Willemshuis uit 1863–1864, een buurthuis waar een christelijke wijkvereniging rond een predikant die tegen de drank streed 's avonds bijbellezingen en taalles gaf, mede om de mannen uit de kroeg te houden. De jaartallen boven de deuren, 1813 en 1863, vieren vijftig jaar koninkrijk. Nu zijn het appartementen.
+
+      Let op:
+      - de schuine hoekingang van nr. 76
+      - de steen op nr. 82: "Voor de vrijheid van hun vaderland gevallen"
+      - de lege plek boven op de kerkgevel waar het torentje stond
+      - 1813 en 1863 boven de deuren van het Koning Willemshuis
+
+- title: Rozengracht by day and night
+  summary: "On the filled Rozengracht: a picture palace with Pierrots on the door, a resistance man's literary bar, the club where house came in, Bols's founding myth, two hofjes (one on an old maze, one with the wrong date) and a banker's stone that turned black."
+  body: |
+    On the corner of the Rozenstraat, Prinsengracht 206 was bought with the gifts for a retiring banker in 1985; its stone shows silver falling into a castle and coming out as gold, and when the silver tarnished he objected to the black money. In the Rozenstraat, Ons Huis of 1892 offered Jordaan workers classes, chess and fencing; now COC Amsterdam is there. Back on the canal, Bols claims it began distilling at nos. 95–105 in 1575; genealogists call that a myth, and Berlage gave the firm a front copied from a 17th-century shop.
+
+    At no. 117 the Rozentheater of 1913 has four lute-playing Pierrots over its doors; Boom Chicago plays there now. Opposite, at no. 114, Club Mazzo (gone) brought house music to Amsterdam from 1989; its granite front remains. Next door the Rijpenhofje says 1747 over its gate, though it was founded in 1736. On the corner at no. 160, Theo Ruiter ran a café from 1940 where writers who joined the resistance drank. Further on, the Rozenhofje of 1744 stands on the site of a 17th-century maze garden.
+
+    Look for:
+    - the Batenburg stone in the side wall on the Rozenstraat
+    - the Pierrots over the Rozentheater doors
+    - 1747 in the Rijpenhofje pediment
+    - the oriel with a rose over the Rozenhofje gate
+  category: hidden-history
+  lat: 52.372808
+  lng: 4.879009
+  address: Rozengracht 117
+  links:
+    - { label: Wikipedia (nl) Rozentheater, url: "https://nl.wikipedia.org/wiki/Rozentheater" }
+    - { label: Wikipedia (nl) Theo Ruiter, url: "https://nl.wikipedia.org/wiki/Theo_Ruiter" }
+    - { label: Hofjes in Amsterdam Rozenhofje, url: "https://hofjesinamsterdam.nl/rozenhofje/" }
+    - { label: Stadsherstel Prinsengracht 206, url: "https://stadsherstel.nl/monumenten/prinsengracht-206/" }
+  photos:
+    - commons:File:Rozentheater.JPG
+    - commons:File:Rozengracht 147 to 181 left.jpg
+    - commons:File:Amsterdam, Prinsengracht 206.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-rozengracht
+    members:
+      - Rozentheater, a picture palace with Pierrots on the door
+      - Café Theo Ruiter, the resistance man's literary bar
+      - Club Mazzo, behind an upholsterer's granite front (gone)
+      - Bols on the Rozengracht, and the year 1575
+      - Rozenhofje, an almshouse on an old pleasure maze
+      - Rijpenhofje, where the date over the door is wrong
+      - Ons Huis, where the classes were meant to meet
+      - Prinsengracht 206, the banker's stone and the black money
+  nl:
+    title: Rozengracht bij dag en bij nacht
+    summary: "Aan de gedempte Rozengracht: een bioscoop met Pierrots boven de deur, het literaire café van een verzetsman, de club waar house binnenkwam, de stichtingsmythe van Bols, twee hofjes (een op een oude doolhof, een met het verkeerde jaartal) en een bankierssteen die zwart werd."
+    body: |
+      Op de hoek met de Rozenstraat werd Prinsengracht 206 in 1985 gekocht van de giften bij het afscheid van een bankier. De gevelsteen toont zilver dat in een burcht valt en er als goud uitkomt; toen het zilver zwart werd, had hij bezwaar tegen dat zwarte geld. In de Rozenstraat bood Ons Huis vanaf 1892 Jordanezen les, schaken en schermen; nu zit COC Amsterdam er. Terug aan de gracht zegt Bols dat het in 1575 op nr. 95–105 begon te stoken. Genealogen houden dat voor een mythe, en Berlage gaf de firma een gevel naar een zeventiende-eeuws winkelhuis.
+
+      Op nr. 117 heeft het Rozentheater uit 1913 vier luitspelende Pierrots boven de deuren; nu speelt Boom Chicago er. Tegenover, op nr. 114, kwam vanaf 1989 in Club Mazzo (verdwenen) de housemuziek Amsterdam binnen; de granieten pui staat er nog. Ernaast staat 1747 boven de poort van het Rijpenhofje, dat al in 1736 werd gesticht. Op de hoek, nr. 160, had verzetsman Theo Ruiter vanaf 1940 een café waar schrijvers kwamen die in het verzet gingen. Verderop ligt het Rozenhofje uit 1744 op de plek van een zeventiende-eeuwse doolhof.
+
+      Let op:
+      - de Batenburgsteen in de zijgevel aan de Rozenstraat
+      - de Pierrots boven de deuren van het Rozentheater
+      - 1747 in het fronton van het Rijpenhofje
+      - de erker met een roos boven de poort van het Rozenhofje
+
+- title: Van Houten's recycled gables in the Laurier streets
+  summary: "Round the Lauriergracht, old stone gable tops sit on 1930s houses, saved by a building inspector. Between them: a Jesuit general's birthplace, blocks built against unemployment in 1915, a hidden convent chapel, the last tile bakery, an orphanage and Breitner's view."
+  body: |
+    Look up in the streets round the Lauriergracht: dozens of 18th-century stone gable tops sit on houses of the 1930s. Eelke van Houten, head inspector at the city's building department, had the carved tops of condemned houses stored and set on the new brick fronts, and the national register lists many of these houses for those stones alone.
+
+    In the Rozenstraat, five houses of 1934 at nos. 35–43 wear five borrowed tops. The run goes on in the Eerste Laurierdwarsstraat and the Laurierstraat, where a stone portrait on no. 62, rebuilt in 1933 under its old top, marks the birthplace of Jan Roothaan, who led the Jesuits worldwide from 1829 to 1853. Further west two plain blocks of 1915–16 face each other; a stone says the city paid three fifths, to fight unemployment in a war year. In the Tweede Laurierdwarsstraat a few houses survived the later clearances.
+
+    Back on the Lauriergracht, the nine-window front of the Lutheran orphanage of 1784 carries a swan. Behind a plain front at no. 39 hides the neo-Gothic chapel of 1882 of De Voorzienigheid, a Catholic home for girls; it is for sale. At no. 12 a passage with a gutter for wheelbarrows led to the last tile bakery in Amsterdam. Breitner lived at no. 8 and painted the row across the water, which still stands, a little crooked.
+
+    Look for:
+    - the five different tops over Rozenstraat 35–43
+    - Roothaan's head on Laurierstraat 62
+    - the unemployment stone over Laurierstraat 214–216
+    - the Breitner plaque on Lauriergracht 8
+  category: housing
+  lat: 52.372591
+  lng: 4.880759
+  address: Eerste Laurierdwarsstraat 3-50, Laurierstraat, Lauriergracht, Prinsengracht 382
+  links:
+    - { label: Wikipedia (nl) Van Houten-monumenten, url: "https://nl.wikipedia.org/wiki/Van_Houten-monumenten" }
+    - { label: Wikipedia (nl) Jan Roothaan, url: "https://nl.wikipedia.org/wiki/Jan_Roothaan" }
+    - { label: Stedelijk Museum Breitner Lauriergracht, url: "https://stedelijk.nl/en/collection/3631-george-hendrik-breitner-lauriergracht-amsterdam" }
+    - { label: Stadsherstel Lauriergracht 12, url: "https://stadsherstel.nl/monumenten/lauriergracht-12/" }
+  photos:
+    - commons:File:Amsterdam Eerste Laurierdwarsstraat 3 top.jpg
+    - commons:File:Amsterdam Rozenstraat 39 top.jpg
+    - commons:File:Amsterdam Lauriergracht 116 across.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-laurier
+    members:
+      - Eelke van Houten's second-hand gables
+      - Rozenstraat's 1934 row under borrowed gable tops
+      - Laurierstraat's "fight unemployment" blocks of 1915
+      - Tweede Laurierdwarsstraat, what the clearances left standing
+      - Birthplace of the Jesuit general Jan Roothaan
+      - Breitner's view on the Lauriergracht
+      - De Voorzienigheid's hidden chapel and the ad agency inside
+      - Lauriergracht 12, the last tile bakery behind a barrow passage
+      - The Lutheran orphanage on the Lauriergracht
+  nl:
+    title: De tweedehands geveltoppen van Van Houten rond de Lauriergracht
+    summary: "Rond de Lauriergracht staan oude geveltoppen op huizen uit de jaren dertig, gered door een inspecteur. Daartussen het geboortehuis van een jezuïetengeneraal, blokken tegen de werkloosheid, een verborgen kapel, de laatste tegelbakkerij, een weeshuis en Breitners uitzicht."
+    body: |
+      Kijk omhoog in de straten rond de Lauriergracht: tientallen achttiende-eeuwse stenen geveltoppen staan op huizen uit de jaren dertig. Eelke van Houten, hoofdinspecteur bij Bouw- en Woningtoezicht, liet de bewerkte toppen van afgekeurde huizen opslaan en op de nieuwe bakstenen gevels zetten. Veel van die huizen zijn alleen om die stenen rijksmonument.
+
+      In de Rozenstraat dragen vijf huizen uit 1934, nr. 35–43, vijf geleende toppen. In de Eerste Laurierdwarsstraat en de Laurierstraat gaat de rij door. Op Laurierstraat 62, in 1933 herbouwd onder de oude top, wijst een stenen portret het geboortehuis aan van Jan Roothaan, die van 1829 tot 1853 de jezuïeten wereldwijd leidde. Verder naar het westen staan twee sobere blokken uit 1915–16 tegenover elkaar; een steen zegt dat de gemeente drie vijfde betaalde, om in een oorlogsjaar de werkloosheid te bestrijden. In de Tweede Laurierdwarsstraat overleefden een paar huizen de latere sanering.
+
+      Terug aan de Lauriergracht draagt de gevel van negen ramen breed van het Lutherse weeshuis uit 1784 een zwaan. Achter een sobere gevel op nr. 39 staat de neogotische kapel uit 1882 van De Voorzienigheid, een katholiek meisjestehuis; ze staat te koop. Op nr. 12 liep een gang met een goot voor kruiwagens naar de laatste tegelbakkerij van Amsterdam. Breitner woonde op nr. 8 en schilderde de huizen aan de overkant, die er nog staan, een beetje scheef.
+
+      Let op:
+      - de vijf verschillende toppen boven Rozenstraat 35–43
+      - het hoofd van Roothaan op Laurierstraat 62
+      - de werkloosheidssteen boven Laurierstraat 214–216
+      - de Breitnerplaquette op Lauriergracht 8
+
+- title: Elandsstraat's courts
+  summary: "Five courts and gates in a hundred metres: a Turkish flag over an alley, a hofje named after Venice whose lost archive turned up in an iron chest, a Catholic boys' orphanage, flats on a notorious slum and some of the first workers' homes in the Jordaan."
+  body: |
+    In the Hazenstraat, just off the Elandsstraat, a stone of 1893 over a little gate shows a red flag with a white crescent and star: De Turksche Keizerspoort, the name of an older complex behind. Where the Turkish emperor came from is not settled.
+
+    On the Elandsstraat, VENETIA is cut over a plain door. A VOC cashier who traded a lot with Venice built this hofje (almshouse round a courtyard) in 1650 for poor widows and single women. In the 1970s the regents had a rusted iron chest of more than sixty kilos opened and found the archive up to 1824 inside. Next door, the Catholic boys' orphanage of 1686 was paid for by a community that had to worship out of sight; since 1971 it has been the Platanenhof, after the plane trees in its courtyard, with homes, a nursery and a youth theatre.
+
+    Further on, behind a wrought-iron railing, the Hof van Parijs of 1903 stands where some thirty hovels off the Boerengang made one of the Jordaan's most notorious slums. At the Lijnbaansgracht, C.P. van Eeghen's five blocks of 1858–1860 round a shared yard were among the first housing schemes in the Jordaan; his company Concordia added to them until 1897. The courts are private homes.
+
+    Look for:
+    - the flag stone over the Hazenstraat gate
+    - VENETIA over the hofje door
+    - the clock face in the middle dormer of the Platanenhof
+    - the tile mosaics over the windows of the Hof van Parijs
+  category: housing
+  lat: 52.370158
+  lng: 4.879421
+  address: Elandsstraat 102-150
+  links:
+    - { label: Hofjes in Amsterdam Hofje Venetiae, url: "https://hofjesinamsterdam.nl/hofje-venetiae/" }
+    - { label: Wikipedia (nl) Platanenhof, url: "https://nl.wikipedia.org/wiki/Platanenhof" }
+    - { label: Hofjes in Amsterdam Hof van Parijs, url: "https://hofjesinamsterdam.nl/hof-van-parijs/" }
+    - { label: Hofjes in Amsterdam Concordiahofje Zuid, url: "https://hofjesinamsterdam.nl/concordiahofje-zuid/" }
+  photos:
+    - commons:File:2281A Elandstraat102 01 rm1037.jpg
+    - commons:File:Platanenhof Amsterdam.jpg
+    - commons:File:2021 Hazenstraat 10-18, Asd-Turkse Keizerspoort (1).jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-elandsstraat
+    members:
+      - Hofje Venetiae
+      - Platanenhof, the Catholic boys' orphanage
+      - De Turksche Keizerspoort, a Turkish flag in the Hazenstraat
+      - Hof van Parijs
+      - Concordia's hofje of workers' homes on the Lijnbaansgracht
+  nl:
+    title: De hoven van de Elandsstraat
+    summary: "Vijf hoven en poorten op een paar honderd meter: een Turkse vlag boven een gangetje, een hofje naar Venetië met een archief in een ijzeren kist, een katholiek jongensweeshuis, woningen op een berucht slop en een van de eerste arbeiderscomplexen van de Jordaan."
+    body: |
+      In de Hazenstraat, net naast de Elandsstraat, zit boven een poortje een steen uit 1893 met een rode vlag, witte maan en ster: De Turksche Keizerspoort, de naam van een ouder complex erachter. Waar die Turkse keizer vandaan komt, is nooit uitgemaakt.
+
+      In de Elandsstraat staat VENETIA in grote letters boven een eenvoudige deur. Een kassier van de VOC die veel op Venetië handelde, bouwde dit hofje in 1650 voor arme weduwen en ongetrouwde vrouwen. In de jaren zeventig lieten de regenten een verroeste ijzeren kist van ruim zestig kilo openmaken en vonden het archief tot 1824. Ernaast staat het katholieke jongensweeshuis van 1686, betaald door een gemeenschap die uit het zicht moest kerken. Sinds 1971 heet het Platanenhof, naar de platanen op de binnenplaats, met woningen, een kinderdagverblijf en een jeugdtheater.
+
+      Verderop, achter een smeedijzeren hek, staat het Hof van Parijs uit 1903, op de plek waar zo'n dertig krotjes aan de Boerengang een van de beruchtste sloppen van de Jordaan vormden. Aan de Lijnbaansgracht bouwde C.P. van Eeghen in 1858–1860 vijf blokken rond een gezamenlijk binnenterrein, een van de eerste woningbouwprojecten van de Jordaan; zijn maatschappij Concordia breidde het tot 1897 uit. Het zijn allemaal woonhuizen.
+
+      Let op:
+      - de vlaggensteen boven het poortje in de Hazenstraat
+      - VENETIA boven de deur van het hofje
+      - de wijzerplaat in de middelste dakkapel van het Platanenhof
+      - de tegelmozaïekjes boven de ramen van het Hof van Parijs
+
+- title: Jordaan legends at the Elandsgracht
+  summary: "Bronze Jordaan singers on a square one neighbour willed into being, two stones for a robber's fort that never existed, a bronze regular who paid off a bar tab, and a wooden footbridge set on fire in the riot of 1934."
+  body: |
+    The Johnny Jordaanplein was laid out in the 1970s as a station for the witkar, the city's shared white electric cars, and then ran down. When the singer Johnny Jordaan died in 1989, his former neighbour Hannie Pastor promised him the neighbourhood would honour him, and nailed up a name sign himself. Bronzes followed: Johnny, Tante Leen, Johnny Meijer, Manke Nelis, and Bolle Jan and Mien. Pastor fought off canal-belt neighbours who wanted a fountain, collecting 500 signatures in two days, and tended the square until he died in 2015.
+
+    Halfway down the canal, two painted stones of 1999 at no. 73 remember the robber Jaco and his Fort van Sjako, a lawless thieves' den in the alleys here. Jaco was real, executed in 1718 for crimes committed outside the city; the fort first appears in a book of 1901, and a historian found in 2007 that none of it holds up. The block of 1886 that replaced the alleys is real, with a first stone laid by a boy of three.
+
+    One canal south, on the Looiersgracht, a bronze regular strokes a cat on the bench of café Festina Lente: a young sculptor paid off his bar tab with him. Nearby, bridge 102 is still wooden; in the Jordaan riot of 1934 it was set on fire.
+
+    Look for:
+    - the five bronzes on the square
+    - C.W. Hemker's first stone, aged 3, in the base of Elandsgracht 73
+    - the cat under the regular's hand
+    - the timber piers of bridge 102
+  category: street-art
+  lat: 52.37015
+  lng: 4.882267
+  address: Elandsgracht, at the Prinsengracht
+  links:
+    - { label: Wikipedia (nl) Johnny Jordaanplein, url: "https://nl.wikipedia.org/wiki/Johnny_Jordaanplein" }
+    - { label: Wikipedia (nl) Fort van Sjako, url: "https://nl.wikipedia.org/wiki/Fort_van_Sjako" }
+    - { label: Wikipedia (nl) Vaste klant, url: "https://nl.wikipedia.org/wiki/Vaste_klant" }
+    - { label: Wikipedia (nl) Brug 102, url: "https://nl.wikipedia.org/wiki/Brug_102" }
+  photos:
+    - commons:File:2024 Johnny Jordaanplein-Asd-algemeen (A).jpg
+    - commons:File:Elandsgracht 73, Amsterdam (detail), het Fort van Sjako.jpg
+    - commons:File:Voetbrug Looiersgracht.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-elandsgracht
+    members:
+      - Johnny Jordaanplein, the statue garden a neighbour willed into being
+      - Fort van Sjako gable stones
+      - Vaste klant, a statue that paid off a bar tab
+      - Bridge 102, the wooden footbridge of the Looiersgracht
+  nl:
+    title: Jordaanse legendes aan de Elandsgracht
+    summary: "Bronzen Jordaanzangers op een plein dat één buurman afdwong, twee stenen voor een boevenfort dat nooit bestond, een bronzen stamgast die een kroegschuld afloste en een houten voetbrug die in het oproer van 1934 in brand ging."
+    body: |
+      Het Johnny Jordaanplein werd in de jaren zeventig aangelegd als station voor de witkar en verloederde daarna. Toen Johnny Jordaan in 1989 overleed, beloofde zijn oud-buurman Hannie Pastor hem dat de buurt hem altijd zou eren, en hij spijkerde zelf een naambordje op. Er kwamen bronzen beelden: Johnny, Tante Leen, Johnny Meijer, Manke Nelis, en Bolle Jan en Mien. Pastor hield grachtengordelbewoners tegen die er een fontein wilden, haalde in twee dagen 500 handtekeningen op en verzorgde het plein tot zijn dood in 2015.
+
+      Halverwege de gracht herinneren twee beschilderde stenen uit 1999 op nr. 73 aan boef Jaco en zijn Fort van Sjako, een rovershol in de stegen hier. Jaco bestond echt en werd in 1718 terechtgesteld, voor misdaden die hij buiten de stad had gepleegd. Het fort duikt pas op in een boek uit 1901, en een historicus liet in 2007 zien dat er niets van klopt. Echt is wel het woonblok uit 1886 dat de stegen verving, met een eerste steen gelegd door een jongetje van drie.
+
+      Een gracht zuidelijker, aan de Looiersgracht, aait een bronzen stamgast een poes op het bankje van café Festina Lente: een jonge beeldhouwer loste er zijn kroegschuld mee af. Vlakbij is brug 102 nog altijd van hout; in het Jordaanoproer van 1934 werd ze in brand gestoken.
+
+      Let op:
+      - de vijf bronzen beelden op het plein
+      - de eerste steen van C.W. Hemker, oud 3 jaar, in de plint van Elandsgracht 73
+      - de poes onder de hand van de stamgast
+      - de houten pijlers van brug 102
+
+- title: Walenhoek's social experiments
+  summary: "Round the Passeerdersgracht, each building tried to fix something: a refuge that asked no repentance, the oldest workers' homes still standing, a hofje without a courtyard, schools on a cemetery, a labour exchange that sorted you at the door, a hotel for single men."
+  body: |
+    On the Passeerdersgracht, at nos. 15–19, a charity built a day refuge for the homeless around 1850, one that did not order its guests to mend their ways; behind it, in the Walenhoek alley, stand two old warehouses, and Bordewijk put the brothel of his novel Rood paleis here. Round the corner, Hana's twelve trial homes of 1853 by the first housing association in the country are the oldest of its homes left. Further along the same street, the Hofje van de Weduwe Roosen is a hofje without a courtyard: four small houses under one front, where eight women lived rent-free.
+
+    Across the canal, the labour exchange of 1915–1917 was the first office designed for finding people work: men and bakers came in at the side, employers and women on the canal. At the end of the canal, the old Leidse cemetery, closed in 1866, gave way to a commercial school where Willem Drees took his exams and a double free school for the poorest, where Jac. P. Thijsse was head. On the Marnixstraat, the ATVA of 1918 had 350 tiny rooms for single workmen, though war prices let in clerks and actors instead. On the corner, a gym hall of 1887 says Rust Roest (rest is rust).
+
+    Look for:
+    - the bay window climbing three storeys over the labour exchange's canal door
+    - the Walenhoek street sign
+    - KONINGIN EMMA SCHOOL over Passeerdersgracht 23
+    - TURNZAAL and Rust Roest on the gym hall
+  category: civic
+  lat: 52.36715
+  lng: 4.880116
+  address: Passeerdersgracht 30-32, Tweede Passeerdersdwarsstraat 7-9
+  links:
+    - { label: Wikipedia (nl) Passeerdersgracht 30-32, url: "https://nl.wikipedia.org/wiki/Passeerdersgracht_30-32" }
+    - { label: Wikipedia (nl) Passeerdersgracht, url: "https://nl.wikipedia.org/wiki/Passeerdersgracht" }
+    - { label: Wikipedia (nl) Amsterdamsch Tehuis voor Arbeiders, url: "https://nl.wikipedia.org/wiki/Amsterdamsch_Tehuis_voor_Arbeiders" }
+    - { label: Hofjes in Amsterdam Weduwe Roosen, url: "https://hofjesinamsterdam.nl/hofjen-van-de-weduwe-roosen/" }
+  photos:
+    - commons:File:Arbeidsbeurs.JPG
+    - commons:File:Voormalig tehuis voor onbehuisden.JPG
+    - commons:File:Nieuwe Passeerdersstraat 1 in 2019 (1).jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-walenhoek
+    members:
+      - Arbeidsbeurs, the labour exchange that sorted you at the door
+      - The refuge for the needy in the Walenhoek
+      - Hana's model homes, the oldest workers' housing still standing
+      - Hofje van de Weduwe Roosen
+      - Two schools on the old Leidse cemetery
+      - ATVA, the hotel for single working men
+      - Turnzaal of 1887, the gym hall with Rust Roest on its front
+  nl:
+    title: De sociale proeven van de Walenhoek
+    summary: "Rond de Passeerdersgracht wilde elk gebouw iets verbeteren: een toevlucht zonder bekeringsdwang, de oudste arbeiderswoningen die er nog zijn, een hofje zonder hof, scholen op een kerkhof, een arbeidsbeurs die je bij de deur sorteerde en een tehuis voor vrijgezellen."
+    body: |
+      Aan de Passeerdersgracht, op nr. 15–19, bouwde een liefdadige instelling rond 1850 een dagverblijf voor daklozen, waar niemand werd gesommeerd zijn leven te beteren. Erachter, in de Walenhoek, staan twee oude pakhuizen, en Bordewijk zette hier het bordeel van zijn roman Rood paleis neer. Om de hoek staan de twaalf proefwoningen van Hana uit 1853, van de eerste woningbouwvereniging van het land: de oudste van haar woningen die er nog zijn. Verderop in dezelfde straat is het Hofje van de Weduwe Roosen een hofje zonder hof: vier huisjes achter één gevel, waar acht vrouwen gratis woonden.
+
+      Aan de overkant staat de Arbeidsbeurs van 1915–1917, het eerste kantoor dat speciaal voor arbeidsbemiddeling werd ontworpen: mannen en bakkers gingen opzij naar binnen, werkgevers en vrouwen aan de gracht. Aan het eind van de gracht maakte het Leidsche Kerkhof, gesloten in 1866, plaats voor een handelsschool waar Willem Drees eindexamen deed en een dubbele kosteloze school waar Jac. P. Thijsse hoofd was. Aan de Marnixstraat telde het ATVA uit 1918 350 kamertjes voor alleenstaande arbeiders, maar door de oorlogsprijzen kwamen er klerken en acteurs. Op de hoek staat een turnzaal uit 1887 met Rust Roest in de gevel.
+
+      Let op:
+      - de erker die drie verdiepingen hoog boven de grachtdeur van de Arbeidsbeurs klimt
+      - het straatnaambord van de Walenhoek
+      - KONINGIN EMMA SCHOOL boven Passeerdersgracht 23
+      - TURNZAAL en Rust Roest op de turnzaal
+
+- title: Prinsengracht at the Leidsegracht
+  summary: "A short stretch of small surprises: a church school whose two carved heads have eyes shut and eyes open, a god eating his child, a silk trader's herring-boat pun, and the city masons' house where the Leidsegracht stops short."
+  body: |
+    Where the Leidsegracht leaves the Prinsengracht, a few buildings carry odd pictures and odd histories.
+
+    At Prinsengracht 394 a painted stone labelled SATVRNVS shows the Roman god of time with a scythe in one hand and a child in the other; it follows a print by Jacob Matham after Goltzius, except that a Janus head stands where the print has a cloud. A few doors on, the J.J. van Noortschool of 1925, a Reformed church school by Cornelis Kruyswijk, is the only Amsterdam School building on this stretch. By its door Theo van Reijn carved two heads, one with its eyes shut and one with them open, for the way schooling opens eyes. A language school uses it now.
+
+    On the corner of the Leidsegracht, a stone high on no. 424 shows a herring buss. It has nothing to do with fish: the silk trader who bought the plot around 1664 was called Buys. At the far end of the Leidsegracht, where the canal stops short, a low square house of about 1663–1664 was home to the city's master masons and architects until 1829, beside the city's stone yard. A student society meets there now, and next door stands a corner house so crooked that Stadsherstel called it a bookend.
+
+    Look for:
+    - Saturn's child and the Janus head on no. 394
+    - the two heads by the school door
+    - the herring buss over the top-floor window of no. 424
+    - the masons' house door up its stoop on the Raamdwarsstraat
+  category: curiosities
+  lat: 52.366754
+  lng: 4.882044
+  address: Prinsengracht 400-406
+  links:
+    - { label: Wikipedia (nl) Prinsengracht 400, url: "https://nl.wikipedia.org/wiki/Prinsengracht_400" }
+    - { label: Gevelstenen van Amsterdam Prinsengracht 394, url: "https://amsterdamsegevelstenen.nl/prinsengracht-394" }
+    - { label: Gevelstenen van Amsterdam Prinsengracht 424, url: "https://amsterdamsegevelstenen.nl/prinsengracht-424" }
+    - { label: Wikipedia (nl) Leidsegracht 108, url: "https://nl.wikipedia.org/wiki/Leidsegracht_108" }
+  photos:
+    - commons:File:Overzicht - Amsterdam - 20018797 - RCE.jpg
+    - commons:File:SSRA Sociëteit Pylades.jpg
+  attributes:
+    rank: Okay
+  cluster:
+    key: jo-leidsegracht
+    members:
+      - J.J. van Noortschool, eyes shut and eyes open
+      - Saturn eating his child, a gable stone on the Prinsengracht
+      - In de Buis, a silk trader's pun on the corner of the Leidsegracht
+      - The city masons' house at the dead end of the Leidsegracht
+  nl:
+    title: Prinsengracht bij de Leidsegracht
+    summary: "Een kort stuk gracht met kleine verrassingen: een christelijke school met twee koppen, ogen dicht en ogen open, een god die zijn kind verslindt, een woordgrap met een haringbuis en het huis van de stadsmetselaars waar de Leidsegracht doodloopt."
+    body: |
+      Waar de Leidsegracht van de Prinsengracht aftakt, dragen een paar gebouwen vreemde beelden en vreemde verhalen.
+
+      Op Prinsengracht 394 zit een beschilderde steen met het opschrift SATVRNVS: de Romeinse god van de tijd, met een zeis in de ene hand en een kind in de andere. Voorbeeld was een prent van Jacob Matham naar Goltzius, alleen staat er een Januskop waar de prent een wolk heeft. Een paar deuren verder is de J.J. van Noortschool uit 1925, een hervormde school van Cornelis Kruyswijk, het enige gebouw in Amsterdamse Schoolstijl aan dit stuk gracht. Naast de deur hakte Theo van Reijn twee koppen, de ene met de ogen dicht, de andere open: onderwijs opent de ogen. Nu zit er een talenschool.
+
+      Op de hoek van de Leidsegracht zit hoog in nr. 424 een steen met een haringbuis. Met vis heeft die niets te maken: de zijdehandelaar die het erf rond 1664 kocht, heette Buys. Aan het eind van de Leidsegracht, waar de gracht ophoudt, staat een laag vierkant huis van rond 1663–1664, tot 1829 het onderkomen van de stadsmeestermetselaars en stadsbouwmeesters, naast de metseltuin van de stad. Nu zit er een studentensociëteit, en ernaast staat een hoekhuis dat zo scheef stond dat Stadsherstel het een boekensteun noemde.
+
+      Let op:
+      - het kind en de Januskop op nr. 394
+      - de twee koppen naast de schooldeur
+      - de haringbuis boven het bovenste middenraam van nr. 424
+      - de deur van het metselaarshuis boven aan de stoep in de Raamdwarsstraat
+
+- title: Raampoort, police tower and drama school
+  summary: "On the old ramparts by the Singelgracht: a police station with a castle tower where fictional detectives worked, the first drama school's little stage, a statue parked 'for now' since 2008, houses below the street, a hofje with no courtyard and two buildings for the poorest."
+  body: |
+    The Raampoort, a small city gate, stood by the Singelgracht until 1844. In 1888 a police station went up on its site, with battlements and an octagonal tower; in Appie Baantjer's crime novels and on television, detectives worked here. The police left in 2014, and a Japanese furniture maker has its shop inside. Next door, at no. 150, the Tooneelschool moved in in 1878: three classrooms and a stage of 4.9 by 5.7 metres. Its pupils included Hella Haasse and Ramses Shaffy; now it holds artists' studios. On the green beside the canal, Hanna Mobach's Nieuwe Naatje, made for the city's 700th birthday, was set down in 2008, temporarily. She is still here.
+
+    North along the Marnixstraat, three small houses at nos. 291–293 sit below the street, probably older than the levelling of the rampart, with stones of the old bastion along the lane in front. At no. 281 the Catholic poor office merged two old hofjes in 1878 into one building without a courtyard, just a corridor between two rows of rooms. At the end of the Bloemstraat stand a school of 1853 for ragged children and a Mennonite block of 1871 with a dormitory of eighteen beds for the very poorest.
+
+    Look for:
+    - the city arms between the turrets of the police station
+    - the empty panel over the drama school door
+    - "Naatje's base: weer thuisgebracht"
+    - the Eben-Haëzer stone on Bloemstraat 191
+  category: civic
+  lat: 52.373649
+  lng: 4.876018
+  address: Marnixstraat 148
+  links:
+    - { label: Wikipedia (nl) Politiebureau Raampoort, url: "https://nl.wikipedia.org/wiki/Politiebureau_Raampoort" }
+    - { label: Wikipedia (nl) Marnixstraat 150, url: "https://nl.wikipedia.org/wiki/Marnixstraat_150" }
+    - { label: Stadsherstel Marnixstraat 291, url: "https://stadsherstel.nl/monumenten/marnixstraat-291/" }
+    - { label: Hofjes in Amsterdam Hamer en Bouwershofje, url: "https://hofjesinamsterdam.nl/hamer-en-bouwershofje/" }
+  photos:
+    - commons:File:Raampoort foto 2.jpg
+    - commons:File:Marnixstraat 150 Amsterdam 518501.JPG
+    - commons:File:Nieuwe Naatje Hanna Mobach Marnixstraat Amsterdam.JPG
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-raampoort
+    members:
+      - Bureau Raampoort, the police station with a castle tower
+      - The first Tooneelschool building, Marnixstraat 150
+      - Nieuwe Naatje, the statue parked "temporarily" since 2008
+      - Marnixstraat 291–293, houses on the old bastion below the street
+      - Hamer- en Bouwershofje, two old hofjes moved to the city's edge
+      - Bloemstraat's buildings for the poorest
+  nl:
+    title: Raampoort, politietoren en toneelschool
+    summary: "Op de oude wallen langs de Singelgracht: een politiebureau met een kasteeltoren waar romanrechercheurs werkten, het toneeltje van de eerste toneelschool, een beeld dat er sinds 2008 voorlopig staat, huizen onder de straat, een hofje zonder hof en twee gebouwen voor de armsten."
+    body: |
+      Tot 1844 stond aan de Singelgracht de Raampoort, een kleine stadspoort. In 1888 kwam er op die plek een politiebureau met kantelen en een achtkantige toren; in de boeken van Appie Baantjer en op tv werkten hier rechercheurs. De politie vertrok in 2014, en nu heeft een Japans meubelmerk er een winkel. Ernaast, op nr. 150, trok in 1878 de Tooneelschool in: drie lokalen en een toneeltje van 4,9 bij 5,7 meter. Hella Haasse en Ramses Shaffy zaten er op school; nu werken er kunstenaars. Op het groen aan de gracht werd het Nieuwe Naatje van Hanna Mobach, gemaakt voor de 700ste verjaardag van de stad, in 2008 voorlopig neergezet. Ze staat er nog.
+
+      Noordelijker aan de Marnixstraat staan op nr. 291–293 drie huisjes lager dan de straat, waarschijnlijk ouder dan het afgraven van de wal, met stenen van het oude bolwerk langs het straatje ervoor. Op nr. 281 voegde het katholieke Oude Armen Kantoor in 1878 twee oude hofjes samen in één gebouw zonder binnenplaats: alleen een gang tussen twee rijen kamers. Aan het eind van de Bloemstraat staan een school uit 1853 voor havelooze kinderen en een doopsgezind blok uit 1871 met een slaapzaal van achttien bedden voor de allerarmsten.
+
+      Let op:
+      - het stadswapen tussen de torentjes van het politiebureau
+      - het lege vlak boven de deur van de toneelschool
+      - "de sokkel van Naatje: weer thuisgebracht"
+      - de Eben-Haëzersteen op Bloemstraat 191
+
+- title: The Jordaan's service edge on the Singelgracht
+  summary: "Where the Jordaan meets the Singelgracht, the city put what the old streets had no room for: a timber clinic for the poor, a fire station, a fruit market with seven little harbours, a substation with a relief, and a garage built for a metro that never came."
+  body: |
+    Once the Rozengracht was filled in, in 1889, it became the main road to the new west, and its three bridges were rebuilt in the 1920s as an Amsterdam School set. On the outer one, the Rijckerbrug, a stub of third rail recalls the tram to Zandvoort (until 1957). Beside it stand a half-timbered wooden building of 1888 for the city's medical care for the poor, rare in brick Amsterdam, and a fire station of 1893 on a triangular plot.
+
+    Further south, from the 1890s to 1934 the city's vegetable and fruit market ran 400 metres along the canal, with seven little harbours dug into it and quays lettered Wal A to Wal W. Three blocks with low storerooms survive at Marnixstraat 200–220 because residents fought demolition for seven years. Where the Lauriergracht meets the Marnixstraat, Hans Verhulst's relief Energie en tijd (1962) covers the wall of a substation that still powers the neighbourhood.
+
+    At the end, a garage owner who had studied car parks in Paris built the Europarking, sited for a metro station that never came. Months after it opened in 1972 it was 2 percent full. Its two round ramps are known as de billen van Zanstra (Zanstra's buttocks); it is still a public car park.
+
+    Look for:
+    - Frans Werner's fireman fighting a dragon on bridge 167
+    - the timber framing of Rozengracht 226
+    - the bevelled corners of Marnixstraat 202, 210 and 214
+    - the two round ramps on the Singelgracht side of the garage
+  category: infrastructure
+  lat: 52.369931
+  lng: 4.876722
+  address: Marnixstraat 250
+  links:
+    - { label: Wikipedia (nl) Europarking, url: "https://nl.wikipedia.org/wiki/Europarking" }
+    - { label: Wikipedia (nl) Rijckerbrug, url: "https://nl.wikipedia.org/wiki/Rijckerbrug" }
+    - { label: Wikipedia (nl) Rozengracht 226, url: "https://nl.wikipedia.org/wiki/Rozengracht_226" }
+    - { label: Wikipedia (nl) Energie en tijd, url: "https://nl.wikipedia.org/wiki/Energie_en_tijd" }
+  photos:
+    - commons:File:2023 Brug 167, Rijckerbrug, Asd (4).jpg
+    - commons:File:Rozengracht 226 Amsterdam 518448.JPG
+    - commons:File:Energie en tijd 1.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: jo-singelgracht
+    members:
+      - Europarking, the garage nicknamed Zanstra's buttocks
+      - A timber clinic for the poor and a fire station at the city's edge
+      - Rozengracht bridges and the tram to Zandvoort
+      - The lost fruit market's last blocks, Marnixstraat 200–220
+      - Energie en tijd, Verhulst on the substation
+  nl:
+    title: De dienstenrand van de Jordaan aan de Singelgracht
+    summary: "Waar de Jordaan aan de Singelgracht grenst, zette de stad neer waar de oude straten geen plek voor hadden: een houten polikliniek voor armen, een brandweerkazerne, een fruitmarkt met zeven insteekhavens, een onderstation met een reliëf en een garage voor een metro die nooit kwam."
+    body: |
+      Nadat de Rozengracht in 1889 was gedempt, werd ze de hoofdweg naar het nieuwe West, en in de jaren twintig kregen haar drie bruggen samen een Amsterdamse School-uiterlijk. Op de buitenste, de Rijckerbrug, herinnert een stukje derde rail aan de tram naar Zandvoort (tot 1957). Ernaast staan een houten gebouw in vakwerkstijl uit 1888 voor de geneeskundige armenzorg, zeldzaam in stenen Amsterdam, en een brandweerkazerne uit 1893 op een driehoekig perceel.
+
+      Zuidelijker lag van de jaren 1890 tot 1934 de groente- en fruitmarkt van de stad over 400 meter langs de gracht, met zeven insteekhavens en kades van Wal A tot Wal W. Op Marnixstraat 200–220 staan nog drie blokken met lage pakruimtes, gered door bewoners die zeven jaar tegen sloop vochten. Waar de Lauriergracht op de Marnixstraat uitkomt, bedekt het reliëf Energie en tijd van Hans Verhulst (1962) de muur van een onderstation dat de buurt nog altijd van stroom voorziet.
+
+      Aan het eind liet een garagehouder die in Parijs parkeergarages had bekeken de Europarking bouwen, op een plek gekozen voor een metrostation dat er nooit kwam. Maanden na de opening in 1972 stond hij voor 2 procent vol. De twee ronde hellingbanen heten de billen van Zanstra; het is nog altijd een openbare garage.
+
+      Let op:
+      - de brandweerman met draak van Frans Werner op brug 167
+      - het vakwerk van Rozengracht 226
+      - de schuine hoeken van Marnixstraat 202, 210 en 214
+      - de twee ronde hellingbanen aan de kant van de Singelgracht
+
+- title: Prinseneiland, tar and painters
+  summary: "An island laid out for timber and tar keeps the city's last tar winch, a low tar shed among tall warehouses, Breitner's studio, an excommunicated apostle's church, a wartime warehouse with a concrete secret and the last old double drawbridge."
+  body: |
+    Prinseneiland was laid out in the 17th century for storing timber and tar. The Sloterdijkerbrug that leads onto it is the only double wooden drawbridge in the area still in its original state.
+
+    On the quay stands a small wooden cover over a walwindas, a shore winch with which one man could hoist tar barrels off a boat: the last one in the city. Round the corner, neighbours keep the Palmentuin, and a mural recalls the vegetable garden Nelson Mandela won the right to grow on the roof of Pollsmoor prison. On the corner of the Galgenstraat, a one-storey shed with a swaying gable crouches between tall warehouses, its attic board reading RooGans Anno 1687. Next door, a German preacher excommunicated in Hamburg, who called himself an apostle, turned a chicory warehouse into a church in 1892.
+
+    On the south-west bend, Breitner sketched his own double studio-home, built in 1898; he worked there until 1914. On the south-east corner, a warehouse of 1943 hides a plain concrete wall between two spout gables, one a mirror copy; squatters moved in in 1980. Across the water stands what is left of De Atlas, a steam-driven mirror and frame factory that traded as far as Hong Kong. The Open Atelierroute still opens the studios every Whitsun.
+
+    Look for:
+    - the wooden winch cover on the quay
+    - RooGans Anno 1687 on the attic window
+    - the wooden porches of Breitner's studio
+    - the gable stone 't Seepaert with a horse in the water
+  category: industrial
+  lat: 52.385612
+  lng: 4.887171
+  address: Prinseneiland, at the Sloterdijkerbrug and Galgenstraat
+  links:
+    - { label: Wikipedia (nl) Westelijke Eilanden, url: "https://nl.wikipedia.org/wiki/Westelijke_Eilanden_(Amsterdam)" }
+    - { label: Wikipedia (nl) Sloterdijkerbrug, url: "https://nl.wikipedia.org/wiki/Sloterdijkerbrug" }
+    - { label: Amsterdam op de kaart Prinseneiland 24, url: "https://amsterdamopdekaart.nl/1850-1940/Prinseneiland/24" }
+    - { label: Amsterdam op de kaart Prinseneiland 89, url: "https://amsterdamopdekaart.nl/1850-1940/Prinseneiland/89" }
+  photos:
+    - commons:File:2019 Brug 321 (03).jpg
+    - commons:File:2021 Nelson Mandelas moestuintje op Pollsmoor.jpg
+    - commons:File:B. voorgevel atelierwoningen voor C.J. Maks - Amsterdam - 20020082 - RCE.jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-prinseneiland
+    members:
+      - "Prinseneiland: the last tar winch, the Palmentuin and Mandela's garden"
+      - De Roogans, the low tar shed among tall warehouses
+      - Breitner's studio on the Prinseneiland
+      - The excommunicated apostle's church on Prinseneiland
+      - "'t Seepaert, a wartime warehouse with a modern secret"
+      - De Atlas, the steam-powered mirror factory
+      - Sloterdijkerbrug, the last old double drawbridge
+  nl:
+    title: Prinseneiland, teer en schilders
+    summary: "Een eiland dat voor hout en teer werd aangelegd, met de laatste walwindas van de stad, een lage teerloods tussen hoge pakhuizen, het atelier van Breitner, de kerk van een geëxcommuniceerde apostel, een oorlogspakhuis met een betonnen geheim en de laatste oude dubbele ophaalbrug."
+    body: |
+      Het Prinseneiland werd in de 17e eeuw aangelegd voor de opslag van hout en teer. De Sloterdijkerbrug ernaartoe is de enige dubbele houten ophaalbrug in de buurt die nog in oorspronkelijke staat is.
+
+      Op de kade staat een houten kap over een walwindas, waarmee één man teertonnen uit een schip kon takelen: de laatste van de stad. Om de hoek houden buren de Palmentuin bij, en een muurschildering herinnert aan de moestuin die Nelson Mandela op het dak van de Pollsmoor-gevangenis mocht aanleggen. Op de hoek van de Galgenstraat zit tussen hoge pakhuizen een loods van één bouwlaag met een golvende geveltop; op het zolderraam staat RooGans Anno 1687. Ernaast liet een in Hamburg geëxcommuniceerde Duitse predikant die zich apostel noemde in 1892 een cichoreipakhuis tot kerk verbouwen.
+
+      In de zuidwestelijke knik schetste Breitner zelf zijn dubbele atelierwoning, gebouwd in 1898; hij werkte er tot 1914. Op de zuidoosthoek verstopt een pakhuis uit 1943 een kale betonnen gevel tussen twee tuitgevels, waarvan één een spiegelkopie; in 1980 trokken er krakers in. Aan de overkant staat wat over is van De Atlas, een spiegel- en lijstenfabriek op stoom met klanten tot in Hongkong. De Open Atelierroute opent met Pinksteren nog altijd de ateliers.
+
+      Let op:
+      - de houten kap van de walwindas op de kade
+      - RooGans Anno 1687 op het zolderraam
+      - de houten portalen van Breitners atelier
+      - de gevelsteen 't Seepaert met een paard in het water
+
+- title: Bickerseiland, workshops and renewal
+  summary: "An island of shipyards that nearly became offices: two students' plot-by-plot renewal plan, the last workshops and shipyard gate, a granite tree the neighbours call the whale, a neighbours' garden and children's farm, and two gable stones that came home."
+  body: |
+    Bickerseiland was for centuries an island of shipyards and workshops. In the 1950s the city earmarked it for big business, and around 1965 much of its run-down north was cleared for office blocks.
+
+    At the north tip, neighbours have kept a public garden with a pond and bird islands since 2000, next to the volunteer-run children's farm De Dierencapel (1993). South of it, two architecture students, Paul de Ley and Jouke van den Bout, drew homes instead of offices, and between 1972 and 1982 fitted them plot by plot into the old streets: narrow fronts, light wells and passages, an early model for renewing the city without clearing it. On the Bickersgracht, two lost gable stones came back in August 2022, one bought at Sotheby's by a collector, the other found in a wall near Gouda.
+
+    Three buildings still show what was made here: the Jonker steam-engine works of 1908–1909, with the firm's name along its front; De IJzerstaven, an iron firm's building of 1904 with an art nouveau tile panel; and the gate that once led to the island's last shipyard. At the southern end, on the Westerdok, the artists called their tilted granite slab of 1983 Omgevallen boom (fallen tree); the islanders took one look and called it the whale.
+
+    Look for:
+    - the bay windows on the Bickersgracht
+    - In Vreelant on no. 22 and 't Smalschip on no. 14
+    - the Distel tile panel on De IJzerstaven
+    - Carla Bogaards's orange line of poetry in the quay wall by the whale
+  category: housing
+  lat: 52.385685
+  lng: 4.889085
+  address: Grote Bickersstraat, Bickersgracht and Kleine Bickersstraat
+  links:
+    - { label: Wikipedia (nl) Bickerseiland, url: "https://nl.wikipedia.org/wiki/Bickerseiland" }
+    - { label: M for Amsterdam on Bickerseiland, url: "https://mforamsterdam.com/bickerseiland/" }
+    - { label: Wikipedia (nl) Omgevallen boom, url: "https://nl.wikipedia.org/wiki/Omgevallen_boom" }
+    - { label: VVAG Gevelsteen IN VREELANT, url: "https://www.gevelstenenvanamsterdam.nl/bickersgracht-22-amsterdam-in-vreelant/" }
+  photos:
+    - commons:File:2020 Omgevallen boom-Walvis (6).jpg
+  attributes:
+    rank: Nice
+  cluster:
+    key: ha-bickerseiland
+    members:
+      - Bickerseiland renewal housing
+      - Bickerseiland's last workshops
+      - "\"De walvis\" and the poem on the quay, Hollandse Tuin"
+      - Tuin Bickersgracht Noordkop and children's farm De Dierencapel
+      - Stones that came home, Bickersgracht 14 and 22
+  nl:
+    title: Bickerseiland, werkplaatsen en stadsvernieuwing
+    summary: "Een eiland van scheepswerven dat bijna kantoren werd: het pand-voor-pandplan van twee studenten, de laatste werkplaatsen en een werfpoort, een granieten boom die de buurt de walvis noemt, een buurtuin met kinderboerderij en twee gevelstenen die thuiskwamen."
+    body: |
+      Het Bickerseiland was eeuwenlang een eiland van scheepswerven en werkplaatsen. In de jaren vijftig bestemde de stad het voor grote bedrijven, en rond 1965 werd een groot deel van het vervallen noorden gesloopt voor kantoorblokken.
+
+      Op de noordpunt houden buren sinds 2000 een openbare tuin bij met een vijver en vogeleilandjes, naast kinderboerderij De Dierencapel (1993), die op vrijwilligers draait. Ten zuiden daarvan tekenden twee bouwkundestudenten, Paul de Ley en Jouke van den Bout, woningen in plaats van kantoren, en tussen 1972 en 1982 pasten ze die pand voor pand in de oude straten: smalle gevels, lichthoven en doorgangen, een vroeg voorbeeld van vernieuwen zonder kaalslag. Aan de Bickersgracht kwamen in augustus 2022 twee verdwenen gevelstenen terug, de ene door een verzamelaar gekocht bij Sotheby's, de andere gevonden in een muur bij Gouda.
+
+      Drie panden laten nog zien wat hier gemaakt werd: de fabriek van stoomwerktuigen van Jonker uit 1908–1909, met de firmanaam langs de gevel; De IJzerstaven, een ijzerhandel uit 1904 met een tegeltableau in jugendstil; en de poort die naar de laatste scheepswerf van het eiland leidde. Aan de zuidkant, aan het Westerdok, noemden de kunstenaars hun schuin opgetilde granieten plaat uit 1983 Omgevallen boom; de eilanders keken één keer en zeiden: de walvis.
+
+      Let op:
+      - de erkers aan de Bickersgracht
+      - In Vreelant op nr. 22 en 't Smalschip op nr. 14
+      - het tegeltableau van De Distel op De IJzerstaven
+      - de oranje dichtregel van Carla Bogaards in de kademuur bij de walvis
