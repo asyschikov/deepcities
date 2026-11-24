@@ -16,7 +16,11 @@ Nothing below has been written to the live site yet. Partial outputs are committ
   Deli warehouses' architect, the Stenen Silo listing year and the Volkskoffiehuis architect
   (West batch 03); Boerderij Ons Genoegen burned in 2024 (West 02); Kadoelenweg 306 dated 1890
   by the city register (Noord 02); a dead Lobke Alkemade link (West 02).
-- **Next:** re-run the copy checker over the whole map to confirm; then the West short round,
+- **Text improvements finished (2026-11-25):** map-wide copy check after the pass: 31% of Dutch
+  sentences copied before, under 2% after (`research/quality/copycheck/results-2026-11-25-after.json`);
+  38 West round-4 merges then got the Dutch pass too; the last 204 untouched places got a claims
+  check plus copy fix (`research/quality/claims/`). Every live place has now been checked.
+- **Next:** then the West short round,
   Zuidoost rounds A and B, Weesp and Westpoort rounds, Diemen and Duivendrecht.
 
 ## Decided today

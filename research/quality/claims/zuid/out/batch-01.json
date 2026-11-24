@@ -1,0 +1,160 @@
+[
+ {
+  "id": "w73h1joyrjeppuz69r5mm46y",
+  "title": "Henrick de Keijserplein, the playground the neighbours built",
+  "changes": [
+   {
+    "field": "body",
+    "old": "On 13 November 1913 they founded the \"Association for obtaining a children's playground in District V\", named after the electoral district De Pijp lay in.",
+    "new": "On 13 November 1913 they founded an association whose name stated its aim: to obtain a children's playground in District V, the electoral district De Pijp lay in.",
+    "kind": "narrowed",
+    "source": "https://pijpkrant.amsterdam/artikel/speeltuinvereniging-henrick-de-keijser-een-initiatief-van-pijpbewoners/",
+    "evidence": "copy fix: NL quoted the full association name word for word; both languages now give the name's aim instead (source: 'Vereniging tot verkrijging van een kinderspeeltuin in District V', genoemd naar het (kies)district waar De Pijp in lag)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Op 13 november 1913 richtten ze de \"Vereniging tot verkrijging van een kinderspeeltuin in District V\" op, genoemd naar het kiesdistrict waar De Pijp onder viel.",
+    "new": "Op 13 november 1913 richtten ze een vereniging op die haar doel in de naam droeg: een kinderspeeltuin verkrijgen in District V, het kiesdistrict waar De Pijp onder viel.",
+    "kind": "narrowed",
+    "source": "https://pijpkrant.amsterdam/artikel/speeltuinvereniging-henrick-de-keijser-een-initiatief-van-pijpbewoners/",
+    "evidence": "copy fix (Dutch rewritten fresh, same facts)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Er kwamen schommels, een wip, een zandbak en een muziektent voor de clubs:",
+    "new": "Op het plein verschenen schommels, een wip en een zandbak, en een muziektent voor de clubs:",
+    "kind": "narrowed",
+    "source": "https://pijpkrant.amsterdam/artikel/speeltuinvereniging-henrick-de-keijser-een-initiatief-van-pijpbewoners/",
+    "evidence": "copy fix (Dutch rewritten fresh, same facts)"
+   },
+   {
+    "field": "nl.body",
+    "old": "die er in de strenge winter van 1963 een ijsbaan aanlegde.",
+    "new": "die in de barre winter van 1963 op het plein een ijsbaan maakte.",
+    "kind": "narrowed",
+    "source": "https://pijpkrant.amsterdam/artikel/speeltuinvereniging-henrick-de-keijser-een-initiatief-van-pijpbewoners/",
+    "evidence": "copy fix (Dutch rewritten fresh, same facts)"
+   },
+   {
+    "field": "body",
+    "old": "Since 2016 neighbours run the clubhouse as a community house.",
+    "new": "In 2016 neighbours started organising activities in the clubhouse again; today it is a community house.",
+    "kind": "narrowed",
+    "source": "https://pijpkrant.amsterdam/artikel/henrick-de-keijserplein/ ; https://pijpkrant.amsterdam/artikel/speeltuinvereniging-henrick-de-keijser-een-initiatief-van-pijpbewoners/",
+    "evidence": "2017 article: 'sinds vorig jaar worden er weer activiteiten georganiseerd door een aantal enthousiaste buurtbewoners'; 2025 article: 'Het voormalig clubhuis is nu een gezellig buurthuis'. Neither says neighbours run it as a community house since 2016"
+   },
+   {
+    "field": "nl.body",
+    "old": "Sinds 2016 houden buurtbewoners het clubhuis draaiend als buurthuis.",
+    "new": "In 2016 begonnen buurtbewoners weer met activiteiten in het clubhuis, dat nu dienstdoet als buurthuis.",
+    "kind": "narrowed",
+    "source": "https://pijpkrant.amsterdam/artikel/henrick-de-keijserplein/ ; https://pijpkrant.amsterdam/artikel/speeltuinvereniging-henrick-de-keijser-een-initiatief-van-pijpbewoners/",
+    "evidence": "same as EN"
+   }
+  ],
+  "patch": {
+   "body": "This whole square is a playground, and has been since 13 May 1916, when mayor Tellegen and alderman Vliegen opened it. A handful of residents had started organising things for the children of De Pijp, who lived in big families in small flats and spent their days on the street. On 13 November 1913 they founded an association whose name stated its aim: to obtain a children's playground in District V, the electoral district De Pijp lay in. Berlage had already drawn a playground on this spot in his plan for the south of the city.\n\nThere were swings, a seesaw, a sandpit and a bandstand for the clubs: gymnastics, singing, fretwork, operetta, mandolin. In 1920 came a wooden clubhouse in a rustic version of the Amsterdam School, drawn by the city's public works department. In the Hunger Winter of 1944–1945 the wooden play equipment and the clubhouse were burned for fuel. Everything was rebuilt after the war, the clubhouse in its old style and the equipment in steel, and the stone rim of the bandstand became a sandpit.\n\nFrom 1939 to 1974 the square had one supervisor, Jan Hogeman, \"Ome Jan\" (uncle Jan), who laid an ice rink on it in the hard winter of 1963. The association took the name Henrick de Keijser in 1956 and folded shortly after its centenary in 2013. In 2016 neighbours started organising activities in the clubhouse again; today it is a community house. The playground is open to everyone.\n\nLook for:\n- the two small timber buildings at numbers 45 and 47, the second with a modern extension\n- Piet Kramer's Coöperatiehof on the south side of the square",
+   "translations": {
+    "nl": {
+     "body": "Dit hele plein is een speeltuin, en dat is het al sinds 13 mei 1916, toen burgemeester Tellegen en wethouder Vliegen het openden. Een groepje bewoners was begonnen met activiteiten voor de kinderen van De Pijp, die met grote gezinnen in kleine woningen woonden en de hele dag op straat hingen. Op 13 november 1913 richtten ze een vereniging op die haar doel in de naam droeg: een kinderspeeltuin verkrijgen in District V, het kiesdistrict waar De Pijp onder viel. Berlage had op deze plek in zijn plan voor Zuid al een speeltuin getekend.\n\nOp het plein verschenen schommels, een wip en een zandbak, en een muziektent voor de clubs: gymnastiek, zang, figuurzagen, operette, mandoline. In 1920 volgde een houten clubhuis in een landelijke variant van de Amsterdamse School, getekend door de Dienst der Publieke Werken. In de Hongerwinter van 1944–1945 zijn de houten speeltoestellen en het clubhuis opgestookt. Na de oorlog is alles opnieuw opgebouwd, het clubhuis in de oude stijl en de toestellen van staal, en van de stenen rand van de muziektent werd een zandbak gemaakt.\n\nVan 1939 tot 1974 had het plein één toezichthouder, Jan Hogeman, \"Ome Jan\", die in de barre winter van 1963 op het plein een ijsbaan maakte. De vereniging heet sinds 1956 Henrick de Keijser en hield kort na het eeuwfeest in 2013 op te bestaan. In 2016 begonnen buurtbewoners weer met activiteiten in het clubhuis, dat nu dienstdoet als buurthuis. De speeltuin is voor iedereen open.\n\nLet op:\n- de twee houten huisjes op nummer 45 en 47, het tweede met een moderne aanbouw\n- het Coöperatiehof van Piet Kramer aan de zuidkant van het plein"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "mxpgpm642n8abzfnudl2kvro",
+  "title": "Electricity substation with the director's flat, Jacob Obrechtplein",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Its left half was built by the city's Public Works department in 1916–1917",
+    "new": "Its left half was built in 1916–1917 to a design by the city's Public Works department",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "source credits Publieke Werken as designer only ('Ontwerp: Publieke Werken'), not as builder"
+   },
+   {
+    "field": "nl.body",
+    "old": "De linkerhelft is in 1916–1917 door Publieke Werken gebouwd als onderstation",
+    "new": "De linkerhelft is in 1916–1917 naar een ontwerp van Publieke Werken gebouwd als onderstation",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "same as EN"
+   },
+   {
+    "field": "nl.body",
+    "old": "Een dienstgebouw en een magazijn op het binnenterrein waren er al in 1915.",
+    "new": "Al in 1915 waren op de binnenplaats erachter een dienstgebouw en een opslag neergezet.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "copy fix (Dutch rewritten fresh, same facts)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De winkel, op nummer 3, was een toonzaal van de gemeentewinkel in de Vijzelstraat, waar het elektriciteitsbedrijf huishoudelijke apparaten verkocht.",
+    "new": "De winkel op nummer 3 was een toonzaal van de gemeentelijke winkel in de Vijzelstraat, waar het stroombedrijf apparaten voor het huishouden aan de man bracht.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "copy fix (Dutch rewritten fresh, same facts)"
+   },
+   {
+    "field": "body",
+    "old": "The director already lived around the corner, councillors pointed out,",
+    "new": "The director already lived close by, councillors pointed out,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "source: 'hij woonde immers al vlakbij' (nearby), not around the corner"
+   },
+   {
+    "field": "nl.body",
+    "old": "De directeur woonde al om de hoek, merkten raadsleden op,",
+    "new": "De directeur woonde al dichtbij, merkten raadsleden op,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "same as EN"
+   },
+   {
+    "field": "body",
+    "old": "The alderman, Floor Wibaut, answered",
+    "new": "Alderman Wibaut answered",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "source names only 'Wethouder Wibaut'; the first name Floor is in no listed source"
+   },
+   {
+    "field": "nl.body",
+    "old": "Wethouder Wibaut antwoordde dat de directeur dit onderstation zijn bijzondere aandacht wilde geven, en dat deze verdienstelijke ambtenaar nu eenmaal een groot gezin had.",
+    "new": "Wethouder Wibaut antwoordde dat de directeur het onderstation extra aandacht wilde geven, en wees erop dat de verdienstelijke ambtenaar een groot gezin had.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "copy fix (Dutch rewritten fresh, same facts)"
+   },
+   {
+    "field": "body",
+    "old": "The building is seen from the square; it is not open.",
+    "new": "You see the building from the square.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "no listed source says whether the building can be visited; check_note already says present use is unconfirmed"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het gebouw bekijk je vanaf het plein; je kunt er niet in.",
+    "new": "Het gebouw bekijk je vanaf het plein.",
+    "kind": "cut",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Jacob_Obrechtplein/1-3",
+    "evidence": "same as EN"
+   }
+  ],
+  "patch": {
+   "body": "On the Jacob Obrechtplein stands a long brick building. Its left half was built in 1916–1917 to a design by the city's Public Works department as a substation of the municipal electricity works: from left to right a hall for three-phase current, one for direct current, and rooms for switchgear and transformers. A service building and a store in the yard behind had come first, in 1915.\n\nIn 1923 the city started on the right-hand part: a garage, a shop and a store at street level with four flats above. The shop, at number 3, was a showroom of the municipal shop in the Vijzelstraat where the electricity company sold household appliances. One flat was let. The other three were staff homes, two for inspectors and one for the director of the electricity works himself.\n\nThat last one raised eyebrows in the city council. The director already lived close by, councillors pointed out, and why did his new flat need two bathrooms? Alderman Wibaut answered that the director wished to give this substation his special attention, and that this deserving official happened to have a large family. There were five children.\n\nYou see the building from the square.\n\nLook for:\n- the closed brick halls of the substation on the left, against the windows of the flats on the right\n- the former shop front at number 3\n- the passage through to the yard next to it\n- the outside stair up to one of the flats",
+   "translations": {
+    "nl": {
+     "body": "Aan het Jacob Obrechtplein staat een lang bakstenen gebouw. De linkerhelft is in 1916–1917 naar een ontwerp van Publieke Werken gebouwd als onderstation van de Gemeente-Electriciteitswerken: van links naar rechts een hal voor draaistroom, een voor gelijkstroom en ruimtes voor schakelaars en transformatoren. Al in 1915 waren op de binnenplaats erachter een dienstgebouw en een opslag neergezet.\n\nIn 1923 begon de gemeente aan het rechterdeel: beneden een garage, een winkel en een magazijn, daarboven vier woningen. De winkel op nummer 3 was een toonzaal van de gemeentelijke winkel in de Vijzelstraat, waar het stroombedrijf apparaten voor het huishouden aan de man bracht. Eén woning werd verhuurd. De andere drie waren dienstwoningen: twee voor inspecteurs en één voor de directeur van de Electriciteitswerken zelf.\n\nOver die laatste fronste de gemeenteraad de wenkbrauwen. De directeur woonde al dichtbij, merkten raadsleden op, en waarom moest zijn nieuwe woning twee badkamers hebben? Wethouder Wibaut antwoordde dat de directeur het onderstation extra aandacht wilde geven, en wees erop dat de verdienstelijke ambtenaar een groot gezin had. Er waren vijf kinderen.\n\nHet gebouw bekijk je vanaf het plein.\n\nLet op:\n- de gesloten bakstenen hallen van het onderstation links, tegenover de ramen van de woningen rechts\n- de voormalige winkelpui op nummer 3\n- de doorgang naar de binnenplaats daarnaast\n- de buitentrap naar een van de woningen"
+    }
+   }
+  },
+  "sources_add": []
+ }
+]
