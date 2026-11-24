@@ -16,5 +16,12 @@
 
 - A'DAM Toren: live architect field "Claus en Kaan Architecten with OeverZaaijer"; city and Arcam say Claus Van Wageningen Architecten (Felix Claus) with OeverZaaijer.
 
+- Noorderlicht (rv8ru6n0a5t6ld6h3qluqw40): the 2006 greenhouse building is gone (containers and a temporary pavilion; café bankrupt and restarted 2025-26). Check the live text says so.
+
+- Schoonschip: live text "officially finished in 2021"; residents' site says complete January 2020 (Arcam 2019).
+- Republica: live "completed in 2024"; Arcam and contractor say 2023 (Q1).
+- Patch22: live address Johan van Hasseltkade 202; Arcam 252.
+
 ## List changes after the round
 - Remove from the list: Gerrit Rietveld Academie (1967 building, wrong match); its 2018 Fedlev building is drafted in places/ex-zuid-zuidas-1.yaml.
+- Removed: Noorderlicht (rv8ru6n0a5t6ld6h3qluqw40), building gone.
