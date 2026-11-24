@@ -26,6 +26,9 @@ Amsterdam; the method works for any city.
    historian's WordPress, an expat who walks every street.
 6. **Newspaper archives** (Delpher in NL): for old events a local paper only mentions.
 7. **Forums** (Reddit and the like): **leads only**, never a source for a fact.
+   **Social media** the same: personal posts, local Facebook groups and comments are leads
+   only. Only official pages count as a source (the place's, owner's, organisation's or city's
+   own page, or an artist posting about their own work).
 
 **Don't use as sources**: official tourism portals (iamsterdam and the like), hotel and tour
 operator blogs, TripAdvisor-type lists, listicles, AI-written "hidden gems" pages. They
