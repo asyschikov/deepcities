@@ -214,3 +214,5 @@ Once drafting, review, photos and import are done, relax the food-and-drink bar 
 **Shops too (user):** the same round covers shops, same test: worth visiting even if you buy nothing (iconic, historic, culturally significant, part of the local fabric). **Benchmark:** the Centrum art shop that sells original Marc Chagall prints (user forgot the name: identify it first and use it as the yardstick).
 - Coentje Gans Plantsoen (GR-15/S-?): dropped by r2-nieuwmarkt for single source; strong story: try a second source (city naming decision 2021, Joods Monument for Coentje Gans, Stolpersteine) in the final pass
 - Geldersche Gaai: kept as a Look for line only (single neighbour source)
+- r2-gg-west: Westerkerk graveyard closing date conflict (1655 vs before 1814) in the meat-hall place; Molenpad plane figures (2024 city review used)
+- r2-eilanden: Werkspoorhal BigGym (which hall?); Woning-Maatschappij 1871 vs 1874
