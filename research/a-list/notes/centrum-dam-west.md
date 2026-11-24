@@ -219,3 +219,7 @@ characters or less; prices and hours match the official pages as fetched today (
 House, Westerkerk, Begijnhof, Oude Kerk, Our Lord in the Attic); pins of the palace, Nieuwe Kerk, Westerkerk,
 Oude Kerk, Begijnhof (no. 34), Amsterdam Museum and the Beurs lie on their buildings (monument footprint or BAG
 pand); the National Monument pin matches the monument point.
+
+## Begijnhof (coordinator)
+
+Not imported: the Begijnhof already existed in the pool (id vn6ztawt9z1koc564tgmx9ub, from the Hofjes map). That record was set to detail city with a_list: A-list; its own text (richer) and rank Amazing were kept. The draft was removed from places/ so no second Begijnhof gets imported.
