@@ -52,6 +52,19 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   `select`, `boolean`), options, required, help, hidden. Admins edit them under
   Manage → Place fields or with `pnpm dc fields`. Keys are permanent and fields are
   never deleted, only hidden (values kept); the server rejects removals.
+- **Views and clusters.** A place lives once, on its home map (`place.collectionId`):
+  edits, proposals, permissions, history, fields and categories come from there.
+  `collection.view` (`{source, where?: {borough, neighbourhood, subNeighbourhood,
+  category}, detail: "city" | "full"}`) makes a map a view: it has no places of its
+  own and shows matching places of its source (Deep Centrum is a `full` view of
+  Deep Amsterdam for borough Centrum). `place.parentId` makes a place part of a
+  cluster (an ordinary place with children); `place.detail` is `city` (on the home
+  map) or `district` (only in `full` views, which show every matching place except
+  clusters with parts). The rules are in `app/lib/views.ts` (unit-tested) and as
+  SQL in `app/trpc/map-places.ts`; every "places of map M" query goes through them.
+  Places added from a view go to its source (`district` from a `full` view). Set a
+  view with `dc map-view`. Router tests run against SQLite with the real
+  migrations (`app/trpc/test-db.ts`).
 - `route` — a walk or ride through the map, stored like a place (only written by
   approving a proposal). `mode` is its main mode, `walk` or `bike` (what it is, what
   the list shows and filters on; inferred from the legs when a draft leaves it out).

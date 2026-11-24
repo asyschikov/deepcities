@@ -15,7 +15,19 @@ import { checkin, checkinPhoto, photo, place, verdict } from "~/lib/db/schema";
 import { draftOfPlace, idSchema } from "~/lib/validation";
 import { getAccess, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
+import { loadViewMap, shownPlaceIds } from "../map-places";
 import { proposalRouter } from "./proposal";
+
+/**
+ * Check-ins on a map: those recorded on it, or for a view map, those at
+ * the places it shows (check-ins are recorded on a place's home map).
+ */
+const onMap = async (db: Database, collectionId: string) => {
+  const m = await loadViewMap(db, collectionId);
+  return m.view
+    ? inArray(checkin.placeId, shownPlaceIds(db, m))
+    : eq(checkin.collectionId, m.id);
+};
 
 const EXT = {
   "image/webp": "webp",
@@ -295,7 +307,7 @@ export const checkinRouter = router({
         .from(checkin)
         .where(
           and(
-            eq(checkin.collectionId, input.collectionId),
+            await onMap(ctx.db, input.collectionId),
             eq(checkin.profileId, ctx.profile.id),
           ),
         );
@@ -310,7 +322,7 @@ export const checkinRouter = router({
         where: and(
           eq(checkin.profileId, ctx.profile.id),
           input.collectionId
-            ? eq(checkin.collectionId, input.collectionId)
+            ? await onMap(ctx.db, input.collectionId)
             : undefined,
         ),
         with: {

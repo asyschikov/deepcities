@@ -54,11 +54,11 @@ import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
 const loadPlace = createServerFn({ method: "GET" })
-  .validator((placeId: string) => placeId)
-  .handler(async ({ data: placeId }) => {
+  .validator((p: { placeId: string; map: string }) => p)
+  .handler(async ({ data }) => {
     const caller = await createCaller();
     try {
-      return await caller.place.byId({ placeId });
+      return await caller.place.byId(data);
     } catch (err) {
       if (err instanceof TRPCError && err.code === "NOT_FOUND") return null;
       throw err;
@@ -135,10 +135,12 @@ const PlacePage = () => {
   });
 
   const { data } = useQuery({
-    ...trpc.place.byId.queryOptions({ placeId }),
+    ...trpc.place.byId.queryOptions({ placeId, map: slug }),
     initialData: initial,
   });
   const { can, verdicts, history, myPending } = data;
+  const parent = data.parent && localize(data.parent, translateTo);
+  const children = data.children.map((c) => localize(c, translateTo));
   const place = localizePlace(data.place, translateTo);
   const missing = translateTo
     ? untranslated(data.place, translateTo, ["title", "summary", "body"])
@@ -227,6 +229,26 @@ const PlacePage = () => {
         </div>
         <h1 className="text-2xl leading-tight font-semibold">{place.title}</h1>
         {area && <p className="text-sm text-muted-foreground">{area}</p>}
+        {parent && (
+          <p className="text-sm text-muted-foreground">
+            {t("place_part_of")}{" "}
+            {parent.link ? (
+              <Link
+                to="/$city/$slug/p/$placeId"
+                params={{
+                  city: parent.link.city,
+                  slug: parent.link.slug,
+                  placeId: parent.id,
+                }}
+                className="text-primary hover:underline"
+              >
+                {parent.title}
+              </Link>
+            ) : (
+              parent.title
+            )}
+          </p>
+        )}
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           <VerdictSummary counts={verdicts} />
           {away !== null && (
@@ -253,9 +275,39 @@ const PlacePage = () => {
         </div>
       )}
 
+      {children.length > 0 && (
+        <section className="space-y-2 border-t pt-4">
+          <h2 className="font-sans text-sm font-semibold">
+            {t("place_parts", { count: children.length })}
+          </h2>
+          <ul className="space-y-2 text-sm">
+            {children.map((c) => (
+              <li key={c.id}>
+                {c.link ? (
+                  <Link
+                    to="/$city/$slug/p/$placeId"
+                    params={{
+                      city: c.link.city,
+                      slug: c.link.slug,
+                      placeId: c.id,
+                    }}
+                    className="font-medium text-primary hover:underline"
+                  >
+                    {c.title}
+                  </Link>
+                ) : (
+                  <span className="font-medium">{c.title}</span>
+                )}
+                <p className="text-muted-foreground">{c.summary}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <DocumentList
         slug={slug}
-        collectionId={place.collectionId}
+        collectionId={view.collection.id}
         subjectType="place"
         subjectId={place.id}
         title={t("place_further_reading")}
@@ -416,7 +468,9 @@ const PlacePage = () => {
 
 export const Route = createFileRoute("/$city/$slug/p/$placeId")({
   loader: async ({ params }) => {
-    const data = await loadPlace({ data: params.placeId });
+    const data = await loadPlace({
+      data: { placeId: params.placeId, map: params.slug },
+    });
     if (!data) throw notFound();
     return data;
   },

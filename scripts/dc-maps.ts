@@ -185,6 +185,46 @@ export const makeMapCommands = (deps: MapDeps) => {
       };
     },
 
+    /**
+     * Make a map a view of another map's places, or a home map again
+     * ("none"). `source` may be a slug or an id.
+     */
+    "map-view": async ([slug, arg]: string[]): Promise<unknown> => {
+      const c = await bySlug(need(slug, "<slug>"));
+      const given = need(arg, "<view.json|->|none>");
+      if (given === "none" || given === "null") {
+        await mutate("collection.setView", { collectionId: c.id, view: null });
+        return { ok: true, slug: c.slug, view: null };
+      }
+      const input = readJson(given);
+      const bad = Object.keys(input).filter(
+        (k) => !["source", "where", "detail"].includes(k),
+      );
+      if (bad.length)
+        fail(
+          `Unknown keys: ${bad.join(", ")} (expected source, where, detail)`,
+          "BAD_JSON",
+        );
+      if (typeof input.source !== "string" || !input.source)
+        fail('"source" must be a map slug or id', "BAD_JSON");
+      const maps = (await query("collection.list")) as Collection[];
+      const source = maps.find(
+        (m) => m.slug === input.source || m.id === input.source,
+      );
+      if (!source) fail(`No map "${String(input.source)}"`, "NOT_FOUND");
+      const view = { ...input, source: source?.id };
+      await mutate("collection.setView", { collectionId: c.id, view });
+      const shown = (await query("place.list", {
+        collectionId: c.id,
+      })) as Obj[];
+      return {
+        ok: true,
+        slug: c.slug,
+        view: { ...view, sourceSlug: source?.slug },
+        places: shown.length,
+      };
+    },
+
     /** People with a role on the map (map admins). */
     members: async ([slug]: string[]): Promise<unknown> => {
       const c = await bySlug(need(slug, "<slug>"));
@@ -226,6 +266,14 @@ MAPS
                                            titles, and create a copy)
   dc city-default <slug> on|off            super admins: the city's own map (its page
                                            lists it first; one per city)
+  dc map-view <slug> <view.json|-|none>    map admins: make the map a view of another
+                                           map's places: {"source": "<slug>", "where":
+                                           {"borough": ["Centrum"]}, "detail": "full"}
+                                           (see "mapView" in \`dc schema\`). The map must
+                                           have no places of its own; its title, texts,
+                                           centre and zoom stay its own, categories and
+                                           fields are the source's. "none" makes it a
+                                           home map again. Prints how many places it shows
   dc members <slug>                        map admins: who has a role on the map
   dc member <slug> <email> <admin|moderator|contributor|banned|none>
                                            give, change or remove a role (they must have

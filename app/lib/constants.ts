@@ -20,6 +20,20 @@ export type ContributionPolicy = (typeof CONTRIBUTION_POLICIES)[number];
 export const PLACE_STATUSES = ["published", "archived"] as const;
 export type PlaceStatus = (typeof PLACE_STATUSES)[number];
 
+/**
+ * How fine-grained a place is: `city` places show on their home (citywide)
+ * map; `district` places only in views that ask for full detail.
+ */
+export const PLACE_DETAILS = ["city", "district"] as const;
+export type PlaceDetail = (typeof PLACE_DETAILS)[number];
+
+/**
+ * What a view map shows of its source: `city` its city-level places, `full`
+ * every place except cluster parents (the leaves at full detail).
+ */
+export const VIEW_DETAILS = ["city", "full"] as const;
+export type ViewDetail = (typeof VIEW_DETAILS)[number];
+
 /** What a proposal changes. */
 export const PROPOSAL_SUBJECTS = ["place", "route"] as const;
 export type ProposalSubject = (typeof PROPOSAL_SUBJECTS)[number];

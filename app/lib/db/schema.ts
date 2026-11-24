@@ -1,5 +1,6 @@
 import { relations } from "drizzle-orm";
 import {
+  type AnySQLiteColumn,
   index,
   integer,
   primaryKey,
@@ -18,6 +19,7 @@ import {
   DOCUMENT_SUBJECTS,
   GLOBAL_ROLES,
   MEMBER_ROLES,
+  PLACE_DETAILS,
   PLACE_STATUSES,
   PROPOSAL_KINDS,
   PROPOSAL_STATUSES,
@@ -32,6 +34,7 @@ import type {
   CollectionTranslations,
   DocumentDraft,
   FieldDef,
+  MapView,
   PlaceDraft,
   PlaceTranslations,
   RouteDraft,
@@ -156,6 +159,11 @@ export const collection = sqliteTable("collection", {
   createdBy: text("created_by").references(() => profile.id, {
     onDelete: "set null",
   }),
+  /**
+   * Set on a view map: it has no places of its own and shows places of
+   * `view.source` (see `MapView`, app/lib/views.ts). Null for a home map.
+   */
+  view: text("view", { mode: "json" }).$type<MapView | null>(),
   createdAt: createdAt(),
 });
 
@@ -261,13 +269,25 @@ export const place = sqliteTable(
       .$type<PlaceTranslations>()
       .notNull()
       .default({}),
+    /**
+     * The cluster this place belongs to (a place on the same home map). A
+     * cluster is an ordinary place that has children.
+     */
+    parentId: text("parent_id").references((): AnySQLiteColumn => place.id, {
+      onDelete: "set null",
+    }),
+    /** `city`: on the home map; `district`: only in full-detail views. */
+    detail: text("detail", { enum: PLACE_DETAILS }).notNull().default("city"),
     createdBy: text("created_by").references(() => profile.id, {
       onDelete: "set null",
     }),
     createdAt: createdAt(),
     updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
   },
-  (t) => [index("place_collection_idx").on(t.collectionId, t.status)],
+  (t) => [
+    index("place_collection_idx").on(t.collectionId, t.status),
+    index("place_parent_idx").on(t.parentId),
+  ],
 );
 
 /**
