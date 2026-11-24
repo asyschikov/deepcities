@@ -138,6 +138,8 @@
     - the three wide doors of 67-69
     - the Amsterdam School shopfront of 75
     - at the Utrechtsestraat end, no. 383 (1879–80, A.L. van Gendt), shops with flats that hid a stable, a coach house and a hayloft
+    - the date ribbon of 1673 on no. 324, a shop-house built by a maltster on the shop side of the street
+    - nos. 288-292, three houses a master carpenter built together around 1691
   category: industrial
   lat: 52.365812
   lng: 4.884566
@@ -147,6 +149,7 @@
     - { label: Monumentenregister Amsterdam (67-69), url: "https://data.amsterdam.nl/monumenten/779e422a-acc4-45df-80d6-465205e5afa4" }
     - { label: Monumentenregister Amsterdam (425-427), url: "https://data.amsterdam.nl/monumenten/497b5f20-e619-4bc9-acad-a09ff3f57976" }
     - { label: Wikipedia (nl) Kerkstraat, url: "https://nl.wikipedia.org/wiki/Kerkstraat_(Amsterdam)" }
+    - { label: Hendrick de Keyser Kerkstraat 324, url: "https://www.hendrickdekeyser.nl/de-huizen/kerkstraat-324" }
   attributes:
     rank: Nice
     heritage_status: Municipal monument
@@ -167,6 +170,8 @@
     - city register 207018 (Nieuwe Spiegelstraat 2, coach house with offices c.1855-1860, garage below now)
     - rce:518403 (added at review from extra-south: Kerkstraat 383 / Utrechtsestraat 91, 1879-80 by A.L. van Gendt for A.J. Levert of Haages en Levert; shops either side of a portal, horse stable and coach house on the deeper right side, hayloft on the first floor)
     - "Van Rossem and Vuyk as architects of Carré: city register 206035 (used in gg-zuid-1)"
+    - "https://www.hendrickdekeyser.nl/de-huizen/kerkstraat-324 (added in round 2, scout BE-31: Kerkstraat meant around 1670 for shops and businesses on the south side, coach houses and stables on the north; Gillis Moyaert built a maltery and on the rest a winkelhuis completed in 1673 per the date ribbon on the front; let in parts; HdK since 1957)"
+    - "https://www.hendrickdekeyser.nl/de-huizen/kerkstraat-288 (added in round 2: 288 built c.1691 with 290 and 292 by master carpenter Adriaen Sessincks; spout gables of 288 and 290 from the time of building; 288 the most authentic)"
   nl:
     title: Kerkstraat, de achterstraat van de koetshuizen
     summary: "De enige straat van de grachtengordel zonder gracht was bedoeld voor de koetsen en paarden van de grachtenhuizen. Rijtuigmakers, een zadelmaker en een hoefsmid volgden, en hun vak staat nog in de gevels."
@@ -181,6 +186,8 @@
       - de drie brede deuren van 67-69
       - de Amsterdamse Schoolpui van 75
       - aan de kant van de Utrechtsestraat nr. 383 (1879–80, A.L. van Gendt): winkels met bovenwoningen, met een paardenstal, koetshuis en hooizolder erin
+      - het jaartallint 1673 op nr. 324, een winkelhuis van een mouter aan de winkelkant van de straat
+      - nrs. 288-292, drie huizen die een meester-timmerman rond 1691 samen bouwde
     attributes:
       architect: J.P.F. van Rossem en W.J. Vuyk, I. Gosschalk, W. Hamer en anderen
       original_use: Koetshuizen, stallen, rijtuig- en zadelmagazijn, hoefsmederij
@@ -595,7 +602,7 @@
     Look for:
     - the serliana dormers over the old main entrance
     - the wider left corner, the extension of 1925
-    - across the Amstel at Sarphatistraat 47–55, the Amsterdamsche Bank branch of 1928 that housed the Liro robber bank in the war, now a hotel, with a plaque of 2003
+    - across the Amstel at Sarphatistraat 47–55, the Amsterdamsche Bank branch of 1928 that housed the Liro robber bank in the war, now a hotel, with a plaque of 2003 that ends with Isaiah 42, in Dutch and Hebrew: "and none said: give it back"
   category: hidden-history
   lat: 52.364711
   lng: 4.889717
@@ -605,6 +612,7 @@
     - { label: Wikipedia (nl) Lippmann Rosenthal bank, url: "https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(bank)" }
     - { label: Wikipedia (nl) Liro roofbank, url: "https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(Sarphatistraat)" }
     - { label: Wikipedia (en) Liro Bank, url: "https://en.wikipedia.org/wiki/Liro_Bank" }
+    - { label: 4 en 5 mei plaquette LIRO, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2969/amsterdam-plaquette-op-het-voormalige-liro-bankgebouw" }
   attributes:
     rank: Amazing
     heritage_status: Municipal monument
@@ -620,6 +628,7 @@
     - https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(bank) (1 March 1859 merger of Leo Lippmann and George Rosenthal; first Nieuwe Herengracht 111, then Nieuwe Spiegelstraat 6; expropriated in the war; German Verwalter Alfred Flesche; name misused for the robbery bank; resumed after the war, hindered by reputation; 1964 cooperation, 1974 full takeover by Hollandse Koopmansbank)
     - https://nl.wikipedia.org/wiki/Lippmann,_Rosenthal_%26_Co._(Sarphatistraat) (set up by Flesche, presented as branch under the same name to win trust; Jews forced to deposit money, valuables, art; est. 300-400 million guilders; funded Westerbork (11 million) and Vught (26 million))
     - https://en.wikipedia.org/wiki/Liro_Bank
+    - "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2969/amsterdam-plaquette-op-het-voormalige-liro-bankgebouw (added in round 2, scout AE-09: black stone plaque at Sarphatistraat 47-55, unveiled 26 May 2003; text names LIRO as robbery institution from 1941, then Isaiah 42:22-24, '... TOT BEROVING EN ER WAS NIEMAND DIE ZEI: GEEF TERUG ...'; second part also in Hebrew)"
   nl:
     title: Lippmann, Rosenthal & Co., de bank met de gestolen naam
     summary: "Een deftige joodse privébank uit 1859 aan de Nieuwe Spiegelstraat. In 1941 leende de bezetter haar goede naam voor een nepfiliaal aan de Sarphatistraat, dat de Nederlandse joden van hun geld en bezit beroofde."
@@ -633,7 +642,7 @@
       Let op:
       - de serliana-dakkapellen boven de oude hoofdingang
       - de bredere linkerhoek, de uitbreiding van 1925
-      - aan de overkant van de Amstel, Sarphatistraat 47–55: het filiaal van de Amsterdamsche Bank uit 1928 waar in de oorlog de Liro-roofbank zat, nu een hotel, met een plaquette uit 2003
+      - aan de overkant van de Amstel, Sarphatistraat 47–55: het filiaal van de Amsterdamsche Bank uit 1928 waar in de oorlog de Liro-roofbank zat, nu een hotel, met een plaquette uit 2003 die eindigt met Jesaja 42, in het Nederlands en het Hebreeuws: 'er was niemand die zei: geef terug'
     attributes:
       built: 1881, uitgebreid 1925
       original_use: Bankkantoor van Lippmann, Rosenthal & Co.

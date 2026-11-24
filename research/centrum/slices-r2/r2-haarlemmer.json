@@ -1,0 +1,628 @@
+{
+ "slice": "r2-haarlemmer",
+ "entries": [
+  {
+   "sid": "S-032",
+   "title": "De Reus van Bickerseiland",
+   "members": [
+    "DW-09"
+   ],
+   "pin": [
+    52.384881,
+    4.890289
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-09": [
+     52.384881,
+     4.890289
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "unveiling year 2010 or 2011",
+   "hook": "A wooden Roman soldier taken to Alicante in 1972, traced by islanders to Canada, home again in 2009.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Reus_van_Bickerseiland."
+   ]
+  },
+  {
+   "sid": "S-033",
+   "title": "The oldest wild fig of Amsterdam, Drieharingenbrug",
+   "members": [
+    "GR-08"
+   ],
+   "pin": [
+    52.386686,
+    4.887231
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-08": [
+     52.386686,
+     4.887231
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Amazing",
+   "category": "green",
+   "default": "IN",
+   "reason": "",
+   "hook": "Nobody planted it: a fig seeded itself into the quay wall around 1990 and now bears fruit.",
+   "lead_sources": [
+    "https://www.stadsplanten.nl/2021/01/ode-aan-de-vijgenboom/"
+   ]
+  },
+  {
+   "sid": "S-034",
+   "title": "Haarlemmer Houttuinen: the motorway that stopped at a bridge",
+   "members": [
+    "AW-13",
+    "CW-03"
+   ],
+   "pin": [
+    52.381855,
+    4.890108
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-13": [
+     52.381855,
+     4.890108
+    ],
+    "CW-03": [
+     52.381855,
+     4.890108
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "infrastructure",
+   "default": "IN",
+   "reason": "replacement plan of the bridge to check",
+   "hook": "A car bridge built for a motorway that never came, painted by one of Europe's first women graffiti writers.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Haarlemmer_Houttuinen",
+    "https://nl.wikipedia.org/wiki/Brug_95"
+   ]
+  },
+  {
+   "sid": "S-035",
+   "title": "\"De walvis\" and the poem on the quay, Hollandse Tuin",
+   "members": [
+    "DW-10"
+   ],
+   "pin": [
+    52.383269,
+    4.890133
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-10": [
+     52.383269,
+     4.890133
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A granite fountain-sculpture islanders call the whale, and a neighbour's poem cut into the quay wall.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Omgevallen_boom",
+    "https://nl.wikipedia.org/wiki/Hollandse_Tuin_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-036",
+   "title": "Tuin Bickersgracht Noordkop and De Dierencapel",
+   "members": [
+    "DW-11"
+   ],
+   "pin": [
+    52.385765,
+    4.888761
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-11": [
+     52.385765,
+     4.888761
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "pin approximate; tree-felling plan outcome unknown",
+   "hook": "A neighbour-kept garden reserve with bird islands at the island's tip, beside the children's farm saved in 2006.",
+   "lead_sources": [
+    "https://amsterdamian.com"
+   ]
+  },
+  {
+   "sid": "S-037",
+   "title": "Kunstroute Nieuwe Houttuinen",
+   "members": [
+    "DW-13"
+   ],
+   "pin": [
+    52.384283,
+    4.885467
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-13": [
+     52.384283,
+     4.885467
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "One resident turned \"a road from nowhere to nowhere\" into an art route: Jonas and the whale, eye-twisting underpasses.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Jonas_en_de_walvis_(Amsterdam",
+    "https://nl.wikipedia.org/wiki/Evergreen_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-038",
+   "title": "Jacob van Lennep and the first water tap",
+   "members": [
+    "DW-14"
+   ],
+   "pin": [
+    52.385039,
+    4.882875
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-14": [
+     52.385039,
+     4.882875
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A steel-and-glass statue twelve years after its fountain fell through, where the city's first dune water was sold.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Standbeeld_voor_Jacob_van_Lennep."
+   ]
+  },
+  {
+   "sid": "S-039",
+   "title": "Door wind bewogen beweging (Wicher Meursing)",
+   "members": [
+    "DW-15"
+   ],
+   "pin": [
+    52.388139,
+    4.891889
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-15": [
+     52.388139,
+     4.891889
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "Friends built the designer's wind sculpture from his model after his death; it swings or stands dead still.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Door_wind_bewogen_beweging."
+   ]
+  },
+  {
+   "sid": "S-040",
+   "title": "De Roode Bioscoop, the anarchists' cinema",
+   "members": [
+    "DW-31"
+   ],
+   "pin": [
+    52.384082,
+    4.883977
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-31": [
+     52.384082,
+     4.883977
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "outcome of the 2024 name case unknown (Under threat)",
+   "hook": "An anarchist's 1913 cinema \"to spread red ideas\", now a volunteer stage fighting its landlord over the name.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/De_Roode_Bioscoop."
+   ]
+  },
+  {
+   "sid": "S-041",
+   "title": "Prinseneiland: the last walwindas, the Palmentuin and Mandela's garden",
+   "members": [
+    "DW-55",
+    "AW-16"
+   ],
+   "pin": [
+    52.385612,
+    4.887171
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-55": [
+     52.385612,
+     4.887171
+    ],
+    "AW-16": [
+     52.385643,
+     4.887646
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "winch spot and garden access to check; mural maker unknown",
+   "hook": "The city's last shore-winch cover for tar barrels, a neighbour-made garden, and a mural of Mandela's prison garden.",
+   "lead_sources": [
+    "https://www.amsterdamsights.com/about/western-islands.html",
+    "https://ibecomingdutch.wordpress.com/2022/07/18/mandelas-vegetable-garden-mural/"
+   ]
+  },
+  {
+   "sid": "S-042",
+   "title": "De Aardige Amsterdammer, Droogbak",
+   "members": [
+    "AW-14"
+   ],
+   "pin": [
+    52.380316,
+    4.894451
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-14": [
+     52.380316,
+     4.894451
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "damaged 2024, repair unknown",
+   "hook": "An outstretched hand for the volunteers who help the homeless; stolen on King's Day 2015, remade.",
+   "lead_sources": [
+    "https://www.parool.nl/kunst-media/nieuw-beeld-voor-aardige-amsterdammer-na-diefstal~b127fc7a/"
+   ]
+  },
+  {
+   "sid": "S-043",
+   "title": "Zandhoek: the Oranjeboom and Stadsherstel's first house",
+   "members": [
+    "DW-12",
+    "BW-32"
+   ],
+   "pin": [
+    52.387918,
+    4.889912
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-12": [
+     52.387918,
+     4.889912
+    ],
+    "BW-32": [
+     52.388062,
+     4.889984
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "green",
+   "default": "ASK",
+   "reason": "which tree needs a site check; single source for the tree",
+   "hook": "Wilhelmina's 1898 lime behind its small fence, and De Keijser, the first house Stadsherstel restored (1959).",
+   "lead_sources": [
+    "https://stadsherstel.nl/monumenten/de-keijser-zandhoek-13/"
+   ]
+  },
+  {
+   "sid": "S-044",
+   "title": "De Mof and the widow called Sluys, Haarlemmerdijk 109",
+   "members": [
+    "DW-51",
+    "AW-25"
+   ],
+   "pin": [
+    52.383177,
+    4.886093
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-51": [
+     52.383177,
+     4.886093
+    ],
+    "AW-25": [
+     52.383177,
+     4.886093
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Nice",
+   "category": "food-drink",
+   "default": "ASK",
+   "reason": "shop (borderline); the name is a wartime slur, careful copy",
+   "hook": "Neighbours nicknamed a German workwear seller \"de mof\" in 1885; the SLUYS stone above names a widow, not a town.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-045",
+   "title": "Vinkenstraat, a wall that makes you see suns",
+   "members": [
+    "AW-15"
+   ],
+   "pin": [
+    52.382613,
+    4.886316
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AW-15": [
+     52.382613,
+     4.886316
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "Stare at Roland Schimmel's black circles and coloured after-images appear; a folded-steel square a few steps on.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-046",
+   "title": "Wubboboom, Haarlemmerplein",
+   "members": [
+    "AW-17"
+   ],
+   "pin": [
+    52.384217,
+    4.884151
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "AW-17": [
+     52.384217,
+     4.884151
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay; or a Look for line in Willem Drees's birthplace (same square)",
+   "hook": "An elm for astronaut Wubbo Ockels with benches quoting \"we are all astronauts of Spaceship Earth\".",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Wubboboom",
+    "https://www.at5.nl/artikelen/136914/wubbo-boom-op-haarlemmerplein-onthuld"
+   ]
+  },
+  {
+   "sid": "S-047",
+   "title": "De Oude Amsterdammer, Korte Prinsengracht 5",
+   "members": [
+    "BW-33"
+   ],
+   "pin": [
+    52.381861,
+    4.890082
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BW-33": [
+     52.381861,
+     4.890082
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "food-drink",
+   "default": "ASK",
+   "reason": "Okay; single source; gone bar",
+   "hook": "A corner house whose shopfront with two doors still shows the old bar.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-048",
+   "title": "Stones that came home, Bickersgracht 14 and 22",
+   "members": [
+    "DW-34"
+   ],
+   "pin": [
+    52.384345,
+    4.888777
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DW-34": [
+     52.384345,
+     4.888777
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A vanished 1664 gable stone turned up in a dentist's wall in Moordrecht and was bricked back in.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-049",
+   "title": "Toon Ylandplantsoen, \"ons klein Keukenhof\"",
+   "members": [
+    "DW-35"
+   ],
+   "pin": [
+    52.387683,
+    4.887394
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-35": [
+     52.387683,
+     4.887394
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay; single source; status 2016",
+   "hook": "An orphaned strip turned neighbours' garden, named in 2016 behind its gardener's back after him.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-050",
+   "title": "Het Groene Hoofd aan het IJ",
+   "members": [
+    "DW-52"
+   ],
+   "pin": [
+    52.387722,
+    4.892573
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DW-52": [
+     52.387722,
+     4.892573
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay; single source; or a Look for line in Rederij Goedkoop",
+   "hook": "Two residents turned a tug firm's concrete mooring platform into planters and benches, shovelling the grit themselves.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-051",
+   "title": "Gables that swim: Abraham Zeeman's sea fish and De Hond's dolphins",
+   "members": [
+    "G-09"
+   ],
+   "pin": [
+    52.379327,
+    4.89249
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-09": [
+     52.379327,
+     4.89249
+    ]
+   },
+   "wijk": "Haarlemmerbuurt",
+   "zone": "West",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A man named Seaman had his gable claws carved as sea fish around 1715.",
+   "lead_sources": [
+    "https://www.hendrickdekeyser.nl/de-huizen/brouwersgracht-50"
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AW-18",
+   "draft": "Rederij Goedkoop, the tug company's office in the IJ",
+   "file": "haarlemmer-2",
+   "add": "Look for (if visible): Gerrit van 't Net's 1960 stone mosaic of harbour scenes in the hall"
+  },
+  {
+   "scout": "BW-34",
+   "draft": "Posthoorn church and its Catholic island",
+   "file": "haarlemmer-1",
+   "add": "the predecessor hidden church in the post-coach house De Posthoorn, Prinsengracht 7 (c. 1687), posthorn still in the front"
+  },
+  {
+   "scout": "CW-10",
+   "draft": "Rederij Goedkoop, the tug company's office in the IJ",
+   "file": "haarlemmer-2",
+   "add": "line: the rail yard's wild flora and the lost IJ view of the Westerdokseiland"
+  },
+  {
+   "scout": "DW-16",
+   "draft": "Eenhoornsluis and Hudde's sea-dike stone",
+   "file": "haarlemmer-1",
+   "add": "Look for: 't Bronzen vingertje for street manager Nel de Jager (2021, stolen, crowdfunded back 2023)"
+  },
+  {
+   "scout": "BW-29",
+   "draft": "De Kruiwagen, the herring buyer's double house where the Singel starts",
+   "file": "haarlemmer-2",
+   "add": "Look for: the hoisting wheel inside (café)"
+  },
+  {
+   "scout": "BW-30",
+   "draft": "Willem Drees's birthplace",
+   "file": "haarlemmer-1",
+   "add": "add: the city's last working wagon square (Theo Bakker)"
+  },
+  {
+   "scout": "DW-32",
+   "draft": "The Movies, Amsterdam's little Tuschinski",
+   "file": "haarlemmer-1",
+   "add": "local voice: 2023 crowdfund restoration"
+  },
+  {
+   "scout": "DW-33",
+   "draft": "Haarlemmerpoort and its fire station",
+   "file": "haarlemmer-1",
+   "add": "add: residents moved out 2017, Stadsherstel 2018 \"adopt a part\" campaign (birds pecked the clock's gold)"
+  }
+ ]
+}

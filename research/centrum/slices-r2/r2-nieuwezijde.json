@@ -1,0 +1,701 @@
+{
+ "slice": "r2-nieuwezijde",
+ "entries": [
+  {
+   "sid": "S-077",
+   "title": "Centraal Station's two plaques: the cold welcome and the sergeant",
+   "members": [
+    "AC-20"
+   ],
+   "pin": [
+    52.3788,
+    4.9002
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "AC-20": [
+     52.3788,
+     4.9002
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Amazing",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "Centraal Station is A-list: pitched on the plaques",
+   "hook": "A plaque admits the state \"failed\" the camp survivors it received here in 1945.",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4962/amsterdam-herinnering",
+    "https://nieuws.ns.nl"
+   ]
+  },
+  {
+   "sid": "S-078",
+   "title": "Nieuwendijk 89, the photographer's front with Daguerre and Niépce",
+   "members": [
+    "AC-02"
+   ],
+   "pin": [
+    52.376774,
+    4.896645
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-02": [
+     52.376774,
+     4.896645
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "date of the front to confirm",
+   "hook": "A portrait photographer's front with putti taking pictures and medallions of the two inventors of photography.",
+   "lead_sources": [
+    "https://amsterdamopdekaart.nl"
+   ]
+  },
+  {
+   "sid": "S-079",
+   "title": "Sint Luciënsteeg, the gable stone wall",
+   "members": [
+    "AC-03"
+   ],
+   "pin": [
+    52.3698,
+    4.8907
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "AC-03": [
+     52.3698,
+     4.8907
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "alley access during the museum rebuild",
+   "hook": "About 47 rescued gable stones on the museum's outer wall: a milkmaid, three moles, a skater.",
+   "lead_sources": [
+    "https://kog.nu",
+    "https://mforamsterdam.com/sint-luciensteeg"
+   ]
+  },
+  {
+   "sid": "S-080",
+   "title": "The neon HELP in the Voetboogstraat (Joes Kloppenburg)",
+   "members": [
+    "AC-04"
+   ],
+   "pin": [
+    52.368269,
+    4.890682
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-04": [
+     52.368269,
+     4.890682
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "Where a man died stopping a beating in 1997: a minute-by-minute plaque and HELP in neon overhead.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Monument_voor_Joes_Kloppenburg",
+    "https://feitjes.amsterdam"
+   ]
+  },
+  {
+   "sid": "S-081",
+   "title": "Een zeegezicht aan het IJ, the tiled cycle tunnel",
+   "members": [
+    "AC-05"
+   ],
+   "pin": [
+    52.379235,
+    4.898193
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-05": [
+     52.379235,
+     4.898193
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "pitched on the art, not the station",
+   "hook": "70,000 hand-painted tiles of a Rotterdam painter's herring fleet line the tunnel under the station.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-082",
+   "title": "Rokin station: the archaeologists' wall and Manders' fountain",
+   "members": [
+    "AC-11",
+    "AC-12"
+   ],
+   "pin": [
+    52.369703,
+    4.892149
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-11": [
+     52.369703,
+     4.892149
+    ],
+    "AC-12": [
+     52.369168,
+     4.892252
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "Thousands of metro-dig finds laid out by shape, not date; Queen Wilhelmina rides above on the Rokin.",
+   "lead_sources": [
+    "https://belowthesurface.amsterdam"
+   ]
+  },
+  {
+   "sid": "S-083",
+   "title": "Annick van Hardeveld, the last courier",
+   "members": [
+    "AC-19"
+   ],
+   "pin": [
+    52.377635,
+    4.895138
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-19": [
+     52.377635,
+     4.895138
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "",
+   "hook": "A 21-year-old courier shot on 4 May 1945 while the radio announced the surrender.",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1617/amsterdam-monument-voor-annick-van-hardeveld"
+   ]
+  },
+  {
+   "sid": "S-084",
+   "title": "Walk of Pride, queer names from the Dam to the Homomonument",
+   "members": [
+    "AC-21"
+   ],
+   "pin": [
+    52.37318,
+    4.89105
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-21": [
+     52.37318,
+     4.89105
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "tile count 52 or 53",
+   "hook": "Since July 2026 bronze-inlaid tiles with queer names run from the Dam to the Homomonument.",
+   "lead_sources": [
+    "https://walkofpride.amsterdam"
+   ]
+  },
+  {
+   "sid": "S-085",
+   "title": "Nieuwezijds Kolk, the castle under the street",
+   "members": [
+    "BC-02"
+   ],
+   "pin": [
+    52.37611,
+    4.895
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-02": [
+     52.37611,
+     4.895
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "no paving marker known; check on site",
+   "hook": "Foundations of a castle of about 1280, the city's oldest structure, found under the Kolk in 1994.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Kasteel_van_Amsterdam",
+    "https://nl.wikipedia.org/wiki/Korenmetershuisje_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-086",
+   "title": "Beurspassage, the \"Amsterdam Oersoep\"",
+   "members": [
+    "CC-09"
+   ],
+   "pin": [
+    52.374714,
+    4.894597
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CC-09": [
+     52.374714,
+     4.894597
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A passage turned underwater canal: herring and bikes in the ceiling, bicycle-part chandeliers, a fish-head tap.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Amsterdam_Oersoep",
+    "https://nl.wikipedia.org/wiki/Beurspassage"
+   ]
+  },
+  {
+   "sid": "S-087",
+   "title": "The Dam shooting of 7 May 1945 and its 32 name stones",
+   "members": [
+    "DC-15"
+   ],
+   "pin": [
+    52.373393,
+    4.8928
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-15": [
+     52.373393,
+     4.8928
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "hidden-history",
+   "default": "IN",
+   "reason": "Dam is A-list: pitched on the stones; Victoria Hotel draft mentions the day",
+   "hook": "Name stones in the Dam's paving for those killed when Germans fired on the liberation crowd.",
+   "lead_sources": [
+    "https://www.nhnieuws.nl/nieuws/184667"
+   ]
+  },
+  {
+   "sid": "S-088",
+   "title": "Het Lieverdje and the words on the Spui",
+   "members": [
+    "DC-37",
+    "AC-08"
+   ],
+   "pin": [
+    52.368777,
+    4.889027
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-37": [
+     52.368777,
+     4.889027
+    ],
+    "AC-08": [
+     52.368852,
+     4.890407
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "The little bronze boy where Provo began its happenings, with Lawrence Weiner's iron books in the paving.",
+   "lead_sources": [
+    "https://www.at5.nl/artikelen/226839",
+    "https://straatpoezie.nl/gedicht/een-vertaling"
+   ]
+  },
+  {
+   "sid": "S-089",
+   "title": "The last elm of the Stationsplein",
+   "members": [
+    "GR-02"
+   ],
+   "pin": [
+    52.378304,
+    4.899057
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-02": [
+     52.378304,
+     4.899057
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "station square is A-list: pitched on the tree",
+   "hook": "The sole survivor of 30 elms planted when the station was built, now ringed by young ones again.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-090",
+   "title": "The bicycle garage under the water at Stationsplein",
+   "members": [
+    "CC-01"
+   ],
+   "pin": [
+    52.3793,
+    4.901
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "CC-01": [
+     52.3793,
+     4.901
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Nice",
+   "category": "infrastructure",
+   "default": "ASK",
+   "reason": "second source needed; panels' visibility unknown",
+   "hook": "7,000 bikes nine metres under the water, with two 1965 sgraffito walls saved from a demolished institute.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Fietsenstalling_Stationsplein_(Amsterdam"
+   ]
+  },
+  {
+   "sid": "S-091",
+   "title": "Art under Centraal Station: tomorrow's weather and a mosaic seen through peepholes",
+   "members": [
+    "AC-06"
+   ],
+   "pin": [
+    52.378257,
+    4.900489
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-06": [
+     52.378257,
+     4.900489
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A screen landscape whose weather is tomorrow's forecast, and a granite mosaic glimpsed through peepholes.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-092",
+   "title": "Canvas van Amsterdam on the Haringpakkersbrug, where the Haringpakkerstoren stood",
+   "members": [
+    "AC-07"
+   ],
+   "pin": [
+    52.379409,
+    4.895415
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-07": [
+     52.379409,
+     4.895415
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay; changing work; gone tower (BC-03 lead)",
+   "hook": "A changing artwork on the bridge by the vanished herring packers' tower.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-093",
+   "title": "Rokin 64, the Moor on the cornice",
+   "members": [
+    "AC-29"
+   ],
+   "pin": [
+    52.370618,
+    4.892352
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AC-29": [
+     52.370618,
+     4.892352
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; link to Bartholomeus de Moor unchecked; scout hint: group with Gouden Bril (AC-01)",
+   "hook": "A carved Moor on a cornice, used by Mapping Slavery to talk about colonial words.",
+   "lead_sources": [
+    "https://mappingslavery.nl/portfolio/amsterdam-2/"
+   ]
+  },
+  {
+   "sid": "S-094",
+   "title": "Hotel Polen fire, 1977",
+   "members": [
+    "BC-05"
+   ],
+   "pin": [
+    52.372197,
+    4.892578
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-05": [
+     52.372197,
+     4.892578
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; single source; no memorial found",
+   "hook": "33 dead in the deadliest Dutch fire since the war; Rokin Plaza replaced the hotel.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Brand_in_Hotel_Polen"
+   ]
+  },
+  {
+   "sid": "S-095",
+   "title": "Olieslagerssteeg, leper house, oil pressers and Maison de Bonneterie",
+   "members": [
+    "BC-11"
+   ],
+   "pin": [
+    52.36806,
+    4.89194
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-11": [
+     52.36806,
+     4.89194
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "Oil pressers sold Haarlem oil as a cure-all here; a department store replaced the lepers' chapel in 1901.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Olieslagerssteeg_(Amsterdam",
+    "https://nl.wikipedia.org/wiki/Sint_Jorishof_(Amsterdam",
+    "https://www.onh.nl/verhalen/modepaleizen-in-amsterdam"
+   ]
+  },
+  {
+   "sid": "S-096",
+   "title": "Oude Braak and the Nieuwezijds Armsteeg, the dike-arm lanes",
+   "members": [
+    "BC-35",
+    "AC-09"
+   ],
+   "pin": [
+    52.3768,
+    4.8954
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "BC-35": [
+     52.3768,
+     4.8954
+    ],
+    "AC-09": [
+     52.377084,
+     4.89591
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; partly residents-only",
+   "hook": "Lanes on a dike breach and a curving dike arm, with the White Cube art space.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Oude_Braak",
+    "https://nl.wikipedia.org/wiki/Nieuwezijds_Armsteeg"
+   ]
+  },
+  {
+   "sid": "S-097",
+   "title": "Wijdesteeg, the mosaic alley",
+   "members": [
+    "DC-08"
+   ],
+   "pin": [
+    52.371575,
+    4.890035
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-08": [
+     52.371575,
+     4.890035
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay; Still there? (status 2014)",
+   "hook": "\"They used to call this a filthy little alley\": residents' mosaics in the Wijdesteeg.",
+   "lead_sources": [
+    "https://www.at5.nl/artikelen/136873"
+   ]
+  },
+  {
+   "sid": "S-098",
+   "title": "Vrankrijk",
+   "members": [
+    "DC-36"
+   ],
+   "pin": [
+    52.371691,
+    4.889222
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DC-36": [
+     52.371691,
+     4.889222
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; thin",
+   "hook": "The squatted political club of the Spuistraat, still open.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-099",
+   "title": "Kalverstraat 10, the booksellers' palace above the shops",
+   "members": [
+    "G-05"
+   ],
+   "pin": [
+    52.372291,
+    4.891931
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "G-05": [
+     52.372291,
+     4.891931
+    ]
+   },
+   "wijk": "Burgwallen-Nieuwe Zijde",
+   "zone": "Core",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; or a Look for in \"Look up in the Kalverstraat\"",
+   "hook": "Minerva and Mercury above a shop window, where Rembrandt's print publisher kept shop from 1662.",
+   "lead_sources": [
+    "https://web.archive.org/web/2025/https://amsterdamsebinnenstad.nl/binnenstad/266/kalverstraat-10.php"
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "BC-07",
+   "draft": "Look up in the Kalverstraat",
+   "file": "nieuwezijde-1",
+   "add": "the Roode Leeuw stones (lion) on the P&C building and the closed Kromelleboogsteeg"
+  },
+  {
+   "scout": "BC-08",
+   "draft": "Militiegebouw, the city arsenal where Euwe played for the world title",
+   "file": "nieuwezijde-2",
+   "add": "the Singel doelen next door, nicknamed \"Garnalendoelen\""
+  },
+  {
+   "scout": "DC-35",
+   "draft": "The newspaper street, from Handelsblad to De Standaard",
+   "file": "nieuwezijde-2",
+   "add": "the Handelsblad complex squatted in 1978, now social housing with \"kruip door, sluip door\" routes; the 1980s lesbian squat"
+  },
+  {
+   "scout": "AC-01",
+   "draft": "De Gouden Bril, the optician with a monkey on the roof",
+   "file": "nieuwezijde-3",
+   "add": "resolved by coordinator (L41): add the Zacharias Jansen statue line if missing"
+  },
+  {
+   "scout": "BC-33",
+   "draft": "Rasphuispoort, the gate of the house of correction",
+   "file": "nieuwezijde-2",
+   "add": "add: the Heiligewegbad (1896-1987) behind it"
+  },
+  {
+   "scout": "DC-07",
+   "draft": "Politieposthuisje, the police post that became a public toilet and a café",
+   "file": "nieuwezijde-2",
+   "add": "stamp market, Argus and the Kabouter statue (Ruchama Noorda) as Look for; Argus already in \"The newspaper street\""
+  }
+ ]
+}

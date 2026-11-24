@@ -1,0 +1,968 @@
+# Centrum round 2, slice r2-nieuwezijde: scouted places in Burgwallen-Nieuwe Zijde (the station front, the Damrak and Nieuwendijk, the Dam, Kalverstraat and Rokin, the Spui).
+# See notes/r2-nieuwezijde.md for the ledger (every S-id and scout id), enrich edits, drops and uncertainties.
+# Dutch texts are written fresh from Dutch sources (4en5mei.nl, nl.wikipedia, Kunstwacht, NH Nieuws, AT5, the registers, VVAB Binnenstad).
+
+# ================================================================ Station front
+
+- title: "Centraal Station's two plaques: the cold welcome and the sergeant"
+  summary: "In the passage under the station a plaque says in plain words that the Dutch government failed the camp survivors it received here in 1945. In the main hall, a second one remembers a resistance sergeant shot two days after the surrender."
+  body: |
+    Few people passing through Centraal Station notice that the state admits a failure here. A plaque at the IJ end of the east passenger tunnel says that in the chaos straight after the war, the Dutch government received the few survivors of the concentration camps in the station's "catacombs", the bleak rooms under the tracks, and that the welcome was "extremely cold". This time, it says, the German occupier could not be used as an excuse: the government, responsible for a merciful reception, failed in its task.
+
+    The text rests partly on the memories of the architect Moshé Zwarts, who arrived here as a boy of almost eight after surviving Bergen-Belsen. It was his initiative, and on 30 August 2019 he unveiled it with Roger van Boxtel, head of Dutch Railways. It also recalls the trains that took Dutch Jews to Westerbork and Vught in 1942–1944.
+
+    The second plaque, in the central hall, dates from 22 September 1984. On 7 May 1945 the resistance's Binnenlandse Strijdkrachten (BS) held the station when about thirty German Grüne Polizei tried to retake it. Sergeant Willem Zeeman, 22, met them in the baggage room, shot one of them and was shot in the back of the head.
+
+    Look for:
+    - the plaque in Dutch and English at the Oosttunnel, IJ side
+    - the broken tulip and the dove on the 1984 plaque in the hall
+    - the red copper railway plaque for 49 staff killed in the war
+  category: hidden-history
+  lat: 52.379313
+  lng: 4.901575
+  address: Stationsplein, Centraal Station (Oosttunnel, IJ side)
+  links:
+    - { label: 4 en 5 mei Herinnering, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4962/amsterdam-herinnering" }
+    - { label: 4 en 5 mei monument op het Centraal Station, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1620" }
+    - { label: 4 en 5 mei NS plaquette, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2288" }
+  attributes:
+    rank: Amazing
+    built: 1984 and 2019
+    check: Location
+    check_note: Pin on the 2019 plaque at the IJ end of the Oosttunnel; the 1984 plaque is in the central hall.
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4962 (full text of the plaque; Moshé Zwarts initiative, arrived aged almost eight after Bergen-Belsen; unveiled 30 Aug 2019 by Zwarts and NS president Roger van Boxtel; English translation on the plaque; location: entrance of the Oosttunnel under CS, IJ side; adopted 2026-2027 by a school)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1620 (Willem Zeeman, BS sergeant, 22, killed 7 May 1945; station closed by BS at 11:00, 200 German railway troops disarmed; 15:30 about thirty Grüne Polizei attacked; Zeeman shot one and was hit in the back of the head in the baggage room; 17 German dead; plaque with broken tulip and dove unveiled 22 Sep 1984 in the central hall)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2288 (red copper plaque, 49 NS staff, uniform plaque in 110 stations)
+  nl:
+    title: "De twee plaquettes van het Centraal Station: de kille ontvangst en de sergeant"
+    summary: "In de tunnel onder het station staat zonder omwegen dat de overheid de kampoverlevenden die hier in 1945 aankwamen in de steek liet. In de stationshal herinnert een tweede plaquette aan een BS-sergeant die twee dagen na de capitulatie werd doodgeschoten."
+    body: |
+      Wie door het Centraal Station loopt, ziet meestal niet dat de overheid hier schuld bekent. Bij de ingang van de Oosttunnel aan de IJ-zijde hangt een plaquette die vertelt dat de Nederlandse overheid de weinige overlevenden van de concentratiekampen direct na de oorlog opving in de "catacomben" van dit station, troosteloze ruimtes onder het spoor. Die opvang was "buitengewoon kil". En dit keer, staat er, kon de Duitse bezetter niet als excuus dienen: de overheid faalde.
+
+      De tekst steunt deels op de herinneringen van architect Moshé Zwarts, die hier als jongen van bijna acht aankwam nadat hij Bergen-Belsen had overleefd. Het was zijn initiatief; op 30 augustus 2019 onthulde hij de plaquette samen met NS-topman Roger van Boxtel. Ze herinnert ook aan de treinen die Nederlandse Joden in 1942–1944 naar Westerbork en Vught brachten.
+
+      De tweede plaquette, in de centrale hal, is van 22 september 1984. Op 7 mei 1945 hielden de Binnenlandse Strijdkrachten (BS) het station bezet toen een dertigtal man van de Grüne Polizei het wilde heroveren. Sergeant Willem Zeeman (22) liep ze tegen het lijf in de bagageruimte, schoot er een neer en werd daarna in zijn achterhoofd geraakt.
+
+      Let op:
+      - de tweetalige plaquette bij de Oosttunnel, IJ-zijde
+      - de geknakte tulp en de vredesduif op de plaquette van 1984 in de hal
+      - de roodkoperen NS-plaquette voor 49 omgekomen spoorwegmensen
+    attributes:
+      check_note: Speld op de plaquette van 2019 aan de IJ-kant van de Oosttunnel; die van 1984 hangt in de centrale hal.
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4962
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1620
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2288
+
+- title: Een zeegezicht aan het IJ, the tiled cycle tunnel
+  summary: "The walkers' half of the tunnel under Centraal Station is lined with about 70,000 hand-painted tiles of a herring fleet, copied from a Rotterdam tile painter. The designer swapped the Rotterdam arms on one ship for Amsterdam's crosses."
+  body: |
+    Walk under Centraal Station through the Cuyperspassage and you are inside a blue-and-white sea. The tunnel, 110 metres long and opened on 21 November 2015, is for walkers and cyclists only. On the walkers' side the walls and ceiling are covered with about 70,000 hand-painted tiles, made one by one at the Koninklijke Tichelaar works in Makkum. The designer Irma Boom based the picture on an 18th-century tile tableau of the Dutch herring fleet by the Rotterdam tile painter Cornelis Boumeester. On the city side the scene is true to the original; towards the IJ it grows sketchier and more abstract.
+
+    Boom made one pointed change. On the ship named De Rotterdam she replaced the Rotterdam arms with the three crosses of Amsterdam.
+
+    The two halves are deliberately unlike. The cycle path is dark, with lamps in the ceiling and metal grilles on the wall against fly-posting and graffiti; a step with a strip of LED light keeps the two streams apart. The tunnel is named after Pierre Cuypers, the station's architect, and was commissioned by the city and ProRail.
+
+    Look for:
+    - the Amsterdam crosses on the ship De Rotterdam
+    - the sea dissolving into sketches towards the IJ
+    - the same tiles, without the picture, on the walkers' floor
+  category: street-art
+  lat: 52.379235
+  lng: 4.898193
+  address: Cuyperspassage, Stationsplein
+  links:
+    - { label: Kunstwacht Een zeegezicht aan het IJ, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/576" }
+    - { label: Wikipedia (nl) Cuyperspassage, url: "https://nl.wikipedia.org/wiki/Cuyperspassage" }
+  attributes:
+    rank: Nice
+    built: "2015"
+    artist: Irma Boom
+  sources:
+    - Kunstwacht object 576 (Irma Boom, 2015; tableau by Rotterdam tile painter Cornelis Bouwmeester, 18th c.; Holland herring fleet; over 70,000 hand-painted tiles by Koninklijke Tichelaar Makkum; natural on the city side, more abstract and sketchy at the IJ side; Rotterdam arms on the ship De Rotterdam replaced by three Amsterdam crosses; commissioned by the city and ProRail)
+    - https://nl.wikipedia.org/wiki/Cuyperspassage (110 m long, 10 m wide; walkers and cyclists separated by a step with LED strip; walkers' side clad in Zeegezicht aan het IJ, same tiles on the floor without decoration; cycle side dark with metal grilles against fly-posting and graffiti; opened 21 Nov 2015; named after Pierre Cuypers)
+  nl:
+    title: Een zeegezicht aan het IJ, de tegeltunnel onder het station
+    summary: "De voetgangerskant van de tunnel onder het Centraal Station is bekleed met ruim 70.000 handbeschilderde tegels van een haringvloot, naar een Rotterdamse tegelschilder. Op één schip ruilde de ontwerper het Rotterdamse wapen in voor de Amsterdamse kruisen."
+    body: |
+      Wie door de Cuyperspassage onder het Centraal Station loopt, staat ineens in een blauw-witte zee. De tunnel, 110 meter lang en op 21 november 2015 geopend, is alleen voor fietsers en voetgangers. Aan de voetgangerskant zijn wanden en plafond bedekt met ruim 70.000 handbeschilderde tegels, stuk voor stuk gemaakt bij Koninklijke Tichelaar in Makkum. Ontwerper Irma Boom nam een achttiende-eeuws tegeltableau van de Hollandse haringvloot als voorbeeld, geschilderd door de Rotterdamse plateelschilder Cornelis Boumeester. Aan de stadskant is het beeld nog getrouw, richting het IJ wordt het steeds schetsmatiger.
+
+      Eén ingreep is veelzeggend: op het schip De Rotterdam verving Boom het Rotterdamse stadswapen door drie Andreaskruisen.
+
+      De twee helften verschillen met opzet. Het fietspad is donker, met lampen in het plafond en metalen roosters tegen wildplakken en graffiti; een opstap met een ledstrook houdt de stromen gescheiden. De tunnel is genoemd naar Pierre Cuypers, de architect van het station, en kwam er in opdracht van de gemeente en ProRail.
+
+      Let op:
+      - de Amsterdamse kruisen op het schip De Rotterdam
+      - de zee die richting het IJ in schetsen uiteenvalt
+      - dezelfde tegels, zonder voorstelling, op de vloer van het voetpad
+    sources:
+      - Kunstwacht object 576
+      - https://nl.wikipedia.org/wiki/Cuyperspassage
+
+- title: Art under Centraal Station, tomorrow's weather and a mosaic seen through peepholes
+  summary: "In the metro hall under the station a screen shows a made-up landscape with tomorrow's weather in it. Round the corner, an abstract granite mosaic from 1980 can only be seen through holes cut in a row of air vents."
+  body: |
+    The metro hall under Centraal Station has a window on tomorrow. David Claerbout's Weather Engine (2018) is a computer-built landscape whose weather is the forecast for 24 hours ahead, fed live from the internet. A slightly mysterious man lives in it and goes about his seasonal jobs, untouched by the rushing travellers.
+
+    In the tunnel from the Kamperbrug entrance hangs Joost van Roojen's granite mosaic, a gift from Dutch Railways when the east metro line opened in 1980. In 2013 tunnel safety rules required air vents a few metres in front of it, so peepholes were cut to keep it in sight.
+
+    Look for:
+    - the man in Weather Engine, and whether his sky matches the forecast
+    - the peepholes in the vents in the Kamperbrug tunnel
+    - Jennifer Tee's Tulip Palepai, made from scans of 100,000 dried tulip petals
+  category: street-art
+  lat: 52.378257
+  lng: 4.900489
+  address: Metro hall under Centraal Station
+  links:
+    - { label: Kunstwacht Weather Engine, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/1162" }
+    - { label: Kunstwacht Van Roojen mosaic, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/1169" }
+    - { label: Kunstwacht Tulip Palepai, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/1186" }
+  attributes:
+    rank: Okay
+    artist: David Claerbout, Joost van Roojen, Jennifer Tee
+  sources:
+    - Kunstwacht object 1162 (Weather Engine, great metro hall under CS; weather as expected in 24 hours; fictional landscape with a somewhat mysterious inhabitant with seasonal tasks; three years to make; motion capture; internet supplies forecasts in real time; Weather Engine dated 2018 per scout AC-06)
+    - Kunstwacht object 1169 (Joost van Roojen granite mosaic in the tunnel of the metro entrance at the Kamperbrug; 2013 air vents for tunnel safety a few metres in front, peepholes made; gift from NS when the Oostlijn opened in 1980; second mosaic lost with the Noord/Zuidlijn)
+    - Kunstwacht object 1186 (Jennifer Tee, Tulip Palepai, 100,000 tulip petals, scans)
+  nl:
+    title: Kunst onder het Centraal Station, het weer van morgen en een mozaïek door kijkgaatjes
+    summary: "In de metrohal onder het station toont een scherm een verzonnen landschap met het weer van morgen. Om de hoek is een abstract granietmozaïek uit 1980 alleen nog door gaatjes in een rij luchtkleppen te zien."
+    body: |
+      De metrohal onder het Centraal Station heeft een raam op morgen. Weather Engine (2018) van David Claerbout is een digitaal landschap met het weer zoals dat over 24 uur wordt verwacht; de voorspelling komt live van internet. Er woont een wat raadselachtige man in die per seizoen zijn bezigheden heeft en zich niets aantrekt van de haastige reizigers.
+
+      In de tunnel van de metro-ingang bij de Kamperbrug hangt het granietmozaïek van Joost van Roojen, een cadeau van de NS toen de Oostlijn in 1980 openging. In 2013 moesten er voor de tunnelveiligheid luchtkleppen voor, een paar meter ervoor; er werden kijkgaatjes in gemaakt zodat het zichtbaar bleef.
+
+      Let op:
+      - de man in Weather Engine, en of zijn lucht klopt met de voorspelling
+      - de kijkgaatjes in de luchtkleppen in de Kamperbrugtunnel
+      - Tulip Palepai van Jennifer Tee, gemaakt van scans van 100.000 gedroogde tulpenblaadjes
+    sources:
+      - Kunstwacht objecten 1162, 1169, 1186
+
+- title: The last elm of the Stationsplein
+  summary: "Of the more than thirty elms planted in front of Centraal Station after it was built, one survived Dutch elm disease and every rebuilding of the square. It is a city champion tree, and young elms now stand around it again."
+  body: |
+    Among the trams and the crowds in front of Centraal Station stands one big old tree. It is a Dutch elm, the last of more than thirty planted on the square in the years after the station was built in 1889. From the 1920s Dutch elm disease killed hundreds of thousands of elms in the Netherlands, and Amsterdam's were hit hard; this one held on, and outlived every rebuilding of the station square since.
+
+    The city has listed it as a protected tree and a champion of its kind; its trunk measures 311 centimetres round and its crown 15 to 20 metres across. In 2022 a few young elms were planted in front of the station, so the square may one day look the way it did a century ago. The Bomenstichting, the national tree foundation, put it on a city walk in 2021 and on its register of monumental trees, which describes its condition as reasonable.
+
+    Look for:
+    - the old trunk among the tram stops, east of the main entrance
+    - the young elms planted around it
+  category: green
+  lat: 52.378304
+  lng: 4.899057
+  address: Stationsplein, in front of Centraal Station
+  links:
+    - { label: Monumentale bomen 1694179, url: "https://www.monumentalebomen.nl/boom/1694179" }
+  attributes:
+    rank: Nice
+    built: about 1889–1900 (planted)
+  sources:
+    - Bomenstichting walk 2021 (tree 30, Hollandse iep, last of more than 30 elms planted just after the building of CS in 1889; elm disease from the 1920s, hundreds of thousands felled; plant year 1889; LRMB 1694179)
+    - LRMB 1694179 (Hollandse iep Amsterdam Centraal, plant year 1900-1910, last of more than 30 elms planted around 1900 after the station of 1889; Amsterdam elms hit hard; in 2022 some young elms planted in front of the station; condition reasonable)
+    - city tree list, BOOM_ID 339649 (Ulmus hollandica Belgica, plant year 1900, girth 311 cm, crown 15-20 m, protected, Kampioenboom ja, pin 52.3783037, 4.8990574)
+  nl:
+    title: De laatste iep van het Stationsplein
+    summary: "Van de ruim dertig iepen die na de bouw van het Centraal Station op het plein werden geplant, overleefde er één de iepziekte en alle verbouwingen. Het is een kampioenboom, en er staan nu weer jonge iepen omheen."
+    body: |
+      Tussen de trams en de mensenmassa voor het Centraal Station staat één grote oude boom. Het is een Hollandse iep, de laatste van de ruim dertig die in de jaren na de bouw van het station (1889) op het plein werden gezet. Vanaf de jaren twintig sloeg de iepziekte toe: in Nederland moesten honderdduizenden iepen worden gekapt, en ook Amsterdam raakte er veel kwijt. Deze hield stand, en overleefde ook elke herinrichting van het Stationsplein.
+
+      De gemeente heeft hem aangewezen als beschermwaardige boom en kampioen van zijn soort. De stam meet 311 centimeter rond, de kroon is 15 tot 20 meter breed. In 2022 zijn er voor het station enkele jonge iepen bijgeplant, dus misschien komt het oude straatbeeld ooit terug. De Bomenstichting nam hem in 2021 op in een stadswandeling en in het Landelijk Register Monumentale Bomen, dat zijn conditie redelijk noemt.
+
+      Let op:
+      - de oude stam tussen de tramhaltes, oostelijk van de hoofdingang
+      - de jonge iepen eromheen
+    sources:
+      - Bomenstichting wandeling 2021
+      - LRMB 1694179
+      - gemeentelijke bomenlijst 339649
+
+- title: The bicycle garage under the water at Stationsplein
+  summary: "Nine metres under the water in front of Centraal Station, 7,000 bikes park in a garage built by draining the harbour basin. Inside, two big 1965 wall pieces by Lex Horn were given a home after twenty years in storage."
+  body: |
+    In front of Centraal Station the tour boats moor on water that hides 7,000 bicycles. From the summer of 2018 builders dug a pit in the Open Havenfront, the harbour basin between the Stationsplein and the Prins Hendrikkade, poured concrete under water, pumped the basin dry, built the garage nine metres below street level and let the water back in. The Rotterdam firm Wurck designed it as an oyster: rough and dark outside, smooth and light within, with round columns as pearls and round ceiling lights. It was finished after more than four years of work and has been in use since early 2023. With the garage under the IJ behind the station it replaces the Fietsflat of 2001, which the city decided to demolish in 2025.
+
+    Moving walkways take you down from the Prins Hendrikkade; you check in with a public transport card, and the first 24 hours are free. A covered passage leads to the metro hall.
+
+    Inside are two sgraffito walls by Lex Horn, scratched and coloured in wet concrete in 1965 for a laboratory building, the Jan Swammerdam Instituut. When it was demolished the walls went into storage; his daughter Meinke Horn searched for years for a place big enough, and helped restore them before they were set up here.
+
+    Look for:
+    - Lex Horn's Het straatongeluk and Het laboratoriumonderzoek
+    - the collages of the growing city along the glass walls, made with the Amsterdam Museum
+    - the round "oculi" lights in the ceiling
+  category: infrastructure
+  lat: 52.377967
+  lng: 4.898308
+  address: Prins Hendrikkade, opposite the Martelaarsgracht (main entrance)
+  links:
+    - { label: Wikipedia (nl) Fietsenstalling Stationsplein, url: "https://nl.wikipedia.org/wiki/Fietsenstalling_Stationsplein_(Amsterdam)" }
+    - { label: Stadscuratorium Het straatongeluk, url: "https://stadscuratorium.nl/collectie/het-straatongeluk-the-street-accident/" }
+  attributes:
+    rank: Nice
+    built: 2018–2023
+    architect: Wurck
+    artist: Lex Horn
+    check: Location
+    check_note: Pin on the garage itself; the spot of the Lex Horn walls inside is not known.
+  sources:
+    - https://nl.wikipedia.org/wiki/Fietsenstalling_Stationsplein_(Amsterdam) (7,000 bikes under the water of the Open Havenfront; main entrance Prins Hendrikkade by the Martelaarsgracht; six moving walkways; OV-chipkaart, first 24 hours free; link to metro hall, closes after last metro; built from summer 2018, more than four years; underwater concrete, basin pumped dry, water returned; Wurck, oyster concept, pearls, oculi; nine metres below ground level; collages with Amsterdam Museum; two Lex Horn sgraffiti "Het straatongeluk" and "Het laboratoriumonderzoek", 3 x 7 m, from the Jan Swammerdam Instituut, removed before demolition in 2004, stored, restored with Meinke Horn; IJboulevard garage 4,000 places from 22 Feb 2023; Fietsflat closed 30 Jan 2023, demolition decided April 2025)
+    - https://stadscuratorium.nl/collectie/het-straatongeluk-the-street-accident/ (three sgraffiti by Lex Horn, 1965, laboratory building, Jan Swammerdam Institute in West demolished; one to the AMC, two in storage; Meinke Horn searched for a location; new home in the new bicycle parking at Central Station; walls given as 2.5 x 6.5 m)
+    - OSM way "Fietsenstalling Stationsplein", capacity 7000, centre 52.377967, 4.898308
+  nl:
+    title: De fietsenstalling onder het water van het Stationsplein
+    summary: "Negen meter onder het water voor het Centraal Station staan 7000 fietsen, in een stalling die werd gebouwd door de haven droog te pompen. Binnen kregen twee grote sgraffito's van Lex Horn uit 1965 een plek, na jaren in een depot."
+    body: |
+      Voor het Centraal Station liggen de rondvaartboten aan boven 7000 fietsen. Vanaf de zomer van 2018 werd in het Open Havenfront, het water tussen Stationsplein en Prins Hendrikkade, een bouwkuip gemaakt: heipalen, onderwaterbeton, water eruit, stalling erin, water er weer op. De stalling ligt negen meter onder maaiveld. Het Rotterdamse bureau Wurck ontwierp haar als een oester: ruw en donker van buiten, glad en licht van binnen, met ronde kolommen als parels en ronde lichten in het plafond. Na ruim vier jaar bouwen was ze klaar; sinds begin 2023 is ze in gebruik. Samen met de stalling onder het IJ achter het station vervangt ze de Fietsflat uit 2001, die volgens een besluit van april 2025 wordt gesloopt.
+
+      Je gaat met rolpaden naar beneden vanaf de Prins Hendrikkade en checkt in met je ov-chipkaart; de eerste 24 uur zijn gratis. Een overdekte gang leidt naar de metrohal.
+
+      Binnen staan twee sgraffito's van Lex Horn: tekeningen die in 1965 in nat beton werden gekrast en ingekleurd, voor een laboratorium, het Jan Swammerdam Instituut. Bij de sloop gingen ze naar het depot. Zijn dochter Meinke Horn zocht jarenlang naar een plek die groot genoeg was en hielp ze opknappen voor ze hier kwamen.
+
+      Let op:
+      - Het straatongeluk en Het laboratoriumonderzoek van Lex Horn
+      - de collages van de groeiende stad langs de glazen wanden, gemaakt met het Amsterdam Museum
+      - de ronde lichtogen in het plafond
+    attributes:
+      check_note: Speld op de stalling zelf; waar de wanden van Lex Horn binnen precies staan, is niet bekend.
+    sources:
+      - https://nl.wikipedia.org/wiki/Fietsenstalling_Stationsplein_(Amsterdam)
+      - https://stadscuratorium.nl/collectie/het-straatongeluk-the-street-accident/
+
+- title: Canvas van Amsterdam on the Haringpakkersbrug, where the Haringpakkerstoren stood
+  summary: "A steel panel on the bridge by Centraal Station gets a new painting by an Amsterdam artist every six months. It hangs where the herring packers' tower stood until the poor city pulled it down in 1829."
+  body: |
+    On the side of the Haringpakkersbrug hangs a steel panel of 2.5 by 8.5 metres that gets a new painting by an Amsterdam artist every six months, until at least 2030. The first, from April 2026, was by the duo FreelingWaters: VREEMDELING WELKOM (stranger, welcome) in black Gothic letters on a Dutch flag, between Amsterdam flags with gulls instead of crosses. The spot, they said, asked for something positive: past it rolls a stream of tourists with wheeled suitcases, beside the makeshift beds of homeless Amsterdammers. A work by Hedy Tjin was announced for September 2026.
+
+    Here stood the Haringpakkerstoren, the corner tower of the town wall where the herring packers met. The poor city pulled it down in 1829, after measuring it so it could be rebuilt; Stadsherstel offered to do so in 2010, then withdrew.
+
+    Look for:
+    - the current painting on the bridge wall
+  category: street-art
+  lat: 52.379409
+  lng: 4.895415
+  address: Haringpakkersbrug, Prins Hendrikkade by the Singel
+  links:
+    - { label: Stadscuratorium Canvas van Amsterdam, url: "https://stadscuratorium.nl/?p=3782" }
+    - { label: Kunstwacht Canvas van Amsterdam 1, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/7481" }
+    - { label: Wikipedia (nl) Haringpakkerstoren, url: "https://nl.wikipedia.org/wiki/Haringpakkerstoren" }
+  attributes:
+    rank: Okay
+    built: "2026"
+    check: Facts
+    check_note: The work up now is not confirmed; Hedy Tjin's was announced for September 2026.
+  sources:
+    - https://stadscuratorium.nl/?p=3782 (from April 2026 every six months a new mural by an Amsterdam artist on a steel plate of 2.5 x 8.5 m on the side wall of the Haringpakkersbrug; initiative of Sam Rees of Mokumse Muurtjes within the Aanpak Binnenstad; runs at least to 2030; first edition FreelingWaters (Gijs Frieling and Job Wouters); September 2026 a work by Hedy Tjin; independent advisory group selects)
+    - Kunstwacht object 7481 (Vreemdeling Welkom, black Gothic letters on a Dutch flag, vertical Amsterdam flags with crosses replaced by white gulls; up to end of August 2026; artists' statement on tourists with wheeled suitcases passing improvised sleeping places of homeless Amsterdammers)
+    - https://nl.wikipedia.org/wiki/Haringpakkerstoren (medieval tower on the NW corner of the town wall, Heilig Kruistoren, renamed after 1578; herring packers met there; spire 1606, probably De Keyser; demolished 1829 as a saving; measured before demolition; Stadsherstel offered rebuilding for its 50th anniversary, withdrew 12 April 2010)
+  nl:
+    title: Canvas van Amsterdam op de Haringpakkersbrug, waar de Haringpakkerstoren stond
+    summary: "Op de brug bij het Centraal Station hangt een stalen plaat die elk half jaar een nieuwe schildering krijgt van een Amsterdamse kunstenaar. Op deze plek stond de Haringpakkerstoren, tot de verarmde stad hem in 1829 afbrak."
+    body: |
+      Op de zijmuur van de Haringpakkersbrug hangt een stalen plaat van 2,5 bij 8,5 meter die elk half jaar een nieuwe schildering krijgt van een Amsterdamse kunstenaar, in elk geval tot en met 2030. De eerste, vanaf april 2026, was van het duo FreelingWaters: VREEMDELING WELKOM in zwarte gotische letters op een Nederlandse vlag, tussen Amsterdamse vlaggen met meeuwen in plaats van kruisen. Deze plek vroeg volgens hen om iets positiefs: er rolt een stroom toeristen met koffers langs de geïmproviseerde slaapplekken van dakloze Amsterdammers. Voor september 2026 was een werk van Hedy Tjin aangekondigd.
+
+      Hier stond de Haringpakkerstoren, de hoektoren van de stadsmuur waar de haringpakkers vergaderden. De arme stad brak hem in 1829 af, na hem eerst te hebben opgemeten zodat herbouw kan; Stadsherstel bood dat in 2010 aan en zag er toen toch van af.
+
+      Let op:
+      - de schildering die er nu hangt
+    attributes:
+      check_note: Welk werk er nu hangt is niet bevestigd; dat van Hedy Tjin was aangekondigd voor september 2026.
+    sources:
+      - https://stadscuratorium.nl/?p=3782
+      - Kunstwacht object 7481
+      - https://nl.wikipedia.org/wiki/Haringpakkerstoren
+
+# ================================================================ Nieuwendijk, Kolk and Damrak
+
+- title: Nieuwendijk 89, the photographer's front with Daguerre and Niépce
+  summary: "Above a shop on the Nieuwendijk, carved putti develop photographs around a photographer with his camera, between portraits of Daguerre and Niépce. It was the studio front of Albert Greiner, a German portrait photographer who worked here from 1862."
+  body: |
+    Above a shop on the Nieuwendijk, small carved putti are busy with photography. They prepare the developing baths, page through an album and play with photographic gear, and in the middle stands the photographer himself with his camera. At the ends are portraits of Daguerre and Niépce, the two Frenchmen counted as the fathers of photography.
+
+    It is the shop sign of Albert Greiner, who came from Neustadt in Germany in 1861 and the next year took over the studio of his brother or cousin Ferdinand at this address. He became a well-known portrait photographer, with theatre portraits as his speciality. Business went well: from 1887 he had the architect Gerrit van Arkel give the house an entirely new front, a mix of Dutch and Italian Renaissance motifs, with an arcaded shop front and the sculpted frieze above it, designed by the firm Van den Bossche en Crevels. Greiner died in 1890; his son carried on under his father's name until it vanishes from the city address book in 1915.
+
+    The house is a national monument, listed for its intact shop front and its photography frieze. There is a shop on the ground floor; look up from the street.
+
+    Look for:
+    - Daguerre and Niépce at the two ends of the frieze
+    - the photographer with his camera in the middle
+    - the arcade of the shop front
+  category: street-art
+  lat: 52.376774
+  lng: 4.896645
+  address: Nieuwendijk 89
+  links:
+    - { label: Rijksmonumentenregister (3766), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/3766" }
+    - { label: PhotoLexicon Albert Greiner, url: "https://depthoffield.universiteitleiden.nl/1124f02en/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "3766"
+    built: "1887"
+    architect: Gerrit van Arkel
+    original_use: Photographer's studio and house
+  photos:
+    - commons:File:Amsterdam - Nieuwendijk 89.jpg
+  sources:
+    - rce:3766 (1887 house by G. van Arkel, front mixing Dutch and Italian Renaissance motifs; intact shop front with arcade, above it a frieze with sculpted scenes about photography)
+    - https://depthoffield.universiteitleiden.nl/1124f02en/ (PhotoLexicon: Albert Greiner from Neustadt, to Amsterdam 1861; took over the studio of brother or cousin Ferdinand at Nieuwendijk L 87 about 1862; renumbered 89 in 1875; speciality theatrical photography; 1887-1891 new facade by Gerrit van Arkel; frieze by Van den Bossche en Crevels with Daguerre and Niépce left and right, putti preparing baths, paging an album, playing with photographic attributes, the photographer with camera in the middle; Greiner died 28 March 1890, son Fidel Carl Albert continued under his father's name; name gone from the address book in 1915)
+    - 'scout AC-02 (Parool 20 May 2023 "Niet lachen naar het vogeltje: chique fotograaf A. Greiner", front intact)'
+  nl:
+    title: Nieuwendijk 89, de fotografengevel met Daguerre en Niépce
+    summary: "Boven een winkel op de Nieuwendijk zijn gebeeldhouwde puttootjes in de weer met foto's, rond een fotograaf met zijn camera en tussen Daguerre en Niépce. Het was de gevel van het atelier van Albert Greiner, een Duitse portretfotograaf die hier vanaf 1862 werkte."
+    body: |
+      Boven een winkel op de Nieuwendijk zijn kleine gebeeldhouwde putti druk met fotografie. Ze maken de baden klaar, bladeren in een album en spelen met fotospullen, en in het midden staat de fotograaf zelf met zijn camera. Aan de uiteinden zitten de portretten van Daguerre en Niépce, de twee Fransen die als vaders van de fotografie gelden.
+
+      Het is het uithangbord van Albert Greiner, die in 1861 uit het Duitse Neustadt kwam en een jaar later op dit adres het atelier van zijn broer of neef Ferdinand overnam. Hij werd een bekende portretfotograaf, met toneelfoto's als specialiteit. Het ging hem voor de wind: vanaf 1887 liet hij architect Gerrit van Arkel het huis een heel nieuwe gevel geven, een mengsel van Hollandse en Italiaanse renaissance, met een pui met arcade en daarboven de beeldhouwfries, ontworpen door de firma Van den Bossche en Crevels. Greiner stierf in 1890; zijn zoon zette de zaak onder vaders naam voort tot die in 1915 uit het adresboek verdwijnt.
+
+      Het pand is rijksmonument, juist om de gave pui en de fries over fotografie. Beneden zit een winkel; kijk vanaf de straat omhoog.
+
+      Let op:
+      - Daguerre en Niépce aan de twee uiteinden van de fries
+      - de fotograaf met zijn camera in het midden
+      - de arcade van de winkelpui
+    attributes:
+      original_use: Fotoatelier en woonhuis
+    sources:
+      - rce:3766
+      - https://depthoffield.universiteitleiden.nl/1124f02en/
+
+- title: Nieuwezijds Kolk, the castle under the street
+  summary: "In 1994 diggers for a car park found the foundations of a castle under the Nieuwezijds Kolk: the oldest building remains in Amsterdam. Whose castle it was became a long and bitter quarrel, and the remains lie under sand again."
+  body: |
+    Under the paving of the Nieuwezijds Kolk lie the oldest building remains in Amsterdam. In February 1994, while the ground was dug for a bank's car park, archaeologists led by the city archaeologist Jan Baart came on a wall of big medieval bricks on oak beams: the foundations of a castle. Tens of thousands came to look into the pit, the national papers ran it big, and the city planned an archaeology museum for 40 million guilders.
+
+    Baart was sure it was the castle of the lords Van Amstel, which would make the city almost a century older than thought. Tree-ring dating of the beams said otherwise: second half of the 13th century. Most now think Count Floris V built it in about 1280–1290 to keep the Amstel lands under control, though Gijsbrecht van Amstel is not ruled out. It was about 20 by 25 metres, with a five-sided outer wall, flanking towers and three corner towers. In 1304 Count William III had the town's defences razed, and the castle went with them; in 1333 houses were built on the site.
+
+    Leo de Boer's documentary Kasteel gekrakeel (castle squabble, 2025) tells the fight over what it was. Nothing marks the spot; the remains lie under sand again.
+
+    Look for:
+    - the square of the Nieuwezijds Kolk, where the pit was
+    - the Korenmetershuisje of 1620, standing on its own beside it
+  category: hidden-history
+  lat: 52.375833
+  lng: 4.895000
+  address: Nieuwezijds Kolk
+  links:
+    - { label: Wikipedia (nl) Kasteel van Amsterdam, url: "https://nl.wikipedia.org/wiki/Kasteel_van_Amsterdam" }
+    - { label: NH Nieuws Kasteel gekrakeel, url: "https://www.nhnieuws.nl/nieuws/353681/nh-doc-kasteel-gekrakeel-van-sensationele-vondst-naar-grote-tragiek" }
+  attributes:
+    rank: Nice
+    built: about 1280–1290, razed 1304
+    check: Location
+    check_note: No marker known; pin from the dig plan on the Kolk. Check on site for any sign in the paving.
+  sources:
+    - https://nl.wikipedia.org/wiki/Kasteel_van_Amsterdam (found 1994 at the Nieuwezijds Kolk during digs for new building; wall of kloostermoppen on oak beams; later digs 1996, 2002, ground radar; dendro: second half 13th c.; likely Floris V 1280-1290, possibly Gijsbrecht IV; c. 20 x 25 m, five-sided outer wall with flanking towers and three corner towers; 1304 Willem III had the fortifications dismantled; land sold 1333, houses built; coordinates 52 22 33 N 4 53 42 E; considered the oldest structure of Amsterdam)
+    - https://www.nhnieuws.nl/nieuws/353681 (26 Oct 2025: Feb 1994, archaeologists under Jan Baart found it digging for a car park for the ABN; claim of Van Amstel castle; tens of thousands came to watch; plans for a 40 million guilder museum; wood research contradicted it; Baart held on; documentary Kasteel Gekrakeel by Leo de Boer; it lies again under sand and clay)
+  nl:
+    title: Nieuwezijds Kolk, het kasteel onder de straat
+    summary: "In 1994 stuitten gravers voor een parkeergarage onder de Nieuwezijds Kolk op de fundamenten van een kasteel: het oudste bouwwerk van Amsterdam. Over wiens kasteel het was, ontstond een lange en bittere ruzie, en de resten liggen weer onder het zand."
+    body: |
+      Onder de klinkers van de Nieuwezijds Kolk ligt het oudste bouwwerk van Amsterdam. In februari 1994 groeven archeologen onder leiding van stadsarcheoloog Jan Baart hier voor een parkeergarage van de ABN, en vonden een muur van kloostermoppen op eikenhouten balken: de fundering van een kasteel. Tienduizenden mensen kwamen kijken bij de bouwput, de landelijke kranten stonden er vol van, en de gemeente dacht aan een archeologisch museum van 40 miljoen gulden.
+
+      Baart wist het zeker: dit was het kasteel van de heren Van Amstel, en Amsterdam was dus bijna een eeuw ouder dan gedacht. Jaarringonderzoek van de balken zei iets anders: tweede helft van de dertiende eeuw. Nu denken de meesten dat graaf Floris V het rond 1280–1290 bouwde om het Amstelland in de hand te houden, al kan Gijsbrecht van Amstel ook de bouwheer zijn geweest. Het mat zo'n 20 bij 25 meter, met een vijfhoekige buitenmuur, flanktorens en drie hoektorens. In 1304 liet graaf Willem III de vestingwerken van de stad slopen, en het kasteel ging mee; in 1333 kwamen er huizen op het terrein.
+
+      De documentaire Kasteel gekrakeel (2025) van Leo de Boer vertelt over de ruzie. Niets wijst de plek aan; de resten liggen weer onder het zand.
+
+      Let op:
+      - het plein van de Nieuwezijds Kolk, waar de bouwput was
+      - het vrijstaande Korenmetershuisje van 1620 ernaast
+    attributes:
+      check_note: Geen markering bekend; speld naar de opgravingsplattegrond op de Kolk. Kijk ter plekke of er iets in de bestrating zit.
+    sources:
+      - https://nl.wikipedia.org/wiki/Kasteel_van_Amsterdam
+      - https://www.nhnieuws.nl/nieuws/353681
+
+- title: Annick van Hardeveld, the last courier
+  summary: "On the evening of 4 May 1945, with the radio already reporting the German surrender, a 21-year-old resistance courier cycled out on a last errand and was shot dead here. Bicycle couriers race in her memory every year."
+  body: |
+    On the evening of 4 May 1945 the radio was already reporting that the German surrender was near. Annick van Hardeveld, 21, a medical analyst at the Wilhelmina Gasthuis who had trained as a Red Cross nurse, left her parents' home on her bicycle for one last errand. She was a courier for a resistance group of the Binnenlandse Strijdkrachten and had carried ration cards, false papers, weapons and sometimes people in hiding. That night she was to tell the group's members in Amsterdam-Noord to gather at the Vossius Gymnasium, where it kept a secret arms store. Here on the Hekelveld, men of the German Grüne Polizei passing in a police van shot her dead. Her parents and brother had not known she was in the resistance.
+
+    Her brother Yann and her friends took the initiative for this memorial by Hans Bayens: a bronze plaque on a stone base, unveiled on 4 May 1985 by Ed van Thijn. It calls her the last courier of the resistance to be murdered by the occupier, and honours all who fought injustice and oppression. Since 1999 bicycle couriers have held a race for her on 4 May, the Annick van Hardeveld Memorial Alleycat.
+
+    Look for:
+    - the plaque on its stone base, where the Nieuwezijds Voorburgwal and the Spuistraat part
+  category: hidden-history
+  lat: 52.377635
+  lng: 4.895138
+  address: Hekelveld, corner Nieuwezijds Voorburgwal
+  links:
+    - { label: 4 en 5 mei monument Annick van Hardeveld, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1617/amsterdam-monument-voor-annick-van-hardeveld" }
+    - { label: Wikipedia (nl) Annick van Hardeveld, url: "https://nl.wikipedia.org/wiki/Annick_van_Hardeveld" }
+    - { label: Kunstwacht monument, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/476" }
+  attributes:
+    rank: Nice
+    built: "1985"
+    artist: Hans Bayens
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1617 (stone base with bronze plaque, text; Red Cross-trained nurse, medical analyst Wilhelmina Gasthuis, courier of BS, group MAX III; ration cards, weapons, false papers, people in hiding; evening of 4 May 1945 left by bicycle, elated by British radio about a coming capitulation; task: send MAX III members in Noord to the Vossius Gymnasium, secret arms store; shot by the Grüne Polizei; parents and brother did not know; Verzetsherdenkingskruis 1981; initiative brother Yann and friends; unveiled 4 May 1985 by former mayor Ed van Thijn; corner NZ Voorburgwal and Hekelveld)
+    - https://nl.wikipedia.org/wiki/Annick_van_Hardeveld (born 9 Nov 1923; shot on the Hekelveld by Grüne Polizei passing in a police van; monument by Hans Bayens at the fork of NZ Voorburgwal and Spuistraat; alleycat race since 1999)
+    - Kunstwacht object 476 (Hans Bayens; plaque text)
+  nl:
+    title: Annick van Hardeveld, de laatste koerierster
+    summary: "Op de avond van 4 mei 1945, toen de radio de Duitse capitulatie al aankondigde, fietste een koerierster van 21 voor een laatste opdracht de stad in. Hier werd ze doodgeschoten. Fietskoeriers rijden elk jaar een race voor haar."
+    body: |
+      Op de avond van 4 mei 1945 meldde de Britse radio al dat de Duitse capitulatie eraan zat te komen. Annick van Hardeveld, 21 jaar, medisch analiste in het Wilhelmina Gasthuis en door het Rode Kruis opgeleid tot verpleegster, stapte uitgelaten op de fiets voor een laatste opdracht. Ze was koerierster van een groep van de Binnenlandse Strijdkrachten en had bonkaarten, valse papieren, wapens en soms onderduikers vervoerd. Die avond moest ze de groepsleden in Amsterdam-Noord laten weten dat ze zich in het Vossius Gymnasium moesten verzamelen, waar een geheime wapenopslag was. Hier op het Hekelveld schoten leden van de Grüne Polizei, die in een overvalwagen langsreden, haar dood. Haar ouders en broer wisten niet dat ze in het verzet zat.
+
+      Haar broer Yann en haar vrienden namen het initiatief voor dit monument van Hans Bayens: een bronzen plaquette op een hardstenen sokkel, op 4 mei 1985 onthuld door Ed van Thijn. De tekst noemt haar de laatste koerierster uit het verzet die door de bezetter werd vermoord, en eert iedereen die streed tegen onrecht en onderdrukking. Sinds 1999 rijden fietskoeriers op 4 mei de Annick van Hardeveld Memorial Alleycat.
+
+      Let op:
+      - de plaquette op de sokkel, waar Nieuwezijds Voorburgwal en Spuistraat uiteengaan
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1617
+      - https://nl.wikipedia.org/wiki/Annick_van_Hardeveld
+
+- title: Beurspassage, the "Amsterdam Oersoep"
+  summary: "A gloomy passage between the Damrak and the Nieuwendijk was turned in 2016 into a walk under a canal: a mosaic ceiling of fish and sunken bikes, chandeliers made of bicycle parts and a bronze fish head that pours drinking water."
+  body: |
+    Step off the Damrak into the Beurspassage and you are under water in a canal. In 2016, when the building at Damrak 70-79 was stripped back to its concrete frame and given new fronts, the owner Bouwinvest asked the artist Arno Coenen to do something about the low, dark passage people found unsafe. With Iris Roskam he made it into Amsterdam Oersoep (Amsterdam primordial soup): a glass-mosaic ceiling of fish, trilobites, air bubbles, reflections and the remains of bicycles; terrazzo floors with gold inlays and a compass rose; glazed wall tiles with gold motifs. Hans van Bentem made the gilded chandeliers from bicycle parts: headlamps, wheels and spokes. Stained-glass wall lamps show the things tourists buy here, a bunch of tulips, a bag of chips, a herring, a clog. Gilded mirrors trace evolution from fish to human.
+
+    The passage is old. It began as the Baafjessteeg, was roofed over in 1893 when an insurance office was built over it, and named in 1905 after the new exchange across the Damrak. After the C&A fire of 16 February 1963 it came back low and gloomy, until the makeover doubled its height.
+
+    Look for:
+    - the bronze fish head with a public drinking tap, and the line "Take some Mokum with you"
+    - the bicycle-part chandeliers
+    - the herring and the chips among the wall lamps
+  category: street-art
+  lat: 52.374714
+  lng: 4.894597
+  address: Beurspassage, between Damrak and Nieuwendijk
+  links:
+    - { label: Wikipedia (nl) Amsterdam Oersoep, url: "https://nl.wikipedia.org/wiki/Amsterdam_Oersoep" }
+    - { label: Wikipedia (nl) Beurspassage, url: "https://nl.wikipedia.org/wiki/Beurspassage" }
+    - { label: Arno Coenen Beurspassage, url: "https://arnocoenen.eu/beurspassage/" }
+  attributes:
+    rank: Nice
+    built: "2016"
+    artist: Arno Coenen, Iris Roskam, Hans van Bentem
+  photos:
+    - commons:File:Beurspassage - Amsterdam (NL32) - 2024-11-25 - 4.jpg
+    - commons:File:2020 Amsterdam Oersoep (1).jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Amsterdam_Oersoep (2016, Damrak 70-79 rebuilt for Bouwinvest; Coenen and Roskam; chandeliers Van Bentem from bicycle parts; underwater in a canal: fish, trilobites, air bubbles, reflections, remains of bicycles; terrazzo with gold ornaments, compass rose; glass mosaic ceiling; glazed tiles with gold motifs; stained-glass lamps with tulips, bag of chips, herring, paintbrush, umbrella, ice cream, clog, arms of Amsterdam; mirrors with gold-leaf robot motifs showing evolution from fish to human; bronze fish head with public water tap, "Take some Mokum with you")
+    - https://nl.wikipedia.org/wiki/Beurspassage (Baafjessteeg; roofed 1893 with the building of the Algemeene Maatschappij van Levensverzekering en Lijfrente; named 11 Jan 1905 after the exchange opened 1903; C&A fire 16 Feb 1963, passage rebuilt; Rode Loper; facades demolished, concrete frame kept, Robert A.M. Stern; passage made twice as high; Bouwinvest asked Coenen in 2014)
+  nl:
+    title: De Beurspassage, de "Amsterdam Oersoep"
+    summary: "Een donkere doorgang tussen Damrak en Nieuwendijk werd in 2016 een wandeling onder een gracht: een mozaïekplafond met vissen en gezonken fietsen, kroonluchters van fietsonderdelen en een bronzen vissenkop die drinkwater geeft."
+    body: |
+      Wie vanaf het Damrak de Beurspassage in loopt, staat onder water in een gracht. Toen Damrak 70-79 in 2016 tot op het betonskelet werd gestript en nieuwe gevels kreeg, vroeg eigenaar Bouwinvest kunstenaar Arno Coenen iets te doen aan de lage, donkere passage waar mensen zich niet veilig voelden. Met Iris Roskam maakte hij er Amsterdam Oersoep van: een plafond van glasmozaïek met vissen, trilobieten, luchtbellen, weerspiegelingen en resten van fietsen, een terrazzovloer met gouden inleg en een windroos, geglazuurde wandtegels met gouden motieven. Hans van Bentem maakte de vergulde kroonluchters van fietsonderdelen: koplampen, wielen, spaken. Glas-in-loodlampen tonen wat toeristen hier kopen, een bosje tulpen, een zak patat, een haring, een klomp. Vergulde spiegels laten de evolutie van vis tot mens zien.
+
+      De doorgang is oud. Hij begon als de Baafjessteeg, werd in 1893 overbouwd door een verzekeringskantoor en kreeg in 1905 zijn naam naar de nieuwe beurs aan de overkant. Na de brand bij C&A van 16 februari 1963 kwam hij laag en somber terug, tot de verbouwing hem weer twee keer zo hoog maakte.
+
+      Let op:
+      - de bronzen vissenkop met openbaar watertappunt en de tekst "Take some Mokum with you"
+      - de kroonluchters van fietsonderdelen
+      - de haring en de patat tussen de wandlampen
+    sources:
+      - https://nl.wikipedia.org/wiki/Amsterdam_Oersoep
+      - https://nl.wikipedia.org/wiki/Beurspassage
+
+- title: Oude Braak and the Nieuwezijds Armsteeg, the dike-arm lanes
+  summary: "Two crooked lanes between the Nieuwendijk and the Nieuwezijds Voorburgwal still follow a dike breach and a dike arm of the 14th century. Residents fed up with the alley's nuisance asked for art and got a lit-up museum room on a wall."
+  body: |
+    The curve of the Nieuwezijds Armsteeg is older than its houses. It began as a dike arm of the sea wall along the IJ, and digging at its corner with the Nieuwezijds Voorburgwal in 1984 found the two-metre clay bank of 1342 with its timber palisade. Next door, the Oude Braak was a web of alleys called De Break, after a marshy patch left by a dike breach; only part of it is public now.
+
+    Residents tired of people urinating, vandalism and graffiti in the Armsteeg asked for art. In 2012 the housing association De Key had Giny Vos clad a whole front in ribbed aluminium with an LED line drawing of a museum room in perspective: The White Cube, lit at night.
+
+    Look for:
+    - The White Cube on the Armsteeg wall
+    - a song text by the poet P.C. Boutens on the same building
+  category: hidden-history
+  lat: 52.376800
+  lng: 4.895400
+  address: Oude Braak and Nieuwezijds Armsteeg
+  links:
+    - { label: Wikipedia (nl) Nieuwezijds Armsteeg, url: "https://nl.wikipedia.org/wiki/Nieuwezijds_Armsteeg" }
+    - { label: Wikipedia (nl) Oude Braak, url: "https://nl.wikipedia.org/wiki/Oude_Braak" }
+    - { label: Kunstwacht The White Cube, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/569" }
+  attributes:
+    rank: Okay
+    artist: Giny Vos (The White Cube)
+  sources:
+    - https://nl.wikipedia.org/wiki/Nieuwezijds_Armsteeg (long curve between Nieuwendijk and NZ Voorburgwal; Oldewelt: both armstegen began as dike arms of the sea wall along the IJ; 1984 dig at the corner found 2 m clay bank of 1342 with timber palisade; nos. 15-105 young people's housing c. 1986 from a deal between the city and Holiday Inn, hotel on the north side, squatters left the Wyers complex; The White Cube by Giny Vos unveiled October 2012; P.C. Boutens song text on the same complex, added 2018-2021; photos Feb 2021)
+    - https://nl.wikipedia.org/wiki/Oude_Braak (De Break, braak from a dike breach; web of alleys; only part public, rest for residents; listed warehouses; filled in the 16th c.; nickname Kromme Elleboogsteeg dropped by council decision)
+    - Kunstwacht object 569 (residents' committee bothered by public urination, vandalism and graffiti; De Key commissioned Giny Vos; ribbed aluminium cladding, perspective line drawing with LED lines, lights up in the evening)
+  nl:
+    title: De Oude Braak en de Nieuwezijds Armsteeg, de stegen van de dijkarm
+    summary: "Twee kromme stegen tussen Nieuwendijk en Nieuwezijds Voorburgwal volgen nog een dijkdoorbraak en een dijkarm uit de veertiende eeuw. Bewoners die genoeg hadden van de overlast vroegen om kunst en kregen een verlichte museumzaal op de muur."
+    body: |
+      De bocht van de Nieuwezijds Armsteeg is ouder dan de huizen erlangs. De steeg begon als dijkarm van de zeewering langs het IJ, en bij graafwerk op de hoek met de Nieuwezijds Voorburgwal kwam in 1984 de twee meter hoge kleiwal van 1342 met zijn houten palissade boven. De buursteeg, de Oude Braak, was een web van stegen dat De Break heette, naar een moerassig stuk land dat een dijkdoorbraak had achtergelaten; maar een deel is nog openbaar.
+
+      Bewoners die genoeg hadden van wildplassen, vandalisme en graffiti in de Armsteeg vroegen om kunst. In 2012 liet woonstichting De Key Giny Vos een hele gevel bekleden met geribbeld aluminium, met een ledlijntekening van een museumzaal in perspectief: The White Cube, die 's avonds oplicht.
+
+      Let op:
+      - The White Cube op de muur van de Armsteeg
+      - een liedtekst van P.C. Boutens op hetzelfde complex
+    sources:
+      - https://nl.wikipedia.org/wiki/Nieuwezijds_Armsteeg
+      - https://nl.wikipedia.org/wiki/Oude_Braak
+      - Kunstwacht object 569
+
+# ================================================================ Dam, Kalverstraat and Rokin
+
+- title: The Dam shooting of 7 May 1945 and its 32 name stones
+  summary: "Two days after the surrender, German marines fired from a club on the corner of the Kalverstraat into the crowd waiting on the Dam for the Canadians. Since 2016 the names of the dead lie in the square's paving."
+  body: |
+    On 7 May 1945 thousands of people filled the Dam to welcome the Canadian liberators, who were expected that day. A barrel organ played and people danced. But the city was still full of armed Germans, and men of the German navy held De Groote Club, the gentlemen's club on the corner of the Dam and the Kalverstraat, fenced with barbed wire. In the Paleisstraat members of the resistance's Binnenlandse Strijdkrachten stopped two German marines; one would not hand over his weapon and a shot was fired. At about three o'clock the Germans opened fire from the windows and the roof with machine guns on the crowd. People fled in all directions or hid behind lamp posts, kiosks and the barrel organ, and a gunfight with the BS followed. It lasted on and off for about two hours. At least 32 people died, and more than a hundred were wounded.
+
+    For decades the count was 22. Research that came to light in 2013 raised it to 32. On 7 May 2016, exactly 71 years on, 31 name stones of white granite were set into the paving of the Dam; a 32nd followed on 9 March 2017. An older bronze plaque of 1947 remembers the dead on the wall at the corner of the Kalverstraat.
+
+    Look for:
+    - the name stones in the paving
+    - the 1947 plaque at the corner of the Kalverstraat
+  category: hidden-history
+  lat: 52.373393
+  lng: 4.892800
+  address: Dam
+  links:
+    - { label: 4 en 5 mei Memorial Damslachtoffers, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3931/amsterdam-memorial-damslachtoffers-7-mei-1945" }
+    - { label: 4 en 5 mei plaquette 7 mei 1945, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1618" }
+    - { label: Wikipedia (nl) Schietpartij op de Dam, url: "https://nl.wikipedia.org/wiki/Schietpartij_op_de_Dam_op_7_mei_1945" }
+    - { label: NH Nieuws onthulling 2016, url: "https://www.nhnieuws.nl/nieuws/184667" }
+  attributes:
+    rank: Nice
+    built: 2016–2017
+    check: Location
+    check_note: Pin on the 4en5mei point for the stones; the 1947 plaque is on the corner of the Kalverstraat.
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3931 (32 name and context stones in the paving of the Dam, names sandblasted in white granite; unveiled 7 May 2016 with 31 stones, 32nd added 9 March 2017; repairs 2017 and 2020; Kriegsmarine in the Groote Club; first shots on the Rokin and behind the palace; about 15:00 fire opened; firefight with BS; about two hours; more than a hundred wounded, 32 dead as far as known; pin 52.3733, 4.89284)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1618 (bronze plaque unveiled 7 May 1947, Kalverstraat; Groote Club fenced with barbed wire; two German marines stopped in the Paleisstraat by BS, one refused to give up his weapon and fired; machine guns from the building onto the Dam, Paleisstraat and NZ Voorburgwal; Overhoff fetched Hauptmann Bergmann who stopped the fire)
+    - https://nl.wikipedia.org/wiki/Schietpartij_op_de_Dam_op_7_mei_1945 (crowd awaiting Canadians; barrel organ Het Snotneusje, dancing; cover behind lamp posts, two kiosks and the organ; long-used count 22; facts from 2013 show at least 32; about two hours)
+    - https://www.nhnieuws.nl/nieuws/184667 (AT5, 7 May 2016: after exactly 71 years, monument of over 15,000 small stones with the names of 31 victims)
+  nl:
+    title: De schietpartij op de Dam van 7 mei 1945 en de 32 naamstenen
+    summary: "Twee dagen na de capitulatie schoten Duitse mariniers vanuit een sociëteit op de hoek van de Kalverstraat op de menigte die op de Dam de Canadezen opwachtte. Sinds 2016 liggen de namen van de doden in de bestrating."
+    body: |
+      Op 7 mei 1945 stond de Dam vol mensen die de Canadese bevrijders wilden binnenhalen; die werden die dag verwacht. Er speelde een draaiorgel en er werd gedanst. Maar de stad zat nog vol gewapende Duitsers, en de Kriegsmarine had zich verschanst in De Groote Club, de sociëteit op de hoek van de Dam en de Kalverstraat, met prikkeldraad eromheen. In de Paleisstraat hielden mannen van de Binnenlandse Strijdkrachten twee Duitse mariniers aan; een van hen weigerde zijn wapen af te geven en er viel een schot. Rond drie uur openden de Duitsers vanuit de ramen en vanaf het dak met machinegeweren het vuur op de menigte. Mensen vluchtten alle kanten op of zochten dekking achter lantaarnpalen, kiosken en het draaiorgel, en er volgde een vuurgevecht met de BS. Met tussenpozen duurde het zo'n twee uur. Er vielen minstens 32 doden en ruim honderd gewonden.
+
+      Lang hield men het op 22 doden. Onderzoek dat in 2013 boven water kwam, bracht het aantal op 32. Op 7 mei 2016, precies 71 jaar later, werden 31 naamstenen van wit graniet in de Dam gelegd; op 9 maart 2017 kwam de 32e erbij. Een oudere bronzen plaquette uit 1947 hangt op de hoek van de Kalverstraat.
+
+      Let op:
+      - de naamstenen in de bestrating
+      - de plaquette van 1947 op de hoek van de Kalverstraat
+    attributes:
+      check_note: Speld op het 4en5mei-punt voor de stenen; de plaquette van 1947 hangt op de hoek van de Kalverstraat.
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3931
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1618
+      - https://nl.wikipedia.org/wiki/Schietpartij_op_de_Dam_op_7_mei_1945
+      - https://www.nhnieuws.nl/nieuws/184667
+
+- title: Kalverstraat 10, the booksellers' palace above the shops
+  summary: "Above a plain shop front, a tall front with busts of Minerva and Mercury is all that shows of the house where Rembrandt's print publisher kept shop and a Bible printer built himself a book palace in 1727. A jeweller later turned the ground floor into a bunker."
+  body: |
+    Kalverstraat 10 rises over its neighbours to a cornice crowned with Minerva, goddess of wisdom, for the books, and Mercury, god of trade and travellers, for the maps.
+
+    From 1662 Clement de Jonghe, the print publisher known for his ties with Rembrandt, kept shop here; later came the globe maker Gerard Valk. In 1726 the publisher Rudolf Wetstein, printer of Bibles and of the East India Company's psalm book for ships, bought it and built a 35-metre-deep art and book palace, finished in 1728. The map maker Isaac Tirion followed, then the Muller auction house until 1883.
+
+    Nothing of the book trade is left inside. In 1971 the jeweller Kraemer turned the ground floor into a fortress against burglars, with armoured steel walls.
+
+    Look for:
+    - the busts of Minerva and Mercury on the cornice
+    - traces of the old first-floor windows above the shop front
+  category: housing
+  lat: 52.372291
+  lng: 4.891931
+  address: Kalverstraat 10
+  links:
+    - { label: Rijksmonumentenregister (2138), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/2138" }
+    - { label: "VVAB Binnenstad 266, Kalverstraat 10", url: "https://web.archive.org/web/2025/https://amsterdamsebinnenstad.nl/binnenstad/266/kalverstraat-10.php" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "2138"
+    built: 1727–1728
+    original_use: Bookshop and publisher's house
+  sources:
+    - rce:2138 (house with front under a curved cornice-like sandstone top with busts on the corners, XVIIIb)
+    - "VVAB Binnenstad 266 (2014), Pieter Vlaardingerbroek, Kalverstraat 10: boeken, kunst en koffie (Clement de Jonghe, ties with Rembrandt, shop De gekroonde konstkaert from 1662, owner 1668; 1680-1687 coffee house and art shop of Hendrik Visjager; 1687 Gerard Valk, globes; 1726 Rudolf Wetstein, Bibles incl. Malay, VOC ship psalm book, 12,700 in stock at his death in 1742; demolished and rebuilt 1727, 35 m deep; chronogram stone 1728, later moved to the Jonge Roelensteeg, KOG since 1883; 1742 Isaac Tirion; De Groot and Den Hengst sea-chart sellers; 1833-1883 Muller auction house and bookshop; 1884 shopfront by J.W. Meijer, gone; 1971 Juwelier Kraemer made the ground floor a fortress, armoured steel plates; remains of first-floor windows visible; Minerva and Mercury as heavenly shop signs; no traces of books inside)"
+  nl:
+    title: Kalverstraat 10, het boekenpaleis boven de winkels
+    summary: "Boven een nietszeggende pui torent een gevel met borstbeelden van Minerva en Mercurius. Hier had Rembrandts prentuitgever zijn winkel en bouwde een bijbeldrukker in 1727 een boekenpaleis. Een juwelier maakte van de begane grond later een bunker."
+    body: |
+      Boven de etalage van Kalverstraat 10 steekt de gevel boven de buren uit, met op de kroonlijst Minerva, godin van de wijsheid, voor de boeken, en Mercurius, god van handel en reizigers, voor de landkaarten.
+
+      Vanaf 1662 had Clement de Jonghe hier zijn winkel, de prentuitgever die bekendstaat om zijn banden met Rembrandt; later kwam globemaker Gerard Valk. In 1726 kocht uitgever Rudolf Wetstein het pand, drukker van bijbels en van het scheepspsalmboekje van de VOC. Hij bouwde er een kunst- en boekenpaleis van 35 meter diep, klaar in 1728. Daarna kwamen kaartenmaker Isaac Tirion en tot 1883 het veilinghuis van de Mullers.
+
+      Binnen herinnert niets meer aan boeken. In 1971 maakte juwelier Kraemer van de benedenverdieping een vesting tegen inbrekers, met gepantserde stalen wanden.
+
+      Let op:
+      - Minerva en Mercurius op de kroonlijst
+      - de resten van de oude vensters van de eerste verdieping boven de pui
+    attributes:
+      original_use: Boekwinkel en uitgevershuis
+    sources:
+      - rce:2138
+      - VVAB Binnenstad 266 (2014), Pieter Vlaardingerbroek
+
+- title: Hotel Polen, the fire of 1977 (gone)
+  summary: "On 9 May 1977 a hotel between the Rokin and the Kalverstraat burned to the ground: 33 dead, the deadliest fire in the Netherlands since the war. Rokin Plaza stands on the site, with the Papenbroekssteeg running through it."
+  body: |
+    Hotel Polen ran from the Kalverstraat through to the Rokin. By 1977 it was in decline, and behind its brick fronts it had a wooden frame, no smoke detectors, extinguishers or sprinklers, and poor escape routes; the fire brigade had found it unsafe, and nothing was done.
+
+    In the early morning of 9 May 1977 smoke came out of the kitchen lift. The staff poured buckets of water down the shaft; by the time the night porter tried to call the fire brigade, the reception was burning. Guests stood on window ledges and jumped; the Kalverstraat was too narrow for a jumping sheet. The hotel collapsed completely. 33 people died, 32 of them tourists, including 17 Swedes: the deadliest fire in the Netherlands since the war.
+
+    Rokin Plaza (1981–1983) replaced it.
+
+    Look for:
+    - the Papenbroekssteeg, the passage through Rokin Plaza
+  category: hidden-history
+  lat: 52.372197
+  lng: 4.892578
+  address: Rokin Plaza, Papenbroekssteeg
+  links:
+    - { label: Wikipedia (nl) Brand in Hotel Polen, url: "https://nl.wikipedia.org/wiki/Brand_in_Hotel_Polen" }
+    - { label: Andere Tijden De hel in Hotel Polen, url: "https://web.archive.org/web/20170113161153/http://anderetijden.nl/aflevering/187/De-hel-in-Hotel-Polen" }
+  attributes:
+    rank: Okay
+    status: Gone
+    built: about 1891, burned 1977
+    original_use: Café and hotel
+  sources:
+    - https://nl.wikipedia.org/wiki/Brand_in_Hotel_Polen (9 May 1977, 33 dead, 21 seriously injured, deadliest fire in NL since WWII; between Kalverstraat and Rokin; Rokin Plaza 1981-83 with Papenbroekssteeg; name from Poolsche Koffiehuis; Rokin building by Eduard Cuypers; De Distel tile tableau, 90 cm piece survives, collection Meentwijck, on loan to Keramisch Museum Goedewaagen; café let 1974 to Inden Leer; wooden structure, no detection or extinguishers, poor escape routes, inspected and found unsafe; smoke from the food lift about 6:20, buckets of water; first engine 6:42; jumping sheet too wide for the Kalverstraat; collapse; 32 tourists incl. 17 Swedes and the resident above the bookshop; De Slegte burned out; cause not established)
+    - 'Andere Tijden, De hel in Hotel Polen (archived 2017: hotel ran from Rokin to Kalverstraat; café with journalists and stock traders; Krasnapolsky concern; café closed, let to leather furniture firm Inden; 105 guests that night; kitchen help saw smoke from the kitchen lift at 06:00; porter and kitchen help threw buckets of water; reception on fire when the porter went to call; alarm to fire brigade 06:39)'
+  nl:
+    title: Hotel Polen, de brand van 1977 (verdwenen)
+    summary: "Op 9 mei 1977 brandde een hotel tussen Rokin en Kalverstraat tot de grond toe af: 33 doden, de dodelijkste brand in Nederland sinds de oorlog. Op de plek staat nu Rokin Plaza, met de Papenbroekssteeg erdoorheen."
+    body: |
+      Hotel Polen liep van de Kalverstraat door tot het Rokin. In 1977 was het over zijn hoogtepunt heen, en achter de stenen gevels zat een houten draagconstructie, zonder rookmelders, blussers of sprinklers, met slechte vluchtwegen. De brandweer had het pand afgekeurd; er gebeurde niets.
+
+      In de vroege ochtend van 9 mei 1977 kwam er rook uit de etenslift. Het personeel goot emmers water in de schacht; toen de nachtportier de brandweer wilde bellen, stond de receptie al in brand. Gasten stonden op de vensterbanken en sprongen; de Kalverstraat was te smal voor een springzeil. Het hotel stortte helemaal in. Er vielen 33 doden, 32 toeristen onder wie 17 Zweden: de dodelijkste brand in Nederland sinds de oorlog.
+
+      Op de plek kwam Rokin Plaza (1981–1983).
+
+      Let op:
+      - de Papenbroekssteeg, de doorgang door Rokin Plaza
+    attributes:
+      original_use: Café en hotel
+    sources:
+      - https://nl.wikipedia.org/wiki/Brand_in_Hotel_Polen
+      - Andere Tijden, De hel in Hotel Polen
+
+- title: "Rokin station: the archaeologists' wall and Wilhelmina on horseback"
+  summary: "Between the escalators of the Rokin metro station, finds from the metro dig are laid out by shape and colour rather than by date. Up on the street a young Queen Wilhelmina rides in a hat, a statue the city's women asked for."
+  body: |
+    Between the escalators of Rokin station on the Noord/Zuidlijn runs a long glass case of objects dug up during the building of the metro. They are not sorted by date. The British-French artists Daniel Dewar and Grégory Gicquel, working with city archaeologist Jerzy Gawronski, grouped them by shape, colour and size, so the collection became an artwork of its own. Facing it on the platform walls, the same duo set mosaics of everyday things with nothing to link them: a crocodile, a melodica, a pike, a high-heeled pump. The silent witnesses of the past in the case, a florilegium of the present on the walls.
+
+    Up on the Rokin, at the corner of the Langebrugsteeg, Queen Wilhelmina rides a horse, young and in a hat, the reins in her hands. The Amsterdam women's organisations took the initiative, the people of the city paid, and the sculptor Theresia van der Pant, who mostly made animals, was advised by Queen Juliana. Mayor Samkalden and Juliana unveiled it in 1972.
+
+    Look for:
+    - the finds in the case, sorted by colour
+    - the crocodile among the platform mosaics
+    - Mark Manders' Rokin fountain further north: two rough heads joined together, looking away from each other (water off in winter)
+  category: street-art
+  lat: 52.369703
+  lng: 4.892149
+  address: Rokin, metro station Rokin
+  links:
+    - { label: Kunstwacht The crocodile etc., url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/1167" }
+    - { label: Kunstwacht Ruiterstandbeeld Wilhelmina, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/515" }
+    - { label: Kunstwacht Rokin Fontein, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/585" }
+    - { label: Below the Surface, url: "https://belowthesurface.amsterdam" }
+  attributes:
+    rank: Nice
+    artist: Daniel Dewar and Grégory Gicquel; Theresia van der Pant
+  sources:
+    - Kunstwacht object 1167 (The crocodile, the melodica, the pike fish, the high heel pump; mosaics on the walls facing the platform at Rokin; vitrine between the escalators with a selection of Noord/Zuidlijn finds; with city archaeologist Jerzy Gawronski not chronological but by form, colour and size; silent witnesses of the past, anthology of the present)
+    - Kunstwacht object 515 (1972, unveiled by mayor Samkalden and Queen Juliana; Rokin corner Langebrugsteeg; young Wilhelmina with hat, reins in hand; base by K.L. Sijmons; initiative Contactorgaan Vrouwenorganisaties Amsterdam; paid by the people of Amsterdam; Theresia van der Pant mostly animals; advised by Juliana)
+    - Kunstwacht object 585 (Rokin Fontein, Mark Manders, two androgynous heads joined, looking different ways, roughly finished, water off in winter; meant to look as if it had always been there; 52.372188, 4.893052)
+  nl:
+    title: "Station Rokin: de vitrine van de archeologen en Wilhelmina te paard"
+    summary: "Tussen de roltrappen van metrostation Rokin liggen vondsten uit de metrobouwput, geordend op vorm en kleur in plaats van op datum. Boven op straat rijdt een jonge koningin Wilhelmina met hoed, een beeld waar de Amsterdamse vrouwen om vroegen."
+    body: |
+      Tussen de roltrappen van station Rokin aan de Noord/Zuidlijn loopt een lange vitrine met voorwerpen die bij de aanleg van de metro zijn opgegraven. Ze liggen niet op volgorde van ouderdom. Het Brits-Franse kunstenaarsduo Dewar & Gicquel koos samen met stadsarcheoloog Jerzy Gawronski voor vorm, kleur en omvang, waardoor de collectie zelf een kunstwerk werd. Op de wanden tegenover het perron zette hetzelfde duo mozaïeken van alledaagse dingen die niets met elkaar te maken hebben: een krokodil, een melodica, een snoek, een pump met hoge hak. In de vitrine de stille getuigen van het verleden, op de muren een bloemlezing van het heden.
+
+      Boven op het Rokin, op de hoek van de Langebrugsteeg, rijdt koningin Wilhelmina te paard, jong en met hoed, de teugels in de hand. Het initiatief kwam van het Contactorgaan Vrouwenorganisaties Amsterdam, de Amsterdammers betaalden, en beeldhouwster Theresia van der Pant, die vooral dieren maakte, kreeg advies van koningin Juliana. Burgemeester Samkalden en Juliana onthulden het beeld in 1972.
+
+      Let op:
+      - de vondsten in de vitrine, gesorteerd op kleur
+      - de krokodil tussen de mozaïeken bij het perron
+      - verderop de Rokinfontein van Mark Manders: twee ruwe, aan elkaar vastzittende hoofden die elk een andere kant op kijken (water uit in de winter)
+    sources:
+      - Kunstwacht objecten 1167, 515, 585
+
+- title: Olieslagerssteeg, the lepers' house, the oil pressers and Maison de Bonneterie
+  summary: "The only alley between the Kalverstraat and the Rokin south of the Spui is named after the oil pressers who sold Haarlem oil here as a cure-all. On its corner stood the city's first leper house; a department store took the chapel's place in 1901."
+  body: |
+    South of the Spui, the Olieslagerssteeg is the only way through from the Kalverstraat to the Rokin. It is named after the oil pressers who worked here in the 15th and 16th centuries; in this alley Haarlemmerolie was sold as a cure for all ills.
+
+    On the Kalverstraat corner stood Amsterdam's first leper house, the Sint Jorisgasthuis, first recorded in 1410, when it was still just outside the town. Its chapel became the carpenters' guild house in 1624. In 1901 the store Maison de Bonneterie, begun on this corner by the merchant Joseph Cohen in 1888, bought it and built anew; its sandstone front is a national monument. The store closed in 2014. A bronze plaque inside listed 68 Jewish staff who died in the war.
+
+    Look for:
+    - the balustrade and balcony of the former Bonneterie on the Kalverstraat
+  category: hidden-history
+  lat: 52.368060
+  lng: 4.891940
+  address: Olieslagerssteeg, between Kalverstraat and Rokin
+  links:
+    - { label: Rijksmonumentenregister (5024), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/5024" }
+    - { label: Wikipedia (nl) Olieslagerssteeg, url: "https://nl.wikipedia.org/wiki/Olieslagerssteeg_(Amsterdam)" }
+    - { label: Wikipedia (nl) Sint Jorishof, url: "https://nl.wikipedia.org/wiki/Sint_Jorishof_(Amsterdam)" }
+    - { label: 4 en 5 mei plaquette Maison de Bonneterie, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2942" }
+  attributes:
+    rank: Okay
+    check: Still there?
+    check_note: The staff plaque was inside the store, closed since 2014; whether it is still there is not known.
+  sources:
+    - https://nl.wikipedia.org/wiki/Olieslagerssteeg_(Amsterdam) (only alley between Kalverstraat and Rokin south of the Spui; oil pressers 15th-16th c., linseed; Haarlemmerolie sold as a cure-all; Sint Jorishof; Kistenmakerspand guild house of the Sint Jozefsgilde; Joseph Cohen 1888 Kalverstraat 181; 1901 Kistenmakerspand bought and replaced by Maison de Bonneterie; rijksmonument since 1974)
+    - https://nl.wikipedia.org/wiki/Sint_Jorishof_(Amsterdam) (first leper house; oldest mention 1410; outside the town originally; after the expansion of 1480 inside the walls, lepers moved out; poor and "onnozelen", then proveniershuis; chapel rebuilt 1624 and let to the carpenters' guild; Kalverstraat 183; Bonneterie there until 2014)
+    - rce:5024 (Kalverstraat 183, shop of the Bonneterie, first decade 20th c. by A. Jacot and W. Oldewelt, traditionalist, sandstone front with balustrade, balcony and framed entrance bay)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2942 (bronze plaque in Maison de Bonneterie, Rokin 140-142, 68 Jewish staff of Amsterdam and The Hague branches)
+    - amsterdam.info (store closed August 2014)
+  nl:
+    title: Olieslagerssteeg, het leprozenhuis, de olieslagers en Maison de Bonneterie
+    summary: "De enige steeg tussen Kalverstraat en Rokin ten zuiden van het Spui is genoemd naar de olieslagers die hier Haarlemmerolie als wondermiddel verkochten. Op de hoek stond het eerste leprozenhuis van de stad; in 1901 kwam er een warenhuis op de plek van de kapel."
+    body: |
+      Ten zuiden van het Spui is de Olieslagerssteeg de enige doorsteek van de Kalverstraat naar het Rokin. Ze is genoemd naar de olieslagers die hier in de vijftiende en zestiende eeuw olie persten; in deze steeg werd Haarlemmerolie verkocht als middel tegen van alles en nog wat.
+
+      Op de hoek met de Kalverstraat stond het eerste leprozenhuis van Amsterdam, het Sint Jorisgasthuis, voor het eerst genoemd in 1410, toen nog net buiten de stad. De kapel werd in 1624 het gildehuis van de timmerlieden. In 1901 kocht Maison de Bonneterie, in 1888 op deze hoek begonnen door koopman Joseph Cohen, het pand en bouwde nieuw; de zandstenen gevel is rijksmonument. In 2014 ging het warenhuis dicht. Binnen hing een bronzen plaquette met de namen van 68 Joodse personeelsleden die in de oorlog omkwamen.
+
+      Let op:
+      - de balustrade en het balkon van de voormalige Bonneterie aan de Kalverstraat
+    attributes:
+      check_note: De plaquette voor het personeel hing in het warenhuis, dat sinds 2014 dicht is; of hij er nog is, is niet bekend.
+    sources:
+      - https://nl.wikipedia.org/wiki/Olieslagerssteeg_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Sint_Jorishof_(Amsterdam)
+      - rce:5024
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2942
+
+# ================================================================ Spui, Voetboogstraat and the Raadhuisstraat
+
+- title: Sint Luciënsteeg, the gable stone wall
+  summary: "On the blind wall of the old city orphanage, now the Amsterdam Museum, hang 47 gable stones saved from demolished houses: three black moles, a milkmaid of 1603, a skater, and a monk, an emperor and a farmer who explain who works for whom."
+  body: |
+    On the outer wall of the old city orphanage, now the Amsterdam Museum, hangs a street of houses that no longer exist. Forty-seven gable stones, the carved signs that named houses before there were house numbers, were saved from demolished buildings and set into the wall and around the little square here in 1924–1927, on the initiative of the society of Friends of Amsterdam Gable Stones. They were thoroughly restored in 2012–2013. People call it the gable stone museum.
+
+    Some stones talk. A monk says "I teach these two", an emperor "I protect these two", and a farmer with a spade "I work for these two". There are three black moles (D 3 SWARTE MOLLE), a milkmaid of 1603, a corn porter of 1626, a goldsmith's workshop, an otter of 1717, the town of Ulm in 1672, a skater in a winter landscape, and the arms of Alkmaar, Oudewater and Delft, all three dated 1607.
+
+    In September 2026 the museum began a rebuilding meant to last until 2030, with a large new window planned at the corner of the alley and the Nieuwezijds Voorburgwal. On the square, the seal and stationery shop Posthumus has traded since 1865.
+
+    Look for:
+    - the monk, the emperor and the farmer on the north wall
+    - the three black moles
+    - the skater on the ice
+  category: curiosities
+  lat: 52.369800
+  lng: 4.890700
+  address: Sint Luciënsteeg, by the square after no. 25
+  links:
+    - { label: M for Amsterdam Sint Luciënsteeg, url: "https://mforamsterdam.com/sint-luciensteeg" }
+    - { label: NH Nieuws renovatie Amsterdam Museum, url: "https://www.nhnieuws.nl/nieuws/363094/renovatie-amsterdam-museum-van-start-schoonheid-van-het-monument-blijft-bewaard" }
+    - { label: Gevelstenen van Amsterdam (VVAG), url: "https://gevelstenenvanamsterdam.nl" }
+  attributes:
+    rank: Nice
+    built: stones 1603–1900, set here 1924–1927
+    check: Still there?
+    check_note: Rebuilding of the museum began September 2026; check whether the wall is screened by the works, and fix the pin on the stones.
+    outlook: Major change ahead
+    outlook_when: until 2030
+    outlook_note: Amsterdam Museum rebuilding, with a new window at the corner of the alley and the Nieuwezijds Voorburgwal.
+  sources:
+    - https://mforamsterdam.com/sint-luciensteeg (47 stones saved from demolished houses, attached 1924-1927, restored 2012-2013, initiative VVAG; nickname Gable Stone Museum; Posthumus shop at nos. 23-25 since 1865)
+    - 'gevelstenen.net list via scout AC (Sint Luciënsteeg 1012PM; square after no. 25: Corendrager 1626, melkmeisje 1603, D 3 SWARTE MOLLE, Alkmaar, Oudewater and Delft 1607; north wall: keizer "IN DE 3 ICK BESCHERM DESE 2", monnik "STAMMEN ICK LEER DESE 2", spittende boer "VAN DE WERRELT ICK ARBEY VOOR DESE 2", goldsmith''s workshop 1900, D'' OTTER Ao 1717, D STADT VLM 1672, landscape with skater)'
+    - https://www.nhnieuws.nl/nieuws/363094 (renovation started 2026; big monumental window on the NZ Voorburgwal at the corner with the Sint Luciënsteeg; reopening planned 2030)
+    - https://cultureelpersbureau.nl/en/2026/09/bouwwerkzaamheden-renovatie-amsterdam-museum-van-start/ (construction began 3 September 2026; Salverda Bouw; opening 2030)
+    - "amsterdamsebinnenstad.nl archive, 2021 advice and Ronnes article: stones built into the walls in 1924 and 1927; sources differ on what happens to the older fronts in the alley"
+  nl:
+    title: Sint Luciënsteeg, de muur met gevelstenen
+    summary: "Op de blinde muur van het oude Burgerweeshuis, nu het Amsterdam Museum, hangen 47 gevelstenen van gesloopte huizen: drie zwarte mollen, een melkmeisje van 1603, een schaatser, en een monnik, een keizer en een boer die uitleggen wie voor wie werkt."
+    body: |
+      Op de buitenmuur van het voormalige Burgerweeshuis, nu het Amsterdam Museum, hangt een straat vol huizen die niet meer bestaan. Zevenenveertig gevelstenen, de uithangtekens van de tijd voor huisnummers, werden gered uit gesloopte panden en in 1924–1927 in de muur en rond het pleintje gezet, op initiatief van de Vereniging Vrienden van Amsterdamse Gevelstenen. In 2012–2013 zijn ze grondig opgeknapt. In de volksmond heet dit het gevelstenenmuseum.
+
+      Sommige stenen praten. Een monnik zegt "ick leer dese 2", een keizer "ick bescherm dese 2" en een spittende boer "ick arbey voor dese 2". Verder drie zwarte mollen (D 3 SWARTE MOLLE), een melkmeisje van 1603, een korendrager van 1626, een goudsmidswerkplaats, een otter van 1717, de stad Ulm in 1672, een schaatser in een winterlandschap en de wapens van Alkmaar, Oudewater en Delft, alle drie uit 1607.
+
+      In september 2026 begon de verbouwing van het museum, die tot 2030 moet duren; op de hoek van de steeg en de Nieuwezijds Voorburgwal komt een groot nieuw raam. Aan het pleintje verkoopt de Posthumuswinkel al sinds 1865 lakstempels en schrijfwaren.
+
+      Let op:
+      - de monnik, de keizer en de boer op de noordgevel
+      - de drie zwarte mollen
+      - de schaatser op het ijs
+    attributes:
+      check_note: De verbouwing van het museum is in september 2026 begonnen; kijk of de muur achter bouwschermen zit, en zet de speld op de stenen.
+      outlook_when: tot 2030
+      outlook_note: Verbouwing van het Amsterdam Museum, met een nieuw raam op de hoek van de steeg en de Nieuwezijds Voorburgwal.
+    sources:
+      - https://mforamsterdam.com/sint-luciensteeg
+      - gevelstenen.net (Sint Luciënsteeg, 1012PM)
+      - https://www.nhnieuws.nl/nieuws/363094
+
+- title: The neon HELP in the Voetboogstraat (Joes Kloppenburg)
+  summary: "Where Joes Kloppenburg was beaten to death in 1996 for shouting 'cut it out', a plaque in the paving tells the night in a few lines, and the word HELP hangs in neon overhead."
+  body: |
+    Look up in the Voetboogstraat, the narrow street between the Spui and the Heiligeweg, and you see the word HELP in neon, hung between two fronts. Below it a plaque lies in the paving. It tells what happened here at half past four on a Friday night, 17 August 1996: four drunk, wound-up young men came looking for trouble and beat up eight people, café-goers eating chips, a homeless man, bystanders who tried to stop it. Joes Kloppenburg shouted "Kappen nou!" (cut it out). He was beaten to death. He was 26.
+
+    His death made zinloos geweld (senseless violence) a national phrase. A year later, on 16 August 1997, mayor Schelto Patijn unveiled the memorial before some three hundred people; De Volkskrant headlined it "HELP in neon, so as never to get used to violence". The Amsterdam arts fund commissioned it from Paul Vendel and Sandra de Wolf, with the poet Martin Reints writing the text. HELP can be read as a call for help, or as an order to give it. In 2016 the city also named a bridge over the Singel after him.
+
+    Look for:
+    - the neon HELP between the fronts
+    - the plaque in the paving below it
+    - the Joes Kloppenburgbrug on the Singel, a few minutes' walk west
+  category: hidden-history
+  lat: 52.368269
+  lng: 4.890682
+  address: Voetboogstraat
+  links:
+    - { label: Wikipedia (nl) Monument voor Joes Kloppenburg, url: "https://nl.wikipedia.org/wiki/Monument_voor_Joes_Kloppenburg" }
+    - { label: Kunstwacht Monument voor Joes Kloppenburg, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/1585-monument-voor-joes-kloppenburg" }
+    - { label: Vendel en De Wolf HELP, url: "http://vendelendewolf.nl/help.shtml" }
+  attributes:
+    rank: Nice
+    built: "1997"
+    artist: Paul Vendel and Sandra de Wolf, with Martin Reints
+  photos:
+    - commons:File:Joes Kloppenburg Help2.jpg
+    - commons:File:Joes Kloppenburg Plaquette.jpg
+  sources:
+    - https://nl.wikipedia.org/wiki/Monument_voor_Joes_Kloppenburg (Vendel & de Wolf with poet Martin Reints, commissioned by the Amsterdams Fonds voor de Kunst; Voetboogstraat near where Kloppenburg died on 17 Aug 1996; unveiled 16 Aug 1997 by mayor Schelto Patijn before 300 people; plaque text: four drunk wound-up boys, beat up eight people, café-goers eating chips, a tramp, bystanders; Kappen nou!; beaten to death; 26; Friday night, half past four; neon HELP above the spot, a call for help and an order to help; bridge 5 named 2016; photos August 2018; Volkskrant 16 Aug 1997 headline "HELP in neon om nooit te wennen aan geweld")
+    - Joes Kloppenburgbrug draft in gg-west-1 (bridge named 5 July 2016)
+  nl:
+    title: Het neon HELP in de Voetboogstraat (Joes Kloppenburg)
+    summary: "Waar Joes Kloppenburg in 1996 werd doodgeslagen omdat hij 'kappen nou' riep, vertelt een plaquette in de straat de nacht in een paar regels, en hangt het woord HELP in neon boven de steeg."
+    body: |
+      Wie in de Voetboogstraat, het smalle straatje tussen Spui en Heiligeweg, omhoogkijkt, ziet tussen twee gevels het woord HELP in neon hangen. Daaronder ligt een plaquette in de bestrating. Die vertelt wat hier gebeurde op vrijdagnacht 17 augustus 1996, om half vijf: vier dronken, opgefokte jongens kwamen ruzie zoeken en sloegen acht mensen in elkaar, cafégangers die patat aten, een zwerver, omstanders die het wilden stoppen. Joes Kloppenburg riep "Kappen nou!" Hij werd doodgeslagen. Hij was 26.
+
+      Zijn dood maakte zinloos geweld tot een begrip in heel Nederland. Een jaar later, op 16 augustus 1997, onthulde burgemeester Schelto Patijn het monument voor zo'n driehonderd mensen; de Volkskrant kopte "HELP in neon om nooit te wennen aan geweld". Het Amsterdams Fonds voor de Kunst gaf de opdracht aan Paul Vendel en Sandra de Wolf; dichter Martin Reints schreef de tekst mee. HELP kun je lezen als hulpgeroep, maar ook als opdracht om te helpen. In 2016 noemde de stad ook een brug over het Singel naar hem.
+
+      Let op:
+      - het neon HELP tussen de gevels
+      - de plaquette in de straat eronder
+      - de Joes Kloppenburgbrug over het Singel, een paar minuten lopen naar het westen
+    sources:
+      - https://nl.wikipedia.org/wiki/Monument_voor_Joes_Kloppenburg
+      - de Volkskrant, 16 augustus 1997
+
+- title: Het Lieverdje and the words on the Spui
+  summary: "A little bronze street urchin, paid for by a cigarette maker, became the stage where Provo was born in the 1960s. Across the square, a conceptual artist's iron books lie face down in the paving."
+  body: |
+    The small bronze boy on the Spui is Het Lieverdje (the little darling). The name came from Henri Knap, who in Het Parool in 1947 wrote about a boy of about ten who saved a dog from drowning in a canal; his Lieverdjes stood for the city's street kids, always up to mischief but with hearts of gold. Carel Kneulman made the statue, modelled, he said, on himself as a boy roaming the streets. When Parool readers' gifts fell short for a bronze, the cigarette maker Crescent paid, and it was unveiled on 10 September 1960.
+
+    That sponsor made it a target. From 1964 the "anti-smoke magician" Robert Jasper Grootveld held his happenings here against the tobacco industry; Koosje Koster handed out raisins, the police saw provocation, and out of the clashes Provo was born. The paving round the statue was later laid in the shape of the GNOT apple, a Provo emblem. Lorries knocked it over in 2012 and again in March 2024; restored, it was back on the Spui in 2024 ("he has been through a lot already", AT5).
+
+    In the square lie three iron book shapes, face down: Lawrence Weiner's Een vertaling van de ene taal naar de andere (a translation from one language to the other), in Dutch with English, Arabic and Sranan, for the University of Amsterdam. They were first cut in stone, which proved too fragile.
+
+    Look for:
+    - the GNOT apple in the paving round the statue
+    - Weiner's three books
+  category: street-art
+  lat: 52.368777
+  lng: 4.889027
+  address: Spui
+  links:
+    - { label: Wikipedia (nl) Het Lieverdje, url: "https://nl.wikipedia.org/wiki/Het_Lieverdje" }
+    - { label: AT5 Lieverdje terug, url: "https://www.at5.nl/artikelen/226839" }
+    - { label: Kunstwacht Een vertaling, url: "https://amsterdam.kunstwacht.nl/kunstwerken/bekijk/520" }
+    - { label: Straatpoëzie Een vertaling, url: "https://straatpoezie.nl/gedicht/een-vertaling" }
+  attributes:
+    rank: Nice
+    built: "1960"
+    artist: Carel Kneulman; Lawrence Weiner
+  sources:
+    - https://nl.wikipedia.org/wiki/Het_Lieverdje (name from Henri Knap, Parool 1947, boy of about ten saved a dog from drowning; street urchins with a golden heart; plaster model 2 May 1959; Kneulman modelled it on himself as a boy; Parool readers' money insufficient; Crescent cigarette factory financed; bronze unveiled 10 Sep 1960 by Emma van Hall-Nijhoff; Grootveld anti-smoke magician, happenings from 1964 against the tobacco industry; Koosje Koster handed out raisins, police saw provocation; Provo arose; paving pattern of the GNOT apple laid between 1980 and 2000; knocked over 20 Nov 2012 and in March 2024 by a lorry; restored by Kunstwacht, new pedestal, back early June 2024)
+    - https://www.at5.nl/artikelen/226839 (2024: Het Lieverdje back on the Spui after restoration; headline quote "Hij heeft al heel wat ellende gehad"; hand broken off, cracks in shoulder and pedestal)
+    - Kunstwacht object 520 (Lawrence Weiner, three objects like books placed upside down; Dutch with English, Arabic and Surinamese; part of the UvA Gevelproject with Kosuth and Appel; first in hard stone, too fragile, replaced by cast iron)
+  nl:
+    title: Het Lieverdje en de woorden op het Spui
+    summary: "Een bronzen straatjochie, betaald door een sigarettenfabriek, werd in de jaren zestig het podium waar Provo ontstond. Een eindje verderop liggen de ijzeren boeken van een conceptueel kunstenaar ondersteboven in de bestrating."
+    body: |
+      Het kleine bronzen jongetje op het Spui is Het Lieverdje. De naam komt van Henri Knap, die in 1947 in Het Parool schreef over een jongen van een jaar of tien die een in de gracht gevallen hondje van de verdrinkingsdood redde. Zijn Lieverdjes stonden voor de Amsterdamse straatschoffies: altijd kattenkwaad, maar een hart van goud. Carel Kneulman maakte het beeld, naar eigen zeggen naar zichzelf als jongetje dat door de stad zwierf. Toen de bijdragen van Parool-lezers niet genoeg waren voor brons, betaalde sigarettenfabrikant Crescent, en op 10 september 1960 werd het onthuld.
+
+      Juist die sponsor maakte het beeld tot doelwit. Vanaf 1964 hield "anti-rookmagiër" Robert Jasper Grootveld hier zijn happenings tegen de tabaksindustrie; Koosje Koster deelde krenten uit, de politie zag daar provocatie in, en uit de botsingen ontstond Provo. Later kreeg de bestrating rond het beeld de vorm van de GNOT-appel, een Provo-teken. In 2012 en in maart 2024 reed een vrachtwagen het omver; opgeknapt stond het in 2024 weer op het Spui ("Hij heeft al heel wat ellende gehad", AT5).
+
+      Op het plein liggen drie ijzeren boekvormen ondersteboven: Een vertaling van de ene taal naar de andere van Lawrence Weiner, in het Nederlands met Engels, Arabisch en Sranantongo, voor de Universiteit van Amsterdam. Eerst waren ze van hardsteen, maar dat bleek te kwetsbaar.
+
+      Let op:
+      - de GNOT-appel in de bestrating rond het beeld
+      - de drie boeken van Weiner
+    sources:
+      - https://nl.wikipedia.org/wiki/Het_Lieverdje
+      - https://www.at5.nl/artikelen/226839
+      - Kunstwacht object 520
+
+- title: Vrankrijk
+  summary: "A printing works of 1875 where De Groene Amsterdammer was printed and false papers were made in the war, squatted in 1982 and bought by its squatters in 1992. It is still a political café and concert room."
+  body: |
+    Vrankrijk, at Spuistraat 216, is a squat that bought itself free. Built in 1875 as a printing works, it printed the weekly De Amsterdammer, today's De Groene Amsterdammer, from 1877. In the war Marten Toonder used part of it, and false papers were made here for people in hiding. Squatted in November 1982 to stop its demolition, it survived illegal evictions by hired thugs, and in 1992 the squatters headed off a court-ordered eviction by buying it.
+
+    The non-commercial café has had a licence since 2002. After a volunteer badly beat up a visitor in 2008, mayor Cohen shut it; it reopened under conditions in 2012. It holds a weekly squatting advice hour, debates, punk concerts and bar nights with vegan food.
+
+    Look for:
+    - the café on the ground floor, open on its bar nights
+  category: hidden-history
+  lat: 52.371691
+  lng: 4.889222
+  address: Spuistraat 216
+  links:
+    - { label: Wikipedia (nl) Vrankrijk, url: "https://nl.wikipedia.org/wiki/Vrankrijk" }
+    - { label: Vrankrijk, url: "https://www.vrankrijk.org/" }
+  attributes:
+    rank: Okay
+    built: "1875"
+    original_use: Printing works
+  sources:
+    - https://nl.wikipedia.org/wiki/Vrankrijk (built 1875; no. 218 used by steam lithographic printers Harms & Co; 1877 De Amsterdammer printed there; later Hillen & Roosen furniture; WWII part used by Marten Toonder, false papers for people in hiding; after the war De Telegraaf printing and a Ford garage, left 1975, speculation, empty; squatted November 1982 to prevent demolition for apartments; illegal evictions by knokploegen failed; 1992 bought by the squatters, self-managed (Stichting Dilemma, Repelsteeltje); licence 2002; 2008 serious assault by a volunteer, Cohen closed the café; 2012 Van der Laan allowed reopening under conditions; weekly kraakspreekuur; debates; punk, ska, The Ex)
+    - https://www.vrankrijk.org/ (agenda for late November and December 2026: Wednesday and Friday nights with vegan food, benefit nights, bands)
+  nl:
+    title: Vrankrijk
+    summary: "Een drukkerij uit 1875 waar De Groene Amsterdammer werd gedrukt en in de oorlog valse papieren werden gemaakt, in 1982 gekraakt en in 1992 door de krakers gekocht. Het is nog altijd een politiek café en concertzaal."
+    body: |
+      Vrankrijk, Spuistraat 216, is een kraakpand dat zichzelf heeft vrijgekocht. Het werd in 1875 gebouwd als drukkerij; vanaf 1877 werd hier het weekblad De Amsterdammer gedrukt, de huidige Groene Amsterdammer. In de oorlog gebruikte Marten Toonder een deel van het pand, en werden er valse papieren gemaakt voor onderduikers. In november 1982 werd het gekraakt om sloop te voorkomen; knokploegen probeerden het illegaal te ontruimen, en in 1992 voorkwamen de krakers een ontruiming door de rechter door het pand te kopen.
+
+      Het café draait zonder winstoogmerk en heeft sinds 2002 een vergunning. Nadat een vrijwilliger in 2008 een bezoeker ernstig had mishandeld, sloot burgemeester Cohen het; in 2012 mocht het onder voorwaarden weer open. Er is een wekelijks kraakspreekuur, er zijn debatten, punkconcerten en baravonden met veganistisch eten.
+
+      Let op:
+      - het café op de begane grond, open op de baravonden
+    sources:
+      - https://nl.wikipedia.org/wiki/Vrankrijk
+      - https://www.vrankrijk.org/
+
+- title: Walk of Pride, queer names from the Dam to the Homomonument
+  summary: "Since July 2026 more than fifty bronze tiles run from the Dam up the Raadhuisstraat to the Homomonument, each with the name and story of someone who mattered to queer emancipation. The first tells of the last man executed for sodomy in the Netherlands."
+  body: |
+    Since 8 July 2026 a line of bronze tiles has run from the Dam through the Raadhuisstraat to the Homomonument on the Westermarkt. Each carries the name and a short story of someone who mattered to queer emancipation, chosen by a committee of Dutch rainbow organisations. "Everyone chose their own heroes," said Richard Keldoulis, one of the initiators.
+
+    The first tile on the route is for Jillis Bruggeman, hanged in front of Schiedam town hall in 1803 for sex with men, the charge being "vuyle ontugt" (foul lewdness): the last person in the Netherlands put to death for it. Further on are the actor and cabaret artist Albert Mol, the writer Anna Blaman, former COC chairman Benno Premsela, the transgender pioneer Dirkje Kuik, the politician Annemarie Grewel and the writer Edgar Cairo. From further away come Xica Manicongo, persecuted by the Inquisition in 16th-century Brazil and the earliest known name of a transgender person there, and Xulhaz Mannan, murdered in Bangladesh by al-Qaeda extremists.
+
+    The walk was unveiled at the opening of Pride month in the Nieuwe Kerk, as a gift to the city for WorldPride 2026, the first held in Amsterdam. Stichting GALA laid it with 50,000 euros from the city and a crowdfunding for upkeep; the tiles are to stay at least ten years.
+
+    Look for:
+    - Jillis Bruggeman's tile at the start of the route
+    - the tiles running on up the Raadhuisstraat towards the Westerkerk
+  category: hidden-history
+  lat: 52.373180
+  lng: 4.891050
+  address: Raadhuisstraat, Dam end
+  links:
+    - { label: Walk of Pride, url: "https://walkofpride.amsterdam" }
+    - { label: NH Nieuws Walk of Pride, url: "https://www.nhnieuws.nl/nieuws/361351/nieuwe-wandelroute-door-amsterdam-eert-pioniers-van-de-lhbti-emancipatie" }
+    - { label: NL Times unveiling, url: "https://nltimes.nl/2026/07/09/worldpride-starts-unveiling-permanent-walk-pride-monument-amsterdam" }
+  attributes:
+    rank: Nice
+    built: "2026"
+    check: Location
+    check_note: Pin at the Dam end of the Raadhuisstraat; fix it on Jillis Bruggeman's first tile. Sources give 52 or 53 tiles.
+  sources:
+    - https://www.nhnieuws.nl/nieuws/361351 (52 bronze tiles between the Dam and the Homomonument, each with an explanation; Jillis Bruggeman hanged 1803 in front of Schiedam town hall, charge "vuyle ontugt", his tile the first on the walk, the last executed; eighteen queer organisations each chose heroes, Richard Keldoulis initiator; gift for WorldPride; tiles stay at least ten years)
+    - https://nltimes.nl/2026/07/09/worldpride-starts-unveiling-permanent-walk-pride-monument-amsterdam (unveiled 8 July 2026 at De Nieuwe Kerk at the opening of Pride Month; route from Dam Square to the Homomonument, 53 bronze tiles; Dirkje Kuik, Annemarie Grewel, Edgar Cairo, Jillis Bruggeman; first WorldPride in Amsterdam)
+    - "ANP via welingelichtekringen.nl (52 tiles; committee; Albert Mol, Anna Blaman, Benno Premsela, Xica Manicongo persecuted by the Inquisition, earliest known trans name from Brazil, Xulhaz Mannan killed by al-Qaeda extremists; Stichting GALA lays it, city subsidy 50,000 euros, crowdfunding for maintenance)"
+  nl:
+    title: Walk of Pride, queer namen van de Dam naar het Homomonument
+    summary: "Sinds juli 2026 lopen er ruim vijftig bronzen tegels van de Dam door de Raadhuisstraat naar het Homomonument, elk met het verhaal van een held van de queer emancipatie. De eerste is voor de laatste man die in Nederland om sodomie werd terechtgesteld."
+    body: |
+      Sinds 8 juli 2026 ligt er een rij bronzen tegels van de Dam door de Raadhuisstraat naar het Homomonument op de Westermarkt. Op elke tegel staat de naam en een kort verhaal van iemand die veel heeft betekend voor de emancipatie van de queer gemeenschap, gekozen door een commissie van Nederlandse regenbooggroepen. "Iedereen heeft zijn eigen helden gekozen", zei Richard Keldoulis, een van de initiatiefnemers.
+
+      De eerste tegel op de route is voor Jillis Bruggeman, die in 1803 voor het stadhuis van Schiedam werd opgehangen omdat hij seks had gehad met mannen; de aanklacht luidde "vuyle ontugt". Hij was de laatste in Nederland die daarvoor de doodstraf kreeg. Verderop liggen acteur en cabaretier Albert Mol, schrijfster Anna Blaman, oud-COC-voorzitter Benno Premsela, transgenderpionier Dirkje Kuik, politica Annemarie Grewel en schrijver Edgar Cairo. Van verder weg komen Xica Manicongo, in het zestiende-eeuwse Brazilië door de inquisitie vervolgd en de vroegste bekende naam van een transgender persoon daar, en Xulhaz Mannan, in Bangladesh vermoord door extremisten van al-Qaida.
+
+      De route werd onthuld bij de opening van de Pride-maand in De Nieuwe Kerk, als cadeau aan de stad voor WorldPride 2026, de eerste in Amsterdam. Stichting GALA legde haar aan met 50.000 euro van de gemeente en een crowdfunding voor het onderhoud; de tegels blijven minstens tien jaar liggen.
+
+      Let op:
+      - de tegel van Jillis Bruggeman aan het begin van de route
+      - de tegels verder de Raadhuisstraat op, richting de Westerkerk
+    attributes:
+      check_note: Speld aan het Dam-eind van de Raadhuisstraat; zet hem op de eerste tegel, die van Jillis Bruggeman. Bronnen noemen 52 of 53 tegels.
+    sources:
+      - https://www.nhnieuws.nl/nieuws/361351
+      - https://nltimes.nl/2026/07/09/worldpride-starts-unveiling-permanent-walk-pride-monument-amsterdam
+      - ANP, 2026

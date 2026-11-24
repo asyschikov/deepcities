@@ -1,0 +1,834 @@
+{
+ "slice": "r2-eilanden",
+ "entries": [
+  {
+   "sid": "S-209",
+   "title": "\"Er ligt een roofstaat\", the ship of the islands",
+   "members": [
+    "AE-26"
+   ],
+   "pin": [
+    52.371708,
+    4.921704
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-26": [
+     52.371708,
+     4.921704
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A sculpted ship for the islands' yards, cut with Multatuli's line about a robber state.",
+   "lead_sources": [
+    "https://www.buitenkunstamsterdam.nl"
+   ]
+  },
+  {
+   "sid": "S-210",
+   "title": "The floating gardens of Robert Jasper Grootveld, Wittenburgervaart",
+   "members": [
+    "DE-01"
+   ],
+   "pin": [
+    52.3701,
+    4.9223
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DE-01": [
+     52.3701,
+     4.9223
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Amazing",
+   "category": "green",
+   "default": "IN",
+   "reason": "permit ends Feb 2027 (Under threat)",
+   "hook": "Three planted rafts in the provo's knotting technique, banned by the city in 2021, then given to the neighbourhood.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2022/7/26/drijvende-tuinen-overgedragen-aan-de-buurt",
+    "https://stadscuratorium.nl/en/collectie/floating-gardens/",
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2021/6/24/gemeente-verbiedt-drijvende-tuinen"
+   ]
+  },
+  {
+   "sid": "S-211",
+   "title": "Kattenburger Triomfboog",
+   "members": [
+    "AE-27"
+   ],
+   "pin": [
+    52.372737,
+    4.919126
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-27": [
+     52.372737,
+     4.919126
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "Twenty-five old Kattenburgers wrote their own history; their handwriting is fired onto the tiles of an arch.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-212",
+   "title": "Mbulu Ngulu on the advertising column, Czaar Peterstraat",
+   "members": [
+    "AE-28"
+   ],
+   "pin": [
+    52.367421,
+    4.925193
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-28": [
+     52.367421,
+     4.925193
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "Since 1991 a West African reliquary guardian with purple rods sits on top of an advertising column.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-213",
+   "title": "Jakoba Mulder's lamp, Mulderplein",
+   "members": [
+    "AE-29"
+   ],
+   "pin": [
+    52.366008,
+    4.924396
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-29": [
+     52.366008,
+     4.924396
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "street-art",
+   "default": "IN",
+   "reason": "",
+   "hook": "A tilted disc, a leaf-cut lamp and nine chairs for one of the first women city planners.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-214",
+   "title": "Kattenburg's fake old facades and the rent strike",
+   "members": [
+    "BE-23",
+    "BE-24",
+    "CE-19"
+   ],
+   "pin": [
+    52.3709,
+    4.9172
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "BE-23": [
+     52.3709,
+     4.9172
+    ],
+    "BE-24": [
+     52.372346,
+     4.91947
+    ],
+    "CE-19": [
+     52.370737,
+     4.917181
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "housing",
+   "default": "IN",
+   "reason": "pin approximate",
+   "hook": "The cleared island got a reconstructed gabled row; its tenants then held back rent for fifteen years and won.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Kattenburg",
+    "https://nl.wikipedia.org/wiki/Wittenburg_(Amsterdam",
+    "https://nl.wikipedia.org/wiki/Nieuwe-Hoofdhof"
+   ]
+  },
+  {
+   "sid": "S-215",
+   "title": "Het Funen, sixteen blocks by sixteen architects, and Lester's shards",
+   "members": [
+    "CE-04",
+    "AE-30"
+   ],
+   "pin": [
+    52.3694,
+    4.931
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-04": [
+     52.3694,
+     4.931
+    ],
+    "AE-30": [
+     52.368708,
+     4.92985
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "housing",
+   "default": "IN",
+   "reason": "",
+   "hook": "A car-free park of sixteen blocks on five-sided tiles, with giant shards mapping the old bastion.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Funenpark",
+    "https://arcam.nl/architectuur-gids/het-funen/"
+   ]
+  },
+  {
+   "sid": "S-216",
+   "title": "The navy's firing range, now a roof garden facing NEMO",
+   "members": [
+    "CE-17"
+   ],
+   "pin": [
+    52.374,
+    4.91445
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "CE-17": [
+     52.374,
+     4.91445
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "temporary use",
+   "hook": "A windowless shooting range reopened in 2023 with a grandstand stair to a roof garden over the Oosterdok.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2023/8/28/de-schietbaan-op-het-marineterrein-is-omgevormd-tot-een-nieuwe-plek",
+    "https://marineterrein.nl/experimenten/transformatie-schietbaan/"
+   ]
+  },
+  {
+   "sid": "S-217",
+   "title": "Plukbos, the food forest behind the Wittenburg blocks",
+   "members": [
+    "CE-23",
+    "GR-16"
+   ],
+   "pin": [
+    52.372253,
+    4.921629
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-23": [
+     52.372253,
+     4.921629
+    ],
+    "GR-16": [
+     52.3725,
+     4.92
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "pin approximate",
+   "hook": "After three shootings a resident turned a dog field into a food forest open day and night.",
+   "lead_sources": [
+    "https://plukbos.nl/",
+    "https://vanamsterdamsebodem.nl/stadshelden/plukbos/",
+    "https://www.buurtorganisatie1018.nl/groen-oostelijke-eilanden"
+   ]
+  },
+  {
+   "sid": "S-218",
+   "title": "Shaffy's Tuin and the Shaffyboom",
+   "members": [
+    "DE-03",
+    "GR-12"
+   ],
+   "pin": [
+    52.376411,
+    4.912446
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-03": [
+     52.376411,
+     4.912446
+    ],
+    "GR-12": [
+     52.375813,
+     4.919539
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "houseboat claim single-source",
+   "hook": "A garden named after Ramses Shaffy, and a maple that swallowed the railway fence, named for his 75th birthday.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2025/9/18/groene-wandeling-vanaf-shaffys-tuin",
+    "https://shaffystuin.nl/buiten",
+    "https://www.at5.nl/artikelen/28191/sfeervolle-herdenking-bij-de-shaffy-boom"
+   ]
+  },
+  {
+   "sid": "S-219",
+   "title": "Hoogte Kadijk, the sea dike that still works",
+   "members": [
+    "DE-07",
+    "AE-42",
+    "DE-06"
+   ],
+   "pin": [
+    52.3684,
+    4.9178
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DE-07": [
+     52.3684,
+     4.9178
+    ],
+    "AE-42": [
+     52.36946,
+     4.914713
+    ],
+    "DE-06": [
+     52.368568,
+     4.918878
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "infrastructure",
+   "default": "IN",
+   "reason": "sluice figures need a Waternet source",
+   "hook": "In 2023 the city shut its sluices and the old dike was the water barrier again; stones and a lost yard.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/s/1018-Magazine-64-dec-2024.pdf",
+    "https://nl.wikipedia.org/wiki/Hoogte_Kadijk",
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2018/11/19/aanvraag-monumentenstatus-werfterrein-koning-william-hoogte-kadijk-afgewezen",
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2023/2/1/raad-van-state-staat-nieuwbouw-koning-william-toe"
+   ]
+  },
+  {
+   "sid": "S-220",
+   "title": "Tkramrepus, the supermarket in reverse",
+   "members": [
+    "DE-15"
+   ],
+   "pin": [
+    52.371584,
+    4.931617
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-15": [
+     52.371584,
+     4.931617
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "curiosities",
+   "default": "IN",
+   "reason": "",
+   "hook": "\"Supermarkt\" backwards: you bring groceries instead of taking them; food-bank shoppers take free.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2024/7/1/crowdfunding-moet-sluiting-supermarkt-tkramrepus-voorkomen"
+   ]
+  },
+  {
+   "sid": "S-221",
+   "title": "Touwbaanpark, the 400-year fence and Waaigat 2",
+   "members": [
+    "DE-18",
+    "GR-18"
+   ],
+   "pin": [
+    52.36983,
+    4.92295
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-18": [
+     52.36983,
+     4.92295
+    ],
+    "GR-18": [
+     52.3703,
+     4.9222
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "green",
+   "default": "IN",
+   "reason": "fence temporary (to 2028); ropewalks draft nearby",
+   "hook": "A park on the VOC ropewalk line, a 300 m fence telling 400 years, and a silent garden with viewing windows.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2023/2/25/400-jaar-geschiedenis-van-oostenburg-op-schutting-langs-het-spoor"
+   ]
+  },
+  {
+   "sid": "S-222",
+   "title": "The animal bridges of 1018: tug of war on the Kippebrug, roses on the hippo bridge",
+   "members": [
+    "DE-02",
+    "DE-12"
+   ],
+   "pin": [
+    52.371694,
+    4.919498
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-02": [
+     52.371694,
+     4.919498
+    ],
+    "DE-12": [
+     52.368788,
+     4.913981
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Nice",
+   "category": "infrastructure",
+   "default": "ASK",
+   "reason": "Still there? (tug of war unconfirmed after 2019)",
+   "hook": "The islands fight a yearly tug of war on a Kramer footbridge; the hippo bridge is their swimming spot.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2019/6/7/zaterdag-8-juni-1330-u-touwtrekken-wittenburg-tegen-kattenburg-op-de-kippebrug",
+    "https://nl.wikipedia.org/wiki/Kippebrug_(Amsterdam",
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2018/9/1/65-rode-rozen-aan-de-nijlpaardenbrug",
+    "https://nl.wikipedia.org/wiki/Nijlpaardenbrug",
+    "https://www.iamsterdam.com/ontdek/buurten/de-plantage/verborgen-parels"
+   ]
+  },
+  {
+   "sid": "S-223",
+   "title": "Simon Erb's sgraffito school front, Tweede Leeghwaterstraat 7",
+   "members": [
+    "AE-31"
+   ],
+   "pin": [
+    52.370064,
+    4.931299
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "AE-31": [
+     52.370064,
+     4.931299
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "Okay; not seen",
+   "hook": "A 1960 sgraffito on the De Ruiterschool, rated \"Top\" by the city's wall-art register.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-224",
+   "title": "The floating ball in the Oostenburgerpark",
+   "members": [
+    "CE-20"
+   ],
+   "pin": [
+    52.368969,
+    4.925823
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "CE-20": [
+     52.368969,
+     4.925823
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "A granite ball floats on a film of water so a child can spin it.",
+   "lead_sources": [
+    "https://nl.wikipedia.org/wiki/Kogelbron_(Oostenburgerpark",
+    "https://nl.wikipedia.org/wiki/Oostenburgerpark"
+   ]
+  },
+  {
+   "sid": "S-225",
+   "title": "Dijksgracht-Oost, the railway bank where a polecat stopped the bike path",
+   "members": [
+    "CE-24"
+   ],
+   "pin": [
+    52.3757,
+    4.918
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "CE-24": [
+     52.3757,
+     4.918
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay; one source family",
+   "hook": "Residents have defended a scrubby railway bank for a decade, with bats and a polecat on their side.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2026/3/31/fietspad-dijksgracht-oost-bunzing-vertraagt-aanleg-en-omwonenden-verzetten-zich-tegen-het-nieuwe-kruispunt",
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2022/5/11/dijksgracht-oost-broedende-vogels-en-foerageeergebied-van-de-dwergvleermuis-voorlopig-veiliggesteld"
+   ]
+  },
+  {
+   "sid": "S-226",
+   "title": "Aat Veldhoen's house with the palette, Wittenburgergracht",
+   "members": [
+    "DE-11"
+   ],
+   "pin": [
+    52.369706,
+    4.92007
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-11": [
+     52.369706,
+     4.92007
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay; Location unconfirmed",
+   "hook": "The painter arrested for \"indecent\" prints of lovers lived behind a big painter's palette.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2018/12/9/aat-veldhoen-overleden",
+    "https://nl.wikipedia.org/wiki/Aat_Veldhoen"
+   ]
+  },
+  {
+   "sid": "S-227",
+   "title": "Hondenliefhebbersbankje, the dog lovers' bench",
+   "members": [
+    "DE-16"
+   ],
+   "pin": [
+    52.372,
+    4.9315
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DE-16": [
+     52.372,
+     4.9315
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "curiosities",
+   "default": "ASK",
+   "reason": "Okay; Location (pin may be in Oost)",
+   "hook": "A home-made bench with the names of the dogs that come here carved in old café chair backs.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/s/Buurtmagazine-1018-nr-49.pdf"
+   ]
+  },
+  {
+   "sid": "S-228",
+   "title": "Nieuwe Oostenburgerstraat, \"het schattigste straatje\"",
+   "members": [
+    "DE-17"
+   ],
+   "pin": [
+    52.37025,
+    4.923574
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-17": [
+     52.37025,
+     4.923574
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "housing",
+   "default": "ASK",
+   "reason": "Okay; single source",
+   "hook": "Workers' houses of 1871 with postage-stamp gardens and benches under the kitchen windows.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-229",
+   "title": "Tonia Stieltjesplein, Oostenburg",
+   "members": [
+    "DE-19"
+   ],
+   "pin": [
+    52.371606,
+    4.930568
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "DE-19": [
+     52.371606,
+     4.930568
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "hidden-history",
+   "default": "ASK",
+   "reason": "Okay; little to see",
+   "hook": "Residents named their new square after a Black trade-union woman of the 1920s.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2025/5/30/buurtplein-oostenburg-wordt-genoemd-naar-tonia-stieltjes",
+    "https://nl.wikipedia.org/wiki/Tonia_Stieltjes"
+   ]
+  },
+  {
+   "sid": "S-230",
+   "title": "The railway tunnel under the Dijksgracht, a graffiti free zone in the making",
+   "members": [
+    "DE-21"
+   ],
+   "pin": [
+    52.3765,
+    4.9135
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "DE-21": [
+     52.3765,
+     4.9135
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "street-art",
+   "default": "ASK",
+   "reason": "not yet built; single source",
+   "hook": "A tunnel of rough sleepers and bike wrecks is to become a legal graffiti hall of fame.",
+   "lead_sources": [
+    "https://www.buurtorganisatie1018.nl/nieuws-uit-1018/2026/8/19/kunstvrijplaats-en-horeca-in-plaats-van-daklozen-onder-de-spoorbrug-bij-de-dijksgracht"
+   ]
+  },
+  {
+   "sid": "S-231",
+   "title": "The roof garden of the Laagte Kadijk",
+   "members": [
+    "GR-17"
+   ],
+   "pin": [
+    52.3703,
+    4.9126
+   ],
+   "pin_approx": true,
+   "member_pins": {
+    "GR-17": [
+     52.3703,
+     4.9126
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay; pin approximate; or a Look for in Sibbelwoningen",
+   "hook": "A public garden on a garage roof, open day and night, a short cut to the Sibbelpark.",
+   "lead_sources": []
+  },
+  {
+   "sid": "S-232",
+   "title": "Windroosplein: the garden instead of a basketball court, and De Waarheid's stone",
+   "members": [
+    "GR-19",
+    "AE-23"
+   ],
+   "pin": [
+    52.373185,
+    4.924472
+   ],
+   "pin_approx": false,
+   "member_pins": {
+    "GR-19": [
+     52.373185,
+     4.924472
+    ],
+    "AE-23": [
+     52.373079,
+     4.924318
+    ]
+   },
+   "wijk": "Oostelijke Eilanden/Kadijken",
+   "zone": "East-South",
+   "rank": "Okay",
+   "category": "green",
+   "default": "ASK",
+   "reason": "Okay",
+   "hook": "Residents swapped a planned court for a garden of 150 plants; the underground paper's memorial stands on the square.",
+   "lead_sources": [
+    "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1495"
+   ]
+  }
+ ],
+ "enrich": [
+  {
+   "scout": "AE-22",
+   "draft": "Oosterkerk, the islands' church the city nearly demolished",
+   "file": "eilanden-1",
+   "add": "Hildo Krop's Hunger Winter relief for the secret food shipments of 1944-45"
+  },
+  {
+   "scout": "AE-24",
+   "draft": "Werkspoor's halls on Oostenburg",
+   "file": "eilanden-1",
+   "add": "Werkspoor's war memorial at Oostenburgergracht 77 (on the ropewalk front)"
+  },
+  {
+   "scout": "AE-25",
+   "draft": "Marineterrein, the navy yard behind the wall",
+   "file": "eilanden-1",
+   "add": "the nautical college war memorial, moved here from the Prins Hendrikkade in 2000"
+  },
+  {
+   "scout": "BE-22",
+   "draft": "Marineterrein, the navy yard behind the wall",
+   "file": "eilanden-1",
+   "add": "the 2025 municipal listing of the commandant's house and its Cold War bunker; second shelter under building 029"
+  },
+  {
+   "scout": "BE-35",
+   "draft": "Marineterrein, the navy yard behind the wall",
+   "file": "eilanden-1",
+   "add": "the Stalpaert gatehouse at Kattenburgerstraat 7 (already the draft address)"
+  },
+  {
+   "scout": "CE-05",
+   "draft": "Sluisdeurenloods, the wooden shed that moved for the IJ tunnel",
+   "file": "eilanden-1",
+   "add": "current use: Mediamatic Biotoop art lab (since 2014)"
+  },
+  {
+   "scout": "CE-14",
+   "draft": "Marineterrein, the navy yard behind the wall",
+   "file": "eilanden-1",
+   "add": "Look for: the marechaussee's black box with 1,750 windows copying the sea store's footprint"
+  },
+  {
+   "scout": "CE-18",
+   "draft": "Oranje-Nassau Kazerne, Napoleon's barracks where the Artis lions slept",
+   "file": "eilanden-1",
+   "add": "Look for: Wilhelmina Blombergplein, named in 1990 for a woman the city thought was dead"
+  },
+  {
+   "scout": "DE-08",
+   "draft": "Marineterrein, the navy yard behind the wall",
+   "file": "eilanden-1",
+   "add": "the wall itself, a municipal monument since April 2023"
+  },
+  {
+   "scout": "DE-10",
+   "draft": "Oosterkerk, the islands' church the city nearly demolished",
+   "file": "eilanden-1",
+   "add": "Look for (handle with care): memorial stone for Mohamed Bouchikhi at the Wittenburg playground (2019)"
+  },
+  {
+   "scout": "DE-13",
+   "draft": "Entrepotdok, the bonded warehouses behind a wall",
+   "file": "eilanden-1",
+   "add": "the 2019 chestnut and quay fight, the 2017 quay collapse, the 2022 \"Dokoproer\""
+  },
+  {
+   "scout": "DE-14",
+   "draft": "Werkspoor's halls on Oostenburg",
+   "file": "eilanden-1",
+   "add": "the Werkspoorhal residents want open; the padel protest 2024-25"
+  },
+  {
+   "scout": "BE-26",
+   "draft": "Volkskoffiehuis on the Kadijksplein",
+   "file": "eilanden-1",
+   "add": "also Zeemanshuis, the sailors' home on the Kadijksplein"
+  },
+  {
+   "scout": "DE-09",
+   "draft": "Oosterkerk, the islands' church the city nearly demolished",
+   "file": "eilanden-1",
+   "add": "local voice: Bervoets photo book (2021), 2015 tree fight"
+  },
+  {
+   "scout": "DE-20",
+   "draft": "Werf 't Kromhout and the yard bosses' houses",
+   "file": "eilanden-1",
+   "add": "local voice: 50 years (2025), the neighbourhood's meeting place"
+  },
+  {
+   "scout": "DE-05",
+   "draft": "Sibbelwoningen, the dyke houses saved by squatters",
+   "file": "extra-east",
+   "add": "Look for: the crowned falcon of brewery De Gekroonde Valk, back on its pillar since 1993"
+  }
+ ]
+}
