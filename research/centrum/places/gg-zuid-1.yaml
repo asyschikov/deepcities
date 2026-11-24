@@ -18,7 +18,7 @@
     - two fish and a net at the top of the Amstel gable
     - fish on the third-floor keystones
     - the dolphins on the corner pinnacles, Reguliersbreestraat 11-13
-  category: curiosities
+  category: housing
   lat: 52.366940
   lng: 4.894243
   address: Amstel 10 / Reguliersbreestraat 11-13
@@ -68,7 +68,7 @@
     - the round-arched doors on the ground floor
     - the Empire-style framed windows above them
     - the dormer set in the roof over the front of the building
-  category: hidden-history
+  category: civic
   lat: 52.366903
   lng: 4.896006
   address: Amstel 56-58
@@ -226,7 +226,7 @@
     - the two identical halves of the front, each with a raised centre bay
     - the wide window framed by two narrow ones under a broken pediment in each centre
     - garlands over the first-floor windows
-  category: hidden-history
+  category: civic
   lat: 52.366108
   lng: 4.899450
   address: Amstelstraat 24-32
@@ -276,7 +276,7 @@
     - the bronze grilles and lanterns at the three entrance porches
     - the tower on the Rembrandtplein corner
     - the yellow glazed tiles in the gallery on the Utrechtsestraat
-  category: curiosities
+  category: civic
   lat: 52.366024
   lng: 4.897918
   address: Herengracht / Rembrandtplein / Utrechtsestraat / Amstelstraat 2-12
@@ -437,9 +437,9 @@
     - MDCLXXI on the middle section, above the balcony on its two columns
     - the carved balustrade on the cornice
     - the early 19th-century stoop posts and chains
-  category: hidden-history
-  lat: 52.365169
-  lng: 4.900650
+  category: housing
+  lat: 52.365180
+  lng: 4.900647
   address: Amstel 216
   links:
     - { label: Rijksmonumentenregister (229), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/229" }
@@ -497,9 +497,9 @@
     Look for:
     - the carved double stoop with eight bottle balusters
     - the entrance, door and fanlight, all from the time it was built
-  category: hidden-history
-  lat: 52.365053
-  lng: 4.900680
+  category: housing
+  lat: 52.365042
+  lng: 4.900683
   address: Amstel 218
   links:
     - { label: Rijksmonumentenregister (230), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/230" }
@@ -734,7 +734,7 @@
     - the richly carved doorway and the sandstone ornament under the windows
     - the decorated stoop with its bottle baluster
     - the garden, from inside the museum
-  category: hidden-history
+  category: housing
   lat: 52.365603
   lng: 4.899015
   address: Herengracht 605
@@ -892,7 +892,8 @@
     - Mercury between the first-floor windows of number 533
     - the reliefs of banking and the open ledgers in the friezes of 533-537
     - the colonnade, balconies and the dormer with odd scrolls over the corner of 519
-  category: curiosities
+    - round the back at Reguliersdwarsstraat 90, the bank's modern office of 1928 by J. Gratama, on the site of the coach house and stable of no. 537
+  category: civic
   lat: 52.365215
   lng: 4.894189
   address: Herengracht 519-537
@@ -902,7 +903,7 @@
   attributes:
     rank: Okay
     heritage_status: Municipal monument
-    monument_number: 200425, 202013
+    monument_number: 200425, 202013, 202047
     built: 1902–1923
     architect: J.P.H. de Man; H.A.J. Baanders; H.G. Jansen
     original_use: Bank offices
@@ -910,6 +911,7 @@
   sources:
     - city register 200425 (Incassobank founded 1891; 535-537 in 1902-1903 by J.P.H. de Man, villa builder from Hilversum, neoclassical; 533 in 1906 and 531 in 1915-1916 by H.A.J. Baanders same style; symmetry disturbed; 1919 Mercury relief placed in front of 533; frieze reliefs about banking, moved frieze with open ledgers on 533; Lips vaults inside)
     - city register 202013 (Incassobank 1923 by H.G. Jansen on the site of four houses; cut corner, entrance in the corner; stone-clad, Doric colonnade, balconies all round, bulging roof, like Paris boulevards, rare French Belle Epoque in NL; later population register, then hotel; dormer over the corner with outlandish scrolls)
+    - city:202047 (added at review from gg-zuid-3: Reguliersdwarsstraat 90, 1928 office for the Incassobank by J. Gratama on plots 90-92, shown on Loman's 1876 map as stable and coach house of Herengracht 537)
     - WebSearch 2026-11 (Michelin, Travel Weekly): Herengracht 519-525 is the Banks Mansion hotel
   nl:
     title: Incassobank, Mercurius en de Parijse hoek
@@ -925,6 +927,7 @@
       - Mercurius tussen de vensters van de eerste verdieping van nummer 533
       - de reliëfs over het bankwezen en de opengeslagen kasboeken in de friezen van 533-537
       - de zuilengalerij, de balkons en de dakkapel met grillige klauwstukken boven de hoek van 519
+      - aan de achterkant, Reguliersdwarsstraat 90: het moderne kantoor van de bank uit 1928 van J. Gratama, op de plek van stal en koetshuis van nr. 537
     attributes:
       original_use: Bankkantoren
     sources:
@@ -1071,7 +1074,7 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: 1866, 1853, 1861, 1651, 1852
+    monument_number: 1866, 1853, 1861, 1651, 1852, 528388
     built: 1663–1894
     architect: Philips Vingboons (450, 466)
     original_use: Double houses of merchants and regents
@@ -1079,6 +1082,7 @@
     - commons:File:Amsterdam - Herengracht 476.JPG
     - commons:File:Rm1853.JPG
   sources:
+    - rce:528388 (added at review from extra-south: garden house of Huis De Vicq behind Herengracht 476, sandstone, first half 18th c., statues and vases; not visible from the street, so no Look for line)
     - https://nl.wikipedia.org/wiki/Gouden_Bocht (Herengracht extended from 1663, kink at Nieuwe Spiegelstraat, deeper lots on the south side, sold 1664-1668, mayors promoted double lots, richest Amsterdammers; Huis de Neufville 475 (1731) called the most beautiful house on the bend; NHM office at 466 1858-1926)
     - https://nl.wikipedia.org/wiki/Huis_De_Vicq (1670 for physician and regent François de Vicq, Corinthian pilasters already old-fashioned; 1730 Dirk van Lennep replaced pediment with carved balustrade with family arms by Ignatius van Logteren, Jacob de Wit ceilings; lost money on speculation, to Utrecht 1733; requisitioned 1943 after Carlton Hotel bombed; Hendrick de Keyser 1953; anti-squat 1974-1981; Prins Bernhard Cultuurfonds until 12 Dec 2022)
     - https://nl.wikipedia.org/wiki/Herengracht_450 (Vingboons attribution, c.1670-1672 for banker Joseph Deutz, front designed as an exact square; 1710 Joan van Hoorn, former governor-general; 1922 extra storey above the cornice changed the square proportion)

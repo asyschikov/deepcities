@@ -32,11 +32,11 @@ amsterdamopdekaart where it had a page; no separate web search per record was po
 | 4563 | Saturn eating his child, a gable stone on the Prinsengracht |
 | 208034 | J.J. van Noortschool, eyes shut and eyes open |
 | 3378 | In de Buis, a silk trader's pun on the corner of the Leidsegracht |
-| 204047 | Belongs to the Willemsstraat group (jordaan-6): Palmstraat 87-97, 1867/1872 by P.J. Hamer for the Vereeniging ten behoeve der Arbeidersklasse, building line set back 3 m for light and air. Add the number there |
-| 204048 | Belongs to the Willemsstraat group (jordaan-6): Palmstraat 99, 1894 by W. Hamer, built with the corner Palmstraat 101 / Lijnbaansgracht 23 as the last gap of the same block; one storey higher, "probably for money reasons" (register) |
-| 4757 | Belongs to the city masons' house (jordaan-3, 3388/3387): Raamdwarsstraat 11 is the back house of Leidsegracht 106, demolished and rebuilt by Stadsherstel together with it (wiki) |
-| 4756 | Belongs to the city masons' house (jordaan-3): Raamdwarsstraat 9, sagging, taken down and rebuilt by Stadsherstel in the same operation as Leidsegracht 106 (wiki). Weaker fit than 4757; could also go to no story |
-| 4562 | Belongs to Eelke van Houten's second-hand gables (jordaan-1): Prinsengracht 382, rebuilt 1932 by D.J. Haverkamp with the early 18th-c. sandstone bell top reused; Amsterdam Monumentenstad calls it a "Van Houtenpand" (wiki) |
+| 204047 | Belongs to the Willemsstraat group (jordaan-6): Palmstraat 87-97, 1867/1872 by P.J. Hamer for the Vereeniging ten behoeve der Arbeidersklasse, building line set back 3 m for light and air. Add the number there REVIEW: added at review to jordaan-6 Willemsstraat group (Look for line) |
+| 204048 | Belongs to the Willemsstraat group (jordaan-6): Palmstraat 99, 1894 by W. Hamer, built with the corner Palmstraat 101 / Lijnbaansgracht 23 as the last gap of the same block; one storey higher, "probably for money reasons" (register) REVIEW: added at review to jordaan-6 Willemsstraat group |
+| 4757 | Belongs to the city masons' house (jordaan-3, 3388/3387): Raamdwarsstraat 11 is the back house of Leidsegracht 106, demolished and rebuilt by Stadsherstel together with it (wiki) REVIEW: added at review to jordaan-3 city masons' house |
+| 4756 | Belongs to the city masons' house (jordaan-3): Raamdwarsstraat 9, sagging, taken down and rebuilt by Stadsherstel in the same operation as Leidsegracht 106 (wiki). Weaker fit than 4757; could also go to no story REVIEW: no story found (weaker fit, coordinator call) |
+| 4562 | Belongs to Eelke van Houten's second-hand gables (jordaan-1): Prinsengracht 382, rebuilt 1932 by D.J. Haverkamp with the early 18th-c. sandstone bell top reused; Amsterdam Monumentenstad calls it a "Van Houtenpand" (wiki) REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
 | 213012 | No story found: 1932 storehouse with nine flats for NV Manalo by H.M. Martens, period-style; register |
 | 209035 | No story found: Palmschool, 1926 kindergarten by Publieke Werken, corridor type, now a primary school; register |
 | 4080 | No story found: 17th-c. core, 19th-c. cornice front, painted white; wiki |

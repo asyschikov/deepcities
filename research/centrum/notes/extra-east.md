@@ -12,21 +12,21 @@ WebSearch was not available (budget used up). All research by curl: national reg
 
 | monnr | Address | Outcome |
 |---|---|---|
-| 518307 | Kloveniersburgwal 80 | Fits existing place: "Binnengasthuis, from dreaded hospital to university library" (oudezijde-1.yaml). 1887–88 city and hospital pharmacy, GASTHUIS-APOTHEEK in the frieze; add the number there |
-| 518305 | Kloveniersburgwal 82-84 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1881 model pharmacy and lab, LABORATORIUM VOOR ARTSENIJBEREIDKUNDE over the door |
-| 518309 | Kloveniersburgwal 86-88 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1908–09 kitchen and nurses' home |
-| 518304 | Oudezijds Achterburgwal 235-237 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1875 waiting rooms for pharmacy and outpatients, clock turret dated 1875: a good Look-for |
-| 518302 | Turfdraagsterpad 1-9, Oude Turfmarkt 125 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1868–70 maternity clinic by Godefroy; ties in with the place's childbed-fever story |
-| 518303 | Turfdraagsterpad 15-17 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1874–77 women's clinic, stairs wide enough to carry patients lying down |
+| 518307 | Kloveniersburgwal 80 | Fits existing place: "Binnengasthuis, from dreaded hospital to university library" (oudezijde-1.yaml). 1887–88 city and hospital pharmacy, GASTHUIS-APOTHEEK in the frieze; add the number there REVIEW: added at review to oudezijde-1 Binnengasthuis |
+| 518305 | Kloveniersburgwal 82-84 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1881 model pharmacy and lab, LABORATORIUM VOOR ARTSENIJBEREIDKUNDE over the door REVIEW: added at review to oudezijde-1 Binnengasthuis |
+| 518309 | Kloveniersburgwal 86-88 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1908–09 kitchen and nurses' home REVIEW: added at review to oudezijde-1 Binnengasthuis |
+| 518304 | Oudezijds Achterburgwal 235-237 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1875 waiting rooms for pharmacy and outpatients, clock turret dated 1875: a good Look-for REVIEW: added at review to oudezijde-1 Binnengasthuis |
+| 518302 | Turfdraagsterpad 1-9, Oude Turfmarkt 125 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1868–70 maternity clinic by Godefroy; ties in with the place's childbed-fever story REVIEW: added at review to oudezijde-1 Binnengasthuis |
+| 518303 | Turfdraagsterpad 15-17 | Fits existing place: Binnengasthuis (oudezijde-1.yaml). 1874–77 women's clinic, stairs wide enough to carry patients lying down REVIEW: added at review to oudezijde-1 Binnengasthuis |
 | 518490 | Nes 11-13 | Drijfhout's gold and silver works, on the site of café Victoria (own, Nice) |
-| 518440 | Nieuwe Doelenstraat 12-14 | Fits existing place: "De L'Europe and its answering corner" (oudezijde-1.yaml). 1889–90 Labouchère Oyens bank office by Poggenbeek, since 2008–10 part of Hotel de l'Europe; Volksuniversiteit secretariat 1913–23, Theodoor Gilissen bank 1922–2006 (Amsterdam op de kaart) |
+| 518440 | Nieuwe Doelenstraat 12-14 | Fits existing place: "De L'Europe and its answering corner" (oudezijde-1.yaml). 1889–90 Labouchère Oyens bank office by Poggenbeek, since 2008–10 part of Hotel de l'Europe; Volksuniversiteit secretariat 1913–23, Theodoor Gilissen bank 1922–2006 (Amsterdam op de kaart) REVIEW: added at review to oudezijde-1 De L'Europe (Look for line) |
 | 518443 | Oude Hoogstraat 2 | 't Schipblok, a liqueur distiller's shop with a warning against drink (group, Nice, pin) |
 | 518459 | Oudezijds Achterburgwal 128-132 | 't Schipblok (group) |
 | 518451 | Oudezijds Voorburgwal 216-220 | Feldmann's tobacco warehouse, later the Bhagwan disco (own, Okay) |
 | 526007 | Zeedijk 30 | No story found: 16th-century painted beam ceiling re-set inside a new building, not visible; register, nl.wikipedia list search |
 | 508141 | Binnenkant 47 | No story found: late 18th-century canal house, 19th-century front, interior ceiling only; register, nl.wikipedia list search |
-| 518411 | De Ruijterkade 105-106 | Fits existing place: "De Ruijterkade's last shipping offices" (nieuwmarkt-1.yaml) as a Look-for at most. 1884–85 De Zeevaart, ice cellar, remise and flats, frieze of children; no story of its own (register, Amsterdam op de kaart street list) |
-| 518491 | De Ruijterkade 120 | Fits existing place: "De Ruijterkade's last shipping offices" (nieuwmarkt-1.yaml) as a Look-for at most. 1914 Bestevaer office and wine warehouse, De Ruyter tile panel inside; no story of its own |
+| 518411 | De Ruijterkade 105-106 | Fits existing place: "De Ruijterkade's last shipping offices" (nieuwmarkt-1.yaml) as a Look-for at most. 1884–85 De Zeevaart, ice cellar, remise and flats, frieze of children; no story of its own (register, Amsterdam op de kaart street list) REVIEW: added at review to nieuwmarkt-1 De Ruijterkade offices (Look for line) |
+| 518491 | De Ruijterkade 120 | Fits existing place: "De Ruijterkade's last shipping offices" (nieuwmarkt-1.yaml) as a Look-for at most. 1914 Bestevaer office and wine warehouse, De Ruyter tile panel inside; no story of its own REVIEW: added at review to nieuwmarkt-1 De Ruijterkade offices |
 | 518408 | De Ruijterkade 144-150 | Oud Nico, the castle fire station on the IJ (own, Nice) |
 | 639 | Krom Boomssloot 38-40 | No story found: 18th-century corner house with neck gables; register, nl.wikipedia list search |
 | 518429 | Peperstraat 1, Prins Hendrikkade 159 | No story found: 1902 office of the Stoomvaart Maatschappij Nederland, Holland West-Afrika Lijn stones; register, Amsterdam op de kaart |
@@ -35,7 +35,7 @@ WebSearch was not available (budget used up). All research by curl: national reg
 | 518502 | Rapenburg 21 | No story found: 1858 corner shop-house; register calls its T-windows the earliest in Amsterdam, but Amsterdam op de kaart says that window was replaced in 2015/16; De IJssalon (1985) filmed here; register, Amsterdam op de kaart |
 | 518413 | Recht Boomssloot 14 | Steam diamond works on the Recht Boomssloot (own, Okay) |
 | 518414 | Recht Boomssloot 52 | Jan de Liefde school, now De Boomsspijker (own, Okay) |
-| 518495 | Entrepotdok 3-10 | Fits existing place: "Entrepotdok, the bonded warehouses behind a wall" (eilanden-1.yaml). Five linked sheds of about 1885 by the gatehouse; add the number there |
+| 518495 | Entrepotdok 3-10 | Fits existing place: "Entrepotdok, the bonded warehouses behind a wall" (eilanden-1.yaml). Five linked sheds of about 1885 by the gatehouse; add the number there REVIEW: added at review to eilanden-1 Entrepotdok |
 | 2074 | Hoogte Kadijk 84-86 | Sibbelwoningen, the dyke houses saved by squatters (group, Nice) |
 | 2075 | Hoogte Kadijk 88-90 | Sibbelwoningen (group) |
 | 2076 | Hoogte Kadijk 92-94 | Sibbelwoningen (group) |
@@ -52,10 +52,10 @@ WebSearch was not available (budget used up). All research by curl: national reg
 | 2087 | Hoogte Kadijk 140-142 | Sibbelwoningen (group) |
 | 2088 | Hoogte Kadijk 144-146 | Sibbelwoningen (group) |
 | 2089 | Hoogte Kadijk 148-150 | Sibbelwoningen (group) |
-| 527698 | Amstel 179, Sarphatistraat 23 | Fits existing place: "Sarphati's Amstel Hotel and the masseur who saved it" (plantage-2.yaml). Home of Dr J.G. Mezger in the 1880s, his monogram on the fireplace tiles and 1888 ceiling paintings by Witkamp and Van der Waay (interior, private); suggest one Look-for line and the number |
+| 527698 | Amstel 179, Sarphatistraat 23 | Fits existing place: "Sarphati's Amstel Hotel and the masseur who saved it" (plantage-2.yaml). Home of Dr J.G. Mezger in the 1880s, his monogram on the fireplace tiles and 1888 ceiling paintings by Witkamp and Van der Waay (interior, private); suggest one Look-for line and the number REVIEW: added at review to plantage-2 Amstel Hotel (number only) |
 | 518475 | Nieuwe Keizersgracht 1 | Hodshon and Van Limmik, two Reformed homes in the Amstelhof garden (group, Okay) |
 | 518476 | Nieuwe Keizersgracht 9-13 | Hodshon and Van Limmik (group, pin) |
-| 525061 | Nieuwe Kerkstraat 159 | Fits existing place: "Wittenberg (Luther Museum)" (plantage-1.yaml). The 1856 hospital wing by Hendrik Springer and the 1876 nursing wing with the corner turret, part of the Lutheran diaconate complex |
+| 525061 | Nieuwe Kerkstraat 159 | Fits existing place: "Wittenberg (Luther Museum)" (plantage-1.yaml). The 1856 hospital wing by Hendrik Springer and the 1876 nursing wing with the corner turret, part of the Lutheran diaconate complex REVIEW: added at review to plantage-1 Wittenberg (Look for line) |
 | 518269 | Plantage Lepellaan 5 | Huis met de Vazen and its coach house (group) |
 | 518268 | Plantage Lepellaan 6 | Huis met de Vazen and its coach house (group, Okay, pin) |
 | 518405 | Plantage Middenlaan 1-5, Henri Polaklaan 2-4 e.o. | No story found: 1865 block of sixteen stuccoed town houses for the merchant W. Brummer, among the first after the Plantage opened to building; no. 15 stripped of wood in the war and demolished 1948; register, Amsterdam op de kaart |

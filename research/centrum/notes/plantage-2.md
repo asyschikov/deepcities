@@ -76,8 +76,8 @@ rijksakademie.nl, stadsherstel.nl), all live in November 2026. No Commons API ca
 | 211033 | Roetersstraat 170-172 / Kriterion | Kriterion, the cinema the resistance students built |
 | 210061 | Sarphatistraat 22 | no story found: house for antique dealer Delaunoy (1868), L.J. de Wolf shop front 1914; register |
 | 210047 | Sarphatistraat 25 | no story found: colourful double house by J.H. Schmitz, 1870–1875; register |
-| 210049 | Sarphatistraat 47-53 | no story found: Amsterdamsche Bank office by Posthumus Meyjes, 1928; register |
-| 210062 | Sarphatistraat 66 | no story found: Schmitz mansion, 1873; register |
+| 210049 | Sarphatistraat 47-53 | no story found: Amsterdamsche Bank office by Posthumus Meyjes, 1928; register REVIEW: added at review to gg-zuid-2 Lippmann, Rosenthal place (Liro, Sarphatistraat 47–55, Look for line) |
+| 210062 | Sarphatistraat 66 | no story found: Schmitz mansion, 1873; register REVIEW: drafted at review as new place "Sarphatistraat 66, the diamond mansion where dolls watch the street" (plantage-2) |
 | 210043 | Sarphatistraat 68 | no story found: Bijvoets mansion for the Simons brothers, 1873; register |
 | 210044 | Sarphatistraat 78 | no story found: Bijvoets twin of no. 68, 1873; register |
 | 208054 | Sarphatistraat 163-213, Valckenierstraat 66 | no story found: Berlage and Tijmensen housing block, 1908–1910; architecture only, no client or history in the sources; register, nl.wikipedia search. Borderline, see below |
@@ -93,7 +93,7 @@ rijksakademie.nl, stadsherstel.nl), all live in November 2026. No Commons API ca
 | 518494 | Weesperplein 1 | The Glass Palace of the Joodsche Invalide |
 | 518478 | Weesperplein 4 / Diamantbeurs | Diamond Exchange on the Weesperplein (Diamantbeurs) |
 | 206043 | Weesperstraat 3-57 / Weesperflat | Hertzberger's student house with a street in the air (Weesperflat) |
-| 200367 |  / Wertheimpark Ingangshek | no draft: Wertheimpark entrance gate with sphinxes, already a Look-for line in Wertheim fountain (plantage-1); no register text. See decisions |
+| 200367 |  / Wertheimpark Ingangshek | no draft: Wertheimpark entrance gate with sphinxes, already a Look-for line in Wertheim fountain (plantage-1); no register text. See decisions REVIEW: added at review to plantage-1 "Wertheim fountain" |
 | 280501 | bij Nieuwe Keizersgracht 20 | no story found: early 19th-century garden house behind Nieuwe Keizersgracht 20, not visible from the street; register |
 | 280502 | bij Nieuwe Keizersgracht 22 | no story found: 18th-century garden house behind Nieuwe Keizersgracht 22, restored 2003, not visible from the street; register |
 | 4103 | bij Plantage Kerklaan 36 / Ingangshek en kiosken (Artis) | A-list, parked (Artis) |

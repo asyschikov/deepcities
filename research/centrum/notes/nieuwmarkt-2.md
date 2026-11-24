@@ -62,7 +62,7 @@ Centrum round 1, slice nieuwmarkt-2: 65 monument records, plus 498637 (Boas chim
 | 498639 | Nieuwe Uilenburgerstraat 175, Portiersgebouw | Boas diamond factory (group) |
 | 212027 | Nieuwmarkt 1 | No story found: 1899 Caron corner shop (De Vlijt); registers, AoK |
 | 3848 | Nieuwmarkt 4, De Waag | A-list, parked (De Waag) |
-| 200217 | Nieuwmarkt 5 | No story found: 1876 front; registers, search |
+| 200217 | Nieuwmarkt 5 | No story found: 1876 front; registers, search REVIEW: drafted at review as new place "Cotton Club, the Nieuwmarkt's Surinamese jazz café" (nieuwmarkt-2) |
 | 202037 | Oostersekade 4-8, Nieuwe Uilenburgerstraat 2-68 | Uilenburg rebuilt (group) |
 | 200238 | Oude Waal 4 | No story found: late-19th-c. front; registers, Oude Waal wiki |
 | 200239 | Oude Waal 5 | No story found: 1878 front; registers, Oude Waal wiki |

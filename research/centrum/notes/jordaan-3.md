@@ -47,11 +47,11 @@ were made: photos are only the slice's `wikidata.images`.
 | 230007 | Palmdwarsstraat, where urban renewal learned to mend the old streets |
 | 3388 | The city masons' house at the dead end of the Leidsegracht (pin) |
 | 3387 | The city masons' house (no. 106, the Stadsherstel bookend) |
-| 3633 | Belongs to Eelke van Houten's second-hand gables (jordaan-1): Lijnbaansgracht 93–94, Van Houten pand with J.H. Scheerboom (wiki). Add the number there |
-| 3634 | Belongs to Van Houten (jordaan-1): Lijnbaansgracht 95 / Nieuwe Leliestraat 196, the "taartpunt" corner of the same trio |
-| 214043 | Belongs to Van Houten (jordaan-1): Palmgracht 12–16, 1938, commissioned by Van Houten himself, three 18th-c. tops from the Sint Jorisstraat. The strongest of the four; worth a Look for line there |
-| 214036 | Belongs to Van Houten (jordaan-1): Oude Looiersstraat 37–51, 1920 machine works of T. Pepping, bell gable with a ship medallion, possibly reused (register) |
-| 204046 | Belongs to a Willemsstraat group (jordaan-6, not yet drafted): last gap of the Vereeniging ten behoeve der Arbeidersklasse block, 1894 by W. Hamer |
+| 3633 | Belongs to Eelke van Houten's second-hand gables (jordaan-1): Lijnbaansgracht 93–94, Van Houten pand with J.H. Scheerboom (wiki). Add the number there REVIEW: added at review to jordaan-3 "Palmgracht 12–16, three rescued tops on one block" |
+| 3634 | Belongs to Van Houten (jordaan-1): Lijnbaansgracht 95 / Nieuwe Leliestraat 196, the "taartpunt" corner of the same trio REVIEW: added at review to jordaan-3 "Palmgracht 12–16, three rescued tops on one block" |
+| 214043 | Belongs to Van Houten (jordaan-1): Palmgracht 12–16, 1938, commissioned by Van Houten himself, three 18th-c. tops from the Sint Jorisstraat. The strongest of the four; worth a Look for line there REVIEW: added at review to jordaan-3 "Palmgracht 12–16, three rescued tops on one block" |
+| 214036 | Belongs to Van Houten (jordaan-1): Oude Looiersstraat 37–51, 1920 machine works of T. Pepping, bell gable with a ship medallion, possibly reused (register) REVIEW: added at review to jordaan-1 "Eelke van Houten's second-hand gables" |
+| 204046 | Belongs to a Willemsstraat group (jordaan-6, not yet drafted): last gap of the Vereeniging ten behoeve der Arbeidersklasse block, 1894 by W. Hamer REVIEW: added at review to jordaan-6 "Willemsstraat, the slum canal the philanthropists filled" |
 | 3379 | No story found: 1666 neck gable for Jan Adriaansz Buys, leans on no. 70; wiki |
 | 3380 | No story found: 19th-c. cornice front, five flats; wiki |
 | 3381 | No story found: 18th-c. warehouse, auction house, now hostel; wiki |

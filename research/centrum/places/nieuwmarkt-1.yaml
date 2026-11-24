@@ -19,7 +19,7 @@
     - the letters GWC on the front
     - the pediment between the two tops and the year stones
     - the clerks' house with its tent roof on the Peperstraat corner
-  category: hidden-history
+  category: industrial
   lat: 52.372263
   lng: 4.907929
   address: "'s-Gravenhekje 1"
@@ -188,7 +188,7 @@
     - the stepped tower over the corner entrance, clad in copper-coloured slate
     - the lead roof edge shaped as ropes, waves and little fish heads
     - inside, the stairwell under its stained-glass roof by Willem Bogtman
-  category: hidden-history
+  category: civic
   lat: 52.374244
   lng: 4.904398
   address: Prins Hendrikkade 108-114
@@ -369,7 +369,7 @@
     - Monet's view: stand on the bridge and look north to the Zuiderkerk
     - the name board, which says Staalmeesterbrug, without the s
     - the flattened arch of Brug 226 at the far end
-  category: hidden-history
+  category: infrastructure
   lat: 52.368232
   lng: 4.897667
   address: Staalstraat, over the Groenburgwal
@@ -482,7 +482,7 @@
     Look for:
     - the plaque of the chemical society on the front
     - the projecting middle part of the plastered front
-  category: hidden-history
+  category: civic
   lat: 52.368455
   lng: 4.897618
   address: Groenburgwal 44
@@ -593,7 +593,7 @@
     Look for:
     - the pilasters, pediment and festoons of the front
     - at Groenburgwal 30, the tile panel ST. VINCENTIUS TUSSCHENSCHOOL, a stone cross and the letters S and V
-  category: hidden-history
+  category: housing
   lat: 52.369111
   lng: 4.897405
   address: Kloveniersburgwal 95
@@ -650,7 +650,7 @@
     - the two chimneys shaped like mortars
     - cannon, cannonballs and the Trip arms in the pediment
     - the windows over the dividing wall in the middle
-  category: hidden-history
+  category: housing
   lat: 52.371294
   lng: 4.899422
   address: Kloveniersburgwal 29
@@ -863,7 +863,7 @@
   body: |
     The De Ruijterkade was laid out on the new station island and named in 1880, and was lined with offices and company buildings one plot deep between about 1890 and 1910. Most were demolished before 1920 to make room for a second train shed at Centraal Station; only the eastern stretch survives.
 
-    Number 125 was built in 1892 by A.L. van Gendt for the Koninklijke West-Indische Maildienst (KWIM), whose ships sailed from this quay to Suriname, the Caribbean and New York. A stone frieze once carried its name, and a sun with a face crowns the gable. Five years later the line bought the plot next door and added a staff canteen at number 126: a little half-timbered building with black beams and green-painted infill, in English cottage style, attributed to A.D.N. van Gendt, who had worked as a draughtsman in Glasgow. The KWIM was taken over by the KNSM in 1912, run from the Scheepvaarthuis, and dissolved in 1927.
+    Number 125 was built in 1892 by A.L. van Gendt for the Koninklijke West-Indische Maildienst (KWIM), whose ships sailed from this quay to Suriname, the Caribbean and New York. A stone frieze once carried its name, and a sun with a face crowns the gable. Five years later the line bought the plot next door and added a staff canteen at number 126: a little half-timbered building with black beams and green-painted infill, in English cottage style, attributed to A.D.N. van Gendt. The KWIM was taken over by the KNSM in 1912, run from the Scheepvaarthuis, and dissolved in 1927.
 
     Number 139 was built in 1914 by H.G. Jansen for the ship brokers Vereenigd Cargadoorskantoor. Number 140 is a company building of 1912 with a tiled date panel by the Amsterdam firm Distel.
 
@@ -874,7 +874,8 @@
     - the sun with a face in the gable of number 125
     - the stone with a three-master and ANNO 1914 in the bay window of number 139
     - the Distel tile panel "Anno 1912" on number 140
-  category: hidden-history
+    - the frieze of children on De Zeevaart, nos. 105–106 (1884–85)
+  category: civic
   lat: 52.377642
   lng: 4.906696
   address: De Ruijterkade 125-126
@@ -887,13 +888,14 @@
   attributes:
     rank: Nice
     heritage_status: Municipal monument
-    monument_number: 216002, 216003, 216004
+    monument_number: 216002, 216003, 216004, 518411, 518491
     built: 1892–1914
     listed: 2007
     original_use: Shipping offices
   photos:
     - commons:File:Schaftlokaal West-Indische Maildient Amsterdam.jpg
   sources:
+    - rce:518411, rce:518491 (added at review from extra-east: De Ruijterkade 105-106, 1884-85 De Zeevaart with ice cellar, coach house and flats, frieze of children; De Ruijterkade 120, 1914 Bestevaer office and wine warehouse, De Ruyter tile panel inside, not visible)
     - city:216002 (De Ruijterkade on the station islands, buildings 1890-1910 one plot deep, largely demolished before 1920 for a second train shed, only the east part remains; office for the KWIM by A.L. van Gendt 1892 in Dutch Renaissance style; personified sun in the aedicula of the gable; sandstone frieze once with 'KON WEST-INDISCHE MAILDIENST'; after 5 years the neighbouring plot bought, timber-framed canteen at no. 126, black beams, green-painted plaster, English cottage style, A.D.N. van Gendt probably picked up British elements as a draughtsman in Glasgow; 1901 extension)
     - city:216003 (Vereenigd Cargadoorskantoor, H.G. Jansen 1914, right wing probably 1921 by Jan Kuyt; gable stone with three-master and ANNO 1914 in the parapet of the bay; still an office)
     - city:216004 (1912 company building, tile panel 'Anno 1912' by the Amsterdam firm Distel, company name tiles gone; the register names both J.A. Berg and Nieuwenhuys as architect: left out)
@@ -905,7 +907,7 @@
     body: |
       De De Ruijterkade werd aangelegd op het nieuwe stationseiland en kreeg in 1880 haar naam. Tussen ongeveer 1890 en 1910 kwam er een rij kantoren en bedrijfspanden van één perceel diep. Het grootste deel daarvan werd voor 1920 al gesloopt voor een tweede overkapping van het Centraal Station; alleen het oostelijke stuk is over.
 
-      Nummer 125 bouwde A.L. van Gendt in 1892 voor de Koninklijke West-Indische Maildienst (KWIM), waarvan de schepen van deze kade naar Suriname, het Caribisch gebied en New York voeren. In een stenen fries stond vroeger de naam, en een zon met een gezicht bekroont de top. Vijf jaar later kocht de rederij het perceel ernaast en zette er op nummer 126 een schaftlokaal voor het personeel neer: een vakwerkhuisje met zwarte balken en groen gepleisterde vakken, in Engelse cottagestijl, toegeschreven aan A.D.N. van Gendt, die als tekenaar in Glasgow had gewerkt. In 1912 werd de KWIM overgenomen door de KNSM, vanuit het Scheepvaarthuis bestuurd en in 1927 opgeheven.
+      Nummer 125 bouwde A.L. van Gendt in 1892 voor de Koninklijke West-Indische Maildienst (KWIM), waarvan de schepen van deze kade naar Suriname, het Caribisch gebied en New York voeren. In een stenen fries stond vroeger de naam, en een zon met een gezicht bekroont de top. Vijf jaar later kocht de rederij het perceel ernaast en zette er op nummer 126 een schaftlokaal voor het personeel neer: een vakwerkhuisje met zwarte balken en groen gepleisterde vakken, in Engelse cottagestijl, toegeschreven aan A.D.N. van Gendt. In 1912 werd de KWIM overgenomen door de KNSM, vanuit het Scheepvaarthuis bestuurd en in 1927 opgeheven.
 
       H.G. Jansen bouwde in 1914 nummer 139 voor het Vereenigd Cargadoorskantoor, een scheepsmakelaardij. Nummer 140 is een bedrijfspand uit 1912 met een tegeltableau met het jaartal, van de Amsterdamse firma Distel.
 
@@ -916,6 +918,7 @@
       - de zon met gezicht in de top van nummer 125
       - de gevelsteen met een driemaster en ANNO 1914 in de erker van nummer 139
       - het tegeltableau "Anno 1912" van Distel op nummer 140
+      - de fries met kinderen op De Zeevaart, nr. 105–106 (1884–85)
     attributes:
       original_use: Rederij- en scheepvaartkantoren
     sources:

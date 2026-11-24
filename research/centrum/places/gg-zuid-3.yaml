@@ -315,7 +315,7 @@
     - the sloping concrete canopy over the corner
     - the projection booth window at the corner, one floor up
     - the stepped balcony level showing in the upper windows
-  category: hidden-history
+  category: civic
   lat: 52.366638
   lng: 4.89501
   address: Reguliersbreestraat 31
@@ -421,7 +421,7 @@
     - the two stone bay windows rising four floors
     - the tower-like block with cut corners on the roof
     - the meander patterns in the brick of the 1921 building
-  category: hidden-history
+  category: civic
   lat: 52.365683
   lng: 4.896709
   address: Rembrandtplein 24A-36
@@ -697,8 +697,8 @@
     - the green and orange brick mosaics over the windows
     - the curved gable on the left
   category: civic
-  lat: 52.367592
-  lng: 4.888774
+  lat: 52.367624
+  lng: 4.888732
   address: Singel 458
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/64446305-4a5a-412a-b033-7a9584e473af" }
@@ -747,9 +747,9 @@
     - the gable stone reading ODEON, with Nuerenburg in the rim and the year 1662
     - the neck gable with three round windows
     - the Empire-style doorway
-  category: hidden-history
-  lat: 52.367547
-  lng: 4.888833
+  category: civic
+  lat: 52.367515
+  lng: 4.888875
   address: Singel 460
   links:
     - { label: Rijksmonumentenregister (5406), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/5406" }
@@ -981,62 +981,3 @@
       - https://nl.wikipedia.org/wiki/De_Bazel_(Amsterdam)
       - https://www.theobakker.net/pdf/vijzelstraat.pdf
       - https://caferestaurantdebazel.nl/
-
-# ================================================================ Garden houses behind the Herengracht and Keizersgracht
-
-- title: Garden houses behind the southern canals
-  summary: "Behind the Herengracht and Keizersgracht, at the far end of long gardens, hide eighteen listed garden houses: plain brick ones of the 1680s, rococo sandstone fronts, a domed pavilion with a cupid on its roof, wooden arbours, and one with a light lock for a film studio."
-  body: |
-    The canal houses have a second, hidden row of buildings: the garden houses at the back of their long gardens. In 2006 the city listed eighteen of them in this part of the canal belt.
-
-    The oldest are sober brick rooms of around 1680-1690 with a door and a wide window, now rare: behind Herengracht 452-454 and 582-584. In the 18th century the window moved to the middle between two doors, as behind Keizersgracht 439 and 441, and the fronts grew rich: sandstone with festoons behind Keizersgracht 449, rococo behind no. 620, and a triple garden house of about 1750 behind 641-645 with vines and a hanging shell carved under its middle window. Behind Herengracht 546 only the centre of a garden house of about 1750 survives, now a little domed pavilion like the tea houses on the Vecht, with two putti holding a crowned coat of arms and, on the roof, two fabulous beasts and a cupid.
-
-    In 1954 C.B. Posthumus Meyjes took the one behind Herengracht 434 apart, rebuilt it elsewhere in the garden and gave it two new wings; it is now an office. Around 1970 the one behind Keizersgracht 794 got a light lock for a film studio.
-
-    None can be seen from the street. Some canal gardens open on the Open Tuinen Dagen, the open garden days organised by Museum Van Loon each June.
-
-    Look for:
-    - during the open garden days, the back gardens between the Herengracht and the Keizersgracht
-  category: housing
-  lat: 52.364292
-  lng: 4.896937
-  address: behind Herengracht 418-584 and Keizersgracht 439-794
-  links:
-    - { label: Monumentenregister Amsterdam (Herengracht 546), url: "https://data.amsterdam.nl/monumenten/263eb084-ebd1-40a5-a37f-956b340fec2c" }
-    - { label: Monumentenregister Amsterdam (Keizersgracht 641-645), url: "https://data.amsterdam.nl/monumenten/b22445e1-c2d8-444c-a9a8-6681340cd143" }
-    - { label: Monumentenregister Amsterdam (Herengracht 434), url: "https://data.amsterdam.nl/monumenten/6fc2e7d3-aeb0-4b3f-9646-5fa36412a520" }
-    - { label: Open Tuinen Dagen, url: "https://www.opentuinendagen.nl/" }
-  attributes:
-    rank: Okay
-    heritage_status: Municipal monument
-    monument_number: 280203, 280201, 280202, 280404, 280204, 280405, 280406, 280401, 280402, 280403, 280601, 280602, 280603, 280604, 280605, 280701, 280702, 280703
-    built: about 1680–1889
-    listed: 2006
-    original_use: Garden houses and arbours
-  sources:
-    - city:280203 (Herengracht 546: about 1750, square plan with two chamfered corners, domed roof; probably had two side wings, gone before 1920; recalls the tea domes on the Vecht; pediment with two putti presenting a crowned family arms; on the lead roof a probably zinc group of two fabulous beasts and a cupid)
-    - city:280404 (Herengracht 452/454, about 1680, simple late-17th-c. type, door either side of a wide window; now a workshop); city:280405, 280406 (Herengracht 582 and 584, double garden house about 1690, oldest type, now rare)
-    - city:280401, 280402 (Keizersgracht 439 and 441, first half 18th c., big window between two doors; main house 441 built 1684 by master carpenter Claes Dircksz. van Houten); city:280403 (Keizersgracht 443, 19th-c. arbour, about 1875)
-    - city:280601 (Keizersgracht 449, last quarter 18th c., sandstone, classicist, festoons; storage for a restaurant); city:280605 (Keizersgracht 620, third quarter 18th c., rococo, white-painted sandstone); city:280702 (Keizersgracht 641-645, three garden houses about 1750, middle one with trefoil window, vines and a hanging shell, part rebuilt 1966)
-    - city:280202 (Herengracht 434, first quarter 18th c., dismantled and rebuilt in its present position in 1954 by C.B. Posthumus Meyjes with two new wings, used as office); city:280201 (Herengracht 418, 18th c., restored 2003 with garden); city:280204 (Herengracht 568, wooden front, first half 19th c.); city:280602 (Keizersgracht 501, about 1700); city:280603 (Keizersgracht 570, about 1800, three equal doors)
-    - city:280604 (Keizersgracht 586, 1889, wood); city:280701 (Keizersgracht 638, last quarter 19th c., open wooden arbour); city:280703 (Keizersgracht 794, 19th-c. interpretation, light lock built around 1970 for a film studio)
-    - https://www.opentuinendagen.nl/ (Open Tuinen Dagen, Museum Van Loon, every June a series of canal gardens of private owners and institutions opens; 2027 edition 18-20 June; private gardens reached through the houses)
-  nl:
-    title: Tuinhuizen achter de zuidelijke grachten
-    summary: "Achter de Herengracht en de Keizersgracht, aan het eind van lange tuinen, staan achttien beschermde tuinhuizen: sobere bakstenen huisjes uit de jaren 1680, rococo in zandsteen, een koepeltje met een cupido op het dak, houten priëlen en een filmstudio."
-    body: |
-      De grachtenhuizen hebben een tweede, verborgen rij gebouwen: de tuinhuizen achter in hun lange tuinen. In 2006 wees de gemeente er in dit deel van de grachtengordel achttien aan.
-
-      De oudste zijn sobere bakstenen kamers van rond 1680-1690 met een deur en een breed raam, inmiddels zeldzaam: achter Herengracht 452-454 en 582-584. In de achttiende eeuw schoof het raam naar het midden tussen twee deuren, zoals achter Keizersgracht 439 en 441, en werden de gevels rijker: zandsteen met festoenen achter Keizersgracht 449, rococo achter nummer 620, en achter 641-645 een drievoudig tuinhuis van rond 1750 met druivenranken en een hangende schelp onder het middelste raam. Achter Herengracht 546 is alleen het middendeel van een tuinhuis van rond 1750 over, nu een koepeltje dat doet denken aan de theekoepels aan de Vecht, met twee putti die een gekroond familiewapen tonen en op het dak twee fabeldieren en een cupido.
-
-      In 1954 haalde C.B. Posthumus Meyjes het tuinhuis achter Herengracht 434 uit elkaar, zette het elders in de tuin weer op en gaf het twee nieuwe vleugels; nu is het een kantoor. Rond 1970 kreeg dat achter Keizersgracht 794 een lichtsluis voor een filmstudio.
-
-      Vanaf de straat zie je er geen een. Een deel van de grachttuinen gaat open tijdens de Open Tuinen Dagen die Museum Van Loon elk jaar in juni organiseert.
-
-      Let op:
-      - tijdens de Open Tuinen Dagen de achtertuinen tussen Herengracht en Keizersgracht
-    attributes:
-      original_use: Tuinhuizen en priëlen
-    sources:
-      - gemeentelijk monumentenregister 280201-280204, 280401-280406, 280601-280605, 280701-280703
-      - https://www.opentuinendagen.nl/

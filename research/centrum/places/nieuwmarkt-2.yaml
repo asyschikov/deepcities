@@ -275,12 +275,13 @@
   attributes:
     rank: Nice
     heritage_status: Municipal monument
-    monument_number: 202037, 202039
+    monument_number: 202037, 202039, 202040
     built: 1920, 1926–1927
     architect: J.H. (Jo) Mulder; Nico Lansdorp (Publieke Werken)
     listed: 2004
     original_use: Workers' housing; double primary school
   sources:
+    - city:202040 (added at review from nieuwmarkt-3: Oudeschans 19-23, part of the same J.H. Mulder 1926 complex; ground floors were storage for the Nieuwe Uilenburgerstraat market stalls; no extra Look for line)
     - city:202037 (72 homes designed 1926 by J.H. Mulder; shared stairwells on the divisions between units; corner Oostersekade with sculpture of a woman, building year on the sides; expropriation plan 1911, demolition slow for lack of homes; Handwerkers Vriendenkring (1869) wanted new workers' homes for the present residents; Stichting Bouwfonds Handwerkers Vriendenkring 1912)
     - city:202039 (double school designed 1920 by Publieke Werken; gable stones from demolished Uilenburgerstraat houses: castle with owl UYLENBURGH, King David with harp, axe and adze ANNO 1734; corner window of 18 stepped small squares on the Oudeschans corner)
     - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/96 (architect Nico Lansdorp; Oudeschansschool and Batavierschool; crisis years free warm meals, ritually prepared for Jewish visitors, 5 cents a portion; J.D. Meijerschool from 1937/38, Jewish school no. 2 September 1941 to May 1943; De Witte Olifant from about 1985; four gable stones, one a white elephant)
@@ -659,11 +660,12 @@
 
     In 1776 the city architect Jacob Eduard de Witte closed off that poor people's courtyard with a low building of two shallow houses under one hipped roof, with tall corner chimneys; it still stands at the start of the Nieuwe Amstelstraat.
 
-    In 1808 the state took over the warehouses as an arsenal, which gave them their name. In 1909 the government proposed selling them to the diamond dealers' association, which wanted to pull them down for new premises; after protests by the antiquarian society, parliament voted it down. Since 1946 the Academie van Bouwkunst, a school of architecture, has used them, and in the 1980s squatters staged performances and exhibitions here for a few years.
+    In 1808 the state took over the warehouses as an arsenal, which gave them their name. In 1909 the government proposed selling them to the diamond dealers' association, which wanted to pull them down for new premises; after protests by the antiquarian society, parliament voted it down. Since 1946 the Academie van Bouwkunst, a school of architecture, has used them.
 
     Look for:
     - the stone blocks over the openings on the Waterlooplein side
     - the low 1776 houses with their tall chimneys on the Nieuwe Amstelstraat
+    - next door at Waterlooplein 211, the gate of the Oudezijds Huiszittenhuis, which ran these stores
   category: civic
   lat: 52.367534
   lng: 4.903076
@@ -686,6 +688,7 @@
     - commons:File:Academie van Bouwkunst Amsterdam 2.jpg
     - commons:File:Amsterdam - Nieuwe Amstelstraat 2.JPG
   sources:
+    - review: linked to nieuwmarkt-3 "Oudezijds Huiszittenhuis" (6306) next door rather than merged; both places keep their own pin
     - rce:268 (Stadsturfpakhuizen: double warehouse flanked by two single ones, trapezium and pointed gables front and back, large arch and lintel blocks, 1610)
     - rce:266 (building under hipped roof, 1776, design city architect J.E. de Witte, two shallow houses)
     - https://nl.wikipedia.org/wiki/Arsenaal_(Amsterdam) (built c. 1610-1613 by the huiszittenmeesters on the grounds of the leper house; storage of grain, butter and peat for the poor; 1808 to the state as arsenal, hence the name; 1909 proposal to sell to the Vereniging van Diamanthandelaren who wanted to demolish it, protest by the Nederlandsche Oudheidkundige Bond (J.C. Overvoorde), voted down; Academie van Bouwkunst since 1946; restoration 1960s; squatted in the 1980s by Het Pleinwerker, performances, evicted 1985; renovation 2007)
@@ -699,11 +702,12 @@
 
       In 1776 sloot stadsarchitect Jacob Eduard de Witte dat armenplein af met een laag gebouw van twee ondiepe woningen onder één schilddak, met hoge hoekschoorstenen; het staat nog aan het begin van de Nieuwe Amstelstraat.
 
-      In 1808 nam het rijk de pakhuizen over als arsenaal, en zo kwamen ze aan hun naam. In 1909 wilde de regering ze verkopen aan de Vereniging van Diamanthandelaren, die ze wilde slopen voor een nieuw gebouw; na protest van de Oudheidkundige Bond stemde de Tweede Kamer het voorstel weg. Sinds 1946 zit de Academie van Bouwkunst erin, en in de jaren tachtig gaven krakers hier een paar jaar voorstellingen en tentoonstellingen.
+      In 1808 nam het rijk de pakhuizen over als arsenaal, en zo kwamen ze aan hun naam. In 1909 wilde de regering ze verkopen aan de Vereniging van Diamanthandelaren, die ze wilde slopen voor een nieuw gebouw; na protest van de Oudheidkundige Bond stemde de Tweede Kamer het voorstel weg. Sinds 1946 zit de Academie van Bouwkunst erin.
 
       Let op:
       - de natuurstenen blokken boven de openingen aan de kant van het Waterlooplein
       - de lage huisjes uit 1776 met hun hoge schoorstenen aan de Nieuwe Amstelstraat
+      - ernaast, Waterlooplein 211, de poort van het Oudezijds Huiszittenhuis, dat deze pakhuizen beheerde
     attributes:
       architect: J.E. de Witte (huisjes uit 1776)
       original_use: Pakhuizen voor turf en voedsel voor de armen
@@ -712,3 +716,60 @@
       - rce:266
       - https://nl.wikipedia.org/wiki/Arsenaal_(Amsterdam)
       - https://nl.wikipedia.org/wiki/Nieuwe_Amstelstraat_2-4
+
+# ================================================================ Added at review (records with a story after all)
+
+- title: Cotton Club, the Nieuwmarkt's Surinamese jazz café
+  summary: "A plain 19th-century front on the Nieuwmarkt hides a café that became the first haunt of Amsterdam's small Surinamese community and of Black American soldiers after the war. It took its name from a Surinamese trumpeter, Teddy Cotton."
+  body: |
+    Until 1951 this was simply café Smit. After the war it became the place where the still very small Surinamese community of Amsterdam met, along with Black American soldiers on leave. The soldiers brought stacks of American jazz records, which were played to death on the jukebox; in 1955 the paper Het Vrije Volk wrote that the hits were often heard in the Cotton Club before they reached the radio. Jazz musicians who had played in the dance halls on the Zeedijk came on here afterwards.
+
+    In 1949 the owner's daughter fell for a Surinamese regular, the trumpeter Theodorus Gustaaf Kantoor, who played as Teddy Cotton. They moved in together and the café was renamed the Cotton Club, after him and after the famous club in New York. Teddy left the scene around 1960, but the name stayed. Of all the Surinamese meeting places of the 1950s to 1970s on the Nieuwendijk and the Zeedijk, this is the only one left. Jazz is still played, now alongside salsa.
+
+    The house itself got its cornice in 1876; the wooden shopfront is from 1924.
+
+    Look for:
+    - Cotton Club over the wooden shopfront of 1924
+    - the three-light window under a continuous brick arch on the top floor
+  category: food-drink
+  lat: 52.372622
+  lng: 4.901038
+  address: Nieuwmarkt 5
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/72da8ce7-8a99-4042-9c7e-743ebe1bf4ea" }
+    - { label: "ONH, Wereldplek in Amsterdam: Cotton Club", url: "https://www.onh.nl/verhaal/wereldplek-in-amsterdam-cotton-club" }
+    - { label: I amsterdam Cotton Club, url: "https://www.iamsterdam.com/en/see-and-do/eating-and-drinking/bar-and-cafe-listing/cotton-club" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "200217"
+    built: 19th century, cornice 1876, shopfront 1924
+    listed: 1980
+    original_use: House with a café
+    check: Still there?
+    check_note: Listed as open by I amsterdam; a Fodor's note says closed and the status pass saw it offered for sale on Horecaspot. Settle on site.
+  sources:
+    - city:200217 (Nieuwmarkt 5, two windows wide; modern wooden shopfront 1924; 19th-century brick front with sash windows and a three-light window under a continuous arch on the third floor; straight cornice of 1876; listed 1980)
+    - https://www.onh.nl/verhaal/wereldplek-in-amsterdam-cotton-club (fetched at review; Peter-Paul de Baar, Ons Amsterdam November 2011: called café Smit until 1951, briefly café Annie; after the war meeting place of the small Surinamese community and Black American soldiers, who brought drugs and many jazz records for the jukebox; Het Vrije Volk 1955 on hits heard there before the radio; jazz musicians from Casablanca on the Zeedijk came on afterwards; in 1949 the owner's daughter, owner herself from 1951, fell for trumpeter Theodorus Gustaaf Kantoor, Teddy Cotton; named after him and the New York club; Teddy gone around 1960; of Faith's Corner, De Cycloop, Cocktail Club and Emile's Place only the Cotton Club is left; jazz still kept up, now with salsa)
+    - Ed van der Elsken photo caption, Cotton Club 1956 (Surinamese and Black American soldiers on leave began visiting the jazz club on the Nieuwmarkt), via a web search at review
+    - https://www.iamsterdam.com/en/see-and-do/eating-and-drinking/bar-and-cafe-listing/cotton-club (listed as a jazz café at Nieuwmarkt 5-H); Fodor's review marks it as no longer operating; _status-pass.md: Horecaspot lists the café for sale
+    - The founding dates on tourist sites (1920s, 1930s, 1940s) conflict with ONH; ONH (Ons Amsterdam) used. The private owner's daughter is not named. Drafted at review from _status-pass.md "Records with a story after all"
+  nl:
+    title: Cotton Club, het Surinaamse jazzcafé aan de Nieuwmarkt
+    summary: "Achter een eenvoudige negentiende-eeuwse gevel aan de Nieuwmarkt zit een café dat na de oorlog de eerste stek werd van de kleine Surinaamse gemeenschap en van zwarte Amerikaanse soldaten. De naam komt van een Surinaamse trompettist, Teddy Cotton."
+    body: |
+      Tot 1951 was dit gewoon café Smit. Na de oorlog werd het de plek waar de toen nog heel kleine Surinaamse gemeenschap van Amsterdam elkaar trof, samen met zwarte Amerikaanse soldaten met verlof. Die brachten stapels Amerikaanse jazzplaten mee, die op de jukebox grijs werden gedraaid; Het Vrije Volk schreef in 1955 dat de hits in de Cotton Club vaak eerder klonken dan op de radio. Jazzmusici die op de Zeedijk hadden gespeeld, zakten hier daarna door.
+
+      In 1949 werd de dochter van de baas verliefd op een Surinaamse stamgast, trompettist Theodorus Gustaaf Kantoor, die als Teddy Cotton optrad. Ze gingen samenwonen en het café heette voortaan Cotton Club, naar hem en naar de beroemde club in New York. Rond 1960 verdween Teddy uit beeld, maar de naam bleef. Van alle Surinaamse pleisterplaatsen uit de jaren vijftig tot zeventig op de Nieuwendijk en de Zeedijk is alleen deze over. Er wordt nog jazz gespeeld, nu naast salsa.
+
+      Het pand kreeg in 1876 zijn kroonlijst; de houten pui is van 1924.
+
+      Let op:
+      - Cotton Club boven de houten pui uit 1924
+      - het drielicht onder een doorlopende boog op de bovenste verdieping
+    attributes:
+      original_use: Woonhuis met café
+      check_note: I amsterdam noemt het open; volgens Fodor's is het dicht, en bij de statuscheck stond het op Horecaspot te koop. Ter plekke nagaan.
+    sources:
+      - "https://data.amsterdam.nl/monumenten/72da8ce7-8a99-4042-9c7e-743ebe1bf4ea"
+      - https://www.onh.nl/verhaal/wereldplek-in-amsterdam-cotton-club

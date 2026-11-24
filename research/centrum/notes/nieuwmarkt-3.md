@@ -13,7 +13,7 @@
 | 200244 | Oudeschans 10 | No story found: two warehouses; no story (Speeltuin De Waag gate next door, Leads) |
 | 200245 | Oudeschans 16 | No story found: canal house; no story |
 | 212034 | Oudeschans 17 | No story found: house; no story found beyond architects |
-| 202040 | Oudeschans 19-23 | Deferred to nieuwmarkt-2: part of the Handwerkers Vriendenkring complex (202037, J.H. Mulder 1926); ground floors were storage for the Nieuwe Uilenburgerstraat market stalls |
+| 202040 | Oudeschans 19-23 | Deferred to nieuwmarkt-2: part of the Handwerkers Vriendenkring complex (202037, J.H. Mulder 1926); ground floors were storage for the Nieuwe Uilenburgerstraat market stalls REVIEW: added at review to nieuwmarkt-2 Uilenburg place (202037) |
 | 200246 | Oudeschans 26 | No story found: canal house; no story |
 | 200247 | Oudeschans 28 | No story found: canal house; no story |
 | 212035 | Oudeschans 35 | Joodsche School nr. 1 (group, Nice), pinned here |

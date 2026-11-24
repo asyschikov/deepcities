@@ -16,7 +16,7 @@ Group places are pinned on the record marked (pin).
 | 211022 | Korte Marnixstraat 6-10 | Korte Marnixstraat, a farrier's horseshoes and a boy's first stone |
 | 211023 | Korte Marnixstraat 7 | Korte Marnixstraat, a farrier's horseshoes and a boy's first stone (pin) |
 | 212016 | Korte Marnixstraat 12-18, Korte Marnixkade 9 | Korte Marnixstraat, a farrier's horseshoes and a boy's first stone |
-| 211024 | Korte Prinsengracht 15-21, St. Antoniaschool | belongs to "Posthoorn church and its Catholic island" (haarlemmer-1): the parish's kweekschool and mulo of 1910–1911 by Jos. Hegener, closed 1936, with the brewery unicorn head re-used in its gable. Suggest adding 211024 to that place's monument_number and a Look for line ("the unicorn head in the right-hand gable, Korte Prinsengracht 15-21"). Not drafted. |
+| 211024 | Korte Prinsengracht 15-21, St. Antoniaschool | belongs to "Posthoorn church and its Catholic island" (haarlemmer-1): the parish's kweekschool and mulo of 1910–1911 by Jos. Hegener, closed 1936, with the brewery unicorn head re-used in its gable. Suggest adding 211024 to that place's monument_number and a Look for line ("the unicorn head in the right-hand gable, Korte Prinsengracht 15-21"). Not drafted. REVIEW: added at review to haarlemmer-1 "Posthoorn church and its Catholic island" (Look for line) |
 | 204061 | Korte Prinsengracht 33-93, Haarlemmerstraat 141-179 | Komter's flats that pretend to be canal houses |
 | 204030 | Korte Prinsengracht 101 | no story found: sober 1860s house, student housing since 1986; register, aodk |
 | 214009 | Korte Zoutkeetsgracht 1-8, 't Smallepad | no story found: 1924 Kruyswijk Protestant school, now homes and businesses; register, aodk, nl.wikipedia (Korte Zoutkeetsgracht) |
@@ -29,12 +29,12 @@ Group places are pinned on the record marked (pin).
 | 214049 | Prinseneiland 87, Roogans | De Roogans, the low tar shed among tall warehouses |
 | 214050 | Prinseneiland 89, Eerste Apostolische Kerk | The excommunicated apostle's church on Prinseneiland |
 | 215045 | Prinseneiland 329-395, 't Seepaert | 't Seepaert, a wartime warehouse with a modern secret |
-| 5249 | Singel 2, De Kruiwagen | no story found: 1606–1611 double corner house with stepped gable; RCE one-liner, nl.wikipedia Singel article (no mention); web search budget ran out before a dedicated search, see Conflicts |
+| 5249 | Singel 2, De Kruiwagen | no story found: 1606–1611 double corner house with stepped gable; RCE one-liner, nl.wikipedia Singel article (no mention); web search budget ran out before a dedicated search, see Conflicts REVIEW: one more search found the story (Amsterdam Monumentenstad); drafted as "De Kruiwagen, the herring buyer's double house where the Singel starts" (haarlemmer-2) |
 | 215049 | Vierwindenstraat 60-62 | De Atlas, the steam-powered mirror factory (pin) |
 | 211025 | Vinkenstraat 1, Korte Prinsengracht 38 | no story found: 1916 Scheelbeek storehouse with four flats, tile panels in the porch; register, aodk |
 | 211044 | Vinkenstraat 39-41 | Femina Muller's crèche in the Vinkenstraat |
 | 200885 | Westerdoksdijk 40, Rederij Goedkoop | Rederij Goedkoop, the tug company's office in the IJ |
-| 214008 | Zeilmakerstraat 15-19, Keerpunt 2 | belongs to "Bickerseiland's last workshops" (haarlemmer-1): the office and staff house of 1879–1880 by G.B. Salm for the Van der Vliet brothers' iron trade De IJzerstaven, the same firm as Grote Bickersstraat 15-17 (213007). aodk quotes Algemeen Handelsblad 30 July 1880 on the new 3,300 m² yard with nine warehouses. Suggest adding 214008 to that place. Not drafted. |
+| 214008 | Zeilmakerstraat 15-19, Keerpunt 2 | belongs to "Bickerseiland's last workshops" (haarlemmer-1): the office and staff house of 1879–1880 by G.B. Salm for the Van der Vliet brothers' iron trade De IJzerstaven, the same firm as Grote Bickersstraat 15-17 (213007). aodk quotes Algemeen Handelsblad 30 July 1880 on the new 3,300 m² yard with nine warehouses. Suggest adding 214008 to that place. Not drafted. REVIEW: added at review to haarlemmer-1 "Bickerseiland's last workshops" (Look for line) |
 
 ## Conflicts and uncertainties
 

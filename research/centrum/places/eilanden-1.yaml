@@ -75,7 +75,7 @@
     - the low middle part between the two higher ends, and the different wall anchors of the two phases
     - the bands of yellow brick sunk into the ground floor
     - the back of the building, facing the square left by the demolition
-  category: hidden-history
+  category: civic
   lat: 52.368552
   lng: 4.926279
   address: Conradstraat 4-6, Czaar Peterstraat 21-23
@@ -128,7 +128,7 @@
     - the separate roofs of tram shed, stable and smithy
     - the wider stable block, built for two rows of horses
     - the raised middle section on the Tweede Leeghwaterstraat side, where the staff room was
-  category: hidden-history
+  category: infrastructure
   lat: 52.370197
   lng: 4.930960
   address: Tweede Leeghwaterstraat 5, Blankenstraat 358
@@ -296,7 +296,7 @@
     - Barbiers's sailor on the square
     - the 1923 leaded glass by the Haarlem firm Bogtman
     - the symmetrical front, continued in the 1915 extension
-  category: hidden-history
+  category: civic
   lat: 52.370360
   lng: 4.912912
   address: Kadijksplein 17-18
@@ -368,7 +368,7 @@
   attributes:
     rank: Nice
     heritage_status: National + municipal monument
-    monument_number: 1075, 1076, 1077, 1078, 1079, 1080, 1081, 2103, 200729, 518397
+    monument_number: 1075, 1076, 1077, 1078, 1079, 1080, 1081, 2103, 200729, 518397, 518495
     built: 1828–1903
     architect: J. de Greef (gatehouse)
     original_use: Bonded warehouses of the Algemeen Rijksentrepot
@@ -377,6 +377,7 @@
     - "commons:File:Entrepot dok Kadijksplein Amsterdam.jpg"
     - "commons:File:Amsterdam - Entrepotdoksluis v1.JPG"
   sources:
+    - rce:518495 (added at review from extra-east: Entrepotdok 3-10, five linked sheds of about 1885 by the gatehouse)
     - rce:1075-1081 (triple warehouses 1828/1829, names Nijmegen-Nijkerk-Ostende, Purmerend-Rotterdam-Roermond, Schiedam-Sneek-Stavoren, Tilburg-Tiel-Texel, Utrecht-Verviers-Veere, Vlissingen-Venlo-Veendam, Vianen-Vlaardingen-Warmenhuizen)
     - rce:2103 (former main building of the Entrepotdok 1828/30 by J. de Greef, sandstone gate with pediment)
     - rce:518397 and https://nl.wikipedia.org/wiki/Entrepotdoksluis (bridge 80 of 1903 over the Oude Entrepotdoksluis, Werkspoor inscription on the hamei posts, no longer operated)
@@ -591,7 +592,7 @@
     - the Orange arms in the central pediment and the lions on the side ones
     - the 1990 sculpture Timpaan by Wendela Gevers Deynoot on the west end
     - a piece of the old barracks wall beside the 1920 office building on the Louise Wentstraat
-  category: hidden-history
+  category: civic
   lat: 52.365718
   lng: 4.923210
   address: Sarphatistraat 600-660, Louise Wentstraat 4
@@ -650,7 +651,7 @@
     - the 17th-century gate at Kattenburgerstraat 7, with pilasters and a carved pediment
     - traces of old buildings in the wall along the Kattenburgerstraat
     - the 1960s commander's house and the floating boardwalk round the swimming area
-  category: hidden-history
+  category: industrial
   lat: 52.371839
   lng: 4.916391
   address: Kattenburgerstraat 7
@@ -989,7 +990,7 @@
     - the society's name on the front and on the back wall seen from the Dijksgracht or the train
     - the low boathouse with the taller house set across it
     - the water gate on the Dijksgracht side
-  category: hidden-history
+  category: civic
   lat: 52.373497
   lng: 4.924421
   address: Windroosplein 73
@@ -1046,7 +1047,7 @@
     - the VOC arms and the A VOC monogram in the pediment of the VOC building
     - the two lions with swords and blue anchors on top of no. 81, once on the back of the ropewalk
     - the 1947 plaque to Tsar Peter the Great, who may have stayed here in 1697
-  category: hidden-history
+  category: industrial
   lat: 52.368113
   lng: 4.924286
   address: Oostenburgergracht 73-81
@@ -1209,3 +1210,61 @@
       original_use: Arbeiderswoningen van de N.V. Woning-Maatschappij
     sources:
       - gemeentelijk monumentenregister 206017, 206018, 206019, 206027, 206028
+
+# ================================================================ Added at review (records with a story after all)
+
+- title: Tjerk Hiddesschool, the school children fought over and Constant's studio
+  summary: "When this school opened in 1914, the Oostenburg children moved here were ambushed by Wittenburg children armed with sticks and had to be walked in by teachers and parents. Fifty years later the painter Constant took it over as his studio and worked here until his death."
+  body: |
+    The city built this school of twelve classrooms in 1913–14 for public primary school no. 1, which had to leave the neighbouring island of Oostenburg to make room for the growing Werkspoor engineering works. It stands with its back to the water, where the Kattenburgervaart meets the Dijksgracht, its stair tower on the corner; the playground lay behind the wall on the street.
+
+    The move did not go quietly. According to the Haagsche Courant of June 1914, the children, most of whom lived on Oostenburg, were lain in wait for on Wittenburg by local children armed with sticks, and only reached their new school under the escort of teachers and parents. From around 1920 the building held the Almondeschool and the Tjerk Hiddesschool, until they closed from the late 1930s on.
+
+    After the Second World War it found other uses, among them a playground club and artists' studios. From 1964 until his death in 2005 the painter Constant Nieuwenhuys, of the CoBrA group and the utopian city New Babylon, worked here. It is not open to the public; see it from the street and from across the water.
+
+    Look for:
+    - the wall with its gate on the Derde Wittenburgerdwarsstraat, where the playground was
+    - the stair tower on the corner of the Kattenburgervaart and the Dijksgracht, seen from across the water
+  category: schools
+  lat: 52.37362
+  lng: 4.923539
+  address: Derde Wittenburgerdwarsstraat 1-3
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/5bacf5cd-6e1b-4288-b2d9-c16ed523dfff" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Derde_Wittenburgerdwarsstraat/1-3" }
+    - { label: Buurtboeken De vergeten school, url: "https://www.buurtboeken.nl/verhaal/219/de_vergeten_school.html" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "202008"
+    built: 1913–1914
+    architect: Publieke Werken
+    listed: 2004
+    original_use: Public primary school
+    check: Still there?
+    check_note: Current use after Constant's death (2005) not found; his studio was cleared in 2008 per Stichting Constant.
+  sources:
+    - city:202008 (school complex on Wittenburg by Publieke Werken, 1913; one of only three municipal monuments in the area after the 1980s clearances)
+    - https://amsterdamopdekaart.nl/1850-1940/Derde_Wittenburgerdwarsstraat/1-3 (fetched at review: 1913-14, 12 classrooms for openbare lagere school no. 1, first class, moved from Oostenburg for the expanding Werkspoor; back to Kattenburgervaart and Dijksgracht, stair tower on the corner; playground behind a wall on the street; Haagsche Courant 8-6-1914 "Barbaarsch Amsterdam", Oostenburg children waylaid on Wittenburg by Wittenburg children with sticks, reached the school only escorted by teachers and parents; around 1920 probably the Almondeschool and the Tjerk Hiddesschool, closing from the late 1930s; after WWII a playground association clubhouse and artists' studios; Constant Nieuwenhuijs worked here 1964 until his death in 2005)
+    - https://www.buurtboeken.nl/verhaal/219/de_vergeten_school.html (Leo Bekker, 2011, memories of the Tjerk Hiddesschool at Derde Wittenburgerdwarsstraat 1-3, the playground with four big trees behind the gate, marble stair, coal stoves)
+    - stichtingconstant.nl (photo of a party in Constant's studio at the Derde Wittenburgerdwarsstraat, 1967; film by Jan de Rode on the studio and its clearing in 2008), via a web search at review
+    - Drafted at review from _status-pass.md "Records with a story after all"
+  nl:
+    title: Tjerk Hiddesschool, de school waar kinderen om vochten, en het atelier van Constant
+    summary: "Toen deze school in 1914 openging, werden de Oostenburger kinderen die hierheen moesten opgewacht door Wittenburgers met stokken; alleen onder begeleiding van meesters en ouders kwamen ze binnen. Vijftig jaar later maakte schilder Constant er zijn atelier van, tot zijn dood."
+    body: |
+      De gemeente bouwde deze school met twaalf lokalen in 1913–14 voor openbare lagere school nummer 1, die van het buureiland Oostenburg weg moest omdat Werkspoor daar uitbreidde. Het gebouw staat met de rug naar het water, waar de Kattenburgervaart en de Dijksgracht samenkomen, met het trappenhuis op de hoek; de speelplaats lag achter de muur aan de straat.
+
+      De verhuizing ging niet zonder slag of stoot. Volgens de Haagsche Courant van juni 1914 werden de kinderen, van wie de meesten op Oostenburg woonden, op Wittenburg opgewacht door buurtkinderen met stokken, en bereikten ze hun nieuwe school pas onder geleide van onderwijzers en ouders. Vanaf ongeveer 1920 zaten hier de Almondeschool en de Tjerk Hiddesschool, die vanaf eind jaren dertig dichtgingen.
+
+      Na de Tweede Wereldoorlog kreeg het gebouw andere bestemmingen, waaronder een clubhuis van een speeltuinvereniging en ateliers. Van 1964 tot zijn dood in 2005 werkte hier schilder Constant Nieuwenhuys, van Cobra en van de utopische stad New Babylon. Het is niet te bezoeken; je bekijkt het vanaf de straat en vanaf de overkant van het water.
+
+      Let op:
+      - de muur met poort aan de Derde Wittenburgerdwarsstraat, waarachter de speelplaats lag
+      - het trappenhuis op de hoek van Kattenburgervaart en Dijksgracht, gezien vanaf de overkant
+    attributes:
+      original_use: Openbare lagere school
+      check_note: Huidig gebruik na Constants dood (2005) niet gevonden; zijn atelier werd volgens Stichting Constant in 2008 ontruimd.
+    sources:
+      - "https://data.amsterdam.nl/monumenten/5bacf5cd-6e1b-4288-b2d9-c16ed523dfff"
+      - https://amsterdamopdekaart.nl/1850-1940/Derde_Wittenburgerdwarsstraat/1-3

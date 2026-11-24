@@ -7,7 +7,7 @@
 - title: Planciusblok, the workers' homes built to be seen
   summary: "In 1856 the first housing association in the Netherlands put up its first big block of workers' flats here, alone in a park on the old ramparts, so that everyone could see that decent homes for workers were possible."
   body: |
-    In 1852 a group of Amsterdam merchants, doctors and a former burgomaster founded the Vereeniging ten behoeve der Arbeidersklasse (Society for the Working Class), the first housing association in the Netherlands. Members put in money at a capped interest of 3 percent. This long, narrow block by Pieter Johannes Hamer was its first large project, finished in 1856.
+    In 1852 a group of Amsterdam merchants, doctors and a former burgomaster founded the Vereeniging ten behoeve der Arbeidersklasse (Society for the Working Class), the first housing association in the Netherlands. Members put in money at a capped interest of 3 percent. This long, narrow block by Pieter Johannes Hamer was its first large project, finished in 1856, after a small first block on Oostenburg.
 
     It was meant as a model. The society deliberately built it on a conspicuous spot: on its own, in a park laid out on the former city ramparts, with the west front as its face. It held 104 homes of one, two or three rooms, most of them back to back. Each had its own privy, a sewer connection and water from the dune water main, then only a few years old. Washing was not to be dried in or around the homes; every household got a screened corner in the attic. The three-room homes proved too dear for the tenants and were split, which brought the total to 120.
 
@@ -38,6 +38,7 @@
     - commons:File:Amsterdam - Planciusstraat 8 foto b.jpg
   sources:
     - rce:4102 (complex of flats 1856 by P.J. Hamer, sober fronts divided only by risalits, free eclectic manner)
+    - review: checked against extra-south Huidekoperstraat and nl.wikipedia VAK (founded 21 Feb 1852, first Dutch housing association; first block of 18 homes on Oostenburg ready 1853; Planciusblok its first large block; Huidekoperstraat 1869-70 its showpiece). Both texts now say the same
     - https://nl.wikipedia.org/wiki/Vereeniging_ten_behoeve_der_Arbeidersklasse_te_Amsterdam (founded 21 February 1852, first Dutch housing association; founders Van Eeghen, Messchert van Vollenhoven, Van Eik, former burgomaster Huidekoper among the members; members put in 2000 guilders at max 3%; competition won by Leliman but Hamer chosen; conspicuous spot by the Westerplantsoen on the old bastions to set an example; delivered 1 July 1856; seven houses of four storeys; back-to-back homes; 104 homes of one, two and three rooms; privy, dune water; no drying of washing, screened attic corner; ventilation slots blocked by tenants)
     - https://nl.wikipedia.org/wiki/Planciusstraat (Planciusblok first block 1858 per this article, built by Hamer, Westerplantsoen dug away for the Westerkanaal; photo caption renovated by Ymere 2006)
     - https://amsterdamopdekaart.nl/1850-1940/Planciusstraat/8-18 (third project and first large one; 104 homes mostly back to back; three-room homes split as too expensive, total 120; privy, sewer, dune water main; stood alone in park on former rampart, deliberate visibility, west front was the front; park gone 1875-1876 for Westerkanaal; restored 2006 with new foundations and original colours grey frames, green windows and doors)
@@ -45,7 +46,7 @@
     title: Planciusblok, arbeiderswoningen om gezien te worden
     summary: "In 1856 zette de eerste woningbouwvereniging van Nederland hier haar eerste grote blok arbeiderswoningen neer, in z'n eentje in een plantsoen op de oude schans, zodat iedereen kon zien dat fatsoenlijke arbeiderswoningen konden."
     body: |
-      In 1852 richtten Amsterdamse kooplieden, artsen en een oud-burgemeester de Vereeniging ten behoeve der Arbeidersklasse op, de eerste woningbouwvereniging van Nederland. De leden legden geld in tegen hooguit 3 procent rente. Dit lange, smalle blok van Pieter Johannes Hamer was hun eerste grote project, klaar in 1856.
+      In 1852 richtten Amsterdamse kooplieden, artsen en een oud-burgemeester de Vereeniging ten behoeve der Arbeidersklasse op, de eerste woningbouwvereniging van Nederland. De leden legden geld in tegen hooguit 3 procent rente. Dit lange, smalle blok van Pieter Johannes Hamer was hun eerste grote project, klaar in 1856, na een klein eerste blok op Oostenburg.
 
       Het moest een voorbeeld worden. De vereniging koos met opzet een opvallende plek: vrijstaand in een plantsoen op de afgegraven schans, met de westgevel als voorkant. Er kwamen 104 woningen van een, twee of drie kamers, de meeste rug aan rug. Elke woning had een eigen privaat, een rioolaansluiting en duinwater uit de nog jonge waterleiding. De was mocht niet in of rond de woning drogen; ieder gezin kreeg een afgeschoten hoek op zolder. De driekamerwoningen bleken te duur voor de huurders en werden gesplitst, waarna er 120 woningen waren.
 
@@ -325,8 +326,8 @@
     - the plain plastered front with incised fake joints and corner pilasters, unlike the brick warehouses around it
     - the wide central door between two narrower ones
   category: religious
-  lat: 52.385468
-  lng: 4.886664
+  lat: 52.385441
+  lng: 4.886659
   address: Prinseneiland 89
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/8bd68cbb-cc20-42df-875f-f4bd7338d5a1" }
@@ -377,8 +378,8 @@
     - the curving gable, finished with a row of upright bricks and a moulding
     - the old Dutch roof tiles on the Galgenstraat side
   category: industrial
-  lat: 52.385540
-  lng: 4.886678
+  lat: 52.385580
+  lng: 4.886686
   address: Prinseneiland 87, corner Galgenstraat
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/a75b3e9d-a12b-46ce-97d7-bad52307fed2" }
@@ -581,3 +582,58 @@
     sources:
       - city:200885
       - https://amsterdamopdekaart.nl/wederopbouw/Westerdoksdijk/40
+
+# ================================================================ Added at review (Singel 2, one more search)
+
+- title: De Kruiwagen, the herring buyer's double house where the Singel starts
+  summary: "One of the oldest and widest stepped gables in the city, put up around 1606–1611 by a herring buyer on land just won from the IJ. A later owner named Cruywagen set a wheelbarrow (kruiwagen) in the front, and the IJ side was once the Buiksloot ferry house."
+  body: |
+    Where the Singel begins at the Droogbak stands one of the broadest stepped gables in Amsterdam. The land here was made by dumping earth into the IJ in the city's expansion after 1585, and the plots were auctioned in 1601 and 1602. In 1606 the herring buyer Jan Loots bought two of them and built this double house: two homes with a warehouse between them behind a single front. It already appears on a city profile of 1611, which makes it one of the oldest houses in the city.
+
+    By 1641 it belonged to Hendrik Jansz. Cruywagen, who set his name in the front as a picture: a stone with a wheelbarrow, a kruiwagen. Until 1662 the ground floor on the IJ side served as the ferry house for the boat to Buiksloot across the water. People also call it the Spanish House, though it has nothing to do with Spanish times: when the Spanish left, this was still open water.
+
+    A fire in 1925, started while ropes were being dipped in tar, gutted the top floors. The restoration of 1953–57 by Ysbrandt Kok rebuilt the wooden ground floor as it looked in the 17th century. The house is private.
+
+    Look for:
+    - the stone with the wheelbarrow above the first floor
+    - the wide stepped gable with brick dentil bands
+    - the wooden ground floor rebuilt in 17th-century form
+  category: housing
+  lat: 52.379524
+  lng: 4.894368
+  address: Singel 2-2A, corner Droogbak
+  links:
+    - { label: Rijksmonumentenregister (5249), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/5249" }
+    - { label: Amsterdam Monumentenstad Singel 2-2A, url: "https://www.amsterdam-monumentenstad.nl/database/grachtenboek_objecten.php?id=716" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: "5249"
+    built: 1606–1611
+    original_use: Double house with warehouse
+  photos:
+    - commons:File:Singel 2 Amsterdam 2024.jpg
+  sources:
+    - rce:5249 (double corner house with stepped gable, 1606–1611)
+    - https://www.amsterdam-monumentenstad.nl/database/grachtenboek_objecten.php?id=716 (fetched at review; De Kruiwagen, Singel 2-2A; one of the widest and oldest stepped gables, combined house and warehouse, two houses with a warehouse between behind one front; built 1606-1611 by herring buyer Jan Loots; also known as the Spanish House; land in the expansion from 1585, plots auctioned 1601 and 1602, made by filling in the IJ; Loots acquired the two plots in 1606; shown on a city profile of 1611; by 1641 owned by Hendrik Jansz. Cruywagen per Van Eeghen, who put his name card in the front; sold by heirs 1669; ground floor on the IJ side the Buiksloter Veer ferry house until the Nieuwe Stadsherberg opened in 1662; fire 1925 from dipping ropes in tar destroyed the second loft and attic; restored 1953-1957 by Ysbrandt Kok with the ground floor reconstructed in 17th-century form)
+    - XYZ van Amsterdam (Kruizinga and Vermeer 2002) via ensie.nl, entry "Spaanse huis, Het" (corner Singel/Droogbak with a wheelbarrow), seen in a web search at review; the remark that the nickname has nothing to do with Spanish times comes from a search snippet and is framed loosely
+    - Drafted at review from haarlemmer-2 ledger record 5249 (coordinator line "Singel 2 needs one more search")
+  nl:
+    title: De Kruiwagen, het dubbelhuis van een haringkoper aan het begin van het Singel
+    summary: "Een van de oudste en breedste trapgevels van de stad, rond 1606–1611 gebouwd door een haringkoper op grond die net op het IJ was gewonnen. Een latere eigenaar, Cruywagen, zette een kruiwagen in de gevel, en aan de IJ-kant zat ooit het veerhuis naar Buiksloot."
+    body: |
+      Waar het Singel bij de Droogbak begint, staat een van de breedste trapgevels van Amsterdam. De grond is hier aangeplempt in het IJ, bij de stadsuitleg van na 1585; de kavels werden in 1601 en 1602 geveild. In 1606 kocht haringkoper Jan Loots er twee en zette er dit dubbelpand op: twee woningen met een pakhuis ertussen, achter één gevel. Op een stadsprofiel uit 1611 staat het al, en daarmee is het een van de oudste huizen van de stad.
+
+      In 1641 was het van Hendrik Jansz. Cruywagen, die zijn naam als plaatje in de gevel liet metselen: een steen met een kruiwagen. Tot 1662 was de benedenverdieping aan de IJ-kant het veerhuis van de boot naar Buiksloot, aan de overkant van het water. Het pand heet ook wel het Spaanse Huis, al heeft het niets met de Spaanse tijd te maken: toen lag hier nog open water.
+
+      Bij een brand in 1925, ontstaan bij het drenken van touw in teer, gingen de bovenste zolders verloren. Bij de restauratie van 1953–57 bouwde Ysbrandt Kok de houten onderpui weer op zoals die er in de zeventiende eeuw uitzag. Het huis is particulier.
+
+      Let op:
+      - de gevelsteen met de kruiwagen boven de eerste verdieping
+      - de brede trapgevel met bakstenen tandlijsten
+      - de houten onderpui, herbouwd naar zeventiende-eeuws model
+    attributes:
+      original_use: Dubbel woonhuis met pakhuis
+    sources:
+      - https://monumentenregister.cultureelerfgoed.nl/monumenten/5249
+      - https://www.amsterdam-monumentenstad.nl/database/grachtenboek_objecten.php?id=716

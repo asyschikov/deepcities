@@ -74,7 +74,7 @@
     - the plastered front on the Haarlemmerstraat with its carved pediment
     - in the courtyard, a bronze Peter Stuyvesant by Hans Bayens on a fountain
     - in the courtyard paving, the line that divided the men's and women's sides of the old people's home
-  category: hidden-history
+  category: civic
   lat: 52.380161
   lng: 4.892040
   address: Herenmarkt 71-99, Haarlemmerstraat 75
@@ -255,6 +255,7 @@
     - the stone "St Antonia Gesticht 1872-1890" and the iron cross on the convent's stepped gables
     - the tile panel with Gothic lettering on the girls' school, Haarlemmerstraat 132
     - the church towers seen from across the railway, on Bickerseiland
+    - the parish's school of 1910 at Korte Prinsengracht 15–21, a unicorn's head in its right gable
   category: religious
   lat: 52.381125
   lng: 4.890326
@@ -268,7 +269,7 @@
   attributes:
     rank: Nice
     heritage_status: National + municipal monument
-    monument_number: 1289, 214004, 214005, 207006
+    monument_number: 1289, 214004, 214005, 207006, 211024
     built: 1860–1893
     architect: P.J.H. Cuypers, A.C. Bleys, F.M.J. Caron
     original_use: Catholic parish church, presbytery, schools and convent
@@ -280,6 +281,7 @@
     - https://nl.wikipedia.org/wiki/Posthoornkerk (replaced the schuilkerk De Posthoorn on the Prinsengracht; built extra high because not freestanding; galleries; closed 1963; listed 1972; demolition plans until 1987; foundation 1986; Stadsherstel; businesses and event hire)
     - city:214004 (Cuypers presbytery 1860 with round stair tower crowned by a statue of Our Lady; first design for Amsterdam with the church; schools 1875 by F.W. Terberg and 1890 probably Bleys; Catholic bulwark of three schools; converted to homes around 1990)
     - city:214005 (convent by Bleys 1891, probably for the teaching staff; stone St Antonia Gesticht 1872-1890; stepped gables with iron cross and balls; cells in the attic)
+    - city:211024 (added at review from haarlemmer-2: Korte Prinsengracht 15-21, 1910 by J. Hegener for the parish school board; frieze SINT ANTONIA KWEEKSCHOOL and St ANTONIASCHOOL MULO; linked to the Posthoorn church behind; carved unicorn head on a corbel in the right gable, said to refer to a former brewery De Eenhoorn; now flats)
     - city:207006 and https://nl.wikipedia.org/wiki/Haarlemmerstraat_132-136_(Amsterdam) (Caron 1893, opened about 1 February 1894; tile panel with Gothic lettering; sisters taught, also German, French and English; De Vinse School since 2015)
   nl:
     title: Posthoornkerk en het katholieke eiland eromheen
@@ -296,6 +298,7 @@
       - de steen "St Antonia Gesticht 1872-1890" en het smeedijzeren kruis op de trapgevels van het klooster
       - het tegeltableau met gotische letters op de meisjesschool, Haarlemmerstraat 132
       - de torens van de kerk, gezien van over het spoor op het Bickerseiland
+      - de parochieschool uit 1910 op Korte Prinsengracht 15–21, met een eenhoornkop in de rechter topgevel
     attributes:
       original_use: Katholieke parochiekerk, pastorie, scholen en klooster
     sources:
@@ -425,7 +428,7 @@
     - the 18th-century bell-gable top on the left half of Binnen Oranjestraat 11
     - the old top and the stones "Anno 1939" on Haarlemmerstraat 150, facing the Eenhoornsluis
     - the tuff-stone shopfronts of no. 150
-  category: curiosities
+  category: housing
   lat: 52.381382
   lng: 4.889647
   address: Haarlemmerstraat 150 / Korte Prinsengracht 25
@@ -840,7 +843,7 @@
     - the commemorative stone for Drees in the plinth
     - the neck gable with richly carved sandstone side pieces and crest
     - the city gate at the end of the square, which Drees would have seen from his door
-  category: hidden-history
+  category: housing
   lat: 52.384259
   lng: 4.883358
   address: Haarlemmerplein 23
@@ -1192,6 +1195,7 @@
     - the 1644 stone with a crown, a hammer and nails in its side wall
     - the Jugendstil tile panel signed Distel on De IJzerstaven
     - the brick gate next to Grote Bickersstraat 48
+    - Zeilmakerstraat 15–19, the Van Vliets' office and house of 1879–80
   category: industrial
   lat: 52.384048
   lng: 4.888736
@@ -1204,7 +1208,7 @@
   attributes:
     rank: Nice
     heritage_status: Municipal monument
-    monument_number: 213006, 213007, 200452
+    monument_number: 213006, 213007, 200452, 214008
     built: 1881–1909
     architect: G. van Arkel, Van Rossem & Vuyk
     original_use: Machine factory, iron works and shipyard office
@@ -1212,6 +1216,7 @@
   sources:
     - city:213006 (1908-1909 by G. van Arkel for Hk. Jonker & Zoon, steam engines and machinery; firm founded 1806; Bickersplein renamed Hendrik Jonkerplein in 1956 at 150 years; converted to homes 1982; frieze text; re-placed gable stone 1644 with nails, hammer and crown in the side wall)
     - city:213007 (1904 for Van Vliet, owner of iron and steel works Van Vlietjonge; Van Rossem and Vuyk; tile tableau with Jugendstil motifs and the name De IJzerstaven, signed Distel; now a home)
+    - city:214008 (added at review from haarlemmer-2: Zeilmakerstraat 15-19 / Keerpunt 2, former house with office 1879-1880 by G.B. Salm for the Van Vliet family, owners of De IJzerstaven, who later built Grote Bickersstraat 15-17; renovated and joined to new building)
     - city:200452 (Bickerseiland shipyards; no. 48 recalled shipbuilding until recently, with the slipway behind; Jacob Olie photographed the yard De Hollandsche Tuin early 1860s; office with stables and service house 1881 with a brick gate to the vanished slipway; client firm Lalk)
   nl:
     title: De laatste werkplaatsen van het Bickerseiland
@@ -1232,6 +1237,7 @@
       - de gevelsteen uit 1644 met kroon, hamer en spijkers in de zijgevel
       - het jugendstiltableau met de signatuur Distel op De IJzerstaven
       - de gemetselde poort naast Grote Bickersstraat 48
+      - Zeilmakerstraat 15–19, kantoor en woonhuis van de Van Vliets uit 1879–80
     attributes:
       original_use: Machinefabriek, ijzerbedrijf en werfkantoor
     sources:

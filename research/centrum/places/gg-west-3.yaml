@@ -17,6 +17,7 @@
     - the three step gables, each topped with a little pilaster
     - the stacked loading doors with a window on either side
     - the hoist beams under their small roofs
+    - just south, bridge 54 from the Herenstraat to the Prinsenstraat, named the Noordsche Compagniebrug after the whaling company; its number is over the middle pier
   category: industrial
   lat: 52.378654
   lng: 4.888503
@@ -29,7 +30,7 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: 2460, 2461, 2462
+    monument_number: 2460, 2461, 2462, 200834
     built: about 1620
     original_use: Whale-oil warehouses
   photos:
@@ -37,6 +38,7 @@
     - commons:File:Amsterdam - Keizersgracht 40.JPG
   sources:
     - rce:2460, rce:2461, rce:2462 (warehouses with step gables, first half 17th century)
+    - city:200834 and https://nl.wikipedia.org/wiki/Noordsche_Compagniebrug (added at review from gg-west-1: bridge 54, Herenstraat to Prinsenstraat over the Keizersgracht, municipal monument 1995, named after the Noordse Compagnie whose three surviving warehouses stand between it and the Pastoorsbrug; iron girder bridge of 1891, not restored to an older look; number over the middle pier)
     - https://web.archive.org/web/20110928122615/http://www.bma.amsterdam.nl/monumenten/beschrijvingen/groenlandse (built by participants of the Noordse or Groenlandse Compagnie founded 1614, land 1620; Smeerenburg on Amsterdam island; monopoly ended 1642; after 1685 oil only on the Nieuwe Teertuinen; five warehouses in the Grachtenboek; De Drie Gevels; brick oil pits of about 10,000 litres and barrels in the lofts; De Twee Gevels burned, demolished 1875 for a school, now flats; restored 1922 for Bührmann; late 1970s nineteen flats, sixty pits found filled with rubble; oil-soaked walls troubled the paintwork; rare step gables, coupled loading doors, covered hoist beams)
     - https://nl.wikipedia.org/wiki/Noordse_Compagnie (cartel 1614–1642, whale oil, the company met in the warehouses, three of five left)
   nl:
@@ -53,6 +55,7 @@
       - de drie trapgevels, elk met een pilastertje in de top
       - de gekoppelde hijsluiken met aan weerszijden een venster
       - de overkapte hijsbalken
+      - net ten zuiden brug 54, van Herenstraat naar Prinsenstraat, naar de walvisvaarders Noordsche Compagniebrug genoemd; het nummer staat boven de middelste pijler
     attributes:
       original_use: Traanpakhuizen
     sources:
@@ -60,7 +63,7 @@
       - https://web.archive.org/web/20110928122615/http://www.bma.amsterdam.nl/monumenten/beschrijvingen/groenlandse
       - https://nl.wikipedia.org/wiki/Noordse_Compagnie
 
-- title: "De Zaaier, the church that became a wrestling gym"
+- title: "The old De Zaaier on the Keizersgracht, the church that became a wrestling gym"
   summary: "Behind a gable that lost its top hides an 1837 Catholic church, built on the spot of a 17th-century attic church. After the faithful left in 1929 it became a distillery store, then the training hall of a wrestling club whose bar stood where the altar had been."
   body: |
     In the 17th century, when Catholics could not worship in public, they met in the attic of a warehouse on this site, called De Zaaier (the sower). Once Catholics had won equal rights, the Catholic architect and contractor Johannes van Straaten built a proper church here in 1837, in a sober classical style. Officially it was dedicated to St Ignatius of Loyola, founder of the Jesuits; the name De Zaaier came from the earlier building.
@@ -94,7 +97,7 @@
     - rce:2457 (former St Ignatius church, classical front, built 1837 by J. van Straaten)
     - https://www.nhnieuws.nl/nieuws/358175/zo-maakte-voormalige-kerk-de-zaaier-plaats-voor-distilleerderij-en-worstelaars (17th-century attic church in a warehouse; name De Zaaier from that building; officially St Ignatius; Van Straaten Catholic architect and contractor, 1837; congregation left 1929 for the Rozengracht; demolition considered; 1949 distillery warehouse; wrestling club Hercules with Bert Kops, bar in the altar space; exhibition space; now a clothing brand; gable top and roof removed, doors turned into windows, main doorframe kept)
   nl:
-    title: De Zaaier, de kerk die een worstelzaal werd
+    title: De oude Zaaier aan de Keizersgracht, de kerk die een worstelzaal werd
     summary: "Achter een gevel zonder top schuilt een katholieke kerk uit 1837, op de plek van een zeventiende-eeuwse zolderkerk. Na het vertrek van de gelovigen in 1929 werd het een opslag van een distilleerderij en daarna de zaal van een worstelclub, met de bar waar het altaar stond."
     body: |
       In de zeventiende eeuw, toen katholieken niet openlijk naar de kerk mochten, kwamen ze op deze plek bijeen op de zolder van een pakhuis dat De Zaaier heette. Toen katholieken eenmaal dezelfde rechten hadden, bouwde de katholieke architect en aannemer Johannes van Straaten hier in 1837 een echte kerk, in een sobere classicistische stijl. Officieel was hij gewijd aan de heilige Ignatius, de stichter van de jezuïeten; de naam De Zaaier kwam van het oude pakhuis.
@@ -555,8 +558,8 @@
     - the carved rococo frames around the windows and door
     - the stone basement front behind the stoop
   category: hidden-history
-  lat: 52.370206
-  lng: 4.884266
+  lat: 52.370190
+  lng: 4.884276
   address: Keizersgracht 318
   links:
     - { label: Rijksmonumentenregister (2577), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/2577" }
@@ -969,9 +972,10 @@
     - the big dormer with a spout gable, hoist beam and round window, breaking through the cornice
     - the arched double doors for carts in the middle of the ground floor
     - the two single doors with round-arched fanlights
+    - round the corner at Singel 94, part of Boldoot's property, the front of 1876 with a richly carved roof house that poses as a neck gable
   category: industrial
-  lat: 52.377174
-  lng: 4.891163
+  lat: 52.377166
+  lng: 4.891183
   address: Langestraat 47
   links:
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/d8970a14-b121-4fb4-8aed-fc879e9c9636" }
@@ -979,13 +983,14 @@
   attributes:
     rank: Okay
     heritage_status: Municipal monument
-    monument_number: "214010"
+    monument_number: 214010, 210057
     built: "1897"
     architect: H.J. Amesz
     listed: 2007
     original_use: Coach house and workshop of an eau de cologne factory
   sources:
     - city:214010 (1897, probably coach house and business space, client I.J. Boldoot, eau de cologne maker who owned Langestraat 47–57 and Singel 92–96; large dormer with spout gable, hoist beam, round window; two single doors with round-arched fanlights, arched double business doors original)
+    - city:210057 (added at review from gg-west-4: Singel 94, front of 1876 by H.J. van den Brink on an older house, cornice with an ornamented dakhuis suggesting a neck gable, old stoop kept; Boldoot owned Singel 92-96 per city:214010; gg-west-4 notes call it J.J. Boldoot's own house per amsterdamopdekaart, not used)
     - https://nl.wikipedia.org/wiki/Boldoot (pharmacy 1789 Nieuwezijds Voorburgwal 46; production to Singel 92 and 94 around 1865; five courts; telephone 1881, gas engine 1882; 16 buildings on Singel and Langestraat; soap factory Haarlemmerweg 1902; Sloterdijk 1938; Boldootkar for the night-soil cart in Amsterdam and Drenthe)
   nl:
     title: Koetshuis van Boldoot (Langestraat 47)
@@ -1001,6 +1006,7 @@
       - de grote dakkapel met tuitgeveltje, hijsbalk en rond venster, dwars door de kroonlijst
       - de getoogde dubbele bedrijfsdeuren midden in de pui
       - de twee enkele deuren met rondboogbovenlichten
+      - om de hoek op Singel 94, ook bezit van Boldoot, de gevel uit 1876 met een rijk versierd dakhuis dat zich voordoet als halsgevel
     attributes:
       original_use: Koetshuis en bedrijfsruimte van een eau-de-colognefabriek
     sources:
@@ -1020,8 +1026,8 @@
     - the stone between the first-floor windows: S. JAN BAPTISTA
     - the old loading opening between the second-floor windows
   category: curiosities
-  lat: 52.377236
-  lng: 4.891015
+  lat: 52.377244
+  lng: 4.890995
   address: Langestraat 78
   links:
     - { label: Rijksmonumentenregister (3181), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/3181" }

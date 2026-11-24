@@ -460,7 +460,7 @@
   body: |
     In 1592 the widow Weyntgen Elberts moved her late husband's brewery De Hooiberg (the haystack) here, because goods could come in by water. In 1863 Gerard Adriaan Heineken bought it. When the city decided to fill in the canal, he moved his brewing to the Stadhouderskade and had the old beer stores on the Nieuwezijds converted into a beer house. During the works the Hulscher brothers, who ran it, found a stone inscribed Die Port van Cleve (the gate of Kleve), and that became the name. It opened on 5 September 1870, serving only Heineken.
 
-    In 1874 a restaurant was added, De Poort, known for its speed and its numbered steaks. Waiters shouted the orders, and a man at the buffet, the echo, shouted them on to the kitchen word for word. In 1888 Isaac Gosschalk gave the building its present front, a free mix of Gothic and Renaissance. That July the bodega De Blauwe Parade opened, lined with a Delft blue tile panel of about 26 metres made by De Porceleyne Fles: a parade of children in honour of Emperor Maximilian, shown with his crown and the three crosses of the city arms on his chest.
+    In 1874 a restaurant was added, De Poort, known for its numbered steaks. Waiters shouted the orders, and a man at the buffet, the echo, shouted them on to the kitchen word for word. In 1888 Isaac Gosschalk gave the building its present front, a free mix of Gothic and Renaissance. That July the bodega De Blauwe Parade opened, lined with a Delft blue tile panel of about 26 metres made by De Porceleyne Fles: a parade of children in honour of Emperor Maximilian.
 
     It is still a hotel, with the restaurant and bar open to passers-by.
 
@@ -468,6 +468,7 @@
     - the lobed window arches and the central gable on the main front
     - the bay window and Baroque bell gable on the left-hand extension
     - the tile parade inside De Blauwe Parade
+    - at the back, Spuistraat 129, a step-gabled pair dated 1662
   category: food-drink
   lat: 52.374044
   lng: 4.890699
@@ -480,13 +481,14 @@
   attributes:
     rank: Nice
     heritage_status: National monument
-    monument_number: "5988"
+    monument_number: 5988, 5593
     built: 1888 (front)
     architect: Isaac Gosschalk
     original_use: Beer house, restaurant and hotel
   photos:
     - commons:File:Overzicht voorgevel in neogotische stijl - Amsterdam - 20409004 - RCE.jpg
   sources:
+    - rce:5593 (added at review from nieuwezijde-3: Spuistraat 129, two houses behind a step gable decorated with small blocks, about 1600 but dated 1662, gable stone; Wikidata links the record to the hotel; PDOK gives Spuistraat 129 the same address point as Nieuwezijds Voorburgwal 178, so it is part of the hotel building)
     - rce:5988 (hotel-restaurant Die Port van Cleve, 1888 by I. Gosschalk, main building an original mix of neo-Gothic and neo-Renaissance with lobed window arches and central gable, left extension with bay window and neo-Baroque bell gable)
     - https://nl.wikipedia.org/wiki/Nieuwezijds_Voorburgwal (brewery De Hooiberg here since 1592 moved by widow Weyntgen Elberts for access by water, Gerard Heineken owner since 1863, plans to fill the canal 1867, moved brewery to Stadhouderskade, in 1870 had the former beer stores at 178-180 converted into a beer house)
     - https://en.wikipedia.org/wiki/Hotel_Die_Port_van_Cleve (Hulscher brothers found a stone inscribed Die Port van Cleve, opened 5 Sept 1870, 1874 restaurant De Poort with numbered steaks, the echo system of shouted orders, 1888 Gosschalk front, house no. 180 added, bodega De Blauwe Parade opened 3 July 1888 with Delft blue tile tableau of about 26 m by De Porceleyne Fles 1887, parade of children honouring Emperor Maximilian, crown in the city arms, still a hotel with restaurant and bar, renovation completed 2025)
@@ -497,7 +499,7 @@
     body: |
       In 1592 verhuisde weduwe Weyntgen Elberts de brouwerij van haar overleden man, De Hooiberg, naar deze plek, omdat die goed over het water bereikbaar was. In 1863 kocht Gerard Adriaan Heineken de zaak. Toen de stad besloot de gracht te dempen, verplaatste hij het brouwen naar de Stadhouderskade en liet hij de oude bierpakhuizen aan de Nieuwezijds verbouwen tot bierhuis. Bij die verbouwing vonden de uitbaters, de broers Hulscher, een steen met de tekst Die Port van Cleve, en dat werd de naam. Op 5 september 1870 ging de zaak open, met uitsluitend Heineken aan de tap.
 
-      In 1874 kwam er een restaurant bij, De Poort, bekend om de snelheid en om de genummerde biefstukken. De kelners riepen de bestellingen, en een man bij het buffet, de echo, riep ze woord voor woord door naar de keuken. In 1888 gaf Isaac Gosschalk het pand zijn huidige gevel, een eigenzinnige mengeling van neogotiek en neorenaissance. In juli dat jaar opende de bodega De Blauwe Parade, met een Delfts blauw tegeltableau van zo'n 26 meter van De Porceleyne Fles: een optocht van kinderen ter ere van keizer Maximiliaan, herkenbaar aan zijn kroon en de drie kruisen van het stadswapen op zijn borst.
+      In 1874 kwam er een restaurant bij, De Poort, bekend om de genummerde biefstukken. De kelners riepen de bestellingen, en een man bij het buffet, de echo, riep ze woord voor woord door naar de keuken. In 1888 gaf Isaac Gosschalk het pand zijn huidige gevel, een eigenzinnige mengeling van neogotiek en neorenaissance. In juli dat jaar opende de bodega De Blauwe Parade, met een Delfts blauw tegeltableau van zo'n 26 meter van De Porceleyne Fles: een optocht van kinderen ter ere van keizer Maximiliaan.
 
       Het is nog altijd een hotel met restaurant en bar, ook voor wie zomaar binnenloopt.
 
@@ -505,6 +507,7 @@
       - de gelobde vensterbogen en de middentopgevel van het hoofdgebouw
       - de erker en de barokke klokgevel van de aanbouw links
       - de tegeloptocht in De Blauwe Parade
+      - aan de achterkant, Spuistraat 129, een paar huizen achter een trapgevel uit 1662
     attributes:
       built: 1888 (gevel)
       original_use: Bierhuis, restaurant en hotel
@@ -648,7 +651,7 @@
     - the gilded dawn with two cockerels and ALGEMEEN HANDELSBLAD (nos. 232-240)
     - DE STANDAARD and four nude figures high on no. 56
     - the white marble arched doorway of Concordia (nos. 327-333)
-  category: hidden-history
+  category: industrial
   lat: 52.372191
   lng: 4.890338
   address: Nieuwezijds Voorburgwal 232-240
@@ -996,7 +999,7 @@
     - the glass column of bays over the canopy at Candida's entrance
     - the round balconies on the Spuistraat side
     - the canal house front of no. 314, further south
-  category: hidden-history
+  category: civic
   lat: 52.37528
   lng: 4.891801
   address: Nieuwezijds Voorburgwal 120-126

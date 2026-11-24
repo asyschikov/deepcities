@@ -10,7 +10,7 @@
 - title: Willemsstraat, the slum canal the philanthropists filled
   summary: "The Goudsbloemgracht was a ditch without quay walls, lined with 57 alleys of the worst slums in town. In 1857 it was filled in and the first housing association in the country spent almost forty years rebuilding it house by house."
   body: |
-    The Goudsbloemgracht was never a proper canal: a ditch without quay walls, nicknamed the Herengracht without trees. In 1775 it had 57 alleys running off it, and its banks held some of the most notorious slums in Amsterdam. The Vereeniging ten behoeve der Arbeidersklasse (association for the working class), founded in 1852 as the first housing association in the Netherlands, pressed for it to be filled in. That happened in 1857, and the new street was opened on 24 August.
+    The Goudsbloemgracht was never a proper canal: a ditch without quay walls. In 1775 it had 57 alleys running off it, and its banks held some of the most notorious slums in Amsterdam. The Vereeniging ten behoeve der Arbeidersklasse (association for the working class), founded in 1852 as the first housing association in the Netherlands, pressed for it to be filled in. That happened in 1857.
 
     The association then rebuilt almost the whole block between the Willemsstraat, the Lijnbaansgracht, the Palmstraat and the Palmdwarsstraat, starting in 1860 at the corner here. Buying out the owners was slow, so it took until 1894, but the architect P.J. Hamer, and then his son W. Hamer, kept to the same plain brick throughout. Their last scheme, nos. 132–150 of 1899, dropped the back-to-back homes for flats with their own kitchen and bedroom. Other builders filled the gaps: Concordia in 1878, the company Oud Amsterdam in 1898 with flats so cramped they were criticised as substandard when new, and in 1926 the city health service, on the site of the Wijde Gang, an alley locals called the Rotten Alley. The blocks are rented homes.
 
@@ -18,6 +18,7 @@
     - the tiles naming the old alleys, by the houses between nos. 24 and 108
     - the wrought-iron lantern over the former health service door at no. 24
     - the arched gateway to the back homes at nos. 160–176
+    - at Palmstraat 87–97 (1867–72), a row set three metres back for light and air
   category: housing
   lat: 52.381196
   lng: 4.883745
@@ -32,7 +33,7 @@
   attributes:
     rank: Nice
     heritage_status: Municipal monument
-    monument_number: 200403, 204056, 204054, 204055, 204046, 209048, 209051, 209050
+    monument_number: 200403, 204056, 204054, 204055, 204046, 209048, 209051, 209050, 204047, 204048
     built: 1860–1926
     architect: "P.J. Hamer, W. Hamer, C.B. Posthumus Meyjes sr., Publieke Werken"
     original_use: Workers' housing and a health centre
@@ -45,6 +46,7 @@
     - city:204054 (190-192 of 1872 by P.J. Hamer; built in phases over thirty years because buying property was hard, style kept the same; De Opmerker on Hamer, eenvoud en degelijkheid)
     - city:204055 (132-150 of 1899 by W. Hamer, the association's last project; Woningwet 1901; with the Van Eik-stichting Constantia it had rebuilt almost the whole street; back-to-back abandoned for separate kitchen, bedroom and wooden veranda; gate in the middle once led to homes on the inner yard)
     - city:204046 (jordaan-3 slice; Lijnbaansgracht 23-24 / Palmstraat 101, 1894 by W. Hamer, the last gap in the block)
+    - city:204047, city:204048 (added at review from jordaan-4: Palmstraat 87-97, 1867/1872 by P.J. Hamer for the Vereeniging ten behoeve der Arbeidersklasse, building line set back 3 m for light and air; Palmstraat 99, 1894 by W. Hamer, the last gap with the corner Palmstraat 101)
     - city:209048 (107-131 of 1878 for Bouwmaatschappij Concordia by P.J. Hamer; an extra bay between 111 and 127 breaks the symmetry, probably where an alley stood)
     - city:209051 (65-67 of 1898 for Woningmaatschappij Oud Amsterdam by C.B. Posthumus Meyjes sr.; two homes per floor round a light well, so cramped they were criticised as substandard at the time)
     - city:209050 (24-26, 1926 by Publieke Werken for the Gemeentelijke Geneeskundige en Gezondheidsdienst on the site of the alley Wijde Gang; set back from the building line; original wrought-iron lantern over the entrance; now offices and practices of dentists and doctors)
@@ -55,7 +57,7 @@
     title: Willemsstraat, de krottengracht die de filantropen dempten
     summary: "De Goudsbloemgracht was een sloot zonder kademuren, met 57 gangen vol van de ergste krotten van de stad. In 1857 werd hij gedempt, en de eerste woningbouwvereniging van het land bouwde hem bijna veertig jaar lang huis voor huis opnieuw op."
     body: |
-      Een echte gracht is de Goudsbloemgracht nooit geweest: een sloot zonder kademuren, in de volksmond spottend de Herengracht zonder bomen. In 1775 kwamen er 57 gangen op uit, en aan beide oevers lagen de beruchtste sloppen van Amsterdam. De Vereeniging ten behoeve der Arbeidersklasse, in 1852 opgericht als eerste woningbouwvereniging van Nederland, drong aan op demping. In 1857 was het zover, en op 24 augustus werd de nieuwe straat ingewijd.
+      Een echte gracht is de Goudsbloemgracht nooit geweest: een sloot zonder kademuren. In 1775 kwamen er 57 gangen op uit, en aan beide oevers lagen de beruchtste sloppen van Amsterdam. De Vereeniging ten behoeve der Arbeidersklasse, in 1852 opgericht als eerste woningbouwvereniging van Nederland, drong aan op demping. In 1857 was het zover.
 
       Daarna bouwde de vereniging bijna het hele blok tussen Willemsstraat, Lijnbaansgracht, Palmstraat en Palmdwarsstraat opnieuw op, te beginnen in 1860 op deze hoek. Omdat de aankoop van de oude panden moeizaam ging, duurde het tot 1894, maar architect P.J. Hamer, en na hem zijn zoon W. Hamer, hield vast aan dezelfde sobere baksteen. Hun laatste project, nr. 132–150 uit 1899, had geen rug-aan-rugwoningen meer maar een eigen keuken en slaapkamer. Anderen vulden de gaten: Concordia in 1878, de maatschappij Oud Amsterdam in 1898 met woningen die al bij de bouw als ondermaats werden gekraakt, en in 1926 de GG&GD, op de plek van de Wijde Gang, door de buurt de Rottige Steeg genoemd. In de blokken wordt gewoon gehuurd.
 
@@ -63,6 +65,7 @@
       - de tegels met de namen van de verdwenen gangen, bij de huizen tussen nr. 24 en 108
       - de smeedijzeren lantaarn boven de oude GG&GD-deur op nr. 24
       - de boogpoort naar de achterwoningen bij nr. 160–176
+      - Palmstraat 87–97 (1867–72), drie meter teruggezet voor licht en lucht
     attributes:
       architect: "P.J. Hamer, W. Hamer, C.B. Posthumus Meyjes sr., Publieke Werken"
       original_use: Arbeiderswoningen en een gezondheidscentrum
@@ -144,7 +147,7 @@
     Look for:
     - the yellow tile panels with the association's name in the wings and BEWAARSCHOOL under the middle window
     - the peepholes behind iron grilles in the side doors
-  category: civic
+  category: schools
   lat: 52.380915
   lng: 4.885334
   address: Willemsstraat 31-41

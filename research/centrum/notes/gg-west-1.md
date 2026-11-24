@@ -12,7 +12,7 @@ Group places are pinned on the record marked (pin).
 | 200874 | Brug 25, Herengracht (Oude Spiegelstraat) | no story found: 1910 flattened bridge, renewed with brug 5; nl.wikipedia read; horse-and-cart accident rests on one source |
 | 200828 | Brug 26 (ex Vingboonsbrug), Herengracht | no story found: plate bridge of the 1890s, unofficial name dropped 2016; nl.wikipedia read |
 | 200827 | Brug 20, Anton Jolingbrug, Herengracht | no story found: lowered 1886, named 2016/17 at a foundation's request; nl.wikipedia read |
-| 200834 | Brug 54, Noordsche Compagniebrug, Keizersgracht | belongs to Groenlandse Pakhuizen (gg-west-3): named after the whaling company whose warehouses stand beside it; not drafted, could be a Look for line there |
+| 200834 | Brug 54, Noordsche Compagniebrug, Keizersgracht | belongs to Groenlandse Pakhuizen (gg-west-3): named after the whaling company whose warehouses stand beside it; not drafted, could be a Look for line there REVIEW: added at review to gg-west-3 Groenlandse Pakhuizen (Look for line) |
 | 518388 | Brug 22, Warmoesbrug, Raadhuisstraat | Raadhuisstraat bridges, with fauns, crows and frogs |
 | 200829 | Brug 28, Vier Heemskinderenbrug, Herengracht | no story found: triple arch, stones "Anno 1722", name from the gable stone of Herengracht 394; nl.wikipedia read |
 | 200823 | Brug 6, Singel (Gasthuismolensteeg) | no story found: arched bridge lowered 1876, painted by Breitner; nl.wikipedia read |
