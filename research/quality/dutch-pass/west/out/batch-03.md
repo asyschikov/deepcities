@@ -124,3 +124,38 @@ All 27 Dutch texts lead with their most striking sourced fact. The English was n
 - **Volkskoffiehuis block:** Wikipedia credits Walenkamp, the register Lesmeister.
 - **Stamboom van de buurt:** The English summary still has a spaced en dash ("– the object..."). I left it because only claims were in scope; I removed the other spaced dashes in the English bodies I edited.
 - **Short bodies:** Some Dutch bodies run under 150 words because their sources are thin: Mural of the amazon about 130, Stamboom about 140, Megamozaïek about 155. I did not pad them.
+
+## Verification
+
+I checked all 27 places. For each one I listed the claims in the new Dutch and matched them against the new English and the original texts. I re-fetched the sources where the Dutch rests on them: nl.wikipedia *Silodam*, *Gebroken Cirkel (Amsterdam)*, *Pakhuizen Medan, Bindjeij en Laboean* and *Roosje (Rombout Oomen)*, the RCE register entry 526740, NH Nieuws 362527 and De Westkrant (Lisa mural).
+
+The Dutch details I re-checked against these sources held up:
+- "ontsnapten aan de sloop": nl.wikipedia *Silodam*, "zouden beide silo's worden gesloopt".
+- The percentage-for-art rule as one percent, and the Hogeschool campus: nl.wikipedia *Gebroken Cirkel*, "eenprocentregeling", "Hogeschool van Amsterdam (Amstelcampus)".
+- The names of Medan, Bindjeij and Laboean carved in stone: RCE 526740, "hardstenen gevelelementen met daarin ... de Indonesische pakhuisnamen".
+- "welstandscommissie": nl.wikipedia *Roosje*.
+
+The new English contains nothing unsourced in this batch.
+
+### Claims removed or narrowed in the Dutch (8)
+
+- **De Krommert:** "in de buurt kent iedereen de naam" is now "in de buurt is de naam bekend". The English says "lives on unofficially" and the source says "lokaal wel bekend"; "iedereen" was an overclaim.
+- **Mural for Lisa, summary:** "Twee scholieren van achttien" is now "Twee achttienjarigen". The two had already finished school when they painted it (De Westkrant: "Nadat ze hun diploma hadden gehaald").
+- **Mural for Lisa, Let op:** the quote "'zoals het zou moeten zijn'" did not match the source. It is now "die de maan zelfverzekerd meedraagt: 'Zo zou het moeten zijn', aldus Lucy" (NH Nieuws: "Zo zou het moeten zijn").
+- **Overtoom 343:** "buren die stukken groter zijn" is now "buren die groter zijn". The claim change had already narrowed "much taller" to "bigger", and "stukken" brought the "much" back.
+- **Triple house:** "huizen die wel opvielen maar niemand aantrokken" (attracted nobody) is now "maar niet aantrekkelijk waren". This matches the English ("without being attractive") and the register ("wel aandacht trekken, maar niet aantrekken").
+- **De Liefde:** the opening "Van de kerk zelf is weinig meer over dan een straatnaam" overstated what is left. The Stations of the Cross and the organ survive elsewhere, and the replacement complex had a church space until 2013. It is now "Op de plek zelf herinnert een straatnaam nog aan de kerk".
+- **Lutherhof:** "Een woonpalazzo, zo werd het genoemd" claimed a contemporary name. It is now "Zo werd het een soort woonpalazzo" (the source: the architect gave the dwellings "de vorm van een woonpalazzo").
+- **Gemaal Overbraker Binnenpolder, summary:** "met boven de pompen de woning" placed the flat over the pumps, which no source does. It is now "met op de bovenverdieping de woning", as in the English and the original.
+
+### Other fixes
+
+- **Stamboom van de buurt:** the English summary had a spaced en dash ("coal scuttle – the object"), which is now a comma. This is punctuation only, and it is logged in that place's `changes`.
+
+### Checks
+
+- **Copy runs:** the copy checker reports 0 copied runs in all 27 places, before and after these edits, so none needed fixing.
+- **Dashes:** there are no em dashes or spaced en dashes in any NL or EN summary or body.
+- **Let op lists:** each one has the same number of items as its English Look for list.
+- **Summaries:** every NL and EN summary is 280 characters or shorter.
+- **Sourced changes:** I confirmed the two "sourced" changes (Blauwe Poort 1988 via Wikidata P571; Apen aan tafel 2005 and its materials via the Wikipedia infobox) as recorded. Neither adds text to the Dutch beyond what the English already had.

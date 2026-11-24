@@ -1,0 +1,43 @@
+[
+ {
+  "id": "f3uxygyjiyfoasv1kjlpc10e",
+  "title": "A.H. Gerhardhuis",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Since 2015 students and young people live here.",
+    "new": "Today students and young people live here.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/A.H._Gerhardhuis",
+    "evidence": "Wikipedia: 'In januari 2015 werd bekendgemaakt dat het plaats gaat bieden aan 88 appartementen voor jongeren ... 130 studentenwoningen'; 2015 is the announcement, not the move-in date."
+   },
+   {
+    "field": "body",
+    "old": "The planners placed it in the heart of the new garden city so that residents could walk to the shops and to the Sloterplas, and so that children and grandchildren could drop in on a Sunday afternoon.",
+    "new": "It stands in the heart of the new garden city: residents could walk to the shops and to the Sloterplas, and children and grandchildren could drop in on a Sunday afternoon.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/4401716a-21b6-43f7-8c26-db087181023a",
+    "evidence": "Register describes the location's advantages ('Mobiele bejaarden kunnen nog op eigen kracht de centrale voorzieningen van de Tuinstad bereiken ...') but not the planners' motive."
+   },
+   {
+    "field": "body",
+    "old": "Since 2015 the building has housed about 220 flats for students and young people.",
+    "new": "In January 2015 it was announced that the building would get about 220 homes, nearly all for students and young people.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/A.H._Gerhardhuis",
+    "evidence": "Wikipedia: announced January 2015; 88 flats for young people, 130 student homes and four social rented homes."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Wie in de jaren vijftig oud werd en niet naar de kerk ging, kon in Amsterdam nergens terecht. Tot dit rode blok van zeven lagen van Willem van Tijen, vernoemd naar SDAP-oprichter Adriaan Gerhard. Nu wonen er studenten en jongeren.",
+     "body": "Een bejaardenhuis zonder dominee of pastoor: dat had Amsterdam nog niet. Rond 1950 sloegen de vrijdenkers en het Humanistisch Verbond de handen ineen voor ouderen die bij geen enkele kerk hoorden, een groep waar de verzuilde zorg geen plek voor had. Hun bouworganisatie, de Nederlandse Centrale voor Huisvesting van Bejaarden, ging naar Willem van Tijen, een van de grote namen in de Nederlandse volkshuisvesting. Zo kwam aan de Slotermeerlaan, vlak bij Plein '40-'45, het eerste humanistische bejaardenhuis van de stad. De naam eert Adriaan Henri Gerhard (1858-1948), onderwijzer en een van de oprichters van de SDAP. Het huis bleef lang ronduit socialistisch van karakter.\n\nDe plek is goed gekozen: midden in de nieuwe tuinstad, met winkels en de Sloterplas op loopafstand, en dichtbij genoeg voor een zondags bezoekje van kinderen en kleinkinderen. Van Tijen en M. Boom maakten het grote blok van zeven verdiepingen minder log door in de gevel te laten zien welke woningtypes erachter liggen. In 2013 werd het voorgedragen als rijksmonument, maar dat ging niet door: alle oorspronkelijke puien waren vervangen en de lage woninkjes voor echtparen aan de westkant waren gesloopt voor latere uitbouw.\n\nEind 2012 ging het verzorgingshuis dicht. In januari 2015 werd bekend dat er zo'n 220 woningen in kwamen, bijna allemaal voor studenten en jongeren. Na een brand op 24 december 2022 moesten de bewoners wekenlang elders slapen; in februari 2023 keerden de laatsten terug.\n\nLet op:\n- de oostgevel van de noordvleugel, met schuine erkers, meestal twee aan twee\n- brede balkons boven elkaar met loggia's erachter, ooit voor alle bewoners samen\n- betonnen vloeren die door het felrode metselwerk prikken, en het uitstekende noodtrappenhuis aan de noordkop\n- de lage vleugel aan de Slotermeerlaan, deels op pilotis, met de hoofdingang"
+    }
+   },
+   "summary": "The first home for non-church-going elderly people in Amsterdam, a seven-storey 'red bastion' by Willem van Tijen named after a founder of the socialist party. Today students and young people live here.",
+   "body": "Around 1950 the freethinkers' movement and the Humanistisch Verbond (Humanist Association) joined forces to build a home for old people who belonged to no church, a group the denominational care system had simply left out. Their housing body, the Nederlandse Centrale voor Huisvesting van Bejaarden, went to Willem van Tijen, one of the leading Dutch housing architects. The result, on the Slotermeerlaan close to Plein '40-'45, was the first old people's home in Amsterdam on a humanist footing. It was named after Adriaan Henri Gerhard (1858–1948), a schoolteacher and one of the founders of the SDAP, the social democratic party, and for a long time it had an outspokenly socialist character.\n\nIt stands in the heart of the new garden city: residents could walk to the shops and to the Sloterplas, and children and grandchildren could drop in on a Sunday afternoon. Van Tijen and M. Boom broke up the big seven-storey volume by letting the façade show the different flat types behind it. It was nominated as a national monument in 2013 but not designated, because too much had changed: the original window frames were all replaced, and the low cottages for elderly couples on the west side were demolished for later extensions.\n\nThe care home closed at the end of 2012. In January 2015 it was announced that the building would get about 220 homes, nearly all for students and young people. A fire on 24 December 2022 drove everyone out for weeks; the last residents moved back in February 2023.\n\nLook for:\n- the east front of the north wing, with bay windows set at an angle, mostly in pairs\n- stacked wide balconies with loggias behind them, once shared by all residents\n- concrete floor slabs pushing through the bright red brickwork, and the emergency stair jutting out at the north end\n- the low wing on the Slotermeerlaan, partly on pilotis, where the main entrance is"
+  },
+  "sources_add": []
+ }
+]

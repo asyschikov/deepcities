@@ -64,3 +64,32 @@ The English was **not** reordered. It was touched only to fix claims.
 7. **Molecularium**: the Wikidata link Q97397864 is the artist (Sander Rood, photographer), not the artwork.
 8. **Prinses Beatrixschool**: the English has no "Look for:" list (its look-for is in prose), so the Dutch has no "Let op:" either.
 9. nl.wikipedia rate-limited the API mid-run. The articles needed were fetched after retries.
+
+## Verification
+
+All 27 places re-checked: every claim in the new Dutch was compared with the new English and the original texts, the Dutch was compared with the English for dropped or added facts, the two "sourced" changes were re-fetched, and the copy checker, dash rule, Look for lists and summary lengths were re-run.
+
+Sourced changes confirmed:
+- **Hoofdweg housing**: nl.wikipedia Piet Kramer (API) has "1919-1922: Woningcomplex De Dageraad ... (samen met Michel de Klerk)" and the Scheepvaarthuis with Van der Mey and De Klerk.
+- **How to Meet an Angel**: Kunstwacht API (art object 2667, Crystal Growth) gives streetName "1e Constantijn Huygensstraat", houseNumber "36". nl.wikipedia also confirms the Wim Brands line ("En ik denk dat ben ik").
+
+Claims removed or fixed in the Dutch (not in the English, or more than the sources say):
+- **Walenkamp blocks**: the gables on the long streets were "recht en simpel"; "recht" (straight) is not in the sources, now "eenvoudig".
+- **Het Molecularium**: the neighbour was "hij" (male); no source gives the gender, now neutral.
+- **Brettensuite**: "sinds 2004 werkt hij in" Slochteren claimed he still works there; now "in 2004 verhuisde hij naar". "Speciaal" (brought back specially) cut. The music comparison of the suite, dropped from the Dutch, restored from the English.
+- **Prinses Beatrixschool**: "in 1945 the death rate was back at the 1928 level" cut (it is in the old Dutch text, but not in the English); now only that tuberculosis deaths rose again in 1945.
+- **Vondelpark 4**: Hamer "later" designed the pavilion; "later" cut.
+- **Hoofdweg housing**: Kramer's "wilde" (wild) Spaarndammerbuurt façades cut; now "het werk".
+- **Pieter Oosterleeschool**: "vurig" (ardent) champion cut.
+- **Zuid-Hollandsche Bierbrouwerij depot**: the airlock "to keep the cold in" cut (no source gives the purpose). "On the building drawings it is called a cellar" cut from the Dutch, because the English does not have it (the register does say it).
+- **Air cells**: the panel found plain grilles "te kaal" (too bare); cut, now only that it wanted something friendlier.
+- **Oranjehof**: the Dutch put each motto on a specific façade; no source says which is on which, now "op voor- en achtergevel".
+- **Remonstrant almshouse**: "among four-storey blocks" cut (no source).
+
+Copy runs fixed: 1 (Oranjehof: a new rewording of the mottos briefly made an 8-word run with the register; reworded). The checker now reports 0 copied for all 27 places.
+
+Spaced en dashes in the English (punctuation only, no claim change) replaced with a colon, comma or parentheses in: Leonardo da Vinci mural, Levensboom, Bethelkerk, Hoofdweg housing, Jan Evertsenstraat housing, Jan Maijenschool, Mercatorplein, Oranjehof (summary and body). These English summaries are now in `patch`.
+
+Look for / Let op lists match in count for every place. Every NL and EN summary is 280 characters or fewer.
+
+For the user: Petruskerk has `listed: 1970` in its attributes but the body says it was listed in 1979 (not changed). How to Meet an Angel: nl.wikipedia calls Wim Brands "schrijver"; the English says "poet" (kept).
