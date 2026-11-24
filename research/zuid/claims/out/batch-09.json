@@ -1,0 +1,1759 @@
+[
+ {
+  "id": "bckwe6sxg2oznn34ifib8tql",
+  "title": "Zuiderbad",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Its swimmers have saved it from demolition twice.",
+    "new": "Its swimmers fought off demolition in 1978, and in 1995 it was spared again.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zuiderbad",
+    "evidence": "\"onder het motto Houdt het Zuiderbad nat een reddingspoging ... tegen de sloop\"; 1995: \"Ook nu bleef het zwembad gespaard\""
+   },
+   {
+    "field": "nl.summary",
+    "old": "De zwemmers hebben het twee keer van de sloop gered.",
+    "new": "In 1978 hielden de zwemmers de sloop tegen, in 1995 bleef het bad opnieuw gespaard.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zuiderbad",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "an indoor cycling school where the well-to-do learned to ride out of the rain.",
+    "new": "an indoor cycling school where people learned to ride out of the rain.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zuiderbad",
+    "evidence": "\"de grootste overdekte rijwielschool van Nederland\"; nothing on who the pupils were"
+   },
+   {
+    "field": "nl.body",
+    "old": "een overdekte wielrijschool waar de betere kringen droog konden leren fietsen.",
+    "new": "een overdekte wielrijschool waar je droog kon leren fietsen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zuiderbad",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The craze passed and the school closed within a few years.",
+    "new": "It earned too little, and the school closed in 1904.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Zuiderbad",
+    "evidence": "\"De fietsschool werd in 1904 gesloten vanwege te weinig verdiensten.\""
+   },
+   {
+    "field": "nl.body",
+    "old": "De rage ging voorbij en de school hield het maar een paar jaar vol.",
+    "new": "De school verdiende te weinig en sloot in 1904.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Zuiderbad",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "You climb a staircase to reach the water, because this pool of 1912 stands on the floor of an indoor cycling school of 1898. Its swimmers fought off demolition in 1978, and in 1995 it was spared again. The sand filter from the opening year still works.",
+   "body": "You climb a flight of stairs to get into this pool, because the building was never meant to hold water. The hall went up in 1898 as Velox, an indoor cycling school where people learned to ride out of the rain. The bicycle dealer Willem Vrolijk had it built to a design by Jonas Ingenohl. It earned too little, and the school closed in 1904.\n\nThe surgeon Otto Lanz, who held that swimming made people healthier, had it turned into a pool. The architect Jan Stuyt simply set the basin, 700,000 litres, on the old riding floor. The Zuiderbad opened on 23 March 1912 with central heating and electric light, so that people could swim in winter and after dark.\n\nIn 1978 the city wanted the site for a railway terminus that never came. The regulars campaigned under the slogan \"Houdt het Zuiderbad nat\" (keep the Zuiderbad wet) and won. In 1995 it was threatened again and saved again; from 1999 it was restored.\n\nIt is a working city pool: buy a ticket and swim. The hours for lane and free swimming differ by day, so check the timetable first.\n\nLook for:\n- the tile panel with waves and the name above the entrance\n- the stepped gable of the hall rising behind the entrance block\n- the small quarter-round pavilion on the canal corner, once showroom and lunch room\n- inside: the wooden changing cubicles along the edge of the pool\n- inside: the tiled fountain with the city arms at the south end\n- inside: the iron roof trusses of the cycling hall",
+   "translations": {
+    "nl": {
+     "summary": "Je moet een trap op om bij het water te komen, want dit zwembad uit 1912 staat op de vloer van een overdekte wielrijschool uit 1898. In 1978 hielden de zwemmers de sloop tegen, in 1995 bleef het bad opnieuw gespaard. Het zandfilter uit het openingsjaar doet het nog.",
+     "body": "Wie hier wil zwemmen, moet eerst een trap op. Het gebouw is namelijk nooit voor water bedoeld. De hal werd in 1898 gebouwd als Velox, een overdekte wielrijschool waar je droog kon leren fietsen. Rijwielhandelaar Willem Vrolijk liet hem ontwerpen door Jonas Ingenohl. De school verdiende te weinig en sloot in 1904.\n\nDe chirurg Otto Lanz, die vond dat mensen van zwemmen gezonder werden, liet er een zwembad van maken. Architect Jan Stuyt zette de bak, 700.000 liter, gewoon boven op de oude rijvloer. Op 23 maart 1912 ging het Zuiderbad open, met centrale verwarming en elektrisch licht, zodat je ook 's winters en in het donker kon zwemmen.\n\nIn 1978 wilde de gemeente hier een kopstation bouwen dat er nooit gekomen is. De vaste zwemmers voerden actie onder de leus 'Houdt het Zuiderbad nat' en wonnen. In 1995 dreigde opnieuw sluiting en opnieuw bleef het bad open; vanaf 1999 is het opgeknapt.\n\nHet is een gewoon gemeentelijk zwembad: kaartje kopen en zwemmen. De tijden voor banenzwemmen en vrij zwemmen verschillen per dag, dus kijk eerst op het rooster.\n\nLet op:\n- het tegeltableau met golven en de naam boven de ingang\n- de trapgevel van de hal die achter het voorgebouw uitsteekt\n- het kleine kwartronde paviljoen op de hoek van de kade, vroeger showroom en lunchroom\n- binnen: de houten kleedhokjes langs de badrand\n- binnen: de betegelde fontein met het stadswapen aan de zuidkant\n- binnen: de ijzeren kap van de fietshal"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "m2nrjmcxt6idhheltlepmvzg",
+  "title": "Zuiderkwartier houses: vultures and monkeys on the Hacquartstraat",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "a consortium of small investors",
+    "new": "a consortium of private clients",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Hacquartstraat/19-27",
+    "evidence": "\"Rij herenhuizen, gebouwd voor een consortium van particuliere opdrachtgevers\"; nothing says they were small investors"
+   },
+   {
+    "field": "nl.summary",
+    "old": "een groepje kleine beleggers",
+    "new": "een groep particuliere opdrachtgevers",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Hacquartstraat/19-27",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "A company called Zuiderkwartier, a few private investors and Rutgers himself (for Reijnier Vinkeleskade 80) each paid for a house or two, which is why no two are quite alike.",
+    "new": "A company called Zuiderkwartier, a few private clients and Rutgers himself (for Reijnier Vinkeleskade 80) each commissioned part of the row.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/506018",
+    "evidence": "clients NV Zuiderkwartier (Hacquartstraat 19-19A), G. Kroese, J.H. Werner jr., G.J. Rutgers (RVk 80), J. Warners (RVk 72-76, five houses); no source links the many clients to the houses differing"
+   },
+   {
+    "field": "nl.body",
+    "old": "Een vennootschap die Zuiderkwartier heette, een paar particuliere beleggers en Rutgers zelf (voor Reijnier Vinkeleskade 80) betaalden elk een of twee huizen. Daarom zijn er geen twee precies gelijk.",
+    "new": "Een vennootschap die Zuiderkwartier heette, een paar particuliere opdrachtgevers en Rutgers zelf (voor Reijnier Vinkeleskade 80) gaven elk opdracht voor een deel van de rij.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/506018",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Reijnier Vinkeleskade 82, where his vultures and monkeys sit on the rounded corner.",
+    "new": "Reijnier Vinkeleskade 82, where his vultures and monkeys sit on the rounded corners of this house and Hacquartstraat 27.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/506018",
+    "evidence": "\"De hoek naar de Cornelis Schuytstraat is afgerond en tussen de verdiepingen voorzien van twee natuurstenen sculpturen\" appears under both Hacquartstraat 27 and Reijnier Vinkeleskade 82; opdekaart: \"twee gieren en twee apen\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Reijnier Vinkeleskade 82, waar zijn gieren en apen op de ronde hoek zitten.",
+    "new": "Reijnier Vinkeleskade 82, waar zijn gieren en apen op de ronde hoeken van dit huis en Hacquartstraat 27 zitten.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/506018",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- Reijnier Vinkeleskade 82: two vultures and two monkeys between the floors on the corner",
+    "new": "- Reijnier Vinkeleskade 82 and Hacquartstraat 27: two vultures and two monkeys between the floors on the rounded corners",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/506018",
+    "evidence": "two sculptures on each of the two corners"
+   },
+   {
+    "field": "nl.body",
+    "old": "- Reijnier Vinkeleskade 82: twee gieren en twee apen tussen de verdiepingen op de hoek",
+    "new": "- Reijnier Vinkeleskade 82 en Hacquartstraat 27: twee gieren en twee apen tussen de verdiepingen op de ronde hoeken",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/506018",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "An architect, a sculptor and a consortium of private clients filled a kite-shaped plot with brick cubes in 1923–1925. Two vultures and two monkeys guard the sharp corner; stone heads watch from the porches.",
+   "body": "Where the Hacquartstraat and the Reijnier Vinkeleskade run together at the Cornelis Schuytstraat, the building plot narrows to a point like a kite. G.J. Rutgers filled it in 1923–1925 with town houses built up from brick cubes of different heights, some with rounded fronts, all with flat roofs. There was no single client. A company called Zuiderkwartier, a few private clients and Rutgers himself (for Reijnier Vinkeleskade 80) each commissioned part of the row.\n\nThe sculptor Theo Vos carved the stonework, and the pleasure of the complex is finding it. This place is pinned on the tip of the kite, Reijnier Vinkeleskade 82, where his vultures and monkeys sit on the rounded corners of this house and Hacquartstraat 27.\n\nAcross the Hacquartstraat Rutgers built a second corner block in 1923–1924 for a carpenter and estate agent: Cornelis Schuytstraat 67-69 and Hacquartstraat 30-32. The four houses share a wooden garden fence. They are all private homes, seen from the street.\n\nLook for:\n- Reijnier Vinkeleskade 82 and Hacquartstraat 27: two vultures and two monkeys between the floors on the rounded corners\n- Reijnier Vinkeleskade 81: a human head in high relief at the corner of the porch\n- Reijnier Vinkeleskade 80: two stone figures that seem to carry the upper wall, and nine narrow windows in a row\n- Hacquartstraat 19: the wooden number boards painted \"No\" and \"19\" beside the door\n- Cornelis Schuytstraat 69: sandstone bird reliefs in the bay and animal reliefs beside the porch\n- Hacquartstraat 30 and 32: house numbers cut into plastered stone, and stone letterboxes in the porch\n- Cornelis Schuytstraat 67: the rounded corner that rises into a small tower",
+   "translations": {
+    "nl": {
+     "summary": "Een architect, een beeldhouwer en een groep particuliere opdrachtgevers vulden in 1923–1925 een vliegervormig terrein met bakstenen blokken. Twee gieren en twee apen bewaken de scherpe hoek; uit de portieken kijken stenen koppen.",
+     "body": "Waar de Hacquartstraat en de Reijnier Vinkeleskade bij de Cornelis Schuytstraat samenkomen, loopt het bouwterrein uit in een punt, als een vlieger. G.J. Rutgers zette het in 1923–1925 vol met herenhuizen die zijn opgebouwd uit bakstenen blokken van ongelijke hoogte, soms met een ronde voorkant, altijd met een plat dak. Eén opdrachtgever was er niet. Een vennootschap die Zuiderkwartier heette, een paar particuliere opdrachtgevers en Rutgers zelf (voor Reijnier Vinkeleskade 80) gaven elk opdracht voor een deel van de rij.\n\nBeeldhouwer Theo Vos maakte het steenwerk, en het leuke van dit complex is dat je ernaar moet zoeken. De speld staat op de punt van de vlieger, Reijnier Vinkeleskade 82, waar zijn gieren en apen op de ronde hoeken van dit huis en Hacquartstraat 27 zitten.\n\nAan de overkant van de Hacquartstraat bouwde Rutgers in 1923–1924 nog een hoekblok voor een timmerman en makelaar: Cornelis Schuytstraat 67-69 en Hacquartstraat 30-32. De vier huizen delen een houten tuinhek. Overal wordt gewoond; je kijkt vanaf de straat.\n\nLet op:\n- Reijnier Vinkeleskade 82 en Hacquartstraat 27: twee gieren en twee apen tussen de verdiepingen op de ronde hoeken\n- Reijnier Vinkeleskade 81: een mensenkop in hoog reliëf op de hoek van de portiek\n- Reijnier Vinkeleskade 80: twee stenen figuren die de bovengevel lijken te dragen, en negen smalle ramen op een rij\n- Hacquartstraat 19: de houten bordjes met 'No' en '19' naast de deur\n- Cornelis Schuytstraat 69: zandstenen reliëfs met vogels in de erker en met dieren naast de portiek\n- Hacquartstraat 30 en 32: het huisnummer uitgehakt in gepleisterde steen, en een stenen brievenbus in de portiek\n- Cornelis Schuytstraat 67: de ronde hoek die uitloopt in een torentje"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "s74rirs730xptswxtw5w86yl",
+  "title": "Duiventil, the tram control cabin on one leg",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the successor of the bridge architect Piet Kramer.",
+    "new": "the successor of Piet Kramer.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Duiventil_(Havenstraat)",
+    "evidence": "\"Slebos was in Amsterdam de opvolger van Piet Kramer\"; the source does not call Kramer a bridge architect"
+   },
+   {
+    "field": "nl.body",
+    "old": "de opvolger van bruggenarchitect Piet Kramer.",
+    "new": "de opvolger van Piet Kramer.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Duiventil_(Havenstraat)",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Then about 500 homes were planned on the tram yard.",
+    "new": "About 500 homes are planned on the tram yard.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Haarlemmermeer",
+    "evidence": "\"In de volgende jaren worden er circa 500 woningen gerealiseerd\"; housing plans date from about 2000, so not \"then\" after 2024"
+   },
+   {
+    "field": "nl.body",
+    "old": "Toen kwamen er plannen voor zo'n 500 woningen op het tramterrein.",
+    "new": "Op het tramterrein komen zo'n 500 woningen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Haarlemmermeer",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "to the corner of the Amstelveenseweg and the Karperweg, a little south of the old station.",
+    "new": "to the corner of the Amstelveenseweg and the Karperweg.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Duiventil_(Havenstraat)",
+    "evidence": "\"verplaatst naar de hoek van de Amstelveenseweg en de Karperweg\"; no source gives its position relative to the station"
+   },
+   {
+    "field": "nl.body",
+    "old": "naar de hoek van de Amstelveenseweg en de Karperweg, iets ten zuiden van het oude station.",
+    "new": "naar de hoek van de Amstelveenseweg en de Karperweg.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Duiventil_(Havenstraat)",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "Amsterdammers called it the Duiventil, the dovecote: a glass box on a single concrete leg, reached by a concrete stair. It was built in 1954–1955 on the Stationsplein in front of Central Station, to a design by Dick Slebos of the city's Public Works department, the successor of Piet Kramer. From up there the transport company's staff worked the points, and a chief told tram drivers when to leave and sent trams to another track when one stayed occupied. All that glass was there so he could see the whole square.\n\nWhen radio sets came into the trams in the 1970s the job disappeared, though the cabin was still used to call out information to passengers when things went wrong. In 1980 it had to make way for a metro entrance and was put in storage. In 1983 it was set up again behind the Haarlemmermeerstation in Zuid, where the volunteers of the museum tram line used it as their own traffic control until 2024.\n\nAbout 500 homes are planned on the tram yard. In August 2025 the cabin was moved a second time, to the corner of the Amstelveenseweg and the Karperweg. It is seen from the street; it is not open.\n\nLook for:\n- the single concrete leg and the stair up to the door\n- glass on all sides under a flat roof\n- the Haarlemmermeerstation of 1915 up the road, where the cabin stood for forty years",
+   "translations": {
+    "nl": {
+     "body": "Amsterdammers noemden het de Duiventil: een glazen doos op één betonnen poot, met een betonnen trap ernaartoe. Het huisje is in 1954-1955 gebouwd op het Stationsplein voor het Centraal Station, naar een ontwerp van Dick Slebos van Publieke Werken, de opvolger van Piet Kramer. Van daarboven bediende het personeel van het vervoerbedrijf de wissels. Een chef gaf de trambestuurders het sein om te vertrekken en stuurde trams naar een ander spoor als er een bezet bleef. Al dat glas was er om het hele plein te kunnen overzien.\n\nToen de trams in de jaren zeventig een mobilofoon kregen, was dat werk niet meer nodig. Het huisje werd nog wel gebruikt om bij storingen informatie om te roepen. In 1980 moest het wijken voor een metro-ingang en ging het de opslag in. In 1983 is het weer opgebouwd achter het Haarlemmermeerstation in Zuid, waar de vrijwilligers van de museumtramlijn het tot 2024 gebruikten voor hun eigen verkeersleiding.\n\nOp het tramterrein komen zo'n 500 woningen. In augustus 2025 is het huisje voor de tweede keer verhuisd, naar de hoek van de Amstelveenseweg en de Karperweg. Je ziet het vanaf de straat; naar binnen kan niet.\n\nLet op:\n- de ene betonnen poot en de trap naar de deur\n- glas aan alle kanten onder een plat dak\n- het Haarlemmermeerstation uit 1915 verderop, waar het huisje veertig jaar achter stond"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Electrische_Museumtramlijn_Amsterdam",
+   "https://www.museumtramlijn.org/station/"
+  ]
+ },
+ {
+  "id": "whv6km1m0hrkb3xcekdfeoqg",
+  "title": "Haarlemmermeerstation, the terminus the trams had to leave",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The trains stopped in 1950,",
+    "new": "Passenger trains stopped in 1950,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Station_Amsterdam_Haarlemmermeer",
+    "evidence": "\"Het reizigersverkeer werd gestaakt in 1950, waarna het goederenverkeer (voornamelijk kolentransport) nog tot 1972 bleef bestaan\""
+   }
+  ],
+  "patch": {
+   "summary": "A railway terminus of 1915 dressed as a country house. Passenger trains stopped in 1950, museum trams took over in 1975, and since 2024 the yard behind is a building site: the old trams now start further south, with a vintage bus from the station door."
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yjoq70az9qtckl1pr91ogfro",
+  "title": "Huis van Bewaring II, the prison that became the British School",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Later it housed Bhagwan followers, then prisoners again;",
+    "new": "Later Bhagwan followers used it, then it held prisoners again;",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Havenstraat/6",
+    "evidence": "\"Het werd toen onder meer gebruikt door het Internationaal Folkloristisch Danstheater en door de Baghwan-beweging\"; no source says they lived there"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Later woonden er Bhagwan-volgelingen;",
+    "new": "Later gebruikten Bhagwan-volgelingen het, daarna zaten er weer gevangenen;",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Havenstraat/6",
+    "evidence": "idem. Verification: NL now also says \"then it held prisoners again\", as EN does (opdekaart: \"kocht het Rijk het gebouw snel weer aan en ging het huis na een verbouwing in 1987 weer open\")"
+   }
+  ],
+  "patch": {
+   "summary": "A cross-shaped cell prison of 1890 where inmates sat in separate cubicles even in chapel. Hannie Schaft was taken from here to be shot in April 1945. Later Bhagwan followers used it, then it held prisoners again; since 2021 it is a school.",
+   "translations": {
+    "nl": {
+     "summary": "Een kruisvormige cellengevangenis uit 1890. Hannie Schaft werd hier in april 1945 opgehaald om te worden doodgeschoten. Later gebruikten Bhagwan-volgelingen het, daarna zaten er weer gevangenen; sinds 2021 is het een school."
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "nhz0qsblrcfj7itxzzkhe4oy",
+  "title": "Kabouterbrug, the cycle bridge with a hotel room on a pole",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "the playful protest party of 1970.",
+    "new": "the playful protest party of 1969 to 1974.",
+    "kind": "narrowed",
+    "source": "https://zoek.officielebekendmakingen.nl/gmb-2024-475704.html",
+    "evidence": "\"vernoemd naar de Kabouterbeweging (periode 1969-1974), een ludieke protestbeweging en lokale politieke partij\"; no source dates it to 1970"
+   },
+   {
+    "field": "nl.summary",
+    "old": "de ludieke protestpartij van 1970.",
+    "new": "de ludieke protestpartij van 1969 tot 1974.",
+    "kind": "narrowed",
+    "source": "https://zoek.officielebekendmakingen.nl/gmb-2024-475704.html",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Cyclists called it after the street on the far side, the Theophile de Bockstraat.",
+    "new": "Locally it was known as the Theophile de Bockbrug, after the street on the far side.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kabouterbrug",
+    "evidence": "\"De brug stond in de omgeving bekend als Theophile de Bockbrug, bij brugpersoneel De Theophile, vanwege de nabije straat\"; nothing says cyclists in particular"
+   },
+   {
+    "field": "nl.body",
+    "old": "Fietsers noemden haar naar de straat aan de overkant, de Theophile de Bockstraat.",
+    "new": "In de buurt heette ze de Theophile de Bockbrug, naar de straat aan de overkant.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kabouterbrug",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "gave it two balance arms that are not joined to each other, which was new,",
+    "new": "made it one of the first drawbridges whose two balance arms are not joined to each other,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kabouterbrug",
+    "evidence": "\"het is een van de eerste ophaalbruggen waarbij de twee balanspriemen niet met elkaar verbonden zijn\""
+   },
+   {
+    "field": "nl.body",
+    "old": "gaf haar twee balanspriemen die niet met elkaar verbonden zijn, wat nieuw was,",
+    "new": "maakte er een van de eerste ophaalbruggen van met twee balanspriemen die niet met elkaar verbonden zijn,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kabouterbrug",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "shared with ambulances and fire engines, while the bridge at the Overtoomse Sluis is rebuilt.",
+    "new": "shared with the emergency services, while the bridge at the Overtoomse Sluis is renovated.",
+    "kind": "narrowed",
+    "source": "https://www.nhnieuws.nl/nieuws/363727/dringen-op-kabouterbrug-door-afzetting-elke-amsterdammer-wil-doorfietsen",
+    "evidence": "\"Omdat de brug Overtoomsesluis wordt gerenoveerd, worden hulpdiensten ... over de naastgelegen Kabouterbrug geleid ... versmald tot 1 mei 2027\""
+   },
+   {
+    "field": "nl.body",
+    "old": "rijden er ook ambulances en brandweerwagens overheen, zolang de brug bij de Overtoomse Sluis wordt vernieuwd.",
+    "new": "rijden er ook hulpdiensten overheen, zolang de brug bij de Overtoomse Sluis wordt gerenoveerd.",
+    "kind": "narrowed",
+    "source": "https://www.nhnieuws.nl/nieuws/363727/dringen-op-kabouterbrug-door-afzetting-elke-amsterdammer-wil-doorfietsen",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "A yellow, black and red drawbridge of 1975 for bicycles only. Its keeper's cabin stands on one concrete pole in the Schinkel and is let as a hotel room. Since 2025 the bridge carries the name of the Kabouters, the playful protest party of 1969 to 1974.",
+   "body": "For fifty years this bridge had no official name. Locally it was known as the Theophile de Bockbrug, after the street on the far side. In November 2024 the city made it the Kabouterbrug, after the Kabouters (gnomes): the playful protest movement and local party of 1969 to 1974. A neighbour who lives beside the bridge proposed it, because the Kabouters had pressed for a crossing here for bicycles. Roel van Duijn, who founded the party, unveiled the name on 31 May 2025.\n\nThe bridge opened in 1975 and takes cyclists and walkers only. Dirk Sterenberg of the city's public works department made it one of the first drawbridges whose two balance arms are not joined to each other, and painted it yellow and black with red accents. The keeper's cabin is an aluminium box on a single concrete pole in the water. In 2015 it served as a \"monastery for 24 hours\", a meditation room by the artist Emmeline de Mooij. Since 2017 it has been a suite of SWEETS hotel, which lets the city's old bridge houses.\n\nUntil 1 May 2027 the bridge is narrowed and shared with the emergency services, while the bridge at the Overtoomse Sluis is renovated.\n\nLook for:\n- the white tilted cube on two concrete slabs beside the cabin: there from the start, maker not recorded\n- the cabin on its pole, reached by a stair from the quay\n- the two separate balance arms overhead\n- the old name, Theophile de Bockbrug, still on the bridge",
+   "translations": {
+    "nl": {
+     "summary": "Een geel-zwart-rode ophaalbrug uit 1975, alleen voor fietsers en voetgangers. Het brugwachtershuisje staat op één betonnen paal in de Schinkel en is nu een hotelkamer. Sinds 2025 heet de brug naar de Kabouters, de ludieke protestpartij van 1969 tot 1974.",
+     "body": "Vijftig jaar lang had deze brug geen officiële naam. In de buurt heette ze de Theophile de Bockbrug, naar de straat aan de overkant. In november 2024 maakte de gemeente er de Kabouterbrug van, naar de Kabouters: de ludieke protestbeweging en lokale partij van 1969 tot 1974. Een buurtbewoner die naast de brug woont droeg de naam aan, omdat de Kabouters zich sterk hadden gemaakt voor een oversteek voor fietsers op deze plek. Roel van Duijn, de oprichter van de partij, onthulde de naam op 31 mei 2025.\n\nDe brug ging in 1975 open en is er alleen voor fietsers en voetgangers. Dirk Sterenberg van de Dienst der Publieke Werken maakte er een van de eerste ophaalbruggen van met twee balanspriemen die niet met elkaar verbonden zijn, en liet haar geel en zwart schilderen met rode accenten. Het brugwachtershuisje is een aluminium doos op één betonnen paal in het water. In 2015 deed het dienst als '24-uurs klooster', een meditatieruimte van kunstenaar Emmeline de Mooij. Sinds 2017 is het een suite van SWEETS hotel, dat de oude brugwachtershuisjes van de stad verhuurt.\n\nTot 1 mei 2027 is de brug versmald en rijden er ook hulpdiensten overheen, zolang de brug bij de Overtoomse Sluis wordt gerenoveerd.\n\nLet op:\n- de witte gekantelde kubus op twee betonnen platen naast het huisje: er al sinds de oplevering, maker niet vastgelegd\n- het huisje op zijn paal, met een trap vanaf de kade\n- de twee losse balanspriemen boven je hoofd\n- de oude naam, Theophile de Bockbrug, die nog op de brug staat"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "vizys8qwmwvwrii9o0369jr2",
+  "title": "Modern girl with a pearl, Eerste Schinkelstraat",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Oud-Zuid has almost no murals. This one covers a whole end wall",
+    "new": "This mural covers a whole end wall",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source says Oud-Zuid has almost no murals"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Oud-Zuid heeft bijna geen muurschilderingen. Deze vult een hele kopgevel",
+    "new": "Deze muurschildering vult een hele kopgevel",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "summary",
+    "old": "painted by the Hague street artist Beyond",
+    "new": "painted by the Hague street artist Beyond",
+    "kind": "sourced",
+    "source": "https://streetartcities.com/artists/beyond",
+    "evidence": "artist page: \"BEYOND is the artistic alias of Roelof Schierbeek (1983)\", home town \"Den Haag\""
+   },
+   {
+    "field": "body",
+    "old": "Amsterdam-Zuid is not mural country: much of its brick is protected. So the one big wall painting in the old part of the borough came from the neighbours themselves. A resident",
+    "new": "A resident",
+    "kind": "cut",
+    "source": "",
+    "evidence": "no source for Zuid having few murals, protected brick as the reason, or this being the only big wall painting in old Zuid"
+   },
+   {
+    "field": "nl.body",
+    "old": "Amsterdam-Zuid is geen stadsdeel van muurschilderingen: veel van de baksteen is beschermd. De enige grote schildering in het oude deel van Zuid kwam dan ook van de buren zelf. Een bewoner",
+    "new": "Een bewoner",
+    "kind": "cut",
+    "source": "",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The real Girl lives in the Mauritshuis in The Hague and comes to Amsterdam only on loan.",
+    "new": "The real Girl has belonged to the Mauritshuis in The Hague since 1902 and was shown in Amsterdam only for a while.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Meisje_met_de_parel",
+    "evidence": "\"vermaakte bij zijn overlijden in 1902 een deel van zijn kunstverzameling aan het Mauritshuis, waaronder dit schilderij\"; Street Art Cities: \"exhibited in Amsterdam only temporarily\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Het echte Meisje woont in het Mauritshuis in Den Haag en komt alleen in bruikleen naar Amsterdam.",
+    "new": "Het echte Meisje is sinds 1902 van het Mauritshuis in Den Haag en was maar even in Amsterdam te zien.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Meisje_met_de_parel",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "too, and is known there for large murals after the Mauritshuis collection. He brought the city's most famous face to an end wall",
+    "new": "too. He brought her to an end wall",
+    "kind": "cut",
+    "source": "https://streetartcities.com/artists/beyond",
+    "evidence": "Verification: the artist page gives only his birth in Den Haag (1983); the Mauritshuis page on him is blocked, and the only Mauritshuis link on the artist page is a Delft mural (Cherished) described alongside \"Museum Murals, geïnitieerd door het Mauritshuis\". Murals \"there\" (The Hague) for the Mauritshuis are unconfirmed, so cut; \"most famous face\" is also unsourced."
+   },
+   {
+    "field": "nl.body",
+    "old": "ook uit Den Haag en is daar bekend van grote muurschilderingen naar de collectie van het Mauritshuis. Hij bracht het beroemdste gezicht van zijn stad naar een kopgevel",
+    "new": "ook uit Den Haag. Hij bracht haar naar een kopgevel",
+    "kind": "cut",
+    "source": "https://streetartcities.com/artists/beyond",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the turban and the pearl, redone in spray paint at house height",
+    "new": "- the turban and the pearl at house height",
+    "kind": "cut",
+    "source": "https://streetartcities.com/markers/a51ecc27-9520-4fef-b519-c453c36a0309",
+    "evidence": "no source says how it was painted"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de tulband en de parel, overgedaan met de spuitbus op huishoogte",
+    "new": "- de tulband en de parel op huishoogte",
+    "kind": "cut",
+    "source": "https://streetartcities.com/markers/a51ecc27-9520-4fef-b519-c453c36a0309",
+    "evidence": "idem"
+   },
+   {
+    "field": "attributes.built",
+    "old": "2023–2024",
+    "new": "by January 2024",
+    "kind": "narrowed",
+    "source": "https://streetartcities.com/markers/a51ecc27-9520-4fef-b519-c453c36a0309",
+    "evidence": "only date: \"Hunted on January 27, 2024\""
+   }
+  ],
+  "patch": {
+   "summary": "This mural covers a whole end wall of about 117 square metres with Vermeer's Girl with a Pearl Earring, painted by the Hague street artist Beyond after a resident asked for it and the neighbours chose the design.",
+   "body": "A resident of the Schinkelbuurt had the idea and asked the street artist Roelof Schierbeek, who works as Beyond. He showed the neighbourhood three designs, and the neighbourhood picked the one after Vermeer's \"Girl with a Pearl Earring\".\n\nThe choice has a small joke in it. The real Girl has belonged to the Mauritshuis in The Hague since 1902 and was shown in Amsterdam only for a while. Schierbeek is from The Hague too. He brought her to an end wall of about 117 square metres, where she can stay.\n\nThe painting has been on the wall since January 2024 at the latest. It fills a blind end wall on the Eerste Schinkelstraat, between the Amstelveenseweg and the Schinkel, and can be seen at any time from the street.\n\nLook for:\n- the turban and the pearl at house height\n- how the window-less end wall of an ordinary block of flats sets the size of the portrait",
+   "translations": {
+    "nl": {
+     "summary": "Deze muurschildering vult een hele kopgevel van zo'n 117 vierkante meter met Vermeers Meisje met de parel, geschilderd door de Haagse straatkunstenaar Beyond nadat een bewoner erom vroeg en de buurt het ontwerp koos.",
+     "body": "Een bewoner van de Schinkelbuurt kwam met het idee en benaderde straatkunstenaar Roelof Schierbeek, die werkt onder de naam Beyond. Hij legde de buurt drie ontwerpen voor, en de buurt koos dat naar het 'Meisje met de parel' van Vermeer.\n\nEr zit een grapje in die keuze. Het echte Meisje is sinds 1902 van het Mauritshuis in Den Haag en was maar even in Amsterdam te zien. Schierbeek komt ook uit Den Haag. Hij bracht haar naar een kopgevel van ongeveer 117 vierkante meter, waar ze mag blijven.\n\nDe schildering zit er op zijn laatst sinds januari 2024. Ze vult een blinde kopgevel aan de Eerste Schinkelstraat, tussen de Amstelveenseweg en de Schinkel, en is altijd vanaf de straat te zien.\n\nLet op:\n- de tulband en de parel op huishoogte\n- hoe de raamloze kopgevel van een gewoon portiekblok de maat van het portret bepaalt"
+    }
+   },
+   "attributes": {
+    "built": "by January 2024"
+   }
+  },
+  "sources_add": [
+   "https://streetartcities.com/artists/beyond",
+   "https://nl.wikipedia.org/wiki/Meisje_met_de_parel"
+  ]
+ },
+ {
+  "id": "ftgaqp8xy22acav8k8wokhv1",
+  "title": "Patrimonium's first block, Vlietstraat",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "while other associations were building in the sober modern manner.",
+    "new": "while most social housing of the day was rationalist or Amsterdam School.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "\"Ten opzichte van de door rationalistische en Amsterdamse Schoolontwerpen gedomineerde sociale woningbouw ... zeldzaamheidswaarde\""
+   },
+   {
+    "field": "nl.summary",
+    "old": "terwijl andere verenigingen strak en modern bouwden.",
+    "new": "terwijl de sociale woningbouw van die tijd vooral rationalistisch of Amsterdamse School was.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "In its middle stands something more careful: a whole city block built in 1912–1914 for Patrimonium, the housing association of the Reformed (orthodox Protestant) workers' movement.",
+    "new": "On its southern edge, along the Vlietstraat, stands something more careful: a whole city block built in 1912–1914 for Patrimonium, the Reformed (orthodox Protestant) housing association.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "the buurt is bounded by \"de Vlietstraat (zuidzijde)\" and so is the block; \"de gereformeerde woningbouwvereniging Patrimonium\"; no source mentions a workers' movement"
+   },
+   {
+    "field": "nl.body",
+    "old": "Middenin staat iets wat met meer zorg is gemaakt: een heel bouwblok uit 1912–1914 voor Patrimonium, de woningbouwvereniging van de gereformeerde arbeidersbeweging.",
+    "new": "Aan de zuidrand, langs de Vlietstraat, staat iets wat met meer zorg is gemaakt: een heel bouwblok uit 1912–1914 voor Patrimonium, de gereformeerde woningbouwvereniging.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "known across the country for his Reformed churches,",
+    "new": "known across the country for his churches,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "\"Hij bouwde in heel Nederland en verwierf vooral bekendheid door zijn ontwerpen voor kerken\"; the churches are not called Reformed"
+   },
+   {
+    "field": "nl.body",
+    "old": "in het hele land bekend van zijn gereformeerde kerken,",
+    "new": "in het hele land bekend van zijn kerken,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "their first project under the Housing Act of 1901, which let associations build with state loans.",
+    "new": "their first project under the Housing Act.",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "\"het eerste woningwetproject van het tweetal\"; the year of the act and the state loans are in no source"
+   },
+   {
+    "field": "nl.body",
+    "old": "hun eerste project onder de Woningwet van 1901, die verenigingen met rijksleningen liet bouwen.",
+    "new": "hun eerste project onder de Woningwet.",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/d0b52d44-bd61-402d-87af-f9e2c3992f97",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "219 workers' homes of 1912–1914 for the Reformed housing association Patrimonium, dressed as old Amsterdam: gables on the corners, gable stones and a little turret, while most social housing of the day was rationalist or Amsterdam School.",
+   "body": "The Schinkelbuurt went up around 1900 as cheap speculative housing on a triangle of land between the Amstelveenseweg and the Schinkel, with street names taken from shipping: Vaart, Vliet, Zeil, Haven. On its southern edge, along the Vlietstraat, stands something more careful: a whole city block built in 1912–1914 for Patrimonium, the Reformed (orthodox Protestant) housing association. Amsterdam op de kaart, the city's building history site, calls it the association's first block.\n\nThe architects were Tjeerd Kuipers, known across the country for his churches, and A. Ingwersen. According to the city register it was their first project under the Housing Act. They gave it the look of the old Dutch town: top gables, round medallion windows, door frames with a hint of the Renaissance and gable stones like those in the city centre. Among the rationalist and Amsterdam School housing of those years, the register notes, that makes it a rarity.\n\nEach of the 219 homes had a living room, a kitchen, a toilet and two to five other rooms, laid out for large families. There was no bathroom: people washed in the kitchen. Sheds stood in a leafy garden inside the block. Patrimonium had its office at Vlietstraat 4, and a grocery tied to the association had the corner shop. The windows were replaced in a later renovation, and the shutters painted with hourglass shapes are gone.\n\nThe homes are private. Walk around the block.\n\nLook for:\n- corner of Vaartstraat and Baarsstraat: the slanted corner with a small turret on the roof\n- the tile panel there with the words \"Woningstichting Patrimonium\"\n- gable stones with different pictures along the fronts\n- door frames with pilasters in the Vlietstraat\n- the front on the Schinkelkade, seen best from across the water",
+   "translations": {
+    "nl": {
+     "summary": "219 arbeiderswoningen uit 1912–1914 voor de gereformeerde woningbouwvereniging Patrimonium, verkleed als oud Amsterdam: topgevels op de hoeken, gevelstenen en een torentje, terwijl de sociale woningbouw van die tijd vooral rationalistisch of Amsterdamse School was.",
+     "body": "De Schinkelbuurt kwam rond 1900 tot stand als goedkope revolutiebouw op een driehoek tussen de Amstelveenseweg en de Schinkel, met straatnamen uit de scheepvaart: Vaart, Vliet, Zeil, Haven. Aan de zuidrand, langs de Vlietstraat, staat iets wat met meer zorg is gemaakt: een heel bouwblok uit 1912–1914 voor Patrimonium, de gereformeerde woningbouwvereniging. Amsterdam op de kaart, de site over de bouwgeschiedenis van de stad, noemt het het eerste blok van de vereniging.\n\nDe architecten waren Tjeerd Kuipers, in het hele land bekend van zijn kerken, en A. Ingwersen. Volgens het gemeentelijke register was dit hun eerste project onder de Woningwet. Ze gaven het de aanblik van de oude Hollandse stad: topgevels, ronde medaillonvensters, deuromlijstingen met een vleugje renaissance en gevelstenen zoals in de binnenstad. Tussen de rationalistische en Amsterdamse Schoolwoningbouw van die jaren is dat een zeldzaamheid, merkt het register op.\n\nElk van de 219 woningen had een woonkamer, een keuken, een wc en twee tot vijf andere kamers, ingedeeld voor grote gezinnen. Een badkamer was er niet: men waste zich in de keuken. In een lommerrijke tuin binnen het blok stonden schuurtjes. Patrimonium had zijn kantoor op Vlietstraat 4, en in de hoekwinkel zat een kruidenier die bij de vereniging hoorde. Bij een latere renovatie zijn de ramen vervangen, en de luiken met geschilderde zandlopers zijn verdwenen.\n\nHet zijn woningen. Loop een rondje om het blok.\n\nLet op:\n- hoek Vaartstraat en Baarsstraat: de schuine hoek met een torentje op het dak\n- het tegeltableau daar met de woorden \"Woningstichting Patrimonium\"\n- gevelstenen met verschillende voorstellingen langs de gevels\n- deuromlijstingen met pilasters in de Vlietstraat\n- de gevel aan de Schinkelkade, het best te zien vanaf de overkant van het water"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "pmt4b6bhzta5j6zk5aa44rwt",
+  "title": "Schinkelhaven horse tram depot (OCCII and De Binnenpret)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The flats next door stand on the tea garden",
+    "new": "The flats a few doors along stand on the tea garden",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/wederopbouw/Amstelveenseweg/106-120",
+    "evidence": "the flats are Amstelveenseweg 106-120, the depot is no. 134 with no. 124 between them"
+   },
+   {
+    "field": "nl.summary",
+    "old": "De flat ernaast staat op de plek",
+    "new": "De flat een paar huizen verderop staat op de plek",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/wederopbouw/Amstelveenseweg/106-120",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The flats of 1955 to the north (nos. 106–120, by Göbel and Den Hertog)",
+    "new": "The flats of 1955 at nos. 106–120, by Göbel and Den Hertog,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/wederopbouw/Amstelveenseweg/106-120",
+    "evidence": "no source gives the direction"
+   },
+   {
+    "field": "nl.body",
+    "old": "De flat uit 1955 ten noorden ervan (nrs. 106–120, van Göbel en Den Hertog)",
+    "new": "De flat uit 1955 op nrs. 106–120, van Göbel en Den Hertog,",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/wederopbouw/Amstelveenseweg/106-120",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "rebuilt as a wooden chalet in 1888.",
+    "new": "rebuilt in chalet style in 1888.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Schinkelhaven",
+    "evidence": "\"liet het in 1888 verbouwen tot een bijzonder pand in chaletstijl\"; no source says it was wooden"
+   },
+   {
+    "field": "nl.body",
+    "old": "in 1888 herbouwd als houten chalet.",
+    "new": "in 1888 verbouwd in chaletstijl.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Schinkelhaven",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "A horse tram depot of 1884 with a carved, painted front like a hut from a Russian fairy tale, squatted in 1984 and still a volunteer-run concert hall. The flats a few doors along stand on the tea garden that sixty clubs fought to save.",
+   "body": "The carved wooden front at Amstelveenseweg 134 looks as if it walked out of a Russian folk tale, and perhaps it did. According to De Binnenpret, which runs the building, the art historian Arjen Looyenga found that it resembles Viktor Hartmann's drawing of the witch Baba Yaga's hut on chicken legs, the one Mussorgsky set to music in Pictures at an Exhibition. Abraham Salm and his father G.B. Salm designed it in 1883–1884 as the depot of the Amsterdamsche Omnibus Maatschappij, whose horse tram from the Leidseplein ended at the Vondelpark gate. Behind it, in a T through the block, were stables for 48 horses, a smithy and the stable master's flat.\n\nElectric tram 1 made the depot redundant in 1904. It was a garage, a fire station (1927–1942) and a municipal store until squatters took it on 10 February 1984. The city came to terms with them five years later. De Binnenpret still runs it: the concert hall OCCII at the front (since 1992) and, round the back, a children's theatre, a restaurant, a bicycle workshop and studios. In 2010–2011 the front got its original colours back. The way in is a concert: see OCCII's programme.\n\nThe flats of 1955 at nos. 106–120, by Göbel and Den Hertog, stand where Schinkelhaven was, a tea garden with a playground and a maze, rebuilt in chalet style in 1888. When the city wanted it down, sixty clubs that used its hall fought the case up to the Supreme Court. It was demolished in 1954.\n\nLook for:\n- the twelve-sided wooden solid at the peak of the gable, where the roof timbers meet\n- the arcade of turned wooden columns across the upper floor\n- Schinkelhavenstraat 27: the stable front, with the letters A.O.M. under the canopy\n- Eerste Schinkelstraat 16: the plain back, where the smithy was\n- the gable stone of 2003 at Sloterkade 61, across the water: two children on a seesaw and the line \"Schinkelhaven uit'zicht, voor goed en geld gezwicht\"\n- next door at no. 136: the former Schinkelkerk of 1890, now a gym, which changed hands in 1926 in the church quarrel over the talking snake (its own place)",
+   "translations": {
+    "nl": {
+     "summary": "Een paardentramremise uit 1884 met een bont houten front als een hut uit een Russisch sprookje, gekraakt in 1984 en nog altijd een concertzaal die op vrijwilligers draait. De flat een paar huizen verderop staat op de plek van de theetuin waar zestig verenigingen voor vochten.",
+     "body": "Het bewerkte houten front van Amstelveenseweg 134 lijkt zo uit een Russisch sprookje gelopen, en misschien is dat ook zo. Volgens De Binnenpret, die het gebouw beheert, ontdekte kunsthistoricus Arjen Looyenga de gelijkenis met een tekening van Viktor Hartmann: de hut op kippenpoten van de heks Baba Jaga, die Moessorgski op muziek zette in de Schilderijen van een tentoonstelling. Abraham Salm en zijn vader G.B. Salm ontwierpen het in 1883–1884 als remise van de Amsterdamsche Omnibus Maatschappij, waarvan de paardentram vanaf het Leidseplein bij de ingang van het Vondelpark eindigde. Erachter lagen, als een T dwars door het bouwblok, stallen voor 48 paarden, een hoefsmederij en de woning van de stalbaas.\n\nToen in 1904 de elektrische lijn 1 ging rijden, was de remise overbodig. Het werd een garage, een brandweerpost (1927–1942) en een opslag van de gemeente, tot krakers het op 10 februari 1984 in gebruik namen. Vijf jaar later sloot de gemeente een overeenkomst met hen. De Binnenpret zit er nog steeds: voor de concertzaal OCCII (sinds 1992), achter onder meer een kindertheater, een restaurant, een fietsenwerkplaats en ateliers. In 2010–2011 kreeg de voorgevel zijn oorspronkelijke kleuren terug. Wie naar binnen wil, gaat naar een concert: zie het programma van OCCII.\n\nDe flat uit 1955 op nrs. 106–120, van Göbel en Den Hertog, staat op de plek van Schinkelhaven, een theetuin met speeltuin en doolhof, in 1888 verbouwd in chaletstijl. Toen de gemeente het wilde slopen, procedeerden zestig verenigingen die de zaal gebruikten tot aan de Hoge Raad. In 1954 ging het toch tegen de vlakte.\n\nLet op:\n- het houten twaalfvlak in de top van de gevel, waar de balken samenkomen\n- de rij gedraaide houten zuiltjes over de hele verdieping\n- Schinkelhavenstraat 27: de gevel van de stallen, met de letters A.O.M. onder de luifel\n- Eerste Schinkelstraat 16: de sobere achterkant, waar de smederij zat\n- de gevelsteen uit 2003 aan Sloterkade 61, aan de overkant van het water: twee kinderen op een wip en de regel \"Schinkelhaven uit'zicht, voor goed en geld gezwicht\"\n- hiernaast op nr. 136: de voormalige Schinkelkerk uit 1890, nu sportschool, die in 1926 van eigenaar wisselde in de kerkstrijd om de sprekende slang (een eigen plek)"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "qfu3d7b3ivwh71ps432ou6te",
+  "title": "Schinkelkerk, the church that changed hands over a talking snake",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the strict Calvinists who had walked out of the national church four years before.",
+    "new": "the strict Calvinists who had walked out of the national church four years before.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Doleantie",
+    "evidence": "\"De Doleantie is een kerkscheuring die in 1886 in de Nederlandse Hervormde Kerk plaatsvond ... reactie van de orthodoxe vleugel\"; Arcam and Reliwiki only name \"de Doleantie van 1886\""
+   },
+   {
+    "field": "nl.body",
+    "old": "die vier jaar eerder met de Doleantie uit de Hervormde Kerk waren gestapt.",
+    "new": "die vier jaar eerder met de Doleantie uit de Hervormde Kerk waren gestapt.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Doleantie",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {},
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Doleantie"
+  ]
+ },
+ {
+  "id": "bcelz9qvkbjxmt8q13yqybm5",
+  "title": "The stone with a name chiselled off (Amstelveenseweg, May 1945)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "minutes before the unveiling.",
+    "new": "just before the unveiling.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928",
+    "evidence": "\"werd in de uren voor de onthulling haastig verwijderd\"; 4en5mei: hammering under the cover as the ceremony was about to begin"
+   },
+   {
+    "field": "body",
+    "old": "Word had just got round that the man had worked for the German army early in the occupation.",
+    "new": "It had just come out that the man was suspected of collaborating with the occupier in the first years of the war.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928",
+    "evidence": "\"omdat hij ervan werd verdacht in de eerste oorlogsjaren met de bezetter te hebben samengewerkt\"; 4en5mei: \"Kort tevoren is gebleken dat ... één naam staat van een BS'er die eerder lid van de NSB was\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Kort daarvoor was het verhaal rondgegaan dat de man in de eerste bezettingsjaren voor het Duitse leger had gewerkt.",
+    "new": "Kort daarvoor was gebleken dat men de man verdacht van samenwerking met de Duitsers in de eerste jaren van de bezetting.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "On 7 May, the day of the shooting on the Dam, German soldiers",
+    "new": "On 7 May German soldiers",
+    "kind": "cut",
+    "source": "https://4en5meiamsterdam.nl/stories/herdenking-amstelveenseweg/",
+    "evidence": "none of the sources mentions the shooting on the Dam"
+   },
+   {
+    "field": "nl.body",
+    "old": "Op 7 mei, de dag van de schietpartij op de Dam, vielen Duitse soldaten",
+    "new": "Op 7 mei vielen Duitse soldaten",
+    "kind": "cut",
+    "source": "https://4en5meiamsterdam.nl/stories/herdenking-amstelveenseweg/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "That he collaborated was never proven, says the plaque put up beside the stone in 2013.",
+    "new": "That he collaborated was never proven. A plaque put up beside the stone in 2013 names him and tells why his name was removed.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928",
+    "evidence": "Buitenkunst: \"Daar is echter nooit bewijs voor gevonden\"; 4en5mei: the 2013 plaque says \"dat er nog een vijfde BS'er om het leven kwam, Jacob de Bruyne en waarom zijn naam in 1946 op het laatste moment werd verwijderd\"; the plaque text itself was not read"
+   },
+   {
+    "field": "nl.body",
+    "old": "Dat hij met de bezetter heeft samengewerkt, is nooit bewezen, staat op de plaquette die in 2013 naast de steen is gehangen.",
+    "new": "Dat hij met de bezetter heeft samengewerkt, is nooit bewezen. Een plaquette die in 2013 naast de steen is gehangen, noemt hem en vertelt waarom zijn naam is verwijderd.",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1928",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "Five resistance men died here in gunfights with German soldiers on 6 and 7 May 1945, after the surrender. The stone of 1946 names four. The fifth name was hacked away under the cover, just before the unveiling.",
+   "body": "When the cover was about to come off this memorial on 25 May 1946, the crowd could hear hammering and chiselling underneath it. One of the five names on the stone was being removed. It had just come out that the man was suspected of collaborating with the occupier in the first years of the war. His widow was held back at the barrier.\n\nThe stone, set in the fence of the Vondelpark, is for men of the Binnenlandse Strijdkrachten (BS, the army of the resistance) who died here after the German surrender. The capitulation was announced on the evening of 4 May 1945, but the Canadians reached Amsterdam only on the 8th. In between, about twenty BS men from the neighbourhood moved into the shed of a blanket factory across the road and began disarming German soldiers. Early on 6 May a firefight with a German lorry at the corner of the Zocherstraat killed one of them. On 7 May German soldiers stormed the shed to free arrested comrades, and late that afternoon a soldier in a stopped army bus grabbed a machine gun. Five BS men died, one of them weeks later in hospital.\n\nThe fifth man, Jacob de Bruyne, a rope maker of 36, had joined the resistance in 1944. Nobody there knew his past. That he collaborated was never proven. A plaque put up beside the stone in 2013 names him and tells why his name was removed. A remembrance is held here every 4 May.\n\nLook for:\n- the text \"Op den 7en mei 1945 vielen hier voor de vrijheid van ons land\" and four names with dates of birth\n- the gap between the second and the third name\n- the steel plaque of 2013 on the pillar to the right",
+   "translations": {
+    "nl": {
+     "body": "Toen op 25 mei 1946 het doek van dit gedenkteken zou gaan, hoorde het publiek eronder driftig hameren en beitelen. Een van de vijf namen op de steen werd verwijderd. Kort daarvoor was gebleken dat men de man verdacht van samenwerking met de Duitsers in de eerste jaren van de bezetting. Zijn weduwe werd bij de afzetting tegengehouden.\n\nDe steen, opgenomen in het hek van het Vondelpark, is voor mannen van de Binnenlandse Strijdkrachten (BS, het leger van het verzet) die hier na de Duitse overgave sneuvelden. De capitulatie werd op de avond van 4 mei 1945 bekend, maar de Canadezen bereikten Amsterdam pas op de 8e. In de tussentijd betrokken een stuk of twintig BS'ers uit de buurt de loods van een dekenfabriek aan de overkant en begonnen ze Duitse militairen te ontwapenen. In de vroege ochtend van 6 mei kostte een vuurgevecht met een Duitse vrachtwagen op de hoek van de Zocherstraat een van hen het leven. Op 7 mei vielen Duitse soldaten de loods binnen om aangehouden kameraden te bevrijden, en aan het eind van die middag greep een soldaat in een aangehouden legerbus een machinegeweer. Vijf BS'ers kwamen om, van wie één weken later in het ziekenhuis.\n\nDe vijfde man, Jacob de Bruyne, een touwslager van 36, had zich in 1944 bij het verzet aangesloten. Niemand daar kende zijn verleden. Dat hij met de bezetter heeft samengewerkt, is nooit bewezen. Een plaquette die in 2013 naast de steen is gehangen, noemt hem en vertelt waarom zijn naam is verwijderd. Elk jaar op 4 mei is hier een herdenking.\n\nLet op:\n- de tekst 'Op den 7en mei 1945 vielen hier voor de vrijheid van ons land' en vier namen met geboortedatum\n- de open plek tussen de tweede en de derde naam\n- de stalen plaquette uit 2013 op de pijler rechts"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "u3wx0ekdcmtq60jqc75vudc7",
+  "title": "11 Rue Simon Crubellier, a living room on the Stadionplein",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The British artist Matthew Darbyshire",
+    "new": "The British artist Matthew Darbyshire",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "\"De Britse beeldend kunstenaar Matthew Darbyshire (1977)\""
+   },
+   {
+    "field": "body",
+    "old": "an IKEA Klippan, the cheapest classic there is, next to a showy cabinet by the Italian designer Ettore Sottsass,",
+    "new": "an IKEA Klippan, next to a striking Carlton cabinet by Ettore Sottsass,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "\"een Carlton-kast naar ontwerp van Ettore Sottsass\"; Stadscuratorium: \"een opvallende kast van Sottsass\"; nothing says the Klippan is the cheapest classic"
+   },
+   {
+    "field": "nl.body",
+    "old": "een Klippan van IKEA, de goedkoopste klassieker die er is, naast een opzichtige kast van de Italiaanse ontwerper Ettore Sottsass,",
+    "new": "een Klippan van IKEA, naast een opvallende Carlton-kast van Ettore Sottsass,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "which goes through a house room by room and lists what is in each.",
+    "new": "which goes through a house room by room and lists what is in each.",
+    "kind": "sourced",
+    "source": "https://en.wikipedia.org/wiki/Life_A_User%27s_Manual",
+    "evidence": "\"one chapter for each room\"; \"Perec was obsessed with lists: such a description would be exhaustive down to the last detail\"; nl.wikipedia on the artwork gives the novel and 1978"
+   },
+   {
+    "field": "nl.body",
+    "old": "die een huis kamer voor kamer doorloopt en opsomt wat er staat.",
+    "new": "die een huis kamer voor kamer doorloopt en opsomt wat er staat.",
+    "kind": "sourced",
+    "source": "https://en.wikipedia.org/wiki/Life_A_User%27s_Manual",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "For decades the Stadionplein was mostly a car park in front of the Olympic Stadium; in the 2010s most of it was built on and the rest became a square again.",
+    "new": "That part of the square was built on between 2010 and 2019; the work stands on a strip of green.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "\"een groenstrook die deel uit maakt van het Stadionplein. Dat deel van het plein werd in de jaren 2010-2019 bebouwd\"; no source says it was a car park"
+   },
+   {
+    "field": "nl.body",
+    "old": "Tientallen jaren was het Stadionplein vooral een parkeerterrein voor het Olympisch Stadion. In de jaren tien is het grotendeels bebouwd en werd de rest weer een plein.",
+    "new": "Dat deel van het plein is tussen 2010 en 2019 bebouwd; het werk staat op een groenstrook.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "It is public and meant to be used: you can sit on all of it, at any hour.",
+    "new": "It is a public living room, there at any hour.",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/collectie/11-rue-simon-crubellier-2/",
+    "evidence": "\"Deze publieke huiskamer\"; Darbyshire hoped people would come for a chat (nl.wikipedia); nothing says you may sit on all of it"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is openbaar en bedoeld om te gebruiken: je mag overal op zitten, op elk uur van de dag.",
+    "new": "Het is een openbare huiskamer, op elk uur van de dag.",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/collectie/11-rue-simon-crubellier-2/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the Klippan sofa and the tall Sottsass cabinet",
+    "new": "- the Klippan sofa and the Sottsass cabinet",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "the cabinet's height is not given"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de Klippan-bank en de hoge kast van Sottsass",
+    "new": "- de Klippan-bank en de kast van Sottsass",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "On the Stadionplein stands a flat with no walls, no roof and no rent. The British artist Matthew Darbyshire let people from the neighbourhood furnish a \"dream apartment\" by choosing from a digital catalogue, and then had their choices cast in bronze and concrete. So the square now has a sofa nobody can move: an IKEA Klippan, next to a striking Carlton cabinet by Ettore Sottsass, an old-fashioned telephone and a bicycle.\n\nThe title is an address. 11 rue Simon-Crubellier is the Paris apartment building in Georges Perec's novel \"Life: A User's Manual\" (1978), which goes through a house room by room and lists what is in each. Darbyshire did the same for one room in Amsterdam-Zuid.\n\nThe work closed the rebuilding of the square. That part of the square was built on between 2010 and 2019; the work stands on a strip of green. The furniture was being installed in October 2018 and the neighbours were invited to a housewarming.\n\nIt is a public living room, there at any hour.\n\nLook for:\n- the Klippan sofa and the Sottsass cabinet\n- the telephone and the bicycle\n- the view over the furniture to the Marathon tower of the stadium",
+   "translations": {
+    "nl": {
+     "body": "Op het Stadionplein staat een appartement zonder muren, zonder dak en zonder huur. De Britse kunstenaar Matthew Darbyshire liet buurtbewoners een 'droomappartement' inrichten: ze kozen de spullen uit een digitale catalogus, en hij liet hun keuzes gieten in brons en beton. Het plein heeft nu dus een bank die niemand kan verschuiven: een Klippan van IKEA, naast een opvallende Carlton-kast van Ettore Sottsass, een ouderwetse telefoon en een fiets.\n\nDe titel is een adres. Rue Simon-Crubellier 11 is het Parijse appartementengebouw uit de roman 'Het leven een gebruiksaanwijzing' (1978) van Georges Perec, die een huis kamer voor kamer doorloopt en opsomt wat er staat. Darbyshire deed hetzelfde met één kamer in Amsterdam-Zuid.\n\nHet werk was het sluitstuk van de vernieuwing van het plein. Dat deel van het plein is tussen 2010 en 2019 bebouwd; het werk staat op een groenstrook. In oktober 2018 werd het meubilair geplaatst en de buurt kreeg een housewarming.\n\nHet is een openbare huiskamer, op elk uur van de dag.\n\nLet op:\n- de Klippan-bank en de kast van Sottsass\n- de telefoon en de fiets\n- het uitzicht over de meubels op de Marathontoren van het stadion"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/11_Rue_Crubellier",
+   "https://en.wikipedia.org/wiki/Life_A_User%27s_Manual"
+  ]
+ },
+ {
+  "id": "c5chsvyogybstj5leny2y3lc",
+  "title": "Bertelmanplein (Van Epen's blocks and Van Eyck's playground)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "designed by a young architect on its staff, Aldo van Eyck:",
+    "new": "designed by an architect on its staff, Aldo van Eyck:",
+    "kind": "narrowed",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200903",
+    "evidence": "Tripolis register: \"In Amsterdam ontwierp hij als architect bij de Dienst Publieke Werken tussen 1947 en 1978 735 speelplaatsen\"; no source gives his age"
+   },
+   {
+    "field": "nl.body",
+    "old": "getekend door een jonge architect van de dienst, Aldo van Eyck:",
+    "new": "getekend door een architect van de dienst, Aldo van Eyck:",
+    "kind": "narrowed",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200903",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Stadscuratorium, which looks after the city's art, files his climbing frames",
+    "new": "The Stadscuratorium files his climbing frames",
+    "kind": "cut",
+    "source": "https://stadscuratorium.nl/collectie/de-klimrekken-van-aldo-van-eyck/",
+    "evidence": "the source does not describe the Stadscuratorium's role"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het Stadscuratorium, dat over de kunst van de stad gaat, zet zijn klimrekken",
+    "new": "Het Stadscuratorium zet zijn klimrekken",
+    "kind": "cut",
+    "source": "https://stadscuratorium.nl/collectie/de-klimrekken-van-aldo-van-eyck/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the decorated hoisting beams above the stairwells, and the buttresses on the corners",
+    "new": "- the decorated hoisting beams, and the buttresses on the corners",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504969",
+    "evidence": "\"Sommige hijsbalken hebben een decoratieve vormgeving\"; their position is not given"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de versierde hijsbalken boven de trappenhuizen, en de steunberen op de hoeken",
+    "new": "- de versierde hijsbalken, en de steunberen op de hoeken",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504969",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "In 1947 the city wanted public playgrounds. Until then playgrounds were run by associations, and you paid to belong. The department of public works tried out a model on this square, designed by an architect on its staff, Aldo van Eyck: a sandpit with a rim wide enough to sit on or run along, tumbling bars, a climbing ladder, an early version of his climbing arch, and trees around it. His own children were the test subjects. The trial worked. Van Eyck and the planner Jakoba Mulder went on to lay out more than 700 playgrounds across Amsterdam, of which about ninety were left in 2001. The Stadscuratorium files his climbing frames under this square and the year 1947.\n\nThe square itself lies in the north-west corner that Berlage kept outside his Plan Zuid. J.C. (Jop) van Epen filled it from 1921 with seven blocks of flats for three housing associations: three for Rochdale, three for the AWV and one for the ACOB. They are five floors high on the outer streets and three, under red tiled roofs, on the inner ones, each around a shared garden that you reach through a round-arched gate. The pin is on the square.\n\nThe flats are lived in; the square and the playground are open to all.\n\nLook for:\n- the sandpit, the round jumping stones and the hexagonal climbing frame (added in the 1960s)\n- the memorial for Van Eyck: an information column and a wall of poles from a cleared playground, painted in rainbow colours at hip height after his words \"The rainbow is my favourite colour\"\n- the gate on the Cornelis Krusemanstraat: the keystone is a little devil, carved by Oswald Wenckebach in 1924\n- above every front door: a small window that sticks out in a point\n- the decorated hoisting beams, and the buttresses on the corners\n- the gates to the inner gardens on the Willaertstraat and the Des Présstraat",
+   "translations": {
+    "nl": {
+     "body": "In 1947 wilde de gemeente openbare speelplaatsen. Tot dan toe waren speeltuinen van verenigingen, en daar betaalde je contributie voor. Publieke Werken probeerde op dit plein een model uit, getekend door een architect van de dienst, Aldo van Eyck: een zandbak met een rand waar je op kunt zitten of overheen kunt rennen, duikelrekken, een klimladder, een voorloper van zijn klimboog, en bomen eromheen. Zijn eigen kinderen waren de proefpersonen. De proef slaagde. Van Eyck en stedenbouwkundige Jakoba Mulder richtten daarna in heel Amsterdam ruim 700 speelplaatsen in, waarvan er in 2001 nog zo'n negentig over waren. Het Stadscuratorium zet zijn klimrekken op naam van dit plein en het jaar 1947.\n\nHet plein ligt in de noordwesthoek die Berlage buiten zijn Plan Zuid had gehouden. J.C. (Jop) van Epen bouwde die vanaf 1921 vol met zeven blokken etagewoningen voor drie woningbouwverenigingen: drie voor Rochdale, drie voor de AWV en één voor de ACOB. Ze zijn vijf lagen hoog aan de buitenstraten en drie, onder rode pannendaken, aan de binnenstraten, elk rond een gezamenlijke tuin waar je door een ronde poort komt. De speld staat op het plein.\n\nDe huizen zijn bewoond; het plein en de speelplaats zijn van iedereen.\n\nLet op:\n- de zandbak, de ronde springstenen en het zeshoekige klimrek (uit de jaren zestig)\n- het gedenkteken voor Van Eyck: een informatiezuil en een wand van palen uit een opgeruimde speelplaats, op heuphoogte in regenboogkleuren geschilderd naar zijn uitspraak 'The rainbow is my favourite colour'\n- de poort aan de Cornelis Krusemanstraat: de sluitsteen is een duiveltje, in 1924 gehakt door Oswald Wenckebach\n- boven elke voordeur: een raampje dat in een punt naar buiten steekt\n- de versierde hijsbalken, en de steunberen op de hoeken\n- de poorten naar de binnentuinen aan de Willaertstraat en de Des Présstraat"
+    }
+   }
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200903"
+  ]
+ },
+ {
+  "id": "a63ka06975a4s3015m88o5fx",
+  "title": "De onbekende verliezer, the marathon runner who gave up",
+  "changes": [
+   {
+    "field": "body",
+    "old": "carried on stout brick piers. The piers were meant to get sculpture, as corners all over Plan Zuid did.",
+    "new": "carried on pillars. The pillars were meant to get sculpture, as was done elsewhere in the city.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_onbekende_verliezer",
+    "evidence": "\"deels gedragen door Grieks aandoende zuilen. Het lag tijdens de bouw in de bedoeling deze zuilen te voorzien van beeldhouwwerken zoals elders in de stad ook werd gedaan\"; nothing says stout brick or all over Plan Zuid"
+   },
+   {
+    "field": "nl.body",
+    "old": "gedragen door zware bakstenen pijlers. Op die pijlers hoorde beeldhouwwerk te komen, zoals op zoveel hoeken in Plan Zuid.",
+    "new": "gedragen door pijlers. Op die pijlers hoorde beeldhouwwerk te komen, zoals dat elders in de stad ook gebeurde.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_onbekende_verliezer",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "carved two more reliefs in the same granite, the same size and the same Amsterdam School manner.",
+    "new": "carved two more granite reliefs that closely resemble Smout's and suit the Amsterdam School houses.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_onbekende_verliezer",
+    "evidence": "\"Hij ontwierp beeldjes die een sterke gelijkenis vertonen met de twee reliëfs van Smout ... De beelden passen precies bij de Amsterdamse Schoolstijl van de woningen\"; Katzir: granite; no source compares the sizes"
+   },
+   {
+    "field": "nl.body",
+    "old": "hakte er twee reliëfs bij in hetzelfde graniet, even groot en in dezelfde Amsterdamse Schoolstijl.",
+    "new": "hakte er twee granieten reliëfs bij die sterk op die van Smout lijken en goed passen bij de Amsterdamse Schoolhuizen.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_onbekende_verliezer",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- Katzir's pair under numbers 65 and 67, a hundred and fifty metres on",
+    "new": "- Katzir's pair under numbers 65 and 67",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/De_onbekende_verliezer",
+    "evidence": "\"onder Marathonweg 37-39 (Smout) en 65-67 (Katzir)\"; no source gives the distance"
+   },
+   {
+    "field": "nl.body",
+    "old": "- het tweetal van Katzir onder nummer 65 en 67, honderdvijftig meter verder",
+    "new": "- het tweetal van Katzir onder nummer 65 en 67",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/De_onbekende_verliezer",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "The Stadionbuurt was built around the Olympic Games of 1928 and its streets are named accordingly. Where the Marathonweg crosses the Herculesstraat and the Achillesstraat, the side streets enter through gateways under the houses, carried on pillars. The pillars were meant to get sculpture, as was done elsewhere in the city.\n\nThe Herculesstraat gateway got its pair in the early 1930s: two granite reliefs by Kees Smout, each with two runners who look as if they had just set off. Then the money ran out, and the piers of the Achillesstraat gateway stayed empty.\n\nIn 2006 the city was repairing its sculpture of the 1920s and 1930s and looked at the gaps as well. Ram Katzir, an Israeli artist trained at the Rietveld Academie, carved two more granite reliefs that closely resemble Smout's and suit the Amsterdam School houses. On the first the race goes on, but one runner looks back over his shoulder. On the second you see what he is looking at: a man alone, folded over, finished. Katzir calls it a monument to the one who did not make it to the finish line.\n\nLook for:\n- Smout's fresh runners on the piers under Marathonweg 37 and 39\n- Katzir's pair under numbers 65 and 67\n- the runner looking back, and what he sees",
+   "translations": {
+    "nl": {
+     "body": "De Stadionbuurt is rond de Olympische Spelen van 1928 gebouwd en de straten heten ernaar. Waar de Marathonweg de Herculesstraat en de Achillesstraat kruist, ga je de zijstraten in door een poort onder de woningen, gedragen door pijlers. Op die pijlers hoorde beeldhouwwerk te komen, zoals dat elders in de stad ook gebeurde.\n\nDe poort naar de Herculesstraat kreeg het begin jaren dertig: twee granieten reliëfs van Kees Smout, elk met twee lopers die eruitzien alsof ze net gestart zijn. Toen was het geld op, en de pijlers bij de Achillesstraat bleven leeg.\n\nIn 2006 liet de gemeente haar beeldhouwwerk uit de jaren twintig en dertig herstellen en keek ze ook naar de plekken waar nooit iets was gekomen. Ram Katzir, een Israëlische kunstenaar die aan de Rietveld Academie had gestudeerd, hakte er twee granieten reliëfs bij die sterk op die van Smout lijken en goed passen bij de Amsterdamse Schoolhuizen. Op het eerste gaat de wedstrijd door, maar één loper kijkt achterom. Op het tweede zie je waar hij naar kijkt: een man alleen, voorovergebogen, op. Katzir noemt het een monument voor degene die de finish niet haalde.\n\nLet op:\n- de frisse lopers van Smout op de pijlers onder Marathonweg 37 en 39\n- het tweetal van Katzir onder nummer 65 en 67\n- de loper die omkijkt, en wat hij ziet"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "goqmcqerzfio5ryigsxrhpbh",
+  "title": "De wildplasser, ASV Arsenal",
+  "changes": [
+   {
+    "field": "body",
+    "old": "doing what players and supporters have always done behind the goal.",
+    "new": "doing what an amateur footballer who cannot wait does at the side of the pitch.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_wildplasser",
+    "evidence": "\"de amateurvoetballer, die even nodig moet en langs het veld gaat urineren\"; nothing about supporters or behind the goal"
+   },
+   {
+    "field": "nl.body",
+    "old": "te doen wat spelers en supporters altijd al achter het doel deden.",
+    "new": "te doen wat een amateurvoetballer die even nodig moet langs het veld doet.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_wildplasser",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "the advertising boards that surround every amateur pitch. Erik Kessels, of the advertising agency KesselsKramer,",
+    "new": "the advertising boards that dominated the ground. Erik Kessels, of the communications agency KesselsKramer,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_wildplasser",
+    "evidence": "\"De elf kunstvoorwerpen moesten (tijdelijk) de overheersende reclameborden vervangen. Erik Kessels van communicatiebedrijf KesselsKramer\""
+   },
+   {
+    "field": "nl.body",
+    "old": "de reclameborden vervangen die om elk amateurveld staan. Erik Kessels, van reclamebureau KesselsKramer,",
+    "new": "de reclameborden vervangen die rond het veld de boventoon voerden. Erik Kessels, van communicatiebureau KesselsKramer,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_wildplasser",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "the Dutch have relieved themselves outdoors for centuries,",
+    "new": "people have relieved themselves outdoors for centuries,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_wildplasser",
+    "evidence": "\"Dat laatste gebeurt al eeuwen\" (the example given is a Rembrandt etching of 1631); not said of the Dutch in particular"
+   },
+   {
+    "field": "nl.body",
+    "old": "buiten plassen doen Nederlanders al eeuwen,",
+    "new": "buiten plassen doen mensen al eeuwen,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_wildplasser",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "Beside the pitch of the amateur football club ASV Arsenal a man stands with his back to the game, doing what an amateur footballer who cannot wait does at the side of the pitch. He is a statue. \"De wildplasser\" means the man who urinates in public, and an older member of the club stood model for him.\n\nArsenal moved to this ground behind the Olympic Stadium in 2011. Under the name \"Terreinwinst\" (ground gained) the club asked a team of eleven artists to make work for the club and the neighbourhood. There were two conditions: it had to be about sport, and it had to take the place, for a while, of the advertising boards that dominated the ground. Erik Kessels, of the communications agency KesselsKramer, saw the link between the footballer who cannot wait and a word that was itself new: people have relieved themselves outdoors for centuries, but \"wildplassen\" only entered the language in the 1990s.\n\nOther contributions were a megaphone shaped like a cut-off cone, for the shouting parents on the touchline, and a row of stadium seats on tall poles for the quieter spectators.\n\nThe statue stands at the edge of the sports ground on the IJsbaanpad and is seen from the public path.\n\nLook for:\n- the figure at the fence, facing away from the pitch\n- the Olympic Stadium behind the ground: the fields here are part of its grounds",
+   "translations": {
+    "nl": {
+     "body": "Naast het veld van amateurvoetbalclub ASV Arsenal staat een man met zijn rug naar de wedstrijd te doen wat een amateurvoetballer die even nodig moet langs het veld doet. Het is een beeld. Een ouder lid van de club stond er model voor.\n\nArsenal verhuisde in 2011 naar dit terrein achter het Olympisch Stadion. Onder de naam 'Terreinwinst' vroeg de club een elftal kunstenaars om werk te maken voor de vereniging en de buurt. Er waren twee voorwaarden: het moest over sport gaan, en het moest een tijdlang de reclameborden vervangen die rond het veld de boventoon voerden. Erik Kessels, van communicatiebureau KesselsKramer, zag het verband tussen de voetballer die even nodig moet en een woord dat zelf nog jong was: buiten plassen doen mensen al eeuwen, maar 'wildplassen' kwam pas in de jaren negentig in de taal.\n\nAndere bijdragen waren een megafoon in de vorm van een afgeknotte kegel, voor de schreeuwende ouders langs de lijn, en een rij kuipstoeltjes op hoge palen voor de rustiger toeschouwers.\n\nHet beeld staat aan de rand van het sportterrein aan het IJsbaanpad en is vanaf het openbare pad te zien.\n\nLet op:\n- de figuur bij het hek, met de rug naar het veld\n- het Olympisch Stadion achter het terrein: de velden horen bij het stadiongebied"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bufhh3yco1aygugg00gkam0a",
+  "title": "Hygiëaplein schools",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Hygiëaplein 40, on the south-east side, is the earlier one and the national monument:",
+    "new": "Hygiëaplein 40, on the south-east side, is the national monument:",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/7ce49613-c9d2-4139-aa8a-9fc0fbe7f508",
+    "evidence": "dates conflict: the national register gives 1921 for no. 40 but the city register 1932-1934; for nos. 8-10 the city register gives 1921-1923, the Wikipedia list 1924 and the Marathonbuurt article 1928; so which came first is not settled"
+   },
+   {
+    "field": "nl.body",
+    "old": "Hygiëaplein 40, aan de zuidoostkant, is de oudste en het rijksmonument:",
+    "new": "Hygiëaplein 40, aan de zuidoostkant, is het rijksmonument:",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/7ce49613-c9d2-4139-aa8a-9fc0fbe7f508",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Hygiëaplein 8–10, opposite, followed in 1924: a double school in brown brick with two round towers that rise above the roof.",
+    "new": "Hygiëaplein 8–10, opposite, is a double school of the 1920s (the sources give 1921–1923, 1924 and 1928) with two round towers that rise above the roof.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "Wikipedia list: \"bouwjaar = 1924\"; city register 222125: jaarBeginVan 1921, jaarBeginTot 1923; Marathonbuurt: \"twee schoolgebouwen uit 1928 aan het Hygiëaplein (8 en 10)\"; no source gives the brick colour"
+   },
+   {
+    "field": "nl.body",
+    "old": "Hygiëaplein 8–10, aan de overkant, volgde in 1924: een dubbele school in bruine baksteen met twee ronde torens die boven het dak uitsteken.",
+    "new": "Hygiëaplein 8–10, aan de overkant, is een dubbele school uit de jaren twintig (de bronnen noemen 1921–1923, 1924 en 1928) met twee ronde torens die boven het dak uitsteken.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "and until 2019 the neighbourhood centre Olympus sat at no. 10.",
+    "new": "and until 2019 the neighbourhood centre Olympus sat in one of the two buildings.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Marathonbuurt",
+    "evidence": "\"In een van de schoolgebouwen aan het Hygiëiaplein was tot september 2019 het huis van de wijk Olympus gevestigd\"; the number is not given"
+   },
+   {
+    "field": "nl.body",
+    "old": "en tot 2019 zat op nummer 10 het Huis van de Wijk Olympus.",
+    "new": "en tot 2019 zat in een van de twee gebouwen het Huis van de Wijk Olympus.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Marathonbuurt",
+    "evidence": "idem"
+   },
+   {
+    "field": "attributes.built",
+    "old": "1921 (no. 40); 1924 (nos. 8–10)",
+    "new": "1921 (no. 40); 1920s (nos. 8–10)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "sources give 1921-1923, 1924 and 1928 for nos. 8-10"
+   },
+   {
+    "field": "nl.attributes.built",
+    "old": "1921 (nr. 40); 1924 (nr. 8–10)",
+    "new": "1921 (nr. 40); jaren twintig (nr. 8–10)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Amsterdam-Zuid",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "The long street fronts of the Marathonweg open here into a square, and the city used both of its closed sides for schools. Both were drawn at the department of public works, where Nicolaas Lansdorp worked from 1920 to 1932.\n\nHygiëaplein 40, on the south-east side, is the national monument: a symmetrical front of thirty metres in yellow brick with bands of purple, three floors under a flat roof, with a gymnasium behind it and a playground on either side of the link between them. The national register dates it to 1921. It was built as a public (non-denominational) primary school, which makes the wall painting in its rear stairwell a surprise: Jesus among playing children, signed J. Froquet and as old as the building. That is indoors and not open to visitors.\n\nHygiëaplein 8–10, opposite, is a double school of the 1920s (the sources give 1921–1923, 1924 and 1928) with two round towers that rise above the roof. The pin is on this one. It has housed several schools since, among them the Vincent van Gogh secondary school, and until 2019 the neighbourhood centre Olympus sat in one of the two buildings.\n\nBoth are school buildings and not open to visitors: look from the square.\n\nLook for:\n- at no. 40: the square relief tiles with people and animals under the narrow windows on both sides of the door, to a design by Hildo Krop\n- at no. 40: the cube-shaped ornaments at the roof edge that collect the rainwater\n- at nos. 8–10: the two round towers with their curved bay windows\n- at no. 40: the shallow brick balconies in front of the classroom windows, planters on the ground floor",
+   "translations": {
+    "nl": {
+     "body": "De lange gevelwanden van de Marathonweg wijken hier uiteen tot een plein, en de gemeente gebruikte beide gesloten kanten voor scholen. Ze zijn allebei getekend bij de Dienst der Publieke Werken, waar Nicolaas Lansdorp van 1920 tot 1932 werkte.\n\nHygiëaplein 40, aan de zuidoostkant, is het rijksmonument: een symmetrische gevel van dertig meter in gele baksteen met paarse banden, drie lagen onder een plat dak, met erachter een gymnastiekgebouw en aan weerszijden van het tussenstuk een speelplaats. Het rijksregister dateert het op 1921. Het is gebouwd als openbare lagere school, en dat maakt de muurschildering in het achterste trappenhuis onverwacht: Jezus tussen spelende kinderen, gesigneerd J. Froquet en even oud als het gebouw. Die zit binnen en is niet te bezoeken.\n\nHygiëaplein 8–10, aan de overkant, is een dubbele school uit de jaren twintig (de bronnen noemen 1921–1923, 1924 en 1928) met twee ronde torens die boven het dak uitsteken. Op dit gebouw staat de speld. Er hebben sindsdien verschillende scholen in gezeten, onder meer de Vincent van Gogh-mavo, en tot 2019 zat in een van de twee gebouwen het Huis van de Wijk Olympus.\n\nHet zijn allebei schoolgebouwen en je kunt er niet in: kijk vanaf het plein.\n\nLet op:\n- bij nr. 40: de vierkante reliëftegels met mens- en dierfiguren onder de smalle ramen aan weerszijden van de deur, naar ontwerp van Hildo Krop\n- bij nr. 40: de kubusvormige ornamenten aan de dakrand waar het regenwater in samenkomt\n- bij nr. 8–10: de twee ronde torens met hun gebogen erkers\n- bij nr. 40: de ondiepe gemetselde balkons voor de lokaalramen, op de begane grond plantenbakken",
+     "attributes": {
+      "built": "1921 (nr. 40); jaren twintig (nr. 8–10)"
+     }
+    }
+   },
+   "attributes": {
+    "built": "1921 (no. 40); 1920s (nos. 8–10)"
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "eh3zs0bx0o1vlursawkb8n98",
+  "title": "Lyceumbrug",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Under its deck are a passage, canoe stores and changing rooms, added because a headmaster wanted his pupils to row.",
+    "new": "Under its deck runs a passage, and there were canoe stores and changing rooms, added because a headmaster wanted more exercise for his pupils.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/527832",
+    "evidence": "\"Onder de brug waren vroeger bergruimten voor kano's, alsmede kleedruimtes\"; Wikipedia: Gunning \"meer beweegmogelijkheden voor zijn kinderen zocht\"; rowing is not mentioned"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Onder het brugdek zitten een gang, kanobergingen en kleedkamers, omdat een rector zijn leerlingen wilde laten roeien.",
+    "new": "Onder het brugdek loopt een gang, en er waren kanobergingen en kleedkamers, omdat een rector meer beweging voor zijn leerlingen zocht.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/527832",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "C.P. Gunning, headmaster of the Amsterdams Lyceum",
+    "new": "C.P. Gunning, headmaster of the Amsterdams Lyceum",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Amsterdams_Lyceum",
+    "evidence": "\"Dr C.P. Gunning, oprichter en eerste rector van het Lyceum\"; the bridge sources give only \"Gunning\""
+   },
+   {
+    "field": "body",
+    "old": "H.A.J. Baanders, the architect of the lyceum, liked the bridge but wrote to the paper that the grassy banks spoiled it: he wanted stone quays. In 2007–2008",
+    "new": "H.A.J. Baanders, the architect of the lyceum, liked the bridge but wrote to the paper that the grassy banks spoiled it: he wanted stone quays. In 2007–2008",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Lyceumbrug",
+    "evidence": "Verification: cut reverted. nl.wikipedia Lyceumbrug: \"Herman Ambrosius Jan Baanders, de architect van het lyceum vond daarbij de brug wel mooi, maar had liever stenen walkanten gezien; hij vond het gras afbreuk doen aan het totaalontwerp. Hij had er een ingezonden brief voor over.\" (cites Algemeen Handelsblad 5 February 1927)"
+   },
+   {
+    "field": "nl.body",
+    "old": "H.A.J. Baanders, de architect van het lyceum, vond de brug mooi maar schreef in een ingezonden brief dat de grazige oevers er afbreuk aan deden: hij had stenen walkanten gewild. In 2007–2008",
+    "new": "H.A.J. Baanders, de architect van het lyceum, vond de brug mooi maar schreef in een ingezonden brief dat de grazige oevers er afbreuk aan deden: hij had stenen walkanten gewild. In 2007–2008",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Lyceumbrug",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "A bridge built for a school. Under its deck runs a passage, and there were canoe stores and changing rooms, added because a headmaster wanted more exercise for his pupils. On the corners Hildo Krop carved a family in stone, with his own son and daughter as models.",
+   "translations": {
+    "nl": {
+     "summary": "Een brug die voor een school is gebouwd. Onder het brugdek loopt een gang, en er waren kanobergingen en kleedkamers, omdat een rector meer beweging voor zijn leerlingen zocht. Op de hoeken hakte Hildo Krop een gezin in steen, met zijn eigen zoon en dochter als model."
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Amsterdams_Lyceum"
+  ]
+ },
+ {
+  "id": "pfjn559otru6beck3n9vn2xg",
+  "title": "Monument Indië-Nederland (the former Van Heutsz monument)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Its sculptor had said from the start how easily it could become a statue of liberty.",
+    "new": "Its sculptor is said to have remarked how easily it could become a statue of liberty.",
+    "kind": "narrowed",
+    "source": "https://anderetijden.nl/aflevering/652/Van-Heutsz",
+    "evidence": "\"Tegen collega Jan Meefout zou hij hebben gezegd\"; no source dates the remark"
+   },
+   {
+    "field": "nl.summary",
+    "old": "De beeldhouwer zei vanaf het begin hoe makkelijk het een vrijheidsbeeld kon worden.",
+    "new": "De beeldhouwer zou hebben opgemerkt hoe makkelijk het een vrijheidsbeeld kon worden.",
+    "kind": "narrowed",
+    "source": "https://anderetijden.nl/aflevering/652/Van-Heutsz",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Social democrats and communists on the city council fought it for two years;",
+    "new": "For two years supporters and opponents argued over it, in and outside the city council;",
+    "kind": "narrowed",
+    "source": "https://anderetijden.nl/aflevering/652/Van-Heutsz",
+    "evidence": "\"Twee jaar lang discussieerden voor- en tegenstanders in en buiten de gemeenteraad over het monument\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Sociaaldemocraten en communisten in de gemeenteraad verzetten zich er twee jaar tegen;",
+    "new": "Twee jaar lang streden voor- en tegenstanders erover, in de gemeenteraad en daarbuiten;",
+    "kind": "narrowed",
+    "source": "https://anderetijden.nl/aflevering/652/Van-Heutsz",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "while protesters held up banners.",
+    "new": "while protesters held up banners.",
+    "kind": "sourced",
+    "source": "https://web.archive.org/web/20201127172033/http://wvi.antenna.nl/nl/ic/vp/atjeh/heutsz/groen2.html",
+    "evidence": "\"Tegenstanders van dit eerbetoon aan Van Heutsz protesteerden tijdens de onthulling met spandoeken\""
+   },
+   {
+    "field": "body",
+    "old": "The sculptor Frits van Hall, a communist, told a colleague",
+    "new": "The sculptor Frits van Hall, a communist, is said to have told a colleague",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Monument_Indi%C3%AB-Nederland",
+    "evidence": "\"Hij zou tegen zijn collega Jan Meefout hebben gezegd\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Beeldhouwer Frits van Hall, een communist, zei tegen een collega",
+    "new": "Beeldhouwer Frits van Hall, een communist, zou tegen een collega hebben gezegd",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Monument_Indi%C3%AB-Nederland",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- the years added in 2007, from 1596 to the renaming",
+    "new": "- the years added in 2007, from 1596 to 2007",
+    "kind": "narrowed",
+    "source": "https://en.wikipedia.org/wiki/Monument_Indi%C3%AB-Nederland",
+    "evidence": "the six dates run 1596, 1935, 1945, 1949, 2001 (\"change of function and name\"), 2007"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de jaartallen die er in 2007 bij kwamen, van 1596 tot de naamsverandering",
+    "new": "- de jaartallen die er in 2007 bij kwamen, van 1596 tot 2007",
+    "kind": "narrowed",
+    "source": "https://en.wikipedia.org/wiki/Monument_Indi%C3%AB-Nederland",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "Built in 1935 for the general who subdued Aceh, and fought over ever since. Bombed twice, robbed of its portrait and its letters, renamed in 2004. Its sculptor is said to have remarked how easily it could become a statue of liberty.",
+   "body": "The name VAN HEUTSZ is gone from the plinth: someone took the letters in 1991 and they were never found. General J.B. van Heutsz, governor-general of the Dutch East Indies, was a hero to some and \"the butcher of Aceh\" to others. After his death in 1924 so much money came in for his tomb that enough was left for a second monument. For two years supporters and opponents argued over it, in and outside the city council; the television programme Andere Tijden describes a swap in the end, with a monument for the socialist Domela Nieuwenhuis for the left. Queen Wilhelmina unveiled this one on 15 June 1935, while protesters held up banners.\n\nThe general himself was only a small bronze portrait on the plinth. What you see is a woman with a scroll of law between two lions (Amsterdam and Batavia), a pond for the sea between the two countries, and an arch of golden rays. Locals call her \"Mien met de hondjes\" (Mien with the doggies). The sculptor Frits van Hall, a communist, is said to have told a colleague that the portrait was easy to remove: put \"Freedom, Merdeka or Indonesia\" in its place \"and you have a statue of liberty\". He joined the resistance and was shot on a death march from Auschwitz in January 1945.\n\nProvo painted it in 1965. A bomb damaged a lion in 1967. In 1984 the portrait was stolen, and that September explosives left by an action group injured a boy playing in the pond. The letters followed in 1991, and the portrait was never found either. In 2004 the district renamed it a memorial to the colonial ties between the two countries.\n\nLook for:\n- the front of the plinth, where the name and the portrait were (the national register still noted the bolts of the letters)\n- the reliefs on the plinth and between the arches: people, animals and crops of the islands\n- the years added in 2007, from 1596 to 2007",
+   "translations": {
+    "nl": {
+     "summary": "In 1935 gebouwd voor de generaal die Atjeh onderwierp, en sindsdien omstreden. Twee keer doelwit van een bom, beroofd van portret en letters, in 2004 van naam veranderd. De beeldhouwer zou hebben opgemerkt hoe makkelijk het een vrijheidsbeeld kon worden.",
+     "body": "De naam VAN HEUTSZ is van de sokkel verdwenen: iemand haalde de letters in 1991 weg en ze zijn nooit teruggevonden. Generaal J.B. van Heutsz, gouverneur-generaal van Nederlands-Indië, was voor de een een held en voor de ander 'de slager van Atjeh'. Na zijn dood in 1924 kwam er voor zijn graf zoveel geld binnen dat er genoeg overbleef voor een tweede monument. Twee jaar lang streden voor- en tegenstanders erover, in de gemeenteraad en daarbuiten; volgens het tv-programma Andere Tijden werd het een ruil, met voor links een monument voor de socialist Domela Nieuwenhuis. Koningin Wilhelmina onthulde dit monument op 15 juni 1935, terwijl tegenstanders spandoeken omhooghielden.\n\nDe generaal zelf was niet meer dan een klein bronzen portret op de sokkel. Wat je ziet is een vrouw met een wetsrol tussen twee leeuwen (Amsterdam en Batavia), een vijver voor de zee tussen de twee landen en een boog van gouden stralen. In de volksmond heet ze 'Mien met de hondjes'. Beeldhouwer Frits van Hall, een communist, zou tegen een collega hebben gezegd dat het portret er zo af kon: zet er 'Vrijheid, Merdeka of Indonesia' voor in de plaats 'en je hebt een Vrijheidsbeeld'. Hij ging in het verzet en werd in januari 1945 doodgeschoten tijdens een dodenmars uit Auschwitz.\n\nProvo beschilderde het in 1965. In 1967 beschadigde een bom een van de leeuwen. In 1984 werd het portret gestolen, en in september van dat jaar raakte een jongen die in de vijver speelde gewond door explosieven van een actiegroep. In 1991 volgden de letters, en ook het portret is nooit teruggevonden. In 2004 gaf het stadsdeel het een nieuwe naam, als gedenkteken voor de koloniale band tussen de twee landen.\n\nLet op:\n- de voorkant van de sokkel, waar de naam en het portret zaten (het rijksregister noemde de bouten van de letters nog)\n- de reliëfs op de sokkel en tussen de bogen: mensen, dieren en gewassen van de eilanden\n- de jaartallen die er in 2007 bij kwamen, van 1596 tot 2007"
+    }
+   }
+  },
+  "sources_add": [
+   "https://web.archive.org/web/20201127172033/http://wvi.antenna.nl/nl/ic/vp/atjeh/heutsz/groen2.html",
+   "https://en.wikipedia.org/wiki/Monument_Indi%C3%AB-Nederland"
+  ]
+ },
+ {
+  "id": "gpy91aaa67zfmn5e2o47kd2z",
+  "title": "Nieuwe Meersluis: bridges that are lock gates, and a relief carved on the spot",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the Overtoomse Sluis, two kilometres north, had marked",
+    "new": "the Overtoomse Sluis had marked",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Nieuwe_Meersluis",
+    "evidence": "\"ter vervanging van de Overtoomse Sluis. Die sluis vormde sinds 1808 de scheiding\"; no source gives the distance"
+   },
+   {
+    "field": "nl.body",
+    "old": "bij de Overtoomse Sluis, twee kilometer noordelijker.",
+    "new": "bij de Overtoomse Sluis.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Nieuwe_Meersluis",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "The drop is small: fifteen centimetres in summer, twenty in winter. But the lake side is the lower one, and without this lock the canals of Amsterdam would drain into the Nieuwe Meer. Since 1808 the Overtoomse Sluis had marked the border between city water and the water of the Rijnland board. Shipping outgrew it, and on 1 July 1942 this lock took over.\n\nThe gates do not swing. They slide sideways on rails, and each carries a deck, so anyone who crosses here on foot or by bike is riding over a lock gate.\n\nIn 1955 the city asked Jan Meefout for a relief. A block of shell limestone was hoisted onto a free-standing brick pier and bricked in, a small workshop was built against the wall, and Meefout carved on the spot for about two years. Three figures stand for what meets at a lock: a swimmer among fish, a figure with both feet on the ground, and one flying among birds. The work goes by the name \"Water, aarde, lucht\" (water, earth, air); the sign on the wall says \"Land, water, licht\".\n\nLook for:\n- the two sliding gates with their bridge decks, at either end of the chamber\n- the year 1957 at the top of the relief\n- the white bloom of salt on the brick behind it\n- the old lock keeper's post, with the later control room built half over it",
+   "translations": {
+    "nl": {
+     "body": "Het verval is klein: vijftien centimeter in de zomer, twintig in de winter. Maar de kant van het meer is de lage kant, en zonder deze sluis zouden de Amsterdamse grachten leeglopen in de Nieuwe Meer. Sinds 1808 lag de grens tussen het stadswater en het boezemwater van Rijnland bij de Overtoomse Sluis. De scheepvaart groeide daar uit zijn jas, en op 1 juli 1942 nam deze sluis het over.\n\nDe deuren draaien niet. Het zijn schuifdeuren op rails, en op elke deur ligt een brugdek: wie hier te voet of op de fiets oversteekt, rijdt over een sluisdeur.\n\nIn 1955 vroeg de gemeente Jan Meefout om een reliëf. Een blok muschelkalk werd op een vrijstaande bakstenen penant gehesen en vastgemetseld, tegen de muur kwam een kleine werkplaats, en Meefout hakte zo'n twee jaar ter plaatse. Drie figuren staan voor wat bij een sluis samenkomt: een zwemmer tussen vissen, een gestalte met beide benen op de grond en een die tussen vogels vliegt. Het werk staat bekend als 'Water, aarde, lucht'; op het bordje aan de muur staat 'Land, water, licht'.\n\nLet op:\n- de twee schuifdeuren met hun brugdek, aan weerszijden van de kolk\n- het jaartal 1957 boven aan het reliëf\n- de witte zoutuitslag op de baksteen erachter\n- de oude sluiswachterspost, waar de latere bedieningscentrale half overheen is gebouwd"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "zu2f08b4250wqn0tp4n5cscu",
+  "title": "Olympia complex and the Olympiakade",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "and that nobody wanted to manage.",
+    "new": "and that the housing association meant to run them turned down at the last moment.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Olympia_(Amsterdam)",
+    "evidence": "\"De AWV besloot vlak voor de oplevering van de eerste woningen toch af te zien van het beheer\"; the city then chose not to ask other associations, so \"nobody wanted\" goes too far"
+   },
+   {
+    "field": "nl.summary",
+    "old": "en die niemand wilde beheren.",
+    "new": "en waarvan de woningbouwvereniging die ze zou beheren op het laatste moment afzag.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Olympia_(Amsterdam)",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Because bicycles wrecked the stairwells elsewhere,",
+    "new": "Because parked bicycles damaged the walls and doors of stairwells elsewhere,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Olympia_(Amsterdam)",
+    "evidence": "\"In andere complexen beschadigden gestalde fietsen in de portieken veelal wanden en deuren\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Omdat fietsen elders de portieken vernielden,",
+    "new": "Omdat gestalde fietsen elders muren en deuren in de portieken beschadigden,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Olympia_(Amsterdam)",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "Five blocks of workers' housing that a private builder put up in 1925 to sell to the city, and that the housing association meant to run them turned down at the last moment. Gates over the side streets carry carved keystones; a school and a castle of a block share the quay.",
+   "body": "In the mid-1920s the government cut its money for public housing, and the building land near the new stadium threatened to go to private investors for middle-class flats. Then a private company, the N.V. Bouw- en Exploitatiemaatschappij Haga, offered to build workers' housing itself and sell it to the city at a fixed price. Its architect was Jan Gratama, who supervised the building of the whole Stadionbuurt for the city and held a share in Haga himself. The housing association AWV was to manage the result, but backed out in July 1925, shortly before the first flats were ready. So the city's own housing department took over, and the first tenants moved in that October.\n\nThe complex has more than 500 homes in five closed blocks on both sides of the Marathonweg. The inner streets (Theseusstraat, Simsonstraat, Sportstraat) pass through gates in the long fronts. Because parked bicycles damaged the walls and doors of stairwells elsewhere, Olympia got an indoor bicycle store run by a bicycle dealer who lived in the complex; every household could park one bicycle free. Most flats still belong to the housing corporation Ymere. The pin is at the Speerstraat end.\n\nEverything here is lived in and seen from the street.\n\nLook for:\n- the sandstone keystones over the gates, with animals and human figures by C.J. Hassoldt, Jan Trapman and Jaap Kaas; at the Turnerstraat the arms of Amsterdam\n- the stair towers in bright red and yellow brick, and the ground floor painted dark brown under a white band\n- Speerstraat 6: the Protestant school by E.A.C. Roest (1923), named after the politician Elout van Soeterwoude; the housing was built around it\n- Olympiakade 52–60 and round the corner to the Amstelveenseweg: the castle-like block by Tj. Kuipers, A. Ingwersen and Roest (1923–1925), with wooden balconies on the fourth floor whose lowest boards are cut in waves\n- its open porch with a pierced brick corner pier at the Amstelveenseweg and the Olympiakade\n- Stadionweg 267–269: an ordinary housing front with a hall behind it. A Pentecostal congregation used it from 1961 to 2007 as the Zuidwijkkapel; from the end of 2007 to 2010 it was the temporary synagogue of the Liberal Jewish Congregation, the \"Stadionsjoel\"",
+   "translations": {
+    "nl": {
+     "summary": "Vijf blokken arbeiderswoningen die een particuliere bouwer in 1925 neerzette, en waarvan de woningbouwvereniging die ze zou beheren op het laatste moment afzag. Poorten over de zijstraten dragen gebeeldhouwde sluitstenen; een school en een burcht van een woonblok delen de kade.",
+     "body": "Halverwege de jaren twintig kneep het Rijk de geldkraan voor volkshuisvesting dicht, en de bouwgrond bij het nieuwe stadion dreigde naar particuliere beleggers te gaan, voor middenstandswoningen. Toen bood een particuliere maatschappij, de N.V. Bouw- en Exploitatiemaatschappij Haga, aan om zelf arbeiderswoningen te bouwen en die tegen een vaste prijs aan de gemeente te verkopen. De architect was Jan Gratama, die voor de gemeente toezicht hield op de bouw van de hele Stadionbuurt en zelf in Haga deelnam. Woningbouwvereniging AWV zou de woningen gaan beheren, maar haakte in juli 1925 af, vlak voor de eerste klaar waren. Dus nam de Gemeentelijke Woningdienst het over, en in oktober trokken de eerste huurders erin.\n\nHet complex telt ruim 500 woningen in vijf gesloten blokken aan weerszijden van de Marathonweg. De binnenstraten (Theseusstraat, Simsonstraat, Sportstraat) lopen door poorten in de lange gevels. Omdat gestalde fietsen elders muren en deuren in de portieken beschadigden, kreeg Olympia een inpandige stalling, gerund door een rijwielhandelaar die in het complex woonde; elk huishouden mocht er één fiets gratis kwijt. De meeste woningen zijn nog van corporatie Ymere. De speld staat aan de kant van de Speerstraat.\n\nAlles is hier bewoond en vanaf de straat te zien.\n\nLet op:\n- de zandstenen sluitstenen boven de poorten, met dieren en mensfiguren van C.J. Hassoldt, Jan Trapman en Jaap Kaas; aan de Turnerstraat het wapen van Amsterdam\n- de trappenhuizen in felrode en gele baksteen, en de donkerbruin geschilderde begane grond onder een witte band\n- Speerstraat 6: de protestantse school van E.A.C. Roest (1923), genoemd naar de politicus Elout van Soeterwoude; de woningen zijn eromheen gebouwd\n- Olympiakade 52–60 en om de hoek tot aan de Amstelveenseweg: het burchtachtige blok van Tj. Kuipers, A. Ingwersen en Roest (1923–1925), met houten balkons op de vierde laag waarvan de onderste planken in golven zijn gezaagd\n- de open portiek met een opengewerkte bakstenen hoekpijler op de hoek van de Amstelveenseweg en de Olympiakade\n- Stadionweg 267–269: een gewone woongevel met een zaal erachter. Een pinkstergemeente gebruikte die van 1961 tot 2007 als Zuidwijkkapel; van eind 2007 tot 2010 was het de tijdelijke synagoge van de Liberaal Joodse Gemeente, de 'Stadionsjoel'"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "o6ga7lgxiayt5h4wwr43813o",
+  "title": "Olympiahuisje (the Olympic post office)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "and was shifted a few metres in 2003 to make room for new housing.",
+    "new": "and was moved in 2003 to make room for new housing.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Olympiahuisje",
+    "evidence": "sources disagree on the distance: Wikipedia \"enige meters verplaatst\", the venue's own site \"niet afgebroken, maar 30 meter verplaatst\""
+   },
+   {
+    "field": "nl.summary",
+    "old": "en is in 2003 een paar meter verschoven voor de nieuwbouw erachter.",
+    "new": "en is in 2003 verplaatst voor de nieuwbouw erachter.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Olympiahuisje",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "but in 2003 it was moved a few metres to make room",
+    "new": "but in 2003 it was moved to make room",
+    "kind": "narrowed",
+    "source": "https://www.hetportiershuisje.nl/",
+    "evidence": "idem"
+   },
+   {
+    "field": "nl.body",
+    "old": "maar is in 2003 een paar meter verplaatst voor",
+    "new": "maar is in 2003 verplaatst voor",
+    "kind": "narrowed",
+    "source": "https://www.hetportiershuisje.nl/",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "Its twin, a double staff house,",
+    "new": "Its twin, a double staff house,",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/451753",
+    "evidence": "\"DUBBELE DIENSTWONING behorend tot het stadioncomplex en gesitueerd langs de Stadiongracht\""
+   }
+  ],
+  "patch": {
+   "summary": "A small brick house by the stadium's architect that was the post office of the 1928 Games, with its own postmark. It survived demolition plans around 2000 and was moved in 2003 to make room for new housing.",
+   "body": "During the Games of 1928 this was the post office on the Olympic grounds. The special Olympic stamps, on sale from 27 March to 15 September 1928, were cancelled here with a postmark of their own. Afterwards the building became the home of the stadium's porter, which is why it is also called Het Portiershuisje (the porter's lodge) and, in the register, the northern staff house.\n\nJan Wils designed it together with the stadium, and it shows his hand in miniature: brick cubes that step in and out, flat roofs, and one steep single-pitch roof with black tiles on the east side. It was listed with the stadium in 1992. That did not stop plans to demolish it in 2000 and 2001. The house stayed, but in 2003 it was moved to make room for the new housing around it: the sports fields north-west of the square became the Olympisch Kwartier district.\n\nToday it is let for meetings and parties, so the inside is seen only by guests. The outside can be walked around. Its twin, a double staff house, stands at the far south end of the grounds on the Stadiongracht and is lived in.\n\nLook for:\n- the steep roof on the east side against the flat boxes of the rest\n- the loggia cut into the upper floor on the south-west side\n- the new blocks of the Olympisch Kwartier right behind it, the reason it moved",
+   "translations": {
+    "nl": {
+     "summary": "Een klein bakstenen huis van de architect van het stadion, tijdens de Spelen van 1928 het postkantoor met een eigen stempel. Het overleefde sloopplannen rond 2000 en is in 2003 verplaatst voor de nieuwbouw erachter.",
+     "body": "Tijdens de Spelen van 1928 was dit het postkantoor op het olympisch terrein. De speciale Olympiadezegels, te koop van 27 maart tot en met 15 september 1928, kregen hier een eigen stempel. Daarna ging de portier van het stadion er wonen. Vandaar de andere namen: Het Portiershuisje, en in het register de noordelijke dienstwoning.\n\nJan Wils tekende het tegelijk met het stadion en het is zijn stijl in het klein: bakstenen blokken die voor- en achteruit springen, platte daken en aan de oostkant één steil lessenaarsdak met zwarte pannen. In 1992 werd het samen met het stadion rijksmonument. Toch lagen er in 2000 en 2001 plannen om het te slopen. Het huisje bleef, maar is in 2003 verplaatst voor de nieuwe woningen eromheen: de sportvelden ten noordwesten van het plein werden de wijk Olympisch Kwartier.\n\nNu wordt het verhuurd voor vergaderingen en feesten; binnen kom je dus alleen als gast. Je kunt er wel omheen lopen. De tegenhanger, een dubbele dienstwoning, staat helemaal aan de zuidkant van het terrein aan de Stadiongracht en is bewoond.\n\nLet op:\n- het steile dak aan de oostkant naast de platte dozen van de rest\n- de loggia die aan de zuidwestkant in de verdieping is uitgespaard\n- de nieuwe blokken van het Olympisch Kwartier er vlak achter, de reden van de verhuizing"
+    }
+   }
+  },
+  "sources_add": [
+   "https://monumentenregister.cultureelerfgoed.nl/monumenten/451753"
+  ]
+ },
+ {
+  "id": "zigsxso8bog8udba9bw7dddp",
+  "title": "Olympic Stadium",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The design won Wils the gold medal for architecture in the Games' own art competition.",
+    "new": "The design won Wils the gold medal for architecture in the Games' own art competition.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Jan_Wils_(architect)",
+    "evidence": "nl.wikipedia Jan Wils (architect): \"ontwerper van het Olympisch Stadion ... Voor dit ontwerp won hij bij het onderdeel kunstwedstrijden de gouden medaille op de Olympische Spelen in Amsterdam\"; RCE 451749 lists Wils among the Dutch Olympic champions for architecture in the art competitions"
+   },
+   {
+    "field": "body",
+    "old": "\n- the white bridge behind the stadium (René van Zuuk): it is named Na-Druk-Geluk after the farm that was pulled down for the stadium",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Jan_Wilsbrug",
+    "evidence": "no source names René van Zuuk, Na-Druk-Geluk or a farm; the bridge behind the stadium in the sources is the Jan Wilsbrug (2008) by Rob Lubrecht"
+   },
+   {
+    "field": "nl.body",
+    "old": "\n- de witte brug achter het stadion (René van Zuuk): ze heet Na-Druk-Geluk, naar de boerderij die voor het stadion werd afgebroken",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Jan_Wilsbrug",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "In 1987 the city wanted to pull this stadium down and build housing. A national survey of younger monuments saved it, and a key argument for the listing was the bare concrete upper ring added in 1937: it showed how the Amsterdam School met the engineering of the thirties. Then came the restoration of 1998–2000. Architect André van Stigt worked from Jan Wils's original drawings and removed that very ring, along with the concrete cycle track. On 13 May 2000 the stadium reopened in its shape of 1928.\n\nWils built it for the Olympic Games of 1928: a concrete frame dressed in two million bricks, low and wide, with one vertical, the Marathon tower. Trumpeters stood on its four balconies, loudspeakers hung in the openings above, and in the bowl on top a flame burned during the Games: the first time the Olympic flame was lit, says the National Committee for 4 and 5 May. Amsterdam called the bowl \"the KLM pilots' ashtray\". The design won Wils the gold medal for architecture in the Games' own art competition.\n\nToday it is an athletics stadium and events venue with offices under the stands, and the finish of the Amsterdam marathon each October. You can walk round the outside; the inside opens only for events.\n\nLook for:\n- over the Marathon gate: the five rings in colour and \"Citius Altius Fortius\" in iron letters\n- in the gateway: stone tablets with the Dutch Olympic champions, Wils himself among them under architecture\n- at the gate: two stone figures by J.C. Altorf, an athlete and a woman with a palm branch, and to the right the foundation stone laid by Prince Hendrik on 18 May 1927\n- Fred Carasso's Prometheus with a torch (1947), the memorial to athletes killed in the war, made in three months; it stood on top of the south stand until 2000 and is the scene of a commemoration every 4 May\n- behind the stadium, by the Cruyff Court: Ek van Zanten's two bronze footballers (1979)\n- on the Stadiongracht (Stadionplein 32–34): the double staff house, half brick quay wall, still lived in\n- along the Stadionplein: the brick entrance walls with their bell-shaped lamps\n- on the Marathonweg, under nos. 37–39 and 65–67: Kees Smout's fresh marathon runners of the 1930s and the exhausted one Ram Katzir added in 2006 (its own place)",
+   "translations": {
+    "nl": {
+     "body": "In 1987 wilde de gemeente dit stadion slopen voor woningbouw. Een landelijke inventarisatie van jonge monumenten redde het, en een belangrijk argument was de kale betonnen bovenring uit 1937: die liet zien hoe de Amsterdamse School en de techniek van de jaren dertig hier samenkwamen. Daarna volgde de restauratie van 1998–2000. Architect André van Stigt pakte de oude tekeningen van Jan Wils erbij en haalde uitgerekend die ring weg, net als de betonnen wielerbaan. Op 13 mei 2000 ging het stadion weer open zoals het er in 1928 uitzag.\n\nWils bouwde het voor de Olympische Spelen van 1928: een betonskelet met twee miljoen bakstenen eromheen, laag en breed, met één verticaal, de Marathontoren. Op de vier balkons stonden de bazuinblazers, in de openingen daarboven hingen luidsprekers, en in de schaal op de top brandde tijdens de Spelen een vuur: de eerste keer dat het olympisch vuur werd ontstoken, zegt het Nationaal Comité 4 en 5 mei. Amsterdammers noemden de schaal 'het asbakje van de KLM-vliegers'. Wils won met het ontwerp goud voor architectuur in de kunstwedstrijden van de Spelen zelf.\n\nNu is het een atletiekstadion en evenementenlocatie met kantoren onder de tribunes, en elk jaar in oktober de finish van de marathon van Amsterdam. Je kunt er buitenom lopen; binnen kom je alleen bij evenementen.\n\nLet op:\n- boven de Marathonpoort: de vijf ringen in kleur en 'Citius Altius Fortius' in ijzeren letters\n- in de poort: stenen platen met de Nederlandse olympische kampioenen, onder wie Wils zelf bij het onderdeel architectuur\n- bij de poort: twee hardstenen figuren van J.C. Altorf, een atleet en een vrouw met een palmtak, en rechts de eerste steen die prins Hendrik op 18 mei 1927 legde\n- Prometheus met fakkel van Fred Carasso (1947), het monument voor sporters die in de oorlog omkwamen, in drie maanden gemaakt; het stond tot 2000 boven op de zuidtribune en elk jaar op 4 mei is hier een herdenking\n- achter het stadion, bij het Cruyff Court: de twee bronzen voetballers van Ek van Zanten (1979)\n- aan de Stadiongracht (Stadionplein 32–34): de dubbele dienstwoning, half kademuur, nog altijd bewoond\n- langs het Stadionplein: de bakstenen toegangsmuren met hun klokvormige lampen\n- aan de Marathonweg, onder nr. 37–39 en 65–67: de frisse marathonlopers van Kees Smout uit de jaren dertig en de uitgeputte die Ram Katzir er in 2006 bij maakte (een eigen plek)"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Jan_Wils_(architect)"
+  ]
+ },
+ {
+  "id": "u525cg8gjea0hqc8czovrml4",
+  "title": "Schaduwen, the shadows of the Olympiaplein raid",
+  "changes": [
+   {
+    "field": "body",
+    "old": "On Sunday 20 June 1943 the occupier sealed off Zuid and Oost and arrested about 5,500 Jews in a single day.",
+    "new": "On Sunday 20 June 1943, in the great raid, about 5,500 Jews were arrested in Amsterdam in a single day.",
+    "kind": "narrowed",
+    "source": "https://buitenkunstamsterdam.nl/kunstwerken/bekijk/2533",
+    "evidence": "\"Op 20 juni 1943 werden tijdens de grote razzia in Amsterdam in totaal circa 5.500 Joden opgepakt\"; no source says which districts were sealed off"
+   },
+   {
+    "field": "nl.body",
+    "old": "Op zondag 20 juni 1943 zette de bezetter Zuid en Oost af en pakte op één dag ongeveer 5.500 Joden op.",
+    "new": "Op zondag 20 juni 1943, tijdens de grote razzia, werden in Amsterdam op één dag ongeveer 5.500 Joden opgepakt.",
+    "kind": "narrowed",
+    "source": "https://buitenkunstamsterdam.nl/kunstwerken/bekijk/2533",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "before being taken to the trains for Westerbork. Herman Heukels, a photographer and member of the Dutch Nazi party NSB, took pictures there. Nobody knows who the families in them were.",
+    "new": "before being taken to Westerbork. Herman Heukels, a member of the Dutch Nazi party NSB, took a photograph there. The names of the people in it are not known.",
+    "kind": "narrowed",
+    "source": "https://buitenkunstamsterdam.nl/kunstwerken/bekijk/2533",
+    "evidence": "\"Via kamp Westerbork werden zij ... getransporteerd ... Deze foto werd hier genomen op die dag door de Nederlandse collaborateur NSB'er Herman Heukels. De namen van de mensen op de foto zijn niet bekend\"; trains, his profession, several pictures and families are not in the sources"
+   },
+   {
+    "field": "nl.body",
+    "old": "voordat ze naar de treinen naar Westerbork werden gebracht. Herman Heukels, fotograaf en lid van de NSB, maakte er foto's. Wie de gezinnen op die foto's waren, weet niemand.",
+    "new": "voordat ze naar Westerbork werden gebracht. Herman Heukels, lid van de NSB, maakte er een foto. Hoe de mensen op die foto heetten, is niet bekend.",
+    "kind": "narrowed",
+    "source": "https://buitenkunstamsterdam.nl/kunstwerken/bekijk/2533",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The artist Ram Katzir took one of those pictures, now kept by",
+    "new": "The artist Ram Katzir took that photograph, now kept by",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/monumenten_zoeken/oorlogsmonument/4502",
+    "evidence": "\"een foto die tijdens de bewuste razzia door NSB-er Herman Heukels was gemaakt en in het bezit is van het NIOD\""
+   },
+   {
+    "field": "nl.body",
+    "old": "Kunstenaar Ram Katzir nam een van die foto's, die nu bij",
+    "new": "Kunstenaar Ram Katzir nam die foto, die nu bij",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/monumenten_zoeken/oorlogsmonument/4502",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "The people in the photograph have no names. On Sunday 20 June 1943, in the great raid, about 5,500 Jews were arrested in Amsterdam in a single day. The sports field on the Olympiaplein was one of the places where they had to assemble before being taken to Westerbork. Herman Heukels, a member of the Dutch Nazi party NSB, took a photograph there. The names of the people in it are not known.\n\nThe artist Ram Katzir took that photograph, now kept by the war documentation institute NIOD, and left out everything except the shadows. He went back to the spot and worked out the position of the sun and of the photographer, so that the shadows could be laid where the people had walked. Nine figures were cut out of the light paving stones and filled with dark asphalt. Katzir's reasoning: few people reacted that day and most looked the other way, and those being deported were already no more than their shadows.\n\nHe worked with three pupils of Het Amsterdams Lyceum, the school just north of the square. The memorial was unveiled on 20 June 2022, 79 years to the day. It is in the pavement on the south side of the Olympiaplein and is always accessible.\n\nLook for:\n- the nine shadows underfoot\n- the information post with the photograph of 1943\n- the gilded letters on the fence at the south-east corner: \"Hier trainde Fanny Blankers-Koen\", who trained here on the old athletics track\n- the fence itself, by Ruud-Jan Kokke, which won a Dutch Design Award in 2008",
+   "translations": {
+    "nl": {
+     "body": "De mensen op de foto hebben geen naam. Op zondag 20 juni 1943, tijdens de grote razzia, werden in Amsterdam op één dag ongeveer 5.500 Joden opgepakt. Het sportveld op het Olympiaplein was een van de plekken waar ze zich moesten verzamelen voordat ze naar Westerbork werden gebracht. Herman Heukels, lid van de NSB, maakte er een foto. Hoe de mensen op die foto heetten, is niet bekend.\n\nKunstenaar Ram Katzir nam die foto, die nu bij het NIOD ligt, en liet alles weg behalve de schaduwen. Hij ging terug naar de plek en zocht uit waar de zon en de fotograaf stonden, zodat de schaduwen konden komen te liggen waar de mensen hadden gelopen. Negen figuren zijn uit de lichte stoeptegels gesneden en opgevuld met donker asfalt. Zijn gedachte: maar weinig mensen kwamen die dag in actie en de meesten keken de andere kant op, en wie werd weggevoerd, was al niet meer dan zijn schaduw.\n\nHij werkte samen met drie leerlingen van Het Amsterdams Lyceum, de school net ten noorden van het plein. Het gedenkteken is op 20 juni 2022 onthuld, op de dag af 79 jaar later. Het ligt in de stoep aan de zuidkant van het Olympiaplein en is altijd toegankelijk.\n\nLet op:\n- de negen schaduwen onder je voeten\n- de informatiezuil met de foto uit 1943\n- de vergulde letters op het hek aan de zuidoosthoek: 'Hier trainde Fanny Blankers-Koen', die hier op de oude atletiekbaan oefende\n- het hek zelf, van Ruud-Jan Kokke, in 2008 bekroond met een Dutch Design Award"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "y5tv2u65b2eyhslz23l56w7p",
+  "title": "Tripolis",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Aldo and Hannie van Eyck's last big work (1994):",
+    "new": "One of Aldo and Hannie van Eyck's last works (1994):",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/2279d170-4696-41ac-9981-d0d51e58695d",
+    "evidence": "\"Het kantorencomplex Tripolis is het één na laatste werk dat Aldo van Eyck (1918-1999) realiseerde\""
+   },
+   {
+    "field": "nl.summary",
+    "old": "Het laatste grote werk van Aldo en Hannie van Eyck (1994),",
+    "new": "Een van de laatste werken van Aldo en Hannie van Eyck (1994),",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/2279d170-4696-41ac-9981-d0d51e58695d",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "The complex opened in a slump and half empty,",
+    "new": "The complex opened in a slump with too few tenants,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Tripolis_(Amsterdam)",
+    "evidence": "\"De oplevering was rond april 1994, toen er een malaise heerste in de Amsterdamse kantoorwereld en er nog (te) weinig huurders voor het pand waren gevonden\"; \"half\" is not in the source"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het complex ging open in een slechte markt en stond half leeg,",
+    "new": "Het complex ging open in een slechte markt met te weinig huurders,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Tripolis_(Amsterdam)",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "The office complex that paid for the rescue of the orphanage next door. One of Aldo and Hannie van Eyck's last works (1994): wooden towers with rainbow window frames that lean outwards as they rise, listed at the age of 25.",
+   "body": "Tripolis exists because of the building beside it. When the city bought Aldo van Eyck's orphanage in 1988 to save it from demolition, it tied the restoration to a building permit: whoever repaired the orphanage could put 25,000 square metres of offices on the land between it and the ring road. The city wanted Van Eyck as architect of those too. He and his wife Hannie designed three clusters of towers, finished in 1994, and placed them so that they shelter the low orphanage from the motorway.\n\nThe towers are clad in a grid of iroko wood with strips of granite. Every floor juts out five centimetres beyond the one below, so the towers seem to lean towards each other. The window frames are coloured by position: purple and blue on the outside of the complex, yellow, orange and red around the inner court.\n\nAs offices they were never a success. The complex opened in a slump with too few tenants, and it emptied again later. When the Zuidasdok works on the ring road threatened it in 2018, the heritage society Heemschut asked for protection, and in April 2019 a building just 25 years old became a municipal monument. The developer's plan to build a long glass office block by MVRDV beside and over it brought protests from Van Eyck's heirs. The new block was under construction in 2021, and the whole is now called Tripolis Park.\n\nThe outside is seen from the Amstelveenseweg and the Burgerweeshuispad. The offices are not open.\n\nLook for:\n- the copper-lined rainwater pipes down the middle of each front, ending in round basins in the plinth\n- windows that seem to widen towards the top, because the parapets get higher\n- the artificial hill between Tripolis and the orphanage: a car park lies under it\n- the new glass block between the towers and the A10",
+   "translations": {
+    "nl": {
+     "summary": "Het kantorencomplex dat de redding van het weeshuis ernaast betaalde. Een van de laatste werken van Aldo en Hannie van Eyck (1994), houten torens met kozijnen in regenboogkleuren die naar boven toe uitkragen, en al op zijn 25e een monument.",
+     "body": "Tripolis bestaat dankzij het gebouw ernaast. Toen de gemeente in 1988 het Burgerweeshuis van Aldo van Eyck kocht om het van de sloop te redden, koppelde ze de restauratie aan een bouwrecht: wie het weeshuis opknapte, mocht op de grond tussen het weeshuis en de ringweg 25.000 vierkante meter kantoren bouwen. De gemeente wilde ook daarvoor het liefst Van Eyck. Hij en zijn vrouw Hannie tekenden drie groepen torens, opgeleverd in 1994, en zetten ze zo neer dat ze het lage weeshuis tegen de snelweg beschermen.\n\nDe torens zijn bekleed met een raster van irokohout en stroken graniet. Elke verdieping steekt vijf centimeter verder uit dan de vorige, zodat de torens naar elkaar toe lijken te buigen. De kozijnen hebben een kleur naar hun plek: paars en blauw aan de buitenkant van het complex, geel, oranje en rood rond de binnenplaats.\n\nAls kantoor was het nooit een succes. Het complex ging open in een slechte markt met te weinig huurders, en later liep het opnieuw leeg. Toen het werk aan het Zuidasdok bij de ringweg het in 2018 bedreigde, vroeg erfgoedvereniging Heemschut bescherming aan, en in april 2019 werd een gebouw van net 25 jaar gemeentelijk monument. Tegen het plan van de ontwikkelaar om er een lang glazen kantoor van MVRDV naast en overheen te zetten, protesteerden de erfgenamen van Van Eyck. In 2021 was het nieuwe blok in aanbouw, en het geheel heet nu Tripolis Park.\n\nDe buitenkant zie je vanaf de Amstelveenseweg en het Burgerweeshuispad. De kantoren zijn niet open.\n\nLet op:\n- de met koper beklede regenpijpen midden op elke gevel, die onderaan uitkomen in ronde bakken in de plint\n- ramen die naar boven breder lijken te worden, doordat de borstweringen hoger worden\n- de kunstmatige heuvel tussen Tripolis en het weeshuis: daaronder ligt een parkeergarage\n- het nieuwe glazen blok tussen de torens en de A10"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yxth0f9tqokf80g9bw7k8u6d",
+  "title": "Van Tuyll monument (the Olympic salute)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "He stands in the stairwell at the entrance to section I and can be seen only when the stadium is open for an event.",
+    "new": "He stands in the stairwell at the entrance to section I, inside the stadium.",
+    "kind": "cut",
+    "source": "https://www.cuypersgenootschap.nl/nieuws/standbeeld-bij-olympisch-stadion-weggehaald/",
+    "evidence": "\"Het is verplaatst naar het trappenhuis bij de entree van vak I\"; no source says when it can be seen"
+   },
+   {
+    "field": "nl.body",
+    "old": "Hij staat in het trappenhuis bij de ingang van vak I en is alleen te zien als het stadion voor een evenement open is.",
+    "new": "Hij staat in het trappenhuis bij de ingang van vak I, binnen in het stadion.",
+    "kind": "cut",
+    "source": "https://www.cuypersgenootschap.nl/nieuws/standbeeld-bij-olympisch-stadion-weggehaald/",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "From 1928 a bronze athlete nearly three metres tall stood in front of the stadium, right arm stretched out. Since March 2022 he stands in a stairwell inside.\n\nGra Rueb made the figure in memory of Frits van Tuyll van Serooskerken, first chairman of the Dutch Olympic Committee, who worked to bring the Games to Amsterdam and died in 1924. Jan Wils designed the brick plinth, and Prince Hendrik unveiled it on 17 May 1928, just before the hockey match between the Netherlands and France. The gesture is the Olympic salute, introduced at the Paris Games of 1924. After the war the IOC dropped it: too close to the Hitler salute.\n\nThe statue stayed, was daubed now and then, and got a tile with an explanation in the paving. Its defenders said the salute went back to the Romans. A study for the stadium in 2019–2020 judged that story unsound: by 1924 Mussolini's fascists were already using the gesture. The stadium asked to move the statue indoors. The national heritage agency advised against it; the city gave the permit all the same. The heritage society Cuypersgenootschap went to court to get the athlete back outside and lost at the end of 2022. The stadium said then that it was still looking for a permanent place.\n\nHe stands in the stairwell at the entrance to section I, inside the stadium.\n\nLook for:\n- low on the bronze: the sculptor's signature and date on the right, the mark of the Leiden foundry on the left\n- outside: the place beside the Marathon tower where he stood; in 1928 he stood on the other side of the gate, as the tower's counterpart",
+   "translations": {
+    "nl": {
+     "body": "Vanaf 1928 stond er voor het stadion een bronzen atleet van bijna drie meter, de rechterarm schuin omhoog gestrekt. Sinds maart 2022 staat hij binnen, in een trappenhuis.\n\nGra Rueb maakte het beeld ter herinnering aan Frits van Tuyll van Serooskerken, de eerste voorzitter van het Nederlands Olympisch Comité, die zich had ingezet om de Spelen naar Amsterdam te halen en in 1924 overleed. Jan Wils ontwierp de bakstenen sokkel en prins Hendrik onthulde het geheel op 17 mei 1928, vlak voor de hockeywedstrijd Nederland-Frankrijk. Het gebaar is de olympische groet, ingevoerd bij de Spelen van 1924 in Parijs. Na de oorlog schafte het IOC die af: hij leek te veel op de Hitlergroet.\n\nHet beeld bleef staan, werd af en toe beklad en kreeg een tegel met uitleg in de bestrating. Verdedigers zeiden dat de groet op de Romeinen terugging. Een onderzoek voor het stadion in 2019–2020 vond dat verhaal niet houdbaar: in 1924 gebruikten de fascisten van Mussolini het gebaar al. Het stadion vroeg toestemming om het beeld naar binnen te halen. De Rijksdienst voor het Cultureel Erfgoed adviseerde negatief, de gemeente gaf de vergunning toch. Het Cuypersgenootschap stapte naar de rechter om de atleet terug naar buiten te krijgen en verloor eind 2022. Het stadion zei toen nog naar een vaste plek te zoeken.\n\nHij staat in het trappenhuis bij de ingang van vak I, binnen in het stadion.\n\nLet op:\n- onderaan op het brons: rechts de signatuur en het jaartal van de maakster, links het merk van de Leidse gieterij\n- buiten: de plek naast de Marathontoren waar hij stond; in 1928 stond hij aan de andere kant van de poort, als tegenhanger van de toren"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "pew6xyhri8a3z474avms6plh",
+  "title": "Willem de Zwijgerkerk",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The first name proposed was Geuzenkerk, after the Sea Beggars of the Dutch Revolt.",
+    "new": "The first name proposed was Geuzenkerk, after the Beggars (Geuzen) of the Dutch Revolt.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/490405b3-a9d8-4775-99d8-9af16ec9141a",
+    "evidence": "\"De aanvankelijk voorgestelde naam van Geuzenkerk\"; Geuzen are the Beggars in general, the Sea Beggars were one branch; the NL text names no group"
+   }
+  ],
+  "patch": {
+   "body": "The Dutch Reformed congregation announced a church for the new south of the city in 1923, and what it wanted was a statement. The first name proposed was Geuzenkerk, after the Beggars (Geuzen) of the Dutch Revolt. In December 1925 the church council settled on Willem de Zwijger (William the Silent), the father of the nation: a name that tied the church to the birth of the Netherlands itself. The city register calls this \"armoured Protestantism\".\n\nCornelis Kruyswijk won the closed competition with a design under the motto \"Pax intrantibus\", peace to those who enter. The church opened in 1931 as the middle of a small complex: a parish hall on the Speerstraat, two parsonages and a rest home. Berlage had wanted churches at the heart of his squares. In practice the congregations built where the city gave them a plot, and this one got a corner beside the Olympiaplein, set back behind a small forecourt so that the tower has room.\n\nInside (seen at services and events) pulpit, elders' benches and organ form one wall of Slavonian oak, under square stained-glass windows by Kees Kuiler in blue, yellow, orange and ochre. Since 1995 the church has served a merged Protestant congregation. As \"De Willem\" it is now also a meeting place for the Stadionbuurt.\n\nLook for:\n- the stone portrait of William the Silent in the arch over the door, by Theo van Reyn\n- the name in wrought-iron letters above the entrance\n- the slender square tower with its round top and copper cap, and the clock faces above the sound holes\n- the brick pattern of standing and lying courses in the top of the gable\n- the low fence with ornament around the forecourt"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "aiz40qtf5sif1fiqe66sa9sz",
+  "title": "Amsterdams Lyceum",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Its founder and first rector, C.P. Gunning, wanted a building to match, and the brothers Herman and Jan Baanders gave him a gateway.",
+    "new": "Its founder and first rector was C.P. Gunning, and the brothers Herman and Jan Baanders designed its building as a gateway.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504650",
+    "evidence": "register: \"als stadspoort opgetrokken SCHOOLGEBOUW ... naar een ontwerp van H.A.J. en J. Baanders in opdracht van het bestuur van de Vereeniging\"; no source gives Gunning's wishes for the building"
+   },
+   {
+    "field": "nl.body",
+    "old": "Oprichter en eerste rector dr. C.P. Gunning wilde een gebouw dat daarbij paste, en de broers Herman en Jan Baanders gaven hem een poort.",
+    "new": "Oprichter en eerste rector was dr. C.P. Gunning, en de broers Herman en Jan Baanders ontwierpen het gebouw als poort.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504650",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- in the pavement in front of the school: the red Comenius stone of 1920,",
+    "new": "- in the pavement in front of the school: the Comenius stone of 1920,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gedenksteen_Comenius",
+    "evidence": "\"gedenksteen geplaatst in het trottoir van het Valeriusplein ... richting Het Amsterdams Lyceum. Het was een zogenaamde eerste steen\"; the colour is not in the source"
+   },
+   {
+    "field": "nl.body",
+    "old": "- in de stoep voor de school: de rode Comeniussteen uit 1920,",
+    "new": "- in de stoep voor de school: de Comeniussteen uit 1920,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gedenksteen_Comenius",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "In 1917 Amsterdam got its first lyceum, a new kind of secondary school that combined the classical gymnasium with the modern HBS. Its founder and first rector was C.P. Gunning, and the brothers Herman and Jan Baanders designed its building as a gateway. Built in 1918–1920 across the south end of the Valeriusplein, it lets traffic into what was about to become Berlage's Plan Zuid through two round arches, with footways on either side.\n\nAbove the arches on the square side, raised in brick, is the school motto: POTIUS DEFICERE QUAM DESPERARE, rather fall short than despair. On the canal side the same spot reads IN HET EERSTE VREDESJAAR, in the first year of peace after the Great War. The next war hit the school hard. Its Jewish pupils were forced to leave for a separate Jewish lyceum, and most were deported and did not return. Gunning was interned in Camp Amersfoort, survived, and came back as rector.\n\nThe low, flat-roofed house on the corner of the De Lairessestraat is the rector's house, De Zonne-Wijzer (1919), mostly Jan Baanders's work and clearly taken with Frank Lloyd Wright. Across the square, nos. 42–44 (designed in 1923) is a double house in the same spirit by G.J. Rutgers.\n\nIt is a working school and the interior is closed, but the street through the gate is public.\n\nLook for:\n- the two mottoes in brick relief, one on each side\n- the twisted brickwork of the columns and the vaults inside the gateway\n- the clock in the right-hand tower, with the year 1920\n- the sundial on the south-west corner of the rector's house\n- the deep porch of the rector's house, with its original lamp in the ceiling\n- nos. 42–44: funnel-shaped entrances on the Cornelis Krusemanstraat side, and the garden gate on the square\n- in the pavement in front of the school: the Comenius stone of 1920, first stone of a monument that was never built (its own place)",
+   "translations": {
+    "nl": {
+     "body": "In 1917 kreeg Amsterdam zijn eerste lyceum, een nieuw soort middelbare school die gymnasium en HBS samenbracht. Oprichter en eerste rector was dr. C.P. Gunning, en de broers Herman en Jan Baanders ontwierpen het gebouw als poort. Het gebouw uit 1918–1920 staat dwars over de zuidkant van het Valeriusplein: door twee ronde bogen, met een voetgangersgang aan weerskanten, rijd je het gebied in dat toen net Plan Zuid van Berlage zou worden.\n\nBoven de bogen staat aan de pleinkant in baksteen de lijfspreuk van de school: POTIUS DEFICERE QUAM DESPERARE, liever tekortschieten dan wanhopen. Aan de kant van het kanaal staat op dezelfde plek IN HET EERSTE VREDESJAAR, het eerste jaar na de Eerste Wereldoorlog. De volgende oorlog trof de school zwaar. De Joodse leerlingen moesten naar het Joods Lyceum; de meesten zijn gedeporteerd en kwamen niet terug. Gunning zat vast in Kamp Amersfoort, overleefde het en werd weer rector.\n\nHet lage huis met plat dak op de hoek van de De Lairessestraat is de rectorswoning, De Zonne-Wijzer (1919), vooral het werk van Jan Baanders en duidelijk onder de indruk van Frank Lloyd Wright. Aan de overkant van het plein staat op 42–44 een dubbel woonhuis in dezelfde geest van G.J. Rutgers, ontworpen in 1923.\n\nHet is een school in bedrijf en binnen kun je niet kijken, maar de straat door de poort is openbaar.\n\nLet op:\n- de twee spreuken in baksteenreliëf, aan elke kant één\n- het gedraaide metselwerk van de kolommen en de gewelven in de poort\n- de wijzerplaat in de rechtertoren, met het jaartal 1920\n- de zonnewijzer op de zuidwesthoek van de rectorswoning\n- het diepe portiek van de rectorswoning, met de oude lamp in het plafond\n- 42–44: de trechtervormige ingangen aan de Cornelis Krusemanstraat, en het tuinpoortje aan het plein\n- in de stoep voor de school: de Comeniussteen uit 1920, eerste steen van een monument dat er nooit is gekomen (een eigen plek)"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Gedenksteen_Comenius"
+  ]
+ },
+ {
+  "id": "s4vtk2xwhcz9jy1unk7m0zz4",
+  "title": "Carriage depot of the Amsterdamsche Rijtuig Maatschappij",
+  "changes": [
+   {
+    "field": "body",
+    "old": "In 1911–1912 it had J.A. van Straaten build this depot at the edge of the new, well-to-do district.",
+    "new": "In 1911–1912 it had J.A. van Straaten build this depot in a residential district.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505686",
+    "evidence": "\"als laat voorbeeld van een stalhouderijcomplex in een woonwijk\"; no source says the district was new or well-to-do or that this was its edge"
+   },
+   {
+    "field": "nl.body",
+    "old": "In 1911–1912 liet ze J.A. van Straaten deze remise bouwen aan de rand van de nieuwe, deftige wijk.",
+    "new": "In 1911–1912 liet ze J.A. van Straaten deze remise bouwen in een woonwijk.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/505686",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- in the Lomanstraat itself: the plane trees on both sides lean in towards each other",
+    "new": "- in the Lomanstraat itself: the trees on both sides lean in towards each other",
+    "kind": "narrowed",
+    "source": "https://farandwide.com/s/this-ordinary-street-in-amsterdam-turned-into-a-perfect-natural-tree-tunnel/",
+    "evidence": "travel pieces describe the leaning trees forming a tunnel; the species is disputed (one source says honey locust), none confirms plane trees"
+   },
+   {
+    "field": "nl.body",
+    "old": "- in de Lomanstraat zelf: de platanen aan weerszijden hellen naar elkaar toe",
+    "new": "- in de Lomanstraat zelf: de bomen aan weerszijden hellen naar elkaar toe",
+    "kind": "narrowed",
+    "source": "https://farandwide.com/s/this-ordinary-street-in-amsterdam-turned-into-a-perfect-natural-tree-tunnel/",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "The end of this block looks like a row of English country houses: pebbly rendered gables, bow windows, shingled roofs. Look lower. The ground floor is banded brick with three big arched gateways, and through those the carriages went in and out.\n\nThe Amsterdamsche Rijtuig Maatschappij (Amsterdam Carriage Company) hired out coaches, moved furniture and dealt in horses. In 1911–1912 it had J.A. van Straaten build this depot in a residential district. The whole ground floor was stabling and coach house, with a waiting room for the coachmen and a washing place. Upstairs were ten dwellings: two small ones for coachmen facing the Hendrik Jacobszstraat, and eight roomy ones for paying tenants along the Valeriusstraat and Lomanstraat. Six of those had their garden on the flat roof of the stables.\n\nIt was built just too late. In 1919 the company had the middle of the ground floor turned into \"car garage and small horse stable\". The firm left, probably in the 1970s, and the ground floor is now shops. The national register calls it a late example of a livery stable inside a residential district.\n\nLook for:\n- the three arched former carriage gates on the Hendrik Jacobszstraat\n- the ground floor of brick laid in projecting and receding bands, like rusticated stone\n- the twin gables in the middle, where the two coachmen lived\n- the bowed bay windows running through two floors\n- the half-round canopies over the front doors on the side streets, added during building in 1912\n- on the front, the two tenants' gardens beside the conservatories, visible from the street\n- in the Lomanstraat itself: the trees on both sides lean in towards each other and close over the roadway like a tunnel, at its best in leaf",
+   "translations": {
+    "nl": {
+     "body": "De kop van dit blok lijkt een rijtje Engelse landhuizen: begrinde puntgevels, ronde erkers, daken met shingles. Maar kijk eens lager. De begane grond is van baksteen in banden, met drie grote poorten onder een boog, en daardoor reden de rijtuigen in en uit.\n\nDe Amsterdamsche Rijtuig Maatschappij verhuurde koetsen, deed verhuizingen en handelde in paarden. In 1911–1912 liet ze J.A. van Straaten deze remise bouwen in een woonwijk. De hele begane grond was stal en koetshuis, met een wachtkamer voor de koetsiers en een wasplaats. Daarboven lagen tien woningen: twee kleine voor koetsiers aan de Hendrik Jacobszstraat en acht ruime voor gewone huurders langs de Valeriusstraat en de Lomanstraat. Zes daarvan hadden hun tuin op het platte dak van de stallen.\n\nHet gebouw kwam net te laat. Al in 1919 liet de maatschappij het midden van de begane grond verbouwen tot 'autogarage en kleine paardenstal'. Het bedrijf vertrok, vermoedelijk in de jaren zeventig. Beneden zitten nu winkels. Het rijksregister noemt het een laat voorbeeld van een stalhouderij midden in een woonwijk.\n\nLet op:\n- de drie voormalige rijtuigpoorten met boog aan de Hendrik Jacobszstraat\n- de begane grond van baksteen in vooruitspringende en terugliggende banden, alsof het blokken natuursteen zijn\n- de twee puntgevels naast elkaar in het midden, waar de twee koetsiers woonden\n- de ronde erkers over twee verdiepingen\n- de halfronde luifels boven de voordeuren in de zijstraten, in 1912 tijdens de bouw toegevoegd\n- aan de voorkant de twee tuinen van huurders naast de serres, vanaf de straat te zien\n- in de Lomanstraat zelf: de bomen aan weerszijden hellen naar elkaar toe en sluiten zich boven de rijweg als een tunnel, op zijn mooist als ze in blad staan"
+    }
+   }
+  },
+  "sources_add": [
+   "https://farandwide.com/s/this-ordinary-street-in-amsterdam-turned-into-a-perfect-natural-tree-tunnel/"
+  ]
+ },
+ {
+  "id": "rf6eg34zqhswmoyhsvtalzb6",
+  "title": "Cornelis Krusemanstraat: the north-west corner of Plan Zuid",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "with three buildings of the early 1920s.",
+    "new": "with three buildings of the 1920s.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/ebafc180-4ce1-4bcc-bf71-503bbd398e6d",
+    "evidence": "Rutgers' block was designed in 1923 and built \"in 1925-1926\", not in the early 1920s"
+   },
+   {
+    "field": "nl.summary",
+    "old": "met drie gebouwen uit de vroege jaren twintig.",
+    "new": "met drie gebouwen uit de jaren twintig.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/ebafc180-4ce1-4bcc-bf71-503bbd398e6d",
+    "evidence": "idem"
+   },
+   {
+    "field": "body",
+    "old": "- on both blocks: decorative iron hoisting beams above the stairwells",
+    "new": "- on both blocks: hoisting beams, on Van Epen's block decorative iron ones above the stairwells",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504908",
+    "evidence": "504908: \"de op regelmatige afstand van elkaar boven de trapportalen aangebrachte decoratief vormgegeven ijzeren hijsbalken\"; 222014 places Rutgers' hoisting beams over the top-floor windows (\"Via de hijsbalk erboven kunnen spullen rechtstreeks naar de zolder\"). Verification: 222014 (Rutgers) mentions a hijsbalk but not that it is iron, so \"iron\" now applies to Van Epen's block only"
+   },
+   {
+    "field": "nl.body",
+    "old": "- bij beide blokken: sierlijke ijzeren hijsbalken boven de trappenhuizen",
+    "new": "- bij beide blokken: hijsbalken, bij het blok van Van Epen sierlijke ijzeren boven de trappenhuizen",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/504908",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "summary": "Where the villa park stops, Berlage's Plan Zuid starts with three buildings of the 1920s. A school with classrooms added on its roof, a block of flats for a teachers' housing association, and shops between granite piers.",
+   "body": "Walk south from the villas and at the Cornelis Krusemanstraat the city changes scale. This is the north-west edge of Berlage's Plan Zuid, and the difference is the point: long walls of brick, higher on the main street and a floor lower round the corner, built for the middle classes.\n\nThe street itself was a late arrival. Before there was any building here, the municipal tram had a temporary yard of five sidings on this spot from 1913; the street was named in 1917 and tram 16 ran through it from 1919 to 2018.\n\nThree listed buildings mark the start. On the corner of the Okeghemstraat stands a municipal school of 1920 for ULO (advanced primary education, forerunner of today's lower secondary school), designed by Public Works in a restrained Amsterdam School style; this ensemble is pinned on it. In 1948 two classrooms were put on its roof terrace. Across the street, G.J. Rutgers built flats over shops in 1925–1926, wrapped round to the raised Valeriusterras beside the Amsterdams Lyceum. West of that, J.C. van Epen's U-shaped block of 1920–1921 was built for ACOB, a housing association for teachers, round a shared garden.\n\nThe two blocks are housing and shops; everything is seen from the street.\n\nLook for:\n- the school: the half-round brick balcony above the entrance, and the corner built up from projecting and receding blocks\n- Rutgers' block: heavy piers of rough-hewn granite between the shopfronts\n- Rutgers' block: the tower-like corner on the Okeghemstraat, with a round-arched loggia\n- Van Epen's block: three-sided bays climbing from the first floor, and six-sided attic windows\n- Van Epen's block: the round-arched gate with an iron grille on the Hendrik Jacobszstraat, leading to the garden\n- on both blocks: hoisting beams, on Van Epen's block decorative iron ones above the stairwells",
+   "translations": {
+    "nl": {
+     "summary": "Waar het villapark ophoudt, begint het Plan Zuid van Berlage met drie gebouwen uit de jaren twintig. Een school met lokalen op het dak, een woonblok voor een woningbouwvereniging van onderwijzers en winkels tussen granieten pijlers.",
+     "body": "Loop vanaf de villa's naar het zuiden en bij de Cornelis Krusemanstraat verandert de stad van maat. Dit is de noordwestrand van Berlages Plan Zuid, en het verschil is de bedoeling: lange wanden van baksteen, hoger aan de hoofdstraat en om de hoek een verdieping lager, gebouwd voor de middenstand.\n\nDe straat zelf kwam laat. Nog voor er een huis stond, had de Gemeentetram hier vanaf 1913 een tijdelijke opstelplaats met vijf sporen. De straat kreeg in 1917 haar naam en van 1919 tot 2018 reed lijn 16 erdoor.\n\nDrie monumenten markeren het begin. Op de hoek van de Okeghemstraat staat een gemeentelijke ULO-school uit 1920 (de ULO was de voorloper van de mavo), getekend door Publieke Werken in een ingetogen Amsterdamse Schoolstijl; hier staat de speld. In 1948 kwamen er twee lokalen op het dakterras bij. Aan de overkant bouwde G.J. Rutgers in 1925–1926 etagewoningen boven winkels, de hoek om tot aan het verhoogde Valeriusterras naast het Amsterdams Lyceum. Ten westen daarvan staat het U-vormige blok van J.C. van Epen uit 1920–1921, gebouwd voor ACOB, een woningbouwvereniging voor onderwijzers, rond een gemeenschappelijke tuin.\n\nDe twee blokken zijn woningen en winkels; je bekijkt alles vanaf de straat.\n\nLet op:\n- de school: het halfronde bakstenen balkon boven de ingang, en de hoek die uit in- en uitspringende blokken is opgebouwd\n- het blok van Rutgers: zware pijlers van ruw gehakt graniet tussen de winkelpuien\n- het blok van Rutgers: de torenachtige hoek aan de Okeghemstraat, met een loggia met ronde bogen\n- het blok van Van Epen: driezijdige erkers die vanaf de eerste verdieping omhoog lopen, en zeshoekige zolderramen\n- het blok van Van Epen: de poort met ronde boog en ijzeren hek aan de Hendrik Jacobszstraat, naar de binnentuin\n- bij beide blokken: hijsbalken, bij het blok van Van Epen sierlijke ijzeren boven de trappenhuizen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "zl30wubm6sjalhs4mzh0i8ze",
+  "title": "De Lairessestraat 142–174",
+  "changes": [
+   {
+    "field": "body",
+    "old": "H.L. de Jong is known for one building: the Tuschinski cinema, opened in 1921.",
+    "new": "H.L. de Jong was one of the architects of the Tuschinski cinema, opened in 1921.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Tuschinski_Theater",
+    "evidence": "\"opening = 28 oktober 1921 ... architect = Hijman Louis de Jong\"; no source says he is known for one building only. Verification: the article (now Koninklijk Theater Tuschinski) also says \"Aanvankelijk was Hijman Louis de Jong aangetrokken als architect. Tuschinski kreeg echter onenigheid met De Jong, wiens taken vervolgens werden overgenomen door W[illem Kromhout]\", and the infobox lists both, so \"the architect\" became \"one of the architects\""
+   },
+   {
+    "field": "nl.body",
+    "old": "H.L. de Jong is bekend van één gebouw: bioscoop Tuschinski, geopend in 1921.",
+    "new": "H.L. de Jong was een van de architecten van bioscoop Tuschinski, geopend in 1921.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Tuschinski_Theater",
+    "evidence": "idem"
+   }
+  ],
+  "patch": {
+   "body": "H.L. de Jong was one of the architects of the Tuschinski cinema, opened in 1921. In the same years he drew this row for a builder, between the Dufaystraat and the Lassusstraat: twelve single-family houses and six for two families, in his own take on the Amsterdam School. Nothing as wild as the cinema, but the hand is the same: red mansard roofs pulled down over triangular corner bays, pointed dormers, and ironwork that is half tool and half ornament.\n\nThe block is built up of five parts: a set-back centre of four houses, two links of four mirrored houses, and two taller corner pavilions. Two uses stand out. In 1930 a group of parents started the Montessori Lyceum Amsterdam on an upper floor of no. 156; it was the city's first Montessori secondary school, set up by families from the Montessori primary school diagonally across the street. And in 1939 the corner at the Dufaystraat was joined up as office, laboratory and caretaker's flat of the Amsterdamsche Chininefabriek, makers of quinine.\n\nThe houses are private. Walk the full length on the far pavement first, for the roofline, then come close for the doorways.\n\nLook for:\n- the corner pavilions, with the roof sweeping down to triangular bays and wooden ornament between the windows\n- the decorated hoisting anchors in the roofs\n- double porches behind raised stoops with wrought-iron railings\n- the rounded brick column between each pair of front doors\n- side lights divided like ladders beside the doors\n- under the stoops, basement doors with a curl-shaped window beside them\n- the corner bay set diagonally on a brick bracket, high up on the Dufaystraat side",
+   "translations": {
+    "nl": {
+     "body": "H.L. de Jong was een van de architecten van bioscoop Tuschinski, geopend in 1921. In dezelfde jaren tekende hij voor een bouwondernemer deze rij tussen de Dufaystraat en de Lassusstraat: twaalf eengezinshuizen en zes huizen voor twee gezinnen, in zijn eigen versie van de Amsterdamse School. Zo wild als de bioscoop is het niet, maar de hand is dezelfde: rode mansardekappen die over driehoekige hoekerkers naar beneden zakken, spitse dakkapellen en ijzerwerk dat half gereedschap en half versiering is.\n\nHet blok bestaat uit vijf delen: een teruggelegd midden van vier huizen, twee tussenstukken van vier gespiegelde huizen en twee hogere hoekpaviljoens. Twee gebruikers springen eruit. In 1930 begon een groep ouders op een bovenverdieping van nummer 156 het Montessori Lyceum Amsterdam, de eerste montessorischool voor voortgezet onderwijs in de stad; ze kwamen van de montessorischool schuin aan de overkant. En in 1939 werd de hoek met de Dufaystraat samengevoegd tot kantoor, laboratorium en conciërgewoning van de Amsterdamsche Chininefabriek.\n\nDe huizen zijn bewoond. Loop eerst de hele lengte af aan de overkant, voor de daklijn, en kom dan dichterbij voor de ingangen.\n\nLet op:\n- de hoekpaviljoens, waar het dak doorloopt tot de driehoekige erkers, met houten versiering tussen de vensters\n- de versierde hijsankers in het dak\n- dubbele portieken achter een stoep met een sierijzeren hek\n- de afgeronde bakstenen kolom tussen elk paar voordeuren\n- zijlichten naast de deuren die als laddertjes zijn verdeeld\n- onder de stoepen de souterraindeuren met een krulvormig raampje ernaast\n- de schuin geplaatste erker op een bakstenen console, hoog aan de kant van de Dufaystraat"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Tuschinski_Theater"
+  ]
+ }
+]

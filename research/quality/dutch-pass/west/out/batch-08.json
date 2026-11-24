@@ -1,0 +1,865 @@
+[
+ {
+  "id": "jhja9bu152kzvbrpaghei72e",
+  "title": "Tweede Werk- en Leerschool",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The Werk- en Leerschool (\"work and learning school\") trained working-class girls in housekeeping.",
+    "new": "The Werk- en Leerschool (\"work and learning school\") trained girls in housekeeping.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/e197cd08-ebfc-4202-853d-d52c25c6a1fe",
+    "evidence": "Register: the school 'voorzag alleen meisjes in onderwijs' (household, needlework, washing, ironing, cooking); it does not say working-class."
+   },
+   {
+    "field": "body",
+    "old": "with her own office and dressing room behind the bay window above the entrance.",
+    "new": "with her own room and dressing room behind the bay window above the entrance.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/e197cd08-ebfc-4202-853d-d52c25c6a1fe",
+    "evidence": "Register: 'de kamer met kleedruimte van de directrice'; no office is mentioned."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Strijklokalen, een droogkamer en aparte waslokalen voor 'platte' en 'natte' was: deze meisjesschool van Publieke Werken uit 1913–1914 leerde het huishouden vanaf de basis. Ze staat op de punt waar vier vaarten samenkomen.",
+     "body": "Op de oude bouwtekeningen staat het lesprogramma gewoon uitgetekend. Twee lokalen om te strijken, een waslokaal voor 'platte was' en een voor 'natte was', een uitbouw om te drogen, keukenlokalen en lokalen voor handwerken. En boven een grote zaal, waar de prijzen werden uitgereikt.\n\nDe Werk- en Leerschool leerde meisjes het huishouden. Publieke Werken zette deze tweede vestiging neer in 1913–1914, op de noordpunt van een driehoekig bouwblok. Voor de deur ligt een breed waterplein: daar kruist de Kostverlorenvaart het Westelijk Marktkanaal, en komen ook de Hugo de Grootgracht en de Bilderdijkgracht uit. De directrice woonde in het gebouw zelf. Haar kamer met kleedruimte lag boven de ingang, achter de erker.\n\nBegin jaren vijftig stond het pand bekend als de Tweede Openbare Huishoudschool. Nu zit het ROC erin. De bouwstijl is zwaar en gesloten, met Duitse invloeden, maar er zit ook iets klassieks in: het middendeel eindigt in een driehoek, als het fronton van een tempel.\n\nLet op:\n- het smeedijzeren hek bij de ingang, met de drie Andreaskruisen uit het stadswapen en 'ANNO 1914'\n- de erker en het balkon van de vertrekken van de directrice, boven de ingang\n- de lagere hoekvleugel onder het geknikte schilddak, waar de dienstwoning zat"
+    }
+   },
+   "body": "The Werk- en Leerschool (\"work and learning school\") trained girls in housekeeping. Public Works built this second one in 1913–1914 on the northern tip of a triangular block, overlooking the \"water square\" where the Kostverlorenvaart meets the Westelijk Marktkanaal, the Hugo de Grootgracht and the Bilderdijkgracht. The plans show the curriculum: ironing rooms, separate laundries for \"flat wash\" and \"wet wash\", a drying room, kitchen classrooms, needlework rooms, and a large hall for prize-givings. The directress lived in the building, with her own room and dressing room behind the bay window above the entrance.\n\nIn the early 1950s it was called the Tweede Openbare Huishoudschool (second public domestic school); today the ROC uses it. The architecture is massive and influenced by German design, with a classical touch: a central bay crowned by a triangular form like a pediment.\n\nLook for:\n- the wrought-iron entrance gate with three St Andrew's crosses (Amsterdam's arms) and \"ANNO 1914\"\n- the bay window and balcony of the directress's rooms above the entrance\n- the lower corner wing, with its broken hipped roof, that housed the service flat"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "each6n8jdf5pw2rf7mp3qklp",
+  "title": "Van der Palmschool and Allebéschool",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Kolenhokken en wc's aan de straat, de klaslokalen achter, aan de zon: met deze twee ULO-scholen uit 1912 en 1914 draaide Publieke Werken als een van de eersten de schoolgevel om. Samen lijken ze één gebouw.",
+     "body": "Wie langs deze scholen aan de Kostverlorenkade loopt, kijkt eigenlijk naar de achterkant van het schoolleven: personeelskamers, toiletten, fietsenhokken en kolenbergingen. De klaslokalen liggen achter, aan de speelplaats op het zuidoosten. Dat was nieuw. Tot dan toe vormden de grote lokaalramen altijd de nette straatgevel, welke kant die ook op keek. Publieke Werken draaide het hier om, omdat de stad ervan overtuigd was dat zonlicht kinderen gezond hield. De wet verplichtte het niet.\n\nSaai werd die achterkant niet. De daklijn springt op en neer, en elk raam verraadt wat erachter zit: grote ramen voor het tekenlokaal, piepkleine voor de wc's.\n\nEigenlijk zijn het twee scholen. De Allebéschool (1912, nummer 35) was een jongensschool der eerste klasse met ULO-klassen, de Van der Palmschool ernaast (1914, nummer 34) een gemengde ULO-school. Omdat de opzet gespiegeld is, lees je ze als één gebouw, precies in de zichtlijn van de Paramaribostraat aan de overkant van het water. In de Van der Palmschool zitten nu een kinderdagverblijf, ateliers en woningen.\n\nLet op:\n- de verdiepte ingang onder een boog, met een smeedijzeren hek en uitkragend metselwerk erboven\n- een hijsbalk hoog in de gevel, om kolen en turf naar de zolderbergingen te takelen\n- rijtjes kleine wc-raampjes naast de hoge ramen van het tekenlokaal"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "d7irt9aqltuehkhh849j2tb1",
+  "title": "Vredenhof cemetery and Westervilla",
+  "changes": [
+   {
+    "field": "body",
+    "old": "the comic artist Johnny Meijer",
+    "new": "the accordionist Johnny Meijer",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Johnny_Meijer",
+    "evidence": "The Vredenhof article links 'Johnny Meijer' to the page of the Amsterdam accordionist (1912–1992): 'was een Amsterdamse accordeonist'. No source calls him a comic artist."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Johnny Jordaan, Leo Fuld en Cor van Hout liggen hier, op een begraafplaats uit 1897 die 1,80 meter onder NAP ligt. In het witte ontvangstgebouw in chaletstijl van Abraham Salm zit nu café Westervilla.",
+     "body": "Wie hier begraven wordt, ligt lager dan de rest van de stad. Het terrein zit op 1,80 meter onder NAP, ruim een meter onder de wijken eromheen.\n\nVredenhof ging in 1897 open, op grond die Amsterdam van de gemeente Sloten had geannexeerd. De oude begraafplaats bij de havens lag te ver weg. Leonard Springer, die ook de Nieuwe Ooster ontwierp, legde slingerende paden aan op de oude polderkavels, en die liggen scheef ten opzichte van de Haarlemmerweg. Toen in 1934 de Centrale Markt ernaast verrees, ruilde de begraafplaats een stuk grond in tegen een strook aan de oostkant.\n\nHet ontvangstgebouw is van Abraham Salm. Met zijn chaletstijl lijkt het meer een schilderachtige villa dan een gebouw voor uitvaarten: voorin twee wachtkamers, achterin de aula, boven de woningen van het personeel en op het schilddak een dakruiter. J.H. van der Veen paste in 1933–1934 de ingangen en de aula aan; uit die jaren stamt ook het glas-in-lood. Sinds 2019 zit er café Westervilla, waar bezoekers van de begraafplaats terechtkunnen.\n\nVeel Jordaners kregen hier hun laatste plek, net als schippers die aan wal geen vast adres hadden. Ook de zangers Johnny Jordaan en Leo Fuld liggen er, en accordeonist Johnny Meijer en crimineel Cor van Hout.\n\nLet op:\n- het symmetrische, wit gepleisterde gebouw met zijn dakruiter\n- de glas-in-loodramen uit 1933–1934 in de voormalige aula\n- het lange, smalle voorterrein tussen de Haarlemmerweg en de begraafplaats"
+    }
+   },
+   "body": "Vredenhof opened in 1897 on land annexed from the municipality of Sloten, replacing a remote cemetery near the harbours. The landscape architect Leonard Springer, who also designed the Nieuwe Ooster, laid it out with curving paths on the old polder plots, which meet the Haarlemmerweg at an angle. The ground lies at 1.80 m below sea level (NAP), more than a metre below the surrounding city. When the Centrale Markt was built next door in 1934, the cemetery gave up part of its land in exchange for a strip on its east side.\n\nAbraham Salm designed the reception building with the staff flats above it, in a chalet style that makes it look like a picturesque villa: two waiting rooms at the front and the funeral hall at the back, under a hipped roof with a roof turret. In 1933–1934 J.H. van der Veen remodelled the entrances and the hall and added the present stained glass. Since 2019 the building houses the Westervilla café, open to visitors of the cemetery. Many people from the Jordaan and boatmen without a fixed address were buried here, as were the singers Johnny Jordaan and Leo Fuld, the accordionist Johnny Meijer and the criminal Cor van Hout.\n\nLook for:\n- the symmetrical white-plastered lodge with its roof turret\n- stained-glass windows of 1933–1934 in the former funeral hall\n- the long, narrow forecourt from the Haarlemmerweg to the cemetery"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Johnny_Meijer",
+   "https://nl.wikipedia.org/wiki/Johnny_Jordaan",
+   "https://nl.wikipedia.org/wiki/Leo_Fuld",
+   "https://nl.wikipedia.org/wiki/Cor_van_Hout"
+  ]
+ },
+ {
+  "id": "tq1rfo6ca71gyir96f1u3wrc",
+  "title": "Wilhelmina Gasthuis surgical clinic",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Twee chirurgen, een boogschutter en een pijl in een roos: Hildo Krop hakte ze in 1929 voor de ingangen van deze dubbele chirurgische kliniek van het Wilhelmina Gasthuis (1932–1933), een zakelijk-expressionistisch blok baksteen.",
+     "body": "Boven de ingangen staan ze in steen: een chirurg, een pijl die in een roos prikt, een boogschutter en nog een chirurg. Hildo Krop maakte de gevelstenen in 1929, een paar jaar voordat het gebouw er zelf stond.\n\nIn oktober 1925 besloot de gemeenteraad dat het Wilhelmina Gasthuis een volwaardig academisch ziekenhuis zou worden. Publieke Werken ging daarna op veel plekken op het terrein aan de slag. Deze grote chirurgische kliniek, getekend door E.P. Messer, kwam er in 1932–1933. Dat het gebouw zo symmetrisch is, heeft een reden: het waren twee klinieken naast elkaar, in het begin waarschijnlijk een voor mannen en een voor vrouwen. Later was de rechterhelft voor de algemene chirurgie en lagen in beide helften mannen en vrouwen door elkaar.\n\nDe kliniek beslaat de noordkant van het WG-plein. De achterkant staat tegen de kademuur van het Jacob van Lennepkanaal, de zijkant aan de Tweede Constantijn Huygensstraat. Bakstenen blokken klimmen op tot vijf verdiepingen, met daarboven nog een tussenverdieping en een zolder onder pannen schilddaken. Tussen de vleugels hangen haakvormige balkons. De ingangen hebben omlijstingen van graniet.\n\nLet op:\n- de reliëfs van Hildo Krop met chirurgen en een boogschutter bij de ingangen\n- de twee gespiegelde helften van de lange gevel aan het WG-plein\n- de kanaalkant, het best te zien vanaf de overkant van het Jacob van Lennepkanaal"
+    }
+   }
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=224040"
+  ]
+ },
+ {
+  "id": "etz88s786043n3gn3yq3xztc",
+  "title": "Morgenster (Arjen Lancel)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The title refers to the *morgenster*, Amsterdam slang for someone who checks the night's kerbside rubbish before the bin men come and takes anything worth having.",
+    "new": "The title refers to the *morgenster*: someone who checks the rubbish put out on the kerb before it is collected and takes anything worth having.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Morgenster_(Arjen_Lancel)",
+    "evidence": "'de term/naam morgenster, die staat voor een persoon die in het tijdvak tussen op straat zetten en van straat afhalen kijkt of er iets van zijn gading bijzit'. No source calls it Amsterdam slang or ties it to the night."
+   },
+   {
+    "field": "body",
+    "old": "- the grumpy Leonardo da Vinci mural on the factory behind, looking down at it",
+    "new": "- the grumpy Leonardo da Vinci mural that looks out over it",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Morgenster_(Arjen_Lancel)",
+    "evidence": "'Een muurschildering van een norse Leonardo da Vinci kijkt uit over het ensemble.' No source says it is on a factory or behind the work."
+   },
+   {
+    "field": "summary",
+    "old": "by the De Bloem windmill",
+    "new": "by the De Bloem windmill",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/De_Bloem",
+    "evidence": "Not in the artwork sources. nl.wikipedia gives De Bloem at 52.38444, 4.86000; the place is pinned at 52.384886, 4.859508 on the Nieuwpoortkade (wiki: 'Haarlemmerweg hoek Nieuwpoortkade'), about 60 m apart."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een wc-pot, een tv, een vuilniszak en een kruiwagen bij het grofvuil, onder een lantaarnpaal vlak bij molen De Bloem. Alles is brons, aluminium en graniet: een kunstwerk uit 1994, en al dertig jaar gaat de discussie of het wel kunst is.",
+     "body": "Grofvuil dat nooit wordt opgehaald. Begin jaren negentig vroegen Stadsdeel De Baarsjes en het Amsterdams Fonds voor de Kunst aan Arjen Lancel om een kunstwerk voor één bepaalde plek: de werf aan de Admiraal Helfrichstraat, waar de ploegen voor grofvuil en onderhoud zaten. Lancel gaf ze precies wat zij ophaalden: een hoop afval aan de stoeprand, maar dan gegoten in aluminium, brons en graniet. Een wc-pot, een televisie, een vuilniszak, een kruiwagen met een kapotte schep en wat planken. Een eigen lantaarnpaal zorgt dat je het 's nachts ook ziet. De titel slaat op de morgenster: iemand die het buitengezette afval doorloopt voordat het wordt opgehaald, en meeneemt wat nog bruikbaar is.\n\nIn de jaren tien verdween de werf voor woningbouw, en het beeld leek mee te zijn verdwenen. Niet dus: de reinigingsdienst had het naar zijn depot in het Westelijk Havengebied gebracht, in afwachting van een nieuw plekje. Dat zoeken duurde jaren. Elke plek moest langs allerlei instanties, het Grondbedrijf legde er minstens één keer een veto op, en een beeld dat voor een afvalwerf is gemaakt, past nergens anders echt. In 2024–2025 belandde het op de half-industriële Nieuwpoortkade bij de Haarlemmerweg, met een nieuwe lantaarnpaal en de kruiwagen in een plas beton. Vlak voor de onthulling, in het voorjaar van 2025, werd het vernield; binnen twee dagen was het weer hersteld.\n\nHet staat op de stoep en is altijd te bekijken.\n\nLet op:\n- de lantaarnpaal, die bij het kunstwerk hoort\n- de kapotte schep en de planken in de kruiwagen\n- de norse Leonardo da Vinci op de muurschildering, die over het geheel uitkijkt\n- molen De Bloem aan de overkant van de weg"
+    }
+   },
+   "body": "In the early 1990s Stadsdeel De Baarsjes and the Amsterdams Fonds voor de Kunst asked Arjen Lancel for a site-specific work at the district's yard on the Admiraal Helfrichstraat, where the city's bulky-waste and maintenance crews were based. He made exactly what the crews collected: a pile of *grofvuil* (bulky waste) left on the kerb for collection, cast in aluminium, bronze and granite. There's a toilet bowl, a television, a bin bag, a wheelbarrow, a broken shovel and some planks, all lit at night by its own lamppost. The title refers to the *morgenster*: someone who checks the rubbish put out on the kerb before it is collected and takes anything worth having.\n\nIn the 2010s the yard made way for housing and the sculpture seemed to have vanished. In fact the cleansing department had taken it to its depot in the Westelijk Havengebied to wait for a new home. Finding one took years: every proposed spot needed several agencies' approval, the city's land department vetoed at least one, and a work made for a waste yard is hard to place anywhere else. In 2024–2025 it got a spot on the semi-industrial Nieuwpoortkade by the Haarlemmerweg, with a new lamppost and the wheelbarrow now set in a puddle of concrete. Just before the unveiling in spring 2025 it was vandalised and had to be repaired in two days.\n\nIt stands on the pavement and can be seen at any time.\n\nLook for:\n- the lamppost, which belongs to the work\n- the broken shovel and the planks in the wheelbarrow\n- the grumpy Leonardo da Vinci mural that looks out over it\n- the De Bloem windmill across the road"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/De_Bloem"
+  ]
+ },
+ {
+  "id": "ar6p0l8ml1pfvtlxvpha68cb",
+  "title": "Castle villa (Vondelstraat 47-49)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "he also designed Vondelstraat 72 across the street.",
+    "new": "he also designed Vondelstraat 72.",
+    "kind": "narrowed",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=224016",
+    "evidence": "City register 224016: 'J.H. Schmitz heeft naast Vondelstraat 72 ook het ontwerp gemaakt voor het pand Vondelstraat 47'. Neither register says the two face each other."
+   },
+   {
+    "field": "body",
+    "old": "designed by H.H.J. Hogeman so that the two parts read as one building.",
+    "new": "designed by H.H.J. Hogeman; the two parts read as one building.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/492018",
+    "evidence": "'vormt stilistisch gezien een onlosmakelijk en niet te scheiden geheel met Vondelstraat 47'. The register states the result, not the intention."
+   },
+   {
+    "field": "body",
+    "old": "the villa suddenly found itself on a busy street corner.",
+    "new": "the villa suddenly found itself on a street corner.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/492018",
+    "evidence": "'Na de verbinding ... in 1947 ligt het bouwblok thans op de hoek'. Nothing about traffic."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Twee gekanteelde torens met torentjes op de hoeken: deze villa van rond 1873 aan de Vondelstraat lijkt een speelgoedkasteel. Gotiek en renaissance door elkaar, en die combinatie zie je in Amsterdam zelden.",
+     "body": "Twee torens, met kantelen erop en op elke hoek een uitgebouwd torentje. J.H. Schmitz ontwierp de villa rond 1873 voor H. Wille, in neogotiek met renaissancedetails: volgens het rijksmonumentenregister een combinatie die in Amsterdam zeldzaam is. Over Schmitz zelf is weinig bekend, behalve dat zijn vader directeur was van de Amsterdamse Omnibus Maatschappij. Hij tekende ook Vondelstraat 72.\n\nHet kasteel had eerst maar één toren. In 1882 liet de weduwe Wille de rechtertoren en één vensteras bijbouwen, nummer 49, naar ontwerp van H.H.J. Hogeman. Stilistisch werden de twee delen één geheel.\n\nDaarna bleven de eigenaren verbouwen. In 1911 kreeg het souterrain op de hoek er twee verdiepingen bovenop, in 1987 werd de villa opgedeeld in appartementen. En toen in 1947 de Eerste Constantijn Huygensstraat werd doorgetrokken naar de Van Baerlestraat, stond het kasteel ineens op een straathoek.\n\nLet op:\n- de twee gelijke torens met kantelen en hoekarkels met torenvormige bekroningen\n- de erkers op de begane grond en de eerste verdieping van beide torens\n- de waterlijsten op versierde consoles boven elk raam\n- de stoep van acht treden met ijzeren leuningen naar de voordeur tussen de torens"
+    }
+   },
+   "body": "J.H. Schmitz designed this villa around 1873 for H. Wille, in a Gothic Revival style with Renaissance details. Little is known about Schmitz except that he was the son of the director of the Amsterdam Omnibus Company; he also designed Vondelstraat 72. In 1882 Wille's widow added the right-hand tower and one window bay as an annexe (no. 49), designed by H.H.J. Hogeman; the two parts read as one building.\n\nLater owners kept altering it. In 1911 two floors were added over the corner basement, and in 1987 it was divided into apartments. When the Eerste Constantijn Huygensstraat was linked to the Van Baerlestraat in 1947, the villa suddenly found itself on a street corner.\n\nThe register values it for its combination of Gothic and Renaissance features, rare in Amsterdam.\n\nLook for:\n- two identical towers with crenellations and turret-topped corner oriels\n- oriels on the ground and first floors of both towers\n- hood moulds on decorated brackets over every window\n- the stoop of eight steps with iron railings leading to the entrance between the towers"
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=224016"
+  ]
+ },
+ {
+  "id": "edmakjnavz7l04lfdxrd2tus",
+  "title": "Prinses Julianaschool, Brederodestraat",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een statige school uit 1910 van C.B. Posthumus Meyjes sr., gebouwd voor de vereniging De Vrije Christelijke School: een stenen herinnering aan de schoolstrijd om evenveel overheidsgeld voor christelijk onderwijs.",
+     "body": "Het jaar 1879 was druk voor christelijk Nederland. Abraham Kuyper richtte zijn Anti-Revolutionaire Partij op, en in Amsterdam ontstond de vereniging De Vrije Christelijke School. Allebei wilden ze hetzelfde: dat christelijke scholen net zoveel geld van de overheid kregen als openbare. Voor het lager onderwijs werd dat pas geregeld met de Schoolwet van 1917. Deze school van de vereniging staat er sinds 1910, en de tekst boven de deur laat geen twijfel over wie haar stichtte.\n\nArchitect C.B. Posthumus Meyjes sr. (1859–1922) was rond 1900 een van de grote namen in de Amsterdamse bouwwereld. Hij is vooral bekend van het neorenaissancekantoor van de Hollandsche IJzeren Spoorweg-Maatschappij aan de Droogbak. Hier koos hij een symmetrische gevel met een deftige ingang, naar het voorbeeld van de oude patriciërshuizen aan de grachten. Binnen loop je via een hal met een schaakbordvloer van lichtbruine en zwarte tegels naar het trappenhuis. Een plaquette uit 1929 viert het gouden jubileum van de vereniging. Nu zitten er een buurtcentrum en een kinderdagverblijf in.\n\nLet op:\n- de naam van de stichtende vereniging boven de hoofdingang\n- de monumentale ingang naar het voorbeeld van patriciërshuizen\n- de oorspronkelijke ramen en deuren in de symmetrische voorgevel"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ojo4i2degd3gy3tlvm2e1pdh",
+  "title": "Boomzagertje",
+  "changes": [
+   {
+    "field": "body",
+    "old": "who placed several anonymous works in Amsterdam around the same time, including the violinist rising out of the floor of the Stopera.",
+    "new": "to whom more anonymous works in Amsterdam are attributed, including the violinist rising out of the floor of the Stopera, placed around the same time.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Boomzagertje",
+    "evidence": "'rond dezelfde tijd als onder andere de uit de grond oprijzende violist in de Stopera ... Er zijn in Amsterdam meer van deze anonieme beelden, die aan dezelfde artiest ... worden toegeschreven.' The source attributes the works; it does not say he placed several at the same time."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Sinds 1989 zaagt een ijzeren mannetje in het Leidsebosje de tak door waar hij zelf op staat. Een anonieme beeldhouwer zette hem er 's nachts neer, en één keer moest hij al verhuizen naar een andere boom.",
+     "body": "Hij zaagt al sinds 1989 en komt nooit klaar. Want als hij klaar is, valt hij er zelf af.\n\nIn de nacht van 30 januari 1989 stond hij er ineens: een klein ijzeren mannetje in een plataan in het Leidsebosje, voorovergebogen, zagend in de dikke tak onder zijn voeten, precies tussen zijn benen door. Wie hem maakte, weet de buitenwereld niet. De maker heet alleen De Onbekende Beeldhouwer. Aan die naam worden meer anonieme beelden in Amsterdam toegeschreven, zoals de violist die uit de vloer van de Stopera omhoogkomt en rond dezelfde tijd verscheen. De gemeente kreeg de beelden op één voorwaarde: wie de maker is, blijft geheim.\n\nMakkelijk heeft het mannetje het niet gehad. Zijn alpinopet raakte een keer zoek, zijn zaag brak af, en telkens werd het hersteld door onbekenden. De boom leek ondertussen om de zaag heen te groeien. De tak knakte tussen stam en beeld en moest in oktober 2019 worden afgezaagd. Het zagertje ging terug naar zijn anonieme maker voor een opknapbeurt en kwam in mei 2020 terug, op een tak van een andere boom.\n\nLet op:\n- het mannetje hoog in een plataan, aan de kant van het Leidseplein\n- zijn alpinopet\n- de zaag, die tussen zijn voeten door gaat"
+    }
+   },
+   "body": "In the night of 30 January 1989 a small iron figure appeared in a plane tree in the Leidsebosje: a man bending forward, sawing through the thick branch he stands on, between his own feet. He cannot finish the job without falling off himself. The maker is known only as *De Onbekende Beeldhouwer* (the Unknown Sculptor), to whom more anonymous works in Amsterdam are attributed, including the violinist rising out of the floor of the Stopera, placed around the same time. The city accepted the works on condition that the sculptor's identity is never revealed.\n\nThe figure has had a rough life. His beret went missing once and his saw broke, and both were repaired by unknown hands. The tree seemed to grow around the saw. In October 2019 the branch, which had cracked between the trunk and the statue, had to be cut off. The little man went back to his anonymous maker for repair and in May 2020 returned on a branch of another tree.\n\nLook for:\n- the figure high up in a plane tree near the Leidseplein end of the park\n- his beret\n- the saw, cutting between his feet"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "u8ffqbbd498v255ijmnpplie",
+  "title": "Catholic boys' schools, Kanaalstraat",
+  "changes": [
+   {
+    "field": "body",
+    "old": "here the corridors are only half the legal two metres.",
+    "new": "here the corridors are only a little over half the legal two metres.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/b17d0d9c-aa1a-41c7-99e9-73ee97d1f133",
+    "evidence": "'terwijl ze in deze school iets meer dan de helft van deze wettelijke verplichte breedte zijn' (stair and corridor 1.20 m)."
+   },
+   {
+    "field": "body",
+    "old": "and the ground floor of number 149 is used by klaverjas (card game) club De Burcht.",
+    "new": "and the west half of the ground floor of number 149 is used by klaverjas (card game) club De Burcht.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/4913ea85-ff94-413a-b39b-a74f4d63d89e",
+    "evidence": "'Aan de westzijde is de klaverjasclub De Burcht huurder van de gehele begane grond. De begane grond aan de oostelijke zijde wordt door de kinderdagverblijven ... gehuurd.'"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Twee katholieke jongensscholen van C.P.W. Dessing uit 1900 en 1906: een zeldzame neogotische schoolgevel en zijn opvolger in Nieuwe Kunst. De kerk waar ze bij hoorden is gesloopt; nu werken er kunstenaars.",
+     "body": "Twee meter breed moesten schoolgangen zijn, zei de wet. In de school op nummer 102 is de gang maar iets meer dan de helft daarvan. Dat kon: tot het einde van de schoolstrijd in 1917 kregen katholieke scholen geen geld van het rijk, en dus konden ze ook om sommige regels heen.\n\nBeide scholen hoorden bij de parochie van de Heilige Vincentius a Paolo. Kerk en pastorie stonden tussen de Jacob van Lennepkade en de Kanaalstraat, maar zijn gesloopt. Jongens en meisjes kregen in aparte gebouwen les.\n\nDe eerste school, nummer 102 uit 1900, heeft een van de weinige neogotische schoolgevels in Amsterdam. Katholieken zagen de gotiek toen als hun eigen stijl. Zes jaar later bouwde Dessing vlakbij de Cornelisschool, op 147-149, met een dienstwoning ernaast en een veel ruimere plattegrond. Daar zie je de Nieuwe Kunst doorschemeren, onder meer in de ronde ramen van het trappenhuis. In beide scholen zitten nu ateliers van kunstenaars, en in de westelijke helft van de benedenverdieping van nummer 149 wordt geklaverjast, door club De Burcht.\n\nLet op:\n- de neogotische details van nummer 102\n- de ronde en halfronde ramen in het trappenhuis van nummer 149\n- de dienstwoning die tegen de tweede school is aangebouwd"
+    }
+   },
+   "body": "Both schools belonged to the Catholic parish of Saint Vincent de Paul, whose church and presbytery stood between the Jacob van Lennepkade and the Kanaalstraat until they were demolished. Catholic boys and girls were taught in separate buildings, and until the end of the *schoolstrijd* in 1917 such schools got no state money, so they could even flout rules such as minimum corridor widths: here the corridors are only a little over half the legal two metres.\n\nThe first school, at number 102 (1900), has one of the few neo-Gothic school fronts in Amsterdam, a style Catholics then saw as their own. Six years later Dessing built the Cornelisschool at 147-149 with a caretaker's house, on a roomier plan. Its round stairwell windows and forms show the influence of the Nieuwe Kunst. Both now house artists' studios, and the west half of the ground floor of number 149 is used by klaverjas (card game) club De Burcht.\n\nLook for:\n- the neo-Gothic details of number 102\n- the round and half-round windows of number 149's stairwell\n- the caretaker's house built onto the second school"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "tvfznl30infdnm3oqa1wki62",
+  "title": "Haarlemmervaart lock (Schutsluis)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A working 1884 lock on the old Haarlem towing canal, where the gates still swing on quarter-circle rack bars turned by hand from gearboxes hidden under iron lids in the quay.",
+    "new": "An 1884 lock on the old Haarlem towing canal, where the gates swing on quarter-circle rack bars driven from gearboxes hidden under iron lids in the quay.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/526737",
+    "evidence": "The register describes the rack bars and underground gearboxes but does not say the lock is in use, that the gear is original, or that it is worked by hand."
+   },
+   {
+    "field": "body",
+    "old": "this lock, at the Van Slingelandtstraat, controls the water between it and the city.",
+    "new": "this lock, at the Van Slingelandtstraat, sits between water at the city's level and water at Rijnland's level.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Haarlemmertrekvaart_(Amsterdam)",
+    "evidence": "'Ter hoogte van de Van Slingelandtstraat ligt sinds 1884 de Schutsluis Haarlemmervaart, tussen het water op stadsboezempeil en Rijnlands Peil.'"
+   },
+   {
+    "field": "body",
+    "old": "the gates themselves are later replacements (1954, 1991 and 1997), but the mechanism is the old one.",
+    "new": "the gates themselves are later replacements (1954, 1991 and 1997).",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/526737",
+    "evidence": "The register dates the gates ('De sluisdeuren zijn van recenter datum') but gives no date for the gear; nothing says it is original."
+   },
+   {
+    "field": "body",
+    "old": "The Haarlemmervaart (Haarlem towing canal) forms the northern edge of the Staatsliedenbuurt,",
+    "new": "The Haarlemmervaart (Haarlem towing canal) forms the northern edge of the Staatsliedenbuurt,",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Staatsliedenbuurt_(Amsterdam)",
+    "evidence": "'De trekvaart van Amsterdam naar Haarlem (Haarlemmervaart) was en is de noordelijke begrenzing van de buurt.'"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een schutsluis uit 1884 in de oude trekvaart naar Haarlem. De deuren zwaaien open met kwartcirkelvormige heugelstangen, aangedreven vanuit tandwielkasten die onder ijzeren deksels in de kade verstopt zitten.",
+     "body": "Kijk bij deze sluis eens naar de grond. Onder ijzeren platen zit een gleuf, en daarin zwaait een kromme heugelstang, een kwart cirkel lang. Die hangt aan een tandwielkast onder de grond in het landhoofd en duwt zo de sluisdeuren open en dicht.\n\nDe Haarlemmervaart, de trekvaart naar Haarlem, is de noordgrens van de Staatsliedenbuurt. Deze sluis bij de Van Slingelandtstraat ligt op de overgang tussen het water van de stad en het lagere peil van Rijnland. Hij werd in 1884 voor het eerst gebouwd; de deuren zelf zijn later vervangen, in 1954, 1991 en 1997. Het rijksmonumentenregister ziet de sluis als een laat-negentiende-eeuws voorbeeld van traditioneel waterbeheer op een historisch belangrijke vaarroute.\n\nDe sluiskolk ligt tussen vier bakstenen landhoofden met ronde, met natuursteen afgedekte hoeken. Daartussen zijn de oevers gewoon schuine taluds, zonder kademuur. Elk paar puntdeuren wordt bewogen door zo'n liggende heugelstang. Naast de sluis staat de sluiswachterswoning met gemaal, die bij hetzelfde beschermde complex hoort.\n\nLet op:\n- de kromme heugelstangen en de ijzeren dekplaten in de bestrating\n- de twee paar deuren aan de oostkant, waarvan één met een verhoogde loopplank erop\n- de ijzeren voetgangersbrug naast de westelijke deuren\n- de sluiswachterswoning met gemaal op de oever"
+    }
+   },
+   "summary": "An 1884 lock on the old Haarlem towing canal, where the gates swing on quarter-circle rack bars driven from gearboxes hidden under iron lids in the quay.",
+   "body": "The Haarlemmervaart (Haarlem towing canal) forms the northern edge of the Staatsliedenbuurt, and this lock, at the Van Slingelandtstraat, sits between water at the city's level and water at Rijnland's level. It was first built in 1884; the gates themselves are later replacements (1954, 1991 and 1997). The national register values it as a late-19th-century representative of traditional water management on a historically important waterway.\n\nThe lock chamber sits between four brick abutments with rounded, stone-capped corners. The banks of the chamber in between are simply sloping, with no quay walls. Each pair of mitre gates is opened by a horizontal, quarter-circle rack bar connected to a gearbox under the ground in the abutment; the slot it swings through is covered with iron plates. Beside the lock stands the lock-keeper's house with a pumping station, which belongs to the same listed complex.\n\nLook for:\n- the curved rack bars and the iron cover plates in the pavement\n- the two pairs of gates on the east side, one with a raised walkway on top\n- the iron footbridge next to the western gates\n- the lock-keeper's house and pumping station on the bank"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Haarlemmertrekvaart_(Amsterdam)",
+   "https://nl.wikipedia.org/wiki/Staatsliedenbuurt_(Amsterdam)"
+  ]
+ },
+ {
+  "id": "y4tbhhhb1f3ghg1uj7xhjasm",
+  "title": "Kinkerstraat corners at the Da Costakade",
+  "changes": [
+   {
+    "field": "body",
+    "old": "This stretch of the Kinkerstraat between the Singelgracht and the Bilderdijkgracht is one of the most intact 19th-century radial streets.",
+    "new": "This stretch of the Kinkerstraat between the Singelgracht and the Bilderdijkgracht is still a reasonably intact 19th-century radial street.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/03cbd4aa-2950-42a3-93c3-0d5eaf0d2aa4",
+    "evidence": "'tussen de Singelgracht en de Bilderdijkgracht biedt nog een redelijk gaaf negentiende-eeuws stadsbeeld' and 'een representatief beeld van een karakteristieke radiaalstraat'. No ranking against other streets."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Twee hoekblokken in neorenaissance tegenover elkaar aan de Kinkerstraat: Vinkzicht (1890–1891) van eigenbouwer J.S. Driessen en zijn tegenhanger uit 1893. Massawoningbouw, vermomd als een rij losse herenhuizen.",
+     "body": "Massawoningbouw die er niet zo uit wil zien: dat is de truc van Vinkzicht, het hoekblok op Da Costakade 166-170 / Kinkerstraat 56-74 uit 1890–1891. Elk smal perceel lijkt een eigen huis te dragen, met een eigen winkelpui, eigen versiering en een eigen geveltop.\n\nHet blok staat bij de brug waar de Kinkerstraat de Da Costagracht oversteekt. De bouwer was J.S. Driessen, en over hem weten we niets. Hij was een eigenbouwer: een aannemer die voor eigen rekening huizen neerzette, meestal naar eigen ontwerp. Hun werk heette smalend 'revolutiebouw', maar zij leverden wel de goedkope woningen waar de stad om zat te springen. Het monumentenregister noemt nog een reden om het blok te bewaren: bij de stadsvernieuwing in de jaren zeventig is zoveel van dit soort bebouwing verdwenen.\n\nAan de overkant staat Kinkerstraat 49-53 / Da Costakade 172, uit 1893, van een onbekende architect. Daar werkt hetzelfde idee: vijf huizen in Hollandse neorenaissance, met trap-, schouder- en tuitgevels in een levendig ritme. Tussen de Singelgracht en de Bilderdijkgracht is de Kinkerstraat nog een redelijk gave negentiende-eeuwse radiaalstraat.\n\nLet op:\n- het jaartal 1893 in de geveltop aan de Da Costakade\n- tegelmozaïeken in de boogvelden van het hoekhuis en gepleisterde schelpmotieven aan de kant van de Kinkerstraat\n- een afwisselende daklijn van trap-, schouder- en tuitgevels"
+    }
+   },
+   "body": "Where the Kinkerstraat crosses the Da Costagracht, two corner blocks frame the bridge. \"Vinkzicht\" (Da Costakade 166-170 / Kinkerstraat 56-74, 1890–1891) is by J.S. Driessen, about whom nothing is known. He was one of the *eigenbouwers*, contractors who built houses for their own account to their own designs. Their work was long dismissed as *revolutiebouw* (jerry-building), yet they supplied the cheap housing the city badly needed. Driessen clearly tried to avoid the look of mass housing: each narrow plot seems to carry its own house, with different shopfronts, decoration and gables. The register also argues for the block because city renewal in the 1970s swept away so much of this kind of building.\n\nAcross the street, Kinkerstraat 49-53 / Da Costakade 172 (1893, architect unknown) uses the same trick: five houses in Dutch neo-Renaissance with stepped, shouldered and spout gables in a rhythmic sequence. This stretch of the Kinkerstraat between the Singelgracht and the Bilderdijkgracht is still a reasonably intact 19th-century radial street.\n\nLook for:\n- the year 1893 in the gable on the Da Costakade\n- tile mosaics in the arches of the corner house and plaster shell motifs on the Kinkerstraat side\n- a varied skyline of stepped, shoulder and spout gables"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yzvu2t4zbjr0ybwdqsbm1b1h",
+  "title": "Zocherstraat HBS",
+  "changes": [
+   {
+    "field": "body",
+    "old": "made at the very start of his career as the city's sculptor.",
+    "new": "made at the very start of his career as the city's unofficial sculptor.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/762b22ee-b56c-408e-8c15-27da40b521bd",
+    "evidence": "'Hildo Krop (1884-1970) was de officieuze stadsbeeldhouwer en kreeg al in 1916 opdrachten'; the school's sculpture is from 'de zeer vroege periode (1917)'."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Roofvogels op de daklijn en slangen die in hun eigen staart bijten: vroeg beeldhouwwerk van Hildo Krop op een HBS uit 1916, half verstopt achter het Vondelpark. Nu het appartementengebouw Klein Vondelpark.",
+     "body": "Van de straat zie je bijna niets van deze school. Alleen een smalle, geknikte ingangsgevel steekt uit in de bocht van de Zocherstraat. Daarachter ligt het hele gebouw op een binnenterrein tussen de Zocherstraat en de Frederiksstraat, met de lokalen op het zuiden en uitzicht over het Vondelpark.\n\nJuist dat smalle stukje gevel is rijk versierd. Hildo Krop, de officieuze stadsbeeldhouwer, maakte het beeldhouwwerk helemaal aan het begin van die loopbaan: twee grote roofvogels op de daklijn en naast de ingang slangen die in hun eigen staart bijten. Ook de trappalen binnen sneed hij uit tot dieren. Volgens het monumentenregister is dit een van de eerste Amsterdamse scholen met kunst van zo'n niveau.\n\nDe school zelf bestaat dankzij de wet op het middelbaar onderwijs van 1863, die steden verplichtte een HBS op te richten: een praktische opleiding met veel exacte vakken, voor de burgerij in handel en staatsdienst. Dit werd de vijfde driejarige HBS van Amsterdam. Officieel tekende Publieke Werken haar in 1916, maar collega A.A. Kok wees G.J. Rutgers aan als de echte architect. Door tekorten aan bouwmateriaal in de oorlog ging ze pas in september 1918 open. In de jaren zestig verhuisde het grootste deel van de school naar Osdorp; rond 2013 werd het gebouw omgebouwd tot de appartementen van Klein Vondelpark.\n\nLet op:\n- twee grote roofvogels die de smalle ingangsgevel zijn silhouet geven\n- aan beide kanten van de ingang een slang die in zijn eigen staart bijt\n- aan de parkkant nog meer figuren en trappen naar de tuin met slangen erop (het best te zien in de winter)"
+    }
+   },
+   "body": "The 1863 Secondary Education Act made cities found an HBS, a practical, science-based secondary school for the commercial and civil-service middle class. Amsterdam's fifth three-year HBS was designed in 1916 by Public Works; a colleague, A.A. Kok, named G.J. Rutgers as the actual architect. Wartime shortages of building materials delayed its opening until September 1918.\n\nThe school sits almost hidden on an inner plot between the Zocherstraat and the Frederiksstraat, with only a narrow, angled entrance front facing the street and its classrooms looking south over the Vondelpark. That entrance front is richly decorated with sculpture by Hildo Krop, made at the very start of his career as the city's unofficial sculptor. The register calls it one of the first Amsterdam schools enriched with art of such quality. Krop also carved the stair newels into animals. Most of the school moved to Osdorp in the 1960s; around 2013 the building was converted into flats called Klein Vondelpark.\n\nLook for:\n- two large birds of prey that give the narrow entrance front its silhouette\n- a serpent biting its own tail on each side of the entrance\n- on the park side, more figures and stairs to the garden decorated with snakes (best seen in winter)"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xrwxvp8kqs2tmip7uivkfz37",
+  "title": "De Wittenkade 31-35 (Salm)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "by father and son Salm, the architects of Artis, given central doorways and a mansard roof to look grander than ordinary rented flats.",
+    "new": "by father and son Salm, the father best known for Artis, given central doorways and a mansard roof to look grander than ordinary housing.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/976f95a9-14a0-4fff-90af-6c9bcf3e1a1a",
+    "evidence": "Only G.B. Salm is tied to Artis: 'Hij is vooral bekend geworden door zijn ontwerpen voor de Amsterdamse Plantage, met name voor Artis'. The register speaks of 'gewone' woningbouw, not rented flats."
+   },
+   {
+    "field": "body",
+    "old": "cornices, bands of light stone in the brick,",
+    "new": "cornices, white plastered bands in the brick,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/976f95a9-14a0-4fff-90af-6c9bcf3e1a1a",
+    "evidence": "'wit gepleisterde horizontale elementen in de vorm van de plint, classicistische profiellijsten ... speklagen'. The bands are plastered, not stone."
+   },
+   {
+    "field": "body",
+    "old": "- the strong horizontal lines of the cornices and stone bands",
+    "new": "- the strong horizontal lines of the cornices and plastered bands",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/976f95a9-14a0-4fff-90af-6c9bcf3e1a1a",
+    "evidence": "Same as above: the horizontal elements are 'wit gepleisterd'."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Drie panden uit 1885 van vader en zoon Salm, elk twee keer zo breed als gewoonlijk, met een deur in het midden en een mansardekap. Gewone woningbouw, maar met een voornaam gezicht aan de Kostverlorenvaart.",
+     "body": "Neem het standaard Amsterdamse huis met lijstgevel, maak het twee keer zo breed, zet de deur in het midden en leg op elke verdieping twee woningen naast elkaar. Meer is er niet nodig om gewone woningbouw een deftig uiterlijk te geven. G.B. Salm en zijn zoon Abraham deden het hier in 1885, drie keer naast elkaar.\n\nVader Salm (1831–1897) is vooral bekend van zijn gebouwen voor Artis; Abraham had zijn opleiding grotendeels in Parijs gekregen. Voor deze rij van drie gelijke panden, met vier woonlagen, leenden ze uit de Hollandse renaissance: poortjes rond de voordeuren, kroonlijsten, witgepleisterde banden door het baksteen en raambogen met aanzet- en sluitstenen. Aan de kade valt het geheel op tussen de buren. Sinds de bouw is er weinig aan veranderd.\n\nLet op:\n- de drie deuren in het midden, elk met een dakkapel erboven\n- de bredere penanten en lisenen op de grens tussen de drie panden, met rechthoekige zinken regenpijpen\n- de sterke horizontale lijnen van de kroonlijsten en gepleisterde banden\n- de schoorstenen op de knik van de mansardekap"
+    }
+   },
+   "summary": "Three double-width canal-side houses of 1885 by father and son Salm, the father best known for Artis, given central doorways and a mansard roof to look grander than ordinary housing.",
+   "body": "G.B. Salm (1831–1897), best known for his buildings at Artis zoo, and his Paris-trained son Abraham Salm designed this row of three identical buildings in 1885. Each follows the usual Amsterdam type of a flat-fronted house with flats stacked over four storeys, but at twice the normal width, with a central entrance and two flats side by side on every floor. That simple change gives them a stately look that stands out on the quay. The design borrows from the Dutch Renaissance: little gate-like doorways, cornices, white plastered bands in the brick, and window arches with stone springers and keystones. The row has had no notable alterations since it was built.\n\nLook for:\n- the three central doorways, each crowned by a dormer\n- the wider piers and pilasters that mark the boundaries between the three buildings, with square zinc downpipes\n- the strong horizontal lines of the cornices and plastered bands\n- the chimneys on the break of the mansard roof"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "pnlfmac4n2dezeozwl735h81",
+  "title": "Garden buildings on the Zandpad",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "are the last pre-urban buildings on the Zandpad, an old towpath that predates both the park and the city around it.",
+    "new": "survive from the pre-urban buildings on the Zandpad, one of only two pre-urban paths left in Amsterdam.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/491931",
+    "evidence": "Complex 491931: 'Het Zandpad is, samen met het Schapenburgerpad, het enig resterende pre-stedelijke pad in Amsterdam.' No source says these are the last such buildings or that the path was a towpath."
+   },
+   {
+    "field": "body",
+    "old": "The Zandpad (sand path) ran along the old Overtoom and the polder long before the Vondelpark existed. Two small buildings on it survive from the gardens of the country estates and large houses that stood here before the city expanded.",
+    "new": "The Zandpad (sand path) is, with the Schapenburgerpad, the only path left in Amsterdam from before the city was built here. Two small buildings on it once stood in the garden of the house at Tesselschadestraat 9; they were built in two phases for the Scholten-Commelin family.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/491931",
+    "evidence": "'In opdracht van de familie Scholten-Commelin in twee fasen tot stand gekomen complex van TUIN-GEBOUWEN, voorheen gelegen in de tuin van het woonhuis Tesselschadestraat 9'. Nothing in the sources about the Overtoom, the polder or country estates."
+   },
+   {
+    "field": "body",
+    "old": "the city's records give 1885, but the vane is the better witness.",
+    "new": "the city's records give 1885.",
+    "kind": "cut",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=491941",
+    "evidence": "City data: jaarBeginVan 1885; RCE: 'windvaan met daarin aangegeven het bouwjaar 1853'. No source judges which is right."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een tuinmanshuisje met een windvaan uit 1853 en een oranjerie in chaletstijl, resten van de bebouwing van vóór de stad aan het Zandpad. Met het Schapenburgerpad is dit het enige pad dat Amsterdam nog over heeft uit die tijd.",
+     "body": "Het Zandpad lag er al voordat hier stad was. Samen met het Schapenburgerpad is het het enige pre-stedelijke pad dat Amsterdam nog heeft. Twee tuingebouwtjes aan dit pad stonden ooit in de tuin van het huis Tesselschadestraat 9. De familie Scholten-Commelin liet ze in twee fasen bouwen. Het rijksmonumentenregister beschermt ze samen, als deel van de oorspronkelijke bebouwing van vóór de stad.\n\nHet tuinmanshuis is van baksteen: één bouwlaag onder een schilddak, met daarop een verhoogde, deels gepleisterde dakopbouw met ruitvormige raampjes. Bovenop draait een gietijzeren windvaan met het bouwjaar 1853. De gemeentelijke gegevens houden het op 1885. Ernaast staat een oranjerie uit 1890, van hout en baksteen, in Zwitserse chaletstijl. De geknikte tuingevel is bijna helemaal van glas. Een poort tussen twee stenen pijlers met stenen bollen erop geeft toegang tot de tuinen.\n\nLet op:\n- de windvaan met het jaartal 1853\n- aan de kant van het Zandpad drie boogvensters met houten luiken en vorktracering in de bovenlichten\n- de rijk bewerkte windveren aan de puntgevel van de oranjerie\n- de poortpijlers met de stenen bollen"
+    }
+   },
+   "summary": "A gardener's cottage with an 1853 weathervane and a chalet-style orangery survive from the pre-urban buildings on the Zandpad, one of only two pre-urban paths left in Amsterdam.",
+   "body": "The Zandpad (sand path) is, with the Schapenburgerpad, the only path left in Amsterdam from before the city was built here. Two small buildings on it once stood in the garden of the house at Tesselschadestraat 9; they were built in two phases for the Scholten-Commelin family. The register protects them as a complex of garden buildings belonging to the original pre-urban buildings on the Zandpad.\n\nThe brick gardener's cottage has a single storey under a hipped roof with a raised, partly plastered attic and diamond-paned windows. A cast-iron weathervane on the roof gives the building year as 1853; the city's records give 1885. Next to it stands an orangery of 1890 in wood and brick, in the Swiss chalet style, with a bent garden front almost entirely of glass. A gate between two stone piers topped with stone balls leads to the gardens.\n\nLook for:\n- the weathervane with the date 1853\n- three arched windows with wooden shutters and fork tracery on the Zandpad side of the cottage\n- richly carved bargeboards on the orangery gable\n- the gate piers with stone balls"
+  },
+  "sources_add": [
+   "https://monumentenregister.cultureelerfgoed.nl/complexen/491931",
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=491941"
+  ]
+ },
+ {
+  "id": "shxf2ctj3e0laq4wtyaul1bf",
+  "title": "Oud Leyerhoven (Tesselschadestraat 31)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "has a top floor clad entirely in Villeroy & Boch sgraffito tiles of the Muses",
+    "new": "has a top floor clad in tiles, including Villeroy & Boch sgraffito panels of the Muses,",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/492066",
+    "evidence": "'alle gesloten vlakken met tegels zijn bekleed. Sgrafitto-tegeltableaux van de fabriek Villeroy & Boch, onder meer met voorstellingen van de Muzen.' Not all tiles are sgraffito panels of the Muses."
+   },
+   {
+    "field": "body",
+    "old": "Note: the name Oud Leyerhoven is also used for Cuypers' villa at Vondelstraat 77-79.",
+    "new": "Note: the name Oud Leyerhoven is also used for Cuypers' villa at Vondelstraat 77.",
+    "kind": "narrowed",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=5905",
+    "evidence": "City monument 5905, 'Vondelstraat 77', has naam 'Oud Leyerhoven'. The record covers no. 77 only."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Het allereerste gebouw van Jos Cuypers, een hoekvilla voor zijn eigen vader. De bovenste verdieping zit vol tegels, waaronder sgraffitotableaus van Villeroy & Boch met de Muzen, en op de hoek staat een uitkijkpostje.",
+     "body": "Je eerste opdracht als architect, en de klant is je vader. Dat overkwam Jos Cuypers in 1884: Pierre Cuypers liet hem deze grote stadsvilla ontwerpen op de hoek van de Tesselschadestraat en de Vondelstraat. De bouwvergunning was een aangepaste versie van een vergunning uit 1882 voor één villa en vier woonhuizen. Pierre woonde er een paar jaar, later trok Jos er zelf in. In 1922 werd het een kantoor met conciërgewoning voor een maatschappij die vakbondsgebouwen beheerde, en er kwam een vergaderzaal bij.\n\nDe villa combineert rode en gele baksteen met Italiaanse invloeden. Erkers van drie verdiepingen hoog, op smalle consoles, markeren de hoek en de kant van de Vondelstraat. De hele bovenste verdieping is vakwerk van houten stijlen en regels, en alle dichte vakken daartussen zijn met tegels bekleed, onder meer met sgraffitotableaus van Villeroy & Boch waarop de Muzen staan. Volgens het rijksmonumentenregister is dit de grootst opgezette laat-negentiende-eeuwse stadsvilla die alleen voor wonen bedoeld was.\n\nOverigens draagt ook de villa van Cuypers op Vondelstraat 77 de naam Oud Leyerhoven.\n\nLet op:\n- de betegelde bovenverdieping, het mooist vanaf de straathoek\n- de vierkante hoektoren met een prieelachtig uitkijkpostje onder een tentdak\n- de sierlijke tegels in de rondboogvelden boven de ramen van de eerste verdieping"
+    }
+   },
+   "summary": "Jos Cuypers' first building, a corner villa for his own father, has a top floor clad in tiles, including Villeroy & Boch sgraffito panels of the Muses, and a little lookout perched on the corner.",
+   "body": "Pierre Cuypers commissioned this large town villa on the corner of the Tesselschadestraat and Vondelstraat in 1884, and his son Jos Cuypers designed it as his very first work. The permit was an amended version of one granted in 1882 for a villa and four houses. Pierre lived here for some years, and Jos later did too. In 1922 it was converted into offices with a caretaker's flat for a company that managed trade-union buildings, with a meeting hall added.\n\nThe villa mixes red and yellow brick with Italian influences. Three-storey oriels on slender brackets mark the corner and the Vondelstraat side. The whole top floor is a timber frame whose panels are filled with tiles, including sgraffito tile panels by Villeroy & Boch showing the Muses. The register calls it the largest late nineteenth-century town villa built purely as a home.\n\nNote: the name Oud Leyerhoven is also used for Cuypers' villa at Vondelstraat 77.\n\nLook for:\n- the tiled top floor, best seen from the street corner\n- the square corner tower with an arbour-like lookout under a tent roof\n- decorative tiles in the round-arched panels above the first-floor windows"
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=5905"
+  ]
+ },
+ {
+  "id": "u6z8d4gg6cea562hkmua4f2j",
+  "title": "Schoolkinderbad (children's bathhouse)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "This Schoolkinderbad (school children's bath), designed in 1901 by the assistant city architect H. Leguyt,",
+    "new": "This Schoolkinderbad (school children's bath), built in 1901 to a design by the assistant city architect H. Leguyt,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/029e29a1-3757-4e2c-8d99-f2017a75b1cf",
+    "evidence": "'Het (voormalige) Schoolkinderbad is in 1901 gebouwd naar een ontwerp van ... H. Leguyt.' amsterdamopdekaart lists the proposal in 1899 and the tender in 1900, so 1901 is the building year, not the design year."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Veertig kinderen tegelijk, gezicht naar de muur, uitkleden op commando: in dit badhuis uit 1901 met een vakwerkgevel kwamen schoolklassen eens per week gratis douchen.",
+     "body": "Gezicht naar de muur, uitkleden op commando, in de rij naar de douches. Het Algemeen Handelsblad beschreef hoe architect H. Leguyt het in dit badhuis had bedacht. Groepen van veertig jongens of veertig meisjes kleedden zich uit met de neus naar de muur en liepen op een teken naar de douchezaal. Daar draaide de begeleider langzaam aan de mengkranen: eerst warm, dan geleidelijk koud, en dan weer warm.\n\nRond 1900 maakte Amsterdam zich zorgen over hygiëne en besmettelijke ziekten. In 1890 begon de gemeenteraad al een proef met baden bij twee scholen. Dit Schoolkinderbad, in 1901 gebouwd naar ontwerp van assistent-stadsarchitect Leguyt, was een van de eerste badhuizen van de stad. Kinderen kwamen hier een keer per week gratis onder de douche. Voorin zaten kamertjes voor de administratie en voor de badmeester en badvrouw, met boven de woning van de beheerder. Daarachter lagen een wacht- en speellokaal en een kleedlokaal, en helemaal achterin een achthoekige zaal met zo'n veertig douches.\n\nLeguyt bouwde vooral ziekenhuizen en andere gemeentelijke gebouwen. Dit kleine gebouw kreeg van hem een opvallend speelse gevel met houten vakwerk, iets wat je in de negentiende-eeuwse ring zelden ziet.\n\nLet op:\n- de bakstenen gevel met vakwerk en een dakhuis op een versierd sierspant\n- het jugendstiltegeltableau met SCHOOL KINDERBAD boven de luifel\n- een tweede tegeltableau met het jaartal 'Ao 1901'\n- de houten luifel boven de deur met een eigen geveltje"
+    }
+   },
+   "body": "Around 1900 Amsterdam worried about hygiene and contagious disease, and in 1890 the council started a trial with baths at two schools. This Schoolkinderbad (school children's bath), built in 1901 to a design by the assistant city architect H. Leguyt, was one of the first bathhouses in the city. Children came once a week to shower for free. At the front were rooms for the administration and for the bath master and bath mistress, with the manager's flat upstairs. Behind were a waiting and play room, a changing room, and at the very back an octagonal hall with about forty showers.\n\nThe Algemeen Handelsblad described Leguyt's routine: groups of forty boys or forty girls undressed facing the wall, filed to the showers on command, and the attendant slowly turned the mixing taps from warm to cold and back to warm. Leguyt, who mostly designed hospitals and civic buildings, gave this little building an unusually whimsical front with timber framing, rare in the 19th-century ring.\n\nLook for:\n- the half-timbered brick front with a dormer house carried on a decorated truss\n- the Jugendstil tile panel reading SCHOOL KINDERBAD above the canopy\n- a second tile panel with the year \"Ao 1901\"\n- the wooden porch canopy with its own little gable"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "la6x4wimktx7a4og76lx156u",
+  "title": "Zaagmolenschool and Filmhuis Cavia",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Now artists' studios and Filmhuis Cavia, a tiny cinema that grew out of the squatters' movement.",
+    "new": "Now artists' studios and Filmhuis Cavia, a small film house left over from the neighbourhood's squatting years.",
+    "kind": "narrowed",
+    "source": "https://amsterdamalternative.nl/articles/3256/it-was-once-the-kraakliedenbuurt",
+    "evidence": "'the Staatsliedenbuurt's few cultural centres remain the most vivid reminder of it's squatting past ... Zaal100 and the Filmhuis Cavia remain'. No source says it grew out of the movement or gives its size."
+   },
+   {
+    "field": "body",
+    "old": "is Filmhuis Cavia, a volunteer-run film house that opened in 1983",
+    "new": "is Filmhuis Cavia, a film house that works with volunteers and opened in 1983",
+    "kind": "narrowed",
+    "source": "https://www.filmhuiscavia.nl",
+    "evidence": "The site has a 'Vrijwilligers' section and a '40th Anniversary (in 2023)' page (so 1983); it does not say the house is run entirely by volunteers."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Van de straat zie je deze school uit 1913–1914 niet: ze zit verstopt binnen het woonblok van De Bazel, alleen bereikbaar via poorten. Nu zitten er ateliers en Filmhuis Cavia, een filmhuis dat overbleef uit de kraakjaren van de buurt.",
+     "body": "Om deze school te vinden moet je door een poort. Publieke Werken ontwierp haar in 1913–1914 als twaalfklassige school, ooit bekend als de Zaagmolenschool, en zette haar midden op het binnenterrein van het noordelijke woonblok van K.P.C. de Bazel. Vanaf de straat is ze onzichtbaar.\n\nQua maat past ze bij de woningen eromheen, maar ze heeft een eigen gezicht. De Bazel versierde zijn blokken met stroken siermetselwerk; de school houdt het bij eenvoudige speklagen en aanzet- en sluitstenen van zandsteen. De afgeschuinde hoeken en schilddaken van de woonblokken ontbreken. De plattegrond is bijna vierkant, twee tot drie verdiepingen hoog, en sluit zelf weer een binnenplaats in.\n\nTegenwoordig gebruikt vooral stichting Muzenis het gebouw; die verhuurt de ruimtes als werkplaatsen aan kunstenaars en theatermakers. Op de eerste verdieping van Van Hallstraat 52 zit Filmhuis Cavia, een filmhuis met vrijwilligers dat in 1983 openging. Het is een van de culturele plekken die zijn overgebleven uit de jaren dat de Staatsliedenbuurt een krakersbuurt was.\n\nLet op:\n- de poorten door de blokken van De Bazel die naar de school leiden\n- de zandstenen aanzet- en sluitstenen boven de ramen\n- de ingang van Filmhuis Cavia op Van Hallstraat 52"
+    }
+   },
+   "summary": "A 1913–1914 school hidden inside De Bazel's housing block, reached only through gateways. Now artists' studios and Filmhuis Cavia, a small film house left over from the neighbourhood's squatting years.",
+   "body": "Public Works designed this twelve-class school, once known as the Zaagmolenschool, in 1913–1914, for the courtyard of the northern block of De Bazel's housing complex. It cannot be seen from the street; you reach it through gateways. It shares the scale of the surrounding flats but has its own character: where De Bazel used bands of decorative brickwork, the school has plain bands and sandstone springers and keystones, and it lacks the notched corners and pitched roofs of the homes. The almost square plan of two to three storeys wraps around an inner courtyard.\n\nToday the building is mostly used by the Muzenis foundation, which lets the rooms as artists' and theatre workshops. On the first floor at Van Hallstraat 52 is Filmhuis Cavia, a film house that works with volunteers and opened in 1983 and is one of the cultural places that survived from the neighbourhood's squatting years.\n\nLook for:\n- the gateways through De Bazel's blocks that lead to the school\n- sandstone springers and keystones over the windows\n- the Filmhuis Cavia entrance at Van Hallstraat 52"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "rhx9rdb7j9oia0wpum8n6m5a",
+  "title": "Brediusbad and the Bredius sign-sculpture",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The Brediusbad opened in 1957 at the foot of the railway embankment on the Spaarndammerdijk, the old sea dike.",
+    "new": "The Brediusbad opened in 1957 on the Spaarndammerdijk, beside the railway.",
+    "kind": "narrowed",
+    "source": "https://ruimtelijkeplannen.nl/documents/NL.IMRO.0363.C0901BPSTD-OH01/t_NL.IMRO.0363.C0901BPSTD-OH01_index.pdf",
+    "evidence": "The zoning plan puts the pool 'parallel aan het spoor' and the address is Spaarndammerdijk 306; no source calls the dike an old sea dike or puts the pool at the foot of the embankment."
+   },
+   {
+    "field": "body",
+    "old": "In the hot summers of the 1960s it was packed: on 11 July 1967 a press photographer found the pools and lawns so full there was hardly room to stand.",
+    "new": "On 11 July 1967 a press photographer of the Anefo agency photographed its overcrowded pools.",
+    "kind": "narrowed",
+    "source": "https://commons.wikimedia.org/wiki/File:Overvolle_zwembaden._Het_Brediusbad_aan_de_Spaarndammerdijk._Overzichtsfoto,_Bestanddeelnr_920-4944.jpg",
+    "evidence": "Nationaal Archief / Anefo, Ben Merk: 'Overvolle zwembaden. Het Brediusbad aan de Spaarndammerdijk. Overzichtsfoto', 11 juli 1967. Nothing about hot summers or lawns."
+   },
+   {
+    "field": "body",
+    "old": "It is a heated pool, open only in the summer season.",
+    "new": "It is a heated open-air pool.",
+    "kind": "cut",
+    "source": "https://www.amsterdam.nl/brediusbad/",
+    "evidence": "'Het Brediusbad is een verwarmd openluchtzwembad.' The fetched pages give no season."
+   },
+   {
+    "field": "body",
+    "old": "Rolf and the district's adviser wanted",
+    "new": "Rolf and the adviser for management and maintenance wanted",
+    "kind": "narrowed",
+    "source": "https://stadsdeelwest.kunstwacht.nl/css/frontend/stadsdeelwest/route1.pdf",
+    "evidence": "'de bedoeling, van de kunstenaar en de adviseur voor beheer en onderhoud'."
+   },
+   {
+    "field": "body",
+    "old": "- the railway embankment and the old dike that the pool sits against",
+    "new": "- the railway embankment beside the pool",
+    "kind": "narrowed",
+    "source": "https://ruimtelijkeplannen.nl/documents/NL.IMRO.0363.C0901BPSTD-OH01/t_NL.IMRO.0363.C0901BPSTD-OH01_index.pdf",
+    "evidence": "See above: only the railway alongside is sourced."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een verwarmd openluchtbad uit 1957, verstopt achter twee hoge hotels, en een stalen naambeeld voor sporthal Bredius, die in 2004 afbrandde. Toen het beeld in 2000 verhuisde, gooide een kabel van 10.000 volt onder de stoep het plan van de kunstenaar in de war.",
+     "body": "Het mooiste plan sneuvelde op een stroomkabel. Toen de drie stalen beelden van Peter Rolf in 2000 een nieuwe plek kregen aan de Spaarndammerdijk, wilden Rolf en de adviseur die over beheer en onderhoud ging het middelste dwars over de stoep zetten. Dat zou wat speelsheid brengen tussen drie nogal strenge vormen. Maar midden onder de stoep lag een kabel van 10.000 volt, en die verleggen zou een vermogen kosten.\n\nRolf maakte de beelden in 1981 voor de ingang van sporthal Bredius aan de Zaanstraat, met de naam 'Bredius Sportcentrum' in het staal gefreesd. Ze zijn geknipt, gevouwen en gelast, en de twee kleine passen samen in de grote. In 2000 werden ze verplaatst en opnieuw gegroepeerd in een groenere omgeving. In 2004 brandde de sporthal af. Het stadsdeel maakte daarna een plan voor het terrein waarin het zwembad bleef. Zo werd de beeldengroep een naambord voor een gebouw dat er niet meer is.\n\nHet zwembad, het Brediusbad, ging in 1957 open aan de Spaarndammerdijk, langs het spoor. Op 11 juli 1967 legde een persfotograaf van Anefo de overvolle baden vast. De ingang verhuisde later van de Zaanstraat naar de Spaarndammerdijk, en het bad ligt nu wat verscholen achter twee hoge hotelgebouwen; je komt binnen via de kassa in het rechtergebouw. Het is een verwarmd openluchtbad.\n\nLet op:\n- het zwembad achter de hotelgebouwen, en de kassa\n- het spoortalud naast het zwembad"
+    }
+   },
+   "body": "The Brediusbad opened in 1957 on the Spaarndammerdijk, beside the railway. On 11 July 1967 a press photographer of the Anefo agency photographed its overcrowded pools. Its entrance later moved from the Zaanstraat to the Spaarndammerdijk, and the pool is now tucked away behind two tall hotel buildings; you get in through a ticket window in the right-hand one. It is a heated open-air pool.\n\nNext to it stood the Bredius sports hall. In 1981 Peter Rolf made three folded steel objects to mark its entrance on the Zaanstraat, with the words \"Bredius Sportcentrum\" milled into the steel. The two small ones fit together into the big one, and all three were made by cutting, folding and welding. In 2000 they were moved and regrouped in greener surroundings on the Spaarndammerdijk. Rolf and the adviser for management and maintenance wanted to set the middle object across the pavement, for a bit of play between three rather formal shapes, but a 10,000-volt power cable ran under the middle of the pavement, and moving it would have cost a fortune.\n\nIn 2004 the sports hall was destroyed by fire. The district then drew up a plan for the site that kept the pool. The sculpture group thus became a sign for a building that no longer exists.\n\nLook for:\n- the pool behind the hotel buildings, and its ticket window\n- the railway embankment beside the pool"
+  },
+  "sources_add": [
+   "https://commons.wikimedia.org/wiki/File:Overvolle_zwembaden._Het_Brediusbad_aan_de_Spaarndammerdijk._Overzichtsfoto,_Bestanddeelnr_920-4944.jpg"
+  ]
+ },
+ {
+  "id": "kghiwoczs1xl5a590qv5mfax",
+  "title": "Colour Connection (Lidewijdepad tunnel)",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een donkere voetgangerstunnel onder de A10 licht nu op met mandala's die zo'n 150 buurtbewoners tekenden. Het lichtkunstwerk van Nina Rave (2020) verbindt de Gulden Winckelbuurt met de Kolenkitbuurt.",
+     "body": "De mensen die er elke dag doorheen moesten, vonden de tunnel donker en eng. Nu zitten hun eigen tekeningen in het licht.\n\nHet Lidewijdepad duikt onder de ringweg A10 door, van de Jephtastraat naar de Sinjeur Semeynsstraat. Toen de tunnel breder zou worden, vroeg de gemeente drie kunstenaars om een schetsontwerp. De vaste gebruikers mochten kiezen, en ze kozen voor *Colour Connection* van kunstenaar en ontwerper Nina Rave.\n\nVanaf juni 2019 gaf Rave workshops in de buurt. Ongeveer 150 bewoners, van jong tot oud, tekenden daar mandala-achtige figuren: ronde, symmetrische tekeningen waarin steeds dezelfde motieven terugkomen. Die tekeningen verwerkte zij in het lichtkunstwerk, dat in 2020 klaar was. Volgens de kunstcuratoren van de stad werd de onderdoorgang daarmee een uitnodigende en veilige route tussen de Gulden Winckelbuurt en de Kolenkitbuurt.\n\nLet op:\n- de losse mandala's van bewoners tussen het gekleurde licht\n- de tunnel na donker, als het werk het sterkst is"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "lgdneb2uf4r61yba8ybd1uh8",
+  "title": "Cuypers' first houses (Vondelstraat 36–48)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "- balcony brackets with carved heads at nos. 44-48, and yellow brick bands against red-brown walls throughout",
+    "new": "- balcony brackets with carved heads at nos. 44-48, and yellow brick bands against red-brown walls at nos. 40-48",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/6dedb282-df22-40c9-a0e3-eeff9eed7a4a",
+    "evidence": "The register notes that nos. 36-38 were later painted black, so the brick bands are no longer visible throughout the row."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "De vroegste huizen van Pierre Cuypers aan de straat die hij zelf aanlegde, uit 1867–1870. Kijk omhoog naar de raadselachtige dieren, waaronder een hijsbalk in de vorm van een olifant met een pelikaanachtige vogel erop.",
+     "body": "Rond 1900 wilde effectenmakelaar E. Boissevain van zijn huurcontract af. Hij woonde op nummer 36 en kon niet tegen het 'eigenaardige karakter' van het huis. Uiteindelijk raakte hij toch overtuigd van de ideeën van de architect, en bleef.\n\nDie architect was Pierre Cuypers, van het Rijksmuseum en het Centraal Station. Hij gaf de Vondelstraat haar vorm en woonde er zelf ook. Tussen 1867 en 1870 zette hij deze rij stadshuizen neer, in fasen, met huisvriend B.J. Sterck als geldschieter. Het zijn bijna de eerste gebouwen van de straat, en van de hele negentiende-eeuwse ring. Een gangbaar eclectisch herenhuis wilde Cuypers niet. Hij greep terug op de laatmiddeleeuwse huizenbouw en de renaissance, als vertrekpunt voor een rationele, moderne bouwkunst, en hield vast aan de drie traveeën van het Amsterdamse grachtenhuis. In 36-38 zit nu een hotel.\n\nLet op:\n- op nummer 38 de dakkapel met een hijsbalk in de vorm van een olifant, met bovenop een vogel die op een pelikaan lijkt\n- nog eens het olifantmotief, in de zolderramen van de topgevels van 40-42\n- de portretkop rechts van het portiek van nummer 36, mogelijk Sterck zelf\n- balkonconsoles met gebeeldhouwde koppen op 44-48, en banden van gele baksteen in de roodbruine gevels van 40-48"
+    }
+   },
+   "body": "Pierre Cuypers, architect of the Rijksmuseum and Centraal Station, shaped the Vondelstraat and lived on it himself. In 1867–1870 he built this strip of town houses in phases, with B.J. Sterck, a family friend, as financier. They are among the very first buildings of the street and of the nineteenth-century ring. Instead of the usual eclectic town house, Cuypers drew on late-medieval and Renaissance house building, as a basis for a rational, modern architecture. He combined it with the classic three-bay width of the Amsterdam canal house.\n\nNot everyone liked it. Around 1900 the stockbroker E. Boissevain, a tenant at no. 36, wanted to end his lease because of the house's \"peculiar character\". Once convinced of Cuypers' ideas, he stayed. Nos. 36-38 are now a hotel.\n\nLook for:\n- at no. 38, the dormer whose hoist beam is shaped like an elephant, with a pelican-like bird at its top\n- the elephant motif again in the attic windows of the gables of nos. 40-42\n- the portrait head right of the porch of no. 36, possibly Sterck himself\n- balcony brackets with carved heads at nos. 44-48, and yellow brick bands against red-brown walls at nos. 40-48"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "b8j2rtfzxxm3zxwstfr39kez",
+  "title": "Patrimonium blocks around the Zaanhof",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "built in 1918–1919 for the Protestant association Patrimonium,",
+    "new": "built in 1918–1919 for the association Patrimonium,",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/526729",
+    "evidence": "The register names 'woningbouwvereniging Patrimonium' but gives no denomination."
+   },
+   {
+    "field": "body",
+    "old": "for the socialist Het Westen,",
+    "new": "for Het Westen,",
+    "kind": "cut",
+    "source": "https://stadsdeelwest.kunstwacht.nl/css/frontend/stadsdeelwest/route1.pdf",
+    "evidence": "Sources name Het Westen as the client of Walenkamp's Zaanhof but do not describe its politics."
+   },
+   {
+    "field": "body",
+    "old": "for the Protestant housing association Patrimonium.",
+    "new": "for the housing association Patrimonium.",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/526729",
+    "evidence": "As above: no denomination in the sources."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "De buitenring van de Zaanhof, in 1918–1919 gebouwd voor woningbouwvereniging Patrimonium, met twee piepkleine 'villa's' voor drie gezinnen, elk met een hoektorentje, als poortwachters bij de ingang van het hof.",
+     "body": "Aan de Hembrugstraat staan twee huisjes die zich als poortgebouw voordoen. Op een klein plantsoen, los van de rest, staat aan weerszijden van het pad naar de poort van de Zaanhof een blokje van drie woningen. Ze zijn elkaars spiegelbeeld, met een veelhoekig hoektorentje met spits, een tentdak van leien en een erker die het dak in snijdt.\n\nZe horen bij de buitenring van de Zaanhof. Terwijl Walenkamp de binnenring bouwde voor Het Westen, ontwierpen Tjeerd Kuipers en Arnold Ingwersen de vier verdiepingen hoge rand eromheen, langs de Spaarndammerdijk, de Zaanstraat, de Oostzaanstraat en de Hembrugstraat, voor woningbouwvereniging Patrimonium. Het monumentenregister noemt de stijl rationalistisch: baksteen in kruisverband, schild- en wolfdaken, portieken met een rondboog en een topgevel erboven, en erkers op de hoeken.\n\nTwee poorten in de Zaanstraat en een vanaf de Spaarndammerdijk geven toegang tot het binnenhof. Bij de dijk moet je een paar treden af, want de oude dijk ligt hoger dan de straten.\n\nLet op:\n- de twee drie-gezinshuizen met torentje op het plantsoen bij Hembrugstraat 336-346\n- de ingang met treden vanaf de Spaarndammerdijk naar het hof\n- de rondboogportieken langs de Zaanstraat"
+    }
+   },
+   "summary": "The outer ring of the Zaanhof, built in 1918–1919 for the association Patrimonium, with two tiny three-family \"villas\" with corner towers guarding the gate to the courtyard.",
+   "body": "While Walenkamp built the inner ring of the Zaanhof for Het Westen, the architects Tjeerd Kuipers and Arnold Ingwersen designed the four-storey outer ring along the Spaarndammerdijk, Zaanstraat, Oostzaanstraat and Hembrugstraat for the housing association Patrimonium. The register calls the style rationalist: brick in cross bond, hipped and half-hipped roofs, round-arched porches with gables above, and bay windows at the corners. Two gateways in the Zaanstraat and one from the Spaarndammerdijk lead into the inner court; the dike entrance includes steps, because the old dike lies higher than the streets.\n\nThe charm is on the Hembrugstraat: a small green with two free-standing mini-blocks of three homes each, mirror images with a polygonal corner tower capped by a spire, a slate tent roof and a bay window that cuts into the roof. They flank the path to the Zaanhof gate like gatehouses.\n\nLook for:\n- the two towered three-family houses on the green at Hembrugstraat 336-346\n- the stepped entrance from the Spaarndammerdijk into the court\n- round-arched porches along the Zaanstraat"
+  },
+  "sources_add": [
+   "https://monumentenregister.cultureelerfgoed.nl/complexen/526729",
+   "https://stadsdeelwest.kunstwacht.nl/css/frontend/stadsdeelwest/route1.pdf"
+  ]
+ },
+ {
+  "id": "fc3vbp423filbhd5vli2jvpz",
+  "title": "Freemasons' lodge (Vondelstraat 39-41)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "In 1873 Gerard Adriaan Heineken had Pierre Cuypers",
+    "new": "In 1873 G.A. Heineken had Pierre Cuypers",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/492004",
+    "evidence": "The register names 'G.A. Heineken'; the full first names are not in the sources."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een bierhuis van Cuypers voor Heineken werd een tempel van de vrijmetselaars. Achter een glas-in-loodroosvenster met een geslepen diamant liggen nu de Blauwe en de Rode Tempel van de Amsterdamse loges.",
+     "body": "Waar nu de vrijmetselaars bijeenkomen, werd eerst bier getapt. In 1873 liet G.A. Heineken Pierre Cuypers hier een bierhuis ontwerpen, Bierhuis Vondel, dat in 1891 verderging als Café Restaurant Vondel. In 1903 kwamen dit pand en het Vondelhuis ernaast in handen van de zeven Amsterdamse vrijmetselaarsloges, die samen een thuis zochten.\n\nW. Kromhout bouwde eerst het Vondelhuis om en gaf het een gevel als van een tempel. In 1910–1911 kregen beide panden van P. Heyn hun huidige gezicht: de gevels van Kromhout en Cuypers gingen tegen de grond, en er kwam één nieuwe rationalistische voorgevel voor in de plaats. Van het bierhuis zijn alleen sporen over in de zij- en achtermuren.\n\nOp nummer 39 ligt de Blauwe Tempel op de begane grond en de Rode Tempel daarboven, tussen twee hoektorens met open lantaarns. Op nummer 41 zaten een sociëteit en de woning van de conciërge.\n\nLet op:\n- het neoromaanse rondboogportaal met PACI AC LUCI (aan vrede en licht) in tegels erboven\n- het grote roosvenster met in glas-in-lood een geslepen diamant, de hoogste trap waar een vrijmetselaar naar streeft\n- een fries van vierkante stenen met beschilderde Andreaskruisen\n- boven de middelste ingang een schild met winkelhaak, passer en de letter G"
+    }
+   },
+   "body": "In 1873 G.A. Heineken had Pierre Cuypers design a *bierhuis* (beer house) here, the Bierhuis Vondel; in 1891 it became the Café Restaurant Vondel. In 1903 it and the neighbouring Vondelhuis passed to the seven Amsterdam freemasons' lodges, who wanted a shared home. W. Kromhout first rebuilt the Vondelhuis with a front like a temple. In 1910–1911 P. Heyn gave both buildings their present look, demolishing the fronts by Kromhout and Cuypers and replacing them with one new rationalist façade. Only traces of the beer house's side and rear walls survive.\n\nThe lodge building at no. 39 holds the Blue Temple on the ground floor and the Red Temple above, between two corner towers with open lanterns. No. 41 held a club room and the caretaker's flat.\n\nLook for:\n- the round-arched neo-Romanesque portal with the words PACI AC LUCI (to peace and light) in tiles above it\n- the large rose window with a polished diamond in stained glass, the highest stage a freemason strives for\n- a frieze of square stones painted with St Andrew's crosses\n- above the middle entrance, a shield with the square and compasses and the letter G"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xh9c374cb2fk2degk6z1coyp",
+  "title": "P.W. Janssenhofje",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een liefdadigheidshofje uit 1894–1895 van Willem Hamer jr. Zestien betalende huishoudens aan de straat brachten het geld op, zodat 56 zeer arme gezinnen rond het hof gratis konden wonen.",
+     "body": "Zestien huurders betaalden, zodat 56 gezinnen dat niet hoefden. Zo zat dit hofje in elkaar. Vier huizen aan de straat met zestien betalende huishoudens brachten de huur op, en in de tien gebouwen rond het hof woonden 56 heel arme gezinnen zonder huur te betalen.\n\nTussen de eenvoudige portiekblokken van de 600 meter lange Da Costastraat springen de nummers 36 tot 60 eruit. Het hof is gebouwd door de Nederlandsch-Duitsche Stichting, ook bekend als Liefdadigheid naar Vermogen, en heet naar de man die het initiatief nam: Peter Wilhelm Janssen, een filantroop die zijn geld met tabaksteelt had verdiend. Op 29 september 1894, nog geen maand na de aankoop van de grond, begon de bouw. Het ontwerp is van bestuurslid Willem Hamer jr., eclectisch en met een flinke scheut neorenaissance.\n\nDe woningen staan in een U rond het huis van de opzichter, dat ook dienstdeed als gemeenschappelijke ruimte. In oktober 1895 openden burgemeester Vening Meinesz en de Duitse consul-generaal het hof. Sinds 1978 wonen er ouderen, in 2009 restaureerde Hooyschuur Architecten het zorgvuldig. De naam P.W. Janssenhofje bestaat pas sinds 1986.\n\nLet op:\n- het U-vormige hof rond het voormalige opzichtershuis\n- de neorenaissance straatgevel, zo anders dan de sobere blokken ernaast\n- een borstbeeld van P.W. Janssen door Bart van Hove op het Bellamyplein, vlakbij"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Monument_Peter_Wilhelm_Janssen"
+  ]
+ },
+ {
+  "id": "qq8cvio9bzii2b821909j1mo",
+  "title": "Windwijzen (Staringplein)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "above a car park so prone to breakdowns that locals call it the Storingplein.",
+    "new": "above a car park so prone to breakdowns that locals nicknamed it Parkeergarage Storingplein.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Staringplein_(Amsterdam)",
+    "evidence": "The source gives the nickname 'Parkeergarage Storingplein' for the garage, not a renaming of the square."
+   },
+   {
+    "field": "body",
+    "old": "Look up from the hexagonal Staringplein, laid out in 1904 and named after the poet A.C.W. Staring. On the roofs and gables around it",
+    "new": "Look up from the hexagonal Staringplein, named in 1904 after the poet A.C.W. Staring. On the roofs around it",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Staringplein_(Amsterdam)",
+    "evidence": "Wikipedia gives 1904 as the naming date, not the layout date; the sources put the figures on the roofs, not on gables."
+   },
+   {
+    "field": "body",
+    "old": "is by the Dutch artist Rolf Engelen, who mostly works in public space.",
+    "new": "is by Rolf Engelen.",
+    "kind": "cut",
+    "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/2173/windwijzen",
+    "evidence": "The sources name the artist but say nothing about his nationality or practice."
+   },
+   {
+    "field": "body",
+    "old": "In 2005 the city built a €3.2 million mechanical car park under the square,",
+    "new": "In 2005 a €3.2 million mechanical car park was built under the square,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Staringplein_(Amsterdam)",
+    "evidence": "The sources give the year and cost but not who built it."
+   },
+   {
+    "field": "body",
+    "old": "The garage broke down so often that the neighbourhood renamed the square *Storingplein* (Breakdown Square).",
+    "new": "The garage broke down so often that the neighbourhood nicknamed it *Parkeergarage Storingplein* (Breakdown Square car park).",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Staringplein_(Amsterdam)",
+    "evidence": "The nickname applies to the garage ('Parkeergarage Storingplein')."
+   },
+   {
+    "field": "body",
+    "old": "- the figures on the pointed gables and roof ridges",
+    "new": "- the figures on the roofs around the square",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/2173/windwijzen",
+    "evidence": "The sources say the figures stand on the roofs; they do not mention gables or ridges."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Op de daken rond het Staringplein staan 23 zwarte figuren die met uitgestoken arm aanwijzen waar de wind vandaan komt. Het werk van Rolf Engelen uit 2006 rondde de vernieuwing van het plein af, boven een garage die de buurt Parkeergarage Storingplein doopte.",
+     "body": "Ze staan daar stoer met gestrekte arm, maar ze hebben niets te zeggen: de wind bepaalt waar ze heen wijzen. Op de daken rond het zeshoekige Staringplein, in 1904 vernoemd naar dichter A.C.W. Staring, staan zo'n 23 zwarte mensfiguren. Elk is een windvaan met uitgestoken arm en vinger, en samen wijzen ze altijd de kant van de wind op. De titel *Windwijzen* speelt met windwijzer en wijzen. Het werk is van Rolf Engelen en werd in juni 2006 onthuld, als sluitstuk van de vernieuwing van het plein.\n\nDie vernieuwing ging vooral over wat eronder zit. In 2005 kwam er voor 3,2 miljoen euro een mechanische parkeergarage onder het plein; daarom bolt het grasveld nu boven de straat uit. De garage viel zo vaak uit dat de buurt hem Parkeergarage Storingplein ging noemen. In april 2024 maakte de gemeente bekend dat ze hem wilde verkopen. In het dak van de garage zit een tijdcapsule.\n\nTegen de lucht zijn de figuren klein. Het makkelijkst zie je ze op een dag met veel wind, als ze allemaal tegelijk draaien.\n\nLet op:\n- de figuren op de daken rond het plein\n- het opgehoogde grasveld boven de garage, met de tijdcapsule erin\n- het Lutherhofje op nummer 9"
+    }
+   },
+   "summary": "Twenty-three black human figures stand on the rooftops around the Staringplein, each pointing an arm wherever the wind blows. Rolf Engelen's 2006 artwork finished the square's makeover, above a car park so prone to breakdowns that locals nicknamed it Parkeergarage Storingplein.",
+   "body": "Look up from the hexagonal Staringplein, named in 1904 after the poet A.C.W. Staring. On the roofs around it stand some 23 black human figures. Each one is a weather vane with an outstretched arm and finger, and together they always point the way the wind blows. They look steadfast, but they are completely at the mercy of the wind. The work, *Windwijzen* (a play on *windwijzer*, weather vane, and *wijzen*, to point), is by Rolf Engelen. It was unveiled in June 2006 as the final part of the renewal of the square.\n\nThat renewal was mostly about what lies underneath. In 2005 a €3.2 million mechanical car park was built under the square, which is why the lawn now bulges above street level. The garage broke down so often that the neighbourhood nicknamed it *Parkeergarage Storingplein* (Breakdown Square car park). In April 2024 the city announced it wanted to sell it. A time capsule is set into its roof.\n\nThe figures are small against the sky and easiest to spot on a windy day, when they all turn together.\n\nLook for:\n- the figures on the roofs around the square\n- the raised lawn over the car park, and the time capsule in it\n- the Lutherhof almshouse at number 9"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yrarbfgntx7u2flu3sns8d22",
+  "title": "Europa (Hans Kuyper)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The bridge itself has a story: until the 1950s the Baarsjesweg here separated the high city water level from the low polder level, and boats had to be lifted between them by a ship lift.",
+    "new": "The bridge itself has a story: for a long time the Baarsjesweg here separated the high city water level from the low polder level, and from 1916 a ship lift hoisted boats between them; the bridge came only in 1954.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Arend_Westermanbrug",
+    "evidence": "'De Baarsjesweg vormde hier lang de scheiding ... in 1916 een scheepslift geplaatst ... besloten ook de scheepslift verder naar het westen te leggen ... In 1954 werd vervolgens de brug aanbesteed.' The lift was moved west before the bridge, so 'until the 1950s' is not supported."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een bronzen jongen duikt naar de bodem, en het water waar hij in duikt is de zuil geworden die hem draagt. Het beeld van Hans Kuyper staat sinds 2005 in een parkje zonder naam bij de Arend Westermanbrug.",
+     "body": "Water is lastig in brons te gieten, dus maakte Hans Kuyper er een zuil van. *Europa*, van rond 1995, toont een jongeman in het water die naar de bodem duikt. De waterkolom waar hij in verdwijnt is tegelijk het ding dat hem overeind houdt. Bij zijn handen en voeten krullen spiralen: het kolkende water dat hij achter zich laat. Het brons staat op een betonnen voet, die onder klinkers is weggestopt.\n\nEerst stond het beeld op het Columbusplein. In 2005 verhuisde het naar een parkje zonder naam ten noordwesten van de Arend Westermanbrug (brug 186), waar de Postjeswetering uitkomt in de Admiralengracht. Ook die brug heeft een verhaal. De Baarsjesweg vormde hier lang de grens tussen het hoge water van de stad en het lage polderpeil, en vanaf 1916 takelde een scheepslift boten van het ene naar het andere niveau. De brug kwam er pas in 1954. Aan de overkant van de gracht staat Het Sieraad, de oude ambachtsschool van Westerman.\n\nHet beeld staat in een openbaar parkje aan de Postjesweg en is altijd te zien.\n\nLet op:\n- de spiraalvormige 'kolken' bij zijn handen en voeten\n- de waterzuil waar hij in duikt, die ook zijn sokkel is\n- Het Sieraad aan de overkant van de Admiralengracht"
+    }
+   },
+   "body": "Hans Kuyper's *Europa* (around 1995) shows a young man in the water, diving down towards the bottom. Kuyper gave the water itself a shape: it is the column the diver plunges into and that carries him. Spiral-shaped ends at his hands and feet stand for the swirling water behind him. The bronze stands on a concrete base hidden under paving bricks.\n\nIt first stood on the Columbusplein. In 2005 it moved to a small, nameless park north-west of the Arend Westermanbrug (bridge 186), where the Postjeswetering meets the Admiralengracht. The bridge itself has a story: for a long time the Baarsjesweg here separated the high city water level from the low polder level, and from 1916 a ship lift hoisted boats between them; the bridge came only in 1954. Across the water stands Het Sieraad, Westerman's former trade school.\n\nIt stands in a public park on the Postjesweg and can be seen at any time.\n\nLook for:\n- the spiral \"eddies\" at the diver's hands and feet\n- the water-column he dives into, which is also his plinth\n- Het Sieraad across the Admiralengracht"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "wb7nc43ioj44mvkl908j2ach",
+  "title": "Former Apostolic church, Witte de Withstraat (now a mosque)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "converted the church into a mosque and community centre, digging a prayer room into the old foundations of brick arches on wooden piles.",
+    "new": "converted the church into a mosque and community centre, with a basement prayer room planned inside the old foundations of brick arches on wooden piles.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/bfbe8d93-986f-4efc-8cd0-d747efd67a18",
+    "evidence": "'In dat kader was voorzien in de bouw van een kelderverdieping binnen de bestaande fundering ... Deze ruimte zou dienen als gebedsruimte en berging.' The register records the plan, not its execution."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een kerkje op een Grieks kruis uit 1920–1921 dat eruitziet alsof Frank Lloyd Wright in De Baarsjes langs is geweest. Gebouwd voor een Apostolische gemeente, sinds 1997 een moskee.",
+     "body": "Kubussen op elkaar gestapeld, sterke horizontale lijnen en diepe overstekken: wie op deze straathoek in De Baarsjes staat, ziet de invloed van de Amerikaan Frank Lloyd Wright. Dat had niemand verwacht van de ontwerpers.\n\nHet plan voor deze 'vergaderzaal met ambtswoning' ging naar de gemeente Sloten, die hier toen nog de baas was. De bouwvergunning kwam in april 1920, en in mei 1921 was het gebouw in gebruik. Het was bedoeld voor een Apostolische gemeente. Die beweging kwam voort uit een Engelse opwekking uit de negentiende eeuw en bouwde haar kerken het liefst op een Grieks kruis. Op de tekening staan twee namen. Th.W. Rueter maakte vooral landhuizen in het Gooi; H.F. Sijmons had al een Apostolische kerk aan de Henri Polaklaan gebouwd. Het monumentenregister vermoedt dat Sijmons de toon zette.\n\nIn 1996–1997 verbouwde de Stichting Moskee Nour de kerk tot moskee en ontmoetingsruimte. Het plan voorzag in een gebedsruimte in de kelder, binnen de oude fundering van gemetselde bogen op houten palen.\n\nLet op:\n- het verhoogde vierkante middendeel van het Griekse kruis boven de lagere armen\n- de schuin afgesneden hoekingang, met daarboven twee lege nissen waar ooit beelden stonden\n- de traptoren aan de kant van de Witte de Withstraat, met een helm erop\n- de aangebouwde ambtswoning aan de Van Kinsbergenstraat"
+    }
+   },
+   "body": "The plan for this \"meeting hall with minister's house\" was submitted to the municipality of Sloten, which still governed the area: the permit dates from April 1920 and the building was in use by May 1921. It was built for an Apostolic congregation, a movement that grew out of a 19th-century English revival and favoured the Greek cross for its churches. The design is signed by Th.W. Rueter, known for country houses in the Gooi, and H.F. Sijmons; the register suspects Sijmons, who had already built an Apostolic church on the Henri Polaklaan, set the tone.\n\nIn 1996–1997 the Stichting Moskee Nour converted the church into a mosque and community centre, with a basement prayer room planned inside the old foundations of brick arches on wooden piles. The cubic masses, strong horizontals and deep overhangs show the influence of Frank Lloyd Wright.\n\nLook for:\n- the raised square centre of the Greek cross above the lower arms\n- the corner entrance, cut off at an angle, with two empty niches above it where statues once stood\n- the stair tower on the Witte de Withstraat side, crowned with a cap\n- the attached minister's house on the Van Kinsbergenstraat"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "zedpvi5346iua7hv47xitlgv",
+  "title": "Stadsboerderij Zimmerhoeve (Landje van Ome Kick)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "officially it has no name, but everyone, the city included, says Zimmerterrein.",
+    "new": "officially it has no name, but in everyday speech it is the Zimmerterrein, the name the district uses too.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zimmerterrein",
+    "evidence": "'wordt het in de volksmond het Zimmerterrein genoemd, maar ook wel het landje van Ome Kick. Het Stadsdeel West en OpenStreetMap gebruiken ook de benaming Zimmerterrein.' Not 'everyone'."
+   },
+   {
+    "field": "body",
+    "old": "about forty volunteers keep goats, sheep, pigs, rabbits, guinea pigs and chickens, which you can \"adopt\".",
+    "new": "it works with about forty volunteers and keeps goats, sheep, pigs, rabbits and guinea pigs; you can \"adopt\" a goat.",
+    "kind": "narrowed",
+    "source": "https://www.zimmerhoeve.nl/over-zimmerhoeve/",
+    "evidence": "The animal list names cavia's, geiten, konijnen, schapen and varkens (no chickens today); adoption is offered for a goat only ('het symbolisch adopteren van een geit'); 'We werken met zo'n veertig vrijwilligers'."
+   },
+   {
+    "field": "body",
+    "old": "- the mosaic fountain on the Zimmerterrein\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source mentions a fountain or mosaic on the Zimmerterrein."
+   },
+   {
+    "field": "body",
+    "old": "- the meadow on the Kostverlorenvaart, and the Wiegbrug just to the north",
+    "new": "- the meadow on the Kostverlorenvaart, and the nearby Wiegbrug",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Zimmerterrein",
+    "evidence": "'Het parkje ligt aan de oostzijde van de Kostverlorenvaart vlak bij de Wiegbrug'; the direction is not given."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Geiten en varkens op de plek van de ijzergieterij die de eerste Amsterdammertjes goot. De buurt zegt nog altijd het Landje van Ome Kick, naar de man die bouwers buiten de deur hield en kinderen een speelplek gaf.",
+     "body": "Waar nu geiten grazen, werden ooit de eerste Amsterdammertjes gegoten. Het parkje aan de Kostverlorenvaart was het terrein van IJzergieterij J. Zimmer & Zn., die naast die bruine paaltjes ook lantaarnpalen en putdeksels maakte; een paar daarvan liggen en staan nog in de stad. Na 1945 kwamen er ook kerkklokken van de gieterij. Rond 1970 vertrok de fabriek, eind jaren zeventig ging hij plat.\n\nDaarna namen buurtbewoners het lege terrein in gebruik. Frits Bottelier (1925–2011), bijgenaamd Ome Kick, verzette zich in de jaren zeventig en tachtig tegen bebouwing, organiseerde dingen voor kinderen en hield er wat kippen en geiten. Daarom heet het park voor veel bewoners nog steeds het Landje van Ome Kick. Een officiële naam heeft het niet, maar in de volksmond is het het Zimmerterrein, en zo noemt het stadsdeel het ook.\n\nBegin jaren negentig waren de geitjes en kippen een drukbezochte plek in de buurt geworden, en er kwam een echte boerderij. Die opende op Dierendag, 4 oktober 1996, met een klaslokaal, verwarming en betere stallen; in oktober 2026 vierde ze het dertigjarig bestaan. De Zimmerhoeve noemt zich nu stadsboerderij in plaats van kinderboerderij. Ze werkt met zo'n veertig vrijwilligers en heeft geiten, schapen, varkens, konijnen en cavia's. Een geit kun je 'adopteren'.\n\nOpen van dinsdag tot en met zondag, 10.30 tot 17.00 uur, het hele jaar gratis.\n\nLet op:\n- de toegangspoort aan de Schimmelstraat\n- de ligweide aan de Kostverlorenvaart, en de Wiegbrug vlakbij"
+    }
+   },
+   "body": "The little park by the Kostverlorenvaart was the yard of IJzergieterij J. Zimmer & Zn., an iron foundry that made the first *Amsterdammertjes*, the city's brown cast-iron bollards, as well as lamp posts and manhole covers, some of which are still in the streets. After 1945 it cast church bells too. The foundry left around 1970 and was demolished in the late 1970s.\n\nNeighbours took over the empty ground. Frits Bottelier (1925–2011), known as *Ome Kick* (Uncle Kick), fought plans to build on it through the 1970s and 1980s, ran activities for children and kept a few chickens and goats here. That is why many locals still call the park *het Landje van Ome Kick* (Uncle Kick's patch); officially it has no name, but in everyday speech it is the Zimmerterrein, the name the district uses too.\n\nBy the early 1990s the goats had become a busy neighbourhood fixture, and a proper farm was built. It opened on World Animal Day, 4 October 1996, with a classroom, heating and better stalls, and celebrated its 30th anniversary in October 2026. Today the Zimmerhoeve calls itself a *stadsboerderij* (city farm) rather than a children's farm: it works with about forty volunteers and keeps goats, sheep, pigs, rabbits and guinea pigs; you can \"adopt\" a goat.\n\nOpen Tuesday to Sunday, 10:30–17:00, free all year round.\n\nLook for:\n- the farmyard gate on the Schimmelstraat\n- the meadow on the Kostverlorenvaart, and the nearby Wiegbrug"
+  },
+  "sources_add": []
+ }
+]

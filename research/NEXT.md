@@ -2,30 +2,17 @@
 
 Nothing below has been written to the live site yet. Partial outputs are committed as is.
 
-## In progress (paused mid-run)
+## Status (2026-11-25, evening)
 
-1. **Zuid claims check** (all 331 live Zuid places). Brief: `research/zuid/claims/BRIEF.md`.
-   Inputs `research/zuid/claims/in/batch-01..10.json`; outputs (partial) in `research/zuid/claims/out/`.
-   Each batch: a checker writes `batch-NN.json` (patches) and `.md`, then a verifier appends
-   "Verification". A batch is done only when its `.md` has a Verification section.
-   Resume: re-run the workflow script (same session: `resumeFromRunId wf_ff0c1192-4ed`), or launch
-   checker+verifier only for batches without a verified `.md`.
-2. **Dutch pass, Oost pilot** (174 places with copied Dutch). Brief: `research/quality/dutch-pass/BRIEF.md`.
-   Inputs `research/quality/dutch-pass/oost/in/batch-01..06.json`; outputs (partial) in `.../oost/out/`.
-   Same done-rule (Verification section). Same session: `resumeFromRunId wf_45b8e104-183`.
-   The copy checker `nlcheck.py` and its source cache live in the session scratchpad; the code is
-   also in `research/quality/copycheck/` (the cache would need re-fetching in a new session:
-   `fetch.py`, `plan.py`, `score.py`).
-
-## After those finish
-
-- **Apply** verified patches with `dc update <id> <patch> --note ...` (text only; ranks untouched),
-  then copy the same text into the place's draft YAML so a later upsert doesn't revert it.
-- **Show the user** a before/after for a few Oost places (Gerardus Majellakerk first) before
-  applying the Dutch pass; if approved, run it for West (300), Noord (114), Nieuw-West (103),
-  Weesp (79), Zuidoost (26), Westpoort (16). Bands in `research/quality/copycheck/results-2026-11-25.json`.
-- **West:** one more short round to judge saturation (test 2); drafts can be behind live text
-  (see FOLLOW-UPS "West drafts behind the live text"): never upsert all of `research/west/places/`.
+- **Done and live:** Zuid claims check (301 places changed), Oost Dutch pass (174 places).
+  Drafts synced (`research/quality/dutch-pass/tools/sync.py`), patches applied with a
+  staleness guard (`tools/apply2.py <dir> <note>`; summaries must be at most 280 characters).
+- **Running:** West Dutch pass, 262 places (`research/quality/dutch-pass/west/`); round 4 places
+  were left out (already written fresh and fact-checked). 65 West places have no draft: after
+  applying, add drafts for them or refresh `scripts/data/amsterdam-west-live-only-*.json`.
+- **Next:** Noord (114), Nieuw-West (103), Weesp (79), Zuidoost (26), Westpoort (16): same
+  brief, export with the snippet in this session's history (flagged bands from
+  `research/quality/copycheck/results-2026-11-25.json`), rewrite+verify pipeline, apply, sync.
 
 ## Decided today
 

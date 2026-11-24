@@ -1,0 +1,932 @@
+[
+ {
+  "id": "f825rmr5gjh2z6dgry585vwt",
+  "title": "De Buurtoptimist (Sarah van Sonsbeeck)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "was a well-known and much-loved figure on the Weesperzijde",
+    "new": "was a well-known and much-loved figure in her neighbourhood",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/collectie/de-buurtoptimist/",
+    "evidence": "'De in Paramaribo geboren Gemert was bekend en geliefd'; 'koningin van de buurt'. No source ties her renown to the Weesperzijde street itself."
+   },
+   {
+    "field": "body",
+    "old": "Van Sonsbeeck has said she made it partly because Amsterdam has so few memorials to women. The pin is on the waterside opposite Weesperzijde 12.",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://annetgelink.com/news/557",
+    "evidence": "Gallery page (search snippet; site TLS-blocked for direct fetch): work at Weesperzijde 12; Van Sonsbeeck made a memorial herself because there were so few reminders of women."
+   },
+   {
+    "field": "body",
+    "old": "- the view over the Amstel that Diana's neighbours chose for her",
+    "new": "- the view over the Amstel",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/collectie/de-buurtoptimist/",
+    "evidence": "Sources say the bench is on the waterside of the Weesperzijde; none says the neighbours chose the view."
+   }
+  ],
+  "patch": {
+   "body": "Diana Gemert, born in Paramaribo, was a well-known and much-loved figure in her neighbourhood. In NRC's obituary Leonie van Nierop called her the queen of the neighbourhood. She once told neighbours she worked for The New York Times investigating fraud, and had come to the Netherlands undercover, founding a newspaper as her cover; she also spoke of a son who was sometimes an astronaut, sometimes the director of Google. \"Reality and fantasy got mixed up now and then,\" the writer and neighbour Karina Schaapman said at her funeral, \"but that doesn't matter, because her warm greeting was always real.\"\n\nOn the night of 10 October 2022 she died in a fire in her flat in Oost, probably caused by burning candles: her home had been cut off from gas and electricity. Neighbours made sure she did not get a lonely funeral and started a collection, which grew into the idea of a bench for Diana. With them, the artist Sarah van Sonsbeeck designed the memorial as the little newspaper Diana had wanted to publish herself: De Buurtoptimist (The Neighbourhood Optimist), a bronze plaque in the shape of a folded paper, lying on a bench by the water. Van Sonsbeeck has said she made it partly because Amsterdam has so few memorials to women. The pin is on the waterside opposite Weesperzijde 12.\n\nLook for:\n- the bronze newspaper lying on the bench, as if someone just put it down\n- the view over the Amstel",
+   "translations": {
+    "nl": {
+     "summary": "Een bronzen krantje ligt op een bank aan de Amstel, voor Diana Gemert: de 'koningin van de buurt', die haar buren vertelde dat ze undercover voor The New York Times werkte. In 2022 stierf ze bij een brand in haar woning, waar gas en stroom waren afgesloten.",
+     "body": "Volgens haar eigen verhaal was Diana Gemert geen gewone buurvrouw. Ze werkte voor The New York Times, zei ze, als fraudeonderzoeker, en was undercover naar Nederland gekomen. De krant die ze hier zou oprichten was alleen een dekmantel. Ze had ook een zoon, die de ene keer astronaut was en de andere keer directeur van Google. Schrijver en buurvrouw Karina Schaapman zei bij haar begrafenis dat feit en verzinsel bij Diana weleens door elkaar liepen. Maakte niet uit, want haar hartelijke groet was altijd echt.\n\nGemert kwam uit Paramaribo en was in de buurt bekend en geliefd. Leonie van Nierop noemde haar in een NRC-necrologie de koningin van de buurt. In de nacht van 10 oktober 2022 kwam ze om bij een brand in haar flat in Oost, vermoedelijk door brandende kaarsen: gas en stroom waren afgesloten.\n\nDe buren lieten haar niet eenzaam begraven. Ze haalden geld op, en uit die actie groeide het plan voor een bankje voor Diana. Kunstenaar Sarah van Sonsbeeck bedacht samen met hen wat erop moest komen: het krantje dat Diana zelf had willen maken, De Buurtoptimist. Het is een opgevouwen krant van brons, neergelegd op een bank aan het water. Van Sonsbeeck heeft gezegd dat ze het mede maakte omdat Amsterdam zo weinig gedenktekens voor vrouwen heeft. De speld staat aan de waterkant tegenover Weesperzijde 12.\n\nLet op:\n- de bronzen krant op de bank, alsof iemand hem daar net heeft laten liggen\n- het uitzicht over de Amstel"
+    }
+   }
+  },
+  "sources_add": [
+   "https://annetgelink.com/news/557 (search snippet: Weesperzijde 12; few memorials to women)"
+  ]
+ },
+ {
+  "id": "utl6xzb7wtvnf8fg0bcio9wu",
+  "title": "Keesje Brijde's cross",
+  "changes": [
+   {
+    "field": "body",
+    "old": "He died in the OLVG hospital and was buried at De Nieuwe Ooster.",
+    "new": "He was taken to the OLVG hospital, but the wound was fatal; he was buried at De Nieuwe Ooster.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Keesje_Brijde",
+    "evidence": "'De jongen werd nog naar het Onze Lieve Vrouwe Gasthuis gebracht, maar de kogel die hem in de hals trof werd hem fataal.' Where exactly he died is not stated (a relative's 2025 account says he bled to death on the spot)."
+   },
+   {
+    "field": "body",
+    "old": "with poems written by pupils from the neighbourhood schools (2025 confirmed)",
+    "new": "at which pupils from the neighbourhood primary schools lay flowers and read poems (2025 confirmed)",
+    "kind": "narrowed",
+    "source": "https://www.keesjebrijdeherdenking.nl/keesje/",
+    "evidence": "'Leerlingen van basisscholen uit het Oostelijk Havengebied leggen bloemen neer en dragen gedichten voor.' Nothing says the pupils wrote the poems."
+   },
+   {
+    "field": "body",
+    "old": "- the portrait of Keesje on the text board\n",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source mentions a portrait on the board."
+   }
+  ],
+  "patch": {
+   "body": "Cornelis (Keesje) Brijde, born in 1931, was the ninth of twelve children of a family from the Zeeburgerdorp, later the Benkoelenstraat in the Indische Buurt. In the Hunger Winter people from the surrounding streets searched the harbour railway yards of the Rietlanden for fuel: cinders from steam locomotives and coal left from the old coal transfer. The Germans had declared the area forbidden ground and guarded it. On 13 December 1944 Keesje went there with his friend Floris Goulooze and was shot in the neck. He was taken to the OLVG hospital, but the wound was fatal; he was buried at De Nieuwe Ooster. Who fired is unclear; a German policeman or a Dutch Nazi was long assumed, and a witness wrote in 2010 that it was a Dutch Landwacht man, as the communist paper De Waarheid had already claimed in 1947.\n\nAfter the war neighbours set up a wooden cross where he fell, near today's western entrance of the Piet Hein tunnel, with a poem by \"Rijmelaar\", the baker J. Schagen of the Javastraat. Railway staff looked after it, then the Montessori school Op de Kade. When the docks were rebuilt, \"Keesje's grave\" was kept accessible, moved to the Cruquiusweg in 1999 and in 2000 given its place in this little park, named after him in 1996. Every 4 May the Keesje Brijde Committee holds a gathering here, at which pupils from the neighbourhood primary schools lay flowers and read poems (2025 confirmed).\n\nLook for:\n- the wooden cross and the board with the \"Rijmelaar\" poem\n- how the park cuts diagonally across Sporenburg's street grid",
+   "translations": {
+    "nl": {
+     "summary": "Een eenvoudig houten kruis voor een jongen van dertien, die op 13 december 1944 werd doodgeschoten toen hij in de hongerwinter kolen raapte op het spoorterrein. Buren zetten het neer, spoormannen en een school pasten erop, en elke 4 mei lezen kinderen hier gedichten voor.",
+     "body": "Voor wat kolen ging Keesje Brijde op 13 december 1944 met zijn vriend Floris Goulooze de Rietlanden op. Op dat rangeerterrein lagen tussen de sintels van de stoomlocs nog resten kolen van de oude overslag, en in de hongerwinter kwamen mensen uit de omliggende straten ernaar zoeken. De Duitsers hadden het gebied tot Sperrgebiet verklaard en lieten het bewaken. Keesje werd in zijn hals geraakt. Hij werd nog naar het OLVG gebracht, maar overleefde het niet, en ligt begraven op De Nieuwe Ooster.\n\nHij was dertien, geboren in 1931, het negende van twaalf kinderen; het gezin woonde eerst in het Zeeburgerdorp en daarna in de Benkoelenstraat. Wie schoot, weet niemand zeker. Lang dacht men aan de Grüne Polizei of een NSB'er. In 2010 meldde een ooggetuige dat het een Nederlandse landwachter was, wat De Waarheid in 1947 ook al had geschreven.\n\nNa de oorlog zetten buurtbewoners een houten kruis neer op de plek waar hij viel, bij wat nu de westelijke ingang van de Piet Heintunnel is. Bakker J. Schagen uit de Javastraat dichtte er als 'Rijmelaar' een vers bij. Eerst zorgde spoorwegpersoneel voor 'het graf van Keesje', daarna montessorischool Op de Kade. Bij de verbouwing van de havens bleef het bereikbaar; in 1999 verhuisde het naar de Cruquiusweg en in 2000 naar dit plantsoen, dat al sinds 1996 zijn naam draagt. Elke 4 mei houdt het Keesje Brijde Comité hier een bijeenkomst, waar kinderen van basisscholen uit de buurt bloemen leggen en gedichten voordragen (in 2025 nog bevestigd).\n\nLet op:\n- het houten kruis en het bord met het gedicht van 'Rijmelaar'\n- hoe het plantsoen schuin door het stratenraster van Sporenburg loopt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ofm81rjxfnugzac30zjzw3nm",
+  "title": "Pontanusschool and kindergarten Letter M",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "unique among Amsterdam's hundreds of public schools",
+    "new": "unique among the more than 600 schools surveyed outside the Singelgracht",
+    "kind": "narrowed",
+    "source": "amsmon:200709 (https://data.amsterdam.nl/monumenten/08163c9b-5dcf-4206-a18c-1126544a3804)",
+    "evidence": "'Tussen de ruim 600 geïnventariseerde scholen buiten de Singelgracht is er geen tweede school te vinden met een dergelijke gevel.'"
+   },
+   {
+    "field": "body",
+    "old": "the Dapperhoeve petting farm (1984–about 2010)",
+    "new": "the Dapperhoeve petting farm (built after houses were demolished in 1984, closed about 2010)",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Tweede_van_Swindenstraat/208",
+    "evidence": "'Nadat die tijdens de stadsvernieuwingsoperatie waren afgebroken (1984) kwam er een kinderboerderij, de Dapperhoeve. Toen die rond 2010 werd gesloten...' The farm's own opening year is not given."
+   }
+  ],
+  "patch": {
+   "summary": "A school for the poor of 1891 with stone window frames copied from the Westerkerk, unique among the more than 600 schools surveyed outside the Singelgracht, and nearby one of the city's first free-standing kindergartens (1911). Both now house mosques and community centres.",
+   "body": "Public school no. 76 at Tweede van Swindenstraat 208 was a *school der eerste klasse*, the free \"pauper school\" level, yet Public Works gave it a rich front in Dutch early Renaissance style, with natural stone window frames that recall Hendrick de Keyser's Westerkerk (1620). Among the city's school buildings the facade is unique. It had two big classrooms per floor and a gym at the back. In 1922 it was named Pontanusschool; the footballer Sjaak Swart was a pupil. It closed in 1974, and for a long time it has housed Turkish-Islamic institutions: the education centre Ufuk, the Stichting Islamitisch Centrum Amsterdam and the Yeni Cami prayer hall. Next door, the Dapperhoeve petting farm (built after houses were demolished in 1984, closed about 2010) has become a nature playground.\n\nAround the corner at Pontanusstraat 278, Public Works built kindergarten Letter M in 1911, a very sober corner building with a little tower, eight classrooms and four playrooms. It is one of the first free-standing kindergartens in the city, from a time when small children were long \"the child of the bill\" in school laws. It now holds a parent and child centre and the Al Karama mosque. The pin is on the Pontanusschool.\n\nLook for:\n- the stone window frames of the Pontanusschool\n- the corner tower of the kindergarten",
+   "translations": {
+    "nl": {
+     "summary": "Een armenschool uit 1891 met natuurstenen raamomlijstingen à la Westerkerk. Om de hoek staat een van de eerste Amsterdamse kleuterscholen met een eigen vrijstaand gebouw (1911). In beide zitten nu een moskee en buurtvoorzieningen.",
+     "body": "Wie hier op school zat, betaalde niets: dit was een school der eerste klasse, een zogeheten armenschool, met alleen een nummer (76). Toch kreeg het gebouw van Publieke Werken een gevel in Hollandse vroegrenaissance, met raamomlijstingen van natuursteen die meteen aan de Westerkerk van Hendrick de Keyser (1620) doen denken. Geen andere school van de dienst heeft zo'n voorkant. Binnen lagen twee grote klaslokalen per verdieping en achterin een gymzaal. Pas in 1922 kreeg de school een naam: Pontanusschool. Voetballer Sjaak Swart zat hier in de klas. In de zomer van 1974 ging de school dicht. Al jaren zitten er Turks-islamitische organisaties in: educatiecentrum Ufuk, de Stichting Islamitisch Centrum Amsterdam en gebedsruimte Yeni Cami. Op de plek ernaast, waar in 1984 huizen waren gesloopt, kwam kinderboerderij De Dapperhoeve; sinds die rond 2010 sloot is het een natuurspeelplaats.\n\nOm de hoek, op Pontanusstraat 278, zette Publieke Werken in 1911 kleuterschool Letter M neer. Het is een uiterst sober hoekgebouw met een torentje, acht klaslokalen en vier speellokalen, en een van de eerste kleuterscholen in de stad met een eigen, losstaand gebouw. In de onderwijswetten waren de kleintjes lang het kind van de rekening. Nu zitten er een Ouder- en Kindcentrum en de Al Karama-moskee in. De speld staat bij de Pontanusschool.\n\nLet op:\n- de natuurstenen raamomlijstingen van de Pontanusschool\n- het hoektorentje van de kleuterschool"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bd6qje9b57uk1j7t0w0efibp",
+  "title": "Villa Weesperzijde 70",
+  "changes": [
+   {
+    "field": "body",
+    "old": " Langhout later became one of Amsterdam's leading factory architects.",
+    "new": "",
+    "kind": "cut",
+    "source": "amsmon:200649",
+    "evidence": "The register says little is known of Langhout's life and work and that his known designs are mostly stately town houses; no source calls him a leading factory architect."
+   }
+  ],
+  "patch": {
+   "body": "In 1882 J.A. Zaal bought the country house Spoor- en Amstelzicht (\"railway and Amstel view\"), named for its position between the river and the railway that then ran where the Wibautstraat is now. He had it demolished and commissioned the architect Willem Langhout to build this town villa on the corner of the Grensstraat, with a large garden. In 1901 it was advertised as a \"magnificent, richly painted gentleman's house with a large garden\" with four turret rooms and two parquet-floored salons. It passed to a member of the Mendes da Costa family and in 1918 to the textile manufacturer Jacques Kattenburg.\n\nIn 1923 the Salvation Army (Leger des Heils) bought the villa and opened a home for women and girls; the building is still in use by the Army. The front has two three-sided bays two storeys high, with the entrance in a narrow recessed strip between them, reached by a curved stone stair. The left bay wraps around the corner and rises into a tower, crowned by an ornamental railing. Plastered bands, cornices and window surrounds with balusters, pilasters and arabesques set off the brown brick.\n\nLook for:\n- the tower-like corner bay on the Grensstraat, with its railing on top\n- the curved stone steps and richly carved entrance\n- plaster window surrounds with balusters and arabesques\n- barred, arched basement windows in the stone plinth",
+   "translations": {
+    "nl": {
+     "summary": "Een vrijstaande villa uit 1883-1885 met een hoekerker die zich als torentje gedraagt, op de plek van buitenplaats Spoor- en Amstelzicht tussen rivier en spoor. Vanaf 1923 was het een tehuis van het Leger des Heils voor vrouwen, en het Leger zit er nog steeds.",
+     "body": "De naam zei alles: Spoor- en Amstelzicht. Die buitenplaats lag ingeklemd tussen de Amstel en de spoorlijn, die toen liep waar nu de Wibautstraat ligt. J.A. Zaal kocht het buitenhuis in 1882, liet het afbreken en gaf architect Willem Langhout opdracht voor deze stadsvilla op de Grensstraathoek, plus een royale tuin. In 1901 werd het te koop aangeboden: rijk beschilderd, grote tuin, vier koepelkamers en twee salons met parket. Een telg uit de familie Mendes da Costa kocht het; in 1918 trok textielfabrikant Jacques Kattenburg erin.\n\nVijf jaar later, in 1923, werd het Leger des Heils eigenaar. Het begon er een tehuis voor vrouwen en meisjes, en het Leger gebruikt het pand nog altijd. Kijk naar de voorkant: twee driezijdige erkers van twee verdiepingen hoog, met daartussen een smalle, iets terugliggende strook met de voordeur. Je komt er via een gebogen stenen trap. De linker erker draait de hoek om en loopt uit in een soort toren, met een sierhek als kroon. Gepleisterde banden, lijsten en raamomlijstingen met balusters, pilasters en arabesken steken af tegen de bruine baksteen.\n\nLet op:\n- de torenachtige hoekerker aan de Grensstraat, met het hekwerk erbovenop\n- de gebogen stenen trap en de rijk gesneden entree\n- de gepleisterde raamomlijstingen met balusters en arabesken\n- de getraliede, getoogde kelderramen in de stenen plint"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "o8gxdhp39qu7xn1z65x5ov9k",
+  "title": "Wild & Hardebeck curtain factory",
+  "changes": [
+   {
+    "field": "body",
+    "old": "girls from the neighbourhood worked the machines",
+    "new": "at its peak some 166 girls worked here",
+    "kind": "narrowed",
+    "source": "amsmon:200521",
+    "evidence": "'werkten op het hoogtepunt zo'n 166 meisjes'. No source says they came from the neighbourhood or describes machines."
+   },
+   {
+    "field": "body",
+    "old": " The conceptual artist Jan Dibbets works here.",
+    "new": "",
+    "kind": "cut",
+    "source": "amsmon:200521",
+    "evidence": "Register only says J. Dibbets and F. Becht bought it in 1979 (and cites oral information from Mr J. Dibbets); nothing on who works there now or that he is the conceptual artist."
+   },
+   {
+    "field": "summary",
+    "old": "Since 1979 artists' homes and studios, including Jan Dibbets'.",
+    "new": "Since 1979 homes and three studios, after J. Dibbets and F. Becht bought it.",
+    "kind": "narrowed",
+    "source": "amsmon:200521",
+    "evidence": "'In 1979 werd het object gekocht door J. Dibbets en F. Becht... omgebouwd tot twee eengezinswoningen en een woning voor maximaal twee personen en drie ateliers'."
+   }
+  ],
+  "patch": {
+   "summary": "A concrete curtain factory of 1919–21 with patented coloured-concrete ornaments. Its Jewish owners were deported and never came back; the manager kept the books until the 1970s. Since 1979 homes and three studios, after J. Dibbets and F. Becht bought it.",
+   "body": "Wild & Hardebeck, two Jewish merchants from the Nieuwezijds Voorburgwal, opened their curtain fabric factory on the Boerhaaveplein in 1921, reportedly supplying stores such as Metz and De Bijenkorf. The architect Carel Tenenti jr. of Dordrecht, a relative of director Julius Hardebeck, gave it a concrete frame and art deco ornaments in coloured concrete, made with a technique patented in 1918. It held workshops, an office and a supervisor's flat; at its peak some 166 girls worked here. The firm went bankrupt in 1927 and restarted as N.V. Hardebeck's Gordijnenfabriek.\n\nThe owners were deported in the Second World War and never returned. According to the city register, the manager, Mr Van de Bos, carried on until the factory closed in the 1970s, closing the books each year with the words \"behoudens goedkeuring van de directeuren\" (subject to the directors' approval). In 1978 a plan for a cultural venue was blocked by neighbours; in 1979 J. Dibbets and F. Becht bought it and had it converted, with minimal changes, into homes and three studios.\n\nLook for:\n- the coloured-concrete ornaments on the facade\n- the bevelled joints between columns and beams, visible through the big windows",
+   "translations": {
+    "nl": {
+     "summary": "Een betonnen gordijnenfabriek uit 1919-1921, versierd met gekleurd beton volgens een gepatenteerd procedé. De Joodse eigenaren werden gedeporteerd en kwamen nooit terug; de bedrijfsleider hield de boeken bij tot in de jaren zeventig. Sinds 1979 woningen en drie ateliers.",
+     "body": "Elk jaar sloot bedrijfsleider Van de Bos de boeken af met dezelfde zin: 'behoudens goedkeuring van de directeuren'. Die directeuren waren er al lang niet meer. Ze waren in de oorlog weggevoerd en nooit teruggekeerd, en Van de Bos runde de fabriek door tot ze in de jaren zeventig dichtging. Zo vertelt het gemeentelijke monumentenregister het.\n\nWild & Hardebeck waren twee Joodse kooplieden met een adres aan de Nieuwezijds Voorburgwal. In 1921 begonnen ze aan het Boerhaaveplein een fabriek voor gordijnstof; naar verluidt kwamen hun orders van warenhuizen als Metz en De Bijenkorf. Op het drukste moment werkten er zo'n 166 meisjes. Het ontwerp kwam van Carel Tenenti jr. uit Dordrecht, familie van directeur Julius Hardebeck. Hij bouwde een betonskelet en gaf de gevel art-decosieraden van gekleurd beton, gemaakt met een techniek waarop in 1918 octrooi was verleend. Binnen zaten werkplaatsen, een kantoor en een woning voor de opzichter. In 1927 ging de firma failliet, waarna ze verderging als N.V. Hardebeck's Gordijnenfabriek.\n\nNa de sluiting wilde iemand er in 1978 een cultureel centrum van maken, maar de buurt lag dwars. In 1979 kochten J. Dibbets en F. Becht het pand en lieten het, met zo min mogelijk ingrepen, verbouwen tot woningen en drie ateliers.\n\nLet op:\n- de sieraden van gekleurd beton in de gevel\n- de schuin afgewerkte aansluiting tussen kolommen en balken, te zien door de grote ramen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "m0tomxr3rozcwdevsxrabs5i",
+  "title": "Fata Morgana, dromedaries on the railway by the Wibautstraat",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "beside one of Amsterdam's busiest roads",
+    "new": "beside the racing traffic of the Wibautstraat",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Fata_morgana_(Iris_Le_R%C3%BCtte)",
+    "evidence": "'Het verkeer op de Wibautstraat raast voorbij'; no source ranks it among the busiest roads."
+   },
+   {
+    "field": "body",
+    "old": "about 2.75 metres high and spread over 15 metres",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Fata_morgana_(Iris_Le_R%C3%BCtte)",
+    "evidence": "Infobox: hoogte 275 cm, breedte 15 m, materiaal staal."
+   },
+   {
+    "field": "body",
+    "old": "a commission from the borough and the Amsterdams Fonds voor de Kunst",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Iris_Le_R%C3%BCtte",
+    "evidence": "Works list: 'Fata Morgana (2005), drie plaatstalen dromedarissen op spoortalud Wibautstraat (Stadsdeel Oost-Watergraafsmeer en Amsterdams Fonds voor de Kunst)'."
+   }
+  ],
+  "patch": {
+   "summary": "Three steel dromedary silhouettes plod east along the railway embankment above the Pauwenpad cycle tunnel, a slow desert caravan beside the racing traffic of the Wibautstraat. Best against a sunset.",
+   "translations": {
+    "nl": {
+     "summary": "Drie platte stalen dromedarissen sjokken over de spoordijk boven de fietstunnel van het Pauwenpad naar het oosten: een trage karavaan naast het razende verkeer van de Wibautstraat. Het mooist tegen een ondergaande zon.",
+     "body": "Tien kunstenaars mochten een voorstel doen. Iris Le Rütte stuurde een foto van de plek in, met daarop alleen drie getekende dromedarissen. Dat werd het. Op 9 september 2005 werden ze onthuld: een opdracht van het stadsdeel en het Amsterdams Fonds voor de Kunst, toen de omgeving van de Wibautstraat op de schop ging.\n\nLe Rütte koos de dieren voor een plek die ongemakkelijk aanvoelt. Even ten noorden van station Amstel ligt een smal plantsoentje aan de Wibautstraat, die ook wel de stenen woestijn van Amsterdam heet. Erachter rijst een bakstenen keermuur op met daarop de spoorlijn naar Utrecht, die hier de Ringvaart van de Watergraafsmeer oversteekt. Boven het fietstunneltje van het Pauwenpad lopen de dieren oostwaarts, eentje alleen en twee samen. Ze zijn plat, uit plaatstaal gesneden, zo'n 2,75 meter hoog en samen 15 meter breed. Vanaf de straat zie je zwarte silhouetten tegen de lucht.\n\nLe Rütte, beeldhouwer van herkenbare dieren en mensfiguren, zette hun gelijkmatige pas tegenover al die haast: auto's over de Wibautstraat, treinen en de oostlijn van de metro ernaast. En als ze bij een mooie zonsondergang opdoemen, ben je even ergens anders.\n\nLet op:\n- de dromedaris die alleen loopt, en het stel erachter\n- het uitzicht vanaf de Wibautstraat in de schemering, als ze schaduwen worden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "fj4pdqdcycme7jsvruog916l",
+  "title": "Nautilus (Barbara Nanning)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "one of the Dutch ceramicists who became internationally known in the 1980s before turning to glass and other materials",
+    "new": "one of a new generation of Dutch ceramicists who became internationally known, before turning more and more to glass and other materials in the late 1980s",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1784",
+    "evidence": "'Nanning maakte deel uit van een nieuwe generatie keramisten die internationaal grote bekendheid kregen... Eind jaren 80 gaat ze steeds meer gebruik maken van andere materialen waaronder glas.' The decade of fame is not given; the late 1980s is the switch to other materials."
+   }
+  ],
+  "patch": {
+   "body": "The gateway between the Erich Salomonstraat and the courtyard of the Theo Frenkelhof has an unusual ceiling. Barbara Nanning (born 1957), one of a new generation of Dutch ceramicists who became internationally known, before turning more and more to glass and other materials in the late 1980s, covered it in 2008 with a fantasy landscape of strange forms and formations from the underwater world. She named it after Captain Nemo's submarine in Jules Verne's Twenty Thousand Leagues Under the Sea. The housing associations De Alliantie and Waterstad 3 gave it to the buyers and tenants of the block as a present.\n\nIt looks heavy and massive, but it is not: the forms are cardboard shapes encased in polyurethane, light and flexible yet strong. It is a small thing, best combined with a walk along the canals of Haveneiland; photos from 2020 show it intact.\n\nLook for:\n- the inscription on a ledge in the structure, \"Nautilus, raadselachtige vormen en formaties uit de onderwaterwereld, Barbara Nanning 2008\"\n- the gold, which catches the light from both ends of the passage",
+   "translations": {
+    "nl": {
+     "summary": "Loop de poort van het Theo Frenkelhof in en kijk omhoog. Het plafond is een bobbelige onderzeese wereld in rood, groen, blauw en heel veel goud, bedacht bij Twintigduizend mijlen onder zee van Jules Verne.",
+     "body": "Het ziet eruit alsof het tonnen weegt, dat plafond in de poort tussen de Erich Salomonstraat en de binnentuin van het Theo Frenkelhof. Toch zit er karton in: Barbara Nanning goot kartonnen vormen in met polyurethaan, waardoor ze licht en buigzaam zijn en toch stevig.\n\nNanning (1957) hoorde bij een nieuwe lichting Nederlandse keramisten die internationaal naam maakten, en stapte eind jaren tachtig steeds vaker over op glas en andere materialen. In 2008 bekleedde ze deze doorgang met een verzonnen landschap vol vreemde vormen uit de onderwaterwereld. De naam leende ze van de onderzeeër van kapitein Nemo uit Twintigduizend mijlen onder zee van Jules Verne. Woningcorporaties De Alliantie en Waterstad 3 gaven het werk cadeau aan de kopers en huurders van het blok.\n\nGroot is het niet, dus combineer het met een wandeling langs de grachten van het Haveneiland. Op foto's uit 2020 is het nog helemaal gaaf.\n\nLet op:\n- de tekst op een richel in de constructie: \"Nautilus, raadselachtige vormen en formaties uit de onderwaterwereld, Barbara Nanning 2008\"\n- het goud, dat aan beide kanten van de doorgang het licht vangt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "dueh7jpz2cx3g7v0nk7e6m6z",
+  "title": "Sluishuis",
+  "changes": [
+   {
+    "field": "body",
+    "old": "opposite Marlies Rohmer's floating homes",
+    "new": "opposite Marlies Rohmer's housing",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Sluishuis_(Amsterdam)",
+    "evidence": "'tegenover de woningen van Marlies Rohmer'; the sources do not call them floating."
+   },
+   {
+    "field": "summary",
+    "old": "and steps down to the water on the other side",
+    "new": "and steps down in terraces towards the neighbourhood on the other side",
+    "kind": "narrowed",
+    "source": "https://bna.nl/wp-content/uploads/2025/06/pdfPresentationsluishuis.pdf",
+    "evidence": "'Richting de buurt op het Steigereiland loopt het blok getrapt naar beneden, waardoor royale terrassen ontstaan'."
+   },
+   {
+    "field": "body",
+    "old": "steps down in terraces towards the city",
+    "new": "steps down in terraces towards the Steigereiland neighbourhood",
+    "kind": "narrowed",
+    "source": "https://bna.nl/wp-content/uploads/2025/06/pdfPresentationsluishuis.pdf",
+    "evidence": "'Aan de andere zijde is het gebouw afgetrapt om met groene terrassen een uitnodigend gebaar naar IJburg te maken.'"
+   },
+   {
+    "field": "body",
+    "old": "- the stepped terraces on the city side and the stairs that climb them",
+    "new": "- the stepped terraces on the Steigereiland side and the stairs that climb them",
+    "kind": "narrowed",
+    "source": "https://bna.nl/wp-content/uploads/2025/06/pdfPresentationsluishuis.pdf",
+    "evidence": "As above."
+   },
+   {
+    "field": "body",
+    "old": "- Waterbuurt West's floating houses across the water",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source mentions Waterbuurt West or floating houses opposite."
+   }
+  ],
+  "patch": {
+   "summary": "BIG and Barcode's housing block at the gate of IJburg lifts one corner out of the IJmeer so boats can sail into its courtyard, and steps down in terraces towards the neighbourhood on the other side. Public stairs lead up its terraces to a roof walk, but not every day.",
+   "body": "In 2016 the city held a competition for a \"landmark\" building on the Haringbuisdijk, at the entrance to Steigereiland, opposite Marlies Rohmer's housing. The winners were the Danish firm BIG of Bjarke Ingels and Rotterdam's Barcode Architects. Their design is a closed square block standing in the open water of the Buiten-IJ, with its facades sliced off at an angle: one corner is lifted high, so that the courtyard opens to the IJ and boats can moor \"inside\" the building, while the opposite side steps down in terraces towards the Steigereiland neighbourhood. BIG had tried the trick of pulling up the corner of a closed block before, at VIA 57 West in Manhattan.\n\nThe odd shape was hard to build. The contractors put up two concrete \"spines\", walls almost half a metre thick, and hung the homes from them; work was done from a temporary sand island, with piles driven sixty metres into the ground, and the outside is clad in aluminium panels. Building began on 18 December 2018 and the Sluishuis opened on 13 July 2022. It has 442 apartments, most of them mid-market rentals, and a jetty that runs all the way round the building with berths for 34 houseboats.\n\nThe contested part is the roof. Two stairs in the facade climb past the residents' terraces to a walkway on top, with a view over the city. Access is controlled by the owners' association, which could have kept it closed; the city stipulated that the stairs must be open to the public on at least eighty days a year. So it is a public route, but a rationed one.\n\nLook for:\n- the lifted corner and the boats moored underneath it, from the Enneüs Heermabrug\n- the jetty that runs round the whole building\n- the stepped terraces on the Steigereiland side and the stairs that climb them",
+   "translations": {
+    "nl": {
+     "summary": "Het woonblok van BIG en Barcode bij de entree van IJburg tilt één hoek op uit het water, zodat boten de binnenplaats in kunnen varen, en loopt aan de andere kant in terrassen af naar de buurt. Openbare trappen gaan langs die terrassen naar een dakwandeling, maar niet elke dag.",
+     "body": "Je kunt over het dak van het Sluishuis lopen, maar alleen als de bewoners het openzetten. Twee trappen in de gevel klimmen langs de terrassen omhoog naar een pad bovenop, met zicht over de stad. De toegang ligt bij de VvE, die het dak ook dicht had kunnen houden. Daarom heeft de gemeente vastgelegd dat iedereen minstens tachtig dagen per jaar die trappen op mag. Openbaar dus, maar op rantsoen.\n\nHet gebouw zelf kwam uit een prijsvraag van 2016 voor een 'beeldbepalend' blok op de Haringbuisdijk, waar je het Steigereiland op komt, tegenover woningen van Marlies Rohmer. Het Deense bureau BIG van Bjarke Ingels won, samen met Barcode Architects uit Rotterdam. Hun ontwerp is een dicht, vierkant bouwblok dat in het water van het Buiten-IJ staat, met schuin weggesneden gevels. Eén hoek is omhooggetrokken, zodat de binnenplaats openligt naar het IJ en boten 'in' het gebouw kunnen aanleggen. Aan de overkant trapt het blok af naar de buurt op het Steigereiland. BIG had die opgetilde hoek al eens gedaan, bij VIA 57 West in Manhattan.\n\nBouwen was puzzelen. De aannemers zetten twee betonnen 'ruggengraten' neer, muren van bijna een halve meter dik, en hingen de woningen daaraan. Gewerkt werd vanaf een tijdelijk zandeiland; de palen gaan zestig meter diep en de gevels zijn met aluminium bekleed. Op 18 december 2018 begon de bouw, op 13 juli 2022 ging het Sluishuis open. Er zijn 442 woningen, voor het merendeel huur in het middensegment, en een steiger om het hele gebouw met ligplaatsen voor 34 woonboten.\n\nLet op:\n- de opgetilde hoek met de boten eronder, vanaf de Enneüs Heermabrug\n- de steiger die helemaal om het gebouw heen loopt\n- de getrapte terrassen aan de kant van het Steigereiland en de trappen die erlangs klimmen"
+    }
+   }
+  },
+  "sources_add": [
+   "https://bna.nl/wp-content/uploads/2025/06/pdfPresentationsluishuis.pdf (stepped side towards the Steigereiland neighbourhood)"
+  ]
+ },
+ {
+  "id": "l78jwyvy6jrmc4vbubrenetl",
+  "title": "The London Police mural, Zeeburgerdijk 49",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Since 2022 a utility cabinet in front of the wall hides part of the lower section.",
+    "new": "Since 2022 a utility cabinet in front of the wall hides part of the mural.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Muurschildering_Zeeburgerdijk",
+    "evidence": "'In 2022 is de schildering deels uit het zicht geraakt doordat er NUTS-voorzieningenhuisje voor is gezet'; which part is not stated."
+   },
+   {
+    "field": "body",
+    "old": "Their first big Amsterdam wall, on Prinsengracht 70, was painted without permission.",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/The_London_Police",
+    "evidence": "'Dat gebeurde bijvoorbeeld illegaal ... op het gebouw Prinsengracht 70 ... Amsterdam kreeg een tweede nu legaal: Muurschildering Zeeburgerdijk (2018).'"
+   }
+  ],
+  "patch": {
+   "body": "The row of houses on the north side of the Zeeburgerdijk, numbers 27 to 49, dates from about 1914 and stops abruptly at the railway bridge of 1901. Between the last house and the embankment was a dead corner, long used by a small firm with a garage shed. When the shed went, the residents of no. 49 were left with a big grey wall that drew rough sleepers and drug users. To give the corner a friendlier face, they asked The London Police to paint it.\n\nThe London Police are Chaz Barrison and Bob Gibson, two Englishmen who moved to Amsterdam in 1998 and in a few years, until about 2003, put more than a thousand of their round-headed, cheerful black-and-white characters, the \"Lads\", on the city's streets. Their first big Amsterdam wall, on Prinsengracht 70, was painted without permission. This one, finished in 2018, is legal and in colour: Lads, a canal boat, canal houses (one of them Prinsengracht 70, quoting their own earlier work), and a woman of the neighbourhood holding the Amsterdam flag, unveiled just after it was announced that the city would get its first woman mayor, Femke Halsema. The resident who started the project stands among the Lads with his walking stick in front of his door; the boat carries the initials of their friend, street artist Hugo Mulder.\n\nSince 2022 a utility cabinet in front of the wall hides part of the mural.\n\nLook for:\n- the woman with the city flag\n- Prinsengracht 70 among the painted canal houses\n- the Lad with a walking stick, the neighbour who asked for the mural",
+   "translations": {
+    "nl": {
+     "summary": "Het Britse duo dat rond 2000 de muren van Amsterdam vol zette met grijnzende zwart-witte 'Lads', schilderde in 2018 op verzoek van de bewoners deze dode hoek bij de spoorbrug, met een buurtvrouw die de stadsvlag omhooghoudt.",
+     "body": "Een kale grijze muur die vooral daklozen en gebruikers trok: daar zaten de bewoners van Zeeburgerdijk 49 mee. Het rijtje aan de noordkant, nummers 27 tot en met 49, is van rond 1914 en houdt abrupt op bij de spoorbrug, die er al sinds 1901 lag. In de hoek tussen het laatste huis en het spoor stond lang een garagehokje van een klein bedrijf. Toen dat weg was, bleef die lege gevel over. De bewoners vroegen The London Police om er iets vrolijks van te maken.\n\nDat zijn Chaz Barrison en Bob Gibson, twee Engelsen die in 1998 naar Amsterdam verhuisden. Tot ongeveer 2003 zetten ze er meer dan duizend van hun opgewekte zwart-witte koppen op straat, de 'Lads'. Hun eerste grote muur in de stad, op Prinsengracht 70, schilderden ze zonder vergunning. Deze, klaar in 2018, mocht wel, en is in kleur. Je ziet Lads, een rondvaartboot, grachtenhuizen (waaronder Prinsengracht 70, een knipoog naar dat eerdere werk) en een vrouw uit de buurt met de Amsterdamse vlag. De muur werd onthuld vlak nadat bekend werd dat Femke Halsema de eerste vrouwelijke burgemeester van Amsterdam zou worden. De buurman die het initiatief nam, staat er zelf ook op, als Lad met wandelstok voor zijn deur. Op de boot staan de letters DHM, voor bevriend straatkunstenaar Hugo Mulder.\n\nSinds 2022 staat er een kastje voor nutsvoorzieningen voor de muur, dat een deel van de schildering verbergt.\n\nLet op:\n- de vrouw met de stadsvlag\n- Prinsengracht 70 tussen de geschilderde grachtenhuizen\n- de Lad met wandelstok: de buurman die om de schildering vroeg"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xw3xw3jpz6xesiywua2e1xrc",
+  "title": "Anxiety Rabbit (Angsthaas), Flevopark",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Disliked, defaced, then loved,",
+    "new": "Disliked, defaced, then familiar,",
+    "kind": "narrowed",
+    "source": "https://oost-online.nl/angsthaas-mag-in-flevopark-blijven/",
+    "evidence": "'In de loop van de tijd is de angsthaas echter een vertrouwde verschijning geworden'; consultation 'overwegend positief'. 'Loved' is not in the source."
+   },
+   {
+    "field": "body",
+    "old": "with round shapes, a pointed nose and an unmistakably nervous look",
+    "new": "with round shapes and a pointed nose",
+    "kind": "narrowed",
+    "source": "https://oost-online.nl/angsthaas-mag-in-flevopark-blijven/",
+    "evidence": "'heeft in Parra-stijl ronde vormen met een spitse neus'; no description of its look or eyes."
+   },
+   {
+    "field": "body",
+    "old": "In a meadow of the Flevopark",
+    "new": "In the Flevopark",
+    "kind": "narrowed",
+    "source": "https://oost-online.nl/angsthaas-mag-in-flevopark-blijven/",
+    "evidence": "Sources say only that it stands in the Flevopark."
+   },
+   {
+    "field": "body",
+    "old": "- the pointed nose and anxious eyes, Parra's trademark style",
+    "new": "- the round shapes and pointed nose, Parra's trademark style",
+    "kind": "narrowed",
+    "source": "https://oost-online.nl/angsthaas-mag-in-flevopark-blijven/",
+    "evidence": "As above."
+   },
+   {
+    "field": "body",
+    "old": "- the view of the rabbit across the meadow from the main path",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source describes a meadow or a main path."
+   }
+  ],
+  "patch": {
+   "summary": "Parra's three-metre black rabbit, \"Leave me alone but put me on the guestlist\", left behind by the Appelsap festival in 2018. Disliked, defaced, then familiar, it got a permanent permit in April 2026.",
+   "body": "In the Flevopark sits a three-metre, 400-kilo black rabbit with round shapes and a pointed nose. Amsterdam artist Piet Parra made it for the Appelsap hip-hop festival, which donated it to the park in 2018, at first for three months. Its full title is *Anxiety Rabbit: Leave me alone but put me on the guestlist*. For Parra it is a metaphor for the ever busier city, where everyone is expected to put up with noise and so-called progress. Locals soon called it the *Angsthaas*, a Dutch word for a scaredy-cat.\n\nNot everyone was charmed. Some people found it genuinely frightening, and it was once sprayed with the number of a suicide helpline. Over the years it became a familiar figure, part of the Kunstroute Oost art trail. After consulting residents, with mostly positive reactions, the city turned its temporary permit into a permanent one in April 2026, making the rabbit officially part of the city.\n\nLook for:\n- the round shapes and pointed nose, Parra's trademark style",
+   "translations": {
+    "nl": {
+     "summary": "Een drie meter hoog zwart konijn van Parra dat met rust gelaten wil worden, maar wel op de gastenlijst wil staan. Het Appelsap-festival liet het in 2018 achter. Eerst weerzin, toen een bekladding, daarna een vertrouwd gezicht: in april 2026 kreeg het een vaste vergunning.",
+     "body": "Sommige mensen vonden dit konijn echt eng, en iemand kalkte er 'suïcidaal? 0900-0113' op. Het staat in het Flevopark: drie meter hoog, zo'n 400 kilo, zwart, met de ronde vormen en de puntneus die je van Piet Parra kent. De Amsterdamse kunstenaar maakte het voor hiphopfestival Appelsap, dat het in 2018 aan het park schonk, eerst voor maar drie maanden. Voluit heet het Anxiety Rabbit, met een Engelse ondertitel: laat me met rust, maar zet me wel op de gastenlijst. Parra ziet het als beeld van een stad die steeds voller wordt, waarin iedereen maar moet slikken: herrie, overlast en wat vooruitgang heet. De buurt doopte het al snel om tot Angsthaas.\n\nDie eerste ophef ebde weg. Het beeld werd een bekende verschijning en kwam op de route van de Kunstroute Oost. De gemeente vroeg buurtbewoners en andere belangstellenden wat ze ervan vonden; de reacties waren grotendeels positief. In april 2026 werd de tijdelijke vergunning daarom een vaste, en sindsdien hoort het konijn officieel bij de stad.\n\nLet op:\n- de ronde vormen en de puntige neus, typisch Parra"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "tdlopk6ni0wf3vjv9b76tp34",
+  "title": "Fragment van een huiskamer (Mark Manders)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "has worked on one lifelong piece",
+    "new": "has worked without a break on one piece",
+    "kind": "narrowed",
+    "source": "https://stadscuratorium.nl/collectie/fragment-van-een-huiskamer-verkleind-naar-88/",
+    "evidence": "'waar de kunstenaar sinds 1986 onafgebroken aan werkt'; 'lifelong' is not in the sources."
+   }
+  ],
+  "patch": {
+   "body": "Since 1986 Mark Manders has worked without a break on one piece, \"Self-portrait as a Building\": an imaginary building, always changing, whose rooms are filled with his sculptures. In 2001 he set a fragment of it into the street on the P.E. Tegelbergplein, the square at the eastern tip of Sporenburg, in a strip of grey-blue paving between the street and the water.\n\nThe fragment is a work table with a chair and a bucket. On the table stand two genderless figures that look identical at first sight but are two moments of the same figure, about a second apart, like film stills, with a small change in the face and arms. The bucket is also two moments, woven into each other. The figures look out over the water; the chair is for anyone who wants to stare out with them.\n\nBecause the square slopes up and a retaining wall runs behind it, Manders reduced the whole thing to 88%, a scale he had used since 1993. The reduction is not obvious, but you sense it, and it makes the scene quietly strange. Since 2023 a temporary ferry has sailed from the square to the new Sluisbuurt on Zeeburgereiland.\n\nLook for:\n- the two figures and the small differences between them\n- the doubled bucket\n- the chair, set for you",
+   "translations": {
+    "nl": {
+     "summary": "Een gietijzeren tafel, stoel en emmer met twee figuurtjes erop, verzonken in de bestrating op de kop van Sporenburg en uitkijkend over het water. Alles is verkleind tot 88 procent, en dat voel je eerder dan dat je het ziet.",
+     "body": "Kijk goed naar de twee figuren op de tafel. Ze lijken een tweeling, maar het is één en dezelfde, vastgelegd op twee momenten die ongeveer een seconde uit elkaar liggen, als opeenvolgende beeldjes uit een film. Gezicht en armen zijn net een tikje anders. De emmer ernaast is ook twee momenten tegelijk, in elkaar geschoven.\n\nMark Manders werkt sinds 1986 zonder onderbreking aan één groot project, Zelfportret als gebouw: een verzonnen gebouw dat steeds verandert en waarvan de kamers gevuld zijn met zijn beelden. In 2001 legde hij er een stukje van op straat, op het P.E. Tegelbergplein op de kop van Sporenburg. Het staat in een strook grijsblauwe klinkers tussen de rijweg en het water: een werktafel, een stoel en een emmer, met daarop de twee figuren zonder geslacht. Die kijken uit over het water, en de stoel is voor wie mee wil staren.\n\nOmdat het plein omhoogloopt en er een keermuur achter staat, bracht Manders het geheel terug tot 88 procent, een maat die hij al sinds 1993 gebruikte. Je ziet het niet meteen, maar je merkt dat er iets niet klopt, en dat maakt het tafereel stilletjes vreemd. Sinds 2023 vertrekt vanaf dit plein een tijdelijke pont naar de nieuwe Sluisbuurt op het Zeeburgereiland.\n\nLet op:\n- de twee figuren en de kleine verschillen tussen hen\n- de verdubbelde emmer\n- de stoel, klaar voor jou"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "rnukdpl6s0wlpxykmtk08d2q",
+  "title": "National Slavery Monument and Keti Koti",
+  "changes": [
+   {
+    "field": "body",
+    "old": "and a large rising figure for the future",
+    "new": "and \"the big thing\", a figure for the future",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Nationaal_Monument_Slavernijverleden",
+    "evidence": "De Vries: 'en het grote ding is de toekomst: de vrijheid...'. 'Rising' is not in the source."
+   },
+   {
+    "field": "body",
+    "old": "Since then the monument has become the centre of Keti Koti (\"broken chains\"), the yearly commemoration on 1 July of the abolition of slavery by the Netherlands in 1863, with a libation for the ancestors.",
+    "new": "Since then a gathering has been held here every 1 July for Keti Koti (\"broken chains\"), the commemoration of the abolition of slavery by the Netherlands in 1863.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Nationaal_Monument_Slavernijverleden",
+    "evidence": "'Bij het monument vindt jaarlijks op 1 juli een bijeenkomst plaats, ter herdenking van de afschaffing van de slavernij door Nederland op 1 juli 1863.' No source mentions a libation or calls it 'the centre'."
+   },
+   {
+    "field": "body",
+    "old": "and the city is looking for a temporary home",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nltimes.nl/2026/10/28/amsterdams-dutch-slavery-museum-delayed-2033-permits-tender-design-process",
+    "evidence": "NL Times, 28 October 2026: opening postponed from 2030 to 2033 (permits, tender and design); no mention of a temporary home."
+   },
+   {
+    "field": "body",
+    "old": "in October 2026 its opening was pushed back to 2033",
+    "new": "in October 2026 its opening was pushed back from 2030 to 2033",
+    "kind": "sourced",
+    "source": "https://nltimes.nl/2026/10/28/amsterdams-dutch-slavery-museum-delayed-2033-permits-tender-design-process",
+    "evidence": "'postponed from 2030 to 2033'."
+   }
+  ],
+  "patch": {
+   "body": "The monument came from the descendants themselves: the Surinamese women's association Sophiedela petitioned parliament, and the Landelijk Platform Slavernijverleden under Barryl Biekman pushed politicians to act. Erwin de Vries won the competition with a figurative group that descendants would recognise: a chained group for the past, a slave breaking free for the present, and \"the big thing\", a figure for the future. Amsterdam was chosen over The Hague, and within the Oosterpark the south-west corner, because there the risk of finding remains of the old cemetery was smallest.\n\nQueen Beatrix unveiled it on 1 July 2002, in a tense year after the murder of Pim Fortuyn. Only invited guests could get close, while the mostly Surinamese and Antillean public was kept behind crowd barriers, which caused anger and frustration. Since then a gathering has been held here every 1 July for Keti Koti (\"broken chains\"), the commemoration of the abolition of slavery by the Netherlands in 1863. In the days before, the Surinamese community dresses the statues. A National Slavery Museum is planned at the head of the Java-eiland; in October 2026 its opening was pushed back from 2030 to 2033.\n\nLook for:\n- the three parts of the group, from chained to free\n- in late June and early July, the statues dressed in cloth and flowers",
+   "translations": {
+    "nl": {
+     "summary": "De bronzen groep van Erwin de Vries, onthuld in 2002, gaat van geketende slaven naar een figuur die zich losbreekt. Elke 1 juli, Keti Koti, wordt hier de afschaffing van de slavernij in 1863 herdacht, en in de dagen ervoor kleedt de gemeenschap de beelden aan.",
+     "body": "Op de dag van de onthulling mochten de mensen voor wie dit monument bedoeld was er niet bij. Koningin Beatrix onthulde het op 1 juli 2002, een gespannen jaar, kort na de moord op Pim Fortuyn. Alleen genodigden kwamen dichtbij; het grotendeels Surinaamse en Antilliaanse publiek stond achter dranghekken. Dat zette kwaad bloed.\n\nHet initiatief kwam van de nazaten zelf. De Surinaamse vrouwenvereniging Sophiedela bood de Tweede Kamer een petitie aan, en het Landelijk Platform Slavernijverleden onder Barryl Biekman zette politici aan het werk. Erwin de Vries won de prijsvraag met een figuratieve groep waarin nazaten zich konden herkennen: een geketende groep voor het verleden, een slaaf die vrijkomt voor het heden, en wat hij 'het grote ding' noemde voor de toekomst. Amsterdam kreeg de voorkeur boven Den Haag. In het Oosterpark viel de keus op de zuidwesthoek, omdat daar de minste kans was om op resten van de oude begraafplaats te stuiten.\n\nSindsdien komen hier elk jaar op 1 juli mensen bijeen voor Keti Koti ('verbroken ketenen'), waarop Nederland herdenkt dat het in 1863 de slavernij afschafte. In de dagen ervoor kleedt de Surinaamse gemeenschap de beelden aan. Op de kop van het Java-eiland moet een Nationaal Slavernijmuseum komen; in oktober 2026 schoof de opening op van 2030 naar 2033.\n\nLet op:\n- de drie delen van de groep, van geketend naar vrij\n- eind juni en begin juli: de beelden aangekleed met stof en bloemen"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nltimes.nl/2026/10/28/amsterdams-dutch-slavery-museum-delayed-2033-permits-tender-design-process"
+  ]
+ },
+ {
+  "id": "lvm5ud4jmapxg2ues7jzle56",
+  "title": "Oude Kerk van Watergraafsmeer",
+  "changes": [
+   {
+    "field": "body",
+    "old": "mostly in neo-Renaissance",
+    "new": "many of them in neo-Renaissance",
+    "kind": "narrowed",
+    "source": "amsmon:200747 (https://data.amsterdam.nl/monumenten/8764ebf6-e639-4402-9c70-5d2a6c184911)",
+    "evidence": "'Veel van deze kerken bouwde hij in de neorenaissancestijl'."
+   },
+   {
+    "field": "body",
+    "old": "dark red brick with stone bands",
+    "new": "dark red brick with stone around the openings",
+    "kind": "narrowed",
+    "source": "amsmon:200747 (https://data.amsterdam.nl/monumenten/8764ebf6-e639-4402-9c70-5d2a6c184911)",
+    "evidence": "'donkerrode baksteen met toepassing van natuursteen bij de diverse gevelopeningen'; no stone bands described."
+   }
+  ],
+  "patch": {
+   "body": "The Reformed (gereformeerde) congregation of the still independent village of Watergraafsmeer built this T-shaped church with a sexton's house in 1899, on the corner of the Simon Stevinstraat and the Wakkerstraat. The architect, Tjeerd Kuipers, came from a Frisian contractor family and designed more than fifty Reformed churches across the country, many of them in neo-Renaissance, the style favoured by Abraham Kuyper, leader of the Reformed, who rejected neo-Gothic.\n\nThe church is dark red brick with stone around the openings, buttresses and crenellated stepped gables, with triple lancet windows over the main door. From 1910 to 1939 it served the Dutch Reformed congregation, and for a while it also held a shop. It was sold at auction in 1962 and briefly became a furniture shop. Since 1975 it has been a Kingdom Hall of Jehovah's Witnesses. Homes were built inside on gallery level, and the old timber roof is now mostly hidden.\n\nLook for:\n- the crenellated gables on both street fronts\n- the round-arched main door with a stone relieving arch\n- the low sexton's wing with its brick balustrade",
+   "translations": {
+    "nl": {
+     "summary": "Een klein neorenaissancekerkje uit 1899 van Tjeerd Kuipers, die meer dan vijftig gereformeerde kerken ontwierp. Het was kerk, winkel en meubelzaak, en sinds 1975 is het een Koninkrijkszaal van Jehova's Getuigen.",
+     "body": "Kerk, kerk met winkel, meubelzaak, Koninkrijkszaal: dit gebouwtje heeft veel gedaan. Het begon in 1899, toen Watergraafsmeer nog een eigen gemeente was. De gereformeerde gemeente liet hier, op de hoek van de Simon Stevinstraat en de Wakkerstraat, een kerk in T-vorm bouwen, met een kosterswoning ertegenaan.\n\nArchitect Tjeerd Kuipers kwam uit een Friese aannemersfamilie en tekende in totaal ruim vijftig gereformeerde kerken door het hele land. Veel daarvan zijn neorenaissance. Dat paste bij Abraham Kuyper, de voorman van de gereformeerden, die niets moest hebben van neogotiek.\n\nDe kerk is van donkerrode baksteen, met natuursteen rond de openingen, steunberen en gekanteelde trapgevels. Boven de hoofdingang zitten drie lancetvensters naast elkaar. Van 1910 tot 1939 kerkte hier de hervormde gemeente, en een tijd zat er ook een winkel in. In 1962 ging het gebouw onder de hamer en werd het kort een meubelzaak. Sinds 1975 komen de Jehova's Getuigen er samen. Binnen zijn op de hoogte van de galerij woningen ingebouwd, waardoor je van de oude houten kap nog maar weinig ziet.\n\nLet op:\n- de gekanteelde gevels aan beide straatkanten\n- de hoofdingang onder een rondboog, met een natuurstenen ontlastingsboog erboven\n- de lage kosterswoning met haar gemetselde balustrade"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "palx659cufxm9162mkfnv231",
+  "title": "Former LTS Patrimonium (Cygnus Gymnasium)",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een ambachtsschool op betonnen poten uit 1952-1956, een eerbetoon aan de Unité d'Habitation van Le Corbusier, schuin gezet om de zon te vangen. Een van de honderd beste naoorlogse monumenten van Nederland, met bij de poort een marmermozaïek van de schepping.",
+     "body": "Dit gebouw was zelf lesmateriaal. De leidingen liepen gewoon over het beton, zodat leerlingen van de Eerste Christelijke LTS Patrimonium konden zien met welke materialen ze later zouden werken. Op de begane grond lagen de werkplaatsen, een hellingbaan leidde naar de autowerkplaats in de kelder, en verder waren er theorielokalen op het zuiden en tekenlokalen op het noorden.\n\nBen Ingwersen, Commer de Geus en C. van der Bom ontwierpen de school, die in 1956 openging op grond die vrij was gekomen toen het spoor naar station Weesperpoort verdween. Hun voorbeeld was de Unité d'Habitation van Le Corbusier in Marseille: een skelet van gewapend beton op taps toelopende poten, waarin je de afdrukken van de bekisting nog ziet, een maatraster van 3,5 bij 3,5 meter naar diens Modulor, en vormen op het dak die afsteken tegen de lucht. Daar staan een gymzaal onder een paraboolvormig gewelf en een kantine onder een gebogen schaal. Het blok staat net scheef ten opzichte van de Wibautstraat, voor het beste licht, en daardoor kon de Derde Oosterparkstraat nooit meer doorlopen naar de grote weg.\n\nIn 2007 kwam de school in de top 100 van monumenten uit 1940-1958, in 2009 werd ze met plein en poort rijksmonument. Het boek Bruut zette haar in 2023 op nummer vier van het Nederlandse brutalisme. Na het vertrek van het ROC trok in 2013 het Cygnus Gymnasium erin. De speld staat op het gebouw.\n\nLet op:\n- de poort aan de Vrolikstraat: twee omgekeerde L's van beton die elkaar in het midden raken\n- het 21 meter lange marmermozaïek van de schepping door Harry op de Laak, op de muur langs het pad\n- de betonnen banken in de vorm van I-balken, in het raster van 3,5 meter van de bestrating\n- Handen van Willem Reijers, dat uit de dichte gevel aan de Wibautstraat steekt\n- het losstaande ronde noodtrappenhuis en de gebogen daken bovenop"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "dhlktzos4lv77di2ww0fr7rk",
+  "title": "Gerardus Majellakerk and its Catholic enclave (NedPhO-Koepel)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "When the Indische Buurt filled up with working families in the 1920s, the Catholic church claimed",
+    "new": "In the 1920s the Catholic church claimed",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/523303",
+    "evidence": "Registers date the complex to 1923-1926 and describe 'het rechthoekige terrein van de R.K. enclave'; no source describes the neighbourhood filling up with working families."
+   },
+   {
+    "field": "body",
+    "old": "a convent for the teaching sisters",
+    "new": "a convent for the sisters",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/523305",
+    "evidence": "'Voormalig ZUSTERHUIS St. Theresia'; the sources do not say the sisters taught."
+   }
+  ],
+  "patch": {
+   "body": "In the 1920s the Catholic church claimed a whole rectangular block between the Ambonplein, Obiplein, Batjanstraat and Halmaheirastraat. Architect Jan Stuyt built it as one enclave: a church for 1,400 people in the middle, a presbytery, a convent for the sisters, a nursery and three schools around it. All seven buildings are national monuments.\n\nStuyt had visited the Byzantine churches of the Holy Land and Istanbul on a pilgrimage in 1903, and like several of his churches this one is a central-plan building crowned by a huge twelve-sided tent roof over an inner dome, a nod to the Hagia Sophia. A west tower was designed but never built. Inside, the pendentives once carried painted Bible scenes, probably by Jan Oosterman; they were later painted over. In 1930 the \"Amsterdam tower drama\" played out on its roof: roofer Joseph Maring murdered his partner Leendert Arkenbout up on the dome and collected the insurance money. He got a life sentence.\n\nAs better-off residents left the neighbourhood and churchgoing dropped, the parish could no longer keep the building. The last mass was on 20 September 1992. Stadsherstel took it over and André van Stigt turned it into rentable space; the Clara Wichmann Institute and the women's history archive Aletta (now Atria) worked here from 1994 to 2011. Since 2012 it is the NedPhO-Koepel, rehearsal home and concert hall of the Netherlands Philharmonic and the Netherlands Chamber Orchestra, with public concerts in the domed hall.\n\nThe parts: the church (Batjanstraat 3-11), the presbytery (Ambonplein 55, the freestanding corner house with a zigzag frieze of blue tiles), the convent of St. Theresia (Obiplein 14-16), the Pastoor Hesseveld girls' school (Obiplein 18), the nursery (Halmaheirastraat 28, one storey with coloured tiles), the St. Vincentius ULO for boys (Halmaheirastraat 30, corner of the Batjanstraat) and the girls' school at Batjanstraat 13, now the Miriam kindergarten.\n\nLook for:\n- the twelve-sided tent roof, best seen from the Ambonplein\n- the stubby west front where the tower should have stood\n- the colourful brick and tile friezes under the eaves of the schools and the nursery\n- the remains of the garden wall at the presbytery",
+   "translations": {
+    "nl": {
+     "summary": "De neobyzantijnse kerk van Jan Stuyt (1923-1926), geïnspireerd op de Aya Sophia, met pastorie, zusterhuis en scholen eromheen: een compleet katholiek bouwblok. Sinds 2012 de concertzaal van het Nederlands Philharmonisch Orkest.",
+     "body": "In 1930 werd boven op deze koepel een moord gepleegd. Leidekker Joseph Maring bracht daar zijn compagnon Leendert Arkenbout om het leven en streek daarna het verzekeringsgeld op. Het 'Amsterdamse torendrama' leverde hem levenslang op.\n\nDe kerk zelf is van een paar jaar eerder. In de jaren twintig nam de katholieke kerk een heel rechthoekig blok in beslag tussen Ambonplein, Obiplein, Batjanstraat en Halmaheirastraat. Jan Stuyt maakte er één enclave van: in het midden een kerk voor 1400 mensen, daaromheen een pastorie, een zusterhuis, een kinderbewaarplaats en drie scholen. Alle zeven gebouwen zijn rijksmonument.\n\nStuyt had in 1903 op bedevaart de Byzantijnse kerken van het Heilig Land en Istanbul gezien. Net als een aantal van zijn andere kerken is dit een centraalbouw, met bovenop een enorm twaalfzijdig tentdak over een koepel binnen: een groet aan de Aya Sophia. Een westtoren stond op tekening maar kwam er nooit. Binnen waren de pendentieven ooit beschilderd met bijbelse taferelen, waarschijnlijk door Jan Oosterman; die zijn later overgeverfd.\n\nToen de beter gesitueerden de buurt verlieten en de kerken leegliepen, kon de parochie het gebouw niet meer houden. Op 20 september 1992 was de laatste mis. Stadsherstel nam het over en André van Stigt maakte er verhuurbare ruimte van; van 1994 tot 2011 zaten hier het Clara Wichmann Instituut en vrouwenarchief Aletta (nu Atria). Sinds 2012 is het de NedPhO-Koepel, waar het Nederlands Philharmonisch Orkest en het Nederlands Kamerorkest repeteren en waar onder de koepel publieksconcerten zijn.\n\nDe onderdelen: de kerk (Batjanstraat 3-11), de pastorie (Ambonplein 55, het vrijstaande hoekhuis met een zigzagfries van blauwe tegels), zusterhuis St. Theresia (Obiplein 14-16), de Pastoor Hesseveldschool voor meisjes (Obiplein 18), de kinderbewaarplaats (Halmaheirastraat 28, één laag met kleurige tegels), de St. Vincentius-ULO voor jongens (Halmaheirastraat 30, hoek Batjanstraat) en de meisjesschool op Batjanstraat 13, nu Kleuterschool Miriam.\n\nLet op:\n- het twaalfzijdige tentdak, het best te zien vanaf het Ambonplein\n- de stompe westgevel, waar de toren had moeten komen\n- de kleurige friezen van baksteen en tegels onder de dakranden van de scholen en de kinderbewaarplaats\n- het restje tuinmuur bij de pastorie"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "i43yu369b8yc9dawutxcb4hg",
+  "title": "Amstel brewery office",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The only big piece left of the Amstel brewery",
+    "new": "One of only two buildings kept from the Amstel brewery",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/11",
+    "evidence": "'Alleen dit kantoorgebouw en een gebouw met voorzieningen en kantine voor beambten aan het huidige Sajetplein bleven behouden.'"
+   },
+   {
+    "field": "body",
+    "old": "about 400 m east",
+    "new": "further along the kade",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Mauritskade/11",
+    "evidence": "'Verderop, aan Mauritskade 55 bij het Oosterpark, staan nog enkele oude stallen'; no distance given."
+   },
+   {
+    "field": "body",
+    "old": "Lorries slowly replaced the horses, the yard in front filled with sheds and later a garage, and the bicycle maker VanMoof had its showroom and workshop here.",
+    "new": "The yard in front filled with brewery sheds; after Amstel left came the Mauritsgarage and later the bicycle maker VanMoof.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Mauritskade_55_GH",
+    "evidence": "'Het terrein daarvoor werd in later tijden alsnog volgebouwd met loodsen van Amstel. Toen Amstel hier vertrok kwam er de Mauritsgarage en weer later dus VanMoof.' Nothing on lorries or a VanMoof showroom and workshop in the stables."
+   },
+   {
+    "field": "body",
+    "old": "but it is the last place where the brewery's horses can still be traced",
+    "new": "but the brewery's horses can still be traced here",
+    "kind": "narrowed",
+    "source": "https://stedenbouw.nl/en/?p=37485",
+    "evidence": "Rings in the columns and drinking troughs kept; no source says it is the last such place."
+   }
+  ],
+  "patch": {
+   "summary": "One of only two buildings kept from the Amstel brewery, which filled the land behind the Mauritskade from 1870 until 1982: a Delft School office of 1928–33 with a relief of rams, barley and hop over the door. Now a university building.",
+   "body": "The Amstel brewery was founded in 1870 by Charles de Pesters and Johannes van Marwijk Kooy, out in the meadows beyond the city; its sheds and cellars came to fill much of the land between the Mauritskade and the Tweede Boerhaavestraat. Heineken took it over in 1968, and in 1982 the brewery, by then surrounded by homes whose residents complained of the nuisance, closed. Most buildings made way for housing. This office on the corner of the Andreas Bonnstraat survived, built in 1928–33 to a design by F.A. Eschauzier with A.J. Langhout in the sober Delft School style with functionalist touches: light brown brick, sandstone frames and asymmetric windows. Gerarda Rueter carved the relief over the entrance. Today the Hogeschool van Amsterdam uses it as the Koetsier-Montaignehuis.\n\nA second brewery building hides further along the kade, at Mauritskade 55 on the edge of the Oosterpark. In 1912 Abraham Salm, architect of the Artis aquarium, designed stables here for the brewery's dray horses, with a hayloft above and a coachman's house; a photo of about 1915 shows \"Stalgebouw van de Brouwerij de Amstel\" over the door. The yard in front filled with brewery sheds; after Amstel left came the Mauritsgarage and later the bicycle maker VanMoof. In 2024–2025 Anne Boonstra (up architecture) turned the stables into offices for a consultancy, keeping the cast-iron columns with the rings where horses were tied, the drinking troughs and the timber roof of the hayloft. The conversion ruled out listing, but the brewery's horses can still be traced here.\n\nLook for:\n- the relief of rams, barley ears and hop above the deep entrance porch\n- small human figures in the sandstone panels over the ground-floor windows\n- the round window at the top of the entrance bay\n- the former Amstel stables at Mauritskade 55, behind the newer hall on the kade (offices, outside only)",
+   "translations": {
+    "nl": {
+     "summary": "Een van maar twee gebouwen die over zijn van de Amstelbrouwerij, die van 1870 tot 1982 het terrein achter de Mauritskade vulde: een kantoor in Delftse School-stijl uit 1928-1933, met boven de deur een reliëf van rammen, gerst en hop. Nu een gebouw van de hogeschool.",
+     "body": "Boven de diepe ingang staan rammen tussen korenaren en hop: brouwerijbeeldhouwwerk van Gerarda Rueter. Het kantoor is een van maar twee gebouwen die van de Amstelbrouwerij over zijn. Charles de Pesters en Johannes van Marwijk Kooy begonnen die in 1870 in het weiland buiten de stad, en de loodsen en kelders groeiden uit over een groot deel van de grond tussen Mauritskade en Tweede Boerhaavestraat. In 1968 nam Heineken het bedrijf over. Inmiddels zaten er overal woningen omheen, en de buren klaagden over overlast. In 1982 ging de brouwerij dicht en de meeste gebouwen moesten wijken voor woningbouw.\n\nDit kantoor op de hoek van de Andreas Bonnstraat bleef staan. F.A. Eschauzier ontwierp het met A.J. Langhout en het werd gebouwd in 1928-1933: sobere Delftse School met een vleugje functionalisme, lichtbruine baksteen, zandstenen kozijnen en asymmetrische ramen. De Hogeschool van Amsterdam gebruikt het nu als Koetsier-Montaignehuis.\n\nVerderop aan de kade, op Mauritskade 55, zit nog een brouwerijgebouw verstopt. Abraham Salm, die ook het Artis-aquarium ontwierp, tekende hier in 1912 stallen voor de paarden die de biervaten trokken, met een hooizolder erboven en een koetsierswoning. Op een foto van rond 1915 staat boven de deur 'Stalgebouw van de Brouwerij de Amstel'. Later raakte het terrein ervoor vol met loodsen; na Amstel kwamen de Mauritsgarage en daarna VanMoof. In 2024-2025 maakte Anne Boonstra (up architecture) er kantoren van voor een adviesbureau. De gietijzeren kolommen met de ringen waar de paarden aan vastgebonden stonden, de drinkbakken en de houten kap van de hooizolder bleven. Door die verbouwing kan het geen monument worden, maar de brouwerijpaarden vind je hier nog terug.\n\nLet op:\n- het reliëf met rammen, korenaren en hop boven het diepe portiek\n- de kleine mensfiguren in de zandstenen vlakken boven de ramen van de begane grond\n- het ronde venster boven in de ingangspartij\n- de vroegere Amstelstallen op Mauritskade 55, achter de nieuwere hal aan de kade (kantoor, alleen van buiten)"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ycd19auw0r4ktmuxnvr9ve8z",
+  "title": "Pieter Nieuwland College",
+  "changes": [
+   {
+    "field": "body",
+    "old": "he also made the glass-in-concrete walls of the nearby Koningskerk.",
+    "new": "he also made a concrete sculpture and glass-in-concrete for the Christus Koningkerk on the Ostwaldstraat.",
+    "kind": "narrowed",
+    "source": "amsmon:200659 (https://data.amsterdam.nl/monumenten/7acde12e-f640-42da-a33c-b6608df8b64e)",
+    "evidence": "'Ander werk van hem, een betonplastiek en glas-in-beton, bevindt zich in de Christus Koningkerk aan de Ostwaldstraat 5'. The source does not say 'walls' or 'nearby'."
+   }
+  ],
+  "patch": {
+   "body": "J.H. van der Zee designed this Protestant HBS (grammar school), built 1958–1960; it is now an interconfessional havo/vwo school with about 700 pupils. It is a hall-and-corridor school: three wings of three storeys around a central hall, with white concrete columns showing in the fronts like pilasters and cream tiles under the windows. The wing with two gyms on the James Wattstraat stands on columns, with the ground floor left open as a bike shed, and a covered bridge on four columns forms a kind of gate.\n\nPost-war schools were meant to bring young people into contact with modern art, and this one got a monumental brick mosaic: across the whole end wall of the classroom wing Berend Hendriks laid out Jacob wrestling with the angel at the ford of the Jabbok, in bricks of different firing colours. Hendriks made many such brick mosaics from 1952 on; he also made a concrete sculpture and glass-in-concrete for the Christus Koningkerk on the Ostwaldstraat.\n\nLook for:\n- the brick mosaic on the end of the classroom wing\n- the gym wing on columns over the bike shed\n- the white concrete frame in the fronts",
+   "translations": {
+    "nl": {
+     "summary": "Een school met betonskelet van eind jaren vijftig. De lokalenvleugel eindigt in een baksteenmozaïek over de hele gevelbreedte van Berend Hendriks: Jakob die met de engel worstelt. De gymvleugel zweeft op kolommen boven de fietsenstalling.",
+     "body": "Jakob worstelt met de engel bij de doorwaadbare plaats van de Jabbok, en dat over de volle breedte van een schoolgevel, gelegd in bakstenen van verschillende baktinten. Berend Hendriks maakte dit mozaïek op de kopgevel van de lokalenvleugel. Naoorlogse scholen moesten jongeren in aanraking brengen met kunst van hun eigen tijd, en deze school kreeg een monumentaal baksteenmozaïek. Hendriks maakte er vanaf 1952 veel; van hem zijn ook een betonplastiek en glas-in-beton in de Christus Koningkerk aan de Ostwaldstraat.\n\nDe school zelf is een ontwerp van J.H. van der Zee en werd gebouwd in 1958-1960 als protestants-christelijke HBS. Nu is het een interconfessionele school voor havo en vwo met zo'n zevenhonderd leerlingen. Het is een hal- en gangschool: drie vleugels van drie lagen rond een centrale hal. In de gevels tekenen de witte betonkolommen zich af als pilasters, met crèmekleurige tegels onder de ramen. De vleugel met twee gymzalen aan de James Wattstraat staat op poten; de begane grond is open en dient als fietsenstalling. Een overdekte loopbrug op vier kolommen vormt een soort poort.\n\nLet op:\n- het baksteenmozaïek op de kop van de lokalenvleugel\n- de gymvleugel op poten boven de fietsenstalling\n- het witte betonskelet in de gevels"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "p6k5bjf5dgjruc95wcc3y52w",
+  "title": "Floating Poetry Room",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een klein drijvend pleintje aan de Paul Hufkade, ontworpen door de Amerikaanse kunstenaar Siah Armajani, met in de reling een gedicht van Frank Starik over water en het verlangen om weg te gaan en terug te keren. Je loopt via een trap naar beneden en zit dan op het water.",
+     "body": "Op het eind van dit ponton vaart een oceaanstomer, in het klein: een model van de Nieuw Amsterdam uit 1938, gebouwd door modelbouwer Henk Brandwijk. Online ergerden sommigen zich eraan, want dat schip vertrok uit Rotterdam. Ben Raaijman reageerde dat het werk geen eerbetoon aan de scheepvaart is, maar over het gevoel van reizen, weggaan en aankomen gaat.\n\nRaaijman bouwde het ponton naar een ontwerp van de Amerikaan Siah Armajani, als ontmoetingsplek voor de nieuwe buurt met drijvende woningen op IJburg. Het geld kwam uit het kunstbudget van de IJtram (lijn 26). Op 17 december 2005 werd het onthuld, toen nog in het binnenwater bij het Steigereiland. Daar wilde het niet lukken: na een aanvaring met schade verdween het ponton naar een werf. Er volgde een onderzoek naar wat er mis was gegaan, daarna een opknapbeurt, en op 13 juli 2012 werd het opnieuw onthuld, nu aan de Paul Hufkade.\n\nEen trap brengt je van de kade naar het stalen vlot. Er staan een bank met zicht op het water, een afdakje zoals bij een bushalte en wat speeltoestellen. In de relingen loopt een gedicht van de Amsterdamse dichter Frank Starik, dat niet langer mocht zijn dan 667 tekens. De laatste regel: 'Blijf hier en denk jezelf een zee.'\n\nLet op:\n- het gedicht langs de relingen\n- het model van de Nieuw Amsterdam aan het uiteinde\n- de trap van de kade naar beneden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "u1mdb86t6u1y8c4cg9ehjqby",
+  "title": "Former pastry bakers' school (Banketbakkersvakschool)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Neighbours remember buying cheap, beautiful cakes made by the pupils.",
+    "new": "Someone who worked next door at Renault in the early 1960s remembers buying delicious, beautiful pastries at the school for little money; cakes made by the pupils were often on display.",
+    "kind": "narrowed",
+    "source": "https://geheugenvanoost.amsterdam/page/62130/de-banketbakkersschool-in-de-wibautstraat",
+    "evidence": "One reader: 'Begin jaren '60 werkte ik bij de buren, Renault-Nederland. Vaak kochten wij bij de school heerlijk en prachtig gebak voor relatief weinig! Er stonden regelmatig door leerlingen gemaakte taarten tentoon gesteld.' One worker, not 'neighbours' in general."
+   }
+  ],
+  "patch": {
+   "body": "The Nederlandse Banketbakkers Vereniging opened its trade school in 1924 in the Quellijnstraat. Its first chairman was Willem Berkhoff (1863–1953), a pastry baker with shops in the Leidsestraat and the Eerste Constantijn Huygensstraat, and the school became known as De Berkhoff. In 1956 it moved into this new building by W.A. Ulrich and B.J.F. Kamphuis on the corner of the Wibautstraat and the Ringdijk, in the strip of freestanding post-war buildings that grew up along the new avenue.\n\nIt is a hall school: a square plan with classrooms around a central hall and stair, theory classes downstairs and practical kitchens on the cantilevered upper floor, plus a bike cellar and a shop window on the street. Blue mosaic columns flank the main entrance, a white marble stone recalls the founding, and yellow glazed tiles line the window sills. In the stairwell Cor Dik painted an 80 m² true fresco of the harvest and the meal, now damaged and partly hidden behind panels. Someone who worked next door at Renault in the early 1960s remembers buying delicious, beautiful pastries at the school for little money; cakes made by the pupils were often on display.\n\nThe school merged with the Hubertusschool in 2015 and moved to the Betuwestraat. After a renovation with a new wing that partly hangs over the old building, the Orion College Amstel, a school for special secondary education, moved in in 2019.\n\nLook for:\n- the cantilevered upper floor\n- the blue mosaic columns at the entrance on the Ringdijk side\n- the marble founding stone by the old shop window",
+   "translations": {
+    "nl": {
+     "summary": "Een kubus uit 1956 met een uitkragende bovenverdieping, neergezet door de Nederlandse banketbakkers om leerlingen op te leiden. In het trappenhuis zit nog een echt fresco van oogst en maaltijd. Sinds 2019 zit er een school voor speciaal voortgezet onderwijs.",
+     "body": "Begin jaren zestig zat Renault naast de deur, en iemand die daar werkte weet nog hoe hij hier gebak kocht: heerlijk, prachtig en voor weinig geld. Regelmatig stonden er taarten van leerlingen te kijk.\n\nDe Nederlandse Banketbakkers Vereniging begon haar vakschool in 1924 in de Quellijnstraat. Eerste voorzitter was Willem Berkhoff (1863-1953), banketbakker met winkels in de Leidsestraat en de Eerste Constantijn Huygensstraat, en de school ging De Berkhoff heten. In 1956 verhuisde ze naar dit nieuwe gebouw van W.A. Ulrich en B.J.F. Kamphuis, op de hoek van Wibautstraat en Ringdijk, tussen de losse naoorlogse gebouwen die langs de nieuwe brede straat verrezen.\n\nHet is een halschool: een vierkant grondplan, lokalen rond een centrale hal met trap, beneden de theorie en op de uitkragende bovenverdieping de praktijkkeukens. Er was een fietsenkelder en aan de straat een etalage. Twee kolommen met blauw mozaïek staan bij de hoofdingang, een witmarmeren steen herinnert aan de oprichting en geelgeglazuurde tegeltjes sieren de borstweringen. In het trappenhuis schilderde Cor Dik een echt fresco van 80 vierkante meter over oogst en maaltijd; het is beschadigd en deels achter schotten verdwenen.\n\nIn 2015 ging de school samen met de Hubertusschool en vertrok naar de Betuwestraat. Na een verbouwing, met een nieuwe vleugel die deels over het oude gebouw hangt, trok er in 2019 een school voor speciaal voortgezet onderwijs in, het Orion College Amstel.\n\nLet op:\n- de uitkragende bovenverdieping\n- de blauwe mozaïekkolommen bij de ingang aan de Ringdijkkant\n- de marmeren gedenksteen bij de oude etalage"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "jqw57fhdca4gwjwgxstftgs9",
+  "title": "Gemaal Zeeburg",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Het gemaal uit 1941-1943 aan het eind van het Lozingskanaal, dat de Amsterdamse grachten doorspoelde door water via een sifon onder het Amsterdam-Rijnkanaal door te duwen. De pompen kunnen ook achteruit draaien om water binnen te laten.",
+     "body": "Het grachtenwater van Amsterdam gaat hier onder een kanaal door. Helemaal aan het eind van het Lozingskanaal, op een schiereilandje aan het eind van een dam met populieren, pompt dit gemaal het water omhoog naar een voorboezem. Van daaruit stroomt het door een sifon onder het Amsterdam-Rijnkanaal naar het IJ. Sinds 1879 stond hier een stoomgemaal; de sifon kwam er rond 1892, toen het Merwedekanaal werd gegraven.\n\nHet huidige gebouw is van 1941-1943, ontworpen door C. van der Wilk en J. Leupen van Publieke Werken. De hoge glasstroken in de westgevel doen denken aan Leupens Amstelstation. Acht betonnen portaalspanten, helemaal in baksteen verpakt, dragen een hoge machinehal. In 1943 kwamen er drie liggende schroefpompen van elk 800 kubieke meter per minuut; in 1965 volgde een vierde van 1200. Aan de oostkant steken vier enorme blauwe buizen uit de muur, die met een knik in het water verdwijnen.\n\nTot 2010 werden de grachten een paar keer per week doorgespoeld. Nu pompt het gemaal alleen nog als het grachtenwater te hoog staat of te weinig zuurstof bevat, en in droge tijden laat het juist water binnen uit het IJmeer. Het werkt nog steeds, vrijwel ongewijzigd, en is sinds 2012 gemeentelijk monument.\n\nLet op:\n- de vier blauwe zuigleidingen aan de oostkant\n- de hoge glasstroken in de westgevel, zoals bij het Amstelstation\n- de schoorsteen met zijn elliptische betonnen kap\n- de vreemde betonnen lantaarnpalen op de dammetjes van de zeefinstallatie"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "qs3dakpvmuac90i44ltf2pr3",
+  "title": "Java-eiland canals and bridges",
+  "changes": [
+   {
+    "field": "body",
+    "old": "built from 1890",
+    "new": "begun at the end of the 19th century",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Java-eiland",
+    "evidence": "'Eind 19e eeuw werd begonnen met de aanleg van Java-eiland in het IJ'; no year given."
+   },
+   {
+    "field": "body",
+    "old": "a plan that answered the big blocks of the neighbouring KNSM-eiland with something small and varied: four short canals",
+    "new": "a plan with four short canals",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Java-eiland",
+    "evidence": "No source frames Soeters' plan as an answer to the KNSM-eiland blocks."
+   },
+   {
+    "field": "summary",
+    "old": "by dozens of architects",
+    "new": "by many different architects",
+    "kind": "narrowed",
+    "source": "https://arcam.nl/architectuur-gids/woningen-brantasgracht/",
+    "evidence": "'de verschillende architecten waarvan de ontwerpen elk viermaal zijn gebouwd'; no count given."
+   }
+  ],
+  "patch": {
+   "summary": "Four little canals cut across a former harbour pier, lined with narrow canal houses by many different architects and crossed by nine black footbridges whose twisting railings secretly spell words in an artists' alphabet.",
+   "body": "The Java-eiland was begun at the end of the 19th century as a breakwater in the IJ and became the quay of the shipping line SMN, which sailed to the Dutch East Indies. In the 1980s squatters and artists moved in. In the 1990s everything except one harbour building was cleared and Sjoerd Soeters drew a plan with four short canals across the island, the Brantas-, Lamong-, Majang- and Seranggracht, named after rivers on Java. Along them stand rows of tall, narrow houses, each to a different architect's design, and each design was built four times, once on every canal. The island was built up in 1999–2000.\n\nThe nine footbridges over the canals are by the Belgian artist couple Guy Rombouts and Monica Droste. In the 1980s they invented the Azart alphabet (\"A to Z art\"), in which every letter is a line and a colour (C for curve and for lemon yellow). Each bridge railing is a word written in those wiggling lines: idee, image, word, wetenschap, enseignement, society, kunst, conscience and light. The letters were meant to be in colour too, but the architect of the bridges thought that looked like toys, so all of them are black.\n\nLook for:\n- the Kunst bridge over the Majanggracht, and the Idee bridge over the Seranggracht\n- the different height and window pattern of every house along one canal, then the same houses again on the next\n- the garden courtyards between the canals, named after Javanese towns\n- in the Tosarituin and elsewhere, Huibert Groenendijk's black-ribbed transformer houses (1997), which the designer of the Maxi-Cosi called \"chapels\" handing out the blessings of technology",
+   "translations": {
+    "nl": {
+     "summary": "Vier grachtjes dwars over een oude havenpier, met smalle grachtenhuizen van allerlei architecten en negen zwarte loopbruggen waarvan de kronkelende leuningen stiekem woorden spellen in een kunstenaarsalfabet.",
+     "body": "Lees de leuningen. Elk van de negen zwarte bruggetjes over de grachten van het Java-eiland spelt een woord. Samen: idee, image, word, wetenschap en enseignement, en verder society, kunst, conscience en light. Het Belgische kunstenaarspaar Guy Rombouts en Monica Droste bedacht in de jaren tachtig het Azart-alfabet ('A tot Z art'), waarin iedere letter een lijn en een kleur is; de C staat voor curve en voor citroengeel. Eigenlijk hadden de bruggen ook gekleurd moeten worden, maar de brugarchitect vond dat het dan te veel op speelgoed leek. Dus werden ze allemaal zwart.\n\nHet eiland zelf werd eind negentiende eeuw als golfbreker in het IJ aangelegd en werd de kade van de Stoomvaart Maatschappij Nederland, die op Nederlands-Indië voer. In de jaren tachtig trokken krakers en kunstenaars erin. In de jaren negentig ging alles plat op één havengebouw na, en Sjoerd Soeters tekende een plan met vier korte grachten dwars over het eiland: Brantas-, Lamong-, Majang- en Seranggracht, naar rivieren op Java. Erlangs staan rijen hoge, smalle huizen, elk naar het ontwerp van een andere architect, en elk ontwerp is vier keer gebouwd, aan iedere gracht één keer. In 1999-2000 werd het eiland volgebouwd.\n\nLet op:\n- de brug Kunst over de Majanggracht en de brug Idee over de Seranggracht\n- hoe elk huis langs één gracht anders is qua hoogte en ramen, en hoe je dezelfde huizen aan de volgende gracht weer tegenkomt\n- de binnentuinen tussen de grachten, genoemd naar Javaanse plaatsen\n- in de Tosarituin en elders de zwart geribbelde transformatorhuisjes van Huibert Groenendijk (1997); de ontwerper van de Maxi-Cosi noemde ze 'kapelletjes' die de zegeningen van de techniek uitdelen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "v5zqbsqk5ql714r9mbd2shhx",
+  "title": "Krugerhof",
+  "changes": [
+   {
+    "field": "body",
+    "old": "- the gate building on the Maritzstraat with the name letters",
+    "new": "- the gateway on the Maritzstraat into the courtyard",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Tugelaweg/Krugerhof",
+    "evidence": "Photo caption: 'Poort aan de Maritzstraat naar het binnenterrein.' No source mentions name letters."
+   },
+   {
+    "field": "body",
+    "old": "built with four colours of brick",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Krugerhof",
+    "evidence": "'De circa honderd woningen vallen op in de buurt door de uitvoering in vier kleuren baksteen'."
+   }
+  ],
+  "patch": {
+   "body": "The Krugerhof looks like a tidy late Amsterdam School courtyard block, built with four colours of brick by the Maatschappij voor Moderne Woningbouw of developer Van Saane. A.J. Westerman drew the facades, J. Dunnebier the floor plans. The real surprise is inside the entrances.\n\nEach stairwell holds two staircases that wind around each other, a layout Van Saane devised to save space. He needed permission to deviate from the Amsterdam building code, which required a window to the street on every landing. The two flats on each floor interlock like bayonets around the stairwell: one is wider at the front, the other at the back. Instead of the usual attic storage, the storerooms were put on the ground floor. The garden in the middle is for residents only, with a garden house holding shared washing machines and dryers.\n\nThe block became a municipal monument in June 2026.\n\nLook for:\n- the gateway on the Maritzstraat into the courtyard\n- the brickwork in several colours\n- a peek into a porch on the Christiaan de Wetstraat to see the double stairs",
+   "translations": {
+    "nl": {
+     "summary": "Een hofblok uit 1929-1930 waarin elk trappenhuis twee trappen heeft die om elkaar heen draaien: een ruimtebesparende vondst van ontwikkelaar Van Saane, waarvoor een ontheffing van de bouwverordening nodig was. Sinds juni 2026 monument.",
+     "body": "Stap een portiek in en je ziet twee trappen die om elkaar heen wentelen. Ontwikkelaar Van Saane bedacht dat om ruimte te sparen, en hij moest er speciaal toestemming voor krijgen. De Amsterdamse bouwverordening wilde namelijk dat elk trappenhuis op iedere verdieping een raam aan de straatkant had.\n\nVan buiten lijkt de Krugerhof een keurig blok in late Amsterdamse School rond een binnentuin. Het is gebouwd door de Maatschappij voor Moderne Woningbouw van Van Saane, in vier kleuren baksteen. A.J. Westerman tekende de gevels, J. Dunnebier de plattegronden. Per verdieping liggen twee woningen als een bajonetsluiting in elkaar, met het trappenhuis ertussen: de een is breed aan de straatkant, de ander achteraan. De bergingen kwamen niet op zolder, zoals toen gewoon was, maar op de begane grond. De tuin in het midden is alleen voor bewoners; in het tuinhuis staan gedeelde wasmachines en drogers.\n\nIn juni 2026 werd het blok gemeentelijk monument.\n\nLet op:\n- de poort aan de Maritzstraat naar de binnentuin\n- het metselwerk in verschillende kleuren\n- even een blik in een portiek aan de Christiaan de Wetstraat, voor de dubbele trap"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "wzmnrj1wqldmmfk7egu3aesg",
+  "title": "Muiderpoortstation and its signal box",
+  "changes": [
+   {
+    "field": "body",
+    "old": "called the result a \"wonderful entrance to the big city\"",
+    "new": "called the result a \"curious entrance to the big city\" (\"wonderlijke entree\")",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Oosterspoorplein/1",
+    "evidence": "The 1939 quote reads 'wonderlijke entree in de groote stad Amsterdam!'; 'wonderlijk' means curious or strange, not 'wonderful'."
+   }
+  ],
+  "patch": {
+   "body": "The station was part of the Spoorwegwerken Oost, which lifted the eastern railway lines onto embankments and replaced dangerous level crossings with viaducts. H.G.J. Schelling, architect of the Dutch Railways, had to fit it into a trapezium between the embankments and the Insulindeweg underpass; a newspaper in 1939 called the result a \"curious entrance to the big city\" (\"wonderlijke entree\"), intimate and calm, on a little square. The eastern half opened in 1937, the western in 1939, and the official opening was on 15 October 1939. In the hall were six ticket windows, kiosks and a round stained-glass window by Heinrich Campendonk showing migrating birds, an allegory of travel. The signal box of 1936–38, the highest part of the complex, is a crisp piece of Nieuwe Bouwen and was listed nationally in 2003; the rest followed as a municipal monument in 2014.\n\nAfter a rebuild in 1998 the platforms were reached directly from the viaducts and the hall was closed to the public; the last ticket window shut around 2002. On the station wall facing the square, the late Fabrice Hünd's mosaic *Scherven van Beschaving* (Shards of Civilisation, 2010) of thousands of china shards replaced a mural of his own.\n\nLook for:\n- the round Campendonk window with birds in the north wall\n- the signal box with its band of windows above the tracks\n- Hünd's shard mosaic on the wall by the square",
+   "translations": {
+    "nl": {
+     "summary": "Het station van Schelling uit 1939, ingeklemd in de vork tussen twee spoordijken, met een raam van trekvogels door Campendonk en een seinhuis in Nieuwe Bouwen erbovenop. De stationshal is sinds 1998 dicht voor publiek.",
+     "body": "Boven in de noordwand van een hal waar je niet meer in mag, trekken vogels voorbij. Het ronde glas-in-loodraam van Heinrich Campendonk verbeeldt de vogeltrek, als allegorie van het reizen. Maar sinds de verbouwing van 1998 kom je via de viaducten direct op de perrons, is de hal gesloten voor reizigers, en rond 2002 ging ook het laatste kaartjesloket dicht.\n\nHet station hoorde bij de Spoorwegwerken Oost, die de oostelijke spoorlijnen op dijken legden en de gevaarlijke overwegen vervingen door viaducten. NS-architect H.G.J. Schelling moest het passen in een trapezium tussen de spoordijken en de onderdoorgang van de Insulindeweg. Een krant vond het in 1939 een wonderlijke toegang tot de grote stad: intiem en rustig, aan een pleintje. De oostelijke helft ging in 1937 open, de westelijke in 1939, en op 15 oktober 1939 volgde de officiële opening. In de hal zaten zes loketten en kiosken. Het seinhuis van 1936-1938, het hoogste deel van het complex, is strak Nieuwe Bouwen en werd in 2003 rijksmonument; de rest volgde in 2014 als gemeentelijk monument.\n\nOp de stationsmuur aan het plein zit Scherven van Beschaving (2010) van wijlen Fabrice Hünd: een mozaïek van duizenden scherven servies, dat de plaats innam van een eerdere muurschildering van hemzelf.\n\nLet op:\n- het ronde vogelraam van Campendonk in de noordwand\n- het seinhuis met zijn raamstrook boven het spoor\n- het scherfmozaïek van Hünd op de muur bij het plein"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "u7r8u9rut2cshntdr0i2ux2p",
+  "title": "SLM disaster memorial, 's-Gravesandeplein",
+  "changes": [
+   {
+    "field": "body",
+    "old": "much of the Kleurrijk Elftal",
+    "new": "part of the Kleurrijk Elftal",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/SLM-ramp",
+    "evidence": "'Voorts zat een deel van het Kleurrijk Elftal ... in het vliegtuig'; some players were not on board."
+   },
+   {
+    "field": "body",
+    "old": "flowers and children's drawings were laid at seven in the evening",
+    "new": "flowers and drawings were laid from seven in the evening",
+    "kind": "narrowed",
+    "source": "https://oost-online.nl/real-sranang-herdenkt-slm-ramp-met-voetbal-bloemen-en-ontmoeting/",
+    "evidence": "'vanaf 19.00 uur ... Daar werden bloemen gelegd en tekeningen neergelegd'; the source does not say the drawings were by children."
+   }
+  ],
+  "patch": {
+   "body": "In the early morning of 7 June 1989 a DC-8 of the Surinaamse Luchtvaart Maatschappij (SLM) crashed while trying to land in fog at Zanderij, Paramaribo's airport, on a flight from Schiphol. All nine crew and 167 of the 178 passengers died; eleven survived. It is the worst air disaster in Suriname's history. Most passengers were Surinamese Dutch on their way to visit family. On board was part of the Kleurrijk Elftal (Colourful Eleven), a team of Surinamese-Dutch professional footballers going to play a tournament, and the Draver Boys, a kawina band that often went with them. Their home base was café De Draver at Ruyschstraat 377, around the corner from this square, and the café was among those who started this memorial. It was paid for by Amsterdam, Rotterdam, The Hague and the Dutch football association KNVB, and unveiled in 1991.\n\nThe Surinamese-Dutch painter Guillaume Lo-A-Njoe made three tall aluminium forms that leave the outline of a figure open between them. On the low base is the Sranan text \"Lobiwan wi sa tan memre yu\" (loved ones, we will always remember you). A broad black granite column and a bench evoke a grave monument. Every 7 June since 1991 people gather here; in 2026 flowers and drawings were laid from seven in the evening, while a football club in Middenmeer held its own commemoration with a tournament. The pin is on the memorial.\n\nLook for:\n- the empty human shape between the three aluminium forms\n- the Sranan line on the base\n- the bench, whose other support echoes the aluminium forms",
+   "translations": {
+    "nl": {
+     "summary": "Drie aluminium vormen laten samen een mensfiguur open, voor de 176 doden van de SLM-ramp van 1989 in Suriname, onder wie voetballers van het Kleurrijk Elftal en de Draver Boys uit het café om de hoek. Elke 7 juni wordt hier herdacht.",
+     "body": "Om de hoek, op Ruyschstraat 377, zat café De Draver. Daar kwamen voetballers van het Kleurrijk Elftal en de muzikanten van de Draver Boys, een kawinaband die het elftal vaak vergezelde. Op 7 juni 1989 zaten spelers en bandleden in de DC-8 van de Surinaamse Luchtvaart Maatschappij die vanaf Schiphol naar Paramaribo vloog. Vroeg in de ochtend probeerde het toestel in de mist te landen op Zanderij en stortte neer. De negen mensen van de bemanning stierven allemaal, en van de 178 passagiers 167; elf overleefden het. Het is de zwaarste vliegramp in de Surinaamse geschiedenis. De meeste passagiers waren Surinaamse Nederlanders op familiebezoek. Een deel van het Kleurrijk Elftal, profvoetballers van Surinaamse komaf, ging er een toernooi spelen.\n\nHet café hoorde bij de initiatiefnemers van dit monument, dat Amsterdam, Rotterdam, Den Haag en de KNVB betaalden en dat in 1991 werd onthuld. De Surinaams-Nederlandse schilder Guillaume Lo-A-Njoe zette drie hoge aluminium vormen neer die tussen zich in een menselijke gestalte openlaten. Op de lage sokkel staat in het Sranantongo: 'Lobiwan wi sa tan memre yu' (lieverds, we zullen jullie altijd blijven herinneren). Een brede zwartgranieten zuil en een bank doen denken aan een grafmonument. Sinds 1991 komen hier elke 7 juni mensen samen. In 2026 werden vanaf zeven uur 's avonds bloemen en tekeningen gelegd, terwijl een voetbalclub in Middenmeer de dag herdacht met een eigen toernooi. De speld staat op het monument.\n\nLet op:\n- de lege mensfiguur tussen de drie aluminium vormen\n- de regel in het Sranantongo op de sokkel\n- de bank, waarvan de andere poot de aluminium vormen herhaalt"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "crrwaq7ho0i5yentxlx2xjs1",
+  "title": "Entrepot waiting room, coffee house and bridge 352",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Both buildings have served food and drink ever since.",
+    "new": "Both buildings are cafés or restaurants today.",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Cruquiusweg/3",
+    "evidence": "No. 3: 'Het is nu een horecagelegenheid'; no. 9: 'Het is nu nog steeds een horecagelegenheid'. Continuous use since 1901 is not stated for no. 3."
+   }
+  ],
+  "patch": {
+   "body": "In 1899 the city dug a short canal from the Nieuwe Vaart to its new bonded warehouse dock, the Nieuwe Entrepotdok (now the Entrepothaven), with a lock where the canal meets the Cruquiusweg. Goods could be stored here duty-free until they were sold on; seven entrepot warehouses along the Cruquiusweg were named after the days of the week. The Public Works department (Publieke Werken) built a small group of buildings at the gate, with timber framing and chalet touches that nl.wikipedia attributes to Hendrik Leguyt.\n\nCruquiusweg 3 (1901) was the waiting room (wachtlokaal) of the entrepot, with two pay offices (afrekenlokalen) and a waiting area, plus a veranda on the east side as extra waiting space. A police post stood a few metres east; it has been demolished. Cruquiusweg 9 (1902), on the other side of the old entrance, was a people's coffee house (volkskoffiehuis): a café on the corner, a coffee room behind and a flat upstairs for the manager. Like the coffee house at the old entrepot on the Kadijksplein, it was run by the Volksbond tegen Drankmisbruik, a temperance league. Both buildings are cafés or restaurants today.\n\nBridge 352 (1899) carries the Cruquiusweg over the northern gates of the Nieuwe Entrepotdok lock. It mixes a then-modern beam bridge with 19th-century lamps and railings of cast and wrought iron, supplied by F. Rincker. The deck was renewed in 2014 with the old railings and four lamps put back. Until 2016 it was unofficially called the Jaap Hannesbrug, after a vanished hamlet and bastion.\n\nLook for:\n- the building year cast into one of the bridge lamps\n- the lock gates under the bridge\n- the veranda along the east side of number 3\n- the café entrance on the cut-off corner of number 9",
+   "translations": {
+    "nl": {
+     "summary": "Drie kleine overblijvers van het gemeentelijke handelsentrepot van rond 1900, bij de sluis aan de Cruquiusweg: een wachtlokaal met veranda, een koffiehuis van de drankbestrijders en een brug met het bouwjaar in een lantaarn gegoten.",
+     "body": "Bier was hier niet de bedoeling. Het koffiehuis op Cruquiusweg 9 (1902) werd gerund door de Volksbond tegen Drankmisbruik, net als het koffiehuis bij het oude entrepot aan het Kadijksplein. Op de schuine hoek zat een café, daarachter een koffiekamer, en boven woonde de beheerder.\n\nIn 1899 groef de stad een kort kanaal van de Nieuwe Vaart naar haar nieuwe entrepotdok, het Nieuwe Entrepotdok (nu Entrepothaven), met een sluis waar het kanaal de Cruquiusweg kruist. In een entrepot konden goederen zonder invoerrechten liggen tot ze verder verkocht werden; langs de Cruquiusweg stonden zeven pakhuizen met de namen van de weekdagen. Publieke Werken zette bij de ingang een groepje gebouwtjes neer, met vakwerk en een vleugje chaletstijl, volgens nl.wikipedia van de hand van Hendrik Leguyt.\n\nCruquiusweg 3 (1901) was het wachtlokaal: twee afrekenlokalen, een wachtruimte en aan de oostkant een veranda om nog meer mensen te laten wachten. Een paar meter verderop stond een politiepost, die is gesloopt. Het koffiehuis ligt aan de andere kant van de vroegere ingang. In beide panden kun je nu eten en drinken.\n\nBrug 352 (1899) brengt de Cruquiusweg over de noordelijke deuren van de sluis. Het is een liggerbrug, toen modern, met negentiende-eeuwse lantaarns en leuningen van giet- en smeedijzer, geleverd door F. Rincker. In 2014 kreeg de brug een nieuw dek, en kwamen de oude leuningen en vier lantaarns terug. Tot 2016 heette ze onofficieel Jaap Hannesbrug, naar een verdwenen buurtschap en bolwerk.\n\nLet op:\n- het bouwjaar in een van de lantaarns van de brug\n- de sluisdeuren onder de brug\n- de veranda aan de oostkant van nummer 3\n- de caféingang op de afgeschuinde hoek van nummer 9"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "b67273p5w1fai6rv13tdtsuj",
+  "title": "Enneüs Heermabrug",
+  "changes": [],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "De voordeur van IJburg: een witte stalen brug van 230 meter, waarvan de twee grote bogen en de doorhangende middenboog een dubbele golf over het water vormen. Amsterdammers zagen er iets anders in en noemen hem de behabrug.",
+     "body": "Twee rondingen naast elkaar, met een dipje ertussen. Je kunt er een dubbele golf in zien, maar Amsterdam zag er iets anders in en noemde dit de behabrug, of Cup IJ. Twee witte bogen van elk 75 meter dragen de hoofdoverspanningen, verbonden door een tegenboog van 30 meter die er als een omgekeerde boog tussen hangt. Met twee aanbruggen van 25 meter kom je op zo'n 230 meter. Het dek hangt aan stangen en is gesplitst in twee delen met een kier ertussen, zodat je tijdens het oversteken het water voelt. De bogen zouden zijn geïnspireerd op de gevels van oude grachtenhuizen, de liggers op het gelede skelet van een krab. In 2002 won de brug de Nationale Staalprijs.\n\nHet was de eerste brug die voor IJburg werd gebouwd. Hij verbindt het Zeeburgereiland met het Steigereiland, het eerste nieuwe eiland in het IJmeer, en is nog steeds de hoofdingang van de wijk voor auto, fiets en tram. De Britse architect Nicholas Grimshaw won de ontwerpwedstrijd. Het staal ging er in 2000 in, in 2001 ging de brug open en sinds 2005 rijdt de IJtram (lijn 26) eroverheen. De naam komt van Enneüs Heerma (1944-1999), Amsterdams wethouder en later leider van het CDA. Een kleiner zusje van dezelfde architect, brug 2002, brengt de weg verder naar het Haveneiland. In de spits is dit de flessenhals van IJburg.\n\nDe wijk erachter kwam er ondanks een verloren stemming. De gemeenteraad keurde de plannen in 1996 goed; tegenstanders, bang voor de natuur in het IJmeer, dwongen een correctief referendum af. Op 19 maart 1997 stemden zo'n 133.000 Amsterdammers tegen en 93.000 voor, maar voor het afschieten van het besluit waren 155.000 tegenstemmen nodig. Het plan ging door, met natuurcompensatie: in 2002-2005 kwam ten noorden van Durgerdam de Hoeckelingsdam van 1,6 kilometer, die de Kinselbaai beschut voor watervogels. Het opspuiten van land begon in 1999 en in november 2002 trokken de eerste bewoners erin.\n\nLet op:\n- de tegenboog in het midden, het mooist vanaf de kade aan de IJburglaan of vanaf het water\n- de kier tussen de twee dekken, onder je voeten op het fietspad\n- de hangstangen en de tramdraden onder de bogen\n- zusje brug 2002, verderop aan de IJburglaan\n- vanaf het hoogste punt: de eilanden waar een meerderheid tegen stemde"
+    }
+   }
+  },
+  "sources_add": [
+   "https://en.wikipedia.org/wiki/Enne%C3%BCs_Heerma_Bridge (gables, crab skeleton, 230 m, Heerma CDA leader; confirmed by fetch)"
+  ]
+ },
+ {
+  "id": "h6r1i9x921zrefbme9iquu7i",
+  "title": "Barcelona and its gate (Barcelonaplein)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Piraeus by Hans Kollhoff, the dark brick block folded around an old harbour building",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Piraeus_(gebouw)",
+    "evidence": "'waarbij de zuidgevel als het ware om het bestaande bouwwerk heen werd gevouwen'; bricks 'donkerbruin met een blauwachtige glans'."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een bakstenen superblok met binnenin een rond plein, waarvan de open kant is dichtgezet met een stalen 'gordijn' van acht verdiepingen vol stripramen van Narcisse Tordoir. De trap aan de achterkant zegt in vijf talen dat er aan de overkant ook mensen wonen.",
+     "body": "Een figuurtje dat zijn tong uitsteekt, dat waren volgens Narcisse Tordoir de gewone mensen die in sociale huurwoningen wonen. Die uitleg viel niet goed. Het zit in zijn hek aan de Levantkade: een raster van vakken van 3,30 meter, elk een raam met opzijgeschoven gordijnen. In dun staal getekend zie je gezichten met tekstballonnen, een pijp, hoeden, een bloem, een bel, een boeddha, een brood met een mes, en een bot en een sleutelgat waarin mensen iets seksueels lezen. Het hek volgt de ronding van het gebouw, vult de opening over de volle hoogte en staat vast in de open stand.\n\nHet KNSM-eiland was de kade van de Koninklijke Nederlandsche Stoomboot-Maatschappij, met onder meer een lijn op Barcelona. Jo Coenen maakte in 1989 een plan met superblokken langs een boulevard. Het eerste ontwierp de Belg Bruno Albert, die tot dan bijna alleen in Luik en Maastricht had gebouwd, voor corporatie Het Oosten: 170 meter lang, 321 sociale huurwoningen, klaar in mei 1993. Midden in het blok staat een cilinder van acht lagen rond een openbaar rond plein, het Barcelonaplein, met rood-geel gestreepte baksteen zoals in de Maaslandse renaissance van Alberts eigen streek. Aan de KNSM-laan ligt een luie trap van vijf treden van Jouke Kleerebezem, met regels in het Engels, Frans, Albanees, Marathi en Nederlands. De laatste: 'Over het water wonen ook mensen'.\n\nHet eiland eindigt met twee bakens voor de vrije markt. Halverwege de noordkant, tegenover Piraeus, zette Wiel Arets Skydome neer (1994-1996): een toren van 63 meter met 100 flats in ruwe antracietkleurige betonplaten, in rubber gegoten. De buurt doopte hem al snel de zwarte weduwe. Criticus Hans Ibelings zag in 2003 dat ongelijk verbleekte panelen het monolithische effect al hadden ondermijnd. Op de kop, in de as van de KNSM-laan, hield Coenen het ontwerp voor zichzelf: Emerald Empire (1996-97), een witte cilinder rond de Venetiëhof met een krans van zeven watervilla's. De naam knipoogt naar Multatuli's 'gordel van smaragd' voor Nederlands-Indië. Die villa's stuitten op bezwaren, omdat ze het uitzicht vanaf de straat wegnamen en een wandelpad langs het water onmogelijk maakten. Hulsman en Ibelings vonden het resultaat allebei 'enigszins teleurstellend'.\n\nLet op:\n- het stalen hek vanaf de Levantkade, het mooist met tegenlicht\n- de gestreepte baksteen en de smalle Franse balkons rond het ronde plein\n- de vijf teksten op de trap vanaf de KNSM-laan\n- Piraeus van Hans Kollhoff, het donkere bakstenen blok dat om een oud havengebouw heen is gevouwen, net ten westen\n- de zwarte toren van Skydome met zijn balkons van staaldraad, aan de noordkant van de KNSM-laan\n- de witte trommel van Emerald Empire aan het eind van de KNSM-laan, en de watervilla's vanaf de Surinamekade"
+    }
+   }
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Piraeus_(gebouw) (south facade folded around the existing KNSM building; dark brown brick)",
+   "https://nl.wikipedia.org/wiki/Eerste_steen_(Jouke_Kleerebezem) (five languages confirmed)"
+  ]
+ },
+ {
+  "id": "um99x385qxlqy0n4sz2gbmyf",
+  "title": "Catholic island on the Eikenplein",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Kraaij's curved block of 1887 frames the Kastanjeplein",
+    "new": "(unchanged)",
+    "kind": "sourced",
+    "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200607",
+    "evidence": "architectOntwerp 'Kraaij, A.Th.', jaarBeginVan 1887; register: 'gebogen westelijke pleinwand', 'sluitstenen met leeuwenkoppen'."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een complete katholieke wereld uit 1889: klooster, kapel en de Sint Barbaraschool, de eerste katholieke montessorischool van Nederland, die rond 2023 dichtging als oudste basisschool van Amsterdam. Aan de overkant woonden deftige alleenstaande dames.",
+     "body": "Plek voor 1100 kinderen, en dat in één katholiek blok. Toen de Oosterparkbuurt werd aangelegd, zette de nieuwe Sint-Bonifatiusparochie haar gebouwen bij elkaar op een katholiek eiland. E.J. Margry ontwierp de Bonifatiuskerk (1886, in de jaren tachtig gesloopt) en, op grond die mejuffrouw Barbara Westerwoudt schonk, een klooster voor franciscanessen met kapel, refter en scholen: een bewaarschool, een kleuterschool, een lagere school voor meisjes en een naaischool. In het middendeel met zijn gotische trekjes woonden de zusters en stond de kapel (1891); J.J.L. Moolenschot zette er in 1906 de vleugel aan de Derde Oosterparkstraat bij. In 1929 ging de Sint Barbaraschool over op montessorionderwijs, als eerste katholieke school in het land. De hoekvleugel werd in 2002 appartementen, de schoolrenovatie kreeg in 2015 een Gulden Fenix en rond 2023 ging de school dicht omdat er te weinig leerlingen kwamen.\n\nAan de overkant staat de Elisabeth Otter-Knoll Stichting (1905-11) van Jan de Looy (Van Looy): een chic tehuis voor zeventien ongetrouwde of gescheiden dames zonder kinderen, boven de 55 en 'uit den deftigen stand'. Het geld kwam uit de nalatenschap van Elisabeth Otter-Knoll (1820-1900), en er waren conversatiezalen in Louis XVI- en Queen Anne-stijl. Sinds de jaren tachtig zijn het flats. Om de hoek omlijst het gebogen blok van Kraaij uit 1887 het Kastanjeplein, het enige wat over is van een plan om het rechte stratenpatroon wat meer allure te geven. De speld staat op de school en de kapel.\n\nLet op:\n- de spitse torentjes en de kapel aan het Eikenplein\n- het Otter-Knollgebouw aan de overkant van het plein\n- de gebogen wand van het Kastanjeplein, met leeuwenkoppen op de sluitstenen"
+    }
+   }
+  },
+  "sources_add": [
+   "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200607 (architect A.Th. Kraaij, 1887)"
+  ]
+ },
+ {
+  "id": "ysqjc3ow44pevarjnby1q1gd",
+  "title": "Cold War shelter in the Torontobrug cycle tunnel",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Behind the white tiles",
+    "new": "Behind the tiles",
+    "kind": "narrowed",
+    "source": "https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf",
+    "evidence": "'bevindt zich achter het tegelwerk in fietstunnel'; the colour of the tiles is not in a source."
+   },
+   {
+    "field": "body",
+    "old": "was planned at the height of the Cold War",
+    "new": "was planned during the Cold War",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Torontobrug",
+    "evidence": "'het is dan nog de Koude Oorlog met haar dreiging van een kernoorlog'; nothing about its height."
+   },
+   {
+    "field": "body",
+    "old": "the same generation as the better-known Vondelbunker",
+    "new": "the same generation as the Vondelbunker",
+    "kind": "narrowed",
+    "source": "https://arcam.nl/wp-content/uploads/2022/10/Fietsroute-langs-de-Openbare-Schuilplaatsen-van-Amsterdam-1.2.pdf",
+    "evidence": "Vondelbunker is Project 67, built 1967-1970; no source compares how well known the two are."
+   }
+  ],
+  "patch": {
+   "summary": "Behind the tiles of a 33 m cycle tunnel on the Weesperzijde hide five blast doors to a nuclear shelter for 1,200 people, built with the bridge in 1968–1970. In 1983 Freddy Heineken's kidnappers used the same tunnel to switch cars.",
+   "body": "The Torontobrug over the Amstel, opened on 23 October 1969 as part of a bridge complex by the city's Public Works department (engineering by G.F. Janssonius, design by Dick Slebos), was planned during the Cold War. In 1965, just as building could start, the city held it up again to fit a public shelter into the eastern end. It was built with the bridge in 1968–1970 under the code Project 68: a bunker for 1,200 people with extensive air filtering and a small generator of its own. The bridge got its name only in 1974, when the mayor of Toronto, Amsterdam's new sister city, renamed it.\n\nYou can ride straight through it. The short underpass (bridge 325) that carries cyclists from the Professor Tulpplein to the Weesperzijde, about 33.5 m long, is the shelter's front: behind the tiles of the tunnel are five atomic doors that give access to the shelter, which is still there. In peacetime the space was to be reached through a garage door on the Mauritsstraat side, which would be bricked up to make the shelter work; the three air outlets show in the wall next to it. It belongs to the same generation as the Vondelbunker under the Vondelpark bridge. From 1971 national policy changed, telling people to shelter at home and combining new public shelters with metro stations and car parks.\n\nOn 9 November 1983 the tunnel played a part in the kidnapping of Freddy Heineken and his driver Ab Doderer. The underpass was closed to cars, but one of the gang had removed the bollards beforehand, so the kidnappers could drive through and switch their captives into other getaway cars here. The shelter itself is closed; everything described can be seen from the street. The pin is approximate, on the tunnel.\n\nLook for:\n- the tiled walls of the cycle tunnel, with the blast doors hidden behind them\n- the garage door on the Mauritsstraat side, meant to be bricked up in wartime\n- the three air outlets in the wall",
+   "translations": {
+    "nl": {
+     "summary": "Achter de tegels van een fietstunnel van 33 meter aan de Weesperzijde zitten vijf atoomdeuren naar een schuilkelder voor 1200 mensen, in 1968-1970 samen met de brug gebouwd. In 1983 wisselden de ontvoerders van Freddy Heineken hier van auto.",
+     "body": "Je fietst er zo doorheen zonder het te merken. Het tunneltje (brug 325) dat fietsers van het Professor Tulpplein naar de Weesperzijde brengt, zo'n 33,5 meter lang, is de voorkant van een schuilkelder. Achter de tegels zitten vijf atoomdeuren, en de kelder erachter bestaat nog. In vredestijd moest je er binnenkomen via een garagedeur aan de kant van de Mauritsstraat; in oorlogstijd zou die worden dichtgemetseld. In de muur ernaast zie je de drie luchtuitlaten.\n\nDe Torontobrug over de Amstel, op 23 oktober 1969 geopend als deel van een bruggencomplex van Publieke Werken (techniek G.F. Janssonius, vormgeving Dick Slebos), werd bedacht tijdens de Koude Oorlog. In 1965 kon de bouw beginnen, maar de stad hield hem nog eens op om in de oostkant een openbare schuilplaats te stoppen. Die kwam er samen met de brug, in 1968-1970, onder de codenaam Project 68: een bunker voor 1200 mensen met flinke luchtfilters en een eigen kleine generator. Een naam kreeg de brug pas in 1974, toen de burgemeester van Toronto, de nieuwe zusterstad, hem doopte. De kelder is van dezelfde lichting als de Vondelbunker onder de brug in het Vondelpark. Vanaf 1971 veranderde het landelijke beleid: mensen moesten voortaan thuis schuilen, en nieuwe openbare schuilplaatsen werden gekoppeld aan metrostations en parkeergarages.\n\nOp 9 november 1983 speelde de tunnel mee in de ontvoering van Freddy Heineken en zijn chauffeur Ab Doderer. Auto's mochten er niet door, maar een van de bende had vooraf de paaltjes weggehaald. Zo konden de ontvoerders erdoor rijden en hun gevangenen hier overzetten in andere vluchtauto's. De kelder zelf is dicht; alles wat hier staat zie je vanaf de straat. De speld staat ongeveer op de tunnel.\n\nLet op:\n- de betegelde wanden van de fietstunnel, met de atoomdeuren erachter\n- de garagedeur aan de kant van de Mauritsstraat, die in oorlogstijd dichtgemetseld zou worden\n- de drie luchtuitlaten in de muur"
+    }
+   }
+  },
+  "sources_add": []
+ }
+]

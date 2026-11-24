@@ -1,0 +1,1700 @@
+[
+ {
+  "id": "fsirwijqqrxsq3zk2ugb2bkv",
+  "title": "A Porsche on rails and a bridge with two decks (Amstelpark)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "A minute's walk from the station lies the maze",
+    "new": "On the last stretch of the train's loop lies the maze",
+    "kind": "sourced",
+    "source": "https://www.amsteltrein.nl/",
+    "evidence": "Na zo'n vijftien minuten komt de trein via het grote grasveld en langs het Doolhof tenslotte weer terug bij het perron van het treinstation. [verifier: 'Close to the station' dropped, not stated in the source]"
+   },
+   {
+    "field": "nl.body",
+    "old": "Op een minuut lopen van het station ligt het doolhof",
+    "new": "Aan het laatste stuk van de ringlijn ligt het doolhof",
+    "kind": "sourced",
+    "source": "https://www.amsteltrein.nl/",
+    "evidence": "Na zo'n vijftien minuten komt de trein via het grote grasveld en langs het Doolhof tenslotte weer terug bij het perron van het treinstation. [verifier: 'Close to the station' dropped, not stated in the source]"
+   },
+   {
+    "field": "body",
+    "old": "- the rounded nose of the locomotive and the row of portholes along its side",
+    "new": "- the nose of the locomotive, shaped after the Porsche cars of the 1950s",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Amsteltrein",
+    "evidence": "Wiki: 'De vormgeving is ook duidelijk op de auto's van Porsche uit de jaren vijftig geinspireerd.' No source describes portholes on the loc now in service (amsteltrein.nl says the old loc's portholes were replaced by grilles); 'rounded' unsourced."
+   },
+   {
+    "field": "nl.body",
+    "old": "- de ronde neus van de locomotief en de rij patrijspoorten opzij",
+    "new": "- de neus van de locomotief, gevormd naar de Porsches uit de jaren vijftig",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Amsteltrein",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "The little train that circles the Amstelpark is a German invention. Between 1959 and 1973 the Sollinger Hütte in Uslar built eighteen locomotives for the miniature railways of German garden shows, with a Porsche engine and a nose modelled on the firm's cars of the 1950s. Nine survive. The 3.7 kilometres of track here, 600 millimetres wide as on those German lines, were laid for the Floriade. The Floriade's trains went back to Germany; in 1974 number 4, built in 1959, came from Hamburg and stayed. Since 2019 the work is done by number 3 of the same year, bought in 2018, restored in sky blue and white, and still largely original, engine included.\n\nOn the last stretch of the train's loop lies the maze: a square island with 330 metres of yew hedge, two metres high. The only way to it is a concrete footbridge of 1971 with two decks, by the architects Oyevaar, Stolle and Van Gool. You go in over the lower deck and come out over the upper one. In 1972 that direction was compulsory, to keep the crowds moving.\n\nThe train runs when the weather allows: weekends in March and October, Thursday to Sunday from April to September, about fifteen minutes for 4 euros, from station Rosarium by the main entrance. The maze is free and open in park hours.\n\nLook for:\n- the nose of the locomotive, shaped after the Porsche cars of the 1950s\n- the two decks of the bridge seen from the side, the lower one barely 20 centimetres above the water",
+   "translations": {
+    "nl": {
+     "body": "Het treintje dat door het Amstelpark rijdt, is een Duitse uitvinding. Tussen 1959 en 1973 bouwde de Sollinger Hütte in Uslar achttien locomotieven voor de parkspoorlijnen van Duitse tuinbouwtentoonstellingen, met een Porschemotor en een neus naar de auto's van dat merk uit de jaren vijftig. Negen bestaan er nog. Het spoor hier, 3,7 kilometer lang en 600 millimeter breed zoals op die Duitse lijntjes, is voor de Floriade gelegd. De treinen van de Floriade gingen terug naar Duitsland; in 1974 kwam nummer 4, bouwjaar 1959, uit Hamburg en bleef. Sinds 2019 rijdt nummer 3 uit hetzelfde jaar, in 2018 gekocht, opgeknapt in hemelsblauw met wit en nog grotendeels origineel, motor incluis.\n\nAan het laatste stuk van de ringlijn ligt het doolhof: een vierkant eiland met 330 meter taxushaag van twee meter hoog. Je komt er alleen via een betonnen voetbrug uit 1971 met twee dekken, van de architecten Oyevaar, Stolle en Van Gool. Je gaat over het benedendek naar binnen en komt over het bovendek terug. In 1972 was die looprichting verplicht, vanwege de drukte.\n\nDe trein rijdt als het weer het toelaat: in maart en oktober in het weekend, van april tot en met september van donderdag tot en met zondag, ongeveer een kwartier voor 4 euro, vanaf station Rosarium bij de hoofdingang. Het doolhof is gratis en open zolang het park open is.\n\nLet op:\n- de neus van de locomotief, gevormd naar de Porsches uit de jaren vijftig\n- de twee dekken van de brug van opzij, het onderste nog geen 20 centimeter boven het water"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "zsu0hyso8k4q0b13sp14xnwt",
+  "title": "Amstelpark",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The cable car, the Ferris wheel and the panorama gondolas went in 1972.",
+    "new": "The cable car, the panorama gondolas and the other temporary attractions went when the show closed.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Amstelpark",
+    "evidence": "De kabelbaan, panoramagondels en andere tijdelijke attracties verdwenen na afloop van de tentoonstelling. (Ferris wheel not named as removed) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "De kabelbaan, het reuzenrad en de panoramagondels verdwenen in 1972.",
+    "new": "Toen de Floriade sloot, gingen de kabelbaan, de panoramagondels en de overige tijdelijke attracties weg.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Amstelpark",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "Free and open daily in the daytime.",
+    "new": "Free and open daily in the daytime.",
+    "kind": "sourced",
+    "source": "https://www.amstelpark.info/info/",
+    "evidence": "Het Amstelpark is dagelijks geopend! Oktober t/m maart 07.00-18.00 uur. April t/m september 07.00-22.00 uur. (nl.wikipedia: 'als openbaar park bestaan')"
+   },
+   {
+    "field": "body",
+    "old": "- the view from the big pond to the country house Amstelrust",
+    "new": "- the views out to the country house Amstelrust, which the designers made part of the scenery",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/11b2ed20-9e20-476e-8b79-fdc84c1f2a85",
+    "evidence": "Het weidse polderlandschap, de Amsteloevers en buitenplaats Amstelrust zijn ingezet als visuele verlengstukken van het terrein. (No source for a view from the big pond) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- het uitzicht van de grote vijver naar buitenplaats Amstelrust",
+    "new": "- de doorkijkjes naar buitenplaats Amstelrust, die de ontwerpers bij het decor betrokken",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/11b2ed20-9e20-476e-8b79-fdc84c1f2a85",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "body": "The paths here are much too wide for a city park, and that is the giveaway. The Amstelpark was laid out as the main ground of the Floriade of 1972, a horticultural world's fair that drew about 4.3 million visitors between the end of March and 1 October. Nobody had made a plan for afterwards, so most gardens and pavilions were simply left, and it was mainly local residents who argued for keeping the park in its Floriade shape.\n\nThe idea is older: the city's expansion plan of the 1930s already reserved this spot for an open-air exhibition ground. The main layout of 1963 is probably by Jakoba Mulder; from 1965 the garden architect Egbert Mos worked it out. To make the planting look grown-up on opening day, trees were brought in years ahead, some from the Amsterdamse Bos. Dense belts of woodland separate garden rooms, so that you walk \"from chapter to chapter\", as one of the designers put it.\n\nThe cable car, the panorama gondolas and the other temporary attractions went when the show closed. From 1974 to 2001 two seals, Dolf and Else, lived in a basin here. Since 2022 the whole park is a municipal monument, and from 2025 the Rhododendron Valley is being replanted to the 1972 scheme.\n\nFree and open daily in the daytime.\n\nLook for:\n- the Roman garden with its row of columns, left from the international gardens of 1972\n- the Rhododendron Valley (more than 8,000 plants in 1972)\n- the Amsteltrein, the narrow-gauge train from the Floriade\n- the maze, the rose garden and the Glazen Huis (glass pavilion, now for exhibitions)\n- poplars planted in holes cut out of the main path\n- the views out to the country house Amstelrust, which the designers made part of the scenery\n- the Rozenoord monument by Ram Katzir near the Amsteldijk: empty chairs, one for each man known by name who was shot nearby in 1944 and 1945\n- the entrances that five artists were asked to design in the 2000s: three-metre neon letters PARK above the gate by the A10 (Wim Poppinga's \"Big Talk\"), a gate at De Borcht that opens like a pop-up book (Joost Conijn) and a red bridge on the Europaboulevard (Stefan Strauss)",
+   "translations": {
+    "nl": {
+     "body": "De paden zijn hier veel te breed voor een stadspark, en daaraan zie je wat het was. Het Amstelpark is aangelegd als hoofdterrein van de Floriade van 1972, een wereldtuinbouwtentoonstelling die tussen eind maart en 1 oktober ongeveer 4,3 miljoen bezoekers trok. Voor de tijd daarna lag er geen plan, dus de meeste tuinen en paviljoens bleven gewoon staan, en het waren vooral buurtbewoners die ervoor pleitten het park in zijn Floriadevorm te houden.\n\nHet idee is ouder: in het uitbreidingsplan uit de jaren dertig was deze plek al bestemd voor een tentoonstellingsterrein in de buitenlucht. De hoofdopzet uit 1963 is waarschijnlijk van Jakoba Mulder; vanaf 1965 werkte tuinarchitect Egbert Mos hem uit. Om het groen op de openingsdag volwassen te laten lijken, werden jaren van tevoren bomen aangevoerd, een deel uit het Amsterdamse Bos. Dichte bosranden scheiden de tuinkamers van elkaar, zodat je 'van hoofdstuk naar hoofdstuk' loopt, zoals een van de ontwerpers het zei.\n\nToen de Floriade sloot, gingen de kabelbaan, de panoramagondels en de overige tijdelijke attracties weg. Van 1974 tot 2001 woonden hier in een bassin de zeehonden Dolf en Else. Sinds 2022 is het hele park gemeentelijk monument, en vanaf 2025 wordt de Rododendronvallei opnieuw beplant naar het schema van 1972.\n\nGratis en elke dag overdag open.\n\nLet op:\n- de Romeinse tuin met zijn rij zuilen, over van de internationale tuinen van 1972\n- de Rododendronvallei (in 1972 meer dan 8.000 planten)\n- de Amsteltrein, het smalspoortreintje van de Floriade\n- het doolhof, het rosarium en het Glazen Huis (nu voor tentoonstellingen)\n- populieren in gaten die uit het hoofdpad zijn gesneden\n- de doorkijkjes naar buitenplaats Amstelrust, die de ontwerpers bij het decor betrokken\n- het monument Rozenoord van Ram Katzir bij de Amsteldijk: lege stoelen, één voor elke man van wie de naam bekend is en die hier vlakbij in 1944 en 1945 is doodgeschoten\n- de ingangen die vijf kunstenaars in de jaren nul mochten ontwerpen: drie meter hoge neonletters PARK boven het hek bij de A10 ('Big Talk' van Wim Poppinga), een hek bij De Borcht dat opengaat als een pop-upboek (Joost Conijn) en een rode brug aan de Europaboulevard (Stefan Strauss)"
+    }
+   }
+  },
+  "sources_add": [
+   "https://www.amstelpark.info/info/"
+  ]
+ },
+ {
+  "id": "k4m5kvbjxuo8mekt50fj7vpl",
+  "title": "Amstelrust",
+  "changes": [
+   {
+    "field": "attributes.listed",
+    "old": "2006",
+    "new": "2007",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/515154",
+    "evidence": "Inschrijving register 22 mei 2007 (same date on 515155-515157 and on nl.wikipedia Toegangshek Amstelrust); no source gives 2006 [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "attributes": {
+    "listed": 2007
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ovqk7m88yn8u2p279t32fxhf",
+  "title": "Kalfjeslaan: the lane where Amsterdam stops",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "In the Hunger Winter every tree in it was cut for fuel.",
+    "new": "In the Hunger Winter its trees were felled illegally until it stood bare.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Kalfjeslaan",
+    "evidence": "De boomrijke Kalfjeslaan veranderde in de hongerwinter door illegale kap (houtroof) in een kale polderweg. ('every tree' and 'for fuel' not stated) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.summary",
+    "old": "In de Hongerwinter is elke boom uit de laan opgestookt.",
+    "new": "In de Hongerwinter werden de bomen illegaal gekapt, tot de laan kaal was.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Kalfjeslaan",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "In the Hunger Winter of 1944–1945 people cut down every tree in the lane for fuel, leaving a bare polder road; it was replanted after the war.",
+    "new": "In the Hunger Winter of 1944–1945 its trees were cut down illegally for their wood, leaving a bare polder road; the row was replanted after the war.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Kalfjeslaan",
+    "evidence": "door illegale kap (houtroof) in een kale polderweg. Na de oorlog is de bomenrij hersteld. [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "In de Hongerwinter van 1944-1945 is elke boom uit de laan gekapt voor de kachel, tot er een kale polderweg over was; na de oorlog is er opnieuw geplant.",
+    "new": "In de Hongerwinter van 1944-1945 werden de bomen illegaal omgehakt om het hout, tot er een kale polderweg over was; na de oorlog is de bomenrij opnieuw geplant.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Kalfjeslaan",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "summary": "A country lane on sixteenth-century maps, the city limit since 1921. The land drops on its south side, where a lake dug out for peat was drained in 1892. In the Hunger Winter its trees were felled illegally until it stood bare.",
+   "translations": {
+    "nl": {
+     "summary": "Een landweg die al op zestiende-eeuwse kaarten staat en sinds 1921 de stadsgrens is. Aan de zuidkant ligt het land lager: daar is in 1892 een veenplas drooggelegd. In de Hongerwinter werden de bomen illegaal gekapt, tot de laan kaal was.",
+     "body": "Amsterdam houdt op bij een rij bomen. De Kalfjeslaan loopt vrijwel recht van de Amstel naar de Amstelveenseweg, en de zuidelijke kade is de gemeentegrens: de laan is Amsterdam, de sloot ernaast Amstelveen.\n\nDe laan is veel ouder dan alles wat er ten noorden van ligt. Op zestiende-eeuwse kaarten staat hij als 't Cleine Loopvelt, de weg tussen de rivier en de weg naar Amstelveen. De huidige naam komt van een herberg aan de Amstelkant, in 1670 geopend door ene Jan Claesz Kalf. De herberg is in 1967 afgebrand en gesloopt.\n\nKijk naar het zuiden en het land ligt lager. Daar lag een plas, ontstaan door het slagturven, die de gemeente Nieuwer-Amstel in 1892 liet droogleggen. In 1921 annexeerde Amsterdam het land tot hier, en sindsdien ligt de grens op deze plek. In de Hongerwinter van 1944-1945 werden de bomen illegaal omgehakt om het hout, tot er een kale polderweg over was; na de oorlog is de bomenrij opnieuw geplant.\n\nNu is de laan voor wandelaars en fietsers, met alleen aan de twee uiteinden auto's.\n\nLet op:\n- het hoogteverschil met het land aan de zuidkant\n- de hekken van de Aemstel Schooltuin (2014) van ontwerper Tjep: lichtgroen, met de laser uit staal gesneden, vol planten, dieren, tuingereedschap en één heel grote sleutel\n- het parkje op de plek van de herberg, te bereiken over twee houten voetbruggen uit 2013. Op de bomen is schriftmos gevonden, dat daar rond 1850 ook al is vastgesteld\n- 's zomers het voet- en fietsveer over de Amstel"
+    }
+   },
+   "body": "Amsterdam ends at a row of trees. The Kalfjeslaan runs almost straight from the Amstel to the Amstelveenseweg, and its south bank is the municipal boundary: the lane is Amsterdam, the ditch beside it Amstelveen.\n\nIt is far older than anything north of it. Sixteenth-century maps show it as 't Cleine Loopvelt, the path between the river and the road to Amstelveen. The present name comes from an inn at the Amstel end, opened in 1670 by one Jan Claesz Kalf. The inn burned in 1967 and was pulled down.\n\nLook south and the ground lies lower. That was a lake, dug out for peat, which the municipality of Nieuwer-Amstel had drained in 1892. In 1921 Amsterdam annexed the land up to here, and the border has not moved since. In the Hunger Winter of 1944–1945 its trees were cut down illegally for their wood, leaving a bare polder road; the row was replanted after the war.\n\nToday it is for walkers and cyclists, with cars only at the two ends.\n\nLook for:\n- the drop in the land on the south side\n- the gates of the Aemstel Schooltuin (school gardens, 2014) by the designer Tjep: pale green laser-cut steel full of plants, animals, garden tools and one very large key\n- the little park on the site of the inn, reached by two wooden footbridges of 2013. Script lichen, recorded there about 1850, has been found on its trees again\n- in summer, the foot and cycle ferry across the Amstel"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ixa85skgf82r0og97is672cp",
+  "title": "Monument Rozenoord: 106 empty chairs",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A lawn of empty garden chairs just inside",
+    "new": "A lawn of empty chairs just inside",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord",
+    "evidence": "106 lege stoelen op betonnen sokkels (no source calls them garden chairs)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een grasveld met lege tuinstoelen",
+    "new": "Een grasveld met lege stoelen",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "stand 106 empty garden chairs",
+    "new": "stand 106 empty chairs",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord",
+    "evidence": "as summary"
+   },
+   {
+    "field": "nl.body",
+    "old": "staan 106 lege tuinstoelen",
+    "new": "staan 106 lege stoelen",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord",
+    "evidence": "as summary"
+   },
+   {
+    "field": "body",
+    "old": "most of them from the resistance, in reprisals.",
+    "new": "most of them from the resistance, mostly in reprisals.",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1466/amsterdam-fusilladeplaats-rozenoord",
+    "evidence": "Most dates are given as represailles, but 31 Jan 1945 was a punishment for robberies and the reason for 18 Sept 1944 is unknown (nl.wikipedia Fusilladeplaats Rozenoord)"
+   },
+   {
+    "field": "nl.body",
+    "old": "de meesten uit het verzet, als represaille.",
+    "new": "de meesten uit het verzet, meestal als represaille.",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1466/amsterdam-fusilladeplaats-rozenoord",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "A lawn of empty chairs just inside the Amstelpark, one for every man known by name who was shot on the Amsteldijk between September 1944 and April 1945. The first stone on the site, put up in 1973, read only 'Spring 1945'.",
+   "translations": {
+    "nl": {
+     "summary": "Een grasveld met lege stoelen net binnen het Amstelpark, één voor elke man van wie de naam bekend is en die tussen september 1944 en april 1945 aan de Amsteldijk is gefusilleerd. Op de eerste steen op de plek zelf, uit 1973, stond alleen 'Voorjaar 1945'.",
+     "body": "Net binnen het Amstelpark staan 106 lege stoelen, kriskras door elkaar, alsof de mensen die erop zaten net zijn weggelopen. Elke stoel staat op een betonnen plaat met een naam, een geboortedatum en de dag waarop de man is doodgeschoten.\n\nDat gebeurde 650 meter noordelijker, aan de Amsteldijk, naast wat de rozenkwekerij en theetuin Rozenoord was geweest. Op negen dagen tussen 18 september 1944 en 14 april 1945 fusilleerde de bezetter daar ongeveer 140 mannen, de meesten uit het verzet, meestal als represaille. Alleen al op 8 maart 1945, na de aanslag op SS-chef Rauter, werden 53 gevangenen doodgeschoten. Het bevel was voor 75; in Amsterdam waren maar 53 gevangenen voorhanden die voor executie waren aangewezen.\n\nOp de plek zelf kwam eerst een vlaggenmast, pas in 1973 een steen met 'Voorjaar 1945'. Buurtbewoners, een dispuut en Het Parool, dat hier een van zijn voormannen verloor, wilden dat de doden een naam kregen. Het monument van Ram Katzir is op 1 mei 2015 onthuld met 100 stoelen; in 2018 kwamen er zes bij, toen er meer namen waren gevonden. De herdenking op 4 mei wordt hier gehouden.\n\nHet park is overdag open; de ingang aan de Amsteldijk is het dichtstbij.\n\nLet op:\n- drie modellen stoel: aan het model zie je hoe oud de man was\n- de plaat zonder stoel, voor de ongeveer veertig van wie de naam nog niet bekend is\n- aan de Amsteldijk bij het Dr. C.W. Ittmannpad: de steen en de vlaggenmast van de fusilladeplaats, met naamplaten in de grond. Het pad heet naar een arts die er is doodgeschoten"
+    }
+   },
+   "body": "Just inside the Amstelpark stand 106 empty chairs, set down every which way, as if the people who sat on them had just walked off. Each stands on a concrete slab with a name, a date of birth and the date the man was shot.\n\nThey were shot 650 metres north of here, on the Amsteldijk, beside the former rose nursery and tea garden Rozenoord. On nine days between 18 September 1944 and 14 April 1945 the occupier executed about 140 men there, most of them from the resistance, mostly in reprisals. On 8 March 1945 alone, after the attack on the SS chief Rauter, 53 prisoners were shot. The order had been for 75; only 53 prisoners marked for execution were on hand in Amsterdam.\n\nAt the site a flagpole came first, a stone only in 1973, reading \"Voorjaar 1945\" (spring 1945). Neighbours, a debating society and the newspaper Het Parool, which lost one of its leading men here, wanted the dead named. Ram Katzir's monument was unveiled on 1 May 2015 with 100 chairs; six were added in 2018, when more names were found. The 4 May commemoration is held here.\n\nThe park is open in the daytime; the Amsteldijk entrance is nearest.\n\nLook for:\n- three models of chair: the model tells you the age of the man\n- the slab without a chair, for the forty or so who are still unnamed\n- on the Amsteldijk at the Dr. C.W. Ittmannpad: the stone and flagpole of the execution site, with name plaques in the ground. The path is named after a doctor shot there"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "ujj06bjj5opk42ye8zh7rc4r",
+  "title": "Monument for the hidden child and the protector",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "keeps an arm round her shoulders.",
+    "new": "holds her in his arm.",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer",
+    "evidence": "een bronzen beeld van een mannenfiguur die een meisje omarmt. Hij houdt haar koffer in de hand. (shoulders not stated)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "houdt een arm om haar schouders.",
+    "new": "slaat een arm om haar heen.",
+    "kind": "narrowed",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "A bronze man in a long coat holds a suitcase",
+    "new": "A bronze man holds a suitcase",
+    "kind": "cut",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer",
+    "evidence": "Sources describe a man embracing a girl and holding her suitcase; no coat mentioned"
+   },
+   {
+    "field": "nl.body",
+    "old": "Een bronzen man in een lange jas heeft een koffer",
+    "new": "Een bronzen man heeft een koffer",
+    "kind": "cut",
+    "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "Since Buitenveldert was built, a large Jewish community has lived in the suburb, and the Kastelenstraat just to the north has its schools, synagogues and kosher shops.",
+    "new": "Many Jewish families moved to the suburb while it was being built; Jewish schools and synagogues followed, and kosher shops cluster around the nearby Kastelenstraat.",
+    "kind": "sourced",
+    "source": "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2026/dc-2026-10587/1/bijlage/dc-2026-10587.pdf",
+    "evidence": "p. 62-63: 'Tijdens de periode waarin Buitenveldert werd gebouwd, trokken relatief veel Joodse gezinnen naar de wijk' ... 'de koosjere winkels en restaurants die zich met name rond de Kastelenstaat bevinden' (schools and synagogues are not placed on the Kastelenstraat) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "Sinds Buitenveldert is gebouwd, woont in de wijk een grote joodse gemeenschap, en de Kastelenstraat, even naar het noorden, heeft haar scholen, synagogen en koosjere winkels.",
+    "new": "Toen Buitenveldert werd gebouwd, kwamen er relatief veel joodse gezinnen wonen; joodse scholen en synagogen volgden, en rond de Kastelenstraat in de buurt zitten koosjere winkels.",
+    "kind": "sourced",
+    "source": "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2026/dc-2026-10587/1/bijlage/dc-2026-10587.pdf",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "\n- the difference in scale: he fills his coat, she barely reaches his chest",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source describes the figures' sizes or a coat"
+   },
+   {
+    "field": "nl.body",
+    "old": "\n- het verschil in maat: hij vult zijn jas, zij komt amper tot zijn borst",
+    "new": "",
+    "kind": "cut",
+    "source": "",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "A bronze man carries a girl's suitcase and holds her in his arm. The memorial is for the Jewish children hidden in the war and for the people who took them in. The sculptor had been a hidden child herself.",
+   "translations": {
+    "nl": {
+     "summary": "Een bronzen man draagt de koffer van een meisje en slaat een arm om haar heen. Het gedenkteken is voor de joodse kinderen die in de oorlog ondergedoken zaten en voor wie hen in huis nam. De beeldhouwster was zelf een onderduikkind.",
+     "body": "Een bronzen man heeft een koffer in zijn hand. Het is niet de zijne. Hij is van het kleine meisje dat hij met zijn andere arm tegen zich aan houdt.\n\nHet monument herinnert aan de kinderen die in de Tweede Wereldoorlog ondergedoken zaten en eert wie hen beschermde, de Amsterdammers die met gevaar voor eigen leven joodse kinderen in huis namen. Een stichting die daarvoor was opgericht liet het maken, en burgemeester Schelto Patijn onthulde het op 11 mei 2000.\n\nBeeldhouwster Naomi Elburg (1943-2007) kende het onderwerp van binnenuit. Ze is in de oorlog geboren en moest zelf onderduiken, en ze heeft meer gedenktekens over het ondergedoken kind gemaakt.\n\nDe figuren staan op een bestraat pleintje naast het joodse Maimonides Lyceum. Toen Buitenveldert werd gebouwd, kwamen er relatief veel joodse gezinnen wonen; joodse scholen en synagogen volgden, en rond de Kastelenstraat in de buurt zitten koosjere winkels.\n\nLet op:\n- het plaatje op de stenen sokkel, met de opdracht en de datum van de onthulling"
+    }
+   },
+   "body": "A bronze man holds a suitcase in one hand. It is not his. It belongs to the small girl he has drawn against him with his other arm.\n\nThe monument remembers the children who were hidden during the Second World War and honours the people who protected them, the Amsterdammers who took Jewish children into their homes at the risk of their own lives. A foundation set up for the purpose had it made, and mayor Schelto Patijn unveiled it on 11 May 2000.\n\nThe sculptor, Naomi Elburg (1943–2007), knew the subject from the inside. She was born in the war and had to be hidden herself, and she made several memorials about hidden children.\n\nThe figures stand on a small paved square beside the Jewish secondary school Maimonides. Many Jewish families moved to the suburb while it was being built; Jewish schools and synagogues followed, and kosher shops cluster around the nearby Kastelenstraat.\n\nLook for:\n- the plaque on the stone plinth, with the dedication and the date of the unveiling"
+  },
+  "sources_add": [
+   "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2026/dc-2026-10587/1/bijlage/dc-2026-10587.pdf"
+  ]
+ },
+ {
+  "id": "unkm524u3n6gxuf67o3qcs0s",
+  "title": "Riekermolen",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The statue is here because he walked and drew along this stretch of the Amstel.",
+    "new": "The statue is here because he made many drawings along the banks of the Amstel.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Riekermolen",
+    "evidence": "als herinnering aan het feit dat de schilder veel tekeningen heeft gemaakt langs de oevers van deze rivier"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het beeld staat hier omdat hij langs dit stuk Amstel wandelde en tekende.",
+    "new": "Het beeld staat hier omdat hij langs de oevers van de Amstel veel tekeningen maakte.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Riekermolen",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "The mill is not open; you see it from the dike and the grass around it.",
+    "new": "You see it from the dike and the grass around it.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source says whether the mill can be visited"
+   },
+   {
+    "field": "nl.body",
+    "old": "De molen is niet te bezoeken; je ziet hem vanaf de dijk en het gras eromheen.",
+    "new": "Je ziet hem vanaf de dijk en het gras eromheen.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- the thatched eight-sided body; the cap is turned from inside, so there is no tail pole\n- Rembrandt's statue on the Amstel side\n- the sabbath pole, a small green post in the verge",
+    "new": "- the thatched eight-sided body\n- Rembrandt's statue beside the mill\n- the sabbath pole, just north of the Kalfjeslaan",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/685",
+    "evidence": "Register: 'Achtkante rieten poldermolen (1636)'. Inside winding / no tail pole, the statue on the Amstel side and the pole being small, green and in the verge are in no source (nl.wikipedia: statue 'naast de molen'; jck.nl: pole 'nabij de Riekermolen aan de Amstel, net boven de Kalfjeslaan') [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de achtkante rieten romp; de kap wordt van binnenuit gedraaid, dus er is geen staart\n- het beeld van Rembrandt aan de Amstelkant\n- de sjabbatpaal, een klein groen paaltje in de berm",
+    "new": "- de achtkante rieten romp\n- het beeld van Rembrandt naast de molen\n- de sjabbatpaal, net ten noorden van de Kalfjeslaan",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/685",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "body": "This picture-postcard windmill is a transplant. The Riekermolen was built in 1636 to drain the Riekerpolder south of the village of Sloten, on the other side of town. In 1956 that polder was dug away to enlarge the Nieuwe Meer lake; the mill was taken down and put up again here on the Amstel in 1961. In 1884 a newspaper reported on a miller who had been born in the mill and had kept it for sixty years, after his father's thirty.\n\nNext to it is a bronze Rembrandt by Han Wezelaar, shown drawing the landscape and unveiled in 1969, three hundred years after the painter's death. The statue is here because he made many drawings along the banks of the Amstel.\n\nSomething much less known stands close by, just north of the Kalfjeslaan: a sjabbatpaal (sabbath pole). Observant Jews may not carry things on the sabbath outside an enclosed area. When the city walls went, Amsterdam's Jews marked a symbolic boundary (eruv), first with chains across the bridges in 1863 and 1864, and after the city limits moved in 1906 with poles that held the chains. The occupier destroyed most of them. The eruv was given up in July 1972 because new roads had made the boundary impossible to check; since March 2008 a new one runs around Amstelveen and much of Amsterdam.\n\nYou see it from the dike and the grass around it.\n\nLook for:\n- the thatched eight-sided body\n- Rembrandt's statue beside the mill\n- the sabbath pole, just north of the Kalfjeslaan\n- the lane Kalfjeslaan just to the south, the city limit",
+   "translations": {
+    "nl": {
+     "body": "Deze ansichtkaartmolen komt van elders. De Riekermolen is in 1636 gebouwd om de Riekerpolder droog te houden, ten zuiden van het dorp Sloten, aan de andere kant van de stad. In 1956 werd die polder afgegraven om de Nieuwe Meer groter te maken; de molen ging uit elkaar en werd in 1961 hier aan de Amstel weer opgebouwd. In 1884 schreef een krant over een molenaar die in de molen geboren was en hem zestig jaar had bediend, na dertig jaar van zijn vader.\n\nErnaast staat een bronzen Rembrandt van Han Wezelaar, die het landschap tekent, onthuld in 1969, driehonderd jaar na de dood van de schilder. Het beeld staat hier omdat hij langs de oevers van de Amstel veel tekeningen maakte.\n\nVlakbij, net ten noorden van de Kalfjeslaan, staat iets wat veel minder mensen kennen: een sjabbatpaal. Vrome joden mogen op sjabbat buiten een afgesloten gebied niets dragen. Toen de stadsmuren verdwenen, gaven de Amsterdamse joden een symbolische grens (eroev) aan, eerst met kettingen over de bruggen in 1863 en 1864, en nadat de stadsgrens in 1906 was opgeschoven met palen waarin de kettingen zaten. De bezetter heeft de meeste gesloopt. In juli 1972 is de eroev opgeheven, omdat de grens door alle nieuwe wegen niet meer te controleren was; sinds maart 2008 loopt er een nieuwe om Amstelveen en een groot deel van Amsterdam.\n\nJe ziet hem vanaf de dijk en het gras eromheen.\n\nLet op:\n- de achtkante rieten romp\n- het beeld van Rembrandt naast de molen\n- de sjabbatpaal, net ten noorden van de Kalfjeslaan\n- de Kalfjeslaan net ten zuiden, de stadsgrens"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "vaxbujhacrcwivh5so5cjm8c",
+  "title": "Rotterdamsepad: the motorway that got no further than a sand dike",
+  "changes": [
+   {
+    "field": "body",
+    "old": "\n- the street sign, combining Amsterdam's blue with Rotterdam's green",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Rotterdamsepad",
+    "evidence": "The cited article (and the other sources) say nothing about the street sign's colours"
+   },
+   {
+    "field": "nl.body",
+    "old": "\n- het straatnaambord, in het blauw van Amsterdam en het groen van Rotterdam",
+    "new": "",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Rotterdamsepad",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- Weenahof and Spangenhof, named after the Hof van Wena and Spangen castle",
+    "new": "- Weenahof and Spangenhof, named after castles and manors near Rotterdam",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Rotterdamsepad",
+    "evidence": "straten etc. vernoemd naar kastelen, landhuizen e.d. nabij Rotterdam, zoals Spangenhof en Weenahof (the specific namesakes are not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- Weenahof en Spangenhof, genoemd naar het Hof van Wena en kasteel Spangen",
+    "new": "- Weenahof en Spangenhof, genoemd naar kastelen en landhuizen bij Rotterdam",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Rotterdamsepad",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "A quiet footpath between blocks of flats is all that became of the motorway from Amsterdam to Rotterdam.\n\nRijksweg 3 was in the national road plan of 1932 and in the city's expansion plan: a road by way of Gouda, straight through what is now the Green Heart. In Buitenveldert its route lay between the Van Leijenberghlaan and the Van Heenvlietlaan, with a fork at the north end towards the Beethovenstraat and the Diepenbrockstraat. Halfway through the 1960s, while the suburb went up on both sides, the builders raised a bank of sand 120 metres wide for it. Then the plan was dropped, in the 1970s. The strip stayed reserved into the 1980s. At the end of that decade the sand was dug away and the gap filled in: housing and shops in the north, and in the south the Jewish care centre Beth Shalom, opened in 1991.\n\nThe path was named in 1990, after the city the road never reached, and the courts beside it after castles and manors near Rotterdam.\n\nLook for:\n- bridge 1801: its building drawings say it crosses a drainage ditch of \"the former Rijksweg 3\"\n- the two graphic sculptures of 1989 that make the bridge a gate\n- Weenahof and Spangenhof, named after castles and manors near Rotterdam\n- how much newer the buildings in this strip are than those on either side",
+   "translations": {
+    "nl": {
+     "body": "Een rustig voetpad tussen de flats is alles wat er van de snelweg van Amsterdam naar Rotterdam terecht is gekomen.\n\nRijksweg 3 stond in het Rijkswegenplan van 1932 en in het uitbreidingsplan van de stad: een weg via Gouda, dwars door wat nu het Groene Hart heet. In Buitenveldert lag het tracé tussen de Van Leijenberghlaan en de Van Heenvlietlaan, met aan de noordkant een vertakking naar de Beethovenstraat en de Diepenbrockstraat. Halverwege de jaren zestig, terwijl de wijk aan weerskanten verrees, werd er een zandlichaam van 120 meter breed voor opgeworpen. In de jaren zeventig ging het plan van tafel. De strook bleef tot in de jaren tachtig gereserveerd. Aan het eind van dat decennium is het zand afgegraven en het gat gevuld: woningen en winkels in het noorden, en in het zuiden het joodse zorgcentrum Beth Shalom, geopend in 1991.\n\nHet pad kreeg in 1990 zijn naam, naar de stad die de weg nooit heeft bereikt, en de hoven ernaast heten naar kastelen en landhuizen bij Rotterdam.\n\nLet op:\n- brug 1801: volgens de bouwtekeningen ligt hij over een afwateringstocht van 'de voormalige Rijksweg 3'\n- de twee grafische objecten uit 1989 die van de brug een poort maken\n- Weenahof en Spangenhof, genoemd naar kastelen en landhuizen bij Rotterdam\n- hoeveel jonger de gebouwen in deze strook zijn dan die aan weerskanten"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bgg2tsmkw34eigl2v4wneqzz",
+  "title": "Two bungalows on the southern edge (Europaboulevard 55 and Daelenbroek 1)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "architect of churches and of the Nederlandsche Bank,",
+    "new": "architect of churches and of the bank buildings on the Frederiksplein and the Vijzelstraat,",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/81b03d42-d52e-427e-b53b-7d3cc7abd39f",
+    "evidence": "spraakmakende kerkgebouwen ... de vooral om hun stedenbouwkundige situering gewraakte bankgebouwen aan het Frederiksplein en de Vijzelstraat (the register does not name the Nederlandsche Bank) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "architect van kerken en van De Nederlandsche Bank,",
+    "new": "architect van kerken en van de bankgebouwen aan het Frederiksplein en de Vijzelstraat,",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/81b03d42-d52e-427e-b53b-7d3cc7abd39f",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "Daelenbroek 1, a kilometre to the west,",
+    "new": "Daelenbroek 1, about 700 metres to the west,",
+    "kind": "sourced",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Daelenbroek%201%20Amsterdam",
+    "evidence": "PDOK address points: Europaboulevard 55 at 52.32442, 4.89064; Daelenbroek 1 at 52.32326, 4.88024; about 0.72 km apart [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "Daelenbroek 1, een kilometer naar het westen,",
+    "new": "Daelenbroek 1, zo'n 700 meter naar het westen,",
+    "kind": "sourced",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Daelenbroek%201%20Amsterdam",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "Both are private homes.",
+    "new": "Both were built as homes.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/8dadcbcb-60c8-4946-82f3-e2967f66c91f",
+    "evidence": "Register gives original function 'wonen' for both; no source on their present use"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het zijn allebei woonhuizen.",
+    "new": "Ze zijn allebei als woonhuis gebouwd.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/8dadcbcb-60c8-4946-82f3-e2967f66c91f",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "The plan for Buitenveldert said garage. The client of Europaboulevard 55 had a laboratory and a study put there instead, with a sliding glass wall to the living room. Marius Duintjer, professor at Delft and architect of churches and of the bank buildings on the Frederiksplein and the Vijzelstraat, drew the house in 1962 on a square of 15 by 15 metres. It stands with six other detached houses in a loose enclave just outside the strict grid of the suburb, right by the roundabout at the end of the Europaboulevard, so it is the one everybody passes.\n\nDaelenbroek 1, about 700 metres to the west, is by W.J. Klein (1961), an architect about whom little is known, although he built some ten houses in Buitenveldert, his own on the De Cuserstraat among them. The house is a cluster of low pavilions around a taller living room. It turns a closed face to the street and opens up in glass at the back.\n\nBoth were built as homes. The bungalow as a type is slowly disappearing here, because owners replace them with houses of two storeys or more.\n\nLook for:\n- Europaboulevard 55: four thick concrete beams sticking far out over the terrace on the east side\n- Europaboulevard 55: bright red brick, panels of dark precast concrete under the windows, a south front almost entirely of glass\n- Daelenbroek 1: the chimney and middle of the street front clad in Norwegian slate\n- Daelenbroek 1: the heavy white roof edges that mark each pavilion\n- Daelenbroek 1: the glass garden side, seen across the water from the path 't Kleine Loopveld",
+   "translations": {
+    "nl": {
+     "body": "In het plan voor Buitenveldert stond hier een garage. De opdrachtgever van Europaboulevard 55 liet er een laboratorium en een studeerkamer van maken, met een schuifpui naar de woonkamer. Marius Duintjer, hoogleraar in Delft en architect van kerken en van de bankgebouwen aan het Frederiksplein en de Vijzelstraat, tekende het huis in 1962 op een vierkant van 15 bij 15 meter. Het staat met zes andere vrijstaande huizen in een losse enclave, net buiten het strakke raster van de wijk en vlak bij de rotonde aan het eind van de Europaboulevard. Daardoor komt iedereen erlangs.\n\nDaelenbroek 1, zo'n 700 meter naar het westen, is van W.J. Klein (1961), een architect over wie weinig bekend is, al bouwde hij een stuk of tien huizen in Buitenveldert, waaronder zijn eigen huis aan de De Cuserstraat. Het huis is een groepje lage paviljoens rond een hogere woonkamer. Naar de straat is het gesloten, aan de achterkant is het bijna helemaal van glas.\n\nZe zijn allebei als woonhuis gebouwd. De bungalow wordt hier langzaam zeldzaam, omdat eigenaren ze vervangen door huizen van twee of meer verdiepingen.\n\nLet op:\n- Europaboulevard 55: vier dikke betonbalken die aan de oostkant ver over het terras uitsteken\n- Europaboulevard 55: helderrode baksteen, donkere betonplaten onder de ramen, een zuidgevel die bijna helemaal van glas is\n- Daelenbroek 1: de schoorsteen en het midden van de straatgevel, bekleed met Noorse leisteen\n- Daelenbroek 1: de zware witte dakranden die elk paviljoen aftekenen\n- Daelenbroek 1: de glazen tuinkant, te zien over het water vanaf het pad 't Kleine Loopveld"
+    }
+   }
+  },
+  "sources_add": [
+   "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Daelenbroek%201%20Amsterdam"
+  ]
+ },
+ {
+  "id": "uzln7ufcjv405xoxbwlrngt0",
+  "title": "Andrieskerk",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A church with hardly a right angle in it: its architect",
+    "new": "A church whose architect wanted to get away from straight lines and rectangular windows:",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Andrieskerk_(Amsterdam)",
+    "evidence": "hij wilde af van rechte lijnen en rechthoekige vensters. The city's register text notes the tower and church hall stand at about 90 degrees to each other, so 'hardly a right angle' overstates."
+   },
+   {
+    "field": "summary",
+    "old": "took crystals as his model and built on a plan of hexagons",
+    "new": "he took crystals as his model and built on a plan of hexagons",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Andrieskerk_(Amsterdam)",
+    "evidence": "grammar follow-up of the previous change"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Een kerk waar bijna geen rechte hoek in zit: de architect nam",
+    "new": "Een kerk van een architect die af wilde van rechte lijnen en rechthoekige ramen: hij nam",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Andrieskerk_(Amsterdam)",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "a movement for religious renewal founded in Stuttgart in 1922 and close to Rudolf Steiner's anthroposophy;",
+    "new": "a movement for religious renewal founded in Switzerland in 1922 with help from Rudolf Steiner, the founder of anthroposophy, and based in Stuttgart;",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "City register text (2013): 'De Christengemeenschap werd in 1922 gesticht in Zwitserland ... Zij werden daarin bijgestaan door Rudolf Steiner, grondlegger van de antroposofie.' Congregation site: 'gesticht in 1922 en is gevestigd in Stuttgart'. [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "een beweging tot religieuze vernieuwing die in 1922 in Stuttgart is gesticht en dicht bij de antroposofie van Rudolf Steiner staat;",
+    "new": "een beweging tot religieuze vernieuwing die in 1922 in Zwitserland is opgericht met hulp van Rudolf Steiner, de grondlegger van de antroposofie, en die in Stuttgart zetelt;",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "The plan is based on hexagons, the walls fold, and the roof",
+    "new": "The plan is based on hexagons, the blocks rise to different heights under roofs of sloping planes, and the roof",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "de groepering van diverse bouwmassa's, van verschillende hoogte, die zijn opgetrokken in een geelbeige baksteen en een samengesteld dak van schuine vlakken hebben (no source for folding walls) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "De plattegrond gaat uit van zeshoeken, de muren vouwen, en het dak",
+    "new": "De plattegrond gaat uit van zeshoeken, de bouwdelen zijn verschillend hoog en hebben daken van schuine vlakken, en het dak",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "- the folded brick walls, with no two the same\n- the windows cut on a slant instead of square",
+    "new": "- the yellow-beige brick blocks of different heights\n- the windows cut on a slant instead of square",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "geelbeige baksteen ... bouwmassa's, van verschillende hoogte; vensters: 'asymmetrische, trapeziumvormige vensters van verschillende grootte' [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de gevouwen bakstenen muren, waarvan er geen twee gelijk zijn",
+    "new": "- de bouwdelen van geelbeige baksteen, van verschillende hoogte",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "- the sheltered entrance, tucked in under the building",
+    "new": "- the entrance in the low link between the church and the tower, under a concrete fanlight of small hexagonal windows",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "In het verbindingslid bevindt zich een ingangsportaal met de hoofdingang ... met een betonnen bovenlicht met een symmetrisch patroon van diverse zeshoekige, kleine vensters (no source for an entrance tucked under the building) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de beschutte ingang, weggestopt onder het gebouw",
+    "new": "- de ingang in het lage tussenstuk tussen kerkzaal en toren, onder een betonnen bovenlicht met kleine zeshoekige ramen",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "attributes.built",
+    "old": "1969–1971",
+    "new": "1970–1971",
+    "kind": "sourced",
+    "source": "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf",
+    "evidence": "Op 6 maart 1970 werd de eerste paal geslagen en op 11 oktober 1971 vond de ingebruikname plaats (1969 is the year the design was explained) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "summary": "A church whose architect wanted to get away from straight lines and rectangular windows: he took crystals as his model and built on a plan of hexagons, under a copper roof meant to turn green. Home of the Christengemeenschap, the church that grew out of anthroposophy.",
+   "translations": {
+    "nl": {
+     "summary": "Een kerk van een architect die af wilde van rechte lijnen en rechthoekige ramen: hij nam kristallen als voorbeeld en bouwde op een plattegrond van zeshoeken, onder een koperen dak dat groen moest worden. Thuis van De Christengemeenschap, de kerk die uit de antroposofie voortkomt.",
+     "body": "Buitenveldert is een wijk van rechthoeken, en dit gebouw doet daar niet aan mee. Toen H.W.M. Hupkes in 1969 zijn ontwerp toelichtte, zei hij dat hij af wilde van rechte lijnen en rechthoekige ramen, dat hij zich door kristallen liet inspireren en dat de menselijke maat terug moest. De plattegrond gaat uit van zeshoeken, de bouwdelen zijn verschillend hoog en hebben daken van schuine vlakken, en het dak kreeg koperen platen die met de jaren groen zouden worden.\n\nDe kerk is in 1971 in gebruik genomen door De Christengemeenschap, een beweging tot religieuze vernieuwing die in 1922 in Zwitserland is opgericht met hulp van Rudolf Steiner, de grondlegger van de antroposofie, en die in Stuttgart zetelt; de bouwstijl heet organische architectuur. Ze is genoemd naar de apostel Andreas, van wie de drie kruisen in het wapen van Amsterdam staan. De gemeente plaatste het gebouw in 2013 op de monumentenlijst om de organische vorm, de zeshoekige plattegrond en het interieur.\n\nAchter het altaar is de hele wand één schildering van 200 vierkante meter over dood en opstanding. De ramen zijn van de Duitse glaskunstenaar Udo Zembok. Die zie je bij diensten en andere bijeenkomsten; de tijden staan op de site van de gemeente.\n\nLet op:\n- de bouwdelen van geelbeige baksteen, van verschillende hoogte\n- de ramen die schuin zijn afgesneden in plaats van recht\n- het koperen dak\n- de ingang in het lage tussenstuk tussen kerkzaal en toren, onder een betonnen bovenlicht met kleine zeshoekige ramen"
+    }
+   },
+   "body": "Buitenveldert is a suburb of rectangles, and this building refuses to join in. When H.W.M. Hupkes explained his design in 1969, he said he wanted to get away from straight lines and rectangular windows, took his inspiration from crystals, and wanted to bring back the human scale. The plan is based on hexagons, the blocks rise to different heights under roofs of sloping planes, and the roof was covered with copper sheets so that it would turn green with the years.\n\nThe church was taken into use in 1971 by De Christengemeenschap (the Christian Community), a movement for religious renewal founded in Switzerland in 1922 with help from Rudolf Steiner, the founder of anthroposophy, and based in Stuttgart; the building style is known as organic architecture. It is named after the apostle Andrew, whose three crosses stand in the arms of Amsterdam. The city listed it in 2013 for its organic form, the hexagonal plan and the interior.\n\nBehind the altar the whole wall is one painting of 200 square metres on the theme of death and resurrection. The windows are by the German glass artist Udo Zembok. You see these at services and other gatherings; the times are on the congregation's site.\n\nLook for:\n- the yellow-beige brick blocks of different heights\n- the windows cut on a slant instead of square\n- the copper roof\n- the entrance in the low link between the church and the tower, under a concrete fanlight of small hexagonal windows",
+   "attributes": {
+    "built": "1970–1971"
+   }
+  },
+  "sources_add": [
+   "https://amsterdam.christengemeenschap.nl/wp-content/uploads/sites/3/2026/11/Monumentstatus-toegekend-Andrieskerk.pdf"
+  ]
+ },
+ {
+  "id": "cs44vyd8ai6tmjwoon0oto38",
+  "title": "De Kletsmuurtjes and the Christelijk Lyceum Buitenveldert",
+  "changes": [
+   {
+    "field": "body",
+    "old": "When the Christelijk Lyceum Buitenveldert was built, one per cent of the budget had to go to art, as at every new school.",
+    "new": "The art for the Christelijk Lyceum Buitenveldert came from the one per cent scheme, set up after the war to give artists work.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/04b5da4c-1d7f-436d-b9c3-095273498040",
+    "evidence": "Deze 'kletsmuurtjes' kwamen tot stand in het kader van de eenprocentsregeling, na de Tweede Wereldoorlog ontstaan om kunstenaars aan werk te helpen (no source says it applied to every new school) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "Toen het Christelijk Lyceum Buitenveldert werd gebouwd, moest net als bij elke nieuwe school één procent van de bouwsom naar kunst.",
+    "new": "De kunst bij het Christelijk Lyceum Buitenveldert kwam uit de eenprocentsregeling, die na de oorlog was bedacht om kunstenaars werk te geven.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/04b5da4c-1d7f-436d-b9c3-095273498040",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "- the chat walls in the left-hand (eastern) schoolyard, with their recessed patterns in the brickwork",
+    "new": "- the chat walls and benches in the left-hand (eastern) schoolyard",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/04b5da4c-1d7f-436d-b9c3-095273498040",
+    "evidence": "Register: 'De bakstenen muurtjes en bijbehorende bankjes ... op het oostelijke schoolplein'; no source describes recessed patterns [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de kletsmuurtjes op het linker (oostelijke) schoolplein, met verdiepte patronen in het metselwerk",
+    "new": "- de kletsmuurtjes en bankjes op het linker (oostelijke) schoolplein",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/04b5da4c-1d7f-436d-b9c3-095273498040",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "body": "The art here was made to be sat on. The art for the Christelijk Lyceum Buitenveldert came from the one per cent scheme, set up after the war to give artists work. Instead of a mosaic on the wall, Charles Karsten, an architect turned sculptor, built low brick walls and benches in the schoolyard, meant for hanging about and talking. They became known as the kletsmuurtjes (chat walls). According to the national listing it was the first time such objects were placed in a schoolyard, and other Dutch schools followed.\n\nThe school itself (opened June 1963) is one of the main works of Marius Duintjer, with Th. van der Klei. A concrete frame is filled in with red Groningen brick, glass blocks and steel windows divided into squares of 75 by 75 centimetres, which gives the building something of a Japanese screen. The glazed bays on the street side are work niches: the school taught along lines close to the Dalton method, in which pupils plan part of their own work. At the back the assembly hall is pushed out over the water.\n\nThe observatory on the stair tower was paid for by parents and teachers and placed in the autumn of 1962: here on the edge of town they expected little trouble from city lights.\n\nIt is a working school (now the Christelijke Scholengemeenschap Buitenveldert). The yards have been fenced since 2009, so you look at the walls through the bars.\n\nLook for:\n- the chat walls and benches in the left-hand (eastern) schoolyard\n- the five glazed bays breaking the closed brick street front\n- the dome of the observatory on the tower\n- the glass rear and the hall above the water, seen from the Kalfjeslaan side\n- the new wings of 2008 at both ends, which are not part of the monument",
+   "translations": {
+    "nl": {
+     "body": "Op deze kunst mag je zitten. De kunst bij het Christelijk Lyceum Buitenveldert kwam uit de eenprocentsregeling, die na de oorlog was bedacht om kunstenaars werk te geven. In plaats van een mozaïek aan de muur metselde Charles Karsten, architect en later beeldhouwer, lage muurtjes en bankjes op het schoolplein, bedoeld om te hangen en te praten. Ze gingen de kletsmuurtjes heten. Volgens de aanwijzing tot rijksmonument was het de eerste keer dat zoiets op een schoolplein kwam te staan, en andere Nederlandse scholen deden het na.\n\nDe school zelf (geopend in juni 1963) is een van de hoofdwerken van Marius Duintjer, samen met Th. van der Klei. Een betonskelet is opgevuld met rode Groninger baksteen, glazen bouwstenen en stalen ramen in vierkanten van 75 bij 75 centimeter, waardoor het gebouw iets van een Japans kamerscherm heeft. De glazen erkers aan de straatkant zijn werknissen: de school gaf les op een manier die dicht bij het daltononderwijs ligt, waarbij leerlingen een deel van hun werk zelf plannen. Aan de achterkant steekt de aula uit over het water.\n\nDe sterrenwacht op de traptoren is betaald door ouders en leraren en in het najaar van 1962 geplaatst: hier aan de rand van de stad verwachtten ze weinig last van stadslicht.\n\nHet is een gewone school (nu de Christelijke Scholengemeenschap Buitenveldert). Sinds 2009 staat er een hek om de pleinen, dus je bekijkt de muurtjes door de spijlen.\n\nLet op:\n- de kletsmuurtjes en bankjes op het linker (oostelijke) schoolplein\n- de vijf glazen erkers in de gesloten bakstenen straatgevel\n- het koepeltje van de sterrenwacht op de toren\n- de glazen achterkant en de aula boven het water, te zien vanaf de kant van de Kalfjeslaan\n- de nieuwe vleugels uit 2008 aan beide uiteinden, die niet bij het monument horen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yw4m202pvcw809m5oo6tvvjy",
+  "title": "Gijsbrecht van Aemstelpark",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Open day and night. The sculptures",
+    "new": "The sculptures",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No source gives the park's opening hours"
+   },
+   {
+    "field": "nl.body",
+    "old": "Dag en nacht open. De beelden",
+    "new": "De beelden",
+    "kind": "cut",
+    "source": "",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "Jan Snoeck's lying ceramic figures)",
+    "new": "Jan Snoeck's lying figures)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gijsbrecht_van_Aemstelpark",
+    "evidence": "de reeks Liggende figuren van Jan Snoeck bij Twikkel (material not given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "de liggende keramische figuren van Jan Snoeck)",
+    "new": "de liggende figuren van Jan Snoeck)",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gijsbrecht_van_Aemstelpark",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- the steel and glass canopy over the round stage on the Meeting Island: \"Levensboom\" (Angie Abbink, 2015), a roof shaped like a tree, asked for by neighbours who wanted the square used for more than cycling across",
+    "new": "- the steel and glass canopy over the stage on the Meeting Island: \"Levensboom\" (Tree of Life, Angie Abbink, 2015), a sculptural stage roof",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Gijsbrecht_van_Aemstelpark",
+    "evidence": "Levensboom (2015), een sculpturale podiumoverkapping van staal en glas van Angie Abbink op het Ontmoetingseiland. Buitenkunst record 2514 has only artist and materials. No source for a round stage, a tree shape or a neighbours' request. [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de overkapping van staal en glas boven het ronde podium op het Ontmoetingseiland: 'Levensboom' (Angie Abbink, 2015), een dak in de vorm van een boom, gevraagd door buurtbewoners die wilden dat het plein meer werd dan een doorfietsroute",
+    "new": "- de overkapping van staal en glas boven het podium op het Ontmoetingseiland: 'Levensboom' (Angie Abbink, 2015), een gebeeldhouwd podiumdak",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Gijsbrecht_van_Aemstelpark",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "body": "In a city of winding park paths, this one is drawn with a ruler. In 1959 the city and the garden architects' association held a competition for a green strip two kilometres long through the new suburb of Buitenveldert. Wim Boer won under the motto \"Bomen\" (Trees), with a design as rectangular as the streets around it: square spaces where you pause or change direction, oblong ones that send you on.\n\nOnly the middle part, between the Buitenveldertselaan and the Van Leijenberghlaan, was laid out to his plan, and only that part has been a national monument since 2015. It consists of three islands in a frame of water: the Recreation Island with lawns for lying and playing, the square Meeting Island, a paved plaza under plane trees, and the Flower Island with square beds and a pergola. A kiosk on the Meeting Island burned down; a war memorial of 2014 stands on the island now.\n\nThe park links the Amsterdamse Bos to the Amstelpark, for people and for animals: in 2012 rope bridges were strung high over the crossing roads so that squirrels can travel between the two.\n\nThe sculptures strung along the full length of the park (André Volten's column of tubes, a horseman, Jan Snoeck's lying figures) are a walk of their own.\n\nLook for:\n- the ten footbridges with metal railings and concrete decks\n- the benches by Aldo van Eyck on the Meeting Island\n- the pergola and the wall of concrete blocks on the Flower Island\n- the geometric paving pattern of the plaza, restored about 2010\n- the rope bridges for squirrels in the treetops at the road crossings\n- the rows of plane trees along the Van Nijenrodeweg\n- the war memorial on the Meeting Island: a steel diamond lying on its side, on the eight-sided footing of the burned kiosk, with a line by Elie Wiesel round its girdle\n- the rider by Floyd DeWitt, who grew up on a horse farm in Montana and called himself a cowboy artist, and Theo Niermeijer's disc \"The Long Hum\", with five signs for the Buddhist path of the five wisdoms\n- the Speelbos (play wood) of 2010 by the Van Heenvlietlaan, outside the listed part: a path of boulders and a path on stilts through shallow water\n- the steel and glass canopy over the stage on the Meeting Island: \"Levensboom\" (Tree of Life, Angie Abbink, 2015), a sculptural stage roof",
+   "translations": {
+    "nl": {
+     "body": "In een stad vol slingerpaden is dit park langs de liniaal getekend. In 1959 schreven de gemeente en de bond van tuinarchitecten een prijsvraag uit voor een groene strook van twee kilometer dwars door de nieuwe wijk Buitenveldert. Wim Boer won onder het motto 'Bomen', met een ontwerp dat even rechthoekig is als de straten eromheen: vierkante ruimtes waar je stilstaat of afslaat, langwerpige die je verder sturen.\n\nAlleen het middendeel, tussen de Buitenveldertselaan en de Van Leijenberghlaan, is naar zijn plan aangelegd, en alleen dat deel is sinds 2015 rijksmonument. Het bestaat uit drie eilanden in een lijst van water: het Recreatie-eiland met lig- en speelweiden, het vierkante Ontmoetingseiland, een plein onder platanen, en het Bloemeneiland met vierkante plantvakken en een pergola. Op het Ontmoetingseiland stond een kiosk die is afgebrand; nu staat er een oorlogsmonument uit 2014.\n\nHet park verbindt het Amsterdamse Bos met het Amstelpark, voor mensen en voor dieren: in 2012 zijn hoog boven de kruisende wegen touwbruggen gespannen, zodat eekhoorns van het ene naar het andere kunnen.\n\nDe beelden die over de hele lengte van het park staan (de buizenkolom van André Volten, een ruiter, de liggende figuren van Jan Snoeck) zijn een wandeling op zich.\n\nLet op:\n- de tien voetgangersbruggen met metalen leuningen en betonnen dekken\n- de banken van Aldo van Eyck op het Ontmoetingseiland\n- de pergola en de muur van betonblokken op het Bloemeneiland\n- het geometrische patroon in de bestrating van het plein, rond 2010 hersteld\n- de touwbruggen voor eekhoorns in de boomtoppen bij de oversteken\n- de rijen platanen langs de Van Nijenrodeweg\n- het oorlogsmonument op het Ontmoetingseiland: een stalen diamant die op zijn kant ligt, op de achthoekige fundering van de afgebrande kiosk, met rondom een regel van Elie Wiesel\n- de ruiter van Floyd DeWitt, die opgroeide op een paardenboerderij in Montana en zichzelf een cowboy-artist noemde, en de schijf 'The Long Hum' van Theo Niermeijer, met vijf tekens voor het boeddhistische pad van de vijf wijsheden\n- het Speelbos uit 2010 bij de Van Heenvlietlaan, buiten het beschermde deel: een keienpad en een steltenpad door ondiep water\n- de overkapping van staal en glas boven het podium op het Ontmoetingseiland: 'Levensboom' (Angie Abbink, 2015), een gebeeldhouwd podiumdak"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "uay4pu8zk8fskb5mvt7hz1rp",
+  "title": "ING House, the shoe beside the ring road",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "and at once called the shoe, the skate and the dustbuster. The bank left in 2014. Protesters against ING still turn up here.",
+    "new": "and nicknamed the shoe, the skate and the dustbuster. The bank left in 2014, yet in 2023 Extinction Rebellion still came here to protest against ING.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Infinity_(gebouw)",
+    "evidence": "Nicknames listed without a date ('at once' unsourced); the only protest in the sources is the Extinction Rebellion action reported by Het Parool on 29 Dec 2023"
+   },
+   {
+    "field": "nl.summary",
+    "old": "en meteen de schoen, de klapschaats en de kruimeldief genoemd. De bank vertrok in 2014. Wie tegen ING demonstreert, komt nog steeds hierheen.",
+    "new": "en bijgenaamd de schoen, de klapschaats en de kruimeldief. De bank vertrok in 2014, maar in 2023 kwam Extinction Rebellion hier nog tegen ING demonstreren.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Infinity_(gebouw)",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "Every driver on the A10 knows this building, and almost nobody knows its name. Officially it is Infinity.",
+    "new": "This building beside the A10 has many nicknames. Officially it is Infinity.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Infinity_(gebouw)",
+    "evidence": "Wiki calls it 'een prominent kantoorgebouw' and lists the nicknames; 'every driver' and 'almost nobody knows its name' are unsourced [verifier: 'Drivers on the A10 know this building by its nicknames' was itself unsourced; reworded to the wiki's 'Er zijn verscheidene bijnamen']"
+   },
+   {
+    "field": "nl.body",
+    "old": "Elke automobilist op de A10 kent dit gebouw, en bijna niemand weet hoe het heet. Officieel is het Infinity.",
+    "new": "Dit gebouw langs de A10 heeft veel bijnamen. Officieel is het Infinity.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Infinity_(gebouw)",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "Offices, not open to visitors. The best view is from the Amstelveenseweg, by the metro station.",
+    "new": "Offices. There is a good view of it from the metro station Amstelveenseweg.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Infinity_(gebouw)",
+    "evidence": "Gallery caption: 'Het gebouw gezien vanaf metrostation Amstelveenseweg'. 'Not open to visitors' and 'the best view' are unsourced."
+   },
+   {
+    "field": "nl.body",
+    "old": "Kantoren, niet te bezoeken. Het mooiste zicht heb je vanaf de Amstelveenseweg, bij het metrostation.",
+    "new": "Kantoren. Vanaf metrostation Amstelveenseweg heb je er goed zicht op.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Infinity_(gebouw)",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "A glass hull on sixteen slanted steel legs, opened in 2002 as the head office of the bank ING and nicknamed the shoe, the skate and the dustbuster. The bank left in 2014, yet in 2023 Extinction Rebellion still came here to protest against ING.",
+   "translations": {
+    "nl": {
+     "summary": "Een glazen romp op zestien schuine stalen poten, in 2002 geopend als hoofdkantoor van ING en bijgenaamd de schoen, de klapschaats en de kruimeldief. De bank vertrok in 2014, maar in 2023 kwam Extinction Rebellion hier nog tegen ING demonstreren.",
+     "body": "Dit gebouw langs de A10 heeft veel bijnamen. Officieel is het Infinity. Amsterdam zegt de schoen, of de poenschoen, de klapschaats, de kruimeldief, het strijkijzer of de boot.\n\nMeyer en Van Schooten ontwierpen het als hoofdkantoor van ING. Op 16 november 1999 ging de eerste paal de grond in, op 16 september 2002 kwam toenmalig kroonprins Willem-Alexander het openen. Het is gebouwd als een tafel: zestien schuine stalen poten, twee rijen van acht, staan los op pennen in betonblokken, een techniek uit de bruggenbouw. Op het tafelblad staan de verdiepingen, zodat de buik van het gebouw op de hoogte van de snelweg hangt terwijl de grond eronder lager ligt.\n\nIn 2006 zat er roest aan en in de poten en moesten ze worden hersteld. ING vertrok in de eerste helft van 2014, en sindsdien is het een kantoor voor meerdere huurders. Dat weet niet iedereen: in december 2023 voerde Extinction Rebellion hier actie tegen ING, en Het Parool vroeg zich af waarom dat gebeurde bij een gebouw dat al dertien jaar niet meer van de bank was.\n\nKantoren. Vanaf metrostation Amstelveenseweg heb je er goed zicht op.\n\nLet op:\n- de zestien poten, en de entreehal die onder de tafel is geschoven\n- de dubbele glazen huid: ventilatiekleppen aan de zonkant op het zuiden, geen aan de kant van de snelweg"
+    }
+   },
+   "body": "This building beside the A10 has many nicknames. Officially it is Infinity. Amsterdam calls it de schoen (the shoe), or the poenschoen (the money shoe), the klapschaats (the clap skate), the kruimeldief (the dustbuster), the iron or the boat.\n\nMeyer en Van Schooten designed it as the head office of the bank ING. The first pile went in on 16 November 1999 and the then crown prince Willem-Alexander opened it on 16 September 2002. It is built like a table: sixteen slanted steel legs, in two rows of eight, stand loose on pins in concrete blocks, a technique borrowed from bridge building. The floors sit on the table top, so that the belly of the building hangs level with the motorway while the ground underneath lies lower.\n\nIn 2006 rust was found on and in the legs, and they had to be repaired. ING moved out in the first half of 2014 and the building became an office for several tenants. Not everyone has heard: in December 2023 Extinction Rebellion demonstrated against ING here, and Het Parool asked why they had chosen a building that had not been the bank's for thirteen years.\n\nOffices. There is a good view of it from the metro station Amstelveenseweg.\n\nLook for:\n- the sixteen legs, and the entrance hall tucked under the table\n- the double glass skin: ventilation flaps on the sunny south side, none on the motorway side"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "yl9p4kc5ap3jlsdrpdv52y9m",
+  "title": "Paviljoen Buitenveldert (Rietveld's church for free-thinkers)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The sale of the old building paid for it.",
+    "new": "The sale of the old building helped pay for it.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Van_der_Boechorststraat_26",
+    "evidence": "De beoogde kerk zou 2 miljoen gulden hebben gekost, wat mede werd gefinancierd door de verkoop van gebouw en grond aan de Weteringschans"
+   },
+   {
+    "field": "nl.body",
+    "old": "De verkoop van het oude gebouw betaalde het.",
+    "new": "De verkoop van het oude gebouw betaalde er een deel van.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Van_der_Boechorststraat_26",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "Not open to passers-by; the outside is nearly as built.",
+    "new": "The outside is nearly as built.",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/05ceb586-a82f-4df1-b60a-ef5dfbc319c9",
+    "evidence": "No source on access; register: 'is het exterieur echter nog nagenoeg origineel'"
+   },
+   {
+    "field": "nl.body",
+    "old": "Je kunt er niet zomaar binnenlopen; de buitenkant is nog bijna zoals hij gebouwd is.",
+    "new": "De buitenkant is nog bijna zoals hij gebouwd is.",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/05ceb586-a82f-4df1-b60a-ef5dfbc319c9",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "Paradiso, the pop temple on the Weteringschans, was the church of the Vrije Gemeente, a liberal congregation that had split from the Dutch Reformed Church in the 19th century. Early in 1964 it asked Gerrit Rietveld for a new home that was to be the opposite of the old one in everything: smaller, open, light and optimistic, with a hall that could also be used for music and theatre, a library, a crèche and a room for the young. The sale of the old building helped pay for it.\n\nRietveld died in June 1964 with the sketches on the table. His partner Jan van Tricht worked them out, and in December 1967 mayor Samkalden opened the \"Paviljoen Buitenveldert\". It looks more like a small theatre than a church: white glazed brick boxes of different heights pushed into each other, flat roofs, thin steel frames and a great deal of glass. Rietveld designed only one other church, in Uithoorn.\n\nThen the 1960s overtook the free-thinkers. By 1970 the shrinking congregation had left, and the building went to the Jewish community of Amsterdam (NIHS), which made it a Jewish cultural centre with a synagogue. So the church they gave up became a temple of pop, and the modern one an Orthodox synagogue. Early this century the owners wanted to replace it: it leaked and was unpractical. The heritage society Heemschut objected, and in 2018 it became a municipal monument.\n\nThe outside is nearly as built.\n\nLook for:\n- the tall glass front of the former great hall, closing the long view down the A.J. Ernststraat\n- the big canopy over the entrance, in the corner with the garden and pond\n- the dark blue panels in the glass wall: a floor was put into the hall in 1975\n- the chimney at the centre of the square plan\n- the west side, cut off at a slant",
+   "translations": {
+    "nl": {
+     "body": "Paradiso, de poptempel aan de Weteringschans, was de kerk van de Vrije Gemeente, een vrijzinnige groep die zich in de negentiende eeuw van de hervormde kerk had afgescheiden. Begin 1964 vroeg ze Gerrit Rietveld om een nieuw onderkomen dat in alles het tegendeel van het oude moest zijn: kleiner, open, licht en optimistisch, met een zaal waar ook muziek en toneel konden, een bibliotheek, een crèche en een ruimte voor jongeren. De verkoop van het oude gebouw betaalde er een deel van.\n\nRietveld stierf in juni 1964, met de schetsen op tafel. Zijn compagnon Jan van Tricht werkte ze uit, en in december 1967 opende burgemeester Samkalden het 'Paviljoen Buitenveldert'. Het lijkt meer op een klein theater dan op een kerk: dozen van wit geglazuurde steen in verschillende hoogtes die in elkaar geschoven zijn, platte daken, dunne stalen kozijnen en heel veel glas. Rietveld heeft maar één andere kerk ontworpen, in Uithoorn.\n\nToen haalden de jaren zestig de vrijzinnigen in. In 1970 was de krimpende gemeente alweer weg en ging het gebouw naar de joodse gemeente van Amsterdam (NIHS), die er een Joods Cultureel Centrum met synagoge van maakte. Zo werd de kerk die ze opgaven een poptempel, en de moderne een orthodoxe synagoge. Begin deze eeuw wilden de eigenaren het vervangen: het lekte en was onhandig. Erfgoedvereniging Heemschut kwam daartegen op, en in 2018 werd het gemeentelijk monument.\n\nDe buitenkant is nog bijna zoals hij gebouwd is.\n\nLet op:\n- de hoge glazen gevel van de vroegere grote zaal, die het lange zicht door de A.J. Ernststraat afsluit\n- de grote luifel boven de ingang, in de hoek met tuin en vijver\n- de donkerblauwe panelen in de glaswand: in 1975 is er een vloer in de zaal gelegd\n- de schoorsteen in het midden van de vierkante plattegrond\n- de westkant, die schuin is afgesneden"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "fx9kfjaaz01mdx22bm95gc2r",
+  "title": "Pinksterkerk (Van Boshuizenstraat)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "after a Catholic and a Reformed one, and by far the quietest: a low building",
+    "new": "after a Catholic and a Reformed one: a low building",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/d2e3729f-11fd-4a30-adca-91c52b8db196",
+    "evidence": "The register compares it only with Duintjer's own churches ('Van de drie kerken in Amsterdam en Amstelveen heeft de Pinksterkerk de minst nadrukkelijke situering'); no source ranks it against the other Van Boshuizenstraat churches"
+   },
+   {
+    "field": "nl.body",
+    "old": "na een katholieke en een gereformeerde, en verreweg de stilste: een laag gebouw",
+    "new": "na een katholieke en een gereformeerde: een laag gebouw",
+    "kind": "cut",
+    "source": "https://data.amsterdam.nl/monumenten/d2e3729f-11fd-4a30-adca-91c52b8db196",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "Most churches want to be seen. Marius Duintjer said of this one that he had \"bedded it in as far as possible, without much dominating and without much standing apart\". It is the third church on the Van Boshuizenstraat, after a Catholic and a Reformed one: a low building among the trees, behind a walled forecourt that leads you in from the pavement by degrees.\n\nIt was built in 1963 and 1964 for the Dutch Reformed congregation of Amstelveen, to replace a wooden emergency church, and taken into use in March 1965. It belongs to a group of four churches Duintjer designed in the 1960s, after his landmark churches of the 1950s. The idea in all four is soft, diffuse light through timber screens with frosted glass, like the partitions of a traditional Japanese house.\n\nWhat does stand out is the tall steel sculpture by André Volten on the grass beside it. Volten had worked as a welder at the NDSM shipyard, and it shows. The sculpture is part of the church design, although the ground it stands on now belongs to the city. A carillon that hung on the front has been removed.\n\nThe owner is still the Protestant congregation; the user is the Bethel Pinksterkerk, a Pentecostal church that grew out of mission work in the former Dutch East Indies. Open for its services.\n\nLook for:\n- Volten's steel sculpture on the lawn\n- the white steel columns and trusses carrying the roof, with bright red brick between\n- the strip of windows under the roof edge, its frames picked out in blue\n- the entrance doors of rust-coloured Cor-Ten steel with their hinges on the outside\n- the forecourt with its two walls and timber gate frame",
+   "translations": {
+    "nl": {
+     "body": "De meeste kerken willen gezien worden. Van deze zei Marius Duintjer dat hij hem 'zoveel mogelijk heeft ingebed zonder veel domineren en zonder veel afstand nemen'. Het is de derde kerk aan de Van Boshuizenstraat, na een katholieke en een gereformeerde: een laag gebouw tussen de bomen, achter een ommuurde voorhof die je stap voor stap van de stoep naar binnen brengt.\n\nHij is in 1963 en 1964 gebouwd voor de hervormde gemeente van Amstelveen, als opvolger van een houten noodkerk, en in maart 1965 in gebruik genomen. Hij hoort bij een groep van vier kerken die Duintjer in de jaren zestig ontwierp, na zijn kerken uit de jaren vijftig die juist een baken moesten zijn. In alle vier gaat het om zacht, gespreid licht door houten puien met matglas, zoals de schuifwanden in een traditioneel Japans huis.\n\nWat wel opvalt is het hoge stalen beeld van André Volten op het gras ernaast. Volten had als lasser op de werf van de NDSM gewerkt, en dat zie je. Het beeld hoort bij het ontwerp van de kerk, al is de grond waar het op staat nu van de gemeente. Het carillon dat aan de voorgevel hing, is weggehaald.\n\nEigenaar is nog altijd de protestantse gemeente; gebruiker is de Bethel Pinksterkerk, een pinkstergemeente die voortkomt uit zendingswerk in voormalig Nederlands-Indië. Open tijdens de diensten.\n\nLet op:\n- het stalen beeld van Volten op het gras\n- de witte stalen kolommen en vakwerkliggers die het dak dragen, met helderrode baksteen ertussen\n- de strook ramen onder de dakrand, met blauw geschilderde sponningen\n- de voordeuren van roestkleurig cortenstaal met de scharnieren aan de buitenkant\n- de voorhof met twee muren en een houten poort"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "tkmj0y7t2p0snt2ym9ghrrci",
+  "title": "Sint-Augustinuskerk (Kalfjeslaan)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "where its churchyard still lies among the towers of the Zuidas,",
+    "new": "where its churchyard still lies,",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Begraafplaats_Buitenveldert",
+    "evidence": "The churchyard stayed at the old site (De begraafplaats bleef op de oude locatie); no listed source places it among Zuidas towers. Distance checked: churchyard 52.3403 N (nl.wikipedia coordinates) vs church 52.3223 N (PDOK), about 2 km."
+   },
+   {
+    "field": "nl.body",
+    "old": "waar haar kerkhof nog altijd tussen de torens van de Zuidas ligt.",
+    "new": "waar haar kerkhof nog altijd ligt.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Begraafplaats_Buitenveldert",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "This church was built in the fields. In 1934 and 1935 the parish of Saint Augustine left the old hamlet of Buitenveldert, two kilometres north, where its churchyard still lies, and built anew on the corner of the Amstelveenseweg and the Kalfjeslaan, right on the city limit. Only in the 1960s did the new suburb grow up around it.\n\nJan van Hardeveld designed a red brick church with a steep roof, pointed windows and a tower set to one side, low enough to fit what was then a village setting. Inside he pushed the piers as far apart as he could, so that everyone could see the altar, a new idea in Catholic church building between the wars. Mari Andriessen carved the reliefs, Willem Mengelberg made the pale stained glass, and Herman van der Bijl the altars.\n\nThe parish announced that services would end on 1 January 2026 and that the Urbanus church in Bovenkerk would take over. Neighbours and the city campaigned to keep the building, and in 2024 church, tower and presbytery became a municipal monument so that they would survive the closure. What it will be used for is the open question.\n\nLook for:\n- Andriessen's sculpture on the front\n- the tower beside the nave, a landmark from the Amstelveenseweg\n- the pointed (chevron-shaped) windows in the red brick\n- the presbytery attached on the Kalfjeslaan side\n- inside, when it is open: piers of blue glazed brick against yellow brick walls, and the canopy over the high altar",
+   "translations": {
+    "nl": {
+     "body": "Deze kerk is in het weiland gebouwd. In 1934 en 1935 verliet de Augustinusparochie de oude buurtschap Buitenveldert, twee kilometer naar het noorden, waar haar kerkhof nog altijd ligt. Ze bouwde opnieuw op de hoek van de Amstelveenseweg en de Kalfjeslaan, precies op de stadsgrens. Pas in de jaren zestig kwam de nieuwe wijk eromheen te liggen.\n\nJan van Hardeveld ontwierp een kerk van rode baksteen met een steil dak, spitse ramen en een toren die opzij staat, laag genoeg om in de toen nog dorpse omgeving te passen. Binnen zette hij de pijlers zo ver mogelijk uit elkaar, zodat iedereen het altaar kon zien, in de katholieke kerkbouw van die jaren een nieuw idee. Mari Andriessen maakte de reliëfs, Willem Mengelberg het lichte glas-in-lood en Herman van der Bijl de altaren.\n\nDe parochie kondigde aan dat de diensten op 1 januari 2026 zouden stoppen en dat de Urbanuskerk in Bovenkerk het zou overnemen. Buurtbewoners en gemeente streden voor behoud, en in 2024 werden kerk, toren en pastorie gemeentelijk monument, zodat ze de sluiting zouden overleven. Wat er nu mee gaat gebeuren, is de vraag.\n\nLet op:\n- het beeldhouwwerk van Andriessen aan de voorgevel\n- de toren naast het schip, een herkenningspunt vanaf de Amstelveenseweg\n- de spitse ramen (keperbogen) in de rode baksteen\n- de pastorie die er aan de kant van de Kalfjeslaan aan vastzit\n- binnen, als hij open is: pijlers van blauw geglazuurde baksteen tegen gele muren, en de overhuiving boven het hoogaltaar"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "p9wpllgj5hilomuzqhbicr3m",
+  "title": "The Vondelpark's city maiden, retired to the city limit",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The white stone woman on the Koenenkade",
+    "new": "The painted stone woman on the Koenenkade",
+    "kind": "sourced",
+    "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/1149",
+    "evidence": "Het gerestaureerde en geschilderde origineel (no source gives her colour as white) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "De witte stenen vrouw aan de Koenenkade",
+    "new": "De beschilderde stenen vrouw aan de Koenenkade",
+    "kind": "sourced",
+    "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/1149",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "- the rails of the museum tram line right behind her",
+    "new": "- the rails of the museum tram line right beside her",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Stedenmaagd_Amsterdamse_Bos",
+    "evidence": "Het staat daar op een sokkel van cortenstaal tussen het spoor van de Electrische Museumtramlijn Amsterdam en de Sportasroute (which side is behind her is not stated)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de rails van de museumtramlijn vlak achter haar",
+    "new": "- de rails van de museumtramlijn vlak naast haar",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Stedenmaagd_Amsterdamse_Bos",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "The painted stone woman on the Koenenkade did the same job for 126 years at the main gate of the Vondelpark.\n\nFriedrich Schierholz carved her in 1883, when the park's board wanted a grander entrance on the Stadhouderskade in the year of the International Colonial and Export Exhibition. She is the Stedenmaagd, the city maiden: Amsterdam as a person, seated, 2.53 metres high, with the city's arms on the shield in her left hand and her right hand inviting walkers in. The soft sandstone from Luxembourg did badly beside a busy road. After many repairs she was taken down on 12 November 2009, and a copy took her place on the gate.\n\nThe original was restored once more and painted, and on 18 June 2014 it was set on a plinth of rusty Corten steel at the cyclists' entrance to the Amsterdamse Bos, the city's forest park. The spot is exact. She sits on the boundary between Amsterdam and Amstelveen and faces south, towards whoever is arriving. The steel plinth has the proportions of the stone pier she left behind.\n\nLook for:\n- her name cut out of the steel of the plinth\n- the shield with the three crosses of Amsterdam\n- the rails of the museum tram line right beside her\n- the copy, on the Vondelpark gate at the Stadhouderskade",
+   "translations": {
+    "nl": {
+     "body": "De beschilderde stenen vrouw aan de Koenenkade heeft 126 jaar hetzelfde werk gedaan bij de hoofdingang van het Vondelpark.\n\nFriedrich Schierholz maakte haar in 1883, toen het parkbestuur de ingang aan de Stadhouderskade meer aanzien wilde geven in het jaar van de Internationale Koloniale en Uitvoerhandel Tentoonstelling. Ze is de Stedenmaagd: Amsterdam als persoon, gezeten, 2,53 meter hoog, met het stadswapen op het schild in haar linkerhand, terwijl haar rechterhand de wandelaars naar binnen wenkt. Het zachte zandsteen uit Luxemburg hield het slecht uit naast een drukke weg. Na veel reparaties is ze op 12 november 2009 weggehaald, en op het hek kwam een kopie.\n\nHet origineel is nog een keer gerestaureerd en geschilderd, en op 18 juni 2014 op een sokkel van roestig cortenstaal gezet bij de fietsingang van het Amsterdamse Bos. De plek is precies gekozen. Ze zit op de grens tussen Amsterdam en Amstelveen en kijkt naar het zuiden, naar wie eraan komt. De stalen sokkel heeft de verhoudingen van de stenen pijler waar ze vandaan komt.\n\nLet op:\n- haar naam, uit het staal van de sokkel gefreesd\n- het schild met de drie Andreaskruisen\n- de rails van de museumtramlijn vlak naast haar\n- de kopie, op het hek van het Vondelpark aan de Stadhouderskade"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "d2mm2eskc8gad99ntmvknob1",
+  "title": "Weldam: the planners' patio houses and a late Rietveld",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "a future prime minister and a revue star.",
+    "new": "a future prime minister and a comedian.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/a095d049-ca0f-4275-8c51-192ef4c1893a",
+    "evidence": "Ook Willy Walden van het komisch duo Snip en Snap was één van de opdrachtgevers ('revue star' not in the source)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "een latere premier en een revuester.",
+    "new": "een latere premier en een komiek.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/a095d049-ca0f-4275-8c51-192ef4c1893a",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "Joop den Uyl, then an alderman and later prime minister,",
+    "new": "Joop den Uyl, then an alderman and later prime minister,",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Joop_den_Uyl",
+    "evidence": "Van 1973 tot 1977 was hij minister-president van Nederland. (register: 'De PvdA-politicus J.M. den Uyl, toen nog wethouder, bewoonde Weldam 5')"
+   },
+   {
+    "field": "body",
+    "old": "All are private homes. The patio houses show the street little more than a wall: that was the point.",
+    "new": "All were built as homes. The patio houses form a closed block, with most of their rooms on the courtyards.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/a095d049-ca0f-4275-8c51-192ef4c1893a",
+    "evidence": "De woningen ... vormen een gesloten bouweenheid; L-vormige opzet met een opeenvolging van vertrekken merendeels gelegen aan de patio. No source on present use or on a deliberate blank street face."
+   },
+   {
+    "field": "nl.body",
+    "old": "Het zijn allemaal woonhuizen. De patiowoningen laten de straat weinig meer zien dan een muur: dat was de bedoeling.",
+    "new": "Ze zijn allemaal als woonhuis gebouwd. De patiowoningen vormen een gesloten blok, met de meeste kamers aan de binnentuin.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/a095d049-ca0f-4275-8c51-192ef4c1893a",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "Eight houses of one storey around private courtyards, and look who moved in: the man who drew Amsterdam's expansion plan, the city architect, a future prime minister and a comedian. Round the corner: a white Rietveld house and a doctor's house on steel legs.",
+   "translations": {
+    "nl": {
+     "summary": "Acht huizen van één verdieping rond een eigen binnentuin, en kijk wie er gingen wonen: de ontwerper van het uitbreidingsplan, de stadsbouwmeester, een latere premier en een komiek. Om de hoek: een wit huis van Rietveld en een dokterswoning op stalen poten.",
+     "body": "De mensen die het naoorlogse Amsterdam bedachten, gingen zelf hier wonen, gelijkvloers. Het blok van acht patiowoningen tussen Weldam en de Van der Boechorststraat (1959–1965) is van het bureau Nielsen en Spruit. Chris Nielsen, stadsbouwmeester van 1962 tot 1967 en architect van de Vrije Universiteit verderop, woonde zelf op Van der Boechorststraat 32. Cornelis van Eesteren, de man van het Algemeen Uitbreidingsplan uit 1934 waar Buitenveldert uit voortkomt, had het hoekhuis, Weldam 11. Joop den Uyl, toen wethouder en later premier, woonde op Weldam 5, en ook Willy Walden van het duo Snip en Snap was een van de opdrachtgevers. Elk huis is een L om een binnentuin, en elk kreeg een eigen indeling naar de wensen van de eerste bewoner. Geschakelde patiowoningen zijn in Amsterdam bijna nergens gebouwd.\n\nIn hetzelfde buurtje met grote kavels staan nog twee eenlingen. Weldam 10 (1966) hoort bij de laatste reeks woonhuizen van het bureau van Gerrit Rietveld, allemaal in wit geglazuurde baksteen. Herinkhave 19 (1967) is een dokterswoning van Ben Ingwersen, een groot bewonderaar van Le Corbusier: het huis staat aan de ene kant op twee dunne stalen kolommen en rust aan de andere kant op de praktijk. De tuin is van Mien Ruys. Ingwersen heeft maar drie woonhuizen gebouwd; twee staan er nog.\n\nZe zijn allemaal als woonhuis gebouwd. De patiowoningen vormen een gesloten blok, met de meeste kamers aan de binnentuin.\n\nLet op:\n- het patioblok: geelbruine baksteen met een smalle witte rand en teruggelegde ingangen onder houten boeiboorden\n- Weldam 11 op de hoek, het huis van Van Eesteren\n- Weldam 10: wit geglazuurde dozen die in elkaar geschoven zijn, met een grijze schoorsteen als anker en stalen kozijnen\n- Herinkhave 19: de betonnen trap naar de voordeur en één strook ramen over de hele noordkant\n- de stroken lage beplanting tussen stoep en voortuinen"
+    }
+   },
+   "body": "The people who planned post-war Amsterdam chose to live here, on one floor. The block of eight patio houses between Weldam and the Van der Boechorststraat (1959–1965) is by the office of Nielsen and Spruit. Chris Nielsen, city architect from 1962 to 1967 and designer of the Vrije Universiteit nearby, lived at Van der Boechorststraat 32. Cornelis van Eesteren, who drew the General Expansion Plan of 1934 that Buitenveldert comes out of, had the corner house, Weldam 11. Joop den Uyl, then an alderman and later prime minister, lived at Weldam 5, and Willy Walden of the comic duo Snip en Snap was among the clients too. Every house is an L around a courtyard, and each got its own plan to the wishes of its first owner. Linked patio houses were hardly ever built in Amsterdam.\n\nThe same quarter of large plots holds two more one-offs. Weldam 10 (1966) belongs to the last series of houses from Gerrit Rietveld's office, all in white glazed brick. Herinkhave 19 (1967) is a doctor's house by Ben Ingwersen, a great admirer of Le Corbusier: the house stands on two thin steel columns at one end and on the practice at the other. Mien Ruys designed its garden. Ingwersen built only three houses; two are left.\n\nAll were built as homes. The patio houses form a closed block, with most of their rooms on the courtyards.\n\nLook for:\n- the patio block: yellow-brown brick with a thin white trim and set-back entrances under timber fascias\n- Weldam 11 on the corner, Van Eesteren's house\n- Weldam 10: white glazed boxes pushed into each other, with a grey chimney as anchor and steel window frames\n- Herinkhave 19: the concrete stair up to the front door and one band of windows along the whole north side\n- the strips of low planting between pavement and front gardens"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Joop_den_Uyl"
+  ]
+ },
+ {
+  "id": "wo9fy8g8d4t37shwuw6mkj4v",
+  "title": "Zitplastiek voor herinnering: Jewish forced labour at the edge of the Bos",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "before most were sent on to camps.",
+    "new": "before many were sent on to camps.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsterdamse_Bos",
+    "evidence": "In de loop van 1942 werden veel Joodse arbeiders uit Amsterdam naar werkkampen elders in Nederland overgebracht of via Westerbork gedeporteerd ('veel', not 'most')"
+   },
+   {
+    "field": "nl.summary",
+    "old": "voordat de meesten naar kampen werden doorgestuurd.",
+    "new": "voordat velen naar kampen werden doorgestuurd.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsterdamse_Bos",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- the concrete elements: one bridge shape repeated, bent, folded and joined up",
+    "new": "- the concrete elements: bridge shapes repeated, bent, folded and joined up",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/1157",
+    "evidence": "De betonnen elementen ontlenen hun vorm aan de bruggen ... De vormen zijn herhaald, vervormd, omgevouwen en met elkaar verbonden (plural; no single shape)"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de betonnen elementen: één brugvorm, herhaald, vervormd, omgevouwen en aan elkaar gezet",
+    "new": "- de betonnen elementen: brugvormen, herhaald, vervormd, omgevouwen en aan elkaar gezet",
+    "kind": "narrowed",
+    "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/1157",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "Concrete shapes north of the Bosbaan lock look like benches and are not quite benches. Their forms are copied from the bridges that Jewish men from Amsterdam were made to work on here in 1941 and 1942, before many were sent on to camps.",
+   "translations": {
+    "nl": {
+     "summary": "Betonnen vormen ten noorden van de Bosbaansluis lijken op banken en zijn het net niet. Ze zijn afgekeken van de bruggen waaraan joodse mannen uit Amsterdam hier in 1941 en 1942 moesten werken, voordat velen naar kampen werden doorgestuurd.",
+     "body": "Het Amsterdamse Bos staat bekend als werkverschaffing uit de jaren dertig, gegraven door werklozen met schop en kruiwagen. In 1940 hield het graven niet op, en een deel van de mannen die het daarna deden had geen keus.\n\nDe bezetter richtte in en rond Amsterdam aparte werkobjecten in voor joodse mannen. Volgens het Stadsarchief lagen er vier in het Bos. In 1941 en 1942 werkten joodse Amsterdammers hier in tientallen ploegen: grondwerk, oevers en kades, sloten, sluizen, bruggen, paden. Bij verschillende objecten gingen de mannen na het werk naar huis. Eén groep verzamelde zich aan de Koenenkade. Het werk was een stap in hun isolement: in de loop van 1942 zijn velen naar werkkampen elders in het land overgebracht of via Westerbork gedeporteerd.\n\nIn het landschap is daar niets van te zien. Voor de tentoonstelling 'Tewerkgesteld in het Amsterdamse Bos' (2021-2022) maakte kunstenaar Tim Mathijsen in de zomer van 2021 deze groep betonnen elementen. De vormen nam hij over van de bruggen waaraan de mannen rond jachthaven De Koenen hebben gewerkt, en die herhaalde, vervormde en vouwde hij. Je kunt erop zitten, min of meer.\n\nLet op:\n- de betonnen elementen: brugvormen, herhaald, vervormd, omgevouwen en aan elkaar gezet\n- op welk deel je zou gaan zitten: dat heeft de kunstenaar met opzet onduidelijk gelaten\n- de Bosbaansluis, net ten zuiden, en jachthaven De Koenen, waar de mannen werkten"
+    }
+   },
+   "body": "The Amsterdamse Bos, the city's forest park, is known as a job-creation project of the 1930s, dug by the unemployed with spade and wheelbarrow. The digging did not stop in 1940, and some of the men who did it later had no choice.\n\nThe occupier set up separate work projects for Jewish men in and around Amsterdam. According to the City Archives four of them were in the Bos. In 1941 and 1942 Jewish Amsterdammers worked here in dozens of gangs: earthworks, banks and quays, ditches, locks, bridges, paths. At several sites the men went home after work. One group gathered on the Koenenkade. The work was a step in their isolation: in the course of 1942 many were moved to labour camps elsewhere in the country or deported by way of Westerbork.\n\nNothing in the landscape shows it. For the exhibition \"Tewerkgesteld in het Amsterdamse Bos\" (Put to work in the Amsterdamse Bos, 2021–2022) the artist Tim Mathijsen made this group of concrete elements in the summer of 2021. He took their shapes from the bridges the men worked on around the marina De Koenen, then repeated, bent and folded them. You can sit on them, more or less.\n\nLook for:\n- the concrete elements: bridge shapes repeated, bent, folded and joined up\n- which part you would sit on: the artist left that unclear on purpose\n- the Bosbaan lock just to the south, and the marina De Koenen where the men worked"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "vxk4tfmr0lq9hw05ppszm99o",
+  "title": "Beatrixpark",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "nearly given to the zoo,",
+    "new": "once proposed as a new home for the zoo,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/27655a7c-12e6-49bc-9532-be72a762663c",
+    "evidence": "Een voorstel van de toenmalige wethouder De Miranda om Artis naar dit Park Zuid te verhuizen werd niet gehonoreerd (a proposal, not a near thing)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "bijna aan Artis gegeven,",
+    "new": "ooit voorgesteld als nieuwe plek voor Artis,",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/27655a7c-12e6-49bc-9532-be72a762663c",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "\n\nOpen day and night.\n",
+    "new": "\n",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No listed source gives opening hours"
+   },
+   {
+    "field": "nl.body",
+    "old": "\n\nDag en nacht open.\n",
+    "new": "\n",
+    "kind": "cut",
+    "source": "",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "Dug by the unemployed in 1936 to 1938, once proposed as a new home for the zoo, renamed by the occupier and nibbled at by the RAI ever since. Its herb garden is sorted by ailment, and its stone dog was a gift meant to keep the park open to dogs.",
+   "translations": {
+    "nl": {
+     "summary": "Tussen 1936 en 1938 gegraven door werklozen, ooit voorgesteld als nieuwe plek voor Artis, door de bezetter omgedoopt en sindsdien aangevreten door de RAI. De kruidentuin is geordend op kwaal, en de stenen hond was een cadeau om het park open te houden voor honden.",
+     "body": "Dit park wordt al bijna zijn hele leven opgegeten. Het is tussen 1936 en 1938 aangelegd als werkverschaffing voor werklozen, hoogstwaarschijnlijk naar een ontwerp van Jakoba Mulder, en genoemd naar de pasgeboren prinses. Een voorstel van een wethouder om Artis hierheen te verhuizen haalde het niet. Van 1942 tot mei 1945 moest het van de bezetter Diepenbrockpark heten.\n\nToen kwam de RAI. In 1961 verdween het oostelijke deel met het kinderbad onder de tentoonstellingshal, en een latere hal kostte de lelietuin en 850 bomen. Een natte strook langs de ringweg, in 1994 als compensatie toegevoegd, is sinds 2011 grotendeels naar kantoren gegaan. Beschermd is het oudste, noordwestelijke deel: een besloten wandelgedeelte langs het kanaal en een grote open speelweide, met opzet door beplanting van elkaar gescheiden, zodat je nooit het hele park in één blik ziet. De grond is eerst met zand opgehoogd, waardoor de tuinlieden planten konden gebruiken die het hier anders niet doen, waaronder veel groenblijvende.\n\nOok de Floriade van 1972 gebruikte het park en liet de Artsenijhof achter, kruidentuinen die geordend zijn naar de kwalen waartegen de planten zouden helpen.\n\nEind jaren zeventig, toen de gemeente honden in parken aan banden wilde leggen, zamelden omwonenden geld in voor een stenen hond, om de gemeente milder te stemmen. Over het ras werden ze het niet eens, dus beeldhouwster Elena Engelsen maakte er een bastaard van. Hij is op 12 mei 1979 onthuld.\n\nLet op:\n- de Artsenijhof, drie geometrische kruidentuinen naast het Boerenweteringpad\n- het pierenbad met springstenen, achter een gebogen betonnen pergola uit de eerste jaren van het park\n- de 'Spelende hond' van Engelsen in muschelkalk\n- de kring van lage stenen muurtjes in de weide, over van de Floriade\n- de uitkijkheuvel in de noordwesthoek, gemaakt van de grond die uit de vijvers kwam\n- twee paar zandstenen leeuwen, bij het pad naar de RAI en bij de zuidelijke ingang van de Artsenijhof, van elk paar één met het wapen van Amsterdam en één met het rijkswapen: vier van de 22 die vanaf 1876 op de spoorbruggen naast het Centraal Station stonden, sinds 1972 in het park"
+    }
+   },
+   "body": "This park has spent most of its life being eaten. It was laid out between 1936 and 1938 as a job-creation project for the unemployed, most likely to a design by Jakoba Mulder, and named after the newborn princess. An alderman's proposal to move Artis zoo here was turned down. From 1942 until May 1945 the occupier had it called Diepenbrockpark.\n\nThen the RAI arrived. In 1961 the eastern part with its paddling pool went under the exhibition hall, and a later hall cost the lily garden and 850 trees. A wet strip along the motorway added in 1994 as compensation has largely gone to offices since 2011. What is listed is the oldest, north-western part: an intimate walk along the canal and a big open play meadow, kept apart by planting on purpose, so that you never see the whole park at a glance. The ground was raised with sand first, which let the gardeners use plants that would not otherwise do well here, many evergreens among them.\n\nThe Floriade of 1972 used the park too and left the Artsenijhof, herb gardens arranged by the complaints the plants were thought to cure.\n\nIn the late 1970s, when the city wanted to restrict dogs in parks, neighbours collected money for a stone dog to put the council in a milder mood. They could not agree on a breed, so the sculptor Elena Engelsen made it a mongrel. It was unveiled on 12 May 1979.\n\nLook for:\n- the Artsenijhof, three geometric herb gardens beside the Boerenweteringpad\n- the paddling pool with stepping stones, behind a curved concrete pergola from the first years of the park\n- Engelsen's \"Spelende hond\" (Playing dog) in shell limestone\n- the circle of low stone walls in the meadow, left from the Floriade\n- the lookout hill in the north-west corner, made from the soil dug out of the ponds\n- two pairs of sandstone lions, at the path to the RAI and at the south gate of the Artsenijhof, one of each pair with the arms of Amsterdam and one with the arms of the state: four of the 22 that guarded the railway bridges beside Central Station from 1876, in the park since 1972"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bf4tsi93ce6thgxbzdo1nmjw",
+  "title": "Kwibuka monument, Rwanda remembered in the Beatrixpark",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "It was unveiled in the rain on 19 April 2023, and the speeches moved to the church across the road.",
+    "new": "It was unveiled in bad weather on 19 April 2023, and the speeches were held in the church across the road.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kwibukamonument",
+    "evidence": "Toespraken bij de plaatsing werden mede door het slechte weer gehouden in de Vrijburgkerk (bad weather, not specifically rain)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "Hij is op 19 april 2023 in de regen onthuld; de toespraken verhuisden naar de kerk aan de overkant.",
+    "new": "Hij is op 19 april 2023 bij slecht weer onthuld; de toespraken werden in de kerk aan de overkant gehouden.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kwibukamonument",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "The weather was so bad that the speeches were held in the Vrijburg church across the street.\n\nThe park is open day and night.",
+    "new": "Partly because of the bad weather, the speeches were held in the Vrijburg church across the street.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kwibukamonument",
+    "evidence": "'mede door het slechte weer' (partly); opening-hours line cut, no source"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het weer was zo slecht dat de toespraken in de Vrijburgkerk aan de overkant zijn gehouden.\n\nHet park is dag en nacht open.",
+    "new": "Mede door het slechte weer zijn de toespraken in de Vrijburgkerk aan de overkant gehouden.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kwibukamonument",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- the flame on the polished black granite, above the text\n- the pond right behind the stone",
+    "new": "- the flame and the text on the black granite\n- the water beside the stone",
+    "kind": "narrowed",
+    "source": "https://www.vriendenbeatrixpark.nl/rwanda-monument-in-beatrixpark/",
+    "evidence": "Het monument bestaat uit een granieten steen met daarop tekst; Commons photo shows a black stone with a flame by the water. 'Polished', the layout and 'right behind' are not in a source."
+   },
+   {
+    "field": "nl.body",
+    "old": "- de vlam op het gepolijste zwarte graniet, boven de tekst\n- de vijver vlak achter de steen",
+    "new": "- de vlam en de tekst op het zwarte graniet\n- het water naast de steen",
+    "kind": "narrowed",
+    "source": "https://www.vriendenbeatrixpark.nl/rwanda-monument-in-beatrixpark/",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "A black granite stone with a flame, near the Diepenbrockstraat gate, is the first memorial in the Netherlands to the 1994 genocide against the Tutsi in Rwanda. It was unveiled in bad weather on 19 April 2023, and the speeches were held in the church across the road.",
+   "translations": {
+    "nl": {
+     "summary": "Een zwarte granieten steen met een vlam, bij de ingang aan de Diepenbrockstraat, is het eerste gedenkteken in Nederland voor de genocide op de Tutsi in Rwanda in 1994. Hij is op 19 april 2023 bij slecht weer onthuld; de toespraken werden in de kerk aan de overkant gehouden.",
+     "body": "De Nederlandse parken staan vol gedenktekens voor de Tweede Wereldoorlog. Dit, op een grasveld aan het water bij de ingang aan de Diepenbrockstraat, herdenkt iets anders: de genocide op de Tutsi in Rwanda in 1994.\n\nOverlevenden die als vluchteling naar Nederland kwamen, verenigden zich in Ibuka-Nederland, dat de herinnering aan de slachtoffers levend houdt. Andere landen hadden een gedenkteken. Nederland, met een Rwandese gemeenschap die voor Europa groot is, had er geen. Op 2 augustus 2021 vroeg de Rwandese ambassade er burgemeester Femke Halsema per brief om, en zij zegde haar medewerking toe. De ambassade benaderde verschillende stadsdelen; Zuid zei ja, en samen kozen ze het Beatrixpark.\n\nDe steen is op 19 april 2023 onthuld als eerste Kwibukamonument van het land, in het bijzijn van de ambassadeur, Ibuka en de locoburgemeester. Mede door het slechte weer zijn de toespraken in de Vrijburgkerk aan de overkant gehouden.\n\nLet op:\n- de vlam en de tekst op het zwarte graniet\n- het water naast de steen\n- aan de overkant van de Diepenbrockstraat, tegenover de Herman Gorterstraat: de kerk waar de toespraken zijn gehouden"
+    }
+   },
+   "body": "Dutch parks are full of memorials to the Second World War. This one, on a lawn by the water near the Diepenbrockstraat entrance, remembers something else: the genocide against the Tutsi in Rwanda in 1994.\n\nSurvivors who came to the Netherlands as refugees formed Ibuka-Nederland, an organisation that keeps the memory of the victims alive. Other countries had a memorial. The Netherlands, with a Rwandan community that is large for Europe, had none. On 2 August 2021 the Rwandan embassy wrote to mayor Femke Halsema to ask for one, and she agreed. The embassy approached several boroughs; Zuid said yes, and together they picked the Beatrixpark.\n\nThe stone was unveiled on 19 April 2023 as the first Kwibuka monument in the country, with the ambassador, Ibuka and the deputy mayor present. Partly because of the bad weather, the speeches were held in the Vrijburg church across the street.\n\nLook for:\n- the flame and the text on the black granite\n- the water beside the stone\n- across the Diepenbrockstraat, opposite the Herman Gorterstraat: the church where the speeches were given"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "bu4vbzq78t5lj4nxuefq4c31",
+  "title": "Princesseflat and the modern Prinses Irenebuurt",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "with his own office in the base.",
+    "new": "with his own office for a while in the low wing.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gebouwen_aan_de_Beethovenstraat",
+    "evidence": "Beethovenstraat 159-193: Gebouw met flinke overstek ... Architect Mart Stam ... had hier enige tijd zijn kantoor"
+   },
+   {
+    "field": "nl.summary",
+    "old": "met zijn eigen kantoor in de onderbouw.",
+    "new": "met een tijd zijn eigen kantoor in de lage vleugel.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gebouwen_aan_de_Beethovenstraat",
+    "evidence": "as EN"
+   },
+   {
+    "field": "nl.body",
+    "old": "Mart Stam kent iedereen van een stoel zonder achterpoten.",
+    "new": "Mart Stam is bekend van een stoel zonder achterpoten.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Mart_Stam",
+    "evidence": "'iedereen' is not supported; EN already reads 'is known for'"
+   },
+   {
+    "field": "body",
+    "old": "which stood far above everything around it when new.",
+    "new": "which stood out as a high-rise in the area when new.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gebouwen_aan_de_Beethovenstraat",
+    "evidence": "opvallende hoogbouw (negen verdiepingen) in de buurt toen het gebouwd werd"
+   },
+   {
+    "field": "nl.body",
+    "old": "die toen hij nieuw was ver boven alles uitstak.",
+    "new": "die bij de bouw in de buurt opviel als hoogbouw.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gebouwen_aan_de_Beethovenstraat",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "The neighbourhood between the Zuider Amstelkanaal and the motorway had been planned in 1940 and was built in the 1950s, with more room for experiment than the older Zuid across the canal.",
+    "new": "The four buildings here, between the Zuider Amstelkanaal and the motorway, date from 1954 to 1961.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/4d3f9699-f935-46da-b3a1-a3c9b3fe6870",
+    "evidence": "Register years: Greiner 1954 (222304), Warners 1957 (222303), Ingwersen 1958 (200936), Stam 1961 (rce 532211 / wiki). No listed source for a 1940 plan or 'more room for experiment'. [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "De buurt tussen het Zuider Amstelkanaal en de ringweg stond al in 1940 op de tekening en is in de jaren vijftig gebouwd, met meer ruimte voor experiment dan het oudere Zuid aan de overkant van het kanaal.",
+    "new": "De vier gebouwen hier, tussen het Zuider Amstelkanaal en de ringweg, stammen uit de jaren 1954 tot 1961.",
+    "kind": "sourced",
+    "source": "https://data.amsterdam.nl/monumenten/4d3f9699-f935-46da-b3a1-a3c9b3fe6870",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "All are lived in; everything is seen from the street.",
+    "new": "All were built as homes; everything is seen from the street.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/532211",
+    "evidence": "Registers give original function housing (Woningen, wonen); no source on present occupancy"
+   },
+   {
+    "field": "nl.body",
+    "old": "Overal wordt gewoond; je bekijkt alles vanaf de straat.",
+    "new": "Alles is als woning gebouwd; je bekijkt het vanaf de straat.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/532211",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- Parkhove: the set-back base with garage doors under the flats",
+    "new": "- Parkhove: the base with garage doors under the flats",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gebouwen_aan_de_Beethovenstraat",
+    "evidence": "onderliggende garageboxen/bergingen (in de plint); 'set-back' not in a source"
+   },
+   {
+    "field": "nl.body",
+    "old": "- Parkhove: de teruggelegde onderbouw met garagedeuren onder de flats",
+    "new": "- Parkhove: de onderbouw met garagedeuren onder de flats",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Lijst_van_gebouwen_aan_de_Beethovenstraat",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "Mart Stam, the man of the cantilever chair, came back disillusioned from East Germany and built this nine-storey star of flats in 1961, with his own office for a while in the low wing. Around it: three more experiments of the 1950s, one of them a floating villa.",
+   "translations": {
+    "nl": {
+     "summary": "Mart Stam, de man van de buisstoel zonder achterpoten, kwam ontgoocheld terug uit Oost-Duitsland en bouwde in 1961 deze ster van negen verdiepingen. Eromheen: nog drie experimenten uit de jaren vijftig, waaronder een zwevende villa.",
+     "body": "Mart Stam is bekend van een stoel zonder achterpoten. Hij was ook de autoritaire en weinig geliefde directeur van de Amsterdamse Kunstnijverheidsschool, vertrok in 1948 om in het communistische Oost-Duitsland het vormgevingsonderwijs op te zetten en kwam op oudejaarsdag 1952 ontgoocheld terug. De Princesseflat (1961) is een van de paar gebouwen uit zijn tweede Amsterdamse periode: negen verdiepingen op een Y-vormige plattegrond, ook wel Sterflat genoemd, die bij de bouw in de buurt opviel als hoogbouw. In de lage vleugel had hij een tijd zijn eigen bureau. In 1966 sloot hij zijn bureau en trok hij zich terug in Zwitserland.\n\nDe vier gebouwen hier, tussen het Zuider Amstelkanaal en de ringweg, stammen uit de jaren 1954 tot 1961.\n\nErnaast staat Parkhove (Beethovenstraat 149–155, rond 1956) van Allert Warners: zestien flats op een onderbouw van garages, met de kleuraccenten van zijn blokken aan de Dirk Schäferstraat. Om de hoek aan het kanaal staat Roossenhof van Dick Greiner (1955–1956), met een gele poort naar de Willem Kesstraat. En aan de Prinses Marijkestraat bouwde Ben Ingwersen, een volgeling van Le Corbusier, in 1958 een van zijn drie woonhuizen, met de hoofdverdieping als een zwevende doos omhooggetild.\n\nAlles is als woning gebouwd; je bekijkt het vanaf de straat.\n\nLet op:\n- Princesseflat: de drie vleugels die in het midden samenkomen, en de rij garages met boven de laatste een woning\n- Princesseflat: de lage vleugel met een flinke overstek op Beethovenstraat 159–169\n- Parkhove: de onderbouw met garagedeuren onder de flats\n- Roossenhof (Cornelis Dopperkade 7–12): drie gele luifels met houtwerk aan de onderkant, boven de deuren\n- Prinses Marijkestraat 5: de opgetilde hoofdverdieping en de hoekramen; de betonnen zonweringen met ingebouwde plantenbakken zitten aan de achterkant"
+    }
+   },
+   "body": "Mart Stam is known for a chair without back legs. He had also been the authoritarian and unloved director of Amsterdam's school of applied arts, left in 1948 to build up design education in communist East Germany, and came home disillusioned on New Year's Eve 1952. The Princesseflat (1961) is one of a handful of buildings from his second Amsterdam period: nine storeys on a Y-shaped plan, also called the Sterflat (star flat), which stood out as a high-rise in the area when new. He kept his own office in the low wing for a while. In 1966 he closed his practice and withdrew to Switzerland.\n\nThe four buildings here, between the Zuider Amstelkanaal and the motorway, date from 1954 to 1961.\n\nNext door, Parkhove (Beethovenstraat 149–155, about 1956) is by Allert Warners: sixteen flats lifted on a base of garages, with the colour accents of his blocks on the Dirk Schäferstraat. Round the corner on the canal stands Roossenhof by Dick Greiner (1955–1956), with a yellow gateway through to the Willem Kesstraat. And on the Prinses Marijkestraat Ben Ingwersen, a devotee of Le Corbusier, built one of his only three houses in 1958, with the main floor raised up as a hovering box.\n\nAll were built as homes; everything is seen from the street.\n\nLook for:\n- Princesseflat: the three wings meeting in the middle, and the row of garages with one dwelling above the last ones\n- Princesseflat: the low wing with a big overhang at Beethovenstraat 159–169\n- Parkhove: the base with garage doors under the flats\n- Roossenhof (Cornelis Dopperkade 7–12): three yellow canopies with woodwork underneath, above the doors\n- Prinses Marijkestraat 5: the raised main floor and the corner windows; the concrete sun screens with built-in planters are at the back"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "nin5wqx8nkfg5eubvbfa3cqs",
+  "title": "Spinoza Lyceum",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The art is there because from 1955 one per cent of the building cost of every new school had to go to art, to bring children who never saw a museum into contact with it.",
+    "new": "The art is there because of the per cent scheme for schools that came into force in 1955, meant to bring pupils who hardly ever went to a museum into contact with art.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/33ab3186-8c46-4e1f-8396-f0bc0154a42e",
+    "evidence": "De monumentale kunst ... is te danken aan de percentageregeling voor scholen die in 1955 van kracht werd ... omdat de meeste van hen vrijwel nooit in musea kwamen (no figure of one per cent or 'every school' given)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Die kunst is er omdat vanaf 1955 bij elke nieuwe school één procent van de bouwsom naar kunst moest, om kinderen die nooit in een museum kwamen ermee in aanraking te brengen.",
+    "new": "Die kunst is er dankzij de percentageregeling voor scholen die in 1955 inging en die leerlingen die zelden een museum bezochten met kunst in aanraking wilde brengen.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/33ab3186-8c46-4e1f-8396-f0bc0154a42e",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "The grand entrance of this school, up two flights of steps, was not meant for the pupils. It was reserved for \"festivities and high gentlemen\"; the children were to come in elsewhere. The steps are flanked by two mosaics by Nicolaas Wijnberg, and Hildo Krop's Spinoza stands in front of the building. The art is there because of the per cent scheme for schools that came into force in 1955, meant to bring pupils who hardly ever went to a museum into contact with art.\n\nThe Spinoza Lyceum was founded in 1898 and became a Dalton school in the 1930s, a system in which pupils plan part of their work themselves. This building of 1957, by the city architect Jan Leupen, was the first in Amsterdam designed for Dalton teaching at secondary level, says the city's register. You can read it in the plan: half-size rooms between the classrooms for study in small groups, and extra-wide corridors with fixed work tables at the windows. Leupen also got an assembly hall with more than 800 seats built at a time when the government forbade halls and gyms without special permission.\n\nIn 2026 the City Archives showed papers on the school's war years, found years earlier in a builder's skip: Jewish teachers were dismissed and Jewish pupils sent away to separate Jewish schools.\n\nIt is a working school; the art and the front are outside.\n\nLook for:\n- Wijnberg's two many-coloured mosaics at the entrance\n- Krop's statue of Spinoza in front\n- the observatory on the roof, right above the entrance\n- the white concrete frame filled with timber windows in a 2:3:2 rhythm\n- the pale green roof, once copper",
+   "translations": {
+    "nl": {
+     "body": "De statige ingang van deze school, twee trappen op, was niet voor de leerlingen bedoeld. Die was er voor 'feestelijkheden en hoge heren'; de kinderen moesten ergens anders naar binnen. Naast de trappen zitten twee mozaïeken van Nicolaas Wijnberg, en voor het gebouw staat de Spinoza van Hildo Krop. Die kunst is er dankzij de percentageregeling voor scholen die in 1955 inging en die leerlingen die zelden een museum bezochten met kunst in aanraking wilde brengen.\n\nHet Spinoza Lyceum is in 1898 opgericht en werd in de jaren dertig een daltonschool, een systeem waarin leerlingen een deel van hun werk zelf plannen. Dit gebouw uit 1957, van stadsarchitect Jan Leupen, was volgens het gemeentelijk register het eerste in Amsterdam dat voor middelbaar daltononderwijs is ontworpen. Je ziet het aan de indeling: halve lokalen tussen de klaslokalen om in groepjes te studeren, en extra brede gangen met vaste werktafeltjes aan het raam. Leupen kreeg ook een aula met ruim 800 plaatsen voor elkaar, in een tijd dat de regering aula's en gymzalen zonder speciale toestemming verbood.\n\nIn 2026 liet het Stadsarchief stukken zien over de oorlogsjaren van de school, jaren eerder gevonden in een bouwcontainer: joodse leraren werden ontslagen en joodse leerlingen weggestuurd naar aparte joodse scholen.\n\nHet is een gewone school; de kunst en de gevel zie je buiten.\n\nLet op:\n- de twee veelkleurige mozaïeken van Wijnberg bij de ingang\n- het beeld van Spinoza van Krop ervoor\n- de sterrenwacht op het dak, recht boven de ingang\n- het witte betonskelet met houten ramen in een ritme van 2:3:2\n- het lichtgroene dak, ooit van koper"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "vudw5kjbqv5rp4lqh3hf7hsg",
+  "title": "Thomaskerk (De Thomas)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Le Corbusier's chapel at Ronchamp was the model.",
+    "new": "Sijmons is said to have taken his inspiration from Le Corbusier's chapel at Ronchamp.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/6e0a5753-1801-4c9b-b5f5-0ada765b7ded",
+    "evidence": "Deze inspiratie zou hij ontleend hebben aan de bedevaartskerk van Le Corbusier in Ronchamp (inspiration, reported; not a model)"
+   },
+   {
+    "field": "nl.body",
+    "old": "De kapel van Le Corbusier in Ronchamp was het voorbeeld.",
+    "new": "Sijmons zou zijn inspiratie hebben gehaald uit de kapel van Le Corbusier in Ronchamp.",
+    "kind": "narrowed",
+    "source": "https://data.amsterdam.nl/monumenten/6e0a5753-1801-4c9b-b5f5-0ada765b7ded",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "The atlas also sums up the neighbourhood: \"from fur-coat church to necktie church\".",
+    "new": "The atlas also sums up how its surroundings changed, from wealthy residents to the Zuidas business district: \"from fur-coat church to necktie church\".",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Thomaskerk_(Amsterdam)",
+    "evidence": "Hun korte omschrijving grijpt terug op het veranderde gebruik ... rijkere Amsterdammer ... later opgeslokt door het zakencentrum Zuidas [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "Dezelfde atlas vat de buurt samen: 'van bontjassenkerk tot stropdassenkerk'.",
+    "new": "Dezelfde atlas vat samen hoe de omgeving veranderde, van welgestelde bewoners naar het zakendistrict Zuidas: 'van bontjassenkerk tot stropdassenkerk'.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Thomaskerk_(Amsterdam)",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "There are Sunday services, lunch concerts,",
+    "new": "There are church services, lunch concerts,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Thomaskerk_(Amsterdam)",
+    "evidence": "'er worden niet alleen maar kerkdiensten gehouden'; Thomas Open organises lunch concerts, plays, exhibitions. The day of services is not in a listed source."
+   },
+   {
+    "field": "nl.body",
+    "old": "Er zijn zondagse diensten, lunchconcerten,",
+    "new": "Er zijn kerkdiensten, lunchconcerten,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Thomaskerk_(Amsterdam)",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "The architect bought the art himself. Karel Sijmons wanted a window by the Spanish painter Antonio Saura in the hall of his church so badly that he paid for it out of his own pocket: a Crucifixion in glass appliqué. He had Karel Appel on his shortlist too; Appel is said to have told him to take Saura, \"he can do that better than I can\".\n\nThe Dutch Reformed of the new south had worshipped for years in borrowed rooms: the conservatoire, a concert hall, school assembly halls. Sijmons thought it had made them forget what a church space means, and designed everything from the liturgy outwards: one high room for the Word, an intimate chapel for communion, the font where the two meet. Plans started in 1956; the church was first used on 20 May 1966. Inside nearly everything is cast concrete with the grain of the formwork in it, pulpit, font and communion table included. Above it a timber ceiling rolls from the highest point at the entrance down to the chapel. Sijmons is said to have taken his inspiration from Le Corbusier's chapel at Ronchamp. A recent atlas of Dutch brutalism puts the building ninth in its top twenty; the church council has heard that Sijmons disliked the word.\n\nThe atlas also sums up how its surroundings changed, from wealthy residents to the Zuidas business district: \"from fur-coat church to necktie church\". Since 2021 the building is called De Thomas. There are church services, lunch concerts, exhibitions and plays in the former youth chapel, now the Thomastheater.\n\nLook for:\n- the bell frame, a concrete sculpture hung on the east wall\n- the wave of the copper roof over yellow brick walls\n- twelve small square windows in the east wall\n- the sexton's house: an upper floor on concrete stilts under a copper tent roof\n- inside: Saura's window in the hall (the only glass appliqué window he ever made), the two op-art doors by the architect's wife, and the concrete pulpit and font",
+   "translations": {
+    "nl": {
+     "body": "De architect kocht de kunst zelf. Karel Sijmons wilde zo graag een raam van de Spaanse schilder Antonio Saura in de hal van zijn kerk, dat hij het uit eigen zak betaalde: een kruisiging in glas-appliqué. Karel Appel stond ook op zijn lijstje; die zou gezegd hebben dat hij Saura moest nemen, 'die kan dat beter dan ik'.\n\nDe hervormden van het nieuwe Zuid hadden jarenlang gekerkt in geleende zalen: het conservatorium, een concertzaal, de aula's van scholen. Sijmons vond dat ze daardoor vergeten waren wat een kerkruimte betekent, en ontwierp alles vanuit de eredienst: een hoge ruimte voor het Woord, een besloten kapel voor het avondmaal, en het doopvont waar die twee samenkomen. De plannen begonnen in 1956; op 20 mei 1966 werd de kerk voor het eerst gebruikt. Binnen is bijna alles van gestort beton waar de nerf van de bekisting nog in staat, ook de preekstoel, het doopvont en de avondmaalstafel. Daarboven golft een houten plafond van het hoogste punt bij de ingang omlaag naar de kapel. Sijmons zou zijn inspiratie hebben gehaald uit de kapel van Le Corbusier in Ronchamp. Een recente atlas van het Nederlandse brutalisme zet het gebouw op de negende plaats van zijn top twintig; de kerkenraad heeft gehoord dat Sijmons van dat woord niets moest hebben.\n\nDezelfde atlas vat samen hoe de omgeving veranderde, van welgestelde bewoners naar het zakendistrict Zuidas: 'van bontjassenkerk tot stropdassenkerk'. Sinds 2021 heet het gebouw De Thomas. Er zijn kerkdiensten, lunchconcerten, tentoonstellingen en voorstellingen in de vroegere jeugdkapel, nu het Thomastheater.\n\nLet op:\n- de klokkenstoel, een betonnen sculptuur die aan de oostgevel hangt\n- de golf van het koperen dak boven muren van gele baksteen\n- twaalf kleine vierkante ramen in de oostgevel\n- de kosterij: een verdieping op betonnen palen onder een koperen tentdak\n- binnen: het raam van Saura in de hal (het enige glas-appliquéraam dat hij ooit heeft gemaakt), de twee op-artdeuren van de vrouw van de architect, en de betonnen preekstoel en het doopvont"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "u16250xqotu2xbcb72c5lr7m",
+  "title": "Vogels en vissen: an Escher on a villa wall",
+  "changes": [
+   {
+    "field": "body",
+    "old": "hangs on the brick front of a private house",
+    "new": "hangs on the front of a private house",
+    "kind": "cut",
+    "source": "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds",
+    "evidence": "Facade material is not given in any listed source"
+   },
+   {
+    "field": "nl.body",
+    "old": "zit op de bakstenen gevel van een woonhuis",
+    "new": "zit op de gevel van een woonhuis",
+    "kind": "cut",
+    "source": "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "after a tiring job on school columns in The Hague.",
+    "new": "after a difficult experience with tiled columns for a school in The Hague.",
+    "kind": "narrowed",
+    "source": "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds",
+    "evidence": "After a difficult experience with the tiled columns for the Johanna Westermanschool (now the Maris College) in The Hague"
+   },
+   {
+    "field": "nl.body",
+    "old": "na een vermoeiende klus met schoolzuilen in Den Haag.",
+    "new": "na een moeizame ervaring met tegelzuilen voor een school in Den Haag.",
+    "kind": "narrowed",
+    "source": "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "People live here: look from the pavement.",
+    "new": "It is a private house: look from the pavement.",
+    "kind": "narrowed",
+    "source": "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds",
+    "evidence": "Commissioned for the Vrooms' home; present occupancy not in a source"
+   },
+   {
+    "field": "nl.body",
+    "old": "Er wordt gewoond: kijk vanaf de stoep.",
+    "new": "Het is een woonhuis: kijk vanaf de stoep.",
+    "kind": "narrowed",
+    "source": "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "The only work M.C. Escher is known to have made for Amsterdam hangs on the front of a private house in a side street of the Prinses Irenebuurt.\n\nIn 1959 the owner of this new villa and his wife wanted art on the wall. They thought of a mosaic, then decided on black and white, and the owner wrote that it was \"to be an Escher or nothing\". Escher was not keen: in a letter to his son he cursed the fashion for tiles, after a difficult experience with tiled columns for a school in The Hague. He took the commission anyway and came to enjoy it. He based the design on his woodcut Sky and Water I of 1938, drew a diamond in which fish change into birds, and numbered all 75 tiles on the drawing for De Porceleyne Fles, the Delft pottery that fired them. The architect, Lau Peters, wanted the diamond upright. The owner and Escher wanted it lying down, and it lies down. It was unveiled in the spring of 1960 with Escher present.\n\nThe city's register of wall art calls it typical enough to be his trademark. It is a private house: look from the pavement.\n\nLook for:\n- the point halfway where you can no longer say which is fish and which is bird\n- the colours: white fish, black birds, nothing else\n- how the diamond cuts across the straight lines of the villa, built in 1958",
+   "translations": {
+    "nl": {
+     "body": "Het enige werk dat M.C. Escher voor zover bekend voor Amsterdam heeft gemaakt, zit op de gevel van een woonhuis in een zijstraat van de Prinses Irenebuurt.\n\nIn 1959 wilden de eigenaar van deze nieuwe villa en zijn vrouw kunst aan de muur. Ze dachten eerst aan een mozaïek, kozen toen voor zwart-wit, en voor de eigenaar moest het een Escher worden en anders niets. Escher had er weinig zin in: in een brief aan zijn zoon vloekte hij op de tegelmode, na een moeizame ervaring met tegelzuilen voor een school in Den Haag. Hij nam de opdracht toch aan en kreeg er plezier in. Hij ging uit van zijn houtsnede Lucht en water I uit 1938, tekende een ruit waarin vissen in vogels overgaan, en nummerde alle 75 tegels op de tekening voor De Porceleyne Fles in Delft, waar ze zijn gebakken. Architect Lau Peters wilde de ruit rechtop. De eigenaar en Escher wilden hem liggend, en zo hangt hij er. In het voorjaar van 1960 is het tableau onthuld, met Escher erbij.\n\nHet gemeentelijke register van wandkunst vindt het zo kenmerkend dat het zijn beeldmerk zou kunnen zijn. Het is een woonhuis: kijk vanaf de stoep.\n\nLet op:\n- het punt halverwege waar je niet meer kunt zeggen wat vis is en wat vogel\n- de kleuren: witte vissen, zwarte vogels, verder niets\n- hoe de ruit dwars door de rechte lijnen van de villa uit 1958 gaat"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "xs1106xvko0ei291axvo29ii",
+  "title": "Warnersblokken",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "with a Mondrian under every window: the painter Joseph Ongenae gave the fronts their panels of red, yellow, blue and grey.",
+    "new": "with a coloured panel under every window: the artist Joseph Ongenae designed the colour scheme.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "Het kleurenschema van de platen onder de vensters is ontworpen door de kunstenaar Joseph Ongenae (no source names the colours other than greys, or links the scheme to Mondrian)"
+   },
+   {
+    "field": "nl.summary",
+    "old": "met onder elk raam een stukje Mondriaan: schilder Joseph Ongenae gaf de gevels hun vlakken in rood, geel, blauw en grijs.",
+    "new": "met onder elk raam een gekleurd vlak: kunstenaar Joseph Ongenae ontwierp het kleurenschema.",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "The scheme is by Joseph Ongenae, a painter in the line of De Stijl, who worked it out for the architect Allert Warners.",
+    "new": "The scheme is by the artist Joseph Ongenae, for the architect Allert Warners.",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "'in the line of De Stijl' is not in a listed source"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het schema is van Joseph Ongenae, een schilder in de lijn van De Stijl, die het voor architect Allert Warners uitwerkte.",
+    "new": "Het schema is van kunstenaar Joseph Ongenae, voor architect Allert Warners.",
+    "kind": "cut",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "The four identical blocks went up in 1956 and 1957 as part",
+    "new": "The four identical blocks went up in 1957 as part",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "uitgevoerd in 1957 (all four registers); nl.wikipedia: vier in 1957 gebouwde woonblokken"
+   },
+   {
+    "field": "nl.body",
+    "old": "De vier gelijke blokken zijn in 1956 en 1957 gebouwd",
+    "new": "De vier gelijke blokken zijn in 1957 gebouwd",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "as EN"
+   },
+   {
+    "field": "attributes.built",
+    "old": "1956–1957",
+    "new": "1957",
+    "kind": "narrowed",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "uitgevoerd in 1957"
+   },
+   {
+    "field": "body",
+    "old": "with garages and storerooms in the set-back base, after Le Corbusier. They were for the middle class, and they held something new:",
+    "new": "with garages and storerooms in the set-back base, a design inspired by Le Corbusier and Rietveld. They were for the middle class, and they held something unusual for the time:",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "etagebouw die is geïnspireerd op het werk van Le Corbusier en Rietveld; voor die tijd, ongebruikelijke woonvormen (vrijgezellenflats) [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "met garages en bergingen in de teruggelegde onderbouw, naar Le Corbusier. Ze waren voor de middenstand, en er zat iets nieuws in:",
+    "new": "met garages en bergingen in de teruggelegde onderbouw, een ontwerp met Le Corbusier en Rietveld als inspiratie. Ze waren voor de middenstand, en er zat iets in dat toen ongebruikelijk was:",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530917",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "- the nearly closed end walls of yellow brick in a white frame",
+    "new": "- the nearly closed end walls, yellow brick or yellow-painted cladding in a white frame",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530916",
+    "evidence": "Some end walls: gele baksteen gevat in een wit geschilderde omlijsting; others: geel geschilderd uitwendig isolatiemateriaal ... in de wit geschilderde omlijsting [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de bijna gesloten kopgevels van gele baksteen in een witte lijst",
+    "new": "- de bijna gesloten kopgevels, gele baksteen of geel geschilderde isolatie in een witte lijst",
+    "kind": "sourced",
+    "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530916",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "summary": "Four white blocks of flats of 1957 with a coloured panel under every window: the artist Joseph Ongenae designed the colour scheme. Built for the middle class, with one-room bachelor flats tucked behind the stairs.",
+   "translations": {
+    "nl": {
+     "summary": "Vier witte flatblokken uit 1957 met onder elk raam een gekleurd vlak: kunstenaar Joseph Ongenae ontwierp het kleurenschema. Gebouwd voor de middenstand, met eenkamerflats voor vrijgezellen achter het trappenhuis.",
+     "body": "Onder elk raam zit hier een gekleurd vlak, en al die vlakken samen vormen een schilderij van vier verdiepingen hoog. Het schema is van kunstenaar Joseph Ongenae, voor architect Allert Warners. Volgens de ontwerptekeningen waren de platen van gebrand, gekleurd, gehard glas. Bij minstens één blok zijn ze bij het vernieuwen van de ramen vervangen door gekleurde folie, in dezelfde kleuren maar met een andere sterkte en volgorde. Wat je ziet is dus deels Ongenae en deels een benadering. Het rijk heeft ze toch alle vier beschermd, als 'evidente mijlpaal' in de Nederlandse architectuur van het midden van de vorige eeuw.\n\nDe vier gelijke blokken zijn in 1957 gebouwd als onderdeel van het uitbreidingsplan voor deze strook ten zuiden van het kanaal, dat een plan uit 1940 verving. Het is systeembouw op poten, met garages en bergingen in de teruggelegde onderbouw, een ontwerp met Le Corbusier en Rietveld als inspiratie. Ze waren voor de middenstand, en er zat iets in dat toen ongebruikelijk was: naast twee driekamerwoningen per overloop lag er achter het trappenhuis een eenkamerflat zonder balkon, voor een vrijgezel.\n\nEr wordt gewoond; zowel de voor- als de achterkanten zijn een rondje waard, en de blokken staan in open groen.\n\nLet op:\n- de vlakken bij de twee ingangen van elk blok, rustiger van kleur (bijvoorbeeld alleen grijzen), zodat de trappenhuizen opvallen\n- de inpandige balkons: aan de voorkant wit geschilderd, aan de achterkant kale gele baksteen\n- de bijna gesloten kopgevels, gele baksteen of geel geschilderde isolatie in een witte lijst\n- de onderbouw op poten met garagedeuren\n- vergelijk de kleuren van blok tot blok\n- op Dirk Schäferstraat 59, aan de gevel van een villa: 'Vogels en vissen', een tegelreliëf uit 1960 van M.C. Escher"
+    }
+   },
+   "body": "Each window here has a coloured panel under it, and the panels add up to a painting four storeys high. The scheme is by the artist Joseph Ongenae, for the architect Allert Warners. According to the design drawings the panels were of fired, coloured, toughened glass. On at least one block they were replaced by coloured foil when the windows were renewed, in the same colours but with a different intensity and arrangement, so what you see is partly Ongenae and partly an approximation. The national register lists all four all the same, as an \"evident milestone\" of mid-century Dutch architecture.\n\nThe four identical blocks went up in 1957 as part of the expansion plan for this strip south of the canal, which replaced a plan of 1940. They are system-built and stand on piers, with garages and storerooms in the set-back base, a design inspired by Le Corbusier and Rietveld. They were for the middle class, and they held something unusual for the time: besides two three-room flats on every landing there was a one-room flat without a balcony behind the stairwell, for a bachelor.\n\nPeople live here; the fronts and backs are both worth walking round, and the blocks stand in open green.\n\nLook for:\n- the panels at the two entrances of each block, kept more uniform (only greys, for instance) so that the stairwells stand out\n- the recessed balconies: white-painted at the front, bare yellow brick at the back\n- the nearly closed end walls, yellow brick or yellow-painted cladding in a white frame\n- the base on piers with garage doors\n- compare the colours from block to block\n- at Dirk Schäferstraat 59, on the front of a villa: \"Vogels en vissen\" (Birds and fish), a tile relief of 1960 by M.C. Escher",
+   "attributes": {
+    "built": "1957"
+   }
+  },
+  "sources_add": [
+   "https://monumentenregister.cultureelerfgoed.nl/monumenten/530916"
+  ]
+ },
+ {
+  "id": "w762ux83yio25twjt62p3x3w",
+  "title": "AkzoNobel Art Space: a paint maker's collection you can walk into",
+  "changes": [
+   {
+    "field": "body",
+    "old": "It is open Monday to Friday from 9:00 to 18:00 and admission is free.",
+    "new": "It is open Monday to Friday from 9:00 to 18:00 and admission is free.",
+    "kind": "sourced",
+    "source": "https://artfoundation.akzonobel.com/contact",
+    "evidence": "Site's front-end bundle (/packs/js/front-35cd1142e25a68a34816.js) renders on the contact page: monday_friday 'Monday–Friday', opening_times '9.00AM–6.00PM', free_entrance '(free entrance)'"
+   }
+  ],
+  "patch": {},
+  "sources_add": []
+ },
+ {
+  "id": "pchqn5dqfi2da4ob5lv3djmg",
+  "title": "Botanische Tuin Zuidas: the garden that outlived its own demolition plan",
+  "changes": [
+   {
+    "field": "body",
+    "old": "and for a few years none of them expected to keep it.",
+    "new": "and for a few years its future was in doubt.",
+    "kind": "narrowed",
+    "source": "https://web.archive.org/web/20160304053442/http://www.rtvnh.nl/nieuws/45766/nieuws%5Bapenstaartje%5Drtvnh.nl",
+    "evidence": "Sources show the garden was threatened (Parool 2009: sloop als een mogelijkheid; RTV NH 2011: kan de komende 8 tot 10 jaar open blijven); nothing on what all users expected"
+   },
+   {
+    "field": "nl.body",
+    "old": "en een paar jaar lang dacht geen van hen dat hij zou blijven.",
+    "new": "en een paar jaar lang was zijn toekomst onzeker.",
+    "kind": "narrowed",
+    "source": "https://web.archive.org/web/20160304053442/http://www.rtvnh.nl/nieuws/45766/nieuws%5Bapenstaartje%5Drtvnh.nl",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "body": "Patients in wheelchairs, students and plant collectors from abroad share this garden, and for a few years its future was in doubt.\n\nIt was laid out in 1967 as the botanical garden of the Vrije Universiteit, for teaching and research in biology. C.P. Broerse, known for the wild-plant parks of Amstelveen, designed it as a systematic garden, with every plant family in a bed of its own. Since 1988 the garden has had no teaching role. In April 2009 the university's board named the site as a place for the hospital next door to expand, with demolition as one option. A former member of staff called on neighbours and well-known plant experts to write to the board's chairman, and the emails poured in. In 2011 the hospital's building plans were put off for years because of the economic crisis. A covenant with the borough in 2014 secured the garden's future, and in 2016 part of the glasshouses made way for a public garden.\n\nToday about 8,000 species and hybrids grow here. The bonsai came from the Floriades of 1972 and 1982, the penjing garden dates from 1999, and some plants arrived from collectors' estates or from customs at Schiphol.\n\nFree. Open Monday to Friday from 9:00 to 17:00, and from April to October also at weekends from 12:00 to 17:00.\n\nLook for:\n- the entrance gate by the artist Ruud-Jan Kokke\n- the succulent house and the Chinese penjing garden\n- the tub plants set out around the glasshouses from May to October\n- the shop with a terrace",
+   "translations": {
+    "nl": {
+     "body": "Patiënten in een rolstoel, studenten en plantenverzamelaars uit het buitenland delen deze tuin, en een paar jaar lang was zijn toekomst onzeker.\n\nHij is in 1967 aangelegd als hortus van de Vrije Universiteit, voor onderwijs en onderzoek in de biologie. C.P. Broerse, bekend van de heemparken in Amstelveen, ontwierp hem als systeemtuin, met elke plantenfamilie in een eigen vak. Sinds 1988 heeft de tuin geen onderwijsfunctie meer. In april 2009 noemde het college van bestuur de plek als mogelijkheid voor uitbreiding van het ziekenhuis ernaast, sloop niet uitgesloten. Een oud-medewerkster riep buurtbewoners en bekende plantendeskundigen op de bestuursvoorzitter te mailen, en het regende mailtjes. In 2011 werd de bouw van het ziekenhuis door de crisis voor jaren uitgesteld. Een convenant met het stadsdeel stelde de toekomst van de tuin in 2014 veilig, en in 2016 maakte een deel van de kassen plaats voor een publieke tuin.\n\nNu groeien er zo'n achtduizend soorten en hybriden. De bonsai komen van de Floriades van 1972 en 1982, de penjingtuin is uit 1999, en een deel van de planten kwam uit nalatenschappen van verzamelaars of van de douane op Schiphol.\n\nGratis. Open van maandag tot en met vrijdag van 9.00 tot 17.00 uur, van april tot en met oktober ook in het weekend van 12.00 tot 17.00 uur.\n\nLet op:\n- het toegangshek van kunstenaar Ruud-Jan Kokke\n- de succulentenkas en de Chinese penjingtuin\n- de kuipplanten die van mei tot en met oktober rond de kassen staan\n- de winkel met terras"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "badt61jv17p9z90applq3xuh",
+  "title": "De tijd in drie dimensies, the station clock nobody could read",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The clock stopped long ago, and the station",
+    "new": "The clock no longer works, and the station",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_tijd_in_drie_dimensies",
+    "evidence": "Deze (niet meer werkende) klok; when it stopped is not given"
+   },
+   {
+    "field": "nl.body",
+    "old": "De klok staat al lang stil, en het station",
+    "new": "De klok werkt niet meer, en het station",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_tijd_in_drie_dimensies",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "- the coloured blocks, which begin above head height",
+    "new": "- the red, yellow and blue of the pole",
+    "kind": "sourced",
+    "source": "https://resolver.kb.nl/resolve?urn=ABCDDD:010879702:mpeg21:a0147",
+    "evidence": "De klok bestaat uit een tien meter lange rood-geel-blauw gekleurde paal; where the colour starts is not in a text source [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.body",
+    "old": "- de gekleurde blokken, die pas boven hoofdhoogte beginnen",
+    "new": "- het rood, geel en blauw van de paal",
+    "kind": "sourced",
+    "source": "https://resolver.kb.nl/resolve?urn=ABCDDD:010879702:mpeg21:a0147",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   }
+  ],
+  "patch": {
+   "body": "Most station clocks are built to be read at a run. This one came with instructions. The RAI gave it to the Dutch Railways in 1981 for the new station next door, then the end of the line from Schiphol. The Swiss artist Kurt Ingendahl, sixty-three at the time, designed a pole ten metres tall, striped in red, yellow and blue, with arms that travelled up and down it.\n\nThe rules went like this. An arm at the top means twelve, an arm at the bottom means six. If it points down it is on its way from twelve to six, if it points up it is coming back. The arm with a square hook gives the hours, the one with a round hook the minutes. De Volkskrant explained all this in May 1981 and ended: \"By now you have missed the train, but never before have you looked at a work of art for so long.\"\n\nThe clock no longer works, and the station has since grown around it: the pole stands by the tram stop, under the motorway viaduct, with the metro and the railway overhead.\n\nLook for:\n- the two arms, one with a square hook and one with a round one\n- the plate on the pole with the instructions for telling the time\n- the red, yellow and blue of the pole\n- a hundred metres east, on the retaining wall of bridge 868: \"Kissing monkeys\" (RoosArt, 2023), two apes trying to kiss through their face masks",
+   "translations": {
+    "nl": {
+     "body": "De meeste stationsklokken zijn gemaakt om in het voorbijrennen te lezen. Bij deze hoorde een gebruiksaanwijzing. De RAI gaf hem in 1981 aan de Nederlandse Spoorwegen voor het nieuwe station naast de deur, toen het eindpunt van de Schiphollijn. De Zwitserse kunstenaar Kurt Ingendahl, op dat moment 63, ontwierp een paal van tien meter hoog in rood, geel en blauw, waarlangs uitsteeksels op en neer bewogen.\n\nDe regels waren als volgt. Staat een uitsteeksel bovenaan, dan is het twaalf; onderaan is het zes. Wijst het naar beneden, dan is het onderweg van de twaalf naar de zes, wijst het omhoog, dan komt het terug. De wijzer met de haakse hoek geeft de uren, die met de ronde hoek de minuten. De Volkskrant legde het in mei 1981 allemaal uit en besloot: 'Inmiddels hebt u de trein gemist, maar nooit eerder hebt u zo lang naar een kunstwerk gekeken.'\n\nDe klok werkt niet meer, en het station is er sindsdien omheen gegroeid: de paal staat bij de tramhalte, onder het viaduct van de ringweg, met de metro en het spoor erboven.\n\nLet op:\n- de twee wijzers, een met een haakse en een met een ronde haak\n- het plaatje op de paal met de uitleg hoe je de tijd afleest\n- het rood, geel en blauw van de paal\n- honderd meter oostelijker, op de keerwand van brug 868: 'Kissing monkeys' (RoosArt, 2023), twee apen die elkaar door hun mondkapjes heen proberen te kussen"
+    }
+   }
+  },
+  "sources_add": []
+ },
+ {
+  "id": "tst7bxgkr5md52wu7r71g1od",
+  "title": "Gerrit Rietveld Academie: the building its architect never saw",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "when it opened in 1967 the school took his name.",
+    "new": "the school moved in in 1967 and took his name the year after.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_Rietveld_Academie",
+    "evidence": "In 1967 verhuisde de school ...; Toen in 1968 ... werd ... de naam veranderd in Gerrit Rietveld Academie [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "nl.summary",
+    "old": "bij de opening in 1967 kreeg de school zijn naam.",
+    "new": "de school trok er in 1967 in en kreeg een jaar later zijn naam.",
+    "kind": "sourced",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_Rietveld_Academie",
+    "evidence": "as EN [verifier: kind set to sourced; the new wording adds a detail, confirmed in the source on 24 Nov 2026]"
+   },
+   {
+    "field": "body",
+    "old": "He died in June 1964,",
+    "new": "He died in 1964,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_Rietveld_Academie",
+    "evidence": "Hij overleed in 1964, toen de bouw nog maar net begonnen was (month not in a listed source)"
+   },
+   {
+    "field": "nl.body",
+    "old": "Hij stierf in juni 1964,",
+    "new": "Hij stierf in 1964,",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Gerrit_Rietveld_Academie",
+    "evidence": "as EN"
+   },
+   {
+    "field": "body",
+    "old": "It is a working academy. The forecourt can be walked, and the yearly graduation show opens the building to visitors.",
+    "new": "It is a working academy.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "No listed source on access to the forecourt or on the graduation show being open to visitors"
+   },
+   {
+    "field": "nl.body",
+    "old": "Het is een gewone academie. Over het voorplein kun je lopen, en bij de jaarlijkse eindexamententoonstelling is het gebouw open voor bezoekers.",
+    "new": "Het is een gewone academie.",
+    "kind": "cut",
+    "source": "",
+    "evidence": "as EN"
+   }
+  ],
+  "patch": {
+   "summary": "Rietveld kept his art school grey on purpose: the colour was to come from the students and what they made. He died in 1964 with the building barely begun; the school moved in in 1967 and took his name the year after.",
+   "translations": {
+    "nl": {
+     "summary": "Rietveld hield zijn kunstschool met opzet grijs: de kleur moest van de studenten komen en van wat ze maakten. Hij stierf in 1964, toen de bouw amper begonnen was; de school trok er in 1967 in en kreeg een jaar later zijn naam.",
+     "body": "De Amsterdamse kunstacademie is met opzet kleurloos. Gerrit Rietveld vond dat de kleur in dit gebouw van de studenten moest komen en van de dingen die ze maakten. Daarom hield hij het bij beton in zijn eigen kleur, middengrijs staal, zwart en wit. Alleen de gangen kregen iets: op elke verdieping linoleum in een andere kleur en aan elk uiteinde een vlak in een primaire kleur. Die vlakken zijn moeilijk te bewaren, merkt het gemeentelijk register droog op, omdat ze bij elke eindexamententoonstelling weer worden overgeschilderd.\n\nHet ontwerp is uit 1957, na eerdere versies voor een plek bij het Amstelstation. Alles volgt één maat van 2,10 meter, ook de tuin van Mien Ruys. De glazen huid hangt 40 centimeter los van het betonskelet, zodat je binnen langs de vloeren omhoog kunt kijken; zelfs de trap naar de ingang en de luifel staan los van de gevel. Rietveld had er een eigen raamprofiel voor getekend, maar dat gaf in het bouwoverleg zoveel gedoe dat hij een standaardprofiel nam. Hij rekende deze school en haar zuster in Arnhem tot zijn belangrijkste werk.\n\nHij stierf in 1964, toen de bouw amper begonnen was. De school, tot dan het Instituut voor Kunstnijverheidsonderwijs, trok er in 1967 in en draagt sinds 1968 zijn naam. Ernaast staan twee latere gebouwen: het Benthem Crouwel-gebouw (2004) en het Fedlev-gebouw (2018).\n\nHet is een gewone academie.\n\nLet op:\n- het glazen hoofdgebouw van vier lagen, messcherp, zonder goot of lijst\n- de muur van zwart geglazuurde baksteen die de trap naar de ingang afschermt, en een witte aan de westkant\n- de ronde witte ventilatoren in de voorgevel\n- de sheddaken van de werkplaatsvleugel\n- het beeld van Ben Guntenaar van blokken travertijn midden op het terrein, in dezelfde maat gehakt"
+    }
+   },
+   "body": "Amsterdam's art academy is deliberately colourless. Gerrit Rietveld held that colour in this building would come from the students and from the things they made, so he kept to concrete in its own colour, mid-grey steel, black and white. Only the corridors got something: linoleum in a different colour on every floor and a plane of one primary colour at each end. Those planes are hard to keep, the city's register notes drily, because they are painted over at every graduation show.\n\nThe design dates from 1957, after earlier versions for a site near the Amstel station. Everything follows one module of 2.10 metres, the garden by Mien Ruys included. The glass skin hangs 40 centimetres clear of the concrete frame, so that inside you can look up along the floors; even the entrance stair and its canopy stand free of the wall. Rietveld had drawn his own window section for it, but it caused so much trouble in the building meetings that he settled for a standard one. He counted this school and its sister in Arnhem among his most important works.\n\nHe died in 1964, when building had barely begun. The school, until then the Instituut voor Kunstnijverheidsonderwijs, moved in in 1967 and has borne his name since 1968. Two later buildings stand beside it: the Benthem Crouwel building (2004) and the Fedlev building (2018).\n\nIt is a working academy.\n\nLook for:\n- the glass main block of four floors, sharp-edged, with no gutter or cornice\n- the wall of black glazed brick screening the entrance stair, and a white one at the west end\n- the round white ventilators in the front\n- the saw-tooth roofs of the workshop wing\n- Ben Guntenaar's sculpture of travertine blocks in the middle of the grounds, cut to the same module"
+  },
+  "sources_add": []
+ }
+]
