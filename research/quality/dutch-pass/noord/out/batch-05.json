@@ -1,0 +1,989 @@
+[
+  {
+    "id": "m94mxeguy8ce67t7fodhqruc",
+    "title": "Zunderdorp village church",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "the village bell, cast in 1710, crashed down two floors.",
+        "new": "the village bell, cast in 1710, fell through the tower and stuck in a hole on the second floor.",
+        "kind": "narrowed",
+        "source": "https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk",
+        "evidence": "Het Centrum, 16 April 1925 (quoted on reliwiki): the bell fell from one floor to the next and stuck in a hole on the second floor ('Op de tweede verdieping')."
+      },
+      {
+        "field": "body",
+        "old": "much bigger than the present one",
+        "new": "bigger than the present one",
+        "kind": "narrowed",
+        "source": "https://openresearch.amsterdam/nl/page/54749/fundament-van-de-15de-eeuwse-kerk-van-zunderdorp",
+        "evidence": "Openresearch: the 15th-century church was about 45 m long including the choir, 'groter dan het huidige'; no 'much'."
+      },
+      {
+        "field": "body",
+        "old": "the 1710 bell fell two floors and stuck in a hole",
+        "new": "the 1710 bell fell through the tower and stuck in a hole on the second floor",
+        "kind": "narrowed",
+        "source": "https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk",
+        "evidence": "Het Centrum 1925 via reliwiki: 'Van den eenen trans naar den anderen' ... 'Op de tweede verdieping'."
+      },
+      {
+        "field": "body",
+        "old": "a village policeman was badly hurt",
+        "new": "a policeman from Ransdorp was badly hurt",
+        "kind": "narrowed",
+        "source": "https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk",
+        "evidence": "Het Centrum 1925 via reliwiki names the injured man as Ligtermoed from Ransdorp, not a Zunderdorp village policeman."
+      },
+      {
+        "field": "body",
+        "old": "The tower got the modern pyramid roof it has now.",
+        "new": "The tower now has a modern pyramid roof.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6790",
+        "evidence": "Register describes the present pyramid roof but does not say it was put on right after the 1925 fire."
+      },
+      {
+        "field": "body",
+        "old": "- the churchyard on the mound, the highest ground in the village",
+        "new": "- the churchyard on the mound",
+        "kind": "cut",
+        "source": "https://openresearch.amsterdam/nl/page/54749/fundament-van-de-15de-eeuwse-kerk-van-zunderdorp",
+        "evidence": "Sources call the mound the oldest inhabited spot; none says it is the highest ground in the village."
+      },
+      {
+        "field": "body",
+        "old": "the pointed-arch entrance niche of the tower",
+        "new": "the pointed-arch entrance niche of the tower",
+        "kind": "sourced",
+        "source": "https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk",
+        "evidence": "Het Centrum 1925 via reliwiki: 'geprofileerde spitsbogige nis, waarin zich de ingang bevindt'."
+      },
+      {
+        "field": "body",
+        "old": "To the right of the main door, a bronze plaque of 2003",
+        "new": "To the right of the main door, a bronze plaque of 2003",
+        "kind": "sourced",
+        "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3100/zunderdorp-plaquette-op-de-gevel-van-de-protestantse-kerk",
+        "evidence": "4en5mei gives the plaque's position right of the main entrance and its 2003 date."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een gotische toren uit de 15e eeuw op de oudste woonheuvel van Zunderdorp, met een sobere gepleisterde zaalkerk ertegenaan. De bliksem legde de kerk in 1710 in de as en zette in 1925 de spits in brand; de klok uit 1710 viel toen door de toren en bleef in een gat steken.",
+          "body": "Zunderdorp heeft het twee keer met de bliksem aan de stok gehad. Op 26 juli 1710 verwoestte een inslag een stuk van de toren en de hele kerk. In april 1925 was het opnieuw raak: de houten, met lood beklede spits vatte vlam en de klok van 1710 viel naar beneden, tot hij op de tweede verdieping in een gat klem kwam te zitten. Een agent uit Ransdorp raakte zwaargewond door een vallende balk, en toen de brandende spits de stroomdraden doorsneed, zat het hele dorp in het donker. De Amsterdamse brandweer, vier jaar nadat Zunderdorp bij de stad was gekomen, kreeg zijn motorspuit niet over de landweg. Nu heeft de toren een modern piramidedak.\n\nDe kerk staat op een lage terp, de oudste bewoonde plek van het dorp. Toen de begraafplaats ernaast in 2010 groter werd, vonden stadsarcheologen in de lagen van de terp aardewerk uit de 11e en 12e eeuw, plus de fundering van een 15e-eeuwse kerk van zo'n 45 meter lang, groter dan wat er nu staat. De toren, drie geledingen hoog en zonder steunberen, hoorde bij die oudere kerk. Kijk naar de zandstenen hoekblokken.\n\nDe huidige zaalkerk is gepleisterd en heeft steunberen, een houten tongewelf en trekbalken op gesneden sleutelstukken. Hij werd in 1711 tegen de oude toren aan gebouwd en in 1824 opgeknapt; in 1988–1989 kregen kerk en toren een nieuwe fundering en een restauratie. Binnen staat een orgel met één klavier dat G.A. Goldschmeding uit Amsterdam in 1907 leverde, met pijpen uit de 18e tot de 20e eeuw, in 2010 gerestaureerd door Flentrop. De protestantse gemeente gebruikt de kerk nog en elke zondag luidt de klok.\n\nRechts van de hoofdingang hangt een bronzen plaquette uit 2003 voor twee dorpsgenoten die in Duitse kampen stierven. D.C. de Graaf, geboren in 1888, hoorde bij de verzetsgroep van Pinto en gaf thuis onderdak aan veel Engelandvaarders; hij overleed op 23 november 1942 in Neuengamme. C. Hoeve, geboren in 1889, overleed op 1 januari 1945 in Mauthausen.\n\nLet op:\n- de plaquette van 2003 voor De Graaf en Hoeve, rechts van de hoofdingang\n- de zandstenen hoekblokken en de spitsboognis met de ingang van de toren\n- de steunberen van de zaalkerk uit 1711 tegen de veel oudere toren\n- het kerkhof op de terp"
+        }
+      },
+      "summary": "A 15th-century Gothic tower on the oldest mound in Zunderdorp, with a plain plastered hall church against it. Lightning burned the church in 1710 and set the spire ablaze in 1925; the village bell, cast in 1710, fell through the tower and stuck in a hole on the second floor.",
+      "body": "The church stands on a low mound that is the oldest inhabited spot in Zunderdorp. When the cemetery beside it was extended in 2010, city archaeologists found pottery from the 11th and 12th centuries in the layers of the mound, and the foundations of a 15th-century church that was about 45 metres long, bigger than the present one. The tower, of three storeys and without buttresses, belongs to that older church. Note the sandstone corner blocks.\n\nOn 26 July 1710 lightning destroyed part of the tower and the whole church. The present hall church, plastered and buttressed, with a wooden barrel vault and tie beams on carved brackets, was built against the old tower in 1711 and repaired in 1824. In April 1925 lightning struck again: the wooden, lead-covered spire burned, the 1710 bell fell through the tower and stuck in a hole on the second floor, a policeman from Ransdorp was badly hurt by a falling beam, and the whole village went dark when the burning spire cut the power lines. Amsterdam's fire brigade, four years after Zunderdorp joined the city, could not get its motor pump down the country road. The tower now has a modern pyramid roof. Church and tower were refounded and restored in 1988–1989.\n\nInside is a one-manual organ delivered in 1907 by G.A. Goldschmeding of Amsterdam, with pipework from the 18th to the 20th century, restored by Flentrop in 2010. The church is still used by the Protestant congregation; the bell rings every Sunday.\n\nTo the right of the main door, a bronze plaque of 2003 remembers two villagers who died in German camps. D.C. de Graaf, born in 1888, belonged to the Pinto resistance group and sheltered many *Engelandvaarders* (people trying to escape to England) at his home; he died in Neuengamme on 23 November 1942. C. Hoeve, born in 1889, died in Mauthausen on 1 January 1945.\n\nLook for:\n- the 2003 plaque for De Graaf and Hoeve, right of the main door\n- the sandstone corner blocks and the pointed-arch entrance niche of the tower\n- the buttresses of the 1711 hall church against the much older tower\n- the churchyard on the mound"
+    },
+    "sources_add": [
+      "https://reliwiki.nl/index.php?title=Zunderdorp,_Achterlaan_12_-_Dorpskerk"
+    ]
+  },
+  {
+    "id": "i6kh6cduz12ih1b5y8xepdno",
+    "title": "Dorpsweg Ransdorp, north end (nos. 70–121)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "and long wooden farmhouses that may be 18th-century or older",
+        "new": "and a long wooden farmhouse that may be 18th-century or older",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6745",
+        "evidence": "Only no. 113-115 is described as a long (langgerekt) wooden farmhouse with a frame probably of the 18th century or older."
+      },
+      {
+        "field": "body",
+        "old": "until well into the 20th century",
+        "new": "into the 20th century",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Ransdorp",
+        "evidence": "Wikipedia gives milk transport by melkschuit into the 20th century; 'well into' is not in the source."
+      },
+      {
+        "field": "body",
+        "old": "with a short ridge, dated around 1840.",
+        "new": "with a short ridge; its exterior is late 19th-century.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6748",
+        "evidence": "Register 6748 dates the stolp's exterior to the late 19th century; no 'around 1840'."
+      },
+      {
+        "field": "body",
+        "old": "a 19th-century face on a much older frame",
+        "new": "a 19th-century face on a probably much older frame",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Lijst_van_rijksmonumenten_in_Ransdorp",
+        "evidence": "The listing describes the older frame of no. 91 as probable, not certain."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Hier rafelt het dorp uit tot boerenland: houten huizen met puntgevels, een dubbele kaakberg en een lange houten boerderij die misschien 18e-eeuws is of ouder. Daarachter liggen de melkweiden van Waterland.",
+          "body": "Ransdorp leefde eeuwenlang van de koe. De verse melk voer nog in de 20e eeuw per melkschuit regelrecht naar Amsterdam, waar ze langs de deuren ging. Ten noorden van de kerk wordt de Dorpsweg landelijk, en dit stuk straat laat die wereld nog zien: houten huizen met puntgevels, op nummer 78 een hoge dubbele kaakberg (een hooiberg met dak), en helemaal aan het eind lange houten boerderijen.\n\nDe speld staat op nummer 113-115, een lange houten boerderij met een kaakberg achteraan; het houten geraamte is waarschijnlijk uit de 18e eeuw of nog ouder. Nummer 121 is een stolp, de Noord-Hollandse boerderij onder één piramidedak, hier met een korte nok. De buitenkant is van eind 19e eeuw.\n\nLet op:\n- nr. 70: een houten huis dat misschien uit de 17e of 18e eeuw stamt\n- nrs. 74 en 76: houten huizen met puntgevels, nr. 74 met een fraaie voorgevel\n- nr. 78: de hoge dubbele kaakberg\n- nr. 91: een 19e-eeuws gezicht op een waarschijnlijk veel ouder geraamte\n- nr. 98: een breed houten huis\n- nr. 113-115: de lange houten boerderij met haar kaakberg\n- nrs. 117 en 119: twee houten huizen die bij elkaar horen als één geheel\n- nr. 121: de stolp met de korte nok"
+        }
+      },
+      "summary": "Where the village thins out into farms. Wooden houses with pointed gables, a double hay barn and a long wooden farmhouse that may be 18th-century or older, with the dairy meadows of Waterland behind them.",
+      "body": "North of the church the Dorpsweg turns rural. For centuries dairy farming was Ransdorp's living: into the 20th century fresh milk went by *melkschuit* (milk boat) straight to Amsterdam and was sold door to door. This end of the street shows that world: wooden houses with pointed gables, a tall double *kaakberg* (hay barn) at no. 78, and at the far end long wooden farms. No. 113-115, on which this ensemble is pinned, is a long wooden farmhouse with a hay barn built on at the back, its frame probably 18th-century or older. No. 121 is a *stolp*, the pyramid-roofed farm type of North Holland, with a short ridge; its exterior is late 19th-century.\n\nLook for:\n- no. 70: a wooden house that may date from the 17th or 18th century\n- nos. 74 and 76: wooden houses with pointed gables, no. 74 with a good front\n- no. 78: the high double hay barn\n- no. 91: a 19th-century face on a probably much older frame\n- no. 98: a broad wooden house\n- no. 113-115: the long wooden farmhouse and its hay barn\n- nos. 117 and 119: two wooden houses that form one whole\n- no. 121: the stolp farm with a short ridge"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "izbu4r1b1u4futsbuzo21mut",
+    "title": "Former reading room, Kometensingel",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Tuindorp Oostzaan got its own public reading room, a sign of the social-democratic ideal that workers should have access to books close to home.",
+        "new": "Tuindorp Oostzaan got its own public reading room.",
+        "kind": "cut",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/508540",
+        "evidence": "Neither the register nor amsterdamopdekaart states this motive."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Rond 1924 kreeg Tuindorp Oostzaan een eigen openbare leeszaal: een houten gebouwtje onder een fors overstekend rieten dak met gewelfde dakkapellen. Een deel van het interieur is nog origineel.",
+          "body": "Een tuindorp met een eigen bibliotheek onder het riet. Tuindorp Oostzaan kreeg rond 1924 een openbare leeszaal. De Woningdienst ontwierp het gebouwtje in overleg met de Openbare Bibliotheek, en waarschijnlijk zette Publieke Werken het op papier.\n\nHet is een houten zaal op een gepleisterde, zwart gebeitste voet. De wanden zijn van overnaadse planken en daarboven hangt een zwaar overstekend schilddak van riet. Aan de lange kanten buigt het riet omhoog over de erkers, aan de korte kanten is het afgesneden voor een strook ramen. In het dak zitten twee gewelfde dakkapellen, zogeheten koekoeken. Aan drie zijden steken driezijdige erkers uit, met ramen die horizontaal zijn verdeeld. De ingang is een portaal tussen twee korte, zwart gebeitste muurtjes van baksteen met verticale groeven; de deur is eenvoudig, met panelen, en heeft een spits raampje. Binnen is een deel nog zoals het was. Het register waardeert ook de plek: het gebouw staat prominent aan de Kometensingel en bepaalt daar het straatbeeld.\n\nLet op:\n- het rieten dak met de twee gewelfde dakkapellen\n- de driezijdige erkers aan de zijkanten en de achterkant\n- de gegroefde muurtjes bij het portaal en het spitse raampje in de deur"
+        }
+      },
+      "body": "Tuindorp Oostzaan got its own public reading room. The little building of about 1924 was designed by the housing department in consultation with the public library, and the Public Works service probably drew it.\n\nIt is a wooden hall on a plastered, black-stained base, with walls of overlapping boards and a heavily overhanging thatched hipped roof. The thatch lifts over the bay windows on the long sides and is cut short at the ends for a band of windows; two vaulted \"cuckoo\" dormers sit in the roof. Three-sided bays with horizontally divided windows project from three sides. The entrance is a porch flanked by two short, black-stained brick walls with vertical grooves, with a simple panelled door and a pointed window. Parts of the interior are still original. The register values its prominent spot on the Kometensingel, where it shapes the street.\n\nLook for:\n- the thatched roof with its two curved dormers\n- the three-sided bays on the sides and back\n- the grooved porch walls and pointed door window"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "wfy6p3fxr5it97emfn60jgyb",
+    "title": "Kitchen houses north of the Purmerweg",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The name says what was new: the kitchen sat at the front, behind a row of linked windows between the front doors, so the living room at the back looked onto the garden.",
+        "new": "The kitchen sat at the front, behind a row of linked windows between the front doors.",
+        "kind": "cut",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/508390",
+        "evidence": "The register places the kitchen at the front behind linked windows; it says nothing about the living room facing the garden or about the type being new."
+      },
+      {
+        "field": "body",
+        "old": "carries granite figures by Hildo Krop",
+        "new": "carries figures by Hildo Krop",
+        "kind": "narrowed",
+        "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/378",
+        "evidence": "The sources do not name the material as granite."
+      },
+      {
+        "field": "body",
+        "old": "Schermerstraat 3-19 (1925)",
+        "new": "Schermerstraat 3-19 (1924-1925)",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Tuindorp_Nieuwendam",
+        "evidence": "Wikipedia: school by Marnette, 1924-1925."
+      },
+      {
+        "field": "body",
+        "old": "Krop's painted Saint George",
+        "new": "Krop's Saint George",
+        "kind": "cut",
+        "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/378",
+        "evidence": "No source says the figure is painted."
+      },
+      {
+        "field": "body",
+        "old": "the shortest block in the village, just two houses",
+        "new": "the shortest block of the group, just two houses",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/508390",
+        "evidence": "The complex description compares the blocks within this group only, not the whole village."
+      },
+      {
+        "field": "body",
+        "old": "and four reliefs by Ben Guntenaar, from before he turned to abstract work",
+        "new": "and four reliefs by Ben Guntenaar, from before he turned to abstract work",
+        "kind": "sourced",
+        "source": "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+        "evidence": "Wall-art register: four Guntenaar reliefs at the Molengouw blocks, early figurative work before his abstract period."
+      },
+      {
+        "field": "body",
+        "old": "his second stone at Andijkstraat 1-2",
+        "new": "his second stone at Andijkstraat 1-2",
+        "kind": "sourced",
+        "source": "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+        "evidence": "Wall-art register lists Wim van Hoorn at Schermerstraat 47 and at Andijkstraat 1-2."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Rijtjes lage huizen met de keuken aan de voorkant, door J.H. Mulder, verstopt achter de poortgebouwen van Boeyinga. Steile pannendaken zakken tot vlak boven de voordeuren, en de zijgevels eindigen in een houten band met een golfrand.",
+          "body": "Wie hier langsloopt, loopt langs de keukens. In deze keukenwoningen lag de keuken aan de voorkant, achter een rij gekoppelde ramen tussen de voordeuren. J.H. Mulder ontwierp ze voor de Gemeentelijke Woningdienst, als deel van de eerste fase van Tuindorp Nieuwendam. Achter elk poortgebouw aan de Purmerweg ligt zo'n kort zijstraatje vol. Elk huis heeft een benedenverdieping en een kamer in de kap, en aan de straatkant is het dak zo ver omlaag getrokken dat ramen en deuren pal onder de goot zitten. Het raampje naast elke voordeur hoorde bij de wc.\n\nDe bouw was zo rationeel als baksteen en dakpan toelieten. Lage bakstenen tussenstukken koppelen de blokken aan de poortgebouwen, zodat elk zijstraatje vanaf de Purmerweg een half open hof lijkt. Ten noorden van de weg lopen de straatjes dood op de Edammerstraat, waar vijf kortere blokken de hoven dichtmaken. Dit ensemble is de noordelijke helft; de speld staat op Beemsterstraat 41-55, naast het brede poortgebouw van de Beemsterstraat.\n\nEen stukje naar het westen staat de voormalige school Schermerstraat 3-19 (1924-1925), met beeldhouwwerk van Hildo Krop. Op de hekpijler vecht Sint-Joris niet tegen een draak maar tegen een slang: op dit socialistische gebouw in Amsterdamse Schoolstijl overwint de heilige het kapitalisme, niet de ongelovige. Op de gevel zitten een faun die fluit speelt, met kikkers, en een kleine slangenkop. Noordelijker, bij de Molengouw, kregen de naoorlogse blokken van 1949 kleine figuratieve gevelstenen. Wim van Hoorn maakte een liggende vrouw voor een huisje, met een lint waarop VREDE staat; die steen werd op 30 december 1949 onthuld en telt ook als oorlogsmonument. Ben Guntenaar maakte er vier reliëfs, nog voordat hij abstract ging werken.\n\nLet op:\n- Schermerstraat 15: Krops Sint-Joris met de slang op de hekpijler, en de faun ernaast\n- Schermerstraat 47: de VREDE-steen van Van Hoorn; zijn tweede steen zit op Andijkstraat 1-2\n- Hoornsestraat 58-59 en Nibbixwoudstraat 9-10: de vier gevelstenen van Guntenaar\n- Beemsterstraat 41-55 en 44-58: de complete blokken van acht huizen, met daken die tot op de deuren zakken\n- Avenhornstraat 25-39: het lage bakstenen tussenstuk naar het poortgebouw aan de kant van de Purmerweg\n- Wijdenesserstraat 25-39 en Oudorperstraat 25-39: de vier brede dakkapellen in elk dak\n- de zijgevels: een houten band met golvende rand en donkere beschieting erboven\n- Edammerstraat 14-16: het kortste blok van de groep, maar twee huizen\n- Edammerstraat 26-32 en 42-48: de blokken die de hoven aan de noordkant afsluiten"
+        }
+      },
+      "body": "Behind each gatehouse on the Purmerweg lies a short side street of so-called kitchen houses (keukenwoningen), designed by J.H. Mulder for the municipal housing department as part of the first phase of Tuindorp Nieuwendam. The kitchen sat at the front, behind a row of linked windows between the front doors. Each house has a ground floor and a room in the roof; the roof on the street side is pulled down so low that windows and doors sit right under the gutter. The small window beside each front door was the toilet.\n\nThe blocks were built with as much rationalised method as traditional brick and tile allowed, and they are joined to the gatehouses by low brick links, so that from the Purmerweg each side street reads as a half-open court. North of the road the side streets end at the Edammerstraat, where five shorter blocks close the courts. This ensemble covers the northern half; it is pinned on Beemsterstraat 41-55, beside the wide Beemsterstraat gatehouse.\n\nA short walk west, the former school at Schermerstraat 3-19 (1924-1925) carries figures by Hildo Krop. On the gate pier Saint George fights not a dragon but a snake: on this socialist Amsterdam School building the saint defeats capitalism, not the infidel. On the facade sit a flute-playing faun with frogs and a small snake's head. Further north, at the Molengouw, the post-war blocks of 1949 got small figurative gable stones: Wim van Hoorn's reclining woman with a sash reading VREDE (peace) in front of a little house, unveiled on 30 December 1949 and also counted as a war memorial, and four reliefs by Ben Guntenaar, from before he turned to abstract work.\n\nLook for:\n- Schermerstraat 15: Krop's Saint George with the snake on the gate pier, and the faun beside it\n- Schermerstraat 47: Van Hoorn's VREDE stone; his second stone at Andijkstraat 1-2\n- Hoornsestraat 58-59 and Nibbixwoudstraat 9-10: Guntenaar's four gable stones\n- Beemsterstraat 41-55 and 44-58: the full eight-house blocks, roofs dropping to the doors\n- Avenhornstraat 25-39: the low brick link to the gatehouse at the Purmerweg end\n- Wijdenesserstraat 25-39 and Oudorperstraat 25-39: the four broad dormers in each roof\n- the side gables: a wooden band with a wavy edge and dark boarding above\n- Edammerstraat 14-16: the shortest block of the group, just two houses\n- Edammerstraat 26-32 and 42-48: the blocks that close the courts on the north side"
+    },
+    "sources_add": [
+      "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst"
+    ]
+  },
+  {
+    "id": "tzjl2uzho1zfviatco26b2ui",
+    "title": "Smederij and Timmerwerkplaats, NDSM",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "put up on Oostenburg in 1909",
+        "new": "put up on the Conradstraat in 1909",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/528254",
+        "evidence": "The register names the old NSM yard on the Conradstraat; Oostenburg is not in the sources."
+      },
+      {
+        "field": "body",
+        "old": "left its old yard on the Conradstraat on Oostenburg",
+        "new": "left its old yard on the Conradstraat",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/528254",
+        "evidence": "Register: the old yard on the Conradstraat; no Oostenburg."
+      },
+      {
+        "field": "body",
+        "old": "The forge keeps more of its open interior, now with a modern wall down the middle.",
+        "new": "The forge is still a two-aisled hall, now with a modern wall down the middle.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/528253",
+        "evidence": "Register describes the forge as a two-aisled hall with a later partition wall; no comparison with the carpentry shop."
+      },
+      {
+        "field": "attributes.built",
+        "old": "1909 (on Oostenburg); rebuilt here 1927",
+        "new": "1909 (on the Conradstraat); rebuilt here 1927",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/528254",
+        "evidence": "The register names the old yard on the Conradstraat; Oostenburg is not in the sources."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Eén werkplaats, in 1909 gebouwd aan de Conradstraat, ging uit elkaar en werd in 1927 in Noord weer opgebouwd als twee loodsen: de smederij en de timmerwerkplaats. Hun Engelse spanten overspannen de hallen nog altijd.",
+          "body": "De NSM verhuisde niet met lege handen. Toen de Nederlandsche Scheepsbouw Maatschappij haar oude werf aan de Conradstraat verliet, ging een werkplaats uit 1909 mee: hij werd gedemonteerd en in 1927 op de nieuwe werf in Noord weer opgetrokken, als twee aparte loodsen naar ontwerp van G.J. Langhout. De smederij kwam in het hart van het terrein, de timmerwerkplaats aan de westkant. Allebei zijn het stalen skeletten, ingevuld met baksteen en lange stroken stalen ramen met kleine ruitjes, onder heel flauwe daken met lichtstraten. Binnen dragen vakwerkkolommen Engelse spanten, een klassiek dakspant van driehoeken, en in de smederij ook kraanbanen.\n\nIn 2007 trok MTV Networks (later Paramount) met zijn Benelux-hoofdkantoor in de timmerwerkplaats. Architect Max van Aerschot restaureerde de gevels en het dak en bouwde er binnenin een nieuw kantoor in. Begin 2026 vertrok Paramount weer. De smederij is nog altijd een hal met twee beuken, al loopt er nu een moderne wand door het midden.\n\nLet op:\n- het stalen skelet in de gevels, met vlakken van baksteen en glas in allerlei maten\n- de blauw geschilderde deuren van de smederij\n- de glazen kantooraanbouw aan de zuidkant van de timmerwerkplaats\n- de lichtstraten dwars over de flauwe daken",
+          "attributes": {
+            "built": "1909 (aan de Conradstraat); hier herbouwd 1927",
+            "original_use": "Smederij en timmerwerkplaats van de NSM-werf"
+          }
+        }
+      },
+      "summary": "One shipyard building, put up on the Conradstraat in 1909, was taken apart and rebuilt in Noord in 1927 as two sheds: the forge and the carpentry shop. Their English trusses still span the halls.",
+      "body": "When the Nederlandsche Scheepsbouw Maatschappij (NSM) left its old yard on the Conradstraat, it did not leave everything behind. A workshop built there in 1909 was dismantled and, in 1927, re-erected on the new yard in Noord as two separate sheds to a design by G.J. Langhout: the forge (*smederij*) in the heart of the yard and the carpentry shop (*timmerwerkplaats*) on its west side. Both are steel-framed boxes filled in with brick and long runs of small-paned steel windows, under very low-pitched roofs with skylights. Inside, lattice columns carry English trusses (a classic triangulated roof truss) and, in the forge, crane rails.\n\nIn 2007 the carpentry shop became the Benelux headquarters of MTV Networks (later Paramount), after a restoration by architect Max van Aerschot that kept the facades and roof and built a new office inside. Paramount moved out in early 2026. The forge is still a two-aisled hall, now with a modern wall down the middle.\n\nLook for:\n- the steel frame visible in the facades, with brick and glass panels of different sizes\n- the blue-painted doors of the forge\n- the glazed office annex on the south side of the carpentry shop\n- the skylights set across the shallow roofs",
+      "attributes": {
+        "rank": "Okay",
+        "heritage_status": "National monument",
+        "monument_number": "528254, 528253",
+        "built": "1909 (on the Conradstraat); rebuilt here 1927",
+        "architect": "G.J. Langhout",
+        "listed": 2007,
+        "original_use": "Forge and carpentry shop of the NSM shipyard"
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "eqzi6y7v6t752mznj6j344b9",
+    "title": "Stolp farms, Bloemendalergouw",
+    "changes": [
+      {
+        "field": "body",
+        "old": "a square block under one huge pyramid roof, with the hay stored in the middle and the cows and family around it.",
+        "new": "a square block under one huge pyramid roof.",
+        "kind": "cut",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6734",
+        "evidence": "The registers and the Holysloot article do not describe the internal layout."
+      },
+      {
+        "field": "body",
+        "old": "- Bloemendalergouw 13: the mix of brick and timber walls",
+        "new": "- Bloemendalergouw 13: the partly wooden walls",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6733",
+        "evidence": "Register 6733: partly wooden walls; brick is not mentioned."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twee 19e-eeuwse stolpboerderijen, waarvan één helemaal van hout, aan de enige weg naar Holysloot. Met hun piramidedaken vormen ze het klassieke silhouet van de Waterlandse weilanden.",
+          "body": "Wie met de auto naar Holysloot wil, heeft geen keus: het is de Bloemendalergouw of niets. Die weg loopt vanaf Ransdorp naar het noorden door de open weilanden. Langs de weg staan twee boerderijen van het type stolp, typisch voor Noord-Holland: een vierkant blok onder één reusachtig piramidedak.\n\nBeide zijn rijksmonument. Nummer 26 is een houten stolp, met een 19e-eeuwse buitenkant. Nummer 13 heeft deels houten wanden en oogt eveneens 19e-eeuws. De speld van dit ensemble staat bij nummer 26, de houten.\n\nLet op:\n- Bloemendalergouw 26: de stolp die helemaal van hout is\n- Bloemendalergouw 13: de deels houten wanden"
+        }
+      },
+      "body": "The Bloemendalergouw runs north from Ransdorp across the open meadows to Holysloot; for cars it is the only way into that village. Along it stand two farmhouses of the *stolp* type typical of North Holland: a square block under one huge pyramid roof.\n\nBoth are national monuments. No. 26 is a wooden *stolp*, 19th century outside; no. 13 has partly wooden walls, also 19th century in appearance. This ensemble is pinned on no. 26, the wooden one.\n\nLook for:\n- Bloemendalergouw 26: the all-timber *stolp*\n- Bloemendalergouw 13: the partly wooden walls"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "fhps8o7apitkfztpp1u11j3y",
+    "title": "Vogelbuurt blocks on the Fazantenweg, Kievitstraat and Meeuwenlaan",
+    "changes": [
+      {
+        "field": "body",
+        "old": "North of the Spreeuwenpark the Vogelbuurt grows more formal",
+        "new": "Towards the north the Vogelbuurt grows more formal",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200714",
+        "evidence": "The register texts describe the northern part of the Vogelbuurt; the Spreeuwenpark is not named."
+      },
+      {
+        "field": "body",
+        "old": "(1918) for Eigen Haard",
+        "new": "(1918–1920) for Eigen Haard",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200714",
+        "evidence": "Monuments API 200714: jaarBeginVan 1918, jaarBeginTot 1920."
+      },
+      {
+        "field": "body",
+        "old": "a toned-down version of his Spaarndammerbuurt work",
+        "new": "in line with the housing he built a few years earlier in the Spaarndammerbuurt",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200713",
+        "evidence": "The register links the design to his Spaarndammerbuurt housing but does not call it toned down."
+      },
+      {
+        "field": "body",
+        "old": "A stone at Kievitstraat 21 recalls the 1943 bombing of Noord.",
+        "new": "",
+        "kind": "cut",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200714",
+        "evidence": "No source in the draft or links mentions a stone at Kievitstraat 21."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Drie beschermde complexen uit 1918–1922 in het noorden van de Vogelbuurt, van Gratama, Leliman en Walenkamp: woningen voor personeel van rederij KNSM, een vroeg half open bouwblok en topgevels die tot in het dak doorlopen.",
+          "body": "Naar het noorden toe wordt de Vogelbuurt strakker. De blokken zijn bewust gegroepeerd, met randen van drie lagen die rustiger straten erachter afschermen. Hier liggen drie beschermde complexen naast elkaar.\n\nJan Gratama bouwde voor Eigen Haard de blokken aan de Kievitstraat en Spechtstraat (1918–1920). Beige baksteen, getrapte lijnen in het metselwerk rond de deuren, voordeuren twee aan twee, en voortuintjes waar de blokken terugwijken. De uiteinden van de binnenterreinen zijn dichtgezet met muren en kleine gedeelde schuurtjes. Het register ziet er een overgang in van het gesloten naar het open bouwblok, met ruime achtertuinen en veel licht.\n\nHet complex van J.H.W. Leliman aan de Fazantenweg en Koekoeksstraat (1920) werd gebouwd voor de rederij KNSM, als huisvesting voor haar arbeiders. Tegeltjes met 'Dr. Schaepman' wijzen naar de katholieke woningbouwvereniging met die naam. Binnenin twee lagen, aan de buitenkant randen van drie lagen en hoekpaviljoens onder brede schilddaken.\n\nH.J.M. Walenkamp zette aan de Meeuwenlaan en Mezenstraat twee gesloten blokken neer (1921), met woningen voor arbeidersgezinnen. Hij liet de topgevels tot halverwege het dak doorlopen, als dakkapellen met houten beschot en hijsbalken, in de lijn van wat hij een paar jaar eerder in de Spaarndammerbuurt bouwde.\n\nDe speld staat op Gratama's blok aan de Kievitstraat.\n\nLet op:\n- de getrapte deuromlijstingen in de Kievitstraat en Spechtstraat\n- de tegels met 'Dr. Schaepman' op Lelimans KNSM-blokken\n- de hoekpaviljoens met tentdaken aan de Fazantenweg\n- Walenkamps dakkapelgevels met hijsbalken aan de Meeuwenlaan\n- de hoekwinkels bij de Ganzenweg en de Meeuwenlaan"
+        }
+      },
+      "body": "Towards the north the Vogelbuurt grows more formal: blocks are grouped in deliberate patterns, with three-storey edges closing off quieter streets behind. Three listed estates sit side by side here.\n\nJan Gratama built the blocks on the Kievitstraat and Spechtstraat (1918–1920) for Eigen Haard. Beige brick, stepped brick lines framing the doors, two-by-two front doors, and front gardens where the blocks step back; the ends of the inner courts are closed by brick walls and small shared sheds. The register values it as a transition from the closed to the open block, with large back gardens and good light. J.H.W. Leliman's estate on the Fazantenweg and Koekoeksstraat (1920) was built for the shipping company KNSM to house its workers; ceramic tiles reading \"Dr. Schaepman\" point to the Catholic housing society of that name. Two storeys inside, three-storey edges and corner pavilions under wide hipped roofs outside. H.J.M. Walenkamp's two closed blocks on the Meeuwenlaan and Mezenstraat (1921) were flats for workers' families; he let gables run up halfway into the roof as dormers with wooden boarding and hoisting beams, in line with the housing he built a few years earlier in the Spaarndammerbuurt.\n\nThis ensemble is pinned on Gratama's block on the Kievitstraat.\n\nLook for:\n- the stepped brick door frames on the Kievitstraat and Spechtstraat\n- the \"Dr. Schaepman\" tiles on Leliman's KNSM blocks\n- the corner pavilions with tent roofs on the Fazantenweg\n- Walenkamp's dormer gables with hoisting beams on the Meeuwenlaan\n- the corner shops at the Ganzenweg and Meeuwenlaan"
+    },
+    "sources_add": [
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200714"
+    ]
+  },
+  {
+    "id": "hg9i3fh18swl7pja9upzkol2",
+    "title": "NDSM slipways and Kraan 13 (Faralda Crane Hotel)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "which now carries three hotel suites 50 metres up.",
+        "new": "which now carries three hotel suites.",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Crane_Hotel_Faralda",
+        "evidence": "No source gives the 50 m height of the suites."
+      },
+      {
+        "field": "body",
+        "old": "former workers kept the cranes in order",
+        "new": "former workers kept the installations in order",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/NDSM-werf",
+        "evidence": "The source speaks of maintaining the installations, not specifically the cranes."
+      },
+      {
+        "field": "body",
+        "old": "- the three suites in the crane's machine house, high above the IJ",
+        "new": "- the three suites high up in the crane, above the IJ",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Crane_Hotel_Faralda",
+        "evidence": "Sources place the suites in the crane; 'machine house' is not in them."
+      },
+      {
+        "field": "body",
+        "old": "since 2014 it has held three suites and a studio",
+        "new": "since 2014 it has held three suites and a studio",
+        "kind": "sourced",
+        "source": "https://nl.wikipedia.org/wiki/NDSM-werf",
+        "evidence": "Wikipedia NDSM-werf: 'drie hotelsuites en een televisiestudio'."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twee hellingen lopen schuin het IJ in: hier liet de NDSM haar schepen te water, het laatste in 1979. Ertussen staat Kraan 13, de laatste kraan van de werf, met nu drie hotelsuites erin.",
+          "body": "Een schip werd op een helling gebouwd en gleed bij de tewaterlating met de achtersteven voorop het water in. De NDSM had er meerdere; twee zijn er nog, schuin naar het IJ gericht, met een kraanbaan ertussen. De kleine helling IV aan de westkant is van 1927 en werd in 1952 langer gemaakt. De grote aan de oostkant ontstond in de jaren 1950 door hellingen II en III, van rond 1920, samen te voegen. Ze werden aangelegd onder G.J. Langhout en aangepast onder J.D. Postma. In 1979 gleed het laatste schip eraf.\n\nNa het faillissement van de werf in 1984 hielden oud-werknemers de installaties nog vijf jaar bij, in de hoop dat het werk weer zou beginnen. Een plan om hier drie vrachtschepen te bouwen strandde toen de storm van 25 januari 1990 de grote portaalkraan vernielde. Onder de hellingdekken zitten nu werkplaatsen, en op het open terrein worden festivals gehouden. Onder de westelijke helling, Helling X, werkten kunstenaars jarenlang onder lekkende daken en met onzekere huren. Na een renovatie ging het op 20 maart 2025 weer open: 17 ateliers voor 23 makers, van schilders en muzikanten tot een schoenmaker, tegen een betaalbare huur en met recht op terugkeer. Gevels, deuren en ramen maakten de kunstenaars zelf.\n\nOp de kade bij de kraan staan twee oude trams, sinds 2002 de uitvalsbasis van kunstenaarscollectief Stichting Trammeland, dat er voorstellingen en feesten houdt. Een ervan, een zestig jaar oude Amsterdamse drieasser, brandde in september 2016 uit, waarschijnlijk aangestoken; een museumstichting schonk een andere oude Amsterdamse tram als vervanger.\n\nKraan 13, een werk van de firma Hensen uit de jaren 1950, is de laatste van de werfkranen en hoort bij het monument. In 2011 stond hij te roesten en dreigde sloop, tot ondernemer Edwin Kornmann Rudi zich over hem ontfermde. In 2013 ging hij in stukken op een ponton van 100 meter naar Franeker om te worden opgeknapt; in oktober was hij terug. Sinds 2014 zitten er drie suites en een studio in, en de cabine draait nog altijd op haar zwenkkrans. In 2016 won het project de Pieter van Vollenhovenprijs voor herbestemming.\n\nLet op:\n- de schuine hellingdekken die het water in lopen\n- de kraanrails tussen de twee hellingen\n- de drie suites hoog in de kraan, boven het IJ\n- het uitzicht over het IJ vanaf de voet van de hellingen\n- de zelfgemaakte atelierpuien onder Helling X\n- de twee oude trams op de kade naast de kraan"
+        }
+      },
+      "summary": "Two slipways slant into the IJ where the NDSM launched its ships, the last in 1979. Between them stands Kraan 13, the yard's last crane, which now carries three hotel suites.",
+      "body": "A ship was built on a slipway (*helling*) and slid stern-first into the water at its launch. The NDSM had several; two survive, angled towards the IJ, with a crane track between them. The small slipway (helling IV), to the west, dates from 1927 and was lengthened in 1952; the big one to the east was made in the 1950s by joining slipways II and III of around 1920. They were laid out under G.J. Langhout and altered under J.D. Postma. The last ship slid off in 1979. After the yard went bankrupt in 1984, former workers kept the installations in order for five years in the hope of a restart; a plan to build three freighters here died when the storm of 25 January 1990 wrecked the big gantry crane. Workshops now fill the space under the slipway decks, and the open ground is used for festivals. Under the western slipway, Helling X, artists had worked for years with leaking roofs and uncertain rents; after a renovation it reopened on 20 March 2025 with 17 studios for 23 makers, from painters and musicians to a shoemaker, at affordable rents and with the right to return. The artists made the new fronts, doors and windows themselves.\n\nOn the wharf by the crane stand two old trams, since 2002 the base of the artists' collective Stichting Trammeland, which holds performances and parties there. One of them, a sixty-year-old Amsterdam three-axle car, burned out in September 2016, probably arson; a museum foundation gave another old Amsterdam tram to replace it.\n\nKraan 13, built by the firm Hensen in the 1950s, is the last of the yard's cranes and part of the listed monument. By 2011 it was rusting and at risk of demolition when entrepreneur Edwin Kornmann Rudi took it on. In 2013 it was dismantled, shipped on a 100-metre pontoon to Franeker for restoration and returned in October; since 2014 it has held three suites and a studio, and the cab still turns on its slewing bearing. The project won the Pieter van Vollenhoven Prize for re-use in 2016.\n\nLook for:\n- the sloping slipway decks running down into the water\n- the crane rails between the two slipways\n- the three suites high up in the crane, above the IJ\n- the view across the IJ from the foot of the slipways\n- the self-made studio fronts under Helling X\n- the two old trams on the wharf beside the crane"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "vd3hm8pvuxvxgd972g75x1vk",
+    "title": "A Lab (Shell's Groot Laboratorium)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "where Shell researched fuels for almost a century",
+        "new": "where Shell researched fuels and chemicals until it sold the building in 2005",
+        "kind": "narrowed",
+        "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/3097/amsterdam-gedenkraam-in-het-shell-laboratorium",
+        "evidence": "4en5mei: research into fuels and chemicals until Shell sold the building in 2005 (1929 to 2005 is not almost a century)."
+      },
+      {
+        "field": "body",
+        "old": "In the 1960s Arthur Staal set his Shell tower",
+        "new": "Arthur Staal set his Shell tower",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200962",
+        "evidence": "The register gives the axis relationship but not the decade."
+      },
+      {
+        "field": "body",
+        "old": "When Shell left and Overhoeks was built, the lab became the only Shell lab building kept.",
+        "new": "",
+        "kind": "cut",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200670",
+        "evidence": "No source says it is the only Shell lab building kept."
+      },
+      {
+        "field": "body",
+        "old": ", now Clink hostel, and can't be seen from the street.",
+        "new": ", now Clink hostel.",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Groot_Laboratorium",
+        "evidence": "No source says the windows cannot be seen from the street."
+      },
+      {
+        "field": "body",
+        "old": "workspace for around a hundred organisations, events and a café",
+        "new": "workspace for around a hundred organisations, events and a café",
+        "kind": "sourced",
+        "source": "https://www.a-lab.nl/en/about",
+        "evidence": "A Lab about page: about 100 organisations, events and a café."
+      },
+      {
+        "field": "body",
+        "old": "One, of 1939, marks the laboratory's 25 years",
+        "new": "One, of 1939, marks the laboratory's 25 years",
+        "kind": "sourced",
+        "source": "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+        "evidence": "Wall-art register, Overhoeksplein 2: Max Nauta, jubilee window 1939."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het laboratorium uit 1929 waar Shell onderzoek deed naar brandstoffen en chemicaliën, tot het gebouw in 2005 werd verkocht. Nu een broedplaats voor startups. De A'DAM Toren staat precies op zijn as.",
+          "body": "De A'DAM Toren is op dit lab uitgelijnd: Arthur Staal zette zijn Shelltoren, de huidige A'DAM Toren, exact op de middellijn van het Groot Laboratorium.\n\nIn 1905 vestigde de Dordtsche Petroleum Maatschappij zich op het terrein voor olieopslag aan het IJ, en in 1911 ging ze op in Royal Dutch Shell, dat hier zijn onderzoekslabs neerzette. Huisarchitect C.A. Abspoel ontwierp in 1929 het Groot Laboratorium: vier vleugels van warmrode baksteen rond een lichthof, met nadrukkelijke ingangen naar het IJ en naar het Buiksloterkanaal, en statige trappenhuizen. Later kwam er een nieuwere vleugel bij; het trappenhuis daarvan kreeg in 1947 gebrandschilderde ramen van Max Nauta. Sinds 2013 heet het A Lab, een broedplaats met werkplekken voor zo'n honderd organisaties, met evenementen en een café. Het register zegt onomwonden waarom het gebouw ertoe doet: het herinnert aan een industrie die het register zelf '(inmiddels omstreden)' noemt.\n\nNauta's ramen zijn meer dan versiering. Eén, uit 1939, markeert 25 jaar laboratorium en het directeurschap van G.J.L. Caviët. De gedenkramen, op 4 juli 1947 onthuld op initiatief van het personeel, dragen de namen van 17 medewerkers van het lab die in de oorlog omkwamen. Ze laten zich lezen als een allegorie op de bezetting: een gekroonde feniks met een kelk vol bloed, een pelikaan die haar jongen voedt (opoffering), een kraanvogel (waakzaamheid) die een draak in vlammen vertrapt (de nazipartij), de stenen tafelen met een davidster, een pentagram met een alziend oog (het teken van de scheikundige) en de woorden 'Gij zijt tot vrijheid geroepen'. Krakers van de Occupy-beweging beschadigden ze in 2011; in 2012–2013 werden ze hersteld. Ze zitten in het trappenhuis van de achtervleugel, tegenwoordig het Clink-hostel."
+        }
+      },
+      "summary": "The 1929 laboratory where Shell researched fuels and chemicals until it sold the building in 2005, now a breeding ground for start-ups. The A'DAM Toren was placed exactly on its axis.",
+      "body": "In 1905 the Dordtsche Petroleum Maatschappij settled on the oil-storage ground by the IJ, and in 1911 it became part of Royal Dutch Shell, which built its research laboratories here. Shell's house architect C.A. Abspoel designed the Groot Laboratorium in 1929: four wings in warm red brick round a light court, with accented entrances to the IJ and the Buiksloterkanaal and grand stairwells. A newer wing followed; its stairwell has stained-glass windows of 1947 by Max Nauta.\n\nArthur Staal set his Shell tower (now the A'DAM Toren) exactly on the lab's centre line. Since 2013 it is A Lab, a breeding ground with workspace for around a hundred organisations, events and a café. The register is frank about why it matters: as a reminder of an industry it calls \"(now controversial)\".\n\nNauta's windows are more than decoration. One, of 1939, marks the laboratory's 25 years and the directorship of G.J.L. Caviët; the memorial windows, unveiled on 4 July 1947 at the staff's initiative, carry the names of 17 lab workers who died in the war. They read like an allegory of the occupation: a crowned phoenix holding a chalice of blood, a pelican feeding its young (sacrifice), a crane (vigilance) trampling a dragon in flames (the Nazi party), the stone tablets with a Star of David, a pentagram with an all-seeing eye (the chemist's sign), and the words \"Gij zijt tot vrijheid geroepen\" (you have been called to freedom). Squatters of the Occupy movement damaged them in 2011; they were repaired in 2012–2013. They are in the stairwell of the rear wing, now Clink hostel."
+    },
+    "sources_add": [
+      "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200962"
+    ]
+  },
+  {
+    "id": "u0q3fz4frde1j7x58j6iiirf",
+    "title": "Sixhaven and the ghost metro station",
+    "changes": [
+      {
+        "field": "body",
+        "old": "at the time a new thing in Amsterdam",
+        "new": "a novelty at the time",
+        "kind": "narrowed",
+        "source": "https://openresearch.amsterdam/nl/page/111696/erfgoed-van-de-week-fiere-ventilatieschachten-aan-het-ij",
+        "evidence": "Openresearch calls the shafts new at the time; it does not limit this to Amsterdam."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een jachthaven tegenover Centraal Station, in 1920 aangelegd voor de koninklijke zeil- en roeivereniging en sinds 1974 in handen van werfarbeidersclub WVDS. Eronder rijdt de metro, langs ruimte voor een station dat er nooit komt.",
+          "body": "Onder de Sixhavenweg ligt plek voor een metrostation dat er nooit komt. Station 'Sixhaven' stond gepland, en in de tunnel van de Noord/Zuidlijn bleef ruimte voor het station vrij. In 2003 werd het om de kosten uitgesteld en in januari 2021 definitief geschrapt, toen de raming van ongeveer 45 naar 150 miljoen euro was opgelopen. De treinen rijden er zonder te stoppen onderdoor en van het station is niets te zien. Vanaf 2003 was een deel van de haven het bouwdok waar tunneldelen voor de lijn werden gemaakt.\n\nDe haven werd rond 1920 gegraven door de Koninklijke Nederlandsche Zeil- en Roeivereeniging en genoemd naar haar voorzitter, jonkheer Willem Six. In 1928 lagen hier de Olympische zeiljachten. De broers H.A.J. en J. Baanders ontwierpen de hele haven. Het grote clubhuis dat ze bedachten kwam er nooit, maar de havenmeesterswoning van 1919 staat nog op Sixhavenweg 27, een geslaagde mengeling van landelijk bouwen en Amsterdamse School. De eerste bewoners waren Willem Dekker en Odina van Gulik; van 1938 tot 1962 woonde jachtontwerper Gerrit van Höevell er. Sinds 2015 is het een café en ontmoetingsplek, sinds 2016 een gemeentelijk monument.\n\nIn 1953 trok de koninklijke vereniging naar Muiden. Na jaren als werkhaven voor de IJtunnel nam in 1974 de Watersportvereniging Dok- en Scheepsbouw het over, in 1946 opgericht door NDSM-scheepsbouwers die na werktijd hun eigen boten bouwden. 's Zomers ligt de haven berucht vol, met bezoekende boten in pakketten naast elkaar.\n\nOok een ouder station is weg. Ten oosten van de kanaalmond, aan de Valkenweg, lag het eindpunt van de Waterlandse tram (1888–1956): Tramstation Amsterdam-Noord, voor de buurt de Gare du Nord. Een pont bracht reizigers verder naar Centraal. Het eerste station, van grenenhout, was ontworpen door tramdirecteur Theodor Sanders met H.P. Berlage en brandde in september 1895 af; de trammannen hielpen mee aan een soberder opvolger. In 1956 ging het plat voor de IJtunnel, te vroeg zoals bleek, want het tunnelwerk lag tot begin jaren zestig stil. De plek ligt nu in het IJ.\n\nAchter de haven rijzen de noordelijke ventilatieschachten van de IJtunnel op (de tunnel ging in 1968 open), van Enrico Hartsuyker van Publieke Werken: hoekige dubbele schachten van zo'n 35 meter die naar boven toe uitwaaieren, destijds iets nieuws. Om het parkje ernaast wordt gevochten. Het Sixhavenpark begon in 2019 als tijdelijk buurtproject en werd in februari 2025 blijvend openbaar groen. Toch ontdekten buurtbewoners in het najaar van 2026 dat 1.650 vierkante meter ervan was ingetekend als werkterrein voor de opknapbeurt van de tunnel, die van juli 2027 tot november 2028 dichtgaat, en dat een particuliere moestuinschool een langlopende vergunning zocht voor zo'n 1.200 vierkante meter.\n\nLet op:\n- de havenmeesterswoning, Sixhavenweg 27\n- de ventilatieschachten van de IJtunnel achter de haven, die bovenaan uitwaaieren\n- het uitzicht over het water op Centraal Station"
+        }
+      },
+      "body": "The Sixhaven was dug around 1920 by the Koninklijke Nederlandsche Zeil- en Roeivereeniging and named after its chairman, jonkheer Willem Six. In 1928 it was the Olympic harbour for the sailing yachts. The brothers H.A.J. and J. Baanders designed the whole harbour; the grand clubhouse they planned was never built, but the harbour master's house of 1919 still stands at Sixhavenweg 27, a happy mix of rural building and Amsterdam School. Its first residents were Willem Dekker and Odina van Gulik; from 1938 to 1962 the yacht designer Gerrit van Höevell lived here. It became a municipal monument in 2016 and has been a café and meeting place since 2015.\n\nThe royal club left for Muiden in 1953. After years as a work harbour for the IJ tunnel, the Sixhaven was taken over in 1974 by the Watersportvereniging Dok- en Scheepsbouw, founded in 1946 by NDSM shipbuilders who built their own boats after hours. In summer the harbour is famously packed, with visiting boats moored side by side.\n\nFrom 2003 part of the harbour became the construction dock where tunnel sections for the North-South metro line were built. A station \"Sixhaven\" was planned under the Sixhavenweg and space was kept free for it in the tunnel. It was postponed in 2003 for cost and finally cancelled in January 2021, when the estimate had risen from about 45 to 150 million euros. Trains pass underneath without stopping; there is nothing of the station to see.\n\nAn earlier station is gone too. East of the canal mouth, on the Valkenweg, stood the terminus of the Waterland tram (1888–1956), known as Tramstation Amsterdam-Noord or, to locals, the Gare du Nord; a ferry took passengers on to Centraal. The first station, of pine, was designed by tram director Theodor Sanders with H.P. Berlage and burned down in September 1895; the tram workers helped build its plainer successor. It was demolished in 1956 for the IJ tunnel, too soon as it turned out, since the tunnel works stalled until the early 1960s. Its site now lies in the IJ.\n\nBehind the harbour rise the IJ tunnel's northern ventilation shafts (tunnel opened 1968), by Enrico Hartsuyker of the city's Public Works: angular twin shafts, about 35 metres high, that flare out towards the top, a novelty at the time. The small park beside them is contested. The Sixhavenpark began in 2019 as a temporary neighbourhood project and became permanent public green in February 2025, yet in autumn 2026 residents found 1,650 square metres of it earmarked as a works site for the tunnel's overhaul, when the IJ tunnel closes from July 2027 to November 2028, and a private kitchen-garden school seeking a long permit for some 1,200 square metres.\n\nLook for:\n- the harbour master's house, Sixhavenweg 27\n- the IJ tunnel's ventilation shafts behind the harbour, flaring out at the top\n- the view of Centraal Station across the water"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "msjcwkdsss0ic5t2tov5wm7m",
+    "title": "Volewijck gallows field (gone)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Rembrandt crossed over and drew her twice.",
+        "new": "Rembrandt drew her twice.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Elsje_Christiaens",
+        "evidence": "Wikipedia says Rembrandt made two drawings of her; that he crossed over himself is not stated."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Vier eeuwen lang, tot 1795, hingen hier de lijken van terechtgestelden als waarschuwing voor elk schip dat Amsterdam binnenvoer. Rembrandt tekende er een van: Elsje Christiaens. Niets markeert de plek.",
+          "body": "Amsterdamse kinderen kregen te horen dat baby's op de Volewijck aan een boom groeiden, de kindertjesboom. Op dezelfde landtong tegenover de stad hing ondertussen het gerecht te vergaan. Van ongeveer 1360 tot 1795 was de punt van de Volewijck het galgenveld van Amsterdam. Wie op de Dam was terechtgesteld, werd in een veeschuit overgeroeid en bleef hier hangen, vaak met het werktuig van de misdaad boven het hoofd, tot lucht en vogels er niets meer van hadden overgelaten. Zo'n duizend lichamen eindigden hier. Het moest indruk maken op elk binnenkomend schip, en het deed meer dan dat: Amsterdammers wandelden er met hun kinderen heen vanuit de Tolhuistuin, en 's winters schaatsten ze ernaartoe. Dat je niet begraven werd, hoorde bij de straf. Het oudste geschreven spoor van de kindertjesboom staat in Hoofts toneelstuk Warenar (1617). Daar krijgt de moeder van een zwangere vrouw te horen dat de schuit naar de Volewijck vertrekt en dat ze moet komen helpen roeien, zodat meeluisterende kinderen niet snapten dat er een bevalling werd bedoeld.\n\nIn mei 1664 werd Elsje Christiaens, een Deense dienstmeid van 18 die bij een ruzie over de huur haar hospita met een bijl had gedood, op de Dam gewurgd en hier met haar bijl opgehangen. Rembrandt tekende haar twee keer. De Bataafse Republiek schafte de galgenvelden in 1795 af.\n\nDe kuil met drie zuilen waarin de resten belandden is nooit geruimd, alleen onder zand gestopt; toen de industrie kwam, kwamen er botten boven. Stadsarcheologen denken dat hij onder de A'DAM Toren ligt, waar ook deze speld staat. Niets wijst erop, ondanks een petitie voor een monument. De verkeersbrug over het Buiksloterkanaal vlakbij heet sinds 2016 de Elsje Christiaensbrug."
+        }
+      },
+      "body": "From about 1360 until 1795 the tip of the Volewijck, the spit of land opposite the city, was Amsterdam's *galgenveld* (gallows field). People executed on the Dam were rowed across in a cattle boat and left hanging, often with the tool of their crime above their heads, until the air and the birds had consumed them. About a thousand bodies ended here. It was meant to impress every ship sailing in, and it did more: Amsterdammers walked over from the Tolhuis garden with their children, and skated across to it in winter. Denial of burial was part of the punishment. Amsterdam children were told something else about the Volewijck: that babies were picked from a tree there, the *kindertjesboom*. The earliest written trace is in P.C. Hooft's play *Warenar* (1617), where a pregnant woman's mother is told \"the boat is leaving for the Volewijck, you should come and help row\", so that children listening would not know a birth was meant.\n\nIn May 1664 Elsje Christiaens, an 18-year-old Danish maid who had killed her landlady with an axe in a quarrel over rent, was strangled on the Dam and hung here with her axe. Rembrandt drew her twice. The Batavian Republic banned gallows fields in 1795.\n\nThe pit with three columns where the remains collected was never cleared, only covered with sand; bones turned up when industry moved in. City archaeologists think it lies under the A'DAM Toren, which is where this pin stands. Nothing marks it, despite a petition for a memorial. The road bridge over the Buiksloterkanaal nearby has been named the Elsje Christiaensbrug since 2016."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "h59jvdgaowideafcn2efd9di",
+    "title": "'t Zonnehuis and the Zonneplein",
+    "changes": [
+      {
+        "field": "body",
+        "old": "the society building that opened on 29 October 1932",
+        "new": "the society building of 1932",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/508539",
+        "evidence": "Register: design 1932; the opening date of 29 October is not in the sources."
+      },
+      {
+        "field": "body",
+        "old": "Football and athletics clubs, drama and choirs, brass bands and film shows all found a home here.",
+        "new": "It was central to the village's club life: football and athletics, drama and choirs, brass bands and film shows.",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200030",
+        "evidence": "The register names it as the centre of club life with these activities; it does not say every club was housed there."
+      },
+      {
+        "field": "body",
+        "old": "and dance afternoons in the small one, and a green market is held on the square.",
+        "new": "and dance afternoons in the small one.",
+        "kind": "cut",
+        "source": "https://zonnehuis.amsterdam",
+        "evidence": "No source mentions a market on the square."
+      },
+      {
+        "field": "body",
+        "old": "The village still gathers there every 4 May after a silent walk.",
+        "new": "The 4 May commemoration is held there, after a silent walk.",
+        "kind": "narrowed",
+        "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1481/amsterdam-oorlogsgedenkteken-tuindorp-oostzaan",
+        "evidence": "4en5mei: the commemoration on 4 May with a silent walk; 'the village still gathers' overstates it."
+      },
+      {
+        "field": "body",
+        "old": "About a kilometre west, in the newer courts named after constellations",
+        "new": "In the courts named after constellations",
+        "kind": "narrowed",
+        "source": "https://www.historischarchief-toz.nl/kunst-in-de-wijk",
+        "evidence": "Sources place the poem in the constellation courts; the distance and direction are not sourced."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het hart van Tuindorp Oostzaan: een besloten dorpsplein met winkels en bovenwoningen (1922–1924), en op de as daarvan verenigingsgebouw 't Zonnehuis uit 1932, nog steeds een podium voor concerten, toneel en dansmiddagen.",
+          "body": "Tuindorp Oostzaan verrees vanaf 1919 op een voormalige baggerstort. De Gemeentelijke Woningdienst bouwde het voor gezinnen uit de krotten van de binnenstad en voor arbeiders van de werven aan het IJ, en het Zonneplein moest het hart worden. B.T. Boeyinga ontwierp het plein in 1922–1924: lage, symmetrische blokken van twee lagen met beneden winkels en boven woningen, gepleisterde winkelpuien, terugliggende verdiepingen voor balkons en kleine raampjes vlak onder de dakrand. Een poortgebouw en versmalde straateinden maken het plein besloten, als in een dorp.\n\nTegenover het poortgebouw, op de as van de Zonneweg, staat het verenigingsgebouw van 1932 dat later 't Zonnehuis ging heten, door J.H. Mulder ontworpen in sobere Amsterdamse Schoolstijl. Een hoog middendeel met puntgevel staat tussen twee lage vleugels. Tussen bakstenen pilasters zitten drie dubbele deuren, waarvan de middelste het oude kassaloket vervangt, en ijzeren letters vormen 't ZONNEHUIS. Het gebouw was de spil van het verenigingsleven in het dorp: voetbal en atletiek, toneel en koren, fanfares en filmvoorstellingen. Na de watersnood van januari 1960, toen het hele dorp blank stond, is het interieur veranderd. Die ramp heeft een eigen monument op het plein (een aparte plek). Nu zijn er concerten, toneel en musicals in de grote zaal en dansmiddagen in de kleine.\n\nDe andere gedenktekens van het dorp liggen op loopafstand. Op het Aldebaranplein staat een bronzen buste (1999) van Arie Keppler, de eerste directeur van de Woningdienst (1915–1937), die de bouw van Tuindorp Oostzaan en zo'n 30.000 arbeiderswoningen in de hele stad doordreef. Oud-leerlingen van een school in de buurt gaven de opdracht aan Constance Wibaut, kleindochter van wethouder Wibaut, die Kepplers zwager was; Kepplers zoon Jan onthulde het beeld. Zuidelijker, in een parkje aan de Meteorensingel, staat het oorlogsmonument van Jan Havermans: een bronzen vogel met gespreide vleugels boven op een betonnen zuil met in reliëf een vallende man. Bewoners haalden het geld op, en op 4 mei 1950 werd het onthuld. De dodenherdenking op 4 mei vindt er plaats, na een stille tocht. In de hoven die naar sterrenbeelden heten, loopt een gedicht van Toon Tellegen (2006) over acht gevels, de letters hoog geplaatst alsof ze uit de lucht zijn gevallen; het begint op het Sagittahof bij de Meteorenweg.\n\nLet op:\n- de ijzeren letters 't ZONNEHUIS boven de ingang\n- het poortgebouw aan de overkant, aan het eind van de Zonneweg\n- de winkelpuien onder de terugliggende verdiepingen\n- Kepplers buste op het Aldebaranplein, met het monogram CW99\n- de vogel en de vallende man van het oorlogsmonument aan de Meteorensingel\n- Tellegens regel 'Nietsvermoedend en in het donker' op de hoek van het Sagittahof"
+        }
+      },
+      "body": "Tuindorp Oostzaan was built from 1919 by the municipal housing department on a former dredging dump, for families from the inner-city slums and for workers of the shipyards on the IJ. The Zonneplein was meant as its heart. B.T. Boeyinga designed the square in 1922–1924: low, symmetrical blocks of two storeys with shops below and homes above, plastered shopfronts, upper floors set back for balconies and small windows right under the eaves. A gatehouse and narrowed street ends give the square its closed, village feel.\n\nFacing the gatehouse, on the axis of the Zonneweg, stands the society building of 1932, later known as 't Zonnehuis, designed by J.H. Mulder in a sober Amsterdam School style. A tall centre block with a pointed gable sits between two low wings; three double doors stand between brick pilasters, the middle one replacing the original ticket office, and iron letters spell 't ZONNEHUIS. It was central to the village's club life: football and athletics, drama and choirs, brass bands and film shows. The interior was changed after the flood of January 1960, when the whole village stood under water.\n\nToday 't Zonnehuis programmes concerts, theatre and musicals in the large hall and dance afternoons in the small one. The 1960 flood has its own monument on the square (its own place).\n\nThe village's other memorials are a short walk away. On the Aldebaranplein stands a bronze bust (1999) of Arie Keppler, first director of the municipal Housing Department (1915–1937), who drove the building of Tuindorp Oostzaan and some 30,000 working-class homes across the city. Former pupils of a local school commissioned it from Constance Wibaut, granddaughter of alderman Wibaut, who was Keppler's brother-in-law; Keppler's son Jan unveiled it. Further south, in a little park on the Meteorensingel, a bronze bird with spread wings tops a concrete column with a falling man in relief: the war memorial by Jan Havermans, paid for by a collection among residents and unveiled on 4 May 1950. The 4 May commemoration is held there, after a silent walk. In the courts named after constellations, a poem by Toon Tellegen (2006) runs across eight house fronts, its letters set high as if fallen from the sky; it starts on the Sagittahof at the Meteorenweg.\n\nLook for:\n- the iron letters 't ZONNEHUIS over the entrance\n- the gatehouse opposite, at the end of the Zonneweg\n- the shopfronts below the set-back upper floors\n- Keppler's bust on the Aldebaranplein, monogrammed CW99\n- the bird and the falling man of the war memorial on the Meteorensingel\n- Tellegen's line \"Nietsvermoedend en in het donker\" on the Sagittahof corner"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "obm49afjjj5ah0i5hxumloqk",
+    "title": "Former school, Wognumerplantsoen",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "It breaks every rule of the pitched-roof garden village around it.",
+        "new": "It stands apart from the pitched-roof garden village around it.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Tuindorp_Nieuwendam",
+        "evidence": "Wikipedia: the school 'wijkt af' from the rest of the garden village."
+      },
+      {
+        "field": "body",
+        "old": "local historians also see a touch of Frank Lloyd Wright",
+        "new": "local guides also see the influence of the American architect Lloyd Wright",
+        "kind": "narrowed",
+        "source": "https://www.rodi.nl/amsterdam-noord/nieuws/501966/amsterdamse-schoolarchitectuur-in-amsterdam-noord-blauwe-zand-tuindorp-nieuwendam-zunderdorp",
+        "evidence": "Rodi (walking-tour article) names the influence of the American architect Lloyd Wright."
+      },
+      {
+        "field": "body",
+        "old": "Since 2017 it has been a school again",
+        "new": "Today it is a school again",
+        "kind": "narrowed",
+        "source": "https://www.rodi.nl/amsterdam-noord/nieuws/501966/amsterdamse-schoolarchitectuur-in-amsterdam-noord-blauwe-zand-tuindorp-nieuwendam-zunderdorp",
+        "evidence": "No source gives 2017."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een dubbele school uit 1925 van gestapelde bakstenen blokken, die op en neer springen, met uitstekende luifels en schoorstenen met stenen kap boven de ingangen. Hij steekt af tegen het tuindorp met schuine daken eromheen.",
+          "body": "In de zuidoostpunt van Tuindorp Nieuwendam heeft alles een steil pannendak, behalve dit: een plat afgedekt gebouw van opgestapelde bakstenen dozen. Het kwam er in 1925–1926 als dubbele christelijke lagere school, naar tekeningen van Publieke Werken, in een kubistisch-expressionistische trant. Plaatselijke gidsen zien er ook de invloed in van de Amerikaanse architect Lloyd Wright. Een lang, lager middendeel ligt tussen twee rechtopstaande dwarsvleugels van ongelijke hoogte, waarin de twee ingangen zitten. Boven elke ingang steekt een bakstenen schoorsteen met een stenen luifel op, en ook andere bouwdelen hebben scherp uitstekende luifels.\n\nDe lokalen kijken naar achteren, naar het zuiden, met regelmatige ramen van negen ruitjes. Trappen en gangen liggen aan de straatkant, op de verdieping verlicht door een lint van kleine ramen in Amsterdamse Schoolstijl. Later kregen de twee helften elk een ander leven: toen het gebouw in 1997 monument werd, oefende in de ene helft een drumband en zat in de andere een vakschool voor slagers, daar sinds 1979. Nu is het weer een school, de Vrije School Kairos.\n\nLet op:\n- de twee ingangsvleugels met hun schoorstenen met stenen luifel\n- het lint van kleine ramen op de verdieping van het middendeel\n- de rij van vijf hoge gekoppelde ramen op de begane grond\n- het smalle, ladderachtige raam in de westelijke kopgevel\n- het siermetselwerk op de hoeken"
+        }
+      },
+      "summary": "A 1925 double school in brick cubes, stepping up and down with jutting canopies and stone-capped chimneys over the entrances. It stands apart from the pitched-roof garden village around it.",
+      "body": "In the south-eastern tip of Tuindorp Nieuwendam, where everything else wears a steep tiled roof, stands a flat-roofed building made of stacked brick boxes. It was built in 1925–1926 as a double Christian primary school, to drawings from the municipal Public Works department (Publieke Werken), in a cubist-expressionist manner; local guides also see the influence of the American architect Lloyd Wright. A long, lower middle section runs between two upright cross wings of different heights, where the two entrances are. Above each entrance rises a brick chimney with a stone canopy, and other volumes carry sharply projecting canopies too.\n\nThe classrooms face the back (south) with regular nine-pane windows; the stairs and corridors are on the street side, lit by a ribbon of small Amsterdam School windows on the upper floor. Later the two halves had other lives: when the building was listed in 1997, a drum band rehearsed in one and a butchers' training school, there since 1979, used the other. Today it is a school again, now the Vrije School Kairos.\n\nLook for:\n- the two entrance wings and their chimneys with stone canopies\n- the ribbon of small windows on the upper floor of the middle section\n- the row of five tall linked windows on the ground floor\n- the narrow ladder-like window in the west end wall\n- decorative brickwork at the corners"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "gzl06beitpe2grdcyd0ml268",
+    "title": "Wooden houses, Brede Kerkepad",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Two of Amsterdam's rare wooden houses",
+        "new": "Two wooden houses",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6690",
+        "evidence": "No source calls them rare for Amsterdam."
+      },
+      {
+        "field": "body",
+        "old": "Timber was the old building material of the Waterland villages, and these two are listed national monuments.",
+        "new": "In Nieuwendam people built wooden houses along the dike, and these two are listed national monuments.",
+        "kind": "narrowed",
+        "source": "https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0019.php",
+        "evidence": "Monumenten in Nederland: wooden houses along the dike in Nieuwendam; no general claim about all Waterland villages."
+      },
+      {
+        "field": "body",
+        "old": "and clapboarded side walls; the cladding was restored in 1964.",
+        "new": "and clapboarded side walls.",
+        "kind": "cut",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/6692",
+        "evidence": "The 1964 restoration of the cladding is not in the sources."
+      },
+      {
+        "field": "body",
+        "old": "one of the leading monumental artists of post-war Amsterdam",
+        "new": "one of the most important monumental artists",
+        "kind": "narrowed",
+        "source": "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+        "evidence": "Wall-art register: 'een van de belangrijkste monumentale kunstenaars'; no 'post-war Amsterdam'."
+      },
+      {
+        "field": "body",
+        "old": "partly because so much of Horn's work has been demolished",
+        "new": "partly because some of Horn's work has been demolished",
+        "kind": "narrowed",
+        "source": "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+        "evidence": "Wall-art register notes that work by Horn has been demolished, without 'so much'."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twee houten huizen aan het pad naar de dorpskerk: het ene verbergt een 17e-eeuws houtskelet, het andere kreeg in 1768 een bakstenen voorgevel.",
+          "body": "Op Brede Kerkepad 1 prijkt een stenen gevel met het jaartal 1768, maar daarachter zit gewoon een houten huis. Het pad loopt van de Nieuwendammerdijk omlaag naar de Nieuwendammerkerk, en er staan twee houten huizen aan, allebei rijksmonument. In Nieuwendam bouwde men langs de dijk in hout.\n\nNummer 1 heeft een L-vormige plattegrond en kreeg in 1768 die bakstenen voorgevel, met een deuromlijsting en een kroonlijst boven de begane grond. De klokgevel is nagebouwd. Op dit huis staat de speld. Nummer 6, dicht bij de kerk, heeft een 17e-eeuws houtskelet: een stevig voorhuis en een lang, laag achterhuis. De buitenkant is van het begin van de 19e eeuw, met een in- en uitgezwenkte voorgevel, een gesneden kroonlijst, deuromlijsting, deur en bovenlicht, en zijgevels van overnaadse planken.\n\nAan het pad zelf staat ook het voormalige consultatiebureau Purmerweg 46 (Brede Kerkepad 5), ontworpen door Henk 't Hoen van Publieke Werken en in 1968 klaar. Erop zit een tegelmozaïek uit datzelfde jaar van Lex Horn, een van de belangrijkste monumentale kunstenaars. Rechthoekige tegels in wit, grijzen en zwart lijken abstract, maar van een afstand worden het twee zittende, wachtende mensen, een knipoog naar het GGD-bureau binnen. De gemeente geeft het de hoogste waardering, 'top', mede omdat er werk van Horn is gesloopt. Binnen zit een tweede mozaïek. In het gebouw zit nu een kringloopwinkel voor de buurt.\n\nLet op:\n- Purmerweg 46: het tegelmozaïek van Lex Horn op de luifel aan de voorkant\n- Brede Kerkepad 1: het jaartal 1768 in de bakstenen gevel en de klokgevel\n- Brede Kerkepad 1: het L-vormige houten huis achter de stenen gevel\n- Brede Kerkepad 6: de gezwenkte houten voorgevel en de gesneden kroonlijst\n- Brede Kerkepad 6: de deur met bovenlicht\n- Brede Kerkepad 6: de overnaadse planken op de zijgevels en het lange, lage achterhuis"
+        }
+      },
+      "summary": "Two wooden houses on the path down to the village church, one hiding a 17th-century timber frame and one with a brick front dated 1768.",
+      "body": "Two wooden houses line the Brede Kerkepad, the path that runs down from the Nieuwendammerdijk to the Nieuwendammerkerk. In Nieuwendam people built wooden houses along the dike, and these two are listed national monuments.\n\nBrede Kerkepad 1 is a wooden house on an L-shaped plan that was given a brick front in 1768, with a door surround and a cornice over the ground floor; its bell-shaped gable top is a reconstruction. This ensemble is pinned on it. Brede Kerkepad 6, near the church, has a 17th-century timber frame: a sturdy front part and a long, low back house. Its outside dates from the early 19th century, with an outward and inward curving front gable, a carved cornice, door surround, door and fanlight, and clapboarded side walls.\n\nOn the path itself, the former health clinic at Purmerweg 46 (Brede Kerkepad 5), designed by Henk 't Hoen of Public Works and finished in 1968, carries a tile mosaic of that year by Lex Horn, one of the most important monumental artists. Rectangular tiles in white, greys and black seem abstract, but seen from a distance they become two seated, waiting people, a nod to the GGD clinic inside. The city rates it \"top\", its highest grade, partly because some of Horn's work has been demolished. A second mosaic is inside. The building now houses a neighbourhood second-hand shop.\n\nLook for:\n- Purmerweg 46: Lex Horn's tile mosaic on the canopy over the front\n- Brede Kerkepad 1: the date 1768 in the brick front and the bell gable\n- Brede Kerkepad 1: the L-shaped wooden house behind the stone front\n- Brede Kerkepad 6: the curving wooden front gable and carved cornice\n- Brede Kerkepad 6: the door with its fanlight\n- Brede Kerkepad 6: the overlapping weatherboards on the side walls and the long, low back house"
+    },
+    "sources_add": [
+      "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst"
+    ]
+  },
+  {
+    "id": "daf07fkndz0klqv74087vfy0",
+    "title": "NDSM container arch",
+    "changes": [
+      {
+        "field": "body",
+        "old": "a cheap, temporary structure",
+        "new": "a temporary structure",
+        "kind": "cut",
+        "source": "https://www.ndsm.nl/kunst/containerboog-karski-beyond",
+        "evidence": "No source calls it cheap."
+      },
+      {
+        "field": "body",
+        "old": "- the view through the arch towards the shipbuilding hall",
+        "new": "",
+        "kind": "cut",
+        "source": "https://www.ndsm.nl/kunst/containerboog-karski-beyond",
+        "evidence": "No source places the arch on a sightline to the shipbuilding hall."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een poort van opgestapelde zeecontainers, ooit festivaldecor, heet nu iedereen welkom die de werf op loopt. Om het jaar of zo schilderen kunstenaars hem opnieuw, dus hij ziet er nooit twee keer hetzelfde uit.",
+          "body": "Een decorstuk dat niet meer weg mocht. De boog werd ooit neergezet als podiumdecor voor DGTL, het festival voor elektronische muziek op de NDSM. Hij viel zo in de smaak dat hij bleef staan, en ook andere festivals gingen hem gebruiken. Toen de coronajaren de werf leegveegden, besloot de NDSM-stichting de boog regelmatig een nieuw jasje te geven, om het wisselende gevoel van het festivalseizoen vast te houden. Daarvoor vraagt ze kunstenaars.\n\nHet uiterlijk liep flink uiteen: emoji-achtige iconen en reusachtige opblaasdieren in 2018, zwart, blauw en wit in 2021, in 2022 een versie van graffitiduo Karski & Beyond (in opdracht van DGTL, STRAAT en de stichting), en in 2025 The Only Way Is Up van muurschildersduo VAAF: een zon die ook een oog is, met vrouwen die omhoogkijken naar een nieuwe horizon. Voor 2026 ging er opnieuw een open oproep uit. Het herkenningspunt is niet één schildering maar de boog zelf: een tijdelijk bouwsel dat uitgroeide tot een van de symbolen van de werf.\n\nLet op:\n- de opgestapelde containers die samen de poort vormen\n- het huidige ontwerp, dat kan afwijken van de foto's"
+        }
+      },
+      "body": "The arch was first put up as a piece of stage scenery for the DGTL electronic music festival at the NDSM. It proved so popular that it stayed, and other festivals started using it too. When the coronavirus years emptied the wharf of festivals, the NDSM foundation decided to give the arch a new coat regularly, to keep alive the changing feel of the festival season, and it began inviting artists to repaint it.\n\nThe looks have varied a lot: emoji-like icons and giant inflatable animals in 2018, black, blue and white in 2021, a 2022 version by the graffiti duo Karski & Beyond (commissioned by DGTL, STRAAT and the foundation), and in 2025 *The Only Way Is Up* by the mural duo VAAF, a sun that doubles as an eye with women looking up towards a new horizon. For 2026 another open call went out. Rather than any one painting, the arch itself is the landmark: a temporary structure that became one of the symbols of the wharf.\n\nLook for:\n- the stacked containers forming the gateway\n- the current design, which may differ from the photos"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "huz5fcy5ooyl9lc1xaxr1iaw",
+    "title": "Asterdorp gatehouse (Atelier Volten)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "This gatehouse by J.H. Mulder was the only way in",
+        "new": "This gatehouse by J.H. Mulder was at first the only way in",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200503",
+        "evidence": "Register: the gate was originally the only access."
+      },
+      {
+        "field": "body",
+        "old": "now freestanding among sheds",
+        "new": "now freestanding on an industrial estate",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200503",
+        "evidence": "Register: freestanding on the industrial estate; 'sheds' is not in it."
+      },
+      {
+        "field": "body",
+        "old": "on the upper floor, the supervisors' view",
+        "new": "on the upper floor, with its view over the former houses",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200503",
+        "evidence": "Register: the club room looked out over the houses; it does not say the supervisors watched from there."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het laatste gebouw van Asterdorp, de ommuurde 'woonschool' waar de stad 'onaangepaste' gezinnen onder toezicht zette, later een getto voor Joodse bewoners. Sinds 1952 een beeldhouwersatelier.",
+          "body": "Een adres in Asterdorp kon je je baan kosten. In 1927 opende de Woningdienst hier 132 kleine huizen binnen een gesloten ring van achtermuren van 2,2 meter hoog, op een industrieterrein in de Buiksloterham, ver van de dichtstbijzijnde wijk. Het was een woonschool voor gezinnen uit krotten in de binnenstad die nog niet rijp werden geacht voor een gewone gemeentewoning. Opzichteressen controleerden het schoonmaken, het betalen van de huur en de zorg voor de kinderen. Dit poortgebouw van J.H. Mulder was eerst de enige toegang, en vanaf de bovenverdieping, een clublokaal, keek je uit over de huisjes van één laag.\n\nHet experiment mislukte. Bewoners voelden zich gebrandmerkt, en ondanks de woningnood stond het dorp deels leeg. In 1940 vertrokken de meeste gezinnen, veel naar Floradorp; daarna kwamen vluchtelingen uit het gebombardeerde Rotterdam. Vanaf januari 1942 maakte de Duitse bezetter van Asterdorp een getto: eerst voor staatloze Joden uit Duitsland, Oostenrijk en Polen, daarna voor Joden uit de Rivierenbuurt en andere plaatsen. Van de 307 Joodse bewoners werden er 227 vermoord. Duitsland erkende het in 2015 als getto, na de documentaire Het vergeten getto van Saskia van den Heuvel. Bij het bombardement van juli 1943 werd het dorp geraakt, en in 1955 ging het tegen de vlakte.\n\nAlleen het poortgebouw bleef over, nu vrijstaand op een bedrijventerrein. Beeldhouwer André Volten (1925–2002) woonde en werkte er vanaf 1952. Hij sloot de poort af met werkplaatsdeuren en voegde de stalen balken en de hijsbalk toe. Sinds 2016 is het Atelier Volten, open op weekendmiddagen tijdens tentoonstellingen (van het voorjaar tot begin november) en 's winters voor groepen.\n\nAl woonde Volten hier een halve eeuw, Noord kreeg pas in 1996 een openbaar werk van hem, en dat werd zijn laatste: De Knoop, zoals iedereen het naamloze beeld noemt, bij de pont aan de Distelweg, zo'n 600 meter naar het noordwesten. Twee schakels van roestvrij staal rusten op twee pijlers, een op het land en een in het IJ, en knopen Noord vast aan de rest van de stad. Volten noemde het ook een eerbetoon aan zichzelf.\n\nLet op:\n- de doorgang, nog bekleed met grijze gecoate baksteen en een band oranje tegels, zoals ooit alle huizen van Asterdorp\n- de strook van vijf ramen op de bovenverdieping, met uitzicht over waar de huizen stonden\n- Voltens hijsbalk en deurbeslag\n- zo'n 600 meter naar het noordwesten, bij de pont aan de Distelweg: Voltens De Knoop (1996)"
+        }
+      },
+      "body": "In 1927 the city's Housing Department opened Asterdorp: 132 small houses inside a closed ring of back walls 2.2 metres high, on an industrial estate in the Buiksloterham, far from the nearest neighbourhood. It was a *woonschool* (housing school) for families from inner-city slums who were judged not yet fit for a council home. Female supervisors checked their cleaning, rent payments and child care. This gatehouse by J.H. Mulder was at first the only way in, and from its upper floor, a club room, you could look out over the one-storey houses.\n\nThe experiment failed. Residents felt stigmatised (an Asterdorp address could cost you your job), and the village stood partly empty despite the housing shortage. In 1940 most families left, many for Floradorp; refugees from bombed Rotterdam followed. From January 1942 the German occupiers made Asterdorp a ghetto: first stateless Jews from Germany, Austria and Poland, then Jews from the Rivierenbuurt and other towns. Of the 307 Jewish residents, 227 were murdered. Germany recognised it as a ghetto in 2015, after Saskia van den Heuvel's documentary *Het vergeten getto*. The village was hit in the July 1943 bombing and demolished in 1955.\n\nOnly the gatehouse survived, now freestanding on an industrial estate. Sculptor André Volten (1925–2002) lived and worked here from 1952; he closed the gate with workshop doors and added the steel beams and the hoisting beam. Since 2016 it is Atelier Volten, open on weekend afternoons during its exhibitions (spring to early November) and for groups in winter.\n\nAlthough Volten lived here for half a century, Noord got a public work of his only in 1996, and it was his last: *De Knoop* (the knot), as everyone calls the untitled piece, by the Distelweg ferry pier about 600 metres north-west. Two stainless-steel links rest on two pillars, one on land and one in the IJ, tying Noord to the rest of the city. Volten also called it a tribute to himself.\n\nLook for:\n- the passage, still lined with grey coated brick and a band of orange tiles, as all Asterdorp houses once were\n- the strip of five windows on the upper floor, with its view over the former houses\n- Volten's hoisting beam and door fittings\n- about 600 metres north-west, by the Distelweg ferry pier: Volten's De Knoop (1996)"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "abzap9cxjsnf8z2x295bk21u",
+    "title": "Johanna Margaretha nursery",
+    "changes": [],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een kinderbewaarplaats van gele baksteen uit 1930, als een villa aan de rand van het Florapark. Waarschijnlijk het eerste Amsterdamse gebouw voor baby's en peuters dat draaide om frisse lucht en groen.",
+          "body": "Voor de allerkleinsten voelde lang niemand zich verantwoordelijk. De onderwijswetten lieten ze links liggen, en 19e-eeuwse rapporten beschrijven peuters die opeengepakt zaten in armzalige kamers. Particuliere verenigingen sprongen in het gat, onder meer de Vereeniging tot Verbetering der Kleine Kinderen Bewaarplaatsen, in 1872 opgericht door Femina Muller. Voor haar ontwierp Th.J. Roetering in 1930 deze kinderbewaarplaats, voor kinderen van nul tot zes.\n\nHet gebouw staat waar twee straten van het tuindorp op het Florapark uitkomen. Als een landhuis sluit het beide zichtlijnen af, met de rug naar het park. Een hoofdblok van twee lagen in gele baksteen met een rood dak en twee lage vleugels sluiten samen een beschutte speelplaats in, die door een galerij wordt afgesloten: de 'veilige kinderwereld'. Boven woonden de directrice en het personeel, en op de platte daken droogde de was. Binnen zijn de okerkleurige tegels met zwarte rand, de paneeldeuren en een extra lage kinderleuning bewaard gebleven. Voor zover bekend is dit het eerste Amsterdamse gebouw voor baby's en peuters dat aan de idealen van een gezonde, groene ligging voldeed, en het is nog altijd een kinderdagverblijf.\n\nLet op:\n- de geometrische roeden in het bovenlicht boven de ingang\n- het opengewerkte metselwerk daarboven\n- de plek waar vroeger smeedijzeren letters KLEINE KINDEREN BEWAARPLAATS stonden"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "onzcl74s6kps21bou4msg3mt",
+    "title": "Pllek",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "started in 2012 by a film-maker who won a city competition",
+        "new": "started in 2012 by Sjoerd Steenbeek, who won a city competition",
+        "kind": "cut",
+        "source": "https://www.nhnieuws.nl/nieuws/303359/pllek-in-amsterdam-noord-viert-tienjarig-bestaan-van-container-zonder-dak-tot-hotspot",
+        "evidence": "No reachable source says Steenbeek came from film (the Parool interview is behind the privacy gate)."
+      },
+      {
+        "field": "body",
+        "old": "Sjoerd Steenbeek, who came from the film world, won it and built Pllek himself out of shipping containers",
+        "new": "Sjoerd Steenbeek won it and built Pllek out of shipping containers",
+        "kind": "cut",
+        "source": "https://www.nhnieuws.nl/nieuws/303359/pllek-in-amsterdam-noord-viert-tienjarig-bestaan-van-container-zonder-dak-tot-hotspot",
+        "evidence": "NH Nieuws: he won the competition; the film background and 'himself' are not in any reachable source."
+      },
+      {
+        "field": "body",
+        "old": "and a rain shower could empty a fully booked dinner in minutes.",
+        "new": "and with eighty guests booked for dinner, one rain shower could send everyone away.",
+        "kind": "narrowed",
+        "source": "https://www.nhnieuws.nl/nieuws/303359/pllek-in-amsterdam-noord-viert-tienjarig-bestaan-van-container-zonder-dak-tot-hotspot",
+        "evidence": "NH Nieuws: 'tachtig man gereserveerd en dan komt er een regenbui en weg is iedereen'; no 'in minutes'."
+      },
+      {
+        "field": "body",
+        "old": "did as much as the building to make it one of the places that drew Amsterdammers to Noord.",
+        "new": "helped it grow into more than a restaurant.",
+        "kind": "narrowed",
+        "source": "https://www.nhnieuws.nl/nieuws/303359/pllek-in-amsterdam-noord-viert-tienjarig-bestaan-van-container-zonder-dak-tot-hotspot",
+        "evidence": "NH Nieuws: 'uitgegroeid tot meer dan dat, mede door het aangrenzende stadsstrandje'."
+      },
+      {
+        "field": "body",
+        "old": "with music, yoga, festival days and a midsummer fire ceremony",
+        "new": "with live music, body-and-mind workshops and a midsummer fire ceremony",
+        "kind": "narrowed",
+        "source": "https://pllek.nl/",
+        "evidence": "Pllek's 2026 agenda lists Laidback Live, Body & Mind and workshops; the midsummer page has the fire ceremony. Yoga and festival days are not named."
+      },
+      {
+        "field": "body",
+        "old": "- the city beach on the IJ, facing the western docks",
+        "new": "- the city beach on the IJ",
+        "kind": "cut",
+        "source": "https://pllek.nl/",
+        "evidence": "No source says the beach faces the western docks."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een stadsstrand en een paviljoen van zeecontainers aan het IJ op de NDSM, in 2012 begonnen door Sjoerd Steenbeek, die een prijsvraag van de gemeente won. De dubbele L in de naam is een container die op zijn kant staat.",
+          "body": "'Het eerste jaar hadden we geen dak,' vertelde Sjoerd Steenbeek later, en dat had gevolgen: met tachtig gasten gereserveerd voor het diner kon één regenbui iedereen wegjagen. In 2012 schreef de gemeente een prijsvraag uit voor een tijdelijk horecaconcept op een braakliggend stuk van de NDSM-werf. Steenbeek won en bouwde Pllek op uit zeecontainers; de dubbele L in de naam is een container die op zijn kant staat. Op Koninginnedag 2012 ging de zaak open. Het zandstrand ernaast, met zicht recht over het IJ, hielp om er meer dan een restaurant van te maken.\n\nDe vergunning liep vanaf het begin maar tot 2022. Toen het einde naderde, haalde een petitie duizenden handtekeningen op, en een motie van vijf raadsfracties rekte het verblijf op tot 2025. In 2026 draait Pllek nog steeds, met naast het restaurant livemuziek, workshops voor lichaam en geest en een vuurceremonie op midzomernacht. Groei heeft ook een keerzijde, zegt Steenbeek: 'Daardoor word je ook wat minder alternatief.'\n\nLet op:\n- de opgestapelde containers waaruit het gebouw bestaat\n- het stadsstrand aan het IJ\n- het uitzicht op de Faraldakraan en de hellingen ernaast"
+        }
+      },
+      "summary": "A city beach and a hall built from sea containers on the IJ bank of the NDSM, started in 2012 by Sjoerd Steenbeek, who won a city competition. Its odd double L stands for a container tipped on its side.",
+      "body": "In 2012 the city held a competition for a temporary food-and-drink concept on a patch of the empty NDSM wharf. Sjoerd Steenbeek won it and built Pllek out of shipping containers; the double L in the name is a container standing on its side. It opened on Queen's Day 2012. \"The first year we had no roof\", he later recalled, and with eighty guests booked for dinner, one rain shower could send everyone away. The sand beach beside it, looking straight across the IJ, helped it grow into more than a restaurant.\n\nFrom the start the permit ran only to 2022. When the end came near, a petition gathered thousands of signatures and a council motion backed by five parties extended Pllek's stay to 2025. In 2026 it is still running, with live music, body-and-mind workshops and a midsummer fire ceremony alongside the restaurant. Steenbeek has said the growth had a downside too: \"you become a bit less alternative\".\n\nLook for:\n- the stacked containers that make up the building\n- the city beach on the IJ\n- the view of the Faralda crane and the slipways next door"
+    },
+    "sources_add": [
+      "https://pllek.nl/"
+    ]
+  },
+  {
+    "id": "qulj7vzpkfszw4i8dtqu9plt",
+    "title": "De Kapel, former town hall of Durgerdam",
+    "changes": [
+      {
+        "field": "body",
+        "old": "it was the village's *raadhuis* (town hall) and later its school",
+        "new": "it was the village's *raadhuis* (town hall) and its school",
+        "kind": "narrowed",
+        "source": "https://onsamsterdam.nl/artikelen/getuigen-van-bewogen-dorpsgeschiedenis",
+        "evidence": "Ons Amsterdam: the building was the meeting place of the village council and by day the village school, so not 'later'."
+      },
+      {
+        "field": "body",
+        "old": "It has long been a private house: enjoy it from the dike.",
+        "new": "It is now a private house: enjoy it from the dike.",
+        "kind": "narrowed",
+        "source": "https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0059.php",
+        "evidence": "Monumenten in Nederland: 'Het nu als woonhuis ingerichte pand'; no 'long'."
+      },
+      {
+        "field": "body",
+        "old": "- the view of the Kapel from the water side, where it rises above the dike",
+        "new": "- the view of the Kapel from the water side",
+        "kind": "narrowed",
+        "source": "https://onsamsterdam.nl/artikelen/getuigen-van-bewogen-dorpsgeschiedenis",
+        "evidence": "No source says the building rises above the dike."
+      },
+      {
+        "field": "body",
+        "old": "whose long slipway along the dike took *tjalken* (cargo barges) and *botters* (fishing boats).",
+        "new": "with a long slipway along the dike for *tjalken* (cargo barges) and two for *botters* (fishing boats).",
+        "kind": "narrowed",
+        "source": "https://beeldarchief.hcan.nl/landelijk_noord/ca-1900-de-werf-aan-het-oosteinde-met-daarachter-de-kapel/",
+        "evidence": "Noord in Beeld caption: 'de werf van Cornelis Kleijn met een lange helling langs de dijk voor de tjalken en twee voor de botters'."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het herkenningsteken van Durgerdam: een vierkant houten gebouw onder een tentdak met een koepeltorentje, herbouwd in 1687 na de dorpsbrand. Iedereen noemt het de Kapel, maar het was raadhuis, school en visafslag.",
+          "body": "Durgerdam noemt het de Kapel, maar het gebouw is juist bekend om alles behalve kerkdiensten. Halverwege de dijk staat een vierkant houten gebouw onder een tentdak, met daarop een houten torentje met koepeldak en uurwerk. Een gevelsteen dateert het op 1687, het jaar waarin een brand door het dorp trok. Het was het raadhuis van het dorp en de dorpsschool, en op een foto uit 1922 staat het als visafslag van het vissersdorp. Rond 1900 stond het achter de scheepswerf van Cornelis Kleijn. Die had een lange helling langs de dijk voor tjalken en nog twee voor botters.\n\nDe klok in het torentje werd eind 1689 gegoten door de Amsterdamse klokkengieter Gerard Koster en, net als de herbouw, betaald uit een loterij van 1687. Hij ontsnapte ternauwernood: op 13 januari 1943 haalden de Duitsers hem weg om te laten omsmelten. Na de oorlog dook hij op in Groningen, en na een kleine reparatie hing hij weer in de toren.\n\nHet geraamte is van hout, net als bij de huizen eromheen, en de voorkant heeft een empiredeur met snijraam. In 1951 werd het gebouw gerestaureerd en in 2012 volgde een ontwerpvergunning voor een nieuwe restauratie. Het is nu een woonhuis, dus bekijk het vanaf de dijk.\n\nLet op:\n- het houten koepeltorentje met wijzerplaat en de klok van 1689\n- de gevelsteen met het jaartal 1687\n- de empiredeur met snijraam en de ramen met kleine ruitjes\n- het zicht op de Kapel vanaf de waterkant"
+        }
+      },
+      "body": "Halfway along the dike stands a square wooden building under a tent roof, crowned by a wooden tower with a dome-shaped roof and a clock. A gable stone dates it to 1687, the year fire swept through the village. The bell in the tower was cast at the end of 1689 by the Amsterdam founder Gerard Koster; like the rebuilding, it was paid for from a lottery held in 1687. Durgerdam calls it *de Kapel* (the chapel), yet the building is known for anything but church use: it was the village's *raadhuis* (town hall) and its school, and on a photograph of 1922 it appears as the *visafslag* (fish auction) of the fishing village. Around 1900 it stood behind the shipyard of Cornelis Kleijn, with a long slipway along the dike for *tjalken* (cargo barges) and two for *botters* (fishing boats).\n\nThe bell had a narrow escape. On 13 January 1943 the Germans took it away to be melted down; it turned up in Groningen after the war and came back to the tower after a small repair.\n\nThe frame is timber, like the houses around it, and the front has an Empire-style door with a fanlight. The building was restored in 1951, and a draft permit for a new restoration followed in 2012. It is now a private house: enjoy it from the dike.\n\nLook for:\n- the domed wooden tower with its clock face and bell of 1689\n- the gable stone with the year 1687\n- the Empire door with fanlight and the small-paned windows\n- the view of the Kapel from the water side"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "cqnn6fjin80y41zevrrqqefr",
+    "title": "Flyways (Harmen Liemburg), metro station Noord",
+    "changes": [
+      {
+        "field": "body",
+        "old": "a graphic designer who also trained as a cartographer",
+        "new": "a graphic designer with a background in cartography",
+        "kind": "narrowed",
+        "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1165",
+        "evidence": "Buitenkunst: 'naast een opleiding als grafisch ontwerper ook een achtergrond als cartograaf'; training is stated only for graphic design."
+      },
+      {
+        "field": "body",
+        "old": "- the swift and the grebe around the openings to the bus station below",
+        "new": "- the swift and the grebe, and the openings to the bus station below",
+        "kind": "narrowed",
+        "source": "https://www.buitenkunstamsterdam.nl/kunstwerken/bekijk/1165",
+        "evidence": "Buitenkunst: the drawings are spread around the voids; it does not place these two birds there."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De perronvloer van metrostation Noord is een vogelencyclopedie van 130 meter, uitgesneden in tegels. Aan de noordkant landen ganzen uit Scandinavië, aan de zuidkant vertrekken trekvogels naar Afrika, en daartussen zit een gruttokuiken in een sloot.",
+          "body": "Elke dag lopen duizenden mensen over het perron van het noordelijke eindpunt van de Noord/Zuidlijn, en weinigen kijken omlaag. Toch ligt daar, op 130 bij 13 meter, een heel verhaal over trekvogels, getekend in witte lijnen op antraciet tegels. Kunstenaar Harmen Liemburg, grafisch ontwerper met een achtergrond in de cartografie, dacht aan zijn fietstochten naar Waterland en Het Twiske. Daar keren in het voorjaar trekvogels uit het zuiden terug en grazen 's winters Scandinavische ganzen in de polder. Hij zag een parallel met de reizigers: forenzen die van bus op metro overstappen, Noorderlingen, toeristen.\n\nZo leest de vloer als een stripverhaal van noord naar zuid: aankomende ganzen aan de noordkant, standvogels van riet en polder in het midden, vogels op weg naar Afrika aan de zuidkant. Gierzwaluw, fuut, knobbelzwaan, reiger en duif ontbreken niet. Waar hij ruimte had, zoomt Liemburg in: op een ganzenkop, of op een enorm gruttokuiken in een boerensloot, gezien door de scherpe ogen van een roofvogel. Elke witte vorm werd met een waterstraal gesneden en met de hand in de donkere tegel gelegd; geen lijn mocht smaller zijn dan 20 millimeter. Het station ging in juli 2018 open, samen met de lijn.\n\nHet station zelf is van Benthem Crouwel: een eilandperron van 132 meter op een viaduct midden in de Nieuwe Leeuwarderweg, met vijf vides en een overkapping van 16 meter hoog. Samen met de zes andere stations die het bureau voor de lijn ontwierp, won het in 2019 zowel de BNA Beste Gebouw van het Jaar als de Gouden A.A.P., de Amsterdamse architectuurprijs.\n\nLet op:\n- de ganzen aan de noordkant van het perron\n- het gruttokuiken in de sloot\n- de gierzwaluw en de fuut, en de vides naar het busstation eronder\n- de lange overkapping van het perron, gezien vanaf het busstation"
+        }
+      },
+      "body": "Thousands of people cross the platform of the Noord-Zuidlijn's northern terminus every day, and few look down. Under their feet, white lines on anthracite tiles draw a whole story of migrating birds over 130 by 13 metres. Artist Harmen Liemburg, a graphic designer with a background in cartography, thought of his bike rides into Waterland and Het Twiske, where migrants return from the south in spring and Scandinavian geese graze the polders in winter. He saw a parallel with the passengers: commuters changing from bus to metro, Noorderlingen, tourists.\n\nSo the floor reads like a comic strip from north to south: geese arriving at the north end, resident birds of the reeds and polders in the middle, birds heading for Africa at the south end. Swift, great crested grebe, mute swan, heron and pigeon are there, and in places where he had room Liemburg zooms in, to a goose's head or a huge godwit chick in a farm ditch, seen through the sharp eyes of a bird of prey. Every white shape was cut with a water jet and inlaid by hand into its dark tile; no line could be thinner than 20 mm. The station opened with the line in July 2018.\n\nThe station around it is by Benthem Crouwel: a 132-metre island platform on a viaduct in the middle of the Nieuwe Leeuwarderweg, cut through by five voids and covered by a roof 16 metres high. Together with the line's six other stations by the same architects, it won both the BNA Best Building of the Year and the Golden AAP, the Amsterdam architecture prize, in 2019.\n\nLook for:\n- the geese at the north end of the platform\n- the godwit chick in the ditch\n- the swift and the grebe, and the openings to the bus station below\n- the long roof over the platform, seen from the bus station"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "ecenijy92j7rmyke56jdnp5w",
+    "title": "Schellingwouderbreek",
+    "changes": [
+      {
+        "field": "body",
+        "old": "They won in 1659 and painted the victory on their church chest",
+        "new": "They won in 1659 and put a verse about the victory on their church chest",
+        "kind": "narrowed",
+        "source": "https://onsamsterdam.nl/artikelen/de-schellingwouderbreek-en-de-allerheiligenvloed-1570",
+        "evidence": "Ons Amsterdam: 'Op de kerkkist van Schellingwoude kwam een versje te staan'; painting is not mentioned."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De vijver in dit park uit de jaren zestig is een kolk die de zee uitsleet toen de dijk bij de Allerheiligenvloed van 1570 doorbrak. Geld om hem te dempen was er nooit, dus bleef hij liggen. Een gedenkplaat met een barstende 'IJ' wijst erop.",
+          "body": "In de nacht van 1 op 2 november 1570 joeg een storm uit het noordwesten het water op tot de hoogste stormvloed die Nederland ooit heeft gekend: zo'n vier meter boven NAP, hoger dan in 1953. Bij Schellingwoude bezweek de Waterlandse zeedijk, en het water dat door de bres kolkte, sleet erachter een diepe kuil uit. Toen de dijk weer dicht was, bleef die kuil over als meertje, een breek. Om hem te dempen of droog te malen was geen geld.\n\nDe vloed ontketende ook een ruzie die dit hoekje van Waterland tekent. De boeren van Schellingwoude moesten hun eigen stuk dijk onderhouden, konden dat na de ramp niet meer betalen en hielden bijna een eeuw lang vol dat heel Waterland moest meebetalen. In 1659 kregen ze gelijk, en op hun kerkkist kwam een versje over die overwinning (zie Schellingwouderkerk en muziekkoepel).\n\nTot Amsterdam het in 1921 annexeerde, hoorde het meertje bij Ransdorp. Rond 1960 rukten de nieuwe wijken van Nieuwendam op en kwam er een park omheen; in 1969–1970 volgden eilandjes en houten voetbruggen. Op 1 november 2020, 450 jaar na de vloed, onthulden de Vrienden van het Schellingwouderbreekpark bij de Volendammerweg een gedenkplaat, ontworpen door Hendrik Hollander en Marno Wolters: een barstende 'IJ' voor de gebroken dijk. Inmiddels wonen hier ijsvogels en verschillende soorten vleermuizen.\n\nLet op:\n- de gedenkplaat aan de noordwestrand, bij de Volendammerweg\n- de eilandjes en voetbruggen aan de oostkant\n- de Schellingwouderdijk in het zuiden, waar de doorbraak was"
+        }
+      },
+      "body": "On the night of 1 to 2 November 1570 a north-westerly storm drove up the highest storm tide ever recorded in the Netherlands, about four metres above sea level, higher than in 1953. Near Schellingwoude the Waterland sea dike gave way, and the water churning through the gap scoured a deep hole behind it. When the dike was mended the hole was left as a lake, a *breek* (breach pool): there was no money to fill it or pump it dry.\n\nThe flood also started a fight that defines this corner of Waterland. Schellingwoude's farmers had to keep their own stretch of dike, could not afford it after the disaster, and argued for almost a century that all of Waterland should pay. They won in 1659 and put a verse about the victory on their church chest (see Schellingwouderkerk and bandstand).\n\nThe lake belonged to Ransdorp until Amsterdam annexed it in 1921. Around 1960 the new estates of Nieuwendam closed in and a park was laid out around it, with islands and wooden footbridges added in 1969–1970. On 1 November 2020, 450 years after the flood, the Friends of the Schellingwouderbreekpark unveiled a memorial plate by the Volendammerweg, designed by Hendrik Hollander and Marno Wolters: a cracking \"IJ\" for the broken dike. Kingfishers and several kinds of bats live here now.\n\nLook for:\n- the memorial plate on the north-west bank, by the Volendammerweg\n- the islands and footbridges on the east side\n- the line of the Schellingwouderdijk to the south, where the breach was"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "fjuaa0ep70khfp4ksauepzci",
+    "title": "Sint Rita complex (BUNK)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "the church is now a hotel with pods under the arches.",
+        "new": "the church is now a hotel with pods.",
+        "kind": "narrowed",
+        "source": "https://www.bunkhotels.com/amsterdam",
+        "evidence": "BUNK Amsterdam: rooms and pods in a monumental church; nothing places the pods under the arches."
+      },
+      {
+        "field": "body",
+        "old": "the church is now BUNK, a hotel with pods in the nave.",
+        "new": "the church is now BUNK, a hotel with rooms and pods.",
+        "kind": "narrowed",
+        "source": "https://www.bunkhotels.com/amsterdam",
+        "evidence": "BUNK Amsterdam site: 'Rooms & pods' in 'our monumental churches'; the nave is not named."
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Kropholler bouwde hier een complete katholieke enclave van baksteen: kerk, pastorie, klooster, kloosterhof en school. In juli 1943 viel een bom in de volle kerk. Nu is de kerk een hotel met pods.",
+          "body": "Op 17 juli 1943 vierde de parochie haar 25-jarig bestaan met een mis voor de kinderen uit de buurt, toen het Amerikaanse bombardement op de Fokkerfabriek misging. Een zware bom sloeg door het dak. Elf kerkgangers kwamen om, onder wie twee misdienaars van 13, en in het klooster vielen zeven zusters.\n\nTussen 1921 en 1931 had A.J. Kropholler rond een driehoekig grasveld aan het Hagedoornplein een hele katholieke wereld neergezet: de kerk Sint Rita over 't Y (1921–1922), de pastorie, het Sint-Rosaklooster van de dominicanessen van Voorschoten met kapel (1926–1927), een kloosterhof met ommuurde moestuin, de Sint-Rosaschool (1929–1930) en een dubbel woonhuis aan de Buiksloterweg (1930). Het is zijn typische traditionalisme: donkerbruine baksteen, rode daken, details in natuursteen, spitsbogen.\n\nNa de oorlog herstelde C.M. van Moorsel alles, en in 1947 gaf hij de kerk haar huidige gedrongen toren in plaats van de geplande spits. Vanaf 1995 raakten de gebouwen hun religieuze functie kwijt. In de westelijke helft van de kerk zat sinds 1973 een bibliotheek; nu is de kerk BUNK, een hotel met kamers en pods. Klooster en school zijn woningen.\n\nLet op:\n- het bord over de bom van 1943, links van de hotelingang\n- een herdenkingsputdeksel op het Hagedoornplein, tegenover de kerk\n- het tegeltableau met een roos op het dubbele woonhuis, Buiksloterweg 97-99, en de stenen heilige onder een dakje\n- Catharina van Siena en de duif op de tegeltableaus van de school\n- het glas-in-loodraam met Sint-Rita uit 1948 in het trappenhuis van de pastorie (Buiksloterweg 95), geschonken door de zusters"
+        }
+      },
+      "summary": "Kropholler's brick Catholic enclave of church, presbytery, convent, cloister and school. A bomb fell into the full church in July 1943; the church is now a hotel with pods.",
+      "body": "Between 1921 and 1931 A.J. Kropholler built a whole Catholic world around a triangular green on the Hagedoornplein: the church of *Sint Rita over 't Y* (1921–1922), its presbytery, the Sint Rosa convent of the Dominican sisters of Voorschoten with its chapel (1926–1927), a cloister with a walled vegetable garden, the Sint Rosa school (1929–1930) and a pair of houses on the Buiksloterweg (1930). It is his typical traditionalism: dark brown brick, red roofs, natural-stone details, pointed arches.\n\nOn 17 July 1943 the parish was celebrating its 25th anniversary with a mass for local children when the American raid on the Fokker factory went astray. A heavy bomb crashed through the roof; eleven churchgoers died, two of them 13-year-old altar boys, and seven nuns died in the convent. C.M. van Moorsel restored everything after the war and in 1947 gave the church its present squat tower instead of the planned spire. The buildings lost their religious use from 1995; the west half of the church held a library from 1973, and the church is now BUNK, a hotel with rooms and pods. The convent and school are homes.\n\nLook for:\n- the marker about the 1943 bomb to the left of the hotel entrance\n- a memorial manhole cover on the Hagedoornplein, opposite the church\n- the tile panel with a rose on the double house, Buiksloterweg 97-99, and the stone saint under a little roof\n- Catharina of Siena and the dove on the tile panels of the school\n- the 1948 stained-glass window of Saint Rita in the presbytery stairwell (Buiksloterweg 95), given by the sisters"
+    },
+    "sources_add": [
+      "https://www.bunkhotels.com/amsterdam"
+    ]
+  }
+]

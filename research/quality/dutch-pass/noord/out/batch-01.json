@@ -1,0 +1,958 @@
+[
+  {
+    "id": "td2q8znqxxc4iio1a3djr0cc",
+    "title": "Floradorp",
+    "changes": [
+      {
+        "field": "body",
+        "old": "In the 1920s Amsterdam declared hundreds of slum dwellings unfit, on Uilenburg, Rapenburg and in the Jordaan, but could only clear them once it had somewhere else to put the residents.",
+        "new": "In the 1920s Amsterdam was declaring slum dwellings unfit on a large scale, on Uilenburg, Rapenburg and in the Jordaan, but hundreds of them could only be declared unfit once the residents had somewhere else to go.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Floradorp",
+        "evidence": "Honderden krotwoningen konden pas onbewoonbaar worden verklaard zodra er een redelijk alternatief was voor de bewoners (the limit was on declaring unfit, not on clearing)"
+      },
+      {
+        "field": "body",
+        "old": "123 from the wooden emergency village Obelt",
+        "new": "123 from the largely wooden emergency village Obelt",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Vogeldorp",
+        "evidence": "The Floradorp article says only 'het nooddorp Obelt'; the Vogeldorp article: 'het grotendeels houten nooddorp Erica gebouwd, ook wel Obelt genoemd' (1917)"
+      }
+    ],
+    "patch": {
+      "body": "In the 1920s Amsterdam was declaring slum dwellings unfit on a large scale, on Uilenburg, Rapenburg and in the Jordaan, but hundreds of them could only be declared unfit once the residents had somewhere else to go. Floradorp was one answer: 600 municipal houses for large, poor families, built to the minimum standards (no bathrooms) so rents could stay low. The first 183 were finished in 1927, the last in 1929. A 1930 count of the first households lists 144 from condemned homes, 123 from the largely wooden emergency village Obelt and 20 from the \"housing school\" Asterdorp. In the middle, the Binnenhof was a group of gabled cottages specially for old people, unusual at the time.\n\nA renovation in the mid-1990s gave the brick walls a pastel render, pink or blue, with tiles along the base and the eaves, and merged the old people's cottages, turning the Binnenhof into a closed garden. Floradorp is still a close-knit working-class neighbourhood where families stay for generations, and is known for its rebellious streak, not least its decades-long tradition of a big, unofficial New Year's bonfire, banned by the city again for 2025 and 2026. Residents' homes: walk through, don't intrude.",
+      "translations": {
+        "nl": {
+          "summary": "Zeshonderd gemeentehuizen uit 1927 tot 1929 voor grote, arme gezinnen uit afgekeurde krotten en uit Asterdorp. Nu roze en blauw gepleisterd, met een besloten hof die ooit voor ouderen was gebouwd, en een buurt die bekendstaat als dwars.",
+          "body": "Amsterdam kon honderden krotten pas onbewoonbaar verklaren als de bewoners ergens anders heen konden. In de jaren twintig ging het om panden op Uilenburg, Rapenburg en in de Jordaan. Floradorp was een van de oplossingen: 600 huizen van de gemeente voor grote gezinnen met weinig geld. Alles volgens de minimumnormen, een badkamer zat er niet in, zodat de huur laag kon blijven. In 1927 waren de eerste 183 klaar, in 1929 de laatste.\n\nWie kwamen er wonen? Een telling uit 1930 noemt onder meer 144 huishoudens uit afgekeurde woningen, 123 uit Obelt, een nooddorp van voornamelijk hout, en 20 uit Asterdorp, de zogeheten woonschool. Midden in de buurt lag het Binnenhof: huisjes met puntdaken, alleen voor ouderen. In die tijd was dat een ongewoon idee.\n\nHalverwege de jaren negentig ging alles op de schop. Over de bakstenen kwam pleisterwerk in roze of blauw, met tegeltjes langs de voet van de muur en onder de goot. De ouderenhuisjes gingen samen, en het Binnenhof werd een afgesloten tuin.\n\nFloradorp is nog steeds een hechte arbeidersbuurt waar families generaties lang blijven, en staat bekend als opstandig. Het bekendste voorbeeld: al tientallen jaren een groot, illegaal vuur met oud en nieuw. De gemeente verbood het opnieuw, voor 2025 en voor 2026. Het zijn gewone woonhuizen: loop gerust door de straten, maar laat de bewoners met rust."
+        }
+      }
+    },
+    "sources_add": [
+      "https://nl.wikipedia.org/wiki/Vogeldorp"
+    ]
+  },
+  {
+    "id": "nuqsymjh4xj2yngi5qu9i3rv",
+    "title": "Florapark gardeners' shed",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "built by Public Works to keep the tools of the Florapark's gardeners",
+        "new": "built by Public Works as the gardeners' and planting shed of the Florapark",
+        "kind": "narrowed",
+        "source": "city:200671 (register text)",
+        "evidence": "'als een tuinders- en beplantingsloods werd opgezet', 'voor het onderhoud van het Florapark bestemde tuindersloods'; nothing on tools"
+      },
+      {
+        "field": "body",
+        "old": "The Florapark, laid out from 1920 in the English landscape style",
+        "new": "The Florapark, designed in 1920 and laid out from 1921 in the English landscape style",
+        "kind": "narrowed",
+        "source": "city:200671 (register text)",
+        "evidence": "'aangelegd in 1921-1931'; 'Het ontwerp voor het Florapark dateert uit 1920'"
+      },
+      {
+        "field": "body",
+        "old": "like the old wooden houses of the Noord dike villages",
+        "new": "in the tradition of rural timber building north of the IJ",
+        "kind": "narrowed",
+        "source": "city:200671 (register text)",
+        "evidence": "'aansluitende bij de traditionele landelijke houtbouw in het noordelijke deel van Amsterdam'; dike villages not named"
+      }
+    ],
+    "patch": {
+      "summary": "A thatched timber cottage of 1930, built by Public Works as the gardeners' and planting shed of the Florapark, in the same picturesque spirit as the park and the garden villages around it.",
+      "body": "The Florapark, designed in 1920 and laid out from 1921 in the English landscape style (probably by the city's head of planting, H.C. Zwart), was one of the socialist parks of Noord: space, light and greenery for the families of the new garden villages, with an educational streak inspired by nature writer Jac. P. Thijsse. In 1930 Public Works built this shed for the park's maintenance staff.\n\nIt is a little English-style cottage: a brick base, walls of horizontal weatherboarding in the tradition of rural timber building north of the IJ, small-paned windows with shutters, ledged doors under a running canopy and a deep thatched roof with half-hipped ends. Remarkably intact, it looks like a park ornament more than a works yard.",
+      "translations": {
+        "nl": {
+          "summary": "Een houten huisje met rieten dak uit 1930, door Publieke Werken neergezet als loods voor de tuinders en de beplanting van het Florapark. Even schilderachtig als het park zelf en de tuindorpen eromheen.",
+          "body": "Wie hier een gereedschapsschuur verwacht, ziet een Engels cottage. De gemeentedienst Publieke Werken tekende het gebouwtje in 1930 voor de mensen die het Florapark bijhielden.\n\nHet park zelf is ook een verhaal. Het ontwerp is van 1920, waarschijnlijk van H.C. Zwart, destijds het hoofd van de gemeentelijke beplanting, en vanaf 1921 werd het in Engelse landschapsstijl aangelegd. Het hoorde bij de socialistische parken van Noord: ruimte, licht en groen voor de gezinnen in de nieuwe tuindorpen, met een opvoedende kant die zijn inspiratie haalde bij natuurliefhebber Jac. P. Thijsse.\n\nDe loods staat op een gemetselde voet. Daarboven horizontale houten delen, in de lijn van de oude landelijke houtbouw ten noorden van het IJ. Verder kleine ruitjes met luiken, opgeklampte deuren onder een doorlopende luifel, en een diep rieten dak met wolfeinden. Het is opvallend gaaf gebleven, en het lijkt eerder een sieraad in het park dan een werkplaats."
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "lr71suohph46scsrja5q12gu",
+    "title": "Museum Amsterdam Noord",
+    "changes": [
+      {
+        "field": "body",
+        "old": "has housed Museum Amsterdam Noord, run by people from the neighbourhood.",
+        "new": "has housed Museum Amsterdam Noord.",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Museum_Amsterdam_Noord",
+        "evidence": "No source (Wikipedia, museum plan page, Vogeldorp article) says who runs the museum"
+      }
+    ],
+    "patch": {
+      "body": "The houses of Vogeldorp had no bathroom, so the village got a bathhouse where women and men showered in turns. Since April 2009 the little building on the corner of the Zamenhofstraat and the Meeuwenlaan has housed Museum Amsterdam Noord.\n\nTwo permanent displays tell the story of Amsterdam-Noord and of Vogeldorp and its bathhouse; changing exhibitions dig into the past, present and future of Noord. The museum also holds talks and film nights and organises guided walks through Noord. The collection is modest; the building itself, and the stories of residents then and now, are the point. Het Parool once counted the old bathhouse among the five gems of Noord on Open Monument Day.\n\nThe museum is usually open from Thursday to Sunday in the afternoon; check its website before going.",
+      "translations": {
+        "nl": {
+          "summary": "Het geschiedenismuseum van Noord zit in het badhuis van Vogeldorp uit 1919: de huizen daar hadden geen badkamer, dus mannen en vrouwen douchten hier om beurten. Met exposities over Noord, lezingen, films en wandelingen.",
+          "body": "Een badkamer kregen de huizen van Vogeldorp niet mee. Daarom kreeg het dorp in 1919 een badhuis, waar vrouwen en mannen om de beurt onder de douche gingen. Sinds april 2009 zit in dat gebouwtje, op de hoek van de Zamenhofstraat en de Meeuwenlaan, Museum Amsterdam Noord.\n\nTwee vaste opstellingen vertellen over Amsterdam-Noord als geheel en over Vogeldorp met zijn badhuis. Daarnaast zijn er wisselende tentoonstellingen die het verleden, het heden en de toekomst van Noord onder de loep nemen. Er zijn lezingen en filmavonden, en het museum neemt je mee op rondleidingen door het stadsdeel. Groot is de collectie niet; waar je voor komt is het gebouw, en de verhalen van wie er vroeger woonde en wie er nu woont. Het Parool rekende het oude badhuis op Open Monumentendag ooit tot de vijf parels van Noord.\n\nMeestal is het museum van donderdag tot en met zondag 's middags open. Check de website even voor je gaat."
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "wc8isqiervzjzn2ftiqefzso",
+    "title": "Volgermeerpolder",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "a reedy wetland of terraced \"sawas\"",
+        "new": "a reedy wetland of \"sawas\"",
+        "kind": "cut",
+        "source": "https://onh.nl/verhaal/de-volgermeerpolder-van-gifbelt-tot-waterlandse-sawa",
+        "evidence": "Sources describe kades and dijkjes on 'het golvende terrein' holding rainwater in sawa's; nothing on terraces"
+      },
+      {
+        "field": "body",
+        "old": "Digging it all out proved impossible.",
+        "new": "The site was too big to dig out.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Volgermeerpolder",
+        "evidence": "'Omdat het terrein te groot is voor een bodemsanering'"
+      },
+      {
+        "field": "body",
+        "old": "hold rainwater in shallow terraced basins",
+        "new": "hold rainwater in shallow basins",
+        "kind": "cut",
+        "source": "https://onh.nl/verhaal/de-volgermeerpolder-van-gifbelt-tot-waterlandse-sawa",
+        "evidence": "No source mentions terraces"
+      },
+      {
+        "field": "body",
+        "old": "Today it is one of the wildest places in Amsterdam.",
+        "new": "Today it is a young nature reserve that is doing well.",
+        "kind": "narrowed",
+        "source": "https://www.nhnieuws.nl/nieuws/326210/van-gifbelt-naar-succesverhaal-recordaantal-ringslangeitjes-uitgekomen-in-volgermeerpolder",
+        "evidence": "'dit jonge natuurgebied, waar het gezien deze resultaten goed gaat'; no source ranks it among the wildest places in Amsterdam"
+      },
+      {
+        "field": "body",
+        "old": "(more than 400 in 2025)",
+        "new": "(more than 400 in 2025)",
+        "kind": "sourced",
+        "source": "https://www.volgermeer.nl/artikel/natuurwerkdag-11-oktober-het-succes-van-de-ringslang",
+        "evidence": "'in 3 broeihopen zijn meer dan 400 eieren gevonden' (natuurwerkdag 11 October 2025); news overview calls it a 'record aantal ringslang eieren'"
+      },
+      {
+        "field": "body",
+        "old": "Walk the 4.3 km yellow loop from the starting point on the north side;",
+        "new": "Walk the 4.3 km yellow loop from the Startpunt Volgermeer;",
+        "kind": "cut",
+        "source": "https://www.wandelnetwerknoordholland.nl/startpunten/startpunt-volgermeer/1130",
+        "evidence": "The walking network page names the Startpunt Volgermeer and the 4.31 km Rondje Volgermeer (geel) but not which side it is on"
+      }
+    ],
+    "patch": {
+      "summary": "The country's worst toxic dump, sealed under foil and clean soil, is now a reedy wetland of \"sawas\" with grass snakes, bearded tits and a bird screen. The poison is still there; the groundwater is checked every year.",
+      "body": "Despite the name it was never a drained lake: it was ordinary peat meadow called *Volgerweren*, renamed Volgermeerpolder by mistake on an official map of 1853. Between 1920 and 1955 the peat was dug out for fuel as the Veenderij Zunderdorp, leaving deep pits of water. From 1927 Amsterdam filled the pits with household rubbish, brought in by barge.\n\nIn the 1960s chemical companies, Philips-Duphar the largest, dumped thousands of barrels of waste from pesticide production here, including dioxins, with officials looking the other way. In March 1980 a bulldozer driver at the tip burst a few rusted barrels and raised the alarm. He was fired for telling a local action group in Broek in Waterland. The tip closed in 1981, and the Volgermeer became known as the most polluted site in the Netherlands.\n\nThe site was too big to dig out. From 2003 the 100-hectare site was wrapped instead: a layer of soil, a watertight foil, then clean earth on top, part of it from the tunnels of the Noord-Zuidlijn metro. About 15 km of small embankments hold rainwater in shallow basins, nicknamed sawas after Asian rice fields, so that reed and in time new peat moss can grow and seal the waste for good. The cleanup cost about €100 million. The reserve opened on 23 April 2011.\n\nToday it is a young nature reserve that is doing well. Volunteers count a record of grass snake eggs in the breeding heaps (more than 400 in 2025), and the city's yearly water tests found no further spread of pollution in 2024. Walk the 4.3 km yellow loop from the Startpunt Volgermeer; the bird screen with a bench made of Amsterdam trees looks east over the wetland. Stay on the paths.",
+      "translations": {
+        "nl": {
+          "summary": "Ooit de ergste gifbelt van het land, nu onder folie en schone grond een rietmoeras met sawa's, ringslangen, baardmannetjes en een vogelkijkwand. Het gif zit er nog steeds; elk jaar wordt het grondwater gemeten.",
+          "body": "Een meer is het nooit geweest. Het was gewoon veenweide, Volgerweren genaamd, tot een officiële kaart van 1853 er per vergissing Volgermeerpolder van maakte. Van 1920 tot 1955 groef de Veenderij Zunderdorp hier turf voor de kachel, en wat overbleef waren diepe plassen. Vanaf 1927 stortte Amsterdam die vol met huisvuil, dat per boot werd aangevoerd.\n\nIn de jaren zestig volgde het echte gif. Chemische bedrijven, met Philips-Duphar als grootste, dumpten duizenden vaten afval van de productie van bestrijdingsmiddelen, dioxine incluis, terwijl ambtenaren de andere kant op keken. In maart 1980 reed een bulldozerchauffeur van de stort een paar doorgeroeste vaten kapot en sloeg alarm. Omdat hij een actiegroep in Broek in Waterland had getipt, werd hij ontslagen. In 1981 ging de stort dicht, en de Volgermeer kreeg de naam van meest vervuilde plek van Nederland.\n\nAfgraven kon niet: het terrein was te groot. Vanaf 2003 werd de 100 hectare daarom ingepakt. Eerst grond, dan waterdichte folie, dan schone aarde, deels uit de tunnels van de Noord-Zuidlijn. Zo'n 15 km lage kades houdt regenwater vast in ondiepe bakken, sawa's genoemd naar de Aziatische rijstvelden, zodat er riet en op den duur nieuw veenmos groeit dat het gif voorgoed afsluit. Kosten: ongeveer 100 miljoen euro. Op 23 april 2011 ging het gebied open.\n\nNu is het een jong natuurgebied waar het goed gaat. Vrijwilligers tellen recordaantallen ringslangeieren in de broeihopen, in 2025 ruim 400. De jaarlijkse watermetingen van de gemeente lieten in 2024 geen verdere verspreiding van vervuiling zien. Loop het gele Rondje Volgermeer van 4,3 km vanaf het Startpunt Volgermeer. De kijkwand met bankje, gemaakt van Amsterdamse bomen, kijkt naar het oosten over het moeras. Blijf op de paden."
+        }
+      }
+    },
+    "sources_add": [
+      "https://www.volgermeer.nl/artikel/natuurwerkdag-11-oktober-het-succes-van-de-ringslang"
+    ]
+  },
+  {
+    "id": "n89pyhpdt12kznrs9sqldgng",
+    "title": "Ponthuys (former ferry office)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "the number of people crossing every day exploded.",
+        "new": "the number of residents and workers crossing kept growing.",
+        "kind": "narrowed",
+        "source": "city:200669 (register text)",
+        "evidence": "'Om de toenemende aantallen bewoners en werkers tussen het centrum en Noord te kunnen vervoeren'; 'sterk toegenomen'; no daily figures"
+      }
+    ],
+    "patch": {
+      "body": "Ferries have crossed the IJ to the Volewijck for centuries. When Amsterdam annexed Noord in 1921 and filled it with garden villages and shipyards, the number of residents and workers crossing kept growing. Public Works built new landing stages, a waiting room and this office for the *gemeenteveren* (municipal ferries) in 1929. The architect at Public Works is not known.\n\nIt is a low, symmetrical building in yellow brick under a huge dark roof with steep hips, two gables with playful round windows, and two tall chimneys with partly slanted shafts. The low walls and wide white gutters make the roof do the talking. Inside, terrazzo floors still trace the old office corridors. The matching waiting room to the south was demolished in the 1990s. Today it is a café-restaurant, and together with the old Tolhuis next door it forms the gateway to Noord for the Buiksloterweg ferry.",
+      "translations": {
+        "nl": {
+          "summary": "Het kantoor van de gemeenteveren uit 1929, met twee steile topgevels en schoorstenen die half scheef lopen. Wie met de pont vanaf Centraal aan de Buiksloterweg aankomt, ziet dit gebouw als eerste.",
+          "body": "Stap je aan de Buiksloterweg van de pont, dan kijk je recht tegen dit gebouw aan: een enorm donker dak boven lage muren.\n\nAl eeuwen varen er veren over het IJ naar de Volewijck. Na 1921, toen Amsterdam Noord had ingelijfd en er tuindorpen en werven verrezen, moesten er steeds meer bewoners en arbeiders heen en weer. Publieke Werken legde daarom in 1929 nieuwe steigers aan, zette een wachthuisje neer en bouwde dit kantoor voor de gemeenteveren. Welke architect van de dienst het ontwierp, is niet bekend.\n\nHet is laag en symmetrisch, van gele baksteen, met een groot donker dak met steile schilden. Aan de voorkant staan twee puntgevels met speelse ronde raampjes, en twee hoge schoorstenen waarvan de schacht deels schuin loopt. Omdat de muren zo laag blijven en de witte goten ver uitsteken, is het dak de hoofdrolspeler. Binnen laten terrazzovloeren nog zien waar vroeger de gangen van het kantoor liepen. Het bijpassende wachthuisje iets zuidelijker verdween in de jaren negentig.\n\nNu zit er een café-restaurant in. Met het oude Tolhuis ernaast vormt het voor wie met de pont naar de Buiksloterweg komt de voordeur van Noord."
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "hi7oz3jfp8omc3ubnrfcue7i",
+    "title": "Former kindergarten De Wilde Wingerd",
+    "changes": [
+      {
+        "field": "body",
+        "old": "with six classrooms and two large playrooms, all on one side of the corridor and facing south.",
+        "new": "with six classrooms and two large playrooms; the classrooms lie on one side of the corridor and face south.",
+        "kind": "narrowed",
+        "source": "city:200703 (register text)",
+        "evidence": "'corridorschool met lokalen aan één zijde van de gang ... waarvan de lokalen op het zuiden gericht zijn'; the playroom wing is described separately, on the east"
+      }
+    ],
+    "patch": {
+      "body": "The preparatory school De Wilde Wingerd (\"Virginia creeper\") was designed in 1926 by the Public Works service for the toddlers of Tuindorp Oostzaan. It is a corridor school: an L-shaped building of two storeys under a tall hipped roof, with six classrooms and two large playrooms; the classrooms lie on one side of the corridor and face south. The covered and open playgrounds lie at the front, also in the sun. The entrance with its vestibule is on the corner on the Kometensingel.\n\nThe register praises the careful Amsterdam School design, inside and out, which also aimed to uplift the workers' families, and the original details that survive, such as the children's tiles above the coat pegs. The kindergarten closed in 1985. Since then the building has been used by the neighbourhood organisation Buurtwerk Noord, and a playgroup is back on the ground floor.\n\nLook for:\n- the corner entrance on the Kometensingel\n- the classroom windows facing the playground\n- the tall hipped roof",
+      "translations": {
+        "nl": {
+          "summary": "Een flinke kleuterschool in Amsterdamse School-stijl uit 1926 aan de Kometensingel. De lokalen liggen op de zon, en boven de kapstokjes hangen nog de oorspronkelijke kleutertegeltjes.",
+          "body": "Boven de kapstokjes hangen ze nog: de oorspronkelijke kleutertegeltjes.\n\nDe Wilde Wingerd was een voorbereidende school, door Publieke Werken in 1926 getekend voor de allerkleinsten van Tuindorp Oostzaan. Het type heet corridorschool. Het gebouw heeft een L-vorm, twee verdiepingen en een hoog schilddak, en telde zes klaslokalen en twee grote speellokalen. De klassen liggen naast elkaar aan één kant van de gang en kijken op het zuiden. Ook de overdekte en de open speelplaats aan de voorkant liggen in de zon. Je gaat naar binnen op de hoek aan de Kometensingel, via een vestibule.\n\nIn het monumentenregister krijgt de zorgvuldige Amsterdamse School-architectuur, buiten en binnen, alle lof. Dat ontwerp moest ook de arbeidersgezinnen een beetje verheffen. Bovendien is er veel origineels bewaard, zoals die kleutertegeltjes. In 1985 ging de kleuterschool dicht. Sindsdien gebruikt Buurtwerk Noord het pand, en beneden spelen weer peuters.\n\nLet op:\n- de hoekingang aan de Kometensingel\n- de ramen van de lokalen aan de kant van de speelplaats\n- het hoge schilddak"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "pd6bsjat56wmuzuxcl35bgu2",
+    "title": "Dorpskerk Durgerdam",
+    "changes": [
+      {
+        "field": "body",
+        "old": "but a little lower, behind it in the polder, with its churchyard around it.",
+        "new": "but a little lower, behind it, with its churchyard around it.",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Kerk_van_Durgerdam",
+        "evidence": "'staat niet langs de Durgerdammerdijk, maar iets lager daarachter'; Durgerdam article: 'aan een zijstraat van de dijk'; no source says 'in the polder'"
+      },
+      {
+        "field": "body",
+        "old": "The church still has its own small Protestant congregation.",
+        "new": "The church's community belongs to the Protestant Church in the Netherlands.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Kerk_van_Durgerdam",
+        "evidence": "'De gemeenschap van de Dorpskerk is aangesloten bij de Protestantse Kerk in Nederland'; nothing on its size"
+      }
+    ],
+    "patch": {
+      "body": "The church does not stand on the dike like the rest of the village but a little lower, behind it, with its churchyard around it. A first church was built here in 1642. Storms, and above all the flood of 1825, damaged it so badly that the church council decided on a new one: the present *waterstaatskerk* of 1840, one of the plain churches built under the state's supervision in those years. It is smaller than the old church and was built with many of its bricks.\n\nA lot came along from the old church: the oak pulpit of 1646 with ebony knobs and a brass baptismal bowl, the 17th-century oak baptismal screen (shortened to fit the narrower nave), three brass chandeliers bought in 1666 and 1667, and the bell cast by Pieter Hemony in 1672. That bell came through the war thanks to a piece of paper: on 20 April 1940 the government's inspector of art protection, Jan Kalf, had a notice hung beside it in Dutch, German, French and English declaring it a historic monument exempt from requisition, and a large M (for monument) was put on the bell. It was spared. A memorial recalls Gerrit Frederickszoon, one of the captains in the Battle of the Downs in 1639. The cabinet organ by Jan Jacob Vool of about 1815 came here from Drunen, where it stood from 1923 to 1991. The churchyard has been a public cemetery since 1829 and is kept for people with a tie to Durgerdam. The church's community belongs to the Protestant Church in the Netherlands.\n\nLook for:\n- the white plastered front with two buttresses\n- the square roof turret that holds the Hemony bell\n- the side walls divided by pilaster strips\n- the churchyard around the church",
+      "translations": {
+        "nl": {
+          "summary": "Een witte waterstaatskerk uit 1840, net onder de dijk, opgemetseld met stenen van de stormschade-kerk uit 1642. Uit die oude kerk kwamen ook de preekstoel, koperen kronen en een klok van Pieter Hemony uit 1672 mee.",
+          "body": "Dat de klok van Hemony hier nog hangt, komt door een vel papier. Op 20 april 1940 liet Jan Kalf, inspecteur kunstbescherming namens de regering, naast de klok een bord ophangen in vier talen: Nederlands, Duits, Frans en Engels. De klok was een historisch gedenkstuk en mocht niet worden gevorderd. Er kwam een grote M op, van monument. Het hielp: de klok bleef.\n\nAnders dan de rest van het dorp staat de kerk niet op de dijk maar wat lager, erachter, met het kerkhof eromheen. In 1642 kwam hier de eerste kerk. Stormen, en vooral de vloed van 1825, richtten zoveel schade aan dat het kerkbestuur besloot tot nieuwbouw. Zo ontstond in 1840 deze waterstaatskerk, een van de sobere kerken die in die jaren onder toezicht van de staat werden gebouwd. Hij is kleiner dan zijn voorganger en met veel van diens stenen opgetrokken.\n\nVeel verhuisde mee: de eiken preekstoel van 1646 met ebbenhouten knoppen en een koperen doopbekken, het 17e-eeuwse eiken doophek (ingekort, want het schip is smaller), drie koperen kronen gekocht in 1666 en 1667, en de klok die Pieter Hemony in 1672 goot. Een gedenkbord eert Gerrit Frederickszoon, een van de kapiteins in de Slag bij Duins van 1639. Het kabinetorgel van Jan Jacob Vool, van omstreeks 1815, stond van 1923 tot 1991 in Drunen en kwam toen hierheen. Sinds 1829 is het kerkhof een algemene begraafplaats, bewaard voor wie een band heeft met Durgerdam. De kerkgemeenschap hoort bij de Protestantse Kerk in Nederland.\n\nLet op:\n- de witgepleisterde voorgevel met twee steunberen\n- het vierkante torentje op het dak met de klok van Hemony\n- de zijmuren, verdeeld door lisenen\n- het kerkhof rondom de kerk"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "qjidhczarkf8q6ruljq07gtr",
+    "title": "Farm, Zunderdorpergouw 29",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "it got a brick front in the 1920s, a common upgrade for Waterland farms.",
+        "new": "it got a brick front in the 1920s.",
+        "kind": "cut",
+        "source": "city:200940 (register text)",
+        "evidence": "Register: 'De verstening van de voorgevel is kenmerken[d] voor de bouwgeschiedenis van deze in oorsprong volledig in houtbouw uitgevoerde stolp' (this farm only); nothing on Waterland farms in general"
+      },
+      {
+        "field": "body",
+        "old": "That petrification of the front tells the building history of many farms here.",
+        "new": "That brick front is typical of the building history of this once all-timber stolp.",
+        "kind": "narrowed",
+        "source": "city:200940 (register text)",
+        "evidence": "'kenmerken[d] voor de bouwgeschiedenis van deze in oorsprong volledig in houtbouw uitgevoerde stolp'"
+      },
+      {
+        "field": "body",
+        "old": "The Zunderdorpergouw is one of the country roads (*gouwen*) leading to Zunderdorp. This farm stands on it in",
+        "new": "This farm on the Zunderdorpergouw stands in",
+        "kind": "cut",
+        "source": "city:200940 (register text)",
+        "evidence": "Neither the register nor the Zunderdorp article says anything about the road or about gouwen"
+      },
+      {
+        "field": "body",
+        "old": "built around 1861",
+        "new": "built around 1861",
+        "kind": "sourced",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200940",
+        "evidence": "jaarBeginVan '1861', datumAanwijzing 2021-11-30; register text: 'uit het derde kwart van de negentiende eeuw'"
+      }
+    ],
+    "patch": {
+      "summary": "A dairy farm of 1861 in the last stretch of open meadow inside Amsterdam. Built entirely of wood, it got a brick front in the 1920s.",
+      "body": "This farm on the Zunderdorpergouw stands in what the city's register calls the last remaining meadowland within the municipality of Amsterdam, on a yard edged by ditches, with trees and planting on the traditional front and side yards.\n\nIt is a *stolp* (a farmhouse under one big pyramid roof) with a cowshed and a *kaakberg* (an open hay barrack), built around 1861 as a dairy farm. It was originally all timber; in the 1920s the front was rebuilt in brick and the front house got details of that time. That brick front is typical of the building history of this once all-timber stolp. The city listed it in 2021 for its rarity and its place in the landscape.\n\nLook for:\n- the brick front of the 1920s on the old wooden *stolp*\n- the yard ringed by ditches, with its trees",
+      "translations": {
+        "nl": {
+          "summary": "Een melkveeboerderij van rond 1861 in het laatste stuk weiland binnen de Amsterdamse gemeentegrens. Eerst helemaal van hout, in de jaren twintig kreeg de voorkant een gevel van baksteen.",
+          "body": "Volgens de gemeente ligt deze boerderij in het laatste weidegebied dat Amsterdam nog binnen zijn grenzen heeft. Het erf wordt omringd door sloten, en op het voor- en zijerf staan bomen en struiken zoals dat hier van oudsher gaat.\n\nHet gebouw is een stolp: een boerderij onder één groot piramidedak. Er hoort een stal bij en een kaakberg, een open hooiberg. Rond 1861 werd het gebouwd als melkveebedrijf, en toen was alles van hout. In de jaren twintig van de vorige eeuw kreeg de voorkant een stenen gevel, en het voorhuis wat details uit die tijd. Juist die versteende voorgevel vertelt de bouwgeschiedenis van deze ooit volledig houten stolp. In 2021 werd het een gemeentelijk monument, omdat het type zeldzaam is en vanwege zijn plek in het landschap.\n\nLet op:\n- de stenen voorgevel uit de jaren twintig op de oude houten stolp\n- het erf met sloten eromheen en de bomen"
+        }
+      }
+    },
+    "sources_add": [
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200940"
+    ]
+  },
+  {
+    "id": "q37uttfv9c8r17i80pyzoqux",
+    "title": "GG&GD health post, Wingerdweg",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "A 1938 district post of Amsterdam's municipal health service, the oldest in the country,",
+        "new": "A 1938 building of Amsterdam's municipal health service (the oldest in the country), probably a district post,",
+        "kind": "narrowed",
+        "source": "city:200658 (register text)",
+        "evidence": "'Het onderhavige gebouw was waarschijnlijk bestemd als wijkpost'"
+      },
+      {
+        "field": "body",
+        "old": "In 1938 Public Works built it a small district post on the edge of the Florapark",
+        "new": "In 1938 Public Works built it a small building on the edge of the Florapark, probably as a district post",
+        "kind": "narrowed",
+        "source": "city:200658 (register text)",
+        "evidence": "'waarschijnlijk bestemd als wijkpost, om de in dezelfde periode nieuw gebouwde woonwijken in Noord te dienen'"
+      }
+    ],
+    "patch": {
+      "summary": "A 1938 building of Amsterdam's municipal health service (the oldest in the country), probably a district post, with porthole windows, a rounded porch and a 1955 sandstone relief of the Good Samaritan.",
+      "body": "Amsterdam's municipal health service, founded in 1901 and now GGD Amsterdam, is the oldest in the Netherlands. In 1938 Public Works built it a small building on the edge of the Florapark, probably as a district post to serve the new neighbourhoods of Noord, probably with a baby clinic, consulting rooms and an office, plus a garage that may have held an ambulance or the doctor's car. The designer was probably J. Leupen.\n\nThe style mixes functionalism with tradition, as the architects of Groep '32 did: red-brown brick, shallow roofs, sliding volumes, round windows and a deep porch with one rounded corner under a heavy wooden canopy on iron columns. A tall chimney with a wider top marks the stair block. On the blind wall by the entrance is a sandstone relief of the Good Samaritan (Luke 10:30), probably from 1955 and signed HR (H. Richters). It still serves its first purpose, as a parent and child centre of the health service. The two houses of 1955 at nos. 54-56 are not part of the listing.",
+      "translations": {
+        "nl": {
+          "summary": "Gebouwtje uit 1938 van de Amsterdamse gezondheidsdienst, de oudste van het land, waarschijnlijk een wijkpost. Met patrijspoortramen, een portiek met ronde hoek en een zandstenen barmhartige Samaritaan uit 1955.",
+          "body": "Amsterdam had de eerste gemeentelijke gezondheidsdienst van Nederland: de GG&GD, opgericht in 1901 en tegenwoordig GGD Amsterdam. Hier, aan de rand van het Florapark, liet Publieke Werken in 1938 een klein gebouw neerzetten, waarschijnlijk een wijkpost voor de nieuwe buurten in Noord. Wat er precies binnen gebeurde is niet zeker, vermoedelijk een consultatiebureau, spreekkamers en een kantoor. In de garage stond misschien een ziekenwagen, of anders de wagen van de arts. Het ontwerp is waarschijnlijk van J. Leupen.\n\nHet gebouw zit tussen zakelijk en traditioneel in, zoals de architecten van Groep '32 dat graag deden. Roodbruine baksteen, flauwe daken, volumes die langs elkaar schuiven, ronde ramen, en een diepe portiek met één afgeronde hoek onder een zware houten luifel op ijzeren zuilen. Boven het trappenhuis steekt een hoge schoorsteen uit die bovenaan breder wordt. Op de dichte muur bij de ingang zit een reliëf in zandsteen van de barmhartige Samaritaan (Lucas 10:30), waarschijnlijk van 1955 en gesigneerd HR, van H. Richters.\n\nHet gebouw doet nog steeds waar het voor gemaakt is: er zit een ouder- en kindcentrum van de GGD. De twee woningen uit 1955 op nummer 54-56 zijn geen monument."
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "sqo48y5rpa6kpzhxdqauklbf",
+    "title": "Hay barn farm, Dorpsstraat Holysloot 12",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Hay barn farms like this one were never unique, but few are left.",
+        "new": "Hay barn farms like this one are not unique, but have become somewhat rare.",
+        "kind": "narrowed",
+        "source": "city:200934 (register text)",
+        "evidence": "'De typologie van Dorpsstraat 12 als hooihuis is niet uniek, maar kan inmiddels wel enige zeldzaamheid worden toegeschreven'"
+      },
+      {
+        "field": "body",
+        "old": "In a dairy village, hay was the winter fodder that kept the herd alive, and the size of the barn shows it.",
+        "new": "",
+        "kind": "cut",
+        "source": "city:200934 (register text)",
+        "evidence": "Neither the register nor the Holysloot article mentions dairy farming, winter fodder or the herd"
+      },
+      {
+        "field": "body",
+        "old": "The city listed it in 2021 because the type has become rare.",
+        "new": "The city listed it in 2021, partly because the type has become somewhat rare.",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200934",
+        "evidence": "datumAanwijzing 2021-11-30; register gives several values (cultural, architectural, townscape) besides 'enige zeldzaamheid'"
+      },
+      {
+        "field": "body (Look for)",
+        "old": "the carved bargeboards on the front house",
+        "new": "the finely detailed bargeboards on the front house",
+        "kind": "narrowed",
+        "source": "city:200934 (register text)",
+        "evidence": "'de fraai gedetailleerde windveren'; nothing says they are carved"
+      },
+      {
+        "field": "attributes.original_use",
+        "old": "Dairy farm with hay barn",
+        "new": "Farm with hay barn",
+        "kind": "narrowed",
+        "source": "city:200934 (register text)",
+        "evidence": "Register: 'een boerderij bestaande uit een voorhuis met stal en een extra grote hooischuur'; dairy not stated"
+      }
+    ],
+    "patch": {
+      "summary": "A farm of about 1925 in Holysloot's village street with an extra-large stolp hay barn behind its front house. Hay barn farms like this one are not unique, but have become somewhat rare.",
+      "body": "This farm stands in the village street of Holysloot, part of the protected village view. Built around 1925, it is a *hooihuis* (hay house) type: a front house and cowshed with an extra-large *stolpschuur*, a pyramid-roofed barn for the hay.\n\nThe front house has been simplified and altered but keeps some original detail, above all its finely shaped bargeboards. The cowshed and barn have been changed too, but their main forms are still clear. The front and right-hand gardens are still green; the back yard is reached from the left. The city listed it in 2021, partly because the type has become somewhat rare.\n\nLook for:\n- the finely detailed bargeboards on the front house\n- the oversized stolp barn behind it",
+      "attributes": {
+        "original_use": "Farm with hay barn"
+      },
+      "translations": {
+        "nl": {
+          "summary": "Boerderij van rond 1925 aan de Dorpsstraat van Holysloot, met achter het woonhuis een extra grote stolpschuur voor het hooi. Uniek is zo'n hooihuis niet, maar ze zijn inmiddels wel wat zeldzaam geworden.",
+          "body": "Het eerste wat opvalt is de schuur, die extra groot is uitgevallen.\n\nDe boerderij staat aan de dorpsstraat van Holysloot, een beschermd dorpsgezicht. Ze is van rond 1925 en hoort bij het type hooihuis: een woonhuis met koestal, en daarachter een extra grote stolpschuur, een schuur onder een piramidedak waarin het hooi lag.\n\nHet woonhuis is in de loop der jaren soberder gemaakt en verbouwd, maar heeft nog wat details uit de tijd dat het gebouwd werd. Het mooiste daarvan zijn de fijn uitgewerkte windveren langs het dak. Ook stal en schuur zijn veranderd, al zie je hun hoofdvorm nog goed. De tuin voor en rechts van het huis is groen gebleven; het achtererf bereik je via de linkerkant. In 2021 maakte de gemeente er een monument van, mede omdat dit type inmiddels wat zeldzaam is.\n\nLet op:\n- de fijn uitgewerkte windveren van het woonhuis\n- de buitenmaatse stolpschuur erachter",
+          "attributes": {
+            "original_use": "Boerderij met hooischuur"
+          }
+        }
+      }
+    },
+    "sources_add": [
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200934"
+    ]
+  },
+  {
+    "id": "xd5sgljzvictoemkgqb0nctx",
+    "title": "Village school of 1868, Ransdorp",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "because 19th-century doctors believed coughed-up germs would rise out of reach.",
+        "new": "because in the 19th century people were convinced that coughed-up germs would rise out of reach.",
+        "kind": "narrowed",
+        "source": "city:200702 (register text)",
+        "evidence": "'Men was er van overtuigd dat de ziektekiemen, verspreid door hoestende kinderen, zouden opstijgen'; the belief is not attributed to doctors"
+      },
+      {
+        "field": "body",
+        "old": "and Amsterdam doctors argued that germs from coughing children would rise into a high room and lose their danger.",
+        "new": "Amsterdam doctors above all called the school buildings unhealthy, and people were convinced that germs from coughing children would rise into a high room and lose their danger.",
+        "kind": "narrowed",
+        "source": "city:200702 (register text)",
+        "evidence": "'Vooral Amsterdamse artsen beschreven de toestanden in de schoolgebouwen als ongezond ... Men was er van overtuigd dat de ziektekiemen ... zouden opstijgen en in een hoge ruimte geen besmettingsgevaar meer zouden opleveren'"
+      },
+      {
+        "field": "body",
+        "old": "a village school of this age is special for Amsterdam, matched only by the one in Holysloot.",
+        "new": "as a village school it is special for Amsterdam, and together with the one in Holysloot it is rare.",
+        "kind": "narrowed",
+        "source": "city:200702 (register text)",
+        "evidence": "'als dorpsschool voor de stad Amsterdam bijzonder en samen met de dorpsschool uit Holysloot zeldzaam'"
+      }
+    ],
+    "patch": {
+      "summary": "One classroom for six classes, built in 1868 to a textbook model, with the teacher's house attached. The ceiling was five metres high because in the 19th century people were convinced that coughed-up germs would rise out of reach.",
+      "body": "Across the road from the church stands Ransdorp's public primary school, designed in 1868 by the municipality's own public works department together with the teacher's house next door. School and house form an L: the classroom parallel to the road, the house at right angles with its gable to the Dorpsweg and its front door on the church square. The building follows the model designs for small schools of 50 pupils published in the early 19th century, after the first Dutch primary-education laws. One room took all six classes, children from six to twelve.\n\nThe date shows in the windows: big and low-silled, where older models put windows high up so pupils would not be distracted. The room was once five metres high. In the 19th century schools were rightly seen as breeding grounds of disease. Amsterdam doctors above all called the school buildings unhealthy, and people were convinced that germs from coughing children would rise into a high room and lose their danger. The city calls it a rare survivor: as a village school it is special for Amsterdam, and together with the one in Holysloot it is rare. The interior has been altered, but the building is still easy to read.\n\nLook for:\n- the gable stone with the name and the year of the first stone, 1868\n- the ornamented wall anchors under the eaves\n- the porch under a flat canopy\n- the flagpole brackets between the classroom windows\n- the chimney stack that marks where the stove stood",
+      "translations": {
+        "nl": {
+          "summary": "Eén lokaal voor zes klassen, in 1868 gebouwd naar een standaardontwerp, met de meesterswoning eraan vast. Het plafond zat op vijf meter, want men dacht dat kiemen van hoestende kinderen dan veilig naar boven zouden zweven.",
+          "body": "Vijf meter hoog was dit klaslokaal ooit, en dat had een reden. Scholen golden in de negentiende eeuw als broeinesten van ziekte, en dat klopte ook. Vooral Amsterdamse artsen noemden de schoolgebouwen ongezond. Men was ervan overtuigd dat de kiemen die hoestende kinderen verspreidden naar het plafond zouden stijgen, en in een hoog lokaal zo onschadelijk werden.\n\nDe school staat tegenover de kerk van Ransdorp. Publieke Werken van de toenmalige gemeente Ransdorp ontwierp haar in 1868, in één keer met de meesterswoning ernaast. Samen vormen ze een L: het lokaal ligt langs de weg, het huis staat er haaks op, met de topgevel naar de Dorpsweg en de voordeur aan het kerkplein. Het ontwerp volgt de voorbeeldschooltjes voor 50 leerlingen die al vroeg in de negentiende eeuw verschenen, na de eerste Nederlandse wetten op het lager onderwijs. In dat ene lokaal zaten alle zes klassen, kinderen van zes tot twaalf.\n\nAan de ramen zie je het bouwjaar: groot, met een lage vensterbank. Oudere modellen zetten de ramen juist hoog, zodat kinderen niet naar buiten zaten te kijken. Volgens de gemeente is de school als dorpsschool bijzonder voor Amsterdam, en samen met die van Holysloot zeldzaam. Binnen is veel veranderd, maar het gebouw laat zich nog goed lezen.\n\nLet op:\n- de gevelsteen met naam en het jaar van de eerste steen, 1868\n- de versierde muurankers onder de dakrand\n- het portaal onder een platte luifel\n- de houders voor de vlaggenstok tussen de lokaalramen\n- de schoorsteen op de plek waar de kachel stond"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "tlo4432np27rkld47o0abkiq",
+    "title": "Salvatorkerk",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The Savelsbos dead-ends at the church, which gives it a quiet forecourt.",
+        "new": "The Savelsbos more or less dead-ends at the IJdoornlaan by the church, which gives it a quiet forecourt.",
+        "kind": "narrowed",
+        "source": "city:200920 (register text)",
+        "evidence": "'Deze woonstraat loopt min of meer dood bij de IJdoornlaan, alleen het langzaam verkeer gaat onder deze laan door. Hierdoor is bij de kerk een mooi, verkeersluw voorplein ontstaan.'"
+      }
+    ],
+    "patch": {
+      "body": "In the deep Buikslotermeer polder the through roads were built up high. G.J. van der Grinten and L.J. Heijdenrijk used that: they put the church hall at road level on the IJdoornlaan, and slid the rooms for pastoral work underneath, at the level of the polder. So the low building with its strong roof still stands out in its surroundings. It was built in 1966–1969 for the Catholic foundation Opbouw Amsterdam Noord.\n\nThe church is a low square for 400 people, with walls painted white inside and out and a flat roof with a very wide, dark-boarded edge carried on eight concrete columns. A continuous band of windows right under the roof lights the hall, so the roof seems to hover. The presbytery below gets quirkier window openings to show that people live there, and the name \"Salvator\" is spelled in simple letters on the walls. The Savelsbos more or less dead-ends at the IJdoornlaan by the church, which gives it a quiet forecourt.\n\nLike its sister the Weerenkapel, the plain hall without hierarchy reflects the Church after the Second Vatican Council, which put community before mystery. The register calls it one of the last Catholic churches built in the Netherlands and rare in Amsterdam. The last mass was said on 24 June 2012.\n\nLook for:\n- the band of windows under the floating roof\n- the \"Salvator\" lettering on the walls\n- the stair down to the polder level",
+      "translations": {
+        "nl": {
+          "summary": "Een van de laatste katholieke kerken die Nederland bouwde (1966-1969). Een laag wit vierkant waarvan het platte dak op een strook ramen lijkt te zweven, op de hoogte van de verhoogde weg, met de parochieruimten eronder.",
+          "body": "In de diepe Buikslotermeerpolder liggen de doorgaande wegen hoog. Architecten G.J. van der Grinten en L.J. Heijdenrijk maakten daar handig gebruik van. De kerkzaal zetten ze op straathoogte aan de IJdoornlaan, en de ruimten voor het pastorale werk schoven ze eronder, op het niveau van de polder. Zo valt het lage gebouw met zijn zware dak toch op tussen de huizen. Opdrachtgever was de Katholieke Stichting Opbouw Amsterdam Noord; de bouw liep van 1966 tot 1969.\n\nDe kerk is een laag vierkant met plek voor 400 mensen. De muren zijn binnen en buiten wit geverfd. Het platte dak heeft een heel brede rand, bekleed met donkere planken, en rust op acht betonnen kolommen. Direct onder het dak loopt een doorgaande strook ramen die de zaal licht geeft, waardoor het dak lijkt te zweven. Beneden kreeg de pastorie grilliger raamopeningen: hier woonde iemand. Op de muren staat in eenvoudige letters 'Salvator'. Het Savelsbos loopt vlak bij de kerk zo goed als dood tegen de IJdoornlaan, en zo kreeg de kerk een rustig voorplein.\n\nNet als zusje de Weerenkapel laat deze sobere zaal zonder rangorde zien hoe de Kerk na het Tweede Vaticaans Concilie de nadruk legde op samenzijn in plaats van mysterie. Het monumentenregister rekent haar tot de laatste katholieke kerken die in Nederland zijn gebouwd, en noemt haar zeldzaam voor Amsterdam. De laatste mis was op 24 juni 2012.\n\nLet op:\n- de strook ramen onder het zwevende dak\n- de letters 'Salvator' op de muren\n- de trap naar beneden, naar het niveau van de polder"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "idq6iz57o3vdl0m7r6toksum",
+    "title": "Meerpadkerk",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "a white wooden Mennonite meeting house of 1843 tucked behind the dike.",
+        "new": "a white wooden Mennonite meeting house of 1843 on the Meerpad in Nieuwendam.",
+        "kind": "cut",
+        "source": "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/6695",
+        "evidence": "Sources place it 'aan het Meerpad in het voormalige dorp Nieuwendam'; none mentions the dike"
+      },
+      {
+        "field": "body",
+        "old": "they could not get to church in Amsterdam: the crossing was too difficult.",
+        "new": "they could not get to services in Amsterdam: the connections were too poor.",
+        "kind": "narrowed",
+        "source": "https://www.doopsgezindamsterdam.nl/historie/meerpadkerk/",
+        "evidence": "'over de onmogelijkheid om kerkdiensten en catechisaties bij te wonen in Amsterdam. Dit vanwege de moeilijke verbindingen.'"
+      },
+      {
+        "field": "body",
+        "old": "the first Mennonite church north of the IJ.",
+        "new": "the first Mennonite church in Amsterdam north of the IJ.",
+        "kind": "narrowed",
+        "source": "https://amsterdamopdekaart.nl/1850-1940/Meerpad/Vermaning",
+        "evidence": "'Het was de eerste doopsgezinde kerk in Amsterdam ten noorden van het IJ.'"
+      },
+      {
+        "field": "body",
+        "old": "and moving it was discussed,",
+        "new": "and building it anew in a more central spot in Noord was considered,",
+        "kind": "narrowed",
+        "source": "https://www.doopsgezindamsterdam.nl/historie/meerpadkerk/",
+        "evidence": "'Er wordt over gedacht om de kerk op een andere plaats meer centraal in Noord te bouwen.'"
+      },
+      {
+        "field": "body (Look for)",
+        "old": "the low wooden houses around it on the Meerpad, part of the same village picture",
+        "new": "the Meerpad around it, part of the protected village view",
+        "kind": "narrowed",
+        "source": "https://kennis.cultureelerfgoed.nl/index.php/Monumenten/6695",
+        "evidence": "RCE lists the church under 'Beschermd stads- en dorpsgezicht Amsterdam - Amsterdam-Noord'; no source describes the neighbouring houses"
+      }
+    ],
+    "patch": {
+      "summary": "Amsterdam's smallest church, a white wooden Mennonite meeting house of 1843 on the Meerpad in Nieuwendam. It once stood a metre and a half under water and still holds services.",
+      "body": "In 1841 a handful of Mennonites (doopsgezinden) in Nieuwendam complained that they could not get to services in Amsterdam: the connections were too poor. With money from Mennonites in several towns they bought land on the Meerpad in 1843 and had the local carpenter Pieter Kater Gzn. build a plain wooden hall church, modelled on the one in Knollendam. Its furnishings came second-hand from the 'Oude Huis', the Frisian Mennonite congregation of Zaandam-Westzijde. The church opened on 9 July 1843, the first Mennonite church in Amsterdam north of the IJ.\n\nThe congregation nearly folded twice in the 19th century. In the storm flood of January 1916 the Meerpad flooded and the little church stood about one and a half metres under water; the Amsterdam church council paid for the repairs. In the 1960s it was found in poor shape and building it anew in a more central spot in Noord was considered, but it was restored in the old style instead and lengthened by one window. Even so it is still counted as the smallest church in Amsterdam. Services are still held here, part of the United Mennonite congregation of Amsterdam.\n\nLook for:\n- the round-arched windows set in square frames\n- the pediment-like crown on the front\n- the Meerpad around it, part of the protected village view",
+      "translations": {
+        "nl": {
+          "summary": "De kleinste kerk van Amsterdam: een witte houten vermaning van de doopsgezinden uit 1843, aan het Meerpad in Nieuwendam. In 1916 stond ze anderhalve meter onder water, en er wordt nog altijd gekerkt.",
+          "body": "Kleiner wordt een Amsterdamse kerk niet. Zelfs nadat ze bij de restauratie een raam langer werd, telt ze nog altijd als de kleinste van de stad.\n\nHet begon met een klacht. In 1841 lieten een paar doopsgezinden uit Nieuwendam weten dat ze de diensten in Amsterdam niet konden halen: de verbindingen waren te slecht. Doopsgezinden uit verschillende plaatsen brachten geld bijeen, in 1843 werd grond aan het Meerpad gekocht, en de Nieuwendamse timmerman Pieter Kater Gzn. zette er een eenvoudige houten zaalkerk neer, naar het voorbeeld van die in Knollendam. Het meubilair was tweedehands, afkomstig uit het 'Oude Huis' van de Friese doopsgezinde gemeente in Zaandam-Westzijde. Op 9 juli 1843 ging de deur open: de eerste doopsgezinde kerk van Amsterdam aan de noordkant van het IJ.\n\nIn de negentiende eeuw scheelde het twee keer weinig of de gemeente was opgeheven. Bij de stormvloed van januari 1916 liep het Meerpad onder en stond het kerkje zo'n anderhalve meter in het water; de Amsterdamse kerkenraad betaalde het herstel. In de jaren zestig bleek het gebouw er slecht aan toe, en er werd gedacht aan nieuwbouw op een centralere plek in Noord. Het werd toch restauratie in de oude stijl. Er wordt nog steeds gekerkt, als onderdeel van de Verenigde Doopsgezinde Gemeente Amsterdam.\n\nLet op:\n- de boogramen in rechthoekige kozijnen\n- de bekroning in de vorm van een fronton\n- het Meerpad eromheen, deel van het beschermde dorpsgezicht"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "rx5jdtumu31lenlwul5dsxz8",
+    "title": "Parks department canteen, Orionplantsoen",
+    "changes": [
+      {
+        "field": "body",
+        "old": "the lattice walls were glazed in, but the grid is still there to read.",
+        "new": "the lattice walls were closed in, but the grid is still there to read.",
+        "kind": "narrowed",
+        "source": "rce:508541 (register description)",
+        "evidence": "'In oorsprong zonder glas. Thans zijn de wanden gedicht ten behoeve van de kantoorruimte.' ('gedicht' = closed; the material is not given)"
+      }
+    ],
+    "patch": {
+      "body": "Even the gardeners got architecture in Tuindorp Oostzaan. This small building of 1925, designed by the Public Works service (the plan was submitted on 11 August 1924), served as a canteen and store for the city's parks department. The lower part was an \"air room\" for plants and tools, with walls made entirely of an open timber grid of square openings, originally without glass, plus storage for paving materials and a clay bin. The lunchroom and toilets were upstairs.\n\nIt is built in the pared-down Amsterdam School style and is strongly horizontal: brick below, western red cedar boards above, a folded cornice running round, and on the upper floor boxy volumes joined by a white window band on three sides. In 1992 it was converted into two office units and the lattice walls were closed in, but the grid is still there to read.\n\nLook for:\n- the square lattice of the former air room\n- the white window band around the upper floor\n- the folded cornice that runs round the building",
+      "translations": {
+        "nl": {
+          "summary": "Houten schaftlokaal en bergplaats uit 1925 voor de plantsoenendienst. Beneden een 'luchtruimte' voor planten achter een open houten raster, boven een kantine met een witte raampartij die om het gebouw heen loopt.",
+          "body": "In Tuindorp Oostzaan kregen zelfs de plantsoenmedewerkers architectuur. Dit gebouwtje uit 1925 is een ontwerp van Publieke Werken; de directeur diende het plan in op 11 augustus 1924. De Afdeling Plantsoenen van de gemeente gebruikte het om te schaften en spullen op te bergen.\n\nBeneden lag de 'luchtruimte', voor planten en gereedschap. De muren daar waren niets dan een houten raster vol vierkante gaten, aanvankelijk zonder ruiten. Verder was er plek voor bestratingsmateriaal en een kist met klei. Boven zaten de kantine en de wc's.\n\nDe stijl is een strakke versie van de Amsterdamse School, en alles wijst horizontaal. Onderin baksteen, daarboven overlappende planken van western red cedar, en rondom een geknikte lijst. Op de verdieping staan blokvormige volumes, aan drie kanten verbonden door een band van witte ramen. In 1992 werden er twee kantoorunits van gemaakt en gingen de rasterwanden dicht, maar het raster zelf kun je nog gewoon zien.\n\nLet op:\n- het vierkante raster van de vroegere luchtruimte\n- de witte raamband rond de verdieping\n- de geknikte lijst die rondom loopt"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "g9pwonczyjoh4bhskr4v0o6a",
+    "title": "Patio houses, Bosplaat",
+    "changes": [
+      {
+        "field": "body",
+        "old": "the advisory committee recommended protection, including the surrounding layout and garages, in 2025.",
+        "new": "the advisory committee recommended protection, including the surrounding layout and garages, in 2024.",
+        "kind": "narrowed",
+        "source": "https://cok.amsterdam.nl/wp-content/uploads/2025/04/COK_Advies-Bosplaat-2-68.pdf",
+        "evidence": "Advice dated 26 August 2024, signed 'Amsterdam, 8 oktober 2024' (the PDF was only uploaded in 2025)"
+      },
+      {
+        "field": "body",
+        "old": "At the edge of the Buikslotermeer lies an unexpected little enclave: fifteen single-storey \"bungalows\" and 21 garages,",
+        "new": "In the Buikslotermeer lies an unexpected little enclave: fifteen single-storey \"bungalows\" and some twenty garages,",
+        "kind": "narrowed",
+        "source": "https://amsterdamopdekaart.nl/1966-1990/Bosplaat/2-30",
+        "evidence": "Amsterdam op de kaart: 'in de Buikslotermeer met vijftien patiowoningen en 21 garageboxen'; the COK advice counts '19 garages'; neither says 'at the edge'"
+      }
+    ],
+    "patch": {
+      "body": "In the Buikslotermeer lies an unexpected little enclave: fifteen single-storey \"bungalows\" and some twenty garages, developed in 1974–1975 by the building firm De Waal to a design by Adriaan Evers and Geert Sarlemijn. Each house is built around a small inner courtyard, a patio. There were two types, five with six rooms and ten with four; the four-room houses had a large living room with an open kitchen. All had a void with a \"balcony room\" above the living room, which shows outside as the higher parts of the roofline. No. 8 was later raised above the void.\n\nTypical of the outdoor design is the generous use of railway sleepers, a popular garden material in the 1970s. The city rates the cluster as worthy of monument status, heritage society Heemschut put it on its list of post-1965 architecture, and the municipality started the procedure to list it as a municipal monument in 2024; the advisory committee recommended protection, including the surrounding layout and garages, in 2024.\n\nThese are private homes; look from the street.\n\nLook for:\n- the raised roofs over the balcony rooms\n- the railway sleepers in the front gardens\n- the row of garages",
+      "translations": {
+        "nl": {
+          "summary": "Een knus hofje van vijftien bungalows uit de jaren zeventig, elk rond een eigen patio, met garages en tuinen vol spoorbielzen. De patiowoningen van Evers en Sarlemijn uit 1975 zijn op weg om gemeentelijk monument te worden.",
+          "body": "Spoorbielzen, overal spoorbielzen. In de jaren zeventig waren ze een geliefd tuinmateriaal, en in de buitenruimte van dit buurtje zijn ze royaal gebruikt.\n\nIn de Buikslotermeer ligt een onverwacht enclaafje van vijftien gelijkvloerse 'bungalows' en een stuk of twintig garages. Bouwbedrijf De Waal liet ze in 1974-1975 neerzetten, naar ontwerp van Adriaan Evers en Geert Sarlemijn. Elk huis draait om een eigen kleine binnenplaats, de patio. Er waren twee varianten: vijf huizen met zes kamers en tien met vier, waarbij die laatste een ruime woonkamer met open keuken kregen. Boven de woonkamer zat in alle huizen een vide met een 'balkonkamer', en die zie je van buiten als de hogere stukken dak. Nummer 8 kreeg later een extra verhoging boven de vide.\n\nDe gemeente vindt het geheel monumentwaardig, en Heemschut zette het op zijn lijst van architectuur van na 1965. In 2024 begon de gemeente de procedure om er een gemeentelijk monument van te maken, en nog datzelfde jaar adviseerde de adviescommissie om ook de inrichting eromheen en de garages te beschermen.\n\nDit zijn gewone woonhuizen: kijk vanaf de straat.\n\nLet op:\n- de hogere daken boven de balkonkamers\n- de spoorbielzen in de voortuinen\n- de rij garages"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "h4f3mc6jfuh80phthqqmzt0r",
+    "title": "School met den Bijbel, Zunderdorp",
+    "changes": [
+      {
+        "field": "body",
+        "old": "It is a village school of the plainest kind:",
+        "new": "It is a typical village school:",
+        "kind": "narrowed",
+        "source": "city:200705 (register text)",
+        "evidence": "'Het is een typische dorpsschool met maar twee klaslokalen'; 'De opzet van de school is die van een dorpsschool'"
+      }
+    ],
+    "patch": {
+      "body": "Until 1925 Zunderdorp had only one school, on the Kerklaan, and nothing for families who wanted their children taught with the Bible. The local Protestant society *De School met den Bijbel* then had this building put up at the bend of the Termietergouw, the old road that already appears on Boonacker's map of 1624. It is a typical village school: two classrooms for all six classes, one teacher per room, a corridor along the north side, no gym.\n\nIts architect, Schuitemaker, about whom little else is known, gave it a remarkable shape. Red brick below and yellow brick above, deep overhanging eaves, a hipped roof over the classrooms and, at the back, five blocks under six flat roofs, all at different heights. The city register compares it to Frank Lloyd Wright, made Dutch by combining his flat roofs with hipped ones that sit better in the landscape. The school closed in 1995 and became a children's day care. The teacher's house at no. 5 completes the pair.\n\nLook for:\n- the stepped flat roofs at the back\n- the deep eaves over the classroom windows\n- the entrance with rounded wing walls on the east side\n- next to it, the coloured glass panel with a deer, a bird and a flower, given by former pupils in 1965 for the school's 40th birthday",
+      "translations": {
+        "nl": {
+          "summary": "Een dorpsschool met twee lokalen uit 1925, alsof Frank Lloyd Wright in een Hollandse polder was neergestreken: diepe overstekende schilddaken, en achter een trapsgewijze stapel platte daken.",
+          "body": "Loop even om naar de achterkant. Daar stapelen zich vijf blokjes onder zes platte daken op, elk op een andere hoogte, en ineens sta je in Zunderdorp naar iets Amerikaans te kijken.\n\nTot 1925 had het dorp maar één school, aan de Kerklaan, en niets voor ouders die hun kinderen met de Bijbel wilden laten opvoeden. De plaatselijke protestantse vereniging De School met den Bijbel liet daarom dit gebouw neerzetten, bij de bocht in de Termietergouw, een oude weg die al op de kaart van Boonacker uit 1624 staat. Het is een typische dorpsschool: twee lokalen voor alle zes klassen, één onderwijzer per lokaal, een gang aan de noordkant en geen gymzaal.\n\nVan architect Schuitemaker weten we verder weinig, maar hij gaf de school een opmerkelijke vorm. Onderin rode baksteen, bovenin gele, ver uitstekende dakranden, een schilddak boven de klassen en achter die stapel platte daken. Het monumentenregister denkt aan Frank Lloyd Wright, maar dan vertaald naar Nederland: zijn platte daken gecombineerd met schilddaken, die beter in het landschap passen. In 1995 ging de school dicht en kwam er kinderopvang in. Samen met de meesterswoning op nummer 5 vormt ze een tweetal.\n\nLet op:\n- de getrapte platte daken aan de achterkant\n- de diepe dakoverstekken boven de lokaalramen\n- de ingang aan de oostkant met halfronde muurwangen\n- daarnaast het gekleurde glasraam met een hert, een vogel en een bloem, in 1965 geschonken door oud-leerlingen toen de school 40 jaar bestond"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "l2jw8hb5drvrs1bb69akr37e",
+    "title": "Albert Lust's milk shop",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "The only one of the Van der Pekbuurt's twelve corner shops that kept its 1919 interior,",
+        "new": "The only one of the Van der Pekbuurt's twelve little shops that kept its 1919 interior,",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Begoniastraat_6_(Amsterdam)",
+        "evidence": "'Oorspronkelijk waren er 12 buurtwinkels'; no source calls them corner shops"
+      },
+      {
+        "field": "body",
+        "old": "gave it twelve little shop-homes, set in the bends of its fan-shaped streets.",
+        "new": "gave it twelve little shop-homes; the ones in the bends of its fan-shaped streets have an unusual floor plan.",
+        "kind": "narrowed",
+        "source": "city:200925 (register text)",
+        "evidence": "'De winkelwoningen in de knik van de waaiervormige straatjes nemen door hun afwijkende plattegrond typologisch een bijzondere plaats ... in'; it does not say all twelve stand in the bends"
+      },
+      {
+        "field": "body",
+        "old": "the milk war of the late 1910s and 1920s over price, hygiene and the power of the big dairies.",
+        "new": "the milk war that began during the First World War and dragged on into the 1930s.",
+        "kind": "cut",
+        "source": "https://100jaarvanderpek.nl/het-melkwinkeltje/begoniastraat-6-huis-geopend/index.html",
+        "evidence": "'de melkoorlog die al in de Eerste Wereldoorlog begon en tot in de jaren dertig voortsleepte'; no source gives the issues (price, hygiene, big dairies)"
+      }
+    ],
+    "patch": {
+      "summary": "The only one of the Van der Pekbuurt's twelve little shops that kept its 1919 interior, once run by the chairman of a socialist dairy co-operative in Amsterdam's \"milk war\".",
+      "body": "When the Van der Pekbuurt garden village was built (1918–1923), architect J.E. van der Pek gave it twelve little shop-homes; the ones in the bends of its fan-shaped streets have an unusual floor plan. Begoniastraat 6 is the only one where the shop was never turned into living space. Its layout, woodwork and paint survive, with some furniture of the first family.\n\nThat family was Albert Lust (1887–1984) from Oostzaan and Grietje van Vuure. Lust chaired the socialist co-operative *Nieuw Leven* (New Life), which supplied about 166 socialist milkmen from its own dairy during the *Melkoorlog*, the milk war that began during the First World War and dragged on into the 1930s. The name on the windows refers to it. The Lusts left in 1926; later owners turned it into a grocer's and, after 1976, a bookbinder's.\n\nWhen the even side of the street was due for renovation, the local history centre opened the shop as a pop-up museum (2019–2021) and the building became a municipal monument in November 2020. It is a private building: look from the street.",
+      "translations": {
+        "nl": {
+          "summary": "Van de twaalf winkeltjes in de Van der Pekbuurt heeft alleen deze zijn interieur van 1919 nog. De eerste winkelier was voorzitter van een socialistische melkcoöperatie in de Amsterdamse 'melkoorlog'.",
+          "body": "De naam op de ruiten verwijst naar Nieuw Leven, de socialistische coöperatie waarvan de eerste melkboer hier voorzitter was, midden in de Amsterdamse melkoorlog.\n\nToen de Van der Pekbuurt tussen 1918 en 1923 verrees, ontwierp J.E. van der Pek er twaalf kleine winkelwoningen voor. Die in de knikken van de waaiervormige straatjes kregen een afwijkende plattegrond. Begoniastraat 6 is de enige waar de winkel nooit bij het woonhuis is getrokken. De indeling, het houtwerk en de verf zijn er nog, plus een paar meubels van het eerste gezin.\n\nDat gezin waren Albert Lust (1887-1984) uit Oostzaan en Grietje van Vuure. Lust zat Nieuw Leven voor, een coöperatie die met een eigen melkfabriek zo'n 166 socialistische melkboeren bevoorraadde. Dat speelde in de melkoorlog, die al tijdens de Eerste Wereldoorlog uitbrak en in de jaren dertig nog altijd niet voorbij was. In 1926 vertrokken de Lusts. Latere eigenaren maakten er een kruidenierswinkel van, en na 1976 een boekbinderij.\n\nToen de even kant van de straat gerenoveerd zou worden, richtte het Historisch Centrum Amsterdam-Noord de winkel in als tijdelijk museum (2019-2021). In november 2020 werd het pand gemeentelijk monument. Het is een particulier pand: bekijk het vanaf de straat."
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "enzsmawc3kymm0d6x7ej34r7",
+    "title": "Holysloot and the 1916 flood (former Reformed church)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "the whole village of Holysloot fled the water and its wooden Reformed church was wrecked.",
+        "new": "low-lying Waterland flooded and Holysloot's wooden Reformed church was wrecked.",
+        "kind": "narrowed",
+        "source": "https://onh.nl/verhaal/kerken-door-zuiderzeewater-verwoest",
+        "evidence": "'overstroomde het water snel het laaggelegen Waterland ... De inwoners moesten in allerijl het vege lijf zien te redden'; the Noordhollands Dagblad source for the whole village fleeing returns HTTP 403 (Cloudflare) and could not be checked"
+      },
+      {
+        "field": "summary",
+        "old": "the flood pushed the bankrupt villages into Amsterdam.",
+        "new": "the flood pushed the cash-strapped villages into Amsterdam.",
+        "kind": "narrowed",
+        "source": "https://www.centraledorpenraad.nl/projecten/historie-cultuur/boek-watersnoodramp-1916",
+        "evidence": "'gevolgen voor de noodlijdende gemeentes Nieuwendam en Ransdorp'; en.wikipedia: 'the municipality being unable to afford recovery plans'; no source says bankrupt"
+      },
+      {
+        "field": "body",
+        "old": "All of Holysloot had to flee, down to the last resident.",
+        "new": "The water quickly flooded low-lying Waterland and its people had to run for their lives.",
+        "kind": "narrowed",
+        "source": "https://onh.nl/verhaal/kerken-door-zuiderzeewater-verwoest",
+        "evidence": "'overstroomde het water snel het laaggelegen Waterland ... De inwoners moesten in allerijl het vege lijf zien te redden'; Holysloot-specific claim (Noordhollands Dagblad) unverifiable, HTTP 403"
+      },
+      {
+        "field": "body",
+        "old": "Unable to pay for recovery,",
+        "new": "Unable to pay for recovery,",
+        "kind": "sourced",
+        "source": "https://en.wikipedia.org/wiki/Holysloot",
+        "evidence": "'Due to a flood in 1916 and the municipality being unable to afford recovery plans, Holysloot ... requested to be annexed by the city of Amsterdam. This integration was completed by 1921.'"
+      },
+      {
+        "field": "body",
+        "old": "The flood also ruined the small municipalities north of the IJ.",
+        "new": "The flood also left the small municipalities north of the IJ in financial trouble.",
+        "kind": "narrowed",
+        "source": "https://www.centraledorpenraad.nl/projecten/historie-cultuur/boek-watersnoodramp-1916",
+        "evidence": "'gevolgen voor de noodlijdende gemeentes Nieuwendam en Ransdorp'; en.wikipedia: 'the municipality being unable to afford recovery plans'; no source says ruined (verification pass)"
+      }
+    ],
+    "patch": {
+      "summary": "When the Zuiderzee dike broke in January 1916, low-lying Waterland flooded and Holysloot's wooden Reformed church was wrecked. This brick church replaced it in 1917, and the flood pushed the cash-strapped villages into Amsterdam.",
+      "body": "Holysloot is a one-street village on the Holysloter Die, a broad water linked to the other *dieën* (channels) of Waterland, first mentioned in the 13th century. It has about forty farms and has hardly grown in centuries; the core is a protected village view. Its people lived from dairy farming and shipped their milk every day by boat via Ransdorp to Amsterdam.\n\nIn the night of 13 to 14 January 1916 a heavy storm broke the Waterland sea dike in several places. The water quickly flooded low-lying Waterland and its people had to run for their lives. A second storm in February finished off buildings already damaged in January, among them the low-lying Reformed churches of Buiksloot, Nieuwendam and Holysloot. Holysloot's was a modest wooden building of 1891. Repairs would have cost too much, so the congregation built anew, in brick this time, paid for by a national collection, and about fifty metres forward on the Dorpsstraat. It opened in February 1917 with a novelty: a church telephone so that the hard of hearing could follow the sermon.\n\nThe design was by P. Slagmolen, building inspector in Zaandam: a sober brick hall church of 7.6 by 12 metres with a little corbelled spire (*arkeltorentje*) topped by a rooster in the middle of the gable. Behind it stands the former verger's house of wood. The church closed in 1996 and is now a home, so it can only be seen from the street.\n\nThe flood also left the small municipalities north of the IJ in financial trouble. Unable to pay for recovery, Ransdorp (with Holysloot) and Nieuwendam (with Zunderdorp) were absorbed into Amsterdam in 1921. The book *Nood aan den dijk* (2016) tells the story. In summer a small ferry crosses the Die at set times to the old church path towards Broek in Waterland and Zuiderwoude; it has a place of its own, Pontje Holysloot, the ring-the-bell ferry.\n\nLook for:\n- the corbelled spire with its weathercock rising above the low wooden houses\n- the round-arched windows and the brick arch over the double doors\n- the wooden former verger's house behind it",
+      "translations": {
+        "nl": {
+          "summary": "Toen de Zuiderzeedijk in januari 1916 doorbrak, liep het lage Waterland onder en ging het houten gereformeerde kerkje van Holysloot eraan. Deze stenen kerk kwam er in 1917 voor in de plaats, en de ramp dreef de noodlijdende dorpen naar Amsterdam.",
+          "body": "Een kerktelefoon: dat had de nieuwe kerk van Holysloot bij de opening in februari 1917, zodat ook wie slecht hoorde de preek kon volgen. Dat er überhaupt een nieuwe kerk moest komen, lag aan het water.\n\nHolysloot is een dorp van één straat langs de Holysloter Die, een breed water dat aansluit op de andere dieën van Waterland. Het wordt voor het eerst genoemd in de dertiende eeuw. Er staan zo'n veertig boerderijen, en eeuwenlang is het nauwelijks gegroeid; de kern is beschermd dorpsgezicht. De bewoners leefden van melkvee, en elke dag ging de melk per schuit via Ransdorp naar Amsterdam.\n\nIn de nacht van 13 op 14 januari 1916 brak een zware storm de Waterlandse zeedijk op meerdere plekken door. Het lage Waterland liep snel vol en de mensen moesten halsoverkop weg. Een tweede storm in februari gaf gebouwen die al beschadigd waren de genadeklap, waaronder de laag gelegen gereformeerde kerken van Buiksloot, Nieuwendam en Holysloot. Die van Holysloot was een bescheiden houten gebouw uit 1891. Repareren was te duur, dus kwam er nieuwbouw, nu van baksteen, betaald uit een landelijke collecte, en zo'n vijftig meter verder naar voren aan de Dorpsstraat.\n\nHet ontwerp is van P. Slagmolen, bouwopzichter in Zaandam: een sobere zaalkerk van 7,6 bij 12 meter, met midden op de topgevel een uitgekraagd spits torentje (arkeltorentje) met een haan erop. Erachter staat het houten huis van de vroegere koster. In 1996 ging de kerk dicht; het is nu een woonhuis, dus je ziet het alleen vanaf de straat.\n\nDe ramp bracht ook de kleine gemeenten boven het IJ in geldnood. Ze konden het herstel niet betalen, en in 1921 gingen Ransdorp (met Holysloot) en Nieuwendam (met Zunderdorp) op in Amsterdam. Het boek Nood aan den dijk (2016) vertelt het hele verhaal. 's Zomers vaart op vaste tijden een pontje over de Die naar het oude kerkpad richting Broek in Waterland en Zuiderwoude; dat heeft een eigen plek op de kaart: Pontje Holysloot, het belpontje.\n\nLet op:\n- het uitgekraagde torentje met windhaan boven de lage houten huizen\n- de boogramen en de gemetselde boog boven de dubbele deuren\n- het houten voormalige kostershuis erachter"
+        }
+      }
+    },
+    "sources_add": [
+      "https://en.wikipedia.org/wiki/Holysloot"
+    ]
+  },
+  {
+    "id": "b7797dedbqwj0e2s5e6qmll5",
+    "title": "Museumwoning Tuindorp Oostzaan",
+    "changes": [
+      {
+        "field": "body",
+        "old": "A small presentation room shows films and hosts talks about life in the village, including the flood of 14 January 1960, when a dike along Zijkanaal H burst and 15,000 people had to leave their homes for a week.",
+        "new": "A small presentation room shows films and hosts talks about life in the village. HATO also keeps records of the flood of 14 January 1960, when a dike along Zijkanaal H burst and 15,000 people had to leave their homes for a week.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Museumwoning_Tuindorp_Oostzaan",
+        "evidence": "Talks are 'over het leven in Tuindorp Oostzaan in vroeger tijden'; separately 'De Stichting bezit documentatie- en fotomateriaal van onder andere de watersnoodramp in januari 1960'; the week from https://nl.wikipedia.org/wiki/Tuindorp_Oostzaan"
+      },
+      {
+        "field": "body",
+        "old": "Volunteers, some of them former residents, lead walks through the village on request.",
+        "new": "The foundation also organises walks through the village.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Museumwoning_Tuindorp_Oostzaan",
+        "evidence": "'De stichting verzorgt lezingen en organiseert wandelingen door het tuindorp'; nothing on former residents or 'on request'"
+      }
+    ],
+    "patch": {
+      "body": "The municipal housing department built about 1,350 houses in Tuindorp Oostzaan as a temporary village for shipbuilding workers, to types by B.T. Boeyinga and J.H. Mulder. When housing association Ymere renovated the houses, it found by chance that Meteorenweg 174 was still entirely in its original state. It never had hot water, gas or a bathroom.\n\nYmere meant to open it for a year; the local history foundation Historisch Archief Tuindorp Oostzaan (HATO, founded 1983) persuaded the district and Ymere to keep it as a museum for good. It has been open to the public since 2002, furnished with furniture and household goods from 1920–1940. A small presentation room shows films and hosts talks about life in the village. HATO also keeps records of the flood of 14 January 1960, when a dike along Zijkanaal H burst and 15,000 people had to leave their homes for a week. The foundation also organises walks through the village.\n\nThe house is open on the second Sunday of the month, 11:00–16:30, for a small entrance fee.",
+      "translations": {
+        "nl": {
+          "summary": "Een tuindorphuis uit 1922 waar nooit warm water, gas of een badkamer in kwam. Bij een renovatie werd het ongerept teruggevonden en zo gelaten, met meubels uit de jaren twintig en dertig. Open op de tweede zondag van de maand.",
+          "body": "Warm water, gas, een badkamer: dit huis heeft het allemaal nooit gehad. Toen woningcorporatie Ymere de huizen in Tuindorp Oostzaan renoveerde, bleek bij toeval dat Meteorenweg 174 nog precies zo was als in het begin.\n\nDe Gemeentelijke Woningdienst zette hier zo'n 1350 woningen neer, als tijdelijke woonplek voor wie op de scheepswerven werkte. De woningtypes zijn van B.T. Boeyinga en J.H. Mulder. Dit exemplaar is van 1922.\n\nYmere wilde het huis een jaar lang openstellen. Het Historisch Archief Tuindorp Oostzaan (HATO), een stichting uit 1983, wist het stadsdeel en Ymere over te halen er voorgoed een museum van te maken. Sinds 2002 kan iedereen binnenkijken, in een interieur met meubels en huisraad uit 1920 tot 1940. In een kleine voorlichtingsruimte draaien films en worden lezingen gegeven over het dagelijks leven in het tuindorp van vroeger. HATO bewaart ook materiaal over de overstroming van 14 januari 1960: de dijk langs Zijkanaal H brak door en 15.000 mensen moesten een week lang hun huis uit. Verder organiseert de stichting wandelingen door de wijk.\n\nOpen: op de tweede zondag van elke maand, tussen 11.00 en 16.30 uur, voor een kleine entreeprijs."
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "kzir8kp9bxt3txiph2mpahzq",
+    "title": "Reclamation farms, Broekergouw",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Two early 20th-century dairy farms on the narrow strip of land between the Broekermeer and Burkmeer polders, among the first farms built in this landscape.",
+        "new": "Two early 20th-century farms on the narrow strip of land between the Broekermeer and Burkmeer polders, one of them among the earliest in the area.",
+        "kind": "narrowed",
+        "source": "city:200932, 200933 (register texts)",
+        "evidence": "Only no. 16 is 'een van de vroegste boerderijen in het gebied'; only no. 12 is called 'een melkveebedrijf'"
+      },
+      {
+        "field": "body",
+        "old": "North of Zunderdorp the Broekergouw runs on a narrow strip of land between two drained lakes, the Broekermeerpolder and the Burkmeerpolder, towards Broek in Waterland.",
+        "new": "The Broekergouw runs on a narrow strip of land between two polders, the Broekermeerpolder and the Burkmeerpolder.",
+        "kind": "cut",
+        "source": "city:200932, 200933 (register texts)",
+        "evidence": "Registers: 'de smalle strook land tussen de Broekermeer- en de Burkmeerpolder'; nothing on Zunderdorp, Broek in Waterland or drained lakes"
+      },
+      {
+        "field": "body",
+        "old": "The two farms on it are among the earliest in the area;",
+        "new": "Broekergouw 16 is one of the earliest farms in the area;",
+        "kind": "narrowed",
+        "source": "city:200933 (register text)",
+        "evidence": "'Broekergouw 16 is een van de vroegste boerderijen in het gebied'; the register for no. 12 makes no such claim"
+      },
+      {
+        "field": "body",
+        "old": "Broekergouw 16 (1903)",
+        "new": "Broekergouw 16 (1903)",
+        "kind": "sourced",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200933",
+        "evidence": "jaarBeginVan 1903 (no. 16), 1916 (no. 12, monument 200932); datumAanwijzing 2021-11-30 for both"
+      },
+      {
+        "field": "attributes.original_use",
+        "old": "Dairy farms",
+        "new": "Farms",
+        "kind": "narrowed",
+        "source": "city:200932, 200933 (register texts)",
+        "evidence": "Only no. 12 is described as a dairy farm"
+      }
+    ],
+    "patch": {
+      "summary": "Two early 20th-century farms on the narrow strip of land between the Broekermeer and Burkmeer polders, one of them among the earliest in the area. Broekergouw 16 (1903) keeps a finely detailed front.",
+      "body": "The Broekergouw runs on a narrow strip of land between two polders, the Broekermeerpolder and the Burkmeerpolder. Broekergouw 16 is one of the earliest farms in the area; the city's register calls Broekergouw 12 one of the two *ontginningsboerderijen* (reclamation farms) in this polder.\n\nBroekergouw 16 (1903) has a front house with a cowshed and a free-standing hay barrack; its front is the most refined part, though the right side wall has been renewed. Broekergouw 12 (1916) is a front house, link and barn, a good example of a dairy farm of the first quarter of the 20th century, with a younger cowshed and hay barrack. Both stand on yards edged by ditches, and no. 16 still has part of its windbreak of trees. The city listed both in 2021. This ensemble is pinned on no. 16.\n\nLook for:\n- Broekergouw 16: the detailed front gable of 1903\n- Broekergouw 12: the long line of front house, link and barn\n- the farms' landmark position on the strip between the two polders",
+      "attributes": {
+        "original_use": "Farms"
+      },
+      "translations": {
+        "nl": {
+          "summary": "Twee boerderijen uit het begin van de twintigste eeuw op de smalle landstrook tussen de Broekermeer- en de Burkmeerpolder, waarvan één tot de vroegste van het gebied hoort. Nummer 16 (1903) heeft een fraai uitgewerkte voorgevel.",
+          "body": "Ontginningsboerderij: zo noemt de gemeente Broekergouw 12, een van de twee in deze polder.\n\nDe Broekergouw loopt over een smalle strook grond tussen twee polders, de Broekermeerpolder en de Burkmeerpolder. Op die strook staan beide boerderijen in het zicht, en nummer 16 is een van de eerste boerderijen in het gebied.\n\nBroekergouw 16 is van 1903: een woonhuis met koestal en een losse hooiberg. Het mooiste is de voorgevel, met zijn fijne details; de rechter zijmuur is wel vernieuwd. Broekergouw 12 is van 1916 en bestaat uit woonhuis, tussenstuk en schuur op één lijn, een goed voorbeeld van een melkveebedrijf uit het eerste kwart van de vorige eeuw. Stal en hooiberg zijn er later bij gekomen. Beide erven worden omsloten door sloten, en bij nummer 16 staat nog een deel van de bomenrij die de wind moest breken. In 2021 werden ze allebei gemeentelijk monument. Op de kaart staat de speld op nummer 16.\n\nLet op:\n- Broekergouw 16: de gedetailleerde voorgevel uit 1903\n- Broekergouw 12: woonhuis, tussenstuk en schuur in één lange lijn\n- de opvallende ligging op de landstrook tussen de twee polders",
+          "attributes": {
+            "original_use": "Boerderijen"
+          }
+        }
+      }
+    },
+    "sources_add": [
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200933",
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200932"
+    ]
+  },
+  {
+    "id": "v64zrgw2a0mf3pwwka1t2a0c",
+    "title": "Doctor's house, Nieuwendammerdijk 335",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Among the wooden dike houses this detached brick villa stands out:",
+        "new": "Among the varied old houses on the dike this detached brick villa stands out:",
+        "kind": "narrowed",
+        "source": "rce:508537 (register description)",
+        "evidence": "'onderdeel van de gevarieerde historische dijkbebouwing langs de Nieuwendammerdijk'; no source calls the neighbours wooden"
+      },
+      {
+        "field": "body",
+        "old": "Malaria was then spreading in the wet country around Amsterdam.",
+        "new": "Malaria was then on the rise in the Netherlands, above all in watery areas.",
+        "kind": "narrowed",
+        "source": "https://amsterdamopdekaart.nl/1850-1940/Nieuwendammerdijk/335",
+        "evidence": "'Malaria was destijds bezig aan een opmars in Nederland, vooral in waterrijke omgevingen.'"
+      },
+      {
+        "field": "body (Look for)",
+        "old": "the four brick chimneys with their lead finials",
+        "new": "the four brick chimneys with their finials",
+        "kind": "narrowed",
+        "source": "rce:508537 (register description)",
+        "evidence": "'schoorsteenborden met piron'; the material of the finials is not given"
+      }
+    ],
+    "patch": {
+      "body": "Among the varied old houses on the dike this detached brick villa stands out: four corner chimneys, a truncated slate roof with a wooden railing between the chimneys, a three-sided bay with leaded glass and shutters. The Utrecht architect J.C. Wentink designed it in August 1912 as a doctor's house for what was then the village of Nieuwendam, in a historicising style. A separate shed at the back of the plot stored fuel.\n\nThe practice was downstairs: waiting room, consulting room and pharmacy were in the semi-basement, with the living rooms on the raised ground floor above. The client was most likely the GP Pieter Jacobus Johannes Honig, who had lived in Nieuwendam since 1904 with his wife Adriana Cleijndert, the daughter of a local grain merchant. Malaria was then on the rise in the Netherlands, above all in watery areas. In 1920 Honig counted 709 cases among the 3,000 people in his practice, and in 1922 he took his doctorate with a study of malaria in Nieuwendam and its surroundings. He is said to have smeared or sprayed the banks where mosquitoes laid their eggs with petroleum.\n\nIt is a private house; look from the dike.\n\nLook for:\n- the four brick chimneys with their finials\n- the three-sided bay with leaded transoms and shutters, its roof propped on wooden braces\n- the bevelled corner and the ogee-topped bay on the east side",
+      "translations": {
+        "nl": {
+          "summary": "Een dokterswoning met leien dak uit 1912-1913; wachtkamer en apotheek zaten in het souterrain. De dokter telde in 1920 onder zijn 3000 patiënten 709 gevallen van malaria en promoveerde op die ziekte.",
+          "body": "Malaria, in Nieuwendam. In 1920 telde de huisarts die hier woonde 709 gevallen onder de 3000 mensen in zijn praktijk. Het verhaal gaat dat hij de oevers waar de muggen hun eitjes legden met petroleum insmeerde of bespoot.\n\nTussen de gevarieerde oude huizen op de dijk valt deze vrijstaande stenen villa meteen op. Vier schoorstenen op de hoeken, een afgeknot leien dak met een houten hekje tussen de schoorstenen, en een driezijdige erker met glas-in-lood en luiken. De Utrechtse architect J.C. Wentink tekende het huis in augustus 1912 als dokterswoning voor het toenmalige dorp Nieuwendam, in een stijl die teruggrijpt op vroeger. Achter op het perceel staat een apart schuurtje voor onder meer de brandstof.\n\nDe praktijk zat onderin: wachtkamer, spreekkamer en apotheek in het souterrain, en daarboven, op de verhoogde begane grond, het woongedeelte. De opdrachtgever was hoogstwaarschijnlijk huisarts Pieter Jacobus Johannes Honig. Hij woonde sinds 1904 in Nieuwendam met zijn vrouw Adriana Cleijndert, dochter van een graanhandelaar uit de buurt. Malaria rukte in die jaren op in Nederland, vooral waar veel water was. Honig promoveerde er in 1922 op, met een studie naar de ziekte in Nieuwendam en omstreken.\n\nHet is een woonhuis: kijk vanaf de dijk.\n\nLet op:\n- de vier bakstenen schoorstenen met hun pironnen\n- de driezijdige erker met glas-in-lood in de bovenlichten en luiken, waarvan het dak op houten schoren rust\n- de afgeschuinde hoek en de erker met ojiefvormige top aan de oostkant"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "hcr7nxcsx11vx4h2wme6wk34",
+    "title": "Former town hall of Ransdorp",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "A stone house in a wooden village.",
+        "new": "A stone house in a mostly wooden village.",
+        "kind": "narrowed",
+        "source": "city:200463 (register text)",
+        "evidence": "'vrijstaande en voornamelijk houten huisjes ... Een uitzondering hierop vormt het tegenover de toren staande voormalige raadhuis'"
+      },
+      {
+        "field": "summary",
+        "old": "with Doric pilasters and a high double stoop.",
+        "new": "with pilasters and a high double stoop.",
+        "kind": "cut",
+        "source": "rce:6742 (register description)",
+        "evidence": "'Dwarshuis uit 1652 met pilasters'; no available source gives the order (the ensie.nl text is cut off before the description)"
+      },
+      {
+        "field": "body",
+        "old": "Opposite the tower stands the only grand stone building in Ransdorp.",
+        "new": "Opposite the tower stands the stone exception among the mostly wooden houses around the church.",
+        "kind": "narrowed",
+        "source": "city:200463 (register text)",
+        "evidence": "'Rondom de kerk bestaat deze uit vrijstaande en voornamelijk houten huisjes ... Een uitzondering hierop vormt het ... voormalige raadhuis'; no source says it is the only stone building in the village"
+      },
+      {
+        "field": "body",
+        "old": "one storey over a raised basement, a steep saddle roof parallel to the road,",
+        "new": "a steep saddle roof parallel to the road,",
+        "kind": "cut",
+        "source": "city:200463 (register text)",
+        "evidence": "Register: 'een stenen pand met een verdieping en een steil zadeldak met een nokrichting evenwijdig aan de rooilijn'; a raised basement is not described"
+      },
+      {
+        "field": "body",
+        "old": "when Ransdorp became a municipality of its own, later also covering Holysloot, Durgerdam and Schellingwoude.",
+        "new": "when Ransdorp became a municipality of its own, with Holysloot and later also Durgerdam and Schellingwoude.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Ransdorp",
+        "evidence": "'Vanaf 1811 was Ransdorp een zelfstandige gemeente, met ook Holysloot, vanaf 1818 Durgerdam en vanaf 1857 tevens de voormalige gemeente Schellingwoude'"
+      },
+      {
+        "field": "body",
+        "old": "The new municipality's council meetings were often chaotic,",
+        "new": "The new municipality's council meetings were more than once chaotic,",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Ransdorp",
+        "evidence": "'De raadsvergaderingen verliepen meer dan eens chaotisch'"
+      },
+      {
+        "field": "body",
+        "old": "in 1918 the council voted unanimously to be annexed by Amsterdam",
+        "new": "in 1918 the council voted unanimously to be annexed by Amsterdam",
+        "kind": "sourced",
+        "source": "city:200476 (register text)",
+        "evidence": "'In 1918 besloot de raad unaniem dat de eigen gemeente kon worden ingelijfd door het grotere Amsterdam'"
+      },
+      {
+        "field": "body (Look for)",
+        "old": "the gable stones and date stones, one carved with the Waterland swan",
+        "new": "the gable stones and date stones, one of them of the Waterlandse Unie",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Ransdorp",
+        "evidence": "Register: 'Gevel- en jaartalstenen'; Wikipedia caption: 'Gevelsteen van de Waterlandse Unie op het voormalige raadhuis'; the swan is not described"
+      },
+      {
+        "field": "body (Look for)",
+        "old": "the wooden barn (kaakberg) south of the building, which belongs to Dorpsweg 63",
+        "new": "",
+        "kind": "cut",
+        "source": "rce:6742 (register description)",
+        "evidence": "No source in links or sources mentions a barn or Dorpsweg 63"
+      }
+    ],
+    "patch": {
+      "summary": "A stone house in a mostly wooden village. Built in 1652 as the meeting place of the Waterlandse Unie, six Waterland villages that ran their common affairs here until 1811, with pilasters and a high double stoop.",
+      "body": "Opposite the tower stands the stone exception among the mostly wooden houses around the church. From 1619 to 1811 Ransdorp was the meeting place of the *Waterlandse Unie* (Waterland Union), a league of six villages: Broek in Waterland, Ilpendam, Ransdorp, Schellingwoude, Zuiderwoude and Zunderdorp. In 1652 they built this *raadhuis* (town hall) as their meeting house. It is a *dwarshuis*, a house set broadside to the street, unlike the gable-on wooden houses around it: a steep saddle roof parallel to the road, and the main floor reached by a high double stoop between pilasters. The design is attributed to Pieter Pietersz van Saerdam.\n\nThe Union ended in 1811, when Ransdorp became a municipality of its own, with Holysloot and later also Durgerdam and Schellingwoude. Before the village school of 1868 was built across the road, lessons were said to have been given in the town hall's cellar. The new municipality's council meetings were more than once chaotic, because the villages had opposite interests, and in 1918 the council voted unanimously to be annexed by Amsterdam; that happened on 1 January 1921.\n\nLook for:\n- the high double stoop up to the main floor\n- the pilasters dividing the front\n- the gable stones and date stones, one of them of the Waterlandse Unie",
+      "translations": {
+        "nl": {
+          "summary": "Een stenen huis in een dorp van vooral hout. Gebouwd in 1652 als vergaderhuis van de Waterlandse Unie, zes Waterlandse dorpen die hier tot 1811 hun gezamenlijke zaken regelden. Met pilasters en een hoge dubbele stoep.",
+          "body": "In 1918 stemde de gemeenteraad van Ransdorp unaniem voor zijn eigen opheffing: laat Amsterdam ons maar inlijven. Op 1 januari 1921 was het zover.\n\nTegenover de kerktoren staat het, van steen, tussen huisjes die bijna allemaal van hout zijn. Van 1619 tot 1811 kwam in Ransdorp de Waterlandse Unie bijeen, een bond van zes dorpen: Broek in Waterland, Ilpendam, Ransdorp, Schellingwoude, Zuiderwoude en Zunderdorp. In 1652 bouwden ze dit raadhuis om er te vergaderen. Het is een dwarshuis: anders dan de houten buren, die hun puntgevel naar de weg keren, ligt het steile zadeldak hier evenwijdig aan de straat. Je bereikt de hoofdverdieping via een hoge dubbele stoep, tussen pilasters. Het ontwerp wordt toegeschreven aan Pieter Pietersz van Saerdam.\n\nMet 1811 was het gedaan met de Unie. Ransdorp werd een gemeente op zich, met Holysloot erbij en later ook Durgerdam en Schellingwoude. Voordat in 1868 de dorpsschool aan de overkant kwam, zou er in de kelder van het raadhuis les zijn gegeven. Rustig vergaderen was er in de nieuwe gemeente niet altijd bij: de dorpen wilden vaak iets anders, en meer dan eens liep de raad uit op chaos.\n\nLet op:\n- de hoge dubbele stoep naar de hoofdverdieping\n- de pilasters die de voorgevel indelen\n- de gevel- en jaartalstenen, waaronder een steen van de Waterlandse Unie"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "x95app6ogu65ssbce0n4wyya",
+    "title": "Nieuwendammerkerk",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The tombstones in the floor came from the old church,",
+        "new": "The tombstones came from the old church,",
+        "kind": "narrowed",
+        "source": "rce:508536 (register description)",
+        "evidence": "'De grafzerken zijn nog afkomstig uit de oude kerk'; where they lie is not stated"
+      },
+      {
+        "field": "body (Look for)",
+        "old": "the stone with the initials by the entrance",
+        "new": "the foundation stone with the initials",
+        "kind": "narrowed",
+        "source": "rce:508536 (register description)",
+        "evidence": "'De eerste steen werd gelegd door de zoon van de predikant ... (waaraan de initialen op deze steen nog herinneren)'; its position is not given"
+      }
+    ],
+    "patch": {
+      "body": "The church does not stand on the Nieuwendammerdijk but a little below it, at the end of the Brede Kerkepad (broad church path), surrounded by its graveyard. Nieuwendam got its own congregation in 1635, and in 1643 a plot was donated to build a church and lay out a burial ground. That first church of 1644 had become unsafe by 1847 and was pulled down; the present hall church was built in 1848–1849 for the Reformed congregation, opening on 18 February 1849. The village council paid 3,000 guilders towards the tower. The initials on the foundation stone are those of the minister's son, who laid it.\n\nIt is a sober eclectic building in yellow IJssel brick and red brick, with a square tower carrying a slate-covered octagonal spire and a wrought-iron finial. Inside, the roof rests on timber trusses related to the English hammerbeam type. The tombstones came from the old church, as did the 17th-century oak pulpit, carved with figures of the virtues, and the bell in the tower, cast in Kampen in 1644. The two-manual organ was made in 1849 by J. Hoffmeijer, his only church organ, and was restored to its original state in 2009–2010. A stone inside marks how high the water rose in the flood of 1916. The church is still in use, and the city restored the tower in 2022–2023.\n\nLook for:\n- the foundation stone with the initials\n- the iron railing on a brick base around the churchyard\n- old gravestones in the churchyard\n- the four clock faces in the narrow upper stage of the tower",
+      "translations": {
+        "nl": {
+          "summary": "De dorpskerk van Nieuwendam uit 1849, iets van de dijk af tussen haar eigen graven. Met een houten kapconstructie in Engelse 'hammerbeam'-trant, een klok uit 1644 en het enige kerkorgel dat Hoffmeijer ooit bouwde.",
+          "body": "Orgelbouwer J. Hoffmeijer maakte in zijn leven precies één kerkorgel, en dat staat hier: twee klavieren, opgeleverd in 1849 en in 2009-2010 teruggebracht naar die oorspronkelijke staat.\n\nDe kerk staat niet op de Nieuwendammerdijk maar wat lager, aan het eind van het Brede Kerkepad, met het kerkhof eromheen. Nieuwendam kreeg in 1635 een eigen gemeente, en in 1643 werd er een stuk grond geschonken voor een kerk en een begraafplaats. Die eerste kerk, van 1644, was in 1847 zo bouwvallig dat ze tegen de vlakte ging. Voor de hervormde gemeente verrees in 1848-1849 deze zaalkerk, die op 18 februari 1849 openging. Het dorpsbestuur legde 3000 gulden bij voor de toren. De letters op de eerste steen zijn van de zoon van de dominee, die hem legde.\n\nHet gebouw is sober en eclectisch, van gele IJsselsteen en rode baksteen. Op de vierkante toren staat een achtkantige spits met leien en een gesmede ijzeren bekroning. Binnen draagt een houten kap het dak, verwant aan het Engelse hammerbeamtype. Uit de oude kerk kwamen de grafzerken mee, de eiken preekstoel uit de zeventiende eeuw met gesneden figuren van de deugden, en de torenklok, in 1644 in Kampen gegoten. Een steen in de kerk wijst aan hoe hoog het water stond bij de overstroming van 1916. De kerk is nog in gebruik, en in 2022-2023 knapte de gemeente de toren op.\n\nLet op:\n- de eerste steen met de initialen\n- het ijzeren hek op een gemetselde voet rond het kerkhof\n- de oude grafstenen op het kerkhof\n- de vier wijzerplaten in het smallere bovenste deel van de toren"
+        }
+      }
+    },
+    "sources_add": []
+  }
+]

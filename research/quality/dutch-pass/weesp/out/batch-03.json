@@ -1,0 +1,918 @@
+[
+  {
+    "id": "a57pmch9eyv45bq2outmxez5",
+    "title": "Former town hall of Weesperkarspel",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Its council met wherever it could, for a while",
+        "new": "Its council met in various places, for a while",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Raadhuis_van_Weesperkarspel",
+        "evidence": "\"vergaderde op diverse locaties in de gemeente en daar buiten zoals de bovenste verdieping van het stadhuis van Weesp\""
+      },
+      {
+        "field": "body",
+        "old": "In 1922 the last owner of this house died, the widow of Van der Muelen, a local benefactor who had paid for Weesp's first Christian primary school in 1881.",
+        "new": "In 1922 the last resident of this house died, the widow of Van der Muelen, whose husband had given money in 1881 for the land and building of Weesp's first Christian primary school.",
+        "kind": "narrowed",
+        "source": "https://www.tgooi.info/weesp/hoogstraat24.php",
+        "evidence": "\"Na overlijden van weduwe van der Muelen in 1922\"; \"De heer van de Muelen heeft in 1881 geld gegeven voor aankoop grond en bouw eerste christelijke lagere school\"; wiki: \"laatste bewoonster\" (resident, not owner; \"benefactor\" not in sources)"
+      },
+      {
+        "field": "body",
+        "old": "The core is probably 18th century;",
+        "new": "The core is possibly 18th century;",
+        "kind": "narrowed",
+        "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "\"Het in de kern mogelijk 18de-eeuwse herenhuis Hoogstraat 24\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Weesperkarspel had zijn raadhuis niet in Weesperkarspel. Van 1924 tot 1966 bestuurde die uitgestrekte plattelandsgemeente zich vanuit dit herenhuis in Weesp, tot Amsterdam het grootste deel van haar grond opslokte voor de Bijlmer.",
+          "body": "Weesperkarspel had een raadhuis, maar het stond niet in Weesperkarspel. De gemeente (1817–1966) besloeg een enorm gebied, in een wijde boog om de vestingstad Weesp heen, van Diemen tot het Gooi. Er woonden alleen weinig mensen, en ruim een eeuw had het bestuur geen eigen dak. De raad kwam op allerlei plekken bijeen, een tijd lang zelfs op de bovenste verdieping van het stadhuis van de buren.\n\nIn 1922 overleed de laatste bewoonster van dit huis, de weduwe Van der Muelen. Haar man had in 1881 geld gegeven voor grond en gebouw van de eerste christelijke lagere school van Weesp. De gemeente kocht het pand en nam het in 1924 in gebruik als raadhuis. Zo kwam het bestuur in Weesp terecht, en niet in De Geinbrug (nu Driemond), het grootste dorp binnen de eigen grenzen.\n\nHet huis is ouder dan zijn gevel. De kern is mogelijk 18e-eeuws; in 1866 kwam er een nieuw voorhuis met kelder, een neoclassicistische voorgevel en een hoge stoep. In de laatste jaren telde het college nog maar twee mensen: de burgemeester en één wethouder. In 1966 kreeg Amsterdam na lange onderhandelingen het grootste deel van het grondgebied, om er de Bijlmermeer te bouwen; de rest ging vooral naar Weesp. Daarna zaten hier nog ambtenaren van Amsterdam en later de sociale dienst van Weesp, tot het pand werd verkocht en weer een gewoon woonhuis werd.\n\nHet is een particulier huis: kijk vanaf de straat.\n\nLet op:\n- de hoge stoep en het licht vooruitspringende middendeel\n- de sobere neoclassicistische gevel, die nog altijd iets van een klein raadhuis heeft",
+          "attributes": {
+            "built": "mogelijk 18e eeuw (kern), 1866 (voorhuis)",
+            "original_use": "Woonhuis; raadhuis 1924–1966"
+          }
+        }
+      },
+      "body": "Weesperkarspel (1817–1966) was one of the largest municipalities in the Netherlands by area, curling around the fortress town of Weesp from Diemen to the Gooi, but it had few inhabitants and for a century no building of its own. Its council met in various places, for a while on the top floor of the Weesp town hall. In 1922 the last resident of this house died, the widow of Van der Muelen, whose husband had given money in 1881 for the land and building of Weesp's first Christian primary school. The municipality bought the house and opened it in 1924 as its town hall: in Weesp, not in its own largest village, De Geinbrug (today Driemond).\n\nThe house is older than its front. The core is possibly 18th century; in 1866 it got a new front house with a cellar and a neoclassical façade with a high stoop. In its last years the municipal executive was just the mayor and one alderman. In 1966, after long negotiations, Amsterdam took most of Weesperkarspel's land to build the Bijlmermeer, and the rest went mostly to Weesp. The building then served Amsterdam and later Weesp's social services until it was sold and became a private home again.\n\nIt is a private house: look from the street.\n\nLook for:\n- the high stoop and the slightly projecting centre bay\n- the plain neoclassical front, still with the air of a small town hall",
+      "attributes": {
+        "rank": "Nice",
+        "heritage_status": "National monument",
+        "monument_number": "38524",
+        "built": "possibly 18th century (core), 1866 (front house)",
+        "listed": 1974,
+        "original_use": "House; town hall 1924–1966"
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "a9bw7gb9vwiibioc2rkaguiw",
+    "title": "Remains of the Jonge Convent",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Late-medieval Weesp had several religious houses. The Jonge Convent (young convent), built between 1397 and 1427, stood between the Nieuwstraat and the line of the later Middenstraat, which for a while had to run around its north side.",
+        "new": "The Jonge Convent (young convent), built between 1397 and 1427, stood between the Nieuwstraat and the line of the later Middenstraat, laid out around 1550.",
+        "kind": "cut",
+        "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "No source for \"several religious houses\" or for the street running around the convent's north side. dbnl: \"Rond 1550 legde men de Middenstraat aan\"; remains stand on both the Nieuwstraat (city:450130002/3) and the Middenstraat (city:450120003)"
+      },
+      {
+        "field": "body",
+        "old": "This house is the main survivor. Its early 15th-century side walls, of fairly large bricks, are a remnant of the convent's refectory, the hall where the residents ate.",
+        "new": "This house is one of the survivors. Its early 15th-century side walls are a remnant of the convent's refectory, the hall where the residents ate; the left one is of fairly large bricks.",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/2812f26f-ab41-40b1-8d5b-2e4570026535",
+        "evidence": "Register: \"Linkerzijgevel in vrij groot steenformaat\" (only the left wall). \"Main survivor\" unsupported: Nieuwstraat 45-47 and Pieter Jacobstraat 6 are also convent remains (city:450130002, 450085001)"
+      },
+      {
+        "field": "body",
+        "old": "heavy 18th-century window frames sit in the plastered side walls",
+        "new": "heavy window frames, probably 18th-century, sit in the plastered side walls",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/2812f26f-ab41-40b1-8d5b-2e4570026535",
+        "evidence": "\"enkele zware, denkelijk 18e eeuwse kozijnen\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Gewoon huisje aan de Middenstraat? De zijmuren zijn vroeg-15e-eeuws: hier at ooit een kloostergemeenschap, in de refter van het Jonge Convent. Dat klooster verrees tussen 1397 en 1427 en ging na 1577 grotendeels tegen de vlakte.",
+          "body": "Achter deze bescheiden gevel staan de muren van een eetzaal van zeshonderd jaar oud. De zijmuren van Middenstraat 42 stammen uit het begin van de 15e eeuw en zijn een overblijfsel van de refter van het Jonge Convent, de zaal waar de bewoners van het klooster aten.\n\nDat convent werd gebouwd van 1397 tot 1427, op de grond tussen de Nieuwstraat en de plek waar rond 1550 de Middenstraat werd aangelegd. Na 1577 werd het voor het grootste deel afgebroken. Dit huis is een van de stukken die bleven staan.\n\nKijk vooral naar de linkermuur: die is opgetrokken uit opvallend grote stenen. De voorkant is veel jonger. Die gevel van paarsrode baksteen, met een afgeknotte top en een kroonlijst, kwam er in de tweede helft van de 18e eeuw. In de gepleisterde zijmuren zitten een paar zware kozijnen, vermoedelijk ook uit de 18e eeuw. Volgens het gemeentelijk register zie je nog steeds hoe het huis samenhangt met de andere bewaarde delen van het klooster in de buurt.\n\nHet is een woonhuis.\n\nLet op:\n- de grote bakstenen van de linkerzijmuur\n- de afgeknotte 18e-eeuwse topgevel en de getoogde kozijnen naast de deur"
+        }
+      },
+      "body": "The Jonge Convent (young convent), built between 1397 and 1427, stood between the Nieuwstraat and the line of the later Middenstraat, laid out around 1550. After 1577 the convent was largely demolished.\n\nThis house is one of the survivors. Its early 15th-century side walls are a remnant of the convent's refectory, the hall where the residents ate; the left one is of fairly large bricks. The front, of purple-red brick under a truncated gable with a cornice, dates from the second half of the 18th century; heavy window frames, probably 18th-century, sit in the plastered side walls. The register still sees a visual link with the other surviving parts of the convent nearby.\n\nIt is a private house.\n\nLook for:\n- the large-format brick of the left side wall\n- the 18th-century truncated gable and the arched frames beside the door"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "xl09nwkz31r4rswxwqgklfwx",
+    "title": "Jugendstil corner shop, Binnenveer 2-6",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The Achtergracht side has since been filled, but the north wall still rises from the water.",
+        "new": "The Achtergracht side no longer meets the water, but the north wall still rises from it.",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/36cd177b-e3fc-433b-93a1-e5cba3b97001",
+        "evidence": "\"lag oorspronkelijk aan de noord- en westzijde aan het water ... De noordgevel rijst nu nog uit het water op.\" The register does not say the Achtergracht was filled"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een winkelpand uit 1904 dat rondom vrij staat, met een torentje op de hoek, etalages in jugendstilvormen en een noordmuur die nog steeds pal uit de Smal Weesp omhoogkomt. Het gemeentelijk register noemt het voor Weesp zeldzaam en bijna gaaf.",
+          "body": "De noordmuur van dit pand staat met zijn voeten in het water. Toen het in 1904 werd gebouwd, grensde het zelfs aan twee kanten aan de gracht: de Smal Weesp aan de noordkant, de Achtergracht aan de westkant. Aan die westkant is het water verdwenen, maar vanaf de brug zie je de noordgevel nog altijd uit de Smal Weesp oprijzen.\n\nHet is een bijna vierkant blok van twee verdiepingen, met winkels beneden en woningen erboven, en het staat helemaal los. De architect speelde met de schuine lijn: de symmetrie loopt over de diagonaal. Precies op de zuidoosthoek zit een torentje, schuin geplaatst en op de hoogte van de eerste verdieping naar buiten gebouwd, met een tentdak en een loden piron als punt. Links en rechts daarvan staan puntgevels met versierde windveren.\n\nDe straatgevels zijn van gele verblendsteen met rode banden en bogen, en hardsteen voor plinten, dorpels en consoles. Boven de ramen zit siermetselwerk in gekleurde steen. De etalages hebben een tussendorpel in de vorm van een S, typisch jugendstil. Niet alles is gebleven: het balkon in de oostelijke puntgevel is weg en de ingang onder het torentje is een raam geworden. Toch vindt het register het een geslaagd stuk jugendstil, een stijl die je in Weesp zelden tegenkomt, en door zijn opvallende plek een belangrijk stuk stadsbeeld.\n\nLet op:\n- het hoektorentje met tentdak en piron\n- de S-vormige tussendorpels van de etalages\n- de noordgevel die uit de Smal Weesp oprijst, het best te zien vanaf de brug\n- de versierde windveren van de puntgevels op de hoeken",
+          "attributes": {
+            "built": "1904",
+            "architect": "J. Blüm (alleen de pui)",
+            "original_use": "Twee winkels met bovenwoningen"
+          }
+        }
+      },
+      "body": "Where the Slijkstraat crosses the Smal Weesp, this almost square building of 1904 stands free on all sides. It was built with shops below and homes above, and originally had water on two sides: the Smal Weesp to the north and the Achtergracht to the west. The Achtergracht side no longer meets the water, but the north wall still rises from it.\n\nIt is laid out on the diagonal: a tower-like bay set across the south-east corner, corbelled out at first-floor level and capped with a tent roof and a lead finial, is flanked by gabled corner wings. The street fronts are of yellow facing brick with red bands and arches, hardstone sills and consoles, and coloured-brick ornaments above the windows; the shop windows have S-curved transoms, in Jugendstil forms. A balcony in the east gable has gone, and the corner entrance under the tower is now a window. The register calls it a good and, for Weesp, rare example of Jugendstil, of great value because of where it stands.\n\nLook for:\n- the corner tower with tent roof and finial\n- the S-curved transoms of the shop windows\n- the north wall rising from the Smal Weesp, best seen from the bridge\n- the decorated bargeboards of the corner gables"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "stzmtx1unh31ft61vg4opa0t",
+    "title": "Torenfort aan de Ossenmarkt and the bastions of Weesp",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "built for 232 men and outdated almost as soon as it was finished. It never fired a shot.",
+        "new": "built for 232 men and soon overtaken by heavier guns. It never fired a shot at an enemy.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Torenfort_aan_de_Ossenmarkt",
+        "evidence": "Wiki: 1876 changes \"tegen nieuwe, zwaardere en trefzekerder kanonnen\"; IVN: \"Vanuit het fort is nooit met een geweer of kanon op een vijand geschoten\""
+      },
+      {
+        "field": "body",
+        "old": "It was one of the last tower forts of the Waterline and soon useless: rifled guns and later the high-explosive shell could smash brick.",
+        "new": "It was one of the last tower forts of the Waterline and soon outdated: heavier, more accurate guns and later the high-explosive shell could smash brick.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Torenfort_aan_de_Ossenmarkt",
+        "evidence": "\"Om het fort beter te beschermen tegen nieuwe, zwaardere en trefzekerder kanonnen\"; \"Met de komst van de brisantgranaat was het fort met gemetselde muren niet meer bomvrij\" (no mention of rifling; \"useless\" overstated)"
+      },
+      {
+        "field": "body",
+        "old": "now holds a music school, artists' and community groups and the Historische Kring Weesp",
+        "new": "now holds a music school, the Kreatieve Groep Weesp and the Historische Kring Weesp",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Torenfort_aan_de_Ossenmarkt",
+        "evidence": "\"zijn onder andere de Kreatieve Groep Weesp, een muziekschool en de Historische Kring Weesp gevestigd\""
+      },
+      {
+        "field": "body",
+        "old": "the concrete casemate block and a type P group shelter of 1939–1940 on Nieuw Achtkant",
+        "new": "the concrete blocks of a casemate and a concrete group shelter of 1939–1940 on Nieuw Achtkant",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38662",
+        "evidence": "Register: \"een betonnen groepsschuilplaats en de betonblokken van een gietstalen koepelkazemat\" on Nieuw Achtkant; dbnl: \"betonnen verdedigingswerken (1939-'40)\". \"Type P\" not in the sources"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een rond bakstenen torenfort uit 1861 op het Vechteiland, gebouwd voor 232 soldaten en al snel ingehaald door zwaarder geschut. Er is nooit op een vijand geschoten. Eromheen liggen de vier bastions van 1674, met bunkers uit 1939-1940 in de wallen.",
+          "body": "Een fort dat nooit op een vijand heeft geschoten en al snel verouderd was. Dat is in het kort het verhaal van het torenfort op de Ossenmarkt.\n\nHet begon in 1672-1674. Voor de Hollandse Waterlinie kreeg Weesp nieuwe wallen, maar van het plan kwam maar de helft af: twee fronten van elk twee bastions. Het Utrechtse Front (Draaierschans en Rooseboom) sluit de stad aan de zuidkant af. Het 's-Gravelandse Front (Bakkerschans en Nieuw Achtkant) ligt aan de overkant van de Vecht. Daar maakte het graven van de gracht een eiland, de Ossenmarkt, waar ooit vee werd verhandeld. Vier bastions aan de west- en noordkant bleven bij plannen.\n\nTussen de twee oostelijke bastions bouwde het leger een rond fort, klaar in 1861: twee lagen, waarvan één grotendeels onder de grond, zo'n 34 meter doorsnee, muren van 1,8 meter dik en kanonnen op het dak. Er was plek voor 232 man, met bakkerij en keuken in de kelder. Het was een van de laatste torenforten van de linie. Zwaardere, preciezere kanonnen en later de brisantgranaat konden baksteen kapotschieten, dus in 1876 werd de gracht gedempt, ging het geschut van het dak en kwam er aan de oostkant een dikke aarden wal tegenaan. Het fort werd bemand in 1870-1871 en in 1914-1918, maar kwam nooit in actie. Pas in 1959 hield Weesp officieel op een vesting te zijn.\n\nVanaf 1985 ging de wal weer weg en kwamen gracht en brug terug. Sinds de heropening in 1992 zitten er onder meer een muziekschool, de Kreatieve Groep Weesp en de Historische Kring Weesp. In 2010 kreeg Nieuw Achtkant deels zijn vorm van eind 19e eeuw terug, met een snede dwars door de wal die laat zien hoe die gegroeid is.\n\nLet op:\n- het halfronde trappenhuis bij de ingang en de schietgaten voor geweren en kanonnen\n- de snede door Nieuw Achtkant, met lijnen voor de hoogte van de wal in de 17e en eind 19e eeuw\n- de betonblokken van een kazemat en een betonnen groepsschuilplaats uit 1939-1940 op Nieuw Achtkant\n- de bomvrije magazijnen op Nieuw Achtkant en Rooseboom\n- de stenen grenspalen van de militaire grond\n- het gietijzeren kanon uit 1812, afkomstig uit Vlissingen, bij de Bakkerschans"
+        }
+      },
+      "summary": "A round brick tower fort of 1861 on the Vecht island, built for 232 men and soon overtaken by heavier guns. It never fired a shot at an enemy. Around it lie the four 1674 bastions of Weesp, with 1940 bunkers tucked into their walls.",
+      "body": "In 1672–1674 Weesp got a new ring of defences for the Holland Water Line. Only the southern and eastern part was finished: two \"fronts\" of two bastions each. The *Utrechtse Front* (bastions Draaierschans and Rooseboom) closes the town to the south; the *'s-Gravelandse Front* (Bakkerschans and Nieuw Achtkant) lies across the Vecht, where digging the moat created the island called the Ossenmarkt, once a cattle market. Four more bastions planned to the west and north were never built.\n\nBetween the two eastern bastions the army finished a round tower fort in 1861: two storeys, one largely below ground, about 34 m across with walls 1.8 m thick, a gun battery on the roof and rooms for 232 men, with a bakery and kitchen in the basement. It was one of the last tower forts of the Waterline and soon outdated: heavier, more accurate guns and later the high-explosive shell could smash brick. In 1876 the moat was filled, the guns came off the roof and a heavy earth bank was piled against the east side. The fort was manned in 1870–1871 and in 1914–1918 but never saw action. Weesp only lost its status as a fortress in 1959.\n\nFrom 1985 the bank was dug away and the moat and bridge restored; the fort reopened in 1992 and now holds a music school, the Kreatieve Groep Weesp and the Historische Kring Weesp (local history society). In 2010 bastion Nieuw Achtkant was partly rebuilt to its late 19th-century shape, with a cutting through the rampart that shows how the earthworks grew.\n\nLook for:\n- the semicircular stair tower by the entrance and the loopholes for muskets and guns\n- the cutting through Nieuw Achtkant, with lines marking the rampart heights of the 17th and late 19th century\n- the concrete blocks of a casemate and a concrete group shelter of 1939–1940 on Nieuw Achtkant\n- the bombproof magazines on Nieuw Achtkant and Rooseboom\n- the stone boundary posts marking military land\n- the cast-iron cannon of 1812 from Vlissingen by the Bakkerschans"
+    },
+    "sources_add": [
+      "https://www.hmdb.org/m.asp?m=206780"
+    ]
+  },
+  {
+    "id": "zyzbtqffgij0pqsqfa68b2mw",
+    "title": "Grote Kerk Weesp",
+    "changes": [
+      {
+        "field": "body",
+        "old": "was rebuilt in brick from about 1429, and consecrated in 1462, on the site of a 13th-century tufa church.",
+        "new": "was rebuilt in brick in the 15th century, possibly from 1429, and consecrated in 1462, on the site of a tufa church, probably of the 13th century.",
+        "kind": "narrowed",
+        "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "\"Een vermoedelijk 13de-eeuwse tufstenen kerk ter plaatse werd in de 15de eeuw - mogelijk vanaf 1429 (wijding 1462) - in baksteen herbouwd\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een laatgotische kerk met een romaanse toren die nog van een oudere tufstenen kerk is. In die toren hangen dertien Hemony-klokken uit 1671 en een uurklok uit 1506; binnen staan een koorhek van rond 1530 en een Bätz-orgel.",
+          "body": "In mei 2024 klonk om klokslag twaalf Europapa over Weesp, het Nederlandse songfestivallied, gespeeld op klokken waarvan er dertien in 1671 door Pieter Hemony zijn gegoten. Het carillon van de Grote of Laurenskerk wordt nog altijd bespeeld door een beiaardier.\n\nDe kerk is een stuk ouder dan die klokken. Op deze plek stond een tufstenen kerk, vermoedelijk uit de 13e eeuw. In de 15e eeuw, mogelijk vanaf 1429, kwam er een bakstenen kerk voor in de plaats, die in 1462 werd ingewijd. Eind 15e eeuw werd het schip verhoogd en kwamen de zijbeuken erbij, begin 16e eeuw het koor. De onderste drie lagen van de toren, met lisenen en rondboogfriezen, zijn van de oude kerk overgebleven. Vanaf 1489 had de kerk een college van zangers die voor hun werk betaald werden. In 1577 ging het gebouw naar de protestanten. Veel van de inrichting verdween toen, het gotische koorhek niet.\n\nBoven in de toren hangen naast de Hemony-klokken een klok van Jan Moer (1562) en een uurklok van Geert van Wou (1506). De trommel die de melodieën speelt is uit 1676. Binnen staan een kabinetorgel van rond 1800 en het hoofdorgel van de gebroeders Bätz (1823), en verder grafzerken en rouwborden. De Protestantse Gemeente Weesp en Driemond kerkt hier nog.\n\nLet op:\n- de romaanse onderste lagen van de toren\n- het classicistische noordportaal met koepeldak (1673) en de laatgotische deur ernaast\n- binnen het koorhek van rond 1530, met de Tien Geboden die er na de Reformatie bij kwamen\n- de rococo-toegang naar de consistorie (1755) met een pelikaan die haar jongen voedt"
+        }
+      },
+      "body": "The Grote of Laurenskerk (Great or St Lawrence's Church) was rebuilt in brick in the 15th century, possibly from 1429, and consecrated in 1462, on the site of a tufa church, probably of the 13th century. The lower three stages of the tower, with their pilaster strips and round-arched friezes, are left over from that older church. Late in the 15th century the nave was raised and aisles added, and the choir followed in the early 16th century. From 1489 the church had a college of paid professional singers. In 1577 it passed to the Protestants; most of the furnishings went, but the Gothic choir screen stayed.\n\nThe tower holds the town's sound. Thirteen of its carillon bells were cast by Pieter Hemony in 1671, one by Jan Moer in 1562; the hour bell is by Geert van Wou (1506), and the drum that plays the tunes dates from 1676. The carillon is still played by a carillonneur: in May 2024 it rang out *Europapa*, the Dutch Eurovision song, at noon. Inside are a cabinet organ of about 1800, the main organ by the Bätz brothers (1823), tombstones and hatchments. The church is used by the Protestant congregation of Weesp and Driemond.\n\nLook for:\n- the Romanesque lower stages of the tower\n- the classical north porch with a domed roof (1673) and the late-Gothic door beside it\n- inside, the choir screen of about 1530 with the Ten Commandments added after the Reformation\n- the Rococo doorway to the vestry (1755) with a pelican feeding her young"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "pidq899ir2djko9s5glpmh6u",
+    "title": "Former synagogue, Nieuwstraat",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Weesp's synagogue of 1840, served a Jewish community that was forced out on 29 April 1942.",
+        "new": "Weesp's synagogue of 1840, whose Jewish community, says the plaque, was gone by 29 April 1942.",
+        "kind": "narrowed",
+        "source": "https://www.hmdb.org/m.asp?m=214834",
+        "evidence": "Plaque: \"tot ze zo maar weg waren 29 april 1942\"; JCK says all Jews had been expelled by the end of 1941, so the date is the plaque's"
+      },
+      {
+        "field": "body",
+        "old": "a mob broke its windows after a false rumour; the culprits were punished.",
+        "new": "a mob broke its windows after a false rumour; some of the culprits were punished.",
+        "kind": "narrowed",
+        "source": "https://dutchjewry.org/drieluik/weesp/weesp.shtml",
+        "evidence": "\"some of the guilty persons received corrective punishment\""
+      },
+      {
+        "field": "body",
+        "old": "During the occupation they were forced to leave for Amsterdam; the plaque gives 29 April 1942.",
+        "new": "During the occupation they were driven out of Weesp; the plaque gives 29 April 1942.",
+        "kind": "cut",
+        "source": "https://jck.nl/en/jewish-communities/weesp",
+        "evidence": "\"By the end of 1941, all Jews had been expelled from Weesp.\" No source names Amsterdam as the destination"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De synagoge van Weesp uit 1840. Volgens de gedenksteen was de joodse gemeenschap op 29 april 1942 verdwenen. Na de oorlog was het een garage; sinds 1997 is het weer een synagoge. In de stoep liggen Stolpersteine.",
+          "body": "Na de oorlog werd de synagoge een garage. Van de joodse gemeenschap die haar in 1840 had gebouwd, was bijna niemand teruggekomen. Pas in 1997 werd het gebouw weer een synagoge.\n\nJoden woonden al zeker sinds de jaren 1770 in Weesp. In 1774 namen ze een huissynagoge in de Korte Middenstraat in gebruik. In 1840 dreigde die in te storten en was hij te klein geworden. Met steun van de stad, de provincie en het Rijk kwam er een nieuwe op de hoek van de Nieuwstraat en de Hanensteeg, ingewijd op 30 oktober 1840. Ook joden uit Muiden, Nederhorst den Berg en Weesperkarspel kwamen hier naartoe. Het pand staat dwars en bestaat uit twee delen: links, gepleisterd, waarschijnlijk het huis van de voorzanger, rechts, in baksteen met drie spitse ramen, de synagoge zelf. Vier jaar na de opening gooide een oploop de ruiten in, opgestookt door een vals gerucht; een deel van de daders werd gestraft.\n\nIn 1930 woonden er zo'n vijftig joden in Weesp. In de bezetting werden ze de stad uit gejaagd; de gedenksteen noemt 29 april 1942. Van ongeveer vijfenzestig joodse mannen, vrouwen en kinderen kwamen er zeven terug. Bij de plundering bleef alleen de heilige ark gespaard. In 1984 kwam de gedenksteen, in 1986 werd de ingang hersteld en in 1997 werd het gebouw weer synagoge en joods cultureel centrum. In het huis ernaast zit het overlegorgaan van joden en christenen.\n\nLet op:\n- de drie spitsboogramen met pleisterwerk rond, tegen de bakstenen gevel\n- de gedenksteen uit 1984: *Dit was de plaats waar zij de Eeuwige en elkaar ontmoetten*\n- de Stolpersteine in de stoep ervoor"
+        }
+      },
+      "summary": "Weesp's synagogue of 1840, whose Jewish community, says the plaque, was gone by 29 April 1942. After the war it was a garage; since 1997 it is a synagogue again. Stolpersteine lie in the pavement by the plaque.",
+      "body": "Jews lived in Weesp from at least the 1770s; in 1774 they opened a house synagogue on the Korte Middenstraat. By 1840 that building was near collapse and too small, and with help from the town, the province and the state the community built a new synagogue on the corner of the Nieuwstraat and the Hanensteeg, inaugurated on 30 October 1840. It served Jews from Muiden, Nederhorst den Berg and Weesperkarspel too. The building is a transverse two-part house: the plastered left half was probably the cantor's home, the brick right half with three pointed windows the synagogue. Four years after it opened, a mob broke its windows after a false rumour; some of the culprits were punished.\n\nIn 1930 about fifty Jews lived in Weesp. During the occupation they were driven out of Weesp; the plaque gives 29 April 1942. Of some sixty-five Jewish men, women and children, seven came back. Only the Holy Ark survived the looting. After the war the synagogue was a garage. A plaque was placed in 1984, the entrance restored in 1986, and in 1997 the building was taken into use again as a synagogue and Jewish cultural centre, with the Council of Christians and Jews in the house next door.\n\nLook for:\n- the three pointed windows with plaster surrounds against the brick front\n- the 1984 plaque: *Dit was de plaats waar zij de Eeuwige en elkaar ontmoetten* (This was the place where they met the Eternal and each other)\n- the stolpersteine (memorial cobblestones) in the pavement in front"
+    },
+    "sources_add": [
+      "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php"
+    ]
+  },
+  {
+    "id": "ljb1wcyp84uia036fu97v330",
+    "title": "Roskamstraat",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "two-room workers' cottages at the far end",
+        "new": "workers' cottages at the far end",
+        "kind": "cut",
+        "source": "https://020apps.nl/mip/beschrijvingen/Weesp.pdf",
+        "evidence": "\"De woningen bij de ingang vanaf het Buitenveer zijn welhaast herenhuizen, terwijl de laatste woningen arbeiderswoningen zijn.\" No source gives the number of rooms"
+      },
+      {
+        "field": "body",
+        "old": "so the whole social ladder of 19th-century Weesp stands in a hundred metres.",
+        "new": "so the whole social ladder of 19th-century Weesp stands in one short dead-end street.",
+        "kind": "narrowed",
+        "source": "https://020apps.nl/mip/beschrijvingen/Weesp.pdf",
+        "evidence": "The length of the street is not in the sources; the register calls it a \"doodlopende straat\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een kort doodlopend straatje, in fasen gebouwd tussen ongeveer 1870 en 1900 en bijna spiegelsymmetrisch. Hoe verder je loopt, hoe smaller het wordt. Bij de ingang woonden een dokter en een burgemeester, achteraan arbeiders.",
+          "body": "Loop de Roskamstraat in en je daalt de maatschappelijke ladder af. Bij de ingang staan bijna-herenhuizen, aan het eind lage arbeidershuisjes, en daartussen wordt de straat steeds smaller en worden de huizen steeds kleiner en eenvoudiger.\n\nTen westen van de oude stad werd weinig gebouwd, vooral omdat de grond van Van Houten was. Langs de singelsloot kwamen er alleen twee sloppen, doodlopende straatjes: de Paul Krugerstraat, die in 1987 werd afgebroken, en deze. De Roskamstraat groeide in stappen, van rond 1870 tot rond 1900, en is in grote lijnen symmetrisch opgezet.\n\nDe hoekblokken aan het Buitenveer (nrs. 1-5 en 2-6) hebben twee verdiepingen en elk een rijk versierde dakkapel met een houten hijsbalk die naar buiten kan schuiven. In nr. 1 woonde vanaf 1876 dokter Kortenhorst, na 1909 burgemeester Cleveringa. Verderop volgen rijtjes van vier, deels nog met de oude T-ramen, en dan nr. 16, een bedrijfspand met brede dubbele deuren en gietijzeren ramen. Helemaal achterin staan de nrs. 19-23 en 22-26: huisjes van één verdieping onder een mansardekap. Alle negen blokken zijn gemeentelijk monument, omdat de straat als geheel telt. De speld staat bij nrs. 1-5.\n\nLet op:\n- de rijke dakkapellen met houten hijsbalken op nrs. 1-5 en 2-6\n- de oorspronkelijke T-ramen van nrs. 3, 5 en 7-13\n- de getoogde gietijzeren ramen en de brede dubbele deuren van nr. 16\n- de gespiegelde gevels van nrs. 19 en 21, met bogen van gele en rode steen\n- de smeedijzeren tuinhekken en de gele klinkers"
+        }
+      },
+      "summary": "A short dead-end street built in stages from about 1870 to 1900, laid out almost symmetrically and shrinking as you walk in. Near-villas for a doctor and a mayor at the mouth, workers' cottages at the far end.",
+      "body": "West of the old town the land belonged to the Van Houten company, so little was built there. Only two *sloppen* (small dead-end streets) went up against the town moat: the Paul Krugerstraat, demolished in 1987, and the Roskamstraat. It was built in phases between about 1870 and 1900 and is laid out more or less as a mirror image. As you walk in, the street narrows and the houses get lower and plainer, so the whole social ladder of 19th-century Weesp stands in one short dead-end street.\n\nThe corner blocks at the Buitenveer (nos. 1-5 and 2-6) are almost town mansions, with two storeys and an ornate dormer with a sliding hoisting beam. From 1876 Dr Kortenhorst lived at no. 1, and after 1909 the mayor, Cleveringa. Next come rows of four with T-windows, then no. 16, a business premises with wide double doors and cast-iron windows. At the end, nos. 19-23 and 22-26 are single-storey cottages under mansard roofs. All nine blocks are listed for the street as a whole. The pin is on nos. 1-5.\n\nLook for:\n- the rich dormers with wooden hoisting beams on nos. 1-5 and 2-6\n- the original T-windows of nos. 3, 5 and 7-13\n- the cast-iron arched windows and broad double doors of no. 16\n- the mirrored fronts of nos. 19 and 21, with yellow and red brick arches\n- the wrought-iron front garden railings and the yellow brick paving"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "tknoko3wze0bm0pisf2qfbkm",
+    "title": "Kerkstraat and Kerksteeg",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "the home of a painter's firm whose son was one of Weesp's first photographers",
+        "new": "the home of a painter's firm, one of whose family was among Weesp's first photographers",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38543",
+        "evidence": "\"Firma M. van den Bergh, schilder en behanger, waarvan een telg (B. van den Bergh) geldt als een van de eerste fotografen van Weesp\" (a telg, a family member, not necessarily a son)"
+      },
+      {
+        "field": "body",
+        "old": "It is a street of modest houses and workshops, most of them plastered and given new cornice fronts in the 19th century, with older houses behind.",
+        "new": "It is a street of modest houses and workshops, several of them with 19th-century fronts.",
+        "kind": "cut",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38545",
+        "evidence": "No source for \"most of them plastered ... with older houses behind\". Registers: no. 23 cornice front third quarter 19th century, no. 27 mid-19th century, nos. 2-6 19th century"
+      },
+      {
+        "field": "body",
+        "old": "built for workers (or old people) before the Van Houten cocoa factory changed the town.",
+        "new": "built for workers (or old people) before what the register calls the \"Van Houten period\".",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/19e78151-1849-4d29-bf50-4aaf9e4b6e6c",
+        "evidence": "\"voorbeeld van arbeiders- (of bejaarden-) woningen die vóór de \"Van Houten periode\" zijn gebouwd\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een kort straatje met gewone woon- en werkpanden bij de Grote Kerk: de kosterij, De Gouden Reaal uit 1697, het pand van een schildersbedrijf uit wiens familie een van de eerste fotografen van Weesp kwam, en een steeg met eenkamerwoninkjes.",
+          "body": "In dit hoekje woonde een schildersfamilie met een fotograaf in de familie. Het hoekhuis Kerkstraat 17, op de hoek met de Middenstraat, en de werkplaats erachter waren van de firma M. van den Bergh, huisschilders en behangers. B. van den Bergh uit die familie wordt gerekend tot de vroegste fotografen van Weesp. Zijn foto's van het huis (1910) en de werkplaats (1913) liggen in het regionale archief.\n\nDe Kerkstraat begint bij de Grote Kerk en is een straat van bescheiden woonhuizen en werkplaatsen, een aantal met een 19e-eeuwse gevel. Nr. 19 is de kosterij van de kerk: twee oudere diepe huizen die in de 18e eeuw achter één lijstgevel zijn samengevoegd. Nr. 13 heet De Gouden Reaal, naar een oude munt. Het is een gepleisterd huis dat dwars op de straat staat, tussen twee puntgevels, met het jaartal 1697. De nrs. 2-6 horen bij elkaar: een blokvormige bakstenen werkplaats uit de 19e eeuw onder een tentdak, met aan weerszijden lage vleugels om in te wonen.\n\nNet om de hoek staat iets wat je zelden nog ziet. Kerksteeg 8-10 is een rijtje piepkleine huisjes van elk één kamer met een zolder erboven, gebouwd voor arbeiders (of ouderen) nog vóór wat het register de \"Van Houten-periode\" noemt.\n\nDe speld staat bij De Gouden Reaal, Kerkstraat 13.\n\nLet op:\n- De Gouden Reaal, het lage gepleisterde huis van 1697 op nr. 13\n- de deur tussen pilasters onder een hoofdgestel, de zesruitsschuiframen en de houten kroonlijst van hoekhuis nr. 17\n- de lange houten kroonlijst van de kosterij, nr. 19\n- de houten benedenpui van nr. 23, met links inrijdeuren en rechts de voordeur\n- de getande kroonlijst van nr. 29\n- de negenruitsschuiframen van de eenkamerwoninkjes in de Kerksteeg 8-10"
+        }
+      },
+      "summary": "A short street of working houses by the Grote Kerk: the sexton's house, De Gouden Reaal of 1697, the home of a painter's firm, one of whose family was among Weesp's first photographers, and a lane of one-room cottages.",
+      "body": "Kerkstraat (Church Street) starts by the Grote Kerk. It is a street of modest houses and workshops, several of them with 19th-century fronts.\n\nNo. 19 is the *kosterij* (sexton's house) of the Grote Kerk: two older deep houses joined behind one cornice front in the 18th century. No. 13 is *De Gouden Reaal* (The Golden Real, after an old coin), a plastered house set sideways to the street between two gables, dated 1697. The corner house at no. 17, on the Middenstraat, and its workshop behind belonged to the firm of M. van den Bergh, house painters and paperhangers. B. van den Bergh of that family counts as one of the first photographers of Weesp, and his pictures of the house (1910) and the workshop (1913) survive in the regional archive. Nos. 2–6 form one 19th-century complex: a block-shaped brick workshop under a pyramid roof, flanked by low living wings.\n\nJust off the street, Kerksteeg 8–10 is a rare survivor: a row of tiny houses of one room and an attic each, built for workers (or old people) before what the register calls the \"Van Houten period\".\n\nPinned on De Gouden Reaal, Kerkstraat 13.\n\nLook for:\n- De Gouden Reaal, the low plastered house of 1697 at no. 13\n- the door framed by pilasters and an entablature, the six-pane sashes and the wooden cornice of the corner house no. 17\n- the long wooden cornice of the sexton's house, no. 19\n- the wooden ground floor of no. 23, with carriage doors on the left and the house door on the right\n- the toothed cornice of no. 29\n- the nine-pane sash windows of the one-room cottages, Kerksteeg 8–10"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "igy1tvh3ics1npsd1nc5y25k",
+    "title": "Stadhuis Weesp and St. Bartholomeus Gasthuis",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The cells below were used by the police until well into the 20th century;",
+        "new": "The cells below were still used for arrested people while the police station was in the town hall, until the first half of the 20th century;",
+        "kind": "narrowed",
+        "source": "https://museumweesp.nl/altijd-te-zien/stadhuis",
+        "evidence": "\"Tot in de eerste helft van de vorige eeuw zat het politiebureau namelijk in het stadhuis\" (and the cells were used \"om arrestanten in op te sluiten\")"
+      },
+      {
+        "field": "body",
+        "old": "Museum Weesp, on the second floor, holds one of the largest collections of Weesp porcelain (1759–1770) in the world.",
+        "new": "Museum Weesp, on the second floor, has Weesp porcelain (made 1759–1768) as its main collection.",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Museum_Weesp",
+        "evidence": "\"Het Hollands porselein uit de 18e eeuw en begin 19e eeuw vormt de hoofdcollectie\"; \"tussen 1759 en 1768 het eerste porselein van Nederland geproduceerd\". No source for \"one of the largest in the world\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een stadhuis uit 1772-1776, een Paleis op de Dam in zakformaat, betaald met jenevergeld. Beneden de cellen en de open rechtbank, boven het eerste porselein van Nederland. Sinds 2022 heet het \"het mooiste stadhuis van Amsterdam\".",
+          "body": "Weesp werd in de 18e eeuw rijk van jenever en brandewijn. Er draaiden zo'n dertig stokerijen en een tiental molens, en de rijkste stokers zaten in het stadsbestuur. Dat mocht gezien worden. Jacob Otten Husly, die in Amsterdam ook Felix Meritis ontwierp, gaf hun een neoclassicistisch stadhuis naar het voorbeeld van het Amsterdamse stadhuis van Jacob van Campen, het latere Paleis op de Dam. Het perceel heeft nergens een rechte hoek, maar Husly verstopte dat zo knap dat de voorgevel kaarsrecht lijkt. Op 2 februari 1776 vergaderde de vroedschap hier voor het eerst.\n\nTot rond 1800 was het ook de rechtbank. Daarom heeft de gevel drie deuren: bij een vonnis in de vierschaar gingen ze alle drie open, zodat zoveel mogelijk Weespers konden meekijken. Geselen, brandmerken, ophangen: het gebeurde op het plein voor de deur. De cellen beneden bleven in gebruik voor arrestanten zolang de politie in het stadhuis zat, tot in de eerste helft van de 20e eeuw. Cellen en hal zijn open tijdens de openingstijden van het museum.\n\nErachter en ernaast ligt het voormalige St. Bartholomeus Gasthuis, tot 1954 gasthuis en weeshuis en daarna bij het stadhuis getrokken. Op de vleugel aan de Gasthuissteeg zit een gesneden deurkalf uit 1623 met een man met baard, vermoedelijk Bartholomeus zelf. Aan de Schoolsteeg staat een poort met *St Bartolomevs Gast-Hvys 1650*.\n\nOp 24 maart 2022 ging Weesp op in Amsterdam, na een referendum in 2018 waarin 57,4 procent voor Amsterdam koos en niet voor Gooise Meren. De stadsdeelcommissie vergadert nu in de oude rechtszaal. Op de tweede verdieping zit Museum Weesp, met als hoofdcollectie het porselein dat hier van 1759 tot 1768 werd gemaakt.\n\nLet op:\n- de drie voordeuren en het stadswapen in het fronton\n- in de hal de ijzeren hekken van de vierschaar en het Justitiabeeld van het oude stadhuis\n- het deurkalf uit 1623 aan de Gasthuissteeg\n- de trapgevel aan de Middenstraat met leeuwenkoppen en het stadswapen\n- de poort uit 1650 met vergulde tekst, en daarboven een steen uit 1552 die van elders komt"
+        }
+      },
+      "body": "Weesp got rich on *jenever* (Dutch gin) and brandy: in the 18th century some thirty distilleries and ten mills worked here, and the richest distillers sat on the town council. They wanted the world to see it. Jacob Otten Husly, who also designed Felix Meritis in Amsterdam, gave them a neoclassical town hall modelled on Jacob van Campen's town hall of Amsterdam, now the Paleis op de Dam. The plot has no right angles, but Husly hid that so well that the front looks dead straight. The council first met here on 2 February 1776.\n\nUntil about 1800 the building was also the court. The front has three doors so that they could all be thrown open when a verdict was read in the *vierschaar* (the open court in the hall), and as many townspeople as possible could watch. Sentences such as flogging, branding and hanging were carried out on the square outside. The cells below were still used for arrested people while the police station was in the town hall, until the first half of the 20th century; today the cells and the hall are open to anyone during museum hours.\n\nBehind and beside it stands the former St. Bartholomeus Gasthuis, a hospice and orphanage until 1954, then joined to the town hall. Its wing on the Gasthuissteeg has a carved door lintel dated 1623 with a bearded man, probably St Bartholomew; the 1650 wing on the Schoolsteeg has a gateway inscribed *St Bartolomevs Gast-Hvys 1650*.\n\nOn 24 March 2022 Weesp joined Amsterdam, after a 2018 referendum in which 57.4 percent chose Amsterdam over Gooise Meren. The district committee now meets in the old courtroom. Museum Weesp, on the second floor, has Weesp porcelain (made 1759–1768) as its main collection.\n\nLook for:\n- the three front doors and the town arms in the pediment\n- the iron gates of the vierschaar and the Justitia statue from the old town hall, in the hall\n- the 1623 door lintel on the Gasthuissteeg\n- the stepped gable on the Middenstraat with lion masks and the town arms\n- the 1650 gateway with the gilded inscription, and above it a stone of 1552 brought from elsewhere"
+    },
+    "sources_add": [
+      "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php"
+    ]
+  },
+  {
+    "id": "evrk3c0t3y2bv92u0gw3h01m",
+    "title": "Herengracht and Achteromstraat",
+    "changes": [
+      {
+        "field": "body",
+        "old": "In 1647 Weesp made its last big extension, on the north and east sides. The Herengracht (Gentlemen's Canal) runs here to the lock where the Smal Weesp meets the Vecht.",
+        "new": "In 1647 Weesp was extended again, on the north and east sides, and the Herengracht (Gentlemen's Canal) quarter belongs to that extension.",
+        "kind": "cut",
+        "source": "https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "\"De stad breidde zich verder uit in 1613 (Achtergracht) en 1647 (noord- en oostzijde)\"; city:450070002: \"Het desbetreffende stadsdeel is een uitleg van de stad sinds 1647\". No source for \"last big\" or for the canal running to the lock"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het noordelijke stadsdeel, aangelegd vanaf 1647: het oudste en voornaamste huis van de buurt, een tweede hervormde pastorie, de katholieke pastorie van 1883 en een dokterspraktijk die er ruim tachtig jaar zat, met achter de Slijkstraat de pakhuizen van de Achteromstraat.",
+          "body": "Herengracht 14 is het oudste bewaarde en meest aanzienlijke huis van deze buurt uit de tijd dat die ontstond. Het is hoog, diep en bijzonder stevig gebouwd, zeker niet later dan het midden van de 17e eeuw en misschien nog ouder. Boven de buren steken de zijmuren uit, met zware ankers.\n\nDe wijk zelf is een stadsuitbreiding van 1647, aan de noord- en oostkant. Achter de Slijkstraat liggen de Achteromstraat en de Achteromdwarsstraat, achterstraatjes waar de achterhuizen en pakhuizen van de panden aan de voorkant op uitkomen.\n\nHerengracht 10 is geheel of deels laat-17e-eeuws, met een gepleisterde gevel van vijf vensterassen en een gesneden kalf boven de deur. Het huis was een tijd de tweede pastorie van de hervormde gemeente. Nr. 17, uit 1883, met trapgevels in neorenaissancestijl, is de pastorie van de katholieke Laurentiuskerk ernaast. In nr. 18 zat meer dan tachtig jaar een dokter met zijn praktijk, achter een gevel van rond 1900 met banden van witte kalkzandsteen en houten zonneschermen. Nr. 34 is een 19e-eeuws pakhuis met een tuitgevel en brede zolderluiken.\n\nIn de Achteromstraat heeft nr. 5 een pakhuisgevel met een steen uit 1826. Nr. 17 is een gepleisterd 18e-eeuws pakhuis met een hijstravee. Nr. 19 werd in 1898 als pakhuis gebouwd, in 1989 een woonhuis, en heeft op elke verdieping in het midden een hijsluik.\n\nDe speld staat bij Herengracht 14.\n\nLet op:\n- de hoge gepleisterde gevel van nr. 14 en de zware ankers boven de buren\n- het gesneden kalf en de architraven van nr. 10\n- de trapgevels en het bouwjaar in het rolwerk bovenin nr. 17\n- de houten zonneschermen en het lood- en zinkwerk op het dak van nr. 18\n- de tuitgevel, de poort en de twee brede zolderluiken van het pakhuis op nr. 34\n- de steen uit 1826 in de gevel van Achteromstraat 5\n- de bogen van rode en gele steen, de ijzeren deurroosters en de hijsluiken van Achteromstraat 19"
+        }
+      },
+      "body": "In 1647 Weesp was extended again, on the north and east sides, and the Herengracht (Gentlemen's Canal) quarter belongs to that extension. Behind the Slijkstraat, the Achteromstraat (Back-around Street) and Achteromdwarsstraat served as back lanes, lined with the back houses and warehouses of the houses in front.\n\nHerengracht 14 is the oldest surviving and most substantial house of this quarter from its first years: tall, deep and very solidly built, no later than the mid-17th century and possibly older. No. 10, wholly or partly late 17th century, with a five-bay plastered front and a carved transom, was for a time the second parsonage of the Reformed church. No. 17 (1883), with stepped neo-Renaissance gables, is the presbytery of the Laurentiuskerk next door, and no. 18 served for more than 80 years as a doctor's house and practice, behind a front of about 1900 with bands of white sand-lime brick and wooden sunshades. No. 34 is a 19th-century warehouse with a spout gable and wide loft doors.\n\nOn the Achteromstraat, no. 5 is a warehouse with a stone dated 1826, no. 17 a plastered 18th-century warehouse with a hoisting bay, and no. 19 a warehouse of 1898, made into a house in 1989, with a hoist hatch in the middle of each floor.\n\nPinned on Herengracht 14.\n\nLook for:\n- the tall plastered front of no. 14 and its heavy tie anchors above the neighbours\n- the carved transom and architraves of no. 10\n- the stepped gables and the building year in the strapwork ornament at the top of no. 17\n- the wooden sunshades and the lead and zinc roof details of no. 18\n- the spout gable, gateway and two wide loft doors of the warehouse at no. 34\n- the 1826 stone in the gable of Achteromstraat 5\n- the red-and-yellow brick arches, iron door grilles and hoist hatches of Achteromstraat 19"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "nowb3f3zz4xp9disy0m0xg8a",
+    "title": "Nieuwstad, south (nos. 90–138)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "It probably goes back to the first half of the 17th century and got its front in the 18th.",
+        "new": "Parts of it possibly go back to the first half of the 17th century, and it got its front in the 18th.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38588",
+        "evidence": "city text for 38588: \"Het pand stamt mogelijk deels uit de eerste helft van de zeventiende eeuw\""
+      },
+      {
+        "field": "body",
+        "old": "The land registry lists its owners: masons, a cattle farmer, a factory foreman and a coal merchant.",
+        "new": "Its owners in the land registry include masons, a cattle farmer, a factory foreman and a coal merchant.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38588",
+        "evidence": "The owner list also has a carpenter, a labourer and others; masons, veehouder, fabriekschef and steenkoolhandelaar are among them"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het zuidelijke deel van de Nieuwstad, waar een 17e-eeuws houten huis in een stenen jasje zit, achter pleisterwerk behang van rond 1780 tevoorschijn kwam en een rij sobere gepleisterde gevels de straat afsluit.",
+          "body": "In Nieuwstad 96-98 zit een houten huis verstopt. De kern is een houtskelet uit het begin van de 17e eeuw, misschien nog ouder. In de 18e eeuw werd het verhoogd en werd de houten voorkant in steen vervangen. In 1890 kreeg het de gevel die je nu ziet, en in de voorkamer een rijk beschilderd stucplafond. Het hoge mouthuis De Oranjeboom ernaast (nr. 100) heeft een eigen plek.\n\nOok Nieuwstad 90 laat zien hoeveel er in een gewoon huis kan zitten. Delen ervan zijn mogelijk uit de eerste helft van de 17e eeuw, de voorgevel is 18e-eeuws. Toen in 2013 aan de trap werd gewerkt, kwamen er lagen behang tevoorschijn, de oudste van rond 1780. Ze zijn daarna weer achter wanden verdwenen. Wie de eigenaren waren, staat in het kadaster: onder meer metselaars, een veehouder, een fabriekschef en een steenkoolhandelaar.\n\nBij nr. 120 bleek onder het pleister gele baksteen met rode versieringen te zitten. Omdat de stenen er slecht aan toe waren, ging er toch weer pleister overheen.\n\nDe speld staat bij Nieuwstad 132, in het rijtje gepleisterde 18e-eeuwse huizen met rechte kroonlijsten (nrs. 124-138) dat de straat afsluit.\n\nLet op:\n- Nieuwstad 90: een lijstgevel met houten deuromlijsting en een 18e-eeuwse dakkapel\n- Nieuwstad 96-98: de gevel van 1890 met versieringen en sluitstenen in gele baksteen\n- Nieuwstad 120: de deuren van 1924 en van het midden van de 19e eeuw, met fijne roosters\n- Nieuwstad 122: een klein 18e-eeuws topgeveltje op de hoek van de Sam van Gentsteeg\n- Nieuwstad 124-138: het rijtje gepleisterde gevels met rechte kroonlijsten"
+        }
+      },
+      "body": "The southern end of the Nieuwstad is plainer and older than it looks. Nieuwstad 96-98 has a wooden house at its core, from the early 17th century or older; it was raised and its timber front replaced in stone in the 18th century, and in 1890 it got its present front and a richly painted stucco ceiling. Next door, the tall malt house De Oranjeboom (no. 100) has its own place.\n\nNieuwstad 90 shows how much a plain house can hold. Parts of it possibly go back to the first half of the 17th century, and it got its front in the 18th. In 2013, during work on the stairs, layers of wallpaper were found, the oldest from about 1780, before being covered again. Its owners in the land registry include masons, a cattle farmer, a factory foreman and a coal merchant.\n\nThe ensemble is pinned on Nieuwstad 132, in the row of plastered 18th-century houses with straight cornices (nos. 124–138) that closes the street. At no. 120, removing the plaster once revealed yellow brick with red decoration, which was covered again because the bricks were in poor shape.\n\nLook for:\n- Nieuwstad 90: a cornice front with a wooden door surround and an 18th-century dormer\n- Nieuwstad 96-98: the 1890 front with yellow brick ornaments and keystones\n- Nieuwstad 120: the doors of 1924 and the mid-19th century with fine grilles\n- Nieuwstad 122: a small 18th-century gable on the corner of the Sam van Gentsteeg\n- Nieuwstad 124–138: the row of plastered fronts with straight cornices"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "q9mkgc2azksrz3lirp4fxl1y",
+    "title": "Binnenveer 11 and its owners",
+    "changes": [
+      {
+        "field": "body",
+        "old": "traced from the land registry for the national register.",
+        "new": "traced from the land registry in its monument description.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38492",
+        "evidence": "The owner history is in the city's description of rijksmonument 38492 (api.data.amsterdam.nl), not in the national register text, which is one line"
+      },
+      {
+        "field": "body",
+        "old": "continuing the business of her father and grandfather until she went bankrupt in 1858.",
+        "new": "continuing the saddlery of Jan Groewer and his father Andries, until she went bankrupt in 1858.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38492",
+        "evidence": "\"waarin zij aangeeft dat zij de zadelmakerij van de overleden Jan Groewer en diens al eerder overleden vader Andries Groewer overneemt\" (the text does not say they were her father and grandfather)"
+      },
+      {
+        "field": "body",
+        "old": "were deported from Westerbork on 1 June 1943 and murdered in Sobibor three days later.",
+        "new": "were deported from Westerbork on 1 June 1943 and murdered in Sobibor three days later.",
+        "kind": "sourced",
+        "source": "https://nl.wikipedia.org/wiki/Lijst_van_Stolpersteine_in_Weesp",
+        "evidence": "Stolperstein texts (wikitext of the list): \"DEPORTATIE 1.6.1943 UIT WESTERBORK VERMOORD 4.6.1943 IN SOBIBOR\" for both David and Henriëtte; Joods Monument: \"Sobibor, 4 juni 1943\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een klokgevel van rond 1750 aan de Smal Weesp, met een registertekst die leest als een straatgeschiedenis: van een vrouwelijke zadelmaker en een banketbakker tot koopman David Vleeschhouwer en zijn vrouw, in 1943 weggevoerd en vermoord.",
+          "body": "Een zadelmaakster, een schipper, een aannemer, twee bakkers en een koopman: allemaal hadden ze dit huis in bezit. Wat Binnenveer 11 bijzonder maakt is niet de bescheiden klokgevel van rond 1750, met een gebogen bekroning en krullen op de hoeken boven een latere winkelpui, maar het verhaal dat uit het kadaster naar boven is gehaald. De kern van het huis is waarschijnlijk uit het tweede kwart van de 17e eeuw.\n\nTot 1836 was het van de erfgenamen van de weduwe van Pieter Peelen. Rond 1836 begon Catharina Groewer hier een zadelmakerij. Ze zette de zaak voort van Jan Groewer en diens vader Andries, tot ze in 1858 failliet ging. Daarna kwamen een schipper en een aannemer, en vanaf 1868 banketbakker Gerhardus Koopmans, die het huis samenvoegde met Achtergracht 3 erachter. Na hem kwam broodbakker Geerlig Pieter van Asselt.\n\nIn 1926 kocht koopman David Vleeschhouwer het pand. Op 1 juni 1943 werden hij en zijn vrouw Henriëtte Mietje Vleeschhouwer-Menko vanuit Westerbork weggevoerd. Drie dagen later werden ze in Sobibor vermoord. Nog in 1943 werd het huis verkocht aan een bedrijf uit Amsterdam, mogelijk onder dwang. Voor de deur liggen twee Stolpersteine.\n\nLet op:\n- de klokgevel met gebogen bekroning en voluten op de hoeken\n- de twee Stolpersteine voor David en Henriëtte Vleeschhouwer"
+        }
+      },
+      "body": "The front is a modest bell gable of about 1750 with a curved top and volutes on the corners, over a later shopfront. The core is probably from the second quarter of the 17th century. What makes the house stand out is its documented history, traced from the land registry in its monument description.\n\nBefore 1836 it belonged to the heirs of the widow of Pieter Peelen. From about 1836 Catharina Groewer ran a saddlery here, continuing the saddlery of Jan Groewer and his father Andries, until she went bankrupt in 1858. A boatman followed, then a contractor, then from 1868 the pastry baker Gerhardus Koopmans, who joined the house with Achtergracht 3 behind it, and after him the bread baker Geerlig Pieter van Asselt. In 1926 the merchant David Vleeschhouwer bought it. He and his wife Henriëtte Mietje Vleeschhouwer-Menko were deported from Westerbork on 1 June 1943 and murdered in Sobibor three days later. In 1943 the house was sold, possibly under force, to an Amsterdam company. Two Stolpersteine lie in front of it.\n\nLook for:\n- the bell gable with its segmental crown and corner volutes\n- the two Stolpersteine for David and Henriëtte Vleeschhouwer"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "p03rhpwhrdp0z414dcaz8pr3",
+    "title": "Former post office, Nieuwstraat 44-48",
+    "changes": [],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een opvallende neorenaissancegevel met twee trapgevels, ronde gietijzeren ramen en smeedijzeren bekroningen, in 1887 gebouwd als postkantoor met directeurswoning. Vanaf 1910 zat hier de politie.",
+          "body": "Lang heeft de post hier niet gezeten. In 1887 kreeg Weesp een echt postkantoor, met de woning van de directeur in hetzelfde gebouw. Maar toen aan de Oudegracht 63-65 een groter postkantoor met directeurswoning verrees, verhuisde de post en trok in 1910 de politie hier in.\n\nHet is één blok van drie bouwlagen onder een afgeplat schilddak, met een gevel die een beetje voornaam wil doen. Hij leent van de Hollandse renaissance, zonder er echt een te zijn. Aan weerszijden springt een deel naar voren, bekroond door een trapgevel. Die trapgevels rusten op een klimmend boogfries en hebben elk een rond gietijzeren raam; bovenop staan sierlijke smeedijzeren bekroningen. Daartussen ligt gewoon een stuk dak met een goot.\n\nEr zijn twee ingangen, links een dubbele deur en rechts een enkele, allebei rijk omlijst met een driehoekig fronton. Het linker fronton is gebroken. Boven de ramen zitten verdiepte boogvelden, gevuld met patronen in gekleurde baksteen: halfrond op de begane grond, korfbogen op de verdieping. Gepleisterde hoekblokken en banden laten zien waar de vooruitspringende delen zitten.\n\nLet op:\n- de twee trapgevels met ronde gietijzeren ramen en smeedijzeren bekroningen\n- het gebroken fronton boven de linkerdeur\n- de patronen in gekleurde baksteen in de boogvelden boven de ramen\n- de stenen sokkel in blokverband"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "bzfshsithfwmwwxyl0tnhpe3",
+    "title": "Wooden houses of the Molenpad and Utrechtseweg",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "with mansard roofs, scalloped bargeboards and carved finials.",
+        "new": "with mansard roofs, scalloped bargeboards and finials.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38566",
+        "evidence": "Registers say \"puntgevel met makelaar\" (finial); none says the finials are carved"
+      },
+      {
+        "field": "body",
+        "old": "with the boarded front kept: a common fate for these light houses.",
+        "new": "with the boarded front kept.",
+        "kind": "cut",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38655",
+        "evidence": "\"In 1979 is het pand gelicht, van een betonnen fundering en bakstenen wanden voorzien\". No source says this was common"
+      },
+      {
+        "field": "body",
+        "old": "The Molenpad branches south off the Utrechtseweg; the mills De Vriendschap and De Eendracht stand on the same road.",
+        "new": "The mills De Vriendschap and De Eendracht stand on the Utrechtseweg too.",
+        "kind": "cut",
+        "source": "https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "dbnl: \"Aan de Utrechtseweg staan twee met riet gedekte achtkante stellingmolens\"; no source for the layout of the two streets"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Buiten de wallen mocht je alleen bouwen wat het leger voor een beleg snel kon afbreken. Daarom heeft de zuidrand van Weesp twee straten met houten huizen die rijksmonument zijn, met mansardekappen, geschulpte windveren en makelaars.",
+          "body": "Deze huizen zijn van hout omdat ze tegen de vlakte moesten kunnen. Weesp bleef tot na de Tweede Wereldoorlog een vestingstad, en de Kringenwet van 1853 hield rond vestingen het schootsveld vrij. In de binnenste kring mocht je alleen met toestemming bouwen, en dan in brandbaar materiaal op een stenen voet van hooguit zo'n 25 centimeter. Dreigde er oorlog, dan kon het leger alles zonder procedure slopen. Voor de staat was hout ook goedkoop: een afgebroken houten huis kostte minder schadevergoeding. De wet gold tot 1951 en verdween in 1963 helemaal.\n\nZo ontstonden net ten zuiden van de oude stad twee straten vol houten huizen, aan het Molenpad en de Utrechtseweg. Die aan het Molenpad zijn grotendeels laat-19e-eeuws: kleine huizen met gepotdekselde wanden en een zolder onder een mansardekap of een puntgevel, vaak met gesneden windveren en een makelaar in de top. De nrs. 15 en 19 zijn van het begin van de 20e eeuw. Langs de Utrechtseweg zijn de meeste huizen begin-20e-eeuws, sommige met een wolfseind, een erker en een balkon erboven. Utrechtseweg 24 was in 1920 klaar. In 1979 werd het opgevijzeld en kreeg het een betonnen fundering en bakstenen muren, maar de houten voorgevel bleef.\n\nHet zijn particuliere woningen. Aan de Utrechtseweg staan ook de molens De Vriendschap en De Eendracht.\n\nDe speld staat bij Molenpad 9.\n\nLet op:\n- de geschulpte windveren van Molenpad 3 (voor en achter) en aan de achterkant van Molenpad 1\n- de puntgevels met makelaar van Molenpad 5, 7 en 9, en de zesruits- en kleinere roederamen van nr. 9\n- de kroonlijst langs de voorgevel van de dwarse huizen Molenpad 11 en 13\n- de makelaar en de dwarsbalk tussen de windveren van Utrechtseweg 6\n- de geschulpte rand tussen begane grond en kap van Utrechtseweg 20\n- de erkers met balkons erboven van Utrechtseweg 22, 24 en 26"
+        }
+      },
+      "summary": "Outside the walls, the fortress law allowed only houses that the army could pull down before a siege. So Weesp's southern edge has two streets of listed wooden houses, with mansard roofs, scalloped bargeboards and finials.",
+      "body": "Weesp was a fortress town until after the Second World War. The *Kringenwet* (Law of the Circles) of 1853 kept a free field of fire around fortifications. In the inner circle you could only build, with permission, in wood or other easily destroyed materials, on a brick base no higher than about 25 cm; in time of war the army could demolish everything without any procedure. Building in wood also kept the state's compensation cheap. The law stayed in force until 1951 and was fully lifted only in 1963.\n\nJust south of the old town, on the Molenpad (Mill Path) and the Utrechtseweg, it produced two streets of wooden houses. The Molenpad houses mostly date from the late 19th century: small weatherboarded houses with an attic under a mansard roof or a gable, often with cut bargeboards and finials (*makelaars*). Nos. 15 and 19 are from the early 20th century. Along the Utrechtseweg the houses are mostly early 20th century, some under hipped gables with bay windows and balconies. Utrechtseweg 24 was finished in 1920. In 1979 it was lifted and given a concrete foundation and brick walls, with the boarded front kept.\n\nThey are private homes. The mills De Vriendschap and De Eendracht stand on the Utrechtseweg too.\n\nPinned on Molenpad 9.\n\nLook for:\n- the scalloped bargeboards on Molenpad 3 (front and back) and at the back of Molenpad 1\n- the gables with finials of Molenpad 5, 7 and 9, and the six-pane and smaller-pane sashes of no. 9\n- the cornice along the front of the crosswise houses Molenpad 11 and 13\n- the finial and tie beam between the bargeboards of Utrechtseweg 6\n- the scalloped band between ground floor and roof of Utrechtseweg 20\n- the bay windows with balconies above at Utrechtseweg 22, 24 and 26"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "rzk8vil4s51b9xfrq98kvn7z",
+    "title": "Wooden farms and Boerderij America, 's-Gravelandseweg",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Two farms of the 1910s–1920s built entirely of wood because they stood in the firing zone of the Weesp fortress, partly clad in planks from goods wagons.",
+        "new": "Two wooden farms, one of them built in 1928, made of wood because they stood in the firing zone of the Weesp fortress, partly clad in what seem to be planks from goods wagons.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/530442",
+        "evidence": "Only no. 4 is dated (1928); no source dates no. 5 to the 1910s. Wagon planks: \"afkomstig lijken van goederentreinwagons\""
+      },
+      {
+        "field": "body",
+        "old": "so the army could burn or pull it down before a siege.",
+        "new": "so the army could pull it down quickly in time of war.",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/complexen/530438",
+        "evidence": "\"in geval van oorlog(sgevaar) de gebouwen zonder vorm van proces mochten gesloopt\" (no mention of burning)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twee houten boerderijen, waarvan één uit 1928, van hout omdat ze in het schootsveld van de vesting Weesp lagen, deels bekleed met wat planken van goederenwagons lijken te zijn. Ernaast staat de oudere boerderij America, tegen een 18e-eeuws buitenhuis gebouwd.",
+          "body": "Kijk goed naar de planken van de stal achter 's-Gravelandseweg 4. Op sommige staan gesjabloneerde cijfers en letters: ze komen zo te zien van goederenwagons van de spoorwegen. Gerecycled hout, voor een boerderij die van hout móest zijn.\n\nDeze weg liep door het schootsveld van de vesting Weesp en later door het gebied dat in de Nieuwe Hollandse Waterlinie onder water kon worden gezet. Volgens de Kringenwet van 1853 moest alles wat hier gebouwd werd van hout zijn, op een lage stenen voet, zodat het leger het bij oorlogsdreiging snel kon weghalen. De twee boerderijen op nr. 4 en nr. 5 zijn daar schoolvoorbeelden van en werden in 2021 samen rijksmonument, als deel van het complex houten bouwwerken bij de vesting Weesp.\n\nNr. 4 werd in 1928 gebouwd voor veehouder Gerardus Pronk, op weiland dat hij in 1921 had gekocht. Het vierkante woonhuis met witte rabatdelen heeft een mansardedak; erachter staat de groene stal onder pannen, links een zijschuur en later kwam er een zeskantige hooiberg bij. Binnen zijn de stal uit 1928 met betonnen voergoot, de oude trappen en zelfs het balatum uit 1928 bewaard. Nr. 5 is bijna een tweeling: wit beschoten woonhuis met mansardedak, donkerbruine stal en links een schuur.\n\nEen paar stappen verder staat boerderij America (nr. 7), veel ouder en van baksteen: een boerderij van rond 1830, gebouwd tegen Huize America (nr. 6), een wit gepleisterd huis in L-vorm dat teruggaat op de 18e eeuw en vermoedelijk eerst een buitenhuis was.\n\nLet op:\n- de witte planken van de woonhuizen tegen de groene en bruine stallen\n- de gesjabloneerde wagonletters op een deel van de planken bij nr. 4\n- de twee lindebomen op het voorerf van nr. 4\n- het afgewolfde eind van het brede dak van America, waar het tegen het huis aansluit"
+        }
+      },
+      "summary": "Two wooden farms, one of them built in 1928, made of wood because they stood in the firing zone of the Weesp fortress, partly clad in what seem to be planks from goods wagons. Next door: the older farm \"America\", built onto an 18th-century country house.",
+      "body": "Just east of the Vecht, the 's-Gravelandseweg ran through the *schootsveld* (field of fire) of the fortress of Weesp and, later, its inundation zone in the New Dutch Waterline. Under the *Kringenwet* of 1853, anything built here had to be of wood on a low brick base, so the army could pull it down quickly in time of war. The two farms at nos. 4 and 5 are textbook results and were listed together in 2021 as part of the complex \"wooden buildings near the fortress of Weesp\".\n\nNo. 4 was built in 1928 for the cattle farmer Gerardus Pronk on meadow he had bought in 1921. The square, white-boarded house has a mansard roof; behind it is the green cowshed under a pantile roof, a side barn on the left and a later hexagonal haystack. Some boards of the shed and barn carry stencilled numbers and letters: they seem to come from goods wagons. Inside, the 1928 stalls with concrete feeding trough, the original stairs and even the 1928 linoleum survive. No. 5 is a near twin: white boarded house under a mansard roof, dark brown cowshed and a barn on the left.\n\nA few steps on stands Boerderij America (no. 7), much older and in brick: a farmhouse of around 1830 built against \"Huize America\" (no. 6), an L-shaped white plastered house of 18th-century origin, probably first a country retreat.\n\nLook for:\n- the white boarding of the houses against the green and brown sheds\n- the stencilled wagon lettering on some of the shed boards at no. 4\n- the two lime trees in the front yard of no. 4\n- the hipped end of America's broad roof where it meets the house"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "u40u8blohb2eqnupdyxx2h9b",
+    "title": "Middenstraat and its side streets",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "and some of the town's earliest timber-framed houses on the Zandstraat.",
+        "new": "and on the Zandstraat a very early example of the deep timber-framed house.",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/c15701ef-7c0f-4259-8794-a2663df60aa2",
+        "evidence": "city:450205001 (Zandstraat 3): \"een zeer vroeg voorbeeld van een bouwtype dat later meer gangbaar was, namelijk het diepe huis met houtskelet\" (one house, not several)"
+      },
+      {
+        "field": "body",
+        "old": "and for a while had to bend around the grounds of the Jonge Convent, a convent whose remains have their own place. It became a street of craftsmen and small shops, with narrow lanes (steegjes) running off to both sides.",
+        "new": "near the Jonge Convent, a convent whose remains have their own place. Narrow lanes (steegjes) run off it to both sides.",
+        "kind": "cut",
+        "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "dbnl: \"Rond 1550 legde men de Middenstraat aan\". No source for the street bending around the convent grounds or for \"a street of craftsmen and small shops\""
+      },
+      {
+        "field": "body",
+        "old": "form one double house whose 17th-century beams and original stair position survive complete.",
+        "new": "form one double house whose inner structure survives complete, with the stair still in its original place.",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/96dae60a-2f3a-4ac2-ab04-33dccd967d72",
+        "evidence": "city:450010001: \"Van grote bouwhistorische betekenis vanwege de compleet bewaarde inwendige structuur\"; \"Ook de trap bevindt zich op de oorspronkelijke plaats\". The beams are not dated"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De straat die rond 1550 werd aangelegd tussen de Hoogstraat en de Nieuwstraat, met een timmerwerkplaats uit 1894, een art-decowinkelpui van een socialist en aan de Zandstraat een heel vroeg voorbeeld van het diepe huis met houtskelet.",
+          "body": "Een vooraanstaande socialist liet aan de Middenstraat een art-decowinkelpui maken. Op nr. 56 bestelde G.A. Vader die pui, en volgens het gemeentelijk register is het een gaaf exemplaar zoals je in Weesp zelden ziet. Het huis erachter werd na een brand in 1988 opnieuw opgebouwd.\n\nDe Middenstraat werd rond 1550 aangelegd, tussen de oude dijkstraat en de Nieuwstraat, vlak bij het Jonge Convent, waarvan de resten een eigen plek hebben. Aan weerszijden lopen smalle steegjes weg. De speld staat bij Middenstraat 12, een 17e-eeuwse puntgevel met vlechtingen langs de randen en stenen dekplaatjes op elke hoek en bovenop.\n\nMiddenstraat 22-24 en Sint Annastraat 1 vormen samen één dubbelhuis waarvan de binnenstructuur nog helemaal bewaard is; zelfs de trap staat nog op zijn oude plek. Middenstraat 49-51 werd in 1894 ingericht als timmerwerkplaats, met twee hijsluiken tussen rondboogramen van gietijzer. Aan de zuidkant waren Middenstraat 78 en Zandstraat 2 ooit één hoekhuis. Zandstraat 3 is een diep huis met houtskelet uit minstens het begin van de 17e eeuw, misschien ouder: een heel vroeg voorbeeld van een type dat later gewoon werd.\n\nHet hoekhuis aan de Dirk Marcussteeg (ook Nieuwstraat 21) sluit het geheel aan de noordkant af. Voor Middenstraat 93 liggen zes Stolpersteine voor de familie Presser.\n\nLet op:\n- Middenstraat 12: de 17e-eeuwse puntgevel met vlechtingen\n- Middenstraat 49-51: hijsluiken en gietijzeren ramen van 1894\n- Middenstraat 55-65: een rij van vijf 19e-eeuwse huizen onder één dak\n- Middenstraat 56: de art-decopui\n- Middenstraat 60-62: een dakkapel met fronton en hijsbalk op een 17e-eeuws huis\n- Middenstraat 64-66: een laag dubbel huis langs de Kapelsteeg\n- Middenstraat 78: een tuitgevel met houten afdekking\n- Zandstraat 3: de gepleisterde topgevel met makelaar en schouderstukken\n- Sint Annastraat 6-10: een dubbele inrijdeur met een bovenlicht vol ijzeren tralies"
+        }
+      },
+      "summary": "The street laid out around 1550 between the Hoogstraat and the Nieuwstraat, with a 1894 carpenter's workshop, a socialist's art deco shopfront and on the Zandstraat a very early example of the deep timber-framed house.",
+      "body": "The Middenstraat (middle street) was laid out around 1550 between the old dike street and the Nieuwstraat, near the Jonge Convent, a convent whose remains have their own place. Narrow lanes (steegjes) run off it to both sides. The ensemble is pinned on Middenstraat 12, a 17th-century gable with herringbone brickwork along its edges and stone caps at the corners and top.\n\nMiddenstraat 22-24 and Sint Annastraat 1 form one double house whose inner structure survives complete, with the stair still in its original place. Middenstraat 49-51 was fitted out in 1894 as a carpenter's workshop, with two hoisting hatches flanked by round-arched cast-iron windows. At no. 56 the shopfront was commissioned by G.A. Vader, a leading local socialist; the register calls it a rare, intact art deco front for Weesp (the house behind was rebuilt after a fire in 1988). At the south end, Middenstraat 78 and Zandstraat 2 were once one corner house, and Zandstraat 3 is a deep timber-framed house from at least the early 17th century, perhaps older, a very early example of a type that later became common.\n\nThe corner house at the Dirk Marcussteeg (also numbered Nieuwstraat 21) closes the ensemble at the north. In front of Middenstraat 93 lie six Stolpersteine for the Presser family.\n\nLook for:\n- Middenstraat 12: the 17th-century gable with herringbone brickwork\n- Middenstraat 49-51: hoisting hatches and cast-iron windows of 1894\n- Middenstraat 55-65: a row of five 19th-century houses under one roof\n- Middenstraat 56: the art deco shopfront\n- Middenstraat 60-62: a dormer with pediment and hoist beam on a 17th-century house\n- Middenstraat 64-66: a low double house along the Kapelsteeg\n- Middenstraat 78: a spout gable with a wooden cap\n- Zandstraat 3: the plastered gable with a finial and shoulder stones\n- Sint Annastraat 6-10: a double carriage door with an iron-barred fanlight"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "rrp6bpg59kh418rgf1k5d2hg",
+    "title": "Weesper Moppenbakker",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The *Weesper mop* is the town's own biscuit: a round, crumbly cookie of sugar, almond and egg,",
+        "new": "The *Weesper mop* is the town's own biscuit, made of sugar, almond and egg,",
+        "kind": "narrowed",
+        "source": "https://www.nhnieuws.nl/nieuws/340945/supermarkt-waagt-zich-aan-lokaal-koekje-met-passievrucht-kom-niet-aan-de-weesper-mop",
+        "evidence": "\"Suiker, amandel en ei. Meer zit er niet in.\" No source describes it as round or crumbly"
+      },
+      {
+        "field": "body",
+        "old": " For Amsterdam's 750th birthday in 2025, Weesp bakers made a giant \"750\" out of moppen.",
+        "new": "",
+        "kind": "cut",
+        "source": "",
+        "evidence": "Not in any linked or draft source"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een bronzen bakkertje in de brugleuning aan het Binnenveer herinnert aan 1988, toen de bakkers van Weesp samen een Weesper mop van 115 kilo bakten, het eigen amandelkoekje van de stad, en daarmee in het Guinness Book of Records kwamen.",
+          "body": "Meer dan een vierkante meter koek, 115 kilo zwaar, en een plekje in het Guinness Book of Records: dat leverde het op toen de bakkers van Weesp in 1988 de handen ineensloegen voor de grootste Weesper mop ooit.\n\nDe Weesper mop is het eigen koekje van de stad. Er gaat suiker, amandel en ei in, \"meer zit er niet in\", zoals een Weesper banketbakker het samenvat. Om de recordpoging niet te vergeten maakte beeldhouwer en medailleur Siemen Bolhuis dit kleine bronzen bakkertje. Het werd in 1989 in de reling aan het Binnenveer gezet, bij de Slijkstraatbrug. Bolhuis is vooral bekend van zijn beeld van Wim Kan en Corry Vonk voor het Kurhaus in Scheveningen.\n\nMet de mop wordt niet gesold. Naam en recept zijn niet beschermd, dus iedereen mag er een bakken. Maar toen een supermarktketen in 2024 met een Weesper mop met passievruchtsmaak kwam, was het oordeel op de markt snel klaar: \"Dit is geen Weesper mop.\"\n\nLet op:\n- het bakkertje in de reling, makkelijk om voorbij te lopen\n- de bakkers in de oude stad die nog echte moppen verkopen"
+        }
+      },
+      "body": "The *Weesper mop* is the town's own biscuit, made of sugar, almond and egg, \"and nothing more\", as a Weesp baker put it. In 1988 the town's bakers joined forces to bake the biggest one ever. The result measured over a square metre, weighed 115 kg and made it into the Guinness Book of Records.\n\nTo mark the feat the sculptor and medallist Siemen Bolhuis made this small bronze baker, set in 1989 into the railing on the Binnenveer by the Slijkstraatbrug. Bolhuis is best known for his statue of the comedians Wim Kan and Corry Vonk in front of the Kurhaus in Scheveningen.\n\nThe mop is still taken seriously. The name and recipe are not protected, so anyone may bake one, but when a supermarket chain launched a passion-fruit Weesper mop in 2024, locals at the market were not amused: \"Dit is geen Weesper mop.\"\n\nLook for:\n- the baker's figure in the railing, easy to walk past\n- the bakeries in the old town that still sell real moppen"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "rper694dy5je6gh8lumsjkur",
+    "title": "De Overhorn, De Vogelkooi and 's-Gravelandseweg 39",
+    "changes": [
+      {
+        "field": "body",
+        "old": "three listed farms stand within a few hundred metres.",
+        "new": "three listed farms stand.",
+        "kind": "cut",
+        "source": "",
+        "evidence": "No source gives the distances between the farms"
+      },
+      {
+        "field": "body",
+        "old": "It sits back from the road, lower than the dike, behind",
+        "new": "It sits back from the road and lower than it, behind",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/512913",
+        "evidence": "\"De boerderij is tevens wat lager gelegen dan de weg, in de Keverdijkse polder\""
+      },
+      {
+        "field": "body",
+        "old": "a parallel side barn with a striking stepped Flemish gable",
+        "new": "a parallel side barn with a striking Flemish gable",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/216db56e-4ca5-428b-8e36-df41a293a4a3",
+        "evidence": "Register: \"schuur onder een zadeldak met markante voorgevel\"; \"Vlaamse gevel met T-venster\"; \"de voorgevel van de bijschuur ... uitgevoerd als tuitgevel met afdekbanden\". Not described as stepped"
+      },
+      {
+        "field": "summary",
+        "old": "an 11th-century dike against the Naardermeer",
+        "new": "a dike of the 11th or 12th century against the Naardermeer",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/512913",
+        "evidence": "Body and original NL: Keverdijk \"in de 11e of 12e eeuw aangelegd\"; no source narrows it to the 11th century (fixed in verification)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Drie boerderijen waar de 's-Gravelandseweg de oude Keverdijk raakt, een dijk uit de 11e of 12e eeuw tegen het Naardermeer. De Overhorn heeft een gepleisterde pronkgevel en een eigen zomerhuis, De Vogelkooi een Vlaamse gevel en een hooiberg met rieten kap.",
+          "body": "Deze dijk ligt er al sinds de middeleeuwen. De Keverdijk werd in de 11e of 12e eeuw opgeworpen om het land dat men wilde ontginnen te beschermen tegen het Naardermeer. Waar hij de 's-Gravelandseweg raakt, staan drie boerderijen die monument zijn. Ten zuidoosten van Weesp buigt die weg weg van de Vecht en volgt hij de 's-Gravelandse Vaart, gegraven in 1638.\n\n**De Overhorn** (nrs. 50-51, rond 1875) is een langhuisboerderij, met wonen en stal onder één lange kap, plus een eigen zomerhuis. Ze ligt van de weg af en lager dan de weg, achter een voortuin met oude bomen en een gebogen oprit. De gevels van rode handvormsteen zijn opgesierd met pleisterwerk: lisenen op de hoeken, een middenpartij met een spits houten venster in de top en \"wenkbrauwen\" boven de ramen. De bedrijfsdelen erachter zijn van hout.\n\n**'s-Gravelandseweg 39** is een oudere langhuisboerderij met een gepleisterde topgevel uit de 18e eeuw.\n\n**De Vogelkooi** (Keverdijk 8) heeft een voorhuis met een half verdiepte kelder, daarachter een lagere schuur, en ernaast een parallelle bijschuur met een opvallende Vlaamse gevel. Alles is van grauwrode baksteen met gepleisterde banden. Links staat een driekroedenberg, een hooiberg met rieten kap op drie palen, en voor het huis ligt een boerentuin met fruitbomen.\n\nLet op:\n- de gepleisterde middenpartij en het spitse venster in de top van De Overhorn\n- de gietijzeren roosters voor de kelderramen van De Vogelkooi\n- de hooiberg met rieten kap en de Vlaamse gevel van de bijschuur, Keverdijk 8"
+        }
+      },
+      "body": "South-east of Weesp the 's-Gravelandseweg leaves the Vecht and follows the 's-Gravelandse Vaart, dug in 1638. Where it meets the *Keverdijk*, built in the 11th or 12th century to protect the reclaimed land from the Naardermeer, three listed farms stand.\n\n**De Overhorn** (nos. 50-51, around 1875) is a *langhuis* farm (house and cowshed in one long building) with a separate summer house. It sits back from the road and lower than it, behind a front garden with old trees and a curved drive. The red hand-made brick fronts are dressed up with plasterwork: corner pilasters, a central bay with a pointed-arch window in the gable and \"eyebrows\" over the windows. The working parts behind are timber.\n\n**'s-Gravelandseweg 39** is an older long-house farm with a plastered gable of the 18th century.\n\n**De Vogelkooi** (Keverdijk 8) has a front house with a half-sunk cellar, a lower barn behind and a parallel side barn with a striking Flemish gable, all in greyish-red brick enlivened with plaster bands. To the left stands a *driekroedenberg*, a haystack with a thatched roof on three poles, and in front a farm garden with fruit trees.\n\nLook for:\n- De Overhorn's plastered central bay and pointed gable window\n- the cast-iron grilles over De Vogelkooi's cellar lights\n- the thatched haystack and the Flemish gable of the side barn at Keverdijk 8",
+      "summary": "Three farms where the 's-Gravelandseweg meets the old Keverdijk, a dike of the 11th or 12th century against the Naardermeer. De Overhorn has a plastered show front and its own summer house; De Vogelkooi a Flemish gable and a thatched haystack."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "vculpnh6tdvgqrc0mvrsyx01",
+    "title": "Het Grote Plein and the south Nieuwstraat",
+    "changes": [
+      {
+        "field": "body",
+        "old": "the moat in front of it was vaulted over and a square appeared.",
+        "new": "the Grobbe, the canal in front of it, was vaulted over and a square appeared.",
+        "kind": "narrowed",
+        "source": "https://dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "\"Naar aanleiding van de bouw van het stadhuis (1772) kwam het Grote Plein tot stand; de Grobbe werd daar overkluisd\" (the Grobbe was a town canal, not the moat)"
+      },
+      {
+        "field": "body",
+        "old": "South of the square the Nieuwstraat becomes one-sided and quieter.",
+        "new": "South of the square the Nieuwstraat continues with older, smaller houses.",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/f1a5f9b8-6c0f-49fb-a03e-d95dbd044d9d",
+        "evidence": "No source for the street becoming one-sided; the registers describe the houses that follow"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het plein dat in 1772 voor het nieuwe stadhuis ontstond, omringd door grote 18e-eeuwse huizen die vermoedelijk voor stokers zijn gebouwd, en het rustigere zuidelijke stuk van de Nieuwstraat met steegjes vol kleine gepleisterde huizen.",
+          "body": "Waar nu dit plein ligt, liep eerst een gracht. Toen in 1772-1776 het stadhuis werd gebouwd, werd de Grobbe, de gracht ervoor, overkluisd, en zo kreeg Weesp Het Grote Plein.\n\nTwee paren grote 18e-eeuwse huizen, dwars op de straat, vormen de wanden van het plein. Nrs. 1 en 3 delen één witgepleisterde gevel met blokverdeling en twee houten deuromlijstingen. Nrs. 2 en 4 zijn statige herenhuizen met een rechte kroonlijst. Ze zijn waarschijnlijk gebouwd als stokershuizen, in de eeuw dat zo'n dertig branderijen Weesp rijk maakten met brandewijn en jenever. Hoekhuis nr. 5 werd uit twee oudere huizen samengevoegd en kreeg zijn huidige uiterlijk in de tweede helft van de 19e eeuw.\n\nTen zuiden van het plein volgen in de Nieuwstraat oudere, kleinere huizen. Nr. 87 is het hoogste oude pand van dit stuk stad en een van de weinige die vanaf het begin twee volle verdiepingen had; de gereformeerde kerk van Weesp is in dit huis begonnen. Nrs. 49-53 waren drie 17e-eeuwse huisjes, later verhoogd achter een zorgvuldig gepleisterde gevel, en nr. 71 bestaat uit twee diepe huizen onder één dak, achter een bakstenen tuitgevel.\n\nDe steegjes eromheen houden de kleine maat van de oude stad vast: Kapelsteeg 1-3, Sint Antoniestraat 1, de gedeelde witte gevel van Achter 't Vosje 20-24 en het grote witte Wollenweversbuurt 18. Dat laatste staat al als lang gebouw op de kaart van 1632 en zou een boerderij zijn geweest.\n\nDe speld staat bij Het Grote Plein 4.\n\nLet op:\n- de gesneden deur met omlijsting van Het Grote Plein 4\n- de twee houten deuromlijstingen in de gedeelde witte gevel van Het Grote Plein 1-3\n- de daklijst op blokken en de versierde vensters van hoekhuis Het Grote Plein 5\n- de cordonlijst en de korfbogen boven de benedenramen van Nieuwstraat 87\n- de bakstenen tuitgevel van Nieuwstraat 71\n- de oude paneeldeur met gietijzeren levensboom van Kapelsteeg 1, en de fraaie gootklossen van Kapelsteeg 3\n- de oorspronkelijke vier- en zesruitsramen onder één lange daklijst, Achter 't Vosje 20-24"
+        }
+      },
+      "body": "Het Grote Plein (the Great Square) exists because of the town hall. When it was built in 1772–1776, the Grobbe, the canal in front of it, was vaulted over and a square appeared. Two pairs of large 18th-century houses, set sideways, frame it: nos. 1 and 3 share one white plastered front with block joints and two wooden door surrounds, and nos. 2 and 4 are stately houses with straight cornices. They were probably built as distillers' houses, in the century when some thirty distilleries made Weesp rich on brandy and genever. No. 5, on the corner, was made out of two older houses and got its present look in the later 19th century.\n\nSouth of the square the Nieuwstraat continues with older, smaller houses. No. 87 is the tallest of the old houses in this part of town and one of the few built with two full storeys from the start; the Gereformeerde (Reformed) church of Weesp has its origins in this house. Nos. 49–53 were three small 17th-century houses, raised later behind a carefully plastered front, and no. 71 is a pair of deep houses under one roof behind a brick spout gable.\n\nThe lanes off the street keep the small scale of the old town: Kapelsteeg 1–3, Sint Antoniestraat 1, the shared white front of Achter 't Vosje 20–24, and the big whitewashed Wollenweversbuurt 18, which the map of 1632 already shows as a long building and which is said to have been a farm.\n\nPinned on Het Grote Plein 4.\n\nLook for:\n- the carved door with its surround, Het Grote Plein 4\n- the two wooden door surrounds in the shared white front of Het Grote Plein 1–3\n- the cornice on blocks and decorated window frames of the corner house Het Grote Plein 5\n- the cordon moulding and basket arches over the ground-floor openings of Nieuwstraat 87\n- the brick spout gable of Nieuwstraat 71\n- the old panelled door with a cast-iron tree of life, Kapelsteeg 1, and the fine gutter brackets of Kapelsteeg 3\n- the original four- and six-pane windows under one long cornice, Achter 't Vosje 20–24"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "kkpat83sqdpoe4m6okodm49l",
+    "title": "Oudegracht",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The 18th century shows in small brick houses with sash windows and dormers with hoisting beams: nos. 37, 39 and 41, and no. 43,",
+        "new": "The 18th century shows in small brick houses with dormers with hoisting beams: nos. 37 and 39, no. 41 behind an early-19th-century front, and no. 43,",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/d3b61a7e-92fb-4789-b5ba-038aecfd584c",
+        "evidence": "city:450138007 (no. 41): \"De (jongere) voorgevel is een schermgevel van vroeg 19e eeuws karakter\"; Wikipedia list dates it \"mogelijk 17e eeuw\". Sash windows are not described for nos. 37 and 39"
+      },
+      {
+        "field": "body",
+        "old": "Next to no. 39 is the gate of 1710 with the stone \"Al voor een ander\",",
+        "new": "Next to no. 39 is the gate of 1710 with the stone \"Al voor een ander\",",
+        "kind": "sourced",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38613",
+        "evidence": "rce:38613 (Nieuwstraat 34): \"In de poort aan deze zijde is een gebeeldhouwde steen aanwezig met de tekst 'Anno' en het jaartal 1710 ... 'Al voor een ander'\"; city:450138006: \"poortje uit 1710, behorend bij de voormalige Hervormde pastorie\""
+      },
+      {
+        "field": "body",
+        "old": "was designed in 1912 by E.W. Raadsheer in a style close to Berlage's, rare in Weesp.",
+        "new": "was built in 1912 in a style close to Berlage's, rare in Weesp.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp",
+        "evidence": "The Wikipedia list gives E.W. Raadsheer as architect of nos. 5-11, not no. 19, whose register names no architect"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De grens van de stadsuitbreiding van 1401: kleine 18e-eeuwse huizen met hijsbalken, het poortje van 1710, een lutherse pastorie uit 1889, een hoekhuis uit 1912 in de geest van Berlage en een slagerij uit 1923 waarvan de winkel nog gaaf is.",
+          "body": "Op nr. 51 kun je nog zien hoe een slagerij er in 1923 uitzag: facettegels tegen de wanden en een plafond van opaalglas. Het huis zelf is veel ouder. Het is een breed 17e-eeuws pand, dat in 1897 in vier woningen werd opgedeeld en in 1923 slagerij met woning werd.\n\nDe Oudegracht volgt de lijn van de uitbreiding van 1401, toen graaf Albrecht van Beieren Weesp toestemming gaf om te groeien en nieuwe verdedigingswerken aan te leggen. Wat er nu staat, is in drie eeuwen gebouwd.\n\nUit de 18e eeuw zijn de kleine bakstenen huizen met dakkapellen en hijsbalken: nrs. 37 en 39, nr. 41 achter een gevel uit het begin van de 19e eeuw, en nr. 43, een klein huis dat dwars op de straat staat. Naast nr. 39 zit het poortje van 1710 met de steen \"Al voor een ander\", de achteringang van de vroegere hervormde pastorie aan de Nieuwstraat. Nr. 47-47a verstopt een 17e-eeuws kernhuis achter een jongere gevel die volgens het register \"de structuur van het huis ontkent\".\n\nNaar het noorden toe werd het moderner. Nr. 13 is een symmetrische villa uit 1889, de pastorie van de lutherse kerk; de eerste steen legde dominee J. Bergman. Nrs. 5-11 (1907) vormen een gespiegeld dubbel huis met art-nouveau-trekjes, betegelde portieken en de oude deuren. Nr. 19, op de hoek van de Sleutelsteeg, kwam er in 1912, in een stijl die aan Berlage doet denken en in Weesp zeldzaam is.\n\nDe speld staat op nr. 51, de oude slagerij.\n\nLet op:\n- de dakkapel met hijshaak en de klassieke kroonlijst van nr. 39\n- de oudere gevelsteen met een zwaan op nr. 13\n- de betegelde portieken en art-nouveaudeuren van nrs. 5-11\n- de kwartronde hoekramen, het balkon en de granitovloer in het portiek van nr. 19\n- de winkelpui van de slagerij, nr. 51, met glas-in-loodbovenlichten in een lijst van witgeglazuurde steen, en de dakkapel met pilasters, fronton en voluten\n- de getande kroonlijst van het grote hoekhuis nr. 1, aan de Slijkstraat"
+        }
+      },
+      "body": "In 1401 Count Albrecht of Bavaria allowed Weesp to grow and build new defences, and the Oudegracht (Old Canal) marks that expansion. The street now mixes what the town built over three centuries.\n\nThe 18th century shows in small brick houses with dormers with hoisting beams: nos. 37 and 39, no. 41 behind an early-19th-century front, and no. 43, a typical small house set sideways to the street. Next to no. 39 is the gate of 1710 with the stone \"Al voor een ander\", the back entrance of the old Reformed parsonage on the Nieuwstraat. No. 47–47a hides a 17th-century core house behind a later front that, as the register puts it, denies the structure of the house. No. 51 is a broad 17th-century house, turned into four homes in 1897 and into a butcher's shop with house in 1923; the shop survives with faceted tiles and an opal glass ceiling.\n\nTowards the north end the town modernised. No. 13 is a symmetrical villa of 1889, the parsonage of the Lutheran church, whose first stone was laid by the Lutheran minister J. Bergman. Nos. 5–11 (1907) is a mirrored double house with Art Nouveau touches, tiled porches and original doors. No. 19, on the corner of the Sleutelsteeg, was built in 1912 in a style close to Berlage's, rare in Weesp.\n\nPinned on no. 51, the old butcher's shop.\n\nLook for:\n- the dormer with hoisting hook and the classical cornice of no. 39\n- the older gable stone with a swan on no. 13\n- the tiled porches and Art Nouveau doors of nos. 5–11\n- the quarter-round corner windows, the balcony and the granito porch floor of no. 19\n- the butcher's shopfront with leaded fanlights framed in white glazed brick, no. 51, and its dormer with pilasters, pediment and volutes\n- the toothed cornice of the large corner house no. 1, on the Slijkstraat"
+    },
+    "sources_add": [
+      "https://monumentenregister.cultureelerfgoed.nl/monumenten/38613"
+    ]
+  },
+  {
+    "id": "ptaxp07i5aamemau09gi31r9",
+    "title": "Binnenveer and Buitenveer",
+    "changes": [
+      {
+        "field": "body",
+        "old": " A saddler, a boatman, bakers and small factories lived and worked along it.",
+        "new": "",
+        "kind": "cut",
+        "source": "",
+        "evidence": "No linked or draft source names the trades along the quays"
+      },
+      {
+        "field": "body",
+        "old": "Binnenveer 5: a shopfront of about 1885 under",
+        "new": "Binnenveer 5: a late-19th-century shopfront under",
+        "kind": "narrowed",
+        "source": "https://monumentenregister.cultureelerfgoed.nl/monumenten/38491",
+        "evidence": "rce:38491: \"Voorgevel met laat XIXe eeuwse winkelpui en oudere bovengevel\" (no year given)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De kades langs het Smal Weesp, waar de vaarweg naar Amsterdam begint: een patriciërshuis dat in tweeën werd gedeeld, een villaatje uit 1922 in de stijl van de Amsterdamse School en een mahoniehouten kapperspui uit 1934.",
+          "body": "Een kapper kreeg in 1934 aan het Buitenveer een winkelpui die in Weesp uniek is. Op nr. 10 zie je mahoniehout, vijf bovenlichten van glas in lood, een plint van zwarte tegels en een luifel met lood erop. Volgens het register is dit Amsterdamse School zoals Weesp het verder nergens heeft.\n\nBinnenveer en Buitenveer lopen vanaf de Slijkstraatbrug westwaarts langs het Smal Weesp. Over dit water ging vanaf de 15e eeuw de route van de Vecht via de Gaasp naar Amsterdam, en vanaf 1639 de Weespertrekvaart.\n\nDe speld staat bij Buitenveer 54-56, een herenhuis van drie verdiepingen uit omstreeks 1840, zes vensters breed, met een brede daklijst op klossen. Rond 1880 werd het in twee huizen gesplitst. De buren, nrs. 58 en 60, zijn kleiner, uit de 18e en 19e eeuw, met mooie deuromlijstingen. Buitenveer 7 staat als voormalige fabriek met ketelhuis in het register, achter een gevel van rond 1900. Ook villa Elly (Buitenveer 21, 1922, G.J. Vos) is Amsterdamse School, met een driehoekige erker en de oorspronkelijke bloembakken. De jugendstilwinkel op de hoek van Binnenveer 2-6 en het huis Binnenveer 11 hebben een eigen plek.\n\nLet op:\n- Binnenveer 5: een winkelpui uit de late 19e eeuw onder een oudere bovengevel met stucwerk rond het middelste raam\n- Buitenveer 7: de dakkapel met hijsbalk en de versieringen in gele steen\n- Buitenveer 10: de mahoniehouten pui met glas in lood\n- Buitenveer 21: de deur met lantaarn, de bloembakken en het hek uit de bouwtijd\n- Buitenveer 54-56: de gevel van zes vensters breed met hardstenen plint en stoeppalen\n- Buitenveer 58: de deuromlijsting met pilasters en kapitelen\n- Buitenveer 60: de witgepleisterde gevel met vier hardstenen stoeppalen"
+        }
+      },
+      "body": "The Binnenveer and Buitenveer follow the Smal Weesp westwards from the Slijkstraat bridge, along the water route that from the 15th century linked the Vecht via the Smal Weesp and the Gaasp with Amsterdam, and from 1639 the Weespertrekvaart.\n\nThe ensemble is pinned on Buitenveer 54-56, a three-storey patrician house of about 1840 with six bays and a wide cornice on brackets, split into two houses around 1880. Its neighbours, nos. 58 and 60, are smaller 18th- and 19th-century houses with fine door surrounds. Buitenveer 7 is listed as a former factory with a boiler house behind a front of about 1900. Two pieces of the 1920s and 1930s stand out: the shopfront of Buitenveer 10 (1934), made for a barber's shop, in mahogany with leaded glass, black tiles and a lead-clad canopy, which the register calls a unique Amsterdam School shopfront for Weesp; and the small villa Elly at Buitenveer 21 (1922, G.J. Vos), also Amsterdam School, with a triangular bay and its original flower boxes. The Jugendstil corner shop at Binnenveer 2-6 and the house at Binnenveer 11 have their own places.\n\nLook for:\n- Binnenveer 5: a late-19th-century shopfront under an older upper front with a stucco window surround\n- Buitenveer 7: the hoist-beam dormer and yellow brick ornaments\n- Buitenveer 10: the mahogany shopfront with leaded glass\n- Buitenveer 21: the door with lantern, flower boxes and period fence\n- Buitenveer 54-56: the six-bay front with hardstone plinth and stoop posts\n- Buitenveer 58: the door surround with pilasters and capitals\n- Buitenveer 60: the white-plastered front with four hardstone stoop posts"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "kn95zv8fwxmalzfgqs9lsyq7",
+    "title": "Stationsweg and Kerklaan",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "a chalet-trimmed villa in the axis of the street,",
+        "new": "a villa with a timber-trimmed gable in the axis of the street,",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/e85e6657-7e7c-47b2-9510-ea053b49bdb4",
+        "evidence": "city:450173003: \"Geveloverstek met windveren waartussen een vrijhangend raamwerk dat uitloopt in een makelaar\"; \"chalet\" is not in the source"
+      },
+      {
+        "field": "body",
+        "old": "a neoclassical house over a cellar, its central bay crowned by a gable with chalet-style bargeboards and a French balcony.",
+        "new": "a house over a cellar, its central bay crowned by a gable with bargeboards and a French balcony.",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/e85e6657-7e7c-47b2-9510-ea053b49bdb4",
+        "evidence": "Register describes the gable, bargeboards and French balcony but names no style"
+      },
+      {
+        "field": "body",
+        "old": "Kerklaan 10 is a rare town farm of about 1880:",
+        "new": "Kerklaan 10 is a rare town farm, its front house of about 1890:",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp",
+        "evidence": "Wikipedia list: \"T-vormige boerderij (thans woonhuis)|bouwjaar=ca. 1890 (voorhuis)\"; register: \"Als stadsboerderij zeldzaam\". No source for 1880"
+      },
+      {
+        "field": "attributes.built",
+        "old": "about 1880 to 1896",
+        "new": "about 1890 to 1896",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Lijst_van_gemeentelijke_monumenten_in_Weesp",
+        "evidence": "The 'about 1880' came only from Kerklaan 10, now dated ca. 1890 (front house) per the same list; Stationsweg 19-19a ca. 1890, no. 12 1896; registers 450173002 and 450091001 give no year (fixed in verification)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De weg naar het station van 1874: een sigarenwinkel uit 1896 met nog altijd 'Tabak, sigaren, koffie en thee' onder het raam, een villa met een houten geveltop midden in de zichtas, en een stadsboerderij met een hooiberg op betonnen poten.",
+          "body": "Onder de etalage van Stationsweg 12 staat het assortiment nog steeds in de pleister: *Tabak, sigaren, koffie en thee*. In het bovenlicht van de winkeldeur staat de naam H.J. Wieman op het glas geschilderd. Het pand, winkel beneden en woning boven, is van 1896. De pui heeft pilasters met panelen, een deur met halfrond bovenlicht en een royaal etalageraam.\n\nIn 1874 kreeg Weesp ten noorden van de oude stad een station aan de spoorlijn Amsterdam-Amersfoort, en de Stationsweg verbond die twee. Langs de weg zijn een paar gebouwen uit de late 19e eeuw monument.\n\nNr. 19-19a, van rond 1890, staat op een hoek en precies in de as van de Stationsweg. Het is een huis op een kelder, met in het midden een topgevel met windveren en een Frans balkon. Nr. 15 is een klein huis met een mooie middendeur en zesruits schuiframen onder windveren met een geschulpte rand; dak, goot en dakkapellen zijn van 1930.\n\nIets verderop ligt Kerklaan 10, een stadsboerderij zoals je ze zelden ziet, met een voorhuis van rond 1890. Het voorhuis staat dwars onder een mansardekap, en tussen de bomen staan een grijze houten schuur en een hooiberg op betonnen palen.\n\nDe speld staat bij Stationsweg 12.\n\nLet op:\n- \"Tabak, sigaren, koffie en thee\" onder het raam en de naam H.J. Wieman in het bovenlicht, Stationsweg 12\n- de dakkapel met pilasters op nr. 12\n- de windveren en het vrij hangende houtwerk met makelaar op nr. 19\n- de gele en rode klinkers en de stenen stoep voor nr. 15\n- de hooiberg en de houten schuur aan de Kerklaan 10",
+          "attributes": {
+            "built": "ca. 1890 tot 1896",
+            "original_use": "Winkel en woonhuizen, stadsboerderij"
+          }
+        }
+      },
+      "summary": "The road to the station of 1874: a tobacconist's of 1896 still advertising 'Tabak, sigaren, koffie en thee' below its window, a villa with a timber-trimmed gable in the axis of the street, and a town farm with a haystack on concrete legs.",
+      "body": "Weesp got a station on the Amsterdam–Amersfoort railway in 1874, north of the old town, and the Stationsweg became the link between the two. A few late 19th-century buildings along it are listed.\n\nNo. 12 is a shop with a house above, built in 1896. The shopfront has panelled pilasters, a door with a half-round fanlight and a big display window. The plastered panel under the window reads *Tabak, sigaren, koffie en thee* (tobacco, cigars, coffee and tea), and the glass painting in the fanlight over the shop door carries the name H.J. Wieman. No. 19–19a, of about 1890, stands on a corner in the axis of the Stationsweg: a house over a cellar, its central bay crowned by a gable with bargeboards and a French balcony. No. 15 is a small house with a fine central door, six-pane sashes and scalloped bargeboards; roof, gutter and dormers date from 1930.\n\nA little further, Kerklaan 10 is a rare town farm, its front house of about 1890: a front house set sideways under a mansard roof, a grey wooden barn and a hay barrack on concrete posts, among trees.\n\nPinned on Stationsweg 12.\n\nLook for:\n- \"Tabak, sigaren, koffie en thee\" under the window and the name H.J. Wieman in the fanlight, Stationsweg 12\n- the dormer with pilasters on no. 12\n- the bargeboards and hanging timber frame ending in a finial on no. 19\n- the yellow and red brick paving and the stone step in front of no. 15\n- the hay barrack and the wooden barn at Kerklaan 10",
+      "attributes": {
+        "rank": "Okay",
+        "heritage_status": "Municipal monument",
+        "monument_number": "450173004, 450173002, 450173003, 450091001",
+        "built": "about 1890 to 1896",
+        "original_use": "Shop and houses, town farm"
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "p5yf4mqk44lhng1p4snglo1w",
+    "title": "Theetuin on the Bakkerschans",
+    "changes": [
+      {
+        "field": "body",
+        "old": "In the late 19th century the army put a wooden artillery shed on it;",
+        "new": "In 1875 the army put a wooden artillery shed on it;",
+        "kind": "narrowed",
+        "source": "https://theetuin.nl",
+        "evidence": "\"De in 1875 gebouwde munitieloods is getransformeerd tot een sfeervol theehuis\"; rce:38662: \"Op bastion Bakkerschans ... een houten artillerieloods\""
+      },
+      {
+        "field": "body",
+        "old": "where Ouessant sheep (a tiny Breton breed) keep the grass short.",
+        "new": "where Ouessant sheep keep the grass short.",
+        "kind": "cut",
+        "source": "https://www.ivn.nl/app/uploads/sites/94/2022/09/22_weesper_schans.pdf",
+        "evidence": "IVN: \"op de schans kunt u Ouessantschapen zien lopen\". The breed description is in no source"
+      },
+      {
+        "field": "body",
+        "old": "the cast-iron cannon of 1812 from Vlissingen by the information board",
+        "new": "the cannon cast in Vlissingen in 1812, by the information board",
+        "kind": "narrowed",
+        "source": "https://www.ivn.nl/app/uploads/sites/94/2022/09/22_weesper_schans.pdf",
+        "evidence": "\"een kanon dat afkomstig is uit Vlissingen en daar in 1812 is gegoten\" (metal not given)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De eerste theetuin van Nederland (1986), aangelegd door drie tuinontwerpers uit Weesp op een bastion van 1674. Bollen en vaste planten achter hoge hagen, een verstopte vijver, schapen op de wal en thee in een oude munitieloods.",
+          "body": "Thee drinken in een munitieloods: op de Bakkerschans kan dat. In 1875 zette het leger een houten artillerieloods op dit bastion. Die staat er nog, zwart geverfd en net als de rest van de vestingwerken een rijksmonument, en is nu het theehuis.\n\nDe Bakkerschans is een van de twee bastions die Weesp in 1674 aan de overkant van de Vecht aanlegde. In 1986 maakten drie tuinontwerpers uit Weesp er een tuin van: Jacqueline van der Kloet, Stan Gall en Niek Roozen. Zelf noemden ze het de eerste theetuin van Nederland.\n\nAchter hoge hagen ligt een bloementuin die bekendstaat om zijn plantcombinaties, vooral met voorjaarsbollen en vaste planten. In het midden zit een vijvertje met een fontein. Via een trap kom je op de wal, waar oude bomen omheen staan en Ouessantschapen het gras kort houden. Vanaf de punt van het bastion kijk je over de Vecht naar de stad.\n\nHet bastion is privéterrein. Wandelaars mogen overdag de tuin in, behalve op zondagen en feestdagen; van april tot oktober is hij op zijn mooist. Het theehuis is minder vaak open.\n\nLet op:\n- het kanon dat in 1812 in Vlissingen werd gegoten, bij het informatiebord bij de ingang\n- de vijver en fontein achter de hoge hagen\n- de Ouessantschapen op de wal\n- het uitzicht over de Vecht vanaf het eind van het bastion"
+        }
+      },
+      "body": "The Bakkerschans is one of the two bastions Weesp built across the Vecht in 1674. In 1875 the army put a wooden artillery shed on it; today that shed, black-painted and listed with the rest of the fortifications, is the tea house. In 1986 the garden designers Jacqueline van der Kloet, Stan Gall and Niek Roozen, all from Weesp, turned the bastion into what they called the first *theetuin* (tea garden) in the Netherlands.\n\nBehind clipped hedges lies a flower garden known for its plant combinations, above all its spring bulbs and perennials, with a small pond and fountain in the middle. Steps lead up onto the rampart, ringed by old trees, where Ouessant sheep keep the grass short. From the far tip of the bastion you look across the Vecht to the town.\n\nThe bastion is private ground. The garden is open to walkers during the day, except on Sundays and public holidays; it is best from April to October. The tea house keeps shorter hours.\n\nLook for:\n- the cannon cast in Vlissingen in 1812, by the information board at the entrance\n- the pond and fountain behind the high hedges\n- the Ouessant sheep on the rampart\n- the view over the Vecht from the end of the bastion"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "awwnpp3ld1ky67qyj5oeebla",
+    "title": "Nieuwstad, north (nos. 10–72)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "driven by wind and flying sparks, it destroyed thirteen buildings in the centre.",
+        "new": "driven by wind and flying sparks, it hit thirteen buildings in the centre.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Stadsbrand_van_Weesp_(1968)",
+        "evidence": "\"13 panden werden in totaal door de brand getroffen\"; only some are listed as \"volledig of grotendeels verwoest\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De lange straat van de stadsuitbreiding van 1613, met 18e-eeuwse lijstgevels, een pakhuis met zijn oorspronkelijke onderpui, de vitrinekasten van een bakkerij en steegjes waar nog een brouwerijgebouw staat.",
+          "body": "Onder de vloer van een klein huis in De Rondensteeg zit een grote gewelfde put, en niemand weet waar die voor diende. Het gebouwtje, De Rondensteeg 2-4, hoorde ooit bij Nieuwstad 60 erachter.\n\nIn 1613 breidde Weesp naar het westen uit met de Achtergracht, en de Nieuwstad loopt daar parallel aan. Smalle steegjes verbinden de twee, zoals de Klaas Listinghsteeg, De Rondensteeg en de Jan Gortersteeg. Op 3 april 1968 brak brand uit in de oude wagenmakerij van Geesink tussen Nieuwstad en Achtergracht. Wind en rondvliegende vonken deden de rest: in het centrum raakte het vuur dertien panden.\n\nWat bleef, is een rustige rij 18e-eeuwse huizen met rechte lijstgevels en houten deuromlijstingen. De speld staat bij Nieuwstad 14, een mooie lijstgevel uit de tweede helft van de 18e eeuw met een geblokte deuromlijsting en een gesneden bovenlicht; nrs. 14, 16 en 18 horen bij elkaar. Nieuwstad 22 is een oude bakkerij die rond 1900 twee vitrinekasten kreeg, en de winkel op nr. 70 gaat terug tot ongeveer 1630. In de Klaas Listinghsteeg staat op nr. 5 een zeldzaam vroeg bedrijfsgebouw, met een heel hoge benedenverdieping en een brede dubbele deur. Het register kent het als voormalige brouwerij.\n\nLet op:\n- Nieuwstad 10: een bakstenen gevel met deuromlijsting en vier stoeppalen\n- Nieuwstad 14-18: drie 18e-eeuwse lijstgevels, met mooie hardstenen vensterbanken op nr. 18\n- Nieuwstad 22: de twee vitrinekasten van de bakkerij\n- Nieuwstad 54: een 18e-eeuws pakhuis met getande kroonlijst en de oorspronkelijke onderpui\n- Nieuwstad 60-62: twee lage huizen onder één dak, tegen een puntgevel aan de Kapelsteeg\n- Nieuwstad 70: een oude winkel met vitrinekasten\n- De Rondensteeg 2-4: een rij kleine rondboogvensters en een 18e-eeuwse glasdeur\n- Klaas Listinghsteeg 5: de dubbele deur tussen twee dichtgezette boogopeningen"
+        }
+      },
+      "body": "Weesp grew westwards in 1613 with the Achtergracht, and the Nieuwstad (\"new town\") runs parallel to it, linked by narrow lanes such as the Klaas Listinghsteeg, De Rondensteeg and the Jan Gortersteeg. On 3 April 1968 a fire broke out in the former Geesink wagon works between the Nieuwstad and the Achtergracht; driven by wind and flying sparks, it hit thirteen buildings in the centre.\n\nWhat survives is a quiet row of 18th-century houses with straight cornices and wooden door surrounds. The ensemble is pinned on Nieuwstad 14, a fine cornice front from the second half of the 18th century with a blocked door surround and a carved fanlight; nos. 14, 16 and 18 form a trio. Nieuwstad 22 is an old bakery with two display cases added around 1900, and the shop at no. 70 goes back to about 1630. Behind no. 60, the small building at De Rondensteeg 2-4 was once part of the same house: under its floor is a large vaulted pit of unknown purpose. In the Klaas Listinghsteeg, no. 5 is a rare early business building with a very high ground floor and a wide double door, listed as a former brewery.\n\nLook for:\n- Nieuwstad 10: a brick front with door surround and four stoop posts\n- Nieuwstad 14-18: three 18th-century cornice fronts, with fine hardstone window sills at no. 18\n- Nieuwstad 22: the bakery's two display cases\n- Nieuwstad 54: an 18th-century warehouse with a toothed cornice and its original lower front\n- Nieuwstad 60-62: two low houses under one roof against a gable on the Kapelsteeg\n- Nieuwstad 70: an old shop with display cases\n- De Rondensteeg 2-4: a row of small round-arched windows and an 18th-century glass door\n- Klaas Listinghsteeg 5: the double door between two bricked-up arched openings"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "g744ia4ontuvfjralt5ae1bt",
+    "title": "Slijkstraat",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Bell and neck gables, a gable stone of 1668 and a run of shopfronts from 1885 to the 1930s.",
+        "new": "A bell gable with stone volutes, a gable stone of 1668 and a run of shopfronts from 1885 to 1915.",
+        "kind": "narrowed",
+        "source": "https://www.dbnl.org/tekst/sten009monu11_01/sten009monu11_01_0173.php",
+        "evidence": "dbnl: \"klokgevels met natuurstenen hoekvoluten ... Slijkstraat 28\"; the only neck gable dbnl names is on the Hoogstraat. Latest dated shopfront: Slijkstraat 21-23 \"pui 1915\" (Wikipedia list); nothing from the 1930s"
+      },
+      {
+        "field": "body",
+        "old": "in a style that looks ahead to Berlage,",
+        "new": "in a style related to the work of Berlage,",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/192478d6-335a-445a-937d-e1f366da8f84",
+        "evidence": "city:450166004: \"een stijl die verwijst naar het 'Oudhollandse' woonhuis, en ook verwantschap met het werk van Berlage vertoont\""
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "De korte winkelstraat van Weesp, van de Vecht naar de brug over het Smal Weesp, in het oudste deel van de stad. Een klokgevel met stenen voluten, een gevelsteen van 1668 en een reeks winkelpuien van 1885 tot 1915.",
+          "body": "Boven de deur van Slijkstraat 9 staan drie flesjes in het glas in lood. Ze vormden de naam van het café dat hier vroeger zat.\n\nDe Slijkstraat loopt van de Hoogstraat op de Vechtdijk naar de brug over het Smal Weesp, en volgens het gemeentelijk register is dit het oudste deel van de stadskern. Er wordt hier al ruim een eeuw gewinkeld, en dat zie je. Tussen ongeveer 1885 en 1915 kregen veel oude huizen een nieuwe winkelpui met pilasters, gekleurd glas en etalageramen, terwijl de gevels erboven 17e- en 18e-eeuws bleven. De speld staat bij Slijkstraat 1 op de hoek van de Hoogstraat. Die afgetopte schoudergevel uit de late 16e eeuw heeft muurankers en metselwerk met kruisen en ruiten.\n\nSlijkstraat 21-23 werd in 1892 ontworpen door C.H. Walenkamp, in een stijl die verwant is aan het werk van Berlage, met rood en geel metselwerk in een houten vakwerk. Het hoekpand op nr. 11 (1908) draait de hoek om naar de Middenstraat, met een balkon boven de afgeschuinde ingang. Nr. 27 is zo oud dat het een eigen plek heeft.\n\nVoor Slijkstraat 20 en 28a liggen Stolpersteine voor leden van de families Wonder, Denneboom en Schulman, Joodse bewoners van de straat die in 1942 en 1943 werden vermoord.\n\nLet op:\n- Slijkstraat 1: de schoudergevel uit de late 16e eeuw\n- Slijkstraat 3 en 5: neorenaissancepuien van rond 1890\n- Slijkstraat 9: de drie flesjes in het glas-in-loodbovenlicht\n- Slijkstraat 17-19: een originele winkeldeur en geel glas in het bovenlicht\n- Slijkstraat 21-23: het gekleurde metselwerk van 1892\n- Slijkstraat 28: een 18e-eeuwse klokgevel met stenen hoekvoluten\n- Slijkstraat 36: terracotta Korinthische kapitelen en art-decoglas in de pui\n- Slijkstraat 39: een houten uitstalkast in art-nouveaustijl\n- Slijkstraat 44: een imposante gevel met een steen uit 1668\n- Slijkstraat 52: een 17e-eeuwse afgeknotte gevel met natuurstenen blokken in de vensterbogen"
+        }
+      },
+      "summary": "Weesp's short shopping street from the Vecht to the Smal Weesp bridge, in the oldest part of town. A bell gable with stone volutes, a gable stone of 1668 and a run of shopfronts from 1885 to 1915.",
+      "body": "The Slijkstraat links the Hoogstraat on the Vecht dike with the bridge over the Smal Weesp, and the city register calls this area the oldest part of the town centre. It has been a shopping street for well over a century, and that shows: around 1885–1915 many old houses got new shopfronts with pilasters, coloured glass and display windows, while the gables above stayed 17th and 18th century. The ensemble is pinned on Slijkstraat 1, at the Hoogstraat corner, whose truncated late 16th-century shoulder gable has wall anchors and patterned brickwork with crosses and diamonds.\n\nSlijkstraat 21-23 was designed in 1892 by C.H. Walenkamp in a style related to the work of Berlage, with red and yellow brick filling a timber frame. The corner shop at no. 11 (1908) turns the corner to the Middenstraat with a balcony over a cut-off entrance. No. 9 was a café: the fanlight over its door shows three bottles, the name of the old establishment. One house, no. 27, is so old that it has its own place.\n\nIn front of Slijkstraat 20 and 28a lie Stolpersteine for members of the Wonder, Denneboom and Schulman families, Jewish residents of the street who were murdered in 1942 and 1943.\n\nLook for:\n- Slijkstraat 1: the late 16th-century shoulder gable\n- Slijkstraat 3 and 5: neo-Renaissance shopfronts of about 1890\n- Slijkstraat 9: the three bottles in the leaded fanlight\n- Slijkstraat 17-19: an original shop door and yellow glass in the transom\n- Slijkstraat 21-23: the coloured brickwork of 1892\n- Slijkstraat 28: an 18th-century bell gable with stone corner volutes\n- Slijkstraat 36: terracotta Corinthian capitals and art deco glass in the shopfront\n- Slijkstraat 39: a wooden art nouveau display case\n- Slijkstraat 44: an imposing gable with a stone dated 1668\n- Slijkstraat 52: a 17th-century truncated gable with stone blocks in the window arches"
+    },
+    "sources_add": []
+  }
+]

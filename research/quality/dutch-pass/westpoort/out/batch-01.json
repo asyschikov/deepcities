@@ -1,0 +1,753 @@
+[
+ {
+  "id": "w426yp0l1ohfxp7xjyxzhac9",
+  "title": "De bonte zwaan",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The name follows a family of bargemen's exchanges named after swans in other Dutch inland ports.",
+    "new": "The name follows similar buildings named after swans elsewhere, such as the Witte Zwaan in Rotterdam and the Zwarte Zwaan in Maasbracht.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/De_bonte_zwaan",
+    "evidence": "'De naam verwijst naar andere soortgelijke gebouwen in Rotterdam (Witte zwaan), Maasbracht (Zwarte zwaan), Terneuzen (Groene zwaan)...'. The source calls them similar buildings, not bargemen's exchanges, and Rotterdam is not an inland port."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een kantoor van drie verdiepingen op een ponton, rond 1966 gebouwd voor de KNSM en Botoor gedoopt: half boot, half kantoor. Later zat hier de schippersbeurs, nu drijven er ateliers aan de Haparandadam.",
+     "body": "Half boot, half kantoor: daarom heette dit gebouw in de wandeling Botoor. Rond 1966 zat de Koninklijke Nederlandse Stoomboot-Maatschappij (KNSM) te krap, maar op haar eiland in het oostelijk havengebied was geen plek meer. Dus ging het nieuwe kantoor van drie lagen het water op, op een ponton. Toen de haven in de jaren zeventig naar het westen trok, dreef het kantoor gewoon mee, naar een lange pier in de Houthavens die nu Haparandadam heet.\n\nIn 1980 werd het de schippersbeurs, de plek waar binnenvaartschippers hun vracht vonden, met kinderopvang en een bibliotheek erbij. Neelie Smit-Kroes opende hem. In 1998 was het afgelopen: de beurs botste met Europese mededingingsregels. Eerst moest er zo'n 10.000 m² asbest uit. In 2002 verkocht de gemeente het gebouw voor één euro aan woningcorporatie De Key, en CASA Architecten bouwde het om tot ateliers, werkplekken en een café, die in oktober 2005 opengingen. De naam past in een rijtje zwanen: elders staan verwante gebouwen als de Witte Zwaan in Rotterdam en de Zwarte Zwaan in Maasbracht. Sinds 2022 draagt een kopgevel een gedicht van Daan Doesborgh, geïnspireerd op Jan Asselijns schilderij De bedreigde zwaan.\n\nLet op:\n- de pontonromp onder het hoekige kantoor\n- de kale kopgevels tegenover de beklede lange zijden\n- het gedicht van Daan Doesborgh op de kopgevel"
+    }
+   },
+   "body": "Around 1966 the Royal Netherlands Steamship Company (KNSM) needed more office space, but its island in the eastern docks was full, so it built a three-storey office on a pontoon. The hybrid of boat and office was nicknamed *Botoor* (from *boot*, boat, and *kantoor*, office). When the port moved west in the 1970s, the office floated along to a long pier in the Houthavens, now the Haparandadam.\n\nIn 1980 it was converted into the *schippersbeurs*, the exchange where inland bargemen found cargoes, with services such as childcare and a library; Neelie Smit-Kroes opened it. European competition rules ended the exchange in 1998. After some 10,000 m² of asbestos had been removed, the city sold the building for one euro in 2002 to housing corporation De Key, and CASA Architecten turned it into studios, workspaces and a café, opened in October 2005. The name follows similar buildings named after swans elsewhere, such as the Witte Zwaan in Rotterdam and the Zwarte Zwaan in Maasbracht. In 2022 one end wall got a poem by Daan Doesborgh inspired by Jan Asselijn's painting *The Threatened Swan*.\n\nLook for:\n- the pontoon hull under the boxy office\n- the bare end walls versus the clad long sides\n- Daan Doesborgh's poem on the end wall"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "jbyuj41uiemtajl9n2l8ir0h",
+  "title": "Ruigoord and the Sint-Gertrudiskerk",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "emptied for a port that never came, squatted by poets in 1973",
+    "new": "emptied for an industrial zone that never came, squatted by artists in 1973",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ruigoord; https://onh.nl/verhaal/ruigoord",
+    "evidence": "Villagers were bought out in 1964 for harbour land and petrochemical industry; the oil crisis killed the petrochemical plans, but the Afrikahaven itself was dug from 1997 (ONH: 'Ondanks protesten werd er 1997 begonnen met het graven van de Afrikahaven'). The squatters were artists led by poet Hans Plomp and writer Gerben Hellinga, not only poets."
+   },
+   {
+    "field": "summary",
+    "old": "wedged between oil tanks.",
+    "new": "wedged into the port.",
+    "kind": "narrowed",
+    "source": "https://onh.nl/verhaal/ruigoord",
+    "evidence": "'ligt nu ingeklemd in het Westelijk Havengebied'; ONH mentions a Vopak tank terminal (2009) but no source places tanks on both sides of the village."
+   },
+   {
+    "field": "body",
+    "old": "known in the 16th century as 't Ruyghe Oort and lived on since the 11th",
+    "new": "once known as 't Ruyghe Oort and lived on since the 11th century",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ruigoord",
+    "evidence": "Wikipedia: the island remained in the 16th century, 'Na verloop van tijd werd het een echt eiland... Het werd toen 't Ruyghe Oort genoemd'; no date is given for the name."
+   },
+   {
+    "field": "body",
+    "old": "was begun in June 1894 and consecrated that December",
+    "new": "was begun in June 1894 and in use that December",
+    "kind": "narrowed",
+    "source": "https://amsterdamopdekaart.nl/1850-1940/Ruigoord/Sint-Gertrudiskerk",
+    "evidence": "'In december 1894 werd het gebouw in gebruik genomen'; no source mentions a consecration."
+   },
+   {
+    "field": "body",
+    "old": "The port came back in the 1990s and dug the Afrikahaven right up to the village.",
+    "new": "In the 1990s Amsterdam revived the Afrikahaven plan, and digging began in 1997.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ruigoord; https://onh.nl/verhaal/ruigoord",
+    "evidence": "'De gemeente blies de oude plannen voor de Afrikahaven nieuw leven in'; 'Ondanks protesten werd er 1997 begonnen met het graven van de Afrikahaven'. No source says the basin reaches the village."
+   },
+   {
+    "field": "body",
+    "old": "lock-ons in the scrub next door",
+    "new": "lock-ons in the area",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ruigoord",
+    "evidence": "'stichtte de actiegroep GroenFront! in het gebied een actiekamp'; the location is not described as scrub next to the village."
+   },
+   {
+    "field": "body",
+    "old": "there is a tea garden at weekends, drum circles and poetry in the church",
+    "new": "there is a tea garden (Theo's Theetuin) with yoga and lunch on Sundays, drum circles in the church, poetry gatherings",
+    "kind": "narrowed",
+    "source": "https://ruigoord.nl/",
+    "evidence": "Agenda: 'Theo's Theetuin: op zondag Yoga & Lunch!', 'Drumcirkel In De Kerk'; gatherings 'waar muziek, poëzie, kunst... samenkomen'. Weekend opening and poetry inside the church are not stated."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- painted studios and odd sculptures among the trees of the old island",
+    "new": "- studios among the trees of the old island",
+    "kind": "cut",
+    "source": "https://ruigoord.nl/",
+    "evidence": "The site lists ateliers in a green village; no source describes painted studios or sculptures."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- Vopak's tank farm right behind the village green",
+    "new": "- Vopak's tank terminal nearby",
+    "kind": "narrowed",
+    "source": "https://onh.nl/verhaal/ruigoord",
+    "evidence": "'In 2009 werd door Vopak een begin gemaakt met de aanleg van een terminal met 620.000 m3 aan opslagtanks'; no source places it behind the village green."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een eilanddorp, leeggekocht voor industrie die nooit kwam. In 1973 hielden kunstenaars de slopers tegen. De kerk uit 1894 is nu het podium van Amsterdams oudste vrijplaats, thuis van het Landjuweel, ingeklemd in de haven.",
+     "body": "Op 24 juli 1973 stonden de slopers klaar, maar de kunstenaars die in de lege huizen zaten, hielden ze tegen. Twee dagen eerder was in de Sint-Gertrudiskerk de laatste mis opgedragen en had de pastoor de sleutels aan hen gegeven, aan een groep rond dichter Hans Plomp en schrijver Gerben Hellinga.\n\nRuigoord was ooit een eiland in de Houtrak, de westelijke arm van het IJ, toen 't Ruyghe Oort geheten; al in de elfde eeuw woonden er mensen. Bij de aanleg van het Noordzeekanaal viel de Houtrak in 1873 droog en werd het eiland een bult in de nieuwe Houtrakpolder. Er kwam een dorp voor boerenknechten uit Zeeland en West-Friesland: een café, een school, een bank, zo'n tweehonderd inwoners, maar nooit gas of riool. Een houten schuur diende als kerk, tot de Goudse C.P.W. Dessing de katholieke Sint-Gertrudiskerk ontwierp, begonnen in juni 1894 en in december al in gebruik.\n\nIn 1964 wees Amsterdam de polder aan voor de Afrikahaven en petrochemie. De dorpelingen werden uitgekocht en de grond rondom opgespoten. Na de kraak maakte de oliecrisis een eind aan de fabrieksplannen, en Ruigoord werd een vrijplaats van ateliers en bijeenkomsten. In 1979 trouwde Simon Vinkenoog in de kerk Herman Brood en Nina Hagen, voor de film Cha Cha.\n\nIn de jaren negentig pakte Amsterdam het havenplan weer op; in 1997 begon het graven. Die zomer verschansten actievoerders van de Vrijstaat Groenoord zich in het gebied in boomhutten, tunnels en lock-ons, tot honderden ME'ers ze in oktober verwijderden. In 2000 mocht het dorp blijven, maar wonen mag er niemand meer. Een huurcontract met de haven uit december 2025 geeft Ruigoord zekerheid tot minstens 2051, al gaat de kerk om veiligheidsredenen minder vaak open.\n\nBezoekers zijn welkom: in Theo's Theetuin op zondag yoga en lunch, drumcirkels in de kerk, poëziebijeenkomsten en elke zomer het Landjuweel, dat zich het oudste festival van Amsterdam noemt. Bus 382 vanaf Sloterdijk stopt aan de Westpoortweg.\n\nLet op:\n- de neogotische kerk met gebrandschilderde ramen over de sacramenten, en de pastorie op nummer 76\n- ateliers tussen de bomen van het oude eiland\n- de tankterminal van Vopak vlakbij"
+    }
+   },
+   "summary": "A former island village emptied for an industrial zone that never came, squatted by artists in 1973 and saved from the bulldozers. Its 1894 church is now the stage of Amsterdam's oldest free space, home of the Landjuweel festival, wedged into the port.",
+   "body": "Ruigoord was an island in the Houtrak, the western arm of the IJ, once known as 't Ruyghe Oort and lived on since the 11th century. When the Noordzeekanaal (North Sea Canal) was dug and the Houtrak drained in 1873, the island became a rise in the new Houtrakpolder, and a village grew up for farmhands from Zeeland and West-Friesland: a café, a school, a bank, some two hundred people, but never gas or sewers. A wooden barn served as church until the Catholic Sint-Gertrudiskerk, designed by C.P.W. Dessing of Gouda, was begun in June 1894 and in use that December.\n\nIn 1964 Amsterdam picked the polder for the Afrikahaven and petrochemical industry. The villagers were bought out and the land around them was covered with sand. The last mass in the church was said on 22 July 1973; the priest handed the keys to Amsterdam artists led by the poet Hans Plomp and the writer Gerben Hellinga, who had moved into empty houses, and on 24 July 1973 they stopped the demolition crews. The oil crisis then killed the industrial plans. Ruigoord became a *vrijplaats*, a free space, of studios and gatherings; in 1979 Simon Vinkenoog married Herman Brood and Nina Hagen in the church for the film *Cha Cha*.\n\nIn the 1990s Amsterdam revived the Afrikahaven plan, and digging began in 1997. In the summer of 1997 activists built tree huts, tunnels and lock-ons in the area, the \"Vrijstaat Groenoord\" (Free State Groenoord), until hundreds of riot police cleared it that October. In 2000 the village was spared, on condition that nobody may live there any more. In December 2025 the port signed a lease that guarantees Ruigoord until at least 2051, though the church may be used less often than before for safety reasons.\n\nThe village is open to visitors: there is a tea garden (Theo's Theetuin) with yoga and lunch on Sundays, drum circles in the church, poetry gatherings, and every summer the Landjuweel, which calls itself Amsterdam's oldest festival. Bus 382 from Sloterdijk stops on the Westpoortweg.\n\nLook for:\n- the neo-Gothic church with its stained-glass windows of the sacraments, and the presbytery at no. 76\n- studios among the trees of the old island\n- Vopak's tank terminal nearby"
+  },
+  "sources_add": [
+   "https://amsterdamopdekaart.nl/1850-1940/Ruigoord/Sint-Gertrudiskerk",
+   "https://ruigoord.nl/"
+  ]
+ },
+ {
+  "id": "q56jkyz83pqv6sj2xb83mo2e",
+  "title": "ADM squat (gone)",
+  "changes": [
+   {
+    "field": "body",
+    "old": "repaired ships in Amsterdam-Noord until it bought 42 hectares here in 1960 for a second yard",
+    "new": "repaired ships in Amsterdam-Noord; in 1960 it bought 42 hectares here for a second yard",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsterdamsche_Droogdok_Maatschappij",
+    "evidence": "'Omdat de werf in Amsterdam-Noord onvoldoende uitbreidingsmogelijkheden had, kocht de ADM in 1960 een terrein... waar een tweede vestiging werd gebouwd'; the Noord yard carried on as 'Werf Noord'."
+   },
+   {
+    "field": "body",
+    "old": " The city had let the land go cheaply, but with a covenant that it could only ever be used for shipbuilding, and that clause shaped everything that followed.",
+    "new": "",
+    "kind": "cut",
+    "source": "https://www.parool.nl/amsterdam/gemeente-amsterdam-koopt-adm-terrein-voor-165-miljoen-ruimte-komt-als-geroepen-in-uitdijende-stad~b0b657be/",
+    "evidence": "None of the fetched sources (nl/en Wikipedia, EenVandaag, NOS) mentions a cheap price or a shipbuilding-only covenant; the Parool article is paywalled and could not be checked."
+   },
+   {
+    "field": "body",
+    "old": "After a first squat was cleared in 1993",
+    "new": "After an earlier squat had been cleared in the early 1990s",
+    "kind": "narrowed",
+    "source": "https://en.wikipedia.org/wiki/ADM_(Amsterdam); https://nl.wikipedia.org/wiki/Amsterdamsche_Droogdok_Maatschappij",
+    "evidence": "en.wikipedia: 'evicted in early 1993'; nl.wikipedia: 'in 1987 gekraakt, in 1992 ontruimd'. The sources disagree on the year."
+   },
+   {
+    "field": "body",
+    "old": "grew into Robodock, a fire-and-machines spectacle that ran until 2012",
+    "new": "grew into Robodock, a festival of art and machines held until 2012",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Robodock",
+    "evidence": "'Het festival verbond techniek met kunst'; held 1998-2007, 2010 and 2012. 'Fire' is not in the sources."
+   },
+   {
+    "field": "body",
+    "old": "The community moved to temporary sludge fields in Noord.",
+    "new": "The city offered a temporary alternative site for two years, which became known as the sludge fields.",
+    "kind": "narrowed",
+    "source": "https://en.wikipedia.org/wiki/ADM_(Amsterdam)",
+    "evidence": "'An alternative site was offered by the Amsterdam Council for a two-year period... It became known as the sludge fields.' Neither the location in Noord nor a move of the whole community is sourced (about 50 residents stayed until the eviction)."
+   },
+   {
+    "field": "body",
+    "old": "who planned a superyacht yard and spent four years in court with the city",
+    "new": "who planned a superyacht yard and repeatedly faced the city in court",
+    "kind": "narrowed",
+    "source": "https://nos.nl/artikel/2583909-gemeente-amsterdam-koopt-haventerrein-terug-voor-165-miljoen-euro",
+    "evidence": "'Sinds de aankoop stond Beelen meermaals tegenover de gemeente in de rechtbank.' The 'four years' comes from Beelen's quote about negotiating, not litigation."
+   },
+   {
+    "field": "body",
+    "old": "bought the 43 hectares of land and water back for 165 million euros, to make room for port firms that must leave the area inside the A10 ring.",
+    "new": "bought the 66 hectares of land and water back for 165 million euros, to make room for port firms that have to move so that homes can be built elsewhere.",
+    "kind": "narrowed",
+    "source": "https://nos.nl/artikel/2583909-gemeente-amsterdam-koopt-haventerrein-terug-voor-165-miljoen-euro",
+    "evidence": "'Het gaat om een gebied van 66 hectare grond en water'; 'biedt ruimte voor bedrijven die nu ergens anders in het havengebied zijn gevestigd. Door het verhuizen van deze bedrijven ontstaat er ruimte voor woningbouw.' No source gives 43 hectares or mentions the A10."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Eenentwintig jaar was deze verlaten scheepswerf aan het Noordzeekanaal de grootste vrijplaats van Nederland: zo'n 130 bewoners in zelfgebouwde huisjes en boten, ruim 2500 geplante bomen, de wieg van Robodock. Ontruimd in 2019; in 2025 kocht de stad de grond terug.",
+     "body": "Toen de krakers kwamen, stond er op deze kale werf geen boom. Toen ze vertrokken, waren het er meer dan 2500.\n\nHet terrein was de Werf Westhaven van de Amsterdamsche Droogdok Maatschappij (ADM, opgericht in 1877). Die repareerde schepen in Noord en kocht hier in 1960 42 hectare voor een tweede werf, met een grote loods, een kantoor, een pier en vanaf 1965 een eigen dok. In 1985 ging het bedrijf failliet.\n\nEen eerdere kraak werd begin jaren negentig beëindigd, en daarna gebeurde er niets. Op 12 oktober 1997 trokken zo'n honderd mensen er opnieuw in en doopten de werf om tot Amsterdamse Doe-het-zelf Maatschappij. Eigenaar Bertus Lüske, een beruchte vastgoedspeculant, stuurde knokploegen en begon in april 1998 een bewoond pand met een graafmachine te slopen; de rechter gaf hem later een taakstraf voor poging tot doodslag. In augustus 1998 was hier het festival Drydock, waaruit Robodock groeide, een festival van kunst en machines dat tot 2012 bestond. Bewoners bouwden kleine huizen van gebruikt materiaal, hadden een permacultuurtuin en draaiden op 200 zonnepanelen en een windmolen.\n\nNa meer dan twintig rechtszaken moesten ze voor Kerstmis 2018 weg. Op 7 januari 2019 haalde de ME de laatsten weg, en meteen ging het oude portiershuis tegen de vlakte. De stad bood twee jaar een tijdelijk alternatief aan, dat bekend werd als de slibvelden. In 2021 kocht Wim Beelen de werf voor een jachtwerf voor superjachten; hij stond daarna meermaals tegenover de gemeente bij de rechter. In september 2025 kocht Amsterdam de 66 hectare land en water terug voor 165 miljoen euro: ruimte voor havenbedrijven die moeten verkassen zodat elders woningen kunnen komen.\n\nLet op:\n- de poort aan de Hornweg, de enige openbare blik op het afgesloten terrein\n- de ADM-haven, het bassin van de oude werf aan de kanaalkant"
+    }
+   },
+   "body": "The *Amsterdamsche Droogdok Maatschappij* (Amsterdam Dry Dock Company, ADM, founded 1877) repaired ships in Amsterdam-Noord; in 1960 it bought 42 hectares here for a second yard, the *Werf Westhaven*, with a big shed, an office, a pier and its own dock (1965). The company went bankrupt in 1985.\n\nAfter an earlier squat had been cleared in the early 1990s, nothing happened on the site, and on 12 October 1997 about a hundred people moved back in, renaming it the *Amsterdamse Doe-het-zelf Maatschappij* (Amsterdam Do-It-Yourself Company). The owner, the notorious property speculator Bertus Lüske, sent thugs and in April 1998 started demolishing an occupied building with an excavator; a court later gave him community service for attempted manslaughter. The festival Drydock, held here in August 1998, grew into Robodock, a festival of art and machines held until 2012. Residents built tiny houses from salvaged material, kept a permaculture garden, ran on 200 solar panels and a wind turbine, and planted more than 2,500 trees on what had been bare yard.\n\nAfter more than twenty court cases, the residents had to leave by Christmas 2018; riot police cleared the last of them on 7 January 2019, and demolition of the old gatehouse began at once. The city offered a temporary alternative site for two years, which became known as the sludge fields. The yard itself was sold in 2021 to Wim Beelen, who planned a superyacht yard and repeatedly faced the city in court. In September 2025 Amsterdam bought the 66 hectares of land and water back for 165 million euros, to make room for port firms that have to move so that homes can be built elsewhere.\n\nLook for:\n- the gate on the Hornweg, the only public view of the fenced site;\n- the ADM-haven, the old yard's basin on the canal side."
+  },
+  "sources_add": [
+   "https://en.wikipedia.org/wiki/ADM_(Amsterdam)"
+  ]
+ },
+ {
+  "id": "nxfbcg3iucwgna9za296ki4f",
+  "title": "Gemaal Houtrakpolder",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A brick pumping station that looks like a small village church",
+    "new": "A pumping station that looks like a church",
+    "kind": "narrowed",
+    "source": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/gebouwen-en-kunstwerken/gemaal-houtrakpolder/",
+    "evidence": "Rijnland: 'Het karakteristieke, op een kerkgebouw gelijkend, gemaal'; no source mentions brick or a village church."
+   },
+   {
+    "field": "body",
+    "old": "The building is typical of the water boards of the time: red brick, tall windows and a steep roof with a little lantern, which makes it look more like a chapel than a machine house. ",
+    "new": "The water board itself describes the building as looking like a church. ",
+    "kind": "cut",
+    "source": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/gebouwen-en-kunstwerken/gemaal-houtrakpolder/",
+    "evidence": "Rijnland says only 'op een kerkgebouw gelijkend'; no source describes the materials, windows, roof or a lantern."
+   },
+   {
+    "field": "body",
+    "old": "oil terminals, the Afrikahaven, two golf courses and recreation woods now share the old farmland",
+    "new": "Ruigoord, business parks around the Afrikahaven, two golf courses and recreation areas now share the old farmland",
+    "kind": "narrowed",
+    "source": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/gebouwen-en-kunstwerken/gemaal-houtrakpolder/",
+    "evidence": "'het gebied Ruigoord... de recreatiegebieden Houtrak en het Geuzenbos... twee golfterreinen en gedeelten van het bedrijventerrein ten zuiden en westen van de Afrikahaven'; oil terminals are not named."
+   },
+   {
+    "field": "body",
+    "old": "The station stands on the cycle network at the end of the Noordzeekanaalweg.",
+    "new": "The station stands at Noordzeekanaalweg 2, a stop on the cycle network.",
+    "kind": "narrowed",
+    "source": "https://gemalen.nl/gemaal_detail.asp?gem_id=614; https://www.fietsnetwerk.nl/knooppunt/18-gemaal-houtrakpolder-halfweg/",
+    "evidence": "Gemalenstichting: 'Noordzeekanaalweg 2'; fietsnetwerk lists it as stop 18. 'At the end of' is not sourced."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the chapel-like roofline and small roof lantern",
+    "new": "- the church-like silhouette",
+    "kind": "cut",
+    "source": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/gebouwen-en-kunstwerken/gemaal-houtrakpolder/",
+    "evidence": "No source mentions a roof lantern."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the outlet and sluice where polder water drops into the canal",
+    "new": "- the spot where the polder water is pumped into the canal",
+    "kind": "narrowed",
+    "source": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/gebouwen-en-kunstwerken/gemaal-houtrakpolder/",
+    "evidence": "'maalt uit op de boezem van het Noordzeekanaal'; no sluice is mentioned."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een gemaal uit 1936 dat op een kerk lijkt, op de hoek waar de Afrikahaven het Noordzeekanaal raakt. Zijn pompen houden de Houtrakpolder nog altijd droog.",
+     "body": "Wie hier een kerk ziet staan, kijkt naar een gemaal dat nog gewoon werkt. Het hoogheemraadschap zelf vindt ook dat het op een kerk lijkt.\n\nDe Houtrakpolder is land dat de Amsterdamsche Kanaalmaatschappij in de jaren 1870 op het IJ veroverde, bij het graven van het Noordzeekanaal. Eerst pompte een stoomgemaal de polder droog; in 1920 kreeg het een elektromotor. Toen het kanaal in 1935 breder werd, moest dat gemaal weg, en in 1936 verscheen een paar tientallen meters verderop dit dieselgemaal. In de oorlog werd brandstof schaars, en in 1941 kwam er toch een elektromotor in.\n\nBinnen staan twee centrifugaalpompen van Stork, die het water 4 meter optillen, van de polder naar het kanaal. Sinds 1982 worden ze aangedreven door twee elektromotoren van Heemaf. Het gemaal draait nog steeds voor het Hoogheemraadschap van Rijnland.\n\nVan de oude boerenpolder is weinig herkenbaar: Ruigoord, bedrijventerreinen rond de Afrikahaven, twee golfbanen en recreatiegebieden liggen er nu. Het gemaal staat aan de Noordzeekanaalweg 2, een stop op het fietsknooppuntennetwerk. Je ziet het alleen van buiten.\n\nLet op:\n- het kerkachtige silhouet\n- de plek waar het polderwater het kanaal in wordt gepompt\n- de schepen op het Noordzeekanaal erachter"
+    }
+   },
+   "summary": "A pumping station that looks like a church, built in 1936 at the far corner of the port where the Afrikahaven meets the North Sea Canal. Its pumps still keep the Houtrakpolder dry.",
+   "body": "The Houtrakpolder is land the Amsterdamsche Kanaalmaatschappij (Amsterdam Canal Company) drained from the IJ in the 1870s, when it dug the Noordzeekanaal (North Sea Canal). A steam pumping station kept it dry, fitted with an electric motor in 1920. When the canal was widened in 1935 that station had to go, and in 1936 a new diesel pumping station went up a few dozen metres further on. Fuel ran short in the war, so in 1941 an electric motor was put in.\n\nThe water board itself describes the building as looking like a church. Inside are two Stork centrifugal pumps, which lift water 4 metres from the polder into the canal; in 1982 two Heemaf electric motors replaced the old drive. It still works for the Hoogheemraadschap van Rijnland, the water board.\n\nThe polder it drains has changed beyond recognition: Ruigoord, business parks around the Afrikahaven, two golf courses and recreation areas now share the old farmland. The station stands at Noordzeekanaalweg 2, a stop on the cycle network. You see it from the outside only.\n\nLook for:\n- the church-like silhouette\n- the spot where the polder water is pumped into the canal\n- ships on the North Sea Canal behind it"
+  },
+  "sources_add": [
+   "https://www.fietsnetwerk.nl/knooppunt/18-gemaal-houtrakpolder-halfweg/"
+  ]
+ },
+ {
+  "id": "tmut7ls26la7h9s6st9o85gh",
+  "title": "Eendenkooi Ruigoord",
+  "changes": [
+   {
+    "field": "body",
+    "old": "A duck decoy (*eendenkooi*) is a pond hidden in a screen of woodland, with curved, netted ditches called pipes. Tame ducks and a trained dog lure wild ducks into a pipe, where the decoyman closes the trap. From the 17th century the Dutch caught ducks for the table this way in their thousands, and the trade even left words in the language.",
+    "new": "A duck decoy (*eendenkooi*) is a pond hidden in its own wood, with catching ditches called pipes. Ducks caught this way went to the table, and the trade even left words in the Dutch language.",
+    "kind": "narrowed",
+    "source": "https://eendenkooi.wordpress.com/about/de-reconstructie/; https://eendenkooi.wordpress.com/",
+    "evidence": "The reconstruction page names the kooiplas, vangpijpen and kooibos; the homepage says the decoy supplied ducks 'voor consumptie' and has a post on 'Beïnvloeding van de Nederlandse taal door het kooibedrijf'. No fetched source describes tame ducks, a dog, nets or catch numbers."
+   },
+   {
+    "field": "body",
+    "old": "It fell out of use around the early 19th century, when better drainage made farmland worth more than a decoy, and was forgotten.",
+    "new": "It fell out of use around the early 19th century, probably because better drainage made farmland worth more than a decoy.",
+    "kind": "narrowed",
+    "source": "https://eendenkooi.wordpress.com/about/geschiedenis-ruigoord/",
+    "evidence": "'Waarschijnlijk kwam dat omdat, door betere bemaling, de poldergrond als landbouwgrond een veel hogere waarde kreeg.' The source hedges the reason and does not say the decoy was forgotten."
+   },
+   {
+    "field": "body",
+    "old": "When the port laid out a green zone on the edge of the Afrikahaven, the remains of the decoy were found under the scrub on the Bauduinlaan.",
+    "new": "Until early 2012 the spot was rough scrub on the Bauduinlaan, and the decoy was made part of the port's green plan for the area.",
+    "kind": "narrowed",
+    "source": "https://eendenkooi.wordpress.com/; https://eendenkooi.wordpress.com/about/belangrijkste-deelnemers/",
+    "evidence": "'De plaats waar hij lag was tot begin 2012 een ruigte aan de Bauduinlaan'; 'De eendenkooi past in het Groenplan Atlaspark'. The reconstruction plan digs down to the buried remains, but no source tells how they were found."
+   },
+   {
+    "field": "body",
+    "old": "The digging and planting were done partly by Amsterdam teenagers at risk of dropping out of school, through the School2Work project.",
+    "new": "Amsterdam teenagers at risk of dropping out of school helped with the work through the School2Work project.",
+    "kind": "narrowed",
+    "source": "https://eendenkooi.wordpress.com/about/belangrijkste-deelnemers/",
+    "evidence": "Groundwork was done by contractor Markus B.V.; School2Work pupils 'verrichten lichte werkzaamheden', helping build the workshop and public space and doing green maintenance."
+   },
+   {
+    "field": "body",
+    "old": "A decoy needs quiet, so the pond hides inside its own wood.",
+    "new": "The pond hides inside its own wood.",
+    "kind": "cut",
+    "source": "https://eendenkooi.wordpress.com/about/de-reconstructie/",
+    "evidence": "The kooibos is sourced; the reason ('needs quiet') is not."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the golf course and the Afrikahaven wind turbines around this 17th-century relic",
+    "new": "- the golf course and port businesses around this 17th-century relic",
+    "kind": "narrowed",
+    "source": "https://eendenkooi.wordpress.com/",
+    "evidence": "'begrensd door een fietspad, een watergang, diverse bedrijven en de Amsterdamse Golfclub'; wind turbines are not mentioned."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Op de zuidpunt van het eiland Ruigoord werd in 1652 een eendenkooi gegraven, zo beroemd dat een kaart het eiland Kooijen eiland noemt. Vanaf 2012 is hij op de oude plek herbouwd, in de groene zoom van een haven vol zware industrie.",
+     "body": "Op een kaart uit 1849 heet Ruigoord gewoon Kooijen eiland. Zo bekend was de eendenkooi die hier in 1652 op de zuidpunt van het eiland werd aangelegd. Hij leverde eenden voor de pot aan een wijde omgeving.\n\nEen eendenkooi is een plas, verstopt in een eigen bosje, met vangsloten die pijpen heten. De vangst verdween in de pan, en het vak heeft zelfs woorden in het Nederlands achtergelaten. Rond het begin van de negentiende eeuw raakte deze kooi in onbruik, waarschijnlijk omdat de grond dankzij betere bemaling als landbouwgrond meer opbracht.\n\nTot begin 2012 lag hier een ruigte aan de Bauduinlaan, en de kooi kreeg een plaats in het groenplan van de haven voor dit gebied. Vanaf 2012 bouwden de haven en Stichting Het Eiland hem op de oude contouren opnieuw op. Initiatiefnemer Frans Rodenburg werd geboren op een boerderij die vrijwel precies stond waar nu de plas ligt. Amsterdamse tieners die dreigden uit te vallen op school hielpen mee via het project School2Work. Eenden eten is er niet meer bij: de kooi dient voor onderwijs en onderzoek.\n\nDe plas ligt verstopt in zijn eigen bos. Vanaf de Bauduinlaan, aan de Ruigoordroute van de haven, zie je het bosje liggen.\n\nLet op:\n- de dichte ring van bomen rond de kooiplas\n- uitleg over eendenkooien bij de kooi\n- de golfbaan en de havenbedrijven rond dit stukje zeventiende eeuw"
+    }
+   },
+   "body": "A duck decoy (*eendenkooi*) is a pond hidden in its own wood, with catching ditches called pipes. Ducks caught this way went to the table, and the trade even left words in the Dutch language.\n\nRuigoord's decoy was laid out in 1652 on the southern tip of the island. It supplied a wide area with ducks and was so well known that an 1849 map calls Ruigoord \"Kooijen eiland\", decoy island. It fell out of use around the early 19th century, probably because better drainage made farmland worth more than a decoy.\n\nUntil early 2012 the spot was rough scrub on the Bauduinlaan, and the decoy was made part of the port's green plan for the area. From 2012 the port and Stichting Het Eiland rebuilt it on its old outline. The initiator, Frans Rodenburg, was born on a farm that stood almost exactly where the pond is now. Amsterdam teenagers at risk of dropping out of school helped with the work through the School2Work project. The decoy is for education and research, not for eating.\n\nThe pond hides inside its own wood. You see the copse from the Bauduinlaan, on the port's Ruigoord cycle route.\n\nLook for:\n- the dense ring of trees around the decoy pond\n- information about decoys at the site\n- the golf course and port businesses around this 17th-century relic"
+  },
+  "sources_add": [
+   "https://eendenkooi.wordpress.com/about/de-reconstructie/"
+  ]
+ },
+ {
+  "id": "g5v62eq0eid8v0csp2u0ogqq",
+  "title": "Lancaster memorial Houtrakpolder",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "A bent propeller from the wreck now stands on the spot.",
+    "new": "A bent propeller from the wreck now stands near the spot.",
+    "kind": "narrowed",
+    "source": "https://www.dodenakkers.nl/grafmonumenten/halfweg-de-crash-van-een-lancaster.html",
+    "evidence": "'werd op initiatief van het Gemeentelijk Havenbedrijf nabij de crashlocatie een monument opgericht'."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Op 30 januari 1944 viel een brandende Lancaster-bommenwerper, op weg terug van Berlijn, op de boerderij van de familie Van der Bijl. Zes gezinsleden en de hele bemanning van zeven kwamen om. Vlakbij staat nu een verbogen propeller uit het wrak.",
+     "body": "Op de avond van 30 januari 1944 vloog Lancaster JB659 van het 97e squadron van de RAF terug van een aanval op Berlijn. Een Duitse nachtjager uit Leeuwarden, met Heinz-Wolfgang Schnaufer aan de knuppel, schoot hem neer. Even na tienen boorde het toestel zich in de boerderij van de familie Van der Bijl, Machineweg 10 in de Houtrakpolder, en sloeg een krater van vijf meter diep. Cor en Adri van der Bijl hadden met hun knecht het vliegtuig zien branden. Adri rende naar binnen om het jongste kind te halen, maar het was te laat. Een paar van de negen kinderen kwamen zelf weg, andere trok de knecht naar buiten. De ouders en de vier jongsten, Harry, Johan, Tonny en Ida, overleefden het niet; Cor stierf een dag later aan zijn brandwonden.\n\nDe bemanning kwam uit Australië, Canada en Groot-Brittannië. Twee mannen werden uit het toestel geslingerd en in Zwanenburg begraven. De andere vijf verdwenen met het vliegtuig diep in de grond, en na de oorlog verrees er een nieuwe boerderij boven hen. Pas in 2000, toen die boerderij moest wijken voor de Afrikahaven, werden ze in drie maanden graafwerk geborgen. In november 2001 kregen ze samen één kist naast hun kameraden, en de haven onthulde dit monument bij de plek van de crash.\n\nVan Capelle Associates uit Zwanenburg ontwierp het: een propeller met verbogen bladen op een zuil van roestvrij staal, tussen twee lage bakstenen muren die naar Londen en naar Berlijn wijzen. Een vijver, nu drooggevallen, stond voor de krater, en dertien bomen voor de dertien doden. Het monument staat op een rond pleintje aan de Machineweg.\n\nLet op:\n- de tweetalige plaquette die de boerderij van de familie Van der Bijl noemt\n- de verbogen propellerbladen\n- de kring van gedenkbomen"
+    }
+   },
+   "summary": "On 30 January 1944 a burning Lancaster bomber, returning from Berlin, fell on the Van der Bijl farm here. Six of the family and all seven crew died. A bent propeller from the wreck now stands near the spot."
+  },
+  "sources_add": []
+ },
+ {
+  "id": "o7qompqyesuvplcrt7nmsuvc",
+  "title": "REM-eiland",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "this steel platform stood off Noordwijk and broadcast Europe's first pirate TV, until",
+    "new": "this steel platform stood off Noordwijk, Europe's first pirate station on a fixed artificial island, and broadcast commercial TV until",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/REM-eiland",
+    "evidence": "'Het was het eerste piratenstation van Europa dat opereerde op een gefixeerd artificieel eiland in plaats van op een schip'; no source calls it Europe's first pirate TV."
+   },
+   {
+    "field": "summary",
+    "old": "After forty years as a sea-measuring post",
+    "new": "After three decades as a sea-measuring post",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/REM-eiland",
+    "evidence": "Used by Rijkswaterstaat 'vanaf 1974' as Meetpost Noordwijk; 'In de zomer van 2004 werd de meetpost ontmanteld': thirty years, not forty."
+   },
+   {
+    "field": "body",
+    "old": "Within weeks it reached some two million viewers",
+    "new": "In its first week some two million viewers tuned in",
+    "kind": "narrowed",
+    "source": "https://anderetijden.nl/aflevering/670/Het-REM-eiland",
+    "evidence": "'In de eerste week van uitzending waren 650.000 toestellen (ruim twee miljoen kijkers) een of meerdere malen op TV Noordzee afgestemd.'"
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the helicopter-deck roof, now a terrace 22 metres above the water;",
+    "new": "- the roof, once the helicopter deck, now a rooftop terrace;",
+    "kind": "narrowed",
+    "source": "https://offshoreradio.info/rem-eiland/; https://www.rem.amsterdam/rooftop",
+    "evidence": "Offshoreradio: 'The roof served as a helipad'; rem.amsterdam has a rooftop terrace. No source gives 22 metres."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the red-and-white top on its new legs in the Houthaven;\n- inside, an old Rijkswaterstaat control panel restored by radio amateurs.",
+    "new": "- the old platform top on its new legs in the Houthaven.",
+    "kind": "cut",
+    "source": "https://www.remeiland.nl/nl/historie",
+    "evidence": "remeiland.nl: the old legs had already been melted down, so the top stands on new ones. No source gives the colours or mentions a restored control panel inside."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "In 1964 stond dit stalen platform voor Noordwijk: Europa's eerste piratenstation op een vast kunstmatig eiland, met reclame-tv tot politie en marine het op 17 december enterden. Na dertig jaar als meetpost staat het nu in het IJ, als restaurant met dakterras.",
+     "body": "Commerciële televisie was in Nederland verboden, dus zochten een paar zakenlieden het op zee. In 1963 richtten ze, met onder anderen scheepsbouwer Cornelis Verolme en offshorepionier Pieter Schelte Heerema, de Reclame Exploitatie Maatschappij (REM) op. In het Ierse Cork lieten ze een platform bouwen, dat zo'n 9 kilometer voor Noordwijk op de zeebodem kwam te staan, net buiten de territoriale wateren. Radio Noordzee zond vanaf 29 juli 1964 proefuitzendingen uit; op 15 augustus begon TV Noordzee echt, met Mr Ed, Rin Tin Tin en The Saint, en reclame. In de eerste week stemden zo'n twee miljoen kijkers af, en bij de bank stonden mensen in de rij voor aandelen.\n\nDen Haag sloeg terug met de Wet installaties Noordzee, de anti-REM-wet: op bouwwerken op het Nederlandse deel van het continentaal plat geldt voortaan Nederlands recht. TV Noordzee verdween op 14 december uit de lucht. Op de ochtend van 17 december gingen agenten, gesteund door de marine, aan boord, en om 9.07 uur viel Radio Noordzee stil. De makers begonnen daarna de omroep TROS.\n\nDe staat nam het platform over. Vanaf 1974 mat Rijkswaterstaat er als Meetpost Noordwijk golven, temperatuur en zoutgehalte. Tussen 2004 en 2006 werd het ontmanteld en naar Vlissingen gesleept. Woningcorporatie De Key kocht het in 2009, liet het in Delfzijl ombouwen met een extra verdieping, en in maart 2011 kwam het aan de Haparandadam te staan.\n\nLet op:\n- het dak, ooit het helikopterdek, nu een dakterras\n- de oude bovenbouw op nieuwe poten in de Houthaven"
+    }
+   },
+   "summary": "In 1964 this steel platform off Noordwijk, Europe's first pirate station on a fixed artificial island, broadcast commercial TV until police and navy boarded it on 17 December. After three decades as a sea-measuring post it now stands in the IJ as a restaurant with a rooftop view.",
+   "body": "In 1963 a group of businessmen, among them shipbuilder Cornelis Verolme and offshore pioneer Pieter Schelte Heerema, set up the *Reclame Exploitatie Maatschappij* (REM, advertising company). Commercial TV was banned in the Netherlands, so they had a platform built in Cork, Ireland, and fixed it to the seabed about 9 km off Noordwijk, outside territorial waters. Radio Noordzee tested from 29 July 1964, and TV Noordzee started regular broadcasts on 15 August, with *Mr Ed*, *Rin Tin Tin* and *The Saint* plus adverts. In its first week some two million viewers tuned in, and people queued at the bank to buy shares.\n\nThe government passed the *Wet Installaties Noordzee*, the \"anti-REM law\", which applied Dutch law to structures on the Dutch continental shelf. TV Noordzee went off the air on 14 December. On the morning of 17 December, police officers backed by the navy boarded the island, and at 9:07 Radio Noordzee fell silent. The people behind it went on to found the broadcaster TROS.\n\nThe state took the platform over, and from 1974 Rijkswaterstaat used it as *Meetpost Noordwijk* to measure waves, temperature and salinity. It was dismantled in 2004–2006 and towed to Vlissingen. In 2009 housing corporation De Key bought it, had it rebuilt in Delfzijl with an extra floor, and in March 2011 moved it to the Haparandadam.\n\nLook for:\n- the roof, once the helicopter deck, now a rooftop terrace;\n- the old platform top on its new legs in the Houthaven."
+  },
+  "sources_add": [
+   "https://www.rem.amsterdam/rooftop",
+   "https://offshoreradio.info/rem-eiland/",
+   "https://anderetijden.nl/aflevering/670/Het-REM-eiland",
+   "https://www.remeiland.nl/nl/historie"
+  ]
+ },
+ {
+  "id": "ni0n6v70uxjuzjikudzx36iy",
+  "title": "Amsterdam Heliport",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "The city's only heliport, squeezed",
+    "new": "Amsterdam's heliport, squeezed",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Amsterdam_Heliport",
+    "evidence": "No source says it is the only heliport in the city; Wikipedia calls it 'een kleine en moderne helikopterhaven'."
+   },
+   {
+    "field": "body",
+    "old": "The plan came from the entrepreneur and former radio presenter Adam Curry, whose helicopter company Rotorjet had gone bankrupt in 2003.",
+    "new": "The plan came from the entrepreneur Adam Curry.",
+    "kind": "cut",
+    "source": "https://nl.wikipedia.org/wiki/Amsterdam_Heliport",
+    "evidence": "Wikipedia: 'in 2005 op initiatief van Adam Curry geopend'. The Rotorjet bankruptcy came from a nu.nl article that could not be fetched, and no source here mentions radio."
+   },
+   {
+    "field": "body",
+    "old": ", around a single 24-metre landing pad,",
+    "new": ",",
+    "kind": "cut",
+    "source": "https://amsterdamheliport.com/",
+    "evidence": "Neither the heliport's own information and facilities pages nor Wikipedia give the size or number of landing pads."
+   },
+   {
+    "field": "body",
+    "old": "with more room and faster access to the motorways and the region",
+    "new": "with more room, easier access and faster call-outs to the region",
+    "kind": "narrowed",
+    "source": "https://www.traumaheli-mmt.nl/category/lifeliner1/",
+    "evidence": "'Deze locatie biedt meer ruimte, betere bereikbaarheid en maakt het mogelijk om sneller uit te vliegen naar meldingen in de regio'; motorways are not mentioned."
+   },
+   {
+    "field": "body",
+    "old": "The heliport is not open to the public. The Hornweg runs right past the fence, so from the roadside you can watch helicopters land and take off, most often during its opening hours (8:00 to 18:00), though the trauma helicopter flies day and night.",
+    "new": "The heliport, at Hornweg 24, is a private airfield: every flight needs prior permission. Normal hours are 8:00 to 18:00, and no flights are allowed between 23:00 and 7:00 except for medical or national emergencies; the trauma team is on call day and night.",
+    "kind": "narrowed",
+    "source": "https://amsterdamheliport.com/; https://mmtnederland.nl/nieuwe-huisvesting-lifeliner-1/",
+    "evidence": "Heliport site: 'Normal operating hours are from 08:00 to 18:00', '24 hours prior permission (PPR) is required for all flights', 'No flights are permitted between 23:00 and 07:00. The only exceptions... medical or national emergency', address Hornweg 24; MMT: facilities 'om het MMT 24/7 hun werk te kunnen laten doen'. No source describes the fence or the view from the road."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "De helihaven van Amsterdam, ingeklemd tussen de Australiëhavenweg en de Westhaven: een idee van Adam Curry, in 2005 geopend voor vip-vluchten. Sinds 2023 staat hier ook Lifeliner 1, de traumahelikopter die eerder van een ziekenhuisdak opsteeg.",
+     "body": "Achtentwintig jaar steeg de traumahelikopter Lifeliner 1 op van het dak van het VUmc, midden in de stad. Sinds 2023 vertrekt hij hier, uit het havengebied.\n\nAmsterdam Heliport (ICAO-code EHHA) ging op 3 augustus 2005 open aan de Hornweg, tussen de Australiëhavenweg en de Westhaven. Destijds werd het gepresenteerd als de eerste helihaven van Nederland. Het idee kwam van ondernemer Adam Curry. Groot is het niet: buiten passen vier helikopters, in de hangar nog drie. Het draait vooral om vip-vervoer en werk vanuit de lucht, en Heli Holland is de belangrijkste gebruiker.\n\nIn 2023 kwam er een serieuzere huurder bij. Het Mobiel Medisch Team van Amsterdam UMC trok met Lifeliner 1 van het ziekenhuisdak, waar de heli een vertrouwd beeld was, naar een nieuwe hangar met bemanningsgebouw op de heliport. Daar is meer ruimte, het terrein is beter bereikbaar en de heli is sneller bij meldingen in de regio. Vanaf hier vliegt hij uit naar zware incidenten in de regio.\n\nDe heliport, op Hornweg 24, is een privéveld: voor elke vlucht is vooraf toestemming nodig. Gewoon vliegen kan van 8.00 tot 18.00 uur, en tussen 23.00 en 7.00 uur mag er niemand op of neer, behalve bij medische of nationale noodgevallen. Het traumateam staat dag en nacht klaar."
+    }
+   },
+   "summary": "Amsterdam's heliport, squeezed between the Australiëhavenweg and the Westhaven: an idea of Adam Curry's that opened in 2005 for VIP flights. Since 2023 it is also home to Lifeliner 1, the trauma helicopter that used to take off from a hospital roof.",
+   "body": "Amsterdam Heliport (ICAO code EHHA) opened on 3 August 2005 on the Hornweg, between the Australiëhavenweg and the Westhaven, billed at the time as the first heliport in the Netherlands. The plan came from the entrepreneur Adam Curry. It is small: four helicopters can park outside and three more in the hangar, and it is aimed at VIP transport and aerial work. The main user is Heli Holland.\n\nIn 2023 it gained a more serious tenant. For 28 years the *Mobiel Medisch Team* (mobile medical team) of Amsterdam UMC had flown Lifeliner 1 from the roof of the VUmc hospital, a familiar sight in the middle of the city. The team moved into a new hangar and crew building here, with more room, easier access and faster call-outs to the region; from here the helicopter now flies out to serious incidents in the region.\n\nThe heliport, at Hornweg 24, is a private airfield: every flight needs prior permission. Normal hours are 8:00 to 18:00, and no flights are allowed between 23:00 and 7:00 except for medical or national emergencies; the trauma team is on call day and night."
+  },
+  "sources_add": [
+   "https://amsterdamheliport.com/",
+   "https://www.traumaheli-mmt.nl/category/lifeliner1/"
+  ]
+ },
+ {
+  "id": "p3hagif5wf6sicvhusik46r8",
+  "title": "Petroleumhaven",
+  "changes": [
+   {
+    "field": "body",
+    "old": "Shell, the German tar industry and Standard Oil's American Petroleum Company soon set up tanks;",
+    "new": "Shell and the German tar industry set up there, later followed by Standard Oil's American Petroleum Company;",
+    "kind": "narrowed",
+    "source": "https://www.stelling-amsterdam.nl/kazernes/amsterdam-petroleumhaven/index.php",
+    "evidence": "'Op andere terreinen langs de haven waren aanvankelijk o.a. de Shell en de Deutschen Teerproducten Verein gevestigd. Later vestigden ook de \"Bataafsche Petroleum Maatschappij\" en de \"American Petroleum Company\"... zich aan de haven.'"
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the narrow entrance from the North Sea Canal that could once be closed off",
+    "new": "- the two harbour mouths that could once be closed off with booms",
+    "kind": "narrowed",
+    "source": "https://www.stelling-amsterdam.nl/kazernes/amsterdam-petroleumhaven/index.php",
+    "evidence": "'De twee havenmonden van 30 meter breed konden afgesloten worden door vuurvaste ijzeren drijfbomen'; the harbour has two mouths, not one narrow entrance."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een hoefijzervormige oliehaven uit 1887-1889, een uur gaans van de stad, met monden die bij brand met ijzeren drijfbomen dicht konden. Op het middeneiland woonde een wachter met zijn gezin; in mei 1940 staken de Britten de tanks in brand.",
+     "body": "Petroleum was Amsterdam te link. In 1862 weigerden de pakhuisbedrijven van de stad het op te slaan, uit angst voor brand, en de gemeente verbood het binnen de stad. In 1887 werd daarom een haven op veilige afstand aanbesteed, 'een uur gaans' ten westen van de stad, in de net drooggemaakte Amsterdammerpolder. Hij kreeg een hoefijzervorm, zodat de toegang bij een ongeluk snel dicht kon en er geen olie het IJ in stroomde: beide monden, elk 30 meter breed, waren af te sluiten met brandvrije ijzeren drijfbomen. Op het middeneiland van 70 meter breed lagen de gevaarlijkste vloeistoffen, zoals nafta, en daar woonde ook een wachter met zijn gezin. Het personeel kwam per boot van de Prins Hendrikkade, en van 1891 tot 1902 had de haven een eigen treinhalte, Amsterdam Petroleumhaven.\n\nIn 1889 voer het eerste tankstoomschip binnen, met 21.000 vaten. Shell en de Duitse teerindustrie vestigden zich er, later gevolgd door de American Petroleum Company van Standard Oil. In 1901 kwam er al ruim acht miljoen vaten Amerikaanse en Russische olie binnen. De haven hield ook een brandstofvoorraad aan voor de Stelling van Amsterdam, en van 1916 tot 1918 stonden er drie luchtafweerkanonnen omheen.\n\nOp 14 mei 1940, tijdens de Duitse inval, staken Britse vernielingsploegen de tanks in brand, zodat de voorraad niet in Duitse handen viel; een groot deel van de opslag ging verloren. Nu werken hier een tankopslagbedrijf en een verwerker van afgewerkte olie. De terminals zijn afgesloten, maar de Petroleumhavenweg loopt om het bekken; vanaf de weg zie je de U-vorm en het middeneiland.\n\nLet op:\n- het hoefijzervormige bekken en het middeneiland vol tanks\n- de twee havenmonden die vroeger met drijfbomen dicht konden\n- tankers en binnenvaartschepen aan de steigers van de terminal"
+    }
+   },
+   "body": "In 1862 Amsterdam's warehouse companies refused to store petroleum for fear of fire, and the city banned it inside its walls. So in 1887 it put out to tender a harbour at a safe distance, \"an hour's walk\" west of town in the newly drained Amsterdammerpolder. It was built in a horseshoe so the entrance could be shut quickly in an accident and oil could not spread into the IJ: the two 30-metre-wide mouths could be closed with fireproof iron floating booms. The 70-metre-wide middle island stored the most dangerous liquids, such as naphtha, and a watchman lived there with his family. Staff came out by boat from the Prins Hendrikkade, and a short-lived railway halt, Amsterdam Petroleumhaven, served it from 1891 to 1902.\n\nThe first tanker steamed in in 1889 with 21,000 barrels. Shell and the German tar industry set up there, later followed by Standard Oil's American Petroleum Company; by 1901 more than eight million barrels of American and Russian oil came in a year. The harbour also held a reserve of fuel for the Stelling van Amsterdam, the city's defence ring, and in 1916–1918 three anti-aircraft guns stood around it.\n\nOn 14 May 1940, as the Germans invaded, British demolition teams set fire to the fuel tanks so the stocks would not fall into enemy hands, and a large part of the storage was destroyed. Today a tank terminal and a waste-oil processor work here. The terminals are fenced, but the Petroleumhavenweg runs around the basin and you can see the U-shape and the middle island from the road.\n\nLook for:\n- the horseshoe basin and the tank-covered middle island\n- the two harbour mouths that could once be closed off with booms\n- tankers and barges at the terminal jetties"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "gevrnp463y50uoliv5n296uz",
+  "title": "Marbon chemical plant (gone)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "its permit was signed off the very day of the blast",
+    "new": "a positive advice on its permit went to the mayor on the very day of the blast",
+    "kind": "narrowed",
+    "source": "https://onsamsterdam.nl/artikelen/hier-gebeurde-het-cyprusweg-10-augustus-1971",
+    "evidence": "'een positief advies voor een Hinderwetvergunning werd juist op 10 augustus 1971... door de verantwoordelijke ambtenaar aan burgemeester Samkalden doorgestuurd. De burgemeester tekende uiteraard niet.'"
+   },
+   {
+    "field": "body",
+    "old": "is fenced and holds nothing that recalls the plant",
+    "new": "holds nothing that recalls the plant",
+    "kind": "cut",
+    "source": "https://onsamsterdam.nl/artikelen/hier-gebeurde-het-cyprusweg-10-augustus-1971",
+    "evidence": "Ons Amsterdam: 'een groot braakliggend veld... daaraan herinnert niets meer'; no source mentions a fence."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Op 10 augustus 1971 ontplofte bij kunststoffabriek Marbon aan de Cyprusweg een lekkende reactor, terwijl brandweerlieden het schuim wegspoten: negen doden. De fabriek stond er zonder vergunning; het gunstige advies ging die dag naar de burgemeester. Er is niets van over.",
+     "body": "Op de dag dat een ambtenaar een gunstig advies over de vergunning naar de burgemeester stuurde, vloog de fabriek de lucht in. Marbon stond er toen al jaren zonder.\n\nIn de jaren zestig spoot Amsterdam de polders ten westen van de stad op voor een petrochemisch complex dat er nooit echt kwam. De raffinaderij van Mobil Oil was de eerste; in 1965 volgde Marbon Europe, deel van het Amerikaanse Borg-Warner, met een fabriek voor ABS, het harde plastic van speelgoed, meubels en dashboards. ABS zelf is onschuldig, maar om het te maken heb je zeer giftig acrylnitril, explosief butadieen en styreen nodig. Toen de gemeenteraad eind 1965 over de grond stemde, stonden de gebouwen er al. Pas in 1967 vroeg Marbon een hinderwetvergunning aan, en de stad had één chemicus voor een plank vol aanvragen.\n\nDie middag begon reactor 7 op de latexafdeling te lekken. Een halve meter borrelend schuim vol butadieen bedekte de vloer. De bedrijfsbrandweer en de stadsbrandweer, geen van beide getraind op zo'n lek, gingen het schuim wegspuiten om bij de reactor te komen. Om 15.37 uur ontplofte het gas erboven. Vijf Amsterdamse brandweermannen en drie mannen van Marbon waren op slag dood, een negende overleed later; 22 mensen raakten gewond. Ambulancepersoneel durfde gewonden onder wit poeder eerst niet aan te raken, uit angst voor acrylnitril, en in Zaandam riepen geluidswagens op binnen te blijven.\n\nHet was een van de eerste rampen waardoor Nederland zich zorgen ging maken over gevaarlijke industrie naast woonwijken. In 1972 draaide de fabriek weer, zonder latexafdeling, als Borg-Warner en later General Electric Plastics, dat er rond 2000 nog ABS maakte. De Amsterdamse brandweer schreef voortaan een aanvalsplan voor elk chemisch bedrijf, en Marbon staat in die boeken nog altijd op nummer 1.\n\nHet terrein ligt aan een korte havenweg bij de Hornweg en niets herinnert er nog aan de fabriek; de speld staat op de Cyprusweg."
+    }
+   },
+   "summary": "On 10 August 1971 a leaking reactor at the Marbon plastics plant on the Cyprusweg exploded while firefighters hosed away the foam: nine men died. The plant was built without permits; a positive advice on its permit went to the mayor that very day. Nothing is left.",
+   "body": "In the 1960s Amsterdam raised the polders west of the city with sand for a petrochemical complex that never really came. Mobil Oil's refinery was the first arrival; Marbon Europe, part of the American Borg-Warner group, followed in 1965 with a plant for ABS, the hard plastic used for toys, furniture and car dashboards. ABS itself is harmless, but making it takes highly toxic acrylonitrile, explosive butadiene and styrene. When the city council voted on the land lease at the end of 1965, the buildings were already standing. Marbon applied for its nuisance permit (*Hinderwetvergunning*) only in 1967, and the city, with a single chemist to clear a shelf of applications, sent a positive advice to the mayor on 10 August 1971.\n\nThat afternoon reactor 7 in the latex department began to leak. Bubbling foam full of butadiene spread half a metre deep over the floor. Marbon's own fire crew and the city brigade, neither trained for such a leak, started to spray the foam away to reach the reactor. At 15:37 the gas above it exploded. Five Amsterdam firefighters and three Marbon men died on the spot and a ninth died later; 22 people were injured. Ambulance crews at first refused to touch casualties covered in white powder, fearing acrylonitrile, and in Zaandam loudspeaker vans told people to stay inside.\n\nIt was one of the first industrial disasters to make the Netherlands worry about dangerous industry next to homes. The plant restarted in 1972, minus the latex unit, under the name Borg-Warner and later General Electric Plastics, which still made ABS here around 2000. Amsterdam's fire brigade began writing attack plans for every chemical firm, and Marbon is still number 1 in its books.\n\nThe site, on a short port road off the Hornweg, holds nothing that recalls the plant; the pin marks the Cyprusweg."
+  },
+  "sources_add": []
+ },
+ {
+  "id": "kbxjw0smoo2l5sdx0244lh5i",
+  "title": "Berm Bunnies",
+  "changes": [
+   {
+    "field": "body",
+    "old": "someone stuffed heavy fireworks into the head",
+    "new": "someone apparently stuffed heavy fireworks into the head",
+    "kind": "narrowed",
+    "source": "https://www.at5.nl/artikelen/206550/oren-van-konijn-op-nieuwe-hemweg-eraf-geblazen",
+    "evidence": "'In het hoofd van het polyester konijn is vermoedelijk zwaar vuurwerk gestopt.'"
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Drie witte reuzenkonijnen in de middenberm van de Nieuwe Hemweg: liggend, zittend en staand, tot 5,7 meter hoog. Bij de jaarwisseling 2020-2021 blies een vuurwerkbom de kop van het liggende konijn half weg; het kwam hersteld terug, met de oren nu iets anders.",
+     "body": "Het liggende konijn heeft andere oren dan eerst. Bij de jaarwisseling 2020-2021 stopte iemand, zo lijkt het, zwaar vuurwerk in zijn kop, en de oren en een flink deel van het hoofd vlogen eraf. Het dier ging terug naar de werkplaats van de kunstenares in Hoofddorp en stond op 18 maart 2021 weer op zijn plek. 'Er zijn geen littekens te zien,' zei Saske van der Eerden. Wel staan de oren nu een beetje anders, en dat vond ze eigenlijk mooier.\n\nDe haven wilde iets doen aan de lange, kaarsrechte Nieuwe Hemweg en de snelfietsroute tussen Amsterdam en Zaandam ernaast. Bureau Bright Up bedacht konijnen, omdat die echt in de bermen en struiken van de haven wonen. Van der Eerden, die ook het Kissing Couple XXXL aan het eind van dezelfde weg maakte, ontwierp en bouwde ze tussen oktober 2019 en juli 2020. Het zijn polyester schalen, gevuld met schuim en verzwaard met beton: een liggend konijn van 3 meter, een zittend van 4,3 meter en een staand van 5,7 meter. Op 6 juli 2020 brachten diepladers ze naar de berm, waar ze over hun betonnen voeten heen werden gezakt. Ze staan dus niet op een sokkel, maar eromheen.\n\nLet op:\n- de drie houdingen na elkaar, het mooist vanaf het fietspad\n- de herstelde oren van het liggende konijn\n- wilde konijnen in de bermen eromheen"
+    }
+   },
+   "body": "The port wanted something to break the monotony of the long, straight Nieuwe Hemweg and the fast cycle route between Amsterdam and Zaandam beside it. The bureau Bright Up proposed rabbits, which actually live in the port's verges and bushes, and Saske van der Eerden, maker of the Kissing Couple XXXL at the end of the same road, designed and built them between October 2019 and July 2020. They are polyester shells filled with foam and weighted with concrete: one lying (3 metres high), one sitting (4.3 metres) and one standing (5.7 metres). On 6 July 2020 low loaders brought them in and they were lowered over their concrete bases, so they do not stand on a plinth but around it.\n\nAt New Year 2020–21 someone apparently stuffed heavy fireworks into the head of the lying rabbit and blew off its ears and much of its head. It went back to the artist's workshop in Hoofddorp and was returned on 18 March 2021. \"There are no scars to see,\" Van der Eerden said, though the ears now sit a little differently, which she liked better.\n\nLook for:\n- the three poses, best seen in sequence from the cycle path\n- the lying rabbit's restored ears\n- wild rabbits in the verges around them"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "c8469d5er4hv80vzzh3g3eo0",
+  "title": "Hempont",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "cars queued for up to 45 minutes here",
+    "new": "cars often waited three quarters of an hour here",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Hempontplein",
+    "evidence": "'Wachttijden voor het verkeer van drie kwartier waren geen uitzondering': common, not a maximum."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- on the Zaandam side, the old Hembrug munitions site, now open to visitors",
+    "new": "- on the Zaandam side, the old Hembrug munitions site, now with its own museum",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Hembrug_(brug)",
+    "evidence": "'Het gehele Hembrugterrein... heeft inmiddels de status van monument met inmiddels een eigen \"Hembrug Museum\"'; general public access is not described."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Sinds 1876 vaart hier dag en nacht een gratis pont over het Noordzeekanaal naar Zaandam, tegenwoordig elektrisch. Voor de Coentunnel stonden auto's hier vaak drie kwartier te wachten; nu is het een rustige fietsoversteek langs kolenbergen en zeeschepen.",
+     "body": "In 1959 zette de Hempont 5800 auto's per dag over, en drie kwartier wachten was heel gewoon. De rij stond dan tot ver op de Nieuwe Hemweg.\n\nDe pont begon in 1876, het jaar dat het Noordzeekanaal openging, en is de oudste oversteek op deze plek: de spoorbrug ernaast kwam twee jaar later. Tot de Coentunnel op 21 juni 1966 openging, was dit zo goed als de enige weg tussen Amsterdam en Zaandam. Daarna werd het een oversteek voor fietsers en voetgangers, en voor vrachtwagens met gevaarlijke lading die niet door de tunnel mogen. Het wachtplein, het Hempontplein, kreeg in 2023 een turborotonde met twee fietstunnels eronder.\n\nDe dienst (lijn F20, sinds 2013 van het GVB) vaart de klok rond, om de twintig minuten, en de overtocht duurt zo'n zeven minuten. Lopers en fietsers gaan gratis mee, auto's en vrachtwagens betalen. De rijksponten uit de jaren dertig maakten in 2021-2022 plaats voor nieuwe elektrische. In september 1944 probeerde schipper Hein Prinsen, die aan de Zaanse kade woonde, een Duitse bewaker over te halen om de spoorbrug naast de pont te redden.\n\nLet op:\n- het uitzicht over het kanaal op de bulkterminals en voorbijvarende zeeschepen\n- het Kissing Couple XXXL vlak ten oosten van de aanlegplaats\n- aan de Zaanse kant het oude munitieterrein Hembrug, nu met een eigen museum"
+    }
+   },
+   "summary": "A free ferry that has crossed the North Sea Canal to Zaandam day and night since 1876, today with an electric boat. Before the Coentunnel, cars often waited three quarters of an hour here; now it is a quiet bike crossing past coal heaps and ships.",
+   "body": "The ferry started in 1876, the year the North Sea Canal opened, and is the oldest way across at this spot: the railway bridge beside it came two years later. Until the Coentunnel opened on 21 June 1966, it was practically the only road link between Amsterdam and Zaandam. In 1959 it carried 5,800 cars a day, and waits of three quarters of an hour were normal, with queues backing up along the Nieuwe Hemweg. After the tunnel it became a crossing for cyclists, walkers and the lorries with dangerous goods that may not use the tunnel. The square where people wait, the *Hempontplein*, got a turbo roundabout with two cycle tunnels underneath in 2023.\n\nThe service (line F20, run by the city's transport company GVB since 2013) sails 24 hours a day, every 20 minutes, and the crossing takes about seven minutes. Walkers and cyclists ride free; cars and lorries pay. The 1930s state ferries were replaced in 2021–2022 by new electric ones. In September 1944 the skipper of the Hemponten, Hein Prinsen, who lived on the Zaandam quay, tried to win over a German guard to save the bridge next door.\n\nLook for:\n- the view down the canal to the bulk terminals and passing seagoing ships\n- the Kissing Couple XXXL just east of the landing\n- on the Zaandam side, the old Hembrug munitions site, now with its own museum"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Hembrug_(brug)"
+  ]
+ },
+ {
+  "id": "tyja3xbaylg257p6423mzrha",
+  "title": "Kissing Couple XXXL",
+  "changes": [
+   {
+    "field": "body",
+    "old": "She chose the most familiar Dutch souvenir there is: the little Delft-blue kissing couple in folk costume, a figurine made by the souvenir firm Trophee and traced back to an old photo",
+    "new": "She chose a world-famous Dutch souvenir: the little Delft-blue kissing couple, a figurine made by the souvenir firm Trophee and said to go back to an old photo",
+    "kind": "narrowed",
+    "source": "https://www.saskevandereerden.nl/kissingcouplexxxl.html; https://nl.wikipedia.org/wiki/Kissing_Couple_XXXL",
+    "evidence": "Artist: 'Het KUSSEND PAAR is lief, vrolijk, wereldberoemd en is een icoon voor Holland' (no superlative); Wikipedia: 'Dat zou dan weer terugvoeren op de foto' (hedged). Folk costume is not mentioned."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the floodlights that light them after dark",
+    "new": "- the lighting after dark",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Kissing_Couple_XXXL",
+    "evidence": "''s Avonds wordt het Kussend Paar verlicht'; the kind of lighting is not given."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Een kussend paartje van tien meter in Delfts blauw, het klassieke souvenirbeeldje op huizenformaat, aan de oever waar fietsers op de pont wachten. 's Avonds verlicht en bedoeld om gezien te worden vanaf de cruiseschepen die langsvaren.",
+     "body": "Het bekende Delfts blauwe souvenir, maar dan tien meter hoog en zo'n 6700 kilo zwaar. Via bureau Bright Up kreeg Saske van der Eerden de vraag om een blikvanger te maken: voor de fietsroute van Amsterdam naar Zaandam en de Zaanse Schans, en voor de toeristen op de cruiseschepen die hier elke dag langsvaren. Ze koos een wereldberoemd Hollands souvenir: het kussende paartje in Delfts blauw, een beeldje van souvenirbedrijf Trophee. Dat zou teruggaan op een oude foto, Grietje en Jan in Volendam, uit de collectie van het Zuiderzeemuseum.\n\nHet maken kostte een half jaar, het hele traject van eerste idee tot plaatsing bijna twee. De beelden ontstonden in een werkplaats in Hoofddorp, kwamen op 30 november 2017 op diepladers aan en werden op hun voet gehesen; op 14 december volgde de onthulling. Daarna zette de haven picknicktafels, zitplekken en laadpalen voor e-bikes op de oever, zodat je hier onderweg kunt uitrusten. Dezelfde kunstenares maakte iets verderop aan de Nieuwe Hemweg de reusachtige Berm Bunnies.\n\nLet op:\n- het paar vanaf de pont, als herkenningspunt vanaf het water\n- de verlichting na het donker\n- de picknicktafels aan hun voeten, met zicht op de Zaanse oever"
+    }
+   },
+   "body": "Saske van der Eerden was asked, through the bureau Bright Up, for an eye-catcher on the cycle route from Amsterdam to Zaandam and the Zaanse Schans, and for the tourists on the cruise ships sailing past every day. She chose a world-famous Dutch souvenir: the little Delft-blue kissing couple, a figurine made by the souvenir firm Trophee and said to go back to an old photo, *Grietje en Jan in Volendam*, in the Zuiderzeemuseum collection. Here the pair is about ten metres tall and weighs around 6,700 kilos.\n\nMaking the figures took six months, and the project from first idea to placement nearly two years. They were built in a workshop in Hoofddorp, brought in on low loaders and lifted onto their base on 30 November 2017, then unveiled on 14 December. The port then fitted out the bank with picnic tables, seats and chargers for e-bikes, so the spot works as a rest stop on the route. The same artist made the giant Berm Bunnies a little further down the Nieuwe Hemweg.\n\nLook for:\n- the couple seen from the ferry, which shows them as a landmark from the water\n- the lighting after dark\n- the picnic tables at their feet, with views of the Zaandam bank"
+  },
+  "sources_add": [
+   "https://nl.wikipedia.org/wiki/Hempontplein"
+  ]
+ },
+ {
+  "id": "u9ivyx8ulzqbuvoc67fm0cv3",
+  "title": "Hembrug (gone)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "by 1907 called the largest in Europe",
+    "new": "once called the largest swing bridge in Europe",
+    "kind": "narrowed",
+    "source": "https://meitotmei.nl/hembrug-keer-op-keer-gered-of-toch-niet/",
+    "evidence": "'Met zijn lengte van 128 meter was de Hembrug niet alleen de grootste draaibrug van Europa'; the source gives no date for the claim."
+   },
+   {
+    "field": "summary",
+    "old": "Nothing of it is left on this bank.",
+    "new": "Only a stretch of track is left on this bank.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Hembrug_(brug)",
+    "evidence": "'Daarmee is feitelijk het enige dat nu nog rest van de Hembrug een stuk spoor aan de Amsterdamse kant.'"
+   },
+   {
+    "field": "body",
+    "old": "so local historians now call the stunt a failure",
+    "new": "so one local history site now calls the stunt a failure",
+    "kind": "narrowed",
+    "source": "https://meitotmei.nl/hembrug-keer-op-keer-gered-of-toch-niet/",
+    "evidence": "Mei tot Mei (Erik Schaap): 'Hoewel er na de oorlog veel media-aandacht was voor deze stunt was die eigenlijk mislukt'; one author, not historians in general."
+   },
+   {
+    "field": "body",
+    "old": "Ships kept hitting it, the last time in 1974.",
+    "new": "Ships kept hitting it; the last big collision came in 1974.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Hembrug_(brug)",
+    "evidence": "'Na de laatste grote botsing - door het Amerikaanse kraanschip Choctaw II, op 20 oktober 1974'; smaller collisions are not dated."
+   },
+   {
+    "field": "body (Look for)",
+    "old": "- the Hempont, which crosses just west of the old bridge line",
+    "new": "- the Hempont, which crosses right beside the old bridge line",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/Ponten_over_het_Noordzeekanaal",
+    "evidence": "'Naast de Hempont lag van 1878 tot 1983 de Hembrug'; no source gives the side."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Ruim een eeuw lag hier een spoordraaibrug over het Noordzeekanaal, ooit de grootste van Europa genoemd. In 1944 lieten twee zwemmers Duitse springstof uit de middenpijler zinken; in 1928 begon hier de olympische wegrace. Aan deze oever rest alleen een stuk spoor.",
+     "body": "In de nacht van 26 op 27 september 1944 zwommen twee Zaanse waterpoloërs, Remmert Aten en Jaap Boll, naar de middenpijler van deze brug. Daar lieten ze zo'n vierhonderd dozen springstof in het kanaal zakken. De Duitsers hadden de pijler volgestouwd om de brug op te blazen zodra de geallieerden zouden doorbreken. Maar de etiketten kwamen bovendrijven, de actie werd ontdekt en de pijler snel weer gevuld; een lokale geschiedenissite noemt de stunt daarom mislukt. Er volgden meer pogingen, onder meer door de schipper van de Hempont en door een jonge vrouw die met een injectienaald water in de ontstekingskabels spoot. Hoe het ook zij: de brug kwam heel de oorlog door.\n\nDe Hembrug, genoemd naar de Hem, een oude landtong in het IJ onder Zaandam, droeg het spoor van Amsterdam naar Zaandam. De eerste draaibrug ging in 1878 open, samen met de lijn. Die stond meestal open, omdat er meer schepen dan treinen langskwamen. De groeiende scheepvaart vroeg om een veel grotere brug, naar een ontwerp van ingenieur J.W.Th. van Schaik tussen 1903 en 1907 neergezet door Duitse firma's: een draaiend deel van bijna 128 meter tussen twee vaste stukken, 11 meter doorvaarthoogte in gesloten stand en een vaargeul van 55 meter. In twee minuten zwaaide hij open. Toch bleef hij voor de haven een blok aan het been.\n\nOp 7 augustus 1928, om acht uur 's ochtends, vertrok hier de olympische wegwedstrijd voor wielrenners: een tijdrit van 168 kilometer over vlak land naar Scheveningen, gewonnen door de Deen Henry Hansen.\n\nSchepen bleven er tegenaan varen; de laatste flinke aanvaring was in 1974. In 1983 nam de Hemtunnel het over. De laatste trein reed op 27 mei, dat najaar begon de sloop en in 1985 gingen de pijlers de lucht in. Een stukje oude dijk aan deze kant lag nog overwoekerd tot 2008.\n\nLet op:\n- de Hempont, die vlak naast de oude brugas vaart\n- aan de overkant op het Hembrugterrein in Zaandam een stuk van de draaikrans, met een bord over de zwemmers\n- het goederenspoor dat ooit de brug op liep en nog altijd de Westhaven bedient"
+    }
+   },
+   "summary": "For a century a railway swing bridge crossed the North Sea Canal here, once called the largest swing bridge in Europe. In 1944 two swimmers cut German explosives from its middle pier; in 1928 the Olympic road race started at it. Only a stretch of track is left on this bank.",
+   "body": "The *Hembrug* (named after *de Hem*, an old spit of land in the IJ south of Zaandam) carried the railway from Amsterdam to Zaandam over the North Sea Canal. The first swing bridge opened with the line in 1878. Growing shipping forced a much bigger one, designed by the engineer J.W.Th. van Schaik and built by German firms in 1903–1907: a swinging span of almost 128 metres between two fixed spans, 11 metres of clearance when closed and a 55-metre channel when open. It could swing open in two minutes. Like its predecessor, which mostly stood open because ships outnumbered trains, it was an obstacle the port never stopped complaining about.\n\nOn 7 August 1928 the Olympic cycling road race, a 168-kilometre time trial on a flat course between Amsterdam and Scheveningen, started at the Hembrug at eight in the morning; the Dane Henry Hansen won it.\n\nIn September 1944 the Germans packed the middle pier with explosives, ready to blow the bridge if the Allies broke through. In the night of 26 to 27 September two Zaandam water-polo players, Remmert Aten and Jaap Boll, swam to the pier and let about four hundred boxes of explosive sink into the canal. Labels floating up gave the job away and the pier was soon refilled, so one local history site now calls the stunt a failure; other attempts followed, among them one by the Hempont's own skipper and one by a young woman who injected water into the detonator cables. Either way, the bridge came through the war intact.\n\nShips kept hitting it; the last big collision came in 1974. The Hemtunnel replaced it in 1983: the last train crossed on 27 May, demolition started that autumn and the piers were blown up in 1985. A spit of the old embankment on this side survived, overgrown, until 2008.\n\nLook for:\n- the Hempont, which crosses right beside the old bridge line\n- across the canal on the Hembrug site in Zaandam, a piece of the bridge's turning ring with a board about the swimmers\n- the goods track that once led onto the bridge, still used to serve the Westhaven"
+  },
+  "sources_add": []
+ },
+ {
+  "id": "dop1jx6jdpe8ppu4l0k0khqx",
+  "title": "PVH Campus, Danzigerkade",
+  "changes": [
+   {
+    "field": "body",
+    "old": "The top five floors are showrooms where the brands show their collections to buyers from all over Europe.",
+    "new": "It houses showrooms where the brands show their collections to clients from all over Europe.",
+    "kind": "narrowed",
+    "source": "https://mvsa-architects.com/en/projects/pvh-europe-hq/",
+    "evidence": "MVSA: the HQ is 'the place where the brand showcases its collections and welcomes clients from all over Europe' and houses showrooms. The sentence 'the top five storeys of the building are used as showrooms' sits in MVSA's paragraph on the third building, so it is unclear which building it describes."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Drie kantoorgebouwen van één architect op de kop van de Danzigerkade, het Europese thuis van Tommy Hilfiger en Calvin Klein. Een witte scheepsboeg, een grijze 'waterval' en een zwart blok vol golven, met glazen loopbruggen ertussen, op een oude houthaven.",
+     "body": "Het witte gebouw hangt een tikje voorover boven het water, zoals een scheepsboeg, en met zijn 50 meter is het twee keer zo hoog als al het andere op de kade.\n\nDe Houthavens werden in 1876 gegraven, samen met het Noordzeekanaal, om hout te lossen en op te slaan. Na de Tweede Wereldoorlog ging het hout over de weg, de zijhavens werden dichtgegooid en de nieuwe straten kregen namen van oude handelssteden aan de Oostzee, Noordzee en Witte Zee. Danzig, nu Gdańsk, leverde de naam van deze kade. Sinds 2010 bouwt de stad hier een nieuwe wijk met woningen en kantoren.\n\nOp de uiterste punt zette PVH Europe, het moederbedrijf van Tommy Hilfiger en Calvin Klein, zijn Europese hoofdkantoor neer, samen met ontwikkelaar Heren 2 en MVSA Architects (projectarchitect Wouter Thijssen). Het eerste gebouw, Porcellis, kwam in 2016 af: twaalf lagen wit aluminium en glas, met een luifel die zo'n zeven meter richting de haven steekt. Binnen zijn showrooms waar de merken hun collecties tonen aan klanten uit heel Europa.\n\nIn 2019 maakte hetzelfde team de campus af met twee gebouwen, elk een eigen kijk op water. Het lage middelste (Danzigerkade 125) is een 'waterval': vier verdiepingen in golvende grijze banden van meer dan 500 verschillende panelen, als lagen gesteente. Het derde, zo'n tien verdiepingen, is zwart, met grillige lijsten op de glasgevel die aan rollende golven doen denken en grote glazen erkers die het IJ inlijsten. Eén gebogen ruit weegt ruim 1200 kilo; slechts één fabriek in Europa had een oven waar hij in paste. Vanaf het water gezien verloopt de rij van wit via grijs naar zwart en van scherpe hoeken naar zachte rondingen.\n\nLet op:\n- de overhellende witte boeg en zijn lange luifel boven de haven\n- de glazen loopbruggen tussen de drie gebouwen\n- het kleurverloop van wit naar zwart, het best te zien vanaf de overkant van de Minervahaven\n- de onregelmatige golflijsten op het zwarte gebouw\n\nZie ook: Pontsteiger, Silodam en Zen Mast verderop langs de Houthavens."
+    }
+   },
+   "body": "The Houthavens (timber harbours) were dug in 1876, together with the North Sea Canal, to unload and store timber. When the wood moved to the roads after the Second World War the side basins were filled in, and the new streets were named after old trading cities on the Baltic, North and White Seas: Danzig (Gdańsk) gave this quay its name. Since 2010 the city has been turning the area into a new district of homes and offices.\n\nAt the very tip of the Danzigerkade, PVH Europe, the parent company of Tommy Hilfiger and Calvin Klein, built its European headquarters with the developer Heren 2 and MVSA Architects (project architect Wouter Thijssen). The first building, known as Porcellis, was finished in 2016: twelve storeys of white aluminium and glass that lean slightly over the water like the bow of a ship, with a canopy reaching about seven metres towards the harbour. At 50 metres it is twice as tall as anything else on the quay. It houses showrooms where the brands show their collections to clients from all over Europe.\n\nTwo more buildings by the same team completed the campus in 2019, each a different reading of water. The low middle one (Danzigerkade 125) is a \"waterfall\": four storeys wrapped in flowing grey bands made of more than 500 different panels, like layers of rock. The third, about ten storeys high, is black, with sculptural strips on its glass front that suggest moving waves and big glass bays that frame the IJ; one curved pane weighs over 1,200 kg, and only one factory in Europe had a kiln large enough to bend it. Seen from the water, the row shades from white to grey to black and from sharp angles to soft curves.\n\nLook for:\n- the leaning white prow and its long canopy over the harbour\n- the glass footbridges that link the three buildings\n- the colour run from white to black, best seen from across the Minervahaven\n- the irregular wave strips on the black building\n\nSee also: Pontsteiger, Silodam and Zen Mast further east along the Houthavens."
+  },
+  "sources_add": []
+ },
+ {
+  "id": "w9dajbfuqed33icav0y7ykun",
+  "title": "Coal and bulk mountains (HES Bulk Terminal)",
+  "changes": [
+   {
+    "field": "summary",
+    "old": "Black hills of coal and grey heaps of ore and scrap, piled on the 70-hectare terminal that started in 1954 as the city's own coal-and-ore port.",
+    "new": "Black hills of coal and heaps of other bulk such as minerals and scrap, piled on the 70-hectare terminal that started in 1954 as a coal-and-ore port set up by the city with private firms.",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/OBA_Bulk_Terminal_Amsterdam; https://www.hesinternational.eu/en/terminals/amsterdam",
+    "evidence": "HES handles 'agribulk, minerals, biomass, steel scrap and coal' (ore is not listed today); Wikipedia: OBA was 'het resultaat van de samenwerking tussen de gemeente en een aantal particuliere bedrijven'."
+   },
+   {
+    "field": "body",
+    "old": "at its peak handled some 13 million tonnes of ore a year",
+    "new": "at its peak handled some 13 million tonnes of iron ore",
+    "kind": "narrowed",
+    "source": "https://nl.wikipedia.org/wiki/OBA_Bulk_Terminal_Amsterdam",
+    "evidence": "'Op het hoogtepunt werd zo'n 13 miljoen ton ijzererts overgeslagen'; the period is not given."
+   },
+   {
+    "field": "body",
+    "old": "shifting to grain and other farm bulk",
+    "new": "shifting to farm bulk",
+    "kind": "narrowed",
+    "source": "https://www.hesinternational.eu/en/terminals/amsterdam",
+    "evidence": "HES lists 'agribulk'; grain is not named."
+   }
+  ],
+  "patch": {
+   "translations": {
+    "nl": {
+     "summary": "Zwarte bergen steenkool naast hopen andere bulk zoals mineralen en schroot, op een terminal van 70 hectare die in 1954 begon als kolen- en ertshaven van stad en bedrijfsleven. Te zien vanaf het fietspad langs de Hemweg en vanaf de pont; in 2030 wil de haven van de kolen af.",
+     "body": "Deze zwarte heuvels hebben een houdbaarheidsdatum: vanaf 2030 wil de haven geen steenkool meer overslaan.\n\nOp 11 oktober 1954 richtte de stad, samen met rederijen, de werven van ADM en NDSM en de Hoogovens, het Overslagbedrijf Amsterdam (OBA) op. Het moest een deel binnenhalen van de kolen en het ijzererts die over het nieuwe Amsterdam-Rijnkanaal naar de Duitse staalfabrieken gingen. In juli 1956 ging het van start naast de Ford-fabriek, met drie brugkranen. De Rotterdamse burgemeester vond het een 'onnatuurlijk' bedrijf, dat alleen op subsidie overeind bleef. Toen Ford sloot, nam OBA de grond over en kocht een laadbrug met een overspanning van 85 meter, een van de grootste ter wereld. Op het hoogtepunt ging er zo'n 13 miljoen ton ijzererts doorheen.\n\nVanaf de jaren negentig voerde een transportband van 1100 meter de kolen van deze bergen rechtstreeks naar de Hemwegcentrale. Dat was 15 tot 20 procent van het werk van OBA, en dat verdween toen de centrale in 2019 dichtging; de band langs de Hemweg is in 2023-2024 gesloopt. Onder de naam HES Bulk Terminal Amsterdam liggen hier nog altijd kolen, maar het bedrijf schuift op naar landbouwbulk, mineralen, biomassa en schroot. De zwarte heuvels leven dus op geleende tijd.\n\nHet terrein is afgesloten. Kijken kan het best vanaf het fietspad langs de Hemweg, onderdeel van de bewegwijzerde Hemhavenroute van de haven, en vanaf het dek van de Hempont.\n\nLet op:\n- de donkere kolenbergen naast lichtere hopen andere bulk\n- de enorme brugkranen langs de kade van de Westhaven\n- bulkschepen die worden gelost, het best te zien vanaf de pont"
+    }
+   },
+   "summary": "Black hills of coal and heaps of other bulk such as minerals and scrap, piled on the 70-hectare terminal that started in 1954 as a coal-and-ore port set up by the city with private firms. You see them from the Hemweg cycle path and the ferry; the port wants the coal gone by 2030.",
+   "body": "The *Overslagbedrijf Amsterdam* (OBA, \"Amsterdam transhipment company\") was set up on 11 October 1954 by the city together with shipping lines, the ADM and NDSM shipyards and the Hoogovens steelworks, to grab a share of the coal and iron ore going up the new Amsterdam–Rhine Canal to German steel mills. It opened in July 1956 beside the Ford factory with three bridge cranes; Rotterdam's mayor called it an \"unnatural\" business that only survived on subsidy. When Ford closed, OBA took the land and bought an 85-metre-span loading bridge, one of the largest in the world, and at its peak handled some 13 million tonnes of iron ore.\n\nFrom the 1990s a 1,100-metre conveyor belt carried coal straight from these heaps to the Hemweg power station. That was 15 to 20 percent of OBA's trade, lost when the station shut in 2019; the belt along the Hemweg was demolished in 2023–2024. The terminal, now run as HES Bulk Terminal Amsterdam, still stores coal but has been shifting to farm bulk, minerals, biomass and scrap. Port of Amsterdam aims to stop handling coal by 2030, so the black hills are a landscape on borrowed time.\n\nThe terminal is fenced. The best views are from the Hemweg cycle path, part of the port's signposted Hemhaven cycle route, and from the deck of the Hempont.\n\nLook for:\n- the dark coal hills next to lighter heaps of other bulk goods\n- the giant gantry cranes along the Westhaven quay\n- bulk carriers being unloaded, best seen from the ferry"
+  },
+  "sources_add": [
+   "https://www.hesinternational.eu/en/terminals/amsterdam"
+  ]
+ }
+]

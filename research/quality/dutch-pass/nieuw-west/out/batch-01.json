@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "td1lld142t7ri8wqj3g8s89v",
+    "title": "Rust en Vrede farm",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Van Bodegraven, a widower with young children, died the next year at 48",
+        "new": "Van Bodegraven, a widower with children, died the next year at 48",
+        "kind": "narrowed",
+        "source": "https://amsterdamopdekaart.nl/1850-1940/Osdorperweg/614",
+        "evidence": "'woonde hier al geruime tijd, met de kinderen van zijn in 1925 in het kraambed overleden vrouw' (their age in 1934 is not given)"
+      },
+      {
+        "field": "body",
+        "old": "The register praises the house for its rare intactness",
+        "new": "The register praises the house for its high degree of intactness",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/3c374fa8-aae2-4592-96cb-67e86da5a5be",
+        "evidence": "'Met name het woonhuis bezit een hoge mate van authenticiteit' (no claim that this is rare)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Veehouder Jacobus van Bodegraven liet in 1934 een nieuwe boerderij bouwen aan de Osdorperweg en stierf een jaar later. Het sobere huis is binnen bijna ongerept, met stucplafonds tot op zolder, een koestal met gietijzeren ramen, een betonnen put en oude fruitbomen.",
+          "body": "Een jaar nadat zijn nieuwe huis klaar was, stierf veehouder Jacobus van Bodegraven, 48 jaar oud. Hij was weduwnaar met kinderen. De familie boerde door, en Rust en Vrede is nog altijd een boerenbedrijf.\n\nDe Osdorperweg was ooit een veendijk, die ook het water van de Haarlemmermeer moest keren. Tot na de Tweede Wereldoorlog stond hier boerderij na boerderij; de meeste zijn weg. Rust en Vrede hoort bij de jongere overlevers. Van Bodegraven huurde het erf en liet in 1934 de negentiende-eeuwse boerderij slopen. Er kwam een eenvoudig woonhuis voor in de plaats, evenwijdig aan de weg, met daarachter een vernieuwde bakstenen koestal en een korte gang ertussen. Aannemer H. van Steenwijk uit Sloterdijk, een bedrijf dat zich op boerderijen had toegelegd, tekende er meteen het ontwerp bij.\n\nHet monumentenregister roemt vooral hoe weinig er aan het huis veranderd is. De indeling is nog die van toen, de deuren zijn in Bruynzeelstijl met geel kathedraalglas, de stucplafonds lopen zelfs op zolder door, en twee marmeren schouwen verraden dat de woonkamer vroeger een kamer en suite was. De stal kreeg na de oorlog een nieuw dak, maar het houten draagwerk, de mestgoten en de voergangen zijn er nog.\n\nLet op:\n- het lage huis met zijn ver uitstekende houten goot en de dakkapel in het midden\n- de vijf getoogde gietijzeren stalramen in elke zijgevel van de stal\n- de fruitbomen en de betonnen waterput naast de stal"
+        }
+      },
+      "body": "Until after the Second World War a dense ribbon of farms lined the Osdorperweg, a peat dike that once also held back the Haarlemmermeer. Most are gone. Rust en Vrede (Rest and Peace) is one of the younger survivors. In 1934 the tenant, dairy farmer Jacobus van Bodegraven, had the 19th-century farmhouse replaced by a plain new house parallel to the road, with a renewed brick cow stable behind it, linked by a short passage. Contractor H. van Steenwijk of Sloterdijk, a firm specialised in farms, also supplied the design. Van Bodegraven, a widower with children, died the next year at 48; the family carried on. The place is still used as a farm.\n\nThe register praises the house for its high degree of intactness: original layout, doors in the Bruynzeel manner with yellow cathedral glass, plaster ceilings even in the attic, and two marble fireplaces that recall the former suite of rooms. The stable lost its original roof after the war but keeps its frame, manure gutters and feed passages.\n\nLook for:\n- the low house with its strongly projecting wooden gutter and central dormer\n- the five arched cast-iron stable windows along each side of the stable\n- the fruit trees and concrete well beside the stable"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "pdjbxx1gcvl9fvtgh3qc9be4",
+    "title": "De Ark (Slotervaart)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Piet Zanstra, later the architect of the Maupoleum and the Europarking",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://nl.wikipedia.org/wiki/Piet_Zanstra",
+        "evidence": "'In Amsterdam ontwierp Zanstra onder meer de Europarking ... het Burgemeester Tellegenhuis (beter bekend als het Maupoleum)'; he worked independently 1954-1966 and with partners 1966-1980"
+      },
+      {
+        "field": "body",
+        "old": "a change many saw as damaging to the monument",
+        "new": "a renovation many regard as controversial",
+        "kind": "narrowed",
+        "source": "https://www.reliwiki.nl/index.php/Amsterdam,_Van_Ollefenstraat_9_-_De_Ark",
+        "evidence": "'Die renovatie werd en wordt door velen als omstreden beschouwd'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een kerk die oprijst uit een laag buurthuis, onder een golvend schaaldak. Piet Zanstra bouwde haar in 1961; zijn dochter ontwierp de bronzen deuren met het verhaal van Noach.",
+          "body": "Een trouwe ploeg gemeenteleden ging elke maand met spaarzegels de deuren langs in Slotervaart. Zo kwam een flink deel van het geld bij elkaar, en op 12 april 1960 ging de eerste paal de grond in. Architect was Piet Zanstra, de man die later ook de Europarking en het Maupoleum zou ontwerpen.\n\nZanstra maakte er een kerk met een buurthuis omheen van. De kerkzaal, voor 255 mensen, is twee verdiepingen hoog en heeft een organisch gebogen schaaldak. Daaromheen ligt alles gelijkvloers: een zaal die er nog 190 plaatsen bij geeft, lokalen om te knutselen, een kantoortje voor de wijkverpleging en de maatschappelijk werkster, en een 'huiskamer' voor de buurt.\n\nDe hervormde gemeente vroeg twee dingen die nieuw waren in de protestantse kerkbouw: het gebouw moest ook doordeweeks open kunnen, en er moest een kleine bidkapel in. Waar die zit, zie je aan een bult in het dak. Zes ramen in de oostgevel vertellen het scheppingsverhaal. Die in de kerkzaal zijn vervangen, het raam in de kapel is nog het oude. Op de losse stalen klokkenstoel staat een kruis.\n\nIn 2015 ging de westgevel eraf om ruimte te maken voor twaalf woningen, om de kerk extra inkomsten te bezorgen. De rest werd in 2015 en 2016 verbouwd, wat velen nog steeds omstreden vinden. De Ark is nog altijd protestantse kerk en buurthuis tegelijk.\n\nLet op:\n- de bronzen voordeuren van Irene Lopez-Zanstra, met vier taferelen uit het verhaal van Noach: de bouw van de ark, de dieren die naar binnen trekken, de duif met het takje en het dankoffer\n- de gebogen daken die oprijzen uit de platte, glazen onderbouw\n- de open stalen klokkentoren op vier poten, in de as van de ingang"
+        }
+      },
+      "body": "Slotervaart's Dutch Reformed congregation raised much of the money itself: a loyal group went door to door every month collecting savings stamps, until the first pile went in on 12 April 1960. Piet Zanstra, later the architect of the Maupoleum and the Europarking, designed the church as a building of two kinds. The church hall, for 255 people, rises two storeys under an organic shell roof; around it, on one floor, lie a side hall that adds 190 seats, craft rooms, an office for the district nurse and the social worker, and a \"living room\" for the neighbourhood.\n\nTwo requests from the church were new for Protestant church building: the building had to be open on weekdays, and it needed a small prayer chapel, whose spot is marked by a bulge in the roof. Six windows in the east wall tell the creation story; the hall windows have been replaced, the one in the chapel is original. The free-standing steel bell frame carries a cross.\n\nIn 2015 the western facade was demolished to make room for twelve homes, to earn the church extra income, and the rest was renovated in 2015–2016, a renovation many regard as controversial. De Ark still serves as a Protestant church and neighbourhood centre.\n\nLook for:\n- the bronze entrance doors by Irene Lopez-Zanstra, with four scenes from Noah: building the ark, the animals going in, the dove with a twig and the thank offering;\n- the curved roof volumes rising from the flat, glazed lower ring;\n- the open steel bell tower on four legs, standing on the axis of the entrance."
+    },
+    "sources_add": [
+      "https://nl.wikipedia.org/wiki/Piet_Zanstra"
+    ]
+  },
+  {
+    "id": "mtqdcwfq6fksfnxrywilit87",
+    "title": "Sloterhof tower",
+    "changes": [
+      {
+        "field": "body",
+        "old": "At about 47 metres it was by far the tallest building in the area",
+        "new": "It was by far the tallest building in the area",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Hemsterhuisstraat_145-241",
+        "evidence": "No source gives a height in metres; Wikipedia: 'veruit het hoogste gebouw in de buurt'"
+      },
+      {
+        "field": "body",
+        "old": "The rest of the complex is long slabs set at right angles to the Comeniusstraat",
+        "new": "The rest of the complex is mostly long slabs set at right angles to the Comeniusstraat",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Hemsterhuisstraat_145-241",
+        "evidence": "'Die flats staan meest langgerekt dwars op die straat'"
+      },
+      {
+        "field": "body",
+        "old": "The prefab system had its weak points: by 1966 the walls let in rain in strong winds.",
+        "new": "Problems came soon: by 1966 the facades let in rain in strong winds.",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Hemsterhuisstraat_145-241",
+        "evidence": "'Vrijwel direct (1966) lekten de gevels bij harde wind met regen'; no source blames the prefab system"
+      },
+      {
+        "field": "body",
+        "old": "Tenants complained to Nemavo with no result, and in 1967 the city's building inspectors ordered the cladding to be replaced",
+        "new": "Tenants complained to Nemavo first, but it got so bad that the city's building inspectors were called in, and they ordered the cladding to be replaced",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Hemsterhuisstraat_145-241",
+        "evidence": "'Diverse huurders klaagden eerst bij de exploitant Nemavo, maar de situatie werd dermate erg dat Bouw- en Woningtoezicht werd ingeschakeld. Deze sommeerde dat de gevelbeplating vervangen moest worden'; the year of the order is not given"
+      },
+      {
+        "field": "summary",
+        "old": "within a few years the prefab walls were leaking",
+        "new": "within a few years the facades were leaking",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Hemsterhuisstraat_145-241",
+        "evidence": "'Vrijwel direct (1966) lekten de gevels'"
+      },
+      {
+        "field": "body",
+        "old": "the canopy itself, the tower's most striking detail",
+        "new": "the canopy itself, a striking detail",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Hemsterhuisstraat_145-241",
+        "evidence": "'Opvallend is voorts de luifel' (no superlative)"
+      },
+      {
+        "field": "body",
+        "old": "the sgraffito by Jan Goeting at the entrance under the canopy (1960)",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst",
+        "evidence": "City wall-art dataset: Techniek Sgraffito, Kunstenaar Jan Goeting, Jaartal 1960, Adres_gebouw Hemsterhuisstraat 145"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twaalf woonlagen op een bijna vierkant grondvlak, in 1960 veruit het hoogste gebouw van de buurt. Onder de luifel zit een sgraffito van Jan Goeting. Een paar jaar na de oplevering lekten de gevels al bij harde wind.",
+          "body": "Wie hier in 1966 woonde, liet bij storm het tapijt maar opgerold liggen: bij harde wind kwam de regen door de gevels heen. De huurders klaagden eerst bij verhuurder Nemavo. Maar het werd zo erg dat Bouw- en Woningtoezicht erbij werd gehaald, en die eiste nieuwe gevelplaten.\n\nDe toren is het westelijke slot van de Sloterhof, het complex dat Jo Berghoef in 1958-1960 voor Nemavo uit prefab onderdelen liet optrekken. De overige flats zijn grotendeels lange blokken, dwars op de Comeniusstraat. Deze staat apart, op een bijna vierkante plattegrond: beneden bergingen, daarboven twaalf woonverdiepingen. Bij de oplevering stak hij ver uit boven alles in de omtrek, en in de reclame voor de flats werd het uitzicht uitgespeeld. Hij kreeg zelfs een eigen adres, aan de Hemsterhuisstraat. Aan de noordwestkant kijk je uit over de Sloterplas.\n\nOok van buiten is hij anders dan de rest. De steen is donkerder dan bij de lage portiekflats, witte verticale stroken markeren de balkons en op elke verdiepingsvloer loopt een witte band.\n\nLet op:\n- het sgraffito van Jan Goeting bij de ingang onder de luifel (1960)\n- de luifel zelf, een opvallend detail\n- het witte raster van balkonstroken en verdiepingsbanden tegen de donkere panelen"
+        }
+      },
+      "summary": "Twelve floors of flats that closed off the Sloterhof to the west and, in 1960, towered over everything around. Under the entrance canopy is a sgraffito by Jan Goeting; within a few years the facades were leaking.",
+      "body": "The tower is the western full stop of the Sloterhof, Jo Berghoef's ensemble of prefab flats for the Nemavo company, finished in 1958–1960. The rest of the complex is mostly long slabs set at right angles to the Comeniusstraat; this one stands alone on a near-square plan, with storage rooms on the ground floor and twelve floors of flats above. It was by far the tallest building in the area, and the view was used to advertise the flats. It even got its own address, on the Hemsterhuisstraat. Tenants on the north-west side look out over the Sloterplas.\n\nThe tower is clad in a darker stone than the walk-up blocks, with white vertical strips that pick out the balconies and white bands at each floor. Problems came soon: by 1966 the facades let in rain in strong winds. Tenants complained to Nemavo first, but it got so bad that the city's building inspectors were called in, and they ordered the cladding to be replaced so that people no longer had to live with their carpets rolled up.\n\nLook for:\n- the sgraffito by Jan Goeting at the entrance under the canopy (1960);\n- the canopy itself, a striking detail;\n- the white grid of balcony strips and floor bands against the darker panels."
+    },
+    "sources_add": [
+      "https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=WANDKUNST&THEMA=wandkunst"
+    ]
+  },
+  {
+    "id": "ecl8edo054hznxmnjurkimh2",
+    "title": "Brug 604",
+    "changes": [
+      {
+        "field": "body",
+        "old": "gave Amsterdam hundreds of bridges as the aesthetic designer of the Public Works department",
+        "new": "shaped a great many Amsterdam bridges as the aesthetic designer of the Public Works department",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/5af925d3-e003-43e5-8735-f387bc67e517",
+        "evidence": "'ontwierp hij de esthetische verzorging van de vele in Amsterdam onmisbare bruggen ... Zo ontstond een zeer rijk oeuvre' (no number given)"
+      },
+      {
+        "field": "body",
+        "old": "Stairs take pedestrians from the water up to the street",
+        "new": "Stairs take pedestrians up to the street",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/5af925d3-e003-43e5-8735-f387bc67e517",
+        "evidence": "The route comes from the Johan Broedeletsstraat and 'voert ... omhoog via een trap naar het niveau van de Röellstraat'; the landings by the water are separate"
+      },
+      {
+        "field": "body",
+        "old": "a stone cone that was, to the bridge department's dismay, polished",
+        "new": "a stone cone that was polished, though the bridge department never used polished stone",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/5af925d3-e003-43e5-8735-f387bc67e517",
+        "evidence": "'een kegel, die helaas gepolijst is. De Afdeling bruggen gebruikte nooit gepolijste steen' (the regret is the register author's, not the department's)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een van de laatste bruggen van Piet Kramer, bedoeld als statige poort naar de tuinsteden: pergola's, blokken natuursteen, beelden van Jan Meefout en een urinoir in het landhoofd, met een prachtig gemetseld trapje ernaartoe.",
+          "body": "In het noordelijke landhoofd van deze brug zit een urinoir. Het trapje ernaartoe noemt de monumentenbeschrijving 'een schitterend staaltje vakmanschap' van de metselaars.\n\nPiet Kramer (1881-1961), een van de pioniers van de Amsterdamse School, gaf als esthetisch ontwerper bij Publieke Werken een hele reeks Amsterdamse bruggen hun gezicht. Brug 604 uit 1953-1954, die de Burgemeester Röellstraat over de Burgemeester Cramergracht voert, kwam vlak voor zijn pensioen, als een van de laatste. Samen met de vier flats eromheen moest hij een statige poort naar Nieuw-West vormen. Zo ontmoetten het modernistische stadsplan van Van Eesteren en het baksteenambacht van Kramer elkaar, een opmerkelijke combinatie.\n\nWie te voet naar de Sloterplas loopt, gaat met een trap omhoog naar de straat en aan de overkant weer naar beneden. Aan beide kanten kun je ook afdalen naar een bordes vlak boven het water. De beelden kwamen dit keer niet van Hildo Krop, de vaste beeldhouwer bij Kramers bruggen, maar van Jan Meefout. Bij de oostelijke trappen staan een man en een vrouw (noord) en een gezin met kind (zuid). In 1987 voegde Rob Schreefel er sierstenen aan toe. Door de pergola's heette de brug in de volksmond Bananenbrug, tot de gemeente in 2016 die bijnaam schrapte, samen met andere onofficiële brugnamen.\n\nLet op:\n- de drie grote blokken natuursteen op elke hoek, waar het brugdek op lijkt te rusten\n- de smeedijzeren leuningen van Kramer tussen de bakstenen borstweringen, en aan beide kanten een jaartalsteen\n- de twee pergola's op bakstenen kolommen, waarvan er een bedoeld is om met bruidssluier te begroeien\n- in het noordwestelijke landhoofd het ingebouwde urinoir, met het fraai gemetselde trapje ernaartoe\n- twee kwartronde banken aan de westkant, en een stenen kegel die gepolijst werd, terwijl de afdeling Bruggen nooit gepolijste steen gebruikte"
+        }
+      },
+      "body": "Piet Kramer (1881–1961), a pioneer of the Amsterdam School, shaped a great many Amsterdam bridges as the aesthetic designer of the Public Works department. Number 604 (1953–1954), carrying the Burgemeester Röellstraat over the Burgemeester Cramergracht, was one of his last before retirement. With the four flats around it, it was designed as a monumental entrance to Nieuw-West, an unusual meeting of Van Eesteren's modernist town plan and Kramer's brick craftsmanship.\n\nStairs take pedestrians up to the street and down again on their way to the Sloterplas, and small landings sit just above the water. Instead of Kramer's usual sculptor Hildo Krop, Jan Meefout carved the figures by the east stairs: a man and woman (north) and a family with a child (south). In 1987 Rob Schreefel added decorative stones. The pergolas earned the bridge the nickname Bananenbrug, which the city dropped in 2016 along with other unofficial bridge names.\n\nLook for:\n- three big natural-stone blocks on each corner, on which the deck seems to rest\n- Kramer's wrought-iron railings between the brick parapets, and a date stone on both sides\n- the two pergolas on brick columns, one meant to be overgrown with bridal veil\n- on the north-west abutment a urinal set into the bridge, reached by a beautifully bricked stair\n- two quarter-round benches on the west side, and a stone cone that was polished, though the bridge department never used polished stone"
+    },
+    "sources_add": [
+      "https://nl.wikipedia.org/wiki/Burgemeester_Cramergracht"
+    ]
+  },
+  {
+    "id": "vo5uhq8vwbma11i2126gy3s9",
+    "title": "Street Art Museum Amsterdam (SAMA)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "some 300 murals by street-art pioneers such as Stinkfish, El Pez and Bastardilla have turned the walk-up flats of Slotermeer and Geuzenveld into an open-air collection",
+        "new": "more than 300 works by renowned street artists such as Stinkfish, El Pez and Bastardilla have turned the walls of Slotermeer, Geuzenveld and the rest of Nieuw-West into an open-air collection",
+        "kind": "narrowed",
+        "source": "https://www.streetartmuseumamsterdam.com/",
+        "evidence": "'SAMA collection, est. 2012, boasts over 300 street art works varying from small pieces to monumental murals'; Rodi: 'gerenommeerde streetartkunstenaars'; nothing calls them pioneers or limits the works to walk-up flats (ORA: 'Op kale muren, elektriciteitskastjes, pilaren, rolluiken')"
+      },
+      {
+        "field": "body",
+        "old": "Anna Stolyarova, who lived in Nieuw-West, was tired of reading only negative stories about the district.",
+        "new": "Anna Stolyarova, who lived in Nieuw-West, started it in reaction to negative reports about the district.",
+        "kind": "narrowed",
+        "source": "https://www.aicanederland.org/street-art-museum-amsterdam-de-straat-als-tentoonstellingsruimte/",
+        "evidence": "'toen Anna Stolyarova, inwoonster van Amsterdam Nieuw-West, hiertoe het initiatief nam als reactie op negatieve berichten over de buurt'"
+      },
+      {
+        "field": "body",
+        "old": "walls where ordinary people, not galleries or brands, would see the work",
+        "new": "walls where 'real' people could see street art, away from commercial use",
+        "kind": "narrowed",
+        "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/491500/strijd-tegen-sloop-en-verwering-straatkunst-nieuw-west-bewaard",
+        "evidence": "'plekken aan te wijzen waar echte mensen straatkunst kunnen bewonderen. Waar het niet wordt toegeëigend voor commerciële doeleinden' (galleries not mentioned)"
+      },
+      {
+        "field": "body",
+        "old": "The foundation followed in 2012.",
+        "new": "The museum followed in 2012.",
+        "kind": "narrowed",
+        "source": "https://www.streetartmuseumamsterdam.com/",
+        "evidence": "'SAMA collection, est. 2012'; no source dates a foundation"
+      },
+      {
+        "field": "body",
+        "old": "about 300 pieces, from a 150 m² Stinkfish to a 10 cm woodblock by the local Bunny Brigade",
+        "new": "more than 300 pieces, from a 150 m² mural to paintings on wood just 10 cm across",
+        "kind": "narrowed",
+        "source": "https://openresearch.amsterdam/nl/page/32199/street-art-museum-amsterdam",
+        "evidence": "'van een 150 vierkante meter grote muurschildering tot 10 cm kleine houtschilderijtjes' (no artists named for either); SAMA: 'over 300 street art works'"
+      },
+      {
+        "field": "body",
+        "old": "El Pez, Bastardilla, Btoy, Suso33, Orticanoodles, Kenor",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://www.streetartmuseumamsterdam.com/about-us",
+        "evidence": "'worldwide acclaimed street artists such as El Pez, Bastardilla, Stinkfish, Orticanoodles, Btoy, Kenor, Suso33 and Lunar'"
+      },
+      {
+        "field": "body",
+        "old": "many walls were made with the people who live behind them",
+        "new": "what goes on a wall is often decided with the residents",
+        "kind": "narrowed",
+        "source": "https://www.aicanederland.org/street-art-museum-amsterdam-de-straat-als-tentoonstellingsruimte/",
+        "evidence": "'In overleg met de buurtbewoners wordt bepaald wat afgebeeld gaat worden'"
+      },
+      {
+        "field": "body",
+        "old": "Self-guided routes are free in the izi.travel app; groups can book a guided tour.",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://www.streetartmuseumamsterdam.com/tour",
+        "evidence": "'You can visit our collection for FREE any time using IZI.travel App'; 'For groups of 10+ participants we provide curated guided tour'"
+      },
+      {
+        "field": "body",
+        "old": "*Glory*, a towering variant of Vermeer's *Milkmaid* by El Pez and Recall",
+        "new": "*Glory*, a towering variant of Vermeer's *Milkmaid* by El Pez and Danny Recal",
+        "kind": "sourced",
+        "source": "https://stadscuratorium.nl/wp-content/uploads/2025/11/SCA_STAD-ALS-CANVAS_20251124.pdf",
+        "evidence": "'Glory (2014) van Danny Recal (artiestennaam van Daniël Oosterman) en El Pez ... geïnspireerd op het Melkmeisje van Johannes Vermeer' (artist's name corrected to Recal)"
+      },
+      {
+        "field": "body",
+        "old": "(a nod to the reptile shop below), now badly faded",
+        "new": "(a nod to the reptile shop next door), now faded",
+        "kind": "narrowed",
+        "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/491500/strijd-tegen-sloop-en-verwering-straatkunst-nieuw-west-bewaard",
+        "evidence": "'Rinus Massee van de reptielenzaak naast het kunstwerk ... Dat was een leuke verwijzing naar onze winkel'; 'dat het werk inmiddels is vervaagd'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een museum zonder gebouw. Sinds 2012 hangt SAMA zijn collectie aan de muren van Slotermeer, Geuzenveld en de rest van Nieuw-West: inmiddels ruim 300 werken, van gerenommeerde namen als Stinkfish, El Pez en Bastardilla.",
+          "body": "Het begon als het antwoord van één bewoonster op de slechte berichten over haar stadsdeel. Anna Stolyarova woonde zelf in Nieuw-West. In 2011 liep ze er rond met de Colombiaanse kunstenaar Stinkfish, die ze nu de 'godfather' van het museum noemt. Hij vroeg haar muren aan te wijzen waar 'echte' mensen straatkunst konden zien, zonder dat iemand er commercieel mee aan de haal ging. In 2012 volgde het museum.\n\nInmiddels telt de collectie ruim 300 stukken, van een schildering van 150 vierkante meter tot houten werkjes van 10 centimeter breed. Internationale namen als El Pez, Bastardilla, Btoy, Suso33, Orticanoodles en Kenor staan naast makers uit Nieuw-West zelf. Alles hangt buiten en kost niets, en wat er op een muur komt, wordt vaak samen met de bewoners besloten. Het kantoor zit in de Dichtersbuurt in Slotermeer.\n\nPrecies die buurt gaat nu op de schop, en met de huizen verdwijnen ook de schilderingen. Daarom bouwde SAMA het Digital Street Art Depot: haarscherpe scans, video-interviews met bewoners en een virtual-reality-bril, zodat je ook na de sloop nog voor een muur kunt staan. Wie zelf wil rondlopen, vindt gratis routes in de app izi.travel; groepen kunnen een rondleiding boeken.\n\nLet op:\n- *Smile* van Stinkfish (2013) op een muur van de oude Burgemeester De Vlugtschool, geschilderd terwijl de leerlingen toekeken; de nieuwe school ernaast kijkt er nu op uit\n- *Glory*, een metershoge variant op Vermeers *Melkmeisje* door El Pez en Danny Recal, in Slotermeer\n- *Tolerance* van Alaniz (2012) aan de Burgemeester Fockstraat: een vrouw die borstvoeding geeft, met slangen (een knipoog naar de reptielenzaak ernaast), inmiddels verbleekt"
+        }
+      },
+      "summary": "A museum with no building: since 2012 more than 300 works by renowned street artists such as Stinkfish, El Pez and Bastardilla have turned the walls of Slotermeer, Geuzenveld and the rest of Nieuw-West into an open-air collection.",
+      "body": "The Street Art Museum Amsterdam began as one resident's answer to bad press. Anna Stolyarova, who lived in Nieuw-West, started it in reaction to negative reports about the district. In 2011 she walked the streets with the Colombian artist Stinkfish, whom she calls the museum's \"godfather\"; he asked her to point out walls where 'real' people could see street art, away from commercial use. The museum followed in 2012.\n\nSince then the collection has grown to more than 300 pieces, from a 150 m² mural to paintings on wood just 10 cm across, with international names (El Pez, Bastardilla, Btoy, Suso33, Orticanoodles, Kenor) next to Nieuw-West artists. Everything is outdoors and free, and what goes on a wall is often decided with the residents. The office sits in the Dichtersbuurt (poets' quarter) of Slotermeer.\n\nThat same neighbourhood is now being renewed, and demolition takes murals with it. SAMA's answer is the Digital Street Art Depot: high-resolution scans, video interviews with residents and a virtual-reality viewer, so that a wall can be revisited after it has gone. Self-guided routes are free in the izi.travel app; groups can book a guided tour.\n\nLook for:\n- *Smile* by Stinkfish (2013) on a wall of the old Burgemeester De Vlugtschool, painted while pupils watched; the school's new building now looks out on it;\n- *Glory*, a towering variant of Vermeer's *Milkmaid* by El Pez and Danny Recal, in Slotermeer;\n- *Tolerance* by Alaniz (2012) on the Burgemeester Fockstraat, a breastfeeding woman with snakes (a nod to the reptile shop next door), now faded."
+    },
+    "sources_add": [
+      "https://www.streetartmuseumamsterdam.com/about-us",
+      "https://www.streetartmuseumamsterdam.com/tour",
+      "https://stadscuratorium.nl/wp-content/uploads/2025/11/SCA_STAD-ALS-CANVAS_20251124.pdf"
+    ]
+  },
+  {
+    "id": "ggfqlz01fp9n1oz18x45lz4h",
+    "title": "Banpaal of Sloten",
+    "changes": [
+      {
+        "field": "body",
+        "old": "A fourth, the 1624 post on the road to Haarlem, survives as a stump close to its old spot (see Banpaal Spaarnwouderdijk).",
+        "new": "A fourth, from the dike road to Haarlem, disappeared in 1867; its surviving parts were restored and put back in 2006 on a remnant of the old dike near Halfweg (see Banpaal Spaarnwouderdijk).",
+        "kind": "narrowed",
+        "source": "https://slotenoudosdorp.nl/de-banpaal-van-sloten/",
+        "evidence": "'Ook langs de Spaarndammerdijk, tussen Sloterdijk en Halfweg, stond een banpaal. Deze is in 1867 daar verdwenen, doch onderdelen daarvan bleven bewaard ... In 2006 zijn deze bewaarde delen na restauratie weer teruggeplaatst op een klein bewaard gebleven restant van de Spaarndammerdijk, nabij het Boezemgemaal Halfweg' (no 1624 date and no 'stump' in the sources here)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Tot hier en niet verder: wie uit Amsterdam verbannen was, mocht deze zandstenen obelisk uit 1794 niet voorbij. Hij markeert waar het rechtsgebied van de stad ophield, met het stadswapen en de tekst 'Terminus Proscriptionis'.",
+          "body": "Een balling uit Amsterdam deed er goed aan hier om te keren. Deze kleine obelisk van zandsteen op een bakstenen voet, wat weggedoken tussen de huizen van de Sloterweg, is een banpaal. Hij gaf de buitengrens aan van de Amsterdamse ban, het gebied waar de rechters van de stad het voor het zeggen hadden. Vanaf 1544 reikte dat tot een Duitse mijl, zo'n 7,4 kilometer, voorbij de stadsmuren. Wie verbannen was en toch verder kwam, riskeerde de gevangenis of erger. Vandaar de Latijnse woorden *Terminus Proscriptionis*: grens van de verbanning.\n\nAmsterdam zette zes van zulke palen langs de grote uitvalswegen. Die van Sloten kwam in 1624 op deze plek. In 1793 was hij zo vervallen dat er een nieuwe moest komen, en stadsbeeldhouwer Anthonie Ziesenis tekende de obelisk van 1794. Een jaar later kwamen de Fransen, werd heel Nederland één rechtsgebied en verloor een bangrens elke betekenis. Van de zes palen staan er nog maar drie waar ze ooit neergezet zijn; de andere twee staan in Amstelveen. Een vierde, van de dijkweg naar Haarlem, verdween in 1867. De bewaarde brokstukken staan sinds 2006 gerestaureerd op een stukje oude dijk bij Halfweg (zie Banpaal Spaarnwouderdijk). Op een prent uit 1607 zitten al wandelaars uit te rusten bij de *mijlpaal*, zoals de paal aan deze weg ook genoemd werd.\n\nLet op:\n- de drie andreaskruizen van het Amsterdamse wapen en het jaartal 1794\n- de Latijnse tekst\n- de vreemde plek van de paal, in een gat tussen de huizen, tegenover Sloterweg 1204"
+        }
+      },
+      "body": "Tucked between the houses of the Sloterweg stands a *banpaal* (ban post): a small sandstone obelisk on a brick base. It marked the outer edge of Amsterdam's *ban*, the area where the city's courts held sway. From 1544 that zone reached one German mile (about 7.4 km) beyond the city walls. People banished from Amsterdam were not allowed to come past the posts, on pain of prison or worse, hence the inscription *Terminus Proscriptionis* (limit of banishment).\n\nAmsterdam set up six such posts on its main roads. The one at Sloten was moved to this spot in 1624. By 1793 it was so decrepit that it was replaced, and the present obelisk (1794) was designed by the city sculptor Anthonie Ziesenis. A year later the French arrived, the Netherlands became one jurisdiction and bans lost their meaning. The post is one of only three of the six still standing where they were placed; the other two are in Amstelveen. A fourth, from the dike road to Haarlem, disappeared in 1867; its surviving parts were restored and put back in 2006 on a remnant of the old dike near Halfweg (see Banpaal Spaarnwouderdijk). A print dated 1607 already shows walkers resting by the *mijlpaal* (mile post), as it was also called, on this road.\n\nLook for:\n- the three St Andrew's crosses of Amsterdam's arms and the date 1794\n- the Latin inscription\n- the post's odd position in a gap between the houses, opposite Sloterweg 1204"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "vwm2d6xtbt8cuqa510ljipn4",
+    "title": "Garage Notweg",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The Belgian oil company Purfina",
+        "new": "The oil company Purfina",
+        "kind": "cut",
+        "source": "https://arcam.nl/architectuur-gids/garage-notweg/",
+        "evidence": "Client named as 'N.V. Purfina Nederland (later Fina Nederland N.V.)'; no source calls it Belgian"
+      },
+      {
+        "field": "body",
+        "old": "then came the Riva garage (Opel and Bedford), and finally Renault",
+        "new": "the Riva garage (Opel and Bedford) also used the building, and the last make sold here was Renault",
+        "kind": "narrowed",
+        "source": "https://arcam.nl/architectuur-gids/garage-notweg/",
+        "evidence": "Arcam: 'In 1967 werd de garage aan de Notweg in gebruik genomen door autobedrijf Riva'; Amsterdam op de kaart puts Riva after Volvo left in 1981. The sources disagree on the order, so the order is dropped; both agree Renault was last"
+      },
+      {
+        "field": "body",
+        "old": "a *broedplaats* (creative incubator) for small and social enterprises",
+        "new": "a *broedplaats* (creative incubator) for small businesses and foundations",
+        "kind": "narrowed",
+        "source": "https://arcam.nl/architectuur-gids/garage-notweg/",
+        "evidence": "'Kleine bedrijfjes en stichtingen huren er een ruimte'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Garage met tankstation en showroom uit de jaren zestig, gebouwd voor Fina. Er werden DAF's, Volvo's, Opels en Renaults verkocht. Hellingbaan, kanteldeuren, vlaggenmasten en 'Fina'-putdeksels zijn er nog; nu zit er een broedplaats in.",
+          "body": "In de stoep liggen nog putdeksels met 'Fina' erop. Oliemaatschappij Purfina liet deze garage tussen 1961 en 1965 bouwen naar een ontwerp van H.A.M. van den Berg: snelservice, benzinepompen, een showroom, een magazijn en kantoren, waar de Notweg begint, tegenover een strook park. Hij hoorde bij een cluster voorzieningen met scholen en winkels, en laat zien hoe planners toen de auto een vaste plek midden in de wijk gaven. Van den Berg tekende een vergelijkbare garage aan de Johan Huizingalaan.\n\nIn de showroom stonden DAF's, eerst van dealer Minerva en vanaf 1972 van de fabriek zelf, die er tweedehands auto's verkocht. Nadat DAF in 1974 zijn personenauto's aan Volvo had overgedaan, stonden hier tot 1981 Volvo's. Ook garagebedrijf Riva (Opel en Bedford) zat in het pand, en het laatste merk dat hier over de toonbank ging was Renault. In 2006 kocht woningcorporatie Ymere het gebouw om het door woningen te vervangen. Dat liep anders: het werd een bedrijfsverzamelgebouw, in 2013 grondig opgeknapt. Al sinds 2009 is het een broedplaats voor kleine bedrijfjes en stichtingen. Binnen ligt de autohelling er nog.\n\nLet op:\n- de schokbetonnen puirasters aan voor- en achterkant\n- het siermetselwerk in de zijgevels\n- de originele kanteldeuren en vlaggenmasten\n- het 'Fina'-putdeksel in de stoep"
+        }
+      },
+      "body": "The oil company Purfina had this garage built in 1961–1965 to a design by H.A.M. van den Berg: quick service, petrol pumps, a showroom, a warehouse and offices, at the head of the Notweg opposite a strip of park. It was part of a cluster of local facilities, with schools and shops, and is a reminder of how planners of the time gave the car a place inside the neighbourhood. Van den Berg built a similar garage on the Johan Huizingalaan.\n\nThe showroom sold DAFs, first through the dealer Minerva and from 1972 by the factory itself, which ran it as a used-car centre. After DAF sold its car business to Volvo in 1974, Volvos stood here until 1981; the Riva garage (Opel and Bedford) also used the building, and the last make sold here was Renault. In 2006 housing corporation Ymere bought it to replace it with housing, but it became a business centre instead, renovated by 2013. Since 2009 it has worked as a *broedplaats* (creative incubator) for small businesses and foundations.\n\nLook for:\n- the precast concrete window grids on the front and back\n- the decorative brickwork in the side walls\n- the original tilting doors and flagpoles\n- the 'Fina' manhole cover in the pavement"
+    },
+    "sources_add": [
+      "https://arcam.nl/architectuur-gids/garage-notweg/"
+    ]
+  },
+  {
+    "id": "hwsfnazcuq136yqcewtue3rt",
+    "title": "Vliegbasis De Huygens (former Dominicus Savio technical school)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "What is left of a 1968 Catholic technical school, saved from demolition and turned into a business centre",
+        "new": "What is left of a 1968 Catholic technical school, partly demolished and turned into a business centre",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/b5df5235-85b4-4e2a-892a-3cf4281d38c6",
+        "evidence": "'In de periode 2005-2007 is het oude schoolgebouw deels gesloopt en is het bewaard gebleven bouwdeel gerenoveerd'; the funda page cited for a 2003-2004 rescue only returns a bot check, so no source says it was saved from a demolition plan"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Het restant van een katholieke technische school uit 1968, deels gesloopt en nu een bedrijfsverzamelgebouw. Loop om naar de achterkant: daar liggen de oude praktijklokalen nog onder zeven sheddaken.",
+          "body": "Aan de straatkant zie je er weinig van, dus loop even om. Achterin liggen de oude werkplaatsen van een technische school: een glazen pui met daarboven zeven sheddaken. Nergens anders zie je zo duidelijk wat hier ooit geleerd werd.\n\nDe school ging in 1968 open als RK Technische School Dominicus Savio en heette later Huygensschool. K.P. Tholens, die eerder meetekende aan de Sint Josephkerk in Bos en Lommer, en zijn jongere compagnon L. van Steenhardt Carré bouwden haar trapsgewijs op uit drie delen langs de Jan Evertsenstraat: een L-vormig blok van vier lagen, een blok van drie lagen en een lagere aanbouw met twee lagen.\n\nTussen 2005 en 2007 gingen de twee kleinere delen tegen de vlakte voor woningbouw. Daarbij kwam ook een woontoren van negentien verdiepingen, pal tegen de westgevel van de school. Het grootste blok bleef overeind, werd opgeknapt en ging in 2007 weer open als Vliegbasis De Huygens, een verzamelgebouw voor kleine bedrijven met één receptie en een gedeelde kantine. Aan de straat speelt het nu de tweede viool naast de nieuwe blokken.\n\nLet op:\n- het kader van gele platen rond de gevel, breder bij de entreepartij\n- de 21 ramen van allerlei maten, kriskras over de entreepartij verspreid, zonder zich iets aan te trekken van het raster van de platen\n- de lange raamstroken tussen betonnen borstweringen, één per verdieping\n- aan de achterkant de werkplaatsen onder de sheddaken"
+        }
+      },
+      "summary": "What is left of a 1968 Catholic technical school, partly demolished and turned into a business centre: hide round the back to find the old workshops under seven sawtooth roofs."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "w07pdcjalflusy8bfax7n8c3",
+    "title": "If you know, you know... (5713)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "A 6 by 9 metre \"carpet\" of perforated aluminium",
+        "new": "A \"carpet\" of perforated aluminium",
+        "kind": "cut",
+        "source": "https://www.nargesmohammadi.com/en/works/if-you-know-you-know",
+        "evidence": "The artist's site (the only source cited for the size) returns a Vercel bot check (403/429); no other source gives dimensions"
+      },
+      {
+        "field": "body",
+        "old": "a hand-drawn tapestry turned into a 6 by 9 metre facade of perforated aluminium",
+        "new": "a hand-drawn tapestry turned into a facade of perforated aluminium",
+        "kind": "cut",
+        "source": "https://www.nargesmohammadi.com/en/works/if-you-know-you-know",
+        "evidence": "Size unverifiable, as above; De Appel: 'een handgetekend tapijt dat is getransformeerd tot een aluminium gevelkunstwerk'"
+      },
+      {
+        "field": "body",
+        "old": "twelve pupils from the Comenius Lyceum and Calandlyceum",
+        "new": "twelve teenagers from a programme that grew out of De Appel's work with the Comenius Lyceum and Calandlyceum",
+        "kind": "narrowed",
+        "source": "https://www.deappel.nl/nl/archive/events/1257-onthulling-publiek-kunstwerk-if-you-know-you-know",
+        "evidence": "Twelve names listed; 'Uit een nauwe samenwerking met het Comenius Lyceum en het Calandlyceum is het Tiener Curatoren-programma ontstaan' (not that all are pupils there)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een 'tapijt' van geperforeerd aluminium op een nieuw woonblok, door Narges Mohammadi getekend naar herinneringen van tieners die in Nieuw-West opgroeiden, met naast de deur het gedicht 5713 van Zeinab El Bouni. De symbolen zijn voor wie het weet.",
+          "body": "Tussen de Amsterdamse andreaskruizen zitten een tajine, een Turkse theepot, een tavlabord en een hijab, allemaal uitgespaard in aluminium. Veel mensen zullen ze herkennen, maar wat ze echt betekenen, snapt alleen wie de buurt van binnen kent. De titel van het werk: *If you know, you know*.\n\nWoonblok Podium (LEVS architecten) staat op de plek van naoorlogse scholen bij de Schipluidenlaan en is genoemd naar Podium Lely, dat in de oude gymzaal zat. Kunstinstelling De Appel vroeg de architecten een muur vrij te houden. Haar Tiener Curatoren, twaalf jongeren uit een programma dat voortkwam uit de samenwerking met het Comenius Lyceum en het Calandlyceum, puzzelden tien maanden lang met twee kunstenaars over wat erop moest. Op 12 oktober 2024 ging het doek eraf.\n\nLinks van de ingang hangt het deel van Narges Mohammadi: een met de hand getekend wandkleed dat een gevel van geperforeerd aluminium werd. Zoals verhalen en geheimen in tapijten worden geweven en doorgegeven, zo bewaart dit kleed momenten uit de schooltijd van de jongeren. Rechts van de deur loopt het gedicht *5713* van spoken word-kunstenaar Zeinab El Bouni over de panelen, en gaat zelfs de hoek om. Het is gemaakt van de verhalen die niet meer op het tapijt pasten.\n\nLet op:\n- de andreaskruizen van het stadswapen tussen de alledaagse voorwerpen\n- de tajine, de theepot en het tavlabord in het geperforeerde patroon\n- het gedicht 5713 dat rechts van de ingang om de hoeken heen loopt"
+        }
+      },
+      "summary": "A \"carpet\" of perforated aluminium on a new housing block, drawn by Narges Mohammadi from teenagers' memories of growing up in Nieuw-West, with Zeinab El Bouni's poem 5713 beside the door. The symbols are meant for those who know.",
+      "body": "The Podium housing block (LEVS architects) stands on the site of post-war schools off the Schipluidenlaan; it takes its name from Podium Lely, which was housed in the old school gym. De Appel arts centre asked the architects to keep a wall free, and its Teen Curators, twelve teenagers from a programme that grew out of De Appel's work with the Comenius Lyceum and Calandlyceum, spent ten months with two artists working out what should go on it. It was unveiled on 12 October 2024.\n\nLeft of the entrance hangs Narges Mohammadi's *If you know, you know*: a hand-drawn tapestry turned into a facade of perforated aluminium. Just as stories and secrets are woven into carpets and passed on, it records moments from the teenagers' school years. Among Amsterdam's St Andrew's crosses are a tagine, a Turkish teapot, a tavla (backgammon) board and a hijab, symbols many will recognise, though their full meaning is only clear to those who really know the neighbourhood. To the right of the door the spoken-word artist Zeinab El Bouni's poem *5713*, built from the stories that didn't fit on the carpet, runs across the panels and even turns corners.\n\nLook for:\n- the St Andrew's crosses of the city arms among the everyday objects\n- the tagine, teapot and tavla board in the perforated pattern\n- the poem 5713 wrapping round the corners right of the entrance"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "huo4dxb5m9rc6awwngqk0vim",
+    "title": "Salomonson shopping square, Pieter Calandlaan",
+    "changes": [
+      {
+        "field": "body",
+        "old": "the Confuciusplein and Plein '40-'45 (both largely lost)",
+        "new": "the Confuciusplein (only Bodon's gallery flat over shops is left) and Plein '40-'45 (its composition broken by new buildings)",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/24326c19-1d57-4fd1-a61c-4db322d73be1",
+        "evidence": "'van het Confuciusplein resteert alleen de galerijflat op winkels van A. Bodon, en de compositie van volumes rond Plein 40-45 is verstoord door nieuwbouw'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een open hoek in plaats van een straathoek. Hein Salomonson tekende begin jaren zestig dit pleintje met lage winkelblokken, kiosken onder een luifel met houten onderkant en een tegelraster. Van de vier Amsterdamse pleinen van dit type is dit het enige dat nog vrijwel gaaf is.",
+          "body": "Een straathoek, maar dan andersom. Gesloten straatwanden waren de modernistische planners een gruwel, en dit plein op de hoek van de Pieter Calandlaan en Meer en Vaart laat zien wat ze ervoor in de plaats wilden. Hein Salomonson, een van de grote Nederlandse modernisten van de jaren vijftig en zestig en vooral bekend om zijn villa's, liet de hoek gewoon leeg. Twee lage stroken winkels met woningen erboven, haaks op elkaar en losjes gekoppeld, vormen de randen van een pleintje. Vier paviljoentjes onder een gezamenlijke luifel en een vijfde aan de straat maken het af. Het idee gaat terug op Cornelis van Eesteren, die zoiets in 1925 tekende voor een prijsvraag over Unter den Linden in Berlijn; de Lijnbaan in Rotterdam is de beroemde neef.\n\nAmsterdam had nog drie van zulke pleinen. Het Gelderlandplein is zo gemoderniseerd dat je het niet meer herkent, van het Confuciusplein staat alleen de galerijflat van Bodon nog, en rond Plein '40-'45 heeft nieuwbouw het beeld verstoord. Hier liggen de woningen terug achter de winkelpuien, met een terras op het winkeldak. Gek genoeg hielden de puien beter stand dan de deels houten gevels erboven. De monumentenbeschrijving vat het mooi samen: de moderne stad is hier met meesterhand teruggebracht tot een maat waarin mensen zich thuis voelen.\n\nLet op:\n- de luifel die winkels en kiosken verbindt, aan de onderkant bekleed met blank gelakt oregon pine\n- de vensterstroken boven de luifel, sommige nog met hun horizontale roeden\n- de tegels van 30 bij 30 centimeter, ooit door zwarte banen in vier vlakken verdeeld"
+        }
+      },
+      "body": "Modernist planners hated closed street walls, and this square at Pieter Calandlaan and Meer en Vaart shows the alternative. Instead of building the corner, Hein Salomonson (one of the leading Dutch modernists of the 1950s and 60s, best known for his villas) left it open: two low strips of shops with flats above, set at right angles and loosely linked, frame a small square. Four small pavilions joined by a canopy, plus a fifth on the street line, complete the composition. The idea goes back to Cornelis van Eesteren's 1925 competition entry for Unter den Linden in Berlin; the Lijnbaan in Rotterdam is the famous cousin.\n\nAmsterdam had three siblings: the Gelderlandplein (modernised beyond recognition), the Confuciusplein (only Bodon's gallery flat over shops is left) and Plein '40-'45 (its composition broken by new buildings). The flats sit back from the shopfronts and have terraces on the shop roofs. The shopfronts have weathered better than the partly wooden upper floors. The register sums it up: here the modern city is scaled down by a master hand to a size where people feel at home.\n\nLook for:\n- the canopy linking shops and kiosks, its underside lined with varnished Oregon pine\n- the clerestory windows above the canopy, some with their horizontal glazing bars\n- the 30 x 30 cm paving, once divided into four fields by black bands"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "mzijbtowi3591tb05uut3f15",
+    "title": "Plesmanlaan telephone exchange",
+    "changes": [
+      {
+        "field": "body",
+        "old": "built three almost identical exchanges for them",
+        "new": "built three similar exchanges for them",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/fc157672-3fda-4385-b20a-097ccad58a4d",
+        "evidence": "'De gebouwen in Slotervaart, Buitenveldert en Osdorp vertonen overeenkomsten in vormgeving en materiaalgebruik, maar hebben wel allen een eigen gezicht gekregen'"
+      },
+      {
+        "field": "body",
+        "old": "Plesman Plaza, a cluster of new towers around a new square beside it",
+        "new": "Plesman Plaza, a cluster of five new buildings around a new square beside it",
+        "kind": "narrowed",
+        "source": "https://mvsa-architects.com/en/projects/plesman-plaza",
+        "evidence": "'This intervention results in five buildings, instead of six, creating a tower nearly 70m high and opening up the space to create a plaza' (one tower, not several)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een telefooncentrale uit 1960 als een doos van prefab betonnen cassetten, bedoeld om de zon weg te houden bij de schakelapparatuur; bij grote hitte konden er zandzakken in. Boven de deur worden twee bronzen figuren met elkaar doorverbonden.",
+          "body": "Bij extreme hitte konden er zandzakken in de gevel. De betonnen cassetten aan de Plesmanlaan, met daarin zonwerend thermopaneglas, moesten de kabels en de apparatuur tegen warmte beschermen. Was dat niet genoeg, dan konden de vakken worden volgestapeld met zandzakken.\n\nDe nieuwe westelijke tuinsteden hadden telefoonlijnen nodig. Publieke Werken bouwde er drie vergelijkbare centrales voor, in Slotervaart, Osdorp en Buitenveldert, elk met eigen kleuren en een eigen beeld. Deze, ontworpen door B.J. Odink en J.W. Kamerling, ging op 28 oktober 1960 open, met ruimte voor 20.000 aansluitingen. Door een tekort aan personeel kwamen er eerst maar 4.000; rond 2000 waren er nog zo'n 17.000 in gebruik.\n\nAlles aan het gebouw volgt uit wat het moest doen. Boven het platte dak steekt een opengewerkte betonnen schoorsteen uit, en aan de kant van de Ottho Heldringstraat zit een lagere, glazige dienstwoning tegen de centrale aan. In één moeite door werd ook een brug over een zijtak van de Slotervaart ontworpen.\n\nBoven de teruggelegen ingang hangt *Communicatie* van Lotti van der Gaag. De PTT wilde kunst in de stijl van het gebouw, en zij maakte twee figuren die door een telefoonverbinding aan elkaar hangen. Die verbinding overbrugt meteen de twee helften van het gebouw. De centrale is nu afgesloten en hoort bij Plesman Plaza, vijf nieuwe gebouwen rond een nieuw plein ernaast; binnen moeten een café en kantoren komen. De tweeling in Osdorp staat nog aan de Louis van Sonsbeekstraat, die in Buitenveldert werd in 2012 gesloopt.\n\nLet op:\n- de cassettegevel, en aan de achterkant de stalen luifels die vroeger boven de ramen hingen\n- het bronzen beeld boven de deur, met een oorschelp tussen de vormen\n- de opengewerkte betonnen schoorsteen"
+        }
+      },
+      "body": "The new western garden cities needed telephone lines, and the city's Public Works department built three similar exchanges for them, in Slotervaart, Osdorp and Buitenveldert, each with its own colours and its own sculpture. This one, by B.J. Odink and J.W. Kamerling, opened on 28 October 1960 with room for 20,000 lines; staff shortages meant only 4,000 were connected at first. Around 2000 some 17,000 were still in use.\n\nFunction shaped the building. Along the Plesmanlaan the walls are a grid of prefabricated concrete cassettes holding sun-repelling thermopane glass, to protect cables and equipment from heat, and in extreme heat the cassettes could be filled with sandbags. An openwork concrete chimney rises above the flat roof, and a lower, glassier caretaker's house is attached on the Ottho Heldringstraat side. A bridge over a branch of the Slotervaart canal was designed at the same time.\n\nOver the recessed entrance hangs *Communicatie* by Lotti van der Gaag: the PTT wanted art in the style of the building, and she made two figures joined by a telephone connection, which also bridges the two parts of the building. The exchange is now disconnected and part of Plesman Plaza, a cluster of five new buildings around a new square beside it, with a café and offices planned inside. Its Osdorp twin still stands on the Louis van Sonsbeekstraat; the Buitenveldert one was demolished in 2012.\n\nLook for:\n- the cassette facade and the steel canopies that once hung over the windows at the back;\n- the bronze sculpture over the door, with an ear among its forms;\n- the openwork concrete chimney."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "mwk39xxtsykeu771ojd5u376",
+    "title": "Erotica",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Erwin de Vries (1929–2018)",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://nl.wikipedia.org/wiki/Erwin_de_Vries_(kunstenaar)",
+        "evidence": "'Erwin Jules de Vries (Paramaribo, 21 december 1929' ... 'aldaar, 31 januari 2018)'"
+      },
+      {
+        "field": "body",
+        "old": "Eroticism, he said, was the life force that drove him to make art",
+        "new": "Eroticism was, for him, the force that drove him to make art",
+        "kind": "narrowed",
+        "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/702/erotica",
+        "evidence": "'de kracht van erotiek uitdrukken; een kracht die hem drijft om kunst te maken' (a description, not a quote from him)"
+      },
+      {
+        "field": "body",
+        "old": "from the smelter at Paranam in Suriname",
+        "new": "from Paranam in Suriname",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Erotica_(Erwin_de_Vries)",
+        "evidence": "'De Vries liet in juni 1972 vanuit Paranam Suriname 500 kilo Lingotaluminium overkomen' (no smelter mentioned)"
+      },
+      {
+        "field": "body",
+        "old": "pushed the cost well above the planned 30,000 guilders",
+        "new": "pushed the cost above the planned 30,000 guilders",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Erotica_(Erwin_de_Vries)",
+        "evidence": "'Het beeld zou oorspronkelijk 30.000 gulden kosten, maar ... liep die prijs verder op' (no amount)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een vijf meter lange 'ode aan de erotiek' van glanzend aluminium, door Erwin de Vries, de maker van het Nationaal Monument Slavernijverleden. Het ligt in een groenstrook achter lage flats in Slotervaart. De 500 kilo aluminium liet hij uit Suriname komen.",
+          "body": "Het metaal komt uit Suriname. In juni 1972 liet Erwin de Vries 500 kilo aluminiumbaren overkomen uit Paranam, een tastbare band tussen zijn geboorteland en Amsterdam.\n\nRond 1971 had de gemeente de in Suriname geboren beeldhouwer (1929-2018) om een beeld gevraagd voor de groenstrook tussen de Jan Tooropstraat en de achterkant van de lage flats aan de Jan Voermanstraat. Hij kwam met *Erotica*: vijf meter lang en twee meter hoog, ronde en hoekige vormen die samen een gestileerde vrouwenfiguur worden. Erotiek was voor De Vries de drijfveer om kunst te maken, en de vrouwenfiguur duikt in zijn hele werk steeds weer op.\n\nHet beeld werd uitvergroot vanaf een model dat gewoon op een eettafel paste. Om het stevig genoeg te krijgen moest er vanbinnen staal in, en samen met het polijsten dreef dat de prijs op tot boven de begrote 30.000 gulden. Minister van Volkshuisvesting Hans Gruijters onthulde het op 27 november 1973. Later maakte De Vries het Nationaal Monument Slavernijverleden (2002) in het Oosterpark.\n\nLet op:\n- 'Erwin 1972', uitgespaard in de voet\n- hoe de vormen van rond naar hoekig gaan als je eromheen loopt\n- de lage flats van de Jan Voermanstraat erachter"
+        }
+      },
+      "body": "Around 1971 the city asked the Surinamese-born sculptor Erwin de Vries (1929–2018) for a sculpture for the green strip between the Jan Tooropstraat and the backs of the low flats on the Jan Voermanstraat. He came back with *Erotica*: five metres long and two metres high, rounded and angular forms flowing into a stylised female figure. Eroticism was, for him, the force that drove him to make art, and the female figure recurs throughout his work.\n\nIn June 1972 De Vries had 500 kilos of aluminium ingots shipped from Paranam in Suriname, a tangible link between his birthplace and Amsterdam. It was worked up from a model small enough for a dining table and had to be stiffened inside with steel, which, with the polishing, pushed the cost above the planned 30,000 guilders. The housing minister Hans Gruijters unveiled it on 27 November 1973. De Vries later made the National Slavery Monument (2002) in the Oosterpark.\n\nLook for:\n- \"Erwin 1972\" cut into the base\n- how the forms change from rounded to angular as you walk round it\n- the low-rise flats of the Jan Voermanstraat behind it"
+    },
+    "sources_add": [
+      "https://nl.wikipedia.org/wiki/Erwin_de_Vries_(kunstenaar)"
+    ]
+  },
+  {
+    "id": "yh50lzawrgcg5dyt0oo4kmtl",
+    "title": "Shops-and-flats block, Burgemeester De Vlugtlaan",
+    "changes": [
+      {
+        "field": "body",
+        "old": "This 1954 block ... The city listed the block in 2021",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200953",
+        "evidence": "'jaarBeginVan': '1954'; 'datumAanwijzing': '2021-03-30'"
+      },
+      {
+        "field": "body",
+        "old": "the Catharinakerk and its schools a few hundred metres north",
+        "new": "the Catharinakerk and its schools nearby",
+        "kind": "narrowed",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=225002",
+        "evidence": "Register 225002 (Catharina school): Evers and Sarlemijn built the school with the Sint Catharinakerk; 'In de wijk - vooral langs de nabijgelegen Burgemeester De Vlugtlaan - komen bouwwerken met vergelijkbare stijlkenmerken voor' (no distance or direction given)"
+      },
+      {
+        "field": "body",
+        "old": "the columns and porticoes that echo those of the Catharina schools",
+        "new": "(Look for item removed)",
+        "kind": "cut",
+        "source": "https://data.amsterdam.nl/monumenten/4a548b42-7423-4e5b-b0c0-939fe465cb5e",
+        "evidence": "The register for this block mentions concrete cornices, lintels and coarse joints only; the porticoes and columns are described for the Catharina school (225002), not for this block"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een rij winkels met woningen erboven in de katholieke Bossche Schoolstijl, van de architecten van de Catharinakerk. Kerken en scholen in die stijl zijn in Amsterdam al schaars; een winkelstrip nog meer.",
+          "body": "Bossche School kom je in Amsterdam weinig tegen, en bij winkels en woningen al helemaal niet. Dat maakt dit blok aan de Burgemeester De Vlugtlaan, een van de belangrijke winkelstraten van Slotermeer, een buitenbeentje. Het verrees in 1954, loopt door tot aan de Theodorus Dobbestraat en is ontworpen door Evers en Sarlemijn samen met L. Peters. Evers en Sarlemijn bouwden in de buurt ook de Catharinakerk en de scholen ernaast.\n\nZe spraken hier dezelfde taal: een symmetrische opzet met uitgebalanceerde verhoudingen, een horizontaal spel van betonnen lijsten en lateien tegen de baksteen, en metselwerk met grove voegen. Vanaf de laan gezien vormt het blok één geheel met de woningstroken net ten zuiden ervan, ook van Evers en Sarlemijn, al heeft de stuclaag die later op die woningen kwam dat effect wat bedorven. In 2021 werd het blok gemeentelijk monument, als redelijk gaaf voorbeeld van de bouwkunst van de katholieke zuil.\n\nLet op:\n- de betonnen banden en lateien over de hele lengte van het blok\n- de grove voegen in het metselwerk"
+        }
+      },
+      "body": "Burgemeester De Vlugtlaan is one of the main shopping streets of Slotermeer. This 1954 block of shops with flats above, running through to the Theodorus Dobbestraat, was designed by Evers and Sarlemijn with L. Peters, the same office that built the Catharinakerk and its schools nearby.\n\nThey used the same Bossche School language here: a symmetrical layout with balanced proportions, a horizontal play of concrete cornices and lintels against the brick, and brickwork with coarse joints. Seen from the avenue, it forms one composition with the strips of housing just south of it, also by Evers and Sarlemijn, though the render later applied to those homes has blurred the effect. The city listed the block in 2021 as a fairly intact example of Catholic-pillar architecture, noting that the style is rare in Amsterdam and rarer still for shops and housing.\n\nLook for:\n- the concrete bands and lintels running the length of the block;\n- the coarse mortar joints of the brickwork."
+    },
+    "sources_add": [
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200953"
+    ]
+  },
+  {
+    "id": "j3ddwkyv3aomf5tghxem4jra",
+    "title": "Gemaal Halfweg (1977)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "took over from the famous 1852 steam engine at Halfweg",
+        "new": "took over from the listed 1852 steam engine at Halfweg",
+        "kind": "narrowed",
+        "source": "https://www.historischhalfweg.nl/nieuws/gemaalhalfwegmonument",
+        "evidence": "'het uit 1852 daterende stoomgemaal ... dat al veel langer rijksmonument is' (no source calls it famous)"
+      },
+      {
+        "field": "body",
+        "old": "the Halfweg steam pumping station of 1852, built to drain the Haarlemmermeer and now a museum just down the road",
+        "new": "the Halfweg steam pumping station of 1852, now a museum",
+        "kind": "narrowed",
+        "source": "https://www.rijnland.nl/over-rijnland/archieven-en-erfgoed/gebouwen-en-kunstwerken/boezemgemaal-halfweg/",
+        "evidence": "Sources give the 1852 date and 'Het Museum Stoomgemaal Halfweg'; none says it was built to drain the Haarlemmermeer or gives its distance"
+      },
+      {
+        "field": "body",
+        "old": "Princess Beatrix opened it in November 1977",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://commons.wikimedia.org/wiki/File:Nieuw_boezemgemaal_in_Halfweg,_officieel_geopend_door_Prinses_Beatrix_Prinses_,_Bestanddeelnr_929-4514.jpg",
+        "evidence": "Anefo photo, 23 November 1977: 'Nieuw boezemgemaal in Halfweg, officieel geopend door Prinses Beatrix'"
+      },
+      {
+        "field": "body",
+        "old": "It is one of four big pumping stations, with Gouda, Katwijk and Spaarndam, that drain",
+        "new": "It is one of four big pumping stations that drain",
+        "kind": "narrowed",
+        "source": "https://arcam.nl/architectuur-gids/gemaal-halfweg-amsterdam-westpoort/",
+        "evidence": "'Het is een van de vier grote boezemgemalen' (the other three are not named in any source)"
+      },
+      {
+        "field": "body",
+        "old": "the city did so in 2021, one of its first post-1965 monuments",
+        "new": "the city did so in 2021, the first success of Heemschut's requests for post-1965 architecture",
+        "kind": "narrowed",
+        "source": "https://www.historischhalfweg.nl/nieuws/gemaalhalfwegmonument",
+        "evidence": "'Met een reeks van aanwijzingsverzoeken in 2020 en 2021 heeft Heemschut Amsterdam aandacht ... gevraagd voor de moderne bouwkunst uit de periode 1966-1990. Dit eerste succes ...'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Drie gelijke betonnen kappen aan de rand van de haven: het gemaal dat in 1977 het stoomgemaal van Halfweg uit 1852 aflosste. Onder elke kap draait een eigen reuzenvijzel, die water uit de Ringvaart van de Haarlemmermeer naar het Noordzeekanaal tilt.",
+          "body": "Elke kap heeft zijn eigen schroefvijzel, en elk van de drie moet het ook in zijn eentje kunnen, zelfs bij een calamiteit. Samen tillen ze water uit de Ringvaart van de Haarlemmermeer, via wat er over is van Zijkanaal F, omhoog naar het peil van de Amerikahaven en het Noordzeekanaal.\n\nHet gemaal volgde het stoomgemaal van Halfweg uit 1852 op, dat nu museum is. Het Hoogheemraadschap van Rijnland bouwde het in 1975-1977, en prinses Beatrix verrichtte in november 1977 de opening. Het is een van de vier grote gemalen die het netwerk van vaarten van Rijnland op peil houden.\n\nHet waterschap wilde dat ook het zichtbare deel met zorg werd ontworpen. Ingenieursbureau DHV tekende de onderbouw, de Amsterdamse architect Dick Slebos de gebouwen erboven, en ze adviseerden elkaar over en weer. Eerst dreven dieselmotoren de vijzels aan; die zijn later vervangen door elektromotoren. Vanaf de weg en vanaf het water vallen als eerste de drie gelijke topgevels op. Slanke dubbele betonkolommen dragen de kappen en staan als moderne steunberen schuin tegen de zuidwestgevel, met de bedieningsruimtes ertussen naar voren gestoken.\n\nIn 2012 kwam er een vispassage bij, met een eigen kleine vijzel, zodat glasaal en stekelbaarsjes erlangs kunnen. Op verzoek van Heemschut werd het gemaal in 2021 gemeentelijk monument: het eerste succes van de reeks aanvragen waarmee de vereniging aandacht vroeg voor architectuur van na 1965.\n\nLet op:\n- de drie kappen en de voorover hellende ramen van de bedieningsruimtes\n- de groene deuren en de rode bewegende delen, zoals de kraanbaan\n- de twee aaneengeschakelde achthoekige blokken met de schoorsteen van het ketelhuis, en de voormalige dienstwoningen"
+        }
+      },
+      "summary": "Three identical concrete roofs on the edge of the port: the pumping station that took over from the listed 1852 steam engine at Halfweg. Each roof covers its own giant screw pump, lifting water from the Haarlemmermeer ring canal to the North Sea Canal.",
+      "body": "This is the successor of the Halfweg steam pumping station of 1852, now a museum. The Hoogheemraadschap van Rijnland (the regional water board) built the new station in 1975–1977, and Princess Beatrix opened it in November 1977. It is one of four big pumping stations that drain Rijnland's network of canals. It lifts water from the Ringvaart of the Haarlemmermeer, through the remains of Zijkanaal F, up to the level of the Amerikahaven and the North Sea Canal.\n\nThe water board chose to have the visible part designed with care. The engineering firm DHV designed the substructure and the Amsterdam architect Dick Slebos the buildings, each advising the other. Below are three channels, each with an Archimedean screw pump that can run on its own even in an emergency; the diesel engines were later replaced by electric motors. Above, each screw has its own roof, and the three equal gables are what you notice first from the road and the water. Slender paired concrete columns carry the roofs and lean against the south-west front like modern buttresses, with the control rooms projecting between them.\n\nA fish pass with its own small screw was added in 2012 so that young eels and sticklebacks can get past. Heemschut asked for the station to be listed, and the city did so in 2021, the first success of Heemschut's requests for post-1965 architecture.\n\nLook for:\n- the three roofs and the forward-tilted control room windows;\n- green doors and red moving parts such as the crane track;\n- two linked octagonal blocks with the boiler house chimney, and the former staff houses."
+    },
+    "sources_add": [
+      "https://commons.wikimedia.org/wiki/File:Nieuw_boezemgemaal_in_Halfweg,_officieel_geopend_door_Prinses_Beatrix_Prinses_,_Bestanddeelnr_929-4514.jpg"
+    ]
+  },
+  {
+    "id": "x6f7lvd8rtbb561f8pkkomwz",
+    "title": "Schaap met vijf poten",
+    "changes": [
+      {
+        "field": "body",
+        "old": "In 2022 Het Parool found it standing \"a little lost\" in today's neighbourhood.",
+        "new": "(cut)",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Schaap_met_vijf_poten",
+        "evidence": "No Parool article or quote appears in any of the cited sources"
+      },
+      {
+        "field": "body",
+        "old": "Bolhuis's *Schaapjes* (1966), a kilometre east on the Osdorpplein",
+        "new": "Bolhuis's *Schaapjes* (1966) on the Osdorpplein",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Schaapjes",
+        "evidence": "Sources place the group on the Osdorpplein but give no distance or direction"
+      },
+      {
+        "field": "body",
+        "old": "the fountain was rebuilt around them in 2020–2021",
+        "new": "the fountain around them was thoroughly renovated in 2020–2021",
+        "kind": "narrowed",
+        "source": "https://stadscentrum-osdorpplein.nl/feestelijke-heropening-fontein/",
+        "evidence": "'startte de gemeente eind 2020 met een grondige opknapbeurt. De renovatie is in april 2021 al afgerond'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een bronzen schaap om op te klimmen, in 1969 gemaakt door Prix de Rome-winnaar Gerrit Bolhuis. Het huppelt met beide achterpoten in de lucht, dus houdt een verstopte vijfde poot het overeind. Zo wordt de uitdrukking voor een alleskunner letterlijk waar.",
+          "body": "Kijk eens onder de buik. Dit schaap maakt een huppelsprong met allebei de achterpoten van de grond, en dus moest er een vijfde poot onder om het te dragen. Zo staat er bij de Botteskerksingel in Osdorp letterlijk een schaap met vijf poten: iemand die alles kan, en net zo zeldzaam als het beest zelf.\n\nGerrit Bolhuis (Rijksakademie 1930-1934, Prix de Rome 1934) maakte het in 1969 in brons. Het kan het gewicht van een kind hebben, en net als zijn *Schaapjes* op het Osdorpplein en zijn *Bokkenrijder* in het Oosterpark is het gemaakt om op te klauteren. Het heeft ook nog de lange staart die bij boerderijschapen vroeger werd gecoupeerd.\n\nEen kleinere versie stond in 1969 al op de tentoonstelling *Vorm van leven* in het Singer Museum in Laren. De catalogus schreef het daar toe aan ene Henri van Haaren. Toen Ons Amsterdam in 1971 de beelden van de stad inventariseerde, was die naam verdwenen en stond Bolhuis als maker vermeld. Zijn zoon, architect Gijs Bolhuis, heeft nog een schets van het schaap.\n\nLet op:\n- de vijfde poot, verstopt onder de buik\n- de twee opgetrokken achterpoten en de lange staart\n- de *Schaapjes* (1966) van Bolhuis op het Osdorpplein: acht bronzen lammetjes die achter elkaar over de fonteinmuur draven. De voorste springt eraf (één schaap over de dam, de rest volgt), de achterste is door zijn knieën gezakt. In de buurt heten ze de *lammetjes*; generaties kinderen hebben hun ruggen, snoeten en oren blank geaaid, en in 2020-2021 werd de fontein eromheen grondig opgeknapt"
+        }
+      },
+      "body": "In Dutch a *schaap met vijf poten* (\"sheep with five legs\") is someone who can do everything, as rare as the animal itself. Gerrit Bolhuis (Rijksakademie 1930–1934, Prix de Rome 1934) made one in bronze in 1969 for the Botteskerksingel in Osdorp. It isn't obvious at first: the sheep is caught mid-skip with both hind legs off the ground, and the fifth leg tucked underneath carries its weight. It was built to bear a child's weight, and like his *Schaapjes* (little sheep) on the Osdorpplein and his *Bokkenrijder* in the Oosterpark, it is meant to be climbed on. It also keeps the long tail that farm sheep used to have docked.\n\nA smaller version was shown at the exhibition *Vorm van leven* at the Singer Museum in Laren in 1969, where the catalogue credited it to one Henri van Haaren. By the time Ons Amsterdam listed the city's sculptures in 1971, his name had gone and Bolhuis was named; his son, the architect Gijs Bolhuis, still has a sketch of the sheep.\n\nLook for:\n- the fifth leg hidden under the belly\n- the two raised hind legs and the long tail\n- Bolhuis's *Schaapjes* (1966) on the Osdorpplein: eight bronze lambs running along the fountain wall, the first jumping off it (once one sheep is over the dam, the rest follow, as the Dutch saying goes) and the last one stumbled to its knees. Locals call them the *lammetjes* (lambs); generations of children have polished their backs, noses and ears, and the fountain around them was thoroughly renovated in 2020–2021"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "j06hav8gdem92o1d03ug2g61",
+    "title": "Abraham Staalmanplein and the Staalman bear",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "three glass kiosks set askew under one pergola",
+        "new": "three kiosks, once mostly glass, set askew under one pergola",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/9a15deab-fd91-4574-a1d5-2a481d74b895",
+        "evidence": "'Oorspronkelijk bestonden de kiosken grotendeels uit glas ... zijn de kiosken aan de achterzijde meer dichtgezet, waardoor de oorspronkelijk transparantie verloren is gegaan'"
+      },
+      {
+        "field": "summary",
+        "old": "A short walk east, a 10-metre concrete bear",
+        "new": "Nearby, a 10-metre concrete bear",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/De_Staalman",
+        "evidence": "Sources place the bear in the Staalmanpark but give no distance or direction from the square"
+      },
+      {
+        "field": "body",
+        "old": "in the Staalmanpark, about 250 m east of the square,",
+        "new": "in the Staalmanpark,",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/De_Staalman",
+        "evidence": "No source gives the 250 m or the direction"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een winkelplein uit de jaren vijftig met drie scheef gezette kiosken onder één pergola, een van de laatste nog gave pleinen uit die tijd in Nieuw-West. Vlakbij bewaakt een tien meter hoge betonnen beer met een kussen onder zijn arm het park.",
+          "body": "Sommige woningen aan dit plein waren bedoeld voor gezinnen van dertien. Ze kregen er drie slaapkamers bij in het souterrain eronder.\n\nHet plein draagt de naam van Abraham Staalman (1871-1935), pionier van de volkshuisvesting en oprichter van woningbouwvereniging Het Westen. Arthur Staal en Cornelis Keesman ontwierpen het complex eromheen in 1956-1958. Bij de oplevering telde het 280 woningen, 20 winkels, 3 kiosken, 9 garageboxen, twee onderstations en een ketelhuis. De monumentenbeschrijving gokt dat de strakke opzet en de gevels van Keesman zijn. Staal, zoon van architect J.F. Staal en later de ontwerper van de Shelltoren aan het IJ, zou de speelse elementen hebben toegevoegd: de verspringende balkons en de drie kiosken die schuin tussen de Huizingalaan en het plein staan.\n\nSinds 2010 is veel van de buurt eromheen vervangen door nieuwbouw. De lage winkelstrook aan de zuidkant is verdwenen, zodat het plein nu openligt naar de hof erachter. Op verzoek van erfgoedvereniging Heemschut werden de overgebleven woonhaak, het plein en de kiosken in 2019 gemeentelijk monument. Samen met het plein bij de Pieter Calandlaan en de Meervaart is dit volgens de gemeente het enige plein in Nieuw-West uit de jaren vijftig en zestig dat grotendeels gaaf is.\n\nDe vernieuwing leverde ook een mascotte op. In 2011 zette Florentijn Hofman (bekend van de reusachtige badeend) *Staalman* neer in het Staalmanpark, na het ontwerp met jongeren uit de wijk te hebben bedacht: een beer van spuitbeton op een stalen frame, zo'n tien meter hoog. Hij oogt stoer, maar draagt een kussen. Hofman koppelde dat aan het advies dat tieners op tijd naar bed moeten in plaats van buiten te hangen, en aan de bewoners die hun spullen moesten inpakken en verhuizen, soms twee keer, terwijl hun huizen werden vernieuwd.\n\nLet op:\n- de pergola die de drie kiosken verbindt, op ranke kolommen\n- de schuine, verspringende balkons aan de pleinkant, met de betonnen vloerbanden die erdoorheen lopen\n- het metselwerk op de begane grond: telkens twee lagen gewone stenen en één laag hogere, met kleine vierkante raampjes op verschillende hoogtes\n- het beeld van Leo de Vries op het plein: drie stenen blokken die met wat fantasie een liggende figuur worden\n- de beer in het park, die als een poortwachter over de buurt uitkijkt"
+        }
+      },
+      "summary": "A 1950s shopping square with three kiosks, once mostly glass, set askew under one pergola, one of the last intact squares of its age in Nieuw-West. Nearby, a 10-metre concrete bear with a pillow under its arm guards the park.",
+      "body": "The square honours Abraham Staalman (1871–1935), a pioneer of social housing and founder of the housing association Het Westen. Arthur Staal and Cornelis Keesman designed the complex around it in 1956–1958: at completion it counted 280 flats, 20 shops, 3 kiosks, 9 garages, two substations and a boiler house. The register guesses that the strict layout and facades are Keesman's, and that Staal, son of the architect J.F. Staal and later designer of the Shell tower on the IJ, added the playful parts: the staggered balconies and the three kiosks set at an angle between the Huizingalaan and the square. Some flats were built for families of thirteen, with three extra bedrooms in the semi-basement below.\n\nUrban renewal since 2010 replaced much of the surrounding neighbourhood, and the low strip of shops that closed the south side is gone, so the square now opens onto the court behind it. The city listed the remaining hook of flats, the square and the kiosks in 2019 after a request from the heritage society Heemschut. It counts it, with the square at the Pieter Calandlaan and Meervaart, as the only largely intact square of the 1950s and 1960s in Nieuw-West.\n\nThe renewal also produced the neighbourhood's mascot. In 2011 Florentijn Hofman (of the giant Rubber Duck) built *Staalman* in the Staalmanpark, after working out the design with local young people: a bear of sprayed concrete over a steel frame, about ten metres tall. He looks tough, but carries a pillow. Hofman linked it to the advice that teenagers should go to bed on time instead of hanging around outside, and to the residents who had to pack up their belongings and move, sometimes twice, while their homes were rebuilt.\n\nLook for:\n- the pergola that ties the three kiosks together, resting on slender columns;\n- slanting, staggered balconies on the square side, with the concrete floor bands running through them;\n- the ground-floor brickwork: two courses of ordinary bricks alternating with one course of taller ones, and small square windows at different heights;\n- Leo de Vries's sculpture of three stone blocks on the square, which with a little imagination becomes a reclining figure;\n- the bear in the park, looking out over the neighbourhood like a gatekeeper."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "iacunnk0zj6p39sh7qoyyy7d",
+    "title": "Boerderij Welgelegen and the Osdorperweg cottages",
+    "changes": [],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een melkveeboerderij uit 1876, scheef aan de weg in de richting van de oude kavels: een hallehuis met een Noord-Hollandse stolpschuur ernaast. Vlakbij staat een zeldzaam complex van deels rug-aan-rug gebouwde arbeiderswoningen uit 1902.",
+          "body": "Naast de voordeur ligt een afgesleten steen: de eerste steen werd in 1876 gelegd door de zoon van ene Van Haaren, toen 12 of 13 jaar oud. In opdracht van Van Haaren verrees hier boerderij *Welgelegen*, aan de noordrand van het dorp, waar de Osdorperweg nog altijd landelijk oogt. Het gebouw staat schuin op de weg, omdat het de richting van de oude kavels volgt. Erachter liggen het weiland en een restant van de Kerksloot, ooit de vaarroute van Sloten naar de Slotervaart.\n\nWelgelegen combineert twee tradities. Het woonhuis is een hallehuis zoals je die ten zuiden van het IJ ziet: voorin een onderkelderd voorhuis met de mooie kamer, in het midden het deel voor het dagelijks leven, achterin de koeienstal. Ernaast staat een stolpschuur met piramidedak, het klassieke Noord-Hollandse type. De voorgevel heeft een gevelsteen met WELGELEGEN, boogjes van gele en roodbruine baksteen boven de ramen en golvend geschulpte windveren.\n\nNet ten zuiden, op Osdorperweg 32-66, staat een complex arbeiderswoningen van rond 1902: twee rijtjes haaks op de weg en één evenwijdig, deels rug aan rug gebouwd en bereikbaar via smalle steegjes, met tussendoor een doorkijk naar het weiland. Voor arbeiderswoningen op het platteland uit die jaren is zo'n opzet zeldzaam.\n\nLet op:\n- de steen met WELGELEGEN onder het zolderraam\n- de gietijzeren stalramen met geometrische roedeverdeling\n- een stuk van het oude toegangshek, los tegen de noordgevel gezet\n- de steegjes tussen de rijtjes woningen"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "tacxcuq9bycvrt9pp4yi5tt3",
+    "title": "Margarethahoeve",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "A 1905 farm that pretends to be a villa.",
+        "new": "A 1905 farm that pretends to be a town house.",
+        "kind": "narrowed",
+        "source": "https://slotenoudosdorp.nl/erfgoed-van-de-week-de-monumentale-margarethahoeve/",
+        "evidence": "'Het dwarsgeplaatste voorhuis oogt als een burgerwoning in de chaletstijl van rond 1900' (a burgerwoning, not a villa)"
+      },
+      {
+        "field": "body",
+        "old": "wanted it to look like a villa",
+        "new": "wanted it to look like a town house",
+        "kind": "narrowed",
+        "source": "https://slotenoudosdorp.nl/erfgoed-van-de-week-de-monumentale-margarethahoeve/",
+        "evidence": "'typerend voor een burgerwoning ... straalde een zekere ambitie van de, in dit geval Amsterdamse, eigenaar uit'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een boerderij uit 1905 die zich voordoet als burgerhuis. Vanaf de weg zie je een woonhuis in chaletstijl met een pronkgevel; pas als je uit het dorp komt, zie je de koeienstal erachter. Een van de laatste boerderijen van het oude lint langs de Sloterweg.",
+          "body": "Zoek niet naar de voordeur, want die is er niet. De symmetrische voorgevel met vijf raamassen belooft er een, maar wie naar binnen wil, loopt om naar de wagenschuur achter het huis.\n\nDe Sloterweg ten oosten van het dorp werd eind dertiende eeuw aangelegd door ontgonnen veen, met lange kavels aan weerszijden en op de kop van elke kavel een boerderij. Rijke Amsterdammers kochten er grond als belegging, en zo was de Margarethahoeve lang een pachtboerderij van Amsterdamse families. Van de zo'n vijftig boerderijen die halverwege de twintigste eeuw nog langs de weg stonden, zijn er maar een paar over.\n\nIn 1905 verving deze boerderij een hallehuis uit 1870. De Amsterdamse eigenaar, die haar verpachtte, wilde dat ze eruitzag als een burgerwoning: een dwars geplaatst voorhuis met sierspanten in chaletstijl en siermetselwerk. Binnen waren maar twee kamers, een woonkamer en een opkamer boven een half verdiepte melkkelder met troggewelven en geglazuurde tegels. Eerste pachter was veehouder Hendrik Hogenhout, en er werd geboerd tot in de jaren negentig. Het hooihuis ging in de jaren tachtig tegen de vlakte en in de stal zitten nu kantoren. Sinds 2023 is de hoeve gemeentelijk monument.\n\nLet op:\n- de voorkant van het huis, een en al raam en geen deur\n- de stalramen in de zijgevel die verraden dat het een boerderij is\n- de siertuin voor het huis en de sloten rond het erf"
+        }
+      },
+      "summary": "A 1905 farm that pretends to be a town house. From the road you see a chalet-style townhouse with a showy gable; only coming from the village do you spot the cow stable behind. One of the last farms of the old Sloterweg ribbon.",
+      "body": "The Sloterweg east of the village was laid out at the end of the 13th century across reclaimed peat, with long strips on both sides and a farm at the head of each. Rich Amsterdammers bought plots as investments, so the Margarethahoeve was long a tenant farm of Amsterdam families. Of some 50 farms still on the road in the mid-20th century, only a handful survive.\n\nThe present farm replaced an 1870 hall-house in 1905. Its builder, an Amsterdam owner who leased it out, wanted it to look like a town house: a cross-set front house with chalet-style trusses, decorative brickwork and a symmetrical five-bay front with no front door, because the way in is through the cart shed behind. The house had just two rooms, a living room and an *opkamer* over a half-sunk milk cellar with brick vaults and glazed tiles. The first tenant was the cattle farmer Hendrik Hogenhout; farming went on into the 1990s. The haybarn was demolished in the 1980s and the stable is now offices. Listed in 2023.\n\nLook for:\n- the front of the house, all windows and no door\n- the stable windows along the side that give the farm away\n- the ornamental front garden and the ditches around the yard"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "z2i6g8m98788d9h4mqkd2uzc",
+    "title": "Slotermeerschool and the H-schools of Slotermeer",
+    "changes": [
+      {
+        "field": "body",
+        "old": "with Kees van der Wilk",
+        "new": "with C. van der Wilk",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/H-school",
+        "evidence": "'door PW-architect J. Leupen ontwikkelde en door C. van der Wilk uitgewerkte opzet' (first name not given)"
+      },
+      {
+        "field": "body",
+        "old": "Ten were built in the 1950s; only four survive",
+        "new": "Ten were built up to 1960; only four survive",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/H-school",
+        "evidence": "'De volgende tien schoolgebouwen zijn in de periode 1954-1960 als school van het H-type gebouwd'; the Fock register dates that school to 1953"
+      },
+      {
+        "field": "body",
+        "old": "The Slotermeerschool (1953–1954, originally the Burgemeester Fockschool)",
+        "new": "The Slotermeerschool (1953, originally the Burgemeester Fockschool)",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/b8a7ffd3-da3d-4dad-abb1-69dc750f2d24",
+        "evidence": "'Het is in 1953 gebouwd door de Dienst der Publieke Werken'"
+      },
+      {
+        "field": "body",
+        "old": "by Jan Wolkers, long before he became a famous novelist",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://nl.wikipedia.org/wiki/Jan_Wolkers",
+        "evidence": "'Hij werd bekend met de romans Terug naar Oegstgeest (1965) en Turks fruit (1969)'; the sculpture dates from 1955 (Verbeeldingsblog)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Drie van de laatste 'H-scholen', het naoorlogse Amsterdamse antwoord op tuberculose: geen gangen, daglicht van twee kanten in elk lokaal. De ene heeft een reliëf met dansende kinderen, de andere een bronzen jongen met een haan van een jonge Jan Wolkers.",
+          "body": "Gangen zijn er niet. Wie naar zijn eigen lokaal wilde, liep gewoon door dat van een andere klas. Daardoor kreeg elk klaslokaal van twee kanten licht en lucht, en daar was het om begonnen.\n\nNa de oorlog eiste tuberculose weer veel levens, en Amsterdam wilde 'gezonde' scholen bouwen. Jan Leupen, architect bij Publieke Werken, ontwikkelde met C. van der Wilk een standaardtype naar het voorbeeld van Jan Duikers beroemde Openluchtschool uit 1930: twee evenwijdige gebouwen, verbonden door twee glazen gangen, zodat de plattegrond een H vormt. In het lage blok liggen de gymzaal, een zaal met toneel die ook als buurthuis moest dienen, en lokalen voor handenarbeid. Tot 1960 kwamen er tien. Er staan er nog maar vier, en drie daarvan vind je hier.\n\nDe Slotermeerschool (1953, eerst Burgemeester Fockschool) is de gaafste. Ze staat een eind van de straat af in een brede groenstrook. Op de kopgevel van de gymzaal dansen een jongen en een meisje in een reliëf van Frits Sieger, tussen duiven, fruit, tarwe en zonnebloemen. De Burgemeester Röellschool aan de Thomas van Aquinostraat, nu De Kans, kreeg in 2011 een nieuwe vleugel. In de Burgemeester Rendorpschool aan de Herman de Manstraat zit nu een school voor dove en slechthorende kinderen.\n\nLet op:\n- de hoge ladderramen van de trappenhuizen, van de grond tot aan de nok\n- bij de Slotermeerschool drie duiven van Sieger die uit het reliëf zijn 'uitgevlogen' en los op de muur zitten\n- bij De Kans *Jongen met haan* (1955), een bronzen jongen met een haan op zijn hoofd van Jan Wolkers, lang voordat hij als romanschrijver beroemd werd; hij won er de Sint-Lucasmedaille mee"
+        }
+      },
+      "body": "After the war tuberculosis was claiming lives again, and Amsterdam set out to build \"healthy\" schools. Public Works architect Jan Leupen, with C. van der Wilk, developed a standard type that followed Jan Duiker's famous Open-Air School of 1930: two parallel blocks joined by two glazed passages, so the plan reads as an H. The classroom block has no corridors at all, so every classroom gets light and air from two sides; you walk through one classroom to reach the next. The low block holds the gym, a hall with a stage meant to double as a neighbourhood centre, and craft rooms. Ten were built up to 1960; only four survive, and three of them are here.\n\nThe Slotermeerschool (1953, originally the Burgemeester Fockschool) is the most intact, set back in a broad green strip. On the gym's end wall Frits Sieger's relief shows a boy and girl dancing among doves, fruit, wheat and sunflowers. The Burgemeester Röellschool on the Thomas van Aquinostraat, now De Kans, gained a new wing in 2011. The Burgemeester Rendorpschool on the Herman de Manstraat is now a school for deaf and hard-of-hearing children.\n\nLook for:\n- the tall ladder windows of the stairwells, running from ground to roof ridge;\n- at the Slotermeerschool, three of Sieger's doves that have \"flown out\" of the relief and sit loose on the wall;\n- at De Kans, *Jongen met haan* (1955), a bronze boy with a rooster on his head by Jan Wolkers, long before he became a famous novelist; it won him the Sint-Lucas medal."
+    },
+    "sources_add": [
+      "https://nl.wikipedia.org/wiki/Jan_Wolkers"
+    ]
+  },
+  {
+    "id": "uaeey4ypu4pf0h4685uy3xcw",
+    "title": "Van Tijen studio houses, Van Karnebeekstraat",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "Willem van Tijen built hundreds of homes in Geuzenveld",
+        "new": "Willem van Tijen built a great many homes in Geuzenveld",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/514a1ce3-b287-4838-b840-a3673fc8304a",
+        "evidence": "'Hij ontwierp een groot aantal bejaardenwoningen, eengezinshuizen en portieketageflats' (no number given)"
+      },
+      {
+        "field": "body",
+        "old": "a double-height studio facing northwest for even light",
+        "new": "a double-height studio facing northwest, full of light",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Van_Karnebeekstraat",
+        "evidence": "'Aan de kant van de straat hebben de atelierwoningen veel glas en valt er veel licht binnen in het atelier'; no source states the reason as even light"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Zes atelierwoningen voor kunstenaars achter een wand van glas, aan de rand van de polder. Willem van Tijen bouwde in Geuzenveld een groot aantal woningen; ironisch genoeg is juist dit blokje voor kunstenaars het enige dat nog herkenbaar van hem is.",
+          "body": "Van alles wat Willem van Tijen in Geuzenveld bouwde, herken je alleen dit blokje voor kunstenaars nog als het zijne. Van Tijen, een pionier van het Nederlandse modernisme met de sociale woningbouw als grote liefde, kreeg in 1953 een van de zes buurten van Geuzenveld toegewezen, nu de Van Tijenbuurt. Hij tekende er bejaardenwoningen, eengezinshuizen en portiekflats. De flats en bejaardenwoningen gingen in de jaren 2000 tegen de vlakte, de eengezinshuizen zijn onherkenbaar opgeknapt. Over blijft dit blok uit 1959, dat hij samen met M. Boom en J. Posno ontwierp.\n\nHet staat in de zuidwestpunt van Geuzenveld, tegen de Osdorper Binnenpolder, op een kavel die eerst voor een school bestemd was. Beneden zitten zes ateliers die los te huur waren, elk met een eigen deur, een wc en een keukentje. Daarboven liggen zes atelierwoningen, bereikbaar via een brede galerij aan de achterkant. Elke woning heeft een atelier van twee verdiepingen hoog op het noordwesten, dat volloopt met licht, en boven aan een open trap liggen de slaapkamers. Atelierwoningen waren een zeldzaam type, geboren uit het naoorlogse idee dat ook kunstenaars recht hadden op een fatsoenlijke plek om te wonen en te werken.\n\nErnaast, aan het Willem Mulierhof, staan de geschakelde villa's van F.J.E. Dekeukeleire, die er zelf woonde en ook zijn bureau had.\n\nLet op:\n- de noordwestgevel: vijf smalle bakstenen penanten tussen bijna geheel glazen houten puien\n- de lichte, gekartelde betonnen band tussen ateliers en woningen\n- de betonnen trappen tegen beide blinde zijgevels, die naar de galerij aan de achterkant leiden"
+        }
+      },
+      "summary": "Six artists' studio homes behind a wall of glass on the polder edge. Willem van Tijen built a great many homes in Geuzenveld; ironically this small block for artists is the only one still recognisably his.",
+      "body": "Willem van Tijen, a pioneer of Dutch modernism whose great passion was social housing, was brought in in 1953 to design one of the six neighbourhoods of Geuzenveld, now the Van Tijenbuurt. He built old people's homes, family houses and walk-up flats. The flats and old people's homes were demolished in the 2000s and the family houses renovated beyond recognition, so this little block of 1959, designed with M. Boom and J. Posno, is all that is left that you would recognise as his.\n\nIt stands at the southwestern tip of Geuzenveld, by the Osdorper Binnenpolder, on a plot first meant for a school. The ground floor holds six studios that could be rented separately, each with its own door, toilet and kitchenette. Above them are six studio homes reached by a wide gallery at the back, with a double-height studio facing northwest, full of light and the bedrooms up an open stair. Studio homes were a rare type, born of the post-war idea that artists, too, deserved a proper place to live and work.\n\nNext door, on the Willem Mulierhof, are the linked villas of F.J.E. Dekeukeleire, who lived and kept his office there.\n\nLook for:\n- the northwest front: five slim brick piers between almost fully glazed timber frames;\n- the pale serrated concrete band separating studios from homes;\n- the concrete stairs against both blind side walls, leading to the gallery at the back."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "lc2lohet219gf1x4acq08013",
+    "title": "Vlindermolen (\"de haas\")",
+    "changes": [
+      {
+        "field": "body",
+        "old": "The surroundings were kept free of tall buildings so it would work as a beacon",
+        "new": "It doubles as a landmark, with no tall buildings around it",
+        "kind": "narrowed",
+        "source": "https://nl.wikipedia.org/wiki/Vlindermolen_(Herman_Makkink)",
+        "evidence": "'Het is behalve markeringspunt ook een oriëntatiepunt in de wijk; het beeld is rondom vrijgehouden van hoge bebouwing' (no stated motive)"
+      },
+      {
+        "field": "body",
+        "old": "Het Parool once called it one of the better roundabout sculptures in the Netherlands.",
+        "new": "(cut)",
+        "kind": "cut",
+        "source": "https://nl.wikipedia.org/wiki/Vlindermolen_(Herman_Makkink)",
+        "evidence": "No cited source contains this Parool judgement"
+      },
+      {
+        "field": "body",
+        "old": "Makkink's bulging, unstruck mortar, as on his Wegwerphuisje by the Sloterplas",
+        "new": "Makkink's brickwork, a love also visible in his works by the Sloterplas",
+        "kind": "narrowed",
+        "source": "https://www.buitenkunstamsterdam.nl/Kunstwerken/696/vlindermolen",
+        "evidence": "'Makkink heeft een voorliefde voor metselwerk, zoals ook te zien is aan zijn kunstwerken aan de Sloterplas'; nothing describes the mortar"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een scheve bakstenen halve bol met een rieten koker en een bronzen vlinder erop, op de rotonde waar Nieuw-Sloten begint. Herman Makkink noemde het de Vlindermolen; de buurt ziet er een haas, een ei of een peer in, en weet: bijna thuis.",
+          "body": "Zie je de haas, dan ben je bijna thuis, zeggen ze in de buurt. Officieel heet dit ding Vlindermolen, maar zo noemen maar weinig mensen het. Vanuit sommige hoeken verdwijnt de vlinder en zit er ineens een paashaas op de rotonde. Anderen houden het op de peer of het ei.\n\nToen Nieuw-Sloten in de jaren negentig verrees, maakte Herman Makkink een herkenningsteken voor de rotonde waar je vanaf de A4 de nieuwe wijk in rijdt, op de Sloterweg bij de Anderlechtlaan (1998). Op een bakstenen halve bol, net niet waterpas, staat een koker bekleed met riet, afgedekt door een betonnen kap met een bronzen vlinder erop. De vleugels zitten waar een molen zijn wieken heeft, vandaar de naam, en de molenvorm herinnert aan de vele molens van de oude gemeente Sloten.\n\nOmdat het beeld scheef staat, verandert het van vorm terwijl je de rotonde rondrijdt. Het dient ook als oriëntatiepunt: er staat rondom geen hoge bebouwing. Voor omwonenden ligt hier de grens tussen Nieuw-Sloten en het oude dorp Sloten.\n\nLet op:\n- de 'oren' van de haas: rijd de rotonde rond en zie de vlinder verdwijnen\n- de met riet beklede molenromp boven de bakstenen halve bol\n- het metselwerk, waar Makkink een zwak voor had, net als bij zijn werken aan de Sloterplas"
+        }
+      },
+      "body": "When Nieuw-Sloten was built in the 1990s, Herman Makkink made a landmark for the roundabout where you enter the new district from the A4, the Sloterweg at the Anderlechtlaan (1998). On a brick half-ball, set slightly out of true, rises a tube clad in thatching reed, closed by a concrete cap with a bronze butterfly on top. The butterfly's wings sit where a windmill's sails would be, which gave the work its name, *Vlindermolen* (\"butterfly mill\"), and the mill shape recalls the many windmills of the old municipality of Sloten.\n\nFew people use that name. Seen from some angles the butterfly disappears and the whole thing becomes a sitting Easter hare, so it is *de haas* (\"the hare\") or the *Paashaas* to most; others call it the pear or the egg. Because it leans, it changes shape as you drive round. It doubles as a landmark, with no tall buildings around it, and residents describe it as the border between old Sloten village and Nieuw-Sloten: \"When I see the hare, I'm nearly home.\"\n\nLook for:\n- the hare's \"ears\": circle the roundabout and watch the butterfly vanish\n- the reed-thatched mill body above the brick half-ball\n- Makkink's brickwork, a love also visible in his works by the Sloterplas"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "l1hdxidz2vtt8euo0agirndh",
+    "title": "Bevrijde vogel, Sierplein",
+    "changes": [
+      {
+        "field": "body",
+        "old": "residents who wanted to attend the 4 May remembrance had to go to the monument on the Amstelveenseweg",
+        "new": "residents who wanted to attend the 4 May remembrance mostly went to the monument on the Amstelveenseweg",
+        "kind": "narrowed",
+        "source": "https://4en5meiamsterdam.nl/stories/herdenking-sierplein/",
+        "evidence": "'Tot dan bezoeken buurtbewoners die de dodenherdenking willen bijwonen vooral het monument op de Amstelveenseweg'"
+      },
+      {
+        "field": "body",
+        "old": "In February 2024 historian Pim Ligtvoet of the local committee added a rotating cube",
+        "new": "In 2024 historian Pim Ligtvoet of the local committee added a rotating cube",
+        "kind": "narrowed",
+        "source": "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1457/amsterdam-monument-op-het-sierplein",
+        "evidence": "Rodi reports the cube on 14 February 2024, but the Nationaal Comité says 'Op 4 mei 2024 werd een nieuw onderdeel van het monument onthuld: de Fotokubus'; the month is dropped"
+      },
+      {
+        "field": "body",
+        "old": "400 m west, the Louis Bouwmeesterschool",
+        "new": "nearby, the Louis Bouwmeesterschool",
+        "kind": "narrowed",
+        "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/380989/draaibare-kubus-toont-tweede-wereldoorlog-van-alle-kanten",
+        "evidence": "'Hiervoor werd de nabijgelegen Louis Bouwmeesterschool benaderd' (no distance or direction given)"
+      },
+      {
+        "field": "body",
+        "old": "(paragraph order)",
+        "new": "The cube paragraph now opens the body, as the Dutch does; same facts",
+        "kind": "reordered",
+        "source": "https://www.rodi.nl/amsterdam-nieuw-west/nieuws/380989/draaibare-kubus-toont-tweede-wereldoorlog-van-alle-kanten",
+        "evidence": "Reorder only"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een stalen vogel breekt uit zijn kooi, op een driehoekig podium dat verwijst naar de driehoeken uit de kampen. Sinds 2024 staat ernaast een draaibare kubus met zes kanten, die de oorlog ook vanuit Moluks, Surinaams, Marokkaans en Sinti-oogpunt laat zien.",
+          "body": "Draai er gerust aan: de kubus naast het monument is gemaakt om rond te draaien. Op zijn zes kanten staan onder anderen Anton de Kom uit het Surinaams-Nederlandse verzet, de Molukse verzetsstrijder Coosje Ayal, het Sinti-meisje Settela Steinbach en El Achir ben Bouali, een Marokkaanse soldaat die bij Zandvoort dood aanspoelde. Eén kant is voor tekeningen en gedichten van leerlingen van de Louis Bouwmeesterschool. Die school heeft het monument geadopteerd en houdt hier elk voorjaar een eigen herdenking. Historicus Pim Ligtvoet van het buurtcomité zette de kubus er in 2024 bij.\n\nIn de oorlog was Slotervaart nog weiland met hier en daar een boerderij. Toen de nieuwe wijk eenmaal vol stond, gingen bewoners die op 4 mei wilden herdenken meestal naar het monument aan de Amstelveenseweg. In 1978 begon het plaatselijke 4 en 5 mei-comité geld in te zamelen voor een eigen gedenkteken. In mei 1980 werd *Bevrijde vogel* van beeldhouwer Siep van den Berg onthuld, op een grasveldje op de hoek van de Pieter Calandlaan en de Johan Huizingalaan. Het plein eromheen werd in 1994 aangelegd en heet Sierplein, naar de sierbestrating.\n\nDe vogel ontsnapt aan een stalen kooi op een zwart stenen blok, dat zelf op een driehoekig podium staat: een verwijzing naar de gekleurde driehoeken die gevangenen in de Duitse kampen op hun kleding droegen. In 2017 kwam er een tegel bij voor twee vliegers van de RAF, waarnemer William Barrett en boordschutter Peter Adams, allebei 23. Ze kwamen om op 23 juni 1940, toen hun Blenheim-bommenwerper werd neergeschoten en in de nabije Riekerpolder neerstortte; de piloot overleefde dankzij zijn parachute.\n\nLet op:\n- de tegel uit 2017: 'Zij vielen voor onze vrijheid'\n- de kubus: draai eraan, en scan de QR-code voor de verhalen\n- vlakbij de Louis Bouwmeesterschool, die het monument adopteerde, gebouwd boven een schuilkelder uit de Koude Oorlog (zie 'Cold War shelter, Louis Bouwmeesterschool')"
+        }
+      },
+      "body": "In 2024 historian Pim Ligtvoet of the local committee added a rotating cube. Its six faces show, among others, Anton de Kom of the Surinamese-Dutch resistance, Moluccan fighter Coosje Ayal, Sinti girl Settela Steinbach and the Moroccan soldier El Achir ben Bouali, who washed up dead at Zandvoort. One face carries drawings and poems by pupils of the Louis Bouwmeesterschool, which has adopted the monument and holds its own remembrance here each spring.\n\nDuring the war Slotervaart was still meadows with a few farms. When the new neighbourhood had filled up, residents who wanted to attend the 4 May remembrance mostly went to the monument on the Amstelveenseweg. In 1978 the local 4 and 5 May committee started collecting money for a memorial of its own, and in May 1980 *Bevrijde vogel* (liberated bird) by sculptor Siep van den Berg was unveiled on the grass at the corner of the Pieter Calandlaan and Johan Huizingalaan. The square around it was laid out in 1994 and named Sierplein after its ornamental paving.\n\nThe bird flies off from a steel cage on a black stone block, set on a triangular platform: a reference to the coloured triangles prisoners had to wear in the German camps. In 2017 a tile was added for two RAF airmen, observer William Barrett and gunner Peter Adams, both 23, killed on 23 June 1940 when their Blenheim bomber was shot down and crashed in the nearby Riekerpolder; the pilot survived by parachute.\n\nLook for:\n- the 2017 tile, \"Zij vielen voor onze vrijheid\" (they fell for our freedom);\n- the cube: turn it, and use the QR code for the stories;\n- nearby, the Louis Bouwmeesterschool that adopted the monument, built over a Cold War public shelter (see \"Cold War shelter, Louis Bouwmeesterschool\")."
+    },
+    "sources_add": []
+  },
+  {
+    "id": "vyk5qo1oo3ae6j3ck6au9ipa",
+    "title": "Emergency waterworks of the Defence Line (Rijkshemelvaartdienst)",
+    "changes": [
+      {
+        "field": "summary",
+        "old": "A turreted de-ironing plant of 1901–1908",
+        "new": "A once-turreted de-ironing plant of 1901–1908",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/043e55ff-8e54-4765-a374-4a88669ab219",
+        "evidence": "'De torens zijn echter in de jaren ’50 al verdwenen'; only one was rebuilt in wood"
+      },
+      {
+        "field": "body",
+        "old": "Its corner towers earned it the nickname",
+        "new": "The towers on its stair halls at either end earned it the nickname",
+        "kind": "narrowed",
+        "source": "https://data.amsterdam.nl/monumenten/043e55ff-8e54-4765-a374-4a88669ab219",
+        "evidence": "'een tweetal trappenhuizen die aan de kopse kanten van het gebouw zijn gesitueerd. Oorspronkelijk waren deze voorzien van torens, waardoor het pand ook wel als Het Kasteel werd aangeduid'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een ontijzeringsgebouw uit 1901-1908, ooit met torens, dat bij een belegering een miljoen mensen aan drinkwater moest helpen. Het is één keer gebruikt, in de oorlog, en toen bleek het water ondrinkbaar. Nu zitten er krakers met kunst en het museum van de luchtverkeersleiding.",
+          "body": "Gebouwd voor een miljoen dorstige mensen, één keer aangezet, en toen kwam er ondrinkbaar water uit. Dat is in het kort het verhaal van de nooddrinkwatervoorziening bij Fort Nieuwe Meer.\n\nWerd Amsterdam belegerd, dan lag het duinwater buiten de Stelling. Daarom begon het leger hier in 1901 aan een van de grootste ondersteunende complexen van de verdedigingslinie: ruim honderd putten langs de Ringvaart en in de Riekerpolder, een stoomgemaal, een ontijzeringsinrichting, zandfilters en enorme ondergrondse reinwaterkelders, genoeg voor een miljoen soldaten en vluchtelingen. In 1908 ging de capaciteit omhoog naar het dubbele, 15.000 m³ per dag.\n\nIn het ontijzeringsgebouw kun je het proces nog volgen. Uit een betonnen goot onder het dak werd het water als nevel verstoven. Het ijzer reageerde met de lucht die door lamellenluiken naar binnen kwam, en daarna zakte het water door drie meter cokes op de verdieping eronder. Tegen het vocht kregen de muren oranje geglazuurde tegels, en op de dakpanelen staan nog altijd de geschilderde nummers 1 tot en met 48. Door de torens op de trappenhuizen aan beide uiteinden heette het gebouw in de volksmond Het Kasteel. In de Tweede Wereldoorlog is het systeem één keer in bedrijf geweest; het water bleek niet te drinken.\n\nVanaf 1950 nam de luchtvaartdienst het machinegebouw in chaletstijl over, en daar zit nog altijd het bedrijfsmuseum van LVNL. Later trokken krakers het ontijzeringsgebouw, de werkplaats en de kelder in. Ze noemden zich de Rijkshemelvaartdienst, een woordgrap op de Rijksluchtvaartdienst en Hemelvaart, en houden er sindsdien ateliers en festivals.\n\nLet op:\n- het rode bakstenen gebouw van drie lagen met 12 traveeën en zaagtandmetselwerk\n- de ene traptoren die in hout is herbouwd en nu een studio is\n- de overstekende dakranden van het machinegebouw op gesneden houten consoles"
+        }
+      },
+      "summary": "A once-turreted de-ironing plant of 1901–1908 meant to give a million people drinking water during a siege. Used only once, in the war, when the water proved undrinkable; now squatted art space and air traffic control's museum.",
+      "body": "The Defence Line of Amsterdam would have cut the city off from its dune water. So in 1901 the army began building, near Fort Nieuwe Meer, one of the largest support complexes of the line: more than a hundred wells along the Ringvaart and in the Riekerpolder, a steam pumping house, a *ontijzeringsinrichting* (de-ironing plant), sand filters and huge underground clean-water cellars, enough for a million soldiers and refugees. In 1908 the capacity was doubled to 15,000 m³ a day.\n\nThe process is still legible in the de-ironing building. Water was sprayed as mist from a concrete gutter under the roof; the iron oxidised in air let in through louvred shutters and the water then seeped through a three-metre layer of coke on the floor below. The walls were tiled in orange glazed tiles against the damp, and the roof panels still carry painted numbers 1 to 48. The towers on its stair halls at either end earned it the nickname *Het Kasteel* (the castle). The system was used only once, during the Second World War, and the water turned out to be undrinkable.\n\nFrom 1950 the air traffic service took over the chalet-like machine building, which still holds the company museum of LVNL. Later, squatters calling themselves the *Rijkshemelvaartdienst* (a pun on the state aviation service and Ascension Day) moved into the de-ironing plant, workshop and cellar, and have run studios and festivals there since.\n\nLook for:\n- the three-storey red-brick plant with 12 bays and sawtooth brickwork\n- one stair tower rebuilt in wood as a studio\n- the machine building's overhanging eaves on carved brackets"
+    },
+    "sources_add": []
+  },
+  {
+    "id": "jz973te4vskb07uehgf3gnoy",
+    "title": "Satéprikkers (Kubus-spiegel-palen)",
+    "changes": [],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twee lantaarnpalen schieten schuin omhoog naast het viaduct van de Cornelis Lelylaan, elk met een gekleurde kubus van acryl waarin een spiegel de paal in tweeën lijkt te knakken. Joost van Santen bedoelde een poort naar Slotervaart; de buurt zegt satéprikkers.",
+          "body": "De kunstenaar bedoelde een poort naar Slotervaart, de buurt zag satéprikkers.\n\nWaar de Cornelis Lelylaan over een viaduct de Johan Huizingalaan kruist (brug 705, een gemeentelijk monument), zette Joost van Santen in 1981 een werk zonder titel neer. Meestal heet het gewoon *Kubus-spiegel-palen*, naar wat je ziet. Aan weerskanten van het viaduct steekt een gewone lantaarnpaal van ruim 20 meter schuin uit het gras. Over de noordelijke schoof hij een oranje kubus van acryl, over de zuidelijke een blauwe. In elke kubus staat schuin een spiegel, waardoor de paal lijkt te breken en een stukje opzij te verspringen.\n\nLicht staat centraal in het werk van Van Santen, die vaak gekleurd glas en weerspiegelingen gebruikt. Waar de opdracht precies vandaan kwam, wist hij later niet meer. Hij reed de Lelylaan af op zoek naar ruimte voor iets groots en koos deze kruising. Eind 2023 werd de blauwe kubus, die door storm beschadigd was, vervangen; de nieuwe is lichter van kleur dan de oude.\n\nLet op:\n- de 'breuk' in elke paal, het duidelijkst als je recht in de spiegel kijkt\n- de vervangen blauwe kubus, bleker dan op oudere foto's\n- het viaduct zelf (brug 705), sinds 2008 gemeentelijk monument"
+        }
+      }
+    },
+    "sources_add": []
+  },
+  {
+    "id": "nhr0mi6ntvijco6x4japk71s",
+    "title": "Calvariekerk (Overtoomse Veld)",
+    "changes": [
+      {
+        "field": "body",
+        "old": "built this one in 1956–1957",
+        "new": "(unchanged)",
+        "kind": "sourced",
+        "source": "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200568",
+        "evidence": "jaarBeginVan '1956', jaarBeginTot '1957', architectOntwerp 'Hartman, M.E.' (the register text itself gives no dates)"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Een sobere jaren-vijftigkerk aan de Postjesweg, door de gemeente gebouwd voor het Apostolisch Genootschap, met glas-in-lood van plint tot dakrand langs beide lange gevels. Sinds 1982 een pinkstergemeente.",
+          "body": "Wie over de Postjesweg de A10 achter zich laat, rijdt het Overtoomse Veld binnen tussen twee kerken die als bakens de randen van de buurt markeren: deze op de hoek van de Derkinderenstraat, en verderop naar het westen de Herdenkingskerk. Deze bouwde de gemeente Amsterdam in 1956-1957 voor het Apostolisch Genootschap, naar ontwerp van de Hilversumse architect M.E. Hartman, die verder vooral in zijn eigen woonplaats bouwde.\n\nHet is een ouderwetse rechthoekige kerk in naoorlogse kleren: lichtbruine baksteen, betonnen omlijstingen, een flauw schilddak. In de zaal passen 446 mensen, op het balkon aan de westkant nog eens 166, en aan de oostkant staat een vast orgel. Waar veel naoorlogse kerken ook zalen voor de buurt kregen, diende hier bijna alles de eredienst. Een brede trap voert naar een diep portiek onder een betonnen luifel op vier kolommen.\n\nIn 1982 vertrok het Apostolisch Genootschap. De pinkstergemeente van evangelist Johan Maasbach nam het gebouw over en gaf het de naam Calvariekerk.\n\nLet op:\n- de middenstrook van elke lange gevel, door betonnen kolommen in zeven vakken verdeeld en gevuld met glas-in-lood\n- de kleine vensters met brede betonnen lijsten voor de bijruimtes\n- de verhoogde ingang met de luifel op vier kolommen"
+        }
+      }
+    },
+    "sources_add": [
+      "https://api.data.amsterdam.nl/v1/monumenten/monumenten/?monumentnummer=200568"
+    ]
+  },
+  {
+    "id": "vhuahbl5g179stlv27auxp9w",
+    "title": "Farm workers' cottages, Sloterweg 833-837",
+    "changes": [
+      {
+        "field": "body",
+        "old": "Housing workers on the farm was one way to keep good staff.",
+        "new": "Housing workers was one way for farmers to tie staff to the farm.",
+        "kind": "narrowed",
+        "source": "https://slotenoudosdorp.nl/zeldzame-landarbeiderswoningen-worden-gemeentelijk-monument/",
+        "evidence": "'de economische drijfveer van sommige boeren om personeel aan hun bedrijf binden door in woningen te voorzien' ('good' not in source)"
+      },
+      {
+        "field": "body",
+        "old": "A local campaign in 2020 tried to save the very last ones; these two survived and were listed in December 2021 for their rarity.",
+        "new": "In 2020 a local campaign tried to save other workers' cottages on the road; since then these two are the last of their kind there, and they were listed in December 2021 for their rarity.",
+        "kind": "narrowed",
+        "source": "https://slotenoudosdorp.nl/laatste-kans-voor-arbeiderswoningen/",
+        "evidence": "The 2020 campaign concerned 'De arbeidershuisjes aan de Sloterweg 711-715', not these; register: 'Sinds 2020 zijn deze landarbeiderswoningen de laatste bouwwerken met een dergelijke typologie die nog aan de Sloterweg te vinden zijn'"
+      },
+      {
+        "field": "body",
+        "old": "With the villas a little further east, they show the road's change from farmland to suburb.",
+        "new": "(cut)",
+        "kind": "cut",
+        "source": "https://data.amsterdam.nl/monumenten/0f1b3097-7da6-4ae8-8bec-c74c22e9d386",
+        "evidence": "No source mentions nearby villas or this reading; the register only calls the road 'nog gedeeltelijk landelijk ogende'"
+      }
+    ],
+    "patch": {
+      "translations": {
+        "nl": {
+          "summary": "Twee identieke blokjes met elk twee landarbeiderswoningen uit 1901, gebouwd door de veehouder aan de overkant om zijn knechten dichtbij te hebben. Sinds 2020 zijn het de laatste in hun soort aan de Sloterweg.",
+          "body": "Vroeger stonden er langs de Sloterweg veel van zulke huisjes. Sinds 2020 zijn dit de laatste.\n\nIn 1901 liet J.J. van der Veldt, eigenaar en bewoner van boerderij *Veldzicht* schuin aan de overkant (Sloterweg 824), twee gelijke blokjes bouwen met elk twee woningen voor zijn knechten. Een huis aanbieden was voor boeren een manier om personeel aan het bedrijf te binden. De blokjes hebben een begane grond en een zolder onder een zadeldak met de nok langs de weg, en zijn met meer zorg vormgegeven dan je voor arbeidershuisjes zou verwachten. Later werd elk blokje één woning en is de achterkant van nummer 833 flink verbouwd, maar vanaf de weg zien ze er nog vrijwel hetzelfde uit.\n\nIn 2020 probeerde een buurtactie andere arbeidershuisjes aan de weg te redden. Sindsdien zijn deze twee de laatste van hun soort hier, en in december 2021 werden ze vanwege die zeldzaamheid gemeentelijk monument.\n\nLet op:\n- de twee gelijke voorgevels naast elkaar\n- de band met boerderij Veldzicht, aan de overkant op nummer 824"
+        }
+      },
+      "body": "In 1901 J.J. van der Veldt, who owned and lived at the farm *Veldzicht* diagonally across the road (Sloterweg 824), built two identical little blocks, each holding two homes for his farmhands. Housing workers was one way for farmers to tie staff to the farm. The blocks have a ground floor and attic under a pitched roof running parallel to the road, carefully detailed for what they were. They were later turned into single houses, and the back of no. 833 was rebuilt, but from the road they look much as they did.\n\nThe Sloterweg was once lined with such cottages. In 2020 a local campaign tried to save other workers' cottages on the road; since then these two are the last of their kind there, and they were listed in December 2021 for their rarity.\n\nLook for:\n- the two matching fronts side by side\n- the link with farm Veldzicht, across the road at no. 824"
+    },
+    "sources_add": []
+  }
+]
