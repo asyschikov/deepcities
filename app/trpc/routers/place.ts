@@ -358,7 +358,11 @@ export const placeRouter = router({
         /** As the map it is opened on shows it (a view's own values merged). */
         place: withOverride(found, overrides?.get(found.id)),
         /** The home place's own values of what a view may override. */
-        base: { attributes: found.attributes, category: found.category },
+        base: {
+          attributes: found.attributes,
+          category: found.category,
+          translations: found.translations,
+        },
         /** The view it is opened on (its values are in `place`), or null. */
         viewId: viewMap?.id ?? null,
         /** Photo metadata (attribution) in `photoIds` order. */

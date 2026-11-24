@@ -23,10 +23,45 @@ import { stableJson } from "~/lib/overrides";
 import {
   type Attributes,
   type FieldDef,
+  type OverrideTranslations,
   type PlaceDraft,
+  type PlaceTranslations,
   placeDraftSchema,
 } from "~/lib/validation";
 import { useTRPC } from "~/trpc/client";
+
+const langsOf = (...ts: object[]): ContentLang[] =>
+  [...new Set(ts.flatMap((t) => Object.keys(t)))] as ContentLang[];
+
+/** `t` with each language's translated field values taken from `from`. */
+const withFieldTranslations = (
+  t: PlaceTranslations,
+  from: PlaceTranslations,
+): PlaceTranslations =>
+  Object.fromEntries(
+    langsOf(t, from).flatMap((lang) => {
+      const { attributes: _, ...texts } = t[lang] ?? {};
+      const attributes = from[lang]?.attributes;
+      const entry = { ...texts, ...(attributes ? { attributes } : {}) };
+      return Object.keys(entry).length > 0 ? [[lang, entry]] : [];
+    }),
+  );
+
+/** Only the translated values of the fields `keys` names. */
+const fieldTranslations = (
+  t: PlaceTranslations,
+  keys: Set<string>,
+): OverrideTranslations =>
+  Object.fromEntries(
+    langsOf(t).flatMap((lang) => {
+      const kept = Object.entries(t[lang]?.attributes ?? {}).filter(([k]) =>
+        keys.has(k),
+      );
+      return kept.length > 0
+        ? [[lang, { attributes: Object.fromEntries(kept) }]]
+        : [];
+    }),
+  );
 
 const AREA_FIELDS = [
   "municipality",
@@ -197,7 +232,11 @@ export const PlaceForm = ({
    */
   viewValues?: {
     collectionId: string;
-    base: { attributes: Attributes; category: string };
+    base: {
+      attributes: Attributes;
+      category: string;
+      translations: PlaceTranslations;
+    };
   };
   onDone: (result: {
     status: "approved" | "pending";
@@ -268,16 +307,15 @@ export const PlaceForm = ({
           },
         }))
       : set("attributes", { ...form.attributes, [key]: value });
-  // Translations belong to the home place: a view's own fields have none.
-  const viewOwn = new Set(
-    view.collection.view ? view.collection.ownFields.map((f) => f.key) : [],
-  );
+  // On a view, translated field values are the view's own (an override).
   const shownDefs = translating
-    ? defs.filter(
-        (d) =>
-          (d.type === "text" || d.type === "longtext") && !viewOwn.has(d.key),
-      )
+    ? defs.filter((d) => d.type === "text" || d.type === "longtext")
     : defs;
+  const textKeys = new Set(
+    allDefs
+      .filter((d) => d.type === "text" || d.type === "longtext")
+      .map((d) => d.key),
+  );
 
   // Turn on pin-picking on the map while this form is open.
   useEffect(() => {
@@ -334,13 +372,22 @@ export const PlaceForm = ({
   ) => {
     const before = initial ? placeDraftSchema.safeParse(initial) : null;
     const homePart = (d: PlaceDraft) =>
-      stableJson({ ...d, attributes: on.base.attributes, category: "" });
+      stableJson({
+        ...d,
+        attributes: on.base.attributes,
+        category: "",
+        translations: withFieldTranslations(d.translations, {}),
+      });
     const homeChanged =
       !before?.success || homePart(before.data) !== homePart(parsed);
+    const viewTranslations = (d: PlaceDraft) =>
+      fieldTranslations(d.translations, textKeys);
     const valuesChanged =
       !before?.success ||
       before.data.category !== parsed.category ||
-      stableJson(before.data.attributes) !== stableJson(parsed.attributes);
+      stableJson(before.data.attributes) !== stableJson(parsed.attributes) ||
+      stableJson(viewTranslations(before.data)) !==
+        stableJson(viewTranslations(parsed));
     try {
       const results = [
         ...(valuesChanged
@@ -354,6 +401,9 @@ export const PlaceForm = ({
                 attributes: Object.fromEntries(
                   allDefs.map((d) => [d.key, parsed.attributes[d.key] ?? null]),
                 ),
+                // Translated field values as the view shows them (those
+                // equal to the home place's are not stored).
+                translations: viewTranslations(parsed),
                 note,
               }),
             ]
@@ -367,6 +417,10 @@ export const PlaceForm = ({
                   ...parsed,
                   attributes: on.base.attributes,
                   category: on.base.category,
+                  translations: withFieldTranslations(
+                    parsed.translations,
+                    on.base.translations,
+                  ),
                 },
                 note,
               }),

@@ -65,11 +65,13 @@ WRITE  (contributors: goes to review; moderators/admins: published immediately)
   dc override <viewSlug> <placeId> <patch|-> [--note TEXT] [--dry-run]
                                            the view's own values for a place: {"attributes"?:
                                            {key: value | null}, "category"?: KEY | null,
-                                           "revert"?: [key | "category"], "reset"?: true};
-                                           merged onto the view's current override
+                                           "translations"?: {"nl": {"attributes":
+                                           {key: "…" | null}}}, "revert"?: [key |
+                                           "category"], "reset"?: true}; merged onto
+                                           the view's current override
   dc override-many <viewSlug> <file.json|-> [--note TEXT] [--dry-run]
-                                           [{"id", "attributes"?, "category"?, "revert"?,
-                                           "reset"?, "note"?}]
+                                           [{"id", "attributes"?, "category"?,
+                                           "translations"?, "revert"?, "reset"?, "note"?}]
   dc archive-many <file.json|-> --note TEXT [--dry-run]
                                            ["id", …] or [{"id", "note"?}]
   dc copy <slug> <placeId>... [--category KEY] [--note TEXT] [--dry-run]
@@ -171,8 +173,13 @@ VIEWS AND CLUSTERS
   view's review queue and permissions (moderators+ publish immediately).
     dc override centrum <placeId> '{"attributes": {"rank": "Amazing"}}'
     dc override centrum <placeId> '{"revert": ["rank"]}'     back to the home value
+  An override may translate text field values too ("translations", the shape
+  places use): they replace the home translations per language and key, and a
+  key the view gives a value of its own no longer shows the home translation.
+    dc override hofjes <placeId> '{"translations": {"en": {"attributes": {"access": "…"}}}}'
   A view may also define fields of its own (dc fields <view>): shown after the
-  source's fields, with values only in its overrides.
+  source's fields, with values only in its overrides. "sourceFields" in its
+  view (dc map-view) limits which of the source's fields it shows.
 
 LIST VIEWS  (theme maps whose places are picked one by one)
   A list view ({"source": "<slug>", "list": true}, see \`dc map-view\`) shows
@@ -196,7 +203,8 @@ LIST VIEWS  (theme maps whose places are picked one by one)
                                            ones are created in the source ("detail" from
                                            the draft, default "theme") and added. A draft
                                            may carry "override": {"attributes"?,
-                                           "category"?}: the view's own values, applied
+                                           "category"?, "translations"?}: the view's
+                                           own values, applied
                                            after. Reports per item ("list", "override")
   dc places <view> / dc export <view>      what the list shows, with its own values
 
@@ -230,7 +238,7 @@ const SCHEMA = {
     detail:
       'optional, "city" (shown on the home, citywide map), "district" (only in full-detail views, e.g. Deep Centrum) or "theme" (only in list views that include it). Left out, an update keeps it; a new place gets "city", "district" when created through a full-detail view, "theme" through a list view',
     override:
-      'import into a list view only: {"attributes"?, "category"?}, the view\'s own values for the place (see "override"), applied after it is created or matched',
+      'import into a list view only: {"attributes"?, "category"?, "translations"?}, the view\'s own values for the place (see "override"), applied after it is created or matched',
     photos: "CLI-only convenience, see `dc help`",
   },
   mapView: {
@@ -241,6 +249,8 @@ const SCHEMA = {
       'optional filter, every listed key must match one of its values: {"borough": ["Centrum"], "neighbourhood": [...], "subNeighbourhood": [...], "category": [...]}',
     detail:
       '"city": the source\'s city-level places that match; "full": every matching place except clusters with parts and "theme" places (the leaves at full detail). Required unless "list"',
+    sourceFields:
+      'optional array of the source\'s field keys the view shows (before its own fields), e.g. ["rank"] or [] for none; left out: all of them. Applies to place lists, filter chips, place pages and edit forms on the view',
   },
   override: {
     attributes:
@@ -249,6 +259,8 @@ const SCHEMA = {
       "optional category key (the source's categories) shown on the view; null: the home category",
     revert:
       'optional array of field keys (or "category") to take from the home place again',
+    translations:
+      'optional {"nl": {"attributes": {<text/longtext field key>: "…" | null}}}: the view\'s translations of text field values (its own fields or overridden source ones), merged per language and key; null drops the view\'s translation. Shown when a reader switches content language; a key the view gives a value of its own no longer shows the home translation. Reverting a key drops its translations too',
     reset:
       "optional true: drop the view's current override first, then apply the rest",
     stored:
@@ -947,13 +959,20 @@ const editPlace = async (
   );
 };
 
-const OVERRIDE_KEYS = ["attributes", "category", "revert", "reset"];
+const OVERRIDE_KEYS = [
+  "attributes",
+  "category",
+  "translations",
+  "revert",
+  "reset",
+];
 
 /**
  * Propose a view map's own values for one place: `{attributes?, category?,
- * revert?, reset?}` merged onto the view's current override (attributes per
- * key, null: no value on this map; category null or revert: back to the
- * home value). With `dryRun`, the diff of what the view shows.
+ * translations?, revert?, reset?}` merged onto the view's current override
+ * (attributes per key, null: no value on this map; category null or revert:
+ * back to the home value; translations per language and key, null drops
+ * one). With `dryRun`, the diff of what the view shows.
  */
 const overridePlace = async (
   view: { id: string; slug: string },
@@ -968,13 +987,16 @@ const overridePlace = async (
       `Unknown override keys: ${bad.join(", ")} (expected ${OVERRIDE_KEYS.join(", ")}; texts, location and photos: dc update)`,
       "BAD_JSON",
     );
-  if (
-    given.attributes !== undefined &&
-    (typeof given.attributes !== "object" ||
-      given.attributes === null ||
-      Array.isArray(given.attributes))
-  )
+  const notObject = (v: unknown) =>
+    v !== undefined &&
+    (typeof v !== "object" || v === null || Array.isArray(v));
+  if (notObject(given.attributes))
     throw new CliError('"attributes" must be an object', "BAD_JSON");
+  if (notObject(given.translations))
+    throw new CliError(
+      '"translations" must be an object: {"nl": {"attributes": {key: "…"}}}',
+      "BAD_JSON",
+    );
   const input = {
     collectionId: view.id,
     placeId,

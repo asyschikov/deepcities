@@ -13,8 +13,10 @@ debatable, standing out, old or new. Listed monuments are the backbone. Beyond t
 murals and public art, hidden history, curiosities, odd museums and green escapes.
 
 **A-list sights are on the map too, for completeness** (user's decision, 2026-11-25): the
-famous places every guidebook has. Mark them `attributes: {a_list: A-list}` and give them
-**no rank** (the rank compares hidden places; the Rijksmuseum would only flood Amazing). Keep
+famous places every guidebook has. Mark them `attributes: {a_list: A-list}` **and rank them
+like any other place**, on the same detour scale: no bonus for fame, no penalty for crowds. The
+label is a fact about fame, the rank our judgement. Keep the label strict (guidebook top tier
+only; borderline places like the Westergasfabriek stay unlabelled). Keep
 them short and write the deep angle, not the guidebook text: the odd detail, the dispute, the
 thing most visitors walk past. Centrum's A-list goes on both maps.
 
@@ -276,7 +278,7 @@ your own when you're done. Review what comes back; don't trust it blindly.
 - **Needs checking** (fields `check` and `check_note`). The body states only what is confirmed. When something can be settled on site, flag it instead of hedging in the text: `check: Location` (pin approximate), `Still there?` (no recent evidence it exists) or `Facts` (sources disagree on something that matters), and `check_note`: one line saying what exactly, also in `nl.attributes.check_note`. Readers can filter on it and go and look. One value per place: the biggest doubt goes in `check`, the note covers the rest. Don't flag parks or long walls pinned on a sensible point, or gone things. Clear both fields (`null`) once checked.
 - **Outlook** (fields `outlook`, `outlook_when`, `outlook_note`). When a place is known or likely to change or disappear (lease ends, demolition decided, renovation, a fight over its future), set `outlook` (Leaving or closing / Demolition planned / Under threat / Major change ahead / Temporarily closed), `outlook_when` if known ("early 2028") and a one-line `outlook_note`; both text fields also in `nl.attributes`. Say it in the body too, plainly. When the change happens, update the place (or mark it Gone) and clear the three fields. The map can be filtered on Outlook to keep tabs on these.
 - **Exact location.** Pin the object itself: the mural's wall, the statue, the entrance. Never a street centroid. Use 6 decimals.
-- **Rank.** Set `attributes.rank`: `Amazing` (worth going out of your way; rare, about 1 in 20), `Nice` (worth a stop if you're near), or `Okay` (a footnote for completists: plain listed fronts, small plaques, gone things without a strong story). Add new ranks to `scripts/data/amsterdam-c-list-ranks.json`. A-list places get no rank (see the top of this skill).
+- **Rank.** Set `attributes.rank`: `Amazing` (worth going out of your way; rare, about 1 in 20), `Nice` (worth a stop if you're near), or `Okay` (a footnote for completists: plain listed fronts, small plaques, gone things without a strong story). Add new ranks to `scripts/data/amsterdam-c-list-ranks.json`. A-list places are ranked too (see the top of this skill).
 - **Visiting.** Say whether and how it can be seen: from the street, opening hours, seasonal (e.g. "on the pond mid-April to end October"), private.
 - **Find the hook.** Read the whole source, not just the description: the register's *cultuurhistorische context* (or "Redengevende omschrijving") and the end of the Wikipedia article are where the stories are (a plot meant for a market, a newspaper founded in secret, a church that became a recording studio). A listing alone is not a story: if a monument has none, it goes into an ensemble at Okay rather than getting a register summary of its own.
 - **Only what a visitor can see.** Don't describe interiors of private homes, working schools or offices unless you say they're closed, and say what *is* visible from the street. Give the current use and, where there is one, the way in (opening hours, services, concerts).

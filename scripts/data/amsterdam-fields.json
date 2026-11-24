@@ -12,7 +12,7 @@
     "label": "A-list",
     "type": "select",
     "options": ["A-list"],
-    "help": "Set for the famous sights every guidebook has; they are on the map for completeness and get no rank.",
+    "help": "Set for the famous sights every guidebook puts in its top tier (kept strict). A label only: these places are ranked like any other.",
     "filter": true
   },
   {

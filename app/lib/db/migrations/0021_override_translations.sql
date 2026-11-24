@@ -1,0 +1,1 @@
+ALTER TABLE `place_override` ADD `translations` text;

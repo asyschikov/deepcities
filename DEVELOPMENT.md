@@ -83,7 +83,19 @@ TanStack Query, shadcn/Tailwind 4, react-i18next, Biome, Vitest. Differences:
   and category as an override and the rest as a home edit. A view's
   `collection.fields` are fields it adds: it displays its source's fields, then
   its own (keys must differ; `collection.setFields`, `dc fields <view>`), and their
-  values live only in overrides. CLI: `dc override`, `dc override-many`.
+  values live only in overrides. `view.sourceFields` (optional list of source
+  field keys, checked by `collection.setView`; `[]` none, left out all) limits
+  which source fields the view shows: everything reading a view's fields
+  (`shapeOf`, `collection.bySlug`) goes through `displayedFields`, so lists,
+  filter chips, place pages and the edit form follow it. Overrides may also
+  translate text field values (`place_override.translations`, the place shape
+  `{nl: {attributes: {key: "…"}}}`): on the view they replace the home
+  translations per language and key, and a key the override gives a value of
+  its own drops the home translations of that key (`effectiveTranslations`).
+  Translations equal to the home one (for keys the override doesn't set) or
+  of keys without a value are not stored. On a view the edit form sends
+  translated field values as part of the override, never to the home place.
+  CLI: `dc override`, `dc override-many` (both take `translations`).
 - **List views (theme maps).** `collection.view = {source, list: true}` (no
   `where`/`detail`) shows exactly the source places in `collection_place` (list
   view + place, primary key both), at any detail, if published. `place.detail`
