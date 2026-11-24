@@ -1,0 +1,492 @@
+# Zuid round 1, slice museum-d: east side of the Museumkwartier (Hobbemastraat, Stadhouderskade,
+# Johannes Vermeerstraat, Teniersstraat, Pieter de Hoochstraat, Hobbemakade, Roelof Hartstraat,
+# Pieter Baststraat). 41 records: 40 in the 18 places below (8 single-record places, 10 groups or
+# ensembles), 1 parked as A-list (Rijksmuseum main building, see notes/museum-d.md).
+
+# ================================================================ Around the Rijksmuseum
+
+- title: Zuiderbad
+  summary: "You climb a staircase to reach the water, because this pool of 1912 stands on the floor of an indoor cycling school of 1898. Its swimmers have saved it from demolition twice. The sand filter from the opening year still works."
+  body: |
+    You climb a flight of stairs to get into this pool, because the building was never meant to hold water. The hall went up in 1898 as Velox, an indoor cycling school where the well-to-do learned to ride out of the rain. The bicycle dealer Willem Vrolijk had it built to a design by Jonas Ingenohl. The craze passed, the school closed within a few years and the hall became a showroom and exhibition space; in 1909 there was even a plan for an artificial ice rink.
+
+    The surgeon Otto Lanz, who held that swimming made people healthier, had it turned into a pool. The architect Jan Stuyt simply set the basin, 700,000 litres, on the old riding floor. The Zuiderbad opened on 23 March 1912 with central heating and electric light, so that people could swim in winter and after dark.
+
+    In 1978 the city wanted the site for a railway terminus that never came. The regulars campaigned under the slogan "Houdt het Zuiderbad nat" (keep the Zuiderbad wet) and won. In 1995 it was threatened again and saved again; from 1999 it was restored.
+
+    It is a working city pool: buy a ticket and swim. The hours for lane and free swimming differ by day, so check the timetable first.
+
+    Look for:
+    - the tile panel with waves and the name above the entrance
+    - the stepped gable of the hall rising behind the entrance block
+    - the small quarter-round pavilion on the canal corner, once showroom and lunch room
+    - inside: the wooden changing cubicles along the edge of the pool
+    - inside: the tiled fountain with the city arms at the south end
+    - inside: the iron roof trusses of the cycling hall
+  category: civic
+  lat: 52.358673
+  lng: 4.886026
+  address: Hobbemastraat 26
+  links:
+    - { label: Rijksmonumentenregister (505901), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505901" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/747fc7a4-7b1c-4ffc-8b09-ff3b8ecfb398" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Zuiderbad" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Zuiderbad" }
+    - { label: Zuiderbad (timetable), url: "https://www.amsterdam.nl/zuiderbad/" }
+  attributes:
+    rank: Amazing
+    heritage_status: National monument
+    monument_number: "505901"
+    built: "1898"
+    architect: Jonas Ingenohl; conversion Jan Stuyt and E. Verschuijl (1911)
+    listed: 1996
+    original_use: Indoor cycling school
+  photos:
+    - commons:File:Zuiderbad foto 1.JPG
+    - commons:File:Zuiderbad-zwembad-amsterdam-1363172856.jpg
+    - commons:File:Zuiderbad.jpg
+  sources:
+    - rce:505901 (register description)
+    - https://nl.wikipedia.org/wiki/Zuiderbad
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Zuiderbad
+  nl:
+    title: Zuiderbad
+    summary: "Je moet een trap op om bij het water te komen, want dit zwembad uit 1912 staat op de vloer van een overdekte wielrijschool uit 1898. De zwemmers hebben het twee keer van de sloop gered. Het zandfilter uit het openingsjaar doet het nog."
+    body: |
+      Wie hier wil zwemmen, moet eerst een trap op. Het gebouw is namelijk nooit voor water bedoeld. De hal werd in 1898 gebouwd als Velox, een overdekte wielrijschool waar de betere kringen droog konden leren fietsen. Rijwielhandelaar Willem Vrolijk liet hem ontwerpen door Jonas Ingenohl. De rage ging voorbij, de school hield het maar een paar jaar vol en daarna was de hal showroom en tentoonstellingsruimte. In 1909 lag er zelfs een plan voor een kunstijsbaan.
+
+      De chirurg Otto Lanz, die vond dat mensen van zwemmen gezonder werden, liet er een zwembad van maken. Architect Jan Stuyt zette de bak, 700.000 liter, gewoon boven op de oude rijvloer. Op 23 maart 1912 ging het Zuiderbad open, met centrale verwarming en elektrisch licht, zodat je ook 's winters en in het donker kon zwemmen.
+
+      In 1978 wilde de gemeente hier een kopstation bouwen dat er nooit gekomen is. De vaste zwemmers voerden actie onder de leus 'Houdt het Zuiderbad nat' en wonnen. In 1995 dreigde opnieuw sluiting en opnieuw bleef het bad open; vanaf 1999 is het opgeknapt.
+
+      Het is een gewoon gemeentelijk zwembad: kaartje kopen en zwemmen. De tijden voor banenzwemmen en vrij zwemmen verschillen per dag, dus kijk eerst op het rooster.
+
+      Let op:
+      - het tegeltableau met golven en de naam boven de ingang
+      - de trapgevel van de hal die achter het voorgebouw uitsteekt
+      - het kleine kwartronde paviljoen op de hoek van de kade, vroeger showroom en lunchroom
+      - binnen: de houten kleedhokjes langs de badrand
+      - binnen: de betegelde fontein met het stadswapen aan de zuidkant
+      - binnen: de ijzeren kap van de fietshal
+    attributes:
+      architect: Jonas Ingenohl; verbouwing Jan Stuyt en E. Verschuijl (1911)
+      original_use: Overdekte wielrijschool
+    sources:
+      - rce:505901 (omschrijving)
+      - https://nl.wikipedia.org/wiki/Zuiderbad
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Zuiderbad
+
+- title: "Rijksmuseum garden: city gates without a city"
+  summary: "Free and open by day: the garden around the Rijksmuseum is an open-air museum of demolished buildings. City gates from Groningen and Deventer stand bricked together, with a canal-house balcony of 1674 wedged between them."
+  body: |
+    Most visitors cross this garden on their way to the ticket desk. It is a museum of its own, it costs nothing, and its exhibits are pieces of buildings that the nineteenth century pulled down.
+
+    Pierre Cuypers, the museum's architect, designed it in 1884 as a lesson in Dutch garden styles from the sixteenth to the eighteenth century, and set rescued fragments in it. His models were the gardens of the Musée de Cluny in Paris and the Germanisches Nationalmuseum in Nuremberg: the garden as an outdoor gallery. It was laid out between 1884 and 1916 and kept low, so that the buildings stay in view. The Gothic Revival iron fence around it dates from 1883.
+
+    Statues and garden ornaments come and go, but the gates are too big to move and are protected together with the garden. After the museum's rebuilding of 2003–2013 the garden was replanted; every summer it shows work by one twentieth-century sculptor.
+
+    The gates are locked at night. By day you walk in without a ticket.
+
+    Look for:
+    - south-west corner: the Herenpoort from Groningen and the Bergpoort from Deventer, built against each other
+    - in the gap between them: a balcony of 1674 from Herengracht 625
+    - south side: the gate of the Duitse Huis in Utrecht and the Stadhouderspoort from The Hague, both of 1617 and also joined
+    - a garden dome from Haarlem (1730) with fragments set into its walls
+    - across the Museumstraat: the iron gate of the country house De Voorst (1700) and a garden house with a sundial (1731) from Keizersgracht 585
+    - west side: a seventeenth-century gate from the estate Over-Amstel
+  category: green
+  lat: 52.359700
+  lng: 4.883900
+  address: Museumstraat 1 (garden)
+  links:
+    - { label: Rijksmonumentenregister (530421), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/530421" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/c115314a-59d4-4574-bfe9-1f7df5cb20c4" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Rijksmuseumtuinen" }
+    - { label: Amsterdam op de kaart (Fragmentengebouw), url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Fragmentengebouw" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "530421"
+    built: 1884–1916
+    architect: P.J.H. Cuypers
+    listed: 2011
+    original_use: Museum garden with building fragments
+    check: Location
+    check_note: Pin set in the south-west garden from the register description; the exact spot of the joined gates was not measured.
+  photos:
+    - "commons:File:Overzicht tuin, met geschoren buxushagen, en op achterzijde van het Rijksmuseum - Amsterdam - 20409320 - RCE.jpg"
+    - "commons:File:Bergpoort aan de westzijde van de tuin, HA-0014810.jpg"
+  sources:
+    - rce:530421 (register description)
+    - https://nl.wikipedia.org/wiki/Rijksmuseumtuinen
+    - https://nl.wikipedia.org/wiki/Fragmentengebouw
+  nl:
+    title: "Rijksmuseumtuin: stadspoorten zonder stad"
+    summary: "Gratis en overdag open: de tuin rond het Rijksmuseum is een buitenmuseum van gesloopte gebouwen. Stadspoorten uit Groningen en Deventer staan tegen elkaar aan gemetseld, met een grachtenhuisbalkon uit 1674 ertussen geklemd."
+    body: |
+      De meeste bezoekers lopen door deze tuin op weg naar de kassa. Toch is het een museum op zich. Het kost niets en de stukken die er staan zijn brokken van gebouwen die in de negentiende eeuw zijn afgebroken.
+
+      Pierre Cuypers, de architect van het museum, tekende de tuin in 1884 als les in Nederlandse tuinkunst van de zestiende tot de achttiende eeuw en zette er geredde bouwfragmenten in. Hij keek daarbij naar de tuinen van het Musée de Cluny in Parijs en het Germanisches Nationalmuseum in Neurenberg: de tuin als zaal in de open lucht. De aanleg duurde van 1884 tot 1916. De beplanting bleef laag, zodat je de gebouwen blijft zien. Het neogotische smeedijzeren hek eromheen is van 1883.
+
+      Beelden en tuinornamenten wisselen, maar de poorten zijn te groot om te verplaatsen en zijn samen met de tuin beschermd. Na de verbouwing van het museum (2003–2013) is de tuin opnieuw ingericht. Elke zomer staat er werk van één twintigste-eeuwse beeldhouwer.
+
+      's Nachts gaan de hekken dicht. Overdag loop je zonder kaartje naar binnen.
+
+      Let op:
+      - zuidwesthoek: de Herenpoort uit Groningen en de Bergpoort uit Deventer, tegen elkaar aan gebouwd
+      - in de ruimte ertussen: een balkon uit 1674 van Herengracht 625
+      - zuidkant: de poort van het Duitse Huis in Utrecht en de Stadhouderspoort uit Den Haag, allebei uit 1617 en ook aan elkaar gezet
+      - een tuinkoepel uit Haarlem (1730) met ingemetselde fragmenten
+      - aan de overkant van de Museumstraat: het smeedijzeren hek van buitenplaats De Voorst (1700) en een tuinhuis met zonnewijzer (1731) van Keizersgracht 585
+      - westkant: een zeventiende-eeuws toegangshek van buitenplaats Over-Amstel
+    attributes:
+      original_use: Museumtuin met bouwfragmenten
+      check_note: Speld in de zuidwestelijke tuin gezet op grond van de registertekst; de precieze plek van de gekoppelde poorten is niet opgemeten.
+    sources:
+      - rce:530421 (omschrijving)
+      - https://nl.wikipedia.org/wiki/Rijksmuseumtuinen
+      - https://nl.wikipedia.org/wiki/Fragmentengebouw
+
+- title: Teekenschool and the Rijksmuseum director's villa
+  summary: "Behind the Rijksmuseum stand its drawing school and the house where three directors lived. Under the school the Ministry of War had cellars built to store rainwater: drinking water for an Amsterdam under siege."
+  body: |
+    Two smaller buildings in the south-east corner of the museum garden are by the same hand as the Rijksmuseum, Pierre Cuypers, and most people take them for outbuildings.
+
+    The villa of 1883 was the official home of the museum's general director. Three directors lived there, the last of them Frederik Schmidt-Degener. His successor, appointed in 1945, chose not to move in, and since 1949 the house has been offices. The garden between villa and school was the director's own, fenced off from the public part.
+
+    The Teekenschool (drawing school) of 1890–1891 was a practice school: trainee drawing teachers, whose course was housed in the museum attic, taught children here. The classrooms face north for even light. The chapel-shaped wing was given the medieval painted wooden vault of the church of Warmenhuizen, a transfer that set off a national argument about moving monuments; it went back in 1964. At the request of the Ministry of War large cellars were built underneath to collect rainwater, as drinking water if Amsterdam, inside its ring of forts (the Stelling van Amsterdam), were besieged. The register calls them originally secret.
+
+    The teacher training left in 1966 for the Rietveld Academie. The school is now the museum's education centre, with courses and workshops for children and adults. The villa is not open; both are seen from the garden and the street.
+
+    Look for:
+    - above the school door: "Teekenen is spreken en schrijven tegelijk" (drawing is speaking and writing at once), a saying of Victor de Stuers
+    - tile panels on the north wall with drawing-class subjects such as a pair of compasses and a polygon
+    - the turret at the canal end of the school
+    - the villa's corner bays, ending in small spires
+    - the Caucasian wingnut tree by the villa, planted by Cuypers in 1907
+  category: schools
+  lat: 52.359033
+  lng: 4.886125
+  address: Hobbemastraat 25 and 21
+  links:
+    - { label: Rijksmonumentenregister (530423), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/530423" }
+    - { label: Rijksmonumentenregister (530422), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/530422" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/75247356-b300-4277-be5e-7f423e7c0693" }
+    - { label: Wikipedia (nl), url: "https://nl.wikipedia.org/wiki/Teekenschool_(Amsterdam)" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Teekenschool" }
+    - { label: Rijksmuseum (Teekenschool), url: "https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/teekenschool" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 530423, 530422
+    built: 1883 (villa), 1890–1891 (school)
+    architect: P.J.H. Cuypers
+    listed: 2011
+    original_use: Practice school for drawing teachers; director's house
+  photos:
+    - commons:File:Teekenschool Rijksmuseum.jpg
+    - commons:File:Directeurswoning Rijksmuseum.JPG
+  sources:
+    - rce:530423, rce:530422, rce:530421 (register descriptions)
+    - https://nl.wikipedia.org/wiki/Teekenschool_(Amsterdam)
+    - https://nl.wikipedia.org/wiki/Rijksmuseumtuinen
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Teekenschool
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Directeursvilla
+    - https://www.rijksmuseum.nl/nl/bezoek/in-het-museum/teekenschool (read November 2026)
+  nl:
+    title: Teekenschool en directeursvilla van het Rijksmuseum
+    summary: "Achter het Rijksmuseum staan de tekenschool en het huis waar drie directeuren hebben gewoond. Onder de school liet het ministerie van Oorlog kelders maken voor regenwater: drinkwater voor als Amsterdam belegerd zou worden."
+    body: |
+      In de zuidoosthoek van de museumtuin staan twee kleinere gebouwen van dezelfde architect als het Rijksmuseum, Pierre Cuypers. De meeste mensen houden ze voor bijgebouwen.
+
+      De villa uit 1883 was de dienstwoning van de hoofddirecteur. Er hebben drie directeuren gewoond, als laatste Frederik Schmidt-Degener. Zijn opvolger, benoemd in 1945, wilde er niet in, en sinds 1949 is het huis kantoor. De tuin tussen villa en school hoorde bij de directeur en was met een hek van het openbare deel gescheiden.
+
+      De Teekenschool uit 1890–1891 was een oefenschool: aankomende tekenleraren, die hun opleiding op de zolder van het museum volgden, gaven hier les aan kinderen. De lokalen liggen op het noorden, voor gelijkmatig licht. In de vleugel die op een kapel lijkt kwam het middeleeuwse beschilderde houten gewelf van de kerk van Warmenhuizen te hangen. Over die verhuizing ontstond in het hele land ruzie: mag je monumenten zomaar verplaatsen? In 1964 ging het gewelf terug. Op verzoek van het ministerie van Oorlog kwamen er onder het gebouw grote kelders om regenwater op te vangen, als drinkwater voor het geval Amsterdam binnen de Stelling van Amsterdam belegerd zou raken. Volgens het monumentenregister waren ze eerst geheim.
+
+      De lerarenopleiding vertrok in 1966 naar de Rietveld Academie. Nu is de school het educatieve centrum van het museum, met cursussen en workshops voor kinderen en volwassenen. De villa is niet te bezoeken; je ziet beide gebouwen vanuit de tuin en vanaf de straat.
+
+      Let op:
+      - boven de deur van de school: 'Teekenen is spreken en schrijven tegelijk', een uitspraak van Victor de Stuers
+      - tegeltableaus op de noordgevel met onderwerpen uit de tekenles, zoals de passer en de veelhoek
+      - het torentje aan de kant van de kade
+      - de hoekerkers van de villa, die uitlopen in spitsjes
+      - de Kaukasische vleugelnoot bij de villa, in 1907 door Cuypers geplant
+    attributes:
+      original_use: Oefenschool voor tekenleraren; dienstwoning van de directeur
+    sources:
+      - rce:530423, rce:530422, rce:530421 (omschrijvingen)
+      - https://nl.wikipedia.org/wiki/Teekenschool_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Rijksmuseumtuinen
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Teekenschool
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Directeursvilla
+
+- title: Villa Protsky (Hobbemastraat 20)
+  summary: "Amsterdam nicknamed this banker's house Villa Protsky, more or less Villa Show-off. Fritz Mannheimer filled it with art bought on his bank's money. He died in 1939, the bank failed and Hitler bought the collection. Half of it now hangs across the street."
+  body: |
+    The square brick villa facing the back of the Rijksmuseum was built in 1913 for the banker P. Wiegman by Jos Cuypers, son of the museum's architect. It is a calm, symmetrical house in the old Dutch classical manner, with a chimney on each corner of the roof. The first stone was laid on 24 September 1913 by nine-year-old Cath. M. Wiegman.
+
+    The nickname came with a later resident. Fritz Mannheimer, born in Stuttgart, ran the Amsterdam branch of the Berlin bank Mendelssohn & Co., one of the largest private banks of its day. From 1921 he bought art on a scale that put him beside the great American collectors, and he did it on the bank's account. The collection could be visited here, which kept him clear of the luxury tax. Few people liked his taste, and the house became Villa Protsky (from "protserig", flashy).
+
+    By 1934 his debt was so large that the bank put the collection in a company of its own and lent it back to him. He went on buying. Mannheimer, who was Jewish and became a Dutch citizen in 1936, died of a heart attack in France on 9 August 1939, two months after his wedding. The bank went under soon after. In 1941 Hitler bought the collection. It came back after the war and reached the Rijksmuseum in 1952, which had to sell half on the orders of the finance ministry and still keeps the rest.
+
+    The villa is offices; seen from the street.
+
+    Look for:
+    - the limestone first stone, low on the right corner pilaster of the front
+    - the granite porch and steps
+    - the iron lantern with milk glass above the door
+    - the four corner chimneys
+    - the wrought-iron fence around the plot
+  category: hidden-history
+  lat: 52.358750
+  lng: 4.885101
+  address: Hobbemastraat 20
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/2383110e-35ba-4bf8-8ad7-13e352fea53b" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/20" }
+    - { label: Wikipedia (nl) Fritz Mannheimer, url: "https://nl.wikipedia.org/wiki/Fritz_Mannheimer" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "222037"
+    built: "1913"
+    architect: Jos Cuypers
+    listed: 2012
+    original_use: Villa
+  photos:
+    - "commons:File:Hobbemastraat 20, Rijksmuseum Holding BV.JPG"
+  sources:
+    - city:222037 (register description)
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/20
+    - https://nl.wikipedia.org/wiki/Fritz_Mannheimer
+  nl:
+    title: Villa Protsky (Hobbemastraat 20)
+    summary: "Amsterdam noemde dit bankiershuis Villa Protsky. Fritz Mannheimer zette het vol kunst, gekocht met geld van zijn bank. Hij stierf in 1939, de bank ging failliet en Hitler kocht de verzameling. De helft hangt nu aan de overkant."
+    body: |
+      De vierkante bakstenen villa tegenover de achterkant van het Rijksmuseum werd in 1913 gebouwd voor de bankier P. Wiegman. De architect was Jos Cuypers, de zoon van de bouwer van het museum. Het is een rustig, symmetrisch huis in oud-Hollandse klassieke trant, met op elke hoek van het dak een schoorsteen. De eerste steen werd op 24 september 1913 gelegd door de negenjarige Cath. M. Wiegman.
+
+      De bijnaam kwam met een latere bewoner. Fritz Mannheimer, geboren in Stuttgart, leidde het Amsterdamse filiaal van de Berlijnse bank Mendelssohn & Co., destijds een van de grootste particuliere banken. Vanaf 1921 kocht hij kunst op een schaal waarmee hij zich met de grote Amerikaanse verzamelaars kon meten, en dat deed hij op rekening van de bank. De verzameling was hier te bezichtigen, en zo ontliep hij de weeldebelasting. Zijn smaak viel bij weinigen in de smaak, en het huis heette al gauw Villa Protsky.
+
+      In 1934 was zijn schuld zo hoog opgelopen dat de bank de verzameling in een aparte maatschappij onderbracht en haar aan hem in bruikleen gaf. Hij kocht gewoon door. Mannheimer, die Joods was en in 1936 Nederlander werd, stierf op 9 augustus 1939 in Frankrijk aan een hartinfarct, twee maanden na zijn bruiloft. Kort daarna ging de bank failliet. In 1941 kocht Hitler de verzameling. Na de oorlog kwam ze terug en in 1952 belandde ze in het Rijksmuseum, dat op last van het ministerie van Financiën de helft moest verkopen en de rest nog altijd heeft.
+
+      De villa is nu kantoor en alleen vanaf de straat te zien.
+
+      Let op:
+      - de kalkstenen eerste steen, laag op de rechter hoekpilaster van de voorgevel
+      - het granieten portaal met de trap
+      - de ijzeren lantaarn met melkglas boven de deur
+      - de vier hoekschoorstenen
+      - het smeedijzeren hek om het terrein
+    sources:
+      - city:222037 (redengevende omschrijving)
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/20
+      - https://nl.wikipedia.org/wiki/Fritz_Mannheimer
+
+- title: Eduard Cuypers's house and office (Jan Luijkenstraat 2)
+  summary: "The nephew of the Rijksmuseum's architect built his home and office beside the museum in 1898–1899, after his uncle had vetoed the first plan. Michel de Klerk, Piet Kramer and Joan van der Mey all learned the trade in this office."
+  body: |
+    "Hoc erat in votis", says the stone on the Stadhouderskade side, with the year 1899 in the middle: this is what I wished for. Getting it took Eduard Cuypers two tries. The city agreed to sell the plot in 1898 on condition that his uncle Pierre, architect of the Rijksmuseum next door, approved the design. Pierre turned the first plan down and the sale was cancelled. A second plan, by Eduard, passed.
+
+    He lived on the ground floor. Above were rooms for live-in assistants, a library, and showrooms where visitors could see the latest in interiors; in the attic women made lampshades, curtains and upholstery. By about 1905 office and workshop employed some fifty people, which made it one of the largest in the country. The office is regarded as the origin of the Amsterdam School, because the leaders of that style, Michel de Klerk, Joan van der Mey and Piet Kramer, were all trained here.
+
+    The house is Dutch Art Nouveau (Nieuwe Kunst): asymmetrical, brick with stone carved into stylised flowers and leaves. Cuypers died in 1927; in 1929 it became a boarding house, Du Midi.
+
+    Its neighbour, Stadhouderskade 40–41, is a plastered double villa of about 1880. At no. 40 lived baron De Salis, a founder of the Dutch skating union in 1882, who got the field behind the Rijksmuseum used for horse racing, cycling and skating. No. 41 was the home of the Roland Holst family.
+
+    Both are seen from the street; the ground floor of 40–41 is a furniture showroom.
+
+    Look for:
+    - the flower relief with the motto and "1899"
+    - the curved wooden corner bay on carved stone brackets
+    - the round-arched porch with leaded glass on the Jan Luijkenstraat
+    - at 40–41: a caryatid and a herm carrying the roof of each recessed balcony
+    - at 40–41: round bull's-eye windows in the roof
+  category: hidden-history
+  lat: 52.360742
+  lng: 4.884388
+  address: Jan Luijkenstraat 2
+  links:
+    - { label: Rijksmonumentenregister (2026), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/2026" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/7d52cdc9-9e02-4668-83c2-32160bc333cd" }
+    - { label: Rijksmonumentenregister (505870), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505870" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Jan_Luijkenstraat/2-2a" }
+    - { label: Wikipedia (nl) Eduard Cuypers, url: "https://nl.wikipedia.org/wiki/Eduard_Cuypers_(architect)" }
+    - { label: Amsterdam op de kaart (Stadhouderskade 40–41), url: "https://amsterdamopdekaart.nl/1850-1940/Stadhouderskade/40-41" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 2026, 505870, 505876
+    built: 1898–1899 (Jan Luijkenstraat 2), about 1880 (Stadhouderskade 40–41)
+    architect: Eduard Cuypers (Jan Luijkenstraat 2)
+    original_use: Architect's house and office; double villa
+  photos:
+    - commons:File:2019.01.01 Jan Luijkenstraat 2 (1).jpg
+    - commons:File:Amsterdam - Stadhouderskade 41.JPG
+  sources:
+    - rce:2026, rce:505870, rce:505876 (register descriptions)
+    - https://amsterdamopdekaart.nl/1850-1940/Jan_Luijkenstraat/2-2a
+    - https://amsterdamopdekaart.nl/1850-1940/Stadhouderskade/40-41
+    - https://nl.wikipedia.org/wiki/Eduard_Cuypers_(architect)
+    - https://nl.wikipedia.org/wiki/Jan_Luijkenstraat
+  nl:
+    title: Huis en bureau van Eduard Cuypers (Jan Luijkenstraat 2)
+    summary: "De neef van de architect van het Rijksmuseum bouwde in 1898–1899 zijn huis en kantoor naast het museum, nadat zijn oom het eerste plan had afgekeurd. Michel de Klerk, Piet Kramer en Joan van der Mey leerden op dit bureau het vak."
+    body: |
+      'Hoc erat in votis' staat er op de steen aan de kant van de Stadhouderskade, met het jaartal 1899 ertussen: dit was mijn wens. Eduard Cuypers kreeg die wens pas bij de tweede poging vervuld. De gemeente wilde de grond in 1898 verkopen, op voorwaarde dat zijn oom Pierre, de architect van het Rijksmuseum ernaast, het ontwerp goedkeurde. Pierre keurde het eerste plan af en de verkoop ging niet door. Een tweede plan, van Eduard, kwam er wel doorheen.
+
+      Zelf woonde hij op de begane grond. Daarboven waren kamers voor inwonende medewerkers, een bibliotheek en toonkamers waar bezoekers konden zien wat er nieuw was in de binnenhuiskunst. Op zolder maakten vrouwen lampenkappen, gordijnen en meubelbekleding. Rond 1905 werkten er op bureau en atelier zo'n vijftig mensen; het was daarmee een van de grootste van het land. Het bureau geldt als de bakermat van de Amsterdamse School, omdat de voormannen van die stijl, Michel de Klerk, Joan van der Mey en Piet Kramer, er alle drie zijn gevormd.
+
+      Het huis zelf is Nieuwe Kunst: asymmetrisch, baksteen met natuursteen waarin gestileerde bloemen en bladeren zijn gehakt. Cuypers stierf in 1927; in 1929 kwam pension Du Midi in het pand.
+
+      Het buurpand, Stadhouderskade 40–41, is een gepleisterde dubbele villa van omstreeks 1880. Op nummer 40 woonde baron De Salis, in 1882 een van de oprichters van de schaatsbond. Hij kreeg voor elkaar dat het veld achter het Rijksmuseum werd gebruikt voor paardenrennen, wielrennen en schaatsen. Nummer 41 was het huis van de familie Roland Holst.
+
+      Beide panden zie je vanaf de straat; beneden in 40–41 zit een meubelwinkel.
+
+      Let op:
+      - het bloemreliëf met de spreuk en '1899'
+      - de gebogen houten hoekerker op gebeeldhouwde stenen consoles
+      - het rondboogportiek met glas in lood aan de Jan Luijkenstraat
+      - bij 40–41: een kariatide en een herme die het dak van elk inpandig balkon dragen
+      - bij 40–41: ronde ossenoogramen in de kap
+    attributes:
+      built: 1898–1899 (Jan Luijkenstraat 2), omstreeks 1880 (Stadhouderskade 40–41)
+      original_use: Woonhuis en bureau van de architect; dubbele villa
+    sources:
+      - rce:2026, rce:505870, rce:505876 (omschrijvingen)
+      - https://amsterdamopdekaart.nl/1850-1940/Jan_Luijkenstraat/2-2a
+      - https://amsterdamopdekaart.nl/1850-1940/Stadhouderskade/40-41
+      - https://nl.wikipedia.org/wiki/Eduard_Cuypers_(architect)
+
+- title: Berlage's shop houses and the Schapenburgerpad (Hobbemastraat 4–8)
+  summary: "Three shops with flats above, built in 1904 by H.P. Berlage as an investment for a life insurance company. The pointed bays seem to slice through the wall and the eaves. Beside the row a half-private lane slips in between two streets."
+  body: |
+    Berlage, the architect of the Beurs, also built for landlords. This row of 1904 was an investment of an insurer, the Algemeene Maatschappij van Levensverzekering en Lijfrente: three shops, each with a roomy flat above for well-off tenants, with a generous stair hall, bedrooms on the second floor and the attic for storage.
+
+    It is a small demonstration of his way of building. The wall is flat, dark brick, and the decoration is the construction itself. Above each shopfront a triangular bay starts from a sharply cut bracket of stone and brick, cuts through the brick frieze and the gutter, and ends in a little pyramid roof of its own. Between the shop windows the end of the dividing wall is shaped like a pier, with the shaft set back and the capital flush with the front. Crosses in yellow brick mark where one house stops and the next begins.
+
+    To the left of the row is the entrance to the Schapenburgerpad, a narrow lane running between the buildings of the Vossiusstraat and the P.C. Hooftstraat. It belongs partly to the city and partly to the people who live along it.
+
+    The shops are in use and the flats are private; all of it can be seen from the pavement.
+
+    Look for:
+    - the triangular bays with pyramid roofs breaking through the eaves
+    - on the corner of the lane: two bays pushed together into a rectangle, still with their original overlapping covering
+    - the yellow brick frieze with crosses under the gutter
+    - the stone finial with a flower motif on the left corner
+    - the door to the flats tucked under each bay, the shop door beside the window
+    - on the lane side: two rows of windows climbing at a slant, and a gable between two tall chimneys
+  category: housing
+  lat: 52.361103
+  lng: 4.882490
+  address: Hobbemastraat 4-8
+  links:
+    - { label: Rijksmonumentenregister (505179), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505179" }
+    - { label: Rijksmonumentenregister (505171), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505171" }
+    - { label: Rijksmonumentenregister (505164), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505164" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/4e586511-41fb-4589-9eb7-150445660106" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/4-8" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 505164, 505171, 505179
+    built: "1904"
+    architect: H.P. Berlage
+    listed: 1996
+    original_use: Shops with flats above
+  photos:
+    - "commons:File:Hobbemastraat 4,6,8.JPG"
+    - "commons:File:Hobbemastraat 8, front and side.jpg"
+  sources:
+    - rce:505164, rce:505171, rce:505179 (register descriptions)
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/4-8
+  nl:
+    title: Berlages winkelhuizen en het Schapenburgerpad (Hobbemastraat 4–8)
+    summary: "Drie winkels met bovenwoningen, in 1904 door H.P. Berlage gebouwd als belegging voor een levensverzekeraar. De puntige erkers lijken door de muur en de dakgoot heen te snijden. Naast het rijtje glipt een half particulier paadje tussen twee straten door."
+    body: |
+      Berlage, de architect van de Beurs, bouwde ook voor huisbazen. Dit rijtje uit 1904 was een belegging van een verzekeraar, de Algemeene Maatschappij van Levensverzekering en Lijfrente: drie winkels met elk een ruime bovenwoning voor huurders met geld, met een royaal trapportaal, slaapkamers op de tweede verdieping en de zolder als berging.
+
+      Het is een kleine les in zijn manier van bouwen. De muur is vlak en van donkere baksteen, en de versiering is de constructie zelf. Boven elke winkelpui begint een driehoekige erker op een scherp gesneden console van natuursteen en baksteen. Hij snijdt door het bakstenen fries en de goot heen en krijgt een eigen piramidedakje. Tussen de etalages is de kop van de scheidingsmuur als een pijler behandeld: de schacht ligt terug, het kapiteel ligt gelijk met de gevel. Kruisen van gele steen geven aan waar het ene huis ophoudt en het volgende begint.
+
+      Links van het rijtje is de ingang van het Schapenburgerpad, een smal straatje tussen de bebouwing van de Vossiusstraat en de P.C. Hooftstraat. Het is voor een deel van de gemeente en voor een deel van de mensen die eraan wonen.
+
+      De winkels zijn in gebruik en de woningen zijn particulier; alles is vanaf de stoep te zien.
+
+      Let op:
+      - de driehoekige erkers met piramidedakjes die door de goot heen steken
+      - op de hoek van het pad: twee erkers tegen elkaar geschoven tot een rechthoek, nog met de oude overlappende afdekking
+      - het fries van gele steen met kruisen onder de goot
+      - de natuurstenen bekroning met bloemmotief op de linkerhoek
+      - de deur naar de bovenwoning onder elke erker, de winkeldeur naast de etalage
+      - aan de kant van het pad: twee schuin oplopende rijen vensters en een topgevel tussen twee hoge schoorstenen
+    attributes:
+      original_use: Winkels met bovenwoningen
+    sources:
+      - rce:505164, rce:505171, rce:505179 (omschrijvingen)
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/4-8
+
+- title: Lizzy Cottage and the yellow twin villa (Hobbemastraat 12–16)
+  summary: "A stockbroker's villa of 1902 named after his wife, with dancing women in a frieze on the side, by the architect of the Stedelijk Museum. Next to it stands a yellow double villa that has an identical twin one street away."
+  body: |
+    Lizzy Cottage was built for Engelbertus van Essen, stockbroker and art collector. He sat on the board of the society that was building up a public collection of contemporary art, shown in the Stedelijk Museum, which may explain his architect: A.W. Weissman had just built the Stedelijk. There Weissman worked in old Dutch Renaissance style. Here he turned English, with timber posts in the walls, upper parts that jut out and roofs that overhang. The Lizzy is probably Van Essen's wife, whose second name was Elisabeth. The villa had its own picture gallery. The Van Essens left in 1909; after them came several generations of the merchant family Crone.
+
+    Next door, numbers 14–16 are a single double villa in yellow brick by Evert Breman, with a bell gable borrowed from the eighteenth century and Art Nouveau woodwork. Breman built the same villa twice from one drawing: the other stands at Honthorststraat 5–7, exactly in line with this one and identical but for the colour. The first residents were a wine merchant and the director of a sugar refinery.
+
+    All are private houses, seen from the street.
+
+    Look for:
+    - no. 12, the curved corner bay: a frieze of putti with garlands
+    - no. 12, top right of the side bay: nine dancing women in three groups of three
+    - no. 12: the finials on the roofs and the round-arched stone doorway
+    - no. 14: the bell gable with a stone ball either side
+    - no. 16: the frosted glass lean-to over the balcony, with an Art Nouveau wooden balustrade above it
+    - then walk round to Honthorststraat 5–7 and compare
+  category: housing
+  lat: 52.360027
+  lng: 4.883031
+  address: Hobbemastraat 12-16
+  links:
+    - { label: Rijksmonumentenregister (1991), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/1991" }
+    - { label: Rijksmonumentenregister (505713), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505713" }
+    - { label: Rijksmonumentenregister (505720), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/505720" }
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/dbf1e53f-2c5b-40b8-98f1-ddfceb2f0251" }
+    - { label: Amsterdam op de kaart (Lizzy Cottage), url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Lizzy_Cottage" }
+    - { label: Amsterdam op de kaart (14–16), url: "https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/14-16" }
+  attributes:
+    rank: Okay
+    heritage_status: National monument
+    monument_number: 1991, 505713, 505720
+    built: "1902"
+    architect: A.W. Weissman (12), Evert Breman (14–16)
+    original_use: Villa; double villa
+  photos:
+    - commons:File:Hobbemastraat 12.JPG
+    - commons:File:Hobbemastraat 16.JPG
+    - commons:File:Hobbemastraat 14.JPG
+  sources:
+    - rce:1991, rce:505713, rce:505720 (register descriptions)
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Lizzy_Cottage
+    - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/14-16
+    - https://nl.wikipedia.org/wiki/Jan_Luijkenstraat
+  nl:
+    title: Lizzy Cottage en de gele tweelingvilla (Hobbemastraat 12–16)
+    summary: "Een villa uit 1902 van een effectenhandelaar, naar zijn vrouw genoemd, met dansende vrouwen in een fries op de zijgevel, van de architect van het Stedelijk Museum. Ernaast een gele dubbele villa met een tweelingzus één straat verder."
+    body: |
+      Lizzy Cottage werd gebouwd voor Engelbertus van Essen, effectenhandelaar en kunstverzamelaar. Hij zat in het bestuur van de vereniging die een openbare verzameling hedendaagse kunst bijeenbracht en die in het Stedelijk Museum liet zien. Dat verklaart misschien zijn architect: A.W. Weissman had net het Stedelijk gebouwd. Daar werkte Weissman in oud-Hollandse renaissancestijl. Hier ging hij op de Engelse toer, met houten stijlen in de gevel, verdiepingen die naar voren steken en overstekende daken. Lizzy is vermoedelijk de vrouw van Van Essen, die als tweede naam Elisabeth had. In de villa was een eigen schilderijenzaal. De Van Essens vertrokken in 1909; na hen woonden er een paar generaties van de koopmansfamilie Crone.
+
+      De nummers 14–16 ernaast vormen samen één dubbele villa van gele baksteen, van Evert Breman, met een klokgevel naar achttiende-eeuws voorbeeld en houtwerk in art-nouveaustijl. Breman heeft dezelfde villa twee keer gebouwd van één tekening. De andere staat aan de Honthorststraat 5–7, precies in het verlengde van deze, en is op de kleur na hetzelfde. De eerste bewoners waren een wijnhandelaar en de directeur van een suikerraffinaderij.
+
+      Het zijn allemaal woonhuizen; je bekijkt ze vanaf de straat.
+
+      Let op:
+      - nummer 12, de gebogen hoekerker: een fries met putti en guirlandes
+      - nummer 12, rechtsboven op de erker aan de zijkant: negen dansende vrouwen in drie groepjes van drie
+      - nummer 12: de pironnen op de daken en de rondboogingang met natuurstenen omlijsting
+      - nummer 14: de klokgevel met aan weerszijden een stenen bol
+      - nummer 16: het afdakje van matglas boven het balkon, met daarboven een houten balkonhek in art-nouveaustijl
+      - loop daarna om naar Honthorststraat 5–7 en vergelijk
+    attributes:
+      original_use: Villa; dubbele villa
+    sources:
+      - rce:1991, rce:505713, rce:505720 (omschrijvingen)
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/Lizzy_Cottage
+      - https://amsterdamopdekaart.nl/1850-1940/Hobbemastraat/14-16
