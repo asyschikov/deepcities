@@ -102,3 +102,21 @@ needs a decision.
   place, 138 into the Dirk Schäferstraat flats place, 142 and 143 into the Beatrixpark place;
   check 139 and 140 are told in the Thomaskerk and Spinoza Lyceum places and add if not
   (`buitenveldert.yaml`).
+
+### Scout C slices
+
+Scout C's "Look for lines" are part of these slices: apply each line that names a live place
+in your areas to that place's draft (both languages, one line, only if verified and not
+already there), and list them in notes. Status updates there (museum tram start point,
+Circus Odesa, the Signaal clock) must be settled before you change anything.
+
+- **r2-c-north** (areas 1 to 4; do not touch `buitenveldert.yaml`): new 301, 302v (ownership
+  and the state of the squat today; public facts only), 303, 304v, 305, 306v (is there
+  anything to see beyond a car-park ramp? if not, fold into a neighbouring place), 307, 308,
+  309, 317 (own place if the field and the skull can be pinned; also add one Look for line
+  to the Zorgvlied place).
+- **r2-c-south** (areas 5 and 6): new 310, 311, 312, 313v, 315, 318, 321, 322v; 319 and 320
+  as one place or as Look for lines in the Amstelpark place, whichever reads better; 314 as
+  its own place only if the stair can be seen from the street and the story has two sources,
+  else fold into a Zuidas place; merge 316 into the RAI place; 323 is temporary: a Look for
+  line in the courthouse place at most.

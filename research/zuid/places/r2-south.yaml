@@ -1,0 +1,739 @@
+# Zuid round 2, slice r2-south: scouted places in Buitenveldert, the Zuidas, the Beatrixpark and the edge of
+# the Amsterdamse Bos (items 133 to 146, 163 to 166, 244 to 246, 257).
+# 13 new places. 144 is a Look for line in 146, 257 a Look for line in 246. 135, 136, 139 and 142 are merged as
+# Look for lines into "Gijsbrecht van Aemstelpark", "Amstelpark", "Thomaskerk (De Thomas)" and "Beatrixpark"
+# (buitenveldert.yaml). 138, 140 and 143 were already told there. See notes/r2-south.md.
+# Dutch texts are written fresh from the city's art register (Buitenkunst Amsterdam), the city's wall art
+# register, nl.wikipedia, 4en5mei.nl, Public Art Amsterdam, the Vrienden van het Beatrixpark, the Amsterdamse Bos,
+# rechtspraak.nl, Ons Amsterdam and the city's Cultuurhistorische verkenning Buitenveldert (2025).
+
+- title: Lady Solid, the fountain a neighbourhood voted down
+  summary: "A life-size painted woman laughs at the traffic with her arms spread, while water runs down her legs. A square in Oost refused her in 1994 as indecent. The water company thought she was exactly right for its gate."
+  body: |
+    From a car on the Amstelveenseweg she looks like someone waving from the lawn of the pumping station. She is bronze, painted in bright colours, 1.65 metres tall, and she was not meant to be here.
+
+    In 1994 the borough of Oost asked two artists, Caro Bensca and Peer Veneman, to design a fountain for the Krugerplein, and let the neighbours comment on the sketches. Bensca drew a radiant woman who catches the gifts of life with open arms and gives them back to the earth as water running from her trouser legs: the circle of life. She mixed features from several cultures, to match the neighbourhood. The neighbourhood saw a woman peeing and called her that. Veneman's design got the square.
+
+    The municipal water company saw something else: the whole water cycle in one figure, a person who takes water in and gives it off again. It bought the sculpture, and since 1997 Lady Solid has stood at the entrance of its site, on private ground behind an open fence, facing the road on purpose. People call her the Waternetmeisje, the Waternet girl.
+
+    You see her from the pavement and the cycle path.
+
+    Look for:
+    - her name on her right shoulder
+    - the mix the artist intended: the braids, the eyes, the jeans cut off below the knee
+    - the patch of lawn with three trees that Bensca laid out behind her
+  category: street-art
+  lat: 52.335595
+  lng: 4.856913
+  address: Amstelveenseweg, at the Waternet pumping station
+  links:
+    - { label: Buitenkunst Amsterdam (Lady Solid), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2491" }
+    - { label: Wikipedia (nl) Lady Solid, url: "https://nl.wikipedia.org/wiki/Lady_Solid" }
+    - { label: Public Art Amsterdam, url: "https://publicart.amsterdam/projecten/lady-solid/" }
+    - { label: Fonteinen in Amsterdam en Rotterdam, url: "https://fonteinen-amsterdam-rotterdam.nl/amsterdam/overzicht-fonteinen/50-lady-solid" }
+    - { label: Caro Bensca on Lady Solid, url: "https://carobensca.com/lady-solid/" }
+  attributes:
+    rank: Nice
+    built: 1994–1997
+    artist: Caro Bensca
+  photos:
+    - "commons:File:Lady Solid, Amstelveenseweg, Asd (2).jpg"
+    - "commons:File:Lady Solid, Amstelveenseweg, Asd (1).jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Lady_Solid (about 1994, residents chose between Veneman and Bensca, found it offensive, bronze, 165 cm, mix of cultures, jeans, behind fences facing the road, nickname Waternetmeisje, photo of September 2023)
+    - https://publicart.amsterdam/projecten/lady-solid/ (commission by Stadsdeel Oost in 1994, residents commented on sketches, circle of life, placed 1997, private ground, open fence, facing the street)
+    - https://fonteinen-amsterdam-rotterdam.nl/amsterdam/overzicht-fonteinen/50-lady-solid (water from the three-quarter trouser legs, name on the right shoulder, water company's reading of the water cycle, the company bought it, lawn and three trees laid out by Bensca)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2491 (in front of the pumping station, painted in bright colours, life-size)
+    - https://carobensca.com/lady-solid/ (not placed on the Krugerplein because of controversy)
+    - OpenStreetMap (statue node 4405998841 at 52.335595, 4.856913, start date 1997)
+  nl:
+    title: Lady Solid, de fontein die een buurt wegstemde
+    summary: "Een levensgrote beschilderde vrouw lacht met gespreide armen naar het verkeer, terwijl het water langs haar benen loopt. Een plein in Oost vond haar in 1994 aanstootgevend. Het waterleidingbedrijf vond haar juist passen bij de poort."
+    body: |
+      Vanuit de auto op de Amstelveenseweg lijkt het of er iemand staat te zwaaien op het gras van het pompstation. Ze is van brons, in felle kleuren beschilderd, 1,65 meter lang, en ze was niet voor deze plek bedoeld.
+
+      In 1994 vroeg stadsdeel Oost twee kunstenaars, Caro Bensca en Peer Veneman, om een fontein voor het Krugerplein, en de buurt mocht op de schetsen reageren. Bensca tekende een stralende vrouw die met open armen de gaven van het leven opvangt en ze aan de aarde teruggeeft als water dat uit haar broekspijpen loopt: de kringloop van het leven. Ze gaf haar trekken uit verschillende culturen mee, net als de buurt. De buurt zag een plassende vrouw en noemde haar ook zo. Het plein kreeg de fontein van Veneman.
+
+      Het gemeentelijke waterleidingbedrijf zag er iets anders in: de hele waterkringloop in één figuur, een mens die water opneemt en weer afgeeft. Het kocht het beeld, en sinds 1997 staat Lady Solid bij de ingang van het terrein, op eigen grond achter een open hek, met opzet met haar gezicht naar de weg. In de volksmond heet ze het Waternetmeisje.
+
+      Je ziet haar vanaf de stoep en het fietspad.
+
+      Let op:
+      - haar naam op haar rechterschouder
+      - de mengeling die de kunstenaar bedoelde: de vlechten, de ogen, de spijkerbroek tot onder de knie
+      - het grasveldje met drie bomen dat Bensca achter haar heeft aangelegd
+    sources:
+      - https://nl.wikipedia.org/wiki/Lady_Solid
+      - https://publicart.amsterdam/projecten/lady-solid/
+      - https://fonteinen-amsterdam-rotterdam.nl/amsterdam/overzicht-fonteinen/50-lady-solid
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2491
+
+- title: The Vondelpark's city maiden, retired to the city limit
+  summary: "For 126 years she invited walkers into the Vondelpark. The sandstone could not take the traffic, so a copy sits on the park gate now and the original greets cyclists on the exact line where Amsterdam begins."
+  body: |
+    The white stone woman on the Koenenkade did the same job for 126 years at the main gate of the Vondelpark.
+
+    Friedrich Schierholz carved her in 1883, when the park's board wanted a grander entrance on the Stadhouderskade in the year of the International Colonial and Export Exhibition. She is the Stedenmaagd, the city maiden: Amsterdam as a person, seated, 2.53 metres high, with the city's arms on the shield in her left hand and her right hand inviting walkers in. The soft sandstone from Luxembourg did badly beside a busy road. After many repairs she was taken down on 12 November 2009, and a copy took her place on the gate.
+
+    The original was restored once more and painted, and on 18 June 2014 it was set on a plinth of rusty Corten steel at the cyclists' entrance to the Amsterdamse Bos, the city's forest park. The spot is exact. She sits on the boundary between Amsterdam and Amstelveen and faces south, towards whoever is arriving. The steel plinth has the proportions of the stone pier she left behind.
+
+    Look for:
+    - her name cut out of the steel of the plinth
+    - the shield with the three crosses of Amsterdam
+    - the rails of the museum tram line right behind her
+    - the copy, on the Vondelpark gate at the Stadhouderskade
+  category: curiosities
+  lat: 52.330391
+  lng: 4.856108
+  address: Koenenkade, at the entrance to the Amsterdamse Bos
+  links:
+    - { label: Buitenkunst Amsterdam (Stedenmaagd), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/1149" }
+    - { label: Wikipedia (nl) Stedenmaagd Amsterdamse Bos, url: "https://nl.wikipedia.org/wiki/Stedenmaagd_Amsterdamse_Bos" }
+    - { label: Amsterdamse Bos on its monuments, url: "https://www.amsterdamsebos.nl/kunst/monumenten/" }
+  attributes:
+    rank: Okay
+    built: "1883"
+    artist: Friedrich Schierholz
+  photos:
+    - "commons:File:Stedenmaagd Amsterdamse Bos2.jpg"
+    - "commons:File:Stedemaagd Koenenkade.jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Stedenmaagd_Amsterdamse_Bos (Schierholz, 2.53 m, park board, exhibition of 1883, shield and inviting hand, sandstone from Larochette, removed 12 November 2009, placed 18 June 2014 at bridge 501, Corten plinth with the title milled in, between the museum tram and the cycle route)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/1149 (soft sandstone, copy in the Vondelpark, restored and painted original exactly on the boundary, faces south, plinth of concrete clad in Corten steel with the proportions of the stone one; says "since 2015")
+    - https://www.amsterdamsebos.nl/kunst/monumenten/ (original at the main entrance for cyclists and walkers; copy on the gate at the Stadhouderskade)
+    - Wikimedia Commons, File:Stedemaagd Koenenkade.jpg (photo of 10 March 2015; description gives 18 June 2014)
+    - OpenStreetMap (node 4535719394 at 52.330391, 4.856108)
+  nl:
+    title: De stedenmaagd van het Vondelpark, met pensioen op de stadsgrens
+    summary: "126 jaar lang nodigde ze wandelaars het Vondelpark in. Het zandsteen was niet tegen het verkeer bestand, dus op het parkhek zit nu een kopie, en het origineel begroet fietsers precies op de lijn waar Amsterdam begint."
+    body: |
+      De witte stenen vrouw aan de Koenenkade heeft 126 jaar hetzelfde werk gedaan bij de hoofdingang van het Vondelpark.
+
+      Friedrich Schierholz maakte haar in 1883, toen het parkbestuur de ingang aan de Stadhouderskade meer aanzien wilde geven in het jaar van de Internationale Koloniale en Uitvoerhandel Tentoonstelling. Ze is de Stedenmaagd: Amsterdam als persoon, gezeten, 2,53 meter hoog, met het stadswapen op het schild in haar linkerhand, terwijl haar rechterhand de wandelaars naar binnen wenkt. Het zachte zandsteen uit Luxemburg hield het slecht uit naast een drukke weg. Na veel reparaties is ze op 12 november 2009 weggehaald, en op het hek kwam een kopie.
+
+      Het origineel is nog een keer gerestaureerd en geschilderd, en op 18 juni 2014 op een sokkel van roestig cortenstaal gezet bij de fietsingang van het Amsterdamse Bos. De plek is precies gekozen. Ze zit op de grens tussen Amsterdam en Amstelveen en kijkt naar het zuiden, naar wie eraan komt. De stalen sokkel heeft de verhoudingen van de stenen pijler waar ze vandaan komt.
+
+      Let op:
+      - haar naam, uit het staal van de sokkel gefreesd
+      - het schild met de drie Andreaskruisen
+      - de rails van de museumtramlijn vlak achter haar
+      - de kopie, op het hek van het Vondelpark aan de Stadhouderskade
+    sources:
+      - https://nl.wikipedia.org/wiki/Stedenmaagd_Amsterdamse_Bos
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/1149
+      - https://www.amsterdamsebos.nl/kunst/monumenten/
+
+- title: "Vogels en vissen: an Escher on a villa wall"
+  summary: "As far as anyone knows, M.C. Escher made one work for Amsterdam, and it is on the front of a private villa in Zuid: 75 Delft tiles in which white fish turn into black birds. He grumbled about tiles first, then came to the unveiling."
+  body: |
+    The only work M.C. Escher is known to have made for Amsterdam hangs on the brick front of a private house in a side street of the Prinses Irenebuurt.
+
+    In 1959 the owner of this new villa and his wife wanted art on the wall. They thought of a mosaic, then decided on black and white, and the owner wrote that it was "to be an Escher or nothing". Escher was not keen: in a letter to his son he cursed the fashion for tiles, after a tiring job on school columns in The Hague. He took the commission anyway and came to enjoy it. He based the design on his woodcut Sky and Water I of 1938, drew a diamond in which fish change into birds, and numbered all 75 tiles on the drawing for De Porceleyne Fles, the Delft pottery that fired them. The architect, Lau Peters, wanted the diamond upright. The owner and Escher wanted it lying down, and it lies down. It was unveiled in the spring of 1960 with Escher present.
+
+    The city's register of wall art calls it typical enough to be his trademark. People live here: look from the pavement.
+
+    Look for:
+    - the point halfway where you can no longer say which is fish and which is bird
+    - the colours: white fish, black birds, nothing else
+    - how the diamond cuts across the straight lines of the villa, built in 1958
+  category: street-art
+  lat: 52.341944
+  lng: 4.865575
+  address: Dirk Schäferstraat 59
+  links:
+    - { label: Escher in Het Paleis on the tableau, url: "https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds" }
+    - { label: Wikipedia (nl) Dirk Schäferstraat, url: "https://nl.wikipedia.org/wiki/Dirk_Sch%C3%A4ferstraat" }
+    - { label: Wandkunst Amsterdam (city register of wall art), url: "https://maps.amsterdam.nl/wandkunst/" }
+  attributes:
+    rank: Nice
+    built: "1960"
+    artist: M.C. Escher
+  photos:
+    - "commons:File:Vogels en vissen 2019.jpg"
+  sources:
+    - https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds (Judith Kadee, 30 October 2024; contact in 1959 after almost a year in the villa, mosaic considered, "it is to be an Escher or nothing", Escher's letter to his son about tiles, the school columns in The Hague, Sky and Water I of 1938, diamond shape, horizontal against the architect's wish, 75 numbered tiles, De Porceleyne Fles, delivered and unveiled in spring 1960 with Escher and Lau Peters present, tableau still on the villa)
+    - "City of Amsterdam, Wandkunst register, record Dirk Schäferstraat 59 (ceramic relief Vogels en Vissen, 1960, rated Top; as far as known Escher's only artwork in Amsterdam; typical enough to be his trademark; villa by Lau Peters, 1958)"
+    - https://nl.wikipedia.org/wiki/Dirk_Sch%C3%A4ferstraat (tile tableau on no. 59, birds into fish, 1960, De Porceleyne Fles, no. 59 by Lau Peters, photo of August 2019)
+    - OpenStreetMap (mural node 11585205658 at 52.341944, 4.865575); PDOK (Dirk Schäferstraat 59 at 52.341948, 4.865554)
+  nl:
+    title: "Vogels en vissen: een Escher op een villagevel"
+    summary: "Voor zover bekend heeft M.C. Escher één werk voor Amsterdam gemaakt, en dat zit op de gevel van een villa in Zuid: 75 Delftse tegels waarin witte vissen zwarte vogels worden. Eerst mopperde hij op tegels, daarna kwam hij naar de onthulling."
+    body: |
+      Het enige werk dat M.C. Escher voor zover bekend voor Amsterdam heeft gemaakt, zit op de bakstenen gevel van een woonhuis in een zijstraat van de Prinses Irenebuurt.
+
+      In 1959 wilden de eigenaar van deze nieuwe villa en zijn vrouw kunst aan de muur. Ze dachten eerst aan een mozaïek, kozen toen voor zwart-wit, en voor de eigenaar moest het een Escher worden en anders niets. Escher had er weinig zin in: in een brief aan zijn zoon vloekte hij op de tegelmode, na een vermoeiende klus met schoolzuilen in Den Haag. Hij nam de opdracht toch aan en kreeg er plezier in. Hij ging uit van zijn houtsnede Lucht en water I uit 1938, tekende een ruit waarin vissen in vogels overgaan, en nummerde alle 75 tegels op de tekening voor De Porceleyne Fles in Delft, waar ze zijn gebakken. Architect Lau Peters wilde de ruit rechtop. De eigenaar en Escher wilden hem liggend, en zo hangt hij er. In het voorjaar van 1960 is het tableau onthuld, met Escher erbij.
+
+      Het gemeentelijke register van wandkunst vindt het zo kenmerkend dat het zijn beeldmerk zou kunnen zijn. Er wordt gewoond: kijk vanaf de stoep.
+
+      Let op:
+      - het punt halverwege waar je niet meer kunt zeggen wat vis is en wat vogel
+      - de kleuren: witte vissen, zwarte vogels, verder niets
+      - hoe de ruit dwars door de rechte lijnen van de villa uit 1958 gaat
+    sources:
+      - gemeente Amsterdam, register Wandkunst, record Dirk Schäferstraat 59
+      - https://nl.wikipedia.org/wiki/Dirk_Sch%C3%A4ferstraat
+      - https://escherinhetpaleis.nl/en/escher-today/a-facade-with-fish-and-birds
+
+- title: Your Life is Calling, the twelve fists
+  summary: "Five tonnes of concrete fists were hoisted onto the Museumplein without a permit in 1990, as a protest against the Van Gogh fair. The guards thought it belonged to the show. Since 1999 the fists stand on a hillock in the Beatrixpark."
+  body: |
+    Twelve clenched fists rise out of a small hill in the south-east corner of the Beatrixpark, against the motorway. They were made to stand somewhere else, and nobody had asked for them.
+
+    In 1990, a century after Van Gogh's death, the Museumplein filled with a "Van Gogh Village" for sponsors and souvenirs. The art world muttered. Two artists, Paul Pieck and Benno Réwinkel, found the muttering too easy and cast a statement instead: a little over 5,000 kilos of reinforced concrete, one fist for each month of the year, poured on the pavement in front of their studio on the Admiraal de Ruijterweg. At the end of March a lorry and a crane put it on the square, illegally. The guards let them work, assuming it was part of the exhibition. When an official found out there was no permit, the police came, heard that this was not a political action, and let them finish. The city tolerated it for eight years.
+
+    When the square was redone in 1998 the fists went into storage. The makers wanted them seen and found the friends of the Beatrixpark, who were fighting a planned motorway exit through their park and could use a symbol. The first hill they picked could not carry the weight; this one could. In September 2007 someone hacked into the sculpture; it was repaired.
+
+    Look for:
+    - twelve fists, no two the same height
+    - the low hill itself, chosen because it could bear five tonnes
+  category: street-art
+  lat: 52.340224
+  lng: 4.883669
+  address: Beatrixpark, south-east corner behind the RAI
+  links:
+    - { label: Buitenkunst Amsterdam (Your life is calling), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2313" }
+    - { label: Wikipedia (nl) Your life is calling, url: "https://nl.wikipedia.org/wiki/Your_life_is_calling" }
+    - { label: Vrienden van het Beatrixpark sculpture guide (2024), url: "https://www.vriendenbeatrixpark.nl/here2/wp-content/uploads/2024/12/Beatrixpark-Beelden-2024-deff-web.pdf" }
+    - { label: Public Art Amsterdam, url: "https://publicart.amsterdam/projecten/your-life-is-calling/" }
+  attributes:
+    rank: Nice
+    built: "1990"
+    artist: Paul Pieck and Benno Réwinkel
+  photos:
+    - "commons:File:Your life is calling1.jpg"
+  sources:
+    - https://www.vriendenbeatrixpark.nl/here2/wp-content/uploads/2024/12/Beatrixpark-Beelden-2024-deff-web.pdf (2024 guide, pp. 20-21; twelve fists one for each month, just over 5,000 kg, 200 x 200 x 180 cm, made in front of the studio on the Admiraal de Ruijterweg, placed illegally on 30 March 1990, guards, official, police, tolerated, storage 1998, Roelof Hartplein not feasible, third A10 exit, first hill too weak, here since 1999, damaged September 2007 and repaired, "stands there again")
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2313 (south-east corner against the A10, Van Gogh year, "frietkraamkermis", crane, everyone thought it belonged to the exhibition, symbol against a planned A10 exit)
+    - https://nl.wikipedia.org/wiki/Your_life_is_calling (reinforced concrete, 2 x 2 x 1.8 m, over 5,000 kg, storage about 1998, September 2007 damage; cites Trouw of 31 March 1990)
+    - https://publicart.amsterdam/projecten/your-life-is-calling/ (Van Gogh Village, last day of March, moved to the Beatrixpark in 1999)
+    - OpenStreetMap (node 4730014481 at 52.340224, 4.883669; the art register gives 52.340301, 4.883691)
+  nl:
+    title: Your Life is Calling, de twaalf vuisten
+    summary: "Vijf ton betonnen vuisten is in 1990 zonder vergunning het Museumplein op getakeld, uit protest tegen de Van Gogh-kermis. De bewaking dacht dat het erbij hoorde. Sinds 1999 staan de vuisten op een heuveltje in het Beatrixpark."
+    body: |
+      Uit een heuveltje in de zuidoosthoek van het Beatrixpark, tegen de ringweg aan, steken twaalf gebalde vuisten omhoog. Ze zijn voor een andere plek gemaakt, en niemand had erom gevraagd.
+
+      In 1990, honderd jaar na de dood van Van Gogh, stond het Museumplein vol met een 'Van Gogh Village' voor sponsors en souvenirs. In de kunstwereld werd gemopperd. Twee kunstenaars, Paul Pieck en Benno Réwinkel, vonden dat mopperen te vrijblijvend en goten een statement: ruim 5.000 kilo gewapend beton, een vuist voor elke maand van het jaar, gestort op het pleintje voor hun atelier aan de Admiraal de Ruijterweg. Eind maart zetten een vrachtwagen en een hoogwerker het illegaal op het plein. De bewakers lieten hen begaan, in de veronderstelling dat het bij de tentoonstelling hoorde. Toen een ambtenaar ontdekte dat er geen vergunning was, kwam de politie, hoorde dat het geen politieke actie was en liet hen het karwei afmaken. De gemeente heeft het acht jaar gedoogd.
+
+      Bij de herinrichting van het plein in 1998 verdwenen de vuisten in de opslag. De makers wilden dat ze te zien bleven en kwamen bij de Vrienden van het Beatrixpark terecht, die vochten tegen een geplande afslag van de ringweg door hun park en een symbool konden gebruiken. De eerste heuvel die ze uitkozen kon het gewicht niet dragen; deze wel. In september 2007 is er met grof geweld op het beeld ingehakt; het is hersteld.
+
+      Let op:
+      - twaalf vuisten, geen twee even hoog
+      - het lage heuveltje zelf, gekozen omdat het vijf ton kon dragen
+    sources:
+      - https://www.vriendenbeatrixpark.nl/here2/wp-content/uploads/2024/12/Beatrixpark-Beelden-2024-deff-web.pdf
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2313
+      - https://nl.wikipedia.org/wiki/Your_life_is_calling
+      - https://publicart.amsterdam/projecten/your-life-is-calling/
+
+- title: Love or Generosity, the giant at the court door
+  summary: "A five-metre bronze figure in steel trousers and laced boots bends over at the entrance of the Amsterdam court and studies three lucky charms in its hand: an owl, an arrow and an acorn. It is the gatekeeper, and it is not there to keep anyone out."
+  body: |
+    No blindfolded Lady Justice stands at the door of the Amsterdam court. There is a stooping giant with untidy hair instead, peering at what it holds in its hand.
+
+    Love or Generosity is by the American artist Nicole Eisenman, known mainly as a painter. It was placed on 27 November 2020 on the new square in front of the district court on the Parnassusweg, a few months before the first hearings in the building. The court describes the figure as its gatekeeper, but a gentle one rather than a guard: someone who offers people on their way in a moment of ease and comfort. It is more than five metres tall and still looks friendly, because it bends down to your level. The body is bronze with a rough skin and has both male and female traits; the trousers are stainless steel.
+
+    It was paid for under the rule that sets aside a share of the building cost of government buildings for art, with money from the city and the Amsterdam arts fund added.
+
+    The square is public, so you can walk right under it.
+
+    Look for:
+    - in the right hand: an owl for wisdom, an arrow for focus and perseverance, an acorn against evil
+    - three materials in one figure: rough bronze for the body, stainless steel for the trousers, marble composite for the laced boots
+  category: street-art
+  lat: 52.339838
+  lng: 4.868065
+  address: Parnassusweg 280
+  links:
+    - { label: Rechtspraak on the artwork (2020), url: "https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Amsterdam/Nieuws/Paginas/Eerste-kunstwerk-voor-de-nieuwe-Amsterdamse-rechtbank.aspx" }
+    - { label: Stadscuratorium Amsterdam, url: "https://stadscuratorium.nl/collectie/love-or-generosity/" }
+    - { label: Wikipedia (nl) Love or generosity, url: "https://nl.wikipedia.org/wiki/Love_or_generosity" }
+  attributes:
+    rank: Nice
+    built: "2020"
+    artist: Nicole Eisenman
+  photos:
+    - "commons:File:2021 Love or generosity (6).jpg"
+    - "commons:File:2021 Love or generosity (7).jpg"
+  sources:
+    - https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Amsterdam/Nieuws/Paginas/Eerste-kunstwerk-voor-de-nieuwe-Amsterdamse-rechtbank.aspx (Parnassusweg 280, on the square from Friday 27 November, hearings from 1 March 2021, gatekeeper who is no guard but a gentle person offering ease and comfort, over five metres, American artist known for paintings, percentage rule, city and Amsterdams Fonds voor de Kunst as partners)
+    - https://nl.wikipedia.org/wiki/Love_or_generosity (five metres, 27 November 2020, male and female traits, owl, arrow, acorn and their meanings, bent posture, bronze with rough patina, stainless steel trousers, marble composite shoes, funding)
+    - https://stadscuratorium.nl/collectie/love-or-generosity/ (gatekeeper, three lucky symbols, comfort for visitors to the court)
+    - OpenStreetMap (statue node 11051699628 at 52.339838, 4.868065)
+    - Wikimedia Commons, photos of 21 February and 20 May 2021 (boots, hand with owl)
+  nl:
+    title: Love or Generosity, de reus voor de rechtbank
+    summary: "Een bronzen figuur van vijf meter, in stalen broek en op veterschoenen, buigt zich bij de ingang van de Amsterdamse rechtbank over drie geluksbrengers in zijn hand: een uil, een pijl en een eikel. Het is de poortwachter, en hij houdt niemand tegen."
+    body: |
+      Voor de deur van de Amsterdamse rechtbank staat geen geblinddoekte Vrouwe Justitia. Er staat een voorovergebogen reus met warrig haar, die tuurt naar wat hij in zijn hand heeft.
+
+      Love or Generosity is van de Amerikaanse kunstenaar Nicole Eisenman, die vooral als schilder bekend is. Het beeld is op 27 november 2020 geplaatst op het nieuwe plein voor de rechtbank aan de Parnassusweg, een paar maanden voor de eerste zittingen in het gebouw. De rechtbank noemt de figuur haar poortwachter, maar dan een zachtaardige en geen bewaker: iemand die mensen op weg naar binnen even ontspanning en troost biedt. Hij is ruim vijf meter hoog en oogt toch vriendelijk, doordat hij zich naar je toe buigt. Het lijf is van brons met een ruwe huid en heeft zowel mannelijke als vrouwelijke trekken; de broek is van roestvast staal.
+
+      Het is betaald uit de regeling die bij rijksgebouwen een deel van de bouwsom voor kunst opzijzet, aangevuld met geld van de gemeente en het Amsterdams Fonds voor de Kunst.
+
+      Het plein is openbaar, dus je kunt er pal onder gaan staan.
+
+      Let op:
+      - in de rechterhand: een uil voor wijsheid, een pijl voor focus en volharding, een eikel tegen het kwaad
+      - drie materialen in één figuur: ruw brons voor het lijf, roestvast staal voor de broek, marmercomposiet voor de veterschoenen
+    sources:
+      - https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Rechtbanken/Rechtbank-Amsterdam/Nieuws/Paginas/Eerste-kunstwerk-voor-de-nieuwe-Amsterdamse-rechtbank.aspx
+      - https://nl.wikipedia.org/wiki/Love_or_generosity
+      - https://stadscuratorium.nl/collectie/love-or-generosity/
+
+- title: White Noise, a night sky on the telecom tower
+  summary: "After dark the top of the Zuidas telecom tower shows stars, planets and meteors in more than a thousand LEDs, with now and then a line of code. Nearby: a robot that waited at a school wall, a nine-metre knot and the most petted dog of the Zuidas."
+  body: |
+    The highest point of the Zuidas, the city's business district, is not an office. It is a telecom tower, and at night its top turns into a patch of sky.
+
+    When the offices around it grew, the mast was raised to about 150 metres to keep working. That was the occasion for an artwork. Giny Vos spent two years on it, read up on astronomy, and in her own words folded a piece of starry sky round the tower: more than a thousand computer-driven LEDs, 120 metres up, show stars and planets with meteors and small explosions passing through. Now and then strings of letters and digits appear, a sign of human communication. The work was switched on on 2 December 2009. By 2018 the weather had worn out the lights; the repair took until the end of 2020.
+
+    It only works in the dark, and then it can be seen from far around, the A10 ring road included.
+
+    Look for:
+    - De Wachter (Boris Tellegen) on the Antonio Vivaldistraat: a robot on long legs that leaned against the school wall until 2016, like a boy waiting for the doors to open
+    - Pendulum (Gijs Assmann, 2020) at the European Medicines Agency: 54 metres of mirrored steel tube in a knot nine metres high
+    - the footbridge over the Boelegracht (Martijn Sandberg, 2024), whose golden bars spell its title
+    - on the Gustav Mahlerplein: Tom Claassen's black dog, on the pavement without a plinth. People call it Hildo, a joke about the angular figures of the city sculptor Hildo Krop
+  category: street-art
+  lat: 52.336273
+  lng: 4.886635
+  address: Telecom tower, Barbara Strozzilaan
+  links:
+    - { label: Buitenkunst Amsterdam (White Noise), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2782" }
+    - { label: Stadscuratorium Amsterdam on White Noise, url: "https://stadscuratorium.nl/collectie/white-noise/" }
+    - { label: Wikipedia (nl) White noise, url: "https://nl.wikipedia.org/wiki/White_noise_(kunstwerk)" }
+    - { label: Zuidas on the repair (2020), url: "https://zuidas.nl/en/blog/2020/11/30/beacon-of-light-repaired/" }
+    - { label: Buitenkunst Amsterdam (Hildo), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2492" }
+    - { label: Stadscuratorium on the Boelegracht bridge, url: "https://stadscuratorium.nl/collectie/opgelet-kunstwerk-opgelet/" }
+  attributes:
+    rank: Okay
+    built: "2009"
+    artist: Giny Vos
+  photos:
+    - "commons:File:Lichtkunstwerk zendtoren 01.jpg"
+    - "commons:File:2020 White noise, Asd (1).jpg"
+    - "commons:File:2020 Pendulum (Gijs Assmann) (1).jpg"
+  sources:
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2782 (planets and stars after dark, meteors, small explosions, codes of letters and digits, opened 2 December 2009, commissioned by Virtueel Museum Zuidas, KPN and the city)
+    - https://nl.wikipedia.org/wiki/White_noise_(kunstwerk) (more than 1000 computer-driven LEDs, two years of work, astronomy and cosmology, failed in 2018 through weather, repair finished December 2020)
+    - https://nl.wikipedia.org/wiki/Telecomtoren_Zuidas (raised from 106 to 150 metres because of surrounding towers, artwork at 120 metres)
+    - https://stadscuratorium.nl/collectie/white-noise/ (highest point of the Zuidas, "folded a piece of starry sky round the tower")
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2511 (De Wachter, at the Antonio Vivaldistraat since 2016, before that against the school, schoolboy waiting)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2536 (Pendulum, 9 m, 54 m tube, 9000 kg, EMA, no photography on the grounds)
+    - https://stadscuratorium.nl/collectie/opgelet-kunstwerk-opgelet/ (bridge opened 18 September 2024, golden bars form text)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2492 (Hildo, in front of the bank on the Gustav Mahlerplein, no official name, joke on Hildo Krop, on the pavement without plinth)
+    - Wikimedia Commons (tower lit, 31 January 2023; White Noise, 7 December 2020; Pendulum, 23 April 2020)
+  nl:
+    title: White Noise, een sterrenhemel op de telecomtoren
+    summary: "Als het donker is, laat de top van de telecomtoren op de Zuidas sterren, planeten en meteoren zien in ruim duizend leds, met af en toe een regel code. In de buurt: een robot die bij een schoolmuur stond te wachten, een knoop van negen meter en de meest geaaide hond van de Zuidas."
+    body: |
+      Het hoogste punt van de Zuidas is geen kantoor. Het is een telecomtoren, en 's nachts verandert de top in een stuk hemel.
+
+      Toen de kantoren eromheen groeiden, is de mast tot ongeveer 150 meter verhoogd om te kunnen blijven werken. Dat was de aanleiding voor een kunstwerk. Giny Vos werkte er twee jaar aan, verdiepte zich in sterrenkunde, en vouwde naar eigen zeggen een stuk sterrenhemel om de toren: ruim duizend computergestuurde leds op 120 meter hoogte tonen sterren en planeten waar meteoren en kleine explosies doorheen schieten. Af en toe verschijnen er reeksen letters en cijfers, een teken van menselijke communicatie. Op 2 december 2009 ging het werk aan. In 2018 waren de lampjes door weer en wind versleten; het herstel duurde tot eind 2020.
+
+      Het werkt alleen in het donker, en dan is het tot ver in de omtrek te zien, ook vanaf de ringweg A10.
+
+      Let op:
+      - De Wachter (Boris Tellegen) aan de Antonio Vivaldistraat: een robot op lange poten die tot 2016 tegen de schoolmuur stond, als een jongetje dat wacht tot de deur opengaat
+      - Pendulum (Gijs Assmann, 2020) bij het Europees Geneesmiddelenbureau: 54 meter spiegelende stalen buis in een knoop van negen meter hoog
+      - de voetbrug over de Boelegracht (Martijn Sandberg, 2024), waarvan de gouden spijlen de titel vormen
+      - op het Gustav Mahlerplein: de zwarte hond van Tom Claassen, zonder sokkel op de stoep. Hij wordt Hildo genoemd, een grap over de hoekige beelden van stadsbeeldhouwer Hildo Krop
+    sources:
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2782
+      - https://nl.wikipedia.org/wiki/White_noise_(kunstwerk)
+      - https://nl.wikipedia.org/wiki/Telecomtoren_Zuidas
+      - https://stadscuratorium.nl/collectie/white-noise/
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2511
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2536
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2492
+
+- title: "Monument Rozenoord: 106 empty chairs"
+  summary: "A lawn of empty garden chairs just inside the Amstelpark, one for every man known by name who was shot on the Amsteldijk between September 1944 and April 1945. The first stone on the site, put up in 1973, read only 'Spring 1945'."
+  body: |
+    Just inside the Amstelpark stand 106 empty garden chairs, set down every which way, as if the people who sat on them had just walked off. Each stands on a concrete slab with a name, a date of birth and the date the man was shot.
+
+    They were shot 650 metres north of here, on the Amsteldijk, beside the former rose nursery and tea garden Rozenoord. On nine days between 18 September 1944 and 14 April 1945 the occupier executed about 140 men there, most of them from the resistance, in reprisals. On 8 March 1945 alone, after the attack on the SS chief Rauter, 53 prisoners were shot. The order had been for 75; only 53 prisoners marked for execution were on hand in Amsterdam.
+
+    At the site a flagpole came first, a stone only in 1973, reading "Voorjaar 1945" (spring 1945). Neighbours, a debating society and the newspaper Het Parool, which lost one of its leading men here, wanted the dead named. Ram Katzir's monument was unveiled on 1 May 2015 with 100 chairs; six were added in 2018, when more names were found. The 4 May commemoration is held here.
+
+    The park is open in the daytime; the Amsteldijk entrance is nearest.
+
+    Look for:
+    - three models of chair: the model tells you the age of the man
+    - the slab without a chair, for the forty or so who are still unnamed
+    - on the Amsteldijk at the Dr. C.W. Ittmannpad: the stone and flagpole of the execution site, with name plaques in the ground. The path is named after a doctor shot there
+  category: hidden-history
+  lat: 52.328383
+  lng: 4.895689
+  address: Amstelpark, near the Amsteldijk entrance
+  links:
+    - { label: 4en5mei.nl on the monument of 2015, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord" }
+    - { label: 4en5mei.nl on the execution site, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1466/amsterdam-fusilladeplaats-rozenoord" }
+    - { label: Wikipedia (nl) Monument Rozenoord, url: "https://nl.wikipedia.org/wiki/Monument_Rozenoord" }
+    - { label: Wikipedia (nl) Fusilladeplaats Rozenoord, url: "https://nl.wikipedia.org/wiki/Fusilladeplaats_Rozenoord" }
+    - { label: Buitenkunst Amsterdam (Rozenoord Monument), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2512" }
+  attributes:
+    rank: Amazing
+    built: "2015"
+    artist: Ram Katzir
+  photos:
+    - "commons:File:Monument Rozenoord (01).jpg"
+    - "commons:File:Monument Rozenoord (05).jpg"
+    - "commons:File:Fusilladeplaats Rozenoord 01.JPG"
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord (106 empty chairs on concrete bases with name and dates, plaque for about 40 unidentified, chairs as if just put down, three types by age, six chairs added in 2018, initiative of M.A.R.N.I.X., Het Parool and residents, unveiled 1 May 2015, near the Amsteldijk entrance; 8 March 1945, order for 75, 53 "Todeskandidaten", Kees de Groot of Het Parool, yearly wreath)
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1466/amsterdam-fusilladeplaats-rozenoord (rose nursery about 1900, attraction with rose garden, commemoration 22 May 1945, flagpole 1948, stone 1973 with "Voorjaar 1945", moved 1981 with present text, path named 1992 after C.W. Ittmann, doctor, shot 7 February 1945)
+    - https://nl.wikipedia.org/wiki/Fusilladeplaats_Rozenoord (nine days between 18 September 1944 and 14 April 1945, presumably 140 shot, 100 known by name, the separate executions, commemoration on 4 May)
+    - https://nl.wikipedia.org/wiki/Monument_Rozenoord (2015, Ram Katzir, residents wanted a more personal monument, lawn with empty chairs, slab without chair, six chairs in summer 2018, 106 since September 2018, 4 May, Entree Amsteldijk nearest)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2512 (presumably 140, most in the resistance, each victim a place of his own in 2015)
+    - OpenStreetMap (way 74528743, Monument Rozenoord, centre 52.328383, 4.895689; memorial node Rozenoord at 52.333962, 4.898396)
+  nl:
+    title: "Monument Rozenoord: 106 lege stoelen"
+    summary: "Een grasveld met lege tuinstoelen net binnen het Amstelpark, één voor elke man van wie de naam bekend is en die tussen september 1944 en april 1945 aan de Amsteldijk is gefusilleerd. Op de eerste steen op de plek zelf, uit 1973, stond alleen 'Voorjaar 1945'."
+    body: |
+      Net binnen het Amstelpark staan 106 lege tuinstoelen, kriskras door elkaar, alsof de mensen die erop zaten net zijn weggelopen. Elke stoel staat op een betonnen plaat met een naam, een geboortedatum en de dag waarop de man is doodgeschoten.
+
+      Dat gebeurde 650 meter noordelijker, aan de Amsteldijk, naast wat de rozenkwekerij en theetuin Rozenoord was geweest. Op negen dagen tussen 18 september 1944 en 14 april 1945 fusilleerde de bezetter daar ongeveer 140 mannen, de meesten uit het verzet, als represaille. Alleen al op 8 maart 1945, na de aanslag op SS-chef Rauter, werden 53 gevangenen doodgeschoten. Het bevel was voor 75; in Amsterdam waren maar 53 gevangenen voorhanden die voor executie waren aangewezen.
+
+      Op de plek zelf kwam eerst een vlaggenmast, pas in 1973 een steen met 'Voorjaar 1945'. Buurtbewoners, een dispuut en Het Parool, dat hier een van zijn voormannen verloor, wilden dat de doden een naam kregen. Het monument van Ram Katzir is op 1 mei 2015 onthuld met 100 stoelen; in 2018 kwamen er zes bij, toen er meer namen waren gevonden. De herdenking op 4 mei wordt hier gehouden.
+
+      Het park is overdag open; de ingang aan de Amsteldijk is het dichtstbij.
+
+      Let op:
+      - drie modellen stoel: aan het model zie je hoe oud de man was
+      - de plaat zonder stoel, voor de ongeveer veertig van wie de naam nog niet bekend is
+      - aan de Amsteldijk bij het Dr. C.W. Ittmannpad: de steen en de vlaggenmast van de fusilladeplaats, met naamplaten in de grond. Het pad heet naar een arts die er is doodgeschoten
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4543/amsterdam-monument-rozenoord
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1466/amsterdam-fusilladeplaats-rozenoord
+      - https://nl.wikipedia.org/wiki/Fusilladeplaats_Rozenoord
+      - https://nl.wikipedia.org/wiki/Monument_Rozenoord
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2512
+
+- title: Monument for the hidden child and the protector
+  summary: "A bronze man carries a girl's suitcase and keeps an arm round her shoulders. The memorial is for the Jewish children hidden in the war and for the people who took them in. The sculptor had been a hidden child herself."
+  body: |
+    A bronze man in a long coat holds a suitcase in one hand. It is not his. It belongs to the small girl he has drawn against him with his other arm.
+
+    The monument remembers the children who were hidden during the Second World War and honours the people who protected them, the Amsterdammers who took Jewish children into their homes at the risk of their own lives. A foundation set up for the purpose had it made, and mayor Schelto Patijn unveiled it on 11 May 2000.
+
+    The sculptor, Naomi Elburg (1943–2007), knew the subject from the inside. She was born in the war and had to be hidden herself, and she made several memorials about hidden children.
+
+    The figures stand on a small paved square beside the Jewish secondary school Maimonides. Since Buitenveldert was built, a large Jewish community has lived in the suburb, and the Kastelenstraat just to the north has its schools, synagogues and kosher shops.
+
+    Look for:
+    - the plaque on the stone plinth, with the dedication and the date of the unveiling
+    - the difference in scale: he fills his coat, she barely reaches his chest
+  category: hidden-history
+  lat: 52.325134
+  lng: 4.887514
+  address: Van Boshuizenstraat at Nieuw Herlaer
+  links:
+    - { label: 4en5mei.nl on the monument, url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer" }
+    - { label: Buitenkunst Amsterdam (ondergedoken kind), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2364" }
+  attributes:
+    rank: Okay
+    built: "2000"
+    artist: Naomi Elburg
+  photos:
+    - "commons:File:Amsterdam monument ondergedoken kind en beschermer.jpg"
+    - "commons:File:War monument Van Boshuizenstraat amsterdam.jpg"
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer (bronze man embracing a girl, holds her suitcase, stone base with plaque and its text, tribute to Amsterdammers who took in Jewish children at the risk of their lives, foundation, unveiled 11 May 2000 by mayor Schelto Patijn, small square at Van Boshuizenstraat and Nieuw Herlaer by the Maimonides Lyceum)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2364 (foundation's initiative, man with suitcase takes a young child under his care, Naomi Elburg 1943-2007 made several memorials on the hidden child and had to hide herself)
+    - "City of Amsterdam, Cultuurhistorische verkenning Buitenveldert (September 2025), p. 62-63 (Jewish schools, synagogues and kosher shops around the Kastelenstraat)"
+    - OpenStreetMap (war memorial node 4903621033 at 52.325134, 4.887514, start date 2000)
+  nl:
+    title: Monument voor het ondergedoken kind en de beschermer
+    summary: "Een bronzen man draagt de koffer van een meisje en houdt een arm om haar schouders. Het gedenkteken is voor de joodse kinderen die in de oorlog ondergedoken zaten en voor wie hen in huis nam. De beeldhouwster was zelf een onderduikkind."
+    body: |
+      Een bronzen man in een lange jas heeft een koffer in zijn hand. Het is niet de zijne. Hij is van het kleine meisje dat hij met zijn andere arm tegen zich aan houdt.
+
+      Het monument herinnert aan de kinderen die in de Tweede Wereldoorlog ondergedoken zaten en eert wie hen beschermde, de Amsterdammers die met gevaar voor eigen leven joodse kinderen in huis namen. Een stichting die daarvoor was opgericht liet het maken, en burgemeester Schelto Patijn onthulde het op 11 mei 2000.
+
+      Beeldhouwster Naomi Elburg (1943-2007) kende het onderwerp van binnenuit. Ze is in de oorlog geboren en moest zelf onderduiken, en ze heeft meer gedenktekens over het ondergedoken kind gemaakt.
+
+      De figuren staan op een bestraat pleintje naast het joodse Maimonides Lyceum. Sinds Buitenveldert is gebouwd, woont in de wijk een grote joodse gemeenschap, en de Kastelenstraat, even naar het noorden, heeft haar scholen, synagogen en koosjere winkels.
+
+      Let op:
+      - het plaatje op de stenen sokkel, met de opdracht en de datum van de onthulling
+      - het verschil in maat: hij vult zijn jas, zij komt amper tot zijn borst
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/74/amsterdam-monument-voor-het-ondergedoken-kind-en-beschermer
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2364
+      - gemeente Amsterdam, Cultuurhistorische verkenning Buitenveldert (september 2025)
+
+- title: "Zitplastiek voor herinnering: Jewish forced labour at the edge of the Bos"
+  summary: "Concrete shapes north of the Bosbaan lock look like benches and are not quite benches. Their forms are copied from the bridges that Jewish men from Amsterdam were made to work on here in 1941 and 1942, before most were sent on to camps."
+  body: |
+    The Amsterdamse Bos, the city's forest park, is known as a job-creation project of the 1930s, dug by the unemployed with spade and wheelbarrow. The digging did not stop in 1940, and some of the men who did it later had no choice.
+
+    The occupier set up separate work projects for Jewish men in and around Amsterdam. According to the City Archives four of them were in the Bos. In 1941 and 1942 Jewish Amsterdammers worked here in dozens of gangs: earthworks, banks and quays, ditches, locks, bridges, paths. At several sites the men went home after work. One group gathered on the Koenenkade. The work was a step in their isolation: in the course of 1942 many were moved to labour camps elsewhere in the country or deported by way of Westerbork.
+
+    Nothing in the landscape shows it. For the exhibition "Tewerkgesteld in het Amsterdamse Bos" (Put to work in the Amsterdamse Bos, 2021–2022) the artist Tim Mathijsen made this group of concrete elements in the summer of 2021. He took their shapes from the bridges the men worked on around the marina De Koenen, then repeated, bent and folded them. You can sit on them, more or less.
+
+    Look for:
+    - the concrete elements: one bridge shape repeated, bent, folded and joined up
+    - which part you would sit on: the artist left that unclear on purpose
+    - the Bosbaan lock just to the south, and the marina De Koenen where the men worked
+  category: hidden-history
+  lat: 52.330761
+  lng: 4.842752
+  address: Koenenkade 24, north of the Bosbaan lock
+  links:
+    - { label: Buitenkunst Amsterdam (Zitplastiek voor herinnering), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/1157" }
+    - { label: Amsterdamse Bos on its artworks, url: "https://www.amsterdamsebos.nl/kunst/kunstwerken/" }
+    - { label: Wikipedia (nl) Amsterdamse Bos, url: "https://nl.wikipedia.org/wiki/Amsterdamse_Bos" }
+  attributes:
+    rank: Okay
+    built: "2021"
+    artist: Tim Mathijsen
+    check: Location
+    check_note: "The city's art register puts the seats north of the Bosbaan lock at Koenenkade 24; the exact spot is not confirmed."
+  sources:
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/1157 (made for the exhibition, built summer 2021 north of the Bosbaan lock, shapes from the bridges Jewish men worked on around the marina De Koenen, repeated, deformed, folded, seats and yet not; coordinates 52.330761, 4.842752, Koenenkade 24)
+    - https://www.amsterdamsebos.nl/kunst/kunstwerken/ (the park's current list of artworks, read November 2026, includes the work with the same description)
+    - https://nl.wikipedia.org/wiki/Amsterdamse_Bos (work projects for Jewish men, four in the Bos and one at Schiphol-Oost per the City Archives, not always residential, 1941 and 1942 in dozens of gangs, kinds of work, a group gathered at the Koenenkade, transfer to camps or deportation via Westerbork in 1942)
+    - "amsterdamsebos.nl, exhibition page 'Forced Labour in the Amsterdamse Bos' (2 September 2021 to 10 July 2022, Boswinkel), as returned by web search; the page itself now gives a 404"
+  nl:
+    title: "Zitplastiek voor herinnering: joodse dwangarbeid aan de rand van het Bos"
+    summary: "Betonnen vormen ten noorden van de Bosbaansluis lijken op banken en zijn het net niet. Ze zijn afgekeken van de bruggen waaraan joodse mannen uit Amsterdam hier in 1941 en 1942 moesten werken, voordat de meesten naar kampen werden doorgestuurd."
+    body: |
+      Het Amsterdamse Bos staat bekend als werkverschaffing uit de jaren dertig, gegraven door werklozen met schop en kruiwagen. In 1940 hield het graven niet op, en een deel van de mannen die het daarna deden had geen keus.
+
+      De bezetter richtte in en rond Amsterdam aparte werkobjecten in voor joodse mannen. Volgens het Stadsarchief lagen er vier in het Bos. In 1941 en 1942 werkten joodse Amsterdammers hier in tientallen ploegen: grondwerk, oevers en kades, sloten, sluizen, bruggen, paden. Bij verschillende objecten gingen de mannen na het werk naar huis. Eén groep verzamelde zich aan de Koenenkade. Het werk was een stap in hun isolement: in de loop van 1942 zijn velen naar werkkampen elders in het land overgebracht of via Westerbork gedeporteerd.
+
+      In het landschap is daar niets van te zien. Voor de tentoonstelling 'Tewerkgesteld in het Amsterdamse Bos' (2021-2022) maakte kunstenaar Tim Mathijsen in de zomer van 2021 deze groep betonnen elementen. De vormen nam hij over van de bruggen waaraan de mannen rond jachthaven De Koenen hebben gewerkt, en die herhaalde, vervormde en vouwde hij. Je kunt erop zitten, min of meer.
+
+      Let op:
+      - de betonnen elementen: één brugvorm, herhaald, vervormd, omgevouwen en aan elkaar gezet
+      - op welk deel je zou gaan zitten: dat heeft de kunstenaar met opzet onduidelijk gelaten
+      - de Bosbaansluis, net ten zuiden, en jachthaven De Koenen, waar de mannen werkten
+    attributes:
+      check_note: "Volgens het kunstregister van de gemeente staan de zitelementen ten noorden van de Bosbaansluis bij Koenenkade 24; de precieze plek is niet bevestigd."
+    sources:
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/1157
+      - https://www.amsterdamsebos.nl/kunst/kunstwerken/
+      - https://nl.wikipedia.org/wiki/Amsterdamse_Bos
+
+- title: Kwibuka monument, Rwanda remembered in the Beatrixpark
+  summary: "A black granite stone with a flame, near the Diepenbrockstraat gate, is the first memorial in the Netherlands to the 1994 genocide against the Tutsi in Rwanda. It was unveiled in the rain on 19 April 2023, and the speeches moved to the church across the road."
+  body: |
+    Dutch parks are full of memorials to the Second World War. This one, on a lawn by the water near the Diepenbrockstraat entrance, remembers something else: the genocide against the Tutsi in Rwanda in 1994.
+
+    Survivors who came to the Netherlands as refugees formed Ibuka-Nederland, an organisation that keeps the memory of the victims alive. Other countries had a memorial. The Netherlands, with a Rwandan community that is large for Europe, had none. On 2 August 2021 the Rwandan embassy wrote to mayor Femke Halsema to ask for one, and she agreed. The embassy approached several boroughs; Zuid said yes, and together they picked the Beatrixpark.
+
+    The stone was unveiled on 19 April 2023 as the first Kwibuka monument in the country, with the ambassador, Ibuka and the deputy mayor present. The weather was so bad that the speeches were held in the Vrijburg church across the street.
+
+    The park is open day and night.
+
+    Look for:
+    - the flame on the polished black granite, above the text
+    - the pond right behind the stone
+    - across the Diepenbrockstraat, opposite the Herman Gorterstraat: the church where the speeches were given
+  category: hidden-history
+  lat: 52.344917
+  lng: 4.880703
+  address: Beatrixpark, near the Diepenbrockstraat entrance
+  links:
+    - { label: Wikipedia (nl) Kwibukamonument, url: "https://nl.wikipedia.org/wiki/Kwibukamonument" }
+    - { label: Vrienden van het Beatrixpark on the monument, url: "https://www.vriendenbeatrixpark.nl/rwanda-monument-in-beatrixpark/" }
+    - { label: Het Parool on the unveiling (2023), url: "https://www.parool.nl/amsterdam/monument-onthuld-in-beatrixpark-ter-nagedachtenis-aan-rwandese-genocide-tegen-tutsi-s~b5180a15/" }
+    - { label: Ibuka Nederland, url: "https://ibuka.nl/" }
+  attributes:
+    rank: Okay
+    built: "2023"
+  photos:
+    - "commons:File:2023 Kwibukamonument, Beatrixpark, Asd (1).jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Kwibukamonument (genocide of 1994, refugees united in Ibuka-Nederland, no monument yet unlike elsewhere, embassy's request of 2 August 2021 to mayor Halsema, initiative of Ibuka and the embassy, unveiled 19 April 2023 as first Kwibuka monument in the Netherlands, those present, near the Diepenbrockstraat entrance opposite the Herman Gorterstraat, speeches in the Vrijburg church because of the weather, granite; cites Het Parool of 19 April 2023 and the city's news item)
+    - https://www.vriendenbeatrixpark.nl/rwanda-monument-in-beatrixpark/ (borough's information; Rwandan community relatively large, embassy approached several boroughs, Zuid agreed, granite stone with a text; ceremony on the Wednesday)
+    - Wikimedia Commons, File:2023 Kwibukamonument, Beatrixpark, Asd (1).jpg (23 April 2023; black stone with flame, wreaths, by the water)
+    - nl.wikipedia coordinates 52.344917, 4.880703
+  nl:
+    title: Kwibukamonument, Rwanda herdacht in het Beatrixpark
+    summary: "Een zwarte granieten steen met een vlam, bij de ingang aan de Diepenbrockstraat, is het eerste gedenkteken in Nederland voor de genocide op de Tutsi in Rwanda in 1994. Hij is op 19 april 2023 in de regen onthuld; de toespraken verhuisden naar de kerk aan de overkant."
+    body: |
+      De Nederlandse parken staan vol gedenktekens voor de Tweede Wereldoorlog. Dit, op een grasveld aan het water bij de ingang aan de Diepenbrockstraat, herdenkt iets anders: de genocide op de Tutsi in Rwanda in 1994.
+
+      Overlevenden die als vluchteling naar Nederland kwamen, verenigden zich in Ibuka-Nederland, dat de herinnering aan de slachtoffers levend houdt. Andere landen hadden een gedenkteken. Nederland, met een Rwandese gemeenschap die voor Europa groot is, had er geen. Op 2 augustus 2021 vroeg de Rwandese ambassade er burgemeester Femke Halsema per brief om, en zij zegde haar medewerking toe. De ambassade benaderde verschillende stadsdelen; Zuid zei ja, en samen kozen ze het Beatrixpark.
+
+      De steen is op 19 april 2023 onthuld als eerste Kwibukamonument van het land, in het bijzijn van de ambassadeur, Ibuka en de locoburgemeester. Het weer was zo slecht dat de toespraken in de Vrijburgkerk aan de overkant zijn gehouden.
+
+      Het park is dag en nacht open.
+
+      Let op:
+      - de vlam op het gepolijste zwarte graniet, boven de tekst
+      - de vijver vlak achter de steen
+      - aan de overkant van de Diepenbrockstraat, tegenover de Herman Gorterstraat: de kerk waar de toespraken zijn gehouden
+    sources:
+      - https://nl.wikipedia.org/wiki/Kwibukamonument
+      - https://www.vriendenbeatrixpark.nl/rwanda-monument-in-beatrixpark/
+
+- title: The first stone of Buitenveldert
+  summary: "A whole suburb of some eight thousand homes started from one stone, laid on 2 June 1958 in a wall on the Wamberg. The Queen's Commissioner hoped it would become 'a jewel of Amsterdam'. The planner behind the city's expansion plan bought a house here himself."
+  body: |
+    Buitenveldert has a birth certificate, and it is set into a wall at the corner of two quiet streets.
+
+    This was a polder of farms and market gardens until the city raised it with sand from 1955. The plan for the southern half was approved in February 1957, the first pile went into the ground that December, and on 2 June 1958 the Queen's Commissioner for Noord-Holland, M.J. Prinsen, laid the first stone for the first block of houses. He ended his speech with the wish that Buitenveldert might become "a jewel of Amsterdam, for which posterity will remain grateful to the city council". The first homes were handed over on 1 May 1959. Some eight thousand followed.
+
+    One customer was Cornelis van Eesteren, the planner behind the city's great expansion plan. He bought a house in the new district and lived there into old age. "If you really want to know how I meant the expansion plan," he said, "go and look in Buitenveldert."
+
+    Look for:
+    - the stone itself: "De eerste steen voor Tuinstad Buitenveldert", the date and the Commissioner's name
+    - the half-high blocks of flats at right angles round open courts, the pattern of the whole neighbourhood
+    - on the Kastelenstraat, just to the south: four square buildings of shops and flats built over the street like gates
+  category: hidden-history
+  lat: 52.327100
+  lng: 4.884900
+  address: Wamberg at Bouvigne
+  links:
+    - { label: Ons Amsterdam on 2 June 1958, url: "https://onsamsterdam.nl/artikelen/2-juni-1958-de-eerste-steen-van-buitenveldert" }
+    - { label: Cultuurhistorische verkenning Buitenveldert (2025), url: "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2026/dc-2026-10587/1/bijlage/dc-2026-10587.pdf" }
+    - { label: Wikipedia (nl) Wamberg, url: "https://nl.wikipedia.org/wiki/Wamberg_(Amsterdam)" }
+  attributes:
+    rank: Okay
+    built: "1958"
+    check: Location
+    check_note: "The stone is in a front at the corner of Wamberg and Bouvigne; which wall exactly is not pinned."
+  photos:
+    - "commons:File:2024 Wamberg, Asd-eerste steen.jpg"
+  sources:
+    - https://onsamsterdam.nl/artikelen/2-juni-1958-de-eerste-steen-van-buitenveldert (2 June 1958, M.J. Prinsen, stone still to be seen in the Wamberg, over eight thousand homes, the closing words of the speech, Van Eesteren bought a house and lived there into old age, his quote)
+    - "City of Amsterdam, Cultuurhistorische verkenning Buitenveldert (September 2025), p. 21 (raising from 1955, plan approved February 1957, first pile December 1957 at Bouvigne and Kastelenstraat, first stone 2 June 1958 at the crossing of Wamberg and Bouvigne, first homes 1 May 1959) and pp. 44-50 (hook-shaped blocks, Kastelenstraat covered at four points by square shop and housing buildings)"
+    - https://nl.wikipedia.org/wiki/Wamberg_(Amsterdam) (plaque at the corner with Bouvigne and its text; farmland and market gardens before; the article gives the year as 1956, which the stone itself contradicts)
+    - Wikimedia Commons, File:2024 Wamberg, Asd-eerste steen.jpg (photo of 6 April 2024; the stone reads 2 June 1958)
+  nl:
+    title: De eerste steen van Buitenveldert
+    summary: "Een hele wijk van zo'n achtduizend woningen begon met één steen, op 2 juni 1958 gelegd in een gevel aan Wamberg. De commissaris van de Koningin hoopte dat het 'een sieraad van Amsterdam' zou worden. De man achter het uitbreidingsplan van de stad kocht er zelf een huis."
+    body: |
+      Buitenveldert heeft een geboortebewijs, en het zit in een muur op de hoek van twee rustige straten.
+
+      Dit was een polder met boerderijen en tuinderijen, tot de stad hem vanaf 1955 met zand ophoogde. Het plan voor de zuidelijke helft werd in februari 1957 goedgekeurd, in december ging de eerste paal de grond in, en op 2 juni 1958 legde de commissaris van de Koningin in Noord-Holland, M.J. Prinsen, de eerste steen voor het eerste blok huizen. Hij besloot zijn toespraak met de wens: 'Moge Buitenveldert een sieraad worden van Amsterdam, waar het nageslacht het stadsbestuur blijvend dankbaar voor zal zijn.' Op 1 mei 1959 werden de eerste woningen opgeleverd. Er volgden er zo'n achtduizend.
+
+      Een van de kopers was Cornelis van Eesteren, de man achter het grote uitbreidingsplan van de stad. Hij kocht een huis in de nieuwe wijk en woonde er tot op hoge leeftijd. 'Als je werkelijk wilt weten hoe ik het Algemeen Uitbreidingsplan bedoeld heb,' zei hij, 'dan moet je in Buitenveldert gaan kijken.'
+
+      Let op:
+      - de steen zelf: 'De eerste steen voor Tuinstad Buitenveldert', de datum en de naam van de commissaris
+      - de halfhoge flats die haaks om open hoven staan, het patroon van de hele buurt
+      - in de Kastelenstraat, even naar het zuiden: vier vierkante gebouwen met winkels en woningen die als poorten over de straat heen zijn gebouwd
+    attributes:
+      check_note: "De steen zit in een gevel op de hoek van Wamberg en Bouvigne; in welke muur precies is niet vastgesteld."
+    sources:
+      - https://onsamsterdam.nl/artikelen/2-juni-1958-de-eerste-steen-van-buitenveldert
+      - gemeente Amsterdam, Cultuurhistorische verkenning Buitenveldert (september 2025)
+      - https://nl.wikipedia.org/wiki/Wamberg_(Amsterdam)
+
+- title: "Rotterdamsepad: the motorway that got no further than a sand dike"
+  summary: "A motorway to Rotterdam was meant to cut Buitenveldert in two. From the mid-1960s a bank of sand 120 metres wide lay waiting for it. The road never came. What is left: a footpath, a ditch, and street names borrowed from Rotterdam."
+  body: |
+    A quiet footpath between blocks of flats is all that became of the motorway from Amsterdam to Rotterdam.
+
+    Rijksweg 3 was in the national road plan of 1932 and in the city's expansion plan: a road by way of Gouda, straight through what is now the Green Heart. In Buitenveldert its route lay between the Van Leijenberghlaan and the Van Heenvlietlaan, with a fork at the north end towards the Beethovenstraat and the Diepenbrockstraat. Halfway through the 1960s, while the suburb went up on both sides, the builders raised a bank of sand 120 metres wide for it. Then the plan was dropped, in the 1970s. The strip stayed reserved into the 1980s. At the end of that decade the sand was dug away and the gap filled in: housing and shops in the north, and in the south the Jewish care centre Beth Shalom, opened in 1991.
+
+    The path was named in 1990, after the city the road never reached, and the courts beside it after castles and manors near Rotterdam.
+
+    Look for:
+    - bridge 1801: its building drawings say it crosses a drainage ditch of "the former Rijksweg 3"
+    - the two graphic sculptures of 1989 that make the bridge a gate
+    - the street sign, combining Amsterdam's blue with Rotterdam's green
+    - Weenahof and Spangenhof, named after the Hof van Wena and Spangen castle
+    - how much newer the buildings in this strip are than those on either side
+  category: hidden-history
+  lat: 52.333128
+  lng: 4.880922
+  address: Rotterdamsepad, at bridge 1801
+  links:
+    - { label: Wikipedia (nl) Rotterdamsepad, url: "https://nl.wikipedia.org/wiki/Rotterdamsepad" }
+    - { label: Wikipedia (nl) Brug 1801, url: "https://nl.wikipedia.org/wiki/Brug_1801" }
+    - { label: Wikipedia (nl) Rijksweg 3, url: "https://nl.wikipedia.org/wiki/Rijksweg_3" }
+    - { label: Cultuurhistorische verkenning Buitenveldert (2025), url: "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2026/dc-2026-10587/1/bijlage/dc-2026-10587.pdf" }
+  attributes:
+    rank: Okay
+  photos:
+    - "commons:File:Brug 1801, overzicht (1).jpg"
+    - "commons:File:Rotterdamsepad (1).jpg"
+  sources:
+    - "City of Amsterdam, Cultuurhistorische verkenning Buitenveldert (September 2025), pp. 25-26, 36 and 62-63 (Rijksweg 3 in the expansion plan, route between Van Leijenberghlaan and Van Heenvlietlaan, V-shaped fork to Beethovenstraat and Diepenbrockstraat, raised bank 120 m wide from the mid-1960s, never built, sand dug away at the end of the 1980s, housing and shops in the north, Beth Shalom in the south, first pile 11 May 1989, opened 28 May 1991)"
+    - https://nl.wikipedia.org/wiki/Rijksweg_3 (road plan of 1932, via Gouda, through the Green Heart, called off in the 1970s, preparations in Buitenveldert, Weenahof and Spangenhof)
+    - https://nl.wikipedia.org/wiki/Rotterdamsepad (named 19 June 1990, courts named after castles and manors near Rotterdam, neighbourhood laid out mid-1980s, bridge 1801 drawings mention the drainage ditch of the former Rijksweg 3, sign in Amsterdam blue and Rotterdam green, artwork by Frans and Marja de Boer Lichtveld)
+    - https://nl.wikipedia.org/wiki/Brug_1801 (drainage ditch of the planned Rijksweg 3, gate structure of 1989 with two graphic objects; coordinates 52.333128, 4.880922)
+    - https://nl.wikipedia.org/wiki/Buitenveldert_(tuinstad) (route reserved into the 1980s, then partly used for housing)
+  nl:
+    title: "Rotterdamsepad: de snelweg die niet verder kwam dan een zanddijk"
+    summary: "Een snelweg naar Rotterdam had Buitenveldert in tweeën moeten snijden. Vanaf midden jaren zestig lag er een zandlichaam van 120 meter breed op te wachten. De weg kwam er nooit. Wat rest: een voetpad, een sloot en straatnamen die uit Rotterdam zijn geleend."
+    body: |
+      Een rustig voetpad tussen de flats is alles wat er van de snelweg van Amsterdam naar Rotterdam terecht is gekomen.
+
+      Rijksweg 3 stond in het Rijkswegenplan van 1932 en in het uitbreidingsplan van de stad: een weg via Gouda, dwars door wat nu het Groene Hart heet. In Buitenveldert lag het tracé tussen de Van Leijenberghlaan en de Van Heenvlietlaan, met aan de noordkant een vertakking naar de Beethovenstraat en de Diepenbrockstraat. Halverwege de jaren zestig, terwijl de wijk aan weerskanten verrees, werd er een zandlichaam van 120 meter breed voor opgeworpen. In de jaren zeventig ging het plan van tafel. De strook bleef tot in de jaren tachtig gereserveerd. Aan het eind van dat decennium is het zand afgegraven en het gat gevuld: woningen en winkels in het noorden, en in het zuiden het joodse zorgcentrum Beth Shalom, geopend in 1991.
+
+      Het pad kreeg in 1990 zijn naam, naar de stad die de weg nooit heeft bereikt, en de hoven ernaast heten naar kastelen en landhuizen bij Rotterdam.
+
+      Let op:
+      - brug 1801: volgens de bouwtekeningen ligt hij over een afwateringstocht van 'de voormalige Rijksweg 3'
+      - de twee grafische objecten uit 1989 die van de brug een poort maken
+      - het straatnaambord, in het blauw van Amsterdam en het groen van Rotterdam
+      - Weenahof en Spangenhof, genoemd naar het Hof van Wena en kasteel Spangen
+      - hoeveel jonger de gebouwen in deze strook zijn dan die aan weerskanten
+    sources:
+      - gemeente Amsterdam, Cultuurhistorische verkenning Buitenveldert (september 2025)
+      - https://nl.wikipedia.org/wiki/Rijksweg_3
+      - https://nl.wikipedia.org/wiki/Rotterdamsepad
+      - https://nl.wikipedia.org/wiki/Brug_1801
+
+- title: "Kalfjeslaan: the lane where Amsterdam stops"
+  summary: "A country lane on sixteenth-century maps, the city limit since 1921. The land drops on its south side, where a lake dug out for peat was drained in 1892. In the Hunger Winter every tree in it was cut for fuel."
+  body: |
+    Amsterdam ends at a row of trees. The Kalfjeslaan runs almost straight from the Amstel to the Amstelveenseweg, and its south bank is the municipal boundary: the lane is Amsterdam, the ditch beside it Amstelveen.
+
+    It is far older than anything north of it. Sixteenth-century maps show it as 't Cleine Loopvelt, the path between the river and the road to Amstelveen. The present name comes from an inn at the Amstel end, opened in 1670 by one Jan Claesz Kalf. The inn burned in 1967 and was pulled down.
+
+    Look south and the ground lies lower. That was a lake, dug out for peat, which the municipality of Nieuwer-Amstel had drained in 1892. In 1921 Amsterdam annexed the land up to here, and the border has not moved since. In the Hunger Winter of 1944–1945 people cut down every tree in the lane for fuel, leaving a bare polder road; it was replanted after the war.
+
+    Today it is for walkers and cyclists, with cars only at the two ends.
+
+    Look for:
+    - the drop in the land on the south side
+    - the gates of the Aemstel Schooltuin (school gardens, 2014) by the designer Tjep: pale green laser-cut steel full of plants, animals, garden tools and one very large key
+    - the little park on the site of the inn, reached by two wooden footbridges of 2013. Script lichen, recorded there about 1850, has been found on its trees again
+    - in summer, the foot and cycle ferry across the Amstel
+  category: green
+  lat: 52.322616
+  lng: 4.891957
+  address: Kalfjeslaan, east end near the Amsteldijk
+  links:
+    - { label: Wikipedia (nl) Kalfjeslaan, url: "https://nl.wikipedia.org/wiki/Kalfjeslaan" }
+    - { label: Wikipedia (nl) on the school garden gates, url: "https://nl.wikipedia.org/wiki/Toegangspoort_Aemstel_Schooltuinen" }
+    - { label: Cultuurhistorische verkenning Buitenveldert (2025), url: "https://repository.officiele-overheidspublicaties.nl/Datacollecties/2026/dc-2026-10587/1/bijlage/dc-2026-10587.pdf" }
+  attributes:
+    rank: Okay
+  photos:
+    - "commons:File:Kalfjeslaan1.jpg"
+    - "commons:File:Aemstel Schooltuinen toegangspoort (1).jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Kalfjeslaan (inn of 1670 and Jan Claesz Kalf, citing Ons Amsterdam 1991; 't Cleine Loopvelt on sixteenth-century maps; lake drained 1892, Middelpolder, lower ground to the south; annexation of 1921, south bank Amsterdam and the ditch Amstelveen; trees cut in the Hunger Winter and replanted; walkers and cyclists, cars at the ends; school gardens since 2014; script lichen about 1850; inn demolished after a fire in 1967; footbridges 2167 and 2168 of 2013; summer ferry)
+    - https://nl.wikipedia.org/wiki/Toegangspoort_Aemstel_Schooltuinen (opened 2014, replacing the Dr. L. Alma garden that made way for the VU medical centre, two gates by Frank Tjepkema, laser-cut from 1 cm steel, light green powder coat, flora, fauna, tools, key and keyhole)
+    - "City of Amsterdam, Cultuurhistorische verkenning Buitenveldert (September 2025), pp. 15 and 53 (the lane as southern edge of the polder and as green link; rural character left only at the east end)"
+    - PDOK (Kalfjeslaan 28 at 52.322616, 4.891957)
+  nl:
+    title: "Kalfjeslaan: de laan waar Amsterdam ophoudt"
+    summary: "Een landweg die al op zestiende-eeuwse kaarten staat en sinds 1921 de stadsgrens is. Aan de zuidkant ligt het land lager: daar is in 1892 een veenplas drooggelegd. In de Hongerwinter is elke boom uit de laan opgestookt."
+    body: |
+      Amsterdam houdt op bij een rij bomen. De Kalfjeslaan loopt vrijwel recht van de Amstel naar de Amstelveenseweg, en de zuidelijke kade is de gemeentegrens: de laan is Amsterdam, de sloot ernaast Amstelveen.
+
+      De laan is veel ouder dan alles wat er ten noorden van ligt. Op zestiende-eeuwse kaarten staat hij als 't Cleine Loopvelt, de weg tussen de rivier en de weg naar Amstelveen. De huidige naam komt van een herberg aan de Amstelkant, in 1670 geopend door ene Jan Claesz Kalf. De herberg is in 1967 afgebrand en gesloopt.
+
+      Kijk naar het zuiden en het land ligt lager. Daar lag een plas, ontstaan door het slagturven, die de gemeente Nieuwer-Amstel in 1892 liet droogleggen. In 1921 annexeerde Amsterdam het land tot hier, en sindsdien ligt de grens op deze plek. In de Hongerwinter van 1944-1945 is elke boom uit de laan gekapt voor de kachel, tot er een kale polderweg over was; na de oorlog is er opnieuw geplant.
+
+      Nu is de laan voor wandelaars en fietsers, met alleen aan de twee uiteinden auto's.
+
+      Let op:
+      - het hoogteverschil met het land aan de zuidkant
+      - de hekken van de Aemstel Schooltuin (2014) van ontwerper Tjep: lichtgroen, met de laser uit staal gesneden, vol planten, dieren, tuingereedschap en één heel grote sleutel
+      - het parkje op de plek van de herberg, te bereiken over twee houten voetbruggen uit 2013. Op de bomen is schriftmos gevonden, dat daar rond 1850 ook al is vastgesteld
+      - 's zomers het voet- en fietsveer over de Amstel
+    sources:
+      - https://nl.wikipedia.org/wiki/Kalfjeslaan
+      - https://nl.wikipedia.org/wiki/Toegangspoort_Aemstel_Schooltuinen
+      - gemeente Amsterdam, Cultuurhistorische verkenning Buitenveldert (september 2025)
