@@ -1,0 +1,714 @@
+# Centrum round 1, slice nieuwmarkt-2: Koningsstraat, Krom Boomssloot, Kromme Waal, Oude Waal, Nieuwe Hoogstraat, Nieuwmarkt, Nieuwe Herengracht, Nieuwe Amstelstraat and Uilenburg (65 monument records, plus the Boas chimney and gate piers handed over from nieuwmarkt-1).
+# See notes/nieuwmarkt-2.md for the record ledger.
+# Dutch texts are written fresh from the city and national register texts, nl.wikipedia and the other sources listed per place.
+
+# ================================================================ Uilenburg
+
+- title: Boas diamond factory, once the largest in Europe
+  summary: "In 1879 three Jewish brothers opened a steam-driven diamond factory here with 357 cutting mills, the biggest in Europe. The war ended it; in 1990 diamonds came back, and today you can walk in on a free tour."
+  body: |
+    The brothers Israël, Marcus and Hartog Boas started cutting diamonds in 1870 on the Nieuwe Keizersgracht, with mills turned by horses. Their way of working was new for the time: they paid their cutters wages instead of renting them a mill. When the South African mines flooded the trade with rough stones, they built this factory on Uilenburg, then one of the poorest Jewish neighbourhoods of the city. It opened on 29 June 1879: 357 mills driven by steam, with 357 cutters, 122 setters, 142 apprentices and 52 errand boys. A wing of 1887 raised the number of mills to 600. Hartog Boas died in 1894 of tuberculosis, a common illness among cutters who breathed diamond dust.
+
+    The crisis of the 1930s stopped the cutting. In the war the factory was seized, run for the occupier from 1942 and wound up in 1944, after which the remaining Jewish workers were deported.
+
+    Samuel Gassan had trained here as a cutter before the war. His firm bought the complex in 1989; plans to pull down the gatehouses, boiler house and chimney were dropped when it was listed. Gassan Diamonds has been here since 1990 and gives free tours.
+
+    Look for:
+    - the 33-metre chimney beside the boiler house
+    - the twin gatehouses (office and porter's lodge) and the carved stone gate piers
+    - ANNO and 1879 over the side entrances of the main building
+  category: industrial
+  lat: 52.369587
+  lng: 4.904066
+  address: Nieuwe Uilenburgerstraat 173-175
+  links:
+    - { label: Rijksmonumentenregister (complex 498622), url: "https://monumentenregister.cultureelerfgoed.nl/complexen/498622" }
+    - { label: Wikipedia (nl) Diamantslijperij Boas, url: "https://nl.wikipedia.org/wiki/Diamantslijperij_Boas" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/Diamantslijperij_Boas" }
+    - { label: Joods Cultureel Kwartier on the Boas building, url: "https://jck.nl/verhalen-en-verdieping/amsterdam-gebouw-boas-diamantslijperij" }
+    - { label: GASSAN tours, url: "https://www.gassan.com/en/tours" }
+  attributes:
+    rank: Amazing
+    heritage_status: National monument
+    monument_number: 498635, 498636, 498637, 498638, 498639, 498640
+    built: 1878–1879, wing 1887
+    architect: J.W. Meijer; wing C. Alberts
+    original_use: Steam diamond-cutting factory
+  photos:
+    - commons:File:Nieuwe Uilenburgerstraat 173 tower.jpg
+    - commons:File:Nieuwe Uilenburgerstraat 173 boiler house.jpg
+    - commons:File:Nieuwe Uilenburgerstraat 173 portiersgebouw.jpg
+  sources:
+    - rce:498635 (main building 1878-79 by J.W. Meijer, eclectic, towered middle risalit, two 14-bay cutting-hall wings, ANNO and 1879 on the side risalits, Gassan Diamonds name where the name frieze was since 1989, attic with balustrade and vases since 1909 lift; left wing 'Nieuwe Fabriek' 1887 by C. Alberts; cast-iron columns, wide spans for machines; plaque 1879 in the hall)
+    - rce:498636 (boiler house 1878-79, originally three steam boilers)
+    - rce:498637 (factory chimney about 33 m, square pedestal, tapering round shaft, 1878-79 by J.W. Meijer)
+    - rce:498638 (former directors' office, gatehouse, symmetrical with porter's lodge)
+    - rce:498639 (former porter's lodge)
+    - rce:498640 (carved stone gate piers between the gatehouses, from the building period)
+    - https://nl.wikipedia.org/wiki/Diamantslijperij_Boas (brothers Israël Juda, Marcus Juda and Hartog Boas; 1870 Nieuwe Keizersgracht 16, horse-driven mills; cutters on wages; Cape period; first stone 2 August 1878, opened 29 June 1879; largest in Amsterdam and Europe; 357 mills, 357 cutters, 122 setters, 142 apprentices, 52 errand boys; Hartog died 1894 of tuberculosis, common among cutters because of diamond dust; 1930s cutting stopped; requisitioned, Verwalter from 28 May 1942, liquidated 1944, remaining workers deported; names scratched with a diamond in a window pane; Gassan bought September 1989, Samuel Gassan had worked here; demolition of gatehouses, boiler house and 33 m chimney dropped after provisional listing; reopened 5 April 1990)
+    - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/Diamantslijperij_Boas (357 mills, largest in Europe; 1887 wing to 600 mills; J.W. Meijer officer-technician of the fire brigade; Gassan from 1990, Samuel Gassan 1910-1983)
+    - https://jck.nl/verhalen-en-verdieping/amsterdam-gebouw-boas-diamantslijperij (staff numbers; seized and liquidated in the war; Gassan)
+    - https://www.gassan.com/en/tours (free tours in the renovated diamond factory, checked November 2026)
+  nl:
+    title: Diamantslijperij Boas
+    summary: "In 1879 openden drie Joodse broers hier een stoomslijperij met 357 slijpmolens, de grootste van Europa. De oorlog maakte er een einde aan; sinds 1990 draait er weer diamant, en met een gratis rondleiding kom je zo binnen."
+    body: |
+      De broers Israël, Marcus en Hartog Boas begonnen in 1870 een slijperij aan de Nieuwe Keizersgracht, met molens die door paarden werden rondgedraaid. Ze deden iets nieuws: hun slijpers kregen loon, in plaats van dat ze een molen huurden. Toen de Zuid-Afrikaanse mijnen de markt overspoelden met ruwe diamant, bouwden ze deze fabriek op Uilenburg, toen een van de armste Joodse buurten van de stad. Op 29 juni 1879 ging hij open: 357 molens op stoomkracht, met 357 slijpers, 122 verstellers, 142 leerlingen en 52 loopjongens. Met de vleugel van 1887 kwamen er 600 molens. Hartog Boas stierf in 1894 aan tuberculose, een ziekte die veel voorkwam onder slijpers, die diamantstof inademden.
+
+      In de crisis van de jaren dertig lag het slijpen stil. In de oorlog werd de fabriek gevorderd, vanaf 1942 voor de bezetter gedraaid en in 1944 opgeheven, waarna de overgebleven Joodse werknemers werden weggevoerd.
+
+      Samuel Gassan had hier voor de oorlog het vak geleerd. Zijn bedrijf kocht het complex in 1989; de sloop van de poortgebouwen, het ketelhuis en de schoorsteen ging niet door toen het monument werd. Sinds 1990 zit Gassan Diamonds hier, met gratis rondleidingen.
+
+      Let op:
+      - de schoorsteen van 33 meter naast het ketelhuis
+      - de twee poortgebouwtjes (kantoor en portierswoning) en de gebeeldhouwde hekpijlers
+      - ANNO en 1879 boven de zijingangen van het hoofdgebouw
+    attributes:
+      architect: J.W. Meijer; vleugel C. Alberts
+      original_use: Stoomdiamantslijperij
+    sources:
+      - rce:498635
+      - https://nl.wikipedia.org/wiki/Diamantslijperij_Boas
+      - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/Diamantslijperij_Boas
+
+- title: Uilenburgersjoel, the synagogue behind the wall
+  summary: "Poor Ashkenazi Jews of Uilenburg prayed upstairs and held their weddings downstairs in this synagogue of 1766, reached only through an alley. After 1943 it stored old building parts for decades; now it hosts a congregation and concerts again."
+  body: |
+    From the late 17th century poor Jews from Eastern Europe settled on Uilenburg, one of the islands laid out in 1593. A house synagogue opened on this plot in 1724; in 1766 it was replaced by the present building. The prayer hall was upstairs, the two rooms below were let for wedding parties, and in the cellars were a kitchen and a place for the ritual slaughter of poultry. For a long time it could only be reached through an alley, the Koning Davidgang.
+
+    It served as a synagogue until 1943. Its congregation was largely murdered in the Holocaust and the building was plundered. In 1954 the city bought it for 75,000 guilders and used it to store salvaged building parts and as a restoration workshop; it was restored in 1996 and 2015.
+
+    When the old streets were merged into the wide Nieuwe Uilenburgerstraat, the synagogue ended up behind a high wall. A foundation leases it from the city and hires it out, and the progressive Jewish congregation Beit Ha'Chidush has met here a few times a month since 1997.
+
+    Look for:
+    - the bell-shaped gable over the middle bay, seen through the gate
+    - Amsterdam's arms in the wall, a stone from the old Haarlemmersluis set here in 1957
+    - the 1974 stone of the restoration workshop
+  category: religious
+  lat: 52.370212
+  lng: 4.905264
+  address: Nieuwe Uilenburgerstraat 91
+  links:
+    - { label: Rijksmonumentenregister (5798), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/5798" }
+    - { label: Wikipedia (nl) Uilenburger Synagoge, url: "https://nl.wikipedia.org/wiki/Uilenburger_Synagoge" }
+    - { label: Stichting Uilenburgersjoel, url: "https://www.uilenburgersjoel.nl/herinneringen-van-morgen/" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "5798"
+    built: "1766"
+    listed: 1970
+    original_use: Synagogue with wedding rooms and ritual slaughter room
+  photos:
+    - commons:File:Uilenburg Synagoge.JPG
+  sources:
+    - rce:5798 (synagogue 1766 on an inner yard behind a wall, ground floor originally ritual slaughter room, three-aisled upper room, front with middle risalit and bell-shaped top)
+    - https://www.uilenburgersjoel.nl/herinneringen-van-morgen/ (poor Jews from Eastern Europe from late 17th century; house synagogue consecrated 2 September 1724; decision 1765, in use 29 August 1766; upper hall for worship, ground floor two wedding halls, cellars kitchen and ritual poultry slaughter; only reachable through the Koning Davidgang (Brandewijngang); synagogue 1766-1943; city bought 1954 for 75,000 guilders, storage of historic building materials and restoration workshop of Hans 't Mannetje; Nationaal Restauratie Centrum from 1988; restoration 1996; behind high wall after street replanning; Stichting Uilenburgersjoel)
+    - https://nl.wikipedia.org/wiki/Uilenburger_Synagoge (Ashkenazi, 1766; Beit Ha'Chidush since 1997 a few times a month; concerts; community murdered, synagogue plundered; listed 13 October 1970; restored 1996 and 2015; leasehold to the foundation since 2013; city arms tableau 1957 from the Oude Haarlemmersluis; memorial stone of the restoration workshop 1974)
+  nl:
+    title: Uilenburgersjoel
+    summary: "De arme Asjkenazische Joden van Uilenburg baden boven en trouwden beneden in deze sjoel uit 1766, die je alleen via een gang kon bereiken. Na 1943 lag hij lang vol oude bouwonderdelen; nu zijn er weer diensten en concerten."
+    body: |
+      Vanaf het eind van de zeventiende eeuw trokken arme Joden uit Oost-Europa naar Uilenburg, een van de eilanden die in 1593 waren aangelegd. Op deze plek werd in 1724 een huissynagoge ingewijd, die in 1766 plaatsmaakte voor het huidige gebouw. Boven lag de gebedszaal, de twee zalen beneden waren er voor bruiloften, en in de kelders zaten een keuken en een ruimte waar gevogelte ritueel werd geslacht. Lange tijd kwam je er alleen via een steeg, de Koning Davidgang.
+
+      Tot 1943 was het een sjoel. De gemeente die hier kerkte, werd grotendeels vermoord en het gebouw werd leeggeroofd. In 1954 kocht de gemeente het voor 75.000 gulden en sloeg er historische bouwonderdelen in op; er zat ook een restauratieatelier. In 1996 en 2015 werd het gerestaureerd.
+
+      Toen de oude straten werden samengevoegd tot de brede Nieuwe Uilenburgerstraat, kwam de sjoel achter een hoge muur te staan. Een stichting huurt hem in erfpacht van de stad en verhuurt de zalen, en de progressief-joodse gemeente Beit Ha'Chidush komt er sinds 1997 een paar keer per maand samen.
+
+      Let op:
+      - de klokgevel boven het middendeel, door het hek heen
+      - het Amsterdamse wapen in de muur, een steen uit de oude Haarlemmersluis, hier gezet in 1957
+      - de gedenksteen van het restauratieatelier uit 1974
+    attributes:
+      original_use: Synagoge met bruiloftszalen en ritueel slachthuis
+    sources:
+      - rce:5798
+      - https://www.uilenburgersjoel.nl/herinneringen-van-morgen/
+      - https://nl.wikipedia.org/wiki/Uilenburger_Synagoge
+
+- title: Splendor, the bathhouse of the Jewish island
+  summary: "This 1923 public bathhouse opened Sunday to Friday, not on the Sabbath, for its Jewish neighbours. In the war it was a Jews-only bathhouse and its bath master was arrested for hiding a Jewish couple. Musicians now play in the old bathrooms."
+  body: |
+    Many homes on Uilenburg had no bath, so the city built its tenth public bathhouse here, with a yard for the street-cleaning service next to it. It opened on 13 December 1923. Unlike the other municipal baths it was open from Sunday to Friday, for the many Jewish residents, and it had Jewish staff. Men came in from the Houtkopersburgwal to 14 showers and 2 tubs; women from the Nieuwe Uilenburgerstraat to 6 showers and 3 tubs. Gable stones from houses demolished in the slum clearance were set in its walls.
+
+    In 1941 the occupier made it one of only two bathhouses Jews were still allowed to use. The bath master, who lived on site with his wife, was arrested in February 1944, probably for hiding a Jewish couple, and died in Neuengamme in January 1945. The bathhouse closed in August 1943, after its Jewish neighbours had been deported.
+
+    After the war it held a chemical works, a meat-products factory and a bicycle factory. Since 2013 it has been Splendor, a music club founded and run by around fifty musicians, with concerts, open rehearsals and workshops; the men's and women's bathrooms are now its two halls.
+
+    Look for:
+    - the timber corner with three windows under a widening eave
+    - the black glazed brick plinth
+    - gable stones D' Turcksche slaeff, D' koffibaal and D' vogelstruis 1742
+  category: hidden-history
+  lat: 52.370017
+  lng: 4.903577
+  address: Nieuwe Uilenburgerstraat 116
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/2bcd637f-dd7b-4525-99bc-c0dee81db414" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/112-116" }
+    - { label: Wikipedia (nl) Splendor, url: "https://nl.wikipedia.org/wiki/Splendor_(muziekgebouw)" }
+    - { label: Splendor Amsterdam, url: "https://splendoramsterdam.com/over-splendor" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "202036"
+    built: 1919–1923
+    architect: Publieke Werken
+    listed: 2004
+    original_use: Public bathhouse and street-cleaning depot
+  sources:
+    - city:202036 (designed 1919 by Publieke Werken as municipal bathhouse and section post of Stadsreiniging; men's and women's sections; black glazed brick plinth; chamfered timber corner with pseudo-cross windows and widening eave; three re-set gable stones; tub or basin common, baths required in new homes only from 1935; first municipal bathhouse 1911)
+    - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/112-116 (tenth municipal bathhouse; open Sunday to Friday for Jewish residents, Jewish staff; opened 13 December 1923; men 14 showers and 2 tubs, women 6 showers and 3 tubs; men's entrance Houtkopersburgwal, women's Nieuwe Uilenburgerstraat; stones D' Turcksche slaeff, D' koffibaal, D' vogelstruis 1742; bath master from 1923 lived in the service house, arrested February 1944 probably for hiding two Jewish people in hiding, died Neuengamme January 1945; 1941 designated Jewish bathhouse with the one on the Boerhaaveplein; closed August 1943 after deportations; Chemorgala until 1949, meat products 1960s, bicycle factory Burco from 1971; now Splendor)
+    - https://splendoramsterdam.com/over-splendor (opened September 2013; club run by about 55 musicians with 1300 members; former men's and women's bathrooms now Grote and Kleine Zaal)
+    - https://nl.wikipedia.org/wiki/Splendor_(muziekgebouw) (rebuilt 2010-2013; founded by Wilmar de Visser; Amsterdamprijs voor de Kunst 2015)
+  nl:
+    title: Splendor, het badhuis van Uilenburg
+    summary: "Dit gemeentebadhuis uit 1923 was open van zondag tot vrijdag, niet op sjabbat, voor de Joodse buren. In de oorlog was het een badhuis voor Joden alleen, en de badmeester werd opgepakt omdat hij onderduikers hielp. Nu klinkt er muziek."
+    body: |
+      Veel woningen op Uilenburg hadden geen bad, dus bouwde de gemeente hier haar tiende badhuis, met een sectiepost van de Stadsreiniging ernaast. Op 13 december 1923 ging het open. Anders dan de andere gemeentebadhuizen was het open van zondag tot en met vrijdag, vanwege de vele Joodse buurtbewoners, en er werkte Joods personeel. Mannen gingen via de Houtkopersburgwal naar 14 douches en 2 kuipbaden, vrouwen via de Nieuwe Uilenburgerstraat naar 6 douches en 3 kuipbaden. In de muren kwamen gevelstenen van huizen die bij de sanering waren gesloopt.
+
+      In 1941 wees de bezetter het aan als een van de twee badhuizen waar Joden nog terechtkonden. De badmeester, die er met zijn vrouw woonde, werd in februari 1944 opgepakt, waarschijnlijk omdat hij een Joods echtpaar onderdak gaf; hij stierf in januari 1945 in Neuengamme. Het badhuis ging in augustus 1943 dicht, toen de Joodse buren waren weggevoerd.
+
+      Na de oorlog zaten er een chemische fabriek, een vleeswarenfabriek en een fietsenfabriek. Sinds 2013 is het Splendor, een muziekhuis dat zo'n vijftig musici samen hebben opgezet en draaiende houden, met concerten, openbare repetities en workshops; in de vroegere mannen- en vrouwenbaden zitten nu de twee zalen.
+
+      Let op:
+      - de houten hoekgevel met drie ramen onder een steeds verder uitstekende goot
+      - de plint van zwart geglazuurde baksteen
+      - de gevelstenen D' Turcksche slaeff, D' koffibaal en D' vogelstruis 1742
+    attributes:
+      original_use: Gemeentebadhuis en sectiepost van de Stadsreiniging
+    sources:
+      - city:202036
+      - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/112-116
+      - https://splendoramsterdam.com/over-splendor
+
+- title: The bridge yard and the last of the Jewish nursery school
+  summary: "Behind the fence of a 1920s city works yard stands the house of a nursery school for poor Jewish children that once took 600 pupils and had a royal visit. The school is gone; the house may have to move for a new power station."
+  body: |
+    In 1887 the banker George Rosenthal and his wife Sophie Rosenthal-May paid for a nursery school on Uilenburg, for children of the poorest Jewish families. Two boys of twelve and thirteen laid its first stone on 15 June 1887. It was well run and much wanted: in April 1893 the thirteen-year-old Queen Wilhelmina and her mother came to see it, and after an extra storey in 1895 it took 600 children. After the slum clearance the city took it over. The school was pulled down in 1956 for a power substation; only the house of its head teacher, by Constantijn Muysken, survived.
+
+    It stands in the yard that the city's public works department built in 1925–1926 for its sewer and bridge-maintenance sections, a strict Amsterdam School building with a tower-like corner. On 1 November 1940 the yard took over the house, and in 1941 it was gutted to store carts and ladders.
+
+    The substation now has to be renewed. In the plan shown in 2024 the house is moved to make room, while the works office is kept and may become housing for older people.
+
+    Look for:
+    - PUBLIEKE WERKEN, AFDEELING RIOLEERING EN BRUGGEN in gilt bronze letters over the door
+    - the 17th-century stone Het Wape va Portugal at the foot of the corner tower
+    - the stepped gable of the school house behind the gate
+  category: hidden-history
+  lat: 52.370509
+  lng: 4.905349
+  address: Nieuwe Uilenburgerstraat 59
+  links:
+    - { label: Monumentenregister Amsterdam (werf), url: "https://data.amsterdam.nl/monumenten/ade8e083-d4db-4a03-b927-921581af52aa" }
+    - { label: Monumentenregister Amsterdam (woning), url: "https://data.amsterdam.nl/monumenten/910f13ce-eeea-49a4-8ade-e7cf5ce80e75" }
+    - { label: Wikipedia (nl) Nieuwe Uilenburgerstraat 59-achter, url: "https://nl.wikipedia.org/wiki/Nieuwe_Uilenburgerstraat_59-achter" }
+    - { label: Joods Amsterdam on the Rosenthal school, url: "https://www.joodsamsterdam.nl/sophie-rosenthal-bewaarschool/" }
+    - { label: Bewonersraad on the substation plan, url: "https://www.bewonersraad1011.amsterdam/vernieuwing-elektriciteitsstation-nieuwe-uilenburgerstraat/" }
+    - { label: Liander Uilenburg, url: "https://www.liander.nl/regio/amsterdam/amsterdam/uilenburg" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 202038, 200495
+    built: 1887, 1925–1926
+    architect: C. Muysken (school house); Publieke Werken (yard)
+    original_use: Head teacher's house of a nursery school; works yard for sewers and bridges
+    outlook: Major change ahead
+    outlook_note: Liander and the city plan to renew the substation; the school house would be moved and the works office turned into homes for older people.
+  sources:
+    - city:200495 (house of the former Sophie Rosenthal Bewaarschool, 1887, C. Muysken; school 1887 for poor Jewish children, site now GEB substation; first stone 15 June 1887 by Robert Heinrich May aged 13 years 8 months and Frederik Martinus Cohen aged 12 years 5 months; founded and paid for by banker couple George Rosenthal and Sophie Rosenthal-May; visit by 13-year-old Queen Wilhelmina and Queen-Regent Emma in April 1893; yard extended 1 November 1940 onto the house; interior gutted May 1941, store for carts and ladders; listed for its cultural-historical value as Jewish heritage)
+    - city:202038 (werf Uilenburg, Publieke Werken, sewers and bridges, decided 1925, ready 1926; L-plan, tower-like corner volume; gilt bronze letters PUBLIEKE WERKEN, AFDEELING RIOLEERING EN BRUGGEN; gable stone with the arms of Portugal from demolished Uilenburgerstraat 35; ONDERHOUD BRUGGEN on a small gate)
+    - https://nl.wikipedia.org/wiki/Nieuwe_Uilenburgerstraat_59-achter (Rosenthal-May couple; Constantijn Muysken; 1895 extension by Gosschalk for 600 pupils; city took over 1923; school demolished around 1960 for GEB station, only the director's house left)
+    - https://www.joodsamsterdam.nl/sophie-rosenthal-bewaarschool/ (visit 14 April 1893; enlargement 1895 to 600 children; school demolished 1956 for a GEB transformer station; house now behind a fence on a city yard)
+    - https://nl.wikipedia.org/wiki/Nieuwe_Uilenburgerstraat_57-59 (Wapen van Portugal stone: Hendrick Jansz. Dommer, salt trade with Portugal, militia piece by Van der Helst 1639; stone restored 2013)
+    - https://www.gevelstenenvanamsterdam.nl/nieuwe-uilenburgerstraat-59 (stone reads HET WAPE VA PORTUGAL; Dommer built 6 houses on Uilenburg in 1644)
+    - https://www.bewonersraad1011.amsterdam/vernieuwing-elektriciteitsstation-nieuwe-uilenburgerstraat/ (14 May 2024 plan: Publieke Werken office and buildings behind it stay, for housing for older people; the teacher's house is moved)
+    - https://www.liander.nl/regio/amsterdam/amsterdam/uilenburg (station at Nieuwe Uilenburgerstraat 27 outdated, renewal urgent; design phase, dates still to be set, checked November 2026)
+  nl:
+    title: Werf Uilenburg en de Sophie Rosenthal-bewaarschool
+    summary: "Achter het hek van een gemeentewerf uit de jaren twintig staat het laatste stuk van een bewaarschool voor arme Joodse kinderen, waar ooit 600 kleuters zaten en de koningin op bezoek kwam. Het huisje moet misschien wijken voor een stroomstation."
+    body: |
+      In 1887 betaalde het bankiersechtpaar George Rosenthal en Sophie Rosenthal-May een bewaarschool op Uilenburg, voor de kinderen van de armste Joodse gezinnen. Twee jongens van twaalf en dertien legden op 15 juni 1887 de eerste steen. De school had een goede naam en zat al snel vol: in april 1893 kwamen de dertienjarige koningin Wilhelmina en haar moeder kijken, en na een extra verdieping in 1895 konden er 600 kinderen terecht. Na de sanering nam de gemeente de school over. In 1956 ging hij tegen de vlakte voor een transformatorstation; alleen de woning van de directrice, ontworpen door Constantijn Muysken, bleef staan.
+
+      Die woning staat op de werf die Publieke Werken in 1925–1926 bouwde voor de afdelingen Riolering en Onderhoud Bruggen: een streng gebouw in Amsterdamse School-stijl met een torenachtige hoek. Op 1 november 1940 trok de werf het huisje erbij, en in 1941 werd het uitgebroken om er karren en ladders in te zetten.
+
+      Het stroomstation moet nu worden vernieuwd. In het plan van 2024 wordt het huisje verplaatst, terwijl het kantoor van Publieke Werken blijft en woningen voor ouderen kan krijgen.
+
+      Let op:
+      - PUBLIEKE WERKEN, AFDEELING RIOLEERING EN BRUGGEN in vergulde bronzen letters boven de deur
+      - de zeventiende-eeuwse steen Het Wape va Portugal onder aan de hoektoren
+      - de tuitgevel van het schoolhuisje achter het hek
+    attributes:
+      architect: C. Muysken (schoolwoning); Publieke Werken (werf)
+      original_use: Woning bij een bewaarschool; werf van Riolering en Bruggen
+      outlook_note: Liander en de gemeente vernieuwen het stroomstation; het schoolhuisje wordt verplaatst en het kantoor wordt ouderenwoningen.
+    sources:
+      - city:200495
+      - city:202038
+      - https://nl.wikipedia.org/wiki/Nieuwe_Uilenburgerstraat_59-achter
+      - https://www.joodsamsterdam.nl/sophie-rosenthal-bewaarschool/
+      - https://www.bewonersraad1011.amsterdam/vernieuwing-elektriciteitsstation-nieuwe-uilenburgerstraat/
+
+- title: Uilenburg rebuilt, the workers' block and the Witte Olifant school
+  summary: "Uilenburg was the city's first slum clearance. A Jewish workers' association made sure some residents could come back to this new block of 1927; across the street a school served warm kosher meals for 5 cents and in 1941 became Jewish school no. 2."
+  body: |
+    In 1910, 368 of Uilenburg's 861 homes were declared unfit to live in, and the island became Amsterdam's first slum clearance. The two narrow main streets were knocked into one wide street, and the city filled it with Amsterdam School buildings.
+
+    The block on the even side, 72 homes designed by Jo Mulder of the city housing department and finished in 1927, was handed to the building fund of the Handwerkers Vriendenkring, a Jewish workers' association of 1869, so that people from the old slums could return. Its stairwells sit on the joins between the units, so neighbours from different houses share a door. A sculpture on the corner with the Oostersekade is dated 1927, the year the clearance was finished. In 1942 the occupier banned the association and the city took the homes over.
+
+    The double school of 1920 at the other end, by Nico Lansdorp of public works, served warm meals for 5 cents in the 1930s crisis, ritually prepared for Jewish children. From September 1941 until the last big deportation in May 1943 it was Jewish school no. 2. Since about 1985 it has been called De Witte Olifant.
+
+    Look for:
+    - the female figure on the corner of the block at the Oostersekade
+    - the old gable stones in the school walls: an owl with UYLENBURGH, King David with his harp, an axe and adze of 1734, and a white elephant
+    - the stepped round corner window of the school on the Oudeschans
+  category: housing
+  lat: 52.370286
+  lng: 4.904186
+  address: Nieuwe Uilenburgerstraat 2-68 and 96
+  links:
+    - { label: Monumentenregister Amsterdam (woningen), url: "https://data.amsterdam.nl/monumenten/80838906-3eb2-4dc1-9989-2607edbc5d83" }
+    - { label: Monumentenregister Amsterdam (school), url: "https://data.amsterdam.nl/monumenten/4c203251-8683-4cee-bd11-ec1a965375a5" }
+    - { label: Amsterdam op de kaart (school), url: "https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/96" }
+    - { label: Wikipedia (nl) Bouwfonds Handwerkers Vriendenkring, url: "https://nl.wikipedia.org/wiki/Bouwfonds_Handwerkers_Vriendenkring" }
+    - { label: Wikipedia (nl) Uilenburg, url: "https://nl.wikipedia.org/wiki/Uilenburg_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: 202037, 202039
+    built: 1920, 1926–1927
+    architect: J.H. (Jo) Mulder; Nico Lansdorp (Publieke Werken)
+    listed: 2004
+    original_use: Workers' housing; double primary school
+  sources:
+    - city:202037 (72 homes designed 1926 by J.H. Mulder; shared stairwells on the divisions between units; corner Oostersekade with sculpture of a woman, building year on the sides; expropriation plan 1911, demolition slow for lack of homes; Handwerkers Vriendenkring (1869) wanted new workers' homes for the present residents; Stichting Bouwfonds Handwerkers Vriendenkring 1912)
+    - city:202039 (double school designed 1920 by Publieke Werken; gable stones from demolished Uilenburgerstraat houses: castle with owl UYLENBURGH, King David with harp, axe and adze ANNO 1734; corner window of 18 stepped small squares on the Oudeschans corner)
+    - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/96 (architect Nico Lansdorp; Oudeschansschool and Batavierschool; crisis years free warm meals, ritually prepared for Jewish visitors, 5 cents a portion; J.D. Meijerschool from 1937/38, Jewish school no. 2 September 1941 to May 1943; De Witte Olifant from about 1985; four gable stones, one a white elephant)
+    - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/2-68 (1927, Mulder, Handwerkers Vriendenkring; industry planned but housing allowed after all)
+    - https://nl.wikipedia.org/wiki/Uilenburg_(Amsterdam) (1910: 368 of 861 homes declared uninhabitable; first urban renewal area; Wibaut; block handed to Bouwfonds so residents could return)
+    - https://nl.wikipedia.org/wiki/Bouwfonds_Handwerkers_Vriendenkring (72 homes ready 1927; banned 1942, homes to the Woningdienst)
+    - https://nl.wikipedia.org/wiki/Nieuwe_Uilenburgerstraat (corner sculpture by Adrianus Remiëns dated 1927, year the clearance was completed)
+  nl:
+    title: Het nieuwe Uilenburg, het Vriendenkringblok en De Witte Olifant
+    summary: "Uilenburg was de eerste krotopruiming van Amsterdam. Een Joodse arbeidersvereniging zorgde dat oude bewoners in dit blok uit 1927 terugkonden; aan de overkant kregen kinderen in de crisis een koosjere maaltijd voor 5 cent, en in 1941 werd het Joodse school nummer 2."
+    body: |
+      In 1910 werden 368 van de 861 woningen op Uilenburg onbewoonbaar verklaard, en het eiland werd het eerste saneringsgebied van de stad. Van de twee smalle hoofdstraten werd één brede straat gemaakt, en de gemeente zette er gebouwen in Amsterdamse School-stijl neer.
+
+      Het blok aan de even kant, 72 woningen van Jo Mulder van de Woningdienst, klaar in 1927, ging naar het bouwfonds van de Handwerkers Vriendenkring, een Joodse arbeidersvereniging uit 1869, zodat mensen uit de oude krotten konden terugkeren. De trappenhuizen liggen op de grens tussen twee wooneenheden, zodat buren uit verschillende huizen een voordeur delen. Het beeld op de hoek met de Oostersekade draagt het jaartal 1927, het jaar dat de sanering af was. In 1942 verbood de bezetter de vereniging en kwamen de woningen aan de gemeente.
+
+      De dubbele school uit 1920 aan het andere eind, van Nico Lansdorp van Publieke Werken, schonk in de crisisjaren warme maaltijden voor 5 cent, voor Joodse kinderen ritueel bereid. Van september 1941 tot de laatste grote razzia in mei 1943 was het Joodse school nummer 2. Sinds ongeveer 1985 heet de school De Witte Olifant.
+
+      Let op:
+      - de vrouwenfiguur op de hoek van het blok bij de Oostersekade
+      - de oude gevelstenen in de schoolmuren: een uil met UYLENBURGH, koning David met harp, een bijl en dissel uit 1734 en een witte olifant
+      - het getrapte ronde hoekraam van de school aan de Oudeschans
+    attributes:
+      architect: J.H. (Jo) Mulder; Nico Lansdorp (Publieke Werken)
+      original_use: Arbeiderswoningen; dubbele lagere school
+    sources:
+      - city:202037
+      - city:202039
+      - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Uilenburgerstraat/96
+      - https://nl.wikipedia.org/wiki/Uilenburg_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Bouwfonds_Handwerkers_Vriendenkring
+
+# ================================================================ Krom Boomssloot and the Lastage
+
+- title: Armenian church in a warehouse (Surp Hoki)
+  summary: "Armenian merchants turned a warehouse into their church in 1714. For more than a century it was a Catholic girls' school, until Armenians bought it back in 1985. The Sunday liturgy is sung here again, and the bridge outside is named after it."
+  body: |
+    From the early 17th century Armenian merchants settled in the Lastage, the old shipyard district east of the Nieuwmarkt. They met for worship in the homes of their priests, and in 1666 the first printed Armenian Bible came off a press in Amsterdam. In 1714 the city allowed them to buy a warehouse on what was then the Dwarsboomssloot and fit it out as a church. In 1749 it got a marble door surround, iron stoop railings and a gable stone with a lamb and an Armenian inscription, paid for by the priest Johannes de Minas.
+
+    After 1800 the community dwindled. From 1835 the church was let to other congregations, and in 1874 it was sold at auction and became a Catholic primary school for girls. When the school left in 1984, members of a new Armenian community, many from Turkey, bought it back in 1985; the Armenian archbishop of Paris consecrated it in 1989. A restoration from 2009 gave it its yellow and white front, and it was consecrated again in 2014.
+
+    The Holy Liturgy is held every Sunday from 10:00, and visitors are welcome.
+
+    Look for:
+    - the lamb stone and stoop railings of 1749 at the door
+    - the name board of the Armeensebrug, official since 2013
+    - the 2018 memorial stone for the Armenian genocide on the Keizersstraat corner
+    - the priest's house stone of 1765 with a chalice at Koningsstraat 27
+  category: religious
+  lat: 52.371791
+  lng: 4.902192
+  address: Krom Boomssloot 22
+  links:
+    - { label: Rijksmonumentenregister (634), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/634" }
+    - { label: Wikipedia (nl) Armeens-Apostolische Kerk, url: "https://nl.wikipedia.org/wiki/Armeens-Apostolische_Kerk_(Amsterdam)" }
+    - { label: Wikipedia (nl) Armeensebrug, url: "https://nl.wikipedia.org/wiki/Armeensebrug" }
+    - { label: Armeens Apostolische Kerk Surp Hoki, url: "https://www.armeensekerk.org/" }
+  attributes:
+    rank: Amazing
+    heritage_status: National monument
+    monument_number: "634"
+    built: warehouse before 1714, church 1714, door 1749
+    original_use: Warehouse, then Armenian church
+  photos:
+    - commons:File:Voormalige Armenische kerk.jpg
+  sources:
+    - rce:634 (former Armenian church, rectangular building 1714, raised a storey in the 19th century; plastered front with lesenes and round-arched windows; sandstone doorway with very fine stoop railings 1749)
+    - https://nl.wikipedia.org/wiki/Armeens-Apostolische_Kerk_(Amsterdam) (Armenian merchants in the Lastage from early 17th century; services in priests' homes 1660-1714; first Armenian Bible printed in Amsterdam 1666; 1714 permission to buy a warehouse on the Dwarsboomssloot; 1749 stoop railing, marble surround, gable stone; let to other congregations after 1835; sold at auction 1874, RC girls' school Sint-Anthonius; school left 1984; bought back 1985; consecrated 1989 by the Armenian archbishop of Paris; restoration from 2009, yellow and white; reconsecrated 2014; bridge 293 Armeensebrug since 2013; genocide memorial stone 2018 on the Keizersstraat corner)
+    - https://nl.wikipedia.org/wiki/Kromboomssloot (new wave of believers from Turkey among others)
+    - https://nl.wikipedia.org/wiki/Johannes_de_Minas (priest 1734-1768; paid for the 1749 church gable stone with a lamb and Armenian text; lived at Koningsstraat 27, stone with chalice, host and Armenian inscription with 1765)
+    - https://nl.wikipedia.org/wiki/Armeensebrug (name official 2013, name board unveiled by the Armenian ambassador)
+    - https://www.armeensekerk.org/ (parish Surp Hoki; Holy Liturgy on Sundays from 10:00, all welcome; checked November 2026)
+  nl:
+    title: Armeense kerk Surp Hoki
+    summary: "Armeense kooplieden maakten in 1714 van een pakhuis hun kerk. Ruim een eeuw lang was het een katholieke meisjesschool, tot Armeniërs het in 1985 terugkochten. Op zondag wordt de liturgie hier weer gezongen, en de brug ervoor draagt zijn naam."
+    body: |
+      Vanaf het begin van de zeventiende eeuw vestigden zich Armeense kooplieden in de Lastage, de oude scheepsbouwbuurt ten oosten van de Nieuwmarkt. Ze kerkten bij hun priesters thuis, en in 1666 werd in Amsterdam de eerste Armeense bijbel gedrukt. In 1714 kregen ze van het stadsbestuur toestemming om een pakhuis aan de toenmalige Dwarsboomssloot te kopen en tot kerk in te richten. In 1749 kwamen er een marmeren deuromlijsting, stoephekken en een gevelsteen met een lam en een Armeens opschrift, betaald door priester Johannes de Minas.
+
+      Na 1800 slonk de gemeenschap. Vanaf 1835 werd de kerk aan andere gemeenten verhuurd, en in 1874 werd ze geveild en een katholieke lagere school voor meisjes. Toen de school in 1984 vertrok, kochten leden van een nieuwe Armeense gemeenschap, veelal uit Turkije, het gebouw in 1985 terug; in 1989 wijdde de Armeense aartsbisschop van Parijs het in. Bij de restauratie vanaf 2009 kreeg de gevel zijn geel en wit, en in 2014 werd de kerk opnieuw ingewijd.
+
+      Elke zondag is er vanaf 10.00 uur de Heilige Liturgie, en bezoekers zijn welkom.
+
+      Let op:
+      - de steen met het lam en de stoephekken uit 1749 bij de deur
+      - het naambord van de Armeensebrug, officieel sinds 2013
+      - de gedenksteen voor de Armeense genocide uit 2018 op de hoek van de Keizersstraat
+      - de priestersteen uit 1765 met een miskelk op Koningsstraat 27
+    attributes:
+      built: pakhuis van voor 1714, kerk 1714, ingang 1749
+      original_use: Pakhuis, daarna Armeense kerk
+    sources:
+      - rce:634
+      - https://nl.wikipedia.org/wiki/Armeens-Apostolische_Kerk_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Johannes_de_Minas
+      - https://www.armeensekerk.org/
+
+- title: Schottenburch, the warehouse older than its date stone
+  summary: "Its stone says 1636, but this double warehouse already stands on a map of 1597 and may be older than the Lastage's inclusion in the city. Next door a coffee roaster built a Jugendstil roastery; both were later saved by artists and squatters."
+  body: |
+    Schottenburch, a double warehouse with two spout gables and a full set of shutters, is often called the oldest warehouse still standing in Amsterdam. Its date stone reads 1636, but the building is already on Pieter Bast's map of 1597. It may even predate the 1580s, when the Lastage, the shipbuilding ground along the Krom Boomssloot, was taken inside the city; its plot runs at an angle to the later buildings. In the 20th century it housed a fuel dealer, a cart hire and a coffee roaster. From 1979 to 1988 it was an artists' space run by the artist Wim Vonk; it was then converted into homes without enlarging a single window.
+
+    Next door at number 16, the tea and coffee firm Alex Meijer & Co built its roastery in 1902, to a design by E.M. Rood with a curved, Jugendstil top floor. The rival Simon Lévelt took the firm over in 1971. The empty building was squatted in 1976; at the squatters' urging the city bought it, and in 1980 it became ten homes with a workshop.
+
+    Further south, at numbers 59 to 63, two warehouses of 1723 share a gable stone pieced together from parts of different ages: a tiger and DE TEYGER.
+
+    Look for:
+    - SCHOTTENBVRCH and the year stone on the party wall with number 20
+    - "Alex Meijer & Co" carved over the roastery door
+    - the tiger stone at numbers 61 and 63
+  category: industrial
+  lat: 52.371962
+  lng: 4.902264
+  address: Krom Boomssloot 18-20
+  links:
+    - { label: Rijksmonumentenregister (632), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/632" }
+    - { label: Monumentenregister Amsterdam (branderij), url: "https://data.amsterdam.nl/monumenten/ca19ec04-a7ef-4191-b735-11386f63080d" }
+    - { label: Wikipedia (nl) Schottenburch, url: "https://nl.wikipedia.org/wiki/Schottenburch" }
+    - { label: Theo Bakker on Schottenburch, url: "https://www.theobakker.net/pdf/fotoquiz2016-05.pdf" }
+    - { label: Amsterdam op de kaart (branderij), url: "https://amsterdamopdekaart.nl/1850-1940/Krom_Boomssloot/16" }
+  attributes:
+    rank: Nice
+    heritage_status: National + municipal monument
+    monument_number: 632, 212017, 622, 623
+    built: before 1597 (stone 1636), 1723, 1902
+    architect: E.M. Rood (roastery)
+    original_use: Warehouses; coffee roastery
+  photos:
+    - commons:File:Schottenburch.JPG
+  sources:
+    - rce:632 (warehouse with intact spout gable 1636, two-light windows under arches, wind box, top pilaster; on the division with no. 20, with which it forms a group, a year stone and a stone SCHOTTENBVRCH)
+    - https://nl.wikipedia.org/wiki/Schottenburch (known as the oldest surviving warehouse; stone 1636 but on Pieter Bast's map of 1597; double warehouse with spout gables and shutters; possibly before the Lastage came inside the city around 1585; plot direction differs; early 20th century fuel dealer and cart hire, later a coffee roaster; artists' initiative 1979-1988 by Wim Vonk; then homes, gallery and wine shop)
+    - https://www.theobakker.net/pdf/fotoquiz2016-05.pdf (pre-urban warehouse; 1636 an important alteration; managed by its own foundation; windows not enlarged and all shutters kept in the conversion to homes)
+    - city:212017 (coffee roastery 1902 for Alex Meijer & Co by E.M. Rood; sober Jugendstil; curved window group in top floor; "Alex Meijer & Co" in the stone over the central entrance)
+    - https://amsterdamopdekaart.nl/1850-1940/Krom_Boomssloot/16 (coffee and tea firm; Alex Meyer 1860-1933 began roasting 1886; taken over by Simon Lévelt 1971; squatted 1976; bought by the city at the squatters' initiative, 1980 ten HAT homes and a workshop)
+    - rce:622, rce:623 (warehouses with pointed gables, 1723, damaged; on the division a gable stone pieced from parts of different ages with a tiger, DE TEYGER and ANNO 1723)
+  nl:
+    title: Schottenburch en de pakhuizen van de Krom Boomssloot
+    summary: "Op de steen staat 1636, maar dit dubbele pakhuis staat al op een kaart uit 1597 en is misschien ouder dan de stad hier. Ernaast bouwde een koffiebrander een branderij in jugendstil; kunstenaars en krakers hielden ze allebei overeind."
+    body: |
+      Schottenburch, een dubbel pakhuis met twee tuitgevels en al zijn luiken nog, heet vaak het oudste pakhuis van Amsterdam dat nog overeind staat. De gevelsteen zegt 1636, maar het gebouw staat al op de kaart van Pieter Bast uit 1597. Misschien is het zelfs ouder dan de jaren 1580, toen de Lastage, de scheepsbouwgrond langs de Krom Boomssloot, binnen de stad werd getrokken; het perceel ligt scheef ten opzichte van de latere bebouwing. In de twintigste eeuw zaten er een brandstoffenhandel, een karrenverhuurder en een koffiebrander. Van 1979 tot 1988 was het een kunstenaarsplek van beeldend kunstenaar Wim Vonk; daarna kwamen er woningen in, zonder dat er één raam groter werd.
+
+      Ernaast, op nummer 16, liet de koffie- en theehandel Alex Meijer & Co in 1902 een branderij bouwen, ontworpen door E.M. Rood, met een gebogen bovenverdieping in sobere jugendstil. Concurrent Simon Lévelt nam het bedrijf in 1971 over. Het lege pand werd in 1976 gekraakt; op aandringen van de krakers kocht de gemeente het, en in 1980 kwamen er tien woningen en een werkplaats in.
+
+      Verder naar het zuiden, op 59 tot 63, delen twee pakhuizen uit 1723 een gevelsteen die uit stukken van verschillende ouderdom is samengesteld: een tijger en DE TEYGER.
+
+      Let op:
+      - SCHOTTENBVRCH en de jaartalsteen op de scheiding met nummer 20
+      - "Alex Meijer & Co" in de steen boven de deur van de branderij
+      - de tijgersteen bij de nummers 61 en 63
+    attributes:
+      built: voor 1597 (steen 1636), 1723, 1902
+      architect: E.M. Rood (branderij)
+      original_use: Pakhuizen; koffiebranderij
+    sources:
+      - rce:632
+      - https://nl.wikipedia.org/wiki/Schottenburch
+      - https://www.theobakker.net/pdf/fotoquiz2016-05.pdf
+      - city:212017
+      - https://amsterdamopdekaart.nl/1850-1940/Krom_Boomssloot/16
+      - rce:622
+
+- title: The first stone of a five-year-old (Korte Koningsstraat 14)
+  summary: "On 21 April 1896 the youngest son of a carpenter, aged five, laid the first stone of this narrow house. His father hardly got to live in it. The front plays a game too: children's heads over the lower windows, lions' heads above."
+  body: |
+    The carpenter Willem Knuijt had this tall, narrow house built in 1896 to a design by H.H. Baanders, whose name his architect sons carried on in the family firm. The first stone, set between the cellar windows, says it was laid on 21 April 1896 by his youngest child, aged five. The father did not enjoy his new house for long: he died in 1897. A second stone names the architect.
+
+    The front is a careful classical stack: a stone base and cellar, then a tall main floor reached up a few steps in a porch, with each storey lower than the one below. Over the windows of the main floor the keystones are little children's heads; on the floor above they are lions' heads, and the arches are filled with diamond-patterned tile mosaics. The two front doors in the porch, one to the main floor and one to the upper homes, are framed like small temples.
+
+    Beside the house a passage leads to the Bremertuin, an inner garden. It is a private home; everything described here is seen from the street.
+
+    Look for:
+    - the first stone between the cellar windows, and the architect's stone
+    - the children's heads and lions' heads over the windows
+    - the tile mosaics in the window arches
+  category: curiosities
+  lat: 52.371677
+  lng: 4.902913
+  address: Korte Koningsstraat 14
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/9b2274dc-ad9e-4a33-99df-ab7c6090b17b" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Korte_Koningsstraat/14" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: "202027"
+    built: "1896"
+    architect: H.H. Baanders
+    listed: 2004
+    original_use: House with upper homes
+  sources:
+    - city:202027 (souterrain, bel-etage, two storeys and attic; porch with two decorated front doors; stone plinth and souterrain; keystones as children's heads on the bel-etage and lions' heads on the first floor; tile mosaics in diamond pattern in the arch fields; aedicula motifs; stone between the cellar windows 'gedenksteen, gelegd door J.B. Knuijt, oud 5 jaar, 21-04-1896'; second stone H.H. Baanders, architect; passage to the inner area 'de Bremertuin'; Baanders founder of the office of his sons)
+    - https://amsterdamopdekaart.nl/1850-1940/Korte_Koningsstraat/14 (Jan Benjamin was the owner's youngest child; client the carpenter Willem Knuijt, who died in 1897)
+  nl:
+    title: De eerste steen van een vijfjarige (Korte Koningsstraat 14)
+    summary: "Op 21 april 1896 legde het jongste zoontje van een timmerman, vijf jaar oud, de eerste steen van dit smalle huis. Zijn vader heeft er nauwelijks gewoond. De gevel speelt mee: kinderkopjes boven de onderste ramen, leeuwenkoppen erboven."
+    body: |
+      Timmerman Willem Knuijt liet dit hoge, smalle huis in 1896 bouwen naar een ontwerp van H.H. Baanders, wiens bureau door zijn zoons werd voortgezet. Volgens de eerste steen, tussen de kelderramen, legde zijn jongste kind die op 21 april 1896, op vijfjarige leeftijd. Lang plezier had de vader niet van zijn nieuwe huis: hij overleed in 1897. Een tweede steen noemt de architect.
+
+      De gevel is een zorgvuldig klassiek gestapeld geheel: een stenen voet en souterrain, dan een hoge bel-etage die je via een paar treden in een portiek bereikt, en daarboven verdiepingen die steeds lager worden. Boven de ramen van de bel-etage zijn de sluitstenen kinderkopjes, een verdieping hoger leeuwenkoppen, en de boogvelden zijn gevuld met tegelmozaïek in ruitpatroon. De twee voordeuren in het portiek, naar de bel-etage en naar de bovenwoningen, hebben een omlijsting als een tempeltje.
+
+      Naast het huis loopt een gang naar de Bremertuin, een binnenterrein. Het is een woonhuis; alles wat hier staat, zie je vanaf de straat.
+
+      Let op:
+      - de eerste steen tussen de kelderramen, en de steen van de architect
+      - de kinderkopjes en leeuwenkoppen boven de ramen
+      - het tegelmozaïek in de boogvelden
+    attributes:
+      original_use: Woonhuis met bovenwoningen
+    sources:
+      - city:202027
+      - https://amsterdamopdekaart.nl/1850-1940/Korte_Koningsstraat/14
+
+# ================================================================ Nieuwe Hoogstraat
+
+- title: Premsela & Hamburger, the jewellers of the Nieuwe Hoogstraat
+  summary: "A stone over a corner shop still reads Premsela en Hamburger anno 1823. The Jewish firm of jewellers and antique dealers had two shops in this street; the occupier closed it in 1943, and the survivors started again in the emptied shop."
+  body: |
+    The Nieuwe Hoogstraat was part of the old main road from the Dam to the east of the city, and a shopping street in the Jewish quarter. The firm of Premsela & Hamburger, jewellers founded in 1823, had a shop at numbers 27 and 29, whose front was rebuilt for them in 1893 by E.M. Rood in a Dutch Renaissance style, with bands of stone and five coupled windows on the first floor.
+
+    In 1921 the firm moved to the corner of the Kloveniersburgwal, a shop-house of 1892 with a wooden bay window running up two floors over the cut-off corner. The Jewish weekly was full of praise: it felt like a palace of gold and silver jewellery, old and new. In 1943 the occupier closed the shop. After the war surviving relatives tried to rebuild the business in the plundered premises, and in 1952 it moved to the Rokin, where more dealers were based.
+
+    The corner building is still a shop with homes above.
+
+    Look for:
+    - the stone "Premsela en Hamburger anno 1823" just above the shopfront on the Nieuwe Hoogstraat side of the corner
+    - the timber bay window over the corner door
+    - the striped stone bands of numbers 27 and 29
+  category: hidden-history
+  lat: 52.370843
+  lng: 4.899002
+  address: Nieuwe Hoogstraat 2 (corner Kloveniersburgwal 39) and 27-29
+  links:
+    - { label: Monumentenregister Amsterdam (nr. 2), url: "https://data.amsterdam.nl/monumenten/7303b4c4-003c-4837-afff-bdabcc6c7954" }
+    - { label: Monumentenregister Amsterdam (nr. 27-29), url: "https://data.amsterdam.nl/monumenten/8f05f711-974e-40b1-bdab-f605bc1bc8d1" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Hoogstraat/2" }
+    - { label: Wikipedia (nl) Nieuwe Hoogstraat, url: "https://nl.wikipedia.org/wiki/Nieuwe_Hoogstraat" }
+  attributes:
+    rank: Okay
+    heritage_status: Municipal monument
+    monument_number: 211053, 200079
+    built: 1892, 1893
+    architect: J. Lenderink (no. 2); E.M. Rood (nos. 27-29)
+    original_use: Shop-houses
+  sources:
+    - city:211053 (shop-house 1892 on the corner with the Kloveniersburgwal, rebuilding of an older building; still in use as shop-house; wooden bay over two floors on the chamfered corner; stone 'Premsela en Hamburger anno 1823', the firm of Amsterdam jewellers founded in 1823, for some time on this plot)
+    - city:200079 (Nieuwe Hoogstraat 27-29, front entirely renewed 1893 by E.M. Rood for Premsela en Hamburger in Dutch Renaissance style; stone bands; five coupled windows on the first floor)
+    - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Hoogstraat/2 (design J. Lenderink 1892; Premsela en Hamburger here from 1921, before at Nieuwe Hoogstraat 29; Nieuw Israëlitisch Weekblad: like a palace of gold and silver, antique and modern jewellery; shop closed by the occupier 1943; surviving relatives tried to rebuild in the plundered building; 1952 moved to the Rokin)
+    - https://nl.wikipedia.org/wiki/Nieuwe_Hoogstraat (part of the main east-west axis from the Dam to the Sint Antoniesdijk; shopping street; in the Jodenhoek)
+  nl:
+    title: Premsela & Hamburger, juweliers in de Nieuwe Hoogstraat
+    summary: "Boven een hoekwinkel staat nog altijd Premsela en Hamburger anno 1823. De Joodse juweliers en antiquairs hadden twee zaken in deze straat; de bezetter sloot de winkel in 1943, en wie overleefde, begon opnieuw in het leeggeroofde pand."
+    body: |
+      De Nieuwe Hoogstraat hoorde bij de oude hoofdweg van de Dam naar de oostkant van de stad, en was een winkelstraat in de Jodenhoek. De juweliersfirma Premsela & Hamburger, opgericht in 1823, had een zaak op nummer 27 en 29; in 1893 kreeg die een nieuwe gevel van E.M. Rood in Hollandse renaissancestijl, met natuurstenen banden en vijf gekoppelde ramen op de eerste verdieping.
+
+      In 1921 verhuisde de firma naar de hoek met de Kloveniersburgwal, een winkelhuis uit 1892 met een houten erker over twee verdiepingen boven de afgeschuinde hoek. Het Nieuw Israëlietisch Weekblad was lyrisch: je waande je in een paleis van gouden en zilveren sieraden, antiek en modern. In 1943 sloot de bezetter de winkel. Na de oorlog probeerden overlevende familieleden de zaak in het leeggeroofde pand weer op te bouwen, en in 1952 verhuisde die naar het Rokin, waar meer collega's zaten.
+
+      In het hoekpand zit nog altijd een winkel, met woningen erboven.
+
+      Let op:
+      - de steen "Premsela en Hamburger anno 1823" vlak boven de pui, aan de kant van de Nieuwe Hoogstraat
+      - de houten erker boven de hoekdeur
+      - de natuurstenen banden van nummer 27 en 29
+    attributes:
+      architect: J. Lenderink (nr. 2); E.M. Rood (nrs. 27-29)
+      original_use: Winkelhuizen
+    sources:
+      - city:211053
+      - city:200079
+      - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Hoogstraat/2
+
+# ================================================================ Nieuwe Herengracht and Nieuwe Amstelstraat
+
+- title: Sophia Adriana Stichting, the Stedelijk founder's almshouse
+  summary: "The widow whose art collection founded the Stedelijk Museum also turned this canal house into an almshouse for eight women over fifty, in memory of her husband's family. A long stone under a window tells you so, in one breath."
+  body: |
+    Sophia Adriana de Bruijn (1816–1890) married August Pieter Lopez Suasso, of a banking family, in 1860. The couple travelled widely and collected all kinds of art objects. After her death she left the collection and their house on the Kloveniersburgwal to the city, on condition that it be shown to the public; that bequest became the basis of the Stedelijk Museum.
+
+    This house on the Nieuwe Herengracht had long been in the family. In 1882, as a widow, she had it rebuilt as an almshouse for eight women over fifty. Women of any church were welcome, though no more than one Catholic could live there at a time. It was only used as an almshouse after her death; until then it stood empty and held large pieces of furniture. Until 1943 it was called "Gesticht door Augustus Pieter Lopez Suasso"; why the name changed is not known.
+
+    The front is a neat 1882 piece of neo-Renaissance: a black-painted brick wall under a richly decorated neck gable, with all the original sash windows. The inscription runs across the parapet of the middle first-floor window.
+
+    Look for:
+    - the stone: rebuilt in 1882 by S.A. de Bruijn, dowager of A.P. Lopez Suasso, at his wish, in memory of Diego Lopez Suasso
+    - the neck gable with claw pieces and pediment
+  category: housing
+  lat: 52.366458
+  lng: 4.903543
+  address: Nieuwe Herengracht 43
+  links:
+    - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/f221aa80-e4a8-4bb6-ae36-b0b69d0b7ba5" }
+    - { label: Amsterdam op de kaart, url: "https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Herengracht/43" }
+  attributes:
+    rank: Nice
+    heritage_status: Municipal monument
+    monument_number: "210036"
+    built: "1882"
+    architect: J.J. Goseling en Zoon
+    listed: 2006
+    original_use: Almshouse for older women
+  sources:
+    - city:210036 (1882 rebuilding of an older house; three storeys and attic; black-painted brick, white quoins; richly decorated neck gable with claw pieces, pediment, pilasters; all original sash windows; stone in the parapet of the central first-floor window: OP VERLANGEN VAN AUGUST PIETER LOPEZ SUASSO IS DIT VERBOUWD IN 1882 DOOR VROUWE S.A. DE BRUIJN, DOUAIRIÈRE JONKHEER A.P. LOPEZ SUASSO, TER NAGEDACHTENIS VAN JONKHEER DIËGO LOPEZ SUASSO; client S.A. de Bruijn)
+    - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Herengracht/43 (Sophia Adriana Stichting; long in the family; 1882 rebuilt as hofje for eight women over 50; all denominations, at most one Catholic woman; only used as hofje after her death, before that empty, used to store large furniture; Sophia Adriana de Bruijn 1816-1890 married 1860 jonkheer August Pieter Lopez Suasso 1804-1877 of a banking family; travelled and collected; left the collection and the house on the Kloveniersburgwal to the city on condition it be shown publicly; basis of the Stedelijk Museum collection; Diego Lopez Suasso was August's father; named 'Gesticht door Augustus Pieter Lopez Suasso' until 1943, reason for change unknown)
+  nl:
+    title: Sophia Adriana Stichting, het hofje van de Stedelijk-stichtster
+    summary: "De weduwe wier kunstverzameling de basis werd van het Stedelijk Museum, maakte van dit grachtenhuis ook een hofje voor acht vrouwen boven de vijftig, ter nagedachtenis van de familie van haar man. Een lange steen onder een raam vertelt het in één adem."
+    body: |
+      Sophia Adriana de Bruijn (1816–1890) trouwde in 1860 met jonkheer August Pieter Lopez Suasso, uit een bankiersfamilie. Het paar reisde veel en verzamelde allerlei kunstvoorwerpen. Na haar dood liet ze de verzameling en hun huis aan de Kloveniersburgwal na aan de gemeente, op voorwaarde dat het voor publiek te zien zou zijn; uit dat legaat groeide het Stedelijk Museum.
+
+      Dit huis aan de Nieuwe Herengracht was al lang van de familie. In 1882 liet ze het als weduwe verbouwen tot hofje voor acht vrouwen ouder dan vijftig. Vrouwen van elk kerkgenootschap waren welkom, al mocht er hooguit één katholieke tegelijk wonen. Pas na haar dood werd het echt een hofje; tot dan stond het leeg en werden er grote meubels in gestald. Tot 1943 heette het "Gesticht door Augustus Pieter Lopez Suasso"; waarom de naam toen veranderde, is niet bekend.
+
+      De gevel is een keurig stukje neorenaissance uit 1882: zwart geschilderde baksteen onder een rijk versierde halsgevel, met alle oorspronkelijke schuiframen. Het opschrift loopt over de borstwering van het middelste raam op de eerste verdieping.
+
+      Let op:
+      - de steen: op verlangen van A.P. Lopez Suasso in 1882 verbouwd door S.A. de Bruijn, zijn weduwe, ter nagedachtenis van Diego Lopez Suasso
+      - de halsgevel met klauwstukken en fronton
+    attributes:
+      original_use: Hofje voor oudere vrouwen
+    sources:
+      - city:210036
+      - https://amsterdamopdekaart.nl/1850-1940/Nieuwe_Herengracht/43
+
+- title: Huize Avondrood, a merchant's house with nine lives (Nieuwe Herengracht 143)
+  summary: "Built in 1720 for a Sephardic merchant whose son-in-law gambled away 100,000 guilders in one night, this house later saw the first talks on the Free University, sheltered Boer War exiles, was an old people's home, and in 1980 was squatted."
+  body: |
+    In 1720 the merchant Jacob Abrabanel built this broad house with a sandstone front opposite the Plantage, with two narrow houses beside it, probably for his daughters. Both married sons of his brother. One son-in-law soon ran through his wife's dowry and once ran up a gambling debt of 100,000 guilders in a single evening. Abrabanel sold the three houses in 1735.
+
+    From 1818 to 1826 the big house was the orphanage and old people's home of the Restored Lutheran church. Between 1877 and 1900 it belonged to Willem Hovy, owner of the brewery De Gekroonde Valk; in his house, in December 1877, a group of orthodox Protestants first talked about founding a Reformed university, which opened in 1880 as the Vrije Universiteit. From 1900 to 1902 it sheltered exiles from the Boer War as Die Afrikaansch Tehuis, and from 1902 to 1978 it was a Reformed home for the elderly.
+
+    After standing empty, it was squatted in 1980. The squatters called it Huize Avondrood, "evening glow", and it still goes by that name. The city bought it and in 1985–1986 turned it into twenty small homes for young people, now let by a housing association.
+
+    Look for:
+    - the carved middle bay of the sandstone front
+    - the raised cornice on consoles
+    - the eight stoop posts and the Empire-style door
+  category: housing
+  lat: 52.368878
+  lng: 4.908714
+  address: Nieuwe Herengracht 143
+  links:
+    - { label: Rijksmonumentenregister (1943), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/1943" }
+    - { label: Wikipedia (nl) Nieuwe Herengracht 143, url: "https://nl.wikipedia.org/wiki/Nieuwe_Herengracht_143" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: "1943"
+    built: 1720–1724
+    original_use: Merchant's house
+  photos:
+    - commons:File:Amsterdam - Nieuwe Herengracht 143.jpg
+  sources:
+    - rce:1943 (double house with sandstone front, rusticated corner lesenes, sculpted middle bay, straight cornice raised in the middle on consoles, XVIIIa/b; Empire door and glazing bars; 8 stoop posts)
+    - https://nl.wikipedia.org/wiki/Nieuwe_Herengracht_143 (Jacob Abrabanel bought plots 1720; contract with mason Gerrit Treur 10 April 1720; big house and two small houses, probably for his daughters and sons-in-law; daughters married the two eldest sons of his brother; one ran through the dowry and made a gambling debt of 100,000 guilders in one evening; valued complete 1724; sold 1735 to David Mendes da Silva; 1818-1826 orphanage and old people's home of the Hersteld-Evangelisch Lutherse Kerk; Willem Hovy 1877-1900, owner of brewery De Gekroonde Valk; first talks December 1877 led to the VU in 1880; 1900-1902 Die Afrikaansch Tehuis for Boer War exiles; 1902 old people's home of the Gereformeerde diaconie, Huize Horizont from 1952, closed 1978; squatted 1980, named Huize Avondrood; bought by the city, 20 HAT units 1985-1986; now let by Ymere)
+  nl:
+    title: Huize Avondrood (Nieuwe Herengracht 143)
+    summary: "In 1720 gebouwd voor een Sefardische koopman wiens schoonzoon op één avond 100.000 gulden verspeelde. Later begon hier het plan voor de Vrije Universiteit, vingen Boerenballingen er onderdak, was het een bejaardenhuis, en in 1980 werd het gekraakt."
+    body: |
+      In 1720 liet koopman Jacob Abrabanel dit brede huis met zandstenen gevel tegenover de Plantage bouwen, met twee smalle huizen ernaast, vermoedelijk voor zijn dochters. Die trouwden allebei met zoons van zijn broer. De ene schoonzoon joeg de bruidsschat van zijn vrouw er snel doorheen en maakte op één avond een speelschuld van 100.000 gulden. In 1735 verkocht Abrabanel de drie panden.
+
+      Van 1818 tot 1826 zat in het grote huis het wees- en oudeliedenhuis van de Hersteld-Lutherse kerk. Van 1877 tot 1900 woonde er Willem Hovy, eigenaar van brouwerij De Gekroonde Valk; bij hem thuis praatte een groep orthodoxe protestanten in december 1877 voor het eerst over een eigen gereformeerde universiteit, die in 1880 openging als de Vrije Universiteit. Van 1900 tot 1902 vingen ballingen uit de Boerenoorlog hier onderdak, in Die Afrikaansch Tehuis, en van 1902 tot 1978 was het een gereformeerd tehuis voor ouden van dagen.
+
+      Na leegstand werd het in 1980 gekraakt. De krakers noemden het Huize Avondrood, en zo heet het nog steeds. De gemeente kocht het en maakte er in 1985–1986 twintig kleine woningen voor jongeren van, die nu door een woningcorporatie worden verhuurd.
+
+      Let op:
+      - de gebeeldhouwde middenpartij van de zandstenen gevel
+      - de in het midden verhoogde lijst op consoles
+      - de acht stoeppalen en de empiredeur
+    attributes:
+      original_use: Koopmanshuis
+    sources:
+      - rce:1943
+      - https://nl.wikipedia.org/wiki/Nieuwe_Herengracht_143
+
+- title: Arsenaal, the poor relief's peat stores
+  summary: "Around 1610 the city's poor relief built these warehouses to store the peat, grain and butter it handed out. Later an arsenal, they were nearly sold for demolition to the diamond dealers in 1909. Architects are trained here now."
+  body: |
+    Amsterdam's huiszittenmeesters looked after the poor who still had a home of their own, and handed out food and peat for the stove. Around 1610–1613 those of the old side of the city built this complex of warehouses on the grounds of the leper house: a double warehouse with a flat trapezium gable between two single ones with pointed gables, at front and back, decorated with big blocks of stone over the arches and lintels. Next to it they built their office in 1655, the Oudezijds Huiszittenhuis, where the poor came in through a gate on the Nieuwe Amstelstraat.
+
+    In 1776 the city architect Jacob Eduard de Witte closed off that poor people's courtyard with a low building of two shallow houses under one hipped roof, with tall corner chimneys; it still stands at the start of the Nieuwe Amstelstraat.
+
+    In 1808 the state took over the warehouses as an arsenal, which gave them their name. In 1909 the government proposed selling them to the diamond dealers' association, which wanted to pull them down for new premises; after protests by the antiquarian society, parliament voted it down. Since 1946 the Academie van Bouwkunst, a school of architecture, has used them, and in the 1980s squatters staged performances and exhibitions here for a few years.
+
+    Look for:
+    - the stone blocks over the openings on the Waterlooplein side
+    - the low 1776 houses with their tall chimneys on the Nieuwe Amstelstraat
+  category: civic
+  lat: 52.367534
+  lng: 4.903076
+  address: Nieuwe Amstelstraat 6-8 and Waterlooplein 213-219
+  links:
+    - { label: Rijksmonumentenregister (268), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/268" }
+    - { label: Rijksmonumentenregister (266), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/266" }
+    - { label: Wikipedia (nl) Arsenaal, url: "https://nl.wikipedia.org/wiki/Arsenaal_(Amsterdam)" }
+    - { label: Wikipedia (nl) Nieuwe Amstelstraat 2-4, url: "https://nl.wikipedia.org/wiki/Nieuwe_Amstelstraat_2-4" }
+    - { label: Wikipedia (nl) Oudezijds Huiszittenhuis, url: "https://nl.wikipedia.org/wiki/Oudezijds_Huiszittenhuis" }
+  attributes:
+    rank: Nice
+    heritage_status: National monument
+    monument_number: 268, 266
+    built: 1610–1613, 1776
+    architect: J.E. de Witte (1776 houses)
+    listed: 1970
+    original_use: Warehouses for peat and food for the poor
+  photos:
+    - commons:File:Academie van Bouwkunst Amsterdam 2.jpg
+    - commons:File:Amsterdam - Nieuwe Amstelstraat 2.JPG
+  sources:
+    - rce:268 (Stadsturfpakhuizen: double warehouse flanked by two single ones, trapezium and pointed gables front and back, large arch and lintel blocks, 1610)
+    - rce:266 (building under hipped roof, 1776, design city architect J.E. de Witte, two shallow houses)
+    - https://nl.wikipedia.org/wiki/Arsenaal_(Amsterdam) (built c. 1610-1613 by the huiszittenmeesters on the grounds of the leper house; storage of grain, butter and peat for the poor; 1808 to the state as arsenal, hence the name; 1909 proposal to sell to the Vereniging van Diamanthandelaren who wanted to demolish it, protest by the Nederlandsche Oudheidkundige Bond (J.C. Overvoorde), voted down; Academie van Bouwkunst since 1946; restoration 1960s; squatted in the 1980s by Het Pleinwerker, performances, evicted 1985; renovation 2007)
+    - https://nl.wikipedia.org/wiki/Oudezijds_Huiszittenhuis (huiszittenmeesters cared for poor with a home; office 1655 by Willem de Keyser beside their warehouse complex; poor entered through the gate on the Nieuwe Amstelstraat; Academie van Bouwkunst since 1946)
+    - https://nl.wikipedia.org/wiki/Nieuwe_Amstelstraat_2-4 (1776 double service dwelling under De Witte; poor waited in the gallery behind; from 1776 the yard closed by this building instead of a fence; two tall chimneys still there; no own address any more, part of Waterlooplein 211)
+  nl:
+    title: Arsenaal, de turfpakhuizen van de armenzorg
+    summary: "Rond 1610 bouwden de armmeesters van de stad hier pakhuizen voor de turf, het graan en de boter die ze uitdeelden. Later werd het een arsenaal, en in 1909 was het bijna aan de diamanthandelaren verkocht om te slopen. Nu leren hier architecten het vak."
+    body: |
+      De Amsterdamse huiszittenmeesters zorgden voor armen die nog een eigen dak boven hun hoofd hadden, en deelden eten en turf voor de kachel uit. Die van de Oude Zijde lieten rond 1610–1613 op de grond van het leprozenhuis dit complex bouwen: een dubbel pakhuis met een platte trapeziumgevel tussen twee enkele pakhuizen met puntgevels, voor en achter, versierd met grote natuurstenen blokken boven de bogen en lateien. In 1655 kwam hun kantoor ernaast, het Oudezijds Huiszittenhuis, waar de armen binnenkwamen via een poort aan de Nieuwe Amstelstraat.
+
+      In 1776 sloot stadsarchitect Jacob Eduard de Witte dat armenplein af met een laag gebouw van twee ondiepe woningen onder één schilddak, met hoge hoekschoorstenen; het staat nog aan het begin van de Nieuwe Amstelstraat.
+
+      In 1808 nam het rijk de pakhuizen over als arsenaal, en zo kwamen ze aan hun naam. In 1909 wilde de regering ze verkopen aan de Vereniging van Diamanthandelaren, die ze wilde slopen voor een nieuw gebouw; na protest van de Oudheidkundige Bond stemde de Tweede Kamer het voorstel weg. Sinds 1946 zit de Academie van Bouwkunst erin, en in de jaren tachtig gaven krakers hier een paar jaar voorstellingen en tentoonstellingen.
+
+      Let op:
+      - de natuurstenen blokken boven de openingen aan de kant van het Waterlooplein
+      - de lage huisjes uit 1776 met hun hoge schoorstenen aan de Nieuwe Amstelstraat
+    attributes:
+      architect: J.E. de Witte (huisjes uit 1776)
+      original_use: Pakhuizen voor turf en voedsel voor de armen
+    sources:
+      - rce:268
+      - rce:266
+      - https://nl.wikipedia.org/wiki/Arsenaal_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Nieuwe_Amstelstraat_2-4

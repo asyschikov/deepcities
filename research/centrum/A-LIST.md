@@ -55,3 +55,7 @@ prepare them for import.
 
 ## Candidates (added during the rounds, with a one-line reason)
 
+- **Beurs van Berlage** (Damrak 243, monument 437): on every guidebook's top list; parked
+  (oudezijde-1). Its lanterns and fountains (518418) may appear in a neighbouring place.
+- **De Bijenkorf** (Dam 1, monument 518426): the city's flagship department store, known to every visitor;
+  parked (oudezijde-2).
