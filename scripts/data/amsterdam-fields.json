@@ -13,7 +13,7 @@
     "type": "select",
     "options": ["A-list"],
     "help": "Set for the famous sights every guidebook puts in its top tier (kept strict). A label only: these places are ranked like any other.",
-    "filter": true
+    "filter": false
   },
   {
     "key": "heritage_status",
