@@ -1,8 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -61,12 +62,23 @@ export const CityHome = ({
               <Link
                 to="/$city/$slug"
                 params={{ city: m.citySlug, slug: m.slug }}
-                className="group flex h-full flex-col rounded-xl border bg-card p-6 transition hover:-translate-y-0.5 hover:shadow-lg"
+                className={cn(
+                  "group flex h-full flex-col rounded-xl border bg-card p-6 transition hover:-translate-y-0.5 hover:shadow-lg",
+                  // The city's own map stands out, gently.
+                  m.cityDefault && "border-brick/40 bg-brick/5 shadow-sm",
+                )}
               >
                 <span className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
                   {m.city} · {t("home_place_count", { count: m.placeCount })}
                 </span>
                 <span className="mt-2 font-serif text-2xl leading-tight font-semibold">
+                  {m.cityDefault && (
+                    <Star
+                      className="mr-2 inline size-5 -translate-y-0.5 fill-brick text-brick"
+                      aria-label={t("home_city_map")}
+                      role="img"
+                    />
+                  )}
                   {m.title}
                 </span>
                 {m.tagline && (
