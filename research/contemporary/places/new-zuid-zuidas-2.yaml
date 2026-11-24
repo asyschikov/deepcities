@@ -61,21 +61,21 @@
       - https://www.hotelamsterdam-zuidas.nl/
 
 - title: Crossover, offices and starter flats in one brick block
-  summary: Team V's block of 2023 at the A10 exit puts about 12,000 square metres of offices next to 120 small social flats where young Amsterdammers and refugees with residence permits live together. The brick grid is the same on every side; what fills it is not.
+  summary: Team V's block of 2023 at the A10 exit puts about 12,000 square metres of offices next to 120 small social flats where young Amsterdammers and refugees with residence permits live together. One brick grid wraps it all, denser or more open depending on what is behind.
   body: |
-    Team V Architectuur designed Crossover for the developer AM, which won the city's tender for this corner of the A10 exit and the Europaboulevard in November 2017. The brief asked for offices, homes, part of them social housing, and public uses in one building. The offices were handed over in May 2023 and the residents got their keys that July.
+    Team V Architectuur designed Crossover for the developer AM, which won the city's tender for this corner of the A10 exit and the Europaboulevard in November 2017. The brief asked for offices, homes, part of them social housing, and cultural and commercial space in one building. The offices were handed over in May 2023 and the residents got their keys that July.
 
-    The building has two halves joined at street level: nine office floors on the Europaboulevard side, six floors of homes on the other. The 120 social flats of about 23 square metres are a Startblok, let by De Key to young people and refugees with residence permits, with shared rooms and roof terraces; ten small homes for first-time buyers sit on the ground floor. Toward the motorway the front is closed against noise, so the flats open onto galleries round quiet green courtyards. A grid of nougat-coloured brick holds it together, filled differently on each side; the bricks are strips made from recycled building waste.
+    The building has two halves joined at street level: nine office floors on the Europaboulevard side, six floors of homes on the other. The 120 social flats of about 23 square metres are a Startblok, let by De Key to 60 students starting out and 60 refugees with residence permits, with shared rooms and roof terraces; ten small homes for first-time buyers sit on the ground floor. Toward the motorway the front is closed against noise, so the flats open onto galleries round quiet green courtyards. A grid of nougat-coloured brick holds it together, its density and infill changing with what lies behind; the bricks are strips made from recycled building waste.
 
     The Amsterdam Architecture Prize jury of 2024 liked it, but noted that almost every part has its own entrance. You can see it from the street; the ground-floor restaurant is open to all.
 
     Look for:
-    - the brick grid, denser on the motorway side
+    - the brick grid, filled differently on each side
     - the jutting front over the restaurant on the Hogelandplein side
   category: housing
-  lat: 52.337600
-  lng: 4.893700
-  address: Gelrestraat, corner of the Europaboulevard
+  lat: 52.337150
+  lng: 4.893313
+  address: Gelrestraat 28-314 and Rozenoordpad 7-25
   links:
     - { label: Team V, url: "https://teamv.nl/project/crossover-kop-zuidas/" }
     - { label: Arcam, url: "https://arcam.nl/architectuur-gids/crossover/" }
@@ -96,23 +96,25 @@
     - https://teamv.nl/crossover-zuidas-is-taking-shape/ (brick strips from recycled brick by Stonecycling, demountable structure)
     - "https://teamv.nl/crossover-runner-up-at-aap-amsterdam-architecture-prize/ (AAP 2024 jury report quoted: nearly all functions have their own entrance; project architect Anne van Schooten)"
     - https://teamv.nl/crossover-nominated-for-amsterdam-new-building-award-2024/ (Amsterdamse Nieuwbouwprijs 2024 nomination, 12 from 78)
+    - https://www.amsterdamwoont.nl/nieuwbouwprijs/2024/crossover (organiser's page: Crossover nominated for the Amsterdamse Nieuwbouwprijs 2024; address Gelrestraat 28-314, Rozenoordpad 7-25; 60 starting students and 60 status holders; grid density and infill vary)
+    - https://www.at5.nl/artikelen/226607/ (AT5, Nieuwbouwprijs 2024 media partner: Crossover among the nominees)
     - "https://teamv.nl/crossover-in-parool-newspaper/ (Parool, Jaap Huisman, 31 Aug 2023: protruding front over the cafe-restaurant, Hogelandplein in front)"
     - https://arcam.nl/architectuur-gids/crossover/ (A10 and Europaboulevard; starter homes, restaurant, two commercial spaces at ground level; 'Startblok' of 120 flats and ten owner-occupied homes; nougat bricks; strips from building waste; nominated 2024; publicly accessible; Gelrestraat 1079 MZ)
     - https://arcam.nl/architectuur-prijs/2024/ (nominees 2024 list)
     - https://zuidas.nl/construction-project/crossover/ (tender won by AM in November 2017; offices delivered May, residents keys July 2023; six residential and nine office floors; 60 starting students and 60 status holders; De Key; ten owner-occupied studios; 11,834 m2 offices; BAM; AM and Equity Estate)
-    - https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Gelrestraat%201079MZ (street point; pin placed on the building between Gelrestraat and Hogelandplein)
+    - https://service.pdok.nl/lv/bag/wfs/v2_0 (BAG pand 0363100012253656, built 2023: 120 homes and offices at Gelrestraat 28-314, 10 homes at Rozenoordpad 7-25; pin on the pand's centre)
   nl:
     title: Crossover, kantoren en startersstudio's in één bakstenen blok
-    summary: Gebouw van Team V uit 2023 bij de afrit van de A10, met zo'n 12.000 vierkante meter kantoor naast 120 kleine sociale huurwoningen, waar jonge Amsterdammers en statushouders samenwonen. Het bakstenen raster is overal gelijk, de invulling verschilt per kant.
+    summary: Gebouw van Team V uit 2023 bij de afrit van de A10, met zo'n 12.000 vierkante meter kantoor naast 120 kleine sociale huurwoningen, waar jonge Amsterdammers en statushouders samenwonen. Eén bakstenen raster loopt overal omheen, dichter of opener naargelang wat erachter zit.
     body: |
-      Ontwikkelaar AM won in november 2017 de gemeentelijke tender voor deze kavel op de hoek van Europaboulevard en de afslag van de A10, met Team V Architectuur als ontwerper. De gemeente wilde er kantoren, woningen (voor een deel sociale huur) en maatschappelijke en commerciële ruimte in één gebouw. In mei 2023 werden de kantoren opgeleverd, in juli kregen de bewoners hun sleutel.
+      Ontwikkelaar AM won in november 2017 de gemeentelijke tender voor deze kavel op de hoek van Europaboulevard en de afslag van de A10, met Team V Architectuur als ontwerper. De gemeente wilde er kantoren, woningen (voor een deel sociale huur) en culturele en commerciële ruimte in één gebouw. In mei 2023 werden de kantoren opgeleverd, in juli kregen de bewoners hun sleutel.
 
-      Het gebouw bestaat uit twee delen die op de begane grond samenkomen: negen kantoorlagen aan de kant van de Europaboulevard, zes woonlagen aan de andere kant. De 120 sociale huurstudio's van ongeveer 23 vierkante meter vormen een Startblok van woonstichting De Key, voor 60 startende studenten en 60 statushouders, met gezamenlijke ruimtes en dakterrassen. Op de begane grond liggen tien koopwoningen voor starters. Langs de snelweg is de gevel dicht tegen het geluid; de woningen hebben hun voordeur aan de noordkant, aan galerijen rond rustige groene hoven. Een raster van nougatkleurige baksteen bindt alles samen en wordt per kant anders ingevuld. De stenen zijn strips, gemaakt van bouwafval.
+      Het gebouw bestaat uit twee delen die op de begane grond samenkomen: negen kantoorlagen aan de kant van de Europaboulevard, zes woonlagen aan de andere kant. De 120 sociale huurstudio's van ongeveer 23 vierkante meter vormen een Startblok van woonstichting De Key, voor 60 startende studenten en 60 statushouders, met gezamenlijke ruimtes en dakterrassen. Op de begane grond liggen tien koopwoningen voor starters. Langs de snelweg is de gevel dicht tegen het geluid; de woningen hebben hun voordeur aan de noordkant, aan galerijen rond rustige groene hoven. Een raster van nougatkleurige baksteen bindt alles samen; hoe dicht het is en waarmee het is gevuld, hangt af van wat erachter zit. De stenen zijn strips, gemaakt van bouwafval.
 
       De jury van de Amsterdamse Architectuurprijs 2024 was positief, maar merkte op dat bijna elk onderdeel een eigen voordeur heeft. Het gebouw bekijk je vanaf straat; het restaurant op de begane grond is voor iedereen.
 
       Let op:
-      - het bakstenen raster, dichter aan de kant van de snelweg
+      - het bakstenen raster, aan elke kant anders ingevuld
       - de vooruitspringende gevel boven het restaurant aan het Hogelandplein
     arch:
       recognition: Amsterdamse Architectuurprijs 2024 (genomineerd); Amsterdamse Nieuwbouwprijs 2024 (genomineerd)
@@ -120,13 +122,14 @@
       - https://zuidas.nl/construction-project/crossover/
       - https://arcam.nl/architectuur-gids/crossover/
       - https://arcam.nl/architectuur-prijs/2024/
+      - https://www.amsterdamwoont.nl/nieuwbouwprijs/2024/crossover
 
 - title: EMA building, the Brexit office built in 18 months
   summary: When Brexit drove the European Medicines Agency out of London, the Dutch state put up a 19-storey office for it on the Zuidas. Building began in May 2018 and the keys were handed over in November 2019. Speed shaped the design, from the steel frame to where the plant room went.
   body: |
-    In 2017 the European Medicines Agency had to leave London because of Brexit, and EU member states chose Amsterdam as its new home. The Rijksvastgoedbedrijf, the government's property agency, had already started a sketch design with its architect Fokke van Dijk before the decision, as something to show. MVSA Architects worked it out with the builders Dura Vermeer and Heijmans, who also maintain it for 20 years.
+    In 2017 the European Medicines Agency had to leave London because of Brexit, and EU member states chose Amsterdam as its new home. The Rijksvastgoedbedrijf, the government's property agency, had already started a sketch design with its architect Fokke van Dijk before the decision, as something to show. MVSA Architects worked it out for the builders Dura Vermeer and Heijmans, on a contract that also covers 20 years of maintenance.
 
-    The deadline was 18 months, and it was met: building started in May 2018 and the tower was handed over on 15 November 2019. Van Dijk told Zuidas that it changes how you sketch. The frame is steel, which the Rijksvastgoedbedrijf said could be put together "as quickly as Lego", around a concrete core; facade panels were fixed from the floors without scaffolding, and the plant room went on the fourth floor rather than the roof, so fitting out could start early. A complicated design like the Valley, he said, could never have been built in that time.
+    The deadline was 18 months, and it was met: building started in May 2018 and the tower was handed over on 15 November 2019. Van Dijk told Zuidas that it changes how you sketch. The frame is steel, which the Rijksvastgoedbedrijf said could be put together "as quickly as Lego", around a concrete core; facade panels were fixed from the floors without scaffolding, and the plant room went on the fourth floor rather than the roof, so the building services could go in early. A complicated design like Valley, he said, could never have been built in that time.
 
     Inside, a green wall about 60 metres high runs along the office floors. It is a working office: you see it from outside. In front stands Pendullum, a nine-metre stainless-steel sculpture by Gijs Assmann.
 
@@ -144,7 +147,6 @@
     - { label: "Zuidas: Pendullum", url: "https://zuidas.nl/blog/2020/04/08/pendullum-schildert-lijnen-in-de-lucht-bij-ema/" }
   photos:
     - commons:File:Vivaldigebouw 2020.04.23 (1).jpg
-    - commons:File:2020 European Medicines Agency.jpg
   arch:
     designer: Fokke van Dijk (Rijksvastgoedbedrijf) with MVSA Architects
     completed: "2019"
@@ -161,9 +163,9 @@
     title: EMA-gebouw, het Brexit-kantoor dat in 18 maanden stond
     summary: Toen het Europees Geneesmiddelen Agentschap door de Brexit uit Londen moest vertrekken, bouwde de Nederlandse staat er een kantoor van 19 verdiepingen voor op de Zuidas. De bouw begon in mei 2018, in november 2019 ging de sleutel over. De haast bepaalde het ontwerp.
     body: |
-      Door de Brexit moest het European Medicines Agency (EMA) in 2017 een nieuwe zetel buiten Londen zoeken. Het werd geen pitch tussen architecten maar tussen lidstaten, en die kozen voor Nederland: een nieuw gebouw op de Zuidas. Het Rijksvastgoedbedrijf begon direct met een schetsontwerp van zijn architect Fokke van Dijk, om iets te kunnen laten zien. MVSA Architects werkte het verder uit voor de bouwcombinatie van Dura Vermeer en Heijmans, die het pand ook twintig jaar onderhoudt.
+      Door de Brexit moest het European Medicines Agency (EMA) in 2017 een nieuwe zetel buiten Londen zoeken. Het werd geen pitch tussen architecten maar tussen Europese landen, en de lidstaten kozen voor Nederland: een nieuw gebouw op de Zuidas. Het Rijksvastgoedbedrijf begon direct met een schetsontwerp van zijn architect Fokke van Dijk, om iets te kunnen laten zien. MVSA Architects werkte het verder uit voor de bouwcombinatie van Dura Vermeer en Heijmans, onder een contract dat ook twintig jaar onderhoud omvat.
 
-      De bouwtijd mocht niet langer zijn dan 18 maanden, en dat lukte: in mei 2018 begon de bouw, op 15 november 2019 werd de toren opgeleverd. Volgens Van Dijk ga je daardoor anders schetsen. Er kwam een staalskelet rond een betonnen kern, met veel prefab; de gevelelementen werden vanaf de vloeren geplaatst, zonder steigers, en de installaties kregen een plek op de vierde verdieping in plaats van op het dak, zodat de afbouw eerder kon beginnen. Iets ingewikkelds als Valley was in die tijd volgens hem nooit gelukt.
+      De bouwtijd mocht niet langer zijn dan 18 maanden, en dat lukte: in mei 2018 begon de bouw, op 15 november 2019 werd de toren opgeleverd. Volgens Van Dijk ga je daardoor anders schetsen. Er kwam een staalskelet rond een betonnen kern, met veel prefab; de gevelelementen werden vanaf de vloeren geplaatst, zonder steigers, en de installaties kregen een plek op de vierde verdieping in plaats van op het dak, zodat het installatiewerk eerder kon beginnen. Iets ingewikkelds als Valley was in die tijd volgens hem nooit gelukt.
 
       Binnen loopt een groene wand van zo'n 60 meter hoog langs de kantoorvloeren. Het is een werkend kantoor, dus je ziet het van buiten. Op het voorplein staat Pendullum, een negen meter hoog beeld van roestvrij staal van Gijs Assmann.
 
@@ -178,9 +180,9 @@
 - title: Amsterdam Symphony, the orange towers of the property fraud
   summary: Two orange towers by Pi de Bruijn, finished in 2009, one of 105 metres with homes and one of 97 metres with offices. In 2007, while they were going up, a Bouwfonds subsidiary sold them to the Philips pension fund at a price at the heart of the Klimop fraud case.
   body: |
-    Pi de Bruijn of de Architekten Cie. designed the two towers. The taller, 105 metres and 29 floors, holds apartments; the other, 97 metres and 27 floors, offices. Building began in September 2006 and the complex was in use in 2009. The lower block of dark red brick beside them is a hotel, designed by others.
+    Pi de Bruijn of de Architekten Cie. designed the two towers. The taller, 105 metres and 29 floors, holds apartments; the other, 97 metres and 27 floors, offices. The first homes were ready in September 2009. The lower block of dark red brick beside them is a hotel, designed by others.
 
-    In 2007 a subsidiary of the developer Bouwfonds sold the towers to the Philips Pensioenfonds, which, Het Parool wrote, paid far too much for them. It became part of the Klimop case, the property fraud in which, as NRC put it, both the pension fund and Bouwfonds were the victims. The fund dropped its plan to rent out the 82 apartments and put them up for sale in September 2009. Het Parool called it Amsterdam's tallest residential tower, and the estate agent reported 19 sold in ten weeks, in the middle of the financial crisis. In December 2013 the pension fund sold the office tower too.
+    In 2007 a subsidiary of the developer Bouwfonds sold the towers to the Philips Pensioenfonds, which, Het Parool wrote, paid far too much for them. It became part of the Klimop case, the property fraud in which, as NRC put it, both the pension fund and Bouwfonds were the victims. The fund dropped its plan to rent out the 82 apartments and put them up for sale in September 2009. Het Parool called it Amsterdam's tallest residential tower, and the estate agent reported 19 sold in ten weeks, in the middle of the financial crisis. In December 2013, NRC reported, the pension fund sold the Symphony building to the German investment fund Deka.
 
     The towers are homes and offices: you see them from outside.
 
@@ -208,18 +210,18 @@
   sources:
     - https://zuidas.nl/threesixty_info/amsterdam-symphony/ (two orange towers; left residential 29 floors 105 m, right offices 27 floors 97 m; designed by Pi de Bruijn; read in browser)
     - https://zuidas.nl/project/symphony/ (Crowne Plaza hotel in dark red brick, by AGS architecten with INBO and awg architecten, 2008 to 2009)
-    - "https://www.parool.nl/nieuws/veel-animo-voor-besmette-woontoren~b1721fd4/ (4 Dec 2009: Bouwfonds subsidiary sold towers to Philips Pensioenfonds in 2007, which paid far too much; 82 apartments; sale from 15 September; 19 sold in ten weeks; Amsterdam's tallest residential tower; plan to rent dropped; read in browser)"
+    - "https://www.parool.nl/nieuws/veel-animo-voor-besmette-woontoren~b1721fd4/ (4 Dec 2009: Bouwfonds subsidiary sold towers to Philips Pensioenfonds in 2007, which paid far too much; 82 apartments; sale from 15 September; 19 sold in ten weeks; Amsterdam's tallest residential tower; plan to rent dropped; first homes ready in September; read in browser)"
     - https://www.nrc.nl/nieuws/2015/02/26/ontknoping-in-de-vastgoedfraude-1469961-a266521 (Klimop case; Symphony fraud harmed both Philips Pensioenfonds and Bouwfonds; read in browser, paywalled after intro)
-    - "https://www.nrc.nl/nieuws/2013/12/21/het-symbool-van-de-vastgoedfraude-is-verkocht-1331057-a172747 (headline 21 Dec 2013: the symbol of the property fraud is sold; body paywalled)"
+    - "https://www.nrc.nl/nieuws/2013/12/21/het-symbool-van-de-vastgoedfraude-is-verkocht-1331057-a172747 (21 Dec 2013: Philips Pensioenfonds sold the Symphony building to the German fund Deka; Klimop case)"
     - https://www.architectuur.org/bouwwerk/519/Kantoorgebouw_Vinoly.html (Pi de Bruijn of de Architekten Cie.)
-    - https://nl.wikipedia.org/wiki/Amsterdam_Symphony (start September 2006, in use 2009; office tower sold December 2013; lead and dates)
+    - https://nl.wikipedia.org/wiki/Amsterdam_Symphony (lead only)
   nl:
     title: Amsterdam Symphony, de oranje torens van de vastgoedfraude
     summary: Twee oranje torens van Pi de Bruijn uit 2009, een woontoren van 105 meter en een kantoortoren van 97 meter. In 2007 verkocht een dochter van Bouwfonds ze aan het Philips Pensioenfonds, voor een prijs die een hoofdrol kreeg in de Klimop-fraudezaak.
     body: |
-      De twee torens zijn ontworpen door Pi de Bruijn van de Architekten Cie. In de hoogste, 105 meter en 29 verdiepingen, zitten woningen; de andere, 97 meter en 27 verdiepingen, is een kantoortoren. In september 2006 begon de bouw, in 2009 werd het complex in gebruik genomen. Het lagere blok van donkerrode baksteen ernaast is een hotel, van andere ontwerpers.
+      De twee torens zijn ontworpen door Pi de Bruijn van de Architekten Cie. In de hoogste, 105 meter en 29 verdiepingen, zitten woningen; de andere, 97 meter en 27 verdiepingen, is een kantoortoren. In september 2009 waren de eerste woningen klaar. Het lagere blok van donkerrode baksteen ernaast is een hotel, van andere ontwerpers.
 
-      In 2007 verkocht een dochterbedrijf van projectontwikkelaar Bouwfonds de torens aan het Philips Pensioenfonds, dat er volgens Het Parool veel te veel voor betaalde. Zo werd het complex onderdeel van de Klimop-zaak, de vastgoedfraude waarbij volgens NRC zowel het pensioenfonds als Bouwfonds werd benadeeld. Het fonds zag af van verhuur van de 82 appartementen en bracht ze in september 2009 in de verkoop. Het Parool noemde het de hoogste woontoren van Amsterdam; na tien weken waren er volgens de makelaar negentien verkocht, midden in de crisis. In december 2013 deed het pensioenfonds ook de kantoortoren van de hand.
+      In 2007 verkocht een dochterbedrijf van projectontwikkelaar Bouwfonds de torens aan het Philips Pensioenfonds, dat er volgens Het Parool veel te veel voor betaalde. Zo werd het complex onderdeel van de Klimop-zaak, de vastgoedfraude waarbij volgens NRC zowel het pensioenfonds als Bouwfonds werd benadeeld. Het fonds zag af van verhuur van de 82 appartementen en bracht ze in september 2009 in de verkoop. Het Parool noemde het de hoogste woontoren van Amsterdam; na tien weken waren er volgens de makelaar negentien verkocht, midden in de crisis. In december 2013 verkocht het pensioenfonds het Symphony-gebouw volgens NRC aan het Duitse beleggingsfonds Deka.
 
       Er wordt gewoond en gewerkt, dus je bekijkt de torens van buiten.
 
@@ -292,7 +294,7 @@
       - https://gebouwdin.amsterdam.nl/projectdetail/1811
 
 - title: Stadsdeelwerf Zuideramstel, the works yard that won the city's architecture prize
-  summary: A borough depot for street cleaners, gardeners and their vehicles, built by Claus en Kaan in 2008 in the Gijsbrecht van Aemstelpark. White brick blocks round a farmyard-like court. It won the Amsterdam Architecture Prize 2009; the jury said it looks like anything but a depot.
+  summary: A borough depot for street cleaners, gardeners and their vehicles, built by Claus en Kaan in 2008 in the Gijsbrecht van Aemstelpark. White brick blocks round a farmyard-like court. It won the Amsterdam Architecture Prize 2009; the jury said newcomers wonder what it is.
   body: |
     Claus en Kaan Architecten (Felix Claus and Jaap Gräber) built this works yard for the borough of Zuideramstel, finished in 2008. It replaced an earlier yard on the same spot, one of the office's own first works, from 1992. Arcam describes it as the base for more than a hundred staff and eighty vehicles of the parks, neighbourhood, civil-engineering and street-cleaning services.
 
@@ -334,7 +336,7 @@
     - "commons:File:Stadsdeelwerf Buitenveldert (5).jpg (still in use as stadsdeelwerf, 2019)"
   nl:
     title: Stadsdeelwerf Zuideramstel, de werf die de Amsterdamse Architectuurprijs won
-    summary: Stadsdeelwerf voor groenbeheer, straatreiniging en hun wagenpark, in 2008 gebouwd door Claus en Kaan in het Gijsbrecht van Aemstelpark. Witte bakstenen blokken rond een hof. Winnaar van de Amsterdamse Architectuurprijs 2009; volgens de jury zie je niet dat het een werf is.
+    summary: Stadsdeelwerf voor groenbeheer, straatreiniging en hun wagenpark, in 2008 gebouwd door Claus en Kaan in het Gijsbrecht van Aemstelpark. Witte bakstenen blokken rond een hof. Winnaar van de Amsterdamse Architectuurprijs 2009; volgens de jury vraag je je eerst af wat het is.
     body: |
       De werf is ontworpen door Claus en Kaan Architecten (Felix Claus en Jaap Gräber) in opdracht van stadsdeel Zuideramstel en kwam in 2008 gereed. Er stond al een werf op deze plek, uit 1992 en een van de eerste ontwerpen van hetzelfde bureau; die is gesloopt. Volgens Arcam werken hier ruim honderd mensen van groenbeheer, buurtbeheer, civiele techniek en straatreiniging, met tachtig voertuigen.
 
@@ -393,6 +395,7 @@
     - https://arcam.nl/architectuur-prijs/2009/ (Crystal Court among the 2009 nominees)
     - https://tangramarchitekten.nl/project/crystal-court/ (36 stacked villas with timber facades; Nieuwbouwprijs Amsterdam 2010; four tree structures; continuity of open space decisive for neighbours; water garden into the atrium; prefab wall panels with hollow floors; splits and mergers in the first ten years)
     - https://nl.wikipedia.org/wiki/Crystal_Court (end of Willem van Weldammelaan; Amsterdamse Nieuwbouwprijs 2010; lead)
+    - https://www.amsterdamwoont.nl/nieuwbouwprijs/2010/ (organiser's page: Crystal Court won the Amsterdamse Nieuwbouwprijs 2010, 20 April 2010; Tangram for Hillen & Roosen; 36 apartments)
     - https://nominatim.openstreetmap.org/search?q=Crystal%20Court%2C%20Amsterdam (building point, De Kamp)
   nl:
     title: Crystal Court, gestapelde villa's rond een glazen wintertuin
