@@ -1,0 +1,370 @@
+# Zuid round 2, slice r2-rivieren-a: scouted places in the Rivierenbuurt (items 125 to 132, 158 to 160).
+# 6 new places. 131 is a Look for line in 125. 130 and 160 are merged into "De Wolkenkrabber
+# (Twaalfverdiepingenhuis)" and "Merwedeplein, the Frank family's square" (rivieren-noord.yaml), 159 into
+# "Jekerschool, Margot Frank's school" (rivieren-noord.yaml), 132 into "RAI: the Europahal and Het Signaal"
+# (buitenveldert.yaml). See notes/r2-rivieren-a.md.
+# Dutch texts are written fresh from the city's art register (Buitenkunst Amsterdam), nl.wikipedia,
+# 4en5mei.nl, Joods Amsterdam, kindermonument.org, Bureau Van Eig and mlk50.nl.
+
+- title: Wilhelmina Drucker monument, the free woman on the Churchilllaan
+  summary: "In 1970 the feminists who had just named themselves after her burned a corset at this statue. The sculptor who made it in 1939 forged identity cards for the resistance and was shot five years later."
+  body: |
+    On 23 January 1970 the feminists who had just named themselves after the woman on this plinth burned a corset at her feet. The man who made the statue was shot by the Germans five years after he signed it.
+
+    Wilhelmina Drucker (1847–1925) founded the Vrije Vrouwenvereeniging (Free Women's Association) in 1889 and the weekly Evolutie in 1893. Her opponents called her Dolle Mina, Mad Mina. Admirers paid for a memorial, unveiled on 30 September 1939, her birthday, on what was then the Noorder Amstellaan. It is not a portrait. Drucker herself is only a relief on the plinth, as an old woman. On top stands a young woman with her arms spread: the woman as a free person.
+
+    The sculptor, Gerrit van der Veen, became a leader of the artists' resistance. He forged identity cards by the tens of thousands and took part in the attack on the Amsterdam population register in 1943. On 10 June 1944 he was executed in the dunes at Overveen. The street where the SD, the German security service, had its headquarters was renamed after him.
+
+    The statue stands in the central garden of the avenue at the Waalstraat.
+
+    Look for:
+    - on the sides of the granite plinth: "Vrouwen houdt de fakkel brandende" (women, keep the torch burning) and the founding dates of her association and her paper
+    - the signature "G.J. v.d. Veen '39" in the bronze
+    - 500 metres west on the same strip of grass: Karel Gomes's walking Gandhi (1990), honoured every 2 October, his birthday, on an avenue named after the man who called him a half-naked fakir
+  category: hidden-history
+  lat: 52.346676
+  lng: 4.900290
+  address: Churchill-laan at the Waalstraat
+  links:
+    - { label: Buitenkunst Amsterdam (Wilhelmina Drucker), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2347/wilhelmina-drucker-monument" }
+    - { label: Wikipedia (nl) Wilhelmina Drucker-monument, url: "https://nl.wikipedia.org/wiki/Wilhelmina_Drucker-monument" }
+    - { label: Wikipedia (nl) Gerrit van der Veen, url: "https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen" }
+    - { label: Wikipedia (nl) Wilhelmina Drucker, url: "https://nl.wikipedia.org/wiki/Wilhelmina_Drucker" }
+    - { label: Wikipedia (nl) Gandhi on the Churchill-laan, url: "https://nl.wikipedia.org/wiki/Standbeeld_van_Mahatma_Gandhi_(Amsterdam)" }
+  attributes:
+    rank: Nice
+    built: "1939"
+    artist: Gerrit van der Veen
+  photos:
+    - "commons:File:2020 Wilhelmina Drucker-monument (1).jpg"
+    - "commons:File:2020 Wilhelmina Drucker-monument (6).jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Wilhelmina_Drucker-monument (committee, granite plinth and bronze, relief, both inscriptions with dates, signature, unveiled 30 September 1939 at Waalstraat and Noorder Amstellaan, renamed May 1946; cites Het Parool of 15 August 2025 on the monument, and the art register as consulted on 22 August 2026)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2347/wilhelmina-drucker-monument (young woman with spread arms, relief of Drucker in later life, Dolle Mina movement named after her, gift of the committee, Van der Veen shot in 1944 in the dunes of Overveen, Euterpestraat renamed 1945)
+    - https://nl.wikipedia.org/wiki/Wilhelmina_Drucker (born 30 September 1847, died 5 December 1925, nickname Dolle Mina, statue called "De vrouw als vrije mensch", corset burned at the statue on 23 January 1970)
+    - https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen (identity card centre with about 80,000 cards, attack on the population register 27 March 1943, executed 10 June 1944, SD headquarters in the Euterpestraat renamed after him)
+    - https://nl.wikipedia.org/wiki/Standbeeld_van_Mahatma_Gandhi_(Amsterdam) (Karel Gomes, unveiled 2 October 1990 by prime minister Lubbers, Churchill's "half-naked fakir")
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2317/mahatma-gandhi (yearly commemoration on Gandhi's birthday)
+    - OpenStreetMap (statue node at 52.346676, 4.900290; Gandhi at 52.347035, 4.893249)
+  nl:
+    title: Wilhelmina Drucker-monument, de vrije vrouw op de Churchilllaan
+    summary: "In 1970 verbrandden de feministes die zich net naar haar hadden genoemd bij dit beeld een korset. De beeldhouwer die het in 1939 maakte, vervalste persoonsbewijzen voor het verzet en werd vijf jaar later gefusilleerd."
+    body: |
+      Op 23 januari 1970 verbrandden de feministes die zich net naar de vrouw op deze sokkel hadden genoemd hier een korset. De maker van het beeld is door de Duitsers gefusilleerd, vijf jaar nadat hij het had gesigneerd.
+
+      Wilhelmina Drucker (1847-1925) richtte in 1889 de Vrije Vrouwenvereeniging op en in 1893 het weekblad Evolutie. Haar tegenstanders noemden haar Dolle Mina. Bewonderaars betaalden een gedenkteken, dat op 30 september 1939, haar geboortedag, werd onthuld aan wat toen nog de Noorder Amstellaan heette. Een portret is het niet geworden. Drucker zelf staat alleen als reliëf op de sokkel, op leeftijd. Bovenop staat een jonge vrouw met gespreide armen: de vrouw als vrij mens.
+
+      Beeldhouwer Gerrit van der Veen werd een van de leiders van het kunstenaarsverzet. Hij vervalste persoonsbewijzen bij tienduizenden en deed in 1943 mee aan de aanslag op het Amsterdamse bevolkingsregister. Op 10 juni 1944 is hij in de duinen bij Overveen doodgeschoten. De straat waar de SD, de Duitse veiligheidsdienst, zijn hoofdkwartier had, kreeg zijn naam.
+
+      Het beeld staat in het middenplantsoen van de laan, ter hoogte van de Waalstraat.
+
+      Let op:
+      - op de zijkanten van de granieten sokkel: 'Vrouwen houdt de fakkel brandende' en de oprichtingsdata van haar vereniging en haar blad
+      - de signatuur 'G.J. v.d. Veen '39' in het brons
+      - 500 meter westelijker in hetzelfde plantsoen: de lopende Gandhi van Karel Gomes (1990), elk jaar herdacht op 2 oktober, zijn geboortedag, op een laan die heet naar de man die hem een halfnaakte fakir noemde
+    sources:
+      - https://nl.wikipedia.org/wiki/Wilhelmina_Drucker-monument
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2347/wilhelmina-drucker-monument
+      - https://nl.wikipedia.org/wiki/Wilhelmina_Drucker
+      - https://nl.wikipedia.org/wiki/Gerrit_van_der_Veen
+      - https://nl.wikipedia.org/wiki/Standbeeld_van_Mahatma_Gandhi_(Amsterdam)
+
+- title: Ode aan de paardenvijg, a bronze heap of horse dung
+  summary: "Three bronze lumps on the lawn of the Merwedeplein are a monument to horse droppings. The sculptor noticed in the early 1970s that they were vanishing from the city, except in districts like this one, where the milkman still came by cart."
+  body: |
+    Across the lawn from the statue of Anne Frank lie three bronze lumps. Their title is Ode aan de paardenvijg: ode to the horse dropping.
+
+    Aart Rietbroek (1929–1985), a sculptor who taught at the Rietveld Academie, put them here in 1972. He had noticed that horse dung was disappearing from the streets of Amsterdam. The milkman and the schillenboer (the man who collected kitchen peelings for animal feed) no longer came into the centre with horse and cart, but they still did their rounds in outer districts such as the Rivierenbuurt. So he modelled a heap that has fallen open into three pieces, reduced it to its simplest shape and had it cast. A critic of the newspaper De Tijd saw in it, that same year, a nod to the romantic picture of noble animals in the city, pecked at by sparrows.
+
+    The heap looks as if it was dumped at random on its concrete slab, and that is the point: everything else on the Merwedeplein is strictly symmetrical. Children use it as an extra climbing frame beside the playground. Some passers-by take it for a dolmen.
+
+    It lies in the public garden of the square and may be sat on.
+
+    Look for:
+    - the three pieces, which fit together into one heap
+    - the concrete slab, the only thing on the square that seems to lie where it fell
+    - at the other end of the lawn, Anne Frank looking back at no. 37
+  category: curiosities
+  lat: 52.345682
+  lng: 4.900493
+  address: Merwedeplein (public garden)
+  links:
+    - { label: Buitenkunst Amsterdam (Ode aan de paardenvijg), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2334/ode-aan-de-paardenvijg" }
+    - { label: Wikipedia (nl) Ode aan de paardenvijg, url: "https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg" }
+    - { label: Wikipedia (nl) Aart Rietbroek, url: "https://nl.wikipedia.org/wiki/Aart_Rietbroek" }
+  attributes:
+    rank: Nice
+    built: "1972"
+    artist: Aart Rietbroek
+  photos:
+    - "commons:File:Ode aan de paardenvijg (4).jpg"
+    - "commons:File:Aart Rietbroek - Ode aan de paardenvijg (Amsterdam).jpg"
+  sources:
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2334/ode-aan-de-paardenvijg (three abstract bronze forms, a heap fallen open, modelled in clay and cast; Rietbroek's observation about the schillenboer and milkman no longer coming into the centre but still in the outer districts; Ben Kroon in De Tijd, 1972; part of the current Kunstroute Zuid)
+    - https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg (placed 1972, three pieces on a concrete slab, contrast with the symmetrical square, children climbing, read as a dolmen, joined by the Anne Frank statue in 2005; cites De Tijd of 21 December 1972)
+    - https://nl.wikipedia.org/wiki/Aart_Rietbroek (1929–1985, taught at the Gerrit Rietveld Academie)
+    - OpenStreetMap (sculpture node at 52.345682, 4.900493)
+  nl:
+    title: Ode aan de paardenvijg, een bronzen hoop paardenmest
+    summary: "Drie bronzen brokken op het gras van het Merwedeplein zijn een eerbetoon aan de paardenvijg. De maker zag begin jaren zeventig dat die uit de stad verdween, behalve in buurten als deze, waar de melkboer nog met paard en wagen kwam."
+    body: |
+      Tegenover het beeld van Anne Frank, aan de andere kant van het gras, liggen drie bronzen brokken. Ze heten Ode aan de paardenvijg.
+
+      Aart Rietbroek (1929-1985), beeldhouwer en docent aan de Rietveld Academie, legde ze hier in 1972 neer. Het was hem opgevallen dat de paardenmest uit de Amsterdamse straten verdween. De melkboer en de schillenboer kwamen met paard en wagen de binnenstad niet meer in, maar reden hun ronde nog wel in buitenwijken als de Rivierenbuurt. Dus boetseerde hij een hoop die in drie stukken is opengevallen, bracht die terug tot de eenvoudigste vorm en liet hem gieten. Een criticus van dagblad De Tijd zag er datzelfde jaar een knipoog in naar het romantische beeld van edele dieren in de stad, compleet met mussen die eraan hadden gepikt.
+
+      De hoop lijkt zomaar op zijn betonplaat te zijn gekieperd, en daar gaat het om: al het andere op het Merwedeplein is streng symmetrisch. Kinderen gebruiken hem als extra klimrek naast de speelplaats. Sommige voorbijgangers houden het voor een hunebed.
+
+      Het beeld ligt in het plantsoen van het plein; je mag erop zitten.
+
+      Let op:
+      - de drie stukken, die samen één hoop vormen
+      - de betonplaat, het enige op het plein dat lijkt te liggen waar het toevallig viel
+      - aan de andere kant van het gras: Anne Frank, die omkijkt naar nummer 37
+    sources:
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2334/ode-aan-de-paardenvijg
+      - https://nl.wikipedia.org/wiki/Ode_aan_de_paardenvijg
+      - https://nl.wikipedia.org/wiki/Aart_Rietbroek
+
+- title: The climbing sculpture of the Jewish children's home
+  summary: "A bronze on the De Mirandalaan stood for years in a courtyard with no name, date or maker. It was a climbing pole for the Jewish children's home that Queen Juliana opened here in 1965, and it has been back on its own spot since 2019."
+  body: |
+    For years nobody could say what this bronze was, who had made it or why it stood in a courtyard. It turned out to be a climbing pole.
+
+    On 16 November 1965 Queen Juliana opened a new Jewish children's home at De Mirandalaan 50, designed by Leon Waterman. It belonged to Le-Ezrath Ha-Jeled (The Child's Aid), the guardianship society that had taken on the care of Jewish children after the war; the psychiatrist and writer Hans Keilson was one of its founders. Hans Ittmann's sculpture was unveiled the same day. It is half a figure, with a trunk, limbs and a head with eyes, and half an abstraction, and Ittmann built it so that the children could climb it.
+
+    Ever fewer children needed the home, and it closed in 1975. A mental health foundation took the building over. In 1996 it was sold and pulled down. The architect of the block that replaced it, Bruno Albert, liked the bronze and gave it a place in the inner garden, where its maker and its meaning were forgotten: it is neither signed nor dated. A staff member of the care home that is housed here now went looking and found Ittmann's name. In April 2019 the sculpture was cleaned and put back where it began, beside the avenue.
+
+    Look for:
+    - the head with its eyes, the trunk and the limbs: part person, part abstraction
+    - no signature and no date anywhere on the bronze
+    - the complex "De Miranda" behind it, on the site of the home
+  category: hidden-history
+  lat: 52.338758
+  lng: 4.901315
+  address: De Mirandalaan, in front of the complex De Miranda
+  links:
+    - { label: Buitenkunst Amsterdam (Hans Ittmann), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2521/zonder-titel-hans-ittmann" }
+    - { label: Wikipedia (nl) Zonder titel (Hans Ittmann), url: "https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann)" }
+    - { label: 24 Oranges (2019), url: "https://www.24oranges.nl/2019/04/20/dutch-sculpture-surprisingly-back-to-original-location/" }
+  attributes:
+    rank: Nice
+    built: "1965"
+    artist: Hans Ittmann
+  photos:
+    - "commons:File:2023 Zonder titel (Hans Ittmann), Asd (2).jpg"
+    - "commons:File:Exterieur van het gebouw, Bestanddeelnr 918-4488.jpg"
+  sources:
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2521/zonder-titel-hans-ittmann (figure with trunk, head with eyes and limbs, also abstract; meant as a climbing pole; Le-Ezrath Ha-Jeled, Keilson a founder; opened by Juliana on 16 November 1965 at De Mirandalaan 50, architect Leon Waterman; closed 1975; bought by the Queridostichting; sold 1996 and demolished; De Miranda by Bruno Albert; inner garden; unsigned and undated; traced by a team manager of the Judith van Swethuis; put back in 2019)
+    - https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann) (photo of 15 November 1965 shows it in place, cleaned and unveiled again in April 2019; Commons photo of April 2023 shows it beside the avenue)
+    - https://www.24oranges.nl/2019/04/20/dutch-sculpture-surprisingly-back-to-original-location/ (unveiled again in April 2019 on its first spot)
+    - OpenStreetMap (artwork node at 52.338758, 4.901315)
+  nl:
+    title: Het klimbeeld van het Joodse kindertehuis
+    summary: "Een bronzen beeld aan De Mirandalaan stond jarenlang in een binnentuin, zonder naam, jaartal of maker. Het was een klimpaal voor het Joodse kindertehuis dat koningin Juliana hier in 1965 opende, en sinds 2019 staat het weer op zijn eigen plek."
+    body: |
+      Jarenlang wist niemand wat dit bronzen beeld voorstelde, wie het had gemaakt en waarom het in een binnentuin stond. Het bleek een klimpaal te zijn.
+
+      Op 16 november 1965 opende koningin Juliana aan De Mirandalaan 50 een nieuw Joods kindertehuis, ontworpen door Leon Waterman. Het was van Le-Ezrath Ha-Jeled (Het Kind ter Hulpe), de voogdijvereniging die na de oorlog de zorg voor Joodse kinderen op zich had genomen; de psychiater en schrijver Hans Keilson hoorde bij de oprichters. Dezelfde dag werd het beeld van Hans Ittmann onthuld. Het is half een figuur, met een romp, ledematen en een kop met ogen, en half abstract, en Ittmann maakte het zo dat de kinderen erin konden klimmen.
+
+      Er kwamen steeds minder kinderen voor het tehuis in aanmerking en in 1975 ging het dicht. Een stichting voor geestelijke gezondheidszorg nam het gebouw over. In 1996 werd het verkocht en gesloopt. Bruno Albert, de architect van de nieuwbouw, vond het beeld erbij passen en zette het in de binnentuin. Daar raakten de maker en de bedoeling in het vergeetboek: het is niet gesigneerd en niet gedateerd. Een medewerker van de zorginstelling die hier nu zit, ging op zoek en kwam bij Ittmann uit. In april 2019 is het beeld schoongemaakt en teruggezet waar het begon, langs de laan.
+
+      Let op:
+      - de kop met ogen, de romp en de ledematen: half mens, half abstract
+      - nergens op het brons een signatuur of een jaartal
+      - het complex 'De Miranda' erachter, op de plek van het tehuis
+    sources:
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2521/zonder-titel-hans-ittmann
+      - https://nl.wikipedia.org/wiki/Zonder_titel_(Hans_Ittmann)
+
+- title: Martin Luther King, the statue that came without a permit
+  summary: "On King's birthday in 2020 an artist drilled a bronze of him into the ground of the park that has carried his name since 1968. She expected to be stopped. Nobody came, and the city let it stay."
+  body: |
+    The Martin Luther King in the park named after him was not commissioned. On 15 January 2020, King's birthday, the Amsterdam artist Airco Caravan brought a bronze of 1.20 metres into the park and fixed it in place with a concrete drill. She expected to be stopped. Nobody came.
+
+    The park has carried King's name since 1968, the year he was murdered; before that it was the Amstelpark. In 2018, fifty years on, the artist had set a small King at the entrance, one of fifty identical statuettes in a guerrilla project. After that she and the city district talked about a permanent statue, on a spot to be chosen with neighbours and park users. Then nothing more was heard, so she paid for the bronze herself and placed it.
+
+    A few months later, after questions from a council member, the city approved it. On 5 July 2020 it was unveiled officially after all, by Harcourt Klinefelter, who had been King's press officer and walked along from Selma to Montgomery in 1965 with a tape recorder.
+
+    The park is always open. Every summer the Parade theatre festival fills part of it.
+
+    Look for:
+    - the quotation on King's back, on the silence of the good people
+    - in the part of the park along the Amstel, Willem Reijers's Engel (1949): a white limestone angel on dark granite, enlarged from a small "apparition" he made in 1945. It came back to the park in 2005
+  category: curiosities
+  lat: 52.339951
+  lng: 4.909258
+  address: Martin Luther Kingpark
+  links:
+    - { label: Wikipedia (nl) Beeld van Martin Luther King, url: "https://nl.wikipedia.org/wiki/Beeld_van_Martin_Luther_King" }
+    - { label: Monument for Martin Luther King (artist's project), url: "https://www.mlk50.nl/bronze-statue/" }
+    - { label: Boeddhistisch Dagblad (2020), url: "https://boeddhistischdagblad.nl/nieuws/148687-onthulling-van-illegaal-beeld-van-martin-luther-king-in-amsterdam" }
+    - { label: Wikipedia (nl) Martin Luther Kingpark, url: "https://nl.wikipedia.org/wiki/Martin_Luther_Kingpark" }
+    - { label: Buitenkunst Amsterdam (Engel), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2314/engel" }
+  attributes:
+    rank: Nice
+    built: "2020"
+    artist: Airco Caravan
+    check: Location
+    check_note: "Pin taken from OpenStreetMap and Wikipedia, which agree within 10 metres; where in the park the statue stands is not confirmed on site."
+  photos:
+    - "commons:File:2020 MLK van Airco Caravan (1).jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Beeld_van_Martin_Luther_King (2018 project with half-metre statuettes, one at the park entrance; talks with the district about a permanent statue, then silence; placed 15 January 2020 with a concrete drill, 1.20 m, self-financed, expected to be stopped; approved some months later after questions from the SP; unveiled by Klinefelter; text on the back; cites Het Parool of 16 January and 5 July 2020)
+    - https://www.mlk50.nl/bronze-statue/ (fifty identical statues, official reveal on 5 July 2020, tolerated by the municipality, photos of the statue on 15 January 2021 and 15 January 2022)
+    - https://boeddhistischdagblad.nl/nieuws/148687-onthulling-van-illegaal-beeld-van-martin-luther-king-in-amsterdam (unveiling 5 July 2020, Klinefelter as King's former press officer, Selma to Montgomery with tape recorder)
+    - https://nl.wikipedia.org/wiki/Martin_Luther_Kingpark (named 1968, Amstelpark from 1949, Parade yearly since 1990, statue placed illegally and since tolerated, citing de Volkskrant of 8 March 2023)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2314/engel (Reijers, white limestone on dark granite, enlargement of "Spookverschijning" of 1945, first in the Amstelpark, back in 2005; at 52.341355, 4.912278)
+    - OpenStreetMap (statue node at 52.339951, 4.909258, Wikidata Q92135154)
+  nl:
+    title: Martin Luther King, het beeld dat zonder vergunning kwam
+    summary: "Op Kings verjaardag in 2020 boorde een kunstenaar een bronzen beeld van hem vast in het park dat sinds 1968 zijn naam draagt. Ze rekende erop dat iemand haar zou tegenhouden. Er kwam niemand, en de gemeente liet het staan."
+    body: |
+      Om de Martin Luther King in het park dat naar hem heet, heeft niemand gevraagd. Op 15 januari 2020, de geboortedag van King, bracht de Amsterdamse kunstenaar Airco Caravan een bronzen beeld van 1,20 meter het park in en zette het met een betonboor vast. Ze rekende erop dat iemand haar zou tegenhouden. Er kwam niemand.
+
+      Het park draagt Kings naam sinds 1968, het jaar waarin hij werd vermoord; daarvoor heette het Amstelpark. In 2018, vijftig jaar later, had de kunstenaar al een klein beeldje bij de ingang gezet, een van vijftig dezelfde beeldjes in een guerrilla-actie. Daarna praatte ze met het stadsdeel over een blijvend beeld, op een plek die met omwonenden en parkbezoekers zou worden gekozen. Toen bleef het stil. Ze betaalde het brons zelf en plaatste het.
+
+      Een paar maanden later, na vragen van een raadslid, keurde de gemeente het alsnog goed. Op 5 juli 2020 is het toch nog officieel onthuld, door Harcourt Klinefelter, die perschef van King was en in 1965 met een bandrecorder meeliep van Selma naar Montgomery.
+
+      Het park is altijd open. Elke zomer staat een deel ervan vol met theaterfestival de Parade.
+
+      Let op:
+      - het citaat op de rug van King, over het zwijgen van de goede mensen
+      - in het deel van het park langs de Amstel: de Engel van Willem Reijers (1949), wit kalksteen op donker graniet, een vergroting van een kleine 'Spookverschijning' die hij in 1945 maakte. Sinds 2005 staat hij weer in het park
+    attributes:
+      check_note: "Speld overgenomen van OpenStreetMap en Wikipedia, die binnen 10 meter overeenkomen; waar in het park het beeld staat, is niet ter plaatse bevestigd."
+    sources:
+      - https://nl.wikipedia.org/wiki/Beeld_van_Martin_Luther_King
+      - https://www.mlk50.nl/bronze-statue/
+      - https://boeddhistischdagblad.nl/nieuws/148687-onthulling-van-illegaal-beeld-van-martin-luther-king-in-amsterdam
+      - https://nl.wikipedia.org/wiki/Martin_Luther_Kingpark
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2314/engel
+
+- title: Kennedy's bust and the pumping station that quotes him
+  summary: "Amsterdam renamed this avenue seven weeks after Dallas and paid for the bust with a television appeal. Since 2020 the entrance to an underground sewage pumping station stands behind it, lettered with Kennedy's line about water and two Nobel prizes."
+  body: |
+    Seven weeks after the shots in Dallas, on 9 January 1964, Amsterdam renamed the Rivierenlaan the President Kennedylaan. The bust followed on 21 November, a day before the first anniversary. The 10,000 guilders came from the public after an appeal on the television talk show Voor de vuist weg; the acting mayor, Joop den Uyl, was at the unveiling. Renze Hettema's bronze head on its limestone column is not much of a likeness. The front quotes the inaugural address in English ("pay any price, bear any burden"), the back gives it in Dutch.
+
+    In December 2020 Kennedy got a backdrop: three brick boxes, the way down to the large underground pumping station where the renewed sewers of the Rivierenbuurt end. The architect, Marjolein van Eig, gave it a long bench and a planted roof with slots for insects and amphibians. On the wall, in a typeface her office drew after the lettering of the Amsterdam School, is another line of Kennedy's: anyone who can solve the problems of water will be worthy of two Nobel prizes, one for peace and one for science.
+
+    Both stand on the strip of green at the corner of the Maasstraat.
+
+    Look for:
+    - the three boxes with the same proportions, stepping down like the stair inside
+    - "succes" with one s in the English text on the column
+    - 600 metres east, in the cycle tunnel under the avenue (bridge 446): Jeroen Werner's 27 enamel panels of a cockatoo in flight, after Muybridge's photographs. Ride through and the bird flies along
+  category: curiosities
+  lat: 52.340795
+  lng: 4.897780
+  address: President Kennedylaan at the Maasstraat
+  links:
+    - { label: Buitenkunst Amsterdam (Eindgemaal), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2539/eindgemaal-j-f-kennedylaan" }
+    - { label: Buitenkunst Amsterdam (John F. Kennedy), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2345/john-f-kennedy" }
+    - { label: Bureau Van Eig (Eindgemaal), url: "https://bureauvaneig.nl/project/eindgemaal/" }
+    - { label: Wikipedia (nl) Borstbeeld John F. Kennedy, url: "https://nl.wikipedia.org/wiki/Borstbeeld_John_F._Kennedy" }
+    - { label: Wikipedia (nl) Eindgemaal Rivierenbuurt, url: "https://nl.wikipedia.org/wiki/Eindgemaal_Rivierenbuurt" }
+    - { label: Wikipedia (nl) Vlucht van een kaketoe, url: "https://nl.wikipedia.org/wiki/Vlucht_van_een_kaketoe" }
+  attributes:
+    rank: Okay
+    built: 1964 (bust), 2020 (pumping station)
+    architect: Marjolein van Eig (pumping station)
+    artist: Renze Hettema (bust)
+  photos:
+    - "commons:File:John F. Kennedy (Hettema) (1).jpg"
+    - "commons:File:2024 Eindgemaal Rivierenbuurt, Asd (B).jpg"
+  sources:
+    - https://nl.wikipedia.org/wiki/Borstbeeld_John_F._Kennedy (Hettema, bronze head on limestone column, both inscriptions, 10,000 guilders from donations after an appeal in Voor de vuist weg, unveiled 21 November 1964 by Fisher Howe with acting mayor Den Uyl; Commons has a photo of the bust dated 10 May 2025)
+    - https://nl.wikipedia.org/wiki/President_Kennedylaan_(Amsterdam) (Rivierenlaan, renamed by decision of 9 January 1964 after five requests; calls the bust a poor likeness; cockatoo in the tunnel of bridge 446)
+    - https://nl.wikipedia.org/wiki/Eindgemaal_Rivierenbuurt (completed December 2020, Marjolein van Eig, three stepped parts, bench, quotation in Dutch and English, roof for insects and amphibians, reliefs against fly-posting; photos of February 2024)
+    - https://bureauvaneig.nl/project/eindgemaal/ (renewed sewer system of the Rivierenbuurt, underground concrete basin, three boxes with the same proportions, own typeface derived from Amsterdam School typography, sedum roof)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2539/eindgemaal-j-f-kennedylaan (since 2020, entrance to a large underground pumping station, quotation links the bust and the building)
+    - https://nl.wikipedia.org/wiki/Vlucht_van_een_kaketoe (27 enamelled steel panels, Muybridge, tunnel of 37 m, the bird seems to fly along)
+  nl:
+    title: De buste van Kennedy en het gemaal dat hem citeert
+    summary: "Amsterdam gaf deze laan zeven weken na Dallas een nieuwe naam en betaalde de buste uit een oproep op tv. Sinds 2020 staat erachter de toegang tot een ondergronds rioolgemaal, met Kennedy's uitspraak over water en twee Nobelprijzen op de muur."
+    body: |
+      Zeven weken na de schoten in Dallas, op 9 januari 1964, doopte Amsterdam de Rivierenlaan om tot President Kennedylaan. De buste kwam op 21 november, een dag voor de eerste sterfdag. De 10.000 gulden kwamen van kijkers, na een oproep in het tv-programma Voor de vuist weg; waarnemend burgemeester Joop den Uyl was bij de onthulling. Erg veel lijkt de bronzen kop van Renze Hettema op zijn kalkstenen zuil niet op Kennedy. Voorop staat een zin uit de inaugurele rede in het Engels ('pay any price, bear any burden'), achterop dezelfde zin in het Nederlands.
+
+      In december 2020 kreeg Kennedy een decor: drie bakstenen dozen, de afdaling naar het grote ondergrondse eindgemaal waar het vernieuwde riool van de Rivierenbuurt op uitkomt. Architect Marjolein van Eig gaf het een lange bank en een begroeid dak met sleuven voor insecten en amfibieën. Op de muur staat, in een letter die haar bureau afleidde van die van de Amsterdamse School, nog een uitspraak van Kennedy: wie de problemen met water kan oplossen, is twee Nobelprijzen waard, één voor de vrede en één voor de wetenschap.
+
+      Beide staan in de groenstrook op de hoek van de Maasstraat.
+
+      Let op:
+      - de drie dozen met dezelfde verhoudingen, die aflopen zoals de trap binnenin
+      - 'succes' met één s in de Engelse tekst op de zuil
+      - 600 meter oostelijker, in de fietstunnel onder de laan (brug 446): de 27 emaille panelen van Jeroen Werner met een vliegende kaketoe, naar de foto's van Muybridge. Fiets erdoor en de vogel vliegt mee
+    attributes:
+      built: 1964 (buste), 2020 (gemaal)
+      architect: Marjolein van Eig (gemaal)
+      artist: Renze Hettema (buste)
+    sources:
+      - https://nl.wikipedia.org/wiki/Borstbeeld_John_F._Kennedy
+      - https://nl.wikipedia.org/wiki/President_Kennedylaan_(Amsterdam)
+      - https://nl.wikipedia.org/wiki/Eindgemaal_Rivierenbuurt
+      - https://bureauvaneig.nl/project/eindgemaal/
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2539/eindgemaal-j-f-kennedylaan
+      - https://nl.wikipedia.org/wiki/Vlucht_van_een_kaketoe
+
+- title: Kindermonument, the playground that became a market for Jews
+  summary: "First Jewish children were banned from this playground. Then, on 3 November 1941, the occupier made it the market where the Jews of the Rivierenbuurt had to do their shopping. Four bronze children by a woman of the resistance stand at the gate."
+  body: |
+    At the gate of this playground two bronze children play. Behind a wall of black marble two others stand and watch, holding on to each other.
+
+    About 17,000 Jews lived in the Rivierenbuurt when the war began, many of them refugees from Germany. Soon after the occupation Jewish children were barred from the playground on the Gaaspstraat. On 3 November 1941 the occupier requisitioned it as a market, one of four in the city, with a sign at the entrance: "Open only to Jewish sellers, Jewish buyers and Jewish visitors." Ordinary shops were now closed to them, and gathered in one place they were easier to round up. It closed on 14 August 1943, when almost no Jews were left in the neighbourhood. Some 13,000 of the 17,000 did not survive the war.
+
+    The monument was the idea of a former resistance man, alarmed by racist and antisemitic incidents here in the early 1980s. The sculptor, Truus Menger-Oversteegen, had been in the armed resistance herself, alongside Hannie Schaft. Mayor Ed van Thijn unveiled it on 3 November 1986, and the neighbourhood gathers here on that date every year.
+
+    It is a playground again; the monument stands at its entrance.
+
+    Look for:
+    - on the wall: "3 nov 1941, Markt, Alleen toegangkelijk voor joden" (open only to Jews), in the spelling of the time
+    - "samen spelen, samen leven" (play together, live together) under the playing children
+    - on the corners of Gaaspstraat 3 and 31, W.C. Brouwer's two carved farmers: one in despair as birds eat his harvest, one bringing it in
+  category: hidden-history
+  lat: 52.344936
+  lng: 4.907906
+  address: Gaaspstraat 8
+  links:
+    - { label: Nationaal Comité 4 en 5 mei (Kindermonument), url: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1459/amsterdam-kindermonument" }
+    - { label: Stichting Kindermonument, url: "https://kindermonument.org/" }
+    - { label: Joods Amsterdam (Gaaspstraat), url: "https://www.joodsamsterdam.nl/gaaspstraat/" }
+    - { label: Buitenkunst Amsterdam (Markt voor Joden), url: "https://www.buitenkunstamsterdam.nl/Kunstwerken/2318/markt-voor-joden" }
+    - { label: Wikipedia (nl) Kindermonument Markt voor Joden, url: "https://nl.wikipedia.org/wiki/Kindermonument_Markt_voor_Joden" }
+    - { label: Wikipedia (nl) Gaaspstraat, url: "https://nl.wikipedia.org/wiki/Gaaspstraat" }
+  attributes:
+    rank: Nice
+    built: "1986"
+    artist: Truus Menger-Oversteegen
+  photos:
+    - "commons:File:Markt voor Joden (01).jpg"
+    - "commons:File:Het monument dat de 'Markt voor Joden' herdenkt, Bestanddeelnr 933-8312.jpg"
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1459/amsterdam-kindermonument (four bronze children, triangular wall of black marble, texts, requisitioned as market, sign from 3 November 1941 to 14 August 1943 with its wording, initiative of a former resistance man after incidents in the early 1980s, unveiled 3 November 1986 by Van Thijn)
+    - https://kindermonument.org/ (same dates; commemoration announced for 3 November 2026)
+    - https://www.joodsamsterdam.nl/gaaspstraat/ (about 17,000 Jews in the district, playground forbidden to Jewish children, one of four Jewish markets, shops closed to them, easier to arrest, 14 August 1943, 13,000 did not survive)
+    - https://www.buitenkunstamsterdam.nl/Kunstwerken/2318/markt-voor-joden (closed mid-August 1943 after the last raid, Menger as resistance fighter and sculptor)
+    - https://nl.wikipedia.org/wiki/Kindermonument_Markt_voor_Joden (monument at the playground entrance, yearly commemoration on 3 November, "toegangkelijk" in the spelling of 1941)
+    - https://nl.wikipedia.org/wiki/Truus_Menger-Oversteegen (resistance work with her sister and Hannie Schaft)
+    - https://nl.wikipedia.org/wiki/Gaaspstraat (playground has number 8; Brouwer's two sculptures at nos. 3 and 31)
+  nl:
+    title: Kindermonument, de speeltuin die Markt voor Joden werd
+    summary: "Eerst mochten Joodse kinderen deze speeltuin niet meer in. Op 3 november 1941 maakte de bezetter er de markt van waar de Joden uit de Rivierenbuurt hun boodschappen moesten doen. Bij het hek staan vier bronzen kinderen van een verzetsvrouw."
+    body: |
+      Bij het hek van deze speeltuin spelen twee bronzen kinderen. Achter een muur van zwart marmer staan er nog twee, die toekijken en elkaar vasthouden.
+
+      Toen de oorlog begon woonden er in de Rivierenbuurt ongeveer 17.000 Joden, onder wie veel vluchtelingen uit Duitsland. Al snel na de bezetting mochten Joodse kinderen de speeltuin aan de Gaaspstraat niet meer in. Op 3 november 1941 vorderde de bezetter het terrein en maakte er een markt van, een van de vier in de stad, met een bord bij de ingang: 'Alleen toegankelijk voor Joodsche verkoopers, Joodsche koopers en Joodsche bezoekers.' In gewone winkels mochten ze niet meer komen, en wie op één plek bijeen was, liet zich makkelijker oppakken. Op 14 augustus 1943 ging de markt dicht; er woonden toen bijna geen Joden meer in de buurt. Van de 17.000 hebben er zo'n 13.000 de oorlog niet overleefd.
+
+      Het monument is er gekomen op initiatief van een oud-verzetsman, die zich begin jaren tachtig zorgen maakte over racistische en antisemitische incidenten in de buurt. Beeldhouwster Truus Menger-Oversteegen zat zelf in het gewapend verzet, samen met Hannie Schaft. Burgemeester Ed van Thijn onthulde het op 3 november 1986, en sindsdien komt de buurt hier elk jaar op die datum bijeen.
+
+      Het is weer een speeltuin; het monument staat bij de ingang.
+
+      Let op:
+      - op de muur: '3 nov 1941, Markt, Alleen toegangkelijk voor joden', in de spelling van toen
+      - 'samen spelen, samen leven' onder de spelende kinderen
+      - op de hoeken van Gaaspstraat 3 en 31: de twee gebeeldhouwde boeren van W.C. Brouwer, de een wanhopig omdat de vogels zijn oogst opeten, de ander die hem binnenhaalt
+    sources:
+      - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/1459/amsterdam-kindermonument
+      - https://kindermonument.org/
+      - https://www.joodsamsterdam.nl/gaaspstraat/
+      - https://www.buitenkunstamsterdam.nl/Kunstwerken/2318/markt-voor-joden
+      - https://nl.wikipedia.org/wiki/Kindermonument_Markt_voor_Joden
+      - https://nl.wikipedia.org/wiki/Gaaspstraat
