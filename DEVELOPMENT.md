@@ -205,6 +205,12 @@ pnpm dc fields sights scripts/data/amsterdam-fields.json   # map schema
 pnpm dc import sights scripts/data/bos-en-lommer-monuments.json [--upsert]
 ```
 
+Maps: `dc map-create map.json [--from <slug>]` (super admins; `--from` copies
+another map's categories, fields and languages), `dc map-export <slug>` (the whole
+configuration in the same shape), `dc settings`, `dc fields`, `dc languages` to
+change one, `dc city-default <slug> on|off` (the city's own map), and
+`dc members <slug>` / `dc member <slug> <email> <role|none>` for roles.
+
 Languages: `dc languages <slug> langs.json` sets `language`, `languages` and the
 map's `translations`. Place and route drafts take `translations`; `dc update` and
 `route-update` merge them per language and field (`null` deletes).

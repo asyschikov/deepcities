@@ -13,6 +13,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import { DOC_HELP, makeDocCommands } from "./dc-docs.ts";
+import { MAP_HELP, makeMapCommands } from "./dc-maps.ts";
 
 const DEFAULT_URL = "https://deepcities.org";
 const CONFIG_PATH = join(homedir(), ".config", "deep-cities", "config.json");
@@ -31,6 +32,7 @@ READ
   dc maps                                  all maps (slug, title, place count)
   dc map <slug>                            settings, categories, custom place fields
                                            ("fields"), your role + capabilities
+                                           (creating maps and members: see MAPS below)
   dc places <slug> [--borough X] [--neighbourhood X] [--sub-neighbourhood X]
                    [--category KEY] [--field key=value]... [--q TEXT]
                                            published places (compact, with attributes)
@@ -925,7 +927,7 @@ const commands: Record<
   (pos: string[], flags: Record<string, string>) => Promise<unknown>
 > = {
   help: async () => {
-    process.stdout.write(HELP + DOC_HELP);
+    process.stdout.write(HELP + MAP_HELP + DOC_HELP);
     return undefined;
   },
   schema: async () => SCHEMA,
@@ -1393,6 +1395,16 @@ const commands: Record<
       routeId: need(routeId, "<routeId>"),
       note: need(flags.note, "--note"),
     }),
+
+  ...makeMapCommands({
+    query,
+    mutate,
+    readJson: readJsonArg,
+    need,
+    fail: (message, code) => {
+      throw new CliError(message, code);
+    },
+  }),
 
   ...makeDocCommands({
     url: config.url,
