@@ -18,7 +18,7 @@ official pages. Don't use iamsterdam.com.
 
 The map is Amsterdam off the A-list; these famous sights are added **for completeness**. So:
 
-- `attributes: {a_list: A-list}` on every place and **no `rank`**. Keep the other attributes
+- `attributes: {a_list: A-list}` on every place. **Rank** is set later by the coordinator; leave it out. Keep the other attributes
   (heritage_status, monument_number, built, architect, listed, original_use) as for any place.
 - **Short**: a summary (at most 280 characters) and a body of about 120 to 200 words, in both
   languages. Don't retell the guidebook. One line on what it is, then **the deep angle**: the
