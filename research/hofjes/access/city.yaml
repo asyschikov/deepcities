@@ -1,0 +1,1265 @@
+# Access to the hofjes of slice `city` (outside the Jordaan and Haarlemmerbuurt), checked 2026-11-24.
+# today: Still a hofje / No longer a hofje / A trace left / Gone / Unconfirmed
+# Source keys used below (full list with dates in notes/city.md):
+#   HIA = hofjesinamsterdam.nl (posts 2018); AOS = amsterdamoudestad.nl/bezienswaardigheden/hofjes-grachtengordel (undated, c. 2019)
+#   XO = xohotels.com 12-hofjes-EN.pdf (Feb 2023); LHB = hofjesberaad.nl (member pages, read Nov 2026)
+
+# ---------- Centrum: canal belt and Weteringbuurt ----------
+
+- id: null
+  title: Begijnhof
+  access: Open daily
+  today: Still a hofje
+  hours:
+    en: Every day 10:00 to 18:00, public holidays included; closed to tourists on King's Day (27 April).
+    nl: Elke dag 10.00 tot 18.00 uur, ook op feestdagen; op Koningsdag (27 april) gesloten voor toeristen.
+  rules:
+    en: Private ground; quiet; only the open (orange, unhatched) part of the court; no bikes, dogs or wheeled suitcases; no eating or drinking (no bins); groups at most 12; follow the hosts at busy times. Guided groups need a municipal permit (Centrum, max 15).
+    nl: Privéterrein; stil zijn; alleen het open (oranje, niet gearceerde) deel van het hof; geen fietsen, honden of rolkoffers; niet eten of drinken (geen afvalbakken); groepen hooguit 12; aanwijzingen van gastheren volgen. Rondleidingen hebben een gemeentelijke ontheffing nodig (Centrum, max 15).
+  access_note:
+    en: Walk in through the gate off the Spui (Gedempte Begijnensloot / Begijnensteeg) and leave the same way; hosts keep visitors to the open part of the court.
+    nl: Je loopt naar binnen via de poort bij het Spui (Gedempte Begijnensloot / Begijnensteeg) en weer terug dezelfde weg; gastheren houden bezoekers in het open deel van het hof.
+  checked: Nov 2026
+  founded: before 1346 (first mention 1307)
+  founder: Community of beguines; Beghynhuys given 1346
+  homes: 106
+  residents_now: Single women over 30
+  entrance_address: Gedempte Begijnensloot / Begijnensteeg (address Nieuwezijds Voorburgwal 373)
+  lat: 52.36942
+  lng: 4.890456
+  courtyard_lat: 52.369115
+  courtyard_lng: 4.889711
+  sources:
+    - https://hetbegijnhof.nl/info/ (read Nov 2026; hours, rules, gate)
+    - https://hetbegijnhof.nl/ (read Nov 2026; over 100 single women over 30)
+    - https://www.hofjesberaad.nl/begijnhof (read Nov 2026; gives older hours 08:00-17:00, superseded by the official site)
+    - https://hofjesinamsterdam.nl/begijnhof/ (2018; 106 units)
+    - https://lokaleregelgeving.overheid.nl/CVDR637379/1 (tour permit policy, from 1 Apr 2020)
+    - OSM node barrier=gate access=permissive at the gate (pin)
+
+- id: mrw332h6gn0yxjwn5m2wyft1
+  title: "Liefde is 't Fondament, the 'papist' hofje"
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open to the public.
+    nl: Niet open voor publiek.
+  rules:
+    en: Offices; see the front from the canal.
+    nl: Kantoren; bekijk de gevel vanaf de gracht.
+  access_note:
+    en: Since 1982 the office of the Catholic poor relief foundation (RCOAK), rebuilt 1912-1914; nothing of the court is open, the front is seen from the Keizersgracht.
+    nl: Sinds 1982 kantoor van het R.C. Oude-Armenkantoor, herbouwd in 1912-1914; van het hof is niets toegankelijk, de gevel zie je vanaf de Keizersgracht.
+  checked: Nov 2026
+  founded: "1618"
+  founder: Claes Reiniersz
+  homes: 18 (originally)
+  residents_now: None (offices)
+  entrance_address: Keizersgracht 334
+  lat: 52.369836
+  lng: 4.883962
+  sources:
+    - AOS (undated, c. 2019; "Open: nee, gesloten voor publiek")
+    - https://hofjesinamsterdam.nl/claes-reiniersz-hofje/ (2018)
+    - https://hofjesinamsterdam.nl/hofje-de-kalverengang/ (2018; RCOAK office moved here in 1982)
+    - https://www.hofjesberaad.nl/amsterdam (still listed as member "Liefde is het fondement", Nov 2026)
+
+- id: eu76f4laqwjnnsjhb5cafa87
+  title: Nieuwe Suykerhofje, a Catholic hofje with a fake organ
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open to the public.
+    nl: Niet open voor publiek.
+  rules:
+    en: Private owner-occupied apartments; see the gateway house from the canal.
+    nl: Particuliere koopappartementen; bekijk het poorthuis vanaf de gracht.
+  access_note:
+    en: Five private apartments since 2002 share the court; the door at no. 383 is the old gateway and stays shut. No open day found.
+    nl: Sinds 2002 delen vijf particuliere appartementen het hof; de deur op nr. 383 is de oude poort en blijft dicht. Geen open dag gevonden.
+  checked: Oct 2025
+  founded: "1755"
+  founder: Catholic regents (see our text)
+  homes: 5 apartments
+  residents_now: Private owners
+  entrance_address: Prinsengracht 383
+  lat: 52.371523
+  lng: 4.883209
+  sources:
+    - https://www.funda.nl/detail/koop/verkocht/amsterdam/appartement-prinsengracht-395/43196676/ (sold Oct 2025; VvE shared with four other apartments)
+    - https://nieuwesuikerhofje.nl/ (historian's site, read Nov 2026)
+    - https://nieuwsuikerhofje.substack.com/p/11-juni-2023-samenzijn-nieuw-suikerhofje (closed gathering, 11 June 2023)
+    - https://hofjesinamsterdam.nl/nieuw-suikerhofje/ (2018)
+
+- id: ijifjk0orsdk04prdmraf645
+  title: Van Brienenhofje, an almshouse on a brewery
+  access: Open at set times
+  today: Still a hofje
+  hours:
+    en: Monday to Friday 06:00 to 18:00, Saturday 06:00 to 14:00; closed Sunday.
+    nl: Maandag tot en met vrijdag 6.00 tot 18.00 uur, zaterdag 6.00 tot 14.00 uur; zondag dicht.
+  rules:
+    en: Go in quietly; residents' homes.
+    nl: Stil naar binnen; hier wonen mensen.
+  access_note:
+    en: The gate on the Prinsengracht stands open in these hours (sign at the gate, 2023); the long garden court lies behind.
+    nl: De poort aan de Prinsengracht staat in deze uren open (bord bij de poort, 2023); daarachter ligt de lange tuin.
+  checked: 2023
+  founded: "1804"
+  founder: Arnout van Brienen
+  homes: 26
+  residents_now: Men and women over 45 on low incomes
+  entrance_address: Prinsengracht 89
+  lat: 52.378667
+  lng: 4.887298
+  sources:
+    - https://robnoord.nl/hofje-van-brienen/ (2023; hours from the sign at the gate)
+    - XO (Feb 2023; Mon-Fri 06:00-18:00, Sat 06:00-14:00)
+    - AOS (undated; same hours)
+    - Google Maps listing (read Nov 2026; 06:00-18:00)
+    - https://www.hofjesberaad.nl/hofje-van-brienen (read Nov 2026; Het Oosten, now Stadgenoot)
+
+- id: osr8dtizi1j33szoc4ncyq9f
+  title: Zon's Hofje, on the site of a Mennonite church
+  access: Open at set times
+  today: Still a hofje
+  hours:
+    en: Weekdays, about 10:00 to 17:00 (one older source says 08:00 to 18:00); closed at weekends.
+    nl: Doordeweeks, ongeveer 10.00 tot 17.00 uur (één oudere bron zegt 8.00 tot 18.00 uur); in het weekend dicht.
+  rules:
+    en: Quiet; residents are students.
+    nl: Stil zijn; de bewoners zijn studenten.
+  access_note:
+    en: The passage door at Prinsengracht 159 is open on weekday daytime; the hours differ between sources (10-17 in 2023 and on Google Maps, 8-18 on an undated site).
+    nl: De gangdeur op Prinsengracht 159 is doordeweeks overdag open; de uren verschillen per bron (10-17 in 2023 en op Google Maps, 8-18 op een ongedateerde site).
+  checked: 2023
+  founded: "1765"
+  founder: Friesian Mennonite congregation (Arke Noach)
+  homes: 32 (places, 1882)
+  residents_now: Mennonite-linked students
+  entrance_address: Prinsengracht 159
+  lat: 52.378172
+  lng: 4.887054
+  sources:
+    - XO (Feb 2023; Mon-Fri 10:00-17:00)
+    - Google Maps listing (read Nov 2026; 10:00-17:00; a review of c. 2022 mentions a sign with hours)
+    - AOS (undated; Mon-Fri 08:00-18:00)
+    - https://hofjesinamsterdam.nl/ (2018; students 18 to 22)
+
+- id: xfz0k6e2arg3jzbeofmpn91j
+  title: Deutzenhofje, a widow's almshouse with a lesson for the rich
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open to the public.
+    nl: Niet open voor publiek.
+  rules:
+    en: Residents only; see the gatehouse from the canal.
+    nl: Alleen voor bewoners; bekijk het poorthuis vanaf de gracht.
+  access_note:
+    en: The gatehouse door stays shut; older women still live round the court. Seen from the Prinsengracht.
+    nl: De deur van het poorthuis blijft dicht; rond het hof wonen nog oudere vrouwen. Te zien vanaf de Prinsengracht.
+  checked: Nov 2026
+  founded: 1692 (built 1694-1695)
+  founder: Agneta Deutz
+  homes: 19 (plus 4 Kerkstraat houses added 1964)
+  residents_now: Older women
+  entrance_address: Prinsengracht 855
+  lat: 52.362653
+  lng: 4.889931
+  sources:
+    - AOS (undated; "Open: nee, gesloten voor publiek")
+    - https://erfgoed-zeldenrust.nl/wandelingen-door-oud-amsterdam/ (read Nov 2026; not freely accessible)
+    - https://www.hofjesberaad.nl/deutzenhofje (member, read Nov 2026)
+
+- id: x4qocbeumoafggfhzcvfdzq5
+  title: Swigtershofje
+  access: Closed
+  today: Unconfirmed
+  hours:
+    en: No public hours found.
+    nl: Geen openingstijden gevonden.
+  rules:
+    en: Private; the chapel is a hotel suite.
+    nl: Privé; de kapel is een hotelsuite.
+  access_note:
+    en: Only the carved gateway of 1756 on the Amstel is seen; De Key owned the homes in 2018 and parts were let to a hotel and a trust. Whether it still houses anyone as a hofje is not confirmed.
+    nl: Je ziet alleen het gebeeldhouwde poortje uit 1756 aan de Amstel; in 2018 was De Key eigenaar en waren delen verhuurd aan een hotel en een stichting. Of het nog als hofje wordt bewoond, is niet bevestigd.
+  checked: Nov 2026
+  founded: 1744 (built from 1746)
+  founder: Isaak Swigters
+  homes: 18 (originally, for 36 women)
+  residents_now: Unknown (De Key tenants, hotel use)
+  entrance_address: Amstel 88
+  lat: 52.366825
+  lng: 4.896667
+  sources:
+    - https://hofjesinamsterdam.nl/swigtershofje/ (2018)
+    - Private Mansions booking page "The Hidden Church" (live Nov 2026, from our place check note)
+
+- id: mmoem3yv4t3phejyy43jdnvh
+  title: "Three almshouses of the Weteringbuurt: Grill's Hofje"
+  access: Open daily
+  today: Still a hofje
+  hours:
+    en: Every day 07:00 to 19:00; the gate is locked at night.
+    nl: Elke dag 7.00 tot 19.00 uur; 's nachts is de poort op slot.
+  rules:
+    en: Quiet; residents are mostly students.
+    nl: Stil zijn; de bewoners zijn vooral studentes.
+  access_note:
+    en: The door at Eerste Weteringdwarsstraat 19 leads through the gatehouse to the inner row; Het Parool listed it among visitable hofjes in 2025 and 2026.
+    nl: De deur op Eerste Weteringdwarsstraat 19 leidt door het poortgebouw naar de binnenste rij; Het Parool noemde het in 2025 en 2026 bij de hofjes die je kunt bezoeken.
+  checked: Feb 2026
+  founded: 1721 (built 1724-1726)
+  founder: Anthonie Grill and Elisabeth Grill
+  homes: 16 (8 houses)
+  residents_now: Mostly female students
+  entrance_address: Eerste Weteringdwarsstraat 19
+  lat: 52.362027
+  lng: 4.888411
+  sources:
+    - AOS (undated; daily 07:00-19:00)
+    - https://hofjesinamsterdam.nl/grills-hofje/ (2018; gate closed 19:00-07:00)
+    - Het Parool bucket list (Feb 2026, snippet; Grill's hofje among public hofjes)
+    - https://www.parool.nl/uit-in-amsterdam/8x-verborgen-hofjes-in-amsterdam-om-stilletjes-te-genieten~bb4ea309/ (12 Mar 2025, snippet; "bij daglicht of binnen de openingstijden")
+    - https://www.hofjesberaad.nl/grills-hofje (read Nov 2026)
+
+- id: mmoem3yv4t3phejyy43jdnvh
+  title: "Three almshouses of the Weteringbuurt: Hodshon-Dedelhofje"
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open to the public.
+    nl: Niet open voor publiek.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: A blank wall with a carved gate on the street; the gate is usually shut ("if you are lucky the door is open").
+    nl: Een blinde muur met gebeeldhouwde poort aan de straat; de poort is meestal dicht ("als je geluk hebt staat de deur open").
+  checked: c. 2019
+  founded: "1842"
+  founder: Isaac Hodshon and Isabella Dedel
+  homes: 12 (10 per HIA)
+  residents_now: Single women over 60
+  entrance_address: Eerste Weteringdwarsstraat 85
+  lat: 52.361836
+  lng: 4.890072
+  sources:
+    - AOS (undated; closed to the public; Stadsherstel since 1980; 12 homes)
+    - https://stadsherstel.nl/monumenten/hodshon-dedelhofje/ (owner)
+    - https://hofjesinamsterdam.nl/hodshon-dedelhof/ (2018; 10 homes)
+
+- id: mmoem3yv4t3phejyy43jdnvh
+  title: "Three almshouses of the Weteringbuurt: Heemskerkhofje"
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Private homes.
+    nl: Particuliere woningen.
+  access_note:
+    en: Privately owned since 1980; seen from the Derde Weteringdwarsstraat.
+    nl: Sinds 1980 particulier bezit; te zien vanaf de Derde Weteringdwarsstraat.
+  checked: 2018
+  founded: "1890"
+  founder: Stichting Vrouwe van Heemskerk
+  homes: null
+  residents_now: Private
+  entrance_address: Derde Weteringdwarsstraat 25
+  lat: 52.361064
+  lng: 4.890257
+  sources:
+    - https://hofjesinamsterdam.nl/stichting-vrouwe-van-heemskerk/ (2018)
+
+- id: pz8393nv4gzc5a403sdtiah1
+  title: De Nooteboome Uytkijk, a joiner's warehouse turned almshouse
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Private homes and a shop.
+    nl: Particuliere woningen en een winkel.
+  access_note:
+    en: A former warehouse, private homes and a shop since the 1974 restoration; there is no court to enter.
+    nl: Een voormalig pakhuis, sinds de restauratie van 1974 particuliere woningen en een winkel; er is geen hof om in te gaan.
+  checked: 2018
+  founded: 1774 (will)
+  founder: Jan van Mekeren and Johanna Margaretha Okhuysen
+  homes: null
+  residents_now: Private
+  entrance_address: Lijnbaansgracht 287
+  lat: 52.361582
+  lng: 4.887462
+  sources:
+    - https://hofjesinamsterdam.nl/de-nooteboome-uytkijk/ (2018)
+    - https://www.hofjesberaad.nl/stichting-eendracht-anslo (read Nov 2026; the foundation that ran it now runs Eendracht Anslo)
+
+- id: e09fcw1wybt00344q8v89zvd
+  title: Looiershofje, an almshouse made of 17th-century houses
+  access: Open at set times
+  today: Still a hofje
+  hours:
+    en: Daytime, about 07:00 to 19:00 (per Google Maps; not confirmed by the owner).
+    nl: Overdag, ongeveer 7.00 tot 19.00 uur (volgens Google Maps; niet bevestigd door de eigenaar).
+  rules:
+    en: Quiet; residents are students.
+    nl: Stil zijn; er wonen studenten.
+  access_note:
+    en: The gatehouse on the Nieuwe Looiersstraat; a neighbourhood site says it is open but gives no hours, Google Maps lists 07:00 to 19:00.
+    nl: Het poortgebouw aan de Nieuwe Looiersstraat; een buurtsite zegt dat het open is maar noemt geen uren, Google Maps geeft 7.00 tot 19.00 uur.
+  checked: Nov 2026
+  founded: "1829"
+  founder: Anna Maria Elisabeth Elias
+  homes: 29 (after 1983)
+  residents_now: Students (De Key since 2003)
+  entrance_address: Nieuwe Looiersstraat 26
+  lat: 52.36073
+  lng: 4.891993
+  sources:
+    - AOS (undated; "Open: ja, openingstijden onbekend")
+    - Google Maps listing "Looijershofje", Nieuwe Looiersstraat 26B (read Nov 2026; 7 am to 7 pm)
+    - https://hofjesinamsterdam.nl/looyershofje/ (2018)
+
+- id: w1d4xchf59cnd2169ibqqaao
+  title: Hilmanhofje, a grieving father's almshouse
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: No public hours found.
+    nl: Geen openingstijden gevonden.
+  rules:
+    en: Residents only; a supported-living project.
+    nl: Alleen voor bewoners; een project voor begeleid wonen.
+  access_note:
+    en: Two rows face each other across a narrow court behind the gate; seen from the Nieuwe Looiersstraat and the Fokke Simonszstraat.
+    nl: Twee rijen tegenover elkaar aan een smal hof achter de poort; te zien vanaf de Nieuwe Looiersstraat en de Fokke Simonszstraat.
+  checked: 2018
+  founded: "1875"
+  founder: Johannes Hilman
+  homes: 20 (originally)
+  residents_now: Supported-living residents and a house master
+  entrance_address: Nieuwe Looiersstraat 146
+  lat: 52.360331
+  lng: 4.895565
+  sources:
+    - https://hofjesinamsterdam.nl/hilmanhofje/ (2018)
+    - https://www.hofjesberaad.nl/hilmanhof (member, read Nov 2026)
+
+- id: null
+  title: Hofje De Kalverengang
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Offices and homes.
+    nl: Kantoren en woningen.
+  access_note:
+    en: The hofje houses in the alley have been offices since the 1970s restoration; nothing is open, and from the canal you see only the houses and the alley.
+    nl: De hofjeshuizen in de gang zijn sinds de restauratie van de jaren zeventig kantoor; niets is open, vanaf de gracht zie je alleen de huizen en de gang.
+  checked: 2018
+  founded: late 19th century
+  founder: R.C. Oude-Armenkantoor (RCOAK)
+  homes: 28 places (1964)
+  residents_now: None as a hofje (offices)
+  entrance_address: Prinsengracht 511-523
+  lat: 52.369159
+  lng: 4.883309
+  sources:
+    - https://hofjesinamsterdam.nl/hofje-de-kalverengang/ (2018)
+    - https://www.mapquest.com/nl/hofje-de-kalverengang-527361593 (listing only)
+
+- id: null
+  title: Huizen De Vogel
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open; three street houses.
+    nl: Niet open; drie huizen aan de straat.
+  rules:
+    en: Ordinary rented homes.
+    nl: Gewone huurwoningen.
+  access_note:
+    en: No court; you see three canal-belt fronts on the Kerkstraat.
+    nl: Geen hof; je ziet drie gevels aan de Kerkstraat.
+  checked: 2018
+  founded: 1794 (1796 per amsterdamhistorie.nl)
+  founder: L.T. Vogel (bequest to the United Mennonite congregation)
+  homes: 9
+  residents_now: Ordinary tenants of the diaconate
+  entrance_address: Kerkstraat 316-320
+  lat: 52.362494
+  lng: 4.894821
+  sources:
+    - https://hofjesinamsterdam.nl/huizen-de-vogel/ (2018)
+
+- id: elhkkzxrcsp7tkt024884c5m
+  title: Het Falckshuis, a home for widows disguised as two houses
+  access: Closed
+  today: Unconfirmed
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Seen from the canal.
+    nl: Te zien vanaf de gracht.
+  access_note:
+    en: One building with a single front door, no court; its current use was not found. Borderline (a widows' home in one building).
+    nl: Eén gebouw met één voordeur, geen hof; het huidige gebruik is niet gevonden. Grensgeval (weduwenhuis in één gebouw).
+  checked: Nov 2026
+  founded: 1873 (building 1905-1906)
+  founder: Falckshuis foundation
+  homes: null
+  residents_now: Unknown
+  entrance_address: Keizersgracht 713-715
+  lat: 52.364091
+  lng: 4.898445
+  sources:
+    - our place text (municipal monument 202020)
+
+# ---------- Centrum: Nieuwe and Oude Zijde, Weesperbuurt, Plantage ----------
+
+- id: null
+  title: Fernandes Nuneshuis
+  access: Closed
+  today: A trace left
+  hours:
+    en: Not open; the gable stones are seen from the street.
+    nl: Niet open; de gevelstenen zie je vanaf de straat.
+  rules:
+    en: Private house.
+    nl: Particulier pand.
+  access_note:
+    en: Two gable stones over the double doors are what remains of the almshouse; the house itself is private.
+    nl: Twee gevelstenen boven de dubbele deuren zijn wat er van het hofje over is; het huis is privé.
+  checked: Mar 2026
+  founded: shortly after 1788 (1786 per HIA)
+  founder: Joseph Fernandes Nunes (will)
+  homes: 6 rooms for 12 women
+  residents_now: None as a hofje
+  entrance_address: Nieuwe Kerkstraat 16
+  lat: 52.363806
+  lng: 4.903584
+  sources:
+    - https://www.4en5mei.nl/oorlogsmonumenten/zoeken/2223/amsterdam-gevelstenen-in-het-fernandes-nunes-huis (read Nov 2026)
+    - https://www.joodsamsterdam.nl/fernandes-nunes-gesticht/ (25 Mar 2026)
+    - https://hofjesinamsterdam.nl/fernandes-nuneshuis/ (2018)
+
+- id: uxgxywibm91l8g6i1jguv8yv
+  title: Corvershof and the couples' homes behind H'ART
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Offices; not open as a hofje.
+    nl: Kantoren; niet open als hofje.
+  rules:
+    en: Seen from the canal.
+    nl: Te zien vanaf de gracht.
+  access_note:
+    en: The Corvershof houses the Protestant diaconate's office and rented offices; the Mien Ruys garden behind it is not publicly open as far as found.
+    nl: In het Corvershof zitten het kantoor van de Protestantse Diaconie en verhuurde kantoren; de Mien Ruys-tuin erachter is voor zover bekend niet openbaar.
+  checked: Nov 2026
+  founded: 1721-1723
+  founder: Reformed diaconate (see our text)
+  homes: null
+  residents_now: None (offices)
+  entrance_address: Nieuwe Herengracht 18
+  lat: 52.366009
+  lng: 4.903768
+  sources:
+    - https://hofjesinamsterdam.nl/corvershof/ (2018)
+    - https://www.hofjesberaad.nl/corvershof (member, read Nov 2026)
+    - https://diaconie.com (Kerkelijk Bureau address, read Nov 2026)
+
+- id: uxgxywibm91l8g6i1jguv8yv
+  title: "Bestedelingenhuis Amstelrank (in: Corvershof and the couples' homes behind H'ART)"
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open as a hofje.
+    nl: Niet open als hofje.
+  rules:
+    en: Seen from the canal.
+    nl: Te zien vanaf de gracht.
+  access_note:
+    en: The 1789 house behind no. 20 has been used by Huis van de Tijd since February 2020; the nine-line inscription over the entrance is the visible trace.
+    nl: Het huis uit 1789 achter nr. 20 is sinds februari 2020 in gebruik bij Huis van de Tijd; de negenregelige tekst boven de ingang is het zichtbare spoor.
+  checked: 2020
+  founded: "1789"
+  founder: Johanna Bontekoning
+  homes: null
+  residents_now: None as a hofje
+  entrance_address: Nieuwe Herengracht 20
+  lat: 52.366101
+  lng: 4.904237
+  sources:
+    - https://hofjesinamsterdam.nl/bestedelingenhuis-amstelrank/ (2018)
+    - our place text (Huis van de Tijd since 4 Feb 2020)
+
+- id: h51lytdhxggyij7guv94j8yw
+  title: "Hodshon and Van Limmik, two Reformed homes in the Amstelhof garden"
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Church offices and diaconal use; seen from the Nieuwe Keizersgracht.
+    nl: Kerkelijke kantoren en diaconaal gebruik; te zien vanaf de Nieuwe Keizersgracht.
+  access_note:
+    en: Van Limmik is now church office space and the Magdalena Hodshonhof has a diaconal use; both lie behind the canal houses in the Amstelhof garden, not open to the public.
+    nl: Van Limmik is nu kerkelijk kantoor en de Magdalena Hodshonhof heeft een diaconale bestemming; beide liggen achter de grachtenhuizen in de tuin van de Amstelhof, niet openbaar.
+  checked: 2018
+  founded: 1876-1878 (Hodshon), 1895 (Van Limmik)
+  founder: Hodshon foundation; Van Limmik foundation (see our text)
+  homes: null
+  residents_now: None as a hofje (offices, diaconal use)
+  entrance_address: Nieuwe Keizersgracht 1-13
+  lat: 52.365266
+  lng: 4.904583
+  sources:
+    - https://hofjesinamsterdam.nl/magdalena-hodshonhof/ (2018)
+    - https://hofjesinamsterdam.nl/van-limmikstichting/ (2018)
+
+- id: nsn2xyns8eu2jwm7a11uviz4
+  title: Occo Hofje
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open to the public.
+    nl: Niet open voor publiek.
+  rules:
+    en: Residents only; front seen from the quay.
+    nl: Alleen voor bewoners; gevel te zien vanaf de kade.
+  access_note:
+    en: Older Catholic women still live here and the chapel holds services for them; visitors see the front and clock turret through the gate.
+    nl: Er wonen nog oudere katholieke vrouwen en in de kapel zijn diensten voor hen; bezoekers zien de gevel en het klokketorentje door de poort.
+  checked: Jun 2025
+  founded: 1774 (by will of Cornelia Elisabeth Occo, d. 1758)
+  founder: Cornelia Elisabeth Occo
+  homes: null
+  residents_now: Older Catholic women
+  entrance_address: Nieuwe Keizersgracht 94
+  lat: 52.365131
+  lng: 4.906582
+  sources:
+    - https://oost-online.nl/het-voelt-een-beetje-alsof-we-allemaal-zussen-van-elkaar-zijn/ (24 Sep 2024; 250 years)
+    - Het Parool (14 Jun 2025, headline and snippet)
+    - https://www.hofjesberaad.nl/occohofje (read Nov 2026)
+
+- id: ervxg90314k2nzi75uwpv0pc
+  title: Sophia Adriana Stichting, the Stedelijk founder's almshouse
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Private homes; no garden.
+    nl: Particuliere woningen; geen tuin.
+  access_note:
+    en: A canal house with a small back house and no court; privately owned since 1972. Seen from the Nieuwe Herengracht.
+    nl: Een grachtenhuis met een klein achterhuis en zonder hof; sinds 1972 particulier bezit. Te zien vanaf de Nieuwe Herengracht.
+  checked: 2018
+  founded: "1890"
+  founder: Sophia Adriana Lopez Suasso-de Bruyn (in her husband's name)
+  homes: 8 women and a matron (originally)
+  residents_now: Private
+  entrance_address: Nieuwe Herengracht 43
+  lat: 52.366458
+  lng: 4.903543
+  sources:
+    - https://hofjesinamsterdam.nl/sophia-adriana-stichting/ (2018)
+
+- id: qe1b2e08dtg739m19t7q4jfy
+  title: Van Brants Rus Hofje
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open to the public.
+    nl: Niet open voor publiek.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: About 28 students live round the court behind the double canal house; it is seen from the quay. The regents can be contacted via the diaconate.
+    nl: Ongeveer 28 studenten wonen rond het hof achter het dubbele grachtenhuis; je ziet het vanaf de kade. De regenten zijn via de diaconie bereikbaar.
+  checked: Nov 2026
+  founded: 1732-1733
+  founder: Christoffel Brants (bequest)
+  homes: about 28
+  residents_now: Students
+  entrance_address: Nieuwe Keizersgracht 28
+  lat: 52.364599
+  lng: 4.904047
+  sources:
+    - https://www.diaconie.com/hofjes-erfgoed/van-brants-rus-hof (read Nov 2026)
+    - https://hofjesinamsterdam.nl/van-brants-rus-hofje/ (2018)
+
+- id: xviz39kgh0jkgcfaslwa78e3
+  title: Wittenberg (Luther Museum)
+  access: Open at set times
+  today: No longer a hofje
+  hours:
+    en: Luther Museum Wednesday to Sunday 11:00 to 17:00.
+    nl: Luther Museum woensdag tot en met zondag 11.00 tot 17.00 uur.
+  rules:
+    en: Museum ticket; the rest is a short-stay hotel.
+    nl: Museumkaartje; de rest is een short-stay hotel.
+  access_note:
+    en: Borderline (a large old people's home and orphanage, not a hofje); the regents' rooms are the museum, entrance at no. 570.
+    nl: Grensgeval (een groot oudeliedenhuis en weeshuis, geen hofje); de regentenkamers zijn museum, ingang op nr. 570.
+  checked: Nov 2026
+  founded: 1769-1772
+  founder: Lutheran diaconate (Kromhuijsen bequest)
+  homes: null
+  residents_now: None (hotel)
+  entrance_address: Nieuwe Keizersgracht 570
+  lat: 52.365411
+  lng: 4.909192
+  sources:
+    - our place text (museum hours)
+
+- id: ecdubrrj9f6v7d2on5h6sh7v
+  title: Vredenburgh, from old women's home to squat
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Group households and studios; seen from the Vredenburgersteeg.
+    nl: Woongroepen en studio's; te zien vanaf de Vredenburgersteeg.
+  access_note:
+    en: Borderline (a Catholic old women's home of 1836-1976, not built as a hofje); now group households. Look at the niche figure in the alley.
+    nl: Grensgeval (katholiek oudevrouwenhuis 1836-1976, niet als hofje gebouwd); nu woongroepen. Kijk naar het beeldje in de nis in de steeg.
+  checked: 2018
+  founded: "1836"
+  founder: Theresia Spijker
+  homes: null
+  residents_now: Group households
+  entrance_address: Vredenburgersteeg 1
+  lat: 52.375298
+  lng: 4.900421
+  sources:
+    - https://hofjesinamsterdam.nl/vredenburgh/ (2018)
+    - our place text
+
+- id: null
+  title: Bussenschuthofje
+  access: Closed
+  today: A trace left
+  hours:
+    en: Not open; the gable stone is seen from the street.
+    nl: Niet open; de gevelsteen zie je vanaf de straat.
+  rules:
+    en: The door leads to private apartments.
+    nl: De deur leidt naar particuliere appartementen.
+  access_note:
+    en: Borderline (a poor alley court, not a charitable foundation). The stone with a gunner firing a cannon sits over the door at no. 123; the houses behind were demolished in 1930.
+    nl: Grensgeval (een arm slop, geen liefdadigheidsstichting). De steen met een kanonnier zit boven de deur op nr. 123; de huisjes erachter zijn in 1930 gesloopt.
+  checked: Apr 2025
+  founded: 18th century (as an alley court)
+  founder: none (private alley)
+  homes: null
+  residents_now: None as a hofje
+  entrance_address: Rapenburgerstraat 123
+  lat: 52.368565
+  lng: 4.906897
+  sources:
+    - https://www.gevelstenenvanamsterdam.nl/rapenburgerstraat-123-amsterdam-bussenschut/ (read Nov 2026)
+    - https://arcam.nl/architectuur-gids/rapenburgerstraat-123/ (read Nov 2026; demolished 1930)
+    - https://www.joodsamsterdam.nl/bussenschuthofje/ (read Nov 2026)
+    - https://www.parool.nl/geschiedenis-van-amsterdam/achter-dit-fraaie-poortje-in-het-centrum-zitten-nu-luxeappartementen-maar-ooit-woonden-tientallen-arme-joodse-gezinnen-er-op-elkaars-lip~b1daec95/ (11 Apr 2025, headline)
+
+- id: null
+  title: Oude Doelenhofje
+  access: Closed
+  today: Unconfirmed
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Private.
+    nl: Privé.
+  access_note:
+    en: Borderline (an alley court off the Prinsenhofssteeg, gone before 1875); amsterdamhistorie.nl says its gate survives, not checked on site.
+    nl: Grensgeval (een gang aan de Prinsenhofssteeg, verdwenen voor 1875); volgens amsterdamhistorie.nl bestaat de poort nog, niet ter plekke gecontroleerd.
+  checked: Nov 2026
+  founded: "1560"
+  founder: unknown
+  homes: null
+  residents_now: None
+  entrance_address: Prinsenhofssteeg 4-5
+  lat: 52.371352
+  lng: 4.896074
+  sources:
+    - amsterdamhistorie.nl/hofjes (undated, via discovery notes)
+    - https://velehanden.nl/content/bestanden/index/name/Willem_Blok-Alfabetische_Lijst_van_Gangen_in_Amsterdam.pdf (Oude-Doelenhofje, Prinsenhofsteeg 4, vervallen; register 1853)
+
+- id: null
+  title: Schippershofje
+  access: Closed
+  today: Unconfirmed
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Private.
+    nl: Privé.
+  access_note:
+    en: Borderline (an alley court by the Oude Kerk, gone after 1935; the city's alley map lists it as private); amsterdamhistorie.nl says the entrance survives, not checked on site.
+    nl: Grensgeval (een gang bij de Oude Kerk, verdwenen na 1935; de gemeentelijke sloppenkaart noemt het privé); volgens amsterdamhistorie.nl bestaat de ingang nog, niet ter plekke gecontroleerd.
+  checked: Nov 2026
+  founded: unknown
+  founder: unknown
+  homes: null
+  residents_now: None
+  entrance_address: Oudekerksplein 24-26
+  lat: 52.374476
+  lng: 4.897258
+  sources:
+    - amsterdamhistorie.nl/hofjes (undated, via discovery notes)
+    - https://maps.amsterdam.nl/open_geodata/mid.php?KAARTLAAG=SLOPPEN&THEMA=sloppen (Klein Schippershof, Oudekerksplein 22-28, private)
+
+# ---------- Zuid ----------
+
+- id: rkrxrav283appy9y1s81jz3x
+  title: Fontainehofje, an almshouse that moved from the Keizersgracht
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open; only on occasional special days, none confirmed for 2026.
+    nl: Niet open; alleen op een enkele bijzondere dag, voor 2026 niets bevestigd.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: Six homes for women of 55 and over; the foundation's site (Sept 2025) gives no visiting information, and listing sites say it is usually closed except on days like Open Monumentendag.
+    nl: Zes woningen voor vrouwen van 55 en ouder; de site van de stichting (sept 2025) geeft geen bezoekersinformatie, en overzichtssites zeggen dat het meestal dicht is behalve op dagen als Open Monumentendag.
+  checked: Sep 2025
+  founded: 1753 (here 1913)
+  founder: see our text
+  homes: 6
+  residents_now: Women of 55 and over with small incomes
+  entrance_address: Valeriusstraat 198
+  lat: 52.352512
+  lng: 4.86223
+  sources:
+    - https://www.fontainehofje.nl/ (footer Sept 2025; women 55+ only)
+    - https://www.mapquest.com/nl/fontainehofje-527366193 (listing, lead)
+    - https://www.hofjesberaad.nl/fontainehofje (member, read Nov 2026)
+
+- id: null
+  title: Molenpage Stichting
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open; one house.
+    nl: Niet open; één huis.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: A single house with a front door on the Vossiusstraat, no court.
+    nl: Eén huis met een voordeur aan de Vossiusstraat, geen hof.
+  checked: Nov 2026
+  founded: "1922"
+  founder: Hendrina Maria Molenpage (will)
+  homes: 6 women incl. a warden
+  residents_now: Older Protestant women
+  entrance_address: Vossiusstraat 13
+  lat: 52.361065
+  lng: 4.88116
+  sources:
+    - https://hofjesinamsterdam.nl/molenpage-stichting/ (2018)
+    - https://www.hofjesberaad.nl/amsterdam (member list, Nov 2026)
+
+# ---------- Oost ----------
+
+- id: null
+  title: Holthuysenhofje
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: A low building with a long corridor; homes face the street or the back garden. Seen from the Oosterpark.
+    nl: Een laag gebouw met een lange gang; de woningen kijken uit op de straat of de achtertuin. Te zien vanaf het Oosterpark.
+  checked: 2018
+  founded: 1895 (built 1897)
+  founder: Sandrina Louise Geertruida Holthuysen, widow Willet (will)
+  homes: 21 (19 units and 2 two-room homes)
+  residents_now: Students and young people on low incomes
+  entrance_address: Oosterpark 6
+  lat: 52.359857
+  lng: 4.915975
+  sources:
+    - https://hofjesinamsterdam.nl/holthuysenhofje/ (2018)
+    - api.data.amsterdam.nl monument 200660 (calls the neighbour "nummer 5"; address to check)
+
+- id: null
+  title: Elisabeth Otter-Knoll Stichting (Dames Gesticht)
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Rented homes and a group home.
+    nl: Huurwoningen en een woongroep.
+  access_note:
+    en: The 1912 building stands (photos 2023); the foundation left in 1982 and the wings are let by a housing association. Seen from the Eikenplein.
+    nl: Het gebouw uit 1912 staat er nog (foto's 2023); de stichting vertrok in 1982 en een corporatie verhuurt de vleugels. Te zien vanaf het Eikenplein.
+  checked: 2023
+  founded: 1886 (will), building 1912
+  founder: Johanna Elisabeth Sophia Knoll (Otter-Knoll)
+  homes: 17 ladies (1912)
+  residents_now: Ymere tenants and a group home
+  entrance_address: Eikenplein 2
+  lat: 52.357999
+  lng: 4.921236
+  sources:
+    - https://hofjesinamsterdam.nl/elisabeth-otter-knoll-stichting/ (2018)
+    - commons:File:Eikenplein 2-22 (1).jpg (2023)
+    - api.data.amsterdam.nl monument 200707
+
+- id: null
+  title: Katharinahof (under construction)
+  access: Not visible
+  today: Unconfirmed
+  hours:
+    en: Not open; being built.
+    nl: Niet open; in aanbouw.
+  rules:
+    en: n/a
+    nl: n.v.t.
+  access_note:
+    en: Borderline (a new Lutheran diaconal hof on the Balistraat, in preparation in 2026); not yet a hofje to visit.
+    nl: Grensgeval (een nieuw luthers diaconaal hof aan de Balistraat, in voorbereiding in 2026); nog geen hofje om te bezoeken.
+  checked: Nov 2026
+  founded: 2020s
+  founder: Evangelisch-Lutherse Diaconie Amsterdam
+  homes: null
+  residents_now: n/a
+  entrance_address: Balistraat 104
+  lat: null
+  lng: null
+  sources:
+    - https://www.diaconie.com/hofjes-erfgoed/katharinahof (read Nov 2026)
+    - https://www.diaconie.com/hofjes-erfgoed/balistraat/oproep-voor-kwartiermakers (read Nov 2026)
+
+# ---------- West ----------
+
+- id: null
+  title: Catharinahofje
+  access: Open days only
+  today: Still a hofje
+  hours:
+    en: Open Tuinen West, Saturday 13 June 2026, 10:00 to 17:00 (route ticket); otherwise closed.
+    nl: Open Tuinen West, zaterdag 13 juni 2026, 10.00 tot 17.00 uur (routekaartje); verder dicht.
+  rules:
+    en: On the garden day with a route ticket; otherwise residents only.
+    nl: Op de tuinendag met een routekaartje; verder alleen voor bewoners.
+  access_note:
+    en: The gate on the Overtoom is shut on ordinary days; the garden opened for Open Tuinen West in June 2026 (garden 17).
+    nl: De poort aan de Overtoom is op gewone dagen dicht; de tuin was in juni 2026 open voor Open Tuinen West (tuin 17).
+  checked: Jun 2026
+  founded: 1889 (here 1906)
+  founder: Gerrit Fikkert Jzn and Alida Catharina Margaretha Fikkert
+  homes: 11 (10 houses and an overseer's house)
+  residents_now: Female students and a manager's family
+  entrance_address: Overtoom 224
+  lat: 52.361744
+  lng: 4.870797
+  sources:
+    - https://opentuinenwest.nl/startpunten (2026 edition, read Nov 2026; garden 17, entrance Overtoom 224, ticket 3.50 euro)
+    - https://www.hofjesberaad.nl/catharinahofje (read Nov 2026)
+    - https://hofjesinamsterdam.nl/catharinahofje/ (2018)
+
+- id: xf7as10xcgg1sm2mrmza3qtp
+  title: Lutherhof
+  access: Open days only
+  today: Still a hofje
+  hours:
+    en: Only on Open Monumentendag, the Open Tuinen garden day (13 June 2026, 10:00 to 17:00) and for architecture groups.
+    nl: Alleen op Open Monumentendag, Open Tuinen West (13 juni 2026, 10.00 tot 17.00 uur) en voor architectuurgroepen.
+  rules:
+    en: Residents only on other days.
+    nl: Op andere dagen alleen voor bewoners.
+  access_note:
+    en: 66 homes round an inner court behind the Staringplein front; the diaconate opens it only on these occasions.
+    nl: 66 woningen rond een binnenhof achter de gevel aan het Staringplein; de diaconie stelt het alleen op deze momenten open.
+  checked: Jun 2026
+  founded: 1907-1909 (successor of the Konijnenhofje of 1670)
+  founder: Evangelisch-Lutherse Diaconie
+  homes: 66
+  residents_now: Mixed, diaconal rental
+  entrance_address: Staringplein 9
+  lat: 52.360956
+  lng: 4.863384
+  sources:
+    - https://diaconie.com/hofjes-erfgoed/lutherhof/lutherhof-anbi/lutherhof-di (2025 report; visits only on OMD, Open Tuinen and architects' groups)
+    - https://diaconie.com/hofjes-erfgoed/lutherhof/lutherhof-achtergrond-en-praktische-informatie (read Nov 2026; 66 homes, applications closed)
+    - https://opentuinenwest.nl/startpunten (13 June 2026, garden 18)
+
+- id: null
+  title: Eendracht Anslo
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: Borderline (a 1970 flat of 30 units with a shared back garden on the Vondelpark, a hofje by function, not by form). Seen from the Overtoom.
+    nl: Grensgeval (een flat uit 1970 met 30 woningen en een gezamenlijke achtertuin aan het Vondelpark, een hofje naar functie, niet naar vorm). Te zien vanaf de Overtoom.
+  checked: Nov 2026
+  founded: 1789 (building 1970)
+  founder: Stichting Eendracht Anslo (Jan van Mekeren and Johanna Bontekoning; Claes Claesz Anslo)
+  homes: 30
+  residents_now: Older people on low incomes
+  entrance_address: Overtoom 295
+  lat: 52.360168
+  lng: 4.865971
+  sources:
+    - https://www.hofjesberaad.nl/stichting-eendracht-anslo (read Nov 2026)
+    - https://hofjesinamsterdam.nl/eendracht-anslo/ (2018)
+
+- id: d716qm824fx1khhiduv03uij
+  title: "Hugo de Groothof (former widows' foundation)"
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: A corridor building round an inner terrain, entered through its front doors; seen from the Eerste Hugo de Grootstraat. The diaconate still owns it and it is a member of the national hofjes association.
+    nl: Een gangengebouw rond een binnenterrein, met eigen voordeuren; te zien vanaf de Eerste Hugo de Grootstraat. De diaconie is nog eigenaar en het is lid van het Landelijk Hofjesberaad.
+  checked: Nov 2026
+  founded: 1882-1883
+  founder: Diaconate of the Nederduitsch Hervormde Gemeente
+  homes: 40 women and 100 children (originally)
+  residents_now: Diaconal tenants, incl. young people on diaconal projects
+  entrance_address: Eerste Hugo de Grootstraat 13
+  lat: 52.375862
+  lng: 4.874524
+  sources:
+    - https://www.hofjesberaad.nl/hugo-de-grootstraat (read Nov 2026)
+    - https://hofjesinamsterdam.nl/hugo-de-groothof/ (2018)
+
+- id: joijzov0dkzt6r2yzlcwc0na
+  title: "Widows' homes, Tweede Hugo de Grootstraat"
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Street rows; nothing to enter.
+    nl: Rijen aan de straat; niets om in te gaan.
+  rules:
+    en: Shops and homes.
+    nl: Winkels en woningen.
+  access_note:
+    en: Borderline (two facing street rows, no court). The memorial stones on no. 2 are seen from the street.
+    nl: Grensgeval (twee rijen tegenover elkaar aan de straat, geen hof). De gedenkstenen op nr. 2 zie je vanaf de straat.
+  checked: Nov 2026
+  founded: "1880"
+  founder: Protestantsch Weduwen- en Weezenfonds
+  homes: null
+  residents_now: Ordinary tenants
+  entrance_address: Tweede Hugo de Grootstraat 2-18
+  lat: 52.374344
+  lng: 4.874674
+  sources:
+    - our place text (municipal monument 223038)
+
+- id: null
+  title: Anna Maria Stichting
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Ordinary rented homes.
+    nl: Gewone huurwoningen.
+  access_note:
+    en: Since 2001 ordinary homes of a housing association; only the stone over the entrance recalls the hofje.
+    nl: Sinds 2001 gewone corporatiewoningen; alleen de steen boven de ingang herinnert aan het hofje.
+  checked: Sep 2025
+  founded: 1894 (built 1895)
+  founder: Anna and Maria Insinger
+  homes: 22
+  residents_now: Ordinary tenants (Ymere)
+  entrance_address: De Wittenstraat 73
+  lat: 52.382946
+  lng: 4.878418
+  sources:
+    - https://amsterdamopdekaart.nl/1850-1940/De_Wittenstraat/Anna_Maria_Stichting (Sept 2025)
+    - https://hofjesinamsterdam.nl/hello-world/ (2018)
+    - https://oblivionsoave.wordpress.com/2023/11/17/monumenten-in-de-staatsliedenbuurt-19-de-wittenstraat-73-anna-maria-stichting/ (17 Nov 2023)
+
+- id: h9bk063jmavwrtwvabkhw2wc
+  title: Remonstrant almshouse, Van Hallstraat 51
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: The garden is reached through the central front door; residents are students and starters. Seen from the Van Hallstraat.
+    nl: De tuin bereik je via de centrale voordeur; er wonen studenten en starters. Te zien vanaf de Van Hallstraat.
+  checked: 2018
+  founded: 1882 (building 1910)
+  founder: Everdina de Lanoy (bequest to the Remonstrant congregation)
+  homes: 28 (originally)
+  residents_now: Students and starters
+  entrance_address: Van Hallstraat 51
+  lat: 52.383168
+  lng: 4.870736
+  sources:
+    - https://hofjesinamsterdam.nl/everdina-de-lanoyhof/ (2018)
+    - api.data.amsterdam.nl monument 200757 (central entrance opens to the building and the inner garden)
+
+- id: xh9c374cb2fk2degk6z1coyp
+  title: P.W. Janssenhofje
+  access: Closed
+  today: Still a hofje
+  hours:
+    en: No public hours found.
+    nl: Geen openingstijden gevonden.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: Residents over 55; no visitor information found anywhere. Seen from the Da Costastraat.
+    nl: Bewoners boven de 55; nergens bezoekersinformatie gevonden. Te zien vanaf de Da Costastraat.
+  checked: 2018
+  founded: "1894"
+  founder: Peter Wilhelm Janssen (Nederlandsch-Duitsche Stichting)
+  homes: null
+  residents_now: Single people over 55
+  entrance_address: Da Costastraat 38-58
+  lat: 52.368894
+  lng: 4.873959
+  sources:
+    - https://hofjesinamsterdam.nl/p-w-janssenhof/ (2018)
+    - Google Maps listing (read Nov 2026; no hours, no reviews)
+
+- id: k6irx6ilchydtiwy4qrgb2yz
+  title: Gijsbert Bakker hofje (Reinier Claeszenplein)
+  access: Closed
+  today: No longer a hofje
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Ordinary rented flats.
+    nl: Gewone huurwoningen.
+  access_note:
+    en: A gallery block reached through its main door; the inner garden is for residents. The foundation's name is still over the entrance.
+    nl: Een galerijgebouw met een hoofdingang; de binnentuin is voor bewoners. De naam van de stichting staat nog boven de ingang.
+  checked: 2018
+  founded: 1933 (foundation 1819)
+  founder: Stichting Gijsbert Bakker
+  homes: 30
+  residents_now: Ordinary tenants
+  entrance_address: Reinier Claeszenplein 1-59
+  lat: 52.374151
+  lng: 4.861357
+  sources:
+    - https://hofjesinamsterdam.nl/reinier-claeszenhof/ (2018; all property sold, now ordinary rentals)
+    - api.data.amsterdam.nl monument 200685
+
+- id: null
+  title: Gijsbert Bakker house, Fokke Simonszstraat 1
+  access: Closed
+  today: A trace left
+  hours:
+    en: Now a budget hotel.
+    nl: Nu een budgethotel.
+  rules:
+    en: Hotel.
+    nl: Hotel.
+  access_note:
+    en: Borderline (a single house of 1905 for Catholic widows and single women); only a stone with 1819-1905 over the entrance recalls it.
+    nl: Grensgeval (één huis uit 1905 voor katholieke weduwen en ongehuwde vrouwen); alleen een steen met 1819-1905 boven de ingang herinnert eraan.
+  checked: 2018
+  founded: "1905"
+  founder: Stichting Gijsbert Bakker
+  homes: null
+  residents_now: None (hotel)
+  entrance_address: Fokke Simonszstraat 1
+  lat: null
+  lng: null
+  sources:
+    - https://hofjesinamsterdam.nl/reinier-claeszenhof/ (2018; now Budgethotel Euphemia)
+
+- id: null
+  title: Gijsbert Bakker houses, Postjesweg 115 (Nieuw Vredenburgh)
+  access: Closed
+  today: Unconfirmed
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Homes.
+    nl: Woningen.
+  access_note:
+    en: Borderline (a 1938 block for couples and single women, part of the Nieuw Vredenburgh complex after a 1985 renovation); current form not checked.
+    nl: Grensgeval (een blok uit 1938 voor echtparen en alleenstaande vrouwen, na een renovatie in 1985 deel van Nieuw Vredenburgh); huidige vorm niet gecontroleerd.
+  checked: 2018
+  founded: "1938"
+  founder: Stichting Gijsbert Bakker
+  homes: null
+  residents_now: Unknown
+  entrance_address: Postjesweg 115
+  lat: null
+  lng: null
+  sources:
+    - https://hofjesinamsterdam.nl/reinier-claeszenhof/ (2018)
+
+- id: gxemo5tow9g7d4xgkvq3c7kf
+  title: Augustanakerk, a Lutheran church turned hofje
+  access: Open at set times
+  today: Still a hofje
+  hours:
+    en: Chapel open to everyone 15:00 to 16:00; the silence garden is open to visitors and passers-by.
+    nl: Kapel voor iedereen open van 15.00 tot 16.00 uur; de stiltetuin is open voor bezoekers en voorbijgangers.
+  rules:
+    en: Quiet in the garden and chapel.
+    nl: Stilte in tuin en kapel.
+  access_note:
+    en: The church on the Erasmusgracht holds 16 social-rent homes; its chapel opens daily for an hour and the silence garden is open to passers-by.
+    nl: De kerk aan de Erasmusgracht heeft 16 sociale huurwoningen; de kapel is dagelijks een uur open en de stiltetuin is toegankelijk voor voorbijgangers.
+  checked: Nov 2026
+  founded: 2017 (as a hofje)
+  founder: Evangelisch-Lutherse Diaconie
+  homes: 16
+  residents_now: Mixed, low incomes
+  entrance_address: Erasmusgracht 24-28
+  lat: 52.376848
+  lng: 4.853327
+  sources:
+    - https://www.diaconie.com/hofjes-erfgoed/augustanahof (read Nov 2026)
+    - https://www.diaconie.com/augustanahof-praktische-informatie (read Nov 2026)
+    - https://www.hofjesberaad.nl/augustanahof (member)
+
+# ---------- Noord (borderline: municipal housing for the elderly round a green) ----------
+
+- id: w8ckwk50pz251fg61q936eme
+  title: "Old people's houses, Kometensingel"
+  access: Open daily
+  today: No longer a hofje
+  hours:
+    en: Public street and lawn, always.
+    nl: Openbare straat en grasveld, altijd.
+  rules:
+    en: Homes; stay on the public side.
+    nl: Woningen; blijf aan de openbare kant.
+  access_note:
+    en: Borderline (1937 housing-society U-court, not a foundation hofje; no longer reserved for the elderly). The U opens onto a public green.
+    nl: Grensgeval (U-vormig complex van een woningbouwvereniging uit 1937, geen stichtingshofje; niet meer alleen voor ouderen). De U opent naar een openbaar grasveld.
+  checked: Nov 2026
+  founded: "1937"
+  founder: Algemene Woningbouw Vereniging
+  homes: null
+  residents_now: Ordinary tenants
+  entrance_address: Kometensingel 439-485
+  lat: 52.412304
+  lng: 4.883688
+  sources:
+    - our place text (municipal monument 200716)
+
+- id: at4e6fljswsat7v395m6mrec
+  title: "Old people's houses, Monnikendammerplantsoen"
+  access: Open daily
+  today: Unconfirmed
+  hours:
+    en: Public square, always.
+    nl: Openbaar plantsoen, altijd.
+  rules:
+    en: Homes; the back gardens behind the gatehouses are private.
+    nl: Woningen; de achtertuinen achter de poortjes zijn privé.
+  access_note:
+    en: Borderline (1931-1933 municipal homes for the elderly round a public green); whether they are still let to older people was not checked.
+    nl: Grensgeval (gemeentelijke ouderenwoningen uit 1931-1933 rond een openbaar plantsoen); of ze nog aan ouderen worden verhuurd, is niet gecontroleerd.
+  checked: Nov 2026
+  founded: 1931-1933
+  founder: Gemeentelijke Woningdienst
+  homes: 56
+  residents_now: Unknown
+  entrance_address: Monnikendammerplantsoen 13-45
+  lat: 52.390007
+  lng: 4.949768
+  sources:
+    - our place text (rijksmonumenten 508383-508389)
+
+# ---------- Weesp ----------
+
+- id: igy1tvh3ics1npsd1nc5y25k
+  title: Stadhuis Weesp and St. Bartholomeus Gasthuis
+  access: Open at set times
+  today: No longer a hofje
+  hours:
+    en: The town hall's hall and cells are open during museum hours; the gasthuis wings are seen from the Gasthuissteeg and Schoolsteeg.
+    nl: Hal en cellen van het stadhuis zijn open tijdens museumuren; de gasthuisvleugels zie je vanaf de Gasthuissteeg en de Schoolsteeg.
+  rules:
+    en: Museum rules.
+    nl: Museumregels.
+  access_note:
+    en: Borderline (a gasthuis, hospice and orphanage until 1954, not a hofje). No historic foundation hofje was found in Weesp.
+    nl: Grensgeval (een gasthuis, tot 1954 hospitaal en weeshuis, geen hofje). In Weesp is geen historisch stichtingshofje gevonden.
+  checked: Nov 2026
+  founded: medieval (wings 1623 and 1650)
+  founder: town of Weesp
+  homes: null
+  residents_now: None
+  entrance_address: Nieuwstraat 41-43, Weesp
+  lat: 52.306708
+  lng: 5.042824
+  sources:
+    - our place text
+    - https://www.dbnl.org/tekst/_voo016voor05_01/_voo016voor05_01_0130.php (chronology: St. Bartholomeusgasthuis south wing c. 1650)
+
+- id: null
+  title: Landscronerhof (Weespersluis)
+  access: Closed
+  today: Unconfirmed
+  hours:
+    en: Not open.
+    nl: Niet open.
+  rules:
+    en: Residents only.
+    nl: Alleen voor bewoners.
+  access_note:
+    en: Borderline (new-build courtyard housing for older people marketed as a "hofje"); not a historic hofje.
+    nl: Grensgeval (nieuwbouw rond een hof voor ouderen, als "hofje" in de markt gezet); geen historisch hofje.
+  checked: Nov 2026
+  founded: 2020s
+  founder: developer
+  homes: null
+  residents_now: Older people
+  entrance_address: Weespersluis, Weesp
+  lat: null
+  lng: null
+  sources:
+    - discovery notes (Landscronerhof, AM project)

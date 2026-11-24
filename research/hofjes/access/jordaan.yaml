@@ -1,0 +1,593 @@
+# Hofjes access, slice jordaan (Jordaan and Haarlemmerbuurt). One entry per hofje.
+# "Open daily" with hours "by day" means: the gate is reported open in the daytime, but
+# no hours are posted. Those entries are also listed as unsure in notes/jordaan.md.
+# Sources: G = Google Maps (reviews and dated user photos, read 24 Nov 2026; "a month ago"
+# is converted to a month); AOS = amsterdamoudestad.nl hofjes page (undated, read
+# 24 Nov 2026); HIA = hofjesinamsterdam.nl (posts of July 2018); WJGR = Wijkkrant Jordaan &
+# Gouden Reael; XO = XO Hotels "12 hofjes" walk PDF (Feb 2023).
+
+- id: inre216aswcgsiueto25za5o
+  title: Sint Andrieshofje
+  today: Still a hofje
+  access: Open at set times
+  hours:
+    en: Monday to Saturday 10:00 to 17:00; closed on Sunday
+    nl: maandag tot en met zaterdag 10.00 tot 17.00 uur; zondag gesloten
+  rules:
+    en: Residents' homes; keep quiet
+    nl: Bewoond hofje; wees stil
+  access_note:
+    en: The plain door at Egelantiersgracht 107 opens onto a tiled passage and the garden court, which has two information panels; sources disagree on the exact hours (see notes).
+    nl: De eenvoudige deur op Egelantiersgracht 107 geeft toegang tot een betegelde gang en de tuin, waar twee informatiebordjes staan; over de precieze tijden zijn de bronnen het niet eens (zie notities).
+  checked: 2026-10
+  founded: 1614 (will), built 1617
+  founder: Ivo Gerritsz. (bequest), on land given by Jan Jansz. Oly
+  homes: null
+  residents_now: single women
+  entrance_address: Egelantiersgracht 107
+  lat: 52.375582
+  lng: 4.880358
+  sources:
+    - "https://www.google.com/maps/place/Sint+Andrieshofje (review about Oct 2026: 'Public entry 10-5 Monday-Saturday, closed Sundays'; user photos inside the court, May 2026 and Oct 2026)"
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated, read Nov 2026: dagelijks 10.00 tot 17.00)"
+    - "https://xohotels.com/wp-content/uploads/2023/02/12-hofjes-EN.pdf (Feb 2023: Monday to Saturday 9:00 to 18:00)"
+    - "https://hofjesinamsterdam.nl/sint-andrieshofje/ (2018: residents women)"
+
+- id: ju9b1flv3xggsmzq3728y1nl
+  title: Claes Claesz. Hofje (Anslo's Hofje)
+  today: Still a hofje
+  access: Open daily
+  hours:
+    en: By day; no posted hours
+    nl: Overdag; geen tijden aangegeven
+  rules:
+    en: Residents' homes; keep quiet
+    nl: Bewoond hofje; wees stil
+  access_note:
+    en: Enter from the Eerste Egelantiersdwarsstraat; the complex has four small courts, including those of the former Anslo's Hofje and Zwaardvegershofje. The old Zwaardvegershofje door at Tuinstraat 35-37 stays shut.
+    nl: Ingang aan de Eerste Egelantiersdwarsstraat; het complex telt vier binnenplaatsjes, waaronder die van het vroegere Anslo's Hofje en het Zwaardvegershofje. De oude deur van het Zwaardvegershofje op Tuinstraat 35-37 blijft dicht.
+  checked: 2026-06
+  founded: 1616 (will of 30 March 1616); present complex restored 1968 to 1973
+  founder: Claes Claesz. and Griet Jans
+  homes: null
+  residents_now: artists and students
+  entrance_address: Eerste Egelantiersdwarsstraat 1-5
+  lat: 52.377144
+  lng: 4.884055
+  sources:
+    - "https://www.google.com/maps/place/Claes+Claeszhofje (review about Jun 2026: 'Nice to walk through')"
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated, read Nov 2026: open, openingstijden onbekend; Tuinstraat 35-37 door shut)"
+    - "https://hofjesinamsterdam.nl/claes-claesz-hofje/ (2018: four courts, artists and students)"
+
+- id: fia5m9yguy1c0xc03if3emwk
+  title: Karthuizerhof, the city's widows' court on a monastery site
+  today: No longer a hofje
+  access: Open daily
+  hours:
+    en: Every day 10:00 to 20:00
+    nl: Dagelijks 10.00 tot 20.00 uur
+  rules:
+    en: No groups; keep quiet, people live here
+    nl: Geen groepen; wees stil, er wordt gewoond
+  access_note:
+    en: Gateways in the long street wing on the Karthuizersstraat lead into the big court with its two 17th-century pumps; a rules board stands at the entrance.
+    nl: Poorten in de lange straatvleugel aan de Karthuizersstraat geven toegang tot het grote plein met de twee 17e-eeuwse pompen; bij de ingang staat een bord met huisregels.
+  checked: 2026-09
+  founded: 1650
+  founder: City of Amsterdam (Huiszittenmeesters); architect Daniel Stalpaert
+  homes: 65
+  residents_now: mixed (social rented homes; residents' cooperative)
+  entrance_address: Karthuizersstraat 89-171
+  lat: 52.378769
+  lng: 4.881731
+  courtyard_lat: 52.378861
+  courtyard_lng: 4.882097
+  sources:
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated, read Nov 2026: dagelijks 10.00 tot 20.00, geen groepen)"
+    - "https://www.google.com/maps/place/Co%C3%B6peratieve+Vereniging+Karthuizerhof (review about Sep 2026: 'definitely worth a visit. Do be quiet though'; user photo Aug 2022 of a rules sign at the entrance)"
+
+- id: gudu912zn7rlnwv1i5ex5rwl
+  title: Raepenhofje and Bossche Hofje, two hofjes bought on one day
+  hofje: Raepenhofje
+  today: Still a hofje
+  access: Open daily
+  hours:
+    en: By day; the gate is locked at night; no posted hours
+    nl: Overdag; 's nachts gaat de poort op slot; geen tijden aangegeven
+  rules:
+    en: Residents' homes; keep quiet
+    nl: Bewoond hofje; wees stil
+  access_note:
+    en: Walk in through the gate under the turnip keystone at Palmgracht 28. One visitor found it closed for renovation in spring 2026.
+    nl: Loop naar binnen door de poort onder de sluitsteen met de raap op Palmgracht 28. Een bezoeker trof het in het voorjaar van 2026 gesloten aan wegens renovatie.
+  checked: 2026-05
+  founded: 1648
+  founder: Pieter Adriaensz. Raep
+  homes: 10 (six houses, originally twelve one-room homes; four merged into two)
+  residents_now: young women, mostly students
+  entrance_address: Palmgracht 28
+  lat: 52.382262
+  lng: 4.88381
+  sources:
+    - "https://jordaangoudenreael.nl/documenten/00000221.pdf (WJGR February 2026, walk: 'Loop op de Palmgracht nr. 28-38 het Raepenhofje in')"
+    - "https://www.google.com/maps/place/Het+Raepenhofje (review about May 2026: 'Closed for renovations')"
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated, read Nov 2026: open, tijden onbekend; poort 's nachts op slot)"
+    - "https://www.raepenhofje.nl/hofje/geschiedenis and /contact (read Nov 2026: six houses, twelve homes, in the 1990s four made into two; young women, mostly students; waiting list closed)"
+
+- id: gudu912zn7rlnwv1i5ex5rwl
+  title: Raepenhofje and Bossche Hofje, two hofjes bought on one day
+  hofje: Bossche Hofje
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open; its garden is seen across the low hedge from the Raepenhofje court
+    nl: Niet open; de tuin is vanaf het Raepenhofje over de lage heg te zien
+  rules:
+    en: Private homes
+    nl: Particuliere woningen
+  access_note:
+    en: The Bossche Hofje has its own entrance at Palmgracht 20-26 and belongs to Vereniging Hendrick de Keyser; its four residents share the garden with the Raepenhofje.
+    nl: Het Bossche Hofje heeft een eigen ingang op Palmgracht 20-26 en is van Vereniging Hendrick de Keyser; de vier bewoonsters delen de tuin met het Raepenhofje.
+  checked: 2023-11
+  founded: 1648
+  founder: Arend Dirckszoon Bosch
+  homes: 4
+  residents_now: women
+  entrance_address: Palmgracht 20-26
+  lat: 52.382302
+  lng: 4.883909
+  sources:
+    - "https://jordaangoudenreael.nl/documenten/00000204.pdf (WJGR November 2023: owned by Hendrick de Keyser; the two hofjes share one plot, each with its own entrance)"
+    - "https://hofjesinamsterdam.nl/bossche-hofje/ (2018: four women; 1997 transfer to Hendrick de Keyser)"
+
+- id: sfm0u42utmgcozlwa5jmtabq
+  title: Suyckerhoff-hofje, behind a deep passage
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open to the public; only on special occasions
+    nl: Niet openbaar; alleen bij bijzondere gelegenheden
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: The gable stone over the passage door on the Lindengracht is what you see; recent visitors found the door shut. Older guides (2023) said it was open on weekdays.
+    nl: Je ziet de gevelsteen boven de deur van de gang aan de Lindengracht; recente bezoekers vonden de deur dicht. Oudere gidsen (2023) noemden het op werkdagen open.
+  checked: 2025
+  founded: 1667 (will), built 1670 to 1678
+  founder: Pieter Jansz. Suyckerhoff
+  homes: 19 (15 according to AOS)
+  residents_now: women
+  entrance_address: Lindengracht 149
+  lat: 52.379738
+  lng: 4.883394
+  sources:
+    - "https://www.google.com/maps/place/Suykerhofje (two reviews of about 2025: 'only open to the public on special occasions'; 'Not open publicly')"
+    - "https://xohotels.com/wp-content/uploads/2023/02/12-hofjes-EN.pdf (Feb 2023: open weekdays, closed Saturday and Sunday)"
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated: dagelijks, openingstijden onbekend; 15 woningen)"
+
+- id: y214ajrmw7hwfhpyktchlpmy
+  title: Lindenhofje, from Mennonite widows to young care workers
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open to visitors
+    nl: Niet te bezoeken
+  rules:
+    en: Private flats
+    nl: Particuliere woningen
+  access_note:
+    en: The courtyard lies behind the left-hand door under the name cartouche; since June 2024 it houses 21 flats, mostly for young care workers.
+    nl: De binnenplaats ligt achter de linkerdeur onder de naamcartouche; sinds juni 2024 telt het hofje 21 appartementen, vooral voor jonge zorgmedewerkers.
+  checked: 2024-06
+  founded: 1616
+  founder: Waterland Mennonites; from 1801 the R.C. Oude Armen Kantoor
+  homes: 21
+  residents_now: young people working in elderly care
+  entrance_address: Lindengracht 94-112
+  lat: 52.380475
+  lng: 4.885339
+  sources:
+    - "https://rcoak.nl/officiele-opening-lindenhofje-op-12-juni-2024/ (June 2024)"
+    - "https://jordaangoudenreael.nl/documenten/00000206.pdf (WJGR 2024 no. 1: RCOAK lets it to people working in elderly care)"
+
+- id: mm0ajp1ubrzilto1l74y4h7x
+  title: Regenboogs Liefdehofje, from Catholic elderly to music students
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open to visitors
+    nl: Niet te bezoeken
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: A high wall and the carved gate stone on the Tuinstraat are all you see; the narrow yard behind is private.
+    nl: Je ziet de hoge muur en de bewerkte poortsteen aan de Tuinstraat; de smalle binnenplaats erachter is privé.
+  checked: 2023-02
+  founded: 1806 (buildings of 1884)
+  founder: Joannes Baptista van Aerde (estate)
+  homes: null
+  residents_now: music students
+  entrance_address: Tuinstraat 100
+  lat: 52.37722
+  lng: 4.882894
+  sources:
+    - "https://xohotels.com/wp-content/uploads/2023/02/12-hofjes-EN.pdf (Feb 2023: you cannot enter)"
+    - "https://hofjesinamsterdam.nl/regenboogs-liefdehofje/ (2018: music students)"
+
+- id: q3csqmbep6m551bag3q42zrf
+  title: Hofje De Zeven Keurvorsten, a joke that became a name
+  today: Still a hofje
+  access: Open daily
+  hours:
+    en: By day, usually; no posted hours
+    nl: Overdag meestal; geen tijden aangegeven
+  rules:
+    en: Residents' homes; keep quiet
+    nl: Bewoond hofje; wees stil
+  access_note:
+    en: The front door looks shut, but by day it is usually open; the rules of the old foundation hang in the passage.
+    nl: De voordeur lijkt dicht, maar overdag is het hofje meestal open; in de gang hangt het oude reglement.
+  checked: 2023-02
+  founded: about 1645
+  founder: Cornelis Martsz. Pronck (or his son)
+  homes: 12
+  residents_now: women over 50 on a low income (social housing, Ymere)
+  entrance_address: Tuinstraat 197
+  lat: 52.376325
+  lng: 4.879688
+  sources:
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated, read Nov 2026: 'overdag is het hofje meestal open'; reglement in de gang)"
+    - "https://xohotels.com/wp-content/uploads/2023/02/12-hofjes-EN.pdf (Feb 2023: open)"
+    - "https://hofjesinamsterdam.nl/hofje-de-zeven-keurvorsten/ (2018: women over 50 on a low income)"
+
+- id: da5cxlxl8mu9tw3n3gyzuac1
+  title: Concordia on the Westerstraat, Peace be to this house
+  today: No longer a hofje
+  access: Closed
+  hours:
+    en: No published access
+    nl: Geen openstelling bekend
+  rules:
+    en: Residents' court
+    nl: Binnenhof van bewoners
+  access_note:
+    en: The corner door with its Bible text and the Westerstraat gateway with tile pictures are seen from the street; whether the inner court is open by day is not documented.
+    nl: De hoekdeur met de bijbeltekst en de poort aan de Westerstraat met tegeltableaus zie je vanaf de straat; of de binnenplaats overdag open is, is nergens vastgelegd.
+  checked: null
+  founded: 1862
+  founder: Henrick Samuel van Lennep; architect P.J. Hamer
+  homes: 72 (as built)
+  residents_now: mixed (social rented homes, Ymere)
+  entrance_address: Westerstraat 327-405, Lijnbaansgracht 63-65
+  lat: 52.377475
+  lng: 4.879514
+  sources:
+    - "https://nl.wikipedia.org/wiki/Concordia_Noordwest (cross-check: 72 homes, 1862, Ymere; this is Concordia Noordwest, not the Concordiahof at Westerstraat 215-295)"
+
+- id: null
+  title: Concordiahof Noord, workers' courts off the Westerstraat
+  today: No longer a hofje
+  access: Open daily
+  hours:
+    en: By day; no posted hours
+    nl: Overdag; geen tijden aangegeven
+  rules:
+    en: Residents' court; keep quiet
+    nl: Binnenhof van bewoners; wees stil
+  access_note:
+    en: A gateway at Westerstraat 221 (and others on the Westerstraat and Anjeliersstraat) leads into two quiet green courts; a noticeboard says it is a monument.
+    nl: Een poort bij Westerstraat 221 (en andere aan de Westerstraat en de Anjeliersstraat) leidt naar twee stille groene binnenhoven; een bord meldt dat het een monument is.
+  checked: 2025
+  founded: 1864 to 1876
+  founder: Henrick Samuel van Lennep; Bouwmaatschappij Concordia; architect P.J. Hamer
+  homes: null
+  residents_now: mixed (social rented homes, Ymere)
+  entrance_address: Westerstraat 221
+  lat: 52.377805
+  lng: 4.880993
+  sources:
+    - "https://www.google.com/maps/place/Concordiahofje+Noord (reviews about 2024 and 2025 from inside the court)"
+    - "https://data.amsterdam.nl/monumenten/920a22b9-e8d3-4a98-a5c2-f4f97d7ce6f1 (register text 209002: green inner courts with pumps, gas lamps and bleaching fields, linked to the street by passages)"
+    - "https://hofjesinamsterdam.nl/concordiahofje-noord/ (2018: Westerstraat 221-289, ordinary rented homes, Ymere)"
+    - "https://xohotels.com/wp-content/uploads/2023/02/12-hofjes-EN.pdf (Feb 2023: Concordia Noord, Westerstraat 221-289, walk in through the gate)"
+
+- id: csqyprfyswstq5ykpx1wxbdd
+  title: Constantiahofje, free homes for loyal old workmen
+  today: No longer a hofje
+  access: Open daily
+  hours:
+    en: By day; no posted hours
+    nl: Overdag; geen tijden aangegeven
+  rules:
+    en: Residents' court; keep quiet
+    nl: Binnenhof van bewoners; wees stil
+  access_note:
+    en: The central gateway on the Willemsstraat leads into a green court with trees and residents' plants.
+    nl: De middelste poort aan de Willemsstraat leidt naar een groene hof met bomen en planten van de bewoners.
+  checked: 2026-06
+  founded: 1863
+  founder: Josua van Eik (Stichting voor den Ambachtsstand); architect P.J. Hamer
+  homes: null (36 as built, merged in the 1980s)
+  residents_now: mixed (social rented homes)
+  entrance_address: Willemsstraat 159
+  lat: 52.38055
+  lng: 4.881858
+  sources:
+    - "https://www.google.com/maps/place/Constantiahofje (user photos taken inside the court, June 2026)"
+    - "https://xohotels.com/wp-content/uploads/2023/02/12-hofjes-EN.pdf (Feb 2023: gate open)"
+
+- id: bt6m9smuolq464mgt4vombnu
+  title: Hofje Venetiae
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open to visitors
+    nl: Niet te bezoeken
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: The street door at Elandsstraat 106 has a bell panel for nos. 110 to 134 and a VENETIAE name plate; the back entrance at Lauriergracht 97 is no longer used.
+    nl: De voordeur op Elandsstraat 106 heeft een belpaneel voor nr. 110 tot en met 134 en een naambordje VENETIAE; de achteringang op Lauriergracht 97 is niet meer in gebruik.
+  checked: 2025-07
+  founded: 1650
+  founder: Jacob Stoffels
+  homes: 30
+  residents_now: women round the court, men in the street houses
+  entrance_address: Elandsstraat 106
+  lat: 52.370258
+  lng: 4.879626
+  sources:
+    - "https://www.google.com/maps/place/Hofje+Venetiae (user photo Jul 2025 of the closed street door with bell panel)"
+    - "https://hofjesinamsterdam.nl/hofje-venetiae/ (2018: 'vroeger was er een achteruitgang op de Lauriergracht 97')"
+
+- id: gqhvrldm2saiwl67elziy41u
+  title: Hof van Parijs
+  today: No longer a hofje
+  access: Closed
+  hours:
+    en: Seen through the railing from the street
+    nl: Door het hek vanaf de straat te zien
+  rules:
+    en: Residents' court
+    nl: Binnenhof van bewoners
+  access_note:
+    en: The U-shaped court opens to the Elandsstraat behind a wrought-iron railing, so the whole of it can be seen from the pavement; photos taken inside (2023) suggest the gate is not always locked.
+    nl: Het U-vormige hof ligt open naar de Elandsstraat achter een smeedijzeren hek, zodat je het vanaf de stoep helemaal overziet; foto's van binnenuit (2023) doen vermoeden dat het hek niet altijd op slot is.
+  checked: 2026-09
+  founded: 1858 (purchase); present court 1903
+  founder: C.P. van Eeghen; Bouwmaatschappij Concordia; architect P.J. Hamer
+  homes: 36
+  residents_now: mixed (rented homes)
+  entrance_address: Elandsstraat 160-182
+  lat: 52.370109
+  lng: 4.87832
+  sources:
+    - "https://www.google.com/maps/place/Hof+van+Parijs (user photo inside the court, Jun 2023; review about Sep 2026)"
+
+- id: whv0ndekjzu9ak6cv8wv3on8
+  title: Concordia's hofje of workers' homes on the Lijnbaansgracht
+  today: No longer a hofje
+  access: Closed
+  hours:
+    en: No published access
+    nl: Geen openstelling bekend
+  rules:
+    en: Residents' yard
+    nl: Binnenterrein van bewoners
+  access_note:
+    en: The blocks are seen from the Elandsstraat, Lijnbaansgracht and Lijnbaansstraat; the garden behind (with a back way out on the Lijnbaansstraat) is the residents'.
+    nl: De blokken zie je vanaf de Elandsstraat, de Lijnbaansgracht en de Lijnbaansstraat; de tuin erachter (met een achteruitgang aan de Lijnbaansstraat) is van de bewoners.
+  checked: null
+  founded: 1858 to 1860, extended 1876 and 1897
+  founder: C.P. van Eeghen; Bouwmaatschappij Concordia; architects P.J. Hamer, A.P. Timmers
+  homes: null
+  residents_now: mixed (rented homes)
+  entrance_address: Elandsstraat 183-197
+  lat: 52.369659
+  lng: 4.878326
+  sources:
+    - "https://hofjesinamsterdam.nl/concordiahofje-zuid/ (2018: garden with back exit on the Lijnbaansstraat; ordinary rented homes)"
+    - "https://jordaangoudenreael.nl/documenten/00000092.pdf (WJGR Dec 2005: closed at night for some years because of drunks from nearby bars)"
+
+- id: ef8j0vovtsq9212cqzxoxn5r
+  title: Platanenhof, the Catholic boys' orphanage
+  today: No longer a hofje
+  access: Open days only
+  hours:
+    en: Normally not accessible; open for a free Sunday hofjes concert in summer (9 August 2026, 15:00)
+    nl: Normaal niet toegankelijk; open bij een gratis hofjesconcert op een zomerse zondag (9 augustus 2026, 15.00 uur)
+  rules:
+    en: Private homes, day nursery and theatre; the concert venue is not wheelchair accessible
+    nl: Particuliere woningen, kinderdagverblijf en theater; de concertlocatie is niet rolstoeltoegankelijk
+  access_note:
+    en: The courtyard with its plane trees and clock is normally closed; the Elandsstraat and Lauriergracht fronts are seen from the street. On concert afternoons the court opens through Lauriergracht 99-103.
+    nl: De binnenplaats met de platanen en de klok is normaal dicht; de gevels aan de Elandsstraat en de Lauriergracht zie je vanaf de straat. Op concertmiddagen is de binnenplaats open via Lauriergracht 99-103.
+  checked: 2026-06
+  founded: 1686 (orphanage)
+  founder: Amsterdam Catholics; architect Steven Vennecool
+  homes: 22
+  residents_now: mixed (rented homes)
+  entrance_address: Lauriergracht 99c-105 / Elandsstraat 152-156
+  lat: 52.370039
+  lng: 4.87885
+  sources:
+    - "https://jordaangoudenreael.nl/documenten/00000224.pdf (WJGR June 2026: hofjes concerts reach places 'die normaal niet toegankelijk zijn voor buitenstaanders. Zoals het prachtige Platanenhofje')"
+    - "https://www.hofjesconcertenadam.nl/Programma (2026 programme, read Nov 2026: 'Zondag 9 augustus, Carmen Gomes Inc., Platanenhof, Lauriergracht 99-103 (Deze locatie is niet rolstoeltoegankelijk)')"
+
+- id: k5btdtobpr1rpiq6anus18jw
+  title: Rozenhofje, an almshouse on an old pleasure maze
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open; in past years on Open Monumentendag and for a summer hofjes concert
+    nl: Niet open; in vroegere jaren op Open Monumentendag en bij een hofjesconcert
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: The 1884 gate building with the rose medallion is seen from the Rozengracht; the court is not open, and it was not in the 2026 Open Monumentendag programme.
+    nl: Het poortgebouw uit 1884 met de roos in een medaillon zie je vanaf de Rozengracht; de binnentuin is niet open, en in 2026 deed het hofje niet mee aan Open Monumentendag.
+  checked: 2026-09
+  founded: 1740 (will), first residents 1744
+  founder: Jan de Jager (bequest); Kas van Collegianten
+  homes: 28
+  residents_now: women over 50, preferably Mennonite
+  entrance_address: Rozengracht 163
+  lat: 52.372337
+  lng: 4.878192
+  sources:
+    - "https://www.openmonumentendag.nl/waar-wil-je-naartoe/?search_value=Amsterdam (2026 Amsterdam programme, 50 sites, no Jordaan hofje; read Nov 2026)"
+    - "https://www.jordaanweb.nl (undated: open only on Open Monumentendag)"
+    - "https://hofjesinamsterdam.nl/rozenhofje/ (2018: photo caption 'Binnentuin tijdens Hofjesconcert')"
+
+- id: r3isw976npymofhussaew9yo
+  title: Rijpenhofje, where the date over the door is wrong
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open to visitors
+    nl: Niet te bezoeken
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: The carved stone gate with the wrought-iron grille is seen from the Rozengracht; the garden behind also serves Huizen De Lely on the Bloemstraat.
+    nl: De bewerkte stenen poort met het smeedijzeren hek zie je vanaf de Rozengracht; de tuin erachter hoort ook bij Huizen De Lely aan de Bloemstraat.
+  checked: null
+  founded: 1736 (buildings of 1913)
+  founder: Gerard de Rijp (will); nephews; Mennonite congregation Lam en Toren
+  homes: null
+  residents_now: men and women over 55, with student helpers at the front
+  entrance_address: Rozengracht 116-138
+  lat: 52.373111
+  lng: 4.878985
+  sources:
+    - "https://hofjesinamsterdam.nl/rijpenhofje/ (2018: men and women over 55)"
+    - "https://hofjesinamsterdam.nl/huizen-de-lely/ (2018: one whole with Huizen De Lely since 1965)"
+
+- id: wh956bbnumzkk2gba641u0wo
+  title: Bloemstraat's buildings for the poorest
+  hofje: Huizen De Lely
+  today: Still a hofje
+  access: Closed
+  hours:
+    en: Not open; the narrow yard lies behind the houses
+    nl: Niet open; de smalle binnenplaats ligt achter de huizen
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: Only the plain front at Bloemstraat 129-141 is seen; the yard behind runs into a narrow fire alley, the Ds. J. v.d. Meersteeg, and adjoins the Rijpenhofje.
+    nl: Alleen de sobere gevel op Bloemstraat 129-141 is te zien; de binnenplaats erachter mondt uit in een smalle brandgang, de Ds. J. v.d. Meersteeg, en grenst aan het Rijpenhofje.
+  checked: null
+  founded: 1871 or 1872
+  founder: Mennonite congregation (Verenigde Doopsgezinde Gemeente), from a bequest of L.T. Vogel according to HIA; architect G.B. Salm
+  homes: 9 (HIA) or 18 (city register, as designed)
+  residents_now: men and women over 55
+  entrance_address: Bloemstraat 129-141
+  lat: 52.373499
+  lng: 4.878796
+  sources:
+    - "https://hofjesinamsterdam.nl/huizen-de-lely/ (2018)"
+    - "https://data.amsterdam.nl/monumenten/1c2fbe44-1317-4240-a0b3-c461db4c5103 (register 204002)"
+
+- id: u165z6308tvfwa384bn4j6r5
+  title: Hamer- en Bouwershofje, two old hofjes moved to the city's edge
+  today: No longer a hofje
+  access: Closed
+  hours:
+    en: Not open; there is no court, only a corridor
+    nl: Niet open; er is geen hof, alleen een gang
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: Seen from the Marnixstraat and the Lijnbaansgracht; behind the door is a corridor between two rows of rooms, not a garden.
+    nl: Te zien vanaf de Marnixstraat en de Lijnbaansgracht; achter de deur ligt een gang tussen twee rijen kamers, geen tuin.
+  checked: null
+  founded: 1877 (from hofjes of 1626 and the 1630s)
+  founder: R.C. Oude Armen Kantoor; architect J.H. Coelewij
+  homes: 24
+  residents_now: staff housing (Hotel Okura, last reported 2018)
+  entrance_address: Marnixstraat 281
+  lat: 52.374677
+  lng: 4.876888
+  sources:
+    - "https://hofjesinamsterdam.nl/hamer-en-bouwershofje/ (2018: staff of Okura Hotel)"
+
+- id: btbep06clmme9cn98784x1fz
+  title: Hofje van de Weduwe Roosen
+  today: No longer a hofje
+  access: Closed
+  hours:
+    en: Seen from the street; there is no court
+    nl: Vanaf de straat te zien; er is geen binnenplaats
+  rules:
+    en: Private homes
+    nl: Particuliere woningen
+  access_note:
+    en: Four small houses under one front with the name plaque; ordinary rented homes.
+    nl: Vier huisjes achter één gevel met de naamplaquette; gewone huurwoningen.
+  checked: null
+  founded: 1820
+  founder: the widow Roosen (fund)
+  homes: 8
+  residents_now: mixed (rented homes, Diaconie of the Protestant Church)
+  entrance_address: Eerste Passeerdersdwarsstraat 124-130
+  lat: 52.367282
+  lng: 4.881392
+  sources:
+    - "https://hofjesinamsterdam.nl/hofjen-van-de-weduwe-roosen/ (2018: ordinary rented homes)"
+
+- id: null
+  title: Broenshofje, six rooms off a corridor in the Boomstraat
+  today: No longer a hofje
+  access: Closed
+  hours:
+    en: Not open to the public
+    nl: Gesloten voor publiek
+  rules:
+    en: Private home
+    nl: Particulier woonhuis
+  access_note:
+    en: A private house since 1995; you see the bell gable with the name Broenshofje over the door and, next door, the 1878 block at nos. 54-56.
+    nl: Sinds 1995 een particulier woonhuis; je ziet de klokgevel met Broenshofje boven de deur en ernaast het blokje uit 1878 op nr. 54-56.
+  checked: 2026-11
+  founded: 1851
+  founder: A.C. Broen
+  homes: 6 (rooms)
+  residents_now: private owners
+  entrance_address: Boomstraat 52
+  lat: 52.379222
+  lng: 4.884561
+  sources:
+    - "https://amsterdamoudestad.nl/bezienswaardigheden/hofjes-jordaan (undated, read Nov 2026: 'Open: nee, gesloten voor publiek')"
+    - "https://hofjesinamsterdam.nl/broenshofje/ (2018: sold to private owners 1995)"
+
+- id: null
+  title: Roetershofje (Lindengracht)
+  today: Unconfirmed
+  access: Not visible
+  hours:
+    en: Not open; no court is seen from the street
+    nl: Niet open; vanaf de straat is geen hof te zien
+  rules:
+    en: Private
+    nl: Privé
+  access_note:
+    en: Its entrance was a passage with a door between Lindengracht 171 and 187, next to the Suyckerhoff-hofje; whether the six little houses still stand as a court behind it is not confirmed.
+    nl: De ingang was een gang met een deur tussen Lindengracht 171 en 187, naast het Suyckerhoff-hofje; of de zes huisjes daarachter nog als hofje bestaan, is niet bevestigd.
+  checked: null
+  founded: 1673 (one list only)
+  founder: null
+  homes: 6 houses and 6 rooms (historical)
+  residents_now: null
+  entrance_address: Lindengracht 171-187
+  lat: 52.379809
+  lng: 4.883041
+  sources:
+    - "https://www.theobakker.net/pdf/jordaangangen.pdf (Theo Bakker, De Jordaan, koninkrijk der sloppen, undated: entrance between nos. 171 and 187; built for Reformed older unmarried women and widows; six houses and six rooms; 'het begon ooit als een pareltje', a photo shows its decline)"
+    - "Stadsarchief Amsterdam beeldbank 5293FO000256, 'Lindengracht 171-187, Roetershofje' (via discovery notes; not opened)"
