@@ -37,6 +37,7 @@ import type {
   MapView,
   OverrideAttributes,
   OverrideDraft,
+  OverrideTranslations,
   PlaceDraft,
   PlaceTranslations,
   RouteDraft,
@@ -315,6 +316,10 @@ export const placeOverride = sqliteTable(
       .notNull()
       .default({}),
     category: text("category"),
+    /** The view's translations of text field values; null: none. */
+    translations: text("translations", {
+      mode: "json",
+    }).$type<OverrideTranslations>(),
     updatedAt: integer("updated_at", { mode: "timestamp" }).notNull(),
     updatedBy: text("updated_by").references(() => profile.id, {
       onDelete: "set null",

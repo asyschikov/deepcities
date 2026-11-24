@@ -100,7 +100,8 @@ const withSourceShape = async (
       },
     ]),
   );
-  const fields = displayedFields(source.fields, ownFields);
+  const fields = displayedFields(source.fields, ownFields, view);
+  const sourceKeys = new Set(source.fields.map((f) => f.key));
   return {
     ...access,
     collection: {
@@ -108,7 +109,7 @@ const withSourceShape = async (
       categories: source.categories,
       fields,
       // Copies of source fields aren't the view's own (they never show).
-      ownFields: fields.slice(source.fields.length),
+      ownFields: fields.filter((f) => !sourceKeys.has(f.key)),
       translations,
     },
   };
@@ -368,12 +369,21 @@ export const collectionRouter = router({
           });
         const source = await ctx.db.query.collection.findFirst({
           where: eq(collection.id, view.source),
-          columns: { id: true, city: true, view: true },
+          columns: { id: true, city: true, view: true, fields: true },
         });
         if (!source)
           throw new TRPCError({
             code: "NOT_FOUND",
             message: "Source map not found",
+          });
+        const sourceKeys = new Set(source.fields.map((f) => f.key));
+        const unknownFields = (view.sourceFields ?? []).filter(
+          (k) => !sourceKeys.has(k),
+        );
+        if (unknownFields.length > 0)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: `Not fields of the source map: ${unknownFields.join(", ")} (it has: ${[...sourceKeys].join(", ") || "none"})`,
           });
         if (source.view)
           throw new TRPCError({

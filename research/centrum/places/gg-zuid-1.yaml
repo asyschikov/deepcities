@@ -168,7 +168,7 @@
   body: |
     Between the Rembrandtplein and the Amstel, Amstel 88-98 is a hofje, an almshouse court, known as the Swigtershofje. The national register lists three parts: a small gateway carved by Pieter Pantel in 1756, a row of dwellings, and a chapel with galleries, a stucco ceiling and a stucco altar wall with an altarpiece, from the third quarter of the 18th century.
 
-    The gateway is the part you can see from the street. The chapel survived, restored in 1979 with the rest of the hofje, and has become a hotel room: Private Mansions lets it as The Hidden Church, a suite for two with the bed beneath the stucco altar wall and its cherubs. Only guests get in.
+    The gateway is the part you can see from the street. The chapel survived, restored in 1979 with the rest of the hofje, and has become a hotel room: Private Mansions lets it as The Hidden Church, a suite for two with the bed beneath the stucco altar wall and its cherubs. Only guests get in. In 2018 the housing corporation De Key owned the hofje and let parts of it to a hotel and a trust.
 
     Look for:
     - the carved gateway of 1756 in the Amstel front
@@ -181,6 +181,7 @@
     - { label: Rijksmonumentenregister (198), url: "https://monumentenregister.cultureelerfgoed.nl/monumenten/198" }
     - { label: Monumentenregister Amsterdam, url: "https://data.amsterdam.nl/monumenten/a1f07468-dd36-49d6-836d-2caf0d4381d2" }
     - { label: The Hidden Church (Private Mansions), url: "https://bookings.privatemansions.org/mansion/the-hidden-church/" }
+    - { label: Hofjes in Amsterdam Swigtershofje, url: "https://hofjesinamsterdam.nl/swigtershofje/" }
   attributes:
     rank: Okay
     heritage_status: National monument
@@ -188,13 +189,14 @@
     built: 1744–1756
     original_use: Almshouse court with chapel
     check: Facts
-    check_note: Chapel confirmed as a guest suite (Private Mansions, booking calendar live Nov 2026). Still unknown who owns the hofje and whether the gate is ever open.
+    check_note: Chapel confirmed as a guest suite (Nov 2026). Owner and use since 2018 (then De Key) not confirmed, nor whether the gate is ever open.
   photos:
     - commons:File:Amsterdam - Amstel 88 tm 98.JPG
   sources:
     - rce:198 (Swigtershofje: gateway carved by Pieter Pantel 1756, row of dwellings, chapel with galleries, stucco ceiling and stucco retable with altarpiece, third quarter 18th c.); slice year_from 1744
     - WebSearch 2026-11 (three searches): no further online source for the hofje's founders or current use
     - https://bookings.privatemansions.org/mansion/the-hidden-church/ (Swigtershofje one of the smallest hofjes, founded 1744, restored 1979; chapel let as The Hidden Church, suite for two, bed under the altar, rococo stucco ceiling, Eye of God and cherubs over the altar; calendar open November 2026)
+    - "hofjesinamsterdam.nl/swigtershofje (2018) (checked Nov 2026)"
     - https://indebuurt.nl/amsterdam/genieten-van/5-x-spectaculaire-hotelkamers-in-amsterdam~303818/ (the old chapel in the tiny Swigtershofje is a hotel suite of Private Mansions)
   nl:
     title: Swigtershofje
@@ -202,14 +204,14 @@
     body: |
       Amstel 88-98, tussen het Rembrandtplein en de Amstel, is een hofje: het Swigtershofje. Het rijksmonumentenregister noemt drie onderdelen: een poortje dat Pieter Pantel in 1756 beeldhouwde, een rij woningen, en een kapel met galerijen, een stucplafond en een gestuukte altaarwand met altaarstuk uit het derde kwart van de achttiende eeuw.
 
-      Het poortje is wat je vanaf straat ziet. De kapel bestaat nog; ze is in 1979 met de rest van het hofje gerestaureerd en is nu een hotelkamer. Private Mansions verhuurt haar als The Hidden Church, een suite voor twee waar je slaapt onder de gestuukte altaarwand met zijn engeltjes. Alleen gasten komen binnen.
+      Het poortje is wat je vanaf straat ziet. De kapel bestaat nog; ze is in 1979 met de rest van het hofje gerestaureerd en is nu een hotelkamer. Private Mansions verhuurt haar als The Hidden Church, een suite voor twee waar je slaapt onder de gestuukte altaarwand met zijn engeltjes. Alleen gasten komen binnen. In 2018 was woningcorporatie De Key eigenaar en verhuurde ze delen aan een hotel en een stichting.
 
       Let op:
       - het gebeeldhouwde poortje van 1756 in de gevel aan de Amstel
       - de rij huisjes erachter, nummers 88 tot 98
     attributes:
       original_use: Hofje met kapel
-      check_note: Kapel is een gastenkamer (Private Mansions, boekingskalender actief nov 2026). Nog onbekend wie eigenaar van het hofje is en of de poort ooit open is.
+      check_note: Kapel is een gastenkamer (nov 2026). Eigenaar en gebruik na 2018 (toen De Key) niet bevestigd, en ook niet of de poort ooit open is.
     sources:
       - rce:198
 

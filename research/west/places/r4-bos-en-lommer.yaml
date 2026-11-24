@@ -518,7 +518,7 @@
   body: |
     Ferdinand Jantzen, who lived in Bos en Lommer, designed the church in 1956 as a break with his pre-war work: a modern building with a glass entrance hall meant as a meeting place for the community. It was consecrated in February 1957 and named after the Augsburg Confession of 1530. The building costs of about 600,000 guilders were partly paid by Lutherans in the United States.
 
-    The last regular Sunday service was held on 4 January 2015. Rather than sell, the Lutheran diaconate, active in Amsterdam since 1588, converted the building itself (Ponec de Winter architects). In 2017 it reopened as the Augustanahof: sixteen social-rent homes for people on low incomes, some in the old church hall, with young and old tenants who agree to keep an eye on each other. There is a shared kitchen and meeting room, a small chapel with a weekly service, and the bells can still ring. One home is kept for a young person who needs a breather.
+    The last regular Sunday service was held on 4 January 2015. Rather than sell, the Lutheran diaconate, active in Amsterdam since 1588, converted the building itself (Ponec de Winter architects). In 2017 it reopened as the Augustanahof: sixteen social-rent homes for people on low incomes, some in the old church hall, with young and old tenants who agree to keep an eye on each other. There is a shared kitchen and meeting room, a small chapel with a weekly service, and the bells can still ring. One home is kept for a young person who needs a breather. The quiet garden is open to visitors and passers-by, and the chapel is open to everyone for an hour each afternoon.
 
     The six stained-glass windows in the stairwell hall are by Piet Kok, artist and minister, made in 1969 for a Lutheran old people's home on Meer en Vaart and saved when it was demolished.
 
@@ -535,13 +535,12 @@
     - { label: Gebouwd in Amsterdam (Augustanahof), url: "https://gebouwdin.amsterdam.nl/projectdetail/1417" }
     - { label: De Westkrant (8 Jul 2017), url: "https://www.dewestkrant.nl/wonen-sociaal-vangnet-voormalige-kerk/" }
     - { label: Wandkunst Amsterdam (city wall-art register), url: "https://maps.amsterdam.nl/wandkunst/" }
+    - { label: Lutherse Diaconie (Augustanahof), url: "https://www.diaconie.com/hofjes-erfgoed/augustanahof" }
   attributes:
     rank: Okay
     built: 1956-1957, converted 2016-2017
     architect: Ferdinand Jantzen; Ponec de Winter (conversion)
     original_use: Lutheran church
-    check: Still there?
-    check_note: "Whether the stiltetuin is open to the public: in 2017 the plan was to reopen it to neighbours; no later report found."
   photos:
     - commons:File:Augustanakerk1.jpg
     - commons:File:Augustanakerk (Wachterliedplantsoen).jpg
@@ -549,6 +548,7 @@
     - https://nl.wikipedia.org/wiki/Augustanakerk_(Amsterdam) (1956, Jantzen who lived in the district; consecrated Feb 1957; Confessio Augustana; costs about 600,000 guilders partly from US Lutherans; stiltetuin since 2011; last regular service 4 Jan 2015; 2017 mostly converted to homes, Lutheran congregation still owner; windows by Jantzen and Piet Kok)
     - https://gebouwdin.amsterdam.nl/api/projectdetail/1417 (Augustanahof 2016, Ponec de Winter; style break for Jantzen, transparent entrance hall as meeting space; diaconate active since 1588; youngest 24, oldest 94; 16 homes)
     - https://www.dewestkrant.nl/wonen-sociaal-vangnet-voormalige-kerk/ (8 July 2017: 16 social-rent homes, oldest 93, youngest 24; bells can still ring; weekly service in the chapel; shared kitchen; home for a young person; stiltetuin kept, to be reopened to neighbours; opening 23 Sept 2017)
+    - "diaconie.com/hofjes-erfgoed/augustanahof and /augustanahof-praktische-informatie (read Nov 2026: chapel 15:00-16:00, silence garden open) (checked Nov 2026)"
     - "City wall-art register (WANDKUNST) record 72: Piet Kok, six stained-glass windows of 1969 from the Maarten Lutherhuis, Meer en Vaart 27, moved to the stairwell hall; tall window by the architect"
   nl:
     title: Augustanakerk, een lutherse kerk die een hofje werd
@@ -556,7 +556,7 @@
     body: |
       Ferdinand Jantzen, zelf bewoner van Bos en Lommer, ontwierp de kerk in 1956 als breuk met zijn vooroorlogse werk: een modern gebouw met een glazen hal als ontmoetingsplek voor de gemeenschap. In februari 1957 werd de kerk ingewijd, genoemd naar de Augsburgse geloofsbelijdenis van 1530. De bouwkosten, zo'n 600.000 gulden, kwamen deels van lutheranen in de Verenigde Staten.
 
-      De laatste gewone zondagsdienst was op 4 januari 2015. In plaats van te verkopen liet de Lutherse Diaconie, sinds 1588 actief in Amsterdam, het gebouw zelf verbouwen (architecten Ponec de Winter). In 2017 ging het open als de Augustanahof: zestien sociale huurwoningen voor mensen met een smalle beurs, een paar in de oude kerkzaal, met jonge en oude bewoners die afspreken naar elkaar om te kijken. Er is een gezamenlijke keuken en ontmoetingsruimte, een kapelletje met een wekelijkse viering, en de klokken kunnen nog luiden. Eén woning is bestemd voor een jongere die even op adem moet komen.
+      De laatste gewone zondagsdienst was op 4 januari 2015. In plaats van te verkopen liet de Lutherse Diaconie, sinds 1588 actief in Amsterdam, het gebouw zelf verbouwen (architecten Ponec de Winter). In 2017 ging het open als de Augustanahof: zestien sociale huurwoningen voor mensen met een smalle beurs, een paar in de oude kerkzaal, met jonge en oude bewoners die afspreken naar elkaar om te kijken. Er is een gezamenlijke keuken en ontmoetingsruimte, een kapelletje met een wekelijkse viering, en de klokken kunnen nog luiden. Eén woning is bestemd voor een jongere die even op adem moet komen. De stiltetuin is open voor bezoekers en voorbijgangers, en de kapel is elke middag een uur voor iedereen open.
 
       De zes glas-in-loodramen in de hal van het trappenhuis zijn van Piet Kok, kunstenaar en dominee. Hij maakte ze in 1969 voor een luthers bejaardenhuis aan Meer en Vaart; bij de sloop daarvan werden ze gered.
 
@@ -567,7 +567,6 @@
     attributes:
       architect: Ferdinand Jantzen; Ponec de Winter (verbouwing)
       original_use: Lutherse kerk
-      check_note: "Of de stiltetuin open is voor publiek: in 2017 was het plan hem weer voor buurtbewoners open te stellen; geen later bericht gevonden."
     sources:
       - https://nl.wikipedia.org/wiki/Augustanakerk_(Amsterdam)
       - https://gebouwdin.amsterdam.nl/projectdetail/1417

@@ -62,7 +62,20 @@
   "The wall in the middle of the school, Weteringschans 263",
   "Amsterdam Pipe Museum, the world's smoking in a canal house of 1670",
   "De Drie Fleschjes, the oldest tasting room in Amsterdam",
-  "Eerste Marnixplantsoen, the last bastion and the builders' riot"
+  "Eerste Marnixplantsoen, the last bastion and the builders' riot",
+  "Montelbaanstoren, the tower that had to be pulled straight",
+  "Schreierstoren, the weepers' tower that probably wasn't",
+  "Magna Plaza, the post office nicknamed Perenburg",
+  "Paradiso, the free congregation's meeting hall",
+  "Melkweg, the milk factory that became a 'cosmic centre'",
+  "Sarphati's Amstel Hotel and the masseur who saved it",
+  "Allard Pierson, in the old Nederlandsche Bank",
+  "Huis met de Hoofden (House with the Heads)",
+  "Huis Willet-Holthuysen and its plantation money",
+  "De Krijtberg, the Jesuits' church squeezed between canal houses",
+  "Sint-Nicolaasbasiliek, the Catholics' answer opposite the station",
+  "De Gooyer, the windmill that lost its wind to Napoleon",
+  "Blauwbrug"
  ],
  "standout_da_rank": {
   "De Engel, the angel on the factory chimney": "Amazing",
@@ -125,7 +138,20 @@
   "De Duif, the first Catholic church back on the street": "Nice",
   "The wall in the middle of the school, Weteringschans 263": "Nice",
   "Amsterdam Pipe Museum, the world's smoking in a canal house of 1670": "Nice",
-  "Eerste Marnixplantsoen, the last bastion and the builders' riot": "Nice"
+  "Eerste Marnixplantsoen, the last bastion and the builders' riot": "Nice",
+  "Montelbaanstoren, the tower that had to be pulled straight": "Nice",
+  "Schreierstoren, the weepers' tower that probably wasn't": "Nice",
+  "Magna Plaza, the post office nicknamed Perenburg": "Nice",
+  "Paradiso, the free congregation's meeting hall": "Nice",
+  "Melkweg, the milk factory that became a 'cosmic centre'": "Nice",
+  "Sarphati's Amstel Hotel and the masseur who saved it": "Nice",
+  "Allard Pierson, in the old Nederlandsche Bank": "Okay",
+  "Huis met de Hoofden (House with the Heads)": "Amazing",
+  "Huis Willet-Holthuysen and its plantation money": "Nice",
+  "De Krijtberg, the Jesuits' church squeezed between canal houses": "Nice",
+  "Sint-Nicolaasbasiliek, the Catholics' answer opposite the station": "Nice",
+  "De Gooyer, the windmill that lost its wind to Napoleon": "Nice",
+  "Blauwbrug": "Nice"
  },
  "clusters": [
   {
@@ -2130,5 +2156,20 @@
   "Utrechtsestraat shop fronts, from a gilded pig to a cigar shop",
   "De Posthoorn, the house of Jos Brink and Frank Sanders",
   "Weteringschans 96, a children's clinic for the well-to-do"
+ ],
+ "standouts_with_parent": [
+  "Allard Pierson, in the old Nederlandsche Bank",
+  "Blauwbrug",
+  "De Gooyer, the windmill that lost its wind to Napoleon",
+  "De Krijtberg, the Jesuits' church squeezed between canal houses",
+  "Huis Willet-Holthuysen and its plantation money",
+  "Huis met de Hoofden (House with the Heads)",
+  "Magna Plaza, the post office nicknamed Perenburg",
+  "Melkweg, the milk factory that became a 'cosmic centre'",
+  "Montelbaanstoren, the tower that had to be pulled straight",
+  "Paradiso, the free congregation's meeting hall",
+  "Sarphati's Amstel Hotel and the masseur who saved it",
+  "Schreierstoren, the weepers' tower that probably wasn't",
+  "Sint-Nicolaasbasiliek, the Catholics' answer opposite the station"
  ]
 }
