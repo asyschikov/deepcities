@@ -197,14 +197,21 @@ export const makeMapCommands = (deps: MapDeps) => {
         return { ok: true, slug: c.slug, view: null };
       }
       const input = readJson(given);
-      const bad = Object.keys(input).filter(
-        (k) => !["source", "list", "where", "detail"].includes(k),
-      );
+      const keys = ["source", "list", "where", "detail", "sourceFields"];
+      const bad = Object.keys(input).filter((k) => !keys.includes(k));
       if (bad.length)
         fail(
-          `Unknown keys: ${bad.join(", ")} (expected source, list, where, detail)`,
+          `Unknown keys: ${bad.join(", ")} (expected ${keys.join(", ")})`,
           "BAD_JSON",
         );
+      if (
+        input.sourceFields !== undefined &&
+        !(
+          Array.isArray(input.sourceFields) &&
+          input.sourceFields.every((k: unknown) => typeof k === "string")
+        )
+      )
+        fail('"sourceFields" must be an array of field keys', "BAD_JSON");
       if (typeof input.source !== "string" || !input.source)
         fail('"source" must be a map slug or id', "BAD_JSON");
       const maps = (await query("collection.list")) as Collection[];
@@ -271,7 +278,9 @@ MAPS
                                            {"borough": ["Centrum"]}, "detail": "full"},
                                            or a list view: {"source": "<slug>", "list":
                                            true} (see LIST VIEWS in \`dc help\` and
-                                           "mapView" in \`dc schema\`). The map must
+                                           "mapView" in \`dc schema\`). "sourceFields":
+                                           [key, …] shows only those of the source's
+                                           fields ([] none; left out: all). The map must
                                            have no places of its own; its title, texts,
                                            centre and zoom stay its own, categories and
                                            fields are the source's. "none" makes it a

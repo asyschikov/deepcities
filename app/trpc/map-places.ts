@@ -12,7 +12,7 @@ import {
   place,
   placeOverride,
 } from "~/lib/db/schema";
-import { displayedFields } from "~/lib/overrides";
+import { displayedFields, storedOverride } from "~/lib/overrides";
 import type { CategoryDef, FieldDef, OverrideDraft } from "~/lib/validation";
 import { homeIdOf, VIEW_WHERE_KEYS, type ViewMap } from "~/lib/views";
 
@@ -124,6 +124,7 @@ export const overridesOf = async (
       placeId: placeOverride.placeId,
       attributes: placeOverride.attributes,
       category: placeOverride.category,
+      translations: placeOverride.translations,
     })
     .from(placeOverride)
     .where(
@@ -132,17 +133,13 @@ export const overridesOf = async (
         placeIds ? inArray(placeOverride.placeId, placeIds) : undefined,
       ),
     );
-  return new Map(
-    rows.map((r) => [
-      r.placeId,
-      { attributes: r.attributes, category: r.category },
-    ]),
-  );
+  return new Map(rows.map((r) => [r.placeId, storedOverride(r)]));
 };
 
 /**
  * What a map's places are read with: its source's categories (a view's own
- * are ignored), and the source's fields followed by the view's own.
+ * are ignored), and the source's fields (those `view.sourceFields` names)
+ * followed by the view's own. `sourceFields` are all of the source's.
  */
 export const shapeOf = async (
   db: Database,
@@ -172,7 +169,7 @@ export const shapeOf = async (
   const sourceFields = source?.fields ?? [];
   return {
     categories: source?.categories ?? c.categories,
-    fields: displayedFields(sourceFields, c.fields),
+    fields: displayedFields(sourceFields, c.fields, c.view),
     sourceFields,
     ownFields: c.fields,
   };

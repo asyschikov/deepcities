@@ -3,6 +3,7 @@ import {
   clashingFieldKeys,
   displayedFields,
   effectiveAttributes,
+  effectiveTranslations,
   isEmptyOverride,
   NO_OVERRIDE,
   normalizeOverride,
@@ -117,5 +118,91 @@ describe("a view's own fields", () => {
     expect(clashingFieldKeys([f("rank")], [f("local"), f("rank")])).toEqual([
       "rank",
     ]);
+  });
+
+  it("a view may show only some of its source's fields", () => {
+    const keys = (view: { sourceFields?: string[] } | null) =>
+      displayedFields(
+        [f("rank"), f("era"), f("status")],
+        [f("local"), f("status")],
+        view,
+      ).map((d) => d.key);
+    expect(keys({ sourceFields: ["status", "rank"] })).toEqual([
+      "rank",
+      "status",
+      "local",
+    ]);
+    // A hidden source key is still the source's, not the view's.
+    expect(keys({ sourceFields: [] })).toEqual(["local"]);
+    expect(keys(null)).toEqual(["rank", "era", "status", "local"]);
+  });
+});
+
+describe("translations in overrides", () => {
+  const translated = {
+    ...home,
+    translations: {
+      nl: { title: "Uitblinker", attributes: { era: "1600-tal" } },
+    },
+  };
+
+  it("merge per language and key; an overridden key drops the home translation", () => {
+    expect(
+      effectiveTranslations(translated.translations, {
+        attributes: { local: "Look up" },
+        category: null,
+        translations: {
+          nl: { attributes: { local: "Kijk omhoog" } },
+          de: { attributes: { local: "Schau hoch" } },
+        },
+      }),
+    ).toEqual({
+      nl: {
+        title: "Uitblinker",
+        attributes: { era: "1600-tal", local: "Kijk omhoog" },
+      },
+      de: { attributes: { local: "Schau hoch" } },
+    });
+    expect(
+      withOverride(translated, { attributes: { era: "1700s" }, category: null })
+        .translations,
+    ).toEqual({ nl: { title: "Uitblinker" } });
+    // A place without translations (a list row) gets none added.
+    expect(withOverride(home, NO_OVERRIDE)).not.toHaveProperty("translations");
+  });
+
+  it("patches keep only translations that matter", () => {
+    const o = patchOverride(translated, undefined, {
+      attributes: { local: "Look up" },
+      translations: {
+        nl: { attributes: { era: "1600-tal", local: "Kijk omhoog", x: "" } },
+      },
+    });
+    expect(o).toEqual({
+      attributes: { local: "Look up" },
+      category: null,
+      translations: { nl: { attributes: { local: "Kijk omhoog" } } },
+    });
+    // null drops one; translations of keys without a value are dropped.
+    expect(
+      patchOverride(translated, o, {
+        translations: { nl: { attributes: { local: null } } },
+      }),
+    ).toEqual({ attributes: { local: "Look up" }, category: null });
+    expect(
+      patchOverride(translated, o, { attributes: { local: null } }),
+    ).toEqual(NO_OVERRIDE);
+    expect(isEmptyOverride({ ...NO_OVERRIDE, translations: {} })).toBe(true);
+    expect(isEmptyOverride(o)).toBe(false);
+  });
+
+  it("normalising drops translations the home place has caught up with", () => {
+    expect(
+      normalizeOverride(translated, {
+        attributes: {},
+        category: null,
+        translations: { nl: { attributes: { era: "1600-tal" } } },
+      }),
+    ).toEqual(NO_OVERRIDE);
   });
 });

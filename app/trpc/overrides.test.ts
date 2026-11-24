@@ -156,6 +156,7 @@ describe("effective values on a view", () => {
     expect(onView.base).toEqual({
       attributes: { rank: "Nice", era: "1600s" },
       category: "curiosity",
+      translations: {},
     });
     expect(onView.viewId).toBe("centrum");
     expect(onView.fields.map((f) => f.key)).toEqual([
@@ -343,5 +344,161 @@ describe("a view's own fields", () => {
     await coll.setFields({ collectionId: "centrum", fields: [tip] });
     const { collection: c } = await coll.bySlug({ slug: "centrum" });
     expect(c.ownFields.map((f) => f.key)).toEqual(["local_tip"]);
+  });
+});
+
+describe("translations in overrides", () => {
+  beforeEach(async () => {
+    await db
+      .update(collection)
+      .set({ languages: ["nl"] })
+      .where(eq(collection.id, "centrum"));
+    await db
+      .update(place)
+      .set({
+        translations: {
+          nl: { title: "Uitblinker", attributes: { era: "1600-tal" } },
+        },
+      })
+      .where(eq(place.id, "standout"));
+  });
+
+  it("stores the view's translations and merges them per language and key", async () => {
+    const res = await set({
+      attributes: { local_tip: "Go at dusk" },
+      translations: {
+        nl: { attributes: { local_tip: "Ga bij schemering", era: "1600-tal" } },
+      },
+    });
+    expect(res.status).toBe("approved");
+    // The home translation of era is not stored again.
+    expect((await storedOverride())?.translations).toEqual({
+      nl: { attributes: { local_tip: "Ga bij schemering" } },
+    });
+    const onView = await places(null).byId({
+      placeId: "standout",
+      map: "centrum",
+    });
+    expect(onView.place.translations).toEqual({
+      nl: {
+        title: "Uitblinker",
+        attributes: { era: "1600-tal", local_tip: "Ga bij schemering" },
+      },
+    });
+    const exported = await places(null).export({ collectionId: "centrum" });
+    expect(
+      exported.find((p) => p.id === "standout")?.translations.nl?.attributes,
+    ).toEqual({ era: "1600-tal", local_tip: "Ga bij schemering" });
+    // The home place keeps its own.
+    const onHome = await places(null).byId({ placeId: "standout" });
+    expect(onHome.place.translations.nl?.attributes).toEqual({
+      era: "1600-tal",
+    });
+  });
+
+  it("an overridden value hides the home translation; null drops the view's", async () => {
+    await set({ attributes: { era: "1700s" } });
+    const shown = async () =>
+      (await places(null).byId({ placeId: "standout", map: "centrum" })).place
+        .translations.nl?.attributes;
+    expect(await shown()).toBeUndefined();
+    await set({ translations: { nl: { attributes: { era: "1700-tal" } } } });
+    expect(await shown()).toEqual({ era: "1700-tal" });
+    expect(
+      (await set({ translations: { nl: { attributes: { era: "1700-tal" } } } }))
+        .status,
+    ).toBe("unchanged");
+    await set({ translations: { nl: { attributes: { era: null } } } });
+    expect((await storedOverride())?.translations).toBeNull();
+    // Reverting the key drops its translations, and the empty override goes.
+    await set({ translations: { nl: { attributes: { era: "1700-tal" } } } });
+    await set({ revert: ["era"] });
+    expect(await storedOverride()).toBeUndefined();
+    expect(await shown()).toEqual({ era: "1600-tal" });
+  });
+
+  it("a translation-only override is kept; checks fields and languages", async () => {
+    await set({ translations: { nl: { attributes: { era: "zestiende" } } } });
+    expect(await storedOverride()).toMatchObject({
+      attributes: {},
+      category: null,
+      translations: { nl: { attributes: { era: "zestiende" } } },
+    });
+    await expect(
+      set({ translations: { nl: { attributes: { rank: "Mooi" } } } }),
+    ).rejects.toThrow(/Only text fields/);
+    await expect(
+      set({ translations: { de: { attributes: { era: "x" } } } }),
+    ).rejects.toThrow(/isn't offered in: de/);
+  });
+
+  it("a home edit that catches up prunes the view's translation", async () => {
+    await set({ translations: { nl: { attributes: { era: "zestiende" } } } });
+    const home = await places(null).byId({ placeId: "standout" });
+    await proposals(admin).create({
+      kind: "edit",
+      placeId: "standout",
+      draft: {
+        title: home.place.title,
+        summary: home.place.summary,
+        body: home.place.body,
+        category: home.place.category,
+        lat: home.place.lat,
+        lng: home.place.lng,
+        address: null,
+        municipality: null,
+        borough: home.place.borough,
+        neighbourhood: null,
+        subNeighbourhood: null,
+        links: [],
+        photoIds: [],
+        attributes: home.place.attributes,
+        translations: { nl: { attributes: { era: "zestiende" } } },
+      },
+      note: null,
+    });
+    expect(await storedOverride()).toBeUndefined();
+  });
+});
+
+describe("a view's source fields", () => {
+  const coll = () => collectionRouter.createCaller(as(admin));
+  const setSourceFields = (sourceFields: string[] | undefined) =>
+    coll().setView({
+      collectionId: "centrum",
+      view: {
+        source: "sights",
+        where: { borough: ["Centrum"] },
+        detail: "full",
+        sourceFields,
+      },
+    });
+
+  it("shows only the chosen source fields, then its own", async () => {
+    await setSourceFields(["era"]);
+    const { collection: c } = await coll().bySlug({ slug: "centrum" });
+    expect(c.fields.map((f) => f.key)).toEqual(["era", "local_tip"]);
+    expect(c.ownFields.map((f) => f.key)).toEqual(["local_tip"]);
+    const onView = await places(null).byId({
+      placeId: "standout",
+      map: "centrum",
+    });
+    expect(onView.fields.map((f) => f.key)).toEqual(["era", "local_tip"]);
+    // Hidden source fields can't be overridden on the view.
+    await expect(set({ attributes: { rank: "Amazing" } })).rejects.toThrow(
+      /Not fields/,
+    );
+    await setSourceFields([]);
+    const { collection: none } = await coll().bySlug({ slug: "centrum" });
+    expect(none.fields.map((f) => f.key)).toEqual(["local_tip"]);
+    await setSourceFields(undefined);
+    const { collection: all } = await coll().bySlug({ slug: "centrum" });
+    expect(all.fields.map((f) => f.key)).toEqual(["rank", "era", "local_tip"]);
+  });
+
+  it("refuses keys the source doesn't have", async () => {
+    await expect(setSourceFields(["rank", "nope"])).rejects.toThrow(
+      /Not fields of the source map: nope/,
+    );
   });
 });

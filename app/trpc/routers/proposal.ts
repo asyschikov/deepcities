@@ -19,6 +19,7 @@ import {
   normalizeOverride,
   patchOverride,
   stableJson,
+  storedOverride,
   withOverride,
 } from "~/lib/overrides";
 import {
@@ -26,6 +27,7 @@ import {
   idSchema,
   type OverrideDraft,
   overrideAttributesSchema,
+  overrideTranslationsPatchSchema,
   type PlaceDraft,
   placeDraftSchema,
   type RouteDraft,
@@ -348,6 +350,13 @@ const applyProposal = async (
   return placeId;
 };
 
+/** The `place_override` columns of an override (null: no translations). */
+const overrideRow = (o: OverrideDraft) => ({
+  attributes: o.attributes,
+  category: o.category,
+  translations: o.translations ?? null,
+});
+
 /**
  * After the home place changed: drop override keys that now equal its
  * values (and overrides left empty), so no no-op overrides stay stored.
@@ -356,7 +365,7 @@ const pruneOverrides = async (db: Database, placeId: string) => {
   const [home, rows] = await Promise.all([
     db.query.place.findFirst({
       where: eq(place.id, placeId),
-      columns: { attributes: true, category: true },
+      columns: { attributes: true, category: true, translations: true },
     }),
     db.query.placeOverride.findMany({
       where: eq(placeOverride.placeId, placeId),
@@ -364,11 +373,9 @@ const pruneOverrides = async (db: Database, placeId: string) => {
   ]);
   if (!home) return;
   const changed = rows.flatMap((r) => {
-    const next = normalizeOverride(home, r);
-    return stableJson(next) ===
-      stableJson({ attributes: r.attributes, category: r.category })
-      ? []
-      : [{ row: r, next }];
+    const stored = storedOverride(r);
+    const next = normalizeOverride(home, stored);
+    return stableJson(next) === stableJson(stored) ? [] : [{ row: r, next }];
   });
   const [first, ...rest] = changed.map(({ row, next }) => {
     const where = and(
@@ -377,7 +384,7 @@ const pruneOverrides = async (db: Database, placeId: string) => {
     );
     return isEmptyOverride(next)
       ? db.delete(placeOverride).where(where)
-      : db.update(placeOverride).set(next).where(where);
+      : db.update(placeOverride).set(overrideRow(next)).where(where);
   });
   if (first) await db.batch([first, ...rest]);
 };
@@ -396,7 +403,12 @@ const applyOverrideProposal = async (
   const placeId = p.placeId ?? "";
   const home = await db.query.place.findFirst({
     where: eq(place.id, placeId),
-    columns: { attributes: true, category: true, status: true },
+    columns: {
+      attributes: true,
+      category: true,
+      translations: true,
+      status: true,
+    },
   });
   if (home?.status !== "published")
     throw new TRPCError({
@@ -419,13 +431,17 @@ const applyOverrideProposal = async (
           .values({
             collectionId: p.collectionId,
             placeId,
-            ...next,
+            ...overrideRow(next),
             updatedAt: now,
             updatedBy: p.proposedBy,
           })
           .onConflictDoUpdate({
             target: [placeOverride.collectionId, placeOverride.placeId],
-            set: { ...next, updatedAt: now, updatedBy: p.proposedBy },
+            set: {
+              ...overrideRow(next),
+              updatedAt: now,
+              updatedBy: p.proposedBy,
+            },
           }),
     db
       .update(proposal)
@@ -809,7 +825,8 @@ export const proposalRouter = router({
 
   /**
    * Suggest a view map's own values for one of its places (custom fields,
-   * category): `attributes` and `category` are what the map should show
+   * category, translations of text field values): `attributes` and
+   * `category` are what the map should show
    * (null: no value there; category null: the home one), merged onto the
    * current override unless `reset`. Keys equal to the home values are not
    * stored. Goes through the view map's queue, with its permissions;
@@ -824,6 +841,11 @@ export const proposalRouter = router({
         category: z.string().min(1).max(32).nullable().optional(),
         revert: z.array(z.string().min(1).max(32)).max(50).optional(),
         reset: z.boolean().optional(),
+        /**
+         * The view's translations of text field values, `{nl: {attributes:
+         * {key: "…"}}}`, merged per language and key (null: drop one).
+         */
+        translations: overrideTranslationsPatchSchema.optional(),
         note: z.string().trim().max(1000).nullable(),
         /** Only work out the override (`status` "would-update"); write nothing. */
         dryRun: z.boolean().optional(),
@@ -873,10 +895,29 @@ export const proposalRouter = router({
           code: "BAD_REQUEST",
           message: `Not fields of this map: ${[...new Set(unknown)].join(", ")}`,
         });
+      const translations = withoutBase(input.translations, map.language);
+      const textKeys = new Set(
+        shape.fields
+          .filter((f) => f.type === "text" || f.type === "longtext")
+          .map((f) => f.key),
+      );
+      const badTranslated = Object.values(translations).flatMap((tr) =>
+        Object.keys(tr?.attributes ?? {}).filter((k) => !textKeys.has(k)),
+      );
+      if (badTranslated.length > 0)
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: `Only text fields of this map can be translated: ${[...new Set(badTranslated)].join(", ")}`,
+        });
       const current = (await overridesOf(ctx.db, map, [target.id])).get(
         target.id,
       );
-      const next = patchOverride(target, current, input);
+      assertLanguages(
+        map,
+        Object.keys(translations),
+        Object.keys(current?.translations ?? {}),
+      );
+      const next = patchOverride(target, current, { ...input, translations });
       // Values are checked as the map will show them; "required" is the
       // home map's business (a view's own fields start out empty).
       const issues = attributeIssues(

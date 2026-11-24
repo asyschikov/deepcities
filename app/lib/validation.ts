@@ -197,12 +197,41 @@ export const overrideAttributesSchema = z.record(
 );
 export type OverrideAttributes = z.infer<typeof overrideAttributesSchema>;
 
+/**
+ * A view map's own translations of text field values, the shape places use
+ * (`{nl: {attributes: {key: "…"}}}`). In a patch, null (or "") drops the
+ * view's translation of that key.
+ */
+export const overrideTranslationsPatchSchema = z.partialRecord(
+  contentLangSchema,
+  z
+    .object({
+      attributes: z.record(
+        z.string().max(32),
+        z.string().trim().max(4000).nullable(),
+      ),
+    })
+    .strict(),
+);
+export type OverrideTranslationsPatch = z.infer<
+  typeof overrideTranslationsPatchSchema
+>;
+/** Stored override translations: only non-empty strings. */
+export type OverrideTranslations = Partial<
+  Record<
+    (typeof CONTENT_LANGUAGES)[number],
+    { attributes: Record<string, string> }
+  >
+>;
+
 /** A view map's override for one place, as stored (see app/lib/overrides.ts). */
 export interface OverrideDraft {
   /** Only the overridden keys. */
   attributes: OverrideAttributes;
   /** Replaces the place's category on the view; null keeps the home one. */
   category: string | null;
+  /** The view's translations of text field values; left out when none. */
+  translations?: OverrideTranslations;
 }
 
 export const linkSchema = z.object({
@@ -275,6 +304,14 @@ export const mapViewSchema = z
       .strict()
       .optional(),
     detail: z.enum(VIEW_DETAILS).optional(),
+    /**
+     * Keys of the source's fields the view shows (in the source's order),
+     * before its own; left out: all of them.
+     */
+    sourceFields: z
+      .array(z.string().min(1).max(32))
+      .max(MAX_FIELDS_PER_MAP)
+      .optional(),
   })
   .refine(
     (v) =>
