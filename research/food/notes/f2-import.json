@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "total": 8,
+    "created": 8,
+    "alsoOnOtherMaps": 3
+  },
+  "results": [
+    {
+      "title": "Wynand Fockink, the tasting room where you bow to your glass",
+      "result": "created",
+      "alsoOn": [
+        {
+          "map": "centrum",
+          "placeId": "j4j5jv0g6p0kad8pojtqd7bp",
+          "title": "Pijlsteeg, the medieval brothel alley that runs through a hotel",
+          "why": "5 m apart"
+        }
+      ],
+      "id": "fsbx5eb758a662e4jhhwv33q",
+      "status": "approved",
+      "placeId": "y2wi70kx2zzgpt4majyu2jpv"
+    },
+    {
+      "title": "Van Wees distillery De Ooievaar, the Jordaan's last still",
+      "result": "created",
+      "id": "c42b5fqhvjh02gtp8wij8gne",
+      "status": "approved",
+      "placeId": "y33fu1vv8kxclynqnc95ayvp"
+    },
+    {
+      "title": "Eetsalon Van Dobben, the croquette counter of 1945",
+      "result": "created",
+      "id": "es69wiu3qsr9h7ifpt1mpba0",
+      "status": "approved",
+      "placeId": "i7k1928kemwqjoluoc3s0jge"
+    },
+    {
+      "title": "D'Vijff Vlieghen and Nicolaas Kroese, the man with five copper flies",
+      "result": "created",
+      "id": "lwjxdc12by92idymzi83ejk7",
+      "status": "approved",
+      "placeId": "mqe3s4603lrqfebloiz4y6bq"
+    },
+    {
+      "title": "Stubbe's Haring on the Haarlemmersluis",
+      "result": "created",
+      "id": "tep4critfv1nw3n1ililg22f",
+      "status": "approved",
+      "placeId": "dnvndczvvw571djo2q27p1r0"
+    },
+    {
+      "title": "Toko Dun Yong, the Chinese shop that grew out of a button shop",
+      "result": "created",
+      "alsoOn": [
+        {
+          "map": "centrum",
+          "placeId": "cd4t9q64wxrvn6dnfwrzo5a4",
+          "title": "Geldersekade 78, the office of the swindler Barmat",
+          "why": "23 m apart"
+        }
+      ],
+      "id": "wszyst6fzsj7y35mta9spi2e",
+      "status": "approved",
+      "placeId": "qv461jmu4hj8ffcmy2hvlscm"
+    },
+    {
+      "title": "Wegewijs, the Rozengracht grocer since 1905",
+      "result": "created",
+      "id": "sfwt67f98b23p7tp18vedkwt",
+      "status": "approved",
+      "placeId": "zpwtrlv8nf1eqipqq1vs3sny"
+    },
+    {
+      "title": "The Bulldog The First, the coffeeshop in a sex shop's basement",
+      "result": "created",
+      "alsoOn": [
+        {
+          "map": "centrum",
+          "placeId": "zekz580y98iret1ll0he2bq0",
+          "title": "Trompettersteeg, the narrowest alley and its hidden coat of arms",
+          "why": "7 m apart"
+        }
+      ],
+      "id": "a3gq8vbtkq9hg30ycljqt66h",
+      "status": "approved",
+      "placeId": "cl4v4i20egd0ukzigjkonp99"
+    }
+  ]
+}
