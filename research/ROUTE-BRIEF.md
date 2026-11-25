@@ -15,6 +15,8 @@ manage-content skill's "Routes" section in `.claude/skills/manage-content/SKILL.
 ## What a good route is
 
 - A clear theme or story that makes sense in order; a real walk or ride someone would do.
+- **Great value or nothing.** Never write a route just to have one; dropping a thin idea is a good
+  result (say why). Walks where places are dense; where they are sparse, prefer a ride.
   Walks 3 to 6 km, 10 to 18 stops; rides 15 to 35 km, 12 to 20 stops. Loop when it is
   natural (start and end at a station or tram/metro stop); otherwise A to B with transit
   at both ends.
