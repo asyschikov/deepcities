@@ -54,9 +54,10 @@ export const goneCounts = async (
 
 export const goneRouter = router({
   /**
-   * A quick correction ("it's gone", "the pin is off", ...): goes to the
-   * map's moderators. Reporting again replaces your report. Earns points
-   * once per place, more when sent from the spot.
+   * A quick correction ("it's gone", "the pin is off", ...), sent on the
+   * spot only (from afar it is editorial work): goes to the map's
+   * moderators. Reporting again replaces your report. Earns points once
+   * per place.
    */
   report: authedProcedure
     .input(
@@ -76,6 +77,12 @@ export const goneRouter = router({
     .mutation(async ({ ctx, input }) => {
       const target = await publishedPlace(ctx.db, input.placeId);
       await requireCap(ctx.db, target.collectionId, ctx.profile, "visit");
+      if (!input.position || !onTheSpot(input.position, target)) {
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: "You need to be at the place to report on it",
+        });
+      }
       const row = {
         kind: input.kind,
         note: input.note || null,
@@ -96,13 +103,12 @@ export const goneRouter = router({
           target: [goneReport.placeId, goneReport.profileId],
           set: row,
         });
-      const here = input.position ? onTheSpot(input.position, target) : false;
       const points = await award(ctx.db, {
         profileId: ctx.profile.id,
         collectionId: target.collectionId,
         city: await cityOf(ctx.db, target.collectionId),
         placeId: target.id,
-        kind: here ? "report_here" : "report",
+        kind: "report_here",
         key: `report:${target.id}`,
       });
       return { ok: true, points };

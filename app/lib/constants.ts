@@ -224,23 +224,23 @@ export const REPORT_KINDS = [
 export type ReportKind = (typeof REPORT_KINDS)[number];
 
 /**
- * Explorer points. One score for now; every kind of exploring counts.
+ * Explorer points. One score for now; every kind of exploring counts,
+ * weighted to what you bring back (photos, verdicts) over just being there.
  * Each award has a key so it is paid at most once (see `lib/score.ts`).
  */
 export const SCORE_POINTS = {
   /** A check-in on the spot (one per place, ever). */
-  checkin: 10,
+  checkin: 2,
   /** The first check-in anyone ever made at the place. */
-  first_visit: 5,
+  first_visit: 3,
   /** A verdict on a place (once per place). */
-  verdict: 2,
-  /** A quick correction (once per place): on the spot, or from afar. */
+  verdict: 5,
+  /** A quick correction, on the spot (once per place). */
   report_here: 3,
-  report: 1,
   /** A photo of the place, and when it is accepted onto the place. */
-  place_photo: 5,
+  place_photo: 10,
   photo_accepted: 10,
-  selfie: 1,
+  selfie: 2,
 } as const;
 export type ScoreKind = keyof typeof SCORE_POINTS;
 export const SCORE_KINDS = Object.keys(SCORE_POINTS) as [

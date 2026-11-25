@@ -692,9 +692,7 @@ export const VisitPanel = ({
       )}
 
       {!markedGone && (
-        <div className="border-t pt-2">
-          <QuickReport placeId={placeId} placeTitle={placeTitle} />
-        </div>
+        <QuickReport placeId={placeId} placeTitle={placeTitle} here={here} />
       )}
 
       <CheckInDialog

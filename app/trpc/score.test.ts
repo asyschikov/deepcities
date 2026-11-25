@@ -77,7 +77,7 @@ describe("explorer points", () => {
       position: NEAR,
       verdict: "nice",
     });
-    expect(first.points).toBe(10 + 5 + 2);
+    expect(first.points).toBe(2 + 3 + 5);
     expect(first.askPublic).toBe(true);
 
     // One check-in per place: a second is refused; the verdict can change.
@@ -96,11 +96,11 @@ describe("explorer points", () => {
       placeId: "spot",
       position: NEAR,
     });
-    expect(bobs.points).toBe(10);
+    expect(bobs.points).toBe(2);
 
     expect(bobs.askPublic).toBe(true);
     await scores(bob).setPublic({ isPublic: false });
-    expect((await scores(ann).mine()).total).toBe(17);
+    expect((await scores(ann).mine()).total).toBe(10);
   });
 
   it("takes points back when the visit is deleted", async () => {
@@ -108,7 +108,7 @@ describe("explorer points", () => {
       placeId: "spot",
       position: NEAR,
     });
-    expect((await scores(ann).mine()).total).toBe(15);
+    expect((await scores(ann).mine()).total).toBe(5);
     await checkins(ann).delete({ checkinId: id });
     expect((await scores(ann).mine()).total).toBe(0);
     // With the visit gone, you can check in again.
@@ -116,10 +116,10 @@ describe("explorer points", () => {
       placeId: "spot",
       position: NEAR,
     });
-    expect(again.points).toBe(15);
+    expect(again.points).toBe(5);
   });
 
-  it("pays a correction once per place, more on the spot", async () => {
+  it("takes corrections on the spot only, paid once per place", async () => {
     const here = await reports(ann).report({
       placeId: "spot",
       kind: "closed",
@@ -129,16 +129,22 @@ describe("explorer points", () => {
     const again = await reports(ann).report({
       placeId: "spot",
       kind: "changed",
+      position: NEAR,
     });
     expect(again.points).toBe(0);
     expect((await reports(ann).forPlace({ placeId: "spot" })).mineKind).toBe(
       "changed",
     );
-    const remote = await reports(bob).report({
-      placeId: "spot",
-      kind: "wrong_location",
-    });
-    expect(remote.points).toBe(1);
+    await expect(
+      reports(bob).report({ placeId: "spot", kind: "wrong_location" }),
+    ).rejects.toThrow(/at the place/);
+    await expect(
+      reports(bob).report({
+        placeId: "spot",
+        kind: "wrong_location",
+        position: FAR,
+      }),
+    ).rejects.toThrow(/at the place/);
     // Only gone / not found warn other visitors.
     expect((await reports(bob).forPlace({ placeId: "spot" })).count).toBe(0);
   });
@@ -148,7 +154,7 @@ describe("explorer points", () => {
     await checkins(bob).create({ placeId: "spot", position: NEAR });
     await scores(bob).setPublic({ isPublic: true });
     const board = await scores(null).leaderboard({ city: "Amsterdam" });
-    expect(board.map((r) => [r.name, r.points])).toEqual([["bob", 10]]);
+    expect(board.map((r) => [r.name, r.points])).toEqual([["bob", 2]]);
     expect(await scores(null).leaderboard({ city: "Rotterdam" })).toEqual([]);
   });
 });

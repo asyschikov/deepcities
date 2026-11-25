@@ -65,9 +65,12 @@ const KIND_ICONS: Record<ReportKind, typeof SearchX> = {
 export const QuickReport = ({
   placeId,
   placeTitle,
+  here,
 }: {
   placeId: string;
   placeTitle: string;
+  /** On the spot: corrections are sent from there only. */
+  here: boolean;
 }) => {
   const { t } = useTranslation();
   const trpc = useTRPC();
@@ -104,7 +107,7 @@ export const QuickReport = ({
 
   if (data?.mine && data.mineKind) {
     return (
-      <p className="text-xs text-muted-foreground">
+      <p className="border-t pt-2 text-xs text-muted-foreground">
         {t("report_you_said", {
           what: t(`report_${data.mineKind}`),
           when: formatDistanceToNow(data.mine, { addSuffix: true }),
@@ -121,8 +124,10 @@ export const QuickReport = ({
     );
   }
 
+  if (!here) return null;
+
   return (
-    <div className="space-y-1.5">
+    <div className="space-y-1.5 border-t pt-2">
       <div className="text-xs font-medium text-muted-foreground">
         {t("report_ask")}
       </div>
