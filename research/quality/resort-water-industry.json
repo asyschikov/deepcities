@@ -1,0 +1,361 @@
+{
+ "moves": [
+  {
+   "id": "yp74os2tnjs5ice5rtlk8e5g",
+   "title": "150 kV station Science Park",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "High-voltage substation: gas & power"
+  },
+  {
+   "id": "psbvek78th8qubtac4a3quwy",
+   "title": "Amstelstation",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway station: transport"
+  },
+  {
+   "id": "ni0n6v70uxjuzjikudzx36iy",
+   "title": "Amsterdam Heliport",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Heliport: transport"
+  },
+  {
+   "id": "tlp9ba6wgk9zvadb07yuunha",
+   "title": "Arriving at Centraal Station",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Station cluster (passage, metro hall, parcel post, tram station): transport"
+  },
+  {
+   "id": "swg0rz8ku7w8q9xy5ac0hv3c",
+   "title": "Brittenpassage: the first finished piece of the Zuidasdok",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Station passage under motorway and railway: transport"
+  },
+  {
+   "id": "rkem5k1euaatzoxxv0kw0c18",
+   "title": "Centraal Station metro station (Noord/Zuidlijn)",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Metro station: transport"
+  },
+  {
+   "id": "fpetk5m6ums4jp27izpt3p6i",
+   "title": "Ceres Paragon terminal and its indented berth",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Container terminal built for port work, not a basin to visit"
+  },
+  {
+   "id": "atmoxbgupriq3cqbhq3ydk21",
+   "title": "Commiezenhuisje, the excise post over a sewage pump",
+   "from": "infrastructure",
+   "to": "civic",
+   "reason": "The draw is the 1842 city excise office; the sewage pump under it is invisible"
+  },
+  {
+   "id": "jpwa6uucawbwssdjtenl7p3o",
+   "title": "Droogbak, the railway company's palace",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway company head office: transport"
+  },
+  {
+   "id": "dj2eoeimtuq9s5ros23gph1c",
+   "title": "Europarking, the garage nicknamed Zanstra's buttocks",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Car park, like the other garages in Industrial heritage"
+  },
+  {
+   "id": "agvjz65sw648tgmtr0vlygy5",
+   "title": "GEB substation, Eerste Helmersstraat",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Electricity substation: gas & power"
+  },
+  {
+   "id": "xac07dj0j6dy2s0d0jjp3mgz",
+   "title": "Haarlemmer Houttuinen, the motorway that stopped at a bridge",
+   "from": "infrastructure",
+   "to": "hidden-history",
+   "reason": "Story of a demolished quarter and an unfinished motorway; the bridge is incidental"
+  },
+  {
+   "id": "whv6km1m0hrkb3xcekdfeoqg",
+   "title": "Haarlemmermeerstation, the terminus the trams had to leave",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway terminus and tram yard: transport"
+  },
+  {
+   "id": "a7ghpjq4jkaizz9fd47oxvbu",
+   "title": "Horse-tram depot of the Tweede Leeghwaterstraat",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Horse-tram depot: transport"
+  },
+  {
+   "id": "ps59farwok8bu7rz4jjz7569",
+   "title": "Horse-tram depot, Linnaeusstraat",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Horse-tram depot: transport"
+  },
+  {
+   "id": "upj2zm4878efniz46mo4jf1l",
+   "title": "Horse-tram depot, Overtoom",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Horse-tram depot: transport"
+  },
+  {
+   "id": "q3ewzbjp5zgm8urbauje0rph",
+   "title": "IJhal, the mirrored hall behind Centraal Station",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Station hall: transport"
+  },
+  {
+   "id": "b4kaivbqoi5x5vvq967g5sl5",
+   "title": "Koninginneweg horse tram depot",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Horse-tram depot: transport"
+  },
+  {
+   "id": "uhw6oh8iecgvowy5ash8di6m",
+   "title": "Leidsestraat's tangled tram track",
+   "from": "infrastructure",
+   "to": "curiosities",
+   "reason": "An odd track layout, a found oddity"
+  },
+  {
+   "id": "vi20lj2kzmqta53nkfaoql0k",
+   "title": "Lelylaan viaduct (Brug 705)",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Road viaduct over a street, not water: transport"
+  },
+  {
+   "id": "d758h06mflf19h7jrhgynmov",
+   "title": "Metro station Kraaiennest",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Metro station: transport"
+  },
+  {
+   "id": "sg4mhgvj5s6qxri75fd44stm",
+   "title": "Metro station Noord",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Metro station: transport"
+  },
+  {
+   "id": "exfh67vfbf79f0pxatchnlzv",
+   "title": "Montelbaanstoren, the tower that had to be pulled straight",
+   "from": "infrastructure",
+   "to": "civic",
+   "reason": "City defence tower, like the Munttoren (civic)"
+  },
+  {
+   "id": "yqgvv893qy8daoyfm9xpn8s1",
+   "title": "Muiderpoort, the gate Napoleon rode through",
+   "from": "infrastructure",
+   "to": "civic",
+   "reason": "City gate, like the Haarlemmerpoort (civic)"
+  },
+  {
+   "id": "wzmnrj1wqldmmfk7egu3aesg",
+   "title": "Muiderpoortstation and its signal box",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway station and signal box: transport"
+  },
+  {
+   "id": "da4bqnhxjvbyqwgd0gwksz10",
+   "title": "Noord-Zuid-Hollands Koffiehuis, the tram station taken apart for the metro",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Former tram station building: transport"
+  },
+  {
+   "id": "n9wyr7q5cqt9p947kwglj8nk",
+   "title": "Pakketpostgebouw, the parcel machine beside Centraal Station",
+   "from": "infrastructure",
+   "to": "civic",
+   "reason": "Post office, like Magna Plaza and the other post offices (civic)"
+  },
+  {
+   "id": "k8kqpuhk2td62hzenvt3vvm2",
+   "title": "Passenger Terminal Amsterdam",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Cruise terminal building: transport"
+  },
+  {
+   "id": "ya88emcgi0ebtt5l0e2bl7xa",
+   "title": "Raadhuisstraat, a tram street cut through the canals",
+   "from": "infrastructure",
+   "to": "hidden-history",
+   "reason": "A street breakthrough and the office fronts along it; no water or bridges"
+  },
+  {
+   "id": "fjtwtkxwg6h72oyoxh21cr6a",
+   "title": "Along the Raadhuisstraat: the tram street and the canal houses it cut through",
+   "from": "infrastructure",
+   "to": "hidden-history",
+   "reason": "Street-breakthrough cluster; bridges are one stop among many (they have their own entry)"
+  },
+  {
+   "id": "lpudzpeoivulgrxs72hx6mxd",
+   "title": "Railway keeper's house, Lange Muiderweg",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway keeper's house: transport"
+  },
+  {
+   "id": "bnxsvhtfsidyjm9wfvyqe524",
+   "title": "Remise Lekstraat, the tram depot",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Tram depot: transport"
+  },
+  {
+   "id": "unkm524u3n6gxuf67o3qcs0s",
+   "title": "Riekermolen",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Windmill: mills are Industrial heritage"
+  },
+  {
+   "id": "qy6bi58l0gq4seq01l7ed931",
+   "title": "Spaarndammerspoorbrug (Hildo Krop sculptures)",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway viaduct over a street, not water: transport"
+  },
+  {
+   "id": "tra46y4nvcwwe3nh6ut03lry",
+   "title": "Station Amsterdam Bijlmer ArenA",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway station: transport"
+  },
+  {
+   "id": "ts0z1rwsxm2ub0aaeflt48wt",
+   "title": "Station De Pijp, the deepest platform in the country",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Metro station: transport"
+  },
+  {
+   "id": "w2sz0bdnexon2fsmfayjsflw",
+   "title": "Station De Vlugtlaan ghost platforms",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Former railway station: transport"
+  },
+  {
+   "id": "oegpgc4202f9ooqw7y528dnh",
+   "title": "Station Sloterdijk and the Teleport offices",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Railway station: transport"
+  },
+  {
+   "id": "rgepuxodhwfmevnh6c3lecd4",
+   "title": "The Jordaan's service edge on the Singelgracht",
+   "from": "infrastructure",
+   "to": "civic",
+   "reason": "City services cluster: poor clinic, fire station, market, substation"
+  },
+  {
+   "id": "ald0hvuu778j1ig0zxjhew18",
+   "title": "The bicycle garage under the water at Stationsplein",
+   "from": "infrastructure",
+   "to": "industrial",
+   "reason": "Bicycle garage: transport, though it lies under a harbour basin"
+  },
+  {
+   "id": "mzxy0eyw2efm4ict9v8g6ugz",
+   "title": "The six lanterns of the Royal Palace, lit for a king who never saw them",
+   "from": "infrastructure",
+   "to": "curiosities",
+   "reason": "Ornate gas lanterns with a story, a found oddity"
+  },
+  {
+   "id": "ugehu5vx3e88b9catw4iz9n7",
+   "title": "Vijzelstraat, the street they widened by tearing down one side",
+   "from": "infrastructure",
+   "to": "hidden-history",
+   "reason": "Street widening, a collapse and a bank tower; no water"
+  },
+  {
+   "id": "vyk5qo1oo3ae6j3ck6au9ipa",
+   "title": "Emergency waterworks of the Defence Line (Rijkshemelvaartdienst)",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "Drinking-water plant: waterworks"
+  },
+  {
+   "id": "cltp1mv5m1ayhhjg5grdcmj1",
+   "title": "Flevopark pumping station and the polder cottages",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "Polder pumping station"
+  },
+  {
+   "id": "a2rzmn6vugw94pxh8rvsttxr",
+   "title": "Former waterworks (Watertorenplein)",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "City waterworks and water tower"
+  },
+  {
+   "id": "j3ddwkyv3aomf5tghxem4jra",
+   "title": "Gemaal Halfweg (1977)",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "Polder pumping station"
+  },
+  {
+   "id": "hv01g9ryqm79eg9oxon77giy",
+   "title": "Gemaal Kadoelen and the Concertgemaal",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "Pumping stations"
+  },
+  {
+   "id": "txq2dfkop0bbmobvvsaoo1c4",
+   "title": "Main sewage pumping station, Zeeburgerdijk",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "Sewage pumping station, like Rioolgemaal F (already Water & bridges)"
+  },
+  {
+   "id": "p3hagif5wf6sicvhusik46r8",
+   "title": "Petroleumhaven",
+   "from": "industrial",
+   "to": "infrastructure",
+   "reason": "Harbour basin"
+  },
+  {
+   "id": "wanthsf989hpp4s401xp9iq9",
+   "title": "Krasnapolsky's Winter Garden and the power station behind it",
+   "from": "industrial",
+   "to": "food-drink",
+   "reason": "The Winter Garden is a hotel breakfast room, entered by eating there"
+  },
+  {
+   "id": "czatovrrro4kdrkd1r5268he",
+   "title": "Sexyland, the club with 365 owners",
+   "from": "industrial",
+   "to": "culture",
+   "reason": "A club and stage, not a heritage building"
+  }
+ ]
+}
