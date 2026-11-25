@@ -1,0 +1,1073 @@
+{
+  "moves": [
+    {
+      "id": "rdwnvux0lssmnnlu9hihuuzy",
+      "title": "H'ART Museum in the Amstelhof",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Collection museum (H'ART): you go for the exhibitions"
+    },
+    {
+      "id": "rjcpk14s3jr8sj7gl2yjq1db",
+      "title": "Het Scheepvaartmuseum and the ship Amsterdam",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "National maritime museum; the collection and the ship are the visit"
+    },
+    {
+      "id": "py728mskln2x7j728twnd5pg",
+      "title": "Jewish Museum (Joods Museum), four synagogues in one",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Collection museum (named by the user); synagogue history is told inside it"
+    },
+    {
+      "id": "xn6hd2k80skaxcozyj0vzb6t",
+      "title": "Lasloods (STRAAT Museum)",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Holds STRAAT, the street art museum (named by the user); the hall is its setting"
+    },
+    {
+      "id": "m0b5mrr110cik1pr93ytz31i",
+      "title": "Moco Museum (Villa Alsberg)",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Collection museum (Moco)"
+    },
+    {
+      "id": "cd6lwb2flcsk50v3nn5z2u7u",
+      "title": "NEMO Science Museum",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Science museum (NEMO); the free roof square is a bonus"
+    },
+    {
+      "id": "y853cvdfiqbh4zi5qwky1nog",
+      "title": "Rembrandthuis (Rembrandt House Museum)",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Rembrandt House Museum, named by the user as a collection museum"
+    },
+    {
+      "id": "h6dfmgyc1m6iicoixkub2q5y",
+      "title": "Rijksmuseum",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "National museum"
+    },
+    {
+      "id": "eqql7e6yjc56w7y65quaozct",
+      "title": "Stedelijk Museum",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Museum of modern art"
+    },
+    {
+      "id": "v84iqfmph1ur1jevk5h68na1",
+      "title": "Van Gogh Museum",
+      "from": "culture",
+      "to": "odd-museums",
+      "reason": "Collection museum"
+    },
+    {
+      "id": "xh4wcfw1c4oh016o7dy5zo9q",
+      "title": "Allard Pierson, in the old Nederlandsche Bank",
+      "from": "civic",
+      "to": "odd-museums",
+      "reason": "Allard Pierson, the university's archaeology and collections museum; you go for the collection, the bank building is its home"
+    },
+    {
+      "id": "s2xoptptzva44ujk9epjxlxw",
+      "title": "Six Collection, Amstel 218",
+      "from": "housing",
+      "to": "odd-museums",
+      "reason": "A private art collection (Rembrandt's Jan Six) shown by appointment; the collection is the only reason to go in"
+    },
+    {
+      "id": "vfqy9dm5nccayob650opqr45",
+      "title": "Huis Willet-Holthuysen and its plantation money",
+      "from": "culture",
+      "to": "hidden-history",
+      "reason": "House museum whose text and title turn on the plantation money behind the house; not a collection museum"
+    },
+    {
+      "id": "tfd6lpt6j68i3c2dsvkttj8z",
+      "title": "Apollohal, the tennis hall built to last twenty years",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Sports hall now (basketball); its value is the 1934 glass hall by Boeken and Bodon's hotel: architecture"
+    },
+    {
+      "id": "eejq4ildpyzcamjubhgttvlg",
+      "title": "Bijlmer Sportcentrum",
+      "from": "culture",
+      "to": "civic",
+      "reason": "District sports centre; value is the zigzag glass building, a public facility"
+    },
+    {
+      "id": "sjj8adi0j90ykitbs7z1fck5",
+      "title": "Clubhouse of rowing club De Amstel",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Rowing club boathouse; value is Staal's odd 1954 building (dome, mast, chimneys)"
+    },
+    {
+      "id": "tgzz6vdarrj9cmxzqrmp0hl1",
+      "title": "Hollandsche Manege",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Riding school; value is Van Gendt's 1882 riding hall hidden behind the Vondelstraat"
+    },
+    {
+      "id": "t70e9cjjigw6f1phx30kryw3",
+      "title": "Johan Cruijff ArenA",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Stadium; text is about the building (road underneath, sliding roof, pitches)"
+    },
+    {
+      "id": "evv21bwy96hv1tq8r0ujpchb",
+      "title": "Nereus boathouse",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Rowing club boathouse; the building and its maker are the story"
+    },
+    {
+      "id": "g4u6mhmp7639tu3359rn2lpo",
+      "title": "Noorderparkbad",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Public pool; value is the award-winning 2015 building"
+    },
+    {
+      "id": "i49qa98lxns1x90vlsxrpmxf",
+      "title": "OBA Oosterdok, the library with a free view",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Central public library, not a stage; the free seventh-floor view is the draw"
+    },
+    {
+      "id": "zigsxso8bog8udba9bw7dddp",
+      "title": "Olympic Stadium",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Stadium; text is about Jan Wils's 1928 building and its restoration"
+    },
+    {
+      "id": "x9jffzoxm1lvuu3ud06mgq3n",
+      "title": "Sportplaza Mercator",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Pool and sports complex; value is the planted 'fortress' building"
+    },
+    {
+      "id": "w10bn1zvs4zlsc1165qm6fi9",
+      "title": "Velodrome Amsterdam, Sportpark Sloten",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Covered cycling track; value is the rare building (one of three in the country)"
+    },
+    {
+      "id": "bckwe6sxg2oznn34ifib8tql",
+      "title": "Zuiderbad",
+      "from": "culture",
+      "to": "civic",
+      "reason": "Public pool of 1912 in a cycling school; building and its survival are the story"
+    },
+    {
+      "id": "rhx9rdb7j9oia0wpum8n6m5a",
+      "title": "Brediusbad and the Bredius sign-sculpture",
+      "from": "culture",
+      "to": "curiosities",
+      "reason": "Hidden open-air pool plus the sign-sculpture mishap; was curiosities before the culture sweep"
+    },
+    {
+      "id": "p3mdn6b7ibk2rdoeih7asilw",
+      "title": "De Mirandabad, the Mediterranean of 1979",
+      "from": "culture",
+      "to": "curiosities",
+      "reason": "The 1979 'tropical swim paradise' with palms and a wave pool is the curiosity; was curiosities before"
+    },
+    {
+      "id": "zl76l8gfrvzvzwvuycrpllf3",
+      "title": "De Hallen (Westelijke Tramremise)",
+      "from": "culture",
+      "to": "infrastructure",
+      "reason": "The converted 1902 tram depot (rails still in the passage) is the sight; cinema is one tenant among food hall, library and hotel"
+    },
+    {
+      "id": "seladrj25mmhtixn8g69n02c",
+      "title": "NDSM Loods (Scheepsbouwloods)",
+      "from": "culture",
+      "to": "industrial",
+      "reason": "Value is the giant 1920 shipbuilding hall with an art city of studios inside; not a stage"
+    },
+    {
+      "id": "ivvg2pcrabt8f8mj7k6bmjvs",
+      "title": "Westbeat and the dancers' Super Space (Lelylaan)",
+      "from": "culture",
+      "to": "housing",
+      "reason": "Housing block on 86 arches; the hall underneath is a rehearsal space, nobody goes to watch"
+    },
+    {
+      "id": "ywsp3c1favn98gjnn8hs24j5",
+      "title": "Pniëlkerk ('het Theelichtje')",
+      "from": "culture",
+      "to": "religious",
+      "reason": "Text is the glowing 1950s church (het Theelichtje); the theatre is its current use"
+    },
+    {
+      "id": "luel8zw8h6ozsxr54385mo0i",
+      "title": "Rode Hoed, the biggest hidden church in the country",
+      "from": "culture",
+      "to": "religious",
+      "reason": "The largest hidden church in the country is the sight; debating hall is its current use"
+    },
+    {
+      "id": "nwnqlqo1doa9f08p8bd22ck4",
+      "title": "Multatuli's alley and the Langestraat",
+      "from": "odd-museums",
+      "to": "curiosities",
+      "reason": "Cluster: the museum is one stop among a turned house, a tailors' stone, a coach house and a unique cable box; not a museum"
+    },
+    {
+      "id": "rapbfjylfxexv8i267ufgzf9",
+      "title": "Museum Fodor, the Walloon church and the Mennonite orphans",
+      "from": "odd-museums",
+      "to": "curiosities",
+      "reason": "Cluster of four buildings that changed use (Foam, Walloon church, orphanage houses, rattan workshop); Foam has its own place"
+    },
+    {
+      "id": "u2nb8ca1tvzyi6jbjjve9q18",
+      "title": "Perlee, the street-organ workshop on the Westerstraat",
+      "from": "odd-museums",
+      "to": "curiosities",
+      "reason": "A working street-organ workshop visited by appointment, not a museum; fits shops and trades in curiosities"
+    },
+    {
+      "id": "czatovrrro4kdrkd1r5268he",
+      "title": "Sexyland, the club with 365 owners",
+      "from": "industrial",
+      "to": "culture",
+      "reason": "Artists' club where each night is a different show (concerts, wrestling, vogue balls); you go to watch; reopening at the NDSM Theater"
+    },
+    {
+      "id": "nh6s8vrct9cp0qcxk38djlei",
+      "title": "Jazz Café Alto, live jazz every night off the Leidseplein",
+      "from": "food-drink",
+      "to": "culture",
+      "reason": "Live jazz seven nights a week is the reason to go; same call as Maloe Melo and The Cave"
+    },
+    {
+      "id": "bq43j5spxhbi3xskp3p66vvy",
+      "title": "De Balie, the courthouse beside the old remand prison",
+      "from": "civic",
+      "to": "culture",
+      "reason": "Now De Balie: debates, theatre and films are why you go in; the courthouse and prison story stays in the text"
+    }
+  ],
+  "stays": [
+    {
+      "id": "bx42pdvb7rzqrk0k85ihqz0d",
+      "title": "Bijlmer Parktheater",
+      "category": "culture",
+      "reason": "Theatre"
+    },
+    {
+      "id": "rfa00eaavezg9uta7n1okq5k",
+      "title": "Bitterzoet, the hip-hop stage in the Werkteater's old home",
+      "category": "culture",
+      "reason": "Club and live stage"
+    },
+    {
+      "id": "zr5580v9hr76c2lw0r8sfz7t",
+      "title": "Cinetol, the small pop stage next to the theosophists' temple",
+      "category": "culture",
+      "reason": "Pop stage"
+    },
+    {
+      "id": "azno6eijzjizag6abbsrgyqf",
+      "title": "City Theater, a picture palace built in a year",
+      "category": "culture",
+      "reason": "Working cinema (Pathé City since 2010)"
+    },
+    {
+      "id": "kouddzeq34c428jrd3xh3b7m",
+      "title": "City of Wesopa",
+      "category": "culture",
+      "reason": "Cinema building, volunteer theatre and film house"
+    },
+    {
+      "id": "weyke5ks7uq5yqdabpm4h6o9",
+      "title": "Club RAUM, the queer-run techno club in Sloterdijk",
+      "category": "culture",
+      "reason": "Techno club"
+    },
+    {
+      "id": "qlfbyd9polzh2z1innj0hzkm",
+      "title": "Concertgebouw",
+      "category": "culture",
+      "reason": "Concert hall"
+    },
+    {
+      "id": "inopxa3crp7mfyb46mptjvct",
+      "title": "Cruise Inn, the rock 'n' roll clubhouse on Zeeburgereiland",
+      "category": "culture",
+      "reason": "Rock 'n' roll clubhouse with live bands"
+    },
+    {
+      "id": "tq54utj81ns4q2pvn3xffwhb",
+      "title": "De Kleine Komedie",
+      "category": "culture",
+      "reason": "Theatre"
+    },
+    {
+      "id": "j7jexe2f77hv37s1m9jjyyef",
+      "title": "De Meervaart and the theatre in the Sloterplas",
+      "category": "culture",
+      "reason": "Theatre"
+    },
+    {
+      "id": "e2pyb6qi7o5ie78v3i0ii1ym",
+      "title": "De Nieuwe Anita, the living-room venue on the Frederik Hendrikstraat",
+      "category": "culture",
+      "reason": "Living-room venue for bands, poets and comedy"
+    },
+    {
+      "id": "hp6am4tesnxs7f2uacmi6j03",
+      "title": "De Nieuwe Liefde",
+      "category": "culture",
+      "reason": "House for debate and poetry; you go to hear something"
+    },
+    {
+      "id": "cfvns6uzf4jwju2fmlmz42ti",
+      "title": "De Roode Bioscoop, the anarchists' cinema on the Haarlemmerplein",
+      "category": "culture",
+      "reason": "Small volunteer stage"
+    },
+    {
+      "id": "jqgi05b6tgttv9jkc5mb43pz",
+      "title": "Felix Meritis, from Enlightenment club to Communist HQ",
+      "category": "culture",
+      "reason": "Cultural venue whose story is a concert room and society hall; you go in for its programme"
+    },
+    {
+      "id": "sa4f08i4r417e25ft7atq41v",
+      "title": "Garage Noord, the small club on the Gedempt Hamerkanaal",
+      "category": "culture",
+      "reason": "Club"
+    },
+    {
+      "id": "ti17h50ut2dgk0eevx7vhflo",
+      "title": "Koninklijk Theater Carré",
+      "category": "culture",
+      "reason": "Theatre"
+    },
+    {
+      "id": "acidtq3bomknl9gh40gu7bo8",
+      "title": "Kriterion, the cinema the resistance students built",
+      "category": "culture",
+      "reason": "Cinema"
+    },
+    {
+      "id": "tvxihgu00gm5e7hep2jgk04a",
+      "title": "LAB111 (Wilhelmina Gasthuis pathology laboratory)",
+      "category": "culture",
+      "reason": "Cinema"
+    },
+    {
+      "id": "go9zxzfmymzxfh9gl3smsqh4",
+      "title": "Maloe Melo, the blues café on the Lijnbaansgracht",
+      "category": "culture",
+      "reason": "Live blues stage"
+    },
+    {
+      "id": "cc3fb71jiphd5owntcb99vhz",
+      "title": "Melkweg, the milk factory that became a 'cosmic centre'",
+      "category": "culture",
+      "reason": "Music venue"
+    },
+    {
+      "id": "bl7qb8jvn5x9g1oa2xh1bwh5",
+      "title": "Muziekgebouw aan 't IJ and the Bimhuis",
+      "category": "culture",
+      "reason": "Concert hall and jazz club"
+    },
+    {
+      "id": "itvuljfzfp8o53797ssc5e75",
+      "title": "OT301 (former Film Academy)",
+      "category": "culture",
+      "reason": "Cultural centre with cinema and concerts"
+    },
+    {
+      "id": "tu9bo2m469n39meqc88978xo",
+      "title": "Paradiso, the free congregation's meeting hall",
+      "category": "culture",
+      "reason": "Music venue"
+    },
+    {
+      "id": "hx7dwu71gosab9zsoiknjyt1",
+      "title": "Pathé Tuschinski",
+      "category": "culture",
+      "reason": "Cinema"
+    },
+    {
+      "id": "tylg9lleu60ve6gdnqjxbstc",
+      "title": "Rabozaal, the theatre on top of the Melkweg",
+      "category": "culture",
+      "reason": "Theatre hall"
+    },
+    {
+      "id": "joux602hg58i2scc3wuqbsgf",
+      "title": "Rock Club The Cave, the metal basement on the Prinsengracht",
+      "category": "culture",
+      "reason": "Metal bar with bands"
+    },
+    {
+      "id": "pj6jou71mb31d2px5tiedouc",
+      "title": "Rozentheater, a picture palace with Pierrots on the door",
+      "category": "culture",
+      "reason": "Comedy theatre (Boom Chicago)"
+    },
+    {
+      "id": "pmt4b6bhzta5j6zk5aa44rwt",
+      "title": "Schinkelhaven horse tram depot (OCCII and De Binnenpret)",
+      "category": "culture",
+      "reason": "Concert hall OCCII and children's theatre"
+    },
+    {
+      "id": "uj9e5r0yvdw0jjjra7e6y4lz",
+      "title": "The Marionettentheater in the old Smederij",
+      "category": "culture",
+      "reason": "Puppet theatre"
+    },
+    {
+      "id": "lhd2cpdvfzs6ted806ca58at",
+      "title": "The Movies, Amsterdam's little Tuschinski",
+      "category": "culture",
+      "reason": "Cinema"
+    },
+    {
+      "id": "u6s6mdph8s05dzfvo05c8oy5",
+      "title": "Theater Amsterdam",
+      "category": "culture",
+      "reason": "Theatre"
+    },
+    {
+      "id": "jy7exiurclv6nusx4f9bu3zk",
+      "title": "Tolhuistuin and the Shell canteen",
+      "category": "culture",
+      "reason": "The canteen is the Tolhuistuin music venue and the garden is its terrace; green is the alternative"
+    },
+    {
+      "id": "zkgf7wnd6hdhxrwxi1b1l53y",
+      "title": "Vondelbunker: fallout shelter, beat cellar, free space",
+      "category": "culture",
+      "reason": "Something is on most weeks; the shelter is the setting of a venue"
+    },
+    {
+      "id": "woo6zrgi3j5zonzrnzf9olaa",
+      "title": "Zaal 100, the stage for unheard sound",
+      "category": "culture",
+      "reason": "Small stage"
+    },
+    {
+      "id": "bjoh214c5odkru6rq182qy96",
+      "title": "Ziggo Dome",
+      "category": "culture",
+      "reason": "Concert hall"
+    },
+    {
+      "id": "w762ux83yio25twjt62p3x3w",
+      "title": "AkzoNobel Art Space: a paint maker's collection you can walk into",
+      "category": "odd-museums",
+      "reason": "Free art space showing a corporate collection"
+    },
+    {
+      "id": "yzhzk34oqbpojbktmanvy36e",
+      "title": "Amsterdam Pipe Museum, the world's smoking in a canal house of 1670",
+      "category": "odd-museums",
+      "reason": "Collection museum"
+    },
+    {
+      "id": "jrhdu4qjvjp4md5nx9e3pfcr",
+      "title": "Amsterdam in Motion (the city model)",
+      "category": "odd-museums",
+      "reason": "Exhibition (projected city model)"
+    },
+    {
+      "id": "gvllokgaz98fgck9cqq58k5n",
+      "title": "Banksy Museum Amsterdam",
+      "category": "odd-museums",
+      "reason": "Museum"
+    },
+    {
+      "id": "bes37j9a3538mxwfu13xq5sh",
+      "title": "Bellamy Buurtmuseum",
+      "category": "odd-museums",
+      "reason": "Neighbourhood museum"
+    },
+    {
+      "id": "xhe0sv9qpt5g5394htc10lum",
+      "title": "Bijlmer Museum",
+      "category": "odd-museums",
+      "reason": "One-man museum"
+    },
+    {
+      "id": "qi7t42eckv2g48gupy6vihxk",
+      "title": "Borneo Architectuur Centrum (Pacman)",
+      "category": "odd-museums",
+      "reason": "Architecture centre with a permanent display and exhibitions"
+    },
+    {
+      "id": "xx3jje79i14v1nn4kkvovke3",
+      "title": "Electric Ladyland, a fluorescent cave where visitors push the buttons",
+      "category": "odd-museums",
+      "reason": "Museum of fluorescent art"
+    },
+    {
+      "id": "rh6uzdbvsco0ppg84vw2gr6d",
+      "title": "Grachtenmuseum (Museum of the Canals)",
+      "category": "odd-museums",
+      "reason": "Museum explaining the canal belt"
+    },
+    {
+      "id": "wgwo1e1v7iw7n4u00rgti7yi",
+      "title": "Huis Marseille, a map of Marseille on a canal house",
+      "category": "odd-museums",
+      "reason": "Photography museum; the facade map is the bonus"
+    },
+    {
+      "id": "r569me8e3hqxjyqwqah1k9zs",
+      "title": "KattenKabinet, the cat museum",
+      "category": "odd-museums",
+      "reason": "Collection museum"
+    },
+    {
+      "id": "nfselzkaiz0q4uxen6w4nqk8",
+      "title": "KiMu, the children's art museum",
+      "category": "odd-museums",
+      "reason": "Museum"
+    },
+    {
+      "id": "ry41tev13by6t5i8q5xhq5uz",
+      "title": "Multatuli's birth house and museum",
+      "category": "odd-museums",
+      "reason": "Writer's house museum"
+    },
+    {
+      "id": "lr71suohph46scsrja5q12gu",
+      "title": "Museum Amsterdam Noord",
+      "category": "odd-museums",
+      "reason": "Local history museum"
+    },
+    {
+      "id": "kjvdu0xp2a0ndaxs93bstzfs",
+      "title": "Museum Fodor, a coal trader's gift, now Foam",
+      "category": "odd-museums",
+      "reason": "Photography museum (Foam)"
+    },
+    {
+      "id": "diu2rs8up8oim7o4mbygh2n7",
+      "title": "Museum Perron Oost",
+      "category": "odd-museums",
+      "reason": "Tiny museum"
+    },
+    {
+      "id": "k2g3ynjlfdsogkajanr982kd",
+      "title": "Museum Tot Zover",
+      "category": "odd-museums",
+      "reason": "Funeral museum"
+    },
+    {
+      "id": "b7797dedbqwj0e2s5e6qmll5",
+      "title": "Museumwoning Tuindorp Oostzaan",
+      "category": "odd-museums",
+      "reason": "Small museum house, open monthly; odd ones stay"
+    },
+    {
+      "id": "go8v9wb8fp17uruwvust63id",
+      "title": "Pianola Museum in police station no. 21",
+      "category": "odd-museums",
+      "reason": "Collection museum"
+    },
+    {
+      "id": "nmmp3r0a58nbohv69ztzjvjq",
+      "title": "Suriname Museum in the 1882 double school",
+      "category": "odd-museums",
+      "reason": "Museum (opened 2025); the school building is its home"
+    },
+    {
+      "id": "t5tbvwemghjh0d37qas49k5g",
+      "title": "Theo Thijssen Museum, in the house the council meant to demolish",
+      "category": "odd-museums",
+      "reason": "Writer's house museum"
+    },
+    {
+      "id": "ane6cg4sm02e6y0f8bb43ypo",
+      "title": "Theo Thijssen's Jordaan",
+      "category": "odd-museums",
+      "reason": "Cluster anchored by the museum; the other stops all belong to Thijssen"
+    },
+    {
+      "id": "mwsmka19c67a8iyycwxzdcr6",
+      "title": "Van Eesteren Museum",
+      "category": "odd-museums",
+      "reason": "Museum with show flat"
+    },
+    {
+      "id": "n0ntsglbwukufqsfzdygtwcu",
+      "title": "Anne Frank House",
+      "category": "hidden-history",
+      "reason": "History museum whose point is the story (user decision)"
+    },
+    {
+      "id": "axiln8o2bm6goyjdmet93gca",
+      "title": "National Holocaust Museum (Nationaal Holocaustmuseum), in the old teacher-training college",
+      "category": "hidden-history",
+      "reason": "History museum whose point is the story (user decision)"
+    },
+    {
+      "id": "htj1y3owqgh84j7umrsgu5j4",
+      "title": "Plancius, the choir's clubhouse (Verzetsmuseum)",
+      "category": "hidden-history",
+      "reason": "Verzetsmuseum, history museum (user decision)"
+    },
+    {
+      "id": "ck6fublhp2rmd0fv7hbv088s",
+      "title": "Zuid-Afrikahuis, the library whose books were thrown in the canal",
+      "category": "hidden-history",
+      "reason": "Library; the story is the 1984 attack (reverted by the user)"
+    },
+    {
+      "id": "khairab6p4iy09p8sb9vmi82",
+      "title": "First Scheepvaartmuseum (Cornelis Schuytstraat 57)",
+      "category": "hidden-history",
+      "reason": "Former museum building; story"
+    },
+    {
+      "id": "m0jp8tjjf1mxg47digu3yfpb",
+      "title": "Desmet, the theatre of many names (Plantage Middenlaan 4)",
+      "category": "hidden-history",
+      "reason": "No longer a cinema (TV studios); the wartime theatre is the story"
+    },
+    {
+      "id": "sg2h8z9bgq668o5dcvo0r86b",
+      "title": "Splendor, the bathhouse of the Jewish island",
+      "category": "hidden-history",
+      "reason": "Story-led (Sabbath bathhouse, wartime); the music venue is secondary"
+    },
+    {
+      "id": "k8xtefn8yygqj0f1b8lfg1dl",
+      "title": "Vrankrijk",
+      "category": "hidden-history",
+      "reason": "Squat history leads; concerts secondary"
+    },
+    {
+      "id": "dvtwact72pc4vb7c3r4nlg81",
+      "title": "Hollandsche Schouwburg, from theatre to deportation centre",
+      "category": "hidden-history",
+      "reason": "Memorial site, not a working theatre"
+    },
+    {
+      "id": "c9m66c2q1qlr4df5pokz4pds",
+      "title": "Cineac Damrak, the newsreel cinema",
+      "category": "hidden-history",
+      "reason": "No longer a cinema; story"
+    },
+    {
+      "id": "gvd9h77lgnhujdyh0t6neq64",
+      "title": "Nassaubioscoop, a Moorish cinema front on the Lijnbaansgracht",
+      "category": "hidden-history",
+      "reason": "Only the front of the cinema survives"
+    },
+    {
+      "id": "q459if11mofdctbi93ajiglz",
+      "title": "Our Lord in the Attic (Ons' Lieve Heer op Solder)",
+      "category": "religious",
+      "reason": "Museum, but the hidden church itself is the sight"
+    },
+    {
+      "id": "mgbfdpu4kchmnsvxlbpoc56l",
+      "title": "Portuguese Synagogue (Esnoga)",
+      "category": "religious",
+      "reason": "Working synagogue, visited for the building"
+    },
+    {
+      "id": "rn7e0etakka9ta3b2ufe43fq",
+      "title": "Nieuwe Waalse Kerk, now a museum of illusions",
+      "category": "religious",
+      "reason": "Text is the church's lives; the museum of illusions is the current tenant"
+    },
+    {
+      "id": "nbj11zik8thpzc180j9i4aa0",
+      "title": "Compagnietheater (former Restored Lutheran Church)",
+      "category": "religious",
+      "reason": "Same rule as Pniëlkerk and Rode Hoed: the 1793 church front is the sight, theatre its current use"
+    },
+    {
+      "id": "vxukmxuvs38lfan1i1kpvofn",
+      "title": "Parkkerk (Orgelpark)",
+      "category": "religious",
+      "reason": "Church interior is the sight; Orgelpark is its current use (culture would also be defensible)"
+    },
+    {
+      "id": "kkqmwesj4z49n9ewhqroffvo",
+      "title": "Oude Kerk",
+      "category": "religious",
+      "reason": "Church first, art venue second"
+    },
+    {
+      "id": "trm070oydav7jweh28oersju",
+      "title": "Nieuwe Kerk, the church without a tower",
+      "category": "religious",
+      "reason": "Church first, exhibitions second"
+    },
+    {
+      "id": "dhlktzos4lv77di2ww0fr7rk",
+      "title": "Gerardus Majellakerk and its Catholic enclave (NedPhO-Koepel)",
+      "category": "religious",
+      "reason": "Church; orchestra base is secondary"
+    },
+    {
+      "id": "wore6rnahec3fn19xs9d0v2p",
+      "title": "Museum Van Loon and its coach house with false windows",
+      "category": "housing",
+      "reason": "House museum whose text is about the house and its tenants"
+    },
+    {
+      "id": "hrq9kocerzmymf0kk34blorp",
+      "title": "Het Schip",
+      "category": "housing",
+      "reason": "Architecture; the museum inside serves the building"
+    },
+    {
+      "id": "vig1thqgfmhin9e220y341bv",
+      "title": "Polanenstraat block and Polanentheater",
+      "category": "housing",
+      "reason": "Housing block; theatre secondary"
+    },
+    {
+      "id": "dccz2puust6ktiq2zrh42sw7",
+      "title": "Vrijburcht and its fish wall",
+      "category": "housing",
+      "reason": "Self-built housing block; theatre is one facility"
+    },
+    {
+      "id": "gwoonzr3jorl2bfqktz3z0k7",
+      "title": "Waag on the Nieuwmarkt, city gate, guild house and first Jewish museum",
+      "category": "civic",
+      "reason": "Civic building; first Jewish museum is history"
+    },
+    {
+      "id": "ydcx3eia4ko7v4fz7s84x4yl",
+      "title": "Arcam's folded pavilion and the Museumhaven",
+      "category": "civic",
+      "reason": "The folded pavilion is the sight; exhibitions secondary"
+    },
+    {
+      "id": "qpw36rfj4uiq2fqhzjq0998g",
+      "title": "De Bazel, the trading company's striped fortress, now the city archives",
+      "category": "civic",
+      "reason": "City archives; the De Bazel building is the sight"
+    },
+    {
+      "id": "m8tm2ohlyxv324uj5duiym98",
+      "title": "Bijzondere Collecties (Allard Pierson)",
+      "category": "civic",
+      "reason": "Library; value is the restored Vingboons houses and glass back wall"
+    },
+    {
+      "id": "xviz39kgh0jkgcfaslwa78e3",
+      "title": "Wittenberg (Luther Museum)",
+      "category": "civic",
+      "reason": "Old people's home is the story; the Luther Museum is a small add-on in a hotel"
+    },
+    {
+      "id": "en3yd5t9bfp4psn77qx74h6c",
+      "title": "Aviodome (Circa Amsterdam)",
+      "category": "civic",
+      "reason": "The dome is the sight; inside only during events"
+    },
+    {
+      "id": "izb9mb5kui93v4tgn3s4ixri",
+      "title": "Odeon, from brewery to concert hall to gay disco",
+      "category": "civic",
+      "reason": "Building's lives are the story; club-restaurant now"
+    },
+    {
+      "id": "f6wig611lr5t2vh8ebutbcfn",
+      "title": "Maison Stroucken, the party hall inside DeLaMar",
+      "category": "civic",
+      "reason": "The rebuilt party-hall front is the sight; part of DeLaMar"
+    },
+    {
+      "id": "h5k0qmi7hk45tz0i646ym7sf",
+      "title": "Akhnaton, the student club that let in salsa and hip-hop",
+      "category": "civic",
+      "reason": "Rented events venue now; the music history is the story"
+    },
+    {
+      "id": "c19uqvhl5tvacdph45sszull",
+      "title": "Cineac, Duiker's newsreel cinema",
+      "category": "civic",
+      "reason": "No longer a cinema; Duiker's building is the sight"
+    },
+    {
+      "id": "jhi3z7f4jlbkg0r6mzhay4gp",
+      "title": "The Stopera, the NAP under it and the Violist",
+      "category": "civic",
+      "reason": "Town hall and opera house; civic first"
+    },
+    {
+      "id": "bsqlv810ki9mxlamg4s14lh2",
+      "title": "Beurs van Berlage",
+      "category": "civic",
+      "reason": "Building is the sight; events venue secondary"
+    },
+    {
+      "id": "yib94qxhqz96lekq45334qhg",
+      "title": "Parnassusweg 220: the 'concrete court' that is becoming a museum",
+      "category": "civic",
+      "reason": "Museum not open yet"
+    },
+    {
+      "id": "pop6e1v6bsx9j2uq4ervzmrv",
+      "title": "Jaap Edenbaan",
+      "category": "civic",
+      "reason": "Oldest outdoor artificial ice track; public facility"
+    },
+    {
+      "id": "lis1azw6eekahuujpulj5gzw",
+      "title": "Former municipal swimming baths, Utrechtseweg",
+      "category": "civic",
+      "reason": "Former baths; building"
+    },
+    {
+      "id": "fq4vsva8r1c0jtahwzfoq77l",
+      "title": "Round bathhouse on the Boerhaaveplein",
+      "category": "civic",
+      "reason": "Bathhouse building"
+    },
+    {
+      "id": "tfsavgxsw54ekp67ug7nriiu",
+      "title": "Turnzaal of 1887, the gym hall with Rust Roest on its front",
+      "category": "civic",
+      "reason": "Gym hall building"
+    },
+    {
+      "id": "izbu4r1b1u4futsbuzo21mut",
+      "title": "Former reading room, Kometensingel",
+      "category": "civic",
+      "reason": "Former library building"
+    },
+    {
+      "id": "jpk11oep7d08hk59uu1i8f3y",
+      "title": "The old central library that pretended to be canal houses",
+      "category": "civic",
+      "reason": "Former library; architecture"
+    },
+    {
+      "id": "t1krd0r563cdq8veimt97ml7",
+      "title": "Binnengasthuis, from dreaded hospital to university library",
+      "category": "civic",
+      "reason": "Hospital story; library is current use"
+    },
+    {
+      "id": "v5mklg6c0vy76p3id7mdf44s",
+      "title": "Ceintuur Theater, the concrete cinema",
+      "category": "curiosities",
+      "reason": "No longer a cinema; the concrete front is the curiosity"
+    },
+    {
+      "id": "cvp5feqplou8q2gmzwvxdaky",
+      "title": "Chagall Gallery Wuyt, a canal house full of Chagall prints",
+      "category": "curiosities",
+      "reason": "Gallery shop, not a museum"
+    },
+    {
+      "id": "lea47k92palxrneohl9e7iud",
+      "title": "Het Veem",
+      "category": "industrial",
+      "reason": "Warehouses with studios; the mime theatre is a tenant"
+    },
+    {
+      "id": "hv01g9ryqm79eg9oxon77giy",
+      "title": "Gemaal Kadoelen and the Concertgemaal",
+      "category": "industrial",
+      "reason": "Pumping stations; concerts secondary"
+    },
+    {
+      "id": "a12beaavhh5vcw0b19vzsg18",
+      "title": "Werf 't Kromhout and the yard bosses' houses",
+      "category": "industrial",
+      "reason": "Working historic shipyard; industrial is the point"
+    },
+    {
+      "id": "v842nxs9oap1u3n9bcl0abbg",
+      "title": "Plantage Dok, the squat that bought itself",
+      "category": "industrial",
+      "reason": "Squat and building story"
+    },
+    {
+      "id": "k63k760wpsjf7b8y2ah9ajm5",
+      "title": "Westergasfabriek",
+      "category": "industrial",
+      "reason": "Gasworks park; industrial heritage first"
+    },
+    {
+      "id": "zphamxvcn1mwh8rtd336mw1z",
+      "title": "Oostergasfabriek remains and U Bevindt Zich Hier",
+      "category": "industrial",
+      "reason": "Gasworks remains; the pool is in the retort house"
+    },
+    {
+      "id": "whv6km1m0hrkb3xcekdfeoqg",
+      "title": "Haarlemmermeerstation, the terminus the trams had to leave",
+      "category": "infrastructure",
+      "reason": "Station building; museum trams secondary"
+    },
+    {
+      "id": "la6x4wimktx7a4og76lx156u",
+      "title": "Zaagmolenschool and Filmhuis Cavia",
+      "category": "schools",
+      "reason": "Hidden school building; Filmhuis Cavia is a tenant"
+    },
+    {
+      "id": "iu5txw40bvk7xfmtndvviii4",
+      "title": "Old trade school on the Timorplein, Aart Roos's mural and Studio/K",
+      "category": "schools",
+      "reason": "School and its mural; Studio/K is a tenant"
+    },
+    {
+      "id": "liq9d02b40hm2qfi7a00594a",
+      "title": "Conservatorium van Amsterdam",
+      "category": "schools",
+      "reason": "School"
+    },
+    {
+      "id": "vo5uhq8vwbma11i2126gy3s9",
+      "title": "Street Art Museum Amsterdam (SAMA)",
+      "category": "street-art",
+      "reason": "Museum without a building: the murals are the visit"
+    },
+    {
+      "id": "ztxusocyqxritry12i9dtpgw",
+      "title": "Cotton Club, the Nieuwmarkt's Surinamese jazz café",
+      "category": "food-drink",
+      "reason": "Live jazz ended in 2024; café"
+    },
+    {
+      "id": "j78xujy0xnpa7mfazz00y45u",
+      "title": "De Lellebel, the drag bar by the Rembrandtplein",
+      "category": "food-drink",
+      "reason": "Drag bar; the bar is the visit"
+    },
+    {
+      "id": "wn0kueflexn7v9p12vr4nv0v",
+      "title": "De Engelbewaarder, the first literary café",
+      "category": "food-drink",
+      "reason": "Literary café"
+    },
+    {
+      "id": "kezf7wc9wzxaa6b0b50acodg",
+      "title": "Vondelpark Pavilion",
+      "category": "food-drink",
+      "reason": "Café in the park"
+    },
+    {
+      "id": "akzx2lcqjzqw8sxum6qcavfl",
+      "title": "Museumplein",
+      "category": "green",
+      "reason": "Square/lawn"
+    },
+    {
+      "id": "fr9wy0i85i562ocyuxdxj819",
+      "title": "Hortus Botanicus",
+      "category": "green",
+      "reason": "Botanic garden"
+    },
+    {
+      "id": "l6wvo37kw90xx0hzq5ir6pqk",
+      "title": "Artis",
+      "category": "green",
+      "reason": "Zoo"
+    }
+  ],
+  "unsure": [
+    {
+      "id": "tb18ar3l6vpng68y1wjv1x8c",
+      "title": "Amsterdam Museum (the Burgerweeshuis, Kalverstraat)",
+      "from": "culture",
+      "options": [
+        "odd-museums",
+        "civic",
+        "hidden-history"
+      ],
+      "why": "The city museum, but closed until 2030; what you can see now is the orphanage gateway and a building site, and the text is about the convent, orphanage and the court fight"
+    },
+    {
+      "id": "nxyjuptq05t53hswxf7mbvcm",
+      "title": "Arti et Amicitiae, the artists' club on the corner of the Spui",
+      "from": "culture",
+      "options": [
+        "odd-museums",
+        "hidden-history",
+        "civic"
+      ],
+      "why": "Artists' society with free exhibition halls (a gallery more than a museum); text splits between the club and its 1941 expulsions"
+    },
+    {
+      "id": "v7j8193dfwx0l45gdhesooqa",
+      "title": "Theosophical temple on the Tolstraat (Cinétol)",
+      "from": "culture",
+      "options": [
+        "religious",
+        "odd-museums",
+        "curiosities"
+      ],
+      "why": "Built as a theosophists' temple, now art centre de Appel (exhibitions, not a stage); text is about the building's many lives"
+    },
+    {
+      "id": "qfj74tuq8nrn4s5pvawsyhod",
+      "title": "Highlights of Holland (Magdalenakapel)",
+      "from": "odd-museums",
+      "options": [
+        "curiosities",
+        "odd-museums"
+      ],
+      "why": "A tourist 'experience', not a real museum; text is about the odd chalet building's lives (publisher, sugar office, chapel)"
+    },
+    {
+      "id": "on9jz6pbt28km2f5uje7b8xq",
+      "title": "Eye Filmmuseum",
+      "from": "odd-museums",
+      "options": [
+        "odd-museums",
+        "culture"
+      ],
+      "why": "Film museum with exhibitions, but most visits are film screenings"
+    },
+    {
+      "id": "ltilmgx9ji5ockr2qp7grjip",
+      "title": "Heineken Experience",
+      "from": "industrial",
+      "options": [
+        "industrial",
+        "odd-museums"
+      ],
+      "why": "People go for the brand Experience (a brewery museum), but the text is entirely the listed brewhouse"
+    },
+    {
+      "id": "vlcovvidkqqkbic2p01s0fj6",
+      "title": "Pakhuis de Zwijger",
+      "from": "industrial",
+      "options": [
+        "industrial",
+        "culture"
+      ],
+      "why": "Debating house with 600 programmes a year (like De Nieuwe Liefde and De Balie), but the hook is the cold store with a bridge through it"
+    }
+  ]
+}

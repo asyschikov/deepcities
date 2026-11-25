@@ -1,0 +1,65 @@
+[
+ {
+  "title": "Salt and Pepper",
+  "summary": "Two towers in the middle of Westerpark West, designed as a pair by two firms and finished in 2023: MVRDV's white Salt and Elephant's black Pepper. Each cantilevers ten metres, in opposite directions.",
+  "body": "The two towers in the middle of Westerpark West were designed as a pair by two different firms. Salt, by MVRDV, is 48 metres tall, by MVRDV's account just the tallest building in the scheme. Narrow windows in a white ceramic façade stress its height, and each of its 92 flats has a loggia. Pepper, by Elephant, is in black brick, with balconies pushed into the façade at angles. Both towers cantilever ten metres, in opposite directions: Salt towards the canal and the city, Pepper north towards the allotment gardens. MVRDV's reason: more floor space on a small footprint, and more ground left for planting.\n\nElephant let residents and the investor pick façade options at fixed prices, such as a longer balcony or an extra window, and ran every choice through a parametric script that checks the structure and building physics. The planters sit inside Pepper's thickened balustrades. Contractor J.P. van Eesteren handed both towers, with MVRDV's Blend next door, to CBRE Investment Management in August 2023. Pepper's flats are let in the free sector.\n\nVisiting: homes; see them from the Haarlemmerweg and from the canal promenade.\n\nLook for:\n- the two overhangs, one over the canal side, the other facing the allotments\n- Pepper's balconies, each set at its own angle\n- Salt's loggias set into the corners of its overhang",
+  "category": "housing",
+  "lat": 52.3856,
+  "lng": 4.85306,
+  "address": "Haarlemmerweg 778-1138",
+  "links": [
+   {
+    "label": "MVRDV (Salt)",
+    "url": "https://mvrdv.com/projects/1380/salt--westerpark-west"
+   },
+   {
+    "label": "Elephant (Pepper)",
+    "url": "https://elephant.studio/architecture/pepper/"
+   },
+   {
+    "label": "MVRDV news, August 2023",
+    "url": "https://mvrdv.com/news/4432/construction-completed-blend-salt-pepper-westerpark-west"
+   },
+   {
+    "label": "Amsterdam Woont (Pepper)",
+    "url": "https://www.amsterdamwoont.nl/candidates/pepper/"
+   }
+  ],
+  "photos": [
+   "commons:File:2023 Haarlemmerweg, Asd-Salt (1).jpg",
+   "commons:File:2023 Haarlemmerweg, Asd-Pepper.jpg",
+   "commons:File:2023 Haarlemmerweg, Asd-Salt (2).jpg"
+  ],
+  "note": "Child of the live place Westerpark West (ysdiurnzy5zsg5ai52opipta): import with parent ysdiurnzy5zsg5ai52opipta.",
+  "translations": {
+   "nl": {
+    "title": "Salt en Pepper",
+    "summary": "Twee woontorens midden in Westerpark West, als duo ontworpen door twee bureaus en klaar in 2023: het witte Salt van MVRDV en het zwarte Pepper van Elephant. Allebei steken ze tien meter uit, elk naar een andere kant.",
+    "body": "Twee bureaus tekenden de twee torens in het hart van Westerpark West, en ze zijn als stel bedoeld. Salt is van MVRDV en meet 48 meter; volgens MVRDV is het daarmee net het hoogste gebouw van het plan. De smalle ramen in de witte keramische gevel maken het nog slanker, en elk van de 92 appartementen heeft een loggia. Pepper, van Elephant, is van zwarte baksteen, met balkons die schuin in de gevel steken. Beide torens kragen tien meter uit, maar in tegengestelde richting: Salt naar de vaart en de stad, Pepper naar het noorden, naar de volkstuinen. Zo krijg je volgens MVRDV meer vloer op een kleine voet en houd je meer grond over voor groen.\n\nBij Pepper konden belegger en bewoners tegen een vaste prijs gevelopties kiezen, zoals een langer balkon of een extra raam. Elephant liet elke keuze door een parametrisch model lopen dat meteen nagaat of constructie en bouwfysica kloppen. De plantenbakken zitten in de verdikte balustrades. Aannemer J.P. van Eesteren leverde de twee torens in augustus 2023 op aan CBRE Investment Management, samen met Blend van MVRDV ernaast. De woningen in Pepper zijn vrije-sectorhuur.\n\nBezoek: woningen; bekijk ze vanaf de Haarlemmerweg en de promenade langs de vaart.\n\nLet op:\n- de twee uitkragingen, de ene aan de kant van de vaart, de andere richting volkstuinen\n- de balkons van Pepper, elk onder een eigen hoek\n- de loggia's van Salt in de hoeken van de uitkraging"
+   }
+  },
+  "override": {
+   "attributes": {
+    "designer": "MVRDV (Salt) and Elephant (Pepper)",
+    "completed": "2023",
+    "decade": "2020s",
+    "work": "New building",
+    "access": "Outside only",
+    "recognition": "Pepper: Amsterdam New Build Prize (Amsterdamse Nieuwbouwprijs) 2025, finalist"
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "recognition": "Pepper: Amsterdamse Nieuwbouwprijs 2025, finalist"
+     }
+    }
+   }
+  },
+  "detail": "theme",
+  "municipality": "Amsterdam",
+  "borough": "West",
+  "neighbourhood": "Westerpark",
+  "subNeighbourhood": "Sloterdijk-West",
+  "parent": "ysdiurnzy5zsg5ai52opipta"
+ }
+]
