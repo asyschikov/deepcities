@@ -39,3 +39,7 @@ No subcategories. Secondary categories and theme lists are open questions for la
   heritage; Green escapes renamed Green spaces; industrial theme map left to the user.
 - 2026-11-25, user: no subcategories; implement the 11 categories. "Homes" asked about:
   kept the live label Housing (it is mostly housing blocks, garden villages, almshouses).
+- 2026-11-25: colours re-picked so every pair is distinguishable (closest pair CIELAB distance 31,
+  was 19): housing #92400e, civic #0f766e, religious #7c3aed, industrial #57534e, infrastructure
+  #0ea5e9, hidden-history #1e3a8a, street-art #f97316, curiosities #ec4899, culture #eab308,
+  food-drink #dc2626, green #15803d. Icons need a code change (none yet).
