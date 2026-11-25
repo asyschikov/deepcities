@@ -245,8 +245,8 @@ const MapLayout = () => {
 
   // Place pin size (`?pins=large|small`; medium when absent).
   const pinSize: PinSize = urlSearch.pins ?? DEFAULT_PIN_SIZE;
-  // Experimental category icons (`?icons=true`); too small on small pins.
-  const showIcons = Boolean(urlSearch.icons) && pinSize !== "small";
+  // Category icons on large pins only (too small to read on the others).
+  const showIcons = pinSize === "large";
   const setPinSize = useCallback(
     (size: PinSize) =>
       navigate({
