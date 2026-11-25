@@ -72,3 +72,10 @@ Olofspoort (closed), the closed Plantage and Reguliersdwarsstraat cafés (alread
 - Gone legends: Schaakcafé Het Hok (closed March 2025) as a Gone place?
 - Dates to settle in drafting: Wynand Fockink (firm says 1679; Stadsherstel 1689, Fockink about
   1730), Oosterling (1820/1877/1897), Eijlders sign (1942/1943), Twee Zwaantjes (1921/1928).
+
+## User picks (25 Nov)
+
+- Draft A (core, 29) and B (bring forward, 12). C (second tier) left out.
+- Coffeeshops: the first one for sure, plus one or two more with true historic value or
+  curiosity ("not a weed guide, but some are part of the city's history").
+- Gone legends: only very strong ones (famous story and something to see on site).
