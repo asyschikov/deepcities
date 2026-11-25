@@ -1,0 +1,50 @@
+[
+  {
+    "key": "kind",
+    "label": "Kind",
+    "type": "select",
+    "options": [
+      "Swim spot",
+      "Beach",
+      "Waterside terrace",
+      "Park and shade",
+      "Hangout and sunset",
+      "On the water",
+      "Open-air culture",
+      "Play and splash"
+    ],
+    "filter": true,
+    "help": "What you come here for in summer."
+  },
+  {
+    "key": "swimming",
+    "label": "Swimming",
+    "type": "select",
+    "options": [
+      "Official bathing water",
+      "Pool",
+      "Allowed, not official",
+      "No swimming"
+    ],
+    "filter": true,
+    "help": "Official: on the province's tested bathing-water list. Pool: a summer or outdoor pool. Allowed, not official: not banned, but untested. No swimming: banned or unsafe."
+  },
+  {
+    "key": "when",
+    "label": "When",
+    "type": "text",
+    "help": "When it's on, if not all summer: e.g. May to September, July and August, weekends."
+  },
+  {
+    "key": "good_to_know",
+    "label": "Good to know",
+    "type": "longtext",
+    "help": "Practical: crowds and the best time to go, algae or swimmer's itch warnings, what to bring, shade, toilets, wheelchair access."
+  },
+  {
+    "key": "extra_description",
+    "label": "In summer",
+    "type": "longtext",
+    "help": "Shown as part of the description, after the place's own text: what the place is like in summer, where the shared text doesn't say."
+  }
+]
