@@ -534,7 +534,7 @@
   "visit_photo_selfie": "Selfie",
   "visit_photo_place": "Photo of the place",
   "visit_photo_selfie_hint": "Kept with your visit, never shown on the map.",
-  "visit_photo_place_hint": "Offered to the place for everyone to see, open and free to reuse with credit to you.",
+  "visit_photo_place_hint": "Offered to the place for everyone to see.",
   "visit_photo_remove": "Remove photo",
   "visit_photo_failed": "Couldn't upload the photo.",
   "visit_photo_added": "Your photo was added to the place.",
@@ -629,9 +629,9 @@
   "score_rule_photo_accepted": "Your photo accepted onto the place",
   "score_rule_selfie": "Selfie (first three photos per visit)",
   "visit_checked_in_done": "Checked in",
-  "license_consent": "I'm happy for my photos of places to be open and free: anyone may use and share them, as long as they name me and share them on the same terms.",
+  "license_consent": "My photos of places may be reused by anyone, with credit, under",
   "license_read": "{{license}}",
-  "footer_license": "Photos shared by visitors are open and free to reuse, with credit to the photographer.",
-  "place_license": "Text is open and free to reuse: credit \"Deep Cities contributors\" and link to this page. Photos carry their own credit.",
-  "edit_license": "By saving, you agree that what you write and the photos you upload are open and free for anyone to reuse:"
+  "footer_license": "Text and visitors' photos:",
+  "place_license": "Text by Deep Cities contributors,",
+  "edit_license": "Your text and photos are published under"
 }
