@@ -13,6 +13,7 @@ import { formatDistanceToNow } from "date-fns";
 import {
   ArrowLeft,
   Check,
+  ChevronRight,
   Clock,
   Flag,
   MapPin,
@@ -494,9 +495,10 @@ const RoutePage = () => {
                       <Link
                         to="/$city/$slug/p/$placeId"
                         params={{ city, slug, placeId: s.placeId }}
-                        className="hover:underline"
+                        className="group inline-flex items-baseline gap-0.5 underline decoration-foreground/25 underline-offset-4 hover:decoration-foreground"
                       >
                         {s.name}
+                        <ChevronRight className="size-4 shrink-0 self-center text-muted-foreground transition group-hover:translate-x-0.5" />
                       </Link>
                     ) : (
                       s.name
@@ -511,6 +513,16 @@ const RoutePage = () => {
                     <div className="space-y-2 text-sm leading-relaxed text-foreground/85">
                       <MarkdownView content={s.narration} slug={slug} />
                     </div>
+                  )}
+                  {onMap && s.placeId && (
+                    <Link
+                      to="/$city/$slug/p/$placeId"
+                      params={{ city, slug, placeId: s.placeId }}
+                      className="inline-flex items-center gap-0.5 text-sm font-medium text-brick hover:underline"
+                    >
+                      {t("route_stop_more")}
+                      <ChevronRight className="size-4" />
+                    </Link>
                   )}
                 </div>
               </div>
