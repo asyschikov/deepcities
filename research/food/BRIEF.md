@@ -44,3 +44,5 @@ Map categories and fields: `cd /Users/andrey/projects/deepcities/.claude/worktre
   YAML and add a short pointer line to the existing place's patch.
 - `research/food/notes/<slice>.md`: sources per place, claims dropped, status checks with dates,
   photo gaps, overlaps with pool places.
+
+**Categories** (scheme of 25 Nov 2026): follow research/quality/CATEGORY-SCHEME.md. Commissioned art is street-art (Public art), stations and depots industrial, bridges, locks, pumping stations and ferries infrastructure; schools and odd-museums no longer exist (civic / culture).

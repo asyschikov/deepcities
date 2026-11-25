@@ -33,3 +33,5 @@ CLI (read only for you): `cd /Users/andrey/projects/deepcities/.claude/worktrees
 - `research/centrum/fixes/status-sN.json`: `[{"id","patch":{...},"note":"<=300 chars, what and source"}]`
 - `research/centrum/notes/status-sN.md`: per place: verdict (settled / gone / still open),
   sources with dates, what changed.
+
+**Categories** (scheme of 25 Nov 2026): follow research/quality/CATEGORY-SCHEME.md. Commissioned art is street-art (Public art), stations and depots industrial, bridges, locks, pumping stations and ferries infrastructure; schools and odd-museums no longer exist (civic / culture).

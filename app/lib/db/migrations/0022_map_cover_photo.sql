@@ -1,0 +1,1 @@
+ALTER TABLE `collection` ADD `cover_photo_id` text REFERENCES photo(id);
