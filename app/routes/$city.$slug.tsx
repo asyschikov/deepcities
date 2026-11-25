@@ -31,6 +31,7 @@ import {
 import { localize, localizeCollection, mapLanguages } from "~/lib/content-lang";
 import {
   currentFieldFilters,
+  filterFields,
   matchesFieldFilters,
   nextFieldFilterParam,
 } from "~/lib/field-filters";
@@ -382,6 +383,20 @@ const MapLayout = () => {
     ],
   );
 
+  const clearFilters = useCallback(() => {
+    // A field with a map default needs an explicit empty choice to show all.
+    const all = Object.fromEntries(
+      filterFields(rawView.collection.fields)
+        .filter((f) => (f.filterDefault?.length ?? 0) > 0)
+        .map((f) => [f.key, [] as string[]]),
+    );
+    setSearch("");
+    patchSearch({
+      cat: undefined,
+      f: Object.keys(all).length > 0 ? all : undefined,
+    });
+  }, [rawView.collection.fields, patchSearch]);
+
   const state: MapPageState = {
     view,
     places,
@@ -390,6 +405,7 @@ const MapLayout = () => {
     setCategory,
     fieldFilters,
     setFieldFilter,
+    clearFilters,
     search,
     setSearch,
     draft,

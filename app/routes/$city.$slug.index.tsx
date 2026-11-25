@@ -9,6 +9,7 @@ import {
   Search,
   Settings,
   TriangleAlert,
+  X,
 } from "lucide-react";
 import { useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
@@ -41,6 +42,7 @@ const MapIndex = () => {
     setCategory,
     fieldFilters,
     setFieldFilter,
+    clearFilters,
     search,
     setSearch,
     categoryOf,
@@ -52,6 +54,11 @@ const MapIndex = () => {
     translateTo,
   } = useMapPage();
   const exploring = useAppMode() === "explore";
+  // Anything narrowing the list: the search, a category or a field filter.
+  const filtered =
+    search.trim() !== "" ||
+    category !== null ||
+    Object.values(fieldFilters).some((v) => v.length > 0);
   // Near me: nearest first, with how far each place is.
   const [near, setNear] = useSearchFlag("near");
   const here = useSettledFix(geo.fix);
@@ -213,9 +220,19 @@ const MapIndex = () => {
                 placeholder={t("map_search_placeholder", {
                   count: places.length,
                 })}
-                className="pl-8"
+                className="pr-8 pl-8"
                 aria-label={t("map_search")}
               />
+              {search && (
+                <button
+                  type="button"
+                  onClick={() => setSearch("")}
+                  aria-label={t("map_search_clear")}
+                  className="absolute top-1/2 right-1.5 grid size-6 -translate-y-1/2 place-items-center rounded-full text-muted-foreground transition hover:bg-muted hover:text-foreground"
+                >
+                  <X className="size-4" />
+                </button>
+              )}
             </div>
             <div className="flex flex-wrap gap-1.5">
               <button
@@ -320,15 +337,28 @@ const MapIndex = () => {
                 </fieldset>
               );
             })}
-            {visiblePlaces.length > 0 &&
-              visiblePlaces.length < places.length && (
-                <p className="text-xs text-muted-foreground">
-                  {t("map_filter_showing", {
-                    shown: visiblePlaces.length,
-                    total: places.length,
-                  })}
-                </p>
-              )}
+            {(filtered || near) && (
+              <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground">
+                <span>
+                  {visiblePlaces.length < places.length &&
+                    t("map_filter_showing", {
+                      shown: visiblePlaces.length,
+                      total: places.length,
+                    })}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => {
+                    clearFilters();
+                    setNear(false);
+                  }}
+                  className="inline-flex shrink-0 items-center gap-1 font-medium text-foreground hover:underline"
+                >
+                  <X className="size-3" />
+                  {t("map_filter_clear")}
+                </button>
+              </div>
+            )}
           </div>
 
           {near && !here && (
