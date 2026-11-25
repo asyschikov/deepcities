@@ -4,7 +4,7 @@ Same rules, test, sources and output format as `research/food/SCOUT-BRIEF.md` (r
 with these differences:
 
 - **Area:** your district only (borough as in `dc places`: West, Zuid, Oost, Noord, Nieuw-West,
-  Zuidoost; Weesp counts with Oost? no: Weesp is its own municipality part, slice given below).
+  Zuidoost, Weesp), as given in your task.
 - **Map level:** outside Centrum, Deep Amsterdam shows detail `city`; so the bar is the city map:
   a place must be worth crossing town for, or be the institution of its neighbourhood.
 - **What was done in Centrum** (for calibration, don't repeat): research/food/SHORTLIST-CENTRUM.md
