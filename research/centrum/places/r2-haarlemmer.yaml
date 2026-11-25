@@ -241,8 +241,6 @@
   attributes:
     rank: Okay
     built: garden 2000; farm 1993
-    check: Location
-    check_note: The farm's wooden house and gate are at the pin (city panorama, 17 Jun 2025). The edge of the neighbours' garden beside the skate ramp is not visible from the street; check on site.
   photos:
     - commons:File:Kinderboerderij bickersgracht amsterdam.jpg
   sources:
@@ -265,7 +263,6 @@
       - de ingang van de kinderboerderij, Bickersgracht 207
     attributes:
       built: tuin 2000; kinderboerderij 1993
-      check_note: Het houten huisje en het hek van de kinderboerderij staan bij de pin (panorama gemeente, 17 juni 2025). De rand van de buurtuin naast de skatebaan is vanaf de straat niet te zien.
     sources:
       - https://jordaangoudenreael.nl/documenten/00000161.pdf
       - https://jordaangoudenreael.nl/documenten/00000027.pdf
@@ -372,13 +369,13 @@
       - https://jordaangoudenreael.nl/documenten/00000006.pdf
 
 - title: Door wind bewogen beweging, Wicher Meursing's last wind sculpture
-  summary: An eight-metre aluminium and steel sculpture on the windiest point between the Westerdok and the IJ, made after its designer's death by friends who raised the money and built it from his scale model. It swings with every gust, or stands dead still.
+  summary: An eight-metre aluminium and steel sculpture on the windiest point between the Westerdok and the IJ, made after its designer's death by friends who raised the money and built it from his scale model. It was built to swing with every gust, or stand dead still.
   body: |
     Wicher Meursing began as a sculptor in clay and moved on to things that move. He died on 30 May 2015, before this, his last moving work for a public space, was finished. Friends and admirers, organised as the foundation Wicher aan de Werf, had raised the money from a 1:12 model, part of it through a Sotheby's auction in 2012, and two makers spent months building it full size. A crane set it upright on 17 June and it was unveiled on 28 August 2015.
 
     The spot was chosen for the wind, and for family: Meursing's ancestors had built ships close by, and the friends had first wanted it on Bickerseiland, where his great-grandfather had a yard. The local paper promised it would make "the strangest movements, and sometimes stand dead still". The title, Wind-moved movement, says what it does.
 
-    In 2022 the vanes were found barely moving, set too stiff or clogged in the bearings, and a fix was sought.
+    In 2022 the vanes were found barely moving, set too stiff or clogged in the bearings, and a fix was sought; by 2024 they were turning again.
 
     Look for:
     - the title and the artist's name on the sculpture
@@ -395,8 +392,6 @@
     rank: Okay
     built: "2015"
     artist: Wicher Meursing
-    check: Facts
-    check_note: City panoramas of 16 Oct 2024 and 17 Jun 2025 show the vanes in different positions, so it turns; whether it swings freely is not known.
   photos:
     - commons:File:2021 Door wind bewogen beweging (4).jpg
   sources:
@@ -405,13 +400,13 @@
     - Kunstwacht KW 578 (last moving object Meursing made for public space; began in clay; not alive at the unveiling; initiative with Kunststichting De Eilanden after an Amsterdam Museum exhibition)
   nl:
     title: Door wind bewogen beweging, het laatste windbeeld van Wicher Meursing
-    summary: Een acht meter hoog beeld van aluminium en staal op het winderigste punt tussen Westerdok en IJ, na de dood van de maker gebouwd door vrienden die het geld bijeenbrachten en zijn schaalmodel uitvoerden. Het zwaait bij elke vlaag, of staat doodstil.
+    summary: Een acht meter hoog beeld van aluminium en staal op het winderigste punt tussen Westerdok en IJ, na de dood van de maker gebouwd door vrienden die het geld bijeenbrachten en zijn schaalmodel uitvoerden. Het moest bij elke vlaag zwaaien, of doodstil staan.
     body: |
       Wicher Meursing begon als beeldhouwer in klei en ging over op dingen die bewegen. Hij overleed op 30 mei 2015, voordat dit, zijn laatste bewegende werk voor de openbare ruimte, klaar was. Vrienden en bewonderaars, verenigd in de stichting Wicher aan de Werf, hadden het geld bijeengebracht voor de uitvoering van een schaalmodel van 1 op 12, onder meer via een veiling bij Sotheby's in 2012, en twee makers bouwden het maandenlang op ware grootte. Op 17 juni zette een kraan het overeind, op 28 augustus 2015 werd het onthuld.
 
       De plek is gekozen om de wind, en om de familie: Meursings voorouders bouwden hier vlakbij schepen, en de vrienden wilden het eerst op het Bickerseiland, waar zijn overgrootvader een werf had. De wijkkrant beloofde dat het er "de wonderlijkste bewegingen" zou maken, "en soms doodstil" zou staan. De titel zegt het al.
 
-      In 2022 bewogen de vleugels nauwelijks meer, te strak afgesteld of vuil in de lagers, en werd naar een oplossing gezocht.
+      In 2022 bewogen de vleugels nauwelijks meer, te strak afgesteld of vuil in de lagers, en werd naar een oplossing gezocht; in 2024 draaiden ze weer.
 
       Let op:
       - titel en naam van de maker op het beeld
@@ -419,7 +414,6 @@
       - het uitzicht over het IJ aan het eind van de Westerdoksdijk
     attributes:
       artist: Wicher Meursing
-      check_note: Stadspanorama's van 16 okt 2024 en 17 jun 2025 tonen de wieken in verschillende standen, dus hij draait; of hij vrij zwaait is niet bekend.
     sources:
       - https://nl.wikipedia.org/wiki/Door_wind_bewogen_beweging
       - https://jordaangoudenreael.nl/documenten/00000012.pdf
@@ -486,19 +480,16 @@
       - https://jordaangoudenreael.nl/documenten/00000211.pdf
       - https://nl.wikipedia.org/wiki/Wubboboom
 
-- title: "Prinseneiland: the last tar winch, the Palmentuin and Mandela's garden"
-  summary: By the Sloterdijkerbrug stands the wooden cover of the city's last shore winch, once used to hoist tar barrels off boats. Round the corner are a neighbours' garden full of palms and a mural of the vegetable garden Nelson Mandela fought for in prison.
+- title: "Prinseneiland: the last tar winch and the Palmentuin"
+  summary: By the Sloterdijkerbrug stands the wooden cover of the city's last shore winch, once used to hoist tar barrels off boats. Round the corner is a neighbours' garden full of palms.
   body: |
     Prinseneiland was an island of warehouses for tar, pitch and timber. On the quay of the Prinseneilandsgracht near the Sloterdijkerbrug stands a small wooden housing: the protective cover of a walwindas, a shore winch with which one man could hoist heavy barrels of tar from a boat onto the quay. It is the last one left in the city. An old islander remembered playing among the tar barrels here as a boy and going home with tar on his clothes and shoes; "the winch is still a reminder of that time".
 
     The islands are green because their residents made them so. From the 1990s, helped by the city and a local community worker, neighbours laid out small gardens they still keep themselves. The Palmentuin at Prinseneiland 40 is one: a semi-public garden that feels almost tropical. The Open Atelierroute that started here in 1985, when artists in squatted workshops fought plans to make the islands an expensive office district, still opens the studios every Whitsun.
 
-    On the corner of the Galgenstraat, a mural titled "Nelson Mandela's moestuin te Pollsmoor" recalls the garden Mandela won the right to grow on the roof of Pollsmoor prison between 1982 and 1988, in oil drums cut in half.
-
     Look for:
     - the wooden winch cover on the quay
     - the Palmentuin, Prinseneiland 40
-    - the Mandela mural on the corner house by the Galgenstraat
   category: curiosities
   lat: 52.385612
   lng: 4.887171
@@ -510,8 +501,6 @@
     - { label: "iBecomingDutch, Mandela's vegetable garden", url: "https://ibecomingdutch.wordpress.com/2022/07/18/mandelas-vegetable-garden-mural/" }
   attributes:
     rank: Nice
-    check: Location
-    check_note: 'City panorama of 17 Jun 2025 only covers the Galgenstraat: the walls by the Sloterdijkerbrug carry graffiti, no Mandela mural identified; the quay and winch cover are out of view.'
   photos:
     - commons:File:2021 Nelson Mandelas moestuintje op Pollsmoor.jpg
   sources:
@@ -523,18 +512,15 @@
     - https://ibecomingdutch.wordpress.com/2022/07/18/mandelas-vegetable-garden-mural/ (18 July 2022; mural on Prinseneiland titled Nelson Mandela's moestuin te Pollsmoor; Pollsmoor March 1982 to August 1988; rooftop garden in drums cut from oil barrels; maker not named); Commons file 2021 (1 September 2021)
   nl:
     title: "Prinseneiland: de laatste walwindas, de Palmentuin en Mandela's moestuin"
-    summary: Bij de Sloterdijkerbrug staat de houten kap van de laatste walwindas van de stad, waarmee teertonnen uit schepen werden getakeld. Om de hoek liggen een buurtuin vol palmen en een muurschildering van de moestuin waar Nelson Mandela in de gevangenis voor vocht.
+    summary: Bij de Sloterdijkerbrug staat de houten kap van de laatste walwindas van de stad, waarmee teertonnen uit schepen werden getakeld. Om de hoek ligt een buurtuin vol palmen.
     body: |
       Het Prinseneiland was een eiland van pakhuizen voor teer, pek en hout. Aan de kade van de Prinseneilandsgracht bij de Sloterdijkerbrug staat een houten kapje: de beschutting van een walwindas, een hijswerktuig waarmee één man zware teertonnen uit een schip op de kade kon takelen. Het is de enige die in de stad over is. Een oud-eilander wist nog hoe hij hier als jongen tussen de teertonnen speelde en met teer op zijn kleren en schoenen thuiskwam, wat thuis menig standje opleverde: "De windas herinnert nog aan die tijd."
 
       De eilanden zijn groen omdat de bewoners ze groen hebben gemaakt. Vanaf de jaren negentig, met steun van de gemeente en een opbouwwerker van het wijkcentrum, legden buren tuintjes aan die ze nog altijd zelf bijhouden. De Palmentuin op Prinseneiland 40 is er een van: een halfopenbare tuin die bijna tropisch aandoet. De Open Atelierroute, in 1985 begonnen toen kunstenaars in gekraakte werkplaatsen zich verzetten tegen plannen voor een dure kantorenwijk, zet nog elke Pinksteren de ateliers open.
 
-      Op de hoek van de Galgenstraat herinnert een muurschildering, "Nelson Mandela's moestuin te Pollsmoor", aan de tuin die Mandela tussen 1982 en 1988 op het dak van de Pollsmoorgevangenis mocht aanleggen, in doormidden gezaagde olievaten.
-
       Let op:
       - het houten kapje van de walwindas op de kade
       - de Palmentuin, Prinseneiland 40
-      - de Mandela-schildering op het hoekhuis bij de Galgenstraat
     attributes:
       check_note: 'Het panorama van de gemeente (17 juni 2025) dekt alleen de Galgenstraat: graffiti op de muren bij de Sloterdijkerbrug, geen Mandela-schildering herkend; kade en windaskap buiten beeld.'
     sources:

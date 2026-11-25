@@ -80,8 +80,6 @@
     rank: Nice
     built: 2020–2022
     artist: Vlottenbouwers (Rob Schrama), after Robert Jasper Grootveld
-    check: Location
-    check_note: The rafts lie near the Ezelsbrug, diagonally opposite the Bandenboot; pin approximate on the water. No street imagery shows that stretch of water (city panorama, Jan and Jun 2025).
     outlook: Under threat
     outlook_when: February 2027
     outlook_note: The permit for the rafts ends in February 2027; the builders fear Waternet will remove them.
@@ -112,7 +110,6 @@
       - het Touwbaanpark aan de overkant, op het veld dat "het Grootveld" heette omdat de bandenboot er van 1982 tot 2009 stond
       - Waaigat 2, een bewonerstuin met kijkvensters, over de Touwbrug en dag en nacht open
     attributes:
-      check_note: De vlotten liggen bij de Ezelsbrug, schuin tegenover de Bandenboot; pin bij benadering op het water. Geen straatbeeld toont dat stuk water (panorama gemeente, jan. en juni 2025).
       outlook_when: februari 2027
       outlook_note: De vergunning voor de vlotten loopt af in februari 2027; de vlottenbouwers vrezen dat Waternet ze afvoert.
     sources:
@@ -231,7 +228,7 @@
       - 1018 Magazine 64, december 2024
 
 - title: Plukbos, the food forest behind the Wittenburg blocks
-  summary: "After three shootings in the neighbourhood a resident turned an abandoned dog field into an edible garden. It is now a small food forest of some 130 crops, open day and night: pick a fruit or cut your own tea as you pass."
+  summary: 'After three shootings in the neighbourhood a resident turned an abandoned dog field into an edible garden. It is now a small food forest of some 130 crops, open day and night: pick a fruit or cut your own tea as you pass.'
   body: |
     The inner court between the Grote Wittenburgerstraat, the Jacob Burggraafstraat and the Kattenburgervaart was a neglected dog field. After three shooting incidents in the neighbourhood, a resident decided to turn it into an edible garden. The first thing planted, after talks with the neighbours, was a cherry tree. Mayor Femke Halsema opened the garden in 2018, on the hottest day of that year.
 
@@ -240,7 +237,6 @@
     Look for:
     - the first cherry tree
     - the herb beds by the paths
-    - the gate on the Grote Wittenburgerstraat side
   category: green
   lat: 52.372253
   lng: 4.921629
@@ -252,8 +248,6 @@
   attributes:
     rank: Okay
     built: "2018"
-    check: Location
-    check_note: Pin on the garden in the inner court; which street gate is the main way in is not confirmed.
   sources:
     - https://shaffystuin.nl/buitengewone-buurttuinen/ (item 9, opened 2018 by mayor Halsema on the hottest day of the year; after three shooting incidents the initiator turned an abandoned dog field into an edible garden; first cherry tree in consultation with the neighbourhood; food forest of 130 crops; second Sunday garden day with lunch and home-made liqueur; open all year day and night, "Nergens verser, noch goedkoper"; after-school garden club, pocket-money project, compost circle of 120 households; route, Grote Wittenburgerstraat)
     - https://plukbos.nl/ (read 24 Nov 2026, on Wittenburg, part of the green carpet of Centrum, 1000 m2, gardening in silence, 24/7, fruit snack, fresh tea bag, self-cut organic herbs; KerstBnB Christmas tree asylum; agenda for November 2026 with a Tuindag on Sunday 8 November; association with members)
@@ -261,7 +255,7 @@
     - CE-23 and GR-16 pins (inner terrain between Jacob Burggraafstraat, Grote Wittenburgerstraat, Tweede Wittenburgerdwarsstraat and Kattenburgervaart)
   nl:
     title: Plukbos, het voedselbos achter de blokken van Wittenburg
-    summary: "Na drie schietincidenten in de buurt maakte een bewoner van een verlaten hondenveldje een eetbare tuin. Nu is het een klein voedselbos met zo'n 130 gewassen, dag en nacht open: pluk in het voorbijgaan een vrucht of knip je eigen thee."
+    summary: 'Na drie schietincidenten in de buurt maakte een bewoner van een verlaten hondenveldje een eetbare tuin. Nu is het een klein voedselbos met zo''n 130 gewassen, dag en nacht open: pluk in het voorbijgaan een vrucht of knip je eigen thee.'
     body: |
       Het binnenterrein tussen de Grote Wittenburgerstraat, de Jacob Burggraafstraat en de Kattenburgervaart was een verwaarloosd hondenveldje. Na drie schietincidenten in de buurt besloot een bewoner er een eetbare tuin van te maken. Na overleg met de buren ging als eerste een kersenboom de grond in. Burgemeester Femke Halsema opende de tuin in 2018, op de heetste dag van dat jaar.
 
@@ -270,9 +264,7 @@
       Let op:
       - de eerste kersenboom
       - de kruidenbedden langs de paadjes
-      - het hek aan de kant van de Grote Wittenburgerstraat
     attributes:
-      check_note: Pin op de tuin op het binnenterrein; welk hek de hoofdingang is, is niet bevestigd.
     sources:
       - https://shaffystuin.nl/buitengewone-buurttuinen/
       - https://plukbos.nl/
@@ -479,7 +471,7 @@
     It has four parts: a basin, a carved stone with a cup and a water pipe, the fountain, and a red granite ball. With the right water pressure the ball rides on the film of water and can be turned by hand. A sister, the Tauf Stein, stands at the RAI.
 
     Look for:
-    - the ball turning when you push it
+    - the red granite ball in its stone cup
     - the INIT building beyond the park
   category: green
   lat: 52.368969
@@ -493,8 +485,6 @@
     rank: Okay
     built: about 1987
     artist: Christian Tobin
-    check: Still there?
-    check_note: City panorama 19 Jun 2025 shows the ball still on its stone in the park. Whether the water runs and the ball turns cannot be seen; check on site.
   photos:
     - "commons:File:Kogelbron Oostenburgerpark (3).jpg"
   sources:
@@ -510,10 +500,9 @@
       Er zijn vier onderdelen: een waterbak, een bewerkte steen met een kom en een leiding, de fontein en een rode granieten bol. Spuit de fontein met de juiste kracht, dan drijft de bol op het water en kun je hem met de hand laten draaien. Een zusje, de Tauf Stein, staat bij de RAI.
 
       Let op:
-      - de bol die draait als je ertegen duwt
+      - de rode granieten bol in zijn stenen kom
       - het INIT-gebouw achter het park
     attributes:
-      check_note: Stadspanorama 19 jun 2025 toont de bol nog op zijn steen in het park. Of het water loopt en de bol draait is niet te zien; ter plekke kijken.
     sources:
       - https://nl.wikipedia.org/wiki/Kogelbron_(Oostenburgerpark)
       - https://nl.wikipedia.org/wiki/Oostenburgerpark
@@ -665,7 +654,7 @@
       - buurtorganisatie1018.nl 2025-09-18 en 2026-03-31
 
 - title: Hoogte Kadijk, the old sea dike and its last shipyard
-  summary: 'A street that is really a dike: a summer dike along the IJ, raised in the 17th century so the land behind it became the Plantage. Along its crest are gable stones from 1777 to 1990, and the Koning William yard, which the neighbours fought to save.'
+  summary: 'A street that is really a dike: a summer dike along the IJ, raised in the 17th century so the land behind it became the Plantage. Along its crest are old and new gable stones, and the Koning William yard, which the neighbours fought to save.'
   body: |
     When land had silted up outside the medieval sea dike, a summer dike was laid along the IJ, first called the Nieuwe Zeedijk. In the 17th century it was raised further and the land behind it, where the Plantage would be laid out, came to lie inside the dike. The high part became the Hoogte Kadijk, the low land beside it the Laagte Kadijk; walk the side street Tussen Kadijken, until 1943 called Korte Kerkstraat, and you feel the drop.
 
@@ -675,8 +664,7 @@
 
     Look for:
     - the stone of Arion on his dolphin (1990) at no. 78, corner of Tussen Kadijken
-    - De 3 Bloeyende Koorn Aaren of 1777 further along
-    - D'Heerlyckheyt Udinck in Tussen Kadijken
+    - D'Heerlyckheyt Udinck at Tussen Kadijken 13
     - the roof garden of Laagte Kadijk, on the 1987 garage under the Entrepotdok homes, replanted by a resident from 2005
   category: hidden-history
   lat: 52.369460
@@ -690,8 +678,6 @@
   attributes:
     rank: Okay
     built: 17th century (dike raised)
-    check: Location
-    check_note: Udinck stone seen at Tussen Kadijken 13 (city panorama, 19 Jun 2025). De 3 Bloeyende Koorn Aaren not found on the fronts of Hoogte Kadijk 109-117 in the same imagery.
   photos:
     - commons:File:Amsterdam - Hoogte Kadijk 78.JPG
     - commons:File:2101 - Amsterdam - Tussen kadijken 24- Gert-Jan Bark - 1.jpg
@@ -703,7 +689,7 @@
     - https://shaffystuin.nl/buitengewone-buurttuinen/ (item 6, roof garden Laagte Kadijk on the garage of the 1987 Entrepotdok buildings; resident replanted it from 2005)
   nl:
     title: Hoogte Kadijk, de oude zeedijk en zijn laatste werf
-    summary: 'Een straat die eigenlijk een dijk is: een zomerdijk langs het IJ, in de zeventiende eeuw opgehoogd zodat het land erachter de Plantage kon worden. Op de kruin gevelstenen van 1777 tot 1990, en de werf Koning William, waar de buren voor vochten.'
+    summary: 'Een straat die eigenlijk een dijk is: een zomerdijk langs het IJ, in de zeventiende eeuw opgehoogd zodat het land erachter de Plantage kon worden. Op de kruin oude en nieuwe gevelstenen, en de werf Koning William, waar de buren voor vochten.'
     body: |
       Toen buiten de middeleeuwse zeedijk veel land was aangeslibd, werd langs het IJ een zomerdijk of kadijk aangelegd, eerst de Nieuwe Zeedijk genoemd. In de zeventiende eeuw werd die verder opgehoogd en kwam het land erachter, waar later de Plantage kwam, binnendijks te liggen. Het hoge deel werd de Hoogte Kadijk, het lage land ernaast de Laagte Kadijk. Loop het straatje Tussen Kadijken in, tot 1943 de Korte Kerkstraat, en je voelt het hoogteverschil.
 
@@ -713,11 +699,9 @@
 
       Let op:
       - de steen van Arion op zijn dolfijn (1990) op nummer 78, hoek Tussen Kadijken
-      - De 3 Bloeyende Koorn Aaren uit 1777 verderop
-      - D'Heerlyckheyt Udinck in Tussen Kadijken
+      - D'Heerlyckheyt Udinck op Tussen Kadijken 13
       - de daktuin aan de Laagte Kadijk, op de garage uit 1987 onder de Entrepotdokwoningen, sinds 2005 door een bewoonster opnieuw beplant
     attributes:
-      check_note: De steen Udinck zit op Tussen Kadijken 13 (panorama gemeente, 19 juni 2025). De 3 Bloeyende Koorn Aaren niet gevonden aan de gevels van Hoogte Kadijk 109-117 op dezelfde beelden.
     sources:
       - https://nl.wikipedia.org/wiki/Hoogte_Kadijk
       - buurtorganisatie1018.nl 2018-11-19 en 2023-02-01

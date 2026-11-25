@@ -292,7 +292,7 @@
       - onsamsterdam.nl (Joods Historisch Museum viert dubbel feest)
 
 - title: Tip Top, the Jewish quarter's theatre (gone)
-  summary: "From 1914 the Jodenbreestraat had its own cinema and variety theatre, where Louis and Heintje Davids played. The occupier closed it, its wood went into stoves in the Hunger Winter, and the ruin came down in 1953. Since March 2026 stained-glass windows mark where its entrance was."
+  summary: From 1914 the Jodenbreestraat had its own cinema and variety theatre, where Louis and Heintje Davids played. The occupier closed it, its wood went into stoves in the Hunger Winter, and the ruin came down in 1953. Since March 2026 stained-glass windows mark where its entrance was.
   body: |
     The Tip Top opened on 17 March 1914 in the middle of the Jodenhoek, the old Jewish quarter, as a cinema with a small stage, built to a design by the architects Gulden and Geldmaker and run by Joseph Kroonenberg. It showed films and put on cabaret and variety; Louis and Heintje Davids were among the artists who played here.
 
@@ -317,8 +317,6 @@
     status: Gone
     artist: Luka Viool (design), Robin Kapitein (stained glass), 2026
     original_use: Cinema and variety theatre
-    check: Location
-    check_note: "Pin placed on the old theatre site; set it on the stained-glass windows in the academy's front once seen"
   photos:
     - commons:File:Tegen de muur van het Tip-Top Theater in de Jodenbreestraat te Amsterdam.jpg
   sources:
@@ -330,7 +328,7 @@
   override: { attributes: { era: 1796 to 1940, theme: Culture and sport } }
   nl:
     title: Tip Top, het theater van de Jodenhoek (verdwenen)
-    summary: "Vanaf 1914 had de Jodenbreestraat een eigen bioscoop en variététheater, waar Louis en Heintje Davids optraden. De bezetter sloot het, in de hongerwinter ging het hout in de kachel, in 1953 viel de ruïne. Sinds maart 2026 markeren glas-in-loodramen de ingang."
+    summary: Vanaf 1914 had de Jodenbreestraat een eigen bioscoop en variététheater, waar Louis en Heintje Davids optraden. De bezetter sloot het, in de hongerwinter ging het hout in de kachel, in 1953 viel de ruïne. Sinds maart 2026 markeren glas-in-loodramen de ingang.
     body: |
       Het Tip Top opende op 17 maart 1914 midden in de Jodenhoek als bioscoop met een toneeltje, ontworpen door de architecten Gulden en Geldmaker, met Joseph Kroonenberg als directeur. Er draaiden films en er was cabaret en variété; Louis en Heintje Davids hoorden bij de artiesten die hier stonden.
 
@@ -344,23 +342,22 @@
     attributes:
       artist: Luka Viool (ontwerp), Robin Kapitein (glas-in-lood), 2026
       original_use: Bioscoop en variététheater
-      check_note: "Pin staat op de plek van het oude theater; zet hem op de glas-in-loodramen in de gevel van de academie zodra die gezien zijn"
     sources:
       - atd.ahk.nl/actueel/nieuws/2026/04/onthulling-monument-ter-herinnering-aan-het-tiptop-theater
       - joodsamsterdam.nl/tip-top-theater
       - theaterencyclopedie.nl
 
 - title: The rooster of De Haan's matzo factory (Valkenburgerstraat)
-  summary: "A stone with a rooster, haan in Dutch, once named the matzo bakery of A.I. de Haan, which baked five to six million matzos a year in this street before the war. It now hangs inside the new block on the site."
+  summary: A stone with a rooster, haan in Dutch, once named the matzo bakery of A.I. de Haan, which baked five to six million matzos a year in this street before the war. It now hangs inside the new block on the site.
   body: |
     The De Haan bakery settled in the Valkenburgerstraat in 1830, when the street was part of the crowded Jewish quarter on the island of Marken. As A.I. de Haan & Co. it became a household name in Jewish Amsterdam: before the war it turned out five to six million matzos a year, the unleavened bread eaten at Passover.
 
-    Its sign was a pun on the name: a stone with a rooster. It outlived the factory building, and today it hangs in the hall of the modern apartment block on the site, not in the street front.
+    Its sign was a pun on the name: a stone with a rooster. It outlived the factory building, and today it hangs inside the modern apartment block on the site, not in the street front.
 
     Visiting: the new building is private; the stone is not on the street front.
 
     Look for:
-    - the rooster stone in the hall of no. 186
+    - the new block at no. 186, where the bakery stood
     - a few doors north, Valkenburgerstraat 202-210, the street's last old building, which has its own place
   category: curiosities
   lat: 52.369324
@@ -373,8 +370,6 @@
   attributes:
     rank: Okay
     original_use: Gable stone of a matzo bakery
-    check: Location
-    check_note: "Sources differ on where inside the stone hangs (the hall of the flats or the parking garage entrance) and whether it can be seen from outside"
   sources:
     - "onh.nl/verhaal/matzes-van-de-haan (read Nov 2026): bread factory De Haan settled in the Valkenburgerstraat in 1830; matzo factory De Haan made about 5 to 6 million matzos a year before WWII; all that remains is a gable stone with a rooster, which hangs in the hall of the modern apartment complex"
     - "joodsamsterdam.nl/matzefabriek-a-i-de-haan-co (updated 21 Mar 2025): factory at Valkenburgerstraat 186/188, 5 to 6 million matzos a year around 1920; bakery from 1830; VVAG worked to save the stone at demolition; ceramic, broke, restored; placed in the parking garage on the site, in the entrance"
@@ -383,20 +378,19 @@
   override: { attributes: { era: 1796 to 1940, theme: Work and trade } }
   nl:
     title: De haan van matzefabriek De Haan (Valkenburgerstraat)
-    summary: "Een steen met een haan was het uithangbord van de matzebakkerij van A.I. de Haan, die voor de oorlog in deze straat vijf tot zes miljoen matzes per jaar bakte. Nu hangt hij binnen in de nieuwbouw op de plek."
+    summary: Een steen met een haan was het uithangbord van de matzebakkerij van A.I. de Haan, die voor de oorlog in deze straat vijf tot zes miljoen matzes per jaar bakte. Nu hangt hij binnen in de nieuwbouw op de plek.
     body: |
       De bakkerij De Haan vestigde zich in 1830 in de Valkenburgerstraat, toen de straat bij de volle Jodenbuurt op het eiland Marken hoorde. Als A.I. de Haan & Co. werd het een begrip in Joods Amsterdam: voor de oorlog bakte de fabriek vijf tot zes miljoen matzes per jaar, het ongedesemde brood van Pesach.
 
-      Het uithangbord was een woordgrap op de naam: een steen met een haan. Hij overleefde het fabriekspand en hangt nu in de hal van het moderne appartementencomplex op de plek, niet in de straatgevel.
+      Het uithangbord was een woordgrap op de naam: een steen met een haan. Hij overleefde het fabriekspand en hangt nu binnen in het moderne appartementencomplex op de plek, niet in de straatgevel.
 
       Bezoek: de nieuwbouw is particulier; de steen zit niet in de straatgevel.
 
       Let op:
-      - de steen met de haan in de hal van nr. 186
+      - het nieuwe blok op nr. 186, waar de bakkerij stond
       - iets verderop Valkenburgerstraat 202-210, het laatste oude pand van de straat, dat een eigen plek heeft
     attributes:
       original_use: Gevelsteen van een matzebakkerij
-      check_note: "Bronnen verschillen over waar binnen de steen hangt (de hal van de woningen of de ingang van de parkeergarage) en of hij van buiten te zien is"
     sources:
       - onh.nl/verhaal/matzes-van-de-haan
       - joodsamsterdam.nl/matzefabriek-a-i-de-haan-co
@@ -425,8 +419,6 @@
   attributes:
     rank: Okay
     original_use: Textile wholesaler's premises
-    check: Location
-    check_note: City panoramas Jan and 19 Jun 2025 do not show the stone; in June 2025 the corner building was in scaffolding. Pin still near the corner of Waterlooplein 3.
   sources:
     - "joodsamsterdam.nl/de-vries-van-buuren (updated 7 Apr 2025): from 1829 shop in thread, ribbon, lace and caps at Jodenbreestraat 8; new building 1882; Jodenbreestraat 10-14 and Waterlooplein 1-13 added by 1928; wholesaler to the market traders, confection and hat factories; staff mainly Jewish; closed on Sabbath and Jewish holidays; pension fund 1904; much of the staff murdered; moved 1954 to the West-Indisch Huis; closed 1983; De Swarte Mvele set into Waterlooplein 3 in September 2007, long-term loan from the Amsterdam Museum"
     - "gevelstenenvanamsterdam.nl/zwanenburgwal-zn-amsterdam-swarte-mvele (read Nov 2026): corner plot sold 10 Nov 1609 to Jan Cornelis Molen, who probably placed the stone; 1706 rebuild kept it; 1895 extension of the De Vries van Buuren building replaced the old corner houses (architects Cerlijn en De Haan); stone taken into the Stedelijk Museum collection 1896, later shown in the Waag, from 1955 in the Rijksmuseum depot; back at its old place in August 2007, side wall of Waterlooplein 3"
@@ -449,7 +441,6 @@
       - ernaast het Rembrandthuis en de hoek van Uylenburgh, die een eigen plek hebben
     attributes:
       original_use: Pand van een textielgroothandel
-      check_note: Stadspanorama's jan en 19 jun 2025 tonen de steen niet; in juni 2025 stond het hoekpand in de steigers. Pin nog bij de hoek van Waterlooplein 3.
     sources:
       - gevelstenenvanamsterdam.nl/zwanenburgwal-zn-amsterdam-swarte-mvele
       - joodsamsterdam.nl/de-vries-van-buuren
