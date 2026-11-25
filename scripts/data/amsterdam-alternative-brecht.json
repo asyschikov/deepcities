@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Café Brecht, the Berlin living room on the Weteringschans",
+    "summary": "A café furnished from thrift shops and named after Bertolt Brecht, opened in 2010 by Joris Houtman with his mother and girlfriend after a spell in Berlin. The beer is German and the taps keep changing; there are no reservations.",
+    "body": "Joris Houtman lived in Berlin for a while in 2005 and drank German beers he had never seen at home. Five years later he opened this café on the Weteringschans with his mother and his girlfriend, as a Berlin-style living room: standard lamps, worn armchairs and grandma's teacups, in the café's own words. It is named after the playwright Bertolt Brecht, and the café's site quotes him on its sustainability page: 'ändere die Welt, sie braucht es'.\n\nIn the early years, Houtman told Entree Magazine in 2022, Brecht was one of the city's hipster cafés; it still draws a trendy, slightly alternative crowd. The German beer grew into a business of its own: there are no fixed beers on tap, and kegs come from small breweries through the German beer wholesaler he started. Concerts and plays are put on here, Germans gather for the football (AT5 filmed them watching Germany go out of the 2018 World Cup), the café ran its own exit poll at the 2018 council elections, and in 2024 Het Parool found it full of members of The Offline Club, who had handed in their phones.\n\nLook for:\n- chairs, tables and sofas that all came from secondhand shops, and hot chocolate in a mug that never matches the last one\n- piles of old books and board games among the sofas\n- the German taps, where nothing is fixed and the beers keep changing",
+    "category": "food-drink",
+    "lat": 52.359823,
+    "lng": 4.890065,
+    "address": "Weteringschans 157",
+    "municipality": "Amsterdam",
+    "borough": "Centrum",
+    "neighbourhood": "Centrum-Oost",
+    "subNeighbourhood": "De Weteringschans",
+    "links": [
+      {
+        "label": "Café Brecht",
+        "url": "https://www.cafebrecht.nl/"
+      },
+      {
+        "label": "Entree Magazine: five questions to Joris Houtman (2022)",
+        "url": "https://www.entreemagazine.nl/dranken/vijf-vragen-aan-joris-houtman-van-biercaf%C3%A9-brecht-in-amsterdam"
+      },
+      {
+        "label": "NRC: Huiskamerhip in de hoofdstad (2012)",
+        "url": "https://www.nrc.nl/nieuws/2012/01/26/huiskamerhip-in-de-hoofdstad-12157131-a558205"
+      },
+      {
+        "label": "AT5: Duits gevloek bij uitschakeling (2018)",
+        "url": "https://www.at5.nl/artikelen/183685/duits-gevloek-bij-uitschakeling-wereldkampioen"
+      },
+      {
+        "label": "Het Parool: The Offline Club in Café Brecht (2024)",
+        "url": "https://www.parool.nl/ps/welkom-bij-the-offline-club-waar-je-mobiel-niet-welkom-is-fijn-idee-dat-ik-nu-samen-met-anderen-ga-lezen~ba23ece1/"
+      },
+      {
+        "label": "Time Out: best bars in Amsterdam",
+        "url": "https://www.timeout.com/amsterdam/bars-and-pubs/best-bars-in-amsterdam"
+      }
+    ],
+    "detail": "theme",
+    "translations": {
+      "nl": {
+        "title": "Café Brecht, de Berlijnse huiskamer aan de Weteringschans",
+        "summary": "Café ingericht uit de kringloop en vernoemd naar Bertolt Brecht, in 2010 geopend door Joris Houtman met zijn moeder en vriendin, na een tijd in Berlijn. Het bier is Duits, de tap wisselt steeds en reserveren kan niet.",
+        "body": "Joris Houtman woonde in 2005 een tijdje in Berlijn en dronk daar Duitse bieren die hij thuis nooit had gezien. Vijf jaar later begon hij met zijn moeder en zijn vriendin dit café aan de Weteringschans, als Berlijnse woonkamer: schemerlampen, oude fauteuils en theekopjes van oma, zoals het café het zelf zegt. Het is vernoemd naar toneelschrijver Bertolt Brecht, en op de duurzaamheidspagina van het café staat zijn regel 'ändere die Welt, sie braucht es'.\n\nIn de beginjaren was Brecht een van de hipstercafés van de stad, vertelde Houtman in 2022 aan Entree Magazine; het trekt nog altijd een trendy, licht alternatief publiek. Het Duitse bier groeide uit tot een eigen bedrijf: vaste bieren op de tap zijn er niet, de fusten komen van kleine brouwerijen via de groothandel in Duits bier die hij oprichtte. Er zijn concerten en toneelstukken, Duitsers komen hier voetbal kijken (AT5 filmde ze toen Duitsland in 2018 uit het WK lag), het café hield bij de gemeenteraadsverkiezingen van 2018 een eigen exitpoll, en in 2024 trof Het Parool het vol deelnemers aan The Offline Club, die hun telefoon hadden ingeleverd.\n\nLet op:\n- stoelen, tafels en banken die allemaal uit de kringloop komen, en chocomel in een mok die nooit dezelfde is als de vorige\n- stapels oude boeken en bordspellen tussen de banken\n- de Duitse taps, waar niets vast is en de bieren steeds wisselen"
+      }
+    },
+    "note": "Sources: café site (address, about Brecht, sustainability page: thrift-shop furniture, mismatched mugs, suppliers incl. Urstoff; no reservations), Entree Magazine 2022 (Houtman in Berlin 2005, opened five years later with mother and girlfriend; hipster café early on, trendy slightly alternative crowd; no fixed taps; wholesaler with Jelle Hultink), Berlijn-Blog Oct 2010 (open by then), NRC 2012 (owner Joris Houtman), AT5 2018, Het Parool 2018 (exit poll) and 2024 (Offline Club), Time Out (old books, board games).",
+    "override": {
+      "attributes": {
+        "kind": "Bar with a scene",
+        "today": "Still going",
+        "years": "since 2010",
+        "scene": "Trendy, slightly alternative crowd; Germans for the football"
+      },
+      "translations": {
+        "nl": {
+          "attributes": {
+            "scene": "Trendy, licht alternatief publiek; Duitsers bij het voetbal"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "slug": "arrivals",
+  "title": "City of Arrivals",
+  "tagline": "Immigration in Amsterdam through the ages: four centuries of newcomers and the places they left their mark.",
+  "description": "A map of immigration to Amsterdam, from the Sephardic Jews and Huguenots of the Golden Age to German seasonal workers, Chinese seamen, Surinamese, Moroccan, Turkish and Ghanaian families, and the newcomers of today. Churches and synagogues they built, streets they lived on, shops, clubs and monuments: where they arrived, what they made here, and what is left of it.",
+  "city": "Amsterdam",
+  "centerLat": 52.3676,
+  "centerLng": 4.8952,
+  "zoom": 12,
+  "categories": [{ "key": "place", "label": "Place", "color": "#2563eb" }],
+  "language": "en",
+  "languages": ["nl"],
+  "translations": {
+    "nl": {
+      "title": "Stad van aankomst",
+      "tagline": "Immigratie in Amsterdam door de eeuwen heen: vier eeuwen nieuwkomers en de plekken waar ze hun sporen achterlieten.",
+      "description": "Een kaart van immigratie naar Amsterdam, van de Sefardische Joden en hugenoten uit de Gouden Eeuw tot Duitse seizoenarbeiders, Chinese zeelieden, Surinaamse, Marokkaanse, Turkse en Ghanese gezinnen en de nieuwkomers van nu. Kerken en synagogen die ze bouwden, straten waar ze woonden, winkels, verenigingen en monumenten: waar ze aankwamen, wat ze hier maakten en wat ervan over is."
+    }
+  }
+}
