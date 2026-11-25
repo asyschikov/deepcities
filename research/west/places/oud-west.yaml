@@ -488,7 +488,7 @@
     - the central hoisting tower flanked by the former transformer rooms
     - the chimney flues against the back of the tower
     - the gates, decorated with geometric sheet-metal shapes
-  category: infrastructure
+  category: industrial
   lat: 52.363838
   lng: 4.876836
   address: Eerste Helmersstraat 21
@@ -637,7 +637,7 @@
     - the two turrets crowning the central bay
     - the tile panel beside the main entrance with Bonda's name
     - mosaic panels with the original school name
-  category: schools
+  category: civic
   lat: 52.36071
   lng: 4.864555
   address: Eerste Helmersstraat 263-269
@@ -685,7 +685,7 @@
     - the founding society's name above the main entrance
     - the monumental doorway modelled on patrician houses
     - original windows and doors in the symmetrical front
-  category: schools
+  category: civic
   lat: 52.360835
   lng: 4.862131
   address: Brederodestraat 108
@@ -731,7 +731,7 @@
     - the neo-Gothic details of number 102
     - the round and half-round windows of number 149's stairwell
     - the caretaker's house built onto the second school
-  category: schools
+  category: civic
   lat: 52.36215
   lng: 4.862791
   address: Kanaalstraat 102 and 147-149
@@ -828,7 +828,7 @@
     - the three Flemish gables of the depot, each with a projecting timber roof over a hoisting beam
     - arched double carriage doors and paired round-arched windows
     - two tram rails set into the alley as a reminder (probably laid after the conversion)
-  category: infrastructure
+  category: industrial
   lat: 52.359132
   lng: 4.863179
   address: Overtoom 373
@@ -1119,7 +1119,7 @@
     - the recessed, arched entrance with a wrought-iron gate and corbelled brickwork above
     - a hoisting beam high up, used to lift coal and peat into the attic stores
     - rows of small toilet windows next to the tall drawing-room windows
-  category: schools
+  category: civic
   lat: 52.358812
   lng: 4.856107
   address: Derde Kostverlorenkade 34-35
@@ -1211,7 +1211,7 @@
     - two large birds of prey that give the narrow entrance front its silhouette
     - a serpent biting its own tail on each side of the entrance
     - on the park side, more figures and stairs to the garden decorated with snakes (best seen in winter)
-  category: schools
+  category: civic
   lat: 52.357374
   lng: 4.858018
   address: Zocherstraat 23-25
@@ -1521,7 +1521,7 @@
     - the tram rails in the passage floor and the stone number plates of the old halls
     - Polonceau trusses and raised glass roofs overhead
     - the stone "Gemeente tram" plaque on the Tollensstraat, and the shed gables with tall timber doors on the Bellamyplein
-  category: culture
+  category: infrastructure
   lat: 52.366833
   lng: 4.86902
   address: Hannie Dankbaarpassage, Bellamyplein / Tollensstraat 60
@@ -2103,7 +2103,7 @@
     - the two projecting bays crowned by triangular gables with arched friezes
     - stone columns with Venetian capitals beside the elliptical entrance arch
     - Gothic trefoil reliefs over the small attic windows
-  category: schools
+  category: civic
   lat: 52.368605
   lng: 4.875636
   address: Nassaukade 327
@@ -2149,7 +2149,7 @@
     - the entrance with an ogee arch, between twisted columns crowned by Gothic finials
     - a yellow-and-red sawtooth frieze under the eaves
     - on the opposite corner (Potgieterstraat 49, in the oriel on the Da Costakade side), a relief portrait of the writer E.J. Potgieter, co-founder of the magazine *De Gids*, between two cartouches with a four-line verse about steam clouds, industry and the city wall "waxing from a half to a full disc": most likely a nod to the city growing past its old walls after 1870
-  category: schools
+  category: civic
   lat: 52.369308
   lng: 4.871869
   address: Potgieterstraat 34 / Da Costakade
@@ -2202,7 +2202,7 @@
     - the wrought-iron entrance gate with three St Andrew's crosses (Amsterdam's arms) and "ANNO 1914"
     - the bay window and balcony of the directress's rooms above the entrance
     - the lower corner wing, with its broken hipped roof, that housed the service flat
-  category: schools
+  category: civic
   lat: 52.371018
   lng: 4.866387
   address: Elisabeth Wolffstraat 2 / Tweede Kostverlorenkade 5
@@ -2251,7 +2251,7 @@
     - the figure at the very top of the ladder, best seen from across the street
     - the drawing by a patient, Wim, added to the glass behind the base in 2021
     - Crystal Growth next door, which changes colour at night
-  category: curiosities
+  category: street-art
   lat: 52.364714
   lng: 4.873807
   address: Eerste Constantijn Huygensstraat 38
@@ -2581,7 +2581,7 @@
     - the three rows of metal "stones" across the façade
     - the twenty spouts in the gutter
     - the formulas marked in the sills on the pavement
-  category: curiosities
+  category: street-art
   lat: 52.367922
   lng: 4.874464
   address: Kinkerstraat (Vinkhoek), between Da Costakade and Nassaukade
@@ -2665,7 +2665,7 @@
     Look for:
     - the poets' names on the doorbell labels
     - the small speaker grille
-  category: curiosities
+  category: street-art
   lat: 52.364994
   lng: 4.865785
   address: Nicolaas Beetsstraat 82
@@ -2706,7 +2706,7 @@
     Look for:
     - the drop in level from the raised streets around it down into the Bellamystraat
     - front gardens and low houses on the old polder plots
-  category: odd-museums
+  category: culture
   lat: 52.366265
   lng: 4.862464
   address: Bellamystraat 376-378

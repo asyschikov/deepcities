@@ -1,44 +1,38 @@
 # Deep Amsterdam map settings (snapshot of the live map; categories and fields for drafts)
 slug: sights
 categories:
-- key: religious
-  label: Churches
-  color: '#7c3aed'
-- key: schools
-  label: Schools
-  color: '#2563eb'
 - key: housing
   label: Housing
   color: '#b45309'
 - key: civic
-  label: Civic buildings
+  label: Public buildings
   color: '#0f766e'
-- key: culture
-  label: Culture & sport
-  color: '#ca8a04'
+- key: religious
+  label: Places of worship
+  color: '#7c3aed'
 - key: industrial
   label: Industrial heritage
   color: '#57534e'
 - key: infrastructure
-  label: Bridges & infrastructure
+  label: Water & bridges
   color: '#0369a1'
 - key: hidden-history
   label: Hidden history
   color: '#4338ca'
+- key: street-art
+  label: Public art
+  color: '#ea580c'
 - key: curiosities
   label: Curiosities
   color: '#be185d'
-- key: street-art
-  label: Murals & street art
-  color: '#ea580c'
-- key: odd-museums
-  label: Odd museums
-  color: '#a21caf'
+- key: culture
+  label: Museums & stages
+  color: '#ca8a04'
 - key: food-drink
   label: Food & drink
   color: '#be123c'
 - key: green
-  label: Green escapes
+  label: Green spaces
   color: '#15803d'
 fields:
 - key: rank

@@ -10,7 +10,7 @@ are still precise.
 
 ## Categories (11, each with a colour and an icon)
 
-1. Homes
+1. Housing
 2. Public buildings
 3. Places of worship
 4. Industrial heritage
@@ -22,26 +22,20 @@ are still precise.
 10. Food & drink
 11. Green spaces
 
-## Three mechanisms
+## Keys (live since 2026-11-25)
 
-- **Subcategory** (every place, every category): a fixed short list per category; icon and finer
-  filter. Industrial heritage: factories & works, shipyards, warehouses, gas & power,
-  transport (stations and depots). Water & bridges: bridges, locks & sluices, canals & harbours,
-  pumping stations & waterworks, dikes & quays.
-  Subcategory lists for the other categories are drafted with the re-sort.
-- **Secondary category**: at most one, only when the place is worth a trip on that count alone.
-  Needs a small code change (filter matches main or secondary).
-- **Lists (theme maps)**: curated deep takes with their own fields and routes. An industrial theme
-  map is the user's call, later.
+housing, civic (Public buildings), religious (Places of worship), industrial, infrastructure
+(Water & bridges), hidden-history, street-art (Public art), curiosities, culture (Museums &
+stages), food-drink, green (Green spaces). Schools and Odd museums were merged and removed.
+NL: Woningbouw, Openbare gebouwen, Gebedshuizen, Industrieel erfgoed, Water en bruggen,
+Verborgen geschiedenis, Kunst in de openbare ruimte, Curiosa, Musea en podia, Eten en drinken,
+Groene plekken. Every move is in research/quality/category-changes-2026-11-25.json.
 
-## Order
-
-1. Code: subcategory and secondary category.
-2. Re-sort all places in one pass (category, subcategory, secondary); the pending
-   Stages & screens / Museums re-sort folds into it.
-3. The user reviews moves per category before anything goes live.
+No subcategories. Secondary categories and theme lists are open questions for later.
 
 ## Change log
 
 - 2026-11-25, user: water gets its own category (Water & bridges), out of Industrial
   heritage; Green escapes renamed Green spaces; industrial theme map left to the user.
+- 2026-11-25, user: no subcategories; implement the 11 categories. "Homes" asked about:
+  kept the live label Housing (it is mostly housing blocks, garden villages, almshouses).
