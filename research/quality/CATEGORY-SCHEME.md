@@ -43,3 +43,7 @@ No subcategories. Secondary categories and theme lists are open questions for la
   was 19): housing #92400e, civic #0f766e, religious #7c3aed, industrial #57534e, infrastructure
   #0ea5e9, hidden-history #1e3a8a, street-art #f97316, curiosities #ec4899, culture #eab308,
   food-drink #dc2626, green #15803d. Icons need a code change (none yet).
+- 2026-11-25, user: "former waterworks are industrial heritage". Drinking-water plants
+  (pumping works, purification, waterworks service buildings) go in industrial; drainage and
+  sewage pumping stations, bridges, locks and ferries stay in Water & bridges. Moved: Former
+  waterworks (Watertorenplein), Emergency waterworks of the Defence Line, Provincialeweg 16.
