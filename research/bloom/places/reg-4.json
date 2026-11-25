@@ -1,0 +1,825 @@
+{
+ "places": [
+  {
+   "spot": [
+    "r123"
+   ],
+   "title": "Magnolias and red hawthorn of the Rietwijkerstraat",
+   "summary": "Twenty white Magnolia kobus in the Rietwijkerstraat open in March; round the corner in the Woubruggestraat about twenty hawthorns turn red in May.",
+   "body": "The Rietwijkerstraat has a row of 20 Magnolia kobus, all planted in 2000. They flower in March, before the leaves, with white flowers that open out flat. A late night frost can brown them, so a mild March is the good year.\n\nRound the corner the Woubruggestraat takes over in May with 22 hawthorns, most of them 'Paul's Scarlet', planted between 1970 and 2023. In bloom the whole tree is covered, red at first and paler as the flowers age. Three are the narrow, upright 'Stricta' form of the white wild hawthorn.\n\nLook for:\n- the magnolias' dark red seed pods after flowering\n- the red hawthorn fading to pale red over the week",
+   "category": "green",
+   "lat": 52.348761,
+   "lng": 4.849876,
+   "address": "Rietwijkerstraat / Woubruggestraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's en rode meidoorn in de Rietwijkerstraat",
+     "summary": "Twintig witte Magnolia kobus in de Rietwijkerstraat bloeien in maart; om de hoek in de Woubruggestraat kleuren ruim twintig meidoorns in mei rood.",
+     "body": "In de Rietwijkerstraat staat een rij van 20 Magnolia kobus, allemaal geplant in 2000. Ze bloeien in maart, nog voor het blad komt, met witte bloemen die helemaal openvallen. Een late nachtvorst kan ze bruin kleuren, dus een zachte maart is een goed jaar.\n\nOm de hoek neemt de Woubruggestraat het in mei over met 22 meidoorns, de meeste 'Paul's Scarlet', geplant tussen 1970 en 2023. In bloei zit de hele boom vol, eerst rood en daarna bleker. Drie zijn de smalle, rechtopgaande 'Stricta', een vorm van de witte eenstijlige meidoorn.\n\nLet op:\n- de donkerrode zaaddozen van de magnolia's na de bloei\n- de rode meidoorn die in een week naar bleekrood verkleurt"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "Magnolias in March; the red hawthorn follows in May.",
+     "what": "Magnolias: 20 Magnolia kobus. Hawthorns: 17 Crataegus × media 'Paul's Scarlet', 3 Crataegus monogyna 'Stricta', 2 others",
+     "trees": 42
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Magnolia's in maart; de rode meidoorn volgt in mei.",
+       "what": "Magnolia's: 20 Magnolia kobus. Meidoorns: 17 Crataegus × media 'Paul's Scarlet', 3 Crataegus monogyna 'Stricta', 2 andere"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/",
+    "https://www.vdberk.nl/bomen/crataegus-monogyna-stricta/"
+   ]
+  },
+  {
+   "spot": [
+    "r116"
+   ],
+   "title": "Double cherry blossom on the Mercatorplein",
+   "summary": "Twenty-two double white wild cherries on the Mercatorplein flower in April, with a handful of pink 'Kanzan' following at the end of the month.",
+   "body": "The Mercatorplein has 22 Prunus avium 'Plena', the double form of the wild cherry, planted between 2003 and 2022. In April they hang with bunches of white, fully double flowers. The tree is sterile, so no cherries and no sticky pavement afterwards.\n\nAt the north side stand 13 Japanese cherries, five of them 'Kanzan', planted from 1983 onwards. 'Kanzan' flowers from the end of April into early May with double, clear pink flowers and bronze young leaves, so the square goes from white to pink.\n\nLook for:\n- the white pompoms of the 'Plena'\n- the bronze leaves that come out with the 'Kanzan' flowers",
+   "category": "green",
+   "lat": 52.370017,
+   "lng": 4.850885,
+   "address": "Mercatorplein",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Dubbele kersenbloesem op het Mercatorplein",
+     "summary": "Tweeëntwintig gevuldbloeiende witte kersen op het Mercatorplein bloeien in april; een handvol roze 'Kanzan' volgt aan het eind van de maand.",
+     "body": "Op het Mercatorplein staan 22 Prunus avium 'Plena', de gevulde vorm van de zoete kers, geplant tussen 2003 en 2022. In april hangen ze vol bundels witte, gevulde bloemen. De boom is steriel: geen kersen, en dus ook geen plakkende stoep na afloop.\n\nAan de noordkant staan 13 Japanse sierkersen, waarvan vijf 'Kanzan', geplant vanaf 1983. 'Kanzan' bloeit van eind april tot begin mei met gevulde, zuiverroze bloemen en bronskleurig jong blad, zodat het plein van wit naar roze gaat.\n\nLet op:\n- de witte bolletjes van de 'Plena'\n- het bronskleurige blad dat tegelijk met de bloemen van de 'Kanzan' uitloopt"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "April for the white double cherries; the pink 'Kanzan' follows late April into early May.",
+     "what": "Double wild cherry: 22 Prunus avium 'Plena'. Japanese cherries: 5 'Kanzan', 8 Prunus serrulata",
+     "trees": 35
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April voor de witte gevulde kersen; de roze 'Kanzan' volgt eind april tot begin mei.",
+       "what": "Gevulde zoete kers: 22 Prunus avium 'Plena'. Japanse sierkersen: 5 'Kanzan', 8 Prunus serrulata"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-avium-plena/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   ]
+  },
+  {
+   "spot": [
+    "r038",
+    "r019",
+    "r018"
+   ],
+   "title": "Ornamental pears along the Piet Kranenbergpad",
+   "summary": "More than 150 ornamental pears, all planted in 2002, line the Piet Kranenbergpad for close to a kilometre and flower white in April.",
+   "body": "The Piet Kranenbergpad is lined with 156 ornamental pears, Pyrus calleryana 'Chanticleer', all planted in 2002, in a row of close to a kilometre. They are narrow, cone-shaped trees, and in April they flower abundantly with white flowers in clusters of six to twelve.\n\nAfter the flowers the pears keep their glossy leaves until late in the year, then turn yellow and red, so the path gets a second show in autumn. Fruit is rare.\n\nLook for:\n- the long white line of identical cones\n- the leaves turning yellow and red in late autumn",
+   "category": "green",
+   "lat": 52.342155,
+   "lng": 4.851876,
+   "address": "Piet Kranenbergpad",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Sierperen langs het Piet Kranenbergpad",
+     "summary": "Ruim 150 sierperen, allemaal in 2002 geplant, staan bijna een kilometer lang langs het Piet Kranenbergpad en bloeien in april wit.",
+     "body": "Langs het Piet Kranenbergpad staan 156 sierperen, Pyrus calleryana 'Chanticleer', allemaal geplant in 2002, in een rij van bijna een kilometer. Het zijn smalle, kegelvormige bomen die in april uitbundig bloeien met witte bloemen in tuilen van zes tot twaalf.\n\nNa de bloei houden de peren hun glanzende blad tot laat in het jaar en kleuren dan geel en rood, zodat het pad in de herfst nog een tweede keer de moeite is. Vruchten zie je zelden.\n\nLet op:\n- de lange witte rij van identieke kegels\n- het blad dat laat in de herfst geel en rood kleurt"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Apple and pear blossom",
+     "peak": "Early April",
+     "when": "April; autumn colour in yellow and red late in the year.",
+     "what": "Ornamental pear: 156 Pyrus calleryana 'Chanticleer'",
+     "trees": 156
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April; herfstkleur in geel en rood laat in het jaar.",
+       "what": "Sierpeer: 156 Pyrus calleryana 'Chanticleer'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   ]
+  },
+  {
+   "spot": [
+    "r119"
+   ],
+   "title": "Magnolias of the Jacob Marisstraat",
+   "summary": "Twenty-two white Magnolia kobus along the Jacob Marisstraat, planted from 2014, flower in March before their leaves.",
+   "body": "The Jacob Marisstraat has 22 Magnolia kobus, planted between 2014 and 2023. In March, before the leaves, they carry white flowers that open out flat. Magnolia kobus is shy when young and flowers richly once it has some age, so this street should get better every year.\n\nA late night frost can damage the flowers; after flowering come dark red seed pods.\n\nLook for:\n- the bare branches full of white flowers\n- the dark red seed pods later in the year",
+   "category": "green",
+   "lat": 52.354123,
+   "lng": 4.852284,
+   "address": "Jacob Marisstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's in de Jacob Marisstraat",
+     "summary": "Tweeëntwintig witte Magnolia kobus langs de Jacob Marisstraat, geplant vanaf 2014, bloeien in maart nog voor het blad.",
+     "body": "In de Jacob Marisstraat staan 22 Magnolia kobus, geplant tussen 2014 en 2023. In maart, nog voor het blad, dragen ze witte bloemen die helemaal openvallen. Magnolia kobus bloeit jong nog karig en pas op leeftijd rijk, dus deze straat wordt elk jaar mooier.\n\nEen late nachtvorst kan de bloemen beschadigen; na de bloei volgen donkerrode zaaddozen.\n\nLet op:\n- de kale takken vol witte bloemen\n- de donkerrode zaaddozen later in het jaar"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "March, before the leaves.",
+     "what": "Magnolias: 22 Magnolia kobus",
+     "trees": 22
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Maart, voor het blad.",
+       "what": "Magnolia's: 22 Magnolia kobus"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   ]
+  },
+  {
+   "spot": [
+    "r168"
+   ],
+   "title": "Kanzan cherries on the Surinameplein",
+   "summary": "Sixteen 'Kanzan' cherries on the Surinameplein turn double pink from the end of April into early May.",
+   "body": "The Surinameplein has 16 Japanese cherries of the variety 'Kanzan', planted between 1980 and 2023. 'Kanzan' grows into a broad vase shape whose branches hang over with age, and from the end of April into early May it flowers abundantly with double, clear pink flowers.\n\nThe young leaves come out bronze at the same time as the flowers. Fruit is rare.\n\nLook for:\n- the double pink flowers in heavy clusters\n- the bronze young leaves among them\n- the petal carpet a week or so later",
+   "category": "green",
+   "lat": 52.358409,
+   "lng": 4.85315,
+   "address": "Surinameplein",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kanzan-kersen op het Surinameplein",
+     "summary": "Zestien 'Kanzan'-kersen op het Surinameplein bloeien van eind april tot begin mei gevuld roze.",
+     "body": "Op het Surinameplein staan 16 Japanse sierkersen van het ras 'Kanzan', geplant tussen 1980 en 2023. 'Kanzan' krijgt een brede vaasvorm waarvan de takken op leeftijd overhangen, en bloeit van eind april tot begin mei uitbundig met gevulde, zuiverroze bloemen.\n\nHet jonge blad loopt tegelijk met de bloei bronskleurig uit. Vruchten zijn zeldzaam.\n\nLet op:\n- de gevulde roze bloemen in zware trossen\n- het bronskleurige jonge blad ertussen\n- het bloemblaadjestapijt een week later"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "End of April into early May.",
+     "what": "Japanese cherries: 16 Prunus serrulata 'Kanzan'",
+     "trees": 16
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot begin mei.",
+       "what": "Japanse sierkersen: 16 Prunus serrulata 'Kanzan'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   ]
+  },
+  {
+   "spot": [
+    "r086"
+   ],
+   "title": "Kanzan cherries in the Vasco da Gamastraat",
+   "summary": "Twenty-seven Japanese cherries, most of them double pink 'Kanzan', fill the Vasco da Gamastraat near the Balboaplein at the end of April.",
+   "body": "The Vasco da Gamastraat has 27 Japanese cherries, 22 of them 'Kanzan', planted between 1988 and 2023. From the end of April into early May 'Kanzan' flowers with double, clear pink flowers, together with bronze young leaves.\n\nThe trees grow into broad vases whose branches hang over with age, so on an older stretch the street gets a pink ceiling.\n\nLook for:\n- the double pink flowers\n- the bronze young leaves\n- the pink petals in the gutters afterwards",
+   "category": "green",
+   "lat": 52.36884,
+   "lng": 4.85545,
+   "address": "Vasco da Gamastraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kanzan-kersen in de Vasco da Gamastraat",
+     "summary": "Zevenentwintig Japanse sierkersen, de meeste gevuld roze 'Kanzan', vullen eind april de Vasco da Gamastraat bij het Balboaplein.",
+     "body": "In de Vasco da Gamastraat staan 27 Japanse sierkersen, waarvan 22 'Kanzan', geplant tussen 1988 en 2023. Van eind april tot begin mei bloeit 'Kanzan' met gevulde, zuiverroze bloemen, tegelijk met bronskleurig jong blad.\n\nDe bomen worden brede vazen met op leeftijd overhangende takken, zodat de straat op de oudere stukken een roze plafond krijgt.\n\nLet op:\n- de gevulde roze bloemen\n- het bronskleurige jonge blad\n- de roze blaadjes in de goot na afloop"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "End of April into early May.",
+     "what": "Japanese cherries: 22 Prunus serrulata 'Kanzan', 5 Prunus serrulata",
+     "trees": 27
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot begin mei.",
+       "what": "Japanse sierkersen: 22 Prunus serrulata 'Kanzan', 5 Prunus serrulata"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   ]
+  },
+  {
+   "spot": [
+    "r050"
+   ],
+   "title": "White cherries of the Nieuwerhoek",
+   "summary": "A row of 38 'Schnee' cherries, planted in 2006, flowers pure white along the Nieuwerhoek at the end of April, before the leaves.",
+   "body": "The Nieuwerhoek has a single row of 38 cherries of the variety Prunus × gondouinii 'Schnee', all planted in 2006. 'Schnee' (German for snow) flowers richly from the end of April into early May with large, single, pure white flowers in bunches of up to ten, before the leaves come.\n\nThe crown starts narrow and flattens into a ball with age. In autumn the leaves turn yellow, orange and red.\n\nLook for:\n- the bare white branches before any green\n- the autumn colour in October",
+   "category": "green",
+   "lat": 52.32651,
+   "lng": 4.860774,
+   "address": "Nieuwerhoek",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Witte kersen aan de Nieuwerhoek",
+     "summary": "Een rij van 38 'Schnee'-kersen, geplant in 2006, bloeit eind april zuiver wit langs de Nieuwerhoek, nog voor het blad.",
+     "body": "Langs de Nieuwerhoek staat één rij van 38 kersen van het ras Prunus × gondouinii 'Schnee', allemaal geplant in 2006. 'Schnee' (Duits voor sneeuw) bloeit van eind april tot begin mei rijk met grote, enkele, zuiver witte bloemen in bundels van tot tien, nog voor het blad verschijnt.\n\nDe kroon begint smal en wordt op leeftijd afgeplat bolvormig. In de herfst kleurt het blad geel, oranje en rood.\n\nLet op:\n- de kale witte takken voordat er iets groen is\n- de herfstkleur in oktober"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "End of April into early May; autumn colour in yellow, orange and red.",
+     "what": "Cherries: 38 Prunus × gondouinii 'Schnee'",
+     "trees": 38
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot begin mei; herfstkleur in geel, oranje en rood.",
+       "what": "Kersen: 38 Prunus × gondouinii 'Schnee'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/"
+   ]
+  },
+  {
+   "spot": [
+    "r122",
+    "r070"
+   ],
+   "title": "Red hawthorn along the Valeriusstraat",
+   "summary": "Some fifty red-flowering hawthorns, most of them 'Paul's Scarlet', line the Valeriusstraat and turn it red in May.",
+   "body": "The Valeriusstraat is lined with 54 hawthorns, 50 of them Crataegus × media 'Paul's Scarlet', planted at intervals from 1947 to 2024, so old and young trees stand side by side. In May the whole tree is covered in flowers, red at first and fading to pale red.\n\nA few other hawthorns fill gaps: two 'Jubilee' and two Crataegus × lavalleei.\n\nLook for:\n- the row going from red to pale red over the week\n- the difference between the old and the newly planted trees",
+   "category": "green",
+   "lat": 52.352966,
+   "lng": 4.864156,
+   "address": "Valeriusstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Rode meidoorn langs de Valeriusstraat",
+     "summary": "Zo'n vijftig roodbloeiende meidoorns, de meeste 'Paul's Scarlet', staan langs de Valeriusstraat en kleuren hem in mei rood.",
+     "body": "Langs de Valeriusstraat staan 54 meidoorns, waarvan 50 Crataegus × media 'Paul's Scarlet', geplant tussen 1947 en 2024, dus oude en jonge bomen staan naast elkaar. In mei zit de hele boom vol bloemen, eerst rood en dan verkleurend naar bleekrood.\n\nEen paar andere meidoorns vullen gaten: twee 'Jubilee' en twee Crataegus × lavalleei.\n\nLet op:\n- de rij die in een week van rood naar bleekrood gaat\n- het verschil tussen de oude en de pas geplante bomen"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Hawthorn",
+     "peak": "May",
+     "when": "May.",
+     "what": "Hawthorns: 50 Crataegus × media 'Paul's Scarlet', 2 'Jubilee', 2 Crataegus × lavalleei",
+     "trees": 54
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Mei.",
+       "what": "Meidoorns: 50 Crataegus × media 'Paul's Scarlet', 2 'Jubilee', 2 Crataegus × lavalleei"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   ]
+  },
+  {
+   "spot": [
+    "r148"
+   ],
+   "title": "White cherries on the Hygiëaplein",
+   "summary": "Thirty-five 'Umineko' cherries ring the Hygiëaplein, with its two Amsterdam School schools, and flower white in April.",
+   "body": "The Hygiëaplein, off the Marathonweg, has 35 cherries of the variety 'Umineko', planted in two batches between 1995 and 2021. In April they flower abundantly with single white flowers in twos and threes, at the same time as the light green young leaves.\n\nThe leaves turn orange, red and purple in autumn.\n\nLook for:\n- the white flowers against fresh green leaves\n- the two schools facing each other across the square\n- the autumn colour",
+   "category": "green",
+   "lat": 52.347373,
+   "lng": 4.863621,
+   "address": "Hygiëaplein",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Witte kersen op het Hygiëaplein",
+     "summary": "Vijfendertig 'Umineko'-kersen staan rond het Hygiëaplein met zijn twee scholen in Amsterdamse School-stijl, en bloeien in april wit.",
+     "body": "Op het Hygiëaplein, aan de Marathonweg, staan 35 kersen van het ras 'Umineko', geplant in twee keer tussen 1995 en 2021. In april bloeien ze uitbundig met enkele witte bloemen met twee of drie bijeen, tegelijk met het lichtgroen uitlopende blad.\n\nIn de herfst kleurt het blad oranje, rood en purper.\n\nLet op:\n- de witte bloemen tegen het frisgroene blad\n- de twee scholen die tegenover elkaar aan het plein staan\n- de herfstkleur"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Early April",
+     "when": "April.",
+     "what": "Japanese cherries: 35 Prunus 'Umineko'",
+     "trees": 35
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April.",
+       "what": "Japanse sierkersen: 35 Prunus 'Umineko'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/"
+   ]
+  },
+  {
+   "spot": [
+    "r055"
+   ],
+   "title": "Magnolias of the Vijverhoef",
+   "summary": "Thirty-six white Magnolia kobus along the Vijverhoef flower in March; white 'Umineko' cherries on the Noordhollandstraat follow in April.",
+   "body": "The Vijverhoef has a row of 36 Magnolia kobus, planted between 2004 and 2025. They flower in March, before the leaves, with white flowers that open out flat; the older trees flower most richly. A late night frost can spoil them.\n\nNext door on the Noordhollandstraat stand 13 'Umineko' cherries, planted between 1998 and 2003, with single white flowers in April as the leaves come out. So the corner stays white for a month or more.\n\nLook for:\n- the magnolia row in March\n- the cherries taking over in April\n- the dark red magnolia seed pods later",
+   "category": "green",
+   "lat": 52.32666,
+   "lng": 4.864924,
+   "address": "Vijverhoef / Noordhollandstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's aan de Vijverhoef",
+     "summary": "Zesendertig witte Magnolia kobus langs de Vijverhoef bloeien in maart; witte 'Umineko'-kersen in de Noordhollandstraat volgen in april.",
+     "body": "Langs de Vijverhoef staat een rij van 36 Magnolia kobus, geplant tussen 2004 en 2025. Ze bloeien in maart, voor het blad, met witte bloemen die helemaal openvallen; de oudere bomen bloeien het rijkst. Een late nachtvorst kan roet in het eten gooien.\n\nErnaast in de Noordhollandstraat staan 13 'Umineko'-kersen, geplant tussen 1998 en 2003, met enkele witte bloemen in april als het blad uitloopt. Zo blijft deze hoek ruim een maand wit.\n\nLet op:\n- de rij magnolia's in maart\n- de kersen die het in april overnemen\n- later de donkerrode zaaddozen van de magnolia's"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "Magnolias in March; the white cherries follow in April.",
+     "what": "Magnolias: 36 Magnolia kobus. Japanese cherries: 13 Prunus 'Umineko'",
+     "trees": 49
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Magnolia's in maart; de witte kersen volgen in april.",
+       "what": "Magnolia's: 36 Magnolia kobus. Japanse sierkersen: 13 Prunus 'Umineko'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/"
+   ]
+  },
+  {
+   "spot": [
+    "r152"
+   ],
+   "title": "Bird cherries in the Elisabeth Wolffstraat",
+   "summary": "Eighteen bird cherries along the Elisabeth Wolffstraat hang with long white flower tassels in late April and May.",
+   "body": "The Elisabeth Wolffstraat has 18 bird cherries, Prunus padus 'Albertii', planted in the 1990s. Unlike the Japanese cherries they flower after the leaves are out, in April and May, with white flowers in narrow, drooping tassels up to 18 centimetres long.\n\nSmall black fruits follow in summer.\n\nLook for:\n- the hanging white tassels among green leaves\n- the black fruits later",
+   "category": "green",
+   "lat": 52.36929,
+   "lng": 4.867668,
+   "address": "Elisabeth Wolffstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Vogelkersen in de Elisabeth Wolffstraat",
+     "summary": "Achttien vogelkersen langs de Elisabeth Wolffstraat hangen eind april en in mei vol lange witte bloemtrossen.",
+     "body": "In de Elisabeth Wolffstraat staan 18 vogelkersen, Prunus padus 'Albertii', geplant in de jaren negentig. Anders dan de Japanse sierkersen bloeien ze pas als het blad er is, in april en mei, met witte bloemen in smalle, overhangende trossen tot 18 centimeter lang.\n\nIn de zomer volgen kleine zwarte vruchten.\n\nLet op:\n- de hangende witte trossen tussen het groene blad\n- de zwarte vruchten later"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "Late April into May, after the leaves.",
+     "what": "Bird cherry: 18 Prunus padus 'Albertii'",
+     "trees": 18
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot in mei, na het blad.",
+       "what": "Vogelkers: 18 Prunus padus 'Albertii'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-padus-albertii/"
+   ]
+  },
+  {
+   "spot": [
+    "r138",
+    "r212"
+   ],
+   "title": "Kanzan cherries on the WG-terrein",
+   "summary": "About thirty pink 'Kanzan' cherries flower at the end of April on the former Wilhelmina Gasthuis hospital grounds, along the Jeltje de Bosch Kemperpad and the Anna Spenglerstraat.",
+   "body": "The WG-terrein, the grounds of the former Wilhelmina Gasthuis hospital, has two groups of Japanese cherries: 19 along the Jeltje de Bosch Kemperpad, 16 of them 'Kanzan' and three white 'Umineko', planted from 1979, and 12 'Kanzan' planted in 2010 in the Anna Spenglerstraat. 'Kanzan' flowers from the end of April into early May with double, clear pink flowers and bronze young leaves.\n\nThe white 'Umineko' flower earlier in April. The path is named after Jeltje de Bosch Kemper, who organised the first Dutch nursing congress here in 1892.\n\nLook for:\n- the three white cherries among the pink\n- the double pink flowers with bronze leaves",
+   "category": "green",
+   "lat": 52.362681,
+   "lng": 4.867753,
+   "address": "Jeltje de Bosch Kemperpad / Anna Spenglerstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kanzan-kersen op het WG-terrein",
+     "summary": "Zo'n dertig roze 'Kanzan'-kersen bloeien eind april op het terrein van het voormalige Wilhelmina Gasthuis, langs het Jeltje de Bosch Kemperpad en in de Anna Spenglerstraat.",
+     "body": "Op het WG-terrein, het terrein van het voormalige Wilhelmina Gasthuis, staan twee groepen Japanse sierkersen: 19 langs het Jeltje de Bosch Kemperpad, waarvan 16 'Kanzan' en drie witte 'Umineko', geplant vanaf 1979, en 12 'Kanzan' uit 2010 in de Anna Spenglerstraat. 'Kanzan' bloeit van eind april tot begin mei met gevulde, zuiverroze bloemen en bronskleurig jong blad.\n\nDe witte 'Umineko' bloeien eerder in april. Het pad is genoemd naar Jeltje de Bosch Kemper, die hier in 1892 het eerste Nederlandse congres voor verpleging organiseerde.\n\nLet op:\n- de drie witte kersen tussen het roze\n- de gevulde roze bloemen met bronskleurig blad"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "White 'Umineko' in April; the pink 'Kanzan' end of April into early May.",
+     "what": "Japanese cherries: 28 Prunus serrulata 'Kanzan', 3 Prunus 'Umineko'",
+     "trees": 31
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Witte 'Umineko' in april; de roze 'Kanzan' eind april tot begin mei.",
+       "what": "Japanse sierkersen: 28 Prunus serrulata 'Kanzan', 3 Prunus 'Umineko'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/"
+   ]
+  },
+  {
+   "spot": [
+    "r040"
+   ],
+   "title": "Robinias on the Stadionkade",
+   "summary": "Forty-three false acacias on the Stadionkade flower in June with hanging tassels of creamy white, scented flowers, long after the cherries are done.",
+   "body": "The Stadionkade has a group of 43 Robinia pseudoacacia, the false acacia or black locust, planted between 1975 and 1990. In June they hang with compact tassels of creamy white, sometimes slightly pink flowers that smell sweet.\n\nThe robinia comes into leaf late and keeps its feathery blue-green leaves long into autumn. Flat red-brown pods follow the flowers and often hang on all winter.\n\nLook for:\n- the scent on a warm June evening\n- the flat pods in winter",
+   "category": "green",
+   "lat": 52.344614,
+   "lng": 4.872222,
+   "address": "Stadionkade",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Robinia's aan de Stadionkade",
+     "summary": "Drieënveertig robinia's aan de Stadionkade bloeien in juni met hangende trossen roomwitte, geurende bloemen, lang nadat de kersen klaar zijn.",
+     "body": "Aan de Stadionkade staat een groep van 43 Robinia pseudoacacia, de valse acacia, geplant tussen 1975 en 1990. In juni hangen ze vol compacte trossen roomwitte, soms iets roze bloemen die zoet geuren.\n\nDe robinia loopt laat uit en houdt zijn geveerde blauwgroene blad lang in de herfst. Na de bloei komen platte roodbruine peulen die vaak de hele winter blijven hangen.\n\nLet op:\n- de geur op een warme juniavond\n- de platte peulen in de winter"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Summer-flowering trees",
+     "peak": "June",
+     "when": "June.",
+     "what": "False acacia: 43 Robinia pseudoacacia",
+     "trees": 43
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Juni.",
+       "what": "Valse acacia: 43 Robinia pseudoacacia"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   ]
+  },
+  {
+   "spot": [
+    "r165"
+   ],
+   "title": "Foxglove trees on the George Gershwinlaan",
+   "summary": "Seventeen Paulownia trees on the George Gershwinlaan flower lilac-blue in May, before their huge leaves appear.",
+   "body": "The George Gershwinlaan in the Zuidas has 17 Paulownia tomentosa, the foxglove tree (in Dutch the Anna Paulownaboom), planted from 2004 onwards. In May, before the leaves, they carry branched panicles of bright lilac-blue flowers, each five to six centimetres long, at the tips of the branches, opening from soft, light brown buds.\n\nThe leaves that follow are often as wide as they are long, felty, and on vigorous trees up to 40 centimetres across.\n\nLook for:\n- the lilac-blue panicles on bare branches\n- the giant felty leaves in summer",
+   "category": "green",
+   "lat": 52.335837,
+   "lng": 4.873757,
+   "address": "George Gershwinlaan",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Anna Paulownabomen aan de George Gershwinlaan",
+     "summary": "Zeventien Anna Paulownabomen aan de George Gershwinlaan bloeien in mei lilablauw, nog voor hun enorme bladeren verschijnen.",
+     "body": "Aan de George Gershwinlaan op de Zuidas staan 17 Paulownia tomentosa, de Anna Paulownaboom, geplant vanaf 2004. In mei, voor het blad, dragen ze aan de toppen van de takken vertakte pluimen helder lilablauwe bloemen van vijf tot zes centimeter, uit zacht behaarde lichtbruine knoppen.\n\nHet blad dat volgt is vaak even breed als lang, viltig, en bij groeikrachtige bomen tot 40 centimeter groot.\n\nLet op:\n- de lilablauwe pluimen aan kale takken\n- de reusachtige viltige bladeren in de zomer"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Other flowering trees",
+     "peak": "May",
+     "when": "May, before the leaves.",
+     "what": "Foxglove tree: 17 Paulownia tomentosa",
+     "trees": 17
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Mei, voor het blad.",
+       "what": "Anna Paulownaboom: 17 Paulownia tomentosa"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/paulownia-tomentosa/"
+   ]
+  },
+  {
+   "spot": [
+    "r231"
+   ],
+   "title": "Kanzan cherries in the Velazquezstraat",
+   "summary": "A short street with eleven 'Kanzan' cherries that turns double pink from the end of April into early May.",
+   "body": "The Velazquezstraat is short, and its 11 Japanese cherries of the variety 'Kanzan', planted between 1980 and 2005, fill it from end to end. From the end of April into early May they flower with double, clear pink flowers and bronze young leaves.\n\nWith age 'Kanzan' makes a broad vase with overhanging branches.\n\nLook for:\n- the whole street in pink\n- the petal carpet a week later",
+   "category": "green",
+   "lat": 52.345424,
+   "lng": 4.874803,
+   "address": "Velazquezstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kanzan-kersen in de Velazquezstraat",
+     "summary": "Een kort straatje met elf 'Kanzan'-kersen dat van eind april tot begin mei gevuld roze kleurt.",
+     "body": "De Velazquezstraat is kort, en de 11 Japanse sierkersen van het ras 'Kanzan', geplant tussen 1980 en 2005, vullen hem van begin tot eind. Van eind april tot begin mei bloeien ze met gevulde, zuiverroze bloemen en bronskleurig jong blad.\n\nOp leeftijd wordt 'Kanzan' een brede vaas met overhangende takken.\n\nLet op:\n- de hele straat in het roze\n- het bloemblaadjestapijt een week later"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "End of April into early May.",
+     "what": "Japanese cherries: 11 Prunus serrulata 'Kanzan'",
+     "trees": 11
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot begin mei.",
+       "what": "Japanse sierkersen: 11 Prunus serrulata 'Kanzan'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   ]
+  },
+  {
+   "spot": [
+    "r077",
+    "r061"
+   ],
+   "title": "Double cherry blossom along the Willem van Weldammelaan",
+   "summary": "Over sixty double white wild cherries line the Willem van Weldammelaan in Buitenveldert and flower in April.",
+   "body": "The Willem van Weldammelaan has 65 wild cherries in two long stretches, 62 of them the double form Prunus avium 'Plena', planted at intervals from 1980 to 2026. In April they hang with bunches of white, fully double flowers. 'Plena' is sterile and bears no cherries.\n\nThree are the ordinary wild cherry, with single white flowers in April and dark red, edible cherries in summer. In autumn the leaves turn yellow and orange.\n\nLook for:\n- the double white pompoms\n- the three single-flowered wild cherries among them\n- the autumn colour",
+   "category": "green",
+   "lat": 52.332455,
+   "lng": 4.875668,
+   "address": "Willem van Weldammelaan",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Dubbele kersenbloesem langs de Willem van Weldammelaan",
+     "summary": "Ruim zestig gevuldbloeiende witte zoete kersen staan langs de Willem van Weldammelaan in Buitenveldert en bloeien in april.",
+     "body": "Langs de Willem van Weldammelaan staan 65 zoete kersen in twee lange stukken, waarvan 62 de gevulde vorm Prunus avium 'Plena', geplant tussen 1980 en 2026. In april hangen ze vol bundels witte, gevulde bloemen. 'Plena' is steriel en draagt geen kersen.\n\nDrie zijn de gewone zoete kers, met enkele witte bloemen in april en donkerrode, eetbare kersen in de zomer. In de herfst kleurt het blad geel en oranje.\n\nLet op:\n- de gevulde witte bolletjes\n- de drie enkelbloemige kersen ertussen\n- de herfstkleur"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "April.",
+     "what": "Wild cherries: 62 Prunus avium 'Plena' (double), 3 Prunus avium",
+     "trees": 65
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April.",
+       "what": "Zoete kersen: 62 Prunus avium 'Plena' (gevuld), 3 Prunus avium"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-avium-plena/",
+    "https://www.vdberk.nl/bomen/prunus-avium/"
+   ]
+  },
+  {
+   "spot": [
+    "r104"
+   ],
+   "title": "Red hawthorn in the Wouwermanstraat",
+   "summary": "Twenty-four 'Paul's Scarlet' hawthorns turn the Wouwermanstraat red in May.",
+   "body": "The Wouwermanstraat has 24 hawthorns of the variety Crataegus × media 'Paul's Scarlet', planted between 1980 and 2023. In May the whole tree is covered in flowers, red at first and fading to pale red.\n\nThe crowns are round and open, with strong side branches.\n\nLook for:\n- the red street in May\n- the colour fading over the week",
+   "category": "green",
+   "lat": 52.355003,
+   "lng": 4.879262,
+   "address": "Wouwermanstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Rode meidoorn in de Wouwermanstraat",
+     "summary": "Vierentwintig meidoorns 'Paul's Scarlet' kleuren de Wouwermanstraat in mei rood.",
+     "body": "In de Wouwermanstraat staan 24 meidoorns van het ras Crataegus × media 'Paul's Scarlet', geplant tussen 1980 en 2023. In mei zit de hele boom vol bloemen, eerst rood en dan verkleurend naar bleekrood.\n\nDe kronen zijn rond en open, met stevige zijtakken.\n\nLet op:\n- de rode straat in mei\n- de kleur die in een week verbleekt"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Hawthorn",
+     "peak": "May",
+     "when": "May.",
+     "what": "Hawthorns: 24 Crataegus × media 'Paul's Scarlet'",
+     "trees": 24
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Mei.",
+       "what": "Meidoorns: 24 Crataegus × media 'Paul's Scarlet'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   ]
+  },
+  {
+   "spot": [
+    "r114"
+   ],
+   "title": "Cherries of the Chopinstraat and Bachplein",
+   "summary": "Twenty-two Japanese cherries, mostly pink 'Kanzan', line the Chopinstraat; on the Bachplein eight winter cherries flower on and off from November to April.",
+   "body": "The Chopinstraat has 22 Japanese cherries, planted between 1980 and 2024: 18 'Kanzan' with double, clear pink flowers from the end of April into early May, two columnar 'Amanogawa', one 'Sunset Boulevard' and one 'Charles Sargent', which opens light pink in early April.\n\nOn the Bachplein stand eight Prunus × subhirtella 'Autumnalis', planted from 1998. They flower in bursts from November to the end of April, except in frost, with semi-double, very pale pink flowers, never all at once.\n\nLook for:\n- the winter cherries on a mild day in December or January\n- the narrow columns of the 'Amanogawa' among the broad 'Kanzan'",
+   "category": "green",
+   "lat": 52.347789,
+   "lng": 4.879303,
+   "address": "Chopinstraat / Bachplein",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kersen in de Chopinstraat en op het Bachplein",
+     "summary": "Tweeëntwintig Japanse sierkersen, vooral roze 'Kanzan', staan in de Chopinstraat; op het Bachplein bloeien acht winterkersen van november tot april af en aan.",
+     "body": "In de Chopinstraat staan 22 Japanse sierkersen, geplant tussen 1980 en 2024: 18 'Kanzan' met gevulde, zuiverroze bloemen van eind april tot begin mei, twee zuilvormige 'Amanogawa', één 'Sunset Boulevard' en één 'Charles Sargent', die begin april lichtroze opengaat.\n\nOp het Bachplein staan acht Prunus × subhirtella 'Autumnalis', geplant vanaf 1998. Ze bloeien steeds opnieuw van november tot eind april, behalve bij vorst, met halfgevulde, heel lichtroze bloemen, maar nooit allemaal tegelijk.\n\nLet op:\n- de winterkersen op een zachte dag in december of januari\n- de smalle zuilen van de 'Amanogawa' tussen de brede 'Kanzan'"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "Winter cherries November to April; 'Charles Sargent' early April; 'Kanzan' end of April into early May.",
+     "what": "Japanese cherries: 18 'Kanzan', 2 'Amanogawa' (column cherry), 1 'Sunset Boulevard', 1 Prunus sargentii 'Charles Sargent'. Winter cherry: 8 Prunus × subhirtella 'Autumnalis'",
+     "trees": 30
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Winterkersen november tot april; 'Charles Sargent' begin april; 'Kanzan' eind april tot begin mei.",
+       "what": "Japanse sierkersen: 18 'Kanzan', 2 'Amanogawa' (zuilkers), 1 'Sunset Boulevard', 1 Prunus sargentii 'Charles Sargent'. Winterkers: 8 Prunus × subhirtella 'Autumnalis'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-amanogawa/",
+    "https://www.vdberk.nl/bomen/prunus-sargentii-charles-sargent/",
+    "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   ]
+  }
+ ],
+ "parks": [
+  {
+   "id": "yw4m202pvcw809m5oo6tvvjy",
+   "title": "Gijsbrecht van Aemstelpark",
+   "spots": [
+    "r001",
+    "r078",
+    "r113",
+    "r156"
+   ],
+   "what": "232 hawthorns (May), 54 cornelian cherries (February)",
+   "notes": "Western part of the park along the Hunneschans and Buitenveldertselaan: 206 white wild hawthorn Crataegus monogyna plus 7 'Splendens', 2 lavalleei, all planted 1966 to 1991 (the Hunneschans row alone 183). Cornelian cherry Cornus mas, yellow flowers in February before the leaves, red fruits in early autumn: 24 by the Hunneschans/Buitenveldertselaan (1966 to 1975) and a row of 30 on the Enzerinck side by the middle part (12 + 18, all 1966). Overpass confirms r001 and the r113 groups inside the park outline; r078 and r156 adjoin them."
+  },
+  {
+   "id": "qd0m975el7mdfp3aysy59gps",
+   "title": "Vondelpark",
+   "spots": [
+    "r011",
+    "r131"
+   ],
+   "what": "79 horse chestnuts (May), 21 hawthorns (May)",
+   "notes": "Eastern part (Vondelpark-Oost, near the Vondelstraat side, around 52.3596, 4.8713): 67 double white Aesculus hippocastanum 'Baumannii' (sterile, no conkers, longer flowering than the species), 10 ordinary horse chestnuts, 2 other, planted 1942 to 2014. Western end (around 52.3571, 4.8622): 20 white wild hawthorn Crataegus monogyna and 1 'Paul's Scarlet', 1965 to 2003."
+  },
+  {
+   "id": "esioyoe9ueen62my3l2cdxo1",
+   "title": "Erasmuspark",
+   "spots": [
+    "r083"
+   ],
+   "what": "54 Yoshino cherries (April)",
+   "notes": "Two new rows of Prunus × yedoensis, 28 and 26, all planted 2025, on the west side of the park (around 52.3744, 4.8511 and 52.3748, 4.8500). Pink in bud, white when open, abundant in April. Young trees, so the show will grow."
+  },
+  {
+   "id": "avsibstf1yq82keotdr79uwm",
+   "title": "The Miracle Garden",
+   "spots": [
+    "r083"
+   ],
+   "what": "18 crab apples (April)",
+   "notes": "17 Malus toringo and 1 Malus trilobata by the Jan van Galenstraat (around 52.3747, 4.8530, i.e. at The Miracle Garden pin), planted 1991 to 2026. Toringo: purple-red buds, light pink flowers fading white, yellow-orange fruits. Could equally go in the Erasmuspark entry if the garden boundary does not include them."
+  },
+  {
+   "id": "zedpvi5346iua7hv47xitlgv",
+   "title": "Stadsboerderij Zimmerhoeve (Landje van Ome Kick)",
+   "spots": [
+    "r224"
+   ],
+   "what": "12 purple-leaved cherry plums (late March, April)",
+   "notes": "12 Prunus cerasifera 'Nigra' in the Schimmelstraat right by the farm (27 m from its pin), planted 1990 to 2025: single pink flowers from late March into April, as the dark purple leaves come out."
+  }
+ ],
+ "skipped": [
+  {
+   "spot": "r271",
+   "reason": "9 young magnolias (2015, mostly unnamed cultivar) on the Stadionplein: too few to visit for."
+  },
+  {
+   "spot": "r088",
+   "reason": "27 serviceberries on the Fred. Roeskestraat, 24 of them shrubs planted 2018 to 2026 along an office street: too young and too slight."
+  },
+  {
+   "spot": "r245",
+   "reason": "10 mixed cherries of three kinds in the Van Reigersbergenstraat: too few and too scattered."
+  },
+  {
+   "spot": "r094",
+   "reason": "25 white wild hawthorns on the Valkenstein, just south of the Gijsbrecht van Aemstelpark, whose own 200+ hawthorns are the better visit."
+  }
+ ]
+}

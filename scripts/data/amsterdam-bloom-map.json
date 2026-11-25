@@ -1,0 +1,19 @@
+{
+  "slug": "bloom",
+  "title": "Amsterdam in Bloom",
+  "tagline": "Where the city flowers, and when: blossom streets, gardens and meadows, season by season.",
+  "description": "Every place in and around Amsterdam to enjoy flowers in their season, flowering trees above all. Many are ordinary streets that look like nothing much for most of the year and turn spectacular for a week or two: rows of Japanese cherries, magnolias, crab apples, hawthorns and chestnuts, found tree by tree in the city's own tree register. Next to them, the gardens, rose gardens, bulb lawns and wildflower meadows. Bloom times are approximate: a mild winter brings them forward, a cold spring holds them back, and one storm can end a blossom early.",
+  "city": "Amsterdam",
+  "centerLat": 52.3676,
+  "centerLng": 4.8952,
+  "zoom": 12,
+  "language": "en",
+  "languages": ["nl"],
+  "translations": {
+    "nl": {
+      "title": "Amsterdam in bloei",
+      "tagline": "Waar de stad bloeit, en wanneer: bloesemstraten, tuinen en bloemenweiden, seizoen na seizoen.",
+      "description": "Alle plekken in en rond Amsterdam om van bloemen te genieten in hun seizoen, vooral van bloeiende bomen. Veel zijn gewone straten die het grootste deel van het jaar weinig bijzonders lijken en een week of twee spectaculair zijn: rijen Japanse sierkersen, magnolia's, sierappels, meidoorns en kastanjes, boom voor boom gevonden in het bomenbestand van de gemeente. Daarnaast de tuinen, rozentuinen, bollenweides en bloemrijke graslanden. De bloeitijden zijn bij benadering: een zachte winter haalt ze naar voren, een koud voorjaar houdt ze tegen, en één storm kan een bloesem vroeg beëindigen."
+    }
+  }
+}
