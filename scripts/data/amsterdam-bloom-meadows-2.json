@@ -1,0 +1,52 @@
+[
+ {
+  "title": "Hay meadows of the Amsterdamse Bos",
+  "summary": "A string of open meadows through the Bos, some 33 hectares kept as flower-rich grass and mown just twice a year with the hay carried off, so wild flowers get their turn between the cuts.",
+  "body": "Between the woods of the Amsterdamse Bos lie open meadows, and the Bos's own pages describe it as running \"from forest to flower-rich meadow\". Across the Bos the city keeps about 90 hectares as flower-rich grass. Some 33 of them are the meadows here, from the west side near the Nieuwe Meerlaan past the Grote Speelweide to the south near the Bloesempark; the largest single field, nearly 7 hectares, lies west of the Nieuwe Kalfjeslaan.\n\nThe Bos's ground crew mows them twice a year and carries the cuttings off. That is the city's recipe for flower-rich grass: fields with flowers are mown twice a year, and taking the cuttings away gives more variety and more flowers. Before mowing, the crews check for animals and leave spots where birds, toads or hedgehogs sit, or where wild bees and butterflies have laid eggs. Late spring and early summer, between the cuts, are the times to look, in an ordinary year. At the north end, by the Bosbaan lock, the Waterentree got three new pools and sown wild herbs in 2020-21.\n\nLook for: the big meadow west of the Nieuwe Kalfjeslaan; the strips left standing at mowing time; the pools of the Waterentree, busy with dragonflies.",
+  "category": "green",
+  "lat": 52.320833,
+  "lng": 4.84045,
+  "address": "Amsterdamse Bos, meadow west of the Nieuwe Kalfjeslaan, Amstelveen",
+  "municipality": "Amstelveen",
+  "detail": "theme",
+  "translations": {
+   "nl": {
+    "title": "Hooilanden van het Amsterdamse Bos",
+    "summary": "Een snoer open weides door het Bos: zo'n 33 hectare bloemrijk grasland, maar twee keer per jaar gemaaid en het hooi afgevoerd, zodat wilde bloemen tussen de maaibeurten hun kans krijgen.",
+    "body": "Tussen de bossen van het Amsterdamse Bos liggen open weides; het Bos noemt zichzelf op de eigen site een gebied 'van bos tot bloemrijke weide'. In het hele Bos beheert de gemeente zo'n 90 hectare als bloemrijk grasland. Ongeveer 33 daarvan zijn de weides hier, van de westkant bij de Nieuwe Meerlaan langs de Grote Speelweide tot het zuiden bij het Bloesempark; het grootste veld, bijna 7 hectare, ligt ten westen van de Nieuwe Kalfjeslaan.\n\nDe groenploeg van het Bos maait ze twee keer per jaar en voert het maaisel af. Zo werkt de gemeente aan bloemrijk gras: veldjes met bloemen worden twee keer per jaar gemaaid, en door het maaisel weg te halen komt er meer variatie en meer bloei. Voor het maaien kijken de maaiers eerst of er dieren zitten en slaan ze plekken over met vogels, padden of egels, of met eitjes van wilde bijen en vlinders. Kom in een gewoon jaar in het late voorjaar en de vroege zomer, tussen de maaibeurten. Aan de noordkant, bij de Bosbaansluis, kreeg de Waterentree in 2020-2021 drie nieuwe poelen en ingezaaide kruiden.\n\nLet op: de grote weide ten westen van de Nieuwe Kalfjeslaan; de stroken die bij het maaien blijven staan; de poelen van de Waterentree, vol libellen."
+   }
+  },
+  "override": {
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Late spring and early summer, between the two yearly cuts, in an ordinary year.",
+    "what": "About 33 ha of meadows kept as flower-rich grass, mown twice a year with the hay carried off; wild flowers not published.",
+    "access": "Free, open ground in the Amsterdamse Bos; best seen from the paths and cycle paths."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Late voorjaar en vroege zomer, tussen de twee maaibeurten per jaar, in een gewoon jaar.",
+      "what": "Zo'n 33 ha weides beheerd als bloemrijk grasland, twee keer per jaar gemaaid met afvoer van het hooi; wilde bloemen niet bekendgemaakt.",
+      "access": "Gratis, open terrein in het Amsterdamse Bos; het mooist te zien vanaf de wandel- en fietspaden."
+     }
+    }
+   }
+  },
+  "links": [
+   {
+    "label": "Gemeente Amsterdam: mowing",
+    "url": "https://www.amsterdam.nl/leefomgeving/groen/maaien/"
+   },
+   {
+    "label": "Amsterdamse Bos: nature",
+    "url": "https://www.amsterdamsebos.nl/natuur/"
+   },
+   {
+    "label": "Amsterdamse Bos: Waterentree",
+    "url": "https://www.amsterdamsebos.nl/natuur/natuurgebieden/waterentree/"
+   }
+  ]
+ }
+]
