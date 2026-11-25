@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { ContentLangTabs, OriginalText } from "~/components/ContentLangTabs";
 import { PhotoUploader } from "~/components/PhotoUploader";
+import { EditLicenseNote } from "~/components/SiteFooter";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
@@ -744,6 +745,7 @@ export const PlaceForm = ({
             ? t("form_submit_edit")
             : t("form_submit_new")}
       </Button>
+      <EditLicenseNote />
     </form>
   );
 };

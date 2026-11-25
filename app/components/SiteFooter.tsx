@@ -31,3 +31,13 @@ export const SiteFooter = ({ className }: { className?: string }) => {
     </footer>
   );
 };
+
+/** Under an edit form's save button: what saving means for licensing. */
+export const EditLicenseNote = () => {
+  const { t } = useTranslation();
+  return (
+    <p className="text-center text-[11px] text-muted-foreground">
+      {t("edit_license")} <LicenseLink />
+    </p>
+  );
+};

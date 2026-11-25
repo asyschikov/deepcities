@@ -7,6 +7,7 @@ import { toast } from "sonner";
 import { MarkdownView } from "~/components/MarkdownView";
 import type { PhotoMeta } from "~/components/PhotoCredit";
 import { PhotoUploader } from "~/components/PhotoUploader";
+import { EditLicenseNote } from "~/components/SiteFooter";
 import { Button } from "~/components/ui/button";
 import {
   Dialog,
@@ -405,6 +406,7 @@ export const DocumentEditor = ({
         </Button>
         {documentId && <ArchiveButton documentId={documentId} slug={slug} />}
       </div>
+      <EditLicenseNote />
     </form>
   );
 };

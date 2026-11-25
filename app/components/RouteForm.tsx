@@ -28,6 +28,7 @@ import {
   routeBounds,
   stopPins,
 } from "~/components/RouteParts";
+import { EditLicenseNote } from "~/components/SiteFooter";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { Label } from "~/components/ui/label";
@@ -949,6 +950,7 @@ export const RouteForm = ({
               ? t("form_submit_edit")
               : t("route_form_submit_new")}
       </Button>
+      <EditLicenseNote />
     </form>
   );
 };

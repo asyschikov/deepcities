@@ -2,7 +2,7 @@ import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
 import { inArray } from "drizzle-orm";
 import { z } from "zod/v4";
-import { MAX_PHOTO_BYTES } from "~/lib/constants";
+import { MAX_PHOTO_BYTES, PHOTO_LICENSE } from "~/lib/constants";
 import { photo } from "~/lib/db/schema";
 import { idSchema } from "~/lib/validation";
 import { requireCap } from "../access";
@@ -48,6 +48,7 @@ export const photoRouter = router({
       const id = createId();
       const ext = EXT[input.contentType];
       const objectKey = `collections/${input.collectionId}/photos/${id}.${ext}`;
+      const own = !input.credit && !input.sourceUrl;
       await ctx.env.R2.put(objectKey, bytes, {
         httpMetadata: { contentType: input.contentType },
       });
@@ -57,8 +58,10 @@ export const photoRouter = router({
         objectKey,
         width: input.width,
         height: input.height,
-        credit: input.credit ?? null,
-        license: input.license ?? null,
+        // Your own photo (no credit or source given): yours, under the
+        // site's licence, which the form tells you about.
+        credit: input.credit ?? (own ? ctx.profile.name : null),
+        license: input.license ?? (own ? PHOTO_LICENSE : null),
         sourceUrl: input.sourceUrl ?? null,
         uploadedBy: ctx.profile.id,
         createdAt: new Date(),

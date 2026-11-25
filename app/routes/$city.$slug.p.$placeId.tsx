@@ -30,6 +30,7 @@ import { GoneNotice } from "~/components/GoneReport";
 import { MarkdownView } from "~/components/MarkdownView";
 import { Gallery } from "~/components/PhotoGallery";
 import { PlaceAttributes } from "~/components/PlaceAttributes";
+import { LicenseLink } from "~/components/SiteFooter";
 import { UntranslatedNote } from "~/components/UntranslatedNote";
 import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
@@ -379,6 +380,9 @@ const PlacePage = () => {
             <ExternalLink className="size-4" /> {l.label}
           </a>
         ))}
+        <p className="text-[11px] text-muted-foreground">
+          {t("place_license")} <LicenseLink />
+        </p>
       </div>
 
       {onRoutes.length > 0 && (
