@@ -9,6 +9,7 @@ import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 import type { PhotoMeta } from "./PhotoCredit";
 import { Leaderboard } from "./Score";
+import { SiteFooter } from "./SiteFooter";
 
 export const loadMaps = createServerFn({ method: "GET" }).handler(async () => {
   const caller = await createCaller();
@@ -146,6 +147,7 @@ export const CityHome = ({
           ))}
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 };

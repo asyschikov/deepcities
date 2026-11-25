@@ -176,6 +176,13 @@
       "when": 1795629130449,
       "tag": "0024_explorer_actions",
       "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "6",
+      "when": 1795629300466,
+      "tag": "0025_photo_license",
+      "breakpoints": true
     }
   ]
 }

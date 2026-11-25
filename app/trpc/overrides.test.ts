@@ -19,6 +19,7 @@ const person = (id: string, role: "user" | "super_admin"): Profile => ({
   avatarId: null,
   isPublic: false,
   publicAskedAt: null,
+  photoLicenseAt: null,
   role,
   createdAt: now,
 });

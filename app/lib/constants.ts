@@ -261,6 +261,15 @@ export const EXPLORER_ACTIONS = [
 ] as const;
 export type ExplorerAction = (typeof EXPLORER_ACTIONS)[number];
 
+/**
+ * The licence visitors agree to for the photos they share (once, before
+ * their first public photo): open and free to reuse with credit, the same
+ * as Wikimedia Commons, where most of the map's photos come from.
+ */
+export const PHOTO_LICENSE = "CC BY-SA 4.0";
+export const PHOTO_LICENSE_URL =
+  "https://creativecommons.org/licenses/by-sa/4.0/deed.en";
+
 /** Photos per check-in that earn points. */
 export const SCORED_PHOTOS_PER_CHECKIN = 3;
 

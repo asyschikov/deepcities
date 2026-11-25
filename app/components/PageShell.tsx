@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import type { ReactNode } from "react";
 import { BACK_LINK_CLASS, BackLink } from "~/components/BackLink";
+import { SiteFooter } from "~/components/SiteFooter";
 
 /** Standard non-map page: back link, title, content column. */
 export const PageShell = ({
@@ -30,5 +31,6 @@ export const PageShell = ({
       {subtitle && <div className="text-muted-foreground">{subtitle}</div>}
     </div>
     {children}
+    <SiteFooter className="max-w-none px-0 pt-10" />
   </main>
 );

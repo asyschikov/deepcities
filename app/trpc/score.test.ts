@@ -17,6 +17,7 @@ const person = (id: string): Profile => ({
   avatarId: null,
   isPublic: false,
   publicAskedAt: null,
+  photoLicenseAt: null,
   role: "user",
   createdAt: now,
 });
@@ -187,5 +188,22 @@ describe("explorer points", () => {
         .map((a) => a.detail.verdict)
         .sort(),
     ).toEqual(["amazing", "nice"]);
+  });
+
+  it("refuses a first photo of a place without agreeing to the licence", async () => {
+    const { id } = await checkins(ann).create({
+      placeId: "spot",
+      position: NEAR,
+    });
+    await expect(
+      checkins(ann).addPhoto({
+        checkinId: id,
+        kind: "place",
+        base64: "AAAA",
+        contentType: "image/jpeg",
+        width: 10,
+        height: 10,
+      }),
+    ).rejects.toThrow(/CC BY-SA 4.0/);
   });
 });

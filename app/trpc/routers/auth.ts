@@ -34,6 +34,7 @@ export const authRouter = router({
           email: ctx.profile.email,
           role: ctx.profile.role,
           avatarId: ctx.profile.avatarId,
+          photoLicense: ctx.profile.photoLicenseAt !== null,
         }
       : null,
   ),

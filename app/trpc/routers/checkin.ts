@@ -8,6 +8,7 @@ import {
   MAX_PHOTO_BYTES,
   MAX_PHOTOS_PER_CHECKIN,
   MAX_PHOTOS_PER_PLACE,
+  PHOTO_LICENSE,
   SCORED_PHOTOS_PER_CHECKIN,
   VERDICTS,
 } from "~/lib/constants";
@@ -309,10 +310,24 @@ export const checkinRouter = router({
         width: z.number().int().min(1).max(8000),
         height: z.number().int().min(1).max(8000),
         isPrivate: z.boolean().default(false),
+        /** Agreeing (once) to share photos of places under PHOTO_LICENSE. */
+        acceptLicense: z.boolean().default(false),
       }),
     )
     .mutation(async ({ ctx, input }) => {
       const visit = await ownCheckin(ctx.db, input.checkinId, ctx.profile.id);
+      if (input.kind === "place" && ctx.profile.photoLicenseAt === null) {
+        if (!input.acceptLicense) {
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: `Agree to share your photos under ${PHOTO_LICENSE} first`,
+          });
+        }
+        await ctx.db
+          .update(profileTable)
+          .set({ photoLicenseAt: new Date() })
+          .where(eq(profileTable.id, ctx.profile.id));
+      }
       const [{ n } = { n: 0 }] = await ctx.db
         .select({ n: count() })
         .from(checkinPhoto)
@@ -352,8 +367,8 @@ export const checkinRouter = router({
           objectKey,
           width: input.width,
           height: input.height,
-          credit: null,
-          license: null,
+          credit: ctx.profile.name,
+          license: PHOTO_LICENSE,
           sourceUrl: null,
           uploadedBy: ctx.profile.id,
           createdAt: now,

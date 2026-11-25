@@ -18,6 +18,7 @@ import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { QuickReport } from "~/components/GoneReport";
 import { PublicPrompt } from "~/components/Score";
+import { LicenseLink } from "~/components/SiteFooter";
 import { Button } from "~/components/ui/button";
 import {
   Dialog,
@@ -81,6 +82,8 @@ const useRefreshVisits = () => {
     Promise.all([
       queryClient.invalidateQueries({ queryKey: trpc.checkin.pathKey() }),
       queryClient.invalidateQueries({ queryKey: trpc.place.pathKey() }),
+      queryClient.invalidateQueries({ queryKey: trpc.auth.me.queryKey() }),
+      queryClient.invalidateQueries({ queryKey: trpc.score.pathKey() }),
     ]);
 };
 
@@ -95,11 +98,12 @@ const useAddPhotos = () => {
       kind: CheckinPhotoKind;
       img: ResizedImage;
       isPrivate?: boolean;
+      acceptLicense?: boolean;
     }[],
   ): Promise<number> => {
     const offered: Offered[] = [];
     let points = 0;
-    for (const { kind, img, isPrivate } of photos) {
+    for (const { kind, img, isPrivate, acceptLicense } of photos) {
       try {
         const res = await add.mutateAsync({
           checkinId,
@@ -109,6 +113,7 @@ const useAddPhotos = () => {
           width: img.width,
           height: img.height,
           isPrivate: isPrivate ?? false,
+          acceptLicense: acceptLicense ?? false,
         });
         offered.push(res.offered);
         points += res.points;
@@ -124,6 +129,33 @@ const useAddPhotos = () => {
     else if (offered.includes("full")) toast.message(t("visit_photo_full"));
     return points;
   };
+};
+
+/**
+ * Asked once, before your first photo of a place: it will be open for
+ * anyone to reuse, with credit, under PHOTO_LICENSE.
+ */
+const LicenseConsent = ({
+  checked,
+  onChange,
+}: {
+  checked: boolean;
+  onChange: (checked: boolean) => void;
+}) => {
+  const { t } = useTranslation();
+  return (
+    <label className="flex items-start gap-2 rounded-md border bg-muted/40 p-2.5 text-xs">
+      <input
+        type="checkbox"
+        checked={checked}
+        onChange={(e) => onChange(e.target.checked)}
+        className="mt-0.5 size-3.5 shrink-0 accent-primary"
+      />
+      <span>
+        {t("license_consent")} <LicenseLink />
+      </span>
+    </label>
+  );
 };
 
 /** "Make private" for a selfie: off by default. */
@@ -291,6 +323,10 @@ export const CheckInDialog = ({
   const [shot, setShot] = useState<ResizedImage | null>(null);
   const [saving, setSaving] = useState(false);
   const [askPublic, setAskPublic] = useState(false);
+  const viewer = useViewer();
+  const needsLicense = viewer !== null && !viewer.photoLicense;
+  const [agreed, setAgreed] = useState(false);
+  const blockedByLicense = shot !== null && needsLicense && !agreed;
   const create = useMutation(trpc.checkin.create.mutationOptions());
   const reach = reachOf(geo.fix, { lat, lng });
 
@@ -308,7 +344,9 @@ export const CheckInDialog = ({
       toast.success(t("visit_checked_in", { name: placeTitle }));
       onOpenChange(false);
       const photoPoints = await addPhotos(res.id, [
-        ...(shot ? [{ kind: "place" as const, img: shot }] : []),
+        ...(shot
+          ? [{ kind: "place" as const, img: shot, acceptLicense: agreed }]
+          : []),
         ...(selfie
           ? [{ kind: "selfie" as const, img: selfie, isPrivate: selfiePrivate }]
           : []),
@@ -365,11 +403,14 @@ export const CheckInDialog = ({
                 />
               </div>
             </div>
+            {shot && needsLicense && (
+              <LicenseConsent checked={agreed} onChange={setAgreed} />
+            )}
           </div>
           <DialogFooter>
             <Button
               onClick={submit}
-              disabled={saving || reach.state !== "here"}
+              disabled={saving || reach.state !== "here" || blockedByLicense}
               className="w-full sm:w-auto"
             >
               {saving ? <Loader2 className="animate-spin" /> : <MapPinCheck />}
@@ -450,10 +491,14 @@ const AddVisitPhoto = ({
   checkinId,
   kind,
   isPrivate = false,
+  acceptLicense = false,
+  disabled = false,
 }: {
   checkinId: string;
   kind: CheckinPhotoKind;
   isPrivate?: boolean;
+  acceptLicense?: boolean;
+  disabled?: boolean;
 }) => {
   const { t } = useTranslation();
   const input = useRef<HTMLInputElement>(null);
@@ -466,7 +511,7 @@ const AddVisitPhoto = ({
       <Button
         size="sm"
         variant="outline"
-        disabled={busy}
+        disabled={busy || disabled}
         onClick={() => input.current?.click()}
       >
         {busy ? <Loader2 className="animate-spin" /> : <Icon />}
@@ -485,7 +530,12 @@ const AddVisitPhoto = ({
           setBusy(true);
           try {
             const points = await addPhotos(checkinId, [
-              { kind, img: await resizeImage(file), isPrivate },
+              {
+                kind,
+                img: await resizeImage(file),
+                isPrivate,
+                acceptLicense,
+              },
             ]);
             toastPoints(t, points);
             await refresh();
@@ -582,6 +632,7 @@ export const VisitPanel = ({
   const refresh = useRefreshVisits();
   const [open, setOpen] = useState(false);
   const [selfiePrivate, setSelfiePrivate] = useState(false);
+  const [agreed, setAgreed] = useState(false);
   const { data } = useQuery({
     ...trpc.checkin.forPlace.queryOptions({ placeId }),
     enabled: viewer !== null,
@@ -673,8 +724,16 @@ export const VisitPanel = ({
             />
           </div>
           <VisitPhotos photos={photos} />
+          {!viewer.photoLicense && (
+            <LicenseConsent checked={agreed} onChange={setAgreed} />
+          )}
           <div className="flex flex-wrap items-center gap-2">
-            <AddVisitPhoto checkinId={latest.id} kind="place" />
+            <AddVisitPhoto
+              checkinId={latest.id}
+              kind="place"
+              acceptLicense={agreed}
+              disabled={!viewer.photoLicense && !agreed}
+            />
             <AddVisitPhoto
               checkinId={latest.id}
               kind="selfie"

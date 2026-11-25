@@ -68,6 +68,8 @@ export const profile = sqliteTable(
       .default(false),
     /** When we asked whether to go public (on the first check-in). */
     publicAskedAt: integer("public_asked_at", { mode: "timestamp" }),
+    /** When they agreed their public photos are shared under PHOTO_LICENSE. */
+    photoLicenseAt: integer("photo_license_at", { mode: "timestamp" }),
     createdAt: createdAt(),
   },
   (t) => [uniqueIndex("profile_email_idx").on(t.email)],
