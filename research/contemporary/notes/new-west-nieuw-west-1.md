@@ -150,3 +150,87 @@ words in common.
 ## Places without photos
 Station Wildeman, Four Towers Osdorp, Klussen op de Klarenstraat, Brede School De Kikker,
 Basisschool De Wereldburger, Rhapsody in West.
+
+## Verification (fact-check, 2026-11-25)
+
+Every source re-fetched (curl, a pause between pages; Commons API paced after a 429) and each
+claim in EN, NL and `arch` compared against it. Pins all match PDOK for the stated address (6
+decimals). Validator: 9 places, 0 errors. Dutch re-checked by script against every fetched
+source text: no run of 8+ words in common (one run of street names in Four Towers rewritten).
+No em dashes, no spaced en dashes, no hype words.
+
+### Cut or narrowed
+- Station Wildeman: "a neighbourhood of walk-up flats" cut (no source says so); "Dr. Prof.
+  Kraemerschool" narrowed to "Kraemerschool" (BETA says "Prof. Kraemerschool", Arcam and
+  stationwildeman.nl "Kraemerschool"; only Rodi has "Dr. Prof."); `original_use` "Primary
+  school" narrowed to "School" (sources say only school building); BNA jury "demolished with
+  great regularity" (NL Times) was rendered "usually", now "often" / "vaak".
+- Four Towers: "south-west corner" -> "southern tip" (Arcam: "zuidelijke punt"); façade
+  pattern "shifts from floor to floor" -> "varies across the façade" (Arcam speaks of an
+  alternating façade pattern, not per floor).
+- Klarenstraat: "structural openings" -> "structural work" (VanSchagen: "constructieve
+  ingrepen"); balconies "placed wherever their owners wanted them" -> "hung on the façade"
+  (VanSchagen: "aangehangen balkons").
+- De Kikker: summary said the GGD post and nursery "share" the building now; only the 2006
+  programme is sourced (the 2012 DDA entry already lists other users), so it now says "built
+  for". "Structure almost all of timber" -> "load-bearing structure of timber" (Arcam, Dok).
+  "Led by Liesbeth van der Pol" -> "with Liesbeth van der Pol and Ari Mashiach as architects"
+  (Arcam's credit; Dok's page names Patrick Cannon as architect for 2005-2012, which includes
+  the later expansion). OBS De Globe confirmed at Evertsweertplantsoen 3 (school contact page).
+- Rhapsody: "finished in July 2019" cut (the mooinoord-holland pdf is a 404 and was never read;
+  the BNA Value Assessment gives oplevering 2020-06-08, Arcam 2019; `completed` kept at Arcam's
+  2019). Courtyard name "the Vrouwengelukhof" cut (it is the street address, no source names
+  the courtyard so). "Café" -> "coffee bar" (BNA: "De Villy is een koffiebar"). "Best seen
+  from the A10 side" cut (unsourced). Mooinoord source line removed. Greenhouse, guest flat and
+  coffee bar: last confirmed in the BNA assessment of 10/12/2023 (KolenkitKas with own site).
+- Inntel: "From 2003" -> "Early this century" (2003 is only in the Lambo school module; NH
+  Nieuws 2022 says "ruim twintig jaar geleden"). "The design began at his earlier firm" ->
+  "credited together with Molenaar & Van Winden architecten" (Dezeen credits both; the
+  sequence is not sourced). `designer` changed to match.
+- Stadhuis: "from 2003" -> "early this century" (as above). Venturi/Scott Brown/Izenour
+  "decorated sheds" cut: only welingelichtekringen (a blog summarising an offline NRC piece)
+  says it. False front now described as in the town hall booklet (a front with no structural
+  role). Zaan "makelaar" over the rings cut (blog only); rings now "above the wedding hall's
+  balcony, interlocking at the top of the gable" (booklet p. 13). Robert Venturi added to the
+  list of quoted architects (booklet: one gable inspired by his work).
+
+### Settled
+- Tripolis credit: "Aldo and Hannie van Eyck". Arcam's Tripolis-Park entry ("ontworpen door
+  architectenduo Aldo en Hannie van Eyck") and MVRDV's text on ArchDaily ("on the condition
+  that Aldo and Hannie van Eyck should design the new office complex") both credit the two.
+  Changed in EN and NL summary and body; both sources added.
+
+### Photos
+Commons searched by geosearch (250 m and 500 m round each pin) and by text and category (names,
+streets, architects, Category:Osdorp, Kolenkitbuurt, Jan van Zutphenplantsoen, Buildings by Wiel
+Arets, Tangram Architecten). Nothing shows Station Wildeman, Four Towers, Klarenstraat, De
+Kikker, De Wereldburger, Rhapsody in West or the Ru Paré building. Checked and rejected: "Round
+To The Edges (150602099).jpeg" (2016, Bos en Lommerplein, before Rhapsody was built), the
+"Osdorp-Midden panoramio" series (a swan), "Nieuw appartementencomplex Osdorp 2006.jpg"
+(President Allendelaan), "Amsterdam monument gedenksteen ru paré.jpg" (the stone, not the
+building). The six (and Ru Paré) stay without photos. Inntel and Stadhuis photos not changed.
+
+### Added: Ru Paré Community (Kind A, wrong match)
+The live place `fmu7d4zq3ktackomktr0jex4` is the Ru Paré memorial stone; its text is about Ru
+Paré and the school's history. The building is drafted as a new place in this slice's YAML,
+text written so it does not retell the stone's story. Facts and sources:
+- Former Ru Paréschool, left empty when the school moved to a new building; client Stichting
+  Samenwonen-Samenleven; residents get tax advice, computer or language lessons in return for
+  doing something for the neighbourhood; businesses must show yearly what they mean for the
+  area; architects worked on site; entrance moved to the gym, now the foyer; four huge overhead
+  doors opened in good weather, balcony becomes a stage; void/mezzanine with five themed
+  greenhouses; urban mining with HvA students; budget at most six tonnes, half overdue
+  maintenance; NRP Gulden Feniks 2017 low budget high impact; AAP 2018 "Winnaar vakjury";
+  openbaar toegankelijk ja; Chris Lebeaustraat 4: Arcam.
+- End of 2013 commission to BETA and Elisabeth Boersma; materials from Eigen Haard's nearby
+  demolition project; gym far from the original entrance; sunny schoolyard made a public
+  courtyard; 2013-2017; co-architects Marc van Asseldonk and Elisabeth Boersma; AAP 2018 and
+  Gulden Feniks 2017: BETA (https://beta-office.com/project/ru-pare-community-center/; the
+  /ru-pare-community/ URL now redirects to another project).
+- Current use: rupare.nl (dozens of organisations, Huis van de Wijk De Buurtzaak, theatre hall,
+  "huiskamer van de wijk", drop in for coffee). Access: Public parts only.
+- Pin: centroid of BAG building 0363100012105206, which holds Chris Lebeaustraat 4
+  (52.362562, 4.838566), a few metres from the stone's pin. Completed: 2017 (Arcam; the live
+  stone text says the building reopened in 2016, which is consistent with phased use).
+- Designer credit "BETA with Elisabeth Boersma planB" from the writer's notes: confirmed by Arcam and BETA.
+  No photos on Commons.

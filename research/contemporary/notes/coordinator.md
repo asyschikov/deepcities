@@ -28,6 +28,8 @@
 
 - Westermoskee minaret 43 m live vs Arcam 42 m. Augustanahof "sixteen social-rent" vs Arcam 14 social + 2 free-sector. WOW dates 1967/2006/2013 vs Arcam 1965/2005/2014. De Voortuinen ~100 trees vs ~120. Mercator ~60 plant species vs 50. De Meander ~275 homes vs 204.
 
+- Het Funen: live "public voted Verdana best new building 2011", no source found; Arcam dates Verdana 2009. Cuyperspassage: live ~70,000 tiles, architects 46,000 wall tiles. Lloyd Hotel competition 1996 live vs Arcam 1999.
+
 ## List changes after the round
 - Remove from the list: Gerrit Rietveld Academie (1967 building, wrong match); its 2018 Fedlev building is drafted in places/ex-zuid-zuidas-1.yaml.
 - Removed: Noorderlicht (rv8ru6n0a5t6ld6h3qluqw40), building gone.

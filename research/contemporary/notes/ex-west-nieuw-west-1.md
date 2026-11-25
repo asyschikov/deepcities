@@ -114,3 +114,34 @@ Web search budget ran out midway; the remaining checks were done by fetching kno
 - No recognition. Access "Public parts only" (the library, per the live text).
 - No extra: the live text covers the plan and the debate.
 - Live text differences: live says built 1998 to 2005 with about 275 homes; Arcam says 2000 and 204 homes. Completed set to Arcam's 2000; uncertain.
+
+## Verification
+
+Fact-check of all 16 overrides against their sources (Arcam guide pages and AAP year pages 2008, 2012, 2014, 2015, 2018, 2021, 2022; architects' and owners' pages; NRP jury report; prize organisers; Het Parool). Web search budget ran out early; the rest was read directly, with BrowserOS for AT5, amsterdam.nl and Het Parool (tab closed).
+
+Confirmed, no change: all designers, years, work types, access values and AAP lines (Westbeat won both the jury and the public prize in 2021; the others nominated as stated). Hotel De Hallen still trades (hoteldehallen.com); Van Eesteren Museum hours still Thursday to Sunday 12:00 to 17:00 (vaneesterenmuseum.nl).
+
+Spaarndammerhart prizes, all four kept, each now confirmed outside the architect's page:
+- Zuiderkerkprijs 2021: Het Parool, "Spaarndammerhart winnaar Zuiderkerkprijs 2021", 9 December 2021 (search listing on parool.nl).
+- Abe Bonnema Architectuurprijs 2021: the organiser's 2022 jury report, https://abebonnemaprijs.nl/wp-content/uploads/2022/03/ABPRIJS22_Boek_Juryrapport_paginas.pdf (jury biography of Gus Tielens).
+- Arie Keppler Prijs 2022, "Samen wonen": the organiser, https://mooinoord-holland.nl/winnaars-van-de-arie-keppler-prijs-2022/ and https://ariekepplerprijs.nl/
+- Amsterdamse Nieuwbouwprijs 2022: co-organiser Amsterdam Woont, https://www.amsterdamwoont.nl/nieuwbouwprijs/2022/ (17 May 2022).
+
+Bos en Lommerplein redesign: not found carried out. No city project page for it; Het Parool on 19 December 2023 (a West Begroot proposal for trees) still describes the square as bare with no shade, and nothing later in Parool reports works. Kept as "decided".
+
+Changes:
+1. De Tribune: cut "a hotel and a neighbourhood restaurant" (EN and NL). Arcam lists them for 2011, but no current source confirms either.
+2. De Voortuinen: "kept the whole concrete frame of the old office" narrowed to "reused the concrete frame of the old office tower" (EN and NL). The NRP jury report says the low part was demolished; the live text agrees.
+3. De Hallen: "function follows form" now credited to the conversion, not to André van Stigt personally (the owner's page states it as the approach of the TROM plan); "the halls were otherwise left to speak for themselves" narrowed to "the conversion made use of what was there" (Arcam: "dankbaar gebruik gemaakt van de bestaande architectuur"). EN and NL.
+4. Westergasfabriek: "Gustafson worked it out with Neil Porter in her London office" narrowed to "worked out by her practice, Gustafson Porter (now Gustafson Porter + Bowman), together with Mecanoo" (EN and NL). No source read names Neil Porter's role or London; Mecanoo gives the design team as Mecanoo and Gustafson Porter + Bowman. The designer field still names Neil Porter, a founding partner per the GP+B page; the awards list rests on GP+B's own page.
+5. Westermoskee: cut "so the whole reads as one ensemble" (EN and NL). The live text already makes that point.
+6. GAK-gebouw: "studios of about 28 m²" narrowed to "from about 28 m²" (EN and NL). Arcam gives 28 to 47 m² for the second phase.
+7. WOW Amsterdam: "the stairwell doubles as a vertical gallery" changed to past tense, "was also set up as" (EN and NL). The only source is Arcam's 2014 text, so current use is unconfirmed.
+
+Checks: the overrides file is valid JSON. No em dashes and no spaced en dashes. No 8-word run in the EN or NL extras matches any fetched source text (re-run after the edits).
+
+Left for the coordinator (live text, not this slice):
+- WOW: the live text gives a 2013 conversion and says the building was empty from 2006. Arcam gives June 2014 and 2005.
+- De Meander: the live text gives 1998 to 2005 and about 275 homes. Arcam gives 2000 and 204 homes.
+- Augustanakerk: the live text says sixteen social-rent homes. Arcam gives 14 social and 2 free-sector homes.
+- Photos and pins belong to the live places and were not changed.

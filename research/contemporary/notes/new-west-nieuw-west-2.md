@@ -93,3 +93,39 @@ captcha; I used DuckDuckGo there instead. No browser tabs left open.
 - **Thin sourcing:** Arcam is the only source I could read. CRUQ's site did not respond; no press found. BAG confirms Poeldijkstraat 391 as a 2018 building with shop and meeting functions; OSM tags it Beatzone (a dance school, consistent with Arcam's tenant). The coordinator may want to hold this one until a second source turns up.
 - Weekly meditation and an annual Pondok Festival (Arcam) left out: not checked as current.
 - No Commons photo found.
+
+## Verification
+
+Fact-check pass (2026-11-25). Every source page re-fetched with curl and the EN, NL and `arch`
+claims compared against it; Winhov and Parool read in BrowserOS (own tab, closed). Pins checked
+against PDOK addresses (all on the building; Opportuna deliberately on the Postjesweg footprint,
+see above). Commons files for EDGE West and Cornelis re-read: titles, descriptions and categories
+(Basisweg 10; Schielandplein, Cornelis) match. No new photo search (separate pass). Copy check
+(8-word shingles, all fetched pages incl. Vink Bouw and Parool): only URLs and lists of names.
+validate.py: 0 errors. No em dashes or spaced en dashes, no hype words.
+
+Changes:
+- **Pondok kept, now with two more sources.** Vink Bouw (the builder's project page: CRUQ,
+  Stichting Pondok, Q4 2018, business ground floor with three live-work floors above, broad open
+  gallery, each unit designed by its residents, varied façades) and Het Parool, 7 July 2019, Jaap
+  Huisman, "Steeds meer Amsterdammers bouwen hun eigen huis" (paywalled at parool.nl; read in
+  full in the author's copy at jaaphuisman.nl: CPO, Tom Jonker of Cruq, a resident involved for
+  eleven years, crisis years, urban dance school and a re-integration business in the ground
+  floor). Both added to links and sources.
+- Pondok: unit sizes "180 or 90 m²" cut (EN and NL): Arcam's figures clash with the resident's
+  85 m² unit in Parool.
+- EDGE West: "EDGE bought the building" cut (EN "bought", NL "kocht"): no source says it;
+  Arcam only names EDGE Technologies as client. Now "for the developer EDGE it was remodelled".
+- De Hood: "sprayed over sand-lime brick" / "op kalkzandsteen" cut (only from search summaries).
+  "Activities for 10 to 23 year olds run by ONE Jongerenwerk" narrowed to what Rodi (March 2026)
+  says: activities there run with ONE Jongerenwerk. Unopened Instagram post removed from sources.
+- Amsterdam Vertical: "small wind turbines" narrowed to "wind turbines" (Arcam); address
+  corrected to Radarweg 298A (Arcam, PDOK; the pin was already on 298A).
+- Opportuna: Winhov project page now read (BrowserOS): it credits Office Winhov & Office
+  Haratori, 20 storeys, 174 homes, load-bearing prefab façade over two or four floors, wide
+  plans; link kept and added to sources.
+- Confirmed unchanged: EDGE (Arcam, Archello, EDGE, Nationaal Archief photo 5 Nov 1970),
+  Opportuna (Arcam, Lieven de Key, both AAP 2026 reports), Cornelis (FARO, Arcam, both AAP 2026
+  reports), MO*town Track 8 (De Zwarte Hond, Arcam, both AAP 2025 reports), De Houten Leeuw
+  (Arcam, De Nijs, Stedenbouw, Never Too Small, AAP 2025 reports), Zaans Medisch Centrum
+  (Mecanoo project page and 2017 news, ArchDaily, NH Nieuws).
