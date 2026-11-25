@@ -331,6 +331,8 @@ const RoutePage = () => {
                     <CheckInButton
                       placeId={target.placeId}
                       placeTitle={target.name}
+                      lat={target.lat}
+                      lng={target.lng}
                       routeId={route.id}
                       className="flex-1"
                       variant={arrived ? "default" : "outline"}

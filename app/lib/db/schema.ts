@@ -24,8 +24,10 @@ import {
   PROPOSAL_KINDS,
   PROPOSAL_STATUSES,
   PROPOSAL_SUBJECTS,
+  REPORT_KINDS,
   ROUTE_MODES,
   ROUTE_STATUSES,
+  SCORE_KINDS,
   VERDICTS,
 } from "~/lib/constants";
 import type {
@@ -59,6 +61,12 @@ export const profile = sqliteTable(
     /** Portrait in R2 at `avatars/<avatarId>`; a new id on every upload. */
     avatarId: text("avatar_id"),
     role: text("role", { enum: GLOBAL_ROLES }).notNull().default("user"),
+    /** Shown by name, with points, on city leaderboards. */
+    isPublic: integer("is_public", { mode: "boolean" })
+      .notNull()
+      .default(false),
+    /** When we asked whether to go public (on the first check-in). */
+    publicAskedAt: integer("public_asked_at", { mode: "timestamp" }),
     createdAt: createdAt(),
   },
   (t) => [uniqueIndex("profile_email_idx").on(t.email)],
@@ -553,6 +561,10 @@ export const checkinPhoto = sqliteTable(
       .notNull()
       .references(() => profile.id, { onDelete: "cascade" }),
     kind: text("kind", { enum: CHECKIN_PHOTO_KINDS }).notNull(),
+    /** A selfie only its owner may ever see. */
+    isPrivate: integer("is_private", { mode: "boolean" })
+      .notNull()
+      .default(false),
     /** R2 object key. */
     objectKey: text("object_key").notNull(),
     width: integer("width").notNull(),
@@ -567,9 +579,10 @@ export const checkinPhoto = sqliteTable(
 );
 
 /**
- * "It's gone, or I couldn't find it": a visitor's report on a place, one per
- * person (reporting again refreshes it). Moderators act on reports (mark the
- * place gone, archive it) or dismiss them when it's still there.
+ * A visitor's quick correction on a place (see REPORT_KINDS): one per
+ * person, the latest kind wins (reporting again refreshes it). Moderators
+ * act on reports (mark the place gone, archive it) or dismiss them. The
+ * table keeps its first name, from when the only report was "it's gone".
  */
 export const goneReport = sqliteTable(
   "gone_report",
@@ -583,6 +596,7 @@ export const goneReport = sqliteTable(
     collectionId: text("collection_id")
       .notNull()
       .references(() => collection.id, { onDelete: "cascade" }),
+    kind: text("kind", { enum: REPORT_KINDS }).notNull().default("gone"),
     note: text("note"),
     /** Where the reporter was, when the phone knew. */
     lat: real("lat"),
@@ -593,6 +607,39 @@ export const goneReport = sqliteTable(
   (t) => [
     primaryKey({ columns: [t.placeId, t.profileId] }),
     index("gone_report_collection_idx").on(t.collectionId),
+  ],
+);
+
+/**
+ * Explorer points: one row per award. `key` makes each award once-only per
+ * person (e.g. one check-in a day per place); `sourceId` is the check-in or
+ * photo it came from, so forgetting a visit takes its points back. `city`
+ * is the map's city, for leaderboards.
+ */
+export const scoreEvent = sqliteTable(
+  "score_event",
+  {
+    id: text("id").primaryKey(),
+    profileId: text("profile_id")
+      .notNull()
+      .references(() => profile.id, { onDelete: "cascade" }),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    city: text("city").notNull(),
+    placeId: text("place_id").references(() => place.id, {
+      onDelete: "set null",
+    }),
+    kind: text("kind", { enum: SCORE_KINDS }).notNull(),
+    points: integer("points").notNull(),
+    key: text("key").notNull(),
+    sourceId: text("source_id"),
+    createdAt: createdAt(),
+  },
+  (t) => [
+    uniqueIndex("score_event_key_idx").on(t.profileId, t.key),
+    index("score_event_city_idx").on(t.city, t.profileId),
+    index("score_event_source_idx").on(t.sourceId),
   ],
 );
 

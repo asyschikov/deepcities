@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { ApiTokens } from "~/components/ApiTokens";
 import { PageShell } from "~/components/PageShell";
+import { MyPoints } from "~/components/Score";
 import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
@@ -169,6 +170,7 @@ const MePage = () => {
           <AvatarEditor name={viewer.name} avatarId={viewer.avatarId} />
           <ProfileForm name={viewer.name} />
         </div>
+        <MyPoints />
         <ApiTokens />
       </div>
     </PageShell>

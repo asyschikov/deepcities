@@ -476,13 +476,14 @@ const GoneList = ({ view }: { view: CollectionView }) => {
             </Link>
             <span className="flex items-center gap-1 text-xs text-warning">
               <SearchX className="size-3.5" />
-              {t("gone_notice", { count: item.reports.length })}
+              {t("report_count", { count: item.reports.length })}
             </span>
           </div>
           <ul className="space-y-1.5 text-sm">
             {item.reports.map((r) => (
               <li key={`${r.name}-${r.createdAt.toISOString()}`}>
-                <span className="font-medium">{r.name}</span>
+                <span className="font-medium">{r.name}</span>:{" "}
+                <span>{t(`report_${r.kind}`)}</span>
                 <span className="text-xs text-muted-foreground">
                   {" "}
                   · {formatDistanceToNow(r.createdAt, { addSuffix: true })}

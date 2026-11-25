@@ -5,6 +5,7 @@ import { z } from "zod/v4";
 import { type PlaceDetail, PROPOSAL_STATUSES } from "~/lib/constants";
 import type { Database } from "~/lib/db";
 import {
+  checkinPhoto,
   collectionPlace,
   photo,
   place,
@@ -22,6 +23,7 @@ import {
   storedOverride,
   withOverride,
 } from "~/lib/overrides";
+import { award, cityOf } from "~/lib/score";
 import {
   draftOfRoute,
   idSchema,
@@ -346,8 +348,41 @@ const applyProposal = async (
       .where(eq(place.id, placeId)),
     markApproved,
   ]);
-  if (p.kind === "edit") await pruneOverrides(db, placeId);
+  if (p.kind === "edit") {
+    await pruneOverrides(db, placeId);
+    await awardAcceptedPhotos(db, current, p.draft?.photoIds ?? []);
+  }
   return placeId;
+};
+
+/**
+ * Photos from visits that just joined a place earn their photographers
+ * points (once per photo).
+ */
+const awardAcceptedPhotos = async (
+  db: Database,
+  before: { id: string; collectionId: string; photoIds: string[] },
+  after: string[],
+) => {
+  const added = after.filter((id) => !before.photoIds.includes(id));
+  if (added.length === 0) return;
+  const fromVisits = await db.query.checkinPhoto.findMany({
+    where: inArray(checkinPhoto.photoId, added),
+    columns: { id: true, profileId: true, photoId: true },
+  });
+  if (fromVisits.length === 0) return;
+  const city = await cityOf(db, before.collectionId);
+  for (const v of fromVisits) {
+    await award(db, {
+      profileId: v.profileId,
+      collectionId: before.collectionId,
+      city,
+      placeId: before.id,
+      kind: "photo_accepted",
+      key: `accepted:${v.photoId}`,
+      sourceId: v.id,
+    });
+  }
 };
 
 /** The `place_override` columns of an override (null: no translations). */

@@ -192,10 +192,63 @@ export const EXTRA_DESCRIPTION_KEY = "extra_description";
 export const VERDICTS = ["amazing", "nice", "okay", "skip"] as const;
 export type Verdict = (typeof VERDICTS)[number];
 
-/** Check-in photos: of yourself there (private), or of the place (offered to it). */
+/**
+ * Check-in photos: of the place (offered to it), or a selfie (kept with the
+ * visit and the place, never shown on the map; private if you choose).
+ */
 export const CHECKIN_PHOTO_KINDS = ["selfie", "place"] as const;
 export type CheckinPhotoKind = (typeof CHECKIN_PHOTO_KINDS)[number];
 export const MAX_PHOTOS_PER_CHECKIN = 6;
+
+/**
+ * A check-in counts only on the spot: within this many metres of the place
+ * (more when the phone's own accuracy is worse, up to VISIT_MAX_SLACK_M).
+ */
+export const VISIT_REACH_M = 100;
+export const VISIT_MAX_SLACK_M = 150;
+
+/**
+ * Quick corrections a visitor can send from a place: it's there, it's
+ * gone, they couldn't find it, the pin is off, it's closed or not
+ * accessible, or it looks different from the description. Each goes to the
+ * map's moderators.
+ */
+export const REPORT_KINDS = [
+  "there",
+  "gone",
+  "not_found",
+  "wrong_location",
+  "closed",
+  "changed",
+] as const;
+export type ReportKind = (typeof REPORT_KINDS)[number];
+
+/**
+ * Explorer points. One score for now; every kind of exploring counts.
+ * Each award has a key so it is paid at most once (see `lib/score.ts`).
+ */
+export const SCORE_POINTS = {
+  /** A check-in on the spot (once a day per place). */
+  checkin: 10,
+  /** The first check-in anyone ever made at the place. */
+  first_visit: 5,
+  /** A verdict on a place (once per place). */
+  verdict: 2,
+  /** A quick correction (once per place): on the spot, or from afar. */
+  report_here: 3,
+  report: 1,
+  /** A photo of the place, and when it is accepted onto the place. */
+  place_photo: 5,
+  photo_accepted: 10,
+  selfie: 1,
+} as const;
+export type ScoreKind = keyof typeof SCORE_POINTS;
+export const SCORE_KINDS = Object.keys(SCORE_POINTS) as [
+  ScoreKind,
+  ...ScoreKind[],
+];
+/** Photos per check-in that earn points. */
+export const SCORED_PHOTOS_PER_CHECKIN = 3;
 
 export const MAX_PHOTOS_PER_PLACE = 8;
 export const MAX_LINKS_PER_PLACE = 6;

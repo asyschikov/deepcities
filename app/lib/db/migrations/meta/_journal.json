@@ -162,6 +162,13 @@
       "when": 1795609137301,
       "tag": "0022_map_cover_photo",
       "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "6",
+      "when": 1795628185290,
+      "tag": "0023_explorer_points",
+      "breakpoints": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 import { Compass, PenLine } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { type AppMode, setAppMode, useAppMode } from "~/lib/app-mode";
+import { type AppMode, setAppMode, useAppMode, usePhone } from "~/lib/app-mode";
 import { cn } from "~/lib/utils";
 
 const MODES: { key: AppMode; Icon: typeof Compass }[] = [
@@ -8,10 +8,12 @@ const MODES: { key: AppMode; Icon: typeof Compass }[] = [
   { key: "edit", Icon: PenLine },
 ];
 
-/** Explore (out on foot) or Edit (at a desk). */
+/** Explore (out on foot) or Edit (at a desk). Phones only: desktops always edit. */
 export const ModeSwitch = ({ className }: { className?: string }) => {
   const { t } = useTranslation();
   const mode = useAppMode();
+  const phone = usePhone();
+  if (!phone) return null;
   return (
     <fieldset
       aria-label={t("mode_label")}

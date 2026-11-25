@@ -8,10 +8,19 @@ import {
   MAX_PHOTO_BYTES,
   MAX_PHOTOS_PER_CHECKIN,
   MAX_PHOTOS_PER_PLACE,
+  SCORED_PHOTOS_PER_CHECKIN,
   VERDICTS,
 } from "~/lib/constants";
 import type { Database } from "~/lib/db";
-import { checkin, checkinPhoto, photo, place, verdict } from "~/lib/db/schema";
+import {
+  checkin,
+  checkinPhoto,
+  photo,
+  place,
+  profile as profileTable,
+  verdict,
+} from "~/lib/db/schema";
+import { award, cityOf, dayOf, onTheSpot, revokeFrom } from "~/lib/score";
 import { draftOfPlace, idSchema } from "~/lib/validation";
 import { getAccess, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
@@ -36,6 +45,27 @@ const EXT = {
 } as const;
 
 const verdictSchema = z.enum(VERDICTS);
+
+const positionSchema = z.object({
+  lat: z.number().min(-90).max(90),
+  lng: z.number().min(-180).max(180),
+  accuracy: z.number().min(0).max(100_000),
+});
+
+/** Points for a verdict: once per place, however often it changes. */
+const awardVerdict = async (
+  db: Database,
+  target: { id: string; collectionId: string },
+  profileId: string,
+) =>
+  award(db, {
+    profileId,
+    collectionId: target.collectionId,
+    city: await cityOf(db, target.collectionId),
+    placeId: target.id,
+    kind: "verdict",
+    key: `verdict:${target.id}`,
+  });
 
 /** A published place you may check in to (and give a verdict on). */
 const placeToVisit = async (
@@ -87,51 +117,90 @@ const ownCheckin = async (db: Database, id: string, profileId: string) => {
 };
 
 export const checkinRouter = router({
-  /** "I was here", optionally with a verdict and where you were. */
+  /**
+   * "I was here": only on the spot (the phone's position near the place),
+   * optionally with a verdict. Earns points; on your first check-in we also
+   * ask whether to make your profile public (`askPublic`).
+   */
   create: authedProcedure
     .input(
       z.object({
         placeId: idSchema,
         verdict: verdictSchema.nullish(),
         routeId: idSchema.nullish(),
-        position: z
-          .object({
-            lat: z.number().min(-90).max(90),
-            lng: z.number().min(-180).max(180),
-            accuracy: z.number().min(0).max(100_000),
-          })
-          .nullish(),
+        position: positionSchema,
       }),
     )
     .mutation(async ({ ctx, input }) => {
       const target = await placeToVisit(ctx.db, ctx.profile, input.placeId);
+      if (!onTheSpot(input.position, target)) {
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: "You need to be at the place to check in",
+        });
+      }
       const id = createId();
+      const now = new Date();
+      const [earlier] = await ctx.db
+        .select({ n: count() })
+        .from(checkin)
+        .where(eq(checkin.placeId, target.id));
       await ctx.db.insert(checkin).values({
         id,
         collectionId: target.collectionId,
         placeId: target.id,
         profileId: ctx.profile.id,
         routeId: input.routeId ?? null,
-        lat: input.position?.lat ?? null,
-        lng: input.position?.lng ?? null,
-        accuracy: input.position?.accuracy ?? null,
-        createdAt: new Date(),
+        lat: input.position.lat,
+        lng: input.position.lng,
+        accuracy: input.position.accuracy,
+        createdAt: now,
       });
-      if (input.verdict)
+      const city = await cityOf(ctx.db, target.collectionId);
+      const base = {
+        profileId: ctx.profile.id,
+        collectionId: target.collectionId,
+        city,
+        placeId: target.id,
+        sourceId: id,
+        at: now,
+      };
+      let points = await award(ctx.db, {
+        ...base,
+        kind: "checkin",
+        key: `checkin:${target.id}:${dayOf(now)}`,
+      });
+      if ((earlier?.n ?? 0) === 0) {
+        points += await award(ctx.db, {
+          ...base,
+          kind: "first_visit",
+          key: `first:${target.id}`,
+        });
+      }
+      if (input.verdict) {
         await setVerdictFor(ctx.db, target.id, ctx.profile.id, input.verdict);
-      return { id };
+        points += await awardVerdict(ctx.db, target, ctx.profile.id);
+      }
+      const me = await ctx.db.query.profile.findFirst({
+        where: eq(profileTable.id, ctx.profile.id),
+        columns: { publicAskedAt: true },
+      });
+      return { id, points, askPublic: !me?.publicAskedAt };
     }),
 
   /** Your verdict on a place, or clear it with `verdict: null`. */
   setVerdict: authedProcedure
     .input(z.object({ placeId: idSchema, verdict: verdictSchema.nullable() }))
     .mutation(async ({ ctx, input }) => {
-      await placeToVisit(ctx.db, ctx.profile, input.placeId);
+      const target = await placeToVisit(ctx.db, ctx.profile, input.placeId);
       await setVerdictFor(ctx.db, input.placeId, ctx.profile.id, input.verdict);
-      return { ok: true };
+      const points = input.verdict
+        ? await awardVerdict(ctx.db, target, ctx.profile.id)
+        : 0;
+      return { ok: true, points };
     }),
 
-  /** Forget a visit (and its photos). Your verdict stays. */
+  /** Forget a visit (and its photos, and the points they earned). Your verdict stays. */
   delete: authedProcedure
     .input(z.object({ checkinId: idSchema }))
     .mutation(async ({ ctx, input }) => {
@@ -144,14 +213,17 @@ export const checkinRouter = router({
         .filter((p) => p.photoId === null)
         .map((p) => p.objectKey);
       if (privateKeys.length > 0) await ctx.env.R2.delete(privateKeys);
+      await revokeFrom(ctx.db, [input.checkinId, ...photos.map((p) => p.id)]);
       await ctx.db.delete(checkin).where(eq(checkin.id, input.checkinId));
       return { ok: true };
     }),
 
   /**
-   * Add a photo to a check-in, at the time or later. A selfie stays
-   * private; a photo of the place is also offered to the place (published
-   * at once for moderators, otherwise sent for review).
+   * Add a photo to a check-in, at the time or later. A selfie stays with
+   * the visit and the place but is never shown on the map (and with
+   * `isPrivate`, only ever to you); a photo of the place is also offered to
+   * the place (published at once for moderators, otherwise sent for
+   * review). The first few photos of a visit earn points.
    */
   addPhoto: authedProcedure
     .input(
@@ -162,6 +234,7 @@ export const checkinRouter = router({
         contentType: z.enum(["image/webp", "image/jpeg", "image/png"]),
         width: z.number().int().min(1).max(8000),
         height: z.number().int().min(1).max(8000),
+        isPrivate: z.boolean().default(false),
       }),
     )
     .mutation(async ({ ctx, input }) => {
@@ -217,14 +290,28 @@ export const checkinRouter = router({
         checkinId: visit.id,
         profileId: ctx.profile.id,
         kind: input.kind,
+        isPrivate: input.kind === "selfie" && input.isPrivate,
         objectKey,
         width: input.width,
         height: input.height,
         photoId: offer ? id : null,
         createdAt: now,
       });
+      const points =
+        n < SCORED_PHOTOS_PER_CHECKIN
+          ? await award(ctx.db, {
+              profileId: ctx.profile.id,
+              collectionId: visit.collectionId,
+              city: await cityOf(ctx.db, visit.collectionId),
+              placeId: visit.placeId,
+              kind: input.kind === "selfie" ? "selfie" : "place_photo",
+              key: `photo:${id}`,
+              sourceId: id,
+              at: now,
+            })
+          : 0;
 
-      if (!offer) return { id, offered: null };
+      if (!offer) return { id, offered: null, points };
       const target = await ctx.db.query.place.findFirst({
         where: eq(place.id, visit.placeId),
       });
@@ -232,7 +319,7 @@ export const checkinRouter = router({
         target?.status !== "published" ||
         target.photoIds.length >= MAX_PHOTOS_PER_PLACE
       ) {
-        return { id, offered: "full" as const };
+        return { id, offered: "full" as const, points };
       }
       const res = await proposalRouter.createCaller(ctx).create({
         kind: "edit",
@@ -243,7 +330,7 @@ export const checkinRouter = router({
         },
         note: "Photo from a visit",
       });
-      return { id, offered: res.status };
+      return { id, offered: res.status, points };
     }),
 
   /** Remove a photo from your check-in (one offered to the place stays there). */
@@ -259,6 +346,7 @@ export const checkinRouter = router({
       if (!found)
         throw new TRPCError({ code: "NOT_FOUND", message: "Photo not found" });
       if (found.photoId === null) await ctx.env.R2.delete(found.objectKey);
+      await revokeFrom(ctx.db, [found.id]);
       await ctx.db.delete(checkinPhoto).where(eq(checkinPhoto.id, found.id));
       return { ok: true };
     }),
@@ -292,6 +380,7 @@ export const checkinRouter = router({
             id: p.id,
             kind: p.kind,
             offered: p.photoId !== null,
+            isPrivate: p.isPrivate,
           })),
         })),
         verdict: mine?.verdict ?? null,
@@ -389,6 +478,7 @@ export const checkinRouter = router({
           id: p.id,
           kind: p.kind,
           offered: p.photoId !== null,
+          isPrivate: p.isPrivate,
         })),
       }));
     }),

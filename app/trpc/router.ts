@@ -11,9 +11,11 @@ import { photoRouter } from "./routers/photo";
 import { placeRouter } from "./routers/place";
 import { proposalRouter } from "./routers/proposal";
 import { routeRouter } from "./routers/route";
+import { scoreRouter } from "./routers/score";
 
 export const appRouter = router({
   auth: authRouter,
+  score: scoreRouter,
   collection: collectionRouter,
   place: placeRouter,
   route: routeRouter,

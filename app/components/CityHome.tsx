@@ -8,6 +8,7 @@ import { cn, photoUrl } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 import type { PhotoMeta } from "./PhotoCredit";
+import { Leaderboard } from "./Score";
 
 export const loadMaps = createServerFn({ method: "GET" }).handler(async () => {
   const caller = await createCaller();
@@ -127,6 +128,8 @@ export const CityHome = ({
           <p className="text-muted-foreground">{t("home_no_maps")}</p>
         )}
       </section>
+
+      {maps[0] && <Leaderboard city={maps[0].city} />}
 
       <section className="border-t bg-muted/40">
         <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 sm:grid-cols-3">

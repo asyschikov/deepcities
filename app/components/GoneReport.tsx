@@ -1,6 +1,14 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { formatDistanceToNow } from "date-fns";
-import { SearchX, TriangleAlert } from "lucide-react";
+import {
+  CircleCheck,
+  DoorClosed,
+  MapPinOff,
+  RefreshCw,
+  Search,
+  SearchX,
+  TriangleAlert,
+} from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
@@ -14,6 +22,7 @@ import {
   DialogTitle,
 } from "~/components/ui/dialog";
 import { Textarea } from "~/components/ui/textarea";
+import { REPORT_KINDS, type ReportKind } from "~/lib/constants";
 import { useMapPage } from "~/lib/map-page";
 import { useTRPC } from "~/trpc/client";
 
@@ -39,8 +48,21 @@ export const GoneNotice = ({ placeId }: { placeId: string }) => {
   );
 };
 
-/** "Gone or can't find it?": report it, or take your report back. */
-export const ReportGone = ({
+const KIND_ICONS: Record<ReportKind, typeof SearchX> = {
+  there: CircleCheck,
+  gone: SearchX,
+  not_found: Search,
+  wrong_location: MapPinOff,
+  closed: DoorClosed,
+  changed: RefreshCw,
+};
+
+/**
+ * Quick corrections from a visitor: it's there, it's gone, couldn't find
+ * it, the pin is off, closed or no access, or it has changed. Each goes to
+ * the map's moderators; one report per person (a new one replaces it).
+ */
+export const QuickReport = ({
   placeId,
   placeTitle,
 }: {
@@ -51,20 +73,23 @@ export const ReportGone = ({
   const trpc = useTRPC();
   const queryClient = useQueryClient();
   const { geo } = useMapPage();
-  const [open, setOpen] = useState(false);
+  const [kind, setKind] = useState<ReportKind | null>(null);
   const [note, setNote] = useState("");
   const { data } = useQuery(trpc.gone.forPlace.queryOptions({ placeId }));
   const refresh = () =>
     Promise.all([
       queryClient.invalidateQueries({ queryKey: trpc.gone.pathKey() }),
       queryClient.invalidateQueries({ queryKey: trpc.place.list.queryKey() }),
+      queryClient.invalidateQueries({ queryKey: trpc.score.pathKey() }),
     ]);
   const report = useMutation(
     trpc.gone.report.mutationOptions({
-      onSuccess: async () => {
-        setOpen(false);
+      onSuccess: async (res) => {
+        setKind(null);
         setNote("");
         toast.success(t("gone_reported"));
+        if (res.points > 0)
+          toast.success(t("score_earned", { count: res.points }));
         await refresh();
       },
       onError: (err) => toast.error(err.message),
@@ -77,10 +102,11 @@ export const ReportGone = ({
     }),
   );
 
-  if (data?.mine) {
+  if (data?.mine && data.mineKind) {
     return (
       <p className="text-xs text-muted-foreground">
-        {t("gone_you_reported", {
+        {t("report_you_said", {
+          what: t(`report_${data.mineKind}`),
           when: formatDistanceToNow(data.mine, { addSuffix: true }),
         })}{" "}
         <button
@@ -89,41 +115,56 @@ export const ReportGone = ({
           disabled={withdraw.isPending}
           onClick={() => withdraw.mutate({ placeId })}
         >
-          {t("gone_withdraw")}
+          {t("report_take_back")}
         </button>
       </p>
     );
   }
 
   return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground hover:underline"
-      >
-        <SearchX className="size-3.5" /> {t("gone_ask")}
-      </button>
-      <Dialog open={open} onOpenChange={setOpen}>
+    <div className="space-y-1.5">
+      <div className="text-xs font-medium text-muted-foreground">
+        {t("report_ask")}
+      </div>
+      <div className="flex flex-wrap gap-1.5">
+        {REPORT_KINDS.map((k) => {
+          const Icon = KIND_ICONS[k];
+          return (
+            <button
+              key={k}
+              type="button"
+              onClick={() => setKind(k)}
+              className="flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs hover:bg-muted"
+            >
+              <Icon className="size-3.5" /> {t(`report_${k}`)}
+            </button>
+          );
+        })}
+      </div>
+      <Dialog open={kind !== null} onOpenChange={(o) => !o && setKind(null)}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>{t("gone_title", { name: placeTitle })}</DialogTitle>
-            <DialogDescription>{t("gone_desc")}</DialogDescription>
+            <DialogTitle>
+              {kind && t(`report_${kind}`)}: {placeTitle}
+            </DialogTitle>
+            <DialogDescription>{t("report_desc")}</DialogDescription>
           </DialogHeader>
           <Textarea
             value={note}
             onChange={(e) => setNote(e.target.value)}
-            placeholder={t("gone_placeholder")}
+            placeholder={kind ? t(`report_${kind}_placeholder`) : ""}
             aria-label={t("gone_note")}
             maxLength={500}
           />
           <DialogFooter>
             <Button
-              disabled={report.isPending}
+              disabled={report.isPending || kind === null}
               onClick={() => {
+                if (!kind) return;
                 const fix = geo.fix;
                 report.mutate({
                   placeId,
+                  kind,
                   note: note.trim() || null,
                   position:
                     fix && Date.now() - fix.at < 2 * 60_000
@@ -132,11 +173,11 @@ export const ReportGone = ({
                 });
               }}
             >
-              <SearchX /> {t("gone_report")}
+              {t("gone_report")}
             </Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </>
+    </div>
   );
 };

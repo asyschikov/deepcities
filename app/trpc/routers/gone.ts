@@ -1,9 +1,11 @@
 import { TRPCError } from "@trpc/server";
-import { and, count, desc, eq, max } from "drizzle-orm";
+import { and, count, desc, eq, inArray, max } from "drizzle-orm";
 import { z } from "zod/v4";
+import { REPORT_KINDS } from "~/lib/constants";
 import type { Database } from "~/lib/db";
 import { goneReport, place, profile } from "~/lib/db/schema";
 import { GONE_VALUE, goneField } from "~/lib/gone";
+import { award, cityOf, onTheSpot } from "~/lib/score";
 import { draftOfPlace, idSchema } from "~/lib/validation";
 import type { ViewMap } from "~/lib/views";
 import { requireCap } from "../access";
@@ -20,7 +22,10 @@ const publishedPlace = async (db: Database, placeId: string) => {
   return found;
 };
 
-/** How many visitors reported each place gone, and when last. */
+/** Reports that say the place may not be there (shown as a warning). */
+const MISSING = ["gone", "not_found"] as const;
+
+/** How many visitors reported each place gone or not found, and when last. */
 export const goneCounts = async (
   db: Database,
   where: { map: ViewMap } | { placeId: string },
@@ -34,9 +39,12 @@ export const goneCounts = async (
     .from(goneReport)
     .innerJoin(place, eq(place.id, goneReport.placeId))
     .where(
-      "placeId" in where
-        ? eq(goneReport.placeId, where.placeId)
-        : shownWhere(where.map),
+      and(
+        inArray(goneReport.kind, [...MISSING]),
+        "placeId" in where
+          ? eq(goneReport.placeId, where.placeId)
+          : shownWhere(where.map),
+      ),
     )
     .groupBy(goneReport.placeId);
   return new Map(
@@ -45,11 +53,16 @@ export const goneCounts = async (
 };
 
 export const goneRouter = router({
-  /** "It's gone, or I couldn't find it." Reporting again refreshes it. */
+  /**
+   * A quick correction ("it's gone", "the pin is off", ...): goes to the
+   * map's moderators. Reporting again replaces your report. Earns points
+   * once per place, more when sent from the spot.
+   */
   report: authedProcedure
     .input(
       z.object({
         placeId: idSchema,
+        kind: z.enum(REPORT_KINDS).default("gone"),
         note: z.string().trim().max(500).nullish(),
         position: z
           .object({
@@ -64,6 +77,7 @@ export const goneRouter = router({
       const target = await publishedPlace(ctx.db, input.placeId);
       await requireCap(ctx.db, target.collectionId, ctx.profile, "visit");
       const row = {
+        kind: input.kind,
         note: input.note || null,
         lat: input.position?.lat ?? null,
         lng: input.position?.lng ?? null,
@@ -82,7 +96,16 @@ export const goneRouter = router({
           target: [goneReport.placeId, goneReport.profileId],
           set: row,
         });
-      return { ok: true };
+      const here = input.position ? onTheSpot(input.position, target) : false;
+      const points = await award(ctx.db, {
+        profileId: ctx.profile.id,
+        collectionId: target.collectionId,
+        city: await cityOf(ctx.db, target.collectionId),
+        placeId: target.id,
+        kind: here ? "report_here" : "report",
+        key: `report:${target.id}`,
+      });
+      return { ok: true, points };
     }),
 
   /** Take your report back ("it's there after all"). */
@@ -112,7 +135,7 @@ export const goneRouter = router({
                 eq(goneReport.placeId, input.placeId),
                 eq(goneReport.profileId, ctx.profile.id),
               ),
-              columns: { createdAt: true },
+              columns: { createdAt: true, kind: true },
             })
           : null,
       ]);
@@ -121,6 +144,7 @@ export const goneRouter = router({
         count: t?.count ?? 0,
         latest: t?.latest ?? null,
         mine: mine?.createdAt ?? null,
+        mineKind: mine?.kind ?? null,
       };
     }),
 
@@ -134,6 +158,7 @@ export const goneRouter = router({
           placeId: goneReport.placeId,
           title: place.title,
           status: place.status,
+          kind: goneReport.kind,
           note: goneReport.note,
           createdAt: goneReport.createdAt,
           name: profile.name,
@@ -149,7 +174,12 @@ export const goneRouter = router({
           placeId: string;
           title: string;
           archived: boolean;
-          reports: { name: string; note: string | null; createdAt: Date }[];
+          reports: {
+            name: string;
+            kind: (typeof REPORT_KINDS)[number];
+            note: string | null;
+            createdAt: Date;
+          }[];
         }
       >();
       for (const r of rows) {
@@ -161,6 +191,7 @@ export const goneRouter = router({
         };
         entry.reports.push({
           name: r.name,
+          kind: r.kind,
           note: r.note,
           createdAt: r.createdAt,
         });

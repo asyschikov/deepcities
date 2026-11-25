@@ -9,6 +9,7 @@ import {
 import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
 import { ModeSwitch } from "~/components/ModeSwitch";
+import { PointsBadge } from "~/components/Score";
 import { UserAvatar } from "~/components/UserAvatar";
 import { Button } from "~/components/ui/button";
 import {
@@ -19,6 +20,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
+import { useAppMode } from "~/lib/app-mode";
 import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 
@@ -69,6 +71,7 @@ const useCrumbs = (): { city: MapCrumb | null; map: MapCrumb | null } =>
 export const SiteHeader = () => {
   const { t } = useTranslation();
   const viewer = useViewer();
+  const mode = useAppMode();
   const href = useRouterState({ select: (s) => s.location.href });
   const { city, map } = useCrumbs();
   const crumbs = [
@@ -124,6 +127,7 @@ export const SiteHeader = () => {
       </nav>
       <div className="ml-auto flex shrink-0 items-center gap-2">
         <ModeSwitch />
+        {mode === "explore" && <PointsBadge />}
         {viewer ? (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
