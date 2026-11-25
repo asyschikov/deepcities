@@ -1,0 +1,51 @@
+{
+  "language": "en",
+  "languages": [
+    "nl"
+  ],
+  "translations": {
+    "nl": {
+      "title": "De magie van de zomer",
+      "tagline": "Waar Amsterdam zwemt, picknickt en blijft hangen op lange lichte avonden.",
+      "description": "De zomerplekken van Amsterdam, gekozen op hoe ze zijn van juni tot september: plassen en stadsstranden waar je kunt zwemmen, terrassen aan het water die de avondzon vangen, gazons en bossen met schaduw, pieren en kades voor de zonsondergang, bootjes en kano's, openluchtbioscopen en -podia, en waterspeelplekken voor kinderen. Bij elke plek staat waarom het een zomerplek is en wat je moet weten voor je gaat: of zwemmen mag, wanneer het druk wordt, wat je meeneemt. Een paar favorieten liggen net over de stadsgrens. Waterkwaliteit en pop-ups wisselen per jaar, dus kijk even voor je erin springt.",
+      "fields": {
+        "kind": {
+          "label": "Soort",
+          "help": "Waarvoor je hier in de zomer komt.",
+          "options": {
+            "Swim spot": "Zwemplek",
+            "Beach": "Strand",
+            "Waterside terrace": "Terras aan het water",
+            "Park and shade": "Park en schaduw",
+            "Hangout and sunset": "Hangplek en zonsondergang",
+            "On the water": "Op het water",
+            "Open-air culture": "Cultuur in de open lucht",
+            "Play and splash": "Spelen en spetteren"
+          }
+        },
+        "swimming": {
+          "label": "Zwemmen",
+          "help": "Officieel: op de lijst van getest zwemwater van de provincie. Zwembad: zomer- of buitenbad. Mag, niet officieel: niet verboden, maar niet getest. Niet zwemmen: verboden of onveilig.",
+          "options": {
+            "Official bathing water": "Officieel zwemwater",
+            "Pool": "Zwembad",
+            "Allowed, not official": "Mag, niet officieel",
+            "No swimming": "Niet zwemmen"
+          }
+        },
+        "good_to_know": {
+          "label": "Goed om te weten",
+          "help": "Praktisch: drukte en het beste moment, waarschuwingen voor blauwalg of zwemmersjeuk, wat je meeneemt, schaduw, toiletten, toegankelijkheid."
+        },
+        "extra_description": {
+          "label": "In de zomer",
+          "help": "Staat als deel van de beschrijving na de eigen tekst van de plek: hoe de plek is in de zomer, waar de gedeelde tekst dat niet zegt."
+        },
+        "when": {
+          "label": "Wanneer",
+          "help": "Wanneer het er is, als dat niet de hele zomer is: bijv. mei tot september, juli en augustus, weekenden."
+        }
+      }
+    }
+  }
+}
