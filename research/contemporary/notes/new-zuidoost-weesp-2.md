@@ -75,3 +75,57 @@ and geosearch around each pin) and looked at the thumbnails.
 
 ## Places without photos
 Rijkswaterstaat office, De Kameleon, F-Side, the Anton de Komplein shelter, Bijlmer Sportcentrum.
+
+## Verification
+
+Checked against Arcam (all seven guide pages and the AAP archive pages 2008, 2009, 2013, 2014),
+Gebouwd in Amsterdam 1006, 1108, 898, 176, 936, 545 (BrowserOS), NOB's Decoratelier page and
+Optisport (BrowserOS), EUmies records, Kempe Thill, arqa (architect's text), HVO-Querido (location
+page and blog), oosterhuis.nl, lenard.nl, Hyperbody, VYA, EBG site and PDF, BauNetz, Rijkswaterstaat,
+akar, PDOK BAG (address points, pand footprints, status) and 3D BAG heights. All seven panden are
+"Pand in gebruik"; every pin falls inside its BAG footprint. No web search was available this pass
+(session budget used up), so no new sources were looked for beyond the pages above.
+
+Changes:
+- **Rijkswaterstaat office, narrowed to the bare facts.** The design description (point cutting
+  through the dike, folded glass screen 90 cm off a ceramic inner facade, naturally ventilated cavity
+  saving energy and buffering noise, glass roof over the central hall, "presentation to drivers")
+  rested on Arcam alone; no second authoritative source could be found, so all of it is cut. Kept:
+  Rijkswaterstaat's Amsterdam roads office (Rijkswaterstaat's own page, which also calls it "het
+  glazen pand"), Atelier Z / Zavrel architecten, client directie Noord-Holland, 2001 (Arcam; akar
+  also gives 2001), triangular plan with the sharpest corner towards the A2 (BAG pand
+  0363100012076886 footprint, tip about 50 m east of the A2 carriageway in OSM). Also cut Marcel
+  Baake and contractor BAM, which only a sealant supplier's reference list (akar) gives; designer now
+  "Atelier Z / Zavrel architecten" as Arcam names it; akar removed from sources, BAG pand added.
+  Note: BAG gives bouwjaar 2005 for this pand, against 2001 in Arcam and akar; kept 2001.
+  Pin: BAG address point for 100B, inside the triangle footprint; unchanged.
+- **Bijlmer Sportcentrum AAP year settled:** Arcam's own AAP 2009 archive page lists it among the
+  nominees; recognition is now "Amsterdamse Architectuur Prijs 2009, nominated". Cut "shortlist of six"
+  (only the architect's site claims a top six, for a "Gouden A.A.P. 2008"; the prize's record shows no
+  shortlist). Cut "those homes are now under construction" (no current source; Arcam only says
+  building would start in 2022): now "closed on two sides because housing was planned there from the
+  start". "Opened in 2008" narrowed to "completed in 2008" (Arcam: opgeleverd; register 2008/2009).
+  VPRC removed from sources, AAP 2009 page added. Optisport still runs pool, health club and sports
+  hall (checked).
+- **De Kameleon pin moved** to the tower, its most recognisable part per Arcam (the tower added to
+  make the centre visible, big window on the head end) and the register (ten-storey tower as a
+  signboard on the metro side): 52.316450, 4.978800, inside BAG pand 0363100012239573 (2011), the
+  only Kameleon pand that 3D BAG gives a roof of about 52 m (the others about 22 m); the point is in
+  its station-facing leg. Also narrowed "kept living, shopping and traffic apart" to "kept its
+  functions apart" (Arcam: gescheiden functies), and the look-for line about the crumpled facade no
+  longer pins it to the Karspeldreef (Arcam says only "the side over 150 metres long"). AAP 2013 and
+  EU Mies 2013 nominations confirmed (AAP 2013 page, EUmies record).
+- **Decoratelier:** "carpenters, welders and painters" was not in any source; now "the people
+  building, welding and painting the sets" (NOB page: gebouwd, gelast, gezaagd en geschilderd). AAP
+  2014 nomination confirmed on Arcam's AAP 2014 page. Photo checked on Commons (description
+  "Decoratelier van Nationale opera & ballet", 2016, shows the red facade with the company's name).
+- **Wi Eegi Kerki:** the light slot runs the full width of the hall (Arcam, register), not of the
+  tower; fixed in EN and NL. AAP 2013 nomination confirmed. Photo checked on Commons (Wikidata item
+  "Wi Eegi church", coordinates 52.314044, 4.972169, beside the church).
+- F-Side (AAP 2008 nomination confirmed on the 2008 page), Anton de Komplein shelter (EU Mies 2013
+  confirmed by Kempe Thill and EUmies; HVO page confirms current use, 46 people, 9 + 36 units):
+  all claims confirmed, no change.
+- Copy check: 8-word shingles of EN and NL against every saved source text (Arcam, AAP pages, HVO,
+  VYA, EBG PDF, Oosterhuis, Lénárd, Hyperbody, EUmies, arqa, BauNetz, RWS): 0 runs. The register and
+  NOB texts were compared by hand for the changed sentences. No em dashes or spaced en dashes.
+  validate.py: 0 errors.
