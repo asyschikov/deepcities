@@ -343,7 +343,7 @@
   attributes:
     rank: Okay
     check: Facts
-    check_note: 'One account says the photo shows the door of no. 105 being kicked in, but the photo is dated 26 May 1943 and the couple at no. 105 died on 21 May; match the photo to the houses on site.'
+    check_note: Joods Monument (2024) dates the raid photo 25 or 26 May 1943; the couple died on 21 May, so it cannot show their arrest. Match the houses in the photo on site.
   photos:
     - commons:File:Geldersekade 105.jpg
   sources:
@@ -367,7 +367,7 @@
       - nummer 105, met de winkel op de begane grond
       - het zicht op deze kant van de gracht vanaf de overkant, waar de foto werd genomen
     attributes:
-      check_note: 'Volgens één verhaal toont de foto hoe de deur van nummer 105 wordt ingetrapt, maar de foto is gedateerd 26 mei 1943 en het echtpaar van nummer 105 stierf op 21 mei; vergelijk de foto ter plekke met de huizen.'
+      check_note: Een bijschrift bij Joods Monument (2024) dateert de razzia op 25 of 26 mei 1943 en wijst nr. 105 aan als het laagste huis rechts; het echtpaar stierf op 21 mei in Sobibor, dus hun arrestatie staat er niet op. Ter plekke de huizen vergelijken.
     sources:
       - https://duitslandinstituut.nl/artikel/pdf/31342
       - https://www.joodsmonument.nl/en/page/203871/barend-jacobs
@@ -399,8 +399,6 @@
     rank: Nice
     built: "2026"
     artist: Thonik
-    check: Location
-    check_note: Pin placed from the description "directly on the right as you enter the garden"; move it onto the ring.
   photos:
     - { source: "https://www.4en5mei.nl/app/uploads/bis-images/64891/gedenkteken-oudemanhuispoort-3840x9999.jpeg", credit: Nationaal Comité 4 en 5 mei, license: CC BY 3.0, sourceUrl: "https://www.4en5mei.nl/oorlogsmonumenten/zoeken/4973/amsterdam-namenmonument-in-de-universiteit-van-amsterdam" }
   sources:
@@ -426,7 +424,6 @@
       - op dezelfde binnenplaats de hoogste boom van Amsterdam, met een eigen plek op de kaart
     attributes:
       artist: Thonik
-      check_note: Pin geplaatst op grond van de beschrijving "direct rechts als je de tuin in komt"; zet hem op de ring.
     sources:
       - https://www.uva.nl/content/nieuws/nieuwsberichten/2026/09/oorlogsmonument-tweede-wereldoorlog-oudemanhuispoort.html
       - https://student.uva.nl/artikelen/2026-oorlogsmonument-tweede-wereldoorlog-oudemanhuispoort

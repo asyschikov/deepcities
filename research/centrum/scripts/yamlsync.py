@@ -25,6 +25,13 @@ def set_attrs(attrs,ind,lo=0,hi=None):
     if i is None: return
     j=block_end(i,ind)
     cur=yaml.safe_load('\n'.join(x[ind:] for x in E[i:j]))['attributes'] or {}
+    for k in ('check','check_note','status'):
+        if k in cur and k not in attrs:
+            idx=[n for n in range(i+1,j) if E[n].startswith(' '*(ind+2)+k+':')]
+            if idx:
+                m=idx[0]+1
+                while m<j and len(E[m])-len(E[m].lstrip())>ind+2: m+=1
+                del E[idx[0]:m]; j-=m-idx[0]
     for k,v in attrs.items():
         if cur.get(k)!=v:
             idx=[n for n in range(i+1,j) if E[n].startswith(' '*(ind+2)+k+':')]
@@ -38,7 +45,7 @@ n=live.get('translations',{}).get('nl',{})
 if find('nl',2) is not None:
     if n.get('summary'): set_scalar('summary',n['summary'],4,find('nl',2))
     if n.get('body'): set_scalar('body',n['body'],4,find('nl',2))
-    if n.get('attributes'): set_attrs(n['attributes'],4,find('nl',2))
+    set_attrs(n.get('attributes') or {},4,find('nl',2))
 L[s:e]=E; open(f,'w').write('\n'.join(L))
 chk=[p for p in yaml.safe_load(open(f)) if p['title']==live['title']][0]
 assert chk['body'].strip()==live['body'].strip() and chk['nl']['body'].strip()==n['body'].strip(),'mismatch'
