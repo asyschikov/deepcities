@@ -616,11 +616,6 @@
    "from": "civic"
   },
   {
-   "id": "n0ntsglbwukufqsfzdygtwcu",
-   "title": "Anne Frank House",
-   "from": "hidden-history"
-  },
-  {
    "id": "tfd6lpt6j68i3c2dsvkttj8z",
    "title": "Apollohal, the tennis hall built to last twenty years",
    "from": "civic"
@@ -786,11 +781,6 @@
    "from": "civic"
   },
   {
-   "id": "axiln8o2bm6goyjdmet93gca",
-   "title": "National Holocaust Museum (Nationaal Holocaustmuseum), in the old teac",
-   "from": "hidden-history"
-  },
-  {
    "id": "evv21bwy96hv1tq8r0ujpchb",
    "title": "Nereus boathouse",
    "from": "civic"
@@ -824,11 +814,6 @@
    "id": "hx7dwu71gosab9zsoiknjyt1",
    "title": "Pathé Tuschinski",
    "from": "civic"
-  },
-  {
-   "id": "htj1y3owqgh84j7umrsgu5j4",
-   "title": "Plancius, the choir's clubhouse (Verzetsmuseum)",
-   "from": "hidden-history"
   },
   {
    "id": "ywsp3c1favn98gjnn8hs24j5",
@@ -921,11 +906,6 @@
    "from": "civic"
   },
   {
-   "id": "ck6fublhp2rmd0fv7hbv088s",
-   "title": "Zuid-Afrikahuis, the library whose books were thrown in the canal",
-   "from": "hidden-history"
-  },
-  {
    "id": "bckwe6sxg2oznn34ifib8tql",
    "title": "Zuiderbad",
    "from": "civic"
@@ -969,6 +949,28 @@
    "id": "ivvg2pcrabt8f8mj7k6bmjvs",
    "title": "Westbeat and the dancers' Super Space (Lelylaan)",
    "from": "housing"
+  }
+ ],
+ "reverted": [
+  {
+   "id": "n0ntsglbwukufqsfzdygtwcu",
+   "title": "Anne Frank House",
+   "from": "hidden-history"
+  },
+  {
+   "id": "axiln8o2bm6goyjdmet93gca",
+   "title": "National Holocaust Museum (Nationaal Holocaustmuseum), in the old teac",
+   "from": "hidden-history"
+  },
+  {
+   "id": "htj1y3owqgh84j7umrsgu5j4",
+   "title": "Plancius, the choir's clubhouse (Verzetsmuseum)",
+   "from": "hidden-history"
+  },
+  {
+   "id": "ck6fublhp2rmd0fv7hbv088s",
+   "title": "Zuid-Afrikahuis, the library whose books were thrown in the canal",
+   "from": "hidden-history"
   }
  ]
 }
