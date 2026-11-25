@@ -1,11 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight, Info, Star } from "lucide-react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { cn, photoUrl } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
+import type { PhotoMeta } from "./PhotoCredit";
 
 export const loadMaps = createServerFn({ method: "GET" }).handler(async () => {
   const caller = await createCaller();
@@ -18,10 +20,14 @@ type MapSummary = Awaited<ReturnType<typeof loadMaps>>[number];
 export const CityHome = ({
   city,
   initial,
+  cards = "top",
 }: {
   city: string;
   initial: MapSummary[];
+  /** Where a map card's picture goes: a wide band on top, or a strip at the side. */
+  cards?: "top" | "side";
 }) => {
+  const side = cards === "side";
   const { t } = useTranslation();
   const trpc = useTRPC();
   const { data: all } = useQuery({
@@ -58,23 +64,34 @@ export const CityHome = ({
         <h2 className="mb-6 text-2xl font-semibold">{t("home_maps")}</h2>
         <ul className="grid gap-4 sm:grid-cols-2">
           {maps.map((m) => (
-            <li key={m.id}>
+            <li key={m.id} className="relative">
               <Link
                 to="/$city/$slug"
                 params={{ city: m.citySlug, slug: m.slug }}
                 className={cn(
-                  "group flex h-full flex-col overflow-hidden rounded-xl border bg-card transition hover:-translate-y-0.5 hover:shadow-lg",
+                  "group flex h-full overflow-hidden rounded-xl border bg-card transition hover:-translate-y-0.5 hover:shadow-lg",
+                  side ? "flex-row" : "flex-col",
                   // The city's own map stands out, gently.
                   m.cityDefault && "border-brick/40 bg-brick/5 shadow-sm",
                 )}
               >
-                {m.coverPhotoId && (
-                  <div className="aspect-[16/9] overflow-hidden bg-muted">
+                {m.cover && (
+                  <div
+                    className={cn(
+                      "relative overflow-hidden bg-muted",
+                      // At the side the picture takes the card's height
+                      // and adds none of its own.
+                      side ? "w-28 shrink-0 sm:w-40" : "aspect-[16/9]",
+                    )}
+                  >
                     <img
-                      src={photoUrl(m.coverPhotoId)}
+                      src={photoUrl(m.cover.id)}
                       alt=""
                       loading="lazy"
-                      className="size-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                      className={cn(
+                        "size-full object-cover transition duration-500 group-hover:scale-[1.03]",
+                        side && "absolute inset-0",
+                      )}
                     />
                   </div>
                 )}
@@ -103,6 +120,7 @@ export const CityHome = ({
                   </span>
                 </div>
               </Link>
+              {m.cover && <CoverCredit photo={m.cover} side={side} />}
             </li>
           ))}
         </ul>
@@ -127,5 +145,55 @@ export const CityHome = ({
         </div>
       </section>
     </main>
+  );
+};
+
+/**
+ * The card picture's credit, folded into an (i) in its corner like the map's
+ * own attribution. It sits over the picture but outside the card's link, so
+ * opening it doesn't open the map.
+ */
+const CoverCredit = ({ photo, side }: { photo: PhotoMeta; side: boolean }) => {
+  const { t } = useTranslation();
+  const [open, setOpen] = useState(false);
+  if (!photo.credit) return null;
+  const text = t("photo_credit", {
+    credit: [photo.credit, photo.license].filter(Boolean).join(", "),
+  });
+  return (
+    <div
+      className={cn(
+        "pointer-events-none absolute overflow-hidden rounded-tl-xl",
+        side
+          ? "inset-y-0 left-0 w-28 rounded-bl-xl sm:w-40"
+          : "inset-x-0 top-0 aspect-[16/9] rounded-tr-xl",
+      )}
+    >
+      {open && (
+        <p className="pointer-events-auto absolute inset-x-0 bottom-0 bg-black/65 py-1.5 pr-8 pl-2 text-[11px] leading-snug text-white">
+          {photo.sourceUrl ? (
+            <a
+              href={photo.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:underline"
+            >
+              {text}
+            </a>
+          ) : (
+            text
+          )}
+        </p>
+      )}
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        aria-label={t("home_photo_credit")}
+        className="pointer-events-auto absolute right-1.5 bottom-1.5 grid size-5 place-items-center rounded-full bg-black/40 text-white/90 transition hover:bg-black/65"
+      >
+        <Info className="size-3.5" />
+      </button>
+    </div>
   );
 };

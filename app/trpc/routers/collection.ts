@@ -1,6 +1,6 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
-import { and, count, countDistinct, eq, sql } from "drizzle-orm";
+import { and, count, countDistinct, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { citySlug } from "~/lib/cities";
 import { CONTRIBUTION_POLICIES, MEMBER_ROLES } from "~/lib/constants";
@@ -178,6 +178,19 @@ export const collectionRouter = router({
         }),
     );
     for (const [id, n] of viewCounts) byId.set(id, n);
+    // Card pictures carry their credit: most are Commons photos under CC BY(-SA).
+    const coverIds = rows.flatMap((c) =>
+      c.coverPhotoId ? [c.coverPhotoId] : [],
+    );
+    const covers = new Map(
+      (coverIds.length > 0
+        ? await ctx.db.query.photo.findMany({
+            where: inArray(photo.id, coverIds),
+            columns: { id: true, credit: true, license: true, sourceUrl: true },
+          })
+        : []
+      ).map((p) => [p.id, p]),
+    );
     return rows.map((c) => ({
       id: c.id,
       slug: c.slug,
@@ -187,7 +200,7 @@ export const collectionRouter = router({
       tagline: c.tagline,
       city: c.city,
       view: c.view,
-      coverPhotoId: c.coverPhotoId,
+      cover: c.coverPhotoId ? (covers.get(c.coverPhotoId) ?? null) : null,
       placeCount: byId.get(c.id) ?? 0,
     }));
   }),
