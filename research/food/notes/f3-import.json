@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "total": 5,
+    "created": 5,
+    "alsoOnOtherMaps": 1
+  },
+  "results": [
+    {
+      "title": "Posthumus, the stamp and seal shop by the gable stone wall",
+      "result": "created",
+      "id": "qtghd7hx93558mdkdjl82bnq",
+      "status": "approved",
+      "placeId": "qg16tmiaug13r2oidwwyxeas"
+    },
+    {
+      "title": "Kramer & Pontifex, the doll doctor and the candle shop",
+      "result": "created",
+      "alsoOn": [
+        {
+          "map": "centrum",
+          "placeId": "rnfnkpvexon65qv8jlg3e9t1",
+          "title": "Reestraat 6, where Anton de Kom lived",
+          "why": "24 m apart"
+        }
+      ],
+      "id": "voh16ndd5x6xascajjmqn5mz",
+      "status": "approved",
+      "placeId": "q4dwy1tdn5x7k742pgk27437"
+    },
+    {
+      "title": "Chagall Gallery Wuyt, a canal house full of Chagall prints",
+      "result": "created",
+      "id": "a7mngaw324wtskc3pwf2y7yd",
+      "status": "approved",
+      "placeId": "cvp5feqplou8q2gmzwvxdaky"
+    },
+    {
+      "title": "The Spiegelkwartier, the antiques street to the Rijksmuseum",
+      "result": "created",
+      "id": "xpesvmcvpmk5jrbws6lrnric",
+      "status": "approved",
+      "placeId": "xslqxha4cm73qy1g2urmuf17"
+    },
+    {
+      "title": "Noordermarkt markets, second-hand on Monday, organic on Saturday",
+      "result": "created",
+      "id": "ugkbzduytzm9l4tpykrhhjfc",
+      "status": "approved",
+      "placeId": "y3v9pq25bbflg4mlh4rd87ja"
+    }
+  ]
+}
