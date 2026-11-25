@@ -1,0 +1,453 @@
+{
+ "overrides": [
+  {
+   "id": "kapgrw5hh9ge5asngh71p0pr",
+   "note": "Diemerpark and De Ontmoeting (clusters m02, m49: about 30 ha of flower-rich grass in the park and on the Diemerzeedijk; adds one sentence on the mowing, rest unchanged)",
+   "clusters": [
+    "m02",
+    "m49"
+   ],
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Orchids from late May into July; buttercups along the dike and ox-eye daisies on the north side in early summer.",
+    "what": "Wild orchids: hundreds of southern marsh orchids, marsh and broad-leaved helleborine, bee orchid, also pyramidal orchid and twayblade; buttercups, ox-eye daisies.",
+    "extra_description": "The park with the highest biodiversity in Amsterdam is also its orchid park. On the thin living layer over the sealed dump grow several wild orchids: hundreds of southern marsh orchids, many in the ditch along the Diemerzeedijk, with marsh helleborine, broad-leaved helleborine and the rare bee orchid, whose flower mimics a bee; the park's friends have also reported pyramidal orchid and common twayblade. They flower from late May into July in rough grass left long for them: some 30 hectares of the park and the dike are kept by the city as flower-rich grass, mown only once or twice a year. At the same time the Diemerzeedijk side turns yellow with buttercups and the north side white with ox-eye daisies, while meadow crane's-bill, viper's bugloss and crown vetch come up. Stay on the paths and look, don't pick."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Orchideeën van eind mei tot in juli; boterbloemen langs de dijk en margrieten aan de noordkant in de vroege zomer.",
+      "what": "Wilde orchideeën: honderden rietorchissen, moeraswespenorchis, brede wespenorchis, bijenorchis, ook hondskruid en grote keverorchis; boterbloemen, margrieten.",
+      "extra_description": "Het park met de hoogste biodiversiteit van Amsterdam is ook het orchideeënpark van de stad. Op de dunne leeflaag boven de afgesloten stortplaats groeien verschillende wilde orchideeën: honderden rietorchissen, veel in de slenk langs de Diemerzeedijk, met moeraswespenorchis, brede wespenorchis en de zeldzame bijenorchis, waarvan de bloem een bij nadoet; de Vrienden van het Diemerpark zagen er ook hondskruid en grote keverorchis. Ze bloeien van eind mei tot in juli in het ruige gras, dat voor ze lang blijft staan: zo'n 30 hectare van park en dijk beheert de gemeente als bloemrijk grasland, dat maar een of twee keer per jaar gemaaid wordt. Tegelijk kleurt de kant van de Diemerzeedijk geel van de boterbloemen en de noordkant wit van de margrieten, en komen beemdooievaarsbek, slangenkruid en bont kroonkruid op. Blijf op de paden en kijk, niet plukken."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/4104366/?_format=json",
+    "https://www.amsterdam.nl/leefomgeving/groen/maaien/"
+   ]
+  },
+  {
+   "id": "s56gcbotvw4vph4tfvylkg2d",
+   "note": "Cuckooflowers in Polder Meerzicht (cluster m05: about 20 ha of flower-rich grass, grazed and mown once a year; adds extra_description, rest unchanged)",
+   "clusters": [
+    "m05"
+   ],
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "Late April",
+    "when": "Cuckooflowers from mid April into May; lesser spearwort from May or June.",
+    "what": "Peat-meadow flowers: cuckooflower, lesser spearwort.",
+    "access": "Part of the Amsterdamse Bos, north of the Koenenkade; meadow-bird land, so keep to the paths in spring.",
+    "extra_description": "About 20 hectares of the polder are kept by the city as flower-rich grass: grazed, and mown only once a year, so the damp peat meadows keep the plants that went before the Bos. In an ordinary year the cuckooflower turns the grass lilac from mid April, at its best around late April, and the pale yellow lesser spearwort follows along the wet edges from May or June. It is meadow-bird land, with redshank, black-tailed godwit and lapwing breeding here, so in spring the flowers are best seen from the paths."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Pinksterbloemen van half april tot in mei; egelboterbloem vanaf mei of juni.",
+      "what": "Veenweidebloemen: pinksterbloem, egelboterbloem.",
+      "access": "Deel van het Amsterdamse Bos, ten noorden van de Koenenkade; weidevogelgebied, dus blijf in het voorjaar op de paden.",
+      "extra_description": "Zo'n 20 hectare van de polder beheert de gemeente als bloemrijk grasland: begraasd en maar één keer per jaar gemaaid, zodat de vochtige veenweitjes de planten houden die er al vóór het Bos stonden. In een gewoon jaar kleurt de pinksterbloem het gras vanaf half april lila, op z'n mooist rond eind april, en langs de natte randen volgt vanaf mei of juni de bleekgele egelboterbloem. Het is weidevogelland, met broedende tureluurs, grutto's en kieviten, dus bekijk de bloemen in het voorjaar vanaf de paden."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/5681538/?_format=json",
+    "https://www.amsterdamsebos.nl/natuur/natuurgebieden/polder-meerzicht/",
+    "https://www.amsterdam.nl/leefomgeving/groen/maaien/"
+   ]
+  },
+  {
+   "id": "ow5twbcxdk5xswukzcmjbo3e",
+   "note": "Marsh orchids and sundew in the Oeverlanden of the Amstelveense Poel (cluster m11: about 14 ha of flower-rich grass round the Poel, much of it laid out in 2008, and the grazed meadows south of it; adds extra_description, rest unchanged)",
+   "clusters": [
+    "m11"
+   ],
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Late May to mid July for the southern marsh orchid; the walk is at its best in summer.",
+    "what": "Two orchid species, among them southern marsh orchid (Dactylorhiza praetermissa); sundew.",
+    "access": "Free, always open. West-side path closed for nature work 21 Sept to 18 Dec 2026; walk round via the Kleine Noorddijk.",
+    "extra_description": "Round the Poel the city keeps some 14 hectares as flower-rich grass, much of it laid out in 2008 and mown late and sparingly. The peat pool's shores are where the plants are: two orchid species, the southern marsh orchid among them, flowering from late May to mid July, and the carnivorous sundew in the wettest spots. Just south, in the southern part of the Bos, Highland cattle graze the open meadows to keep them from turning into wood; they leave thistles and hawthorn standing, which the butterflies like."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Eind mei tot half juli voor de rietorchis; de wandeling is op z'n mooist in de zomer.",
+      "what": "Twee soorten orchideeën, waaronder de rietorchis (Dactylorhiza praetermissa); zonnedauw.",
+      "access": "Gratis, altijd open. Pad aan de westkant dicht voor natuurwerk van 21 sept. tot 18 dec. 2026; omlopen via de Kleine Noorddijk.",
+      "extra_description": "Rond de Poel beheert de gemeente zo'n 14 hectare als bloemrijk grasland, voor een groot deel aangelegd in 2008 en laat en weinig gemaaid. Op de oevers van de veenplas zitten de bijzondere planten: twee soorten orchideeën, waaronder de rietorchis, die bloeit van eind mei tot half juli, en de vleesetende zonnedauw op de natste plekjes. Net ten zuiden, in het zuidelijke deel van het Bos, houden Schotse hooglanders de open weiden kort zodat ze niet dichtgroeien; distels en meidoorn laten ze staan, en daar zijn de vlinders blij mee."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/4328937/?_format=json",
+    "https://www.amsterdamsebos.nl/natuur/natuurgebieden/schotse-begrazing/",
+    "https://www.amsterdam.nl/leefomgeving/groen/maaien/"
+   ]
+  },
+  {
+   "id": "avse5r5gizki80pu54k5gnfp",
+   "note": "De Oeverlanden (cluster m17: about 8 ha of flower-rich grass along the Oude Haagseweg and the Anton Schleperspad, laid out 2002; fresh override, not on bloom yet)",
+   "clusters": [
+    "m17"
+   ],
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Orchid meadows at their best in June; meadow flowers from late May into July, in an ordinary year.",
+    "what": "Orchid meadows: southern marsh, broad-leaved marsh and bee orchid, helleborine, twayblade; ox-eye daisy, knapweed, ragged robin, yellow rattle.",
+    "access": "Free, always open; volunteer-run nature park. Keep to the paths.",
+    "extra_description": "The leftover strip of dredging sand on the Nieuwe Meer grew wild into marsh, willow wood, reed, scrub and, in between, small orchid meadows. The volunteers of De Oeverlanden Blijven!, who have managed it since 1984, have recorded 648 plant species here between 2003 and 2024, many of them found nowhere else round Amsterdam, and more than 60 kinds of bees. The orchids include southern marsh orchid, broad-leaved marsh orchid, bee orchid, broad-leaved helleborine and twayblade; among them flower ox-eye daisies, knapweed, ragged robin, bird's-foot trefoil and yellow rattle. Early summer is the time to come. Look, don't pick."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Orchideeënweitjes op hun mooist in juni; graslandbloemen van eind mei tot in juli, in een gewoon jaar.",
+      "what": "Orchideeënweitjes: rietorchis, brede orchis, bijenorchis, brede wespenorchis, grote keverorchis; margriet, knoopkruid, echte koekoeksbloem, ratelaar.",
+      "access": "Gratis, altijd open; natuurpark beheerd door vrijwilligers. Blijf op de paden.",
+      "extra_description": "Op de opgespoten grond langs de Nieuwe Meer groeide vanzelf een wildernis van moeras, wilgenbos, riet en struweel, met daartussen kleine orchideeënweitjes. De vrijwilligers van De Oeverlanden Blijven!, die het gebied sinds 1984 beheren, telden er tussen 2003 en 2024 648 soorten planten, waarvan veel nergens anders rond Amsterdam groeien, en ruim 60 soorten bijen. Onder de orchideeën zijn rietorchis, brede orchis, bijenorchis, brede wespenorchis en grote keverorchis; ertussen bloeien margriet, knoopkruid, echte koekoeksbloem, gewone rolklaver en ratelaar. Kom in de vroege zomer. Kijken, niet plukken."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/593634/?_format=json",
+    "https://oeverlanden.nl/beschrijving/",
+    "https://oeverlanden.nl/biodiversiteit/Vaatplanten.pdf",
+    "https://www.landschapnoordholland.nl/vrijwilligers/groepen/oeverlanden-blijven"
+   ]
+  },
+  {
+   "id": "wc8isqiervzjzn2ftiqefzso",
+   "note": "Volgermeerpolder (cluster m01: 117 ha of flower-rich grass in Waterland, of which some 42 ha in the Volgermeerpolder; the rest is dike slopes and road verges of the Buikslotermeerdijk and the gouwen; fresh override, not on bloom yet)",
+   "clusters": [
+    "m01"
+   ],
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "May",
+    "when": "Late May and June, before the first hay cut; strips left standing flower on into late summer.",
+    "what": "Flower-rich hay meadow (false oat-grass hayfield, the grassland of West Dutch dikes) on about half the site; never fertilised or sprayed.",
+    "access": "Free, open to walkers and cyclists; dogs on a leash.",
+    "extra_description": "About half of the capped dump is grassland, never fertilised or sprayed, and the city keeps some 40 hectares of it as flower-rich grass. The aim of the managers is a false oat-grass hayfield, the herb-rich grassland of most dikes and road verges in the west of the country, with more wild flowers and rarer plants than ordinary grass and food for butterflies, bees and hoverflies. Most of it is cut for hay twice a year, the first time in June, and part is grazed instead; the grazed fields hold more birds, skylarks above all. The thinnest strips are left standing until late summer. The view from the top of the hill takes in all of Waterland."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Eind mei en juni, voor de eerste hooibeurt; stroken die blijven staan bloeien door tot laat in de zomer.",
+      "what": "Bloemrijk hooiland (glanshaverhooiland, het grasland van de West-Nederlandse dijken) op zo'n helft van het terrein; nooit bemest of bespoten.",
+      "access": "Gratis, open voor wandelaars en fietsers; honden aangelijnd.",
+      "extra_description": "Ongeveer de helft van de afgedekte gifbelt is grasland, nooit bemest of bespoten, en zo'n 40 hectare daarvan beheert de gemeente als bloemrijk grasland. De beheerders mikken op glanshaverhooiland, het kruidenrijke grasland van de meeste dijken en wegbermen in West-Nederland, met meer bloemen en zeldzamere planten dan gewoon gras en voedsel voor vlinders, bijen en zweefvliegen. Het meeste wordt twee keer per jaar gehooid, de eerste keer in juni, en een deel wordt begraasd; daar zitten meer vogels, vooral veldleeuweriken. De schraalste stroken blijven tot het eind van de zomer staan. Vanaf de top van de heuvel kijk je over heel Waterland."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/567732/?_format=json",
+    "https://www.volgermeer.nl/volgermeer-info/beheer/florabeheer/",
+    "https://www.volgermeer.nl/volgermeer-info/waarnemingen/"
+   ]
+  },
+  {
+   "id": "fk0us58sal37sfnh273jybal",
+   "note": "Lange Bretten (clusters m08, m26, m44: some 27 ha of flower-rich grass along the Lange Bretten from Sloterdijk to the Westrandweg; fresh override, not on bloom yet)",
+   "clusters": [
+    "m08",
+    "m26",
+    "m44"
+   ],
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Late spring and summer, between the hay cuts, in an ordinary year.",
+    "what": "Grazed rough grassland and hay fields on old dune sand, sludge and metro spoil; orchids grow here (species not published).",
+    "access": "Free, always open; grazed by cattle and goats, keep your distance and dogs on a leash.",
+    "extra_description": "Dune sand pumped in for parks that never came, dredging sludge and soil dug out for the metro gave the Lange Bretten a patchwork of high and low, dry and wet ground, and that is why almost everything grows here. Landschap Noord-Holland manages it as nature: Highland cattle and Dutch landrace goats keep the open fields from closing up, volunteers make hay, and the city keeps much of the long strip as flower-rich grass, mown only once or twice a year. Its rangers point out that orchids grow here too. Late spring and summer are the times to wander the side paths."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Late voorjaar en zomer, tussen de hooibeurten, in een gewoon jaar.",
+      "what": "Begraasd ruig grasland en hooiveldjes op oud duinzand, slib en metrogrond; er groeien orchideeën (soorten niet bekendgemaakt).",
+      "access": "Gratis, altijd open; begraasd door runderen en geiten, houd afstand en honden aangelijnd.",
+      "extra_description": "Opgespoten duinzand voor parken die er nooit kwamen, baggerslib en grond uit de metrobouw gaven de Lange Bretten een lappendeken van hoog en laag, droog en nat, en daarom groeit en bloeit hier zo'n beetje alles. Landschap Noord-Holland beheert het als natuur: Schotse hooglanders en Hollandse landgeiten houden de open velden open, vrijwilligers hooien, en een groot deel van de lange strook beheert de gemeente als bloemrijk grasland, dat maar een of twee keer per jaar gemaaid wordt. Volgens de boswachters groeien er zelfs orchideeën. Dwaal in het late voorjaar en de zomer over de zijpaadjes."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/590849/?_format=json",
+    "https://www.landschapnoordholland.nl/natuurgebieden/lange-bretten",
+    "https://www.rodi.nl/amsterdam-nieuw-west/309635/zwerftocht-door-ruige-stadswildernis-de-lange-bretten",
+    "https://www.amsterdam.nl/leefomgeving/groen/maaien/"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "spot": [
+    "m07"
+   ],
+   "title": "Wild flower meadows of the Bijlmerweide",
+   "summary": "A 50-hectare nature park round Geerdinkhof and Kantershof where volunteers make hay, sow wild flowers and map the orchid patches, with some 18 hectares kept as flower-rich grass.",
+   "body": "The Bijlmerweide wraps round the Geerdinkhof and Kantershof estates along the Provincialeweg, 50 hectares of meadow, ponds and wood that are part of the national nature network. Neighbours set up a foundation in 1993 to keep it from being built on, and since 1995 a group of volunteers has worked in the park every month with the district's ecology team: making hay, pollarding willows, building brush piles and warm heaps for the grass snakes and spreading wild flower seed.\n\nSeveral fields have been sown with wild flowers, among them the one round the football pitch, where butterflies are counted along two fixed routes, and the volunteers map the park's orchid patches. The city keeps about 18 hectares here as flower-rich grass, mown once or twice a year, so it is in flower from late spring into summer between the cuts, in an ordinary year.\n\nLook for: the sown field round the football pitch, with its butterflies; the orchid patches (look, don't pick); the brush piles where grass snakes lay their eggs.",
+   "category": "green",
+   "lat": 52.319976,
+   "lng": 4.993231,
+   "address": "Bijlmerweide, along the Provincialeweg by Kantershof and Geerdinkhof",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Bloemrijke weides van de Bijlmerweide",
+     "summary": "Een natuurpark van 50 hectare rond Geerdinkhof en Kantershof, waar vrijwilligers hooien, wilde bloemen zaaien en de orchideeënveldjes in kaart brengen; zo'n 18 hectare is bloemrijk grasland.",
+     "body": "De Bijlmerweide ligt als een groene ring om de wijken Geerdinkhof en Kantershof, langs de Provincialeweg: 50 hectare weide, poelen en bos, onderdeel van het Natuurnetwerk Nederland. Buurtbewoners richtten in 1993 een stichting op om bebouwing tegen te houden, en sinds 1995 werkt er elke maand een groep vrijwilligers samen met de ecoploeg van het stadsdeel: hooien, wilgen knotten, takkenrillen en broeihopen voor de ringslangen aanleggen en wildebloemenzaad uitstrooien.\n\nOp verschillende plekken zijn veldjes ingezaaid met wilde bloemen, onder meer rond het voetbalveld, waar langs twee vaste routes vlinders worden geteld, en de vrijwilligers brengen de orchideeënveldjes van het park in kaart. Zo'n 18 hectare beheert de gemeente als bloemrijk grasland, dat een of twee keer per jaar gemaaid wordt; in een gewoon jaar bloeit het van het late voorjaar tot in de zomer, tussen de maaibeurten door.\n\nLet op: het ingezaaide veld rond het voetbalveld, met de vlinders; de orchideeënveldjes (kijken, niet plukken); de broeihopen waar ringslangen hun eieren leggen."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Wild flowers",
+     "peak": "June",
+     "when": "Late spring into summer, between the mowings; parts are mown once a year, parts twice.",
+     "what": "About 18 ha of flower-rich grass, sown wild flower fields and orchid patches; species not published.",
+     "access": "Public park, always open, free. The children's farm in the park opens Tuesday to Sunday, 11:00 to 16:00."
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Laat voorjaar tot in de zomer, tussen de maaibeurten; delen worden één keer per jaar gemaaid, delen twee keer.",
+       "what": "Zo'n 18 ha bloemrijk grasland, ingezaaide wildebloemenveldjes en orchideeënveldjes; soorten niet bekendgemaakt.",
+       "access": "Openbaar park, altijd open, gratis. De kinderboerderij in het park is open van dinsdag tot zondag, 11.00 tot 16.00 uur."
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/4706441/?_format=json",
+    "https://www.vrijwilligersbijlmerweide.nl/vrijwilligers-bijlmerweide",
+    "https://www.vrijwilligersbijlmerweide.nl/landschap-noord-holland",
+    "https://1104enzo.nl/stichting-natuurontwikkeling-bijlmerweide-heeft-fraaie-website/",
+    "https://geerdinkhof.nl/omgeving/bijlmerweide/",
+    "https://www.bijlmerweide.nl/",
+    "https://www.amsterdam.nl/leefomgeving/groen/maaien/"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "spot": "m03",
+   "reason": "Buiksloterbreekpark and the green round Banne Buiksloot (Vikingpad, Barkpad): the city is redesigning the park with residents; no source names flowers."
+  },
+  {
+   "spot": "m04",
+   "reason": "Edges of the Lutkemeerpolder: mostly verges of the Lutkemeer business park, De Aker and the Lascarpad; no source names flowers; the Lutkemeerpolder place is about the farm fight, not flowers."
+  },
+  {
+   "spot": "m06",
+   "reason": "Mostly the new park on the roof of the A9 Gaasperdammertunnel (planted from 2021) plus edges of the Nelson Mandelapark; no source names flowers in either. Nelson Mandelapark override unchanged."
+  },
+  {
+   "spot": "m09",
+   "reason": "Open polder land in the Houtrakpolder at the edge of the port (Sloterdijk De Heining); no source names flowers and public access is unclear."
+  },
+  {
+   "spot": "m10",
+   "reason": "Verges of the Cornelis Douwes business park (Netwerkweg, Hardwareweg, Meteorenweg) and the Keerkringpark; no source names flowers."
+  },
+  {
+   "spot": "m12",
+   "reason": "Overbraker Binnenpolder: verges along the Haarlemmerweg, Kabelweg, Vredenhofpad and the rail; no source names flowers. The Westerpark allotments next door are already on bloom."
+  },
+  {
+   "spot": "m21",
+   "reason": "Overbraker Binnenpolder by the Transformatorweg and Spaarndammerdijk, next to Boerderij Ons Genoegen and Het Woeste Westen; no source names flowers."
+  },
+  {
+   "spot": "m13",
+   "reason": "Scattered hay meadows in the west of the Amsterdamse Bos; the Bos's own pages name no flowers for them. The Vogeleiland nearby is already a place."
+  },
+  {
+   "spot": "m19",
+   "reason": "Meadows in the middle of the Amsterdamse Bos near the Grote Speelweide; the Bos's own pages name no flowers for them."
+  },
+  {
+   "spot": "m20",
+   "reason": "One 6.8 ha meadow in the Amsterdamse Bos near the Nieuwe Kalfjeslaan; the Bos's own pages name no flowers for it."
+  },
+  {
+   "spot": "m38",
+   "reason": "Meadow in the Amsterdamse Bos by the Nieuwe Meerlaan; the Bos's own pages name no flowers for it."
+  },
+  {
+   "spot": "m41",
+   "reason": "Meadows in the Amsterdamse Bos near the Jakoba Mulder tulip tree; the Bos's own pages name no flowers for them."
+  },
+  {
+   "spot": "m43",
+   "reason": "The Waterentree at the north end of the Amsterdamse Bos (Hoornsloot, Bosbaansluis): new pools and sown herbs from 2020-21, but no species named; too thin for a place."
+  },
+  {
+   "spot": "m56",
+   "reason": "Meadows in the south of the Amsterdamse Bos near the Bloesempark; the Bos's own pages name no flowers for them."
+  },
+  {
+   "spot": "m14",
+   "reason": "Residential green and the Elpermeer in Buikslotermeer; no source names flowers."
+  },
+  {
+   "spot": "m15",
+   "reason": "Verges of the Kruislaan, Gooiseweg and Weespertrekvaart (Drie Burgpad); arterial road verges, no source names flowers."
+  },
+  {
+   "spot": "m16",
+   "reason": "Science Park and the slopes of the Ooster Ringdijk; no source names flowers."
+  },
+  {
+   "spot": "m18",
+   "reason": "Roof park of the A9 Gaasperdammertunnel by the K-buurt (planted from 2021); no source names flowers."
+  },
+  {
+   "spot": "m22",
+   "reason": "Grass in the Noorderpark and along the Noordhollandsch Kanaal and Elzenhagen sports park; no source names flowers. The Noorderpark rose garden is already on bloom."
+  },
+  {
+   "spot": "m55",
+   "reason": "South end of the Noorderpark by the Nieuwe Leeuwarderweg and Johan van Hasseltweg; no source names flowers. The rose garden is already on bloom."
+  },
+  {
+   "spot": "m23",
+   "reason": "Residential green round Kleiburg and Kruitberg (Bijlmermuseum); no source names flowers."
+  },
+  {
+   "spot": "m24",
+   "reason": "Verges of the Zuiderzeeweg and the side canal to Nieuwendam, slopes of the Nieuwendammerdijk; no source names flowers."
+  },
+  {
+   "spot": "m25",
+   "reason": "Strips along the Waterlinie in the new Weespersluis district; no source names flowers."
+  },
+  {
+   "spot": "m27",
+   "reason": "Verges of the Haarlemmerweg and the rail (Seineweg, Fornebukade); road and rail verges."
+  },
+  {
+   "spot": "m28",
+   "reason": "Verges round the A2, A10 and rail near the Amstel interchange and Duivendrecht (no street names); motorway and rail verges."
+  },
+  {
+   "spot": "m42",
+   "reason": "Verges along the A2 and rail by Tuinpark Dijkzicht (no street names); motorway and rail verges. The Dijkzicht roses are already on bloom."
+  },
+  {
+   "spot": "m29",
+   "reason": "Green strip along 't Kleine Loopveld and the Kalfjeslaan; no source names flowers. The hawthorns there are already on bloom."
+  },
+  {
+   "spot": "m30",
+   "reason": "Grass round the Bok de Korverweg sports park and the Nico Broekhuysenweg in Geuzenveld; sports park, no source names flowers."
+  },
+  {
+   "spot": "m31",
+   "reason": "Verges of the Vorticellaweg and IJdoornlaan in Kadoelen; no source names flowers."
+  },
+  {
+   "spot": "m32",
+   "reason": "Strips along the Christoffel Plantijnpad and the Plesmanlaan; too thin (an earlier slice also skipped this verge)."
+  },
+  {
+   "spot": "m33",
+   "reason": "Baanakkerspark; no source names flowers."
+  },
+  {
+   "spot": "m34",
+   "reason": "Park de Meer residential green and the Radioweg by the A10; no source names flowers."
+  },
+  {
+   "spot": "m35",
+   "reason": "Ouderkerkerdijk slopes and the Sportpark Overamstel edges; no source names flowers."
+  },
+  {
+   "spot": "m36",
+   "reason": "Fields in the Osdorper Bovenpolder (Tuinen van West); no source names flowers; the city decides on a landscape park here in 2027."
+  },
+  {
+   "spot": "m37",
+   "reason": "Fields in the Osdorper Bovenpolder (Tuinen van West); no source names flowers."
+  },
+  {
+   "spot": "m45",
+   "reason": "Fields in the Osdorper Binnenpolder by the Bosch van Drakesteinpad (Tuinen van West); no source names flowers."
+  },
+  {
+   "spot": "m52",
+   "reason": "Verges of the Westrandweg (A5) at the Osdorperweg bridge; motorway verge."
+  },
+  {
+   "spot": "m39",
+   "reason": "Natuurpark Vrije Geer and the Peilscheidingskade: already on bloom, and its override already covers the mown and hayed meadow. Nothing new to add."
+  },
+  {
+   "spot": "m40",
+   "reason": "Rail and ring-road verges at the Riekerpolder (Heemstede rail bridge, A10)."
+  },
+  {
+   "spot": "m46",
+   "reason": "Port verges along the Australiëhavenweg and Westrandweg."
+  },
+  {
+   "spot": "m47",
+   "reason": "Metro and rail embankments by the Jan Evertsen and Robert Fruin bridges."
+  },
+  {
+   "spot": "m48",
+   "reason": "Verges of the Nieuwe Utrechtseweg and Joan Muyskenweg, one patch by Tuinpark Amstelglorie (already on bloom); road verges."
+  },
+  {
+   "spot": "m50",
+   "reason": "Coentunnel verges and the Oostzanerwerf sports park; road verges."
+  },
+  {
+   "spot": "m51",
+   "reason": "Verges of the Gooiseweg and Daalwijkdreef; road verges."
+  },
+  {
+   "spot": "m53",
+   "reason": "Gemeenschapspolder by Driemond; no source names flowers."
+  },
+  {
+   "spot": "m54",
+   "reason": "Residential green in De Punt (Hogeboomspad, Machinetocht); no source names flowers."
+  },
+  {
+   "spot": "m57",
+   "reason": "Residential green in the D-buurt (Frissensteinpad, Strandvlietpad); no source names flowers."
+  },
+  {
+   "spot": "m58",
+   "reason": "Slopes of the Oostzanerdijk and the Westertocht; no source names flowers."
+  },
+  {
+   "spot": "m59",
+   "reason": "Rail and metro embankments by the Hemsterhuis bridges and Cornelis Lelylaan."
+  },
+  {
+   "spot": "m60",
+   "reason": "Frankendael: already on bloom, and its override already covers the neighbours' Bloemenveld. Nothing new to add."
+  },
+  {
+   "spot": "m61",
+   "reason": "Verges of the Radioweg along the A10; motorway verge."
+  },
+  {
+   "spot": "m62",
+   "reason": "Rembrandtpark meadow in the south-west corner: no source names flowers; the magnolia override stands, and the park is being renovated."
+  },
+  {
+   "spot": "m63",
+   "reason": "Verges of the Verlengde Stellingweg by the Noorder IJplas; no source names flowers."
+  },
+  {
+   "spot": "m64",
+   "reason": "Verges of the Westpoortweg in the port."
+  }
+ ]
+}
