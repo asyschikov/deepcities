@@ -247,6 +247,20 @@ export const SCORE_KINDS = Object.keys(SCORE_POINTS) as [
   ScoreKind,
   ...ScoreKind[],
 ];
+/**
+ * Everything a visitor does while exploring, paid or not, kept so points
+ * can be recalculated under new rules (see `explorer_action`).
+ */
+export const EXPLORER_ACTIONS = [
+  "checkin",
+  "verdict",
+  "report",
+  "report_withdrawn",
+  "photo",
+  "photo_accepted",
+] as const;
+export type ExplorerAction = (typeof EXPLORER_ACTIONS)[number];
+
 /** Photos per check-in that earn points. */
 export const SCORED_PHOTOS_PER_CHECKIN = 3;
 

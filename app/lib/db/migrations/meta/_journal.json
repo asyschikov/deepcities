@@ -169,6 +169,13 @@
       "when": 1795628185290,
       "tag": "0023_explorer_points",
       "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "6",
+      "when": 1795629130449,
+      "tag": "0024_explorer_actions",
+      "breakpoints": true
     }
   ]
 }

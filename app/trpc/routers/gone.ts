@@ -5,7 +5,7 @@ import { REPORT_KINDS } from "~/lib/constants";
 import type { Database } from "~/lib/db";
 import { goneReport, place, profile } from "~/lib/db/schema";
 import { GONE_VALUE, goneField } from "~/lib/gone";
-import { award, cityOf, onTheSpot } from "~/lib/score";
+import { award, cityOf, logAction, onTheSpot } from "~/lib/score";
 import { draftOfPlace, idSchema } from "~/lib/validation";
 import type { ViewMap } from "~/lib/views";
 import { requireCap } from "../access";
@@ -103,11 +103,19 @@ export const goneRouter = router({
           target: [goneReport.placeId, goneReport.profileId],
           set: row,
         });
-      const points = await award(ctx.db, {
+      const base = {
         profileId: ctx.profile.id,
         collectionId: target.collectionId,
         city: await cityOf(ctx.db, target.collectionId),
         placeId: target.id,
+      };
+      await logAction(ctx.db, {
+        ...base,
+        action: "report",
+        detail: { kind: input.kind, note: row.note, ...input.position },
+      });
+      const points = await award(ctx.db, {
+        ...base,
         kind: "report_here",
         key: `report:${target.id}`,
       });
@@ -118,6 +126,22 @@ export const goneRouter = router({
   withdraw: authedProcedure
     .input(z.object({ placeId: idSchema }))
     .mutation(async ({ ctx, input }) => {
+      const mine = await ctx.db.query.goneReport.findFirst({
+        where: and(
+          eq(goneReport.placeId, input.placeId),
+          eq(goneReport.profileId, ctx.profile.id),
+        ),
+      });
+      if (mine) {
+        await logAction(ctx.db, {
+          profileId: ctx.profile.id,
+          collectionId: mine.collectionId,
+          city: await cityOf(ctx.db, mine.collectionId),
+          placeId: input.placeId,
+          action: "report_withdrawn",
+          detail: { kind: mine.kind },
+        });
+      }
       await ctx.db
         .delete(goneReport)
         .where(

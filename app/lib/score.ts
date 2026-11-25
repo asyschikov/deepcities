@@ -1,8 +1,12 @@
 import { createId } from "@paralleldrive/cuid2";
 import { eq, inArray } from "drizzle-orm";
-import { SCORE_POINTS, type ScoreKind } from "~/lib/constants";
+import {
+  type ExplorerAction,
+  SCORE_POINTS,
+  type ScoreKind,
+} from "~/lib/constants";
 import type { Database } from "~/lib/db";
-import { collection, scoreEvent } from "~/lib/db/schema";
+import { collection, explorerAction, scoreEvent } from "~/lib/db/schema";
 
 export { onTheSpot } from "~/lib/reach";
 
@@ -52,8 +56,47 @@ export const award = async (
   return rows.reduce((sum, r) => sum + r.points, 0);
 };
 
-/** Take back the points that came from these check-ins or photos. */
+/**
+ * Record an explorer action, paid or not, so points can be recalculated
+ * later under new rules.
+ */
+export const logAction = async (
+  db: Database,
+  a: {
+    profileId: string;
+    collectionId: string;
+    city: string;
+    placeId: string | null;
+    action: ExplorerAction;
+    detail?: Record<string, unknown>;
+    sourceId?: string | null;
+    at?: Date;
+  },
+) => {
+  await db.insert(explorerAction).values({
+    id: createId(),
+    profileId: a.profileId,
+    collectionId: a.collectionId,
+    city: a.city,
+    placeId: a.placeId,
+    action: a.action,
+    detail: a.detail ?? {},
+    sourceId: a.sourceId ?? null,
+    createdAt: a.at ?? new Date(),
+  });
+};
+
+/**
+ * A visit or photo was undone: take back its points, and mark its actions
+ * revoked (kept, for the record).
+ */
 export const revokeFrom = async (db: Database, sourceIds: string[]) => {
   if (sourceIds.length === 0) return;
-  await db.delete(scoreEvent).where(inArray(scoreEvent.sourceId, sourceIds));
+  await db.batch([
+    db.delete(scoreEvent).where(inArray(scoreEvent.sourceId, sourceIds)),
+    db
+      .update(explorerAction)
+      .set({ revokedAt: new Date() })
+      .where(inArray(explorerAction.sourceId, sourceIds)),
+  ]);
 };

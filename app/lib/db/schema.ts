@@ -17,6 +17,7 @@ import {
   DOCUMENT_ACTIONS,
   DOCUMENT_STATUSES,
   DOCUMENT_SUBJECTS,
+  EXPLORER_ACTIONS,
   GLOBAL_ROLES,
   MEMBER_ROLES,
   PLACE_DETAILS,
@@ -640,6 +641,44 @@ export const scoreEvent = sqliteTable(
     uniqueIndex("score_event_key_idx").on(t.profileId, t.key),
     index("score_event_city_idx").on(t.city, t.profileId),
     index("score_event_source_idx").on(t.sourceId),
+  ],
+);
+
+/**
+ * Every explorer action, paid or not, append-only: the record to
+ * recalculate points from when the rules change. `detail` holds what the
+ * action was (the verdict, the report kind and note, the photo kind, where
+ * the phone was). Undoing a visit or photo sets `revokedAt` rather than
+ * deleting the row.
+ */
+export const explorerAction = sqliteTable(
+  "explorer_action",
+  {
+    id: text("id").primaryKey(),
+    profileId: text("profile_id")
+      .notNull()
+      .references(() => profile.id, { onDelete: "cascade" }),
+    collectionId: text("collection_id")
+      .notNull()
+      .references(() => collection.id, { onDelete: "cascade" }),
+    city: text("city").notNull(),
+    placeId: text("place_id").references(() => place.id, {
+      onDelete: "set null",
+    }),
+    action: text("action", { enum: EXPLORER_ACTIONS }).notNull(),
+    detail: text("detail", { mode: "json" })
+      .$type<Record<string, unknown>>()
+      .notNull()
+      .default({}),
+    /** The check-in or check-in photo it concerns. */
+    sourceId: text("source_id"),
+    revokedAt: integer("revoked_at", { mode: "timestamp" }),
+    createdAt: createdAt(),
+  },
+  (t) => [
+    index("explorer_action_profile_idx").on(t.profileId, t.createdAt),
+    index("explorer_action_place_idx").on(t.placeId),
+    index("explorer_action_source_idx").on(t.sourceId),
   ],
 );
 

@@ -20,7 +20,8 @@ import {
   profile as profileTable,
   verdict,
 } from "~/lib/db/schema";
-import { award, cityOf, onTheSpot, revokeFrom } from "~/lib/score";
+import { distanceMeters } from "~/lib/diff";
+import { award, cityOf, logAction, onTheSpot, revokeFrom } from "~/lib/score";
 import { draftOfPlace, idSchema } from "~/lib/validation";
 import { getAccess, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
@@ -81,20 +82,31 @@ const verifiedCheckin = async (
   return mine.find((v) => verifiedAt(v, target)) ?? null;
 };
 
-/** Points for a verdict: once per place, however often it changes. */
-const awardVerdict = async (
+/**
+ * Record a verdict (or clearing it) as an action; points once per place,
+ * however often it changes.
+ */
+const recordVerdict = async (
   db: Database,
   target: { id: string; collectionId: string },
   profileId: string,
-) =>
-  award(db, {
+  value: (typeof VERDICTS)[number] | null,
+) => {
+  const base = {
     profileId,
     collectionId: target.collectionId,
     city: await cityOf(db, target.collectionId),
     placeId: target.id,
-    kind: "verdict",
-    key: `verdict:${target.id}`,
+  };
+  await logAction(db, {
+    ...base,
+    action: "verdict",
+    detail: { verdict: value },
   });
+  return value
+    ? award(db, { ...base, kind: "verdict", key: `verdict:${target.id}` })
+    : 0;
+};
 
 /** A published place you may check in to (and give a verdict on). */
 const placeToVisit = async (
@@ -202,6 +214,15 @@ export const checkinRouter = router({
         sourceId: id,
         at: now,
       };
+      await logAction(ctx.db, {
+        ...base,
+        action: "checkin",
+        detail: {
+          routeId: input.routeId ?? null,
+          ...input.position,
+          distance: Math.round(distanceMeters(input.position, target)),
+        },
+      });
       let points = await award(ctx.db, {
         ...base,
         kind: "checkin",
@@ -216,7 +237,12 @@ export const checkinRouter = router({
       }
       if (input.verdict) {
         await setVerdictFor(ctx.db, target.id, ctx.profile.id, input.verdict);
-        points += await awardVerdict(ctx.db, target, ctx.profile.id);
+        points += await recordVerdict(
+          ctx.db,
+          target,
+          ctx.profile.id,
+          input.verdict,
+        );
       }
       const me = await ctx.db.query.profile.findFirst({
         where: eq(profileTable.id, ctx.profile.id),
@@ -231,9 +257,12 @@ export const checkinRouter = router({
     .mutation(async ({ ctx, input }) => {
       const target = await placeToVisit(ctx.db, ctx.profile, input.placeId);
       await setVerdictFor(ctx.db, input.placeId, ctx.profile.id, input.verdict);
-      const points = input.verdict
-        ? await awardVerdict(ctx.db, target, ctx.profile.id)
-        : 0;
+      const points = await recordVerdict(
+        ctx.db,
+        target,
+        ctx.profile.id,
+        input.verdict,
+      );
       return { ok: true, points };
     }),
 
@@ -334,17 +363,30 @@ export const checkinRouter = router({
         photoId: offer ? id : null,
         createdAt: now,
       });
+      const photoBase = {
+        profileId: ctx.profile.id,
+        collectionId: visit.collectionId,
+        city: await cityOf(ctx.db, visit.collectionId),
+        placeId: visit.placeId,
+        sourceId: id,
+        at: now,
+      };
+      await logAction(ctx.db, {
+        ...photoBase,
+        action: "photo",
+        detail: {
+          kind: input.kind,
+          isPrivate: input.kind === "selfie" && input.isPrivate,
+          offered: offer,
+          checkinId: visit.id,
+        },
+      });
       const points =
         n < SCORED_PHOTOS_PER_CHECKIN
           ? await award(ctx.db, {
-              profileId: ctx.profile.id,
-              collectionId: visit.collectionId,
-              city: await cityOf(ctx.db, visit.collectionId),
-              placeId: visit.placeId,
+              ...photoBase,
               kind: input.kind === "selfie" ? "selfie" : "place_photo",
               key: `photo:${id}`,
-              sourceId: id,
-              at: now,
             })
           : 0;
 

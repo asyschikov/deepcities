@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Database } from "~/lib/db";
-import { collection, place, profile } from "~/lib/db/schema";
+import { collection, explorerAction, place, profile } from "~/lib/db/schema";
 import type { Profile } from "./init";
 import { checkinRouter } from "./routers/checkin";
 import { goneRouter } from "./routers/gone";
@@ -156,5 +156,36 @@ describe("explorer points", () => {
     const board = await scores(null).leaderboard({ city: "Amsterdam" });
     expect(board.map((r) => [r.name, r.points])).toEqual([["bob", 2]]);
     expect(await scores(null).leaderboard({ city: "Rotterdam" })).toEqual([]);
+  });
+
+  it("logs every action, paid or not, and keeps undone ones as revoked", async () => {
+    const { id } = await checkins(ann).create({
+      placeId: "spot",
+      position: NEAR,
+      verdict: "nice",
+    });
+    await checkins(ann).setVerdict({ placeId: "spot", verdict: "amazing" });
+    await reports(ann).report({
+      placeId: "spot",
+      kind: "closed",
+      position: NEAR,
+    });
+    await reports(ann).report({
+      placeId: "spot",
+      kind: "changed",
+      position: NEAR,
+    });
+    await checkins(ann).delete({ checkinId: id });
+    const log = await db.select().from(explorerAction);
+    expect(log.map((a) => a.action).sort()).toEqual(
+      ["checkin", "report", "report", "verdict", "verdict"].sort(),
+    );
+    expect(log.find((a) => a.action === "checkin")?.revokedAt).not.toBeNull();
+    expect(
+      log
+        .filter((a) => a.action === "verdict")
+        .map((a) => a.detail.verdict)
+        .sort(),
+    ).toEqual(["amazing", "nice"]);
   });
 });

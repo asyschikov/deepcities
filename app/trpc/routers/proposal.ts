@@ -23,7 +23,7 @@ import {
   storedOverride,
   withOverride,
 } from "~/lib/overrides";
-import { award, cityOf } from "~/lib/score";
+import { award, cityOf, logAction } from "~/lib/score";
 import {
   draftOfRoute,
   idSchema,
@@ -373,6 +373,15 @@ const awardAcceptedPhotos = async (
   if (fromVisits.length === 0) return;
   const city = await cityOf(db, before.collectionId);
   for (const v of fromVisits) {
+    await logAction(db, {
+      profileId: v.profileId,
+      collectionId: before.collectionId,
+      city,
+      placeId: before.id,
+      action: "photo_accepted",
+      detail: { photoId: v.photoId },
+      sourceId: v.id,
+    });
     await award(db, {
       profileId: v.profileId,
       collectionId: before.collectionId,
