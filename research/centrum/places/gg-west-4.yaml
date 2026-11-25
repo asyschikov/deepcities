@@ -841,7 +841,7 @@
 
     The bakery's front carries a time verse dated 1787 in a bluestone frame. In a time verse, or chronogram, certain letters are also Roman numerals and add up to the year. The ground floor keeps windows and fanlights with small panes.
 
-    The building stands back from the canal. A nameless alley beside Prinsengracht 495 leads to it.
+    The building stands back from the canal. A nameless alley beside Prinsengracht 495 leads to it, behind an iron gate numbered 497; from the gate the front cannot be seen.
 
     Look for:
     - the time verse in its bluestone frame
@@ -862,8 +862,6 @@
     monument_number: "4348"
     built: about 1787
     original_use: Bakery of the R.K. Oude Armenkantoor
-    check: Location
-    check_note: The register point lies inside the block, reached by the alley beside no. 495; whether the front with the time verse can be seen from a public spot was not checked.
   sources:
     - rce:4348 (former bakery of the R.K. Oude Armenkantoor with a time verse (1787) in a bluestone frame in the front; small-paned windows and fanlights on the ground floor; built on the site of the theatre that burned down in 1772)
     - https://nl.wikipedia.org/wiki/Schouwburg_van_Van_Campen (fire 11 May 1772 at the end of a performance, a rope caught fire; 18 dead; rubble sifted for gold and jewels; the grounds bought by the R.K. Oude Armenkantoor, whose building behind the gate became hotel The Dylan in 1999)
@@ -877,7 +875,7 @@
 
       In de gevel van de bakkerij zit een tijdvers uit 1787 in een hardstenen omlijsting. In zo'n tijdvers, of chronogram, zijn sommige letters ook Romeinse cijfers, die samen het jaartal vormen. Op de begane grond hebben de vensters en bovenlichten nog kleine ruitjes.
 
-      Het gebouw ligt achter de grachtwand. Een naamloze steeg naast Prinsengracht 495 voert ernaartoe.
+      Het gebouw ligt achter de grachtwand. Een naamloze steeg naast Prinsengracht 495 voert ernaartoe, achter een ijzeren hek met nummer 497; vanaf het hek is de gevel niet te zien.
 
       Let op:
       - het tijdvers in zijn hardstenen omlijsting
@@ -885,7 +883,6 @@
       - aan de Keizersgracht de schouwburgpoort, aan de andere kant van hetzelfde terrein
     attributes:
       original_use: Bakkerij van het R.K. Oude Armenkantoor
-      check_note: Het registerpunt ligt binnen in het blok, bereikbaar via de steeg naast nummer 495; of de gevel met het tijdvers vanaf de openbare weg te zien is, is niet gecontroleerd.
     sources:
       - rce:4348
       - https://nl.wikipedia.org/wiki/Schouwburg_van_Van_Campen
