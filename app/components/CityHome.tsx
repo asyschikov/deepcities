@@ -24,7 +24,7 @@ export const CityHome = ({
 }: {
   city: string;
   initial: MapSummary[];
-  /** Where a map card's picture goes: a wide band on top, or a strip at the side. */
+  /** Where a map card's picture goes: a wide band on top, or a square at the side. */
   cards?: "top" | "side";
 }) => {
   const side = cards === "side";
@@ -70,7 +70,7 @@ export const CityHome = ({
                 params={{ city: m.citySlug, slug: m.slug }}
                 className={cn(
                   "group flex h-full overflow-hidden rounded-xl border bg-card transition hover:-translate-y-0.5 hover:shadow-lg",
-                  side ? "flex-row" : "flex-col",
+                  side ? "flex-row items-start" : "flex-col",
                   // The city's own map stands out, gently.
                   m.cityDefault && "border-brick/40 bg-brick/5 shadow-sm",
                 )}
@@ -79,9 +79,9 @@ export const CityHome = ({
                   <div
                     className={cn(
                       "relative overflow-hidden bg-muted",
-                      // At the side the picture takes the card's height
-                      // and adds none of its own.
-                      side ? "w-28 shrink-0 sm:w-40" : "aspect-[16/9]",
+                      side
+                        ? "my-6 ml-6 size-28 shrink-0 rounded-lg sm:size-40"
+                        : "aspect-[16/9]",
                     )}
                   >
                     <img
@@ -90,7 +90,6 @@ export const CityHome = ({
                       loading="lazy"
                       className={cn(
                         "size-full object-cover transition duration-500 group-hover:scale-[1.03]",
-                        side && "absolute inset-0",
                       )}
                     />
                   </div>
@@ -163,10 +162,10 @@ const CoverCredit = ({ photo, side }: { photo: PhotoMeta; side: boolean }) => {
   return (
     <div
       className={cn(
-        "pointer-events-none absolute overflow-hidden rounded-tl-xl",
+        "pointer-events-none absolute overflow-hidden",
         side
-          ? "inset-y-0 left-0 w-28 rounded-bl-xl sm:w-40"
-          : "inset-x-0 top-0 aspect-[16/9] rounded-tr-xl",
+          ? "top-6 left-6 size-28 rounded-lg sm:size-40"
+          : "inset-x-0 top-0 aspect-[16/9] rounded-t-xl",
       )}
     >
       {open && (
