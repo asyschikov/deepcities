@@ -1,0 +1,355 @@
+{
+ "places": [
+  {
+   "spot": [
+    "scout:Bloesempark"
+   ],
+   "title": "Cherry blossom in the Bloesempark, Amsterdamse Bos",
+   "summary": "400 Japanese cherries given by the Japan Women's Club in 2000. Worn out on poor clay, they come out after the 2028 bloom; new trees go in that autumn and should flower from spring 2029.",
+   "body": "The 400 trees are Prunus x yedoensis, the Yoshino cherry, given in 2000 by the Japan Women's Club to mark 400 years of ties between Japan and the Netherlands. Each has a woman's name: 200 Japanese, 200 Dutch. They flower pale pink for two to three weeks, usually from mid or late March; with little wind it lasts longer, with wind and rain it is over fast. In 2026 the park was in bloom by about 21 March and largely bare by Easter Monday, 6 April. Some 150,000 people come each spring, so the Bos asks for weekday visits, by bike or public transport, and hands off the branches. In May the cherries stand inside a purple ring of flowering rhododendrons.\n\nThe trees are about 35 years old (they were about ten when planted) and failing: a clay layer under the park leaves the roots waterlogged in wet spells and dry in droughts, and the crowds pack the soil. Twelve dead trees were felled in January 2025. A Shinto ceremony said farewell on 9 November 2025, and on 19 June 2026 Emperor Naruhito and Empress Masako planted the first new cherry. The plan: all old trees come out after the spring 2028 bloom, the soil is improved, and new trees of about ten years old go in that autumn, further apart. If all goes well the renewed park flowers for the first time in spring 2029.\n\nLook for: the Tsunami monument for 11 March 2011; the imperial couple's new tree; the rhododendron ring in May.",
+   "category": "green",
+   "lat": 52.303959,
+   "lng": 4.835387,
+   "address": "Bloesempark, Amsterdamse Bos, by the Amstelveense Poel, Amstelveen",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kersenbloesem in het Bloesempark, Amsterdamse Bos",
+     "summary": "400 Japanse kersen, in 2000 geschonken door de Japan Women's Club. Ze zijn op en gaan na de bloei van 2028 weg; die herfst komen nieuwe bomen, die vanaf voorjaar 2029 moeten bloeien.",
+     "body": "De 400 bomen zijn Prunus x yedoensis, de Yoshino-kers, in 2000 geschonken door de Japan Women's Club ter gelegenheid van 400 jaar betrekkingen tussen Japan en Nederland. Elke boom heeft een vrouwennaam: 200 Japanse, 200 Nederlandse. Ze bloeien twee tot drie weken lichtroze, meestal vanaf half of eind maart; zonder wind duurt het langer, met wind en regen is het snel voorbij. In 2026 stond het park rond 21 maart in bloei en was het op tweede paasdag, 6 april, grotendeels kaal. Elk voorjaar komen er zo'n 150.000 mensen, dus het Bos vraagt om doordeweeks te komen, met de fiets of het ov, en de takken niet aan te raken. In mei staan de kersen in een paarse kring van bloeiende rododendrons.\n\nDe bomen zijn zo'n 35 jaar oud (bij het planten waren ze ongeveer tien) en gaan hard achteruit: een kleilaag onder het park zet de wortels in natte tijden onder water en laat ze in droge tijden zonder, en de drukte drukt de grond aan. In januari 2025 zijn twaalf dode bomen gekapt. Op 9 november 2025 werd met een shinto-ceremonie afscheid genomen, en op 19 juni 2026 plantten keizer Naruhito en keizerin Masako de eerste nieuwe kers. Het plan: na de bloei van voorjaar 2028 gaan alle oude bomen eruit, de bodem wordt verbeterd en in het najaar komen nieuwe bomen van zo'n tien jaar oud, verder uit elkaar. Als alles goed gaat bloeit het vernieuwde park in het voorjaar van 2029 voor het eerst.\n\nLet op: het Tsunamimonument voor 11 maart 2011; de nieuwe boom van het keizerspaar; de rododendronkring in mei."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "March",
+     "when": "Usually from mid or late March, for two to three weeks; in 2026 from about 21 March to early April.",
+     "what": "Yoshino cherries: 400 Prunus x yedoensis, planted in 2000; all to be replaced in 2028.",
+     "trees": 400,
+     "access": "Free, in the open Amsterdamse Bos. Dogs on a leash; no bikes in the park, not even pushed. Very busy at weekends in bloom."
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Meestal vanaf half of eind maart, twee tot drie weken; in 2026 van rond 21 maart tot begin april.",
+       "what": "Yoshino-kersen: 400 Prunus x yedoensis, geplant in 2000; in 2028 worden ze allemaal vervangen.",
+       "access": "Gratis, in het open Amsterdamse Bos. Honden aangelijnd; geen fietsen in het park, ook niet aan de hand. In de bloei in het weekend erg druk."
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://www.amsterdamsebos.nl/bloesempark/",
+    "https://www.amsterdamsebos.nl/bloesempark/huisregels-bloesempark/",
+    "https://www.amsterdamsebos.nl/nieuws/amsterdamse-bos-vernieuwt-bloesempark/",
+    "https://www.amsterdamsebos.nl/bloesempark/geschiedenis-bloesempark/",
+    "https://www.at5.nl/artikelen/235422/japanse-afscheidsceremonie-voor-bloesembomen-in-amsterdamse-bos",
+    "https://www.at5.nl/artikelen/237659/tientallen-teleurgestelde-bezoekers-in-amsterdamse-bos-de-bloesem-is-weg",
+    "https://www.rtl.nl/boulevard/entertainment/artikel/5618737/japans-keizerspaar-plant-kersenboom-bloesempark",
+    "https://www.mijnamstelveen.nl/bloesempark-2026-komende-2-lentes-nog-genieten-bij-de-poel/"
+   ],
+   "notes": "Pin from the Bos's own renewal page. The 'woman's name per tree' and JWC gift are on the Bos page; '21 March' derived from MijnAmstelveen 28 Mar 2026 ('al een week in bloei'). MijnAmstelveen says 'two more springs' (2026, 2027); the Bos page says removal after the spring 2028 bloom, which I followed. AT5 (Nov 2025) said healthy trees would move to the edge; the Bos page later says none are fit to move: AT5 line not used."
+  },
+  {
+   "spot": [
+    "scout:Jakoba Mulder tulip tree"
+   ],
+   "title": "The Jakoba Mulder tulip tree, Amsterdamse Bos",
+   "summary": "A lone tulip tree planted around 1938 for Jakoba Mulder, one of the designers of the Amsterdamse Bos and said to be her favourite tree. Now 26 metres tall; it flowers in June.",
+   "body": "A single American tulip tree (Liriodendron tulipifera) in the grass south of the Bosbaanweg, at the edge of the play meadow and in plain view from the cycle path. It was planted around 1938 in honour of Jakoba Mulder (Breda 1900, Amsterdam 1988), the architect and town planner who helped design the Bos; the tulip tree was reportedly her favourite. The national register of monumental trees lists it as a fine, sound and evenly grown tree, 26 metres tall with a trunk just over four metres round.\n\nThe flowers come in June, after the leaves: upright, tulip-shaped cups, green-yellow with an orange band, mostly high in the crown, so look up. In autumn the square-ended leaves turn butter yellow.\n\nLook for: the flowers high in the crown; the leaves that look cut off at the tip; the yellow crown in autumn.",
+   "category": "green",
+   "lat": 52.324551,
+   "lng": 4.84545,
+   "address": "Amsterdamse Bos, south of the Bosbaanweg, edge of the play meadow, Amstelveen",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "De Jakoba Mulderboom, een tulpenboom in het Amsterdamse Bos",
+     "summary": "Een losse tulpenboom, rond 1938 geplant voor Jakoba Mulder, mede-ontwerper van het Amsterdamse Bos, naar verluidt haar lievelingsboom. Inmiddels 26 meter hoog; hij bloeit in juni.",
+     "body": "Een losse Amerikaanse tulpenboom (Liriodendron tulipifera) in het gras ten zuiden van de Bosbaanweg, aan de rand van de speelweide en goed te zien vanaf het fietspad. Hij is rond 1938 geplant ter ere van Jakoba Mulder (Breda 1900, Amsterdam 1988), de architecte en stedenbouwkundige die het Bos mee ontwierp; de tulpenboom was naar verluidt haar favoriet. Het Landelijk Register Monumentale Bomen noemt hem een prachtig, gaaf en harmonisch gegroeid exemplaar, 26 meter hoog met een stamomtrek van ruim vier meter.\n\nDe bloemen komen in juni, na het blad: rechtopstaande, tulpvormige kelken, groengeel met een oranje band, vooral hoog in de kroon, dus kijk omhoog. In de herfst kleurt het blad met de afgeknotte punt botergeel.\n\nLet op: de bloemen hoog in de kroon; het blad dat aan de top lijkt afgeknipt; de gele kroon in de herfst."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Summer-flowering trees",
+     "peak": "June",
+     "when": "June, after the leaves are out.",
+     "what": "One American tulip tree (Liriodendron tulipifera), planted around 1938; 26 m tall, girth 4.06 m.",
+     "trees": 1,
+     "access": "Free, open ground in the Amsterdamse Bos; seen from the cycle path."
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Juni, na het uitlopen van het blad.",
+       "what": "Eén Amerikaanse tulpenboom (Liriodendron tulipifera), geplant rond 1938; 26 m hoog, stamomtrek 4,06 m.",
+       "access": "Gratis, open terrein in het Amsterdamse Bos; te zien vanaf het fietspad."
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://services-eu1.arcgis.com/qONmLUR87PipcM5W/arcgis/rest/services/LRMB_v2024_openbaar/FeatureServer/1/query?where=nr%3D1694923&outFields=*&outSR=4326&f=json",
+    "https://ancienttrees.app/nl/amsterdam/jakoba-mulder-tulip-tree",
+    "https://www.vdberk.nl/bomen/liriodendron-tulipifera/"
+   ],
+   "notes": "Pin from the national register (LRMB 1694923), last observation June 2022. Planting year: register says 'rond 1938' (class 1930-1940); nl.wikipedia's 1955 claim not used. The flower colour and yellow autumn leaf are general species facts; ancienttrees.app text is AI-written, used only as a pointer. The Bos's own bloom page names the Vogeleiland tulip tree, not this one."
+  },
+  {
+   "spot": [
+    "scout:Weteringcircuit white chestnut"
+   ],
+   "title": "White horse chestnut in the Weteringcircuit",
+   "summary": "A big white horse chestnut on the traffic square at the end of the Vijzelgracht, one of the 30 trees on the city's monumental tree walk. In May it is covered in white candles.",
+   "body": "The chestnut stands on the Weteringcircuit, the traffic square where the Vijzelgracht meets the Weteringschans, with trams and bikes going round it. The city and the Bomenstichting picked it as one of the 30 trees on their 2025 walk past monumental trees in the centre, as a white horse chestnut planted in the early 20th century. The city's tree list records it as a protected monumental tree of the double-flowered kind 'Baumannii', whose full white flowers are sterile and sit in shorter, denser candles than the ordinary chestnut.\n\nIt flowers in May. Later in the year the leaves often brown early: the walk booklet blames the chestnut leaf miner, a small moth whose larvae tunnel through the leaves.\n\nLook for: the double flowers in the candles; the leaf-miner trails in summer; the crown seen from the Vijzelgracht metro exit.",
+   "category": "green",
+   "lat": 52.359465,
+   "lng": 4.890823,
+   "address": "Weteringcircuit (Verkeersplein Weteringschans), at the end of the Vijzelgracht",
+   "detail": "theme",
+   "parentSuggestion": {
+    "id": "f25e8j91i9jbfbqc5mh7jl9h",
+    "title": "Weteringcircuit, excise post, herb garden and Ramses Shaffy"
+   },
+   "translations": {
+    "nl": {
+     "title": "Witte paardenkastanje op het Weteringcircuit",
+     "summary": "Een grote witte paardenkastanje op het verkeersplein aan het eind van de Vijzelgracht, een van de 30 bomen van de stadswandeling langs monumentale bomen. In mei zit hij vol witte kaarsen.",
+     "body": "De kastanje staat op het Weteringcircuit, het verkeersplein waar de Vijzelgracht op de Weteringschans uitkomt, met trams en fietsers eromheen. De gemeente en de Bomenstichting kozen hem als een van de 30 bomen voor hun wandeling langs monumentale bomen in het centrum (2025), als witte paardenkastanje uit het begin van de twintigste eeuw. Op de bomenkaart van de gemeente staat hij als beschermde monumentale boom van de gevuldbloemige soort 'Baumannii', met volle, steriele witte bloemen in kortere, compactere pluimen dan de gewone kastanje.\n\nHij bloeit in mei. Later in het jaar wordt het blad vaak vroeg bruin: volgens het wandelboekje door de mineermot, een nachtvlindertje waarvan de larven gangen door het blad vreten.\n\nLet op: de dubbele bloemen in de kaarsen; de gangetjes van de mineermot in de zomer; de kroon vanaf de uitgang van metrostation Vijzelgracht."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Horse chestnut",
+     "peak": "May",
+     "when": "May.",
+     "what": "One white horse chestnut, recorded as the double-flowered Aesculus hippocastanum 'Baumannii'; monumental tree.",
+     "trees": 1,
+     "access": "On a traffic island; best seen from the pavements around the Weteringcircuit."
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Mei.",
+       "what": "Eén witte paardenkastanje, geregistreerd als de gevuldbloemige Aesculus hippocastanum 'Baumannii'; monumentale boom.",
+       "access": "Op een verkeerseiland; het best te zien vanaf de stoepen rond het Weteringcircuit."
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://www.bomenstichting.nl/images/1808/Monumentale_bomen_Amsterdam.pdf",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/1158204?_format=json",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/",
+    "https://www.amsterdamsdagblad.nl/regio/ontdek-de-buurtboom-de-witte-paardenkastanje"
+   ],
+   "notes": "Booklet tree no. 16 = city tree 1158204 (city: 'Baumannii', 1930, Monumentale boom). The scout's national-register number 1686107 is a different, older white chestnut on the same square (city planting year 1880) that the national register says was felled between 2011 and 2014; the 2020 Amsterdams Dagblad piece conflates the two. The city list still shows an Aesculus hippocastanum of 1880 (id 4513077) a few metres away: unclear, not used. Planting year: booklet 1900-1910, city 1930, so text says 'early 20th century'. A child of the Weteringcircuit cluster in the pool."
+  },
+  {
+   "spot": [
+    "scout:Falckstraat honey tree"
+   ],
+   "title": "Japanese pagoda trees at the Reguliersgracht and Falckstraat",
+   "summary": "Two Japanese pagoda trees, the big one planted around 1900 and a protected monumental tree, flower creamy white in late summer, when almost nothing else in the city does.",
+   "body": "On the small green at the end of the Reguliersgracht, where it meets the Falckstraat, stand two Japanese pagoda trees or honey trees (Styphnolobium japonicum), one big and one smaller. The big one was planted around 1900, is a listed monumental tree, about 19 metres tall with a trunk four metres round, and carries a large, partly overgrown wound on its south side. It has room because the Falckstraat is wide: it was laid over a stretch of the Achtergracht filled in around 1869.\n\nPagoda trees flower only once they are ten to twenty years old, then late, in an ordinary year in August: loose sprays of small creamy white pea flowers above feathery leaves, busy with bees.\n\nLook for: the pea-shaped flowers; the bees in August; the old wound on the south side of the trunk.",
+   "category": "green",
+   "lat": 52.360308,
+   "lng": 4.896502,
+   "address": "Reguliersgracht, corner of the Falckstraat (Falckplantsoen)",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Honingbomen aan de Reguliersgracht, hoek Falckstraat",
+     "summary": "Twee honingbomen, de grootste rond 1900 geplant en een beschermde monumentale boom, bloeien roomwit aan het eind van de zomer, als er in de stad bijna niets meer bloeit.",
+     "body": "Op het plantsoentje aan het eind van de Reguliersgracht, waar die op de Falckstraat uitkomt, staan twee honingbomen of Japanse pagodebomen (Styphnolobium japonicum), een grote en een kleinere. De grote is rond 1900 geplant, staat als monumentale boom geregistreerd, is zo'n 19 meter hoog met een stamomtrek van vier meter en heeft aan de zuidkant een grote, deels overgroeide stamwond. Hij heeft ruimte omdat de Falckstraat breed is: ze is aangelegd op een stuk Achtergracht dat rond 1869 werd gedempt.\n\nHoningbomen bloeien pas als ze tien tot twintig jaar oud zijn, en dan laat, in een gewoon jaar in augustus: losse pluimen kleine roomwitte vlinderbloemen boven het geveerde blad, vol bijen.\n\nLet op: de vlinderbloemen; de bijen in augustus; de oude wond aan de zuidkant van de stam."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Summer-flowering trees",
+     "peak": "July and August",
+     "when": "August in an ordinary year; richer after a warm summer.",
+     "what": "Japanese pagoda trees: 2 Styphnolobium japonicum, planted around 1900 and 1930; the big one is a monumental tree.",
+     "trees": 2
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Augustus in een gewoon jaar; rijker na een warme zomer.",
+       "what": "Honingbomen: 2 Styphnolobium japonicum, geplant rond 1900 en 1930; de grote is een monumentale boom."
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://www.bomenstichting.nl/images/1808/Monumentale_bomen_Amsterdam.pdf",
+    "https://services-eu1.arcgis.com/qONmLUR87PipcM5W/arcgis/rest/services/LRMB_v2024_openbaar/FeatureServer/1/query?where=nr%3D1686062&outFields=*&outSR=4326&f=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/1153229?_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/1153000?_format=json",
+    "https://www.vdberk.nl/bomen/styphnolobium-japonicum/"
+   ],
+   "notes": "City trees 1153229 (1900) and 1153000 (1930), both 'Monumentale boom'; national register 1686062 'Honingboom Falckplantsoen', girth 400 cm, 19 m, last seen Aug 2025. Planting year varies by source (register text 1890-1900, class 1900-1910, booklet 1900-1930): 'around 1900'. Booklet: first flowers after about twenty years; Van den Berk: 10 to 15 years; text says 'ten to twenty'. Van den Berk gives July, booklet and register August. Near pool place Huidekoperstraat (Falckstraat 8, about 40 m), different subject."
+  }
+ ],
+ "merge": [
+  {
+   "register_place": "Kanzan cherries on the WG-terrein (reg-4, r138 r212)",
+   "scout": [
+    "WG-terrein",
+    "Pesthuislaan"
+   ],
+   "adds": "Local voice: indebuurt (2026) calls the WG-terrein round WG Café 'een geheime binnentuin' and the Pesthuislaan in the Helmersbuurt a yearly classic ('elk jaar gewoon even z'n best doet'); Parool's 2025 blossom list calls the WG-terrein 'verrassend rustig' (snippet only, paywall). City trees on the Pesthuislaan itself: about 18 'Kanzan' planted 1988 (52.3628-52.3631, 4.8699-4.8708), one 'Kanzan' of 1956, a row of bird cherry 'Watereri' (1992) to the south, and 2010 'Kanzan' by 52.3640, 4.8689; check that the register place text covers the Pesthuislaan rows.",
+   "sources": [
+    "https://indebuurt.nl/amsterdam/genieten-van-amsterdam/bloesem-spotten-in-amsterdam-met-deze-lenteroute-fiets-je-van-roze-wolk-naar-roze-wolk~a26c1e2c/",
+    "https://www.parool.nl/uit-in-amsterdam/bloesemgekte-op-deze-11-plekken-in-amsterdam-zie-je-uitbundig-bloeiende-bomen~b9440c86/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/"
+   ]
+  },
+  {
+   "register_place": "Kanzan cherries on the Henrick de Keijserplein (reg-5, r092)",
+   "scout": [
+    "Lutmastraat"
+   ],
+   "adds": "indebuurt (2026) sends its blossom route down the Lutmastraat 'vlak bij het Henrick de Keijserplein': 'dit wil je niet missen', 'kleine straat, groot bloesemeffect'.",
+   "sources": [
+    "https://indebuurt.nl/amsterdam/genieten-van-amsterdam/bloesem-spotten-in-amsterdam-met-deze-lenteroute-fiets-je-van-roze-wolk-naar-roze-wolk~a26c1e2c/"
+   ]
+  },
+  {
+   "register_place": "Japanese cherries along the Jozef Israëlskade (reg-5, r147 r093)",
+   "scout": [
+    "Jozef Israëlskade"
+   ],
+   "adds": "Leafywalks' 6.9 km Cherry Blossom Quayside Walk starts at the corner of the Rijksmuseum and has 'the long east/west stretch of the Jozef Israelskade where most of the cherries grow', with Amsterdamse School housing, schools and bridges along it. Parool 2025 list (snippet, #11) also names it.",
+   "sources": [
+    "http://leafywalks.com/amsterdam/walks/cherry-blossom-quayside-walk.html"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "scout": "Westerpark spartelvijver cherries",
+   "reason": "In pool place Westerpark (w4lbzyt68totp1szvnlsss9h): Kind O."
+  },
+  {
+   "scout": "Museumplein blossom corner by the Van Gogh Museum",
+   "reason": "In pool place Museumplein (akzx2lcqjzqw8sxum6qcavfl): Kind O (register spot r005, 102 cherries on the Museumpromenade)."
+  },
+  {
+   "scout": "Museumplein historic magnolias (ANEFO photos)",
+   "reason": "Historic photos only; survival not shown. Museumplein is a pool place."
+  },
+  {
+   "scout": "Vondelpark cherries, magnolias, hawthorns, winter cherry, crooked chestnut, paulownia, Judas tree, bee tree, laburnum, lilac, crab apple",
+   "reason": "In pool place Vondelpark (qd0m975el7mdfp3aysy59gps): Kind O."
+  },
+  {
+   "scout": "De Nieuwe Ooster arboretum (cherries, winter cherry, ume, witch hazel, magnolias, crab apples incl. 'Mokum', hawthorns, Anne Frank chestnuts, tulip trees, paulownias, six Davidias, Judas trees, summer bloomers)",
+   "reason": "In pool place De Nieuwe Ooster (bjtlsgawp94nm7bw59v7zc2r): Kind O."
+  },
+  {
+   "scout": "Gaasperpark cherries and magnolias",
+   "reason": "In pool place Gaasperpark (g4igs6lw3gmky63u4cq5wz41): Kind O."
+  },
+  {
+   "scout": "Nelson Mandelapark cherries and magnolia fields",
+   "reason": "In pool place Nelson Mandelapark and Kwaku (ixmzhd415cly8a0avk7utsdo): Kind O."
+  },
+  {
+   "scout": "Park Frankendael magnolia",
+   "reason": "In pool place Frankendael (vg0z6rjngmso1otuczhltuth): Kind O."
+  },
+  {
+   "scout": "Amstelpark magnolias and crab apples",
+   "reason": "In pool place Amstelpark (zsu0hyso8k4q0b13sp14xnwt): Kind O."
+  },
+  {
+   "scout": "Hortus Botanicus: spring bloomers, wisteria, Anna Paulownaboom, Davidia, trumpet tree",
+   "reason": "In pool place Hortus Botanicus (fr9wy0i85i562ocyuxdxj819): Kind O. National register confirms the Paulownia (1690870) and Catalpa (1690871) as current."
+  },
+  {
+   "scout": "ARTIS arboretum and its Anne Frank seedling",
+   "reason": "In pool place Artis (l6wvo37kw90xx0hzq5ir6pqk): Kind O."
+  },
+  {
+   "scout": "Anne Frank tree, Zorgvlied",
+   "reason": "In pool place Zorgvlied cemetery (baepsfj5rwmkm35aozjwfgjw): Kind O. The national register also lists a Magnolia kobus of 1890-1900 (1697440) and a honey tree (1697439) there."
+  },
+  {
+   "scout": "H'ART Museum courtyard chestnuts",
+   "reason": "Inside pool place H'ART Museum in the Amstelhof (rdwnvux0lssmnnlu9hihuuzy): Kind O."
+  },
+  {
+   "scout": "Amstel 169-171 wisteria",
+   "reason": "Already a pool place: The 120-year-old wisteria of the Amstel (vrfzern93eig86ybut3b0v09): Kind O."
+  },
+  {
+   "scout": "Fruittuin van West",
+   "reason": "Pool place wr0dgwob4899414usffcisli: Kind O."
+  },
+  {
+   "scout": "NoordOogst",
+   "reason": "Pool place ez3rzkcv0tx6nzu50jfw2ddt: Kind O."
+  },
+  {
+   "scout": "Voedselbos de Amstelaar, Ouderkerkerdijk 245",
+   "reason": "Same address as pool place Klarenbeek and Altoos Zorg (xuqtrycva9ghzzbpc8ohmszh, Ouderkerkerdijk 225-227 and 245): Kind O there. Groengebied Amstelland: opened 9 June 2024 on the Bongerd, the old orchard with historic fruit trees."
+  },
+  {
+   "scout": "Boomgaard Amsteldijk Noord 127-134",
+   "reason": "It is the Amsteldijk Noord in Amstelveen (near the Rembrandthoeve), outside the map area, and a fruit-picking erfje known from one 2019 article; no blossom source."
+  },
+  {
+   "scout": "Anne Frank chestnut descendants, Amsterdamse Bos",
+   "reason": "150 descendants given to the Bos in 2009, first planted 4 Dec 2009 (Anne Frank House, NH Nieuws), but no source says where in the Bos they stand or whether they survive. Cannot pin."
+  },
+  {
+   "scout": "Anne Frank tree, Keizersgracht 188",
+   "reason": "Gone: fell on 23 August 2010."
+  },
+  {
+   "scout": "Vogeleiland tulip tree",
+   "reason": "The Bos's Bloesempark page mentions 'de tulpenboom op Vogeleiland' (heemtuin, always open, free, no dogs), but the tree is in no register and no source locates it. Better as a line in a Vogeleiland heemtuin place (gardens slice)."
+  },
+  {
+   "scout": "Amsterdamse Bos serviceberries (krentenboompjes)",
+   "reason": "Bos page: 'de krentenboompjes langs de paden', no fixed spot I could verify (scout's bike-route locations rest on a Facebook snippet). A line for an Amsterdamse Bos place, not a place."
+  },
+  {
+   "scout": "Boswachterstent at the Bloesempark",
+   "reason": "Event (ranger walks, March 2026): belongs in the Bloesempark text, not a place."
+  },
+  {
+   "scout": "Square at café Tweede Thuys, Postjesweg 7",
+   "reason": "Square not named by the source; city trees there are 9 small 'Kanzan' (1992-2010) by the Postjesweg bridge, next to pool place Europa (Hans Kuyper) (yrarbfgntx7u2flu3sns8d22). Too weak for a place."
+  },
+  {
+   "scout": "Reigersbos metro exits",
+   "reason": "Single reader tip. City trees by the station: 8 'Amanogawa' column cherries (1994), a few wild cherries and a peach: too weak."
+  },
+  {
+   "scout": "Unnamed 'Amsterdamse Bos in het klein' plantsoen (Parool 2025)",
+   "reason": "Location hidden behind the paywall."
+  },
+  {
+   "scout": "Pretoriusstraat white wisteria",
+   "reason": "Fraaiste Groene Gevel 2019 (groenebuurten.nl), but no house number and no evidence after 2020; private facade, cannot pin."
+  },
+  {
+   "scout": "Pieter Lastmankade wisteria",
+   "reason": "Mentioned in the 2017 green facade award (with Virginia creeper and bruidssluier); no house number, no recent evidence."
+  },
+  {
+   "scout": "Singel at the former Villa Zeezicht wisteria; canal-belt wisterias",
+   "reason": "Blog photos from 2014-2017 only; no current evidence and no exact facade. Canal-belt wisteria is general, not a place."
+  },
+  {
+   "scout": "Frans Halsstraat Judas tree",
+   "reason": "Private back garden, not visible from public ground."
+  },
+  {
+   "scout": "Westergasfabriek tulip trees",
+   "reason": "Register cluster only; Westerpark is a pool place."
+  }
+ ]
+}

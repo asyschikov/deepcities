@@ -1,0 +1,1039 @@
+{
+ "overrides": [
+  {
+   "id": "zsu0hyso8k4q0b13sp14xnwt",
+   "note": "Amstelpark",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "May",
+    "when": "Cherries from early April; crab apples, azaleas and rhododendrons from late April well into May.",
+    "what": "About 8,000 rhododendrons of some 139 kinds, plus azaleas; 35 crab apples; 41 Japanese cherries, among them 14 white 'Umineko'; a heemtuin of more than 400 wild plant species.",
+    "trees": 76,
+    "access": "Park open from an hour after sunrise to an hour before sunset.",
+    "extra_description": "The Floriade park flowers in waves. In early April the Japanese cherries open: 6 'Pink Perfection', Yoshino cherries and a 'Kanzan' near De Borcht, 14 white 'Umineko' planted in 1998, and a mixed group that runs on to the double pink 'Fugenzo' in mid May. In the south of the park 35 crab apples, planted 1970 to 1984, go from dark pink bud to pale pink and white in late April and May. Then comes the Rhododendron Valley, planted a few years before the 1972 Floriade: some 8,000 rhododendrons of about 139 kinds, deciduous and evergreen azaleas, and wisteria at the entrance, from April well into May. It is being replanted to its 1972 scheme. The heemtuin in the south holds more than 400 wild plant species, with a stinzen wood of spring bulbs."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Kersen vanaf begin april; sierappels, azalea's en rododendrons van eind april tot ver in mei.",
+      "what": "Zo'n 8000 rododendrons van ongeveer 139 soorten, en azalea's; 35 sierappels; 41 Japanse sierkersen, waaronder 14 witte 'Umineko'; een heemtuin met meer dan 400 wilde plantensoorten.",
+      "access": "Park open van een uur na zonsopgang tot een uur voor zonsondergang.",
+      "extra_description": "Het Floriadepark bloeit in golven. Begin april gaan de Japanse sierkersen open: zes 'Pink Perfection', Yoshino-kersen en een 'Kanzan' bij De Borcht, veertien witte 'Umineko' uit 1998 en een gemengde groep die doorloopt tot de dubbelroze 'Fugenzo' half mei. In het zuiden van het park kleuren 35 sierappels, geplant tussen 1970 en 1984, eind april en in mei van donkerroze knop naar lichtroze en wit. Dan volgt de Rododendronvallei, een paar jaar voor de Floriade van 1972 aangeplant: zo'n 8000 rododendrons van ongeveer 139 soorten, bladverliezende en bladhoudende azalea's en blauwe regen bij de ingang, van april tot ver in mei. De vallei wordt opnieuw beplant volgens het ontwerp van 1972. De heemtuin in het zuiden telt meer dan 400 wilde plantensoorten, met een stinzenbos vol voorjaarsbollen."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/",
+    "https://www.vdberk.nl/bomen/prunus-yedoensis/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/",
+    "https://www.vdberk.nl/bomen/malus-floribunda/",
+    "https://www.vdberk.nl/bomen/malus-toringo/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-fugenzo/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-amanogawa/",
+    "https://www.vdberk.nl/bomen/prunus-spire/",
+    "https://www.rhodovereniging.nl/arboreta/amstelpark",
+    "https://www.sntp.nl/heemtuinen/heemtuin-amstelpark/"
+   ]
+  },
+  {
+   "id": "ixmzhd415cly8a0avk7utsdo",
+   "note": "Nelson Mandelapark and Kwaku",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "Late April",
+    "when": "Magnolias from March (kobus) into May ('Yellow Lantern'); the 'Ichiyo' cherries mid April to mid May.",
+    "what": "Japanese cherries: 48 'Ichiyo'; magnolias: 30, including 13 'Royal Crown', 10 Magnolia kobus, 3 'Yellow Lantern' and 3 saucer magnolias.",
+    "trees": 78,
+    "extra_description": "The redesign of 2009 to 2011 gave the park a magnolia valley, and the young trees are filling it in. Thirty magnolias stand by the Karspeldreef and the Bullewijkpad, planted from 2009 on: white Magnolia kobus first, in March, then the saucer magnolias and 'Royal Crown' in April, and last the three 'Yellow Lantern', with lemon-yellow tulip-shaped flowers in May. Along the Reigersbospad and the Hogevechtpad stand 48 'Ichiyo' cherries, planted 2014 to 2021: broad flat crowns with double pale pink flowers from mid April to mid May."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Magnolia's van maart (kobus) tot in mei ('Yellow Lantern'); de 'Ichiyo'-kersen half april tot half mei.",
+      "what": "Japanse sierkersen: 48 'Ichiyo'; magnolia's: 30, waaronder 13 'Royal Crown', 10 Magnolia kobus, 3 'Yellow Lantern' en 3 gewone magnolia's.",
+      "extra_description": "Bij de herinrichting van 2009 tot 2011 kreeg het park een magnoliavallei, en de jonge bomen vullen die nu op. Dertig magnolia's staan bij de Karspeldreef en het Bullewijkpad, geplant vanaf 2009: eerst de witte Magnolia kobus in maart, dan in april de gewone magnolia's en 'Royal Crown', en als laatste de drie 'Yellow Lantern' met citroengele tulpvormige bloemen in mei. Langs het Reigersbospad en het Hogevechtpad staan 48 'Ichiyo'-kersen, geplant tussen 2014 en 2021: brede, platte kronen met dubbele lichtroze bloemen van half april tot half mei."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-ichiyo/",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/magnolia-yellow-lantern/",
+    "https://www.vdberk.nl/bomen/magnolia-soulangeana/"
+   ]
+  },
+  {
+   "id": "r03v323omw6y207in0nj4au6",
+   "note": "Rembrandtpark (western half)",
+   "attributes": {
+    "bloom": "Magnolia",
+    "peak": "Early April",
+    "when": "April into May.",
+    "what": "24 saucer magnolias (Magnolia soulangeana).",
+    "trees": 24,
+    "extra_description": "A row of 24 saucer magnolias lines the Nachtwachtlaan on the west edge of the park, planted from 2006 with replacements up to 2022. In April, before the leaves, they carry big tulip-shaped flowers, white flushed with pink, and the show runs into May. The rest of the park is being renovated from 2026, so expect fences and fresh planting here and there."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "April tot in mei.",
+      "what": "24 gewone magnolia's (Magnolia soulangeana).",
+      "extra_description": "Langs de Nachtwachtlaan, aan de westrand van het park, staat een rij van 24 gewone magnolia's, geplant vanaf 2006 en aangevuld tot 2022. In april, nog voor het blad, dragen ze grote tulpvormige bloemen, wit met een roze blos, en de bloei loopt door tot in mei. De rest van het park wordt vanaf 2026 opgeknapt, dus reken hier en daar op hekken en nieuwe beplanting."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/magnolia-soulangeana/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?_format=json&gbdBuurtId=03630980000223&soortnaam=Magnolia%20soulangeana"
+   ]
+  },
+  {
+   "id": "xvwlcc589nw0oij8h1yc2xn9",
+   "note": "Dwaze Moedersplein",
+   "attributes": {
+    "bloom": "Apple and pear blossom",
+    "peak": "May",
+    "when": "May; the small red apples hang on far into winter.",
+    "what": "Crab apples: 35 Malus 'Evereste', 1 Malus floribunda, 1 Malus toringo.",
+    "trees": 37,
+    "extra_description": "The square itself is planted with crab apples, from 1986, the year the memorial stone was unveiled, with replacements since. The 35 'Evereste' open dark purple-pink buds into pure white flowers almost 6 cm across in May, and then carry orange-red apples up to 2.5 cm that stay on the branches far into winter. A floribunda and a toringo add a little pink in April."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Mei; de kleine rode appeltjes blijven tot diep in de winter hangen.",
+      "what": "Sierappels: 35 Malus 'Evereste', 1 Malus floribunda, 1 Malus toringo.",
+      "extra_description": "Het plein zelf is beplant met sierappels, vanaf 1986, het jaar dat de gedenksteen werd onthuld, en sindsdien aangevuld. De 35 'Evereste' gaan in mei van donker paarsroze knop naar zuiver witte bloemen van bijna 6 cm, en dragen daarna oranjerode appeltjes tot 2,5 cm die tot diep in de winter aan de takken blijven. Een floribunda en een toringo geven in april al wat roze."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/malus-evereste/",
+    "https://www.vdberk.nl/bomen/malus-floribunda/",
+    "https://www.vdberk.nl/bomen/malus-toringo/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?_format=json&gbdBuurtId=03630980000214&soortnaam=Malus%20%27Evereste%27"
+   ]
+  },
+  {
+   "id": "yw4m202pvcw809m5oo6tvvjy",
+   "note": "Gijsbrecht van Aemstelpark",
+   "attributes": {
+    "bloom": "Hawthorn",
+    "peak": "May",
+    "when": "Yellow cornelian cherry in February; white hawthorn in May.",
+    "what": "232 hawthorns (mostly wild hawthorn, Crataegus monogyna); 54 cornelian cherries (Cornus mas).",
+    "trees": 286,
+    "extra_description": "The western part of the park, along the Hunneschans and the Buitenveldertselaan, flowers twice. In February the cornelian cherries light up yellow on bare twigs: 24 by the Hunneschans and the Buitenveldertselaan, and a row of 30 on the Enzerinck side, nearly all planted in 1966. In May come the hawthorns, 232 of them, the Hunneschans row alone 183, planted 1966 to 1991: white wild hawthorn with a few 'Splendens' and lavallei among them. In early autumn the cornelian cherries carry red fruits."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Gele kornoelje in februari; witte meidoorn in mei.",
+      "what": "232 meidoorns (vooral eenstijlige meidoorn, Crataegus monogyna); 54 gele kornoeljes (Cornus mas).",
+      "extra_description": "Het westelijke deel van het park, langs de Hunneschans en de Buitenveldertselaan, bloeit twee keer. In februari kleuren de gele kornoeljes de kale takken geel: 24 bij de Hunneschans en de Buitenveldertselaan, en een rij van 30 aan de kant van Enzerinck, bijna allemaal uit 1966. In mei volgen de meidoorns, 232 stuks, waarvan 183 in de rij langs de Hunneschans, geplant tussen 1966 en 1991: witte eenstijlige meidoorn met een paar 'Splendens' en lavallei ertussen. Begin herfst hangen er rode vruchtjes aan de kornoeljes."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/crataegus-monogyna/",
+    "https://www.vdberk.nl/bomen/cornus-mas/"
+   ]
+  },
+  {
+   "id": "qd0m975el7mdfp3aysy59gps",
+   "note": "Vondelpark",
+   "attributes": {
+    "bloom": "Hawthorn",
+    "peak": "May",
+    "when": "Cherries in April, hawthorns and horse chestnuts in May, roses from June to October.",
+    "what": "About 530 hawthorns, about 260 horse chestnuts (67 double white 'Baumannii' in the east), about 190 Prunus; a rose garden of 63 beds.",
+    "extra_description": "Of the park's more than 5,000 trees, about 530 are hawthorns, the second most common tree here, and in May they flower white and red ('Paul's Scarlet'). The horse chestnuts flower at the same time: about 260, among them 67 double white 'Baumannii' near the Vondelstraat end, which make no conkers. In April the Prunus flower, about 190 of them, with 'Kanzan', double white wild cherry 'Plena' and sargentii; a winter-flowering cherry opens in mild spells. Saucer magnolias, a Judas tree, a laburnum, lilac and an Anna Paulownaboom are on the park's own tree list too. The rose garden in the south has 63 beds kept by volunteers, flowering from June to October, then hips."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Kersen in april, meidoorns en paardenkastanjes in mei, rozen van juni tot oktober.",
+      "what": "Zo'n 530 meidoorns, zo'n 260 paardenkastanjes (67 dubbelbloemige witte 'Baumannii' in het oosten), zo'n 190 Prunussen; een rosarium van 63 perken.",
+      "extra_description": "Van de ruim 5000 bomen in het park zijn er zo'n 530 meidoorns, na de esdoorn de meest voorkomende boom, en in mei bloeien ze wit en rood ('Paul's Scarlet'). Tegelijk bloeien de paardenkastanjes: zo'n 260, waaronder 67 dubbelbloemige witte 'Baumannii' aan de kant van de Vondelstraat, die geen kastanjes maken. In april bloeien de zo'n 190 Prunussen, met 'Kanzan', de dubbele witte zoete kers 'Plena' en sargentii; een winterbloeiende kers gaat open bij zacht weer. Op de bomenlijst van het park staan ook gewone magnolia's, een judasboom, een goudenregen, sering en een Anna Paulownaboom. Het rosarium in het zuiden telt 63 perken die vrijwilligers bijhouden; het bloeit van juni tot oktober, daarna volgen de rozenbottels."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum/",
+    "https://www.vdberk.nl/bomen/crataegus-monogyna/",
+    "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/",
+    "https://www.inhetvondelpark.nl/bomenlijst.html",
+    "https://inhetvondelpark.nl/rosarium.html",
+    "https://vondelpark.com/rosarium/"
+   ]
+  },
+  {
+   "id": "esioyoe9ueen62my3l2cdxo1",
+   "note": "Erasmuspark",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "Early April",
+    "when": "April; the crab apples by The Miracle Garden follow later in April.",
+    "what": "54 Yoshino cherries (Prunus x yedoensis), planted 2025.",
+    "trees": 54,
+    "extra_description": "Two new rows of Yoshino cherries, 28 and 26 trees, were planted on the west side of the park in 2025. Pink in bud and white when open, they flower in April before the leaves. They are young, so the show will grow year by year. In the south-east corner The Miracle Garden, an artist's flower garden, has something in bloom in every season."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "April; de sierappels bij The Miracle Garden volgen later in april.",
+      "what": "54 Yoshino-kersen (Prunus x yedoensis), geplant in 2025.",
+      "extra_description": "Aan de westkant van het park zijn in 2025 twee nieuwe rijen Yoshino-kersen geplant, van 28 en 26 bomen. Roze in de knop en wit in bloei, bloeien ze in april nog voor het blad. Ze zijn jong, dus het schouwspel wordt elk jaar groter. In de zuidoosthoek heeft The Miracle Garden, de bloementuin van een kunstenaar, in elk seizoen iets in bloei."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-yedoensis/",
+    "https://www.vdberk.nl/bomen/malus-toringo/"
+   ]
+  },
+  {
+   "id": "avsibstf1yq82keotdr79uwm",
+   "note": "The Miracle Garden",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "Late April",
+    "when": "Planted to flower all year; the crab apples beside it flower in April.",
+    "what": "An 800 m² garden of unusual flowers; 18 crab apples by the Jan van Galenstraat (17 Malus toringo, 1 Malus trilobata).",
+    "trees": 18,
+    "extra_description": "The garden is planted by the photographer Elspeth Diederix so that something is always in flower, which makes it worth a look in any month, and the bees and butterflies agree. Beside it, along the Jan van Galenstraat, stand 18 crab apples, planted 1991 to 2026: 17 Malus toringo with purple-red buds, light pink flowers that fade to white in April, and small yellow-orange apples after, plus one Malus trilobata."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Aangeplant om het hele jaar te bloeien; de sierappels ernaast bloeien in april.",
+      "what": "Een tuin van 800 m² met bijzondere bloemen; 18 sierappels aan de Jan van Galenstraat (17 Malus toringo, 1 Malus trilobata).",
+      "extra_description": "Fotograaf Elspeth Diederix beplant de tuin zo dat er altijd iets bloeit, dus hij is elke maand een blik waard, en bijen en vlinders zijn het daarmee eens. Ernaast, langs de Jan van Galenstraat, staan 18 sierappels, geplant tussen 1991 en 2026: 17 Malus toringo met paarsrode knoppen en lichtroze bloemen die in april naar wit verkleuren, met daarna kleine geeloranje appeltjes, en een Malus trilobata."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-yedoensis/",
+    "https://www.vdberk.nl/bomen/malus-toringo/"
+   ]
+  },
+  {
+   "id": "zedpvi5346iua7hv47xitlgv",
+   "note": "Stadsboerderij Zimmerhoeve (Landje van Ome Kick)",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "March",
+    "when": "Late March into April.",
+    "what": "12 purple-leaved cherry plums (Prunus cerasifera 'Nigra').",
+    "trees": 12,
+    "extra_description": "Right by the farm, in the Schimmelstraat, stand 12 purple-leaved cherry plums, planted 1990 to 2025. They are among the first trees to flower in the neighbourhood: single pink flowers from late March into April, opening as the dark purple leaves come out. A small show, but a good excuse to visit the farm in spring: it opened in 1996 on the yard of the old Zimmer iron foundry and keeps goats, sheep and pigs."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Eind maart tot in april.",
+      "what": "12 bruine kerspruimen (Prunus cerasifera 'Nigra').",
+      "extra_description": "Vlak bij de boerderij, in de Schimmelstraat, staan 12 bruine kerspruimen, geplant tussen 1990 en 2025. Ze horen bij de eerste bloeiers van de buurt: enkele roze bloemen van eind maart tot in april, terwijl het donkerpaarse blad uitloopt. Een klein schouwspel, maar een mooie aanleiding om in het voorjaar langs te gaan: de boerderij opende in 1996 op het terrein van de oude ijzergieterij Zimmer en houdt geiten, schapen en varkens."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-cerasifera-nigra/"
+   ]
+  },
+  {
+   "id": "akzx2lcqjzqw8sxum6qcavfl",
+   "note": "Museumplein",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "Early April",
+    "when": "Yoshino cherries in early April; 'Schnee' and 'Kanzan' late April to early May. Tulips in April.",
+    "what": "Japanese cherries: 54 Prunus yedoensis, 36 'Kanzan', 12 Prunus x gondouinii 'Schnee'.",
+    "trees": 102,
+    "extra_description": "Along the Museumpromenade, by the Van Gogh Museum, stand 102 Japanese cherries, planted 1996 to 2026. The 54 Yoshino cherries open first, white from pink buds, in early April; then the pure white 'Schnee' and the double pink 'Kanzan' flower together from late April into May, about four weeks of blossom in all. Het Parool listed this blossom corner next to the Van Gogh Museum among the city's best. In April the square is also a Tulp Festival location, and on National Tulip Day in January it becomes a picking garden of cut tulips."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Yoshino-kersen begin april; 'Schnee' en 'Kanzan' eind april tot begin mei. Tulpen in april.",
+      "what": "Japanse sierkersen: 54 Prunus yedoensis, 36 'Kanzan', 12 Prunus x gondouinii 'Schnee'.",
+      "extra_description": "Langs de Museumpromenade, bij het Van Gogh Museum, staan 102 Japanse sierkersen, geplant tussen 1996 en 2026. De 54 Yoshino-kersen gaan begin april als eerste open, wit uit roze knoppen; daarna bloeien de zuiver witte 'Schnee' en de dubbelroze 'Kanzan' samen van eind april tot in mei, bij elkaar zo'n vier weken bloesem. Het Parool rekende dit bloesemhoekje naast het Van Gogh Museum tot de mooiste van de stad. In april is het plein ook een locatie van het Tulp Festival, en op de Nationale Tulpendag in januari wordt het een pluktuin vol snijtulpen."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/prunus-yedoensis/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/",
+    "https://www.parool.nl/uit-in-amsterdam/bloesemgekte-op-deze-11-plekken-in-amsterdam-zie-je-uitbundig-bloeiende-bomen~b9440c86/",
+    "https://secretamsterdam.com/kersenbloesems-in-amsterdam-hotspots/",
+    "https://www.tulpfestival.com/locaties/",
+    "https://groenvandaag.nl/zaterdag-17-januari-nationale-tulpendag-2026/"
+   ]
+  },
+  {
+   "id": "vxk4tfmr0lq9hw05ppszm99o",
+   "note": "Beatrixpark",
+   "attributes": {
+    "bloom": "Horse chestnut",
+    "peak": "May",
+    "when": "May.",
+    "what": "53 horse chestnuts: 35 yellow buckeye Aesculus flava 'Vestita', 11 white horse chestnuts, 6 double white 'Baumannii', 1 red buckeye.",
+    "trees": 53,
+    "extra_description": "Near the Diepenbrockstraat side of the park stands a group of 53 horse chestnuts, planted 1938 to 2022, and most of them are not the usual kind. Thirty-five are yellow buckeye 'Vestita', with pale yellow candles that have a pink glow, flowering in May alongside 11 white horse chestnuts, 6 double white 'Baumannii' and a single red buckeye. In the listed north-western part, the Floriade of 1972 left the Artsenijhof, herb gardens arranged by the ailments the plants were thought to cure."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Mei.",
+      "what": "53 paardenkastanjes: 35 gele pavia's Aesculus flava 'Vestita', 11 witte paardenkastanjes, 6 dubbelbloemige witte 'Baumannii', 1 rode pavia.",
+      "extra_description": "Bij de Diepenbrockstraat staat een groep van 53 paardenkastanjes, geplant tussen 1938 en 2022, en de meeste zijn niet de gewone soort. Vijfendertig zijn gele pavia's 'Vestita', met lichtgele kaarsen met een roze gloed, die in mei bloeien samen met 11 witte paardenkastanjes, 6 dubbelbloemige witte 'Baumannii' en een enkele rode pavia. In het beschermde noordwestelijke deel liet de Floriade van 1972 de Artsenijhof achter, kruidentuinen ingedeeld naar de kwalen die de planten zouden genezen."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/aesculus-flava-vestita/",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum/",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   ]
+  },
+  {
+   "id": "pjz6wbejfbc7mb01wbtrucmo",
+   "note": "Sarphatipark and the Sarphati monument",
+   "attributes": {
+    "bloom": "Horse chestnut",
+    "peak": "May",
+    "when": "May.",
+    "what": "49 horse chestnuts: 35 white, 4 'Plantierensis', 3 'Pyramidalis', 7 other.",
+    "trees": 49,
+    "extra_description": "Horse chestnuts are spread through the whole park, 49 of them, planted 1926 to 2021, and in May they hold up their candles round the ponds and the monument. Most are the ordinary white kind; four are 'Plantierensis', pale yellow flowers fading to flesh pink, which make no conkers. The park lies lower than the streets around it, so from the edges you look down into the crowns."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Mei.",
+      "what": "49 paardenkastanjes: 35 witte, 4 'Plantierensis', 3 'Pyramidalis', 7 overige.",
+      "extra_description": "Door het hele park staan paardenkastanjes, 49 stuks, geplant tussen 1926 en 2021, en in mei steken ze hun kaarsen op rond de vijvers en het monument. De meeste zijn gewone witte; vier zijn 'Plantierensis', met lichtgele bloemen die naar vleesroze verkleuren en geen kastanjes geven. Het park ligt lager dan de straten eromheen, dus vanaf de rand kijk je op de kronen neer."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum/",
+    "https://www.vdberk.nl/bomen/aesculus-carnea-plantierensis/"
+   ]
+  },
+  {
+   "id": "w4lbzyt68totp1szvnlsss9h",
+   "note": "Westerpark",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "Early April",
+    "when": "Magnolias in March, cherries in April, tulip trees in June, golden rain trees and pagoda trees in July.",
+    "what": "66 tulip trees, 46 magnolias, 38 Japanese pagoda trees, 34 Japanese cherries (22 Yoshino, 12 sargentii), 19 golden rain trees.",
+    "trees": 203,
+    "extra_description": "The Westergasfabriek side of the park flowers from March to late summer. In March 46 Magnolia kobus open big white flowers on bare branches along the Gosschalklaan, the Polonceau-kade and the Pazzanistraat. In April come the Japanese cherries along the Brettenpad: 22 Yoshino cherries and 12 sargentii, planted 1991 to 2001. De Westkrant calls the park's cherries the alternative to the Bloesempark without the queue. In June the 66 tulip trees on the Gosschalklaan carry green and orange flowers among the leaves, and in July the golden rain trees put up yellow plumes and the pagoda trees on the Polonceau-kade creamy white ones."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Magnolia's in maart, kersen in april, tulpenbomen in juni, gele zeepbomen en honingbomen in juli.",
+      "what": "66 tulpenbomen, 46 magnolia's, 38 honingbomen, 34 Japanse sierkersen (22 Yoshino, 12 sargentii), 19 gele zeepbomen.",
+      "extra_description": "De kant van de Westergasfabriek bloeit van maart tot laat in de zomer. In maart openen 46 Magnolia kobus hun grote witte bloemen aan kale takken langs de Gosschalklaan, de Polonceau-kade en de Pazzanistraat. In april volgen de Japanse sierkersen langs het Brettenpad: 22 Yoshino-kersen en 12 sargentii, geplant tussen 1991 en 2001. De Westkrant noemt de kersen van het park het alternatief voor het Bloesempark, zonder rij. In juni dragen de 66 tulpenbomen aan de Gosschalklaan groen-oranje bloemen tussen het blad, en in juli zetten de gele zeepbomen gele pluimen op en de honingbomen aan de Polonceau-kade roomwitte."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/",
+    "https://www.vdberk.nl/bomen/liriodendron-tulipifera/",
+    "https://www.vdberk.nl/bomen/prunus-yedoensis/",
+    "https://www.vdberk.nl/bomen/prunus-sargentii/",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/koelreuteria-paniculata/",
+    "https://www.vdberk.nl/bomen/styphnolobium-japonicum/",
+    "https://www.dewestkrant.nl/korte-bloesempracht-in-het-westerpark/"
+   ]
+  },
+  {
+   "id": "vg0z6rjngmso1otuczhltuth",
+   "note": "Frankendael",
+   "attributes": {
+    "bloom": "Horse chestnut",
+    "peak": "May",
+    "when": "Magnolias in March and April, apple blossom in April, horse chestnuts in May.",
+    "what": "89 horse chestnuts (72 white, 9 red, 6 yellow buckeye, 2 young); 10 old apple varieties; 8 magnolias.",
+    "trees": 107,
+    "extra_description": "By the Middenweg eight magnolias, most planted in 1970, open in March (kobus and stellata) and April (saucer magnolias). Nearby stand ten apple trees of old varieties, all planted in 2002: 'Bramley's Seedling', 'Schone van Boskoop', 'James Grieve' and 'Gravensteiner', pink in bud and white in April. In May the west side of the park, by the Slingerlaan and the Kamerlingh Onneslaan, is all horse chestnut: 72 white, 9 red and 6 yellow buckeyes, planted 2002 and 2005. Behind the house volunteers are restoring the formal stijltuin with planting that suits its history."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Magnolia's in maart en april, appelbloesem in april, paardenkastanjes in mei.",
+      "what": "89 paardenkastanjes (72 witte, 9 rode, 6 gele pavia's, 2 jonge); 10 oude appelrassen; 8 magnolia's.",
+      "extra_description": "Bij de Middenweg gaan acht magnolia's, de meeste uit 1970, open in maart (kobus en stellata) en april (gewone magnolia's). Vlakbij staan tien appelbomen van oude rassen, allemaal uit 2002: 'Bramley's Seedling', 'Schone van Boskoop', 'James Grieve' en 'Gravensteiner', roze in de knop en wit in april. In mei is de westkant van het park, bij de Slingerlaan en de Kamerlingh Onneslaan, één en al paardenkastanje: 72 witte, 9 rode en 6 gele pavia's, geplant in 2002 en 2005. Achter het huis herstellen vrijwilligers de stijltuin met een beplanting die bij de geschiedenis past."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Aesculus&_format=json",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Malus&_format=json",
+    "https://www.vdberk.nl/bomen/malus-domestica-gravensteiner/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/magnolia-soulangeana/",
+    "https://www.vdberk.nl/bomen/magnolia-stellata/",
+    "https://www.vdberk.nl/bomen/aesculus-carnea/",
+    "https://www.vdberk.nl/bomen/aesculus-flava/",
+    "https://urban-herbology.org/stijltuin/"
+   ]
+  },
+  {
+   "id": "cfpl1jwwcnurv2cxrr0z0ptb",
+   "note": "Ringdijk and the Watergraafsmeer polder",
+   "attributes": {
+    "bloom": "Apple and pear blossom",
+    "peak": "May",
+    "when": "May; 'Eleyi' from mid May. The fruit of 'Professor Sprenger' stays until late December.",
+    "what": "44 crab apples: 15 'Aldenhamensis', 7 'Professor Sprenger', 19 'Eleyi', 3 Malus hupehensis.",
+    "trees": 44,
+    "extra_description": "Two stretches of the Ringdijk on the Transvaalkade side are lined with crab apples, nearly all planted in 1968. By the Eerste Ringdijkstraat stand 14 'Aldenhamensis' and 7 'Professor Sprenger', dark pink buds and strongly scented white flowers in May, then orange-yellow fruit that hangs on until late December. Further east by the Lise Meitnerpad, 19 'Eleyi' open deep wine-red flowers among purple young leaves from mid May."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Mei; 'Eleyi' vanaf half mei. De vruchten van 'Professor Sprenger' blijven tot eind december hangen.",
+      "what": "44 sierappels: 15 'Aldenhamensis', 7 'Professor Sprenger', 19 'Eleyi', 3 Malus hupehensis.",
+      "extra_description": "Twee stukken van de Ringdijk aan de kant van de Transvaalkade staan vol sierappels, bijna allemaal uit 1968. Bij de Eerste Ringdijkstraat staan 14 'Aldenhamensis' en 7 'Professor Sprenger', met donkerroze knoppen en sterk geurende witte bloemen in mei, en daarna oranjegele appeltjes die tot eind december blijven hangen. Verder oostelijk bij het Lise Meitnerpad openen 19 'Eleyi' vanaf half mei diep wijnrode bloemen tussen paars jong blad."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000372&soortnaamKort=Malus&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000373&soortnaamKort=Malus&_format=json",
+    "https://www.vdberk.nl/bomen/malus-professor-sprenger/",
+    "https://www.vdberk.nl/bomen/malus-eleyi/"
+   ]
+  },
+  {
+   "id": "bjtlsgawp94nm7bw59v7zc2r",
+   "note": "De Nieuwe Ooster",
+   "attributes": {
+    "bloom": "Magnolia",
+    "peak": "Early April",
+    "when": "Almost all year: witch hazels and winter cherries in winter, magnolias and cherries from March to May, hawthorn, handkerchief trees and crab apples in May, tulip trees in June, Catalpa and golden rain trees in summer.",
+    "what": "Arboretum list: 16 Magnolia kobus, 25 'Heaven Scent' (vak 87), about 60 Japanese cherries, 16 winter cherries, 6 handkerchief trees, crab apples of some 25 kinds, 83 hawthorns, Judas trees, paulownias, tulip trees.",
+    "access": "Cemetery, open daily, free.",
+    "extra_description": "The cemetery is also an arboretum, and its flowering collection is the widest in the city. Witch hazels and 16 winter cherries (vak 55) flower in mild winter spells, the Japanese apricot 'Beni-chi-dori' in late winter. Then come 16 big white Magnolia kobus (vak 28, 41, 71), 2 to 3 weeks en masse, and the pink 'Heaven Scent' grove by the urn wall and pond; the city counts 40 on the Zaaiersweg side. Cherries follow: 35 Prunus serrulata in vak 6, 10 'Sunset Boulevard' in the Kinderhof, 'Umineko', weeping cherries. In May: six handkerchief trees, crab apples including 'Mokum' by the pond, 83 hawthorns, Judas trees and paulownias. Summer brings tulip trees, Catalpa and golden rain trees."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Bijna het hele jaar: toverhazelaars en winterkersen in de winter, magnolia's en kersen van maart tot mei, meidoorn, vaantjesbomen en sierappels in mei, tulpenbomen in juni, trompetbomen en gele zeepbomen in de zomer.",
+      "what": "Bomenlijst arboretum: 16 Magnolia kobus, 25 'Heaven Scent' (vak 87), zo'n 60 Japanse sierkersen, 16 winterkersen, 6 vaantjesbomen, sierappels van zo'n 25 rassen, 83 meidoorns, judasbomen, Anna Paulownabomen, tulpenbomen.",
+      "access": "Begraafplaats, dagelijks open, gratis.",
+      "extra_description": "De begraafplaats is ook een arboretum, met de breedste collectie bloeiende bomen van de stad. Toverhazelaars en 16 winterkersen (vak 55) bloeien bij zacht winterweer, de Japanse abrikoos 'Beni-chi-dori' aan het eind van de winter. Dan volgen 16 grote witte Magnolia kobus (vak 28, 41 en 71), twee tot drie weken in volle massa, en het roze bosje 'Heaven Scent' bij de urnenmuur en de vijver; de gemeente telt er 40 aan de kant van de Zaaiersweg. Daarna de kersen: 35 Prunus serrulata in vak 6, 10 'Sunset Boulevard' in de Kinderhof, 'Umineko' en treurkersen. In mei: zes vaantjesbomen, sierappels met 'Mokum' bij de vijver, 83 meidoorns, judasbomen en Anna Paulownabomen. De zomer brengt tulpenbomen, trompetbomen en gele zeepbomen."
+     }
+    }
+   },
+   "sources": [
+    "https://denieuweoosterbomenpark.nl/alle-bomen/",
+    "https://denieuweoosterbomenpark.nl/nederlandse-bomenlijst/",
+    "https://denieuweoosterbomenpark.nl/magnolia/",
+    "https://denieuweoosterbomenpark.nl/bomen/magnolia-heaven-scent/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000389&soortnaamKort=Magnolia&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000389&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-heaven-scent/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-shirotae/"
+   ]
+  },
+  {
+   "id": "fr9wy0i85i562ocyuxdxj819",
+   "note": "Hortus Botanicus",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "March",
+    "when": "Crocuses and snowdrops in early spring, the Anna Paulownaboom in May, the giant waterlily at night in late summer.",
+    "what": "Stinzen bulbs (crocuses, snowdrops), magnolias and early heathers in spring; Anna Paulownaboom (Paulownia tomentosa); handkerchief tree (Davidia); monumental trumpet tree (Catalpa); Victoria 'Longwood Hybrid' giant waterlily.",
+    "access": "Daily 10:00 to 17:00, paid entry.",
+    "extra_description": "Every year crocuses and snowdrops announce spring in the Hortus, with magnolias and some early heathers; the garden runs a themed tour of its spring bloomers in March. In May, says the Hortus, a purple cloud appears among its treetops: the Anna Paulownaboom, named after Queen Anna Paulowna. A handkerchief tree grows in the hydrangea area, and a monumental trumpet tree (Catalpa) flowers white in June and July. The star turn is the giant waterlily Victoria 'Longwood Hybrid' in the heated outdoor pond: each flower opens only at night, two nights running, white and smelling of pineapple the first night, pink the second. On the first night the Hortus stays open late (it did in September 2026)."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Krokussen en sneeuwklokjes in het vroege voorjaar, de Anna Paulownaboom in mei, de reuzenwaterlelie 's nachts aan het eind van de zomer.",
+      "what": "Stinzenbollen (krokussen, sneeuwklokjes), magnolia's en vroege heideplantjes in het voorjaar; Anna Paulownaboom (Paulownia tomentosa); vaantjesboom (Davidia); monumentale trompetboom (Catalpa); reuzenwaterlelie Victoria 'Longwood Hybrid'.",
+      "access": "Dagelijks 10.00 tot 17.00 uur, betaalde toegang.",
+      "extra_description": "Elk jaar kondigen krokussen en sneeuwklokjes in de Hortus de lente aan, samen met magnolia's en wat vroege heideplantjes; in maart is er een themarondleiding langs de voorjaarsbloeiers. In mei, schrijft de Hortus, ontstaat er een paarse wolk tussen de boomkruinen: de Anna Paulownaboom, genoemd naar koningin Anna Paulowna. In het hortensiavak staat een vaantjesboom, en een monumentale trompetboom (Catalpa) bloeit wit in juni en juli. De ster is de reuzenwaterlelie Victoria 'Longwood Hybrid' in de verwarmde buitenvijver: elke bloem gaat alleen 's nachts open, twee nachten achter elkaar, de eerste nacht wit en naar ananas geurend, de tweede roze. Op de eerste bloeinacht blijft de Hortus langer open (in september 2026 nog)."
+     }
+    }
+   },
+   "sources": [
+    "https://www.dehortus.nl/activiteiten/themarondleiding-voorjaarsbloeiers/",
+    "https://www.dehortus.nl/podcast/9-anna-paulownaboom/",
+    "https://dehortus.gardenexplorer.org/taxon-8159.aspx",
+    "https://www.bomenstichting.nl/images/1808/Monumentale_bomen_Amsterdam.pdf",
+    "https://www.parool.nl/amsterdam/koningin-onder-de-waterlelies-in-bloei-hortus-amsterdam-blijft-langer-open~b62d928e/"
+   ]
+  },
+  {
+   "id": "pchqn5dqfi2da4ob5lv3djmg",
+   "note": "Botanische Tuin Zuidas",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "March",
+    "when": "Spring bulbs in the stinzentuin in early spring; asters in late summer and autumn; tub plants outside from spring to autumn.",
+    "what": "About 8,000 species and hybrids on a hectare: a stinzentuin of spring bulbs, an aster garden, perennial beds, flowering trees and shrubs, tub plants.",
+    "access": "Free. Monday to Friday 9:00 to 17:00; April to October also weekends 12:00 to 17:00.",
+    "extra_description": "On about a hectare behind the hospital grow some 8,000 species and hybrids. The garden began as a systematic garden, one bed per plant family, and has since grown into a mix of beds and paths with botanical species and lesser-known garden varieties. For flowers, look for the stinzentuin with its spring bulbs early in the year and the astertuin in late summer and autumn, with the perennial beds and flowering shrubs in between. The tub plant collection stands outside in the warm months."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Voorjaarsbollen in de stinzentuin in het vroege voorjaar; asters eind zomer en in de herfst; kuipplanten buiten van voorjaar tot herfst.",
+      "what": "Zo'n 8000 soorten en hybriden op een hectare: een stinzentuin met voorjaarsbollen, een astertuin, borders met vaste planten, bloeiende bomen en heesters, kuipplanten.",
+      "access": "Gratis. Maandag tot en met vrijdag 9.00 tot 17.00 uur; april tot en met oktober ook in het weekend 12.00 tot 17.00 uur.",
+      "extra_description": "Op ongeveer een hectare achter het ziekenhuis groeien zo'n 8000 soorten en hybriden. De tuin begon als systeemtuin, met elke plantenfamilie in een eigen vak, en is uitgegroeid tot een samenspel van perken en paden met botanische soorten en minder bekende cultuurvariëteiten. Voor bloemen: de stinzentuin met voorjaarsbollen vroeg in het jaar en de astertuin eind zomer en in de herfst, met daartussen de borders en bloeiende heesters. De kuipplanten staan in de warme maanden buiten."
+     }
+    }
+   },
+   "sources": [
+    "https://botanischetuinzuidas.nl/over-de-tuin/",
+    "https://botanischetuinzuidas.nl/"
+   ]
+  },
+  {
+   "id": "vzyko33tweolqpru9i6qjco5",
+   "note": "Bloementuin van Darwin (Darwinplantsoen)",
+   "attributes": {
+    "bloom": "Bulbs and tulips",
+    "peak": "Early April",
+    "when": "Winter aconite at the start of the year, the main bulb show in spring, perennials through summer, autumn crocus in autumn.",
+    "what": "Over 20 kinds of bulbs, among them wild tulip, Tulipa turkestanica, 'Lady Jane', wild and poet's daffodils and ten named daffodils, wood anemone, yellow dog's-tooth violet, saffron crocus, winter aconite, autumn crocus; some 320 kinds of plants in all.",
+    "access": "1 March to end of October 9:00 to 19:00; end of October to 1 December 9:00 to 17:00; closed December to February.",
+    "extra_description": "The perennial garden, walled with yew hedges, holds some 320 kinds of plants, and the volunteers who run it keep a list of every bulb. The year starts with winter aconite. Spring brings wild tulip and the little Tulipa turkestanica, 'Lady Jane' and a white tulip, wild daffodils, poet's narcissus and ten named daffodils from 'February Gold' to 'Sailboat', wood anemones, yellow dog's-tooth violet and crocus 'Firefly'. The perennials take over in summer, and the autumn crocus and saffron crocus close the season."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Winterakoniet aan het begin van het jaar, de grote bollenbloei in het voorjaar, vaste planten de hele zomer, herfstklokje in de herfst.",
+      "what": "Ruim 20 soorten bollen, waaronder bostulp, Tulipa turkestanica, 'Lady Jane', wilde narcis en dichtersnarcis en tien benoemde narcissen, bosanemoon, gele hondstand, saffraankrokus, winterakoniet, herfstklokje; in totaal zo'n 320 soorten planten.",
+      "access": "1 maart tot eind oktober 9.00 tot 19.00 uur; eind oktober tot 1 december 9.00 tot 17.00 uur; december tot en met februari gesloten.",
+      "extra_description": "De vasteplantentuin, ommuurd door taxushagen, telt zo'n 320 soorten planten, en de vrijwilligers die hem beheren houden van elke bol een beschrijving bij. Het jaar begint met de winterakoniet. In het voorjaar volgen de bostulp en de kleine Tulipa turkestanica, 'Lady Jane' en een witte tulp, wilde narcissen, de dichtersnarcis en tien benoemde narcissen van 'February Gold' tot 'Sailboat', bosanemonen, gele hondstand en krokus 'Firefly'. In de zomer nemen de vaste planten het over, en het herfstklokje en de saffraankrokus sluiten het seizoen af."
+     }
+    }
+   },
+   "sources": [
+    "https://www.vriendenvanparkdarwin.nl/bollen/",
+    "https://www.vriendenvanparkdarwin.nl/"
+   ]
+  },
+  {
+   "id": "e19ubdiixvglexkf54mxc4w3",
+   "note": "Heemtuin Sloterpark and Het Ruige Riet",
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "Late April",
+    "when": "Spring for the woodland rarities; summer for the heath, marl and pond-edge plants.",
+    "what": "Native plants on peat, sand, clay and marl, including purple toothwort, yellow-white comfrey and herb Paris; a small heath field.",
+    "access": "Always open, free.",
+    "extra_description": "On 1.5 hectares the heemtuin packs woodland on humus, small pools, reed beds, a patch of heath and a marl-and-dune garden next to each other, each with its own wild plants. In spring look in the wood for the rarities the garden is known for: purple toothwort, a parasite that flowers straight from the ground, yellow-white comfrey and herb Paris. Through summer the heath, the marl and the pond edges take their turn."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Voorjaar voor de zeldzaamheden in het bos; zomer voor de heide, de mergel en de oevers.",
+      "what": "Inheemse planten op veen, zand, klei en mergel, waaronder paarse schubwortel, geelwitte ossentong en eenbes; een klein heideveldje.",
+      "access": "Altijd open, gratis.",
+      "extra_description": "Op anderhalve hectare liggen bos op humeuze grond, vennetjes, plasoevers, rietland, een heideveldje en een mergel- en duingebied naast elkaar, elk met eigen wilde planten. Zoek in het voorjaar in het bos naar de zeldzaamheden waar de tuin om bekendstaat: paarse schubwortel, een parasiet die zo uit de grond bloeit, geelwitte ossentong en eenbes. In de zomer zijn de heide, de mergel en de oevers aan de beurt."
+     }
+    }
+   },
+   "sources": [
+    "https://www.sntp.nl/heemtuinen/heemtuin-sloterpark/",
+    "https://heemtuinsloterpark.nl/"
+   ]
+  },
+  {
+   "id": "kapgrw5hh9ge5asngh71p0pr",
+   "note": "Diemerpark and De Ontmoeting",
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Orchids from late May into July.",
+    "what": "Wild orchids: southern marsh orchid (rietorchis), marsh helleborine (moeraswespenorchis), bee orchid (bijenorchis).",
+    "extra_description": "The park with the highest biodiversity in Amsterdam is also its orchid park. On the thin living layer over the sealed dump grow several kinds of wild orchid: the southern marsh orchid, the marsh helleborine and the rare bee orchid, whose flower mimics a bee. They flower from late May into July in the rough grass, which is left long for them. Stay on the paths and look, don't pick."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Orchideeën van eind mei tot in juli.",
+      "what": "Wilde orchideeën: rietorchis, moeraswespenorchis, bijenorchis.",
+      "extra_description": "Het park met de hoogste biodiversiteit van Amsterdam is ook het orchideeënpark van de stad. Op de dunne leeflaag boven de afgesloten stortplaats groeien verschillende wilde orchideeën: de rietorchis, de moeraswespenorchis en de zeldzame bijenorchis, waarvan de bloem een bij nadoet. Ze bloeien van eind mei tot in juli in het ruige gras, dat voor ze lang blijft staan. Blijf op de paden en kijk, niet plukken."
+     }
+    }
+   },
+   "sources": [
+    "https://halloijburg.nl/locatie/7840/diemerpark-natuurpark",
+    "https://www.parool.nl/ps/op-orchideeensafari-in-het-amsterdamse-diemerpark-met-natuurliefhebber-leen-pauwels-telkens-als-ik-iets-nieuws-ontdek-geeft-me-dat-een-dopamineshotje~bdd250b6/"
+   ]
+  },
+  {
+   "id": "g4igs6lw3gmky63u4cq5wz41",
+   "note": "Gaasperpark",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "Early April",
+    "when": "Magnolia kobus in March and April; Japanese cherries around April, the varieties one after another.",
+    "what": "Japanese cherries of several varieties and tall Magnolia kobus, both from the Floriade of 1982; a rose garden.",
+    "extra_description": "The Japanese cherries in the Gaasperpark date from the Floriade of the early 1980s, and they are not all one variety, so they flower one after another, from white to bright pink, mostly in April. At the same time the tall white Magnolia kobus, also Floriade trees, flower in March and April, big scented white flowers on bare branches. The Floriade rose garden is still in the park for summer."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Magnolia kobus in maart en april; Japanse sierkersen rond april, de soorten na elkaar.",
+      "what": "Japanse sierkersen van verschillende soorten en hoge Magnolia kobus, allebei uit de Floriade van 1982; een rozentuin.",
+      "extra_description": "De Japanse sierkersen in het Gaasperpark stammen uit de Floriade van begin jaren tachtig, en het is niet één soort, dus ze bloeien na elkaar, van wit tot felroze, meestal in april. Tegelijk bloeien in maart en april de hoge witte Magnolia kobus, ook Floriadebomen, met grote geurende witte bloemen aan kale takken. De rozentuin van de Floriade ligt er nog voor de zomer."
+     }
+    }
+   },
+   "sources": [
+    "https://www.groengebied-amstelland.nl/nieuws/bloesempracht-van-japanse-sierkers-en-magnolia-in-gaasperpark/1689"
+   ]
+  },
+  {
+   "id": "vrfzern93eig86ybut3b0v09",
+   "note": "The 120-year-old wisteria of the Amstel (Amstel 169-171)",
+   "attributes": {
+    "bloom": "Wisteria and climbers",
+    "peak": "May",
+    "when": "Early to mid May.",
+    "what": "One wisteria, planted around 1900, across two house fronts.",
+    "trees": 1,
+    "extra_description": "One wisteria, about 120 years old, covers the fronts of Amstel 169 and 171, just past the Amstel Hotel, and in early to mid May it hangs them with blue flower trusses. It won a distinction in the Fraaiste Groene Gevels contest of 2018; the plaque followed in July 2019, once the plant was green again. It grows on private houses: look from the quay."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Begin tot half mei.",
+      "what": "Eén blauwe regen, geplant rond 1900, over twee gevels.",
+      "extra_description": "Eén blauwe regen van zo'n 120 jaar bedekt de gevels van Amstel 169 en 171, net voorbij het Amstel Hotel, en hangt ze begin tot half mei vol blauwe bloemtrossen. In de verkiezing Fraaiste Groene Gevels van 2018 kreeg hij een onderscheiding; de plaquette volgde in juli 2019, toen de plant weer groen was. Hij groeit tegen particuliere huizen: kijk vanaf de kade."
+     }
+    }
+   },
+   "sources": [
+    "https://groenebuurten.nl/groene-gevels/",
+    "https://groenebuurten.nl/tweede-plaquette-geplaatst-aan-de-amstel/",
+    "http://www.leafywalks.com/amsterdam/walks/wisteria-east-short-walk.html"
+   ]
+  },
+  {
+   "id": "pyp5hmys2jz4yvv8icng2yyy",
+   "note": "Tuinpark Amstelglorie and the Wolkerstuin",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "June",
+    "when": "April to October, best in early summer.",
+    "what": "Some 440 allotment gardens run the natural way, with a medicinal herb garden and a bee mound.",
+    "access": "Open April to November from sunrise to sunset; in winter until 17:00. The gardens themselves are private.",
+    "extra_description": "The paths of this allotment park are public, so in season you can walk past some 440 gardens of flowers, vegetables and fruit, kept to the top grade of the national natural gardening label. Besides the private plots there is a medicinal herb garden laid out in the shape of a human body and a bee mound. Early summer, when the gardens are fullest, is the best time to come."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "April tot oktober, op zijn mooist in de vroege zomer.",
+      "what": "Zo'n 440 volkstuinen op natuurlijke wijze beheerd, met een kruidentuin en een bijenheuvel.",
+      "access": "Open van april tot november van zonsopgang tot zonsondergang; in de winter tot 17.00 uur. De tuinen zelf zijn privé.",
+      "extra_description": "De paden van dit tuinpark zijn openbaar, dus in het seizoen wandel je langs zo'n 440 tuinen met bloemen, groente en fruit, beheerd met het hoogste aantal stippen van het Keurmerk Natuurlijk Tuinieren. Naast de privétuinen is er een geneeskrachtige kruidentuin in de vorm van een mensenlichaam en een bijenheuvel. In de vroege zomer, als de tuinen het volst staan, is het op zijn mooist."
+     }
+    }
+   },
+   "sources": [
+    "https://www.amstelglorie.nl/"
+   ]
+  },
+  {
+   "id": "cpzde8dsqrmbevzuw6rdg63j",
+   "note": "Tuinpark Buitenzorg",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "June",
+    "when": "April to September; open gardens and a free tour in June.",
+    "what": "Flower gardens, vegetable plots and garden houses in the oldest allotment park of Amsterdam.",
+    "access": "Open 1 April to 1 October, daily from about 9:00 to 19:00. The gardens themselves are private.",
+    "extra_description": "Behind the gate lie colourful flower gardens, vegetable plots and garden houses. The paths are open to everyone in season. Once a year, in June, at the same weekend as the Open Tuinen Dagen, members open their private gardens to visitors, with a free guided tour (20 and 21 June in 2026). Until the 1950s nearly every plot here was a kitchen garden; with growing prosperity flowers and lawns took over, which is what you walk past now."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "April tot september; open tuinen en een gratis rondleiding in juni.",
+      "what": "Bloementuinen, moestuinen en tuinhuisjes in het oudste volkstuinpark van Amsterdam.",
+      "access": "Open van 1 april tot 1 oktober, dagelijks van ongeveer 9.00 tot 19.00 uur. De tuinen zelf zijn privé.",
+      "extra_description": "Achter de poort liggen kleurrijke bloementuinen, moestuinen en tuinhuisjes. De paden zijn in het seizoen voor iedereen open. Eén keer per jaar, in juni, in hetzelfde weekend als de Open Tuinen Dagen, stellen leden hun privétuinen open, met een gratis rondleiding (in 2026 op 20 en 21 juni). Tot in de jaren vijftig was bijna elke tuin hier een moestuin; met de welvaart namen bloemen en gazons het over, en daar wandel je nu langs."
+     }
+    }
+   },
+   "sources": [
+    "https://www.rodi.nl/amsterdam-noord/uit/497394/oudste-volkstuinpark-van-amsterdam-opent-dit-weekend-zijn-poorten"
+   ]
+  },
+  {
+   "id": "kj7zwxi9qghvjq3sev689m68",
+   "note": "De Tuinen van Westerpark and Zonnehoek (allotment parks)",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "June",
+    "when": "Spring bulbs in the stinzentuin early in the season; lupins and the gardens at their fullest in early summer.",
+    "what": "Some 650 allotment gardens with a stinzentuin of spring bulbs and a lupin bank.",
+    "access": "Gates open to walkers by day from 1 March to 1 November.",
+    "extra_description": "From 1 March to 1 November the gates of Nut & Genoegen and Sloterdijkermeer stand open by day, and marked walks lead through some 650 gardens. Early in the season the stinzentuin flowers with old-estate spring bulbs; in early summer the lupin bank and the gardens themselves are at their fullest. Sloterdijkermeer holds the top grade of the national natural gardening label."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Stinzenbollen vroeg in het seizoen; lupines en de tuinen op hun volst in de vroege zomer.",
+      "what": "Zo'n 650 volkstuinen met een stinzentuin vol voorjaarsbollen en een lupinebank.",
+      "access": "Poorten overdag open voor wandelaars van 1 maart tot 1 november.",
+      "extra_description": "Van 1 maart tot 1 november staan de poorten van Nut & Genoegen en Sloterdijkermeer overdag open, en gemarkeerde wandelingen leiden langs zo'n 650 tuinen. Vroeg in het seizoen bloeit de stinzentuin met voorjaarsbollen van de oude buitenplaatsen; in de vroege zomer staan de lupinebank en de tuinen zelf op hun volst. Sloterdijkermeer heeft het hoogste aantal stippen van het Keurmerk Natuurlijk Tuinieren."
+     }
+    }
+   },
+   "sources": [
+    "https://detuinenvanwesterpark.nl/"
+   ]
+  },
+  {
+   "id": "m0b4n4c2m9j64o6saax5xocr",
+   "note": "Natuurtuin Slatuinen",
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "Early April",
+    "when": "Snake's-head fritillaries in April.",
+    "what": "Wild snake's-head fritillary and other native plants in a hidden nature garden.",
+    "access": "Open on Sunday afternoons and Thursdays; check the foundation's website.",
+    "extra_description": "Behind a narrow gate between the Slatuinenweg cottages lies a nature garden where wild snake's-head fritillaries flower in spring, the chequered purple bells that are rare in the wild in the Netherlands. The rest of the garden is mostly native trees and plants, partly left to go its own way. Neighbours saved the former park and nursery and have run it since 1991; on Thursdays volunteers give advice on wild and native plants."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Kievitsbloemen in april.",
+      "what": "Wilde kievitsbloem en andere inheemse planten in een verborgen natuurtuin.",
+      "access": "Open op zondagmiddag en donderdag; kijk op de website van de stichting.",
+      "extra_description": "Achter een smal poortje tussen de huisjes van de Slatuinenweg ligt een natuurtuin waar in het voorjaar wilde kievitsbloemen bloeien, de geblokte paarse klokjes die in het wild in Nederland zeldzaam zijn. De rest van de tuin is vooral inheemse bomen en planten, deels aan zichzelf overgelaten. Buurtbewoners redden het voormalige park en de kwekerij en beheren de tuin sinds 1991; op donderdag geven vrijwilligers advies over wilde en inheemse planten."
+     }
+    }
+   },
+   "sources": [
+    "https://www.natuurtuinslatuinen.nl/",
+    "https://www.sntp.nl/heemtuinen/natuurtuin-de-slatuinen/"
+   ]
+  },
+  {
+   "id": "wr0dgwob4899414usffcisli",
+   "note": "Fruittuin van West, a pick-your-own orchard in the polder",
+   "attributes": {
+    "bloom": "Apple and pear blossom",
+    "peak": "Late April",
+    "when": "The apricot first, then plums, cherries, pears and apples, from late March into May.",
+    "what": "An orchard of more than 30 kinds of fruit: apples, pears, cherries, plums, apricot, quince, medlar.",
+    "access": "Tuesday to Sunday 10:30 to 18:00.",
+    "extra_description": "In spring the whole pick-your-own orchard flowers in turn. The apricot on the car park is the first to open; the other fruit trees and bushes follow, with plums, cherries and pears and finally the dozen apple varieties. You can walk through the orchard during opening hours and see the blossom that will be picked in summer and autumn. The growers keep early and late varieties of each fruit to stretch the season, more than 30 kinds in all."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Eerst de abrikoos, dan pruimen, kersen, peren en appels, van eind maart tot in mei.",
+      "what": "Een boomgaard met meer dan 30 soorten fruit: appels, peren, kersen, pruimen, abrikoos, kwee, mispel.",
+      "access": "Dinsdag tot en met zondag 10.30 tot 18.00 uur.",
+      "extra_description": "In het voorjaar bloeit de hele plukboomgaard om beurten. De abrikoos op de parkeerplaats gaat als eerste open; de andere fruitbomen en struiken volgen, met pruimen, kersen en peren en als laatste het dozijn appelrassen. Tijdens openingstijden wandel je door de boomgaard langs de bloesem die in zomer en herfst geplukt wordt. De telers houden van elke fruitsoort vroege en late rassen om het seizoen te rekken, meer dan 30 soorten in totaal."
+     }
+    }
+   },
+   "sources": [
+    "https://www.kidsproof.nl/amsterdam/blog/bloesem-in-amsterdam-en-omgeving-met-kids/",
+    "https://fruittuinvanwest.nl/"
+   ]
+  },
+  {
+   "id": "vfqy9dm5nccayob650opqr45",
+   "note": "Huis Willet-Holthuysen and its plantation money",
+   "attributes": {
+    "bloom": "Bulbs and tulips",
+    "peak": "Late April",
+    "when": "Early or mid April to mid May.",
+    "what": "Tulips in a formal garden: in 2025 'Spring Break', 'One Direction', 'Orange Princess', 'Exotic Emperor', 'Sweet Simone', 'Tiramisu', 'Pretty Princess'.",
+    "access": "With a museum ticket; open daily.",
+    "extra_description": "Once a year, in April, the formal garden behind this canal house is planted out with tulips. Its symmetrical beds and clipped hedges follow the garden designs of Daniel Marot from the early 18th century, and it is one of the few formal gardens left in the inner city. The tulips flower from early or mid April to mid May; the varieties change every year, and the garden takes part in the Tulp Festival."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Begin of half april tot half mei.",
+      "what": "Tulpen in een formele tuin: in 2025 'Spring Break', 'One Direction', 'Orange Princess', 'Exotic Emperor', 'Sweet Simone', 'Tiramisu', 'Pretty Princess'.",
+      "access": "Met een museumkaartje; dagelijks open.",
+      "extra_description": "Eén keer per jaar, in april, staat de formele tuin achter dit grachtenhuis vol tulpen. De symmetrische perken en gesnoeide hagen volgen de tuinontwerpen van Daniel Marot uit het begin van de 18de eeuw, en het is een van de weinige formele tuinen in de binnenstad. De tulpen bloeien van begin of half april tot half mei; de rassen wisselen elk jaar, en de tuin doet mee aan het Tulp Festival."
+     }
+    }
+   },
+   "sources": [
+    "https://www.amsterdammuseum.nl/publieksprogramma/tulp-festival/81011"
+   ]
+  },
+  {
+   "id": "jypicc5pdsxydgqkxd2i4u14",
+   "note": "Reguliersgracht and the Amstelveld, seven bridges and a wooden church",
+   "attributes": {
+    "bloom": "Flower market",
+    "when": "Every Monday, all year.",
+    "what": "A Monday flower and plant market of about 27 stalls on the Amstelveld.",
+    "access": "Mondays 9:00 to 18:00.",
+    "extra_description": "On Mondays the Amstelveld fills with a flower and plant market of about 27 stalls, vans and trailers: garden and balcony plants, flowers and bulbs, from 9:00 to 18:00. It is the market where Amsterdammers buy for their own windowsills and balconies, a short walk from the souvenir stalls of the Bloemenmarkt. The stalls stand round the wooden Amstelkerk of 1668 to 1670, at the end of the seven bridges of the Reguliersgracht."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Elke maandag, het hele jaar.",
+      "what": "Een bloemen- en plantenmarkt op maandag met zo'n 27 kramen op het Amstelveld.",
+      "access": "Maandag 9.00 tot 18.00 uur.",
+      "extra_description": "Op maandag staat het Amstelveld vol met een bloemen- en plantenmarkt van zo'n 27 kramen, stallen en verkoopwagens: tuin- en balkonplanten, bloemen en bollen, van 9.00 tot 18.00 uur. Hier kopen Amsterdammers voor hun eigen vensterbank en balkon, op een paar minuten lopen van de souvenirkramen van de Bloemenmarkt. De kramen staan rond de houten Amstelkerk van 1668 tot 1670, aan het eind van de zeven bruggen van de Reguliersgracht."
+     }
+    }
+   },
+   "sources": [
+    "https://www.marktenmarkten.nl/markt/planten-bloemenmarkten/noord-holland/amsterdam/amstelveld-bloemen-en-plantenmarkt/4/"
+   ]
+  },
+  {
+   "id": "f25e8j91i9jbfbqc5mh7jl9h",
+   "note": "Weteringcircuit, excise post, herb garden and Ramses Shaffy",
+   "attributes": {
+    "bloom": "Horse chestnut",
+    "peak": "May",
+    "when": "May.",
+    "what": "One monumental white horse chestnut, planted about 1900 to 1910.",
+    "trees": 1,
+    "extra_description": "In the middle of the Weteringcircuit traffic island stands a single white horse chestnut, planted around 1900 to 1910 and listed as a monumental tree. In May it holds up its white candles over the trams and bikes, right above the metro exit. Beside the excise house, the rose arch of the neighbours' herb garden marks the way in. In summer the leaves may brown early: the leaf miner moth, a pest of white horse chestnuts, has troubled the city's trees in recent years."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Mei.",
+      "what": "Eén monumentale witte paardenkastanje, geplant rond 1900 tot 1910.",
+      "extra_description": "Midden op het verkeersplein van het Weteringcircuit staat één witte paardenkastanje, geplant rond 1900 tot 1910 en geregistreerd als monumentale boom. In mei steekt hij zijn witte kaarsen op boven de trams en fietsers, vlak bij de uitgang van de metro. Naast het accijnshuisje wijst de rozenboog van de buurtkruidentuin de weg naar binnen. In de zomer kan het blad vroeg bruin kleuren: de kastanjemineermot heeft de witte paardenkastanjes van de stad de laatste jaren parten gespeeld."
+     }
+    }
+   },
+   "sources": [
+    "https://www.amsterdamsdagblad.nl/regio/ontdek-de-buurtboom-de-witte-paardenkastanje",
+    "https://www.bomenstichting.nl/images/1808/Monumentale_bomen_Amsterdam.pdf"
+   ]
+  },
+  {
+   "id": "rdwnvux0lssmnnlu9hihuuzy",
+   "note": "H'ART Museum in the Amstelhof",
+   "attributes": {
+    "bloom": "Horse chestnut",
+    "peak": "May",
+    "when": "May.",
+    "what": "Three monumental white horse chestnuts in the inner courtyard.",
+    "trees": 3,
+    "access": "Museum courtyard; museum open daily 10:00 to 17:00.",
+    "extra_description": "The inner courtyard of the Amstelhof, for centuries the garden of a home for the old, is shaded by three monumental white horse chestnuts. In May they flower over the courtyard, with the backs of the old almshouses around them. The building itself, by the city carpenter Hans Petersom, dates from 1681 to 1684; from the garden terrace you also see the back of the Corvershof of 1722."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Mei.",
+      "what": "Drie monumentale witte paardenkastanjes op de binnenhof.",
+      "access": "Binnenhof van het museum; museum dagelijks open 10.00 tot 17.00 uur.",
+      "extra_description": "De binnenhof van de Amstelhof, eeuwenlang de tuin van een tehuis voor ouderen, ligt in de schaduw van drie monumentale witte paardenkastanjes. In mei bloeien ze boven de hof, met de achterkanten van de oude hofjes eromheen. Het gebouw zelf, van stadstimmerman Hans Petersom, dateert van 1681 tot 1684; vanaf het tuinterras zie je ook de achterkant van de Corvershof uit 1722."
+     }
+    }
+   },
+   "sources": [
+    "https://www.monumentaltrees.com/nl/nld/noordholland/amsterdam/39987_amstel51/76361/"
+   ]
+  },
+  {
+   "id": "p5yf4mqk44lhng1p4snglo1w",
+   "note": "Theetuin on the Bakkerschans",
+   "attributes": {
+    "bloom": "Bulbs and tulips",
+    "peak": "Late April",
+    "when": "Thousands of spring bulbs from snowdrops to late tulips in spring; perennials from then until October.",
+    "what": "A model garden of spring bulbs, perennials and shrubs by Jacqueline van der Kloet.",
+    "access": "Daily 9:00 to 18:00, closed on Sundays and public holidays; best April to October.",
+    "extra_description": "Hidden behind beech hedges more than 60 years old, the tea garden is known among garden lovers for its plant combinations, the life's work of the designer Jacqueline van der Kloet. It is at its very best in spring, when thousands of bulbs flower, from snowdrops to late tulips; after that, perennials and shrubs take over in changing combinations. Borders round the oval pond are laid out as examples of what goes with what."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Duizenden voorjaarsbollen van sneeuwklokje tot late tulp in het voorjaar; daarna vaste planten tot oktober.",
+      "what": "Een voorbeeldtuin met voorjaarsbollen, vaste planten en heesters van Jacqueline van der Kloet.",
+      "access": "Dagelijks 9.00 tot 18.00 uur, op zon- en feestdagen gesloten; op zijn mooist van april tot oktober.",
+      "extra_description": "Verstopt achter beukenhagen van meer dan zestig jaar oud staat de theetuin bij tuinliefhebbers bekend om zijn plantcombinaties, het levenswerk van ontwerper Jacqueline van der Kloet. Op zijn allermooist is hij in de lente, als duizenden bollen bloeien, van sneeuwklokjes tot late tulpen; daarna nemen vaste planten en heesters het over in steeds wisselende combinaties. De borders rond de ovale vijver zijn aangelegd als voorbeeld van wat bij elkaar past."
+     }
+    }
+   },
+   "sources": [
+    "https://theetuin.nl/"
+   ]
+  },
+  {
+   "id": "mn1fo7thuxfzmoyndw1w9gkw",
+   "note": "Natuurpark Vrije Geer",
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "May",
+    "when": "Marsh marigolds in April; ragged robin and southern marsh orchid in May and June.",
+    "what": "Wet meadow flowers: ragged robin (echte koekoeksbloem), southern marsh orchid (rietorchis), marsh marigold (dotterbloem).",
+    "extra_description": "The wet peat meadow is mown and hayed to keep it rich in flowers, and it works. In spring the marsh marigolds come up yellow in the sheep field; then, in a wet year, the meadow turns purple-pink with masses of ragged robin, with southern marsh orchids in the wet grass, while the storks clatter on their poles. Village volunteers manage the four hectares, the meadow some 184,000 Amsterdammers voted to save from building in 1995."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Dotterbloemen in april; echte koekoeksbloem en rietorchis in mei en juni.",
+      "what": "Natte graslandbloemen: echte koekoeksbloem, rietorchis, dotterbloem.",
+      "extra_description": "Het natte veenweitje wordt gemaaid en gehooid om het bloemrijk te houden, en dat werkt. In het voorjaar komen de dotterbloemen geel op in het Schapenland; daarna kleurt het weiland in een nat jaar paarsroze van de echte koekoeksbloemen, met rietorchissen in het natte gras, terwijl de ooievaars op hun palen klepperen. Vrijwilligers uit het dorp beheren de vier hectare, het weiland dat zo'n 184.000 Amsterdammers in 1995 van bebouwing redden."
+     }
+    }
+   },
+   "sources": [
+    "https://slotenoudosdorp.nl/dorpsraad-en-werkgroepen/natuurpark-vrije-geer/"
+   ]
+  },
+  {
+   "id": "xuqtrycva9ghzzbpc8ohmszh",
+   "note": "Klarenbeek and Altoos Zorg (Voedselbos de Amstelaar)",
+   "attributes": {
+    "bloom": "Apple and pear blossom",
+    "peak": "Late April",
+    "when": "Apple and pear blossom in spring; fruit to pick in autumn.",
+    "what": "The historic apple and pear trees of the Bongerd, the old orchard at Ouderkerkerdijk 245, now inside a young food forest.",
+    "access": "Public picking spot on the dike.",
+    "extra_description": "Just past Klarenbeek, at Ouderkerkerdijk 245, lies the Bongerd, the old orchard with historic fruit trees. On 9 June 2024 Voedselbos de Amstelaar opened on the same spot, with new planting among the old trees. The apple and pear trees flower in spring, a rare bit of orchard blossom inside the city limits, and in autumn anyone may pick their fruit: it is a public picking spot, so someone may have beaten you to it. Berries and other new plants will follow in a few years."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Appel- en perenbloesem in het voorjaar; fruit plukken in de herfst.",
+      "what": "De historische appel- en perenbomen van de Bongerd, de oude boomgaard aan de Ouderkerkerdijk 245, nu in een jong voedselbos.",
+      "access": "Openbare plukplek aan de dijk.",
+      "extra_description": "Net voorbij Klarenbeek, aan de Ouderkerkerdijk 245, ligt de Bongerd, de oude boomgaard met historische fruitbomen. Op 9 juni 2024 opende op dezelfde plek Voedselbos de Amstelaar, met nieuwe aanplant tussen de oude bomen. De appel- en perenbomen bloeien in het voorjaar, een zeldzaam stukje boomgaardbloesem binnen de stadsgrens, en in de herfst mag iedereen het fruit plukken: het is een openbare plukplek, dus misschien was iemand je voor. Over een paar jaar komen er bessen en andere nieuwe planten bij."
+     }
+    }
+   },
+   "sources": [
+    "https://www.groengebied-amstelland.nl/nieuws/fruit-plukken-langs-de-amstel/325"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "id": "iytb6uj68x6hg73hr1k2gwpg",
+   "note": "Oosterpark and its music dome",
+   "reason": "No flowering-tree group in the register inside the park; the only flower source is a small undated stinzen and perennial planting in the Parkhart."
+  },
+  {
+   "id": "baepsfj5rwmkm35aozjwfgjw",
+   "note": "Zorgvlied cemetery",
+   "reason": "Only a young Anne Frank chestnut (planted 7 March 2024). cur-new-trees cites the national tree register for an old Magnolia kobus (1697440) and a honey tree (1697439) here; I could not confirm either (monumentaltrees has no match), so left out. Worth a check."
+  },
+  {
+   "id": "sc0avxwg8c6l1o0p7g4v98q1",
+   "note": "Rijksmuseum garden",
+   "reason": "The museum page names no flowers; flower beds only in a garden directory."
+  },
+  {
+   "id": "x68ub68zu34b3c9ei8ljz79n",
+   "note": "Bloemenmarkt",
+   "reason": "Mostly bulbs and souvenirs, the last florist left in 2019; the Amstelveld Monday market is used instead."
+  },
+  {
+   "id": "y3v9pq25bbflg4mlh4rd87ja",
+   "note": "Noordermarkt markets",
+   "reason": "Flower stalls are a small part of a general Saturday market."
+  },
+  {
+   "id": "vn6ztawt9z1koc564tgmx9ub",
+   "note": "Begijnhof",
+   "reason": "A lawn and borders; nothing notable flowers."
+  },
+  {
+   "id": "ez3rzkcv0tx6nzu50jfw2ddt",
+   "note": "NoordOogst",
+   "reason": "Only a vague blog line about pink trees in bloom; no species or numbers."
+  },
+  {
+   "id": "bd3l84798l4ag5678b6sr7ah",
+   "note": "Anna's Tuin & Ruigte",
+   "reason": "Own site unreadable (certificate warning); no flower source beyond the pool text."
+  },
+  {
+   "id": "xsjtfodgoy5dxwu0xtxxab99",
+   "note": "Jan Wolkerstuin",
+   "reason": "A children's nature garden; no flower source."
+  },
+  {
+   "id": "fztpnc7onv676bl4739irleg",
+   "note": "Jozef Israëlskade (Frits van Egters)",
+   "reason": "A literary place; the quay's cherries are a new place in reg-5 (r147, r093)."
+  },
+  {
+   "id": "ovqk7m88yn8u2p279t32fxhf",
+   "note": "Kalfjeslaan",
+   "reason": "270 plant species (2009) but no flowering detail; the heemtuin is covered under Amstelpark."
+  },
+  {
+   "id": "cd6lwb2flcsk50v3nn5z2u7u",
+   "note": "NEMO roof",
+   "reason": "Roof planting only in a directory; no flower source."
+  },
+  {
+   "id": "l6wvo37kw90xx0hzq5ir6pqk",
+   "note": "Artis",
+   "reason": "Arboretum and botanical garden status, but no source names flowering trees or flowers (the scouts only say 700 trees and \"rare flowers\"); an Anne Frank chestnut seedling alone is too little."
+  },
+  {
+   "id": "gzpal4317s60vil6nrxk1b0e",
+   "note": "Tuin van Jan",
+   "reason": "No flower source."
+  },
+  {
+   "id": "avse5r5gizki80pu54k5gnfp",
+   "note": "De Oeverlanden",
+   "reason": "Flora described only in general terms."
+  },
+  {
+   "id": "q473mwcsn3dsr9fge7ozqpz9",
+   "note": "Hortus elms and Anne Frank seedling",
+   "reason": "One young chestnut planted 2022; too small."
+  },
+  {
+   "id": "rfu8xzbc0kf5hsd2fw7edtnx",
+   "note": "I can change the world with my two hands",
+   "reason": "Picking garden for cut flowers only; modest."
+  },
+  {
+   "id": "cvd0cg5amzfqp2m2pkhkrpmn",
+   "note": "Tuinpark Tuinwijck",
+   "reason": "Flowers mentioned only historically."
+  }
+ ]
+}
