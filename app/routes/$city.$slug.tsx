@@ -22,6 +22,7 @@ import { type LngLat, type MapArea, MapView } from "~/components/MapView";
 import { PinSizeSwitcher } from "~/components/PinSizeSwitcher";
 import { Button } from "~/components/ui/button";
 import { areaColor, labelPoint } from "~/lib/areas";
+import { categoryIconSvg } from "~/lib/category-icons";
 import {
   type AreaLevel,
   type ContentLang,
@@ -243,6 +244,8 @@ const MapLayout = () => {
 
   // Place pin size (`?pins=large|small`; medium when absent).
   const pinSize: PinSize = urlSearch.pins ?? DEFAULT_PIN_SIZE;
+  // Experimental category icons (`?icons=true`); too small on small pins.
+  const showIcons = Boolean(urlSearch.icons) && pinSize !== "small";
   const setPinSize = useCallback(
     (size: PinSize) =>
       navigate({
@@ -364,6 +367,7 @@ const MapLayout = () => {
           lng: p.lng,
           title: p.title,
           color: categoryOf(p.category).color,
+          icon: showIcons ? categoryIconSvg(p.category) : undefined,
           visited: visitedIds.has(p.id),
           dimmed:
             !visibleIds.has(p.id) ||
@@ -379,6 +383,7 @@ const MapLayout = () => {
       highlighted,
       hidden,
       visitedIds,
+      showIcons,
     ],
   );
 

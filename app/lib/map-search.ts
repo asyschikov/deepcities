@@ -18,6 +18,8 @@ export const mapSearchSchema = z.object({
   pins: opt(z.enum(["large", "small"])),
   /** Group nearby place pins into counted clusters (by zoom). */
   cluster: opt(z.boolean()),
+  /** Experimental: category icons on pins and in the legend (unlisted). */
+  icons: opt(z.boolean()),
   /** Boundary layer: which level of official areas to draw. */
   areas: opt(z.enum(AREA_LEVELS)),
   /** Sidebar tab (places is the default). */
@@ -59,6 +61,7 @@ export const MAP_RETAINED_PARAMS = [
   "lang",
   "areas",
   "cluster",
+  "icons",
   "pins",
   "tab",
   "q",
@@ -71,7 +74,7 @@ export const MAP_RETAINED_PARAMS = [
 ] as const satisfies readonly (keyof MapSearch)[];
 
 /** A boolean search param of the current map page, with its setter. */
-export const useSearchFlag = (key: "about" | "docs" | "near") => {
+export const useSearchFlag = (key: "about" | "docs" | "icons" | "near") => {
   const search = useSearch({ from: "/$city/$slug" });
   const navigate = useNavigate();
   const set = (on: boolean) =>

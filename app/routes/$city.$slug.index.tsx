@@ -21,6 +21,7 @@ import { Input } from "~/components/ui/input";
 import { VerdictSummary } from "~/components/Verdict";
 import { VisitHistory } from "~/components/VisitHistory";
 import { useAppMode } from "~/lib/app-mode";
+import { categoryIcon } from "~/lib/category-icons";
 import { distanceMeters } from "~/lib/diff";
 import { filterFields, isDefaultSelection } from "~/lib/field-filters";
 import { useSettledFix } from "~/lib/geolocation";
@@ -54,6 +55,7 @@ const MapIndex = () => {
   const exploring = useAppMode() === "explore";
   // Near me: nearest first, with how far each place is.
   const [near, setNear] = useSearchFlag("near");
+  const [showIcons] = useSearchFlag("icons");
   const here = useSettledFix(geo.fix);
   // biome-ignore lint/correctness/useExhaustiveDependencies: start once when opened with ?near
   useEffect(() => {
@@ -250,9 +252,10 @@ const MapIndex = () => {
                         : "hover:bg-muted",
                     )}
                   >
-                    <span
-                      className="size-2 rounded-full"
-                      style={{ background: c.color }}
+                    <CategorySwatch
+                      categoryKey={c.key}
+                      color={c.color}
+                      withIcon={showIcons}
                     />
                     {c.label}
                   </button>
@@ -431,3 +434,29 @@ const MapIndex = () => {
 export const Route = createFileRoute("/$city/$slug/")({
   component: MapIndex,
 });
+
+/** A category's legend mark: a dot, or with `?icons=true` its icon on a disc. */
+const CategorySwatch = ({
+  categoryKey,
+  color,
+  withIcon,
+}: {
+  categoryKey: string;
+  color: string;
+  withIcon: boolean;
+}) => {
+  const Icon = withIcon ? categoryIcon(categoryKey) : undefined;
+  if (!Icon) {
+    return (
+      <span className="size-2 rounded-full" style={{ background: color }} />
+    );
+  }
+  return (
+    <span
+      className="flex size-4 items-center justify-center rounded-full"
+      style={{ background: color }}
+    >
+      <Icon className="size-2.5" color="white" strokeWidth={2.5} aria-hidden />
+    </span>
+  );
+};
