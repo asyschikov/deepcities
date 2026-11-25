@@ -1,0 +1,670 @@
+{
+ "places": [
+  {
+   "spot": [
+    "r041"
+   ],
+   "title": "Ornamental pears around the Reitzstraat",
+   "summary": "Over forty ornamental pears in the streets around the Reitzstraat in the Transvaalbuurt. In April they turn white with small flowers in tight clusters.",
+   "body": "These are 'Chanticleer' pears, a callery pear with a narrow, cone-shaped to oval crown that suits a street. In April they flower heavily: small white flowers, about 2 cm across, six to twelve together in a cluster, so each tree goes white all over. There are 42 of them here, most planted in the 1990s, a few younger ones filling gaps, plus a single 'Autumn Blaze' from 2023.\n\nThey hardly ever set fruit. The leaves stay on late and turn yellow and red in autumn, so the street gets a second, quieter show.\n\nLook for: the trees turning white all at once; the narrow, upright crowns; the red in the leaves in late autumn.",
+   "category": "green",
+   "lat": 52.353891,
+   "lng": 4.918313,
+   "address": "Reitzstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Sierperen rond de Reitzstraat",
+     "summary": "Ruim veertig sierperen in de straten rond de Reitzstraat in de Transvaalbuurt. In april worden ze wit van de kleine bloemen in dichte tuilen.",
+     "body": "Het zijn 'Chanticleer'-peren, een sierpeer met een smalle, kegelvormige tot eironde kroon die goed in een straat past. In april bloeien ze uitbundig: kleine witte bloemen van zo'n 2 cm, met zes tot twaalf bijeen in een tuil, zodat elke boom helemaal wit wordt. Er staan er hier 42, de meeste geplant in de jaren negentig, een paar jongere als opvulling, plus één 'Autumn Blaze' uit 2023.\n\nVruchten zetten ze bijna nooit. Het blad blijft lang hangen en kleurt in de herfst geel en rood, een tweede, rustiger voorstelling.\n\nLet op: de bomen die tegelijk wit worden; de smalle, rechtopgaande kronen; het rood in het blad in de late herfst."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Apple and pear blossom",
+     "peak": "Early April",
+     "when": "April, in an ordinary year.",
+     "what": "Ornamental pear: 42 Pyrus calleryana 'Chanticleer', 1 'Autumn Blaze'",
+     "trees": 43
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April, in een gewoon jaar.",
+       "what": "Sierpeer: 42 Pyrus calleryana 'Chanticleer', 1 'Autumn Blaze'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000339&soortnaamKort=Pyrus&_format=json",
+    "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   ]
+  },
+  {
+   "spot": [
+    "r186"
+   ],
+   "title": "Magnolias of the Hofmeyrstraat",
+   "summary": "Fifteen white magnolias along the Hofmeyrstraat in the Transvaalbuurt, all planted in 1993. In March they flower on bare branches.",
+   "body": "The trees are Magnolia kobus, the northern Japanese magnolia. In March, before a single leaf is out, the bare branches carry open white flowers. A late night frost can brown them, so the show is short in some years and long in others. All fifteen were planted in 1993 and most are now 6 to 9 metres tall.\n\nThe crown starts out narrow and upright; as the branches begin to hang it widens into a broad oval. After the flowers come dark red seed pods, and in autumn the leaves turn yellow.\n\nLook for: white flowers on bare wood; frost damage after a cold night; the red seed pods in late summer.",
+   "category": "green",
+   "lat": 52.351596,
+   "lng": 4.915547,
+   "address": "Hofmeyrstraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's in de Hofmeyrstraat",
+     "summary": "Vijftien witte magnolia's langs de Hofmeyrstraat in de Transvaalbuurt, allemaal geplant in 1993. In maart bloeien ze aan kale takken.",
+     "body": "Het zijn Magnolia kobus, de noordelijke Japanse magnolia. In maart, nog voor er een blad aan zit, staan de kale takken vol open witte bloemen. Een late nachtvorst kan ze bruin kleuren, dus het ene jaar duurt de bloei kort en het andere lang. Alle vijftien zijn in 1993 geplant en de meeste zijn nu 6 tot 9 meter hoog.\n\nDe kroon is eerst smal en opgaand; als de takken gaan hangen wordt hij breed eirond. Na de bloei komen donkerrode zaaddozen, in de herfst kleurt het blad geel.\n\nLet op: witte bloemen aan kaal hout; vorstschade na een koude nacht; de rode zaaddozen in de nazomer."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "March, in an ordinary year; a night frost can cut it short.",
+     "what": "Northern Japanese magnolia: 15 Magnolia kobus",
+     "trees": 15
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Maart, in een gewoon jaar; een nachtvorst kan de bloei inkorten.",
+       "what": "Noordelijke Japanse magnolia: 15 Magnolia kobus"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000339&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   ]
+  },
+  {
+   "spot": [
+    "r164"
+   ],
+   "title": "Magnolias on the Tugelaweg",
+   "summary": "Seventeen white magnolias on the grass along the Tugelaweg, planted in 2002. They flower in March, before the leaves.",
+   "body": "Magnolia kobus, the northern Japanese magnolia: in March the bare branches fill with open white flowers, before the leaves appear. A late night frost can brown them. The seventeen trees here were all planted in 2002 and stand on grass, most of them now 6 to 9 metres tall.\n\nThe Tugelaweg also has K. Michel's poem cut into a steel band along the railway embankment, worth a look on the same walk. After the flowers come dark red seed pods; the leaves turn yellow in autumn.\n\nLook for: the white crowns against the embankment; petals on the grass; the red seed pods later in the year.",
+   "category": "green",
+   "lat": 52.355573,
+   "lng": 4.919707,
+   "address": "Tugelaweg",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's aan de Tugelaweg",
+     "summary": "Zeventien witte magnolia's op het gras langs de Tugelaweg, geplant in 2002. Ze bloeien in maart, nog voor het blad.",
+     "body": "Magnolia kobus, de noordelijke Japanse magnolia: in maart staan de kale takken vol open witte bloemen, nog voor het blad verschijnt. Een late nachtvorst kan ze bruin kleuren. De zeventien bomen hier zijn allemaal in 2002 geplant en staan op gras, de meeste nu 6 tot 9 meter hoog.\n\nAan de Tugelaweg staat ook het gedicht van K. Michel in een stalen band langs het spoortalud, mooi mee te nemen in dezelfde wandeling. Na de bloei volgen donkerrode zaaddozen; in de herfst kleurt het blad geel.\n\nLet op: de witte kronen tegen het talud; bloemblaadjes op het gras; de rode zaaddozen later in het jaar."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "March, in an ordinary year; a night frost can cut it short.",
+     "what": "Northern Japanese magnolia: 17 Magnolia kobus",
+     "trees": 17
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Maart, in een gewoon jaar; een nachtvorst kan de bloei inkorten.",
+       "what": "Noordelijke Japanse magnolia: 17 Magnolia kobus"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000340&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   ]
+  },
+  {
+   "spot": [
+    "r013"
+   ],
+   "title": "Black locusts along the Solitudolaan",
+   "summary": "Sixty-nine black locusts along the Solitudolaan and the Solitudopad. In June they hang with creamy white, scented flower clusters.",
+   "body": "Black locust, or false acacia, has a light, open crown and feathery leaves. In June it hangs with compact clusters of creamy white flowers, sometimes tinged pink, that smell sweet. The 69 trees here are all 'Semperflorens', a garden form of the species, most of them on grass along the Solitudolaan and the footpath beside it.\n\nAfter the flowers come flat, leathery red-brown pods that often hang on all winter. The branches carry sharp thorns of about 3 cm.\n\nLook for: the scent on a warm June evening; the hanging white clusters; the pods in winter.",
+   "category": "green",
+   "lat": 52.341466,
+   "lng": 4.922281,
+   "address": "Solitudolaan",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Robinia's langs de Solitudolaan",
+     "summary": "Negenenzestig robinia's langs de Solitudolaan en het Solitudopad. In juni hangen ze vol crèmewitte, geurende bloemtrossen.",
+     "body": "De robinia, of valse acacia, heeft een lichte, open kroon en geveerd blad. In juni hangt de boom vol compacte trossen crèmewitte bloemen, soms met een zweem roze, die zoet ruiken. De 69 bomen hier zijn allemaal 'Semperflorens', een cultivar van de soort, de meeste op het gras langs de Solitudolaan en het pad ernaast.\n\nNa de bloei komen platte, leerachtige roodbruine peulen die vaak de hele winter blijven hangen. Aan de takken zitten scherpe doorns van zo'n 3 cm.\n\nLet op: de geur op een warme juniavond; de hangende witte trossen; de peulen in de winter."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Summer-flowering trees",
+     "peak": "June",
+     "when": "June, in an ordinary year.",
+     "what": "Black locust: 69 Robinia pseudoacacia 'Semperflorens'",
+     "trees": 69
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Juni, in een gewoon jaar.",
+       "what": "Robinia (valse acacia): 69 Robinia pseudoacacia 'Semperflorens'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000397&soortnaamKort=Robinia&_format=json",
+    "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   ]
+  },
+  {
+   "spot": [
+    "r043"
+   ],
+   "title": "Kanzan cherries in the Roomtuintjes",
+   "summary": "Forty-one 'Kanzan' cherries in the Roomtuintjes in the Dapperbuurt, most planted in 1973. Late April they are heavy with double pink flowers.",
+   "body": "'Kanzan' is the double pink Japanese cherry: from late April into early May it flowers heavily with full, pure pink blossoms, while the young leaves come out bronze at the same time. Of the 41 trees here, 31 were planted in 1973, so this is a mature planting; most are now 6 to 9 metres tall.\n\nIt flowers after the white and single cherries elsewhere in town have finished, and it hardly ever sets fruit. In autumn the leaves go yellow and orange.\n\nLook for: the double flowers, like small pompoms; the bronze young leaves among the pink; the petal carpet in early May.",
+   "category": "green",
+   "lat": 52.365371,
+   "lng": 4.929552,
+   "address": "Roomtuintjes",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kanzan-kersen in de Roomtuintjes",
+     "summary": "Eenenveertig 'Kanzan'-kersen in de Roomtuintjes in de Dapperbuurt, de meeste geplant in 1973. Eind april hangen ze vol gevulde roze bloemen.",
+     "body": "'Kanzan' is de gevulde roze Japanse sierkers: van eind april tot begin mei bloeit hij uitbundig met volle, zuiverroze bloemen, terwijl tegelijk het jonge blad bronskleurig uitloopt. Van de 41 bomen hier zijn er 31 in 1973 geplant, dus dit is een volwassen beplanting; de meeste zijn nu 6 tot 9 meter hoog.\n\nHij bloeit als de witte en enkelbloemige kersen elders in de stad al klaar zijn, en vruchten zet hij bijna nooit. In de herfst kleurt het blad geel en oranje.\n\nLet op: de gevulde bloemen, als kleine pompons; het bronskleurige jonge blad tussen het roze; het tapijt van bloemblaadjes begin mei."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "Late April to early May, in an ordinary year.",
+     "what": "Japanese cherry: 41 Prunus serrulata 'Kanzan'",
+     "trees": 41
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot begin mei, in een gewoon jaar.",
+       "what": "Japanse sierkers: 41 Prunus serrulata 'Kanzan'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000341&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   ]
+  },
+  {
+   "spot": [
+    "r185"
+   ],
+   "title": "Magnolias of the Korteweghof",
+   "summary": "Fifteen white magnolias in and around the Korteweghof in Tuindorp Frankendael, most planted around 1990. They flower in March, before the leaves.",
+   "body": "Magnolia kobus, the northern Japanese magnolia, flowers in March with open white flowers on bare branches, before the leaves appear. A late night frost can brown them. Of the fifteen trees here, eight were planted in 1990 and five in 1995; most are now 6 to 9 metres tall.\n\nThe crowns start upright and widen as the branches begin to hang. After the flowers come dark red seed pods, and the leaves turn yellow in autumn.\n\nLook for: white flowers on bare wood; the widening, drooping crowns of the older trees; the red seed pods in late summer.",
+   "category": "green",
+   "lat": 52.345597,
+   "lng": 4.933716,
+   "address": "Korteweghof",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's in de Korteweghof",
+     "summary": "Vijftien witte magnolia's in en rond de Korteweghof in Tuindorp Frankendael, de meeste geplant rond 1990. Ze bloeien in maart, nog voor het blad.",
+     "body": "Magnolia kobus, de noordelijke Japanse magnolia, bloeit in maart met open witte bloemen aan kale takken, nog voor het blad verschijnt. Een late nachtvorst kan ze bruin kleuren. Van de vijftien bomen hier zijn er acht in 1990 en vijf in 1995 geplant; de meeste zijn nu 6 tot 9 meter hoog.\n\nDe kronen zijn eerst opgaand en worden breder als de takken gaan hangen. Na de bloei komen donkerrode zaaddozen, in de herfst kleurt het blad geel.\n\nLet op: witte bloemen aan kaal hout; de bredere, hangende kronen van de oudere bomen; de rode zaaddozen in de nazomer."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "March, in an ordinary year; a night frost can cut it short.",
+     "what": "Northern Japanese magnolia: 15 Magnolia kobus",
+     "trees": 15
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Maart, in een gewoon jaar; een nachtvorst kan de bloei inkorten.",
+       "what": "Noordelijke Japanse magnolia: 15 Magnolia kobus"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000378&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   ]
+  },
+  {
+   "spot": [
+    "r020"
+   ],
+   "title": "Cherries and pears round the Ambonplein",
+   "summary": "Thirty-seven cherries on the Ambonplein and 55 ornamental pears along the Sumatrastraat. Pink and white blossom through April.",
+   "body": "Two kinds of blossom meet here. On and around the Ambonplein stand 37 Japanese cherries: 21 'Sunset Boulevard', with white flowers edged in pale pink, in pairs, and 14 'Accolade', an early cultivar whose pink buds open into light pink, semi-double flowers about 4 cm across, in hanging clusters. Along the Sumatrastraat run 55 'Chanticleer' ornamental pears, planted in 2001 and 2002, which go white in April with small flowers in clusters of six to twelve.\n\nAll of it flowers in April, the 'Accolade' first. In autumn the cherries turn orange, red and purple and the pears yellow and red.\n\nLook for: the pink buds of 'Accolade' before they open; the pink rim on the white 'Sunset Boulevard' flowers; the white line of pears down the Sumatrastraat.",
+   "category": "green",
+   "lat": 52.359245,
+   "lng": 4.937588,
+   "address": "Ambonplein",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kersen en peren rond het Ambonplein",
+     "summary": "Zevenendertig sierkersen op het Ambonplein en 55 sierperen langs de Sumatrastraat. Roze en witte bloesem, de hele april.",
+     "body": "Hier komen twee soorten bloesem samen. Op en rond het Ambonplein staan 37 Japanse sierkersen: 21 'Sunset Boulevard', met witte bloemen met een zachtroze rand, in paren, en 14 'Accolade', een vroege cultivar waarvan de roze knoppen opengaan in lichtroze, half gevulde bloemen van zo'n 4 cm, in hangende trossen. Langs de Sumatrastraat staan 55 'Chanticleer'-sierperen, geplant in 2001 en 2002, die in april wit worden van kleine bloemen in tuilen van zes tot twaalf.\n\nAlles bloeit in april, 'Accolade' het eerst. In de herfst kleuren de kersen oranje, rood en paars en de peren geel en rood.\n\nLet op: de roze knoppen van 'Accolade' voor ze opengaan; het roze randje aan de witte bloemen van 'Sunset Boulevard'; de witte rij peren in de Sumatrastraat."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Early April",
+     "when": "April, in an ordinary year; 'Accolade' opens first.",
+     "what": "Japanese cherries: 21 'Sunset Boulevard', 14 'Accolade', 2 others; ornamental pear: 55 Pyrus calleryana 'Chanticleer'",
+     "trees": 92
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April, in een gewoon jaar; 'Accolade' gaat het eerst open.",
+       "what": "Japanse sierkersen: 21 'Sunset Boulevard', 14 'Accolade', 2 andere; sierpeer: 55 Pyrus calleryana 'Chanticleer'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000346&soortnaamKort=Prunus&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000346&soortnaamKort=Pyrus&_format=json",
+    "https://www.vdberk.nl/bomen/prunus-accolade/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/",
+    "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   ]
+  },
+  {
+   "spot": [
+    "r031"
+   ],
+   "title": "Kanzan cherries on the Mariotteplein",
+   "summary": "Forty-four 'Kanzan' cherries on and around the Mariotteplein in the Watergraafsmeer, the oldest from 1970. Double pink flowers from late April.",
+   "body": "'Kanzan' is the double pink Japanese cherry: from late April into early May it is covered in full, pure pink flowers, with bronze young leaves coming out at the same time. There are 44 here; fourteen were planted in 1970 and the rest added over the decades since, so old and young trees stand side by side. Most are still under 6 metres, which keeps the flowers at eye level.\n\nIt is one of the last cherries to flower, after the single white kinds have gone over, and it rarely sets fruit. In autumn the leaves turn yellow and orange.\n\nLook for: the double flowers at eye height; the bronze new leaves; the petal carpet on the pavement in May.",
+   "category": "green",
+   "lat": 52.351976,
+   "lng": 4.939294,
+   "address": "Mariotteplein",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kanzan-kersen op het Mariotteplein",
+     "summary": "Vierenveertig 'Kanzan'-kersen op en rond het Mariotteplein in de Watergraafsmeer, de oudste uit 1970. Gevulde roze bloemen vanaf eind april.",
+     "body": "'Kanzan' is de gevulde roze Japanse sierkers: van eind april tot begin mei zit hij vol volle, zuiverroze bloemen, terwijl tegelijk het bronskleurige jonge blad uitloopt. Er staan er hier 44; veertien zijn in 1970 geplant en de rest is in de decennia daarna aangevuld, zodat oude en jonge bomen naast elkaar staan. De meeste zijn nog geen 6 meter hoog, dus de bloemen hangen op ooghoogte.\n\nHet is een van de laatste kersen die bloeien, als de witte enkelbloemige al uitgebloeid zijn, en vruchten zet hij zelden. In de herfst kleurt het blad geel en oranje.\n\nLet op: de gevulde bloemen op ooghoogte; het bronskleurige jonge blad; het tapijt van bloemblaadjes op de stoep in mei."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Late April",
+     "when": "Late April to early May, in an ordinary year.",
+     "what": "Japanese cherry: 44 Prunus serrulata 'Kanzan', plus single 'Charles Sargent', 'Sunset Boulevard' and one other",
+     "trees": 47
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind april tot begin mei, in een gewoon jaar.",
+       "what": "Japanse sierkers: 44 Prunus serrulata 'Kanzan', plus één 'Charles Sargent', één 'Sunset Boulevard' en één andere"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000381&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/prunus-sargentii-charles-sargent/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/"
+   ]
+  },
+  {
+   "spot": [
+    "r107"
+   ],
+   "title": "White cherries on the Rozenburglaan",
+   "summary": "Twenty 'Umineko' cherries along the Rozenburglaan on the edge of Betondorp, planted in 1995. In April they flower white with the new leaves.",
+   "body": "'Umineko' is a Japanese cherry that flowers abundantly in April with single white flowers in twos and threes, opening together with the light green new leaves. The twenty here were all planted in 1995, on grass along the Rozenburglaan, at the edge of Betondorp, the 1920s concrete village. A 'Kanzan' and a 'Pink Perfection' add a little pink.\n\nIn autumn 'Umineko' turns orange, red and purple, a second reason to come back.\n\nLook for: white flowers against fresh green leaves; the two pink trees in the row; the autumn colour in October.",
+   "category": "green",
+   "lat": 52.338965,
+   "lng": 4.940011,
+   "address": "Rozenburglaan",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Witte kersen aan de Rozenburglaan",
+     "summary": "Twintig 'Umineko'-kersen langs de Rozenburglaan aan de rand van Betondorp, geplant in 1995. In april bloeien ze wit, tegelijk met het jonge blad.",
+     "body": "'Umineko' is een Japanse sierkers die in april uitbundig bloeit met enkele witte bloemen, met twee of drie bijeen, die tegelijk met het lichtgroene jonge blad opengaan. De twintig bomen hier zijn allemaal in 1995 geplant, op het gras langs de Rozenburglaan, aan de rand van Betondorp, het betondorp uit de jaren twintig. Een 'Kanzan' en een 'Pink Perfection' brengen wat roze.\n\nIn de herfst kleurt 'Umineko' oranje, rood en paars, een tweede reden om terug te komen.\n\nLet op: witte bloemen tegen fris groen blad; de twee roze bomen; de herfstkleur in oktober."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "Early April",
+     "when": "April, in an ordinary year.",
+     "what": "Japanese cherries: 20 Prunus 'Umineko', 1 'Kanzan', 1 'Pink Perfection', 1 other",
+     "trees": 23
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "April, in een gewoon jaar.",
+       "what": "Japanse sierkersen: 20 Prunus 'Umineko', 1 'Kanzan', 1 'Pink Perfection', 1 andere"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000390&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/"
+   ]
+  },
+  {
+   "spot": [
+    "r097",
+    "r079"
+   ],
+   "title": "Hawthorn and cherries on the Archimedeslaan",
+   "summary": "Red and white hawthorn along the Archimedeslaan near the Galileïplantsoen flowers in May, after a row of pale pink cherries in April.",
+   "body": "Twenty-five hawthorns stand along the Archimedeslaan: 16 'Paul's Scarlet', which in May are covered in blossom that fades from even red to pale red, and 9 common hawthorns with small, white, scented flowers in clusters. Most were planted between 1980 and 1990. Nearby are 26 Prunus x schmittii, a cherry with modest flowers: pale pink, not showy, in April, and over in about a week.\n\nA single early 'Okame', a Yoshino cherry and a 'Rancho' flower earlier among them. The schmittii leaves turn yellow and orange in autumn.\n\nLook for: the red 'Paul's Scarlet' against the white common hawthorn; the scent of the white ones; the brief pink haze of the cherries in April.",
+   "category": "green",
+   "lat": 52.355228,
+   "lng": 4.942038,
+   "address": "Archimedeslaan",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Meidoorn en kersen aan de Archimedeslaan",
+     "summary": "Rode en witte meidoorn langs de Archimedeslaan bij het Galileïplantsoen bloeit in mei, na een rij lichtroze kersen in april.",
+     "body": "Langs de Archimedeslaan staan 25 meidoorns: 16 'Paul's Scarlet', die in mei bedekt zijn met bloesem die verkleurt van egaal rood naar bleekrood, en 9 eenstijlige meidoorns met kleine, witte, geurende bloemetjes in tuilen. De meeste zijn tussen 1980 en 1990 geplant. Vlakbij staan 26 Prunus x schmittii, een kers met bescheiden bloemen: lichtroze, weinig opvallend, in april, en na een week of zo voorbij.\n\nEen enkele vroege 'Okame', een Yoshino-kers en een 'Rancho' bloeien er eerder tussen. Het blad van de schmittii kleurt in de herfst geel en oranje.\n\nLet op: de rode 'Paul's Scarlet' naast de witte meidoorn; de geur van de witte; het korte roze waas van de kersen in april."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Hawthorn",
+     "peak": "May",
+     "when": "May for the hawthorn; the cherries flower briefly in April.",
+     "what": "Hawthorn: 16 Crataegus x media 'Paul's Scarlet', 9 Crataegus monogyna; cherries: 26 Prunus x schmittii, 1 'Okame', 1 Prunus yedoensis, 1 'Rancho'",
+     "trees": 54
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Mei voor de meidoorn; de kersen bloeien kort in april.",
+       "what": "Meidoorn: 16 Crataegus x media 'Paul's Scarlet', 9 Crataegus monogyna (eenstijlige meidoorn); kersen: 26 Prunus x schmittii, 1 'Okame', 1 Prunus yedoensis, 1 'Rancho'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000380&soortnaamKort=Crataegus&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000381&soortnaamKort=Crataegus&_format=json",
+    "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/",
+    "https://www.vdberk.nl/bomen/crataegus-monogyna/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000381&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/prunus-okame/",
+    "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/",
+    "https://www.vdberk.nl/bomen/prunus-schmittii/",
+    "https://www.vdberk.nl/bomen/prunus-yedoensis/"
+   ]
+  },
+  {
+   "spot": [
+    "r110"
+   ],
+   "title": "Cherry plums in the Teslastraat",
+   "summary": "Twenty-three purple-leaved cherry plums in the Teslastraat, planted in 1995. Pink flowers from late March, then dark red-brown leaves all summer.",
+   "body": "These are Prunus cerasifera 'Nigra', the cherry plum with dark leaves. From late March into April they flower very freely with single pink flowers about 2.5 cm across, just before or with the leaves. Then the leaves come out dark red-brown and keep that colour into late autumn. All 23 here were planted in 1995 and most are now 6 to 9 metres tall.\n\nThey are among the first trees in the street year to flower, weeks before the Japanese cherries. Dark red fruit is rare.\n\nLook for: pink flowers against dark twigs; the red-brown leaves arriving; the colour of the street in summer, when the blossom is long gone.",
+   "category": "green",
+   "lat": 52.347423,
+   "lng": 4.941856,
+   "address": "Teslastraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Kersenpruimen in de Teslastraat",
+     "summary": "Drieëntwintig kersenpruimen met donker blad in de Teslastraat, geplant in 1995. Roze bloemen vanaf eind maart, daarna de hele zomer roodbruin blad.",
+     "body": "Het zijn Prunus cerasifera 'Nigra', de kerspruim met donker blad. Van eind maart tot in april bloeien ze zeer rijk met enkele roze bloemen van zo'n 2,5 cm, net voor of tegelijk met het blad. Daarna loopt het blad donker roodbruin uit, en die kleur houdt het tot in de late herfst. Alle 23 bomen hier zijn in 1995 geplant en de meeste zijn nu 6 tot 9 meter hoog.\n\nZe bloeien als een van de eerste straatbomen van het jaar, weken voor de Japanse sierkersen. Donkerrode vruchten zie je zelden.\n\nLet op: roze bloemen tegen donkere twijgen; het roodbruine blad dat uitloopt; de kleur van de straat in de zomer, als de bloesem allang weg is."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Cherry blossom",
+     "peak": "March",
+     "when": "Late March into April, in an ordinary year.",
+     "what": "Cherry plum: 23 Prunus cerasifera 'Nigra'",
+     "trees": 23
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Eind maart tot in april, in een gewoon jaar.",
+       "what": "Kerspruim: 23 Prunus cerasifera 'Nigra'"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000384&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/prunus-cerasifera-nigra/"
+   ]
+  },
+  {
+   "spot": [
+    "r057"
+   ],
+   "title": "Pink locusts on the J.M. van der Meylaan",
+   "summary": "Thirty-one pink-flowering locusts and five white ones along the J.M. van der Meylaan, many of them 15 metres tall or more. They flower in June and July.",
+   "body": "Most of the trees here are Robinia ambigua 'Decaisneana', a locust with soft pink flowers in loose hanging clusters in June and July. It likes warmth and flowers best in a sunny spot. Seventeen were planted in 1990 and they have grown tall: most of those are now 15 to 18 metres. Five common black locusts, planted between 1989 and 2008, add creamy white, scented clusters in June.\n\nThe leaves are fresh bright green and feathery, turning yellow before they fall. Brown pods can follow the flowers.\n\nLook for: pink and white clusters side by side; the height of the older trees; the pods after the flowers.",
+   "category": "green",
+   "lat": 52.368035,
+   "lng": 4.942497,
+   "address": "J.M. van der Meylaan",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Roze robinia's aan de J.M. van der Meylaan",
+     "summary": "Eenendertig roze bloeiende robinia's en vijf witte langs de J.M. van der Meylaan, veel ervan 15 meter of hoger. Ze bloeien in juni en juli.",
+     "body": "De meeste bomen hier zijn Robinia ambigua 'Decaisneana', een robinia met zachtroze bloemen in losse, hangende trossen in juni en juli. Hij houdt van warmte en bloeit het best op een zonnige plek. Zeventien zijn in 1990 geplant en flink gegroeid: de meeste daarvan zijn nu 15 tot 18 meter hoog. Vijf gewone robinia's, geplant tussen 1989 en 2008, voegen in juni crèmewitte, geurende trossen toe.\n\nHet blad is fris heldergroen en geveerd en kleurt geel voor het valt. Na de bloei kunnen bruine peulen volgen.\n\nLet op: roze en witte trossen naast elkaar; de hoogte van de oudere bomen; de peulen na de bloei."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Summer-flowering trees",
+     "peak": "June",
+     "when": "June and July, in an ordinary year; the white ones in June.",
+     "what": "Locusts: 31 Robinia ambigua 'Decaisneana' (pink), 5 Robinia pseudoacacia (white)",
+     "trees": 36
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Juni en juli, in een gewoon jaar; de witte in juni.",
+       "what": "Robinia's: 31 Robinia ambigua 'Decaisneana' (roze), 5 Robinia pseudoacacia (wit)"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000329&soortnaamKort=Robinia&_format=json",
+    "https://www.vdberk.nl/bomen/robinia-ambigua-decaisneana/",
+    "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   ]
+  },
+  {
+   "spot": [
+    "r032"
+   ],
+   "title": "Magnolias of the Weidestraat",
+   "summary": "Forty-seven white magnolias along the Weidestraat in Betondorp, most planted in 2004. In March they flower on bare branches.",
+   "body": "The Weidestraat has 47 Magnolia kobus, the northern Japanese magnolia: 34 planted in 2004, ten in 2007, a few since. In March, before the leaves, the bare branches fill with open white flowers. A late night frost can brown them, so some years the show is short. The trees are still fairly small, under 9 metres, so the flowers are close.\n\nThis is Betondorp, the 1920s concrete village. After the flowers come dark red seed pods, and the leaves turn yellow in autumn.\n\nLook for: the white row on bare wood; the crowns still narrow and upright; the red seed pods in late summer.",
+   "category": "green",
+   "lat": 52.341124,
+   "lng": 4.946365,
+   "address": "Weidestraat",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Magnolia's in de Weidestraat",
+     "summary": "Zevenenveertig witte magnolia's langs de Weidestraat in Betondorp, de meeste geplant in 2004. In maart bloeien ze aan kale takken.",
+     "body": "In de Weidestraat staan 47 Magnolia kobus, de noordelijke Japanse magnolia: 34 geplant in 2004, tien in 2007, een paar later. In maart, nog voor het blad, staan de kale takken vol open witte bloemen. Een late nachtvorst kan ze bruin kleuren, dus sommige jaren is de bloei kort. De bomen zijn nog vrij klein, onder de 9 meter, dus de bloemen zijn dichtbij.\n\nDit is Betondorp, het betondorp uit de jaren twintig. Na de bloei komen donkerrode zaaddozen, in de herfst kleurt het blad geel.\n\nLet op: de witte rij aan kaal hout; de kronen die nog smal en opgaand zijn; de rode zaaddozen in de nazomer."
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Magnolia",
+     "peak": "March",
+     "when": "March, in an ordinary year; a night frost can cut it short.",
+     "what": "Northern Japanese magnolia: 47 Magnolia kobus",
+     "trees": 47
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Maart, in een gewoon jaar; een nachtvorst kan de bloei inkorten.",
+       "what": "Noordelijke Japanse magnolia: 47 Magnolia kobus"
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000390&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   ]
+  }
+ ],
+ "parks": [
+  {
+   "id": "vg0z6rjngmso1otuczhltuth",
+   "title": "Frankendael",
+   "spots": [
+    "r008",
+    "r198",
+    "r275"
+   ],
+   "what": "89 horse chestnuts (May): 72 white, 9 red, 6 yellow buckeye; 10 old-variety apples (April); 8 magnolias (March to April)",
+   "notes": "Horse chestnuts on the west side of the park by the Slingerlaan and the Kamerlingh Onneslaan, planted 2002 and 2005: 72 Aesculus hippocastanum (white candles, May), 9 Aesculus x carnea (red, May), 6 Aesculus flava (pale yellow with a pink glow, May), 2 young Aesculus (2020). Apples near the Middenweg, all planted 2002: 3 'Bramley's Seedling', 3 'Schone van Boskoop', 2 'James Grieve', 2 'Gravensteiner' (pink buds, white blossom in April). Magnolias by the Middenweg, mostly planted 1970: 3 kobus (March), 3 x soulangeana (April), 1 stellata (March), 1 unnamed.",
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Aesculus&_format=json",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Malus&_format=json",
+    "https://www.vdberk.nl/bomen/malus-domestica-gravensteiner/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/magnolia-soulangeana/",
+    "https://www.vdberk.nl/bomen/magnolia-stellata/",
+    "https://www.vdberk.nl/bomen/aesculus-carnea/",
+    "https://www.vdberk.nl/bomen/aesculus-flava/"
+   ]
+  },
+  {
+   "id": "cfpl1jwwcnurv2cxrr0z0ptb",
+   "title": "Ringdijk and the Watergraafsmeer polder",
+   "spots": [
+    "r111",
+    "r128"
+   ],
+   "what": "44 crab apples (May) on the Ringdijk, most planted 1968",
+   "notes": "Two stretches of the Ringdijk on the Transvaalkade side. By the Eerste Ringdijkstraat: 14 Malus 'Aldenhamensis' and 7 'Professor Sprenger' (dark pink buds, strongly scented white flowers in May, orange-yellow fruit that stays until late December), all 1968, plus 2 young Malus hupehensis (2023). Further east by the Lise Meitnerpad: 19 Malus 'Eleyi' (purple young leaves, deep wine-red flowers from mid May, dark red fruit), 15 of them from 1968 to 1969, plus 1 'Aldenhamensis' and 1 hupehensis. All on grass, mostly under 6 m.",
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000372&soortnaamKort=Malus&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000373&soortnaamKort=Malus&_format=json",
+    "https://www.vdberk.nl/bomen/malus-professor-sprenger/",
+    "https://www.vdberk.nl/bomen/malus-eleyi/"
+   ]
+  },
+  {
+   "id": "bjtlsgawp94nm7bw59v7zc2r",
+   "title": "De Nieuwe Ooster",
+   "spots": [
+    "r045",
+    "r181",
+    "r243"
+   ],
+   "what": "41 'Heaven Scent' magnolias (April), 38 Japanese cherries (April to early May)",
+   "notes": "All inside the cemetery grounds. On the Zaaiersweg side (around nos. 106 and 203): 40 Magnolia 'Heaven Scent' (narrow tulip-shaped lilac-pink flowers, deeper purple-pink at the base, April; still under 6 m) plus 1 more, and 12 cherries: 5 'Umineko' (white, April), 3 'Shirotae' (large white almond-scented flowers, end of April), 2 Prunus subhirtella 'Dahlem', 2 'Kanzan'. A young group of 15 'Kanzan' planted 2025 further south near Zaaiersweg 45. By the Middenweg corner: 10 'Sunset Boulevard' (white with a pink rim, April), planted 2008.",
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000389&soortnaamKort=Magnolia&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000389&soortnaamKort=Prunus&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-heaven-scent/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/",
+    "https://www.vdberk.nl/bomen/prunus-umineko/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-shirotae/",
+    "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "spot": "r117",
+   "reason": "22 wild cherries in one small clump on a verge by the Joan Muyskenweg, a main road in an office area; planting year unrecorded"
+  },
+  {
+   "spot": "r247",
+   "reason": "10 'Kanzan' of mixed ages scattered in the Torricellistraat"
+  },
+  {
+   "spot": "r232",
+   "reason": "11 'Umineko' in a business park (Verlengde Van Marwijk Kooystraat)"
+  },
+  {
+   "spot": "r146",
+   "reason": "19 crab apples of four varieties scattered round the Von Guerickestraat; no strong row"
+  },
+  {
+   "spot": "r261",
+   "reason": "10 to 14 young magnolias (2010 to 2021) in the Blankenstraat; modest"
+  },
+  {
+   "spot": "r269",
+   "reason": "9 magnolias of mixed ages in planting beds on the Wagenaarstraat"
+  },
+  {
+   "spot": "r274",
+   "reason": "8 magnolias on the Oosterspoorplein and 8 laburnums in the Nic. de Roeverstraat: two small groups"
+  },
+  {
+   "spot": "r209",
+   "reason": "13 magnolias on the Linnaeuskade planted 2024 to 2026: too young for now; revisit in a few years"
+  },
+  {
+   "spot": "r268",
+   "reason": "9 magnolias in the Padangstraat; modest"
+  },
+  {
+   "spot": "r208",
+   "reason": "13 young apple trees in the Sumatraplantsoen (2019 to 2024)"
+  },
+  {
+   "spot": "r048",
+   "reason": "40 black locusts along a cycle path in the Venserpolder green strip; no street or square to visit"
+  },
+  {
+   "spot": "r233",
+   "reason": "11 'Kanzan' in the Rutherfordstraat; small, and the Mariotteplein (r031) 400 m away is the better stop"
+  },
+  {
+   "spot": "r197",
+   "reason": "14 wild and double wild cherries on the verge of the Zuiderzeeweg, a main road"
+  }
+ ]
+}

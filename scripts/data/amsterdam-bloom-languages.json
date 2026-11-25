@@ -1,0 +1,9 @@
+{"languages": ["nl"], "translations": {"nl": {"fields": {
+ "bloom": {"label": "Bloei", "help": "Wat hier vooral bloeit.", "options": {"Cherry blossom": "Kersenbloesem", "Magnolia": "Magnolia", "Apple and pear blossom": "Appel- en perenbloesem", "Hawthorn": "Meidoorn", "Horse chestnut": "Paardenkastanje", "Other flowering trees": "Andere bloeiende bomen", "Summer-flowering trees": "Zomerbloeiers", "Wisteria and climbers": "Blauweregen en klimplanten", "Gardens": "Tuinen", "Roses": "Rozen", "Bulbs and tulips": "Bollen en tulpen", "Wild flowers": "Wilde bloemen", "Flower market": "Bloemenmarkt"}},
+ "peak": {"label": "Hoogtepunt", "help": "Wanneer de bloei in een gewoon jaar op zijn mooist is. Het weer schuift dat een week of twee op.", "options": {"Winter": "Winter", "March": "Maart", "Early April": "Begin april", "Late April": "Eind april", "May": "Mei", "June": "Juni", "July and August": "Juli en augustus", "Autumn": "Herfst"}},
+ "when": {"label": "Wanneer", "help": "Het bloeiseizoen in woorden: wat eerst komt en wat volgt."},
+ "what": {"label": "Wat bloeit", "help": "De bloemen of bomen, per soort en ras waar bekend."},
+ "trees": {"label": "Bloeiende bomen", "help": "Hoeveel van de genoemde bloeiende bomen hier staan, volgens het bomenbestand van de gemeente."},
+ "access": {"label": "Toegang", "help": "Vrij toegankelijk, openingstijden, seizoen of entree."},
+ "extra_description": {"label": "In bloei", "help": "Na de eigen tekst van de plek: hoe het er in bloei uitziet."}
+}}}}
