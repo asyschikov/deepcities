@@ -125,3 +125,83 @@ Map check (`dc places sights --all --q`): none of the nine is a place yet. Overl
 - Scout said "AAP 2019 (Noord/Zuidlijn)": confirmed; recognition says it was for the line.
   A.M. Schreuders prize year not found.
 - Access Public parts only (hall public, platforms with a ticket).
+
+## Verification
+
+Fact-check pass (CHECK-BRIEF). Every cited source re-fetched with curl (all 200 except Winhov,
+HTTP 500 to curl and in BrowserOS; read the Wayback copy of 2026-05-16 instead). Atelier PRO
+(JS page) and Micha de Haas (Wix) read in BrowserOS. Pins checked against PDOK / OSM: all on the
+building or address (Stadswerf is the Willem Parelstraat centroid, inside the block). Validator 0
+errors after edits; 8-word overlap test re-run against all Dutch and English source texts: no
+Dutch hits (one English run from Benthem Crouwel's page rephrased). No em dashes or spaced en
+dashes; summaries 222 to 272 characters.
+
+Changes:
+- Stadswerf Oostenburg: "Werkspoor's Van Gendt halls" narrowed to "the Van Gendt halls of 1894"
+  (Arcam gives 1894; neither source says they were Werkspoor's). EN and NL.
+- Frederiksplein 1: "for the owner Egeria, which now has its office here" changed to "turned it
+  into the head office of Egeria" (Winhov: "transformed into the head office of Egeria"; Arcam
+  and Egeria give it only as client and address; "owner" unsourced). "Neglect" is now confirmed
+  by Winhov's own text (ArchDaily's page did not show it). Winhov Wayback URL added to sources.
+  Photo added: `2023 Frederiksplein 1-3, Asd.jpg` (described as Staal's office at 1-3, category
+  Arthur Staal; the building is partly behind trees but both halves of the front show).
+- Het Duivenhuis: the aim to bring back the lost balconies, stairs and bargeboards is
+  ATELIERFRONT's per Arcam, so the sentence no longer attributes it to Cor Bouwstra too.
+  Summary now says the veranda brings them back "in modern form" (Arcam's words; the RCE advice
+  notes the lost bargeboard itself was not reconstructed). EN and NL.
+- Spider monkey house: "first animal home heated without fossil fuel" was unattributed in the
+  summary; now "Arcam calls it" (EN and NL). "treetop life" narrowed to "natural habitat"
+  (Arcam: "natuurlijke habitat"); NL reworded to match.
+- Verdana: "meters" removed from what sits on the inner lane (the architects' text puts meters,
+  hallways and stairs in the darker zones of the houses; Arcam: entrances and storage on the
+  lane). "wildly rolling" (hype) to "rolling". Photos added: `Blok K Funenpark (Q125679297) - 1`
+  and `- 2` (July 2025) and `Funen Verdana Amsterdam.jpg` (Nov 2009, building finished, park
+  still being laid).
+- Westerkaap (thin sourcing): found three more sources: DKV Architecten's own project pages
+  (Wayback 2007 and 2012: "Blok II Noord", four east-west strips, courts in the three widest,
+  themes Tuin/Plankier/Dorpsplein, brick outside, theme materials in the courts, views to the IJ
+  and the Westerdokshaven), Lingotto's project page (co-developer: partners Ymere and Amvest,
+  2002-2008, 300 homes, 300 parking places) and architectuurgids.nl (Rook & Nagelkerke: former
+  rail yard, block 2 and the point block by DKV, Baneke Van der Hoeven and AWG, brick outer
+  facades). Kept only what Arcam or DKV say, or what WUR says and a second source supports:
+  - Cut (WUR only): rent and owner-occupied mix; family houses with front and back doors on the
+    courts; no gardens of their own; courts communal; architects "in pairs per court"; rattan;
+    penthouses; "tall gateways" (Look for line now: the entrances marked in bamboo, wood or
+    stone, from Arcam).
+  - Fixed: "the housing associations Ymere and Lingotto": Lingotto is not a housing
+    association; now "developed by Amvest, Ymere and Lingotto" (Arcam, Lingotto, DKV).
+  - Narrowed: "a large underground car park, with the courts on its roof" to "built over a car
+    park" (WUR says it is built on a big car park; Lingotto's programme includes 300 parking
+    places). "Shared courts" in the summary to "courts".
+  - Replaced with Arcam/DKV facts: DKV supervised the block (Arcam); east-west strips with a
+    court in the three widest (DKV); low live-work homes round the courts (Arcam); DS
+    Landschapsarchitecten worked the themes into paving and planting with the architects
+    around each court (Arcam); taller wings above the plinth (Arcam).
+  - Not added (no new facts): Lingotto lists "Winnaar NEPROM prijs 2009" for Westerkaap; only
+    the developer's own page, not checked with Neprom (its site did not answer). Worth a check
+    by the coordinator if `recognition` should carry it.
+  - No photo: Commons has `Amsterdam - Westerkaap 1 (...)` (Fred Romero, 2016), but its
+    coordinates and view show the pointed northernmost block, not this second block; the
+    Westerdoksdijk street series (Elekes Andor 2018) is unidentified by block. Left empty.
+- Kindercampus De Jordaan: Micha de Haas's own project page read in BrowserOS: confirms the
+  programme, two classrooms per floor round a raised shared space, white brick for light in the
+  narrow street, the south front as a vertical garden and seasonal shading, the roof
+  greenhouse, completion 2013, Gouden AAP 2014 nomination (client given as stadsdeel Centrum;
+  Arcam: Gemeente Amsterdam; text "for the city" covers both). Added as first link and source.
+  "the children tend a greenhouse" narrowed to "a greenhouse where the children have gardening
+  lessons" (Arcam).
+- Centraal Station metro: all claims confirmed (Arcam, Benthem Crouwel, BNA news, ANP, De
+  Ingenieur, Tunnels & Tunnelling). One English sentence rephrased to avoid a run copied from
+  Benthem Crouwel. Photos added: `20180120 CS02`, `CS15`, `CS13` (Mojito, the new hall and
+  platforms with the A-shaped columns, January 2018) and `Weather Engine.jpg` (the artwork slot,
+  May 2018). Rejected the `2020 Metrohal Amsterdam CS` set: signs for lines 51/53/54, i.e. the
+  older eastern-line station, not the Noord/Zuidlijn hall.
+- Bijzondere Collecties: all claims confirmed; Atelier PRO page (BrowserOS) confirms five
+  national monuments, both 2008 nominations. Photos added: `Immeuble 127bis-129 Oude Turfmarkt
+  ... 2024-11-25 - 1` and `- 2` (the Vingboons houses with "Universiteit van Amsterdam" on the
+  cornice, gateway and gesticht) and `Bijzondere Collecties OTM.jpg` (2012, described as no. 129).
+- Still no photo (Commons searched by name, category, street and coordinates; only pre-works or
+  construction images): Stadswerf Oostenburg (Willem Parelstraat photos of 2023 show building
+  sites), Het Duivenhuis (only 2012 photos, before the veranda), Spider monkey house (none),
+  Westerkaap (see above), Kindercampus De Jordaan (none). The Commons API rate-limited (429 and
+  "too busy"); I backed off and used category pages and the API through BrowserOS.
