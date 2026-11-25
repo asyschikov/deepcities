@@ -32,6 +32,8 @@ export interface MapMarker {
   dimmed?: boolean;
   /** The reader has checked in here: drawn with a tick. */
   visited?: boolean;
+  /** Category icon as SVG markup, drawn inside the pin (experimental). */
+  icon?: string;
 }
 
 export interface LngLat {
@@ -515,7 +517,15 @@ export const MapView = ({
       }
       entry.marker.setLngLat([m.lng, m.lat]);
       const shape = entry.el.firstElementChild as HTMLElement | null;
-      if (shape) shape.style.background = m.color;
+      if (shape) {
+        shape.style.background = m.color;
+        // The visited tick takes the icon's place.
+        const icon = m.visited ? "" : (m.icon ?? "");
+        if (shape.dataset.icon !== icon) {
+          shape.innerHTML = icon;
+          shape.dataset.icon = icon;
+        }
+      }
       entry.el.title = m.title;
       entry.el.setAttribute("aria-label", m.title);
       entry.el.dataset.active = String(m.id === activeId);
