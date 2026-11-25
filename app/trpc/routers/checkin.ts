@@ -1,6 +1,6 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
-import { and, count, desc, eq, inArray } from "drizzle-orm";
+import { and, count, desc, eq, inArray, ne } from "drizzle-orm";
 import { z } from "zod/v4";
 import { citySlug } from "~/lib/cities";
 import {
@@ -178,10 +178,18 @@ export const checkinRouter = router({
       }
       const id = createId();
       const now = new Date();
+      // Site admins' visits don't count: the first visitor's bonus stays
+      // open for the first regular visitor, and admins never earn it.
       const [earlier] = await ctx.db
         .select({ n: count() })
         .from(checkin)
-        .where(eq(checkin.placeId, target.id));
+        .innerJoin(profileTable, eq(profileTable.id, checkin.profileId))
+        .where(
+          and(
+            eq(checkin.placeId, target.id),
+            ne(profileTable.role, "super_admin"),
+          ),
+        );
       await ctx.db.insert(checkin).values({
         id,
         collectionId: target.collectionId,
@@ -207,7 +215,7 @@ export const checkinRouter = router({
         kind: "checkin",
         key: `checkin:${target.id}`,
       });
-      if ((earlier?.n ?? 0) === 0) {
+      if (ctx.profile.role !== "super_admin" && (earlier?.n ?? 0) === 0) {
         points += await award(ctx.db, {
           ...base,
           kind: "first_visit",
