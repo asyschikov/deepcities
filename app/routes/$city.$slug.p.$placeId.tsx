@@ -10,6 +10,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { TRPCError } from "@trpc/server";
 import { formatDistanceToNow } from "date-fns";
 import {
+  ArrowDown,
   ArrowLeft,
   Clock,
   ExternalLink,
@@ -51,6 +52,7 @@ import { isMarkedGone } from "~/lib/gone";
 import { useMapPage } from "~/lib/map-page";
 import { formatDistance } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
+import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -271,15 +273,42 @@ const PlacePage = () => {
         attributes={place.attributes}
         className="rounded-lg border p-3"
       />
-      {place.body && (
-        <div className="space-y-3 text-sm leading-relaxed text-foreground/85">
-          <MarkdownView content={place.body} slug={slug} />
-        </div>
-      )}
+      {/* A theme map's own text comes first: it's why the place is on this
+          map. The place's general description follows, one tap away. */}
       {extra && (
-        <div className="space-y-3 border-t pt-3 text-sm leading-relaxed text-foreground/85">
+        <div className="space-y-3 text-sm leading-relaxed text-foreground/85">
+          {place.body && (
+            <button
+              type="button"
+              className="flex items-center gap-1 text-xs text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+              onClick={() =>
+                document
+                  .getElementById("place-about")
+                  ?.scrollIntoView({ behavior: "smooth", block: "start" })
+              }
+            >
+              <ArrowDown className="size-3" aria-hidden />
+              {t("place_about_jump")}
+            </button>
+          )}
           <MarkdownView content={extra} slug={slug} />
         </div>
+      )}
+      {place.body && (
+        <section
+          id="place-about"
+          className={cn(
+            "space-y-3 text-sm leading-relaxed text-foreground/85",
+            extra && "scroll-mt-4 border-t pt-3",
+          )}
+        >
+          {extra && (
+            <h2 className="font-sans text-sm font-semibold text-foreground">
+              {t("place_about")}
+            </h2>
+          )}
+          <MarkdownView content={place.body} slug={slug} />
+        </section>
       )}
 
       {children.length > 0 && (
