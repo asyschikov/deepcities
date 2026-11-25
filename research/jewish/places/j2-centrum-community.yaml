@@ -513,7 +513,7 @@
       - joodsamsterdam.nl/nieuwe-herengracht
 
 - title: Lindenbaum's printing works and the boy's first stone (Reguliersdwarsstraat 10)
-  summary: "In September 1912 eleven-year-old Erwin Lindenbaum laid the first stone of his father's new printing works, and it is still in the front. A few years later his father's lawsuit against a rival printer changed Dutch law. Father, mother and son were murdered in 1944."
+  summary: In September 1912 eleven-year-old Erwin Lindenbaum laid the first stone of his father's new printing works, and it is still in the front. A few years later his father's lawsuit against a rival printer changed Dutch law. Father, mother and son were murdered in 1944.
   body: |
     Max Lindenbaum was a printer from Essen who had settled in Amsterdam. In 1907 he bought Herengracht 457, and in 1912 he had this building put up behind it, on the Reguliersdwarsstraat, for his printing works. The first stone was laid that September by his son Erwin, who had just turned eleven; it is still in the front, beside three relief stones over the first-floor windows.
 
@@ -542,8 +542,6 @@
     monument_number: "215001"
     built: "1912"
     original_use: Printing works
-    check: Facts
-    check_note: "The register gives 26 September 1912 for the first stone, another source 25 September (Erwin's birthday); read the date on the stone"
   sources:
     - "Amsterdam municipal register 215001 (research/centrum/slices/gg-zuid-3.json): built 1912 behind Herengracht 457; printer Max Lindenbaum bought Herengracht 457 in 1907 and had this built for his printing works in 1912; first stone laid 26 September 1912 by E. Lindenbaum; three relief gable stones over the first-floor windows; wrought-iron railing above the cornice; recently converted with Herengracht 457 into apartments"
     - "joodsamsterdam.nl/gebbedrijfstoomdrukkerijlindenbaum (updated 15 Mar 2026): first stone laid 25 September 1912 by 11-year-old Erwin Simon Lindenbaum (b. 25 Sep 1901, d. Auschwitz 31 Mar 1944), still there; Max Lindenbaum (Essen 29 Mar 1871 - Theresienstadt 17 Nov 1944) founded the firm in 1896; wife Bertha Gundelfinger (d. Theresienstadt 3 Nov 1944); Erwin a translator; Lindenbaum/Cohen ruling"
@@ -552,7 +550,7 @@
   override: { attributes: { era: 1796 to 1940, theme: Work and trade } }
   nl:
     title: Drukkerij Lindenbaum en de eerste steen van de jongen (Reguliersdwarsstraat 10)
-    summary: "In september 1912 legde de elfjarige Erwin Lindenbaum de eerste steen van de drukkerij van zijn vader; die zit nog in de gevel. Een paar jaar later veranderde het proces van zijn vader tegen een concurrent het Nederlandse recht. Vader, moeder en zoon kwamen in 1944 om."
+    summary: In september 1912 legde de elfjarige Erwin Lindenbaum de eerste steen van de drukkerij van zijn vader; die zit nog in de gevel. Een paar jaar later veranderde het proces van zijn vader tegen een concurrent het Nederlandse recht. Vader, moeder en zoon kwamen in 1944 om.
     body: |
       Max Lindenbaum was een drukker uit Essen die zich in Amsterdam had gevestigd. In 1907 kocht hij Herengracht 457, en in 1912 liet hij daarachter, aan de Reguliersdwarsstraat, dit pand voor zijn drukkerij bouwen. De eerste steen werd die septembermaand gelegd door zijn zoon Erwin, die net elf was geworden; hij zit nog in de gevel, naast drie gevelstenen met reliëf boven de ramen van de eerste verdieping.
 
@@ -567,7 +565,6 @@
       - de drie reliëfstenen boven de ramen van de eerste verdieping, en het smeedijzeren hek langs het dak
     attributes:
       original_use: Drukkerij
-      check_note: "Het monumentenregister noemt 26 september 1912 voor de eerste steen, een andere bron 25 september (Erwins verjaardag); lees de datum op de steen"
     sources:
       - monumentenregister Amsterdam 215001 (redengevende omschrijving)
       - joodsamsterdam.nl/gebbedrijfstoomdrukkerijlindenbaum
