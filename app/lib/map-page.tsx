@@ -55,6 +55,8 @@ export interface MapPageState {
    */
   fieldFilters: FieldFilters;
   setFieldFilter: (key: string, values: string[]) => void;
+  /** Drops the search, category and every field filter: all places show. */
+  clearFilters: () => void;
   search: string;
   setSearch: (q: string) => void;
   /** Non-null while a form wants the user to place a pin. */
