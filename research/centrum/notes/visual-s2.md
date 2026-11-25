@@ -30,3 +30,13 @@ Main source: Amsterdam city panoramas (api.data.amsterdam.nl/panorama, capture d
 
 ## Not reached in this pass (flags untouched)
 Beta berlayar jauh and the bicycle garage (no city panos inside the Marineterrein or the garage), Kattenburgerplein, Leprozenpoort, Mbulu Ngulu (first views missed the column), Nieuwezijds Kolk, Plukbos, Dam name stones, garden house Keizersgracht 62, De Haan rooster, Tip Top (imagery is older than March 2026), Walk of Pride (imagery is older than July 2026), Roetershofje, Kogelbron (Dec 2024 view blocked by bushes).
+
+## Second round (visual-s2b.json)
+- **Kattenburgerplein** (ejhz4tz0): settled, pin moved. In the 19 Jun 2025 panos (recording_2025-06-19_07-14-50_01619 and _01623) the gable stone sits in the row over a ground-floor window. I triangulated it from the two views and moved the pin about 5 m to 52.371021, 4.916190. Which house numbers form the row is still not stated; the pin now sits on the stone.
+- **Mbulu Ngulu** (hkfuysk1): settled, pin moved. In the 19 Jun 2025 panos (recording_2025-06-19_09-55-15_00412 and _00406) the orange figure with purple rods stands on its advertising column by the water at the Sarphatistraat end. I triangulated it and moved the pin about 35 m north to 52.367453, 4.925136.
+- **Kogelbron** (biwkvjj3): still open. The 19 Jun 2025 pano (recording_2025-06-19_08-46-57_02003) shows the ball on its stone in the Oostenburgerpark. Whether the water runs and the ball turns can't be seen. Note updated.
+- **Leprozenpoort** (ooc9y80c): still open. The 2025 panos near the pin look at the Jodenbreestraat flats and the Snoekjesgracht; I could not find the gate. Note unchanged.
+- **Roetershofje** (aiw6w5vc): still open, note updated. The 3 Jul 2025 panos (recording_2025-07-03_06-23-16_01768/01769) show ordinary house doors and no marked hofje passage.
+- **Plukbos** (srn4uj1q): still open, note unchanged. The Jan 2025 panos around the block show only block fronts and a parking passage, with no sign or gate for the garden.
+- **Dam name stones** (x3vla7go): still open, note unchanged. In the 16 Jun 2025 panos looking down at the paving by the pin, no name stones are visible. The pin stays on the 4en5mei point.
+- **No usable imagery:** Beta berlayar jauh (Marineterrein, no city panos), the bicycle garage (underground), Tip Top (newest imagery June 2025, before the March 2026 windows), Walk of Pride (before July 2026), the garden house behind Keizersgracht 62 (not visible from the street) and the De Haan rooster (indoors). Nieuwezijds Kolk was not attempted, since the text already says nothing marks the spot. Flags untouched.
