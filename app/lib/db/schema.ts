@@ -167,6 +167,11 @@ export const collection = sqliteTable("collection", {
    * `view.source` (see `MapView`, app/lib/views.ts). Null for a home map.
    */
   view: text("view", { mode: "json" }).$type<MapView | null>(),
+  /** The picture on the map's card on the city page: any photo on the site. */
+  coverPhotoId: text("cover_photo_id").references(
+    (): AnySQLiteColumn => photo.id,
+    { onDelete: "set null" },
+  ),
   createdAt: createdAt(),
 });
 

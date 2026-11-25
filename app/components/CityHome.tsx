@@ -3,7 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { ArrowRight, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { cn } from "~/lib/utils";
+import { cn, photoUrl } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
@@ -63,33 +63,45 @@ export const CityHome = ({
                 to="/$city/$slug"
                 params={{ city: m.citySlug, slug: m.slug }}
                 className={cn(
-                  "group flex h-full flex-col rounded-xl border bg-card p-6 transition hover:-translate-y-0.5 hover:shadow-lg",
+                  "group flex h-full flex-col overflow-hidden rounded-xl border bg-card transition hover:-translate-y-0.5 hover:shadow-lg",
                   // The city's own map stands out, gently.
                   m.cityDefault && "border-brick/40 bg-brick/5 shadow-sm",
                 )}
               >
-                <span className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
-                  {m.city} · {t("home_place_count", { count: m.placeCount })}
-                </span>
-                <span className="mt-2 font-serif text-2xl leading-tight font-semibold">
-                  {m.cityDefault && (
-                    <Star
-                      className="mr-2 inline size-5 -translate-y-0.5 fill-brick text-brick"
-                      aria-label={t("home_city_map")}
-                      role="img"
+                {m.coverPhotoId && (
+                  <div className="aspect-[16/9] overflow-hidden bg-muted">
+                    <img
+                      src={photoUrl(m.coverPhotoId)}
+                      alt=""
+                      loading="lazy"
+                      className="size-full object-cover transition duration-500 group-hover:scale-[1.03]"
                     />
-                  )}
-                  {m.title}
-                </span>
-                {m.tagline && (
-                  <span className="mt-2 text-muted-foreground">
-                    {m.tagline}
-                  </span>
+                  </div>
                 )}
-                <span className="mt-6 inline-flex items-center gap-1 text-sm font-medium text-primary">
-                  {t("home_open_map")}
-                  <ArrowRight className="size-4 transition group-hover:translate-x-0.5" />
-                </span>
+                <div className="flex flex-1 flex-col p-6">
+                  <span className="text-xs font-medium tracking-wide text-muted-foreground uppercase">
+                    {m.city} · {t("home_place_count", { count: m.placeCount })}
+                  </span>
+                  <span className="mt-2 font-serif text-2xl leading-tight font-semibold">
+                    {m.cityDefault && (
+                      <Star
+                        className="mr-2 inline size-5 -translate-y-0.5 fill-brick text-brick"
+                        aria-label={t("home_city_map")}
+                        role="img"
+                      />
+                    )}
+                    {m.title}
+                  </span>
+                  {m.tagline && (
+                    <span className="mt-2 text-muted-foreground">
+                      {m.tagline}
+                    </span>
+                  )}
+                  <span className="mt-auto inline-flex items-center pt-6 gap-1 text-sm font-medium text-primary">
+                    {t("home_open_map")}
+                    <ArrowRight className="size-4 transition group-hover:translate-x-0.5" />
+                  </span>
+                </div>
               </Link>
             </li>
           ))}

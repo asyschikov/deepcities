@@ -112,7 +112,9 @@ MAP SCHEMA (map admins)
                                            their values are set with dc override
   dc settings <slug> <json|->              change map settings: title, tagline,
                                            description, city, centerLat, centerLng, zoom,
-                                           contributionPolicy, categories (full array of
+                                           contributionPolicy, coverPhotoId (the card
+                                           picture: a photo id, e.g. from dc place),
+                                           categories (full array of
                                            {key, label, color}; keys used by places stay);
                                            keys left out are kept
   dc languages <slug> <json|->             content languages: {"language": "en",
@@ -1877,6 +1879,7 @@ const commands: Record<
       "zoom",
       "categories",
       "contributionPolicy",
+      "coverPhotoId",
     ];
     const bad = Object.keys(input).filter((k) => !keys.includes(k));
     if (bad.length)

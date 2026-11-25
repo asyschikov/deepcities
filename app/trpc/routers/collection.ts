@@ -9,6 +9,7 @@ import {
   collection,
   collectionMember,
   goneReport,
+  photo,
   place,
   profile,
   proposal,
@@ -58,6 +59,8 @@ const settingsSchema = z.object({
   language: contentLangSchema.optional(),
   languages: z.array(contentLangSchema).max(12).optional(),
   translations: collectionTranslationsSchema.optional(),
+  /** The card picture on the city page; omit to leave it unchanged. */
+  coverPhotoId: idSchema.nullable().optional(),
 });
 
 /**
@@ -184,6 +187,7 @@ export const collectionRouter = router({
       tagline: c.tagline,
       city: c.city,
       view: c.view,
+      coverPhotoId: c.coverPhotoId,
       placeCount: byId.get(c.id) ?? 0,
     }));
   }),
@@ -298,6 +302,17 @@ export const collectionRouter = router({
         .selectDistinct({ category: place.category })
         .from(place)
         .where(eq(place.collectionId, collectionId));
+      if (settings.coverPhotoId) {
+        const cover = await ctx.db.query.photo.findFirst({
+          where: eq(photo.id, settings.coverPhotoId),
+          columns: { id: true },
+        });
+        if (!cover)
+          throw new TRPCError({
+            code: "BAD_REQUEST",
+            message: "Cover photo not found",
+          });
+      }
       const orphaned = inUse.filter((p) => !keys.has(p.category));
       if (orphaned.length > 0) {
         throw new TRPCError({
