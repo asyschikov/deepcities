@@ -612,7 +612,7 @@ export const goneReport = sqliteTable(
 
 /**
  * Explorer points: one row per award. `key` makes each award once-only per
- * person (e.g. one check-in a day per place); `sourceId` is the check-in or
+ * person (e.g. one check-in per place); `sourceId` is the check-in or
  * photo it came from, so forgetting a visit takes its points back. `city`
  * is the map's city, for leaderboards.
  */

@@ -228,7 +228,7 @@ export type ReportKind = (typeof REPORT_KINDS)[number];
  * Each award has a key so it is paid at most once (see `lib/score.ts`).
  */
 export const SCORE_POINTS = {
-  /** A check-in on the spot (once a day per place). */
+  /** A check-in on the spot (one per place, ever). */
   checkin: 10,
   /** The first check-in anyone ever made at the place. */
   first_visit: 5,

@@ -414,6 +414,13 @@ export const CheckInButton = ({
     enabled: viewer !== null,
   });
   if (!viewer) return null;
+  if (data?.checkedIn) {
+    return (
+      <Button size={size} variant="outline" className={className} disabled>
+        <CircleCheck className="text-[#15803d]" /> {t("visit_checked_in_done")}
+      </Button>
+    );
+  }
   return (
     <>
       <Button
@@ -605,7 +612,9 @@ export const VisitPanel = ({
   if (!canVisit) return null;
 
   const visits = data?.visits ?? [];
-  const latest = visits[0];
+  const checkedIn = data?.checkedIn ?? false;
+  // The visit to add to: your check-in, else an older "visited" mark.
+  const latest = visits.find((v) => v.verified) ?? visits[0];
   const here = reachOf(geo.fix, { lat, lng }).state === "here";
   const photos = visits.flatMap((v) => v.photos);
 
@@ -615,20 +624,14 @@ export const VisitPanel = ({
         {latest ? (
           <div className="flex min-w-0 flex-1 items-center gap-1.5 text-sm">
             <CircleCheck className="size-4 shrink-0 text-[#15803d]" />
-            <span className="font-medium">{t("visit_visited")}</span>
+            <span className="font-medium">
+              {checkedIn ? t("visit_checked_in_done") : t("visit_visited")}
+            </span>
             <span
               className="truncate text-muted-foreground"
               title={format(latest.createdAt, "PPp")}
             >
-              ·{" "}
-              {visits.length > 1
-                ? t("visit_times", {
-                    count: visits.length,
-                    when: formatDistanceToNow(latest.createdAt, {
-                      addSuffix: true,
-                    }),
-                  })
-                : formatDistanceToNow(latest.createdAt, { addSuffix: true })}
+              · {formatDistanceToNow(latest.createdAt, { addSuffix: true })}
             </span>
           </div>
         ) : (
@@ -638,15 +641,24 @@ export const VisitPanel = ({
               : t("visit_check_in_there", { reach: VISIT_REACH_M })}
           </p>
         )}
-        <Button
-          size="sm"
-          variant={here ? "default" : "outline"}
-          onClick={() => setOpen(true)}
-        >
-          <MapPinCheck />
-          {latest ? t("visit_check_in_again") : t("visit_check_in")}
-        </Button>
+        {!checkedIn && (
+          <Button
+            size="sm"
+            variant={here ? "default" : "outline"}
+            onClick={() => setOpen(true)}
+          >
+            <MapPinCheck />
+            {t("visit_check_in")}
+          </Button>
+        )}
       </div>
+      {!checkedIn && latest && (
+        <p className="text-xs text-muted-foreground">
+          {here
+            ? t("visit_you_are_here")
+            : t("visit_check_in_there", { reach: VISIT_REACH_M })}
+        </p>
+      )}
 
       {latest && (
         <>

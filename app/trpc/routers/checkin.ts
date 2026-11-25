@@ -20,7 +20,7 @@ import {
   profile as profileTable,
   verdict,
 } from "~/lib/db/schema";
-import { award, cityOf, dayOf, onTheSpot, revokeFrom } from "~/lib/score";
+import { award, cityOf, onTheSpot, revokeFrom } from "~/lib/score";
 import { draftOfPlace, idSchema } from "~/lib/validation";
 import { getAccess, requireCap } from "../access";
 import { authedProcedure, router } from "../init";
@@ -51,6 +51,35 @@ const positionSchema = z.object({
   lng: z.number().min(-180).max(180),
   accuracy: z.number().min(0).max(100_000),
 });
+
+/**
+ * A check-in made on the spot. Older ones ("mark as visited" from afar,
+ * before check-ins had to be on the spot) don't count as one.
+ */
+const verifiedAt = (
+  v: { lat: number | null; lng: number | null; accuracy: number | null },
+  target: { lat: number; lng: number },
+) =>
+  v.lat !== null &&
+  v.lng !== null &&
+  v.accuracy !== null &&
+  onTheSpot({ lat: v.lat, lng: v.lng, accuracy: v.accuracy }, target);
+
+/** Your on-the-spot check-in at a place, if you made one. */
+const verifiedCheckin = async (
+  db: Database,
+  target: { id: string; lat: number; lng: number },
+  profileId: string,
+) => {
+  const mine = await db.query.checkin.findMany({
+    where: and(
+      eq(checkin.placeId, target.id),
+      eq(checkin.profileId, profileId),
+    ),
+    columns: { id: true, lat: true, lng: true, accuracy: true },
+  });
+  return mine.find((v) => verifiedAt(v, target)) ?? null;
+};
 
 /** Points for a verdict: once per place, however often it changes. */
 const awardVerdict = async (
@@ -118,9 +147,11 @@ const ownCheckin = async (db: Database, id: string, profileId: string) => {
 
 export const checkinRouter = router({
   /**
-   * "I was here": only on the spot (the phone's position near the place),
-   * optionally with a verdict. Earns points; on your first check-in we also
-   * ask whether to make your profile public (`askPublic`).
+   * "I was here": once per place, only on the spot (the phone's position
+   * near the place), optionally with a verdict. After that you add photos,
+   * change your verdict or send corrections on the same visit. Earns
+   * points; on your first check-in we also ask whether to make your
+   * profile public (`askPublic`).
    */
   create: authedProcedure
     .input(
@@ -137,6 +168,12 @@ export const checkinRouter = router({
         throw new TRPCError({
           code: "BAD_REQUEST",
           message: "You need to be at the place to check in",
+        });
+      }
+      if (await verifiedCheckin(ctx.db, target, ctx.profile.id)) {
+        throw new TRPCError({
+          code: "CONFLICT",
+          message: "You've already checked in here",
         });
       }
       const id = createId();
@@ -168,7 +205,7 @@ export const checkinRouter = router({
       let points = await award(ctx.db, {
         ...base,
         kind: "checkin",
-        key: `checkin:${target.id}:${dayOf(now)}`,
+        key: `checkin:${target.id}`,
       });
       if ((earlier?.n ?? 0) === 0) {
         points += await award(ctx.db, {
@@ -355,7 +392,7 @@ export const checkinRouter = router({
   forPlace: authedProcedure
     .input(z.object({ placeId: idSchema }))
     .query(async ({ ctx, input }) => {
-      const [visits, mine] = await Promise.all([
+      const [visits, mine, target] = await Promise.all([
         ctx.db.query.checkin.findMany({
           where: and(
             eq(checkin.placeId, input.placeId),
@@ -370,12 +407,21 @@ export const checkinRouter = router({
             eq(verdict.profileId, ctx.profile.id),
           ),
         }),
+        ctx.db.query.place.findFirst({
+          where: eq(place.id, input.placeId),
+          columns: { lat: true, lng: true },
+        }),
       ]);
+      const verified = (v: (typeof visits)[number]) =>
+        target ? verifiedAt(v, target) : false;
       return {
+        /** Checked in on the spot: no more check-ins here. */
+        checkedIn: visits.some(verified),
         visits: visits.map((v) => ({
           id: v.id,
           createdAt: v.createdAt,
           routeId: v.routeId,
+          verified: verified(v),
           photos: v.photos.map((p) => ({
             id: p.id,
             kind: p.kind,

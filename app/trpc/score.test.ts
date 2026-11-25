@@ -71,7 +71,7 @@ describe("explorer points", () => {
     ).rejects.toThrow(/at the place/);
   });
 
-  it("pays a check-in, the first visit and a verdict, and asks about going public once", async () => {
+  it("pays one check-in per place, the first visit and a verdict", async () => {
     const first = await checkins(ann).create({
       placeId: "spot",
       position: NEAR,
@@ -80,25 +80,26 @@ describe("explorer points", () => {
     expect(first.points).toBe(10 + 5 + 2);
     expect(first.askPublic).toBe(true);
 
-    // Same day again: nothing more. Bob is not the first visitor.
-    const again = await checkins(ann).create({
+    // One check-in per place: a second is refused; the verdict can change.
+    await expect(
+      checkins(ann).create({ placeId: "spot", position: NEAR }),
+    ).rejects.toThrow(/already checked in/);
+    const changed = await checkins(ann).setVerdict({
       placeId: "spot",
-      position: NEAR,
       verdict: "amazing",
     });
-    expect(again.points).toBe(0);
+    expect(changed.points).toBe(0);
+    expect((await checkins(ann).forPlace({ placeId: "spot" })).checkedIn).toBe(
+      true,
+    );
     const bobs = await checkins(bob).create({
       placeId: "spot",
       position: NEAR,
     });
     expect(bobs.points).toBe(10);
 
-    await scores(ann).setPublic({ isPublic: false });
-    const later = await checkins(ann).create({
-      placeId: "spot",
-      position: NEAR,
-    });
-    expect(later.askPublic).toBe(false);
+    expect(bobs.askPublic).toBe(true);
+    await scores(bob).setPublic({ isPublic: false });
     expect((await scores(ann).mine()).total).toBe(17);
   });
 
@@ -110,6 +111,12 @@ describe("explorer points", () => {
     expect((await scores(ann).mine()).total).toBe(15);
     await checkins(ann).delete({ checkinId: id });
     expect((await scores(ann).mine()).total).toBe(0);
+    // With the visit gone, you can check in again.
+    const again = await checkins(ann).create({
+      placeId: "spot",
+      position: NEAR,
+    });
+    expect(again.points).toBe(15);
   });
 
   it("pays a correction once per place, more on the spot", async () => {

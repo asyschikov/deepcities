@@ -15,9 +15,6 @@ export const cityOf = async (db: Database, collectionId: string) => {
   return found?.city ?? "";
 };
 
-/** The calendar day (UTC) of a moment, for once-a-day awards. */
-export const dayOf = (at: Date) => at.toISOString().slice(0, 10);
-
 /**
  * Award points once: a second award with the same key (per person) is
  * ignored. Returns the points actually awarded (0 when already paid).
