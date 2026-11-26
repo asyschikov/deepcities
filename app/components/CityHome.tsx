@@ -128,6 +128,16 @@ export const CityHome = ({
         {maps.length === 0 && (
           <p className="text-muted-foreground">{t("home_no_maps")}</p>
         )}
+        {maps.length > 0 && (
+          <p className="mt-6 text-sm">
+            <a
+              href={`/${city}/places`}
+              className="inline-flex items-center gap-1 font-medium text-primary hover:underline"
+            >
+              {t("areas_browse")} <ArrowRight className="size-4" />
+            </a>
+          </p>
+        )}
       </section>
 
       {maps[0] && <Leaderboard city={maps[0].city} />}

@@ -20,12 +20,16 @@ import { Route as CitySlugIndexRouteImport } from './routes/$city.$slug.index'
 import { Route as CitySlugNewRouteImport } from './routes/$city.$slug.new'
 import { Route as CitySlugManageRouteImport } from './routes/$city.$slug_.manage'
 import { Route as CitySlugReviewRouteImport } from './routes/$city.$slug_.review'
+import { Route as CityPPlaceRouteImport } from './routes/$city.p.$place'
+import { Route as CityPlacesSplatRouteImport } from './routes/$city.places.$'
 import { Route as ApiTrpcSplatRouteImport } from './routes/api.trpc.$'
 import { Route as CitySlugDDocIdRouteImport } from './routes/$city.$slug.d.$docId'
 import { Route as CitySlugPPlaceIdRouteImport } from './routes/$city.$slug.p.$placeId'
 import { Route as CitySlugRRouteIdRouteImport } from './routes/$city.$slug.r.$routeId'
 import { Route as CitySlugRNewRouteImport } from './routes/$city.$slug.r.new'
 import { Route as CitySlugDNewRouteImport } from './routes/$city.$slug_.d.new'
+import { Route as NlCityPPlaceRouteImport } from './routes/nl.$city.p.$place'
+import { Route as NlCityPlacesSplatRouteImport } from './routes/nl.$city.places.$'
 import { Route as CitySlugPPlaceIdEditRouteImport } from './routes/$city.$slug.p.$placeId.edit'
 import { Route as CitySlugRRouteIdEditRouteImport } from './routes/$city.$slug.r.$routeId.edit'
 import { Route as CitySlugDDocIdEditRouteImport } from './routes/$city.$slug_.d.$docId.edit'
@@ -85,6 +89,16 @@ const CitySlugReviewRoute = CitySlugReviewRouteImport.update({
   path: '/$city/$slug/review',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CityPPlaceRoute = CityPPlaceRouteImport.update({
+  id: '/$city/p/$place',
+  path: '/$city/p/$place',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CityPlacesSplatRoute = CityPlacesSplatRouteImport.update({
+  id: '/$city/places/$',
+  path: '/$city/places/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiTrpcSplatRoute = ApiTrpcSplatRouteImport.update({
   id: '/api/trpc/$',
   path: '/api/trpc/$',
@@ -115,6 +129,16 @@ const CitySlugDNewRoute = CitySlugDNewRouteImport.update({
   path: '/$city/$slug/d/new',
   getParentRoute: () => rootRouteImport,
 } as any)
+const NlCityPPlaceRoute = NlCityPPlaceRouteImport.update({
+  id: '/nl/$city/p/$place',
+  path: '/nl/$city/p/$place',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NlCityPlacesSplatRoute = NlCityPlacesSplatRouteImport.update({
+  id: '/nl/$city/places/$',
+  path: '/nl/$city/places/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CitySlugPPlaceIdEditRoute = CitySlugPPlaceIdEditRouteImport.update({
   id: '/edit',
   path: '/edit',
@@ -142,6 +166,8 @@ export interface FileRoutesByFullPath {
   '/$city/$slug/new': typeof CitySlugNewRoute
   '/$city/$slug/manage': typeof CitySlugManageRoute
   '/$city/$slug/review': typeof CitySlugReviewRoute
+  '/$city/p/$place': typeof CityPPlaceRoute
+  '/$city/places/$': typeof CityPlacesSplatRoute
   '/api/trpc/$': typeof ApiTrpcSplatRoute
   '/$city/$slug/': typeof CitySlugIndexRoute
   '/$city/$slug/d/$docId': typeof CitySlugDDocIdRoute
@@ -149,6 +175,8 @@ export interface FileRoutesByFullPath {
   '/$city/$slug/r/$routeId': typeof CitySlugRRouteIdRouteWithChildren
   '/$city/$slug/r/new': typeof CitySlugRNewRoute
   '/$city/$slug/d/new': typeof CitySlugDNewRoute
+  '/nl/$city/p/$place': typeof NlCityPPlaceRoute
+  '/nl/$city/places/$': typeof NlCityPlacesSplatRoute
   '/$city/$slug/p/$placeId/edit': typeof CitySlugPPlaceIdEditRoute
   '/$city/$slug/r/$routeId/edit': typeof CitySlugRRouteIdEditRoute
   '/$city/$slug/d/$docId/edit': typeof CitySlugDDocIdEditRoute
@@ -163,6 +191,8 @@ export interface FileRoutesByTo {
   '/$city/$slug/new': typeof CitySlugNewRoute
   '/$city/$slug/manage': typeof CitySlugManageRoute
   '/$city/$slug/review': typeof CitySlugReviewRoute
+  '/$city/p/$place': typeof CityPPlaceRoute
+  '/$city/places/$': typeof CityPlacesSplatRoute
   '/api/trpc/$': typeof ApiTrpcSplatRoute
   '/$city/$slug': typeof CitySlugIndexRoute
   '/$city/$slug/d/$docId': typeof CitySlugDDocIdRoute
@@ -170,6 +200,8 @@ export interface FileRoutesByTo {
   '/$city/$slug/r/$routeId': typeof CitySlugRRouteIdRouteWithChildren
   '/$city/$slug/r/new': typeof CitySlugRNewRoute
   '/$city/$slug/d/new': typeof CitySlugDNewRoute
+  '/nl/$city/p/$place': typeof NlCityPPlaceRoute
+  '/nl/$city/places/$': typeof NlCityPlacesSplatRoute
   '/$city/$slug/p/$placeId/edit': typeof CitySlugPPlaceIdEditRoute
   '/$city/$slug/r/$routeId/edit': typeof CitySlugRRouteIdEditRoute
   '/$city/$slug/d/$docId/edit': typeof CitySlugDDocIdEditRoute
@@ -186,6 +218,8 @@ export interface FileRoutesById {
   '/$city/$slug/new': typeof CitySlugNewRoute
   '/$city/$slug_/manage': typeof CitySlugManageRoute
   '/$city/$slug_/review': typeof CitySlugReviewRoute
+  '/$city/p/$place': typeof CityPPlaceRoute
+  '/$city/places/$': typeof CityPlacesSplatRoute
   '/api/trpc/$': typeof ApiTrpcSplatRoute
   '/$city/$slug/': typeof CitySlugIndexRoute
   '/$city/$slug/d/$docId': typeof CitySlugDDocIdRoute
@@ -193,6 +227,8 @@ export interface FileRoutesById {
   '/$city/$slug/r/$routeId': typeof CitySlugRRouteIdRouteWithChildren
   '/$city/$slug/r/new': typeof CitySlugRNewRoute
   '/$city/$slug_/d/new': typeof CitySlugDNewRoute
+  '/nl/$city/p/$place': typeof NlCityPPlaceRoute
+  '/nl/$city/places/$': typeof NlCityPlacesSplatRoute
   '/$city/$slug/p/$placeId/edit': typeof CitySlugPPlaceIdEditRoute
   '/$city/$slug/r/$routeId/edit': typeof CitySlugRRouteIdEditRoute
   '/$city/$slug_/d/$docId/edit': typeof CitySlugDDocIdEditRoute
@@ -210,6 +246,8 @@ export interface FileRouteTypes {
     | '/$city/$slug/new'
     | '/$city/$slug/manage'
     | '/$city/$slug/review'
+    | '/$city/p/$place'
+    | '/$city/places/$'
     | '/api/trpc/$'
     | '/$city/$slug/'
     | '/$city/$slug/d/$docId'
@@ -217,6 +255,8 @@ export interface FileRouteTypes {
     | '/$city/$slug/r/$routeId'
     | '/$city/$slug/r/new'
     | '/$city/$slug/d/new'
+    | '/nl/$city/p/$place'
+    | '/nl/$city/places/$'
     | '/$city/$slug/p/$placeId/edit'
     | '/$city/$slug/r/$routeId/edit'
     | '/$city/$slug/d/$docId/edit'
@@ -231,6 +271,8 @@ export interface FileRouteTypes {
     | '/$city/$slug/new'
     | '/$city/$slug/manage'
     | '/$city/$slug/review'
+    | '/$city/p/$place'
+    | '/$city/places/$'
     | '/api/trpc/$'
     | '/$city/$slug'
     | '/$city/$slug/d/$docId'
@@ -238,6 +280,8 @@ export interface FileRouteTypes {
     | '/$city/$slug/r/$routeId'
     | '/$city/$slug/r/new'
     | '/$city/$slug/d/new'
+    | '/nl/$city/p/$place'
+    | '/nl/$city/places/$'
     | '/$city/$slug/p/$placeId/edit'
     | '/$city/$slug/r/$routeId/edit'
     | '/$city/$slug/d/$docId/edit'
@@ -253,6 +297,8 @@ export interface FileRouteTypes {
     | '/$city/$slug/new'
     | '/$city/$slug_/manage'
     | '/$city/$slug_/review'
+    | '/$city/p/$place'
+    | '/$city/places/$'
     | '/api/trpc/$'
     | '/$city/$slug/'
     | '/$city/$slug/d/$docId'
@@ -260,6 +306,8 @@ export interface FileRouteTypes {
     | '/$city/$slug/r/$routeId'
     | '/$city/$slug/r/new'
     | '/$city/$slug_/d/new'
+    | '/nl/$city/p/$place'
+    | '/nl/$city/places/$'
     | '/$city/$slug/p/$placeId/edit'
     | '/$city/$slug/r/$routeId/edit'
     | '/$city/$slug_/d/$docId/edit'
@@ -275,8 +323,12 @@ export interface RootRouteChildren {
   CityIndexRoute: typeof CityIndexRoute
   CitySlugManageRoute: typeof CitySlugManageRoute
   CitySlugReviewRoute: typeof CitySlugReviewRoute
+  CityPPlaceRoute: typeof CityPPlaceRoute
+  CityPlacesSplatRoute: typeof CityPlacesSplatRoute
   ApiTrpcSplatRoute: typeof ApiTrpcSplatRoute
   CitySlugDNewRoute: typeof CitySlugDNewRoute
+  NlCityPPlaceRoute: typeof NlCityPPlaceRoute
+  NlCityPlacesSplatRoute: typeof NlCityPlacesSplatRoute
   CitySlugDDocIdEditRoute: typeof CitySlugDDocIdEditRoute
 }
 
@@ -359,6 +411,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CitySlugReviewRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$city/p/$place': {
+      id: '/$city/p/$place'
+      path: '/$city/p/$place'
+      fullPath: '/$city/p/$place'
+      preLoaderRoute: typeof CityPPlaceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$city/places/$': {
+      id: '/$city/places/$'
+      path: '/$city/places/$'
+      fullPath: '/$city/places/$'
+      preLoaderRoute: typeof CityPlacesSplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/trpc/$': {
       id: '/api/trpc/$'
       path: '/api/trpc/$'
@@ -399,6 +465,20 @@ declare module '@tanstack/react-router' {
       path: '/$city/$slug/d/new'
       fullPath: '/$city/$slug/d/new'
       preLoaderRoute: typeof CitySlugDNewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nl/$city/p/$place': {
+      id: '/nl/$city/p/$place'
+      path: '/nl/$city/p/$place'
+      fullPath: '/nl/$city/p/$place'
+      preLoaderRoute: typeof NlCityPPlaceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nl/$city/places/$': {
+      id: '/nl/$city/places/$'
+      path: '/nl/$city/places/$'
+      fullPath: '/nl/$city/places/$'
+      preLoaderRoute: typeof NlCityPlacesSplatRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$city/$slug/p/$placeId/edit': {
@@ -479,8 +559,12 @@ const rootRouteChildren: RootRouteChildren = {
   CityIndexRoute: CityIndexRoute,
   CitySlugManageRoute: CitySlugManageRoute,
   CitySlugReviewRoute: CitySlugReviewRoute,
+  CityPPlaceRoute: CityPPlaceRoute,
+  CityPlacesSplatRoute: CityPlacesSplatRoute,
   ApiTrpcSplatRoute: ApiTrpcSplatRoute,
   CitySlugDNewRoute: CitySlugDNewRoute,
+  NlCityPPlaceRoute: NlCityPPlaceRoute,
+  NlCityPlacesSplatRoute: NlCityPlacesSplatRoute,
   CitySlugDDocIdEditRoute: CitySlugDDocIdEditRoute,
 }
 export const routeTree = rootRouteImport

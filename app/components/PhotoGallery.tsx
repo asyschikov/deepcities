@@ -19,7 +19,8 @@ export const Gallery = ({
   title: string;
 }) => {
   // The shown photo is in the URL (`?photo=2`), so links share it.
-  const { photo: index = 0 } = useSearch({ from: "/$city/$slug" });
+  // (Read loosely: the gallery is on map pages and on places' own pages.)
+  const { photo: index = 0 } = useSearch({ strict: false });
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [viewing, setViewing] = useState(false);

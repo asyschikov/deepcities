@@ -634,5 +634,19 @@
   "license_read": "{{license}}",
   "footer_license": "Text and visitors' photos:",
   "place_license": "Text by Deep Cities contributors,",
-  "edit_license": "Your text and photos are published under"
+  "edit_license": "Your text and photos are published under",
+  "breadcrumb": "Breadcrumb",
+  "place_show_on_map": "Show on the map",
+  "place_on_maps": "On these maps",
+  "place_nearby": "Nearby",
+  "areas_title_city": "Places to see in {{city}}",
+  "areas_title": "Places to see in {{area}}",
+  "areas_intro_one": "{{count}} sight, curiosity or story, from the famous to the forgotten.",
+  "areas_intro_other": "{{count}} sights, curiosities and stories, from the famous to the forgotten.",
+  "areas_count_one": "{{count}} place",
+  "areas_count_other": "{{count}} places",
+  "areas_elsewhere": "Elsewhere",
+  "areas_browse": "All places by area",
+  "areas_map": "See them on the map",
+  "areas_description": "{{count}} sights, curiosities and stories in {{area}}: {{names}}."
 }
