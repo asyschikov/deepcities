@@ -28,7 +28,7 @@ for f in sorted(glob.glob(os.path.join(HERE, "places", "*.json"))):
     if want and name not in want: continue
     for p in json.load(open(f)).get("places", []):
         d = {k: v for k, v in p.items() if k in IMPORT_KEYS}
-        if name.startswith("cur-") and p.get("sources") and not d.get("links"):
+        if not name.startswith("reg-") and p.get("sources") and not d.get("links"):
             d["links"] = link_list(p["sources"])
         d.setdefault("category", "green"); d.setdefault("detail", "theme")
         loc = areas.locate(d["lat"], d["lng"])

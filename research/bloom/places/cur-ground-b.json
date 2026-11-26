@@ -1,0 +1,294 @@
+{
+ "overrides": [
+  {
+   "id": "vg0z6rjngmso1otuczhltuth",
+   "note": "Frankendael",
+   "attributes": {
+    "bloom": "Horse chestnut",
+    "peak": "May",
+    "when": "Snowdrops in February, crocuses and daffodils by early March, magnolias March and April, apple blossom in April, horse chestnuts in May, the flower field through summer.",
+    "what": "89 horse chestnuts (72 white, 9 red, 6 yellow buckeye, 2 young); 10 old apple varieties; 8 magnolias; spring bulbs; a neighbours' flower field of mostly native plants.",
+    "trees": 107,
+    "extra_description": "The year starts in the front garden of the house with snowdrops, and by early March rows of crocuses and daffodils are out. By the Middenweg eight magnolias, most planted in 1970, open in March (kobus and stellata) and April (saucer magnolias), and ten apple trees of old varieties planted in 2002, among them 'Schone van Boskoop' and 'James Grieve', flower white in April. In May the west side of the park, by the Slingerlaan and the Kamerlingh Onneslaan, is all horse chestnut: 72 white, 9 red and 6 yellow buckeyes. Through summer the Bloemenveld, a strip of mostly native flowers that neighbours began planting along the winding path in late 2021, with some 900 plants to start, has something new in bloom every week. Behind the house volunteers are restoring the formal stijltuin."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Sneeuwklokjes in februari, krokussen en narcissen begin maart, magnolia's in maart en april, appelbloesem in april, paardenkastanjes in mei, het bloemenveld de hele zomer.",
+      "what": "89 paardenkastanjes (72 witte, 9 rode, 6 gele pavia's, 2 jonge); 10 oude appelrassen; 8 magnolia's; voorjaarsbollen; een bloemenveld van buurtbewoners met vooral inheemse planten.",
+      "extra_description": "Het jaar begint in de voortuin van het huis met sneeuwklokjes, en begin maart staan er rijen krokussen en narcissen in bloei. Bij de Middenweg gaan acht magnolia's, de meeste uit 1970, open in maart (kobus en stellata) en april (gewone magnolia's), en tien appelbomen van oude rassen uit 2002, onder meer 'Schone van Boskoop' en 'James Grieve', bloeien wit in april. In mei is de westkant van het park, bij de Slingerlaan en de Kamerlingh Onneslaan, één en al paardenkastanje: 72 witte, 9 rode en 6 gele pavia's. De hele zomer bloeit er elke week iets nieuws in het Bloemenveld, een strook met vooral inheemse bloemen die buurtbewoners eind 2021 langs het slingerpad begonnen te planten, met om te beginnen zo'n 900 planten. Achter het huis herstellen vrijwilligers de stijltuin."
+     }
+    }
+   },
+   "sources": [
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Aesculus&_format=json",
+    "https://www.vdberk.nl/bomen/aesculus-hippocastanum/",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Malus&_format=json",
+    "https://api.data.amsterdam.nl/v1/bomen/stamgegevens/?gbdBuurtId=03630980000375&soortnaamKort=Magnolia&_format=json",
+    "https://www.vdberk.nl/bomen/magnolia-kobus/",
+    "https://www.vdberk.nl/bomen/magnolia-soulangeana/",
+    "https://urban-herbology.org/stijltuin/",
+    "https://geheugenvanoost.amsterdam/page/116262/ooievaars-in-park-frankendael",
+    "https://geheugenvanoost.amsterdam/page/72696/sneeuwklokjes-in-de-voortuin-van-frankendael",
+    "https://hallowatergraafsmeer.nl/project/8000/wilde-pluktuin-frankendael---bloemenveld-frankendael",
+    "https://buurtgroen020.nl/project/9542/bloemenveld-park-frankendael"
+   ]
+  },
+  {
+   "id": "kapgrw5hh9ge5asngh71p0pr",
+   "note": "Diemerpark and De Ontmoeting",
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "June",
+    "when": "Orchids from late May into July; buttercups along the dike and ox-eye daisies on the north side in early summer.",
+    "what": "Wild orchids: hundreds of southern marsh orchids, marsh and broad-leaved helleborine, bee orchid, also pyramidal orchid and twayblade; buttercups, ox-eye daisies.",
+    "extra_description": "The park with the highest biodiversity in Amsterdam is also its orchid park. On the thin living layer over the sealed dump grow several wild orchids: hundreds of southern marsh orchids, many in the ditch along the Diemerzeedijk, with marsh helleborine, broad-leaved helleborine and the rare bee orchid, whose flower mimics a bee; the park's friends have also reported pyramidal orchid and common twayblade. They flower from late May into July in rough grass left long for them. At the same time the Diemerzeedijk side turns yellow with buttercups and the north side white with ox-eye daisies, while meadow crane's-bill, viper's bugloss and crown vetch come up. Stay on the paths and look, don't pick."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Orchideeën van eind mei tot in juli; boterbloemen langs de dijk en margrieten aan de noordkant in de vroege zomer.",
+      "what": "Wilde orchideeën: honderden rietorchissen, moeraswespenorchis, brede wespenorchis, bijenorchis, ook hondskruid en grote keverorchis; boterbloemen, margrieten.",
+      "extra_description": "Het park met de hoogste biodiversiteit van Amsterdam is ook het orchideeënpark van de stad. Op de dunne leeflaag boven de afgesloten stortplaats groeien verschillende wilde orchideeën: honderden rietorchissen, veel in de slenk langs de Diemerzeedijk, met moeraswespenorchis, brede wespenorchis en de zeldzame bijenorchis, waarvan de bloem een bij nadoet; de Vrienden van het Diemerpark zagen er ook hondskruid en grote keverorchis. Ze bloeien van eind mei tot in juli in het ruige gras, dat voor ze lang blijft staan. Tegelijk kleurt de kant van de Diemerzeedijk geel van de boterbloemen en de noordkant wit van de margrieten, en komen beemdooievaarsbek, slangenkruid en bont kroonkruid op. Blijf op de paden en kijk, niet plukken."
+     }
+    }
+   },
+   "sources": [
+    "https://halloijburg.nl/locatie/7840/diemerpark-natuurpark",
+    "https://www.parool.nl/ps/op-orchideeensafari-in-het-amsterdamse-diemerpark-met-natuurliefhebber-leen-pauwels-telkens-als-ik-iets-nieuws-ontdek-geeft-me-dat-een-dopamineshotje~bdd250b6/",
+    "https://www.facebook.com/Diemerpark/posts/645219914309746/",
+    "https://www.facebook.com/Diemerpark/posts/orchidee%C3%ABn-in-het-diemerparkin-het-diemerpark-komen-maar-liefst-vier-soorten-orc/1531819583524215/",
+    "https://vriendenvanhetdiemerpark.nl/natuur/"
+   ]
+  },
+  {
+   "id": "g4igs6lw3gmky63u4cq5wz41",
+   "note": "Gaasperpark",
+   "attributes": {
+    "bloom": "Cherry blossom",
+    "peak": "Early April",
+    "when": "Magnolia kobus in March and April; Japanese cherries around April, the varieties one after another.",
+    "what": "Japanese cherries of several varieties and tall Magnolia kobus, both from the Floriade of 1982; a rose garden.",
+    "extra_description": "The Japanese cherries in the Gaasperpark date from the Floriade of the early 1980s, and they are not all one variety, so they flower one after another, from white to bright pink, mostly in April. At the same time the tall white Magnolia kobus, also Floriade trees, flower in March and April, big scented white flowers on bare branches. The Floriade rose garden is still in the park for summer. From September 2025 the park was closed for a makeover with new paths, a swimming beach and 390 new trees; it reopened in stages from June 2026, and the last fences came down in November 2026."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Magnolia kobus in maart en april; Japanse sierkersen rond april, de soorten na elkaar.",
+      "what": "Japanse sierkersen van verschillende soorten en hoge Magnolia kobus, allebei uit de Floriade van 1982; een rozentuin.",
+      "extra_description": "De Japanse sierkersen in het Gaasperpark stammen uit de Floriade van begin jaren tachtig, en het is niet één soort, dus ze bloeien na elkaar, van wit tot felroze, meestal in april. Tegelijk bloeien in maart en april de hoge witte Magnolia kobus, ook Floriadebomen, met grote geurende witte bloemen aan kale takken. De rozentuin van de Floriade ligt er nog voor de zomer. Vanaf september 2025 was het park dicht voor een opknapbeurt met nieuwe paden, een zwemstrandje en 390 nieuwe bomen; het ging vanaf juni 2026 stap voor stap weer open, en in november 2026 gingen de laatste hekken weg."
+     }
+    }
+   },
+   "sources": [
+    "https://www.groengebied-amstelland.nl/nieuws/bloesempracht-van-japanse-sierkers-en-magnolia-in-gaasperpark/1689",
+    "https://www.groengebied-amstelland.nl/nieuws/gaasperpark-stap-voor-stap-verder-open/2531",
+    "https://www.groengebied-amstelland.nl/nieuws/werkzaamheden-in-het-gaasperpark-bijna-afgerond/2583"
+   ]
+  },
+  {
+   "id": "p5yf4mqk44lhng1p4snglo1w",
+   "note": "Theetuin on the Bakkerschans",
+   "attributes": {
+    "bloom": "Bulbs and tulips",
+    "peak": "Late April",
+    "when": "Thousands of spring bulbs from snowdrops to late tulips in spring (bulb weekend 16 to 18 April 2027); perennials from then until October.",
+    "what": "A model garden of spring bulbs, perennials, grasses and shrubs by Jacqueline van der Kloet.",
+    "access": "Daily 9:00 to 18:00, closed on Sundays and public holidays; best April to October.",
+    "extra_description": "Hidden behind beech hedges more than 60 years old on the Bakkerschans, a bastion of 1674, this was the first tea garden in the Netherlands, laid out in 1986 by Jacqueline van der Kloet with Stan Gall and Niek Roozen. Garden lovers know it for Van der Kloet's plant combinations. It is at its very best in spring, when thousands of bulbs flower, from snowdrops to late tulips; after that perennials, grasses and shrubs take over, many of them bee and butterfly plants. Borders round the oval pond, ringed by a tall thuja hedge, are laid out as examples of what goes with what. Each April the Bloembollenweekend shows the bulbs at their peak, with unusual plants and bulbs for sale (16 to 18 April 2027, free)."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Duizenden voorjaarsbollen van sneeuwklokje tot late tulp in het voorjaar (bloembollenweekend 16 tot 18 april 2027); daarna vaste planten tot oktober.",
+      "what": "Een voorbeeldtuin met voorjaarsbollen, vaste planten, siergrassen en heesters van Jacqueline van der Kloet.",
+      "access": "Dagelijks 9.00 tot 18.00 uur, op zon- en feestdagen gesloten; op zijn mooist van april tot oktober.",
+      "extra_description": "Verstopt achter beukenhagen van meer dan zestig jaar oud op de Bakkerschans, een bastion uit 1674, ligt de eerste theetuin van Nederland, in 1986 aangelegd door Jacqueline van der Kloet met Stan Gall en Niek Roozen. Tuinliefhebbers kennen hem om de plantcombinaties van Van der Kloet. Op zijn allermooist is hij in de lente, als duizenden bollen bloeien, van sneeuwklokjes tot late tulpen; daarna nemen vaste planten, siergrassen en heesters het over, veel ervan bijen- en vlinderplanten. De borders rond de ovale vijver, omringd door een hoge thujahaag, zijn aangelegd als voorbeeld van wat bij elkaar past. Elk jaar in april toont het Bloembollenweekend de bollen op hun hoogtepunt, met bijzondere planten en bollen te koop (16 tot 18 april 2027, gratis)."
+     }
+    }
+   },
+   "sources": [
+    "https://theetuin.nl/",
+    "https://theetuin.nl/bloembollen-weekend-2027/",
+    "https://www.uitzinnig.nl/evenement/12272-bloemweekend-in-de-theetuin-van-weesp.aspx"
+   ]
+  },
+  {
+   "id": "nn9dz9xz6dfsxupeol81tfn3",
+   "note": "Flevopark, lawns and shade by the Nieuwe Diep",
+   "attributes": {
+    "bloom": "Wild flowers",
+    "peak": "Late April",
+    "when": "Wild garlic in the second half of April, gone over within a week or two; cuckooflower and the first cow parsley at the same time.",
+    "what": "Carpets of wild garlic (ramsons) under the beeches and along the path by the south field; cuckooflower, cow parsley.",
+    "extra_description": "In spring the Flevopark smells faintly of onions. Past the bridge by Parknest, wild garlic covers the ground between the beech trunks with white flowers, and there is more along the path by the south field towards the Jeugdland entrance. Oost-online's walker found it at its peak in the second half of April 2026 and warned that it goes over fast: the leaves brown and the smell turns stale within a week or two. Cuckooflower and the first cow parsley flower at the same time, and the wild path along the Jewish cemetery is full of birdsong then."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Daslook in de tweede helft van april, binnen een week of twee uitgebloeid; pinksterbloem en het eerste fluitenkruid tegelijk.",
+      "what": "Tapijten daslook tussen de beuken en langs het pad bij het zuidelijke veld; pinksterbloem, fluitenkruid.",
+      "extra_description": "In het voorjaar ruikt het Flevopark vaag naar uien. Voorbij de brug bij Parknest bedekt bloeiend daslook de grond tussen de beukenstammen, en langs het pad bij het zuidelijke veld richting de ingang bij Jeugdland staat nog meer. De wandelaar van oost-online trof het in de tweede helft van april 2026 op zijn hoogtepunt en waarschuwde dat het snel verpietert: binnen een week of twee wordt het blad bruin en ruik je dat. Pinksterbloem en het eerste fluitenkruid bloeien tegelijk, en op het wilde paadje langs de Joodse begraafplaats zingen dan de vogels."
+     }
+    }
+   },
+   "sources": [
+    "https://oost-online.nl/oostommetje-daslook-en-monument/",
+    "https://www.amsterdam.nl/leefomgeving/parken-recreatiegebieden/flevopark/"
+   ]
+  },
+  {
+   "id": "baepsfj5rwmkm35aozjwfgjw",
+   "note": "Zorgvlied cemetery",
+   "attributes": {
+    "bloom": "Gardens",
+    "peak": "June",
+    "when": "Bulbs in spring, then perennials and summer flowers into autumn.",
+    "what": "Olivia's Ode, a natural flower-picking garden of bulbs, perennials and summer flowers, kept by volunteers.",
+    "access": "Mon to Fri 9:00 to 17:00, Sat and Sun 10:00 to 17:00, holidays 11:00 to 17:00; free. Picking is for flowers to lay on graves here.",
+    "extra_description": "Next to the Paradiso section of this 1870 landscape cemetery lies Olivia's Ode, a natural flower-picking garden named after one of the volunteers who started it. Prepared from spring 2021, it was officially opened by Amstelveen's mayor in early 2023. People visiting a grave may pick a few flowers here to lay on it. Bulbs come first in spring, then perennials and summer flowers take over, so the garden looks different every season and draws bees and other insects; volunteers plant and sow it. There are benches among the beds. In the middle lies the collective grave, and the letters from the cemetery's post box for the dead, which contain flower seeds, are planted here too."
+   },
+   "translations": {
+    "nl": {
+     "attributes": {
+      "when": "Bollen in het voorjaar, daarna vaste planten en zomerbloemen tot in de herfst.",
+      "what": "Olivia's Ode, een natuurlijke bloemenpluktuin met bollen, vaste planten en zomerbloemen, onderhouden door vrijwilligers.",
+      "access": "Ma t/m vr 9.00 tot 17.00 uur, za en zo 10.00 tot 17.00 uur, feestdagen 11.00 tot 17.00 uur; gratis. Plukken is voor bloemen bij een graf hier.",
+      "extra_description": "Naast het gedeelte Paradiso van deze landschapsbegraafplaats uit 1870 ligt Olivia's Ode, een natuurlijke bloemenpluktuin, genoemd naar een van de vrijwilligers die hem begonnen. De voorbereiding begon in het voorjaar van 2021; begin 2023 opende de burgemeester van Amstelveen de tuin officieel. Wie hier een graf bezoekt, mag een paar bloemen plukken om erbij te leggen. In het voorjaar bloeien eerst de bollen, daarna nemen vaste planten en zomerbloemen het over, zodat de tuin er elk seizoen anders uitziet en bijen en andere insecten trekt; vrijwilligers planten en zaaien. Tussen de perken staan bankjes. In het midden ligt het verzamelgraf, en de brieven uit de brievenbus voor hemelpost, waarin bloemzaad zit, worden hier ook geplant."
+     }
+    }
+   },
+   "sources": [
+    "https://zorgvlied.amstelveen.nl/verzamelgraf-de-bloemenpluktuin",
+    "https://www.amstelveensnieuwsblad.nl/nieuws/natuur-en-milieu/87461/pluktuin-om-bloemen-bij-graf-te-kunnen-leggen-geopend-op-zorgvlied",
+    "https://zorgvlied.amstelveen.nl/contact-en-openingstijden",
+    "https://zorgvlied.amstelveen.nl/geschiedenis-van-zorgvlied"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "title": "Pick-your-own flowers at Noorderbloemen",
+   "summary": "An organic city nursery and flower-picking garden in Amsterdam-Noord, tucked away behind the furniture and DIY strip. Pick your own bunch from summer to mid October; weekends only.",
+   "body": "Noorderbloemen is a small organic nursery and picking garden on the grounds of the Salvation Army at the Heggerankweg, next to the school gardens and sheltered by a belt of trees. Growers, volunteers and people from the Salvation Army's day programme raise the plants together, certified organic, without pesticides or artificial fertiliser. You walk along the stock beds, where the mother plants for seed and cuttings grow as they like, and cut a bunch of your own; you pay for what you pick. The artist Elspeth Diederix, who designed The Miracle Garden in the Erasmuspark, helped set it up.\n\nThe nursery and picking garden open on weekends from March; picking runs through summer until mid October, when everything is cut back and mulched for winter. Het Parool lists it among its favourite addresses for organic flowers.\n\nLook for:\n- the stock beds of mother plants\n- bee and butterfly plants in flower\n- pots to take home from the nursery",
+   "category": "green",
+   "lat": 52.395821,
+   "lng": 4.912581,
+   "address": "Heggerankweg 61, Amsterdam-Noord",
+   "municipality": "Amsterdam",
+   "detail": "theme",
+   "translations": {
+    "nl": {
+     "title": "Zelf bloemen plukken bij Noorderbloemen",
+     "summary": "Een biologische stadskwekerij en bloemenpluktuin in Amsterdam-Noord, verstopt achter de woon- en klusboulevard. Pluk je eigen bos van de zomer tot half oktober; alleen in het weekend.",
+     "body": "Noorderbloemen is een kleine biologische kwekerij en pluktuin op het terrein van het Leger des Heils aan de Heggerankweg, naast de schooltuinen en beschut door bosplantsoen. Kwekers, vrijwilligers en deelnemers aan de dagbesteding van het Leger des Heils kweken de planten samen, biologisch gecertificeerd, zonder gif of kunstmest. Je loopt langs de moederbedden, waar de planten voor zaad en stek groeien zoals ze willen, en plukt zelf een bos; je betaalt voor wat je plukt. Kunstenaar Elspeth Diederix, die The Miracle Garden in het Erasmuspark ontwierp, hielp bij de opzet.\n\nKwekerij en pluktuin gaan vanaf maart in het weekend open; plukken kan de hele zomer tot half oktober, als alles wordt teruggesnoeid en onder de compost gaat voor de winter. Het Parool rekent het tot de leukste adressen voor biobloemen in de stad.\n\nLet op:\n- de moederbedden\n- bloeiende bijen- en vlinderplanten\n- planten in pot om mee naar huis te nemen"
+    }
+   },
+   "override": {
+    "attributes": {
+     "bloom": "Gardens",
+     "peak": "July and August",
+     "when": "Picking from early summer to mid October; the nursery opens on weekends from March.",
+     "what": "Organic cut flowers and garden perennials, grown from the nursery's own stock beds.",
+     "access": "Sat and Sun 10:00 to 16:00, March to mid October; closed in winter. You pay per bunch picked."
+    },
+    "translations": {
+     "nl": {
+      "attributes": {
+       "when": "Plukken van de vroege zomer tot half oktober; de kwekerij is vanaf maart in het weekend open.",
+       "what": "Biologische snijbloemen en vaste tuinplanten, gekweekt van de eigen moederbedden.",
+       "access": "Za en zo 10.00 tot 16.00 uur, maart tot half oktober; in de winter gesloten. Je betaalt per geplukte bos."
+      }
+     }
+    }
+   },
+   "sources": [
+    "https://noorderbloemen.nl/",
+    "https://noorderbloemen.nl/contact/",
+    "https://noorderbloemen.nl/about/",
+    "https://indebuurt.nl/amsterdam/doen/zelf-bloemen-plukken-hier-in-amsterdam-vind-je-een-pluktuin~422560/",
+    "https://www.parool.nl/uit-in-amsterdam/de-leukste-adressen-voor-biobloemen-en-planten~b68274d6/",
+    "https://www.parool.nl/uit-in-amsterdam/op-eigen-houtje-fruit-of-een-bos-bloemen-plukken-dit-zijn-de-leukste-zelfpluktuinen-in-en-rond-amsterdam~b0f874ac/"
+   ]
+  }
+ ],
+ "skipped": [
+  {
+   "id": "dooz34r4idotx35jr4r58zi8",
+   "note": "Noorderpark",
+   "reason": "No sourced meadow or bulb planting; the park's rose garden is already its own bloom place (q7fo0p7qrnl7zy6ybti3ifg4). West part is being redesigned (amsterdam.nl)."
+  },
+  {
+   "note": "Westerpark Cultuurpark meadows",
+   "reason": "No source names flowers or meadows in the Westergas part; Westerpark keeps its tree override."
+  },
+  {
+   "note": "Sloterpark",
+   "reason": "Only a 2022 residents' note on bulbs and herbs planted on the east shore, with doubts about upkeep; the heemtuin already has its own override."
+  },
+  {
+   "id": "esioyoe9ueen62my3l2cdxo1",
+   "note": "Erasmuspark",
+   "reason": "No ground flowers beyond The Miracle Garden, which is on bloom already."
+  },
+  {
+   "id": "bjtlsgawp94nm7bw59v7zc2r",
+   "note": "De Nieuwe Ooster",
+   "reason": "Own site and arboretum site name no bulbs, stinzen plants or meadows; keeps its tree override."
+  },
+  {
+   "id": "o16sdm2wiswgj3mbremjguew",
+   "note": "Huis te Vraag",
+   "reason": "Ivy-and-fern garden; own site names no flowers."
+  },
+  {
+   "id": "w511s87raq8x48kr18o27ary",
+   "note": "Begraafplaats Sint Barbara",
+   "reason": "Own flora page names only plane trees, yew and box hedges and bedding pansies and begonias."
+  },
+  {
+   "note": "Herdenkingspark Westgaarde",
+   "reason": "Only a demonstration field of grave covers with some nectar planting (PC Uitvaart); no flower show."
+  },
+  {
+   "note": "Oosterbegraafplaats",
+   "reason": "Gone: the old cemetery became the Oosterpark (on the pool, skipped for flowers earlier)."
+  },
+  {
+   "note": "Diemerbos",
+   "reason": "No source on flowers; news is about its management funding (2026-27) and birds."
+  },
+  {
+   "note": "Natuurtuin Diemen (Harmonielaan)",
+   "reason": "Exists (IVN Diemen, SNTP), but a 400 m2 demonstration garden with no flowers named."
+  },
+  {
+   "note": "Natuurpark Spoorzicht, Diemen",
+   "reason": "Wet wood being redeveloped by Diemen (new boardwalk to come); no flower show sourced."
+  },
+  {
+   "note": "Vlinderidylle De Sniep, Diemen",
+   "reason": "Small sown butterfly strip by the Iet van Feggelenlaan (opened May 2023); too slight to visit."
+  },
+  {
+   "note": "Tuinpark Nieuw Vredelust and Ons Lustoord, Duivendrecht",
+   "reason": "Allotment parks open to walkers (Nieuw Vredelust 1 Apr to 1 Oct) but no flower planting described; both threatened by De Nieuwe Kern."
+  },
+  {
+   "note": "Frankendael stinzen plants (lenteklokje, wild daffodil, star of Bethlehem)",
+   "reason": "Only in a 1996 Trouw article; recent sources confirm snowdrops, crocuses and daffodils only, which are in the override."
+  },
+  {
+   "note": "De Gezonde Tuin",
+   "reason": "No Amsterdam garden of that name found."
+  },
+  {
+   "note": "Wilde bloemen blije bijen, Slotervaart and Geuzenveld",
+   "reason": "10 to 15 small sown patches (725 m2 in all), not one place."
+  },
+  {
+   "note": "Pluk! (Tuinen van West)",
+   "reason": "Members' CSA garden, not open picking."
+  }
+ ]
+}

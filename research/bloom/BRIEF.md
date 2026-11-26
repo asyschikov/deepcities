@@ -114,3 +114,38 @@ under threat or changing (the Bloesempark's replanting): say so plainly with dat
 
 Bloom words: same `bloom` and `peak` options as the register brief; for ground flowers use
 Gardens, Roses, Bulbs and tulips, Wild flowers, Flower market, Wisteria and climbers.
+
+---
+
+# Ground slices (grd-*): the city's own green register
+
+Source: `api.data.amsterdam.nl/v1/objectenopenbareruimte/groenobjecten/` (Objecten Openbare Ruimte),
+where each lawn or verge carries a management class (`beheerafspraak`) and the flags `bollen`
+(bulbs planted) and `ecologischBeheer` (ecological mowing). Clustered by `scripts/ground_cluster.py`
+(objects within 25 m joined):
+
+- `ground-bulbs.json`: "GAZON MET BOLLEN" (lawn planted with bulbs), clusters of 3,000 m2 and up.
+- `ground-meadows.json`: "BLOEMRIJK GRAS" (flower-rich grass under ecological management), clusters of 2 ha and up.
+
+Each cluster: area_m2, objects, pin, top streets, buurt, wijk, stadsdeel, sample object ids (look one
+up at `.../groenobjecten/<id>/?_format=json` for details).
+
+What the register does NOT say: which bulbs, which wild flowers. Find that per spot (local press,
+friends' groups, the stadsdeel, ecologists' reports, iNaturalist/waarneming.nl counts only as a
+hint, never as the sole fact), and in general terms from the city's own pages on its mowing policy
+(amsterdam.nl: read in BrowserOS). Where no spot source names the flowers, say only what the
+register and the city's general policy support ("the city manages these 6 ha as flower-rich grass,
+mown late so the flowers can seed"), give the season of that kind of grassland per the city's or a
+mainstream source, and keep the text short. Never invent species for a spot.
+
+Decide per cluster:
+- Inside or touching a park/green place already in the pool: merge into that place as Kind O. If it
+  is already on bloom (`dc places bloom`), give the full improved override (merge with what's there,
+  see places/cur-pool.json and cur-ground-*.json) in "overrides". If the pool place is not on bloom
+  yet, a fresh override.
+- Otherwise a Kind N place, titled by what and where ("Crocus lawns of the Funenpark",
+  "Flower-rich dike of the Diemerzeedijk"), pinned on the largest patch, with `bloom` "Bulbs and
+  tulips" or "Wild flowers".
+- Skip: road verges along motorways or rail, sports fields, business parks, private or fenced land,
+  anything you can't reach on foot or by bike; and small bits of a big cluster that is mostly that.
+- Several clusters along one dike, park or polder: one place.
