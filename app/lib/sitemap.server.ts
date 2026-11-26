@@ -6,7 +6,7 @@ import { eq, sql } from "drizzle-orm";
 import { citySlug, mapPath, placeParam } from "./cities";
 import type { Database } from "./db";
 import { collection, document, place, route } from "./db/schema";
-import { areasPath, PREFIXED_LANGS } from "./place-page";
+import { areasPath, PREFIXED_LANGS, THIN_LIST } from "./place-page";
 import { absoluteUrl } from "./seo";
 
 interface Entry {
@@ -49,6 +49,7 @@ export const sitemapEntries = async (db: Database): Promise<Entry[]> => {
         municipality: place.municipality,
         borough: place.borough,
         neighbourhood: place.neighbourhood,
+        subNeighbourhood: place.subNeighbourhood,
         prefixedTitles: sql<
           string | null
         >`json_extract(${place.translations}, ${`$.${PREFIXED_LANGS[0]}.title`})`,
@@ -100,30 +101,35 @@ export const sitemapEntries = async (db: Database): Promise<Entry[]> => {
       ...prefixed.map((l) => ({ path: `/${l}${path}`, lastmod: p.updatedAt })),
     ];
   });
-  const areaPaths = [
-    ...new Set(
-      places.flatMap((p) => {
-        const home = mapById.get(p.collectionId);
-        if (!home) return [];
-        const level1 =
-          p.borough ?? (p.municipality !== home.city ? p.municipality : null);
-        const paths = [
-          areasPath(home.city),
-          ...(level1 ? [areasPath(home.city, level1)] : []),
-          ...(level1 && p.neighbourhood
-            ? [areasPath(home.city, level1, p.neighbourhood)]
-            : []),
-        ];
-        const langs = PREFIXED_LANGS.filter(
-          (l) => l !== home.language && home.languages.includes(l),
-        );
-        return [
-          ...paths,
-          ...langs.flatMap((l) => paths.map((x) => `/${l}${x}`)),
-        ];
-      }),
-    ),
-  ];
+  // Each area list once per language, if it isn't too thin to index.
+  const areaCounts = new Map<string, number>();
+  places.forEach((p) => {
+    const home = mapById.get(p.collectionId);
+    if (!home) return;
+    const level1 =
+      p.borough ?? (p.municipality !== home.city ? p.municipality : null);
+    const levels = [level1, p.neighbourhood, p.subNeighbourhood];
+    const firstGap = levels.indexOf(null);
+    const names = (firstGap < 0 ? levels : levels.slice(0, firstGap)).filter(
+      (x): x is string => x !== null,
+    );
+    const langs = PREFIXED_LANGS.filter(
+      (l) => l !== home.language && home.languages.includes(l),
+    );
+    const paths = names.map((_, i) =>
+      areasPath(home.city, ...names.slice(0, i + 1)),
+    );
+    [...paths, ...langs.flatMap((l) => paths.map((x) => `/${l}${x}`))].forEach(
+      (x) => areaCounts.set(x, (areaCounts.get(x) ?? 0) + 1),
+    );
+    [
+      areasPath(home.city),
+      ...langs.map((l) => `/${l}${areasPath(home.city)}`),
+    ].forEach((x) => areaCounts.set(x, Infinity));
+  });
+  const areaPaths = [...areaCounts.entries()]
+    .filter(([, n]) => n >= THIN_LIST)
+    .map(([x]) => x);
   const cities = [...new Set(maps.map((m) => citySlug(m.city)))];
 
   return [

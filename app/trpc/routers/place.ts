@@ -391,6 +391,7 @@ const placePage = async (
         found.municipality,
       ].filter((a): a is string => Boolean(a)),
       neighbourhood: found.neighbourhood,
+      sub: found.subNeighbourhood,
       municipality: found.municipality,
       links: found.links,
       photoIds: found.photoIds,
@@ -461,7 +462,7 @@ export const placeRouter = router({
     .input(
       z.object({
         city: z.string().max(60),
-        areas: z.array(z.string().max(80)).max(2),
+        areas: z.array(z.string().max(80)).max(3),
         lang: contentLangSchema.optional(),
       }),
     )

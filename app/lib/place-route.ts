@@ -62,13 +62,13 @@ const loadAreaPage = createServerFn({ method: "GET" })
     }
   });
 
-/** `/<city>/places/<borough>/<neighbourhood>` (the splat is the areas). */
+/** `/<city>/places/<borough>/<neighbourhood>/<sub>` (the splat: areas). */
 export const loadAreaPageFor = async (
   params: { city: string; _splat?: string },
   lang: ContentLang | undefined,
 ) => {
   const areas = (params._splat ?? "").split("/").filter(Boolean);
-  if (areas.length > 2) throw notFound();
+  if (areas.length > 3) throw notFound();
   const data = await loadAreaPage({ data: { city: params.city, areas, lang } });
   if (!data) throw notFound();
   if (lang && data.lang !== lang)

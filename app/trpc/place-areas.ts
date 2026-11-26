@@ -4,8 +4,8 @@
  * links to the places' own pages. Crawlable and light, unlike the map.
  *
  * Levels: the city; its boroughs (a place outside the city proper goes under
- * its municipality); their neighbourhoods, whose page lists the places
- * grouped by sub-neighbourhood. A small borough lists its places directly.
+ * its municipality); neighbourhoods; sub-neighbourhoods. Each page links the
+ * areas below it and, when short enough, lists its places too.
  */
 import { TRPCError } from "@trpc/server";
 import { and, eq, inArray, isNull, sql } from "drizzle-orm";
@@ -17,8 +17,8 @@ import { collection, place } from "~/lib/db/schema";
 import { areaSlug, langPrefix } from "~/lib/place-page";
 import { snippet } from "~/lib/seo";
 
-/** A borough this small lists its places on its own page. */
-const SMALL_BOROUGH = 120;
+/** An area with this many places or fewer lists them all on its page. */
+const LIST_ALL = 150;
 
 const translated = (
   column: typeof place.translations,
@@ -85,19 +85,27 @@ export const areaPage = async (
     );
 
   const cityName = main.city;
-  const level1Of = (r: (typeof rows)[number]) =>
-    r.borough ?? (r.municipality !== cityName ? r.municipality : null);
-  const [b, n] = input.areas;
-  const inBorough = b
-    ? rows.filter((r) => areaSlug(level1Of(r) ?? "") === b)
-    : rows;
-  const inArea = n
-    ? inBorough.filter((r) => areaSlug(r.neighbourhood ?? "") === n)
-    : inBorough;
-  if ((b && inBorough.length === 0) || (n && inArea.length === 0))
-    throw new TRPCError({ code: "NOT_FOUND", message: "Area not found" });
-  const boroughName = b ? inBorough[0] && level1Of(inBorough[0]) : null;
-  const hoodName = n ? (inArea[0]?.neighbourhood ?? null) : null;
+  type Row = (typeof rows)[number];
+  // The area levels, coarse to fine.
+  const keys: ((r: Row) => string | null)[] = [
+    (r) => r.borough ?? (r.municipality !== cityName ? r.municipality : null),
+    (r) => r.neighbourhood,
+    (r) => r.sub,
+  ];
+  // Narrow down level by level; each step must match something.
+  const trail: { name: string; slug: string; rows: Row[] }[] = [];
+  let inArea = rows;
+  for (const [i, slug] of input.areas.entries()) {
+    const key = keys[i];
+    if (!key) break;
+    inArea = inArea.filter((r) => areaSlug(key(r) ?? "") === slug);
+    const first = inArea[0];
+    const name = first ? key(first) : null;
+    if (!name)
+      throw new TRPCError({ code: "NOT_FOUND", message: "Area not found" });
+    trail.push({ name, slug, rows: inArea });
+  }
+  const depth = trail.length;
 
   const prefix = langPrefix(lang, main.language);
   const citySeg = citySlug(cityName);
@@ -109,21 +117,18 @@ export const areaPage = async (
       ),
     ),
   );
-  const item = (r: (typeof rows)[number]) => ({
+  const item = (r: Row) => ({
     id: r.id,
     title: r.localTitle?.trim() || r.title,
-    summary: snippet(r.localSummary?.trim() || r.summary, 140),
+    summary: snippet(r.localSummary?.trim() || r.summary, 110),
     path: `${prefix}/${citySeg}/p/${placeParam(r)}`,
     category: categories.get(`${r.collectionId}:${r.category}`) ?? null,
   });
   const byTitle = (x: { title: string }, y: { title: string }) =>
     x.title.localeCompare(y.title, lang);
   /** Places grouped by `key`, groups by name (unnamed last). */
-  const groups = (
-    list: typeof rows,
-    key: (r: (typeof rows)[number]) => string | null,
-  ) => {
-    const by = new Map<string, typeof rows>();
+  const groups = (list: Row[], key: (r: Row) => string | null) => {
+    const by = new Map<string, Row[]>();
     list.forEach((r) => {
       const k = key(r) ?? "";
       by.set(k, [...(by.get(k) ?? []), r]);
@@ -136,73 +141,49 @@ export const areaPage = async (
         places: list.map(item).sort(byTitle),
       }));
   };
-  /** Child areas with their place counts. */
-  const children = (
-    list: typeof rows,
-    key: (r: (typeof rows)[number]) => string | null,
-    pathOf: (name: string) => string,
-    subKey?: (r: (typeof rows)[number]) => string | null,
-  ) => {
-    const by = new Map<string, typeof rows>();
-    list.forEach((r) => {
+  const here = `/${citySeg}/places${trail.map((t) => `/${t.slug}`).join("")}`;
+  const key = keys[depth];
+  const subKey = keys[depth + 1];
+  // The areas one level down, with their counts and the names below them.
+  const byChild = new Map<string, Row[]>();
+  if (key)
+    inArea.forEach((r) => {
       const k = key(r);
-      if (k) by.set(k, [...(by.get(k) ?? []), r]);
+      if (k) byChild.set(k, [...(byChild.get(k) ?? []), r]);
     });
-    return [...by.entries()]
-      .sort(([x], [y]) => x.localeCompare(y))
-      .map(([name, list]) => ({
-        name,
-        path: `${prefix}${pathOf(name)}`,
-        count: list.length,
-        parts: subKey
-          ? [...new Set(list.flatMap((r) => subKey(r) ?? []))].sort()
-          : [],
-      }));
-  };
-  const base = `/${citySeg}/places`;
-
-  const level: "city" | "borough" | "neighbourhood" = n
-    ? "neighbourhood"
-    : b
-      ? "borough"
-      : "city";
-  const areas =
-    level === "city"
-      ? children(
-          rows,
-          level1Of,
-          (x) => `${base}/${areaSlug(x)}`,
-          (r) => r.neighbourhood,
-        )
-      : level === "borough"
-        ? children(
-            inBorough,
-            (r) => r.neighbourhood,
-            (x) => `${base}/${b}/${areaSlug(x)}`,
-            (r) => r.sub,
-          )
-        : [];
+  const areas = [...byChild.entries()]
+    .sort(([x], [y]) => x.localeCompare(y))
+    .map(([name, list]) => ({
+      name,
+      path: `${prefix}${here}/${areaSlug(name)}`,
+      count: list.length,
+      parts: subKey
+        ? [...new Set(list.flatMap((r) => subKey(r) ?? []))].sort()
+        : [],
+    }));
+  // A short enough list shows all its places, by the next level down; a
+  // long one only those that fit no child area.
   const placeGroups =
-    level === "neighbourhood"
-      ? groups(inArea, (r) => r.sub)
-      : level === "borough"
-        ? inBorough.length <= SMALL_BOROUGH
-          ? groups(inBorough, (r) => r.neighbourhood)
+    depth === 0
+      ? []
+      : !key
+        ? groups(inArea, () => null)
+        : inArea.length <= LIST_ALL
+          ? groups(inArea, key)
           : groups(
-              inBorough.filter((r) => !r.neighbourhood),
+              inArea.filter((r) => !key(r)),
               () => null,
-            ).filter((g) => g.places.length > 0)
-        : [];
+            ).filter((g) => g.places.length > 0);
 
   return {
-    level,
+    level: depth === 0 ? ("city" as const) : ("area" as const),
     lang,
     baseLang: main.language,
     languages,
     city: { name: cityName, slug: citySeg },
     map: localizeCollection(main, translateTo).title,
-    borough: boroughName ? { name: boroughName, slug: b ?? "" } : null,
-    neighbourhood: hoodName ? { name: hoodName, slug: n ?? "" } : null,
+    /** The areas this list is in, coarse to fine (empty: the whole city). */
+    trail: trail.map(({ name, slug }) => ({ name, slug })),
     count: inArea.length,
     areas,
     groups: placeGroups,

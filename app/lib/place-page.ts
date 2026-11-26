@@ -93,6 +93,7 @@ interface PlacePageShape {
     address: string | null;
     municipality: string | null;
     neighbourhood: string | null;
+    sub: string | null;
     photoIds: string[];
     slugParam: string;
     level1: string | null;
@@ -105,21 +106,19 @@ export const placeLangPath = (d: PlacePageShape, lang: ContentLang): string =>
   `${langPrefix(lang, d.baseLang)}/${d.city.slug}/p/${d.place.slugParam}`;
 
 export const placeCrumbs = (d: PlacePageShape): Crumb[] => {
-  const prefix = langPrefix(d.lang, d.baseLang);
-  const { level1, neighbourhood } = d.place;
+  const base = `${langPrefix(d.lang, d.baseLang)}${areasPath(d.city.name)}`;
+  // Its areas coarse to fine, up to the first one it lacks.
+  const levels = [d.place.level1, d.place.neighbourhood, d.place.sub];
+  const firstGap = levels.indexOf(null);
+  const names = (firstGap < 0 ? levels : levels.slice(0, firstGap)).filter(
+    (x): x is string => x !== null,
+  );
   return [
-    { name: d.city.name, path: `${prefix}${areasPath(d.city.name)}` },
-    ...(level1
-      ? [{ name: level1, path: `${prefix}${areasPath(d.city.name, level1)}` }]
-      : []),
-    ...(level1 && neighbourhood
-      ? [
-          {
-            name: neighbourhood,
-            path: `${prefix}${areasPath(d.city.name, level1, neighbourhood)}`,
-          },
-        ]
-      : []),
+    { name: d.city.name, path: base },
+    ...names.map((name, i) => ({
+      name,
+      path: [base, ...names.slice(0, i + 1).map(areaSlug)].join("/"),
+    })),
     { name: d.place.title },
   ];
 };
@@ -155,14 +154,13 @@ export const placeHead = (d: PlacePageShape) => {
 };
 
 interface AreaPageShape {
-  level: "city" | "borough" | "neighbourhood";
+  level: "city" | "area";
   lang: ContentLang;
   baseLang: ContentLang;
   languages: ContentLang[];
   city: { name: string; slug: string };
   map: string;
-  borough: { name: string; slug: string } | null;
-  neighbourhood: { name: string; slug: string } | null;
+  trail: { name: string; slug: string }[];
   count: number;
   groups: { places: { title: string }[] }[];
 }
@@ -171,37 +169,29 @@ interface AreaPageShape {
 export const areaLangPath = (d: AreaPageShape, lang: ContentLang): string =>
   [
     `${langPrefix(lang, d.baseLang)}/${d.city.slug}/places`,
-    ...(d.borough ? [d.borough.slug] : []),
-    ...(d.neighbourhood ? [d.neighbourhood.slug] : []),
+    ...d.trail.map((t) => t.slug),
   ].join("/");
 
 export const areaCrumbs = (d: AreaPageShape): Crumb[] => {
-  const prefix = langPrefix(d.lang, d.baseLang);
-  const cityPath = `${prefix}/${d.city.slug}/places`;
-  const boroughPath = d.borough && `${cityPath}/${d.borough.slug}`;
+  const cityPath = `${langPrefix(d.lang, d.baseLang)}/${d.city.slug}/places`;
   return [
-    { name: d.city.name, path: d.level === "city" ? undefined : cityPath },
-    ...(d.borough
-      ? [
-          {
-            name: d.borough.name,
-            path:
-              d.level === "borough" ? undefined : (boroughPath ?? undefined),
-          },
-        ]
-      : []),
-    ...(d.neighbourhood ? [{ name: d.neighbourhood.name }] : []),
+    { name: d.city.name, path: d.trail.length > 0 ? cityPath : undefined },
+    ...d.trail.map((t, i) => ({
+      name: t.name,
+      path:
+        i < d.trail.length - 1
+          ? [cityPath, ...d.trail.slice(0, i + 1).map((x) => x.slug)].join("/")
+          : undefined,
+    })),
   ];
 };
 
 /** Where the area is, most specific first: "Centrum-West, Centrum, Amsterdam". */
 export const areaName = (d: AreaPageShape): string =>
-  [d.neighbourhood?.name, d.borough?.name, d.city.name]
-    .filter(Boolean)
-    .join(", ");
+  [...d.trail.map((t) => t.name).reverse(), d.city.name].join(", ");
 
 /** Lists this short are too thin to be worth a search result. */
-const THIN_LIST = 5;
+export const THIN_LIST = 5;
 
 /** `t` in the page's language (`i18n.getFixedT(d.lang)`). */
 export const areaHead = (
@@ -228,7 +218,7 @@ export const areaHead = (
             : t("areas_intro", { count: d.count }),
         path,
       }),
-      ...(d.level !== "city" && d.count < THIN_LIST
+      ...(d.level === "area" && d.count < THIN_LIST
         ? [{ name: "robots", content: "noindex, follow" }]
         : []),
     ],
