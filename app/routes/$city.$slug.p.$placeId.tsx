@@ -52,6 +52,7 @@ import { extraDescription } from "~/lib/fields";
 import { isMarkedGone } from "~/lib/gone";
 import { useMapPage } from "~/lib/map-page";
 import { formatDistance } from "~/lib/routes";
+import { canonicalLink, jsonLdScript, placeJsonLd, seoMeta } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
@@ -521,13 +522,26 @@ export const Route = createFileRoute("/$city/$slug/p/$placeId")({
     if (!data) throw notFound();
     return data;
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData
-      ? [
-          { title: `${loaderData.place.title} · Deep Cities` },
-          { name: "description", content: loaderData.place.summary },
-        ]
-      : [],
-  }),
+  head: ({ loaderData, params }) => {
+    if (!loaderData) return {};
+    const { place, home, canonical } = loaderData;
+    const path = `/${canonical?.city ?? params.city}/${canonical?.slug ?? params.slug}/p/${place.id}`;
+    const photoId = place.photoIds[0];
+    return {
+      meta: [
+        ...seoMeta({
+          title: `${place.title} · ${home.title}`,
+          description: place.summary,
+          path,
+          photoId,
+          type: "article",
+        }),
+        { property: "place:location:latitude", content: String(place.lat) },
+        { property: "place:location:longitude", content: String(place.lng) },
+      ],
+      links: canonicalLink(path),
+      scripts: [jsonLdScript(placeJsonLd(place, path, photoId))],
+    };
+  },
   component: PlacePage,
 });

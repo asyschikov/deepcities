@@ -100,7 +100,7 @@ const linkColumns = {
  */
 const familyOf = async (
   db: Database,
-  found: { id: string; parentId: string | null; collectionId: string },
+  found: ViewedPlace & { id: string; parentId: string | null },
   currentSlug: string | undefined,
 ) => {
   const homeId = found.collectionId;
@@ -135,6 +135,7 @@ const familyOf = async (
   ]);
   const current = maps.find((m) => m.slug === currentSlug) ?? null;
   const lists = await listsOf(db, [
+    found.id,
     ...parentRows.map((p) => p.id),
     ...childRows.map((p) => p.id),
   ]);
@@ -158,7 +159,18 @@ const familyOf = async (
     link: link(p, kind),
   });
   const parentRow = parentRows[0];
+  // Its one address for search engines: the home map if it shows the place,
+  // else the first view that does.
+  const canonical = mapToLink(
+    { ...found, lists: lists.get(found.id) },
+    childRows.length > 0,
+    linkOrder("parent", null, maps, homeId),
+    maps,
+  );
   return {
+    canonical: canonical
+      ? { city: citySlug(canonical.city), slug: canonical.slug }
+      : null,
     parent: parentRow ? brief(parentRow, "parent") : null,
     children: childRows.map((c) => brief(c, "child")),
   };
@@ -388,6 +400,8 @@ export const placeRouter = router({
         parent: family.parent,
         /** Its parts, if it is a cluster. */
         children: family.children,
+        /** The map its canonical URL is on (null: none shows it). */
+        canonical: family.canonical,
       };
     }),
 });

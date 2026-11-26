@@ -16,6 +16,7 @@ import { createDb } from "./lib/db";
 import { checkinPhoto, photo } from "./lib/db/schema";
 import { redirectFor } from "./lib/redirects.server";
 import type { ServerEnv } from "./lib/server-env";
+import { robotsTxt, sitemapEntries, sitemapXml } from "./lib/sitemap.server";
 
 const escapeHtml = (s: string) =>
   s.replace(
@@ -132,6 +133,21 @@ export default {
 
     const redirect = redirectFor(request, env);
     if (redirect) return redirect;
+
+    if (pathname === "/robots.txt")
+      return new Response(robotsTxt(), {
+        headers: {
+          "Content-Type": "text/plain; charset=utf-8",
+          "Cache-Control": "public, max-age=86400",
+        },
+      });
+    if (pathname === "/sitemap.xml")
+      return new Response(sitemapXml(await sitemapEntries(createDb(env.DB))), {
+        headers: {
+          "Content-Type": "application/xml; charset=utf-8",
+          "Cache-Control": "public, max-age=3600",
+        },
+      });
 
     if (pathname === "/auth/verify") return handleVerify(request, env);
     if (pathname === "/auth/signout" && request.method === "POST")

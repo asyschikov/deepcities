@@ -13,6 +13,7 @@ import { SiteHeader } from "~/components/SiteHeader";
 import { Toaster } from "~/components/ui/sonner";
 import { TooltipProvider } from "~/components/ui/tooltip";
 import { useTrackHistory } from "~/lib/nav-history";
+import { isPrivateRoute, SITE_NAME } from "~/lib/seo";
 import "~/lib/i18n";
 import appCss from "~/styles/app.css?url";
 import { createCaller } from "~/trpc/caller";
@@ -70,11 +71,15 @@ const RootDocument = ({ children }: { children: ReactNode }) => (
 
 export const Route = createRootRoute({
   loader: async () => ({ viewer: await loadViewer() }),
-  head: () => ({
+  head: ({ matches }) => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Deep Cities" },
+      { title: SITE_NAME },
+      { property: "og:site_name", content: SITE_NAME },
+      ...(matches.some((m) => isPrivateRoute(m.routeId))
+        ? [{ name: "robots", content: "noindex" }]
+        : []),
       {
         name: "description",
         content:

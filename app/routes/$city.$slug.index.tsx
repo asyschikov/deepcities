@@ -29,6 +29,7 @@ import { useSettledFix } from "~/lib/geolocation";
 import { useMapPage } from "~/lib/map-page";
 import { useSearchFlag } from "~/lib/map-search";
 import { formatDistance } from "~/lib/routes";
+import { canonicalLink } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
 import { cn, photoUrl } from "~/lib/utils";
 
@@ -462,6 +463,9 @@ const MapIndex = () => {
 };
 
 export const Route = createFileRoute("/$city/$slug/")({
+  head: ({ params }) => ({
+    links: canonicalLink(`/${params.city}/${params.slug}`),
+  }),
   component: MapIndex,
 });
 

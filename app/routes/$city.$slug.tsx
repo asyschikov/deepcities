@@ -23,6 +23,7 @@ import { PinSizeSwitcher } from "~/components/PinSizeSwitcher";
 import { Button } from "~/components/ui/button";
 import { areaColor, labelPoint } from "~/lib/areas";
 import { categoryIconSvg } from "~/lib/category-icons";
+import { mapPath } from "~/lib/cities";
 import {
   type AreaLevel,
   type ContentLang,
@@ -51,6 +52,7 @@ import {
   parseMapView,
 } from "~/lib/map-search";
 import { useIsPeerOf } from "~/lib/nav-history";
+import { seoMeta, withCity } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
@@ -573,18 +575,20 @@ export const Route = createFileRoute("/$city/$slug")({
     if (!data) throw notFound();
     return data;
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData
-      ? [
-          { title: `${loaderData.view.collection.title} · Deep Cities` },
-          {
-            name: "description",
-            content:
-              loaderData.view.collection.tagline ??
-              loaderData.view.collection.title,
-          },
-        ]
-      : [],
-  }),
+  // Leaf routes add the canonical link; children override these tags.
+  head: ({ loaderData }) => {
+    if (!loaderData) return {};
+    const c = loaderData.view.collection;
+    return {
+      meta: seoMeta({
+        title: `${withCity(c.title, c.city)} · Deep Cities`,
+        description: [c.tagline, c.description]
+          .flatMap((x) => (x ? [/[.!?]$/.test(x) ? x : `${x}.`] : []))
+          .join(" "),
+        path: mapPath(c),
+        photoId: c.coverPhotoId,
+      }),
+    };
+  },
   component: MapLayout,
 });

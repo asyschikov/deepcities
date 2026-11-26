@@ -60,6 +60,7 @@ import { distanceMeters } from "~/lib/diff";
 import { isAt, useWakeLock } from "~/lib/geolocation";
 import { type MapOverlay, useMapOverlay, useMapPage } from "~/lib/map-page";
 import { formatDistance, formatDuration, legStats } from "~/lib/routes";
+import { canonicalLink, seoMeta } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 import { draftOfRoute } from "~/lib/validation";
@@ -653,13 +654,20 @@ export const Route = createFileRoute("/$city/$slug/r/$routeId")({
     if (!data) throw notFound();
     return data;
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData
-      ? [
-          { title: `${loaderData.route.title} · Deep Cities` },
-          { name: "description", content: loaderData.route.summary },
-        ]
-      : [],
-  }),
+  head: ({ loaderData, params }) => {
+    if (!loaderData) return {};
+    const { route } = loaderData;
+    const path = `/${params.city}/${params.slug}/r/${route.id}`;
+    return {
+      meta: seoMeta({
+        title: `${route.title} · Deep Cities`,
+        description: route.summary,
+        path,
+        photoId: route.photoIds[0],
+        type: "article",
+      }),
+      links: canonicalLink(path),
+    };
+  },
   component: RoutePage,
 });

@@ -29,6 +29,7 @@ import { Button } from "~/components/ui/button";
 import { localize, untranslated } from "~/lib/content-lang";
 import { galleryPhotoIds } from "~/lib/documents";
 import { useMapPage } from "~/lib/map-page";
+import { canonicalLink, seoMeta } from "~/lib/seo";
 import { cn, photoUrl } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
@@ -354,15 +355,20 @@ export const Route = createFileRoute("/$city/$slug/d/$docId")({
     if (!data) throw notFound();
     return data;
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData
-      ? [
-          { title: `${loaderData.document.title} · Deep Cities` },
-          ...(loaderData.document.summary
-            ? [{ name: "description", content: loaderData.document.summary }]
-            : []),
-        ]
-      : [],
-  }),
+  head: ({ loaderData, params }) => {
+    if (!loaderData) return {};
+    const { document } = loaderData;
+    const path = `/${params.city}/${params.slug}/d/${document.id}`;
+    return {
+      meta: seoMeta({
+        title: `${document.title} · Deep Cities`,
+        description: document.summary || document.body.slice(0, 400),
+        path,
+        photoId: document.photoIds[0],
+        type: "article",
+      }),
+      links: canonicalLink(path),
+    };
+  },
   component: DocumentPage,
 });
