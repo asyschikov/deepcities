@@ -31,7 +31,7 @@ import { useSearchFlag } from "~/lib/map-search";
 import { formatDistance } from "~/lib/routes";
 import { canonicalLink } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, photoUrl } from "~/lib/utils";
+import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
 
 /** List rows in the server-rendered page; the rest render in the browser. */
 const FIRST_PAINT_ROWS = 40;
@@ -405,7 +405,7 @@ const MapIndex = () => {
                     >
                       {p.coverPhotoId ? (
                         <img
-                          src={photoUrl(p.coverPhotoId)}
+                          src={photoUrl(p.coverPhotoId, THUMB_WIDTH)}
                           alt=""
                           loading="lazy"
                           className="size-full object-cover"

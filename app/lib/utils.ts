@@ -12,7 +12,32 @@ export const getInitials = (name: string): string => {
   return name.charAt(0).toUpperCase();
 };
 
-/** Public URL of an uploaded photo (served by the worker from R2). */
-export const photoUrl = (photoId: string): string => `/media/photos/${photoId}`;
+/**
+ * Photos are resized at the edge by Cloudflare Image Transformations
+ * (`/cdn-cgi/image/…`, enabled for the deepcities.org zone); they don't
+ * exist in local dev, which gets the original.
+ */
+const RESIZE = !import.meta.env.DEV;
+
+/**
+ * Public URL of an uploaded photo (served by the worker from R2), with
+ * `width`: scaled down to at most that many pixels, in WebP/AVIF where the
+ * browser takes it.
+ */
+export const photoUrl = (photoId: string, width?: number): string => {
+  const src = `/media/photos/${photoId}`;
+  return width && RESIZE
+    ? `/cdn-cgi/image/width=${width},fit=scale-down,format=auto,quality=80${src}`
+    : src;
+};
+
+/** A `srcSet` of the photo at `widths`. */
+export const photoSrcSet = (photoId: string, widths: number[]): string =>
+  widths.map((w) => `${photoUrl(photoId, w)} ${w}w`).join(", ");
+
+/** Widths for a photo shown across a page or panel. */
+export const PHOTO_WIDTHS = [480, 800, 1200, 1600];
+/** A list thumbnail (shown at 48–64 px; 2x screens double it). */
+export const THUMB_WIDTH = 160;
 export const avatarUrl = (id: string): string => `/media/avatars/${id}`;
 export const checkinPhotoUrl = (id: string): string => `/media/checkins/${id}`;

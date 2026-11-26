@@ -72,6 +72,7 @@ export const areaPage = async (
       borough: place.borough,
       neighbourhood: place.neighbourhood,
       sub: place.subNeighbourhood,
+      photoIds: place.photoIds,
     })
     .from(place)
     .where(
@@ -123,6 +124,7 @@ export const areaPage = async (
     summary: snippet(r.localSummary?.trim() || r.summary, 110),
     path: `${prefix}/${citySeg}/p/${placeParam(r)}`,
     category: categories.get(`${r.collectionId}:${r.category}`) ?? null,
+    photoId: r.photoIds[0] ?? null,
   });
   const byTitle = (x: { title: string }, y: { title: string }) =>
     x.title.localeCompare(y.title, lang);

@@ -5,6 +5,9 @@
  */
 import { photoUrl } from "./utils";
 
+/** Share previews and search images: big enough for a large card. */
+const SHARE_WIDTH = 1200;
+
 /** The one public address (wrangler.jsonc `SITE_ORIGIN`). */
 export const SITE_URL = "https://deepcities.org";
 export const SITE_NAME = "Deep Cities";
@@ -38,7 +41,7 @@ export const seoMeta = ({
   type,
 }: PageSeo) => {
   const desc = description ? snippet(description) : null;
-  const image = photoId ? absoluteUrl(photoUrl(photoId)) : null;
+  const image = photoId ? absoluteUrl(photoUrl(photoId, SHARE_WIDTH)) : null;
   return [
     { title },
     ...(desc
@@ -96,7 +99,7 @@ export const placeJsonLd = (
   name: p.title,
   description: p.summary,
   url: absoluteUrl(path),
-  ...(photoId ? { image: absoluteUrl(photoUrl(photoId)) } : {}),
+  ...(photoId ? { image: absoluteUrl(photoUrl(photoId, SHARE_WIDTH)) } : {}),
   geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng },
   ...(p.address || p.municipality
     ? {

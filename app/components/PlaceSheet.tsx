@@ -22,7 +22,7 @@ import { Button } from "~/components/ui/button";
 import { VerdictSummary } from "~/components/Verdict";
 import { languageName } from "~/lib/content-lang";
 import { placeLangPath } from "~/lib/place-page";
-import { photoUrl } from "~/lib/utils";
+import { photoUrl, THUMB_WIDTH } from "~/lib/utils";
 import type { RouterOutputs } from "~/trpc/router";
 
 export type PlacePageData = RouterOutputs["place"]["page"];
@@ -183,7 +183,7 @@ export const PlaceSheet = ({
                   >
                     {d.photoId && (
                       <img
-                        src={photoUrl(d.photoId)}
+                        src={photoUrl(d.photoId, THUMB_WIDTH)}
                         alt=""
                         loading="lazy"
                         className="size-12 shrink-0 rounded object-cover"
@@ -288,6 +288,14 @@ export const PlaceSheet = ({
                     href={n.path}
                     className="flex h-full gap-3 rounded-md border p-2 transition hover:bg-muted/60"
                   >
+                    {n.photoId && (
+                      <img
+                        src={photoUrl(n.photoId, THUMB_WIDTH)}
+                        alt=""
+                        loading="lazy"
+                        className="size-14 shrink-0 rounded object-cover"
+                      />
+                    )}
                     <div className="min-w-0">
                       <div className="text-sm font-medium">{n.title}</div>
                       <p className="line-clamp-2 text-xs text-muted-foreground">

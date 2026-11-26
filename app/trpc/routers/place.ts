@@ -295,6 +295,7 @@ const placePage = async (
         category: place.category,
         lat: place.lat,
         lng: place.lng,
+        photoIds: place.photoIds,
       })
       .from(place)
       .where(
@@ -446,6 +447,7 @@ const placePage = async (
     nearby: nearbyRows.map((p) => ({
       ...brief(p),
       category: categoryOf(p.category),
+      photoId: p.photoIds[0] ?? null,
     })),
     routes: routeRows.flatMap((r) => {
       const index = r.stops.findIndex((s) => s.placeId === found.id);

@@ -8,7 +8,7 @@ import {
   DialogDescription,
   DialogTitle,
 } from "~/components/ui/dialog";
-import { photoUrl } from "~/lib/utils";
+import { photoSrcSet, photoUrl } from "~/lib/utils";
 
 /** A photo at full size, with its credit; arrows step through the rest. */
 export const PhotoViewer = ({
@@ -55,7 +55,9 @@ export const PhotoViewer = ({
         </DialogDescription>
         <div className="relative flex items-center justify-center">
           <img
-            src={photoUrl(current)}
+            src={photoUrl(current, 1600)}
+            srcSet={photoSrcSet(current, [1024, 1600, 2048])}
+            sizes="92vw"
             alt={title}
             className="max-h-[82dvh] w-auto max-w-[min(calc(100vw-3rem),1400px)] min-w-64 object-contain"
           />
