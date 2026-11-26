@@ -30,9 +30,10 @@ import {
   route,
   verdict,
 } from "~/lib/db/schema";
+import { filterFields } from "~/lib/field-filters";
 import { withOverride } from "~/lib/overrides";
 import { langPrefix } from "~/lib/place-page";
-import { contentLangSchema, idSchema } from "~/lib/validation";
+import { type Attributes, contentLangSchema, idSchema } from "~/lib/validation";
 import {
   linkOrder,
   mapShows,
@@ -90,10 +91,27 @@ const verdictCounts = async (
 const listInput = z.object({
   collectionId: idSchema,
   pool: z.boolean().optional(),
+  /**
+   * Just what the map page needs (it ships the list with the page): texts
+   * in the base language plus `lang`, and only the fields it filters on.
+   * Scripts leave it out and get everything.
+   */
+  forMap: z.object({ lang: contentLangSchema.optional() }).optional(),
 });
 
 const listWhere = (m: ViewMap, pool: boolean | undefined) =>
   pool ? and(poolWhere(m), eq(place.status, "published")) : shownWhere(m);
+
+/** Keys of the fields map `collectionId` shows as filter chips. */
+const mapFilterKeys = async (db: Database, collectionId: string) => {
+  const c = await db.query.collection.findFirst({
+    where: eq(collection.id, collectionId),
+    columns: { id: true, view: true, categories: true, fields: true },
+  });
+  if (!c) return new Set<string>();
+  const { fields } = await shapeOf(db, c);
+  return new Set(filterFields(fields).map((f) => f.key));
+};
 
 /** Columns a place link needs to decide which map shows the place. */
 const linkColumns = {
@@ -514,7 +532,7 @@ export const placeRouter = router({
   /** Everything the map needs to draw markers and the list. */
   list: publicProcedure.input(listInput).query(async ({ ctx, input }) => {
     const m = await loadViewMap(ctx.db, input.collectionId);
-    const [rows, verdicts, gone, overrides] = await Promise.all([
+    const [rows, verdicts, gone, overrides, filterKeys] = await Promise.all([
       ctx.db
         .select({
           id: place.id,
@@ -541,11 +559,28 @@ export const placeRouter = router({
       verdictCounts(ctx.db, { map: m }),
       goneCounts(ctx.db, { map: m }),
       overridesOf(ctx.db, m),
+      input.forMap ? mapFilterKeys(ctx.db, input.collectionId) : null,
     ]);
+    const lang = input.forMap?.lang;
+    const slim = <T>(p: T & { attributes: Attributes }) =>
+      filterKeys
+        ? {
+            ...p,
+            attributes: Object.fromEntries(
+              Object.entries(p.attributes).filter(([k]) => filterKeys.has(k)),
+            ),
+          }
+        : p;
     // Effective values: the map's filters and counts run on these.
     return rows.map(({ photoIds, translations, ...p }) => ({
-      ...withOverride(p, overrides.get(p.id)),
-      translations: listTranslations(translations),
+      ...slim(withOverride(p, overrides.get(p.id))),
+      translations: listTranslations(
+        input.forMap
+          ? lang && translations[lang]
+            ? { [lang]: translations[lang] }
+            : {}
+          : translations,
+      ),
       coverPhotoId: photoIds[0] ?? null,
       verdicts: verdicts.get(p.id) ?? noVerdicts(),
       /** Visitors who reported it gone or couldn't find it. */
