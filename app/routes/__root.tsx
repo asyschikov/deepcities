@@ -77,6 +77,11 @@ export const Route = createRootRoute({
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: SITE_NAME },
       { property: "og:site_name", content: SITE_NAME },
+      // Google Search Console ownership (property https://deepcities.org/).
+      {
+        name: "google-site-verification",
+        content: "44odyuzLmJoT-vZiaVQR7AMHfeh5ZH8DWKZAoT1flQM",
+      },
       ...(matches.some((m) => isPrivateRoute(m.routeId))
         ? [{ name: "robots", content: "noindex" }]
         : []),
