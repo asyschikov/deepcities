@@ -294,7 +294,7 @@ const PlacePage = () => {
               {t("place_about_jump")}
             </button>
           )}
-          <MarkdownView content={extra} slug={slug} />
+          <MarkdownView content={extra} slug={slug} className="text-[15px]" />
         </div>
       )}
       {place.body && (
@@ -310,7 +310,11 @@ const PlacePage = () => {
               {t("place_about")}
             </h2>
           )}
-          <MarkdownView content={place.body} slug={slug} />
+          <MarkdownView
+            content={place.body}
+            slug={slug}
+            className="text-[15px]"
+          />
         </section>
       )}
 
