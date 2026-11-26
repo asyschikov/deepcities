@@ -31,7 +31,7 @@ import { useSearchFlag } from "~/lib/map-search";
 import { formatDistance } from "~/lib/routes";
 import { canonicalLink } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, photoUrl } from "~/lib/utils";
+import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
 
 const MapIndex = () => {
   const { t } = useTranslation();
@@ -396,7 +396,7 @@ const MapIndex = () => {
                     >
                       {p.coverPhotoId ? (
                         <img
-                          src={photoUrl(p.coverPhotoId)}
+                          src={photoUrl(p.coverPhotoId, THUMB_WIDTH)}
                           alt=""
                           loading="lazy"
                           className="size-full object-cover"

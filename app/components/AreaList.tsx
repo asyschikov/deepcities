@@ -9,6 +9,7 @@ import { Breadcrumbs } from "~/components/PlaceSheet";
 import { Button } from "~/components/ui/button";
 import { languageName } from "~/lib/content-lang";
 import { areaCrumbs, areaLangPath, areaName } from "~/lib/place-page";
+import { photoUrl, THUMB_WIDTH } from "~/lib/utils";
 import type { RouterOutputs } from "~/trpc/router";
 
 export type AreaPageData = RouterOutputs["place"]["areaPage"];
@@ -85,7 +86,16 @@ export const AreaList = ({ data }: { data: AreaPageData }) => {
             <ul className="grid gap-x-6 gap-y-3 sm:grid-cols-2">
               {g.places.map((p) => (
                 <li key={p.id}>
-                  <a href={p.path} className="group block">
+                  <a href={p.path} className="group flex gap-3">
+                    {p.photoId && (
+                      <img
+                        src={photoUrl(p.photoId, THUMB_WIDTH)}
+                        alt=""
+                        loading="lazy"
+                        className="size-14 shrink-0 rounded object-cover"
+                      />
+                    )}
+
                     <div className="min-w-0">
                       <div className="text-sm font-medium group-hover:underline">
                         {p.title}
