@@ -9,11 +9,13 @@ import {
   clearedSessionCookie,
   destroySession,
   getSessionProfile,
+  hasSessionCookie,
   redeemLoginToken,
   sessionCookie,
 } from "./lib/auth.server";
 import { createDb } from "./lib/db";
 import { checkinPhoto, photo } from "./lib/db/schema";
+import { PREFIXED_LANGS } from "./lib/place-page";
 import { redirectFor } from "./lib/redirects.server";
 import type { ServerEnv } from "./lib/server-env";
 import { robotsTxt, sitemapEntries, sitemapXml } from "./lib/sitemap.server";
@@ -123,6 +125,35 @@ const handleAvatar = async (avatarId: string, env: ServerEnv) => {
   return new Response(object.body, { headers });
 };
 
+/**
+ * Places' own pages and the area lists, the pages search engines crawl:
+ * cached at the edge for readers without a session (nothing on them is
+ * personal then), so most visits skip rendering and the database. An edit
+ * shows within `PUBLIC_PAGE_TTL`.
+ */
+const PUBLIC_PAGE = new RegExp(
+  `^(/(${PREFIXED_LANGS.join("|")}))?/[a-z0-9-]+/(p|places)(/|$)`,
+);
+const PUBLIC_PAGE_TTL = 300;
+
+const cachedPublicPage = async (
+  request: Request,
+  ctx: ExecutionContext,
+  render: () => Promise<Response>,
+): Promise<Response> => {
+  const key = new Request(request.url, { method: "GET" });
+  // Workers add `default` to CacheStorage; the DOM typings win here.
+  const cache = (caches as unknown as { default: Cache }).default;
+  const hit = await cache.match(key);
+  if (hit) return hit;
+  const res = await render();
+  if (res.status !== 200 || res.headers.has("Set-Cookie")) return res;
+  const out = new Response(res.body, res);
+  out.headers.set("Cache-Control", `public, max-age=${PUBLIC_PAGE_TTL}`);
+  ctx.waitUntil(cache.put(key, out.clone()));
+  return out;
+};
+
 export default {
   async fetch(
     request: Request,
@@ -165,12 +196,21 @@ export default {
     if (media?.[1] && request.method === "GET")
       return handleMedia(media[1], env);
 
-    return (
-      handler.fetch as (
-        req: Request,
-        env: ServerEnv,
-        ctx: ExecutionContext,
-      ) => Promise<Response>
-    )(request, env, ctx);
+    const render = () =>
+      (
+        handler.fetch as (
+          req: Request,
+          env: ServerEnv,
+          ctx: ExecutionContext,
+        ) => Promise<Response>
+      )(request, env, ctx);
+    if (
+      env.APP_ENV === "live" &&
+      request.method === "GET" &&
+      PUBLIC_PAGE.test(pathname) &&
+      !hasSessionCookie(request)
+    )
+      return cachedPublicPage(request, ctx, render);
+    return render();
   },
 };

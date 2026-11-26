@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { cn, photoUrl } from "~/lib/utils";
+import { cn, PHOTO_WIDTHS, photoSrcSet, photoUrl } from "~/lib/utils";
 
 /**
  * A photo in a 4:3 frame. Landscape photos fill it; tall ones (a statue, a
@@ -31,7 +31,6 @@ export const CoverPhoto = ({
     loaded?.id === id
       ? loaded.tall
       : width !== undefined && height !== undefined && height > width;
-  const src = photoUrl(id);
   const Frame = onOpen ? "button" : "div";
   return (
     <Frame
@@ -46,14 +45,16 @@ export const CoverPhoto = ({
     >
       {tall && (
         <img
-          src={src}
+          src={photoUrl(id, 64)}
           alt=""
           aria-hidden
           className="absolute inset-0 size-full scale-110 object-cover opacity-60 blur-xl"
         />
       )}
       <img
-        src={src}
+        src={photoUrl(id, 1200)}
+        srcSet={photoSrcSet(id, PHOTO_WIDTHS)}
+        sizes="(min-width: 768px) 768px, 100vw"
         alt={alt}
         onLoad={(e) => {
           const img = e.currentTarget;

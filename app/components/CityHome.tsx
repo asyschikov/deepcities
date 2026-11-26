@@ -4,7 +4,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { ArrowRight, Info, Star } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { cn, photoUrl } from "~/lib/utils";
+import { cn, photoSrcSet, photoUrl } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 import type { PhotoMeta } from "./PhotoCredit";
@@ -87,7 +87,9 @@ export const CityHome = ({
                     )}
                   >
                     <img
-                      src={photoUrl(m.cover.id)}
+                      src={photoUrl(m.cover.id, 960)}
+                      srcSet={photoSrcSet(m.cover.id, [480, 960])}
+                      sizes="(min-width: 640px) 490px, 100vw"
                       alt=""
                       loading="lazy"
                       className={cn(
@@ -127,6 +129,16 @@ export const CityHome = ({
         </ul>
         {maps.length === 0 && (
           <p className="text-muted-foreground">{t("home_no_maps")}</p>
+        )}
+        {maps.length > 0 && (
+          <p className="mt-6 text-sm">
+            <a
+              href={`/${city}/places`}
+              className="inline-flex items-center gap-1 font-medium text-primary hover:underline"
+            >
+              {t("areas_browse")} <ArrowRight className="size-4" />
+            </a>
+          </p>
         )}
       </section>
 

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { CoverPhoto } from "~/components/CoverPhoto";
 import { PhotoCredit, type PhotoMeta } from "~/components/PhotoCredit";
 import { PhotoViewer } from "~/components/PhotoViewer";
-import { cn, photoUrl } from "~/lib/utils";
+import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
 
 export type { PhotoMeta };
 
@@ -19,7 +19,8 @@ export const Gallery = ({
   title: string;
 }) => {
   // The shown photo is in the URL (`?photo=2`), so links share it.
-  const { photo: index = 0 } = useSearch({ from: "/$city/$slug" });
+  // (Read loosely: the gallery is on map pages and on places' own pages.)
+  const { photo: index = 0 } = useSearch({ strict: false });
   const navigate = useNavigate();
   const { t } = useTranslation();
   const [viewing, setViewing] = useState(false);
@@ -71,7 +72,7 @@ export const Gallery = ({
               )}
             >
               <img
-                src={photoUrl(id)}
+                src={photoUrl(id, THUMB_WIDTH)}
                 alt=""
                 className="size-full object-cover"
               />

@@ -1,19 +1,13 @@
 /**
- * /sitemap.xml and /robots.txt. The sitemap lists every public page once, at
- * its canonical URL (the same rule the place page's canonical link uses).
+ * /sitemap.xml and /robots.txt. The sitemap lists every public page at its
+ * canonical URL: places at their own pages, not their map panels.
  */
-import { eq, isNotNull } from "drizzle-orm";
-import { citySlug, mapPath } from "./cities";
+import { eq, sql } from "drizzle-orm";
+import { citySlug, mapPath, placeParam } from "./cities";
 import type { Database } from "./db";
-import {
-  collection,
-  collectionPlace,
-  document,
-  place,
-  route,
-} from "./db/schema";
+import { collection, document, place, route } from "./db/schema";
+import { areasPath, PREFIXED_LANGS, THIN_LIST } from "./place-page";
 import { absoluteUrl } from "./seo";
-import { linkOrder, mapToLink } from "./views";
 
 interface Entry {
   path: string;
@@ -36,38 +30,33 @@ const escapeXml = (s: string) =>
 const day = (d: Date) => d.toISOString().slice(0, 10);
 
 export const sitemapEntries = async (db: Database): Promise<Entry[]> => {
-  const [maps, places, lists, parents, routes, documents] = await Promise.all([
+  const [maps, places, routes, documents] = await Promise.all([
     db
       .select({
         id: collection.id,
         slug: collection.slug,
         city: collection.city,
         view: collection.view,
+        language: collection.language,
+        languages: collection.languages,
       })
       .from(collection),
     db
       .select({
         id: place.id,
+        title: place.title,
         collectionId: place.collectionId,
-        detail: place.detail,
+        municipality: place.municipality,
         borough: place.borough,
         neighbourhood: place.neighbourhood,
         subNeighbourhood: place.subNeighbourhood,
-        category: place.category,
+        prefixedTitles: sql<
+          string | null
+        >`json_extract(${place.translations}, ${`$.${PREFIXED_LANGS[0]}.title`})`,
         updatedAt: place.updatedAt,
       })
       .from(place)
       .where(eq(place.status, "published")),
-    db
-      .select({
-        placeId: collectionPlace.placeId,
-        collectionId: collectionPlace.collectionId,
-      })
-      .from(collectionPlace),
-    db
-      .selectDistinct({ id: place.parentId })
-      .from(place)
-      .where(isNotNull(place.parentId)),
     db
       .select({
         id: route.id,
@@ -86,38 +75,72 @@ export const sitemapEntries = async (db: Database): Promise<Entry[]> => {
       .where(eq(document.status, "published")),
   ]);
   const mapById = new Map(maps.map((m) => [m.id, m]));
-  const listsOf = new Map<string, string[]>();
-  lists.forEach((r) => {
-    listsOf.set(r.placeId, [...(listsOf.get(r.placeId) ?? []), r.collectionId]);
-  });
-  const parentIds = new Set(parents.map((p) => p.id));
-  const pathIn = (collectionId: string, kind: string, id: string) => {
-    const m = mapById.get(collectionId);
-    return m ? `${mapPath(m)}/${kind}/${id}` : null;
-  };
-
-  const cities = [...new Set(maps.map((m) => citySlug(m.city)))];
-  const placeEntries = places.flatMap((p) => {
-    const m = mapToLink(
-      { ...p, lists: listsOf.get(p.id) },
-      parentIds.has(p.id),
-      linkOrder("parent", null, maps, p.collectionId),
-      maps,
-    );
-    return m ? [{ path: `${mapPath(m)}/p/${p.id}`, lastmod: p.updatedAt }] : [];
-  });
   const owned = (
     rows: { id: string; collectionId: string; updatedAt: Date }[],
     kind: string,
   ) =>
     rows.flatMap((r) => {
-      const path = pathIn(r.collectionId, kind, r.id);
-      return path ? [{ path, lastmod: r.updatedAt }] : [];
+      const m = mapById.get(r.collectionId);
+      return m
+        ? [{ path: `${mapPath(m)}/${kind}/${r.id}`, lastmod: r.updatedAt }]
+        : [];
     });
+
+  // Places and area lists: in the map's language, and under each language
+  // prefix the home map offers (a place only where it has a translation).
+  const placeEntries = places.flatMap((p) => {
+    const home = mapById.get(p.collectionId);
+    if (!home) return [];
+    const path = `/${citySlug(home.city)}/p/${placeParam(p)}`;
+    const prefixed = PREFIXED_LANGS.filter(
+      (l) =>
+        l !== home.language && home.languages.includes(l) && p.prefixedTitles,
+    );
+    return [
+      { path, lastmod: p.updatedAt },
+      ...prefixed.map((l) => ({ path: `/${l}${path}`, lastmod: p.updatedAt })),
+    ];
+  });
+  // Each area list once per language, if it isn't too thin to index.
+  const areaCounts = new Map<string, number>();
+  places.forEach((p) => {
+    const home = mapById.get(p.collectionId);
+    if (!home) return;
+    const level1 =
+      p.borough ?? (p.municipality !== home.city ? p.municipality : null);
+    const levels = [level1, p.neighbourhood, p.subNeighbourhood];
+    const firstGap = levels.indexOf(null);
+    const names = (firstGap < 0 ? levels : levels.slice(0, firstGap)).filter(
+      (x): x is string => x !== null,
+    );
+    const langs = PREFIXED_LANGS.filter(
+      (l) => l !== home.language && home.languages.includes(l),
+    );
+    const paths = names.map((_, i) =>
+      areasPath(home.city, ...names.slice(0, i + 1)),
+    );
+    [...paths, ...langs.flatMap((l) => paths.map((x) => `/${l}${x}`))].forEach(
+      (x) => {
+        areaCounts.set(x, (areaCounts.get(x) ?? 0) + 1);
+      },
+    );
+    // The city's list is always worth indexing.
+    [
+      areasPath(home.city),
+      ...langs.map((l) => `/${l}${areasPath(home.city)}`),
+    ].forEach((x) => {
+      areaCounts.set(x, Infinity);
+    });
+  });
+  const areaPaths = [...areaCounts.entries()]
+    .filter(([, n]) => n >= THIN_LIST)
+    .map(([x]) => x);
+  const cities = [...new Set(maps.map((m) => citySlug(m.city)))];
 
   return [
     ...cities.map((c) => ({ path: `/${c}` })),
     ...maps.map((m) => ({ path: mapPath(m) })),
+    ...areaPaths.map((path) => ({ path })),
     ...owned(routes, "r"),
     ...owned(documents, "d"),
     ...placeEntries,
