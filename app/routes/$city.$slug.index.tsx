@@ -11,7 +11,7 @@ import {
   TriangleAlert,
   X,
 } from "lucide-react";
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
 import { RoleBadge } from "~/components/RoleBadge";
@@ -32,6 +32,9 @@ import { formatDistance } from "~/lib/routes";
 import { canonicalLink } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
 import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
+
+/** List rows in the server-rendered page; the rest render in the browser. */
+const FIRST_PAINT_ROWS = 40;
 
 const MapIndex = () => {
   const { t } = useTranslation();
@@ -79,6 +82,12 @@ const MapIndex = () => {
       ? withDistance.sort((a, b) => a.meters - b.meters)
       : withDistance;
   }, [visiblePlaces, here, near]);
+  // The server renders only the top of the list (the full one is over a
+  // megabyte of HTML); the rest follows once the page is running. Crawlers
+  // find every place through the area lists and the sitemap instead.
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => setHydrated(true), []);
+  const rows = hydrated ? listed : listed.slice(0, FIRST_PAINT_ROWS);
   // Leaving the list (e.g. opening a place) ends any hover highlight.
   useEffect(() => () => setHoverPlaceId(null), [setHoverPlaceId]);
   const { collection, can, role } = view;
@@ -375,7 +384,7 @@ const MapIndex = () => {
             </p>
           )}
           <ul className="divide-y">
-            {listed.map(({ p, meters }) => {
+            {rows.map(({ p, meters }) => {
               const cat = categoryOf(p.category);
               return (
                 <li

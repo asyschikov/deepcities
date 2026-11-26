@@ -59,13 +59,14 @@ import { createCaller } from "~/trpc/caller";
 import { useTRPC } from "~/trpc/client";
 
 const loadMap = createServerFn({ method: "GET" })
-  .validator((p: { city: string; slug: string }) => p)
-  .handler(async ({ data: { city, slug } }) => {
+  .validator((p: { city: string; slug: string; lang?: ContentLang }) => p)
+  .handler(async ({ data: { city, slug, lang } }) => {
     const caller = await createCaller();
     try {
       const view = await caller.collection.bySlug({ city, slug });
       const places = await caller.place.list({
         collectionId: view.collection.id,
+        forMap: { lang },
       });
       return { view, places };
     } catch (err) {
@@ -89,8 +90,13 @@ const MapLayout = () => {
     ...trpc.collection.bySlug.queryOptions({ slug }),
     initialData: initial.view,
   });
+  // The slim list (see `forMap`): texts in the shown language only, so a
+  // language switch reloads it (the loader depends on `lang`).
   const { data: rawPlaces } = useQuery({
-    ...trpc.place.list.queryOptions({ collectionId: rawView.collection.id }),
+    ...trpc.place.list.queryOptions({
+      collectionId: rawView.collection.id,
+      forMap: { lang: urlSearch.lang },
+    }),
     initialData: initial.places,
   });
 
@@ -570,8 +576,9 @@ export const Route = createFileRoute("/$city/$slug")({
   search: {
     middlewares: [retainSearchParams([...MAP_RETAINED_PARAMS])],
   },
-  loader: async ({ params }) => {
-    const data = await loadMap({ data: params });
+  loaderDeps: ({ search }) => ({ lang: search.lang }),
+  loader: async ({ params, deps }) => {
+    const data = await loadMap({ data: { ...params, lang: deps.lang } });
     if (!data) throw notFound();
     return data;
   },
