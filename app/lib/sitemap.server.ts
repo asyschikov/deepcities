@@ -120,12 +120,17 @@ export const sitemapEntries = async (db: Database): Promise<Entry[]> => {
       areasPath(home.city, ...names.slice(0, i + 1)),
     );
     [...paths, ...langs.flatMap((l) => paths.map((x) => `/${l}${x}`))].forEach(
-      (x) => areaCounts.set(x, (areaCounts.get(x) ?? 0) + 1),
+      (x) => {
+        areaCounts.set(x, (areaCounts.get(x) ?? 0) + 1);
+      },
     );
+    // The city's list is always worth indexing.
     [
       areasPath(home.city),
       ...langs.map((l) => `/${l}${areasPath(home.city)}`),
-    ].forEach((x) => areaCounts.set(x, Infinity));
+    ].forEach((x) => {
+      areaCounts.set(x, Infinity);
+    });
   });
   const areaPaths = [...areaCounts.entries()]
     .filter(([, n]) => n >= THIN_LIST)
