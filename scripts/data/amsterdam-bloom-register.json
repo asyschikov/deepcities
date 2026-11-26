@@ -35,7 +35,29 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-West"
+  "subNeighbourhood": "Buitenveldert-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   }
+  ]
  },
  {
   "title": "Sargent's cherries on Wallestein, magnolias on Marquette",
@@ -73,7 +95,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-West"
+  "subNeighbourhood": "Buitenveldert-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Crab apples on Keverberg",
@@ -111,7 +147,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-West"
+  "subNeighbourhood": "Buitenveldert-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus red sentinel",
+    "url": "https://www.vdberk.nl/bomen/malus-red-sentinel/"
+   }
+  ]
  },
  {
   "title": "'Pandora' cherries on Groot Blankenberg",
@@ -149,7 +195,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-Oost"
+  "subNeighbourhood": "Buitenveldert-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus pandora",
+    "url": "https://www.vdberk.nl/bomen/prunus-pandora/"
+   }
+  ]
  },
  {
   "title": "Cornelian cherries on Holtmeulen",
@@ -187,7 +243,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-Oost"
+  "subNeighbourhood": "Buitenveldert-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Cornus mas",
+    "url": "https://www.vdberk.nl/bomen/cornus-mas/"
+   }
+  ]
  },
  {
   "title": "Hawthorn on 't Kleine Loopveld, cherries on Hillenraadt",
@@ -225,7 +291,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-Oost"
+  "subNeighbourhood": "Buitenveldert-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus laevigata",
+    "url": "https://www.vdberk.nl/bomen/crataegus-laevigata/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna/"
+   },
+   {
+    "label": "Van den Berk: Prunus gondouinii schnee",
+    "url": "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/"
+   }
+  ]
  },
  {
   "title": "Horse chestnuts near the Nieuwe Kalfjeslaan",
@@ -260,7 +344,25 @@
     }
    }
   },
-  "municipality": "Amstelveen"
+  "municipality": "Amstelveen",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum/"
+   },
+   {
+    "label": "Van den Berk: Aesculus flava",
+    "url": "https://www.vdberk.nl/bomen/aesculus-flava/"
+   },
+   {
+    "label": "Van den Berk: Aesculus indica",
+    "url": "https://www.vdberk.nl/bomen/aesculus-indica/"
+   }
+  ]
  },
  {
   "title": "Horse chestnuts near the Nieuwe Meerlaan",
@@ -295,7 +397,21 @@
     }
    }
   },
-  "municipality": "Amstelveen"
+  "municipality": "Amstelveen",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum baumannii",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   }
+  ]
  },
  {
   "title": "Wild cherries in the Brasapark",
@@ -333,7 +449,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Bijlmer-Oost",
-  "subNeighbourhood": "K-buurt"
+  "subNeighbourhood": "K-buurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Winter cherries at Huigenbos and Hakfort",
@@ -371,7 +497,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Bijlmer-Centrum",
-  "subNeighbourhood": "H-buurt"
+  "subNeighbourhood": "H-buurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears on Ethekwini",
@@ -409,7 +545,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Bijlmer-Oost",
-  "subNeighbourhood": "Ganzenhoef e.o."
+  "subNeighbourhood": "Ganzenhoef e.o.",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "White cherries and flowering dogwoods on Maldenhof",
@@ -447,7 +597,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Gaasperdam",
-  "subNeighbourhood": "Holendrecht"
+  "subNeighbourhood": "Holendrecht",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus gondouinii schnee",
+    "url": "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/"
+   },
+   {
+    "label": "Van den Berk: Cornus florida",
+    "url": "https://www.vdberk.nl/bomen/cornus-florida/"
+   }
+  ]
  },
  {
   "title": "'Spire' cherries and young handkerchief trees by the Gulden Kruispad",
@@ -485,7 +649,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Bijlmer-Oost",
-  "subNeighbourhood": "Bijlmermuseum"
+  "subNeighbourhood": "Bijlmermuseum",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus spire",
+    "url": "https://www.vdberk.nl/bomen/prunus-spire/"
+   },
+   {
+    "label": "Van den Berk: Davidia involucrata",
+    "url": "https://www.vdberk.nl/bomen/davidia-involucrata/"
+   }
+  ]
  },
  {
   "title": "Black locusts around the 2e Kekerstraat",
@@ -523,7 +701,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Bijlmer-Oost",
-  "subNeighbourhood": "K-buurt"
+  "subNeighbourhood": "K-buurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Robinia pseudoacacia",
+    "url": "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   }
+  ]
  },
  {
   "title": "Cherries of the Komijnstraat",
@@ -561,7 +749,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Bijlmer-Oost",
-  "subNeighbourhood": "K-buurt"
+  "subNeighbourhood": "K-buurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   }
+  ]
  },
  {
   "title": "Double white cherries of the Jan van der Neuthof",
@@ -599,7 +805,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuidoost",
   "neighbourhood": "Gaasperdam",
-  "subNeighbourhood": "Gein"
+  "subNeighbourhood": "Gein",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries in the Zomerstraat, Driemond",
@@ -637,7 +853,17 @@
   "municipality": "Amsterdam",
   "borough": "Weesp",
   "neighbourhood": "Weesp, Driemond",
-  "subNeighbourhood": "Driemond"
+  "subNeighbourhood": "Driemond",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears on the Aquamarin, Weesp",
@@ -675,7 +901,17 @@
   "municipality": "Amsterdam",
   "borough": "Weesp",
   "neighbourhood": "Weesp, Driemond",
-  "subNeighbourhood": "Weesp-Noordwest"
+  "subNeighbourhood": "Weesp-Noordwest",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   }
+  ]
  },
  {
   "title": "Handkerchief trees on the Prinses Beatrixlaan, Weesp",
@@ -713,7 +949,17 @@
   "municipality": "Amsterdam",
   "borough": "Weesp",
   "neighbourhood": "Weesp, Driemond",
-  "subNeighbourhood": "Weesp Binnenstad/Zuid"
+  "subNeighbourhood": "Weesp Binnenstad/Zuid",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Davidia involucrata",
+    "url": "https://www.vdberk.nl/bomen/davidia-involucrata/"
+   }
+  ]
  },
  {
   "title": "Crab apples along the G.J. Wiefferingdreef, Weesp",
@@ -751,7 +997,17 @@
   "municipality": "Amsterdam",
   "borough": "Weesp",
   "neighbourhood": "Weesp, Driemond",
-  "subNeighbourhood": "Aetsveld/Oostelijke Vechtoever"
+  "subNeighbourhood": "Aetsveld/Oostelijke Vechtoever",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus baccata street parade",
+    "url": "https://www.vdberk.nl/bomen/malus-baccata-street-parade/"
+   }
+  ]
  },
  {
   "title": "Crab apples on the Lobbrich Boudgerslaan, Weesp",
@@ -789,7 +1045,17 @@
   "municipality": "Amsterdam",
   "borough": "Weesp",
   "neighbourhood": "Weesp, Driemond",
-  "subNeighbourhood": "Bloemendalerpolder"
+  "subNeighbourhood": "Bloemendalerpolder",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus red sentinel",
+    "url": "https://www.vdberk.nl/bomen/malus-red-sentinel/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears on the St. Bernhardpas",
@@ -827,7 +1093,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears on the Seifertplein",
@@ -865,7 +1141,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   }
+  ]
  },
  {
   "title": "Crab apples on the Iseoplantsoen",
@@ -903,7 +1189,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus winter gold",
+    "url": "https://www.vdberk.nl/bomen/malus-winter-gold/"
+   },
+   {
+    "label": "Van den Berk: Malus liset",
+    "url": "https://www.vdberk.nl/bomen/malus-liset/"
+   }
+  ]
  },
  {
   "title": "Double white cherries along the Vätternkade",
@@ -941,7 +1241,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Dijkgraafpleinbuurt",
@@ -979,7 +1289,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "De Punt"
+  "subNeighbourhood": "De Punt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Winter cherries in the Eduard Hellendoornstraat",
@@ -1017,7 +1337,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   }
+  ]
  },
  {
   "title": "Crab apples on the Forintplantsoen",
@@ -1055,7 +1385,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus red sentinel",
+    "url": "https://www.vdberk.nl/bomen/malus-red-sentinel/"
+   }
+  ]
  },
  {
   "title": "White cherries on the H. Diesveldsingel",
@@ -1093,7 +1433,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Pink and white cherries of the Sam de Wolffstraat",
@@ -1131,7 +1481,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "Osdorp-Midden"
+  "subNeighbourhood": "Osdorp-Midden",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii rancho",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Golden rain trees on the island paths of De Aker",
@@ -1169,7 +1533,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "De Aker"
+  "subNeighbourhood": "De Aker",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Koelreuteria paniculata",
+    "url": "https://www.vdberk.nl/bomen/koelreuteria-paniculata/"
+   }
+  ]
  },
  {
   "title": "Wild cherries on the Abe Lenstralaan",
@@ -1207,7 +1581,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "Lutkemeer/Ookmeer"
+  "subNeighbourhood": "Lutkemeer/Ookmeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the Veldzicht",
@@ -1245,7 +1629,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "Osdorp-Oost"
+  "subNeighbourhood": "Osdorp-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Berlaarstraat",
@@ -1283,7 +1677,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "White cherries of Meer en Oever",
@@ -1321,7 +1725,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "Osdorp-Oost"
+  "subNeighbourhood": "Osdorp-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   },
+   {
+    "label": "Van den Berk: Prunus maackii amber beauty",
+    "url": "https://www.vdberk.nl/bomen/prunus-maackii-amber-beauty/"
+   }
+  ]
  },
  {
   "title": "Crab apples and catalpas on the Zeebruggeplein",
@@ -1359,7 +1777,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus baccata street parade",
+    "url": "https://www.vdberk.nl/bomen/malus-baccata-street-parade/"
+   },
+   {
+    "label": "Van den Berk: Catalpa bignonioides",
+    "url": "https://www.vdberk.nl/bomen/catalpa-bignonioides/"
+   }
+  ]
  },
  {
   "title": "Catalpas of the Turnhoutplantsoen",
@@ -1397,7 +1829,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Catalpa bignonioides",
+    "url": "https://www.vdberk.nl/bomen/catalpa-bignonioides/"
+   }
+  ]
  },
  {
   "title": "Crab apples along the Tervurenpad",
@@ -1435,7 +1877,25 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus baccata street parade",
+    "url": "https://www.vdberk.nl/bomen/malus-baccata-street-parade/"
+   },
+   {
+    "label": "Van den Berk: Malus floribunda",
+    "url": "https://www.vdberk.nl/bomen/malus-floribunda/"
+   },
+   {
+    "label": "Van den Berk: Malus mokum",
+    "url": "https://www.vdberk.nl/bomen/malus-mokum/"
+   }
+  ]
  },
  {
   "title": "Magnolias on the Pieter Calandlaan",
@@ -1473,7 +1933,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "Osdorp-Oost"
+  "subNeighbourhood": "Osdorp-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Cherry plums of the Kinrooistraat",
@@ -1511,7 +1981,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus cerasifera nigra",
+    "url": "https://www.vdberk.nl/bomen/prunus-cerasifera-nigra/"
+   }
+  ]
  },
  {
   "title": "Column cherries on the Eastonstraat",
@@ -1549,7 +2029,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Osdorp",
-  "subNeighbourhood": "Osdorp-Oost"
+  "subNeighbourhood": "Osdorp-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata amanogawa",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-amanogawa/"
+   }
+  ]
  },
  {
   "title": "Double wild cherries on the Laan van Vlaanderen",
@@ -1587,7 +2077,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears around the Sint-Hubertpad",
@@ -1625,7 +2125,33 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   },
+   {
+    "label": "Van den Berk: Prunus schmittii",
+    "url": "https://www.vdberk.nl/bomen/prunus-schmittii/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii charles sargent",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-charles-sargent/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii rancho",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/"
+   },
+   {
+    "label": "Van den Berk: Prunus gondouinii schnee",
+    "url": "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/"
+   }
+  ]
  },
  {
   "title": "Cherries and magnolias around the Diepenbeekplantsoen",
@@ -1663,7 +2189,29 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   },
+   {
+    "label": "Van den Berk: Magnolia soulangeana",
+    "url": "https://www.vdberk.nl/bomen/magnolia-soulangeana/"
+   },
+   {
+    "label": "Van den Berk: Prunus schmittii",
+    "url": "https://www.vdberk.nl/bomen/prunus-schmittii/"
+   }
+  ]
  },
  {
   "title": "Cherry plums on the Louis Armstrongstraat",
@@ -1701,7 +2249,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "De Aker, Sloten, Nieuw-Sloten",
-  "subNeighbourhood": "Sloten/Nieuw-Sloten"
+  "subNeighbourhood": "Sloten/Nieuw-Sloten",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus cerasifera nigra",
+    "url": "https://www.vdberk.nl/bomen/prunus-cerasifera-nigra/"
+   }
+  ]
  },
  {
   "title": "Magnolias and cherries on the Johan Huizingalaan",
@@ -1739,7 +2297,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Slotervaart-Zuid"
+  "subNeighbourhood": "Slotervaart-Zuid",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   },
+   {
+    "label": "Van den Berk: Prunus pandora",
+    "url": "https://www.vdberk.nl/bomen/prunus-pandora/"
+   }
+  ]
  },
  {
   "title": "Winter cherries on the Johan Kernstraat",
@@ -1777,7 +2349,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Slotervaart-Noord"
+  "subNeighbourhood": "Slotervaart-Noord",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   }
+  ]
  },
  {
   "title": "Cherry blossom on the Teylerplein",
@@ -1815,7 +2397,33 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Slotervaart-Noord"
+  "subNeighbourhood": "Slotervaart-Noord",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata amanogawa",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-amanogawa/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii rancho",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii/"
+   },
+   {
+    "label": "Van den Berk: Prunus yedoensis",
+    "url": "https://www.vdberk.nl/bomen/prunus-yedoensis/"
+   },
+   {
+    "label": "Van den Berk: Malus tschonoskii",
+    "url": "https://www.vdberk.nl/bomen/malus-tschonoskii/"
+   }
+  ]
  },
  {
   "title": "Scented cherries on the Hendrik Werkmanstraat",
@@ -1853,7 +2461,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Overtoomse Veld"
+  "subNeighbourhood": "Overtoomse Veld",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata jo nioi",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-jo-nioi/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Crab apples on the Jan Mankesstraat",
@@ -1891,7 +2513,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Overtoomse Veld"
+  "subNeighbourhood": "Overtoomse Veld",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus winter gold",
+    "url": "https://www.vdberk.nl/bomen/malus-winter-gold/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the Henk Henriëtstraat",
@@ -1929,7 +2561,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Overtoomse Veld"
+  "subNeighbourhood": "Overtoomse Veld",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Crab apples along the Derkinderenstraat",
@@ -1967,7 +2613,25 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Slotervaart",
-  "subNeighbourhood": "Overtoomse Veld"
+  "subNeighbourhood": "Overtoomse Veld",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus floribunda",
+    "url": "https://www.vdberk.nl/bomen/malus-floribunda/"
+   },
+   {
+    "label": "Van den Berk: Malus baccata street parade",
+    "url": "https://www.vdberk.nl/bomen/malus-baccata-street-parade/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Hawthorn along the Piet Gijzenbrugstraat",
@@ -2005,7 +2669,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Hoofddorppleinbuurt"
+  "subNeighbourhood": "Hoofddorppleinbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna stricta",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna-stricta/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata amanogawa",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-amanogawa/"
+   }
+  ]
  },
  {
   "title": "Magnolias and red hawthorn of the Rietwijkerstraat",
@@ -2043,7 +2725,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Hoofddorppleinbuurt"
+  "subNeighbourhood": "Hoofddorppleinbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna stricta",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna-stricta/"
+   }
+  ]
  },
  {
   "title": "Double cherry blossom on the Mercatorplein",
@@ -2081,7 +2781,21 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Oud-West, De Baarsjes",
-  "subNeighbourhood": "Hoofdweg e.o."
+  "subNeighbourhood": "Hoofdweg e.o.",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears along the Piet Kranenbergpad",
@@ -2119,7 +2833,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Stadionbuurt"
+  "subNeighbourhood": "Stadionbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Jacob Marisstraat",
@@ -2157,7 +2881,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Hoofddorppleinbuurt"
+  "subNeighbourhood": "Hoofddorppleinbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the Surinameplein",
@@ -2195,7 +2929,17 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Oud-West, De Baarsjes",
-  "subNeighbourhood": "Westindische Buurt"
+  "subNeighbourhood": "Westindische Buurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries in the Vasco da Gamastraat",
@@ -2233,7 +2977,17 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Oud-West, De Baarsjes",
-  "subNeighbourhood": "Hoofdweg e.o."
+  "subNeighbourhood": "Hoofdweg e.o.",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "White cherries of the Nieuwerhoek",
@@ -2271,7 +3025,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-West"
+  "subNeighbourhood": "Buitenveldert-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus gondouinii schnee",
+    "url": "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/"
+   }
+  ]
  },
  {
   "title": "Red hawthorn along the Valeriusstraat",
@@ -2309,7 +3073,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Willemspark"
+  "subNeighbourhood": "Willemspark",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   }
+  ]
  },
  {
   "title": "White cherries on the Hygiëaplein",
@@ -2347,7 +3121,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Stadionbuurt"
+  "subNeighbourhood": "Stadionbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Vijverhoef",
@@ -2385,7 +3169,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-West"
+  "subNeighbourhood": "Buitenveldert-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Bird cherries in the Elisabeth Wolffstraat",
@@ -2423,7 +3221,17 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Oud-West, De Baarsjes",
-  "subNeighbourhood": "Bellamybuurt"
+  "subNeighbourhood": "Bellamybuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus padus albertii",
+    "url": "https://www.vdberk.nl/bomen/prunus-padus-albertii/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the WG-terrein",
@@ -2461,7 +3269,21 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Oud-West, De Baarsjes",
-  "subNeighbourhood": "Helmersbuurt"
+  "subNeighbourhood": "Helmersbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Robinias on the Stadionkade",
@@ -2499,7 +3321,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Apollobuurt"
+  "subNeighbourhood": "Apollobuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Robinia pseudoacacia",
+    "url": "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   }
+  ]
  },
  {
   "title": "Foxglove trees on the George Gershwinlaan",
@@ -2537,7 +3369,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Zuidas"
+  "subNeighbourhood": "Zuidas",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Paulownia tomentosa",
+    "url": "https://www.vdberk.nl/bomen/paulownia-tomentosa/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries in the Velazquezstraat",
@@ -2575,7 +3417,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Apollobuurt"
+  "subNeighbourhood": "Apollobuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Double cherry blossom along the Willem van Weldammelaan",
@@ -2613,7 +3465,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-West"
+  "subNeighbourhood": "Buitenveldert-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Red hawthorn in the Wouwermanstraat",
@@ -2651,7 +3517,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Museumkwartier"
+  "subNeighbourhood": "Museumkwartier",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   }
+  ]
  },
  {
   "title": "Cherries of the Chopinstraat and Bachplein",
@@ -2689,7 +3565,29 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Apollobuurt"
+  "subNeighbourhood": "Apollobuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata amanogawa",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-amanogawa/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii charles sargent",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-charles-sargent/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries in the Daniël de Langestraat",
@@ -2727,7 +3625,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Museumkwartier"
+  "subNeighbourhood": "Museumkwartier",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Serviceberries on the Antonio Vivaldistraat",
@@ -2765,7 +3673,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Zuidas"
+  "subNeighbourhood": "Zuidas",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Amelanchier lamarckii",
+    "url": "https://www.vdberk.nl/bomen/amelanchier-lamarckii/"
+   }
+  ]
  },
  {
   "title": "Wild cherries along the Moersbergen",
@@ -2803,7 +3721,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Buitenveldert, Zuidas",
-  "subNeighbourhood": "Buitenveldert-Oost"
+  "subNeighbourhood": "Buitenveldert-Oost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Red hawthorn along the Pieter de Hoochstraat",
@@ -2841,7 +3769,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "Oud-Zuid",
-  "subNeighbourhood": "Museumkwartier"
+  "subNeighbourhood": "Museumkwartier",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna stricta",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna-stricta/"
+   }
+  ]
  },
  {
   "title": "Double cherries in the Vincent van Goghstraat",
@@ -2879,7 +3821,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Nieuwe Pijp"
+  "subNeighbourhood": "Nieuwe Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Double cherries in the Eerste Jan van der Heijdenstraat",
@@ -2917,7 +3869,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Oude Pijp"
+  "subNeighbourhood": "Oude Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Double cherries in the Tweede Jan Steenstraat",
@@ -2955,7 +3921,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Oude Pijp"
+  "subNeighbourhood": "Oude Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Hawthorn along the Rustenburgerstraat",
@@ -2993,7 +3969,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Nieuwe Pijp"
+  "subNeighbourhood": "Nieuwe Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna stricta",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna-stricta/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Prunus cerasifera nigra",
+    "url": "https://www.vdberk.nl/bomen/prunus-cerasifera-nigra/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the Henrick de Keijserplein",
@@ -3031,7 +4025,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Zuid Pijp"
+  "subNeighbourhood": "Zuid Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata pink perfection",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii rancho",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the Thérèse Schwartzeplein",
@@ -3069,7 +4081,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Zuid Pijp"
+  "subNeighbourhood": "Zuid Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata sunset boulevard",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata pink perfection",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/"
+   }
+  ]
  },
  {
   "title": "Japanese cherries along the Jozef Israëlskade",
@@ -3107,7 +4137,25 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Zuid Pijp"
+  "subNeighbourhood": "Zuid Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus yedoensis",
+    "url": "https://www.vdberk.nl/bomen/prunus-yedoensis/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata pink perfection",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/"
+   }
+  ]
  },
  {
   "title": "Spire cherries in the Sint Willibrordusstraat",
@@ -3145,7 +4193,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Nieuwe Pijp"
+  "subNeighbourhood": "Nieuwe Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus spire",
+    "url": "https://www.vdberk.nl/bomen/prunus-spire/"
+   }
+  ]
  },
  {
   "title": "Hawthorn and cherries on the Henriëtte Ronnerplein",
@@ -3183,7 +4241,29 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Zuid Pijp"
+  "subNeighbourhood": "Zuid Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata pink perfection",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata fugenzo",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-fugenzo/"
+   }
+  ]
  },
  {
   "title": "Horse chestnuts on the Rooseveltlaan",
@@ -3221,7 +4301,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Scheldebuurt"
+  "subNeighbourhood": "Scheldebuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum baumannii",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum/"
+   }
+  ]
  },
  {
   "title": "White cherries in the Kinderdijkstraat",
@@ -3259,7 +4353,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Rijnbuurt"
+  "subNeighbourhood": "Rijnbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Winter cherries on the Victorieplein",
@@ -3297,7 +4405,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Scheldebuurt"
+  "subNeighbourhood": "Scheldebuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis rosea",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis-rosea/"
+   }
+  ]
  },
  {
   "title": "Cherries on the Dora Tamanaplein",
@@ -3335,7 +4457,21 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Nieuwe Pijp"
+  "subNeighbourhood": "Nieuwe Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus yedoensis",
+    "url": "https://www.vdberk.nl/bomen/prunus-yedoensis/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   }
+  ]
  },
  {
   "title": "Double cherries on the Smaragdplein",
@@ -3373,7 +4509,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "Zuid Pijp"
+  "subNeighbourhood": "Zuid Pijp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Magnolias on the Meerhuizenplein",
@@ -3411,7 +4557,17 @@
   "municipality": "Amsterdam",
   "borough": "Zuid",
   "neighbourhood": "De Pijp, Rivierenbuurt",
-  "subNeighbourhood": "IJselbuurt"
+  "subNeighbourhood": "IJselbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Ornamental pears around the Reitzstraat",
@@ -3449,7 +4605,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Oud-Oost",
-  "subNeighbourhood": "Transvaalbuurt"
+  "subNeighbourhood": "Transvaalbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Hofmeyrstraat",
@@ -3487,7 +4653,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Oud-Oost",
-  "subNeighbourhood": "Transvaalbuurt"
+  "subNeighbourhood": "Transvaalbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Magnolias on the Tugelaweg",
@@ -3525,7 +4701,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Oud-Oost",
-  "subNeighbourhood": "Transvaalbuurt"
+  "subNeighbourhood": "Transvaalbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Black locusts along the Solitudolaan",
@@ -3563,7 +4749,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Omval/Overamstel"
+  "subNeighbourhood": "Omval/Overamstel",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Robinia pseudoacacia",
+    "url": "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries in the Roomtuintjes",
@@ -3601,7 +4797,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Oud-Oost",
-  "subNeighbourhood": "Dapperbuurt"
+  "subNeighbourhood": "Dapperbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Korteweghof",
@@ -3639,7 +4845,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Frankendael"
+  "subNeighbourhood": "Frankendael",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Cherries and pears round the Ambonplein",
@@ -3677,7 +4893,29 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Indische Buurt, Oostelijk Havengebied",
-  "subNeighbourhood": "Indische Buurt-West"
+  "subNeighbourhood": "Indische Buurt-West",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus accolade",
+    "url": "https://www.vdberk.nl/bomen/prunus-accolade/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata pink perfection",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata sunset boulevard",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/"
+   },
+   {
+    "label": "Van den Berk: Pyrus calleryana chanticleer",
+    "url": "https://www.vdberk.nl/bomen/pyrus-calleryana-chanticleer/"
+   }
+  ]
  },
  {
   "title": "Kanzan cherries on the Mariotteplein",
@@ -3715,7 +4953,25 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Middenmeer"
+  "subNeighbourhood": "Middenmeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii charles sargent",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-charles-sargent/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata sunset boulevard",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-sunset-boulevard/"
+   }
+  ]
  },
  {
   "title": "White cherries on the Rozenburglaan",
@@ -3753,7 +5009,25 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Betondorp"
+  "subNeighbourhood": "Betondorp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata pink perfection",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-pink-perfection/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Hawthorn and cherries on the Archimedeslaan",
@@ -3791,7 +5065,33 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Middenmeer"
+  "subNeighbourhood": "Middenmeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna/"
+   },
+   {
+    "label": "Van den Berk: Prunus okame",
+    "url": "https://www.vdberk.nl/bomen/prunus-okame/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii rancho",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/"
+   },
+   {
+    "label": "Van den Berk: Prunus schmittii",
+    "url": "https://www.vdberk.nl/bomen/prunus-schmittii/"
+   }
+  ]
  },
  {
   "title": "Cherry plums in the Teslastraat",
@@ -3829,7 +5129,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Middenmeer"
+  "subNeighbourhood": "Middenmeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus cerasifera nigra",
+    "url": "https://www.vdberk.nl/bomen/prunus-cerasifera-nigra/"
+   }
+  ]
  },
  {
   "title": "Pink locusts on the J.M. van der Meylaan",
@@ -3867,7 +5177,21 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Indische Buurt, Oostelijk Havengebied",
-  "subNeighbourhood": "Oostelijk Havengebied"
+  "subNeighbourhood": "Oostelijk Havengebied",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Robinia ambigua decaisneana",
+    "url": "https://www.vdberk.nl/bomen/robinia-ambigua-decaisneana/"
+   },
+   {
+    "label": "Van den Berk: Robinia pseudoacacia",
+    "url": "https://www.vdberk.nl/bomen/robinia-pseudoacacia/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Weidestraat",
@@ -3905,7 +5229,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Watergraafsmeer",
-  "subNeighbourhood": "Betondorp"
+  "subNeighbourhood": "Betondorp",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   }
+  ]
  },
  {
   "title": "Winter cherries of the Meerwaldtbuurt",
@@ -3943,7 +5277,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Geuzenveld, Slotermeer",
-  "subNeighbourhood": "Slotermeer-Noordoost"
+  "subNeighbourhood": "Slotermeer-Noordoost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis/"
+   },
+   {
+    "label": "Van den Berk: Prunus subhirtella autumnalis rosea",
+    "url": "https://www.vdberk.nl/bomen/prunus-subhirtella-autumnalis-rosea/"
+   }
+  ]
  },
  {
   "title": "Hawthorns along the Frans Bastiaansestraat",
@@ -3981,7 +5329,17 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Geuzenveld, Slotermeer",
-  "subNeighbourhood": "Slotermeer-Zuidoost"
+  "subNeighbourhood": "Slotermeer-Zuidoost",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus laevigata",
+    "url": "https://www.vdberk.nl/bomen/crataegus-laevigata/"
+   }
+  ]
  },
  {
   "title": "White 'Umineko' cherries in the Ernest Staesstraat",
@@ -4019,7 +5377,17 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Bos en Lommer",
-  "subNeighbourhood": "De Kolenkit"
+  "subNeighbourhood": "De Kolenkit",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   }
+  ]
  },
  {
   "title": "Japanese pagoda trees in the Hofwijckstraat",
@@ -4057,7 +5425,25 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Bos en Lommer",
-  "subNeighbourhood": "Landlust"
+  "subNeighbourhood": "Landlust",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Styphnolobium japonicum",
+    "url": "https://www.vdberk.nl/bomen/styphnolobium-japonicum/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus schmittii",
+    "url": "https://www.vdberk.nl/bomen/prunus-schmittii/"
+   }
+  ]
  },
  {
   "title": "Horse chestnuts along the De Rijpgracht",
@@ -4095,7 +5481,25 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Bos en Lommer",
-  "subNeighbourhood": "Landlust"
+  "subNeighbourhood": "Landlust",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum baumannii",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   }
+  ]
  },
  {
   "title": "'Kanzan' cherries on the Willem de Zwijgerlaan",
@@ -4133,7 +5537,21 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Bos en Lommer",
-  "subNeighbourhood": "Landlust"
+  "subNeighbourhood": "Landlust",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii rancho",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-rancho/"
+   }
+  ]
  },
  {
   "title": "Horse chestnuts in the Visseringstraat",
@@ -4171,7 +5589,21 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Westerpark",
-  "subNeighbourhood": "Staatsliedenbuurt"
+  "subNeighbourhood": "Staatsliedenbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum baumannii",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   },
+   {
+    "label": "Van den Berk: Aesculus flava vestita",
+    "url": "https://www.vdberk.nl/bomen/aesculus-flava-vestita/"
+   }
+  ]
  },
  {
   "title": "Magnolias of the Van Tijenbuurt",
@@ -4209,7 +5641,21 @@
   "municipality": "Amsterdam",
   "borough": "Nieuw-West",
   "neighbourhood": "Geuzenveld, Slotermeer",
-  "subNeighbourhood": "Geuzenveld"
+  "subNeighbourhood": "Geuzenveld",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Magnolia kobus",
+    "url": "https://www.vdberk.nl/bomen/magnolia-kobus/"
+   },
+   {
+    "label": "Van den Berk: Magnolia galaxy",
+    "url": "https://www.vdberk.nl/bomen/magnolia-galaxy/"
+   }
+  ]
  },
  {
   "title": "Golden rain trees in the Wormerveerstraat",
@@ -4247,7 +5693,17 @@
   "municipality": "Amsterdam",
   "borough": "West",
   "neighbourhood": "Westerpark",
-  "subNeighbourhood": "Spaarndammerbuurt/Zeeheldenbuurt"
+  "subNeighbourhood": "Spaarndammerbuurt/Zeeheldenbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Koelreuteria paniculata",
+    "url": "https://www.vdberk.nl/bomen/koelreuteria-paniculata/"
+   }
+  ]
  },
  {
   "title": "Tulip trees on the Reizigersweg",
@@ -4285,7 +5741,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Oostzanerwerf"
+  "subNeighbourhood": "Oostzanerwerf",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Liriodendron tulipifera",
+    "url": "https://www.vdberk.nl/bomen/liriodendron-tulipifera/"
+   }
+  ]
  },
  {
   "title": "Foxglove trees on the Frambozenstraat",
@@ -4323,7 +5789,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Tuindorp Oostzaan"
+  "subNeighbourhood": "Tuindorp Oostzaan",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Paulownia tomentosa",
+    "url": "https://www.vdberk.nl/bomen/paulownia-tomentosa/"
+   }
+  ]
  },
  {
   "title": "Wild cherries round the Kersenstraat",
@@ -4361,7 +5837,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Tuindorp Oostzaan"
+  "subNeighbourhood": "Tuindorp Oostzaan",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Crab apples on the Nesserhoek",
@@ -4399,7 +5889,29 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Oostzanerwerf"
+  "subNeighbourhood": "Oostzanerwerf",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus toringo",
+    "url": "https://www.vdberk.nl/bomen/malus-toringo/"
+   },
+   {
+    "label": "Van den Berk: Malus rudolph",
+    "url": "https://www.vdberk.nl/bomen/malus-rudolph/"
+   },
+   {
+    "label": "Van den Berk: Malus baccata street parade",
+    "url": "https://www.vdberk.nl/bomen/malus-baccata-street-parade/"
+   },
+   {
+    "label": "Van den Berk: Malus tschonoskii",
+    "url": "https://www.vdberk.nl/bomen/malus-tschonoskii/"
+   }
+  ]
  },
  {
   "title": "Japanese pagoda trees on the Adrianus van Waertweg",
@@ -4437,7 +5949,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Kadoelen"
+  "subNeighbourhood": "Kadoelen",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Styphnolobium japonicum",
+    "url": "https://www.vdberk.nl/bomen/styphnolobium-japonicum/"
+   }
+  ]
  },
  {
   "title": "Golden chain trees in the Dillestraat",
@@ -4475,7 +5997,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Banne Buiksloot"
+  "subNeighbourhood": "Banne Buiksloot",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Laburnum watereri vossii",
+    "url": "https://www.vdberk.nl/bomen/laburnum-watereri-vossii/"
+   }
+  ]
  },
  {
   "title": "Double cherries round the Gentiaanplein",
@@ -4513,7 +6045,25 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "Volewijck"
+  "subNeighbourhood": "Volewijck",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "Crab apples on the Bezaanjachtplein",
@@ -4551,7 +6101,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Banne Buiksloot"
+  "subNeighbourhood": "Banne Buiksloot",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Malus toringo",
+    "url": "https://www.vdberk.nl/bomen/malus-toringo/"
+   },
+   {
+    "label": "Van den Berk: Malus golden hornet",
+    "url": "https://www.vdberk.nl/bomen/malus-golden-hornet/"
+   }
+  ]
  },
  {
   "title": "Red hawthorn and crab apples by the Sneeuwbalstraat",
@@ -4589,7 +6153,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "Volewijck"
+  "subNeighbourhood": "Volewijck",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Malus baccata street parade",
+    "url": "https://www.vdberk.nl/bomen/malus-baccata-street-parade/"
+   }
+  ]
  },
  {
   "title": "Hawthorns of the Duindoornplein",
@@ -4627,7 +6205,25 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "Volewijck"
+  "subNeighbourhood": "Volewijck",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Crataegus media pauls scarlet",
+    "url": "https://www.vdberk.nl/bomen/crataegus-media-pauls-scarlet/"
+   },
+   {
+    "label": "Van den Berk: Crataegus monogyna stricta",
+    "url": "https://www.vdberk.nl/bomen/crataegus-monogyna-stricta/"
+   },
+   {
+    "label": "Van den Berk: Crataegus persimilis splendens",
+    "url": "https://www.vdberk.nl/bomen/crataegus-persimilis-splendens/"
+   }
+  ]
  },
  {
   "title": "Bird cherries on Het Dok",
@@ -4665,7 +6261,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "IJplein/Vogelbuurt"
+  "subNeighbourhood": "IJplein/Vogelbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus padus watereri",
+    "url": "https://www.vdberk.nl/bomen/prunus-padus-watereri/"
+   }
+  ]
  },
  {
   "title": "White cherries and Indian bean trees by the Spyridon Louisweg",
@@ -4703,7 +6309,25 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Banne Buiksloot"
+  "subNeighbourhood": "Banne Buiksloot",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Catalpa bignonioides",
+    "url": "https://www.vdberk.nl/bomen/catalpa-bignonioides/"
+   }
+  ]
  },
  {
   "title": "Indian bean trees along the Parlevinkerpad",
@@ -4741,7 +6365,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-West",
-  "subNeighbourhood": "Banne Buiksloot"
+  "subNeighbourhood": "Banne Buiksloot",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Catalpa bignonioides",
+    "url": "https://www.vdberk.nl/bomen/catalpa-bignonioides/"
+   }
+  ]
  },
  {
   "title": "Double white cherries in the Kratontuin",
@@ -4779,7 +6413,17 @@
   "municipality": "Amsterdam",
   "borough": "Oost",
   "neighbourhood": "Indische Buurt, Oostelijk Havengebied",
-  "subNeighbourhood": "Oostelijk Havengebied"
+  "subNeighbourhood": "Oostelijk Havengebied",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium plena",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-plena/"
+   }
+  ]
  },
  {
   "title": "Wild cherries on the Zamenhofstraat",
@@ -4817,7 +6461,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "IJplein/Vogelbuurt"
+  "subNeighbourhood": "IJplein/Vogelbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium landscape bloom",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium-landscape-bloom/"
+   },
+   {
+    "label": "Van den Berk: Prunus avium",
+    "url": "https://www.vdberk.nl/bomen/prunus-avium/"
+   }
+  ]
  },
  {
   "title": "White cherries of the Rode Kruisbuurt",
@@ -4855,7 +6513,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-Oost",
-  "subNeighbourhood": "Buikslotermeer"
+  "subNeighbourhood": "Buikslotermeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus umineko",
+    "url": "https://www.vdberk.nl/bomen/prunus-umineko/"
+   },
+   {
+    "label": "Van den Berk: Prunus gondouinii schnee",
+    "url": "https://www.vdberk.nl/bomen/prunus-gondouinii-schnee/"
+   }
+  ]
  },
  {
   "title": "Sargent's cherries along the Elzenhagensingel",
@@ -4893,7 +6565,17 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-Oost",
-  "subNeighbourhood": "Elzenhagen"
+  "subNeighbourhood": "Elzenhagen",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii charles sargent",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii-charles-sargent/"
+   }
+  ]
  },
  {
   "title": "Horse chestnuts at Plan van Gool",
@@ -4931,7 +6613,33 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-Oost",
-  "subNeighbourhood": "Buikslotermeer"
+  "subNeighbourhood": "Buikslotermeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum baumannii",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   },
+   {
+    "label": "Van den Berk: Aesculus indica",
+    "url": "https://www.vdberk.nl/bomen/aesculus-indica/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum/"
+   },
+   {
+    "label": "Van den Berk: Prunus serrulata kanzan",
+    "url": "https://www.vdberk.nl/bomen/prunus-serrulata-kanzan/"
+   },
+   {
+    "label": "Van den Berk: Prunus sargentii",
+    "url": "https://www.vdberk.nl/bomen/prunus-sargentii/"
+   }
+  ]
  },
  {
   "title": "Japanese pagoda trees on the Purmerweg",
@@ -4969,7 +6677,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "Tuindorp Nieuwendam"
+  "subNeighbourhood": "Tuindorp Nieuwendam",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Styphnolobium japonicum regent",
+    "url": "https://www.vdberk.nl/bomen/styphnolobium-japonicum-regent/"
+   },
+   {
+    "label": "Van den Berk: Styphnolobium japonicum",
+    "url": "https://www.vdberk.nl/bomen/styphnolobium-japonicum/"
+   }
+  ]
  },
  {
   "title": "Double horse chestnuts of De Wieden",
@@ -5007,7 +6729,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-Oost",
-  "subNeighbourhood": "Buikslotermeer"
+  "subNeighbourhood": "Buikslotermeer",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum baumannii",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum-baumannii/"
+   },
+   {
+    "label": "Van den Berk: Aesculus hippocastanum",
+    "url": "https://www.vdberk.nl/bomen/aesculus-hippocastanum/"
+   }
+  ]
  },
  {
   "title": "Golden chain trees on the Werengouw",
@@ -5045,7 +6781,21 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Noord-Oost",
-  "subNeighbourhood": "Waterlandpleinbuurt"
+  "subNeighbourhood": "Waterlandpleinbuurt",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Laburnum anagyroides",
+    "url": "https://www.vdberk.nl/bomen/laburnum-anagyroides/"
+   },
+   {
+    "label": "Van den Berk: Laburnum watereri vossii",
+    "url": "https://www.vdberk.nl/bomen/laburnum-watereri-vossii/"
+   }
+  ]
  },
  {
   "title": "Bird cherries on the Monnikendammerplantsoen",
@@ -5083,6 +6833,16 @@
   "municipality": "Amsterdam",
   "borough": "Noord",
   "neighbourhood": "Oud-Noord",
-  "subNeighbourhood": "Tuindorp Nieuwendam"
+  "subNeighbourhood": "Tuindorp Nieuwendam",
+  "links": [
+   {
+    "label": "Amsterdam tree map",
+    "url": "https://maps.amsterdam.nl/bomen/"
+   },
+   {
+    "label": "Van den Berk: Prunus padus watereri",
+    "url": "https://www.vdberk.nl/bomen/prunus-padus-watereri/"
+   }
+  ]
  }
 ]
