@@ -341,6 +341,7 @@ const MapLayout = () => {
     [view.collection.categories],
   );
 
+  const noPhoto = urlSearch.nophoto ?? false;
   const visiblePlaces = useMemo(() => {
     const q = search.trim().toLowerCase();
     const matches = (p: { title: string; summary: string }) =>
@@ -350,9 +351,10 @@ const MapLayout = () => {
       (p, i) =>
         (!category || p.category === category) &&
         matchesFieldFilters(p.attributes, fieldFilters) &&
+        (!noPhoto || !p.coverPhotoId) &&
         (!q || matches(p) || matches(rawPlaces[i] ?? p)),
     );
-  }, [places, rawPlaces, category, fieldFilters, search]);
+  }, [places, rawPlaces, category, fieldFilters, noPhoto, search]);
 
   const visibleIds = useMemo(
     () => new Set(visiblePlaces.map((p) => p.id)),
@@ -407,6 +409,7 @@ const MapLayout = () => {
     patchSearch({
       cat: undefined,
       f: Object.keys(all).length > 0 ? all : undefined,
+      nophoto: undefined,
     });
   }, [rawView.collection.fields, patchSearch]);
 

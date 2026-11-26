@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
+  ChevronDown,
   CircleCheck,
   ClipboardCheck,
   FilePlus,
@@ -33,6 +34,15 @@ import { canonicalLink } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
 import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
 
+/** A filter chip, on or off. */
+const filterChip = (active: boolean) =>
+  cn(
+    "rounded-full border px-2.5 py-1 text-xs transition",
+    active
+      ? "border-foreground bg-foreground text-background"
+      : "hover:bg-muted",
+  );
+
 /** List rows in the server-rendered page; the rest render in the browser. */
 const FIRST_PAINT_ROWS = 40;
 
@@ -60,9 +70,19 @@ const MapIndex = () => {
   } = useMapPage();
   const exploring = useAppMode() === "explore";
   // Anything narrowing the list: the search, a category or a field filter.
+  const [noPhoto, setNoPhoto] = useSearchFlag("nophoto");
+  // Filters below the categories that narrow the list (a map's default
+  // choice doesn't count), for the folded toggle's label.
+  const moreActive =
+    filterFields(view.collection.fields).filter((f) => {
+      const selected = fieldFilters[f.key] ?? [];
+      return selected.length > 0 && !isDefaultSelection(f, selected);
+    }).length + (noPhoto ? 1 : 0);
+  const [filtersOpen, setFiltersOpen] = useSearchFlag("filters");
   const filtered =
     search.trim() !== "" ||
     category !== null ||
+    noPhoto ||
     Object.values(fieldFilters).some((v) => v.length > 0);
   // Near me: nearest first, with how far each place is.
   const [near, setNear] = useSearchFlag("near");
@@ -289,67 +309,112 @@ const MapIndex = () => {
                 );
               })}
             </div>
-            {filterFields(collection.fields).map((f) => {
-              const selected = fieldFilters[f.key] ?? [];
-              const byDefault = isDefaultSelection(f, selected);
-              const chip = (active: boolean) =>
-                cn(
-                  "rounded-full border px-2.5 py-1 text-xs transition",
-                  active
-                    ? "border-foreground bg-foreground text-background"
-                    : "hover:bg-muted",
-                );
-              return (
-                <fieldset
-                  key={f.key}
-                  className="flex flex-wrap items-center gap-1.5"
-                >
-                  <legend className="sr-only">
-                    {t("map_filter_by", { field: f.label })}
-                  </legend>
-                  <span
-                    aria-hidden
-                    className="mr-1 text-xs text-muted-foreground"
+            {/* On a phone, the filters below the categories fold away
+                behind a toggle that says how many of them are on. */}
+            <button
+              type="button"
+              aria-expanded={filtersOpen}
+              aria-controls="more-filters"
+              onClick={() => setFiltersOpen(!filtersOpen)}
+              className="flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-foreground md:hidden"
+            >
+              <ChevronDown
+                className={cn(
+                  "size-3.5 transition",
+                  filtersOpen && "rotate-180",
+                )}
+              />
+              {filtersOpen
+                ? t("map_filters_less")
+                : moreActive > 0
+                  ? t("map_filters_more_active", { count: moreActive })
+                  : t("map_filters_more")}
+            </button>
+            <div
+              id="more-filters"
+              className={cn("space-y-3", !filtersOpen && "max-md:hidden")}
+            >
+              {filterFields(collection.fields).map((f) => {
+                const selected = fieldFilters[f.key] ?? [];
+                const byDefault = isDefaultSelection(f, selected);
+                const chip = filterChip;
+                return (
+                  <fieldset
+                    key={f.key}
+                    className="flex flex-wrap items-center gap-1.5"
                   >
-                    {f.label}
-                  </span>
-                  <button
-                    type="button"
-                    aria-pressed={selected.length === 0}
-                    onClick={() => setFieldFilter(f.key, [])}
-                    className={chip(selected.length === 0)}
-                  >
-                    {t("map_filter_all")}
-                  </button>
-                  {(f.options ?? []).map((o) => {
-                    const active = selected.includes(o);
-                    return (
-                      <button
-                        key={o}
-                        type="button"
-                        aria-pressed={active}
-                        onClick={() =>
-                          setFieldFilter(
-                            f.key,
-                            active
-                              ? selected.filter((v) => v !== o)
-                              : [...selected, o],
-                          )
-                        }
-                        className={chip(active)}
-                      >
-                        {f.optionLabels?.[o] ?? o}
-                      </button>
-                    );
-                  })}
-                  {byDefault && (
-                    <span className="text-xs text-muted-foreground">
-                      {t("map_filter_default")}
+                    <legend className="sr-only">
+                      {t("map_filter_by", { field: f.label })}
+                    </legend>
+                    <span
+                      aria-hidden
+                      className="mr-1 text-xs text-muted-foreground"
+                    >
+                      {f.label}
                     </span>
-                  )}
-                </fieldset>
-              );
-            })}
+                    <button
+                      type="button"
+                      aria-pressed={selected.length === 0}
+                      onClick={() => setFieldFilter(f.key, [])}
+                      className={chip(selected.length === 0)}
+                    >
+                      {t("map_filter_all")}
+                    </button>
+                    {(f.options ?? []).map((o) => {
+                      const active = selected.includes(o);
+                      return (
+                        <button
+                          key={o}
+                          type="button"
+                          aria-pressed={active}
+                          onClick={() =>
+                            setFieldFilter(
+                              f.key,
+                              active
+                                ? selected.filter((v) => v !== o)
+                                : [...selected, o],
+                            )
+                          }
+                          className={chip(active)}
+                        >
+                          {f.optionLabels?.[o] ?? o}
+                        </button>
+                      );
+                    })}
+                    {byDefault && (
+                      <span className="text-xs text-muted-foreground">
+                        {t("map_filter_default")}
+                      </span>
+                    )}
+                  </fieldset>
+                );
+              })}
+              <fieldset className="flex flex-wrap items-center gap-1.5">
+                <legend className="sr-only">{t("map_filter_photo")}</legend>
+                <span
+                  aria-hidden
+                  className="mr-1 text-xs text-muted-foreground"
+                >
+                  {t("map_filter_photo")}
+                </span>
+                <button
+                  type="button"
+                  aria-pressed={!noPhoto}
+                  onClick={() => setNoPhoto(false)}
+                  className={filterChip(!noPhoto)}
+                >
+                  {t("map_filter_all")}
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={noPhoto}
+                  onClick={() => setNoPhoto(true)}
+                  className={filterChip(noPhoto)}
+                >
+                  {t("map_filter_no_photo")}
+                </button>
+              </fieldset>
+            </div>
             {(filtered || near) && (
               <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground">
                 <span>
