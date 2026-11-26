@@ -144,7 +144,11 @@ export const PlaceSheet = ({
         />
         {place.body && (
           <section className="space-y-3 text-[15px] leading-relaxed text-foreground/85">
-            <MarkdownView content={place.body} slug={data.home.slug} />
+            <MarkdownView
+              content={place.body}
+              slug={data.home.slug}
+              className="text-base"
+            />
           </section>
         )}
 

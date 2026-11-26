@@ -8,7 +8,7 @@ import {
   parseInline,
 } from "~/lib/markdown";
 import { type PageKind, useIsPeerOf } from "~/lib/nav-history";
-import { PHOTO_WIDTHS, photoSrcSet, photoUrl } from "~/lib/utils";
+import { cn, PHOTO_WIDTHS, photoSrcSet, photoUrl } from "~/lib/utils";
 
 /**
  * Renders the markdown dialect of `~/lib/markdown` as React elements (no
@@ -154,10 +154,13 @@ export const MarkdownView = ({
   content,
   slug,
   photos,
+  className,
 }: {
   content: string;
   slug?: string;
   photos?: PhotoMeta[];
+  /** E.g. a larger text size for a place's main text. */
+  className?: string;
 }) => {
   const peer = useIsPeerOf();
   // Rendered under a map route: its city is in the URL.
@@ -169,7 +172,7 @@ export const MarkdownView = ({
     photos: photos ? new Map(photos.map((p) => [p.id, p])) : undefined,
   };
   return (
-    <div className="space-y-3 text-sm leading-relaxed">
+    <div className={cn("space-y-3 text-sm leading-relaxed", className)}>
       {parseBlocks(content).map((block, idx) => {
         const key = `${idx}-${block.kind}`;
         return (
