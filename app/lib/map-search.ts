@@ -36,6 +36,10 @@ export const mapSearchSchema = z.object({
   ),
   /** Places list sorted by distance from the reader. */
   near: opt(z.boolean()),
+  /** Only places without a photo (to find what needs one). */
+  nophoto: opt(z.boolean()),
+  /** On a phone: the filters below the categories unfolded. */
+  filters: opt(z.boolean()),
   /** Routes filter: walks or rides (the route's main mode). */
   mode: opt(z.enum(ROUTE_MODES)),
   /** Routes filter: only loops (end where they start). */
@@ -68,13 +72,17 @@ export const MAP_RETAINED_PARAMS = [
   "cat",
   "f",
   "near",
+  "nophoto",
+  "filters",
   "mode",
   "loop",
   "map",
 ] as const satisfies readonly (keyof MapSearch)[];
 
 /** A boolean search param of the current map page, with its setter. */
-export const useSearchFlag = (key: "about" | "docs" | "icons" | "near") => {
+export const useSearchFlag = (
+  key: "about" | "docs" | "icons" | "near" | "nophoto" | "filters",
+) => {
   const search = useSearch({ from: "/$city/$slug" });
   const navigate = useNavigate();
   const set = (on: boolean) =>
