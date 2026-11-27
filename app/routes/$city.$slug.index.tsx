@@ -76,9 +76,13 @@ const useFoldOnScroll = () => {
     const phone = window.matchMedia(PHONE);
     const onScroll = () => {
       if (!phone.matches) return;
-      const busy =
-        performance.now() < settleUntil.current ||
-        panelRef.current?.contains(document.activeElement);
+      // Typing in the search keeps them open; a tapped chip keeps focus
+      // too, but shouldn't.
+      const active = document.activeElement;
+      const typing =
+        active instanceof HTMLInputElement &&
+        Boolean(panelRef.current?.contains(active));
+      const busy = performance.now() < settleUntil.current || typing;
       if (busy) {
         anchor.current = el.scrollTop;
         return;
