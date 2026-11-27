@@ -9,7 +9,7 @@ import { Breadcrumbs } from "~/components/PlaceSheet";
 import { Button } from "~/components/ui/button";
 import { languageName } from "~/lib/content-lang";
 import { areaCrumbs, areaLangPath, areaName } from "~/lib/place-page";
-import { photoUrl, THUMB_WIDTH } from "~/lib/utils";
+import { photoUrl } from "~/lib/utils";
 import type { RouterOutputs } from "~/trpc/router";
 
 export type AreaPageData = RouterOutputs["place"]["areaPage"];
@@ -89,7 +89,7 @@ export const AreaList = ({ data }: { data: AreaPageData }) => {
                   <a href={p.path} className="group flex gap-3">
                     {p.photoId && (
                       <img
-                        src={photoUrl(p.photoId, THUMB_WIDTH)}
+                        src={photoUrl(p.photoId, "thumb")}
                         alt=""
                         loading="lazy"
                         className="size-14 shrink-0 rounded object-cover"

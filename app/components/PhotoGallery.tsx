@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { CoverPhoto } from "~/components/CoverPhoto";
 import { PhotoCredit, type PhotoMeta } from "~/components/PhotoCredit";
 import { PhotoViewer } from "~/components/PhotoViewer";
-import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
+import { cn, photoUrl } from "~/lib/utils";
 
 export type { PhotoMeta };
 
@@ -72,7 +72,7 @@ export const Gallery = ({
               )}
             >
               <img
-                src={photoUrl(id, THUMB_WIDTH)}
+                src={photoUrl(id, "thumb")}
                 alt=""
                 className="size-full object-cover"
               />

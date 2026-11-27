@@ -8,7 +8,7 @@ import {
   parseInline,
 } from "~/lib/markdown";
 import { type PageKind, useIsPeerOf } from "~/lib/nav-history";
-import { cn, PHOTO_WIDTHS, photoSrcSet, photoUrl } from "~/lib/utils";
+import { cn, photoSrcSet, photoUrl } from "~/lib/utils";
 
 /**
  * Renders the markdown dialect of `~/lib/markdown` as React elements (no
@@ -127,8 +127,8 @@ const MarkdownBlock = ({
       return (
         <figure className="space-y-1">
           <img
-            src={photoUrl(block.photoId, 1200)}
-            srcSet={photoSrcSet(block.photoId, PHOTO_WIDTHS)}
+            src={photoUrl(block.photoId, "main")}
+            srcSet={photoSrcSet(block.photoId)}
             sizes="(min-width: 768px) 768px, 100vw"
             alt={block.caption}
             loading="lazy"

@@ -10,7 +10,7 @@ import { localize } from "~/lib/content-lang";
 import { type MapOverlay, useMapOverlay, useMapPage } from "~/lib/map-page";
 import { formatDistance, formatDuration } from "~/lib/routes";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
+import { cn, photoUrl } from "~/lib/utils";
 import { useTRPC } from "~/trpc/client";
 
 /** The Routes tab of the map index: list + all routes drawn faintly. */
@@ -184,7 +184,7 @@ export const RoutesPanel = () => {
               <div className="size-16 shrink-0 overflow-hidden rounded-md bg-muted">
                 {r.coverPhotoId && (
                   <img
-                    src={photoUrl(r.coverPhotoId, THUMB_WIDTH)}
+                    src={photoUrl(r.coverPhotoId, "thumb")}
                     alt=""
                     loading="lazy"
                     className="size-full object-cover"
