@@ -16,13 +16,13 @@ import {
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
+import { ListsPanel } from "~/components/ListsPanel";
 import { RoleBadge } from "~/components/RoleBadge";
 import { RoutesPanel } from "~/components/RoutesPanel";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { VerdictSummary } from "~/components/Verdict";
-import { VisitHistory } from "~/components/VisitHistory";
 import { useAppMode } from "~/lib/app-mode";
 import { categoryIcon } from "~/lib/category-icons";
 import { distanceMeters } from "~/lib/diff";
@@ -198,7 +198,7 @@ const MapIndex = () => {
           </p>
         )}
         {collection.description && (
-          <div className="text-sm">
+          <div className="text-base leading-relaxed">
             <p
               className={cn(
                 "text-muted-foreground",
@@ -209,7 +209,7 @@ const MapIndex = () => {
             </p>
             <button
               type="button"
-              className="text-xs font-medium text-primary hover:underline"
+              className="text-sm font-medium text-primary hover:underline"
               onClick={() => setAboutOpen(!aboutOpen)}
             >
               {aboutOpen ? t("map_about_less") : t("map_about_more")}
@@ -285,10 +285,7 @@ const MapIndex = () => {
       />
 
       <div className="flex border-b" role="tablist">
-        {(viewer
-          ? (["places", "routes", "visited"] as const)
-          : (["places", "routes"] as const)
-        ).map((key) => (
+        {(["places", "routes", "lists"] as const).map((key) => (
           <button
             key={key}
             type="button"
@@ -309,8 +306,8 @@ const MapIndex = () => {
 
       {tab === "routes" ? (
         <RoutesPanel />
-      ) : tab === "visited" && viewer ? (
-        <VisitHistory collectionId={collection.id} translateTo={translateTo} />
+      ) : tab === "lists" ? (
+        <ListsPanel />
       ) : (
         <>
           <div

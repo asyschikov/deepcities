@@ -183,6 +183,13 @@
       "when": 1795629300466,
       "tag": "0025_photo_license",
       "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "6",
+      "when": 1795816022830,
+      "tag": "0026_swift_the_enforcers",
+      "breakpoints": true
     }
   ]
 }
