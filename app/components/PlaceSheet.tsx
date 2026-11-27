@@ -22,7 +22,7 @@ import { Button } from "~/components/ui/button";
 import { VerdictSummary } from "~/components/Verdict";
 import { languageName } from "~/lib/content-lang";
 import { placeLangPath } from "~/lib/place-page";
-import { photoUrl, THUMB_WIDTH } from "~/lib/utils";
+import { photoUrl } from "~/lib/utils";
 import type { RouterOutputs } from "~/trpc/router";
 
 export type PlacePageData = RouterOutputs["place"]["page"];
@@ -187,7 +187,7 @@ export const PlaceSheet = ({
                   >
                     {d.photoId && (
                       <img
-                        src={photoUrl(d.photoId, THUMB_WIDTH)}
+                        src={photoUrl(d.photoId, "thumb")}
                         alt=""
                         loading="lazy"
                         className="size-12 shrink-0 rounded object-cover"
@@ -294,7 +294,7 @@ export const PlaceSheet = ({
                   >
                     {n.photoId && (
                       <img
-                        src={photoUrl(n.photoId, THUMB_WIDTH)}
+                        src={photoUrl(n.photoId, "thumb")}
                         alt=""
                         loading="lazy"
                         className="size-14 shrink-0 rounded object-cover"

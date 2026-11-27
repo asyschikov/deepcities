@@ -32,7 +32,7 @@ import { useSearchFlag } from "~/lib/map-search";
 import { formatDistance } from "~/lib/routes";
 import { canonicalLink } from "~/lib/seo";
 import { useViewer } from "~/lib/use-viewer";
-import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
+import { cn, photoUrl } from "~/lib/utils";
 
 /** A filter chip, on or off. */
 const filterChip = (active: boolean) =>
@@ -470,7 +470,7 @@ const MapIndex = () => {
                     >
                       {p.coverPhotoId ? (
                         <img
-                          src={photoUrl(p.coverPhotoId, THUMB_WIDTH)}
+                          src={photoUrl(p.coverPhotoId, "thumb")}
                           alt=""
                           loading="lazy"
                           className="size-full object-cover"

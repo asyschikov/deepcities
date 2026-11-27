@@ -14,33 +14,36 @@ export const getInitials = (name: string): string => {
 
 /**
  * Photos are resized at the edge by Cloudflare Image Transformations
- * (`/cdn-cgi/image/…`, enabled for the deepcities.org zone); they don't
- * exist in local dev, which gets the original.
+ * (`/cdn-cgi/image/…`, enabled for the deepcities.org zone; they don't exist
+ * in local dev, which gets the original). Each photo × size is a billed
+ * "unique transformation" a month, so there are just two sizes, and anything
+ * larger uses the original (already at most 1600 px from the uploader).
+ * `onerror=redirect` falls back to the original if a resize ever fails.
  */
-// Off: the free Cloudflare plan allows 5,000 resizes a month, and the site
-// went past it (error 9422 broke every photo). Originals until resizing is
-// paid for or done once at upload.
-const RESIZE = false;
+const RESIZE = !import.meta.env.DEV;
+
+export const PHOTO_SIZES = {
+  /** Lists, nearby places, gallery strip, blurred backdrops. */
+  thumb: 320,
+  /** The main photo on a page, photos in texts, share previews. */
+  main: 1200,
+} as const;
+export type PhotoSize = keyof typeof PHOTO_SIZES;
 
 /**
- * Public URL of an uploaded photo (served by the worker from R2), with
- * `width`: scaled down to at most that many pixels, in WebP/AVIF where the
+ * Public URL of an uploaded photo (served by the worker from R2): the
+ * original, or with `size` scaled down to it, in WebP/AVIF where the
  * browser takes it.
  */
-export const photoUrl = (photoId: string, width?: number): string => {
+export const photoUrl = (photoId: string, size?: PhotoSize): string => {
   const src = `/media/photos/${photoId}`;
-  return width && RESIZE
-    ? `/cdn-cgi/image/width=${width},fit=scale-down,format=auto,quality=80${src}`
+  return size && RESIZE
+    ? `/cdn-cgi/image/width=${PHOTO_SIZES[size]},fit=scale-down,format=auto,quality=80,onerror=redirect${src}`
     : src;
 };
 
-/** A `srcSet` of the photo at `widths`. */
-export const photoSrcSet = (photoId: string, widths: number[]): string =>
-  widths.map((w) => `${photoUrl(photoId, w)} ${w}w`).join(", ");
-
-/** Widths for a photo shown across a page or panel. */
-export const PHOTO_WIDTHS = [480, 800, 1200, 1600];
-/** A list thumbnail (shown at 48–64 px; 2x screens double it). */
-export const THUMB_WIDTH = 160;
+/** The main size for most screens, the original for wide, sharp ones. */
+export const photoSrcSet = (photoId: string): string =>
+  `${photoUrl(photoId, "main")} ${PHOTO_SIZES.main}w, ${photoUrl(photoId)} 1600w`;
 export const avatarUrl = (id: string): string => `/media/avatars/${id}`;
 export const checkinPhotoUrl = (id: string): string => `/media/checkins/${id}`;

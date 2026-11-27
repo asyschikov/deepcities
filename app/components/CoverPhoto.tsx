@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { cn, PHOTO_WIDTHS, photoSrcSet, photoUrl } from "~/lib/utils";
+import { cn, photoSrcSet, photoUrl } from "~/lib/utils";
 
 /**
  * A photo in a 4:3 frame. Landscape photos fill it; tall ones (a statue, a
@@ -45,15 +45,15 @@ export const CoverPhoto = ({
     >
       {tall && (
         <img
-          src={photoUrl(id, 64)}
+          src={photoUrl(id, "thumb")}
           alt=""
           aria-hidden
           className="absolute inset-0 size-full scale-110 object-cover opacity-60 blur-xl"
         />
       )}
       <img
-        src={photoUrl(id, 1200)}
-        srcSet={photoSrcSet(id, PHOTO_WIDTHS)}
+        src={photoUrl(id, "main")}
+        srcSet={photoSrcSet(id)}
         sizes="(min-width: 768px) 768px, 100vw"
         alt={alt}
         onLoad={(e) => {

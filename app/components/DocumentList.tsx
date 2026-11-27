@@ -6,7 +6,7 @@ import type { DocumentSubject } from "~/lib/constants";
 import { localize } from "~/lib/content-lang";
 import { useMapPage } from "~/lib/map-page";
 import { useSearchFlag } from "~/lib/map-search";
-import { cn, photoUrl, THUMB_WIDTH } from "~/lib/utils";
+import { cn, photoUrl } from "~/lib/utils";
 import { useTRPC } from "~/trpc/client";
 
 /** How many documents show before "Show all". */
@@ -63,7 +63,7 @@ export const DocumentList = ({
             >
               {d.coverPhotoId && (
                 <img
-                  src={photoUrl(d.coverPhotoId, THUMB_WIDTH)}
+                  src={photoUrl(d.coverPhotoId, "thumb")}
                   alt=""
                   loading="lazy"
                   className="size-12 shrink-0 rounded object-cover"
