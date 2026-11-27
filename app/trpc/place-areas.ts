@@ -16,6 +16,7 @@ import type { Database } from "~/lib/db";
 import { collection, place } from "~/lib/db/schema";
 import { areaSlug, langPrefix } from "~/lib/place-page";
 import { snippet } from "~/lib/seo";
+import { compareTitles } from "~/lib/title-sort";
 
 /** An area with this many places or fewer lists them all on its page. */
 const LIST_ALL = 150;
@@ -127,7 +128,7 @@ export const areaPage = async (
     photoId: r.photoIds[0] ?? null,
   });
   const byTitle = (x: { title: string }, y: { title: string }) =>
-    x.title.localeCompare(y.title, lang);
+    compareTitles(x.title, y.title, lang);
   /** Places grouped by `key`, groups by name (unnamed last). */
   const groups = (list: Row[], key: (r: Row) => string | null) => {
     const by = new Map<string, Row[]>();

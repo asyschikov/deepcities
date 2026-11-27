@@ -53,6 +53,7 @@ import {
 } from "~/lib/map-search";
 import { useIsPeerOf } from "~/lib/nav-history";
 import { seoMeta, withCity } from "~/lib/seo";
+import { compareTitles } from "~/lib/title-sort";
 import { useViewer } from "~/lib/use-viewer";
 import { cn } from "~/lib/utils";
 import { createCaller } from "~/trpc/caller";
@@ -128,8 +129,13 @@ const MapLayout = () => {
     [rawView, translateTo],
   );
   const places = useMemo(
-    () => rawPlaces.map((p) => localize(p, translateTo)),
-    [rawPlaces, translateTo],
+    () =>
+      rawPlaces
+        .map((p) => localize(p, translateTo))
+        .sort((a, b) =>
+          compareTitles(a.title, b.title, translateTo ?? baseLang),
+        ),
+    [rawPlaces, translateTo, baseLang],
   );
 
   // View state lives in the URL (replaced, not pushed), so a refresh or a
