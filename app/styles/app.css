@@ -291,10 +291,12 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  white-space: nowrap;
-  max-width: 260px;
+  /* The halo is 0 wide, so size to the text, then wrap at the cap. */
+  width: max-content;
+  max-width: min(260px, 70vw);
   padding: 3px 9px;
-  border-radius: 9999px;
+  border-radius: 14px;
+  line-height: 1.25;
   background: var(--card);
   color: var(--foreground);
   font-size: 13px;
@@ -303,8 +305,8 @@
   border: 2px solid var(--halo);
 }
 .dc-hover-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .dc-hover-close {
   /* The halo ignores the pointer; its close button doesn't. */

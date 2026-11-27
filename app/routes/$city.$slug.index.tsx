@@ -9,7 +9,6 @@ import {
   Plus,
   Search,
   Settings,
-  SlidersHorizontal,
   TriangleAlert,
   X,
 } from "lucide-react";
@@ -119,7 +118,6 @@ const MapIndex = () => {
     setHoverPlaceId,
     geo,
     visitedIds,
-    translateTo,
   } = useMapPage();
   const exploring = useAppMode() === "explore";
   // Anything narrowing the list: the search, a category or a field filter.
@@ -326,7 +324,7 @@ const MapIndex = () => {
                 aria-label={t("map_filters_show")}
                 className="flex w-full items-center gap-2 text-left text-xs md:hidden"
               >
-                <SlidersHorizontal className="size-4 shrink-0 text-muted-foreground" />
+                <Search className="size-4 shrink-0 text-muted-foreground" />
                 <span className="flex min-w-0 flex-1 gap-1.5 overflow-hidden">
                   {chosen.length === 0 ? (
                     <span className="text-muted-foreground">
