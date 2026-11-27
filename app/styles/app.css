@@ -307,6 +307,8 @@
 .dc-hover-title {
   min-width: 0;
   overflow-wrap: anywhere;
+  /* Even lines; MapView then shrinks the box to the longest one. */
+  text-wrap: balance;
 }
 .dc-hover-close {
   /* The halo ignores the pointer; its close button doesn't. */

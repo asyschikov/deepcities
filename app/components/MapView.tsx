@@ -215,6 +215,21 @@ const clusterGradient = (colors: Record<string, number>, count: number) => {
  * MapLibre map with HTML markers. maplibre-gl touches `window`, so it is
  * imported lazily inside an effect and the map only exists on the client.
  */
+/**
+ * A wrapped label stays as wide as its cap however short its lines end up;
+ * shrink it to its longest line (the lines are balanced in CSS).
+ */
+const fitToLines = (el: HTMLElement) => {
+  el.style.width = "";
+  const range = document.createRange();
+  range.selectNodeContents(el);
+  const lines = [...range.getClientRects()];
+  if (lines.length < 2) return;
+  const left = Math.min(...lines.map((r) => r.left));
+  const right = Math.max(...lines.map((r) => r.right));
+  el.style.width = `${Math.ceil(right - left)}px`;
+};
+
 export const MapView = ({
   center,
   zoom,
@@ -586,6 +601,7 @@ export const MapView = ({
       close.title = t("map_close_place");
     }
     halo.marker.setLngLat([m.lng, m.lat]).addTo(map);
+    if (title instanceof HTMLElement) fitToLines(title);
     entry.el.dataset.hover = "true";
     entry.el.style.zIndex = "5";
     entry.marker.setOpacity("1");
