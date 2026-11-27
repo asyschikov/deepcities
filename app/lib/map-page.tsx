@@ -37,7 +37,7 @@ export interface MapOverlay {
   card?: ReactNode;
 }
 
-export type SidebarTab = "places" | "routes" | "visited";
+export type SidebarTab = "places" | "routes" | "lists";
 
 /**
  * Shared state between the map (right) and the routed side panel (left) on

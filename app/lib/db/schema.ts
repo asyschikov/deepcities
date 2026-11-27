@@ -15,6 +15,7 @@ import {
   CONTRIBUTION_POLICIES,
   type ContentLang,
   DOCUMENT_ACTIONS,
+  DOCUMENT_KINDS,
   DOCUMENT_STATUSES,
   DOCUMENT_SUBJECTS,
   EXPLORER_ACTIONS,
@@ -774,6 +775,7 @@ export const document = sqliteTable(
       .notNull()
       .default("published"),
     revision: integer("revision").notNull().default(1),
+    kind: text("kind", { enum: DOCUMENT_KINDS }).notNull().default("text"),
     title: text("title").notNull(),
     summary: text("summary").notNull().default(""),
     body: text("body").notNull().default(""),

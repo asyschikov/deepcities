@@ -301,6 +301,13 @@ export const CATEGORY_COLORS = [
 // ─── Documents (long-form markdown + pictures attached to map objects) ─
 
 export const DOCUMENT_STATUSES = ["published", "archived"] as const;
+
+/**
+ * A text (an essay, a guide) or a list: a description with its places, the
+ * attached ones in order (shown under the map's Lists tab).
+ */
+export const DOCUMENT_KINDS = ["text", "list"] as const;
+export type DocumentKind = (typeof DOCUMENT_KINDS)[number];
 export type DocumentStatus = (typeof DOCUMENT_STATUSES)[number];
 
 /**

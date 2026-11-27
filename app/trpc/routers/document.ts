@@ -1,8 +1,12 @@
 import { createId } from "@paralleldrive/cuid2";
 import { TRPCError } from "@trpc/server";
-import { and, desc, eq, inArray } from "drizzle-orm";
+import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
-import { DOCUMENT_SUBJECTS, MAX_PHOTOS_PER_DOCUMENT } from "~/lib/constants";
+import {
+  DOCUMENT_KINDS,
+  DOCUMENT_SUBJECTS,
+  MAX_PHOTOS_PER_DOCUMENT,
+} from "~/lib/constants";
 import type { Database } from "~/lib/db";
 import {
   document,
@@ -152,7 +156,12 @@ export const documentRouter = router({
    */
   list: publicProcedure
     .input(
-      z.object({ collectionId: idSchema, subject: subjectSchema.optional() }),
+      z.object({
+        collectionId: idSchema,
+        subject: subjectSchema.optional(),
+        /** Only texts or only lists (default: both). */
+        kind: z.enum(DOCUMENT_KINDS).optional(),
+      }),
     )
     .query(async ({ ctx, input }) => {
       const { subject } = input;
@@ -176,9 +185,11 @@ export const documentRouter = router({
           eq(document.collectionId, input.collectionId),
           eq(document.status, "published"),
           ids ? inArray(document.id, ids) : undefined,
+          input.kind ? eq(document.kind, input.kind) : undefined,
         ),
         columns: {
           id: true,
+          kind: true,
           title: true,
           summary: true,
           photoIds: true,
@@ -187,9 +198,32 @@ export const documentRouter = router({
         },
         orderBy: (d, { asc }) => asc(d.createdAt),
       });
+      // How many places each has (a list's size).
+      const counts =
+        rows.length > 0
+          ? await selectIn(
+              rows.map((r) => r.id),
+              (chunk) =>
+                ctx.db
+                  .select({
+                    id: documentAttachment.documentId,
+                    n: sql<number>`count(*)`,
+                  })
+                  .from(documentAttachment)
+                  .where(
+                    and(
+                      inArray(documentAttachment.documentId, chunk),
+                      eq(documentAttachment.subjectType, "place"),
+                    ),
+                  )
+                  .groupBy(documentAttachment.documentId),
+            )
+          : [];
+      const countOf = new Map(counts.map((c) => [c.id, c.n]));
       return rows.map(({ photoIds, ...d }) => ({
         ...d,
         coverPhotoId: photoIds[0] ?? null,
+        placeCount: countOf.get(d.id) ?? 0,
       }));
     }),
 
@@ -415,6 +449,7 @@ export const documentRouter = router({
           revision,
           action: "archived",
           draft: {
+            kind: current.kind,
             title: current.title,
             summary: current.summary,
             body: current.body,
