@@ -47,3 +47,5 @@ No subcategories. Secondary categories and theme lists are open questions for la
   (pumping works, purification, waterworks service buildings) go in industrial; drainage and
   sewage pumping stations, bridges, locks and ferries stay in Water & bridges. Moved: Former
   waterworks (Watertorenplein), Emergency waterworks of the Defence Line, Provincialeweg 16.
+- 2026-11-27, user: "Pniëlkerk is a theater". Former churches that are working theatres go in
+  Museums & stages, titled by today's name (Podium Mozaïek, the theatre in the Pniëlkerk).
