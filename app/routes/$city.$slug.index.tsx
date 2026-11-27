@@ -9,10 +9,11 @@ import {
   Plus,
   Search,
   Settings,
+  SlidersHorizontal,
   TriangleAlert,
   X,
 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
 import { ListsPanel } from "~/components/ListsPanel";
@@ -46,6 +47,58 @@ const filterChip = (active: boolean) =>
 /** List rows in the server-rendered page; the rest render in the browser. */
 const FIRST_PAINT_ROWS = 40;
 
+/** Phones only (Tailwind's `md` breakpoint is 768px). */
+const PHONE = "(max-width: 767px)";
+/** How far the list may scroll before the filters fold away. */
+const FOLD_AFTER_PX = 48;
+/** After a tap or unfolding, let the layout settle before watching again. */
+const SETTLE_MS = 400;
+
+/**
+ * Phones: the filters fold to a one-line summary as soon as the list
+ * scrolls a little, and unfold on a tap. They stay open while you type in
+ * them or tap their chips (the list's length, and so the scroll, changes).
+ */
+/** The map panel scrolls itself (see $city.$slug.tsx). */
+const scroller = () => document.getElementById("map-panel");
+
+const useFoldOnScroll = () => {
+  const [folded, setFolded] = useState(false);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const anchor = useRef(0);
+  const settleUntil = useRef(0);
+  const settle = () => {
+    anchor.current = scroller()?.scrollTop ?? 0;
+    settleUntil.current = performance.now() + SETTLE_MS;
+  };
+  useEffect(() => {
+    const el = scroller();
+    if (!el || folded) return;
+    const phone = window.matchMedia(PHONE);
+    const onScroll = () => {
+      if (!phone.matches) return;
+      const busy =
+        performance.now() < settleUntil.current ||
+        panelRef.current?.contains(document.activeElement);
+      if (busy) {
+        anchor.current = el.scrollTop;
+        return;
+      }
+      if (Math.abs(el.scrollTop - anchor.current) > FOLD_AFTER_PX) {
+        setFolded(true);
+      }
+    };
+    anchor.current = el.scrollTop;
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => el.removeEventListener("scroll", onScroll);
+  }, [folded]);
+  const unfold = () => {
+    settle();
+    setFolded(false);
+  };
+  return { folded, unfold, settle, panelRef };
+};
+
 const MapIndex = () => {
   const { t } = useTranslation();
   const viewer = useViewer();
@@ -71,14 +124,7 @@ const MapIndex = () => {
   const exploring = useAppMode() === "explore";
   // Anything narrowing the list: the search, a category or a field filter.
   const [noPhoto, setNoPhoto] = useSearchFlag("nophoto");
-  // Filters below the categories that narrow the list (a map's default
-  // choice doesn't count), for the folded toggle's label.
-  const moreActive =
-    filterFields(view.collection.fields).filter((f) => {
-      const selected = fieldFilters[f.key] ?? [];
-      return selected.length > 0 && !isDefaultSelection(f, selected);
-    }).length + (noPhoto ? 1 : 0);
-  const [filtersOpen, setFiltersOpen] = useSearchFlag("filters");
+  const fold = useFoldOnScroll();
   const filtered =
     search.trim() !== "" ||
     category !== null ||
@@ -86,6 +132,31 @@ const MapIndex = () => {
     Object.values(fieldFilters).some((v) => v.length > 0);
   // Near me: nearest first, with how far each place is.
   const [near, setNear] = useSearchFlag("near");
+  // The folded filters' summary: everything that differs from the map's
+  // starting point (a field's own default doesn't count).
+  const chosen = [
+    ...(search.trim() ? [`“${search.trim()}”`] : []),
+    ...(near ? [t("near_me")] : []),
+    ...(category ? [categoryOf(category)?.label ?? category] : []),
+    ...filterFields(view.collection.fields)
+      .filter((f) => {
+        const selected = fieldFilters[f.key] ?? [];
+        const fallback = f.filterDefault ?? [];
+        return (
+          selected.length !== fallback.length ||
+          selected.some((v) => !fallback.includes(v))
+        );
+      })
+      .map((f) => {
+        const selected = fieldFilters[f.key] ?? [];
+        const values =
+          selected.length === 0
+            ? t("map_filter_all")
+            : selected.map((o) => f.optionLabels?.[o] ?? o).join(", ");
+        return `${f.label}: ${values}`;
+      }),
+    ...(noPhoto ? [t("map_filter_no_photo")] : []),
+  ];
   const here = useSettledFix(geo.fix);
   // biome-ignore lint/correctness/useExhaustiveDependencies: start once when opened with ?near
   useEffect(() => {
@@ -239,200 +310,218 @@ const MapIndex = () => {
         <ListsPanel />
       ) : (
         <>
-          <div className="space-y-3 border-b bg-card/95 p-4 backdrop-blur sticky top-0 z-10">
-            <div className="relative">
-              <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
-              <Input
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder={t("map_search_placeholder", {
-                  count: places.length,
-                })}
-                className="pr-8 pl-8"
-                aria-label={t("map_search")}
-              />
-              {search && (
-                <button
-                  type="button"
-                  onClick={() => setSearch("")}
-                  aria-label={t("map_search_clear")}
-                  className="absolute top-1/2 right-1.5 grid size-6 -translate-y-1/2 place-items-center rounded-full text-muted-foreground transition hover:bg-muted hover:text-foreground"
-                >
-                  <X className="size-4" />
-                </button>
-              )}
-            </div>
-            <div className="flex flex-wrap gap-1.5">
+          <div
+            ref={fold.panelRef}
+            onPointerDownCapture={fold.settle}
+            className={cn(
+              "sticky top-0 z-10 border-b bg-card/95 backdrop-blur",
+              fold.folded ? "max-md:px-4 max-md:py-2 md:p-4" : "p-4",
+            )}
+          >
+            {/* Phones, once the list scrolls: one line with what's chosen. */}
+            {fold.folded && (
               <button
                 type="button"
-                aria-pressed={near}
-                onClick={() => {
-                  if (!near && geo.status !== "on") geo.start();
-                  setNear(!near);
-                }}
-                className={cn(
-                  "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition",
-                  near
-                    ? "border-[#2563eb] bg-[#2563eb] text-white"
-                    : "hover:bg-muted",
-                )}
+                onClick={fold.unfold}
+                aria-label={t("map_filters_show")}
+                className="flex w-full items-center gap-2 text-left text-xs md:hidden"
               >
-                <Navigation className="size-3" />
-                {t("near_me")}
-              </button>
-              {collection.categories.map((c) => {
-                const active = category === c.key;
-                return (
-                  <button
-                    key={c.key}
-                    type="button"
-                    aria-pressed={active}
-                    onClick={() => setCategory(active ? null : c.key)}
-                    className={cn(
-                      "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition",
-                      active
-                        ? "border-foreground bg-foreground text-background"
-                        : "hover:bg-muted",
-                    )}
-                  >
-                    <CategorySwatch
-                      categoryKey={c.key}
-                      color={c.color}
-                      withIcon
-                    />
-                    {c.label}
-                  </button>
-                );
-              })}
-            </div>
-            {/* On a phone, the filters below the categories fold away
-                behind a toggle that says how many of them are on. */}
-            <button
-              type="button"
-              aria-expanded={filtersOpen}
-              aria-controls="more-filters"
-              onClick={() => setFiltersOpen(!filtersOpen)}
-              className="flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-foreground md:hidden"
-            >
-              <ChevronDown
-                className={cn(
-                  "size-3.5 transition",
-                  filtersOpen && "rotate-180",
-                )}
-              />
-              {filtersOpen
-                ? t("map_filters_less")
-                : moreActive > 0
-                  ? t("map_filters_more_active", { count: moreActive })
-                  : t("map_filters_more")}
-            </button>
-            <div
-              id="more-filters"
-              className={cn("space-y-3", !filtersOpen && "max-md:hidden")}
-            >
-              {filterFields(collection.fields).map((f) => {
-                const selected = fieldFilters[f.key] ?? [];
-                const byDefault = isDefaultSelection(f, selected);
-                const chip = filterChip;
-                return (
-                  <fieldset
-                    key={f.key}
-                    className="flex flex-wrap items-center gap-1.5"
-                  >
-                    <legend className="sr-only">
-                      {t("map_filter_by", { field: f.label })}
-                    </legend>
-                    <span
-                      aria-hidden
-                      className="mr-1 text-xs text-muted-foreground"
-                    >
-                      {f.label}
+                <SlidersHorizontal className="size-4 shrink-0 text-muted-foreground" />
+                <span className="flex min-w-0 flex-1 gap-1.5 overflow-hidden">
+                  {chosen.length === 0 ? (
+                    <span className="text-muted-foreground">
+                      {t("map_filters_none")}
                     </span>
-                    <button
-                      type="button"
-                      aria-pressed={selected.length === 0}
-                      onClick={() => setFieldFilter(f.key, [])}
-                      className={chip(selected.length === 0)}
-                    >
-                      {t("map_filter_all")}
-                    </button>
-                    {(f.options ?? []).map((o) => {
-                      const active = selected.includes(o);
-                      return (
-                        <button
-                          key={o}
-                          type="button"
-                          aria-pressed={active}
-                          onClick={() =>
-                            setFieldFilter(
-                              f.key,
-                              active
-                                ? selected.filter((v) => v !== o)
-                                : [...selected, o],
-                            )
-                          }
-                          className={chip(active)}
-                        >
-                          {f.optionLabels?.[o] ?? o}
-                        </button>
-                      );
-                    })}
-                    {byDefault && (
-                      <span className="text-xs text-muted-foreground">
-                        {t("map_filter_default")}
+                  ) : (
+                    chosen.map((c) => (
+                      <span
+                        key={c}
+                        className="max-w-[60%] shrink-0 truncate rounded-full border border-foreground bg-foreground px-2 py-0.5 text-background"
+                      >
+                        {c}
                       </span>
-                    )}
-                  </fieldset>
-                );
-              })}
-              <fieldset className="flex flex-wrap items-center gap-1.5">
-                <legend className="sr-only">{t("map_filter_photo")}</legend>
-                <span
-                  aria-hidden
-                  className="mr-1 text-xs text-muted-foreground"
-                >
-                  {t("map_filter_photo")}
+                    ))
+                  )}
                 </span>
-                <button
-                  type="button"
-                  aria-pressed={!noPhoto}
-                  onClick={() => setNoPhoto(false)}
-                  className={filterChip(!noPhoto)}
-                >
-                  {t("map_filter_all")}
-                </button>
-                <button
-                  type="button"
-                  aria-pressed={noPhoto}
-                  onClick={() => setNoPhoto(true)}
-                  className={filterChip(noPhoto)}
-                >
-                  {t("map_filter_no_photo")}
-                </button>
-              </fieldset>
-            </div>
-            {(filtered || near) && (
-              <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground">
-                <span>
-                  {visiblePlaces.length < places.length &&
-                    t("map_filter_showing", {
-                      shown: visiblePlaces.length,
-                      total: places.length,
-                    })}
-                </span>
-                <button
-                  type="button"
-                  onClick={() => {
-                    clearFilters();
-                    setNear(false);
-                  }}
-                  className="inline-flex shrink-0 items-center gap-1 font-medium text-foreground hover:underline"
-                >
-                  <X className="size-3" />
-                  {t("map_filter_clear")}
-                </button>
-              </div>
+                {filtered && visiblePlaces.length < places.length && (
+                  <span className="shrink-0 text-muted-foreground tabular-nums">
+                    {visiblePlaces.length}
+                  </span>
+                )}
+                <ChevronDown className="size-4 shrink-0 text-muted-foreground" />
+              </button>
             )}
+            <div className={cn("space-y-3", fold.folded && "max-md:hidden")}>
+              <div className="relative">
+                <Search className="absolute top-2.5 left-2.5 size-4 text-muted-foreground" />
+                <Input
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  placeholder={t("map_search_placeholder", {
+                    count: places.length,
+                  })}
+                  className="pr-8 pl-8"
+                  aria-label={t("map_search")}
+                />
+                {search && (
+                  <button
+                    type="button"
+                    onClick={() => setSearch("")}
+                    aria-label={t("map_search_clear")}
+                    className="absolute top-1/2 right-1.5 grid size-6 -translate-y-1/2 place-items-center rounded-full text-muted-foreground transition hover:bg-muted hover:text-foreground"
+                  >
+                    <X className="size-4" />
+                  </button>
+                )}
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                <button
+                  type="button"
+                  aria-pressed={near}
+                  onClick={() => {
+                    if (!near && geo.status !== "on") geo.start();
+                    setNear(!near);
+                  }}
+                  className={cn(
+                    "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition",
+                    near
+                      ? "border-[#2563eb] bg-[#2563eb] text-white"
+                      : "hover:bg-muted",
+                  )}
+                >
+                  <Navigation className="size-3" />
+                  {t("near_me")}
+                </button>
+                {collection.categories.map((c) => {
+                  const active = category === c.key;
+                  return (
+                    <button
+                      key={c.key}
+                      type="button"
+                      aria-pressed={active}
+                      onClick={() => setCategory(active ? null : c.key)}
+                      className={cn(
+                        "flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs transition",
+                        active
+                          ? "border-foreground bg-foreground text-background"
+                          : "hover:bg-muted",
+                      )}
+                    >
+                      <CategorySwatch
+                        categoryKey={c.key}
+                        color={c.color}
+                        withIcon
+                      />
+                      {c.label}
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="space-y-3">
+                {filterFields(collection.fields).map((f) => {
+                  const selected = fieldFilters[f.key] ?? [];
+                  const byDefault = isDefaultSelection(f, selected);
+                  const chip = filterChip;
+                  return (
+                    <fieldset
+                      key={f.key}
+                      className="flex flex-wrap items-center gap-1.5"
+                    >
+                      <legend className="sr-only">
+                        {t("map_filter_by", { field: f.label })}
+                      </legend>
+                      <span
+                        aria-hidden
+                        className="mr-1 text-xs text-muted-foreground"
+                      >
+                        {f.label}
+                      </span>
+                      <button
+                        type="button"
+                        aria-pressed={selected.length === 0}
+                        onClick={() => setFieldFilter(f.key, [])}
+                        className={chip(selected.length === 0)}
+                      >
+                        {t("map_filter_all")}
+                      </button>
+                      {(f.options ?? []).map((o) => {
+                        const active = selected.includes(o);
+                        return (
+                          <button
+                            key={o}
+                            type="button"
+                            aria-pressed={active}
+                            onClick={() =>
+                              setFieldFilter(
+                                f.key,
+                                active
+                                  ? selected.filter((v) => v !== o)
+                                  : [...selected, o],
+                              )
+                            }
+                            className={chip(active)}
+                          >
+                            {f.optionLabels?.[o] ?? o}
+                          </button>
+                        );
+                      })}
+                      {byDefault && (
+                        <span className="text-xs text-muted-foreground">
+                          {t("map_filter_default")}
+                        </span>
+                      )}
+                    </fieldset>
+                  );
+                })}
+                <fieldset className="flex flex-wrap items-center gap-1.5">
+                  <legend className="sr-only">{t("map_filter_photo")}</legend>
+                  <span
+                    aria-hidden
+                    className="mr-1 text-xs text-muted-foreground"
+                  >
+                    {t("map_filter_photo")}
+                  </span>
+                  <button
+                    type="button"
+                    aria-pressed={!noPhoto}
+                    onClick={() => setNoPhoto(false)}
+                    className={filterChip(!noPhoto)}
+                  >
+                    {t("map_filter_all")}
+                  </button>
+                  <button
+                    type="button"
+                    aria-pressed={noPhoto}
+                    onClick={() => setNoPhoto(true)}
+                    className={filterChip(noPhoto)}
+                  >
+                    {t("map_filter_no_photo")}
+                  </button>
+                </fieldset>
+              </div>
+              {(filtered || near) && (
+                <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground">
+                  <span>
+                    {visiblePlaces.length < places.length &&
+                      t("map_filter_showing", {
+                        shown: visiblePlaces.length,
+                        total: places.length,
+                      })}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      clearFilters();
+                      setNear(false);
+                    }}
+                    className="inline-flex shrink-0 items-center gap-1 font-medium text-foreground hover:underline"
+                  >
+                    <X className="size-3" />
+                    {t("map_filter_clear")}
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
 
           {near && !here && (

@@ -31,5 +31,7 @@
   "areas_elsewhere": "Elders",
   "areas_browse": "Alle plekken per gebied",
   "areas_map": "Bekijk ze op de kaart",
-  "areas_description": "{{count}} bezienswaardigheden, curiositeiten en verhalen in {{area}}: {{names}}."
+  "areas_description": "{{count}} bezienswaardigheden, curiositeiten en verhalen in {{area}}: {{names}}.",
+  "map_filters_show": "Filters tonen",
+  "map_filters_none": "Alle plekken"
 }
