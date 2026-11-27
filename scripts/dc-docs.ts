@@ -5,6 +5,8 @@
  *   ---
  *   title: Michel de Klerk (1884–1923)
  *   summary: One or two sentences.
+ *   kind: list                        # optional: a list (description +
+ *                                     # its places, in order); default text
  *   attach:
  *     map: true                       # show on the map's front panel
  *     places: [Het Schip, Hillehuis]  # place titles or ids
@@ -58,6 +60,7 @@ interface TextVersion {
 }
 
 interface Draft {
+  kind: "text" | "list";
   title: string;
   summary: string;
   body: string;
@@ -83,6 +86,7 @@ export interface DocDeps {
 
 interface DocFile {
   path: string;
+  kind: "text" | "list";
   title: string;
   summary: string;
   map: boolean;
@@ -129,8 +133,12 @@ export const parseDocFile = (path: string, fail: DocDeps["fail"]): DocFile => {
   const attach = (front.attach ?? {}) as Obj;
   const title = String(front.title ?? "").trim();
   if (title.length < 2) fail(`${path}: "title" is required`, "BAD_DOC");
+  const kind = front.kind ?? "text";
+  if (kind !== "text" && kind !== "list")
+    fail(`${path}: "kind" must be text or list`, "BAD_DOC");
   return {
     path,
+    kind: kind === "list" ? "list" : "text",
     title,
     summary: String(front.summary ?? "").trim(),
     map: attach.map === true,
@@ -192,6 +200,7 @@ const canonical = (t: Record<string, TextVersion> | undefined) =>
 
 const sameDraft = (a: Draft, b: Draft) =>
   JSON.stringify([
+    a.kind,
     a.title,
     a.summary,
     a.body,
@@ -200,6 +209,7 @@ const sameDraft = (a: Draft, b: Draft) =>
     canonical(a.translations),
   ]) ===
   JSON.stringify([
+    b.kind,
     b.title,
     b.summary,
     b.body,
@@ -308,6 +318,7 @@ export const makeDocCommands = (deps: DocDeps) => {
         const res = (await mutate("document.save", {
           collectionId,
           draft: {
+            kind: f.kind,
             title: f.title,
             summary: f.summary,
             body: "",
@@ -396,6 +407,7 @@ export const makeDocCommands = (deps: DocDeps) => {
             })),
           ];
           const draft: Draft = {
+            kind: f.kind,
             title: f.title,
             summary: f.summary,
             body,

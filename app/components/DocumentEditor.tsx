@@ -214,6 +214,8 @@ export const DocumentEditor = ({
           documentId,
           baseRevision: revision,
           draft: {
+            // Not edited here: a list stays a list.
+            kind: initial.kind,
             title,
             summary,
             body,

@@ -39,6 +39,8 @@ export const DocumentList = ({
     trpc.document.list.queryOptions({
       collectionId,
       subject: { subjectType, subjectId },
+      // Lists have their own tab.
+      kind: "text",
     }),
   );
   const docs = rawDocs.map((d) => localize(d, translateTo));

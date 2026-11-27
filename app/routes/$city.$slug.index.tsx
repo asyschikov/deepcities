@@ -15,13 +15,13 @@ import {
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentList } from "~/components/DocumentList";
+import { ListsPanel } from "~/components/ListsPanel";
 import { RoleBadge } from "~/components/RoleBadge";
 import { RoutesPanel } from "~/components/RoutesPanel";
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
 import { VerdictSummary } from "~/components/Verdict";
-import { VisitHistory } from "~/components/VisitHistory";
 import { useAppMode } from "~/lib/app-mode";
 import { categoryIcon } from "~/lib/category-icons";
 import { distanceMeters } from "~/lib/diff";
@@ -214,10 +214,7 @@ const MapIndex = () => {
       />
 
       <div className="flex border-b" role="tablist">
-        {(viewer
-          ? (["places", "routes", "visited"] as const)
-          : (["places", "routes"] as const)
-        ).map((key) => (
+        {(["places", "routes", "lists"] as const).map((key) => (
           <button
             key={key}
             type="button"
@@ -238,8 +235,8 @@ const MapIndex = () => {
 
       {tab === "routes" ? (
         <RoutesPanel />
-      ) : tab === "visited" && viewer ? (
-        <VisitHistory collectionId={collection.id} translateTo={translateTo} />
+      ) : tab === "lists" ? (
+        <ListsPanel />
       ) : (
         <>
           <div className="space-y-3 border-b bg-card/95 p-4 backdrop-blur sticky top-0 z-10">

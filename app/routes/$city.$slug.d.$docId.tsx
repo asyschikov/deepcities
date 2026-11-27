@@ -260,7 +260,9 @@ const DocumentPage = () => {
           <section className="space-y-2 border-t pt-4">
             <h2 className="flex items-center gap-1.5 font-sans text-sm font-semibold">
               <MapIcon className="size-4" />
-              {t("doc_places", { count: places.length })}
+              {doc.kind === "list"
+                ? t("list_places", { count: places.length })
+                : t("doc_places", { count: places.length })}
             </h2>
             <ul className="divide-y rounded-lg border">
               {places.map((raw) => {
@@ -279,7 +281,7 @@ const DocumentPage = () => {
                       >
                         {p.coverPhotoId && (
                           <img
-                            src={photoUrl(p.coverPhotoId)}
+                            src={photoUrl(p.coverPhotoId, "thumb")}
                             alt=""
                             loading="lazy"
                             className="size-full object-cover"
@@ -293,6 +295,11 @@ const DocumentPage = () => {
                         <div className="text-xs" style={{ color: cat.color }}>
                           {cat.label}
                         </div>
+                        {doc.kind === "list" && p.summary && (
+                          <p className="line-clamp-2 text-xs text-muted-foreground">
+                            {p.summary}
+                          </p>
+                        )}
                       </div>
                     </Link>
                   </li>

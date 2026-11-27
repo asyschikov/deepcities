@@ -57,6 +57,7 @@ const EditDocumentPage = () => {
           revision={d.revision}
           photos={doc.photos}
           initial={{
+            kind: d.kind,
             title: d.title,
             summary: d.summary,
             body: d.body,

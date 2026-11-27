@@ -30,6 +30,7 @@ const NewDocumentPage = () => {
           slug={slug}
           collectionId={view.collection.id}
           initial={{
+            kind: "text",
             title: "",
             summary: "",
             body: "",

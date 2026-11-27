@@ -3,6 +3,7 @@ import { galleryPhotoIds, normalizeDocumentDraft } from "./documents";
 import type { DocumentDraft } from "./validation";
 
 const draft: DocumentDraft = {
+  kind: "text",
   title: "Michel de Klerk",
   summary: "",
   body: "![Het Schip](photo:p2)\n\ntext\n\n![tower](photo:p3)",

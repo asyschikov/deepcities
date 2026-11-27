@@ -1,6 +1,7 @@
 import { z } from "zod/v4";
 import {
   CONTENT_LANGUAGES,
+  DOCUMENT_KINDS,
   DOCUMENT_SUBJECTS,
   FIELD_TYPES,
   MAX_ATTACHMENTS_PER_DOCUMENT,
@@ -481,6 +482,8 @@ export const documentTranslationsSchema = translationsOf({
 export type DocumentTranslations = z.infer<typeof documentTranslationsSchema>;
 
 export const documentDraftSchema = z.object({
+  /** A text, or a list (a description with its places). */
+  kind: z.enum(DOCUMENT_KINDS).default("text"),
   title: z.string().trim().min(2).max(120),
   summary: z.string().trim().max(400).default(""),
   /** Markdown. Inline pictures: `![caption](photo:<photoId>)`. */
