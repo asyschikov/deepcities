@@ -17,7 +17,10 @@ export const getInitials = (name: string): string => {
  * (`/cdn-cgi/image/…`, enabled for the deepcities.org zone); they don't
  * exist in local dev, which gets the original.
  */
-const RESIZE = !import.meta.env.DEV;
+// Off: the free Cloudflare plan allows 5,000 resizes a month, and the site
+// went past it (error 9422 broke every photo). Originals until resizing is
+// paid for or done once at upload.
+const RESIZE = false;
 
 /**
  * Public URL of an uploaded photo (served by the worker from R2), with
