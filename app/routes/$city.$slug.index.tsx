@@ -86,7 +86,6 @@ const MapIndex = () => {
     Object.values(fieldFilters).some((v) => v.length > 0);
   // Near me: nearest first, with how far each place is.
   const [near, setNear] = useSearchFlag("near");
-  const [showIcons] = useSearchFlag("icons");
   const here = useSettledFix(geo.fix);
   // biome-ignore lint/correctness/useExhaustiveDependencies: start once when opened with ?near
   useEffect(() => {
@@ -302,7 +301,7 @@ const MapIndex = () => {
                     <CategorySwatch
                       categoryKey={c.key}
                       color={c.color}
-                      withIcon={showIcons}
+                      withIcon
                     />
                     {c.label}
                   </button>
