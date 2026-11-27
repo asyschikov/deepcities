@@ -5,13 +5,6 @@ summary: Painted walls across the city, on gables, bridges, a pumping hut and ev
 attach:
   map: true
   places:
-    - oq5dd28n4nfjbjaxgutjcb4a   # Diversity in Bureaucracy, the ballerina in a storm of forms
-    - jz9mzl8nz7aivbfzi3m8mjio   # Kees de jongen on the "Tuinpleintje"
-    - jr47cek3wsqvninu924vqimk   # The colonial army advert on the Palmgracht
-    - clky18r1i6rybrlofjduxzay   # The London Police on Prinsengracht 70, the mural the neighbo
-    - y9ufv6mcxorv2aiprzrdk9my   # The smoking skipper the city said no to
-    - ae5ft2ktzyjzhympi0gxswex   # Urban Jungle, the boy on the Sarphatistraat wall (Sarphatist
-    - e46w1cvsvrcb5brzsy2noa0u   # Vinkenstraat, a wall that makes you see suns
     - fo1fi1cudvv7q4pnhn3v85rn   # Wibautotisme, the poem under the Vaz Diasbrug
     - hqp4n596m9utlkenwea6an43   # Aan Tafel (Pris Roos)
     - mhdzo6xw83pxpmqjc3x7o51j   # Collectivism vs Individualism (Munir de Vries)
@@ -52,6 +45,6 @@ attach:
 photos:
   - photo:a7zh183ucvf68i6gxb65qjnu
 ---
-Works painted or sprayed straight onto the city: portraits, poems, protest and neighbourhood stories. The list runs area by area: Centrum, West, Nieuw-West, Zuid, Oost, Noord and Zuidoost.
+Works painted or sprayed straight onto the city: portraits, poems, protest and neighbourhood stories. The list runs area by area: Centrum, West, Nieuw-West, Zuid, Oost, Noord and Zuidoost. Most of Centrum's murals are on the Deep Centrum map.
 
 Mosaics, tile walls and reliefs are left out; you'll find them with the rest of the public art on the map.

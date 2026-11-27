@@ -197,7 +197,7 @@ const DocumentPage = () => {
 
         <header className="space-y-1.5">
           <div className="text-xs font-medium tracking-wide text-brick uppercase">
-            {t("doc_kicker")}
+            {doc.kind === "list" ? t("list_kicker") : t("doc_kicker")}
           </div>
           <h1
             className={cn(
