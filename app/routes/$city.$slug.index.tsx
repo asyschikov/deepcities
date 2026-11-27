@@ -128,7 +128,7 @@ const MapIndex = () => {
           </p>
         )}
         {collection.description && (
-          <div className="text-base leading-relaxed">
+          <div className="text-sm">
             <p
               className={cn(
                 "text-muted-foreground",
@@ -139,7 +139,7 @@ const MapIndex = () => {
             </p>
             <button
               type="button"
-              className="text-sm font-medium text-primary hover:underline"
+              className="text-xs font-medium text-primary hover:underline"
               onClick={() => setAboutOpen(!aboutOpen)}
             >
               {aboutOpen ? t("map_about_less") : t("map_about_more")}
