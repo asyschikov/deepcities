@@ -1,8 +1,0 @@
-{"language":"en","languages":["nl"],"translations":{"nl":{"title":"Hedendaagse architectuur","tagline":"De opvallende gebouwen van Amsterdam sinds 2000, en de oude die opnieuw zijn gemaakt.","fields":{
- "designer":{"label":"Architect","help":"De architecten van dit werk (het nieuwe gebouw of de verbouwing); de oorspronkelijke architect van een verbouwd gebouw staat in de tekst."},
- "completed":{"label":"Opgeleverd","help":"Jaar waarin het nieuwe gebouw of de verbouwing klaar was."},
- "decade":{"label":"Decennium","help":"Decennium waarin het werk klaar was.","options":{"2000s":"Jaren 2000","2010s":"Jaren 2010","2020s":"Jaren 2020"}},
- "work":{"label":"Soort werk","help":"Herbestemming: een gebouw met een nieuwe functie. Verbouwing of uitbreiding: dezelfde functie, verbouwd of vergroot.","options":{"New building":"Nieuwbouw","Remodel or extension":"Verbouwing of uitbreiding","Conversion":"Herbestemming","Bridge or infrastructure":"Brug of infrastructuur","Landscape or public space":"Landschap of openbare ruimte"}},
- "recognition":{"label":"Erkenning","help":"Prijzen en nominaties, bijv. Amsterdamse Architectuur Prijs 2021."},
- "access":{"label":"Mag je erin?","options":{"Open to the public":"Open voor publiek","Public parts only":"Alleen openbare delen","At set times":"Op vaste tijden","Outside only":"Alleen van buiten"}},
- "extra_description":{"label":"De architectuur","help":"Staat als deel van de beschrijving na de eigen tekst van de plek: het architectuurverhaal waar de gedeelde tekst het niet vertelt."}}}}}

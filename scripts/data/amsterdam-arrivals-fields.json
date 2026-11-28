@@ -1,6 +1,0 @@
-[
-  {"key":"community","label":"Who came","type":"select","filter":true,"help":"The newcomers this place is about.","options":["Sephardic Jews","Ashkenazi Jews","Huguenots and French","Germans and Scandinavians","Southern Europeans","Chinese","Indonesians and Moluccans","Surinamese","Antilleans and Arubans","Turks","Moroccans","Ghanaians and West Africans","Refugees","Expats and others","Many communities"]},
-  {"key":"era","label":"Era","type":"select","filter":true,"help":"When the arrivals this place is about happened.","options":["Golden Age (1580–1700)","1700–1900","1900–1945","Postwar (1945–1975)","1975–2000","Since 2000"]},
-  {"key":"years","label":"Years","type":"text","help":"When this place played its part."},
-  {"key":"extra_description","label":"The arrivals story","type":"longtext","help":"What this place tells about immigration, shown before its general description."}
-]

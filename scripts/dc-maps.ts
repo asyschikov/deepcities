@@ -268,7 +268,7 @@ MAPS
                                            in the file win, except "translations",
                                            which merge per key (null deletes one)
   dc map-export <slug>                     the map's whole configuration in the
-                                           map-create shape (keep it in scripts/data,
+                                           map-create shape (keep it as a backup,
                                            or change slug/title/city, drop translated
                                            titles, and create a copy)
   dc city-default <slug> on|off            super admins: the city's own map (its page

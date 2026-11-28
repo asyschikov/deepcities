@@ -1,5 +1,0 @@
-[
- {"key":"era","label":"Era","type":"select","options":["Before 1796","1796 to 1940","1940 to 1945","After 1945"],"filter":true,"help":"The period the place's story is mainly about. 1796: Jews became equal citizens of the Batavian Republic."},
- {"key":"theme","label":"Theme","type":"select","options":["Synagogues and religion","Community and care","Work and trade","Culture and sport","Persecution and war","Remembrance","Neighbourhoods","Cemeteries"],"filter":true},
- {"key":"extra_description","label":"Jewish history here","type":"longtext"}
-]

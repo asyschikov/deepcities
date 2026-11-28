@@ -264,8 +264,14 @@ shapes) are larger, so a restore would need a small loader that binds values.
 
 ## Content CLI (`pnpm dc`)
 
-Agents: the `manage-content` skill (`.claude/skills/manage-content/SKILL.md`) is the
-playbook for researching and importing content with this CLI.
+Content work (research, drafts, imports) happens in the `deepcities-research` repo,
+checked out next to this one: it holds the research, the content skills
+(`manage-content` is the playbook for this CLI) and a `pnpm dc` that runs this
+CLI from there. Only data the code itself uses stays here, in `scripts/data/`
+(the seed monuments, the map's field schema, Amsterdam's areas). Import files are
+not kept: the site is the copy of record, and `pnpm backup pull` (above) brings
+it down. The import files from before 2026-11-28 are in `backups/import-batches/`
+on the machine that made them.
 
 A JSON-in/JSON-out client for the public API, meant for scripts and LLM agents.
 `pnpm dc help` documents every command; `pnpm dc schema` prints the draft fields.
@@ -312,7 +318,7 @@ Documents are Markdown files with YAML front matter (`title`, `summary`,
 `attach: {map, places, routes}`, `photos`), imported by title:
 
 ```bash
-pnpm dc doc-import amsterdamse-school research/ams-school/documents/   # dir or files
+pnpm dc doc-import amsterdamse-school path/to/documents/   # dir or files
 pnpm dc docs amsterdamse-school --map
 ```
 
