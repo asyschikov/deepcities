@@ -3,6 +3,7 @@ import { TRPCError } from "@trpc/server";
 import { inArray } from "drizzle-orm";
 import { z } from "zod/v4";
 import { MAX_PHOTO_BYTES, PHOTO_LICENSE } from "~/lib/constants";
+import { chunked, rowChunk } from "~/lib/db/chunk";
 import { photo } from "~/lib/db/schema";
 import { idSchema } from "~/lib/validation";
 import { requireCap } from "../access";
@@ -108,7 +109,11 @@ export const photoRouter = router({
             ]
           : [];
       });
-      await ctx.db.insert(photo).values(rows);
+      // Ten columns a row: chunked to stay under D1's parameter limit.
+      const [first, ...rest] = chunked(rows, rowChunk(10)).map((chunk) =>
+        ctx.db.insert(photo).values(chunk),
+      );
+      if (first) await ctx.db.batch([first, ...rest]);
       return { ids: rows.map((r) => r.id) };
     }),
 });

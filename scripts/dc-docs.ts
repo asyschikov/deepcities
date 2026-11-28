@@ -478,15 +478,32 @@ export const makeDocCommands = (deps: DocDeps) => {
             results.push({ file, title: f.title, action: "created", ...res });
           }
         } catch (err) {
+          // A title-only stub this run created for the file would stay
+          // published, empty: archive it (kept in history).
+          const stubId = stubbed.has(norm(f.title))
+            ? docByTitle.get(norm(f.title))
+            : undefined;
+          const stubArchived =
+            !dry && stubId
+              ? await mutate("document.archive", {
+                  documentId: stubId,
+                  note: "dc doc-import failed for this file",
+                }).then(
+                  () => true,
+                  () => false,
+                )
+              : undefined;
           results.push({
             file,
             title: f.title,
             action: "failed",
             error: err instanceof Error ? err.message : String(err),
+            ...(stubArchived === undefined ? {} : { stubId, stubArchived }),
           });
         }
       }
       const count = (a: string) => results.filter((r) => r.action === a).length;
+      if (count("failed") > 0) process.exitCode = 1;
       return {
         summary: {
           files: files.length,

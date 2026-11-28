@@ -96,18 +96,18 @@ beforeEach(async () => {
     }),
     mapRow("west", null),
   ]);
-  await db
-    .insert(place)
-    .values([
-      placeRow("standout"),
-      placeRow("cluster"),
-      placeRow("leaf-1", { detail: "district", parentId: "cluster" }),
-      placeRow("leaf-2", { detail: "district", parentId: "cluster" }),
-      placeRow("loose-leaf", { detail: "district" }),
-      placeRow("west-sight", { borough: "West" }),
-      placeRow("archived-leaf", { detail: "district", status: "archived" }),
-      placeRow("elsewhere", { collectionId: "west" }),
-    ]);
+  // One statement per row: a place row binds about 18 parameters, D1 allows 100.
+  for (const row of [
+    placeRow("standout"),
+    placeRow("cluster"),
+    placeRow("leaf-1", { detail: "district", parentId: "cluster" }),
+    placeRow("leaf-2", { detail: "district", parentId: "cluster" }),
+    placeRow("loose-leaf", { detail: "district" }),
+    placeRow("west-sight", { borough: "West" }),
+    placeRow("archived-leaf", { detail: "district", status: "archived" }),
+    placeRow("elsewhere", { collectionId: "west" }),
+  ])
+    await db.insert(place).values(row);
 });
 
 describe("which places a map shows", () => {

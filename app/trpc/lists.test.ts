@@ -101,16 +101,16 @@ beforeEach(async () => {
     mapRow("hofjes", { source: "sights", list: true }),
     mapRow("west", null),
   ]);
-  await db
-    .insert(place)
-    .values([
-      placeRow("standout"),
-      placeRow("hofje-a", { detail: "district", category: "hofje" }),
-      placeRow("hofje-b", { detail: "district", category: "hofje" }),
-      placeRow("begijnhof", { detail: "theme", category: "hofje" }),
-      placeRow("archived-hofje", { detail: "district", status: "archived" }),
-      placeRow("elsewhere", { collectionId: "west" }),
-    ]);
+  // One statement per row: a place row binds about 18 parameters, D1 allows 100.
+  for (const row of [
+    placeRow("standout"),
+    placeRow("hofje-a", { detail: "district", category: "hofje" }),
+    placeRow("hofje-b", { detail: "district", category: "hofje" }),
+    placeRow("begijnhof", { detail: "theme", category: "hofje" }),
+    placeRow("archived-hofje", { detail: "district", status: "archived" }),
+    placeRow("elsewhere", { collectionId: "west" }),
+  ])
+    await db.insert(place).values(row);
   await db
     .insert(collectionPlace)
     .values(
@@ -303,6 +303,45 @@ describe("membership proposals", () => {
       note: null,
     });
     expect(await titles("hofjes")).toContain("hofje-b");
+  });
+
+  it("takes 100 places at once (D1's parameter limit)", async () => {
+    const others = Array.from({ length: 99 }, (_, i) => `not-listed-${i}`);
+    const res = await proposals(admin).setMembership({
+      collectionId: "hofjes",
+      action: "remove",
+      placeIds: ["standout", ...others],
+      note: null,
+    });
+    expect(res.results).toHaveLength(100);
+    expect(await titles("hofjes")).not.toContain("standout");
+  });
+
+  it("a proposal is reviewed once", async () => {
+    const res = await proposals(visitor).create({
+      kind: "create",
+      collectionId: "sights",
+      draft: draft({ title: "Reviewed twice" }),
+      note: null,
+    });
+    const review = () =>
+      proposals(admin).review({
+        proposalId: res.id,
+        decision: "approve",
+        note: null,
+      });
+    const outcomes = await Promise.allSettled([review(), review()]);
+    expect(outcomes.map((o) => o.status).sort()).toEqual([
+      "fulfilled",
+      "rejected",
+    ]);
+    const created = await db.query.place.findMany({
+      where: (p, { eq }) => eq(p.title, "Reviewed twice"),
+    });
+    expect(created).toHaveLength(1);
+    await expect(
+      proposals(visitor).withdraw({ proposalId: res.id }),
+    ).rejects.toThrow();
   });
 
   it("dry runs write nothing", async () => {

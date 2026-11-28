@@ -325,6 +325,15 @@ const out = (value: unknown) =>
 /** Every value of flags given more than once (e.g. --field a=1 --field b=2). */
 const repeatedFlags = new Map<string, string[]>();
 
+/** Flags that never take a value, so a following positional stays positional. */
+const BOOLEAN_FLAGS = new Set([
+  "dry-run",
+  "all",
+  "upsert",
+  "no-cross-check",
+  "help",
+]);
+
 const parseArgs = (argv: string[]) => {
   const positional: string[] = [];
   const flags: Record<string, string> = {};
@@ -336,7 +345,11 @@ const parseArgs = (argv: string[]) => {
     const a = argv[i] ?? "";
     if (a.startsWith("--")) {
       const next = argv[i + 1];
-      if (next === undefined || next.startsWith("--"))
+      if (
+        next === undefined ||
+        next.startsWith("--") ||
+        BOOLEAN_FLAGS.has(a.slice(2))
+      )
         setFlag(a.slice(2), "true");
       else {
         setFlag(a.slice(2), next);

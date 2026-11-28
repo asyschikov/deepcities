@@ -27,13 +27,24 @@ export const PhotoUploader = ({
   const [previews, setPreviews] = useState<Record<string, string>>({});
   const [busy, setBusy] = useState(0);
   const upload = useMutation(trpc.photo.upload.mutationOptions());
+  // The latest list and upload count: uploads finish after the user may have
+  // added, removed or reordered photos, so each one appends to what is there
+  // then, not to the list it started from.
+  const latest = useRef(value);
+  latest.current = value;
+  const pending = useRef(0);
+  const set = (ids: string[]) => {
+    latest.current = ids;
+    onChange(ids);
+  };
 
   const addFiles = async (files: File[]) => {
-    const room = max - value.length;
+    const room = Math.max(0, max - latest.current.length - pending.current);
     const picked = files.slice(0, room);
     if (files.length > room) toast.warning(t("photos_limit", { max }));
+    pending.current += picked.length;
     setBusy((b) => b + picked.length);
-    const ids = await Promise.all(
+    await Promise.all(
       picked.map(async (file) => {
         try {
           const img = await resizeImage(file);
@@ -45,23 +56,22 @@ export const PhotoUploader = ({
             height: img.height,
           });
           setPreviews((p) => ({ ...p, [id]: img.previewUrl }));
-          return id;
+          set([...latest.current, id]);
         } catch {
           toast.error(t("photos_upload_failed", { name: file.name }));
-          return null;
         } finally {
+          pending.current -= 1;
           setBusy((b) => b - 1);
         }
       }),
     );
-    onChange([...value, ...ids.filter((id): id is string => id !== null)]);
   };
 
   const move = (i: number) => {
-    const next = [...value];
+    const next = [...latest.current];
     const [item] = next.splice(i, 1);
     if (item) next.splice(i - 1, 0, item);
-    onChange(next);
+    set(next);
   };
 
   return (
@@ -95,7 +105,7 @@ export const PhotoUploader = ({
               )}
               <button
                 type="button"
-                onClick={() => onChange(value.filter((v) => v !== id))}
+                onClick={() => set(latest.current.filter((v) => v !== id))}
                 className="rounded bg-black/60 p-1 text-white"
                 aria-label={t("photos_remove")}
               >

@@ -7,6 +7,7 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { DatabaseSync, type SQLInputValue } from "node:sqlite";
 import { createDb, type Database } from "~/lib/db";
+import { D1_MAX_PARAMS } from "~/lib/db/chunk";
 import type { ServerEnv } from "~/lib/server-env";
 import type { Profile, TRPCContext } from "./init";
 
@@ -22,6 +23,11 @@ class Statement {
   ) {}
 
   bind(...params: Params) {
+    // D1 refuses statements with more than 100 bound parameters.
+    if (params.length > D1_MAX_PARAMS)
+      throw new Error(
+        `D1 allows at most ${D1_MAX_PARAMS} bound parameters, got ${params.length}`,
+      );
     return new Statement(this.sqlite, this.sql, params);
   }
 

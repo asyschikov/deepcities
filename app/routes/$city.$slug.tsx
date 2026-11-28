@@ -381,13 +381,15 @@ const MapLayout = () => {
     const q = search.trim().toLowerCase();
     const matches = (p: { title: string; summary: string }) =>
       p.title.toLowerCase().includes(q) || p.summary.toLowerCase().includes(q);
-    // Search both the shown language and the original.
+    // Search both the shown language and the original (`places` is sorted,
+    // so the original is looked up by id, not by index).
+    const rawById = new Map(rawPlaces.map((p) => [p.id, p]));
     return places.filter(
-      (p, i) =>
+      (p) =>
         (!category || p.category === category) &&
         matchesFieldFilters(p.attributes, fieldFilters) &&
         (!noPhoto || !p.coverPhotoId) &&
-        (!q || matches(p) || matches(rawPlaces[i] ?? p)),
+        (!q || matches(p) || matches(rawById.get(p.id) ?? p)),
     );
   }, [places, rawPlaces, category, fieldFilters, noPhoto, search]);
 

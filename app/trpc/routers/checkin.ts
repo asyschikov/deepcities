@@ -13,6 +13,7 @@ import {
   VERDICTS,
 } from "~/lib/constants";
 import type { Database } from "~/lib/db";
+import { selectIn } from "~/lib/db/chunk";
 import {
   checkin,
   checkinPhoto,
@@ -551,18 +552,18 @@ export const checkinRouter = router({
         limit: 500,
       });
       const placeIds = [...new Set(visits.map((v) => v.placeId))];
-      const verdicts =
-        placeIds.length > 0
-          ? await ctx.db
-              .select({ placeId: verdict.placeId, verdict: verdict.verdict })
-              .from(verdict)
-              .where(
-                and(
-                  eq(verdict.profileId, ctx.profile.id),
-                  inArray(verdict.placeId, placeIds),
-                ),
-              )
-          : [];
+      const profileId = ctx.profile.id;
+      const verdicts = await selectIn(placeIds, (ids) =>
+        ctx.db
+          .select({ placeId: verdict.placeId, verdict: verdict.verdict })
+          .from(verdict)
+          .where(
+            and(
+              eq(verdict.profileId, profileId),
+              inArray(verdict.placeId, ids),
+            ),
+          ),
+      );
       const verdictOf = new Map(verdicts.map((v) => [v.placeId, v.verdict]));
       return visits.map((v) => ({
         id: v.id,

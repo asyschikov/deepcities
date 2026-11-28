@@ -8,6 +8,7 @@ import {
   MAX_PHOTOS_PER_DOCUMENT,
 } from "~/lib/constants";
 import type { Database } from "~/lib/db";
+import { chunked, rowChunk, selectIn } from "~/lib/db/chunk";
 import {
   document,
   documentAttachment,
@@ -27,21 +28,7 @@ import { getAccess, requireCap } from "../access";
 import { publicProcedure, router } from "../init";
 import { loadViewMap, photoMapIds, poolWhere } from "../map-places";
 
-/**
- * D1 allows at most 100 bound parameters per statement, so long id lists and
- * multi-row inserts are split into chunks.
- */
-const ID_CHUNK = 90;
-const ROW_CHUNK = 20; // attachment rows have 4 columns
-const chunked = <T>(xs: T[], size: number): T[][] =>
-  Array.from({ length: Math.ceil(xs.length / size) }, (_, i) =>
-    xs.slice(i * size, (i + 1) * size),
-  );
-/** Run `run` per chunk of `ids` and concatenate the rows. */
-const selectIn = async <R>(
-  ids: string[],
-  run: (chunk: string[]) => Promise<R[]>,
-): Promise<R[]> => (await Promise.all(chunked(ids, ID_CHUNK).map(run))).flat();
+const ROW_CHUNK = rowChunk(4); // attachment rows have 4 columns
 
 const subjectSchema = z.object({
   subjectType: z.enum(DOCUMENT_SUBJECTS),

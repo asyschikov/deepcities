@@ -455,23 +455,25 @@ export const CheckInButton = ({
     enabled: viewer !== null,
   });
   if (!viewer) return null;
-  if (data?.checkedIn) {
-    return (
-      <Button size={size} variant="outline" className={className} disabled>
-        <CircleCheck className="text-[#15803d]" /> {t("visit_checked_in_done")}
-      </Button>
-    );
-  }
+  // The dialog stays mounted once checked in: its "make your profile
+  // public" prompt opens after the check-in has refreshed this query.
   return (
     <>
-      <Button
-        size={size}
-        variant={variant}
-        className={className}
-        onClick={() => setOpen(true)}
-      >
-        <MapPinCheck /> {label ?? t("visit_check_in")}
-      </Button>
+      {data?.checkedIn ? (
+        <Button size={size} variant="outline" className={className} disabled>
+          <CircleCheck className="text-[#15803d]" />{" "}
+          {t("visit_checked_in_done")}
+        </Button>
+      ) : (
+        <Button
+          size={size}
+          variant={variant}
+          className={className}
+          onClick={() => setOpen(true)}
+        >
+          <MapPinCheck /> {label ?? t("visit_check_in")}
+        </Button>
+      )}
       <CheckInDialog
         placeId={placeId}
         placeTitle={placeTitle}

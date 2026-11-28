@@ -4,6 +4,7 @@ import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod/v4";
 import { type PlaceDetail, PROPOSAL_STATUSES } from "~/lib/constants";
 import type { Database } from "~/lib/db";
+import { selectIn } from "~/lib/db/chunk";
 import {
   checkinPhoto,
   collectionPlace,
@@ -1065,15 +1066,17 @@ export const proposalRouter = router({
           where: inArray(place.id, ids),
           columns: { id: true, collectionId: true, status: true },
         }),
-        ctx.db
-          .select({ placeId: collectionPlace.placeId })
-          .from(collectionPlace)
-          .where(
-            and(
-              eq(collectionPlace.collectionId, input.collectionId),
-              inArray(collectionPlace.placeId, ids),
+        selectIn(ids, (chunk) =>
+          ctx.db
+            .select({ placeId: collectionPlace.placeId })
+            .from(collectionPlace)
+            .where(
+              and(
+                eq(collectionPlace.collectionId, input.collectionId),
+                inArray(collectionPlace.placeId, chunk),
+              ),
             ),
-          ),
+        ),
       ]);
       const inList = new Set(members.map((m) => m.placeId));
       const adding = input.action === "add";
@@ -1228,19 +1231,39 @@ export const proposalRouter = router({
       if (found.status !== "pending") {
         throw new TRPCError({ code: "CONFLICT", message: "Already reviewed" });
       }
-      if (input.decision === "approve") {
-        const ids = await applyAny(ctx.db, found, ctx.profile.id, input.note);
-        return { status: "approved" as const, ...ids };
-      }
-      await ctx.db
+      // Claim the proposal first, guarded on its status, so two concurrent
+      // reviews can't both apply it (e.g. insert a new place twice).
+      const claimed = await ctx.db
         .update(proposal)
         .set({
-          status: "rejected",
+          status: input.decision === "approve" ? "approved" : "rejected",
           reviewedBy: ctx.profile.id,
           reviewNote: input.note,
           reviewedAt: new Date(),
         })
-        .where(eq(proposal.id, found.id));
+        .where(and(eq(proposal.id, found.id), eq(proposal.status, "pending")))
+        .returning({ id: proposal.id });
+      if (claimed.length === 0) {
+        throw new TRPCError({ code: "CONFLICT", message: "Already reviewed" });
+      }
+      if (input.decision === "approve") {
+        try {
+          const ids = await applyAny(ctx.db, found, ctx.profile.id, input.note);
+          return { status: "approved" as const, ...ids };
+        } catch (err) {
+          // Applying failed (e.g. a stale edit): back in the queue.
+          await ctx.db
+            .update(proposal)
+            .set({
+              status: "pending",
+              reviewedBy: null,
+              reviewNote: null,
+              reviewedAt: null,
+            })
+            .where(eq(proposal.id, found.id));
+          throw err;
+        }
+      }
       return {
         status: "rejected" as const,
         placeId: found.placeId,
@@ -1258,10 +1281,14 @@ export const proposalRouter = router({
           message: "Can't withdraw this",
         });
       }
-      await ctx.db
+      const withdrawn = await ctx.db
         .update(proposal)
         .set({ status: "withdrawn" })
-        .where(eq(proposal.id, found.id));
+        .where(and(eq(proposal.id, found.id), eq(proposal.status, "pending")))
+        .returning({ id: proposal.id });
+      if (withdrawn.length === 0) {
+        throw new TRPCError({ code: "CONFLICT", message: "Already reviewed" });
+      }
       return { ok: true };
     }),
 });
