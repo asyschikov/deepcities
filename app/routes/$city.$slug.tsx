@@ -145,6 +145,8 @@ const MapLayout = () => {
       navigate({
         to: ".",
         search: (prev: Record<string, unknown>) => ({ ...prev, ...patch }),
+        // Keep the entry's state (whether the phone showed map or list).
+        state: true,
         replace: true,
         resetScroll: false,
       }),
@@ -218,15 +220,42 @@ const MapLayout = () => {
   const [hoverPlaceId, setHoverPlaceId] = useState<string | null>(null);
   const isPeerOf = useIsPeerOf();
   // Phones: the map fills the screen and the panel opens over it. Opening a
-  // place, route or form shows the panel; the map's own page keeps whatever
-  // the reader last chose (layout only, so not in the URL).
+  // place, route or form shows the panel. The map's own page remembers in
+  // its history entry (not the URL: layout only, and meaningless on
+  // desktop) whether it showed the map or the list, so Back from a place
+  // returns to whichever it was.
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const onMapHome = pathname.replace(/\/$/, "") === `/${city}/${slug}`;
+  const savedPanel = useRouterState({
+    select: (s) => s.location.state.mapPanel,
+  });
+  const entryIndex = useRouterState({
+    select: (s) => s.location.state.__TSR_index,
+  });
   const [panelOpen, setPanelOpen] = useState(!onMapHome);
-  // biome-ignore lint/correctness/useExhaustiveDependencies: each new page (pathname) opens the panel
+  const seen = useRef({ pathname, entryIndex });
   useEffect(() => {
-    if (!onMapHome) setPanelOpen(true);
-  }, [onMapHome, pathname]);
+    const newPage = pathname !== seen.current.pathname;
+    // A push or Back/Forward; replacing the entry (search params) keeps it.
+    const newEntry = entryIndex !== seen.current.entryIndex;
+    seen.current = { pathname, entryIndex };
+    if (!onMapHome) {
+      if (newPage) setPanelOpen(true);
+      return;
+    }
+    if (newEntry && savedPanel !== undefined) {
+      setPanelOpen(savedPanel);
+      return;
+    }
+    if (savedPanel !== panelOpen)
+      navigate({
+        to: ".",
+        search: true,
+        state: (prev) => ({ ...prev, mapPanel: panelOpen }),
+        replace: true,
+        resetScroll: false,
+      });
+  }, [pathname, entryIndex, onMapHome, savedPanel, panelOpen, navigate]);
 
   // Places the reader has checked in to (ticked on the map and in lists).
   const viewer = useViewer();

@@ -92,6 +92,7 @@ export const useSearchFlag = (
         ...prev,
         [key]: on || undefined,
       }),
+      state: true,
       replace: true,
       resetScroll: false,
     });
