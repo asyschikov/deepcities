@@ -26,7 +26,7 @@ const MEDIA_PER_RUN = 300;
 const PAGE_TARGET_CHARS = 2_000_000;
 const PAGE_MIN_ROWS = 10;
 const PAGE_MAX_ROWS = 1000;
-/** R2 multipart parts must be at least 5 MB (except the last). */
+/** R2 multipart parts: at least 5 MB and all the same size, except the last. */
 const PART_BYTES = 8 * 1024 * 1024;
 const PRIVATE_PREFIX = "checkins/";
 
@@ -154,32 +154,32 @@ const putGzipped = async (
     httpMetadata: { contentType: "application/gzip" },
   });
   try {
+    // Every part but the last must be exactly the same size.
     const parts: R2UploadedPart[] = [];
-    let pending: Uint8Array[] = [];
-    let size = 0;
+    let part = new Uint8Array(PART_BYTES);
+    let filled = 0;
     let total = 0;
     const flush = async () => {
-      const body = new Uint8Array(size);
-      let offset = 0;
-      for (const p of pending) {
-        body.set(p, offset);
-        offset += p.byteLength;
-      }
-      parts.push(await upload.uploadPart(parts.length + 1, body));
-      total += size;
-      pending = [];
-      size = 0;
+      parts.push(
+        await upload.uploadPart(parts.length + 1, part.subarray(0, filled)),
+      );
+      total += filled;
+      part = new Uint8Array(PART_BYTES);
+      filled = 0;
     };
     for (;;) {
       const { done, value } = await reader.read();
-      if (value) {
-        pending.push(value);
-        size += value.byteLength;
+      let rest = value ?? new Uint8Array(0);
+      while (rest.byteLength > 0) {
+        const take = Math.min(rest.byteLength, PART_BYTES - filled);
+        part.set(rest.subarray(0, take), filled);
+        filled += take;
+        rest = rest.subarray(take);
+        if (filled === PART_BYTES) await flush();
       }
-      if (size >= PART_BYTES || (done && (size > 0 || parts.length === 0)))
-        await flush();
       if (done) break;
     }
+    if (filled > 0 || parts.length === 0) await flush();
     await upload.complete(parts);
     return total;
   } catch (err) {
