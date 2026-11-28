@@ -240,7 +240,27 @@ listed contributors are. Banned users are read-only.
 | `pnpm set-role <email> <user\|super_admin> [--remote]` | Change a site role                             |
 | `pnpm mint-token <email> [--remote] [--name N]`        | Mint an API token directly in D1 (bootstrap)   |
 | `pnpm dc <command>`                                    | Content CLI, see below                         |
+| `pnpm backup pull` / `run` / `list`                    | Pull the site's backups to this machine        |
 | `pnpm check` / `pnpm typecheck` / `pnpm test`          | Biome / tsc / Vitest                           |
+
+## Backups
+
+The worker dumps the whole database every night (03:17 UTC, the cron in
+`wrangler.jsonc`) as gzipped SQL into the `deep-cities-backups` bucket
+(`db/<time>.sql.gz`: 30 days of dailies, the first of each month for good) and
+copies new photos there under `media/` (`app/lib/backup.server.ts`). Private
+check-in photos are not copied, so forgetting a visit really deletes them.
+
+`pnpm backup pull` (a super admin's `dc` login) downloads the newest dump and the
+photos not yet here into `backups/` at the root of the main checkout (untracked,
+shared by all worktrees; `DC_BACKUP_DIR` overrides) and loads the dump into
+`backups/deepcities.sqlite`: the copy to research from
+(`sqlite3 backups/deepcities.sqlite`). `--all` fetches every dump, `--private`
+also the private check-in photos. `pnpm backup run` makes a backup now.
+
+The dump loads into SQLite as is. Loading it back into D1 has not been
+rehearsed: D1 limits a statement to 100 KB, and some rows (routes, area
+shapes) are larger, so a restore would need a small loader that binds values.
 
 ## Content CLI (`pnpm dc`)
 

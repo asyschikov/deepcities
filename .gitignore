@@ -10,3 +10,5 @@ dist
 .claude/*
 !.claude/skills/
 __pycache__/
+# Pulled backups and old import files (pnpm backup pull): local only.
+backups/

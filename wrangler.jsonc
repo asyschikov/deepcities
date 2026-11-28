@@ -33,6 +33,14 @@
       "migrations_dir": "app/lib/db/migrations"
     }
   ],
-  "r2_buckets": [{ "binding": "R2", "bucket_name": "deep-cities" }],
+  "r2_buckets": [
+    { "binding": "R2", "bucket_name": "deep-cities" },
+    // Nightly database dumps and a copy of the photos (app/lib/backup.server.ts).
+    { "binding": "BACKUPS", "bucket_name": "deep-cities-backups" }
+  ],
+  // The backup, nightly at 03:17 UTC.
+  "triggers": { "crons": ["17 3 * * *"] },
+  // Dumping the database takes more than the default 30 s of CPU as it grows.
+  "limits": { "cpu_ms": 120000 },
   "send_email": [{ "name": "EMAIL" }]
 }

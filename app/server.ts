@@ -13,6 +13,7 @@ import {
   redeemLoginToken,
   sessionCookie,
 } from "./lib/auth.server";
+import { handleBackups, scheduledBackup } from "./lib/backup.server";
 import { createDb } from "./lib/db";
 import { checkinPhoto, photo } from "./lib/db/schema";
 import { PREFIXED_LANGS } from "./lib/place-page";
@@ -180,6 +181,9 @@ export default {
         },
       });
 
+    if (pathname.startsWith("/api/backups/"))
+      return handleBackups(request, env);
+
     if (pathname === "/auth/verify") return handleVerify(request, env);
     if (pathname === "/auth/signout" && request.method === "POST")
       return handleSignOut(request, env);
@@ -212,5 +216,14 @@ export default {
     )
       return cachedPublicPage(request, ctx, render);
     return render();
+  },
+
+  /** The nightly backup (the cron in wrangler.jsonc). */
+  async scheduled(
+    _controller: ScheduledController,
+    env: ServerEnv,
+    ctx: ExecutionContext,
+  ): Promise<void> {
+    ctx.waitUntil(scheduledBackup(env));
   },
 };

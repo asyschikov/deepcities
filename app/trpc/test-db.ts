@@ -92,6 +92,8 @@ class FakeD1 {
 export interface TestDb {
   db: Database;
   sqlite: DatabaseSync;
+  /** The D1 binding itself, for code that uses it without drizzle. */
+  d1: D1Database;
 }
 
 /** A fresh database with the schema from the migrations. */
@@ -103,7 +105,7 @@ export const testDb = (): TestDb => {
     .sort())
     sqlite.exec(readFileSync(join(MIGRATIONS, file), "utf8"));
   const d1 = new FakeD1(sqlite) as unknown as D1Database;
-  return { db: createDb(d1), sqlite };
+  return { db: createDb(d1), sqlite, d1 };
 };
 
 /** A tRPC context for `profile` (null: signed out). */

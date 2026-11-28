@@ -63,7 +63,8 @@
       "!**/pnpm-lock.yaml",
       "!**/*.d.ts",
       "!**/.claude/**",
-      "!**/research/**"
+      "!**/research/**",
+      "!**/backups/**"
     ]
   }
 }

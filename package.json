@@ -20,7 +20,8 @@
     "test": "vitest run",
     "ship": "bash scripts/deploy.sh",
     "dc": "node --no-warnings scripts/dc.ts",
-    "mint-token": "node --no-warnings scripts/mint-token.ts"
+    "mint-token": "node --no-warnings scripts/mint-token.ts",
+    "backup": "node --no-warnings scripts/backup.ts"
   },
   "packageManager": "pnpm@10.30.3",
   "dependencies": {

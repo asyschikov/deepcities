@@ -4,6 +4,8 @@ import { env } from "cloudflare:workers";
 export interface ServerEnv {
   DB: D1Database;
   R2: R2Bucket;
+  /** Database dumps and the media mirror (app/lib/backup.server.ts). */
+  BACKUPS: R2Bucket;
   /** "dev" locally; anything else is a deployed environment. */
   APP_ENV: string;
   /** Canonical origin used in emailed links, e.g. https://deepcities.app */
